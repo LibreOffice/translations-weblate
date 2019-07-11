@@ -1,0 +1,409 @@
+#. extracted from nlpsolver/help/en/com.sun.star.comp.Calc.NLPSolver
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2016-11-09 14:10+0100\n"
+"PO-Revision-Date: 2017-01-21 01:14+0000\n"
+"Last-Translator: Necdet Yucel <necdetyucel@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1484961288.000000\n"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"tit\n"
+"help.text"
+msgid "Options"
+msgstr "Seçenekler"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"bm_id0503200917110375_scalc\n"
+"help.text"
+msgid "<bookmark_value>Solver for Nonlinear Problems;Options</bookmark_value>"
+msgstr "<bookmark_value>Lineer Olmayan Sorular için Çözücü;Ayarlar</bookmark_value>"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"hd_id0503200917103593\n"
+"help.text"
+msgid "General Options"
+msgstr "Genel Seçenekler"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103780\n"
+"help.text"
+msgid "Size of Swarm"
+msgstr "Küme Boyutu"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103723\n"
+"help.text"
+msgid "… defines the number of individuals to participate in the learning process. Each individual finds its own solutions and contributes to the overall knowledge."
+msgstr "... öğrenme sürecine katılan bireylerin sayısını belirler. Her birey kendi çözümünü bulur ve toplam bilgiye katkı sağlar."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103771\n"
+"help.text"
+msgid "Learning Cycles"
+msgstr "Öğrenme Döngüleri"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103720\n"
+"help.text"
+msgid "… defines the number of iterations, the algorithm should take. In each iteration, all individuals make a guess on the best solution and share their knowledge."
+msgstr "... algoritmanın alacağı yinelemelerin sayısını belirler. Her yinelemede, her birey en iyi çözüm için tahminde bulunur ve bilgi birikimlerini paylaşır."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103732\n"
+"help.text"
+msgid "Variable Bounds Guessing"
+msgstr "Değişken Bağlar Tahmin Ediliyor"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id050320091710378\n"
+"help.text"
+msgid "If enabled (default), the algorithm tries to find variable bounds by looking at the starting values."
+msgstr "Etkinse (varsayılan), algoritma başlangıç değerlerini inceleyerek değişken bağımlılığınıı bulmayı dener."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103794\n"
+"help.text"
+msgid "Variable Bounds Threshold"
+msgstr "Değişken Bağlılıkları Eşiği"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103710\n"
+"help.text"
+msgid "When guessing variable bounds, this threshold specifies, how the initial values are shifted to build the bounds. For an example how these values are calculated, please refer to the Manual in the Wiki."
+msgstr "Bu eşik ile, değişken bağlılıkları seçilirken,başlangıç değerlerinin bağlılıkları kurmak için nasıl değiştirileceğini belirlenir. Değer hesaplamalarını incelemek için lütfen Wiki Yardım kısmına bakınız."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103740\n"
+"help.text"
+msgid "Use ACR Comparator"
+msgstr "ACR Karşılaştırıcısı kullan"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103766\n"
+"help.text"
+msgid "If <emph>disabled</emph> (default), the BCH Comparator is used. It compares two individuals by first looking at their constraint violations and only if those are equal, it measures their current solution."
+msgstr "Eğer <emph>devre dışı</emph>(varsayılan) ise, BCH Karşılaştırıcısı kullanılacaktır. Bu iki tekili ilk önce bunların kısıt ihlallerine bakmakta ve sadece bunlar eşitse; mevcut çözümlerini ölçmektedir."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103744\n"
+"help.text"
+msgid "If <emph>enabled</emph>, the ACR Comparator is used. It compares two individuals dependent on the current iteration and measures their goodness with knowledge about the libraries worst known solutions (in regard to their constraint violations)."
+msgstr "<emph>Etkin</emph> ise, ACR Karşılaştırıcısı kullanılır. Mevcut yinelemeye bağlı olan iki bireyi karşılaştırır ve bireylerin uygunluğunu kütüphanelere dair bilinen en kötü çözümler hakkındaki bilgileri ile ölçer."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103792\n"
+"help.text"
+msgid "Use Random Starting Point"
+msgstr "Rasgele Başlangıç Noktası Kullan"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103790\n"
+"help.text"
+msgid "If <emph>enabled</emph>, the library is simply filled up with randomly chosen points."
+msgstr "<emph>Etkin</emph> ise, kitaplık rastgele seçilmiş noktalar ile doldurulur."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103765\n"
+"help.text"
+msgid "If <emph>disabled</emph>, the currently present values (as given by the user) are inserted in the library as reference point."
+msgstr "<emph>Etkin değil</emph> ise, halihazırda mevcut değerler (kullanıcı tarafından verildiği şekilde) kütüphaneye başvuru noktası olarak eklenir."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0504200917103794\n"
+"help.text"
+msgid "Stagnation Limit"
+msgstr "Yanıtsızlık Sınırı"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id050320091710377\n"
+"help.text"
+msgid "If this number of individuals found solutions within a close range, the iteration is stopped and the best of these values is chosen as optimal."
+msgstr "Bu kadar sayıda birey yakın aralıkta çözüm bulduysa, yineleme durdurulur ve bu değerlerin en iyisi eniyi olarak seçilir."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103762\n"
+"help.text"
+msgid "Stagnation Tolerance"
+msgstr "Yanıtsızlık Toleransı"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103834\n"
+"help.text"
+msgid "Defines in what range solutions are considered “similar”."
+msgstr "Çözümlerin hangi aralıkla “benzer” olarak tanımlanacağını belirler."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103891\n"
+"help.text"
+msgid "Show Enhanced Solver Status"
+msgstr "Gelişmiş Çözüm Durumunu Göster"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103832\n"
+"help.text"
+msgid "If <emph>enabled</emph>, an additional dialog is shown during the solving process which gives information about the current progress, the level of stagnation, the currently best known solution as well as the possibility, to stop or resume the solver."
+msgstr "<emph>Etkin</emph> ise, çözme sürecinde çözücüyü durdurmak ya da kaldığı yerden devam ettirmek için mevcut ilerleme, durma düzeyi, bilinen en iyi çözüm ve bu çözümün olabilirliği hakkında bilgi veren ek bir iletişim arayüzü gösterilir."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"hd_id0603200910392151\n"
+"help.text"
+msgid "DEPS-specific Options"
+msgstr "DEPS'e özgü Seçenekler"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394232\n"
+"help.text"
+msgid "Agent Switch Rate"
+msgstr "Aracı Değiştirme Oranı"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394248\n"
+"help.text"
+msgid "Specifies the probability for an individual to choose the Differential Evolution strategy."
+msgstr "Bireyin Diferansiyel Evrim yöntemini belirlemesi için gerekli olasılığı belirtir."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394277\n"
+"help.text"
+msgid "DE: Crossover Probability"
+msgstr "DE: Çaprazlama Olasılığı"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394280\n"
+"help.text"
+msgid "… defines the probability of the individual being combined with the globally best point. If crossover is not used, the point is assembled from the own memory of the individual."
+msgstr "... bireyin genel en iyi nokta ile birleştirilme olasılığını tanımlar. Çaprazlama kullanılmazsa nokta, bireyin kendi belleğinden toplanır."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394216\n"
+"help.text"
+msgid "DE: Scaling Factor"
+msgstr "DE: Ölçekleme Katsayısı"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id060320091039424\n"
+"help.text"
+msgid "During crossover, the scaling factor decides about the “speed” of movement."
+msgstr "Çaprazlama sırasında, ölçekleme katsayısı hareketin “hızını” belirler."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id060320091039421\n"
+"help.text"
+msgid "PS: Constriction Coefficient"
+msgstr "PS: Daralma Katsayısı"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394225\n"
+"help.text"
+msgid "… defines the speed at which the particles/individuals move towards each other."
+msgstr "... parçacıkların/bireylerin birbirlerine doğru hareket etme hızlarını tanımlar."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394222\n"
+"help.text"
+msgid "PS: Cognitive Constant"
+msgstr "PS: Bilişsel Sabit"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394212\n"
+"help.text"
+msgid "… sets the importance of the own memory (in particular the best reached point so far)."
+msgstr "... kendi hafızasının önemini belirler (özellikle o ana kadar erişilmiş en iyi nokta)."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394292\n"
+"help.text"
+msgid "PS: Social Constant"
+msgstr "PS: Sosyal Sabit"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394284\n"
+"help.text"
+msgid "… sets the importance of the global best point between all particles/individuals."
+msgstr "Tüm arçacıklar/bireyler arasındaki küresel en iyi noktanın önemini kurar."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id060320091039425\n"
+"help.text"
+msgid "PS: Mutation Probability"
+msgstr "PS: Mutasyon Olasılığı"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394272\n"
+"help.text"
+msgid "… defines the probability, that instead of moving a component of the particle towards the best point, it randomly chooses a new value from the valid range for that variable."
+msgstr "... parçacık bileşenin en iyi noktaya hareketinden ziyade değişken için geçerli aralıktan rastgele yeni değer seçilme olasılığını tanımlar."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"hd_id0603200910401383\n"
+"help.text"
+msgid "SCO-specific Options"
+msgstr "SCO'ya özgü Seçenekler"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910401382\n"
+"help.text"
+msgid "Size of Library"
+msgstr "Kitaplık Boyutu"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id060320091040136\n"
+"help.text"
+msgid "… defines the amount of information to store in the public library. Each individual stores knowledge there and asks for information."
+msgstr "... ortak kitaplıkta saklanacak bilgi miktarını tanımlar. Her birey bilgisini orada saklar ve oradan bilgi ister."
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"tit\n"
+"help.text"
+msgid "Usage"
+msgstr "Kullanım"
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"bm_id0603200910434044_scalc\n"
+"help.text"
+msgid "<bookmark_value>Solver for Nonlinear Problems;Usage</bookmark_value>"
+msgstr "<bookmark_value>Doğrusal Olmayan Problemler için Çözücü;Kullanım</bookmark_value>"
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"hd_id0603200910430882\n"
+"help.text"
+msgid "Usage"
+msgstr "Kullanım"
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"par_id0603200910430845\n"
+"help.text"
+msgid "Regardless whether you use DEPS or SCO, you start by going to Tools - Solver and set the Cell to be optimized, the direction to go (minimization, maximization) and the cells to be modified to reach the goal. Then you go to the Options and specify the solver to be used and if necessary adjust the according <link href=\"com.sun.star.comp.Calc.NLPSolver/Options.xhp\">parameters</link>."
+msgstr "DEPS ya da SCO algoritmalarını kullanmanızdan bağımsız olarak Araçlar - Çözücü yolu ile başlarsınız ve en iyi değeri bulunacak Hücreyi, eniyilemenin yönünü (enküçükleme, enbüyükleme) ve hedefe ulaşmak için değiştirilecek hücreleri belirlersiniz. Devamında Seçenekler'e gidersiniz ve kullanılacak çözücüyü berlirtirsiniz; gerekirse ilgili <link href=\"com.sun.star.comp.Calc.NLPSolver/Options.xhp\">parametreleri</link> ayarlayınız."
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"par_id0603200910430821\n"
+"help.text"
+msgid "There is also a list of constraints you can use to restrict the possible range of solutions or to penalize certain conditions. However, in case of the evolutionary solvers DEPS and SCO, these constraints are also used to specify bounds on the variables of the problem. Due to the random nature of the algorithms, it is <emph>highly recommended</emph> to do so and give upper (and in case \"Assume Non-Negative Variables\" is turned off also lower) bounds for all variables. They don't have to be near the actual solution (which is probably unknown) but should give a rough indication of the expected size (0 ≤ var ≤ 1 or maybe -1000000 ≤ var ≤ 1000000)."
+msgstr "Ayrıca olası çözüm aralığını sınırlamak ya da belirli koşulları cezalandırmak için kullanabileceğiniz bir kısıtlar listesi de bulunmaktadır. Ancak, evrimsel çözücüler olan DEPS ve SCO için bu kısıtlar aynı zamanda problemin değişkenleri üzerinde sınırlar belirlemek için de kullanılmaktadır. Algoritmaların rassal doğası nedeniyle bu şekilde kullanmak ve tüm değişkenler için üst sınır (\"Değişkenlerin Negatif Olmadığını Varsay\" seçilmemişse alt sınır) vermek <emph>şiddetle önerilmektedir</emph>. Bu sınırlar gerçek (büyük olasılıkla bilinmeyen) çözüme yakın olmak zorunda değildir ancak değişkenlerin beklenen büyüklüğü ile ilgili kabaca bir fikir vermelidir (0 ≤ var ≤ 1 ya da belki -1000000 ≤ var ≤ 1000000)."
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"par_id0603200910430873\n"
+"help.text"
+msgid "Bounds are specified by selecting one or more variables (as range) on the left side and entering a numerical value (not a cell or a formula) on the right side. That way you can also choose one or more variables to be <emph>Integer</emph> or <emph>Binary</emph> only."
+msgstr "Sınırlar sol tarafta bir ya da daha fazla değişkenin (aralık için) seçilip sağ tarafa nümerik bir değerin (hücre ya da bağıntı değil) girilmesi ile belirtilir. Bu şekilde bir ya da daha fazla değişken <emph>Tam sayı</emph> ya da yalnızca <emph>İkili</emph> olarak da belirtilebilir."
+
+#: help.tree
+msgctxt ""
+"help.tree\n"
+"08\n"
+"help_section.text"
+msgid "Solver for Nonlinear Problems"
+msgstr "Doğrusal Olmayan Problemler İçin Çözümleyici"
+
+#: help.tree
+msgctxt ""
+"help.tree\n"
+"0816\n"
+"node.text"
+msgid "Solver for Nonlinear Problems"
+msgstr "Doğrusal Olmayan Problemler İçin Çözümleyici"

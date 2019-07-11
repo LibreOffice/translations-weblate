@@ -1,0 +1,409 @@
+#. extracted from nlpsolver/help/en/com.sun.star.comp.Calc.NLPSolver
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2016-11-09 14:10+0100\n"
+"PO-Revision-Date: 2017-01-24 19:37+0000\n"
+"Last-Translator: Karl Morten Ramberg <karl.m.ramberg@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1485286669.000000\n"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"tit\n"
+"help.text"
+msgid "Options"
+msgstr "Valg"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"bm_id0503200917110375_scalc\n"
+"help.text"
+msgid "<bookmark_value>Solver for Nonlinear Problems;Options</bookmark_value>"
+msgstr "<bookmark_value>Løser for ikke-lineære problemer;valg</bookmark_value>"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"hd_id0503200917103593\n"
+"help.text"
+msgid "General Options"
+msgstr "Generelle valg"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103780\n"
+"help.text"
+msgid "Size of Swarm"
+msgstr "Gruppestørrelse"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103723\n"
+"help.text"
+msgid "… defines the number of individuals to participate in the learning process. Each individual finds its own solutions and contributes to the overall knowledge."
+msgstr "…angir antallet individer som deltar i læringsprosessen. Hvert individ finner sine egne løsninger og bidrar til den totale lærdommen."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103771\n"
+"help.text"
+msgid "Learning Cycles"
+msgstr "Læringssykluser"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103720\n"
+"help.text"
+msgid "… defines the number of iterations, the algorithm should take. In each iteration, all individuals make a guess on the best solution and share their knowledge."
+msgstr "…angir antallet gjentakelser algoritmen skal ta. I hver gjentakelse, gjetter alle individer på den beste løsningen og deler lærdommen."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103732\n"
+"help.text"
+msgid "Variable Bounds Guessing"
+msgstr "Variabelavgrenset gjetting"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id050320091710378\n"
+"help.text"
+msgid "If enabled (default), the algorithm tries to find variable bounds by looking at the starting values."
+msgstr "Hvis påslått (standardvalg), vil algoritmen prøve å finne variabelavgrensninger ved å se på startverdiene."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103794\n"
+"help.text"
+msgid "Variable Bounds Threshold"
+msgstr "Variabelavgrenset terskel"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103710\n"
+"help.text"
+msgid "When guessing variable bounds, this threshold specifies, how the initial values are shifted to build the bounds. For an example how these values are calculated, please refer to the Manual in the Wiki."
+msgstr "Ved gjetting av variabelavgrensninger bestemmer denne grensa hvordan verdiene skal forskyves for å lage avgrensningene. Slå opp i wikien for å få eksempler på hvordan disse verdiene utregnes."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103740\n"
+"help.text"
+msgid "Use ACR Comparator"
+msgstr "Bruk ACR-sammenligner"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103766\n"
+"help.text"
+msgid "If <emph>disabled</emph> (default), the BCH Comparator is used. It compares two individuals by first looking at their constraint violations and only if those are equal, it measures their current solution."
+msgstr "Hvis <emph>slått av</emph> (standardvalget), vil BCH-sammenligninga bli brukt. Den sammenligner to individer ved å først se på overskridelsene av begrensninger, og vil kun vurdere den gjeldende løsninga fra disse hvis verdiene samsvarer."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103744\n"
+"help.text"
+msgid "If <emph>enabled</emph>, the ACR Comparator is used. It compares two individuals dependent on the current iteration and measures their goodness with knowledge about the libraries worst known solutions (in regard to their constraint violations)."
+msgstr "Hvis <emph>slått på</emph>, vil ACR-sammenligninga bli brukt. Den sammenligner to individer avhengig av den gjeldende gjentakelsen og vurderer validiteten basert på kunnskap om bibliotekenes dårligste løsninger (med tanke på overskridelser av begrensinger)."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103792\n"
+"help.text"
+msgid "Use Random Starting Point"
+msgstr "Bruk tilfeldig startpunkt"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103790\n"
+"help.text"
+msgid "If <emph>enabled</emph>, the library is simply filled up with randomly chosen points."
+msgstr "Hvis <emph>slått på</emph>, blir biblioteket fylt opp med tilfeldig valgte punkter."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103765\n"
+"help.text"
+msgid "If <emph>disabled</emph>, the currently present values (as given by the user) are inserted in the library as reference point."
+msgstr "Hvis <emph>slått av</emph>, vil de gjeldende verdiene (angitt av brukeren) bli satt inn i biblioteket som referansepunkter."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0504200917103794\n"
+"help.text"
+msgid "Stagnation Limit"
+msgstr "Stagnasjonsgrense"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id050320091710377\n"
+"help.text"
+msgid "If this number of individuals found solutions within a close range, the iteration is stopped and the best of these values is chosen as optimal."
+msgstr "Hvis dette antallet individer fant en løsning innen sammen område, vil gjentakelsen stoppes, og den beste verdien av disse valgt som optimal."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103762\n"
+"help.text"
+msgid "Stagnation Tolerance"
+msgstr "Stagnasjonstoleranse"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103834\n"
+"help.text"
+msgid "Defines in what range solutions are considered “similar”."
+msgstr "Angir i hvilket område løsninger anses som «like»."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103891\n"
+"help.text"
+msgid "Show Enhanced Solver Status"
+msgstr "Vis forbedret løserstatus"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0503200917103832\n"
+"help.text"
+msgid "If <emph>enabled</emph>, an additional dialog is shown during the solving process which gives information about the current progress, the level of stagnation, the currently best known solution as well as the possibility, to stop or resume the solver."
+msgstr "Hvis <emph>påslått</emph> vises et nytt dialogvindu med informasjon om fremgangen til løseprosessen, stagnasjonsnivået, den nåværende best kjente løsningen, i tillegg til muligheten til å stoppe eller fortsette med løsinga."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"hd_id0603200910392151\n"
+"help.text"
+msgid "DEPS-specific Options"
+msgstr "Spesifikke valg for DEPS"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394232\n"
+"help.text"
+msgid "Agent Switch Rate"
+msgstr "Endringsrate for agent"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394248\n"
+"help.text"
+msgid "Specifies the probability for an individual to choose the Differential Evolution strategy."
+msgstr "Definerer sannsynligheten for at et individ velger den differensielle utviklingsstrategien."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394277\n"
+"help.text"
+msgid "DE: Crossover Probability"
+msgstr "DE: Overkryssningssannsynlighet"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394280\n"
+"help.text"
+msgid "… defines the probability of the individual being combined with the globally best point. If crossover is not used, the point is assembled from the own memory of the individual."
+msgstr "… definerer sannsynligheten for at individet blir kombinert med det globalt beste punktet. Hvis overkryssing ikke er brukt, blir punktet satt sammen fra individets eget minne."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394216\n"
+"help.text"
+msgid "DE: Scaling Factor"
+msgstr "DE: Skaleringsfaktor"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id060320091039424\n"
+"help.text"
+msgid "During crossover, the scaling factor decides about the “speed” of movement."
+msgstr "Ved overkryssing, bestemmer skaleringsfaktoren «hastigheten» på bevegelser."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id060320091039421\n"
+"help.text"
+msgid "PS: Constriction Coefficient"
+msgstr "PS: Innsnevringskoeffisient"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394225\n"
+"help.text"
+msgid "… defines the speed at which the particles/individuals move towards each other."
+msgstr "…angir farten partiklene/individene flytter seg mot hverandre."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394222\n"
+"help.text"
+msgid "PS: Cognitive Constant"
+msgstr "PS: Kognitiv konstant"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394212\n"
+"help.text"
+msgid "… sets the importance of the own memory (in particular the best reached point so far)."
+msgstr "… bestemmer viktigheten av eget minne (spesielt det best nådde punktet så langt)."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394292\n"
+"help.text"
+msgid "PS: Social Constant"
+msgstr "PS: Sosial konstant"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394284\n"
+"help.text"
+msgid "… sets the importance of the global best point between all particles/individuals."
+msgstr "… bestemmer viktigheten av det globalt beste punktet mellom alle partikler/individer."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id060320091039425\n"
+"help.text"
+msgid "PS: Mutation Probability"
+msgstr "PS: Mutasjonssannsynlighet"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910394272\n"
+"help.text"
+msgid "… defines the probability, that instead of moving a component of the particle towards the best point, it randomly chooses a new value from the valid range for that variable."
+msgstr "… definerer sannsynligheten, som istedenfor å flytte et komponent av partikkelen mot det beste punktet, velger en ny og tilfeldig verdi fra det godkjente området for den variabelen."
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"hd_id0603200910401383\n"
+"help.text"
+msgid "SCO-specific Options"
+msgstr "Spesifikke valg for SCO"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id0603200910401382\n"
+"help.text"
+msgid "Size of Library"
+msgstr "Bibliotekstørrelse"
+
+#: Options.xhp
+msgctxt ""
+"Options.xhp\n"
+"par_id060320091040136\n"
+"help.text"
+msgid "… defines the amount of information to store in the public library. Each individual stores knowledge there and asks for information."
+msgstr "…angi mengden informasjon som skal lagres i det offentlige biblioteket. Hvert individ lagrer kunnskap der, og spør om informasjon."
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"tit\n"
+"help.text"
+msgid "Usage"
+msgstr "Bruk"
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"bm_id0603200910434044_scalc\n"
+"help.text"
+msgid "<bookmark_value>Solver for Nonlinear Problems;Usage</bookmark_value>"
+msgstr "<bookmark_value>Løser for ikke-lineære problemer;bruk</bookmark_value>"
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"hd_id0603200910430882\n"
+"help.text"
+msgid "Usage"
+msgstr "Bruk"
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"par_id0603200910430845\n"
+"help.text"
+msgid "Regardless whether you use DEPS or SCO, you start by going to Tools - Solver and set the Cell to be optimized, the direction to go (minimization, maximization) and the cells to be modified to reach the goal. Then you go to the Options and specify the solver to be used and if necessary adjust the according <link href=\"com.sun.star.comp.Calc.NLPSolver/Options.xhp\">parameters</link>."
+msgstr "Uansett om du bruker DEPS eller SCO, starter du ved å gå til Verktøy - Løser og sett cellen til bli optimalisert, retning (minmalisering, maksimering) og cellene til å bli modifiserte for å nå målet. Gå så til Alternativer og angi hvilken løser som skal brukes og om nødvendig modifiser de tilhørende  <link href=\"com.sun.star.comp.Calc.NLPSolver/Options.xhp\"> parameter</link>.  "
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"par_id0603200910430821\n"
+"help.text"
+msgid "There is also a list of constraints you can use to restrict the possible range of solutions or to penalize certain conditions. However, in case of the evolutionary solvers DEPS and SCO, these constraints are also used to specify bounds on the variables of the problem. Due to the random nature of the algorithms, it is <emph>highly recommended</emph> to do so and give upper (and in case \"Assume Non-Negative Variables\" is turned off also lower) bounds for all variables. They don't have to be near the actual solution (which is probably unknown) but should give a rough indication of the expected size (0 ≤ var ≤ 1 or maybe -1000000 ≤ var ≤ 1000000)."
+msgstr "Det er også en liste med begrensninger du kan bruke til å begrense eventuelle områder med løsninger, eller til å straffe visse vilkår. Men med de evolusjonære løserne DEPS og SCO blir disse begrensningene også brukt til å spesifisere grenser for variablene til problemet. På grunn av de naturlige tilfeldighetene til algoritmene, <emph>anbefales</emph> det å gi øvre (hvis «Anta at variabler ikke er negative» er avslått, også lavere) grenser for alle variabler. De trenger ikke å være i nærheten av selve løsningen (som trolig er ukjent), men bør gi en grov indikasjon på forventet størrelse (0 ≤ var ≤ 1 eller kanskje -1.000.000 ≤ var ≤ millioner)."
+
+#: Usage.xhp
+msgctxt ""
+"Usage.xhp\n"
+"par_id0603200910430873\n"
+"help.text"
+msgid "Bounds are specified by selecting one or more variables (as range) on the left side and entering a numerical value (not a cell or a formula) on the right side. That way you can also choose one or more variables to be <emph>Integer</emph> or <emph>Binary</emph> only."
+msgstr "Grenser spesifiseres ved å velge en eller flere variabler (som område) på venstre side, og ved å skrive inn en numerisk verdi (ikke en celle eller en formel) på høyre side. På den måten kan du også velge at en eller flere variabler skal være <emph>heltall</emph> eller bare <emph>binære</emph>."
+
+#: help.tree
+msgctxt ""
+"help.tree\n"
+"08\n"
+"help_section.text"
+msgid "Solver for Nonlinear Problems"
+msgstr "Løser for ikke-lineære problemer"
+
+#: help.tree
+msgctxt ""
+"help.tree\n"
+"0816\n"
+"node.text"
+msgid "Solver for Nonlinear Problems"
+msgstr "Løser for ikke-lineære problemer"

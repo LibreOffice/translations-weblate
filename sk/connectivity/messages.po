@@ -1,0 +1,565 @@
+#. extracted from connectivity/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2018-09-03 13:23+0200\n"
+"PO-Revision-Date: 2018-09-23 19:10+0000\n"
+"Last-Translator: Miloš Šrámek <msramek22@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1537729845.000000\n"
+
+#. = the mozab driver's resource strings
+#: connectivity/inc/strings.hrc:26
+msgctxt "STR_ERR_EXECUTING_QUERY"
+msgid "An error occurred while executing the query."
+msgstr "Počas vykonávania dotazu sa objavila chyba."
+
+#: connectivity/inc/strings.hrc:27
+msgctxt "STR_QUERY_AT_LEAST_ONE_TABLES"
+msgid "The query can not be executed. It needs at least one table."
+msgstr "Dotaz nemôže byť vykonaný. Vyžaduje aspoň jednu tabuľku."
+
+#: connectivity/inc/strings.hrc:28
+msgctxt "STR_NO_COUNT_SUPPORT"
+msgid "The driver does not support the 'COUNT' function."
+msgstr "Ovládač nepodporuje funkciu 'COUNT'."
+
+#: connectivity/inc/strings.hrc:29
+msgctxt "STR_STMT_TYPE_NOT_SUPPORTED"
+msgid "This statement type not supported by this database driver."
+msgstr "Typ príkazu nie je podporovaný týmto databázovým ovládačom."
+
+#: connectivity/inc/strings.hrc:30
+msgctxt "STR_UNSPECIFIED_ERROR"
+msgid "An unknown error occurred."
+msgstr "Objavila sa neznáma chyba."
+
+#: connectivity/inc/strings.hrc:31
+msgctxt "STR_ERROR_REFRESH_ROW"
+msgid "An error occurred while refreshing the current row."
+msgstr "Pri obnovovaní aktuálneho riadku sa vyskytla chyba."
+
+#: connectivity/inc/strings.hrc:32
+msgctxt "STR_ERROR_GET_ROW"
+msgid "An error occurred while getting the current row."
+msgstr "Pri získavaní aktuálneho riadku sa vyskytla chyba."
+
+#: connectivity/inc/strings.hrc:33
+msgctxt "STR_QUERY_INVALID_IS_NULL_COLUMN"
+msgid "The query can not be executed. The 'IS NULL' can only be used with a column name."
+msgstr "Dotaz nemôže byť vykonaný. 'IS NULL' môže byť použité len s názvom stĺpca."
+
+#: connectivity/inc/strings.hrc:34
+msgctxt "STR_ILLEGAL_MOVEMENT"
+msgid "Illegal cursor movement occurred."
+msgstr "Došlo k neplatnému posunu kurzoru."
+
+#: connectivity/inc/strings.hrc:35
+msgctxt "STR_COMMIT_ROW"
+msgid "Please commit row '$position$' before update rows or insert new rows."
+msgstr "Pred aktualizáciou riadkov alebo vložením nových riadkov najskôr uložte riadok '$position$'."
+
+#. = common strings
+#: connectivity/inc/strings.hrc:37
+msgctxt "STR_NO_CONNECTION_GIVEN"
+msgid "It doesn't exist a connection to the database."
+msgstr "Spojenie na databázu neexistuje."
+
+#: connectivity/inc/strings.hrc:38
+msgctxt "STR_WRONG_PARAM_INDEX"
+msgid "You tried to set a parameter at position '$pos$' but there is/are only '$count$' parameter(s) allowed. One reason may be that the property \"ParameterNameSubstitution\" is not set to TRUE in the data source."
+msgstr "Pokúsili ste sa nastaviť parameter na pozícii '$pos$', ale je možné nastaviť len '$count$' parametrov. Jenou z príčin môže byť, že vlastnosť \"ParameterNameSubstitution\" nie je nastavená na TRUE v zdroji údajov."
+
+#: connectivity/inc/strings.hrc:39
+msgctxt "STR_NO_INPUTSTREAM"
+msgid "The input stream was not set."
+msgstr "Nebol nastavený vstupný tok."
+
+#: connectivity/inc/strings.hrc:40
+msgctxt "STR_NO_ELEMENT_NAME"
+msgid "There is no element named '$name$'."
+msgstr "Prvok s názvom '$name$' neexistuje."
+
+#: connectivity/inc/strings.hrc:41
+msgctxt "STR_INVALID_BOOKMARK"
+msgid "Invalid bookmark value"
+msgstr "Neplatná hodnota záložky."
+
+#: connectivity/inc/strings.hrc:42
+msgctxt "STR_PRIVILEGE_NOT_GRANTED"
+msgid "Privilege not granted: Only table privileges can be granted."
+msgstr "Právo nepridelené: Možno prideliť len práva k tabuľkám."
+
+#: connectivity/inc/strings.hrc:43
+msgctxt "STR_PRIVILEGE_NOT_REVOKED"
+msgid "Privilege not revoked: Only table privileges can be revoked."
+msgstr "Práva neboli odvolané: Len práva pre tabuľky môžu byť odvolané."
+
+#: connectivity/inc/strings.hrc:44
+msgctxt "STR_ERRORMSG_SEQUENCE"
+msgid "Function sequence error."
+msgstr "Chyba postupnosti vo funkcii."
+
+#: connectivity/inc/strings.hrc:45
+msgctxt "STR_INVALID_INDEX"
+msgid "Invalid descriptor index."
+msgstr "Neplatný popisný index."
+
+#: connectivity/inc/strings.hrc:46
+msgctxt "STR_UNSUPPORTED_FUNCTION"
+msgid "The driver does not support the function '$functionname$'."
+msgstr "Ovládač nepodporuje funkciu '$functionname$'."
+
+#: connectivity/inc/strings.hrc:47
+msgctxt "STR_UNSUPPORTED_FEATURE"
+msgid "The driver does not support the functionality for '$featurename$'. It is not implemented."
+msgstr "Ovládač nepodporuje funkcionalitu pre '$featurename$'. Nie je implementovaná."
+
+#: connectivity/inc/strings.hrc:48
+msgctxt "STR_FORMULA_WRONG"
+msgid "The formula for TypeInfoSettings is wrong!"
+msgstr "Vzorec pre TypeInfoSettings je nesprávny!"
+
+#: connectivity/inc/strings.hrc:49
+msgctxt "STR_STRING_LENGTH_EXCEEDED"
+msgid "The string '$string$' exceeds the maximum length of $maxlen$ characters when converted to the target character set '$charset$'."
+msgstr "Reťazec '$string$' prekračuje maximálnu dĺžku $maxlen$ znakov, po prevode do cieľovej znakovej sady '$charset$'."
+
+#: connectivity/inc/strings.hrc:50
+msgctxt "STR_CANNOT_CONVERT_STRING"
+msgid "The string '$string$' cannot be converted using the encoding '$charset$'."
+msgstr "Reťazec '$string$' nemôže byť prevedený s použitím kódovania '$charset$'."
+
+#: connectivity/inc/strings.hrc:51
+msgctxt "STR_URI_SYNTAX_ERROR"
+msgid "The connection URL is invalid."
+msgstr "URL pripojenia je neplatná."
+
+#: connectivity/inc/strings.hrc:52
+msgctxt "STR_QUERY_TOO_COMPLEX"
+msgid "The query can not be executed. It is too complex."
+msgstr "Dotaz nemôže byť vykonaný. Je príliš komplexný."
+
+#: connectivity/inc/strings.hrc:53
+msgctxt "STR_OPERATOR_TOO_COMPLEX"
+msgid "The query can not be executed. The operator is too complex."
+msgstr "Dotaz nemôže byť vykonaný. Operátor je príliš komplexný."
+
+#: connectivity/inc/strings.hrc:54
+msgctxt "STR_QUERY_INVALID_LIKE_COLUMN"
+msgid "The query can not be executed. You cannot use 'LIKE' with columns of this type."
+msgstr "Dotaz nemôže byť vykonaný. Nie je možné použiť 'LIKE' pri stĺpcoch tohto typu."
+
+#: connectivity/inc/strings.hrc:55
+msgctxt "STR_QUERY_INVALID_LIKE_STRING"
+msgid "The query can not be executed. 'LIKE' can be used with a string argument only."
+msgstr "Dotaz nemôže byť vykonaný. 'LIKE' môže byť použité len s textovým argumentom."
+
+#: connectivity/inc/strings.hrc:56
+msgctxt "STR_QUERY_NOT_LIKE_TOO_COMPLEX"
+msgid "The query can not be executed. The 'NOT LIKE' condition is too complex."
+msgstr "Dotaz nemôže byť vykonaný. Podmienka 'NOT LIKE' je príliš komplexná."
+
+#: connectivity/inc/strings.hrc:57
+msgctxt "STR_QUERY_LIKE_WILDCARD"
+msgid "The query can not be executed. The 'LIKE' condition contains wildcard in the middle."
+msgstr "Dotaz nemôže byť vykonaný. Podmienka 'LIKE' obsahuje v strede zástupný znak."
+
+#: connectivity/inc/strings.hrc:58
+msgctxt "STR_QUERY_LIKE_WILDCARD_MANY"
+msgid "The query can not be executed. The 'LIKE' condition contains too many wildcards."
+msgstr "Dotaz nemôže byť vykonaný. Podmienka 'LIKE' obsahuje príliš veľa zástupných znakov."
+
+#: connectivity/inc/strings.hrc:59
+msgctxt "STR_INVALID_COLUMNNAME"
+msgid "The column name '$columnname$' is not valid."
+msgstr "Stĺpec s názvom '$columnname$' nie je platný."
+
+#: connectivity/inc/strings.hrc:60
+msgctxt "STR_INVALID_COLUMN_SELECTION"
+msgid "The statement contains an invalid selection of columns."
+msgstr "Príkaz obsahuje neplatný výber stĺpcov."
+
+#: connectivity/inc/strings.hrc:61
+msgctxt "STR_COLUMN_NOT_UPDATEABLE"
+msgid "The column at position '$position$' could not be updated."
+msgstr "Stĺpec na pozícii '$position$' nemohol byť aktualizovaný."
+
+#: connectivity/inc/strings.hrc:62
+msgctxt "STR_COULD_NOT_LOAD_FILE"
+msgid "The file $filename$ could not be loaded."
+msgstr "Súbor $filename$ nemohol byť načítaný."
+
+#: connectivity/inc/strings.hrc:63
+msgctxt "STR_LOAD_FILE_ERROR_MESSAGE"
+msgid ""
+"The attempt to load the file resulted in the following error message ($exception_type$):\n"
+"\n"
+"$error_message$"
+msgstr ""
+"Pokus o načítanie súboru viedol k nasledujúcej chybovej správe ($exception_type$):\n"
+"\n"
+"$error_message$"
+
+#. = the ado driver's resource strings
+#: connectivity/inc/strings.hrc:65
+msgctxt "STR_TYPE_NOT_CONVERT"
+msgid "The type could not be converted."
+msgstr "Typ nemohol byť prevedený."
+
+#: connectivity/inc/strings.hrc:66
+msgctxt "STR_INVALID_COLUMN_DESCRIPTOR_ERROR"
+msgid "Could not append column: invalid column descriptor."
+msgstr "Nebolo možné pripojiť stĺpec: neplatný popis stĺpca."
+
+#: connectivity/inc/strings.hrc:67
+msgctxt "STR_INVALID_GROUP_DESCRIPTOR_ERROR"
+msgid "Could not create group: invalid object descriptor."
+msgstr "Nebolo možné vytvoriť skupinu: neplatný popis objektu."
+
+#: connectivity/inc/strings.hrc:68
+msgctxt "STR_INVALID_INDEX_DESCRIPTOR_ERROR"
+msgid "Could not create index: invalid object descriptor."
+msgstr "Nebolo možné vytvoriť index: neplatný popis objektu."
+
+#: connectivity/inc/strings.hrc:69
+msgctxt "STR_INVALID_KEY_DESCRIPTOR_ERROR"
+msgid "Could not create key: invalid object descriptor."
+msgstr "Nebolo možné vytvoriť kľúč: neplatný popis objektu."
+
+#: connectivity/inc/strings.hrc:70
+msgctxt "STR_INVALID_TABLE_DESCRIPTOR_ERROR"
+msgid "Could not create table: invalid object descriptor."
+msgstr "Nebolo možné vytvoriť tabuľku: neplatný popis objektu."
+
+#: connectivity/inc/strings.hrc:71
+msgctxt "STR_INVALID_USER_DESCRIPTOR_ERROR"
+msgid "Could not create user: invalid object descriptor."
+msgstr "Nebolo možné vytvoriť používateľa: neplatný popis objektu."
+
+#: connectivity/inc/strings.hrc:72
+msgctxt "STR_INVALID_VIEW_DESCRIPTOR_ERROR"
+msgid "Could not create view: invalid object descriptor."
+msgstr "Nebolo možné vytvoriť pohľad: neplatný popis objektu."
+
+#: connectivity/inc/strings.hrc:73
+msgctxt "STR_VIEW_NO_COMMAND_ERROR"
+msgid "Could not create view: no command object."
+msgstr "Nebolo možné vytvoriť pohľad: neexistuje príkazový objekt."
+
+#: connectivity/inc/strings.hrc:74
+msgctxt "STR_NO_CONNECTION"
+msgid "The connection could not be created. May be the necessary data provider is not installed."
+msgstr "Spojenie nemohlo byť vytvorené. Možno nie je nainštalovaný potrebný poskytovateľ údajov."
+
+#: connectivity/inc/strings.hrc:76
+msgctxt "STR_COULD_NOT_DELETE_INDEX"
+msgid "The index could not be deleted. An unknown error while accessing the file system occurred."
+msgstr "Index nemohol byť odstránený. Pri pristupovaní k súborovému systému sa vyskytla neznáma chyba."
+
+#: connectivity/inc/strings.hrc:77
+msgctxt "STR_ONL_ONE_COLUMN_PER_INDEX"
+msgid "The index could not be created. Only one column per index is allowed."
+msgstr "Nemohol byť vytvorený index. Je povolený len jeden stĺpec pre každý index."
+
+#: connectivity/inc/strings.hrc:78
+msgctxt "STR_COULD_NOT_CREATE_INDEX_NOT_UNIQUE"
+msgid "The index could not be created. The values are not unique."
+msgstr "Nemohol byť vytvorený index. Hodnoty nie sú jedinečné."
+
+#: connectivity/inc/strings.hrc:79
+msgctxt "STR_COULD_NOT_CREATE_INDEX"
+msgid "The index could not be created. An unknown error appeared."
+msgstr "Nemohol byť vytvorený index. Objavila sa neznáma chyba."
+
+#: connectivity/inc/strings.hrc:80
+msgctxt "STR_COULD_NOT_CREATE_INDEX_NAME"
+msgid "The index could not be created. The file '$filename$' is used by another index."
+msgstr "Nemohol byť vytvorený index. Súbor '$filename$' je používaný iným indexom."
+
+#: connectivity/inc/strings.hrc:81
+msgctxt "STR_COULD_NOT_CREATE_INDEX_KEYSIZE"
+msgid "The index could not be created. The size of the chosen column is too big."
+msgstr "Nie je možné vytvoriť index. Zvolený stĺpec je príliš rozsiahly."
+
+#: connectivity/inc/strings.hrc:82
+msgctxt "STR_SQL_NAME_ERROR"
+msgid "The name '$name$' doesn't match SQL naming constraints."
+msgstr "Názov '$name$' nesúhlasí s kritériami SQL názvov."
+
+#: connectivity/inc/strings.hrc:83
+msgctxt "STR_COULD_NOT_DELETE_FILE"
+msgid "The file $filename$ could not be deleted."
+msgstr "Súbor $filename$ nemohol byť odstránený."
+
+#: connectivity/inc/strings.hrc:84
+msgctxt "STR_INVALID_COLUMN_TYPE"
+msgid "Invalid column type for column '$columnname$'."
+msgstr "Neplatný typ stĺpca pre stĺpec '$columnname$'."
+
+#: connectivity/inc/strings.hrc:85
+msgctxt "STR_INVALID_COLUMN_PRECISION"
+msgid "Invalid precision for column '$columnname$'."
+msgstr "Neplatná presnosť pre stĺpec '$columnname$'."
+
+#: connectivity/inc/strings.hrc:86
+msgctxt "STR_INVALID_PRECISION_SCALE"
+msgid "Precision is less than scale for column '$columnname$'."
+msgstr "Presnosť je menšia ako mierka pre stĺpec '$columnname$'."
+
+#: connectivity/inc/strings.hrc:87
+msgctxt "STR_INVALID_COLUMN_NAME_LENGTH"
+msgid "Invalid column name length for column '$columnname$'."
+msgstr "Neplatná dĺžka názvu stĺpca pre stĺpec '$columnname$'."
+
+#: connectivity/inc/strings.hrc:88
+msgctxt "STR_DUPLICATE_VALUE_IN_COLUMN"
+msgid "Duplicate value found in column '$columnname$'."
+msgstr "V stĺpci '$columnname$' bola nájdená duplicitná hodnota."
+
+#: connectivity/inc/strings.hrc:89
+msgctxt "STR_INVALID_COLUMN_DECIMAL_VALUE"
+msgid ""
+"The '$columnname$' column has been defined as a \"Decimal\" type, the max. length is $precision$ characters (with $scale$ decimal places).\n"
+"\n"
+"The specified value \"$value$ is longer than the number of digits allowed."
+msgstr ""
+"Stĺpec '$columnname$' bol definovaný ako \"Desatinný\" typ. Maximálna dĺžka je $precision$ znakov ( s $scale$ desatinnými miestami).\n"
+"\n"
+"Zadaná hodnota \"$value$ je dlhšia ako povolený počet číslic."
+
+#: connectivity/inc/strings.hrc:90
+msgctxt "STR_COLUMN_NOT_ALTERABLE"
+msgid "The column '$columnname$' could not be altered. May be the file system is write protected."
+msgstr "Stĺpec '$columnname$' nemohol byť zmenený. Je možné, že súborový systém je chránený proti zápisu."
+
+#: connectivity/inc/strings.hrc:91
+msgctxt "STR_INVALID_COLUMN_VALUE"
+msgid "The column '$columnname$' could not be updated. The value is invalid for that column."
+msgstr "Stĺpec '$columnname$' nemohol byť aktualizovaný. Hodnota je neplatná pre tento stĺpec."
+
+#: connectivity/inc/strings.hrc:92
+msgctxt "STR_COLUMN_NOT_ADDABLE"
+msgid "The column '$columnname$' could not be added. May be the file system is write protected."
+msgstr "Stĺpec '$columnname$' nemohol byť pridaný. Je možné, že súborový systém je chránený proti zápisu."
+
+#: connectivity/inc/strings.hrc:93
+msgctxt "STR_COLUMN_NOT_DROP"
+msgid "The column at position '$position$' could not be dropped. May be the file system is write protected."
+msgstr "Stĺpec na pozícii '$position$' nemohol byť zahodený. Je možné, že súborový systém je chránený proti zápisu."
+
+#: connectivity/inc/strings.hrc:94
+msgctxt "STR_TABLE_NOT_DROP"
+msgid "The table '$tablename$' could not be dropped. May be the file system is write protected."
+msgstr "Tabuľka '$tablename$' nemohla byť zahodená. Je možné, že súborový systém je chránený proti zápisu."
+
+#: connectivity/inc/strings.hrc:95
+msgctxt "STR_COULD_NOT_ALTER_TABLE"
+msgid "The table could not be altered."
+msgstr "Tabuľka nemohla byť zmenená."
+
+#: connectivity/inc/strings.hrc:96
+msgctxt "STR_INVALID_DBASE_FILE"
+msgid "The file '$filename$' is an invalid (or unrecognized) dBase file."
+msgstr "Súbor '$filename$' je neplatný (alebo nerozpoznateľný) dBase súbor."
+
+#. Evoab2
+#: connectivity/inc/strings.hrc:98
+msgctxt "STR_CANNOT_OPEN_BOOK"
+msgid "Cannot open Evolution address book."
+msgstr "Nemôžem otvoriť adresár Evolution."
+
+#: connectivity/inc/strings.hrc:99
+msgctxt "STR_SORT_BY_COL_ONLY"
+msgid "Can only sort by table columns."
+msgstr "Tabuľka sa môže zoradiť len podľa stĺpcov."
+
+#: connectivity/inc/strings.hrc:101
+msgctxt "STR_QUERY_COMPLEX_COUNT"
+msgid "The query can not be executed. It is too complex. Only \"COUNT(*)\" is supported."
+msgstr "Dotaz nemôže byť vykonaný. Je príliš komplexný. Podporované je len \"COUNT(*)\""
+
+#: connectivity/inc/strings.hrc:102
+msgctxt "STR_QUERY_INVALID_BETWEEN"
+msgid "The query can not be executed. The 'BETWEEN' arguments are not correct."
+msgstr "Dotaz nemôže byť vykonaný. Argumenty 'BETWEEN' nie sú správne. "
+
+#: connectivity/inc/strings.hrc:103
+msgctxt "STR_QUERY_FUNCTION_NOT_SUPPORTED"
+msgid "The query can not be executed. The function is not supported."
+msgstr "Dotaz nemôže byť vykonaný. Funkcia nie je podporovaná."
+
+#: connectivity/inc/strings.hrc:104
+msgctxt "STR_TABLE_READONLY"
+msgid "The table can not be changed. It is read only."
+msgstr "Tabuľka nemôže byť zmenená. Je iba na čítanie."
+
+#: connectivity/inc/strings.hrc:105
+msgctxt "STR_DELETE_ROW"
+msgid "The row could not be deleted. The option \"Display inactive records\" is set."
+msgstr "Riadok nemohol byť odstránený. Je nastavená možnosť \"Zobraziť neaktívne záznamy\"."
+
+#: connectivity/inc/strings.hrc:106
+msgctxt "STR_ROW_ALREADY_DELETED"
+msgid "The row could not be deleted. It is already deleted."
+msgstr "Riadok nemohol byť odstránený. Už odstránený je."
+
+#: connectivity/inc/strings.hrc:107
+msgctxt "STR_QUERY_MORE_TABLES"
+msgid "The query can not be executed. It contains more than one table."
+msgstr "Dotaz nemôže byť vykonaný. Obsahuje viac ako jednu tabuľku."
+
+#: connectivity/inc/strings.hrc:108
+msgctxt "STR_QUERY_NO_TABLE"
+msgid "The query can not be executed. It contains no valid table."
+msgstr "Dotaz nemôže byť vykonaný. Neobsahuje žiadnu platnú tabuľku."
+
+#: connectivity/inc/strings.hrc:109
+msgctxt "STR_QUERY_NO_COLUMN"
+msgid "The query can not be executed. It contains no valid columns."
+msgstr "Dotaz nemôže byť vykonaný. Neobsahuje žiadne platné stĺpce."
+
+#: connectivity/inc/strings.hrc:110
+msgctxt "STR_INVALID_PARA_COUNT"
+msgid "The count of the given parameter values doesn't match the parameters."
+msgstr "Počet zadaných hodnôt parametra nesúhlasí s parametrami."
+
+#: connectivity/inc/strings.hrc:111
+msgctxt "STR_NO_VALID_FILE_URL"
+msgid "The URL '$URL$' is not valid. A connection can not be created."
+msgstr "URL '$URL$' je neplatné. Spojenie nemôže byť vytvorené."
+
+#: connectivity/inc/strings.hrc:112
+msgctxt "STR_NO_CLASSNAME"
+msgid "The driver class '$classname$' could not be loaded."
+msgstr "Trieda ovládača '$classname$' nemohla byť načítaná."
+
+#: connectivity/inc/strings.hrc:113
+msgctxt "STR_NO_JAVA"
+msgid "No Java installation could be found. Please check your installation."
+msgstr "Nebola nájdená inštalácia Java. Prosím overte vašu inštaláciu."
+
+#: connectivity/inc/strings.hrc:114
+msgctxt "STR_NO_RESULTSET"
+msgid "The execution of the query doesn't return a valid result set."
+msgstr "Vykonanie dotazu nevracia platný súbor výsledkov."
+
+#: connectivity/inc/strings.hrc:115
+msgctxt "STR_NO_ROWCOUNT"
+msgid "The execution of the update statement doesn't effect any rows."
+msgstr "Vykonanie príkazu aktualizácie neupravý žiadne riadky."
+
+#: connectivity/inc/strings.hrc:116
+msgctxt "STR_NO_CLASSNAME_PATH"
+msgid "The additional driver class path is '$classpath$'."
+msgstr "Cesta k doplňujúcim triedam odvláča je '$classpath$'."
+
+#: connectivity/inc/strings.hrc:117
+msgctxt "STR_UNKNOWN_PARA_TYPE"
+msgid "The type of parameter at position '$position$' is unknown."
+msgstr "Typ parametra na pozícii '$position$' je neznámy."
+
+#: connectivity/inc/strings.hrc:118
+msgctxt "STR_UNKNOWN_COLUMN_TYPE"
+msgid "The type of column at position '$position$' is unknown."
+msgstr "Typ stĺpca na pozícii '$position$' je neznámy."
+
+#. KAB
+#: connectivity/inc/strings.hrc:120
+msgctxt "STR_PARA_ONLY_PREPARED"
+msgid "Parameters can appear only in prepared statements."
+msgstr "Parametre sa môžu objaviť len v pripravených príkazoch."
+
+#: connectivity/inc/strings.hrc:122
+msgctxt "STR_NO_TABLE"
+msgid "No such table!"
+msgstr "Takáto tabuľka neexistuje!"
+
+#: connectivity/inc/strings.hrc:123
+msgctxt "STR_NO_MAC_OS_FOUND"
+msgid "No suitable Mac OS installation was found."
+msgstr "Nebola nájdená žiadna vhodná inštalácia Mac OS."
+
+#. hsqldb
+#: connectivity/inc/strings.hrc:125
+msgctxt "STR_NO_STORAGE"
+msgid "The connection can not be established. No storage or URL was given."
+msgstr "Spojenie nemôže byť nadviazané. Nebolo zadané úložné miesto alebo URL."
+
+#: connectivity/inc/strings.hrc:126
+msgctxt "STR_INVALID_FILE_URL"
+msgid "The given URL contains no valid local file system path. Please check the location of your database file."
+msgstr "Zadaná URL neobsahuje žiadnu platnú cestu súborového systému. Prosím skontrolujte váš databázový súbor."
+
+#: connectivity/inc/strings.hrc:127
+msgctxt "STR_NO_TABLE_CONTAINER"
+msgid "An error occurred while obtaining the connection's table container."
+msgstr "Pri získavaní kontajneru tabuľky spojenia sa vyskytla chyba."
+
+#: connectivity/inc/strings.hrc:128
+msgctxt "STR_NO_TABLENAME"
+msgid "There is no table named '$tablename$'."
+msgstr "Tabuľka s názvom '$tablename$' neexistuje."
+
+#: connectivity/inc/strings.hrc:129
+msgctxt "STR_NO_DOCUMENTUI"
+msgid "The provided DocumentUI is not allowed to be NULL."
+msgstr "Poskytnuté DocumentUI nemôže byť NULL."
+
+#: connectivity/inc/strings.hrc:130
+msgctxt "STR_ERROR_NEW_VERSION"
+msgid "The connection could not be established. The database was created by a newer version of %PRODUCTNAME."
+msgstr "Spojenie nebolo nadviazané. Databáza bola vytvorená novšou verziou %PRODUCTNAME."
+
+#: connectivity/inc/strings.hrc:132
+msgctxt "STR_ROW_SET_OPERATION_VETOED"
+msgid "The record operation has been vetoed."
+msgstr "Operácia zápisu bola odmietnutá."
+
+#: connectivity/inc/strings.hrc:133
+msgctxt "STR_PARSER_CYCLIC_SUB_QUERIES"
+msgid "The statement contains a cyclic reference to one or more sub queries."
+msgstr "Výraz obsahuje cyklický odkaz na jeden alebo viac poddotazov."
+
+#: connectivity/inc/strings.hrc:134
+msgctxt "STR_DB_OBJECT_NAME_WITH_SLASHES"
+msgid "The name must not contain any slashes ('/')."
+msgstr "Názov nesmie obsahovať znak lomka ('/')."
+
+#: connectivity/inc/strings.hrc:135
+msgctxt "STR_DB_INVALID_SQL_NAME"
+msgid "$1$ is no SQL conform identifier."
+msgstr "$1$ nie je identifikátor zhodný s SQL."
+
+#: connectivity/inc/strings.hrc:136
+msgctxt "STR_DB_QUERY_NAME_WITH_QUOTES"
+msgid "Query names must not contain quote characters."
+msgstr "Názvy dotazov nesmú obsahovať znaky úvodzoviek."
+
+#: connectivity/inc/strings.hrc:137
+msgctxt "STR_DB_OBJECT_NAME_IS_USED"
+msgid "The name '$1$' is already in use in the database."
+msgstr "Názov '$1$' je už v databáze použitý."
+
+#: connectivity/inc/strings.hrc:138
+msgctxt "STR_DB_NOT_CONNECTED"
+msgid "No connection to the database exists."
+msgstr "Spojenie na databázu neexistuje."
+
+#: connectivity/inc/strings.hrc:139
+msgctxt "STR_AB_ADDRESSBOOK_NOT_FOUND"
+msgid "No $1$ exists."
+msgstr "$1$ neexistuje."
+
+#: connectivity/inc/strings.hrc:140
+msgctxt "STR_DATA_CANNOT_SELECT_UNFILTERED"
+msgid "Unable to display the complete table content. Please apply a filter."
+msgstr "Nebolo možné zobraziť celý obsah tabuľky. Prosím použite filter."
