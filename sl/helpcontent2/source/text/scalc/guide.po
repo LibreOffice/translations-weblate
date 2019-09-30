@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LibreOffice 6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2019-08-21 21:37+0200\n"
+"POT-Creation-Date: 2019-09-30 14:01+0200\n"
 "PO-Revision-Date: 2019-04-12 22:34+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: sl.libreoffice.org\n"
@@ -8945,23 +8945,23 @@ msgctxt ""
 msgid "<variable id=\"numbers_text\"><link href=\"text/scalc/guide/numbers_text.xhp\" name=\"Converting Text to Numbers\">Converting Text to Numbers</link></variable>"
 msgstr "<variable id=\"numbers_text\"><link href=\"text/scalc/guide/numbers_text.xhp\" name=\"Pretvorba besedila v števila\">Pretvorba besedila v števila</link></variable>"
 
-#. EeJWr
+#. rpHje
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id0908200901265127\n"
 "help.text"
-msgid "Calc converts text inside cells to the respective numeric values if an unambiguous conversion is possible. If no conversion is possible, Calc returns a #VALUE! error."
-msgstr "Calc pretvori besedilo v celicah v ustrezne numerične vrednosti, če je nedvoumna pretvorba možna. Če pretvorba ni možna, Calc vrne napako #VALUE!."
+msgid "Defaults settings in Calc converts text inside cells to the respective numeric values if an unambiguous conversion is possible. If no conversion is possible, Calc returns a #VALUE! error."
+msgstr ""
 
-#. aHopE
+#. yhhMM
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id0908200901265196\n"
 "help.text"
-msgid "Only integer numbers including exponent are converted, and ISO 8601 dates and times in their extended formats with separators. Anything else, like fractional numbers with decimal separators or dates other than ISO 8601, is not converted, as the text string would be locale dependent. Leading and trailing blanks are ignored."
-msgstr "Pretvorijo se le cela števila, vključno z eksponenti, ter datumi in časi po standardu ISO 8601 v razširjeni obliki z ločili. Vse drugo, kot so npr. ulomki z decimalnimi ločili ali datumi v zapisu, ki ne ustreza standardu ISO 8601, se ne pretvorijo, saj bi bil niz besedila odvisen od krajevnih nastavitev. Vodilni in končni presledki so prezrti."
+msgid "<emph>Only integer numbers including exponent are converted</emph>, and ISO 8601 dates and times in their extended formats with separators. Anything else, like fractional numbers with decimal separators or dates other than ISO 8601, is not converted, as the text string would be locale dependent. Leading and trailing blanks are ignored."
+msgstr ""
 
 #. KHDbE
 #: numbers_text.xhp
@@ -9080,14 +9080,23 @@ msgctxt ""
 msgid "If only a time string is given, it may have an hours value of more than 24, while minutes and seconds can have a maximum value of 59."
 msgstr "Če je podan le časovni niz, ima lahko vrednost ur večjo od 24, medtem ko je lahko največja vrednost minut in sekund 59."
 
-#. xmVqp
+#. iCp9E
+#: numbers_text.xhp
+msgctxt ""
+"numbers_text.xhp\n"
+"par_id761567607207916\n"
+"help.text"
+msgid "The conversion is done for single scalar values only, not within ranges."
+msgstr ""
+
+#. C6ykS
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id0908200901265448\n"
 "help.text"
-msgid "The conversion is done for single arguments only, as in =A1+A2, or =\"1E2\"+1. Cell range arguments are not affected, so SUM(A1:A2) differs from A1+A2 if at least one of the two cells contain a convertible string."
-msgstr "Pretvorba se izvede le za posamezne argumente, tako kot v =A1+A2 ali =\"1E2\"+1. Argumenti obsega celic niso prizadeti, tako se SUM(A1:A2) razlikuje od A1+A2, če vsaj ena od obeh celic vsebuje niz, ki ga je mogoče pretvoriti."
+msgid "The conversion is done for single scalar values, as in =A1+A2, or =\"1E2\"+1. Cell range arguments are not affected, so SUM(A1:A2) differs from A1+A2 if at least one of the two cells contain a convertible string."
+msgstr ""
 
 #. N4xE3
 #: numbers_text.xhp
@@ -9107,23 +9116,59 @@ msgctxt ""
 msgid "Example"
 msgstr "Primer"
 
-#. BiXif
+#. Wn9uE
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id1005200903485359\n"
 "help.text"
-msgid "In A1 enter the text <item type=\"literal\">'1e2</item> (which is converted to the number 100 internally)."
-msgstr "V A1 vnesite besedilo <item type=\"literal\">'1e2</item> (ki se interno pretvori v številko 100)."
+msgid "In A1 enter the text <literal>'1e2</literal> (which is converted to the number 100 internally)."
+msgstr ""
 
-#. wFADE
+#. CFpmx
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id1005200903485341\n"
 "help.text"
-msgid "In A2 enter <item type=\"literal\">=A1+1</item> (which correctly results in 101)."
-msgstr "V A2 vnesite <item type=\"literal\">=A1+1</item> (kar pravilno znese 101)."
+msgid "In A2 enter <literal>=A1+1</literal> (which correctly results in 101)."
+msgstr ""
+
+#. aruhi
+#: numbers_text.xhp
+msgctxt ""
+"numbers_text.xhp\n"
+"par_id891567607263849\n"
+"help.text"
+msgid "The formula <literal>=SUM(A1:A2)</literal>, returns 101 instead of 201 because the conversion does not occur in a range, only for single scalar values. Here, '1e2 is treated as string which has value 0 for the SUM function."
+msgstr ""
+
+#. hoF73
+#: numbers_text.xhp
+msgctxt ""
+"numbers_text.xhp\n"
+"par_id611567607779380\n"
+"help.text"
+msgid "<literal>=SUM(\"1E2\";1)</literal> returns #VALUE! because SUM() and some others that iterate over number sequences explicitly check the argument type."
+msgstr ""
+
+#. RNrFS
+#: numbers_text.xhp
+msgctxt ""
+"numbers_text.xhp\n"
+"hd_id871567772424915\n"
+"help.text"
+msgid "Changing the default text to number conversion settings"
+msgstr ""
+
+#. FrQEr
+#: numbers_text.xhp
+msgctxt ""
+"numbers_text.xhp\n"
+"par_id111567772433803\n"
+"help.text"
+msgid "The text to number conversion can be customized in the <embedvar href=\"text/shared/optionen/detailedcalculation.xhp#detailed_heading\" markup=\"ignore\"/> option."
+msgstr ""
 
 #. WE8wt
 #: numbers_text.xhp
@@ -13237,6 +13282,41 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "To pomeni, da če vpišete datum 1.1.30 ali večji, se bo ta interno obravnaval kot 1.1.1930 ali kasnejši. Vsa nižja dvomestna leta se nanašajo na 20. stoletje. Tako se npr. 1.1.20 pretvori v 1.1.2020."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id0908200901265127\n"
+#~ "help.text"
+#~ msgid "Calc converts text inside cells to the respective numeric values if an unambiguous conversion is possible. If no conversion is possible, Calc returns a #VALUE! error."
+#~ msgstr "Calc pretvori besedilo v celicah v ustrezne numerične vrednosti, če je nedvoumna pretvorba možna. Če pretvorba ni možna, Calc vrne napako #VALUE!."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id0908200901265196\n"
+#~ "help.text"
+#~ msgid "Only integer numbers including exponent are converted, and ISO 8601 dates and times in their extended formats with separators. Anything else, like fractional numbers with decimal separators or dates other than ISO 8601, is not converted, as the text string would be locale dependent. Leading and trailing blanks are ignored."
+#~ msgstr "Pretvorijo se le cela števila, vključno z eksponenti, ter datumi in časi po standardu ISO 8601 v razširjeni obliki z ločili. Vse drugo, kot so npr. ulomki z decimalnimi ločili ali datumi v zapisu, ki ne ustreza standardu ISO 8601, se ne pretvorijo, saj bi bil niz besedila odvisen od krajevnih nastavitev. Vodilni in končni presledki so prezrti."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id0908200901265448\n"
+#~ "help.text"
+#~ msgid "The conversion is done for single arguments only, as in =A1+A2, or =\"1E2\"+1. Cell range arguments are not affected, so SUM(A1:A2) differs from A1+A2 if at least one of the two cells contain a convertible string."
+#~ msgstr "Pretvorba se izvede le za posamezne argumente, tako kot v =A1+A2 ali =\"1E2\"+1. Argumenti obsega celic niso prizadeti, tako se SUM(A1:A2) razlikuje od A1+A2, če vsaj ena od obeh celic vsebuje niz, ki ga je mogoče pretvoriti."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id1005200903485359\n"
+#~ "help.text"
+#~ msgid "In A1 enter the text <item type=\"literal\">'1e2</item> (which is converted to the number 100 internally)."
+#~ msgstr "V A1 vnesite besedilo <item type=\"literal\">'1e2</item> (ki se interno pretvori v številko 100)."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id1005200903485341\n"
+#~ "help.text"
+#~ msgid "In A2 enter <item type=\"literal\">=A1+1</item> (which correctly results in 101)."
+#~ msgstr "V A2 vnesite <item type=\"literal\">=A1+1</item> (kar pravilno znese 101)."
 
 #~ msgctxt ""
 #~ "autoformat.xhp\n"

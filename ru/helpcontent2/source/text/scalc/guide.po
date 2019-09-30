@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: guide\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2019-08-21 21:37+0200\n"
+"POT-Creation-Date: 2019-09-30 14:01+0200\n"
 "PO-Revision-Date: 2018-11-14 12:09+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Russian <l10n@ru.libreoffice.org>\n"
@@ -8944,23 +8944,23 @@ msgctxt ""
 msgid "<variable id=\"numbers_text\"><link href=\"text/scalc/guide/numbers_text.xhp\" name=\"Converting Text to Numbers\">Converting Text to Numbers</link></variable>"
 msgstr "<variable id=\"numbers_text\"><link href=\"text/scalc/guide/numbers_text.xhp\" name=\"Converting Text to Numbers\">Преобразование текста в числа</link></variable>"
 
-#. EeJWr
+#. rpHje
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id0908200901265127\n"
 "help.text"
-msgid "Calc converts text inside cells to the respective numeric values if an unambiguous conversion is possible. If no conversion is possible, Calc returns a #VALUE! error."
-msgstr "В случае невозможности однозначного преобразования в Calc выполняется преобразование текста ячеек в соответствующие числовые значения. Если преобразование невозможно, то Calc возвращает ошибку #VALUE!."
+msgid "Defaults settings in Calc converts text inside cells to the respective numeric values if an unambiguous conversion is possible. If no conversion is possible, Calc returns a #VALUE! error."
+msgstr ""
 
-#. aHopE
+#. yhhMM
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id0908200901265196\n"
 "help.text"
-msgid "Only integer numbers including exponent are converted, and ISO 8601 dates and times in their extended formats with separators. Anything else, like fractional numbers with decimal separators or dates other than ISO 8601, is not converted, as the text string would be locale dependent. Leading and trailing blanks are ignored."
-msgstr "Преобразуются только целые числа, включающие экспонент, а также дата и время по стандарту ISO 8601 в расширенных форматах с разделителями. Прочие значения, например, дробные числа с десятичными разделителями или даты, не соответствующие стандарту ISO 8601, не преобразуются, т.к. текстовая строка определяется параметрами языка. Начальные и конечные пробелы игнорируются."
+msgid "<emph>Only integer numbers including exponent are converted</emph>, and ISO 8601 dates and times in their extended formats with separators. Anything else, like fractional numbers with decimal separators or dates other than ISO 8601, is not converted, as the text string would be locale dependent. Leading and trailing blanks are ignored."
+msgstr ""
 
 #. KHDbE
 #: numbers_text.xhp
@@ -9079,14 +9079,23 @@ msgctxt ""
 msgid "If only a time string is given, it may have an hours value of more than 24, while minutes and seconds can have a maximum value of 59."
 msgstr "Если определена только строка времени, то в ней может содержаться значение часов, превышающее 24, тогда как для минут и секунд максимальным значением является 59."
 
-#. xmVqp
+#. iCp9E
+#: numbers_text.xhp
+msgctxt ""
+"numbers_text.xhp\n"
+"par_id761567607207916\n"
+"help.text"
+msgid "The conversion is done for single scalar values only, not within ranges."
+msgstr ""
+
+#. C6ykS
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id0908200901265448\n"
 "help.text"
-msgid "The conversion is done for single arguments only, as in =A1+A2, or =\"1E2\"+1. Cell range arguments are not affected, so SUM(A1:A2) differs from A1+A2 if at least one of the two cells contain a convertible string."
-msgstr "Преобразование выполняется только для одиночных аргументов, например, =A1+A2 или =\"1E2\"+1. Аргументы диапазонов ячеек не изменяются, поэтому значение SUM(A1:A2) отличается от A1+A2, если хотя бы в одной из двух ячеек содержится строка, которая может быть преобразована."
+msgid "The conversion is done for single scalar values, as in =A1+A2, or =\"1E2\"+1. Cell range arguments are not affected, so SUM(A1:A2) differs from A1+A2 if at least one of the two cells contain a convertible string."
+msgstr ""
 
 #. N4xE3
 #: numbers_text.xhp
@@ -9106,23 +9115,59 @@ msgctxt ""
 msgid "Example"
 msgstr "Пример"
 
-#. BiXif
+#. Wn9uE
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id1005200903485359\n"
 "help.text"
-msgid "In A1 enter the text <item type=\"literal\">'1e2</item> (which is converted to the number 100 internally)."
-msgstr "Введите текст <item type=\"literal\">'1e2</item> в ячейку A1. Он преобразуется в число 100."
+msgid "In A1 enter the text <literal>'1e2</literal> (which is converted to the number 100 internally)."
+msgstr ""
 
-#. wFADE
+#. CFpmx
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id1005200903485341\n"
 "help.text"
-msgid "In A2 enter <item type=\"literal\">=A1+1</item> (which correctly results in 101)."
-msgstr "В ячейке A2 введите <item type=\"literal\">=A1+1</item>, результат будет равен 101."
+msgid "In A2 enter <literal>=A1+1</literal> (which correctly results in 101)."
+msgstr ""
+
+#. aruhi
+#: numbers_text.xhp
+msgctxt ""
+"numbers_text.xhp\n"
+"par_id891567607263849\n"
+"help.text"
+msgid "The formula <literal>=SUM(A1:A2)</literal>, returns 101 instead of 201 because the conversion does not occur in a range, only for single scalar values. Here, '1e2 is treated as string which has value 0 for the SUM function."
+msgstr ""
+
+#. hoF73
+#: numbers_text.xhp
+msgctxt ""
+"numbers_text.xhp\n"
+"par_id611567607779380\n"
+"help.text"
+msgid "<literal>=SUM(\"1E2\";1)</literal> returns #VALUE! because SUM() and some others that iterate over number sequences explicitly check the argument type."
+msgstr ""
+
+#. RNrFS
+#: numbers_text.xhp
+msgctxt ""
+"numbers_text.xhp\n"
+"hd_id871567772424915\n"
+"help.text"
+msgid "Changing the default text to number conversion settings"
+msgstr ""
+
+#. FrQEr
+#: numbers_text.xhp
+msgctxt ""
+"numbers_text.xhp\n"
+"par_id111567772433803\n"
+"help.text"
+msgid "The text to number conversion can be customized in the <embedvar href=\"text/shared/optionen/detailedcalculation.xhp#detailed_heading\" markup=\"ignore\"/> option."
+msgstr ""
 
 #. WE8wt
 #: numbers_text.xhp
@@ -13236,6 +13281,41 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "Это означает, что если ввести дату 1/1/30 или более позднюю, то она будет рассматриваться как 1/1/1930 и позже. Все предшествующие года из двух цифр относятся к 21 веку. Например, 1/1/20 преобразовывается в 1/1/2020."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id0908200901265127\n"
+#~ "help.text"
+#~ msgid "Calc converts text inside cells to the respective numeric values if an unambiguous conversion is possible. If no conversion is possible, Calc returns a #VALUE! error."
+#~ msgstr "В случае невозможности однозначного преобразования в Calc выполняется преобразование текста ячеек в соответствующие числовые значения. Если преобразование невозможно, то Calc возвращает ошибку #VALUE!."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id0908200901265196\n"
+#~ "help.text"
+#~ msgid "Only integer numbers including exponent are converted, and ISO 8601 dates and times in their extended formats with separators. Anything else, like fractional numbers with decimal separators or dates other than ISO 8601, is not converted, as the text string would be locale dependent. Leading and trailing blanks are ignored."
+#~ msgstr "Преобразуются только целые числа, включающие экспонент, а также дата и время по стандарту ISO 8601 в расширенных форматах с разделителями. Прочие значения, например, дробные числа с десятичными разделителями или даты, не соответствующие стандарту ISO 8601, не преобразуются, т.к. текстовая строка определяется параметрами языка. Начальные и конечные пробелы игнорируются."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id0908200901265448\n"
+#~ "help.text"
+#~ msgid "The conversion is done for single arguments only, as in =A1+A2, or =\"1E2\"+1. Cell range arguments are not affected, so SUM(A1:A2) differs from A1+A2 if at least one of the two cells contain a convertible string."
+#~ msgstr "Преобразование выполняется только для одиночных аргументов, например, =A1+A2 или =\"1E2\"+1. Аргументы диапазонов ячеек не изменяются, поэтому значение SUM(A1:A2) отличается от A1+A2, если хотя бы в одной из двух ячеек содержится строка, которая может быть преобразована."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id1005200903485359\n"
+#~ "help.text"
+#~ msgid "In A1 enter the text <item type=\"literal\">'1e2</item> (which is converted to the number 100 internally)."
+#~ msgstr "Введите текст <item type=\"literal\">'1e2</item> в ячейку A1. Он преобразуется в число 100."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id1005200903485341\n"
+#~ "help.text"
+#~ msgid "In A2 enter <item type=\"literal\">=A1+1</item> (which correctly results in 101)."
+#~ msgstr "В ячейке A2 введите <item type=\"literal\">=A1+1</item>, результат будет равен 101."
 
 #~ msgctxt ""
 #~ "autoformat.xhp\n"
