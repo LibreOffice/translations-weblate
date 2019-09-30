@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/"
 "enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-08-21 21:36+0200\n"
-"PO-Revision-Date: 2019-08-28 19:20+0000\n"
+"PO-Revision-Date: 2019-09-26 12:20+0000\n"
 "Last-Translator: sophie <gautier.sophie@gmail.com>\n"
 "Language-Team: French <https://vm137.documentfoundation.org/projects/"
 "libo_help-master/textscalc01/fr/>\n"
@@ -23930,6 +23930,8 @@ msgctxt ""
 "help.text"
 msgid "<emph>Input</emph>: Function number between 0 and nCount-1, inclusively."
 msgstr ""
+"<emph>Input</emph> :  Numéro de fonction compris entre 0 et nCount-1, "
+"inclusivement."
 
 #. CSBYk
 #: 04060112.xhp
@@ -23939,6 +23941,11 @@ msgctxt ""
 "help.text"
 msgid "<emph>Output</emph>: Function name as seen by the programmer, as it is named in the <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library</caseinline><defaultinline>DLL</defaultinline></switchinline>. This name does not determine the name used in the <emph>Function Wizard</emph>."
 msgstr ""
+"<emph>Output</emph> : nom de fonction tel que vu par le programmeur, tel "
+"qu'elle est nommée dans la <switchinline select=\"sys\"><caseinline select=\""
+"UNIX\">Bibliothèque "
+"partagée</caseinline><defaultinline>DLL</defaultinline></switchinline>. Ce "
+"nom ne détermine pas le nom utilisé dans l'<emph>Assistant Fonction</emph>."
 
 #. 6yGps
 #: 04060112.xhp
@@ -23948,6 +23955,9 @@ msgctxt ""
 "help.text"
 msgid "<emph>Output</emph>: Number of parameters in AddIn function. This number must be greater than 0, because there is always a result value; the maximum value is 16."
 msgstr ""
+"<emph>Output</emph> : nombre de paramètres dans les fonctions Addin. Ce "
+"nombre doit être supérieur à 0 parce qu'il y a toujours une valeur de "
+"résultat, la valeur maximale est 16."
 
 #. TjFBR
 #: 04060112.xhp
@@ -23957,6 +23967,9 @@ msgctxt ""
 "help.text"
 msgid "<emph>Output</emph>: Pointer to an array of exactly 16 variables of type Paramtype. The first nParamCount entries are filled with the suitable type of parameter."
 msgstr ""
+"<emph>Output</emph> : pointeur vers une matrice d'exactement 16 variable du "
+"type Paramtype. Les premières entrées nParamCount sont remplis avec les "
+"types de paramètres appropriés."
 
 #. YNrEv
 #: 04060112.xhp
@@ -23966,6 +23979,9 @@ msgctxt ""
 "help.text"
 msgid "<emph>Output</emph>: Function name as seen by the user, as it appears in the <emph>Function Wizard</emph>. May contain umlauts."
 msgstr ""
+"<emph>Output</emph> : nom de fonction tel que vu par l'utilisateur, tel "
+"qu'elle apparaît dans l'<emph>assistant Fonction</emph>. Il peut contenir "
+"des trémas."
 
 #. rcNLZ
 #: 04060112.xhp
@@ -24002,6 +24018,8 @@ msgctxt ""
 "help.text"
 msgid "<literal>void CALLTYPE GetParameterDescription(USHORT& nNo, USHORT& nParam, char* pName, char* pDesc)</literal>"
 msgstr ""
+"<literal>void CALLTYPE GetParameterDescription(USHORT& nNo, USHORT& nParam, "
+"char* pName, char* pDesc)</literal>"
 
 #. 99Z6E
 #: 04060112.xhp
@@ -24020,6 +24038,8 @@ msgctxt ""
 "help.text"
 msgid "<emph>Input</emph>: Number of the function in the library; between 0 and nCount-1."
 msgstr ""
+"<emph>Input</emph> : nombre de fonctions dans la bibliothèque ; entre 0 et "
+"nCount-1."
 
 #. QHn87
 #: 04060112.xhp
@@ -24029,6 +24049,10 @@ msgctxt ""
 "help.text"
 msgid "<emph>Input</emph>: Indicates, for which parameter the description is provided; parameters start at 1. If nParam is 0, the description itself is supposed to be provided in pDesc; in this case, pName does not have any meaning."
 msgstr ""
+"<emph>Input</emph> : indique pour quel paramètre la description est fourni ; "
+"les paramètres commencent à 1. Si nParam est 0, la description elle même est "
+"supposée être supposé être fournie dans pDesc ; dans ce cas pName n'a aucune "
+"signification."
 
 #. Eq6cW
 #: 04060112.xhp
@@ -24038,6 +24062,9 @@ msgctxt ""
 "help.text"
 msgid "<emph>Output</emph>: Takes up the parameter name or type, for example, the word \"Number\" or \"String\" or \"Date\", and so on. Implemented in $[officename] Calc as char[256]."
 msgstr ""
+"<emph>Output</emph> :  prend le nom du paramètre ou son type, par exemple, "
+"le mot \"Nombre\" ou \"Chaîne\" ou \"Date\" et ainsi de suite. Implémenté "
+"dans $[officename] Calc comme char[256]."
 
 #. yf6Eg
 #: 04060112.xhp
@@ -24047,6 +24074,9 @@ msgctxt ""
 "help.text"
 msgid "<emph>Output</emph>: Takes up the description of the parameter, for example, \"Value, at which the universe is to be calculated.\" Implemented in $[officename] Calc as char[256]."
 msgstr ""
+"<emph>Output</emph> : prend la description du paramètre, par exemple, \""
+"Valeur à laquelle l'univers doit être calculé.\" Implémenté dans "
+"$[officename] Calc comme char [256]"
 
 #. 52p82
 #: 04060112.xhp
@@ -24100,7 +24130,7 @@ msgctxt ""
 "par_id3149388\n"
 "help.text"
 msgid "Offset"
-msgstr ""
+msgstr "Décalage"
 
 #. zS5BL
 #: 04060112.xhp
@@ -24109,7 +24139,7 @@ msgctxt ""
 "par_id3154636\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. 3dyGm
 #: 04060112.xhp
@@ -24118,7 +24148,7 @@ msgctxt ""
 "par_id3153228\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #. auDAv
 #: 04060112.xhp
@@ -24370,7 +24400,7 @@ msgctxt ""
 "par_id3149908\n"
 "help.text"
 msgid "Offset"
-msgstr ""
+msgstr "Décalage"
 
 #. ehB7k
 #: 04060112.xhp
@@ -24379,7 +24409,7 @@ msgctxt ""
 "par_id3159165\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. iRPCq
 #: 04060112.xhp
@@ -24388,7 +24418,7 @@ msgctxt ""
 "par_id3159150\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #. q4Dcs
 #: 04060112.xhp
@@ -24658,7 +24688,7 @@ msgctxt ""
 "par_id3154664\n"
 "help.text"
 msgid "Offset"
-msgstr ""
+msgstr "Décalage"
 
 #. 6oQJ6
 #: 04060112.xhp
@@ -24667,7 +24697,7 @@ msgctxt ""
 "par_id3154566\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #. D3xXV
 #: 04060112.xhp
@@ -24676,7 +24706,7 @@ msgctxt ""
 "par_id3146073\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #. Zty8q
 #: 04060112.xhp
@@ -37106,6 +37136,9 @@ msgctxt ""
 "help.text"
 msgid "<emph>RankC</emph> is the ranking of the value. If RankC is an array, the function becomes an <link href=\"text/scalc/01/04060107.xhp\" name=\"array function\">array function</link>."
 msgstr ""
+"<emph>RankC</emph> est le rang de la valeur. Si RankC est un matrice, la "
+"fonction devient une <link href=\"text/scalc/01/04060107.xhp\" name=\"array "
+"function\">fonction de matrice</link>"
 
 #. 9gMJx
 #: 04060183.xhp
@@ -37115,6 +37148,8 @@ msgctxt ""
 "help.text"
 msgid "<input>=LARGE(A1:C50;2)</input> gives the second largest value in A1:C50."
 msgstr ""
+"<input>=LARGE(A1:C50;2)</input> donne la seconde valeur la plus large dans "
+"A1:C50."
 
 #. fdcAk
 #: 04060183.xhp
@@ -37124,6 +37159,9 @@ msgctxt ""
 "help.text"
 msgid "<input>=LARGE(A1:C50;B1:B5)</input> entered as an array function gives an array of the c-th largest value in A1:C50 with ranks defined in B1:B5."
 msgstr ""
+"<input>=LARGE(A1:C50;B1:B5)</input> saisi comme une fonction de matrice "
+"donne une matrice de la valeur la plus large de c-th dans A1:C50 avec les "
+"rangs définis dans B1:B5"
 
 #. p8pZc
 #: 04060183.xhp
@@ -37178,6 +37216,9 @@ msgctxt ""
 "help.text"
 msgid "<emph>RankC</emph> is the rank of the value. If RankC is an array, the function becomes an <link href=\"text/scalc/01/04060107.xhp\" name=\"array function\">array function</link>."
 msgstr ""
+"<emph>RankC</emph> est le rang de la valeur. Si RankC est une matrice, la "
+"fonction devient une <link href=\"text/scalc/01/04060107.xhp\" name=\"array "
+"function\">fonction de matrice</link>"
 
 #. 8BLf3
 #: 04060183.xhp
@@ -37187,6 +37228,8 @@ msgctxt ""
 "help.text"
 msgid "<input>=SMALL(A1:C50;2)</input> gives the second smallest value in A1:C50."
 msgstr ""
+"<input>=PETITE.VALEUR(A1:C50;2)</input> donne la seconde valeur la plus "
+"petite dans A1:C50."
 
 #. AuKCZ
 #: 04060183.xhp
@@ -37196,6 +37239,9 @@ msgctxt ""
 "help.text"
 msgid "<input>=SMALL(A1:C50;B1:B5)</input> entered as an array function gives an array of the c-th smallest value in A1:C50 with ranks defined in B1:B5."
 msgstr ""
+"<input>=PETITE.VALEUR(A1:C50;B1:B5)</input> saisi comme une fonction de "
+"matrice donne une matrice la plus petite valeur c-ième dans A1:C50 avec les "
+"rangs définis dans B1:B5."
 
 #. KDBoE
 #: 04060183.xhp
@@ -49175,6 +49221,14 @@ msgctxt ""
 "help.text"
 msgid "<ahelp hid=\".\"><variable id=\"sytext\">Sorts the selection from the highest to the lowest value, or from the lowest to the highest value. Number fields are sorted by size and text fields by the order of the characters. You can define the sort rules on Data - Sort - Options.</variable></ahelp> You define the default on <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - Language settings - Languages."
 msgstr ""
+"<ahelp hid=\".\"><variable id=\"sytext\">Tri la sélection de la valeur la "
+"plus grande à la valeur la plus petite, ou de la plus petite valeur à la "
+"plus grande. Les champs de nombres sont triés par taille et les champs de "
+"texte par l'ordre des caractères. Vous pouvez définir les règles de tri sous "
+"Données - Tris - Options.</variable></ahelp>.  Les valeurs par défaut sont "
+"définies sous <switchinline select=\"sys\"><caseinline select=\"MAC\">%"
+"PRODUCTNAME - Préférences</caseinline><defaultinline>Outils - Options "
+"</defaultinline></switchinline> - Paramètres linguistiques - Langes."
 
 #. cAFdw
 #: 12030100.xhp
@@ -50237,6 +50291,14 @@ msgctxt ""
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/subtotaloptionspage/ascending\">Sorts beginning with the lowest value. You can define the sort rules on Data - Sort - Options.</ahelp> You define the default on <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - Language settings - Languages</menuitem>."
 msgstr ""
+"<ahelp hid=\"modules/scalc/ui/subtotaloptionspage/ascending\">Tri en "
+"commençant par la valeur la plus petite. Vous pouvez définir les règles de "
+"tri sous Données - Tri - Options.</ahelp>Vous définissez les valeurs par "
+"défaut sous <switchinline select=\"sys\"><caseinline select=\"MAC\""
+"><menuitem>%PRODUCTNAME - "
+"Préférences</menuitem></caseinline><defaultinline><menuitem>Outils - "
+"Options</menuitem></defaultinline></switchinline><menuitem> - Paramètres "
+"linguistiques - Langues</menuitem>."
 
 #. FFhB3
 #: 12050200.xhp
@@ -50255,6 +50317,14 @@ msgctxt ""
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/subtotaloptionspage/descending\">Sorts beginning with the highest value. You can define the sort rules on Data - Sort - Options.</ahelp> You define the default on <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - Language settings - Languages</menuitem>."
 msgstr ""
+"<ahelp hid=\"modules/scalc/ui/subtotaloptionspage/descending\">Tri en "
+"commençant par la valeur la plus haute. Vous pouvez définir les règles de "
+"tri sous Données - Tri - Options.</ahelp> Vous définissez les valeurs par "
+"défaut sous <switchinline select=\"sys\"><caseinline select=\"MAC\""
+"><menuitem>%PRODUCTNAME - "
+"Préférences</menuitem></caseinline><defaultinline><menuitem>Outils - "
+"Options</menuitem></defaultinline></switchinline><menuitem> - Paramètres "
+"linguistiques - Langues</menuitem>."
 
 #. qjwrH
 #: 12060000.xhp
@@ -58552,7 +58622,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FOURIER function"
-msgstr ""
+msgstr "FOURIER, fonction"
 
 #. FmjN8
 #: func_fourier.xhp
@@ -58561,7 +58631,7 @@ msgctxt ""
 "bm_id581556228060864\n"
 "help.text"
 msgid "<bookmark_value>FOURIER function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FOURIER, fonction</bookmark_value>"
 
 #. VQ5ra
 #: func_fourier.xhp
@@ -58571,6 +58641,8 @@ msgctxt ""
 "help.text"
 msgid "<variable id=\"fourierfunct\"><link href=\"text/scalc/01/func_fourier.xhp\" name=\"fourierfunction\">FOURIER</link></variable>"
 msgstr ""
+"<variable id=\"fourierfunct\"><link href=\"text/scalc/01/func_fourier.xhp\" "
+"name=\"fourierfunction\">FOURIER</link></variable>"
 
 #. TNat4
 #: func_fourier.xhp
