@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2019-09-30 14:01+0200\n"
+"POT-Creation-Date: 2019-11-05 14:28+0100\n"
 "PO-Revision-Date: 2018-11-14 11:55+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2410,14 +2410,14 @@ msgctxt ""
 msgid "To Reference a Cell in the Same Document"
 msgstr "ཡིག་ཆ་གཞན་མི་ཅིག་ནང་ ནང་ཐིག་ཅིག་གཞི་བསྟུན་འབད་དོ།"
 
-#. J2qBT
+#. EruAD
 #: cellreferences.xhp
 msgctxt ""
 "cellreferences.xhp\n"
 "par_id2078005\n"
 "help.text"
-msgid "Open a new, empty spreadsheet."
-msgstr "ཤོག་ཁྲམ་སྟོང་གསརཔ་ཅིག་ ཁ་ཕྱེ།"
+msgid "Open a new, empty spreadsheet. By default, it has only a single sheet named Sheet1. Add a second sheet clicking on <emph>+</emph> button to the left of the sheet tab in the bottom (it will be named Sheet2 by default)."
+msgstr ""
 
 #. paXnm
 #: cellreferences.xhp
@@ -2454,6 +2454,24 @@ msgctxt ""
 "help.text"
 msgid "If you switch back to Sheet1, you will see the same content in cell A1 there. If the contents of Sheet2.A1 change, then the contents of Sheet1.A1 also change."
 msgstr "ཁྱོད་ཀྱིས་ ལེབ་གྲངས་ ༡ ལུ་ལོག་སོར་བསྒྱུར་འབད་བ་ཅིན་ ནང་ཐིག་ ཨེ་ ༡ དེ་ནང་ལུ་ ནང་དོན་ཅོག་འཐདཔ་འབད་མཐོང་འོང་། ག་དེམ་ཅིག་འབད་ ལེབ་གྲངས་ ༢་ཨེ༡་ གི་ནང་དོན་ཚུ་འགྱུར་བ་ཅིན་ ལེབ་གྲངས་༡་ཨེ༡ གི་ནང་དོན་ཚུ་ཡང་ འགྱུར་འོང་།"
+
+#. Epbaf
+#: cellreferences.xhp
+msgctxt ""
+"cellreferences.xhp\n"
+"par_id3147338\n"
+"help.text"
+msgid "When referencing a sheet with name containing spaces, use single quotes around the name: <item type=\"literal\">='Sheet with spaces in name'.A1</item>"
+msgstr ""
+
+#. 3CbGE
+#: cellreferences.xhp
+msgctxt ""
+"cellreferences.xhp\n"
+"par_id3147383\n"
+"help.text"
+msgid "The example uses Calc formula syntax. It is also possible to use Excel A1 ot R1C1 formula syntax; this is configured on <link href=\"text/shared/optionen/01060900.xhp\">Formula options page</link>."
+msgstr ""
 
 #. mK8vG
 #: cellreferences.xhp
@@ -2518,14 +2536,14 @@ msgctxt ""
 msgid "Confirm the formula by clicking the green check mark."
 msgstr "ཞིབ་དཔྱད་རྟགས་ཧོནམ་གུ་ཨེབ་གཏང་འབད་ཐོག་ལས་ མན་ངག་ངེས་དཔྱད་འབད།"
 
-#. fucwJ
+#. Vp5Cb
 #: cellreferences.xhp
 msgctxt ""
 "cellreferences.xhp\n"
 "par_id7099826\n"
 "help.text"
-msgid "If you drag the box in the lower right corner of the active cell to select a range of cells, $[officename] automatically inserts the corresponding references in the adjacent cells. As a result, the sheet name is preceded with a \"$\" sign to designate it as an absolute reference."
-msgstr "ཁྱོད་ཀྱིས་ ནང་ཐིག་ཁྱབ་ཚད་ཅིག་སེལ་འཐུ་འབད་ནིའི་དོན་ལས་ ཤུགས་ལྡན་ནང་ཐིག་འདིག་གི་འོག་གི་གཡས་སྒྱིད་ཁུག་འདི་ནང་ སྒྲོམ་འདི་འདྲུདཔ་ཨིན་པ་ཅིན་  $[officename] གི་རང་བཞིན་གྱིས་ ཉེ་འདབས་ཀྱི་ནང་ཐིག་འདི་ནང་ལུ་ ཆ་མཉམ་པའི་གཞི་བསྟུན་འདི་ཚུ་བཙུགསཔ་ཨིན། དེ་འབདཝ་ལས་ ལེབ་གྲངས་མིང་འདི་  \"$\" རྟགས་ཅིག་དང་གཅིག་ཁར་ ཡང་དག་གཞི་བསྟུན་ཅིག་སྦེ་གོ་གནས་སྤྲོད་ནིའི་དོན་ལས་ སྔོན་དཔེ་འབད་ཡོད།"
+msgid "If you drag the box in the lower right corner of the active cell to select a range of cells, $[officename] automatically inserts the corresponding references in the adjacent cells. As a result, the sheet name is preceded with a \"$\" sign to designate it as an <link href=\"text/scalc/guide/relativ_absolut_ref.xhp\">absolute reference</link>."
+msgstr ""
 
 #. hrgGP
 #: cellreferences.xhp
@@ -13281,6 +13299,20 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "འདི་ཡང་ ཁྱོད་ཀྱིས་ཚེས་གྲངས་ ༡/༡/༣༠ ཡངན་ དེ་ལས་མཐོཝ་ཅིག་བཙུགས་པ་ཅིན་ དེ་ནང་འཁོད་ལུ་ ༡/༡/༡༩༣༠ ཡང་ན་ དེ་ལས་མཐོཝ་སྦེ་རྩིསཝ་ཨིན། ཨང་ཡིག་དམའ་མི་གཉིསཔ་འདི་ ༢༠xx ལོ་བརྒྱ་ལུ་འཇུགཔ་ཨིན། དཔེར་ན་ ༡/༡/༢༠ འདི་ ༡/༡/༢༠༢༠ ལུ་གཞི་བསྒྱུར་འབདཝ་ཨིན།"
+
+#~ msgctxt ""
+#~ "cellreferences.xhp\n"
+#~ "par_id2078005\n"
+#~ "help.text"
+#~ msgid "Open a new, empty spreadsheet."
+#~ msgstr "ཤོག་ཁྲམ་སྟོང་གསརཔ་ཅིག་ ཁ་ཕྱེ།"
+
+#~ msgctxt ""
+#~ "cellreferences.xhp\n"
+#~ "par_id7099826\n"
+#~ "help.text"
+#~ msgid "If you drag the box in the lower right corner of the active cell to select a range of cells, $[officename] automatically inserts the corresponding references in the adjacent cells. As a result, the sheet name is preceded with a \"$\" sign to designate it as an absolute reference."
+#~ msgstr "ཁྱོད་ཀྱིས་ ནང་ཐིག་ཁྱབ་ཚད་ཅིག་སེལ་འཐུ་འབད་ནིའི་དོན་ལས་ ཤུགས་ལྡན་ནང་ཐིག་འདིག་གི་འོག་གི་གཡས་སྒྱིད་ཁུག་འདི་ནང་ སྒྲོམ་འདི་འདྲུདཔ་ཨིན་པ་ཅིན་  $[officename] གི་རང་བཞིན་གྱིས་ ཉེ་འདབས་ཀྱི་ནང་ཐིག་འདི་ནང་ལུ་ ཆ་མཉམ་པའི་གཞི་བསྟུན་འདི་ཚུ་བཙུགསཔ་ཨིན། དེ་འབདཝ་ལས་ ལེབ་གྲངས་མིང་འདི་  \"$\" རྟགས་ཅིག་དང་གཅིག་ཁར་ ཡང་དག་གཞི་བསྟུན་ཅིག་སྦེ་གོ་གནས་སྤྲོད་ནིའི་དོན་ལས་ སྔོན་དཔེ་འབད་ཡོད།"
 
 #~ msgctxt ""
 #~ "autoformat.xhp\n"

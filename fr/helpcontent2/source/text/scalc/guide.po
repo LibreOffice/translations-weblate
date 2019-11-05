@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2019-09-30 14:01+0200\n"
+"POT-Creation-Date: 2019-11-05 14:28+0100\n"
 "PO-Revision-Date: 2019-11-05 11:58+0000\n"
 "Last-Translator: sophie <gautier.sophie@gmail.com>\n"
 "Language-Team: French <https://vm137.documentfoundation.org/projects/libo_help-master/textscalcguide/fr/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: LibreOffice\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1558541914.000000\n"
 
@@ -2411,14 +2411,14 @@ msgctxt ""
 msgid "To Reference a Cell in the Same Document"
 msgstr "Pour référencer une cellule dans le même document"
 
-#. J2qBT
+#. EruAD
 #: cellreferences.xhp
 msgctxt ""
 "cellreferences.xhp\n"
 "par_id2078005\n"
 "help.text"
-msgid "Open a new, empty spreadsheet."
-msgstr "Ouvrez une nouvelle feuille de calcul vide."
+msgid "Open a new, empty spreadsheet. By default, it has only a single sheet named Sheet1. Add a second sheet clicking on <emph>+</emph> button to the left of the sheet tab in the bottom (it will be named Sheet2 by default)."
+msgstr ""
 
 #. paXnm
 #: cellreferences.xhp
@@ -2455,6 +2455,24 @@ msgctxt ""
 "help.text"
 msgid "If you switch back to Sheet1, you will see the same content in cell A1 there. If the contents of Sheet2.A1 change, then the contents of Sheet1.A1 also change."
 msgstr "Si vous revenez à la Feuille 1, vous y verrez le même contenu que dans la cellule A1. En cas de modification du contenu de la cellule Feuille2.A1, le contenu de la cellule Feuille1.A1 change également."
+
+#. Epbaf
+#: cellreferences.xhp
+msgctxt ""
+"cellreferences.xhp\n"
+"par_id3147338\n"
+"help.text"
+msgid "When referencing a sheet with name containing spaces, use single quotes around the name: <item type=\"literal\">='Sheet with spaces in name'.A1</item>"
+msgstr ""
+
+#. 3CbGE
+#: cellreferences.xhp
+msgctxt ""
+"cellreferences.xhp\n"
+"par_id3147383\n"
+"help.text"
+msgid "The example uses Calc formula syntax. It is also possible to use Excel A1 ot R1C1 formula syntax; this is configured on <link href=\"text/shared/optionen/01060900.xhp\">Formula options page</link>."
+msgstr ""
 
 #. mK8vG
 #: cellreferences.xhp
@@ -2519,14 +2537,14 @@ msgctxt ""
 msgid "Confirm the formula by clicking the green check mark."
 msgstr "Confirmez la formule en cliquant sur la coche verte."
 
-#. fucwJ
+#. Vp5Cb
 #: cellreferences.xhp
 msgctxt ""
 "cellreferences.xhp\n"
 "par_id7099826\n"
 "help.text"
-msgid "If you drag the box in the lower right corner of the active cell to select a range of cells, $[officename] automatically inserts the corresponding references in the adjacent cells. As a result, the sheet name is preceded with a \"$\" sign to designate it as an absolute reference."
-msgstr "Si vous faites glisser la case dans le coin inférieur droit de la cellule active pour sélectionner une plage de cellules, $[officename] insère automatiquement les références correspondantes dans les cellules adjacentes. Le nom de la feuille est alors précédé du symbole \"$\" pour indiquer qu'il s'agit d'une référence absolue."
+msgid "If you drag the box in the lower right corner of the active cell to select a range of cells, $[officename] automatically inserts the corresponding references in the adjacent cells. As a result, the sheet name is preceded with a \"$\" sign to designate it as an <link href=\"text/scalc/guide/relativ_absolut_ref.xhp\">absolute reference</link>."
+msgstr ""
 
 #. hrgGP
 #: cellreferences.xhp
@@ -13282,6 +13300,20 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "Ceci signifie que le 1/1/30 et les dates postérieures seront interprétées comme 1/1/1930 et plus. Exemple : si vous saisissez le 1/1/20, cette date sera interprétée comme 1/1/2020."
+
+#~ msgctxt ""
+#~ "cellreferences.xhp\n"
+#~ "par_id2078005\n"
+#~ "help.text"
+#~ msgid "Open a new, empty spreadsheet."
+#~ msgstr "Ouvrez une nouvelle feuille de calcul vide."
+
+#~ msgctxt ""
+#~ "cellreferences.xhp\n"
+#~ "par_id7099826\n"
+#~ "help.text"
+#~ msgid "If you drag the box in the lower right corner of the active cell to select a range of cells, $[officename] automatically inserts the corresponding references in the adjacent cells. As a result, the sheet name is preceded with a \"$\" sign to designate it as an absolute reference."
+#~ msgstr "Si vous faites glisser la case dans le coin inférieur droit de la cellule active pour sélectionner une plage de cellules, $[officename] insère automatiquement les références correspondantes dans les cellules adjacentes. Le nom de la feuille est alors précédé du symbole \"$\" pour indiquer qu'il s'agit d'une référence absolue."
 
 #~ msgctxt ""
 #~ "numbers_text.xhp\n"

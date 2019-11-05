@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2019-09-30 14:01+0200\n"
+"POT-Creation-Date: 2019-11-05 14:28+0100\n"
 "PO-Revision-Date: 2018-11-14 11:51+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2410,14 +2410,14 @@ msgctxt ""
 msgid "To Reference a Cell in the Same Document"
 msgstr "একই নথিতে একটি ঘর রেফারেন্স করতে"
 
-#. J2qBT
+#. EruAD
 #: cellreferences.xhp
 msgctxt ""
 "cellreferences.xhp\n"
 "par_id2078005\n"
 "help.text"
-msgid "Open a new, empty spreadsheet."
-msgstr "একটি নতুন, ফাঁকা স্প্রেডশীট খুলুন।"
+msgid "Open a new, empty spreadsheet. By default, it has only a single sheet named Sheet1. Add a second sheet clicking on <emph>+</emph> button to the left of the sheet tab in the bottom (it will be named Sheet2 by default)."
+msgstr ""
 
 #. paXnm
 #: cellreferences.xhp
@@ -2454,6 +2454,24 @@ msgctxt ""
 "help.text"
 msgid "If you switch back to Sheet1, you will see the same content in cell A1 there. If the contents of Sheet2.A1 change, then the contents of Sheet1.A1 also change."
 msgstr "যদি আপনি পাতা ১ এ ফেরত যান, আপনি এখানে ঘর A1 এ একই বিষয়বস্তু দেখতে পাবেন। যদি পাতা t2.A1 এর বিষয়বস্তু পরিবর্তন হয়, তখন পাতা t2.A1 এর বিষয়বস্তু ও পরিবর্তন হবে।"
+
+#. Epbaf
+#: cellreferences.xhp
+msgctxt ""
+"cellreferences.xhp\n"
+"par_id3147338\n"
+"help.text"
+msgid "When referencing a sheet with name containing spaces, use single quotes around the name: <item type=\"literal\">='Sheet with spaces in name'.A1</item>"
+msgstr ""
+
+#. 3CbGE
+#: cellreferences.xhp
+msgctxt ""
+"cellreferences.xhp\n"
+"par_id3147383\n"
+"help.text"
+msgid "The example uses Calc formula syntax. It is also possible to use Excel A1 ot R1C1 formula syntax; this is configured on <link href=\"text/shared/optionen/01060900.xhp\">Formula options page</link>."
+msgstr ""
 
 #. mK8vG
 #: cellreferences.xhp
@@ -2518,14 +2536,14 @@ msgctxt ""
 msgid "Confirm the formula by clicking the green check mark."
 msgstr "সবুজ পরীক্ষন চীহ্নে ক্লিক করে সূত্র নিশ্চিত করুন।"
 
-#. fucwJ
+#. Vp5Cb
 #: cellreferences.xhp
 msgctxt ""
 "cellreferences.xhp\n"
 "par_id7099826\n"
 "help.text"
-msgid "If you drag the box in the lower right corner of the active cell to select a range of cells, $[officename] automatically inserts the corresponding references in the adjacent cells. As a result, the sheet name is preceded with a \"$\" sign to designate it as an absolute reference."
-msgstr "একটি কক্ষের পরিসর নির্বাচন করতে যদি আপনি সক্রিয় কক্ষের নিম্ন ডান কোনায় বাক্সটি টানেন, $[officename] স্বয়ংক্রিয়ভাবে সংযুক্ত কক্ষে স্বয়ংক্রিয়ভাবে সংশ্লিষ্ট রেফারেন্স সন্নিবেশ করাবে।ফলাফলস্বরূপ, এটিকে পরম রেফারেন্স হিসেবে মনোনীত করতে পাতার নাম একটি \"$\" চিহ্ন দ্বারা অগ্রগামী করা হবে।"
+msgid "If you drag the box in the lower right corner of the active cell to select a range of cells, $[officename] automatically inserts the corresponding references in the adjacent cells. As a result, the sheet name is preceded with a \"$\" sign to designate it as an <link href=\"text/scalc/guide/relativ_absolut_ref.xhp\">absolute reference</link>."
+msgstr ""
 
 #. hrgGP
 #: cellreferences.xhp
@@ -13281,6 +13299,20 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "এর মানে যদি আপনি ১/১/৩০ অথবা উচ্চতর তারিখ সন্নিবেশ করান, এটি আভ্যন্তরীনভাবে ১/১/৩০ অথবা উচ্চতর হিসেবে বিবেচিত হবে। সব নিম্ন দুই-বর্ণ বৎসর ২০xx শতাব্দীতে প্রয়োগ করা হবে। তাই, উদাহরণস্বরূপ, ১/১/২০ ১/১/২০২০ তে রুপান্তরিত হবে।"
+
+#~ msgctxt ""
+#~ "cellreferences.xhp\n"
+#~ "par_id2078005\n"
+#~ "help.text"
+#~ msgid "Open a new, empty spreadsheet."
+#~ msgstr "একটি নতুন, ফাঁকা স্প্রেডশীট খুলুন।"
+
+#~ msgctxt ""
+#~ "cellreferences.xhp\n"
+#~ "par_id7099826\n"
+#~ "help.text"
+#~ msgid "If you drag the box in the lower right corner of the active cell to select a range of cells, $[officename] automatically inserts the corresponding references in the adjacent cells. As a result, the sheet name is preceded with a \"$\" sign to designate it as an absolute reference."
+#~ msgstr "একটি কক্ষের পরিসর নির্বাচন করতে যদি আপনি সক্রিয় কক্ষের নিম্ন ডান কোনায় বাক্সটি টানেন, $[officename] স্বয়ংক্রিয়ভাবে সংযুক্ত কক্ষে স্বয়ংক্রিয়ভাবে সংশ্লিষ্ট রেফারেন্স সন্নিবেশ করাবে।ফলাফলস্বরূপ, এটিকে পরম রেফারেন্স হিসেবে মনোনীত করতে পাতার নাম একটি \"$\" চিহ্ন দ্বারা অগ্রগামী করা হবে।"
 
 #~ msgctxt ""
 #~ "numbers_text.xhp\n"
