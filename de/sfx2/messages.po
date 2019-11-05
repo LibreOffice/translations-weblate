@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-10-14 14:32+0200\n"
-"PO-Revision-Date: 2019-10-06 19:21+0000\n"
+"PO-Revision-Date: 2019-11-05 12:23+0000\n"
 "Last-Translator: kuehl <kuehl@libreoffice.org>\n"
 "Language-Team: German <https://vm137.documentfoundation.org/projects/libo_ui-master/sfx2messages/de/>\n"
 "Language: de\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.8\n"
 "X-POOTLE-MTIME: 1560714585.000000\n"
 
 #. bHbFE
@@ -197,7 +197,7 @@ msgstr " (freigegeben)"
 #: include/sfx2/strings.hrc:54
 msgctxt "STR_XMLSEC_ODF12_EXPECTED"
 msgid "The document format version is set to ODF 1.1 (OpenOffice.org 2.x) in Tools-Options-Load/Save-General. Signing documents requires ODF 1.2 (OpenOffice.org 3.x)."
-msgstr "Im Menü unter »Extras - Optionen… - Laden/Speichern - Allgemein« ist die Dokumentformatversion ODF 1.1 (OpenOffice.org 2.x) eingestellt. Für das Signieren ist ODF 1.2 (OpenOffice.org 3.x) notwendig."
+msgstr "Im Menü unter »Extras – Optionen… – Laden/Speichern – Allgemein« ist die Dokumentformatversion ODF 1.1 (OpenOffice.org 2.x) eingestellt. Für das Signieren ist ODF 1.2 (OpenOffice.org 3.x) notwendig."
 
 #. tqPCH
 #: include/sfx2/strings.hrc:55
@@ -521,7 +521,7 @@ msgid ""
 "Opening \"$(ARG1)\" failed with error code $(ARG2) and message: \"$(ARG3)\"\n"
 "Maybe no web browser could be found on your system. In that case, please check your Desktop Preferences or install a web browser (for example, Firefox) in the default location requested during the browser installation."
 msgstr ""
-"Öffnen von \"$(ARG1)\" schlug mit dem Fehlercode $(ARG2) und der Nachricht fehl: \"$(ARG3)\"\n"
+"Öffnen von \"$(ARG1)\" schlug mit dem Fehlercode $(ARG2) und folgender Nachricht fehl: \"$(ARG3)\"\n"
 "Vielleicht wurde kein Webbrowser auf Ihrem System gefunden. In diesem Fall prüfen Sie bitte Ihre Desktop-Einstellungen oder installieren Sie einen Webbrowser (beispielsweise Firefox) am Standardort, wie während der Browser-Installation gefordert."
 
 #. kmLzB
@@ -858,7 +858,7 @@ msgstr "Dokument"
 #: include/sfx2/strings.hrc:157
 msgctxt "STR_NONE"
 msgid "- None -"
-msgstr "- Keine -"
+msgstr "– Keine –"
 
 #. XBXvE
 #: include/sfx2/strings.hrc:158
@@ -961,7 +961,7 @@ msgstr "Fehlerhaftes Kennwort"
 #: include/sfx2/strings.hrc:172
 msgctxt "RID_SVXSTR_GPG_ENCRYPT_FAILURE"
 msgid "OpenPGP key not trusted, damaged, or encryption failure. Please try again."
-msgstr "OpenPGP-Schlüssel ist nicht vertrauenswürdig, beschädigt oder kann nicht verschlüsselt werden. Bitte versuchen Sie es erneut."
+msgstr "Der OpenPGP-Schlüssel ist nicht vertrauenswürdig, beschädigt oder die Verschlüsselung schlug fehl. Bitte versuchen Sie es erneut."
 
 #. DQCUm
 #: include/sfx2/strings.hrc:174
@@ -1938,7 +1938,7 @@ msgstr "Das Kennwort, welches Sie eingegeben haben, verursacht Kompatibilitätsp
 #: include/sfx2/strings.hrc:351
 msgctxt "STR_CTRLCLICKHYPERLINK"
 msgid "%{key}-click to open hyperlink: %{link}"
-msgstr "%{key}-Klick, um den Hyperlink zu öffnen: %{link}"
+msgstr "[%{key}+Klick], um folgenden Hyperlink zu öffnen: %{link}"
 
 #. jC3AK
 #: include/sfx2/strings.hrc:352
@@ -2346,19 +2346,19 @@ msgstr "Dieses Dokument kann Formatierungen oder Inhalte enthalten, die nicht im
 #: sfx2/uiconfig/ui/alienwarndialog.ui:14
 msgctxt "alienwarndialog|AlienWarnDialog"
 msgid "Use the default ODF file format to be sure that the document is saved correctly."
-msgstr "Benutzen Sie das ODF-Dateiformat, um sicherzugehen, dass das Dokument korrekt gespeichert wird."
+msgstr "Verwenden Sie das ODF-Dateiformat, um sicherzugehen, dass das Dokument korrekt gespeichert wird."
 
 #. ocqdy
 #: sfx2/uiconfig/ui/alienwarndialog.ui:25
 msgctxt "alienwarndialog|cancel"
 msgid "Use %DEFAULTEXTENSION _Format"
-msgstr "%DEFAULTEXTENSION-_Format benutzen"
+msgstr "%DEFAULTEXTENSION-_Format verwenden"
 
 #. Fzgtz
 #: sfx2/uiconfig/ui/alienwarndialog.ui:40
 msgctxt "alienwarndialog|save"
 msgid "_Use %FORMATNAME Format"
-msgstr "%FORMATNAME-Format _benutzen"
+msgstr "%FORMATNAME-Format _verwenden"
 
 #. Fgi6S
 #: sfx2/uiconfig/ui/alienwarndialog.ui:65
@@ -2940,7 +2940,7 @@ msgstr "%PRODUCTNAME Hilfe ist nicht installiert"
 #: sfx2/uiconfig/ui/helpmanual.ui:12
 msgctxt "helpmanual|onlinehelpmanual"
 msgid "The %PRODUCTNAME built-in help for current UI language ($UILOCALE) is not installed on your computer."
-msgstr "Die eingebaute Hilfe für %PRODUCTNAME ist für die aktuelle UI-Sprache ($UILOCALE) nicht auf Ihren Computer installiert."
+msgstr "Für die aktuelle UI-Sprache ($UILOCALE) ist die Offline-Hilfe für %PRODUCTNAME nicht auf Ihren Computer installiert."
 
 #. DxMPr
 #: sfx2/uiconfig/ui/helpmanual.ui:13
@@ -3468,7 +3468,7 @@ msgstr "Ihre Änderungen gehen verloren, wenn Sie diese nicht speichern."
 #: sfx2/uiconfig/ui/querysavedialog.ui:25
 msgctxt "querysavedialog|discard"
 msgid "Do_n’t Save"
-msgstr ""
+msgstr "_Nicht speichern"
 
 #. 6WbvE
 #: sfx2/uiconfig/ui/safemodequerydialog.ui:7
@@ -3858,7 +3858,7 @@ msgstr "Einstellungen"
 #: sfx2/uiconfig/ui/templatedlg.ui:368
 msgctxt "templatedlg|online_link|tooltip_text"
 msgid "Browse online templates"
-msgstr "Online-Vorlagen durchstöbern"
+msgstr "Online-Vorlagen durchsuchen"
 
 #. rhuYP
 #: sfx2/uiconfig/ui/templatedlg.ui:381
