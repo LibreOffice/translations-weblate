@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2019-10-14 14:31+0200\n"
+"POT-Creation-Date: 2019-11-08 20:19+0100\n"
 "PO-Revision-Date: 2019-11-05 11:58+0000\n"
 "Last-Translator: kuehl <kuehl@libreoffice.org>\n"
 "Language-Team: German <https://vm137.documentfoundation.org/projects/libo_help-master/textscalc01/de/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565412342.000000\n"
 
 #. sZfWF
@@ -4741,14 +4741,14 @@ msgctxt ""
 msgid "<emph>SearchCriteria</emph> is the cell range containing search criteria. If you write several criteria in one row they are connected by AND. If you write the criteria in different rows they are connected by OR. Empty cells in the search criteria range will be ignored."
 msgstr "<emph>Suchkriterien</emph> ist der Zellbereich, der Suchkriterien enthält. Wenn Sie mehrere Kriterien in eine Zeile eintragen, werden diese durch UND verbunden. Wenn Sie die Kriterien in verschiedene Zeilen eintragen, werden diese durch ODER verbunden. Leere Zellen im Suchkriterienbereich werden ignoriert."
 
-#. 6EVHB
+#. k58yy
 #: 04060101.xhp
 msgctxt ""
 "04060101.xhp\n"
 "par_id3151188\n"
 "help.text"
-msgid "Choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\">%PRODUCTNAME Calc - Calculate</link> to define how $[officename] Calc acts when searching for identical entries."
-msgstr "Wählen Sie <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Einstellungen</caseinline><defaultinline>Extras - Optionen...</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\" name=\"Tabellendokument - berechnen\">%PRODUCTNAME Calc - Berechnen</link> um zu festzulegen, wie $[officename] Calc beim Suchen mit identischen Einträgen verfahren soll."
+msgid "Choose <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calculate</menuitem></link> to define how $[officename] Calc acts when searching for identical entries."
+msgstr ""
 
 #. GCPCd
 #: 04060101.xhp
@@ -14460,6 +14460,15 @@ msgctxt ""
 "help.text"
 msgid "See COUNTIF() for some more syntax examples that can be used with SUMIF()."
 msgstr "Weitere Syntaxbeispiele für die Funktion SUMMEWENN() finden Sie bei der Funktion ZÄHLENWENN()."
+
+#. Z8TrQ
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"hd_id72921259523046\n"
+"help.text"
+msgid "<embedvar href=\"text/scalc/01/func_sumifs.xhp#sumifs_head\"/>"
+msgstr ""
 
 #. BHGzQ
 #: 04060106.xhp
@@ -33091,14 +33100,14 @@ msgctxt ""
 msgid "<emph>Range</emph> is the range to which the criteria are to be applied."
 msgstr "<emph>Bereich</emph> ist der Bereich, auf den die Kriterien angewendet werden sollen."
 
-#. PESCm
+#. HvRLc
 #: 04060181.xhp
 msgctxt ""
 "04060181.xhp\n"
 "par_id3165000\n"
 "help.text"
-msgid "<emph>Criteria</emph> indicates the criteria in the form of a number, an expression or a character string. These criteria determine which cells are counted. If regular expressions are enabled in calculation options you may also enter a search text in the form of a regular expression, e.g. b.* for all cells that begin with b. If wildcards are enabled in calculation options you may enter a search text with wildcards, e.g. b* for all cells that begin with b. You may also indicate a cell address that contains the search criterion. If you search for literal text, enclose the text in double quotes."
-msgstr "<emph>Bedingungen</emph> legt die Bedingungen in Form einer Zahl, eines Ausdrucks oder einer Zeichenkette fest. Diese Bedingungen legen fest, welche Zellen gezählt werden. Wenn reguläre Ausdrücke in den Optionen aktiviert sind, können Sie sogar einen Suchtext mit regulären Ausdrücken verwenden, beispielsweise b.* für alle Zellen, die mit b beginnen. Wenn Platzhalter in den Optionen aktiviert sind, können Sie auch einen Suchtext mit Platzhaltern verwenden, wie beispielsweise b* für alle Zellen, die mit b beginnen. Sie können auch einen Bezug zu einer Zelle angeben, die das Suchkriterium enthält. Wenn Sie nach Zeichenketten suchen, müssen Sie diese in doppelte Anführungszeichen einschließen."
+msgid "<emph>Criteria</emph> indicates the criteria in the form of a number, an expression or a character string. These criteria determine which cells are counted."
+msgstr ""
 
 #. ZpDRv
 #: 04060181.xhp
@@ -33162,6 +33171,15 @@ msgctxt ""
 "help.text"
 msgid "To count only negative numbers: <item type=\"input\">=COUNTIF(A1:A10;\"<0\")</item>"
 msgstr "Um nur negative Zahlen zu zählen: <item type=\"input\">=ZÄHLENWENN(A1:A10;\"<0\")</item>"
+
+#. jGBjw
+#: 04060181.xhp
+msgctxt ""
+"04060181.xhp\n"
+"hd_id224412044220134\n"
+"help.text"
+msgid "<embedvar href=\"text/scalc/01/func_countifs.xhp#countifs_head\"/>"
+msgstr ""
 
 #. GWdLd
 #: 04060181.xhp
@@ -66660,6 +66678,20 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki-Seite zu XML-Quellen (englisch)</link>"
+
+#~ msgctxt ""
+#~ "04060101.xhp\n"
+#~ "par_id3151188\n"
+#~ "help.text"
+#~ msgid "Choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\">%PRODUCTNAME Calc - Calculate</link> to define how $[officename] Calc acts when searching for identical entries."
+#~ msgstr "Wählen Sie <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Einstellungen</caseinline><defaultinline>Extras - Optionen...</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\" name=\"Tabellendokument - berechnen\">%PRODUCTNAME Calc - Berechnen</link> um zu festzulegen, wie $[officename] Calc beim Suchen mit identischen Einträgen verfahren soll."
+
+#~ msgctxt ""
+#~ "04060181.xhp\n"
+#~ "par_id3165000\n"
+#~ "help.text"
+#~ msgid "<emph>Criteria</emph> indicates the criteria in the form of a number, an expression or a character string. These criteria determine which cells are counted. If regular expressions are enabled in calculation options you may also enter a search text in the form of a regular expression, e.g. b.* for all cells that begin with b. If wildcards are enabled in calculation options you may enter a search text with wildcards, e.g. b* for all cells that begin with b. You may also indicate a cell address that contains the search criterion. If you search for literal text, enclose the text in double quotes."
+#~ msgstr "<emph>Bedingungen</emph> legt die Bedingungen in Form einer Zahl, eines Ausdrucks oder einer Zeichenkette fest. Diese Bedingungen legen fest, welche Zellen gezählt werden. Wenn reguläre Ausdrücke in den Optionen aktiviert sind, können Sie sogar einen Suchtext mit regulären Ausdrücken verwenden, beispielsweise b.* für alle Zellen, die mit b beginnen. Wenn Platzhalter in den Optionen aktiviert sind, können Sie auch einen Suchtext mit Platzhaltern verwenden, wie beispielsweise b* für alle Zellen, die mit b beginnen. Sie können auch einen Bezug zu einer Zelle angeben, die das Suchkriterium enthält. Wenn Sie nach Zeichenketten suchen, müssen Sie diese in doppelte Anführungszeichen einschließen."
 
 #~ msgctxt ""
 #~ "func_forecastetspiadd.xhp\n"

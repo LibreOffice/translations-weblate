@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: guide\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2019-11-05 14:28+0100\n"
+"POT-Creation-Date: 2019-11-08 19:34+0100\n"
 "PO-Revision-Date: 2018-11-14 12:09+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Russian <l10n@ru.libreoffice.org>\n"
@@ -12418,14 +12418,14 @@ msgctxt ""
 msgid "Defining A Function Using %PRODUCTNAME Basic"
 msgstr "Определение функций с помощью %PRODUCTNAME Basic"
 
-#. ZP8Ut
+#. rA6xD
 #: userdefined_function.xhp
 msgctxt ""
 "userdefined_function.xhp\n"
 "par_id3148456\n"
 "help.text"
-msgid "Choose <item type=\"menuitem\">Tools - Macros - Organize Macros - %PRODUCTNAME Basic</item>."
-msgstr "Выберите команду <item type=\"menuitem\">Сервис - Макросы - Управление макросами - %PRODUCTNAME Basic</item>."
+msgid "Choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Basic</menuitem>."
+msgstr ""
 
 #. 5gEUD
 #: userdefined_function.xhp
@@ -12436,14 +12436,14 @@ msgctxt ""
 msgid "Click the <emph>Edit</emph> button. You will now see the Basic IDE."
 msgstr "Нажмите кнопку <emph>Изменить</emph>. Откроется интегрированная среда разработки Basic."
 
-#. C5PDD
+#. G6mwG
 #: userdefined_function.xhp
 msgctxt ""
 "userdefined_function.xhp\n"
 "par_id3150327\n"
 "help.text"
-msgid "Enter the function code. In this example, we define a <item type=\"literal\">VOL(a; b; c)</item> function that calculates the volume of a rectangular solid with side lengths <item type=\"literal\">a</item>, <item type=\"literal\">b</item> and <item type=\"literal\">c</item>:"
-msgstr "Введите код функции. В данном примере определяется функция <item type=\"literal\">VOL(a; b; c)</item>, позволяющая рассчитать объём параллелепипеда с длинами сторон <item type=\"literal\">a</item>, <item type=\"literal\">b</item> и <item type=\"literal\">c</item>:"
+msgid "Enter the function code. In this example, we define a <literal>VOL(a; b; c)</literal> function that calculates the volume of a rectangular solid with side lengths <literal>a</literal>, <literal>b</literal> and <literal>c</literal>:"
+msgstr ""
 
 #. eXWo3
 #: userdefined_function.xhp
@@ -12490,14 +12490,14 @@ msgctxt ""
 msgid "If you want to copy the user-defined function to a Calc document:"
 msgstr "Чтобы скопировать пользовательскую функцию в документ Calc"
 
-#. WfojE
+#. 9oRKW
 #: userdefined_function.xhp
 msgctxt ""
 "userdefined_function.xhp\n"
 "par_id3150304\n"
 "help.text"
-msgid "Choose <item type=\"menuitem\">Tools - Macros - Organize Macros - %PRODUCTNAME Basic</item> ."
-msgstr "Выберите команду <item type=\"menuitem\">Сервис - Макросы - Управление макросами - %PRODUCTNAME Basic</item>."
+msgid "Choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Basic</menuitem>."
+msgstr ""
 
 #. HZciB
 #: userdefined_function.xhp
@@ -12562,23 +12562,23 @@ msgctxt ""
 msgid "Applying a User-defined Function in $[officename] Calc"
 msgstr "Применение пользовательской функции в $[officename] Calc"
 
-#. qyYrE
+#. cKHUA
 #: userdefined_function.xhp
 msgctxt ""
 "userdefined_function.xhp\n"
 "par_id3148869\n"
 "help.text"
-msgid "Once you have defined the function <item type=\"literal\">VOL(a; b; c)</item> in the Basic-IDE, you can apply it the same way as the built-in functions of $[officename] Calc."
-msgstr "После того как функция <item type=\"literal\">VOL(a; b; c)</item> определена в Basic-IDE, она может использоваться так же, как и любая встроенная функция $[officename] Calc."
+msgid "Once you have defined the function <literal>VOL(a; b; c)</literal> in the Basic-IDE, you can apply it the same way as the built-in functions of $[officename] Calc."
+msgstr ""
 
-#. VRybd
+#. WtG8F
 #: userdefined_function.xhp
 msgctxt ""
 "userdefined_function.xhp\n"
 "par_id3148606\n"
 "help.text"
-msgid "Open a Calc document and enter numbers for the function parameters <item type=\"literal\">a</item>, <item type=\"literal\">b</item>, and <item type=\"literal\">c</item> in cells A1, B1, and C1."
-msgstr "Откройте документ Calc и введите числа для параметров функции <item type=\"literal\">a</item>, <item type=\"literal\">b</item> и <item type=\"literal\">c</item> в ячейках A1, B1 и C1."
+msgid "Open a Calc document and enter numbers for the function parameters <literal>a</literal>, <literal>b</literal> and <literal>c</literal> in cells A1, B1, and C1."
+msgstr ""
 
 #. TTo2C
 #: userdefined_function.xhp
@@ -12588,15 +12588,6 @@ msgctxt ""
 "help.text"
 msgid "Set the cursor in another cell and enter the following:"
 msgstr "Установите курсор в другую ячейку и введите следующее:"
-
-#. CjkGL
-#: userdefined_function.xhp
-msgctxt ""
-"userdefined_function.xhp\n"
-"par_id3155264\n"
-"help.text"
-msgid "=VOL(A1;B1;C1)"
-msgstr "=VOL(A1;B1;C1)"
 
 #. frbse
 #: userdefined_function.xhp
@@ -13299,6 +13290,41 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "Это означает, что если ввести дату 1/1/30 или более позднюю, то она будет рассматриваться как 1/1/1930 и позже. Все предшествующие года из двух цифр относятся к 21 веку. Например, 1/1/20 преобразовывается в 1/1/2020."
+
+#~ msgctxt ""
+#~ "userdefined_function.xhp\n"
+#~ "par_id3148456\n"
+#~ "help.text"
+#~ msgid "Choose <item type=\"menuitem\">Tools - Macros - Organize Macros - %PRODUCTNAME Basic</item>."
+#~ msgstr "Выберите команду <item type=\"menuitem\">Сервис - Макросы - Управление макросами - %PRODUCTNAME Basic</item>."
+
+#~ msgctxt ""
+#~ "userdefined_function.xhp\n"
+#~ "par_id3150327\n"
+#~ "help.text"
+#~ msgid "Enter the function code. In this example, we define a <item type=\"literal\">VOL(a; b; c)</item> function that calculates the volume of a rectangular solid with side lengths <item type=\"literal\">a</item>, <item type=\"literal\">b</item> and <item type=\"literal\">c</item>:"
+#~ msgstr "Введите код функции. В данном примере определяется функция <item type=\"literal\">VOL(a; b; c)</item>, позволяющая рассчитать объём параллелепипеда с длинами сторон <item type=\"literal\">a</item>, <item type=\"literal\">b</item> и <item type=\"literal\">c</item>:"
+
+#~ msgctxt ""
+#~ "userdefined_function.xhp\n"
+#~ "par_id3148869\n"
+#~ "help.text"
+#~ msgid "Once you have defined the function <item type=\"literal\">VOL(a; b; c)</item> in the Basic-IDE, you can apply it the same way as the built-in functions of $[officename] Calc."
+#~ msgstr "После того как функция <item type=\"literal\">VOL(a; b; c)</item> определена в Basic-IDE, она может использоваться так же, как и любая встроенная функция $[officename] Calc."
+
+#~ msgctxt ""
+#~ "userdefined_function.xhp\n"
+#~ "par_id3148606\n"
+#~ "help.text"
+#~ msgid "Open a Calc document and enter numbers for the function parameters <item type=\"literal\">a</item>, <item type=\"literal\">b</item>, and <item type=\"literal\">c</item> in cells A1, B1, and C1."
+#~ msgstr "Откройте документ Calc и введите числа для параметров функции <item type=\"literal\">a</item>, <item type=\"literal\">b</item> и <item type=\"literal\">c</item> в ячейках A1, B1 и C1."
+
+#~ msgctxt ""
+#~ "userdefined_function.xhp\n"
+#~ "par_id3155264\n"
+#~ "help.text"
+#~ msgid "=VOL(A1;B1;C1)"
+#~ msgstr "=VOL(A1;B1;C1)"
 
 #~ msgctxt ""
 #~ "cellreferences.xhp\n"
