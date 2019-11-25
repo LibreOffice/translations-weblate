@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-11-13 13:46+0100\n"
-"PO-Revision-Date: 2019-11-13 12:52+0000\n"
-"Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
+"PO-Revision-Date: 2019-11-21 13:03+0000\n"
+"Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian Nynorsk <https://vm137.documentfoundation.org/projects/libo_help-master/textscalc01/nn/>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.8\n"
 "X-POOTLE-MTIME: 1565441848.000000\n"
 
 #. sZfWF
@@ -4748,7 +4748,7 @@ msgctxt ""
 "par_id3151188\n"
 "help.text"
 msgid "Choose <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calculate</menuitem></link> to define how $[officename] Calc acts when searching for identical entries."
-msgstr ""
+msgstr "Vel <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME → Innstillingar</menuitem></caseinline><defaultinline><menuitem>Verktøy → Innstillingar</menuitem></defaultinline></switchinline><menuitem> → %PRODUCTNAME Calc → Rekn ut</menuitem></link> for å betsemma korleis $[officename] Calc skal reagera når du søkjer etter identiske oppføringar."
 
 #. GCPCd
 #: 04060101.xhp
@@ -19049,7 +19049,7 @@ msgctxt ""
 "par_id3150156\n"
 "help.text"
 msgid "=VLOOKUP(SearchCriterion; Array; Index; SortedRangeLookup)"
-msgstr ""
+msgstr "=FINN.RAD(Søkjekriteria; Matrise; Indeks; SortertOmråde)"
 
 #. 7FsgG
 #: 04060109.xhp
@@ -19085,7 +19085,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr ""
+msgstr "<emph>SortertOmråde</emph> er ein valfri parameter som indikerer om den første kolonnen i matrisa inneheld områdegrenser i staden for vanlege verdiar. I denne modusen returnerer uttrykket verdien i rada med den første kolonnen som har ein verdi som er lik eller mindre enn «Søkjekriteria». Den kan for eksempel innehalde datoar når nokre MVA-verdiar er endra når verdiane representerer startdatoar for ein periode når ein bestemt MVA-verdi var brukt. Eit søk etter ein dato som manglar i den første matrisekolonnen, men er mellom nokre eksisterande grensedatoar, vil returnere den lågaste av dei slik at det er råd å finna dataa som høver til den søkte datoen. Bruk USANN eller null viss den første kolonnen ikkje inneheld områdegrenser. Når denne parameteren er sann eller ikkje gjeven, må den første kolonnen i matrisen vera <emph>sortert i stigande rekkjefølgje</emph>. Ei søk i sorterte kolonner går mykje raskare og funksjonen returnerer alltid ein verdi, sjølv om søkjeverdien ikkje samsvarar nøyaktig, viss han er større enn den lågaste verdien i den sorterte lista. I usorterte lister må søkjeverdien samsvara nøyaktig elles vil funksjonen returnere #I/T med meldinga <emph> Feil: verdi ikkje tilgjengeleg </emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -19760,7 +19760,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "HLOOKUP(SearchCriterion; Array; Index; SortedRangeLookup)"
-msgstr ""
+msgstr "=FINN.KOLONNE(Søkjekriteria; Matrise; Indeks; SortertOmråde)"
 
 #. nhwwF
 #: 04060109.xhp
@@ -21344,7 +21344,7 @@ msgctxt ""
 "hd_id2947083\n"
 "help.text"
 msgid "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\" name=\"LEFTB\">LEFTB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\" name=\"LEFTB\">VENSTREB</link></variable>"
 
 #. f3mWg
 #: 04060110.xhp
@@ -21506,7 +21506,7 @@ msgctxt ""
 "hd_id2956110\n"
 "help.text"
 msgid "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\" name=\"LENB\">LENB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\" name=\"LENB\">LENGDB</link></variable>"
 
 #. Cwz9S
 #: 04060110.xhp
@@ -21722,7 +21722,7 @@ msgctxt ""
 "hd_id2954589\n"
 "help.text"
 msgid "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\" name=\"MIDB\">MIDB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\" name=\"MIDTB\">MIDB</link></variable>"
 
 #. Qe8mw
 #: 04060110.xhp
@@ -22163,7 +22163,7 @@ msgctxt ""
 "hd_id2949805\n"
 "help.text"
 msgid "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\" name=\"RIGHTB\">RIGHTB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\" name=\"RIGHTB\">HØGREB</link></variable>"
 
 #. gvrHM
 #: 04060110.xhp
@@ -23558,7 +23558,7 @@ msgctxt ""
 "par_id3149211\n"
 "help.text"
 msgid "$[officename] searches the Add-in folder defined in the configuration for a suitable <switchinline select=\"sys\"><caseinline select=\"UNIX\">shared library</caseinline><defaultinline>DLL</defaultinline></switchinline>. To be recognized by $[officename], the <switchinline select=\"sys\"><caseinline select=\"UNIX\">shared library</caseinline><defaultinline>DLL</defaultinline></switchinline> must have certain properties, as explained in the following. This information allows you to program your own Add-In for <emph>Function Wizard</emph> of $[officename] Calc."
-msgstr "$[officename] søkjer i tilleggsmappa som er definert i konfigurasjonen for eit passande <switchinline select = \"sys\"> <caseinline select = \"UNIX\">delt bibliotek</caseinline> <defaultinline> DLL </defaultinline> </switchinline>. For å verta gjenkjent av $[officename], må <switchinline select = \"sys\"> <caseinline select = \"UNIX\"> delt bibliotek </caseinline> <defaultinline> DLL </defaultinline> </switchinline> ha visse eigenskapar som er forklarte nedanfor. Denne informasjonen gjer at du kan programmera ditt eiget tillegg for <emph> funksjon vegvisar </emph> i $[officename] Calc."
+msgstr "$[officename] søkjer i tilleggsmappa som er definert i konfigurasjonen for eit passande <switchinline select=\"sys\"> <caseinline select=\"UNIX\">delt bibliotek</caseinline> <defaultinline> DLL </defaultinline> </switchinline>. For å verta gjenkjent av $[officename], må <switchinline select=\"sys\"> <caseinline select=\"UNIX\"> delt bibliotek </caseinline> <defaultinline> DLL </defaultinline> </switchinline> ha visse eigenskapar som er forklarte nedanfor. Denne informasjonen gjer at du kan programmera ditt eiget tillegg for <emph> funksjon vegvisar </emph> i $[officename] Calc."
 
 #. CAC5V
 #: 04060112.xhp
@@ -33098,7 +33098,7 @@ msgctxt ""
 "par_id3165000\n"
 "help.text"
 msgid "<emph>Criteria</emph> indicates the criteria in the form of a number, an expression or a character string. These criteria determine which cells are counted."
-msgstr ""
+msgstr "<emph>Vilkår</emph> er vilkåret i form av eit tal, eit uttrykk eller ein teiknstreng. Desse kriteria bestemmer kva celler som skal teljast."
 
 #. ZpDRv
 #: 04060181.xhp
@@ -55769,7 +55769,7 @@ msgctxt ""
 "par_id45123108916423\n"
 "help.text"
 msgid "If the <emph>Average_Range</emph> is not specified, <emph>Range</emph> is used for both, the calculation of the mean and the search according to the condition. If  <emph>Average_Range</emph> is specified, the <emph>Range</emph> is used only for the condition test, while <emph>Average_Range</emph> is used for the average calculation."
-msgstr ""
+msgstr "Viss <emph>Gjennomsnitt_område</emph> ikkje er spesifisert, vert <emph>Område</emph> brukt for begge, både for utrekning av gjennomsnitt og for søkjet i høve til vilkåret. Gjennomsnitt_områdeiss <emph>Gjennomsnitt_område</emph> er oppgjeve, vert <emph>Område</emph> brukt berre for vilkårstesten medan <emph>Gjennomsnitt_område</emph> vert brukt for å rekna ut gjennomsnittet."
 
 #. 8v8Zv
 #: func_averageif.xhp
@@ -57776,7 +57776,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FINDB Function"
-msgstr ""
+msgstr "FINNB-funksjonen"
 
 #. EkUr2
 #: func_findb.xhp
@@ -57785,7 +57785,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>FINDB Function</bookmark_value>            <bookmark_value>find text;FINDB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FINNB-funksjonen</bookmark_value>  <bookmark_value>finn tekst;FINNB-funksjonen</bookmark_value>"
 
 #. WmZAa
 #: func_findb.xhp
@@ -57794,7 +57794,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\" name=\"findb\">FINDB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\" name=\"findb\">FINNB</link></variable>"
 
 #. iW2EE
 #: func_findb.xhp
@@ -57803,7 +57803,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns the starting position of a given text, using byte positions. FINDB is case sensitive.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Returnerer startplasseringa som byte-plassering for ein gjeven tekst. FINNB skil mellom store og små bokstavar.</ahelp></variable>"
 
 #. yA9fg
 #: func_findb.xhp
@@ -57812,7 +57812,7 @@ msgctxt ""
 "par_id221573517641172\n"
 "help.text"
 msgid "FINDB( Find Text ; Text ; Position )"
-msgstr ""
+msgstr "FINNB(Finn_tekst; Tekst; Plassering)"
 
 #. puQAw
 #: func_findb.xhp
@@ -57821,7 +57821,7 @@ msgctxt ""
 "par_id241573517292388\n"
 "help.text"
 msgid "<emph>Find Text</emph>: The text or text expression to be found."
-msgstr ""
+msgstr "<emph>Finn_tekst</emph>: Teksten eller tekstuttrykket som skal finnast."
 
 #. YgyTW
 #: func_findb.xhp
@@ -57830,7 +57830,7 @@ msgctxt ""
 "par_id991573517299918\n"
 "help.text"
 msgid "<emph>Text</emph>: the text in which the search is to be made."
-msgstr ""
+msgstr "<emph>Tekst</emph>: Teksten det skal søkjast i."
 
 #. pfYPq
 #: func_findb.xhp
@@ -57839,7 +57839,7 @@ msgctxt ""
 "par_id521573517305077\n"
 "help.text"
 msgid "<emph>Position</emph>: The position in the text where the search starts."
-msgstr ""
+msgstr "<emph>Plassering</emph>: Plasseringa søkjet skal byrja."
 
 #. VLM4H
 #: func_findb.xhp
@@ -57848,7 +57848,7 @@ msgctxt ""
 "par_id481573517830373\n"
 "help.text"
 msgid "<input>=FINDB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returns 19."
-msgstr ""
+msgstr "<input>=FINDB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returnnerer 19."
 
 #. 2YcR7
 #: func_forecastetsadd.xhp
@@ -60467,7 +60467,7 @@ msgctxt ""
 "par_id3153788\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_NETWORKDAYS\">Returns the number of workdays between a <emph>start date</emph> and an <emph>end date</emph>. Holidays can be deducted.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_NETWORKDAYS\">Returnerer talet på arbeidsdagar mellom <emph>startdato</emph> og <emph>sluttdato</emph>. Helgedagar kan trekkjast i frå.</ahelp>"
 
 #. shbHi
 #: func_networkdays.xhp
@@ -60944,7 +60944,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "REPLACEB Function"
-msgstr ""
+msgstr "BYT.UTB-funksjonen"
 
 #. GfVed
 #: func_replaceb.xhp
@@ -60953,7 +60953,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>REPLACEB Function</bookmark_value>            <bookmark_value>replace text;REPLACEB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BYT.UTB-funksjonen</bookmark_value>   <bookmark_value>byt ut tekst;BYT.UTB-funksjonen</bookmark_value>"
 
 #. 5MutE
 #: func_replaceb.xhp
@@ -60962,7 +60962,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"replaceb\"><link href=\"text/scalc/01/func_replaceb.xhp\" name=\"replaceb\">REPLACEB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"replaceb\"><link href=\"text/scalc/01/func_replaceb.xhp\" name=\"replaceb\">BYT.UTB</link></variable>"
 
 #. djAL7
 #: func_replaceb.xhp
@@ -60971,7 +60971,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns text where an old text is replaced with a new text, using byte positions.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Returnerer ein tekst der den gamle teksten er bytt ut med ein ny tekst. Brukar byte-plasseringar.s text where an old text is replaced with a new text, using byte positions.</ahelp></variable>"
 
 #. Fd4SC
 #: func_replaceb.xhp
@@ -60980,7 +60980,7 @@ msgctxt ""
 "par_id701542231253817\n"
 "help.text"
 msgid "REPLACEB( Text ; Position ; Length ; NewText )"
-msgstr ""
+msgstr "BYT.UTB( Tekst ; Plassering ; Lengd ; NyTekst )"
 
 #. eY5FG
 #: func_replaceb.xhp
@@ -60989,7 +60989,7 @@ msgctxt ""
 "par_id331573510857418\n"
 "help.text"
 msgid "<emph>Text</emph>: A text expression or reference to a cell containing a text expression in which the characters are to be replaced."
-msgstr ""
+msgstr "<emph>Tekst</emph>: Eit tekstuttrykk eller ein referanse til ei celle som inneheld eit tekstuttrykk der (delar av) teksten skal bytast ut."
 
 #. bqPxd
 #: func_replaceb.xhp
@@ -60998,7 +60998,7 @@ msgctxt ""
 "par_id431573510862075\n"
 "help.text"
 msgid "<emph>Position</emph>: the character position from which text is to be replaced."
-msgstr ""
+msgstr "<emph>Plassering</emph>: Teiknplasseringa av byrjinga av teksten som skal bytast ut."
 
 #. TtgNA
 #: func_replaceb.xhp
@@ -61007,7 +61007,7 @@ msgctxt ""
 "par_id481573510866260\n"
 "help.text"
 msgid "<emph>Length</emph>: the number of characters to be replaced."
-msgstr ""
+msgstr "<emph>Lengd</emph>: Kor mange teikn som skal bytast ut."
 
 #. UuACG
 #: func_replaceb.xhp
@@ -61016,7 +61016,7 @@ msgctxt ""
 "par_id911573510871412\n"
 "help.text"
 msgid "<emph>NewText</emph>: the text to be inserted."
-msgstr ""
+msgstr "<emph>NyTekst</emph>: Teksten som skal setjast inn."
 
 #. QH3SH
 #: func_replaceb.xhp
@@ -61025,7 +61025,7 @@ msgctxt ""
 "par_id431573515742206\n"
 "help.text"
 msgid "<input>=REPLACEB(\"ᄩᄔᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";4;1;\"ab\")</input> returns \"ᄩ abᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\" ."
-msgstr ""
+msgstr "<input>=BYT.UTB(\"ᄩᄔᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";4;1;\"ab\")</input> returnerer \"ᄩ abᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\" ."
 
 #. E7heY
 #: func_roundsig.xhp
@@ -61151,7 +61151,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SEARCHB Function"
-msgstr ""
+msgstr "FINNB-funksjonen"
 
 #. ennrh
 #: func_searchb.xhp
@@ -61160,7 +61160,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>SEARCHB Function</bookmark_value>            <bookmark_value>search text;SEARCHB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FINNB-funksjonen</bookmark_value>            <bookmark_value>søkje i tekst;FINNB-funksjonen</bookmark_value>"
 
 #. AXnND
 #: func_searchb.xhp
@@ -61169,7 +61169,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\" name=\"searchb\">SEARCHB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\" name=\"searchb\">FINNB</link></variable>"
 
 #. TySAy
 #: func_searchb.xhp
@@ -61178,7 +61178,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns the starting position of a given text, using byte positions (not case sensitive).</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Returnerer startplasseringa for ein gjeven tekst ved hjelp av byteposisjon. Skil ikkje mellom store og små bokstavar.</ahelp></variable>"
 
 #. jADhb
 #: func_searchb.xhp
@@ -61187,7 +61187,7 @@ msgctxt ""
 "par_id531573516878780\n"
 "help.text"
 msgid "SEARCHB( Find text ; Text ; Position)"
-msgstr ""
+msgstr "FINNB(FinnTekst; Tekst; Posisjon)"
 
 #. 6Pmbf
 #: func_searchb.xhp
@@ -61196,7 +61196,7 @@ msgctxt ""
 "par_id241573517292388\n"
 "help.text"
 msgid "<emph>Find Text</emph>: The text or text expression to be found."
-msgstr ""
+msgstr "<emph>FinnTekst</emph>: Teksten eller uttrykket som skal finnast."
 
 #. ovdFE
 #: func_searchb.xhp
@@ -61205,7 +61205,7 @@ msgctxt ""
 "par_id991573517299918\n"
 "help.text"
 msgid "<emph>Text</emph>: the text in which the search is to be made."
-msgstr ""
+msgstr "<emph>Tekst</emph>: Teksten det skal søkjast i."
 
 #. oDk8C
 #: func_searchb.xhp
@@ -61214,7 +61214,7 @@ msgctxt ""
 "par_id521573517305077\n"
 "help.text"
 msgid "<emph>Position</emph>: The position in the text where the search starts."
-msgstr ""
+msgstr "<emph>Posisjon</emph>: Startposisjonen for søket."
 
 #. 2E7js
 #: func_searchb.xhp
@@ -61223,7 +61223,7 @@ msgctxt ""
 "par_id561573517310749\n"
 "help.text"
 msgid "<input>=SEARCHB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returns 20."
-msgstr ""
+msgstr "<input>=FINNB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returnerer 20."
 
 #. Mv5R9
 #: func_second.xhp
@@ -61682,7 +61682,7 @@ msgctxt ""
 "par_id851556243961783\n"
 "help.text"
 msgid "<input>=SWITCH(MONTH(A3),1,\"January\",2,\"February\",3,\"March\",\"No match\")</input> returns \"January\" when A3 contains a date in January, \"February\" when A3 contains a date in February , etc..."
-msgstr ""
+msgstr "<input>=VEKSLA(MÅNAD(A3);1;\"Januar\";2;\"Februar\";3;\"Mars\";\"Ikkje treff\")</input> returnerer «Januar» når  A3 inneheld ein dato i januar, «Februar» når A3 inneheld ein dato i februar osv."
 
 #. vDLfw
 #: func_switch.xhp
@@ -63068,7 +63068,7 @@ msgctxt ""
 "par_id23102016234837285\n"
 "help.text"
 msgid "<ahelp hid=\".\">Returns the date calculated from a start date with a specific number of work days, before or after the start date. The calculation can include week-ends and holidays as non-working days.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Returnerer datoen som er rekna ut frå ein startdato med eit visst tal på arbeidsdagar før eller etter startdatoen. Utrekninga kan ta med  helg og heilagdagar som fridagar.</ahelp>"
 
 #. RRr3i
 #: func_workday.intl.xhp
@@ -63086,7 +63086,7 @@ msgctxt ""
 "par_id241020160008308885\n"
 "help.text"
 msgid "<emph>StartDate</emph>: is the date from when the calculation is carried out."
-msgstr ""
+msgstr "<emph>StartDato</emph>: Datoen som utrekninga skal byrja frå."
 
 #. CVBCb
 #: func_workday.intl.xhp
@@ -64022,7 +64022,7 @@ msgctxt ""
 "par_id11561818344892\n"
 "help.text"
 msgid "<emph>Group By Columns</emph>"
-msgstr ""
+msgstr "<emph>Gruppert etter kolonnar</emph>"
 
 #. Ei5b9
 #: stat_data.xhp
@@ -64031,7 +64031,7 @@ msgctxt ""
 "par_id151561818353339\n"
 "help.text"
 msgid "TRUE"
-msgstr ""
+msgstr "SANN"
 
 #. BSNLd
 #: stat_data.xhp
@@ -64040,7 +64040,7 @@ msgctxt ""
 "par_id141561818361892\n"
 "help.text"
 msgid "<emph>Polar</emph>"
-msgstr ""
+msgstr "<emph>Polar</emph>"
 
 #. 9DG5B
 #: stat_data.xhp
@@ -66209,7 +66209,7 @@ msgctxt ""
 "bm_id2764278\n"
 "help.text"
 msgid "<bookmark_value>Analysis toolpack;Fourier analysis</bookmark_value><bookmark_value>Fourier analysis;Analysis toolpack</bookmark_value><bookmark_value>Data statistics;Fourier analysis</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Analyse, verktøypakke;Fourier-analyse</bookmark_value><bookmark_value>Fourier-analyse;Analysis toolpack</bookmark_value><bookmark_value>Datastatistikkar;Fourier-analyse</bookmark_value>"
 
 #. se49E
 #: statistics_fourier.xhp
@@ -66218,7 +66218,7 @@ msgctxt ""
 "par_id1000040\n"
 "help.text"
 msgid "<variable id=\"sam01\">Choose <emph>Data - Statistics - Fourier Analysis</emph></variable>"
-msgstr ""
+msgstr "<variable id=\"sam01\">Vel <emph>Data → Statistikkar → Fourier-analyse</emph></variable>"
 
 #. HpuG9
 #: statistics_fourier.xhp
@@ -66227,7 +66227,7 @@ msgctxt ""
 "par_id1001270\n"
 "help.text"
 msgid "For more information on Fourier analysis, refer to the <link href=\"https://en.wikipedia.org/wiki/Fourier_analysis\" name=\"English Wikipedia: Fourier analysis\">corresponding Wikipedia article</link>."
-msgstr ""
+msgstr "Du kan finna meir om Fourier-analyse (på engelsk) <link href=\"https://en.wikipedia.org/wiki/Fourier_analysis\" name=\"English Wikipedia: Fourier analysis\">her i Wikipedia</link>."
 
 #. VArYS
 #: statistics_fourier.xhp
@@ -66236,7 +66236,7 @@ msgctxt ""
 "par_id301561811172762\n"
 "help.text"
 msgid "<emph>Input range has label</emph>: Mark when the first row or column of the input array is actually a label and not part of the data analysis."
-msgstr ""
+msgstr "<emph>Inndata-området har ein etikett</emph>: Kryss av her dersom den første rada eller kolonnen i dataområdet verkeleg er ei overskrift og ikkje del av dataanalysen."
 
 #. Gi5kk
 #: statistics_fourier.xhp
@@ -66245,7 +66245,7 @@ msgctxt ""
 "par_id741556228390897\n"
 "help.text"
 msgid "Input Range is a 2 x N or N x 2 range representing an array of complex number to be transformed, where N is the length of the array. The array represents the real and imaginary parts of the data."
-msgstr ""
+msgstr "Inndataområdet er eit område på 2 × N eller N × 2 med ei matrise med komplekse tal som skal omformast. M er lengda på matrisa. Matrisa representerer den reelle og imaginære delen av dataa."
 
 #. GqXZr
 #: statistics_fourier.xhp
@@ -66254,7 +66254,7 @@ msgctxt ""
 "hd_id211561811324208\n"
 "help.text"
 msgid "Options:"
-msgstr ""
+msgstr "Alternativ:"
 
 #. 68RRB
 #: statistics_fourier.xhp
@@ -66263,7 +66263,7 @@ msgctxt ""
 "par_id631556228516997\n"
 "help.text"
 msgid "<emph>Inverse</emph>: When checked, calculates the inverse Discrete Fourier Transform."
-msgstr ""
+msgstr "<emph>Invers</emph>: Når denne er avmerkt, vert invers discrete Fourier-transformasjon rekna ut."
 
 #. MH9kg
 #: statistics_fourier.xhp
@@ -66272,7 +66272,7 @@ msgctxt ""
 "par_id811561732287508\n"
 "help.text"
 msgid "<emph>Polar</emph>: When checked, the results are in polar coordinates (magnitude, phase)."
-msgstr ""
+msgstr "<emph>Polar</emph>; Når denne er merkt av, vert resultatet vist som polare koordinat (storleik, fase)."
 
 #. peNbe
 #: statistics_fourier.xhp
@@ -66281,7 +66281,7 @@ msgctxt ""
 "par_id661561732521977\n"
 "help.text"
 msgid "<emph>Minimum magnitude for polar form output (in dB)</emph>: used only when output is in polar form. All frequency components with magnitude less than this value in decibels will be suppressed with a zero magnitude-phase entry. This is very useful when looking at the magnitude-phase spectrum of a signal because there is always some very tiny amount of rounding error when doing FFT algorithms and results in incorrect non-zero phase for non-existent frequencies. By providing a suitable value to this parameter, these non-existent frequency components can be suppressed."
-msgstr ""
+msgstr "<emph>Minimumstorleik for polarformutgang (i dB)</emph>: vert brukt berre når utdataa er i polar form. Alle frekvenskomponentar med storleiksklasse mindre enn denne verdien i desibel vert undertrykt med ei null-storleiks fase-oppføring. Dette er svært nyttig når du ser på storleiksfase-spekteret av eit signal fordi det er alltid nokre veldig små avrundingsfeil når du brukar FFT-algoritmer og resulterer i feil ikkje-null fase for ikkje-eksisterande frekvensar. Ved å gje denne parameteren ein høveleg verdi, kan desse ikkje-eksisterande frekvens-komponentane undertrykkjast."
 
 #. 8pLcW
 #: statistics_fourier.xhp
@@ -66290,7 +66290,7 @@ msgctxt ""
 "par_id731561827207828\n"
 "help.text"
 msgid "The source data for this example is the same of the <link href=\"text/scalc/01/func_fourier.xhp\" name=\"Fourier function\">FOURIER function page</link>."
-msgstr ""
+msgstr "Kjeldedataane i dette eksempelet er dei same som på sida for <link href=\"text/scalc/01/func_fourier.xhp\" name=\"Fourier function\">FOURIER-funksjonen</link>."
 
 #. 4XJPB
 #: statistics_fourier.xhp
@@ -66299,7 +66299,7 @@ msgctxt ""
 "par_id290620191257279817\n"
 "help.text"
 msgid "Fourier Transform"
-msgstr ""
+msgstr "Fourier-transformering"
 
 #. nfhVE
 #: statistics_fourier.xhp
@@ -66308,7 +66308,7 @@ msgctxt ""
 "par_id29062019125727379\n"
 "help.text"
 msgid "Fourier Transform"
-msgstr ""
+msgstr "Fourier-transformering"
 
 #. G6aEG
 #: statistics_fourier.xhp
@@ -66317,7 +66317,7 @@ msgctxt ""
 "par_id290620191257276510\n"
 "help.text"
 msgid "<emph>Input data range : $B$6:$C$40</emph>"
-msgstr ""
+msgstr "<emph>Inndataområde : $B$6:$C$40</emph>"
 
 #. 5L22z
 #: statistics_fourier.xhp
@@ -66326,7 +66326,7 @@ msgctxt ""
 "par_id290620191257273433\n"
 "help.text"
 msgid "<emph>Input data range : $B$6:$C$40</emph>"
-msgstr ""
+msgstr "<emph>Inndataområde : $B$6:$C$40</emph>"
 
 #. Vyu9a
 #: statistics_fourier.xhp
@@ -66335,7 +66335,7 @@ msgctxt ""
 "par_id290620191257273688\n"
 "help.text"
 msgid "<emph>Real</emph>"
-msgstr ""
+msgstr "<emph>Reell</emph>"
 
 #. qEshW
 #: statistics_fourier.xhp
@@ -66353,7 +66353,7 @@ msgctxt ""
 "par_id481561825547527\n"
 "help.text"
 msgid "<emph>Magnitude</emph>"
-msgstr ""
+msgstr "<emph>Storleik</emph>"
 
 #. XcXJz
 #: statistics_fourier.xhp
@@ -66371,7 +66371,7 @@ msgctxt ""
 "par_id14337286612130\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/statistics.xhp#datasampling\">Sampling</link>, <link href=\"text/scalc/01/statistics.xhp#descriptivestatistics\">Descriptive Statistics</link>, <link href=\"text/scalc/01/statistics.xhp#anova\">Analysis of Variance (ANOVA)</link>, <link href=\"text/scalc/01/statistics.xhp#correlation\">Correlation</link>, <link href=\"text/scalc/01/statistics.xhp#covariance\">Covariance</link>, <link href=\"text/scalc/01/statistics.xhp#exponentialsmoothing\">Exponential Smoothing</link>, <link href=\"text/scalc/01/statistics.xhp#movingaverage\">Moving Average</link>, <link href=\"text/scalc/01/statistics.xhp#ttest\">Paired t-test</link>, <link href=\"text/scalc/01/statistics.xhp#ftest\">F-test</link>, <link href=\"text/scalc/01/statistics.xhp#ztest\">Z-test</link>, <link href=\"text/scalc/01/statistics.xhp#chisqtest\">Chi-square test</link>."
-msgstr ""
+msgstr "<link href=\"text/scalc/01/statistics.xhp#datasampling\">Sampling</link>, <link href=\"text/scalc/01/statistics.xhp#descriptivestatistics\">Beskrivande statistikkar</link>, <link href=\"text/scalc/01/statistics.xhp#anova\">Variansanalyse (ANOVA)</link>, <link href=\"text/scalc/01/statistics.xhp#correlation\">Samsvar</link>, <link href=\"text/scalc/01/statistics.xhp#covariance\">Kovarians</link>, <link href=\"text/scalc/01/statistics.xhp#exponentialsmoothing\">Eksponentiell utglatting</link>, <link href=\"text/scalc/01/statistics.xhp#movingaverage\">Flytta gjennomsnitt</link>, <link href=\"text/scalc/01/statistics.xhp#ttest\">Para t-test</link>, <link href=\"text/scalc/01/statistics.xhp#ftest\">F-test</link>, <link href=\"text/scalc/01/statistics.xhp#ztest\">Z-test</link>, <link href=\"text/scalc/01/statistics.xhp#chisqtest\">Chi-kvadrattest</link>."
 
 #. 7EZAg
 #: statistics_regression.xhp
@@ -66389,7 +66389,7 @@ msgctxt ""
 "hd_id1701201615033510\n"
 "help.text"
 msgid "<variable id=\"regressionanalysish1\"><link href=\"text/scalc/01/statistics_regression.xhp\" name=\"regression analysis\">Regression Analysis</link></variable>"
-msgstr ""
+msgstr "<variable id=\"regressionanalysish1\"><link href=\"text/scalc/01/statistics_regression.xhp\" name=\"regression analysis\">Regresjonsanalyse</link></variable>"
 
 #. NFhSA
 #: statistics_regression.xhp
@@ -66407,7 +66407,7 @@ msgctxt ""
 "bm_id2764278\n"
 "help.text"
 msgid "<bookmark_value>Analysis toolpack;regression analysis</bookmark_value><bookmark_value>regression analysis;Analysis toolpack</bookmark_value><bookmark_value>Data statistics;regression analysis</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Analysverktøy;regresjonanalyse</bookmark_value><bookmark_value>regresjonanalyse;analyseverktøy</bookmark_value><bookmark_value>Datastatistikk;regresjonanalyse</bookmark_value>"
 
 #. nCe3o
 #: statistics_regression.xhp

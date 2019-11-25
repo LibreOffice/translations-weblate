@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-11-13 13:46+0100\n"
-"PO-Revision-Date: 2019-11-13 12:52+0000\n"
+"PO-Revision-Date: 2019-11-21 13:03+0000\n"
 "Last-Translator: Olivier Hallot <olivier.hallot@documentfoundation.org>\n"
 "Language-Team: Portuguese (Brazil) <https://vm137.documentfoundation.org/projects/libo_help-master/textscalc01/pt_BR/>\n"
 "Language: pt-BR\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.8\n"
 "X-POOTLE-MTIME: 1559657369.000000\n"
 
 #. sZfWF
@@ -19049,7 +19049,7 @@ msgctxt ""
 "par_id3150156\n"
 "help.text"
 msgid "=VLOOKUP(SearchCriterion; Array; Index; SortedRangeLookup)"
-msgstr ""
+msgstr "=PROCV(CritérioDePesquisa; Matriz; Índice; BuscaIntervaloOrdenado)"
 
 #. 7FsgG
 #: 04060109.xhp
@@ -19085,7 +19085,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr ""
+msgstr "<emph>BuscaIntervaloOrdenado</emph> é um parâmetro opcional que indica se a primeira coluna da matriz contém limites de segmentos ou valores cheios.  Neste modo, a busca retorna o valor na linha com a primeira coluna tendo valor menor ou igual que CritérioDePesquisa. Por exemplo, pode conter datas quando algum valor de imposto mudar, e os valores que representam a data inicial de um prazo quando o valor do imposto estava em vigor. Portanto, se pesquisar por uma data ausente na primeira coluna da matriz , e esta cair entre dois valores limites do segemento, retornará o menor deles, permitindo encontrar o dado efetivo da data pesquisada. Insira um valor lógico FALSO ou zero se a primeira coluna não representar uma lista de segmentos. Quando inserir VERDADEIRO, ou ausente, a primeira coluna na matriz <emph>deve estar ordenada em ordem crescente</emph>. Colunas ordenadas podem ser pesquisadas muito mais rapidamente e a função sempre retorna um valor, mesmo que a busca não coincida exatamente, se for maior que o menor valor da lista. Em listas desordenadas, a pesquisa deve coincidir exatamente. Senão a função retorna #N/DISP com a mensagem: <emph>Erro: Valor não disponível</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -19760,7 +19760,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "HLOOKUP(SearchCriterion; Array; Index; SortedRangeLookup)"
-msgstr ""
+msgstr "=PROCH(CritérioDePesquisa; Matriz; Índice; BuscaIntervaloOrdenado)"
 
 #. nhwwF
 #: 04060109.xhp
@@ -21344,7 +21344,7 @@ msgctxt ""
 "hd_id2947083\n"
 "help.text"
 msgid "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\" name=\"LEFTB\">LEFTB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\" name=\"LEFTB\">ESQUERDAB</link></variable>"
 
 #. f3mWg
 #: 04060110.xhp
@@ -21506,7 +21506,7 @@ msgctxt ""
 "hd_id2956110\n"
 "help.text"
 msgid "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\" name=\"LENB\">LENB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\" name=\"LENB\">NUM.CARACTB</link></variable>"
 
 #. Cwz9S
 #: 04060110.xhp
@@ -21722,7 +21722,7 @@ msgctxt ""
 "hd_id2954589\n"
 "help.text"
 msgid "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\" name=\"MIDB\">MIDB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\" name=\"MIDB\">EXT.TEXTOB</link></variable>"
 
 #. Qe8mw
 #: 04060110.xhp
@@ -22163,7 +22163,7 @@ msgctxt ""
 "hd_id2949805\n"
 "help.text"
 msgid "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\" name=\"RIGHTB\">RIGHTB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\" name=\"RIGHTB\">DIREITAB</link></variable>"
 
 #. gvrHM
 #: 04060110.xhp
@@ -55724,7 +55724,7 @@ msgctxt ""
 "par_id7281266615152\n"
 "help.text"
 msgid "<ahelp hid=\".\"><variable id=\"averageif_des\">Returns the arithmetic mean of all cells in a range that satisfy a given condition. The AVERAGEIF function sums up all the results that match the logical test and divides this sum by the quantity of selected values.</variable></ahelp>"
-msgstr "<ahelp hid=\".\"><variable id=\"averageif_des\">Returna a média aritmética de todas as células no intervalo que satisfaçam uma condição apresentada. A função MÉDIASE soma todos os resultados que conferem a condição e divide pela quantidade dos valores selecionados.</variable></ahelp>"
+msgstr "<ahelp hid=\".\"><variable id=\"averageif_des\">Retorna a média aritmética de todas as células no intervalo que satisfaçam uma condição apresentada. A função MÉDIASE soma todos os resultados que conferem a condição e divide pela quantidade dos valores selecionados.</variable></ahelp>"
 
 #. jto8p
 #: func_averageif.xhp
@@ -55769,7 +55769,7 @@ msgctxt ""
 "par_id45123108916423\n"
 "help.text"
 msgid "If the <emph>Average_Range</emph> is not specified, <emph>Range</emph> is used for both, the calculation of the mean and the search according to the condition. If  <emph>Average_Range</emph> is specified, the <emph>Range</emph> is used only for the condition test, while <emph>Average_Range</emph> is used for the average calculation."
-msgstr ""
+msgstr "Se <emph>Intervalo_media</emph> não for especificado, <emph>Intervalo</emph> é utilizado para ambos, o cálculo da média e a pesquisa de acordo com a condição. Se <emph>Intervalo_media</emph> for especificado, o <emph>Intervalo</emph> é utilizado para a condição de teste, enquanto <emph>Intervalo_media</emph> é utilizado par o cálculo da média."
 
 #. 8v8Zv
 #: func_averageif.xhp
@@ -57776,7 +57776,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FINDB Function"
-msgstr ""
+msgstr "Função PROCURARB"
 
 #. EkUr2
 #: func_findb.xhp
@@ -57785,7 +57785,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>FINDB Function</bookmark_value>            <bookmark_value>find text;FINDB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>função PROCURARB</bookmark_value>            <bookmark_value>procurar texto;função PROCURARB</bookmark_value>"
 
 #. WmZAa
 #: func_findb.xhp
@@ -57794,7 +57794,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\" name=\"findb\">FINDB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\" name=\"findb\">PROCURARB</link></variable>"
 
 #. iW2EE
 #: func_findb.xhp
@@ -57803,7 +57803,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns the starting position of a given text, using byte positions. FINDB is case sensitive.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Retorna a posição inicial de um dato texto, utilizando as posições dos bytes. PROCURARB é dependente da caixa.</ahelp></variable>"
 
 #. yA9fg
 #: func_findb.xhp
@@ -57812,7 +57812,7 @@ msgctxt ""
 "par_id221573517641172\n"
 "help.text"
 msgid "FINDB( Find Text ; Text ; Position )"
-msgstr ""
+msgstr "PROCURARB(BuscaTexto ; Texto ; Posição )"
 
 #. puQAw
 #: func_findb.xhp
@@ -57821,7 +57821,7 @@ msgctxt ""
 "par_id241573517292388\n"
 "help.text"
 msgid "<emph>Find Text</emph>: The text or text expression to be found."
-msgstr ""
+msgstr "<emph>BuscaTexto</emph>: o texto ou expressão de texto a procurar."
 
 #. YgyTW
 #: func_findb.xhp
@@ -57830,7 +57830,7 @@ msgctxt ""
 "par_id991573517299918\n"
 "help.text"
 msgid "<emph>Text</emph>: the text in which the search is to be made."
-msgstr ""
+msgstr "<emph>Texto</emph>: o texto no qual a procura é feita."
 
 #. pfYPq
 #: func_findb.xhp
@@ -57839,7 +57839,7 @@ msgctxt ""
 "par_id521573517305077\n"
 "help.text"
 msgid "<emph>Position</emph>: The position in the text where the search starts."
-msgstr ""
+msgstr "<emph>Posição</emph>: a posição no texto a partir da qual a procura começa."
 
 #. VLM4H
 #: func_findb.xhp
@@ -57848,7 +57848,7 @@ msgctxt ""
 "par_id481573517830373\n"
 "help.text"
 msgid "<input>=FINDB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returns 19."
-msgstr ""
+msgstr "<input>=PROCURARB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> retorna 19."
 
 #. 2YcR7
 #: func_forecastetsadd.xhp
@@ -60944,7 +60944,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "REPLACEB Function"
-msgstr ""
+msgstr "função SUBSTUIRB"
 
 #. GfVed
 #: func_replaceb.xhp
@@ -60953,7 +60953,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>REPLACEB Function</bookmark_value>            <bookmark_value>replace text;REPLACEB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>função SUBSTITUIRB</bookmark_value>            <bookmark_value>substituir texto;função SUBSTITUIRB</bookmark_value>"
 
 #. 5MutE
 #: func_replaceb.xhp
@@ -60962,7 +60962,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"replaceb\"><link href=\"text/scalc/01/func_replaceb.xhp\" name=\"replaceb\">REPLACEB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"replaceb\"><link href=\"text/scalc/01/func_replaceb.xhp\" name=\"replaceb\">SUBSTITUIRB</link></variable>"
 
 #. djAL7
 #: func_replaceb.xhp
@@ -60971,7 +60971,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns text where an old text is replaced with a new text, using byte positions.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Retorna um texto onde um texto antigo é substituído por um novo, utilizando as posições dos bytes.</ahelp></variable>"
 
 #. Fd4SC
 #: func_replaceb.xhp
@@ -60980,7 +60980,7 @@ msgctxt ""
 "par_id701542231253817\n"
 "help.text"
 msgid "REPLACEB( Text ; Position ; Length ; NewText )"
-msgstr ""
+msgstr "SUBSTITUIRB( Texto ; Posição ; Tamanho ; NovoTexto)"
 
 #. eY5FG
 #: func_replaceb.xhp
@@ -60989,7 +60989,7 @@ msgctxt ""
 "par_id331573510857418\n"
 "help.text"
 msgid "<emph>Text</emph>: A text expression or reference to a cell containing a text expression in which the characters are to be replaced."
-msgstr ""
+msgstr "<emph>Texto</emph>: uma expressão de texto, ou referência a uma célula contendo uma expressão de texto na qual os caracteres devem ser substituídos."
 
 #. bqPxd
 #: func_replaceb.xhp
@@ -60998,7 +60998,7 @@ msgctxt ""
 "par_id431573510862075\n"
 "help.text"
 msgid "<emph>Position</emph>: the character position from which text is to be replaced."
-msgstr ""
+msgstr "<emph>Posição</emph>: a posição do caractere a partir da qual a substituição ocorre."
 
 #. TtgNA
 #: func_replaceb.xhp
@@ -61007,7 +61007,7 @@ msgctxt ""
 "par_id481573510866260\n"
 "help.text"
 msgid "<emph>Length</emph>: the number of characters to be replaced."
-msgstr ""
+msgstr "<emph>Tamanho</emph>: o número de caracteres a serem substituídos."
 
 #. UuACG
 #: func_replaceb.xhp
@@ -61016,7 +61016,7 @@ msgctxt ""
 "par_id911573510871412\n"
 "help.text"
 msgid "<emph>NewText</emph>: the text to be inserted."
-msgstr ""
+msgstr "<emph>NovoTexto</emph>: o texto a ser inserido."
 
 #. QH3SH
 #: func_replaceb.xhp
@@ -61025,7 +61025,7 @@ msgctxt ""
 "par_id431573515742206\n"
 "help.text"
 msgid "<input>=REPLACEB(\"ᄩᄔᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";4;1;\"ab\")</input> returns \"ᄩ abᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\" ."
-msgstr ""
+msgstr "<input>=SUBSTITUIRB(\"ᄩᄔᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";4;1;\"ab\")</input> retorna \"ᄩ abᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\" ."
 
 #. E7heY
 #: func_roundsig.xhp
@@ -61151,7 +61151,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SEARCHB Function"
-msgstr ""
+msgstr "Função LOCALIZARB"
 
 #. ennrh
 #: func_searchb.xhp
@@ -61160,7 +61160,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>SEARCHB Function</bookmark_value>            <bookmark_value>search text;SEARCHB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>função LOCALIZARB</bookmark_value>            <bookmark_value>localizar texto;função LOCALIZARB</bookmark_value>"
 
 #. AXnND
 #: func_searchb.xhp
@@ -61169,7 +61169,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\" name=\"searchb\">SEARCHB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\" name=\"searchb\">LOCALIZARB</link></variable>"
 
 #. TySAy
 #: func_searchb.xhp
@@ -61178,7 +61178,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns the starting position of a given text, using byte positions (not case sensitive).</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Retorna a posição inicial de um dado textode dentro de outro, utilizando a posição dos bytes (não é sensvíel à caixa.).</ahelp></variable>"
 
 #. jADhb
 #: func_searchb.xhp
@@ -61187,7 +61187,7 @@ msgctxt ""
 "par_id531573516878780\n"
 "help.text"
 msgid "SEARCHB( Find text ; Text ; Position)"
-msgstr ""
+msgstr "LOCALIZARB( LocalizarTexto ; Texto ; Posição)"
 
 #. 6Pmbf
 #: func_searchb.xhp
@@ -61196,7 +61196,7 @@ msgctxt ""
 "par_id241573517292388\n"
 "help.text"
 msgid "<emph>Find Text</emph>: The text or text expression to be found."
-msgstr ""
+msgstr "<emph>LocalizarTexto</emph>: o texto ou expressão de texto a ser localizado."
 
 #. ovdFE
 #: func_searchb.xhp
@@ -61205,7 +61205,7 @@ msgctxt ""
 "par_id991573517299918\n"
 "help.text"
 msgid "<emph>Text</emph>: the text in which the search is to be made."
-msgstr ""
+msgstr "<emph>Texto</emph>: o texto onde a localização ocorre."
 
 #. oDk8C
 #: func_searchb.xhp
@@ -61214,7 +61214,7 @@ msgctxt ""
 "par_id521573517305077\n"
 "help.text"
 msgid "<emph>Position</emph>: The position in the text where the search starts."
-msgstr ""
+msgstr "<emph>Posição</emph>: a posição no texto onde a localização começa."
 
 #. 2E7js
 #: func_searchb.xhp
@@ -61223,7 +61223,7 @@ msgctxt ""
 "par_id561573517310749\n"
 "help.text"
 msgid "<input>=SEARCHB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returns 20."
-msgstr ""
+msgstr "<input>=SEARCHB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> retorna 20."
 
 #. Mv5R9
 #: func_second.xhp

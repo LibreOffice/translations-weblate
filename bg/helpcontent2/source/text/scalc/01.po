@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-11-13 13:46+0100\n"
-"PO-Revision-Date: 2019-11-08 18:42+0000\n"
+"PO-Revision-Date: 2019-11-21 13:03+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://vm137.documentfoundation.org/projects/libo_help-master/textscalc01/bg/>\n"
 "Language: bg\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.8\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1562357170.000000\n"
 
@@ -4749,7 +4749,7 @@ msgctxt ""
 "par_id3151188\n"
 "help.text"
 msgid "Choose <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calculate</menuitem></link> to define how $[officename] Calc acts when searching for identical entries."
-msgstr ""
+msgstr "Изберете <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Инструменти - Настройки</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Изчисляване</menuitem></link>, за да укажете как да действа $[officename] Calc при търсене на еднакви записи."
 
 #. GCPCd
 #: 04060101.xhp
@@ -19050,7 +19050,7 @@ msgctxt ""
 "par_id3150156\n"
 "help.text"
 msgid "=VLOOKUP(SearchCriterion; Array; Index; SortedRangeLookup)"
-msgstr ""
+msgstr "=VLOOKUP(КритерийЗаТърсене; Масив; Индекс; ТърсенеВСортираниДиапазони)"
 
 #. 7FsgG
 #: 04060109.xhp
@@ -19086,7 +19086,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr ""
+msgstr "<emph>ТърсенеВСортираниДиапазони</emph> е незадължителен параметър, който определя дали първата колона в масива съдържа граници на диапазони вместо обикновени стойности. В този режим търсенето връща стойността от реда, в който стойността на първата колона е по-малка или равна на „КритерийЗаТърсене“. Например, тя може да съдържа датите на промяна на някаква данъчна ставка, така че стойностите представят началните дати на периодите, в които е била в сила определена ставка. Тогава търсенето на дата, която отсъства в първата колона на масива, но се пада между две съществуващи гранични дати, ще върне по-малката от тях, което позволява да се намерят данните, които са в сила за търсената дата. Въведете логическата стойност FALSE или нула, ако първата колона не представлява списък от граници на диапазони. Когато този параметър е TRUE или е пропуснат, първата колона в масива <emph>трябва да е сортирана във възходящ ред</emph>. Сортираните колони се претърсват много по-бързо и функцията винаги връща стойност, дори ако няма точно съвпадение с търсената стойност, стига тя да е между най-ниската и най-високата стойност от сортирания списък. В несортирани списъци съвпадението с търсената стойност трябва да бъде точно. Иначе функцията ще върне съобщението: <emph>Грешка: няма налична стойност</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -19761,7 +19761,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "HLOOKUP(SearchCriterion; Array; Index; SortedRangeLookup)"
-msgstr ""
+msgstr "HLOOKUP(КритерийЗаТърсене; Масив; Индекс; ТърсенеВСортираниДиапазони)"
 
 #. nhwwF
 #: 04060109.xhp
@@ -21345,7 +21345,7 @@ msgctxt ""
 "hd_id2947083\n"
 "help.text"
 msgid "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\" name=\"LEFTB\">LEFTB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\" name=\"LEFTB\">LEFTB</link></variable>"
 
 #. f3mWg
 #: 04060110.xhp
@@ -21507,7 +21507,7 @@ msgctxt ""
 "hd_id2956110\n"
 "help.text"
 msgid "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\" name=\"LENB\">LENB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\" name=\"LENB\">LENB</link></variable>"
 
 #. Cwz9S
 #: 04060110.xhp
@@ -21723,7 +21723,7 @@ msgctxt ""
 "hd_id2954589\n"
 "help.text"
 msgid "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\" name=\"MIDB\">MIDB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\" name=\"MIDB\">MIDB</link></variable>"
 
 #. Qe8mw
 #: 04060110.xhp
@@ -22164,7 +22164,7 @@ msgctxt ""
 "hd_id2949805\n"
 "help.text"
 msgid "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\" name=\"RIGHTB\">RIGHTB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\" name=\"RIGHTB\">RIGHTB</link></variable>"
 
 #. gvrHM
 #: 04060110.xhp
@@ -33081,7 +33081,7 @@ msgctxt ""
 "par_id3164967\n"
 "help.text"
 msgid "COUNTIF(Range; Criteria)"
-msgstr "COUNTIF(Област; Критерий)"
+msgstr "COUNTIF(Област; Критерии)"
 
 #. sxGvB
 #: 04060181.xhp
@@ -33099,7 +33099,7 @@ msgctxt ""
 "par_id3165000\n"
 "help.text"
 msgid "<emph>Criteria</emph> indicates the criteria in the form of a number, an expression or a character string. These criteria determine which cells are counted."
-msgstr ""
+msgstr "<emph>Критерии</emph> указва критериите под формата на число, израз или знаков низ. Тези критерии определят кои клетки да бъдат преброени."
 
 #. ZpDRv
 #: 04060181.xhp
@@ -55770,7 +55770,7 @@ msgctxt ""
 "par_id45123108916423\n"
 "help.text"
 msgid "If the <emph>Average_Range</emph> is not specified, <emph>Range</emph> is used for both, the calculation of the mean and the search according to the condition. If  <emph>Average_Range</emph> is specified, the <emph>Range</emph> is used only for the condition test, while <emph>Average_Range</emph> is used for the average calculation."
-msgstr ""
+msgstr "Ако не е зададен <emph>Диапазон_за_усредняване</emph>, <emph>Диапазон</emph> се използва и за двете – изчисляването на средната стойност и търсенето според условие. Ако е зададен <emph>Диапазон_за_усредняване</emph>, тогава <emph>Диапазон</emph> се използва само за проверката на условието, а <emph>Диапазон_за_усредняване</emph> – за самото изчисляване на средната стойност."
 
 #. 8v8Zv
 #: func_averageif.xhp
@@ -57777,7 +57777,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FINDB Function"
-msgstr ""
+msgstr "Функция FINDB"
 
 #. EkUr2
 #: func_findb.xhp
@@ -57786,7 +57786,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>FINDB Function</bookmark_value>            <bookmark_value>find text;FINDB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FINDB, функция</bookmark_value><bookmark_value>търсене на текст;FINDB, функция</bookmark_value>"
 
 #. WmZAa
 #: func_findb.xhp
@@ -57795,7 +57795,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\" name=\"findb\">FINDB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\" name=\"findb\">FINDB</link></variable>"
 
 #. iW2EE
 #: func_findb.xhp
@@ -57804,7 +57804,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns the starting position of a given text, using byte positions. FINDB is case sensitive.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Връща началната позиция на даден текст в байтове. FINDB различава малки от главни букви.</ahelp></variable>"
 
 #. yA9fg
 #: func_findb.xhp
@@ -57813,7 +57813,7 @@ msgctxt ""
 "par_id221573517641172\n"
 "help.text"
 msgid "FINDB( Find Text ; Text ; Position )"
-msgstr ""
+msgstr "FINDB(Търсен текст; Текст; Позиция)"
 
 #. puQAw
 #: func_findb.xhp
@@ -57822,7 +57822,7 @@ msgctxt ""
 "par_id241573517292388\n"
 "help.text"
 msgid "<emph>Find Text</emph>: The text or text expression to be found."
-msgstr ""
+msgstr "<emph>Търсен текст</emph>: текстът или текстовият израз, който да бъде намерен."
 
 #. YgyTW
 #: func_findb.xhp
@@ -57831,7 +57831,7 @@ msgctxt ""
 "par_id991573517299918\n"
 "help.text"
 msgid "<emph>Text</emph>: the text in which the search is to be made."
-msgstr ""
+msgstr "<emph>Текст</emph>: текстът, в който да се извърши търсенето."
 
 #. pfYPq
 #: func_findb.xhp
@@ -57840,7 +57840,7 @@ msgctxt ""
 "par_id521573517305077\n"
 "help.text"
 msgid "<emph>Position</emph>: The position in the text where the search starts."
-msgstr ""
+msgstr "<emph>Позиция</emph>: позицията в текста, от която да започне търсенето."
 
 #. VLM4H
 #: func_findb.xhp
@@ -57849,7 +57849,7 @@ msgctxt ""
 "par_id481573517830373\n"
 "help.text"
 msgid "<input>=FINDB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returns 19."
-msgstr ""
+msgstr "<input>=FINDB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> връща 19."
 
 #. 2YcR7
 #: func_forecastetsadd.xhp
@@ -60945,7 +60945,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "REPLACEB Function"
-msgstr ""
+msgstr "Функция REPLACEB"
 
 #. GfVed
 #: func_replaceb.xhp
@@ -60954,7 +60954,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>REPLACEB Function</bookmark_value>            <bookmark_value>replace text;REPLACEB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>REPLACEB, функция</bookmark_value><bookmark_value>замяна на текст;REPLACEB, функция</bookmark_value>"
 
 #. 5MutE
 #: func_replaceb.xhp
@@ -60963,7 +60963,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"replaceb\"><link href=\"text/scalc/01/func_replaceb.xhp\" name=\"replaceb\">REPLACEB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"replaceb\"><link href=\"text/scalc/01/func_replaceb.xhp\" name=\"replaceb\">REPLACEB</link></variable>"
 
 #. djAL7
 #: func_replaceb.xhp
@@ -60972,7 +60972,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns text where an old text is replaced with a new text, using byte positions.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Връща текст, в който стар откъс е заменен нов, като позициите се задават в байтове.</ahelp></variable>"
 
 #. Fd4SC
 #: func_replaceb.xhp
@@ -60981,7 +60981,7 @@ msgctxt ""
 "par_id701542231253817\n"
 "help.text"
 msgid "REPLACEB( Text ; Position ; Length ; NewText )"
-msgstr ""
+msgstr "REPLACEB(Текст; Позиция; Дължина; НовТекст)"
 
 #. eY5FG
 #: func_replaceb.xhp
@@ -60990,7 +60990,7 @@ msgctxt ""
 "par_id331573510857418\n"
 "help.text"
 msgid "<emph>Text</emph>: A text expression or reference to a cell containing a text expression in which the characters are to be replaced."
-msgstr ""
+msgstr "<emph>Текст</emph>: текстов израз или обръщение към клетка, съдържаща текстов израз, в който трябва да се извърши замяната на знаци."
 
 #. bqPxd
 #: func_replaceb.xhp
@@ -60999,7 +60999,7 @@ msgctxt ""
 "par_id431573510862075\n"
 "help.text"
 msgid "<emph>Position</emph>: the character position from which text is to be replaced."
-msgstr ""
+msgstr "<emph>Позиция</emph>: позицията на знака, от който трябва да започне замяната."
 
 #. TtgNA
 #: func_replaceb.xhp
@@ -61008,7 +61008,7 @@ msgctxt ""
 "par_id481573510866260\n"
 "help.text"
 msgid "<emph>Length</emph>: the number of characters to be replaced."
-msgstr ""
+msgstr "<emph>Дължина</emph>: броят знаци, които да бъдат заместени."
 
 #. UuACG
 #: func_replaceb.xhp
@@ -61017,7 +61017,7 @@ msgctxt ""
 "par_id911573510871412\n"
 "help.text"
 msgid "<emph>NewText</emph>: the text to be inserted."
-msgstr ""
+msgstr "<emph>НовТекст</emph>: текстът, който да бъде вмъкнат."
 
 #. QH3SH
 #: func_replaceb.xhp
@@ -61026,7 +61026,7 @@ msgctxt ""
 "par_id431573515742206\n"
 "help.text"
 msgid "<input>=REPLACEB(\"ᄩᄔᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";4;1;\"ab\")</input> returns \"ᄩ abᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\" ."
-msgstr ""
+msgstr "<input>=REPLACEB(\"ᄩᄔᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";4;1;\"ab\")</input> връща \"ᄩ abᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\" ."
 
 #. E7heY
 #: func_roundsig.xhp
@@ -61152,7 +61152,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SEARCHB Function"
-msgstr ""
+msgstr "Функция SEARCHB"
 
 #. ennrh
 #: func_searchb.xhp
@@ -61161,7 +61161,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>SEARCHB Function</bookmark_value>            <bookmark_value>search text;SEARCHB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>SEARCHB, функция</bookmark_value><bookmark_value>търсене на текст;SEARCHB, функция</bookmark_value>"
 
 #. AXnND
 #: func_searchb.xhp
@@ -61170,7 +61170,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\" name=\"searchb\">SEARCHB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\" name=\"searchb\">SEARCHB</link></variable>"
 
 #. TySAy
 #: func_searchb.xhp
@@ -61179,7 +61179,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns the starting position of a given text, using byte positions (not case sensitive).</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Връща началната позиция на даден текст в байтове (не различава малки от главни букви).</ahelp></variable>"
 
 #. jADhb
 #: func_searchb.xhp
@@ -61188,7 +61188,7 @@ msgctxt ""
 "par_id531573516878780\n"
 "help.text"
 msgid "SEARCHB( Find text ; Text ; Position)"
-msgstr ""
+msgstr "SEARCHB(Търсен текст; Текст; Позиция)"
 
 #. 6Pmbf
 #: func_searchb.xhp
@@ -61197,7 +61197,7 @@ msgctxt ""
 "par_id241573517292388\n"
 "help.text"
 msgid "<emph>Find Text</emph>: The text or text expression to be found."
-msgstr ""
+msgstr "<emph>Търсен текст</emph>: текстът или текстовият израз, който да бъде намерен."
 
 #. ovdFE
 #: func_searchb.xhp
@@ -61206,7 +61206,7 @@ msgctxt ""
 "par_id991573517299918\n"
 "help.text"
 msgid "<emph>Text</emph>: the text in which the search is to be made."
-msgstr ""
+msgstr "<emph>Текст</emph>: текстът, в който да се извърши търсенето."
 
 #. oDk8C
 #: func_searchb.xhp
@@ -61215,7 +61215,7 @@ msgctxt ""
 "par_id521573517305077\n"
 "help.text"
 msgid "<emph>Position</emph>: The position in the text where the search starts."
-msgstr ""
+msgstr "<emph>Позиция</emph>: позицията в текста, от която да започне търсенето."
 
 #. 2E7js
 #: func_searchb.xhp
@@ -61224,7 +61224,7 @@ msgctxt ""
 "par_id561573517310749\n"
 "help.text"
 msgid "<input>=SEARCHB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returns 20."
-msgstr ""
+msgstr "<input>=SEARCHB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> връща 20."
 
 #. Mv5R9
 #: func_second.xhp
