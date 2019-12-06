@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-11-25 17:08+0100\n"
-"PO-Revision-Date: 2019-11-05 12:06+0000\n"
-"Last-Translator: Modestas Rimkus <modestas.rimkus@gmail.com>\n"
+"PO-Revision-Date: 2019-12-06 11:57+0000\n"
+"Last-Translator: eglejasu <egle.jasute@gmail.com>\n"
 "Language-Team: Lithuanian <https://vm137.documentfoundation.org/projects/libo_help-master/textscalc01/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.8\n"
 "X-POOTLE-MTIME: 1564863514.000000\n"
 
 #. sZfWF
@@ -4748,7 +4748,7 @@ msgctxt ""
 "par_id3151188\n"
 "help.text"
 msgid "Choose <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calculate</menuitem></link> to define how $[officename] Calc acts when searching for identical entries."
-msgstr ""
+msgstr "Pasirinkite <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Priemonės – Parinktys</menuitem></defaultinline></switchinline><menuitem>  – „%PRODUCTNAME “ skaičiuoklė – Skaičiuoti</menuitem></link>, kai norite apibrėžti, kaip „$[officename]“ skaičiuoklė ieško  vienodų įrašų."
 
 #. GCPCd
 #: 04060101.xhp
@@ -14450,7 +14450,7 @@ msgctxt ""
 "par_id6670125\n"
 "help.text"
 msgid "<item type=\"input\">=SUMIF(A1:A10;\">0\";B1:B10)</item> - sums values from the range B1:B10 only if the corresponding values in the range A1:A10 are >0."
-msgstr ""
+msgstr "<item type=\"input\">=SUMIF(A1:A10;\">0\";B1:B10)</item> – susumuoja srities B1:B10 reikšmes, jei atitinkamos srities A1:A10 reikšmės yra teigiamos."
 
 #. G5vdm
 #: 04060106.xhp
@@ -19049,7 +19049,7 @@ msgctxt ""
 "par_id3150156\n"
 "help.text"
 msgid "=VLOOKUP(SearchCriterion; Array; Index; SortedRangeLookup)"
-msgstr ""
+msgstr "=VLOOKUP(paieškos kriterijus; masyvas; rodyklė; išrikiuotos srities peržiūra)"
 
 #. 7FsgG
 #: 04060109.xhp
@@ -19085,7 +19085,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr ""
+msgstr "<emph>Išrikiuotos srities peržiūra</emph> – papildomas parametras, kuris nusako, ar pirmasis masyvo stulpelis apima srities ribas, o ne paprastas reikšmes. Šioje veiksenoje grąžinama  reikšmė eilutėje, kurioje pirmasis stulpelis turi reikšmę, lygią ar mažesnę už paieškos kriterijų. Pvz., joje gali būti datos, kai buvo pakeista tam tikra mokesčių reikšmė, taigi vertės atspindi laikotarpio, kai galiojo konkreti mokesčių vertė, pradžią. Taigi, ieškant datos, kurios nėra pirmame masyvo stulpelyje, bet patenka tarp kai kurių esamų ribinių datų, bus pateikiama žemesnė iš jų tokiu būdu leidžiama sužinoti, kokie duomenys yra veiksmingi ieškomai datai. Įveskite loginę reikšmę NETIESA arba 0, jei pirmasis stulpelis nėra srities riba. Kai šis parametras yra TIESA arba nenurodytas, pirmasis stulpelis masyve <emph>turi būti išrikiuotas didėjančiai</emph>. Išrikiuotuose stulpeliuose paieška gali būti atliekama greičiau ir funkcija visada grąžina reikšmę, net jei paieškos reikšmė ne visiškai atitinka ir jei ji yra didesnė nei mažiausią išrikiuoto sąrašo reikšmę. Priešingu atveju funkcija grąžina #N/A su pranešimu: <emph>Klaida: reikšmė netinkama</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -19760,7 +19760,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "HLOOKUP(SearchCriterion; Array; Index; SortedRangeLookup)"
-msgstr ""
+msgstr "HLOOKUP(paieškos kriterijus; masyvas; rodyklė; išrikiuotos srities peržiūra)"
 
 #. nhwwF
 #: 04060109.xhp
@@ -21344,7 +21344,7 @@ msgctxt ""
 "hd_id2947083\n"
 "help.text"
 msgid "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\" name=\"LEFTB\">LEFTB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\" name=\"LEFTB\">LEFTB</link></variable>"
 
 #. f3mWg
 #: 04060110.xhp
@@ -21506,7 +21506,7 @@ msgctxt ""
 "hd_id2956110\n"
 "help.text"
 msgid "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\" name=\"LENB\">LENB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\" name=\"LENB\">LENB</link></variable>"
 
 #. Cwz9S
 #: 04060110.xhp
@@ -21722,7 +21722,7 @@ msgctxt ""
 "hd_id2954589\n"
 "help.text"
 msgid "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\" name=\"MIDB\">MIDB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\" name=\"MIDB\">MIDB</link></variable>"
 
 #. Qe8mw
 #: 04060110.xhp
@@ -22163,7 +22163,7 @@ msgctxt ""
 "hd_id2949805\n"
 "help.text"
 msgid "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\" name=\"RIGHTB\">RIGHTB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\" name=\"RIGHTB\">RIGHTB</link></variable>"
 
 #. gvrHM
 #: 04060110.xhp
@@ -33098,7 +33098,7 @@ msgctxt ""
 "par_id3165000\n"
 "help.text"
 msgid "<emph>Criteria</emph> indicates the criteria in the form of a number, an expression or a character string. These criteria determine which cells are counted."
-msgstr ""
+msgstr "<emph>Kriterijus</emph> nurodo mas skaičiumi, reiškiniu arba ženklų eilute. Šis kriterijus nurodo, kurie langeliai skaičiuojami."
 
 #. ZpDRv
 #: 04060181.xhp
@@ -55769,7 +55769,7 @@ msgctxt ""
 "par_id45123108916423\n"
 "help.text"
 msgid "If the <emph>Average_Range</emph> is not specified, <emph>Range</emph> is used for both, the calculation of the mean and the search according to the condition. If  <emph>Average_Range</emph> is specified, the <emph>Range</emph> is used only for the condition test, while <emph>Average_Range</emph> is used for the average calculation."
-msgstr ""
+msgstr "Jei <emph>vidurkio sritis</emph> nenurodyta, <emph>sritis</emph> naudojama ir vidurkio skaičiavimui ir paieškai pagal nurodytą sąlygą. Jei <emph>vidurkio sritis</emph> nurodyta, tai <emph>sritis</emph> naudojama tik paieškai pagal sąlygą tol, kol vidurkio skaičiavimui naudojama <emph>vidurkio sritis</emph>."
 
 #. 8v8Zv
 #: func_averageif.xhp
@@ -57776,7 +57776,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FINDB Function"
-msgstr ""
+msgstr "FINDB funkcija"
 
 #. EkUr2
 #: func_findb.xhp
@@ -57785,7 +57785,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>FINDB Function</bookmark_value>            <bookmark_value>find text;FINDB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FINDB funkcija</bookmark_value>............<bookmark_value>rasti tekstą;FINDB funkcija</bookmark_value>"
 
 #. WmZAa
 #: func_findb.xhp
@@ -57794,7 +57794,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\" name=\"findb\">FINDB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\" name=\"findb\">FINDB</link></variable>"
 
 #. iW2EE
 #: func_findb.xhp
@@ -57803,7 +57803,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns the starting position of a given text, using byte positions. FINDB is case sensitive.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Grąžina duoto teksto pradžią naudodama baito vietą. FINDB skiria didžiąsias ir mažąsias raides.</ahelp></variable>"
 
 #. yA9fg
 #: func_findb.xhp
@@ -57812,7 +57812,7 @@ msgctxt ""
 "par_id221573517641172\n"
 "help.text"
 msgid "FINDB( Find Text ; Text ; Position )"
-msgstr ""
+msgstr "FINDB(ieškomas tekstas ; tekstas; vieta)"
 
 #. puQAw
 #: func_findb.xhp
@@ -57821,7 +57821,7 @@ msgctxt ""
 "par_id241573517292388\n"
 "help.text"
 msgid "<emph>Find Text</emph>: The text or text expression to be found."
-msgstr ""
+msgstr "<emph>Ieškomas tekstas</emph> – nurodomas ieškomas tekstas arba išraiška."
 
 #. YgyTW
 #: func_findb.xhp
@@ -57830,7 +57830,7 @@ msgctxt ""
 "par_id991573517299918\n"
 "help.text"
 msgid "<emph>Text</emph>: the text in which the search is to be made."
-msgstr ""
+msgstr "<emph>Tekstas</emph> – nurodomas tekstas, kuriame vykdoma paieška."
 
 #. pfYPq
 #: func_findb.xhp
@@ -57839,7 +57839,7 @@ msgctxt ""
 "par_id521573517305077\n"
 "help.text"
 msgid "<emph>Position</emph>: The position in the text where the search starts."
-msgstr ""
+msgstr "<emph>Vieta</emph> – vieta tekste, kur pradedama paieška."
 
 #. VLM4H
 #: func_findb.xhp
@@ -57848,7 +57848,7 @@ msgctxt ""
 "par_id481573517830373\n"
 "help.text"
 msgid "<input>=FINDB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returns 19."
-msgstr ""
+msgstr "<input>=FINDB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> grąžina 19."
 
 #. 2YcR7
 #: func_forecastetsadd.xhp
@@ -58082,7 +58082,7 @@ msgctxt ""
 "par_id0603201617141750\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_FORECAST_ETS_PIA\">Calculates the prediction interval(s) for additive forecast based on the historical data using ETS or EDS algorithms.</ahelp> EDS is used when argument <emph>period_length</emph> is 0, otherwise ETS is used."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_FORECAST_ETS_PIA\">Apskaičiuoja prognozės intervalus pridėtiniai prognozei pagal istorinius duomenis naudodama ETS ir EDS algoritmus.</ahelp> EDS naudojamas, kai argumentas <emph>laikotarpis</emph> lygus 0, o kitais atvejais naudojamas ETS algoritmas."
 
 #. ZnBVX
 #: func_forecastetspiadd.xhp
@@ -60944,7 +60944,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "REPLACEB Function"
-msgstr ""
+msgstr "REPLACEB  funkcija"
 
 #. GfVed
 #: func_replaceb.xhp
@@ -60953,7 +60953,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>REPLACEB Function</bookmark_value>            <bookmark_value>replace text;REPLACEB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>REPLACEB funkcija</bookmark_value>               <bookmark_value>pakeisti tekstą;REPLACEB funkcija</bookmark_value>"
 
 #. 5MutE
 #: func_replaceb.xhp
@@ -60962,7 +60962,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"replaceb\"><link href=\"text/scalc/01/func_replaceb.xhp\" name=\"replaceb\">REPLACEB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"replaceb\"><link href=\"text/scalc/01/func_replaceb.xhp\" name=\"replaceb\">REPLACEB </link></variable>"
 
 #. djAL7
 #: func_replaceb.xhp
@@ -60971,7 +60971,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns text where an old text is replaced with a new text, using byte positions.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Grąžina teksto vietą, kur senas tekstas bus pakeistas nauju tekstu.</ahelp></variable>"
 
 #. Fd4SC
 #: func_replaceb.xhp
@@ -60980,7 +60980,7 @@ msgctxt ""
 "par_id701542231253817\n"
 "help.text"
 msgid "REPLACEB( Text ; Position ; Length ; NewText )"
-msgstr ""
+msgstr "REPLACEB(tekstas; vieta; ilgis; naujas tekstas)"
 
 #. eY5FG
 #: func_replaceb.xhp
@@ -60989,7 +60989,7 @@ msgctxt ""
 "par_id331573510857418\n"
 "help.text"
 msgid "<emph>Text</emph>: A text expression or reference to a cell containing a text expression in which the characters are to be replaced."
-msgstr ""
+msgstr "<emph>Tekstas</emph> – naujo teksto reikšmė arba langelio, kuriame yra teksto reikšmė, nuoroda."
 
 #. bqPxd
 #: func_replaceb.xhp
@@ -60998,7 +60998,7 @@ msgctxt ""
 "par_id431573510862075\n"
 "help.text"
 msgid "<emph>Position</emph>: the character position from which text is to be replaced."
-msgstr ""
+msgstr "<emph>Vieta</emph> – ženklo vieta, nuo kurio tekstas bus keičiamas."
 
 #. TtgNA
 #: func_replaceb.xhp
@@ -61007,7 +61007,7 @@ msgctxt ""
 "par_id481573510866260\n"
 "help.text"
 msgid "<emph>Length</emph>: the number of characters to be replaced."
-msgstr ""
+msgstr "<emph>Ilgis</emph> – keičiamų ženklų skaičius."
 
 #. UuACG
 #: func_replaceb.xhp
@@ -61016,7 +61016,7 @@ msgctxt ""
 "par_id911573510871412\n"
 "help.text"
 msgid "<emph>NewText</emph>: the text to be inserted."
-msgstr ""
+msgstr "<emph>Naujas tekstas</emph> – įterpiamas nauja tekstas."
 
 #. QH3SH
 #: func_replaceb.xhp
@@ -61025,7 +61025,7 @@ msgctxt ""
 "par_id431573515742206\n"
 "help.text"
 msgid "<input>=REPLACEB(\"ᄩᄔᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";4;1;\"ab\")</input> returns \"ᄩ abᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\" ."
-msgstr ""
+msgstr "<input>=REPLACEB(\"ᄩᄔᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";4;1;\"ab\")</input> grąžina \"ᄩ abᄕᄜᄝᄞᄠᄢᄣᄫᄬᄭᄮᄯᄲᄶ\" ."
 
 #. E7heY
 #: func_roundsig.xhp
@@ -61151,7 +61151,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SEARCHB Function"
-msgstr ""
+msgstr "SEARCHB funkcija"
 
 #. ennrh
 #: func_searchb.xhp
@@ -61160,7 +61160,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>SEARCHB Function</bookmark_value>            <bookmark_value>search text;SEARCHB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>SEARCHB funkcija</bookmark_value>                <bookmark_value>ieškoti teksto;SEARCHB funkcija</bookmark_value>"
 
 #. AXnND
 #: func_searchb.xhp
@@ -61169,7 +61169,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\" name=\"searchb\">SEARCHB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\" name=\"searchb\">SEARCHB </link></variable>"
 
 #. TySAy
 #: func_searchb.xhp
@@ -61178,7 +61178,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns the starting position of a given text, using byte positions (not case sensitive).</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Grąžina duoto teksto pradžios vietą (neskiria didžiųjų ir mažųjų raidžių).</ahelp></variable>"
 
 #. jADhb
 #: func_searchb.xhp
@@ -61187,7 +61187,7 @@ msgctxt ""
 "par_id531573516878780\n"
 "help.text"
 msgid "SEARCHB( Find text ; Text ; Position)"
-msgstr ""
+msgstr "SEARCHB( ieškomas tekstas; tekstas; vieta)"
 
 #. 6Pmbf
 #: func_searchb.xhp
@@ -61196,7 +61196,7 @@ msgctxt ""
 "par_id241573517292388\n"
 "help.text"
 msgid "<emph>Find Text</emph>: The text or text expression to be found."
-msgstr ""
+msgstr "<emph>Ieškomas tekstas</emph> – ieškomas tekstas arba tekstinė reikšmė."
 
 #. ovdFE
 #: func_searchb.xhp
@@ -61205,7 +61205,7 @@ msgctxt ""
 "par_id991573517299918\n"
 "help.text"
 msgid "<emph>Text</emph>: the text in which the search is to be made."
-msgstr ""
+msgstr "<emph>Tekstas</emph> – tekstas, kuriame ieškoma teksto reikšmė."
 
 #. oDk8C
 #: func_searchb.xhp
@@ -61214,7 +61214,7 @@ msgctxt ""
 "par_id521573517305077\n"
 "help.text"
 msgid "<emph>Position</emph>: The position in the text where the search starts."
-msgstr ""
+msgstr "<emph>Vieta</emph> – teksto vieta, kur pradedama paieška."
 
 #. 2E7js
 #: func_searchb.xhp
@@ -61223,7 +61223,7 @@ msgctxt ""
 "par_id561573517310749\n"
 "help.text"
 msgid "<input>=SEARCHB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returns 20."
-msgstr ""
+msgstr "<input>=SEARCHB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> grąžina 20."
 
 #. Mv5R9
 #: func_second.xhp
