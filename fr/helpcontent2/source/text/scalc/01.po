@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-06 13:09+0100\n"
-"PO-Revision-Date: 2019-11-05 11:58+0000\n"
+"PO-Revision-Date: 2019-12-10 20:23+0000\n"
 "Last-Translator: sophie <gautier.sophie@gmail.com>\n"
 "Language-Team: French <https://vm137.documentfoundation.org/projects/libo_help-master/textscalc01/fr/>\n"
 "Language: fr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.8\n"
 "X-POOTLE-MTIME: 1565208174.000000\n"
 
 #. sZfWF
@@ -4748,7 +4748,7 @@ msgctxt ""
 "par_id3151188\n"
 "help.text"
 msgid "Choose <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calculate</menuitem></link> to define how $[officename] Calc acts when searching for identical entries."
-msgstr ""
+msgstr "Choisissez <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Préférences</menuitem></caseinline><defaultinline><menuitem>Outils - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calculer</menuitem></link> pour définir la façon dont $[officename] Calc agit lors de la recherche d'entrées identiques."
 
 #. GCPCd
 #: 04060101.xhp
@@ -7052,7 +7052,7 @@ msgctxt ""
 "bm_id3154695\n"
 "help.text"
 msgid "<bookmark_value>DURATION function</bookmark_value>         <bookmark_value>durations;fixed interest securities</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DUREE, fonction</bookmark_value><bookmark_value>Durées;titres à revenue fixe</bookmark_value>"
 
 #. coRDF
 #: 04060103.xhp
@@ -7061,7 +7061,7 @@ msgctxt ""
 "hd_id3154695\n"
 "help.text"
 msgid "DURATION"
-msgstr ""
+msgstr "DUREE"
 
 #. oA2tj
 #: 04060103.xhp
@@ -7079,7 +7079,7 @@ msgctxt ""
 "par_id3153373\n"
 "help.text"
 msgid "DURATION(\"Settlement\"; \"Maturity\"; Coupon; Yield; Frequency; Basis)"
-msgstr ""
+msgstr "DUREE(\"terme\"; \"échéance\"; coupon; rendement; fréquence; base"
 
 #. JeeVp
 #: 04060103.xhp
@@ -7142,7 +7142,7 @@ msgctxt ""
 "par_id3154902\n"
 "help.text"
 msgid "<item type=\"input\">=DURATION(\"2001-01-01\";\"2006-01-01\";0.08;0.09;2;3)</item>"
-msgstr ""
+msgstr "<item type=\"input\">=DUREE(\"01/01/2001\";\"01/01/2006\";0,08;0,09;2;3)</item>"
 
 #. TjeEJ
 #: 04060103.xhp
@@ -14450,7 +14450,7 @@ msgctxt ""
 "par_id6670125\n"
 "help.text"
 msgid "<item type=\"input\">=SUMIF(A1:A10;\">0\";B1:B10)</item> - sums values from the range B1:B10 only if the corresponding values in the range A1:A10 are >0."
-msgstr ""
+msgstr "<item type=\"input\">=SOMME.SI(A1:A10;\">0\";B1:B10)</item> - additionne les valeurs de la plage B1:B10 uniquement si les valeurs correspondantes dans la plage A1:A10 sont >0."
 
 #. G5vdm
 #: 04060106.xhp
@@ -19049,7 +19049,7 @@ msgctxt ""
 "par_id3150156\n"
 "help.text"
 msgid "=VLOOKUP(SearchCriterion; Array; Index; SortedRangeLookup)"
-msgstr ""
+msgstr "=RERCHERCHEV(critère_recherche;matrice;index;plage_recherche_triée)"
 
 #. 7FsgG
 #: 04060109.xhp
@@ -19085,7 +19085,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr ""
+msgstr "<emph>plage_recherche_triée</emph> est un paramètre facultatif qui indique si la première colonne de la matrice contient des plages limites au lieu de valeurs simples. Dans ce mode, la recherche renvoie la valeur dans la ligne avec la première colonne ayant une valeur égale ou inférieure au critère de recherche. Par exemple, il peut contenir des dates auxquelles une valeur fiscale a été modifiée, et les valeurs représentent donc les dates de début d'une période où une valeur fiscale spécifique était effective. Ainsi, la recherche d'une date qui est absente dans la première colonne du tableau, mais se situe entre certaines dates limites existantes, donnerait la plus basse d'entre elles, permettant de découvrir que les données sont effectives à la date recherchée. Entrez la valeur logique FAUX ou zéro si la première colonne n'est pas une liste de limites de plage. Lorsque ce paramètre est VRAI ou non donné, la première colonne du tableau <emph>doit être triée par ordre croissant</emph>. Les colonnes triées peuvent être recherchées beaucoup plus rapidement et la fonction renvoie toujours une valeur, même si la valeur de recherche ne correspond pas exactement, si elle est supérieure à la valeur la plus basse de la liste triée. Dans les listes non triées, la valeur de recherche doit correspondre exactement. Sinon, la fonction renverra #N/D avec le message : <emph>Erreur : valeur non disponible</emph>"
 
 #. fJQRf
 #: 04060109.xhp
@@ -19760,7 +19760,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "HLOOKUP(SearchCriterion; Array; Index; SortedRangeLookup)"
-msgstr ""
+msgstr "RECHERCHEH(critère_recherche;matrice;index;plage_recherche_triée)"
 
 #. nhwwF
 #: 04060109.xhp
@@ -21344,7 +21344,7 @@ msgctxt ""
 "hd_id2947083\n"
 "help.text"
 msgid "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\" name=\"LEFTB\">LEFTB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\" name=\"LEFTB\">GAUCHEB</link></variable>"
 
 #. f3mWg
 #: 04060110.xhp
@@ -21506,7 +21506,7 @@ msgctxt ""
 "hd_id2956110\n"
 "help.text"
 msgid "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\" name=\"LENB\">LENB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\" name=\"LENB\">NBCARB</link></variable>"
 
 #. Cwz9S
 #: 04060110.xhp
@@ -21722,7 +21722,7 @@ msgctxt ""
 "hd_id2954589\n"
 "help.text"
 msgid "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\" name=\"MIDB\">MIDB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\" name=\"MIDB\">STXTB</link></variable>"
 
 #. Qe8mw
 #: 04060110.xhp
@@ -22163,7 +22163,7 @@ msgctxt ""
 "hd_id2949805\n"
 "help.text"
 msgid "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\" name=\"RIGHTB\">RIGHTB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\" name=\"RIGHTB\">DROITEB</link></variable>"
 
 #. gvrHM
 #: 04060110.xhp
@@ -30884,7 +30884,7 @@ msgctxt ""
 "par_id3147273\n"
 "help.text"
 msgid "<input>=PRICE(\"1999-02-15\"; \"2007-11-15\"; 0.0575; 0.065; 100; 2; 0)</input>  returns 95.04287."
-msgstr ""
+msgstr "<input>=PRIX.TITRE(\"15/02/1999\";\"15/11/2007\";0,585;0,065;100;2;0)</input> renvoie 95,04287"
 
 #. sQGxa
 #: 04060119.xhp
@@ -30974,7 +30974,7 @@ msgctxt ""
 "par_id3151178\n"
 "help.text"
 msgid "<input>=PRICEDISC(\"1999-02-15\"; \"1999-03-01\"; 0.0525; 100; 2)</input>  returns 99.79583."
-msgstr ""
+msgstr "<input>=VALEUR.ENCAISSEMENT(\"15/02/1999\";\"01/03/1999\";0,0525;100;2)</input> renvoie 99,79583."
 
 #. hbGNH
 #: 04060119.xhp
@@ -31082,7 +31082,7 @@ msgctxt ""
 "par_id3158409\n"
 "help.text"
 msgid "<input>=PRICEMAT(\"1999-02-15\";\"1999-04-13\";\"1998-11-11\"; 0.061; 0.061;0)</input>  returns 99.98449888."
-msgstr ""
+msgstr "<input>=PRIX.TITRE.ECHEANCE(\"15/02/1999\";\"13/04/1999\";\"11/11/1998\";0,061;0,061;0)</input> renvoie 99,98449888."
 
 #. GAN7n
 #: 04060119.xhp
@@ -31334,7 +31334,7 @@ msgctxt ""
 "par_id3145378\n"
 "help.text"
 msgid "<input>=MDURATION(\"2001-01-01\"; \"2006-01-01\"; 0.08; 0.09; 2; 3)</input> returns 4.02 years."
-msgstr ""
+msgstr "<input>=DUREE.MODIFIEE(\"01/01/2001\";\"01/01/2006\";0,08;0,09;2;3)</input> renvoie 4,02 ans."
 
 #. BrDKP
 #: 04060119.xhp
@@ -31883,7 +31883,7 @@ msgctxt ""
 "par_id3154194\n"
 "help.text"
 msgid "<input>=YIELD(\"1999-02-15\"; \"2007-11-15\"; 0.0575 ;95.04287; 100; 2; 0)</input>  returns 0.065 or 6.50 per cent."
-msgstr ""
+msgstr "<input>=RENDEMENT.TITRE(\"15/02/1999\";\"15/11/2007\";0,0575;95,04287;100;2;0)</input> renvoie 0,065 ou 6,50 pour cent."
 
 #. AeJmf
 #: 04060119.xhp
@@ -31973,7 +31973,7 @@ msgctxt ""
 "par_id3155187\n"
 "help.text"
 msgid "<input>=YIELDDISC(\"1999-02-15\"; \"1999-03-01\"; 99.795; 100; 2)</input> returns 0.052823 or 5.2823 per cent."
-msgstr ""
+msgstr "<input>=RENDEMENT.SIMPLE(\"15/02/1999\";\"01/03/1999\";99,795;100;2)</input> renvoie 0,052823 ou 5,2823 pour cent."
 
 #. 5mbhE
 #: 04060119.xhp
@@ -32072,7 +32072,7 @@ msgctxt ""
 "par_id3155311\n"
 "help.text"
 msgid "<input>=YIELDMAT(\"1999-03-15\"; \"1999-11-03\"; \"1998-11-08\"; 0.0625; 100.0123; 0)</input>  returns 0.060954 or 6.0954 per cent."
-msgstr ""
+msgstr "<input>=RENDEMENT.TITRE.ECHEANCE(\"15/03/1999\";\"08/11/1998\";0,0625;100,0123;0)</input> renvoie 0,060954 ou 6,0954 pour cent."
 
 #. 2ZC4E
 #: 04060119.xhp
@@ -32261,7 +32261,7 @@ msgctxt ""
 "par_id3154382\n"
 "help.text"
 msgid "<input>=TBILLEQ(\"1999-03-31\";\"1999-06-01\"; 0.0914)</input>  returns 0.094151 or 9.4151 per cent."
-msgstr ""
+msgstr "<input>=TAUX.ESCOMPTE.R(\"31/03/1999\";\"01/06/1999\";0,0914)</input> renvoie 0,094151 ou 9,4151 pour cent."
 
 #. zcFRa
 #: 04060119.xhp
@@ -32351,7 +32351,7 @@ msgctxt ""
 "par_id3154592\n"
 "help.text"
 msgid "<input>=TBILLPRICE(\"1999-03-31\";\"1999-06-01\"; 0.09)</input> returns 98.45."
-msgstr ""
+msgstr "<input>=PRIX.BON.TRESOR(\"31/03/1999\";\"01/06/1999\")</input> renvoie 98,45."
 
 #. yEHpt
 #: 04060119.xhp
@@ -32441,7 +32441,7 @@ msgctxt ""
 "par_id3148528\n"
 "help.text"
 msgid "<input>=TBILLYIELD(\"1999-03-31\";\"1999-06-01\"; 98.45)</input> returns 0.091417 or 9.1417 per cent."
-msgstr ""
+msgstr "<input>=RENDEMENT.BON.TRESOR(\"31/03/1999\";\"01/06/1999\";98,45)</input> renvoie 0,091417 ou 9,1417 pour cent."
 
 #. NF5nu
 #: 04060119.xhp
@@ -33098,7 +33098,7 @@ msgctxt ""
 "par_id3165000\n"
 "help.text"
 msgid "<emph>Criteria</emph> indicates the criteria in the form of a number, an expression or a character string. These criteria determine which cells are counted."
-msgstr ""
+msgstr "<emph>critères</emph> indique des critères sous la forme d'un nombre, une expression ou une chaîne de caractères. Ces critères déterminent quelles cellules sont comptées."
 
 #. ZpDRv
 #: 04060181.xhp
@@ -55769,7 +55769,7 @@ msgctxt ""
 "par_id45123108916423\n"
 "help.text"
 msgid "If the <emph>Average_Range</emph> is not specified, <emph>Range</emph> is used for both, the calculation of the mean and the search according to the condition. If  <emph>Average_Range</emph> is specified, the <emph>Range</emph> is used only for the condition test, while <emph>Average_Range</emph> is used for the average calculation."
-msgstr ""
+msgstr "Si <emph>plage_moyenne</emph> n'est pas indiqué, <emph>plage</emph> est utilisé pour les deux, le calcul de la moyenne et la recherche en fonction de la condition. Si <emph>plage_moyenne</emph> est indiqué, <emph>plage</emph> est utilisé uniquement pour le test de condition, alors que <emph>plage_moyenne</emph> est utilisé pour le calcul de la moyenne."
 
 #. 8v8Zv
 #: func_averageif.xhp
@@ -57776,7 +57776,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FINDB Function"
-msgstr ""
+msgstr "TROUVEB, fonction"
 
 #. EkUr2
 #: func_findb.xhp
@@ -57785,7 +57785,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>FINDB Function</bookmark_value>            <bookmark_value>find text;FINDB Function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>TROUVEB, fonction</bookmark_value><bookmark_value>chercher du text;fonction TROUVEB</bookmark_value>"
 
 #. WmZAa
 #: func_findb.xhp
@@ -57794,7 +57794,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\" name=\"findb\">FINDB</link></variable>"
-msgstr ""
+msgstr "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\" name=\"findb\">TROUVEB</link></variable>"
 
 #. iW2EE
 #: func_findb.xhp
@@ -57803,7 +57803,7 @@ msgctxt ""
 "par_id831573508637970\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns the starting position of a given text, using byte positions. FINDB is case sensitive.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Renvoie la position de départ d'un texte donné, en utilisant la position des octets. TROUVEB est sensible à la casse.</ahelp></variable>"
 
 #. yA9fg
 #: func_findb.xhp
@@ -57812,7 +57812,7 @@ msgctxt ""
 "par_id221573517641172\n"
 "help.text"
 msgid "FINDB( Find Text ; Text ; Position )"
-msgstr ""
+msgstr "TROUVEB(texte_recherché;texte;position)"
 
 #. puQAw
 #: func_findb.xhp
@@ -57821,7 +57821,7 @@ msgctxt ""
 "par_id241573517292388\n"
 "help.text"
 msgid "<emph>Find Text</emph>: The text or text expression to be found."
-msgstr ""
+msgstr "<emph>texte_recherché</emph> : le texte ou l'expression de texte recherché."
 
 #. YgyTW
 #: func_findb.xhp
@@ -57830,7 +57830,7 @@ msgctxt ""
 "par_id991573517299918\n"
 "help.text"
 msgid "<emph>Text</emph>: the text in which the search is to be made."
-msgstr ""
+msgstr "<emph>texte</emph> : le texte dans lequel la recherche est effectuée."
 
 #. pfYPq
 #: func_findb.xhp
@@ -57839,7 +57839,7 @@ msgctxt ""
 "par_id521573517305077\n"
 "help.text"
 msgid "<emph>Position</emph>: The position in the text where the search starts."
-msgstr ""
+msgstr "<emph>position</emph> : la position dans le texte où la recherche commence."
 
 #. VLM4H
 #: func_findb.xhp
@@ -57848,7 +57848,7 @@ msgctxt ""
 "par_id481573517830373\n"
 "help.text"
 msgid "<input>=FINDB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returns 19."
-msgstr ""
+msgstr "<input>=TROUVEB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> renvoie 19."
 
 #. 2YcR7
 #: func_forecastetsadd.xhp
@@ -58613,7 +58613,7 @@ msgctxt ""
 "par_id121556227727948\n"
 "help.text"
 msgid "<variable id=\"textjoinfunction\"><ahelp hid=\".\">Computes the  Discrete Fourier Transform [DFT] of an input array of complex numbers using a couple of Fast Fourier Transform (FFT) algorithms.</ahelp></variable> The  function is an <link href=\"text/scalc/01/04060107.xhp\" name=\"array formula\">array formula</link>."
-msgstr ""
+msgstr "<variable id=\"textjoinfunction\"><ahelp hid=\".\">Exécute la Transformation Discrete de Fourier [DFT] d'une matrice d'entrée d'un nombre complexe utilisant une paire d'algorithmes Transformation Rapide de Fourier (FFT).</ahelp></variable> La fonction est une <link href=\"text/scalc/01/04060107.xhp\" name=\"array formula\"> formule de matrice</link>."
 
 #. 467q3
 #: func_fourier.xhp
