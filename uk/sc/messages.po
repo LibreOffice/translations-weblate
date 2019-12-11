@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2019-07-11 18:38+0200\n"
-"PO-Revision-Date: 2019-07-24 08:59+0000\n"
+"POT-Creation-Date: 2019-12-11 16:49+0100\n"
+"PO-Revision-Date: 2019-11-09 15:14+0000\n"
 "Last-Translator: Olexandr Pylypchuk <pilipchukap@rambler.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
 "X-Generator: LibreOffice\n"
-"X-POOTLE-MTIME: 1563958760.000000\n"
+"X-POOTLE-MTIME: 1573312454.000000\n"
 
 #. kBovX
 #: sc/inc/compiler.hrc:27
@@ -518,19 +518,19 @@ msgstr "Приховати примітку"
 #: sc/inc/globstr.hrc:106
 msgctxt "STR_UNDO_SHOWALLNOTES"
 msgid "Show All Comments"
-msgstr "Показати всі примітки"
+msgstr "Показати всі коментарі"
 
 #. hcrJZ
 #: sc/inc/globstr.hrc:107
 msgctxt "STR_UNDO_HIDEALLNOTES"
 msgid "Hide All Comments"
-msgstr "Приховати всі примітки"
+msgstr "Приховати всі коментарі"
 
 #. Ngfbt
 #: sc/inc/globstr.hrc:108
 msgctxt "STR_UNDO_EDITNOTE"
 msgid "Edit Comment"
-msgstr "Змінити коментар"
+msgstr "Змінити примітку"
 
 #. DoizQ
 #: sc/inc/globstr.hrc:109
@@ -2311,7 +2311,7 @@ msgid ""
 msgstr ""
 "Файл спільної електронної таблиці заблоковано, оскільки триває об'єднання з даними користувача: '%1'\n"
 "\n"
-"Режим спільного доступу заблокованого файлу неможливо вимкнути. Спробуйте пізніше."
+"Режим спільного доступу заблокованого файла неможливо вимкнути. Спробуйте пізніше."
 
 #. tiq8b
 #: sc/inc/globstr.hrc:403
@@ -3135,31 +3135,31 @@ msgstr "Недостатньо пам'яті для імпортування."
 #: sc/inc/scerrors.hrc:38
 msgctxt "RID_ERRHDLSC"
 msgid "Unknown Lotus1-2-3 file format."
-msgstr "Невідомий формат файлу Lotus 1-2-3."
+msgstr "Невідомий формат файла Lotus 1-2-3."
 
 #. psxcQ
 #: sc/inc/scerrors.hrc:40
 msgctxt "RID_ERRHDLSC"
 msgid "Error in file structure while importing."
-msgstr "Помилка в структурі файлу при імпортуванні."
+msgstr "Помилка в структурі файла при імпортуванні."
 
 #. NmXtC
 #: sc/inc/scerrors.hrc:42
 msgctxt "RID_ERRHDLSC"
 msgid "There is no filter available for this file type."
-msgstr "Немає фільтра для цього типу файлу."
+msgstr "Немає фільтра для цього типу файла."
 
 #. CZABZ
 #: sc/inc/scerrors.hrc:44
 msgctxt "RID_ERRHDLSC"
 msgid "Unknown or unsupported Excel file format."
-msgstr "Невідомий або непідтримуваний формат файлу Excel."
+msgstr "Невідомий або непідтримуваний формат файла Excel."
 
 #. SyADN
 #: sc/inc/scerrors.hrc:46
 msgctxt "RID_ERRHDLSC"
 msgid "Excel file format not yet implemented."
-msgstr "Формат файлу Excel ще не реалізовано."
+msgstr "Формат файла Excel ще не реалізовано."
 
 #. vhTKu
 #: sc/inc/scerrors.hrc:48
@@ -3189,7 +3189,7 @@ msgstr "У файлі в піддокументі $(ARG1) у позиції $(AR
 #: sc/inc/scerrors.hrc:56
 msgctxt "RID_ERRHDLSC"
 msgid "File format error found at $(ARG1)(row,col)."
-msgstr "Помилка формату файлу в позиції $(ARG1)(рядок,стовпчик)."
+msgstr "Помилка формату файла в позиції $(ARG1)(рядок,стовпчик)."
 
 #. gYKQj
 #. Export ----------------------------------------------------
@@ -3275,7 +3275,7 @@ msgstr "Неможливо відкрити відповідний файл FM3.
 #: sc/inc/scerrors.hrc:86
 msgctxt "RID_ERRHDLSC"
 msgid "Error in file structure of corresponding FM3-File."
-msgstr "Помилка в структурі відповідного файлу FM3."
+msgstr "Помилка в структурі відповідного файла FM3."
 
 #. AoqGL
 #: sc/inc/scerrors.hrc:88
@@ -13525,7 +13525,7 @@ msgstr "Масив даних X."
 #: sc/inc/scfuncs.hrc:3272
 msgctxt "SC_OPCODE_ADDRESS"
 msgid "Returns the reference to a cell as text."
-msgstr "Повертає посилання до комірку за номером рядка та стовпчика."
+msgstr "Повертає посилання на комірку як текст."
 
 #. Z8wTF
 #: sc/inc/scfuncs.hrc:3273
@@ -13561,7 +13561,7 @@ msgstr "ABS"
 #: sc/inc/scfuncs.hrc:3278
 msgctxt "SC_OPCODE_ADDRESS"
 msgid "Specifies whether absolute or relative referencing is to be used."
-msgstr "Вказує типа: абсолютний чи відносний."
+msgstr "Вказує тип посилання: абсолютне чи відносне."
 
 #. Cs9py
 #: sc/inc/scfuncs.hrc:3279
@@ -13855,7 +13855,7 @@ msgstr "якщо значення є TRUE або не вказане, пошук
 #: sc/inc/scfuncs.hrc:3382
 msgctxt "SC_OPCODE_INDEX"
 msgid "Returns a reference to a cell from a defined range."
-msgstr "Повертає посилання комірки із вказаного діапазону."
+msgstr "Повертає посилання на комірку з вказаного діапазону."
 
 #. XJ2BZ
 #: sc/inc/scfuncs.hrc:3383
@@ -13921,7 +13921,7 @@ msgstr "Посилання"
 #: sc/inc/scfuncs.hrc:3398
 msgctxt "SC_OPCODE_INDIRECT"
 msgid "The cell whose contents are to be evaluated is to be referenced in text form (e.g. \"A1\")."
-msgstr "Комірка на посилання, чий вміст повинен має інтерпретуватися як посилання у вигляді тексту бути використаний, буде об'єктом посилання в текстовій формі (напр. \"А1\")."
+msgstr "Посилання на комірку, вміст якої буде використано, задане у текстовій формі (наприклад, \"А1\")."
 
 #. SVXmp
 #: sc/inc/scfuncs.hrc:3399
@@ -14191,7 +14191,7 @@ msgstr "Тема/файл"
 #: sc/inc/scfuncs.hrc:3478
 msgctxt "SC_OPCODE_DDE"
 msgid "The topic or name of the file."
-msgstr "Тема або назва файлу."
+msgstr "Тема або назва файла."
 
 #. utkfp
 #: sc/inc/scfuncs.hrc:3479
@@ -14533,7 +14533,7 @@ msgstr "Результат"
 #: sc/inc/scfuncs.hrc:3600
 msgctxt "SC_OPCODE_IFS_MS"
 msgid "The result of the function if test is TRUE."
-msgstr "Результат функції, якщо текст є істиною."
+msgstr "Результат функції, якщо критерій ІСТИНА."
 
 #. gjTk9
 #: sc/inc/scfuncs.hrc:3606
@@ -15938,7 +15938,7 @@ msgstr "URI"
 #: sc/inc/scfuncs.hrc:4041
 msgctxt "SC_OPCODE_WEBSERVICE"
 msgid "URI of the webservice"
-msgstr "URI веб-служби"
+msgstr "URI вебслужби"
 
 #. gnEH3
 #: sc/inc/scfuncs.hrc:4046
@@ -17143,7 +17143,7 @@ msgstr "Шукати елементи…"
 #: sc/inc/strings.hrc:175
 msgctxt "SCSTR_QHELP_POSWND"
 msgid "Name Box"
-msgstr "Область аркуша"
+msgstr "Ділянка аркуша"
 
 #. GeNTF
 #: sc/inc/strings.hrc:176
@@ -18915,571 +18915,571 @@ msgid "Conditional Formats"
 msgstr "Умовні формати"
 
 #. E8ANs
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:69
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:72
 msgctxt "conditionalentry|styleft"
 msgid "Apply Style:"
 msgstr "Застосувати стиль:"
 
 #. gDaYD
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:84
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:87
 msgctxt "conditionalentry|style"
 msgid "New Style..."
 msgstr "Створити стиль..."
 
 #. H66AP
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:96
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:99
 msgctxt "conditionalentry|valueft"
 msgid "Enter a value:"
 msgstr "Введіть значення:"
 
 #. TMvBu
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:191
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:194
 msgctxt "conditionalentry|options"
 msgid "More Options..."
 msgstr "Додаткові параметри..."
 
 #. JWFYN
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:206
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:209
 msgctxt "conditionalentry|colscalemin"
 msgid "Automatic"
 msgstr "Автоматично"
 
 #. gE9LZ
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:207
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:210
 msgctxt "conditionalentry|colscalemin"
 msgid "Min"
 msgstr "Мін"
 
 #. HAuKu
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:208
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:211
 msgctxt "conditionalentry|colscalemin"
 msgid "Max"
 msgstr "Макс"
 
 #. ciYfw
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:209
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:212
 msgctxt "conditionalentry|colscalemin"
 msgid "Percentile"
 msgstr "Процентиль"
 
 #. Kqxfp
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:210
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:213
 msgctxt "conditionalentry|colscalemin"
 msgid "Value"
 msgstr "Значення"
 
 #. UhkzD
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:211
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:214
 msgctxt "conditionalentry|colscalemin"
 msgid "Percent"
 msgstr "Відсоток"
 
 #. tEhTB
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:212
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:215
 msgctxt "conditionalentry|colscalemin"
 msgid "Formula"
 msgstr "Формула"
 
 #. jYZ4B
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:225
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:228
 msgctxt "conditionalentry|colscalemiddle"
 msgid "Automatic"
 msgstr "Автоматично"
 
 #. FGnWb
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:226
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:229
 msgctxt "conditionalentry|colscalemiddle"
 msgid "Min"
 msgstr "Мін"
 
 #. qC8Zo
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:227
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:230
 msgctxt "conditionalentry|colscalemiddle"
 msgid "Max"
 msgstr "Макс"
 
 #. 7bxeC
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:228
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:231
 msgctxt "conditionalentry|colscalemiddle"
 msgid "Percentile"
 msgstr "Процентиль"
 
 #. sqTFV
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:229
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:232
 msgctxt "conditionalentry|colscalemiddle"
 msgid "Value"
 msgstr "Значення"
 
 #. RSDFW
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:230
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:233
 msgctxt "conditionalentry|colscalemiddle"
 msgid "Percent"
 msgstr "Відсоток"
 
 #. 83BhU
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:231
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:234
 msgctxt "conditionalentry|colscalemiddle"
 msgid "Formula"
 msgstr "Формула"
 
 #. F63FN
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:244
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:247
 msgctxt "conditionalentry|colscalemax"
 msgid "Automatic"
 msgstr "Автоматично"
 
 #. TDG7W
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:245
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:248
 msgctxt "conditionalentry|colscalemax"
 msgid "Min"
 msgstr "Мін"
 
 #. JBX6r
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:246
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:249
 msgctxt "conditionalentry|colscalemax"
 msgid "Max"
 msgstr "Макс"
 
 #. uPGWW
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:247
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:250
 msgctxt "conditionalentry|colscalemax"
 msgid "Percentile"
 msgstr "Процентиль"
 
 #. JxXq2
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:248
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:251
 msgctxt "conditionalentry|colscalemax"
 msgid "Value"
 msgstr "Значення"
 
 #. f464z
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:249
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:252
 msgctxt "conditionalentry|colscalemax"
 msgid "Percent"
 msgstr "Відсоток"
 
 #. oTJU7
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:250
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:253
 msgctxt "conditionalentry|colscalemax"
 msgid "Formula"
 msgstr "Формула"
 
 #. XsHDp
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:300
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:303
 msgctxt "conditionalentry|Label_minimum"
 msgid "Minimum"
 msgstr "Найменше"
 
 #. u5RxC
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:311
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:314
 msgctxt "conditionalentry|Label_maximum"
 msgid "Maximum"
 msgstr "Найбільше"
 
 #. JcTKF
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:334
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:337
 msgctxt "conditionalentry|preview|tooltip_text"
 msgid "Example"
 msgstr "Приклад"
 
 #. jS959
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:371
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:374
 msgctxt "conditionalentry|typeis"
 msgid "equal to"
 msgstr "дорівнює"
 
 #. RWkXh
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:372
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:375
 msgctxt "conditionalentry|typeis"
 msgid "less than"
 msgstr "менше, ніж"
 
 #. SYFt9
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:373
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:376
 msgctxt "conditionalentry|typeis"
 msgid "greater than"
 msgstr "більше, ніж"
 
 #. Mc29i
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:374
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:377
 msgctxt "conditionalentry|typeis"
 msgid "less than or equal to"
 msgstr "менше або дорівнює"
 
 #. cri3Q
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:375
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:378
 msgctxt "conditionalentry|typeis"
 msgid "greater than or equal to"
 msgstr "більше або дорівнює"
 
 #. Ddtb2
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:376
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:379
 msgctxt "conditionalentry|typeis"
 msgid "not equal to"
 msgstr "не дорівнює"
 
 #. EXPc2
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:377
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:380
 msgctxt "conditionalentry|typeis"
 msgid "between"
 msgstr "між"
 
 #. 89rcJ
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:378
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:381
 msgctxt "conditionalentry|typeis"
 msgid "not between"
 msgstr "поза"
 
 #. k8n2v
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:379
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:382
 msgctxt "conditionalentry|typeis"
 msgid "duplicate"
 msgstr "повторювані"
 
 #. scXdW
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:380
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:383
 msgctxt "conditionalentry|typeis"
 msgid "not duplicate"
 msgstr "не повторювані"
 
 #. PAkUU
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:381
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:384
 msgctxt "conditionalentry|typeis"
 msgid "top N elements"
 msgstr "верхні N елементів"
 
 #. CUxED
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:382
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:385
 msgctxt "conditionalentry|typeis"
 msgid "bottom N elements"
 msgstr "нижні N елементів"
 
 #. pZsZP
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:383
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:386
 msgctxt "conditionalentry|typeis"
 msgid "top N percent"
 msgstr "верхні N відсотків"
 
 #. nd4Fd
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:384
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:387
 msgctxt "conditionalentry|typeis"
 msgid "bottom N percent"
 msgstr "нижні N відсотків"
 
 #. EVRm2
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:385
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:388
 msgctxt "conditionalentry|typeis"
 msgid "above average"
 msgstr "вище середнього"
 
 #. rffv9
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:386
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:389
 msgctxt "conditionalentry|typeis"
 msgid "below average"
 msgstr "нижче середнього"
 
 #. LBiuf
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:387
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:390
 msgctxt "conditionalentry|typeis"
 msgid "above or equal average"
 msgstr "більше або дорівнює середньому"
 
 #. WnyCE
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:388
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:391
 msgctxt "conditionalentry|typeis"
 msgid "below or equal average"
 msgstr "менше або дорівнює середньому"
 
 #. KNTjn
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:389
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:392
 msgctxt "conditionalentry|typeis"
 msgid "Error"
 msgstr "Помилка"
 
 #. DAq9Y
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:390
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:393
 msgctxt "conditionalentry|typeis"
 msgid "No Error"
 msgstr "Без помилки"
 
 #. nnVVe
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:391
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:394
 msgctxt "conditionalentry|typeis"
 msgid "Begins with"
 msgstr "Починається з"
 
 #. bnkwD
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:392
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:395
 msgctxt "conditionalentry|typeis"
 msgid "Ends with"
 msgstr "Завершується на"
 
 #. Ru3Pa
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:393
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:396
 msgctxt "conditionalentry|typeis"
 msgid "Contains"
 msgstr "Містить"
 
 #. tREvK
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:394
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:397
 msgctxt "conditionalentry|typeis"
 msgid "Not Contains"
 msgstr "Не містить"
 
 #. 5WkbA
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:406
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:409
 msgctxt "conditionalentry|datetype"
 msgid "Today"
 msgstr "Сьогодні"
 
 #. Ap28X
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:407
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:410
 msgctxt "conditionalentry|datetype"
 msgid "Yesterday"
 msgstr "Вчора"
 
 #. NhvVn
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:408
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:411
 msgctxt "conditionalentry|datetype"
 msgid "Tomorrow"
 msgstr "Завтра"
 
 #. s7CNz
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:409
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:412
 msgctxt "conditionalentry|datetype"
 msgid "Last 7 days"
 msgstr "Останні 7 днів"
 
 #. 8FQAS
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:410
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:413
 msgctxt "conditionalentry|datetype"
 msgid "This week"
 msgstr "Цього тижня"
 
 #. PnQGG
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:411
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:414
 msgctxt "conditionalentry|datetype"
 msgid "Last week"
 msgstr "Минулого тижня"
 
 #. MxArx
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:412
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:415
 msgctxt "conditionalentry|datetype"
 msgid "Next week"
 msgstr "Наступного тижня"
 
 #. jkJFd
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:413
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:416
 msgctxt "conditionalentry|datetype"
 msgid "This month"
 msgstr "Цього місяця"
 
 #. M3xGu
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:414
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:417
 msgctxt "conditionalentry|datetype"
 msgid "Last month"
 msgstr "Минулого місяця"
 
 #. vHZmy
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:415
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:418
 msgctxt "conditionalentry|datetype"
 msgid "Next month"
 msgstr "Наступного місяця"
 
 #. AxRRz
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:416
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:419
 msgctxt "conditionalentry|datetype"
 msgid "This year"
 msgstr "Цього року"
 
 #. BRRzp
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:417
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:420
 msgctxt "conditionalentry|datetype"
 msgid "Last year"
 msgstr "Минулого року"
 
 #. DF9gQ
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:418
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:421
 msgctxt "conditionalentry|datetype"
 msgid "Next year"
 msgstr "Наступного року"
 
 #. vgneU
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:430
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:433
 msgctxt "conditionalentry|colorformat"
 msgid "Color Scale (2 Entries)"
 msgstr "Колірна шкала (2 значення)"
 
 #. U3CvE
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:431
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:434
 msgctxt "conditionalentry|colorformat"
 msgid "Color Scale (3 Entries)"
 msgstr "Колірна шкала (3 значення)"
 
 #. pByFi
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:432
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:435
 msgctxt "conditionalentry|colorformat"
 msgid "Data Bar"
 msgstr "Гістограма"
 
 #. jjm3Z
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:433
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:436
 msgctxt "conditionalentry|colorformat"
 msgid "Icon Set"
 msgstr "Набір піктограм"
 
 #. JGdRZ
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:458
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:461
 msgctxt "conditionalentry|type"
 msgid "All Cells"
 msgstr "Усі комірки"
 
 #. CFscd
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:459
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:462
 msgctxt "conditionalentry|type"
 msgid "Cell value is"
 msgstr "Значення комірки є"
 
 #. ZqmeM
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:460
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:463
 msgctxt "conditionalentry|type"
 msgid "Formula is"
 msgstr "Формула"
 
 #. BWDxf
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:461
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:464
 msgctxt "conditionalentry|type"
 msgid "Date is"
 msgstr "Дата"
 
 #. qiobs
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:511
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:514
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Arrows"
 msgstr "3 Стрілки"
 
 #. uC7X4
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:512
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:515
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Gray Arrows"
 msgstr "3 Сірі стрілки"
 
 #. rCY3m
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:513
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:516
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Flags"
 msgstr "3 Прапорці"
 
 #. ABtzD
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:514
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:517
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Traffic Lights 1"
 msgstr "3 Світлофори 1"
 
 #. DDG3c
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:515
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:518
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Traffic Lights 2"
 msgstr "3 Світлофори 2"
 
 #. VFEYs
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:516
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:519
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Signs"
 msgstr "3 Знаки"
 
 #. vr8rv
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:517
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:520
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Symbols 1"
 msgstr "3 Символи 1"
 
 #. Yxkt6
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:518
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:521
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Symbols 2"
 msgstr "3 Символи 2"
 
 #. 9fMKe
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:519
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:522
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Smileys"
 msgstr "3 посміхайлики"
 
 #. FEg5s
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:520
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:523
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Stars"
 msgstr "3 зірки"
 
 #. QzJwR
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:521
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:524
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Triangles"
 msgstr "3 трикутники"
 
 #. UFw2i
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:522
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:525
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Colored Smileys"
 msgstr "3 кольорові посміхайлики"
 
 #. FE6rm
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:523
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:526
 msgctxt "conditionalentry|iconsettype"
 msgid "4 Arrows"
 msgstr "4 Стрілки"
 
 #. 4kGKQ
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:524
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:527
 msgctxt "conditionalentry|iconsettype"
 msgid "4 Gray Arrows"
 msgstr "4 сірі стрілки"
 
 #. Yi3pd
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:525
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:528
 msgctxt "conditionalentry|iconsettype"
 msgid "4 Circles Red to Black"
 msgstr "4 кола від червоного до чорного"
 
 #. BKpUg
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:526
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:529
 msgctxt "conditionalentry|iconsettype"
 msgid "4 Ratings"
 msgstr "4 оцінки"
 
 #. AQdho
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:527
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:530
 msgctxt "conditionalentry|iconsettype"
 msgid "4 Traffic Lights"
 msgstr "4 світлофори"
 
 #. iGXCy
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:528
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:531
 msgctxt "conditionalentry|iconsettype"
 msgid "5 Arrows"
 msgstr "5 Стрілки"
 
 #. 7EuvV
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:529
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:532
 msgctxt "conditionalentry|iconsettype"
 msgid "5 Gray Arrows"
 msgstr "5 сірі стрілки"
 
 #. CaZNK
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:530
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:533
 msgctxt "conditionalentry|iconsettype"
 msgid "5 Ratings"
 msgstr "5 Оцінки"
 
 #. Ae5jK
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:531
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:534
 msgctxt "conditionalentry|iconsettype"
 msgid "5 Quarters"
 msgstr "5 Чверті"
 
 #. BdcCG
-#: sc/uiconfig/scalc/ui/conditionalentry.ui:532
+#: sc/uiconfig/scalc/ui/conditionalentry.ui:535
 msgctxt "conditionalentry|iconsettype"
 msgid "5 Boxes"
 msgstr "5 коробки"
@@ -21822,13 +21822,13 @@ msgstr "Заголовок"
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:55
 msgctxt "headerfootercontent|filename"
 msgid "File Name"
-msgstr "Назва файлу"
+msgstr "Назва файла"
 
 #. V299E
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:63
 msgctxt "headerfootercontent|pathname"
 msgid "Path/File Name"
-msgstr "Шлях/назва файлу"
+msgstr "Шлях/назва файла"
 
 #. 9gV8N
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:85
@@ -21990,7 +21990,7 @@ msgstr "Нижній колонтитул"
 #: sc/uiconfig/scalc/ui/imoptdialog.ui:16
 msgctxt "imoptdialog|ImOptDialog"
 msgid "Import File"
-msgstr "Імпорт файлу"
+msgstr "Імпорт файла"
 
 #. VWcgp
 #: sc/uiconfig/scalc/ui/imoptdialog.ui:111
@@ -22014,7 +22014,7 @@ msgstr "_Роздільник рядків:"
 #: sc/uiconfig/scalc/ui/imoptdialog.ui:150
 msgctxt "imoptdialog|asshown"
 msgid "Save cell content as _shown"
-msgstr "Зберегти зміст комірки _як показано"
+msgstr "Зберегти вміст комірки _як показано"
 
 #. Fn8ts
 #: sc/uiconfig/scalc/ui/imoptdialog.ui:166
@@ -22158,7 +22158,7 @@ msgstr "Аркуш..."
 #: sc/uiconfig/scalc/ui/insertsheet.ui:315
 msgctxt "insertsheet|fromfile"
 msgid "_From file"
-msgstr "З _файлу"
+msgstr "З _файла"
 
 #. FzMAv
 #: sc/uiconfig/scalc/ui/insertsheet.ui:388
@@ -22221,79 +22221,79 @@ msgid "Manage Names"
 msgstr "Керування назвами"
 
 #. RCtXS
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:127
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:126
 msgctxt "managenamesdialog|name"
 msgid "Name"
 msgstr "Назва"
 
 #. qwCzn
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:140
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:139
 msgctxt "managenamesdialog|expression"
 msgid "Range or formula expression"
 msgstr "Діапазон або формула"
 
 #. nFCoR
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:153
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:152
 msgctxt "managenamesdialog|scope"
 msgid "Scope"
 msgstr "Область дії"
 
 #. enGg7
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:183
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:182
 msgctxt "managenamesdialog|info"
 msgid "Select cells in the document to update the range."
 msgstr "Виберіть комірки документа для оновлення діапазону."
 
 #. WCnsd
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:203
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:202
 msgctxt "managenamesdialog|label2"
 msgid "Name:"
 msgstr "Назва:"
 
 #. XY33d
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:217
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:216
 msgctxt "managenamesdialog|label4"
 msgid "Scope:"
 msgstr "Область дії:"
 
 #. ddGRB
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:281
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:280
 msgctxt "managenamesdialog|label3"
 msgid "Range or formula expression:"
 msgstr "Діапазон або формула:"
 
 #. dGcEm
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:329
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:328
 msgctxt "managenamesdialog|printrange"
 msgid "_Print range"
 msgstr "_Область друку"
 
 #. EjtHY
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:344
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:343
 msgctxt "managenamesdialog|filter"
 msgid "_Filter"
 msgstr "_Фільтр"
 
 #. UdLJc
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:359
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:358
 msgctxt "managenamesdialog|colheader"
 msgid "Repeat _column"
 msgstr "Повторити _стовпчик"
 
 #. c3b8v
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:374
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:373
 msgctxt "managenamesdialog|rowheader"
 msgid "Repeat _row"
 msgstr "Повторити _рядок"
 
 #. Rujwh
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:395
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:394
 msgctxt "managenamesdialog|label1"
 msgid "Range _Options"
 msgstr "Параметри _діапазону"
 
 #. 96fTt
-#: sc/uiconfig/scalc/ui/managenamesdialog.ui:463
+#: sc/uiconfig/scalc/ui/managenamesdialog.ui:462
 msgctxt "managenamesdialog|treeviewcolumn1"
 msgid "column"
 msgstr "стовпчик"
@@ -24302,7 +24302,7 @@ msgstr "Запитувати користувача"
 #: sc/uiconfig/scalc/ui/optformula.ui:185
 msgctxt "optformula|label4"
 msgid "Recalculation on File Load"
-msgstr "Переобчислення при завантаженні файлу"
+msgstr "Переобчислення при завантаженні файла"
 
 #. rDiac
 #: sc/uiconfig/scalc/ui/optformula.ui:219
@@ -24983,49 +24983,49 @@ msgid "Options"
 msgstr "Параметри"
 
 #. LevDB
-#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:722
+#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:723
 msgctxt "pivottablelayoutdialog|destination-radio-new-sheet"
 msgid "New sheet"
 msgstr "Новий аркуш"
 
 #. Ld2sG
-#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:739
+#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:740
 msgctxt "pivottablelayoutdialog|destination-radio-selection"
 msgid "Selection"
 msgstr "Виділене"
 
 #. UjyGK
-#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:788
+#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:789
 msgctxt "pivottablelayoutdialog|destination-radio-named-range"
 msgid "Named range"
 msgstr "Названий діапазон"
 
 #. xhpiB
-#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:810
+#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:811
 msgctxt "pivottablelayoutdialog|label8"
 msgid "Destination"
 msgstr "Призначення"
 
 #. yDG3C
-#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:846
+#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:847
 msgctxt "pivottablelayoutdialog|source-radio-selection"
 msgid "Selection"
 msgstr "Виділене"
 
 #. 6s5By
-#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:884
+#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:885
 msgctxt "pivottablelayoutdialog|source-radio-named-range"
 msgid "Named range"
 msgstr "Названий діапазон"
 
 #. QTYpg
-#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:917
+#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:918
 msgctxt "pivottablelayoutdialog|label9"
 msgid "Source"
 msgstr "Джерело"
 
 #. daE6g
-#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:935
+#: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:936
 msgctxt "pivottablelayoutdialog|label7"
 msgid "Source and Destination"
 msgstr "Джерело і призначення"
