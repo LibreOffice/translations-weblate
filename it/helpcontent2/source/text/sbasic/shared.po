@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2019-12-17 14:17+0100\n"
+"POT-Creation-Date: 2019-12-24 18:00+0100\n"
 "PO-Revision-Date: 2019-07-26 11:24+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <l10n@it.libreoffice.org>\n"
@@ -1969,14 +1969,14 @@ msgctxt ""
 msgid "Using Variables"
 msgstr "Usare le variabili"
 
-#. PDbAJ
+#. TjAJy
 #: 01020100.xhp
 msgctxt ""
 "01020100.xhp\n"
 "bm_id3149346\n"
 "help.text"
-msgid "<bookmark_value>names of variables</bookmark_value>  <bookmark_value>variables; using</bookmark_value>  <bookmark_value>types of variables</bookmark_value>  <bookmark_value>declaring variables</bookmark_value>  <bookmark_value>values;of variables</bookmark_value>  <bookmark_value>constants</bookmark_value>  <bookmark_value>arrays;declaring</bookmark_value>  <bookmark_value>defining;constants</bookmark_value>"
-msgstr "<bookmark_value>Nome delle variabili</bookmark_value><bookmark_value>Variabile; usare</bookmark_value> <bookmark_value>Tipo di variabili</bookmark_value><bookmark_value>Dichiarare;variabili</bookmark_value><bookmark_value>Valore;di variabili</bookmark_value><bookmark_value>Costante</bookmark_value> <bookmark_value>Array;dichiarare</bookmark_value><bookmark_value>Definire;costanti</bookmark_value>"
+msgid "<bookmark_value>names of variables</bookmark_value>  <bookmark_value>variables; using</bookmark_value>  <bookmark_value>types of variables</bookmark_value>  <bookmark_value>declaring variables</bookmark_value>  <bookmark_value>values;of variables</bookmark_value>  <bookmark_value>literals;integer</bookmark_value>  <bookmark_value>literals;hexadecimal</bookmark_value>  <bookmark_value>literals;integer</bookmark_value>  <bookmark_value>literals;octal</bookmark_value>  <bookmark_value>literals;&h notation</bookmark_value>  <bookmark_value>literals;&o notation</bookmark_value>  <bookmark_value>literals;floating-point</bookmark_value>  <bookmark_value>constants</bookmark_value>  <bookmark_value>arrays;declaring</bookmark_value>  <bookmark_value>defining;constants</bookmark_value>"
+msgstr ""
 
 #. VAkCC
 #: 01020100.xhp
@@ -2329,14 +2329,14 @@ msgctxt ""
 msgid "Single Variables"
 msgstr "Variabili Single"
 
-#. B2eF2
+#. VAptr
 #: 01020100.xhp
 msgctxt ""
 "01020100.xhp\n"
 "par_id3153070\n"
 "help.text"
-msgid "Single variables can take positive or negative values ranging from 3.402823 x 10E38 to 1.401298 x 10E-45. Single variables are floating-point variables, in which the decimal precision decreases as the non-decimal part of the number increases. Single variables are suitable for mathematical calculations of average precision. Calculations require more time than for Integer variables, but are faster than calculations with Double variables. A Single variable requires 4 bytes of memory. The type-declaration character is \"!\"."
-msgstr "Le variabili Single (singole) possono assumere un valore positivo o negativo compreso tra 3,402823 x 10E38 e 1,401298 x 10E-45. Si tratta di variabili per numeri in virgola mobile, in cui la precisione decimale diminuisce con l'aumento della parte non decimale del numero. Le variabili singole sono adatte ai calcoli matematici di media precisione. Questi calcoli richiedono più tempo di elaborazione rispetto a quelli eseguiti con variabili intere, ma meno rispetto ai calcoli eseguiti con variabili doppie. Una variabile di tipo Single richiede quattro byte di memoria. Il carattere di dichiarazione del tipo è \"!\"."
+msgid "Single variables can take positive or negative values ranging from 3.402823 x 10E38 to 1.401298 x 10E-45. Single variables are floating-point variables, in which the decimal precision decreases as the non-decimal part of the number increases. Single variables are suitable for mathematical calculations of average precision. Calculations require more time than for Integer variables, but are faster than calculations with Double variables. A Single variable requires 4 bytes of memory. The type-declaration character is \"!\"."
+msgstr ""
 
 #. X2BBe
 #: 01020100.xhp
@@ -2347,14 +2347,23 @@ msgctxt ""
 msgid "Double Variables"
 msgstr "Variabili Double"
 
-#. WVPhh
+#. WhxRy
 #: 01020100.xhp
 msgctxt ""
 "01020100.xhp\n"
 "par_id3150953\n"
 "help.text"
-msgid "Double variables can take positive or negative values ranging from 1.79769313486232 x 10E308 to 4.94065645841247 x 10E-324. Double variables are floating-point variables, in which the decimal precision decreases as the non-decimal part of the number increases. Double variables are suitable for precise calculations. Calculations require more time than for Single variables. A Double variable requires 8 bytes of memory. The type-declaration character is \"#\"."
-msgstr "Le variabili doppie possono assumere un valore positivo o negativo compreso tra 1,79769313486232 x 10E308 e 4,94065645841247 x 10E-324. Si tratta di variabili per numeri in virgola mobile, in cui la precisione decimale diminuisce con l'aumento della parte non decimale del numero. Le variabili doppie sono adatte ai calcoli precisi. Le operazioni di calcolo richiedono più tempo di quello richiesto con le variabili singole. Una variabile di tipo Double richiede otto byte di memoria. Il carattere di dichiarazione del tipo è \"#\"."
+msgid "Double variables can take positive or negative values ranging from 1.79769313486232 x 10E308 to 4.94065645841247 x 10E-324. Double variables are floating-point variables, in which the decimal precision decreases as the non-decimal part of the number increases. Double variables are suitable for precise calculations. Calculations require more time than for Single variables. A Double variable requires 8 bytes of memory. The type-declaration character is \"#\"."
+msgstr ""
+
+#. KYBFy
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_idm1341130144\n"
+"help.text"
+msgid "Dim Variable#"
+msgstr ""
 
 #. vFZcZ
 #: 01020100.xhp
@@ -2373,6 +2382,24 @@ msgctxt ""
 "help.text"
 msgid "Currency variables are internally stored as 64-bit numbers (8 Bytes) and displayed as a fixed-decimal number with 15 non-decimal and 4 decimal places. The values range from -922337203685477.5808 to +922337203685477.5807. Currency variables are used to calculate currency values with a high precision. The type-declaration character is \"@\"."
 msgstr "Le variabili Currency (valuta) sono memorizzate internamente come numeri a 64 bit (8 Byte) e visualizzate come numeri decimali fissi con 15 cifre non decimali e 4 cifre decimali. I valori possono variare da -922337203685477,5808 a +922337203685477,5807. Le variabili Currency sono usate per calcolare le valute con elevata precisione. Il carattere di dichiarazione del tipo è \"@\"."
+
+#. rs7qz
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"hd_id301576839713868\n"
+"help.text"
+msgid "Literals for integers"
+msgstr ""
+
+#. PTiRZ
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_id1001576839723156\n"
+"help.text"
+msgid "Numbers can be encoded using octal and hexadecimal forms."
+msgstr ""
 
 #. nGGUD
 #: 01020100.xhp
@@ -9150,6 +9177,15 @@ msgctxt ""
 "help.text"
 msgid "RGB Function"
 msgstr "Funzione RGB"
+
+#. qMADe
+#: 03010305.xhp
+msgctxt ""
+"03010305.xhp\n"
+"bm_id851576768070903\n"
+"help.text"
+msgid "<bookmark_value>RGB function</bookmark_value>"
+msgstr ""
 
 #. LaGGq
 #: 03010305.xhp
@@ -41379,6 +41415,27 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">IDE di %PRODUCTNAME Basic</link>"
+
+#~ msgctxt ""
+#~ "01020100.xhp\n"
+#~ "bm_id3149346\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>names of variables</bookmark_value>  <bookmark_value>variables; using</bookmark_value>  <bookmark_value>types of variables</bookmark_value>  <bookmark_value>declaring variables</bookmark_value>  <bookmark_value>values;of variables</bookmark_value>  <bookmark_value>constants</bookmark_value>  <bookmark_value>arrays;declaring</bookmark_value>  <bookmark_value>defining;constants</bookmark_value>"
+#~ msgstr "<bookmark_value>Nome delle variabili</bookmark_value><bookmark_value>Variabile; usare</bookmark_value> <bookmark_value>Tipo di variabili</bookmark_value><bookmark_value>Dichiarare;variabili</bookmark_value><bookmark_value>Valore;di variabili</bookmark_value><bookmark_value>Costante</bookmark_value> <bookmark_value>Array;dichiarare</bookmark_value><bookmark_value>Definire;costanti</bookmark_value>"
+
+#~ msgctxt ""
+#~ "01020100.xhp\n"
+#~ "par_id3153070\n"
+#~ "help.text"
+#~ msgid "Single variables can take positive or negative values ranging from 3.402823 x 10E38 to 1.401298 x 10E-45. Single variables are floating-point variables, in which the decimal precision decreases as the non-decimal part of the number increases. Single variables are suitable for mathematical calculations of average precision. Calculations require more time than for Integer variables, but are faster than calculations with Double variables. A Single variable requires 4 bytes of memory. The type-declaration character is \"!\"."
+#~ msgstr "Le variabili Single (singole) possono assumere un valore positivo o negativo compreso tra 3,402823 x 10E38 e 1,401298 x 10E-45. Si tratta di variabili per numeri in virgola mobile, in cui la precisione decimale diminuisce con l'aumento della parte non decimale del numero. Le variabili singole sono adatte ai calcoli matematici di media precisione. Questi calcoli richiedono più tempo di elaborazione rispetto a quelli eseguiti con variabili intere, ma meno rispetto ai calcoli eseguiti con variabili doppie. Una variabile di tipo Single richiede quattro byte di memoria. Il carattere di dichiarazione del tipo è \"!\"."
+
+#~ msgctxt ""
+#~ "01020100.xhp\n"
+#~ "par_id3150953\n"
+#~ "help.text"
+#~ msgid "Double variables can take positive or negative values ranging from 1.79769313486232 x 10E308 to 4.94065645841247 x 10E-324. Double variables are floating-point variables, in which the decimal precision decreases as the non-decimal part of the number increases. Double variables are suitable for precise calculations. Calculations require more time than for Single variables. A Double variable requires 8 bytes of memory. The type-declaration character is \"#\"."
+#~ msgstr "Le variabili doppie possono assumere un valore positivo o negativo compreso tra 1,79769313486232 x 10E308 e 4,94065645841247 x 10E-324. Si tratta di variabili per numeri in virgola mobile, in cui la precisione decimale diminuisce con l'aumento della parte non decimale del numero. Le variabili doppie sono adatte ai calcoli precisi. Le operazioni di calcolo richiedono più tempo di quello richiesto con le variabili singole. Una variabile di tipo Double richiede otto byte di memoria. Il carattere di dichiarazione del tipo è \"#\"."
 
 #~ msgctxt ""
 #~ "03040000.xhp\n"
