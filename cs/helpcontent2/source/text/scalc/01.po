@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-01-07 14:09+0100\n"
-"PO-Revision-Date: 2020-01-04 15:27+0000\n"
+"PO-Revision-Date: 2020-01-13 22:04+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://weblate.documentfoundation.org/projects/libo_help-master/textscalc01/cs/>\n"
 "Language: cs\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1559927186.000000\n"
 
@@ -3840,7 +3840,7 @@ msgctxt ""
 "hd_id3147426\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060000.xhp\" name=\"AutoPilot: Functions\">Function</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060000.xhp\" name=\"Průvodce funkcí\">Funkce</link>"
 
 #. wjD4H
 #: 04060000.xhp
@@ -3849,7 +3849,7 @@ msgctxt ""
 "par_id3145271\n"
 "help.text"
 msgid "<variable id=\"funktionsautopilottext\"><ahelp hid=\".\">Opens the <emph>Function Wizard</emph>, which helps you to interactively create formulas.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"funktionsautopilottext\"><ahelp hid=\".\">Otevře <emph>Průvodce funkcí</emph>, který pomáhá interaktivně vytvářet vzorce.</ahelp></variable>"
 
 #. exDJs
 #: 04060000.xhp
@@ -3858,7 +3858,7 @@ msgctxt ""
 "par_id491577286833512\n"
 "help.text"
 msgid "Before you start the Wizard, select a cell or a range of cells from the current sheet, in order to determine the position at which the formula will be inserted."
-msgstr ""
+msgstr "Než průvodce spustíte, vyberte v aktuálním listu buňku nebo oblast buněk na místě, kam se má vzorec vložit."
 
 #. xeqnV
 #: 04060000.xhp
@@ -5559,7 +5559,7 @@ msgctxt ""
 "hd_id3154536\n"
 "help.text"
 msgid "<variable id=\"h1\">Date & Time Functions</variable>"
-msgstr ""
+msgstr "<variable id=\"h1\">Datové a časové funkce</variable>"
 
 #. MJ2GD
 #: 04060102.xhp
@@ -18879,7 +18879,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr "<emph>Vyhledávání v seřazené oblasti</emph> je nepovinný parametr, který určuje, zda první sloupec matice obsahuje meze rozsahů místo prostých hodnot. V takovém režimu vyhledávání vrátí hodnotu z řádku, na němž se v prvním sloupci nachází hodnota menší nebo rovna Kritériu vyhledávání. Můžeme např. použít dny, kdy se změnila hodnota sazby daně; hodnoty v první sloupci pak budou představovat počáteční data období, v nichž určitá sazba daně platila. Vyhledávání pro datum, které v prvním sloupci matice chybí, avšak spadá mezi dvě existující mezní data, vrátí nižší hodnotu z této dvojice. Díky tomu nalezneme údaje, které platí pro vyhledávané datum. Pokud první sloupec nepředstavuje seznam mezí rozsahů, zadejte logickou hodnotu NEPRAVDA nebo nulu. Je-li tento parametr PRAVDA nebo je vynechán, první sloupec matice <emph>musí být seřazen vzestupně</emph>. Prohledávání seřazených sloupců je mnohem rychlejší a hledání vrátí hodnotu i pro položku jen částečně odpovídající hledanému výrazu, je-li větší než nejnižší hodnota seřazeného seznamu. U neseřazeného seznamu musí být položka zcela shodná s hledaným výrazem. V opačném případě funkce vrátí #N/A se zprávou: <emph>Chyba: Hodnota není dostupná</emph>."
+msgstr "<emph>Vyhledávání v seřazené oblasti</emph> je nepovinný parametr, který určuje, zda první sloupec matice obsahuje meze rozsahů místo prostých hodnot. V takovém režimu funkce vrátí hodnotu z řádku, na němž se v prvním sloupci nachází hodnota menší nebo rovna Kritériu vyhledávání. Můžeme např. použít dny, kdy se změnila hodnota sazby daně; hodnoty v první sloupci pak budou představovat počáteční data období, v nichž určitá sazba daně platila. Vyhledávání pro datum, které v prvním sloupci matice chybí, avšak spadá mezi dvě existující mezní data, vrátí nižší hodnotu z této dvojice. Díky tomu nalezneme údaje, které platí pro vyhledávané datum. Pokud první sloupec nepředstavuje seznam mezí rozsahů, zadejte logickou hodnotu NEPRAVDA nebo nulu. Je-li tento parametr PRAVDA nebo je vynechán, první sloupec matice <emph>musí být seřazen vzestupně</emph>. Prohledávání seřazených sloupců je mnohem rychlejší a hledání vrátí hodnotu i pro položku jen částečně odpovídající hledanému výrazu, je-li větší než nejnižší hodnota seřazeného seznamu. U neseřazeného seznamu musí být položka zcela shodná s hledaným výrazem. V opačném případě funkce vrátí #N/A se zprávou: <emph>Chyba: Hodnota není dostupná</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -30876,7 +30876,7 @@ msgctxt ""
 "par_id3158409\n"
 "help.text"
 msgid "<input>=PRICEMAT(\"1999-02-15\";\"1999-04-13\";\"1998-11-11\"; 0.061; 0.061;0)</input>  returns 99.98449888."
-msgstr "<input>=PRICEMAT(\"1999-02-15\";\"1999-04-13\";\"1998-11-11\"; 0,061; 0,061;0)</input>  vrátí  99,98449888."
+msgstr "<input>=PRICEMAT(\"1999-02-15\";\"1999-04-13\";\"1998-11-11\"; 0,061; 0,061;0)</input> vrátí  99,98449888."
 
 #. GAN7n
 #: 04060119.xhp
@@ -32055,7 +32055,7 @@ msgctxt ""
 "par_id3154382\n"
 "help.text"
 msgid "<input>=TBILLEQ(\"1999-03-31\";\"1999-06-01\"; 0.0914)</input>  returns 0.094151 or 9.4151 per cent."
-msgstr "<input>=TBILLEQ(\"1999-03-31\";\"1999-06-01\"; 0.0914)</input> vrátí 0,094151 nebo 9,4151 procent."
+msgstr "<input>=TBILLEQ(\"1999-03-31\";\"1999-06-01\"; 0,0914)</input> vrátí 0,094151 nebo 9,4151 procent."
 
 #. zcFRa
 #: 04060119.xhp
@@ -50991,7 +50991,7 @@ msgctxt ""
 "hd_id3153663\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/12090100.xhp\" name=\"Pivot Table - Select Source\">Pivot Table - Select Source</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/12090100.xhp\" name=\"Kontingenční tabulka - Výběr zdroje\">Kontingenční tabulka - Výběr zdroje</link>"
 
 #. JCesq
 #: 12090100.xhp
@@ -57570,7 +57570,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FINDB Function"
-msgstr "FINDB"
+msgstr "Funkce FINDB"
 
 #. EkUr2
 #: func_findb.xhp
@@ -58380,7 +58380,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FOURIER function"
-msgstr "FOURIER"
+msgstr "Funkce FOURIER"
 
 #. FmjN8
 #: func_fourier.xhp
@@ -60711,7 +60711,7 @@ msgctxt ""
 "par_id941575063929083\n"
 "help.text"
 msgid "<variable id=\"variable name\"><ahelp hid=\".\">Returns the probability that an asset will end up between two barrier levels at maturity, assuming that the stock price can be modeled as a process S that follows the stochastic differential equation</ahelp></variable>, as follows."
-msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Vrátí pravděpodobnost, že při splatnosti aktivum skončí mezi dvěma bariérami, za předpokladu, že ceny akcií lze modelovat jako proces S, který se chová podle následující stochastické diferenciální rovnice.</ahelp></variable>"
+msgstr "<variable id=\"variable name\"><ahelp hid=\".\">Vrátí pravděpodobnost toho, že při splatnosti aktivum skončí mezi dvěma bariérami, za předpokladu, že ceny akcií lze modelovat jako proces S, který se chová podle následující stochastické diferenciální rovnice.</ahelp></variable>"
 
 #. 2GJsA
 #: func_opt_prob_inmoney.xhp
@@ -60864,7 +60864,7 @@ msgctxt ""
 "par_id321575066304659\n"
 "help.text"
 msgid "<variable id=\"optspot\"><emph>Spot</emph> is the price / value of the underlying asset and should be greater than 0.0.</variable>"
-msgstr "<variable id=\"optspot\"><emph>Spot</emph> je cena (hodnota) podkladového aktiva měla by být větší než 0,0.</variable>"
+msgstr "<variable id=\"optspot\"><emph>Spot</emph> je cena (hodnota) podkladového aktiva a měla by být větší než 0,0.</variable>"
 
 #. CoALG
 #: func_opt_touch.xhp
@@ -60882,7 +60882,7 @@ msgctxt ""
 "par_id681575066324254\n"
 "help.text"
 msgid "<variable id=\"optrate\"><emph>Rate</emph> is the continuously compounded interest rate. This is a percentage expressed as a decimal (for example, enter 40% as 0.4).</variable>"
-msgstr "<variable id=\"optrate\"><emph>Sazba</emph> je spojitě úročená úroková sazby. Je vyjádřená jako desetinné číslo (například 40 % zadejte jako 0,4).</variable>"
+msgstr "<variable id=\"optrate\"><emph>Sazba</emph> je spojitě úročená úroková sazba. Je vyjádřená jako desetinné číslo (například 40 % zadejte jako 0,4).</variable>"
 
 #. eoG8E
 #: func_opt_touch.xhp
@@ -60927,7 +60927,7 @@ msgctxt ""
 "par_id561575066355924\n"
 "help.text"
 msgid "<variable id=\"optdomestic\"><emph>ForeignDomestic</emph> is a string that defines whether the option pays domestic (“d”) or foreign (“f”) currency.</variable>"
-msgstr "<variable id=\"optdomestic\"><emph>Zahraniční Domácí</emph> je řetězec určující, je opce vyplácena v domácí („d“, domestic), nebo zahraniční („f“, foreign) měně.</variable>"
+msgstr "<variable id=\"optdomestic\"><emph>Zahraniční Domácí</emph> je řetězec určující, zda je opce vyplácena v domácí („d“, domestic), nebo zahraniční („f“, foreign) měně.</variable>"
 
 #. zTRA2
 #: func_opt_touch.xhp
@@ -60954,7 +60954,7 @@ msgctxt ""
 "par_id721575066374340\n"
 "help.text"
 msgid "<emph>Greek</emph> (optional) is a string argument. If omitted or set to “value”, “v”, “price”, or “p”, then the function simply returns the option price. If another valid string is entered, the function returns price sensitivities (Greeks) to one of the input parameters. The valid options in this case are as follows."
-msgstr "<emph>Greek</emph> (nepovinné) je řetězec. Pokud je vynechán nebo nastaven na hodnotu „value“, „v“ nebo „p“, funkce vrátí jednoduše cenu opce. Pokud je zadán jiný platný řetězec, funkce vrátí citlivosti ceny (greeks) na jeden ze vstupních parametrů. Platné možnosti jsou následující."
+msgstr "<emph>Greek</emph> (nepovinné) je řetězec. Pokud je vynechán nebo nastaven na hodnotu „value“, „v“ nebo „p“, funkce jednoduše vrátí cenu opce. Pokud je zadán jiný platný řetězec, funkce vrátí citlivost ceny (greeks) na jeden ze vstupních parametrů. Platné možnosti jsou následující."
 
 #. NhW28
 #: func_opt_touch.xhp
@@ -63699,7 +63699,7 @@ msgctxt ""
 "par_id3147496\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_JAHR\">Returns the year as a number according to the <link href=\"text/scalc/01/04060102.xhp#datebase\" name=\"date calculation rules\">internal calculation rules</link>.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_JAHR\">Vrátí rok jako číslo ze zadané <link href=\"text/scalc/01/04060102.xhp#datebase\" name=\"vnitřní reprezentace data\">vnitřní reprezentace data</link>.</ahelp>"
 
 #. 3SfLe
 #: func_year.xhp
@@ -63753,7 +63753,7 @@ msgctxt ""
 "par_id141577548861101\n"
 "help.text"
 msgid "<input>=YEAR(DATEVALUE('2010-09-28'))</input>  returns 2010."
-msgstr ""
+msgstr "<input>=YEAR(DATEVALUE('2010-09-28'))</input> vrátí 2010."
 
 #. kAjPe
 #: func_yearfrac.xhp
@@ -66588,7 +66588,7 @@ msgctxt ""
 "par_id1001270\n"
 "help.text"
 msgid "For more information on Fourier analysis, refer to the <link href=\"https://en.wikipedia.org/wiki/Fourier_analysis\" name=\"English Wikipedia: Fourier analysis\">corresponding Wikipedia article</link>."
-msgstr "Další informace o Fourierově analýze naleznete v angličtině v <link href=\"https://en.wikipedia.org/wiki/Fourier_analysis\" name=\"English Wikipedia: Fourier analysis\">příslušném článku na Wikipedii</link>."
+msgstr "Další informace o Fourierově analýze naleznete v angličtině v <link href=\"https://en.wikipedia.org/wiki/Fourier_analysis\" name=\"Anglická Wikipedie: Fourier analysis\">příslušném článku na Wikipedii</link>."
 
 #. VArYS
 #: statistics_fourier.xhp
@@ -66597,7 +66597,7 @@ msgctxt ""
 "par_id301561811172762\n"
 "help.text"
 msgid "<emph>Input range has label</emph>: Mark when the first row or column of the input array is actually a label and not part of the data analysis."
-msgstr "<emph>Vstupní oblast má popisek</emph>: Zaškrtněte, pokud první řádek nebo sloupec vstupní matice obsahuje popisky, a není tak součást dat pro analýzu."
+msgstr "<emph>Vstupní oblast má popisek</emph>: Zaškrtněte, pokud první řádek nebo sloupec vstupní matice obsahuje popisky, a není tak součástí dat pro analýzu."
 
 #. Gi5kk
 #: statistics_fourier.xhp
@@ -66606,7 +66606,7 @@ msgctxt ""
 "par_id741556228390897\n"
 "help.text"
 msgid "Input Range is a 2 x N or N x 2 range representing an array of complex number to be transformed, where N is the length of the array. The array represents the real and imaginary parts of the data."
-msgstr "Vstupní oblast  je oblast velikosti 2 × N či N × 2 představující matici komplexních čísel, která se má transformovat, kde N je rozměr matice. Matice představuje reálnou a imaginární část dat."
+msgstr "Vstupní oblast je oblast velikosti 2 × N či N × 2 představující matici komplexních čísel, která se má transformovat, kde N je rozměr matice. Matice představuje reálnou a imaginární část dat."
 
 #. GqXZr
 #: statistics_fourier.xhp
@@ -66642,7 +66642,7 @@ msgctxt ""
 "par_id661561732521977\n"
 "help.text"
 msgid "<emph>Minimum magnitude for polar form output (in dB)</emph>: used only when output is in polar form. All frequency components with magnitude less than this value in decibels will be suppressed with a zero magnitude-phase entry. This is very useful when looking at the magnitude-phase spectrum of a signal because there is always some very tiny amount of rounding error when doing FFT algorithms and results in incorrect non-zero phase for non-existent frequencies. By providing a suitable value to this parameter, these non-existent frequency components can be suppressed."
-msgstr "<emph>Minimální velikost pro výstup v polárním tvaru (v dB)</emph>: používá se pouze tehdy, je-li výstup v polárním tvaru. Všechny frekvenční složky s velikostí menší než tato hodnota v decibelech budou potlačeny a nahrazeny položkami s nulovou velikostí a fází. To bývá velmi prospěšné při hledání spektra velikostí a fází pro vstupní signál, protože při použití algoritmu FFT se vždy objeví malé zaokrouhlovací chyby, které mají za následek nesprávné nenulové fáze pro neexistující frekvence. Volbou vhodné hodnoty tohoto parametru lze těmto složkám pro  neexistující frekvence zamezit."
+msgstr "<emph>Minimální velikost pro výstup v polárním tvaru (v dB)</emph>: používá se pouze tehdy, je-li výstup v polárním tvaru. Všechny frekvenční složky s velikostí menší než tato hodnota v decibelech budou potlačeny a nahrazeny položkami s nulovou velikostí a fází. To bývá velmi prospěšné při hledání spektra velikostí a fází pro vstupní signál, protože při použití algoritmu FFT se vždy objeví malé zaokrouhlovací chyby, které mají za následek nesprávné nenulové fáze pro neexistující frekvence. Volbou vhodné hodnoty tohoto parametru lze těmto složkám pro neexistující frekvence zamezit."
 
 #. 8pLcW
 #: statistics_fourier.xhp
