@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-11 16:49+0100\n"
-"PO-Revision-Date: 2019-12-17 11:22+0000\n"
+"PO-Revision-Date: 2020-01-24 17:10+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Asturian <https://weblate.documentfoundation.org/projects/libo_ui-6-3/scmessages/ast/>\n"
 "Language: ast\n"
@@ -855,7 +855,7 @@ msgstr "Agrupar"
 #: sc/inc/globstr.hrc:160
 msgctxt "STR_SELCOUNT"
 msgid "Selected: $1, $2"
-msgstr ""
+msgstr "Esbilla: $1, $2"
 
 #. FgTCG
 #. To translators: STR_SELCOUNT_ROWARG is $1 of STR_SELCOUNT. $1 of STR_SELCOUNT_ROWARG is number of rows
@@ -863,8 +863,8 @@ msgstr ""
 msgctxt "STR_SELCOUNT_ROWARG"
 msgid "$1 row"
 msgid_plural "$1 rows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$1 filera"
+msgstr[1] "$1 fileres"
 
 #. o4pBL
 #. To translators: STR_SELCOUNT_COLARG is $1 of STR_SELCOUNT. $1 of STR_SELCOUNT_ROWARG is number of columns
@@ -872,8 +872,8 @@ msgstr[1] ""
 msgctxt "STR_SELCOUNT_COLARG"
 msgid "$1 column"
 msgid_plural "$1 columns"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "$1 columna"
+msgstr[1] "$1 columnes"
 
 #. 3dMsw
 #: sc/inc/globstr.hrc:165
@@ -987,7 +987,7 @@ msgstr "Nun s'escoyó dengún intervalu."
 #: sc/inc/globstr.hrc:183
 msgctxt "STR_NEWTABNAMENOTUNIQUE"
 msgid "This name already exists."
-msgstr "Esti nome yá existe."
+msgstr "Esti nome yá esiste."
 
 #. yRu3x
 #: sc/inc/globstr.hrc:184
@@ -998,6 +998,10 @@ msgid ""
 "an existing name and may not contain the characters [ ] * ? : / \\ \n"
 "or the character ' (apostrophe) as first or last character."
 msgstr ""
+"Nun val el nome de la fueya.\n"
+"El nome nun ha tar baleru o duplicar un nome esistente.\n"
+"Amás, nun pue contener los caráuteres [ ] * ? : / \\ '\n"
+"nin al entamu nin al final."
 
 #. CGAdE
 #: sc/inc/globstr.hrc:185
@@ -3852,10 +3856,9 @@ msgstr "Da un númberu internu a la data indicada."
 
 #. R4DSx
 #: sc/inc/scfuncs.hrc:182
-#, fuzzy
 msgctxt "SC_OPCODE_GET_DATE"
 msgid "Year"
-msgstr "Años"
+msgstr "Añu"
 
 #. 6BwEu
 #: sc/inc/scfuncs.hrc:183
@@ -3865,10 +3868,9 @@ msgstr "Un enteru ente 1583 y 9956 o 0 y 99 (19xx or 20xx depende de l'axuste co
 
 #. Zxc2E
 #: sc/inc/scfuncs.hrc:184
-#, fuzzy
 msgctxt "SC_OPCODE_GET_DATE"
 msgid "Month"
-msgstr "Meses"
+msgstr "Mes"
 
 #. DymKU
 #: sc/inc/scfuncs.hrc:185
@@ -3878,10 +3880,9 @@ msgstr "Un enteru ente 1 y 12 que representa'l mes."
 
 #. PmsNF
 #: sc/inc/scfuncs.hrc:186
-#, fuzzy
 msgctxt "SC_OPCODE_GET_DATE"
 msgid "Day"
-msgstr "Díes"
+msgstr "Día"
 
 #. McM2X
 #: sc/inc/scfuncs.hrc:187
@@ -3933,10 +3934,9 @@ msgstr "Calcula'l númberu de díes entre dos dates sofitándose nun añu de 360
 
 #. ZUUYG
 #: sc/inc/scfuncs.hrc:210
-#, fuzzy
 msgctxt "SC_OPCODE_GET_DIFF_DATE_360"
 msgid "Date 1"
-msgstr "Data "
+msgstr "Data 1"
 
 #. isAbX
 #: sc/inc/scfuncs.hrc:211
@@ -3946,10 +3946,9 @@ msgstr "Data d'aniciu pa calcular la diferencia de díes."
 
 #. wWHWp
 #: sc/inc/scfuncs.hrc:212
-#, fuzzy
 msgctxt "SC_OPCODE_GET_DIFF_DATE_360"
 msgid "Date 2"
-msgstr "Data "
+msgstr "Data 2"
 
 #. 9DEEN
 #: sc/inc/scfuncs.hrc:213
@@ -4439,7 +4438,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:377
 msgctxt "SC_OPCODE_ISOWEEKNUM"
 msgid "Calculates the ISO 8601 calendar week for the given date."
-msgstr ""
+msgstr "Calcula la selmana del añu según ISO 8601 correspondiente a la data especificada."
 
 #. Rx8bG
 #: sc/inc/scfuncs.hrc:378
@@ -4494,10 +4493,9 @@ msgstr "Calcula la data del Domingu de Pascua d'un añu."
 
 #. BFtNz
 #: sc/inc/scfuncs.hrc:395
-#, fuzzy
 msgctxt "SC_OPCODE_EASTERSUNDAY"
 msgid "Year"
-msgstr "Años"
+msgstr "Añu"
 
 #. oBcHn
 #: sc/inc/scfuncs.hrc:396
@@ -13817,20 +13815,19 @@ msgstr "Seleiciona un valor d'una llista d'hasta 30 argumentos de valor."
 #: sc/inc/scfuncs.hrc:3297
 msgctxt "SC_OPCODE_CHOOSE"
 msgid "Index"
-msgstr "Indiz"
+msgstr "Índiz"
 
 #. GUMqQ
 #: sc/inc/scfuncs.hrc:3298
 msgctxt "SC_OPCODE_CHOOSE"
 msgid "The index of the value (1..30) selected."
-msgstr "L'indiz del valor (1..30) seleicionáu."
+msgstr "L'índiz del valor (1..30) seleicionáu."
 
 #. SAWhP
 #: sc/inc/scfuncs.hrc:3299
-#, fuzzy
 msgctxt "SC_OPCODE_CHOOSE"
 msgid "Value "
-msgstr "Valor"
+msgstr "Valor "
 
 #. 3cXEF
 #: sc/inc/scfuncs.hrc:3300
@@ -13977,19 +13974,19 @@ msgstr "Matriz "
 #: sc/inc/scfuncs.hrc:3358
 msgctxt "SC_OPCODE_H_LOOKUP"
 msgid "The array or the range for the reference."
-msgstr "La matriz o rangu pa la referencia."
+msgstr "La matriz o l'intervalu pa la referencia."
 
 #. PZDud
 #: sc/inc/scfuncs.hrc:3359
 msgctxt "SC_OPCODE_H_LOOKUP"
 msgid "Index"
-msgstr "Indiz"
+msgstr "Índiz"
 
 #. QVoEL
 #: sc/inc/scfuncs.hrc:3360
 msgctxt "SC_OPCODE_H_LOOKUP"
 msgid "The row index in the array."
-msgstr "L'indiz de filera na matriz."
+msgstr "L'índiz de filera na matriz."
 
 #. j7RB6
 #: sc/inc/scfuncs.hrc:3361
@@ -14039,13 +14036,13 @@ msgstr "La matriz o rangu a referenciar."
 #: sc/inc/scfuncs.hrc:3373
 msgctxt "SC_OPCODE_V_LOOKUP"
 msgid "Index"
-msgstr "Indiz"
+msgstr "Índiz"
 
 #. xpSFz
 #: sc/inc/scfuncs.hrc:3374
 msgctxt "SC_OPCODE_V_LOOKUP"
 msgid "Column index number in the array."
-msgstr "Númberu d'indiz de columna na matriz."
+msgstr "Númberu d'índiz de columna na matriz."
 
 #. DJzqt
 #: sc/inc/scfuncs.hrc:3375
@@ -17008,7 +17005,7 @@ msgstr "(Mou d'entever)"
 #: sc/inc/strings.hrc:105
 msgctxt "SCSTR_PRINTOPT_PAGES"
 msgid "Pages:"
-msgstr ""
+msgstr "Páxines:"
 
 #. FYjDY
 #: sc/inc/strings.hrc:106
@@ -17021,7 +17018,7 @@ msgstr "_Suprimir la salida de les páxines baleres"
 #: sc/inc/strings.hrc:107
 msgctxt "SCSTR_PRINTOPT_ALLSHEETS"
 msgid "Print All Sheets"
-msgstr ""
+msgstr "Imprentar toles fueyes"
 
 #. xcKcm
 #: sc/inc/strings.hrc:108
@@ -18553,7 +18550,7 @@ msgstr "Cuenta"
 #: sc/inc/subtotals.hrc:29
 msgctxt "subtotalgrppage|liststore1"
 msgid "Average"
-msgstr "Media"
+msgstr "Promediu"
 
 #. AfJCg
 #: sc/inc/subtotals.hrc:30
@@ -18724,7 +18721,7 @@ msgstr "Co_piar los resultaos a:"
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:372
 msgctxt "advancedfilterdialog|dbarealabel"
 msgid "Data range:"
-msgstr "Rangu de datos:"
+msgstr "Estaya de datos:"
 
 #. 44y9m
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:385
@@ -18748,25 +18745,25 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/aggregatefunctionentry.ui:37
 msgctxt "aggregatefunctionentry|type"
 msgid "Type:"
-msgstr ""
+msgstr "Triba:"
 
 #. yeTyA
 #: sc/uiconfig/scalc/ui/aggregatefunctionentry.ui:51
 msgctxt "aggregatefunctionentry|columns"
 msgid "Columns:"
-msgstr ""
+msgstr "Columnes:"
 
 #. aSmAj
 #: sc/uiconfig/scalc/ui/aggregatefunctionentry.ui:68
 msgctxt "aggregatefunctionentry|sum"
 msgid "Sum"
-msgstr ""
+msgstr "Suma"
 
 #. k2eoF
 #: sc/uiconfig/scalc/ui/aggregatefunctionentry.ui:69
 msgctxt "aggregatefunctionentry|average"
 msgid "Average"
-msgstr ""
+msgstr "Promediu"
 
 #. K4a9A
 #: sc/uiconfig/scalc/ui/aggregatefunctionentry.ui:70
@@ -18784,7 +18781,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/aggregatefunctionentry.ui:106
 msgctxt "aggregatefunctionentry|delete"
 msgid "Cancel"
-msgstr ""
+msgstr "Encaboxar"
 
 #. NCX7N
 #: sc/uiconfig/scalc/ui/allheaderfooterdialog.ui:8
@@ -18971,13 +18968,13 @@ msgstr "Formatiando"
 #: sc/uiconfig/scalc/ui/autosum.ui:12
 msgctxt "autosum|sum"
 msgid "Sum"
-msgstr ""
+msgstr "Suma"
 
 #. CCL6E
 #: sc/uiconfig/scalc/ui/autosum.ui:20
 msgctxt "autosum|average"
 msgid "Average"
-msgstr ""
+msgstr "Promediu"
 
 #. zrBKq
 #: sc/uiconfig/scalc/ui/autosum.ui:28
@@ -19581,17 +19578,15 @@ msgstr "Nun contién"
 
 #. 5WkbA
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:409
-#, fuzzy
 msgctxt "conditionalentry|datetype"
 msgid "Today"
-msgstr "güei"
+msgstr "Güei"
 
 #. Ap28X
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:410
-#, fuzzy
 msgctxt "conditionalentry|datetype"
 msgid "Yesterday"
-msgstr "ayeri"
+msgstr "Ayeri"
 
 #. NhvVn
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:411
@@ -19957,7 +19952,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:175
 msgctxt "conflictsdialog|date"
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #. tgZHu
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:189
@@ -20013,7 +20008,7 @@ msgstr "Cuenta"
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:135
 msgctxt "consolidatedialog|func"
 msgid "Average"
-msgstr "Media"
+msgstr "Promediu"
 
 #. EffQC
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:136
@@ -20517,10 +20512,9 @@ msgstr "Campu de datos"
 
 #. oY6n8
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:164
-#, fuzzy
 msgctxt "datafielddialog|label1"
 msgid "Function"
-msgstr "_Función"
+msgstr "Función"
 
 #. kcFDu
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:178
@@ -20530,16 +20524,15 @@ msgstr ""
 
 #. CNVLs
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:201
-#, fuzzy
 msgctxt "datafielddialog|label2"
 msgid "Name:"
-msgstr "No_me:"
+msgstr "Nome:"
 
 #. yphGB
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:249
 msgctxt "datafielddialog|label4"
 msgid "_Type:"
-msgstr "_Tipu:"
+msgstr "_Triba:"
 
 #. h82Rf
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:264
@@ -20587,25 +20580,25 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:299
 msgctxt "datafielddialog|type"
 msgid "% of row"
-msgstr ""
+msgstr "% de la filera"
 
 #. dB8Rn
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:300
 msgctxt "datafielddialog|type"
 msgid "% of column"
-msgstr ""
+msgstr "% de la columna"
 
 #. kN2Bf
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:301
 msgctxt "datafielddialog|type"
 msgid "% of total"
-msgstr ""
+msgstr "% del total"
 
 #. fYyCw
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:302
 msgctxt "datafielddialog|type"
 msgid "Index"
-msgstr "Indiz"
+msgstr "Índiz"
 
 #. u5kvr
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:325
@@ -20937,13 +20930,13 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:37
 msgctxt "datetimetransformationentry|type"
 msgid "Type:"
-msgstr ""
+msgstr "Triba:"
 
 #. YKqPN
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:51
 msgctxt "datetimetransformationentry|columns"
 msgid "Columns:"
-msgstr ""
+msgstr "Columnes:"
 
 #. P4zeS
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:68
@@ -20955,7 +20948,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:69
 msgctxt "datetimetransformationentry|year"
 msgid "Year"
-msgstr ""
+msgstr "Añu"
 
 #. 84uwA
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:70
@@ -20973,13 +20966,13 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:72
 msgctxt "datetimetransformationentry|month"
 msgid "Month"
-msgstr ""
+msgstr "Mes"
 
 #. CVARh
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:73
 msgctxt "datetimetransformationentry|monthname"
 msgid "Month Name"
-msgstr ""
+msgstr "Nome del mes"
 
 #. HgxcR
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:74
@@ -20997,25 +20990,25 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:76
 msgctxt "datetimetransformationentry|day"
 msgid "Day"
-msgstr ""
+msgstr "Día"
 
 #. BAjUz
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:77
 msgctxt "datetimetransformationentry|dayofweek"
 msgid "Day of Week"
-msgstr ""
+msgstr "Día de la selmana"
 
 #. REwMc
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:78
 msgctxt "datetimetransformationentry|dayofyear"
 msgid "Day of Year"
-msgstr ""
+msgstr "Día del añu"
 
 #. FwYxx
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:79
 msgctxt "datetimetransformationentry|quarter"
 msgid "Quarter"
-msgstr ""
+msgstr "Trimestre"
 
 #. uCzda
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:80
@@ -21063,7 +21056,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:16
 msgctxt "definedatabaserangedialog|DefineDatabaseRangeDialog"
 msgid "Define Database Range"
-msgstr "Definir el rangu de la base de datos"
+msgstr "Definir la estaya de la base de datos"
 
 #. 4FqWF
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:176
@@ -21146,23 +21139,21 @@ msgstr "Definir nome"
 
 #. 6EGaz
 #: sc/uiconfig/scalc/ui/definename.ui:93
-#, fuzzy
 msgctxt "definename|label2"
 msgid "Name:"
-msgstr "No_me:"
+msgstr "Nome:"
 
 #. EPtbZ
 #: sc/uiconfig/scalc/ui/definename.ui:107
 msgctxt "definename|label3"
 msgid "Range or formula expression:"
-msgstr ""
+msgstr "Estaya o espresión de fórmula:"
 
 #. cPZDB
 #: sc/uiconfig/scalc/ui/definename.ui:121
-#, fuzzy
 msgctxt "definename|label4"
 msgid "Scope:"
-msgstr "Ámbitu"
+msgstr "Ámbitu:"
 
 #. KZfrH
 #: sc/uiconfig/scalc/ui/definename.ui:194
@@ -21252,7 +21243,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/deletecolumnentry.ui:65
 msgctxt "deletecolumnentry|delete"
 msgid "Cancel"
-msgstr ""
+msgstr "Encaboxar"
 
 #. VWjSF
 #: sc/uiconfig/scalc/ui/deletecontents.ui:8
@@ -21991,10 +21982,9 @@ msgstr ""
 
 #. L79E6
 #: sc/uiconfig/scalc/ui/functionpanel.ui:59
-#, fuzzy
 msgctxt "functionpanel|category"
 msgid "Last Used"
-msgstr "Caberu usáu"
+msgstr "Usu caberu"
 
 #. uRXDm
 #: sc/uiconfig/scalc/ui/functionpanel.ui:60
@@ -22559,7 +22549,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/insertname.ui:144
 msgctxt "insertname|STR_HEADER_RANGE_OR_EXPR"
 msgid "Range or formula expression"
-msgstr ""
+msgstr "Estaya o espresión de fórmula"
 
 #. kSc7p
 #: sc/uiconfig/scalc/ui/insertname.ui:157
@@ -22685,19 +22675,19 @@ msgstr "Xestionar nomes"
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:126
 msgctxt "managenamesdialog|name"
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. qwCzn
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:139
 msgctxt "managenamesdialog|expression"
 msgid "Range or formula expression"
-msgstr ""
+msgstr "Estaya o espresión de fórmula"
 
 #. nFCoR
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:152
 msgctxt "managenamesdialog|scope"
 msgid "Scope"
-msgstr ""
+msgstr "Ámbitu"
 
 #. enGg7
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:182
@@ -22707,23 +22697,21 @@ msgstr "Esbilla caxelles del documentu p'anovar el rangu."
 
 #. WCnsd
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:202
-#, fuzzy
 msgctxt "managenamesdialog|label2"
 msgid "Name:"
-msgstr "No_me:"
+msgstr "Nome:"
 
 #. XY33d
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:216
-#, fuzzy
 msgctxt "managenamesdialog|label4"
 msgid "Scope:"
-msgstr "Ámbitu"
+msgstr "Ámbitu:"
 
 #. ddGRB
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:280
 msgctxt "managenamesdialog|label3"
 msgid "Range or formula expression:"
-msgstr ""
+msgstr "Estaya o espresión de fórmula:"
 
 #. dGcEm
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:328
@@ -22802,19 +22790,19 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/mergecolumnentry.ui:37
 msgctxt "mergecolumnentry|separator"
 msgid "Separator:"
-msgstr ""
+msgstr "Separtador:"
 
 #. 2Y4bb
 #: sc/uiconfig/scalc/ui/mergecolumnentry.ui:58
 msgctxt "mergecolumnentry|columns"
 msgid "Columns:"
-msgstr ""
+msgstr "Columnes:"
 
 #. yvPu8
 #: sc/uiconfig/scalc/ui/mergecolumnentry.ui:86
 msgctxt "mergecolumnentry|delete"
 msgid "Cancel"
-msgstr ""
+msgstr "Encaboxar"
 
 #. 4kTrD
 #: sc/uiconfig/scalc/ui/movecopysheet.ui:16
@@ -22868,7 +22856,7 @@ msgstr "_Inxertar antes"
 #: sc/uiconfig/scalc/ui/movecopysheet.ui:301
 msgctxt "movecopysheet|label2"
 msgid "Location"
-msgstr "Llugar"
+msgstr "Allugamientu"
 
 #. wcXYj
 #: sc/uiconfig/scalc/ui/movecopysheet.ui:368
@@ -23196,7 +23184,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/notebookbar.ui:7071
 msgctxt "CalcNotebookbar|objectalign|tooltip_text"
 msgid "Object Align"
-msgstr ""
+msgstr "Alliniación d'oxetos"
 
 #. eWinY
 #: sc/uiconfig/scalc/ui/notebookbar.ui:7289
@@ -23286,7 +23274,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/notebookbar.ui:13845
 msgctxt "CalcNotebookbar|FrameLabel"
 msgid "~Object"
-msgstr ""
+msgstr "~Oxetu"
 
 #. cHyKz
 #: sc/uiconfig/scalc/ui/notebookbar.ui:14420
@@ -23310,7 +23298,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/notebookbar.ui:15010
 msgctxt "CalcNotebookbar|PrintLabel"
 msgid "~Print"
-msgstr ""
+msgstr "~Imprentar"
 
 #. 5JVAt
 #: sc/uiconfig/scalc/ui/notebookbar.ui:15041
@@ -23467,13 +23455,13 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/notebookbar_compact.ui:12622
 msgctxt "notebookbar_compact|ObjectMenuButton"
 msgid "Object"
-msgstr ""
+msgstr "Oxetu"
 
 #. JXKiY
 #: sc/uiconfig/scalc/ui/notebookbar_compact.ui:12674
 msgctxt "notebookbar_compact|FrameLabel"
 msgid "~Object"
-msgstr ""
+msgstr "~Oxetu"
 
 #. q8wnS
 #: sc/uiconfig/scalc/ui/notebookbar_compact.ui:13394
@@ -23497,7 +23485,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/notebookbar_compact.ui:14073
 msgctxt "notebookbar_compact|FormLabel"
 msgid "~Print"
-msgstr ""
+msgstr "~Imprentar"
 
 #. EBGs5
 #: sc/uiconfig/scalc/ui/notebookbar_compact.ui:15428
@@ -24412,25 +24400,25 @@ msgstr "Contornu de caráuteres"
 #: sc/uiconfig/scalc/ui/numbertransformationentry.ui:21
 msgctxt "numbertransformationentry|name"
 msgid "Number Transformations"
-msgstr ""
+msgstr "Tresformaciones numbériques"
 
 #. MDBwZ
 #: sc/uiconfig/scalc/ui/numbertransformationentry.ui:37
 msgctxt "numbertransformationentry|type"
 msgid "Type:"
-msgstr ""
+msgstr "Triba:"
 
 #. mZxLU
 #: sc/uiconfig/scalc/ui/numbertransformationentry.ui:51
 msgctxt "numbertransformationentry|columns"
 msgid "Columns:"
-msgstr ""
+msgstr "Columnes:"
 
 #. M6K87
 #: sc/uiconfig/scalc/ui/numbertransformationentry.ui:68
 msgctxt "numbertransformationentry|sign"
 msgid "Sign"
-msgstr ""
+msgstr "Signu"
 
 #. yQMEC
 #: sc/uiconfig/scalc/ui/numbertransformationentry.ui:69
@@ -24508,7 +24496,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/numbertransformationentry.ui:115
 msgctxt "numbertransformationentry|delete"
 msgid "Cancel"
-msgstr ""
+msgstr "Encaboxar"
 
 #. T2p5k
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:48
@@ -25381,10 +25369,9 @@ msgstr ""
 
 #. aUWEK
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:268
-#, fuzzy
 msgctxt "pivotfielddialog|label2"
 msgid "Name:"
-msgstr "No_me:"
+msgstr "Nome:"
 
 #. 5tnrL
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:8
@@ -25470,7 +25457,7 @@ msgstr "E_nsin duplicaos"
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:458
 msgctxt "pivotfilterdialog|dbarealabel"
 msgid "Data range:"
-msgstr "Rangu de datos:"
+msgstr "Estaya de datos:"
 
 #. inZxG
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:471
@@ -26050,13 +26037,13 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/replacenulltransformationentry.ui:51
 msgctxt "replacenulltransformationentry|columns"
 msgid "Columns:"
-msgstr ""
+msgstr "Columnes:"
 
 #. DiMoH
 #: sc/uiconfig/scalc/ui/replacenulltransformationentry.ui:98
 msgctxt "replacenulltransformationentry|delete"
 msgid "Cancel"
-msgstr ""
+msgstr "Encaboxar"
 
 #. vAFwf
 #: sc/uiconfig/scalc/ui/retypepassdialog.ui:10
@@ -26493,19 +26480,19 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/searchresults.ui:102
 msgctxt "searchresults|sheet"
 msgid "Sheet"
-msgstr ""
+msgstr "Fueya"
 
 #. BFKKA
 #: sc/uiconfig/scalc/ui/searchresults.ui:115
 msgctxt "searchresults|cell"
 msgid "Cell"
-msgstr ""
+msgstr "Caxella"
 
 #. Knp9A
 #: sc/uiconfig/scalc/ui/searchresults.ui:128
 msgctxt "searchresults|content"
 msgid "Content"
-msgstr ""
+msgstr "Conteníu"
 
 #. GtwuD
 #: sc/uiconfig/scalc/ui/selectdatasource.ui:8
@@ -26524,7 +26511,7 @@ msgstr "Base de datos"
 #: sc/uiconfig/scalc/ui/selectdatasource.ui:115
 msgctxt "selectdatasource|label4"
 msgid "_Type:"
-msgstr "_Tipu:"
+msgstr "_Triba:"
 
 #. BYmD6
 #: sc/uiconfig/scalc/ui/selectdatasource.ui:142
@@ -27777,13 +27764,13 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/sorttransformationentry.ui:48
 msgctxt "sorttransformationentry|column"
 msgid "Column:"
-msgstr ""
+msgstr "Columna:"
 
 #. EDbeF
 #: sc/uiconfig/scalc/ui/sorttransformationentry.ui:82
 msgctxt "sorttransformationentry|delete"
 msgid "Cancel"
-msgstr ""
+msgstr "Encaboxar"
 
 #. EhGCw
 #: sc/uiconfig/scalc/ui/sortwarning.ui:8
@@ -27823,10 +27810,9 @@ msgstr ""
 
 #. KRFto
 #: sc/uiconfig/scalc/ui/splitcolumnentry.ui:37
-#, fuzzy
 msgctxt "splitcolumnentry|separator"
 msgid "Separator:"
-msgstr "Separadores"
+msgstr "Separtador:"
 
 #. CvibV
 #: sc/uiconfig/scalc/ui/splitcolumnentry.ui:48
@@ -27838,13 +27824,13 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/splitcolumnentry.ui:90
 msgctxt "splitcolumnentry|delete"
 msgid "Cancel"
-msgstr ""
+msgstr "Encaboxar"
 
 #. GJ7zg
 #: sc/uiconfig/scalc/ui/standardfilterdialog.ui:8
 msgctxt "standardfilterdialog|StandardFilterDialog"
 msgid "Standard Filter"
-msgstr "Filtru estándar"
+msgstr "Peñera estándar"
 
 #. 3c3SD
 #: sc/uiconfig/scalc/ui/standardfilterdialog.ui:131
@@ -28331,7 +28317,7 @@ msgstr "Co_piar los resultaos a:"
 #: sc/uiconfig/scalc/ui/standardfilterdialog.ui:798
 msgctxt "standardfilterdialog|dbarealabel"
 msgid "Data range:"
-msgstr "Rangu de datos:"
+msgstr "Estaya de datos:"
 
 #. VBZEp
 #: sc/uiconfig/scalc/ui/standardfilterdialog.ui:811
@@ -28347,30 +28333,27 @@ msgstr "Op_ciones"
 
 #. uBMEs
 #: sc/uiconfig/scalc/ui/statisticsinfopage.ui:27
-#, fuzzy
 msgctxt "statisticsinfopage|label6"
 msgid "Pages:"
-msgstr "Páxines"
+msgstr "Páxines:"
 
 #. 4NfcR
 #: sc/uiconfig/scalc/ui/statisticsinfopage.ui:53
-#, fuzzy
 msgctxt "statisticsinfopage|label5"
 msgid "Cells:"
-msgstr "Caxelles"
+msgstr "Caxelles:"
 
 #. TNBHA
 #: sc/uiconfig/scalc/ui/statisticsinfopage.ui:79
-#, fuzzy
 msgctxt "statisticsinfopage|label2"
 msgid "Sheets:"
-msgstr "Fueyes"
+msgstr "Fueyes:"
 
 #. BnU73
 #: sc/uiconfig/scalc/ui/statisticsinfopage.ui:106
 msgctxt "statisticsinfopage|label3"
 msgid "Formula groups:"
-msgstr ""
+msgstr "Grupos de fórmules:"
 
 #. StkZk
 #: sc/uiconfig/scalc/ui/statisticsinfopage.ui:136
@@ -28388,21 +28371,19 @@ msgstr "Subtotales"
 #: sc/uiconfig/scalc/ui/subtotaldialog.ui:153
 msgctxt "subtotaldialog|1stgroup"
 msgid "1st Group"
-msgstr ""
+msgstr "1ᵉʳ grupu"
 
 #. eKqfU
 #: sc/uiconfig/scalc/ui/subtotaldialog.ui:199
-#, fuzzy
 msgctxt "subtotaldialog|2ndgroup"
 msgid "2nd Group"
-msgstr "Amestar grupu"
+msgstr "2ᵘ grupu"
 
 #. 7YiAD
 #: sc/uiconfig/scalc/ui/subtotaldialog.ui:246
-#, fuzzy
 msgctxt "subtotaldialog|3rdgroup"
 msgid "3rd Group"
-msgstr "Amestar grupu"
+msgstr "3ᵉʳ grupu"
 
 #. 9RfXo
 #: sc/uiconfig/scalc/ui/subtotaldialog.ui:293
@@ -28689,19 +28670,19 @@ msgstr "Opciones"
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:21
 msgctxt "texttransformationentry|name"
 msgid "Text Transformation"
-msgstr ""
+msgstr "Tresformación de testu"
 
 #. TKgWB
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:37
 msgctxt "texttransformationentry|type"
 msgid "Type:"
-msgstr ""
+msgstr "Triba:"
 
 #. 9dr3g
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:51
 msgctxt "texttransformationentry|columns"
 msgid "Columns:"
-msgstr ""
+msgstr "Columnes:"
 
 #. zXpJU
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:81
@@ -28731,7 +28712,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:106
 msgctxt "texttransformation_type|delete"
 msgid "Cancel"
-msgstr ""
+msgstr "Encaboxar"
 
 #. D7zk3
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:37

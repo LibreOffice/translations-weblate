@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-11 16:49+0100\n"
-"PO-Revision-Date: 2019-06-05 20:00+0000\n"
+"PO-Revision-Date: 2020-01-24 17:38+0000\n"
 "Last-Translator: Modestas Rimkus <modestas.rimkus@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Lithuanian <https://weblate.documentfoundation.org/projects/libo_ui-6-3/sfx2messages/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-POOTLE-MTIME: 1559764817.000000\n"
 
 #. bHbFE
@@ -360,13 +360,13 @@ msgstr "Ar pašalinti pažymėtus šablonus?"
 #: include/sfx2/strings.hrc:78
 msgctxt "STR_QMSG_ERROR_OPENING_FILE"
 msgid "An error occurred during opening the file. This may be caused by incorrect file contents.\n"
-msgstr ""
+msgstr "Atveriant failą įvyko klaida. Klaidą galėjo sukelti netinkamas failo turinys.\n"
 
 #. AsUee
 #: include/sfx2/strings.hrc:79
 msgctxt "STR_QMSG_ERROR_OPENING_FILE_DETAILS"
 msgid "The error details are:\n"
-msgstr ""
+msgstr "Klaidos informacija:\n"
 
 #. D2XDV
 #: include/sfx2/strings.hrc:80
@@ -377,6 +377,10 @@ msgid ""
 "\n"
 "Do you want to ignore the error and attempt to continue loading the file?"
 msgstr ""
+"\n"
+"Tęsiant importą duomenys gali būti prarasti arba sugadinti, o programa gali veikti nekorektiškai arba užstrigti.\n"
+"\n"
+"Ar nepaisyti klaidos ir toliau bandyti atverti failą?"
 
 #. g63UH
 #: include/sfx2/strings.hrc:82
@@ -959,7 +963,7 @@ msgstr "Neteisingas slaptažodis"
 #: include/sfx2/strings.hrc:172
 msgctxt "RID_SVXSTR_GPG_ENCRYPT_FAILURE"
 msgid "OpenPGP key not trusted, damaged, or encryption failure. Please try again."
-msgstr ""
+msgstr "„OpenPGP“ raktas nepatikimas, sugadintas, arba įvyko šifravimo klaida. Pabandykite dar kartą."
 
 #. DQCUm
 #: include/sfx2/strings.hrc:174
@@ -1045,7 +1049,7 @@ msgstr "Įterpti"
 #: include/sfx2/strings.hrc:189
 msgctxt "STR_SFX_IMPORT_ALL_IMAGES"
 msgid "<All images>"
-msgstr ""
+msgstr "<Visi paveikslai>"
 
 #. tPDwc
 #: include/sfx2/strings.hrc:190
@@ -1177,7 +1181,7 @@ msgstr "Šriftas"
 #: include/sfx2/strings.hrc:211
 msgctxt "STR_PREVIEW_CHECKBOX"
 msgid "Show previews"
-msgstr ""
+msgstr "Stilių peržiūra"
 
 #. 7baC6
 #: include/sfx2/strings.hrc:213
@@ -1219,7 +1223,7 @@ msgstr "Naujas stilius pagal atranką"
 #: include/sfx2/strings.hrc:220
 msgctxt "STR_STYLE_NEW_STYLE_ACTION"
 msgid "Styles actions"
-msgstr ""
+msgstr "Veiksmai su stiliais"
 
 #. B9bdB
 #: include/sfx2/strings.hrc:221
@@ -1340,6 +1344,9 @@ msgid ""
 "\n"
 "Error code is $1"
 msgstr ""
+"Klaida siunčiant laišką. Šios klaidos gali atsirasti dėl neteisingos abonento paskyros arba pasirinktos sąrankos.\n"
+"\n"
+"Klaidos kodas: $1"
 
 #. ZWTDr
 #: include/sfx2/strings.hrc:239
@@ -1372,7 +1379,7 @@ msgstr "Atverti kopiją"
 #: include/sfx2/strings.hrc:243
 msgctxt "STR_QUERY_OPENASTEMPLATE_OPEN_BTN"
 msgid "~Open"
-msgstr ""
+msgstr "Atverti"
 
 #. GcSXH
 #: include/sfx2/strings.hrc:244
@@ -1402,13 +1409,13 @@ msgstr "Bendradarbiauti"
 #: include/sfx2/strings.hrc:248
 msgctxt "STR_DONATE_TEXT"
 msgid "Your donations support our worldwide community."
-msgstr ""
+msgstr "Jūsų aukos padeda programos kūrėjų bendruomenei visame pasaulyje."
 
 #. KzgoD
 #: include/sfx2/strings.hrc:249
 msgctxt "STR_DONATE_BUTTON"
 msgid "Donate"
-msgstr ""
+msgstr "Paaukoti"
 
 #. G8bbK
 #: include/sfx2/strings.hrc:250
@@ -1456,7 +1463,7 @@ msgstr "Šio dokumento klasifikacijos lygmuo žemesnis nei iškarpinės turinio.
 #: include/sfx2/strings.hrc:257
 msgctxt "STR_CLASSIFIED_INTELLECTUAL_PROPERTY"
 msgid "Level"
-msgstr ""
+msgstr "Lygmuo"
 
 #. itVew
 #: include/sfx2/strings.hrc:258
@@ -1517,7 +1524,7 @@ msgstr "Parašas galioja, bet dokumentas pasirašytas tik dalinai."
 #: include/sfx2/strings.hrc:267
 msgctxt "STR_SIGNATURE_NOTVALIDATED_PARTIAL_OK"
 msgid "The certificate could not be validated and the document is only partially signed."
-msgstr ""
+msgstr "Liudijimo nepavyko patikrinti, o dokumentas pasirašytas tik dalinai."
 
 #. FKDbE
 #: include/sfx2/strings.hrc:268
@@ -1735,37 +1742,37 @@ msgstr "CV"
 #: include/sfx2/strings.hrc:308
 msgctxt "STR_TEMPLATE_NAME25"
 msgid "Resume"
-msgstr ""
+msgstr "Gyvenimo aprašymas"
 
 #. hCpfD
 #: include/sfx2/strings.hrc:309
 msgctxt "STR_TEMPLATE_NAME26"
 msgid "Default"
-msgstr ""
+msgstr "Numatytasis"
 
 #. d7Hyk
 #: include/sfx2/strings.hrc:310
 msgctxt "STR_TEMPLATE_NAME27"
 msgid "Modern"
-msgstr ""
+msgstr "Šiuolaikiškas"
 
 #. CVJEC
 #: include/sfx2/strings.hrc:311
 msgctxt "STR_TEMPLATE_NAME28"
 msgid "Modern business letter sans-serif"
-msgstr ""
+msgstr "Šiuolaikiškas tarnybinis laiškas, šriftas be užraitų"
 
 #. 95GeB
 #: include/sfx2/strings.hrc:312
 msgctxt "STR_TEMPLATE_NAME29"
 msgid "Modern business letter serif"
-msgstr ""
+msgstr "Šiuolaikiškas tarnybinis laiškas, šriftas su užraitais"
 
 #. XdU49
 #: include/sfx2/strings.hrc:313
 msgctxt "STR_TEMPLATE_NAME30"
 msgid "Businesscard with logo"
-msgstr ""
+msgstr "Vizitinė kortelė su logotipu"
 
 #. ZaGGB
 #: include/sfx2/strings.hrc:315
@@ -1783,13 +1790,13 @@ msgstr "Šalinti visus"
 #: include/sfx2/strings.hrc:318
 msgctxt "STR_PASSWORD_LEN"
 msgid "Password length"
-msgstr ""
+msgstr "Slaptažodžio ilgis"
 
 #. FKFmJ
 #: include/sfx2/strings.hrc:319
 msgctxt "STR_PASSWORD_WARNING"
 msgid "The password you have entered causes interoperability issues. Please enter a password that is shorter than 52 bytes, or longer than 55 bytes."
-msgstr ""
+msgstr "Įvestas slaptažodis gali kelti suderinamumo problemų. Parinkite slaptažodį, kuris būtų trumpesnis nei 52 baitai arba ilgesnis nei 55 baitai."
 
 #. F5rSU
 #: sfx2/inc/dinfdlg.hrc:27
@@ -2164,10 +2171,9 @@ msgstr "Rodyti"
 
 #. VDDCt
 #: sfx2/uiconfig/ui/bookmarkmenu.ui:26
-#, fuzzy
 msgctxt "bookmarkmenu|rename"
 msgid "Rename..."
-msgstr "Pervadinti..."
+msgstr "Pervadinti…"
 
 #. fCQ9n
 #: sfx2/uiconfig/ui/bookmarkmenu.ui:34
@@ -2197,7 +2203,7 @@ msgstr "Daugiau rašmenų…"
 #: sfx2/uiconfig/ui/charviewmenu.ui:12
 msgctxt "charviewmenu|clearchar"
 msgid "Remove"
-msgstr ""
+msgstr "Šalinti"
 
 #. bKHTP
 #: sfx2/uiconfig/ui/charviewmenu.ui:20

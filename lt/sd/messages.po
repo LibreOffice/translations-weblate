@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-11 16:49+0100\n"
-"PO-Revision-Date: 2019-07-23 20:34+0000\n"
+"PO-Revision-Date: 2020-01-24 17:12+0000\n"
 "Last-Translator: Modestas Rimkus <modestas.rimkus@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Lithuanian <https://weblate.documentfoundation.org/projects/libo_ui-6-3/sdmessages/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.9.1\n"
 "X-POOTLE-MTIME: 1563914045.000000\n"
 
 #. WDjkB
@@ -290,19 +290,19 @@ msgstr "Paslėpti stiliai"
 #: sd/inc/pageformatpanel.hrc:18
 msgctxt "RID_PAGEFORMATPANEL_MARGINS_INCH"
 msgid "None"
-msgstr ""
+msgstr "Nėra"
 
 #. eNMWm
 #: sd/inc/pageformatpanel.hrc:19
 msgctxt "RID_PAGEFORMATPANEL_MARGINS_INCH"
 msgid "Narrow"
-msgstr ""
+msgstr "Siauros"
 
 #. MHtci
 #: sd/inc/pageformatpanel.hrc:20
 msgctxt "RID_PAGEFORMATPANEL_MARGINS_INCH"
 msgid "Moderate"
-msgstr ""
+msgstr "Vidutinės"
 
 #. soUAG
 #: sd/inc/pageformatpanel.hrc:21
@@ -326,7 +326,7 @@ msgstr ""
 #: sd/inc/pageformatpanel.hrc:24
 msgctxt "RID_PAGEFORMATPANEL_MARGINS_INCH"
 msgid "Wide"
-msgstr ""
+msgstr "Plačios"
 
 #. J9o3y
 #: sd/inc/pageformatpanel.hrc:30
@@ -684,7 +684,7 @@ msgstr "Pavadinimas"
 #: sd/inc/strings.hrc:76
 msgctxt "STR_WARN_PAGE_EXISTS"
 msgid "The slide name already exists or is invalid. Please enter another name."
-msgstr "Toks lapo pavadinimas jau yra arba šis yra neteisingas. Įveskite kitą."
+msgstr "Toks skaidrės pavadinimas jau yra arba šis yra neteisingas. Įveskite kitą."
 
 #. ryfEt
 #: sd/inc/strings.hrc:77
@@ -738,13 +738,13 @@ msgstr "Sluoksnis"
 #: sd/inc/strings.hrc:85
 msgctxt "STR_UNDO_DELETEPAGES"
 msgid "Delete slides"
-msgstr "Šalinti lapus"
+msgstr "Šalinti skaidres"
 
 #. EQUBZ
 #: sd/inc/strings.hrc:86
 msgctxt "STR_UNDO_INSERTPAGES"
 msgid "Insert slides"
-msgstr "Įterpti lapus"
+msgstr "Įterpti skaidres"
 
 #. McvuV
 #: sd/inc/strings.hrc:87
@@ -980,7 +980,7 @@ msgstr "Keisti objektą „$“"
 #: sd/inc/strings.hrc:123
 msgctxt "STR_UNDO_MODIFY_PAGE"
 msgid "Slide layout"
-msgstr "Lapo maketas"
+msgstr "Skaidrės maketas"
 
 #. BFzyf
 #: sd/inc/strings.hrc:124
@@ -1501,7 +1501,7 @@ msgstr "Autorius"
 #: sd/inc/strings.hrc:211
 msgctxt "STR_HTMLEXP_EMAIL"
 msgid "Email"
-msgstr ""
+msgstr "El. paštas"
 
 #. pArSC
 #: sd/inc/strings.hrc:212
@@ -1649,7 +1649,7 @@ msgstr "Skaidrės pagrindo pavadinimas. Spustelėkite dešiniuoju klavišu, jei 
 #: sd/inc/strings.hrc:235
 msgctxt "STR_TITLE_RENAMESLIDE"
 msgid "Rename Slide"
-msgstr "Pervadinti lapą"
+msgstr "Pervadinti skaidrę"
 
 #. FUm5F
 #: sd/inc/strings.hrc:236
@@ -2122,6 +2122,7 @@ msgstr "Numatytieji"
 
 #. pxfDw
 #: sd/inc/strings.hrc:315
+#, fuzzy
 msgctxt "STR_UNDO_MOVEPAGES"
 msgid "Move slides"
 msgstr "Perkelti lapus"
