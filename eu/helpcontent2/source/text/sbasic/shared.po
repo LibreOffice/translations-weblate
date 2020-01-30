@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-06 13:08+0100\n"
-"PO-Revision-Date: 2020-01-27 18:58+0000\n"
+"PO-Revision-Date: 2020-01-30 12:37+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://weblate.documentfoundation.org/projects/libo_help-6-4/textsbasicshared/eu/>\n"
 "Language: eu\n"
@@ -26132,7 +26132,7 @@ msgctxt ""
 "par_id3125864\n"
 "help.text"
 msgid "When you convert a string expression, the date and time must be entered either in one of the date acceptance patterns defined for your locale setting (see <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - Language Settings - Languages</menuitem>) or in ISO date format (momentarily, only the ISO format with hyphens, e.g. \"2012-12-31\" is accepted). In numeric expressions, values to the left of the decimal represent the date, beginning from December 31, 1899. Values to the right of the decimal represent the time."
-msgstr ""
+msgstr "Kate-adierazpen bat bihurtzen denean, data eta ordua zure hizkuntzarako definitutako ereduetako batean eman behar da (ikus <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Hobespenak</menuitem></caseinline><defaultinline><menuitem>Tresnak - Aukerak</menuitem></defaultinline></switchinline><menuitem> - Hizkuntza-ezarpenak - Hizkuntzak</menuitem>) edo ISO data-formatu batean (momentuz, marratxoak dituen ISO formatua, \"2012-12-31\" alegia, soilik onartzen da). Zenbakizko adierazpenetan, dezimalaren ezkerrean dauden balioek data adierazten dute, 1899ko abenduaren 31n hasita. Dezimalaren eskuinean dauden balioak ordua dira."
 
 #. hCKkH
 #: 03100300.xhp
@@ -36680,7 +36680,7 @@ msgctxt ""
 "par_id3154923\n"
 "help.text"
 msgid "Addresses the active component whose properties can be read and set, and whose methods can be called. <literal>ThisComponent</literal> is used in Basic, where it represents the current document. Properties and methods available through <literal>ThisComponent</literal> depend on the document type."
-msgstr ""
+msgstr "Irakurriak eta ezarriak izan daitezkeen propietateak eta deituak izan daitezkeen metodoak dituen osagai aktiboa helbideratzen du.<literal>ThisComponent</literal> Basic lengoaian erabiltzen da eta uneko dokumentua ordezkatzen du. <literal>ThisComponent</literal> bidez erabilgarri dauden propietateak eta metodoak desberdinak dira dokumentu motaren arabera."
 
 #. 6Exm3
 #: 03132200.xhp
@@ -36788,7 +36788,7 @@ msgctxt ""
 "par_id3153524\n"
 "help.text"
 msgid "This function is intended for use in situations where the default Basic to Uno type converting mechanism is insufficient. This can happen when you try to access generic Any based interfaces, such as <literal>XPropertySet::setPropertyValue( Name, Value )</literal> or <literal>X???Container::insertBy???( ???, Value )</literal>, from $[officename] Basic. The Basic runtime does not recognize these types as they are only defined in the corresponding service."
-msgstr ""
+msgstr "Funtzio hau Basic eta UNO moten artean bihurtzeko mekanismoa aski ez denean erabiltzeko prestatu da. Hori gertatu daiteke Any oinarri duten interfaze orokorrak atzitzen saiatzean, adibidez <literal>XPropertySet::setPropertyValue( Izena, Balioa )</literal> or <literal>X???Container::insertBy???( ???, Balioa )</literal>, $[officename] Basic aplikaziotik. Basic exekuzio-garaiak ez ditu mota horiek ezagutzen eta bakoitzari dagokion zerbitzuak soilik daude definituta."
 
 #. TpSGK
 #: 03132300.xhp
@@ -36797,7 +36797,7 @@ msgctxt ""
 "par_id3154366\n"
 "help.text"
 msgid "In this type of situation, $[officename] Basic chooses the best matching type for the Basic type that you want to convert. However, if the wrong type is selected, an error occurs. You use the <literal>CreateUnoValue()</literal> function to create a value for the unknown Uno type."
-msgstr ""
+msgstr "Egoera horietan, $[officename] Basic-ek bat datorren motarik onena aukeratzen du bihurtu nahi den Basic motarako. Hala ere, mota okerra hautatzen bada, errorea gertatzen da. Erabili <literal>CreateUnoValue()</literal> funtzioa UNO mota ezezagunerako balio bat sortzeko."
 
 #. QxoCy
 #: 03132300.xhp
@@ -36806,7 +36806,7 @@ msgctxt ""
 "par_id3150769\n"
 "help.text"
 msgid "You can also use this function to pass non-Any values, but this is not recommend. If Basic already knows the target type, using the <literal>CreateUnoValue()</literal> function will only lead to additional converting operations that slow down the Basic execution."
-msgstr ""
+msgstr "Funtzio hori Any ez diren balioak pasatzeko ere erabili daiteke, baina ez da gomendagarria. Basic-ek dagoeneko ezagutzen badu helburuko mota, <literal>CreateUnoValue()</literal> funtzioa erabiltzeak bihurtze-eragiketa gehiago eragingo ditu eta moteldu egingo du Basic exekuzioa."
 
 #. yUCwp
 #: 03132400.xhp
@@ -39947,7 +39947,7 @@ msgctxt ""
 "par_id541561646705787\n"
 "help.text"
 msgid "Given a NOT empty directory at <emph>file:///home/me/Test</emph>"
-msgstr ""
+msgstr "Hutsik EZ dagoen <emph>file:///home/me/Test</emph> direktorio bat emanda"
 
 #. 7mLBk
 #: compatibilitymode.xhp
@@ -39956,7 +39956,7 @@ msgctxt ""
 "par_id461561646613414\n"
 "help.text"
 msgid "With <literal>CompatibilityMode( true )</literal> the program results in an error, otherwise the Test directory and all its content is deleted."
-msgstr ""
+msgstr "<literal>CompatibilityMode( true )</literal> funtzioarekin, programak errore bat ematen du, bestela 'Proba' direktorioa eta bere eduki guztiak ezabatu egingo dira."
 
 #. TcWG2
 #: compatibilitymode.xhp
@@ -39965,7 +39965,7 @@ msgctxt ""
 "par_id411561647797398\n"
 "help.text"
 msgid "Modifying <literal>Dir</literal> behavior"
-msgstr ""
+msgstr "<literal>Dir</literal> portaera aldatzea"
 
 #. S3VK4
 #: compatibilitymode.xhp
@@ -39974,7 +39974,7 @@ msgctxt ""
 "par_id831561647900147\n"
 "help.text"
 msgid "CompatibilityMode( true )   ' Shows also normal files"
-msgstr ""
+msgstr "CompatibilityMode( true )   ' Fitxategi normalak ere erakusten ditu"
 
 #. YJM4j
 #: compatibilitymode.xhp
@@ -39983,7 +39983,7 @@ msgctxt ""
 "N0129\n"
 "help.text"
 msgid "Refer to <link href=\"text/sbasic/python/python_platform.xhp\">Identifying the Operating System</link> and <link href=\"text/sbasic/python/python_session.xhp\">Getting Session Information</link> for <literal>Option Compatible</literal> simple examples, or <link href=\"text/sbasic/guide/access2base.xhp\">Access2Base shared Basic library</link> for other class examples making use of <literal>Option Compatible</literal> compiler mode."
-msgstr ""
+msgstr "Begiratu <link href=\"text/sbasic/python/python_platform.xhp\">Sistema eragilea identifikatzea</link> eta <link href=\"text/sbasic/python/python_session.xhp\">Saioaren informazioa eskuratzea</link> <literal>Option Compatible</literal> funtzioaren adibide sinpleak ikusteko, edo <link href=\"text/sbasic/guide/access2base.xhp\">Access2Base Basic liburutegi partekatua</link> <literal>Option Compatible</literal> konpilatzaile-moduaren adibide gehiago ikusteko."
 
 #. P7qDB
 #: compatibilitymode.xhp
@@ -39992,7 +39992,7 @@ msgctxt ""
 "N0131\n"
 "help.text"
 msgid "Variables scope modification in <link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures and Functions</link> with <literal>CompatibilityMode()</literal> function."
-msgstr ""
+msgstr "Aldagai-esparruen aldaketa <link href=\"text/sbasic/shared/01020300.xhp\">Prozedurak eta funtzioak erabiltzea</link> atalean <literal>CompatibilityMode()</literal> funtzioarekin."
 
 #. 8pEXC
 #: compatible.xhp
@@ -40010,7 +40010,7 @@ msgctxt ""
 "N0103\n"
 "help.text"
 msgid "<bookmark_value>Option Compatible</bookmark_value>        <bookmark_value>VBA compatibility option</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Option Compatible</bookmark_value>        <bookmark_value>VBA bateragarritasun-aukera</bookmark_value>"
 
 #. imVdb
 #: compatible.xhp
@@ -40028,7 +40028,7 @@ msgctxt ""
 "N0106\n"
 "help.text"
 msgid "<literal>Option Compatible</literal> turns on the VBA-compatible Basic compiler mode at the module level."
-msgstr ""
+msgstr "<literal>Option Compatible</literal> instrukzioak VBA bateragarria den Basic konpilatzaile modua aktibatzen du moduluen mailan."
 
 #. SNhhH
 #: compatible.xhp
@@ -40037,7 +40037,7 @@ msgctxt ""
 "par_id931561646897105\n"
 "help.text"
 msgid "The function <link href=\"text/sbasic/shared/compatibilitymode.xhp\" name=\"copatibilitymode\"><literal>CompatibilityMode()</literal></link> controls runtime mode and affects all code executed after setting or resetting the mode."
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/compatibilitymode.xhp\" name=\"copatibilitymode\"><literal>CompatibilityMode()</literal></link> funtzioak exekuzio-garaiko modua kontrolatzen du eta modua ezarri edo berrezarri ondoren exekutatzen den kode guztiari eragiten dio."
 
 #. w5NPC
 #: compatible.xhp
@@ -40055,7 +40055,7 @@ msgctxt ""
 "N0108\n"
 "help.text"
 msgid "Allow special characters as identifiers. all characters that are defined as                letter in the Latin-1 (ISO 8859-1) character set, are accepted                as part of identifiers."
-msgstr ""
+msgstr "Karaktere bereziak identifikatzaile izatea onartzen du.  Latin-1 (ISO 8859-1) karaktere-jokoan letra gisa definitutako karaktere guztiak onartzen dira identifikatzaileen ataltzat."
 
 #. iEB4s
 #: compatible.xhp
@@ -40064,7 +40064,7 @@ msgctxt ""
 "N0109\n"
 "help.text"
 msgid "Create <link href=\"text/sbasic/shared/03040000.xhp#addvbaconstants\" name=\"addvbaconstants\">VBA constants including non-printable characters</link>."
-msgstr ""
+msgstr "Sotrtu <link href=\"text/sbasic/shared/03040000.xhp#addvbaconstants\" name=\"addvbaconstants\">VBA konstanteak inprimagarriak ez diren karaktereak barne</link>."
 
 #. jGHBX
 #: compatible.xhp
@@ -40127,7 +40127,7 @@ msgctxt ""
 "hd_id231561639199292\n"
 "help.text"
 msgid "Special characters as identifiers"
-msgstr ""
+msgstr "Karaktere bereziak identifikatzaile gisa"
 
 #. JSWLJ
 #: compatible.xhp
@@ -40136,7 +40136,7 @@ msgctxt ""
 "par_id661561636654077\n"
 "help.text"
 msgid "Option Compatible' With this option the code works, other-"
-msgstr ""
+msgstr "Option Compatible' Aukera honekin kodea badabil, bestela"
 
 #. DmfMH
 #: compatible.xhp
@@ -40145,7 +40145,7 @@ msgctxt ""
 "par_id81561636660626\n"
 "help.text"
 msgid "' wise it will cause a compiling error"
-msgstr ""
+msgstr "konpilazio-errorea emango du"
 
 #. E6GpA
 #: compatible.xhp
@@ -40154,7 +40154,7 @@ msgctxt ""
 "par_id381561650119146\n"
 "help.text"
 msgid "Statement <literal>Option VBAsupport 1</literal> sets <literal>Option Compatible</literal> statement automatically."
-msgstr ""
+msgstr "<literal>Option VBAsupport 1</literal> instrukzioa erabilita, <literal>Option Compatible</literal> instrukzioa automatikoki ezartzen da."
 
 #. j8iHM
 #: compatible.xhp
@@ -40172,7 +40172,7 @@ msgctxt ""
 "N0129\n"
 "help.text"
 msgid "Refer to <link href=\"text/sbasic/python/python_platform.xhp\">Identifying the Operating System</link> and <link href=\"text/sbasic/python/python_session.xhp\">Getting Session Information</link> for  class module examples, or <link href=\"text/sbasic/guide/access2base.xhp\">Access2Base shared Basic library</link> for other class examples making use of <literal>Option Compatible</literal> compiler mode."
-msgstr ""
+msgstr "Begiratu <link href=\"text/sbasic/python/python_platform.xhp\">Sistema eragilea identifikatzea</link> eta <link href=\"text/sbasic/python/python_session.xhp\">Saioaren informazioa eskuratzea</link> klase-moduluen adibide ikusteko, edo <link href=\"text/sbasic/guide/access2base.xhp\">Access2Base Basic liburutegi partekatua</link> <literal>Option Compatible</literal> konpilatzaile-modua erabiltzen duten klaseen adibide gehiago ikusteko."
 
 #. 7pf8S
 #: enum.xhp
@@ -40262,7 +40262,7 @@ msgctxt ""
 "par_id731573636687662\n"
 "help.text"
 msgid "Enumerations can be extended to other data types using <link href=\"text/sbasic/shared/03090413.xhp\" name=\"Type statement\">Type statement</link> definitions. <link href=\"text/sbasic/guide/basic_2_python.xhp\" name=\"Calling Python Scripts from Basic\">Calling Python Scripts from Basic</link> illustrates that mechanism."
-msgstr ""
+msgstr "Enumerazioak beste datu mota batzuetara hedatu daitezke <link href=\"text/sbasic/shared/03090413.xhp\" name=\"Type statement\">Type instrukzioaren</link> definizioak erabilita. <link href=\"text/sbasic/guide/basic_2_python.xhp\" name=\"Calling Python Scripts from Basic\">Python scriptak Basic-etik deitzea</link> atalak mekanismo horren adibideak ditu."
 
 #. N48Xe
 #: enum.xhp
@@ -41045,7 +41045,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "StarDesktop object"
-msgstr ""
+msgstr "StarDesktop objektua"
 
 #. S5TDy
 #: stardesktop.xhp
@@ -41054,7 +41054,7 @@ msgctxt ""
 "N0089\n"
 "help.text"
 msgid "<bookmark_value>StarDesktop</bookmark_value>            <bookmark_value>API; Desktop</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>StarDesktop</bookmark_value>            <bookmark_value>APIa; mahaigaina</bookmark_value>"
 
 #. awFbD
 #: stardesktop.xhp
@@ -41063,7 +41063,7 @@ msgctxt ""
 "hd_id401544551916353\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/stardesktop.xhp\" name=\"StarDesktop\">StarDesktop object</link>"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/stardesktop.xhp\" name=\"StarDesktop\">StarDesktop objektua</link>"
 
 #. VZcw3
 #: stardesktop.xhp
@@ -41072,7 +41072,7 @@ msgctxt ""
 "N0091\n"
 "help.text"
 msgid "The <literal>StarDesktop</literal> object represents %PRODUCTNAME application. Some routines or user interface objects such as current window can be used via <literal>StarDesktop</literal>."
-msgstr ""
+msgstr "<literal>StarDesktop</literal> objektuak %PRODUCTNAME aplikazioa ordezkatzen du. <literal>StarDesktop</literal> bidez, zenbait errutina edo erabiltzaile-interfazeko objektu, adibidez uneko leihoa, erabili daitezke."
 
 #. iDmEB
 #: stardesktop.xhp
@@ -41126,7 +41126,7 @@ msgctxt ""
 "hd_id91572461246639\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/03131900.xhp#basicdialogs\" name=\"basicanddialog\">BasicLibraries Object</link>"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/03131900.xhp#basicdialogs\" name=\"basicanddialog\">BasicLibraries objektua</link>"
 
 #. PDDjd
 #: uno_objects.xhp
@@ -41135,7 +41135,7 @@ msgctxt ""
 "hd_id91572461246640\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/03131900.xhp#basicdialogs\" name=\"basicanddialog\">DialogLibraries Object</link>"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/03131900.xhp#basicdialogs\" name=\"basicanddialog\">DialogLibraries objektua</link>"
 
 #. 8GF88
 #: uno_objects.xhp
@@ -41144,7 +41144,7 @@ msgctxt ""
 "par_id81572615048011\n"
 "help.text"
 msgid "%PRODUCTNAME provides an Application Programming Interface (API) that allows controlling the $[officename] components with different programming languages by using the $[officename] Software Development Kit (SDK). For more information about the $[officename] API and the Software Development Kit, visit <link href=\"https://api.libreoffice.org/\" name=\"api.libreoffice.org\">https://api.libreoffice.org</link>"
-msgstr ""
+msgstr "%PRODUCTNAME aplikazioak Application Programming Interface (API) bat eskaintzen du $[officename] osagaiak programazio-lengoaien bidez kontrolatzeko, $[officename] Software Development Kit (SDK) erabilita. $[officename] APIari eta Software Development Kit tresnari buruzko informazio gehiagorako, begiratu <link href=\"https://api.libreoffice.org/\" name=\"api.libreoffice.org\">https://api.libreoffice.org</link>"
 
 #. V3Wow
 #: vbasupport.xhp
