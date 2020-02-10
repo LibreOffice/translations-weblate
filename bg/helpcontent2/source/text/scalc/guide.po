@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-01-17 16:45+0100\n"
+"POT-Creation-Date: 2020-02-10 17:54+0100\n"
 "PO-Revision-Date: 2020-01-24 14:47+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://weblate.documentfoundation.org/projects/libo_help-master/textscalcguide/bg/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: LibreOffice\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1562356865.000000\n"
 
@@ -9152,14 +9152,14 @@ msgctxt ""
 msgid "In A2 enter <literal>=A1+1</literal> (which correctly results in 101)."
 msgstr "В A2 въведете <literal>=A1+1</literal> (което дава правилния резултат 101)."
 
-#. aruhi
+#. MLL7F
 #: numbers_text.xhp
 msgctxt ""
 "numbers_text.xhp\n"
 "par_id891567607263849\n"
 "help.text"
-msgid "The formula <literal>=SUM(A1:A2)</literal>, returns 101 instead of 201 because the conversion does not occur in a range, only for single scalar values. Here, '1e2 is treated as string which has value 0 for the SUM function."
-msgstr "Формулата <literal>=SUM(A1:A2)</literal> връща 101 вместо 201, понеже преобразуването не се извършва в диапазон, а само за единични скаларни стойности. Тук '1e2 се интерпретира като низ, който за функцията SUM има стойност 0."
+msgid "The formula <literal>=SUM(A1:A2)</literal>, returns 101 instead of 201 because the conversion does not occur in a range, only for single scalar values. Here, '1e2 is treated as string which is ignored for the SUM function."
+msgstr ""
 
 #. hoF73
 #: numbers_text.xhp
@@ -13291,6 +13291,13 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "Това означава, че ако въведете 01.01.30 или дата с по-голяма година, тя ще бъде приета за 01.01.1930 г. или по-късна дата. Всички по-малки двуцифрени години ще се приемат за години от 21 век (започващи с 20). Например 01.01.20 се превръща в  01.01.2020 г."
+
+#~ msgctxt ""
+#~ "numbers_text.xhp\n"
+#~ "par_id891567607263849\n"
+#~ "help.text"
+#~ msgid "The formula <literal>=SUM(A1:A2)</literal>, returns 101 instead of 201 because the conversion does not occur in a range, only for single scalar values. Here, '1e2 is treated as string which has value 0 for the SUM function."
+#~ msgstr "Формулата <literal>=SUM(A1:A2)</literal> връща 101 вместо 201, понеже преобразуването не се извършва в диапазон, а само за единични скаларни стойности. Тук '1e2 се интерпретира като низ, който за функцията SUM има стойност 0."
 
 #~ msgctxt ""
 #~ "cellreferences.xhp\n"

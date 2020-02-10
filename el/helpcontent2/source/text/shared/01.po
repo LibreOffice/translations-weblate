@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-01-22 13:00+0100\n"
+"POT-Creation-Date: 2020-02-10 17:54+0100\n"
 "PO-Revision-Date: 2020-02-10 17:42+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Greek <https://weblate.documentfoundation.org/projects/libo_help-master/textshared01/el/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: LibreOffice\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1561544535.000000\n"
 
@@ -7739,14 +7739,14 @@ msgctxt ""
 msgid "Any character"
 msgstr "Οποιοσδήποτε χαρακτήρας"
 
-#. kJXwH
+#. gD8Gi
 #: 02100001.xhp
 msgctxt ""
 "02100001.xhp\n"
 "par_id9824518.00000001\n"
 "help.text"
-msgid "The given character unless it is a regular expression meta character, which follow in this table."
-msgstr "Ο δεδομένος χαρακτήρας, εκτός και είναι κανονική έκφραση μεταχαρακτήρα, που ακολουθεί σε αυτόν τον πίνακα."
+msgid "The given character, unless it is a regular expression meta character. The list of meta characters follows in this table."
+msgstr ""
 
 #. NoqA6
 #: 02100001.xhp
@@ -7827,9 +7827,7 @@ msgctxt ""
 "par_id3147209\n"
 "help.text"
 msgid "The special character that follows it is interpreted as a normal character and not as a regular expression meta character (except for the combinations \"\\n\", \"\\t\", \"\\b\", \"\\>\" and \"\\<\"). For example, \"tree\\.\" matches \"tree.\", not \"treed\" or \"trees\"."
-msgstr ""
-"Ο ειδικός χαρακτήρας που ακολουθεί, ερμηνεύεται ως κανονικός χαρακτήρας και όχι ως μεταχαρακτήρας κανονικής έκφρασης (εκτός από τους συνδυασμούς \"\\n"
-"\", \"\\t\", \"\\b\", \"\\>\" και \"\\<\"). Παραδείγματος χάρη, \"tree\\.\" ταιριάζει με \"tree.\", όχι με \"treed\" ή \"trees\"."
+msgstr "Ο ειδικός χαρακτήρας που ακολουθεί, ερμηνεύεται ως κανονικός χαρακτήρας και όχι ως μεταχαρακτήρας κανονικής έκφρασης (εκτός από τους συνδυασμούς \"\\n\", \"\\t\", \"\\b\", \"\\>\" και \"\\<\"). Παραδείγματος χάρη, \"tree\\.\" ταιριάζει με \"tree.\", όχι με \"treed\" ή \"trees\"."
 
 #. sDmtU
 #: 02100001.xhp
@@ -7856,9 +7854,7 @@ msgctxt ""
 "par_id631559575338134\n"
 "help.text"
 msgid "To change line breaks into paragraph breaks, enter \\n in both the <widget>Find</widget> and <widget>Replace</widget> boxes, and then perform a search and replace."
-msgstr ""
-"Για τροποποίηση αλλαγών γραμμής σε αλλαγές παραγράφου, εισάγετε \\n"
-" και στα δύο πλαίσια <widget>Εύρεση</widget> και <widget>Αντικατάσταση</widget> και έπειτα εκτελέστε αναζήτηση και αντικατάσταση."
+msgstr "Για τροποποίηση αλλαγών γραμμής σε αλλαγές παραγράφου, εισάγετε \\n και στα δύο πλαίσια <widget>Εύρεση</widget> και <widget>Αντικατάσταση</widget> και έπειτα εκτελέστε αναζήτηση και αντικατάσταση."
 
 #. UvYSH
 #: 02100001.xhp
@@ -8049,16 +8045,14 @@ msgctxt ""
 msgid "To group terms in a complex expression to be operated on by the post-fix operators: \"*\", \"+\" and \"?\" along with the post-fix repetition operators. For example, the regular expression \"a(bc)?d\" matches both \"ad\" and \"abcd\" in a search.; the regular expression \"M(iss){2}ippi\" matches \"Mississippi\"."
 msgstr "Για να ομαδοποιήσει όρους σε μια σύνθετη έκφραση που θα λειτουργήσει σε τελεστές επιθέματος: \"*\", \"+\" και \"?\" μαζί με τελεστές επανάληψης επιθέματος. Παραδείγματος χάρη, η κανονική έκφραση \"a(bc)?d\" ταιριάζει και με \"ad\" και με \"abcd\". Η κανονική έκφραση \"M(iss){2}ippi\" ταιριάζει με \"Mississippi\"."
 
-#. bpE22
+#. CAKwA
 #: 02100001.xhp
 msgctxt ""
 "02100001.xhp\n"
 "par_id801559576780692\n"
 "help.text"
-msgid "To record the matched sub string inside the parentheses as a reference for later use in the <widget>Find</widget> box using the \"\\n\" construct or in the <widget>Replace</widget> box using the \"$n\" construct, where the reference to the first matched sub string in the current expression is represented by \"\\1\" in the <widget>Find</widget> box and by \"$1\" in the <widget>Replace</widget> box, the reference to the second matched sub string by \"\\2\" and \"$2\" respectively, and so on."
+msgid "To record the matched sub string inside the parentheses as a reference for later use in the <widget>Find</widget> box using the \"\\n\" construct or in the <widget>Replace</widget> box using the \"$n\" construct. The reference to the first match is represented by \"\\1\" in the <widget>Find</widget> box and by \"$1\" in the <widget>Replace</widget> box. The reference to the second matched sub string by \"\\2\" and \"$2\" respectively, and so on."
 msgstr ""
-"Για να καταχωρίσει τη σύμφωνη υποσυμβολοσειρά μέσα στις παρενθέσεις ως αναφορά για μεταγενέστερη χρήση στο πλαίσιο <widget>Εύρεση</widget> χρησιμοποιώντας τη δομή \"\\n"
-"\" ή στο πλαίσιο <widget>Αντικατάσταση</widget> χρησιμοποιώντας τη δομή \"$n\", όπου η αναφορά στην πρώτη σύμφωνη υποσυμβολοσειρά στην τρέχουσα έκφραση αναπαριστάνεται από \"\\1\" στο πλαίσιο <widget>Εύρεση</widget> και με \"$1\" στο πλαίσιο <widget>Αντικατάσταση</widget>, η αναφορά στη δεύτερη σύμφωνη υποσυμβολοσειρά με \"\\2\" και \"$2\" αντίστοιχα, κ.ο.κ."
 
 #. ekwoG
 #: 02100001.xhp
@@ -26942,13 +26936,13 @@ msgctxt ""
 msgid "R, G and B"
 msgstr ""
 
-#. gNMXD
+#. EXXxZ
 #: 05210200.xhp
 msgctxt ""
 "05210200.xhp\n"
 "par_id691578758845984\n"
 "help.text"
-msgid "The red, blue and green components values of the new color. You can define the new color by entering the red, green and blue values in the respective <emph>R</emph>, <emph>G</emph> and <emph>B</emph> spin boxes.Allowed values are 0 to 255."
+msgid "The red, blue and green components values of the new color. You can define the new color by entering the red, green and blue values in the respective <emph>R</emph>, <emph>G</emph> and <emph>B</emph> spin boxes. Allowed values are 0 to 255."
 msgstr ""
 
 #. NAGAE
@@ -37904,14 +37898,14 @@ msgctxt ""
 msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\"><ahelp hid=\"cui/ui/numberingoptionspage/allsame\">Increases the numbering by one as you go down each level in the list hierarchy.</ahelp></caseinline></switchinline>"
 msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\"><ahelp hid=\"cui/ui/numberingoptionspage/allsame\">Αυξάνει την αρίθμηση κατά ένα όσο κατεβαίνετε κάθε επίπεδο στην ιεραρχία του καταλόγου.</ahelp></caseinline></switchinline>"
 
-#. mmVcK
+#. CwwFP
 #: 06050600.xhp
 msgctxt ""
 "06050600.xhp\n"
 "tit\n"
 "help.text"
-msgid "Position"
-msgstr "Θέση"
+msgid "Position (List Styles)"
+msgstr ""
 
 #. YCPm7
 #: 06050600.xhp
@@ -37922,23 +37916,14 @@ msgctxt ""
 msgid "<link href=\"text/shared/01/06050600.xhp\" name=\"Position\">Position</link>"
 msgstr "<link href=\"text/shared/01/06050600.xhp\" name=\"Θέση\">Θέση</link>"
 
-#. FVAXF
+#. 26wKr
 #: 06050600.xhp
 msgctxt ""
 "06050600.xhp\n"
 "par_id3158397\n"
 "help.text"
-msgid "Sets the indent, spacing, and alignment options for the numbered or bulleted list."
-msgstr "Ρυθμίζει τις επιλογές που αφορούν την εσοχή, την απόσταση και τη στοίχιση για τον κατάλογο με σύμβολα αρίθμησης ή κουκκίδες."
-
-#. 7BvVk
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"par_id5004119\n"
-"help.text"
-msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of LibreOffice), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space between numbering and text\", and \"Numbering alignment\"."
-msgstr "Η σελίδα καρτέλας θέσης φαίνεται διαφορετική για έγγραφα που χρησιμοποιούν τη νέα θέση και ιδιότητες διάκενου που μπήκαν με το OpenOffice.org 3.0 (και χρησιμοποιούνται σε όλες τις εκδόσεις του LibreOffice), ή έγγραφα που χρησιμοποιούν τις παλιές ιδιότητες από τις εκδόσεις πριν το 3.0. Η νέα έκδοση αυτής της σελίδας καρτέλας εμφανίζει τους ελέγχους \"Αρίθμηση ακολουθούμενη από\", \"Στοίχιση αρίθμησης\", \"Στοίχιση σε\" και \"εσοχή σε\". Η παλιά έκδοση αυτής της σελίδας καρτέλας που μπορεί να ιδωθεί σε μια λίστα παλιάς αρίθμησης ή κουκκίδων εμφανίζει τους ελέγχους \"Εσοχή\", \"Πλάτος αρίθμησης\", \"Ελάχιστος χώρος μεταξύ αρίθμησης και κειμένου\" και \"Στοίχιση αρίθμησης\"."
+msgid "<variable id=\"positioninfo\">Sets the indent, spacing, and alignment options for the numbered or bulleted list.</variable>"
+msgstr ""
 
 #. itRYD
 #: 06050600.xhp
@@ -37949,14 +37934,77 @@ msgctxt ""
 msgid "Level"
 msgstr "Επίπεδο"
 
-#. bQDWd
+#. icEv9
 #: 06050600.xhp
 msgctxt ""
 "06050600.xhp\n"
 "par_id3155755\n"
 "help.text"
-msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/levellb\">Select the level(s) that you want to modify.</ahelp>"
-msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/levellb\">Επιλέξτε το επίπεδο που θέλετε να τροποποιήσετε.</ahelp>"
+msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/levellb\">Select the level(s) that you want to modify.</ahelp> To apply the options to all the levels, select \"1-10\". In Chapter Numbering, only one level can be selected, or use \"1-10\" to apply the options, except Paragraph style, to all the levels."
+msgstr ""
+
+#. qAm3f
+#: 06050600.xhp
+msgctxt ""
+"06050600.xhp\n"
+"hd_id3149261\n"
+"help.text"
+msgid "Position and Spacing"
+msgstr ""
+
+#. AGzEA
+#: 06050600.xhp
+msgctxt ""
+"06050600.xhp\n"
+"par_id5004119\n"
+"help.text"
+msgid "This page shows the position controls used in all versions of %PRODUCTNAME Writer. Some documents (produced by other applications) use another method for positioning and spacing. Opening such documents will show the position controls documented in <link href=\"text/swriter/01/legacynumbering.xhp\" name=\"Legacy numbering alignment\">Position for List styles (legacy)</link>."
+msgstr ""
+
+#. 9zM7v
+#: 06050600.xhp
+msgctxt ""
+"06050600.xhp\n"
+"hd_id1619617\n"
+"help.text"
+msgid "Aligned at"
+msgstr "Στοίχιση σε"
+
+#. Y8sNo
+#: 06050600.xhp
+msgctxt ""
+"06050600.xhp\n"
+"par_id1015655\n"
+"help.text"
+msgid "<ahelp hid=\".\">Enter the distance from the left page margin at which the numbering symbol will be aligned.</ahelp>"
+msgstr "<ahelp hid=\".\">Εισάγετε την απόσταση από το αριστερό περιθώριο της σελίδα στο οποίο θα στοιχιθεί το σύμβολο αρίθμησης.</ahelp>"
+
+#. nv46o
+#: 06050600.xhp
+msgctxt ""
+"06050600.xhp\n"
+"hd_id3155583\n"
+"help.text"
+msgid "Numbering alignment"
+msgstr "Στοίχιση αρίθμησης"
+
+#. pGUa6
+#: 06050600.xhp
+msgctxt ""
+"06050600.xhp\n"
+"par_id3153063\n"
+"help.text"
+msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/numalignlb\">Set the alignment of the numbering symbols. Select \"Left\" to align the numbering symbol to start directly at the \"Aligned at\" position. Select \"Right\" to align the symbol to end directly before the \"Aligned at\" position. Select \"Centered\" to center the symbol around the \"Aligned at\" position.</ahelp>"
+msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/numalignlb\">Καθορίστε τη στοίχιση των συμβόλων αρίθμησης, Επιλέξτε \"Αριστερά\" για να στοιχίσετε το σύμβολο αρίθμησης απευθείας στην αρχή στην θέση \"Στοίχιση σε\". Επιλέξτε \"Δεξιά\" για να στοιχίσετε το σύμβολο απευθείας στο τέλος πριν την θέση \"Στοίχιση σε\". Επιλέξτε \"Στο κέντρο\" για να στοιχίσετε στο κέντρο το σύμβολο γύρω από την θέση \"Στοίχιση σε\".</ahelp>"
+
+#. 6iFTQ
+#: 06050600.xhp
+msgctxt ""
+"06050600.xhp\n"
+"par_id3147422\n"
+"help.text"
+msgid "The <emph>Numbering alignment</emph> option does not set the alignment of the paragraph."
+msgstr "Η επιλογή <emph>Στοίχιση αρίθμησης</emph> δεν ρυθμίζει τη στοίχιση της παραγράφου."
 
 #. gC8Sb
 #: 06050600.xhp
@@ -37994,51 +38042,6 @@ msgctxt ""
 msgid "<ahelp hid=\".\">If you select a tab stop to follow the numbering, you can enter a non-negative value as the tab stop position.</ahelp>"
 msgstr "<ahelp hid=\".\">Αν επιλέξτε ένα στηλοθέτη να ακολουθεί την αρίθμηση, μπορείτε να εισάγετε μια μη-αρνητική τιμή ως θέση του στηλοθέτη.</ahelp>"
 
-#. nv46o
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"hd_id3155583\n"
-"help.text"
-msgid "Numbering alignment"
-msgstr "Στοίχιση αρίθμησης"
-
-#. pGUa6
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"par_id3153063\n"
-"help.text"
-msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/numalignlb\">Set the alignment of the numbering symbols. Select \"Left\" to align the numbering symbol to start directly at the \"Aligned at\" position. Select \"Right\" to align the symbol to end directly before the \"Aligned at\" position. Select \"Centered\" to center the symbol around the \"Aligned at\" position.</ahelp>"
-msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/numalignlb\">Καθορίστε τη στοίχιση των συμβόλων αρίθμησης, Επιλέξτε \"Αριστερά\" για να στοιχίσετε το σύμβολο αρίθμησης απευθείας στην αρχή στην θέση \"Στοίχιση σε\". Επιλέξτε \"Δεξιά\" για να στοιχίσετε το σύμβολο απευθείας στο τέλος πριν την θέση \"Στοίχιση σε\". Επιλέξτε \"Στο κέντρο\" για να στοιχίσετε στο κέντρο το σύμβολο γύρω από την θέση \"Στοίχιση σε\".</ahelp>"
-
-#. 6iFTQ
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"par_id3147422\n"
-"help.text"
-msgid "The <emph>Numbering alignment</emph> option does not set the alignment of the paragraph."
-msgstr "Η επιλογή <emph>Στοίχιση αρίθμησης</emph> δεν ρυθμίζει τη στοίχιση της παραγράφου."
-
-#. 9zM7v
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"hd_id1619617\n"
-"help.text"
-msgid "Aligned at"
-msgstr "Στοίχιση σε"
-
-#. Y8sNo
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"par_id1015655\n"
-"help.text"
-msgid "<ahelp hid=\".\">Enter the distance from the left page margin at which the numbering symbol will be aligned.</ahelp>"
-msgstr "<ahelp hid=\".\">Εισάγετε την απόσταση από το αριστερό περιθώριο της σελίδα στο οποίο θα στοιχιθεί το σύμβολο αρίθμησης.</ahelp>"
-
 #. DkBCH
 #: 06050600.xhp
 msgctxt ""
@@ -38057,78 +38060,6 @@ msgctxt ""
 msgid "<ahelp hid=\".\">Enter the distance from the left page margin to the start of all lines in the numbered paragraph that follow the first line.</ahelp>"
 msgstr "<ahelp hid=\".\">Εισάγετε την απόσταση από το αριστερό περιθώριο της σελίδας στην αρχή όλων των γραμμών στην αριθμημένη παράγραφο που ακολουθεί την πρώτη γραμμή.</ahelp>"
 
-#. FhBjz
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"hd_id3154422\n"
-"help.text"
-msgid "Indent"
-msgstr "Εσοχή"
-
-#. DBHiu
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"par_id3144438\n"
-"help.text"
-msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/numdistmf\">Enter the amount of space to leave between the left page margin (or the left edge of the text object) and the left edge of the numbering symbol. If the current paragraph style uses an indent, the amount you enter here is added to the indent.</ahelp>"
-msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/numdistmf\">Εισάγετε το πλήθος των διαστημάτων που θα αφεθούν ανάμεσα στο αριστερό περιθώριο της σελίδας (ή το αριστερό άκρο του κειμένου) και το αριστερό άκρο του συμβόλου αρίθμησης. Αν το τρέχον πρότυπο παραγράφου χρησιμοποιεί εσοχή, το πλήθος που εισάγετε εδώ προστίθεται στην εσοχή.</ahelp>"
-
-#. 7vL9h
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"hd_id3155179\n"
-"help.text"
-msgid "Relative"
-msgstr "Σχετικό"
-
-#. FJjJT
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"par_id3146137\n"
-"help.text"
-msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/relative\">Indents the current level relative to the previous level in the list hierarchy.</ahelp>"
-msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/relative\">Δημιουργεί εσοχή στο τρέχον επίπεδο ανάλογα με το προηγούμενο επίπεδο στον κατάλογο ιεράρχησης.</ahelp>"
-
-#. SrdEB
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"hd_id3150245\n"
-"help.text"
-msgid "Width of numbering"
-msgstr "Πλάτος αρίθμησης"
-
-#. EEtmD
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"par_id3150129\n"
-"help.text"
-msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/indentatmf\">Enter the amount of space to leave between the left edge of the numbering symbol and the left edge of the text.</ahelp>"
-msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/indentatmf\">Εισάγετε το πλήθος των διαστημάτων που θα υπάρχουν ανάμεσα στο δεξί άκρο του συμβόλου αρίθμησης και το αριστερό άκρο του κειμένου.</ahelp>"
-
-#. cREaC
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"hd_id3156194\n"
-"help.text"
-msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Minimum space between numbering and text</caseinline></switchinline>"
-msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Ελάχιστη απόσταση αρίθμησης και κειμένου </caseinline></switchinline>"
-
-#. 6Ahkp
-#: 06050600.xhp
-msgctxt ""
-"06050600.xhp\n"
-"par_id3147574\n"
-"help.text"
-msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\"><ahelp hid=\"modules/swriter/ui/outlinepositionpage/numdistmf\">Enter the minimum amount of space to leave between the right edge of the numbering symbol and the left edge of the text.</ahelp></caseinline></switchinline>"
-msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\"><ahelp hid=\"modules/swriter/ui/outlinepositionpage/numdistmf\">Εισάγετε το ελάχιστο πλήθος διαστημάτων που θα αφεθούν ανάμεσα στο δεξί άκρο του χαρακτήρα αρίθμησης και το αριστερό άκρο του κειμένου.</ahelp></caseinline></switchinline>"
-
 #. B9fGG
 #: 06050600.xhp
 msgctxt ""
@@ -38146,6 +38077,24 @@ msgctxt ""
 "help.text"
 msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/standard\">Resets the indent and the spacing values to the default values.</ahelp>"
 msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/standard\">Επαναφέρει τις τιμές απόστασης και εσοχής στις προεπιλεγμένες τιμές.</ahelp>"
+
+#. w6GEQ
+#: 06050600.xhp
+msgctxt ""
+"06050600.xhp\n"
+"par_id3116348\n"
+"help.text"
+msgid "This control appears only when modifying Paragraph style."
+msgstr ""
+
+#. XV3ZK
+#: 06050600.xhp
+msgctxt ""
+"06050600.xhp\n"
+"par_id3116228\n"
+"help.text"
+msgid "<link href=\"text/swriter/01/legacynumbering.xhp\" name=\"Legacy numbering alignment\">Position for List styles (legacy)</link>"
+msgstr ""
 
 #. G6S8m
 #: 06050600.xhp
@@ -50566,6 +50515,104 @@ msgctxt ""
 "help.text"
 msgid "<ahelp hid=\".\">Specifies the maximum number of characters for a string.</ahelp>"
 msgstr "<ahelp hid=\".\">Προσδιορίζει το μέγιστο αριθμό χαρακτήρων για μία ακολουθία.</ahelp>"
+
+#~ msgctxt ""
+#~ "02100001.xhp\n"
+#~ "par_id9824518.00000001\n"
+#~ "help.text"
+#~ msgid "The given character unless it is a regular expression meta character, which follow in this table."
+#~ msgstr "Ο δεδομένος χαρακτήρας, εκτός και είναι κανονική έκφραση μεταχαρακτήρα, που ακολουθεί σε αυτόν τον πίνακα."
+
+#~ msgctxt ""
+#~ "02100001.xhp\n"
+#~ "par_id801559576780692\n"
+#~ "help.text"
+#~ msgid "To record the matched sub string inside the parentheses as a reference for later use in the <widget>Find</widget> box using the \"\\n\" construct or in the <widget>Replace</widget> box using the \"$n\" construct, where the reference to the first matched sub string in the current expression is represented by \"\\1\" in the <widget>Find</widget> box and by \"$1\" in the <widget>Replace</widget> box, the reference to the second matched sub string by \"\\2\" and \"$2\" respectively, and so on."
+#~ msgstr "Για να καταχωρίσει τη σύμφωνη υποσυμβολοσειρά μέσα στις παρενθέσεις ως αναφορά για μεταγενέστερη χρήση στο πλαίσιο <widget>Εύρεση</widget> χρησιμοποιώντας τη δομή \"\\n\" ή στο πλαίσιο <widget>Αντικατάσταση</widget> χρησιμοποιώντας τη δομή \"$n\", όπου η αναφορά στην πρώτη σύμφωνη υποσυμβολοσειρά στην τρέχουσα έκφραση αναπαριστάνεται από \"\\1\" στο πλαίσιο <widget>Εύρεση</widget> και με \"$1\" στο πλαίσιο <widget>Αντικατάσταση</widget>, η αναφορά στη δεύτερη σύμφωνη υποσυμβολοσειρά με \"\\2\" και \"$2\" αντίστοιχα, κ.ο.κ."
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "Position"
+#~ msgstr "Θέση"
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "par_id3158397\n"
+#~ "help.text"
+#~ msgid "Sets the indent, spacing, and alignment options for the numbered or bulleted list."
+#~ msgstr "Ρυθμίζει τις επιλογές που αφορούν την εσοχή, την απόσταση και τη στοίχιση για τον κατάλογο με σύμβολα αρίθμησης ή κουκκίδες."
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "par_id5004119\n"
+#~ "help.text"
+#~ msgid "The Position tab page looks different for documents using the new position and spacing attributes introduced with OpenOffice.org 3.0 (and used in all versions of LibreOffice), or documents using the old attributes from versions before 3.0. The new version of this tab page shows the controls \"Numbering followed by\", \"Numbering alignment\", \"Aligned at\", and \"Indent at\". The old version of this tab page that can be seen in an old numbered or bulleted list shows the controls \"Indent\", \"Width of numbering\", \"Minimum space between numbering and text\", and \"Numbering alignment\"."
+#~ msgstr "Η σελίδα καρτέλας θέσης φαίνεται διαφορετική για έγγραφα που χρησιμοποιούν τη νέα θέση και ιδιότητες διάκενου που μπήκαν με το OpenOffice.org 3.0 (και χρησιμοποιούνται σε όλες τις εκδόσεις του LibreOffice), ή έγγραφα που χρησιμοποιούν τις παλιές ιδιότητες από τις εκδόσεις πριν το 3.0. Η νέα έκδοση αυτής της σελίδας καρτέλας εμφανίζει τους ελέγχους \"Αρίθμηση ακολουθούμενη από\", \"Στοίχιση αρίθμησης\", \"Στοίχιση σε\" και \"εσοχή σε\". Η παλιά έκδοση αυτής της σελίδας καρτέλας που μπορεί να ιδωθεί σε μια λίστα παλιάς αρίθμησης ή κουκκίδων εμφανίζει τους ελέγχους \"Εσοχή\", \"Πλάτος αρίθμησης\", \"Ελάχιστος χώρος μεταξύ αρίθμησης και κειμένου\" και \"Στοίχιση αρίθμησης\"."
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "par_id3155755\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/levellb\">Select the level(s) that you want to modify.</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/levellb\">Επιλέξτε το επίπεδο που θέλετε να τροποποιήσετε.</ahelp>"
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "hd_id3154422\n"
+#~ "help.text"
+#~ msgid "Indent"
+#~ msgstr "Εσοχή"
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "par_id3144438\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/numdistmf\">Enter the amount of space to leave between the left page margin (or the left edge of the text object) and the left edge of the numbering symbol. If the current paragraph style uses an indent, the amount you enter here is added to the indent.</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/numdistmf\">Εισάγετε το πλήθος των διαστημάτων που θα αφεθούν ανάμεσα στο αριστερό περιθώριο της σελίδας (ή το αριστερό άκρο του κειμένου) και το αριστερό άκρο του συμβόλου αρίθμησης. Αν το τρέχον πρότυπο παραγράφου χρησιμοποιεί εσοχή, το πλήθος που εισάγετε εδώ προστίθεται στην εσοχή.</ahelp>"
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "hd_id3155179\n"
+#~ "help.text"
+#~ msgid "Relative"
+#~ msgstr "Σχετικό"
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "par_id3146137\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/relative\">Indents the current level relative to the previous level in the list hierarchy.</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/relative\">Δημιουργεί εσοχή στο τρέχον επίπεδο ανάλογα με το προηγούμενο επίπεδο στον κατάλογο ιεράρχησης.</ahelp>"
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "hd_id3150245\n"
+#~ "help.text"
+#~ msgid "Width of numbering"
+#~ msgstr "Πλάτος αρίθμησης"
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "par_id3150129\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/indentatmf\">Enter the amount of space to leave between the left edge of the numbering symbol and the left edge of the text.</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/swriter/ui/outlinepositionpage/indentatmf\">Εισάγετε το πλήθος των διαστημάτων που θα υπάρχουν ανάμεσα στο δεξί άκρο του συμβόλου αρίθμησης και το αριστερό άκρο του κειμένου.</ahelp>"
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "hd_id3156194\n"
+#~ "help.text"
+#~ msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Minimum space between numbering and text</caseinline></switchinline>"
+#~ msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Ελάχιστη απόσταση αρίθμησης και κειμένου </caseinline></switchinline>"
+
+#~ msgctxt ""
+#~ "06050600.xhp\n"
+#~ "par_id3147574\n"
+#~ "help.text"
+#~ msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\"><ahelp hid=\"modules/swriter/ui/outlinepositionpage/numdistmf\">Enter the minimum amount of space to leave between the right edge of the numbering symbol and the left edge of the text.</ahelp></caseinline></switchinline>"
+#~ msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\"><ahelp hid=\"modules/swriter/ui/outlinepositionpage/numdistmf\">Εισάγετε το ελάχιστο πλήθος διαστημάτων που θα αφεθούν ανάμεσα στο δεξί άκρο του χαρακτήρα αρίθμησης και το αριστερό άκρο του κειμένου.</ahelp></caseinline></switchinline>"
 
 #~ msgctxt ""
 #~ "01020001.xhp\n"
