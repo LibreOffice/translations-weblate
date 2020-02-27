@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LibreOffice 6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2019-12-06 13:08+0100\n"
+"POT-Creation-Date: 2020-02-27 12:57+0100\n"
 "PO-Revision-Date: 2019-07-02 16:17+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: sl.libreoffice.org\n"
@@ -31355,14 +31355,14 @@ msgctxt ""
 msgid "String"
 msgstr "String"
 
-#. WECKF
+#. 4nv5b
 #: 03120102.xhp
 msgctxt ""
 "03120102.xhp\n"
 "par_id3149295\n"
 "help.text"
-msgid "<emph>Expression:</emph> a numeric expression that represents a valid 8-bit ASCII value (0-255) or a 16-bit Unicode value."
-msgstr "<emph>Izraz:</emph> numerični izraz, ki predstavlja veljavno 8-bitno vrednost ASCII (0-255) ali pa 16-bitno vrednost Unicode."
+msgid "<emph>Expression:</emph> a numeric expression that represents a valid 8-bit ASCII value (0-255) or a 16-bit Unicode value. (To support expressions with a nominally negative argument like <emph>Chr(&H8000)</emph> in a backwards-compatible way, values in the range −32768 to −1 are internally mapped to the range 32768 to 65535.)"
+msgstr ""
 
 #. RKtSB
 #: 03120102.xhp
@@ -31904,14 +31904,14 @@ msgctxt ""
 msgid "String"
 msgstr "String"
 
-#. HiXHs
+#. WzBnm
 #: 03120112.xhp
 msgctxt ""
 "03120112.xhp\n"
 "par_id3149295\n"
 "help.text"
-msgid "<emph>Expression:</emph> Numeric variables that represent a valid 16 bit Unicode value (0-65535). An empty value returns error code 5. A value out of the range [0,65535] returns error code 6."
-msgstr "<emph>Izraz:</emph> numerične spremenljivke, ki predstavljajo veljavno 16-bitno vrednost za Unicode (0-65535). Prazna vrednost vrne kodo napake 5. Vrednost zunaj obsega [0,65535] vrne kodo napake 6."
+msgid "<emph>Expression:</emph> Numeric variables that represent a valid 16 bit Unicode value (0-65535). (To support expressions with a nominally negative argument like <emph>ChrW(&H8000)</emph> in a backwards-compatible way, values in the range −32768 to −1 are internally mapped to the range 32768 to 65535.) An empty value returns error code 5. A value out of the range [0,65535] returns error code 6."
+msgstr ""
 
 #. 8DF8a
 #: 03120112.xhp
@@ -41263,6 +41263,20 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">Razvojno okolje %PRODUCTNAME Basic</link>"
+
+#~ msgctxt ""
+#~ "03120102.xhp\n"
+#~ "par_id3149295\n"
+#~ "help.text"
+#~ msgid "<emph>Expression:</emph> a numeric expression that represents a valid 8-bit ASCII value (0-255) or a 16-bit Unicode value."
+#~ msgstr "<emph>Izraz:</emph> numerični izraz, ki predstavlja veljavno 8-bitno vrednost ASCII (0-255) ali pa 16-bitno vrednost Unicode."
+
+#~ msgctxt ""
+#~ "03120112.xhp\n"
+#~ "par_id3149295\n"
+#~ "help.text"
+#~ msgid "<emph>Expression:</emph> Numeric variables that represent a valid 16 bit Unicode value (0-65535). An empty value returns error code 5. A value out of the range [0,65535] returns error code 6."
+#~ msgstr "<emph>Izraz:</emph> numerične spremenljivke, ki predstavljajo veljavno 16-bitno vrednost za Unicode (0-65535). Prazna vrednost vrne kodo napake 5. Vrednost zunaj obsega [0,65535] vrne kodo napake 6."
 
 #~ msgctxt ""
 #~ "compatible.xhp\n"
