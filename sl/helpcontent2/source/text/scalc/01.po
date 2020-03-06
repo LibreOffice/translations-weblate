@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LibreOffice 6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-02-10 17:54+0100\n"
+"POT-Creation-Date: 2020-03-06 11:45+0100\n"
 "PO-Revision-Date: 2019-11-05 12:07+0000\n"
 "Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
 "Language-Team: Slovenian <https://vm137.documentfoundation.org/projects/libo_help-master/textscalc01/sl/>\n"
@@ -4724,32 +4724,32 @@ msgctxt ""
 msgid "The following items are the parameter definitions for all database functions:"
 msgstr "Sledijo definicije parametrov vseh funkcij zbirk podatkov:"
 
-#. kD27S
+#. GJ7fw
 #: 04060101.xhp
 msgctxt ""
 "04060101.xhp\n"
 "par_id3149453\n"
 "help.text"
-msgid "<emph>Database</emph> is the cell range defining the database."
-msgstr "<emph>Zbirka_podatkov</emph> je obseg celic, ki definirajo zbirko podatkov."
+msgid "<emph>Database</emph> is the cell range defining the database. The first row of the range contains the field names, and following rows are records with corresponding field values."
+msgstr ""
 
-#. c5WNY
+#. aZFWB
 #: 04060101.xhp
 msgctxt ""
 "04060101.xhp\n"
 "par_id3151272\n"
 "help.text"
-msgid "<emph>DatabaseField</emph> specifies the column where the function operates on after the search criteria of the first parameter is applied and the data rows are selected. It is not related to the search criteria itself. <variable id=\"quotes\">For the DatabaseField parameter you can enter a reference to a header cell or a number to specify the column within the Database area, starting with 1. To reference a column by means of the literal column header name, place quotation marks around the header name.</variable>"
-msgstr "Potem ko se uveljavijo iskalni pogoji prvega parametra in so izbrane vrstice s podatki, <emph>polje_zbirke_podatkov</emph> določi, v katerem stolpcu bo funkcija operirala. Polje ni povezano s samimi iskalnimi pogoji. Ves obseg podatkov lahko določite s številom 0. <variable id=\"quotes\">Če hočete za sklicevanje na stolpec uporabiti ime glave stolpca, dajte ime glave v narekovaje.</variable>"
+msgid "<emph>DatabaseField</emph> specifies the column where the function operates on after the search criteria of the first parameter is applied and the data rows are selected. It is not related to the search criteria itself. <variable id=\"quotes\">For the DatabaseField parameter you can enter a reference to a header cell or a number to specify the column within the Database area, starting with 1. To reference a column by means of the literal column header name (from the first row of <emph>Database</emph> range), place quotation marks around the header name.</variable>"
+msgstr ""
 
-#. TA67U
+#. UwQMN
 #: 04060101.xhp
 msgctxt ""
 "04060101.xhp\n"
 "par_id3147083\n"
 "help.text"
-msgid "<emph>SearchCriteria</emph> is the cell range containing search criteria. If you write several criteria in one row they are connected by AND. If you write the criteria in different rows they are connected by OR. Empty cells in the search criteria range will be ignored."
-msgstr "<emph>Iskalni_pogoji</emph> pomenijo obseg celic, ki vsebuje pogoje iskanja. Če v isto vrstico vpišete več pogojev, bodo med seboj povezani z AND. Če pogoje vpišete v različne vrstice, bodo povezani z OR. Prazne celice v iskalnih pogojih ne bodo upoštevane."
+msgid "<emph>SearchCriteria</emph> is the cell range containing search criteria. Like <emph>Database</emph>, its first row is also field names, and following rows are conditions for related fields. If you write several criteria in one row they are connected by AND. If you write the criteria in different rows they are connected by OR. Empty cells in the search criteria range will be ignored."
+msgstr ""
 
 #. k58yy
 #: 04060101.xhp
@@ -67273,6 +67273,27 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Stran wiki o izvorni kodi XML\">Stran wiki o izvorni kodi XML</link>"
+
+#~ msgctxt ""
+#~ "04060101.xhp\n"
+#~ "par_id3149453\n"
+#~ "help.text"
+#~ msgid "<emph>Database</emph> is the cell range defining the database."
+#~ msgstr "<emph>Zbirka_podatkov</emph> je obseg celic, ki definirajo zbirko podatkov."
+
+#~ msgctxt ""
+#~ "04060101.xhp\n"
+#~ "par_id3151272\n"
+#~ "help.text"
+#~ msgid "<emph>DatabaseField</emph> specifies the column where the function operates on after the search criteria of the first parameter is applied and the data rows are selected. It is not related to the search criteria itself. <variable id=\"quotes\">For the DatabaseField parameter you can enter a reference to a header cell or a number to specify the column within the Database area, starting with 1. To reference a column by means of the literal column header name, place quotation marks around the header name.</variable>"
+#~ msgstr "Potem ko se uveljavijo iskalni pogoji prvega parametra in so izbrane vrstice s podatki, <emph>polje_zbirke_podatkov</emph> določi, v katerem stolpcu bo funkcija operirala. Polje ni povezano s samimi iskalnimi pogoji. Ves obseg podatkov lahko določite s številom 0. <variable id=\"quotes\">Če hočete za sklicevanje na stolpec uporabiti ime glave stolpca, dajte ime glave v narekovaje.</variable>"
+
+#~ msgctxt ""
+#~ "04060101.xhp\n"
+#~ "par_id3147083\n"
+#~ "help.text"
+#~ msgid "<emph>SearchCriteria</emph> is the cell range containing search criteria. If you write several criteria in one row they are connected by AND. If you write the criteria in different rows they are connected by OR. Empty cells in the search criteria range will be ignored."
+#~ msgstr "<emph>Iskalni_pogoji</emph> pomenijo obseg celic, ki vsebuje pogoje iskanja. Če v isto vrstico vpišete več pogojev, bodo med seboj povezani z AND. Če pogoje vpišete v različne vrstice, bodo povezani z OR. Prazne celice v iskalnih pogojih ne bodo upoštevane."
 
 #~ msgctxt ""
 #~ "02120000.xhp\n"
