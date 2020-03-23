@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-07-11 18:38+0200\n"
-"PO-Revision-Date: 2019-11-27 11:52+0000\n"
+"PO-Revision-Date: 2020-03-23 08:18+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Hebrew <https://weblate.documentfoundation.org/projects/libo_ui-6-3/uuimessages/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.10.3\n"
 "X-POOTLE-MTIME: 1574855535.000000\n"
 
 #. DLY8p
@@ -64,13 +64,13 @@ msgid ""
 "\n"
 "Are you certain that this file is a legacy document created many years ago?"
 msgstr ""
-"זהירות!\n"
+"אזהרה!\n"
 "\n"
-"פעולה זו תטען סוג קובץ חריג ביותר ($(ARG2)) מהכתובת:\n"
+"פעולה זו תטען קובץ מסוג מוזר ($(ARG2)) מהכתובת:\n"
 "\n"
 "$(ARG1)\n"
 "\n"
-"האם ידוע לך בבטחה כי מדובר במסמך מיושן שנוצר לפני שנים רבות?"
+"האם לדעתך אכן מדובר בקובץ מיושן שנוצר לפני שנים רבות?"
 
 #. v6bPE
 #: uui/inc/ids.hrc:39
@@ -367,12 +367,12 @@ msgid ""
 "\n"
 "Should %PRODUCTNAME repair the file?\n"
 msgstr ""
-"הקובץ '$(ARG1)' הושחת ולכן לא ניתן לפתיחה. ל־%PRODUCTNAME יש אפשרות לנסות לתקן את הקובץ.\n"
+"הקובץ ‚$(ARG1)’ פגום ולכן לא ניתן לפתיחה. %PRODUCTNAME יכול לנסות לתקן את הקובץ.\n"
 "\n"
-"ההשחתה יכולה להיות תוצאה של עיבוד המסמך או נזק למבנה שלו כתוצאה משידור המידע.\n"
+"הפגם יכול להיות תוצאה של עיבוד המסמך או נזק למבנה שלו כתוצאה משידור הנתונים.\n"
 "\n"
-"אנו ממליצים שלא תסמוך על התוכן של המסמך המתוקן.\n"
-"הרצת סקריפטים של מאקרו מבוטלת עבור מסמך זה.\n"
+"אנו ממליצים שלא לסמוך על תוכן המסמך המתוקן.\n"
+"הרצה של סקריפטי מקרו מבוטלת עבור מסמך זה.\n"
 "\n"
 "האם על %PRODUCTNAME לתקן את הקובץ?\n"
 
@@ -592,9 +592,9 @@ msgid ""
 "\n"
 "Open document read-only, or ignore own file locking and open the document for editing."
 msgstr ""
-"קובץ המסמך ‚$(ARG1)’ נעול מפני עריכה במערכת אחרת מאז $(ARG2)\n"
+"קובץ המסמך ‚$(ARG1)’ ננעל לעריכה על ידיך דרך מערכת אחרת מאז $(ARG2)\n"
 "\n"
-"ניתן לפתוח את המסמך לקריאה בלבד או להתעלם מנעילת קובץ עצמית ולפתוח את המסמך לעריכה."
+"ניתן לפתוח את הקובץ לקריאה בלבד או להתעלם מנעילת הקובץ שביקשת ולפתוח את המסמך לעריכה."
 
 #. 8mKMg
 #: uui/inc/strings.hrc:35
@@ -616,9 +616,9 @@ msgid ""
 "\n"
 "Close document on other system and retry saving or ignore own file locking and save current document."
 msgstr ""
-"קובץ המסמך ‚$(ARG1)’ נעול מפני עריכה במערכת אחרת מאז $(ARG2)\n"
+"קובץ המסמך ‚$(ARG1)’ ננעל לעריכה על ידיך דרך מערכת אחרת מאז $(ARG2)\n"
 "\n"
-"יש לסגור את המסמך במערכת אחרת ולנסות לשמור שוב או להתעלם מנעילת קובץ עצמית ולשמור את המסמך הנוכחי."
+"יש לסגור את המסמך במערכת האחרת ולנסות לשמור שוב או להתעלם מהנעילה העצמית שיצרת ולשמור את המסמך הנוכחי."
 
 #. ZCJGW
 #: uui/inc/strings.hrc:38
@@ -660,7 +660,7 @@ msgstr "לא ניתן לנעול את המסמך"
 #: uui/inc/strings.hrc:46
 msgctxt "STR_LOCKFAILED_MSG"
 msgid "The lock file could not be created for exclusive access by %PRODUCTNAME, due to missing permission to create a lock file on that file location or lack of free disk space."
-msgstr "לא ניתן ליצור את קובץ הנעילה לטובת גישה ייחודית על ידי %PRODUCTNAME, עקב הרשאות שחסרות ליצירת קובץ נעילה במיקום הזה או מחסור במקום פנוי."
+msgstr "לא ניתן לנעול את הקובץ לגישה בלעדית על ידי %PRODUCTNAME, עקב הרשאות חסרות ליצירת קובץ נעילה לקובץ במיקומו של קובץ זה או שחסר מקום פנוי בכונן."
 
 #. CaBXF
 #: uui/inc/strings.hrc:47
@@ -684,11 +684,11 @@ msgid ""
 "\n"
 "Open document read-only or open a copy of the document for editing.$(ARG3)"
 msgstr ""
-"קובץ המסמך ‚$(ARG1)’ נעול מפני עריכה על ידי:\n"
+"קובץ המסמך ‚$(ARG1)’ ננעל לעריכה על ידי:\n"
 "\n"
 "$(ARG2)\n"
 "\n"
-"נא לפתוח את הקובץ לקריאה בלבד או לפתוח עותק של הקובץ לעריכה.$(ARG3)"
+"ניתן לפתוח את המסמך לקריאה בלבד או לפתוח עותק של המסמך לעריכה.$(ARG3)"
 
 #. VF7vT
 #: uui/inc/strings.hrc:51
@@ -698,7 +698,7 @@ msgid ""
 "You may also ignore the file locking and open the document for editing."
 msgstr ""
 "\n"
-"ניתן גם להתעלם מנעילת הקובץ ולפתוח את המסמך לעריכה."
+"ניתן להתעלם מנעילת הקובץ ולפתוח את המסמך לעריכה."
 
 #. tc7YZ
 #: uui/inc/strings.hrc:52
@@ -732,9 +732,9 @@ msgid ""
 "\n"
 "Do you want to save anyway?"
 msgstr ""
-"הקובץ השתנה מאז שנפתח לעריכה ב־%PRODUCTNAME. שמירת הגרסה שלך של המסמך תדרוס את השינויים שנעשו על ידי אחרים.\n"
+"הקובץ נערך מאז שנפתח לעריכה באמצעות %PRODUCTNAME. שמירת הגרסה שלך של המסמך תשכתב את השינויים שנערכו על ידי אחרים.\n"
 "\n"
-"לשמור בכל מקרה?"
+"לשמור בכל זאת?"
 
 #. DGYmK
 #: uui/inc/strings.hrc:58
