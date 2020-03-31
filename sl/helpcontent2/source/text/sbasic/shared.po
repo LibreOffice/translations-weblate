@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LibreOffice 6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-03-06 11:45+0100\n"
+"POT-Creation-Date: 2020-03-31 10:34+0200\n"
 "PO-Revision-Date: 2019-07-02 16:17+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: sl.libreoffice.org\n"
@@ -2645,158 +2645,149 @@ msgctxt ""
 msgid "To display a certain module in the Editor or to position the cursor in a selected SUB or FUNCTION, double click on the corresponding entry."
 msgstr "Če želite prikazati določen modul v urejevalniku ali postaviti kazalko v izbrano proceduro ali funkcijo, dvokliknite ustrezen vnos."
 
-#. FEF3a
+#. hVrnu
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "tit\n"
 "help.text"
-msgid "Using Procedures and Functions"
-msgstr "Uporaba procedur in funkcij"
+msgid "Using Procedures, Functions or Properties"
+msgstr ""
 
-#. BPbU2
+#. 6jwBY
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "bm_id3149456\n"
 "help.text"
-msgid "<bookmark_value>procedures</bookmark_value>  <bookmark_value>functions;using</bookmark_value>  <bookmark_value>variables;passing to procedures and functions</bookmark_value>  <bookmark_value>parameters;for procedures and functions</bookmark_value>  <bookmark_value>parameters;passing by reference or value</bookmark_value>  <bookmark_value>variables;scope</bookmark_value>  <bookmark_value>scope of variables</bookmark_value>  <bookmark_value>GLOBAL variables</bookmark_value>  <bookmark_value>PUBLIC variables</bookmark_value>  <bookmark_value>PRIVATE variables</bookmark_value>  <bookmark_value>functions;return value type</bookmark_value>  <bookmark_value>return value type of functions</bookmark_value>"
-msgstr "<bookmark_value>procedure</bookmark_value><bookmark_value>funkcije;uporaba</bookmark_value><bookmark_value>spremenljivke;podajanje proceduram in funkcijam</bookmark_value><bookmark_value>parametri; procedure in funkcije</bookmark_value><bookmark_value>parametri; podajanje vrednosti ali sklica</bookmark_value><bookmark_value>spremenljivke;doseg</bookmark_value><bookmark_value>doseg spremenljivk</bookmark_value><bookmark_value>spremenljivke GLOBAL</bookmark_value><bookmark_value>spremenljivke PUBLIC</bookmark_value><bookmark_value>spremenljivke PRIVATE</bookmark_value><bookmark_value>funkcije;vrsta vrnjenih vrednosti</bookmark_value><bookmark_value>vrsta vrnjenih vrednosti funkcij</bookmark_value>"
+msgid "<bookmark_value>procedures</bookmark_value>  <bookmark_value>functions;using</bookmark_value>  <bookmark_value>variables;passing to procedures, functions, properties</bookmark_value>  <bookmark_value>parameters;for procedures, functions or properties</bookmark_value>  <bookmark_value>parameters;passing by reference or value</bookmark_value>  <bookmark_value>variables;scope</bookmark_value>  <bookmark_value>scope of variables</bookmark_value>  <bookmark_value>GLOBAL variables</bookmark_value>  <bookmark_value>PUBLIC variables</bookmark_value>  <bookmark_value>PRIVATE variables</bookmark_value>  <bookmark_value>functions;return value type</bookmark_value>  <bookmark_value>return value type of functions</bookmark_value>"
+msgstr ""
 
-#. yionm
+#. AYcBA
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3149456\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures and Functions</link>"
-msgstr "<link href=\"text/sbasic/shared/01020300.xhp\">Uporaba procedur in funkcij</link>"
+msgid "<link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures, Functions and Properties</link>"
+msgstr ""
 
-#. MZaKH
+#. DSyYW
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3150767\n"
 "help.text"
-msgid "The following describes the basic use of procedures and functions in $[officename] Basic."
-msgstr "Sledi opis osnov pri uporabi procedur in funkcij v $[officename] Basicu."
+msgid "The following describes the basic use of procedures, functions and properties in %PRODUCTNAME Basic."
+msgstr ""
 
-#. XjrdK
+#. Jsg3r
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3151215\n"
 "help.text"
-msgid "When you create a new module, $[officename] Basic automatically inserts a SUB called \"Main\". This default name has nothing to do with the order or the starting point of a $[officename] Basic project. You can also safely rename this SUB."
-msgstr "Kadar začenjate nov modul, $[officename] Basic samodejno vstavi SUB z imenom »Main«. To privzeto ime nima nikakršne zveze z razvrstitvijo ali začetno točko znotraj projekta v $[officename] Basic. Skratka, ta SUB lahko mirno preimenujete."
+msgid "When you create a new module, %PRODUCTNAME Basic automatically inserts a <literal>Sub</literal> called \"<literal>Main</literal>\". This default name has nothing to do with the order or the starting point of a %PRODUCTNAME Basic project. You can also safely rename this <literal>Sub</literal>routine."
+msgstr ""
 
-#. gBGwp
+#. NBySN
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id314756320\n"
 "help.text"
-msgid "Some restrictions apply for the names of your public variables, subs, and functions. You must not use the same name as one of the modules of the same library."
-msgstr "Pri poimenovanju javnih spremenljivk, procedur in funkcij veljajo določene omejitve. Ne smete uporabljati imen, ki so enaka imenom modulov v isti knjižnici."
+msgid "Some restrictions apply for the names of your public variables, subroutines, functions and properties. You must not use the same name as one of the modules of the same library."
+msgstr ""
 
-#. 9BCPY
+#. EB6uP
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3154124\n"
 "help.text"
-msgid "Procedures (SUBS) and functions (FUNCTIONS) help you maintaining a structured overview by separating a program into logical pieces."
-msgstr "Procedure (SUBS) in funkcije (FUNCTIONS) omogočajo, da z delitvijo programa v logične enote ohranite strukturiran pregled nad njim."
+msgid "Procedures (<literal>Sub</literal>routines) functions (<literal>Function</literal>) and properties (<literal>Property</literal>) help you maintaining a structured overview by separating a program into logical pieces."
+msgstr ""
 
-#. MEnjF
+#. UXRyF
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3153193\n"
 "help.text"
-msgid "One benefit of procedures and functions is that, once you have developed a program code containing task components, you can use this code in another project."
-msgstr "Ena od koristi, ki jo imate zaradi procedur in funkcij, je tudi, da lahko programsko kodo, ki ste jo razvili za sestavne dele vaše naloge, uporabljate tudi kasneje v drugih projektih."
+msgid "One benefit of procedures, functions and properties is that, once you have developed a program code containing task components, you can use this code in another project."
+msgstr ""
 
-#. RRGcf
+#. EZYXi
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3153770\n"
 "help.text"
-msgid "Passing Variables to Procedures (SUB) and Functions (FUNCTION)"
-msgstr "Podajanje spremenljivk proceduram (SUB) in funkcijam (FUNCTION)"
+msgid "Passing Variables to Procedures, Functions or Properties"
+msgstr ""
 
-#. EBt2H
+#. v9JPn
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3155414\n"
 "help.text"
-msgid "Variables can be passed to both procedures and functions. The SUB or FUNCTION must be declared to expect parameters:"
-msgstr "Spremenljivke lahko podajate tako proceduram kot tudi funkcijam. SUB ali FUNCTION morate ustrezno deklarirati, tako da pričakuje parametre:"
+msgid "Variables can be passed to both procedures, functions or properties. The <literal>Sub</literal> <literal>Function</literal> or <literal>Property</literal> must be declared to expect parameters:"
+msgstr ""
 
-#. zqJQF
+#. BUURm
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3151114\n"
 "help.text"
-msgid "Program code"
-msgstr "Koda programa"
+msgid "' your code goes here"
+msgstr ""
 
-#. AZFAK
+#. BG6rr
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3152577\n"
 "help.text"
-msgid "The SUB is called using the following syntax:"
-msgstr "SUB se potem uporablja z naslednjo skladnjo:"
+msgid "The <literal>Sub</literal> is called using the following syntax:"
+msgstr ""
 
-#. ZNaQd
+#. 5SdpG
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3147124\n"
 "help.text"
-msgid "The parameters passed to a SUB must fit to those specified in the SUB declaration."
-msgstr "Kar se vrste parametrov, podanih SUB, tiče, morajo po vrsti ustrezati definiciji SUB."
+msgid "The parameters passed to a <literal>Sub</literal> must fit to those specified in the <literal>Sub</literal> declaration."
+msgstr ""
 
-#. WCghM
+#. Zxxix
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3147397\n"
 "help.text"
-msgid "The same process applies to FUNCTIONS. In addition, functions always return a function result. The result of a function is defined by assigning the return value to the function name:"
-msgstr "Isti proces velja tudi za funkcije. Funkcije poleg tega vrnejo vrednost. Rezultat funkcije se definira tako, da se imenu funkcije pripiše želena vrednost:"
+msgid "The same process applies to a <literal>Function</literal>. In addition, functions always return a function result. The result of a function is defined by assigning the return value to the function name:"
+msgstr ""
 
-#. qEdLG
+#. uhFkG
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3156284\n"
 "help.text"
-msgid "Program code"
-msgstr "Koda programa"
+msgid "' your code goes here"
+msgstr ""
 
-#. rGBQg
-#: 01020300.xhp
-msgctxt ""
-"01020300.xhp\n"
-"par_id3145799\n"
-"help.text"
-msgid "FunctionName=Result"
-msgstr "ImeFunkcije=Rezultat"
-
-#. FJDDJ
+#. TwrZp
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3153839\n"
 "help.text"
-msgid "The FUNCTION is called using the following syntax:"
-msgstr "Funkcijo (FUNCTION) kličemo z naslednjo skladnjo:"
+msgid "The <literal>Function</literal> is called using the following syntax:"
+msgstr ""
 
 #. yBxwK
 #: 01020300.xhp
@@ -2807,14 +2798,50 @@ msgctxt ""
 msgid "Variable=FunctionName(Parameter1, Parameter2,...)"
 msgstr "Spremenljivka=ImeFunkcije(Parameter1, Parameter2,...)"
 
-#. C63og
+#. 33Sss
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id981584288549909\n"
+"help.text"
+msgid "Properties combine the syntax of procedures and functions. A property usually requires up to one parameter."
+msgstr ""
+
+#. QCQAn
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id961584288948497\n"
+"help.text"
+msgid "' your code goes here"
+msgstr ""
+
+#. meaRY
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id921584288951588\n"
+"help.text"
+msgid "' your code goes here"
+msgstr ""
+
+#. 257BA
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id3153389\n"
+"help.text"
+msgid "The <literal>Property</literal> is called using the following syntax:"
+msgstr ""
+
+#. DLdom
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_idN107B3\n"
 "help.text"
-msgid "You can also use the fully qualified name to call a procedure or function:<br/> <item type=\"literal\">Library.Module.Macro()</item> <br/> For example, to call the Autotext macro from the Gimmicks library, use the following command:<br/> <item type=\"literal\">Gimmicks.AutoText.Main()</item>"
-msgstr "Za klic procedure ali funkcije lahko uporabljate tudi polno kvalificirano ime:<br/><item type=\"literal\">Knjižnica.Modul.Makro()</item><br/> Če želite npr. uporabiti makro Samobesedilo iz knjižnice PredlogeZaPisma, vnesite naslednji ukaz:<br/><item type=\"literal\">PredlogeZaPisma.Samobesedilo.Main()</item>"
+msgid "You can also use the fully qualified name to call a procedure, function or property:<br/> <literal>Library.Module.Macro()</literal> <br/> For example, to call the Autotext macro from the Gimmicks library, use the following command:<br/> <item type=\"literal\">Gimmicks.AutoText.Main()</item>"
+msgstr ""
 
 #. 2xj8g
 #: 01020300.xhp
@@ -2825,41 +2852,113 @@ msgctxt ""
 msgid "Passing Variables by Value or Reference"
 msgstr "Podajanje spremenljivk kot vrednosti ali sklicev"
 
-#. 9u3qj
+#. d2PgC
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3155765\n"
 "help.text"
-msgid "Parameters can be passed to a SUB or a FUNCTION either by reference or by value. Unless otherwise specified, a parameter is always passed by reference. That means that a SUB or a FUNCTION gets the parameter and can read and modify its value."
-msgstr "Parametre lahko SUB ali FUNCTION podaja kot vrednosti ali kot sklic. Če drugače ni navedeno, se parameter vedno poda kot sklic. To pomeni, da SUB ali FUNCTION parameter prevzame in da njegovo vrednost lahko bere in spreminja."
+msgid "Parameters can be passed to a procedure, a function or a property either by reference or by value. Unless otherwise specified, a parameter is always passed by reference. That means that a <literal>Sub</literal>, a <literal>Function</literal> or a <literal>Property</literal> gets the parameter and can read and modify its value."
+msgstr ""
 
-#. kwAaU
+#. uk84S
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3145640\n"
 "help.text"
-msgid "If you want to pass a parameter by value insert the key word \"ByVal\" in front of the parameter when you call a SUB or FUNCTION, for example:"
-msgstr "Če želite parameter podati samo kot vrednost, je morate pri klicu SUB ali FUNCTION pred parameter vstaviti ključni izraz »ByVal«. Primer:"
+msgid "If you want to pass a parameter by value insert the key word <literal>ByVal</literal> in front of the parameter when you call a <literal>Sub</literal>, a <literal>Function</literal> or a <literal>Property</literal>, for example:"
+msgstr ""
 
-#. BQ2AC
+#. Vzu4F
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3150042\n"
 "help.text"
-msgid "Result = Function(ByVal Parameter)"
-msgstr "Rezultat = Funkcija(ByVal Parameter)"
+msgid "Function ReadOnlyParms(ByVal p2, ByVal p2)"
+msgstr ""
 
-#. w6j4F
+#. pojXe
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id81584367761978\n"
+"help.text"
+msgid "' your code goes here"
+msgstr ""
+
+#. MGPNc
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id131584367516784\n"
+"help.text"
+msgid "End Function"
+msgstr ""
+
+#. bz6EJ
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id801584367475787\n"
+"help.text"
+msgid "result = ReadOnlyParms(parm1, parm2)"
+msgstr ""
+
+#. WF4ND
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3149258\n"
 "help.text"
-msgid "In this case, the original content of the parameter will not be modified by the FUNCTION since it only gets the value and not the parameter itself."
-msgstr "V tem primeru se vrednost spremenljivke, ki je parameter, po opravljenem klicu ne bo spremenila, ne glede na to, kaj se z njo v funkciji dogaja; funkcija dobi na razpolago samo vrednost parametra, vendar ne sklica nanjo."
+msgid "In this case, the original content of the parameter will not be modified by the <literal>Function</literal> since it only gets the value and not the parameter itself."
+msgstr ""
+
+#. AEhBY
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"hd_id161584366585035\n"
+"help.text"
+msgid "Defining Optional Parameters"
+msgstr ""
+
+#. 4Ghzx
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id31584367006971\n"
+"help.text"
+msgid "Functions, procedures or properties can be defined with optional parameters, for example:"
+msgstr ""
+
+#. qBTxH
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id761584366669997\n"
+"help.text"
+msgid "Sub Rounding(number, Optional decimals, Optional format)"
+msgstr ""
+
+#. JKj8y
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id111584366809406\n"
+"help.text"
+msgid "' your code goes here"
+msgstr ""
+
+#. NtvTc
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id251584366745722\n"
+"help.text"
+msgid "End Sub"
+msgstr ""
 
 #. EHCCS
 #: 01020300.xhp
@@ -2870,23 +2969,23 @@ msgctxt ""
 msgid "Scope of Variables"
 msgstr "Doseg spremenljivk"
 
-#. ACpw7
+#. LDC8M
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3149814\n"
 "help.text"
-msgid "A variable defined within a SUB or FUNCTION, only remains valid until the procedure is exited. This is known as a \"local\" variable. In many cases, you need a variable to be valid in all procedures, in every module of all libraries, or after a SUB or FUNCTION is exited."
-msgstr "Spremenljivka, ki ste jo definirali znotraj SUB ali FUNCTION, bo veljala samo toliko časa, dokler procedure ni konec. Spremenljivki zato rečemo, da je »lokalna«. V mnogo primerih potrebujete spremenljivko, ki je veljavna v vseh procedurah, v vseh modulih vseh knjižnic in/ali po izhodu iz določene procedure ali funkcije."
+msgid "A variable defined within a <literal>Sub</literal>, a <literal>Function</literal> or a <literal>Property</literal>, only remains valid until the procedure is exited. This is known as a \"local\" variable. In many cases, you need a variable to be valid in all procedures, in every module of all libraries, or after a <literal>Sub</literal>, a <literal>Function</literal> or a <literal>Property</literal> is exited."
+msgstr ""
 
-#. pJBLq
+#. pVU4G
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3154186\n"
 "help.text"
-msgid "Declaring Variables Outside a SUB or FUNCTION"
-msgstr "Deklariranje spremenljivk izven SUB ali FUNCTION"
+msgid "Declaring Variables Outside a <literal>Sub</literal> a <literal>Function</literal> or a <literal>Property</literal>"
+msgstr ""
 
 #. Q3jEW
 #: 01020300.xhp
@@ -2897,14 +2996,14 @@ msgctxt ""
 msgid "Global VarName As TYPENAME"
 msgstr "Global ImeSpr As IMEVRSTE"
 
-#. YZx8i
+#. 5JwAY
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3145258\n"
 "help.text"
-msgid "The variable is valid as long as the $[officename] session lasts."
-msgstr "Spremenljivka je veljavna toliko časa, kolikor dolgo traja seja $[officename]."
+msgid "The variable is valid as long as the %PRODUCTNAME session lasts."
+msgstr ""
 
 #. CSDs2
 #: 01020300.xhp
@@ -2969,14 +3068,14 @@ msgctxt ""
 msgid "Example for private variables"
 msgstr "Primer zasebne spremenljivke"
 
-#. aBAXu
+#. mGb2g
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id8738975\n"
 "help.text"
-msgid "Enforce private variables to be private across modules by setting CompatibilityMode(true)."
-msgstr "Vsili zasebnost spremenljivke v vseh modulih z nastavitvijo CompatibilityMode(true)."
+msgid "Enforce private variables to be private across modules by setting <literal>CompatibilityMode(True)</literal>."
+msgstr ""
 
 #. 8dZEJ
 #: 01020300.xhp
@@ -3023,14 +3122,14 @@ msgctxt ""
 msgid "Print \"Now in module2 : \", myText"
 msgstr "Print \"Zdaj v modulu2: \", mojeBesedilo"
 
-#. fEECM
+#. iExop
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3154368\n"
 "help.text"
-msgid "Saving Variable Content after Exiting a SUB or FUNCTION"
-msgstr "Shranjevanje vsebine spremenljivke po zaključku SUB ali FUNCTION"
+msgid "Saving Variable Content after Exiting a <literal>Sub</literal> a <literal>Function</literal> or a <literal>Property</literal>"
+msgstr ""
 
 #. qV9Bm
 #: 01020300.xhp
@@ -3041,32 +3140,59 @@ msgctxt ""
 msgid "Static VarName As TYPENAME"
 msgstr "Static ImeSpr As IMEVRSTE"
 
-#. iWJLu
+#. hAB34
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3154486\n"
 "help.text"
-msgid "The variable retains its value until the next time the FUNCTION or SUB is entered. The declaration must exist inside a SUB or a FUNCTION."
-msgstr "Spremenljivka ohrani svojo vrednost do naslednjega klica FUNCTION ali SUB. Deklaracija se mora nahajati znotraj SUB ali FUNCTION"
+msgid "The variable retains its value until the next time the a <literal>Function</literal>, <literal>Sub</literal> or <literal>Property</literal> is entered. The declaration must exist inside a <literal>Sub</literal>, a <literal>Function</literal> or a <literal>Property</literal>."
+msgstr ""
 
-#. x7TCE
+#. 9inFk
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3155809\n"
 "help.text"
-msgid "Specifying the Return Value Type of a FUNCTION"
-msgstr "Določitev vrste vrednosti, ki jo vrača FUNCTION"
+msgid "Specifying the Return Value Type of a <literal>Function</literal> or a <literal>Property</literal>"
+msgstr ""
 
-#. BqFmH
+#. BjLGj
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3149404\n"
 "help.text"
-msgid "As with variables, include a type-declaration character after the function name, or the type indicated by \"As\" and the corresponding key word at the end of the parameter list to define the type of the function's return value, for example:"
-msgstr "Ko pri spremenljivkah uporabite tudi pri funkcijah znak za deklaracijo vrste z imenom funkcije, ali pa vrsto za ključno besedo »As« in pa ustrezno ključno besedo na koncu seznama parametrov – z njo določite, kakšne vrste je rezultat, ki ga funkcija vrača. Primer:"
+msgid "As with variables, include a type-declaration character after the function name, or the type indicated by <literal>As</literal> and the corresponding data type at the end of the parameter list to define the type of the function or property's return value, for example:"
+msgstr ""
+
+#. t7xWM
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"N0237\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/03104100.xhp\" name=\"Optional keyword\">Optional keyword</link>"
+msgstr ""
+
+#. JCc9m
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"N0238\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/property.xhp\" name=\"Property Statement\">Property Statement</link>"
+msgstr ""
+
+#. CcJXo
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"N0239\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/03103500.xhp\" name=\"Static Statement\">Static Statement</link>"
+msgstr ""
 
 #. HrqsB
 #: 01020500.xhp
@@ -41479,6 +41605,216 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">Razvojno okolje %PRODUCTNAME Basic</link>"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "Using Procedures and Functions"
+#~ msgstr "Uporaba procedur in funkcij"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "bm_id3149456\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>procedures</bookmark_value>  <bookmark_value>functions;using</bookmark_value>  <bookmark_value>variables;passing to procedures and functions</bookmark_value>  <bookmark_value>parameters;for procedures and functions</bookmark_value>  <bookmark_value>parameters;passing by reference or value</bookmark_value>  <bookmark_value>variables;scope</bookmark_value>  <bookmark_value>scope of variables</bookmark_value>  <bookmark_value>GLOBAL variables</bookmark_value>  <bookmark_value>PUBLIC variables</bookmark_value>  <bookmark_value>PRIVATE variables</bookmark_value>  <bookmark_value>functions;return value type</bookmark_value>  <bookmark_value>return value type of functions</bookmark_value>"
+#~ msgstr "<bookmark_value>procedure</bookmark_value><bookmark_value>funkcije;uporaba</bookmark_value><bookmark_value>spremenljivke;podajanje proceduram in funkcijam</bookmark_value><bookmark_value>parametri; procedure in funkcije</bookmark_value><bookmark_value>parametri; podajanje vrednosti ali sklica</bookmark_value><bookmark_value>spremenljivke;doseg</bookmark_value><bookmark_value>doseg spremenljivk</bookmark_value><bookmark_value>spremenljivke GLOBAL</bookmark_value><bookmark_value>spremenljivke PUBLIC</bookmark_value><bookmark_value>spremenljivke PRIVATE</bookmark_value><bookmark_value>funkcije;vrsta vrnjenih vrednosti</bookmark_value><bookmark_value>vrsta vrnjenih vrednosti funkcij</bookmark_value>"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3149456\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures and Functions</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/01020300.xhp\">Uporaba procedur in funkcij</link>"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3150767\n"
+#~ "help.text"
+#~ msgid "The following describes the basic use of procedures and functions in $[officename] Basic."
+#~ msgstr "Sledi opis osnov pri uporabi procedur in funkcij v $[officename] Basicu."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3151215\n"
+#~ "help.text"
+#~ msgid "When you create a new module, $[officename] Basic automatically inserts a SUB called \"Main\". This default name has nothing to do with the order or the starting point of a $[officename] Basic project. You can also safely rename this SUB."
+#~ msgstr "Kadar začenjate nov modul, $[officename] Basic samodejno vstavi SUB z imenom »Main«. To privzeto ime nima nikakršne zveze z razvrstitvijo ali začetno točko znotraj projekta v $[officename] Basic. Skratka, ta SUB lahko mirno preimenujete."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id314756320\n"
+#~ "help.text"
+#~ msgid "Some restrictions apply for the names of your public variables, subs, and functions. You must not use the same name as one of the modules of the same library."
+#~ msgstr "Pri poimenovanju javnih spremenljivk, procedur in funkcij veljajo določene omejitve. Ne smete uporabljati imen, ki so enaka imenom modulov v isti knjižnici."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3154124\n"
+#~ "help.text"
+#~ msgid "Procedures (SUBS) and functions (FUNCTIONS) help you maintaining a structured overview by separating a program into logical pieces."
+#~ msgstr "Procedure (SUBS) in funkcije (FUNCTIONS) omogočajo, da z delitvijo programa v logične enote ohranite strukturiran pregled nad njim."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3153193\n"
+#~ "help.text"
+#~ msgid "One benefit of procedures and functions is that, once you have developed a program code containing task components, you can use this code in another project."
+#~ msgstr "Ena od koristi, ki jo imate zaradi procedur in funkcij, je tudi, da lahko programsko kodo, ki ste jo razvili za sestavne dele vaše naloge, uporabljate tudi kasneje v drugih projektih."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3153770\n"
+#~ "help.text"
+#~ msgid "Passing Variables to Procedures (SUB) and Functions (FUNCTION)"
+#~ msgstr "Podajanje spremenljivk proceduram (SUB) in funkcijam (FUNCTION)"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3155414\n"
+#~ "help.text"
+#~ msgid "Variables can be passed to both procedures and functions. The SUB or FUNCTION must be declared to expect parameters:"
+#~ msgstr "Spremenljivke lahko podajate tako proceduram kot tudi funkcijam. SUB ali FUNCTION morate ustrezno deklarirati, tako da pričakuje parametre:"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3151114\n"
+#~ "help.text"
+#~ msgid "Program code"
+#~ msgstr "Koda programa"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3152577\n"
+#~ "help.text"
+#~ msgid "The SUB is called using the following syntax:"
+#~ msgstr "SUB se potem uporablja z naslednjo skladnjo:"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3147124\n"
+#~ "help.text"
+#~ msgid "The parameters passed to a SUB must fit to those specified in the SUB declaration."
+#~ msgstr "Kar se vrste parametrov, podanih SUB, tiče, morajo po vrsti ustrezati definiciji SUB."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3147397\n"
+#~ "help.text"
+#~ msgid "The same process applies to FUNCTIONS. In addition, functions always return a function result. The result of a function is defined by assigning the return value to the function name:"
+#~ msgstr "Isti proces velja tudi za funkcije. Funkcije poleg tega vrnejo vrednost. Rezultat funkcije se definira tako, da se imenu funkcije pripiše želena vrednost:"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3156284\n"
+#~ "help.text"
+#~ msgid "Program code"
+#~ msgstr "Koda programa"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3145799\n"
+#~ "help.text"
+#~ msgid "FunctionName=Result"
+#~ msgstr "ImeFunkcije=Rezultat"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3153839\n"
+#~ "help.text"
+#~ msgid "The FUNCTION is called using the following syntax:"
+#~ msgstr "Funkcijo (FUNCTION) kličemo z naslednjo skladnjo:"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_idN107B3\n"
+#~ "help.text"
+#~ msgid "You can also use the fully qualified name to call a procedure or function:<br/> <item type=\"literal\">Library.Module.Macro()</item> <br/> For example, to call the Autotext macro from the Gimmicks library, use the following command:<br/> <item type=\"literal\">Gimmicks.AutoText.Main()</item>"
+#~ msgstr "Za klic procedure ali funkcije lahko uporabljate tudi polno kvalificirano ime:<br/><item type=\"literal\">Knjižnica.Modul.Makro()</item><br/> Če želite npr. uporabiti makro Samobesedilo iz knjižnice PredlogeZaPisma, vnesite naslednji ukaz:<br/><item type=\"literal\">PredlogeZaPisma.Samobesedilo.Main()</item>"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3155765\n"
+#~ "help.text"
+#~ msgid "Parameters can be passed to a SUB or a FUNCTION either by reference or by value. Unless otherwise specified, a parameter is always passed by reference. That means that a SUB or a FUNCTION gets the parameter and can read and modify its value."
+#~ msgstr "Parametre lahko SUB ali FUNCTION podaja kot vrednosti ali kot sklic. Če drugače ni navedeno, se parameter vedno poda kot sklic. To pomeni, da SUB ali FUNCTION parameter prevzame in da njegovo vrednost lahko bere in spreminja."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3145640\n"
+#~ "help.text"
+#~ msgid "If you want to pass a parameter by value insert the key word \"ByVal\" in front of the parameter when you call a SUB or FUNCTION, for example:"
+#~ msgstr "Če želite parameter podati samo kot vrednost, je morate pri klicu SUB ali FUNCTION pred parameter vstaviti ključni izraz »ByVal«. Primer:"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3150042\n"
+#~ "help.text"
+#~ msgid "Result = Function(ByVal Parameter)"
+#~ msgstr "Rezultat = Funkcija(ByVal Parameter)"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3149258\n"
+#~ "help.text"
+#~ msgid "In this case, the original content of the parameter will not be modified by the FUNCTION since it only gets the value and not the parameter itself."
+#~ msgstr "V tem primeru se vrednost spremenljivke, ki je parameter, po opravljenem klicu ne bo spremenila, ne glede na to, kaj se z njo v funkciji dogaja; funkcija dobi na razpolago samo vrednost parametra, vendar ne sklica nanjo."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3149814\n"
+#~ "help.text"
+#~ msgid "A variable defined within a SUB or FUNCTION, only remains valid until the procedure is exited. This is known as a \"local\" variable. In many cases, you need a variable to be valid in all procedures, in every module of all libraries, or after a SUB or FUNCTION is exited."
+#~ msgstr "Spremenljivka, ki ste jo definirali znotraj SUB ali FUNCTION, bo veljala samo toliko časa, dokler procedure ni konec. Spremenljivki zato rečemo, da je »lokalna«. V mnogo primerih potrebujete spremenljivko, ki je veljavna v vseh procedurah, v vseh modulih vseh knjižnic in/ali po izhodu iz določene procedure ali funkcije."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3154186\n"
+#~ "help.text"
+#~ msgid "Declaring Variables Outside a SUB or FUNCTION"
+#~ msgstr "Deklariranje spremenljivk izven SUB ali FUNCTION"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3145258\n"
+#~ "help.text"
+#~ msgid "The variable is valid as long as the $[officename] session lasts."
+#~ msgstr "Spremenljivka je veljavna toliko časa, kolikor dolgo traja seja $[officename]."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id8738975\n"
+#~ "help.text"
+#~ msgid "Enforce private variables to be private across modules by setting CompatibilityMode(true)."
+#~ msgstr "Vsili zasebnost spremenljivke v vseh modulih z nastavitvijo CompatibilityMode(true)."
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3154368\n"
+#~ "help.text"
+#~ msgid "Saving Variable Content after Exiting a SUB or FUNCTION"
+#~ msgstr "Shranjevanje vsebine spremenljivke po zaključku SUB ali FUNCTION"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3154486\n"
+#~ "help.text"
+#~ msgid "The variable retains its value until the next time the FUNCTION or SUB is entered. The declaration must exist inside a SUB or a FUNCTION."
+#~ msgstr "Spremenljivka ohrani svojo vrednost do naslednjega klica FUNCTION ali SUB. Deklaracija se mora nahajati znotraj SUB ali FUNCTION"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3155809\n"
+#~ "help.text"
+#~ msgid "Specifying the Return Value Type of a FUNCTION"
+#~ msgstr "Določitev vrste vrednosti, ki jo vrača FUNCTION"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3149404\n"
+#~ "help.text"
+#~ msgid "As with variables, include a type-declaration character after the function name, or the type indicated by \"As\" and the corresponding key word at the end of the parameter list to define the type of the function's return value, for example:"
+#~ msgstr "Ko pri spremenljivkah uporabite tudi pri funkcijah znak za deklaracijo vrste z imenom funkcije, ali pa vrsto za ključno besedo »As« in pa ustrezno ključno besedo na koncu seznama parametrov – z njo določite, kakšne vrste je rezultat, ki ga funkcija vrača. Primer:"
 
 #~ msgctxt ""
 #~ "03090412.xhp\n"

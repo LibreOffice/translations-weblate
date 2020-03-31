@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-03-06 11:45+0100\n"
+"POT-Creation-Date: 2020-03-31 10:34+0200\n"
 "PO-Revision-Date: 2019-07-10 04:02+0000\n"
 "Last-Translator: Dian LI <xslidian@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2644,158 +2644,149 @@ msgctxt ""
 msgid "To display a certain module in the Editor or to position the cursor in a selected SUB or FUNCTION, double click on the corresponding entry."
 msgstr "要在编辑器中显示某个特定的模块，或者需要将光标定位在某个选中的SUB或者FUNCTION，请双击相应的条目。"
 
-#. FEF3a
+#. hVrnu
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "tit\n"
 "help.text"
-msgid "Using Procedures and Functions"
-msgstr "使用过程和函数"
+msgid "Using Procedures, Functions or Properties"
+msgstr ""
 
-#. BPbU2
+#. 6jwBY
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "bm_id3149456\n"
 "help.text"
-msgid "<bookmark_value>procedures</bookmark_value>  <bookmark_value>functions;using</bookmark_value>  <bookmark_value>variables;passing to procedures and functions</bookmark_value>  <bookmark_value>parameters;for procedures and functions</bookmark_value>  <bookmark_value>parameters;passing by reference or value</bookmark_value>  <bookmark_value>variables;scope</bookmark_value>  <bookmark_value>scope of variables</bookmark_value>  <bookmark_value>GLOBAL variables</bookmark_value>  <bookmark_value>PUBLIC variables</bookmark_value>  <bookmark_value>PRIVATE variables</bookmark_value>  <bookmark_value>functions;return value type</bookmark_value>  <bookmark_value>return value type of functions</bookmark_value>"
-msgstr "<bookmark_value>过程</bookmark_value><bookmark_value>函数;使用</bookmark_value><bookmark_value>变量;传递给过程和函数</bookmark_value><bookmark_value>参数;对于过程和函数</bookmark_value><bookmark_value>参数;引用类型或者值类型传递</bookmark_value><bookmark_value>变量;范围</bookmark_value><bookmark_value>变量范围</bookmark_value><bookmark_value>GLOBAL 变量</bookmark_value><bookmark_value>PUBLIC 变量</bookmark_value><bookmark_value>PRIVATE 变量</bookmark_value><bookmark_value>函数;返回值类型</bookmark_value><bookmark_value>函数的返回值类型</bookmark_value>"
+msgid "<bookmark_value>procedures</bookmark_value>  <bookmark_value>functions;using</bookmark_value>  <bookmark_value>variables;passing to procedures, functions, properties</bookmark_value>  <bookmark_value>parameters;for procedures, functions or properties</bookmark_value>  <bookmark_value>parameters;passing by reference or value</bookmark_value>  <bookmark_value>variables;scope</bookmark_value>  <bookmark_value>scope of variables</bookmark_value>  <bookmark_value>GLOBAL variables</bookmark_value>  <bookmark_value>PUBLIC variables</bookmark_value>  <bookmark_value>PRIVATE variables</bookmark_value>  <bookmark_value>functions;return value type</bookmark_value>  <bookmark_value>return value type of functions</bookmark_value>"
+msgstr ""
 
-#. yionm
+#. AYcBA
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3149456\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures and Functions</link>"
-msgstr "<link href=\"text/sbasic/shared/01020300.xhp\">使用过程和函数</link>"
+msgid "<link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures, Functions and Properties</link>"
+msgstr ""
 
-#. MZaKH
+#. DSyYW
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3150767\n"
 "help.text"
-msgid "The following describes the basic use of procedures and functions in $[officename] Basic."
-msgstr "下面介绍 $[officename] Basic 中过程和函数的基本用法。"
+msgid "The following describes the basic use of procedures, functions and properties in %PRODUCTNAME Basic."
+msgstr ""
 
-#. XjrdK
+#. Jsg3r
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3151215\n"
 "help.text"
-msgid "When you create a new module, $[officename] Basic automatically inserts a SUB called \"Main\". This default name has nothing to do with the order or the starting point of a $[officename] Basic project. You can also safely rename this SUB."
-msgstr "在建立新模块时，$[officename] Basic 会自动插入一个名为「Main」的子程序。这个默认名称与 $[officename] Basic 项目的顺序和起始点无关。可以将此子程序重命名为其他名称，而不会带来问题。"
+msgid "When you create a new module, %PRODUCTNAME Basic automatically inserts a <literal>Sub</literal> called \"<literal>Main</literal>\". This default name has nothing to do with the order or the starting point of a %PRODUCTNAME Basic project. You can also safely rename this <literal>Sub</literal>routine."
+msgstr ""
 
-#. gBGwp
+#. NBySN
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id314756320\n"
 "help.text"
-msgid "Some restrictions apply for the names of your public variables, subs, and functions. You must not use the same name as one of the modules of the same library."
-msgstr "对您 public 变量、sub 与函数名称的一些限制。您不能使用与同库模块相同的名称。"
+msgid "Some restrictions apply for the names of your public variables, subroutines, functions and properties. You must not use the same name as one of the modules of the same library."
+msgstr ""
 
-#. 9BCPY
+#. EB6uP
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3154124\n"
 "help.text"
-msgid "Procedures (SUBS) and functions (FUNCTIONS) help you maintaining a structured overview by separating a program into logical pieces."
-msgstr "利用过程和函数，可以将一个程序划分为多个逻辑片段，有助于使程序保持结构化。"
+msgid "Procedures (<literal>Sub</literal>routines) functions (<literal>Function</literal>) and properties (<literal>Property</literal>) help you maintaining a structured overview by separating a program into logical pieces."
+msgstr ""
 
-#. MEnjF
+#. UXRyF
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3153193\n"
 "help.text"
-msgid "One benefit of procedures and functions is that, once you have developed a program code containing task components, you can use this code in another project."
-msgstr "使用过程和函数的一个好处是，如果为项目开发的程序代码含有任务组件，则可以将此代码用于其他项目。"
+msgid "One benefit of procedures, functions and properties is that, once you have developed a program code containing task components, you can use this code in another project."
+msgstr ""
 
-#. RRGcf
+#. EZYXi
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3153770\n"
 "help.text"
-msgid "Passing Variables to Procedures (SUB) and Functions (FUNCTION)"
-msgstr "向过程和函数传送变量"
+msgid "Passing Variables to Procedures, Functions or Properties"
+msgstr ""
 
-#. EBt2H
+#. v9JPn
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3155414\n"
 "help.text"
-msgid "Variables can be passed to both procedures and functions. The SUB or FUNCTION must be declared to expect parameters:"
-msgstr "可以向过程和函数传送变量，但必须在子程序或函数中声明所需的参数:"
+msgid "Variables can be passed to both procedures, functions or properties. The <literal>Sub</literal> <literal>Function</literal> or <literal>Property</literal> must be declared to expect parameters:"
+msgstr ""
 
-#. zqJQF
+#. BUURm
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3151114\n"
 "help.text"
-msgid "Program code"
-msgstr "程序代码"
+msgid "' your code goes here"
+msgstr ""
 
-#. AZFAK
+#. BG6rr
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3152577\n"
 "help.text"
-msgid "The SUB is called using the following syntax:"
-msgstr "调用子程序时使用以下语法:"
+msgid "The <literal>Sub</literal> is called using the following syntax:"
+msgstr ""
 
-#. ZNaQd
+#. 5SdpG
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3147124\n"
 "help.text"
-msgid "The parameters passed to a SUB must fit to those specified in the SUB declaration."
-msgstr "传送到子程序的参数必须与子程序声明中指定的参数匹配。"
+msgid "The parameters passed to a <literal>Sub</literal> must fit to those specified in the <literal>Sub</literal> declaration."
+msgstr ""
 
-#. WCghM
+#. Zxxix
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3147397\n"
 "help.text"
-msgid "The same process applies to FUNCTIONS. In addition, functions always return a function result. The result of a function is defined by assigning the return value to the function name:"
-msgstr "同样，传送到函数的参数也必须与函数声明中指定的参数匹配，以便正常返回函数结果。通过将函数名称作为参数，并向其指定该函数的返回值，可以在函数结束之前直接定义返回结果 (请参阅示例):"
+msgid "The same process applies to a <literal>Function</literal>. In addition, functions always return a function result. The result of a function is defined by assigning the return value to the function name:"
+msgstr ""
 
-#. qEdLG
+#. uhFkG
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3156284\n"
 "help.text"
-msgid "Program code"
-msgstr "程序代码"
+msgid "' your code goes here"
+msgstr ""
 
-#. rGBQg
-#: 01020300.xhp
-msgctxt ""
-"01020300.xhp\n"
-"par_id3145799\n"
-"help.text"
-msgid "FunctionName=Result"
-msgstr "函数名称=结果"
-
-#. FJDDJ
+#. TwrZp
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3153839\n"
 "help.text"
-msgid "The FUNCTION is called using the following syntax:"
-msgstr "调用函数时使用以下语法:"
+msgid "The <literal>Function</literal> is called using the following syntax:"
+msgstr ""
 
 #. yBxwK
 #: 01020300.xhp
@@ -2806,14 +2797,50 @@ msgctxt ""
 msgid "Variable=FunctionName(Parameter1, Parameter2,...)"
 msgstr "Variable=FunctionName(Parameter1, Parameter2,...)"
 
-#. C63og
+#. 33Sss
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id981584288549909\n"
+"help.text"
+msgid "Properties combine the syntax of procedures and functions. A property usually requires up to one parameter."
+msgstr ""
+
+#. QCQAn
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id961584288948497\n"
+"help.text"
+msgid "' your code goes here"
+msgstr ""
+
+#. meaRY
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id921584288951588\n"
+"help.text"
+msgid "' your code goes here"
+msgstr ""
+
+#. 257BA
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id3153389\n"
+"help.text"
+msgid "The <literal>Property</literal> is called using the following syntax:"
+msgstr ""
+
+#. DLdom
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_idN107B3\n"
 "help.text"
-msgid "You can also use the fully qualified name to call a procedure or function:<br/> <item type=\"literal\">Library.Module.Macro()</item> <br/> For example, to call the Autotext macro from the Gimmicks library, use the following command:<br/> <item type=\"literal\">Gimmicks.AutoText.Main()</item>"
-msgstr "也可以用完整的名称调用过程或函数: <br/><item type=\"literal\">Library.Module.Macro()</item><br/>例如，要从 Gimmicks 库中调用 Autotext 宏，可使用命令: <br/><item type=\"literal\">Gimmicks.AutoText.Main()</item>"
+msgid "You can also use the fully qualified name to call a procedure, function or property:<br/> <literal>Library.Module.Macro()</literal> <br/> For example, to call the Autotext macro from the Gimmicks library, use the following command:<br/> <item type=\"literal\">Gimmicks.AutoText.Main()</item>"
+msgstr ""
 
 #. 2xj8g
 #: 01020300.xhp
@@ -2824,41 +2851,113 @@ msgctxt ""
 msgid "Passing Variables by Value or Reference"
 msgstr "通过值或引用传送变量"
 
-#. 9u3qj
+#. d2PgC
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3155765\n"
 "help.text"
-msgid "Parameters can be passed to a SUB or a FUNCTION either by reference or by value. Unless otherwise specified, a parameter is always passed by reference. That means that a SUB or a FUNCTION gets the parameter and can read and modify its value."
-msgstr "可以通过引用或值将参数传送到子程序或函数。除非特别指定，通常是通过引用传送参数。这意味着子程序或函数可以获取该参数，并且可用读取和修改参数值。"
+msgid "Parameters can be passed to a procedure, a function or a property either by reference or by value. Unless otherwise specified, a parameter is always passed by reference. That means that a <literal>Sub</literal>, a <literal>Function</literal> or a <literal>Property</literal> gets the parameter and can read and modify its value."
+msgstr ""
 
-#. kwAaU
+#. uk84S
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3145640\n"
 "help.text"
-msgid "If you want to pass a parameter by value insert the key word \"ByVal\" in front of the parameter when you call a SUB or FUNCTION, for example:"
-msgstr "如果希望通过值传送参数，请在调用子程序或函数时，在参数前插入关键字 \"ByVal\"，例如:"
+msgid "If you want to pass a parameter by value insert the key word <literal>ByVal</literal> in front of the parameter when you call a <literal>Sub</literal>, a <literal>Function</literal> or a <literal>Property</literal>, for example:"
+msgstr ""
 
-#. BQ2AC
+#. Vzu4F
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3150042\n"
 "help.text"
-msgid "Result = Function(ByVal Parameter)"
-msgstr "Result = Function(ByVal Parameter)"
+msgid "Function ReadOnlyParms(ByVal p2, ByVal p2)"
+msgstr ""
 
-#. w6j4F
+#. pojXe
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id81584367761978\n"
+"help.text"
+msgid "' your code goes here"
+msgstr ""
+
+#. MGPNc
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id131584367516784\n"
+"help.text"
+msgid "End Function"
+msgstr ""
+
+#. bz6EJ
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id801584367475787\n"
+"help.text"
+msgid "result = ReadOnlyParms(parm1, parm2)"
+msgstr ""
+
+#. WF4ND
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3149258\n"
 "help.text"
-msgid "In this case, the original content of the parameter will not be modified by the FUNCTION since it only gets the value and not the parameter itself."
-msgstr "在这种情况下，函数不会修改参数的原始内容，因为它获得的仅仅是参数值而不是参数本身。"
+msgid "In this case, the original content of the parameter will not be modified by the <literal>Function</literal> since it only gets the value and not the parameter itself."
+msgstr ""
+
+#. AEhBY
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"hd_id161584366585035\n"
+"help.text"
+msgid "Defining Optional Parameters"
+msgstr ""
+
+#. 4Ghzx
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"par_id31584367006971\n"
+"help.text"
+msgid "Functions, procedures or properties can be defined with optional parameters, for example:"
+msgstr ""
+
+#. qBTxH
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id761584366669997\n"
+"help.text"
+msgid "Sub Rounding(number, Optional decimals, Optional format)"
+msgstr ""
+
+#. JKj8y
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id111584366809406\n"
+"help.text"
+msgid "' your code goes here"
+msgstr ""
+
+#. NtvTc
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"bas_id251584366745722\n"
+"help.text"
+msgid "End Sub"
+msgstr ""
 
 #. EHCCS
 #: 01020300.xhp
@@ -2869,23 +2968,23 @@ msgctxt ""
 msgid "Scope of Variables"
 msgstr "变量范围"
 
-#. ACpw7
+#. LDC8M
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3149814\n"
 "help.text"
-msgid "A variable defined within a SUB or FUNCTION, only remains valid until the procedure is exited. This is known as a \"local\" variable. In many cases, you need a variable to be valid in all procedures, in every module of all libraries, or after a SUB or FUNCTION is exited."
-msgstr "在某个子程序或函数中定义的变量仅在该过程中有效。这种变量被称为「局部」变量。在很多情况下，您需要定义在所有过程中、所有程序库的各个模块中或者在退出子程序或函数后仍有效的变量。"
+msgid "A variable defined within a <literal>Sub</literal>, a <literal>Function</literal> or a <literal>Property</literal>, only remains valid until the procedure is exited. This is known as a \"local\" variable. In many cases, you need a variable to be valid in all procedures, in every module of all libraries, or after a <literal>Sub</literal>, a <literal>Function</literal> or a <literal>Property</literal> is exited."
+msgstr ""
 
-#. pJBLq
+#. pVU4G
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3154186\n"
 "help.text"
-msgid "Declaring Variables Outside a SUB or FUNCTION"
-msgstr "在子程序或函数之外声明变量"
+msgid "Declaring Variables Outside a <literal>Sub</literal> a <literal>Function</literal> or a <literal>Property</literal>"
+msgstr ""
 
 #. Q3jEW
 #: 01020300.xhp
@@ -2896,14 +2995,14 @@ msgctxt ""
 msgid "Global VarName As TYPENAME"
 msgstr "Global VarName As TYPENAME"
 
-#. YZx8i
+#. 5JwAY
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3145258\n"
 "help.text"
-msgid "The variable is valid as long as the $[officename] session lasts."
-msgstr "只要 $[officename] 会话未结束，变量就有效。"
+msgid "The variable is valid as long as the %PRODUCTNAME session lasts."
+msgstr ""
 
 #. CSDs2
 #: 01020300.xhp
@@ -2968,14 +3067,14 @@ msgctxt ""
 msgid "Example for private variables"
 msgstr "私有变量示例"
 
-#. aBAXu
+#. mGb2g
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id8738975\n"
 "help.text"
-msgid "Enforce private variables to be private across modules by setting CompatibilityMode(true)."
-msgstr "通过设置 CompatibilityMode(true) 使私有变量在模块间私有。"
+msgid "Enforce private variables to be private across modules by setting <literal>CompatibilityMode(True)</literal>."
+msgstr ""
 
 #. 8dZEJ
 #: 01020300.xhp
@@ -3022,14 +3121,14 @@ msgctxt ""
 msgid "Print \"Now in module2 : \", myText"
 msgstr "Print \"现在在 module2 中: \", myText"
 
-#. fEECM
+#. iExop
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3154368\n"
 "help.text"
-msgid "Saving Variable Content after Exiting a SUB or FUNCTION"
-msgstr "退出子程序或函数后保存变量内容"
+msgid "Saving Variable Content after Exiting a <literal>Sub</literal> a <literal>Function</literal> or a <literal>Property</literal>"
+msgstr ""
 
 #. qV9Bm
 #: 01020300.xhp
@@ -3040,32 +3139,59 @@ msgctxt ""
 msgid "Static VarName As TYPENAME"
 msgstr "Static VarName As TYPENAME"
 
-#. iWJLu
+#. hAB34
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3154486\n"
 "help.text"
-msgid "The variable retains its value until the next time the FUNCTION or SUB is entered. The declaration must exist inside a SUB or a FUNCTION."
-msgstr "变量的值一直有效，直到下次进入函数或子程序。 声明必须存在于子程序或者函数之内。"
+msgid "The variable retains its value until the next time the a <literal>Function</literal>, <literal>Sub</literal> or <literal>Property</literal> is entered. The declaration must exist inside a <literal>Sub</literal>, a <literal>Function</literal> or a <literal>Property</literal>."
+msgstr ""
 
-#. x7TCE
+#. 9inFk
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3155809\n"
 "help.text"
-msgid "Specifying the Return Value Type of a FUNCTION"
-msgstr "指定函数的返回值"
+msgid "Specifying the Return Value Type of a <literal>Function</literal> or a <literal>Property</literal>"
+msgstr ""
 
-#. BqFmH
+#. BjLGj
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "par_id3149404\n"
 "help.text"
-msgid "As with variables, include a type-declaration character after the function name, or the type indicated by \"As\" and the corresponding key word at the end of the parameter list to define the type of the function's return value, for example:"
-msgstr "与变量一样，函数名称后必须含有类型声明字符或由「As」与相应关键字 (位于参数列表末尾) 指示的类型，以定义函数返回值的类型。例如:"
+msgid "As with variables, include a type-declaration character after the function name, or the type indicated by <literal>As</literal> and the corresponding data type at the end of the parameter list to define the type of the function or property's return value, for example:"
+msgstr ""
+
+#. t7xWM
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"N0237\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/03104100.xhp\" name=\"Optional keyword\">Optional keyword</link>"
+msgstr ""
+
+#. JCc9m
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"N0238\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/property.xhp\" name=\"Property Statement\">Property Statement</link>"
+msgstr ""
+
+#. CcJXo
+#: 01020300.xhp
+msgctxt ""
+"01020300.xhp\n"
+"N0239\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/03103500.xhp\" name=\"Static Statement\">Static Statement</link>"
+msgstr ""
 
 #. HrqsB
 #: 01020500.xhp
@@ -41478,6 +41604,216 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "Using Procedures and Functions"
+#~ msgstr "使用过程和函数"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "bm_id3149456\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>procedures</bookmark_value>  <bookmark_value>functions;using</bookmark_value>  <bookmark_value>variables;passing to procedures and functions</bookmark_value>  <bookmark_value>parameters;for procedures and functions</bookmark_value>  <bookmark_value>parameters;passing by reference or value</bookmark_value>  <bookmark_value>variables;scope</bookmark_value>  <bookmark_value>scope of variables</bookmark_value>  <bookmark_value>GLOBAL variables</bookmark_value>  <bookmark_value>PUBLIC variables</bookmark_value>  <bookmark_value>PRIVATE variables</bookmark_value>  <bookmark_value>functions;return value type</bookmark_value>  <bookmark_value>return value type of functions</bookmark_value>"
+#~ msgstr "<bookmark_value>过程</bookmark_value><bookmark_value>函数;使用</bookmark_value><bookmark_value>变量;传递给过程和函数</bookmark_value><bookmark_value>参数;对于过程和函数</bookmark_value><bookmark_value>参数;引用类型或者值类型传递</bookmark_value><bookmark_value>变量;范围</bookmark_value><bookmark_value>变量范围</bookmark_value><bookmark_value>GLOBAL 变量</bookmark_value><bookmark_value>PUBLIC 变量</bookmark_value><bookmark_value>PRIVATE 变量</bookmark_value><bookmark_value>函数;返回值类型</bookmark_value><bookmark_value>函数的返回值类型</bookmark_value>"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3149456\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures and Functions</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/01020300.xhp\">使用过程和函数</link>"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3150767\n"
+#~ "help.text"
+#~ msgid "The following describes the basic use of procedures and functions in $[officename] Basic."
+#~ msgstr "下面介绍 $[officename] Basic 中过程和函数的基本用法。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3151215\n"
+#~ "help.text"
+#~ msgid "When you create a new module, $[officename] Basic automatically inserts a SUB called \"Main\". This default name has nothing to do with the order or the starting point of a $[officename] Basic project. You can also safely rename this SUB."
+#~ msgstr "在建立新模块时，$[officename] Basic 会自动插入一个名为「Main」的子程序。这个默认名称与 $[officename] Basic 项目的顺序和起始点无关。可以将此子程序重命名为其他名称，而不会带来问题。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id314756320\n"
+#~ "help.text"
+#~ msgid "Some restrictions apply for the names of your public variables, subs, and functions. You must not use the same name as one of the modules of the same library."
+#~ msgstr "对您 public 变量、sub 与函数名称的一些限制。您不能使用与同库模块相同的名称。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3154124\n"
+#~ "help.text"
+#~ msgid "Procedures (SUBS) and functions (FUNCTIONS) help you maintaining a structured overview by separating a program into logical pieces."
+#~ msgstr "利用过程和函数，可以将一个程序划分为多个逻辑片段，有助于使程序保持结构化。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3153193\n"
+#~ "help.text"
+#~ msgid "One benefit of procedures and functions is that, once you have developed a program code containing task components, you can use this code in another project."
+#~ msgstr "使用过程和函数的一个好处是，如果为项目开发的程序代码含有任务组件，则可以将此代码用于其他项目。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3153770\n"
+#~ "help.text"
+#~ msgid "Passing Variables to Procedures (SUB) and Functions (FUNCTION)"
+#~ msgstr "向过程和函数传送变量"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3155414\n"
+#~ "help.text"
+#~ msgid "Variables can be passed to both procedures and functions. The SUB or FUNCTION must be declared to expect parameters:"
+#~ msgstr "可以向过程和函数传送变量，但必须在子程序或函数中声明所需的参数:"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3151114\n"
+#~ "help.text"
+#~ msgid "Program code"
+#~ msgstr "程序代码"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3152577\n"
+#~ "help.text"
+#~ msgid "The SUB is called using the following syntax:"
+#~ msgstr "调用子程序时使用以下语法:"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3147124\n"
+#~ "help.text"
+#~ msgid "The parameters passed to a SUB must fit to those specified in the SUB declaration."
+#~ msgstr "传送到子程序的参数必须与子程序声明中指定的参数匹配。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3147397\n"
+#~ "help.text"
+#~ msgid "The same process applies to FUNCTIONS. In addition, functions always return a function result. The result of a function is defined by assigning the return value to the function name:"
+#~ msgstr "同样，传送到函数的参数也必须与函数声明中指定的参数匹配，以便正常返回函数结果。通过将函数名称作为参数，并向其指定该函数的返回值，可以在函数结束之前直接定义返回结果 (请参阅示例):"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3156284\n"
+#~ "help.text"
+#~ msgid "Program code"
+#~ msgstr "程序代码"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3145799\n"
+#~ "help.text"
+#~ msgid "FunctionName=Result"
+#~ msgstr "函数名称=结果"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3153839\n"
+#~ "help.text"
+#~ msgid "The FUNCTION is called using the following syntax:"
+#~ msgstr "调用函数时使用以下语法:"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_idN107B3\n"
+#~ "help.text"
+#~ msgid "You can also use the fully qualified name to call a procedure or function:<br/> <item type=\"literal\">Library.Module.Macro()</item> <br/> For example, to call the Autotext macro from the Gimmicks library, use the following command:<br/> <item type=\"literal\">Gimmicks.AutoText.Main()</item>"
+#~ msgstr "也可以用完整的名称调用过程或函数: <br/><item type=\"literal\">Library.Module.Macro()</item><br/>例如，要从 Gimmicks 库中调用 Autotext 宏，可使用命令: <br/><item type=\"literal\">Gimmicks.AutoText.Main()</item>"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3155765\n"
+#~ "help.text"
+#~ msgid "Parameters can be passed to a SUB or a FUNCTION either by reference or by value. Unless otherwise specified, a parameter is always passed by reference. That means that a SUB or a FUNCTION gets the parameter and can read and modify its value."
+#~ msgstr "可以通过引用或值将参数传送到子程序或函数。除非特别指定，通常是通过引用传送参数。这意味着子程序或函数可以获取该参数，并且可用读取和修改参数值。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3145640\n"
+#~ "help.text"
+#~ msgid "If you want to pass a parameter by value insert the key word \"ByVal\" in front of the parameter when you call a SUB or FUNCTION, for example:"
+#~ msgstr "如果希望通过值传送参数，请在调用子程序或函数时，在参数前插入关键字 \"ByVal\"，例如:"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3150042\n"
+#~ "help.text"
+#~ msgid "Result = Function(ByVal Parameter)"
+#~ msgstr "Result = Function(ByVal Parameter)"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3149258\n"
+#~ "help.text"
+#~ msgid "In this case, the original content of the parameter will not be modified by the FUNCTION since it only gets the value and not the parameter itself."
+#~ msgstr "在这种情况下，函数不会修改参数的原始内容，因为它获得的仅仅是参数值而不是参数本身。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3149814\n"
+#~ "help.text"
+#~ msgid "A variable defined within a SUB or FUNCTION, only remains valid until the procedure is exited. This is known as a \"local\" variable. In many cases, you need a variable to be valid in all procedures, in every module of all libraries, or after a SUB or FUNCTION is exited."
+#~ msgstr "在某个子程序或函数中定义的变量仅在该过程中有效。这种变量被称为「局部」变量。在很多情况下，您需要定义在所有过程中、所有程序库的各个模块中或者在退出子程序或函数后仍有效的变量。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3154186\n"
+#~ "help.text"
+#~ msgid "Declaring Variables Outside a SUB or FUNCTION"
+#~ msgstr "在子程序或函数之外声明变量"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3145258\n"
+#~ "help.text"
+#~ msgid "The variable is valid as long as the $[officename] session lasts."
+#~ msgstr "只要 $[officename] 会话未结束，变量就有效。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id8738975\n"
+#~ "help.text"
+#~ msgid "Enforce private variables to be private across modules by setting CompatibilityMode(true)."
+#~ msgstr "通过设置 CompatibilityMode(true) 使私有变量在模块间私有。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3154368\n"
+#~ "help.text"
+#~ msgid "Saving Variable Content after Exiting a SUB or FUNCTION"
+#~ msgstr "退出子程序或函数后保存变量内容"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3154486\n"
+#~ "help.text"
+#~ msgid "The variable retains its value until the next time the FUNCTION or SUB is entered. The declaration must exist inside a SUB or a FUNCTION."
+#~ msgstr "变量的值一直有效，直到下次进入函数或子程序。 声明必须存在于子程序或者函数之内。"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3155809\n"
+#~ "help.text"
+#~ msgid "Specifying the Return Value Type of a FUNCTION"
+#~ msgstr "指定函数的返回值"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "par_id3149404\n"
+#~ "help.text"
+#~ msgid "As with variables, include a type-declaration character after the function name, or the type indicated by \"As\" and the corresponding key word at the end of the parameter list to define the type of the function's return value, for example:"
+#~ msgstr "与变量一样，函数名称后必须含有类型声明字符或由「As」与相应关键字 (位于参数列表末尾) 指示的类型，以定义函数返回值的类型。例如:"
 
 #~ msgctxt ""
 #~ "03090412.xhp\n"
