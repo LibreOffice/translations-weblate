@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-24 17:12+0100\n"
-"PO-Revision-Date: 2020-03-29 17:48+0000\n"
+"PO-Revision-Date: 2020-03-31 16:16+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://weblate.documentfoundation.org/projects/libo_help-6-4/textscalc01/el/>\n"
 "Language: el\n"
@@ -60756,7 +60756,7 @@ msgctxt ""
 "par_id371575067051846\n"
 "help.text"
 msgid "OPT_BARRIER(Spot; Volatility; Rate; Foreign Rate; Maturity; Strike; LowerBarrier; UpperBarrier; Rebate; PutCall; InOut; BarrierMonitoring; Greek)"
-msgstr "OPT_BARRIER(ΤρέχουσαΤιμή; Μεταβλητότητα; Επιτόκιο; ΞένοΕπιτόκιο; Ωριμότητα; Εξάσκηση; ΚάτωΦραγμός; ΆνωΦραγμός; Επιστροφή; ΠώλησηΑγορά; ΈσωΈξω; ΠαρακολούθησηΦραγμού; Ελληνικά)"
+msgstr "OPT_BARRIER(ΤρέχουσαΤιμή; Μεταβλητότητα; Επιτόκιο; ΞένοΕπιτόκιο; Ωριμότητα; Εξάσκηση; ΚάτωΦραγμός; ΆνωΦραγμός; Επιστροφή; Πώληση/Αγορά; Ενεργοποίηση/Απενεργοποίηση; ΠαρακολούθησηΦραγμού; Ελληνικά)"
 
 #. XEMff
 #: func_opt_barrier.xhp
@@ -61053,7 +61053,7 @@ msgctxt ""
 "par_id531575062825965\n"
 "help.text"
 msgid "<ahelp hid=\".\">Returns the pricing of a touch / no-touch option, calculated using the Black-Scholes option pricing model.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Επιστρέφει την τιμή προαίρεσης αφής /  μη αφής, υπολογιζόμενης με χρήση του προτύπου τιμής προαίρεσης Black-Scholes.</ahelp>"
 
 #. DE8qf
 #: func_opt_touch.xhp
@@ -61062,7 +61062,7 @@ msgctxt ""
 "par_id371575066515276\n"
 "help.text"
 msgid "For relevant background information, visit the <link href=\"https://en.wikipedia.org/wiki/Option_(finance)\" name=\"optionfinance\">Options (finance)</link> and <link href=\"https://en.wikipedia.org/wiki/Black–Scholes_model\" name=\"blackscholes\">Black-Scholes</link> model Wikipedia pages."
-msgstr ""
+msgstr "Για σχετικές πληροφορίες υποβάθρου, επισκεφτείτε τις σελίδες Wikipedia του προτύπου <link href=\"https://en.wikipedia.org/wiki/Option_(finance)\" name=\"optionfinance\">Options (finance)</link> and <link href=\"https://en.wikipedia.org/wiki/Black–Scholes_model\" name=\"blackscholes\">Black-Scholes</link>."
 
 #. 29Wsy
 #: func_opt_touch.xhp
@@ -61071,7 +61071,7 @@ msgctxt ""
 "par_id571575080642652\n"
 "help.text"
 msgid "Further information about touch / no-touch options may be found on many financial websites."
-msgstr ""
+msgstr "Παραπέρα πληροφορίες για προαιρέσεις αφής / μη αφής μπορούν να βρεθούν σε πολλούς οικονομικούς ιστοτόπους."
 
 #. pyway
 #: func_opt_touch.xhp
@@ -61080,7 +61080,7 @@ msgctxt ""
 "par_id151575063296819\n"
 "help.text"
 msgid "OPT_TOUCH(Spot; Volatility; Rate; ForeignRate; Maturity; LowerBarrier; UpperBarrier; ForeignDomestic; InOut; BarrierMonitoring; Greek)"
-msgstr ""
+msgstr "OPT_TOUCH(ΤρέχουσαΤιμή; Μεταβλητότητα; Επιτόκιο; ΞένοΕπιτόκιο; Ωρίμανση; ΚάτωΦραγμός; ΆνωΦραγμός; Ξένο/Τοπικό; Ενεργοποίηση/Απενεργοποίηση; ΠαρακολούθησηΦραγμού; Ελληνικά)"
 
 #. 6rD5u
 #: func_opt_touch.xhp
@@ -61089,7 +61089,7 @@ msgctxt ""
 "par_id321575066304659\n"
 "help.text"
 msgid "<variable id=\"optspot\"><emph>Spot</emph> is the price / value of the underlying asset and should be greater than 0.0.</variable>"
-msgstr ""
+msgstr "<variable id=\"optspot\"><emph>ΤρέχουσαΤιμή</emph> είναι η τιμή / αξία του υποκείμενου πόρου και πρέπει να είναι μεγαλύτερη από 0,0.</variable>"
 
 #. CoALG
 #: func_opt_touch.xhp
@@ -61098,7 +61098,7 @@ msgctxt ""
 "par_id31575066315078\n"
 "help.text"
 msgid "<variable id=\"optvolat\"><emph>Volatility</emph> is the annual percentage volatility of the underlying asset expressed as a decimal (for example, enter 30% as 0.3). The value should be greater than 0.0.</variable>"
-msgstr ""
+msgstr "<variable id=\"optvolat\"><emph>Μεταβλητότητα</emph> είναι η ετήσια ποσοστιαία μεταβολή του υποκείμενου περιουσιακού στοιχείου εκφραζόμενη ως δεκαδικής (παραδείγματος χάρη, εισάγετε το 30% ως 0,3). Η τιμή πρέπει να είναι μεγαλύτερη από 0,0.</variable>"
 
 #. iCEkw
 #: func_opt_touch.xhp
@@ -61107,7 +61107,7 @@ msgctxt ""
 "par_id681575066324254\n"
 "help.text"
 msgid "<variable id=\"optrate\"><emph>Rate</emph> is the continuously compounded interest rate. This is a percentage expressed as a decimal (for example, enter 40% as 0.4).</variable>"
-msgstr ""
+msgstr "<variable id=\"optrate\"><emph>Επιτόκιο</emph> είναι το συνεχές ανατοκισμένο επιτόκιο. Αυτό είναι ποσοστό εκφρασμένο ως δεκαδικός (παραείγματος χάρη, εισάγετε το 40% ως 0,4).</variable>"
 
 #. eoG8E
 #: func_opt_touch.xhp
@@ -61116,7 +61116,7 @@ msgctxt ""
 "par_id71575066333773\n"
 "help.text"
 msgid "<variable id=\"optfrate\"><emph>ForeignRate</emph> is the continuously compounded foreign interest rate. This is a percentage expressed as a decimal (for example, enter 50% as 0.5).</variable>"
-msgstr ""
+msgstr "<variable id=\"optfrate\"><emph>ΞένοΕπιτόκιο</emph> είναι το συνεχές ανατοκισμένο ξένο επιτόκιο. Αυτό είναι ποσοστό εκφρασμένο ως δεκαδικό (παραδείγματος χάρη, εισάγετε το 50% ως 0,5).</variable>"
 
 #. hzfJp
 #: func_opt_touch.xhp
@@ -61125,7 +61125,7 @@ msgctxt ""
 "par_id21575066338734\n"
 "help.text"
 msgid "<variable id=\"optmaturity\"><emph>Maturity</emph> is the time to maturity of the option, in years, and should be non-negative.</variable>"
-msgstr ""
+msgstr "<variable id=\"optmaturity\"><emph>Ωρίμανση</emph> είναι ο χρόνος ωρίμανσης της προαίρεσης, σε έτη και θα πρέπει να είναι μη αρνητικός.</variable>"
 
 #. Gksbz
 #: func_opt_touch.xhp
@@ -61134,7 +61134,7 @@ msgctxt ""
 "par_id671575066343182\n"
 "help.text"
 msgid "<variable id=\"optlowbar\"><emph>LowerBarrier</emph> is the predetermined lower barrier price; set to zero for no lower barrier.</variable>"
-msgstr ""
+msgstr "<variable id=\"optlowbar\"><emph>ΚάτωΦραγμός</emph> είναι η προκαθορισμένη τιμή κάτω φραγμού· βάλτε μηδέν εάν δεν υπάρχει κάτω φραγμός.</variable>"
 
 #. KDTDW
 #: func_opt_touch.xhp
@@ -61143,7 +61143,7 @@ msgctxt ""
 "par_id301575066347357\n"
 "help.text"
 msgid "<variable id=\"optupbar\"><emph>UpperBarrier</emph> is the predetermined upper barrier price; set to zero for no upper barrier.</variable>"
-msgstr ""
+msgstr "<variable id=\"optupbar\"><emph>ΆνωΦραγμός</emph> είναι η προκαθορισμένη τιμή κάτω φραγμού· βάλτε μηδέν εάν δεν υπάρχει άνω φραγμός.</variable>"
 
 #. oVmg7
 #: func_opt_touch.xhp
@@ -61152,7 +61152,7 @@ msgctxt ""
 "par_id561575066355924\n"
 "help.text"
 msgid "<variable id=\"optdomestic\"><emph>ForeignDomestic</emph> is a string that defines whether the option pays domestic (“d”) or foreign (“f”) currency.</variable>"
-msgstr ""
+msgstr "<variable id=\"optdomestic\"><emph>ΞένοΤοπικό</emph> είναι συμβολοσειρά που καθορίζει εάν η προαίρεση πληρώνει σε τοπικό (“d”) ή ξένο (“f”) νόμισμα.</variable>"
 
 #. zTRA2
 #: func_opt_touch.xhp
@@ -61161,7 +61161,7 @@ msgctxt ""
 "par_id251575066360596\n"
 "help.text"
 msgid "<variable id=\"optinout\"><emph>InOut</emph> is a string that defines whether the option is knock-in (“i”) or knock-out (“o”).</variable>"
-msgstr ""
+msgstr "<variable id=\"optinout\"><emph>Ενεργοποίηση/Απενεργοποίηση</emph> είναι συμβολοσειρά που καθορίζει εάν η προαίρεση είναι ενεργοποιημένη (“i”), ή απενεργοποιημένη (“o”).</variable>"
 
 #. AsXAj
 #: func_opt_touch.xhp
@@ -61170,7 +61170,7 @@ msgctxt ""
 "par_id861575066366861\n"
 "help.text"
 msgid "<variable id=\"optbarmon\"><emph>BarrierMonitoring</emph> is a string that defines whether the barrier is monitored continuously (“c”) or only at the end / maturity (“e”).</variable>"
-msgstr ""
+msgstr "<variable id=\"optbarmon\"><emph>ΠαρακολούθησηΦραγμού</emph> είναι συμβολοσειρά που καθορίζει εάν ο φραγμός παρακολουθείται συνεχώς (“c”) ή μόνο στο τέλος / ωρίμανση (“e”).</variable>"
 
 #. xyF8R
 #: func_opt_touch.xhp
@@ -61179,7 +61179,7 @@ msgctxt ""
 "par_id721575066374340\n"
 "help.text"
 msgid "<emph>Greek</emph> (optional) is a string argument. If omitted or set to “value”, “v”, “price”, or “p”, then the function simply returns the option price. If another valid string is entered, the function returns price sensitivities (Greeks) to one of the input parameters. The valid options in this case are as follows."
-msgstr ""
+msgstr "<emph>Ελληνικά</emph> (προαιρετικό) είναι όρισμα συμβολοσειράς. Εάν παραληφθεί ή οριστεί σε αξία ή “v”, τιμή ή “p”, τότε η συνάρτηση επιστρέφει απλά την τιμή προαίρεσης. Εάν εισαχθεί άλλη έγκυρη συμβολοσειρά, η συνάρτηση επιστρέφει ευαισθησίες τιμής (Ελληνικά) σε μία από τις παραμέτρους εισόδου. Οι έγκυρες προαιρέσεις σε αυτήν την περίπτωση είναι ως ακολούθως."
 
 #. NhW28
 #: func_opt_touch.xhp
