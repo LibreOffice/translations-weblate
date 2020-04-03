@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-03-31 10:34+0200\n"
+"POT-Creation-Date: 2020-04-03 11:46+0200\n"
 "PO-Revision-Date: 2020-01-24 14:53+0000\n"
 "Last-Translator: aefgh39622 <aefgh39622@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.documentfoundation.org/projects/libo_help-master/textsbasicshared/ja/>\n"
@@ -547,13 +547,13 @@ msgctxt ""
 msgid "<variable id=\"basiclibrarynote\">This library must be loaded before execution. Place the following statement before the first macro in your module:</variable>"
 msgstr ""
 
-#. LEFhk
+#. 8ipLK
 #: 00000003.xhp
 msgctxt ""
 "00000003.xhp\n"
 "par_id051920171018124524\n"
 "help.text"
-msgid "This function or constant is enabled with the statement <link href=\"text/sbasic/shared/03103350.xhp\" name=\"optionvbasupport\"><literal>Option VBASupport 1</literal></link> placed before the executable program code in a module."
+msgid "This constant, function or object is enabled with the statement <link href=\"text/sbasic/shared/03103350.xhp\" name=\"optionvbasupport\"><literal>Option VBASupport 1</literal></link> placed before the executable program code in a module."
 msgstr ""
 
 #. DYo4K
@@ -24136,14 +24136,23 @@ msgctxt ""
 msgid "Syntax:"
 msgstr "構文:"
 
-#. 5VbSr
+#. CXLBw
+#: 03090401.xhp
+msgctxt ""
+"03090401.xhp\n"
+"par_id491585753339474\n"
+"help.text"
+msgid "<image src=\"media/helpimg/sbasic/Call_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Call Statement diagram</alt></image>"
+msgstr ""
+
+#. zeXDB
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3150984\n"
 "help.text"
-msgid "[Call] Name [Parameter]"
-msgstr "[Call] Name [Parameter]"
+msgid "[Call] name [(] [param :=] value, ... [)]"
+msgstr ""
 
 #. 5MBBJ
 #: 03090401.xhp
@@ -24154,23 +24163,23 @@ msgctxt ""
 msgid "Parameters:"
 msgstr "パラメーター:"
 
-#. dpEmD
+#. dbwfN
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3148473\n"
 "help.text"
-msgid "<emph>Name:</emph> Name of the subroutine, the function, or the DLL that you want to call"
-msgstr "<emph>Name:</emph> 呼び出すサブルーチン、関数、DLL の名前。"
+msgid "<emph>name:</emph> Name of the subroutine, the function, or the DLL that you want to call"
+msgstr ""
 
-#. hWBjx
+#. iFYrJ
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3148946\n"
 "help.text"
-msgid "<emph>Parameter:</emph> Parameters to pass to the procedure. The type and number of parameters is dependent on the routine that is executing."
-msgstr "<emph>Parameter:</emph> プロシージャーに渡すパラメータ。どのようなパラメーターをいくつ渡すかは、実行するルーチンに依存します。"
+msgid "<emph>param:</emph> Parameters to pass to the procedure. The keyword, type and number of parameters is dependent on the routine that is being called."
+msgstr ""
 
 #. 4LVmZ
 #: 03090401.xhp
@@ -39805,6 +39814,276 @@ msgctxt ""
 msgid "<ahelp hid=\"SFX2_LISTBOX_RID_SFX_TP_MACROASSIGN_LB_SCRIPTTYPE\">Select the macro that you want to assign.</ahelp>"
 msgstr "<ahelp hid=\"SFX2_LISTBOX_RID_SFX_TP_MACROASSIGN_LB_SCRIPTTYPE\" visibility=\"visible\">割り当てるマクロを選択します。</ahelp>"
 
+#. ZbXw2
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"tit\n"
+"help.text"
+msgid "Err VBA Object"
+msgstr ""
+
+#. iHP2L
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0010\n"
+"help.text"
+msgid "<bookmark_value>Err object</bookmark_value>         <bookmark_value>Error;raising</bookmark_value>         <bookmark_value>Error;handling</bookmark_value>"
+msgstr ""
+
+#. pPqhS
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0011\n"
+"help.text"
+msgid "<variable id=\"ErrVBAh1\"><link href=\"text/sbasic/shared/ErrVBA.xhp\" name=\"Err object [VBA]\">Err Object [VBA]</link></variable>"
+msgstr ""
+
+#. KxDJt
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0012\n"
+"help.text"
+msgid "Use VBA <literal>Err</literal> object to raise or handle runtime errors. <literal>Err</literal> is a VBA built-in global object which permits:"
+msgstr ""
+
+#. VpE8g
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0013\n"
+"help.text"
+msgid "to raise predefined Basic errors"
+msgstr ""
+
+#. tFEYq
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0014\n"
+"help.text"
+msgid "to throw user-defined exceptions"
+msgstr ""
+
+#. BeB2y
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0015\n"
+"help.text"
+msgid "to name the routine originating the error"
+msgstr ""
+
+#. 5FhxC
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0016\n"
+"help.text"
+msgid "to describe the error and possible solutions"
+msgstr ""
+
+#. AbB9s
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0017\n"
+"help.text"
+msgid "VBA <literal>Err</literal> object has the following properties and methods:"
+msgstr ""
+
+#. ivkYo
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0018\n"
+"help.text"
+msgid "Properties"
+msgstr ""
+
+#. UG8Cx
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0020\n"
+"help.text"
+msgid "<emph>Description</emph> property gives the nature of the error. It details the various reasons that may cause the error. Ideally it provides the multiple course of actions that help solve the issue and prevent its reoccurrence. Its alias is Basic <link href=\"text/sbasic/shared/03050300.xhp\" name=\"Error function\">Error</link> function for %PRODUCTNAME predefined errors."
+msgstr ""
+
+#. PjWUG
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0022\n"
+"help.text"
+msgid "This the error code associated with the error. <literal>Err</literal> object default property is <emph>Number</emph>. Its alias is %PRODUCTNAME Basic <link href=\"text/sbasic/shared/03050200.xhp\" name=\"Err\">Err</link> function."
+msgstr ""
+
+#. NJEmn
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0024\n"
+"help.text"
+msgid "<emph>Source</emph> indicates the name of the routine that produces the error. <emph>Source</emph> is an option for user-defined errors."
+msgstr ""
+
+#. MuyUY
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0025\n"
+"help.text"
+msgid "Methods"
+msgstr ""
+
+#. 8sWBq
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0027\n"
+"help.text"
+msgid "Resets description, <link href=\"text/sbasic/shared/03050100.xhp\" name=\"error line\">Erl</link>, number and source properties of current error. Its alias is %PRODUCTNAME Basic <link href=\"text/sbasic/shared/03050500.xhp\" name=\"Resume statement\">Resume</link> statement."
+msgstr ""
+
+#. UEGkA
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0029\n"
+"help.text"
+msgid "Throws user-defined errors or predefined errors. Its alias is %PRODUCTNAME Basic <link href=\"text/sbasic/shared/03050200.xhp\" name=\"Error statement\">Error</link> statement."
+msgstr ""
+
+#. EyCJv
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0030\n"
+"help.text"
+msgid "Parameters"
+msgstr ""
+
+#. 6Rdnc
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0031\n"
+"help.text"
+msgid "<emph>Number</emph> A user-defined or predefined error code to be raised."
+msgstr ""
+
+#. DoFG8
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0032\n"
+"help.text"
+msgid "Error code range 0-2000 is reserved for %PRODUCTNAME Basic. User-defined errors may start from higher values in order to prevent collision with %PRODUCTNAME Basic future developments."
+msgstr ""
+
+#. qoAQE
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0033\n"
+"help.text"
+msgid "<emph>Source</emph> The name of the routine raising the error. A name in the form of \"myLibrary.myModule.myProc\" is recommended."
+msgstr ""
+
+#. kukgW
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0034\n"
+"help.text"
+msgid "<emph>Description</emph> A description of the problem leading to stop the running process, accompanied with the various reasons that may cause it. A detailed list of the possible course of actions that may help solve the problem is recommended."
+msgstr ""
+
+#. 3XjnB
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0041\n"
+"help.text"
+msgid "Err.Raise 2020, Description:=\"This is an intented user-defined error …\""
+msgstr ""
+
+#. vuP6g
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0045\n"
+"help.text"
+msgid "errTitle = \"Error \"& Err &\" at line \"& Erl &\" in \"& Err.Source"
+msgstr ""
+
+#. ZXCWy
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0050\n"
+"help.text"
+msgid "Exception ClassModule"
+msgstr ""
+
+#. RK2AX
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0049\n"
+"help.text"
+msgid "A short <link href=\"text/sbasic/shared/classmodule.xhp\" name=\"ClassModule option\">ClassModule</link>, that wraps VBA <literal>Err</literal> object, can distribute <literal>Err</literal> properties and methods for standard %PRODUCTNAME Basic modules."
+msgstr ""
+
+#. tECEu
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0069\n"
+"help.text"
+msgid "Example"
+msgstr ""
+
+#. oA4pq
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0078\n"
+"help.text"
+msgid "\"Any multi-line description for this user-defined exception\")"
+msgstr ""
+
+#. hzLgR
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0079\n"
+"help.text"
+msgid "' your code goes here …"
+msgstr ""
+
+#. wEaa3
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0083\n"
+"help.text"
+msgid "errTitle = \"Error \"& Exc.Number &\" at line \"& Erl &\" in \"& Exc.Source"
+msgstr ""
+
+#. kBsGp
+#: ErrVBA.xhp
+msgctxt ""
+"ErrVBA.xhp\n"
+"N0088\n"
+"help.text"
+msgid "The <link href=\"text/sbasic/shared/03050300.xhp\" name=\"Error statement\">Error</link> statement or an Exception-like class module can be used interchangeably, while the latter adds extra features."
+msgstr ""
+
 #. h6V9P
 #: GetPathSeparator.xhp
 msgctxt ""
@@ -41362,22 +41641,22 @@ msgctxt ""
 msgid "Mathematical Functions"
 msgstr ""
 
-#. yF8TC
+#. G2UxD
 #: special_vba_func.xhp
 msgctxt ""
 "special_vba_func.xhp\n"
 "bm_id051920170359045662\n"
 "help.text"
-msgid "<bookmark_value>VBA Functions;Object Functions</bookmark_value>"
+msgid "<bookmark_value>VBA Functions;Object Properties and Methods</bookmark_value>"
 msgstr ""
 
-#. 5DGSe
+#. puram
 #: special_vba_func.xhp
 msgctxt ""
 "special_vba_func.xhp\n"
 "hd_id051920170347039686\n"
 "help.text"
-msgid "Object Functions"
+msgid "Object Properties and Methods"
 msgstr ""
 
 #. ZEw4t
@@ -41604,6 +41883,27 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr ""
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "par_id3150984\n"
+#~ "help.text"
+#~ msgid "[Call] Name [Parameter]"
+#~ msgstr "[Call] Name [Parameter]"
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "par_id3148473\n"
+#~ "help.text"
+#~ msgid "<emph>Name:</emph> Name of the subroutine, the function, or the DLL that you want to call"
+#~ msgstr "<emph>Name:</emph> 呼び出すサブルーチン、関数、DLL の名前。"
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "par_id3148946\n"
+#~ "help.text"
+#~ msgid "<emph>Parameter:</emph> Parameters to pass to the procedure. The type and number of parameters is dependent on the routine that is executing."
+#~ msgstr "<emph>Parameter:</emph> プロシージャーに渡すパラメータ。どのようなパラメーターをいくつ渡すかは、実行するルーチンに依存します。"
 
 #~ msgctxt ""
 #~ "01020300.xhp\n"
