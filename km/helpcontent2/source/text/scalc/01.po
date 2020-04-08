@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 01\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-04-03 11:46+0200\n"
+"POT-Creation-Date: 2020-04-08 14:22+0200\n"
 "PO-Revision-Date: 2019-08-09 08:18+0000\n"
 "Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -6200,14 +6200,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_RECEIVED\">Calculates the amount received that is paid for a fixed-interest security at a given point in time.</ahelp>"
 msgstr "<ahelp hid=\"HID_AAI_FUNC_RECEIVED\">គណនា​ចំនួន​ប្រាក់​បាន​ទទួល ដែល​ត្រូវ​បាន​បង់​សម្រាប់​មូលប័ត្រ​ការ​ប្រាក់​ថេរ​មួយ នៅ​ចំណុច​ដែល​បាន​ផ្តល់​ក្នុង​ពេល​វេលា ។</ahelp>"
 
-#. XhTVX
+#. BiDCz
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3145362\n"
 "help.text"
-msgid "RECEIVED(\"Settlement\"; \"Maturity\"; Investment; Discount; Basis)"
-msgstr "RECEIVED(\"ទូទាត់​\"; \"ថ្ងៃ​ដល់​កំណត់​បង់\"; វិនិយោគ​; អប្បហារ; វិនិយោគ​)"
+msgid "RECEIVED(Settlement; Maturity; Investment; Discount[; Basis])"
+msgstr ""
 
 #. oHAVz
 #: 04060103.xhp
@@ -6992,14 +6992,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_DISC\">Calculates the allowance (discount) of a security as a percentage.</ahelp>"
 msgstr "<ahelp hid=\"HID_AAI_FUNC_DISC\">គណនា​ជា​ភាគរយ​នូវ​ការ​ចុះ​ថ្លៃ (អប្បហារ) នៃ​មូលប័ត្រ​មួយ ។</ahelp>"
 
-#. tusey
+#. fBGBA
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3149756\n"
 "help.text"
-msgid "DISC(\"Settlement\"; \"Maturity\"; Price; Redemption; Basis)"
-msgstr "DISC(\"ការ​ទូទាត់\"; \"សង្គ្រោះ\"; តម្លៃ; រំលោះ; មូលដ្ឋាន)"
+msgid "DISC(Settlement; Maturity; Price; Redemption[; Basis])"
+msgstr ""
 
 #. Uyj29
 #: 04060103.xhp
@@ -7082,13 +7082,13 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_DURATION\">Calculates the duration of a fixed interest security in years.</ahelp>"
 msgstr "<ahelp hid=\"HID_AAI_FUNC_DURATION\">គណនា​ថិរវេលា​នៃ​មូលប័ត្រ​ការ​ប្រាក់​ថេរ​ក្នុង​ឆ្នាំ ។</ahelp>"
 
-#. bJZPP
+#. 7ixum
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3153373\n"
 "help.text"
-msgid "DURATION(\"Settlement\"; \"Maturity\"; Coupon; Yield; Frequency; Basis)"
+msgid "DURATION(Settlement; Maturity; Coupon; Yield; Frequency[; Basis])"
 msgstr ""
 
 #. JeeVp
@@ -7145,13 +7145,13 @@ msgctxt ""
 msgid "A security is purchased on 2001-01-01; the maturity date is 2006-01-01. The Coupon rate of interest is 8%. The yield is 9.0%. Interest is paid half-yearly (frequency is 2). Using daily balance interest calculation (basis 3) how long is the duration?"
 msgstr "មូលប័ត្រ​មួយ​ត្រូវ​បាន​ទិញ​នៅ​ថ្ងៃ 2001-01-01 ថ្ងៃ​ដល់​កំណត់​បង់​គឺ 2006-01-01 ។ អត្រា​ការ​ប្រាក់​នាមករណ៍​គឺ 8% ។ ចំណូល​គឺ 9.0% ។ ការ​ប្រាក់​ត្រូវ​បាន​បង់​កន្លះ​ឆ្នាំ​ម្តង (ប្រេកង់​ស្មើ 2) ។ ដោយ​ប្រើ​ការ​គណនា​ការ​ប្រាក់​សមតុល្យ​ប្រចាំ​ឆ្នាំ (មូលដ្ឋាន 3) តើ​ថិរវេលា​ដែល​ត្រូវ​បាន​កែប្រែ​មាន​រយៈ​ពេល​ប៉ុន្មាន ?"
 
-#. ggYzf
+#. ADc8t
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3154902\n"
 "help.text"
-msgid "<item type=\"input\">=DURATION(\"2001-01-01\";\"2006-01-01\";0.08;0.09;2;3)</item>"
+msgid "<input>=DURATION(\"2001-01-01\";\"2006-01-01\";0.08;0.09;2;3)</input> returns 4.2 years."
 msgstr ""
 
 #. TjeEJ
@@ -16586,41 +16586,41 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_FUNC_MMULT\">Calculates the array product of two arrays.</ahelp> The number of columns for array 1 must match the number of rows for array 2. The square array has an equal number of rows and columns."
 msgstr "<ahelp hid=\"HID_FUNC_MMULT\">គណនា​​ផលគុណ​អារេ​នៃ​អារេ​ពីរ ។</ahelp> ចំនួន​ជួរ​ឈរ​នៃ​អារេ១ ត្រូវ​ផ្គូផ្គង​នឹង​ចំនួន​ជួរ​ដេក​នៃ​អារេ២ ។ អារេ​ការេ​មាន​ចំនួន​ជួរ​ដេក និង​ជួរ​ឈរ​ស្មើ​គ្នា ។"
 
-#. dEKAU
+#. JUTAD
 #: 04060107.xhp
 msgctxt ""
 "04060107.xhp\n"
 "par_id3150798\n"
 "help.text"
-msgid "MMULT(Array; Array)"
-msgstr "MMULT(អារ៉េ; អារ៉េ)"
+msgid "MMULT(Array 1; Array 2)"
+msgstr ""
 
-#. noXqv
+#. DqghH
 #: 04060107.xhp
 msgctxt ""
 "04060107.xhp\n"
 "par_id3150812\n"
 "help.text"
-msgid "<emph>Array</emph> at first place represents the first array used in the array product."
-msgstr "<emph>អារេ</emph> នៅ​ទីតាំង​ទីមួយ​តំណាង​ឲ្យ​អារេ​ទីមួយ ដែល​ត្រូវ​បាន​ប្រើ​ក្នុង​ផលគុណ​អារេ ។"
+msgid "<emph>Array 1</emph> represents the first array used in the array product."
+msgstr ""
 
-#. 5qGeT
+#. FDfwg
 #: 04060107.xhp
 msgctxt ""
 "04060107.xhp\n"
 "par_id3152553\n"
 "help.text"
-msgid "<emph>Array</emph> at second place represents the second array with the same number of rows."
-msgstr "<emph>អារេ</emph> នៅ​ទីតាំង​ទីពីរ​តំណាង​ឲ្យ​អារេ​ទីពីរ ដែល​មាន​ចំនួន​ជួរ​ដេក​ដូចគ្នា ។"
+msgid "<emph>Array 2</emph> represents the second array with the same number of rows."
+msgstr ""
 
-#. RoWHa
+#. CuGxm
 #: 04060107.xhp
 msgctxt ""
 "04060107.xhp\n"
 "par_id3146826\n"
 "help.text"
-msgid "Select a square range. Choose the MMULT function. Select the first <emph>Array</emph>, then select the second <emph>Array</emph>. Using <emph>Function Wizard</emph>, mark the <emph>Array</emph> check box. Click <emph>OK</emph>. The output array will appear in the first selected range."
-msgstr "ជ្រើស​ជួរ​ការេ​មួយ ។​ ជ្រើស​អនុគមន៍ MMULT ។ ជ្រើស <emph>អារេ</emph> ដំបូង បន្ទាប់​មក​ជ្រើស <emph>អារេ</emph> ទីពីរ ។ ដោយ​ប្រើ <emph>អ្នក​ជំនួយការ​អនុគមន៍</emph> សម្គាល់​ប្រអប់​ធីក <emph>អារេ</emph> ។ ចុច <emph>យល់ព្រម</emph> ។ អារេ​ទិន្នផល​នឹង​លេច​ឡើង​ក្នុង​ជួរ​ដែល​បាន​ជ្រើស​ដំបូង ។"
+msgid "Select a square range. Choose the MMULT function. Select <emph>Array 1</emph>, then select <emph>Array 2</emph>. Using the <emph>Function Wizard</emph>, mark the <emph>Array</emph> check box. Click <emph>OK</emph>. The output array will appear in the first selected range."
+msgstr ""
 
 #. vPBWq
 #: 04060107.xhp
@@ -18313,15 +18313,6 @@ msgctxt ""
 "help.text"
 msgid "If cell A1 displays Err:518, the function <item type=\"input\">=ERRORTYPE(A1)</item> returns the number 518."
 msgstr "ប្រសិនបើក្រឡា A1 បង្ហាញ Err:518, អនុគមន៍<item type=\"input\">=ERRORTYPE(A1)</item> ត្រឡប់​លេខ 518 ។"
-
-#. FWJTB
-#: 04060109.xhp
-msgctxt ""
-"04060109.xhp\n"
-"hd_id275141466817507\n"
-"help.text"
-msgid "<embedvar href=\"text/scalc/01/func_error_type.xhp#error_type_head\"/>"
-msgstr ""
 
 #. mtLKD
 #: 04060109.xhp
@@ -33785,6 +33776,15 @@ msgctxt ""
 msgid "<ahelp hid=\".\">Returns the inverse of CHISQDIST.</ahelp>"
 msgstr "<ahelp hid=\".\">ត្រឡប់​បញ្ច្រាស​របស់ CHISQDIST ។</ahelp>"
 
+#. ELVTS
+#: 04060181.xhp
+msgctxt ""
+"04060181.xhp\n"
+"par_id21585771564740\n"
+"help.text"
+msgid "CHISQINV(Probability; Degrees of Freedom)"
+msgstr ""
+
 #. KibGe
 #: 04060181.xhp
 msgctxt ""
@@ -35765,6 +35765,15 @@ msgctxt ""
 msgid "<ahelp hid=\".\">Returns the Gamma function value.</ahelp> Note that GAMMAINV is not the inverse of GAMMA, but of GAMMADIST."
 msgstr "<ahelp hid=\".\">ត្រឡប់​តម្លៃអនុគមន៍​ហ្គាំម៉ា ។</ahelp> ចំណាំថា GAMMAINV មិនបញ្ច្រាស​ GAMMA ទេ ប៉ុន្តែ GAMMADIST ។"
 
+#. WT29Z
+#: 04060182.xhp
+msgctxt ""
+"04060182.xhp\n"
+"par_id211585771824267\n"
+"help.text"
+msgid "GAMMA(Number)"
+msgstr ""
+
 #. 2DdQa
 #: 04060182.xhp
 msgctxt ""
@@ -36638,14 +36647,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_FUNC_HYPGEOMVERT\">Returns the hypergeometric distribution.</ahelp>"
 msgstr "<ahelp hid=\"HID_FUNC_HYPGEOMVERT\">ត្រឡប់​ច្បាប់​អ៊ីពែរ​ធរណីមាត្រ ។</ahelp>"
 
-#. fNMzN
+#. 5uQ3c
 #: 04060182.xhp
 msgctxt ""
 "04060182.xhp\n"
 "par_id3155388\n"
 "help.text"
-msgid "HYPGEOMDIST(X; NSample; Successes; NPopulation)"
-msgstr "HYPGEOMDIST(X; NSample; Successes; NPopulation)"
+msgid "HYPGEOMDIST(X; NSample; Successes; NPopulation[; Cumulative])"
+msgstr ""
 
 #. ingyW
 #: 04060182.xhp
@@ -36682,6 +36691,15 @@ msgctxt ""
 "help.text"
 msgid "<emph>NPopulation </emph>is the size of the total population."
 msgstr "<emph>NPopulation </emph>គឺ​ជា​ទំហំ​របស់​ចំនួន​សរុប ។"
+
+#. oDuYV
+#: 04060182.xhp
+msgctxt ""
+"04060182.xhp\n"
+"par_id231585952506847\n"
+"help.text"
+msgid "<emph>Cumulative </emph> (optional) specifies whether to calculate the probability density function (FALSE or 0) or the cumulative distribution function (any other value). The cumulative distribution function is the default if no value is specified for this parameter."
+msgstr ""
 
 #. WUiB6
 #: 04060182.xhp
@@ -56951,14 +56969,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_FUNC_TAGE360\">Returns the difference between two dates based on the 360 day year used in interest calculations.</ahelp>"
 msgstr "<ahelp hid=\"HID_FUNC_TAGE360\">ត្រឡប់​ផលដក​រវាង​កាលបរិច្ឆេទ​ពីរ ដោយ​ផ្អែក​លើ​ឆ្នាំ ៣៦០ ថ្ងៃ ដែល​ប្រើ​ក្នុង​ការ​គណនា​ការ​ប្រាក់ ។</ahelp>"
 
-#. ow4Jg
+#. Vndiw
 #: func_days360.xhp
 msgctxt ""
 "func_days360.xhp\n"
 "par_id3155313\n"
 "help.text"
-msgid "DAYS360(\"Date1\"; \"Date2\"; Type)"
-msgstr "DAYS360(\"កាលបរិច្ឆេទ1\"; \"កាលបរិច្ឆេទ2\"; ប្រភេទ)"
+msgid "DAYS360(Date1; Date2[; Type])"
+msgstr ""
 
 #. 5qfGz
 #: func_days360.xhp
@@ -67327,6 +67345,62 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr ""
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3145362\n"
+#~ "help.text"
+#~ msgid "RECEIVED(\"Settlement\"; \"Maturity\"; Investment; Discount; Basis)"
+#~ msgstr "RECEIVED(\"ទូទាត់​\"; \"ថ្ងៃ​ដល់​កំណត់​បង់\"; វិនិយោគ​; អប្បហារ; វិនិយោគ​)"
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3149756\n"
+#~ "help.text"
+#~ msgid "DISC(\"Settlement\"; \"Maturity\"; Price; Redemption; Basis)"
+#~ msgstr "DISC(\"ការ​ទូទាត់\"; \"សង្គ្រោះ\"; តម្លៃ; រំលោះ; មូលដ្ឋាន)"
+
+#~ msgctxt ""
+#~ "04060107.xhp\n"
+#~ "par_id3150798\n"
+#~ "help.text"
+#~ msgid "MMULT(Array; Array)"
+#~ msgstr "MMULT(អារ៉េ; អារ៉េ)"
+
+#~ msgctxt ""
+#~ "04060107.xhp\n"
+#~ "par_id3150812\n"
+#~ "help.text"
+#~ msgid "<emph>Array</emph> at first place represents the first array used in the array product."
+#~ msgstr "<emph>អារេ</emph> នៅ​ទីតាំង​ទីមួយ​តំណាង​ឲ្យ​អារេ​ទីមួយ ដែល​ត្រូវ​បាន​ប្រើ​ក្នុង​ផលគុណ​អារេ ។"
+
+#~ msgctxt ""
+#~ "04060107.xhp\n"
+#~ "par_id3152553\n"
+#~ "help.text"
+#~ msgid "<emph>Array</emph> at second place represents the second array with the same number of rows."
+#~ msgstr "<emph>អារេ</emph> នៅ​ទីតាំង​ទីពីរ​តំណាង​ឲ្យ​អារេ​ទីពីរ ដែល​មាន​ចំនួន​ជួរ​ដេក​ដូចគ្នា ។"
+
+#~ msgctxt ""
+#~ "04060107.xhp\n"
+#~ "par_id3146826\n"
+#~ "help.text"
+#~ msgid "Select a square range. Choose the MMULT function. Select the first <emph>Array</emph>, then select the second <emph>Array</emph>. Using <emph>Function Wizard</emph>, mark the <emph>Array</emph> check box. Click <emph>OK</emph>. The output array will appear in the first selected range."
+#~ msgstr "ជ្រើស​ជួរ​ការេ​មួយ ។​ ជ្រើស​អនុគមន៍ MMULT ។ ជ្រើស <emph>អារេ</emph> ដំបូង បន្ទាប់​មក​ជ្រើស <emph>អារេ</emph> ទីពីរ ។ ដោយ​ប្រើ <emph>អ្នក​ជំនួយការ​អនុគមន៍</emph> សម្គាល់​ប្រអប់​ធីក <emph>អារេ</emph> ។ ចុច <emph>យល់ព្រម</emph> ។ អារេ​ទិន្នផល​នឹង​លេច​ឡើង​ក្នុង​ជួរ​ដែល​បាន​ជ្រើស​ដំបូង ។"
+
+#~ msgctxt ""
+#~ "04060182.xhp\n"
+#~ "par_id3155388\n"
+#~ "help.text"
+#~ msgid "HYPGEOMDIST(X; NSample; Successes; NPopulation)"
+#~ msgstr "HYPGEOMDIST(X; NSample; Successes; NPopulation)"
+
+#~ msgctxt ""
+#~ "func_days360.xhp\n"
+#~ "par_id3155313\n"
+#~ "help.text"
+#~ msgid "DAYS360(\"Date1\"; \"Date2\"; Type)"
+#~ msgstr "DAYS360(\"កាលបរិច្ឆេទ1\"; \"កាលបរិច្ឆេទ2\"; ប្រភេទ)"
 
 #~ msgctxt ""
 #~ "04060109.xhp\n"

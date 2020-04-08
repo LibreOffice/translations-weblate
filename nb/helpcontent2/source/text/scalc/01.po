@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-04-03 11:46+0200\n"
+"POT-Creation-Date: 2020-04-08 14:22+0200\n"
 "PO-Revision-Date: 2020-02-22 17:15+0000\n"
 "Last-Translator: Karl Morten Ramberg <karl.m.ramberg@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://weblate.documentfoundation.org/projects/libo_help-master/textscalc01/nb_NO/>\n"
@@ -6199,14 +6199,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_RECEIVED\">Calculates the amount received that is paid for a fixed-interest security at a given point in time.</ahelp>"
 msgstr "<ahelp hid=\"HID_AAI_FUNC_RECEIVED\">Beregn hvor mye som er utbetalt for et verdipapir med fast rente på et gitt tidspunkt.</ahelp>"
 
-#. XhTVX
+#. BiDCz
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3145362\n"
 "help.text"
-msgid "RECEIVED(\"Settlement\"; \"Maturity\"; Investment; Discount; Basis)"
-msgstr "MOTTAT.AVKAST(Avregningsdato; Utløpsdato; Investering; Rabatt; Basis)"
+msgid "RECEIVED(Settlement; Maturity; Investment; Discount[; Basis])"
+msgstr ""
 
 #. oHAVz
 #: 04060103.xhp
@@ -6991,14 +6991,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_DISC\">Calculates the allowance (discount) of a security as a percentage.</ahelp>"
 msgstr "<ahelp hid=\"HID_AAI_FUNC_DISC\">Beregn fradraget for et verdipapir i prosent.</ahelp>"
 
-#. tusey
+#. fBGBA
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3149756\n"
 "help.text"
-msgid "DISC(\"Settlement\"; \"Maturity\"; Price; Redemption; Basis)"
-msgstr "DISKONTO(Avregningsdato; Utløpsdato; Kurs; Innfrielseskurs; Basis)"
+msgid "DISC(Settlement; Maturity; Price; Redemption[; Basis])"
+msgstr ""
 
 #. Uyj29
 #: 04060103.xhp
@@ -7081,13 +7081,13 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_DURATION\">Calculates the duration of a fixed interest security in years.</ahelp>"
 msgstr "<ahelp hid=\"HID_AAI_FUNC_DURATION\">Beregn varigheten av et verdipapir med fast rente i antall år.</ahelp>"
 
-#. bJZPP
+#. 7ixum
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3153373\n"
 "help.text"
-msgid "DURATION(\"Settlement\"; \"Maturity\"; Coupon; Yield; Frequency; Basis)"
+msgid "DURATION(Settlement; Maturity; Coupon; Yield; Frequency[; Basis])"
 msgstr ""
 
 #. JeeVp
@@ -7144,13 +7144,13 @@ msgctxt ""
 msgid "A security is purchased on 2001-01-01; the maturity date is 2006-01-01. The Coupon rate of interest is 8%. The yield is 9.0%. Interest is paid half-yearly (frequency is 2). Using daily balance interest calculation (basis 3) how long is the duration?"
 msgstr ""
 
-#. ggYzf
+#. ADc8t
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3154902\n"
 "help.text"
-msgid "<item type=\"input\">=DURATION(\"2001-01-01\";\"2006-01-01\";0.08;0.09;2;3)</item>"
+msgid "<input>=DURATION(\"2001-01-01\";\"2006-01-01\";0.08;0.09;2;3)</input> returns 4.2 years."
 msgstr ""
 
 #. TjeEJ
@@ -16585,40 +16585,40 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_FUNC_MMULT\">Calculates the array product of two arrays.</ahelp> The number of columns for array 1 must match the number of rows for array 2. The square array has an equal number of rows and columns."
 msgstr "<ahelp hid=\"HID_FUNC_MMULT\">Beregn matriseproduktet av to matriser.</ahelp> Antall kolonner i matrise 1 må være lik antall rader i matrise 2. En kvadratisk matrise har like mange rader som kolonner."
 
-#. dEKAU
+#. JUTAD
 #: 04060107.xhp
 msgctxt ""
 "04060107.xhp\n"
 "par_id3150798\n"
 "help.text"
-msgid "MMULT(Array; Array)"
-msgstr "MMULT(Matrise; Matrise)"
+msgid "MMULT(Array 1; Array 2)"
+msgstr ""
 
-#. noXqv
+#. DqghH
 #: 04060107.xhp
 msgctxt ""
 "04060107.xhp\n"
 "par_id3150812\n"
 "help.text"
-msgid "<emph>Array</emph> at first place represents the first array used in the array product."
+msgid "<emph>Array 1</emph> represents the first array used in the array product."
 msgstr ""
 
-#. 5qGeT
+#. FDfwg
 #: 04060107.xhp
 msgctxt ""
 "04060107.xhp\n"
 "par_id3152553\n"
 "help.text"
-msgid "<emph>Array</emph> at second place represents the second array with the same number of rows."
+msgid "<emph>Array 2</emph> represents the second array with the same number of rows."
 msgstr ""
 
-#. RoWHa
+#. CuGxm
 #: 04060107.xhp
 msgctxt ""
 "04060107.xhp\n"
 "par_id3146826\n"
 "help.text"
-msgid "Select a square range. Choose the MMULT function. Select the first <emph>Array</emph>, then select the second <emph>Array</emph>. Using <emph>Function Wizard</emph>, mark the <emph>Array</emph> check box. Click <emph>OK</emph>. The output array will appear in the first selected range."
+msgid "Select a square range. Choose the MMULT function. Select <emph>Array 1</emph>, then select <emph>Array 2</emph>. Using the <emph>Function Wizard</emph>, mark the <emph>Array</emph> check box. Click <emph>OK</emph>. The output array will appear in the first selected range."
 msgstr ""
 
 #. vPBWq
@@ -18312,15 +18312,6 @@ msgctxt ""
 "help.text"
 msgid "If cell A1 displays Err:518, the function <item type=\"input\">=ERRORTYPE(A1)</item> returns the number 518."
 msgstr "Hvis celle A1 viser Err:518, gir funksjonen <item type=\"input\">=FEILTYPE(A1)</item> tallet 518."
-
-#. FWJTB
-#: 04060109.xhp
-msgctxt ""
-"04060109.xhp\n"
-"hd_id275141466817507\n"
-"help.text"
-msgid "<embedvar href=\"text/scalc/01/func_error_type.xhp#error_type_head\"/>"
-msgstr ""
 
 #. mtLKD
 #: 04060109.xhp
@@ -33784,6 +33775,15 @@ msgctxt ""
 msgid "<ahelp hid=\".\">Returns the inverse of CHISQDIST.</ahelp>"
 msgstr ""
 
+#. ELVTS
+#: 04060181.xhp
+msgctxt ""
+"04060181.xhp\n"
+"par_id21585771564740\n"
+"help.text"
+msgid "CHISQINV(Probability; Degrees of Freedom)"
+msgstr ""
+
 #. KibGe
 #: 04060181.xhp
 msgctxt ""
@@ -35764,6 +35764,15 @@ msgctxt ""
 msgid "<ahelp hid=\".\">Returns the Gamma function value.</ahelp> Note that GAMMAINV is not the inverse of GAMMA, but of GAMMADIST."
 msgstr ""
 
+#. WT29Z
+#: 04060182.xhp
+msgctxt ""
+"04060182.xhp\n"
+"par_id211585771824267\n"
+"help.text"
+msgid "GAMMA(Number)"
+msgstr ""
+
 #. 2DdQa
 #: 04060182.xhp
 msgctxt ""
@@ -36637,13 +36646,13 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_FUNC_HYPGEOMVERT\">Returns the hypergeometric distribution.</ahelp>"
 msgstr "<ahelp hid=\"HID_FUNC_HYPGEOMVERT\">Gir den hypergeometriske fordelinga.</ahelp>"
 
-#. fNMzN
+#. 5uQ3c
 #: 04060182.xhp
 msgctxt ""
 "04060182.xhp\n"
 "par_id3155388\n"
 "help.text"
-msgid "HYPGEOMDIST(X; NSample; Successes; NPopulation)"
+msgid "HYPGEOMDIST(X; NSample; Successes; NPopulation[; Cumulative])"
 msgstr ""
 
 #. ingyW
@@ -36680,6 +36689,15 @@ msgctxt ""
 "par_id3148826\n"
 "help.text"
 msgid "<emph>NPopulation </emph>is the size of the total population."
+msgstr ""
+
+#. oDuYV
+#: 04060182.xhp
+msgctxt ""
+"04060182.xhp\n"
+"par_id231585952506847\n"
+"help.text"
+msgid "<emph>Cumulative </emph> (optional) specifies whether to calculate the probability density function (FALSE or 0) or the cumulative distribution function (any other value). The cumulative distribution function is the default if no value is specified for this parameter."
 msgstr ""
 
 #. WUiB6
@@ -56950,13 +56968,13 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_FUNC_TAGE360\">Returns the difference between two dates based on the 360 day year used in interest calculations.</ahelp>"
 msgstr "<ahelp hid=\"HID_FUNC_TAGE360\">Gir forskjellen mellom to datoer ut fra et 360-dagers år, slik det brukes i renteberegninger.</ahelp>"
 
-#. ow4Jg
+#. Vndiw
 #: func_days360.xhp
 msgctxt ""
 "func_days360.xhp\n"
 "par_id3155313\n"
 "help.text"
-msgid "DAYS360(\"Date1\"; \"Date2\"; Type)"
+msgid "DAYS360(Date1; Date2[; Type])"
 msgstr ""
 
 #. 5qfGz
@@ -67326,6 +67344,27 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr ""
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3145362\n"
+#~ "help.text"
+#~ msgid "RECEIVED(\"Settlement\"; \"Maturity\"; Investment; Discount; Basis)"
+#~ msgstr "MOTTAT.AVKAST(Avregningsdato; Utløpsdato; Investering; Rabatt; Basis)"
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3149756\n"
+#~ "help.text"
+#~ msgid "DISC(\"Settlement\"; \"Maturity\"; Price; Redemption; Basis)"
+#~ msgstr "DISKONTO(Avregningsdato; Utløpsdato; Kurs; Innfrielseskurs; Basis)"
+
+#~ msgctxt ""
+#~ "04060107.xhp\n"
+#~ "par_id3150798\n"
+#~ "help.text"
+#~ msgid "MMULT(Array; Array)"
+#~ msgstr "MMULT(Matrise; Matrise)"
 
 #~ msgctxt ""
 #~ "04060109.xhp\n"

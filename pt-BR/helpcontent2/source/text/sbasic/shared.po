@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-04-03 11:46+0200\n"
+"POT-Creation-Date: 2020-04-08 14:22+0200\n"
 "PO-Revision-Date: 2020-04-08 12:26+0000\n"
 "Last-Translator: Tulio Macedo <tuliomac@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://weblate.documentfoundation.org/projects/libo_help-master/textsbasicshared/pt_BR/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1559388696.000000\n"
 
 #. yzYVt
@@ -24127,14 +24127,14 @@ msgctxt ""
 msgid "<link href=\"text/sbasic/shared/03090401.xhp\" name=\"Call Statement\">Call Statement</link>"
 msgstr "<link href=\"text/sbasic/shared/03090401.xhp\" name=\"Call Statement\">Instrução Call</link>"
 
-#. wneEE
+#. nPKzF
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3153394\n"
 "help.text"
-msgid "Transfers the control of the program to a subroutine, a function, or a DLL procedure."
-msgstr "Transfere o controle do programa para uma sub-rotina, uma função ou um procedimento DLL."
+msgid "Transfers the control of the program to a subroutine, a function, or a procedure of a <link href=\"text/sbasic/shared/03090403.xhp\" name=\"Dynamic Link Library\">Dynamic Link Library (DLL)</link>. The keyword, type and number of parameters is dependent on the routine that is being called."
+msgstr ""
 
 #. MdeJS
 #: 03090401.xhp
@@ -24172,32 +24172,50 @@ msgctxt ""
 msgid "Parameters:"
 msgstr "Parâmetros:"
 
-#. dbwfN
+#. C2MXB
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3148473\n"
 "help.text"
-msgid "<emph>name:</emph> Name of the subroutine, the function, or the DLL that you want to call"
+msgid "<emph>name:</emph> Name of the subroutine, the function, or the <link href=\"text/sbasic/shared/03090403.xhp\" name=\"Dynamic Link Library\">DLL</link> that you want to call"
 msgstr ""
 
-#. iFYrJ
+#. 23rrr
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3148946\n"
 "help.text"
-msgid "<emph>param:</emph> Parameters to pass to the procedure. The keyword, type and number of parameters is dependent on the routine that is being called."
+msgid "<emph>param:</emph> Keyword parameter name to pass to the routine, followed by its <emph>value</emph>. The name must match the routine declaration. Keywords are optional and can be used in any order."
 msgstr ""
 
-#. 4LVmZ
+#. r9JSP
+#: 03090401.xhp
+msgctxt ""
+"03090401.xhp\n"
+"par_id871586190690812\n"
+"help.text"
+msgid "<emph>value:</emph> Positional parameter value. The type is dependent on the routine that is being called"
+msgstr ""
+
+#. gANH7
+#: 03090401.xhp
+msgctxt ""
+"03090401.xhp\n"
+"par_id421586006407428\n"
+"help.text"
+msgid "When mixing positional and keyword parameters, make sure positional parameters are following the routine declaration order."
+msgstr ""
+
+#. xFXk8
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3154216\n"
 "help.text"
-msgid "A keyword is optional when you call a procedure. If a function is executed as an expression, the parameters must be enclosed by brackets in the statement. If a DLL is called, it must first be specified in the <emph>Declare-Statement</emph>."
-msgstr "Durante a chamada a um procedimento, o uso de uma palavra-chave é opcional. Se a função for executada como uma expressão, os parâmetros deverão estar entre parênteses na instrução. Caso seja chamada uma DLL, será necessário especificá-la primeiro na <emph>Instrução Declare</emph>."
+msgid "When a function is used as an expression, enclosing parameters with brackets becomes necessary. Using a <link href=\"text/sbasic/shared/03090403.xhp\" name=\"Declare Statement\">Declare statement</link> is compulsory prior to call a DLL."
+msgstr ""
 
 #. QZZ8c
 #: 03090401.xhp
@@ -41892,6 +41910,20 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME IDE do Basic</link>"
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "par_id3153394\n"
+#~ "help.text"
+#~ msgid "Transfers the control of the program to a subroutine, a function, or a DLL procedure."
+#~ msgstr "Transfere o controle do programa para uma sub-rotina, uma função ou um procedimento DLL."
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "par_id3154216\n"
+#~ "help.text"
+#~ msgid "A keyword is optional when you call a procedure. If a function is executed as an expression, the parameters must be enclosed by brackets in the statement. If a DLL is called, it must first be specified in the <emph>Declare-Statement</emph>."
+#~ msgstr "Durante a chamada a um procedimento, o uso de uma palavra-chave é opcional. Se a função for executada como uma expressão, os parâmetros deverão estar entre parênteses na instrução. Caso seja chamada uma DLL, será necessário especificá-la primeiro na <emph>Instrução Declare</emph>."
 
 #~ msgctxt ""
 #~ "00000003.xhp\n"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-04-03 11:46+0200\n"
+"POT-Creation-Date: 2020-04-08 14:22+0200\n"
 "PO-Revision-Date: 2018-10-21 20:03+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24118,14 +24118,14 @@ msgctxt ""
 msgid "<link href=\"text/sbasic/shared/03090401.xhp\" name=\"Call Statement\">Call Statement</link>"
 msgstr ""
 
-#. wneEE
+#. nPKzF
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3153394\n"
 "help.text"
-msgid "Transfers the control of the program to a subroutine, a function, or a DLL procedure."
-msgstr "প্রোগ্রামের কন্ট্রোলটি সাবরুটিন, ফাংশন, বা DLL প্রসিজারে পরিবর্তন করে।"
+msgid "Transfers the control of the program to a subroutine, a function, or a procedure of a <link href=\"text/sbasic/shared/03090403.xhp\" name=\"Dynamic Link Library\">Dynamic Link Library (DLL)</link>. The keyword, type and number of parameters is dependent on the routine that is being called."
+msgstr ""
 
 #. MdeJS
 #: 03090401.xhp
@@ -24163,32 +24163,50 @@ msgctxt ""
 msgid "Parameters:"
 msgstr "প্যারামিটার:"
 
-#. dbwfN
+#. C2MXB
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3148473\n"
 "help.text"
-msgid "<emph>name:</emph> Name of the subroutine, the function, or the DLL that you want to call"
+msgid "<emph>name:</emph> Name of the subroutine, the function, or the <link href=\"text/sbasic/shared/03090403.xhp\" name=\"Dynamic Link Library\">DLL</link> that you want to call"
 msgstr ""
 
-#. iFYrJ
+#. 23rrr
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3148946\n"
 "help.text"
-msgid "<emph>param:</emph> Parameters to pass to the procedure. The keyword, type and number of parameters is dependent on the routine that is being called."
+msgid "<emph>param:</emph> Keyword parameter name to pass to the routine, followed by its <emph>value</emph>. The name must match the routine declaration. Keywords are optional and can be used in any order."
 msgstr ""
 
-#. 4LVmZ
+#. r9JSP
+#: 03090401.xhp
+msgctxt ""
+"03090401.xhp\n"
+"par_id871586190690812\n"
+"help.text"
+msgid "<emph>value:</emph> Positional parameter value. The type is dependent on the routine that is being called"
+msgstr ""
+
+#. gANH7
+#: 03090401.xhp
+msgctxt ""
+"03090401.xhp\n"
+"par_id421586006407428\n"
+"help.text"
+msgid "When mixing positional and keyword parameters, make sure positional parameters are following the routine declaration order."
+msgstr ""
+
+#. xFXk8
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "par_id3154216\n"
 "help.text"
-msgid "A keyword is optional when you call a procedure. If a function is executed as an expression, the parameters must be enclosed by brackets in the statement. If a DLL is called, it must first be specified in the <emph>Declare-Statement</emph>."
-msgstr "একটি প্রসিজার কল করার সময় কীওয়ার্ডটি ঐচ্ছিক হয়। যদি ফাংশনটি একটি এক্সপ্রেশন হিসেবে চালনা করা হয়, তাহলে প্যারামিটারটি অবশ্যই স্টেটমেন্টে বন্ধনী দ্বারা আবদ্ধ থাকে। যদি DLL কল করা হয়, তাহলে এটি অবশ্যই প্রথমে <emph>Declare-Statement</emph> তে উল্লেখিত হবে।"
+msgid "When a function is used as an expression, enclosing parameters with brackets becomes necessary. Using a <link href=\"text/sbasic/shared/03090403.xhp\" name=\"Declare Statement\">Declare statement</link> is compulsory prior to call a DLL."
+msgstr ""
 
 #. QZZ8c
 #: 03090401.xhp
@@ -41883,6 +41901,20 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr ""
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "par_id3153394\n"
+#~ "help.text"
+#~ msgid "Transfers the control of the program to a subroutine, a function, or a DLL procedure."
+#~ msgstr "প্রোগ্রামের কন্ট্রোলটি সাবরুটিন, ফাংশন, বা DLL প্রসিজারে পরিবর্তন করে।"
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "par_id3154216\n"
+#~ "help.text"
+#~ msgid "A keyword is optional when you call a procedure. If a function is executed as an expression, the parameters must be enclosed by brackets in the statement. If a DLL is called, it must first be specified in the <emph>Declare-Statement</emph>."
+#~ msgstr "একটি প্রসিজার কল করার সময় কীওয়ার্ডটি ঐচ্ছিক হয়। যদি ফাংশনটি একটি এক্সপ্রেশন হিসেবে চালনা করা হয়, তাহলে প্যারামিটারটি অবশ্যই স্টেটমেন্টে বন্ধনী দ্বারা আবদ্ধ থাকে। যদি DLL কল করা হয়, তাহলে এটি অবশ্যই প্রথমে <emph>Declare-Statement</emph> তে উল্লেখিত হবে।"
 
 #~ msgctxt ""
 #~ "03090401.xhp\n"
