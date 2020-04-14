@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-03-31 10:35+0200\n"
-"PO-Revision-Date: 2020-04-08 12:26+0000\n"
+"PO-Revision-Date: 2020-04-14 06:16+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://weblate.documentfoundation.org/projects/libo_help-master/textscalcguide/el/>\n"
 "Language: el\n"
@@ -8979,7 +8979,7 @@ msgctxt ""
 "par_id0908200901265196\n"
 "help.text"
 msgid "<emph>Only integer numbers including exponent are converted</emph>, and ISO 8601 dates and times in their extended formats with separators. Anything else, like fractional numbers with decimal separators or dates other than ISO 8601, is not converted, as the text string would be locale dependent. Leading and trailing blanks are ignored."
-msgstr ""
+msgstr "<emph>Μόνο ακέραιοι αριθμοί συμπεριλαμβανομένων των εκθετών μετατρέπονται</emph> και οι ημερομηνίες και οι χρόνοι ISO 8601 στις εκτεταμένες μορφές τους με διαχωριστικά. Οτιδήποτε άλλο, όπως κλασματικοί αριθμοί με δεκαδικά ή ημερομηνίες εκτός από ISO 8601, δεν μετατρέπονται, επειδή η συμβολοσειρά κειμένου θα είναι τοπικά εξαρτημένη. Τα αρχικά και τελικά κενά παραβλέπονται."
 
 #. KHDbE
 #: numbers_text.xhp
@@ -9105,7 +9105,7 @@ msgctxt ""
 "par_id761567607207916\n"
 "help.text"
 msgid "The conversion is done for single scalar values only, not within ranges."
-msgstr ""
+msgstr "Η μετατροπή γίνεται για μόνο μοναδικές βαθμωτές τιμές, όχι μέσα σε περιοχές."
 
 #. C6ykS
 #: numbers_text.xhp
@@ -9114,7 +9114,7 @@ msgctxt ""
 "par_id0908200901265448\n"
 "help.text"
 msgid "The conversion is done for single scalar values, as in =A1+A2, or =\"1E2\"+1. Cell range arguments are not affected, so SUM(A1:A2) differs from A1+A2 if at least one of the two cells contain a convertible string."
-msgstr ""
+msgstr "Η μετατροπή γίνεται για μοναδικές βαθμωτές τιμές, όπως στο =A1+A2, ή =\"1E2\"+1.. Τα ορίσματα περιοχής κελιών δεν επηρεάζονται, έτσι το SUM(A1:A2) διαφέρει από το A1+A2 εάν τουλάχιστον ένα από τα δύο κελιά περιέχει μετατρέψιμη συμβολοσειρά."
 
 #. N4xE3
 #: numbers_text.xhp
@@ -9141,7 +9141,7 @@ msgctxt ""
 "par_id1005200903485359\n"
 "help.text"
 msgid "In A1 enter the text <literal>'1e2</literal> (which is converted to the number 100 internally)."
-msgstr ""
+msgstr "Στο A1 εισάγετε το κείμενο <literal>'1e2</literal> (που μετατρέπεται στον αριθμό 100 εσωτερικά)."
 
 #. CFpmx
 #: numbers_text.xhp
@@ -9150,7 +9150,7 @@ msgctxt ""
 "par_id1005200903485341\n"
 "help.text"
 msgid "In A2 enter <literal>=A1+1</literal> (which correctly results in 101)."
-msgstr ""
+msgstr "Στο A2 εισάγετε <literal>=A1+1</literal> (που έχει ως αποτέλεσμα σωστά 101)."
 
 #. MLL7F
 #: numbers_text.xhp
@@ -9160,6 +9160,8 @@ msgctxt ""
 "help.text"
 msgid "The formula <literal>=SUM(A1:A2)</literal>, returns 101 instead of 201 because the conversion does not occur in a range, only for single scalar values. Here, '1e2 is treated as string which is ignored for the SUM function."
 msgstr ""
+"Ο τύπος <literal>=SUM(A1:A2)</literal>, επιστρέφει 101 αντί για 201 επειδή η μετατροπή δεν συμβαίνει σε περιοχή, μόνο για μοναδικές βαθμωτές τιμές.\n"
+"Εδώ, '1e2 αντιμετωπίζεται ως συμβολοσειρά που αγνοείται για τη συνάρτηση SUM."
 
 #. hoF73
 #: numbers_text.xhp
@@ -9168,7 +9170,7 @@ msgctxt ""
 "par_id611567607779380\n"
 "help.text"
 msgid "<literal>=SUM(\"1E2\";1)</literal> returns #VALUE! because SUM() and some others that iterate over number sequences explicitly check the argument type."
-msgstr ""
+msgstr "Το <literal>=SUM(\"1E2\";1)</literal> επιστρέφει #ΤΙΜΗ! επειδή η SUM() και κάποιες άλλες που επαναλαμβάνουν αριθμητικές ακολουθίες ελέγχουν ρητά τον τύπο ορίσματος."
 
 #. RNrFS
 #: numbers_text.xhp
@@ -9177,7 +9179,7 @@ msgctxt ""
 "hd_id871567772424915\n"
 "help.text"
 msgid "Changing the default text to number conversion settings"
-msgstr ""
+msgstr "Αλλαγή του προεπιλεγμένου κειμένου σε ρυθμίσεις μετατροπής αριθμού"
 
 #. FrQEr
 #: numbers_text.xhp
@@ -9186,7 +9188,7 @@ msgctxt ""
 "par_id111567772433803\n"
 "help.text"
 msgid "The text to number conversion can be customized in the <embedvar href=\"text/shared/optionen/detailedcalculation.xhp#detailed_heading\" markup=\"ignore\"/> option."
-msgstr ""
+msgstr "Η μετατροπή κειμένου σε αριθμό μπορεί να προσαρμοστεί στην επιλογή <embedvar href=\"text/shared/optionen/detailedcalculation.xhp#detailed_heading\" markup=\"ignore\"/>."
 
 #. WE8wt
 #: numbers_text.xhp
@@ -11346,7 +11348,7 @@ msgctxt ""
 "hd_id3148798\n"
 "help.text"
 msgid "<variable id=\"specialfilter\"><link href=\"text/scalc/guide/specialfilter.xhp\" name=\"Filter: Applying Advanced Filters\">Filter: Applying Advanced Filters</link></variable>"
-msgstr ""
+msgstr "<variable id=\"specialfilter\"><link href=\"text/scalc/guide/specialfilter.xhp\" name=\"Filter: Applying Advanced Filters\">Φίλτρο: Εφαρμογή προχωρημένων φίλτρων</link></variable>"
 
 #. tYuAi
 #: specialfilter.xhp
@@ -11805,7 +11807,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Using Subtotals Tool"
-msgstr ""
+msgstr "Χρήση εργαλείου μερικών αθροισμάτων"
 
 #. aKjYH
 #: subtotaltool.xhp
@@ -11814,7 +11816,7 @@ msgctxt ""
 "bm_id521585182060496\n"
 "help.text"
 msgid "<bookmark_value>subtotals;using subtotals tool</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>μερικά αθροίσματα;χρήση εργαλείου μερικών αθροισμάτων</bookmark_value>"
 
 #. 6JBG9
 #: subtotaltool.xhp
@@ -11823,7 +11825,7 @@ msgctxt ""
 "hd_id631585177069332\n"
 "help.text"
 msgid "<variable id=\"subtotaltoolh1\"><link href=\"text/scalc/guide/subtotaltool.xhp\" name=\"Using Subtotal Tool\">Using Subtotal Tool</link></variable>"
-msgstr ""
+msgstr "<variable id=\"subtotaltoolh1\"><link href=\"text/scalc/guide/subtotaltool.xhp\" name=\"Using Subtotal Tool\">Χρήση εργαλείου μερικών αθροισμάτων</link></variable>"
 
 #. rC9BC
 #: subtotaltool.xhp
@@ -11832,7 +11834,7 @@ msgctxt ""
 "par_id301585177069332\n"
 "help.text"
 msgid "Calc offers the Subtotals tool as a more comprehensive alternative to the <link href=\"text/scalc/01/04060106.xhp#Section12\" name=\"subtotal\">SUBTOTAL function</link>. In contrast to SUBTOTAL, which only works on a single array, the Subtotals tool can create subtotals for up to three arrays arranged in labeled columns. It also groups subtotals by category and sorts them automatically, thereby eliminating the need to apply AutoFilters and filter categories by hand."
-msgstr ""
+msgstr "Το Calc προσφέρει το εργαλείο μερικών αθροισμάτων ως μια πιο εμπεριστατωμένη εναλλακτική στη <link href=\"text/scalc/01/04060106.xhp#Section12\" name=\"subtotal\">συνάρτηση  SUBTOTAL</link>. Αντίθετα προς την SUBTOTAL, που δουλεύει μόνο σε μοναδικό πίνακα, το εργαλείο αθροισμάτων μπορεί να δημιουργήσει μερικά αθροίσματα μέχρι τρεις πίνακες διαταγμένους σε στήλες με ετικέτες. Ομαδοποιεί επίσης μερικά αθροίσματα ανά κατηγορία και τα ταξινομεί αυτόματα, περιορίζοντας συνεπώς την ανάγκη εφαρμογής αυτόματων φίλτρων και το φιλτράρισμα κατηγοριών με το χέρι."
 
 #. NEkbi
 #: subtotaltool.xhp

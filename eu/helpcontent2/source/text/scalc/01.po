@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-04-08 14:22+0200\n"
-"PO-Revision-Date: 2020-04-12 23:13+0000\n"
+"PO-Revision-Date: 2020-04-14 06:16+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://weblate.documentfoundation.org/projects/libo_help-master/textscalc01/eu/>\n"
 "Language: eu\n"
@@ -13415,7 +13415,7 @@ msgctxt ""
 "par_id3160449\n"
 "help.text"
 msgid "If you enter the numbers 2; 3 and 4 in the Number 1; 2 and 3 arguments, 29 is returned as the result."
-msgstr ""
+msgstr "2, 3 eta 4 zenbakiak sartzen badira 1., 2. eta 3. zenbakien argumentuetan, 29 itzuliko da emaitza gisa."
 
 #. KGako
 #: 04060106.xhp
@@ -18779,7 +18779,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr ""
+msgstr "<emph>BarrutiOrdenatuarenKontsulta</emph> aukerako parametro bat da, matrizearen lehen zutabeak barruti-mugak dituen (balio soilik izan ordez) adierazten duena. Modu horretan, kontsultak itzultzen du BilaketaIrizpideak balioaren berdina edo txikiagoa duen lehen zutabea duen errenkadako balioa. Adibidez, parametro horrek zerga-balioren bat aldatu deneko datak eduki ditzake, eta kasu horretan, zerga-balio bat indarrean sartu zeneko denbora-tarte baten hasiera-datak ordezkatzen dituzte balioek. Beraz, matrizearen lehen zutabean ez dagoen data bat bilatzen bada, data hori ez badago data-muga batzuen artean, haietako baxuena emango luke, bilatutako datan indarrean sartzen den data bilatzea ahalbidetuz. Sartu FALSE (gezurra) balio boolearra edo zero lehen zutabea ez bada barruti-mugen zerrenda bat. Parametro hau TRUE (egia) bada edo ematen ez bada, matrizeko lehen zutabea <emph>gorantz ordenatu behar da</emph>. Ordenatutako zutabeak azkarrago arakatzen dira eta funtzioak beti itzultzen du baio bat, baita bilaketa-balioa zehatz-mehatz bat ez badator ere, ordenatutako zerrendako baliorik baxuena baino altuagoa bada. Ordenatu gabeko zerrendetan, bilaketa-balioarekin zehaztasunez egin behar da bat; bestela, funtzioak #E/E itzuliko du eta honako mezua emango du: <emph>Errorea: Balioa ez dago eskuragarri</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -23315,7 +23315,7 @@ msgctxt ""
 "hd_id3152890\n"
 "help.text"
 msgid "Functions of <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library</caseinline><defaultinline>AddIn DLL</defaultinline></switchinline>"
-msgstr ""
+msgstr "<switchinline select=\"sys\"><defaultinline>Osagarrien DLLaren</defaultinline></switchinline><caseinline select=\"UNIX\">liburutegi partekatuko</caseinline> funtzioak"
 
 #. DPTDC
 #: 04060112.xhp
@@ -23513,7 +23513,7 @@ msgctxt ""
 "par_id3153019\n"
 "help.text"
 msgid "Following you will find a description of those functions, which are called at the <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library</caseinline><defaultinline>external DLL</defaultinline></switchinline>."
-msgstr ""
+msgstr "Ondoren, <defaultinline>kanpoko DLLaren</defaultinline><switchinline select=\"sys\"><caseinline select=\"UNIX\">liburutegi partekatuan</caseinline></switchinline> deitzen diren funtzio horiek deskribapena dago."
 
 #. kDo37
 #: 04060112.xhp
@@ -23522,7 +23522,7 @@ msgctxt ""
 "par_id3150038\n"
 "help.text"
 msgid "For all <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library</caseinline><defaultinline>DLL</defaultinline></switchinline> functions, the following applies:"
-msgstr ""
+msgstr "<switchinline select=\"sys\"><defaultinline>DLL</defaultinline><caseinline select=\"UNIX\">liburutegi partekatuaren</caseinline></switchinline> funtzioen kasuan, honakoa aplikatzen da:"
 
 #. QZ7q4
 #: 04060112.xhp
@@ -23612,7 +23612,7 @@ msgctxt ""
 "par_id3149949\n"
 "help.text"
 msgid "<emph>Input</emph>: Function number between 0 and nCount-1, inclusively."
-msgstr ""
+msgstr "<emph>Sarrera</emph>: 0 eta nCount-1 (biak barne) arteko funtzio-zenbakia."
 
 #. CSBYk
 #: 04060112.xhp
@@ -23630,7 +23630,7 @@ msgctxt ""
 "par_id3150142\n"
 "help.text"
 msgid "<emph>Output</emph>: Number of parameters in AddIn function. This number must be greater than 0, because there is always a result value; the maximum value is 16."
-msgstr ""
+msgstr "<emph>Irteera</emph>: Osagarrien funtzioaren parametro kopurua. Zenbakiak 0 baino handiagoa izan behar du, beti baitago emaitzako balio bat; gehieneko balioa 16 da."
 
 #. TjFBR
 #: 04060112.xhp
@@ -23648,7 +23648,7 @@ msgctxt ""
 "par_id3155261\n"
 "help.text"
 msgid "<emph>Output</emph>: Function name as seen by the user, as it appears in the <emph>Function Wizard</emph>. May contain umlauts."
-msgstr ""
+msgstr "<emph>Irteera</emph>: Funtzioaren izena, erabiltzaileak ikusten duen eran, <emph>funtzioen morroian</emph> agertzen diren moduan. Dieresiak eduki ditzake."
 
 #. rcNLZ
 #: 04060112.xhp
@@ -23684,7 +23684,7 @@ msgctxt ""
 "par_id3153564\n"
 "help.text"
 msgid "<literal>void CALLTYPE GetParameterDescription(USHORT& nNo, USHORT& nParam, char* pName, char* pDesc)</literal>"
-msgstr ""
+msgstr "<literal>void CALLTYPE GetParameterDescription(USHORT& nNo, USHORT& nParam, char* pName, char* pDesc)</literal>"
 
 #. 99Z6E
 #: 04060112.xhp
@@ -23702,7 +23702,7 @@ msgctxt ""
 "par_id3149883\n"
 "help.text"
 msgid "<emph>Input</emph>: Number of the function in the library; between 0 and nCount-1."
-msgstr ""
+msgstr "<emph>Sarrera</emph>: Funtzioaren zenbakia liburutegian: 0 eta nCount-1 artean."
 
 #. QHn87
 #: 04060112.xhp
@@ -38174,7 +38174,7 @@ msgctxt ""
 "par_id3153336\n"
 "help.text"
 msgid "MINA(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "MINA(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. TrF9C
 #: 04060184.xhp
@@ -38228,7 +38228,7 @@ msgctxt ""
 "par_id3145636\n"
 "help.text"
 msgid "AVEDEV(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "AVEDEV(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. UA5P6
 #: 04060184.xhp
@@ -38273,7 +38273,7 @@ msgctxt ""
 "par_id3154679\n"
 "help.text"
 msgid "AVERAGE(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "AVERAGE(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. AjUyH
 #: 04060184.xhp
@@ -38318,7 +38318,7 @@ msgctxt ""
 "par_id3149734\n"
 "help.text"
 msgid "AVERAGEA(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "AVERAGEA(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. sxYNi
 #: 04060184.xhp
@@ -38336,7 +38336,7 @@ msgctxt ""
 "hd_id110421803716508\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/01/func_averageif.xhp#averageif_head\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_averageif.xhp#averageif_head\"/>"
 
 #. K3rLb
 #: 04060184.xhp
@@ -38345,7 +38345,7 @@ msgctxt ""
 "hd_id5471656631510\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/01/func_averageifs.xhp#averageifs_head\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_averageifs.xhp#averageifs_head\"/>"
 
 #. hKE9h
 #: 04060184.xhp
@@ -38381,7 +38381,7 @@ msgctxt ""
 "par_id3155950\n"
 "help.text"
 msgid "MODE(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "MODE(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. VYNy2
 #: 04060184.xhp
@@ -38426,7 +38426,7 @@ msgctxt ""
 "par_id2955950\n"
 "help.text"
 msgid "MODE.SNGL(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "MODE.SNGL(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. BGawC
 #: 04060184.xhp
@@ -38480,7 +38480,7 @@ msgctxt ""
 "par_id2855950\n"
 "help.text"
 msgid "MODE.MULT(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "MODE.MULT(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. nrjtV
 #: 04060184.xhp
@@ -40262,7 +40262,7 @@ msgctxt ""
 "par_id3151191\n"
 "help.text"
 msgid "SKEW(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "SKEW(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. BmsyE
 #: 04060185.xhp
@@ -40271,7 +40271,7 @@ msgctxt ""
 "par_id171585151428396\n"
 "help.text"
 msgid "The parameters should specify at least three values."
-msgstr ""
+msgstr "Parametroek gutxienez hiru balio zehaztu behar dituzte."
 
 #. sBJ47
 #: 04060185.xhp
@@ -40460,7 +40460,7 @@ msgctxt ""
 "par_id3149946\n"
 "help.text"
 msgid "STDEV(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "STDEV(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. H3V9F
 #: 04060185.xhp
@@ -40469,7 +40469,7 @@ msgctxt ""
 "par_id211585163957345\n"
 "help.text"
 msgid "The parameters should specify at least two values."
-msgstr ""
+msgstr "Parametroek gutxienez bi balio zehaztu behar dituzte."
 
 #. S754h
 #: 04060185.xhp
@@ -40478,7 +40478,7 @@ msgctxt ""
 "par_id3149434\n"
 "help.text"
 msgid "<input>=STDEV(A1:A50)</input> returns the estimated standard deviation based on the data referenced."
-msgstr ""
+msgstr "<input>=STDEV(A1:A50)</input> funtzioak desbideratze estandar haztatua itzultzen du, erreferentzia den datuetan oinarrituta."
 
 #. EaGD7
 #: 04060185.xhp
@@ -40514,7 +40514,7 @@ msgctxt ""
 "par_id3147422\n"
 "help.text"
 msgid "STDEVA(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "STDEVA(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. iK7Ch
 #: 04060185.xhp
@@ -40523,7 +40523,7 @@ msgctxt ""
 "par_id981585163977014\n"
 "help.text"
 msgid "The parameters should specify at least two values. Text has the value 0."
-msgstr ""
+msgstr "Parametroek gutxienez bi balio zehaztu behar dituzte. Testuak 0 balioa du."
 
 #. mgbPX
 #: 04060185.xhp
