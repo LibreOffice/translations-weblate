@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-04-15 12:52+0200\n"
-"PO-Revision-Date: 2020-04-17 17:16+0000\n"
+"PO-Revision-Date: 2020-04-18 12:21+0000\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian Nynorsk <https://weblate.documentfoundation.org/projects/libo_help-master/textscalc01/nn/>\n"
 "Language: nn\n"
@@ -55481,7 +55481,7 @@ msgctxt ""
 "par_id601586207136514\n"
 "help.text"
 msgid "For a positive number and a positive significance value, the function rounds up (away from zero). For a negative number and a negative significance value, the direction of rounding is determined by the value of a mode parameter. The function returns an error if the number and significance values have opposite signs."
-msgstr ""
+msgstr "For eit positivt tal og ein positiv signifikant verdi vil funksjonen runda av oppover (frå null). For eit negativt tal og ein negativ signifikant verdi vert retninga for avrundinga bestemt av verdien av eit modusparameter. Det vert returnert ei feilmelding om talet og dei signifikante verdiane har ulike forteikn."
 
 #. s9tRF
 #: func_ceiling.xhp
@@ -55490,7 +55490,7 @@ msgctxt ""
 "par_id3163792\n"
 "help.text"
 msgid "If the spreadsheet is exported to Microsoft Excel, the CEILING function is exported as the equivalent CEILING.MATH function that exists since Excel 2013. If you plan to use the spreadsheet with earlier Excel versions, use either CEILING.PRECISE that exists since Excel 2010, or CEILING.XCL that is exported as the CEILING function compatible with all Excel versions. Note that CEILING.XCL always rounds away from zero."
-msgstr ""
+msgstr "Viss reknearket vert eksportert til Microsoft Excel vert funksjonen AVRUND.GJELDANDE.MULTIPLUM.OPP eksportert som den tilsvarande AVRUND.GJELDANDE.MULTIPLUM.OPP.MATEMATISK som har vore i bruk sidan Excel 2013. Skal reknearket brukast i tidlegare Excel-versjonar, bruk anten AVRUND.GJELDANDE.MULTIPLUM.OPP.PRESIS som har vore i bruk sidan Excel 2010 eller AVRUND.GJELDANDE.MULTIPLUM.OPP.EXCEL som vert eksportert som AVRUND.GJELDANDE.MULTIPLUM.OPP som er kompatibel med alle Excel-versjonane. Merk at AVRUND.GJELDANDE.MULTIPLUM.OPP.EXCEL alltid rundar av bort frå null."
 
 #. mZwNV
 #: func_ceiling.xhp
@@ -55499,7 +55499,7 @@ msgctxt ""
 "par_id3153454\n"
 "help.text"
 msgid "CEILING(Number[; Significance[; Mode]])"
-msgstr ""
+msgstr "AVRUND.GJELDANDE.MULTIPLUM.OPP(Tal[; Signifikans[; Modus]])"
 
 #. XHjhc
 #: func_ceiling.xhp
@@ -55508,7 +55508,7 @@ msgctxt ""
 "par_id3153467\n"
 "help.text"
 msgid "<emph>Number</emph> is the number that is to be rounded, or a reference to a cell containing the number."
-msgstr ""
+msgstr "<emph>Tal</emph> er talet som skal avrundast eller ein referanse til ei celle som inneheld talet."
 
 #. XEqxw
 #: func_ceiling.xhp
@@ -55517,7 +55517,7 @@ msgctxt ""
 "par_id3155000\n"
 "help.text"
 msgid "<emph>Significance</emph> (optional) is the value, or a reference to a cell containing the value, to whose multiple <emph>Number</emph> is to be rounded. It defaults to +1 or -1 depending on the sign of <emph>Number</emph>."
-msgstr ""
+msgstr "<emph>Signifikans</emph> (valfritt) er verdien, eller ein referanse til ei celle som inneheld verdien, som multiplum av <emph>Tal</emph> skal avrundast.  Standard er +1 eller -1, avhengig av forteiknet for <emph>Tal</emph>."
 
 #. AosjB
 #: func_ceiling.xhp
@@ -55526,7 +55526,7 @@ msgctxt ""
 "par_id3155020\n"
 "help.text"
 msgid "<emph>Mode</emph> (optional) is a number, or a reference to a cell containing a number. The function only uses <emph>Mode</emph> if both <emph>Number</emph> and <emph>Significance</emph> are negative. Then if <emph>Mode</emph> is given and not equal to zero, numbers are rounded down (away from zero); if <emph>Mode</emph> is equal to zero or not given, negative numbers are rounded up (towards zero)."
-msgstr ""
+msgstr "<emph>Modus</emph> (valfritt) er eit tal eller ein referanse til ei celle som inneheld eit tal. Funksjonen brukar <emph>Modus</emph> berre viss både <emph>Tal</emph> og <emph>Signifikans</emph> er begative. I tilfelle <emph>Modus</emph> er oppgjeve og er ulik null, vert tala avrunda nedover (bort frå null). Viss <emph>Modus</emph> ikkje er oppgjeve eller er null, vert negative tal runda av oppover (mot null)."
 
 #. Ka9pC
 #: func_ceiling.xhp
@@ -55535,7 +55535,7 @@ msgctxt ""
 "par_id281586208138400\n"
 "help.text"
 msgid "<input>=CEILING(3.45)</input> returns 4."
-msgstr ""
+msgstr "<input>AVRUND.GJELDANDE.MULTIPLUM.OPP(3,45</input> returnerer 4."
 
 #. ztdNi
 #: func_ceiling.xhp
@@ -55544,7 +55544,7 @@ msgctxt ""
 "par_id921586208142416\n"
 "help.text"
 msgid "<input>=CEILING(3.45, 3)</input> returns 6."
-msgstr ""
+msgstr "<input>AVRUND.GJELDANDE.MULTIPLUM.OPP(3,45;3)</input> returnerer 6."
 
 #. XGfA3
 #: func_ceiling.xhp
@@ -55553,7 +55553,7 @@ msgctxt ""
 "par_id921586208146984\n"
 "help.text"
 msgid "<input>=CEILING(-1.234)</input> returns -1."
-msgstr ""
+msgstr "<input>AVRUND.GJELDANDE.MULTIPLUM.OPP(-1,234)</input> returnerer -1."
 
 #. ss5WP
 #: func_ceiling.xhp
@@ -55562,7 +55562,7 @@ msgctxt ""
 "par_id491586208152183\n"
 "help.text"
 msgid "<input>=CEILING(-45.67, -2, 0)</input> returns -44."
-msgstr ""
+msgstr "<input>AVRUND.GJELDANDE.MULTIPLUM.OPP(-45,67;-2,0)</input> returnerer -44"
 
 #. FY9XN
 #: func_ceiling.xhp
@@ -55571,7 +55571,7 @@ msgctxt ""
 "par_id291586208158119\n"
 "help.text"
 msgid "<input>=CEILING(-45.67, -2, 1)</input> returns -46."
-msgstr ""
+msgstr "<input>AVRUND.GJELDANDE.MULTIPLUM.OPP(-45,67;-2,1)</input> returnerer -46."
 
 #. rZ78k
 #: func_ceiling.xhp
@@ -55580,7 +55580,7 @@ msgctxt ""
 "bm_id2952518\n"
 "help.text"
 msgid "<bookmark_value>CEILING.PRECISE function</bookmark_value><bookmark_value>rounding;up to multiples of significance</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>funksjonen AVRUND.GJELDANDE.MULTIPLUM.OPP.PRESIS</bookmark_value><bookmark_value>avrunding; opp til signifikant multiplum</bookmark_value>"
 
 #. 5DWRd
 #: func_ceiling.xhp
@@ -55589,7 +55589,7 @@ msgctxt ""
 "hd_id2952518\n"
 "help.text"
 msgid "<variable id=\"CEILING.PRECISEh1\"><link href=\"text/scalc/01/func_ceiling.xhp#ceilingprecise\" name=\"CEILING.PRECISE\">CEILING.PRECISE</link></variable>"
-msgstr ""
+msgstr "<variable id=\"CEILING.PRECISEh1\"><link href=\"text/scalc/01/func_ceiling.xhp#ceilingprecise\" name=\"CEILING.PRECISE\">CAVRUND.GJELDANDE.MULTIPLUM.OPP.PRESIS</link></variable>"
 
 #. aTD6P
 #: func_ceiling.xhp
@@ -55598,7 +55598,7 @@ msgctxt ""
 "par_id2953422\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_CEIL_MS\">Rounds a number up to the nearest multiple of a significance value.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_CEIL_MS\">Avrundar eit tal oppover til næraste multiplum av ein signifikant verdi.</ahelp>"
 
 #. BjuBa
 #: func_ceiling.xhp
@@ -55607,7 +55607,7 @@ msgctxt ""
 "par_id151586642494759\n"
 "help.text"
 msgid "For a positive number the function rounds up (away from zero). For a negative number, the function rounds up (towards zero). The sign of the significance value is ignored."
-msgstr ""
+msgstr "For eit positivt tal rundar funksjonen oppover (bort frå null). For ein negativ verdi rundar funksjonen oppover (mot nulol). Forteiknet til den signifikante verdien vert ignorert."
 
 #. EErBR
 #: func_ceiling.xhp
@@ -55616,7 +55616,7 @@ msgctxt ""
 "par_id631586642933797\n"
 "help.text"
 msgid "This function calculates identical results to the <link href=\"#Section312\" name=\"isoceiling\">ISO.CEILING</link> function."
-msgstr ""
+msgstr "Resultata etter utrekningane er for denne funksjonen dei same som for funksjonen <link href=\"#Section312\" name=\"isoceiling\">ISO.AVRUND.GJELDANDE.MULTIPLUM</link>."
 
 #. yYT7X
 #: func_ceiling.xhp
