@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-04-15 12:52+0200\n"
+"POT-Creation-Date: 2020-04-18 14:18+0200\n"
 "PO-Revision-Date: 2020-04-16 16:16+0000\n"
 "Last-Translator: eglejasu <egle.jasute@gmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.documentfoundation.org/projects/libo_help-master/textscalc01/lt/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1564863514.000000\n"
 
 #. sZfWF
@@ -55465,14 +55465,14 @@ msgctxt ""
 msgid "<variable id=\"CEILINGh1\"><link href=\"text/scalc/01/func_ceiling.xhp#ceiling\" name=\"CEILING\">CEILING</link></variable>"
 msgstr "<variable id=\"CEILINGh1\"><link href=\"text/scalc/01/func_ceiling.xhp#ceiling\" name=\"CEILING\">CEILING</link></variable>"
 
-#. E9m3Y
+#. Co8xT
 #: func_ceiling.xhp
 msgctxt ""
 "func_ceiling.xhp\n"
 "par_id3153422\n"
 "help.text"
-msgid "<ahelp hid=\"HID_FUNC_OBERGRENZE\">Rounds a number up to the nearest multiple of s significance value.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_OBERGRENZE\">Apvalina skaičių  iki artimiausio pasirinktos reikšmės kartotinio.</ahelp>"
+msgid "<ahelp hid=\"HID_FUNC_OBERGRENZE\">Rounds a number to the nearest multiple of a significance value.</ahelp>"
+msgstr ""
 
 #. PfT3s
 #: func_ceiling.xhp
@@ -55483,14 +55483,14 @@ msgctxt ""
 msgid "For a positive number and a positive significance value, the function rounds up (away from zero). For a negative number and a negative significance value, the direction of rounding is determined by the value of a mode parameter. The function returns an error if the number and significance values have opposite signs."
 msgstr "Neatsižvelgiant į skaičiaus ženklą, reikšmė apvalinama iki skaičiaus, didesnio už nulį. Jei skaičius yra tikslus reikšmės kartotinis, apvalinimas neįvyksta. Jei skaičius neigiamas, o reikšmingumas neigiamas, reikšmė apvalinama iki mažesnio skaičiaus, tolyn nuo nulio. Funkcija grąžina klaidą, jei skaičius ir reikšmingumas yra priešingų ženklų."
 
-#. s9tRF
+#. 6AFh7
 #: func_ceiling.xhp
 msgctxt ""
 "func_ceiling.xhp\n"
 "par_id3163792\n"
 "help.text"
-msgid "If the spreadsheet is exported to Microsoft Excel, the CEILING function is exported as the equivalent CEILING.MATH function that exists since Excel 2013. If you plan to use the spreadsheet with earlier Excel versions, use either CEILING.PRECISE that exists since Excel 2010, or CEILING.XCL that is exported as the CEILING function compatible with all Excel versions. Note that CEILING.XCL always rounds away from zero."
-msgstr "Jei skaičiuoklės dokumentas eksportuojamas iš MS „Excel“, CEILING funkcija eksportuojama kaip funkciją CEILING.MATH funkcija, kuri naudojama nuo „Excel“ 2013 versijos. Jei planuojate naudoti ankstesnės versijos skaičiuoklės dokumentą, naudokite CEILING.PRECISE funkciją, kuri naudojama nuo „Excel“ 2010 versijos arba CEILING.XL, kuri eksportuojama kaip CEILING funkcija ir suderinama su „Excel“ funkcija. Atkreipkite dėmesį, kad CEILING.XL visada apvalina toliau nuo nulio."
+msgid "If the spreadsheet is exported to Microsoft Excel, the CEILING function is exported as the equivalent CEILING.MATH function that has existed since Excel 2013. If you plan to use the spreadsheet with earlier Excel versions, use either CEILING.PRECISE that has existed since Excel 2010, or CEILING.XCL that is exported as the CEILING function compatible with all Excel versions."
+msgstr ""
 
 #. mZwNV
 #: func_ceiling.xhp
@@ -55636,15 +55636,6 @@ msgctxt ""
 msgid "<emph>Significance</emph> (optional) is the value, or a reference to a cell containing the value, to whose multiple <emph>Number</emph> is to be rounded. It defaults to 1."
 msgstr "<emph>Reikšmingumas</emph> – papildoma reikšmė arba nuoroda į langelį su tokia reikšme, iki kurios kartotinio apvalinamas nurodytas <emph>skaičius</emph>. Numatyta reikšmė yra 1."
 
-#. 6Vtow
-#: func_ceiling.xhp
-msgctxt ""
-"func_ceiling.xhp\n"
-"par_id461586211894475\n"
-"help.text"
-msgid "This function calculates identical results to the ISO.CEILING function"
-msgstr "Ši funkcija apskaičiuoja tokį patį rezultatą, kaip ir funkcija ISO.CEILING"
-
 #. 8WiRx
 #: func_ceiling.xhp
 msgctxt ""
@@ -55699,6 +55690,15 @@ msgctxt ""
 msgid "For a positive number the function rounds up (away from zero). For a negative number, the direction of rounding is determined by the value of a mode parameter. The sign of the significance value is ignored."
 msgstr "Teigiamą skaičių funkcija apvalina į didesniąją pusę (nuo nulio). Neigiamo skaičiaus apvalinimą nulemia metodo parametro reikšmė. Reikšmingumo ženklo nepaisoma."
 
+#. aYczG
+#: func_ceiling.xhp
+msgctxt ""
+"func_ceiling.xhp\n"
+"par_id291516998575663\n"
+"help.text"
+msgid "This function exists for interoperability with Microsoft Excel 2013 or newer."
+msgstr "Ši funkcija suderinama su MS „Excel“ 2013 arba vėlesne versija."
+
 #. Km7yb
 #: func_ceiling.xhp
 msgctxt ""
@@ -55725,15 +55725,6 @@ msgctxt ""
 "help.text"
 msgid "<emph>Mode</emph> (optional) is a number, or a reference to a cell containing a number. If <emph>Mode</emph> is given and not equal to zero, a negative <emph>Number</emph> is rounded down (away from zero). If <emph>Mode</emph> is equal to zero or is not given, a negative <emph>Number</emph> is rounded up (towards zero)."
 msgstr "<emph>Metodas</emph> – papildomas skaičius arba nuoroda į langelį su skaičiumi. Jei duota <emph>metodo</emph> reikšmė nelygi nuliui, tai neigiamas <emph>skaičius</emph> apvalinamas iki mažesniojo skaičiaus (nuo nulio). Jei <emph>metodo</emph> reikšmė lygi nuliui arba nenurodyta, tai neigiamas <emph>skaičius</emph> apvalinamas iki didesniojo skaičiaus (link nulio)."
-
-#. aYczG
-#: func_ceiling.xhp
-msgctxt ""
-"func_ceiling.xhp\n"
-"par_id291516998575663\n"
-"help.text"
-msgid "This function exists for interoperability with Microsoft Excel 2013 or newer."
-msgstr "Ši funkcija suderinama su MS „Excel“ 2013 arba vėlesne versija."
 
 #. je22s
 #: func_ceiling.xhp
@@ -55942,14 +55933,14 @@ msgctxt ""
 msgid "<input>=ISO.CEILING(3.45)</input> returns 4."
 msgstr "<input>=ISO.CEILING(3,45)</input> grąžina 4."
 
-#. ENMYD
+#. xS2zM
 #: func_ceiling.xhp
 msgctxt ""
 "func_ceiling.xhp\n"
 "par_id181586214438808\n"
 "help.text"
-msgid "<input>=ISO.CEILING(-45.67,2)</input> returns 44."
-msgstr "<input>=ISO.CEILING(-45,67,2)</input> grąžina 44."
+msgid "<input>=ISO.CEILING(-45.67,2)</input> returns -44."
+msgstr ""
 
 #. GuEcB
 #: func_color.xhp
@@ -57625,6 +57616,15 @@ msgctxt ""
 msgid "For a positive number and a positive significance value, the function rounds down (towards zero). For a negative number and a negative significance value, the direction of rounding is determined by the value of a mode parameter. The function returns an error if the number and significance values have opposite signs."
 msgstr "Jei skaičius ir reikšmingumas yra teigiami, tai funkcija skaičių apvalina iki mažesniojo skaičiaus (link nulio). Jei skaičius ir reikšmingumas neigiami, tai apvalinimo krypti priklauso nuo metodo reikšmės. Funkcija grąžina klaidą, jei skaičiaus ir reikšmingumo ženklai yra skirtingi."
 
+#. 5kHtR
+#: func_floor.xhp
+msgctxt ""
+"func_floor.xhp\n"
+"par_id3163894\n"
+"help.text"
+msgid "If the spreadsheet is exported to Microsoft Excel, the FLOOR function is exported as the equivalent FLOOR.MATH function that has existed since Excel 2013. If you plan to use the spreadsheet with earlier Excel versions, use either FLOOR.PRECISE that has existed since Excel 2010, or FLOOR.XCL that is exported as the FLOOR function compatible with all Excel versions."
+msgstr "Jei skaičiuoklės dokumentas eksportuojamas į MS „Excel“, tai funkcija FLOOR yra eksportuojama kaip funkcija FLOOR.MATH, kuri yra „Excel“ 2013 ir vėlesnėse versijose. Jei norite skaičiuoklės dokumentą naudoti ankstesnėse „Excel“ versijose, tai naudokite funkciją FLOOR.PRECISE, kuri yra „Excel“ 2010 ir vėlesnėse versijose, arba funkcija FLOOR.XCL, kuri yra suderinta su visomis „Excel“ versijomis."
+
 #. 2haGU
 #: func_floor.xhp
 msgctxt ""
@@ -57660,15 +57660,6 @@ msgctxt ""
 "help.text"
 msgid "<emph>Mode</emph> (optional) is a number, or a reference to a cell containing a number. The function only uses <emph>Mode</emph> if both <emph>Number</emph> and <emph>Significance</emph> are negative. Then if <emph>Mode</emph> is given and not equal to zero, numbers are rounded up (towards zero); if <emph>Mode</emph> is equal to zero or not given, negative numbers are rounded down (away from zero)."
 msgstr "<emph>Metodas</emph> – papildoma reikšmė arba nuoroda į langelį su reikšme. Funkcija naudoja <emph>metodą</emph> tik, kai abu <emph>skaičius</emph> ir <emph>reikšmingumas</emph> yra neigiami. Tada, jei <emph>metodas</emph> yra duotas ir nelygus nuliui, skaičius apvalinamas iki didesniojo skaičiaus (link nulio); jei <emph>metodas</emph> nenurodytas arba lygus nuliui, tai neigiamas skaičius apvalinamas iki mažesniojo skaičiaus (nuo nulio)."
-
-#. 5kHtR
-#: func_floor.xhp
-msgctxt ""
-"func_floor.xhp\n"
-"par_id3163894\n"
-"help.text"
-msgid "If the spreadsheet is exported to Microsoft Excel, the FLOOR function is exported as the equivalent FLOOR.MATH function that has existed since Excel 2013. If you plan to use the spreadsheet with earlier Excel versions, use either FLOOR.PRECISE that has existed since Excel 2010, or FLOOR.XCL that is exported as the FLOOR function compatible with all Excel versions."
-msgstr "Jei skaičiuoklės dokumentas eksportuojamas į MS „Excel“, tai funkcija FLOOR yra eksportuojama kaip funkcija FLOOR.MATH, kuri yra „Excel“ 2013 ir vėlesnėse versijose. Jei norite skaičiuoklės dokumentą naudoti ankstesnėse „Excel“ versijose, tai naudokite funkciją FLOOR.PRECISE, kuri yra „Excel“ 2010 ir vėlesnėse versijose, arba funkcija FLOOR.XCL, kuri yra suderinta su visomis „Excel“ versijomis."
 
 #. EU85r
 #: func_floor.xhp
@@ -67713,6 +67704,34 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">„Wiki“ puslapis apie XML šaltinį</link>"
+
+#~ msgctxt ""
+#~ "func_ceiling.xhp\n"
+#~ "par_id3153422\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_OBERGRENZE\">Rounds a number up to the nearest multiple of s significance value.</ahelp>"
+#~ msgstr "<ahelp hid=\"HID_FUNC_OBERGRENZE\">Apvalina skaičių  iki artimiausio pasirinktos reikšmės kartotinio.</ahelp>"
+
+#~ msgctxt ""
+#~ "func_ceiling.xhp\n"
+#~ "par_id3163792\n"
+#~ "help.text"
+#~ msgid "If the spreadsheet is exported to Microsoft Excel, the CEILING function is exported as the equivalent CEILING.MATH function that exists since Excel 2013. If you plan to use the spreadsheet with earlier Excel versions, use either CEILING.PRECISE that exists since Excel 2010, or CEILING.XCL that is exported as the CEILING function compatible with all Excel versions. Note that CEILING.XCL always rounds away from zero."
+#~ msgstr "Jei skaičiuoklės dokumentas eksportuojamas iš MS „Excel“, CEILING funkcija eksportuojama kaip funkciją CEILING.MATH funkcija, kuri naudojama nuo „Excel“ 2013 versijos. Jei planuojate naudoti ankstesnės versijos skaičiuoklės dokumentą, naudokite CEILING.PRECISE funkciją, kuri naudojama nuo „Excel“ 2010 versijos arba CEILING.XL, kuri eksportuojama kaip CEILING funkcija ir suderinama su „Excel“ funkcija. Atkreipkite dėmesį, kad CEILING.XL visada apvalina toliau nuo nulio."
+
+#~ msgctxt ""
+#~ "func_ceiling.xhp\n"
+#~ "par_id461586211894475\n"
+#~ "help.text"
+#~ msgid "This function calculates identical results to the ISO.CEILING function"
+#~ msgstr "Ši funkcija apskaičiuoja tokį patį rezultatą, kaip ir funkcija ISO.CEILING"
+
+#~ msgctxt ""
+#~ "func_ceiling.xhp\n"
+#~ "par_id181586214438808\n"
+#~ "help.text"
+#~ msgid "<input>=ISO.CEILING(-45.67,2)</input> returns 44."
+#~ msgstr "<input>=ISO.CEILING(-45,67,2)</input> grąžina 44."
 
 #~ msgctxt ""
 #~ "04060106.xhp\n"
