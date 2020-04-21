@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-04-18 14:18+0200\n"
-"PO-Revision-Date: 2020-04-20 16:16+0000\n"
+"PO-Revision-Date: 2020-04-21 17:16+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://weblate.documentfoundation.org/projects/libo_help-master/textscalc01/bg/>\n"
 "Language: bg\n"
@@ -57633,7 +57633,7 @@ msgctxt ""
 "par_id3157464\n"
 "help.text"
 msgid "FLOOR(Number[; Significance[; Mode]])"
-msgstr ""
+msgstr "FLOOR(Число[; Стъпка[; Режим]])"
 
 #. ERf3D
 #: func_floor.xhp
@@ -57642,7 +57642,7 @@ msgctxt ""
 "par_id3153467\n"
 "help.text"
 msgid "<emph>Number</emph> is the number that is to be rounded, or a reference to a cell containing the number."
-msgstr ""
+msgstr "<emph>Число</emph> е числото, което да бъде закръглено, или обръщение към клетката, която го съдържа."
 
 #. 8w8tL
 #: func_floor.xhp
@@ -57651,7 +57651,7 @@ msgctxt ""
 "par_id3157497\n"
 "help.text"
 msgid "<emph>Significance</emph> (optional) is the value, or a reference to a cell containing the value, to whose multiple <emph>Number</emph> is to be rounded. It defaults to +1 or -1 depending on the sign of <emph>Number</emph>."
-msgstr ""
+msgstr "<emph>Стъпка</emph> (незадължителен) е стойността или обръщение към клетката със стойността, към чието кратно трябва да се закръгли <emph>Число</emph>. Подразбира се +1 или -1 според знака на <emph>Число</emph>."
 
 #. qCpHR
 #: func_floor.xhp
@@ -57660,7 +57660,7 @@ msgctxt ""
 "par_id3157517\n"
 "help.text"
 msgid "<emph>Mode</emph> (optional) is a number, or a reference to a cell containing a number. The function only uses <emph>Mode</emph> if both <emph>Number</emph> and <emph>Significance</emph> are negative. Then if <emph>Mode</emph> is given and not equal to zero, numbers are rounded up (towards zero); if <emph>Mode</emph> is equal to zero or not given, negative numbers are rounded down (away from zero)."
-msgstr ""
+msgstr "<emph>Режим</emph> (незадължителен) е число или обръщение към клетка, съдържаща число. Функцията използва <emph>Режим</emph> само ако <emph>Число</emph> и <emph>Стъпка</emph> са отрицателни. Тогава ако <emph>Режим</emph> е зададен и различен от нула, числата се закръгляват нагоре (към нулата); ако <emph>Режим</emph> е равен на нула или пропуснат, отрицателните числа се закръгляват надолу (навън от нулата)."
 
 #. EU85r
 #: func_floor.xhp
@@ -57669,7 +57669,7 @@ msgctxt ""
 "par_id761586287595376\n"
 "help.text"
 msgid "<input>=FLOOR(3.45)</input> returns 3."
-msgstr ""
+msgstr "<input>=FLOOR(3,45)</input> връща 3."
 
 #. vuJc5
 #: func_floor.xhp
@@ -57678,7 +57678,7 @@ msgctxt ""
 "par_id311586287600048\n"
 "help.text"
 msgid "<input>=FLOOR(3.45, 3)</input> returns 3."
-msgstr ""
+msgstr "<input>=FLOOR(3,45; 3)</input> връща 3."
 
 #. uTWTb
 #: func_floor.xhp
@@ -57687,7 +57687,7 @@ msgctxt ""
 "par_id661586287604519\n"
 "help.text"
 msgid "<input>=FLOOR(-1.234)</input> returns -2."
-msgstr ""
+msgstr "<input>=FLOOR(-1,234)</input> връща -2."
 
 #. 8ZGDc
 #: func_floor.xhp
@@ -57696,7 +57696,7 @@ msgctxt ""
 "par_id741586287608968\n"
 "help.text"
 msgid "<input>=FLOOR(-45.67, -2, 0)</input> returns -46."
-msgstr ""
+msgstr "<input>=FLOOR(-45,67; -2; 0)</input> връща -46."
 
 #. gXsTm
 #: func_floor.xhp
@@ -57705,7 +57705,7 @@ msgctxt ""
 "par_id431586287616089\n"
 "help.text"
 msgid "<input>=FLOOR(-45.67, -2, 1)</input> returns -44."
-msgstr ""
+msgstr "<input>=FLOOR(-45,67; -2; 1)</input> връща -44."
 
 #. zzTLr
 #: func_floor.xhp
@@ -57714,7 +57714,7 @@ msgctxt ""
 "bm_id811586290952465\n"
 "help.text"
 msgid "<bookmark_value>FLOOR.MATH function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FLOOR.MATH, функция</bookmark_value>"
 
 #. rEELD
 #: func_floor.xhp
@@ -57723,7 +57723,7 @@ msgctxt ""
 "hd_id1001586287279297\n"
 "help.text"
 msgid "<variable id=\"FLOOR.MATHh1\"><link href=\"text/scalc/01/func_floor.xhp#floormath\" name=\"FLOOR.MATH\">FLOOR.MATH</link></variable>"
-msgstr ""
+msgstr "<variable id=\"FLOOR.MATHh1\"><link href=\"text/scalc/01/func_floor.xhp#floormath\" name=\"FLOOR.MATH\">FLOOR.MATH</link></variable>"
 
 #. BBjwd
 #: func_floor.xhp
@@ -57732,7 +57732,7 @@ msgctxt ""
 "par_id721586287302689\n"
 "help.text"
 msgid "Rounds a number to the nearest multiple of a significance value."
-msgstr ""
+msgstr "Закръглява число до най-близкото кратно на дадено число."
 
 #. UJLZc
 #: func_floor.xhp
@@ -57741,7 +57741,7 @@ msgctxt ""
 "par_id311586287323417\n"
 "help.text"
 msgid "For a positive number the function rounds down (towards zero). For a negative number, the direction of rounding is determined by the value of a mode parameter. The sign of the significance value is ignored."
-msgstr ""
+msgstr "За положително число функцията закръглява надолу (към нулата). За отрицателно число посоката на закръгляването се определя от стойността на параметър за режим. Знакът на стъпката се игнорира."
 
 #. 4weAd
 #: func_floor.xhp
@@ -57750,7 +57750,7 @@ msgctxt ""
 "par_id851586287535879\n"
 "help.text"
 msgid "This function exists for interoperability with Microsoft Excel 2013 or newer."
-msgstr ""
+msgstr "Тази функция съществува за съвместимост с Microsoft Excel 2013 или по-нова версия."
 
 #. 4DFyG
 #: func_floor.xhp
@@ -57759,7 +57759,7 @@ msgctxt ""
 "par_id161586287421523\n"
 "help.text"
 msgid "FLOOR.MATH(Number[; Significance[; Mode]])"
-msgstr ""
+msgstr "FLOOR.MATH(Число[; Стъпка[; Режим]])"
 
 #. Un6FB
 #: func_floor.xhp
@@ -57768,7 +57768,7 @@ msgctxt ""
 "par_id231586287448716\n"
 "help.text"
 msgid "<emph>Significance</emph> (optional) is the value, or a reference to a cell containing the value, to whose multiple <emph>Number</emph> is to be rounded. It defaults to 1."
-msgstr ""
+msgstr "<emph>Стъпка</emph> (незадължителен) е стойността или обръщение към клетката със стойността, към чието кратно трябва да се закръгли <emph>Число</emph>. Подразбира се 1."
 
 #. L9MKT
 #: func_floor.xhp
@@ -57777,7 +57777,7 @@ msgctxt ""
 "par_id261586287494401\n"
 "help.text"
 msgid "<emph>Mode</emph> (optional) is a number, or a reference to a cell containing a number. If <emph>Mode</emph> is given and not equal to zero, a negative <emph>Number</emph> is rounded up (towards zero). If <emph>Mode</emph> is equal to zero or is not given, a negative <emph>Number</emph> is rounded down (away from zero)."
-msgstr ""
+msgstr "<emph>Режим</emph> (незадължителен) е число или обръщение към клетка, съдържаща число. Ако <emph>Режим</emph> е зададен и различен от нула, отрицателно <emph>Число</emph> се закръглява нагоре (към нулата). Ако <emph>Режим</emph> е равен на нула или пропуснат, отрицателно <emph>Число</emph> се закръглява надолу (навън от нулата)."
 
 #. wCd8C
 #: func_floor.xhp
@@ -57786,7 +57786,7 @@ msgctxt ""
 "par_id101586287621816\n"
 "help.text"
 msgid "<input>=FLOOR.MATH(3.45)</input> returns 3."
-msgstr ""
+msgstr "<input>=FLOOR.MATH(3,45)</input> връща 3."
 
 #. p27MD
 #: func_floor.xhp
@@ -57795,7 +57795,7 @@ msgctxt ""
 "par_id771586287627784\n"
 "help.text"
 msgid "<input>=FLOOR.MATH(3.45,-3)</input> returns 3."
-msgstr ""
+msgstr "<input>=FLOOR.MATH(3,45; -3)</input> връща 3."
 
 #. Fehfx
 #: func_floor.xhp
@@ -57804,7 +57804,7 @@ msgctxt ""
 "par_id981586287632392\n"
 "help.text"
 msgid "<input>=FLOOR.MATH(-1.234)</input> returns -2."
-msgstr ""
+msgstr "<input>=FLOOR.MATH(-1,234)</input> връща -2."
 
 #. eQfea
 #: func_floor.xhp
@@ -57813,7 +57813,7 @@ msgctxt ""
 "par_id631586287637256\n"
 "help.text"
 msgid "<input>=FLOOR.MATH(-45.67,-2, 0)</input> returns -46."
-msgstr ""
+msgstr "<input>=FLOOR.MATH(-45,67; -2; 0)</input> връща -46."
 
 #. XXqpS
 #: func_floor.xhp
@@ -57822,7 +57822,7 @@ msgctxt ""
 "par_id371586287641888\n"
 "help.text"
 msgid "<input>=FLOOR.MATH(-45.67,+2, 1)</input> returns -44."
-msgstr ""
+msgstr "<input>=FLOOR.MATH(-45,67; +2; 1)</input> връща -44."
 
 #. 9MJem
 #: func_floor.xhp
@@ -57831,7 +57831,7 @@ msgctxt ""
 "bm_id2957404\n"
 "help.text"
 msgid "<bookmark_value>FLOOR.PRECISE function</bookmark_value><bookmark_value>rounding;down to nearest multiple of significance</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FLOOR.PRECISE, функция</bookmark_value><bookmark_value>закръгляване;надолу до кратно на стойност</bookmark_value>"
 
 #. niyQj
 #: func_floor.xhp
@@ -57840,7 +57840,7 @@ msgctxt ""
 "hd_id2957404\n"
 "help.text"
 msgid "<variable id=\"FLOOR.PRECISEh1\"><link href=\"text/scalc/01/func_floor.xhp#floorprecise\" name=\"FLOOR.PRECISE\">FLOOR.PRECISE</link></variable>"
-msgstr ""
+msgstr "<variable id=\"FLOOR.PRECISEh1\"><link href=\"text/scalc/01/func_floor.xhp#floorprecise\" name=\"FLOOR.PRECISE\">FLOOR.PRECISE</link></variable>"
 
 #. DgQBx
 #: func_floor.xhp
@@ -57849,7 +57849,7 @@ msgctxt ""
 "par_id2957432\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_FLOOR_MS\">Rounds a number down to the nearest multiple of a significance value.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_FLOOR_MS\">Закръглява число надолу до най-близкото кратно на дадено число.</ahelp>"
 
 #. NHMnz
 #: func_floor.xhp
@@ -57858,7 +57858,7 @@ msgctxt ""
 "par_id261586641501175\n"
 "help.text"
 msgid "For a positive number the function rounds down (towards zero). For a negative number, the function rounds down (away form zero). The sign of the significance value is ignored."
-msgstr ""
+msgstr "За положително число функцията закръглява надолу (към нулата). За отрицателно число функцията закръглява надолу (навън от нулата). Знакът на стъпката се игнорира."
 
 #. ni9y2
 #: func_floor.xhp
@@ -57867,7 +57867,7 @@ msgctxt ""
 "par_id2957464\n"
 "help.text"
 msgid "FLOOR.PRECISE(Number[; Significance])"
-msgstr ""
+msgstr "FLOOR.PRECISE(Число[; Стъпка])"
 
 #. pirHp
 #: func_floor.xhp
@@ -57876,7 +57876,7 @@ msgctxt ""
 "par_id2957497\n"
 "help.text"
 msgid "<emph>Significance</emph> (optional) is the value, or a reference to a cell containing the value, to whose multiple <emph>Number</emph> is to be rounded. It defaults to 1."
-msgstr ""
+msgstr "<emph>Стъпка</emph> (незадължителен) е стойността или обръщение към клетката със стойността, към чието кратно трябва да се закръгли <emph>Число</emph>. Подразбира се 1."
 
 #. smFCw
 #: func_floor.xhp
@@ -57885,7 +57885,7 @@ msgctxt ""
 "par_id981586291388900\n"
 "help.text"
 msgid "<input>=FLOOR.PRECISE(3.45)</input> returns 3."
-msgstr ""
+msgstr "<input>=FLOOR.PRECISE(3,45)</input> връща 3."
 
 #. Q9vnd
 #: func_floor.xhp
@@ -57894,7 +57894,7 @@ msgctxt ""
 "par_id831586291395477\n"
 "help.text"
 msgid "<input>=FLOOR.PRECISE(-45.67,2)</input> returns -46."
-msgstr ""
+msgstr "<input>=FLOOR.PRECISE(-45,67; 2)</input> връща -46."
 
 #. HnS5F
 #: func_floor.xhp
@@ -57903,7 +57903,7 @@ msgctxt ""
 "bm_id171586291849333\n"
 "help.text"
 msgid "<bookmark_value>FLOOR.XCL function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FLOOR.XCL, функция</bookmark_value>"
 
 #. LMEET
 #: func_floor.xhp
@@ -57912,7 +57912,7 @@ msgctxt ""
 "hd_id791586291468176\n"
 "help.text"
 msgid "<variable id=\"FLOOR.XCLh1\"><link href=\"text/scalc/01/func_floor.xhp#floorxcl\" name=\"FLOOR.XCL\">FLOOR.XCL</link></variable>"
-msgstr ""
+msgstr "<variable id=\"FLOOR.XCLh1\"><link href=\"text/scalc/01/func_floor.xhp#floorxcl\" name=\"FLOOR.XCL\">FLOOR.XCL</link></variable>"
 
 #. WMsAT
 #: func_floor.xhp
@@ -57921,7 +57921,7 @@ msgctxt ""
 "par_id521586291476023\n"
 "help.text"
 msgid "Rounds a number to the nearest multiple of a significance value."
-msgstr ""
+msgstr "Закръглява число до най-близкото кратно на дадено число."
 
 #. jrymG
 #: func_floor.xhp
@@ -57930,7 +57930,7 @@ msgctxt ""
 "par_id401586291488768\n"
 "help.text"
 msgid "For a positive number and a positive significance value, the function rounds down (towards zero). For a negative number and a positive significance value, the function rounds down (away from zero). For a negative number and a negative significance value, the function rounds up (towards zero). The function returns an error if the number is positive and the significance value is negative."
-msgstr ""
+msgstr "За положително число и положителна стъпка функцията закръглява надолу (към нулата). За отрицателно число и положителна стъпка функцията закръглява надолу (навън от нулата). За отрицателно число и отрицателна стъпка функцията закръглява нагоре (към нулата). Функцията връща грешка, ако числото е положително, а стъпката – отрицателна."
 
 #. BFXRR
 #: func_floor.xhp
@@ -57939,7 +57939,7 @@ msgctxt ""
 "par_id231586291503319\n"
 "help.text"
 msgid "This function exists for interoperability with Microsoft Excel 2007 or older. If a Calc spreadsheet is exported to Microsoft Excel, references to Calc’s FLOOR.XCL function are exported as references to Excel’s FLOOR function, which is compatible with all Excel versions. If a Microsoft Excel spreadsheet is imported into Calc, references to Excel’s FLOOR function are imported as references to Calc’s FLOOR.XCL function."
-msgstr ""
+msgstr "Тази функция съществува за съвместимост с Microsoft Excel 2007 и по-стари версии. Ако електронна таблица на Calc бъде експортирана към Microsoft Excel, обръщенията към функцията FLOOR.XCL на Calc се експортират като обръщения към функцията FLOOR на Excel, която е съвместима с всички версии на Excel. Ако електронна таблица на Microsoft Excel бъде импортирана в Calc, обръщенията към функцията FLOOR на Excel се импортират като обръщения към функцията FLOOR.XCL на Calc."
 
 #. WA7uC
 #: func_floor.xhp
@@ -57948,7 +57948,7 @@ msgctxt ""
 "par_id491586291532177\n"
 "help.text"
 msgid "FLOOR.XCL(Number; Significance)"
-msgstr ""
+msgstr "FLOOR.XCL(Число; Стъпка)"
 
 #. aRww7
 #: func_floor.xhp
@@ -57957,7 +57957,7 @@ msgctxt ""
 "par_id761586291578755\n"
 "help.text"
 msgid "<emph>Significance</emph> is the value, or a reference to a cell containing the value, to whose multiple <emph>Number</emph> is to be rounded."
-msgstr ""
+msgstr "<emph>Стъпка</emph> е стойността или обръщение към клетката със стойността, към чието кратно трябва да се закръгли <emph>Число</emph>."
 
 #. HXuMo
 #: func_floor.xhp
@@ -57966,7 +57966,7 @@ msgctxt ""
 "par_id531586291622306\n"
 "help.text"
 msgid "<input>=FLOOR.XCL(3.45,2)</input> returns 2."
-msgstr ""
+msgstr "<input>=FLOOR.XCL(3,45; 2)</input> връща 2."
 
 #. gFyGC
 #: func_floor.xhp
@@ -57975,7 +57975,7 @@ msgctxt ""
 "par_id361586291628003\n"
 "help.text"
 msgid "<input>=FLOOR.XCL(-45.67,2)</input> returns -46."
-msgstr ""
+msgstr "<input>=FLOOR.XCL(-45,67; 2)</input> връща -46."
 
 #. EU7xy
 #: func_floor.xhp
@@ -57984,7 +57984,7 @@ msgctxt ""
 "par_id801586291641099\n"
 "help.text"
 msgid "<input>=FLOOR.XCL(-45.67,-2)</input> returns -44."
-msgstr ""
+msgstr "<input>=FLOOR.XCL(-45,67; -2)</input> връща -44."
 
 #. 2YcR7
 #: func_forecastetsadd.xhp
@@ -58920,7 +58920,7 @@ msgctxt ""
 "par_id271556235333493\n"
 "help.text"
 msgid "IFS(expression1; result1[; expression2; result2][; ... ; [expression127; result127]])"
-msgstr ""
+msgstr "IFS(израз1; резултат1[; израз2; резултат2][; ... ; [израз127; резултат127]])"
 
 #. 3KbKX
 #: func_ifs.xhp
@@ -61458,7 +61458,7 @@ msgctxt ""
 "par_2016112109233\n"
 "help.text"
 msgid "RAWSUBTRACT(Minuend; Subtrahend 1[; Subtrahend 2][; … ;[ Subtrahend 254]])"
-msgstr ""
+msgstr "RAWSUBTRACT(Умаляемо; Умалител 1[; Умалител 2][; … ;[ Умалител 254]])"
 
 #. 7mBFv
 #: func_rawsubtract.xhp
@@ -61467,7 +61467,7 @@ msgctxt ""
 "par_2016112109234\n"
 "help.text"
 msgid "<emph>Minuend</emph> is a number or a reference to a cell containing a number."
-msgstr ""
+msgstr "<emph>Умаляемо</emph> е число или обръщение към клетка, съдържаща число."
 
 #. nFADC
 #: func_rawsubtract.xhp
@@ -61476,7 +61476,7 @@ msgctxt ""
 "par_id241585352178687\n"
 "help.text"
 msgid "<emph>Subtrahend 1[; Subtrahend 2][; ... ;[ Subtrahend 254]]</emph> are numbers or references to cells containing numbers."
-msgstr ""
+msgstr "<emph>Умаляемо 1[; Умаляемо 2][; ... ;[ Умаляемо 254]]</emph> са числа или обръщения към клетки, съдържащи числа."
 
 #. 7ciz5
 #: func_rawsubtract.xhp
@@ -61485,7 +61485,7 @@ msgctxt ""
 "par_2016112109235\n"
 "help.text"
 msgid "The function should be called with at least two parameters."
-msgstr ""
+msgstr "Функцията трябва да бъде извикана с поне два параметъра."
 
 #. gwtEM
 #: func_rawsubtract.xhp
@@ -61494,7 +61494,7 @@ msgctxt ""
 "par_2016112109236\n"
 "help.text"
 msgid "<item type=\"literal\">RAWSUBTRACT(0.987654321098765, 0.9876543210987)</item> returns 6.53921361504217E-14"
-msgstr ""
+msgstr "<item type=\"literal\">RAWSUBTRACT(0,987654321098765; 0,9876543210987)</item> връща 6,53921361504217E-14"
 
 #. QZT3B
 #: func_rawsubtract.xhp
@@ -62340,7 +62340,7 @@ msgctxt ""
 "par_id521556242803283\n"
 "help.text"
 msgid "SWITCH(expression; value1; result1[; value2; result2][; ... ; [value127; result127][; default_result]])"
-msgstr ""
+msgstr "SWITCH(израз; стойност1; резултат1[; стойност2; резултат2][; ... ; [стойност127; резултат127][; подразбиран_резултат]])"
 
 #. p8fL8
 #: func_switch.xhp
@@ -62349,7 +62349,7 @@ msgctxt ""
 "par_id111585520651521\n"
 "help.text"
 msgid "If you choose not to specify a default result, 127 value / result pairs may be entered as parameters. If you choose to include a default result at the end of the list of parameters, then only 126 value / result pairs may be entered."
-msgstr ""
+msgstr "Ако не укажете резултат по подразбиране, в параметрите могат да бъдат зададени 127 двойки стойност / резултат. Ако включите подразбиран резултат в края на списъка с параметри, могат да бъдат зададени само 126 двойки стойност / резултат."
 
 #. nnW4D
 #: func_switch.xhp
@@ -62457,7 +62457,7 @@ msgctxt ""
 "par_id541556228253979\n"
 "help.text"
 msgid "TEXTJOIN( delimiter, skip_empty, String 1[; String 2][; … ;[String 253]] )"
-msgstr ""
+msgstr "TEXTJOIN(разделител, пропускане_празни, низ1[; низ2][; …;[низ 253]])"
 
 #. WaME6
 #: func_textjoin.xhp
@@ -62484,7 +62484,7 @@ msgctxt ""
 "par_id631556228516997\n"
 "help.text"
 msgid "<emph>String 1[; String 2][; … ;[String 253]]</emph> are strings,  references to cells or to cell ranges of strings."
-msgstr ""
+msgstr "<emph>Низ 1[; Низ 2][; … ;[Низ 253]]</emph> са низове или обръщения към клетки или диапазони от клетки, съдържащи низове."
 
 #. PDbCp
 #: func_textjoin.xhp
@@ -64878,7 +64878,7 @@ msgctxt ""
 "hd_id1000010\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/statistics.xhp\" name=\"Data Statistics in Calc\">Statistics</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/statistics.xhp\" name=\"Data Statistics in Calc\">Статистика</link>"
 
 #. iXfGE
 #: statistics.xhp
@@ -64905,7 +64905,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ANOVA"
-msgstr ""
+msgstr "ANOVA"
 
 #. UAf2Q
 #: statistics_anova.xhp
@@ -64914,7 +64914,7 @@ msgctxt ""
 "bm_id02001\n"
 "help.text"
 msgid "<bookmark_value>Analysis toolpack;analysis of variance</bookmark_value><bookmark_value>Analysis toolpack;ANOVA</bookmark_value><bookmark_value>analysis of variance;Analysis toolpack</bookmark_value><bookmark_value>ANOVA;Analysis toolpack</bookmark_value><bookmark_value>Data statistics;analysis of variance</bookmark_value><bookmark_value>Data statistics;ANOVA</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>анализ, инструменти за;дисперсионен анализ</bookmark_value><bookmark_value>анализ, инструменти за;ANOVA</bookmark_value><bookmark_value>дисперсионен анализ;инструменти за анализ</bookmark_value><bookmark_value>ANOVA;инструменти за анализ</bookmark_value><bookmark_value>статистики на данни;дисперсионен анализ</bookmark_value><bookmark_value>статистики на данни;ANOVA</bookmark_value>"
 
 #. DLedq
 #: statistics_anova.xhp
@@ -64923,7 +64923,7 @@ msgctxt ""
 "hd_id1000060\n"
 "help.text"
 msgid "<variable id=\"anovah1\"><link href=\"text/scalc/01/statistics_anova.xhp\" name=\"Analysis of Variance (ANOVA)\">Analysis of Variance (ANOVA)</link></variable>"
-msgstr ""
+msgstr "<variable id=\"anovah1\"><link href=\"text/scalc/01/statistics_anova.xhp\" name=\"Analysis of Variance (ANOVA)\">Дисперсионен анализ (ANOVA)</link></variable>"
 
 #. oSUDa
 #: statistics_anova.xhp
@@ -64932,7 +64932,7 @@ msgctxt ""
 "par_id1001240\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/analysisofvariancedialog/AnalysisOfVarianceDialog\">Produces the analysis of variance (ANOVA) of a given data set</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/analysisofvariancedialog/AnalysisOfVarianceDialog\">Извършва дисперсионен анализ (ANOVA) на дадена съвкупност от данни.</ahelp>"
 
 #. w5pw6
 #: statistics_anova.xhp
@@ -64941,7 +64941,7 @@ msgctxt ""
 "par_id1001250\n"
 "help.text"
 msgid "<variable id=\"sam01\">Choose <menuitem>Data - Statistics - Analysis of Variance (ANOVA)</menuitem></variable>"
-msgstr ""
+msgstr "<variable id=\"sam01\">Изберете <menuitem>Данни - Статистика - Дисперсионен анализ (ANOVA)</menuitem></variable>"
 
 #. r9GGt
 #: statistics_anova.xhp
@@ -64950,7 +64950,7 @@ msgctxt ""
 "par_id1001260\n"
 "help.text"
 msgid "ANOVA is the acronym for <emph>AN</emph>alysis <emph>O</emph>f <emph>VA</emph>riance. This tool produces the analysis of variance of a given data set"
-msgstr ""
+msgstr "ANOVA е съкращение от <emph>AN</emph>alysis <emph>O</emph>f <emph>VA</emph>riance (дисперсионен анализ). Този инструмент извършва дисперсионен анализ на дадена съвкупност от данни."
 
 #. fRyBD
 #: statistics_anova.xhp
@@ -64959,7 +64959,7 @@ msgctxt ""
 "par_id1001270\n"
 "help.text"
 msgid "For more information on ANOVA, refer to the <link href=\"https://en.wikipedia.org/wiki/ANOVA\" name=\"English Wikipedia: ANOVA\">corresponding Wikipedia article</link>."
-msgstr ""
+msgstr "За повече информация относно ANOVA вижте <link href=\"https://en.wikipedia.org/wiki/ANOVA\" name=\"English Wikipedia: ANOVA\">статията в Уикипедия на английски</link> или <link href=\"https://bg.wikipedia.org/wiki/Дисперсионен_анализ\">на български</link>."
 
 #. Lw9W4
 #: statistics_anova.xhp
@@ -64968,7 +64968,7 @@ msgctxt ""
 "hd_id1000070\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #. t2j8D
 #: statistics_anova.xhp
@@ -64977,7 +64977,7 @@ msgctxt ""
 "par_id1001280\n"
 "help.text"
 msgid "Select if the analysis is for a <emph>single factor</emph> or for <emph>two factor</emph> ANOVA."
-msgstr ""
+msgstr "Изберете дали дисперсионният анализ ANOVA е <emph>еднофакторен</emph> или <emph>двуфакторен</emph>."
 
 #. msAwu
 #: statistics_anova.xhp
@@ -64986,7 +64986,7 @@ msgctxt ""
 "hd_id1000080\n"
 "help.text"
 msgid "Parameters"
-msgstr ""
+msgstr "Параметри"
 
 #. ARzmU
 #: statistics_anova.xhp
@@ -64995,7 +64995,7 @@ msgctxt ""
 "par_id1001290\n"
 "help.text"
 msgid "<emph>Alpha</emph>: the level of significance of the test."
-msgstr ""
+msgstr "<emph>Алфа</emph>: нивото на значимост на теста."
 
 #. PyK5A
 #: statistics_anova.xhp
@@ -65004,7 +65004,7 @@ msgctxt ""
 "par_id1001300\n"
 "help.text"
 msgid "<emph>Rows per sample</emph>: Define how many rows a sample has."
-msgstr ""
+msgstr "<emph>Брой редове в извадка</emph>: определя колко реда съдържа извадката."
 
 #. 5yBo2
 #: statistics_anova.xhp
@@ -65013,7 +65013,7 @@ msgctxt ""
 "par_id1001310\n"
 "help.text"
 msgid "The following table displays the results of the <emph>analysis of variance (ANOVA)</emph> of the sample data above."
-msgstr ""
+msgstr "Следната таблица показва резултата от <emph>дисперсионния анализ (ANOVA)</emph> на горните примерни данни."
 
 #. 5uDqB
 #: statistics_anova.xhp
@@ -65022,7 +65022,7 @@ msgctxt ""
 "par_id1001320\n"
 "help.text"
 msgid "ANOVA - Single Factor"
-msgstr ""
+msgstr "Еднофакторен дисперсионен анализ"
 
 #. AzFd3
 #: statistics_anova.xhp
@@ -65031,7 +65031,7 @@ msgctxt ""
 "par_id1001330\n"
 "help.text"
 msgid "Alpha"
-msgstr ""
+msgstr "Алфа"
 
 #. Dvbo3
 #: statistics_anova.xhp
@@ -65040,7 +65040,7 @@ msgctxt ""
 "par_id1001350\n"
 "help.text"
 msgid "Groups"
-msgstr ""
+msgstr "Групи"
 
 #. L6VAY
 #: statistics_anova.xhp
@@ -65049,7 +65049,7 @@ msgctxt ""
 "par_id1001360\n"
 "help.text"
 msgid "Count"
-msgstr ""
+msgstr "Брой"
 
 #. G9fqK
 #: statistics_anova.xhp
@@ -65058,7 +65058,7 @@ msgctxt ""
 "par_id1001370\n"
 "help.text"
 msgid "Sum"
-msgstr ""
+msgstr "Сума"
 
 #. n2Ayi
 #: statistics_anova.xhp
@@ -65067,7 +65067,7 @@ msgctxt ""
 "par_id1001380\n"
 "help.text"
 msgid "Mean"
-msgstr ""
+msgstr "Средно"
 
 #. CnFDW
 #: statistics_anova.xhp
@@ -65076,7 +65076,7 @@ msgctxt ""
 "par_id1001390\n"
 "help.text"
 msgid "Variance"
-msgstr ""
+msgstr "Дисперсия"
 
 #. 2LDkn
 #: statistics_anova.xhp
@@ -65085,7 +65085,7 @@ msgctxt ""
 "par_id1001400\n"
 "help.text"
 msgid "Column 1"
-msgstr ""
+msgstr "Колона 1"
 
 #. p6hJA
 #: statistics_anova.xhp
@@ -65094,7 +65094,7 @@ msgctxt ""
 "par_id1001450\n"
 "help.text"
 msgid "Column 2"
-msgstr ""
+msgstr "Колона 2"
 
 #. 6jqh4
 #: statistics_anova.xhp
@@ -65103,7 +65103,7 @@ msgctxt ""
 "par_id1001500\n"
 "help.text"
 msgid "Column 3"
-msgstr ""
+msgstr "Колона 3"
 
 #. d3ASg
 #: statistics_anova.xhp
@@ -65112,7 +65112,7 @@ msgctxt ""
 "par_id1001550\n"
 "help.text"
 msgid "Source of Variation"
-msgstr ""
+msgstr "Източник на дисперсия"
 
 #. CrpJv
 #: statistics_anova.xhp
@@ -65121,7 +65121,7 @@ msgctxt ""
 "par_id1001560\n"
 "help.text"
 msgid "SS"
-msgstr ""
+msgstr "SS"
 
 #. 3BARp
 #: statistics_anova.xhp
@@ -65130,7 +65130,7 @@ msgctxt ""
 "par_id1001570\n"
 "help.text"
 msgid "df"
-msgstr ""
+msgstr "df"
 
 #. YhWBw
 #: statistics_anova.xhp
@@ -65139,7 +65139,7 @@ msgctxt ""
 "par_id1001580\n"
 "help.text"
 msgid "MS"
-msgstr ""
+msgstr "MS"
 
 #. KV6Cy
 #: statistics_anova.xhp
@@ -65148,7 +65148,7 @@ msgctxt ""
 "par_id1001590\n"
 "help.text"
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #. QRdrB
 #: statistics_anova.xhp
@@ -65157,7 +65157,7 @@ msgctxt ""
 "par_id1001600\n"
 "help.text"
 msgid "P-value"
-msgstr ""
+msgstr "P-стойност"
 
 #. Vabri
 #: statistics_anova.xhp
@@ -65166,7 +65166,7 @@ msgctxt ""
 "par_id841554943563747\n"
 "help.text"
 msgid "F-critical"
-msgstr ""
+msgstr "F критично"
 
 #. RR2va
 #: statistics_anova.xhp
@@ -65175,7 +65175,7 @@ msgctxt ""
 "par_id1001610\n"
 "help.text"
 msgid "Between Groups"
-msgstr ""
+msgstr "Между групите"
 
 #. vuDTW
 #: statistics_anova.xhp
@@ -65184,7 +65184,7 @@ msgctxt ""
 "par_id411554944014360\n"
 "help.text"
 msgid "3.340385558"
-msgstr ""
+msgstr "3,340385558"
 
 #. tpzCU
 #: statistics_anova.xhp
@@ -65193,7 +65193,7 @@ msgctxt ""
 "par_id1001670\n"
 "help.text"
 msgid "Within Groups"
-msgstr ""
+msgstr "В групите"
 
 #. Lcu3C
 #: statistics_anova.xhp
@@ -65202,7 +65202,7 @@ msgctxt ""
 "par_id1001710\n"
 "help.text"
 msgid "Total"
-msgstr ""
+msgstr "Общо"
 
 #. NaUDo
 #: statistics_correlation.xhp
@@ -65211,7 +65211,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Data Correlation in Calc"
-msgstr ""
+msgstr "Корелация на данни в Calc"
 
 #. agTA6
 #: statistics_correlation.xhp
@@ -65220,7 +65220,7 @@ msgctxt ""
 "bm_id1464278\n"
 "help.text"
 msgid "<bookmark_value>Analysis toolpack;correlation</bookmark_value><bookmark_value>correlation;Analysis toolpack</bookmark_value><bookmark_value>Data statistics;correlation</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>анализ, инструменти за;корелация</bookmark_value><bookmark_value>корелация;инструменти за анализ</bookmark_value><bookmark_value>статистики на данни;корелация</bookmark_value>"
 
 #. GDsXj
 #: statistics_correlation.xhp
@@ -65229,7 +65229,7 @@ msgctxt ""
 "hd_id1000090\n"
 "help.text"
 msgid "<variable id=\"correlationh1\"><link href=\"text/scalc/01/statistics_correlation.xhp\" name=\"Correlation\">Correlation</link></variable>"
-msgstr ""
+msgstr "<variable id=\"correlationh1\"><link href=\"text/scalc/01/statistics_correlation.xhp\" name=\"Correlation\">Корелация</link></variable>"
 
 #. zJrnQ
 #: statistics_correlation.xhp
@@ -65238,7 +65238,7 @@ msgctxt ""
 "par_id1001740\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/correlationdialog/CorrelationDialog\">Calculates the correlation of two sets of numeric data.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/correlationdialog/CorrelationDialog\">Изчислява корелацията на два набора от числови данни.</ahelp>"
 
 #. WK8ke
 #: statistics_correlation.xhp
