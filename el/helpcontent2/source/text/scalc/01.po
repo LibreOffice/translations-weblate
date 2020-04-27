@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-04-18 14:18+0200\n"
+"POT-Creation-Date: 2020-04-27 15:54+0200\n"
 "PO-Revision-Date: 2020-04-19 15:16+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://weblate.documentfoundation.org/projects/libo_help-master/textscalc01/el/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: LibreOffice\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1562059311.000000\n"
 
@@ -4814,6 +4814,15 @@ msgctxt ""
 msgid "If the DatabaseField argument is omitted, DCOUNT returns the count of all records that satisfy Criteria. <embedvar href=\"text/scalc/01/04060101.xhp#quotes\"/>"
 msgstr "Εάν παραληφθεί το όρισμα ΠεδίοΒάσηςΔεδομένων, η DCOUNT επιστρέφει το πλήθος όλων των εγγραφών που ικανοποιούν τα κριτήρια. <embedvar href=\"text/scalc/01/04060101.xhp#quotes\"/> "
 
+#. ckYe4
+#: 04060101.xhp
+msgctxt ""
+"04060101.xhp\n"
+"par_id301587321851330\n"
+"help.text"
+msgid "If you choose to omit the DatabaseField argument, your formula should be of the form =DCOUNT(Database; ; SearchCriteria)."
+msgstr ""
+
 #. F7cy4
 #: 04060101.xhp
 msgctxt ""
@@ -4885,6 +4894,15 @@ msgctxt ""
 "help.text"
 msgid "If the DatabaseField argument is omitted, DCOUNTA returns the count of all records that satisfy Criteria. <embedvar href=\"text/scalc/01/04060101.xhp#quotes\"/>"
 msgstr "Αν το όρισμα του ΠεδίουΒάσηςΔεδομένων παραληφθεί, η DCOUNTA επιστρέφει το πλήθος όλων των εγγραφών που ικανοποιούν τα κριτήρια. <embedvar href=\"text/scalc/01/04060101.xhp#quotes\"/>"
+
+#. ESpfH
+#: 04060101.xhp
+msgctxt ""
+"04060101.xhp\n"
+"par_id31587322048553\n"
+"help.text"
+msgid "If you choose to omit the DatabaseField argument, your formula should be of the form =DCOUNTA(Database; ; SearchCriteria)."
+msgstr ""
 
 #. xX6ve
 #: 04060101.xhp
@@ -61487,23 +61505,23 @@ msgctxt ""
 msgid "The function should be called with at least two parameters."
 msgstr "Η συνάρτηση πρέπει να κληθεί με τουλάχιστον δύο παραμέτρους."
 
-#. gwtEM
+#. hANRQ
 #: func_rawsubtract.xhp
 msgctxt ""
 "func_rawsubtract.xhp\n"
 "par_2016112109236\n"
 "help.text"
-msgid "<item type=\"literal\">RAWSUBTRACT(0.987654321098765, 0.9876543210987)</item> returns 6.53921361504217E-14"
-msgstr "<item type=\"literal\">RAWSUBTRACT(0,987654321098765, 0,9876543210987)</item> επιστρέφει 6,53921361504217E-14"
+msgid "<input>=RAWSUBTRACT(0.987654321098765, 0.9876543210987)</input> returns 6.53921361504217E-14"
+msgstr ""
 
-#. QZT3B
+#. bgohX
 #: func_rawsubtract.xhp
 msgctxt ""
 "func_rawsubtract.xhp\n"
 "par_2016112109237\n"
 "help.text"
-msgid "<item type=\"literal\">RAWSUBTRACT(0.987654321098765)</item> returns Err:511 (Missing variable) because RAWSUBTRACT requires a minimum of two numbers."
-msgstr "<item type=\"literal\">RAWSUBTRACT(0,987654321098765)</item> επιστρέφει Err:511 (λείπει μεταβλητή) επειδή το RAWSUBTRACT απαιτεί τουλάχιστον δύο αριθμούς."
+msgid "<input>=RAWSUBTRACT(0.987654321098765)</input> returns Err:511 (Missing variable) because RAWSUBTRACT requires a minimum of two numbers."
+msgstr ""
 
 #. d9DP3
 #: func_regex.xhp
@@ -65177,15 +65195,6 @@ msgctxt ""
 msgid "Between Groups"
 msgstr "Μεταξύ ομάδων"
 
-#. vuDTW
-#: statistics_anova.xhp
-msgctxt ""
-"statistics_anova.xhp\n"
-"par_id411554944014360\n"
-"help.text"
-msgid "3.340385558"
-msgstr "3,340385558"
-
 #. tpzCU
 #: statistics_anova.xhp
 msgctxt ""
@@ -67705,6 +67714,27 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">σελίδα βίκι σε πηγή XML</link>"
+
+#~ msgctxt ""
+#~ "func_rawsubtract.xhp\n"
+#~ "par_2016112109236\n"
+#~ "help.text"
+#~ msgid "<item type=\"literal\">RAWSUBTRACT(0.987654321098765, 0.9876543210987)</item> returns 6.53921361504217E-14"
+#~ msgstr "<item type=\"literal\">RAWSUBTRACT(0,987654321098765, 0,9876543210987)</item> επιστρέφει 6,53921361504217E-14"
+
+#~ msgctxt ""
+#~ "func_rawsubtract.xhp\n"
+#~ "par_2016112109237\n"
+#~ "help.text"
+#~ msgid "<item type=\"literal\">RAWSUBTRACT(0.987654321098765)</item> returns Err:511 (Missing variable) because RAWSUBTRACT requires a minimum of two numbers."
+#~ msgstr "<item type=\"literal\">RAWSUBTRACT(0,987654321098765)</item> επιστρέφει Err:511 (λείπει μεταβλητή) επειδή το RAWSUBTRACT απαιτεί τουλάχιστον δύο αριθμούς."
+
+#~ msgctxt ""
+#~ "statistics_anova.xhp\n"
+#~ "par_id411554944014360\n"
+#~ "help.text"
+#~ msgid "3.340385558"
+#~ msgstr "3,340385558"
 
 #~ msgctxt ""
 #~ "func_ceiling.xhp\n"
