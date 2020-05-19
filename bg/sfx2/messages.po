@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-05-07 12:48+0200\n"
+"POT-Creation-Date: 2020-05-19 12:41+0200\n"
 "PO-Revision-Date: 2020-05-14 21:05+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://weblate.documentfoundation.org/projects/libo_ui-master/sfx2messages/bg/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 3.10.3\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1559599623.000000\n"
 
 #. bHbFE
@@ -1530,11 +1530,11 @@ msgctxt "STR_WHATSNEW_BUTTON"
 msgid "Release Notes"
 msgstr "Бележки по изданието"
 
-#. c7NPT
+#. 9BCk4
 #: include/sfx2/strings.hrc:276
 msgctxt "STR_READONLY_DOCUMENT"
-msgid "This document is open in read-only mode."
-msgstr "Документът е отворен в режим само за четене."
+msgid "This document is open in read-only mode. If you wish to modify the contents, first save it as another document, in a folder you have write access to."
+msgstr ""
 
 #. KyyFk
 #: include/sfx2/strings.hrc:277
@@ -2864,50 +2864,50 @@ msgctxt "floatingrecord|FloatingRecord"
 msgid "Record Macro"
 msgstr "Записване на макрос"
 
-#. kZqGE
-#: sfx2/uiconfig/ui/helpbookmarkpage.ui:22
-msgctxt "helpbookmarkpage|display"
-msgid "_Display"
-msgstr "Показване"
-
 #. Fa63R
-#: sfx2/uiconfig/ui/helpbookmarkpage.ui:41
+#: sfx2/uiconfig/ui/helpbookmarkpage.ui:31
 msgctxt "helpbookmarkpage|label1"
 msgid "_Bookmarks"
 msgstr "Показалци"
 
+#. kZqGE
+#: sfx2/uiconfig/ui/helpbookmarkpage.ui:82
+msgctxt "helpbookmarkpage|display"
+msgid "_Display"
+msgstr "Показване"
+
 #. S7ppr
-#: sfx2/uiconfig/ui/helpcontrol.ui:51
+#: sfx2/uiconfig/ui/helpcontrol.ui:76
 msgctxt "helpcontrol|contents"
 msgid "Contents"
 msgstr "Съдържание"
 
 #. vxPLh
-#: sfx2/uiconfig/ui/helpcontrol.ui:73
+#: sfx2/uiconfig/ui/helpcontrol.ui:124
 msgctxt "helpcontrol|index"
 msgid "Index"
 msgstr "Азбучен указател"
 
 #. HdGQi
-#: sfx2/uiconfig/ui/helpcontrol.ui:96
+#: sfx2/uiconfig/ui/helpcontrol.ui:173
 msgctxt "helpcontrol|find"
 msgid "Find"
 msgstr "Търсене"
 
 #. 7fapN
-#: sfx2/uiconfig/ui/helpcontrol.ui:119
+#: sfx2/uiconfig/ui/helpcontrol.ui:222
 msgctxt "helpcontrol|bookmarks"
 msgid "Bookmarks"
 msgstr "Показалци"
 
 #. UQL8A
-#: sfx2/uiconfig/ui/helpindexpage.ui:22
+#: sfx2/uiconfig/ui/helpindexpage.ui:29
 msgctxt "helpindexpage|display"
 msgid "_Display"
 msgstr "Показване"
 
 #. P8J6u
-#: sfx2/uiconfig/ui/helpindexpage.ui:41
+#: sfx2/uiconfig/ui/helpindexpage.ui:119
 msgctxt "helpindexpage|label1"
 msgid "_Search term"
 msgstr "Търсене на термин"
@@ -2943,28 +2943,64 @@ msgid "Do not show this dialog again"
 msgstr "Този диалог да не се показва повече"
 
 #. 8FjCk
-#: sfx2/uiconfig/ui/helpsearchpage.ui:22
+#: sfx2/uiconfig/ui/helpsearchpage.ui:29
 msgctxt "helpsearchpage|display"
 msgid "_Display"
 msgstr "Показване"
 
 #. JDsn3
-#: sfx2/uiconfig/ui/helpsearchpage.ui:41
+#: sfx2/uiconfig/ui/helpsearchpage.ui:45
 msgctxt "helpsearchpage|label1"
 msgid "_Search term"
 msgstr "Търсене на термин"
 
 #. ZiE8A
-#: sfx2/uiconfig/ui/helpsearchpage.ui:116
+#: sfx2/uiconfig/ui/helpsearchpage.ui:138
 msgctxt "helpsearchpage|completewords"
 msgid "_Complete words only"
 msgstr "Само цели думи"
 
 #. vzqdb
-#: sfx2/uiconfig/ui/helpsearchpage.ui:133
+#: sfx2/uiconfig/ui/helpsearchpage.ui:153
 msgctxt "helpsearchpage|headings"
 msgid "Find in _headings only"
 msgstr "Само в заглавията"
+
+#. JDZho
+#: sfx2/uiconfig/ui/helpwindow.ui:72
+msgctxt "helpwindow|backward|tooltip_text"
+msgid "Previous Page"
+msgstr ""
+
+#. Gv3uP
+#: sfx2/uiconfig/ui/helpwindow.ui:84
+msgctxt "helpwindow|forward|tooltip_text"
+msgid "Next Page"
+msgstr ""
+
+#. uaBtK
+#: sfx2/uiconfig/ui/helpwindow.ui:96
+msgctxt "helpwindow|start|tooltip_text"
+msgid "First Page"
+msgstr ""
+
+#. TizVY
+#: sfx2/uiconfig/ui/helpwindow.ui:118
+msgctxt "helpwindow|print|tooltip_text"
+msgid "Print"
+msgstr ""
+
+#. 7wgqt
+#: sfx2/uiconfig/ui/helpwindow.ui:130
+msgctxt "helpwindow|bookmarks|tooltip_text"
+msgid "Add to Bookmarks"
+msgstr ""
+
+#. qPF9A
+#: sfx2/uiconfig/ui/helpwindow.ui:142
+msgctxt "helpwindow|searchdialog|tooltip_text"
+msgid "Find on this Page"
+msgstr ""
 
 #. DpXCY
 #: sfx2/uiconfig/ui/inputdialog.ui:86
@@ -4051,6 +4087,10 @@ msgstr "Коментари"
 msgctxt "versionsofdialog|label2"
 msgid "Existing Versions"
 msgstr "Съществуващи версии"
+
+#~ msgctxt "STR_READONLY_DOCUMENT"
+#~ msgid "This document is open in read-only mode."
+#~ msgstr "Документът е отворен в режим само за четене."
 
 #~ msgctxt "STR_PREVIEW_CHECKBOX"
 #~ msgid "Show previews"
