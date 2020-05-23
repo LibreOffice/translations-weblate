@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-05-19 12:41+0200\n"
-"PO-Revision-Date: 2020-05-17 01:20+0000\n"
+"PO-Revision-Date: 2020-05-23 22:47+0000\n"
 "Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: Swedish <https://weblate.documentfoundation.org/projects/libo_ui-master/sfx2messages/sv/>\n"
 "Language: sv\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 3.10.3\n"
 "X-POOTLE-MTIME: 1556445275.000000\n"
 
 #. bHbFE
@@ -1271,6 +1271,9 @@ msgid ""
 "If you will delete it, text or objects using these styles will revert to the parent style.\n"
 "Do you still wish to delete these styles?\n"
 msgstr ""
+"En eller flera av de valda stilarna används i detta dokument.\n"
+"Om du tar bort den kommer text eller objekt som använder dessa stilar att återgå till överordnad stil.\n"
+"Vill du fortfarande ta bort dessa stilar?\n"
 
 #. kuD77
 #: include/sfx2/strings.hrc:235
@@ -1423,6 +1426,8 @@ msgid ""
 "An error occurred in sending the message. Possible errors could be a missing user account or a defective setup.\n"
 "Please check the %PRODUCTNAME settings or your email program settings."
 msgstr ""
+"Ett fel uppstod när meddelandet skickades. Möjliga fel kan vara ett saknat användarkonto eller en defekt installation.\n"
+"Kontrollera inställningarna i %PRODUCTNAME eller ditt e-postprogram."
 
 #. 3nzi6
 #. Error codes look like "MAPI_E_FAILURE" or "1234"
@@ -1456,12 +1461,14 @@ msgid ""
 "This document cannot be edited, because it is locked in another session.%LOCKINFO\n"
 "Do you want to edit a copy of the document?"
 msgstr ""
+"Det här dokumentet kan inte redigeras eftersom det är låst i en annan session.%LOCKINFO\n"
+"Vill du redigera en kopia av dokumentet?"
 
 #. n3sMB
 #: include/sfx2/strings.hrc:265
 msgctxt "STR_QUERY_OPENASTEMPLATE_ALLOW_IGNORE"
 msgid "You can also try to ignore the lock and open the file for editing."
-msgstr ""
+msgstr "Du kan också försöka ignorera låset och öppna filen för redigering."
 
 #. yaKxR
 #: include/sfx2/strings.hrc:266
@@ -1527,7 +1534,7 @@ msgstr "Versionsfakta"
 #: include/sfx2/strings.hrc:276
 msgctxt "STR_READONLY_DOCUMENT"
 msgid "This document is open in read-only mode. If you wish to modify the contents, first save it as another document, in a folder you have write access to."
-msgstr ""
+msgstr "Detta dokument är öppet i skrivskyddad läge. Om du vill ändra innehållet ska du först spara det som ett annat dokument i en mapp du har skrivåtkomst till."
 
 #. KyyFk
 #: include/sfx2/strings.hrc:277
@@ -1617,7 +1624,7 @@ msgstr "Signaturen är OK, men dokumentet är endast delvis signerat."
 #: include/sfx2/strings.hrc:291
 msgctxt "STR_SIGNATURE_NOTVALIDATED_PARTIAL_OK"
 msgid "The certificate could not be validated and the document is only partially signed."
-msgstr ""
+msgstr "Certifikatet kunde inte valideras och dokumentet är endast delvis undertecknat."
 
 #. FKDbE
 #: include/sfx2/strings.hrc:292
@@ -1871,13 +1878,13 @@ msgstr "Visitkort med logotyp"
 #: include/sfx2/strings.hrc:338
 msgctxt "STR_TEMPLATE_NAME31"
 msgid "Simple"
-msgstr ""
+msgstr "Enkel"
 
 #. W7NVH
 #: include/sfx2/strings.hrc:339
 msgctxt "STR_TEMPLATE_NAME32"
 msgid "BPMN"
-msgstr ""
+msgstr "BPMN"
 
 #. ZaGGB
 #: include/sfx2/strings.hrc:341
@@ -1907,19 +1914,19 @@ msgstr "Lösenordet du har angett orsakar driftskompatibilitetsproblem. Ange ett
 #: include/sfx2/strings.hrc:347
 msgctxt "STR_CTRLCLICKHYPERLINK"
 msgid "%{key}-click to open hyperlink: %{link}"
-msgstr ""
+msgstr "%{key}-klicka för att öppna hyperlänk: %{link}"
 
 #. jC3AK
 #: include/sfx2/strings.hrc:348
 msgctxt "STR_CLICKHYPERLINK"
 msgid "Click to open hyperlink: %{link}"
-msgstr ""
+msgstr "Klicka för att öppna hyperlänk: %{link}"
 
 #. eFJMp
 #: include/sfx2/strings.hrc:350
 msgctxt "STR_STYLEUSEDBY"
 msgid "(used by: %STYLELIST)"
-msgstr ""
+msgstr "(används av: %STYLELIST)"
 
 #. F5rSU
 #: sfx2/inc/dinfdlg.hrc:27
@@ -2243,7 +2250,7 @@ msgstr "Text"
 #: sfx2/uiconfig/ui/addtargetdialog.ui:167
 msgctxt "addtargetdialog|type"
 msgid "Regular expression"
-msgstr ""
+msgstr "Reguljärt uttryck"
 
 #. wgzA4
 #: sfx2/uiconfig/ui/addtargetdialog.ui:168
@@ -2345,7 +2352,7 @@ msgstr "Fråga när filer inte sparas i antingen standardformat eller ODF-format
 #: sfx2/uiconfig/ui/autoredactdialog.ui:24
 msgctxt "autoredactdialog|AutoRedactDialog"
 msgid "Automatic Redaction"
-msgstr ""
+msgstr "Automatisk redigering"
 
 #. QCidi
 #: sfx2/uiconfig/ui/autoredactdialog.ui:122
@@ -2381,13 +2388,13 @@ msgstr "Hela ord"
 #: sfx2/uiconfig/ui/autoredactdialog.ui:202
 msgctxt "menuassignpage|contentslabel"
 msgid "_Redaction Targets"
-msgstr ""
+msgstr "_Redigeringsmål"
 
 #. E4GWo
 #: sfx2/uiconfig/ui/autoredactdialog.ui:224
 msgctxt "autoredactdialog|btnLoadTargets"
 msgid "Load Targets"
-msgstr ""
+msgstr "Läs in mål"
 
 #. tpbYA
 #: sfx2/uiconfig/ui/autoredactdialog.ui:239
@@ -2837,19 +2844,19 @@ msgstr "Varaktighet"
 #: sfx2/uiconfig/ui/errorfindemaildialog.ui:7
 msgctxt "errorfindemaildialog|ErrorFindEmailDialog"
 msgid "No email configuration"
-msgstr ""
+msgstr "Ingen e-postkonfiguration"
 
 #. cFct7
 #: sfx2/uiconfig/ui/errorfindemaildialog.ui:14
 msgctxt "errorfindemaildialog|ErrorFindEmailDialog"
 msgid "%PRODUCTNAME was unable to find a working email configuration."
-msgstr ""
+msgstr "%PRODUCTNAME kunde inte hitta en fungerande e-postkonfiguration."
 
 #. xQi7X
 #: sfx2/uiconfig/ui/errorfindemaildialog.ui:15
 msgctxt "errorfindemaildialog|ErrorFindEmailDialog"
 msgid "Please save this document locally instead and attach it from within your email client."
-msgstr ""
+msgstr "Spara detta dokument lokalt i stället och bifoga det från din e-postklient."
 
 #. DVQUS
 #: sfx2/uiconfig/ui/floatingrecord.ui:7
@@ -2963,37 +2970,37 @@ msgstr "Sök bara i r_ubriker"
 #: sfx2/uiconfig/ui/helpwindow.ui:72
 msgctxt "helpwindow|backward|tooltip_text"
 msgid "Previous Page"
-msgstr ""
+msgstr "Föregående sida"
 
 #. Gv3uP
 #: sfx2/uiconfig/ui/helpwindow.ui:84
 msgctxt "helpwindow|forward|tooltip_text"
 msgid "Next Page"
-msgstr ""
+msgstr "Nästa sida"
 
 #. uaBtK
 #: sfx2/uiconfig/ui/helpwindow.ui:96
 msgctxt "helpwindow|start|tooltip_text"
 msgid "First Page"
-msgstr ""
+msgstr "Första sidan"
 
 #. TizVY
 #: sfx2/uiconfig/ui/helpwindow.ui:118
 msgctxt "helpwindow|print|tooltip_text"
 msgid "Print"
-msgstr ""
+msgstr "Skriv ut"
 
 #. 7wgqt
 #: sfx2/uiconfig/ui/helpwindow.ui:130
 msgctxt "helpwindow|bookmarks|tooltip_text"
 msgid "Add to Bookmarks"
-msgstr ""
+msgstr "Lägg till i bokmärken"
 
 #. qPF9A
 #: sfx2/uiconfig/ui/helpwindow.ui:142
 msgctxt "helpwindow|searchdialog|tooltip_text"
 msgid "Find on this Page"
-msgstr ""
+msgstr "Sök på den här sidan"
 
 #. DpXCY
 #: sfx2/uiconfig/ui/inputdialog.ui:86
@@ -3027,30 +3034,39 @@ msgid ""
 "\n"
 "This product was created by %OOOVENDOR, based on OpenOffice.org, which is Copyright 2000, 2011 Oracle and/or its affiliates. %OOOVENDOR acknowledges all community members, please see http://www.libreoffice.org/ for more details."
 msgstr ""
+"%PRODUCTNAME görs tillgängligt med förbehåll för villkoren i Mozilla Public License, v. 2.0. En kopia av MPL kan erhållas på http://mozilla.org/MPL/2.0/.\n"
+"\n"
+"Ytterligare upphovsrättsmeddelanden och licensvillkor som gäller för delar av mjukvaran anges av tredjepartskoden i filen LICENSE.html; Välj Visa licens för att se exakta detaljer på engelska.\n"
+"\n"
+"Alla varumärken och registrerade varumärken som nämns häri tillhör deras respektive ägare.\n"
+"\n"
+"Copyright © 2000–2020 LibreOffice-bidragsgivare. Med ensamrätt.\n"
+"\n"
+"Denna produkt skapades av %OOOVENDOR, baserad på OpenOffice.org, som är Copyright 2000, 2011 Oracle och/eller dess dotterbolag. %OOOVENDOR erkänner alla medlemmar i gemenskapen, se  http://www.libreoffice.org/ för mer detaljer."
 
 #. QuVoN
 #: sfx2/uiconfig/ui/linefragment.ui:55
 msgctxt "linefragment|STR_SFX_REMOVE_PROPERTY"
 msgid "Remove Property"
-msgstr ""
+msgstr "Ta bort egenskap"
 
 #. 8gPai
 #: sfx2/uiconfig/ui/linefragment.ui:144
 msgctxt "linefragment|SFX_ST_EDIT"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. x4Fjd
 #: sfx2/uiconfig/ui/linefragment.ui:180
 msgctxt "linefragment|yes"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. mJFyB
 #: sfx2/uiconfig/ui/linefragment.ui:196
 msgctxt "linefragment|no"
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #. muk9B
 #: sfx2/uiconfig/ui/linkeditdialog.ui:8
@@ -3242,7 +3258,7 @@ msgstr "Skriv ut t_ill fil"
 #: sfx2/uiconfig/ui/optprintpage.ui:75
 msgctxt "optprintpage|label4"
 msgid "Settings for"
-msgstr ""
+msgstr "Inställningar för"
 
 #. 2T5Af
 #: sfx2/uiconfig/ui/optprintpage.ui:108
@@ -3266,7 +3282,7 @@ msgstr "Trans_parens"
 #: sfx2/uiconfig/ui/optprintpage.ui:159
 msgctxt "optprintpage|label2"
 msgid "Warnings"
-msgstr ""
+msgstr "Varningar"
 
 #. PJFLE
 #: sfx2/uiconfig/ui/optprintpage.ui:190
@@ -3290,7 +3306,7 @@ msgstr "Mellan_färg"
 #: sfx2/uiconfig/ui/optprintpage.ui:284
 msgctxt "optprintpage|label1"
 msgid "Reduce Gradient"
-msgstr ""
+msgstr "Reducera övertoningar"
 
 #. qF2KM
 #: sfx2/uiconfig/ui/optprintpage.ui:325
@@ -3356,7 +3372,7 @@ msgstr "Reducera _bitmaps"
 #: sfx2/uiconfig/ui/optprintpage.ui:431
 msgctxt "optprintpage|label1"
 msgid "Reduce Bitmaps"
-msgstr ""
+msgstr "Reducera bitmaps"
 
 #. B4C76
 #: sfx2/uiconfig/ui/optprintpage.ui:472
@@ -3380,7 +3396,7 @@ msgstr "_Reducera transparens"
 #: sfx2/uiconfig/ui/optprintpage.ui:533
 msgctxt "optprintpage|label1"
 msgid "Reduce Transparency"
-msgstr ""
+msgstr "Reducera transparens"
 
 #. GAFzh
 #: sfx2/uiconfig/ui/optprintpage.ui:564
@@ -3404,7 +3420,7 @@ msgstr "Inkludera transparenta objekt"
 #: sfx2/uiconfig/ui/optprintpage.ui:615
 msgctxt "optprintpage|label4"
 msgid "Defaults"
-msgstr ""
+msgstr "Standardvärden"
 
 #. QrtGb
 #: sfx2/uiconfig/ui/password.ui:8
@@ -3926,37 +3942,37 @@ msgstr "Importera mallar"
 #: sfx2/uiconfig/ui/templatepanel.ui:134
 msgctxt "templatepanel|STR_STYLE_FILL_FORMAT_MODE"
 msgid "Fill Format Mode"
-msgstr ""
+msgstr "Tilldelningsläge"
 
 #. GLRFT
 #: sfx2/uiconfig/ui/templatepanel.ui:147
 msgctxt "templatepanel|STR_STYLE_NEW_STYLE_FROM_SELECTION"
 msgid "New Style from Selection"
-msgstr ""
+msgstr "Nytt format från markering"
 
 #. tAdD9
 #: sfx2/uiconfig/ui/templatepanel.ui:160
 msgctxt "templatepanel|STR_STYLE_NEW_STYLE_ACTION"
 msgid "Styles actions"
-msgstr ""
+msgstr "Åtgärder för formatmallar"
 
 #. Xk5tD
 #: sfx2/uiconfig/ui/templatepanel.ui:173
 msgctxt "templatepanel|STR_STYLE_UPDATE_STYLE"
 msgid "Update Style"
-msgstr ""
+msgstr "Uppdatera format"
 
 #. irBvi
 #: sfx2/uiconfig/ui/templatepanel.ui:230 sfx2/uiconfig/ui/templatepanel.ui:276
 msgctxt "templatepanel|STR_STYLE_ELEMTLIST"
 msgid "Style List"
-msgstr ""
+msgstr "Lista med formatmallar"
 
 #. FHud7
 #: sfx2/uiconfig/ui/templatepanel.ui:290
 msgctxt "commontemplate|STR_PREVIEW_CHECKBOX"
 msgid "Show previews"
-msgstr ""
+msgstr "Visa förhandsvisningar"
 
 #. p9AWW
 #: sfx2/uiconfig/ui/versioncommentdialog.ui:8
