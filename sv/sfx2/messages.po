@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-11 16:49+0100\n"
-"PO-Revision-Date: 2020-04-17 15:16+0000\n"
-"Last-Translator: Påvel Nicklasson <pavelnicklasson@bahnhof.se>\n"
+"PO-Revision-Date: 2020-05-24 12:33+0000\n"
+"Last-Translator: Andreas Pettersson <az@kth.se>\n"
 "Language-Team: Swedish <https://weblate.documentfoundation.org/projects/libo_ui-6-3/sfx2messages/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -654,7 +654,7 @@ msgstr "Bild"
 #: include/sfx2/strings.hrc:127
 msgctxt "STR_GID_CHART"
 msgid "Chart"
-msgstr "Chart"
+msgstr "Diagram"
 
 #. pNE8F
 #: include/sfx2/strings.hrc:128
@@ -678,7 +678,7 @@ msgstr "Ändra"
 #: include/sfx2/strings.hrc:131
 msgctxt "STR_GID_DRAWING"
 msgid "Drawing"
-msgstr "Rita"
+msgstr "Teckning"
 
 #. Ajo4w
 #: include/sfx2/strings.hrc:132
@@ -1221,7 +1221,7 @@ msgstr "Ny formatmall från markering"
 #: include/sfx2/strings.hrc:220
 msgctxt "STR_STYLE_NEW_STYLE_ACTION"
 msgid "Styles actions"
-msgstr ""
+msgstr "Åtgärder för formatmallar"
 
 #. B9bdB
 #: include/sfx2/strings.hrc:221
@@ -1332,6 +1332,8 @@ msgid ""
 "An error occurred in sending the message. Possible errors could be a missing user account or a defective setup.\n"
 "Please check the %PRODUCTNAME settings or your email program settings."
 msgstr ""
+"Ett fel uppstod när meddelandet skickades. Möjliga fel kan vara ett saknat användarkonto eller en defekt installation.\n"
+"Kontrollera inställningarna i %PRODUCTNAME eller ditt e-postprogram."
 
 #. 3nzi6
 #. Error codes look like "MAPI_E_FAILURE" or "1234"
@@ -1410,25 +1412,25 @@ msgstr "Engagera dig"
 #: include/sfx2/strings.hrc:248
 msgctxt "STR_DONATE_TEXT"
 msgid "Your donations support our worldwide community."
-msgstr ""
+msgstr "Dina donationer stödjer vår globala gemenskap."
 
 #. KzgoD
 #: include/sfx2/strings.hrc:249
 msgctxt "STR_DONATE_BUTTON"
 msgid "Donate"
-msgstr ""
+msgstr "Donera"
 
 #. G8bbK
 #: include/sfx2/strings.hrc:250
 msgctxt "STR_WHATSNEW"
 msgid "You are running version %PRODUCTVERSION of %PRODUCTNAME for the first time. Do you want to learn what's new?"
-msgstr ""
+msgstr "Du kör version %PRODUCTVERSION av %PRODUCTNAME för första gången. Vill du veta vad som är nytt?"
 
 #. J5UkB
 #: include/sfx2/strings.hrc:251
 msgctxt "STR_WHATSNEW_BUTTON"
 msgid "Release Notes"
-msgstr ""
+msgstr "Versionsfakta"
 
 #. c7NPT
 #: include/sfx2/strings.hrc:252
@@ -1524,7 +1526,7 @@ msgstr "Signaturen är OK, men dokumentet är endast delvis signerat."
 #: include/sfx2/strings.hrc:267
 msgctxt "STR_SIGNATURE_NOTVALIDATED_PARTIAL_OK"
 msgid "The certificate could not be validated and the document is only partially signed."
-msgstr ""
+msgstr "Certifikatet kunde inte valideras och dokumentet är endast delvis undertecknat."
 
 #. FKDbE
 #: include/sfx2/strings.hrc:268
@@ -1856,7 +1858,7 @@ msgstr "Redaktör"
 #: sfx2/inc/dinfdlg.hrc:36
 msgctxt "SFX_CB_PROPERTY_STRINGARRAY"
 msgid "Email"
-msgstr ""
+msgstr "E-post"
 
 #. xNvDx
 #: sfx2/inc/dinfdlg.hrc:37
@@ -2126,7 +2128,7 @@ msgstr "Fråga när filer inte sparas i antingen standardformat eller ODF-format
 #: sfx2/uiconfig/ui/bookmarkdialog.ui:8
 msgctxt "bookmarkdialog|BookmarkDialog"
 msgid "Add to Bookmarks"
-msgstr "Lägg till bokmärken"
+msgstr "Lägg till i bokmärken"
 
 #. U6BGv
 #: sfx2/uiconfig/ui/bookmarkdialog.ui:80
@@ -2426,7 +2428,7 @@ msgstr "Egenskaper för ”%1”"
 #: sfx2/uiconfig/ui/documentpropertiesdialog.ui:134
 msgctxt "documentpropertiesdialog|general"
 msgid "General "
-msgstr "Allmänt"
+msgstr "Allmänt "
 
 #. Vggig
 #: sfx2/uiconfig/ui/documentpropertiesdialog.ui:180
@@ -2546,19 +2548,19 @@ msgstr "Varaktighet"
 #: sfx2/uiconfig/ui/errorfindemaildialog.ui:7
 msgctxt "errorfindemaildialog|ErrorFindEmailDialog"
 msgid "No email configuration"
-msgstr ""
+msgstr "Ingen e-postkonfiguration"
 
 #. cFct7
 #: sfx2/uiconfig/ui/errorfindemaildialog.ui:14
 msgctxt "errorfindemaildialog|ErrorFindEmailDialog"
 msgid "%PRODUCTNAME was unable to find a working email configuration."
-msgstr ""
+msgstr "%PRODUCTNAME kunde inte hitta en fungerande e-postkonfiguration."
 
 #. xQi7X
 #: sfx2/uiconfig/ui/errorfindemaildialog.ui:15
 msgctxt "errorfindemaildialog|ErrorFindEmailDialog"
 msgid "Please save this document locally instead and attach it from within your email client."
-msgstr ""
+msgstr "Spara detta dokument lokalt i stället och bifoga det från din e-postklient."
 
 #. DVQUS
 #: sfx2/uiconfig/ui/floatingrecord.ui:9
@@ -2700,30 +2702,39 @@ msgid ""
 "\n"
 "This product was created by %OOOVENDOR, based on OpenOffice.org, which is Copyright 2000, 2011 Oracle and/or its affiliates. %OOOVENDOR acknowledges all community members, please see http://www.libreoffice.org/ for more details."
 msgstr ""
+"%PRODUCTNAME görs tillgängligt med förbehåll för villkoren i Mozilla Public License, v. 2.0. En kopia av MPL kan erhållas på http://mozilla.org/MPL/2.0/.\n"
+"\n"
+"Ytterligare upphovsrättsmeddelanden och licensvillkor som gäller för delar av mjukvaran anges av tredjepartskoden i filen LICENSE.html; Välj Visa licens för att se exakta detaljer på engelska.\n"
+"\n"
+"Alla varumärken och registrerade varumärken som nämns häri tillhör deras respektive ägare.\n"
+"\n"
+"Copyright © 2000–2019 LibreOffice-bidragsgivare. Med ensamrätt.\n"
+"\n"
+"Denna produkt skapades av %OOOVENDOR, baserad på OpenOffice.org, som är Copyright 2000, 2011 Oracle och/eller dess dotterbolag. %OOOVENDOR erkänner alla medlemmar i gemenskapen, se  http://www.libreoffice.org/ för mer detaljer."
 
 #. QuVoN
 #: sfx2/uiconfig/ui/linefragment.ui:55
 msgctxt "linefragment|STR_SFX_REMOVE_PROPERTY"
 msgid "Remove Property"
-msgstr ""
+msgstr "Ta bort egenskap"
 
 #. 8gPai
 #: sfx2/uiconfig/ui/linefragment.ui:144
 msgctxt "linefragment|SFX_ST_EDIT"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. x4Fjd
 #: sfx2/uiconfig/ui/linefragment.ui:180
 msgctxt "linefragment|yes"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. mJFyB
 #: sfx2/uiconfig/ui/linefragment.ui:196
 msgctxt "linefragment|no"
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #. muk9B
 #: sfx2/uiconfig/ui/linkeditdialog.ui:8
@@ -3443,7 +3454,7 @@ msgstr "eller skapa en ny kategori"
 #: sfx2/uiconfig/ui/templatedlg.ui:45
 msgctxt "colsmenu|insert"
 msgid "Reset Default Template"
-msgstr ""
+msgstr "Återställ standardmall"
 
 #. eUWTy
 #: sfx2/uiconfig/ui/templatedlg.ui:61
