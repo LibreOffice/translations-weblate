@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-05-25 20:00+0200\n"
+"POT-Creation-Date: 2020-05-27 11:43+0200\n"
 "PO-Revision-Date: 2018-11-12 13:55+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5830,14 +5830,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_AMORDEGRC\">Calculates the amount of depreciation for a settlement period as degressive amortization.</ahelp> Unlike AMORLINC, a depreciation coefficient that is independent of the depreciable life is used here."
 msgstr "<ahelp hid=\"HID_AAI_FUNC_AMORDEGRC\">घट्दो अमोट्राइजेसनको रूपमा किस्ताबन्दी अवधिका लागि ह्रास कट्टीको रकम गणना गर्दछ ।</ahelp> अव्यवहारिक  AMORLINC, ह्रास कट्टी गुणांक जसमा यहाँ प्रयोग भएको ह्रास कट्टी योग्य जीवनमा निर्भरहुन्छ ।"
 
-#. i8TkC
+#. DEtMa
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3147427\n"
 "help.text"
-msgid "AMORDEGRC(Cost; DatePurchased; FirstPeriod; Salvage; Period; Rate; Basis)"
-msgstr "AMORDEGRC(लागत;मिति खरीद गरिएको;पहिलो अवधि ;बचेको;अवधि;दर;आधारित)"
+msgid "AMORDEGRC(Cost; DatePurchased; FirstPeriod; Salvage; Period; Rate[; Basis])"
+msgstr ""
 
 #. bA2pT
 #: 04060103.xhp
@@ -5920,14 +5920,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_AMORLINC\">Calculates the amount of depreciation for a settlement period as linear amortization. If the capital asset is purchased during the settlement period, the proportional amount of depreciation is considered.</ahelp>"
 msgstr "<ahelp hid=\"HID_AAI_FUNC_AMORLINC\">रेखाक्रम अमोट्राएजेसनको रूपमा किस्ताबन्दीका लागि ह्रास कट्टीको रकम गणना गर्दछ । पूँजी गत सम्पत्ति किस्ताबन्दी अवधिमा खरीद गरिएको खण्डमा ह्रास कट्टीको समानुपातिक रकम सोच विचार गरिन्छ ।</ahelp>"
 
-#. 3n4Kb
+#. jD9JZ
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3147363\n"
 "help.text"
-msgid "AMORLINC(Cost; DatePurchased; FirstPeriod; Salvage; Period; Rate; Basis)"
-msgstr "AMORLINC(लागत;खरीद गरेको मिति;पहिलो अवधि;बचेको;अवधि;दर;आधार)"
+msgid "AMORLINC(Cost; DatePurchased; FirstPeriod; Salvage; Period; Rate[; Basis])"
+msgstr ""
 
 #. PsFjE
 #: 04060103.xhp
@@ -6019,14 +6019,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_ACCRINT\">Calculates the accrued interest of a security in the case of periodic payments.</ahelp>"
 msgstr "<ahelp hid=\"HID_AAI_FUNC_ACCRINT\">आवधिक भुक्तानीहरूको केसमा सुरक्षणले कमाएको ब्याज गणना गर्दछ ।</ahelp>"
 
-#. oHnfa
+#. yGdCf
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3159092\n"
 "help.text"
-msgid "ACCRINT(Issue; FirstInterest; Settlement; Rate; Par; Frequency; Basis)"
-msgstr "ACCRINT(निस्काशन;पहिलो ब्याज;बन्दोबस्त;दर;अंकित;आवृत्ति;आधारित)"
+msgid "ACCRINT(Issue; FirstInterest; Settlement; Rate; [Par]; Frequency[; Basis])"
+msgstr ""
 
 #. PKp6i
 #: 04060103.xhp
@@ -6127,14 +6127,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_ACCRINTM\">Calculates the accrued interest of a security in the case of one-off payment at the settlement date.</ahelp>"
 msgstr "<ahelp hid=\"HID_AAI_FUNC_ACCRINTM\">बन्दोबस्त मितिमा एउटा अन्तिम भुक्तानीको केसमा सुरक्षणको पाउनु पर्ने ब्याज गणना गर्दछ ।</ahelp>"
 
-#. uRZWP
+#. zFkiX
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3147074\n"
 "help.text"
-msgid "ACCRINTM(Issue; Settlement; Rate; Par; Basis)"
-msgstr "ACCRINTM(निस्काशन;बन्दोबस्त;दर;अंकित;आधारित)"
+msgid "ACCRINTM(Issue; Settlement; Rate[; Par][; Basis])"
+msgstr ""
 
 #. pTobQ
 #: 04060103.xhp
@@ -6334,14 +6334,14 @@ msgctxt ""
 msgid "Enter these values either as numbers, expressions or references. If, for example, interest is paid annually at 8%, but you want to use month as your period, enter 8%/12 under <emph>Rate</emph> and <item type=\"productname\">%PRODUCTNAME</item> Calc with automatically calculate the correct factor."
 msgstr "कि अभिव्यक्ति सङ्ख्याहरू वा सन्दर्भहरूको रूपमा ती मानहरू प्रविष्ट गर्नुहोस्, यदि उदाहरणका लागि, ब्याजदर वार्षिक 8% को दरले भुक्तानी गरिन्छ, तर यदि तपाईँं आफ्नो अवधिको रूपमा महिना प्रयोग गर्न चाहनुहुन्छ भने 8%/12 तल <emph>दर</emph> र <item type=\"productname\">%PRODUCTNAME</item> क्याल्क स्वचालित रूपले  ठीक तत्व सहित गणना गर्दछ ।"
 
-#. BVQTK
+#. uiDaD
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3150395\n"
 "help.text"
-msgid "PV(Rate; NPer; Pmt; FV; Type)"
-msgstr "PV(दर; NPER; PMT; FV; प्रकार)"
+msgid "PV(Rate; NPer; Pmt[; FV][; Type])"
+msgstr ""
 
 #. JrCA6
 #: 04060103.xhp
@@ -7360,14 +7360,14 @@ msgctxt ""
 msgid "Use this form of depreciation if you require a higher initial depreciation value as opposed to linear depreciation. The depreciation value gets less with each period and is usually used for assets whose value loss is higher shortly after purchase (for example, vehicles, computers). Please note that the book value will never reach zero under this calculation type."
 msgstr "रेखात्मक ह्रास कट्टीमा विपरितको रूपमा धैरै अगाडिको ह्रास मान आवश्यकता परेको खण्डमा ह्रास कट्टीको यो फाराम प्रयोग हुन्छ । प्रत्येक अवधिमा ह्रास कट्टीमा कम पाइन्छ र यो प्रा गरेर सम्पतिहरू मा प्रयोग हुन्छ जसको मान खरीद पछाडि धेरै कडाइका साथ घटेको हुन्छ (उदाहरणहरूका लागि, वाहनहरू, कम्प्युटरहरू)। कृपया द्रष्टव्य गर्नुहोस् जसको किताब मान  यो प्रकारको गणना मा कहिल्यै पनि ० मा पुग्दैन  ।"
 
-#. GnhjW
+#. EV3DT
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3166452\n"
 "help.text"
-msgid "DDB(Cost; Salvage; Life; Period; Factor)"
-msgstr "DDB(Cost;Salvage;Life;Period;Factor)"
+msgid "DDB(Cost; Salvage; Life; Period[; Factor])"
+msgstr ""
 
 #. VKnDB
 #: 04060103.xhp
@@ -7468,14 +7468,14 @@ msgctxt ""
 msgid "This form of depreciation is used if you want to get a higher depreciation value at the beginning of the depreciation (as opposed to linear depreciation). The depreciation value is reduced with every depreciation period by the depreciation already deducted from the initial cost."
 msgstr "यदि ह्रास कट्टी (रेखतमक ह्रास कट्टीको विपरित)को  सुरुमातपाईँंले धरै ह्रास कट्टीको मान पाउन चाहेको खण्डमा  यो ढाँचाको ह्रास कट्टी प्रयोग गरिन्छ । सुरुको लागतबाट पहिलेनै घटिसकेको ह्रास कट्टीद्वारा प्रत्येक अवधिको ह्रास कट्टी सहित ह्रास कट्टी मान घट्टछ."
 
-#. zaXLw
+#. EDXF8
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3153349\n"
 "help.text"
-msgid "DB(Cost; Salvage; Life; Period; Month)"
-msgstr "DB(Cost;Salvage;Life;Period;Month)"
+msgid "DB(Cost; Salvage; Life; Period[; Month])"
+msgstr ""
 
 #. caSta
 #: 04060103.xhp
@@ -7585,14 +7585,14 @@ msgctxt ""
 msgid "If the payments take place at irregular intervals, use the <link href=\"text/scalc/01/04060118.xhp#xirr\" name=\"XIRR\">XIRR</link> function."
 msgstr ""
 
-#. CCfhc
+#. zWTAW
 #: 04060103.xhp
 msgctxt ""
 "04060103.xhp\n"
 "par_id3155427\n"
 "help.text"
-msgid "IRR(Values; Guess)"
-msgstr "IRR(मानहरू;अन्दाज गर्नु)"
+msgid "IRR(Values[; Guess])"
+msgstr ""
 
 #. o9R77
 #: 04060103.xhp
@@ -9448,14 +9448,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_FUNC_ZELLE\">Returns information on address, formatting or contents of a cell.</ahelp>"
 msgstr "<ahelp hid=\"HID_FUNC_ZELLE\">ले ठेगाना, ढाँचा वा कक्षको सामग्रीहरूमा सूचनाहरू फर्काउँदछ ।</ahelp>"
 
-#. P9UHc
+#. RWBPC
 #: 04060104.xhp
 msgctxt ""
 "04060104.xhp\n"
 "par_id3147355\n"
 "help.text"
-msgid "CELL(\"InfoType\"; Reference)"
-msgstr "CELL(Info_type; Reference)"
+msgid "CELL(\"InfoType\"[; Reference])"
+msgstr ""
 
 #. wjBKt
 #: 04060104.xhp
@@ -10195,14 +10195,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_FUNC_WENN\">Specifies a logical test to be performed.</ahelp>"
 msgstr "<ahelp hid=\"HID_FUNC_WENN\">पालना गर्नलाई युक्ति संगत परीक्षण निर्दिष्ट गर्दछ ।</ahelp>"
 
-#. QQdtE
+#. qT9mo
 #: 04060105.xhp
 msgctxt ""
 "04060105.xhp\n"
 "par_id3154558\n"
 "help.text"
-msgid "IF(Test; ThenValue; OtherwiseValue)"
-msgstr "IF(Test; Then_value; Otherwise_value)"
+msgid "IF(Test[; ThenValue][; OtherwiseValue])"
+msgstr ""
 
 #. JnjcT
 #: 04060105.xhp
@@ -63061,14 +63061,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_FUNC_WOCHENTAG\">Returns the day of the week for the given date value.</ahelp> The day is returned as an integer between 1 (Sunday) and 7 (Saturday) if no type or type=1 is specified. For other types, see the table below."
 msgstr ""
 
-#. Q6BXr
+#. EDmeN
 #: func_weekday.xhp
 msgctxt ""
 "func_weekday.xhp\n"
 "par_id3149033\n"
 "help.text"
-msgid "WEEKDAY(Number; Type)"
-msgstr "WEEKDAY(सङ्ख्या; प्रकार)"
+msgid "WEEKDAY(Number[; Type])"
+msgstr ""
 
 #. mcF52
 #: func_weekday.xhp
@@ -63808,13 +63808,13 @@ msgctxt ""
 msgid "<ahelp hid=\".\">Returns the date calculated from a start date with a specific number of work days, before or after the start date. The calculation can include week-ends and holidays as non-working days.</ahelp>"
 msgstr ""
 
-#. RRr3i
+#. ZFLiY
 #: func_workday.intl.xhp
 msgctxt ""
 "func_workday.intl.xhp\n"
 "par_id241020160008306838\n"
 "help.text"
-msgid "WORKDAY.INTL(StartDate; Days; Weekend; Holidays)"
+msgid "WORKDAY.INTL(StartDate; Days[; Weekend][; Holidays])"
 msgstr ""
 
 #. gJg5G
@@ -63979,14 +63979,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_WORKDAY\"> The result is a date number that can be formatted as a date. You then see the date of a day that is a certain number of <emph>workdays</emph> away from the <emph>start date</emph>.</ahelp>"
 msgstr "<ahelp hid=\"HID_AAI_FUNC_WORKDAY\"> परिणाम मिति सङ्ख्या हो जसलाई मितिको रूपमा ढाँचा गर्न सकिन्छ । त्यसपछि तपाईँले दिनको मिति हेर्नुहोस् जुन <emph> सुरुआत मिति </emph> बाट टाढाको <emph>कार्य दिनहरू </emph> को निश्चित सङ्ख्या हो ।</ahelp>"
 
-#. gSoD4
+#. fo6sg
 #: func_workday.xhp
 msgctxt ""
 "func_workday.xhp\n"
 "par_id3154844\n"
 "help.text"
-msgid "WORKDAY(StartDate; Days; Holidays)"
-msgstr "WORKDAY (सुरुको मिति;दिनहरू;बिदाका दिनहरू)"
+msgid "WORKDAY(StartDate; Days[; Holidays])"
+msgstr ""
 
 #. 35EG5
 #: func_workday.xhp
@@ -64168,14 +64168,14 @@ msgctxt ""
 msgid "<ahelp hid=\"HID_AAI_FUNC_YEARFRAC\">The result is the number of the years (including fractional part) between <emph>StartDate</emph> and <emph>EndDate</emph>.</ahelp>"
 msgstr ""
 
-#. C3aRF
+#. AASCJ
 #: func_yearfrac.xhp
 msgctxt ""
 "func_yearfrac.xhp\n"
 "par_id3155823\n"
 "help.text"
-msgid "YEARFRAC(StartDate; EndDate; Basis)"
-msgstr "YEARFRAC (सुरुको मिति;अन्त्य मिति;आधार)"
+msgid "YEARFRAC(StartDate; EndDate[; Basis])"
+msgstr ""
 
 #. JAA8u
 #: func_yearfrac.xhp
@@ -68460,6 +68460,97 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr ""
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3147427\n"
+#~ "help.text"
+#~ msgid "AMORDEGRC(Cost; DatePurchased; FirstPeriod; Salvage; Period; Rate; Basis)"
+#~ msgstr "AMORDEGRC(लागत;मिति खरीद गरिएको;पहिलो अवधि ;बचेको;अवधि;दर;आधारित)"
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3147363\n"
+#~ "help.text"
+#~ msgid "AMORLINC(Cost; DatePurchased; FirstPeriod; Salvage; Period; Rate; Basis)"
+#~ msgstr "AMORLINC(लागत;खरीद गरेको मिति;पहिलो अवधि;बचेको;अवधि;दर;आधार)"
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3159092\n"
+#~ "help.text"
+#~ msgid "ACCRINT(Issue; FirstInterest; Settlement; Rate; Par; Frequency; Basis)"
+#~ msgstr "ACCRINT(निस्काशन;पहिलो ब्याज;बन्दोबस्त;दर;अंकित;आवृत्ति;आधारित)"
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3147074\n"
+#~ "help.text"
+#~ msgid "ACCRINTM(Issue; Settlement; Rate; Par; Basis)"
+#~ msgstr "ACCRINTM(निस्काशन;बन्दोबस्त;दर;अंकित;आधारित)"
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3150395\n"
+#~ "help.text"
+#~ msgid "PV(Rate; NPer; Pmt; FV; Type)"
+#~ msgstr "PV(दर; NPER; PMT; FV; प्रकार)"
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3166452\n"
+#~ "help.text"
+#~ msgid "DDB(Cost; Salvage; Life; Period; Factor)"
+#~ msgstr "DDB(Cost;Salvage;Life;Period;Factor)"
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3153349\n"
+#~ "help.text"
+#~ msgid "DB(Cost; Salvage; Life; Period; Month)"
+#~ msgstr "DB(Cost;Salvage;Life;Period;Month)"
+
+#~ msgctxt ""
+#~ "04060103.xhp\n"
+#~ "par_id3155427\n"
+#~ "help.text"
+#~ msgid "IRR(Values; Guess)"
+#~ msgstr "IRR(मानहरू;अन्दाज गर्नु)"
+
+#~ msgctxt ""
+#~ "04060104.xhp\n"
+#~ "par_id3147355\n"
+#~ "help.text"
+#~ msgid "CELL(\"InfoType\"; Reference)"
+#~ msgstr "CELL(Info_type; Reference)"
+
+#~ msgctxt ""
+#~ "04060105.xhp\n"
+#~ "par_id3154558\n"
+#~ "help.text"
+#~ msgid "IF(Test; ThenValue; OtherwiseValue)"
+#~ msgstr "IF(Test; Then_value; Otherwise_value)"
+
+#~ msgctxt ""
+#~ "func_weekday.xhp\n"
+#~ "par_id3149033\n"
+#~ "help.text"
+#~ msgid "WEEKDAY(Number; Type)"
+#~ msgstr "WEEKDAY(सङ्ख्या; प्रकार)"
+
+#~ msgctxt ""
+#~ "func_workday.xhp\n"
+#~ "par_id3154844\n"
+#~ "help.text"
+#~ msgid "WORKDAY(StartDate; Days; Holidays)"
+#~ msgstr "WORKDAY (सुरुको मिति;दिनहरू;बिदाका दिनहरू)"
+
+#~ msgctxt ""
+#~ "func_yearfrac.xhp\n"
+#~ "par_id3155823\n"
+#~ "help.text"
+#~ msgid "YEARFRAC(StartDate; EndDate; Basis)"
+#~ msgstr "YEARFRAC (सुरुको मिति;अन्त्य मिति;आधार)"
 
 #~ msgctxt ""
 #~ "solver_options.xhp\n"
