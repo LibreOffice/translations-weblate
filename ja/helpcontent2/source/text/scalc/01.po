@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-05-27 11:43+0200\n"
+"POT-Creation-Date: 2020-06-02 13:52+0200\n"
 "PO-Revision-Date: 2019-08-09 07:40+0000\n"
 "Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11779,14 +11779,14 @@ msgctxt ""
 msgid "EXP"
 msgstr "EXP"
 
-#. KCAqu
+#. N7FBG
 #: 04060106.xhp
 msgctxt ""
 "04060106.xhp\n"
 "par_id3150592\n"
 "help.text"
-msgid "<ahelp hid=\"HID_FUNC_EXP\">Returns e raised to the power of a number.</ahelp> The constant e has a value of approximately 2.71828182845904."
-msgstr "<ahelp hid=\"HID_FUNC_EXP\">e を底とする数値のべき乗を返します。</ahelp>定数 e の値は約 2.71828182845904 です。"
+msgid "<ahelp hid=\"HID_FUNC_EXP\">Returns <literal>e</literal> raised to the power of a number.</ahelp> The constant <literal>e</literal> has a value of approximately 2.71828182845904."
+msgstr ""
 
 #. KxMFL
 #: 04060106.xhp
@@ -11806,14 +11806,14 @@ msgctxt ""
 msgid "<emph>Number</emph> is the power to which e is to be raised."
 msgstr "<emph>数値</emph> は、e を底とするべき乗の指数です。"
 
-#. b8tDe
+#. LfQsb
 #: 04060106.xhp
 msgctxt ""
 "04060106.xhp\n"
 "par_id3156340\n"
 "help.text"
-msgid "<item type=\"input\">=EXP(1)</item> returns 2.71828182845904, the mathematical constant e to Calc's accuracy."
-msgstr "<item type=\"input\">=EXP(1)</item> は、Calc の精度の数学定数 e、つまり 2.71828182845904 を返します。"
+msgid "<item type=\"input\">=EXP(1)</item> returns 2.71828182845904, the mathematical constant <literal>e</literal> to Calc's accuracy."
+msgstr ""
 
 #. MSQJQ
 #: 04060106.xhp
@@ -14911,14 +14911,14 @@ msgctxt ""
 msgid "<item type=\"input\">=SQRTPI(2)</item> returns the squareroot of (2PI), approximately 2.506628."
 msgstr "<item type=\"input\">=SQRTPI(2)</item> は、(2PI) の平方根 (約 2.506628) を返します。"
 
-#. TvMZY
+#. en4Ae
 #: 04060106.xhp
 msgctxt ""
 "04060106.xhp\n"
 "bm_id3164669\n"
 "help.text"
-msgid "<bookmark_value>random numbers; between limits</bookmark_value>  <bookmark_value>RANDBETWEEN function</bookmark_value>"
-msgstr "<bookmark_value>乱数; 上限と下限間</bookmark_value><bookmark_value>RANDBETWEEN 関数</bookmark_value>"
+msgid "<bookmark_value>random numbers; between limits</bookmark_value><bookmark_value>RANDBETWEEN function</bookmark_value>"
+msgstr ""
 
 #. vqzRX
 #: 04060106.xhp
@@ -14983,14 +14983,77 @@ msgctxt ""
 msgid "<item type=\"input\">=RANDBETWEEN(20;30)</item> returns an integer of between 20 and 30."
 msgstr "<item type=\"input\">=RANDBETWEEN(20;30)</item> は、20 から 30 の間の整数ひとつを返します。"
 
-#. CBgxC
+#. Dmk3R
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"bm_id461590241346526\n"
+"help.text"
+msgid "<bookmark_value>random numbers non-volatile; between limits</bookmark_value><bookmark_value>RANDBETWEEN.NV function</bookmark_value>"
+msgstr ""
+
+#. cgHiZ
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"hd_id171590240366277\n"
+"help.text"
+msgid "RANDBETWEEN.NV"
+msgstr ""
+
+#. Akjyr
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id391590240473510\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_RANDBETWEEN_NV\">Returns an non-volatile integer random number in a specified range.</ahelp>"
+msgstr ""
+
+#. GTDa4
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id181590240522012\n"
+"help.text"
+msgid "RANDBETWEEN.NV(Bottom; Top)"
+msgstr ""
+
+#. q82vw
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id91590242400917\n"
+"help.text"
+msgid "Returns an non-volatile integer random number between integers <emph>Bottom</emph> and <emph>Top</emph> (both inclusive). A non-volatile function is not recalculated at new input events or pressing <keycode>F9</keycode>. However, the function is recalculated when pressing <keycode>F9</keycode> with the cursor on the cell containing the function, when opening the file, and when <emph>Top</emph> or <emph>Bottom</emph> are recalculated."
+msgstr ""
+
+#. AngvN
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id151590240999839\n"
+"help.text"
+msgid "<input>=RANDBETWEEN.NV(20;30)</input> returns a non-volatile integer between 20 and 30."
+msgstr ""
+
+#. cAQDh
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id1001590241005601\n"
+"help.text"
+msgid "<input>=RANDBETWEEN.NV(A1;30)</input> returns a non-volatile integer between the value of cell A1 and 30. The function is recalculated when the contents of cell A1 change."
+msgstr ""
+
+#. odp65
 #: 04060106.xhp
 msgctxt ""
 "04060106.xhp\n"
 "bm_id3164800\n"
 "help.text"
-msgid "<bookmark_value>RAND function</bookmark_value>  <bookmark_value>random numbers;between 0 and 1</bookmark_value>"
-msgstr "<bookmark_value>RAND 関数</bookmark_value><bookmark_value>乱数;0 と 1 の間</bookmark_value>"
+msgid "<bookmark_value>RAND function</bookmark_value><bookmark_value>random numbers;between 0 and 1</bookmark_value>"
+msgstr ""
 
 #. tTc7D
 #: 04060106.xhp
@@ -15028,14 +15091,41 @@ msgctxt ""
 msgid "This function produces a new random number each time Calc recalculates. To force Calc to recalculate manually press F9."
 msgstr ""
 
-#. Bb7HL
+#. HAWnR
 #: 04060106.xhp
 msgctxt ""
 "04060106.xhp\n"
 "par_id9312417\n"
 "help.text"
-msgid "To generate random numbers which never recalculate, copy cells each containing =RAND(), and use <item type=\"menuitem\">Edit - Paste Special</item> (with <item type=\"menuitem\">Paste All</item> and <item type=\"menuitem\">Formulas</item> not marked and <item type=\"menuitem\">Numbers</item> marked)."
-msgstr "絶対に再計算されない乱数を生成するには、それぞれ =RAND() を含むセルをコピーし、<item type=\"menuitem\">「Paste All」</item> と <item type=\"menuitem\">「Formulas」</item> がマークされず、<item type=\"menuitem\">「Numbers」</item> がマークされている状態で、<item type=\"menuitem\">編集 → Paste Special</item> を使用します。"
+msgid "To generate random numbers which never recalculate, either:"
+msgstr ""
+
+#. Ap4DT
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id451590242105253\n"
+"help.text"
+msgid "Copy cells each containing =RAND(), and use <menuitem>Edit - Paste Special</menuitem> (with <emph>Paste All</emph> and <emph>Formulas</emph> not marked and <emph>Numbers</emph> marked)."
+msgstr ""
+
+#. zEFCC
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id801590242114296\n"
+"help.text"
+msgid "Use the Fill Cell command with random numbers (<menuitem>Sheet - Fill Cells - Fill Random Numbers</menuitem>)."
+msgstr ""
+
+#. o9wUN
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id41590242118383\n"
+"help.text"
+msgid "Use the RAND.NV() function for non-volatile random numbers."
+msgstr ""
 
 #. BLkte
 #: 04060106.xhp
@@ -15045,6 +15135,60 @@ msgctxt ""
 "help.text"
 msgid "<item type=\"input\">=RAND()</item> returns a random number between 0 and 1."
 msgstr "<item type=\"input\">=RAND()</item> は、0 以上で 1 より小さい乱数を発生させます。"
+
+#. CqVpJ
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"bm_id341590241488944\n"
+"help.text"
+msgid "<bookmark_value>random numbers non-volatile;between 0 and 1</bookmark_value><bookmark_value>RAND.NV function</bookmark_value>"
+msgstr ""
+
+#. q9iLd
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"hd_id71590238179170\n"
+"help.text"
+msgid "RAND.NV"
+msgstr ""
+
+#. Fc2hv
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id101590238875834\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_RAND_NV\">Returns a non-volatile random number between 0 and 1.</ahelp>"
+msgstr ""
+
+#. dchBL
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id391590238945182\n"
+"help.text"
+msgid "RAND.NV()"
+msgstr ""
+
+#. QARNV
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id271590239748534\n"
+"help.text"
+msgid "This function produces a non-volatile random number on input. A non-volatile function is not recalculated at new input events. The function does not recalculate when pressing <keycode>F9</keycode>, except when the cursor is on the cell containing the function. The function is recalculated when opening the file."
+msgstr ""
+
+#. sCwno
+#: 04060106.xhp
+msgctxt ""
+"04060106.xhp\n"
+"par_id191590241215013\n"
+"help.text"
+msgid "<input>=RAND.NV()</input> returns a non-volatile random number between 0 and 1."
+msgstr ""
 
 #. Zsp2R
 #: 04060107.xhp
@@ -68460,6 +68604,41 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr ""
+
+#~ msgctxt ""
+#~ "04060106.xhp\n"
+#~ "par_id3150592\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_EXP\">Returns e raised to the power of a number.</ahelp> The constant e has a value of approximately 2.71828182845904."
+#~ msgstr "<ahelp hid=\"HID_FUNC_EXP\">e を底とする数値のべき乗を返します。</ahelp>定数 e の値は約 2.71828182845904 です。"
+
+#~ msgctxt ""
+#~ "04060106.xhp\n"
+#~ "par_id3156340\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=EXP(1)</item> returns 2.71828182845904, the mathematical constant e to Calc's accuracy."
+#~ msgstr "<item type=\"input\">=EXP(1)</item> は、Calc の精度の数学定数 e、つまり 2.71828182845904 を返します。"
+
+#~ msgctxt ""
+#~ "04060106.xhp\n"
+#~ "bm_id3164669\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>random numbers; between limits</bookmark_value>  <bookmark_value>RANDBETWEEN function</bookmark_value>"
+#~ msgstr "<bookmark_value>乱数; 上限と下限間</bookmark_value><bookmark_value>RANDBETWEEN 関数</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060106.xhp\n"
+#~ "bm_id3164800\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>RAND function</bookmark_value>  <bookmark_value>random numbers;between 0 and 1</bookmark_value>"
+#~ msgstr "<bookmark_value>RAND 関数</bookmark_value><bookmark_value>乱数;0 と 1 の間</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060106.xhp\n"
+#~ "par_id9312417\n"
+#~ "help.text"
+#~ msgid "To generate random numbers which never recalculate, copy cells each containing =RAND(), and use <item type=\"menuitem\">Edit - Paste Special</item> (with <item type=\"menuitem\">Paste All</item> and <item type=\"menuitem\">Formulas</item> not marked and <item type=\"menuitem\">Numbers</item> marked)."
+#~ msgstr "絶対に再計算されない乱数を生成するには、それぞれ =RAND() を含むセルをコピーし、<item type=\"menuitem\">「Paste All」</item> と <item type=\"menuitem\">「Formulas」</item> がマークされず、<item type=\"menuitem\">「Numbers」</item> がマークされている状態で、<item type=\"menuitem\">編集 → Paste Special</item> を使用します。"
 
 #~ msgctxt ""
 #~ "04060103.xhp\n"
