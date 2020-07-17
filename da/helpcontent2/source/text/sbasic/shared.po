@@ -4,9 +4,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-07-02 14:37+0200\n"
-"PO-Revision-Date: 2020-07-16 09:10+0000\n"
+"PO-Revision-Date: 2020-07-17 12:34+0000\n"
 "Last-Translator: SteenRønnow <steen.roennow@mail.dk>\n"
-"Language-Team: Danish <https://weblate.documentfoundation.org/projects/libo_help-master/textsbasicshared/da/>\n"
+"Language-Team: Danish <https://weblate.documentfoundation.org/projects/libo_help-7-0/textsbasicshared/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -5135,7 +5135,7 @@ msgctxt ""
 "par_id3161831\n"
 "help.text"
 msgid "<ahelp hid=\"modules/BasicIDE/ui/managebreakpoints/pass\">Specify the number of loops to perform before the breakpoint takes effect.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/BasicIDE/ui/managebreakpoints/pass\">Specificer antallet af gennemløb, der skal udføres, før stoppunktet bliver nået.</ahelp>"
 
 #. gr8LF
 #: 01050300.xhp
@@ -22955,7 +22955,7 @@ msgctxt ""
 "par_id3150358\n"
 "help.text"
 msgid "<emph>counter:</emph> Loop <literal>counter</literal> initially assigned the value to the right of the equal sign (<literal>start</literal>). Only numeric variables are valid. The loop counter increases or decreases according to the variable <literal>step</literal> until <literal>end</literal> is passed."
-msgstr ""
+msgstr "<emph>tæller:</emph> Gennemløbs-<literal>counter</literal> i begyndelsen tildelt værdien til højre for lighedstegnet (<literal>start</literal>). Kun numeriske værdier er gyldige. Gennemløbstælleren øges eller mindskes i følge variablen <literal>step</literal> indtil <literal>end</literal> passeres."
 
 #. crpJL
 #: 03090202.xhp
@@ -22964,7 +22964,7 @@ msgctxt ""
 "par_id3152455\n"
 "help.text"
 msgid "<emph>start:</emph> Numeric variable that defines the initial value at the beginning of the loop."
-msgstr ""
+msgstr "<emph>start:</emph> Numerisk variabel, som definerer startværdien i begyndelsen af gennemløbet."
 
 #. u8ZEL
 #: 03090202.xhp
@@ -22973,7 +22973,7 @@ msgctxt ""
 "par_id3151043\n"
 "help.text"
 msgid "<emph>end:</emph> Numeric variable that defines the final value at the end of the loop."
-msgstr ""
+msgstr "<emph>end:</emph> Numerisk variabel, der bestemmer slutværdien i afslutningen af gennemløbet."
 
 #. TmxSC
 #: 03090202.xhp
@@ -22982,7 +22982,7 @@ msgctxt ""
 "par_id3156281\n"
 "help.text"
 msgid "<emph>step:</emph> Sets the value by which to increase or decrease the loop counter. If <literal>step</literal> is not specified, the loop counter is incremented by 1. In this case, <literal>end</literal> must be greater than <literal>start</literal>. If you want to decrease <literal>counter</literal>, <literal>end</literal> must be less than <literal>start</literal>, and <literal>step</literal> must be assigned a negative value."
-msgstr ""
+msgstr "<emph>step:</emph> Sætter den værdi, som gennemløbstælleren øges eller mindskes med. Hvis <literal>step</literal> ikke er specificeret, forøges gennemløbstælleren med 1. I dette tilfælde skal <literal>end</literal> være større end <literal>start</literal>. Hvis du vil formindske <literal>counter</literal>, skal <literal>end</literal> være mindre end <literal>start</literal> og  <literal>step</literal> skal tildeles en negativ værdi."
 
 #. VMWd9
 #: 03090202.xhp
@@ -23000,7 +23000,7 @@ msgctxt ""
 "par_id3147287\n"
 "help.text"
 msgid "As the <literal>counter</literal> variable is decreased, %PRODUCTNAME Basic checks if the <literal>end</literal> value has been reached. As soon as the <literal>counter</literal> passes the <literal>end</literal> value, the loop automatically terminates."
-msgstr ""
+msgstr "Efterhånden som variablen <literal>counter</literal> formindskes, tjekker %PRODUCTNAME Basic, om værdien <literal>end</literal> er nået. Så snart som <literal>counter</literal> passerer værdien <literal>end</literal>, afbrydes gennemløbet automatisk."
 
 #. hFEyc
 #: 03090202.xhp
@@ -23027,7 +23027,7 @@ msgctxt ""
 "par_id3155854\n"
 "help.text"
 msgid "When counting down the counter variable, %PRODUCTNAME Basic checks for overflow or underflow. The loop ends when <literal>counter</literal> exceeds <literal>end</literal> (positive Step value) or is less than <literal>end</literal> (negative Step value)."
-msgstr ""
+msgstr "Når der tælles ned på tæller-variablen, tjekker %PRODUCTNAME Basic for overflow eller underflow. Gennemløbet slutter, når <literal>counter</literal> overstiger <literal>end</literal> (positiv Step-værdi) eller er mindre end <literal>end</literal> (negativ Step-værdi)."
 
 #. DNpBx
 #: 03090202.xhp
@@ -23063,7 +23063,7 @@ msgctxt ""
 "par_id3156286\n"
 "help.text"
 msgid "In nested <emph>For...Next</emph> loops, if you exit a loop unconditionally with <emph>Exit For</emph>, only one loop is exited."
-msgstr ""
+msgstr "I indlejrede <emph>For...Next</emph>-gennemløb forlades kun ét gennemløb, hvis du ubetinget forlader et gennemløb med  <emph>Exit For</emph>."
 
 #. Xo6Nj
 #: 03090202.xhp
@@ -23081,7 +23081,7 @@ msgctxt ""
 "par_id3151074\n"
 "help.text"
 msgid "The following example uses two nested loops to sort a string array with 10 elements ( sEntry() ), that is filled with various contents:"
-msgstr ""
+msgstr "Dette eksempel bruger to indlejrede løkker til at sortere et strengmatrix med 10 elementer (sEntry() ), som fyldes med forskelligt indhold."
 
 #. uEoLD
 #: 03090202.xhp
@@ -23108,7 +23108,7 @@ msgctxt ""
 "bas_id391586523091799\n"
 "help.text"
 msgid "cutlery = Array(\"fork\", \"knife\", \"spoon\")"
-msgstr ""
+msgstr "cutlery = Array(\"gaffel\", \"kniv\", \"ske\")"
 
 #. AupdW
 #: 03090202.xhp
@@ -23382,12 +23382,13 @@ msgstr ""
 
 #. g6Wgg
 #: 03090301.xhp
+#, fuzzy
 msgctxt ""
 "03090301.xhp\n"
 "par_id3145069\n"
 "help.text"
 msgid "GoSub label[:]"
-msgstr ""
+msgstr "GoSub label[:]"
 
 #. krBDs
 #: 03090301.xhp
@@ -39479,7 +39480,7 @@ msgctxt ""
 "N0027\n"
 "help.text"
 msgid "Resets description, <link href=\"text/sbasic/shared/03050100.xhp\" name=\"error line\">Erl</link>, number and source properties of current error. Its alias is %PRODUCTNAME Basic <link href=\"text/sbasic/shared/03050500.xhp\" name=\"Resume statement\">Resume</link> statement."
-msgstr ""
+msgstr "Nulstiller beskrivelsen <link href=\"text/sbasic/shared/03050100.xhp\" name=\"error line\">Erl</link>, nummer og den aktuelle fejls kildeegenskaber. Dens alias er udtrykket %PRODUCTNAME Basic <link href=\"text/sbasic/shared/03050500.xhp\" name=\"Resume statement\">Resume</link> t."
 
 #. UEGkA
 #: ErrVBA.xhp
