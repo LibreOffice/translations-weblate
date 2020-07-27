@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-07-21 11:19+0200\n"
+"POT-Creation-Date: 2020-07-27 13:24+0200\n"
 "PO-Revision-Date: 2020-07-09 15:34+0000\n"
 "Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
 "Language-Team: Estonian <https://weblate.documentfoundation.org/projects/libo_ui-master/cuimessages/et/>\n"
@@ -2086,6 +2086,12 @@ msgstr ""
 #: cui/inc/strings.hrc:400
 msgctxt "ID_SVXSTR_ADDITIONS_NORESULTS"
 msgid "No results found"
+msgstr ""
+
+#. 88Ect
+#: cui/inc/strings.hrc:401
+msgctxt "RID_SVXSTR_ADDITIONS_DIALOG_TITLE_PREFIX"
+msgid "Extensions"
 msgstr ""
 
 #. m8rYd
@@ -4379,63 +4385,81 @@ msgid "Contains commands to modify settings of the additions list such as sortin
 msgstr ""
 
 #. 5WUFA
-#: cui/uiconfig/ui/additionsfragment.ui:45
+#: cui/uiconfig/ui/additionsfragment.ui:48
 msgctxt "additionsEntry|buttonInstall"
 msgid "button"
 msgstr ""
 
 #. fjAQL
-#: cui/uiconfig/ui/additionsfragment.ui:77
+#: cui/uiconfig/ui/additionsfragment.ui:80
 msgctxt "additionsEntry|linkButtonName"
 msgid "button"
 msgstr ""
 
 #. Zf6WY
-#: cui/uiconfig/ui/additionsfragment.ui:97
+#: cui/uiconfig/ui/additionsfragment.ui:100
 msgctxt "additionsEntry|labelAuthor"
 msgid "label"
 msgstr ""
 
 #. tLQYB
-#: cui/uiconfig/ui/additionsfragment.ui:111
+#: cui/uiconfig/ui/additionsfragment.ui:114
 msgctxt "additionsEntry|labelDesc"
 msgid "Description:"
 msgstr ""
 
 #. a7FtD
-#: cui/uiconfig/ui/additionsfragment.ui:125
+#: cui/uiconfig/ui/additionsfragment.ui:128
 msgctxt "additionsEntry|labelDescription"
 msgid "label"
 msgstr ""
 
 #. PdDQM
-#: cui/uiconfig/ui/additionsfragment.ui:147
+#: cui/uiconfig/ui/additionsfragment.ui:150
 msgctxt "additionsEntry|labelLicense"
 msgid "label"
 msgstr ""
 
 #. D2C5J
-#: cui/uiconfig/ui/additionsfragment.ui:161
+#: cui/uiconfig/ui/additionsfragment.ui:164
 msgctxt "additionsEntry|labelVersion"
 msgid "label"
 msgstr ""
 
 #. cFsEL
-#: cui/uiconfig/ui/additionsfragment.ui:178
+#: cui/uiconfig/ui/additionsfragment.ui:181
 msgctxt "additionsEntry|labelComments"
 msgid "Comments:"
 msgstr ""
 
 #. ezUmV
-#: cui/uiconfig/ui/additionsfragment.ui:188
+#: cui/uiconfig/ui/additionsfragment.ui:191
 msgctxt "additionsEntry|linkButtonComments"
 msgid "button"
 msgstr ""
 
 #. yQYjP
-#: cui/uiconfig/ui/additionsfragment.ui:252
+#: cui/uiconfig/ui/additionsfragment.ui:254
 msgctxt "additionsEntry|labelDownloader"
 msgid "label"
+msgstr ""
+
+#. fUE2f
+#: cui/uiconfig/ui/additionsfragment.ui:287
+msgctxt "additionsDialog|buttonShowMore"
+msgid "Show More Extensions"
+msgstr ""
+
+#. 2pPGn
+#: cui/uiconfig/ui/additionsfragment.ui:294
+msgctxt "additionsDialog|buttonShowMore"
+msgid "ButtonShowMore"
+msgstr ""
+
+#. i9AoG
+#: cui/uiconfig/ui/additionsfragment.ui:295
+msgctxt "additionsDialog|buttonShowMore"
+msgid "This button shows more extensions."
 msgstr ""
 
 #. BuMBh
@@ -12500,10 +12524,10 @@ msgctxt "optsavepage|label3"
 msgid "Default File Format and ODF Settings"
 msgstr "Vaikimisi failivormingu ja ODF-i sätted"
 
-#. QQGxr
+#. G7BAM
 #: cui/uiconfig/ui/optsavepage.ui:492
 msgctxt "OptSavePage"
-msgid "In the <b>General</b> section, you can select default settings for saving documents, and can select default file formats."
+msgid "In the General section, you can select default settings for saving documents, and can select default file formats."
 msgstr ""
 
 #. ArEZy
@@ -12686,203 +12710,389 @@ msgctxt "optuserpage|firstname-atkobject"
 msgid "First name"
 msgstr "Eesnimi"
 
+#. XfEkD
+#: cui/uiconfig/ui/optuserpage.ui:169
+msgctxt "extended tip | firstname"
+msgid "Type your first name."
+msgstr ""
+
 #. kW7rP
-#: cui/uiconfig/ui/optuserpage.ui:186
+#: cui/uiconfig/ui/optuserpage.ui:187
 msgctxt "lastname-atkobject"
 msgid "Last name"
 msgstr "Perekonnanimi"
 
+#. cWaCs
+#: cui/uiconfig/ui/optuserpage.ui:188
+msgctxt "extended tip | lastname"
+msgid "Type your last name."
+msgstr ""
+
 #. DuFHY
-#: cui/uiconfig/ui/optuserpage.ui:204
+#: cui/uiconfig/ui/optuserpage.ui:206
 msgctxt "shortname-atkobject"
 msgid "Initials"
 msgstr "Initsiaalid"
 
+#. CYFY2
+#: cui/uiconfig/ui/optuserpage.ui:207
+msgctxt "extended tip | shortname"
+msgid "Type your initials."
+msgstr ""
+
 #. Emfwm
-#: cui/uiconfig/ui/optuserpage.ui:233
+#: cui/uiconfig/ui/optuserpage.ui:236
 msgctxt "city-atkobject"
 msgid "City"
 msgstr "Linn"
 
+#. UVG4o
+#: cui/uiconfig/ui/optuserpage.ui:237
+msgctxt "extended tip | city"
+msgid "Type the city where you live."
+msgstr ""
+
 #. CnJ3K
-#: cui/uiconfig/ui/optuserpage.ui:251
+#: cui/uiconfig/ui/optuserpage.ui:255
 msgctxt "state-atkobject"
 msgid "State"
 msgstr "Maakond"
 
+#. y652V
+#: cui/uiconfig/ui/optuserpage.ui:256
+msgctxt "extended tip | state"
+msgid "Type your state."
+msgstr ""
+
 #. ADpC7
-#: cui/uiconfig/ui/optuserpage.ui:269
+#: cui/uiconfig/ui/optuserpage.ui:274
 msgctxt "zip-atkobject"
 msgid "Zip code"
 msgstr "Posti sihtnumber"
 
+#. 5vad5
+#: cui/uiconfig/ui/optuserpage.ui:275
+msgctxt "extended tip | zip"
+msgid "Type your ZIP in this field."
+msgstr ""
+
 #. p45Kt
-#: cui/uiconfig/ui/optuserpage.ui:299
+#: cui/uiconfig/ui/optuserpage.ui:305
 msgctxt "title-atkobject"
 msgid "Title"
 msgstr "Tiitel"
 
+#. 5G2ww
+#: cui/uiconfig/ui/optuserpage.ui:306
+msgctxt "extended tip | title"
+msgid "Type your title in this field."
+msgstr ""
+
 #. HCiNt
-#: cui/uiconfig/ui/optuserpage.ui:317
+#: cui/uiconfig/ui/optuserpage.ui:324
 msgctxt "position-atkobject"
 msgid "Position"
 msgstr "Amet"
 
+#. QGc4K
+#: cui/uiconfig/ui/optuserpage.ui:325
+msgctxt "extended tip | position"
+msgid "Type your position in the company in this field."
+msgstr ""
+
 #. qhkwG
-#: cui/uiconfig/ui/optuserpage.ui:346
+#: cui/uiconfig/ui/optuserpage.ui:354
 msgctxt "home-atkobject"
 msgid "Home telephone number"
 msgstr "Kodune telefon"
 
+#. RNBjN
+#: cui/uiconfig/ui/optuserpage.ui:355
+msgctxt "extended tip | home"
+msgid "Type your private telephone number in this field."
+msgstr ""
+
 #. SfmfD
-#: cui/uiconfig/ui/optuserpage.ui:364
+#: cui/uiconfig/ui/optuserpage.ui:373
 msgctxt "work-atkobject"
 msgid "Work telephone number"
 msgstr "Töötelefon"
 
+#. d5v6D
+#: cui/uiconfig/ui/optuserpage.ui:374
+msgctxt "extended tip | work"
+msgid "Type your work number in this field."
+msgstr ""
+
 #. VEhd3
-#: cui/uiconfig/ui/optuserpage.ui:394
+#: cui/uiconfig/ui/optuserpage.ui:404
 msgctxt "fax-atkobject"
 msgid "Fax number"
 msgstr "Faksinumber"
 
+#. CtsEr
+#: cui/uiconfig/ui/optuserpage.ui:405
+msgctxt "extended tip | fax"
+msgid "Type your fax number in this field."
+msgstr ""
+
 #. 8BG5j
-#: cui/uiconfig/ui/optuserpage.ui:412
+#: cui/uiconfig/ui/optuserpage.ui:423
 msgctxt "email-atkobject"
 msgid "email address"
 msgstr "E-post"
 
+#. 9sEPK
+#: cui/uiconfig/ui/optuserpage.ui:424
+msgctxt "extended tip | email"
+msgid "Type your e-mail address."
+msgstr ""
+
 #. eygE2
-#: cui/uiconfig/ui/optuserpage.ui:429
+#: cui/uiconfig/ui/optuserpage.ui:441
 msgctxt "optuserpage|usefordocprop"
 msgid "Use data for document properties"
 msgstr "Andmeid kasutatakse dokumendi omadustes"
 
+#. cGnAb
+#: cui/uiconfig/ui/optuserpage.ui:450
+msgctxt "extended tips | usefordoprop"
+msgid "Mark to use the data in document properties"
+msgstr ""
+
 #. ZngAH
-#: cui/uiconfig/ui/optuserpage.ui:447
+#: cui/uiconfig/ui/optuserpage.ui:464
 msgctxt "optuserpage|rusnameft"
 msgid "Last/first/father’s _name/initials:"
 msgstr "Perekonna-, ees- ja isanimi, initsiaalid:"
 
 #. 9GPga
-#: cui/uiconfig/ui/optuserpage.ui:471
+#: cui/uiconfig/ui/optuserpage.ui:488
 msgctxt "ruslastname-atkobject"
 msgid "Last name"
 msgstr "Perekonnanimi"
 
-#. gCfx3
+#. kU7ef
 #: cui/uiconfig/ui/optuserpage.ui:489
+msgctxt "extended tip | ruslastname"
+msgid "Type your last name."
+msgstr ""
+
+#. gCfx3
+#: cui/uiconfig/ui/optuserpage.ui:507
 msgctxt "rusfathersname-atkobject"
 msgid "Father's name"
 msgstr "Isanimi"
 
+#. WurmE
+#: cui/uiconfig/ui/optuserpage.ui:508
+msgctxt "extended tips | rusfathersname"
+msgid "Type your father's name"
+msgstr ""
+
 #. pAF2D
-#: cui/uiconfig/ui/optuserpage.ui:507
+#: cui/uiconfig/ui/optuserpage.ui:526
 msgctxt "russhortname-atkobject"
 msgid "Initials"
 msgstr "Initsiaalid"
 
+#. BSSJF
+#: cui/uiconfig/ui/optuserpage.ui:527
+msgctxt "extended tip | russhortname"
+msgid "Type your initials."
+msgstr ""
+
 #. byLGz
-#: cui/uiconfig/ui/optuserpage.ui:525
+#: cui/uiconfig/ui/optuserpage.ui:545
 msgctxt "rusfirstname-atkobject"
 msgid "First name"
 msgstr "Eesnimi"
 
+#. 2Xsp9
+#: cui/uiconfig/ui/optuserpage.ui:546
+msgctxt "extended tip | rusfirstname"
+msgid "Type your first name."
+msgstr ""
+
 #. 4qdC2
-#: cui/uiconfig/ui/optuserpage.ui:545
+#: cui/uiconfig/ui/optuserpage.ui:566
 msgctxt "optuserpage|eastnameft"
 msgid "Last/first _name/initials:"
 msgstr "Perekonna- ja eesnimi, initsiaalid:"
 
 #. Emtmj
-#: cui/uiconfig/ui/optuserpage.ui:569
+#: cui/uiconfig/ui/optuserpage.ui:590
 msgctxt "eastlastname-atkobject"
 msgid "Last name"
 msgstr "Perekonnanimi"
 
+#. 9zJxz
+#: cui/uiconfig/ui/optuserpage.ui:591
+msgctxt "extended tip | eastlastname"
+msgid "Type your last name."
+msgstr ""
+
 #. 6MrBD
-#: cui/uiconfig/ui/optuserpage.ui:587
+#: cui/uiconfig/ui/optuserpage.ui:609
 msgctxt "eastfirstname-atkobject"
 msgid "First name"
 msgstr "Eesnimi"
 
+#. iBZAf
+#: cui/uiconfig/ui/optuserpage.ui:610
+msgctxt "extended tip | eastfirstname"
+msgid "Type your first name."
+msgstr ""
+
 #. mebNB
-#: cui/uiconfig/ui/optuserpage.ui:605
+#: cui/uiconfig/ui/optuserpage.ui:628
 msgctxt "eastshortname-atkobject"
 msgid "Initials"
 msgstr "Initsiaalid"
 
+#. i3xBr
+#: cui/uiconfig/ui/optuserpage.ui:629
+msgctxt "extended tip | eastshortname"
+msgid "Type your initials."
+msgstr ""
+
 #. NGEU9
-#: cui/uiconfig/ui/optuserpage.ui:625
+#: cui/uiconfig/ui/optuserpage.ui:649
 msgctxt "optuserpage|russtreetft"
 msgid "_Street/apartment number:"
 msgstr "Tänav, korteri number:"
 
 #. oxw3f
-#: cui/uiconfig/ui/optuserpage.ui:649
+#: cui/uiconfig/ui/optuserpage.ui:673
 msgctxt "russtreet-atkobject"
 msgid "Street"
 msgstr "Tänav"
 
+#. C5n48
+#: cui/uiconfig/ui/optuserpage.ui:674
+msgctxt "extended tips | russrteet"
+msgid "Type the name of your street in this field."
+msgstr ""
+
 #. QxpMF
-#: cui/uiconfig/ui/optuserpage.ui:667
+#: cui/uiconfig/ui/optuserpage.ui:692
 msgctxt "ruslastname-atkobject"
 msgid "Apartment number"
 msgstr "Korteri number"
 
+#. ZsKHB
+#: cui/uiconfig/ui/optuserpage.ui:693
+msgctxt "extended tips | apartnum"
+msgid "Type your apartment number"
+msgstr ""
+
 #. 8kEFB
-#: cui/uiconfig/ui/optuserpage.ui:687
+#: cui/uiconfig/ui/optuserpage.ui:713
 msgctxt "optuserpage|icityft"
 msgid "_Zip/city:"
 msgstr "Sihtnumber, linn:"
 
 #. RhK5j
-#: cui/uiconfig/ui/optuserpage.ui:711
+#: cui/uiconfig/ui/optuserpage.ui:737
 msgctxt "icity-atkobject"
 msgid "City"
 msgstr "Linn"
 
+#. knxAE
+#: cui/uiconfig/ui/optuserpage.ui:738
+msgctxt "extended tip | icity"
+msgid "Type the city where you live."
+msgstr ""
+
 #. Hdniz
-#: cui/uiconfig/ui/optuserpage.ui:729
+#: cui/uiconfig/ui/optuserpage.ui:756
 msgctxt "izip-atkobject"
 msgid "Zip code"
 msgstr "Posti sihtnumber"
 
+#. 4zTys
+#: cui/uiconfig/ui/optuserpage.ui:757
+msgctxt "extended tip | izip"
+msgid "Type your ZIP in this field."
+msgstr ""
+
+#. VbiGF
+#: cui/uiconfig/ui/optuserpage.ui:786
+msgctxt "extended tip | street"
+msgid "Type the name of your street in this field."
+msgstr ""
+
+#. As2sL
+#: cui/uiconfig/ui/optuserpage.ui:815
+msgctxt "extended tips | country"
+msgid "Type your country and region"
+msgstr ""
+
+#. Lw69w
+#: cui/uiconfig/ui/optuserpage.ui:844
+msgctxt "extended tip | company"
+msgid "Type the name of your company in this field."
+msgstr ""
+
 #. 9v6o6
-#: cui/uiconfig/ui/optuserpage.ui:827
+#: cui/uiconfig/ui/optuserpage.ui:870
 msgctxt "optuserpage|label1"
 msgid "Address"
 msgstr "Aadress"
 
 #. QfCBu
-#: cui/uiconfig/ui/optuserpage.ui:862
+#: cui/uiconfig/ui/optuserpage.ui:905
 msgctxt "optuserpage|signingkeylabel"
 msgid "OpenPGP signing key:"
 msgstr "OpenPGP-allkirjastamisvõti:"
 
 #. 4KEFW
-#: cui/uiconfig/ui/optuserpage.ui:876
+#: cui/uiconfig/ui/optuserpage.ui:919
 msgctxt "optuserpage|encryptionkeylabel"
 msgid "OpenPGP encryption key:"
 msgstr "OpenPGP-krüpteerimisvõti:"
 
 #. GCS8p
-#: cui/uiconfig/ui/optuserpage.ui:892 cui/uiconfig/ui/optuserpage.ui:906
+#: cui/uiconfig/ui/optuserpage.ui:935 cui/uiconfig/ui/optuserpage.ui:954
 msgctxt "optuserpage|liststore1"
 msgid "No key"
 msgstr "Võti puudub"
 
+#. UJXE4
+#: cui/uiconfig/ui/optuserpage.ui:939
+msgctxt "extended tip | encryptionkey"
+msgid "Select your OpenPGP key from the drop-down list for encrypting ODF documents."
+msgstr ""
+
+#. m27Ub
+#: cui/uiconfig/ui/optuserpage.ui:958
+msgctxt "extended tip | signingkey"
+msgid "Select your OpenPGP key from the drop-down list for signing ODF documents."
+msgstr ""
+
 #. 8USbk
-#: cui/uiconfig/ui/optuserpage.ui:916
+#: cui/uiconfig/ui/optuserpage.ui:969
 msgctxt "optuserpage|encrypttoself"
 msgid "When encrypting documents, always encrypt to self"
 msgstr "Dokumendid krüpteeritakse alati iseendale"
 
+#. FaxaF
+#: cui/uiconfig/ui/optuserpage.ui:978
+msgctxt "extended tip | encrypttoself"
+msgid "Mark this checkbox to also encrypt the file with your public key, so you can open the document with your private key."
+msgstr ""
+
 #. P5BBC
-#: cui/uiconfig/ui/optuserpage.ui:940
+#: cui/uiconfig/ui/optuserpage.ui:998
 msgctxt "optuserpage|cryptographylabel"
 msgid "Cryptography"
 msgstr "Krüptograafia"
+
+#. PjCQu
+#: cui/uiconfig/ui/optuserpage.ui:1014
+msgctxt "extended tip | OptUserPage"
+msgid "Use this tab page to enter or edit user data."
+msgstr ""
 
 #. DryvE
 #: cui/uiconfig/ui/optviewpage.ui:50
