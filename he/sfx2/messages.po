@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-11 16:49+0100\n"
-"PO-Revision-Date: 2020-07-09 21:34+0000\n"
+"PO-Revision-Date: 2020-07-29 12:35+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://weblate.documentfoundation.org/projects/libo_ui-6-3/sfx2messages/he/>\n"
 "Language: he\n"
@@ -377,6 +377,10 @@ msgid ""
 "\n"
 "Do you want to ignore the error and attempt to continue loading the file?"
 msgstr ""
+"\n"
+"ההמשך בתהליך הייבוא עלול לגרום לאבדן או השחתת הנתונים ויציבות היישום עלולה להתערער ואף תתכן קריסה.\n"
+"\n"
+"להתעלם מהשגיאה ולנסות להמשיך לטעון את הקובץ?"
 
 #. g63UH
 #: include/sfx2/strings.hrc:82
@@ -745,7 +749,7 @@ msgstr "קובץ"
 #: include/sfx2/strings.hrc:143
 msgctxt "STR_QUICKSTART_STARTCENTER"
 msgid "Startcenter"
-msgstr "Startcenter"
+msgstr "מרכז התחלה"
 
 #. Uhn54
 #: include/sfx2/strings.hrc:144
@@ -792,14 +796,13 @@ msgstr "אזהרת אבטחה"
 
 #. vVCon
 #: include/sfx2/strings.hrc:149
-#, fuzzy
 msgctxt "RID_SVXSTR_XMLSEC_QUERY_LOSINGSIGNATURE"
 msgid ""
 "Saving will remove all existing signatures.\n"
 "Do you want to continue saving the document?"
 msgstr ""
-"שמירת המסמך מחדש מבטלת את כל החתימות הדיגיטליות הקיימות על המסמך.\n"
-"האם בכל זאת לשמור?‏"
+"שמירה תסיר את כל החתימות הקיימות.\n"
+"להמשיך לשמור את המסמך?"
 
 #. cGnF9
 #: include/sfx2/strings.hrc:150
@@ -839,7 +842,7 @@ msgstr " (חתום)"
 #: include/sfx2/strings.hrc:154
 msgctxt "STR_EMBEDDED_TITLE"
 msgid " (Embedded document)"
-msgstr ""
+msgstr " (מסמך מוטמע)"
 
 #. 3nT9T
 #: include/sfx2/strings.hrc:155
@@ -960,7 +963,7 @@ msgstr "ססמה שגויה"
 #: include/sfx2/strings.hrc:172
 msgctxt "RID_SVXSTR_GPG_ENCRYPT_FAILURE"
 msgid "OpenPGP key not trusted, damaged, or encryption failure. Please try again."
-msgstr ""
+msgstr "מפתח ה־OpenPGP אינו מהימן, פגום או עם כשל בהצפנה. נא לנסות שוב."
 
 #. DQCUm
 #: include/sfx2/strings.hrc:174
@@ -972,7 +975,7 @@ msgstr "($(MINLEN) תווים לפחות)"
 #: include/sfx2/strings.hrc:175
 msgctxt "STR_PASSWD_MIN_LEN1"
 msgid "(Minimum 1 character)"
-msgstr ""
+msgstr "(תו אחד לפחות)"
 
 #. B3WoF
 #: include/sfx2/strings.hrc:176
@@ -982,10 +985,9 @@ msgstr "(הססמה יכולה להישאר ריקה)"
 
 #. iBD9D
 #: include/sfx2/strings.hrc:177
-#, fuzzy
 msgctxt "STR_MODULENOTINSTALLED"
 msgid "The action could not be executed. The %PRODUCTNAME program module needed for this action is currently not installed."
-msgstr "אין אפשרות לבצע את הפעולה. מודול ה ‏‪%PRODUCTNAME‬‏ הנדרש לפעולה זו אינו מותקן.‏"
+msgstr "לא ניתן לבצע את הפעולה. מודול התכנית של %PRODUCTNAME שדרוש לפעולה הזו אינו מותקן כרגע."
 
 #. TXAV5
 #: include/sfx2/strings.hrc:179
@@ -1017,7 +1019,7 @@ msgstr "ברוך בואך ל־%PRODUCTNAME."
 #: include/sfx2/strings.hrc:183
 msgctxt "STR_WELCOME_LINE2"
 msgid "Drop a document here or pick an app from the left side to create one."
-msgstr ""
+msgstr "ניתן לגרור לכאן מסמכים או לבחור יישום מהצד הימני כדי ליצור אחד."
 
 #. FQ9kN
 #: include/sfx2/strings.hrc:185
@@ -1081,20 +1083,19 @@ msgstr " ש: %1 ח: %2 י: %3 ש: %4 ד: %5 ש: %6"
 
 #. jQX7C
 #: include/sfx2/strings.hrc:196
-#, fuzzy
 msgctxt "STR_SFX_QUERY_WRONG_TYPE"
 msgid ""
 "The value entered does not match the specified type.\n"
 "The value will be stored as text."
 msgstr ""
-"הערך שהוכנס לא מתאים לסוג שהוגדר.\n"
+"הערך שהוכנס לא מתאים לסוג שצוין.\n"
 "הערך יאוחסן כטקסט."
 
 #. cinmA
 #: include/sfx2/strings.hrc:198
 msgctxt "STR_QUERY_OVERWRITE"
 msgid "Style already exists. Overwrite?"
-msgstr "הסגנון כבר קיים. לדרוס?"
+msgstr "הסגנון כבר קיים. לשכתב?‏"
 
 #. f627N
 #: include/sfx2/strings.hrc:200
@@ -1332,6 +1333,8 @@ msgid ""
 "An error occurred in sending the message. Possible errors could be a missing user account or a defective setup.\n"
 "Please check the %PRODUCTNAME settings or your email program settings."
 msgstr ""
+"אירעה שגיאה בשליחת ההודעה. השגיאות האפשרויות יכולות להיגרם עקב חשבון משתמש חסר או התקנה פגומה.\n"
+"נא לבדוק את ההגדרות של %PRODUCTNAME או את הגדרות תכנית הדוא״ל שלך."
 
 #. 3nzi6
 #. Error codes look like "MAPI_E_FAILURE" or "1234"
@@ -1342,12 +1345,15 @@ msgid ""
 "\n"
 "Error code is $1"
 msgstr ""
+"אירעה שגיאה בשליחת הודעה. השגיאות יכולות להיגרם עקב חשבון משתמש חסר או התקנה פגומה.\n"
+"\n"
+"קוד השגיאה הוא $1"
 
 #. ZWTDr
 #: include/sfx2/strings.hrc:239
 msgctxt "STR_ERROR_SEND_MAIL_HEADER"
 msgid "Error sending mail"
-msgstr ""
+msgstr "שגיאה בשליחת דוא״ל"
 
 #. QVS2D
 #: include/sfx2/strings.hrc:240
@@ -1400,13 +1406,13 @@ msgstr "נשמח לסיוע בשיפור %PRODUCTNAME!"
 #: include/sfx2/strings.hrc:247
 msgctxt "STR_GET_INVOLVED_BUTTON"
 msgid "Get involved"
-msgstr "השתתפות במיזם"
+msgstr "הצטרפות למאמץ"
 
 #. GuLGH
 #: include/sfx2/strings.hrc:248
 msgctxt "STR_DONATE_TEXT"
 msgid "Your donations support our worldwide community."
-msgstr "התרומה שלך תומכת בקהילה הבינלאומית שלנו."
+msgstr "התרומות שלך תומכות בקהילה הבינלאומית שלנו."
 
 #. KzgoD
 #: include/sfx2/strings.hrc:249
@@ -1702,13 +1708,13 @@ msgstr "פסנתר"
 #: include/sfx2/strings.hrc:301
 msgctxt "STR_TEMPLATE_NAME19"
 msgid "Portfolio"
-msgstr ""
+msgstr "תיק מסמכים"
 
 #. ysBGy
 #: include/sfx2/strings.hrc:302
 msgctxt "STR_TEMPLATE_NAME20"
 msgid "Progress"
-msgstr ""
+msgstr "התקדמות"
 
 #. gtPt9
 #: include/sfx2/strings.hrc:303
@@ -1720,13 +1726,13 @@ msgstr "שקיעה"
 #: include/sfx2/strings.hrc:304
 msgctxt "STR_TEMPLATE_NAME22"
 msgid "Vintage"
-msgstr "היו זמנים"
+msgstr "מיושן"
 
 #. MSY8y
 #: include/sfx2/strings.hrc:305
 msgctxt "STR_TEMPLATE_NAME23"
 msgid "Vivid"
-msgstr "מלא חיים"
+msgstr "חי"
 
 #. QDZBz
 #. Translators: default Writer template names
@@ -1739,7 +1745,7 @@ msgstr "קורות חיים"
 #: include/sfx2/strings.hrc:308
 msgctxt "STR_TEMPLATE_NAME25"
 msgid "Resume"
-msgstr ""
+msgstr "רזומה"
 
 #. hCpfD
 #: include/sfx2/strings.hrc:309
@@ -1757,7 +1763,7 @@ msgstr "מודרני"
 #: include/sfx2/strings.hrc:311
 msgctxt "STR_TEMPLATE_NAME28"
 msgid "Modern business letter sans-serif"
-msgstr "מכתב עסקי מודרני עם כתב לא מעוטר"
+msgstr "מכתב עסקי מודרני עם כתב בלתי מעוטר"
 
 #. 95GeB
 #: include/sfx2/strings.hrc:312
@@ -2100,10 +2106,9 @@ msgstr "אימות מבנה הקובץ"
 
 #. kia7u
 #: sfx2/uiconfig/ui/alienwarndialog.ui:13
-#, fuzzy
 msgctxt "alienwarndialog|AlienWarnDialog"
 msgid "This document may contain formatting or content that cannot be saved in the currently selected file format “%FORMATNAME”."
-msgstr "מסמך זה עשוי להכיל עיצוב או תוכן שלא ניתן לשמור במבנה שנבחר „%FORMATNAME“."
+msgstr "מסמך זה עשוי להכיל עיצוב או תוכן שלא ניתן לשמור במבנה הקובץ שנבחר „%FORMATNAME”."
 
 #. 3YA5c
 #: sfx2/uiconfig/ui/alienwarndialog.ui:14
@@ -2115,20 +2120,19 @@ msgstr "ניתן להשתמש במבנה קובץ בררת המחדל ODF כדי
 #: sfx2/uiconfig/ui/alienwarndialog.ui:25
 msgctxt "alienwarndialog|cancel"
 msgid "Use %DEFAULTEXTENSION _Format"
-msgstr ""
+msgstr "להשתמש במ_בנה %DEFAULTEXTENSION"
 
 #. Fzgtz
 #: sfx2/uiconfig/ui/alienwarndialog.ui:40
 msgctxt "alienwarndialog|save"
 msgid "_Use %FORMATNAME Format"
-msgstr "שימוש במ_בנה %FORMATNAME"
+msgstr "לה_שתמש במבנה %FORMATNAME"
 
 #. Fgi6S
 #: sfx2/uiconfig/ui/alienwarndialog.ui:65
-#, fuzzy
 msgctxt "alienwarndialog|ask"
 msgid "_Ask when not saving in ODF or default format"
-msgstr "לש_אול כאשר הקובץ לא נשמר כ־ODF"
+msgstr "לש_אול כאשר הקובץ לא נשמר כ־ODF או במבנה בררת המחדל"
 
 #. iLkdK
 #: sfx2/uiconfig/ui/bookmarkdialog.ui:8
@@ -2176,7 +2180,7 @@ msgstr "מועדפים"
 #: sfx2/uiconfig/ui/charmapcontrol.ui:248
 msgctxt "charmapcontrol|label2"
 msgid "Recent"
-msgstr ""
+msgstr "אחרונים"
 
 #. BQwCQ
 #: sfx2/uiconfig/ui/charmapcontrol.ui:468
@@ -2194,7 +2198,7 @@ msgstr "הסרה"
 #: sfx2/uiconfig/ui/charviewmenu.ui:20
 msgctxt "charviewmenu|clearallchar"
 msgid "Clear All"
-msgstr "לנקות הכול"
+msgstr "לפנות הכול"
 
 #. Y8jYN
 #: sfx2/uiconfig/ui/checkin.ui:8
@@ -2290,7 +2294,7 @@ msgstr "ה_טמעת גופנים במסמך"
 #: sfx2/uiconfig/ui/documentfontspage.ui:46
 msgctxt "documentfontspage|embedUsedFonts"
 msgid "_Only embed fonts that are used in documents"
-msgstr "לה_טמיע רק גופנים שנעשה בהם שימוש במסמכים"
+msgstr "להטמיע _אך ורק גופנים שנעשה בהם שימוש במסמך"
 
 #. zEeJh
 #: sfx2/uiconfig/ui/documentfontspage.ui:68
@@ -2320,7 +2324,7 @@ msgstr "גופנים מו_רכבים"
 #: sfx2/uiconfig/ui/documentfontspage.ui:153
 msgctxt "documentfontspage|fontScriptFrameLabel"
 msgid "Font scripts to embed"
-msgstr "סוגי כתב להטמעה מגופנים"
+msgstr "צורות כתב מגופנים להטמעה"
 
 #. CCxGn
 #: sfx2/uiconfig/ui/documentinfopage.ui:18
@@ -2374,7 +2378,7 @@ msgstr "החלת נתוני משתמש/ת"
 #: sfx2/uiconfig/ui/documentinfopage.ui:199
 msgctxt "documentinfopage|thumbnailsavecb"
 msgid "Save preview image with this document"
-msgstr "שמירת תמונה לתצוגה מקדימה עם המסמך הזה"
+msgstr "שמירת התצוגה המקדימה עם המסמך הזה"
 
 #. JFxmP
 #: sfx2/uiconfig/ui/documentinfopage.ui:215
@@ -2476,7 +2480,7 @@ msgstr "לערוך את המסמך?"
 #: sfx2/uiconfig/ui/editdocumentdialog.ui:14
 msgctxt "editdocumentdialog|EditDocumentDialog"
 msgid "The original file can be signed without editing the document. Existing signatures on the document will be lost in case of saving an edited version."
-msgstr ""
+msgstr "ניתן לחתום על הקובץ המקורי מבלי לערוך את המסמך. החתימות הקיימות על המסמך ילכו לאיבוד במקרה של שמירת גרסה ערוכה."
 
 #. wRps5
 #: sfx2/uiconfig/ui/editdocumentdialog.ui:25
@@ -2628,7 +2632,7 @@ msgstr "_ביטוי לחיפוש"
 #: sfx2/uiconfig/ui/helpmanual.ui:7
 msgctxt "helpmanual|onlinehelpmanual"
 msgid "%PRODUCTNAME Help Not Installed"
-msgstr ""
+msgstr "העזרה של %PRODUCTNAME אינה מותקנת"
 
 #. JBdnz
 #: sfx2/uiconfig/ui/helpmanual.ui:12
@@ -2646,13 +2650,13 @@ msgstr ""
 #: sfx2/uiconfig/ui/helpmanual.ui:23
 msgctxt "helpmanual|website"
 msgid "Read Help Online"
-msgstr "לקרוא עזרה מקוונת"
+msgstr "קריאת עזרה מקוונת"
 
 #. B2Wzh
 #: sfx2/uiconfig/ui/helpmanual.ui:60
 msgctxt "helpmanual|hidedialog"
 msgid "Do not show this dialog again"
-msgstr "לא להציג הודעה זו שוב"
+msgstr "לא להציג את תיבת הדו־שיח הזו שוב"
 
 #. 8FjCk
 #: sfx2/uiconfig/ui/helpsearchpage.ui:22
@@ -3077,7 +3081,7 @@ msgstr "אזהרות מדפסת"
 #: sfx2/uiconfig/ui/password.ui:8
 msgctxt "password|PasswordDialog"
 msgid "Enter Password"
-msgstr "נא להזין ססמה"
+msgstr "נא למלא ססמה"
 
 #. gATKy
 #: sfx2/uiconfig/ui/password.ui:104
@@ -3191,7 +3195,7 @@ msgstr "_שם תבנית"
 #: sfx2/uiconfig/ui/saveastemplatedlg.ui:146
 msgctxt "saveastemplatedlg|select_label"
 msgid "Template _Category"
-msgstr ""
+msgstr "_קטגוריית תבנית"
 
 #. wpZGc
 #: sfx2/uiconfig/ui/saveastemplatedlg.ui:209
@@ -3239,7 +3243,7 @@ msgstr "א_חורה"
 #: sfx2/uiconfig/ui/searchdialog.ui:168
 msgctxt "searchdialog|wrap"
 msgid "Wrap _around"
-msgstr ""
+msgstr "ל_רדת שורה"
 
 #. onEmh
 #: sfx2/uiconfig/ui/securityinfopage.ui:31
@@ -3275,7 +3279,7 @@ msgstr "אפשרויות שיתוף קבצים"
 #: sfx2/uiconfig/ui/startcenter.ui:18
 msgctxt "startcenter|clear_all"
 msgid "Clear Recent Documents"
-msgstr "פינוי מסמכים אחרונים"
+msgstr "פינוי המסמכים האחרונים"
 
 #. gCfQ9
 #: sfx2/uiconfig/ui/startcenter.ui:39
@@ -3323,7 +3327,7 @@ msgstr "קבצים מ_רוחקים"
 #: sfx2/uiconfig/ui/startcenter.ui:198
 msgctxt "startcenter|open_recent"
 msgid "_Recent Files"
-msgstr "קבצים אח_רונים"
+msgstr "קבצים _אחרונים"
 
 #. BnkvG
 #: sfx2/uiconfig/ui/startcenter.ui:217
