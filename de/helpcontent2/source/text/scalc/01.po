@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-07-21 11:19+0200\n"
-"PO-Revision-Date: 2020-08-09 10:35+0000\n"
+"PO-Revision-Date: 2020-08-11 08:35+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://weblate.documentfoundation.org/projects/libo_help-master/textscalc01/de/>\n"
 "Language: de\n"
@@ -18158,7 +18158,7 @@ msgctxt ""
 "par_id3149447\n"
 "help.text"
 msgid "COLUMN([Reference])"
-msgstr ""
+msgstr "SPALTE([Bezug])"
 
 #. CAB6L
 #: 04060109.xhp
@@ -18338,7 +18338,7 @@ msgctxt ""
 "par_id3150156\n"
 "help.text"
 msgid "=VLOOKUP(SearchCriterion; Array; Index [; SortedRangeLookup])"
-msgstr ""
+msgstr "=SVERWEIS(Suchkriterium; Matrix; Index [; Sortiert])"
 
 #. 7FsgG
 #: 04060109.xhp
@@ -18374,7 +18374,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr ""
+msgstr "<emph>Sortiert</emph> ist ein optionaler Parameter, der anzeigt, ob die erste Spalte in der Matrix in aufsteigender Reihenfolge sortiert wird. In diesem Modus gibt die Suche den Wert in der Zeile mit der ersten Spalte zurück, deren Wert kleiner oder gleich Suckriterium ist. Zum Beispiel kann es Daten enthalten, an denen ein Steuerwert geändert wurde, und die Werte stellen daher Startdaten eines Zeitraums dar, in dem ein bestimmter Steuerwert wirksam war. Wenn Sie also nach einem Datum suchen, das in der ersten Matrixspalte fehlt, jedoch zwischen einigen vorhandenen Grenzdaten liegt, erhalten Sie das niedrigere Datum. Auf diese Weise können Sie feststellen, ob die Daten für das gesuchte Datum wirksam sind. Geben Sie den booleschen Wert FALSCH oder Null ein, wenn die erste Spalte nicht in aufsteigender Reihenfolge sortiert wird. Wenn dieser Parameter WAHR oder nicht angegeben ist, muss die erste Spalte der Matrik <emph>in aufsteigender Reihenfolge sortiert sein</emph>. Sortierte Spalten können viel schneller durchsucht werden, und die Funktion gibt immer einen Wert zurück, selbst dann, wenn für den Suchwert keine exakte Übereinstimmung gefunden wurde, wenn er zwischen dem niedrigsten und dem höchsten Wert der sortierten Liste liegt. In unsortierten Listen muss für den Suchwert eine exakte Übereinstimmung gefunden werden. Anderenfalls gibt die Funktion folgende Meldung zurück: <emph>Fehler: Wert nicht verfügbar</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -18446,7 +18446,7 @@ msgctxt ""
 "par_id3153095\n"
 "help.text"
 msgid "SHEET([Reference])"
-msgstr ""
+msgstr "TABELLE([Bezug])"
 
 #. 9yCD8
 #: 04060109.xhp
@@ -18500,7 +18500,7 @@ msgctxt ""
 "par_id3150777\n"
 "help.text"
 msgid "SHEETS([Reference])"
-msgstr ""
+msgstr "TABELLEN([Bezug])"
 
 #. 5B3KF
 #: 04060109.xhp
@@ -18554,7 +18554,7 @@ msgctxt ""
 "par_id3159152\n"
 "help.text"
 msgid "MATCH(SearchCriterion; LookupArray [; Type])"
-msgstr ""
+msgstr "VERGLEICH(Suchkriterium; Suchmatrix [; Typ])"
 
 #. BmVBr
 #: 04060109.xhp
@@ -18644,7 +18644,7 @@ msgctxt ""
 "par_id3159194\n"
 "help.text"
 msgid "OFFSET(Reference; Rows; Columns [; Height [; Width]])"
-msgstr ""
+msgstr "VERSCHIEBUNG(Bezug; Zeilen; Spalten [; Höhe [; Breite]])"
 
 #. 3Q5gL
 #: 04060109.xhp
@@ -18770,7 +18770,7 @@ msgctxt ""
 "par_id3153740\n"
 "help.text"
 msgid "If <emph>Width</emph> or <emph>Height</emph> are given, the OFFSET function returns a cell range reference. If <emph>Reference</emph> is a single cell reference and both <emph>Width</emph> and <emph>Height</emph> are omitted, a single cell reference is returned."
-msgstr ""
+msgstr "Wenn <emph>Höhe</emph> oder <emph>Breite</emph> angegeben ist, gibt die Funktion VERSCHIEBUNG einen Bereich zurück und muss folglich als Matrix eingegeben werden. Wenn <emph>Bezug</emph> auf eine einzelne Zelle verweist und sowohl <emph>Höhe</emph> als auch <emph>Breite</emph> fehlen, wird ein Zellbezug zurückgegeben."
 
 #. AFMxC
 #: 04060109.xhp
@@ -18815,7 +18815,7 @@ msgctxt ""
 "par_id3154104\n"
 "help.text"
 msgid "LOOKUP(SearchCriterion; SearchVector [; ResultVector])"
-msgstr ""
+msgstr "VERWEIS(Suchkriterium; Suchvektor [; Ergebnisvektor])"
 
 #. QdiFz
 #: 04060109.xhp
@@ -18887,7 +18887,7 @@ msgctxt ""
 "par_id3149302\n"
 "help.text"
 msgid "STYLE(\"Style\" [; Time [; \"Style2\"]])"
-msgstr ""
+msgstr "VORLAGE(\"Vorlage\" [; Zeit [; \"Vorlage2\"]])"
 
 #. Q8SMG
 #: 04060109.xhp
@@ -19049,7 +19049,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "HLOOKUP(SearchCriterion; Array; Index [; SortedRangeLookup])"
-msgstr ""
+msgstr "WVERWEIS(Suchkriterium; Matrix; Index [; Sortiert])"
 
 #. nhwwF
 #: 04060109.xhp
@@ -19094,7 +19094,7 @@ msgctxt ""
 "par_id3154916\n"
 "help.text"
 msgid "ROW([Reference])"
-msgstr ""
+msgstr "ZEILE([Bezug])"
 
 #. mSqrb
 #: 04060109.xhp
@@ -19292,7 +19292,7 @@ msgctxt ""
 "par_idN1180E\n"
 "help.text"
 msgid "HYPERLINK(\"URL\" [; \"CellText\"])"
-msgstr ""
+msgstr "HYPERLINK(\"URL\" [; \"Zelltext\"])"
 
 #. UbAEY
 #: 04060109.xhp
@@ -19337,7 +19337,7 @@ msgctxt ""
 "par_id0907200912224534\n"
 "help.text"
 msgid "<item type=\"input\">=HYPERLINK(\"http://www.example.org\";12345)</item> displays the number 12345 and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<item type=\"input\">=HYPERLINK(\"http://www.beispiel.org\";12345)</item> zeigt die Zahl 12345 an und führt den Hyperlink http://www.beispiel.org aus, wenn auf diesen geklickt wird."
 
 #. GFCwJ
 #: 04060109.xhp
@@ -19418,7 +19418,7 @@ msgctxt ""
 "par_id1665089\n"
 "help.text"
 msgid "GETPIVOTDATA(TargetField; pivot table[; Field 1; Item 1][; ... [Field 126; Item 126]])"
-msgstr ""
+msgstr "PIVOTDATENZUORDNEN(Zielfeld; Pivot-Tabelle [; Feld 1; Element 1][; ...][; Feld 126; Element 126])"
 
 #. 3kCjF
 #: 04060109.xhp
@@ -19427,7 +19427,7 @@ msgctxt ""
 "par_id661585662472832\n"
 "help.text"
 msgid "or"
-msgstr ""
+msgstr "oder"
 
 #. QnCVY
 #: 04060109.xhp
@@ -19454,7 +19454,7 @@ msgctxt ""
 "hd_id431585688827982\n"
 "help.text"
 msgid "First Syntax"
-msgstr ""
+msgstr "Erste Syntax"
 
 #. xTLTZ
 #: 04060109.xhp
@@ -19526,7 +19526,7 @@ msgctxt ""
 "hd_id551585688835597\n"
 "help.text"
 msgid "Second Syntax"
-msgstr ""
+msgstr "Zweite Syntax"
 
 #. KETgR
 #: 04060109.xhp
