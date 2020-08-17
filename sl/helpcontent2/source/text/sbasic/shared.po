@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LibreOffice 6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-08-04 13:02+0200\n"
+"POT-Creation-Date: 2020-08-17 12:39+0200\n"
 "PO-Revision-Date: 2019-07-02 16:17+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: sl.libreoffice.org\n"
@@ -8162,14 +8162,14 @@ msgctxt ""
 msgid "sVar = MsgBox(\"Las Vegas\", MB_DEFBUTTON2 + MB_ICONSTOP + MB_ABORTRETRYCANCEL, \"Dialog title\")"
 msgstr "sVar = MsgBox(\"Nova Gorica\", MB_DEFBUTTON2 + MB_ICONSTOP + MB_ABORTRETRYCANCEL,\"Naslov okna\")"
 
-#. xrb4U
+#. BaStC
 #: 03010103.xhp
 msgctxt ""
 "03010103.xhp\n"
 "tit\n"
 "help.text"
-msgid "Print Statement"
-msgstr "Ukaz Print"
+msgid "Print# Statement"
+msgstr ""
 
 #. addUg
 #: 03010103.xhp
@@ -8180,23 +8180,32 @@ msgctxt ""
 msgid "<bookmark_value>Print statement</bookmark_value>  <bookmark_value>Print statement; Tab function</bookmark_value>  <bookmark_value>Print statement; Spc function</bookmark_value>  <bookmark_value>Spc function; in Print statement</bookmark_value>  <bookmark_value>Tab function; in Print statement</bookmark_value>"
 msgstr "<bookmark_value>ukaz Print</bookmark_value><bookmark_value>ukaz Print; funkcija Tab</bookmark_value><bookmark_value>ukaz Print;funkcija Spc</bookmark_value><bookmark_value>funkcija Spc;v ukazu Print</bookmark_value><bookmark_value>funkcija Tab;v ukazu Print</bookmark_value>"
 
-#. 5DJDW
+#. ARzns
 #: 03010103.xhp
 msgctxt ""
 "03010103.xhp\n"
 "hd_id3147230\n"
 "help.text"
-msgid "<variable id=\"Print_h1\"><link href=\"text/sbasic/shared/03010103.xhp\" name=\"Print Statement\">Print Statement</link></variable>"
+msgid "<variable id=\"Print_h1\"><link href=\"text/sbasic/shared/03010103.xhp\" name=\"Print# Statement\">Print# Statement</link></variable>"
 msgstr ""
 
-#. AGxsw
+#. ZDGAu
 #: 03010103.xhp
 msgctxt ""
 "03010103.xhp\n"
 "par_id3156281\n"
 "help.text"
-msgid "Outputs the specified strings or numeric expressions to a dialog or to a file."
-msgstr "Izpiše določene nize ali številske izraze v pogovorno okno ali v datoteko."
+msgid "Outputs the specified strings or numeric expressions to the screen or to a sequential file."
+msgstr ""
+
+#. xCJRj
+#: 03010103.xhp
+msgctxt ""
+"03010103.xhp\n"
+"par_id461596463969009\n"
+"help.text"
+msgid "Use <link href=\"text/sbasic/shared/03020201.xhp\">Put#</link> statement to write data to a binary or a random file. Use <link href=\"text/sbasic/shared/03020205.xhp\">Write#</link> statement to write data to a sequential text file with delimiting characters."
+msgstr ""
 
 #. AhB82
 #: 03010103.xhp
@@ -9746,14 +9755,14 @@ msgctxt ""
 msgid "<bookmark_value>Reset statement</bookmark_value>"
 msgstr "<bookmark_value>ukaz Reset</bookmark_value>"
 
-#. drRvG
+#. aCi6f
 #: 03020104.xhp
 msgctxt ""
 "03020104.xhp\n"
 "hd_id3154141\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03020104.xhp\">Reset Statement</link>"
-msgstr "<link href=\"text/sbasic/shared/03020104.xhp\">Ukaz Reset</link>"
+msgid "<variable id=\"Reset_h1\"><link href=\"text/sbasic/shared/03020104.xhp\">Reset Statement</link></variable>"
+msgstr ""
 
 #. iLCKn
 #: 03020104.xhp
@@ -9764,23 +9773,14 @@ msgctxt ""
 msgid "Closes all open files and writes the contents of all file buffers to the harddisk."
 msgstr "Zapre vse odprte datoteke in vsebino vseh datotečnih medpomnilnikov zapiše na disk."
 
-#. nTNj2
+#. jEQ3F
 #: 03020104.xhp
 msgctxt ""
 "03020104.xhp\n"
-"hd_id3154124\n"
+"par_id971587473488701\n"
 "help.text"
-msgid "Syntax:"
-msgstr "Skladnja:"
-
-#. TufHR
-#: 03020104.xhp
-msgctxt ""
-"03020104.xhp\n"
-"hd_id3161831\n"
-"help.text"
-msgid "Example:"
-msgstr "Primer:"
+msgid "<image src=\"media/helpimg/sbasic/Reset_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Reset Statement diagram</alt></image>"
+msgstr ""
 
 #. BXAjN
 #: 03020104.xhp
@@ -10025,50 +10025,41 @@ msgctxt ""
 msgid "Reads data from an open sequential file."
 msgstr "Bere podatke z odprte sekvenčne datoteke."
 
-#. 7DMCx
+#. mNkEN
 #: 03020202.xhp
 msgctxt ""
 "03020202.xhp\n"
-"hd_id3125863\n"
+"par_id971587473488701\n"
 "help.text"
-msgid "Syntax:"
-msgstr "Skladnja:"
+msgid "<image src=\"media/helpimg/sbasic/Input_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Input Statement diagram</alt></image>"
+msgstr ""
 
-#. eEsn3
+#. NqnvX
 #: 03020202.xhp
 msgctxt ""
 "03020202.xhp\n"
 "par_id3150440\n"
 "help.text"
-msgid "Input #FileNumber As Integer; var1[, var2[, var3[,...]]]"
-msgstr "Input #ŠtevilkaDatoteke As Integer; spr1[, spr2[, spr3[,...]]]"
+msgid "Input #fileNum {,|;} var1 [, var2 [, ...]]"
+msgstr ""
 
-#. 4bQRN
-#: 03020202.xhp
-msgctxt ""
-"03020202.xhp\n"
-"hd_id3146121\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parametri:"
-
-#. emXUX
+#. EUrQA
 #: 03020202.xhp
 msgctxt ""
 "03020202.xhp\n"
 "par_id3145749\n"
 "help.text"
-msgid "<emph>FileNumber:</emph> Number of the file that contains the data that you want to read. The file must be opened with the Open statement using the key word INPUT."
-msgstr "<emph>ŠtevilkaDatoteke:</emph> Številka datoteke s podatki, ki jih želite prebrati. Datoteko moramo odpreti z ukazom Open, ki vsebuje ključno besedo INPUT."
+msgid "<emph>fileNum</emph>: Number of the file that contains the data that you want to read. The file must be opened with the Open statement using the key word INPUT."
+msgstr ""
 
-#. 75Dav
+#. kJyKM
 #: 03020202.xhp
 msgctxt ""
 "03020202.xhp\n"
 "par_id3150011\n"
 "help.text"
-msgid "<emph>var:</emph> A numeric or string variable that you assign the values read from the opened file to."
-msgstr "<emph>spr:</emph> Spremenljivka numerične vrste ali niz, ki ji ukaz dodeli vrednosti, prebrane iz datoteke."
+msgid "<emph>var</emph>: A numeric or string variable that you assign the values read from the opened file to."
+msgstr ""
 
 #. 23Pzt
 #: 03020202.xhp
@@ -10106,15 +10097,6 @@ msgctxt ""
 msgid "If the end of the file is reached while reading a data element, an error occurs and the process is aborted."
 msgstr "Če med branjem program naleti na konec datoteke, pride do napake in proces se prekine."
 
-#. 3xUNX
-#: 03020202.xhp
-msgctxt ""
-"03020202.xhp\n"
-"hd_id3152578\n"
-"help.text"
-msgid "Example:"
-msgstr "Primer:"
-
 #. xqNBb
 #: 03020202.xhp
 msgctxt ""
@@ -10133,14 +10115,14 @@ msgctxt ""
 msgid "' Read data file using Input"
 msgstr "' preberimo podatkovno datoteko z ukazom Input"
 
-#. JiWcR
+#. ASL6h
 #: 03020203.xhp
 msgctxt ""
 "03020203.xhp\n"
 "tit\n"
 "help.text"
-msgid "Line Input # Statement"
-msgstr "Ukaz Line Input #"
+msgid "Line Input# Statement"
+msgstr ""
 
 #. CCEuD
 #: 03020203.xhp
@@ -10151,68 +10133,50 @@ msgctxt ""
 msgid "<bookmark_value>Line Input statement</bookmark_value>"
 msgstr "<bookmark_value>ukaz Line Input</bookmark_value>"
 
-#. rG2am
+#. DBAiv
 #: 03020203.xhp
 msgctxt ""
 "03020203.xhp\n"
 "hd_id3153361\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03020203.xhp\" name=\"Line Input # Statement\">Line Input # Statement</link>"
-msgstr "<link href=\"text/sbasic/shared/03020203.xhp\" name=\"Ukaz Line Input #\">Ukaz Line Input #</link>"
+msgid "<variable id=\"LineInput_h1\"><link href=\"text/sbasic/shared/03020203.xhp\" name=\"Line Input# Statement\">Line Input# Statement</link></variable>"
+msgstr ""
 
-#. QbTVA
+#. 5FZ8D
 #: 03020203.xhp
 msgctxt ""
 "03020203.xhp\n"
 "par_id3156280\n"
 "help.text"
-msgid "Reads strings from a sequential file into a variable."
-msgstr "Bere nize znakov s sekvenčne datoteke v spremenljivko."
+msgid "Reads a line from a sequential file into a variable."
+msgstr ""
 
-#. NSBkr
+#. enCkE
 #: 03020203.xhp
 msgctxt ""
 "03020203.xhp\n"
-"hd_id3150447\n"
+"par_id971587473488701\n"
 "help.text"
-msgid "Syntax:"
-msgstr "Skladnja:"
+msgid "<image src=\"media/helpimg/sbasic/Line-Input_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Line Input Statement diagram</alt></image>"
+msgstr ""
 
-#. jCyHM
-#: 03020203.xhp
-msgctxt ""
-"03020203.xhp\n"
-"par_id3147229\n"
-"help.text"
-msgid "Line Input #FileNumber As Integer, Var As String"
-msgstr "Line Input #StevilkaDatoteke As Integer, Spr As String"
-
-#. h3tyw
-#: 03020203.xhp
-msgctxt ""
-"03020203.xhp\n"
-"hd_id3145173\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parametri:"
-
-#. ARTNC
+#. wrpF7
 #: 03020203.xhp
 msgctxt ""
 "03020203.xhp\n"
 "par_id3161832\n"
 "help.text"
-msgid "<emph>FileNumber: </emph>Number of the file that contains the data that you want to read. The file must have been opened in advance with the Open statement using the key word INPUT."
-msgstr "<emph>ŠtevilkaDatoteke: </emph>številka datoteke, ki vsebuje podatke, ki jih želite prebrati. Datoteka mora biti pred tem že odprta z ukazom Open in ključno besedo INPUT."
+msgid "<emph>fileNum</emph>: Number of the file that contains the data that you want to read. The file must have been opened in advance with the Open statement using the key word INPUT."
+msgstr ""
 
-#. KUGEc
+#. qAR2M
 #: 03020203.xhp
 msgctxt ""
 "03020203.xhp\n"
 "par_id3151119\n"
 "help.text"
-msgid "<emph>var:</emph> The name of the variable that stores the result."
-msgstr "<emph>Spr:</emph> Ime spremenljivke, ki sprejme rezultat."
+msgid "<emph>variable</emph>: The name of the variable that stores the result."
+msgstr ""
 
 #. foxtA
 #: 03020203.xhp
@@ -10223,41 +10187,14 @@ msgctxt ""
 msgid "With the <emph>Line Input#</emph> statement, you can read strings from an open file into a variable. String variables are read line-by-line up to the first carriage return (Asc=13) or linefeed (Asc=10). Line end marks are not included in the resulting string."
 msgstr "Z ukazom <emph>Line Input#</emph> lahko iz odprte datoteke berete nize znakov v spremenljivko. Spremenljivke vrste String so brane vrstico za vrstico do prehoda na začetek vrstice (Asc=13) ali pomik v novo vrsto (Asc=10). Znaki za konec vrstice niso vključeni v rezultat."
 
-#. NjeFe
-#: 03020203.xhp
-msgctxt ""
-"03020203.xhp\n"
-"hd_id3163711\n"
-"help.text"
-msgid "Example:"
-msgstr "Primer:"
-
-#. Uxyyc
-#: 03020203.xhp
-msgctxt ""
-"03020203.xhp\n"
-"par_id3147124\n"
-"help.text"
-msgid "Print #iNumber, \"This is a line of text\""
-msgstr "Print #iStevilka, \"To je vrstica z besedilom\""
-
-#. iFP3f
-#: 03020203.xhp
-msgctxt ""
-"03020203.xhp\n"
-"par_id3153415\n"
-"help.text"
-msgid "Print #iNumber, \"This is another line of text\""
-msgstr "Print #iStevilka, \"To je še ena vrstica z besedilom\""
-
-#. NKDq4
+#. fhFEa
 #: 03020204.xhp
 msgctxt ""
 "03020204.xhp\n"
 "tit\n"
 "help.text"
-msgid "Put Statement"
-msgstr "Ukaz Put"
+msgid "Put# Statement"
+msgstr ""
 
 #. psWQE
 #: 03020204.xhp
@@ -10268,13 +10205,13 @@ msgctxt ""
 msgid "<bookmark_value>Put statement</bookmark_value>"
 msgstr "<bookmark_value>ukaz Put</bookmark_value>"
 
-#. qMDia
+#. bD34J
 #: 03020204.xhp
 msgctxt ""
 "03020204.xhp\n"
 "hd_id3150360\n"
 "help.text"
-msgid "<variable id=\"Put_h1\"><link href=\"text/sbasic/shared/03020204.xhp\" name=\"Put Statement\">Put Statement</link></variable>"
+msgid "<variable id=\"Put_h1\"><link href=\"text/sbasic/shared/03020204.xhp\" name=\"Put Statement\">Put# Statement</link></variable>"
 msgstr ""
 
 #. e8rUp
@@ -10286,14 +10223,14 @@ msgctxt ""
 msgid "Writes a record to a relative file or a sequence of bytes to a binary file."
 msgstr "Zapiše zapis v relativno datoteko ali pa zaporedje bajtov v binarno datoteko."
 
-#. 7iAkD
+#. EEnDK
 #: 03020204.xhp
 msgctxt ""
 "03020204.xhp\n"
-"par_id3156281\n"
+"par_id461596463969009\n"
 "help.text"
-msgid "See also: <link href=\"text/sbasic/shared/03020201.xhp\" name=\"Get\"><item type=\"literal\">Get</item></link> statement"
-msgstr "Glejte tudi: ukaz <link href=\"text/sbasic/shared/03020201.xhp\" name=\"Get\"><item type=\"literal\">Get</item></link>"
+msgid "Use <link href=\"text/sbasic/shared/03010103.xhp\">Print#</link> statement to print data to a sequential text file. Use <link href=\"text/sbasic/shared/03020205.xhp\">Write#</link> statement to write data to a sequential text file with delimiting characters."
+msgstr ""
 
 #. 9HgEG
 #: 03020204.xhp
@@ -10313,22 +10250,22 @@ msgctxt ""
 msgid "Put [#]fileNum, [recordNum|filePos], variable"
 msgstr ""
 
-#. FyRAf
+#. bSFd2
 #: 03020204.xhp
 msgctxt ""
 "03020204.xhp\n"
 "par_id3146120\n"
 "help.text"
-msgid "<emph>fileNum:</emph> Any integer expression that defines the file that you want to write to."
+msgid "<emph>fileNum</emph>: Any integer expression that defines the file that you want to write to."
 msgstr ""
 
-#. hYQKG
+#. AiZUD
 #: 03020204.xhp
 msgctxt ""
 "03020204.xhp\n"
 "par_id3155411\n"
 "help.text"
-msgid "<emph>recordNum, filePos: </emph>For relative files (random access files), the number of the record that you want to write."
+msgid "<emph>recordNum, filePos</emph>: For relative files (random access files), the number of the record that you want to write."
 msgstr ""
 
 #. dUyzK
@@ -10340,13 +10277,13 @@ msgctxt ""
 msgid "For binary files (binary access), the position of the byte in the file where you want to start writing."
 msgstr "Za binarne datoteke (binarni dostop) je to položaj bajta v datoteki, kjer želite začeti s pisanjem."
 
-#. 59xWL
+#. iGF9L
 #: 03020204.xhp
 msgctxt ""
 "03020204.xhp\n"
 "par_id3153729\n"
 "help.text"
-msgid "<emph>variable:</emph> Name of the variable that you want to write to the file."
+msgid "<emph>variable</emph>: Name of the variable that you want to write to the file."
 msgstr ""
 
 #. yyf95
@@ -10385,68 +10322,59 @@ msgctxt ""
 msgid "<bookmark_value>Write statement</bookmark_value>"
 msgstr "<bookmark_value>ukaz Write</bookmark_value>"
 
-#. DBBvs
+#. xn3Ji
 #: 03020205.xhp
 msgctxt ""
 "03020205.xhp\n"
 "hd_id3147229\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03020205.xhp\" name=\"Write Statement\">Write Statement</link>"
-msgstr "<link href=\"text/sbasic/shared/03020205.xhp\" name=\"Ukaz Write\">Ukaz Write </link>"
+msgid "<variable id=\"Write_h1\"><link href=\"text/sbasic/shared/03020205.xhp\" name=\"Write# Statement\">Write# Statement</link></variable>"
+msgstr ""
 
-#. CMSkU
+#. G4X6k
 #: 03020205.xhp
 msgctxt ""
 "03020205.xhp\n"
 "par_id3154685\n"
 "help.text"
-msgid "Writes data to a sequential file."
-msgstr "Piše podatke v sekvenčno datoteko."
+msgid "Writes data to a sequential text file with delimiting characters."
+msgstr ""
 
-#. eoeBE
+#. fB8hV
 #: 03020205.xhp
 msgctxt ""
 "03020205.xhp\n"
-"hd_id3150449\n"
+"par_id461596463969009\n"
 "help.text"
-msgid "Syntax:"
-msgstr "Skladnja:"
+msgid "Use <link href=\"text/sbasic/shared/03010103.xhp\">Print#</link> statement to print data to a sequential text file. Use <link href=\"text/sbasic/shared/03020201.xhp\">Put#</link> statement to write data  to a binary or a random file."
+msgstr ""
 
-#. jxyZn
+#. WxpRu
 #: 03020205.xhp
 msgctxt ""
 "03020205.xhp\n"
-"par_id3145785\n"
+"par_id971587473488701\n"
 "help.text"
-msgid "Write [#FileName], [Expressionlist]"
-msgstr "Write [#ImeDatoteke], [SeznamIzrazov]"
+msgid "<image src=\"media/helpimg/sbasic/Write_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Write Statement diagram</alt></image>"
+msgstr ""
 
-#. ceFn6
-#: 03020205.xhp
-msgctxt ""
-"03020205.xhp\n"
-"hd_id3151116\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parametri:"
-
-#. RsZEE
+#. xEMDC
 #: 03020205.xhp
 msgctxt ""
 "03020205.xhp\n"
 "par_id3153728\n"
 "help.text"
-msgid "<emph>FileName:</emph> Any numeric expression that contains the file number that was set by the Open statement for the respective file."
-msgstr "<emph>ImeDatoteke:</emph> numerični izraz, ki vsebuje številko datoteke, kot jo določi ukaz Open ustrezne datoteke."
+msgid "<emph>fileNum</emph>: Any numeric expression that contains the file number that was set by the Open statement for the respective file."
+msgstr ""
 
-#. aCyvx
+#. TwHF7
 #: 03020205.xhp
 msgctxt ""
 "03020205.xhp\n"
 "par_id3146120\n"
 "help.text"
-msgid "<emph>Expressionlist:</emph> Variables or expressions that you want to enter in a file, separated by commas."
-msgstr "<emph>SeznamIzrazov:</emph> spremenljivke ali izrazi, ki jih želite zapisati v imenovano datoteko, ločeni z vejicami."
+msgid "<emph>expression</emph> list: Variables or expressions that you want to enter in a file, separated by commas."
+msgstr ""
 
 #. RERPn
 #: 03020205.xhp
@@ -10492,15 +10420,6 @@ msgctxt ""
 "help.text"
 msgid "Numbers with decimal delimiters are converted according to the locale settings."
 msgstr "Številke z decimalnim ločilom so pretvorjene glede na področne nastavitve."
-
-#. Xhb5c
-#: 03020205.xhp
-msgctxt ""
-"03020205.xhp\n"
-"hd_id3151073\n"
-"help.text"
-msgid "Example:"
-msgstr "Primer:"
 
 #. ejANh
 #: 03020301.xhp
@@ -11024,14 +10943,14 @@ msgctxt ""
 msgid "<emph>FileNumber:</emph> The data channel number used in the Open statement."
 msgstr "<emph>ŠtevilkaDatoteke:</emph> Številka podatkovnega kanala, uporabljena v ukazu Open."
 
-#. ybPDP
+#. MbdMB
 #: 03020305.xhp
 msgctxt ""
 "03020305.xhp\n"
 "tit\n"
 "help.text"
-msgid "Seek Statement"
-msgstr "Ukaz Seek"
+msgid "Seek# Statement"
+msgstr ""
 
 #. vLW2K
 #: 03020305.xhp
@@ -11042,14 +10961,14 @@ msgctxt ""
 msgid "<bookmark_value>Seek statement</bookmark_value>"
 msgstr "<bookmark_value>ukaz Seek</bookmark_value>"
 
-#. PpSRU
+#. 9HcVZ
 #: 03020305.xhp
 msgctxt ""
 "03020305.xhp\n"
 "hd_id3159413\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03020305.xhp\" name=\"Seek Statement\">Seek Statement</link>"
-msgstr "<link href=\"text/sbasic/shared/03020305.xhp\" name=\"Ukaz Seek\">Ukaz Seek</link>"
+msgid "<link href=\"text/sbasic/shared/03020305.xhp\" name=\"Seek# Statement\">Seek Statement</link>"
+msgstr ""
 
 #. RBPKW
 #: 03020305.xhp
@@ -11078,59 +10997,59 @@ msgctxt ""
 msgid "For all other files, the Seek statement sets the byte position at which the next operation is to occur."
 msgstr "Za vse druge datoteke vrne Seek položaj bajta, kjer bo prišlo do naslednje operacije."
 
-#. wYVfB
+#. sbuDC
 #: 03020305.xhp
 msgctxt ""
 "03020305.xhp\n"
-"par_id3156280\n"
+"par_id971587473488701\n"
 "help.text"
-msgid "See also: <link href=\"text/sbasic/shared/03020103.xhp\" name=\"Open\">Open</link>, <link href=\"text/sbasic/shared/03020304.xhp\" name=\"Seek\">Seek</link>."
-msgstr "Poglejte tudi: <link href=\"text/sbasic/shared/03020103.xhp\" name=\"Open\">Open</link>, <link href=\"text/sbasic/shared/03020304.xhp\" name=\"Seek\">Seek</link>."
+msgid "<image src=\"media/helpimg/sbasic/Seek_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Seek Statement diagram</alt></image>"
+msgstr ""
 
-#. yVEYG
-#: 03020305.xhp
-msgctxt ""
-"03020305.xhp\n"
-"hd_id3145785\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Skladnja:"
-
-#. 7M3ws
+#. PjcAp
 #: 03020305.xhp
 msgctxt ""
 "03020305.xhp\n"
 "par_id3145273\n"
 "help.text"
-msgid "Seek[#FileNumber], Position (As Long)"
-msgstr "Seek[#ŠtevilkaDatoteke], Položaj (As Long)"
+msgid "Seek [#]filePos, {filePos|recordNum}"
+msgstr ""
 
-#. nRRME
+#. vwzuK
 #: 03020305.xhp
 msgctxt ""
 "03020305.xhp\n"
-"hd_id3154321\n"
+"hd_id3153379\n"
 "help.text"
 msgid "Parameters:"
-msgstr "Parametri:"
+msgstr ""
 
-#. ySD8U
+#. x86KJ
 #: 03020305.xhp
 msgctxt ""
 "03020305.xhp\n"
 "par_id3153952\n"
 "help.text"
-msgid "<emph>FileNumber: </emph>The data channel number used in the Open statement."
-msgstr "<emph>ŠtevilkaDatoteke: </emph>Številka podatkovnega kanala, uporabljena v ukazu Open."
+msgid "<emph>fileNum</emph>: The data channel number used in the Open statement."
+msgstr ""
 
-#. Jf97B
+#. FrYvd
 #: 03020305.xhp
 msgctxt ""
 "03020305.xhp\n"
 "par_id3145366\n"
 "help.text"
-msgid "<emph>Position: </emph>Position for the next writing or reading. Position can be a number between 1 and 2,147,483,647. According to the file type, the position indicates the number of the record (files in the Random mode) or the byte position (files in the Binary, Output, Append or Input mode). The first byte in a file is position 1, the second byte is position 2, and so on."
-msgstr "<emph>Položaj: </emph>Mesto, kjer bo prišlo do naslednje operacije branja ali pisanja. Mesto je lahko med 1 in 2.147.483.647. Glede na vrsto datoteke lahko mesto pomeni številko zapisa (datoteke v načinu Random) ali pa položaj v bajtih (datoteke v načinih Binary, Output, Append ali Input). Prvi bajt v datoteki ima mesto 1, drugi mesto 2 itn."
+msgid "<emph>filePos, recordNum</emph>: Position for the next writing or reading. Position can be a number between 1 and 2,147,483,647. According to the file type, the position indicates the number of the record (files in the Random mode) or the byte position (files in the Binary, Output, Append or Input mode). The first byte in a file is position 1, the second byte is position 2, and so on."
+msgstr ""
+
+#. 5LDFE
+#: 03020305.xhp
+msgctxt ""
+"03020305.xhp\n"
+"par_id491596468328575\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/03020304.xhp\" name=\"Seek\">Seek</link> function"
+msgstr ""
 
 #. Nwouh
 #: 03020400.xhp
@@ -39392,13 +39311,13 @@ msgctxt ""
 msgid "<emph>Description</emph>: A description of the problem leading to stop the running process, accompanied with the various reasons that may cause it. A detailed list of the possible course of actions that may help solve the problem is recommended."
 msgstr ""
 
-#. 3XjnB
+#. q9uAh
 #: ErrVBA.xhp
 msgctxt ""
 "ErrVBA.xhp\n"
 "N0041\n"
 "help.text"
-msgid "Err.Raise 2020, Description:=\"This is an intented user-defined error …\""
+msgid "Err.Raise 2020, Description:=\"This is an intended user-defined error …\""
 msgstr ""
 
 #. vuP6g
@@ -41255,13 +41174,13 @@ msgctxt ""
 msgid "%PRODUCTNAME Basic statements use syntax diagrams and textual conventions that follow these typographical rules:"
 msgstr ""
 
-#. FcuAQ
+#. ZnMxE
 #: conventions.xhp
 msgctxt ""
 "conventions.xhp\n"
 "par_id158193699546735\n"
 "help.text"
-msgid "LibreOffice Basic keywords or functions use propercasing: Call, DimArray, InputBox, Property."
+msgid "%PRODUCTNAME Basic keywords or functions use proper casing: Call, DimArray, InputBox, Property."
 msgstr ""
 
 #. ny9xr
@@ -42937,6 +42856,286 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">Razvojno okolje %PRODUCTNAME Basic</link>"
+
+#~ msgctxt ""
+#~ "03010103.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "Print Statement"
+#~ msgstr "Ukaz Print"
+
+#~ msgctxt ""
+#~ "03010103.xhp\n"
+#~ "par_id3156281\n"
+#~ "help.text"
+#~ msgid "Outputs the specified strings or numeric expressions to a dialog or to a file."
+#~ msgstr "Izpiše določene nize ali številske izraze v pogovorno okno ali v datoteko."
+
+#~ msgctxt ""
+#~ "03020104.xhp\n"
+#~ "hd_id3154141\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03020104.xhp\">Reset Statement</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03020104.xhp\">Ukaz Reset</link>"
+
+#~ msgctxt ""
+#~ "03020104.xhp\n"
+#~ "hd_id3154124\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Skladnja:"
+
+#~ msgctxt ""
+#~ "03020104.xhp\n"
+#~ "hd_id3161831\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Primer:"
+
+#~ msgctxt ""
+#~ "03020202.xhp\n"
+#~ "hd_id3125863\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Skladnja:"
+
+#~ msgctxt ""
+#~ "03020202.xhp\n"
+#~ "par_id3150440\n"
+#~ "help.text"
+#~ msgid "Input #FileNumber As Integer; var1[, var2[, var3[,...]]]"
+#~ msgstr "Input #ŠtevilkaDatoteke As Integer; spr1[, spr2[, spr3[,...]]]"
+
+#~ msgctxt ""
+#~ "03020202.xhp\n"
+#~ "hd_id3146121\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parametri:"
+
+#~ msgctxt ""
+#~ "03020202.xhp\n"
+#~ "par_id3145749\n"
+#~ "help.text"
+#~ msgid "<emph>FileNumber:</emph> Number of the file that contains the data that you want to read. The file must be opened with the Open statement using the key word INPUT."
+#~ msgstr "<emph>ŠtevilkaDatoteke:</emph> Številka datoteke s podatki, ki jih želite prebrati. Datoteko moramo odpreti z ukazom Open, ki vsebuje ključno besedo INPUT."
+
+#~ msgctxt ""
+#~ "03020202.xhp\n"
+#~ "par_id3150011\n"
+#~ "help.text"
+#~ msgid "<emph>var:</emph> A numeric or string variable that you assign the values read from the opened file to."
+#~ msgstr "<emph>spr:</emph> Spremenljivka numerične vrste ali niz, ki ji ukaz dodeli vrednosti, prebrane iz datoteke."
+
+#~ msgctxt ""
+#~ "03020202.xhp\n"
+#~ "hd_id3152578\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Primer:"
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "Line Input # Statement"
+#~ msgstr "Ukaz Line Input #"
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "hd_id3153361\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03020203.xhp\" name=\"Line Input # Statement\">Line Input # Statement</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03020203.xhp\" name=\"Ukaz Line Input #\">Ukaz Line Input #</link>"
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "par_id3156280\n"
+#~ "help.text"
+#~ msgid "Reads strings from a sequential file into a variable."
+#~ msgstr "Bere nize znakov s sekvenčne datoteke v spremenljivko."
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "hd_id3150447\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Skladnja:"
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "par_id3147229\n"
+#~ "help.text"
+#~ msgid "Line Input #FileNumber As Integer, Var As String"
+#~ msgstr "Line Input #StevilkaDatoteke As Integer, Spr As String"
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "hd_id3145173\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parametri:"
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "par_id3161832\n"
+#~ "help.text"
+#~ msgid "<emph>FileNumber: </emph>Number of the file that contains the data that you want to read. The file must have been opened in advance with the Open statement using the key word INPUT."
+#~ msgstr "<emph>ŠtevilkaDatoteke: </emph>številka datoteke, ki vsebuje podatke, ki jih želite prebrati. Datoteka mora biti pred tem že odprta z ukazom Open in ključno besedo INPUT."
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "par_id3151119\n"
+#~ "help.text"
+#~ msgid "<emph>var:</emph> The name of the variable that stores the result."
+#~ msgstr "<emph>Spr:</emph> Ime spremenljivke, ki sprejme rezultat."
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "hd_id3163711\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Primer:"
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "par_id3147124\n"
+#~ "help.text"
+#~ msgid "Print #iNumber, \"This is a line of text\""
+#~ msgstr "Print #iStevilka, \"To je vrstica z besedilom\""
+
+#~ msgctxt ""
+#~ "03020203.xhp\n"
+#~ "par_id3153415\n"
+#~ "help.text"
+#~ msgid "Print #iNumber, \"This is another line of text\""
+#~ msgstr "Print #iStevilka, \"To je še ena vrstica z besedilom\""
+
+#~ msgctxt ""
+#~ "03020204.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "Put Statement"
+#~ msgstr "Ukaz Put"
+
+#~ msgctxt ""
+#~ "03020204.xhp\n"
+#~ "par_id3156281\n"
+#~ "help.text"
+#~ msgid "See also: <link href=\"text/sbasic/shared/03020201.xhp\" name=\"Get\"><item type=\"literal\">Get</item></link> statement"
+#~ msgstr "Glejte tudi: ukaz <link href=\"text/sbasic/shared/03020201.xhp\" name=\"Get\"><item type=\"literal\">Get</item></link>"
+
+#~ msgctxt ""
+#~ "03020205.xhp\n"
+#~ "hd_id3147229\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03020205.xhp\" name=\"Write Statement\">Write Statement</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03020205.xhp\" name=\"Ukaz Write\">Ukaz Write </link>"
+
+#~ msgctxt ""
+#~ "03020205.xhp\n"
+#~ "par_id3154685\n"
+#~ "help.text"
+#~ msgid "Writes data to a sequential file."
+#~ msgstr "Piše podatke v sekvenčno datoteko."
+
+#~ msgctxt ""
+#~ "03020205.xhp\n"
+#~ "hd_id3150449\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Skladnja:"
+
+#~ msgctxt ""
+#~ "03020205.xhp\n"
+#~ "par_id3145785\n"
+#~ "help.text"
+#~ msgid "Write [#FileName], [Expressionlist]"
+#~ msgstr "Write [#ImeDatoteke], [SeznamIzrazov]"
+
+#~ msgctxt ""
+#~ "03020205.xhp\n"
+#~ "hd_id3151116\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parametri:"
+
+#~ msgctxt ""
+#~ "03020205.xhp\n"
+#~ "par_id3153728\n"
+#~ "help.text"
+#~ msgid "<emph>FileName:</emph> Any numeric expression that contains the file number that was set by the Open statement for the respective file."
+#~ msgstr "<emph>ImeDatoteke:</emph> numerični izraz, ki vsebuje številko datoteke, kot jo določi ukaz Open ustrezne datoteke."
+
+#~ msgctxt ""
+#~ "03020205.xhp\n"
+#~ "par_id3146120\n"
+#~ "help.text"
+#~ msgid "<emph>Expressionlist:</emph> Variables or expressions that you want to enter in a file, separated by commas."
+#~ msgstr "<emph>SeznamIzrazov:</emph> spremenljivke ali izrazi, ki jih želite zapisati v imenovano datoteko, ločeni z vejicami."
+
+#~ msgctxt ""
+#~ "03020205.xhp\n"
+#~ "hd_id3151073\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Primer:"
+
+#~ msgctxt ""
+#~ "03020305.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "Seek Statement"
+#~ msgstr "Ukaz Seek"
+
+#~ msgctxt ""
+#~ "03020305.xhp\n"
+#~ "hd_id3159413\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03020305.xhp\" name=\"Seek Statement\">Seek Statement</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03020305.xhp\" name=\"Ukaz Seek\">Ukaz Seek</link>"
+
+#~ msgctxt ""
+#~ "03020305.xhp\n"
+#~ "par_id3156280\n"
+#~ "help.text"
+#~ msgid "See also: <link href=\"text/sbasic/shared/03020103.xhp\" name=\"Open\">Open</link>, <link href=\"text/sbasic/shared/03020304.xhp\" name=\"Seek\">Seek</link>."
+#~ msgstr "Poglejte tudi: <link href=\"text/sbasic/shared/03020103.xhp\" name=\"Open\">Open</link>, <link href=\"text/sbasic/shared/03020304.xhp\" name=\"Seek\">Seek</link>."
+
+#~ msgctxt ""
+#~ "03020305.xhp\n"
+#~ "hd_id3145785\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Skladnja:"
+
+#~ msgctxt ""
+#~ "03020305.xhp\n"
+#~ "par_id3145273\n"
+#~ "help.text"
+#~ msgid "Seek[#FileNumber], Position (As Long)"
+#~ msgstr "Seek[#ŠtevilkaDatoteke], Položaj (As Long)"
+
+#~ msgctxt ""
+#~ "03020305.xhp\n"
+#~ "hd_id3154321\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parametri:"
+
+#~ msgctxt ""
+#~ "03020305.xhp\n"
+#~ "par_id3153952\n"
+#~ "help.text"
+#~ msgid "<emph>FileNumber: </emph>The data channel number used in the Open statement."
+#~ msgstr "<emph>ŠtevilkaDatoteke: </emph>Številka podatkovnega kanala, uporabljena v ukazu Open."
+
+#~ msgctxt ""
+#~ "03020305.xhp\n"
+#~ "par_id3145366\n"
+#~ "help.text"
+#~ msgid "<emph>Position: </emph>Position for the next writing or reading. Position can be a number between 1 and 2,147,483,647. According to the file type, the position indicates the number of the record (files in the Random mode) or the byte position (files in the Binary, Output, Append or Input mode). The first byte in a file is position 1, the second byte is position 2, and so on."
+#~ msgstr "<emph>Položaj: </emph>Mesto, kjer bo prišlo do naslednje operacije branja ali pisanja. Mesto je lahko med 1 in 2.147.483.647. Glede na vrsto datoteke lahko mesto pomeni številko zapisa (datoteke v načinu Random) ali pa položaj v bajtih (datoteke v načinih Binary, Output, Append ali Input). Prvi bajt v datoteki ima mesto 1, drugi mesto 2 itn."
 
 #~ msgctxt ""
 #~ "03020101.xhp\n"
