@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-04-29 13:12+0200\n"
-"PO-Revision-Date: 2020-08-21 16:35+0000\n"
+"PO-Revision-Date: 2020-08-28 08:35+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.documentfoundation.org/projects/libo_ui-6-4/scmessages/fi/>\n"
 "Language: fi\n"
@@ -7575,7 +7575,7 @@ msgstr "Luku, jonka monikertaan arvo pyöristetään."
 #: sc/inc/scfuncs.hrc:1443
 msgctxt "SC_OPCODE_CEIL_PRECISE"
 msgid "Rounds a number up to the nearest multiple of significance, regardless of sign of significance."
-msgstr "Pyöristää luvun ylöspäin lähimpään pyöristystarkkuuden monikertaan pyöristystarkkuuden merkistä välittämättä."
+msgstr "Pyöristää luvun ylöspäin lähimpään pyöristystarkkuuden monikertaan pyöristystarkkuuden etumerkistä välittämättä."
 
 #. vKknK
 #: sc/inc/scfuncs.hrc:1444
@@ -7593,7 +7593,7 @@ msgstr "Ylöspäin pyöristettävä luku."
 #: sc/inc/scfuncs.hrc:1446
 msgctxt "SC_OPCODE_CEIL_PRECISE"
 msgid "Significance"
-msgstr "Merkitys"
+msgstr "Pyöristystarkkuus"
 
 #. MaoHR
 #: sc/inc/scfuncs.hrc:1447
@@ -7605,7 +7605,7 @@ msgstr "Luku, jonka monikertaan arvo pyöristetään."
 #: sc/inc/scfuncs.hrc:1453
 msgctxt "SC_OPCODE_CEIL_ISO"
 msgid "Rounds a number up to the nearest multiple of significance, regardless of sign of significance."
-msgstr "Pyöristää luvun ylöspäin lähimpään pyöristystarkkuuden monikertaan pyöristystarkkuuden merkistä välittämättä."
+msgstr "Pyöristää luvun ylöspäin lähimpään pyöristystarkkuuden monikertaan pyöristystarkkuuden etumerkistä välittämättä."
 
 #. NG3Y9
 #: sc/inc/scfuncs.hrc:1454
@@ -7653,13 +7653,13 @@ msgstr "Ylöspäin pyöristettävä luku."
 #: sc/inc/scfuncs.hrc:1466
 msgctxt "SC_OPCODE_CEIL"
 msgid "Significance"
-msgstr "Merkitys"
+msgstr "Pyöristystarkkuus"
 
 #. tp6SD
 #: sc/inc/scfuncs.hrc:1467
 msgctxt "SC_OPCODE_CEIL"
 msgid "If given the number to whose multiple the value is rounded, else -1 or 1 depending on sign of Number."
-msgstr "Luku, jonka monikertaan arvo pyöristetään. Mikäli ei annettu, käytetään -1 tai 1 monikertaa Luvun merkistä riippuen."
+msgstr "Luku, jonka monikertaan arvo pyöristetään. Mikäli ei annettu, käytetään -1:n tai 1:n monikertaa luvun etumerkistä riippuen."
 
 #. tBvNu
 #: sc/inc/scfuncs.hrc:1468
@@ -7669,6 +7669,7 @@ msgstr "Tila"
 
 #. tNjRg
 #: sc/inc/scfuncs.hrc:1469
+#, fuzzy
 msgctxt "SC_OPCODE_CEIL"
 msgid "If given and not equal to zero then rounded up according to amount when a negative number and significance."
 msgstr "Jos arvo määritetään eikä se ole nolla, negatiivinen luku pyöristetään ylöspäin ensimmäiseen merkittävään lukuun."
@@ -7677,7 +7678,7 @@ msgstr "Jos arvo määritetään eikä se ole nolla, negatiivinen luku pyöriste
 #: sc/inc/scfuncs.hrc:1475
 msgctxt "SC_OPCODE_CEIL_MATH"
 msgid "Rounds a number up to the nearest multiple of significance."
-msgstr "Pyöristää luvun ylöspäin lähimpään merkittävään monikertaan."
+msgstr "Pyöristää luvun ylöspäin lähimpään pyöristystarkkuuden monikertaan."
 
 #. aZfnw
 #: sc/inc/scfuncs.hrc:1476
@@ -7695,13 +7696,13 @@ msgstr "Ylöspäin pyöristettävä luku."
 #: sc/inc/scfuncs.hrc:1478
 msgctxt "SC_OPCODE_CEIL_MATH"
 msgid "Significance"
-msgstr "Merkitys"
+msgstr "Pyöristystarkkuus"
 
 #. 3RoYe
 #: sc/inc/scfuncs.hrc:1479
 msgctxt "SC_OPCODE_CEIL_MATH"
 msgid "If given the number to whose multiple the value is rounded, else 1."
-msgstr "Luku, jonka monikertaan arvo pyöristetään. Mikäli ei annettu, käytetään 1 monikertaa."
+msgstr "Luku, jonka monikertaan arvo pyöristetään. Mikäli ei annettu, käytetään 1:n monikertaa."
 
 #. K3ya2
 #: sc/inc/scfuncs.hrc:1480
@@ -7719,7 +7720,7 @@ msgstr "Jos annettu ja on muu kuin 0, negatiiviset arvot pyöristetään nollast
 #: sc/inc/scfuncs.hrc:1487
 msgctxt "SC_OPCODE_FLOOR"
 msgid "Rounds number down to the nearest multiple of significance."
-msgstr "Pyöristää luvun alaspäin lähimpään merkittävään monikertaan."
+msgstr "Pyöristää luvun alaspäin lähimpään pyöristystarkkuuden monikertaan."
 
 #. rEBiB
 #: sc/inc/scfuncs.hrc:1488
@@ -7737,7 +7738,7 @@ msgstr "Alaspäin pyöristettävä luku."
 #: sc/inc/scfuncs.hrc:1490
 msgctxt "SC_OPCODE_FLOOR"
 msgid "Significance"
-msgstr "Merkitys"
+msgstr "Pyöristystarkkuus"
 
 #. gV64T
 #: sc/inc/scfuncs.hrc:1491
@@ -7795,7 +7796,7 @@ msgstr "Luku, jonka monikertaan arvo pyöristetään alaspäin."
 #: sc/inc/scfuncs.hrc:1509
 msgctxt "SC_OPCODE_FLOOR_MATH"
 msgid "Rounds number down to the nearest multiple of significance, regardless of sign of significance."
-msgstr "Pyöristää luvun alaspäin lähimpään pyöristystarkkuuden monikertaan pyöristystarkkuuden merkistä välittämättä."
+msgstr "Pyöristää luvun alaspäin lähimpään pyöristystarkkuuden monikertaan pyöristystarkkuuden etumerkistä välittämättä."
 
 #. U6Tyw
 #: sc/inc/scfuncs.hrc:1510
@@ -8191,7 +8192,7 @@ msgstr "Tilastot"
 #: sc/inc/scfuncs.hrc:1645
 msgctxt "SC_OPCODE_LINEST"
 msgid "If parameter = 0 then only the regression coefficient will be calculated, otherwise other values as well."
-msgstr "Jos parametri = 0, niin vain regression kerroin lasketaan. Muutoin lasketaan myös muut arvot."
+msgstr "Jos parametri = 0, vain regressiokerroin lasketaan. Muutoin lasketaan myös muut arvot."
 
 #. TjhxE
 #: sc/inc/scfuncs.hrc:1651
@@ -8245,7 +8246,7 @@ msgstr "Tilastot"
 #: sc/inc/scfuncs.hrc:1659
 msgctxt "SC_OPCODE_LOGEST"
 msgid "If parameter = 0 then only the regression coefficient will be calculated, otherwise other values as well."
-msgstr "Jos parametri = 0, niin vain regression kerroin lasketaan. Muutoin lasketaan myös muut arvot."
+msgstr "Jos parametri = 0, vain regressiokerroin lasketaan. Muutoin lasketaan myös muut arvot."
 
 #. FABFr
 #: sc/inc/scfuncs.hrc:1665
@@ -9451,7 +9452,7 @@ msgstr "Tiedot"
 #: sc/inc/scfuncs.hrc:2105
 msgctxt "SC_OPCODE_PROB"
 msgid "The sample data array."
-msgstr "Näytteiden taulukko."
+msgstr "Otostietotaulukko."
 
 #. XF3fT
 #: sc/inc/scfuncs.hrc:2106
@@ -11356,13 +11357,13 @@ msgstr "Tila"
 #: sc/inc/scfuncs.hrc:2639
 msgctxt "SC_OPCODE_T_DIST"
 msgid "Mode = 1 calculates the one-tailed test, 2 = two-tailed distribution."
-msgstr "Tila = 1 laskee yksihäntäisen testin ja 2 kaksihäntäisen jakauman."
+msgstr "Tila = 1 laskee yksisuuntaisen testin ja 2 kaksisuuntaisen jakauman."
 
 #. RssQW
 #: sc/inc/scfuncs.hrc:2645
 msgctxt "SC_OPCODE_T_DIST_2T"
 msgid "Returns the two-tailed t-distribution."
-msgstr "Palauttaa kaksihäntäisen t-jakauman."
+msgstr "Palauttaa kaksisuuntaisen t-jakauman."
 
 #. DmQVU
 #: sc/inc/scfuncs.hrc:2646
@@ -11524,7 +11525,7 @@ msgstr "T-jakauman vapausaste."
 #: sc/inc/scfuncs.hrc:2697
 msgctxt "SC_OPCODE_T_INV_2T"
 msgid "Values of the two-tailed inverse t-distribution."
-msgstr "Käänteisen kaksihäntäisen t-jakauman arvot."
+msgstr "Käänteisen kaksisuuntaisen t-jakauman arvot."
 
 #. B9uvE
 #: sc/inc/scfuncs.hrc:2698
@@ -12328,7 +12329,7 @@ msgstr "Otos havaintoja, jotka on saatu normaalijakauman mukaisesta populaatiost
 #: sc/inc/scfuncs.hrc:2943
 msgctxt "SC_OPCODE_Z_TEST"
 msgid "mu"
-msgstr "mu"
+msgstr "myy"
 
 #. fgaDX
 #: sc/inc/scfuncs.hrc:2944
@@ -12370,7 +12371,7 @@ msgstr "Otos havaintoja, jotka on saatu normaalijakauman mukaisesta populaatiost
 #: sc/inc/scfuncs.hrc:2955
 msgctxt "SC_OPCODE_Z_TEST_MS"
 msgid "mu"
-msgstr "mu"
+msgstr "myy"
 
 #. sXzNL
 #: sc/inc/scfuncs.hrc:2956
@@ -12550,7 +12551,7 @@ msgstr "Tila"
 #: sc/inc/scfuncs.hrc:3010
 msgctxt "SC_OPCODE_T_TEST"
 msgid "Mode specifies the number of distribution tails to return. 1 = one-tailed, 2 = two-tailed distribution"
-msgstr "Moodi määrittää palautettavien jakaumahäntien määrän. 1 = yksihäntäinen ja 2 = kaksihäntäinen jakauma"
+msgstr "Tila määrittää palautettavien jakauman suuntien määrän. 1 = yksisuuntainen ja 2 = kaksisuuntainen jakauma"
 
 #. fYNDT
 #: sc/inc/scfuncs.hrc:3011
@@ -12604,7 +12605,7 @@ msgstr "Tila"
 #: sc/inc/scfuncs.hrc:3024
 msgctxt "SC_OPCODE_T_TEST_MS"
 msgid "Mode specifies the number of distribution tails to return. 1 = one-tailed, 2 = two-tailed distribution"
-msgstr "Moodi määrittää palautettavien jakaumahäntien määrän. 1 = yksihäntäinen ja 2 = kaksihäntäinen jakauma"
+msgstr "Tila määrittää palautettavien jakauman suuntien määrän. 1 = yksisuuntainen ja 2 = kaksisuuntainen jakauma"
 
 #. 5Sqnp
 #: sc/inc/scfuncs.hrc:3025
@@ -12772,7 +12773,7 @@ msgstr "Toinen tietuetaulukko."
 #: sc/inc/scfuncs.hrc:3082
 msgctxt "SC_OPCODE_CORREL"
 msgid "Returns the correlation coefficient."
-msgstr "Palauttaa korrelaation kertoimen."
+msgstr "Palauttaa korrelaatiokertoimen."
 
 #. ojEas
 #: sc/inc/scfuncs.hrc:3083
