@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-09-07 17:18+0200\n"
-"PO-Revision-Date: 2020-09-07 15:27+0000\n"
-"Last-Translator: SteenRønnow <steen.roennow@mail.dk>\n"
+"PO-Revision-Date: 2020-09-07 17:24+0000\n"
+"Last-Translator: Jørgen Madsen <jfma@mailme.dk>\n"
 "Language-Team: Danish <https://weblate.documentfoundation.org/projects/libo_help-master/textsbasicshared/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.1.1\n"
 "X-POOTLE-MTIME: 1561161214.000000\n"
 
 #. yzYVt
@@ -38968,7 +38968,7 @@ msgctxt ""
 "N0001\n"
 "help.text"
 msgid "<bookmark_value>Resume statement</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>udtrykket Resume</bookmark_value>"
 
 #. LTupm
 #: Resume.xhp
@@ -38977,7 +38977,7 @@ msgctxt ""
 "N0002\n"
 "help.text"
 msgid "<variable id=\"resumeh1\"><link href=\"text/sbasic/shared/Resume.xhp\" name=\"Resume statement\">Resume Statement</link></variable>"
-msgstr ""
+msgstr "<variable id=\"resumeh1\"><link href=\"text/sbasic/shared/Resume.xhp\" name=\"Resume statement\">udtrykket Resume</link></variable>"
 
 #. AVhyb
 #: Resume.xhp
@@ -38986,7 +38986,7 @@ msgctxt ""
 "N0003\n"
 "help.text"
 msgid "Resets error information and indicates what to execute next."
-msgstr ""
+msgstr "Nulstiller fejl-information og viser, hvad der skal udføres som det næste."
 
 #. FhZm3
 #: Resume.xhp
@@ -38995,7 +38995,7 @@ msgctxt ""
 "par_id491585753339474\n"
 "help.text"
 msgid "<image src=\"media/helpimg/sbasic/Resume_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Resume Statement diagram</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/sbasic/Resume_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">diagram over udtrykket Resume</alt></image>"
 
 #. eafvm
 #: Resume.xhp
@@ -39004,7 +39004,7 @@ msgctxt ""
 "par_id481586090298901\n"
 "help.text"
 msgid "<literal>0</literal>: Resets error information and re-executes the instruction that caused the error. <literal>0</literal> is optional."
-msgstr ""
+msgstr "<literal>0</literal>: Nulstiller fejlinformation og genudfører den instruktion, der gav fejlen. <literal>0</literal> is optional."
 
 #. fakJ2
 #: Resume.xhp
@@ -39022,7 +39022,7 @@ msgctxt ""
 "par_id331586090432804\n"
 "help.text"
 msgid "<literal>Next</literal>: Resets error information and executes the instruction following the one that caused the error."
-msgstr ""
+msgstr "<literal>Next</literal> Nulstiller fejlinformation og udfører den instruktion, der følger den, der gav fejlen."
 
 #. 3Jge7
 #: Resume.xhp
@@ -39031,7 +39031,7 @@ msgctxt ""
 "par_id441586333320983\n"
 "help.text"
 msgid "Error information is built with <literal>Erl</literal>, <literal>Err</literal> and <literal>Error$</literal> functions."
-msgstr ""
+msgstr "Fejlinformation er bygget med funktionerne <literal>Erl</literal>, <literal>Err</literal> og <literal>Error$</literal>."
 
 #. PoXod
 #: Resume.xhp
@@ -39040,7 +39040,7 @@ msgctxt ""
 "par_id741586333516110\n"
 "help.text"
 msgid "<literal>Erl</literal>: Module line number where error occurs."
-msgstr ""
+msgstr "<literal>Erl</literal>: Modulets linjenummer, hvor fejlen skete."
 
 #. aX9ZN
 #: Resume.xhp
@@ -39049,7 +39049,7 @@ msgctxt ""
 "par_id81586333580520\n"
 "help.text"
 msgid "<literal>Err</literal>: Error number."
-msgstr ""
+msgstr "<literal>Err</literal>: Fejlnummer"
 
 #. ctA2t
 #: Resume.xhp
@@ -39058,7 +39058,7 @@ msgctxt ""
 "par_id721586333586263\n"
 "help.text"
 msgid "<literal>Error[$]</literal>: Error description."
-msgstr ""
+msgstr "<literal>Error[$]</literal>: Fejlbeskrivelse."
 
 #. fDJgb
 #: Resume.xhp
@@ -39067,7 +39067,7 @@ msgctxt ""
 "par_id941586091561618\n"
 "help.text"
 msgid "Using <emph>Resume</emph> to reset error information prevents the propagation of the handled condition to calling routines."
-msgstr ""
+msgstr "Anvendelse af <emph>Resume</emph> til at nulstille fejlinformation forebygger, at den håndterede tilstand breder sig til kald af rutiner."
 
 #. coy5D
 #: Resume.xhp
@@ -39076,7 +39076,7 @@ msgctxt ""
 "hd_id441586092960246\n"
 "help.text"
 msgid "Examples:"
-msgstr ""
+msgstr "Eksempler:"
 
 #. 4dyMX
 #: Resume.xhp
@@ -39085,7 +39085,7 @@ msgctxt ""
 "par_id961586248539108\n"
 "help.text"
 msgid "Typical error handling routines are: alerting the user, fixing the error, logging error information or re-throwing custom errors that provide explanations with resolution instructions. Use <literal>Resume label</literal> when requiring such mechanisms."
-msgstr ""
+msgstr "Typiske fejlhåndteringsrutiner er: at alarmere brugeren, at fikse fejlen, at logge fejlinformation eller igen at kaste tilpassede fejl, der leverer forklaringer med instruktioner til løsning. Brug <literal>etiketten Resume</literal>, når du har brug for den slags mekanismer. "
 
 #. VCDS3
 #: Resume.xhp
@@ -39094,7 +39094,7 @@ msgctxt ""
 "bas_id451586093122848\n"
 "help.text"
 msgid "' routine code goes here"
-msgstr ""
+msgstr "' rutinekode skrives her"
 
 #. BFzfG
 #: Resume.xhp
@@ -39103,7 +39103,7 @@ msgctxt ""
 "bas_id515860931234846\n"
 "help.text"
 msgid "Error 91 ' example error"
-msgstr ""
+msgstr "Error 91 ' eksempelfejl"
 
 #. uFVnv
 #: Resume.xhp
@@ -39112,7 +39112,7 @@ msgctxt ""
 "bas_id361586093126654\n"
 "help.text"
 msgid "' routine cleanup code goes here"
-msgstr ""
+msgstr "' rutinerengøringskode skrives her"
 
 #. UNbMJ
 #: Resume.xhp
