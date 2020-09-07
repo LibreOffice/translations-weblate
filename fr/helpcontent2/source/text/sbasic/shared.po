@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-08-31 14:55+0200\n"
+"POT-Creation-Date: 2020-09-07 17:18+0200\n"
 "PO-Revision-Date: 2020-09-07 15:27+0000\n"
 "Last-Translator: sophie <gautier.sophie@gmail.com>\n"
 "Language-Team: French <https://weblate.documentfoundation.org/projects/libo_help-master/textsbasicshared/fr/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: LibreOffice\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1562340649.000000\n"
 
@@ -610,6 +610,15 @@ msgctxt ""
 "help.text"
 msgid "<variable id=\"functexample\">Example:</variable>"
 msgstr "<variable id=\"functexample\">Exemple :</variable>"
+
+#. TV2YL
+#: 00000003.xhp
+msgctxt ""
+"00000003.xhp\n"
+"par_id161599082457466\n"
+"help.text"
+msgid "<variable id=\"stringfunctions\"><link href=\"text/sbasic/shared/03120300.xhp\" name=\"string functions\">String functions</link></variable>"
+msgstr ""
 
 #. CGSvh
 #: 00000003.xhp
@@ -2420,14 +2429,23 @@ msgctxt ""
 msgid "String Variables"
 msgstr "Variables de chaîne"
 
-#. ft56J
+#. zes9e
 #: 01020100.xhp
 msgctxt ""
 "01020100.xhp\n"
 "par_id3151393\n"
 "help.text"
-msgid "String variables can hold character strings with up to 65,535 characters. Each character is stored as the corresponding Unicode value. String variables are suitable for word processing within programs and for temporary storage of any non-printable character up to a maximum length of 64 Kbytes. The memory required for storing string variables depends on the number of characters in the variable. The type-declaration character is \"$\"."
-msgstr "Les variables de chaîne peuvent comporter des chaînes de caractères allant jusqu'à 65 535 caractères. Chaque caractère est stocké sous la valeur Unicode correspondante. Les variables de chaîne peuvent être utilisées pour le traitement de texte à l'intérieur de programmes et pour le stockage temporaire de tout caractère non imprimable d'une longueur maximale de 64 kilo-octets. La mémoire nécessaire au stockage des variables de chaîne dépend du nombre de caractères de celles-ci. \"$\" constitue le caractère de déclaration de ce type."
+msgid "String variables can hold character strings with up to 2,147,483,648 characters. Each character is stored as the corresponding Unicode value. String variables are suitable for word processing within programs and for temporary storage of any non-printable character up to a maximum length of 2 Gbytes. The memory required for storing string variables depends on the number of characters in the variable. The type-declaration character is \"$\"."
+msgstr ""
+
+#. RBcLt
+#: 01020100.xhp
+msgctxt ""
+"01020100.xhp\n"
+"par_id381599081637549\n"
+"help.text"
+msgid "In BASIC String functions, the first character of the string has index 1."
+msgstr ""
 
 #. wDbuF
 #: 01020100.xhp
@@ -16552,86 +16570,41 @@ msgctxt ""
 msgid "The following functions and statements set or return the system date and time."
 msgstr "Les fonctions et les instructions suivantes définissent ou rétablissent la date et l'heure du système."
 
-#. YWfEf
+#. wJjQV
 #: 03030301.xhp
 msgctxt ""
 "03030301.xhp\n"
 "tit\n"
 "help.text"
-msgid "Date Statement"
-msgstr "Instruction Date"
+msgid "Date Function"
+msgstr ""
 
-#. xpFBx
+#. HEEFx
 #: 03030301.xhp
 msgctxt ""
 "03030301.xhp\n"
 "bm_id3156027\n"
 "help.text"
-msgid "<bookmark_value>Date statement</bookmark_value>"
-msgstr "<bookmark_value>Date, instruction</bookmark_value>"
+msgid "<bookmark_value>Date function</bookmark_value>"
+msgstr ""
 
-#. vDWSN
+#. u9AkG
 #: 03030301.xhp
 msgctxt ""
 "03030301.xhp\n"
 "hd_id3156027\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03030301.xhp\" name=\"Date Statement\">Date Statement</link>"
-msgstr "<link href=\"text/sbasic/shared/03030301.xhp\" name=\"Instruction Date\">Instruction Date</link>"
+msgid "<link href=\"text/sbasic/shared/03030301.xhp\" name=\"Date Function\">Date Function</link>"
+msgstr ""
 
-#. GMwEL
+#. AaA3G
 #: 03030301.xhp
 msgctxt ""
 "03030301.xhp\n"
 "par_id3147291\n"
 "help.text"
-msgid "Returns the current system date as a string, or resets the date. The date format depends on your local system settings."
-msgstr "Renvoie la date courante de l'ordinateur sous forme de chaîne de caractères ou réinitialise la date. Le format de date varie en fonction des paramètres définis pour votre système."
-
-#. CUY3q
-#: 03030301.xhp
-msgctxt ""
-"03030301.xhp\n"
-"hd_id3148686\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
-#. QoCJW
-#: 03030301.xhp
-msgctxt ""
-"03030301.xhp\n"
-"par_id3146794\n"
-"help.text"
-msgid "Date ; Date = Text As String"
-msgstr "Date ; Date = Text As String"
-
-#. 8QFeW
-#: 03030301.xhp
-msgctxt ""
-"03030301.xhp\n"
-"hd_id3154347\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
-
-#. 57eNx
-#: 03030301.xhp
-msgctxt ""
-"03030301.xhp\n"
-"par_id3145069\n"
-"help.text"
-msgid "<emph>Text:</emph> Only required in order to reset the system date. In this case, the string expression must correspond to the date format defined in your local settings."
-msgstr "<emph>Text :</emph> pour réinitialiser la date de l'ordinateur uniquement. Dans ce cas, l'expression au format chaîne de caractères doit correspondre au format de date défini dans vos paramètres locaux."
-
-#. waEYM
-#: 03030301.xhp
-msgctxt ""
-"03030301.xhp\n"
-"hd_id3150793\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
+msgid "Returns the current system date as a string, or date variant."
+msgstr ""
 
 #. BUc3C
 #: 03030301.xhp
@@ -16642,32 +16615,32 @@ msgctxt ""
 msgid "MsgBox \"The date is \" & Date"
 msgstr "Msgbox \"La date est le \" & Date"
 
-#. CCirC
+#. W99bB
 #: 03030302.xhp
 msgctxt ""
 "03030302.xhp\n"
 "tit\n"
 "help.text"
-msgid "Time Statement"
-msgstr "Instruction Time"
+msgid "Time Function"
+msgstr ""
 
-#. Ypbnk
+#. peCLU
 #: 03030302.xhp
 msgctxt ""
 "03030302.xhp\n"
 "bm_id3145090\n"
 "help.text"
-msgid "<bookmark_value>Time statement</bookmark_value>"
-msgstr "<bookmark_value>Time, instruction</bookmark_value>"
+msgid "<bookmark_value>Time function</bookmark_value>"
+msgstr ""
 
-#. xLpG8
+#. tBoRS
 #: 03030302.xhp
 msgctxt ""
 "03030302.xhp\n"
 "hd_id3145090\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03030302.xhp\">Time Statement</link>"
-msgstr "<link href=\"text/sbasic/shared/03030302.xhp\">Instruction Time</link>"
+msgid "<link href=\"text/sbasic/shared/03030302.xhp\" name=\"Time Function\">Time Function</link>"
+msgstr ""
 
 #. FHKSk
 #: 03030302.xhp
@@ -16677,42 +16650,6 @@ msgctxt ""
 "help.text"
 msgid "This function returns the current system time as a string in the format \"HH:MM:SS\"."
 msgstr "Cette fonction renvoie la date courante du système sous forme de chaîne de caractères au format \"HH:MM:SS\"."
-
-#. G29nS
-#: 03030302.xhp
-msgctxt ""
-"03030302.xhp\n"
-"hd_id3154346\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
-#. rG5UZ
-#: 03030302.xhp
-msgctxt ""
-"03030302.xhp\n"
-"hd_id3150792\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
-
-#. 6LxaE
-#: 03030302.xhp
-msgctxt ""
-"03030302.xhp\n"
-"par_id3149656\n"
-"help.text"
-msgid "<emph>Text:</emph> Any string expression that specifies the new time in the format \"HH:MM:SS\"."
-msgstr "<emph>Text :</emph> expression au format chaîne de caractères spécifiant la nouvelle heure au format \"HH:MM:SS\"."
-
-#. psu4B
-#: 03030302.xhp
-msgctxt ""
-"03030302.xhp\n"
-"hd_id3145173\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. Aguz5
 #: 03030302.xhp
@@ -31465,14 +31402,14 @@ msgctxt ""
 msgid "String"
 msgstr "Chaîne de caractères"
 
-#. gunCB
+#. nYDuW
 #: 03120201.xhp
 msgctxt ""
 "03120201.xhp\n"
 "par_id3143228\n"
 "help.text"
-msgid "<emph>n:</emph> Numeric expression that defines the number of spaces in the string. The maximum allowed value of <emph>n</emph> is 65535."
-msgstr "<emph>n :</emph> expression numérique définissant le nombre d'espaces de la chaîne de caractères. La valeur maximale autorisée pour <emph>n</emph> est 65535."
+msgid "<emph>n:</emph> Numeric expression that defines the number of spaces in the string. The maximum allowed value of <emph>n</emph> is 2,147,483,648."
+msgstr ""
 
 #. xfAcE
 #: 03120201.xhp
@@ -31519,15 +31456,6 @@ msgctxt ""
 msgid "Creates a string according to the specified character, or the first character of a string expression that is passed to the function."
 msgstr "Crée une chaîne en fonction d'un caractère spécifié ou du premier caractère de l'expression au format chaîne de caractères transmise à la fonction."
 
-#. YEQWe
-#: 03120202.xhp
-msgctxt ""
-"03120202.xhp\n"
-"hd_id3149516\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. EVKUs
 #: 03120202.xhp
 msgctxt ""
@@ -31536,15 +31464,6 @@ msgctxt ""
 "help.text"
 msgid "String (n As Long, {expression As Integer | character As String})"
 msgstr "String (n As Long, {expression As Integer | character As String})"
-
-#. Uaxak
-#: 03120202.xhp
-msgctxt ""
-"03120202.xhp\n"
-"hd_id3143270\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
 
 #. GfqGg
 #: 03120202.xhp
@@ -31555,23 +31474,14 @@ msgctxt ""
 msgid "String"
 msgstr "Chaîne de caractères"
 
-#. 5gnCP
-#: 03120202.xhp
-msgctxt ""
-"03120202.xhp\n"
-"hd_id3154923\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
-
-#. xvDy5
+#. FTqT4
 #: 03120202.xhp
 msgctxt ""
 "03120202.xhp\n"
 "par_id3154347\n"
 "help.text"
-msgid "<emph>n:</emph> Numeric expression that indicates the number of characters to return in the string. The maximum allowed value of n is 65535."
-msgstr "<emph>n :</emph> expression numérique indiquant le nombre de caractères à renvoyer dans la chaîne. La valeur maximale autorisée pour n est 65 535."
+msgid "<emph>n:</emph> Numeric expression that indicates the number of characters to return in the string. The maximum allowed value of n is 2,147,483,648."
+msgstr ""
 
 #. uARjD
 #: 03120202.xhp
@@ -31590,15 +31500,6 @@ msgctxt ""
 "help.text"
 msgid "<emph>Character:</emph> Any single character used to build the return string, or any string of which only the first character will be used."
 msgstr "<emph>Character :</emph> caractère (un seul) utilisé pour construire la chaîne de retour, ou chaîne dont seul le premier caractère sera utilisé."
-
-#. iApAt
-#: 03120202.xhp
-msgctxt ""
-"03120202.xhp\n"
-"hd_id3152920\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. avFC9
 #: 03120300.xhp
@@ -31672,15 +31573,6 @@ msgctxt ""
 msgid "Converts a number to a string, and then formats it according to the format that you specify."
 msgstr "Convertit un nombre en chaîne de caractères puis formate celle-ci en fonction du format spécifié."
 
-#. ESujY
-#: 03120301.xhp
-msgctxt ""
-"03120301.xhp\n"
-"hd_id3145090\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. wp4Ae
 #: 03120301.xhp
 msgctxt ""
@@ -31690,15 +31582,6 @@ msgctxt ""
 msgid "Format (Number [, Format As String])"
 msgstr "Format (Number [, Format As String])"
 
-#. SrkYm
-#: 03120301.xhp
-msgctxt ""
-"03120301.xhp\n"
-"hd_id3149178\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
-
 #. gddga
 #: 03120301.xhp
 msgctxt ""
@@ -31707,15 +31590,6 @@ msgctxt ""
 "help.text"
 msgid "String"
 msgstr "Chaîne de caractères"
-
-#. WGjGQ
-#: 03120301.xhp
-msgctxt ""
-"03120301.xhp\n"
-"hd_id3159176\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
 
 #. 6Dyxg
 #: 03120301.xhp
@@ -31996,15 +31870,6 @@ msgctxt ""
 msgid "A format code can be divided into three sections that are separated by semicolons. The first part defines the format for positive values, the second part for negative values, and the third part for zero. If you only specify one format code, it applies to all numbers."
 msgstr "Une description de format peut être divisée en trois sections séparées par des points-virgules. La première partie définit le format des valeurs positives, la seconde le format des valeurs négatives et la troisième le format des valeurs nulles. Si vous ne spécifiez qu'une description de format, celle-ci s'applique à tous les nombres."
 
-#. GXmDT
-#: 03120301.xhp
-msgctxt ""
-"03120301.xhp\n"
-"hd_id3149019\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
-
 #. ZsNPC
 #: 03120301.xhp
 msgctxt ""
@@ -32158,15 +32023,6 @@ msgctxt ""
 msgid "Returns the number of leftmost characters that you specify of a string expression."
 msgstr "Renvoie le nombre spécifié de caractères se situant le plus à gauche dans une expression au format chaîne de caractères."
 
-#. UF45c
-#: 03120303.xhp
-msgctxt ""
-"03120303.xhp\n"
-"hd_id3156153\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. H2Ftq
 #: 03120303.xhp
 msgctxt ""
@@ -32175,15 +32031,6 @@ msgctxt ""
 "help.text"
 msgid "Left (Text As String, n As Long)"
 msgstr "Left (Text As String, n As Long)"
-
-#. 48Gmp
-#: 03120303.xhp
-msgctxt ""
-"03120303.xhp\n"
-"hd_id3153824\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
 
 #. to74m
 #: 03120303.xhp
@@ -32194,15 +32041,6 @@ msgctxt ""
 msgid "String"
 msgstr "Chaîne de caractères"
 
-#. ZJXfA
-#: 03120303.xhp
-msgctxt ""
-"03120303.xhp\n"
-"hd_id3148946\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
-
 #. hRWZH
 #: 03120303.xhp
 msgctxt ""
@@ -32212,14 +32050,14 @@ msgctxt ""
 msgid "<emph>Text:</emph> Any string expression that you want to return the leftmost characters from."
 msgstr "<emph>Text :</emph> toute expression au format chaîne de caractères dans laquelle les caractères se situant le plus à gauche sont à renvoyer."
 
-#. jVzCK
+#. BPXpD
 #: 03120303.xhp
 msgctxt ""
 "03120303.xhp\n"
 "par_id3149456\n"
 "help.text"
-msgid "<emph>n:</emph> Numeric expression that specifies the number of characters that you want to return. If <emph>n</emph> = 0, a zero-length string is returned. The maximum allowed value is 65535."
-msgstr "<emph>n :</emph> expression numérique spécifiant le nombre de caractères à renvoyer. Si <emph>n</emph> = 0, une chaîne de caractères de longueur zéro est renvoyée. La valeur maximale autorisée est 65 535."
+msgid "<emph>n:</emph> Numeric expression that specifies the number of characters that you want to return. If <emph>n</emph> = 0, a zero-length string is returned. The maximum allowed value is 2,147,483,648."
+msgstr ""
 
 #. FPXvk
 #: 03120303.xhp
@@ -32229,15 +32067,6 @@ msgctxt ""
 "help.text"
 msgid "The following example converts a date in YYYY.MM.DD format to MM/DD/YYYY format."
 msgstr "L'exemple suivant convertit une date au format AAAA.MM.JJ en une date au format MM/JJ/AAAA."
-
-#. YQQDH
-#: 03120303.xhp
-msgctxt ""
-"03120303.xhp\n"
-"hd_id3125863\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. TJBfC
 #: 03120303.xhp
@@ -32284,15 +32113,6 @@ msgctxt ""
 msgid "Aligns a string to the left of a string variable, or copies a variable of a user-defined type to another variable of a different user-defined type."
 msgstr "Aligne une chaîne de caractères à gauche d'une variable de chaîne de caractères ou copie une variable de type défini par l'utilisateur vers une autre variable d'un autre type défini par l'utilisateur."
 
-#. wKtHD
-#: 03120304.xhp
-msgctxt ""
-"03120304.xhp\n"
-"hd_id3145317\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. tFaav
 #: 03120304.xhp
 msgctxt ""
@@ -32301,15 +32121,6 @@ msgctxt ""
 "help.text"
 msgid "LSet Var As String = Text or LSet Var1 = Var2"
 msgstr "LSet Var As String = Text ou LSet Var1 = Var2"
-
-#. 2vzrB
-#: 03120304.xhp
-msgctxt ""
-"03120304.xhp\n"
-"hd_id3143271\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
 
 #. M99uG
 #: 03120304.xhp
@@ -32355,15 +32166,6 @@ msgctxt ""
 "help.text"
 msgid "If the string is shorter than the string variable, <emph>LSet</emph> left-aligns the string within the string variable. Any remaining positions in the string variable are replaced by spaces. If the string is longer than the string variable, only the leftmost characters up to the length of the string variable are copied. With the <emph>LSet</emph> statement, you can also copy a user-defined type variable to another variable of the same type."
 msgstr "Si la chaîne de caractères est plus courte que la variable de chaîne de caractères, l'instruction <emph>LSet</emph> aligne la chaîne à gauche dans la variable de chaîne de caractères. Toutes les positions restantes dans la variable de chaîne de caractères sont remplacées par des espaces. Si la chaîne de caractères est plus longue que la variable de chaîne de caractères, seuls sont copiés les caractères situés le plus à gauche, et ce, dans la limite du nombre de caractères composant la variable de chaîne. L'instruction <emph>LSet</emph> vous permet également de copier une variable de type défini par l'utilisateur vers une autre variable du même type."
-
-#. BQw4P
-#: 03120304.xhp
-msgctxt ""
-"03120304.xhp\n"
-"hd_id3156282\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. jJepi
 #: 03120304.xhp
@@ -32428,15 +32230,6 @@ msgctxt ""
 msgid "Removes all leading spaces at the start of a string expression."
 msgstr "Supprime tous les espaces à gauche au début d'une expression au format chaîne de caractères."
 
-#. vG8YP
-#: 03120305.xhp
-msgctxt ""
-"03120305.xhp\n"
-"hd_id3154924\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. cepxM
 #: 03120305.xhp
 msgctxt ""
@@ -32446,15 +32239,6 @@ msgctxt ""
 msgid "LTrim (Text As String)"
 msgstr "LTrim (Text As String)"
 
-#. KzzDh
-#: 03120305.xhp
-msgctxt ""
-"03120305.xhp\n"
-"hd_id3156344\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
-
 #. LyUCE
 #: 03120305.xhp
 msgctxt ""
@@ -32463,15 +32247,6 @@ msgctxt ""
 "help.text"
 msgid "String"
 msgstr "Chaîne de caractères"
-
-#. 8hNZD
-#: 03120305.xhp
-msgctxt ""
-"03120305.xhp\n"
-"hd_id3150543\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
 
 #. x85WJ
 #: 03120305.xhp
@@ -32490,15 +32265,6 @@ msgctxt ""
 "help.text"
 msgid "Use this function to remove spaces at the beginning of a string expression."
 msgstr "Utilisez cette fonction pour supprimer des espaces au début d'une expression au format chaîne de caractères."
-
-#. FExzu
-#: 03120305.xhp
-msgctxt ""
-"03120305.xhp\n"
-"hd_id3145419\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. Afrvq
 #: 03120306.xhp
@@ -32536,15 +32302,6 @@ msgctxt ""
 msgid "Returns the specified portion of a string expression (<emph>Mid function</emph>), or replaces the portion of a string expression with another string (<emph>Mid statement</emph>)."
 msgstr "Renvoie la partie spécifiée d'une expression au format chaîne de caractères (<emph>Fonction Mid</emph>) ou remplace une partie d'une telle expression par une autre chaîne de caractères (<emph>Instruction Mid</emph>)."
 
-#. ye7Tj
-#: 03120306.xhp
-msgctxt ""
-"03120306.xhp\n"
-"hd_id3154285\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. 32BvU
 #: 03120306.xhp
 msgctxt ""
@@ -32553,15 +32310,6 @@ msgctxt ""
 "help.text"
 msgid "Mid (Text As String, Start As Long [, Length As Long]) or Mid (Text As String, Start As Long , Length As Long, Text As String)"
 msgstr "Mid (Text As String, Start As Long [, Length As Long]) or Mid (Text As String, Start As Long , Length As Long, Text As String)"
-
-#. Bw3Yb
-#: 03120306.xhp
-msgctxt ""
-"03120306.xhp\n"
-"hd_id3145068\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
 
 #. 5MG4F
 #: 03120306.xhp
@@ -32572,15 +32320,6 @@ msgctxt ""
 msgid "String (only by Function)"
 msgstr "Chaîne de caractères (fonction Mid uniquement)"
 
-#. rLmbA
-#: 03120306.xhp
-msgctxt ""
-"03120306.xhp\n"
-"hd_id3154347\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
-
 #. hRXCE
 #: 03120306.xhp
 msgctxt ""
@@ -32590,23 +32329,23 @@ msgctxt ""
 msgid "<emph>Text:</emph> Any string expression that you want to modify."
 msgstr "<emph>Text :</emph> expression au format chaîne de caractères à modifier."
 
-#. MkjPp
+#. DGPaB
 #: 03120306.xhp
 msgctxt ""
 "03120306.xhp\n"
 "par_id3150359\n"
 "help.text"
-msgid "<emph>Start: </emph>Numeric expression that indicates the character position within the string where the string portion that you want to replace or to return begins. The maximum allowed value is 65535."
-msgstr "<emph>Start : </emph>expression numérique indiquant la position des caractères dans la chaîne, au début de la partie de la chaîne que vous souhaitez remplacer ou renvoyer. La valeur maximale autorisée est 65 535."
+msgid "<emph>Start: </emph>Numeric expression that indicates the character position within the string where the string portion that you want to replace or to return begins. The minimum allowed value is 1. The maximum allowed value is 2,147,483,648."
+msgstr ""
 
-#. 49ArA
+#. dtyT5
 #: 03120306.xhp
 msgctxt ""
 "03120306.xhp\n"
 "par_id3148451\n"
 "help.text"
-msgid "<emph>Length:</emph> Numeric expression that returns the number of characters that you want to replace or return. The maximum allowed value is 65535."
-msgstr "<emph>Length :</emph> expression numérique renvoyant le nombre de caractères à remplacer ou à renvoyer. La valeur maximale autorisée est de 65 535."
+msgid "<emph>Length:</emph> Numeric expression that returns the number of characters that you want to replace or return. The maximum allowed value is 2,147,483,648."
+msgstr ""
 
 #. Cw9Ts
 #: 03120306.xhp
@@ -32634,15 +32373,6 @@ msgctxt ""
 "help.text"
 msgid "<emph>Text:</emph> The string to replace the string expression (<emph>Mid statement</emph>)."
 msgstr "<emph>Text :</emph> chaîne de caractères devant remplacer l'expression au format chaîne de caractères (<emph>instruction Mid</emph>)."
-
-#. jK3U3
-#: 03120306.xhp
-msgctxt ""
-"03120306.xhp\n"
-"hd_id3149560\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. NFDUA
 #: 03120306.xhp
@@ -32698,15 +32428,6 @@ msgctxt ""
 msgid "See also: <link href=\"text/sbasic/shared/03120303.xhp\" name=\"Left Function\">Left Function</link>."
 msgstr "Voir aussi : <link href=\"text/sbasic/shared/03120303.xhp\" name=\"Fonction Left\">Fonction Left</link>."
 
-#. Xy4Fw
-#: 03120307.xhp
-msgctxt ""
-"03120307.xhp\n"
-"hd_id3145315\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. A3Rzn
 #: 03120307.xhp
 msgctxt ""
@@ -32715,15 +32436,6 @@ msgctxt ""
 "help.text"
 msgid "Right (Text As String, n As Long)"
 msgstr "Right (Text As String, n As Long)"
-
-#. 8sZ7E
-#: 03120307.xhp
-msgctxt ""
-"03120307.xhp\n"
-"hd_id3145068\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
 
 #. SKQUo
 #: 03120307.xhp
@@ -32734,15 +32446,6 @@ msgctxt ""
 msgid "String"
 msgstr "Chaîne de caractères"
 
-#. CyX7H
-#: 03120307.xhp
-msgctxt ""
-"03120307.xhp\n"
-"hd_id3146795\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
-
 #. hErZb
 #: 03120307.xhp
 msgctxt ""
@@ -32752,14 +32455,14 @@ msgctxt ""
 msgid "<emph>Text:</emph> Any string expression that you want to return the rightmost characters of."
 msgstr "<emph>Text :</emph> expression au format chaîne de caractères dont les caractères le plus à droite sont à renvoyer."
 
-#. D8HQ5
+#. NwQkG
 #: 03120307.xhp
 msgctxt ""
 "03120307.xhp\n"
 "par_id3151211\n"
 "help.text"
-msgid "<emph>n:</emph> Numeric expression that defines the number of characters that you want to return. If <emph>n</emph> = 0, a zero-length string is returned. The maximum allowed value is 65535."
-msgstr "<emph>n :</emph> expression numérique définissant le nombre de caractères à renvoyer. Si <emph>n</emph> = 0, une chaîne de caractères de longueur zéro est renvoyée. La valeur maximale autorisée est 65 535."
+msgid "<emph>n:</emph> Numeric expression that defines the number of characters that you want to return. If <emph>n</emph> = 0, a zero-length string is returned. The maximum allowed value is 2,147,483,648."
+msgstr ""
 
 #. ezXrq
 #: 03120307.xhp
@@ -32769,15 +32472,6 @@ msgctxt ""
 "help.text"
 msgid "The following example converts a date in YYYY-MM-DD format to the US date format (MM/DD/YYYY)."
 msgstr "L'exemple suivant convertit une date au format AAAA-MM-JJ en une date au format américain (MM/JJ/AAAA)."
-
-#. wgEnG
-#: 03120307.xhp
-msgctxt ""
-"03120307.xhp\n"
-"hd_id3156212\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. ZbKt5
 #: 03120307.xhp
@@ -32824,15 +32518,6 @@ msgctxt ""
 msgid "Right-aligns a string within a string variable, or copies a user-defined variable type into another."
 msgstr "Aligne à droite une chaîne de caractères dans une variable de chaîne de caractères, ou copie un type de variable défini par l'utilisateur dans un autre."
 
-#. aHsZH
-#: 03120308.xhp
-msgctxt ""
-"03120308.xhp\n"
-"hd_id3149234\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. uDqvq
 #: 03120308.xhp
 msgctxt ""
@@ -32841,15 +32526,6 @@ msgctxt ""
 "help.text"
 msgid "RSet Text As String = Text or RSet Variable1 = Variable2"
 msgstr "RSet Text As String = Text ou RSet Variable1 = Variable2"
-
-#. tpDDD
-#: 03120308.xhp
-msgctxt ""
-"03120308.xhp\n"
-"hd_id3156024\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
 
 #. YfmCj
 #: 03120308.xhp
@@ -32913,15 +32589,6 @@ msgctxt ""
 "help.text"
 msgid "The following example uses the <emph>RSet</emph> and <emph>LSet</emph> statements to modify the left and right alignment of a string."
 msgstr "Dans l'exemple suivant, les instructions <emph>RSet</emph> et <emph>LSet</emph> permettent de modifier les alignements à droite et à gauche des caractères d'une chaîne."
-
-#. BdFxA
-#: 03120308.xhp
-msgctxt ""
-"03120308.xhp\n"
-"hd_id3154909\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. u4Dwb
 #: 03120308.xhp
@@ -32995,15 +32662,6 @@ msgctxt ""
 msgid "See also: <link href=\"text/sbasic/shared/03120305.xhp\" name=\"LTrim Function\">LTrim Function</link>"
 msgstr "Voir aussi : <link href=\"text/sbasic/shared/03120305.xhp\" name=\"Fonction LTrim.\">Fonction LTrim.</link>"
 
-#. z57JG
-#: 03120309.xhp
-msgctxt ""
-"03120309.xhp\n"
-"hd_id3154924\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. 3KFbV
 #: 03120309.xhp
 msgctxt ""
@@ -33012,15 +32670,6 @@ msgctxt ""
 "help.text"
 msgid "RTrim (Text As String)"
 msgstr "RTrim (Text As String)"
-
-#. qfPg6
-#: 03120309.xhp
-msgctxt ""
-"03120309.xhp\n"
-"hd_id3149457\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
 
 #. awasf
 #: 03120309.xhp
@@ -33031,15 +32680,6 @@ msgctxt ""
 msgid "String"
 msgstr "Chaîne de caractères"
 
-#. p2Uwz
-#: 03120309.xhp
-msgctxt ""
-"03120309.xhp\n"
-"hd_id3148798\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
-
 #. UW5Fx
 #: 03120309.xhp
 msgctxt ""
@@ -33048,15 +32688,6 @@ msgctxt ""
 "help.text"
 msgid "<emph>Text: </emph>Any string expression."
 msgstr "<emph>Text :</emph> expression au format chaîne de caractères."
-
-#. Tq2QX
-#: 03120309.xhp
-msgctxt ""
-"03120309.xhp\n"
-"hd_id3151041\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. qdGRW
 #: 03120310.xhp
@@ -33184,15 +32815,6 @@ msgctxt ""
 msgid "Removes all leading and trailing spaces from a string expression."
 msgstr "Supprime tous les espaces à gauche et à droite d'une expression au format chaîne de caractères."
 
-#. xTgNw
-#: 03120311.xhp
-msgctxt ""
-"03120311.xhp\n"
-"hd_id3159157\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. EEu5H
 #: 03120311.xhp
 msgctxt ""
@@ -33201,15 +32823,6 @@ msgctxt ""
 "help.text"
 msgid "Trim( Text As String )"
 msgstr "Trim( Text As String )"
-
-#. ZUuwF
-#: 03120311.xhp
-msgctxt ""
-"03120311.xhp\n"
-"hd_id3155388\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
 
 #. f9pGG
 #: 03120311.xhp
@@ -33220,15 +32833,6 @@ msgctxt ""
 msgid "String"
 msgstr "Chaîne de caractères"
 
-#. VwME3
-#: 03120311.xhp
-msgctxt ""
-"03120311.xhp\n"
-"hd_id3145609\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
-
 #. kLdYS
 #: 03120311.xhp
 msgctxt ""
@@ -33237,15 +32841,6 @@ msgctxt ""
 "help.text"
 msgid "<emph>Text:</emph> Any string expression."
 msgstr "<emph>Text :</emph> expression au format chaîne de caractères."
-
-#. 3GonF
-#: 03120311.xhp
-msgctxt ""
-"03120311.xhp\n"
-"hd_id3148663\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. ZBDyG
 #: 03120312.xhp
@@ -33283,15 +32878,6 @@ msgctxt ""
 msgid "Converts a system file name to a file URL."
 msgstr "Convertit un nom de fichier système en un URL de fichier."
 
-#. 7EFtr
-#: 03120312.xhp
-msgctxt ""
-"03120312.xhp\n"
-"hd_id3150669\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. zU9U9
 #: 03120312.xhp
 msgctxt ""
@@ -33300,15 +32886,6 @@ msgctxt ""
 "help.text"
 msgid "ConvertToURL(filename)"
 msgstr "ConvertToURL(NomFichier)"
-
-#. eq2Gx
-#: 03120312.xhp
-msgctxt ""
-"03120312.xhp\n"
-"hd_id3150984\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
 
 #. V6WhB
 #: 03120312.xhp
@@ -33319,15 +32896,6 @@ msgctxt ""
 msgid "String"
 msgstr "Chaîne de caractères"
 
-#. m42nR
-#: 03120312.xhp
-msgctxt ""
-"03120312.xhp\n"
-"hd_id3148550\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
-
 #. Dka3U
 #: 03120312.xhp
 msgctxt ""
@@ -33336,15 +32904,6 @@ msgctxt ""
 "help.text"
 msgid "<emph>Filename:</emph> A file name as string."
 msgstr "<emph>Filename :</emph> nom de fichier au format chaîne de caractères."
-
-#. iFPRX
-#: 03120312.xhp
-msgctxt ""
-"03120312.xhp\n"
-"hd_id3153361\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. AHBLc
 #: 03120312.xhp
@@ -33391,15 +32950,6 @@ msgctxt ""
 msgid "Converts a file URL to a system file name."
 msgstr "Convertit l'URL d'un fichier en un nom de fichier système."
 
-#. Gyuop
-#: 03120313.xhp
-msgctxt ""
-"03120313.xhp\n"
-"hd_id3143267\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. i96Ej
 #: 03120313.xhp
 msgctxt ""
@@ -33409,15 +32959,6 @@ msgctxt ""
 msgid "ConvertFromURL(filename)"
 msgstr "ConvertFromURL(NomFichier)"
 
-#. wq6Jz
-#: 03120313.xhp
-msgctxt ""
-"03120313.xhp\n"
-"hd_id3159157\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
-
 #. ESx7C
 #: 03120313.xhp
 msgctxt ""
@@ -33426,15 +32967,6 @@ msgctxt ""
 "help.text"
 msgid "String"
 msgstr "Chaîne de caractères"
-
-#. GmBuj
-#: 03120313.xhp
-msgctxt ""
-"03120313.xhp\n"
-"hd_id3143270\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
 
 #. 8R25b
 #: 03120313.xhp
@@ -33481,15 +33013,6 @@ msgctxt ""
 msgid "Returns an array of substrings from a string expression."
 msgstr "Renvoie une matrice de sous-chaînes à partir d'une expression au format chaîne de caractères."
 
-#. fqDbn
-#: 03120314.xhp
-msgctxt ""
-"03120314.xhp\n"
-"hd_id3149177\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. FGCEc
 #: 03120314.xhp
 msgctxt ""
@@ -33499,15 +33022,6 @@ msgctxt ""
 msgid "Split (Text As String, delimiter, number)"
 msgstr "Split (Text As String, delimiter, number)"
 
-#. XdWY5
-#: 03120314.xhp
-msgctxt ""
-"03120314.xhp\n"
-"hd_id3149763\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
-
 #. BNdCD
 #: 03120314.xhp
 msgctxt ""
@@ -33516,15 +33030,6 @@ msgctxt ""
 "help.text"
 msgid "String"
 msgstr "Chaîne de caractères"
-
-#. G7w77
-#: 03120314.xhp
-msgctxt ""
-"03120314.xhp\n"
-"hd_id3145315\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
 
 #. PRupM
 #: 03120314.xhp
@@ -33552,15 +33057,6 @@ msgctxt ""
 "help.text"
 msgid "<emph>number (optional):</emph> The number of substrings that you want to return."
 msgstr "<emph>number (facultatif) :</emph> nombre de sous-chaînes devant être renvoyées."
-
-#. XZAoD
-#: 03120314.xhp
-msgctxt ""
-"03120314.xhp\n"
-"hd_id3150398\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. 9qGtg
 #: 03120315.xhp
@@ -33598,15 +33094,6 @@ msgctxt ""
 msgid "Returns a string from a number of substrings in a string array."
 msgstr "Renvoie une chaîne de caractères à partir d'un certain nombre de sous-chaînes issues d'une matrice de chaînes de caractères."
 
-#. Tavaa
-#: 03120315.xhp
-msgctxt ""
-"03120315.xhp\n"
-"hd_id3159414\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaxe :"
-
 #. FrGPB
 #: 03120315.xhp
 msgctxt ""
@@ -33616,15 +33103,6 @@ msgctxt ""
 msgid "Join (Text As String Array, delimiter)"
 msgstr "Join (Text As String Array, delimiter)"
 
-#. zKGLo
-#: 03120315.xhp
-msgctxt ""
-"03120315.xhp\n"
-"hd_id3150400\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valeur de retour :"
-
 #. Sx96w
 #: 03120315.xhp
 msgctxt ""
@@ -33633,15 +33111,6 @@ msgctxt ""
 "help.text"
 msgid "String"
 msgstr "Chaîne de caractères"
-
-#. uMb7W
-#: 03120315.xhp
-msgctxt ""
-"03120315.xhp\n"
-"hd_id3148798\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Paramètres :"
 
 #. sEXB3
 #: 03120315.xhp
@@ -33660,15 +33129,6 @@ msgctxt ""
 "help.text"
 msgid "<emph>delimiter (optional):</emph> A string character that is used to separate the substrings in the resulting string. The default delimiter is the space character. If delimiter is a string of length zero \"\", the substrings are joined without separator."
 msgstr "<emph>delimiter (facultatif) :</emph> caractère utilisé pour délimiter les sous-chaînes dans la chaîne de caractères obtenue. Le séparateur par défaut est le caractère espace. Si le séparateur est une chaîne de caractères de longueur zéro (\"\"), les sous-chaînes sont reliées sans séparateur."
-
-#. rYFAB
-#: 03120315.xhp
-msgctxt ""
-"03120315.xhp\n"
-"hd_id3154218\n"
-"help.text"
-msgid "Example:"
-msgstr "Exemple :"
 
 #. u25ah
 #: 03120400.xhp
@@ -33787,14 +33247,14 @@ msgctxt ""
 msgid "Parameters:"
 msgstr "Paramètres :"
 
-#. jDRQw
+#. KqLff
 #: 03120401.xhp
 msgctxt ""
 "03120401.xhp\n"
 "par_id3153126\n"
 "help.text"
-msgid "<emph>Start: </emph>A numeric expression that marks the position in a string where the search for the specified substring starts. If you omit this parameter, the search starts at the first character of the string. The maximum allowed value is 65535."
-msgstr "<emph>Start : </emph>expression numérique permettant de repérer dans une chaîne la position du début de la recherche de la sous-chaîne spécifiée. Si ce paramètre est omis, la recherche commence au premier caractère de la chaîne. La valeur maximale autorisée est 65 535."
+msgid "<emph>Start: </emph>A numeric expression that marks the position in a string where the search for the specified substring starts. If you omit this parameter, the search starts at the first character of the string. The minimum allowed value is 1. The maximum allowed value is 2,147,483,648."
+msgstr ""
 
 #. SnP3c
 #: 03120401.xhp
@@ -42867,6 +42327,545 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">EDI %PRODUCTNAME Basic</link>"
+
+#~ msgctxt ""
+#~ "01020100.xhp\n"
+#~ "par_id3151393\n"
+#~ "help.text"
+#~ msgid "String variables can hold character strings with up to 65,535 characters. Each character is stored as the corresponding Unicode value. String variables are suitable for word processing within programs and for temporary storage of any non-printable character up to a maximum length of 64 Kbytes. The memory required for storing string variables depends on the number of characters in the variable. The type-declaration character is \"$\"."
+#~ msgstr "Les variables de chaîne peuvent comporter des chaînes de caractères allant jusqu'à 65 535 caractères. Chaque caractère est stocké sous la valeur Unicode correspondante. Les variables de chaîne peuvent être utilisées pour le traitement de texte à l'intérieur de programmes et pour le stockage temporaire de tout caractère non imprimable d'une longueur maximale de 64 kilo-octets. La mémoire nécessaire au stockage des variables de chaîne dépend du nombre de caractères de celles-ci. \"$\" constitue le caractère de déclaration de ce type."
+
+#~ msgctxt ""
+#~ "03030301.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "Date Statement"
+#~ msgstr "Instruction Date"
+
+#~ msgctxt ""
+#~ "03030301.xhp\n"
+#~ "bm_id3156027\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>Date statement</bookmark_value>"
+#~ msgstr "<bookmark_value>Date, instruction</bookmark_value>"
+
+#~ msgctxt ""
+#~ "03030301.xhp\n"
+#~ "hd_id3156027\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03030301.xhp\" name=\"Date Statement\">Date Statement</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03030301.xhp\" name=\"Instruction Date\">Instruction Date</link>"
+
+#~ msgctxt ""
+#~ "03030301.xhp\n"
+#~ "par_id3147291\n"
+#~ "help.text"
+#~ msgid "Returns the current system date as a string, or resets the date. The date format depends on your local system settings."
+#~ msgstr "Renvoie la date courante de l'ordinateur sous forme de chaîne de caractères ou réinitialise la date. Le format de date varie en fonction des paramètres définis pour votre système."
+
+#~ msgctxt ""
+#~ "03030301.xhp\n"
+#~ "hd_id3148686\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03030301.xhp\n"
+#~ "par_id3146794\n"
+#~ "help.text"
+#~ msgid "Date ; Date = Text As String"
+#~ msgstr "Date ; Date = Text As String"
+
+#~ msgctxt ""
+#~ "03030301.xhp\n"
+#~ "hd_id3154347\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03030301.xhp\n"
+#~ "par_id3145069\n"
+#~ "help.text"
+#~ msgid "<emph>Text:</emph> Only required in order to reset the system date. In this case, the string expression must correspond to the date format defined in your local settings."
+#~ msgstr "<emph>Text :</emph> pour réinitialiser la date de l'ordinateur uniquement. Dans ce cas, l'expression au format chaîne de caractères doit correspondre au format de date défini dans vos paramètres locaux."
+
+#~ msgctxt ""
+#~ "03030301.xhp\n"
+#~ "hd_id3150793\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03030302.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "Time Statement"
+#~ msgstr "Instruction Time"
+
+#~ msgctxt ""
+#~ "03030302.xhp\n"
+#~ "bm_id3145090\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>Time statement</bookmark_value>"
+#~ msgstr "<bookmark_value>Time, instruction</bookmark_value>"
+
+#~ msgctxt ""
+#~ "03030302.xhp\n"
+#~ "hd_id3145090\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03030302.xhp\">Time Statement</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03030302.xhp\">Instruction Time</link>"
+
+#~ msgctxt ""
+#~ "03030302.xhp\n"
+#~ "hd_id3154346\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03030302.xhp\n"
+#~ "hd_id3150792\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03030302.xhp\n"
+#~ "par_id3149656\n"
+#~ "help.text"
+#~ msgid "<emph>Text:</emph> Any string expression that specifies the new time in the format \"HH:MM:SS\"."
+#~ msgstr "<emph>Text :</emph> expression au format chaîne de caractères spécifiant la nouvelle heure au format \"HH:MM:SS\"."
+
+#~ msgctxt ""
+#~ "03030302.xhp\n"
+#~ "hd_id3145173\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120201.xhp\n"
+#~ "par_id3143228\n"
+#~ "help.text"
+#~ msgid "<emph>n:</emph> Numeric expression that defines the number of spaces in the string. The maximum allowed value of <emph>n</emph> is 65535."
+#~ msgstr "<emph>n :</emph> expression numérique définissant le nombre d'espaces de la chaîne de caractères. La valeur maximale autorisée pour <emph>n</emph> est 65535."
+
+#~ msgctxt ""
+#~ "03120202.xhp\n"
+#~ "hd_id3149516\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120202.xhp\n"
+#~ "hd_id3143270\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120202.xhp\n"
+#~ "hd_id3154923\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120202.xhp\n"
+#~ "par_id3154347\n"
+#~ "help.text"
+#~ msgid "<emph>n:</emph> Numeric expression that indicates the number of characters to return in the string. The maximum allowed value of n is 65535."
+#~ msgstr "<emph>n :</emph> expression numérique indiquant le nombre de caractères à renvoyer dans la chaîne. La valeur maximale autorisée pour n est 65 535."
+
+#~ msgctxt ""
+#~ "03120202.xhp\n"
+#~ "hd_id3152920\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120301.xhp\n"
+#~ "hd_id3145090\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120301.xhp\n"
+#~ "hd_id3149178\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120301.xhp\n"
+#~ "hd_id3159176\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120301.xhp\n"
+#~ "hd_id3149019\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120303.xhp\n"
+#~ "hd_id3156153\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120303.xhp\n"
+#~ "hd_id3153824\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120303.xhp\n"
+#~ "hd_id3148946\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120303.xhp\n"
+#~ "par_id3149456\n"
+#~ "help.text"
+#~ msgid "<emph>n:</emph> Numeric expression that specifies the number of characters that you want to return. If <emph>n</emph> = 0, a zero-length string is returned. The maximum allowed value is 65535."
+#~ msgstr "<emph>n :</emph> expression numérique spécifiant le nombre de caractères à renvoyer. Si <emph>n</emph> = 0, une chaîne de caractères de longueur zéro est renvoyée. La valeur maximale autorisée est 65 535."
+
+#~ msgctxt ""
+#~ "03120303.xhp\n"
+#~ "hd_id3125863\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120304.xhp\n"
+#~ "hd_id3145317\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120304.xhp\n"
+#~ "hd_id3143271\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120304.xhp\n"
+#~ "hd_id3156282\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120305.xhp\n"
+#~ "hd_id3154924\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120305.xhp\n"
+#~ "hd_id3156344\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120305.xhp\n"
+#~ "hd_id3150543\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120305.xhp\n"
+#~ "hd_id3145419\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120306.xhp\n"
+#~ "hd_id3154285\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120306.xhp\n"
+#~ "hd_id3145068\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120306.xhp\n"
+#~ "hd_id3154347\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120306.xhp\n"
+#~ "par_id3150359\n"
+#~ "help.text"
+#~ msgid "<emph>Start: </emph>Numeric expression that indicates the character position within the string where the string portion that you want to replace or to return begins. The maximum allowed value is 65535."
+#~ msgstr "<emph>Start : </emph>expression numérique indiquant la position des caractères dans la chaîne, au début de la partie de la chaîne que vous souhaitez remplacer ou renvoyer. La valeur maximale autorisée est 65 535."
+
+#~ msgctxt ""
+#~ "03120306.xhp\n"
+#~ "par_id3148451\n"
+#~ "help.text"
+#~ msgid "<emph>Length:</emph> Numeric expression that returns the number of characters that you want to replace or return. The maximum allowed value is 65535."
+#~ msgstr "<emph>Length :</emph> expression numérique renvoyant le nombre de caractères à remplacer ou à renvoyer. La valeur maximale autorisée est de 65 535."
+
+#~ msgctxt ""
+#~ "03120306.xhp\n"
+#~ "hd_id3149560\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120307.xhp\n"
+#~ "hd_id3145315\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120307.xhp\n"
+#~ "hd_id3145068\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120307.xhp\n"
+#~ "hd_id3146795\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120307.xhp\n"
+#~ "par_id3151211\n"
+#~ "help.text"
+#~ msgid "<emph>n:</emph> Numeric expression that defines the number of characters that you want to return. If <emph>n</emph> = 0, a zero-length string is returned. The maximum allowed value is 65535."
+#~ msgstr "<emph>n :</emph> expression numérique définissant le nombre de caractères à renvoyer. Si <emph>n</emph> = 0, une chaîne de caractères de longueur zéro est renvoyée. La valeur maximale autorisée est 65 535."
+
+#~ msgctxt ""
+#~ "03120307.xhp\n"
+#~ "hd_id3156212\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120308.xhp\n"
+#~ "hd_id3149234\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120308.xhp\n"
+#~ "hd_id3156024\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120308.xhp\n"
+#~ "hd_id3154909\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120309.xhp\n"
+#~ "hd_id3154924\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120309.xhp\n"
+#~ "hd_id3149457\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120309.xhp\n"
+#~ "hd_id3148798\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120309.xhp\n"
+#~ "hd_id3151041\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120311.xhp\n"
+#~ "hd_id3159157\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120311.xhp\n"
+#~ "hd_id3155388\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120311.xhp\n"
+#~ "hd_id3145609\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120311.xhp\n"
+#~ "hd_id3148663\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120312.xhp\n"
+#~ "hd_id3150669\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120312.xhp\n"
+#~ "hd_id3150984\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120312.xhp\n"
+#~ "hd_id3148550\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120312.xhp\n"
+#~ "hd_id3153361\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120313.xhp\n"
+#~ "hd_id3143267\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120313.xhp\n"
+#~ "hd_id3159157\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120313.xhp\n"
+#~ "hd_id3143270\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120314.xhp\n"
+#~ "hd_id3149177\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120314.xhp\n"
+#~ "hd_id3149763\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120314.xhp\n"
+#~ "hd_id3145315\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120314.xhp\n"
+#~ "hd_id3150398\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120315.xhp\n"
+#~ "hd_id3159414\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgctxt ""
+#~ "03120315.xhp\n"
+#~ "hd_id3150400\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valeur de retour :"
+
+#~ msgctxt ""
+#~ "03120315.xhp\n"
+#~ "hd_id3148798\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Paramètres :"
+
+#~ msgctxt ""
+#~ "03120315.xhp\n"
+#~ "hd_id3154218\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Exemple :"
+
+#~ msgctxt ""
+#~ "03120401.xhp\n"
+#~ "par_id3153126\n"
+#~ "help.text"
+#~ msgid "<emph>Start: </emph>A numeric expression that marks the position in a string where the search for the specified substring starts. If you omit this parameter, the search starts at the first character of the string. The maximum allowed value is 65535."
+#~ msgstr "<emph>Start : </emph>expression numérique permettant de repérer dans une chaîne la position du début de la recherche de la sous-chaîne spécifiée. Si ce paramètre est omis, la recherche commence au premier caractère de la chaîne. La valeur maximale autorisée est 65 535."
 
 #~ msgctxt ""
 #~ "03090103.xhp\n"
