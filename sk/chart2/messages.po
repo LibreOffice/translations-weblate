@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-09-07 17:17+0200\n"
-"PO-Revision-Date: 2020-09-09 17:34+0000\n"
+"PO-Revision-Date: 2020-09-10 10:40+0000\n"
 "Last-Translator: Miloš Šrámek <msramek22@gmail.com>\n"
 "Language-Team: Slovak <https://weblate.documentfoundation.org/projects/libo_ui-master/chart2messages/sk/>\n"
 "Language: sk\n"
@@ -62,7 +62,7 @@ msgstr "Stupňové spojnice"
 #: chart2/inc/strings.hrc:27
 msgctxt "STR_DLG_REMOVE_DATA_TABLE"
 msgid "This chart currently contains an internal data table. Do you want to proceed, deleting the internal data table, and set a new data range?"
-msgstr "Tento graf obsahuje internú tabuľku s údajmi. Chcete pokračovať, pričom sa interná tabuľka zmaže a vytvorí sa nová oblasť údajov?"
+msgstr "Tento graf obsahuje internú tabuľku s dátami. Chcete pokračovať, pričom sa interná tabuľka zmaže a vytvorí sa nová dátová oblasť?"
 
 #. E2JCT
 #: chart2/inc/strings.hrc:28
@@ -74,7 +74,7 @@ msgstr "Typ grafu"
 #: chart2/inc/strings.hrc:29
 msgctxt "STR_PAGE_DATA_RANGE"
 msgid "Data Range"
-msgstr "Oblasť údajov"
+msgstr "Dátová oblasť"
 
 #. uxZuD
 #: chart2/inc/strings.hrc:30
@@ -380,7 +380,7 @@ msgstr "Údajový bod"
 #: chart2/inc/strings.hrc:80
 msgctxt "STR_OBJECT_DATAPOINTS"
 msgid "Data Points"
-msgstr "Údajové body"
+msgstr "Dátové body"
 
 #. CqWnU
 #: chart2/inc/strings.hrc:81
@@ -392,13 +392,13 @@ msgstr "Kľúč legendy"
 #: chart2/inc/strings.hrc:82
 msgctxt "STR_OBJECT_DATASERIES"
 msgid "Data Series"
-msgstr "Rad údajov"
+msgstr "Dátový rad"
 
 #. Zf7DA
 #: chart2/inc/strings.hrc:83
 msgctxt "STR_OBJECT_DATASERIES_PLURAL"
 msgid "Data Series"
-msgstr "Rad údajov"
+msgstr "Dátový rad"
 
 #. 3G9WG
 #: chart2/inc/strings.hrc:84
@@ -500,7 +500,7 @@ msgstr "Kresby"
 #: chart2/inc/strings.hrc:100
 msgctxt "STR_TIP_DATASERIES"
 msgid "Data Series '%SERIESNAME'"
-msgstr "Rad údajov '%SERIESNAME'"
+msgstr "Dátový rad '%SERIESNAME'"
 
 #. LDsiQ
 #: chart2/inc/strings.hrc:101
@@ -518,7 +518,7 @@ msgstr "Hodnoty: %POINTVALUES"
 #: chart2/inc/strings.hrc:103
 msgctxt "STR_TIP_DATAPOINT"
 msgid "Data Point %POINTNUMBER, data series %SERIESNUMBER, values: %POINTVALUES"
-msgstr "Údajový bod %POINTNUMBER, rad údajov %SERIESNUMBER, hodnoty: %POINTVALUES"
+msgstr "Údajový bod %POINTNUMBER, dátový rad %SERIESNUMBER, hodnoty: %POINTVALUES"
 
 #. eKDAq
 #: chart2/inc/strings.hrc:104
@@ -542,7 +542,7 @@ msgstr "Kruhový graf rozložený o veľkosť o %PERCENTVALUE percent"
 #: chart2/inc/strings.hrc:107
 msgctxt "STR_OBJECT_FOR_SERIES"
 msgid "%OBJECTNAME for Data Series '%SERIESNAME'"
-msgstr "%OBJECTNAME pre rad údajov '%SERIESNAME'"
+msgstr "%OBJECTNAME pre dátový rad '%SERIESNAME'"
 
 #. VVB54
 #: chart2/inc/strings.hrc:108
@@ -560,7 +560,7 @@ msgstr "Upraviť typ grafu"
 #: chart2/inc/strings.hrc:110
 msgctxt "STR_ACTION_EDIT_DATA_RANGES"
 msgid "Edit data ranges"
-msgstr "Upraviť oblasti údajov"
+msgstr "Upraviť dátové oblasti"
 
 #. RmtWN
 #: chart2/inc/strings.hrc:111
@@ -1206,7 +1206,7 @@ msgstr "Typ grafu"
 #: chart2/uiconfig/ui/datarangedialog.ui:8
 msgctxt "datarangedialog|DataRangeDialog"
 msgid "Data Ranges"
-msgstr "Oblasti údajov"
+msgstr "Dátové oblasti"
 
 #. PqEvS
 #: chart2/uiconfig/ui/datarangedialog.ui:124
@@ -1662,7 +1662,7 @@ msgstr "Vložte adresu oblasti, z ktorej sa má získať kladná chybová hodnot
 #: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:509
 msgctxt "dlg_InsertErrorBars|IB_RANGE_POSITIVE|tooltip_text"
 msgid "Select data range"
-msgstr "Vybrať oblasť údajov"
+msgstr "Vybrať dátovú oblasť"
 
 #. JYk3c
 #: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:513
@@ -1692,7 +1692,7 @@ msgstr "Vložte adresu oblasti, z ktorej sa má získať záporná chybová hodn
 #: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:590
 msgctxt "dlg_InsertErrorBars|IB_RANGE_NEGATIVE|tooltip_text"
 msgid "Select data range"
-msgstr "Vybrať oblasť údajov"
+msgstr "Vybrať dátovú oblasť"
 
 #. mEwUr
 #: chart2/uiconfig/ui/dlg_InsertErrorBars.ui:594
@@ -2514,13 +2514,13 @@ msgstr "Sekundárna os Y"
 #: chart2/uiconfig/ui/sidebarseries.ui:261
 msgctxt "sidebarseries|axis_label"
 msgid "Align Series to Axis"
-msgstr "Zarovnať rad údajov na os"
+msgstr "Zarovnať dátový rad na os"
 
 #. fvnkG
 #: chart2/uiconfig/ui/sidebarseries.ui:277
 msgctxt "sidebarseries|label_series_tmpl"
 msgid "Data series '%1'"
-msgstr "Rad údajov '%1'"
+msgstr "Dátový rad '%1'"
 
 #. mZfrk
 #: chart2/uiconfig/ui/sidebartype.ui:81
@@ -3798,19 +3798,19 @@ msgstr "Položka legendy"
 #: chart2/uiconfig/ui/tp_DataSource.ui:18
 msgctxt "tp_DataSource|imageIMB_RANGE_CAT|tooltip_text"
 msgid "Select data range"
-msgstr "Vybrať oblasť údajov"
+msgstr "Vybrať dátovú oblasť"
 
 #. kEnRN
 #: chart2/uiconfig/ui/tp_DataSource.ui:24
 msgctxt "tp_DataSource|imageIMB_RANGE_MAIN|tooltip_text"
 msgid "Select data range"
-msgstr "Vybrať oblasť údajov"
+msgstr "Vybrať dátovú oblasť"
 
 #. 2iNp6
 #: chart2/uiconfig/ui/tp_DataSource.ui:70
 msgctxt "tp_DataSource|FT_SERIES"
 msgid "Data _series:"
-msgstr "~Rad údajov:"
+msgstr "~Dátový rad:"
 
 #. oFoeg
 #: chart2/uiconfig/ui/tp_DataSource.ui:113
@@ -3924,7 +3924,7 @@ msgstr "Zobrazuje zdrojový rozsah pre kategórie (texty, ktoré sa zobrazia na 
 #: chart2/uiconfig/ui/tp_DataSource.ui:468
 msgctxt "tp_DataSource|FT_CAPTION_FOR_WIZARD"
 msgid "Customize Data Ranges for Individual Data Series"
-msgstr "Prispôsobiť oblasti údajov pre jednotlivé rady údajov"
+msgstr "Prispôsobiť dátové oblasti pre jednotlivé rady údajov"
 
 #. tGqhN
 #: chart2/uiconfig/ui/tp_ErrorBars.ui:57
@@ -4080,7 +4080,7 @@ msgstr "Vložte adresu oblasti, z ktorej sa má získať kladná chybová hodnot
 #: chart2/uiconfig/ui/tp_ErrorBars.ui:449
 msgctxt "tp_ErrorBars|IB_RANGE_POSITIVE|tooltip_text"
 msgid "Select data range"
-msgstr "Vybrať oblasť údajov"
+msgstr "Vybrať dátovú oblasť"
 
 #. QYRko
 #: chart2/uiconfig/ui/tp_ErrorBars.ui:453
@@ -4110,7 +4110,7 @@ msgstr "Vložte adresu oblasti, z ktorej sa má získať záporná chybová hodn
 #: chart2/uiconfig/ui/tp_ErrorBars.ui:529
 msgctxt "tp_ErrorBars|IB_RANGE_NEGATIVE|tooltip_text"
 msgid "Select data range"
-msgstr "Vybrať oblasť údajov"
+msgstr "Vybrať dátovú oblasť"
 
 #. oEACZ
 #: chart2/uiconfig/ui/tp_ErrorBars.ui:533
@@ -4302,19 +4302,19 @@ msgstr "Možnosti diagramu"
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:8
 msgctxt "tp_RangeChooser|imageIB_RANGE|tooltip_text"
 msgid "Select data range"
-msgstr "Vybrať oblasť údajov"
+msgstr "Vybrať dátovú oblasť"
 
 #. 4zh42
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:26
 msgctxt "tp_RangeChooser|FT_CAPTION_FOR_WIZARD"
 msgid "Choose a Data Range"
-msgstr "Vybrať oblasť údajov"
+msgstr "Vybrať dátovú oblasť"
 
 #. g2XVd
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:47
 msgctxt "tp_RangeChooser|FT_RANGE"
 msgid "_Data range:"
-msgstr "_Oblasť údajov:"
+msgstr "_Dátová oblasť:"
 
 #. WKLi7
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:65
@@ -4326,7 +4326,7 @@ msgstr "Zadajte rozsah dát, ktorý chcete použiť v grafe. V Calc kliknite na 
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:79
 msgctxt "tp_RangeChooser|IB_RANGE|tooltip_text"
 msgid "Select data range"
-msgstr "Vybrať oblasť údajov"
+msgstr "Vybrať dátovú oblasť"
 
 #. FVivY
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:83
@@ -4338,7 +4338,7 @@ msgstr "Zadajte rozsah dát, ktorý chcete použiť v grafe. V Calc kliknite na 
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:100
 msgctxt "tp_RangeChooser|RB_DATAROWS"
 msgid "Data series in _rows"
-msgstr "Rad údajov v _riadkoch"
+msgstr "Dátový rad v _riadkoch"
 
 #. w6DuB
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:110
@@ -4350,7 +4350,7 @@ msgstr "Dátové rady získavajú údaje z po sebe idúcich riadkov v určenom r
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:121
 msgctxt "tp_RangeChooser|RB_DATACOLS"
 msgid "Data series in _columns"
-msgstr "Rad údajov v stĺp_coch"
+msgstr "Dátový rad v stĺp_coch"
 
 #. RfFZF
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:131
@@ -4404,7 +4404,7 @@ msgstr "Koncový index tabuľky"
 #: chart2/uiconfig/ui/tp_RangeChooser.ui:274
 msgctxt "tp_RangeChooser|STR_PAGE_DATA_RANGE"
 msgid "Data Range"
-msgstr "Oblasť údajov"
+msgstr "Dátová oblasť"
 
 #. YfF4A
 #: chart2/uiconfig/ui/tp_Scale.ui:59
@@ -4653,7 +4653,7 @@ msgstr "Zmení mierku osi Y. Táto os je viditeľná len ak je k nej priradený 
 #: chart2/uiconfig/ui/tp_SeriesToAxis.ui:93
 msgctxt "tp_SeriesToAxis|label1"
 msgid "Align Data Series to"
-msgstr "Zarovnať rad údajov k"
+msgstr "Zarovnať dátový rad k"
 
 #. GAF6S
 #: chart2/uiconfig/ui/tp_SeriesToAxis.ui:135
