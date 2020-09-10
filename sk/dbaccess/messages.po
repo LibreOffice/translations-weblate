@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-08-25 16:09+0200\n"
-"PO-Revision-Date: 2020-09-10 10:40+0000\n"
+"PO-Revision-Date: 2020-09-10 20:35+0000\n"
 "Last-Translator: Miloš Šrámek <msramek22@gmail.com>\n"
 "Language-Team: Slovak <https://weblate.documentfoundation.org/projects/libo_ui-master/dbaccessmessages/sk/>\n"
 "Language: sk\n"
@@ -50,19 +50,19 @@ msgstr "Tabuľka $name$ už existuje. Nie je viditeľná, pretože bola odfiltro
 #: dbaccess/inc/strings.hrc:26
 msgctxt "RID_STR_COULDNOTCONNECT_UNSPECIFIED"
 msgid "The connection to the external data source could not be established. An unknown error occurred. The driver is probably defective."
-msgstr "Spojenie k externému zdroju údajov nemohlo byť vytvorené. Objavila sa neznáma chyba. Driver je pravdepodobne chybný."
+msgstr "Spojenie s externým dátovým zdrojom nemohlo byť vytvorené. Objavila sa neznáma chyba. Ovládač je pravdepodobne chybný."
 
 #. XdFHe
 #: dbaccess/inc/strings.hrc:27
 msgctxt "RID_STR_COULDNOTCONNECT_NODRIVER"
 msgid "The connection to the external data source could not be established. No SDBC driver was found for the URL '$name$'."
-msgstr "Nepodarilo sa vytvoriť pripojenie k externému zdroju údajov. Pre URL '$name$' nebol nájdený SDBC ovládač."
+msgstr "Nepodarilo sa vytvoriť spojenie s externým dátovým zdrojom. Pre URL '$name$' nebol nájdený SDBC ovládač."
 
 #. HFLkw
 #: dbaccess/inc/strings.hrc:28
 msgctxt "RID_STR_COULDNOTLOAD_MANAGER"
 msgid "The connection to the external data source could not be established. The SDBC driver manager could not be loaded."
-msgstr "Spojenie k externému zdroju údajov nemohlo byť vytvorené. Nemohol byť spustený SDBC driver manager."
+msgstr "Spojenie s externým dátovým zdrojom nemohlo byť vytvorené. Nemohol byť spustený SDBC driver manager."
 
 #. PzEVD
 #: dbaccess/inc/strings.hrc:29
@@ -319,7 +319,7 @@ msgid ""
 "Error accessing data source '$name$':\n"
 "$error$"
 msgstr ""
-"Chyba v prístupe k zdroju údajov '$name$':\n"
+"Chyba v prístupe k dátovému zdroju '$name$':\n"
 "$error$"
 
 #. ALTav
@@ -668,7 +668,7 @@ msgstr "Prajete si vytvoriť namiesto toho dotaz?"
 #: dbaccess/inc/strings.hrc:128
 msgctxt "STR_DATASOURCE_DELETED"
 msgid "The corresponding data source has been deleted. Therefore, data relevant to that data source cannot be saved."
-msgstr "Zodpovedajúci dátový zdroj bol odstránený. Z tohto dôvodu údaje zodpovedajúce tomuto zdroju nemôžu byť uložené."
+msgstr "Zodpovedajúci dátový zdroj bol odstránený. Z tohto dôvodu dáta zodpovedajúce tomuto zdroju nemôžu byť uložené."
 
 #. r9TeF
 #: dbaccess/inc/strings.hrc:129
@@ -759,7 +759,7 @@ msgstr "~Kopírovať"
 #: dbaccess/inc/strings.hrc:146
 msgctxt "RID_STR_UNDO_MODIFY_RECORD"
 msgid "Undo: Data Input"
-msgstr "Späť: vstup údajov"
+msgstr "Späť: vstup dát"
 
 #. NeA2w
 #: dbaccess/inc/strings.hrc:147
@@ -939,7 +939,7 @@ msgstr "Sprievodca vás prevedie potrebnými krokmi na vytvorenie dotazu."
 #: dbaccess/inc/strings.hrc:178
 msgctxt "RID_STR_TABLES_HELP_TEXT_DESIGN"
 msgid "Create a table by specifying the field names and properties, as well as the data types."
-msgstr "Vytvoriť tabuľku zadaním názvov polí, ich vlastností a typov údajov."
+msgstr "Vytvoriť tabuľku zadaním názvov polí, ich vlastností a dátových typov."
 
 #. ctDmY
 #: dbaccess/inc/strings.hrc:179
@@ -1089,7 +1089,7 @@ msgstr "Vložiť ako"
 #: dbaccess/inc/strings.hrc:207
 msgctxt "STR_QUERY_BRW_DELETE_ROWS"
 msgid "Do you want to delete the selected data?"
-msgstr "Chcete odstrániť vybrané údaje?"
+msgstr "Chcete odstrániť vybrané dáta?"
 
 #. AMTEz
 #: dbaccess/inc/strings.hrc:208
@@ -1179,7 +1179,7 @@ msgstr "Nebol nájdený formát tabuľky."
 #: dbaccess/inc/strings.hrc:222
 msgctxt "STR_COULDNOTCONNECT_DATASOURCE"
 msgid "The connection to the data source \"$name$\" could not be established."
-msgstr "Spojenie so zdrojom údajov \"$name$\" nemohlo byť vytvorené."
+msgstr "Spojenie s dátovým zdrojom \"$name$\" nemohlo byť vytvorené."
 
 #. CmzsA
 #: dbaccess/inc/strings.hrc:224
@@ -1298,7 +1298,7 @@ msgid ""
 msgstr ""
 "Vložte predvolenú hodnotu pre toto pole.\n"
 "\n"
-"Keď neskôr budete vkladať údaje do tabuľky, tento reťazec sa použije v každom novom zázname pre toto pole. Musí preto zodpovedať formátu bunky, do ktorej bude dole vložený."
+"Keď neskôr budete vkladať dáta do tabuľky, tento reťazec sa použije v každom novom zázname pre toto pole. Musí preto zodpovedať formátu bunky, do ktorej bude dole vložený."
 
 #. hwwVA
 #: dbaccess/inc/strings.hrc:243
@@ -1321,9 +1321,9 @@ msgid ""
 "If decimal fields, then the maximum length of the number to be entered, if binary fields, then the length of the data block.\n"
 "The value will be corrected accordingly when it exceeds the maximum for this database."
 msgstr ""
-"Zadajte dĺžku, ktorú môžu mať údaje v tomto poli.\n"
+"Zadajte dĺžku, ktorú môžu mať dáta v tomto poli.\n"
 "\n"
-"Ak ide o decimálne polia, vložte maximálnu dĺžku číslice, ktorá môže byť vložená. Ak ide o binárne polia, tak dĺžku bloku údajov.\n"
+"Ak ide o decimálne polia, vložte maximálnu dĺžku čísla, ktoré môže byť vložené. Ak ide o binárne polia, tak dĺžku bloku dát.\n"
 "Hodnota bude upravená, ak presahuje hodnotu, ktorá je pre túto databázu maximálna."
 
 #. BY4V7
@@ -1336,13 +1336,13 @@ msgstr "Zadajte počet desatinných miest povolených v tomto poli."
 #: dbaccess/inc/strings.hrc:247
 msgctxt "STR_HELP_FORMAT_CODE"
 msgid "This is where you see how the data would be displayed in the current format (use the button on the right to modify the format)."
-msgstr "Tu môžete vidieť ako budú zobrazené údaje v súčasnom formáte (použite tlačidlo vpravo ak chcete meniť formát)."
+msgstr "Tu môžete vidieť ako budú zobrazené dáta v súčasnom formáte (použite tlačidlo vpravo ak chcete meniť formát)."
 
 #. eV4sD
 #: dbaccess/inc/strings.hrc:248
 msgctxt "STR_HELP_FORMAT_BUTTON"
 msgid "This is where you determine the output format of the data."
-msgstr "Tu môžete určiť výstupný formát údajov."
+msgstr "Tu môžete určiť výstupný formát dát."
 
 #. Y5q39
 #: dbaccess/inc/strings.hrc:249
@@ -1354,7 +1354,7 @@ msgid ""
 msgstr ""
 "Zvoľte, ak sa hodnota poľa má automaticky zvyšovať.\n"
 "\n"
-"Do poľa tohto typu nemožno vkladať údaje. Do každého nového záznamu bude automaticky vložená hodnota, ktorá je vyššia ako hodnota v predchádzajúcom zázname."
+"Do poľa tohto typu nemožno vkladať dáta. Do každého nového záznamu bude automaticky vložená hodnota, ktorá je vyššia ako hodnota v predchádzajúcom zázname."
 
 #. 5uQpF
 #: dbaccess/inc/strings.hrc:250
@@ -1424,7 +1424,7 @@ msgid ""
 "Should a primary key be created now?"
 msgstr ""
 "Na identifikáciu záznamov v tejto databáze je potrebný jednoznačný index alebo primárny kľúč. \n"
-"Do tejto tabuľky možno vkladať údaje iba ak je splnená niektorá z týchto podmienok. \n"
+"Do tejto tabuľky možno vkladať dáta iba ak je splnená niektorá z týchto podmienok. \n"
 "\n"
 "Má byť teraz vytvorený primárny kľúč?"
 
@@ -1709,7 +1709,7 @@ msgstr "Súbor \"$file$\" neexistuje."
 #: dbaccess/inc/strings.hrc:307
 msgctxt "STR_WARNINGS_DURING_CONNECT"
 msgid "Warnings were encountered while connecting to the data source. Press \"$buttontext$\" to view them."
-msgstr "Pri pripájaní k zdroju údajov sa objavili varovania. Stlačte \"$buttontext$\" pre ich zobrazenie."
+msgstr "Pri pripájaní k zdroju dát sa objavili varovania. Stlačte \"$buttontext$\" pre ich zobrazenie."
 
 #. cGJja
 #: dbaccess/inc/strings.hrc:308
@@ -1774,19 +1774,19 @@ msgstr "Názov tabuľky"
 #: dbaccess/inc/strings.hrc:320
 msgctxt "STR_TABLE_PRIV_INSERT"
 msgid "Insert data"
-msgstr "Vložiť údaje"
+msgstr "Vložiť dáta"
 
 #. nLFJd
 #: dbaccess/inc/strings.hrc:321
 msgctxt "STR_TABLE_PRIV_DELETE"
 msgid "Delete data"
-msgstr "Odstrániť údaje"
+msgstr "Odstrániť dáta"
 
 #. eGEDE
 #: dbaccess/inc/strings.hrc:322
 msgctxt "STR_TABLE_PRIV_UPDATE"
 msgid "Modify data"
-msgstr "Upraviť údaje"
+msgstr "Upraviť dáta"
 
 #. e2bxV
 #: dbaccess/inc/strings.hrc:323
@@ -1798,7 +1798,7 @@ msgstr "Zmeniť štruktúru"
 #: dbaccess/inc/strings.hrc:324
 msgctxt "STR_TABLE_PRIV_SELECT"
 msgid "Read data"
-msgstr "Čítať údaje"
+msgstr "Čítať dáta"
 
 #. UsMj8
 #: dbaccess/inc/strings.hrc:325
@@ -1970,7 +1970,7 @@ msgstr "Tento názov tabuľky nie je v tejto databáze platný."
 #: dbaccess/inc/strings.hrc:354
 msgctxt "STR_SUGGEST_APPEND_TABLE_DATA"
 msgid "Choose the option 'Append data' on the first page to append data to an existing table."
-msgstr "Ak chcete k existujúcej tabuľke pridať údaje, vyberte možnosť 'Pridať údaje' na prvej strane."
+msgstr "Ak chcete k existujúcej tabuľke pridať dáta, vyberte možnosť 'Pridať dáta' na prvej strane."
 
 #. XbmVN
 #: dbaccess/inc/strings.hrc:355
@@ -2424,7 +2424,7 @@ msgstr "Cieľová databáza nepodporuje primárne kľúče."
 #: dbaccess/inc/strings.hrc:433
 msgctxt "STR_CTW_INVALID_DATA_ACCESS_DESCRIPTOR"
 msgid "no data access descriptor found, or no data access descriptor able to provide all necessary information"
-msgstr "nenájdený popis prístupu údajov, alebo žiaden popis prístupu údajov neposkytol všetky potrebné informácie"
+msgstr "nenájdený deskriptor prístupu k dátam, alebo žiaden deskriptor prístupu k dátam neposkytol všetky potrebné informácie"
 
 #. Z4JFe
 #: dbaccess/inc/strings.hrc:434
@@ -2668,7 +2668,7 @@ msgstr "_Znaková sada:"
 #: dbaccess/uiconfig/ui/autocharsetpage.ui:67
 msgctxt "autocharsetpage|charsetheader"
 msgid "Data Conversion"
-msgstr "Konverzia údajov"
+msgstr "Konverzia dát"
 
 #. fw3s6
 #: dbaccess/uiconfig/ui/choosedatasourcedialog.ui:16
@@ -2830,7 +2830,7 @@ msgstr "Overiť pripojenie"
 #: dbaccess/uiconfig/ui/copytablepage.ui:35
 msgctxt "copytablepage|defdata"
 msgid "De_finition and data"
-msgstr "_Definície a údaje"
+msgstr "_Definície a dáta"
 
 #. SVMDA
 #: dbaccess/uiconfig/ui/copytablepage.ui:51
@@ -2848,7 +2848,7 @@ msgstr "_Ako náhľad tabuľky"
 #: dbaccess/uiconfig/ui/copytablepage.ui:83
 msgctxt "copytablepage|data"
 msgid "Append _data"
-msgstr "_Pridať údaje"
+msgstr "_Pridať dáta"
 
 #. 8FEcc
 #: dbaccess/uiconfig/ui/copytablepage.ui:99
@@ -2926,7 +2926,7 @@ msgstr "_Znaková sada:"
 #: dbaccess/uiconfig/ui/dbasepage.ui:67
 msgctxt "dbasepage|charsetheader"
 msgid "Data Conversion"
-msgstr "Konverzia údajov"
+msgstr "Konverzia dát"
 
 #. jH7nJ
 #: dbaccess/uiconfig/ui/dbasepage.ui:103
@@ -3315,7 +3315,7 @@ msgstr "Pomocou Sprievodcu databázou môžete vytvoriť novú databázu, otvori
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:49
 msgctxt "generalpagewizard|sourceTypeHeader"
 msgid "What do you want to do?"
-msgstr "Čo si prajete urobiť?"
+msgstr "Čo chcete urobiť?"
 
 #. M3vFA
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:60
@@ -3399,7 +3399,7 @@ msgstr "_Znaková sada:"
 #: dbaccess/uiconfig/ui/generalspecialjdbcdetailspage.ui:236
 msgctxt "generalspecialjdbcdetailspage|charsetheader"
 msgid "Data Conversion"
-msgstr "Konverzia údajov"
+msgstr "Konverzia dát"
 
 #. hLDiy
 #: dbaccess/uiconfig/ui/generatedvaluespage.ui:29
@@ -3753,7 +3753,7 @@ msgstr "_Znaková sada:"
 #: dbaccess/uiconfig/ui/mysqlnativepage.ui:205
 msgctxt "mysqlnativepage|charsetheader"
 msgid "Data Conversion"
-msgstr "Konverzia údajov"
+msgstr "Konverzia dát"
 
 #. 2zNgz
 #: dbaccess/uiconfig/ui/mysqlnativesettings.ui:29
@@ -3831,7 +3831,7 @@ msgstr "_Znaková sada:"
 #: dbaccess/uiconfig/ui/odbcpage.ui:67
 msgctxt "odbcpage|charsetheader"
 msgid "Data Conversion"
-msgstr "Konverzia údajov"
+msgstr "Konverzia dát"
 
 #. doAQr
 #: dbaccess/uiconfig/ui/odbcpage.ui:111
@@ -4605,7 +4605,7 @@ msgstr "Ignorovať informáciu v menovom poli"
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:203
 msgctxt "specialsettingspage|inputchecks"
 msgid "Form data input checks for required fields"
-msgstr "Vstup údajov formulára preverí požadované polia"
+msgstr "Kontrola vkladania údajov formulára pre požadované polia"
 
 #. jEgvf
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:218
@@ -4893,7 +4893,7 @@ msgstr "_Znaková sada:"
 #: dbaccess/uiconfig/ui/textpage.ui:390
 msgctxt "textpage|charsetheader"
 msgid "Data Conversion"
-msgstr "Konverzia údajov"
+msgstr "Konverzia dát"
 
 #. cQGgr
 #: dbaccess/uiconfig/ui/typeselectpage.ui:117
@@ -5007,7 +5007,7 @@ msgstr "_Znaková sada:"
 #: dbaccess/uiconfig/ui/userdetailspage.ui:213
 msgctxt "userdetailspage|charsetheader"
 msgid "Data conversion"
-msgstr "Konverzia údajov"
+msgstr "Konverzia dát"
 
 #~ msgctxt "STR_STATE_CLOSE_SUB_DOCS"
 #~ msgid "Prepare"
