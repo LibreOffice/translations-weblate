@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-09-07 17:18+0200\n"
-"PO-Revision-Date: 2020-09-27 14:26+0000\n"
+"PO-Revision-Date: 2020-09-27 14:55+0000\n"
 "Last-Translator: Štěpán Koudela <koudelas@gmail.com>\n"
 "Language-Team: Czech <https://weblate.documentfoundation.org/projects/libo_help-master/textsbasicshared/cs/>\n"
 "Language: cs\n"
@@ -8222,7 +8222,7 @@ msgctxt ""
 "par_id461596463969009\n"
 "help.text"
 msgid "Use <link href=\"text/sbasic/shared/03020201.xhp\">Put#</link> statement to write data to a binary or a random file. Use <link href=\"text/sbasic/shared/03020205.xhp\">Write#</link> statement to write data to a sequential text file with delimiting characters."
-msgstr "K zápisu dat do binárního nebo náhodného souboru použijte příkaz <link href = \"text / sbasic / shared / 03020201.xhp\"> Put # </link>. Pomocí příkazu <link href = \"text / sbasic / shared / 03020205.xhp\">Napsat # </link> můžete zapisovat data do sekvenčního textového souboru s oddělovacími znaky."
+msgstr "K zápisu dat do binárního nebo náhodného souboru použijte příkaz <link href=\"text/sbasic/shared/03020201.xhp\">Put #</link>, k zápisu dat do sekvenčního textového souboru s oddělovacími znaky příkaz <link href=\"text/sbasic/shared/03020205.xhp\">Write#</link>."
 
 #. AhB82
 #: 03010103.xhp
@@ -9464,7 +9464,7 @@ msgctxt ""
 "hd_id3157896\n"
 "help.text"
 msgid "<variable id=\"Close_h1\"><link href=\"text/sbasic/shared/03020101.xhp\" name=\"Close Statement\">Close Statement</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Close_h1\"><link href=\"text/sbasic/shared/03020101.xhp\" name=\"Příkaz Close\">Příkaz Close</link></variable>"
 
 #. UxFz9
 #: 03020101.xhp
@@ -9482,7 +9482,7 @@ msgctxt ""
 "par_id971587473488701\n"
 "help.text"
 msgid "<image src=\"media/helpimg/sbasic/Close_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Close Statement diagram</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/sbasic/Close_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Diagram příkazu Close</alt></image>"
 
 #. FEDAa
 #: 03020101.xhp
@@ -9491,7 +9491,7 @@ msgctxt ""
 "par_id3147265\n"
 "help.text"
 msgid "Close [[#]fileNum [, [#]fileNum2 [,...]]]"
-msgstr ""
+msgstr "Close [[#]fileNum [, [#]fileNum2 [,...]]]"
 
 #. gdqMu
 #: 03020101.xhp
@@ -9500,7 +9500,7 @@ msgctxt ""
 "par_id3150791\n"
 "help.text"
 msgid "<emph>fileNum:</emph> Any integer expression that specifies the number of the data channel that was opened with the <emph>Open</emph> statement."
-msgstr ""
+msgstr "<emph>fileNum</emph>: Celočíselný výraz určující číslo datového kanálu, který byl otevřen příkazem <emph>Open</emph>."
 
 #. uP5nk
 #: 03020102.xhp
@@ -9635,7 +9635,7 @@ msgctxt ""
 "hd_id3150791\n"
 "help.text"
 msgid "<variable id=\"Open_h1\"><link href=\"text/sbasic/shared/03020103.xhp\" name=\"Open Statement\">Open Statement</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Open_h1\"><link href=\"text/sbasic/shared/03020103.xhp\" name=\"Příkaz Open\">Příkaz Open</link></variable>"
 
 #. Etqck
 #: 03020103.xhp
@@ -9653,7 +9653,7 @@ msgctxt ""
 "par_id971587473488701\n"
 "help.text"
 msgid "<image src=\"media/helpimg/sbasic/Open_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Open Statement diagram</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/sbasic/Open_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Diagram příkazu Open</alt></image>"
 
 #. CRDEh
 #: 03020103.xhp
@@ -9662,7 +9662,7 @@ msgctxt ""
 "par_id971587473488702\n"
 "help.text"
 msgid "<image src=\"media/helpimg/sbasic/access_fragment.svg\" id=\"img_id4156296484515\"><alt id=\"alt_id15152796484515\">access fragment diagram</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/sbasic/access_fragment.svg\" id=\"img_id4156296484515\"><alt id=\"alt_id15152796484515\">Fragment diagramu pro přístup</alt></image>"
 
 #. N3tit
 #: 03020103.xhp
@@ -9671,7 +9671,7 @@ msgctxt ""
 "par_id971587473488703\n"
 "help.text"
 msgid "<image src=\"media/helpimg/sbasic/locking_fragment.svg\" id=\"img_id4156296484516\"><alt id=\"alt_id15152796484516\">locking fragment diagram</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/sbasic/locking_fragment.svg\" id=\"img_id4156296484516\"><alt id=\"alt_id15152796484516\">Fragment diagramu pro uzamykání</alt></image>"
 
 #. dbM7e
 #: 03020103.xhp
@@ -9680,7 +9680,7 @@ msgctxt ""
 "par_id3155132\n"
 "help.text"
 msgid "<emph>pathname: </emph>Path and name of the file to open. If you try to read a file that does not exist (Access = Read), an error message appears. If you try to write to a file that does not exist (Access = Write), a new file is created."
-msgstr ""
+msgstr "<emph>pathname</emph>: Cesta a název souboru, který chcete otevřít. Pokud se pokusíte otevřít neexistující soubor (Access = Read), zobrazí se chybová zpráva. Pokud se pokusíte zapsat do neexistujícího souboru (Access = Write), vytvoří se nový soubor."
 
 #. XqfP8
 #: 03020103.xhp
@@ -9689,7 +9689,7 @@ msgctxt ""
 "par_id3149262\n"
 "help.text"
 msgid "<emph>mode:</emph> Keyword that specifies the file mode. Valid values: <literal>Append</literal> (append to sequential file), <literal>Binary</literal> (data can be accessed by bytes using Get and Put), <literal>Input</literal> (opens data channel for reading), <literal>Output</literal> (opens data channel for writing), and <literal>Random</literal> (edits relative files)."
-msgstr ""
+msgstr "<emph>mode</emph>: Klíčové slovo určující režim souboru. Platné hodnoty: <literal>Append</literal> (připojení na konec sekvenčního souboru), <literal>Binary</literal> (k datům lze přistupovat po bajtech pomocí Get a Put), <literal>Input</literal> (otevře datový kanál pro čtení), <literal>Output</literal> (otevře datový kanál pro zápis) a <literal>Random</literal> (úprava relativních souborů)."
 
 #. 3983q
 #: 03020103.xhp
@@ -9698,7 +9698,7 @@ msgctxt ""
 "par_id3154014\n"
 "help.text"
 msgid "<emph>io:</emph> Keyword that defines the access type. Valid values: <literal>Read</literal> (read-only), <literal>Write</literal> (write-only), <literal>Read Write</literal> (both)."
-msgstr ""
+msgstr "<emph>io:</emph> Klíčové slovo definující typ přístupu. Platné hodnoty: <literal>Read</literal> (jen pro čtení), <literal>Write</literal> (jen pro zápis), <literal>Read Write</literal> (obojí)."
 
 #. kzzkr
 #: 03020103.xhp
@@ -9707,7 +9707,7 @@ msgctxt ""
 "par_id3150011\n"
 "help.text"
 msgid "<emph>locking:</emph> Keyword that defines the security status of a file after opening. Valid values: <literal>Shared</literal> (file may be opened by other applications), <literal>Lock Read</literal> (file is protected against reading), <literal>Lock Write</literal> (file is protected against writing), <literal>Lock Read Write</literal> (denies file access)."
-msgstr ""
+msgstr "<emph>locking:</emph> Klíčové slovo definující zabezpečení souboru po otevření. Platné hodnoty: <literal>Shared</literal> (soubor mohou otevřít i další aplikace), <literal>Lock Read</literal> (soubor je chráněn proti čtení), <literal>Lock Write</literal> (soubor je chráněn proti zápisu), <literal>Lock Read Write</literal> (zamezí přístupu k souboru)."
 
 #. D2D4q
 #: 03020103.xhp
@@ -9716,7 +9716,7 @@ msgctxt ""
 "par_id3153190\n"
 "help.text"
 msgid "<emph>filenum:</emph> Any integer expression from 0 to 511 to indicate the number of a free data channel. You can then pass commands through the data channel to access the file. The file number must be determined by the FreeFile function immediately before the Open statement."
-msgstr ""
+msgstr "<emph>filkenum</emph>: Celočíselný výraz od 0 do 511 určující číslo volného datového kanálu. Skrze datový kanál je možné předávat příkazy k přístupu k souboru. Číslo souboru musí být těsně před příkazem Open určeno funkcí FreeFile."
 
 #. LgCLi
 #: 03020103.xhp
@@ -9725,7 +9725,7 @@ msgctxt ""
 "par_id3151115\n"
 "help.text"
 msgid "<emph>recLen:</emph> For <literal>Random</literal> access files, set the length of the records."
-msgstr ""
+msgstr "<emph>recLen:</emph> Nastaví délku záznamů při přístupu k souboru v režimu <literal>Random</literal>."
 
 #. mvgxB
 #: 03020103.xhp
@@ -9779,7 +9779,7 @@ msgctxt ""
 "hd_id3154141\n"
 "help.text"
 msgid "<variable id=\"Reset_h1\"><link href=\"text/sbasic/shared/03020104.xhp\">Reset Statement</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Reset_h1\"><link href=\"text/sbasic/shared/03020104.xhp\">Příkaz Reset</link></variable>"
 
 #. iLCKn
 #: 03020104.xhp
@@ -9797,7 +9797,7 @@ msgctxt ""
 "par_id971587473488701\n"
 "help.text"
 msgid "<image src=\"media/helpimg/sbasic/Reset_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Reset Statement diagram</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/sbasic/Reset_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Diagram příkazu Reset</alt></image>"
 
 #. BXAjN
 #: 03020104.xhp
@@ -9860,7 +9860,7 @@ msgctxt ""
 "hd_id3154927\n"
 "help.text"
 msgid "<variable id=\"Get_h1\"><link href=\"text/sbasic/shared/03020201.xhp\">Get Statement</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Get_h1\"><link href=\"text/sbasic/shared/03020201.xhp\">Příkaz Get</link></variable>"
 
 #. cpLtG
 #: 03020201.xhp
@@ -9887,7 +9887,7 @@ msgctxt ""
 "par_id971587473488701\n"
 "help.text"
 msgid "<image src=\"media/helpimg/sbasic/Get_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Get Statement diagram</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/sbasic/Get_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Diagram příkazu Get</alt></image>"
 
 #. xBhKA
 #: 03020201.xhp
@@ -9896,7 +9896,7 @@ msgctxt ""
 "par_id3150792\n"
 "help.text"
 msgid "Get [#]fileNum, [recordNum|filePos], variable"
-msgstr ""
+msgstr "Get [#]fileNum, [recordNum|filePos], variable"
 
 #. UM9CG
 #: 03020201.xhp
@@ -9905,7 +9905,7 @@ msgctxt ""
 "par_id3150448\n"
 "help.text"
 msgid "<emph>fileNum:</emph> Any integer expression that determines the file number."
-msgstr ""
+msgstr "<emph>fileNum:</emph> Celočíselný výraz určující číslo souboru."
 
 #. khxG7
 #: 03020201.xhp
@@ -9914,7 +9914,7 @@ msgctxt ""
 "par_id3154684\n"
 "help.text"
 msgid "<emph>recordNum:</emph> For files opened in Random mode, <emph>recordNum</emph> is the number of the record that you want to read."
-msgstr ""
+msgstr "<emph>recordNum:</emph> Pro soubory otevřené v režimu Random určuje číslo záznamu, který chcete načíst."
 
 #. 3w9MJ
 #: 03020201.xhp
@@ -9923,7 +9923,7 @@ msgctxt ""
 "par_id3153768\n"
 "help.text"
 msgid "For files opened in Binary mode, <emph>filePos</emph> is the byte position in the file where the reading starts."
-msgstr ""
+msgstr "Pro soubory otevřené v režimu Binary určuje bajt v souboru, na kterém začne čtení."
 
 #. NvcjF
 #: 03020201.xhp
@@ -9932,7 +9932,7 @@ msgctxt ""
 "par_id3147319\n"
 "help.text"
 msgid "If <emph>recordNum</emph> and <emph>filePos</emph> are omitted, the current position or the current data record of the file is used."
-msgstr ""
+msgstr "Jsou-li parametry <emph>recordNum</emph> a <emph>filePos</emph> vynechány, použije se aktuální pozice nebo aktuální datový záznam v souboru."
 
 #. GZcaW
 #: 03020201.xhp
@@ -9941,7 +9941,7 @@ msgctxt ""
 "par_id3149484\n"
 "help.text"
 msgid "<emph>variable:</emph> Name of the variable to be read. With the exception of object variables, you can use any variable type."
-msgstr ""
+msgstr "<emph>variable:</emph> Název proměnné, která se má načíst. Kromě objektů je možné použít jakékoliv proměnné."
 
 #. PQRf6
 #: 03020201.xhp
@@ -10049,7 +10049,7 @@ msgctxt ""
 "par_id971587473488701\n"
 "help.text"
 msgid "<image src=\"media/helpimg/sbasic/Input_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Input Statement diagram</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/sbasic/Input_statement.svg\" id=\"img_id4156296484514\"><alt id=\"alt_id15152796484514\">Diagram příkazu Input</alt></image>"
 
 #. NqnvX
 #: 03020202.xhp
@@ -10058,7 +10058,7 @@ msgctxt ""
 "par_id3150440\n"
 "help.text"
 msgid "Input #fileNum {,|;} var1 [, var2 [, ...]]"
-msgstr ""
+msgstr "Input #fileNum {,|;} var1 [, var2 [, ...]]"
 
 #. EUrQA
 #: 03020202.xhp
@@ -10067,7 +10067,7 @@ msgctxt ""
 "par_id3145749\n"
 "help.text"
 msgid "<emph>fileNum</emph>: Number of the file that contains the data that you want to read. The file must be opened with the Open statement using the key word INPUT."
-msgstr ""
+msgstr "<emph>fileNum:</emph> Číslo souboru, který obsahuje data, jež chcete načíst. Před použitím klíčového slova INPUT musí být soubor otevřen příkazem Open."
 
 #. kJyKM
 #: 03020202.xhp
@@ -10076,7 +10076,7 @@ msgctxt ""
 "par_id3150011\n"
 "help.text"
 msgid "<emph>var</emph>: A numeric or string variable that you assign the values read from the opened file to."
-msgstr ""
+msgstr "<emph>var</emph>: Číselná nebo řetězcová proměnná, které přiřadíte hodnoty načtené z otevřeného souboru."
 
 #. 23Pzt
 #: 03020202.xhp
@@ -10139,7 +10139,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Line Input# Statement"
-msgstr ""
+msgstr "Příkaz Line Input#"
 
 #. CCEuD
 #: 03020203.xhp
@@ -10157,7 +10157,7 @@ msgctxt ""
 "hd_id3153361\n"
 "help.text"
 msgid "<variable id=\"LineInput_h1\"><link href=\"text/sbasic/shared/03020203.xhp\" name=\"Line Input# Statement\">Line Input# Statement</link></variable>"
-msgstr ""
+msgstr "<variable id=\"LineInput_h1\"><link href=\"text/sbasic/shared/03020203.xhp\" name=\"Příkaz Line Input#\">Příkaz Line Input#</link></variable>"
 
 #. 5FZ8D
 #: 03020203.xhp
@@ -10166,7 +10166,7 @@ msgctxt ""
 "par_id3156280\n"
 "help.text"
 msgid "Reads a line from a sequential file into a variable."
-msgstr ""
+msgstr "Přečte řádek ze sekvenčního souboru do proměnné."
 
 #. enCkE
 #: 03020203.xhp
