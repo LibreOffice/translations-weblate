@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-11 16:48+0100\n"
-"PO-Revision-Date: 2020-10-02 18:35+0000\n"
+"PO-Revision-Date: 2020-10-06 14:35+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.documentfoundation.org/projects/libo_ui-6-3/cuimessages/fi/>\n"
 "Language: fi\n"
@@ -469,7 +469,7 @@ msgstr "%PRODUCTNAME makrot"
 #: cui/inc/strings.hrc:94
 msgctxt "RID_SVXSTR_NOMACRODESC"
 msgid "There is no description available for this macro."
-msgstr "Makrolle ei ole saatavilla lisätietoja."
+msgstr "Makrolle ei ole kuvausta."
 
 #. Ne7wd
 #: cui/inc/strings.hrc:95
@@ -1372,40 +1372,40 @@ msgstr "%PRODUCTNAME Virhe"
 #, c-format
 msgctxt "RID_SVXSTR_ERROR_LANG_NOT_SUPPORTED"
 msgid "The scripting language %LANGUAGENAME is not supported."
-msgstr "Skriptikieli %LANGUAGENAME ei ole tuettu."
+msgstr "Komentokieltä %LANGUAGENAME ei tueta."
 
 #. EUek9
 #: cui/inc/strings.hrc:257
 #, c-format
 msgctxt "RID_SVXSTR_ERROR_RUNNING"
 msgid "An error occurred while running the %LANGUAGENAME script %SCRIPTNAME."
-msgstr "Virhe ilmeni ajettaessa %LANGUAGENAME skriptiä %SCRIPTNAME."
+msgstr "%LANGUAGENAME-komentosarjaa %SCRIPTNAME suoritettaessa tapahtui virhe."
 
 #. KVQAh
 #: cui/inc/strings.hrc:258
 #, c-format
 msgctxt "RID_SVXSTR_EXCEPTION_RUNNING"
 msgid "An exception occurred while running the %LANGUAGENAME script %SCRIPTNAME."
-msgstr "Poikkeus ilmeni ajettaessa %LANGUAGENAME skriptiä %SCRIPTNAME."
+msgstr "%LANGUAGENAME-komentosarjaa %SCRIPTNAME suoritettaessa tapahtui poikkeus."
 
 #. 5bFCQ
 #: cui/inc/strings.hrc:259
 msgctxt "RID_SVXSTR_ERROR_AT_LINE"
 msgid "An error occurred while running the %LANGUAGENAME script %SCRIPTNAME at line: %LINENUMBER."
-msgstr "Virhe ilmeni ajettaessa %LANGUAGENAME skriptiä %SCRIPTNAME rivillä: %LINENUMBER."
+msgstr "%LANGUAGENAME-komentosarjaa %SCRIPTNAME suoritettaessa tapahtui virhe rivillä: %LINENUMBER."
 
 #. KTptU
 #: cui/inc/strings.hrc:260
 msgctxt "RID_SVXSTR_EXCEPTION_AT_LINE"
 msgid "An exception occurred while running the %LANGUAGENAME script %SCRIPTNAME at line: %LINENUMBER."
-msgstr "Poikkeus ilmeni ajettaessa %LANGUAGENAME skriptiä %SCRIPTNAME rivillä: %LINENUMBER."
+msgstr "%LANGUAGENAME-komentosarjaa %SCRIPTNAME suoritettaessa tapahtui poikkeus rivillä: %LINENUMBER."
 
 #. BZDbp
 #: cui/inc/strings.hrc:261
 #, c-format
 msgctxt "RID_SVXSTR_FRAMEWORK_ERROR_RUNNING"
 msgid "A Scripting Framework error occurred while running the %LANGUAGENAME script %SCRIPTNAME."
-msgstr "Skriptikehyksessä ilmeni virhe ajettaessa %LANGUAGENAME skriptiä %SCRIPTNAME."
+msgstr "%LANGUAGENAME-komentosarjaa %SCRIPTNAME suoritettaessa tapahtui komentosarjakehysvirhe."
 
 #. AAghx
 #: cui/inc/strings.hrc:262
@@ -1461,7 +1461,7 @@ msgstr "PowerPointista %PRODUCTNAME Impressiin tai toisin päin"
 #: cui/inc/strings.hrc:273
 msgctxt "RID_SVXSTR_CHG_SMARTART"
 msgid "SmartArt to %PRODUCTNAME shapes or reverse"
-msgstr "SmartArt -> %PRODUCTNAME-kuvio tai takaisin"
+msgstr "SmartArtista %PRODUCTNAME-muodoiksi tai toisin päin"
 
 #. dDtDU
 #: cui/inc/strings.hrc:275
@@ -1850,7 +1850,7 @@ msgstr "Yhdistä yhden rivin kappaleet, jos pituus on suurempi kuin %1"
 #: cui/inc/strings.hrc:353
 msgctxt "RID_SVXSTR_NUM"
 msgid "Bulleted and numbered lists. Bullet symbol: %1"
-msgstr "Luettelot ja numeroidut listat. Luettelomerkki: %1"
+msgstr "Numeroimattomat ja numeroidut luettelot. Luettelomerkki: %1"
 
 #. BJVGT
 #: cui/inc/strings.hrc:354
@@ -3591,7 +3591,7 @@ msgstr "Aasialainen asettelu"
 #: cui/inc/treeopt.hrc:54
 msgctxt "SID_LANGUAGE_OPTIONS_RES"
 msgid "Complex Text Layout"
-msgstr "Laajennettu tekstiasettelu"
+msgstr "Kompleksisen tekstin asettelu"
 
 #. TGnig
 #: cui/inc/treeopt.hrc:59
@@ -7761,7 +7761,7 @@ msgstr "Tausta"
 #: cui/uiconfig/ui/formatnumberdialog.ui:8
 msgctxt "formatnumberdialog|FormatNumberDialog"
 msgid "Format Number"
-msgstr "Luvun muotoilu"
+msgstr "Luvun muoto"
 
 #. wynwf
 #: cui/uiconfig/ui/galleryapplyprogress.ui:8
@@ -9322,7 +9322,7 @@ msgstr "- ei mitään -"
 #: cui/uiconfig/ui/linetabpage.ui:681
 msgctxt "linetabpage|liststoreEDGE_STYLE"
 msgid "Mitered"
-msgstr "Kulmikas"
+msgstr "Jiiri"
 
 #. RjDyz
 #: cui/uiconfig/ui/linetabpage.ui:682
@@ -9761,13 +9761,13 @@ msgstr "Valikon sijainti:"
 #: cui/uiconfig/ui/movemenu.ui:228
 msgctxt "movemenu|up-atkobject"
 msgid "Up"
-msgstr "Ylös"
+msgstr "Ylöspäin"
 
 #. nRLog
 #: cui/uiconfig/ui/movemenu.ui:247
 msgctxt "movemenu|down-atkobject"
 msgid "Down"
-msgstr "Alas"
+msgstr "Alaspäin"
 
 #. qoE4K
 #: cui/uiconfig/ui/multipathdialog.ui:22
@@ -10449,7 +10449,7 @@ msgstr "Ota käyttöön kokeelliset (mahdollisesti epävakaat) toiminnot"
 #: cui/uiconfig/ui/optadvancedpage.ui:330
 msgctxt "optadvancedpage|macrorecording"
 msgid "Enable macro recording (may be limited)"
-msgstr "Salli makrojen nauhoittaminen (rajoitetusti)"
+msgstr "Ota käyttöön makrojen nauhoittaminen (rajoitetusti)"
 
 #. NgRXw
 #: cui/uiconfig/ui/optadvancedpage.ui:345
@@ -11361,7 +11361,7 @@ msgstr "Vain nykyisessä asiakirjassa"
 #: cui/uiconfig/ui/optlanguagespage.ui:261
 msgctxt "optlanguagespage|ctlsupport"
 msgid "Complex _text layout:"
-msgstr "Laajennettu tekstiasettelu:"
+msgstr "Kompleksisen tekstin asettelu:"
 
 #. mpLF7
 #: cui/uiconfig/ui/optlanguagespage.ui:276

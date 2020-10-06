@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-11 16:49+0100\n"
-"PO-Revision-Date: 2020-10-04 14:59+0000\n"
+"PO-Revision-Date: 2020-10-06 14:35+0000\n"
 "Last-Translator: Paul Roos <iNetRoos@gmail.com>\n"
 "Language-Team: Afrikaans <https://weblate.documentfoundation.org/projects/libo_ui-6-3/scmessages/af/>\n"
 "Language: af\n"
@@ -2501,7 +2501,7 @@ msgstr ""
 #: sc/inc/globstr.hrc:432
 msgctxt "STR_CLOSE_WITH_UNSAVED_REFS"
 msgid "This Document is referenced by another document and not yet saved. Closing it without saving will result in data loss."
-msgstr ""
+msgstr "Hierdie dokument word verwys deur 'n ander dokument, maar is nog nie gestoor nie. As u dit sluit sonder om dit te stoor, verloor u data."
 
 #. 5AM9B
 #: sc/inc/globstr.hrc:433
@@ -2514,19 +2514,19 @@ msgstr "Selwaarde is"
 #: sc/inc/globstr.hrc:434
 msgctxt "STR_COND_COLORSCALE"
 msgid "ColorScale"
-msgstr ""
+msgstr "Kleure Skaal"
 
 #. 7eqFv
 #: sc/inc/globstr.hrc:435
 msgctxt "STR_COND_DATABAR"
 msgid "DataBar"
-msgstr ""
+msgstr "Data Balk"
 
 #. eroC7
 #: sc/inc/globstr.hrc:436
 msgctxt "STR_COND_ICONSET"
 msgid "IconSet"
-msgstr ""
+msgstr "Ikoonstel"
 
 #. CFQVT
 #: sc/inc/globstr.hrc:437
@@ -2583,7 +2583,7 @@ msgstr ""
 #: sc/inc/globstr.hrc:445
 msgctxt "STR_COND_DATE"
 msgid "Date is"
-msgstr ""
+msgstr "Datum is"
 
 #. tXo2p
 #: sc/inc/globstr.hrc:446
@@ -2672,67 +2672,67 @@ msgstr "gister"
 #: sc/inc/globstr.hrc:459
 msgctxt "STR_COND_TOMORROW"
 msgid "tomorrow"
-msgstr ""
+msgstr "môre"
 
 #. mvGBE
 #: sc/inc/globstr.hrc:460
 msgctxt "STR_COND_LAST7DAYS"
 msgid "in the last 7 days"
-msgstr ""
+msgstr "in die laaste 7 dae"
 
 #. DmaSj
 #: sc/inc/globstr.hrc:461
 msgctxt "STR_COND_THISWEEK"
 msgid "this week"
-msgstr ""
+msgstr "dese week"
 
 #. a8Hdp
 #: sc/inc/globstr.hrc:462
 msgctxt "STR_COND_LASTWEEK"
 msgid "last week"
-msgstr ""
+msgstr "vorige week"
 
 #. ykG5k
 #: sc/inc/globstr.hrc:463
 msgctxt "STR_COND_NEXTWEEK"
 msgid "next week"
-msgstr ""
+msgstr "volgende week"
 
 #. NCSVV
 #: sc/inc/globstr.hrc:464
 msgctxt "STR_COND_THISMONTH"
 msgid "this month"
-msgstr ""
+msgstr "dese maand"
 
 #. zEYre
 #: sc/inc/globstr.hrc:465
 msgctxt "STR_COND_LASTMONTH"
 msgid "last month"
-msgstr ""
+msgstr "laaste maand"
 
 #. ZrGrG
 #: sc/inc/globstr.hrc:466
 msgctxt "STR_COND_NEXTMONTH"
 msgid "next month"
-msgstr ""
+msgstr "volgende maand"
 
 #. Fczye
 #: sc/inc/globstr.hrc:467
 msgctxt "STR_COND_THISYEAR"
 msgid "this year"
-msgstr ""
+msgstr "hierdie jaar"
 
 #. gQynd
 #: sc/inc/globstr.hrc:468
 msgctxt "STR_COND_LASTYEAR"
 msgid "last year"
-msgstr ""
+msgstr "laaste jaar"
 
 #. sdxMh
 #: sc/inc/globstr.hrc:469
 msgctxt "STR_COND_NEXTYEAR"
 msgid "next year"
-msgstr ""
+msgstr "volgende jaar"
 
 #. FGxFR
 #: sc/inc/globstr.hrc:470
@@ -2744,7 +2744,7 @@ msgstr "en"
 #: sc/inc/globstr.hrc:471
 msgctxt "STR_ERR_CONDFORMAT_PROTECTED"
 msgid "Conditional Formats can not be created, deleted or changed in protected sheets."
-msgstr ""
+msgstr "Voorwaardelike formate kan nie in beskermde tabelle geskep, uitgevee of verander word nie."
 
 #. EgDja
 #: sc/inc/globstr.hrc:472
@@ -2754,6 +2754,9 @@ msgid ""
 "\n"
 " Do you want to edit the existing conditional format?"
 msgstr ""
+"Die geselekteerde sel bevat reeds voorwaardelike formatering. U kan die bestaande voorwaardelike formaat wysig of 'n nuwe voorwaardelike formaat definieer.\n"
+"\n"
+"Wil u die bestaande voorwaardelike formaat wysig?"
 
 #. cisuZ
 #: sc/inc/globstr.hrc:473
@@ -2763,6 +2766,9 @@ msgid ""
 "\n"
 "Do you want to recalculate all formula cells in this document now?"
 msgstr ""
+"Hierdie dokument is laas deur 'n ander toepassing as %PRODUCTNAME gestoor. Sommige formuleselle kan verskillende resultate lewer as dit herbereken word.\n"
+"\n"
+"Wil u nou al die formuleselle in hierdie dokument herbereken?"
 
 #. rD6BE
 #: sc/inc/globstr.hrc:474
@@ -2772,12 +2778,15 @@ msgid ""
 "\n"
 "Do you want to recalculate all formula cells now?"
 msgstr ""
+"Hierdie dokument is in die Excel-lêerformaat (.xlsx) gestoor. Sommige formuleselle kan verskillende resultate lewer as dit herbereken word.\n"
+"\n"
+"Wil u nou al die formuleselle in hierdie dokument herbereken?"
 
 #. YgjzK
 #: sc/inc/globstr.hrc:475
 msgctxt "STR_NO_INSERT_DELETE_OVER_PIVOT_TABLE"
 msgid "You cannot insert or delete cells when the affected range intersects with pivot table."
-msgstr ""
+msgstr "U kan nie selle invoeg of uitvee as die betrokke gebied selle uit 'n spil-tabel bevat nie."
 
 #. FVE5v
 #: sc/inc/globstr.hrc:476
@@ -2843,7 +2852,7 @@ msgstr "Ongedefinieerde naam as formule-sel."
 #: sc/inc/globstr.hrc:486
 msgctxt "STR_NOFORMULA"
 msgid "Formula cell must contain a formula."
-msgstr ""
+msgstr "Formulesel moet 'n formule bevat."
 
 #. TAUZn
 #: sc/inc/globstr.hrc:487
@@ -2865,24 +2874,27 @@ msgid ""
 "#\n"
 "be deleted?"
 msgstr ""
+"Behoort die inskrywing\n"
+"#\n"
+"verwyder word?"
 
 #. VueA3
 #: sc/inc/globstr.hrc:490
 msgctxt "STR_COPYLIST"
 msgid "Copy List"
-msgstr ""
+msgstr "Kopieër die Lys"
 
 #. BsYEp
 #: sc/inc/globstr.hrc:491
 msgctxt "STR_COPYFROM"
 msgid "List from"
-msgstr ""
+msgstr "Lys vanuit"
 
 #. wxjFd
 #: sc/inc/globstr.hrc:492
 msgctxt "STR_COPYERR"
 msgid "Cells without text have been ignored."
-msgstr ""
+msgstr "Selle sonder teks word geignoreer"
 
 #. oqysQ
 #: sc/inc/globstr.hrc:493
@@ -2901,13 +2913,13 @@ msgstr ""
 #: sc/inc/globstr.hrc:495
 msgctxt "STR_PRINT_PREVIEW_NODATA"
 msgid "No Data"
-msgstr ""
+msgstr "Geen Data"
 
 #. he7Lf
 #: sc/inc/globstr.hrc:496
 msgctxt "STR_PRINT_PREVIEW_EMPTY_RANGE"
 msgid "Print Range Empty"
-msgstr ""
+msgstr "Drukbereik leeg"
 
 #. 3GHaw
 #: sc/inc/globstr.hrc:497
@@ -2925,31 +2937,31 @@ msgstr "Voorwaardelike Formaat"
 #: sc/inc/globstr.hrc:499
 msgctxt "STR_UNDO_FORMULA_TO_VALUE"
 msgid "Convert Formula To Value"
-msgstr ""
+msgstr "Skakel Formule om na Waarde"
 
 #. dsjqi
 #: sc/inc/globstr.hrc:500
 msgctxt "STR_UNQUOTED_STRING"
 msgid "Strings without quotes are interpreted as column/row labels."
-msgstr ""
+msgstr "Stringe sonder aanhalingstekens word as kolom- / ryetikette geïnterpreteer."
 
 #. rHjns
 #: sc/inc/globstr.hrc:501
 msgctxt "STR_ENTER_VALUE"
 msgid "Enter a value!"
-msgstr ""
+msgstr "Voer 'n Waarde in!"
 
 #. p6znj
 #: sc/inc/globstr.hrc:502
 msgctxt "STR_TABLE_COUNT"
 msgid "Sheet %1 of %2"
-msgstr ""
+msgstr "Blad %1 van %2"
 
 #. pWcDK
 #: sc/inc/globstr.hrc:503
 msgctxt "STR_FUNCTIONS_FOUND"
 msgid "%1 and %2 more"
-msgstr ""
+msgstr "%1 en %2 meer"
 
 #. X3uUX
 #: sc/inc/globstr.hrc:504
@@ -2991,7 +3003,7 @@ msgstr "Tyd"
 #: sc/inc/globstr.hrc:510
 msgctxt "STR_SCIENTIFIC"
 msgid "Scientific"
-msgstr ""
+msgstr "Wetenskaplik"
 
 #. DGyo9
 #: sc/inc/globstr.hrc:511
@@ -3003,7 +3015,7 @@ msgstr "Breuk"
 #: sc/inc/globstr.hrc:512
 msgctxt "STR_BOOLEAN_VALUE"
 msgid "Boolean Value"
-msgstr ""
+msgstr "Boolese Waarde"
 
 #. HBUym
 #: sc/inc/globstr.hrc:513
@@ -3015,19 +3027,19 @@ msgstr "Teks"
 #: sc/inc/globstr.hrc:514
 msgctxt "STR_QUERY_PIVOTTABLE_DELTAB"
 msgid "The selected sheet(s) contain source data of related pivot tables that will be lost. Are you sure you want to delete the selected sheet(s)?"
-msgstr ""
+msgstr "Die geselekteerde tabel (s) bevat brondata uit die gepaardgaande spiltabelle sal verlore gaan. Is u seker dat u die geselekteerde tabel (s) wil verwyder?"
 
 #. 5uVFF
 #: sc/inc/globstr.hrc:515
 msgctxt "STR_ERR_NAME_INVALID_CELL_REF"
 msgid "Invalid name. Reference to a cell, or a range of cells not allowed."
-msgstr ""
+msgstr "Ongeldige naam. Verwysing na 'n sel of 'n reeks selle word nie toegelaat nie."
 
 #. qqAQA
 #: sc/inc/globstr.hrc:516
 msgctxt "STR_ERR_LONG_LINK_FORMULA_NEEDING_CHECK"
 msgid "External content disabled."
-msgstr ""
+msgstr "Deaktiveer eksterne inhoud."
 
 #. dB8cp
 #: sc/inc/pvfundlg.hrc:27
@@ -23418,17 +23430,15 @@ msgstr "_Taal"
 
 #. eBoPL
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:6882
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|revieb"
 msgid "_Review"
-msgstr "Resensie"
+msgstr "Oorsig"
 
 #. y4Sg3
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:7095
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|commentsb"
 msgid "_Comments"
-msgstr "Opmerkings"
+msgstr "_Opmerkings"
 
 #. m9Mxg
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:7298
@@ -23438,10 +23448,9 @@ msgstr ""
 
 #. ewCjP
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:7500
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|viewa"
 msgid "_View"
-msgstr "Bekyk"
+msgstr "_Beeld"
 
 #. WfzeY
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:7946
@@ -23451,31 +23460,27 @@ msgstr ""
 
 #. QNg9L
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:8315
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|editdrawb"
 msgid "_Edit"
-msgstr "Redigeer"
+msgstr "_Redigeer"
 
 #. MECyG
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:8656
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|arrangedrawb"
 msgid "_Arrange"
-msgstr "Rangskik"
+msgstr "_Rangskik"
 
 #. 9Z4JQ
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:8823
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|GridDrawB"
 msgid "_View"
-msgstr "Bekyk"
+msgstr "_Beeld"
 
 #. 3i55T
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:9025
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|viewDrawb"
 msgid "Grou_p"
-msgstr "Groep"
+msgstr "_Groep"
 
 #. fNGFB
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:9175
@@ -23485,66 +23490,57 @@ msgstr ""
 
 #. stsit
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:9484
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|formatd"
 msgid "F_ont"
-msgstr "Font"
+msgstr "_Font"
 
 #. ZDEax
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:9749
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|paragraphTextb"
 msgid "_Alignment"
-msgstr "Belyning"
+msgstr "_Belyning"
 
 #. CVAyh
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:9951
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|viewd"
 msgid "_View"
-msgstr "Bekyk"
+msgstr "_Beeld"
 
 #. h6EHi
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:10105
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|insertTextb"
 msgid "_Insert"
-msgstr "Voeg in"
+msgstr "_Voeg in"
 
 #. eLnnF
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:10250
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|media"
 msgid "_Media"
-msgstr "Media"
+msgstr "_Media"
 
 #. dzADL
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:10487
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|oleB"
 msgid "F_rame"
-msgstr "Raam"
+msgstr "_Raam"
 
 #. GjFnB
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:10918
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|arrageOLE"
 msgid "_Arrange"
-msgstr "Rangskik"
+msgstr "_Rangskik"
 
 #. DF4U7
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:11084
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|OleGridB"
 msgid "_Grid"
-msgstr "Rooster"
+msgstr "_Rooster"
 
 #. UZ2JJ
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:11286
-#, fuzzy
 msgctxt "notebookbar_groupedbar_full|viewf"
 msgid "_View"
-msgstr "Bekyk"
+msgstr "_Beeld"
 
 #. mimQW
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:40
@@ -23572,17 +23568,15 @@ msgstr "Boekmerk"
 
 #. JE3bf
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:87
-#, fuzzy
 msgctxt "notebookbar_groups|crossreference"
 msgid "Cross-Reference"
-msgstr "kruisverwysing"
+msgstr "Kruisverwysing"
 
 #. GEsRE
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:152
-#, fuzzy
 msgctxt "notebookbar_groups|stylemenudefault"
 msgid "Default"
-msgstr "~Verstek"
+msgstr "Verstek"
 
 #. bPNCf
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:167
@@ -23604,24 +23598,21 @@ msgstr "Aksent 3"
 
 #. a8rG7
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:200
-#, fuzzy
 msgctxt "notebookbar_groups|stylemenuhed1"
 msgid "Heading 1"
-msgstr "Opskrif1"
+msgstr "Kopteks 1"
 
 #. msdD7
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:209
-#, fuzzy
 msgctxt "notebookbar_groups|stylemenuhed2"
 msgid "Heading 2"
-msgstr "Opskrif"
+msgstr "Kopteks 2"
 
 #. KvySv
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:224
-#, fuzzy
 msgctxt "notebookbar_groups|stylemenustatg"
 msgid "Good"
-msgstr "Goud"
+msgstr "Goed"
 
 #. CoDfU
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:233
@@ -23649,10 +23640,9 @@ msgstr "Fout"
 
 #. 5dTt9
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:275
-#, fuzzy
 msgctxt "notebookbar_groups|stylemenutxtn"
 msgid "Note"
-msgstr "Geen"
+msgstr "Nota"
 
 #. VDr4S
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:284
@@ -23668,10 +23658,9 @@ msgstr "Geen"
 
 #. 2EFPh
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:304
-#, fuzzy
 msgctxt "notebookbar_groups|tablestyledefault"
 msgid "Default"
-msgstr "~Verstek"
+msgstr "Verstek"
 
 #. Gjjky
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:312
@@ -23681,10 +23670,9 @@ msgstr ""
 
 #. AWqDR
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:320
-#, fuzzy
 msgctxt "notebookbar_groups|tablestyle2"
 msgid "Style 2"
-msgstr "Style2"
+msgstr "Style 2"
 
 #. vHoey
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:328
@@ -23706,10 +23694,9 @@ msgstr "Lêer"
 
 #. FHC5q
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:691
-#, fuzzy
 msgctxt "notebookbar_groups|clipboardgrouplabel"
 msgid "Clipboard"
-msgstr "knipbord"
+msgstr "Knipbord"
 
 #. FLyUA
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:737
@@ -23767,10 +23754,9 @@ msgstr "Verdeel"
 
 #. eDrco
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:1467
-#, fuzzy
 msgctxt "notebookbar_groups|conditionalb"
 msgid "Conditional"
-msgstr "Voorwaarde"
+msgstr "Voorwaardelik"
 
 #. gDAQ5
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:1591
@@ -23804,10 +23790,9 @@ msgstr "Vorms"
 
 #. geGED
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:1767
-#, fuzzy
 msgctxt "notebookbar_groups|linksb"
 msgid "Links"
-msgstr "~Skakels"
+msgstr "Skakels"
 
 #. txpNZ
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:1879
@@ -23823,17 +23808,15 @@ msgstr "Styl"
 
 #. E7zcE
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:1957
-#, fuzzy
 msgctxt "notebookbar_groups|resetb"
 msgid "Reset"
-msgstr "St~el terug"
+msgstr "Stel terug"
 
 #. w6XXT
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:2003
-#, fuzzy
 msgctxt "notebookbar_groups|wrapb"
 msgid "Wrap"
-msgstr "~Omvou"
+msgstr "Omvou"
 
 #. QdS8h
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:2019
@@ -23861,7 +23844,6 @@ msgstr "Optimaal"
 
 #. EpwrB
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:2138
-#, fuzzy
 msgctxt "notebookbar_groups|wrapon"
 msgid "Parallel"
 msgstr "Parallel"
@@ -23886,17 +23868,15 @@ msgstr ""
 
 #. WEBWT
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:2180
-#, fuzzy
 msgctxt "notebookbar_groups|wrapcontour"
 msgid "Contour"
 msgstr "Kontoer"
 
 #. d7AtT
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:2189
-#, fuzzy
 msgctxt "notebookbar_groups|contourdialog"
 msgid "Edit Contour"
-msgstr "Tekskontoer"
+msgstr "Wysig Kontoer"
 
 #. btn8X
 #: sc/uiconfig/scalc/ui/numbertransformationentry.ui:21
@@ -24086,17 +24066,15 @@ msgstr ""
 
 #. buc6F
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:252
-#, fuzzy
 msgctxt "optcalculatepage|precft"
 msgid "_Decimal places:"
-msgstr "Desimale plekke"
+msgstr "_Desimale plekke:"
 
 #. tnj5y
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:288
-#, fuzzy
 msgctxt "optcalculatepage|label1"
 msgid "General Calculations"
-msgstr "Algemene aanhef"
+msgstr "Algemene Berekeninge"
 
 #. p2vT9
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:322
@@ -24166,10 +24144,9 @@ msgstr "Datum"
 
 #. Umdv5
 #: sc/uiconfig/scalc/ui/optchangespage.ui:38
-#, fuzzy
 msgctxt "optchangespage|label2"
 msgid "Chan_ges:"
-msgstr "Veranderinge"
+msgstr "_Veranderinge"
 
 #. yrmgC
 #: sc/uiconfig/scalc/ui/optchangespage.ui:52
@@ -24179,10 +24156,9 @@ msgstr ""
 
 #. bJb2E
 #: sc/uiconfig/scalc/ui/optchangespage.ui:66
-#, fuzzy
 msgctxt "optchangespage|label4"
 msgid "_Insertions:"
-msgstr "Invoeging"
+msgstr "_Invoegings:"
 
 #. ikfvj
 #: sc/uiconfig/scalc/ui/optchangespage.ui:80
@@ -24204,10 +24180,9 @@ msgstr ""
 
 #. CER9u
 #: sc/uiconfig/scalc/ui/optcompatibilitypage.ui:62
-#, fuzzy
 msgctxt "optcompatibilitypage|keybindings"
 msgid "Default"
-msgstr "~Verstek"
+msgstr "Verstek"
 
 #. 3mLBb
 #: sc/uiconfig/scalc/ui/optcompatibilitypage.ui:63
@@ -24235,10 +24210,9 @@ msgstr ""
 
 #. xW5dC
 #: sc/uiconfig/scalc/ui/optdefaultpage.ui:96
-#, fuzzy
 msgctxt "optdefaultpage|label1"
 msgid "New Spreadsheet"
-msgstr "ODF-sigblad"
+msgstr "Nuwe Spreiblad"
 
 #. gbrKD
 #: sc/uiconfig/scalc/ui/optdlg.ui:30
@@ -24356,10 +24330,9 @@ msgstr ""
 
 #. GWa6o
 #: sc/uiconfig/scalc/ui/optformula.ui:256
-#, fuzzy
 msgctxt "optformula|details"
 msgid "Details…"
-msgstr "Besonderhede"
+msgstr "Besonderhede…"
 
 #. bNtqA
 #: sc/uiconfig/scalc/ui/optformula.ui:281
@@ -24369,10 +24342,9 @@ msgstr ""
 
 #. t4SBB
 #: sc/uiconfig/scalc/ui/optformula.ui:318
-#, fuzzy
 msgctxt "optformula|label6"
 msgid "_Function:"
-msgstr "Funksie"
+msgstr "_Funksie\""
 
 #. vnh8f
 #: sc/uiconfig/scalc/ui/optformula.ui:332
@@ -24394,10 +24366,9 @@ msgstr ""
 
 #. 9oMMw
 #: sc/uiconfig/scalc/ui/optformula.ui:420
-#, fuzzy
 msgctxt "optformula|label3"
 msgid "Separators"
-msgstr "Skeier"
+msgstr "Skeidingstekens"
 
 #. cCfAk
 #: sc/uiconfig/scalc/ui/optimalcolwidthdialog.ui:8
@@ -24407,17 +24378,15 @@ msgstr "Optimale kolomwydte"
 
 #. nU27B
 #: sc/uiconfig/scalc/ui/optimalcolwidthdialog.ui:90
-#, fuzzy
 msgctxt "optimalcolwidthdialog|label1"
 msgid "Add:"
-msgstr "Voeg by"
+msgstr "Voeg by:"
 
 #. r7hJD
 #: sc/uiconfig/scalc/ui/optimalcolwidthdialog.ui:115
-#, fuzzy
 msgctxt "optimalcolwidthdialog|default"
 msgid "_Default value"
-msgstr "Verstek waarde"
+msgstr "_Verstek waarde"
 
 #. QxNwS
 #: sc/uiconfig/scalc/ui/optimalrowheightdialog.ui:8
@@ -24427,24 +24396,21 @@ msgstr "Optimale ryhoogte"
 
 #. nVExa
 #: sc/uiconfig/scalc/ui/optimalrowheightdialog.ui:89
-#, fuzzy
 msgctxt "optimalrowheightdialog|label1"
 msgid "Add:"
-msgstr "Voeg by"
+msgstr "Voeg by:"
 
 #. CFWSU
 #: sc/uiconfig/scalc/ui/optimalrowheightdialog.ui:114
-#, fuzzy
 msgctxt "optimalrowheightdialog|default"
 msgid "_Default value"
-msgstr "Verstek waarde"
+msgstr "_Verstek waarde"
 
 #. AePrG
 #: sc/uiconfig/scalc/ui/optsortlists.ui:22
-#, fuzzy
 msgctxt "optsortlists|copy"
 msgid "_Copy"
-msgstr "Kopieer"
+msgstr "_Kopieer"
 
 #. jG3HS
 #: sc/uiconfig/scalc/ui/optsortlists.ui:45
@@ -24454,24 +24420,21 @@ msgstr ""
 
 #. iCaLd
 #: sc/uiconfig/scalc/ui/optsortlists.ui:90
-#, fuzzy
 msgctxt "optsortlists|listslabel"
 msgid "_Lists"
-msgstr "Lyste"
+msgstr "_Lyste"
 
 #. EBMmZ
 #: sc/uiconfig/scalc/ui/optsortlists.ui:106
-#, fuzzy
 msgctxt "optsortlists|entrieslabel"
 msgid "_Entries"
-msgstr "~Inskrywings"
+msgstr "_Inskrywings"
 
 #. GcE5C
 #: sc/uiconfig/scalc/ui/optsortlists.ui:166
-#, fuzzy
 msgctxt "optsortlists|new"
 msgid "_New"
-msgstr "Nuwe"
+msgstr "_Nuwe"
 
 #. wETY5
 #: sc/uiconfig/scalc/ui/optsortlists.ui:180
@@ -24481,24 +24444,21 @@ msgstr ""
 
 #. KiBRx
 #: sc/uiconfig/scalc/ui/optsortlists.ui:194
-#, fuzzy
 msgctxt "optsortlists|add"
 msgid "_Add"
-msgstr "Voeg by"
+msgstr "_Voeg by"
 
 #. yADBm
 #: sc/uiconfig/scalc/ui/optsortlists.ui:208
-#, fuzzy
 msgctxt "optsortlists|modify"
 msgid "Modif_y"
-msgstr "Wysig"
+msgstr "_Wysig"
 
 #. yN2Fo
 #: sc/uiconfig/scalc/ui/optsortlists.ui:222
-#, fuzzy
 msgctxt "optsortlists|delete"
 msgid "_Delete"
-msgstr "Skrap"
+msgstr "_Skrap"
 
 #. U2gkF
 #: sc/uiconfig/scalc/ui/pagetemplatedialog.ui:8
@@ -24514,10 +24474,9 @@ msgstr ""
 
 #. CbW7A
 #: sc/uiconfig/scalc/ui/pagetemplatedialog.ui:198
-#, fuzzy
 msgctxt "pagetemplatedialog|page"
 msgid "Page"
-msgstr "Bladsye"
+msgstr "Bladsy"
 
 #. yXBdU
 #: sc/uiconfig/scalc/ui/pagetemplatedialog.ui:245
@@ -24575,14 +24534,12 @@ msgstr ""
 
 #. BzbWJ
 #: sc/uiconfig/scalc/ui/paradialog.ui:276
-#, fuzzy
 msgctxt "paradialog|labelTP_TABULATOR"
 msgid "Tabs"
-msgstr "Keep"
+msgstr "Tab-stoppe"
 
 #. py7L6
 #: sc/uiconfig/scalc/ui/paratemplatedialog.ui:8
-#, fuzzy
 msgctxt "paratemplatedialog|ParaTemplateDialog"
 msgid "Cell Style"
 msgstr "Selstyle"
@@ -24673,17 +24630,15 @@ msgstr ""
 
 #. BSEWE
 #: sc/uiconfig/scalc/ui/pastespecial.ui:197
-#, fuzzy
 msgctxt "pastespecial|text"
 msgid "Te_xt"
-msgstr "Teks"
+msgstr "Te_ks"
 
 #. qzFbg
 #: sc/uiconfig/scalc/ui/pastespecial.ui:213
-#, fuzzy
 msgctxt "pastespecial|numbers"
 msgid "_Numbers"
-msgstr "Nommer"
+msgstr "_Getalle"
 
 #. DBaJD
 #: sc/uiconfig/scalc/ui/pastespecial.ui:229
@@ -24693,31 +24648,27 @@ msgstr ""
 
 #. MSe4m
 #: sc/uiconfig/scalc/ui/pastespecial.ui:245
-#, fuzzy
 msgctxt "pastespecial|formulas"
 msgid "_Formulas"
-msgstr "Formules"
+msgstr "_Formules"
 
 #. NT4Am
 #: sc/uiconfig/scalc/ui/pastespecial.ui:261
-#, fuzzy
 msgctxt "pastespecial|comments"
 msgid "_Comments"
-msgstr "Opmerkings"
+msgstr "_Opmerkings"
 
 #. aHXF8
 #: sc/uiconfig/scalc/ui/pastespecial.ui:277
-#, fuzzy
 msgctxt "pastespecial|formats"
 msgid "For_mats"
-msgstr "Formaat"
+msgstr "Formate"
 
 #. Umb86
 #: sc/uiconfig/scalc/ui/pastespecial.ui:293
-#, fuzzy
 msgctxt "pastespecial|objects"
 msgid "_Objects"
-msgstr "Objekte"
+msgstr "_Objekte"
 
 #. gjnwU
 #: sc/uiconfig/scalc/ui/pastespecial.ui:315
@@ -24727,31 +24678,27 @@ msgstr "Seleksie"
 
 #. nJiy4
 #: sc/uiconfig/scalc/ui/pastespecial.ui:349
-#, fuzzy
 msgctxt "pastespecial|none"
 msgid "Non_e"
-msgstr "Geen"
+msgstr "G_een"
 
 #. CEsbt
 #: sc/uiconfig/scalc/ui/pastespecial.ui:366
-#, fuzzy
 msgctxt "pastespecial|add"
 msgid "_Add"
-msgstr "Voeg by"
+msgstr "_Voeg by"
 
 #. iFTvh
 #: sc/uiconfig/scalc/ui/pastespecial.ui:383
-#, fuzzy
 msgctxt "pastespecial|subtract"
 msgid "_Subtract"
-msgstr "~Trek af"
+msgstr "_Trek af"
 
 #. pn4re
 #: sc/uiconfig/scalc/ui/pastespecial.ui:400
-#, fuzzy
 msgctxt "pastespecial|multiply"
 msgid "Multipl_y"
-msgstr "Veelvoud"
+msgstr "_Vermenigvuldig"
 
 #. ND3Xd
 #: sc/uiconfig/scalc/ui/pastespecial.ui:417
@@ -24785,10 +24732,9 @@ msgstr ""
 
 #. eJ6zh
 #: sc/uiconfig/scalc/ui/pastespecial.ui:507
-#, fuzzy
 msgctxt "pastespecial|link"
 msgid "_Link"
-msgstr "Skakel"
+msgstr "_Skakel"
 
 #. HCco8
 #: sc/uiconfig/scalc/ui/pastespecial.ui:529
@@ -24804,17 +24750,15 @@ msgstr ""
 
 #. 4HpJ2
 #: sc/uiconfig/scalc/ui/pastespecial.ui:580
-#, fuzzy
 msgctxt "pastespecial|move_down"
 msgid "Do_wn"
-msgstr "Af"
+msgstr "_Af"
 
 #. obSAt
 #: sc/uiconfig/scalc/ui/pastespecial.ui:597
-#, fuzzy
 msgctxt "pastespecial|move_right"
 msgid "_Right"
-msgstr "Regs"
+msgstr "_Regs"
 
 #. fzYTm
 #: sc/uiconfig/scalc/ui/pastespecial.ui:620
@@ -24830,31 +24774,27 @@ msgstr "Dataveld"
 
 #. 8Lex4
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:37
-#, fuzzy
 msgctxt "pivotfielddialog|options"
 msgid "_Options..."
-msgstr "Opsies..."
+msgstr "_Opsies..."
 
 #. KBmND
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:136
-#, fuzzy
 msgctxt "pivotfielddialog|none"
 msgid "_None"
-msgstr "Geen"
+msgstr "_Geen"
 
 #. ABmZC
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:153
-#, fuzzy
 msgctxt "pivotfielddialog|auto"
 msgid "_Automatic"
-msgstr "Outomaties"
+msgstr "_Outomaties"
 
 #. mHvW7
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:169
-#, fuzzy
 msgctxt "pivotfielddialog|user"
 msgid "_User-defined"
-msgstr "Gebruikergedefinieer"
+msgstr "_Gebruikergedefinieer"
 
 #. vDXUZ
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:232
@@ -24870,10 +24810,9 @@ msgstr ""
 
 #. aUWEK
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:268
-#, fuzzy
 msgctxt "pivotfielddialog|label2"
 msgid "Name:"
-msgstr "Naam"
+msgstr "Naam:"
 
 #. 5tnrL
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:8
@@ -24907,10 +24846,9 @@ msgstr "OR"
 
 #. rDPh7
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:140
-#, fuzzy
 msgctxt "pivotfilterdialog|label2"
 msgid "Operator"
-msgstr "B~ewerkers"
+msgstr "_Operator"
 
 #. AQC5N
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:151
@@ -24926,10 +24864,9 @@ msgstr "Voorwaarde"
 
 #. nCtXa
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:173
-#, fuzzy
 msgctxt "pivotfilterdialog|label5"
 msgid "Value"
-msgstr "Waardes"
+msgstr "Waarde"
 
 #. 9X5GC
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:356
@@ -24957,10 +24894,9 @@ msgstr ""
 
 #. GcFuF
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:458
-#, fuzzy
 msgctxt "pivotfilterdialog|dbarealabel"
 msgid "Data range:"
-msgstr "Dataomvang"
+msgstr "Dataomvang:"
 
 #. inZxG
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:471
@@ -24970,17 +24906,15 @@ msgstr ""
 
 #. SxeCx
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:491
-#, fuzzy
 msgctxt "pivotfilterdialog|label6"
 msgid "Op_tions"
-msgstr "Opsies"
+msgstr "_Opsies"
 
 #. ztfNB
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:48
-#, fuzzy
 msgctxt "pivottablelayoutdialog|PivotTableLayout"
 msgid "Pivot Table Layout"
-msgstr "DataLoods-waarde"
+msgstr "Spiltabel Uitleg"
 
 #. dhgK2
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:154
@@ -24990,10 +24924,9 @@ msgstr ""
 
 #. WWrpy
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:231
-#, fuzzy
 msgctxt "pivottablelayoutdialog|label5"
 msgid "Data Fields:"
-msgstr "Dataveld"
+msgstr "Datavelde:"
 
 #. BhTuC
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:308
@@ -25010,10 +24943,9 @@ msgstr "Dataveld"
 
 #. Scoht
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:470
-#, fuzzy
 msgctxt "pivottablelayoutdialog|label1"
 msgid "Available Fields:"
-msgstr "~Beskikbare velde"
+msgstr "Beskikbare velde:"
 
 #. BL7Ff
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:546
@@ -25077,17 +25009,15 @@ msgstr "Seleksie"
 
 #. UjyGK
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:789
-#, fuzzy
 msgctxt "pivottablelayoutdialog|destination-radio-named-range"
 msgid "Named range"
-msgstr "Getalomvang"
+msgstr "Benoemde Waardegebied"
 
 #. xhpiB
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:811
-#, fuzzy
 msgctxt "pivottablelayoutdialog|label8"
 msgid "Destination"
-msgstr "Bestemmings"
+msgstr "Bestemming"
 
 #. yDG3C
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:847
@@ -25097,17 +25027,15 @@ msgstr "Seleksie"
 
 #. 6s5By
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:885
-#, fuzzy
 msgctxt "pivottablelayoutdialog|source-radio-named-range"
 msgid "Named range"
-msgstr "Getalomvang"
+msgstr "Benoemde Waardegebied"
 
 #. QTYpg
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:918
-#, fuzzy
 msgctxt "pivottablelayoutdialog|label9"
 msgid "Source"
-msgstr "~Bron"
+msgstr "Bron"
 
 #. daE6g
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:936
@@ -25117,10 +25045,9 @@ msgstr ""
 
 #. bzj3c
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:8
-#, fuzzy
 msgctxt "printareasdialog|PrintAreasDialog"
 msgid "Edit Print Ranges"
-msgstr "Voeg drukomvang by"
+msgstr "Wysig drukomvang"
 
 #. ED3qW
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:138
@@ -25136,10 +25063,9 @@ msgstr ""
 
 #. jpkBC
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:140
-#, fuzzy
 msgctxt "printareasdialog|lbprintarea"
 msgid "- user defined -"
-msgstr "- ongedefinieer -"
+msgstr "- gebruikersgedefinieer -"
 
 #. aBLgV
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:141
@@ -25149,7 +25075,6 @@ msgstr ""
 
 #. frRTf
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:157
-#, fuzzy
 msgctxt "printareasdialog|label1"
 msgid "Print Range"
 msgstr "Drukomvang"
@@ -25162,10 +25087,9 @@ msgstr "- geen -"
 
 #. Ya4kd
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:224
-#, fuzzy
 msgctxt "printareasdialog|lbrepeatrow"
 msgid "- user defined -"
-msgstr "- ongedefinieer -"
+msgstr "- gebruikersgedefinieer -"
 
 #. EFCSq
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:240
@@ -25181,10 +25105,9 @@ msgstr "- geen -"
 
 #. DnrZP
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:307
-#, fuzzy
 msgctxt "printareasdialog|lbrepeatcol"
 msgid "- user defined -"
-msgstr "- ongedefinieer -"
+msgstr "- gebruikersgedefinieer -"
 
 #. Ushqp
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:323
@@ -25206,10 +25129,9 @@ msgstr "Bladsye"
 
 #. fzcXE
 #: sc/uiconfig/scalc/ui/protectsheetdlg.ui:22
-#, fuzzy
 msgctxt "protectsheetdlg|ProtectSheetDialog"
 msgid "Protect Sheet"
-msgstr "Beskerm vel"
+msgstr "Beskerm blad"
 
 #. y8tgW
 #: sc/uiconfig/scalc/ui/protectsheetdlg.ui:109
@@ -25219,10 +25141,9 @@ msgstr ""
 
 #. MvZAZ
 #: sc/uiconfig/scalc/ui/protectsheetdlg.ui:135
-#, fuzzy
 msgctxt "protectsheetdlg|label1"
 msgid "_Password:"
-msgstr "Wagwoord:"
+msgstr "_Wagwoord:"
 
 #. sBBwy
 #: sc/uiconfig/scalc/ui/protectsheetdlg.ui:150
@@ -25244,17 +25165,15 @@ msgstr ""
 
 #. fsQEB
 #: sc/uiconfig/scalc/ui/protectsheetdlg.ui:306
-#, fuzzy
 msgctxt "protectsheetdlg|delete-rows"
 msgid "Delete rows"
-msgstr "Skrap ry"
+msgstr "Skrap rye"
 
 #. Arv5t
 #: sc/uiconfig/scalc/ui/protectsheetdlg.ui:318
-#, fuzzy
 msgctxt "protectsheetdlg|insert-rows"
 msgid "Insert rows"
-msgstr "Voeg ry in"
+msgstr "Voeg rye in"
 
 #. y93cJ
 #: sc/uiconfig/scalc/ui/protectsheetdlg.ui:330
@@ -25264,17 +25183,15 @@ msgstr ""
 
 #. cVdms
 #: sc/uiconfig/scalc/ui/protectsheetdlg.ui:342
-#, fuzzy
 msgctxt "protectsheetdlg|insert-columns"
 msgid "Insert columns"
-msgstr "Voeg kolom in"
+msgstr "Voeg kolomme in"
 
 #. qQhAG
 #: sc/uiconfig/scalc/ui/protectsheetdlg.ui:354
-#, fuzzy
 msgctxt "protectsheetdlg|delete-columns"
 msgid "Delete columns"
-msgstr "Skrap kolom"
+msgstr "Skrap kolomme"
 
 #. 3n2mh
 #: sc/uiconfig/scalc/ui/queryrunstreamscriptdialog.ui:13
@@ -25302,10 +25219,9 @@ msgstr "Data"
 
 #. fHkms
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:225
-#, fuzzy
 msgctxt "randomnumbergenerator|distribution-label"
 msgid "Distribution:"
-msgstr "Verspreiding..."
+msgstr "Verdeling:"
 
 #. A75xG
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:242
@@ -25351,10 +25267,9 @@ msgstr ""
 
 #. D4e83
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:249
-#, fuzzy
 msgctxt "randomnumbergenerator|distribution-liststore"
 msgid "Geometric"
-msgstr "Geometrie"
+msgstr "Geometriese verdeling"
 
 #. YNHUc
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:250
@@ -25400,10 +25315,9 @@ msgstr ""
 
 #. nRvWV
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:426
-#, fuzzy
 msgctxt "randomnumbergenerator|decimal-places-label"
 msgid "Decimal places:"
-msgstr "Desimale plekke"
+msgstr "Desimale plekke:"
 
 #. FTBJB
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:459
@@ -25455,17 +25369,15 @@ msgstr "Data"
 
 #. vTmkj
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:280
-#, fuzzy
 msgctxt "regressiondialog|groupedby-columns-radio"
 msgid "Columns"
-msgstr "Kolom"
+msgstr "Kolomme"
 
 #. A8787
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:296
-#, fuzzy
 msgctxt "regressiondialog|groupedby-rows-radio"
 msgid "Rows"
-msgstr "Ry"
+msgstr "Rye"
 
 #. zzc9a
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:318
@@ -25547,10 +25459,9 @@ msgstr ""
 
 #. vAFwf
 #: sc/uiconfig/scalc/ui/retypepassdialog.ui:10
-#, fuzzy
 msgctxt "retypepassdialog|RetypePass"
 msgid "Re-type Password"
-msgstr "Tik weer wagwoord"
+msgstr "Herhaal wagwoord"
 
 #. ik7CK
 #: sc/uiconfig/scalc/ui/retypepassdialog.ui:96
@@ -25560,17 +25471,15 @@ msgstr ""
 
 #. DGfRA
 #: sc/uiconfig/scalc/ui/retypepassdialog.ui:128
-#, fuzzy
 msgctxt "retypepassdialog|docStatusLabel"
 msgid "Status unknown"
 msgstr "Status onbekend"
 
 #. FvCNA
 #: sc/uiconfig/scalc/ui/retypepassdialog.ui:138
-#, fuzzy
 msgctxt "retypepassdialog|retypeDocButton"
 msgid "_Re-type"
-msgstr "Hertik"
+msgstr "_Hertik"
 
 #. QWtCp
 #: sc/uiconfig/scalc/ui/retypepassdialog.ui:158
@@ -25581,31 +25490,27 @@ msgstr "Dokumentbeskerming"
 
 #. Bqz9G
 #: sc/uiconfig/scalc/ui/retypepassdialog.ui:221
-#, fuzzy
 msgctxt "retypepassdialog|label3"
 msgid "Sheet protection"
-msgstr "Velbeskerming"
+msgstr "Blad beskerming"
 
 #. eGMrC
 #: sc/uiconfig/scalc/ui/retypepassworddialog.ui:8
-#, fuzzy
 msgctxt "retypepassworddialog|RetypePasswordDialog"
 msgid "Re-type Password"
-msgstr "Tik weer wagwoord"
+msgstr "Herhaal wagwoord"
 
 #. ZvhnQ
 #: sc/uiconfig/scalc/ui/retypepassworddialog.ui:87
-#, fuzzy
 msgctxt "retypepassworddialog|retypepassword"
 msgid "Re-type password"
-msgstr "Tik weer wagwoord"
+msgstr "Herhaal wagwoord"
 
 #. ZPR7e
 #: sc/uiconfig/scalc/ui/retypepassworddialog.ui:148
-#, fuzzy
 msgctxt "retypepassworddialog|label4"
 msgid "Pa_ssword:"
-msgstr "Wagwoord:"
+msgstr "_Wagwoord:"
 
 #. VgQFk
 #: sc/uiconfig/scalc/ui/retypepassworddialog.ui:162
@@ -25663,10 +25568,9 @@ msgstr "Hoogte:"
 
 #. thALC
 #: sc/uiconfig/scalc/ui/rowheightdialog.ui:114
-#, fuzzy
 msgctxt "rowheightdialog|default"
 msgid "_Default value"
-msgstr "Verstek waarde"
+msgstr "_Verstek waarde"
 
 #. z864t
 #: sc/uiconfig/scalc/ui/samplingdialog.ui:20
@@ -25706,17 +25610,15 @@ msgstr ""
 
 #. ug6Sn
 #: sc/uiconfig/scalc/ui/samplingdialog.ui:284
-#, fuzzy
 msgctxt "samplingdialog|periodic-method-radio"
 msgid "Periodic"
-msgstr "Tydperk"
+msgstr "Periodiek"
 
 #. xNEnn
 #: sc/uiconfig/scalc/ui/samplingdialog.ui:322
-#, fuzzy
 msgctxt "samplingdialog|label3"
 msgid "Period:"
-msgstr "Tydperk"
+msgstr "Tydperk:"
 
 #. FkbDr
 #: sc/uiconfig/scalc/ui/samplingdialog.ui:334
@@ -25738,7 +25640,6 @@ msgstr ""
 
 #. WMPmE
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:8
-#, fuzzy
 msgctxt "scenariodialog|ScenarioDialog"
 msgid "Create Scenario"
 msgstr "Skep scenario"
@@ -25751,10 +25652,9 @@ msgstr ""
 
 #. X9GgG
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:176
-#, fuzzy
 msgctxt "scenariodialog|label2"
 msgid "Comment"
-msgstr "Opmerkings"
+msgstr "Opmerking"
 
 #. GcXCj
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:210
@@ -25782,17 +25682,15 @@ msgstr ""
 
 #. R8AVm
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:310
-#, fuzzy
 msgctxt "scenariodialog|label3"
 msgid "Settings"
 msgstr "Instellings"
 
 #. RGGkM
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:326
-#, fuzzy
 msgctxt "scenariodialog|alttitle"
 msgid "Edit Scenario"
-msgstr "Redigeer scenario"
+msgstr "Wysig scenario"
 
 #. L3X5A
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:342
@@ -26240,10 +26138,9 @@ msgstr "Rooster"
 
 #. gwu4K
 #: sc/uiconfig/scalc/ui/sheetprintpage.ui:245
-#, fuzzy
 msgctxt "sheetprintpage|checkBTN_NOTES"
 msgid "_Comments"
-msgstr "Opmerkings"
+msgstr "_Opmerkings"
 
 #. JDNDB
 #: sc/uiconfig/scalc/ui/sheetprintpage.ui:260
@@ -28624,7 +28521,6 @@ msgstr "kleiner as"
 
 #. 9DK6f
 #: sc/uiconfig/scalc/ui/validationcriteriapage.ui:69
-#, fuzzy
 msgctxt "validationcriteriapage|liststore2"
 msgid "greater than"
 msgstr "groter as"
