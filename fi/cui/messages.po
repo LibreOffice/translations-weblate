@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-02-27 12:57+0100\n"
-"PO-Revision-Date: 2020-10-02 18:35+0000\n"
+"PO-Revision-Date: 2020-10-06 14:35+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://weblate.documentfoundation.org/projects/libo_ui-6-4/cuimessages/fi/>\n"
 "Language: fi\n"
@@ -419,7 +419,7 @@ msgstr "%PRODUCTNAME makrot"
 #: cui/inc/strings.hrc:86
 msgctxt "RID_SVXSTR_NOMACRODESC"
 msgid "There is no description available for this macro."
-msgstr "Makrolle ei ole saatavilla lisätietoja."
+msgstr "Makrolle ei ole kuvausta."
 
 #. Ne7wd
 #: cui/inc/strings.hrc:87
@@ -1310,37 +1310,37 @@ msgstr "%PRODUCTNAME-virhe"
 #: cui/inc/strings.hrc:245
 msgctxt "RID_SVXSTR_ERROR_LANG_NOT_SUPPORTED"
 msgid "The scripting language %LANGUAGENAME is not supported."
-msgstr "Skriptikieli %LANGUAGENAME ei ole tuettu."
+msgstr "Komentokieltä %LANGUAGENAME ei tueta."
 
 #. EUek9
 #: cui/inc/strings.hrc:246
 msgctxt "RID_SVXSTR_ERROR_RUNNING"
 msgid "An error occurred while running the %LANGUAGENAME script %SCRIPTNAME."
-msgstr "Virhe ilmeni ajettaessa %LANGUAGENAME skriptiä %SCRIPTNAME."
+msgstr "%LANGUAGENAME-komentosarjaa %SCRIPTNAME suoritettaessa tapahtui virhe."
 
 #. KVQAh
 #: cui/inc/strings.hrc:247
 msgctxt "RID_SVXSTR_EXCEPTION_RUNNING"
 msgid "An exception occurred while running the %LANGUAGENAME script %SCRIPTNAME."
-msgstr "Poikkeus ilmeni ajettaessa %LANGUAGENAME skriptiä %SCRIPTNAME."
+msgstr "%LANGUAGENAME-komentosarjaa %SCRIPTNAME suoritettaessa tapahtui poikkeus."
 
 #. 5bFCQ
 #: cui/inc/strings.hrc:248
 msgctxt "RID_SVXSTR_ERROR_AT_LINE"
 msgid "An error occurred while running the %LANGUAGENAME script %SCRIPTNAME at line: %LINENUMBER."
-msgstr "Virhe ilmeni ajettaessa %LANGUAGENAME skriptiä %SCRIPTNAME rivillä: %LINENUMBER."
+msgstr "%LANGUAGENAME-komentosarjaa %SCRIPTNAME suoritettaessa tapahtui virhe rivillä: %LINENUMBER."
 
 #. KTptU
 #: cui/inc/strings.hrc:249
 msgctxt "RID_SVXSTR_EXCEPTION_AT_LINE"
 msgid "An exception occurred while running the %LANGUAGENAME script %SCRIPTNAME at line: %LINENUMBER."
-msgstr "Poikkeus ilmeni ajettaessa %LANGUAGENAME skriptiä %SCRIPTNAME rivillä: %LINENUMBER."
+msgstr "%LANGUAGENAME-komentosarjaa %SCRIPTNAME suoritettaessa tapahtui poikkeus rivillä: %LINENUMBER."
 
 #. BZDbp
 #: cui/inc/strings.hrc:250
 msgctxt "RID_SVXSTR_FRAMEWORK_ERROR_RUNNING"
 msgid "A Scripting Framework error occurred while running the %LANGUAGENAME script %SCRIPTNAME."
-msgstr "Skriptikehyksessä ilmeni virhe ajettaessa %LANGUAGENAME skriptiä %SCRIPTNAME."
+msgstr "%LANGUAGENAME-komentosarjaa %SCRIPTNAME suoritettaessa tapahtui komentosarjakehysvirhe."
 
 #. AAghx
 #: cui/inc/strings.hrc:251
@@ -1380,10 +1380,9 @@ msgstr "PowerPointista %PRODUCTNAME Impressiin tai toisin päin"
 
 #. sE8as
 #: cui/inc/strings.hrc:258
-#, fuzzy
 msgctxt "RID_SVXSTR_CHG_SMARTART"
 msgid "SmartArt to %PRODUCTNAME shapes or reverse"
-msgstr "SmartArt -> %PRODUCTNAME-kuvio tai takaisin"
+msgstr "SmartArtista %PRODUCTNAME-muodoiksi tai toisin päin"
 
 #. AEgXY
 #: cui/inc/strings.hrc:259
@@ -1794,7 +1793,7 @@ msgstr "Yhdistä yhden rivin kappaleet, jos pituus on suurempi kuin %1"
 #: cui/inc/strings.hrc:341
 msgctxt "RID_SVXSTR_NUM"
 msgid "Bulleted and numbered lists. Bullet symbol: %1"
-msgstr "Luettelot ja numeroidut listat. Luettelomerkki: %1"
+msgstr "Numeroimattomat ja numeroidut luettelot. Luettelomerkki: %1"
 
 #. BJVGT
 #: cui/inc/strings.hrc:342
@@ -3600,10 +3599,9 @@ msgstr "Aasialainen asettelu"
 
 #. VsApk
 #: cui/inc/treeopt.hrc:58
-#, fuzzy
 msgctxt "SID_LANGUAGE_OPTIONS_RES"
 msgid "Complex Text Layout"
-msgstr "Laajennettu tekstiasettelu"
+msgstr "Kompleksisen tekstin asettelu"
 
 #. TGnig
 #: cui/inc/treeopt.hrc:63
@@ -7182,7 +7180,7 @@ msgstr "Esikatselu"
 #: cui/uiconfig/ui/effectspage.ui:78
 msgctxt "effectspage|effectsft"
 msgid "Case:"
-msgstr "Aakkoslaji:"
+msgstr "Kirjainkoko:"
 
 #. ce9M4
 #: cui/uiconfig/ui/effectspage.ui:92
@@ -7288,7 +7286,6 @@ msgstr "Sijainti:"
 
 #. QBQPF
 #: cui/uiconfig/ui/effectspage.ui:183
-#, fuzzy
 msgctxt "effectspage|emphasisft"
 msgid "Emphasis mark:"
 msgstr "Painotusmerkki:"
@@ -7813,7 +7810,7 @@ msgstr "Tausta"
 #: cui/uiconfig/ui/formatnumberdialog.ui:8
 msgctxt "formatnumberdialog|FormatNumberDialog"
 msgid "Format Number"
-msgstr "Luvun muotoilu"
+msgstr "Luvun muoto"
 
 #. wynwf
 #: cui/uiconfig/ui/galleryapplyprogress.ui:8
@@ -9398,7 +9395,7 @@ msgstr "- ei mitään -"
 #: cui/uiconfig/ui/linetabpage.ui:703
 msgctxt "linetabpage|liststoreEDGE_STYLE"
 msgid "Mitered"
-msgstr "Kulmikas"
+msgstr "Jiiri"
 
 #. RjDyz
 #: cui/uiconfig/ui/linetabpage.ui:704
@@ -9842,13 +9839,13 @@ msgstr "Valikon sijainti:"
 #: cui/uiconfig/ui/movemenu.ui:228
 msgctxt "movemenu|up-atkobject"
 msgid "Up"
-msgstr "Ylös"
+msgstr "Ylöspäin"
 
 #. nRLog
 #: cui/uiconfig/ui/movemenu.ui:247
 msgctxt "movemenu|down-atkobject"
 msgid "Down"
-msgstr "Alas"
+msgstr "Alaspäin"
 
 #. qoE4K
 #: cui/uiconfig/ui/multipathdialog.ui:22
@@ -10530,7 +10527,7 @@ msgstr "Ota käyttöön kokeelliset (mahdollisesti epävakaat) toiminnot"
 #: cui/uiconfig/ui/optadvancedpage.ui:377
 msgctxt "optadvancedpage|macrorecording"
 msgid "Enable macro recording (may be limited)"
-msgstr "Salli makrojen nauhoittaminen (rajoitetusti)"
+msgstr "Ota käyttöön makrojen nauhoittaminen (rajoitetusti)"
 
 #. NgRXw
 #: cui/uiconfig/ui/optadvancedpage.ui:392
@@ -11463,10 +11460,9 @@ msgstr "Vain nykyisessä asiakirjassa"
 
 #. zeaKX
 #: cui/uiconfig/ui/optlanguagespage.ui:335
-#, fuzzy
 msgctxt "optlanguagespage|ctlsupport"
 msgid "Complex _text layout:"
-msgstr "Laajennettu tekstiasettelu:"
+msgstr "Kompleksisen tekstin asettelu:"
 
 #. mpLF7
 #: cui/uiconfig/ui/optlanguagespage.ui:350
@@ -13297,7 +13293,7 @@ msgstr "Anna salasana avataksesi"
 #: cui/uiconfig/ui/password.ui:149
 msgctxt "password|label1"
 msgid "Note: After a password has been set, the document will only open with the password. Should you lose the password, there will be no way to recover the document. Please also note that this password is case-sensitive."
-msgstr "Huomaa: Kun salasana on asetettu, asiakirja voidaan avata vain kyseisellä salasanalla. Jos hukkaat salasanan, asiakirjaa ei ole mahdollista palauttaa luettavaksi. Huomaa myös, että salasanassa aakkoslajilla (isot ja pienet kirjaimet) on merkitystä."
+msgstr "Huomaa: Kun salasana on asetettu, asiakirja voidaan avata vain kyseisellä salasanalla. Jos hukkaat salasanan, asiakirjaa ei ole mahdollista palauttaa luettavaksi. Huomaa myös, että salasanassa kirjainkoolla (isot ja pienet kirjaimet) on merkitystä."
 
 #. scLkF
 #: cui/uiconfig/ui/password.ui:183
