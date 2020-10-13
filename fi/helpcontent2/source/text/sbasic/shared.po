@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-07-02 14:37+0200\n"
-"PO-Revision-Date: 2020-03-27 22:16+0000\n"
+"PO-Revision-Date: 2020-10-13 12:35+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
-"Language-Team: Finnish <https://weblate.documentfoundation.org/projects/libo_help-master/textsbasicshared/fi/>\n"
+"Language-Team: Finnish <https://weblate.documentfoundation.org/projects/libo_help-7-0/textsbasicshared/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.1.1\n"
 "X-POOTLE-MTIME: 1540152935.000000\n"
 
 #. yzYVt
@@ -203,7 +203,7 @@ msgctxt ""
 "par_id3153381\n"
 "help.text"
 msgid "You can set the locale used for controlling the formatting numbers, dates and currencies in $[officename] Basic in <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - Language Settings - Languages</emph>. In Basic format codes, the decimal point (<emph>.</emph>) is always used as <emph>placeholder</emph> for the decimal separator defined in your locale and will be replaced by the corresponding character."
-msgstr "$[officename] Basicin voi säätää käyttämään paikallisia muotoiluja luvuille, päivämäärille ja valuutoille <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Asetukset</caseinline><defaultinline>Työkalut - Asetukset</defaultinline></switchinline> - Kieliasetukset - Kielet</emph> -lehdeltä. Basicin muotoilukoodeissa desimaalipistettä (<emph>.</emph>) käytetään aina desimaalimerkin <emph>paikkamerkkinä</emph>, jonka paikalliset asetukset voivat korvata esimerkiksi pilkulla."
+msgstr "$[officename] Basicin voi säätää käyttämään paikallisia muotoiluja luvuille, päivämäärille ja valuutoille <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Asetukset</caseinline><defaultinline>Työkalut - Asetukset</defaultinline></switchinline> - Kieliasetukset - Kielet</emph> -lehdeltä. Basicin muotoilukoodeissa desimaalipistettä (<emph>.</emph>) käytetään aina desimaalierottimen <emph>paikanvaraajana</emph>, jonka paikalliset asetukset voivat korvata esimerkiksi pilkulla."
 
 #. 6NcoV
 #: 00000003.xhp
@@ -32090,7 +32090,7 @@ msgctxt ""
 "par_id3154123\n"
 "help.text"
 msgid "<emph>#:</emph> If <emph>Number</emph> contains a digit at the position of the # placeholder in the <emph>Format</emph> code, the digit is displayed, otherwise nothing is displayed at this position."
-msgstr "<emph>#:</emph> Jos <emph>luku1:ssä</emph> on numero samassa asemassa kuin <emph>muotoilu1</emph>-koodissa paikkamerkki #, niin numero esitetään, muutoin asemassa ei esitetä mitään."
+msgstr "<emph>#:</emph> Jos <emph>luku1:ssä</emph> on numero samassa sijainnissa kuin <emph>muotoilu1</emph>-koodissa paikanvaraaja #, numero näytetään, muutoin sijainnissa ei näytetä mitään."
 
 #. EKGPx
 #: 03120301.xhp
@@ -32108,7 +32108,7 @@ msgctxt ""
 "par_id3159150\n"
 "help.text"
 msgid "<emph>.:</emph> The decimal placeholder determines the number of decimal places to the left and right of the decimal separator."
-msgstr "<emph>.:</emph> Desimaalipaikkamerkki määrittää numeroiden määrän vasemmalle ja oikealle desimaalierottimesta."
+msgstr "<emph>.:</emph> Desimaalipaikanvaraaja määrää desimaalien määrän desimaalierottimen vasemmalla ja oikealla puolella."
 
 #. tWDUe
 #: 03120301.xhp
@@ -32117,7 +32117,7 @@ msgctxt ""
 "par_id3159252\n"
 "help.text"
 msgid "If the format code contains only # placeholders to the left of this symbol, numbers less than 1 begin with a decimal separator. To always display a leading zero with fractional numbers, use 0 as a placeholder for the first digit to the left of the decimal separator."
-msgstr "Jos muotoilukoodissa on vain #-paikkamerkkejä vasemmalle tästä symbolista, luvut, jotka ovat pienempiä kuin 1, alkavat desimaalierottimella. Kun halutaan esittää aina etunolla kokonaisosattomilla desimaaliluvuilla, käytetään 0-paikkamerkkiä ykkösten paikalla."
+msgstr "Jos muotoilukoodissa on vain #-paikanvaraajia tästä symbolista vasemmalle, luvut, jotka ovat pienempiä kuin 1, alkavat desimaalierottimella. Jos haluat että pienet luvut esitetään aina etunollalla, käytä 0-paikanvaraajaa ensimmäisenä numerona desimaalierottimesta vasemmalle."
 
 #. L7ry6
 #: 03120301.xhp
@@ -32135,7 +32135,7 @@ msgctxt ""
 "par_id3149481\n"
 "help.text"
 msgid "<emph>E- E+ e- e+ :</emph> If the format code contains at least one digit placeholder (0 or #) to the right of the symbol E-, E+, e-, or e+, the number is formatted in the scientific or exponential format. The letter E or e is inserted between the number and the exponent. The number of placeholders for digits to the right of the symbol determines the number of digits in the exponent."
-msgstr "<emph>E- E+ e- e+ :</emph> Jos muotoilukoodissa on vähintään yksi numeron paikkamerkki (0 tai #) oikealle symbolista E-, E+, e-, tai e+, luku muotoillaan tieteelliseen eli eksponenttilukumuotoon. Merkki E tai e lisätään lukuosan ja eksponenttiosan väliin. Paikkamerkkien lukumäärä oikealle symbolista määrittää eksponentin numeroiden määrän."
+msgstr "<emph>E- E+ e- e+ :</emph> Jos muotoilukoodissa on vähintään yksi numeropaikanvaraaja (0 tai #) symbolin E-, E+, e-, tai e+ oikealla puolella, luku muotoillaan tieteelliseen eli eksponenttimuotoon. Kirjain E tai e lisätään lukuosan ja eksponenttiosan väliin. Paikanvaraajien lukumäärä symbolin oikealla puolella määrää eksponentin numeroiden määrän."
 
 #. jhCb5
 #: 03120301.xhp
@@ -32153,7 +32153,7 @@ msgctxt ""
 "par_id3148617\n"
 "help.text"
 msgid "The thousands delimiter is displayed if the format code contains the delimiter enclosed by digit placeholders (0 or #)."
-msgstr "Tuhaterotin esitetään, jos muotoilukoodissa se on rajattu numeroiden paikkamerkein (0 tai #)."
+msgstr "Tuhaterotin esitetään, jos muotoilukoodissa se on rajattu numeropaikanvaraajin (0 tai #)."
 
 #. A8QmE
 #: 03120301.xhp
