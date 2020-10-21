@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-07-11 18:38+0200\n"
-"PO-Revision-Date: 2020-10-19 16:35+0000\n"
+"PO-Revision-Date: 2020-10-21 10:35+0000\n"
 "Last-Translator: Євген Кондратюк <lachend@gmail.com>\n"
 "Language-Team: Ukrainian <https://weblate.documentfoundation.org/projects/libo_help-6-3/textsharedguide/uk/>\n"
 "Language: uk\n"
@@ -12830,7 +12830,7 @@ msgctxt ""
 "par_id3153345\n"
 "help.text"
 msgid "When you include hyperlinks, two factors must be taken into account: whether they are set as relative or absolute on saving, and whether or not the file is present."
-msgstr ""
+msgstr "При включенні гіперпосилань до документів варто враховувати два чинники: як вони налаштовані при зберіганні - як абсолютні чи як відносні, а також чи буде існувати відповідний файл."
 
 #. swmJ3
 #: hyperlink_rel_abs.xhp
@@ -12848,7 +12848,7 @@ msgctxt ""
 "par_id3145382\n"
 "help.text"
 msgid "You should create the same directory structure on your hard disk as that which exists in the web space hosted by your Internet provider. Call the root directory for the homepage on your hard disk \"homepage\", for example. The start file is then \"index.html\", the full path being \"C:\\homepage\\index.html\" (assuming Windows operating system). The URL on your Internet provider's server might then be as follows: \"http://www.myprovider.com/mypage/index.html\". With relative addressing, you indicate the link relative to the location of the output document. For example, if you placed all the graphics for your homepage in a subfolder called \"C:\\homepage\\images\", you would need to give the following path to access the graphic \"picture.gif\": \"images\\picture.gif\". This is the relative path, starting from the location of the file \"index.html\". On the provider's server, you would place the picture in the folder \"mypage/images\". When you transfer the document \"index.html\" to the provider's server through the <emph>File - Save As</emph> dialog, and if you have marked the option <emph>Copy local images to Internet</emph> under <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - Load/Save - HTML Compatibility</emph>, $[officename] will automatically copy the graphic to the correct directory on the server."
-msgstr ""
+msgstr "Вам слід створити ту саму структуру каталогів на жорсткому диску, яка існує у веб-просторі, розміщеному у Вашого Інтернет-провайдера. Назвіть кореневий каталог для домашньої сторінки на жорсткому диску, наприклад, \"homepage\". Стартовий файл назвіть \"index.html\", повний шлях буде \"C:\\homepage\\index.html\" (припустимо, ваша ОС - Windows). Посилання на сервер Вашого Інтернет-провайдера могло б виглядати так: \"http://www.myprovider.com/mypage/index.html\". Відносною адресацією Ви вказуєте посилання, відносне розташуванню вихідного документа.  Наприклад, якщо всі зображення з Вашої домашньої сторінки містяться у підкаталозі \"C:\\homepage\\images\", Вам знадобиться вказати такий шлях для доступу до зображення \"picture.gif\": \"images\\picture.gif\". Це відносний шлях, що починається з розміщення файлу \"index.html\". На сервері провайдера Ви розмістите зображення у каталозі \"mypage/images\". Коли Ви переміщуєте документ \"index.html\" на сервер провайдера, використовуючи діалог<emph>Файл - Зберегти як</emph>, і якщо Ви відмітили параметр <emph>Копіювати локальні зображення в Інтернет</emph> на сторінці меню<switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Параметри</emph></caseinline><defaultinline><emph>Засоби - Параметри</emph></defaultinline></switchinline><emph> - Завантаження/Збереження - Сумісність з HTML</emph>, $[officename] автоматично скопіює зображення у потрібний каталог на сервері."
 
 #. bDwjd
 #: hyperlink_rel_abs.xhp
@@ -12857,7 +12857,7 @@ msgctxt ""
 "par_id3159158\n"
 "help.text"
 msgid "An absolute path such as \"C:\\homepage\\graphics\\picture.gif\" would no longer function on the provider server. Neither a server nor the computer of a reader needs to have a C hard drive: operating systems such as Unix or macOS do not recognize drive letters, and even if the folder homepage\\graphics existed, your picture would not be available. It is better to use relative addressing for file links."
-msgstr ""
+msgstr "Абсолютний шлях, такий як \"C:\\Власне\\графіка\\картинка.gif\" не працюватиме на сервері провайдера. Ні сервер, ні комп'ютер читача не потребує існування диску C : операційні системи, такі як Unix чи macOS не розпізнають літерних позначень дисків, і навіть якщо каталог Власне\\графіка існує, Ваша картинка буде недоступною. Краще використовувати відносну адресацію для посилань на файли."
 
 #. 3Rjas
 #: hyperlink_rel_abs.xhp
@@ -12866,7 +12866,7 @@ msgctxt ""
 "par_id3154046\n"
 "help.text"
 msgid "A link to a web page, for example, \"www.example.com\" or \"www.myprovider.com/mypage/index.html\" is an absolute link."
-msgstr ""
+msgstr "Посилання на веб-сторінку, наприклад, \"www.example.com\" чи \"www.myprovider.com/mypage/index.html\", є абсолютним посиланням."
 
 #. bTRZi
 #: hyperlink_rel_abs.xhp
@@ -12875,7 +12875,7 @@ msgctxt ""
 "par_id3155450\n"
 "help.text"
 msgid "$[officename] also reacts differently, depending on whether the file referred to in the link exists, and where it is located. $[officename] checks every new link and sets a target and protocol automatically. The result can be seen in the generated HTML code after saving the source document."
-msgstr ""
+msgstr "Крім того, поведінка $[officename] залежить від того, чи існує файл, на який вказує посилання, і де саме він розміщений. $[officename] перевіряє кожне нове посилання і налаштовує цільовий об'єкт і протокол автоматично. Результат можна побачити у створеному коді HTML після збереження початкового документа."
 
 #. E4iaR
 #: hyperlink_rel_abs.xhp
@@ -12884,7 +12884,7 @@ msgctxt ""
 "par_id3145317\n"
 "help.text"
 msgid "The following rules apply: A relative reference (\"graphic/picture.gif\") is only possible when both files exist on the same drive. If the files are on different drives in your local file system, the absolute reference follows the \"file:\" protocol (\"file:///data1/xyz/picture.gif\"). If the files are on different servers or if the target of the link is not available, the absolute reference uses the \"http:\" protocol (\"http://data2/abc/picture.gif\")."
-msgstr ""
+msgstr "Для посилань діють такі правила. Відносне посилання (\"graphic/picture.gif\") можливе лише в тому випадку, коли обидва файли розміщені на тому самому диску. Якщо файли розміщені на різних дисках локальної файлової системи, для абсолютного посилання використовується протокол \"file:\" (\"file:///data1/xyz/picture.gif\"). Коли ж файли розміщені на різних серверах або якщо об'єкт, на який вказує посилання, недоступний, в абсолютному посиланні використовується протокол \"http:\" (\"http://data2/abc/picture.gif\")."
 
 #. qB8Yx
 #: hyperlink_rel_abs.xhp
@@ -12893,7 +12893,7 @@ msgctxt ""
 "par_id3153541\n"
 "help.text"
 msgid "Be sure to organize all files for your homepage on the same drive as the start file of the homepage. In this way, $[officename] can set the protocol and target so that the reference on the server is always correct."
-msgstr ""
+msgstr "Таким чином, необхідно розмістити всі файли своєї сторінки на тому ж диску, що і початковий файл сторінки. В цьому разі  $[officename] зможе правильно встановити протокол і цільовий об'єкт, і посилання на сервері завжди буде правильним."
 
 #. 4E2tA
 #: hyperlink_rel_abs.xhp
