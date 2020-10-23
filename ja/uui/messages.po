@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-10-12 15:03+0200\n"
+"POT-Creation-Date: 2020-10-23 13:37+0200\n"
 "PO-Revision-Date: 2018-10-02 02:13+0000\n"
 "Last-Translator: Takeshi Abe <tabe@fixedpoint.jp>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -870,12 +870,6 @@ msgctxt "filterselect|FilterSelectDialog"
 msgid "Filter Selection"
 msgstr "フィルター選択"
 
-#. HoJXz
-#: uui/uiconfig/ui/filterselect.ui:137
-msgctxt "filterselect|extended_tip|filters"
-msgid "Select the import filter for the file that you want to open."
-msgstr "開くファイル用のインポートフィルターを選択します。"
-
 #. 8o9Bq
 #: uui/uiconfig/ui/logindialog.ui:8
 msgctxt "logindialog|LoginDialog"
@@ -1013,40 +1007,16 @@ msgid "Enter Master Password"
 msgstr "マスターパスワードの入力"
 
 #. REFvG
-#: uui/uiconfig/ui/masterpassworddlg.ui:87
+#: uui/uiconfig/ui/masterpassworddlg.ui:90
 msgctxt "masterpassworddlg|label1"
 msgid "_Enter password:"
 msgstr "パスワードの入力(_E):"
-
-#. bRcP4
-#: uui/uiconfig/ui/masterpassworddlg.ui:109
-msgctxt "masterpassworddlg|extended_tip|password"
-msgid "Type a password. A password is case sensitive."
-msgstr ""
-
-#. Twvfe
-#: uui/uiconfig/ui/masterpassworddlg.ui:138
-msgctxt "extended_tip|MasterPasswordDialog"
-msgid "Enter the master password to continue."
-msgstr "マスターパスワードを入力し、次に進みます。"
 
 #. qAMT2
 #: uui/uiconfig/ui/password.ui:8
 msgctxt "password|PasswordDialog"
 msgid "Set Password"
 msgstr "パスワードを設定"
-
-#. XDzCT
-#: uui/uiconfig/ui/password.ui:118
-msgctxt "password|extended_tip|newpassEntry"
-msgid "Type a password. A password is case sensitive."
-msgstr ""
-
-#. QbKd2
-#: uui/uiconfig/ui/password.ui:136
-msgctxt "password|extended_tip|confirmpassEntry"
-msgid "Re-enter the password."
-msgstr "パスワードの再入力"
 
 #. ioiyr
 #: uui/uiconfig/ui/setmasterpassworddlg.ui:8
@@ -1055,46 +1025,28 @@ msgid "Set Master Password"
 msgstr "マスターパスワードの設定"
 
 #. eBpmB
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:86
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:89
 msgctxt "setmasterpassworddlg|label1"
 msgid "Passwords for web connections are protected by a master password. You will be asked to enter it once per session, if %PRODUCTNAME retrieves a password from the protected password list."
 msgstr "Web 接続用のパスワードはマスターパスワードによって保護されています。%PRODUCTNAME が保護されたパスワードリストからパスワードを取得する場合、セッションごとにマスターパスワードを入力するよう求められます。"
 
 #. G2dce
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:102
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:105
 msgctxt "setmasterpassworddlg|label2"
 msgid "_Enter password:"
 msgstr "パスワードの入力(_E):"
 
-#. AG7BG
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:121
-msgctxt "extended_tip|password1"
-msgid "Enter the master password."
-msgstr ""
-
 #. yaAhh
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:135
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:133
 msgctxt "setmasterpassworddlg|label3"
 msgid "_Reenter password:"
 msgstr "パスワードの再入力(_R):"
 
-#. HjihJ
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:155
-msgctxt "extended_tip|password2"
-msgid "Enter the master password again."
-msgstr ""
-
 #. aNzdJ
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:170
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:163
 msgctxt "setmasterpassworddlg|label4"
 msgid "Caution: If you forget the master password, you will be unable to access any of the information protected by it. Passwords are case sensitive."
 msgstr "注意: 設定したマスターパスワードを覚えておいてください。忘れた場合、マスターパスワードによって保護されたいずれの情報にもアクセスできなくなります。パスワードは大文字と小文字が区別されます。"
-
-#. BHvee
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:200
-msgctxt "setmasterpassworddlg|extended_tip|SetMasterPasswordDialog"
-msgid "Assign a master password to protect the access to a saved password."
-msgstr "保存されているパスワードへのアクセスを保護するには、マスターパスワードを割り当てます。"
 
 #. dAeLu
 #: uui/uiconfig/ui/simplenameclash.ui:8
@@ -1161,3 +1113,19 @@ msgstr "この証明書を受け入れず、この Web サイトに接続しな�
 msgctxt "unknownauthdialog|examine"
 msgid "Examine Certificate…"
 msgstr "証明書の確認..."
+
+#~ msgctxt "filterselect|extended_tip|filters"
+#~ msgid "Select the import filter for the file that you want to open."
+#~ msgstr "開くファイル用のインポートフィルターを選択します。"
+
+#~ msgctxt "extended_tip|MasterPasswordDialog"
+#~ msgid "Enter the master password to continue."
+#~ msgstr "マスターパスワードを入力し、次に進みます。"
+
+#~ msgctxt "password|extended_tip|confirmpassEntry"
+#~ msgid "Re-enter the password."
+#~ msgstr "パスワードの再入力"
+
+#~ msgctxt "setmasterpassworddlg|extended_tip|SetMasterPasswordDialog"
+#~ msgid "Assign a master password to protect the access to a saved password."
+#~ msgstr "保存されているパスワードへのアクセスを保護するには、マスターパスワードを割り当てます。"
