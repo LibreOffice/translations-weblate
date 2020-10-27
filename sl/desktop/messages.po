@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LibreOffice 6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-10-23 13:36+0200\n"
+"POT-Creation-Date: 2020-10-27 12:31+0100\n"
 "PO-Revision-Date: 2018-09-16 16:19+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: sl.libreoffice.org\n"
@@ -18,112 +18,118 @@ msgstr ""
 "X-Project-Style: openoffice\n"
 
 #. v2iwK
-#: desktop/inc/strings.hrc:25
+#: desktop/inc/strings.hrc:24
 msgctxt "RID_STR_COPYING_PACKAGE"
 msgid "Copying: "
 msgstr "Kopiranje: "
 
 #. 2dzDt
-#: desktop/inc/strings.hrc:26
+#: desktop/inc/strings.hrc:25
 msgctxt "RID_STR_ERROR_WHILE_ADDING"
 msgid "Error while adding: "
 msgstr "Napaka pri dodajanju: "
 
 #. CUrtD
-#: desktop/inc/strings.hrc:27
+#: desktop/inc/strings.hrc:26
 msgctxt "RID_STR_ERROR_WHILE_REMOVING"
 msgid "Error while removing: "
 msgstr "Napaka pri odstranjevanju: "
 
 #. XyESz
-#: desktop/inc/strings.hrc:28
+#: desktop/inc/strings.hrc:27
 msgctxt "RID_STR_PACKAGE_ALREADY_ADDED"
 msgid "Extension has already been added: "
 msgstr "Razširitev je že bila dodana: "
 
 #. cuydq
-#: desktop/inc/strings.hrc:29
+#: desktop/inc/strings.hrc:28
 msgctxt "RID_STR_NO_SUCH_PACKAGE"
 msgid "There is no such extension deployed: "
 msgstr "Taka razširitev ni uporabljena: "
 
 #. wzGYv
-#: desktop/inc/strings.hrc:30
+#: desktop/inc/strings.hrc:29
 msgctxt "RID_STR_SYNCHRONIZING_REPOSITORY"
 msgid "Synchronizing repository for %NAME extensions"
 msgstr "Usklajevanje s skladiščem razširitev %NAME"
 
 #. dp8bf
-#: desktop/inc/strings.hrc:32
+#: desktop/inc/strings.hrc:31
 msgctxt "RID_STR_REGISTERING_PACKAGE"
 msgid "Enabling: "
 msgstr "Omogočanje: "
 
 #. xBysg
-#: desktop/inc/strings.hrc:33
+#: desktop/inc/strings.hrc:32
 msgctxt "RID_STR_REVOKING_PACKAGE"
 msgid "Disabling: "
 msgstr "Onemogočanje: "
 
 #. HDgpp
-#: desktop/inc/strings.hrc:34
+#: desktop/inc/strings.hrc:33
 msgctxt "RID_STR_CANNOT_DETECT_MEDIA_TYPE"
 msgid "Cannot detect media-type: "
 msgstr "Ni mogoče ugotoviti vrste medija: "
 
 #. QfGM7
-#: desktop/inc/strings.hrc:35
+#: desktop/inc/strings.hrc:34
 msgctxt "RID_STR_UNSUPPORTED_MEDIA_TYPE"
 msgid "This media-type is not supported: "
 msgstr "Ta vrsta medija ni podprta: "
 
 #. VHcMc
-#: desktop/inc/strings.hrc:36
+#: desktop/inc/strings.hrc:35
 msgctxt "RID_STR_ERROR_WHILE_REGISTERING"
 msgid "An error occurred while enabling: "
 msgstr "Med omogočanjem je prišlo do napake: "
 
 #. BqmAM
-#: desktop/inc/strings.hrc:37
+#: desktop/inc/strings.hrc:36
 msgctxt "RID_STR_ERROR_WHILE_REVOKING"
 msgid "An error occurred while disabling: "
 msgstr "Med onemogočanjem je prišlo do napake: "
 
 #. Avii2
-#: desktop/inc/strings.hrc:39
+#: desktop/inc/strings.hrc:38
 msgctxt "RID_STR_CONF_SCHEMA"
 msgid "Configuration Schema"
 msgstr "Konfiguracijska shema"
 
 #. cL9MC
-#: desktop/inc/strings.hrc:40
+#: desktop/inc/strings.hrc:39
 msgctxt "RID_STR_CONF_DATA"
 msgid "Configuration Data"
 msgstr "Konfiguracijski podatki"
 
 #. S8Pj8
-#: desktop/inc/strings.hrc:42
+#: desktop/inc/strings.hrc:41
 msgctxt "RID_STR_BASIC_LIB"
 msgid "Basic Library"
 msgstr ""
 
 #. Tnphj
-#: desktop/inc/strings.hrc:43
+#: desktop/inc/strings.hrc:42
 msgctxt "RID_STR_DIALOG_LIB"
 msgid "Dialog Library"
 msgstr "Knjižnica pogovornih oken"
 
 #. ThJQm
-#: desktop/inc/strings.hrc:44
+#: desktop/inc/strings.hrc:43
 msgctxt "RID_STR_CANNOT_DETERMINE_LIBNAME"
 msgid "The library name could not be determined."
 msgstr "Imena knjižnice ni mogoče določiti."
 
 #. G6SqW
-#: desktop/inc/strings.hrc:46
+#: desktop/inc/strings.hrc:45
 msgctxt "RID_STR_PACKAGE_BUNDLE"
 msgid "Extension"
 msgstr "Razširitev"
+
+#. o6NBi
+#: desktop/inc/strings.hrc:46
+msgctxt "RID_STR_PACKAGE_BUNDLE"
+msgid "All supported files"
+msgstr ""
 
 #. 5TAZB
 #: desktop/inc/strings.hrc:48
@@ -826,70 +832,130 @@ msgid "Extension Manager"
 msgstr "Upravitelj razširitev"
 
 #. gjCkd
-#: desktop/uiconfig/ui/extensionmanager.ui:87
+#: desktop/uiconfig/ui/extensionmanager.ui:84
 msgctxt "extensionmanager|shared"
 msgid "Installed for all users"
 msgstr "Nameščeno za vse uporabnike"
 
+#. pnXoG
+#: desktop/uiconfig/ui/extensionmanager.ui:94
+msgctxt "extensionmanager|extended_tip|shared"
+msgid "Filter extensions available for all users of this computer."
+msgstr "Filtrirajte razširitve, ki so na voljo vsem uporabnikom tega računalnika."
+
 #. zhqZT
-#: desktop/uiconfig/ui/extensionmanager.ui:103
+#: desktop/uiconfig/ui/extensionmanager.ui:105
 msgctxt "extensionmanager|user"
 msgid "Installed for current user"
 msgstr "Nameščeno za trenutnega uporabnika"
 
+#. QbHCi
+#: desktop/uiconfig/ui/extensionmanager.ui:115
+msgctxt "extensionmanager|extended_tip|user"
+msgid "Filter extensions only available for the currently logged in user."
+msgstr "Filtrirajte razširitve, ki so na voljo le trenutno prijavljenemu uporabniku."
+
 #. 6wBVk
-#: desktop/uiconfig/ui/extensionmanager.ui:119
+#: desktop/uiconfig/ui/extensionmanager.ui:126
 msgctxt "extensionmanager|bundled"
 msgid "Bundled with %PRODUCTNAME"
 msgstr "Vključeno v %PRODUCTNAME"
 
+#. nF4rD
+#: desktop/uiconfig/ui/extensionmanager.ui:136
+msgctxt "extensionmanager|extended_tip|bundled"
+msgid "Bundled extensions are installed by the system administrator using the operating system specific installer packages. These can not be installed, updated or removed here."
+msgstr "Razširitve, vključene v paket, skrbnik sistema namesti s potrebnimi namestitvenimi paketi za določen operacijski sistem. Slednjih na tem mestu ni mogoče namestiti, posodobiti ali odstraniti."
+
 #. T8BGR
-#: desktop/uiconfig/ui/extensionmanager.ui:141
+#: desktop/uiconfig/ui/extensionmanager.ui:153
 msgctxt "extensionmanager|label1"
 msgid "Display Extensions"
 msgstr "Pokaži razširitve"
 
+#. BAVdg
+#: desktop/uiconfig/ui/extensionmanager.ui:187
+msgctxt "extensionmanager|extended_tip|extensions"
+msgid "Select the extension that you want to remove, enable, or disable. For some extensions, you can also open an Options dialog."
+msgstr "Izberite razširitev, ki jo želite odstraniti, omogočiti ali onemogočiti. Pri nekaterih razširitvah lahko odprete tudi pogovorno okno Možnosti."
+
 #. DLME5
-#: desktop/uiconfig/ui/extensionmanager.ui:192
+#: desktop/uiconfig/ui/extensionmanager.ui:209
 msgctxt "extensionmanager|optionsbtn"
 msgid "_Options"
 msgstr "_Možnosti"
 
+#. DbuQS
+#: desktop/uiconfig/ui/extensionmanager.ui:216
+msgctxt "extensionmanager|extended_tip|optionsbtn"
+msgid "Select an installed extension, then click to open the Options dialog for the extension."
+msgstr "Izberite nameščeno razširitev, nato jo kliknite, da zanjo odprete pogovorno okno Možnosti."
+
 #. ieiF4
-#: desktop/uiconfig/ui/extensionmanager.ui:206
+#: desktop/uiconfig/ui/extensionmanager.ui:228
 msgctxt "extensionmanager|updatebtn"
 msgid "Check for _Updates"
 msgstr "Preveri _stanje posodobitev"
 
+#. rirpA
+#: desktop/uiconfig/ui/extensionmanager.ui:235
+msgctxt "extensionmanager|extended_tip|updatebtn"
+msgid "Click to check for online updates of all installed extensions. To check for updates of the selected extension only, choose the Update command from the context menu. The check for availability of updates starts immediately."
+msgstr "Kliknite, če želite preveriti, ali obstajajo spletne posodobitve za vse nameščene razširitve. Če želite preveriti obstoj posodobitev le za izbrane razširitve, izberite ukaz Posodobi v kontekstnem meniju. Preverjanje dostopnosti posodobitev se prične nemudoma."
+
 #. GehiB
-#: desktop/uiconfig/ui/extensionmanager.ui:221
+#: desktop/uiconfig/ui/extensionmanager.ui:248
 msgctxt "extensionmanager|addbtn"
 msgid "_Add"
 msgstr "Doda_j"
 
+#. MuigK
+#: desktop/uiconfig/ui/extensionmanager.ui:257
+msgctxt "extensionmanager|extended_tip|addbtn"
+msgid "Click Add to add an extension."
+msgstr "Če želite dodati razširitev, kliknite Dodaj."
+
 #. wNCAw
-#: desktop/uiconfig/ui/extensionmanager.ui:238
+#: desktop/uiconfig/ui/extensionmanager.ui:270
 msgctxt "extensionmanager|removebtn"
 msgid "_Remove"
 msgstr "Odst_rani"
 
+#. AGoX7
+#: desktop/uiconfig/ui/extensionmanager.ui:277
+msgctxt "extensionmanager|extended_tip|removebtn"
+msgid "Select the extension that you want to remove, and then click Remove."
+msgstr "Izberite razširitev, ki jo želite odstraniti, nato kliknite Odstrani."
+
 #. qHMdq
-#: desktop/uiconfig/ui/extensionmanager.ui:253
+#: desktop/uiconfig/ui/extensionmanager.ui:290
 msgctxt "extensionmanager|enablebtn"
 msgid "_Enable"
 msgstr "_Omogoči"
 
 #. vz3Ti
-#: desktop/uiconfig/ui/extensionmanager.ui:282
+#: desktop/uiconfig/ui/extensionmanager.ui:319
 msgctxt "extensionmanager|progressft"
 msgid "Adding %EXTENSION_NAME"
 msgstr "Dodajanje razširitve %EXTENSION_NAME"
 
 #. A33SB
-#: desktop/uiconfig/ui/extensionmanager.ui:317
+#: desktop/uiconfig/ui/extensionmanager.ui:354
 msgctxt "extensionmanager|getextensions"
 msgid "Get more extensions online..."
 msgstr "Več razširitev s spleta ..."
+
+#. FBvRd
+#: desktop/uiconfig/ui/extensionmanager.ui:362
+msgctxt "extensionmanager|extended_tip|getextensions"
+msgid "You can find a collection of extensions on the Web."
+msgstr "Na spletu lahko najdete cel nabor razširitev."
+
+#. vSiEz
+#: desktop/uiconfig/ui/extensionmanager.ui:397
+msgctxt "extensionmanager|extended_tip|ExtensionManagerDialog"
+msgid "The Extension Manager adds, removes, disables, enables, and updates %PRODUCTNAME extensions."
+msgstr "Upravitelj razširitev doda, odstrani, onemogoči, omogoči ali posodobi razširitve za %PRODUCTNAME."
 
 #. EGwkP
 #: desktop/uiconfig/ui/installforalldialog.ui:12
@@ -969,71 +1035,95 @@ msgctxt "licensedialog|down"
 msgid "_Scroll Down"
 msgstr "_Nasl. stran"
 
-#. qquCs
+#. x4PCF
 #: desktop/uiconfig/ui/showlicensedialog.ui:8
+msgctxt "showlicensedialog|extended_tip|ShowLicenseDialog"
+msgid "Read the license. Click the Scroll Down button to scroll down if necessary. Click Accept to continue the installation of the extension."
+msgstr "Preberite jo. Kliknite gumb Nasl. stran za pomik navzdol. Kliknite Sprejmi za nadaljevanje namestitve razširitve."
+
+#. qquCs
+#: desktop/uiconfig/ui/showlicensedialog.ui:13
 msgctxt "showlicensedialog|ShowLicenseDialog"
 msgid "Extension Software License Agreement"
 msgstr "Licenčna pogodba programske razširitve"
 
 #. GX3k2
-#: desktop/uiconfig/ui/updatedialog.ui:10
+#: desktop/uiconfig/ui/updatedialog.ui:24
 msgctxt "updatedialog|UpdateDialog"
 msgid "Extension Update"
 msgstr "Posodobitev razširitev"
 
 #. DmHy5
-#: desktop/uiconfig/ui/updatedialog.ui:44
+#: desktop/uiconfig/ui/updatedialog.ui:55
 msgctxt "updatedialog|INSTALL"
 msgid "_Install"
 msgstr "_Namesti"
 
 #. 3bJwo
-#: desktop/uiconfig/ui/updatedialog.ui:109
+#: desktop/uiconfig/ui/updatedialog.ui:120
 msgctxt "updatedialog|UPDATE_LABEL"
 msgid "_Available extension updates"
 msgstr "Posodobitve _razširitev, ki so na voljo"
 
 #. 3mtLC
-#: desktop/uiconfig/ui/updatedialog.ui:122
+#: desktop/uiconfig/ui/updatedialog.ui:133
 msgctxt "updatedialog|UPDATE_CHECKING"
 msgid "Checking..."
 msgstr "Preverjanje ..."
 
 #. WkYgi
-#: desktop/uiconfig/ui/updatedialog.ui:206
+#: desktop/uiconfig/ui/updatedialog.ui:217
 msgctxt "updatedialog|UPDATE_ALL"
 msgid "_Show all updates"
 msgstr "_Pokaži vse posodobitve"
 
+#. ihAhY
+#: desktop/uiconfig/ui/updatedialog.ui:227
+msgctxt "updatedialog|extended_tip|UPDATE_ALL"
+msgid "By default, only the downloadable extensions are shown in the dialog. Mark Show all Updates to see also other extensions and error messages."
+msgstr "V pogovornem oknu so privzeto prikazane le razširitve, ki jih je mogoče prenesti. Če potrdite polje Pokaži vse posodobitve, boste videli tudi druge razširitve in sporočila o napakah."
+
 #. BriDD
-#: desktop/uiconfig/ui/updatedialog.ui:240
+#: desktop/uiconfig/ui/updatedialog.ui:256
 msgctxt "updatedialog|DESCRIPTION_LABEL"
 msgid "Description"
 msgstr "Opis"
 
 #. 7DTtA
-#: desktop/uiconfig/ui/updatedialog.ui:258
+#: desktop/uiconfig/ui/updatedialog.ui:274
 msgctxt "updatedialog|PUBLISHER_LABEL"
 msgid "Publisher:"
 msgstr "Izdajatelj:"
 
 #. iaD89
-#: desktop/uiconfig/ui/updatedialog.ui:269
+#: desktop/uiconfig/ui/updatedialog.ui:285
 msgctxt "updatedialog|PUBLISHER_LINK"
 msgid "button"
 msgstr "gumb"
 
 #. kgLHP
-#: desktop/uiconfig/ui/updatedialog.ui:285
+#: desktop/uiconfig/ui/updatedialog.ui:301
 msgctxt "updatedialog|RELEASE_NOTES_LABEL"
 msgid "What is new:"
 msgstr "Novosti:"
 
 #. JqHGH
-#: desktop/uiconfig/ui/updatedialog.ui:296
+#: desktop/uiconfig/ui/updatedialog.ui:312
 msgctxt "updatedialog|RELEASE_NOTES_LINK"
 msgid "Release notes"
 msgstr "Opombe ob izdaji"
+
+#. UEHCd
+#: desktop/uiconfig/ui/updatedialog.ui:350
+msgctxt "updatedialog|extended_tip|DESCRIPTIONS"
+msgid "While checking for updates, you see a progress indicator. Wait for some messages to show up in the dialog, or click Cancel to abort the update check."
+msgstr "Ob preverjanju stanja posodobitev se prikaže stanje napredka. Počakajte, da se v pogovornem oknu prikažejo sporočila ali kliknite Prekliči za preklic preverjanja obstoja posodobitev."
+
+#. c5FG9
+#: desktop/uiconfig/ui/updatedialog.ui:387
+msgctxt "updatedialog|extended_tip|UpdateDialog"
+msgid "Click the Check for Updates button in the Extension Manager to check for online updates for all installed extensions. To check for online updates for only the selected extension, right-click to open the context menu, then choose Update."
+msgstr "Kliknite gumb Preveri stanje posodobitev v Upravitelju razširitev, če želite preveriti, ali obstajajo spletne posodobitve za vse nameščene razširitve. Če želite preveriti obstoj posodobitev le za izbrano razširitev, z desnim klikom odprite kontekstni meni in izberite ukaz Posodobi."
 
 #. YEhMN
 #: desktop/uiconfig/ui/updateinstalldialog.ui:8
@@ -1042,16 +1132,22 @@ msgid "Download and Installation"
 msgstr "Prenos in namestitev"
 
 #. t9MoN
-#: desktop/uiconfig/ui/updateinstalldialog.ui:90
+#: desktop/uiconfig/ui/updateinstalldialog.ui:87
 msgctxt "updateinstalldialog|DOWNLOADING"
 msgid "Downloading extensions..."
 msgstr "Prenos razširitev ..."
 
 #. 3AFnH
-#: desktop/uiconfig/ui/updateinstalldialog.ui:128
+#: desktop/uiconfig/ui/updateinstalldialog.ui:125
 msgctxt "updateinstalldialog|RESULTS"
 msgid "Result"
 msgstr "Rezultat"
+
+#. Q4xyF
+#: desktop/uiconfig/ui/updateinstalldialog.ui:178
+msgctxt "updateinstalldialog|extended_tip|UpdateInstallDialog"
+msgid "Click the Check for Updates button in the Extension Manager to check for online updates for all installed extensions. To check for online updates for only the selected extension, right-click to open the context menu, then choose Update."
+msgstr "Kliknite gumb Preveri stanje posodobitev v Upravitelju razširitev, če želite preveriti, ali obstajajo spletne posodobitve za vse nameščene razširitve. Če želite preveriti obstoj posodobitev le za izbrano razširitev, z desnim klikom odprite kontekstni meni in izberite ukaz Posodobi."
 
 #. Kfhc4
 #: desktop/uiconfig/ui/updaterequireddialog.ui:8
@@ -1082,66 +1178,6 @@ msgstr "%PRODUCTNAME je bil posodobljen na novejšo različico. Nekatere nameš�
 msgctxt "updaterequireddialog|progresslabel"
 msgid "Adding %EXTENSION_NAME"
 msgstr "Dodajanje razširitve %EXTENSION_NAME"
-
-#~ msgctxt "extensionmanager|extended_tip|shared"
-#~ msgid "Filter extensions available for all users of this computer."
-#~ msgstr "Filtrirajte razširitve, ki so na voljo vsem uporabnikom tega računalnika."
-
-#~ msgctxt "extensionmanager|extended_tip|user"
-#~ msgid "Filter extensions only available for the currently logged in user."
-#~ msgstr "Filtrirajte razširitve, ki so na voljo le trenutno prijavljenemu uporabniku."
-
-#~ msgctxt "extensionmanager|extended_tip|bundled"
-#~ msgid "Bundled extensions are installed by the system administrator using the operating system specific installer packages. These can not be installed, updated or removed here."
-#~ msgstr "Razširitve, vključene v paket, skrbnik sistema namesti s potrebnimi namestitvenimi paketi za določen operacijski sistem. Slednjih na tem mestu ni mogoče namestiti, posodobiti ali odstraniti."
-
-#~ msgctxt "extensionmanager|extended_tip|extensions"
-#~ msgid "Select the extension that you want to remove, enable, or disable. For some extensions, you can also open an Options dialog."
-#~ msgstr "Izberite razširitev, ki jo želite odstraniti, omogočiti ali onemogočiti. Pri nekaterih razširitvah lahko odprete tudi pogovorno okno Možnosti."
-
-#~ msgctxt "extensionmanager|extended_tip|optionsbtn"
-#~ msgid "Select an installed extension, then click to open the Options dialog for the extension."
-#~ msgstr "Izberite nameščeno razširitev, nato jo kliknite, da zanjo odprete pogovorno okno Možnosti."
-
-#~ msgctxt "extensionmanager|extended_tip|updatebtn"
-#~ msgid "Click to check for online updates of all installed extensions. To check for updates of the selected extension only, choose the Update command from the context menu. The check for availability of updates starts immediately."
-#~ msgstr "Kliknite, če želite preveriti, ali obstajajo spletne posodobitve za vse nameščene razširitve. Če želite preveriti obstoj posodobitev le za izbrane razširitve, izberite ukaz Posodobi v kontekstnem meniju. Preverjanje dostopnosti posodobitev se prične nemudoma."
-
-#~ msgctxt "extensionmanager|extended_tip|addbtn"
-#~ msgid "Click Add to add an extension."
-#~ msgstr "Če želite dodati razširitev, kliknite Dodaj."
-
-#~ msgctxt "extensionmanager|extended_tip|removebtn"
-#~ msgid "Select the extension that you want to remove, and then click Remove."
-#~ msgstr "Izberite razširitev, ki jo želite odstraniti, nato kliknite Odstrani."
-
-#~ msgctxt "extensionmanager|extended_tip|getextensions"
-#~ msgid "You can find a collection of extensions on the Web."
-#~ msgstr "Na spletu lahko najdete cel nabor razširitev."
-
-#~ msgctxt "extensionmanager|extended_tip|ExtensionManagerDialog"
-#~ msgid "The Extension Manager adds, removes, disables, enables, and updates %PRODUCTNAME extensions."
-#~ msgstr "Upravitelj razširitev doda, odstrani, onemogoči, omogoči ali posodobi razširitve za %PRODUCTNAME."
-
-#~ msgctxt "showlicensedialog|extended_tip|ShowLicenseDialog"
-#~ msgid "Read the license. Click the Scroll Down button to scroll down if necessary. Click Accept to continue the installation of the extension."
-#~ msgstr "Preberite jo. Kliknite gumb Nasl. stran za pomik navzdol. Kliknite Sprejmi za nadaljevanje namestitve razširitve."
-
-#~ msgctxt "updatedialog|extended_tip|UPDATE_ALL"
-#~ msgid "By default, only the downloadable extensions are shown in the dialog. Mark Show all Updates to see also other extensions and error messages."
-#~ msgstr "V pogovornem oknu so privzeto prikazane le razširitve, ki jih je mogoče prenesti. Če potrdite polje Pokaži vse posodobitve, boste videli tudi druge razširitve in sporočila o napakah."
-
-#~ msgctxt "updatedialog|extended_tip|DESCRIPTIONS"
-#~ msgid "While checking for updates, you see a progress indicator. Wait for some messages to show up in the dialog, or click Cancel to abort the update check."
-#~ msgstr "Ob preverjanju stanja posodobitev se prikaže stanje napredka. Počakajte, da se v pogovornem oknu prikažejo sporočila ali kliknite Prekliči za preklic preverjanja obstoja posodobitev."
-
-#~ msgctxt "updatedialog|extended_tip|UpdateDialog"
-#~ msgid "Click the Check for Updates button in the Extension Manager to check for online updates for all installed extensions. To check for online updates for only the selected extension, right-click to open the context menu, then choose Update."
-#~ msgstr "Kliknite gumb Preveri stanje posodobitev v Upravitelju razširitev, če želite preveriti, ali obstajajo spletne posodobitve za vse nameščene razširitve. Če želite preveriti obstoj posodobitev le za izbrano razširitev, z desnim klikom odprite kontekstni meni in izberite ukaz Posodobi."
-
-#~ msgctxt "updateinstalldialog|extended_tip|UpdateInstallDialog"
-#~ msgid "Click the Check for Updates button in the Extension Manager to check for online updates for all installed extensions. To check for online updates for only the selected extension, right-click to open the context menu, then choose Update."
-#~ msgstr "Kliknite gumb Preveri stanje posodobitev v Upravitelju razširitev, če želite preveriti, ali obstajajo spletne posodobitve za vse nameščene razširitve. Če želite preveriti obstoj posodobitev le za izbrano razširitev, z desnim klikom odprite kontekstni meni in izberite ukaz Posodobi."
 
 #~ msgctxt "RID_STR_BASIC_LIB"
 #~ msgid "%PRODUCTNAME Basic Library"

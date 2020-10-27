@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-10-23 13:37+0200\n"
+"POT-Creation-Date: 2020-10-27 12:31+0100\n"
 "PO-Revision-Date: 2020-08-27 11:26+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Lower Sorbian <https://weblate.documentfoundation.org/projects/libo_ui-master/uuimessages/dsb/>\n"
@@ -884,6 +884,12 @@ msgctxt "filterselect|FilterSelectDialog"
 msgid "Filter Selection"
 msgstr "Filtrowy wuběrk"
 
+#. HoJXz
+#: uui/uiconfig/ui/filterselect.ui:137
+msgctxt "filterselect|extended_tip|filters"
+msgid "Select the import filter for the file that you want to open."
+msgstr "Wubjeŕśo importěrowanski filter za dataju, kótaruž cośo wócyniś."
+
 #. 8o9Bq
 #: uui/uiconfig/ui/logindialog.ui:8
 msgctxt "logindialog|LoginDialog"
@@ -1021,16 +1027,40 @@ msgid "Enter Master Password"
 msgstr "Głowne gronidło zapódaś"
 
 #. REFvG
-#: uui/uiconfig/ui/masterpassworddlg.ui:90
+#: uui/uiconfig/ui/masterpassworddlg.ui:87
 msgctxt "masterpassworddlg|label1"
 msgid "_Enter password:"
 msgstr "_Gronidło zapódaś:"
+
+#. bRcP4
+#: uui/uiconfig/ui/masterpassworddlg.ui:109
+msgctxt "masterpassworddlg|extended_tip|password"
+msgid "Type a password. A password is case sensitive."
+msgstr "Zapódajśo gronidło. Gronidło mjazy wjeliko- a małopisanim rozeznawa."
+
+#. Twvfe
+#: uui/uiconfig/ui/masterpassworddlg.ui:138
+msgctxt "extended_tip|MasterPasswordDialog"
+msgid "Enter the master password to continue."
+msgstr "Zapódajśo głowne gronidło, aby pókšacował."
 
 #. qAMT2
 #: uui/uiconfig/ui/password.ui:8
 msgctxt "password|PasswordDialog"
 msgid "Set Password"
 msgstr "Gronidło nastajiś"
+
+#. XDzCT
+#: uui/uiconfig/ui/password.ui:118
+msgctxt "password|extended_tip|newpassEntry"
+msgid "Type a password. A password is case sensitive."
+msgstr "Zapódajśo gronidło. Gronidło mjazy wjeliko- a małopisanim rozeznawa."
+
+#. QbKd2
+#: uui/uiconfig/ui/password.ui:136
+msgctxt "password|extended_tip|confirmpassEntry"
+msgid "Re-enter the password."
+msgstr "Zapódajśo gronidło znowego."
 
 #. ioiyr
 #: uui/uiconfig/ui/setmasterpassworddlg.ui:8
@@ -1039,28 +1069,46 @@ msgid "Set Master Password"
 msgstr "Głowne gronidło nastajiś"
 
 #. eBpmB
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:89
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:86
 msgctxt "setmasterpassworddlg|label1"
 msgid "Passwords for web connections are protected by a master password. You will be asked to enter it once per session, if %PRODUCTNAME retrieves a password from the protected password list."
 msgstr "Gronidła za webzwiski se pśez głowne gronidło šćitaju. Dostanjośo napominanje, jo jaden raz na pósejźenje zapódaś, jolic se %PRODUCTNAME gronidło z lisćiny šćitanych gronidłow pomina."
 
 #. G2dce
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:105
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:102
 msgctxt "setmasterpassworddlg|label2"
 msgid "_Enter password:"
 msgstr "_Gronidło zapódaś:"
 
+#. AG7BG
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:121
+msgctxt "extended_tip|password1"
+msgid "Enter the master password."
+msgstr "Zapódajśo głowne gronidło."
+
 #. yaAhh
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:133
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:135
 msgctxt "setmasterpassworddlg|label3"
 msgid "_Reenter password:"
 msgstr "_Gronidło znowego zapódaś:"
 
+#. HjihJ
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:155
+msgctxt "extended_tip|password2"
+msgid "Enter the master password again."
+msgstr "Zapódajśo głowne gronidło hyšći raz."
+
 #. aNzdJ
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:163
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:170
 msgctxt "setmasterpassworddlg|label4"
 msgid "Caution: If you forget the master password, you will be unable to access any of the information protected by it. Passwords are case sensitive."
 msgstr "Glědajśo: Jolic głowne gronidło zabydnjośo, njamóžośo pśistup na informacije, kótarež se pśez njo šćitaju. Gronidła mjazy wjeliko- a małopisanim rozeznawaju."
+
+#. BHvee
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:200
+msgctxt "setmasterpassworddlg|extended_tip|SetMasterPasswordDialog"
+msgid "Assign a master password to protect the access to a saved password."
+msgstr "Pśipokažćo głowne gronidło, aby pśistup k skłaźonemu gronidłoju šćitał."
 
 #. dAeLu
 #: uui/uiconfig/ui/simplenameclash.ui:8
@@ -1127,35 +1175,3 @@ msgstr "Toś ten certifikat njeakceptěrowaś a z toś tym websedłom njezwěza�
 msgctxt "unknownauthdialog|examine"
 msgid "Examine Certificate…"
 msgstr "Certifikat pśepytowaś…"
-
-#~ msgctxt "filterselect|extended_tip|filters"
-#~ msgid "Select the import filter for the file that you want to open."
-#~ msgstr "Wubjeŕśo importěrowanski filter za dataju, kótaruž cośo wócyniś."
-
-#~ msgctxt "masterpassworddlg|extended_tip|password"
-#~ msgid "Type a password. A password is case sensitive."
-#~ msgstr "Zapódajśo gronidło. Gronidło mjazy wjeliko- a małopisanim rozeznawa."
-
-#~ msgctxt "extended_tip|MasterPasswordDialog"
-#~ msgid "Enter the master password to continue."
-#~ msgstr "Zapódajśo głowne gronidło, aby pókšacował."
-
-#~ msgctxt "password|extended_tip|newpassEntry"
-#~ msgid "Type a password. A password is case sensitive."
-#~ msgstr "Zapódajśo gronidło. Gronidło mjazy wjeliko- a małopisanim rozeznawa."
-
-#~ msgctxt "password|extended_tip|confirmpassEntry"
-#~ msgid "Re-enter the password."
-#~ msgstr "Zapódajśo gronidło znowego."
-
-#~ msgctxt "extended_tip|password1"
-#~ msgid "Enter the master password."
-#~ msgstr "Zapódajśo głowne gronidło."
-
-#~ msgctxt "extended_tip|password2"
-#~ msgid "Enter the master password again."
-#~ msgstr "Zapódajśo głowne gronidło hyšći raz."
-
-#~ msgctxt "setmasterpassworddlg|extended_tip|SetMasterPasswordDialog"
-#~ msgid "Assign a master password to protect the access to a saved password."
-#~ msgstr "Pśipokažćo głowne gronidło, aby pśistup k skłaźonemu gronidłoju šćitał."
