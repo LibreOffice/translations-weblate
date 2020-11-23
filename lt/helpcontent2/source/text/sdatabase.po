@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-10-27 14:18+0100\n"
-"PO-Revision-Date: 2020-11-17 16:43+0000\n"
+"PO-Revision-Date: 2020-11-23 15:36+0000\n"
 "Last-Translator: Modestas Rimkus <modestas.rimkus@gmail.com>\n"
 "Language-Team: Lithuanian <https://weblate.documentfoundation.org/projects/libo_help-master/textsdatabase/lt/>\n"
 "Language: lt\n"
@@ -2065,7 +2065,7 @@ msgctxt ""
 "par_id3153792\n"
 "help.text"
 msgid "='Ms.'"
-msgstr ""
+msgstr "='Ats.'"
 
 #. 8GaiA
 #: 02010100.xhp
@@ -2074,7 +2074,7 @@ msgctxt ""
 "par_id3150948\n"
 "help.text"
 msgid "returns field names with the field content \"Ms.\""
-msgstr "Užklausos rezultatas yra visi laukai, kurių turinys yra „Ms.“"
+msgstr "Užklausos rezultatas yra visi laukai, kurių turinys yra „Ats.“"
 
 #. C3BDE
 #: 02010100.xhp
@@ -2110,7 +2110,7 @@ msgctxt ""
 "par_id3155350\n"
 "help.text"
 msgid "returns records with field contents such as \"Sun\"."
-msgstr ""
+msgstr "Užklausa randami laukai, kurių turinys prasideda raide „S“, pavyzdžiui, „Sostinė“."
 
 #. AvbKu
 #: 02010100.xhp
@@ -2119,7 +2119,7 @@ msgctxt ""
 "par_id3159406\n"
 "help.text"
 msgid "returns records with field content between the values 10 and 20. (The fields can be either text fields or number fields)."
-msgstr ""
+msgstr "Užklausos rezultatas yra laukai, kurių reikšmės yra tarp 10 ir 20. Laukai gali būti tekstiniai arba skaitiniai."
 
 #. 3tymM
 #: 02010100.xhp
@@ -2128,7 +2128,7 @@ msgctxt ""
 "par_id3149712\n"
 "help.text"
 msgid "returns records with the values 1, 3, 5, 7. If the field name contains an item number, for example, you can create a query that returns the item having the specified number."
-msgstr ""
+msgstr "Užklausa randami laukai su reikšmėmis  1, 3, 5, 7. Jei, pavyzdžiui, duomenų lauke yra įrašytas prekės numeris, galima sukurti užklausą, kuri rastų prekę su tam tikru numeriu."
 
 #. cBAnB
 #: 02010100.xhp
@@ -2137,7 +2137,7 @@ msgctxt ""
 "par_id3152948\n"
 "help.text"
 msgid "NOT IN ('Smith')"
-msgstr ""
+msgstr "NOT IN ('Parduota')"
 
 #. uusce
 #: 02010100.xhp
@@ -2146,7 +2146,7 @@ msgctxt ""
 "par_id3147279\n"
 "help.text"
 msgid "returns records that do not contain \"Smith\"."
-msgstr ""
+msgstr "Užklausa randami visi įrašai, kuriuose nėra lauko su turiniu „Parduota“."
 
 #. AJ8Xo
 #: 02010100.xhp
@@ -2155,7 +2155,7 @@ msgctxt ""
 "par_id3146073\n"
 "help.text"
 msgid "<emph>Like </emph>Escape Sequence: {escape 'escape-character'}"
-msgstr ""
+msgstr "Operatoriaus <emph>LIKE</emph> kaitos seka: {escape 'kaitos_seka'}"
 
 #. Cy7Cc
 #: 02010100.xhp
@@ -2164,7 +2164,7 @@ msgctxt ""
 "par_id3150661\n"
 "help.text"
 msgid "Example: select * from Item where ItemName like 'The *%' {escape '*'}"
-msgstr ""
+msgstr "Pavyzdys: SELECT * FROM prekės WHERE PrekėsPavad LIKE 'Naujas *%' {escape '*'}"
 
 #. newGb
 #: 02010100.xhp
@@ -2173,7 +2173,7 @@ msgctxt ""
 "par_id3148541\n"
 "help.text"
 msgid "The example will give you all of the entries where the item name begins with 'The *'. This means that you can also search for characters that would otherwise be interpreted as placeholders, such as *, ?, _, % or the period."
-msgstr ""
+msgstr "Pavyzdyje pateiktos užklausos rezultatai bus visi įrašai, kuriuose lauko „PrekėsPavad“ turinys prasideda tekstu „Naujas *“. Tokiu būdu užklausomis galima ieškoti tokių rašmenų, kurie įprastu atveju būtų laikomi vietaženkliais: *, ?, _, % ar taško."
 
 #. bAP3N
 #: 02010100.xhp
@@ -2182,7 +2182,7 @@ msgctxt ""
 "par_id3150572\n"
 "help.text"
 msgid "<emph>Outer Join</emph> Escape Sequence: {oj outer-join}"
-msgstr ""
+msgstr "Operatoriaus <emph>OUTER JOIN</emph> kaitos seka: {oj outer-join-sakinys}"
 
 #. VnKGf
 #: 02010100.xhp
@@ -2191,7 +2191,7 @@ msgctxt ""
 "par_id3156052\n"
 "help.text"
 msgid "Example: select Article.* from {oj item LEFT OUTER JOIN orders ON item.no=orders.ANR}"
-msgstr ""
+msgstr "Pavyzdys: SELECT Daiktas.* FROM {oj prekės LEFT OUTER JOIN užsakymai ON prekės.nr=užsakymai.PNR}"
 
 #. mWG9p
 #: 02010100.xhp
