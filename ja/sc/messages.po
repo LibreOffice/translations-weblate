@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-04-29 13:12+0200\n"
-"PO-Revision-Date: 2020-09-24 16:35+0000\n"
+"PO-Revision-Date: 2020-12-18 22:29+0000\n"
 "Last-Translator: jun meguro <jmaguro@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.documentfoundation.org/projects/libo_ui-6-4/scmessages/ja/>\n"
 "Language: ja\n"
@@ -13264,7 +13264,7 @@ msgstr "集計 (デフォルトは1=平均); 日付が同じ値の集計方法�
 #: sc/inc/scfuncs.hrc:3210
 msgctxt "SC_OPCODE_FORECAST_ETS_SEA"
 msgid "Calculates the number of samples in period (season) using additive Exponential Triple Smoothing algorithm."
-msgstr ""
+msgstr "指数加重アルゴリズム（３重）を使用して、季節性周期のある標本値の予測値を計算します。"
 
 #. pFMRX
 #: sc/inc/scfuncs.hrc:3211
@@ -13312,7 +13312,7 @@ msgstr "集計"
 #: sc/inc/scfuncs.hrc:3218
 msgctxt "SC_OPCODE_FORECAST_ETS_SEA"
 msgid "Aggregation (default 1 = AVERAGE); method to be used to aggregate identical (time) values."
-msgstr ""
+msgstr "集計 (デフォルトは1=平均); 日付が同じ値の集計方法。"
 
 #. c2bd2
 #: sc/inc/scfuncs.hrc:3224
@@ -13390,7 +13390,7 @@ msgstr "集計"
 #: sc/inc/scfuncs.hrc:3236
 msgctxt "SC_OPCODE_FORECAST_ETS_STA"
 msgid "Aggregation (default 1 = AVERAGE); method to be used to aggregate identical (time) values."
-msgstr ""
+msgstr "集計 (デフォルトは1=平均); 日付が同じ値の集計方法。"
 
 #. deJuC
 #: sc/inc/scfuncs.hrc:3242
@@ -13468,7 +13468,7 @@ msgstr "集計"
 #: sc/inc/scfuncs.hrc:3254
 msgctxt "SC_OPCODE_FORECAST_ETS_STM"
 msgid "Aggregation (default 1 = AVERAGE); method to be used to aggregate identical (time) values."
-msgstr ""
+msgstr "集計 (デフォルトは1=平均); 日付が同じ値の集計方法。"
 
 #. KdhBr
 #: sc/inc/scfuncs.hrc:3260
@@ -16187,67 +16187,67 @@ msgstr "文字列で検索する開始位置。"
 #: sc/inc/scfuncs.hrc:4124
 msgctxt "SC_OPCODE_FOURIER"
 msgid "Computes the Discrete Fourier Transform (DFT) of an array"
-msgstr ""
+msgstr "配列の離散フーリエ変換 (DFT) を計算します。"
 
 #. ey2C9
 #: sc/inc/scfuncs.hrc:4125
 msgctxt "SC_OPCODE_FOURIER"
 msgid "Array"
-msgstr ""
+msgstr "配列"
 
 #. s7m3H
 #: sc/inc/scfuncs.hrc:4126
 msgctxt "SC_OPCODE_FOURIER"
 msgid "The array whose DFT needs to be computed. The dimensions of this array can be Nx1 or Nx2 or 1xN or 2xN."
-msgstr ""
+msgstr "DFTを計算する対象の配列。N行1列かN行2列、1行N列、または2行N列の配列を指定できます。"
 
 #. M7L6L
 #: sc/inc/scfuncs.hrc:4127
 msgctxt "SC_OPCODE_FOURIER"
 msgid "GroupedByColumns"
-msgstr ""
+msgstr "列方向"
 
 #. Bcd2k
 #: sc/inc/scfuncs.hrc:4128
 msgctxt "SC_OPCODE_FOURIER"
 msgid "Flag to indicate whether the array is grouped by columns or not (default TRUE)."
-msgstr ""
+msgstr "入力データが列方向（縦）に並んでいることを示すフラグ（デフォルトはTRUE）。"
 
 #. aS9wx
 #: sc/inc/scfuncs.hrc:4129
 msgctxt "SC_OPCODE_FOURIER"
 msgid "Inverse"
-msgstr ""
+msgstr "逆変換"
 
 #. XGpNc
 #: sc/inc/scfuncs.hrc:4130
 msgctxt "SC_OPCODE_FOURIER"
 msgid "Flag to indicate whether an inverse DFT is to be computed (default FALSE)."
-msgstr ""
+msgstr "逆DFTを計算することを示すフラグ（デフォルトはFALSE）。"
 
 #. g6qnG
 #: sc/inc/scfuncs.hrc:4131
 msgctxt "SC_OPCODE_FOURIER"
 msgid "Polar"
-msgstr ""
+msgstr "極形式"
 
 #. CnGM5
 #: sc/inc/scfuncs.hrc:4132
 msgctxt "SC_OPCODE_FOURIER"
 msgid "Flag to indicate whether to return the results in polar form (default FALSE)."
-msgstr ""
+msgstr "結果を極形式で返すことを示すフラグ（デフォルトはFALSE）。"
 
 #. 2DMDC
 #: sc/inc/scfuncs.hrc:4133
 msgctxt "SC_OPCODE_FOURIER"
 msgid "MinimumMagnitude"
-msgstr ""
+msgstr "最小振幅"
 
 #. EMHEM
 #: sc/inc/scfuncs.hrc:4134
 msgctxt "SC_OPCODE_FOURIER"
 msgid "In case of Polar=TRUE, the frequency components below this magnitude are clipped out (default 0.0)."
-msgstr ""
+msgstr "極形式がTRUEのとき、振幅がこの値未満の周波数成分は切り捨てられます（デフォルトは0.0）。"
 
 #. pDDme
 #: sc/inc/scstyles.hrc:29
@@ -18119,25 +18119,25 @@ msgstr "虚部"
 #: sc/inc/strings.hrc:356
 msgctxt "STR_MAGNITUDE_PART"
 msgid "Magnitude"
-msgstr ""
+msgstr "振幅"
 
 #. NGmmD
 #: sc/inc/strings.hrc:357
 msgctxt "STR_PHASE_PART"
 msgid "Phase"
-msgstr ""
+msgstr "位相"
 
 #. E7Eez
 #: sc/inc/strings.hrc:358
 msgctxt "STR_MESSAGE_INVALID_NUMCOLS"
 msgid "More than two columns selected in grouped by column mode."
-msgstr ""
+msgstr "列方向モードで3列以上が選択されています。"
 
 #. wF2RV
 #: sc/inc/strings.hrc:359
 msgctxt "STR_MESSAGE_INVALID_NUMROWS"
 msgid "More than two rows selected in grouped by row mode."
-msgstr ""
+msgstr "行方向モードで3行以上が選択されています。"
 
 #. DRbrH
 #: sc/inc/strings.hrc:360
@@ -18149,13 +18149,13 @@ msgstr "入力範囲にデータがありません。"
 #: sc/inc/strings.hrc:361
 msgctxt "STR_MESSAGE_OUTPUT_TOO_LONG"
 msgid "Output is too long to write into the sheet."
-msgstr ""
+msgstr "シートに書き込むには出力が長すぎます。"
 
 #. SnGyL
 #: sc/inc/strings.hrc:362
 msgctxt "STR_INPUT_DATA_RANGE"
 msgid "Input data range"
-msgstr ""
+msgstr "入力データの範囲"
 
 #. EaQGL
 #. infobar for allowing links to update or not
@@ -18865,13 +18865,13 @@ msgstr "条件付き書式を管理"
 #: sc/uiconfig/scalc/ui/condformatmanager.ui:136
 msgctxt "condformatmanager|STR_HEADER_RANGE"
 msgid "Range"
-msgstr ""
+msgstr "範囲"
 
 #. Gipiw
 #: sc/uiconfig/scalc/ui/condformatmanager.ui:149
 msgctxt "condformatmanager|STR_HEADER_FIRST_CONDITION"
 msgid "First Condition"
-msgstr ""
+msgstr "最初の条件"
 
 #. rCgD4
 #: sc/uiconfig/scalc/ui/condformatmanager.ui:175
@@ -18943,7 +18943,7 @@ msgstr "最大値"
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:212
 msgctxt "conditionalentry|colscalemin"
 msgid "Percentile"
-msgstr "パーセンタイル"
+msgstr "百分位"
 
 #. Kqxfp
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:213
@@ -18985,7 +18985,7 @@ msgstr "最大値"
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:231
 msgctxt "conditionalentry|colscalemiddle"
 msgid "Percentile"
-msgstr "パーセンタイル"
+msgstr "百分位"
 
 #. sqTFV
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:232
@@ -19027,7 +19027,7 @@ msgstr "最大値"
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:250
 msgctxt "conditionalentry|colscalemax"
 msgid "Percentile"
-msgstr "パーセンタイル"
+msgstr "百分位"
 
 #. JxXq2
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:251
@@ -19351,7 +19351,7 @@ msgstr "3つのグレー矢印"
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:516
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Flags"
-msgstr ""
+msgstr "３つの旗"
 
 #. ABtzD
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:517
@@ -19369,19 +19369,19 @@ msgstr "3つの信号 2"
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:519
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Signs"
-msgstr ""
+msgstr "３つの図形"
 
 #. vr8rv
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:520
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Symbols 1"
-msgstr ""
+msgstr "3つの記号 1"
 
 #. Yxkt6
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:521
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Symbols 2"
-msgstr ""
+msgstr "3つの記号 2"
 
 #. 9fMKe
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:522
@@ -19393,13 +19393,13 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:523
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Stars"
-msgstr ""
+msgstr "3つの星"
 
 #. QzJwR
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:524
 msgctxt "conditionalentry|iconsettype"
 msgid "3 Triangles"
-msgstr ""
+msgstr "3つの三角形"
 
 #. UFw2i
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:525
@@ -19423,7 +19423,7 @@ msgstr "4つのグレー矢印"
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:528
 msgctxt "conditionalentry|iconsettype"
 msgid "4 Circles Red to Black"
-msgstr ""
+msgstr "4つの赤から黒への丸"
 
 #. BKpUg
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:529
@@ -20095,7 +20095,7 @@ msgstr "パーセント"
 #: sc/uiconfig/scalc/ui/conditionaliconset.ui:45
 msgctxt "conditionaliconset|listbox"
 msgid "Percentile"
-msgstr "パーセンタイル"
+msgstr "百分位"
 
 #. mmHTt
 #: sc/uiconfig/scalc/ui/conditionaliconset.ui:46
@@ -20107,7 +20107,7 @@ msgstr "数式"
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:20
 msgctxt "conflictsdialog|ConflictsDialog"
 msgid "Resolve Conflicts"
-msgstr "コンフリクトの解決"
+msgstr "競合の解決"
 
 #. oCjL7
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:37
@@ -20131,7 +20131,7 @@ msgstr "この共有表計算ドキュメントには、コンフリクトする
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:147
 msgctxt "conflictsdialog|conflict"
 msgid "Conflict"
-msgstr ""
+msgstr "競合"
 
 #. kQCmz
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:161
@@ -20959,7 +20959,7 @@ msgstr "次のレコード(_X)"
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:111
 msgctxt "dataproviderdlg|db_name"
 msgid "Database Range: "
-msgstr ""
+msgstr "データベース範囲: "
 
 #. eq3Zo
 #: sc/uiconfig/scalc/ui/dataproviderentry.ui:51
@@ -21403,7 +21403,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/deletecolumnentry.ui:63
 msgctxt "deletecolumnentry|delete"
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #. VWjSF
 #: sc/uiconfig/scalc/ui/deletecontents.ui:8
@@ -22063,7 +22063,7 @@ msgstr "結果貼り付け先:"
 #: sc/uiconfig/scalc/ui/fourieranalysisdialog.ui:187
 msgctxt "fourieranalysisdialog|withlabels-check"
 msgid "Input range has label"
-msgstr ""
+msgstr "入力範囲はラベルを含む"
 
 #. QF9sz
 #: sc/uiconfig/scalc/ui/fourieranalysisdialog.ui:211
@@ -22093,19 +22093,19 @@ msgstr "データ方向"
 #: sc/uiconfig/scalc/ui/fourieranalysisdialog.ui:315
 msgctxt "fourieranalysisdialog|inverse-check"
 msgid "Inverse"
-msgstr ""
+msgstr "逆変換"
 
 #. ELiT5
 #: sc/uiconfig/scalc/ui/fourieranalysisdialog.ui:331
 msgctxt "fourieranalysisdialog|polar-check"
 msgid "Output in polar form"
-msgstr ""
+msgstr "極形式で出力する"
 
 #. Trwum
 #: sc/uiconfig/scalc/ui/fourieranalysisdialog.ui:352
 msgctxt "fourieranalysisdialog|label4"
 msgid "Minimum magnitude for polar form output (in dB)"
-msgstr ""
+msgstr "極形式で表示する最小の振幅 (dB)"
 
 #. 9MVfz
 #: sc/uiconfig/scalc/ui/fourieranalysisdialog.ui:386
@@ -23283,7 +23283,7 @@ msgstr "挿入(~I)"
 #: sc/uiconfig/scalc/ui/notebookbar.ui:6993
 msgctxt "CalcNotebookbar|objectalign|tooltip_text"
 msgid "Object Align"
-msgstr ""
+msgstr "オブジェクトの整列"
 
 #. 4FwmH
 #: sc/uiconfig/scalc/ui/notebookbar.ui:7218
@@ -23355,19 +23355,19 @@ msgstr "画像(~G)"
 #: sc/uiconfig/scalc/ui/notebookbar.ui:12867
 msgctxt "CalcNotebookbar|DrawMenuButton"
 msgid "_Draw"
-msgstr ""
+msgstr "図形描画(_D)"
 
 #. iagRv
 #: sc/uiconfig/scalc/ui/notebookbar.ui:12977
 msgctxt "CalcNotebookbar|DrawLabel"
 msgid "~Draw"
-msgstr ""
+msgstr "図形描画(~D)"
 
 #. EgeGL
 #: sc/uiconfig/scalc/ui/notebookbar.ui:13449
 msgctxt "CalcNotebookbar|ConvertMenuButton"
 msgid "Convert"
-msgstr ""
+msgstr "変換"
 
 #. PdjTP
 #: sc/uiconfig/scalc/ui/notebookbar.ui:13749
@@ -23409,13 +23409,13 @@ msgstr "印刷(~P)"
 #: sc/uiconfig/scalc/ui/notebookbar.ui:15862
 msgctxt "CalcNotebookbar|FormMenuButton"
 msgid "Fo_rm"
-msgstr ""
+msgstr "フォーム(_R)"
 
 #. CCEAK
 #: sc/uiconfig/scalc/ui/notebookbar.ui:15947
 msgctxt "CalcNotebookbar|FormLabel"
 msgid "Fo~rm"
-msgstr ""
+msgstr "フォーム(~R)"
 
 #. mrTYB
 #: sc/uiconfig/scalc/ui/notebookbar.ui:16004
@@ -24297,13 +24297,13 @@ msgstr "スタイル"
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:972
 msgctxt "notebookbar_groups|growb"
 msgid " "
-msgstr ""
+msgstr " "
 
 #. K4uCY
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:995
 msgctxt "notebookbar_groups|shrinkb"
 msgid " "
-msgstr ""
+msgstr " "
 
 #. 6KTdx
 #: sc/uiconfig/scalc/ui/notebookbar_groups.ui:1037
@@ -24489,7 +24489,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/numbertransformationentry.ui:68
 msgctxt "numbertransformationentry|sign"
 msgid "Sign"
-msgstr ""
+msgstr "署名"
 
 #. yQMEC
 #: sc/uiconfig/scalc/ui/numbertransformationentry.ui:69
