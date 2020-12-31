@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-10-21 16:00+0200\n"
-"PO-Revision-Date: 2020-12-23 08:36+0000\n"
+"PO-Revision-Date: 2020-12-31 22:36+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://translations.documentfoundation.org/projects/libo_help-7-0/textscalc01/eu/>\n"
 "Language: eu\n"
@@ -8006,7 +8006,7 @@ msgctxt ""
 "par_id5863826\n"
 "help.text"
 msgid "<item type=\"input\">=A2+B2+STYLE(IF(CURRENT()>10;”Red”;”Default”))</item>"
-msgstr "<item type=\"input\">=A2+B2+STYLE(IF(CURRENT()>10;”Red”;”Default”))</item>"
+msgstr "<item type=\"input\">=A2+B2+STYLE(IF(CURRENT()>10;\"Red\";\"Default\"))</item>"
 
 #. fNamE
 #: 04060104.xhp
@@ -10211,7 +10211,7 @@ msgctxt ""
 "par_id3154558\n"
 "help.text"
 msgid "IF(Test [; ThenValue [; OtherwiseValue]])"
-msgstr ""
+msgstr "IF(Proba [; OrduanBalioa [; BestelaBalioa]])"
 
 #. JnjcT
 #: 04060105.xhp
@@ -11822,7 +11822,7 @@ msgctxt ""
 "par_id3156340\n"
 "help.text"
 msgid "<item type=\"input\">=EXP(1)</item> returns 2.71828182845904, the mathematical constant <literal>e</literal> to Calc's accuracy."
-msgstr ""
+msgstr "<item type=\"input\">=EXP(1)</item> funtzioak 2.71828182845904, <literal>e</literal> konstante matematikoa Calc-en zehaztasunarekin, itzultzen du."
 
 #. MSQJQ
 #: 04060106.xhp
@@ -15035,7 +15035,7 @@ msgctxt ""
 "par_id91590242400917\n"
 "help.text"
 msgid "Returns an non-volatile integer random number between integers <emph>Bottom</emph> and <emph>Top</emph> (both inclusive). A non-volatile function is not recalculated at new input events or pressing <keycode>F9</keycode>. However, the function is recalculated when pressing <keycode>F9</keycode> with the cursor on the cell containing the function, when opening the file, and when <emph>Top</emph> or <emph>Bottom</emph> are recalculated."
-msgstr ""
+msgstr "<emph>Txikiena</emph> eta <emph>Handiena</emph> (biak barne) balio osoen arteko ausazko zenbaki oso ez hegazkor bat itzultzen du. Funtzio ez hegazkorrak ez dira berriro kalkulatzen sarrera berriak daudenean edo <keycode>F9</keycode> sakatzen denean. Hala ere, bai kalkulatuko dela <keycode>F9</keycode> sakatzen bada kurtsorea funtzioa duen gelaxkan dagoenean, fitxategia irekitzen denean edo <emph>Handiena</emph> edo <emph>Txikiena</emph> berriro kalkulatzen direnean."
 
 #. AngvN
 #: 04060106.xhp
@@ -15053,7 +15053,7 @@ msgctxt ""
 "par_id1001590241005601\n"
 "help.text"
 msgid "<input>=RANDBETWEEN.NV(A1;30)</input> returns a non-volatile integer between the value of cell A1 and 30. The function is recalculated when the contents of cell A1 change."
-msgstr ""
+msgstr "<input>=RANDBETWEEN.NV(A1;30)</input> funtzioak A1 eta gelaxkaren eta 30 balioaren arteko osoko zenbaki ez hegazkor bat itzultzen du. Funtzioa birkalkulatu egiten da A1 gelaxkaren edukiak aldatzen direnean."
 
 #. odp65
 #: 04060106.xhp
@@ -15125,7 +15125,7 @@ msgctxt ""
 "par_id801590242114296\n"
 "help.text"
 msgid "Use the Fill Cell command with random numbers (<menuitem>Sheet - Fill Cells - Fill Random Numbers</menuitem>)."
-msgstr ""
+msgstr "Erabili 'Bete gelaxka' komandoa ausazko zenbakiekin (<menuitem>Orria - Bete gelaxkak - Bete ausazko zenbakiekin</menuitem>)."
 
 #. o9wUN
 #: 04060106.xhp
@@ -15134,7 +15134,7 @@ msgctxt ""
 "par_id41590242118383\n"
 "help.text"
 msgid "Use the RAND.NV() function for non-volatile random numbers."
-msgstr ""
+msgstr "Erabili RAND.NV() funtzioa ausazko zenbaki ez hegazkorretarako."
 
 #. BLkte
 #: 04060106.xhp
@@ -15152,7 +15152,7 @@ msgctxt ""
 "bm_id341590241488944\n"
 "help.text"
 msgid "<bookmark_value>random numbers non-volatile;between 0 and 1</bookmark_value><bookmark_value>RAND.NV function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ausazko zenbaki ez hegazkorrak;0 eta 1 artean</bookmark_value><bookmark_value>RAND.NV funtzioa</bookmark_value>"
 
 #. q9iLd
 #: 04060106.xhp
@@ -15161,7 +15161,7 @@ msgctxt ""
 "hd_id71590238179170\n"
 "help.text"
 msgid "RAND.NV"
-msgstr ""
+msgstr "RAND.NV"
 
 #. Fc2hv
 #: 04060106.xhp
@@ -15170,7 +15170,7 @@ msgctxt ""
 "par_id101590238875834\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_RAND_NV\">Returns a non-volatile random number between 0 and 1.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_RAND_NV\">0 eta 1 arteko ausazko zenbaki ez hegazkor bat itzultzen du.</ahelp>"
 
 #. dchBL
 #: 04060106.xhp
@@ -15179,7 +15179,7 @@ msgctxt ""
 "par_id391590238945182\n"
 "help.text"
 msgid "RAND.NV()"
-msgstr ""
+msgstr "RAND.NV()"
 
 #. QARNV
 #: 04060106.xhp
@@ -15188,7 +15188,7 @@ msgctxt ""
 "par_id271590239748534\n"
 "help.text"
 msgid "This function produces a non-volatile random number on input. A non-volatile function is not recalculated at new input events. The function does not recalculate when pressing <keycode>F9</keycode>, except when the cursor is on the cell containing the function. The function is recalculated when opening the file."
-msgstr ""
+msgstr "Funtzio honek ausazko zenbaki ez hegazkor bat sortzen du sarreran. Funtzio ez hegazkorrak ez dira berriro kalkulatzen sarrerako gertaera berriak daudenean. Funtzioak ez du birkalkulua gauzatzen <keycode>F9</keycode> sakatzean, kurtsorea funtzioa daukan gelaxkan ez badago. Funtzioa birkalkulatu egiten da fitxategia irekitzean."
 
 #. sCwno
 #: 04060106.xhp
@@ -15197,7 +15197,7 @@ msgctxt ""
 "par_id191590241215013\n"
 "help.text"
 msgid "<input>=RAND.NV()</input> returns a non-volatile random number between 0 and 1."
-msgstr ""
+msgstr "<input>=RAND.NV()</input> funtzioak 0 eta 1 arteko ausazko zenbaki ez hegazkor bat itzultzen du."
 
 #. Zsp2R
 #: 04060107.xhp
@@ -16340,7 +16340,7 @@ msgctxt ""
 "par_id3152839\n"
 "help.text"
 msgid "LINEST(data_Y [; data_X [; linearType [; stats]]])"
-msgstr ""
+msgstr "LINEST(datuak_Y [; datuak_X [; linealMota [; estatistika]]])"
 
 #. M2QFp
 #: 04060107.xhp
@@ -16808,7 +16808,7 @@ msgctxt ""
 "par_id3163123\n"
 "help.text"
 msgid "LOGEST(DataY [; DataX [; FunctionType [; Stats]]])"
-msgstr ""
+msgstr "LOGEST(Datauak_Y [; Datuak_X [; Funtzio_mota [; Estatistika]]])"
 
 #. 8jgzC
 #: 04060107.xhp
@@ -17150,7 +17150,7 @@ msgctxt ""
 "par_id3166122\n"
 "help.text"
 msgid "TREND(DataY [; DataX [; NewDataX [; LinearType]]])"
-msgstr ""
+msgstr "TREND(Datuak_Y [; Datuak_X [; Datu_berriak_X [; Lineal_mota]]])"
 
 #. qeK4r
 #: 04060107.xhp
@@ -17501,7 +17501,7 @@ msgctxt ""
 "par_id3154707\n"
 "help.text"
 msgid "ADDRESS(Row; Column [; Abs [; A1 [; \"Sheet\"]]])"
-msgstr ""
+msgstr "ADDRESS(Errenkada; Zutabea [; Abs [; A1 [; \"Orria\"]]])"
 
 #. FyoLc
 #: 04060109.xhp
@@ -17717,7 +17717,7 @@ msgctxt ""
 "par_id3148886\n"
 "help.text"
 msgid "DDE(\"Server\"; \"File\"; \"Range\" [; Mode])"
-msgstr ""
+msgstr "DDE(\"Zerbitzaria\"; \"Fitxategia\"; \"Barrutia\" [; Modua])"
 
 #. qAN6x
 #: 04060109.xhp
@@ -17942,7 +17942,7 @@ msgctxt ""
 "par_id3149007\n"
 "help.text"
 msgid "INDEX(Reference [; Row [; Column [; Range]]])"
-msgstr ""
+msgstr "INDEX(Erreferentzia [; Errenkada [; Zutabea [; Barrutia]]])"
 
 #. Btvgz
 #: 04060109.xhp
@@ -18077,7 +18077,7 @@ msgctxt ""
 "par_id3149824\n"
 "help.text"
 msgid "INDIRECT(Ref [; A1])"
-msgstr ""
+msgstr "INDIRECT(Erref [; A1])"
 
 #. cZG9F
 #: 04060109.xhp
@@ -18158,7 +18158,7 @@ msgctxt ""
 "par_id3149447\n"
 "help.text"
 msgid "COLUMN([Reference])"
-msgstr ""
+msgstr "COLUMN([Erreferentzia])"
 
 #. CAB6L
 #: 04060109.xhp
@@ -18338,7 +18338,7 @@ msgctxt ""
 "par_id3150156\n"
 "help.text"
 msgid "=VLOOKUP(SearchCriterion; Array; Index [; SortedRangeLookup])"
-msgstr ""
+msgstr "=VLOOKUP(Bilaketa_irizpidea; Matrizea; Indizea [; BarrutiOrdenatuarenKontsulta])"
 
 #. 7FsgG
 #: 04060109.xhp
@@ -18446,7 +18446,7 @@ msgctxt ""
 "par_id3153095\n"
 "help.text"
 msgid "SHEET([Reference])"
-msgstr ""
+msgstr "SHEET([Erreferentzia])"
 
 #. 9yCD8
 #: 04060109.xhp
@@ -18500,7 +18500,7 @@ msgctxt ""
 "par_id3150777\n"
 "help.text"
 msgid "SHEETS([Reference])"
-msgstr ""
+msgstr "SHEETS([Erreferentzia])"
 
 #. 5B3KF
 #: 04060109.xhp
@@ -18554,7 +18554,7 @@ msgctxt ""
 "par_id3159152\n"
 "help.text"
 msgid "MATCH(SearchCriterion; LookupArray [; Type])"
-msgstr ""
+msgstr "MATCH(Bilaketa-irizpidea; Bilaketa_matrizea [; Mota])"
 
 #. BmVBr
 #: 04060109.xhp
@@ -18644,7 +18644,7 @@ msgctxt ""
 "par_id3159194\n"
 "help.text"
 msgid "OFFSET(Reference; Rows; Columns [; Height [; Width]])"
-msgstr ""
+msgstr "OFFSET(Erreferentzia; Errenkadak; Zutabeak [; Altuera [; Zabalera]])"
 
 #. 3Q5gL
 #: 04060109.xhp
@@ -18770,7 +18770,7 @@ msgctxt ""
 "par_id3153740\n"
 "help.text"
 msgid "If <emph>Width</emph> or <emph>Height</emph> are given, the OFFSET function returns a cell range reference. If <emph>Reference</emph> is a single cell reference and both <emph>Width</emph> and <emph>Height</emph> are omitted, a single cell reference is returned."
-msgstr ""
+msgstr "<emph>Zabalera</emph> edo <emph>Altuera</emph> ematen badira, OFFSET funtzioak gelaxka-barruti baten erreferentzia itzultzen du. <emph>Erreferentzia</emph> gelaxka bakarraren erreferentzia bada eta <emph>Zabalera</emph> zein <emph>Altuera</emph> ematen ez badira, gelaxka bakarraren erreferentzia itzultzen da."
 
 #. AFMxC
 #: 04060109.xhp
@@ -18815,7 +18815,7 @@ msgctxt ""
 "par_id3154104\n"
 "help.text"
 msgid "LOOKUP(SearchCriterion; SearchVector [; ResultVector])"
-msgstr ""
+msgstr "LOOKUP(Bilaketa-irizpidea; Bilaketa-bektorea [; Emaitza-bektorea])"
 
 #. QdiFz
 #: 04060109.xhp
@@ -18842,7 +18842,7 @@ msgctxt ""
 "par_id3149925\n"
 "help.text"
 msgid "<emph>ResultVector</emph> is another single-row or single-column range from which the result of the function is taken. The result is the cell of the result vector with the same index as the instance found in the search vector."
-msgstr "<emph>Emaitza_bektorea</emph>: zutabe edo errenkada bakarreko beste barruti bat da; hortik hartzen da, hain zuzen, funtzioaren emaitza. Bilaketa-bektorean aurkitutako elementuaren indize bera duen emaitza-bektorearen gelaxka da emaitza."
+msgstr "<emph>Emaitza-bektorea</emph>: zutabe edo errenkada bakarreko beste barruti bat da; hortik hartzen da, hain zuzen, funtzioaren emaitza. Bilaketa-bektorean aurkitutako elementuaren indize bera duen emaitza-bektorearen gelaxka da emaitza."
 
 #. 36TJv
 #: 04060109.xhp
@@ -18887,7 +18887,7 @@ msgctxt ""
 "par_id3149302\n"
 "help.text"
 msgid "STYLE(\"Style\" [; Time [; \"Style2\"]])"
-msgstr ""
+msgstr "STYLE(\"Estiloa\" [; Denbora [; \"Estiloa2\"]])"
 
 #. Q8SMG
 #: 04060109.xhp
@@ -48416,7 +48416,7 @@ msgctxt ""
 "par_id3158212\n"
 "help.text"
 msgid "<ahelp hid=\".\"><variable id=\"sytext\">Sorts the selection from the highest to the lowest value, or from the lowest to the highest value. Number fields are sorted by size and text fields by the order of the characters. You can define the sort rules on Data - Sort - Options.</variable></ahelp> You define the default on <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - Language settings - Languages."
-msgstr ""
+msgstr "<ahelp hid=\".\"><variable id=\"sytext\">Hautapena ordenatzen du baliorik altuenetik baxuenera, edo baxuenetik altuenera. Zenbakizko eremuak tamainaren arabera ordenatzen dira eta testu-eremua karaktereen ordenaren arabera. Ordenatze-arauak definitzeko, joan 'Datuak - Ordenatu - Aukerak' atalera. </variable></ahelp> Balio lehenetsia definitzeko, erabili <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Hobespenak</caseinline><defaultinline>Tresnak - Aukerak</defaultinline></switchinline> - Hizkuntza-ezarpenak - Hizkuntzak."
 
 #. cAFdw
 #: 12030100.xhp
@@ -49415,7 +49415,7 @@ msgctxt ""
 "par_id3155068\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/subtotaloptionspage/ascending\">Sorts beginning with the lowest value. You can define the sort rules on Data - Sort - Options.</ahelp> You define the default on <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - Language settings - Languages</menuitem>."
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/subtotaloptionspage/ascending\">Hasieran baliorik baxuenak jarrita ordenatzen du. Ordenatze-erregelak 'Datuak - Ordenatu - Aukerak' atalean ezarri daitezke.</ahelp> Lehenespena <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Hobespenak</menuitem></caseinline><defaultinline><menuitem>Tresnak - Aukerak</menuitem></defaultinline></switchinline><menuitem> - Hizkuntza-ezarpenak - Hizkuntzak</menuitem> aukeran definitzen da."
 
 #. FFhB3
 #: 12050200.xhp
@@ -53438,7 +53438,7 @@ msgctxt ""
 "par_id240920171003293400\n"
 "help.text"
 msgid "<ahelp hid=\".\"><emph>Data Entry Form</emph> is a tool to make table data entry easy in spreadsheets.</ahelp> With the Data Entry Form, you can enter, edit and delete records (or rows) of data and avoid horizontal scrolling when the table has many columns or when some columns are very wide."
-msgstr ""
+msgstr "<ahelp hid=\".\"><emph>Datuak sartzeko inprimakia</emph> kalkulu-orrietako datuen sarrera errazten duen tresna bat da.</ahelp> Datuak sartzeko inprimakiaren bidez erregistroak (edo errenkadak) sartu, editatu eta ezabatu daitezke, eta korritze horizontala saihestu taulak zutabe asko dituenean edo zenbait zutabe zabalegiak direnean."
 
 #. VoVM6
 #: data_form.xhp
@@ -53807,7 +53807,7 @@ msgctxt ""
 "par_id961527953004850\n"
 "help.text"
 msgid "<variable id=\"args\">Func_Range; Range1; Criterion1[; Range2; Criterion2][; … ; [Range127; Criterion127]]</variable>"
-msgstr ""
+msgstr "<variable id=\"args\">FuntzioBarrutia; Barrutia1; Irizpidea1[; Barrutia2; Irizpidea2][; … ; [Barrutia127; Irizpidea127]]</variable>"
 
 #. d8gmy
 #: ex_data_stat_func.xhp
@@ -53834,7 +53834,7 @@ msgctxt ""
 "par_id101585468691583\n"
 "help.text"
 msgid "<emph>Range1</emph> – required argument. It is a range of cells, a name of a named range, or a label of a column or a row, to which the corresponding criterion is to be applied."
-msgstr ""
+msgstr "<emph>Barrutia1</emph> – derrigorrezko argumentua. Gelaxken barruti bat, izendun barruti baten izena edo zutabe edo errenkada baten etiketa da. Irizpidea barruti horri aplikatuko zaio."
 
 #. 3wJSR
 #: ex_data_stat_func.xhp
@@ -54410,7 +54410,7 @@ msgctxt ""
 "par_id71584446760037\n"
 "help.text"
 msgid "<variable id=\"string255_1\">String 1 [; String 2 [; …  [; String 255]]]</variable>"
-msgstr ""
+msgstr "<variable id=\"string255_1\">Katea 1 [; Katea 2 [; …  [; Katea 255]]]</variable>"
 
 #. 2UTGE
 #: ful_func.xhp
@@ -54419,7 +54419,7 @@ msgctxt ""
 "par_id631556228516997\n"
 "help.text"
 msgid "<emph>String 1, String 2, … , String 255</emph> are strings, references to cells or to cell ranges of strings."
-msgstr ""
+msgstr "<emph>Katea 1, Katea 2, … , Katea 255</emph> kateak, gelaxken erreferentziak edo kateen gelaxka-barrutiak dira."
 
 #. MFitb
 #: ful_func.xhp
@@ -61178,7 +61178,7 @@ msgctxt ""
 "par_id971575074431070\n"
 "help.text"
 msgid "<input>=OPT_PROB_HIT(30;0.2;0.3;1;0;40)</input>  returns the value 0.6119."
-msgstr ""
+msgstr "<input>=OPT_PROB_HIT(30;0.2;0.3;1;0;40)</input>  funtzioak 0.6119 balioa itzultzen du."
 
 #. 3EshE
 #: func_opt_prob_hit.xhp
@@ -61187,7 +61187,7 @@ msgctxt ""
 "par_id171575074434932\n"
 "help.text"
 msgid "<input>=OPT_PROB_HIT(70;0.3;0.1;0.5;60;0)</input>  returns the value 0.4239."
-msgstr ""
+msgstr "<input>=OPT_PROB_HIT(70;0.3;0.1;0.5;60;0)</input>  funtzioak 0.4239 balioa itzultzen du."
 
 #. RFprF
 #: func_opt_prob_inmoney.xhp
@@ -61205,7 +61205,7 @@ msgctxt ""
 "bm_id961575065633373\n"
 "help.text"
 msgid "<bookmark_value>OPT_PROB_INMONEY function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>OPT_PROB_INMONEY funtzioa</bookmark_value>"
 
 #. kMBbw
 #: func_opt_prob_inmoney.xhp
@@ -61214,7 +61214,7 @@ msgctxt ""
 "hd_id941575063929082\n"
 "help.text"
 msgid "<variable id=\"optprobinmoneyh1\"><link href=\"text/scalc/01/func_opt_prob_inmoney.xhp\" name=\"OPT_PROB_INMONEY\">OPT_PROB_INMONEY</link></variable>"
-msgstr ""
+msgstr "<variable id=\"optprobinmoneyh1\"><link href=\"text/scalc/01/func_opt_prob_inmoney.xhp\" name=\"OPT_PROB_INMONEY\">OPT_PROB_INMONEY</link></variable>"
 
 #. QDryb
 #: func_opt_prob_inmoney.xhp
