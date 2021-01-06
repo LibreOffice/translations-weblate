@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-11-20 15:33+0100\n"
-"PO-Revision-Date: 2020-12-31 12:36+0000\n"
+"PO-Revision-Date: 2021-01-06 10:36+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/eu/>\n"
 "Language: eu\n"
@@ -11795,7 +11795,7 @@ msgctxt ""
 "par_id3150592\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_EXP\">Returns <literal>e</literal> raised to the power of a number.</ahelp> The constant <literal>e</literal> has a value of approximately 2.71828182845904."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_EXP\"><literal>e</literal> konstantea beste zenbaki baten berreturara igota itzultzen du.</ahelp> <literal>e</literal> kostantearen balioa 2.71828182845904 inguru da."
 
 #. KxMFL
 #: 04060106.xhp
@@ -15125,7 +15125,7 @@ msgctxt ""
 "par_id451590242105253\n"
 "help.text"
 msgid "Copy cells each containing =RAND(), and use <menuitem>Edit - Paste Special</menuitem> (with <emph>Paste All</emph> and <emph>Formulas</emph> not marked and <emph>Numbers</emph> marked)."
-msgstr ""
+msgstr "Kopiatu gelaxkak, bakoitzak =RAND() duela, eta erabili <menuitem>Editatu - Itsatsi berezoia</menuitem> (<emph>Itsatsi dena</emph> eta <emph>Formulak</emph> markatu gabe eta <emph>Zenbakiak</emph> markatuta)."
 
 #. zEFCC
 #: 04060106.xhp
@@ -18338,7 +18338,7 @@ msgctxt ""
 "par_id3149984\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_SVERWEIS\">Vertical search with reference to adjacent cells to the right.</ahelp> This function checks if a specific value is contained in the first column of an array. The function then returns the value in the same row of the column named by <item type=\"literal\">Index</item>. If the <item type=\"literal\">Sorted</item> parameter is omitted or set to TRUE or one, it is assumed that the data is sorted in ascending order. In this case, if the exact <item type=\"literal\">SearchCriterion</item> is not found, the last value that is smaller than the criterion will be returned. If <item type=\"literal\">Sorted</item> is set to FALSE or zero, an exact match must be found, otherwise the error <emph>Error: Value Not Available</emph> will be the result. Thus with a value of zero the data does not need to be sorted in ascending order."
-msgstr "<ahelp hid=\"HID_FUNC_SVERWEIS\">Bilaketa bertikala eskuineko ondoz ondoko gelaxken erreferentziarekin.</ahelp> Balio jakin bat matrizearen lehen zutabean badagoen begiratzen du funtzio honek. Orduan funtzioak balioa itzultzen du <item type=\"literal\">indizeak</item> izendatutako zutabeko errenkada berean. <item type=\"literal\">Ordenatua</item> parametroa ez bada zehazten edo TRUE (egiazkoa) ezartzen bada, datuak goranzko ordenan ordenatu behar direla ulertzen da. Kasu horretan, <item type=\"literal\">bilaketa-irizpidea</item> ez bada aurkitzen, hurrengo balioa itzuliko da. <item type=\"literal\">Ordenatua</item> FALSE (faltsua) edo zero bada, zehatz-mehatz bat datorrena aurkitu behar da, eta bestela errore hau emango du: <emph>Errorea: balioa ez dago eskuragarri</emph>. Hortaz, zero balioarekin ez dago datuak gorantz ordenatu beharrik."
+msgstr "<ahelp hid=\"HID_FUNC_SVERWEIS\">Bilaketa bertikala eskuineko ondoz ondoko gelaxken erreferentziarekin.</ahelp> Balio jakin bat matrizearen lehen zutabean badagoen begiratzen du funtzio honek. Orduan funtzioak balioa itzultzen du <item type=\"literal\">indizeak</item> izendatutako zutabeko errenkada berean. <item type=\"literal\">Ordenatua</item> parametroa ez bada zehazten edo TRUE (egiazkoa) ezartzen bada, datuak goranzko ordenan ordenatu behar direla ulertzen da. Kasu horretan, <item type=\"literal\">Bilaketa-irizpidea</item> ez bada aurkitzen, hurrengo balioa itzuliko da. <item type=\"literal\">Ordenatua</item> FALSE (faltsua) edo zero bada, zehatz-mehatz bat datorrena aurkitu behar da, eta bestela errore hau emango du: <emph>Errorea: balioa ez dago eskuragarri</emph>. Hortaz, zero balioarekin ez dago datuak gorantz ordenatu beharrik."
 
 #. 8FhyJ
 #: 04060109.xhp
@@ -18347,7 +18347,7 @@ msgctxt ""
 "par_id3150156\n"
 "help.text"
 msgid "=VLOOKUP(SearchCriterion; Array; Index [; SortedRangeLookup])"
-msgstr "=VLOOKUP(Bilaketa_irizpidea; Matrizea; Indizea [; BarrutiOrdenatuarenKontsulta])"
+msgstr "=VLOOKUP(Bilaketa-irizpidea; Matrizea; Indizea [; BarrutiOrdenatuarenKontsulta])"
 
 #. 7FsgG
 #: 04060109.xhp
@@ -18383,7 +18383,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr "<emph>BarrutiOrdenatuarenKontsulta</emph> aukerako parametro bat da, matrizearen lehen zutabeak barruti-mugak dituen (balio soilik izan ordez) adierazten duena. Modu horretan, kontsultak itzultzen du BilaketaIrizpideak balioaren berdina edo txikiagoa duen lehen zutabea duen errenkadako balioa. Adibidez, parametro horrek zerga-balioren bat aldatu deneko datak eduki ditzake, eta kasu horretan, zerga-balio bat indarrean sartu zeneko denbora-tarte baten hasiera-datak ordezkatzen dituzte balioek. Beraz, matrizearen lehen zutabean ez dagoen data bat bilatzen bada, data hori ez badago data-muga batzuen artean, haietako baxuena emango luke, bilatutako datan indarrean sartzen den data bilatzea ahalbidetuz. Sartu FALSE (gezurra) balio boolearra edo zero lehen zutabea ez bada barruti-mugen zerrenda bat. Parametro hau TRUE (egia) bada edo ematen ez bada, matrizeko lehen zutabea <emph>gorantz ordenatu behar da</emph>. Ordenatutako zutabeak azkarrago arakatzen dira eta funtzioak beti itzultzen du baio bat, baita bilaketa-balioa zehatz-mehatz bat ez badator ere, ordenatutako zerrendako baliorik baxuena baino altuagoa bada. Ordenatu gabeko zerrendetan, bilaketa-balioarekin zehaztasunez egin behar da bat; bestela, funtzioak #E/E itzuliko du eta honako mezua emango du: <emph>Errorea: Balioa ez dago eskuragarri</emph>."
+msgstr "<emph>BarrutiOrdenatuarenKontsulta</emph> aukerako parametro bat da, matrizearen lehen zutabeak barruti-mugak dituen (balio soilik izan ordez) adierazten duena. Modu horretan, kontsultak itzultzen du 'Bilaketa-irizpidea' balioaren berdina edo txikiagoa duen lehen zutabea duen errenkadako balioa. Adibidez, parametro horrek zerga-balioren bat aldatu deneko datak eduki ditzake, eta kasu horretan, zerga-balio bat indarrean sartu zeneko denbora-tarte baten hasiera-datak ordezkatzen dituzte balioek. Beraz, matrizearen lehen zutabean ez dagoen data bat bilatzen bada, data hori ez badago data-muga batzuen artean, haietako baxuena emango luke, bilatutako datan indarrean sartzen den data bilatzea ahalbidetuz. Sartu FALSE (gezurra) balio boolearra edo zero lehen zutabea ez bada barruti-mugen zerrenda bat. Parametro hau TRUE (egia) bada edo ematen ez bada, matrizeko lehen zutabea <emph>gorantz ordenatu behar da</emph>. Ordenatutako zutabeak azkarrago arakatzen dira eta funtzioak beti itzultzen du baio bat, baita bilaketa-balioa zehatz-mehatz bat ez badator ere, ordenatutako zerrendako baliorik baxuena baino altuagoa bada. Ordenatu gabeko zerrendetan, bilaketa-balioarekin zehaztasunez egin behar da bat; bestela, funtzioak #E/E itzuliko du eta honako mezua emango du: <emph>Errorea: Balioa ez dago eskuragarri</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -19058,7 +19058,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "HLOOKUP(SearchCriterion; Array; Index [; SortedRangeLookup])"
-msgstr ""
+msgstr "HLOOKUP(Bilaketa-irizpidea; Matrizea; Indizea [; BarrutiOrdenatuarenKontsulta])"
 
 #. nhwwF
 #: 04060109.xhp
@@ -19103,7 +19103,7 @@ msgctxt ""
 "par_id3154916\n"
 "help.text"
 msgid "ROW([Reference])"
-msgstr ""
+msgstr "ROW([Erreferentzia])"
 
 #. mSqrb
 #: 04060109.xhp
@@ -19301,7 +19301,7 @@ msgctxt ""
 "par_idN1180E\n"
 "help.text"
 msgid "HYPERLINK(\"URL\" [; \"CellText\"])"
-msgstr ""
+msgstr "HYPERLINK(\"URLa\" [; \"Gelaxka-testua\"])"
 
 #. UbAEY
 #: 04060109.xhp
@@ -19832,7 +19832,7 @@ msgctxt ""
 "par_id3155743\n"
 "help.text"
 msgid "BASE(Number; Radix [; MinimumLength])"
-msgstr ""
+msgstr "BASE(Zenbakia; Erroa [; GutxienekoLuzera])"
 
 #. iDR7A
 #: 04060110.xhp
@@ -19859,7 +19859,7 @@ msgctxt ""
 "par_id3148746\n"
 "help.text"
 msgid "<emph>MinimumLength</emph> (optional) determines the minimum length of the character sequence that has been created. If the text is shorter than the indicated minimum length, zeros are added to the left of the string."
-msgstr "<emph>Gutxieneko luzera</emph> (aukerakoa): sortutako karaktere-sekuentziaren gutxieneko luzera zehazten du. Testua ez bada adierazitako gutxieneko luzerara iristen, zeroak gehituko dira karaktere-katearen ezkerraldean."
+msgstr "<emph>GutxienekoLuzera</emph> (aukerakoa): sortutako karaktere-sekuentziaren gutxieneko luzera zehazten du. Testua ez bada adierazitako gutxieneko luzerara iristen, zeroak gehituko dira karaktere-katearen ezkerraldean."
 
 #. tyXFW
 #: 04060110.xhp
@@ -20273,7 +20273,7 @@ msgctxt ""
 "par_id3154188\n"
 "help.text"
 msgid "DOLLAR(Value [; Decimals])"
-msgstr ""
+msgstr "DOLLAR(Balioa [; Dezimalak])"
 
 #. WA6bA
 #: 04060110.xhp
@@ -20408,7 +20408,7 @@ msgctxt ""
 "par_id3083452\n"
 "help.text"
 msgid "FIND(\"FindText\"; \"Text\" [; Position])"
-msgstr ""
+msgstr "FIND(\"BilaketaTestua\"; \"Testua\" [; Kokagunea])"
 
 #. 3HU9t
 #: 04060110.xhp
@@ -20417,7 +20417,7 @@ msgctxt ""
 "par_id3150608\n"
 "help.text"
 msgid "<emph>FindText</emph> refers to the text to be found."
-msgstr "<emph>Bilatutako_testua</emph>: bilatu nahi den testua."
+msgstr "<emph>BilaketaTestua</emph>: bilatu nahi den testua."
 
 #. nFBy9
 #: 04060110.xhp
@@ -20480,7 +20480,7 @@ msgctxt ""
 "par_id3147567\n"
 "help.text"
 msgid "FIXED(Number; Decimals [; NoThousandsSeparators])"
-msgstr ""
+msgstr "FIXED(Zenbakia; Dezimalak [; MilakoenBereizlerikEz])"
 
 #. 5cYW8
 #: 04060110.xhp
@@ -20507,7 +20507,7 @@ msgctxt ""
 "par_id3150877\n"
 "help.text"
 msgid "<emph>NoThousandsSeparators</emph> (optional) determines whether the thousands separator is used. If the parameter is a number not equal to 0, the thousands separator is suppressed. If the parameter is equal to 0 or if it is missing altogether, the thousands separators of your <link href=\"text/shared/optionen/01140000.xhp\" name=\"current locale setting\">current locale setting</link> are displayed."
-msgstr "<emph>Milakoen bereizlerik ez</emph> (aukerakoa): milakoen bereizlea erabiliko den edo ez zehazten du. Parametroa 0 ez den zenbaki bat bada, milakoen bereizlea kendu egingo da. Parametroa 0 bada edo zehazten ez bada, zure <link href=\"text/shared/optionen/01140000.xhp\" name=\"uneko ezarpen lokala\">uneko ezarpen lokala</link>ren milakoen bereizleak bistaratuko dira."
+msgstr "<emph>MilakoenBereizlerikEz</emph> (aukerakoa): milakoen bereizlea erabiliko den edo ez zehazten du. Parametroa 0 ez den zenbaki bat bada, milakoen bereizlea kendu egingo da. Parametroa 0 bada edo zehazten ez bada, zure <link href=\"text/shared/optionen/01140000.xhp\" name=\"uneko ezarpen lokala\">uneko ezarpen lokala</link>ren milakoen bereizleak bistaratuko dira."
 
 #. nDs7Q
 #: 04060110.xhp
@@ -20624,7 +20624,7 @@ msgctxt ""
 "par_id3146786\n"
 "help.text"
 msgid "LEFT(\"Text\" [; Number])"
-msgstr ""
+msgstr "LEFT(\"Testua\" [; Zenbakia])"
 
 #. PGbwK
 #: 04060110.xhp
@@ -20687,7 +20687,7 @@ msgctxt ""
 "par_id2946786\n"
 "help.text"
 msgid "LEFTB(\"Text\" [; Number_bytes])"
-msgstr ""
+msgstr "LEFTB(\"Testua\" [; Byte_kopurua])"
 
 #. e6CdQ
 #: 04060110.xhp
@@ -21245,7 +21245,7 @@ msgctxt ""
 "par_id3155364\n"
 "help.text"
 msgid "<item type=\"input\">=PROPER(\"the document foundation\")</item> returns The Document Foundation."
-msgstr ""
+msgstr "<item type=\"input\">=PROPER(\"the document foundation\")</item> funtzioak 'The Document Foundation' itzultzen du."
 
 #. MeADa
 #: 04060110.xhp
@@ -21443,7 +21443,7 @@ msgctxt ""
 "par_id3154344\n"
 "help.text"
 msgid "RIGHT(\"Text\" [; Number])"
-msgstr ""
+msgstr "RIGHT(\"Testua\" [; Zenbakia])"
 
 #. dveYp
 #: 04060110.xhp
@@ -21506,7 +21506,7 @@ msgctxt ""
 "par_id2954344\n"
 "help.text"
 msgid "RIGHTB(\"Text\" [; Number_bytes])"
-msgstr ""
+msgstr "RIGHTB(\"Testua\" [; Byte_kopurua])"
 
 #. jvjXS
 #: 04060110.xhp
@@ -21605,7 +21605,7 @@ msgctxt ""
 "par_id3150593\n"
 "help.text"
 msgid "ROMAN(Number [; Mode])"
-msgstr ""
+msgstr "ROMAN(Zenbakia [; Modua])"
 
 #. 4rcTC
 #: 04060110.xhp
@@ -21713,7 +21713,7 @@ msgctxt ""
 "par_id3154671\n"
 "help.text"
 msgid "SEARCH(\"FindText\"; \"Text\" [; Position])"
-msgstr ""
+msgstr "SEARCH(\"BilaketaTestua\"; \"Testua\" [; Kokagunea])"
 
 #. yP57Q
 #: 04060110.xhp
@@ -21722,7 +21722,7 @@ msgctxt ""
 "par_id3146080\n"
 "help.text"
 msgid "<emph>FindText</emph> is the text to be searched for."
-msgstr "<emph>Bilatutako_testua</emph>: bilatu beharreko testua."
+msgstr "<emph>BilaketaTestua</emph>: bilatu beharreko testua."
 
 #. LgGkp
 #: 04060110.xhp
@@ -21785,7 +21785,7 @@ msgctxt ""
 "par_id3147582\n"
 "help.text"
 msgid "SUBSTITUTE(\"Text\"; \"SearchText\"; \"NewText\" [; Occurrence])"
-msgstr ""
+msgstr "SUBSTITUTE(\"Testua\"; \"BilaketaTestua\"; \"TestuBerria\" [; Agerraldia])"
 
 #. tydqc
 #: 04060110.xhp
@@ -24296,7 +24296,7 @@ msgctxt ""
 "par_id961592361784406\n"
 "help.text"
 msgid "The Add-in functions are supplied by the <link href=\"text/sbasic/shared/calc_functions.xhp\" name=\"addinanalysis\">UNO <literal>com.sun.star.sheet.addin.Analysis</literal> service</link>."
-msgstr ""
+msgstr "Osagarrien funtzioez <link href=\"text/sbasic/shared/calc_functions.xhp\" name=\"addinanalysis\">UNO <literal>com.sun.star.sheet.addin.Analysis</literal> zerbitzuak hornitzen du.</link>."
 
 #. fCaeG
 #: 04060115.xhp
@@ -24683,7 +24683,7 @@ msgctxt ""
 "par_id3148753\n"
 "help.text"
 msgid "BIN2HEX(Number [; Places])"
-msgstr ""
+msgstr "BIN2HEX(Zenbakia [; Zifrak])"
 
 #. 9ugAE
 #: 04060115.xhp
@@ -24746,7 +24746,7 @@ msgctxt ""
 "par_id3154508\n"
 "help.text"
 msgid "BIN2OCT(Number [; Places])"
-msgstr ""
+msgstr "BIN2OCT(Zenbakia [; Zifrak])"
 
 #. kBSNf
 #: 04060115.xhp
@@ -24809,7 +24809,7 @@ msgctxt ""
 "par_id3145247\n"
 "help.text"
 msgid "DELTA(Number1 [; Number2])"
-msgstr ""
+msgstr "DELTA(Zenbakia1 [; Zenbakia2])"
 
 #. PEgQC
 #: 04060115.xhp
@@ -24854,7 +24854,7 @@ msgctxt ""
 "par_id3150569\n"
 "help.text"
 msgid "DEC2BIN(Number [; Places])"
-msgstr ""
+msgstr "DEC2BIN(Zenbakia [; Zifrak])"
 
 #. Y9mGB
 #: 04060115.xhp
@@ -24917,7 +24917,7 @@ msgctxt ""
 "par_id3147535\n"
 "help.text"
 msgid "DEC2HEX(Number [; Places])"
-msgstr ""
+msgstr "DEC2HEX(Zenbakia [; Zifrak])"
 
 #. SQafk
 #: 04060115.xhp
@@ -24980,7 +24980,7 @@ msgctxt ""
 "par_id3148427\n"
 "help.text"
 msgid "DEC2OCT(Number [; Places])"
-msgstr ""
+msgstr "DEC2OCT(Zenbakia [; Zifrak])"
 
 #. Fa6gd
 #: 04060115.xhp
@@ -25043,7 +25043,7 @@ msgctxt ""
 "par_id3163824\n"
 "help.text"
 msgid "ERF(LowerLimit [; UpperLimit])"
-msgstr ""
+msgstr "ERF(BehekoMuga [; GoikoMuga])"
 
 #. TyCGk
 #: 04060115.xhp
@@ -25268,7 +25268,7 @@ msgctxt ""
 "par_id3145212\n"
 "help.text"
 msgid "GESTEP(Number [; Step])"
-msgstr ""
+msgstr "GESTEP(Zenbakia [; Urratsa])"
 
 #. QG8JU
 #: 04060115.xhp
@@ -25313,7 +25313,7 @@ msgctxt ""
 "par_id3155847\n"
 "help.text"
 msgid "HEX2BIN(Number [; Places])"
-msgstr ""
+msgstr "HEX2BIN(Zenbakia [; Zifrak])"
 
 #. YzMa9
 #: 04060115.xhp
@@ -25430,7 +25430,7 @@ msgctxt ""
 "par_id3151170\n"
 "help.text"
 msgid "HEX2OCT(Number [; Places])"
-msgstr ""
+msgstr "HEX2OCT(Zenbakia [; Zifrak])"
 
 #. 2Uff5
 #: 04060115.xhp
@@ -25493,7 +25493,7 @@ msgctxt ""
 "par_id961592361784406\n"
 "help.text"
 msgid "The Add-in functions are supplied by the <link href=\"text/sbasic/shared/calc_functions.xhp\" name=\"addinanalysis\">UNO <literal>com.sun.star.sheet.addin.Analysis</literal> service</link>."
-msgstr ""
+msgstr "Osagarrien funtzioez <link href=\"text/sbasic/shared/calc_functions.xhp\" name=\"addinanalysis\">UNO <literal>com.sun.star.sheet.addin.Analysis</literal> zerbitzuak hornitzen du.</link>."
 
 #. DBHCw
 #: 04060116.xhp
@@ -26321,7 +26321,7 @@ msgctxt ""
 "par_id3155999\n"
 "help.text"
 msgid "COMPLEX(RealNum; INum [; Suffix])"
-msgstr ""
+msgstr "COMPLEX(ZatiErreala; ZatiIrudikaria [; Atzizkia])"
 
 #. FCxXC
 #: 04060116.xhp
@@ -26330,7 +26330,7 @@ msgctxt ""
 "par_id3153626\n"
 "help.text"
 msgid "<emph>RealNum</emph> is the real coefficient of the complex number."
-msgstr "<emph>Zati erreala</emph>: zenbaki konplexuaren koefiziente erreala."
+msgstr "<emph>ZatiErreala</emph>: zenbaki konplexuaren koefiziente erreala."
 
 #. cYq6E
 #: 04060116.xhp
@@ -26339,7 +26339,7 @@ msgctxt ""
 "par_id3149135\n"
 "help.text"
 msgid "<emph>INum</emph> is the imaginary coefficient of the complex number."
-msgstr "<emph>Zati irudikaria</emph>: zenbaki konplexuaren koefiziente irudikaria."
+msgstr "<emph>ZatiIrudikaria</emph>: zenbaki konplexuaren koefiziente irudikaria."
 
 #. mGTGC
 #: 04060116.xhp
@@ -26393,7 +26393,7 @@ msgctxt ""
 "par_id3154303\n"
 "help.text"
 msgid "OCT2BIN(Number [; Places])"
-msgstr ""
+msgstr "OCT2BIN(Zenbakia [; Zifrak])"
 
 #. AbzaY
 #: 04060116.xhp
@@ -26510,7 +26510,7 @@ msgctxt ""
 "par_id3150523\n"
 "help.text"
 msgid "OCT2HEX(Number [; Places])"
-msgstr ""
+msgstr "OCT2HEX(Zenbakia [; Zifrak])"
 
 #. XAYGj
 #: 04060116.xhp
@@ -27509,7 +27509,7 @@ msgctxt ""
 "par_id3146098\n"
 "help.text"
 msgid "ODDFPRICE(Settlement; Maturity; Issue; FirstCoupon; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr ""
+msgstr "ODDFPRICE(Likidazioa; Mugaeguna; Jaulkipena; LehenInteresa; Tasa; Etekina; Diru-itzulketa; Maiztasuna [; Oinarria])"
 
 #. kHZM8
 #: 04060118.xhp
@@ -27617,7 +27617,7 @@ msgctxt ""
 "par_id3152982\n"
 "help.text"
 msgid "ODDFYIELD(Settlement; Maturity; Issue; FirstCoupon; Rate; Price; Redemption; Frequency [; Basis])"
-msgstr ""
+msgstr "ODDFYIELD(Likidazioa; Mugaeguna; Jaulkipena; LehenInteresa; Tasa; Prezioa; Diru-itzulketa; Maiztasuna [; Oinarria])"
 
 #. nJXTW
 #: 04060118.xhp
@@ -27725,7 +27725,7 @@ msgctxt ""
 "par_id3155262\n"
 "help.text"
 msgid "ODDLPRICE(Settlement; Maturity; LastInterest; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr ""
+msgstr "ODDLPRICE(Likidazioa; Mugaeguna; AzkenInteresa; Tasa; Etekina; Diru-itzulketa; Maiztasuna [; Oinarria])"
 
 #. iTfu4
 #: 04060118.xhp
@@ -27752,7 +27752,7 @@ msgctxt ""
 "par_id3150861\n"
 "help.text"
 msgid "<emph>LastInterest</emph> is the last interest date of the security."
-msgstr "<emph>Azken interesa</emph>: balorearen azken interesaren data."
+msgstr "<emph>AzkenInteresa</emph>: balorearen azken interesaren data."
 
 #. jErjP
 #: 04060118.xhp
@@ -27851,7 +27851,7 @@ msgctxt ""
 "par_id3150018\n"
 "help.text"
 msgid "ODDLYIELD(Settlement; Maturity; LastInterest; Rate; Price; Redemption; Frequency [; Basis])"
-msgstr ""
+msgstr "ODDLYIELD(Likidazioa; Mugaeguna; AzkenInteresa; Tasa; Prezioa; Diru-itzulketa; Maiztasuna [; Oinarria])"
 
 #. 4X7wa
 #: 04060118.xhp
