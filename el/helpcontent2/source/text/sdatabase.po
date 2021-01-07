@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-10-27 14:18+0100\n"
-"PO-Revision-Date: 2021-01-06 10:36+0000\n"
+"PO-Revision-Date: 2021-01-07 11:36+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_help-7-1/textsdatabase/el/>\n"
 "Language: el\n"
@@ -2479,7 +2479,7 @@ msgctxt ""
 "par_id191120151905439551\n"
 "help.text"
 msgid "Parameter names are preceded by a colon in both the Design and SQL views of a query. This can be used wherever a value can appear. If the same value is to appear more than once in the query, the same parameter name is used."
-msgstr ""
+msgstr "Στα ονόματα παραμέτρων προηγείται ένα : (colon) και στη σχεδίαση και στις προβολές SQL ενός ερωτήματος. Αυτό μπορεί να χρησιμοποιηθεί όποτε μπορεί να εμφανιστεί μια τιμή. Εάν η ίδια τιμή πρόκειται να εμφανιστεί περισσότερες από μία φορά στο ερώτημα, χρησιμοποιείται το ίδιο όνομα παραμέτρου."
 
 #. 57vjv
 #: 02010100.xhp
@@ -2488,7 +2488,7 @@ msgctxt ""
 "par_id191120151905518123\n"
 "help.text"
 msgid "In the simplest case, where the user enters a value which is matched for equality, the parameter name with its preceding colon is simply entered in the Criterion row. In <link href=\"text/sdatabase/020010100.xhp#sqlmode\">SQL mode</link> this should be typed as <item type=\"input\">WHERE \"Field\" = :Parameter_name</item>"
-msgstr ""
+msgstr "Στην πιο απλή περίπτωση, όπου ο χρήστης εισάγει μια τιμή που ταιριάζει με ισότητα, το όνομα της παραμέτρου με το : που προηγείται εισάγεται απλά στη γραμμή κριτηρίων. Στην <link href=\"text/sdatabase/020010100.xhp#sqlmode\">κατάσταση SQL</link> αυτό πρέπει να πληκτρολογηθεί ως <item type=\"input\">WHERE \"Field\" = :Parameter_name</item>"
 
 #. DZCXm
 #: 02010100.xhp
@@ -2497,7 +2497,7 @@ msgctxt ""
 "par_id191120151905584287\n"
 "help.text"
 msgid "Parameter names may not contain any of the characters <item type=\"input\"><space>`!\"$%^*()+={}[]@'~#<>?/,</item>. They may not be the same as field names or SQL reserved words. They may be the same as aliases."
-msgstr ""
+msgstr "Τα ονόματα παραμέτρων δεν μπορεί να περιέχουν οποιονδήποτε από τους χαρακτήρες <item type=\"input\"><space>`!\"$%^*()+={}[]@'~#<>?/,</item>. Δεν μπορεί να είναι τα ίδια με τα ονόματα των πεδίων ή με τις δεσμευμένες λέξεις του SQL. Μπορεί να είναι τα ίδια με τα ψευδώνυμα."
 
 #. bGnxL
 #: 02010100.xhp
@@ -2506,7 +2506,7 @@ msgctxt ""
 "par_id191120151931441881\n"
 "help.text"
 msgid "A useful construction for selecting records based on parts of a text field's content is to add a hidden column with <item type=\"input\">\"LIKE '%' || :Part_of_field || '%'\"</item> as the criterion. This will select records with an exact match. If a case-insensitive test is wanted, one solution is to use <item type=\"input\">LOWER (Field_Name)</item> as the field and <item type=\"input\">LIKE LOWER ( '%' || :Part_of_field || '%' )</item> as the criterion. Note that the spaces in the criterion are important; if they are left out the SQL parser interprets the entire criterion as a string to be matched. In <link href=\"text/sdatabase/020010100.xhp#sqlmode\">SQL mode</link> this should be typed as <item type=\"input\">LOWER ( \"Field_Name\" ) LIKE LOWER ( '%' || :Part_of_field || '%' )</item>."
-msgstr ""
+msgstr "Μια χρήσιμη κατασκευή επιλογής εγγραφών με βάση τμήματα περιεχομένου πεδίου κειμένου είναι η προσθήκη κρυφής στήλης με <item type=\"input\">\"LIKE '%' || :Part_of_field || '%'\"</item> ως κριτηρίου. Αυτό θα επιλέξει εγγραφές με ακριβή συμφωνία. Εάν ζητείται έλεγχος χωρίς διάκριση πεζών-κεφαλαίων, μία λύση είναι η χρήση του <item type=\"input\">LOWER (Field_Name)</item> ως πεδίο και <item type=\"input\">LIKE LOWER ( '%' || :Part_of_field || '%' )</item> ως κριτήριο. Σημειώστε ότι τα κενά στο κριτήριο είναι σημαντικά· εάν παραληφθούν ο αναλυτής SQL parser ερμηνεύει όλο το κριτήριο ως συμβολοσειρά για συμφωνία. Στην <link href=\"text/sdatabase/020010100.xhp#sqlmode\">κατάσταση SQL</link> αυτό πρέπει να πληκτρολογηθεί ως <item type=\"input\">LOWER ( \"Field_Name\" ) LIKE LOWER ( '%' || :Part_of_field || '%' )</item>."
 
 #. sSSB9
 #: 02010100.xhp
@@ -2515,7 +2515,7 @@ msgctxt ""
 "par_id3150585\n"
 "help.text"
 msgid "Parameter queries may be used as the data source for <link href=\"text/shared/02/01170203.xhp\" name=\"subforms\">subforms</link>, to allow the user to restrict the displayed records."
-msgstr ""
+msgstr "Τα ερωτήματα παραμέτρου μπορούν να χρησιμοποιηθούν ως η πηγή δεδομένων για <link href=\"text/shared/02/01170203.xhp\" name=\"subforms\">Τποφόρμες</link>, ώστε να επιτρέψουν τον περιορισμό των εμφανιζόμενων εγγραφών από τον χρήστη."
 
 #. DRj78
 #: 02010100.xhp
@@ -2524,7 +2524,7 @@ msgctxt ""
 "hd_id3151035\n"
 "help.text"
 msgid "Parameter Input"
-msgstr ""
+msgstr "Είσοδος παραμέτρου"
 
 #. BisCF
 #: 02010100.xhp
@@ -2533,7 +2533,7 @@ msgctxt ""
 "par_id3153596\n"
 "help.text"
 msgid "<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">The <emph>Parameter Input</emph> dialog asks the user to enter the parameter values. Enter a value for each query parameter and confirm by clicking <emph>OK</emph> or typing <emph>Enter</emph>.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">Ο διάλογος <emph>Είσοδος παραμέτρου</emph> ζητά από τον χρήστη να εισάγει τις τιμές παραμέτρου. Εισάγετε μια τιμή για κάθε παράμετρο ερωτήματος και επιβεβαιώστε πατώντας <emph>Εντάξει</emph>, ή πληκτρολογώντας <emph>Εισαγωγή</emph>.</ahelp>"
 
 #. eGETM
 #: 02010100.xhp
@@ -2542,7 +2542,7 @@ msgctxt ""
 "par_id191120151924165870\n"
 "help.text"
 msgid "The values entered by the user may consist of any characters which are allowable for the SQL for the relevant criterion; this may depend on the underlying database system."
-msgstr ""
+msgstr "Οι εισερχόμενες τιμές από τον χρήστη μπορούν να αποτελούνται από οποιουσδήποτε χαρακτήρες που είναι επιτρεπτοί στην SQL για το σχετικό κριτήριο· αυτό μπορεί να εξαρτάται από το υποκείμενο σύστημα της βάσης δεδομένων."
 
 #. seFhG
 #: 02010100.xhp
@@ -2551,7 +2551,7 @@ msgctxt ""
 "par_id191120151939594217\n"
 "help.text"
 msgid "The user can use the SQL wild-card characters \"%\" (arbitrary string) or \"_\" (arbitrary single character) as part of the value to retrieve records with more complex criteria."
-msgstr ""
+msgstr "Ο χρήστης μπορεί να χρησιμοποιήσει χαρακτήρες υποκατάστασης \"%\" (ελεύθερη συμβολοσειρά), ή \"_\" (ελεύθερος μοναδικός χαρακτήρας) ως τμήμα της τιμής για να ανακτήσει εγγραφές με πιο σύνθετα κριτήρια."
 
 #. wRe6v
 #: 02010100.xhp
@@ -2560,7 +2560,7 @@ msgctxt ""
 "hd_id3145181\n"
 "help.text"
 msgid "SQL Mode"
-msgstr ""
+msgstr "Κατάσταση SQL"
 
 #. 5avVu
 #: 02010100.xhp
@@ -2569,7 +2569,7 @@ msgctxt ""
 "par_id3147013\n"
 "help.text"
 msgid "SQL stands for \"Structured Query Language\" and describes instructions for updating and administering relational databases."
-msgstr ""
+msgstr "Το SQL αντιπροσωπεύει το \"Structured Query Language (Δομημένη Γλώσσα Ερωτημάτων)\" και περιγράφει οδηγίες ενημέρωσης και διαχείρισης σχεσιακών βάσεων δεδομένων."
 
 #. wDAAY
 #: 02010100.xhp
@@ -2578,7 +2578,7 @@ msgctxt ""
 "par_id3152570\n"
 "help.text"
 msgid "In $[officename] you do not need any knowledge of SQL for most queries, since you do not have to enter the SQL code. If you create a query in the query designer, $[officename] automatically converts your instructions into the corresponding SQL syntax. If, with the help of the <emph>Switch Design View On/Off </emph>button, you change to the SQL view, you can see the SQL commands for a query that has already been created."
-msgstr ""
+msgstr "Στο $[officename] δεν χρειάζεστε καμία γνώση της SQL για τα περισσότερα ερωτήματα, επειδή δεν πρέπει να εισάγετε τον κώδικα SQL. Εάν δημιουργήσετε ένα ερώτημα στον σχεδιαστή ερωτημάτων, το $[officename] μετατρέπει αυτόματα τις οδηγίες σας στην αντίστοιχη σύνταξη SQL. Εάν, με τη βοήθεια του πλήκτρου <emph>Εναλλαγή προβολής σχεδίασης Ναι/Όχι</emph>, αλλάξετε την προβολή SQL, μπορείτε να δείτε τις εντολές SQL για ένα ερώτημα που έχει ήδη δημιουργηθεί."
 
 #. hBQFv
 #: 02010100.xhp
@@ -2587,7 +2587,7 @@ msgctxt ""
 "par_id3152412\n"
 "help.text"
 msgid "You can formulate your query directly in SQL code. Note, however, that the special syntax is dependent upon the database system that you use."
-msgstr ""
+msgstr "Μπορείτε να διαμορφώσετε το ερώτημά σας απευθείας σε κώδικα SQL. Σημειώστε, όμως, ότι η ειδική σύνταξη εξαρτάται από το σύστημα της χρησιμοποιούμενης βάσης δεδομένων."
 
 #. kkuBG
 #: 02010100.xhp
@@ -2596,7 +2596,7 @@ msgctxt ""
 "par_id3146842\n"
 "help.text"
 msgid "If you enter the SQL code manually, you can create SQL-specific queries that are not supported by the graphical interface in the <emph>Query designer</emph>. These queries must be executed in native SQL mode."
-msgstr ""
+msgstr "Εάν εισάγετε τον κώδικα SQL χειροκίνητα, μπορείτε να δημιουργήσετε ερωτήματα ειδικά με την SQL που δεν υποστηρίζονται από τη γραφική διεπαφή στον <emph>Σχεδιαστή ερωτήματος</emph>. Αυτά τα ερωτήματα πρέπει να εκτελεστούν σε εγγενή κατάσταση SQL."
 
 #. cBY6B
 #: 02010100.xhp
@@ -2605,7 +2605,7 @@ msgctxt ""
 "par_id3149632\n"
 "help.text"
 msgid "By clicking the <link href=\"text/shared/02/14030000.xhp\" name=\"Run SQL command directly\"><emph>Run SQL command directly</emph></link> icon in the SQL view, you can formulate a query that is not processed by $[officename] and sent directly to the database engine."
-msgstr ""
+msgstr "Πατώντας το εικονίδιο <link href=\"text/shared/02/14030000.xhp\" name=\"Run SQL command directly\"><emph>Απευθείας εκτέλεση εντολής SQL</emph></link> στην προβολή SQL, μπορείτε να διαμορφώσετε ένα ερώτημα που δεν επεξεργάζεται από το $[officename] και στέλνεται απευθείας στη μηχανή της βάσης δεδομένων."
 
 #. fKBDD
 #: 02010101.xhp
@@ -2614,7 +2614,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Join Properties"
-msgstr ""
+msgstr "Ιδιότητες συνένωσης"
 
 #. TTCNB
 #: 02010101.xhp
@@ -2623,7 +2623,7 @@ msgctxt ""
 "bm_id3154015\n"
 "help.text"
 msgid "<bookmark_value>links;relational databases (Base)</bookmark_value>      <bookmark_value>inner joins (Base)</bookmark_value>      <bookmark_value>joins in databases (Base)</bookmark_value>      <bookmark_value>left joins (Base)</bookmark_value>      <bookmark_value>right joins (Base)</bookmark_value>      <bookmark_value>full joins (Base)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>σύνδεσμοι;σχεσιακές βάσεις δεδομένων (Base)</bookmark_value>      <bookmark_value>εσωτερικές συνενώσεις (Base)</bookmark_value>      <bookmark_value>συνενώσεις σε βάσεις δεδομένων (Base)</bookmark_value>      <bookmark_value>αριστερές συνενώσεις (Base)</bookmark_value>      <bookmark_value>δεξιές συνενώσεις (Base)</bookmark_value>      <bookmark_value>πλήρεις συνενώσεις (Base)</bookmark_value>"
 
 #. DG7RD
 #: 02010101.xhp
@@ -2632,7 +2632,7 @@ msgctxt ""
 "hd_id3154015\n"
 "help.text"
 msgid "Join Properties"
-msgstr ""
+msgstr "Ιδιότητες συνένωσης"
 
 #. MzpBt
 #: 02010101.xhp
@@ -2641,7 +2641,7 @@ msgctxt ""
 "par_id3151205\n"
 "help.text"
 msgid "If you double-click a connection between two linked fields in the query design, or if you choose <emph>Insert - New Relation</emph>, the <emph>Join Properties</emph> dialog appears. These properties will be used in all queries created in the future."
-msgstr ""
+msgstr "Εάν διπλοπατήσετε έναν σύνδεσμο μεταξύ δύο συνδεμένων πεδίων στη σχεδίαση ερωτήματος, ή εάν επιλέξετε <emph>Εισαγωγή - Νέα σχέση</emph>, εμφανίζεται ο διάλογος <emph>Ιδιότητες συνένωσης</emph>. Αυτές οι ιδιότητες θα χρησιμοποιηθούν σε όλα τα ερωτήματα που θα δημιουργηθούν στο μέλλον."
 
 #. oszEF
 #: 02010101.xhp
@@ -2650,7 +2650,7 @@ msgctxt ""
 "hd_id3155066\n"
 "help.text"
 msgid "Tables involved"
-msgstr ""
+msgstr "Εμπλεκόμενοι πίνακες"
 
 #. 2AkcB
 #: 02010101.xhp
@@ -2659,7 +2659,7 @@ msgctxt ""
 "par_id3153924\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/table2\">Specifies two different tables that you want to join.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/table2\">Καθορίζει δύο διαφορετικούς πίνακες που θέλετε να συνενώσετε.</ahelp>"
 
 #. X6wkD
 #: 02010101.xhp
@@ -2668,7 +2668,7 @@ msgctxt ""
 "hd_id3155766\n"
 "help.text"
 msgid "Fields involved"
-msgstr ""
+msgstr "Εμπλεκόμενα πεδία"
 
 #. 8bYEZ
 #: 02010101.xhp
@@ -2677,7 +2677,7 @@ msgctxt ""
 "par_id3148994\n"
 "help.text"
 msgid "<ahelp hid=\".\">Specifies two data fields that will be joined by a relation.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Καθορίζει δύο πεδία δεδομένων που θα συνενωθούν από μια σχέση.</ahelp>"
 
 #. R8CbB
 #: 02010101.xhp
@@ -2686,7 +2686,7 @@ msgctxt ""
 "hd_id3159267\n"
 "help.text"
 msgid "Options"
-msgstr ""
+msgstr "Επιλογές"
 
 #. MRJCp
 #: 02010101.xhp
@@ -2695,7 +2695,7 @@ msgctxt ""
 "hd_id3147340\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Τύπος"
 
 #. rxAGo
 #: 02010101.xhp
@@ -2704,7 +2704,7 @@ msgctxt ""
 "par_id3152482\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/type\">Specifies the join type of the selected join.</ahelp> Some databases support only a subset of the various possible types."
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/type\">Καθορίζει τον τύπο συνένωσης της επιλεγμένης συνένωσης.</ahelp> Μερικές βάσεις δεδομένων υποστηρίζουν μόνο ένα υποσύνολο των διαφόρων δυνατών τύπων."
 
 #. ngfse
 #: 02010101.xhp
@@ -2713,7 +2713,7 @@ msgctxt ""
 "hd_id3155334\n"
 "help.text"
 msgid "Inner Join"
-msgstr ""
+msgstr "Εσωτερική συνένωση"
 
 #. 356Dv
 #: 02010101.xhp
@@ -2722,7 +2722,7 @@ msgctxt ""
 "par_id3155936\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/type\">In an inner join, the results table contains only those records for which the content of the linked fields is the same.</ahelp> In $[officename] SQL this type of link is created by a corresponding WHERE clause."
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/type\">Σε μια εσωτερική συνένωση, ο πίνακας των αποτελεσμάτων περιέχει μόνο αυτές τις εγγραφές για τις οποίες το περιεχόμενο των συνδεμένων πεδίων είναι το ίδιο.</ahelp> Στο $[officename] SQL αυτός ο τύπος συνδέσμου δημιουργείται από μια αντίστοιχη πρόταση WHERE."
 
 #. XYKGT
 #: 02010101.xhp
@@ -2731,7 +2731,7 @@ msgctxt ""
 "hd_id3156372\n"
 "help.text"
 msgid "Left Join"
-msgstr ""
+msgstr "Αριστερή συνένωση"
 
 #. dRFux
 #: 02010101.xhp
@@ -2740,7 +2740,7 @@ msgctxt ""
 "par_id3166450\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/type\">In a left join, the results table contains all records of the queried fields from the left table and only those records of the queried fields from the right table for which the content of the linked fields is the same.</ahelp> In $[officename] SQL this type of link corresponds to the LEFT OUTER JOIN command."
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/type\">Σε μια αριστερή συνένωση, ο πίνακας αποτελεσμάτων περιέχει όλες τις εγγραφές των ερωτούμενων πεδίων από τον αριστερό πίνακα και μόνο αυτές τις εγγραφές των ερωτούμενων πεδίων από τον δεξιό πίνακα για τις οποίες το περιεχόμενο των συνδεμένων πεδίων είναι το ίδιο.</ahelp> Στην $[officename] SQL αυτός ο τύπος συνδέσμου αντιστοιχεί στην εντολή LEFT OUTER JOIN."
 
 #. DxGWD
 #: 02010101.xhp
@@ -2749,7 +2749,7 @@ msgctxt ""
 "hd_id3155607\n"
 "help.text"
 msgid "Right Join"
-msgstr ""
+msgstr "Δεξιά συνένωση"
 
 #. 9eD8R
 #: 02010101.xhp
@@ -2758,7 +2758,7 @@ msgctxt ""
 "par_id3150647\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/type\">In a right join, the results table contains all records of the queried fields from the right table and only those records of the queried fields from the left table for which the content of the linked fields is the same.</ahelp> In $[officename] SQL this type of link corresponds to the RIGHT OUTER JOIN command."
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/type\">Σε μια δεξιά συνένωση, ο πίνακας αποτελεσμάτων περιέχει όλες τις εγγραφές των ερωτούμενων πεδίων από τον δεξιό πίνακα και μόνο αυτές τις εγγραφές των ερωτούμενων πεδίων από τον αριστερό πίνακα για τις οποίες το περιεχόμενο των συνδεμένων πεδίων είναι το ίδιο.</ahelp> Στην $[officename] SQL αυτός ο τύπος συνδέσμου αντιστοιχεί στην εντολή RIGHT OUTER JOIN."
 
 #. wcFAd
 #: 02010101.xhp
@@ -2767,7 +2767,7 @@ msgctxt ""
 "hd_id3158215\n"
 "help.text"
 msgid "Full Join"
-msgstr ""
+msgstr "Πλήρης συνένωση"
 
 #. wAFid
 #: 02010101.xhp
@@ -2776,7 +2776,7 @@ msgctxt ""
 "par_id3163665\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/type\">In a full join, the results table contains all records of the queried fields from the left and right tables.</ahelp> In the SQL of $[officename] this type of link corresponds to the FULL OUTER JOIN command."
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/type\">Σε μια πλήρη συνένωση, ο πίνακας των αποτελεσμάτων περιέχει όλες τις εγγραφές των ερωτούμενων πεδίων από τον δεξιό και τον αριστερό πίνακα.</ahelp> Στην SQL του $[officename] αυτός ο τύπος συνδέσμου αντιστοιχεί στην εντολή FULL OUTER JOIN."
 
 #. gYRyC
 #: 02010101.xhp
@@ -2785,7 +2785,7 @@ msgctxt ""
 "hd_id0305200912031976\n"
 "help.text"
 msgid "Natural"
-msgstr ""
+msgstr "Φυσική"
 
 #. 44FEn
 #: 02010101.xhp
@@ -2794,7 +2794,7 @@ msgctxt ""
 "par_id0305200912031977\n"
 "help.text"
 msgid "<ahelp hid=\".\">In a natural join, the keyword NATURAL in inserted into the SQL statement that defines the relation. The relation joins all columns that have the same column name in both tables. The resulting joined table contains only one column for each pair of equally named columns.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Σε μια φυσική συνένωση, η λέξη-κλειδί NATURAL εισάγεται στη δήλωση SQL που καθορίζει τη σχέση. Η σχέση ενώνει όλες τις στήλες που έχουν το ίδιο όνομα στήλης και στους δύο πίνακες. Ο τελικός συνενωμένος πίνακας περιέχει μόνο μία στήλη για κάθε ζεύγος των στηλών με το ίδιο όνομα.</ahelp>"
 
 #. pK6MV
 #: 04000000.xhp
@@ -2803,7 +2803,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Forms"
-msgstr ""
+msgstr "Φόρμες"
 
 #. AXYAE
 #: 04000000.xhp
@@ -2812,7 +2812,7 @@ msgctxt ""
 "hd_id3150476\n"
 "help.text"
 msgid "<link href=\"text/sdatabase/04000000.xhp\" name=\"Forms\">Forms</link>"
-msgstr ""
+msgstr "<link href=\"text/sdatabase/04000000.xhp\" name=\"Forms\">Φόρμες</link>"
 
 #. EJGgk
 #: 04000000.xhp
@@ -2821,7 +2821,7 @@ msgctxt ""
 "bm_id3156136\n"
 "help.text"
 msgid "<bookmark_value>forms; general information (Base)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>φόρμες; γενικές πληροφορίες (Base)</bookmark_value>"
 
 #. d9y84
 #: 04000000.xhp
@@ -2830,7 +2830,7 @@ msgctxt ""
 "par_id3156136\n"
 "help.text"
 msgid "Forms can be used to enter or to edit existing database contents easily."
-msgstr ""
+msgstr "οι φόρμες μπορούν να χρησιμοποιηθούν για εισαγωγή ή επεξεργασία υφιστάμενων περιεχομένων βάσης δεδομένων εύκολα."
 
 #. pjGfo
 #: 04000000.xhp
@@ -2839,7 +2839,7 @@ msgctxt ""
 "hd_id3157910\n"
 "help.text"
 msgid "<link href=\"text/shared/autopi/01090000.xhp\" name=\"Form Wizard\">FormWizard</link>"
-msgstr ""
+msgstr "<link href=\"text/shared/autopi/01090000.xhp\" name=\"Form Wizard\">Οδηγός φόρμας</link>"
 
 #. GDZow
 #: 04000000.xhp
@@ -2848,7 +2848,7 @@ msgctxt ""
 "hd_id3156003\n"
 "help.text"
 msgid "<link href=\"text/shared/02/01170000.xhp\" name=\"Form Controls\">Form Controls</link>"
-msgstr ""
+msgstr "<link href=\"text/shared/02/01170000.xhp\" name=\"Form Controls\">Στοιχεία ελέγχου φόρμας</link>"
 
 #. CyFwA
 #: 04000000.xhp
@@ -2857,7 +2857,7 @@ msgctxt ""
 "par_id3156156\n"
 "help.text"
 msgid "The Form Controls toolbar provides the tools required to create a form in a text, table, drawing, or presentation document."
-msgstr ""
+msgstr "Η γραμμή εργαλείων στοιχείων ελέγχου φόρμας παρέχει τα απαιτούμενα εργαλεία για τη δημιουργία φόρμας, σε έγγραφο κειμένου, πίνακα, σχεδίου, ή παρουσίασης."
 
 #. itCcM
 #: 04000000.xhp
@@ -2866,7 +2866,7 @@ msgctxt ""
 "hd_id3155388\n"
 "help.text"
 msgid "<link href=\"text/sdatabase/04030000.xhp\" name=\"Form in Design Mode\">Form in Design Mode</link>"
-msgstr ""
+msgstr "<link href=\"text/sdatabase/04030000.xhp\" name=\"Form in Design Mode\">Φόρμα σε κατάσταση σχεδίασης</link>"
 
 #. jwRmr
 #: 04000000.xhp
@@ -2875,7 +2875,7 @@ msgctxt ""
 "par_id3150504\n"
 "help.text"
 msgid "In design mode, the form is designed and the properties of the form and the controls contained in it are defined."
-msgstr ""
+msgstr "Σε κατάσταση σχεδίασης, η φόρμα σχεδιάζεται και καθορίζονται οι ιδιότητες της φόρμας και των περιεχόμενων στοιχείων ελέγχου σε αυτή."
 
 #. bWakN
 #: 04000000.xhp
@@ -2884,7 +2884,7 @@ msgctxt ""
 "hd_id3149784\n"
 "help.text"
 msgid "<link href=\"text/shared/main0213.xhp\" name=\"Sorting and Filtering Data\">Sorting and Filtering Data</link>"
-msgstr ""
+msgstr "<link href=\"text/shared/main0213.xhp\" name=\"Sorting and Filtering Data\">Ταξινόμηση και φιλτράρισμα δεδομένων</link>"
 
 #. 9s5BM
 #: 04000000.xhp
@@ -2893,7 +2893,7 @@ msgctxt ""
 "par_id3151384\n"
 "help.text"
 msgid "You will find the sorting and filter functions in the toolbar when you open a form in user mode."
-msgstr ""
+msgstr "Θα βρείτε τις συναρτήσεις ταξινόμησης και φίλτρου στη γραμμή εργαλείων όταν ανοίξετε μια φόρμα σε κατάσταση χρήστη."
 
 #. Dv2ku
 #: 04000000.xhp
@@ -2902,7 +2902,7 @@ msgctxt ""
 "hd_id3148944\n"
 "help.text"
 msgid "<link href=\"text/shared/02/01170203.xhp\" name=\"Subforms\">Subforms</link>"
-msgstr ""
+msgstr "<link href=\"text/shared/02/01170203.xhp\" name=\"Subforms\">Υποφόρμες</link>"
 
 #. CmENz
 #: 04030000.xhp
@@ -2911,7 +2911,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Form Design"
-msgstr ""
+msgstr "Σχεδίαση φόρμας"
 
 #. 9uFK3
 #: 04030000.xhp
@@ -2920,7 +2920,7 @@ msgctxt ""
 "bm_id3148668\n"
 "help.text"
 msgid "<bookmark_value>forms; designing (Base)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>φόρμες; σχεδίαση (Base)</bookmark_value>"
 
 #. P4Yuk
 #: 04030000.xhp
@@ -2929,7 +2929,7 @@ msgctxt ""
 "hd_id3148668\n"
 "help.text"
 msgid "<variable id=\"formularentwurf\"><link href=\"text/sdatabase/04030000.xhp\" name=\"Form Design\">Form Design</link></variable>"
-msgstr ""
+msgstr "<variable id=\"formularentwurf\"><link href=\"text/sdatabase/04030000.xhp\" name=\"Form Design\">Σχεδίαση φόρμας</link></variable>"
 
 #. FC52Y
 #: 04030000.xhp
@@ -2938,7 +2938,7 @@ msgctxt ""
 "par_id3154230\n"
 "help.text"
 msgid "Any $[officename] document can be expanded into a form. Simply add one or more form controls."
-msgstr ""
+msgstr "Οποιοδήποτε έγγραφο του $[officename] μπορεί να επεκταθεί σε φόρμα. Απλώς, προσθέστε ένα ή περισσότερα στοιχεία ελέγχου φόρμας."
 
 #. Pp5mg
 #: 04030000.xhp
