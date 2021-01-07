@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-24 17:12+0100\n"
-"PO-Revision-Date: 2021-01-01 10:36+0000\n"
+"PO-Revision-Date: 2021-01-07 08:36+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://translations.documentfoundation.org/projects/libo_help-6-4/textscalc01/eu/>\n"
 "Language: eu\n"
@@ -19040,7 +19040,7 @@ msgctxt ""
 "par_id3149984\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_SVERWEIS\">Vertical search with reference to adjacent cells to the right.</ahelp> This function checks if a specific value is contained in the first column of an array. The function then returns the value in the same row of the column named by <item type=\"literal\">Index</item>. If the <item type=\"literal\">Sorted</item> parameter is omitted or set to TRUE or one, it is assumed that the data is sorted in ascending order. In this case, if the exact <item type=\"literal\">SearchCriterion</item> is not found, the last value that is smaller than the criterion will be returned. If <item type=\"literal\">Sorted</item> is set to FALSE or zero, an exact match must be found, otherwise the error <emph>Error: Value Not Available</emph> will be the result. Thus with a value of zero the data does not need to be sorted in ascending order."
-msgstr "<ahelp hid=\"HID_FUNC_SVERWEIS\">Bilaketa bertikala eskuineko ondoz ondoko gelaxken erreferentziarekin.</ahelp> Balio jakin bat matrizearen lehen zutabean badagoen begiratzen du funtzio honek. Orduan funtzioak balioa itzultzen du <item type=\"literal\">indizeak</item> izendatutako zutabeko errenkada berean. <item type=\"literal\">Ordenatua</item> parametroa ez bada zehazten edo TRUE (egiazkoa) ezartzen bada, datuak goranzko ordenan ordenatu behar direla ulertzen da. Kasu horretan, <item type=\"literal\">bilaketa-irizpidea</item> ez bada aurkitzen, hurrengo balioa itzuliko da. <item type=\"literal\">Ordenatua</item> FALSE (faltsua) edo zero bada, zehatz-mehatz bat datorrena aurkitu behar da, eta bestela errore hau emango du: <emph>Errorea: balioa ez dago eskuragarri</emph>. Hortaz, zero balioarekin ez dago datuak gorantz ordenatu beharrik."
+msgstr "<ahelp hid=\"HID_FUNC_SVERWEIS\">Bilaketa bertikala eskuineko ondoz ondoko gelaxken erreferentziarekin.</ahelp> Balio jakin bat matrizearen lehen zutabean badagoen begiratzen du funtzio honek. Orduan funtzioak balioa itzultzen du <item type=\"literal\">indizeak</item> izendatutako zutabeko errenkada berean. <item type=\"literal\">Ordenatua</item> parametroa ez bada zehazten edo TRUE (egiazkoa) ezartzen bada, datuak goranzko ordenan ordenatu behar direla ulertzen da. Kasu horretan, <item type=\"literal\">Bilaketa-irizpidea</item> ez bada aurkitzen, hurrengo balioa itzuliko da. <item type=\"literal\">Ordenatua</item> FALSE (faltsua) edo zero bada, zehatz-mehatz bat datorrena aurkitu behar da, eta bestela errore hau emango du: <emph>Errorea: balioa ez dago eskuragarri</emph>. Hortaz, zero balioarekin ez dago datuak gorantz ordenatu beharrik."
 
 #. qkLkD
 #: 04060109.xhp
@@ -19085,7 +19085,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr "<emph>BarrutiOrdenatuarenKontsulta</emph> aukerako parametro bat da, matrizearen lehen zutabeak barruti-mugak dituen (balio soilik izan ordez) adierazten duena. Modu horretan, kontsultak itzultzen du BilaketaIrizpideak balioaren berdina edo txikiagoa duen lehen zutabea duen errenkadako balioa. Adibidez, parametro horrek zerga-balioren bat aldatu deneko datak eduki ditzake, eta kasu horretan, zerga-balio bat indarrean sartu zeneko denbora-tarte baten hasiera-datak ordezkatzen dituzte balioek. Beraz, matrizearen lehen zutabean ez dagoen data bat bilatzen bada, data hori ez badago data-muga batzuen artean, haietako baxuena emango luke, bilatutako datan indarrean sartzen den data bilatzea ahalbidetuz. Sartu FALSE (gezurra) balio boolearra edo zero lehen zutabea ez bada barruti-mugen zerrenda bat. Parametro hau TRUE (egia) bada edo ematen ez bada, matrizeko lehen zutabea <emph>gorantz ordenatu behar da</emph>. Ordenatutako zutabeak azkarrago arakatzen dira eta funtzioak beti itzultzen du baio bat, baita bilaketa-balioa zehatz-mehatz bat ez badator ere, ordenatutako zerrendako baliorik baxuena baino altuagoa bada. Ordenatu gabeko zerrendetan, bilaketa-balioarekin zehaztasunez egin behar da bat; bestela, funtzioak #E/E itzuliko du eta honako mezua emango du: <emph>Errorea: Balioa ez dago eskuragarri</emph>."
+msgstr "<emph>BarrutiOrdenatuarenKontsulta</emph> aukerako parametro bat da, matrizearen lehen zutabeak barruti-mugak dituen (balio soilik izan ordez) adierazten duena. Modu horretan, kontsultak itzultzen du 'Bilaketa-irizpidea' balioaren berdina edo txikiagoa duen lehen zutabea duen errenkadako balioa. Adibidez, parametro horrek zerga-balioren bat aldatu deneko datak eduki ditzake, eta kasu horretan, zerga-balio bat indarrean sartu zeneko denbora-tarte baten hasiera-datak ordezkatzen dituzte balioek. Beraz, matrizearen lehen zutabean ez dagoen data bat bilatzen bada, data hori ez badago data-muga batzuen artean, haietako baxuena emango luke, bilatutako datan indarrean sartzen den data bilatzea ahalbidetuz. Sartu FALSE (gezurra) balio boolearra edo zero lehen zutabea ez bada barruti-mugen zerrenda bat. Parametro hau TRUE (egia) bada edo ematen ez bada, matrizeko lehen zutabea <emph>gorantz ordenatu behar da</emph>. Ordenatutako zutabeak azkarrago arakatzen dira eta funtzioak beti itzultzen du baio bat, baita bilaketa-balioa zehatz-mehatz bat ez badator ere, ordenatutako zerrendako baliorik baxuena baino altuagoa bada. Ordenatu gabeko zerrendetan, bilaketa-balioarekin zehaztasunez egin behar da bat; bestela, funtzioak #E/E itzuliko du eta honako mezua emango du: <emph>Errorea: Balioa ez dago eskuragarri</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -20534,7 +20534,7 @@ msgctxt ""
 "par_id3148746\n"
 "help.text"
 msgid "<emph>MinimumLength</emph> (optional) determines the minimum length of the character sequence that has been created. If the text is shorter than the indicated minimum length, zeros are added to the left of the string."
-msgstr "<emph>Gutxieneko luzera</emph> (aukerakoa): sortutako karaktere-sekuentziaren gutxieneko luzera zehazten du. Testua ez bada adierazitako gutxieneko luzerara iristen, zeroak gehituko dira karaktere-katearen ezkerraldean."
+msgstr "<emph>GutxienekoLuzera</emph> (aukerakoa): sortutako karaktere-sekuentziaren gutxieneko luzera zehazten du. Testua ez bada adierazitako gutxieneko luzerara iristen, zeroak gehituko dira karaktere-katearen ezkerraldean."
 
 #. tyXFW
 #: 04060110.xhp
@@ -21092,7 +21092,7 @@ msgctxt ""
 "par_id3150608\n"
 "help.text"
 msgid "<emph>FindText</emph> refers to the text to be found."
-msgstr "<emph>Bilatutako_testua</emph>: bilatu nahi den testua."
+msgstr "<emph>BilaketaTestua</emph>: bilatu nahi den testua."
 
 #. nFBy9
 #: 04060110.xhp
@@ -21182,7 +21182,7 @@ msgctxt ""
 "par_id3150877\n"
 "help.text"
 msgid "<emph>NoThousandsSeparators</emph> (optional) determines whether the thousands separator is used. If the parameter is a number not equal to 0, the thousands separator is suppressed. If the parameter is equal to 0 or if it is missing altogether, the thousands separators of your <link href=\"text/shared/optionen/01140000.xhp\" name=\"current locale setting\">current locale setting</link> are displayed."
-msgstr "<emph>Milakoen bereizlerik ez</emph> (aukerakoa): milakoen bereizlea erabiliko den edo ez zehazten du. Parametroa 0 ez den zenbaki bat bada, milakoen bereizlea kendu egingo da. Parametroa 0 bada edo zehazten ez bada, zure <link href=\"text/shared/optionen/01140000.xhp\" name=\"uneko ezarpen lokala\">uneko ezarpen lokala</link>ren milakoen bereizleak bistaratuko dira."
+msgstr "<emph>MilakoenBereizlerikEz</emph> (aukerakoa): milakoen bereizlea erabiliko den edo ez zehazten du. Parametroa 0 ez den zenbaki bat bada, milakoen bereizlea kendu egingo da. Parametroa 0 bada edo zehazten ez bada, zure <link href=\"text/shared/optionen/01140000.xhp\" name=\"uneko ezarpen lokala\">uneko ezarpen lokala</link>ren milakoen bereizleak bistaratuko dira."
 
 #. nDs7Q
 #: 04060110.xhp
@@ -22397,7 +22397,7 @@ msgctxt ""
 "par_id3146080\n"
 "help.text"
 msgid "<emph>FindText</emph> is the text to be searched for."
-msgstr "<emph>Bilatutako_testua</emph>: bilatu beharreko testua."
+msgstr "<emph>BilaketaTestua</emph>: bilatu beharreko testua."
 
 #. LgGkp
 #: 04060110.xhp
@@ -26888,7 +26888,7 @@ msgctxt ""
 "par_id3153626\n"
 "help.text"
 msgid "<emph>RealNum</emph> is the real coefficient of the complex number."
-msgstr "<emph>Zati erreala</emph>: zenbaki konplexuaren koefiziente erreala."
+msgstr "<emph>ZatiErreala</emph>: zenbaki konplexuaren koefiziente erreala."
 
 #. cYq6E
 #: 04060116.xhp
@@ -26897,7 +26897,7 @@ msgctxt ""
 "par_id3149135\n"
 "help.text"
 msgid "<emph>INum</emph> is the imaginary coefficient of the complex number."
-msgstr "<emph>Zati irudikaria</emph>: zenbaki konplexuaren koefiziente irudikaria."
+msgstr "<emph>ZatiIrudikaria</emph>: zenbaki konplexuaren koefiziente irudikaria."
 
 #. mGTGC
 #: 04060116.xhp
@@ -28310,7 +28310,7 @@ msgctxt ""
 "par_id3150861\n"
 "help.text"
 msgid "<emph>LastInterest</emph> is the last interest date of the security."
-msgstr "<emph>Azken interesa</emph>: balorearen azken interesaren data."
+msgstr "<emph>AzkenInteresa</emph>: balorearen azken interesaren data."
 
 #. jErjP
 #: 04060118.xhp
@@ -58077,12 +58077,13 @@ msgstr "<link href=\"text/scalc/01/func_forecastetspiadd.xhp\">FORECAST.ETS.PI.A
 
 #. MNort
 #: func_forecastetspiadd.xhp
+#, fuzzy
 msgctxt ""
 "func_forecastetspiadd.xhp\n"
 "par_id0603201617141750\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_FORECAST_ETS_PIA\">Calculates the prediction interval(s) for additive forecast based on the historical data using ETS or EDS algorithms.</ahelp> EDS is used when argument <emph>period_length</emph> is 0, otherwise ETS is used."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_FORECAST_ETS_PIA\">Aurresate-tarteak kalkulatzen ditu datu historikoetan oinarrituta ETS edo EDS algoritmoak erabiliz egingo diren batutako iragarpenetarako.</ahelp>. EDS erabiltzen da <emph>EpealdiLuzera</emph> 0 denean, bestela ETS erabiltzen da."
 
 #. ZnBVX
 #: func_forecastetspiadd.xhp
@@ -66767,7 +66768,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Fourier Analysis"
-msgstr ""
+msgstr "Fourierren analisia"
 
 #. EV56D
 #: statistics_fourier.xhp
@@ -66776,7 +66777,7 @@ msgctxt ""
 "hd_id431561808831965\n"
 "help.text"
 msgid "<variable id=\"fourieranalysysh1\"><link href=\"text/scalc/01/statistics_fourier.xhp\" name=\"Fourier analysis\">Fourier Analysis</link></variable>"
-msgstr ""
+msgstr "<variable id=\"fourieranalysysh1\"><link href=\"text/scalc/01/statistics_fourier.xhp\" name=\"Fourier analysis\">Fourierren analisia</link></variable>"
 
 #. EEBRe
 #: statistics_fourier.xhp
