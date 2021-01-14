@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-02-27 12:57+0100\n"
-"PO-Revision-Date: 2021-01-13 15:36+0000\n"
+"PO-Revision-Date: 2021-01-14 21:36+0000\n"
 "Last-Translator: SteenRønnow <steen.roennow@mail.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-6-4/textsbasicshared/da/>\n"
 "Language: da\n"
@@ -31910,7 +31910,7 @@ msgctxt ""
 "par_id3149295\n"
 "help.text"
 msgid "<emph>Expression:</emph> Numeric variables that represent a valid 16 bit Unicode value (0-65535). (To support expressions with a nominally negative argument like <emph>ChrW(&H8000)</emph> in a backwards-compatible way, values in the range −32768 to −1 are internally mapped to the range 32768 to 65535.) An empty value returns error code 5. A value out of the range [0,65535] returns error code 6."
-msgstr "<emph>Expression:</emph> Numeric variables that represent a valid 16 bit Unicode value (0-65535). (For at understøtte udtryk med et nominelt negativt argument som  <emph>ChrW(&H8000)</emph> på en baglænskompatibel måde, kortlægges værdier i området  −32768 til −1 internt til området  32768 to 65535.) En tom værdi returnerer fejlkode 5. En værdi udenfor området [0,65535] returnerer fejlkode 6."
+msgstr "<emph>Expression:</emph> Numeriske variabler, der repræsenterer en gyldig 16-bit Unicode-værdi (0-65535). (For at understøtte udtryk med et nominelt negativt argument som <emph>ChrW(&H8000)</emph> på en baglæns-kompatibel måde mappes værdier i området  −32768 to −1 internt til området 32768 to 65535.) En tom værdi returnerer fejlkode 5. En værdi uden for området [0,65535] returnerer fejlkode 6."
 
 #. 8DF8a
 #: 03120112.xhp
@@ -36122,7 +36122,7 @@ msgctxt ""
 "bm_id3150682\n"
 "help.text"
 msgid "<bookmark_value>GlobalScope specifier</bookmark_value><bookmark_value>library systems</bookmark_value><bookmark_value>Library container</bookmark_value><bookmark_value>GlobalScope</bookmark_value><bookmark_value>API; BasicLibraries</bookmark_value><bookmark_value>API; DialogLibraries</bookmark_value><bookmark_value>BasicLibraries; library container</bookmark_value><bookmark_value>DialogLibraries; library container</bookmark_value>"
-msgstr "<bookmark_value>GlobalScope-funktion</bookmark_value><bookmark_value>bibliotelssystemer</bookmark_value><bookmark_value>biblioteksbeholder</bookmark_value><bookmark_value>GlobalScope</bookmark_value><bookmark_value>API; BasicLibraries</bookmark_value><bookmark_value>API; DialogLibraries</bookmark_value><bookmark_value>BasicLibraries; biblioteksbeholder</bookmark_value><bookmark_value>DialogLibraries; biblioteksbeholder</bookmark_value>"
+msgstr "<bookmark_value>GlobalScope-funktionen</bookmark_value><bookmark_value>bibliotekssystemer</bookmark_value><bookmark_value>Biblioteksbeholder</bookmark_value><bookmark_value>GlobalScope</bookmark_value><bookmark_value>API; BasicLibraries</bookmark_value><bookmark_value>API; DialogLibraries</bookmark_value><bookmark_value>BasicLibraries; biblioteksbeholder</bookmark_value><bookmark_value>DialogLibraries; biblioteksbeholder</bookmark_value>"
 
 #. BEFVK
 #: 03131900.xhp
@@ -36131,7 +36131,7 @@ msgctxt ""
 "hd_id3150682\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope\">GlobalScope specifier</link>"
-msgstr "<link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope\">GlobalScope-funktion</link>"
+msgstr "<link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope\">funktionen GlobalScope</link>"
 
 #. BKWJA
 #: 03131900.xhp
@@ -36140,7 +36140,7 @@ msgctxt ""
 "par_id991572457387308\n"
 "help.text"
 msgid "To manage personal or shared library containers (<emph>%PRODUCTNAME Macros</emph> or <emph>My Macros</emph>) from within a document, use the <literal>GlobalScope</literal> specifier."
-msgstr "For at administrere personlige eller delte beholdere (<emph>%PRODUCTNAME-makroer</emph> eller <emph>Mine makroer</emph>) inde fra et dokument, bruger du <literal>GlobalScope</literal>-funktion."
+msgstr "For at håndtere personlige og delte biblioteksbeholdere (<emph>%PRODUCTNAME-makroer</emph> eller <emph>Mine makroer</emph>) inde fra et dokument bruger du funktionen <literal>GlobalScope</literal>."
 
 #. Jz8ET
 #: 03131900.xhp
@@ -36149,7 +36149,7 @@ msgctxt ""
 "par_id3153345\n"
 "help.text"
 msgid "Basic source code and dialogs are organized in library containers. Libraries can contain modules and dialogs."
-msgstr "Basic kildekode og dialoger er organiseret i biblioteksholdninger. Biblioteker kan indeholde moduler og dialoger"
+msgstr "Basic-kildekode og dialoger organiseres i biblioteksbeholdere. Biblioteker kan indeholde moduler og dialoger."
 
 #. BhGwB
 #: 03131900.xhp
@@ -36167,7 +36167,7 @@ msgctxt ""
 "par_id3153061\n"
 "help.text"
 msgid "Basic libraries and modules can be managed with the <literal>BasicLibraries</literal> object. Libraries can be searched, explored and loaded on request. <link href=\"text/sbasic/python/python_document_events.xhp\" name=\"Monitoring document events\">Monitoring Documents Events</link> illustrates %PRODUCTNAME library loading."
-msgstr "Basic-biblioteker og -moduler kan administeres med objektet <literal>BasicLibraries</literal>. Biblioteker kan gennemsøges, udforskes og indlæses efter ønske. <link href=\"text/sbasic/python/python_document_events.xhp\" name=\"Monitoring document events\">Overvågning af dokumenthændelser</link> illustrerer indlæsning af %PRODUCTNAME-biblioteker."
+msgstr "Basic-biblioteker og -moduler kan hådteres med objektet <literal>BasicLibraries</literal>. Biblioteker kan gennemsøges, udforskes og indlæses efter anmodning. <link href=\"text/sbasic/python/python_document_events.xhp\" name=\"Monitoring document events\">Overvågning af dokumenthændelser</link> illustrerer indlæsning af %PRODUCTNAME-biblioteker."
 
 #. retJJ
 #: 03131900.xhp
@@ -36194,7 +36194,7 @@ msgctxt ""
 "par_id3150543\n"
 "help.text"
 msgid "<literal>BasicLibraries</literal> and <literal>DialogLibraries</literal> containers exist at application level and within every document. Document's library containers do not need the <literal>GlobalScope</literal> specifier to be managed. If you want to call a global library container (located in <emph>%PRODUCTNAME Macros</emph> or <emph>My Macros</emph>) from within a document, you must use the <literal>GlobalScope</literal> specifier."
-msgstr "<literal>BasicLibraries</literal> og <literal>DialogLibraries</literal>-beholdere findes på program-nievau og i ethvert dokument. Biblioteksbeholder i Dokumenter har ikke brug for funktionen <literal>GlobalScope</literal> for at administreres. Hvis du vil kalde en global biblioteksbeholder (placeret i <emph>%PRODUCTNAME-makroer</emph> eller <emph>Mine makroer</emph>) inde fra et dokument, skal du bruge funktionen <literal>GlobalScope</literal>."
+msgstr "<literal>BasicLibraries</literal> og <literal>DialogLibraries</literal>-beholdere findes på program-niveau og i ethvert dokument. Dokumenters biblioteksbeholdere har ikke brug for funktionen <literal>GlobalScope</literal> for at kunne håndteres. Hvis du vil kalde en global biblioteksbeholder (placeret i <emph>%PRODUCTNAME-makroer</emph> eller <emph>Mine makroer</emph>) inde fra et dokument, skal du bruge funktionen <literal>GlobalScope</literal>."
 
 #. BDRji
 #: 03131900.xhp
@@ -36779,7 +36779,7 @@ msgctxt ""
 "par_id3150541\n"
 "help.text"
 msgid "If <literal>CreateUnoValue</literal> cannot be converted to the specified Uno type, and error occurs. For the conversion, the <literal>TypeConverter</literal> service is used."
-msgstr "Hvis <literal>CreateUnoValue</literal> ikke kan konverteres til den specificerede >Uno-type, sker der en fejl. Til konverteringen bruges tjenesten <literal>TypeConverter</literal>."
+msgstr "Hvis <literal>CreateUnoValue</literal> ikke kan konverteres til den specificerede Uno-type, sker der en fejl. Til konverteringen bruges tjenesten <literal>TypeConverter</literal>."
 
 #. bT3DS
 #: 03132300.xhp
@@ -36788,7 +36788,7 @@ msgctxt ""
 "par_id3153524\n"
 "help.text"
 msgid "This function is intended for use in situations where the default Basic to Uno type converting mechanism is insufficient. This can happen when you try to access generic Any based interfaces, such as <literal>XPropertySet::setPropertyValue( Name, Value )</literal> or <literal>X???Container::insertBy???( ???, Value )</literal>, from $[officename] Basic. The Basic runtime does not recognize these types as they are only defined in the corresponding service."
-msgstr "Denne funktion er beregnet til brug i situationer, hvor standard konverteringsmekanismen Basic til Uno-type ikke er tilstrækkelig. Dette kan ske, når du forsøger at tilgå generiske Any-baserede grænseflader, såsom <literal>XPropertySet::setPropertyValue( Name, Value )</literal> eller <literal>X???Container::insertBy???( ???, Value )</literal> fra $[officename] Basic. Basic-afviklingsmiljøet genkender ikke disse typer, da de udelukkende er defineret i den tilsvarende tjeneste."
+msgstr "Denne funktion er beregnet til brug i situationer, hvor standardmekanismen Basic til Uno typekonvertering er utilstrækkelig. Dette kan ske, når du prøver at tilgå generiske grænseflader baseret på Any, såsom <literal>XPropertySet::setPropertyValue( Name, Value )</literal> eller <literal>X???Container::insertBy???( ???, Value )</literal> fra $[officename] Basic. Basic-afviklingsmiljøet genkender ikke disse typer, da de udelukkende er defineret i den tilsvarende tjeneste."
 
 #. TpSGK
 #: 03132300.xhp
@@ -36797,7 +36797,7 @@ msgctxt ""
 "par_id3154366\n"
 "help.text"
 msgid "In this type of situation, $[officename] Basic chooses the best matching type for the Basic type that you want to convert. However, if the wrong type is selected, an error occurs. You use the <literal>CreateUnoValue()</literal> function to create a value for the unknown Uno type."
-msgstr "I den slags situation vælger $[officename] Basic den type, der bedst matcher den Basic-type, du vil konvertere. Hvis en forkerte type vælges, sker der imidlertid en fejl. Du bruger funktionen <literal>CreateUnoValue()</literal> til at oprette en værdi til den ukendte Uno-type."
+msgstr "I denne slags situationer vælger $[officename] Basic den bedst matchende type til den Basic-type, som du vil konvertere. Hvis en forkerte type bliver valgt, sker der en fejl. Du bruger funktionen <literal>CreateUnoValue()</literal> til at oprette en værdi til den ukendte Uno-type."
 
 #. QxoCy
 #: 03132300.xhp
@@ -36806,7 +36806,7 @@ msgctxt ""
 "par_id3150769\n"
 "help.text"
 msgid "You can also use this function to pass non-Any values, but this is not recommend. If Basic already knows the target type, using the <literal>CreateUnoValue()</literal> function will only lead to additional converting operations that slow down the Basic execution."
-msgstr "Du kan også bruge denne funktion udstede ikke-Any-værdier, men det anbefales ikke. Hvis Basic allerede kender måltypen, vil brug af funktionen <literal>CreateUnoValue()</literal> bare føre til yderligere konverteringshandlinger, som sinker udførelsen af Basic."
+msgstr "Du kan også bruge denne funktion behandle ikke-Any værdier, men det anbefales ikke. Hvis Basic allerede kender måltypen, vil brug af funktionen <literal>CreateUnoValue()</literal> kun føre til yderligere konverteringsoperationer, der sinker afviklingen af Basic."
 
 #. yUCwp
 #: 03132400.xhp
@@ -39857,7 +39857,7 @@ msgctxt ""
 "N0103\n"
 "help.text"
 msgid "<bookmark_value>CompatibilityMode</bookmark_value>        <bookmark_value>VBA compatibility mode</bookmark_value>"
-msgstr "<bookmark_value>CompatibilityMode</bookmark_value>        <bookmark_value>VBA-kompatibilitetstilstand</bookmark_value>"
+msgstr "<bookmark_value>Kompatibilitetstilstand</bookmark_value>        <bookmark_value>VBA-kompatibilitetstilstand</bookmark_value>"
 
 #. WL5ei
 #: compatibilitymode.xhp
@@ -39893,7 +39893,7 @@ msgctxt ""
 "par_id271561645872679\n"
 "help.text"
 msgid "<literal>Option Compatible</literal> turns on VBA compatibility at module level for the %PRODUCTNAME Basic interpreter."
-msgstr "<literal>Option Compatible</literal>slår VBA-kompatibilitet til på modulniveau for %PRODUCTNAME Basic-fortolkeren."
+msgstr "<literal>Option Compatible</literal> tænder for VBA-kompatibilitet på modulniveau i %PRODUCTNAME Basic-fortolkeren."
 
 #. NM3yP
 #: compatibilitymode.xhp
@@ -39920,7 +39920,7 @@ msgctxt ""
 "N0124\n"
 "help.text"
 msgid "Running <literal>RmDir</literal> command in VBA mode. In VBA only empty directories are removed by <literal>RmDir</literal> while %PRODUCTNAME Basic removes a directory recursively."
-msgstr "Udfør kommandoen <literal>RmDir</literal> i VBA-tilstand.I VBA fjernes kun tomme mapper af <literal>RmDir</literal>, mens %PRODUCTNAME Basic fjerner en mappe rekursivt."
+msgstr "Kørsel af kommandoen <literal>RmDir</literal> i VBA-tilstand. I VBA fjernes kun tomme mapper med <literal>RmDir</literal>, mens %PRODUCTNAME Basic fjerner en mappe rekursivt."
 
 #. 5GFEr
 #: compatibilitymode.xhp
@@ -39938,7 +39938,7 @@ msgctxt ""
 "N0126\n"
 "help.text"
 msgid "<literal>CompatibilityMode()</literal> function may be necessary when resorting to <literal>Option Compatible</literal> or <literal>Option VBASupport</literal> compiler modes."
-msgstr "Funktionen <literal>CompatibilityMode()</literal> kan være nødvendig, når du tyr til kompilertilstandene <literal>Option Compatible</literal> eller <literal>Option VBASupport</literal> ."
+msgstr "Funktionen <literal>CompatibilityMode()</literal> kan være nødvendig, når du benytter kompilertilstandene <literal>Option Compatible</literal> eller <literal>Option VBASupport</literal> ."
 
 #. cFz7C
 #: compatibilitymode.xhp
@@ -39947,7 +39947,7 @@ msgctxt ""
 "par_id541561646705787\n"
 "help.text"
 msgid "Given a NOT empty directory at <emph>file:///home/me/Test</emph>"
-msgstr "Givet en IKKE-tom mappe i <emph>file:///home/me/Test</emph>"
+msgstr "Givet en IKKE-tom mappe på <emph>file:///home/me/Test</emph>"
 
 #. 7mLBk
 #: compatibilitymode.xhp
@@ -39983,7 +39983,7 @@ msgctxt ""
 "N0129\n"
 "help.text"
 msgid "Refer to <link href=\"text/sbasic/python/python_platform.xhp\">Identifying the Operating System</link> and <link href=\"text/sbasic/python/python_session.xhp\">Getting Session Information</link> for <literal>Option Compatible</literal> simple examples, or <link href=\"text/sbasic/guide/access2base.xhp\">Access2Base shared Basic library</link> for other class examples making use of <literal>Option Compatible</literal> compiler mode."
-msgstr "Se <link href=\"text/sbasic/python/python_platform.xhp\">Identifkation af operativsystemet</link> og <link href=\"text/sbasic/python/python_session.xhp\">Hentning af sessionsinformation</link> for at finde <literal>Option Compatible</literal>  enkle eksempler, eller <link href=\"text/sbasic/guide/access2base.xhp\">Access2Base delte Basic-bibliotekler</link> for at finde andre klasseeksempler, der gør brug af  <literal>Option Compatible</literal> kompilertilstand."
+msgstr "Se <link href=\"text/sbasic/python/python_platform.xhp\">Identifkation af operativsystemet</link> og <link href=\"text/sbasic/python/python_session.xhp\">Hent sessionsoplysninger</link> for at finde simple eksempler på <literal>Option Compatible</literal>, eller <link href=\"text/sbasic/guide/access2base.xhp\">Access2Base delte Basic-bibliotekler</link> for at finde andre klasseeksempler, der gør brug af  <literal>Option Compatible</literal> kompilertilstand."
 
 #. P7qDB
 #: compatibilitymode.xhp
@@ -39992,7 +39992,7 @@ msgctxt ""
 "N0131\n"
 "help.text"
 msgid "Variables scope modification in <link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures and Functions</link> with <literal>CompatibilityMode()</literal> function."
-msgstr "Ændring af variables formål i <link href=\"text/sbasic/shared/01020300.xhp\">Brug af procedurer og funktioner</link> med funktionen <literal>CompatibilityMode()</literal>."
+msgstr "Ændring af variabelområdet i <link href=\"text/sbasic/shared/01020300.xhp\">Brug af procedurer og funktioner</link> med funktionen <literal>CompatibilityMode()</literal>."
 
 #. 8pEXC
 #: compatible.xhp
@@ -40028,7 +40028,7 @@ msgctxt ""
 "N0106\n"
 "help.text"
 msgid "<literal>Option Compatible</literal> turns on the VBA-compatible Basic compiler mode at the module level."
-msgstr "<literal>Option Compatible</literal> slår tilstanden VBA-kompatibel Basic kompiler til på modulniveau."
+msgstr "<literal>Option Compatible</literal> slår kompilertilstanden VBA-kompatibel Basic til på modulniveau."
 
 #. SNhhH
 #: compatible.xhp
