@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2020-12-08 13:07+0100\n"
+"POT-Creation-Date: 2021-01-14 18:09+0100\n"
 "PO-Revision-Date: 2021-01-13 13:36+0000\n"
 "Last-Translator: SteenRønnow <steen.roennow@mail.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/da/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1561161214.000000\n"
 
 #. yzYVt
@@ -11486,23 +11486,14 @@ msgctxt ""
 msgid "Changes the current directory or drive."
 msgstr "Ændrer det aktuelle katalog eller drev."
 
-#. KUcVy
+#. 9njBT
 #: 03020401.xhp
 msgctxt ""
 "03020401.xhp\n"
-"par_id9783013\n"
+"par_id461605879610611\n"
 "help.text"
-msgid "This statement currently does not work as documented. See <link href=\"https://bz.apache.org/ooo/show_bug.cgi?id=30692\">this issue</link> for more information."
-msgstr "Dette udtryk fungerer for tiden ikke som dokumenteret. Se <link href=\"https://bz.apache.org/ooo/show_bug.cgi?id=30692\">denne fejl</link> for flere oplysninger"
-
-#. oxGEP
-#: 03020401.xhp
-msgctxt ""
-"03020401.xhp\n"
-"hd_id3154347\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaks:"
+msgid "Some DOS-specific file and directory functions are no longer provided in %PRODUCTNAME, or their function is only limited. For example, support for the <literal>ChDir</literal>, <literal>ChDrive</literal> and <literal>CurDir</literal> functions is not provided. Some DOS-specific properties are no longer used in functions that expect file properties as parameters (for example, to differentiate from concealed files and system files). This ensures the greatest possible level of platform independence for %PRODUCTNAME. Therefore this feature is subject to removal in a future release."
+msgstr ""
 
 #. WXPPp
 #: 03020401.xhp
@@ -11512,15 +11503,6 @@ msgctxt ""
 "help.text"
 msgid "ChDir Text As String"
 msgstr "ChDir Text As String"
-
-#. VAQMk
-#: 03020401.xhp
-msgctxt ""
-"03020401.xhp\n"
-"hd_id3148664\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parametre:"
 
 #. QhhVQ
 #: 03020401.xhp
@@ -11539,15 +11521,6 @@ msgctxt ""
 "help.text"
 msgid "If you only want to change the current drive, enter the drive letter followed by a colon."
 msgstr "Hvis du kun vil skifte det aktuelle drev, indtast drevbogstavet efterfulgt af et kolon."
-
-#. yUcF8
-#: 03020401.xhp
-msgctxt ""
-"03020401.xhp\n"
-"hd_id3151116\n"
-"help.text"
-msgid "Example:"
-msgstr "Eksempel:"
 
 #. vRQAc
 #: 03020402.xhp
@@ -11585,15 +11558,6 @@ msgctxt ""
 msgid "Changes the current drive."
 msgstr "Ændrer det aktuelle drev."
 
-#. GE4Tj
-#: 03020402.xhp
-msgctxt ""
-"03020402.xhp\n"
-"hd_id3154138\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaks:"
-
 #. rkzEY
 #: 03020402.xhp
 msgctxt ""
@@ -11602,15 +11566,6 @@ msgctxt ""
 "help.text"
 msgid "ChDrive Text As String"
 msgstr "ChDrive Text As String"
-
-#. FDHDT
-#: 03020402.xhp
-msgctxt ""
-"03020402.xhp\n"
-"hd_id3156423\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parametre:"
 
 #. ncuAv
 #: 03020402.xhp
@@ -11629,15 +11584,6 @@ msgctxt ""
 "help.text"
 msgid "The drive must be assigned a capital letter. Under Windows, the letter that you assign the drive is restricted by the settings in LASTDRV. If the drive argument is a multiple-character string, only the first letter is relevant. If you attempt to access a non-existent drive, an error occurs that you can respond to with the OnError statement."
 msgstr "Drevet skal tildeles et stort bogstav. Under Windows er bogstavet, som du tildeler drevet, begrænset af indstillingerne i LASTDRV. Hvis drevargumentet er en flertegnsstreng, vil kun det første bogstav være relevant. Hvis du forsøger at tilgå et ikke-eksisterende drev, vil der opstå en fejl, som du kan svare på med sætningen OnError."
-
-#. SoT9B
-#: 03020402.xhp
-msgctxt ""
-"03020402.xhp\n"
-"hd_id3153188\n"
-"help.text"
-msgid "Example:"
-msgstr "Eksempel:"
 
 #. X2QkD
 #: 03020402.xhp
@@ -11666,41 +11612,23 @@ msgctxt ""
 msgid "<bookmark_value>CurDir function</bookmark_value>"
 msgstr "<bookmark_value>CurDir-funktion</bookmark_value>"
 
-#. hVYEG
+#. jm6JP
 #: 03020403.xhp
 msgctxt ""
 "03020403.xhp\n"
 "hd_id3153126\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03020403.xhp\">CurDir Function</link>"
-msgstr "<link href=\"text/sbasic/shared/03020403.xhp\">CurDir-funktion</link>"
+msgid "<variable id=\"CurDir_h1\"><link href=\"text/sbasic/shared/03020403.xhp\">CurDir Function</link></variable>"
+msgstr ""
 
-#. ivoiQ
+#. e8mAC
 #: 03020403.xhp
 msgctxt ""
 "03020403.xhp\n"
 "par_id3156343\n"
 "help.text"
-msgid "Returns a variant string that represents the current path of the specified drive."
-msgstr "Returnerer en variant streng som repræsenterer den aktuelle sti for det specificerede drev."
-
-#. HFiTn
-#: 03020403.xhp
-msgctxt ""
-"03020403.xhp\n"
-"hd_id3149457\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaks:"
-
-#. FBQ7w
-#: 03020403.xhp
-msgctxt ""
-"03020403.xhp\n"
-"par_id3153381\n"
-"help.text"
-msgid "CurDir [(Text As String)]"
-msgstr "CurDir [(Text As String)]"
+msgid "Returns a variant string that represents the current path <switchinline select=\"sys\"><caseinline select=\"WIN\">or that of the specified Windows drive</caseinline></switchinline>."
+msgstr ""
 
 #. 3ABqD
 #: 03020403.xhp
@@ -11720,32 +11648,23 @@ msgctxt ""
 msgid "String"
 msgstr "String"
 
-#. ytq6i
-#: 03020403.xhp
-msgctxt ""
-"03020403.xhp\n"
-"hd_id3156423\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parametre:"
-
-#. B98rq
+#. btnRV
 #: 03020403.xhp
 msgctxt ""
 "03020403.xhp\n"
 "par_id3153193\n"
 "help.text"
-msgid "<emph>Text:</emph> Any string expression that specifies an existing drive (for example, \"C\" for the first partition of the first hard drive)."
-msgstr "<emph>Text:</emph> Ethvert strengudtryk, der angiver et eksisterende drev (for eksempel \"C\" for første partition på den første harddisk)."
+msgid "<emph>Text:</emph> Any string expression that specifies an existing drive, for example \"C\" for the first partition of the first hard drive. This parameter is used solely under Windows."
+msgstr ""
 
-#. qaD2d
+#. f7Di8
 #: 03020403.xhp
 msgctxt ""
 "03020403.xhp\n"
 "par_id3155133\n"
 "help.text"
-msgid "If no drive is specified or if the drive is a zero-length string (\"\"), CurDir returns the path for the current drive. $[officename] Basic reports an error if the syntax of the drive description is incorrect, the drive does not exist, or if the drive letter occurs after the letter defined in the CONFIG.SYS with the Lastdrive statement."
-msgstr "Hvis intet drev er angivet eller hvis drevet er en tom streng (\"\"), vil CurDir returnere stien for det aktuelle drev. $[officename] Basic rapporter en fejl hvis syntaksen for drevets beskrivelse er ukorrekt, drevet ikke findes, eller hvis drevbogstavet forekommer efter bogstavet defineret med Lastdrive i CONFIG.SYS."
+msgid "If no drive is specified or if the drive is a zero-length string (\"\"), <literal>CurDir</literal> returns the path for the current drive. %PRODUCTNAME Basic reports an error if the syntax of the drive description is incorrect or if the drive does not exist."
+msgstr ""
 
 #. jsyuK
 #: 03020403.xhp
@@ -11755,15 +11674,6 @@ msgctxt ""
 "help.text"
 msgid "This function is not case-sensitive."
 msgstr "Denne funktion er ikke følsom for store eller små bogstaver."
-
-#. 4LFNu
-#: 03020403.xhp
-msgctxt ""
-"03020403.xhp\n"
-"hd_id3155411\n"
-"help.text"
-msgid "Example:"
-msgstr "Eksempel:"
 
 #. DFUj3
 #: 03020404.xhp
@@ -11801,24 +11711,6 @@ msgctxt ""
 msgid "Returns the name of a file, a directory, or all of the files and the directories on a drive or in a directory that match the specified search path."
 msgstr "Returnerer navnet på en fil, et katalog, eller alle filerne og katalogerne på et drev eller i et katalog som passer til den specificerede søgesti."
 
-#. anWFG
-#: 03020404.xhp
-msgctxt ""
-"03020404.xhp\n"
-"hd_id3154365\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Syntaks:"
-
-#. 2sLKE
-#: 03020404.xhp
-msgctxt ""
-"03020404.xhp\n"
-"par_id3156282\n"
-"help.text"
-msgid "Dir [(Text As String) [, Attrib As Integer]]"
-msgstr "Dir [(Text As String) [, Attrib As Integer]]"
-
 #. GjPMX
 #: 03020404.xhp
 msgctxt ""
@@ -11836,15 +11728,6 @@ msgctxt ""
 "help.text"
 msgid "String"
 msgstr "String"
-
-#. eCYLT
-#: 03020404.xhp
-msgctxt ""
-"03020404.xhp\n"
-"hd_id3153770\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parametre:"
 
 #. Ygfz9
 #: 03020404.xhp
@@ -11917,15 +11800,6 @@ msgctxt ""
 "help.text"
 msgid "To return directories only, use the attribute parameter. The same applies if you want to determine the name of a volume (for example, a hard drive partition)."
 msgstr "For kun at returnere biblioteker skal du bruge attributparameteren. Det samme gælder, hvis du vil afgøre navnet på et drev (for eksempel en harddiskpartition)"
-
-#. zriY3
-#: 03020404.xhp
-msgctxt ""
-"03020404.xhp\n"
-"hd_id3154942\n"
-"help.text"
-msgid "Example:"
-msgstr "Eksempel:"
 
 #. e7TRd
 #: 03020404.xhp
@@ -42519,6 +42393,139 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
+
+#~ msgctxt ""
+#~ "03020401.xhp\n"
+#~ "par_id9783013\n"
+#~ "help.text"
+#~ msgid "This statement currently does not work as documented. See <link href=\"https://bz.apache.org/ooo/show_bug.cgi?id=30692\">this issue</link> for more information."
+#~ msgstr "Dette udtryk fungerer for tiden ikke som dokumenteret. Se <link href=\"https://bz.apache.org/ooo/show_bug.cgi?id=30692\">denne fejl</link> for flere oplysninger"
+
+#~ msgctxt ""
+#~ "03020401.xhp\n"
+#~ "hd_id3154347\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaks:"
+
+#~ msgctxt ""
+#~ "03020401.xhp\n"
+#~ "hd_id3148664\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parametre:"
+
+#~ msgctxt ""
+#~ "03020401.xhp\n"
+#~ "hd_id3151116\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Eksempel:"
+
+#~ msgctxt ""
+#~ "03020402.xhp\n"
+#~ "hd_id3154138\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaks:"
+
+#~ msgctxt ""
+#~ "03020402.xhp\n"
+#~ "hd_id3156423\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parametre:"
+
+#~ msgctxt ""
+#~ "03020402.xhp\n"
+#~ "hd_id3153188\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Eksempel:"
+
+#~ msgctxt ""
+#~ "03020403.xhp\n"
+#~ "hd_id3153126\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03020403.xhp\">CurDir Function</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03020403.xhp\">CurDir-funktion</link>"
+
+#~ msgctxt ""
+#~ "03020403.xhp\n"
+#~ "par_id3156343\n"
+#~ "help.text"
+#~ msgid "Returns a variant string that represents the current path of the specified drive."
+#~ msgstr "Returnerer en variant streng som repræsenterer den aktuelle sti for det specificerede drev."
+
+#~ msgctxt ""
+#~ "03020403.xhp\n"
+#~ "hd_id3149457\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaks:"
+
+#~ msgctxt ""
+#~ "03020403.xhp\n"
+#~ "par_id3153381\n"
+#~ "help.text"
+#~ msgid "CurDir [(Text As String)]"
+#~ msgstr "CurDir [(Text As String)]"
+
+#~ msgctxt ""
+#~ "03020403.xhp\n"
+#~ "hd_id3156423\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parametre:"
+
+#~ msgctxt ""
+#~ "03020403.xhp\n"
+#~ "par_id3153193\n"
+#~ "help.text"
+#~ msgid "<emph>Text:</emph> Any string expression that specifies an existing drive (for example, \"C\" for the first partition of the first hard drive)."
+#~ msgstr "<emph>Text:</emph> Ethvert strengudtryk, der angiver et eksisterende drev (for eksempel \"C\" for første partition på den første harddisk)."
+
+#~ msgctxt ""
+#~ "03020403.xhp\n"
+#~ "par_id3155133\n"
+#~ "help.text"
+#~ msgid "If no drive is specified or if the drive is a zero-length string (\"\"), CurDir returns the path for the current drive. $[officename] Basic reports an error if the syntax of the drive description is incorrect, the drive does not exist, or if the drive letter occurs after the letter defined in the CONFIG.SYS with the Lastdrive statement."
+#~ msgstr "Hvis intet drev er angivet eller hvis drevet er en tom streng (\"\"), vil CurDir returnere stien for det aktuelle drev. $[officename] Basic rapporter en fejl hvis syntaksen for drevets beskrivelse er ukorrekt, drevet ikke findes, eller hvis drevbogstavet forekommer efter bogstavet defineret med Lastdrive i CONFIG.SYS."
+
+#~ msgctxt ""
+#~ "03020403.xhp\n"
+#~ "hd_id3155411\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Eksempel:"
+
+#~ msgctxt ""
+#~ "03020404.xhp\n"
+#~ "hd_id3154365\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Syntaks:"
+
+#~ msgctxt ""
+#~ "03020404.xhp\n"
+#~ "par_id3156282\n"
+#~ "help.text"
+#~ msgid "Dir [(Text As String) [, Attrib As Integer]]"
+#~ msgstr "Dir [(Text As String) [, Attrib As Integer]]"
+
+#~ msgctxt ""
+#~ "03020404.xhp\n"
+#~ "hd_id3153770\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parametre:"
+
+#~ msgctxt ""
+#~ "03020404.xhp\n"
+#~ "hd_id3154942\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Eksempel:"
 
 #~ msgctxt ""
 #~ "03020411.xhp\n"
