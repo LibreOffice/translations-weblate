@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-01-14 18:09+0100\n"
+"POT-Creation-Date: 2021-01-19 13:13+0100\n"
 "PO-Revision-Date: 2021-01-16 21:43+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/pt/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565995596.000000\n"
 
 #. sZfWF
@@ -48589,14 +48589,14 @@ msgctxt ""
 msgid "Case sensitive"
 msgstr ""
 
-#. cL8EG
+#. CF7yB
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "par_id3153091\n"
 "help.text"
-msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\"> Sorts first by uppercase letters and then by lowercase letters. For Asian languages, special handling applies.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\"> Ordena primeiro por letras maiúsculas e, em seguida, por letras minúsculas. Para idiomas asiáticos, aplica-se um tratamento especial.</ahelp>"
+msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\">Sorts first by uppercase letters and then by lowercase letters. For Asian languages, special handling applies.</ahelp>"
+msgstr ""
 
 #. QbcU3
 #: 12030200.xhp
@@ -48607,14 +48607,14 @@ msgctxt ""
 msgid "For Asian languages: Check <emph>Case Sensitive</emph> to apply multi-level collation. With multi-level collation, entries are first compared in their primitive forms with their cases and diacritics ignored. If they evaluate as the same, their diacritics are taken into account for the second-level comparison. If they still evaluate as the same, their cases, character widths, and Japanese Kana difference are considered for the third-level comparison."
 msgstr ""
 
-#. SFxVV
+#. Z5MKw
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "hd_id3155856\n"
 "help.text"
-msgid "Range contains column/row labels"
-msgstr "O intervalo contém cabeçalhos de colunas/linhas"
+msgid "Range contains row/column labels"
+msgstr ""
 
 #. dHpeV
 #: 12030200.xhp
@@ -48661,6 +48661,42 @@ msgctxt ""
 msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/naturalsort\">Natural sort is a sort algorithm that sorts string-prefixed numbers based on the value of the numerical element in each sorted number, instead of the traditional way of sorting them as ordinary strings.</ahelp> For instance, let's assume you have a series of values such as, A1, A2, A3, A4, A5, A6, ..., A19, A20, A21. When you put these values into a range of cells and run the sort, it will become A1, A11, A12, A13, ..., A19, A2, A20, A21, A3, A4, A5, ..., A9. While this sorting behavior may make sense to those who understand the underlying sorting mechanism, to the rest of the population it seems completely bizarre, if not outright inconvenient. With the natural sort feature enabled, values such as the ones in the above example get sorted \"properly\", which improves the convenience of sorting operations in general."
 msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/naturalsort\">A ordenação natural é um algoritmo que ordena números prefixados com cadeias, baseados no valor do elemento numérico em cada número ordenado, em vez da forma tradicional de classificá-los como cadeias comuns.</ahelp> Por exemplo, suponha que tem uma série de valores como A1, A2, A3, A4, A5, A6, ..., A19, A20, A21. Ao colocar esses valores num intervalo de células e executar a ordenação, ele irá se transformar em A1, A11, A12, A13, ..., A19, A2, A20, A21, A3, A4, A5, ..., A9. Embora este comportamento de ordenação possa fazer sentido para aqueles que entendem o mecanismo de ordenação subjacente, para o resto das pessoas parece completamente estranho, se não mesmo inconveniente. Com a funcionalidade ativa, os valores como os do exemplo acima irão ser ordenados \"corretamente\", o que melhora a conveniência das operações de ordenação em geral."
 
+#. SJjo2
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"hd_id71610757096466\n"
+"help.text"
+msgid "Include boundary column(s)/row(s) containing only comments"
+msgstr ""
+
+#. AKcgf
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"par_id431610757186031\n"
+"help.text"
+msgid "Range boundary columns (for sorting rows) or boundary rows (for sorting columns) of a sorting range are not sorted by default if they are empty. Check this option if boundary columns or boundary rows containing comments are also to be sorted."
+msgstr ""
+
+#. zDzUQ
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"hd_id161610757296697\n"
+"help.text"
+msgid "Include boundary column(s)/row(s) containing only images"
+msgstr ""
+
+#. QCvRo
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"par_id181610758875786\n"
+"help.text"
+msgid "Border columns (for sorting rows) or border rows (for sorting columns) of a sorting area are not sorted by default if they are empty. Check this option if boundary columns or boundary rows containing images are also to be sorted."
+msgstr ""
+
 #. LBnqi
 #: 12030200.xhp
 msgctxt ""
@@ -48679,41 +48715,41 @@ msgctxt ""
 msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/copyresult\"> Copies the sorted list to the cell range that you specify.</ahelp>"
 msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/copyresult\"> Copia a lista ordenada para o intervalo de células especificado.</ahelp>"
 
-#. y58HR
+#. aKPqx
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "hd_id3153418\n"
 "help.text"
-msgid "Sort results"
-msgstr "Ordenar resultados"
+msgid "Sort results (named ranges list)"
+msgstr ""
 
-#. iF7Br
+#. JGhWC
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "par_id3155602\n"
 "help.text"
-msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outarealb\"> Select a named <link href=\"text/scalc/01/12010000.xhp\" name=\"cell range\"> cell range</link> where you want to display the sorted list, or enter a cell range in the input box.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outarealb\"> Selecione um <link href=\"text/scalc/01/12010000.xhp\" name=\"cell range\">intervalo de células</link> específico, no qual pretende mostrar a lista ordenada ou introduza um intervalo de células na caixa de entrada.</ahelp>"
+msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outarealb\"> Select a named <link href=\"text/scalc/01/12010000.xhp\" name=\"cell range\"> cell range</link> where you want to display the sorted list.</ahelp>"
+msgstr ""
 
-#. 3BZpF
+#. nxJWR
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "hd_id3153707\n"
 "help.text"
-msgid "Sort results"
-msgstr "Ordenar resultados"
+msgid "Sort results (input box)"
+msgstr ""
 
-#. zkeZh
+#. BDJEH
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "par_id3145642\n"
 "help.text"
-msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outareaed\"> Enter the cell range where you want to display the sorted list, or select a named range from the list.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outareaed\">Introduza o intervalo de células no qual pretende mostrar a lista ordenada ou selecione um intervalo específico a partir da lista.</ahelp>"
+msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outareaed\">Enter the cell range where you want to display the sorted list.</ahelp>"
+msgstr ""
 
 #. ZCoZV
 #: 12030200.xhp
@@ -48733,23 +48769,23 @@ msgctxt ""
 msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/sortuser\"> Click here and then select the custom sort order that you want.</ahelp>"
 msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/sortuser\"> Clique neste local e, em seguida, selecione a ordenação pretendida.</ahelp>"
 
-#. kLByA
+#. AB5C5
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "hd_id3154704\n"
 "help.text"
-msgid "Custom sort order"
-msgstr "Ordenação personalizada"
+msgid "Custom sort order list"
+msgstr ""
 
-#. EbsC7
+#. hQE6m
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "par_id3155962\n"
 "help.text"
-msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/sortuserlb\"> Select the custom sort order that you want to apply. To define a custom sort order, choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060400.xhp\" name=\"%PRODUCTNAME Calc - Sort Lists\">%PRODUCTNAME Calc - Sort Lists</link> .</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/sortuserlb\"> Selecione a ordenação a aplicar. Para uma ordenação personalizada, escolha <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferências</caseinline><defaultinline>Ferramentas - Opções</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060400.xhp\" name=\"%PRODUCTNAME Calc - Sort Lists\">%PRODUCTNAME Calc - Listas de ordenação</link>.</ahelp>"
+msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/sortuserlb\"> Select the custom sort order that you want to apply. To define a custom sort order, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline> - <link href=\"text/shared/optionen/01060400.xhp\" name=\"%PRODUCTNAME Calc - Sort Lists\"><menuitem>%PRODUCTNAME Calc - Sort Lists</menuitem></link>.</ahelp>"
+msgstr ""
 
 #. vH2Uh
 #: 12030200.xhp
@@ -69135,6 +69171,62 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Página wiki sobre Dados XML</link>"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "par_id3153091\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\"> Sorts first by uppercase letters and then by lowercase letters. For Asian languages, special handling applies.</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\"> Ordena primeiro por letras maiúsculas e, em seguida, por letras minúsculas. Para idiomas asiáticos, aplica-se um tratamento especial.</ahelp>"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "hd_id3155856\n"
+#~ "help.text"
+#~ msgid "Range contains column/row labels"
+#~ msgstr "O intervalo contém cabeçalhos de colunas/linhas"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "hd_id3153418\n"
+#~ "help.text"
+#~ msgid "Sort results"
+#~ msgstr "Ordenar resultados"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "par_id3155602\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outarealb\"> Select a named <link href=\"text/scalc/01/12010000.xhp\" name=\"cell range\"> cell range</link> where you want to display the sorted list, or enter a cell range in the input box.</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outarealb\"> Selecione um <link href=\"text/scalc/01/12010000.xhp\" name=\"cell range\">intervalo de células</link> específico, no qual pretende mostrar a lista ordenada ou introduza um intervalo de células na caixa de entrada.</ahelp>"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "hd_id3153707\n"
+#~ "help.text"
+#~ msgid "Sort results"
+#~ msgstr "Ordenar resultados"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "par_id3145642\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outareaed\"> Enter the cell range where you want to display the sorted list, or select a named range from the list.</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outareaed\">Introduza o intervalo de células no qual pretende mostrar a lista ordenada ou selecione um intervalo específico a partir da lista.</ahelp>"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "hd_id3154704\n"
+#~ "help.text"
+#~ msgid "Custom sort order"
+#~ msgstr "Ordenação personalizada"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "par_id3155962\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/sortuserlb\"> Select the custom sort order that you want to apply. To define a custom sort order, choose <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060400.xhp\" name=\"%PRODUCTNAME Calc - Sort Lists\">%PRODUCTNAME Calc - Sort Lists</link> .</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/sortuserlb\"> Selecione a ordenação a aplicar. Para uma ordenação personalizada, escolha <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferências</caseinline><defaultinline>Ferramentas - Opções</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060400.xhp\" name=\"%PRODUCTNAME Calc - Sort Lists\">%PRODUCTNAME Calc - Listas de ordenação</link>.</ahelp>"
 
 #~ msgctxt ""
 #~ "04060104.xhp\n"
