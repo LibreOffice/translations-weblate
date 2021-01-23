@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-01-19 13:13+0100\n"
-"PO-Revision-Date: 2021-01-22 16:36+0000\n"
+"PO-Revision-Date: 2021-01-23 17:36+0000\n"
 "Last-Translator: Valentina Dagiene <valentina.dagiene@mif.vu.lt>\n"
 "Language-Team: Lithuanian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/lt/>\n"
 "Language: lt\n"
@@ -1260,13 +1260,12 @@ msgstr "<emph>Array_2D</emph> : Masyvas, iš kurio ištraukiama."
 
 #. bdCja
 #: sf_array.xhp
-#, fuzzy
 msgctxt ""
 "sf_array.xhp\n"
 "par_id441582561551202\n"
 "help.text"
 msgid "<emph>RowIndex</emph> : The row number to extract - must be in the interval <literal>[LBound, UBound]</literal>."
-msgstr "<emph>ColumnIndex</emph> : Stulpelio numeris, kurį reikia gauti, turi būti intervale <literal>[LBound, UBound]</literal>."
+msgstr "<emph>EilutėsIndeksas</emph>: Eilutės numeris, kurį reikia gauti, turi būti iš intervalo <literal>[ApRėžs, ViRėžis]</literal>."
 
 #. nGy3S
 #: sf_array.xhp
@@ -1339,6 +1338,8 @@ msgctxt ""
 "help.text"
 msgid "Each line in the file contains a full record (line splitting is not allowed).     <br/>However sequences like <literal>\\n</literal>, <literal>\\t</literal>, ... are left unchanged. Use <literal>SF_String</literal>.Unescape() method to manage them."
 msgstr ""
+"Kiekvienoje failo eilutėje yra visas įrašas (eilučių skaidyti negalima).    <br/>Tačiau tokios sekos kaip <literal>\\n"
+"</literal>, <literal>\\t </literal>, ... lieka nepakeistos. Joms valdyti naudokite metodą <literal>SF_eilutė </literal>.Unescape ()."
 
 #. dCYB3
 #: sf_array.xhp
@@ -1347,7 +1348,7 @@ msgctxt ""
 "par_id231585562475026\n"
 "help.text"
 msgid "The method returns a two dimension array whose rows correspond to a single record read in the file and whose columns correspond to a field of the record. No check is made about the coherence of the field types across columns. A best guess will be made to identify numeric and date types."
-msgstr ""
+msgstr "Metodas pateikia dviejų matmenų masyvą, kurio eilutės atitinka vieną faile perskaitytą įrašą, o stulpeliai – įrašo lauką. Stulpelių lauko tipų atitikimas netikrinamas. Geriausia identifikuojami skaičių ir datų tipai."
 
 #. FMKSo
 #: sf_array.xhp
@@ -1356,7 +1357,7 @@ msgctxt ""
 "par_id101585562548245\n"
 "help.text"
 msgid "If a line contains less or more fields than the first line in the file, an exception will be raised. Empty lines however are simply ignored. If the size of the file exceeds the number of items limit (see inside the code), a warning is raised and the array is truncated."
-msgstr ""
+msgstr "Jei eilutėje yra mažiau ar daugiau laukų nei pirmoje failo eilutėje, bus formuojama išimtis. Tačiau tuščius eilutės tiesiog nepaisomos. Jei failo dydis viršija elementų skaičiaus limitą (žr. kodo viduje), įspėjima ir masyvas sutrumpinamas."
 
 #. zbUFJ
 #: sf_array.xhp
@@ -1365,7 +1366,7 @@ msgctxt ""
 "par_id441585561482121\n"
 "help.text"
 msgid "<emph>FileName</emph> : the name of the text file containing the data. The name is expressed as given by the current <literal>FileNaming</literal> property of the <literal>SF_FileSystem</literal> service. Default = any (both the URL format and the native operating system format are admitted)."
-msgstr ""
+msgstr "<emph>Failo vardas</emph>: teksto failo, kuriame yra duomenys, pavadinimas. Pavadinimas nurodomas taip, kaip nurodyta dabartinės paslaugos <literal>SF_FileSystem</literal> savybėje <literal>FileNaming</literal>. Numatytasis = bet kuris (leidžiamas ir URL formatas, ir savosios operacinės sistemos formatas)."
 
 #. eQNz4
 #: sf_array.xhp
@@ -1374,7 +1375,7 @@ msgctxt ""
 "par_id251585561482929\n"
 "help.text"
 msgid "<emph>Delimiter</emph> : A single character, usually, a comma, a semicolon or a TAB character. Default = <literal>\",\"</literal>."
-msgstr ""
+msgstr "<emph>Skirtukas</emph>: Vienas simbolis, dažniausiai kablelis, kabliataškis arba tabuliacijos ženklas. Numatyta = <literal>\",\"</literal>."
 
 #. xZgEn
 #: sf_array.xhp
@@ -1383,7 +1384,7 @@ msgctxt ""
 "par_id631585563491559\n"
 "help.text"
 msgid "<emph>DateFormat</emph> : A special mechanism handles dates when <literal>DateFormat</literal> is either \"YYYY-MM-DD\", \"DD-MM-YYYY\" or \"MM-DD-YYYY\". The dash (-) may be replaced by a dot (.), a slash (/) or a space. Other date formats will be ignored. Dates defaulting to \"\" are considered as normal text."
-msgstr ""
+msgstr "<emph>DatosFormatas</emph>: specialus mechanizmas tvarko datas, kai <literal>DatosFormatos</literal> yra „MMMM-MM-DD“, „DD-MM-YYYY“ arba „MM-DD-YYYY“. Brūkšnelis (-) gali būti pakeistas tašku (.), pasviruoju brūkšniu (/) arba tarpu. Kiti datos formatai bus ignoruojami. Datos, kurių numatytasis formatas yra \"\", laikomos įprastu tekstu."
 
 #. MVUwS
 #: sf_array.xhp
@@ -1392,7 +1393,7 @@ msgctxt ""
 "par_id61585564516409\n"
 "help.text"
 msgid "Given this CSV file:"
-msgstr ""
+msgstr "Duotas CSV failas:"
 
 #. H6QdF
 #: sf_array.xhp
@@ -1401,7 +1402,7 @@ msgctxt ""
 "bas_id891585564144231\n"
 "help.text"
 msgid "Name,DateOfBirth,Address,City"
-msgstr ""
+msgstr "Pavadinimas, GimimoData, Adresas, Miestas"
 
 #. KTHbd
 #: sf_array.xhp
@@ -1410,7 +1411,7 @@ msgctxt ""
 "bas_id621585561482783\n"
 "help.text"
 msgid "MsgBox a(0, 3)    ' City"
-msgstr ""
+msgstr "MsgBox a(0, 3)    ' Miestas"
 
 #. xCx7D
 #: sf_array.xhp
@@ -1419,7 +1420,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr ""
+msgstr "Vienmačiame masyve ieškokite skaičiaus, eilutės ar datos. Lyginant tekstą didžiosios ir mažosios raidės gali būti skiriamos. <br/>Jei masyvas yra surikiuotas, jis turi būti užpildytas vienos rūšies duomenimis, o tai reiškia, kad visi elementai turi būti to paties paprastojo tipo (draudžiama naudoti <literal>Empty</literal> ir <literal>Null</literal>). <br/>Metodo rezultatas yra neapibrėžtas, kai masyvas skelbimas surikiuotas, o iš tikrųjų taip nėra. <br/>Dvejetainė paieška atliekama surikiuotuose masyvuose. Kitu atveju masyvai paprasčiausiai nuskaitomi iš viršaus į apačią ir ignoruojami elementai <literal>Empty</literal> ir <literal>Null</literal>. <br/> <br/>Jei paieška nebuvo sėkminga, metodas grąžina <literal>ApRėžis (įvesties masyvas) - 1</literal>."
 
 #. mg7DA
 #: sf_array.xhp
@@ -1428,7 +1429,7 @@ msgctxt ""
 "par_id315825627687760\n"
 "help.text"
 msgid "<emph>Array_1D</emph> : the array to scan."
-msgstr ""
+msgstr "<emph>Array_1D</emph>: masyvas skaitymui."
 
 #. 4CuFE
 #: sf_array.xhp
@@ -1437,7 +1438,7 @@ msgctxt ""
 "par_id511582562775516\n"
 "help.text"
 msgid "<emph>ToFind</emph> : a number, a date or a string to find."
-msgstr ""
+msgstr "<emph>ToFind</emph>: skaičius, data arba eilutė, kuriuos reikia rasti."
 
 #. 4YGrJ
 #: sf_array.xhp
@@ -1446,7 +1447,7 @@ msgctxt ""
 "par_id311582562787187\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph> : Only for string comparisons, default = <literal>False</literal>."
-msgstr ""
+msgstr "<emph>CaseSensitive</emph> : Tik lyginant eilutes, numatytoji reikšmė = <literal>False</literal>."
 
 #. KHzrp
 #: sf_array.xhp
@@ -1455,7 +1456,7 @@ msgctxt ""
 "par_id421582562794501\n"
 "help.text"
 msgid "<emph>SortOrder</emph> : <literal>\"ASC\"</literal>, <literal>\"DESC\"</literal> or <literal>\"\"</literal> (= not sorted, default)"
-msgstr ""
+msgstr "<emph>SortOrder</emph> : <literal>\"ASC\"</literal>, <literal>\"DESC\"</literal> arba <literal>\"\"</literal> (= nerikiuota, numatyta)"
 
 #. AWJHj
 #: sf_array.xhp
@@ -1464,7 +1465,7 @@ msgctxt ""
 "par_id911582626951109\n"
 "help.text"
 msgid "Insert before a given index of the input array the items listed as arguments.      <br/>Arguments are inserted blindly. Each of them might be either a scalar of any type or a subarray."
-msgstr ""
+msgstr "Prieš nurodytą įvesties masyvo indeksą įterpkite elementus, nurodytus kaip argumentus. <br/>Argumentai įterpiami aklai. Kiekvienas iš jų gali būti bet kokio paprastojo tipo duomuo arba masyvo dalis."
 
 #. 32Nui
 #: sf_array.xhp
@@ -1473,7 +1474,7 @@ msgctxt ""
 "par_id251582626951111\n"
 "help.text"
 msgid "<emph>Array_1D</emph> : the pre-existing array, may be empty."
-msgstr ""
+msgstr "<emph>Array_1D</emph>: iš pradžių masyvas gali būti tuščias."
 
 #. BYjmR
 #: sf_array.xhp
@@ -1482,7 +1483,7 @@ msgctxt ""
 "par_id361582626951111\n"
 "help.text"
 msgid "<emph>Before</emph> : the index before which to insert; must be in the interval <literal>[LBound, UBound + 1]</literal>."
-msgstr ""
+msgstr "<emph>Prieš</emph>: indeksas, prieš kurį reikia įterpti; turi būti iš intervalo <literal>[ApRėžis, ViRėžis + 1]</literal>."
 
 #. uEZky
 #: sf_array.xhp
@@ -1491,7 +1492,7 @@ msgctxt ""
 "par_id41582626951111\n"
 "help.text"
 msgid "<emph>arg0, ...</emph> : a list of items to insert inside <literal>Array_1D</literal>."
-msgstr ""
+msgstr "<emph>arg0, ...</emph>: elementų, kuriuos reikia įterpti, sąrašas <literal>Array_1D</literal>."
 
 #. RLTGT
 #: sf_array.xhp
@@ -1500,7 +1501,7 @@ msgctxt ""
 "par_id441582627664147\n"
 "help.text"
 msgid "Insert in a sorted array a new item on its place.      <br/>The array must be filled homogeneously, meaning that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are forbidden."
-msgstr ""
+msgstr "Į surikiuotą masyvą įterpkite naują elementą.     <br/>Masyvas turi būti užpildytas vienos rūšies duomenimis, tai reiškia, kad visi elementai turi būti to paties paprastojo tipo duomenys.     Elementai <br/><literal>Empty</literal> ir <literal>Null</literal> draudžiami."
 
 #. 7q2JZ
 #: sf_array.xhp
@@ -1509,7 +1510,7 @@ msgctxt ""
 "par_id121582627664147\n"
 "help.text"
 msgid "<emph>Array_1D</emph> : The array to sort."
-msgstr ""
+msgstr "<emph>Array_1D</emph>: Masyvas rikiavimui."
 
 #. GygFp
 #: sf_array.xhp
@@ -1518,7 +1519,7 @@ msgctxt ""
 "par_id315826276641480\n"
 "help.text"
 msgid "<emph>Item</emph> : The scalar value to insert, of the same type as the existing array items."
-msgstr ""
+msgstr "<emph>Elementas</emph> : Paprastojo tipo reikšmė įterpimui, to paties tipo kaip ir esami masyvo elementai."
 
 #. LFGs8
 #: sf_array.xhp
@@ -1527,7 +1528,7 @@ msgctxt ""
 "par_id415826279771170\n"
 "help.text"
 msgid "<emph>SortOrder</emph> : <literal>\"ASC\"</literal> (default) or <literal>\"DESC\"</literal>."
-msgstr ""
+msgstr "<emph>RikiavimoTvarka</emph> : <literal>\"ASC\"</literal> (numatyta) arba <literal>\"DESC\"</literal>."
 
 #. CwMCp
 #: sf_array.xhp
@@ -1536,7 +1537,7 @@ msgctxt ""
 "par_id701582627970037\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph> : Only for string comparisons, default = <literal>False</literal>."
-msgstr ""
+msgstr "<emph>SkirtiRaidžiųLygį</emph>: Tik lyginant eilutes, numatytoji reikšmė = <literal>False</literal>."
 
 #. t9UFn
 #: sf_array.xhp
@@ -1545,7 +1546,7 @@ msgctxt ""
 "par_id71582629177169\n"
 "help.text"
 msgid "Build a set, as a zero-based array, by applying the intersection set operator on the two input arrays. Resulting items are contained in both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, in other words all items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Sukurkite rinkinį, kaip nulinį masyvą, taikydami sankirtos aibės operatorių dviem pradiniams masyvams. Rezultatai įrašomi į abu masyvus. <br/>Gautas masyvas rikiuojamas didėjimo tvarka. <br/>Abi pradiniai masyvai turi būti užpildyti vienos rūšies duomenimis, kitaip tariant, visi elementai turi būti to paties paprastojo tipo duomenys. Draudžiami elementai yra <literal>Empty</literal> ir <literal>Null</literal>. <br/>Lyginant tekstą didžiosios ir mažosios raidės gali būti skiriamos arba ne."
 
 #. NxFNB
 #: sf_array.xhp
@@ -1554,7 +1555,7 @@ msgctxt ""
 "par_id881582629216169\n"
 "help.text"
 msgid "<emph>Array1_1D</emph> : The first input array."
-msgstr ""
+msgstr "<emph>Array1_1D</emph>: Pirmasis pradinis masyvas."
 
 #. UPgfZ
 #: sf_array.xhp
@@ -1563,7 +1564,7 @@ msgctxt ""
 "par_id191582629223038\n"
 "help.text"
 msgid "<emph>Array2_1D</emph> : The second input array."
-msgstr ""
+msgstr "<emph>Array2_1D</emph>: Antrasis pradinis masyvas."
 
 #. xHAQT
 #: sf_array.xhp
@@ -1572,7 +1573,7 @@ msgctxt ""
 "par_id71582629230275\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph> : Applies to arrays populated with text items, default = <literal>False</literal>."
-msgstr ""
+msgstr "<emph>SkirtiRaidžiųLygį</emph>: Tik tiems masyvams, kurie užpildyti tekstiniais elementai, numatyta = <literal>False</literal>."
 
 #. cirZm
 #: sf_array.xhp
@@ -1581,7 +1582,7 @@ msgctxt ""
 "par_id431583064481679\n"
 "help.text"
 msgid "Join a two-dimensional array with two delimiters, one for the columns, one for the rows."
-msgstr ""
+msgstr "Sujunkite dviejų matmenų masyvo elementus naudodami du skirtukus: vienas skirtas stulpeliams, kitas - eilutėms."
 
 #. 6Cm9k
 #: sf_array.xhp
@@ -1590,7 +1591,7 @@ msgctxt ""
 "par_id821583064481534\n"
 "help.text"
 msgid "<emph>Array_2D</emph> : Each item must be either text, a number, a date or a boolean.      <br/>Dates are transformed into the YYYY-MM-DD hh:mm:ss format.      <br/>Invalid items are replaced by a zero-length string."
-msgstr ""
+msgstr "<emph>Array_2D</emph>: Kiekvienas elementas turi būti tekstas, skaičius, data arba loginė reikšmė.    <br/>Datos transformuojamos į MMMM-MM-DD hh: mm: ss formatą.     <br/>Neteisingi elementai pakeičiami nulio ilgio eilute."
 
 #. QxLvV
 #: sf_array.xhp
@@ -1599,7 +1600,7 @@ msgctxt ""
 "par_id171583066989446\n"
 "help.text"
 msgid "<emph>ColumnDelimiter</emph> : Delimits each column (default = Tab/Chr(9))."
-msgstr ""
+msgstr "<emph>StulpeliųSkirtukas</emph> : Skiria kiekvieną stulpelį (numatyta = Tab/Chr(9))."
 
 #. f9DAW
 #: sf_array.xhp
@@ -1608,7 +1609,7 @@ msgctxt ""
 "par_id431583067008842\n"
 "help.text"
 msgid "<emph>RowDelimiter</emph>: delimits each row (default = LineFeed/Chr(10))"
-msgstr ""
+msgstr "<emph>EilučiųSkirtukas</emph>: skiria kiekvieną eilutę (numatyta = LineFeed/Chr(10))"
 
 #. bB9bB
 #: sf_array.xhp
