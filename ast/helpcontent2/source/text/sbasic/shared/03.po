@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-01-19 13:13+0100\n"
+"POT-Creation-Date: 2021-01-25 14:55+0100\n"
 "PO-Revision-Date: 2020-08-18 15:35+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Asturian <https://weblate.documentfoundation.org/projects/libo_help-master/textsbasicshared03/ast/>\n"
@@ -59,15 +59,6 @@ msgctxt ""
 "par_id781606153472028\n"
 "help.text"
 msgid "The described modules and classes are invoked from user scripts as \"Services\". A generic constructor of those services has been designed for that purpose:"
-msgstr ""
-
-#. gDUck
-#: lib_ScriptForge.xhp
-msgctxt ""
-"lib_ScriptForge.xhp\n"
-"bas_id201606153529501\n"
-"help.text"
-msgid "[ScriptForge.][Services.]CreateScriptService(\"servicename\"[, arg0, Arg1, ...])"
 msgstr ""
 
 #. dUu2P
@@ -1240,6 +1231,24 @@ msgctxt ""
 msgid "<emph>ColumnIndex</emph> : The column number to extract - must be in the interval <literal>[LBound, UBound]</literal>."
 msgstr ""
 
+#. AJxYE
+#: sf_array.xhp
+msgctxt ""
+"sf_array.xhp\n"
+"bas_id861609975902708\n"
+"help.text"
+msgid "'Creates a 3x3 matrix: |1, 2, 3|"
+msgstr ""
+
+#. uZD8U
+#: sf_array.xhp
+msgctxt ""
+"sf_array.xhp\n"
+"bas_id431609976009994\n"
+"help.text"
+msgid "'Extracts the third column: |3, 6, 9|"
+msgstr ""
+
 #. is3Zq
 #: sf_array.xhp
 msgctxt ""
@@ -1265,6 +1274,24 @@ msgctxt ""
 "par_id441582561551202\n"
 "help.text"
 msgid "<emph>RowIndex</emph> : The row number to extract - must be in the interval <literal>[LBound, UBound]</literal>."
+msgstr ""
+
+#. AajEu
+#: sf_array.xhp
+msgctxt ""
+"sf_array.xhp\n"
+"bas_id301582561604167\n"
+"help.text"
+msgid "'Creates a 3x3 matrix: |1, 2, 3|"
+msgstr ""
+
+#. txoEC
+#: sf_array.xhp
+msgctxt ""
+"sf_array.xhp\n"
+"bas_id431609976648017\n"
+"help.text"
+msgid "'Extracts the first row: |1, 2, 3|"
 msgstr ""
 
 #. nGy3S
@@ -1294,15 +1321,6 @@ msgctxt ""
 msgid "You can use the <literal>Flatten</literal> method along with other methods such as <literal>Append</literal> or <literal>Prepend</literal> to concatenate a set of 1D arrays into a single 1D array."
 msgstr ""
 
-#. 6aPDG
-#: sf_array.xhp
-msgctxt ""
-"sf_array.xhp\n"
-"hd_id361610040935558\n"
-"help.text"
-msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
-msgstr ""
-
 #. XE4hJ
 #: sf_array.xhp
 msgctxt ""
@@ -1310,6 +1328,24 @@ msgctxt ""
 "par_id941610040961148\n"
 "help.text"
 msgid "Next is an example of how the methods <literal>Flatten</literal> and <literal>Append</literal> can be combined to concatenate three arrays."
+msgstr ""
+
+#. FyJQi
+#: sf_array.xhp
+msgctxt ""
+"sf_array.xhp\n"
+"bas_id841610041372527\n"
+"help.text"
+msgid "'Creates three arrays for this example"
+msgstr ""
+
+#. WvdEp
+#: sf_array.xhp
+msgctxt ""
+"sf_array.xhp\n"
+"bas_id171610041440657\n"
+"help.text"
+msgid "'Concatenates the three arrays into a single 1D array"
 msgstr ""
 
 #. 3Gm5m
@@ -1391,24 +1427,6 @@ msgctxt ""
 "par_id61585564516409\n"
 "help.text"
 msgid "Given this CSV file:"
-msgstr ""
-
-#. H6QdF
-#: sf_array.xhp
-msgctxt ""
-"sf_array.xhp\n"
-"bas_id891585564144231\n"
-"help.text"
-msgid "Name,DateOfBirth,Address,City"
-msgstr ""
-
-#. KTHbd
-#: sf_array.xhp
-msgctxt ""
-"sf_array.xhp\n"
-"bas_id621585561482783\n"
-"help.text"
-msgid "MsgBox a(0, 3)    ' City"
 msgstr ""
 
 #. xCx7D
@@ -2050,13 +2068,13 @@ msgctxt ""
 msgid "ScriptForge.Dictionary service"
 msgstr ""
 
-#. iiRuo
+#. 4L4A6
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "hd_id731582733781114\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"ScriptForge.Dictionary service\"><literal>ScriptForge</literal>.<literal>Dictionary</literal> service</link>"
+msgid "<variable id=\"SFDictionary\"><link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"ScriptForge.Dictionary service\"><literal>ScriptForge</literal>.<literal>Dictionary</literal> service</link></variable>"
 msgstr ""
 
 #. LJG3Z
@@ -2149,13 +2167,13 @@ msgctxt ""
 msgid "Name"
 msgstr ""
 
-#. Yay3o
+#. EgAoj
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "par_id31582885195372\n"
 "help.text"
-msgid "Readonly"
+msgid "Read-only"
 msgstr ""
 
 #. pHem5
@@ -2275,33 +2293,6 @@ msgctxt ""
 msgid "Methods"
 msgstr ""
 
-#. dgSuT
-#: sf_dictionary.xhp
-msgctxt ""
-"sf_dictionary.xhp\n"
-"par_id381606472825856\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03/sf_dictionary.xhp#Add\" name=\"Add method\">Add</link><br/>           <link href=\"text/sbasic/shared/03/sf_dictionary.xhp#ConvertToArray\" name=\"ConvertToArray method\">ConvertToArray</link><br/>           <link href=\"text/sbasic/shared/03/sf_dictionary.xhp#ConvertToJson\" name=\"ConvertToJson method\">ConvertToJson</link><br/>           <link href=\"text/sbasic/shared/03/sf_dictionary.xhp#ConvertToPropertyValues\" name=\"ConvertToPropertyValues method\">ConvertToPropertyValues</link>"
-msgstr ""
-
-#. EZGQw
-#: sf_dictionary.xhp
-msgctxt ""
-"sf_dictionary.xhp\n"
-"par_id451606472825856\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03/sf_dictionary.xhp#Exists\" name=\"Exists method\">Exists</link><br/>           <link href=\"text/sbasic/shared/03/sf_dictionary.xhp#ImportFromJson\" name=\"ImportFromJson method\">ImportFromJson</link><br/>           <link href=\"text/sbasic/shared/03/sf_dictionary.xhp#ImportFromPropertyValues\" name=\"ImportFromPropertyValues method\">ImportFromPropertyValues</link><br/>           <link href=\"text/sbasic/shared/03/sf_dictionary.xhp#Item\" name=\"Item method\">Item</link>"
-msgstr ""
-
-#. nR9TD
-#: sf_dictionary.xhp
-msgctxt ""
-"sf_dictionary.xhp\n"
-"par_id161606472825856\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03/sf_dictionary.xhp#Remove\" name=\"Remove method\">Remove</link><br/>           <link href=\"text/sbasic/shared/03/sf_dictionary.xhp#RemoveAll\" name=\"RemoveAll method\">RemoveAll</link><br/>           <link href=\"text/sbasic/shared/03/sf_dictionary.xhp#ReplaceItem\" name=\"ReplaceItem method\">ReplaceItem</link><br/>           <link href=\"text/sbasic/shared/03/sf_dictionary.xhp#ReplaceKey\" name=\"ReplaceKey method\">ReplaceKey</link>"
-msgstr ""
-
 #. PqSBg
 #: sf_dictionary.xhp
 msgctxt ""
@@ -2419,6 +2410,24 @@ msgctxt ""
 msgid "If one of the items has a type <literal>Date</literal>, it is converted to a <literal>com.sun.star.util.DateTime</literal> structure. If one of the items is an empty array, it is converted to <literal>Null</literal>. The resulting array is empty when the dictionary is empty."
 msgstr ""
 
+#. EU4BC
+#: sf_dictionary.xhp
+msgctxt ""
+"sf_dictionary.xhp\n"
+"bas_id531610393130289\n"
+"help.text"
+msgid "'Adds some properties to the dictionary"
+msgstr ""
+
+#. dEAPF
+#: sf_dictionary.xhp
+msgctxt ""
+"sf_dictionary.xhp\n"
+"bas_id571610393137959\n"
+"help.text"
+msgid "'Converts to an Array of PropertyValue objects"
+msgstr ""
+
 #. wTUQt
 #: sf_dictionary.xhp
 msgctxt ""
@@ -2444,6 +2453,15 @@ msgctxt ""
 "par_id971582889812917\n"
 "help.text"
 msgid "<emph>Key</emph> : The key to be looked up in the dictionary."
+msgstr ""
+
+#. UAkEx
+#: sf_dictionary.xhp
+msgctxt ""
+"sf_dictionary.xhp\n"
+"bas_id811606485130666\n"
+"help.text"
+msgid "'Adds some properties to the dictionary"
 msgstr ""
 
 #. JBBVt
@@ -2642,6 +2660,1005 @@ msgctxt ""
 "par_id531582896597989\n"
 "help.text"
 msgid "<emph>Value</emph> : String value for the new key. Not case-sensitive. If the new key already exists in the dictionary, a <literal>DUPLICATEKEYERROR</literal> error is raised."
+msgstr ""
+
+#. jasej
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"tit\n"
+"help.text"
+msgid "SFDocuments.Document service"
+msgstr ""
+
+#. KmD7j
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id731582733781114\n"
+"help.text"
+msgid "<variable id=\"DocumentService\"><link href=\"text/sbasic/shared/03/sf_document.xhp\" name=\"Exception service\"><literal>SFDocuments</literal>.<literal>Document</literal> service</link></variable>"
+msgstr ""
+
+#. FoEeH
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id381589189355849\n"
+"help.text"
+msgid "The <literal>SFDocuments</literal> library provides methods and properties to facilitate the management and manipulation of LibreOffice documents."
+msgstr ""
+
+#. urZhL
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id591589189364267\n"
+"help.text"
+msgid "Methods that are applicable for all types of documents (Text Documents, Sheets, Presentations, etc) are provided by the <literal>SFDocuments.Document</literal> service. Some examples are:"
+msgstr ""
+
+#. VgG69
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id891589189452545\n"
+"help.text"
+msgid "Opening, closing and saving documents"
+msgstr ""
+
+#. XfHGF
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id811589189463041\n"
+"help.text"
+msgid "Accessing standard or custom properties of documents"
+msgstr ""
+
+#. C6JgF
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id301611085807704\n"
+"help.text"
+msgid "The properties, methods or arguments marked with <emph>(*)</emph> are <emph>NOT applicable to Base documents</emph>."
+msgstr ""
+
+#. HPr8i
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id241589189701274\n"
+"help.text"
+msgid "Methods and properties that are specific to certain LibreOffice components are stored in separate services, such as <literal>SFDocuments.SF_Calc</literal> and <literal>SFDocuments.SF_Base</literal>."
+msgstr ""
+
+#. Fdi8i
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id641611090052376\n"
+"help.text"
+msgid "Although the Basic language does not offer inheritance between object classes, the latter services may be considered as subclasses of the <literal>SFDocuments.Document</literal> service. Such subclasses can invoke the properties and methods described below."
+msgstr ""
+
+#. YMWaA
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id581582885621841\n"
+"help.text"
+msgid "Service invocation"
+msgstr ""
+
+#. C9LQA
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id141610734722352\n"
+"help.text"
+msgid "Before using the <literal>Document</literal> service the <literal>ScriptForge</literal> library needs to be loaded using:"
+msgstr ""
+
+#. JFFek
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id591589191059889\n"
+"help.text"
+msgid "The <literal>Document</literal> service is closely related to the <literal>UI</literal> and <literal>FileSystem</literal> services of the <literal>ScriptForge</literal> library."
+msgstr ""
+
+#. X6BV3
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id581611090387382\n"
+"help.text"
+msgid "Below are three variants of how the <literal>Document</literal> service can be invoked."
+msgstr ""
+
+#. HevYB
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"bas_id571589191739218\n"
+"help.text"
+msgid "'1) From the ScriptForge.UI service:"
+msgstr ""
+
+#. rAPFN
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"bas_id571589191774268\n"
+"help.text"
+msgid "'2) Directly if the document is already open"
+msgstr ""
+
+#. CWFJB
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"bas_id471598109329789\n"
+"help.text"
+msgid "'3) From a macro triggered by a document event"
+msgstr ""
+
+#. LyvNw
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id71611090922315\n"
+"help.text"
+msgid "The use of the prefix \"<literal>SFDocuments.</literal>\" while calling the service is optional."
+msgstr ""
+
+#. QF9FG
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id891582733781994\n"
+"help.text"
+msgid "Except when the document was closed by program with the CloseDocument method (it is then superfluous), it is recommended to free resources after use:"
+msgstr ""
+
+#. Fs439
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"bm_id81611339709014\n"
+"help.text"
+msgid "<bookmark_value>API;Duration</bookmark_value>    <bookmark_value>API;XComponent</bookmark_value>    <bookmark_value>API;ODatabaseDocument</bookmark_value>"
+msgstr ""
+
+#. z3oxC
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id351582885195476\n"
+"help.text"
+msgid "Properties"
+msgstr ""
+
+#. 6NTY6
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id41582885195836\n"
+"help.text"
+msgid "Name"
+msgstr ""
+
+#. wUbi9
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id31582885195372\n"
+"help.text"
+msgid "Readonly"
+msgstr ""
+
+#. NfJEr
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id31582885195238\n"
+"help.text"
+msgid "Type"
+msgstr ""
+
+#. QZzvi
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id931582885195131\n"
+"help.text"
+msgid "Description"
+msgstr ""
+
+#. wBpru
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id861582885655779\n"
+"help.text"
+msgid "No"
+msgstr ""
+
+#. oAb9W
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id581582885655885\n"
+"help.text"
+msgid "Returns a <literal>ScriptForge.Dictionary</literal> object. After update, can be passed again to the property for updating the document.<br/>Individual items of the dictionary may be either strings, numbers, (Basic) dates or <link href=\"https://api.libreoffice.org/docs/idl/ref/structcom_1_1sun_1_1star_1_1util_1_1Duration.html\" name=\"Duration API\"><literal>com.sun.star.util.Duration</literal></link> items."
+msgstr ""
+
+#. DktDb
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id441582886030118\n"
+"help.text"
+msgid "No"
+msgstr ""
+
+#. io4nc
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id131582886030297\n"
+"help.text"
+msgid "String"
+msgstr ""
+
+#. DNFGz
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id471582886030489\n"
+"help.text"
+msgid "Gives access to the Description property of the document (also known as \"Comments\")"
+msgstr ""
+
+#. wMzx8
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id971582886791838\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. BnU6j
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id271582886791111\n"
+"help.text"
+msgid "Dictionary"
+msgstr ""
+
+#. Mm6E5
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id16158288679167\n"
+"help.text"
+msgid "Returns a <literal>ScriptForge.Dictionary</literal> object containing all the entries. Document statistics are included. Note that they are specific to the type of document. As an example, a Calc document includes a \"CellCount\" entry. Other documents do not."
+msgstr ""
+
+#. Ew7vi
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id201589194571955\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. 9SCCU
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id951589194571781\n"
+"help.text"
+msgid "String"
+msgstr ""
+
+#. Aw2Tv
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id941589194571801\n"
+"help.text"
+msgid "String value with the document type (\"Base\", \"Calc\", \"Writer\", etc)"
+msgstr ""
+
+#. Yo8T4
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id761589194633950\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. eB7RX
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id741589194633956\n"
+"help.text"
+msgid "Boolean"
+msgstr ""
+
+#. pSbRu
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id611589194633853\n"
+"help.text"
+msgid "Exactly one of these properties is <literal>True</literal> for a given document."
+msgstr ""
+
+#. oKQWB
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id231589194910179\n"
+"help.text"
+msgid "No"
+msgstr ""
+
+#. 2wzEy
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id421589194910942\n"
+"help.text"
+msgid "String"
+msgstr ""
+
+#. CDTBC
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id311589194910190\n"
+"help.text"
+msgid "Gives access to the Keywords property of the document. Represented as a comma-separated list of keywords"
+msgstr ""
+
+#. EHM84
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id921589638614972\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. JZ8g8
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id501589638614132\n"
+"help.text"
+msgid "Boolean"
+msgstr ""
+
+#. JGTQz
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id801589638614518\n"
+"help.text"
+msgid "<literal>True</literal> if the document is actually in read-only mode"
+msgstr ""
+
+#. zK55N
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id201589195028733\n"
+"help.text"
+msgid "No"
+msgstr ""
+
+#. KC8FF
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id551589195028724\n"
+"help.text"
+msgid "String"
+msgstr ""
+
+#. 99ZxC
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id371589195028843\n"
+"help.text"
+msgid "Gives access to the Subject property of the document."
+msgstr ""
+
+#. dH6ct
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id451589195028910\n"
+"help.text"
+msgid "No"
+msgstr ""
+
+#. KNpBA
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id31589195028773\n"
+"help.text"
+msgid "String"
+msgstr ""
+
+#. TCiBh
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id771589195028748\n"
+"help.text"
+msgid "Gives access to the Title property of the document."
+msgstr ""
+
+#. SwDBh
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id221582885195686\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. 9TNH3
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id881582885195976\n"
+"help.text"
+msgid "The UNO object <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1lang_1_1XComponent.html\" name=\"XComponent API\"><literal>com.sun.star.lang.XComponent</literal></link> or <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sdb_1_1OfficeDatabaseDocument.html\" name=\"ODatabaseDocument API\"><literal>com.sun.star.comp.dba.ODatabaseDocument</literal></link> representing the document"
+msgstr ""
+
+#. E5zHy
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id5158919969858\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. coFyk
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id861611146581334\n"
+"help.text"
+msgid "The example below prints all the properties of a document. Note that the <literal>oDoc</literal> object returned by the <literal>UI.OpenDocument</literal> method is a <literal>SFDocuments.Document</literal> object."
+msgstr ""
+
+#. VpwCN
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id651606319520519\n"
+"help.text"
+msgid "Methods"
+msgstr ""
+
+#. UVWQb
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id93158919969864\n"
+"help.text"
+msgid "Returns <literal>True</literal> if the document could be activated. Otherwise, there is no change in the actual user interface. It is equivalent to the <literal>Activate</literal> method of the <literal>UI</literal> service."
+msgstr ""
+
+#. qcuXA
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id421611148353046\n"
+"help.text"
+msgid "This method is useful when one needs to give focus for a document that is minimized or hidden."
+msgstr ""
+
+#. x8GCZ
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id921589199698523\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. pWsJL
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id5158919969859\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. vFzrg
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id601611148017930\n"
+"help.text"
+msgid "The example below considers that the file \"My_File.ods\" is already open but not active."
+msgstr ""
+
+#. zGRcs
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id601611148080503\n"
+"help.text"
+msgid "Keep in mind that you can invoke the <literal>Document</literal> service by passing to <literal>CreateScriptService</literal> either \"Document\" or \"SFDocuments.Document\""
+msgstr ""
+
+#. rB7Ab
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id651589200121138\n"
+"help.text"
+msgid "Closes the document. If the document is already closed, regardless of how the document was closed, this method has no effect and returns <literal>False</literal>."
+msgstr ""
+
+#. 64F7E
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id341611149562894\n"
+"help.text"
+msgid "The method will also return <literal>False</literal> if the user declines to close it."
+msgstr ""
+
+#. AGBjg
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id981611149616934\n"
+"help.text"
+msgid "Returns <literal>True</literal> if the document was successfully closed."
+msgstr ""
+
+#. P4apu
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id671589200121173\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. GUd2o
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id77158920012192\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
+msgstr ""
+
+#. F2emZ
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id361589200121646\n"
+"help.text"
+msgid "<emph>SaveAsk</emph> : If <literal>True</literal> (default), the user is invited to confirm if the changes should be written on disk. This argument is ignored if the document was not modified."
+msgstr ""
+
+#. H6c2F
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id251589200121838\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. AxyoV
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id901599410483300\n"
+"help.text"
+msgid "This method is applicable <emph>only for Base documents</emph>."
+msgstr ""
+
+#. 47ud8
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id891599410524092\n"
+"help.text"
+msgid "It returns a <literal>SFDatabases.Database</literal> service instance giving access to the execution of SQL commands on the database defined and/or embedded in the actual Base document."
+msgstr ""
+
+#. pRF5o
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id861599410266539\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. 9Y2BV
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id861599410266584\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
+msgstr ""
+
+#. cdu6C
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id721599410266911\n"
+"help.text"
+msgid "<emph>User, Password</emph> : The login parameters. Both default to \"\"."
+msgstr ""
+
+#. aarzz
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id30159941026663\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. Nmwv9
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id991589202413257\n"
+"help.text"
+msgid "Runs a command on a document. The command is executed without arguments."
+msgstr ""
+
+#. MGb6t
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id921611152932311\n"
+"help.text"
+msgid "A few typical commands are: Save, SaveAs, ExportToPDF, SetDocumentProperties, Undo, Copy, Paste, etc."
+msgstr ""
+
+#. qBhYc
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id261589202778896\n"
+"help.text"
+msgid "The document itself does not need to be active to be able to run commands."
+msgstr ""
+
+#. ECvGD
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id69158920241331\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. 3D427
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id55158920241343\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
+msgstr ""
+
+#. qAb3U
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id401589202413575\n"
+"help.text"
+msgid "<emph>Command</emph> : Case-sensitive string containing the command in English. The command itself is not checked for correctness. If nothing happens after the command call, then the command is probably wrong."
+msgstr ""
+
+#. TMPFk
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id911589202413592\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. nZ8Yc
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id721611153068137\n"
+"help.text"
+msgid "The following example runs the \"SelectData\" command in a Calc sheet named \"My_File.ods\", which will result in the selection of the data area based on the currently selected cell."
+msgstr ""
+
+#. pbYAn
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id751611153375195\n"
+"help.text"
+msgid "The example above actually runs the UNO command <literal>uno:SelectData</literal>. Hence, to use the <literal>RunCommand</literal> method it is necessary to remove the \"uno:\" substring."
+msgstr ""
+
+#. JRHRS
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id191611153511038\n"
+"help.text"
+msgid "Each LibreOffice component has its own set of commands available. One easy way to learn commands is going to <emph>Tools > Customize > Keyboard</emph>. When you position your mouse over a function in the <emph>Function</emph> list, a tooltip will appear with the corresponding UNO command."
+msgstr ""
+
+#. enSv9
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id81589202925519\n"
+"help.text"
+msgid "Stores the document to the file location from which it was loaded. The method is ignored if the document was not modified."
+msgstr ""
+
+#. sFUcr
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id731611153918907\n"
+"help.text"
+msgid "Returns <literal>False</literal> if the document could not be saved. An error is raised if the file is open as read-only, or if it is a new file that has not been saved yet."
+msgstr ""
+
+#. Ys5oF
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id211589203690937\n"
+"help.text"
+msgid "The document itself does not need to be active to run this method."
+msgstr ""
+
+#. jmvAr
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id741589202925179\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. C8WJu
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id481589202925957\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. 75K92
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id121589203370778\n"
+"help.text"
+msgid "Stores the document to the given file location. The new location becomes the new file name on which simple Save method calls will be applied."
+msgstr ""
+
+#. R8D2A
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id31611154475602\n"
+"help.text"
+msgid "Returns <literal>False</literal> if the document could not be saved. An error is raised when overwriting the destination is rejected or when the destination has its read-only attribute set."
+msgstr ""
+
+#. GAAfy
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id391589203370902\n"
+"help.text"
+msgid "The document itself does not need to be active to run this method."
+msgstr ""
+
+#. CcHmy
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id851589203370467\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. VL3zH
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id221589203370830\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
+msgstr ""
+
+#. cNiiE
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id331589203370950\n"
+"help.text"
+msgid "<emph>FileName</emph> : A string containing the file name to be used. It must follow the <literal>SF_FileSystem.FileNaming</literal> notation."
+msgstr ""
+
+#. AKbDA
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id631589204010142\n"
+"help.text"
+msgid "<emph>Overwrite</emph> : If <literal>True</literal>, the destination file may be overwritten (default = <literal>False</literal>)."
+msgstr ""
+
+#. zkP8D
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id811589204084107\n"
+"help.text"
+msgid "<emph>Password</emph> (*) : A non-space string to protect the document."
+msgstr ""
+
+#. ntVEA
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id451589204163772\n"
+"help.text"
+msgid "<emph>FilterName</emph> (*) : The name of a filter that should be used for saving the document. If this argument is passed, then the filter must exist."
+msgstr ""
+
+#. N6WPC
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id981589204207800\n"
+"help.text"
+msgid "<emph>FilterOptions</emph> (*) : An optional string of options associated with the filter."
+msgstr ""
+
+#. afcAn
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id911589203370485\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. FJywB
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id911589205147502\n"
+"help.text"
+msgid "Stores a copy of or export the document to the given file location. The actual location is unchanged."
+msgstr ""
+
+#. ovvew
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id381611154800685\n"
+"help.text"
+msgid "Returns <literal>False</literal> if the document could not be saved. An error is raised when overwriting the destination is rejected or when the destination has its read-only attribute set."
+msgstr ""
+
+#. BFKFn
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id11589205147643\n"
+"help.text"
+msgid "The document itself does not need to be active to run this method."
+msgstr ""
+
+#. GPbEC
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id871589205147745\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. 9cGzC
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id121589205147540\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
+msgstr ""
+
+#. CPc2g
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id301589205147697\n"
+"help.text"
+msgid "<emph>FileName</emph> : A string containing the file name to be used. It must follow the <literal>SF_FileSystem.FileNaming</literal> notation."
+msgstr ""
+
+#. GEybm
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id851589205147348\n"
+"help.text"
+msgid "<emph>Overwrite</emph> : If <literal>True</literal>, the destination file may be overwritten (default = <literal>False</literal>)."
+msgstr ""
+
+#. PPc3f
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id821589205147330\n"
+"help.text"
+msgid "<emph>Password</emph> (*) : A non-space string to protect the document."
+msgstr ""
+
+#. RKCha
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id67158920514729\n"
+"help.text"
+msgid "<emph>FilterName</emph> (*) : The name of a filter that should be used for saving the document. If this argument is passed, then the filter must exist."
+msgstr ""
+
+#. hXUjB
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"par_id881589205147911\n"
+"help.text"
+msgid "<emph>FilterOptions</emph> (*) : An optional string of options associated with the filter."
+msgstr ""
+
+#. mpqtF
+#: sf_document.xhp
+msgctxt ""
+"sf_document.xhp\n"
+"hd_id81589205147631\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
 msgstr ""
 
 #. WCH7E
@@ -3382,6 +4399,510 @@ msgctxt ""
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
 msgstr ""
 
+#. PCSPY
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"tit\n"
+"help.text"
+msgid "ScriptForge.Timer service"
+msgstr ""
+
+#. cxRDS
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"hd_id731582733781114\n"
+"help.text"
+msgid "<variable id=\"TimerService\"><link href=\"text/sbasic/shared/03/sf_timer.xhp\" name=\"ScriptForge.Timer service\"><literal>ScriptForge</literal>.<literal>Timer</literal> service</link></variable>"
+msgstr ""
+
+#. WyVvH
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id961582733781662\n"
+"help.text"
+msgid "The <literal>Timer</literal> service measures the amount of time it takes to run user scripts."
+msgstr ""
+
+#. kNcKc
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id181582733781323\n"
+"help.text"
+msgid "A Timer measures <emph>durations</emph>. It can be:"
+msgstr ""
+
+#. ErpLm
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id711582733781252\n"
+"help.text"
+msgid "Started, to indicate when to start measuring time."
+msgstr ""
+
+#. NAAFg
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id631582733781431\n"
+"help.text"
+msgid "Suspended, to pause measuring running time."
+msgstr ""
+
+#. nt9Qc
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id691582733781498\n"
+"help.text"
+msgid "Resumed, to continue tracking running time after the Timer has been suspended."
+msgstr ""
+
+#. zvNdv
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id31582733781344\n"
+"help.text"
+msgid "Restarted, which will cancel previous measurements and start the Timer at zero."
+msgstr ""
+
+#. dm7yA
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id991582733781280\n"
+"help.text"
+msgid "Durations are expressed in seconds with a precision of 3 decimal digits (milliseconds). A duration value of 12.345 means 12 seconds and 345 milliseconds"
+msgstr ""
+
+#. CVhDR
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"hd_id201582733781265\n"
+"help.text"
+msgid "Service invocation"
+msgstr ""
+
+#. 8ntzF
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id141610734722352\n"
+"help.text"
+msgid "Before using the <literal>Timer</literal> service the <literal>ScriptForge</literal> library needs to be loaded using:"
+msgstr ""
+
+#. SCYEX
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id891610734806133\n"
+"help.text"
+msgid "The example below creates a <literal>Timer</literal> object named <literal>myTimer</literal> and starts it immediately."
+msgstr ""
+
+#. CnZqc
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id891582733781994\n"
+"help.text"
+msgid "It is recommended to free resources after use:"
+msgstr ""
+
+#. 8h3fp
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"hd_id521582733781450\n"
+"help.text"
+msgid "Properties"
+msgstr ""
+
+#. dVncX
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id71582733781260\n"
+"help.text"
+msgid "Name"
+msgstr ""
+
+#. hFnkK
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id711582733781103\n"
+"help.text"
+msgid "Readonly"
+msgstr ""
+
+#. NvqK9
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id76158273378122\n"
+"help.text"
+msgid "Type"
+msgstr ""
+
+#. 7zFYh
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id751582733781926\n"
+"help.text"
+msgid "Description"
+msgstr ""
+
+#. T92or
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id621582733781588\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. 9yDgM
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id731582733781476\n"
+"help.text"
+msgid "The actual running time elapsed since start or between start and stop (does not consider suspended time)"
+msgstr ""
+
+#. ThAaG
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id301582733781498\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. tqpDU
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id401582733781608\n"
+"help.text"
+msgid "<literal>True</literal> when timer is started or suspended"
+msgstr ""
+
+#. pSPgk
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id181582733781551\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. SGyi4
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id161582733781328\n"
+"help.text"
+msgid "<literal>True</literal> when timer is started and suspended"
+msgstr ""
+
+#. qoNpD
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id651582733781874\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. E45MD
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id171582733781456\n"
+"help.text"
+msgid "The actual time elapsed while suspended since start or between start and stop"
+msgstr ""
+
+#. gxF8S
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id141582733781303\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. FeCob
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id411582733781932\n"
+"help.text"
+msgid "The actual time elapsed since start or between start and stop (including suspensions and running time)"
+msgstr ""
+
+#. Mav4g
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"hd_id141582734141895\n"
+"help.text"
+msgid "Methods"
+msgstr ""
+
+#. P8RQj
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id291582734377752\n"
+"help.text"
+msgid "All methods do not require arguments and return a <literal>Boolean</literal> value."
+msgstr ""
+
+#. onEib
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id311582734894257\n"
+"help.text"
+msgid "If the returned value is <literal>False</literal>, then nothing happened."
+msgstr ""
+
+#. U82Do
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id871582734180676\n"
+"help.text"
+msgid "Name"
+msgstr ""
+
+#. 6oGwx
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id971582734180676\n"
+"help.text"
+msgid "Description"
+msgstr ""
+
+#. ZMfpe
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id911582734180676\n"
+"help.text"
+msgid "Returned value"
+msgstr ""
+
+#. S6Gay
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id31582734180676\n"
+"help.text"
+msgid "Continue"
+msgstr ""
+
+#. C2QQ4
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id301582734180676\n"
+"help.text"
+msgid "Resumes the Timer if it has been suspended"
+msgstr ""
+
+#. ixF7A
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id661582734180676\n"
+"help.text"
+msgid "<literal>False</literal> if the timer is not suspended"
+msgstr ""
+
+#. ASHCm
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id881582734649304\n"
+"help.text"
+msgid "Restart"
+msgstr ""
+
+#. nkUs3
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id821582734649305\n"
+"help.text"
+msgid "Terminates the timer and discard its current property values, restarting as a new clean Timer"
+msgstr ""
+
+#. UtCTT
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id761582734649305\n"
+"help.text"
+msgid "<literal>False</literal> if the timer is inactive"
+msgstr ""
+
+#. 7VHEX
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id201582734802443\n"
+"help.text"
+msgid "Start"
+msgstr ""
+
+#. AkgAy
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id641582734802443\n"
+"help.text"
+msgid "Starts a new clean timer"
+msgstr ""
+
+#. B4gTh
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id921582734802443\n"
+"help.text"
+msgid "<literal>False</literal> if the timer is already started"
+msgstr ""
+
+#. QdjDi
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id781582734905507\n"
+"help.text"
+msgid "Suspend"
+msgstr ""
+
+#. D7CoH
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id81582734905507\n"
+"help.text"
+msgid "Suspends a running timer"
+msgstr ""
+
+#. YbeSJ
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id661582734905507\n"
+"help.text"
+msgid "<literal>False</literal> if the timer is not started or already suspended"
+msgstr ""
+
+#. BUjcE
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id771582734996722\n"
+"help.text"
+msgid "Terminate"
+msgstr ""
+
+#. sgXra
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id861582734996722\n"
+"help.text"
+msgid "Stops a running timer"
+msgstr ""
+
+#. WkCCC
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id381582734996722\n"
+"help.text"
+msgid "<literal>False</literal> if the timer is neither started nor suspended"
+msgstr ""
+
+#. Axxez
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"hd_id651582735695110\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. J6XGB
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id281610740093006\n"
+"help.text"
+msgid "If you call the <literal>Terminate</literal> method, subsequent calls for the <literal>Continue</literal> method will not resume time measurement. Similarly, after a Timer has been terminated, calling the <literal>Start</literal> method will restart it as if it were a clean new Timer."
+msgstr ""
+
+#. bHEyr
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"hd_id431610989623086\n"
+"help.text"
+msgid "Working with Multiple Timers"
+msgstr ""
+
+#. dr779
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id741610989639201\n"
+"help.text"
+msgid "It is possible to instantiate multiple <literal>Timer</literal> services in parallel, which gives flexibility in measuring time in different parts of the code."
+msgstr ""
+
+#. ueLgB
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id921610989722908\n"
+"help.text"
+msgid "The following example illustrates how to create two <literal>Timer</literal> objects and start them separately."
+msgstr ""
+
+#. CpzL5
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id531610970649205\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/03030203.xhp#now\">Now function</link>"
+msgstr ""
+
+#. iuTvZ
+#: sf_timer.xhp
+msgctxt ""
+"sf_timer.xhp\n"
+"par_id221610970653662\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/03030303.xhp#timer\">Timer function</link>"
+msgstr ""
+
 #. dphFv
 #: sf_ui.xhp
 msgctxt ""
@@ -3391,13 +4912,13 @@ msgctxt ""
 msgid "ScriptForge.UI service"
 msgstr ""
 
-#. MBnML
+#. QWA6E
 #: sf_ui.xhp
 msgctxt ""
 "sf_ui.xhp\n"
 "hd_id371587913266310\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03/sf_ui.xhp\" name=\"ScriptForge.UI service\"><literal>ScriptForge</literal>.<literal>UI</literal> service</link>"
+msgid "<variable id=\"UIService\"><link href=\"text/sbasic/shared/03/sf_ui.xhp\" name=\"ScriptForge.UI service\"><literal>ScriptForge</literal>.<literal>UI</literal> service</link></variable>"
 msgstr ""
 
 #. ABBCn
