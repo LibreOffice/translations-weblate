@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-01-08 15:26+0100\n"
-"PO-Revision-Date: 2021-01-26 14:36+0000\n"
+"PO-Revision-Date: 2021-01-27 19:36+0000\n"
 "Last-Translator: Riyadh Talal <riyadhtalal@gmail.com>\n"
 "Language-Team: Arabic <https://translations.documentfoundation.org/projects/libo_ui-6-4/sfx2messages/ar/>\n"
 "Language: ar\n"
@@ -941,6 +941,11 @@ msgid ""
 "Exit change recording mode?\n"
 "\n"
 msgstr ""
+"هذا الإجراء سيخرج من نمط تسجيل التغييرات.\n"
+"لن تُسجَّل أية معلومات عن التغييرات اعتباراً من الآن.\n"
+"\n"
+"الخروج من نمط تسجيل التغييرات؟\n"
+"\n"
 
 #. E2CcY
 #: include/sfx2/strings.hrc:171
@@ -1008,7 +1013,7 @@ msgstr "مرحبًا بك في %PRODUCTNAME."
 #: include/sfx2/strings.hrc:183
 msgctxt "STR_WELCOME_LINE2"
 msgid "Drop a document here or pick an app from the left side to create one."
-msgstr "أفلت مستندا هنا أو اختر تطبيقا من الجهة اليسرى لإنشاء واحد."
+msgstr "أفلت مستندا هنا أو اختر تطبيقا من الجهة اليمنى لإنشاء واحد."
 
 #. oTVdA
 #. Translators: Target types in Auto-redaction dialog
@@ -1040,87 +1045,87 @@ msgstr ""
 #: include/sfx2/strings.hrc:192
 msgctxt "STR_REDACTION_TARGET_NAME"
 msgid "Target Name"
-msgstr ""
+msgstr "إسم الوِجهة"
 
 #. mGjsx
 #: include/sfx2/strings.hrc:193
 msgctxt "STR_REDACTION_TYPE"
 msgid "Type"
-msgstr ""
+msgstr "النوع"
 
 #. gFKC4
 #: include/sfx2/strings.hrc:194
 msgctxt "STR_REDACTION_CONTENT"
 msgid "Content"
-msgstr ""
+msgstr "المحتوى"
 
 #. oSNPd
 #: include/sfx2/strings.hrc:195
 msgctxt "STR_REDACTION_CASE_SENSITIVE"
 msgid "Case Sensitive"
-msgstr ""
+msgstr "حساس لحالة الحروف"
 
 #. FLcSM
 #: include/sfx2/strings.hrc:196
 msgctxt "STR_REDACTION_WHOLE_WORDS"
 msgid "Whole Words"
-msgstr ""
+msgstr "كلمات كاملة"
 
 #. YgzCk
 #. Translators: Values for the Case Sensitive and the Whole Words columns in Auto-redaction dialog
 #: include/sfx2/strings.hrc:199
 msgctxt "STR_REDACTION_YES"
 msgid "Yes"
-msgstr ""
+msgstr "نعم"
 
 #. oZNaM
 #: include/sfx2/strings.hrc:200
 msgctxt "STR_REDACTION_NO"
 msgid "No"
-msgstr ""
+msgstr "كلا"
 
 #. FM3Gf
 #. Translators: Misc strings of the Auto Redaction dialog
 #: include/sfx2/strings.hrc:203
 msgctxt "STR_REDACTION_TARGET"
 msgid "Target"
-msgstr ""
+msgstr "الوِجهة"
 
 #. m2i7V
 #: include/sfx2/strings.hrc:204
 msgctxt "STR_REDACTION_LOAD_TARGETS"
 msgid "Load Targets"
-msgstr ""
+msgstr "تحميل الوجهات"
 
 #. HgrwX
 #: include/sfx2/strings.hrc:205
 msgctxt "STR_REDACTION_SAVE_TARGETS"
 msgid "Save Targets"
-msgstr ""
+msgstr "حفظ الوجهات"
 
 #. MYMTF
 #: include/sfx2/strings.hrc:206
 msgctxt "STR_REDACTION_FIELDS_REQUIRED"
 msgid "All fields are required"
-msgstr ""
+msgstr "كل الحقول مطلوبة"
 
 #. rQS6M
 #: include/sfx2/strings.hrc:207
 msgctxt "STR_REDACTION_TARGET_NAME_CLASH"
 msgid "There is already a target with this name"
-msgstr ""
+msgstr "توجد مسبقاً وِجهة بهذا الإسم"
 
 #. s248s
 #: include/sfx2/strings.hrc:208
 msgctxt "STR_REDACTION_MULTI_EDIT"
 msgid "You have selected multiple targets, but only one target can be edited at once."
-msgstr ""
+msgstr "لقد حددت وِجهات متعددة، لكن يمكن فقط تحرير وِجهة واحدة في كل مرّة."
 
 #. BTayC
 #: include/sfx2/strings.hrc:209
 msgctxt "STR_REDACTION_MULTI_DELETE"
 msgid "Are you sure you would like to delete $(TARGETSCOUNT) targets at once?"
-msgstr ""
+msgstr "أأنت متأكد أنك تريد حذف $(TARGETSCOUNT) وِجهةً دفعةً واحدة؟"
 
 #. qFqDC
 #: include/sfx2/strings.hrc:210
@@ -1442,7 +1447,7 @@ msgid ""
 " print job is being carried out."
 msgstr ""
 "لا يمكن إغلاق المستند بسبب \n"
-"وجود مهمة طباعة قيد التنفيذ. "
+"وجود مهمة طباعة قيد التنفيذ."
 
 #. YGyQP
 #: include/sfx2/strings.hrc:265
@@ -1540,7 +1545,7 @@ msgstr ""
 #: include/sfx2/strings.hrc:280
 msgctxt "STR_WHATSNEW"
 msgid "You are running version %PRODUCTVERSION of %PRODUCTNAME for the first time. Do you want to learn what's new?"
-msgstr ""
+msgstr "أنت تشغّل الإصدار %PRODUCTVERSION من %PRODUCTNAME للمرة الأولى. أتريد أن تعرف ما الجديد؟"
 
 #. J5UkB
 #: include/sfx2/strings.hrc:281
@@ -2236,7 +2241,7 @@ msgstr "منوعات"
 #: sfx2/inc/doctempl.hrc:37
 msgctxt "TEMPLATE_LONG_NAMES_ARY"
 msgid "Labels"
-msgstr "تسميات"
+msgstr "اللصائق"
 
 #. 5aNp8
 #: sfx2/inc/doctempl.hrc:38
