@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-10-27 12:31+0100\n"
-"PO-Revision-Date: 2021-01-26 16:36+0000\n"
+"PO-Revision-Date: 2021-01-27 03:46+0000\n"
 "Last-Translator: Jaumej <jaume.jorba@gmail.com>\n"
 "Language-Team: Catalan <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicpython/ca/>\n"
 "Language: ca\n"
@@ -1496,13 +1496,12 @@ msgstr "<unk>GA Python;importa</bookmarkvalue> <bookmarkvalue>Python;Mòduls</bo
 
 #. 5QqdJ
 #: python_import.xhp
-#, fuzzy
 msgctxt ""
 "python_import.xhp\n"
 "N0462\n"
 "help.text"
 msgid "<variable id=\"pythonimporth1\"><link href=\"text/sbasic/python/python_import.xhp\" name=\"python imports\">Importing Python Modules</link></variable>"
-msgstr "<variable id=\"pythonimporth1\"><link href=\"text/sbasic/python/pythonimport.xhp\" name=\"python imports\"> Importació de mòduls Python</link></variable>"
+msgstr "<variable id=\"pythonimporth1\"><link href=\"text/sbasic/python/pythonimport.xhp\" name=\"importació de  python\"> Importació de mòduls Python</link></variable>"
 
 #. VHAM5
 #: python_import.xhp
@@ -1566,13 +1565,12 @@ msgstr "Es poden importar scripts Python compartits personals una vegada que els
 
 #. A4v4U
 #: python_import.xhp
-#, fuzzy
 msgctxt ""
 "python_import.xhp\n"
 "N0473\n"
 "help.text"
 msgid "user_lib = Session().UserPythonScripts  # User scripts location"
-msgstr "<unk>lib = Session().UserPythonScripts # Ubicació dels scripts d'usuari"
+msgstr "user_lib = Session().UserPythonScripts  # Localització dels scripts de l'usuari"
 
 #. AAJUq
 #: python_import.xhp
@@ -1586,13 +1584,12 @@ msgstr "sys.path.insert(0 userlib) # Afegeix al camí de cerca"
 
 #. yFcur
 #: python_import.xhp
-#, fuzzy
 msgctxt ""
 "python_import.xhp\n"
 "N0476\n"
 "help.text"
 msgid "import screen_io as ui  # 'screen_io.py' module resides in user_lib directory"
-msgstr "importa screenio com a ui # el mòdul «screenio.py» resideix en el directori userlib"
+msgstr "importa screen_io com a ui # el mòdul 'screen_io.py' està ubicat al directori user_lib"
 
 #. 6KtvD
 #: python_import.xhp
@@ -1623,23 +1620,21 @@ msgstr "share_lib = Session.SharedPythonScripts()  # Localització dels scripts 
 
 #. HugAN
 #: python_import.xhp
-#, fuzzy
 msgctxt ""
 "python_import.xhp\n"
 "N0485\n"
 "help.text"
 msgid "sys.path.insert(0, share_lib)  # Add to search path"
-msgstr "sys.path.insert(0 sharelib) # Afegeix al camí de cerca"
+msgstr "sys.path.insert(0 share_lib) # Afegeix al camí de cerca"
 
 #. zGybv
 #: python_import.xhp
-#, fuzzy
 msgctxt ""
 "python_import.xhp\n"
 "N0486\n"
 "help.text"
 msgid "from IDE_utils import ScriptContext  # 'IDE_utils.py' sits with shared Python scripts."
-msgstr "des d'IDEutils importeu ScriptContext # 'IDEutils.py' s'asseu amb scripts compartits de Python."
+msgstr "des d'IDE_utils importeu ScriptContext # 'IDE_utils.py' es troba amb els scripts de Python compartits."
 
 #. VoPZU
 #: python_import.xhp
@@ -1661,13 +1656,12 @@ msgstr "Mòduls d'instal·lació per a aplicacions"
 
 #. VFZdV
 #: python_import.xhp
-#, fuzzy
 msgctxt ""
 "python_import.xhp\n"
 "N0490\n"
 "help.text"
 msgid "Unlike personal and shared scripts, %PRODUCTNAME installation scripts can be imported any time. Next to <literal>uno</literal> & <literal>unohelper</literal> %PRODUCTNAME Python modules, other scripts present in <literal><installation_path>/program</literal> directory can be imported directly, such as the <literal>msgbox</literal> module."
-msgstr "A diferència dels scripts personals i compartits es poden importar scripts d'instal·lació del 0%PRODUCTNAME en qualsevol moment. Al costat dels mòduls <literal>uno</literal> <literal>unohelper</literal> %PRODUCTNAME Python es poden importar directament altres scripts presents al directori <literal><installationpath> /programa</literal>."
+msgstr "A diferència dels scripts personals i compartits, els scripts d'instal·lació de %PRODUCTNAME es poden importar en qualsevol moment. Al costat dels mòduls Python de %PRODUCTNAME <literal>uno</literal> & <literal>unohelper</literal>,  altres scripts presents al directori <literal><installation_path>/program</literal> es poden importar directament, com el mòdul <literal>msgbox</literal>."
 
 #. TnQ2j
 #: python_import.xhp
