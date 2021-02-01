@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-01-30 15:37+0100\n"
+"POT-Creation-Date: 2021-02-01 17:02+0100\n"
 "PO-Revision-Date: 2018-11-14 11:55+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3598,13 +3598,13 @@ msgctxt ""
 msgid "Saves a thumbnail preview .png inside the document. This image may be used by a file manager under certain conditions."
 msgstr ""
 
-#. onMPH
+#. kGCVD
 #: 01100200.xhp
 msgctxt ""
 "01100200.xhp\n"
 "par_id231606265075565\n"
 "help.text"
-msgid "To disable generating thumbnails in general, choose <menuitem>Tools - Options - LibreOffice - Advanced</menuitem>. Click the <widget>Open Expert Configuration</widget> button, and search for <emph>GenerateThumbnail</emph>. If this property has the value <literal>true</literal>, then double-click on it to set its value to <literal>false</literal>."
+msgid "To disable generating thumbnails in general, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem/><menuitem> - %PRODUCTNAME - Advanced</menuitem>. Click the <widget>Open Expert Configuration</widget> button, and search for <emph>GenerateThumbnail</emph>. If this property has the value <literal>true</literal>, then double-click on it to set its value to <literal>false</literal>."
 msgstr ""
 
 #. ibdbD
@@ -35917,13 +35917,22 @@ msgctxt ""
 msgid "<ahelp hid=\"cui/ui/applyautofmtpage/ApplyAutoFmtPage\">Select the options for automatically correcting errors as you type, and then click <emph>OK</emph>.</ahelp>"
 msgstr "<ahelp hid=\"cui/ui/applyautofmtpage/ApplyAutoFmtPage\">ཁྱོད་ཀྱིས་ཡིག་དཔར་བརྐྱབ་པའི་བསྒང་འཛོལ་བ་ཚུ་  རང་བཞིན་གྱིས་ནོར་བཅོས་འབད་ནི་དོན་ལུ་  གདམ་ཁ་ཚུ་སེལ་འཐུ་འབད་ནི་དང་    <emph>བཏུབ་</emph>ཨེབ་གཏང་འབད།</ahelp>"
 
-#. BAFoD
+#. RiA4T
 #: 06040100.xhp
 msgctxt ""
 "06040100.xhp\n"
 "par_id3153124\n"
 "help.text"
-msgid "In text documents, you can choose to apply the AutoCorrect corrections while you type [T], or by choosing <menuitem>Tools - AutoCorrect - Apply</menuitem> to modify existing text [M]. The [M] options are applied only to paragraphs with Default Paragraph Style."
+msgid "In text documents, you can choose to apply [T] AutoCorrect options while you type. Enable this feature by using <menuitem>Tools - AutoCorrect - While Typing</menuitem>."
+msgstr ""
+
+#. cZFNj
+#: 06040100.xhp
+msgctxt ""
+"06040100.xhp\n"
+"par_id141612013807625\n"
+"help.text"
+msgid "You can also apply [M] AutoCorrect options to a selection or a whole document of existing text by using <menuitem>Tools - AutoCorrect - Apply</menuitem>. In general, [M] options are applied only to paragraphs with Default Paragraph Style."
 msgstr ""
 
 #. QavGm
@@ -36529,6 +36538,15 @@ msgctxt ""
 msgid "This feature works only with \"Default Paragraph Style\", \"Text Body\" and \"Text Body Indent\" paragraph styles, and there must be one empty paragraph before the text, if the text is not at the top of a page."
 msgstr ""
 
+#. BjgHi
+#: 06040100.xhp
+msgctxt ""
+"06040100.xhp\n"
+"hd_id861612011786183\n"
+"help.text"
+msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">[M] options only</caseinline></switchinline>"
+msgstr ""
+
 #. RRoM9
 #: 06040100.xhp
 msgctxt ""
@@ -36538,13 +36556,13 @@ msgctxt ""
 msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Remove blank paragraphs</caseinline></switchinline>"
 msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">དོན་མཚམས་སྟོངམ་ཚུ་རྩ་བསྐྲད་གཏང་།</caseinline></switchinline>"
 
-#. PtacD
+#. NFYGm
 #: 06040100.xhp
 msgctxt ""
 "06040100.xhp\n"
 "par_id3145728\n"
 "help.text"
-msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Removes empty paragraphs from the current document when you choose <menuitem>Tools - AutoCorrect - Apply</menuitem>.</caseinline></switchinline>"
+msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Removes empty paragraphs and paragraphs that contain only spaces or tabs from the current document. This option works for any paragraph style.</caseinline></switchinline>"
 msgstr ""
 
 #. 3wrpe
@@ -36556,14 +36574,14 @@ msgctxt ""
 msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Replace Custom Styles</caseinline></switchinline>"
 msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">སྲོལ་སྒྲིག་བཟོ་རྣམ་ཚུ་ཚབ་བཙུགས།</caseinline></switchinline>"
 
-#. ABgU8
+#. 6trmB
 #: 06040100.xhp
 msgctxt ""
 "06040100.xhp\n"
 "par_id3156299\n"
 "help.text"
-msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Replaces the custom paragraph styles in the current document with the \"Default\", the \"Text Body\", or the \"Text Body Indent\" paragraph style.</caseinline></switchinline>"
-msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">གིས་ \"Default\", the \"Text Body\", ཡང་ན་ \"Text Body Indent\" དོན་མཚམས་བཟོ་རྣམ་དང་བཅས་  ད་ལྟོའི་ཡིག་ཆ་ནང་གི་  སྲོལ་སྒྲིག་དོན་མཚམས་བཟོ་རྣམ་འདི་  ཚབ་བཙུགསཔ་ཨིན།</caseinline></switchinline>"
+msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Replaces custom paragraph styles applied in the current document to \"Text Body\", \"Text Body Indent\", \"First Line Indent\" or \"Hanging Indent\" paragraph style.</caseinline></switchinline>"
+msgstr ""
 
 #. UsxjM
 #: 06040100.xhp
@@ -36574,14 +36592,14 @@ msgctxt ""
 msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Replace bullets with</caseinline></switchinline>"
 msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">འགོ་ཚག་འདི་ </caseinline></switchinline>དང་བཅས་ཚབ་བཙུགས།"
 
-#. sPDGS
+#. Ehrw7
 #: 06040100.xhp
 msgctxt ""
 "06040100.xhp\n"
 "par_id3150420\n"
 "help.text"
-msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Converts paragraphs that start with a hyphen (-), a plus sign (+), or an asterisk (*) directly followed by a space or a tab, to bulleted lists. This option only works on paragraphs that are formatted with the \"Default\", \"Text Body\", or \"Text Body Indent\" paragraph styles. To change the bullet style that is used, select this option, and then click <emph>Edit</emph>.</caseinline></switchinline>"
-msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">འགོ་ཚག་བཀོད་ཡོད་པའི་ཐོ་ཡིག་ཚུ་ལུ་   བར་སྟོང་ཡང་ན་ ཨེབ་ལྡེ་གིས་ཐད་ཀར་དུ་རྗེས་སུ་འཇུག་མི་ སྦྲེལ་རྟགས་  (-) བསྡོམས་རྟགས་(+)ཡང་ན་ སྐར་རྟགས་(*)དང་བཅས་འགོ་བཙུགས་མི་  དོན་མཚམས་འདི་གཞི་བསྒྱུར་འབདཝ་ཨིན།   གདམ་ཁ་འདི་གིས་  \"Default\", \"Text Body\", or \"Text Body Indent\"དོན་མཚམས་བཟོ་རྣམ་ཚུ་དང་བཅས་རྩ་སྒྲིག་འབད་ཡོད་པའི་  དོན་མཚམས་གུ་རྐྱངམ་ཅིག་  ལཱ་འབདཝ་ཨིན།  ལག་ལེན་འཐབ་ཡོད་པའི་འགོ་ཚག་བཟོ་རྣམ་འདི་བསྒྱུར་བཅོས་འབད་ནི་ལུ་     གདམ་ཁ་འདི་སེལ་འཐུ་འབད་ནི་དང་  དེ་ལས་  <emph>ཞུན་དག་འབད་</emph>ཨེབ་གཏང་འབད། </caseinline></switchinline>"
+msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Converts paragraphs that start with a hyphen (-), a plus sign (+), or an asterisk (*) directly followed by a space or a tab, to bulleted lists. This option only works on paragraphs that are formatted with the \"Default Paragraph Style\". To change the bullet style that is used, select this option, and then click <emph>Edit</emph>.</caseinline></switchinline>"
+msgstr ""
 
 #. vbwez
 #: 06040100.xhp
@@ -38050,23 +38068,23 @@ msgctxt ""
 msgid "<ahelp hid=\"cui/ui/numberingoptionspage/levellb\">Select the level(s) that you want to define the formatting options for.</ahelp> The selected level is highlighted in the preview."
 msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/levellb\">རྩ་སྒྲིག་གདམ་ཁ་གི་དོན་ལུ་   ཁྱོད་ཀྱིས་ངེས་འཛིན་འའབད་ནི་ལུ་  གནས་རིམ་ཚུ་སེལ་འཐུ་འབད། </ahelp>སེལ་འཐུ་འབད་ཡོད་པའི་གནས་རིམ་འདི་  སྔོན་བལྟ་ནང་ལུ་གཙོ་དམིགས་བཀོད་དེ་ཡོད།"
 
-#. ugWJQ
+#. DBFn7
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
 "hd_id3159200\n"
 "help.text"
-msgid "Number"
+msgid "Numbering"
 msgstr ""
 
-#. LEAqu
+#. ujAuR
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
 "hd_id3159201\n"
 "help.text"
-msgid "Numbering"
-msgstr "ཨང་བཏགས་ནི།"
+msgid "Number"
+msgstr ""
 
 #. vcASB
 #: 06050500.xhp
@@ -38266,13 +38284,13 @@ msgctxt ""
 msgid "Bullet"
 msgstr "འགོ་ཚག"
 
-#. vZdhE
+#. RqUuK
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
 "par_id3145085\n"
 "help.text"
-msgid "Adds a bullet to the beginning of a line. Select this option, and then click the <emph>Select</emph> button to choose a bullet style."
+msgid "Adds a bullet to the beginning of a line. Select this option, and then use the <emph>Character style</emph> drop-down menu to choose a bullet style."
 msgstr ""
 
 #. JBJEa
@@ -38338,50 +38356,32 @@ msgctxt ""
 msgid "Does not apply a numbering style."
 msgstr "ཨང་བཏགས་ནི་བཟོ་རྣམ་འདི་འཇུགས་སྤྱོད་འབད་ནི་མེད།"
 
-#. 6zLDV
+#. P7jbZ
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
 "par_id3145746\n"
 "help.text"
-msgid "The availability of the following fields depends on the style that you select in the <emph>Numbering </emph>box."
-msgstr "འོག་གི་ས་སྒོ་འཐོབ་ཚུགས་འདི་  <emph>ཨང་བཏགས་ནི་</emph>སྒྲོམ་ནང་ལུ་  ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མིའི་བཟོ་རྣམ་ལུ་རག་ལས།"
+msgid "The availability of the following fields depends on the style that you select in the <emph>Number</emph> box."
+msgstr ""
 
-#. 85gXU
+#. iqVUE
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
-"hd_id3156293\n"
+"hd_id3155429\n"
 "help.text"
-msgid "Before"
-msgstr "ཧེ་མ།"
+msgid "Start at"
+msgstr "ལུ་འགོ་བཙུགས།"
 
-#. R2LPX
+#. eyM3f
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
-"par_id3150393\n"
+"par_id3146903\n"
 "help.text"
-msgid "<ahelp hid=\"cui/ui/numberingoptionspage/prefix\">Enter a character or the text to display in front of the number in the list.</ahelp>"
-msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/prefix\">ཐོ་ཡིག་ནང་ལུ་ཨང་གྲངས་ཀྱི་  མདོང་ཁ་ལུ་བཀྲམ་སྟོན་འབད་ནི་ལུ་   ཚིག་ཡིག་ཡང་ན་ ཡིག་འབྲུ་ཅིག་ཐོ་བཀོད་འབད།</ahelp>"
-
-#. eY5nc
-#: 06050500.xhp
-msgctxt ""
-"06050500.xhp\n"
-"hd_id3153968\n"
-"help.text"
-msgid "After"
-msgstr "ཤུལ་མ།"
-
-#. 9rGAH
-#: 06050500.xhp
-msgctxt ""
-"06050500.xhp\n"
-"par_id3150288\n"
-"help.text"
-msgid "<ahelp hid=\"cui/ui/numberingoptionspage/suffix\">Enter a character or the text to display behind the number in the list. If you want to create a numbered list that uses the style \"1.)\", enter \".)\" in this box.</ahelp>"
-msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/suffix\">ཐོ་ཡིག་གི་རྒྱབ་ཁ་ལུ་ཨང་གྲངས་འདི་བཀྲྨ་སྟོན་འབད་ནི་དོན་ལུ་  ཡིག་འབྲུ་ཡང་ན་ཚིག་ཡིག་ཅིག་ཐོ་བཀོད་འབད། སྒྲོམ་དེ་གི་ནང་ལུ་ style \"1.)\", enter \".)\"  བཟོ་རྣམ་ལག་ལེན་འཐབ་མི་  ཨང་གྲངས་བཀལ་ཡོད་པའི་ཐོ་ཡིག་ཅིག་གསར་བསྐྲུན་འབད་བ་ཅིན།་</ahelp>"
+msgid "<ahelp hid=\"cui/ui/numberingoptionspage/startat\">Enter a new starting number for the current level.</ahelp>"
+msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/startat\">ད་ལྟོའི་གནས་རིམ་དོན་ལུ་  འགོ་བཙུགས་པའི་ཨང་གྲངས་གསརཔ་ཅིག་ཐོ་བཀོད་འབད།</ahelp>"
 
 #. Uw4HA
 #: 06050500.xhp
@@ -38419,23 +38419,41 @@ msgctxt ""
 msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\"><ahelp hid=\"cui/ui/numberingoptionspage/sublevels\">Enter the number of previous levels to include in the numbering style. For example, if you enter \"2\" and the previous level uses the \"A, B, C...\" numbering style, the numbering scheme for the current level becomes: \"A.1\".</ahelp></caseinline></switchinline>"
 msgstr ""
 
-#. iqVUE
+#. 85gXU
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
-"hd_id3155429\n"
+"hd_id3156293\n"
 "help.text"
-msgid "Start at"
-msgstr "ལུ་འགོ་བཙུགས།"
+msgid "Before"
+msgstr "ཧེ་མ།"
 
-#. eyM3f
+#. R2LPX
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
-"par_id3146903\n"
+"par_id3150393\n"
 "help.text"
-msgid "<ahelp hid=\"cui/ui/numberingoptionspage/startat\">Enter a new starting number for the current level.</ahelp>"
-msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/startat\">ད་ལྟོའི་གནས་རིམ་དོན་ལུ་  འགོ་བཙུགས་པའི་ཨང་གྲངས་གསརཔ་ཅིག་ཐོ་བཀོད་འབད།</ahelp>"
+msgid "<ahelp hid=\"cui/ui/numberingoptionspage/prefix\">Enter a character or the text to display in front of the number in the list.</ahelp>"
+msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/prefix\">ཐོ་ཡིག་ནང་ལུ་ཨང་གྲངས་ཀྱི་  མདོང་ཁ་ལུ་བཀྲམ་སྟོན་འབད་ནི་ལུ་   ཚིག་ཡིག་ཡང་ན་ ཡིག་འབྲུ་ཅིག་ཐོ་བཀོད་འབད།</ahelp>"
+
+#. eY5nc
+#: 06050500.xhp
+msgctxt ""
+"06050500.xhp\n"
+"hd_id3153968\n"
+"help.text"
+msgid "After"
+msgstr "ཤུལ་མ།"
+
+#. 9rGAH
+#: 06050500.xhp
+msgctxt ""
+"06050500.xhp\n"
+"par_id3150288\n"
+"help.text"
+msgid "<ahelp hid=\"cui/ui/numberingoptionspage/suffix\">Enter a character or the text to display behind the number in the list. If you want to create a numbered list that uses the style \"1.)\", enter \".)\" in this box.</ahelp>"
+msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/suffix\">ཐོ་ཡིག་གི་རྒྱབ་ཁ་ལུ་ཨང་གྲངས་འདི་བཀྲྨ་སྟོན་འབད་ནི་དོན་ལུ་  ཡིག་འབྲུ་ཡང་ན་ཚིག་ཡིག་ཅིག་ཐོ་བཀོད་འབད། སྒྲོམ་དེ་གི་ནང་ལུ་ style \"1.)\", enter \".)\"  བཟོ་རྣམ་ལག་ལེན་འཐབ་མི་  ཨང་གྲངས་བཀལ་ཡོད་པའི་ཐོ་ཡིག་ཅིག་གསར་བསྐྲུན་འབད་བ་ཅིན།་</ahelp>"
 
 #. FWEse
 #: 06050500.xhp
@@ -38482,14 +38500,14 @@ msgctxt ""
 msgid "Options for graphics:"
 msgstr "ཚད་རིས་དོན་ལུ་གདམ་ཁ་ཚུ:"
 
-#. MBuC2
+#. wL36V
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
 "hd_id3149934\n"
 "help.text"
-msgid "Select..."
-msgstr "སེལ་འཐུ་འབད..."
+msgid "Graphics"
+msgstr ""
 
 #. YLCPM
 #: 06050500.xhp
@@ -51846,6 +51864,41 @@ msgctxt ""
 "help.text"
 msgid "<ahelp hid=\".\">Specifies the maximum number of characters for a string.</ahelp>"
 msgstr "<ahelp hid=\".\">ཡིག་རྒྱུན་ཅིག་དོན་ལུ་  ཡིག་འབྲུ་གི་མང་བཐའི་ཨང་གྲངས་འདི་གསལ་བཀོད་འབདཝ་ཨིན།</ahelp>"
+
+#~ msgctxt ""
+#~ "06040100.xhp\n"
+#~ "par_id3156299\n"
+#~ "help.text"
+#~ msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Replaces the custom paragraph styles in the current document with the \"Default\", the \"Text Body\", or the \"Text Body Indent\" paragraph style.</caseinline></switchinline>"
+#~ msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">གིས་ \"Default\", the \"Text Body\", ཡང་ན་ \"Text Body Indent\" དོན་མཚམས་བཟོ་རྣམ་དང་བཅས་  ད་ལྟོའི་ཡིག་ཆ་ནང་གི་  སྲོལ་སྒྲིག་དོན་མཚམས་བཟོ་རྣམ་འདི་  ཚབ་བཙུགསཔ་ཨིན།</caseinline></switchinline>"
+
+#~ msgctxt ""
+#~ "06040100.xhp\n"
+#~ "par_id3150420\n"
+#~ "help.text"
+#~ msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Converts paragraphs that start with a hyphen (-), a plus sign (+), or an asterisk (*) directly followed by a space or a tab, to bulleted lists. This option only works on paragraphs that are formatted with the \"Default\", \"Text Body\", or \"Text Body Indent\" paragraph styles. To change the bullet style that is used, select this option, and then click <emph>Edit</emph>.</caseinline></switchinline>"
+#~ msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">འགོ་ཚག་བཀོད་ཡོད་པའི་ཐོ་ཡིག་ཚུ་ལུ་   བར་སྟོང་ཡང་ན་ ཨེབ་ལྡེ་གིས་ཐད་ཀར་དུ་རྗེས་སུ་འཇུག་མི་ སྦྲེལ་རྟགས་  (-) བསྡོམས་རྟགས་(+)ཡང་ན་ སྐར་རྟགས་(*)དང་བཅས་འགོ་བཙུགས་མི་  དོན་མཚམས་འདི་གཞི་བསྒྱུར་འབདཝ་ཨིན།   གདམ་ཁ་འདི་གིས་  \"Default\", \"Text Body\", or \"Text Body Indent\"དོན་མཚམས་བཟོ་རྣམ་ཚུ་དང་བཅས་རྩ་སྒྲིག་འབད་ཡོད་པའི་  དོན་མཚམས་གུ་རྐྱངམ་ཅིག་  ལཱ་འབདཝ་ཨིན།  ལག་ལེན་འཐབ་ཡོད་པའི་འགོ་ཚག་བཟོ་རྣམ་འདི་བསྒྱུར་བཅོས་འབད་ནི་ལུ་     གདམ་ཁ་འདི་སེལ་འཐུ་འབད་ནི་དང་  དེ་ལས་  <emph>ཞུན་དག་འབད་</emph>ཨེབ་གཏང་འབད། </caseinline></switchinline>"
+
+#~ msgctxt ""
+#~ "06050500.xhp\n"
+#~ "hd_id3159201\n"
+#~ "help.text"
+#~ msgid "Numbering"
+#~ msgstr "ཨང་བཏགས་ནི།"
+
+#~ msgctxt ""
+#~ "06050500.xhp\n"
+#~ "par_id3145746\n"
+#~ "help.text"
+#~ msgid "The availability of the following fields depends on the style that you select in the <emph>Numbering </emph>box."
+#~ msgstr "འོག་གི་ས་སྒོ་འཐོབ་ཚུགས་འདི་  <emph>ཨང་བཏགས་ནི་</emph>སྒྲོམ་ནང་ལུ་  ཁྱོད་ཀྱིས་སེལ་འཐུ་འབད་མིའི་བཟོ་རྣམ་ལུ་རག་ལས།"
+
+#~ msgctxt ""
+#~ "06050500.xhp\n"
+#~ "hd_id3149934\n"
+#~ "help.text"
+#~ msgid "Select..."
+#~ msgstr "སེལ་འཐུ་འབད..."
 
 #~ msgctxt ""
 #~ "06010000.xhp\n"

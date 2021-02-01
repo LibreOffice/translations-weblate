@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-01-30 15:37+0100\n"
+"POT-Creation-Date: 2021-02-01 17:02+0100\n"
 "PO-Revision-Date: 2021-01-12 10:36+0000\n"
 "Last-Translator: Joan Montané <joan@montane.cat>\n"
 "Language-Team: Catalan <https://translations.documentfoundation.org/projects/libo_help-master/textshared01/ca_VALENCIA/>\n"
@@ -3599,13 +3599,13 @@ msgctxt ""
 msgid "Saves a thumbnail preview .png inside the document. This image may be used by a file manager under certain conditions."
 msgstr ""
 
-#. onMPH
+#. kGCVD
 #: 01100200.xhp
 msgctxt ""
 "01100200.xhp\n"
 "par_id231606265075565\n"
 "help.text"
-msgid "To disable generating thumbnails in general, choose <menuitem>Tools - Options - LibreOffice - Advanced</menuitem>. Click the <widget>Open Expert Configuration</widget> button, and search for <emph>GenerateThumbnail</emph>. If this property has the value <literal>true</literal>, then double-click on it to set its value to <literal>false</literal>."
+msgid "To disable generating thumbnails in general, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem/><menuitem> - %PRODUCTNAME - Advanced</menuitem>. Click the <widget>Open Expert Configuration</widget> button, and search for <emph>GenerateThumbnail</emph>. If this property has the value <literal>true</literal>, then double-click on it to set its value to <literal>false</literal>."
 msgstr ""
 
 #. ibdbD
@@ -35918,13 +35918,22 @@ msgctxt ""
 msgid "<ahelp hid=\"cui/ui/applyautofmtpage/ApplyAutoFmtPage\">Select the options for automatically correcting errors as you type, and then click <emph>OK</emph>.</ahelp>"
 msgstr "<ahelp hid=\"cui/ui/applyautofmtpage/ApplyAutoFmtPage\">Seleccioneu les opcions per a la correcció automàtica en teclejar i, a continuació, premeu <emph>D'acord</emph>.</ahelp>"
 
-#. BAFoD
+#. RiA4T
 #: 06040100.xhp
 msgctxt ""
 "06040100.xhp\n"
 "par_id3153124\n"
 "help.text"
-msgid "In text documents, you can choose to apply the AutoCorrect corrections while you type [T], or by choosing <menuitem>Tools - AutoCorrect - Apply</menuitem> to modify existing text [M]. The [M] options are applied only to paragraphs with Default Paragraph Style."
+msgid "In text documents, you can choose to apply [T] AutoCorrect options while you type. Enable this feature by using <menuitem>Tools - AutoCorrect - While Typing</menuitem>."
+msgstr ""
+
+#. cZFNj
+#: 06040100.xhp
+msgctxt ""
+"06040100.xhp\n"
+"par_id141612013807625\n"
+"help.text"
+msgid "You can also apply [M] AutoCorrect options to a selection or a whole document of existing text by using <menuitem>Tools - AutoCorrect - Apply</menuitem>. In general, [M] options are applied only to paragraphs with Default Paragraph Style."
 msgstr ""
 
 #. QavGm
@@ -36530,6 +36539,15 @@ msgctxt ""
 msgid "This feature works only with \"Default Paragraph Style\", \"Text Body\" and \"Text Body Indent\" paragraph styles, and there must be one empty paragraph before the text, if the text is not at the top of a page."
 msgstr ""
 
+#. BjgHi
+#: 06040100.xhp
+msgctxt ""
+"06040100.xhp\n"
+"hd_id861612011786183\n"
+"help.text"
+msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">[M] options only</caseinline></switchinline>"
+msgstr ""
+
 #. RRoM9
 #: 06040100.xhp
 msgctxt ""
@@ -36539,13 +36557,13 @@ msgctxt ""
 msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Remove blank paragraphs</caseinline></switchinline>"
 msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Suprimeix els paràgrafs en blanc</caseinline></switchinline>"
 
-#. PtacD
+#. NFYGm
 #: 06040100.xhp
 msgctxt ""
 "06040100.xhp\n"
 "par_id3145728\n"
 "help.text"
-msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Removes empty paragraphs from the current document when you choose <menuitem>Tools - AutoCorrect - Apply</menuitem>.</caseinline></switchinline>"
+msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Removes empty paragraphs and paragraphs that contain only spaces or tabs from the current document. This option works for any paragraph style.</caseinline></switchinline>"
 msgstr ""
 
 #. 3wrpe
@@ -36557,14 +36575,14 @@ msgctxt ""
 msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Replace Custom Styles</caseinline></switchinline>"
 msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Reemplaça els estils personalitzats</caseinline></switchinline>"
 
-#. ABgU8
+#. 6trmB
 #: 06040100.xhp
 msgctxt ""
 "06040100.xhp\n"
 "par_id3156299\n"
 "help.text"
-msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Replaces the custom paragraph styles in the current document with the \"Default\", the \"Text Body\", or the \"Text Body Indent\" paragraph style.</caseinline></switchinline>"
-msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Reemplaça els estils de paràgraf personalitzats del document actual amb els estils de paràgraf \"Per defecte\", \"Cos del text\" o \"Sagnat del cos del text\".</caseinline></switchinline>"
+msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Replaces custom paragraph styles applied in the current document to \"Text Body\", \"Text Body Indent\", \"First Line Indent\" or \"Hanging Indent\" paragraph style.</caseinline></switchinline>"
+msgstr ""
 
 #. UsxjM
 #: 06040100.xhp
@@ -36575,14 +36593,14 @@ msgctxt ""
 msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Replace bullets with</caseinline></switchinline>"
 msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Reemplaça els pics per</caseinline></switchinline>"
 
-#. sPDGS
+#. Ehrw7
 #: 06040100.xhp
 msgctxt ""
 "06040100.xhp\n"
 "par_id3150420\n"
 "help.text"
-msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Converts paragraphs that start with a hyphen (-), a plus sign (+), or an asterisk (*) directly followed by a space or a tab, to bulleted lists. This option only works on paragraphs that are formatted with the \"Default\", \"Text Body\", or \"Text Body Indent\" paragraph styles. To change the bullet style that is used, select this option, and then click <emph>Edit</emph>.</caseinline></switchinline>"
-msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Converteix en llistes numerades els paràgrafs que comencen amb un guionet (-), un signe de més (+) o un asterisc (*), seguits directament per un espai o un tabulador. Esta opció només funciona en els paràgrafs formatats amb els estils de paràgraf \"Per defecte\", \"Cos del text\" o \"Sagnat del cos del text\". Per canviar l'estil de pic utilitzat, seleccioneu esta opció i feu clic a <emph>Edita</emph>.</caseinline></switchinline>"
+msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Converts paragraphs that start with a hyphen (-), a plus sign (+), or an asterisk (*) directly followed by a space or a tab, to bulleted lists. This option only works on paragraphs that are formatted with the \"Default Paragraph Style\". To change the bullet style that is used, select this option, and then click <emph>Edit</emph>.</caseinline></switchinline>"
+msgstr ""
 
 #. vbwez
 #: 06040100.xhp
@@ -38051,23 +38069,23 @@ msgctxt ""
 msgid "<ahelp hid=\"cui/ui/numberingoptionspage/levellb\">Select the level(s) that you want to define the formatting options for.</ahelp> The selected level is highlighted in the preview."
 msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/levellb\">Seleccioneu el nivell o els nivells per als quals vulgueu definir les opcions de formatació.</ahelp> El nivell seleccionat apareixerà realçat a la previsualització."
 
-#. ugWJQ
+#. DBFn7
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
 "hd_id3159200\n"
 "help.text"
-msgid "Number"
+msgid "Numbering"
 msgstr ""
 
-#. LEAqu
+#. ujAuR
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
 "hd_id3159201\n"
 "help.text"
-msgid "Numbering"
-msgstr "Numeració"
+msgid "Number"
+msgstr ""
 
 #. vcASB
 #: 06050500.xhp
@@ -38267,13 +38285,13 @@ msgctxt ""
 msgid "Bullet"
 msgstr "Pic"
 
-#. vZdhE
+#. RqUuK
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
 "par_id3145085\n"
 "help.text"
-msgid "Adds a bullet to the beginning of a line. Select this option, and then click the <emph>Select</emph> button to choose a bullet style."
+msgid "Adds a bullet to the beginning of a line. Select this option, and then use the <emph>Character style</emph> drop-down menu to choose a bullet style."
 msgstr ""
 
 #. JBJEa
@@ -38339,50 +38357,32 @@ msgctxt ""
 msgid "Does not apply a numbering style."
 msgstr "No aplica un estil de numeració."
 
-#. 6zLDV
+#. P7jbZ
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
 "par_id3145746\n"
 "help.text"
-msgid "The availability of the following fields depends on the style that you select in the <emph>Numbering </emph>box."
-msgstr "La disponibilitat dels camps següents dependrà de l'estil que hàgeu seleccionat en el quadre <emph>Numeració</emph>."
+msgid "The availability of the following fields depends on the style that you select in the <emph>Number</emph> box."
+msgstr ""
 
-#. 85gXU
+#. iqVUE
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
-"hd_id3156293\n"
+"hd_id3155429\n"
 "help.text"
-msgid "Before"
-msgstr "Abans"
+msgid "Start at"
+msgstr "Inicia a"
 
-#. R2LPX
+#. eyM3f
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
-"par_id3150393\n"
+"par_id3146903\n"
 "help.text"
-msgid "<ahelp hid=\"cui/ui/numberingoptionspage/prefix\">Enter a character or the text to display in front of the number in the list.</ahelp>"
-msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/prefix\">Introduïu un caràcter o el text que vulgueu que es mostre davant del número a la llista.</ahelp>"
-
-#. eY5nc
-#: 06050500.xhp
-msgctxt ""
-"06050500.xhp\n"
-"hd_id3153968\n"
-"help.text"
-msgid "After"
-msgstr "Després"
-
-#. 9rGAH
-#: 06050500.xhp
-msgctxt ""
-"06050500.xhp\n"
-"par_id3150288\n"
-"help.text"
-msgid "<ahelp hid=\"cui/ui/numberingoptionspage/suffix\">Enter a character or the text to display behind the number in the list. If you want to create a numbered list that uses the style \"1.)\", enter \".)\" in this box.</ahelp>"
-msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/suffix\">Introduïu un caràcter o el text que vulgueu que es mostre darrere del número a la llista. Per exemple, si voleu crear una llista numerada que utilitze l'estil \"1.)\", haureu d'introduir \".)\" en este quadre.</ahelp>"
+msgid "<ahelp hid=\"cui/ui/numberingoptionspage/startat\">Enter a new starting number for the current level.</ahelp>"
+msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/startat\">Introduïu un nou número inicial per al nivell actual.</ahelp>"
 
 #. Uw4HA
 #: 06050500.xhp
@@ -38420,23 +38420,41 @@ msgctxt ""
 msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\"><ahelp hid=\"cui/ui/numberingoptionspage/sublevels\">Enter the number of previous levels to include in the numbering style. For example, if you enter \"2\" and the previous level uses the \"A, B, C...\" numbering style, the numbering scheme for the current level becomes: \"A.1\".</ahelp></caseinline></switchinline>"
 msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\"><ahelp hid=\"cui/ui/numberingoptionspage/sublevels\">Introduïu el nombre de nivells previs que s'han d'incloure a l'estil de numeració.Per exemple, si introduïu «2» i el nivell previ fa servir l'estil de numeració «A, B, C...», la combinació de la numeració del nivell actual passa a ser: «A.1».</ahelp></caseinline></switchinline>"
 
-#. iqVUE
+#. 85gXU
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
-"hd_id3155429\n"
+"hd_id3156293\n"
 "help.text"
-msgid "Start at"
-msgstr "Inicia a"
+msgid "Before"
+msgstr "Abans"
 
-#. eyM3f
+#. R2LPX
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
-"par_id3146903\n"
+"par_id3150393\n"
 "help.text"
-msgid "<ahelp hid=\"cui/ui/numberingoptionspage/startat\">Enter a new starting number for the current level.</ahelp>"
-msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/startat\">Introduïu un nou número inicial per al nivell actual.</ahelp>"
+msgid "<ahelp hid=\"cui/ui/numberingoptionspage/prefix\">Enter a character or the text to display in front of the number in the list.</ahelp>"
+msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/prefix\">Introduïu un caràcter o el text que vulgueu que es mostre davant del número a la llista.</ahelp>"
+
+#. eY5nc
+#: 06050500.xhp
+msgctxt ""
+"06050500.xhp\n"
+"hd_id3153968\n"
+"help.text"
+msgid "After"
+msgstr "Després"
+
+#. 9rGAH
+#: 06050500.xhp
+msgctxt ""
+"06050500.xhp\n"
+"par_id3150288\n"
+"help.text"
+msgid "<ahelp hid=\"cui/ui/numberingoptionspage/suffix\">Enter a character or the text to display behind the number in the list. If you want to create a numbered list that uses the style \"1.)\", enter \".)\" in this box.</ahelp>"
+msgstr "<ahelp hid=\"cui/ui/numberingoptionspage/suffix\">Introduïu un caràcter o el text que vulgueu que es mostre darrere del número a la llista. Per exemple, si voleu crear una llista numerada que utilitze l'estil \"1.)\", haureu d'introduir \".)\" en este quadre.</ahelp>"
 
 #. FWEse
 #: 06050500.xhp
@@ -38483,14 +38501,14 @@ msgctxt ""
 msgid "Options for graphics:"
 msgstr "Opcions per als gràfics:"
 
-#. MBuC2
+#. wL36V
 #: 06050500.xhp
 msgctxt ""
 "06050500.xhp\n"
 "hd_id3149934\n"
 "help.text"
-msgid "Select..."
-msgstr "Selecciona..."
+msgid "Graphics"
+msgstr ""
 
 #. YLCPM
 #: 06050500.xhp
@@ -51847,6 +51865,41 @@ msgctxt ""
 "help.text"
 msgid "<ahelp hid=\".\">Specifies the maximum number of characters for a string.</ahelp>"
 msgstr "<ahelp hid=\".\">Especifica el nombre màxim de caràcters per a una cadena.</ahelp>"
+
+#~ msgctxt ""
+#~ "06040100.xhp\n"
+#~ "par_id3156299\n"
+#~ "help.text"
+#~ msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Replaces the custom paragraph styles in the current document with the \"Default\", the \"Text Body\", or the \"Text Body Indent\" paragraph style.</caseinline></switchinline>"
+#~ msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Reemplaça els estils de paràgraf personalitzats del document actual amb els estils de paràgraf \"Per defecte\", \"Cos del text\" o \"Sagnat del cos del text\".</caseinline></switchinline>"
+
+#~ msgctxt ""
+#~ "06040100.xhp\n"
+#~ "par_id3150420\n"
+#~ "help.text"
+#~ msgid "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Converts paragraphs that start with a hyphen (-), a plus sign (+), or an asterisk (*) directly followed by a space or a tab, to bulleted lists. This option only works on paragraphs that are formatted with the \"Default\", \"Text Body\", or \"Text Body Indent\" paragraph styles. To change the bullet style that is used, select this option, and then click <emph>Edit</emph>.</caseinline></switchinline>"
+#~ msgstr "<switchinline select=\"appl\"><caseinline select=\"WRITER\">Converteix en llistes numerades els paràgrafs que comencen amb un guionet (-), un signe de més (+) o un asterisc (*), seguits directament per un espai o un tabulador. Esta opció només funciona en els paràgrafs formatats amb els estils de paràgraf \"Per defecte\", \"Cos del text\" o \"Sagnat del cos del text\". Per canviar l'estil de pic utilitzat, seleccioneu esta opció i feu clic a <emph>Edita</emph>.</caseinline></switchinline>"
+
+#~ msgctxt ""
+#~ "06050500.xhp\n"
+#~ "hd_id3159201\n"
+#~ "help.text"
+#~ msgid "Numbering"
+#~ msgstr "Numeració"
+
+#~ msgctxt ""
+#~ "06050500.xhp\n"
+#~ "par_id3145746\n"
+#~ "help.text"
+#~ msgid "The availability of the following fields depends on the style that you select in the <emph>Numbering </emph>box."
+#~ msgstr "La disponibilitat dels camps següents dependrà de l'estil que hàgeu seleccionat en el quadre <emph>Numeració</emph>."
+
+#~ msgctxt ""
+#~ "06050500.xhp\n"
+#~ "hd_id3149934\n"
+#~ "help.text"
+#~ msgid "Select..."
+#~ msgstr "Selecciona..."
 
 #~ msgctxt ""
 #~ "06010000.xhp\n"
