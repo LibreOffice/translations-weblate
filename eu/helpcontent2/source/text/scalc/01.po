@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-01-30 15:37+0100\n"
-"PO-Revision-Date: 2021-01-23 17:36+0000\n"
+"PO-Revision-Date: 2021-02-01 16:24+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/eu/>\n"
 "Language: eu\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.4\n"
 "X-POOTLE-MTIME: 1563601210.000000\n"
 
 #. sZfWF
@@ -10211,7 +10211,7 @@ msgctxt ""
 "par_id3154558\n"
 "help.text"
 msgid "IF(Test [; [ThenValue] [; [OtherwiseValue]]])"
-msgstr ""
+msgstr "IF(Proba [; [OrduanBalioa] [; [BestelaBalioa]]])"
 
 #. JnjcT
 #: 04060105.xhp
@@ -10247,7 +10247,7 @@ msgctxt ""
 "par_id3150867\n"
 "help.text"
 msgid "<input>=IF(A1>5;100;\"too small\")</input> If the value in <literal>A1</literal> is greater than <literal>5</literal>, the value <literal>100</literal> is returned; otherwise, the text <literal>too small</literal> is returned."
-msgstr ""
+msgstr "<input>=IF(A1>5;100;\"txikiegia\")</input> <literal>A1</literal> gelaxkako balioa <literal>5</literal> baino handiagoa bada, <literal>100</literal> balioa itzuliko da; bestela, <literal>txikiegia</literal> testua itzuliko da."
 
 #. jvk3H
 #: 04060105.xhp
@@ -10256,7 +10256,7 @@ msgctxt ""
 "par_id71607569817532\n"
 "help.text"
 msgid "<input>=IF(A1>5;;\"too small\")</input> If the value in <literal>A1</literal> is greater than <literal>5</literal>, the value <literal>0</literal> is returned because empty parameters are considered to be <literal>0</literal>; otherwise, the text <literal>too small</literal> is returned."
-msgstr ""
+msgstr "<input>=IF(A1>5;;\"txikiegia\")</input> <literal>A1</literal> gelaxkako balioa <literal>5</literal> baino handiagoa bada, <literal>0</literal> balioa itzuliko da, parametro hutsak <literal>0</literal> direla kontsideratzen baita; bestela, <literal>txikiegia</literal> testua itzuliko da."
 
 #. Q6yTs
 #: 04060105.xhp
@@ -10265,7 +10265,7 @@ msgctxt ""
 "par_id11607570458867\n"
 "help.text"
 msgid "<input>=IF(A1>5;100;)</input> If the value in <literal>A1</literal> is less than <literal>5</literal>, the value <literal>0</literal> is returned because the empty <emph>OtherwiseValue</emph> is interpreted as <literal>0</literal>; otherwise <literal>100</literal> is returned."
-msgstr ""
+msgstr "<input>=IF(A1>5;100;)</input> <literal>A1</literal> gelaxkako balioa <literal>5</literal> baino txikiagoa bada, <literal>0</literal> balioa itzuliko da, <emph>BestelaBalioa</emph> balio hutsa <literal>0</literal> dela kontsideratzen baita; bestela, <literal>100</literal> itzuliko da."
 
 #. BKYkX
 #: 04060105.xhp
@@ -19535,7 +19535,7 @@ msgctxt ""
 "par_id7928708\n"
 "help.text"
 msgid "If no constraint for a filter is given, the field's selected value is implicitly used. If a constraint for a filter is given, it must match the field's selected value, or an error is returned. Filters are the fields at the top left of a pivot table, populated using the \"Filters\" area of the pivot table layout dialog. From each filter, an item (value) can be selected, which means only that item is included in the calculation."
-msgstr ""
+msgstr "Iragazki baterako murriztapenik ematen ez bada, eremuan hautatutako balioa erabiliko da. Iragazki baterako murriztapen bat ematen bada, eremuan hautatutako balioarekin bat etorri behar du, bestela errorea itzuliko da. Iragazkiak taula dinamikoaren goian ezkerrean dauden eremuak dira, taula dinamikoaren diseinu-koadroko \"Iragazkiak\" area erabilita betetzen direnak. Iragazki bakoitzerako, elementu (balio) bat hautatu daiteke, alegia, elementu hori besterik ez da sartuko kalkuluan."
 
 #. nARMD
 #: 04060109.xhp
@@ -46283,7 +46283,7 @@ msgctxt ""
 "par_id991609782427459\n"
 "help.text"
 msgid "Data Bar"
-msgstr ""
+msgstr "Datu-barra"
 
 #. xapwr
 #: 05120000.xhp
@@ -46301,16 +46301,17 @@ msgctxt ""
 "par_id931609781970981\n"
 "help.text"
 msgid "The calculation of the area of fill is based on Min - Max - Percentile - Value - Percent - Formula."
-msgstr ""
+msgstr "Betegarriaren arearen kalkulua honetan oinarritzen da: 'Min' - 'Max' - 'Pertzentila' - 'Balioa' - 'Ehunekoa' - 'Formula'."
 
 #. smxFL
 #: 05120000.xhp
+#, fuzzy
 msgctxt ""
 "05120000.xhp\n"
 "par_id981609782003841\n"
 "help.text"
 msgid "The choices Min and Max are sufficient to themselves as found in the range. Other options need to be specified by a value (Percentile, Value, Percentage) or a cell reference or formula (Formula)."
-msgstr ""
+msgstr "'Min' eta 'Max' aukerak aski dira barrutian balioa aurkitzeko. Beste aukerak balio baten bidez ('Pertzentila', 'Balioa', 'Ehunekoa') edo gelaxka-erreferentzia edo formula baten bidez ('Formula') zehaztu behar dira."
 
 #. qBVjM
 #: 05120000.xhp
@@ -46319,7 +46320,7 @@ msgctxt ""
 "par_id281609781729359\n"
 "help.text"
 msgid "<emph>More Options...</emph> opens a dialog to:"
-msgstr ""
+msgstr "<emph>Aukera gehiago...</emph> aukerak elkarrizketa-koadro bat irekitzen du:"
 
 #. saDJA
 #: 05120000.xhp
@@ -46328,7 +46329,7 @@ msgctxt ""
 "par_id271609781812913\n"
 "help.text"
 msgid "change colors"
-msgstr ""
+msgstr "koloreak aldatzeko"
 
 #. uncF8
 #: 05120000.xhp
@@ -46337,7 +46338,7 @@ msgctxt ""
 "par_id921609781838551\n"
 "help.text"
 msgid "change position of vertical axis within the cell"
-msgstr ""
+msgstr "gelaxkaren barruko ardatz bertikalaren kokagunea aldatzeko"
 
 #. wJNxE
 #: 05120000.xhp
@@ -46346,7 +46347,7 @@ msgctxt ""
 "par_id631609781859971\n"
 "help.text"
 msgid "the bar's minimum and maximum length in percentage"
-msgstr ""
+msgstr "barraren gutxieneko eta gehieneko luzera ehunekoetan"
 
 #. de4nk
 #: 05120000.xhp
@@ -48587,16 +48588,17 @@ msgctxt ""
 "hd_id3146976\n"
 "help.text"
 msgid "Case sensitive"
-msgstr ""
+msgstr "Maiuskula/minuskula"
 
 #. CF7yB
 #: 12030200.xhp
+#, fuzzy
 msgctxt ""
 "12030200.xhp\n"
 "par_id3153091\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\">Sorts first by uppercase letters and then by lowercase letters. For Asian languages, special handling applies.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\"> Lehendabizi maiuskulen arabera ordenatzen du eta ondoren minuskulen arabera. Hizkuntza asiarrentzat erabilera berezia aplikatzen da.</ahelp>"
 
 #. QbcU3
 #: 12030200.xhp
@@ -48605,7 +48607,7 @@ msgctxt ""
 "par_idN10637\n"
 "help.text"
 msgid "For Asian languages: Check <emph>Case Sensitive</emph> to apply multi-level collation. With multi-level collation, entries are first compared in their primitive forms with their cases and diacritics ignored. If they evaluate as the same, their diacritics are taken into account for the second-level comparison. If they still evaluate as the same, their cases, character widths, and Japanese Kana difference are considered for the third-level comparison."
-msgstr ""
+msgstr "Asiako hizkuntzetan, egiaztatu <emph>Maiuskula/minuskula</emph> maila anitzeko konparazioa erabiltzeko. Maila anitzeko konparazioan, sarreren maiuskula/minuskulei eta diakritikoei ez zaie jaramonik egiten, eta sarreren jatorrizko formak bakarrik konparatzen dira.  Ebaluazioaren arabera berdinak badira, diakritikoak kontuan hartuko zaizkie bigarren mailako konparazioan. Formak oraindik ere berdinak badira, formen maiuskulak eta minuskulak, karaktere-zabalera eta japonierako kana hartuko dira kontuan hirugarren mailako konparazioan."
 
 #. Z5MKw
 #: 12030200.xhp
@@ -48614,7 +48616,7 @@ msgctxt ""
 "hd_id3155856\n"
 "help.text"
 msgid "Range contains row/column labels"
-msgstr ""
+msgstr "Barrutiak errenkaden/zutabeen etiketak ditu"
 
 #. dHpeV
 #: 12030200.xhp
@@ -48668,7 +48670,7 @@ msgctxt ""
 "hd_id71610757096466\n"
 "help.text"
 msgid "Include boundary column(s)/row(s) containing only comments"
-msgstr ""
+msgstr "Sartu iruzkinak soilik ditu(zt)en muga-zutabea(k)/-errenkada(k)"
 
 #. AKcgf
 #: 12030200.xhp
@@ -48686,7 +48688,7 @@ msgctxt ""
 "hd_id161610757296697\n"
 "help.text"
 msgid "Include boundary column(s)/row(s) containing only images"
-msgstr ""
+msgstr "Sartu irudiak soilik ditu(zt)en muga-zutabea(k)/-errenkada(k)"
 
 #. QCvRo
 #: 12030200.xhp
@@ -48722,7 +48724,7 @@ msgctxt ""
 "hd_id3153418\n"
 "help.text"
 msgid "Sort results (named ranges list)"
-msgstr ""
+msgstr "Ordenatzearen emaitzak (izendun barrutien zerrenda)"
 
 #. JGhWC
 #: 12030200.xhp
@@ -48740,7 +48742,7 @@ msgctxt ""
 "hd_id3153707\n"
 "help.text"
 msgid "Sort results (input box)"
-msgstr ""
+msgstr "Ordenatzearen emaitzak (sarrera-koadroa)"
 
 #. BDJEH
 #: 12030200.xhp
@@ -48776,7 +48778,7 @@ msgctxt ""
 "hd_id3154704\n"
 "help.text"
 msgid "Custom sort order list"
-msgstr ""
+msgstr "Ordenatze-hurrenkeraren zerrenda pertsonalizatua"
 
 #. hQE6m
 #: 12030200.xhp
@@ -51701,7 +51703,7 @@ msgctxt ""
 "par_idN106F7\n"
 "help.text"
 msgid "<ahelp hid=\".\">Opens the <link href=\"text/scalc/01/12090106.xhp\">Data Field Options</link> dialog. The <emph>Options</emph> button is visible for filters and column or row fields only.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\"> <link href=\"text/scalc/01/12090106.xhp\">Datu-eremuen aukerak</link> elkarrizketa-koadroa irekitzen du. <emph>Aukerak</emph> botoia iragazkien eta zutabeen edo errenkaden eremuentzat soilik egongo da ikusgai.</ahelp>"
 
 #. pTDtv
 #: 12090105.xhp
@@ -52754,7 +52756,7 @@ msgctxt ""
 "par_id3147434\n"
 "help.text"
 msgid "Whole numbers"
-msgstr ""
+msgstr "Zenbaki osoak"
 
 #. dT2EE
 #: 12120100.xhp
@@ -52889,7 +52891,7 @@ msgctxt ""
 "par_id551607384650484\n"
 "help.text"
 msgid "Custom"
-msgstr ""
+msgstr "Pertsonalizatua"
 
 #. Eejrc
 #: 12120100.xhp
