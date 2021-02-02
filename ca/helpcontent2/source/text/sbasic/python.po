@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-07-11 18:38+0200\n"
-"PO-Revision-Date: 2021-02-01 14:36+0000\n"
+"PO-Revision-Date: 2021-02-02 15:36+0000\n"
 "Last-Translator: Jaumej <jaume.jorba@gmail.com>\n"
 "Language-Team: Catalan <https://translations.documentfoundation.org/projects/libo_help-6-3/textsbasicpython/ca/>\n"
 "Language: ca\n"
@@ -738,7 +738,6 @@ msgstr "Amb el %PRODUCTNAME Basic"
 
 #. KjotC
 #: python_document_events.xhp
-#, fuzzy
 msgctxt ""
 "python_document_events.xhp\n"
 "N0750\n"
@@ -1167,7 +1166,7 @@ msgctxt ""
 "N0580\n"
 "help.text"
 msgid "Refer to <link href=\"text/sbasic/python/python_listener.xhp\">Creating a Python Listener</link> for examples of event-driven macros."
-msgstr ""
+msgstr "Consulteu <link href=\"text/sbasic/python/pythonlistener.xhp\">Crea un oient Python</link>  per a exemples de macros orientades a esdeveniments."
 
 #. 9BBze
 #: python_listener.xhp
@@ -1176,7 +1175,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Python Listeners : Creating Event Listeners"
-msgstr ""
+msgstr "Oients Python: Crea oients d'esdeveniments"
 
 #. ouQd3
 #: python_listener.xhp
@@ -1185,7 +1184,7 @@ msgctxt ""
 "N0385\n"
 "help.text"
 msgid "<bookmark_value>Python;Event Listener</bookmark_value>         <bookmark_value>Python;createUnoListener</bookmark_value>         <bookmark_value>Basic;Event Listener</bookmark_value>         <bookmark_value>API;ActionEvent</bookmark_value>         <bookmark_value>API;DialogProvider</bookmark_value>         <bookmark_value>API;EventObject</bookmark_value>         <bookmark_value>API;ExecutableDialogResults</bookmark_value>         <bookmark_value>API;XActionListener</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Python;Oient d'esdeveniments</bookmark_value>         <bookmark_value>Python;createUnoListener</bookmark_value>         <bookmark_value>Basic;Oient d'esdeveniments</bookmark_value>         <bookmark_value>API;ActionEvent</bookmark_value>         <bookmark_value>API;DialogProvider</bookmark_value>         <bookmark_value>API;EventObject</bookmark_value>         <bookmark_value>API;ExecutableDialogResults</bookmark_value>         <bookmark_value>API;XActionListener</bookmark_value>"
 
 #. Pjc9z
 #: python_listener.xhp
@@ -1194,7 +1193,7 @@ msgctxt ""
 "N0386\n"
 "help.text"
 msgid "<variable id=\"pythonlistener\"><link href=\"text/sbasic/python/python_listener.xhp\" name=\"python listeners\">Creating Event Listeners</link></variable>"
-msgstr ""
+msgstr "<variable id=\"pythonlistener\"><link href=\"text/sbasic/python/python_listener.xhp\" name=\"python listeners\">Crea oients d'esdeveniments</link></variable>"
 
 #. DGgrp
 #: python_listener.xhp
@@ -1203,7 +1202,7 @@ msgctxt ""
 "N0387\n"
 "help.text"
 msgid "Events raised by dialogs, documents, forms or graphical controls can be linked to macros, which is referred to as event-driven programming. The most common method to relate events to macros are the <literal>Events</literal> tab in <menuitem>Tools – Customize</menuitem> menu and the <link href=\"text/sbasic/guide/create_dialog.xhp\" name=\"Create dialog\">Dialog Editor</link> Control properties pane from <menuitem>Tools - Macros – Organise Dialogs...</menuitem> menu."
-msgstr ""
+msgstr "Els esdeveniments emesos pels diàlegs, documents, formularis o controls,  es poden enllaçar a macros,  el que es coneix com a programació orientada a esdeveniments. El mètode més comú per a relacionar esdeveniments amb macros és la pestanya <literal>Esdeveniments</literal>Eines - Personalitza el menú</menuitem> i el panell de control de propietats de l'<link href=\"text/sbasic/guide/create_dialog.xhp\" name=\"Crea un diàleg\">Editor de  diàlegs</link> des del menú <menuitem>Eines - Macros - Organitza els diàlegs... </menuitem>."
 
 #. DmmbY
 #: python_listener.xhp
@@ -1221,7 +1220,7 @@ msgctxt ""
 "N0389\n"
 "help.text"
 msgid "Creating an event listener"
-msgstr ""
+msgstr "Crea un oient d'esdeveniments"
 
 #. knF23
 #: python_listener.xhp
@@ -1230,7 +1229,7 @@ msgctxt ""
 "N0390\n"
 "help.text"
 msgid "Listeners get attached to controls held in dialogs, as well as to document or form events. Listeners are also used when creating runtime dialogs or when adding controls to a dialog on the fly."
-msgstr ""
+msgstr "Els oients s'adjunten als controls mantinguts en diàlegs, així com als esdeveniments de documentar o formularis. Els oients també s'utilitzen quan es creen diàlegs en temps d'execució o quan s'afegeixen controls a un diàleg al vol."
 
 #. DwE8A
 #: python_listener.xhp
@@ -1239,7 +1238,7 @@ msgctxt ""
 "N0391\n"
 "help.text"
 msgid "This example creates a listener for <literal>Button1</literal> control of <literal>Dialog1</literal> dialog in <literal>Standard</literal> library."
-msgstr ""
+msgstr "Aquest exemple crea un oient per al control <literal>Botó1</literal> del diàleg <literal>Diàleg1</literal> a la biblioteca <literal>Standard</literal>."
 
 #. Wsp8E
 #: python_listener.xhp
@@ -1257,7 +1256,7 @@ msgctxt ""
 "N0405\n"
 "help.text"
 msgid "_MY_LABEL = 'Python listens..'"
-msgstr ""
+msgstr "_MYLABEL = 'Oient Python'..'"
 
 #. UJrnb
 #: python_listener.xhp
@@ -1266,7 +1265,7 @@ msgctxt ""
 "N0417\n"
 "help.text"
 msgid "MsgBox(\"The user acknowledged the dialog.\")"
-msgstr ""
+msgstr "MsgBox(\"L'usuari ha reconegut el diàleg.\")"
 
 #. XVRK7
 #: python_listener.xhp
@@ -1275,7 +1274,7 @@ msgctxt ""
 "N0419\n"
 "help.text"
 msgid "MsgBox(\"The user canceled the dialog.\")"
-msgstr ""
+msgstr "MsgBox(\"L'usuari ha cancel·lat el diàleg.\")"
 
 #. FUuHB
 #: python_listener.xhp
@@ -1284,7 +1283,7 @@ msgctxt ""
 "N0424\n"
 "help.text"
 msgid "\"\"\" Create a Dialog from its location \"\"\""
-msgstr ""
+msgstr "\"\"\" Crea un diàleg des de la seva ubicació \"\"\""
 
 #. NeZcJ
 #: python_listener.xhp
@@ -1302,7 +1301,7 @@ msgctxt ""
 "N0448\n"
 "help.text"
 msgid "def disposing(self, evt: EventObject):  # mandatory routine"
-msgstr ""
+msgstr "def disposing(self, evt: EventObject): # rutina obligatòria"
 
 #. 9mtTR
 #: python_listener.xhp
@@ -1311,7 +1310,7 @@ msgctxt ""
 "N0457\n"
 "help.text"
 msgid "<emph>msgbox.py</emph> in <emph>{installation}/program/</emph> directory has some examples of button listeners."
-msgstr ""
+msgstr "<emph>msgbox.py</emph> al directori <emph>{instal·lació}/programa/</emph> hi ha alguns exemples d'oients de botons."
 
 #. MgUyV
 #: python_listener.xhp
@@ -1329,7 +1328,7 @@ msgctxt ""
 "N0459d\n"
 "help.text"
 msgid "Const MY_LABEL = \"Basic listens..\""
-msgstr ""
+msgstr "Const MY_LABEL = \"Oients bàsics.\""
 
 #. eJe7e
 #: python_listener.xhp
@@ -1338,7 +1337,7 @@ msgctxt ""
 "N0478\n"
 "help.text"
 msgid "Case rc.OK : MsgBox \"The user acknowledged the dialog.\",, \"Basic\""
-msgstr ""
+msgstr "Cas rc.OK: MsgBox \"L'usuari ha reconegut el diàleg.\",, \"Basic\""
 
 #. KVrqd
 #: python_listener.xhp
@@ -1347,7 +1346,7 @@ msgctxt ""
 "N0479\n"
 "help.text"
 msgid "Case rc.CANCEL : MsgBox \"The user canceled the dialog.\",, \"Basic\""
-msgstr ""
+msgstr "Cas rc.CANCEL MsgBox \"L'usuari ha cancel·lat el diàleg.\",, \"Basic\""
 
 #. 9AeGf
 #: python_listener.xhp
@@ -1374,7 +1373,7 @@ msgctxt ""
 "N0498\n"
 "help.text"
 msgid "Other Event Listeners"
-msgstr ""
+msgstr "Altres oients d'esdeveniments"
 
 #. HsXBE
 #: python_listener.xhp
