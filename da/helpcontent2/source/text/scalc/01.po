@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-11-20 15:33+0100\n"
-"PO-Revision-Date: 2021-02-06 09:36+0000\n"
+"PO-Revision-Date: 2021-02-07 10:36+0000\n"
 "Last-Translator: SteenRønnow <steen.roennow@mail.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-7-1/textscalc01/da/>\n"
 "Language: da\n"
@@ -16349,7 +16349,7 @@ msgctxt ""
 "par_id3152839\n"
 "help.text"
 msgid "LINEST(data_Y [; data_X [; linearType [; stats]]])"
-msgstr "LINREGR(data_Y [; data_X [; Lineær_type [; Statistik]]])"
+msgstr "LINREGR( Data Y [;  Data X [; Lineær type [; Statistik]]])"
 
 #. M2QFp
 #: 04060107.xhp
@@ -16817,7 +16817,7 @@ msgctxt ""
 "par_id3163123\n"
 "help.text"
 msgid "LOGEST(DataY [; DataX [; FunctionType [; Stats]]])"
-msgstr "LINREGR(data_Y [; data_X [; Lineær_type [; Statistik]]])"
+msgstr "LOGREGR( Data Y [; Data X [; Funktionstype [; Statistik]]])"
 
 #. 8jgzC
 #: 04060107.xhp
@@ -16898,7 +16898,7 @@ msgctxt ""
 "par_id3163347\n"
 "help.text"
 msgid "SUMPRODUCT(Array 1[; Array 2;][...;[Array 255]])"
-msgstr "SUMPRODUKT(Matrix 1[; Matrix 2;][...;[Matrix 255]])"
+msgstr "SUMPRODUKT(Matrix_ 1[; Matrix_ 2;][...;[Matrix_255]])"
 
 #. gGK9K
 #: 04060107.xhp
@@ -16907,7 +16907,7 @@ msgctxt ""
 "par_id3163362\n"
 "help.text"
 msgid "<emph>Array 1[; Array 2;][...;[Array 255]]</emph> represent arrays whose corresponding elements are to be multiplied."
-msgstr "<emph>Matrix 1[; Matrix 2;][...;[Matrix 255]]</emph> repræsenterer matrixer, hvis tilsvarende elementer skal multipliceres."
+msgstr "<emph>Matrix_ 1[; Matrix_ 2;][...;[Matrix_ 255]]</emph> repræsenterer matrixer, hvis tilsvarende elementer skal multipliceres."
 
 #. kCud6
 #: 04060107.xhp
@@ -16916,7 +16916,7 @@ msgctxt ""
 "par_idN11B19\n"
 "help.text"
 msgid "At least one array must be part of the argument list. If only one array is given, all array elements are summed. If more than one array is given, they must all be the same size."
-msgstr "I det mindste et matrix skal være en del af argumentlisten. Hvis der kun gives et matrix, bliver alle matrixelementer regnet sammen. Hvis der gives mere end et matrix skal de alle have samme størrelse."
+msgstr "I det mindste et matrix skal være en del af argumentlisten. Hvis kun et matrix er givet, lægges alle matrix-elementer sammen. Hvis der er givet mere end et matrix, skal de alle være af samme størrelse."
 
 #. DgsMB
 #: 04060107.xhp
@@ -17159,7 +17159,7 @@ msgctxt ""
 "par_id3166122\n"
 "help.text"
 msgid "TREND(DataY [; DataX [; NewDataX [; LinearType]]])"
-msgstr "TENDENS(Data_Y [; Data_X [; Nye_Data_X [; Lineærtype]]])"
+msgstr "TENDENS(Data Y [; Data X [; Nye_Data X [; Lineær type]]])"
 
 #. qeK4r
 #: 04060107.xhp
@@ -17510,7 +17510,7 @@ msgctxt ""
 "par_id3154707\n"
 "help.text"
 msgid "ADDRESS(Row; Column [; Abs [; A1 [; \"Sheet\"]]])"
-msgstr "ADRESSE(Række; Kolonne [; Abs [; A1 [; \"Ark\"]]])"
+msgstr "ADRESSE( Række; Kolonne [; ABS [; A1 [; \"Ark\"]]])"
 
 #. FyoLc
 #: 04060109.xhp
@@ -17726,7 +17726,7 @@ msgctxt ""
 "par_id3148886\n"
 "help.text"
 msgid "DDE(\"Server\"; \"File\"; \"Range\" [; Mode])"
-msgstr "DDE(\"Server\"; \"Emne/fil\"; \"Element/område\" [; Tilstand])"
+msgstr "DDE( \"Server\"; \"Emne/fil\"; \"Element/område\" [; Tilstand])"
 
 #. qAN6x
 #: 04060109.xhp
@@ -18347,7 +18347,7 @@ msgctxt ""
 "par_id3150156\n"
 "help.text"
 msgid "=VLOOKUP(SearchCriterion; Array; Index [; SortedRangeLookup])"
-msgstr "=LOPSLAG(Søgekriterie; Matrix; Indeks [; Sorteret_område_opslag])"
+msgstr "=LOPSLAG( Opslagsværdi; Matrix; Indeks [; Sorteret områdeopslag])"
 
 #. 7FsgG
 #: 04060109.xhp
@@ -18383,7 +18383,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than SearchCriterion. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr "<emph>Sorteringsrækkefølge</emph> er en valgfri parameter, der viser om den første kolonne i matricen indeholder områdegrænser i stedet for almindelige tal. I denne tilstand returnerer opslaget den værdi i rækken, hvor første kolonne har en værdi, der er lig med eller mindre end Opslagsværdien. For eksempel kunne den indeholde datoer, hvor en vis skatteværdi er blevet ændret og sådan repræsenterer værdierne begyndelsesdatoen i perioder, hvor en specifik skatteværdi var gældende. På den måde vil søgning efter dato, der mangler i den første matricekolonne, men falder mellem nogle eksisterende grænsedatoer, så du kan finde de data, der var gældende på den søgte dato. Indtast den Boolske værdi FALSK eller nul, hvis den første kolonne ikke er en liste over områdegrænser. Når denne parameter er SAND eller ikke angivet, gælder det, at den første kolonne i matricen <emph>skal sorteres i stigende rækkefølge</emph>. Sorterede kolonner kan gennemsøges meget hurtigere og funktionen returnerer altid en værdi, endda når opslagsværdien ikke blev matchet præcist, hvis den er større end den laveste værdi i den sorterede liste. I usorterede kolonner skal opslagsværdien matches præcist. Ellers vil funktionen returnere #N/A med beskeden: <emph>Fejl: Værdien ikke tilgængelig</emph>."
+msgstr "<emph>Sorteret områdeopslag</emph> er en valgfri parameter, der viser, om den første kolonne i matrixen indeholder områdegrænser i stedet for almindelige værdier. I denne tilstand, returnerer opslaget værdien i den række, hvis første kolonne har en værdi, der er lig med eller mindre end Søgekriteriet. Det kunne for eksempel indeholde datoer for ændring af nogle skattesatser, og på den måde repræsenterer værdierne begyndelsesdatoer i en periode, hvor en bestemt skattetekst var gældende. Derfor vil søgning efter en dato, som ikke findes i matricens første kolonne, men falder mellem nogle eksisterende grænsedatoer, returnere den laveste, og gøre det muligt at finde de data, der var gældende på den søgte dato. Indtast Bool-værdien FALSK eller nul, hvis den første kolonne ikke er en liste over områdegrænser. Når denne parameter er SAND eller ikke givet, <emph>skal</emph> den første kolonne i matricen <emph>være sorteret i stigende orden.</emph> Sorterede kolonner kan gennemsøges hurtigere og funktionen returnerer altid en værdi, selv hvis søgningen ikke matchede præcist, hvis den er større end den laveste værdi i den sorterede liste. I usorterede lister skal søgeværdien matche præcist. Ellers vil funktionen returnere #N/A med beskeden: <emph>Fejl: Værdi ikke tilgængelig</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -18779,7 +18779,7 @@ msgctxt ""
 "par_id3153740\n"
 "help.text"
 msgid "If <emph>Width</emph> or <emph>Height</emph> are given, the OFFSET function returns a cell range reference. If <emph>Reference</emph> is a single cell reference and both <emph>Width</emph> and <emph>Height</emph> are omitted, a single cell reference is returned."
-msgstr "Hvis <emph>Bredde</emph> eller <emph>Højde</emph> er givet, returnerer fuktionen OFFSET en celleområde-reference. Hvis <emph>Reference</emph> er reference til en enkelt celle og både <emph>Bredde</emph> og <emph>Højde</emph> udelades, reuturneres en reference til en enkelt celle."
+msgstr "Hvis <emph>Bredde</emph> eller <emph>Højde</emph> er givet, returnerer funktionen FORSKYDNING en celleområde-reference . Hvis <emph>Reference</emph> er en enkeltcelle-reference og både <emph>Bredde</emph> og <emph>Højde</emph> er udeladt, returneres en enkeltcelle-reference ."
 
 #. AFMxC
 #: 04060109.xhp
@@ -18824,7 +18824,7 @@ msgctxt ""
 "par_id3154104\n"
 "help.text"
 msgid "LOOKUP(SearchCriterion; SearchVector [; ResultVector])"
-msgstr "SLÅ.OP(Søgekriterie; Søgevektor [; Resultatvektor])"
+msgstr "SLÅ.OP( Opslagsværdi; Opslagsvektor [; Resultatvektor])"
 
 #. QdiFz
 #: 04060109.xhp
@@ -18896,7 +18896,7 @@ msgctxt ""
 "par_id3149302\n"
 "help.text"
 msgid "STYLE(\"Style\" [; Time [; \"Style2\"]])"
-msgstr "TYPOGRAFI(\"Typografi\" [; Tid [; \"Typografi2\"]])"
+msgstr "TYPOGRAFI(\"Typografi\" [; Tid [; \"Typografi 2\"]])"
 
 #. Q8SMG
 #: 04060109.xhp
@@ -19058,7 +19058,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "HLOOKUP(SearchCriterion; Array; Index [; SortedRangeLookup])"
-msgstr "VOPSLAG(Opslagsværdi; Matrix; Indeks [; Sorteret])"
+msgstr "VOPSLAG(Søgekriterie; Matrix; Indeks [; Sorteret områdeopslag])"
 
 #. nhwwF
 #: 04060109.xhp
@@ -19067,7 +19067,7 @@ msgctxt ""
 "par_id3148672\n"
 "help.text"
 msgid "For an explanation on the parameters, see: <link href=\"text/scalc/01/04060109.xhp#Section9\" name=\"VLOOKUP\">VLOOKUP</link> (columns and rows are exchanged)"
-msgstr "En forklaring af parametrene finder du under <link href=\"text/scalc/01/04060109.xhp#Section9\" name=\"VLOOKUP\">LOPSLAG</link> (kolonner og rækker byttes om)"
+msgstr "En forklaring af parametrene finder du under <link href=\"text/scalc/01/04060109.xhp#Section9\" name=\"VLOOKUP\">LOPSLAG</link> (kolonner og rækker er byttet om)"
 
 #. B4DL3
 #: 04060109.xhp
@@ -19346,7 +19346,7 @@ msgctxt ""
 "par_id0907200912224534\n"
 "help.text"
 msgid "<item type=\"input\">=HYPERLINK(\"http://www.example.org\";12345)</item> displays the number 12345 and executes the hyperlink http://www.example.org when clicked."
-msgstr "<item type=\"input\">=HYPERLINK(\"http://www.example.org\";12345)</item> viser tallet 12345 og udfører hyperlink http://www.example.org, når der klikkes på det."
+msgstr "<item type=\"input\">=HYPERLINK(\"http://www.example.org\";12345)</item> viser tallet 12345 og udfører hyperlinket http://www.example.org, når der klikkes på cellen."
 
 #. GFCwJ
 #: 04060109.xhp
@@ -19427,7 +19427,7 @@ msgctxt ""
 "par_id1665089\n"
 "help.text"
 msgid "GETPIVOTDATA(TargetField; pivot table[; Field 1; Item 1][; ... [Field 126; Item 126]])"
-msgstr "GETPIVOTDATA(Målfelt; Pivottabel[; Felt 1; Element 1][; ... [Felt 126; Element 126]])"
+msgstr "GETPIVOTDATA( Datafelt;  Pivottabel[; Felt 1; Element 1][; ... [Felt 126; Element 126]])"
 
 #. 3kCjF
 #: 04060109.xhp
@@ -20408,7 +20408,7 @@ msgctxt ""
 "par_id3083452\n"
 "help.text"
 msgid "FIND(\"FindText\"; \"Text\" [; Position])"
-msgstr "FIND(\"Find_tekst\"; \"Tekst\" [; Position])"
+msgstr "FIND(\"Find tekst\"; \"Tekst\" [; Position])"
 
 #. 3HU9t
 #: 04060110.xhp
@@ -20480,7 +20480,7 @@ msgctxt ""
 "par_id3147567\n"
 "help.text"
 msgid "FIXED(Number; Decimals [; NoThousandsSeparators])"
-msgstr "FAST(Tal; Decimaler [; Ingen_tusindtalsskilletegn])"
+msgstr "FIXED( Tal; Decimaler [; Ingen_tusindtalsskilletegn])"
 
 #. 5cYW8
 #: 04060110.xhp
@@ -21443,7 +21443,7 @@ msgctxt ""
 "par_id3154344\n"
 "help.text"
 msgid "RIGHT(\"Text\" [; Number])"
-msgstr "HØJRE(\"Tekst\" [; Antal])"
+msgstr "HØJRE( \"Tekst\" [; Antal])"
 
 #. dveYp
 #: 04060110.xhp
@@ -21713,7 +21713,7 @@ msgctxt ""
 "par_id3154671\n"
 "help.text"
 msgid "SEARCH(\"FindText\"; \"Text\" [; Position])"
-msgstr "SØG(\"Find_tekst\"; \"Tekst\" [; Position])"
+msgstr "SØG( \"Find_tekst\"; \"Tekst\" [; Position])"
 
 #. yP57Q
 #: 04060110.xhp
@@ -21785,7 +21785,7 @@ msgctxt ""
 "par_id3147582\n"
 "help.text"
 msgid "SUBSTITUTE(\"Text\"; \"SearchText\"; \"NewText\" [; Occurrence])"
-msgstr "UDSKIFT(\"Tekst\"; \"Søgetekst\"; \"Ny_tekst\" [; Forekomst])"
+msgstr "UDSKIFT( \"Tekst\"; \"Søgetekst\"; \"Ny tekst\" [; Forekomst])"
 
 #. tydqc
 #: 04060110.xhp
@@ -21929,7 +21929,7 @@ msgctxt ""
 "par_id3147213\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_TEXT\">Converts a value into text according to a given format.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_TEXT\">Konverterer en værdi til tekst i henhold til et givet format.</ahelp>"
+msgstr "<ahelp hid=\"HID_FUNC_TEXT\">Konverterer en værdi til tekst i overensstemmelse med et givet format.</ahelp>"
 
 #. YjEZu
 #: 04060110.xhp
@@ -21947,7 +21947,7 @@ msgctxt ""
 "par_id3147389\n"
 "help.text"
 msgid "<emph>Value</emph> is the value (numerical or textual) to be converted."
-msgstr "<emph>Værdi</emph>er den værdi (numerisk eller tekstmæssigl), der skal konverteres."
+msgstr "<emph>Værdi</emph> er den værdi (numerisk eller tekstlig), der skal konverteres."
 
 #. 3GZvU
 #: 04060110.xhp
@@ -22883,7 +22883,7 @@ msgctxt ""
 "par_id3150361\n"
 "help.text"
 msgid "$[officename] Calc can be expanded by Add-Ins, which are external programming modules providing additional functions for working with spreadsheets. These are listed in the <emph>Function Wizard</emph> in the <emph>Add-In</emph> category. If you would like to program an Add-In yourself, you can learn here which functions must be exported by the <switchinline select=\"sys\"><caseinline select=\"UNIX\">shared library</caseinline><defaultinline>external DLL</defaultinline></switchinline> so that the Add-In can be successfully attached."
-msgstr "$[officename] Calc kan udvides med tilføjelsesprogrammer, som er eksterne programmoduler, der giver yderligere funktioner til arbejdet med regneark. Der er en liste over dem i <emph>Funktionsguiden</emph> under kategorien <emph>Tilføjelsesprogrammer</emph>. Hvis du har lyst til selv af programmere et tilføjelsesprogram, kan du her se, hvilke funktioner, der eksporteres med <switchinline select=\"sys\"><caseinline select=\"UNIX\">det delte bibliotek</caseinline><defaultinline>eksterne DLL</defaultinline></switchinline>, så tilføjelsen kan tilknyttes med succes."
+msgstr "$[officename] Calc kan udvides med Udvidelser, som er eksterne programmoduler, der giver ekstra funktioner til arbejdet med regneark. De er oplistet i <emph>Funktionsguiden</emph> i kategorien</emph>Udvidelser</emph>. Hvis du gerne selv vil programmere en udvidelse, kan her se de funktioner, der skal eksporteres fra det <switchinline select=\"sys\"><caseinline select=\"UNIX\">delte biblitotek</caseinline><defaultinline>eksterne DLL</defaultinline></switchinline>, så udvidelsen kan tilknyttes med succes."
 
 #. qyzrA
 #: 04060112.xhp
@@ -22892,7 +22892,7 @@ msgctxt ""
 "par_id3149211\n"
 "help.text"
 msgid "$[officename] searches the Add-in folder defined in the configuration for a suitable <switchinline select=\"sys\"><caseinline select=\"UNIX\">shared library</caseinline><defaultinline>DLL</defaultinline></switchinline>. To be recognized by $[officename], the <switchinline select=\"sys\"><caseinline select=\"UNIX\">shared library</caseinline><defaultinline>DLL</defaultinline></switchinline> must have certain properties, as explained in the following. This information allows you to program your own Add-In for <emph>Function Wizard</emph> of $[officename] Calc."
-msgstr "$[officename] gennemsøger Tilføjelses-mappen, der er defineret i konfigurationen, efter <switchinline select=\"sys\"><caseinline select=\"UNIX\">et passende delt bibliotek</caseinline><defaultinline>en passende DLL</defaultinline></switchinline>. For at blive genkendt af $[officename] skal <switchinline select=\"sys\"><caseinline select=\"UNIX\">et passende delt bibliotek</caseinline><defaultinline>en passende DLL</defaultinline></switchinline> have visse egenskaber, som forklaret herunder. Disse oplysninger tillader dig at programmere dit eget tilføjelsesprogram til $[officename] Calcs <emph>Funktionsguide</emph>."
+msgstr "$[officename] søger i den udvidelsesmappe, der konfigureret til et egnet <switchinline select=\"sys\"><caseinline select=\"UNIX\">delt bibliotek</caseinline><defaultinline>DLL</defaultinline></switchinline>. For at blive genkendt af $[officename] skal <switchinline select=\"sys\"><caseinline select=\"UNIX\">det delte bibliotek</caseinline><defaultinline>DLLet</defaultinline></switchinline> have visse egenskaber, som forklaret herunder. Disse oplysninger lader dig programmere din egen udvidelse til <emph>Funktionsguiden</emph> i $[officename] Calc."
 
 #. CAC5V
 #: 04060112.xhp
@@ -23117,7 +23117,7 @@ msgctxt ""
 "par_id3153019\n"
 "help.text"
 msgid "Following you will find a description of those functions, which are called at the <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library</caseinline><defaultinline>external DLL</defaultinline></switchinline>."
-msgstr "Herunder finder du en beskrivelse af de funktioner, som kaldes i <switchinline select=\"sys\"><caseinline select=\"UNIX\">Det delte bibliotek</caseinline><defaultinline>den eksterne DLL</defaultinline></switchinline>."
+msgstr "Herunder finder du en beskrivelse af de funktioner, som kaldes fra <switchinline select=\"sys\"><caseinline select=\"UNIX\">det delte bibliotek</caseinline><defaultinline>det eksterne DLL</defaultinline></switchinline>."
 
 #. kDo37
 #: 04060112.xhp
@@ -23126,7 +23126,7 @@ msgctxt ""
 "par_id3150038\n"
 "help.text"
 msgid "For all <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library</caseinline><defaultinline>DLL</defaultinline></switchinline> functions, the following applies:"
-msgstr "For alle <switchinline select=\"sys\"><caseinline select=\"UNIX\">Det delte biblioteks</caseinline><defaultinline>DLLs</defaultinline></switchinline> funktioner gælder følgende:"
+msgstr "For alle <switchinline select=\"sys\"><caseinline select=\"UNIX\">det delte biblioteks</caseinline><defaultinline>DLLs</defaultinline></switchinline> funktioner gælder dette:"
 
 #. QZ7q4
 #: 04060112.xhp
@@ -23135,7 +23135,7 @@ msgctxt ""
 "par_id3147616\n"
 "help.text"
 msgid "<emph>Output</emph>: Resulting value"
-msgstr "<emph>Uddata</emph>: Den resulterede værdi"
+msgstr "<emph>Output</emph>: Resulterende værdi"
 
 #. ErpXM
 #: 04060112.xhp
@@ -23144,7 +23144,7 @@ msgctxt ""
 "par_id3159119\n"
 "help.text"
 msgid "<emph>Input</emph>: Any number of types (double&, char*, double*, char**, Cell area), where the <link href=\"text/scalc/01/04060112.xhp\" name=\"Cell area\">Cell area</link> is an array of types double array, string array, or cell array."
-msgstr "<emph>Inddata</emph>: Et vilkårligt antal typer (double&, char*, double*, char**, celleområde), hvor <link href=\"text/scalc/01/04060112.xhp\" name=\"Cell area\">celleområde</link> er en matrice af typer: dobbeltmatrice, strengmatrice eller cellematrice."
+msgstr "<emph>Input</emph>: Ethvert antal typer (dobbelt&, tegn*, dobbelt*, tegn**, celleområde), hvor <link href=\"text/scalc/01/04060112.xhp\" name=\"Cell area\">cellearealet</link> er en matrice af typerne dobbelt matrice, streng-matrice eller celle-matrice."
 
 #. Hs7Du
 #: 04060112.xhp
@@ -23180,7 +23180,7 @@ msgctxt ""
 "par_id3149893\n"
 "help.text"
 msgid "<emph>Output</emph>: Reference to a variable, which is supposed to contain the number of Add-In functions. For example: If the Add-In provides 5 functions for $[officename] Calc, then nCount=5."
-msgstr "<emph>Uddata</emph>: Henvisning til en variabel, som antages af indeholde antallet af tilføjelsesfunktioner. Hvis tilføjelsen for eksempel stiller 5 funktioner til rådighed, er nCount=5."
+msgstr "<emph>Output</emph>: Henvisning til en variabel, som antages at indeholde antallet af Tilføjelses-funktioner. Hvis Tilføjelsen for eksempel giver $[officename] Calc 5 funktioner, så er nCount=5."
 
 #. MMvZL
 #: 04060112.xhp
@@ -23216,7 +23216,7 @@ msgctxt ""
 "par_id3149949\n"
 "help.text"
 msgid "<emph>Input</emph>: Function number between 0 and nCount-1, inclusively."
-msgstr "<emph>Inddata</emph>: Functionsnummer mellem 0 og nCount-1, begge medregnet."
+msgstr "<emph>Input</emph>: Funktionstal mellem 0 og nCount-1 begge medregnet."
 
 #. CSBYk
 #: 04060112.xhp
@@ -23225,7 +23225,7 @@ msgctxt ""
 "par_id3148579\n"
 "help.text"
 msgid "<emph>Output</emph>: Function name as seen by the programmer, as it is named in the <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library</caseinline><defaultinline>DLL</defaultinline></switchinline>. This name does not determine the name used in the <emph>Function Wizard</emph>."
-msgstr "<emph>Uddara</emph>: Funktionenavn som set af programmøren, som navngivet i <switchinline select=\"sys\"><caseinline select=\"UNIX\">Det delte bibliotek</caseinline><defaultinline>DLL</defaultinline></switchinline>. Dette navn bestemmer ikke det navn, der bruges i <emph>Funktionguiden</emph>."
+msgstr "<emph>Output</emph>: Funktionsnavnet som set af programmøren, som det er navngiver i <switchinline select=\"sys\"><caseinline select=\"UNIX\">det delte bibliorek</caseinline><defaultinline>DLLen</defaultinline></switchinline>. Dette navn bestemmer ikke det navn, der bruges i<emph>Funktionsguiden</emph>."
 
 #. 6yGps
 #: 04060112.xhp
@@ -23243,7 +23243,7 @@ msgctxt ""
 "par_id3148750\n"
 "help.text"
 msgid "<emph>Output</emph>: Pointer to an array of exactly 16 variables of type Paramtype. The first nParamCount entries are filled with the suitable type of parameter."
-msgstr "<emph>Uddata</emph>: Pointer til en matrice af præcis 15 variable af typen Paramtype. De første nParamCount elementer er udfyldt med den passende parametertype."
+msgstr "<emph>Output</emph>: Peger til en matrice med præcis 16 variabler af typen Paramtype. De første nParamCount elementer er udfyldt med den passende parametertype."
 
 #. YNrEv
 #: 04060112.xhp
@@ -23252,7 +23252,7 @@ msgctxt ""
 "par_id3155261\n"
 "help.text"
 msgid "<emph>Output</emph>: Function name as seen by the user, as it appears in the <emph>Function Wizard</emph>. May contain umlauts."
-msgstr "<emph>Output</emph>: Funktionsnavn som set af brugeren, som optræder i <emph>Funktionguiden</emph>. Må indeholde omlydstegn."
+msgstr "<emph>Output</emph>: funktionsnavn som set af brugeren og som det vises i <emph>Funktionsguiden</emph>. Kan indeholde omlyde (¨)."
 
 #. rcNLZ
 #: 04060112.xhp
@@ -23306,7 +23306,7 @@ msgctxt ""
 "par_id3149883\n"
 "help.text"
 msgid "<emph>Input</emph>: Number of the function in the library; between 0 and nCount-1."
-msgstr "<emph>Inddata</emph>: Funktionens nummer i biblioteket; mellem 0 og nCount-1."
+msgstr "<emph>Input</emph>: Funktionens nummer i biblioteket; mellem 0 og nCount-1."
 
 #. QHn87
 #: 04060112.xhp
@@ -23315,7 +23315,7 @@ msgctxt ""
 "par_id3159139\n"
 "help.text"
 msgid "<emph>Input</emph>: Indicates, for which parameter the description is provided; parameters start at 1. If nParam is 0, the description itself is supposed to be provided in pDesc; in this case, pName does not have any meaning."
-msgstr "<emph>Inddata</emph>: Viser, hvilken parameter beskrivelsen omhandler; nummereringen af parametre begynder med 1. Hvis nParam er 0, antages selve beskrivelsen at blive givet i pDesc; i dette tilfælde er navnet pName meningsløst."
+msgstr "<emph>Input</emph>: Viser til hvilken parameter, beskrivelsen er givet; parametre begynder med 1. Hvis nParam er 0, forventes selve beskrivelsen at blive givet i pDesc; i dette tilfælde har pName ingen mening."
 
 #. Eq6cW
 #: 04060112.xhp
@@ -23324,7 +23324,7 @@ msgctxt ""
 "par_id3145245\n"
 "help.text"
 msgid "<emph>Output</emph>: Takes up the parameter name or type, for example, the word \"Number\" or \"String\" or \"Date\", and so on. Implemented in $[officename] Calc as char[256]."
-msgstr "<emph>Uddata</emph>: Tager parameternavnet eller -typen op, for eksempel ordet \"Nummer\", \"Streng\" eller \"Dato\" også videre. I $[officename] Calc implementeret som  char[256]."
+msgstr "<emph>Output</emph>: Optager parameterens navn eller type, for eksempel ordet \"Nummer\", \"Streng\" eller \"Dato\" og så videre. Implementeret i $[officename] Calc som char[256]."
 
 #. yf6Eg
 #: 04060112.xhp
@@ -23333,7 +23333,7 @@ msgctxt ""
 "par_id3148389\n"
 "help.text"
 msgid "<emph>Output</emph>: Takes up the description of the parameter, for example, \"Value, at which the universe is to be calculated.\" Implemented in $[officename] Calc as char[256]."
-msgstr "<emph>uddata</emph>: Tager beskrivelsen af parameteren op, for eksempel \"Værdi ved hvilken universet skal beregnes.\" Implementeret i $[officename] Calc som char[256]."
+msgstr "<emph>Output</emph>: Optager beskrivelsen af parameteren, for eksemple, \"værdi, som universet skal beregnes med.\" Implementeret i $[officename] Calc som char[256]."
 
 #. 52p82
 #: 04060112.xhp
@@ -24296,7 +24296,7 @@ msgctxt ""
 "par_id961592361784406\n"
 "help.text"
 msgid "The Add-in functions are supplied by the <link href=\"text/sbasic/shared/calc_functions.xhp\" name=\"addinanalysis\">UNO <literal>com.sun.star.sheet.addin.Analysis</literal> service</link>."
-msgstr "Tilføjelsesfunktioner leveres af <link href=\"text/sbasic/shared/calc_functions.xhp\" name=\"addinanalysis\">UNO-tjenesten <literal>com.sun.star.sheet.addin.Analysis</literal></link>."
+msgstr "Tilføjelsesfunktionerne leveres af tjenesten <link href=\"text/sbasic/shared/calc_functions.xhp\" name=\"addinanalysis\">UNO <literal>com.sun.star.sheet.addin.Analysis</literal></link>."
 
 #. fCaeG
 #: 04060115.xhp
@@ -24809,7 +24809,7 @@ msgctxt ""
 "par_id3145247\n"
 "help.text"
 msgid "DELTA(Number1 [; Number2])"
-msgstr "DELTA(Tal_1 [; Tal_2])"
+msgstr "DELTA( Tal_1 [; Tal_2])"
 
 #. PEgQC
 #: 04060115.xhp
@@ -24854,7 +24854,7 @@ msgctxt ""
 "par_id3150569\n"
 "help.text"
 msgid "DEC2BIN(Number [; Places])"
-msgstr "DEC.TIL.BIN(Tal [; Cifre])"
+msgstr "DEC.TIL.BIN( Tal [; Cifre])"
 
 #. Y9mGB
 #: 04060115.xhp
@@ -24917,7 +24917,7 @@ msgctxt ""
 "par_id3147535\n"
 "help.text"
 msgid "DEC2HEX(Number [; Places])"
-msgstr "DEC.TIL.HEX(Tal [; Cifre])"
+msgstr "DEC.TIL.HEX( Tal [; Cifre])"
 
 #. SQafk
 #: 04060115.xhp
@@ -24980,7 +24980,7 @@ msgctxt ""
 "par_id3148427\n"
 "help.text"
 msgid "DEC2OCT(Number [; Places])"
-msgstr "DEC.TIL.OKT(Tal [; Cifre])"
+msgstr "DEC.TIL.OKT( Tal [; Cifre])"
 
 #. Fa6gd
 #: 04060115.xhp
@@ -25043,7 +25043,7 @@ msgctxt ""
 "par_id3163824\n"
 "help.text"
 msgid "ERF(LowerLimit [; UpperLimit])"
-msgstr "FEJLFUNK(Nedre_grænse [; Øvre_grænse])"
+msgstr "FEJLFUNK( Nedre_grænse [; Øvre_grænse])"
 
 #. TyCGk
 #: 04060115.xhp
@@ -25268,7 +25268,7 @@ msgctxt ""
 "par_id3145212\n"
 "help.text"
 msgid "GESTEP(Number [; Step])"
-msgstr "GETRIN(Tal [; Tærkelværdi])"
+msgstr "GETRIN( Tal [; Tærskelværdi])"
 
 #. QG8JU
 #: 04060115.xhp
@@ -25430,7 +25430,7 @@ msgctxt ""
 "par_id3151170\n"
 "help.text"
 msgid "HEX2OCT(Number [; Places])"
-msgstr "HEX.TIL.OKT(Tal [; Cifre])"
+msgstr "HEX.TIL.OKT( Tal [; Cifre])"
 
 #. 2Uff5
 #: 04060115.xhp
@@ -26222,7 +26222,7 @@ msgctxt ""
 "par_id3153215\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_IMSUM\">The result is the sum of a set of complex numbers.</ahelp>"
-msgstr "<ahelp hid=\"HID_AAI_FUNC_IMSUM\">Resultatet er summen af en række komplekse tal.</ahelp>"
+msgstr "<ahelp hid=\"HID_AAI_FUNC_IMSUM\">Resultatet er summen af et sæt komplekse tal.</ahelp>"
 
 #. dY4UY
 #: 04060116.xhp
@@ -26321,7 +26321,7 @@ msgctxt ""
 "par_id3155999\n"
 "help.text"
 msgid "COMPLEX(RealNum; INum [; Suffix])"
-msgstr "KOMPLEKS(Realdel; Imaginærdel [; Suffiks])"
+msgstr "KOMPLEKS( ½Realdel; Imaginærdel [; Suffiks])"
 
 #. FCxXC
 #: 04060116.xhp
@@ -27509,7 +27509,7 @@ msgctxt ""
 "par_id3146098\n"
 "help.text"
 msgid "ODDFPRICE(Settlement; Maturity; Issue; FirstCoupon; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr "ULIGE.KURS.PÅLYDENDE(Afregningsdato; Udløbsdato; Emission; Første_rentetermin; Rente; Afkast; Indløsning; Hyppighed[; Basis])"
+msgstr "ULIGE.KURS.PÅLYDENDE( Afregningsdato; Udløbsdato; Emission; Første_rentetermin; Rente; Afkast; Indfrielse; Hyppighed[; Basis])"
 
 #. kHZM8
 #: 04060118.xhp
@@ -27617,7 +27617,7 @@ msgctxt ""
 "par_id3152982\n"
 "help.text"
 msgid "ODDFYIELD(Settlement; Maturity; Issue; FirstCoupon; Rate; Price; Redemption; Frequency [; Basis])"
-msgstr "ULIGE.FØRSTE.AFKAST(Afregningsdato; Udløbsdato; Emission; Første_rentetermin; Rente; Købspris; Indløsning; Hyppighed [; Basis])"
+msgstr "ULIGE.FØRSTE.AFKAST( Afregningsdato; Udløbsdato; Emission; Første_rentetermin; Rente; Kurs; Indfrielse; Hyppighed [; Basis])"
 
 #. nJXTW
 #: 04060118.xhp
@@ -27725,7 +27725,7 @@ msgctxt ""
 "par_id3155262\n"
 "help.text"
 msgid "ODDLPRICE(Settlement; Maturity; LastInterest; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr "ULIGE.SIDSTE.KURSULIGE.SIDSTE.KURS(Afregningsdato; Udløbsdato; LastInterest; Rente; Afkast; Indløsning; Hyppighed[; Basis])"
+msgstr "ULIGE.SIDSTE.KURS( Afregningsdato; Udløbsdato; Sidste_rentetermin; Rente; Afkast; Indfrielse; Hyppighed[; Basis])"
 
 #. iTfu4
 #: 04060118.xhp
@@ -27851,7 +27851,7 @@ msgctxt ""
 "par_id3150018\n"
 "help.text"
 msgid "ODDLYIELD(Settlement; Maturity; LastInterest; Rate; Price; Redemption; Frequency [; Basis])"
-msgstr "ULIGE.SIDSTE.AFKAST(Afregningsdato; Udløbsdato; Sidste_rentetermin; Rente; Købspris; Indløsning; Hyppighed [; Basis])"
+msgstr "ULIGE.SIDSTE.AFKAST( Afregningsdato; Udløbsdato; Sidste_rentetermin; Rente; Kurs; Indfrielse; Hyppighed [; Basis])"
 
 #. 4X7wa
 #: 04060118.xhp
@@ -28103,7 +28103,7 @@ msgctxt ""
 "par_id3149826\n"
 "help.text"
 msgid "XIRR(Values; Dates [; Guess])"
-msgstr "INTERN.RENTE(Værdier; Tidspunkter[; Gisning])"
+msgstr "INTERN.RENTE( Værdier; Tidspunkter[; Gæt])"
 
 #. GoDCv
 #: 04060118.xhp
@@ -28526,7 +28526,7 @@ msgctxt ""
 "par_id3158423\n"
 "help.text"
 msgid "RATE(NPer; Pmt; PV [ ; [ FV ] [ ; [ Type ] [ ; Guess ] ] ])"
-msgstr "RENTE(NPER; Betaling; NV[ ; [ FV ] [ ; [ Type ] [ ; Gæt] ] ])"
+msgstr "RENTE(NPER; Ydelse; NV[ ; [ FV ] [ ; [ Type ] [ ; Gæt] ] ])"
 
 #. kkBfr
 #: 04060118.xhp
@@ -28724,7 +28724,7 @@ msgctxt ""
 "par_id3150423\n"
 "help.text"
 msgid "COUPNCD(Settlement; Maturity; Frequency [; Basis])"
-msgstr "KUPONDAG.NÆSTE(Afregningsdato; Udløbsdato; Hyppighed [; Basis])"
+msgstr "KUPONDAG.NÆSTE( Afregningsdato; Udløbsdato; Hyppighed [; Basis])"
 
 #. vGKDd
 #: 04060118.xhp
@@ -28805,7 +28805,7 @@ msgctxt ""
 "par_id3149585\n"
 "help.text"
 msgid "COUPDAYS(Settlement; Maturity; Frequency [; Basis])"
-msgstr "KUPONDAGE.A(Afregningsdato; Udløbsdato; Hyppighed [; Basis])"
+msgstr "KUPONDAGE.A( Afregningsdato; Udløbsdato; Hyppighed [; Basis])"
 
 #. UuJui
 #: 04060118.xhp
@@ -28967,7 +28967,7 @@ msgctxt ""
 "par_id3159083\n"
 "help.text"
 msgid "COUPDAYBS(Settlement; Maturity; Frequency [; Basis])"
-msgstr "KUPONDAGE.SA(Afregningsdato; Udløbsdato; Hyppighed [; Basis])"
+msgstr "KUPONDAGE.SA( Afregningsdato; Udløbsdato; Hyppighed [; Basis])"
 
 #. CH3ja
 #: 04060118.xhp
@@ -29048,7 +29048,7 @@ msgctxt ""
 "par_id3153790\n"
 "help.text"
 msgid "COUPPCD(Settlement; Maturity; Frequency [; Basis])"
-msgstr "KUPONDAG.FORRIGE(Afregningsdato; Udløbsdato; Hyppighed [; Basis])"
+msgstr "KUPONDAG.FORRIGE( Afregningsdato; Udløbsdato; Hyppighed [; Basis])"
 
 #. DCtJY
 #: 04060118.xhp
@@ -29129,7 +29129,7 @@ msgctxt ""
 "par_id3153200\n"
 "help.text"
 msgid "COUPNUM(Settlement; Maturity; Frequency [; Basis])"
-msgstr "KUPONBETALINGER(Afregningsdato; Udløbsdato; Hyppighed [; Basis])"
+msgstr "KUPONDAG.FORRIGE( Afregningsdato; Udløbsdato; Hyppighed [; Basis])"
 
 #. 7oq6X
 #: 04060118.xhp
@@ -29210,7 +29210,7 @@ msgctxt ""
 "par_id3151283\n"
 "help.text"
 msgid "IPMT(Rate; Period; NPer; PV [; FV [; Type]])"
-msgstr "R.YDELSE(RENTE; Periode; NPer; PV [; FV [; Type]])"
+msgstr "R.YDELSE( Rente; Periode; NPer; PV [; FV [; Type]])"
 
 #. WpENP
 #: 04060118.xhp
@@ -29318,7 +29318,7 @@ msgctxt ""
 "par_id3145215\n"
 "help.text"
 msgid "FV(Rate; NPer; Pmt [ ; [ PV ] [ ; Type ] ])"
-msgstr "FV(Rate; NPer; Betaling [; [ NV] [ ; Type ]])"
+msgstr "FV( Rente; NPer; YDELSE [ ; [ PV ] [ ; Type ] ])"
 
 #. Y9GP8
 #: 04060118.xhp
@@ -29489,7 +29489,7 @@ msgctxt ""
 "par_id3155934\n"
 "help.text"
 msgid "NPER(Rate; Pmt; PV [ ; [ FV ] [ ; Type ] ])"
-msgstr "NPER(Rente; Betaling; NV [; [ FV ] [; Type ]])"
+msgstr "NPER( Rente; YDELSE; NV [ ; [ FV ] [ ; Type ] ])"
 
 #. X44J9
 #: 04060118.xhp
@@ -29642,7 +29642,7 @@ msgctxt ""
 "par_id3146878\n"
 "help.text"
 msgid "PPMT(Rate; Period; NPer; PV [ ; FV [ ; Type ] ])"
-msgstr "H.YDELSE(Rente; Periode; NPer; NV[ ; FV [ ; Type ]])"
+msgstr "H.YDELSE( Rente; Periode; NPer; NV [ ; FV [ ; Type ] ])"
 
 #. t4fJk
 #: 04060119.xhp
@@ -30326,7 +30326,7 @@ msgctxt ""
 "par_id3147273\n"
 "help.text"
 msgid "<input>=PRICE(\"1999-02-15\"; \"2007-11-15\"; 0.0575; 0.065; 100; 2; 0)</input>  returns 95.04287."
-msgstr "<input>=KURS(\"1999-02-15\"; \"20071115\"; 0,0575; 0,065; 100; 2; 0)</input> returnerer 95,04287."
+msgstr "<input>=KURS(\"1999-02-15\"; \"2007-11-15\"; 0,0575; 0,065; 100; 2; 0)</input>  returnerer 95,04287."
 
 #. sQGxa
 #: 04060119.xhp
@@ -30362,7 +30362,7 @@ msgctxt ""
 "par_id3146084\n"
 "help.text"
 msgid "PRICEDISC(Settlement; Maturity; Discount; Redemption [; Basis])"
-msgstr "KURS.DISKONTO(Afregningsdato; Udløbsdato; Diskonto; Indfrielse [; Basis])"
+msgstr "KURS.DISKONTO( Afregningsdato; Udløbsdato; Diskonto; Indfrielse [; Basis])"
 
 #. WBvCG
 #: 04060119.xhp
@@ -30452,7 +30452,7 @@ msgctxt ""
 "par_id3155393\n"
 "help.text"
 msgid "PRICEMAT(Settlement; Maturity; Issue; Rate; Yield [; Basis])"
-msgstr "KURS.UDLØB(Afregningsdato; Udløbsdato; EmissionEmission; Rente; Afkast [; Basis])"
+msgstr "KURS.UDLØB( Afregningsdato; Udløbsdato; Emission; Rente; Afkast [; Basis])"
 
 #. tG4zg
 #: 04060119.xhp
@@ -30560,7 +30560,7 @@ msgctxt ""
 "par_id3148933\n"
 "help.text"
 msgid "PDURATION(Rate; PV; FV)"
-msgstr "PVARIGHED(Rentefod, NV, FV)"
+msgstr "PVARIGHED( Rentefod, NV, FV)"
 
 #. Rzxhq
 #: 04060119.xhp
@@ -30776,7 +30776,7 @@ msgctxt ""
 "par_id3145378\n"
 "help.text"
 msgid "<input>=MDURATION(\"2001-01-01\"; \"2006-01-01\"; 0.08; 0.09; 2; 3)</input> returns 4.02 years."
-msgstr "<input>=MDURATION(\"2001-01-01\"; \"2006-01-01\";  0,08; 0,09; 2; 3)</input> returnerer 4,02 år."
+msgstr "<input>=MVARIGHED(\"2001-01-01\"; \"2006-01-01\"; 0,08; 0,09; 2; 3)</input> returnerer 4,02 år."
 
 #. BrDKP
 #: 04060119.xhp
@@ -31316,7 +31316,7 @@ msgctxt ""
 "par_id3154194\n"
 "help.text"
 msgid "<input>=YIELD(\"1999-02-15\"; \"2007-11-15\"; 0.0575 ;95.04287; 100; 2; 0)</input>  returns 0.065 or 6.50 per cent."
-msgstr "<input>=AFKAST(\"1999-02-15\"; \"2007-11-15\"; 0.0575 ;95,04287; 100; 2; 0)</input> returnerer 0,065 eller 6,50 %."
+msgstr "<input>=AFKAST(\"1999-02-15\"; \"2007-11-15\"; 0.0575 ; 95,04287; 100; 2; 0)</input> returnerer 0,065 eller 6,50 %."
 
 #. AeJmf
 #: 04060119.xhp
@@ -31352,7 +31352,7 @@ msgctxt ""
 "par_id3159191\n"
 "help.text"
 msgid "YIELDDISC(Settlement; Maturity; Price; Redemption [; Basis])"
-msgstr "AFKAST.DISKONTO(Afregningsdato; UdløbsdatoKurs; Price; Indfrielse[; Basis])"
+msgstr "AFKAST.DISKONTO( Afregningsdato; Udløbsdato; Kurs; Indfrielse[; Basis])"
 
 #. fFG4g
 #: 04060119.xhp
@@ -31505,7 +31505,7 @@ msgctxt ""
 "par_id3155311\n"
 "help.text"
 msgid "<input>=YIELDMAT(\"1999-03-15\"; \"1999-11-03\"; \"1998-11-08\"; 0.0625; 100.0123; 0)</input>  returns 0.060954 or 6.0954 per cent."
-msgstr "<input>=AFKAST.UDLØBSDATO(\"1999-03-15\"; \"1999-11-03\"; \"1998-11-08\"; 0,0625; 100,0123; 0)</input> returnerer 0,060954 eller 6,0954 %."
+msgstr "<input>=AFKAST.UDLØBSDATO( \"1999-03-15\"; \"1999-11-03\"; \"1998-11-08\"; 0,0625; 100,0123; 0)</input> returnerer 0,060954 eller 6,0954 %."
 
 #. 2ZC4E
 #: 04060119.xhp
@@ -31541,7 +31541,7 @@ msgctxt ""
 "par_id3147278\n"
 "help.text"
 msgid "PMT(Rate; NPer; PV [ ; [ FV ] [ ; Type ] ])"
-msgstr "YDELSE(Rente; NPer; NV[; [FV ] [; Type ]])"
+msgstr "YDELSE( Rente; NPer; NV [; [FV ] [; Type ] ])"
 
 #. fGg3G
 #: 04060119.xhp
