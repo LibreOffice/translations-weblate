@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-02-17 15:58+0100\n"
-"PO-Revision-Date: 2021-02-19 21:36+0000\n"
+"PO-Revision-Date: 2021-02-20 19:53+0000\n"
 "Last-Translator: Євген Кондратюк <lachend@gmail.com>\n"
 "Language-Team: Ukrainian <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/uk/>\n"
 "Language: uk\n"
@@ -17181,13 +17181,13 @@ msgstr "Використовувати мі_жрядковий інтервал"
 #: cui/uiconfig/ui/pageformatpage.ui:553
 msgctxt "pageformatpage|checkRegisterTrue"
 msgid "Enables page line-spacing (register-true) using the selected Reference Style"
-msgstr "Активує міжрядковий інтервал сторінки (зі врахуванням регістру) з використанням обраного Стилю посилань"
+msgstr "Активує міжрядковий інтервал сторінки (зі врахуванням регістру) з використанням обраного Базового стилю"
 
 #. p2egb
 #: cui/uiconfig/ui/pageformatpage.ui:558
 msgctxt "extended_tip|checkRegisterTrue"
 msgid "If enabled, then all paragraph styles with the option page line-spacing activated will be affected, assuming the line spacing of the Reference Style. This will align them to an invisible vertical page grid, regardless of their font size, so that each line is the same height."
-msgstr ""
+msgstr "Якщо цей параметр увімкнено, то це вплине на всі стилі абзаців із активованим міжрядковим інтервалом на сторінці, припускаючи, що міжрядковий інтервал є Базовим стилем. Це вирівняє рядки по невидимій вертикальній сітці сторінки, незалежно від розміру шрифту; таким чином кожен рядок матиме однакову висоту."
 
 #. 46djR
 #: cui/uiconfig/ui/pageformatpage.ui:572
@@ -17247,19 +17247,19 @@ msgstr "_Базовий стиль:"
 #: cui/uiconfig/ui/pageformatpage.ui:679
 msgctxt "pageformatpage|labelGutterPosition"
 msgid "Gutter position:"
-msgstr ""
+msgstr "Позиція проміжку:"
 
 #. LF4Ex
 #: cui/uiconfig/ui/pageformatpage.ui:694
 msgctxt "pageformatpage|liststoreGutterPosition"
 msgid "Left"
-msgstr ""
+msgstr "Зліва"
 
 #. DSBY5
 #: cui/uiconfig/ui/pageformatpage.ui:695
 msgctxt "pageformatpage|liststoreGutterPosition"
 msgid "Top"
-msgstr ""
+msgstr "Зверху"
 
 #. xdECe
 #: cui/uiconfig/ui/pageformatpage.ui:715
@@ -17451,7 +17451,7 @@ msgstr "_Автоматично"
 #: cui/uiconfig/ui/paraindentspacing.ui:157
 msgctxt "paraindentspacing|checkCB_AUTO|tooltip_text"
 msgid "Indent paragraph automatically according to font size and line spacing."
-msgstr ""
+msgstr "Автоматичний відступ абзаца відповідно до розміру шрифта та міжрядкового інтервалу."
 
 #. L9iw7
 #: cui/uiconfig/ui/paraindentspacing.ui:210
@@ -17481,7 +17481,7 @@ msgstr "Ни_жче абзацу:"
 #: cui/uiconfig/ui/paraindentspacing.ui:319
 msgctxt "paraindentspacing|checkCB_CONTEXTUALSPACING"
 msgid "Do not add space between paragraphs of the same style"
-msgstr ""
+msgstr "Не додавати пробіл між абзацами одного стилю"
 
 #. hWQWQ
 #: cui/uiconfig/ui/paraindentspacing.ui:338
@@ -17541,20 +17541,20 @@ msgstr "з"
 #: cui/uiconfig/ui/paraindentspacing.ui:462
 msgctxt "paraindentspacing|checkCB_REGISTER"
 msgid "Activate page li_ne-spacing"
-msgstr ""
+msgstr "Активувати міжрядковий інтервал"
 
 #. uesRM
 #. xdds
 #: cui/uiconfig/ui/paraindentspacing.ui:465
 msgctxt "paraindentspacing|checkCB_REGISTER|tooltip_text"
 msgid "Applies page line-spacing (register-true) if set for the Page Style."
-msgstr ""
+msgstr "Застосовує міжрядковий інтервал (регістр-залежний), передбачений у Стилі сторінки."
 
 #. MwL9j
 #: cui/uiconfig/ui/paraindentspacing.ui:470
 msgctxt "paraindentspacing|extended_tip|checkCB_REGISTER"
 msgid "If page line-spacing is activated and the Page style uses page line-spacing, then this paragraph will align to an invisible vertical page grid, regardless of their font size, so that each line is the same height."
-msgstr ""
+msgstr "Якщо міжрядковий інтервал сторінки активовано, і Стиль сторінки використовує міжрядковий інтервал, тоді цей абзац буде вирівнюватися по невидимій вертикальній сітці сторінки незалежно від розміру шрифту, так що кожен рядок матиме однакову висоту."
 
 #. GxJB6
 #: cui/uiconfig/ui/paraindentspacing.ui:486
@@ -17764,7 +17764,7 @@ msgstr "Показує джерело вмісту буфера обміну."
 #: cui/uiconfig/ui/pastespecial.ui:175
 msgctxt "pastespecial|extended_tip|list"
 msgid "Select a format for the clipboard contents that you want to paste. The available format depends on the copied or cut source format."
-msgstr ""
+msgstr "Виберіть формат вмісту буфера обміну, який потрібно вставити. Доступний формат залежить від скопійованого або вирізаного вихідного формату."
 
 #. gjnwU
 #: cui/uiconfig/ui/pastespecial.ui:186
@@ -17782,7 +17782,7 @@ msgstr "Вставляє вміст буфера обміну у поточни�
 #: cui/uiconfig/ui/patterntabpage.ui:71
 msgctxt "patterntabpage|extended_tip|BTN_ADD"
 msgid "Adds a custom pattern to the current list. Specify the properties of your pattern, and then click this button."
-msgstr ""
+msgstr "Додає власний візерунок до поточного списку. Задайте властивості вашого візерунку, а потім натисніть цю кнопку."
 
 #. 68KjX
 #: cui/uiconfig/ui/patterntabpage.ui:83
@@ -17794,7 +17794,7 @@ msgstr "З_мінити"
 #: cui/uiconfig/ui/patterntabpage.ui:90
 msgctxt "patterntabpage|extended_tip|BTN_MODIFY"
 msgid "Applies the current pattern properties to the selected pattern. If you want, you can save the pattern under a different name."
-msgstr ""
+msgstr "Застосовує поточні властивості візерунка до вибраного візерунка. За бажанням, Ви можете зберегти візерунок під іншою назвою."
 
 #. SnESZ
 #: cui/uiconfig/ui/patterntabpage.ui:113
