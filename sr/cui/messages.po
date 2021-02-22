@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenOffice.org\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-02-17 15:58+0100\n"
+"POT-Creation-Date: 2021-02-22 17:16+0100\n"
 "PO-Revision-Date: 2021-02-22 16:20+0000\n"
 "Last-Translator: Милош Поповић <gpopac@gmail.com>\n"
 "Language-Team: Serbian <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/sr/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: LibreOffice\n"
 "X-Project-Style: openoffice\n"
 
 #. GyY9M
@@ -4517,98 +4517,110 @@ msgctxt "acorexceptpage|extended_tip|abbrev"
 msgid "Type an abbreviation followed by a period, and then click New. This prevents %PRODUCTNAME from automatically capitalizing the first letter of the word that comes after the period at the end of the abbreviation."
 msgstr "Унесите скраћеницу праћену тачком и кликните на „Нова“. Ово ће онемогућити програму %PRODUCTNAME да сам повећа слово прве речи након тачке када је у питању скраћеница."
 
-#. vanfV
+#. GUtft
 #: cui/uiconfig/ui/acorexceptpage.ui:67
 msgctxt "acorexceptpage|autoabbrev"
-msgid "_AutoInclude"
-msgstr "_Аутоматски укључи"
+msgid "Auto_Include"
+msgstr ""
 
-#. 5B9tX
-#: cui/uiconfig/ui/acorexceptpage.ui:75
+#. KRr5y
+#: cui/uiconfig/ui/acorexceptpage.ui:73
+msgctxt "acorexceptpage|autoabbrev"
+msgid "Automatically add to the exception list if autocorrection is immediately undone."
+msgstr ""
+
+#. 7qDG3
+#: cui/uiconfig/ui/acorexceptpage.ui:76
 msgctxt "acorexceptpage|extended_tip|autoabbrev"
-msgid "Automatically adds abbreviations or words that start with two capital letters to the corresponding list of exceptions. This feature only works if the Correct TWo INitial CApitals option or the Capitalize first letter of every sentence option are selected in the [T] column onOptions tab of this dialog."
-msgstr "Аутоматски додаје скраћенице или речи које почињу са два велика слова на одговарајући списак изузетака. Ова могућност ради само уколико је укључена опција „Исправи ДВа ПОчетна ВЕлика СЛоава“ или „Повећај прво слово сваке реченице“ у [Т] колони на језичку Опције овог прозорчета."
+msgid "Adds autocorrected abbreviations to the list of exceptions, if the autocorrection is immediately undone. This feature is only effective when Capitalize first letter of every sentence option is selected in the [T] column on the Options tab of this dialog."
+msgstr ""
 
 #. tpV8t
-#: cui/uiconfig/ui/acorexceptpage.ui:102
+#: cui/uiconfig/ui/acorexceptpage.ui:103
 msgctxt "acorexceptpage|newabbrev-atkobject"
 msgid "New abbreviations"
 msgstr "Нове скраћенице"
 
 #. CEdQa
-#: cui/uiconfig/ui/acorexceptpage.ui:114
+#: cui/uiconfig/ui/acorexceptpage.ui:115
 msgctxt "acorexceptpage|replace"
 msgid "_Replace"
 msgstr "_Замени"
 
 #. st6Jc
-#: cui/uiconfig/ui/acorexceptpage.ui:138
+#: cui/uiconfig/ui/acorexceptpage.ui:139
 msgctxt "acorexceptpage|delabbrev-atkobject"
 msgid "Delete abbreviations"
 msgstr "Обриши скраћенице"
 
 #. 9h2WR
-#: cui/uiconfig/ui/acorexceptpage.ui:189
+#: cui/uiconfig/ui/acorexceptpage.ui:190
 msgctxt "acorexceptpage|extended_tip|abbrevlist"
 msgid "Lists the abbreviations that are not automatically corrected."
 msgstr "Исписуке скраћенице које нису аутоматски исправљене."
 
 #. VoLnB
-#: cui/uiconfig/ui/acorexceptpage.ui:206
+#: cui/uiconfig/ui/acorexceptpage.ui:207
 msgctxt "acorexceptpage|label1"
 msgid "Abbreviations (no Subsequent Capital)"
 msgstr "Скраћенице (без накнадних великих слова)"
 
-#. 78P5X
-#: cui/uiconfig/ui/acorexceptpage.ui:247
+#. N9SbP
+#: cui/uiconfig/ui/acorexceptpage.ui:248
 msgctxt "acorexceptpage|extended_tip|double"
-msgid "Type the word or abbreviation that starts with two capital letters that you do not want %PRODUCTNAME to change to one initial capital. For example, enter PC to prevent %PRODUCTNAME from changing PC to Pc."
-msgstr "Унесите реч или скраћеницу која почиње са два велика слова коју не желите да %PRODUCTNAME исправља у једно велико слово. На пример, унесите ЕУ уколико желите спречите %PRODUCTNAME да исправља ЕУ у Еу."
+msgid "Type the word or abbreviation that starts with two capital letters or a small initial that you do not want %PRODUCTNAME to change to one initial capital. For example, enter PC to prevent %PRODUCTNAME from changing PC to Pc, or enter eBook to prevent a change to Ebook."
+msgstr ""
 
 #. kAzxB
-#: cui/uiconfig/ui/acorexceptpage.ui:258
+#: cui/uiconfig/ui/acorexceptpage.ui:259
 msgctxt "acorexceptpage|autodouble"
 msgid "A_utoInclude"
 msgstr "А_утоматски укључи"
 
-#. 6fGTF
-#: cui/uiconfig/ui/acorexceptpage.ui:266
+#. Cqrp5
+#: cui/uiconfig/ui/acorexceptpage.ui:265
+msgctxt "acorexceptpage|autodouble"
+msgid "Automatically add to the exception list if autocorrection is immediately undone."
+msgstr ""
+
+#. 7u9Af
+#: cui/uiconfig/ui/acorexceptpage.ui:268
 msgctxt "acorexceptpage|extended_tip|autodouble"
-msgid "Automatically adds abbreviations or words that start with two capital letters to the corresponding list of exceptions. This feature only works if the Correct TWo INitial CApitals option or the Capitalize first letter of every sentence option are selected in the [T] column onOptions tab of this dialog."
-msgstr "Аутоматски додаје скраћенице или речи које почињу са два велика слова на одговарајући списак изузетака. Ова могућност ради само уколико је укључена опција „Исправи ДВа ПОчетна ВЕлика СЛоава“ или „Повећај прво слово сваке реченице“ у [Т] колони на језичку Опције овог прозорчета."
+msgid "Adds autocorrected words that start with two capital letters to the list of exceptions, if the autocorrection is immediately undone. This feature is only effective if the Correct TWo INitial CApitals option is selected in the [T] column on the Options tab of this dialog."
+msgstr ""
 
 #. AcEEf
-#: cui/uiconfig/ui/acorexceptpage.ui:293
+#: cui/uiconfig/ui/acorexceptpage.ui:295
 msgctxt "acorexceptpage|newdouble-atkobject"
 msgid "New words with two initial capitals or small initial"
 msgstr "Нове речи са два почетна велика слова или малим почетним словом"
 
 #. 5Y2Wh
-#: cui/uiconfig/ui/acorexceptpage.ui:305
+#: cui/uiconfig/ui/acorexceptpage.ui:307
 msgctxt "acorexceptpage|replace1"
 msgid "_Replace"
 msgstr "_Замени"
 
 #. 5ZhAJ
-#: cui/uiconfig/ui/acorexceptpage.ui:329
+#: cui/uiconfig/ui/acorexceptpage.ui:331
 msgctxt "acorexceptpage|deldouble-atkobject"
 msgid "Delete words with two initial capitals or small initial"
 msgstr "Обриши речи са два велика почетна слова или малим почетним словим"
 
 #. kCahU
-#: cui/uiconfig/ui/acorexceptpage.ui:380
+#: cui/uiconfig/ui/acorexceptpage.ui:382
 msgctxt "acorexceptpage|extended_tip|doublelist"
 msgid "Lists the words or abbreviations that start with two initial capitals that are not automatically corrected. All words which start with two capital letters are listed in the field."
 msgstr "Исписује речи или скраћеније које почињу са два велика почетна слова која неће бити аутоматски исправљена. Све речи које почињу са два велика почетна слова су исписане у пољу."
 
 #. 7FHhG
-#: cui/uiconfig/ui/acorexceptpage.ui:397
+#: cui/uiconfig/ui/acorexceptpage.ui:399
 msgctxt "acorexceptpage|label2"
 msgid "Words With TWo INitial CApitals or sMALL iNITIAL"
 msgstr "Речи са ДВа ВЕлика ПОчетна СЛова или мАЛО пОЧЕТНО сЛОВО"
 
 #. 4qMgn
-#: cui/uiconfig/ui/acorexceptpage.ui:412
+#: cui/uiconfig/ui/acorexceptpage.ui:414
 msgctxt "acorexceptpage|extended_tip|AcorExceptPage"
 msgid "Specify the abbreviations or letter combinations that you do not want %PRODUCTNAME to correct automatically."
 msgstr "Одредите скраћенице или комбинације слова која не желите да %PRODUCTNAME сам исправља."
@@ -21661,6 +21673,22 @@ msgstr ""
 msgctxt "zoomdialog|extended_tip|ZoomDialog"
 msgid "Reduces or enlarges the screen display of %PRODUCTNAME."
 msgstr ""
+
+#~ msgctxt "acorexceptpage|autoabbrev"
+#~ msgid "_AutoInclude"
+#~ msgstr "_Аутоматски укључи"
+
+#~ msgctxt "acorexceptpage|extended_tip|autoabbrev"
+#~ msgid "Automatically adds abbreviations or words that start with two capital letters to the corresponding list of exceptions. This feature only works if the Correct TWo INitial CApitals option or the Capitalize first letter of every sentence option are selected in the [T] column onOptions tab of this dialog."
+#~ msgstr "Аутоматски додаје скраћенице или речи које почињу са два велика слова на одговарајући списак изузетака. Ова могућност ради само уколико је укључена опција „Исправи ДВа ПОчетна ВЕлика СЛоава“ или „Повећај прво слово сваке реченице“ у [Т] колони на језичку Опције овог прозорчета."
+
+#~ msgctxt "acorexceptpage|extended_tip|double"
+#~ msgid "Type the word or abbreviation that starts with two capital letters that you do not want %PRODUCTNAME to change to one initial capital. For example, enter PC to prevent %PRODUCTNAME from changing PC to Pc."
+#~ msgstr "Унесите реч или скраћеницу која почиње са два велика слова коју не желите да %PRODUCTNAME исправља у једно велико слово. На пример, унесите ЕУ уколико желите спречите %PRODUCTNAME да исправља ЕУ у Еу."
+
+#~ msgctxt "acorexceptpage|extended_tip|autodouble"
+#~ msgid "Automatically adds abbreviations or words that start with two capital letters to the corresponding list of exceptions. This feature only works if the Correct TWo INitial CApitals option or the Capitalize first letter of every sentence option are selected in the [T] column onOptions tab of this dialog."
+#~ msgstr "Аутоматски додаје скраћенице или речи које почињу са два велика слова на одговарајући списак изузетака. Ова могућност ради само уколико је укључена опција „Исправи ДВа ПОчетна ВЕлика СЛоава“ или „Повећај прво слово сваке реченице“ у [Т] колони на језичку Опције овог прозорчета."
 
 #, fuzzy
 #~ msgctxt "spellingdialog|notindictft"
