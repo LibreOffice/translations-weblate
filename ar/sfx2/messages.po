@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-02-22 17:17+0100\n"
-"PO-Revision-Date: 2021-02-22 16:20+0000\n"
+"PO-Revision-Date: 2021-03-06 20:36+0000\n"
 "Last-Translator: Riyadh Talal <riyadhtalal@gmail.com>\n"
 "Language-Team: Arabic <https://translations.documentfoundation.org/projects/libo_ui-master/sfx2messages/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-POOTLE-MTIME: 1540149332.000000\n"
 
 #. bHbFE
@@ -80,7 +80,7 @@ msgstr "احذف"
 #: include/sfx2/strings.hrc:35
 msgctxt "STR_SFX_RENAME"
 msgid "Rename"
-msgstr ""
+msgstr "أعِد التسمية"
 
 #. C2ngg
 #: include/sfx2/strings.hrc:36
@@ -92,7 +92,7 @@ msgstr "غيّر اسم الفئة"
 #: include/sfx2/strings.hrc:37
 msgctxt "STR_RENAME_TEMPLATE"
 msgid "Enter new template name:"
-msgstr ""
+msgstr "أدخل اسم القالب الجديد:"
 
 #. TVTsi
 #: include/sfx2/strings.hrc:38
@@ -213,7 +213,7 @@ msgstr ""
 #: include/sfx2/strings.hrc:56
 msgctxt "STR_QRYTEMPL_MESSAGE"
 msgid "The template '$(ARG1)' on which this document is based, has been modified. Do you want to update the styles of the current document, using the modified template?"
-msgstr ""
+msgstr "القالب '$(ARG1)' الذي يعتمد عليه هذا المستند، قد عُدّل. أتريد تحديث طُرُز المستند الحالي، باستخدام القالب المحدَّث؟"
 
 #. ABmvY
 #: include/sfx2/strings.hrc:57
@@ -335,13 +335,13 @@ msgstr ""
 #: include/sfx2/strings.hrc:73
 msgctxt "STR_QMSG_SEL_FOLDER_DELETE"
 msgid "Do you want to delete the selected category?"
-msgstr ""
+msgstr "أتريد حذف الفئة المحددة؟"
 
 #. C9pLF
 #: include/sfx2/strings.hrc:74
 msgctxt "STR_QMSG_TEMPLATE_OVERWRITE"
 msgid "A template named $1 already exists in $2. Do you want to overwrite it?"
-msgstr ""
+msgstr "يوجد مسبقا قالب بالإسم $1 في $2. أتريد الكتابة عليه؟"
 
 #. 6MoGu
 #: include/sfx2/strings.hrc:75
@@ -521,7 +521,7 @@ msgstr ""
 #: include/sfx2/strings.hrc:104
 msgctxt "STR_NO_ABS_URI_REF"
 msgid "\"$(ARG1)\" cannot be passed to an external application to open it (e.g., it might not be an absolute URL, or might denote no existing file)."
-msgstr ""
+msgstr "لا يمكن تمرير \"$(ARG1)\" الى تطبيق خارجي لفتحه (مثلا لأنه قد لا يكون رابط URL مطلق، أو أنه قد يشير الى ملف غير موجود)."
 
 #. XDUCY
 #: include/sfx2/strings.hrc:105
@@ -760,6 +760,10 @@ msgid ""
 "Would you like to change the document, and update all links\n"
 "to get the most recent data?"
 msgstr ""
+"يحتوي المستند %{filename} رابطا أو أكثر الى بيانات خارجية.\n"
+"\n"
+"أترغب في تحديث المستند، وتحديث كل الروابط\n"
+"للحصول على أحدث البيانات؟"
 
 #. zJGEM
 #: include/sfx2/strings.hrc:144
@@ -1019,25 +1023,25 @@ msgstr "أفلت مستندا هنا أو اختر تطبيقا من الجهة 
 #: include/sfx2/strings.hrc:185
 msgctxt "STR_REDACTION_TARGET_TYPE_TEXT"
 msgid "Text"
-msgstr ""
+msgstr "نص"
 
 #. eG5qc
 #: include/sfx2/strings.hrc:186
 msgctxt "STR_REDACTION_TARGET_TYPE_REGEX"
 msgid "Regular expression"
-msgstr ""
+msgstr "تعبير نظامي"
 
 #. TaDCG
 #: include/sfx2/strings.hrc:187
 msgctxt "STR_REDACTION_TARGET_TYPE_PREDEF"
 msgid "Predefined"
-msgstr ""
+msgstr "معرّف مسبقا"
 
 #. bDjwW
 #: include/sfx2/strings.hrc:188
 msgctxt "STR_REDACTION_TARGET_TYPE_UNKNOWN"
 msgid "Unknown"
-msgstr ""
+msgstr "غير معروف"
 
 #. Ao6kC
 #. Translators: Column headers in Auto-redaction dialog's targets list
@@ -1136,13 +1140,13 @@ msgstr ""
 #: include/sfx2/strings.hrc:210
 msgctxt "STR_REDACTION_EDIT_TARGET"
 msgid "Edit Target"
-msgstr ""
+msgstr "حرّر الوجهة"
 
 #. ACY9D
 #: include/sfx2/strings.hrc:211
 msgctxt "STR_REDACTION_TARGET_ADD_ERROR"
 msgid "An error occurred while adding new target. Please report this incident."
-msgstr ""
+msgstr "حصل خطأ أثناء إضافة وجهة جديدة. رجاءا أبلغ عن هذه الحادثة."
 
 #. znVBU
 #: include/sfx2/strings.hrc:212
@@ -1829,7 +1833,7 @@ msgstr "بطاقة أعمال فيها شعار"
 #: include/sfx2/strings.hrc:330
 msgctxt "STR_TEMPLATE_NAME31"
 msgid "Simple"
-msgstr ""
+msgstr "بسيط"
 
 #. W7NVH
 #: include/sfx2/strings.hrc:331
@@ -1918,12 +1922,12 @@ msgstr ""
 #. wH3TZ
 msgctxt "stock"
 msgid "_Add"
-msgstr ""
+msgstr "أ_ضف"
 
 #. S9dsC
 msgctxt "stock"
 msgid "_Apply"
-msgstr ""
+msgstr "ط_بّق"
 
 #. TMo6G
 msgctxt "stock"
@@ -1933,37 +1937,37 @@ msgstr "أل‍_‍غ"
 #. MRCkv
 msgctxt "stock"
 msgid "_Close"
-msgstr ""
+msgstr "أغل_ق"
 
 #. nvx5t
 msgctxt "stock"
 msgid "_Delete"
-msgstr ""
+msgstr "اح_ذف"
 
 #. YspCj
 msgctxt "stock"
 msgid "_Edit"
-msgstr ""
+msgstr "ح_رّر"
 
 #. imQxr
 msgctxt "stock"
 msgid "_Help"
-msgstr ""
+msgstr "م_ساعدة"
 
 #. RbjyB
 msgctxt "stock"
 msgid "_New"
-msgstr ""
+msgstr "_جديد"
 
 #. dx2yy
 msgctxt "stock"
 msgid "_No"
-msgstr ""
+msgstr "_كلا"
 
 #. M9DsL
 msgctxt "stock"
 msgid "_OK"
-msgstr ""
+msgstr "_حسنا"
 
 #. VtJS9
 msgctxt "stock"
@@ -1973,12 +1977,12 @@ msgstr "أ_زِل"
 #. C69Fy
 msgctxt "stock"
 msgid "_Reset"
-msgstr ""
+msgstr "ت_صفير"
 
 #. mgpxh
 msgctxt "stock"
 msgid "_Yes"
-msgstr ""
+msgstr "_نعم"
 
 #. F5rSU
 #: sfx2/inc/dinfdlg.hrc:27
@@ -2292,7 +2296,7 @@ msgstr "اللصائق"
 #: sfx2/uiconfig/ui/addtargetdialog.ui:8
 msgctxt "addtargetdialog|AddTargetDialog"
 msgid "Add Target"
-msgstr ""
+msgstr "أضف وجهة"
 
 #. JC8Vd
 #: sfx2/uiconfig/ui/addtargetdialog.ui:89
@@ -2430,7 +2434,7 @@ msgstr ""
 #: sfx2/uiconfig/ui/autoredactdialog.ui:122
 msgctxt "autoredactdialog|target"
 msgid "Target Name"
-msgstr ""
+msgstr "اسم الوجهة"
 
 #. szYkX
 #: sfx2/uiconfig/ui/autoredactdialog.ui:135
@@ -2466,31 +2470,31 @@ msgstr ""
 #: sfx2/uiconfig/ui/autoredactdialog.ui:222
 msgctxt "autoredactdialog|btnLoadTargets"
 msgid "Load Targets"
-msgstr ""
+msgstr "حمّل الوجهات"
 
 #. tpbYA
 #: sfx2/uiconfig/ui/autoredactdialog.ui:235
 msgctxt "autoredactdialog|btnSaveTargets"
 msgid "Save Targets"
-msgstr ""
+msgstr "احفظ الوجهات"
 
 #. TQg85
 #: sfx2/uiconfig/ui/autoredactdialog.ui:261
 msgctxt "autoredactdialog|add"
 msgid "Add Target"
-msgstr ""
+msgstr "أضف وجهة"
 
 #. 4TvHR
 #: sfx2/uiconfig/ui/autoredactdialog.ui:274
 msgctxt "autoredactdialog|edit"
 msgid "Edit Target"
-msgstr ""
+msgstr "حرّر الوجهة"
 
 #. knEqb
 #: sfx2/uiconfig/ui/autoredactdialog.ui:287
 msgctxt "autoredactdialog|delete"
 msgid "Delete Target"
-msgstr ""
+msgstr "احذف الوجهة"
 
 #. iLkdK
 #: sfx2/uiconfig/ui/bookmarkdialog.ui:8
@@ -3657,7 +3661,7 @@ msgstr ""
 #: sfx2/uiconfig/ui/optprintpage.ui:79
 msgctxt "optprintpage|label4"
 msgid "Settings for"
-msgstr ""
+msgstr "إعدادات لـ"
 
 #. 2T5Af
 #: sfx2/uiconfig/ui/optprintpage.ui:109
