@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-02-22 17:17+0100\n"
-"PO-Revision-Date: 2021-03-07 07:11+0000\n"
-"Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
+"PO-Revision-Date: 2021-03-07 18:15+0000\n"
+"Last-Translator: Mister Update <mr.update@yahoo.de>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20642,7 +20642,7 @@ msgctxt ""
 "par_id3145090\n"
 "help.text"
 msgid "Initializes the random-number generator used by the <emph>Rnd</emph> function."
-msgstr "Initialisiert den Zufallszahlen-Generator, der von der Funktion <emph>Rnd</emph> verwendet wird."
+msgstr "Initialisiert den Zufallszahlengenerator, der von der Funktion <emph>Rnd</emph> verwendet wird."
 
 #. 4zBFc
 #: 03080301.xhp
@@ -20678,7 +20678,7 @@ msgctxt ""
 "par_id3149670\n"
 "help.text"
 msgid "<emph>Number:</emph> Any integer value. Used as seed to initialize the random-number generator. Equal seeds result in equal random-number sequences by the <emph>Rnd</emph> function. If the parameter is omitted, the <emph>Randomize</emph> statement will be ignored."
-msgstr "<emph>Zahl:</emph> Eine ganze Zahl. Wird als Startwert zum Initialisieren des Zufallszahlen-Generators verwendet. Gleiche Startwerte führen zu gleichen Zufallszahlsequenzen durch die Funktion <emph>Rnd</emph>. Falls der Parameter weggelassen wird, wird die Anweisung <emph>Randomize</emph> ignoriert."
+msgstr "<emph>Zahl:</emph> Eine ganze Zahl. Wird als Startwert zum Initialisieren des Zufallszahlengenerators verwendet. Gleiche Startwerte führen zu gleichen Zufallszahlsequenzen durch die Funktion <emph>Rnd</emph>. Falls der Parameter weggelassen wird, wird die Anweisung <emph>Randomize</emph> ignoriert."
 
 #. sowvF
 #: 03080301.xhp
@@ -20687,7 +20687,7 @@ msgctxt ""
 "par_id110520161656428611\n"
 "help.text"
 msgid "Unless a predictable sequence of numbers is desired, there is no need to use the <emph>Randomize</emph> statement, as the random-number generator will be initialized automatically at first use – it will be seeded using a system-provided random-number generator that produces uniformly-distributed, non-deterministic random numbers. If no such generator is available on the system, the system time will be used as seed."
-msgstr "Außer für eine reproduzierbare Zahlenfolge besteht keine Notwendigkeit, die Anweisung <emph>Randomize</emph> zu verwenden, da der Zufallszahlen-Generator automatisch beim ersten Aufruf initialisiert wird – er wird durch einen vom System gelieferten Zufallszahlen-Generator gestartet, der gleichmäßig verteilte, nichtdeterministische Zufallszahlen erzeugt. Falls solch ein Generator im System nicht verfügbar ist, wird die Systemzeit als Startwert verwendet."
+msgstr "Außer für eine reproduzierbare Zahlenfolge besteht keine Notwendigkeit, die Anweisung <emph>Randomize</emph> zu verwenden, da der Zufallszahlengenerator automatisch beim ersten Aufruf initialisiert wird – er wird durch einen vom System gelieferten Zufallszahlengenerator gestartet, der gleichmäßig verteilte, nichtdeterministische Zufallszahlen erzeugt. Falls solch ein Generator im System nicht verfügbar ist, wird die Systemzeit als Startwert verwendet."
 
 #. eJZhb
 #: 03080301.xhp
@@ -20696,7 +20696,7 @@ msgctxt ""
 "par_id12052016194258344\n"
 "help.text"
 msgid "The <emph>Randomize</emph> statement affects BASIC's <emph>Rnd</emph> function only. Other random-number generators (for example the Calc's RAND() function, etc.) are not affected by it."
-msgstr "Die Anweisung <emph>Randomize</emph> beeinflusst nur die Funktion <emph>Rnd</emph> von BASIC. Andere Zufallszahlen-Generatoren (beispielsweise die Funktion ZUFALLSZAHL() in Calc und so weiter) sind davon nicht betroffen."
+msgstr "Die Anweisung <emph>Randomize</emph> beeinflusst nur die Funktion <emph>Rnd</emph> von BASIC. Andere Zufallszahlengeneratoren (beispielsweise die Funktion ZUFALLSZAHL() in Calc und so weiter) sind davon nicht betroffen."
 
 #. nbCqX
 #: 03080301.xhp
@@ -28832,7 +28832,7 @@ msgctxt ""
 "par_id3155341\n"
 "help.text"
 msgid "Public VarName[(start To end)] [As VarType][, VarName2[(start To end)] [As VarType][,...]]"
-msgstr "Public VarName[(Anfang To Ende)] [As VarTyp][, VarName2[(Anfang To Ende)] [As VarTyp][,...]]"
+msgstr "Public VarName[(Anfang bis Ende)] [As VarType][, VarName2[(Anfang bis Ende)] [As VarType][,...]]"
 
 #. GEXZU
 #: 03103400.xhp
@@ -28895,7 +28895,7 @@ msgctxt ""
 "par_id3150771\n"
 "help.text"
 msgid "Global VarName[(start To end)] [As VarType][, VarName2[(start To end)] [As VarType][,...]]"
-msgstr "Global VarName[(Anfang To Ende)] [As VarTyp][, VarName2[(Anfang To Ende)] [As VarTyp][,...]]"
+msgstr "Global VarName[(Anfang bis Ende)] [As VarType][, VarName2[(Anfang bis Ende)] [As VarType][,...]]"
 
 #. 5eZkE
 #: 03103450.xhp
@@ -28967,7 +28967,7 @@ msgctxt ""
 "par_id3150400\n"
 "help.text"
 msgid "Static VarName[(start To end)] [As VarType], VarName2[(start To end)] [As VarType], ..."
-msgstr "Static VarName[(Anfang To Ende)] [As VarTyp][, VarName2[(Anfang To Ende)] [As VarTyp], ..."
+msgstr "Static VarName[(Anfang bis Ende)] [As VarType][, VarName2[(Anfang bis Ende)] [As VarType], ..."
 
 #. xQqMt
 #: 03103500.xhp
