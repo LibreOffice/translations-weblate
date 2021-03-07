@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-01-08 15:26+0100\n"
-"PO-Revision-Date: 2021-02-18 21:36+0000\n"
+"PO-Revision-Date: 2021-03-07 13:36+0000\n"
 "Last-Translator: Riyadh Talal <riyadhtalal@gmail.com>\n"
 "Language-Team: Arabic <https://translations.documentfoundation.org/projects/libo_ui-6-4/sfx2messages/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-POOTLE-MTIME: 1540149332.000000\n"
 
 #. bHbFE
@@ -80,7 +80,7 @@ msgstr "احذف"
 #: include/sfx2/strings.hrc:35
 msgctxt "STR_SFX_RENAME"
 msgid "Rename"
-msgstr ""
+msgstr "أعِد التسمية"
 
 #. C2ngg
 #: include/sfx2/strings.hrc:36
@@ -767,6 +767,10 @@ msgid ""
 "Would you like to change the document, and update all links\n"
 "to get the most recent data?"
 msgstr ""
+"يحتوي المستند %{filename} رابطا أو أكثر الى بيانات خارجية.\n"
+"\n"
+"أترغب في تحديث المستند، وتحديث كل الروابط\n"
+"للحصول على أحدث البيانات؟"
 
 #. zJGEM
 #: include/sfx2/strings.hrc:146
@@ -1020,7 +1024,7 @@ msgstr "أفلت مستندا هنا أو اختر تطبيقا من الجهة 
 #: include/sfx2/strings.hrc:186
 msgctxt "STR_REDACTION_TARGET_TYPE_TEXT"
 msgid "Text"
-msgstr ""
+msgstr "نص"
 
 #. YXSet
 #: include/sfx2/strings.hrc:187
@@ -1032,13 +1036,13 @@ msgstr ""
 #: include/sfx2/strings.hrc:188
 msgctxt "STR_REDACTION_TARGET_TYPE_PREDEF"
 msgid "Predefined"
-msgstr ""
+msgstr "معرّف مسبقا"
 
 #. bDjwW
 #: include/sfx2/strings.hrc:189
 msgctxt "STR_REDACTION_TARGET_TYPE_UNKNOWN"
 msgid "Unknown"
-msgstr ""
+msgstr "غير معروف"
 
 #. Ao6kC
 #. Translators: Column headers in Auto-redaction dialog's targets list
@@ -1137,13 +1141,13 @@ msgstr ""
 #: include/sfx2/strings.hrc:211
 msgctxt "STR_REDACTION_EDIT_TARGET"
 msgid "Edit Target"
-msgstr ""
+msgstr "حرّر الوجهة"
 
 #. ACY9D
 #: include/sfx2/strings.hrc:212
 msgctxt "STR_REDACTION_TARGET_ADD_ERROR"
 msgid "An error occurred while adding new target. Please report this incident."
-msgstr ""
+msgstr "حصل خطأ أثناء إضافة وجهة جديدة. رجاءا أبلغ عن هذه الحادثة."
 
 #. FQ9kN
 #: include/sfx2/strings.hrc:214
@@ -2253,7 +2257,7 @@ msgstr "أنماط"
 #: sfx2/uiconfig/ui/addtargetdialog.ui:8
 msgctxt "addtargetdialog|AddTargetDialog"
 msgid "Add Target"
-msgstr ""
+msgstr "أضف وجهة"
 
 #. JC8Vd
 #: sfx2/uiconfig/ui/addtargetdialog.ui:88
@@ -2391,7 +2395,7 @@ msgstr ""
 #: sfx2/uiconfig/ui/autoredactdialog.ui:122
 msgctxt "autoredactdialog|target"
 msgid "Target Name"
-msgstr ""
+msgstr "اسم الوجهة"
 
 #. szYkX
 #: sfx2/uiconfig/ui/autoredactdialog.ui:135
@@ -2427,31 +2431,31 @@ msgstr ""
 #: sfx2/uiconfig/ui/autoredactdialog.ui:224
 msgctxt "autoredactdialog|btnLoadTargets"
 msgid "Load Targets"
-msgstr ""
+msgstr "حمّل الوجهات"
 
 #. tpbYA
 #: sfx2/uiconfig/ui/autoredactdialog.ui:239
 msgctxt "autoredactdialog|btnSaveTargets"
 msgid "Save Targets"
-msgstr ""
+msgstr "احفظ الوجهات"
 
 #. TQg85
 #: sfx2/uiconfig/ui/autoredactdialog.ui:253
 msgctxt "autoredactdialog|add"
 msgid "Add Target"
-msgstr ""
+msgstr "أضف وجهة"
 
 #. 4TvHR
 #: sfx2/uiconfig/ui/autoredactdialog.ui:268
 msgctxt "autoredactdialog|edit"
 msgid "Edit Target"
-msgstr ""
+msgstr "حرّر الوجهة"
 
 #. knEqb
 #: sfx2/uiconfig/ui/autoredactdialog.ui:282
 msgctxt "autoredactdialog|delete"
 msgid "Delete Target"
-msgstr ""
+msgstr "احذف الوجهة"
 
 #. iLkdK
 #: sfx2/uiconfig/ui/bookmarkdialog.ui:8
@@ -3250,7 +3254,7 @@ msgstr "الطباعة إلى _ملف"
 #: sfx2/uiconfig/ui/optprintpage.ui:75
 msgctxt "optprintpage|label4"
 msgid "Settings for"
-msgstr ""
+msgstr "إعدادات لـ"
 
 #. 2T5Af
 #: sfx2/uiconfig/ui/optprintpage.ui:108
