@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-02-22 17:17+0100\n"
+"POT-Creation-Date: 2021-03-08 14:40+0100\n"
 "PO-Revision-Date: 2021-02-23 10:06+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_ui-master/officecfgregistrydataorgopenofficeofficeui/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1554834571.000000\n"
 
 #. W5ukN
@@ -1296,15 +1296,25 @@ msgctxt ""
 msgid "Select Unprotected Cells"
 msgstr "Zaznacz niechronione komórki"
 
-#. pqtqc
+#. L2c5b
 #: CalcCommands.xcu
 msgctxt ""
 "CalcCommands.xcu\n"
-"..CalcCommands.UserInterface.Commands..uno:SelectVisibleCells\n"
+"..CalcCommands.UserInterface.Commands..uno:SelectVisibleRows\n"
 "Label\n"
 "value.text"
-msgid "Select Visible Cells Only"
-msgstr "Zaznacz tylko widoczne komórki"
+msgid "Select Visible Rows Only"
+msgstr ""
+
+#. rDd3w
+#: CalcCommands.xcu
+msgctxt ""
+"CalcCommands.xcu\n"
+"..CalcCommands.UserInterface.Commands..uno:SelectVisibleColumns\n"
+"Label\n"
+"value.text"
+msgid "Select Visible Columns Only"
+msgstr ""
 
 #. LEvrC
 #: CalcCommands.xcu
@@ -20638,35 +20648,25 @@ msgctxt ""
 msgid "Background Color"
 msgstr "Kolor tła"
 
-#. G3ByE
+#. ARiD2
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
 "Label\n"
 "value.text"
-msgid "Character Highlighting Color (in Text Box and Shapes)"
-msgstr "Kolor wyróżnienia znaków (w polu tekstowym i kształtach)"
-
-#. oPNLk
-#: GenericCommands.xcu
-msgctxt ""
-"GenericCommands.xcu\n"
-"..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
-"ContextLabel\n"
-"value.text"
 msgid "Character Highlighting Color"
-msgstr "Kolor wyróżnienia znaków"
+msgstr ""
 
-#. LFiUU
+#. h68Rw
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
 "TooltipLabel\n"
 "value.text"
-msgid "Character Highlighting Color"
-msgstr "Kolor wyróżniania znaków"
+msgid "Character Highlighting Color (in Text Box and Shapes)"
+msgstr ""
 
 #. SPsxZ
 #: GenericCommands.xcu
@@ -26098,15 +26098,15 @@ msgctxt ""
 msgid "No-~width Optional Break"
 msgstr "Podział opcjonalny zero~wej szerokości"
 
-#. G9edG
+#. Gjgjy
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
-"..GenericCommands.UserInterface.Popups..uno:InsertZWNBSP\n"
+"..GenericCommands.UserInterface.Popups..uno:InsertWJ\n"
 "Label\n"
 "value.text"
-msgid "No-width No ~Break"
-msgstr "Łącznik nierozdzielający zerowej szerokości"
+msgid "Word ~Joiner"
+msgstr ""
 
 #. UvwGS
 #: GenericCommands.xcu
@@ -33378,6 +33378,16 @@ msgctxt ""
 msgid "Restart Numbering"
 msgstr "Zacznij numerację od nowa"
 
+#. htXQ9
+#: WriterCommands.xcu
+msgctxt ""
+"WriterCommands.xcu\n"
+"..WriterCommands.UserInterface.Commands..uno:NumberingStart\n"
+"TooltipLabel\n"
+"value.text"
+msgid "Toggle Restart Numbering"
+msgstr ""
+
 #. ofjeC
 #: WriterCommands.xcu
 msgctxt ""
@@ -33887,16 +33897,6 @@ msgctxt ""
 "value.text"
 msgid "Fields"
 msgstr "Pola"
-
-#. LVtM7
-#: WriterCommands.xcu
-msgctxt ""
-"WriterCommands.xcu\n"
-"..WriterCommands.UserInterface.Commands..uno:CharBackgroundExt\n"
-"Label\n"
-"value.text"
-msgid "Highlight Fill"
-msgstr "Wypełnienie wyróżniające"
 
 #. FEAFx
 #: WriterCommands.xcu
@@ -38397,6 +38397,46 @@ msgctxt ""
 "value.text"
 msgid "Fontwork Shape"
 msgstr "Fontwork - Kształt"
+
+#~ msgctxt ""
+#~ "CalcCommands.xcu\n"
+#~ "..CalcCommands.UserInterface.Commands..uno:SelectVisibleCells\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Select Visible Cells Only"
+#~ msgstr "Zaznacz tylko widoczne komórki"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Character Highlighting Color (in Text Box and Shapes)"
+#~ msgstr "Kolor wyróżnienia znaków (w polu tekstowym i kształtach)"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
+#~ "TooltipLabel\n"
+#~ "value.text"
+#~ msgid "Character Highlighting Color"
+#~ msgstr "Kolor wyróżniania znaków"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Popups..uno:InsertZWNBSP\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "No-width No ~Break"
+#~ msgstr "Łącznik nierozdzielający zerowej szerokości"
+
+#~ msgctxt ""
+#~ "WriterCommands.xcu\n"
+#~ "..WriterCommands.UserInterface.Commands..uno:CharBackgroundExt\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Highlight Fill"
+#~ msgstr "Wypełnienie wyróżniające"
 
 #~ msgctxt ""
 #~ "GenericCommands.xcu\n"

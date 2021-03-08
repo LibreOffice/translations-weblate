@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-02-22 17:17+0100\n"
+"POT-Creation-Date: 2021-03-08 14:40+0100\n"
 "PO-Revision-Date: 2021-02-28 09:36+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_ui-master/officecfgregistrydataorgopenofficeofficeui/el/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: LibreOffice\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1562571877.000000\n"
 
@@ -1297,15 +1297,25 @@ msgctxt ""
 msgid "Select Unprotected Cells"
 msgstr "Επιλογή απροστάτευτων κελιών"
 
-#. pqtqc
+#. L2c5b
 #: CalcCommands.xcu
 msgctxt ""
 "CalcCommands.xcu\n"
-"..CalcCommands.UserInterface.Commands..uno:SelectVisibleCells\n"
+"..CalcCommands.UserInterface.Commands..uno:SelectVisibleRows\n"
 "Label\n"
 "value.text"
-msgid "Select Visible Cells Only"
-msgstr "Επιλέξτε μόνο ορατά κελιά"
+msgid "Select Visible Rows Only"
+msgstr ""
+
+#. rDd3w
+#: CalcCommands.xcu
+msgctxt ""
+"CalcCommands.xcu\n"
+"..CalcCommands.UserInterface.Commands..uno:SelectVisibleColumns\n"
+"Label\n"
+"value.text"
+msgid "Select Visible Columns Only"
+msgstr ""
 
 #. LEvrC
 #: CalcCommands.xcu
@@ -20639,35 +20649,25 @@ msgctxt ""
 msgid "Background Color"
 msgstr "Χρώμα παρασκηνίου"
 
-#. G3ByE
+#. ARiD2
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
 "Label\n"
 "value.text"
-msgid "Character Highlighting Color (in Text Box and Shapes)"
-msgstr "Χρώμα επισήμανσης χαρακτήρα (σε πλαίσιο κειμένου και σχήματα)"
-
-#. oPNLk
-#: GenericCommands.xcu
-msgctxt ""
-"GenericCommands.xcu\n"
-"..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
-"ContextLabel\n"
-"value.text"
 msgid "Character Highlighting Color"
-msgstr "Χρώμα επισήμανσης χαρακτήρα"
+msgstr ""
 
-#. LFiUU
+#. h68Rw
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
 "TooltipLabel\n"
 "value.text"
-msgid "Character Highlighting Color"
-msgstr "Χρώμα επισήμανσης χαρακτήρα"
+msgid "Character Highlighting Color (in Text Box and Shapes)"
+msgstr ""
 
 #. SPsxZ
 #: GenericCommands.xcu
@@ -26099,15 +26099,15 @@ msgctxt ""
 msgid "No-~width Optional Break"
 msgstr "Πρ~οαιρετικός χωρισμός μηδενικού πλάτους"
 
-#. G9edG
+#. Gjgjy
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
-"..GenericCommands.UserInterface.Popups..uno:InsertZWNBSP\n"
+"..GenericCommands.UserInterface.Popups..uno:InsertWJ\n"
 "Label\n"
 "value.text"
-msgid "No-width No ~Break"
-msgstr "Χωρίς α~λλαγή μηδενικού πλάτους"
+msgid "Word ~Joiner"
+msgstr ""
 
 #. UvwGS
 #: GenericCommands.xcu
@@ -33379,6 +33379,16 @@ msgctxt ""
 msgid "Restart Numbering"
 msgstr "Επανεκκίνηση αρίθμησης"
 
+#. htXQ9
+#: WriterCommands.xcu
+msgctxt ""
+"WriterCommands.xcu\n"
+"..WriterCommands.UserInterface.Commands..uno:NumberingStart\n"
+"TooltipLabel\n"
+"value.text"
+msgid "Toggle Restart Numbering"
+msgstr ""
+
 #. ofjeC
 #: WriterCommands.xcu
 msgctxt ""
@@ -33888,16 +33898,6 @@ msgctxt ""
 "value.text"
 msgid "Fields"
 msgstr "Πεδία"
-
-#. LVtM7
-#: WriterCommands.xcu
-msgctxt ""
-"WriterCommands.xcu\n"
-"..WriterCommands.UserInterface.Commands..uno:CharBackgroundExt\n"
-"Label\n"
-"value.text"
-msgid "Highlight Fill"
-msgstr "Γέμισμα επισήμανσης"
 
 #. FEAFx
 #: WriterCommands.xcu
@@ -38398,6 +38398,46 @@ msgctxt ""
 "value.text"
 msgid "Fontwork Shape"
 msgstr "Σχήμα Fontwork"
+
+#~ msgctxt ""
+#~ "CalcCommands.xcu\n"
+#~ "..CalcCommands.UserInterface.Commands..uno:SelectVisibleCells\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Select Visible Cells Only"
+#~ msgstr "Επιλέξτε μόνο ορατά κελιά"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Character Highlighting Color (in Text Box and Shapes)"
+#~ msgstr "Χρώμα επισήμανσης χαρακτήρα (σε πλαίσιο κειμένου και σχήματα)"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
+#~ "TooltipLabel\n"
+#~ "value.text"
+#~ msgid "Character Highlighting Color"
+#~ msgstr "Χρώμα επισήμανσης χαρακτήρα"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Popups..uno:InsertZWNBSP\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "No-width No ~Break"
+#~ msgstr "Χωρίς α~λλαγή μηδενικού πλάτους"
+
+#~ msgctxt ""
+#~ "WriterCommands.xcu\n"
+#~ "..WriterCommands.UserInterface.Commands..uno:CharBackgroundExt\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Highlight Fill"
+#~ msgstr "Γέμισμα επισήμανσης"
 
 #~ msgctxt ""
 #~ "GenericCommands.xcu\n"

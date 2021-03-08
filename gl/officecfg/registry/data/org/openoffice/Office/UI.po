@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-02-22 17:17+0100\n"
+"POT-Creation-Date: 2021-03-08 14:40+0100\n"
 "PO-Revision-Date: 2021-02-24 20:36+0000\n"
 "Last-Translator: Xosé <xosecalvo@gmail.com>\n"
 "Language-Team: Galician <https://translations.documentfoundation.org/projects/libo_ui-master/officecfgregistrydataorgopenofficeofficeui/gl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1566398018.000000\n"
 
 #. W5ukN
@@ -1296,15 +1296,25 @@ msgctxt ""
 msgid "Select Unprotected Cells"
 msgstr "Seleccionar as celas desprotexidas"
 
-#. pqtqc
+#. L2c5b
 #: CalcCommands.xcu
 msgctxt ""
 "CalcCommands.xcu\n"
-"..CalcCommands.UserInterface.Commands..uno:SelectVisibleCells\n"
+"..CalcCommands.UserInterface.Commands..uno:SelectVisibleRows\n"
 "Label\n"
 "value.text"
-msgid "Select Visible Cells Only"
-msgstr "Seleccionar só celas visíbeis"
+msgid "Select Visible Rows Only"
+msgstr ""
+
+#. rDd3w
+#: CalcCommands.xcu
+msgctxt ""
+"CalcCommands.xcu\n"
+"..CalcCommands.UserInterface.Commands..uno:SelectVisibleColumns\n"
+"Label\n"
+"value.text"
+msgid "Select Visible Columns Only"
+msgstr ""
 
 #. LEvrC
 #: CalcCommands.xcu
@@ -20638,35 +20648,25 @@ msgctxt ""
 msgid "Background Color"
 msgstr "Cor de fondo"
 
-#. G3ByE
+#. ARiD2
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
 "Label\n"
 "value.text"
-msgid "Character Highlighting Color (in Text Box and Shapes)"
-msgstr "Cor de realce de caracteres (en caixas de texto e formas)"
-
-#. oPNLk
-#: GenericCommands.xcu
-msgctxt ""
-"GenericCommands.xcu\n"
-"..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
-"ContextLabel\n"
-"value.text"
 msgid "Character Highlighting Color"
-msgstr "Cor de realce de caracteres"
+msgstr ""
 
-#. LFiUU
+#. h68Rw
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
 "TooltipLabel\n"
 "value.text"
-msgid "Character Highlighting Color"
-msgstr "Cor do realce de caracteres"
+msgid "Character Highlighting Color (in Text Box and Shapes)"
+msgstr ""
 
 #. SPsxZ
 #: GenericCommands.xcu
@@ -26098,15 +26098,15 @@ msgctxt ""
 msgid "No-~width Optional Break"
 msgstr "~Quebra opcional sen largura"
 
-#. G9edG
+#. Gjgjy
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
-"..GenericCommands.UserInterface.Popups..uno:InsertZWNBSP\n"
+"..GenericCommands.UserInterface.Popups..uno:InsertWJ\n"
 "Label\n"
 "value.text"
-msgid "No-width No ~Break"
-msgstr "~Sen quebra sen largura"
+msgid "Word ~Joiner"
+msgstr ""
 
 #. UvwGS
 #: GenericCommands.xcu
@@ -33378,6 +33378,16 @@ msgctxt ""
 msgid "Restart Numbering"
 msgstr "Reiniciar numeración"
 
+#. htXQ9
+#: WriterCommands.xcu
+msgctxt ""
+"WriterCommands.xcu\n"
+"..WriterCommands.UserInterface.Commands..uno:NumberingStart\n"
+"TooltipLabel\n"
+"value.text"
+msgid "Toggle Restart Numbering"
+msgstr ""
+
 #. ofjeC
 #: WriterCommands.xcu
 msgctxt ""
@@ -33887,16 +33897,6 @@ msgctxt ""
 "value.text"
 msgid "Fields"
 msgstr "Campos"
-
-#. LVtM7
-#: WriterCommands.xcu
-msgctxt ""
-"WriterCommands.xcu\n"
-"..WriterCommands.UserInterface.Commands..uno:CharBackgroundExt\n"
-"Label\n"
-"value.text"
-msgid "Highlight Fill"
-msgstr "Recheo de realce"
 
 #. FEAFx
 #: WriterCommands.xcu
@@ -38397,6 +38397,46 @@ msgctxt ""
 "value.text"
 msgid "Fontwork Shape"
 msgstr "Forma Fontwork"
+
+#~ msgctxt ""
+#~ "CalcCommands.xcu\n"
+#~ "..CalcCommands.UserInterface.Commands..uno:SelectVisibleCells\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Select Visible Cells Only"
+#~ msgstr "Seleccionar só celas visíbeis"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Character Highlighting Color (in Text Box and Shapes)"
+#~ msgstr "Cor de realce de caracteres (en caixas de texto e formas)"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
+#~ "TooltipLabel\n"
+#~ "value.text"
+#~ msgid "Character Highlighting Color"
+#~ msgstr "Cor do realce de caracteres"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Popups..uno:InsertZWNBSP\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "No-width No ~Break"
+#~ msgstr "~Sen quebra sen largura"
+
+#~ msgctxt ""
+#~ "WriterCommands.xcu\n"
+#~ "..WriterCommands.UserInterface.Commands..uno:CharBackgroundExt\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Highlight Fill"
+#~ msgstr "Recheo de realce"
 
 #~ msgctxt ""
 #~ "GenericCommands.xcu\n"

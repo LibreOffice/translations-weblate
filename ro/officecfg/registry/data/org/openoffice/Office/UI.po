@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-02-22 17:17+0100\n"
+"POT-Creation-Date: 2021-03-08 14:40+0100\n"
 "PO-Revision-Date: 2019-11-05 12:34+0000\n"
 "Last-Translator: Dorian Baciu <baciudorian@gmail.com>\n"
 "Language-Team: Romanian <https://vm137.documentfoundation.org/projects/libo_ui-master/officecfgregistrydataorgopenofficeofficeui/ro/>\n"
@@ -1297,14 +1297,24 @@ msgctxt ""
 msgid "Select Unprotected Cells"
 msgstr "La următoarea celulă neprotejată"
 
-#. pqtqc
+#. L2c5b
 #: CalcCommands.xcu
 msgctxt ""
 "CalcCommands.xcu\n"
-"..CalcCommands.UserInterface.Commands..uno:SelectVisibleCells\n"
+"..CalcCommands.UserInterface.Commands..uno:SelectVisibleRows\n"
 "Label\n"
 "value.text"
-msgid "Select Visible Cells Only"
+msgid "Select Visible Rows Only"
+msgstr ""
+
+#. rDd3w
+#: CalcCommands.xcu
+msgctxt ""
+"CalcCommands.xcu\n"
+"..CalcCommands.UserInterface.Commands..uno:SelectVisibleColumns\n"
+"Label\n"
+"value.text"
+msgid "Select Visible Columns Only"
 msgstr ""
 
 #. LEvrC
@@ -20699,34 +20709,24 @@ msgctxt ""
 msgid "Background Color"
 msgstr "Culoare de fundal"
 
-#. G3ByE
+#. ARiD2
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
 "Label\n"
 "value.text"
-msgid "Character Highlighting Color (in Text Box and Shapes)"
-msgstr ""
-
-#. oPNLk
-#: GenericCommands.xcu
-msgctxt ""
-"GenericCommands.xcu\n"
-"..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
-"ContextLabel\n"
-"value.text"
 msgid "Character Highlighting Color"
 msgstr ""
 
-#. LFiUU
+#. h68Rw
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
 "TooltipLabel\n"
 "value.text"
-msgid "Character Highlighting Color"
+msgid "Character Highlighting Color (in Text Box and Shapes)"
 msgstr ""
 
 #. SPsxZ
@@ -26198,14 +26198,14 @@ msgctxt ""
 msgid "No-~width Optional Break"
 msgstr ""
 
-#. G9edG
+#. Gjgjy
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
-"..GenericCommands.UserInterface.Popups..uno:InsertZWNBSP\n"
+"..GenericCommands.UserInterface.Popups..uno:InsertWJ\n"
 "Label\n"
 "value.text"
-msgid "No-width No ~Break"
+msgid "Word ~Joiner"
 msgstr ""
 
 #. UvwGS
@@ -33523,6 +33523,16 @@ msgctxt ""
 msgid "Restart Numbering"
 msgstr "Reîncepe numerotarea"
 
+#. htXQ9
+#: WriterCommands.xcu
+msgctxt ""
+"WriterCommands.xcu\n"
+"..WriterCommands.UserInterface.Commands..uno:NumberingStart\n"
+"TooltipLabel\n"
+"value.text"
+msgid "Toggle Restart Numbering"
+msgstr ""
+
 #. ofjeC
 #: WriterCommands.xcu
 msgctxt ""
@@ -34032,16 +34042,6 @@ msgctxt ""
 "value.text"
 msgid "Fields"
 msgstr "Câmpuri"
-
-#. LVtM7
-#: WriterCommands.xcu
-msgctxt ""
-"WriterCommands.xcu\n"
-"..WriterCommands.UserInterface.Commands..uno:CharBackgroundExt\n"
-"Label\n"
-"value.text"
-msgid "Highlight Fill"
-msgstr "Evidențiază umplerea"
 
 #. FEAFx
 #: WriterCommands.xcu
@@ -38554,6 +38554,14 @@ msgctxt ""
 "value.text"
 msgid "Fontwork Shape"
 msgstr "Formă Fontwork"
+
+#~ msgctxt ""
+#~ "WriterCommands.xcu\n"
+#~ "..WriterCommands.UserInterface.Commands..uno:CharBackgroundExt\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Highlight Fill"
+#~ msgstr "Evidențiază umplerea"
 
 #~ msgctxt ""
 #~ "GenericCommands.xcu\n"

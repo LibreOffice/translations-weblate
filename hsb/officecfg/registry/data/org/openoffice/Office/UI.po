@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-02-22 17:17+0100\n"
+"POT-Creation-Date: 2021-03-08 14:40+0100\n"
 "PO-Revision-Date: 2021-03-04 19:36+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Upper Sorbian <https://translations.documentfoundation.org/projects/libo_ui-master/officecfgregistrydataorgopenofficeofficeui/hsb/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565003053.000000\n"
 
 #. W5ukN
@@ -1296,15 +1296,25 @@ msgctxt ""
 msgid "Select Unprotected Cells"
 msgstr "Nješkitane cele wubrać"
 
-#. pqtqc
+#. L2c5b
 #: CalcCommands.xcu
 msgctxt ""
 "CalcCommands.xcu\n"
-"..CalcCommands.UserInterface.Commands..uno:SelectVisibleCells\n"
+"..CalcCommands.UserInterface.Commands..uno:SelectVisibleRows\n"
 "Label\n"
 "value.text"
-msgid "Select Visible Cells Only"
-msgstr "Jenož widźomne cele wubrać"
+msgid "Select Visible Rows Only"
+msgstr ""
+
+#. rDd3w
+#: CalcCommands.xcu
+msgctxt ""
+"CalcCommands.xcu\n"
+"..CalcCommands.UserInterface.Commands..uno:SelectVisibleColumns\n"
+"Label\n"
+"value.text"
+msgid "Select Visible Columns Only"
+msgstr ""
 
 #. LEvrC
 #: CalcCommands.xcu
@@ -20638,35 +20648,25 @@ msgctxt ""
 msgid "Background Color"
 msgstr "Pozadkowa barba"
 
-#. G3ByE
+#. ARiD2
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
 "Label\n"
 "value.text"
-msgid "Character Highlighting Color (in Text Box and Shapes)"
-msgstr "Wuzběhowanska barba znamješkow (w tekstowych polach a twarach)"
-
-#. oPNLk
-#: GenericCommands.xcu
-msgctxt ""
-"GenericCommands.xcu\n"
-"..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
-"ContextLabel\n"
-"value.text"
 msgid "Character Highlighting Color"
-msgstr "Barba za znamješkowe wuzběhnjenje"
+msgstr ""
 
-#. LFiUU
+#. h68Rw
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
 "TooltipLabel\n"
 "value.text"
-msgid "Character Highlighting Color"
-msgstr "Barba za znamješkowe wuzběhnjenje"
+msgid "Character Highlighting Color (in Text Box and Shapes)"
+msgstr ""
 
 #. SPsxZ
 #: GenericCommands.xcu
@@ -26098,15 +26098,15 @@ msgctxt ""
 msgid "No-~width Optional Break"
 msgstr "Mje~chke łamanje, bjez šěrokosće"
 
-#. G9edG
+#. Gjgjy
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
-"..GenericCommands.UserInterface.Popups..uno:InsertZWNBSP\n"
+"..GenericCommands.UserInterface.Popups..uno:InsertWJ\n"
 "Label\n"
 "value.text"
-msgid "No-width No ~Break"
-msgstr "Wjazawka ~bjez šěrokosće"
+msgid "Word ~Joiner"
+msgstr ""
 
 #. UvwGS
 #: GenericCommands.xcu
@@ -33378,6 +33378,16 @@ msgctxt ""
 msgid "Restart Numbering"
 msgstr "Čisłowanje nowo započeć"
 
+#. htXQ9
+#: WriterCommands.xcu
+msgctxt ""
+"WriterCommands.xcu\n"
+"..WriterCommands.UserInterface.Commands..uno:NumberingStart\n"
+"TooltipLabel\n"
+"value.text"
+msgid "Toggle Restart Numbering"
+msgstr ""
+
 #. ofjeC
 #: WriterCommands.xcu
 msgctxt ""
@@ -33887,16 +33897,6 @@ msgctxt ""
 "value.text"
 msgid "Fields"
 msgstr "Pola"
-
-#. LVtM7
-#: WriterCommands.xcu
-msgctxt ""
-"WriterCommands.xcu\n"
-"..WriterCommands.UserInterface.Commands..uno:CharBackgroundExt\n"
-"Label\n"
-"value.text"
-msgid "Highlight Fill"
-msgstr "Wuzběhnjenski pjelnjak"
 
 #. FEAFx
 #: WriterCommands.xcu
@@ -38397,6 +38397,46 @@ msgctxt ""
 "value.text"
 msgid "Fontwork Shape"
 msgstr "Twar fontwork"
+
+#~ msgctxt ""
+#~ "CalcCommands.xcu\n"
+#~ "..CalcCommands.UserInterface.Commands..uno:SelectVisibleCells\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Select Visible Cells Only"
+#~ msgstr "Jenož widźomne cele wubrać"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Character Highlighting Color (in Text Box and Shapes)"
+#~ msgstr "Wuzběhowanska barba znamješkow (w tekstowych polach a twarach)"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:CharBackColor\n"
+#~ "TooltipLabel\n"
+#~ "value.text"
+#~ msgid "Character Highlighting Color"
+#~ msgstr "Barba za znamješkowe wuzběhnjenje"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Popups..uno:InsertZWNBSP\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "No-width No ~Break"
+#~ msgstr "Wjazawka ~bjez šěrokosće"
+
+#~ msgctxt ""
+#~ "WriterCommands.xcu\n"
+#~ "..WriterCommands.UserInterface.Commands..uno:CharBackgroundExt\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Highlight Fill"
+#~ msgstr "Wuzběhnjenski pjelnjak"
 
 #~ msgctxt ""
 #~ "GenericCommands.xcu\n"
