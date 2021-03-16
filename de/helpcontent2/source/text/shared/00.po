@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-12-17 23:05+0100\n"
-"PO-Revision-Date: 2021-03-07 20:36+0000\n"
+"PO-Revision-Date: 2021-03-16 12:36+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-6-4/textshared00/de/>\n"
 "Language: de\n"
@@ -554,7 +554,7 @@ msgctxt ""
 "par_id3147418\n"
 "help.text"
 msgid "The search supports wildcards or <link href=\"text/shared/01/02100001.xhp\" name=\"regular expressions\">regular expressions</link>. With regular expressions enabled, you can enter \"all.*\", for example to find the first location of \"all\" followed by any characters. If you want to search for a text that is also a regular expression, you must either precede every character with a \"\\\" character, or enclose the text into \\Q...\\E. You can switch the automatic evaluation of wildcards or regular expression on and off in <link href=\"text/shared/optionen/01060500.xhp\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calculate</menuitem></link>."
-msgstr "Die Suche unterstützt Platzhalter oder <link href=\"text/shared/01/02100001.xhp\" name=\"regular expressions\">reguläre Ausdrücke</link>. Wenn reguläre Ausdrücke aktiviert sind, können Sie \"alle.*\" Eingeben, um beispielsweise die erste Position von „alle“ gefolgt von beliebigen Zeichen zu finden. Wenn Sie nach einem Text suchen möchten, der auch ein regulärer Ausdruck ist, müssen Sie entweder jedem Zeichen ein \"\\\" voranstellen oder den Text in \"\\Q…\\E\" einschließen. Um die automatische Auswertung von Platzhaltern oder regulären Ausdrücken in ein- und auszuschalten, wählen Sie <link href=\"text/shared/optionen/01060500.xhp\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME – Eigenschaften</menuitem></caseinline><defaultinline><menuitem>Extras – Optionen…</menuitem></defaultinline></switchinline><menuitem> – %PRODUCTNAME Calc – Berechnen</menuitem></link>."
+msgstr "Die Suche unterstützt Platzhalter oder <link href=\"text/shared/01/02100001.xhp\" name=\"regular expressions\">Reguläre Ausdrücke</link>. Wenn \"Reguläre Ausdrücke\" aktiviert sind, können Sie \"ein. *\" eingeben, um beispielsweise die erste Position von \"ein\" gefolgt von beliebigen Zeichen zu finden. Wenn Sie nach einem Text suchen möchten, der auch ein regulärer Ausdruck ist, müssen Sie entweder jedem Zeichen ein \"\\\" voranstellen oder den Text in \"\\Q...\\E\" einschließen. Um die automatische Auswertung von Platzhaltern oder regulären Ausdrücken in ein- und ausschalten, wählen Sie <link href=\"text/shared/optionen/01060500.xhp\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME – Einstellungen</menuitem></caseinline><defaultinline><menuitem>Extras – Optionen…</menuitem></defaultinline></switchinline><menuitem> – %PRODUCTNAME Calc – Berechnen</menuitem></link>."
 
 #. GFeqE
 #: 00000001.xhp
@@ -563,7 +563,7 @@ msgctxt ""
 "par_id651572973288601\n"
 "help.text"
 msgid "When using functions where one or more arguments are search criteria strings that represents a regular expression, the first attempt is to convert the string criteria to numbers. For example, \".0\" will convert to 0.0 and so on. If successful, the match will not be a regular expression match but a numeric match. However, when switching to a locale where the decimal separator is not the dot makes the regular expression conversion work. To force the evaluation of the regular expression instead of a numeric expression, use some expression that can not be misread as numeric, such as \".[0]\" or \".\\0\" or \"(?i).0\"."
-msgstr "Wenn Sie Funktionen verwenden, bei denen ein oder mehrere Argumente Zeichenfolgen für Suchkriterien sind, die einen regulären Ausdruck darstellen, besteht ein erste Versuch darin, die Kriterien für Zeichenfolgen in Zahlen zu konvertieren. Zum Beispiel wird \",0\" in 0,0 konvertiert und so weiter. Bei Erfolg ist die Übereinstimmung keine Übereinstimmung mit regulären Ausdrücken, sondern eine numerische Übereinstimmung. Wenn Sie jedoch zu einem Gebietsschema wechseln, bei dem das Dezimaltrennzeichen nicht das Komma ist, funktioniert die Konvertierung des regulären Ausdrucks. Um die Auswertung des regulären Ausdrucks anstelle eines numerischen Ausdrucks zu erzwingen, verwenden Sie einen Ausdruck, der nicht als numerisch falsch interpretiert werden kann, beispielsweise \",[0]\" oder \",\\0\" oder \"(?i),0\"."
+msgstr "Wenn Sie Funktionen verwenden, bei denen ein oder mehrere Argumente Suchkriterien-Zeichenfolgen sind, die einen regulären Ausdruck darstellen, besteht der erste Versuch darin, die Zeichenfolgen-Kriterien in Zahlen umzuwandeln. Zum Beispiel wird in bestimmten Gebietsschemen \".0\" in \"0.0\" konvertiert und so weiter. Bei Erfolg handelt es sich bei der Übereinstimmung nicht um eine Übereinstimmung mit regulären Ausdrücken, sondern um eine numerische Übereinstimmung. Wenn Sie jedoch zu einem Gebietsschema wechseln, in dem das Dezimaltrennzeichen nicht der Punkt ist, funktioniert die Konvertierung regulärer Ausdrücke. Um die Auswertung des regulären Ausdrucks anstelle eines numerischen Ausdrucks zu erzwingen, verwenden Sie einen Ausdruck, der nicht als numerisch falsch verstanden werden kann, beispielsweise \".[0]\" oder \".\\0\" oder \"(?i).0\"."
 
 #. bEEp5
 #: 00000001.xhp
@@ -896,7 +896,7 @@ msgctxt ""
 "par_id3156281\n"
 "help.text"
 msgid "In $[officename] you can assign hyperlinks to text as well as to graphics and frames (see the Hyperlink Dialog icon on the Standard bar)."
-msgstr "$[officename] bietet Ihnen die Möglichkeit, Hyperlinks auf Text, Grafiken sowie Rahmen zu legen (siehe Symbol Hyperlink in der Symbolleiste Standard)."
+msgstr "In $[officename] können Sie Hyperlinks sowohl Text als auch Grafiken und Rahmen zuweisen (siehe das Symbol für den Dialog \"Hyperlink\" in der Symbolleiste \"Standard\")."
 
 #. uYSgv
 #: 00000002.xhp
@@ -923,7 +923,7 @@ msgctxt ""
 "par_id3154685\n"
 "help.text"
 msgid "An ImageMap is a reference-sensitive graphic or frame. You can click on defined areas of the graphic or frame to go to a target (<link href=\"text/shared/00/00000002.xhp#url\" name=\"URL\">URL</link>), which is linked with the area. The reference areas, along with the linked URLs and corresponding text displayed when resting the mouse pointer on these areas, are defined in the <link href=\"text/shared/01/02220000.xhp\" name=\"ImageMap Editor\">ImageMap Editor</link>."
-msgstr "Eine verweissensitive Grafik ist ein Bereich innerhalb einer Grafik oder eines Rahmens. Sie können definierte Bereiche dieser Grafik oder des Rahmens anklicken und gelangen dann zu einem Sprungziel (<link href=\"text/shared/00/00000002.xhp#url\" name=\"URL\">URL</link>), das mit dem Bereich verknüpft ist. Die Bereiche selbst, die damit verknüpften URLs und die Texte, die beim Ansteuern der Bereiche mit dem Mauszeiger angezeigt werden, legen Sie im <link href=\"text/shared/01/02220000.xhp\" name=\"ImageMap Editor\">Verweissensitive Grafik-Editor</link> fest."
+msgstr "Dies ist eine verweissensitive Grafik oder ein verweissensitiver Rahmen. Sie können auf definierte Bereiche der Grafik oder des Rahmens klicken, um zu einem Ziel zu gelangen (<link href=\"text/shared/00/00000002.xhp#url\" name=\"URL\">URL</link>), welches mit dem Bereich verbunden ist. Die verweisten Bereiche sowie die verknüpften URLs und der entsprechende Text, der angezeigt wird, wenn Sie den Mauszeiger auf diese Bereiche setzen, werden im <link href=\"text/shared/01/02220000.xhp\" name=\"ImageMap Editor\">Verweissensitive Grafik-Editor</link> festgelegt."
 
 #. CzwEW
 #: 00000002.xhp
@@ -1049,7 +1049,7 @@ msgctxt ""
 "par_id3149664\n"
 "help.text"
 msgid "When saving the ImageMap, select the file type <emph>SIP - StarView ImageMap</emph>. This saves the ImageMap directly in a format which can be applied to every active picture or frame in your document. However, if you just want to use the ImageMap on the current picture or frame, you do not have to save it in any special format. After defining the regions, simply click <emph>Apply</emph>. Nothing more is necessary. Client Side ImageMaps saved in <link href=\"text/shared/00/00000002.xhp#html\" name=\"HTML\">HTML</link> format are inserted directly into the page in HTML code."
-msgstr "Wählen Sie zum Speichern der verweissensitiven Grafik den Dateityp <emph>SIP – StarView ImageMap</emph>. Dadurch wird die verweissensitive Grafik direkt in einem Format gespeichert, das auf jede aktive Grafik beziehungsweise jeden aktiven Rahmen in Ihrem Dokument angewendet werden kann. Um die verweissensitive Grafik aber nur auf das aktuelle Bild oder den aktuellen Rahmen anzuwenden, brauchen Sie diese in keinem speziellen Format zu speichern. Nachdem Sie die Bereiche definiert haben, klicken Sie einfach auf <emph>Zuweisen</emph>. Mehr ist nicht nötig. Im <link href=\"text/shared/00/00000002.xhp#html\" name=\"HTML\">HTML</link>-Format gespeicherte Client-seitige verweissensitive Grafiken werden direkt im HTML-Code der Seite eingefügt."
+msgstr "Wählen Sie beim Speichern der Verweissensitiven Grafik den Dateityp <emph>SIP – StarView ImageMap</emph>. Dadurch wird die Verweissensitive Grafik direkt in einem Format gespeichert, das auf jedes aktive Bild oder jeden aktiven Rahme in Ihrem Dokument angewendet werden kann. Wenn Sie die Verweissensitive Grafik jedoch nur für das aktuelle Bild oder den aktuellen Rahmen verwenden möchten, müssen Sie sie nicht in einem speziellen Format speichern. Klicken Sie nach dem Definieren der Regionen einfach auf <emph>Übernehmen</emph>. Mehr ist nicht nötig. Client-seitige verweissensitive Grafiken, die im <link href=\"text/shared/00/00000002.xhp#html\" name=\"HTML\">HTML</link>-Format gespeichert sind, werden im HTML-Code direkt in die Seite eingefügt."
 
 #. JCSdG
 #: 00000002.xhp
@@ -3389,7 +3389,7 @@ msgctxt ""
 "par_id3144510\n"
 "help.text"
 msgid "Frames are supported with the use of CSS1 extensions for absolute positioned objects. This applies only to the export options Mozilla Firefox, MS Internet Explorer, and $[officename] Writer. Frames can be aligned as graphics, <switchinline select=\"sys\"><caseinline select=\"WIN\"> Plug-Ins,</caseinline></switchinline>and Floating Frames, but character-linked frames are not possible."
-msgstr "Rahmen werden mit den CSS1-Extensions für absolut positionierte Objekte unterstützt. Dies gilt nur für die Exportoptionen Mozilla Firefox, MS Internet Explorer und $[officename] Writer. Rahmen können als Grafiken, <switchinline select=\"sys\"><caseinline select=\"WIN\">Plug-Ins</caseinline></switchinline> und schwebende Rahmen ausgerichtet werden, aber Zeichen-verknüpfte Rahmen sind nicht möglich."
+msgstr "Rahmen werden durch die Verwendung von CSS1-Erweiterungen für absolut positionierte Objekte unterstützt. Dies gilt nur für die Exportoptionen Mozilla Firefox, MS Internet Explorer und $[officename] Writer. Rahmen können als Grafiken, <switchinline select=\"sys\"><caseinline select=\"WIN\">Plug-Ins</caseinline></switchinline> und Schwebende Rahmen ausgerichtet werden, aber \"Als Zeichen\" eingebundene Rahmen sind nicht möglich."
 
 #. Vym4j
 #: 00000020.xhp
@@ -3398,7 +3398,7 @@ msgctxt ""
 "par_id3147530\n"
 "help.text"
 msgid "Frames are exported as \"<SPAN>\" or \"<DIV>\" tags if they do not contain columns. If they do contain columns then they are exported as \"<MULTICOL>\"."
-msgstr "Rahmen werden, wenn sie keine Spalten enthalten, als \"<SPAN>\"- oder \"<DIV>\"-Tag exportiert. Sind Spalten enthalten, erfolgt der Export als \"<MULTICOL>\"."
+msgstr "Rahmen werden als \"<SPAN>\"- oder \"<DIV>\"-Tags exportiert, wenn sie keine Spalten enthalten. Wenn sie Spalten enthalten, werden sie als \"<MULTICOL>\" exportiert."
 
 #. wakAb
 #: 00000020.xhp
@@ -4244,7 +4244,7 @@ msgctxt ""
 "par_id3146907\n"
 "help.text"
 msgid "If you want to define another file format as the default, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - </menuitem><link href=\"text/shared/optionen/01010200.xhp\" name=\"Load/Save - General\"><menuitem>Load/Save - General</menuitem></link> to find alternative file formats for each $[officename] document type."
-msgstr "Um ein anderes Dateiformat als das Standardformat zu definieren, wählen Sie <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME – Einstellungen</menuitem></caseinline><defaultinline><menuitem>Extras - Optionen…</menuitem></defaultinline></switchinline><menuitem> - </menuitem><link href=\"text/shared/optionen/01010200.xhp\" name=\"Load/Save - General\"><menuitem>Laden/Speichern – Allgemein</menuitem></link>, um alternative Dateiformate für jeden $[officename]-Dokumenttyp festzulegen."
+msgstr "Wenn Sie ein anderes Dateiformat als Standard festlegen möchten, wählen Sie <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME – Einstellungen</menuitem></caseinline><defaultinline><menuitem>Extras – Optionen…</menuitem></defaultinline></switchinline><menuitem> – </menuitem><link href=\"text/shared/optionen/01010200.xhp\" name=\"Load/Save - General\"><menuitem>Laden/Speichern – Allgemein</menuitem></link>, um alternative Dateiformate für jeden $[officename]-Dokumenttyp zu finden."
 
 #. RrpAt
 #: 00000021.xhp
@@ -6683,7 +6683,7 @@ msgctxt ""
 "par_id3149735\n"
 "help.text"
 msgid "<variable id=\"exportgraphic\">Choose <menuitem>File - Export</menuitem>, select a graphics file type. The dialog opens after you click <widget>Save</widget>.</variable>"
-msgstr "<variable id=\"exportgraphic\">Wählen Sie <menuitem>Datei – Exportieren…</menuitem> und anschließend einen Grafikdateitypen. Der Dialog öffnet sich nach einem Klick auf <widget>Speichern</widget>.</variable>"
+msgstr "<variable id=\"exportgraphic\">Wählen Sie <menuitem>Datei – Exportieren…</menuitem> und wählen Sie einen Grafikdateityp aus. Der Dialog öffnet nach einem Klick auf <widget>Speichern</widget>.</variable>"
 
 #. ZNp8B
 #: 00000401.xhp
@@ -6953,7 +6953,7 @@ msgctxt ""
 "par_id3163421\n"
 "help.text"
 msgid "Choose <menuitem>File - Export As - Export as PDF</menuitem>, <emph>Digital Signatures</emph> tab."
-msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren...</menuitem>, dann das Register <emph>Digitale Signaturen</emph>."
+msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem> – <emph>Register: Digitale Signaturen</emph>."
 
 #. PnEEp
 #: 00000401.xhp
@@ -6962,7 +6962,7 @@ msgctxt ""
 "par_id671574090639995\n"
 "help.text"
 msgid "Choose <menuitem>File - Export As - Export as PDF</menuitem>, <emph>Security</emph> tab."
-msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem>, dann das Register <emph>Sicherheit</emph>."
+msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem> – <emph>Register: Sicherheit</emph>."
 
 #. ZDFjz
 #: 00000401.xhp
@@ -6971,7 +6971,7 @@ msgctxt ""
 "par_id211574090645188\n"
 "help.text"
 msgid "Choose <menuitem>File - Export As - Export as PDF</menuitem>, <emph>General</emph> tab."
-msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem>, dann das Register <emph>Allgemein</emph>."
+msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem> – <emph>Register: Allgemein</emph>."
 
 #. SUTsb
 #: 00000401.xhp
@@ -6980,7 +6980,7 @@ msgctxt ""
 "par_id601574090650587\n"
 "help.text"
 msgid "Choose <menuitem>File - Export As - Export as PDF</menuitem>, <emph>Initial View</emph> tab."
-msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem>, dann das Register <emph>Anfangsdarstellung</emph>."
+msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem> – <emph>Register: Anfangsdarstellung</emph>."
 
 #. dwtTE
 #: 00000401.xhp
@@ -6989,7 +6989,7 @@ msgctxt ""
 "par_id51574090655835\n"
 "help.text"
 msgid "Choose <menuitem>File - Export As - Export as PDF</menuitem>, <emph>Links</emph> tab."
-msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem>, dann das Register <emph>Verknüpfungen</emph>."
+msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem> – <emph>Register: Verknüpfungen</emph>."
 
 #. RGybr
 #: 00000401.xhp
@@ -6998,7 +6998,7 @@ msgctxt ""
 "par_id541574090661437\n"
 "help.text"
 msgid "Choose <menuitem>File - Export As - Export as PDF</menuitem>, <emph>User Interface</emph> tab."
-msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem>, dann das Register <emph>Benutzeroberfläche</emph>."
+msgstr "Wählen Sie <menuitem>Datei – Exportieren als – Als PDF exportieren…</menuitem> – <emph>Register: Benutzeroberfläche</emph>."
 
 #. itwVi
 #: 00000401.xhp
@@ -8303,7 +8303,7 @@ msgctxt ""
 "par_idN108E9\n"
 "help.text"
 msgid "<variable id=\"menuenew\">Choose <menuitem>Tools - Customize - Menus</menuitem> tab, click the gear  <image id=\"img_id3148386\" src=\"cmd/lc_config.svg\" width=\"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3148386\">Icon gear menu</alt></image> dropdown menu and choose <menuitem>Add</menuitem>.</variable>"
-msgstr "<variable id=\"menuenew\">Wählen Sie <menuitem>Extras – Anpassen… – Register: Menüs</menuitem>, klicken Sie auf das Symbol für Optionen <image id=\"img_id3148386\" src=\"cmd/lc_config.svg\" width=\"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3148386\">Symbol für Optionen</alt></image> und wählen Sie <menuitem>Hinzufügen…</menuitem>.</variable>"
+msgstr "<variable id=\"menuenew\">Wählen Sie <menuitem>Extras – Anpassen… – Register: Menüs</menuitem>, klicken Sie auf das Zahnrad-Symbol <image id=\"img_id3148386\" src=\"cmd/lc_config.svg\" width=\"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3148386\">Zahnrad-Symbol</alt></image> und wählen Sie auf dem Dropdown-Menü <menuitem>Hinzufügen…</menuitem>.</variable>"
 
 #. H7agM
 #: 00000406.xhp
@@ -8312,7 +8312,7 @@ msgctxt ""
 "par_idN10919\n"
 "help.text"
 msgid "<variable id=\"menuemove\">Choose <menuitem>Tools - Customize - Menus</menuitem> tab, click the gear   <image id=\"img_id3148386\" src=\"cmd/lc_config.svg\" width=\"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3148386\">Icon gear menu</alt></image>  dropdown menu and choose <menuitem>Move</menuitem>.</variable>"
-msgstr "<variable id=\"menuenew\">Wählen Sie <menuitem>Extras – Anpassen… – Register: Menüs</menuitem>, klicken Sie auf das Symbol für Optionen <image id=\"img_id3148386\" src=\"cmd/lc_config.svg\" width=\"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3148386\">Symbol für Optionen</alt></image> und wählen Sie <menuitem>Verschieben…</menuitem>.</variable>"
+msgstr "<variable id=\"menuenew\">Wählen Sie <menuitem>Extras – Anpassen… – Register: Menüs</menuitem>, klicken Sie auf das Zahnrad-Symbol <image id=\"img_id3148386\" src=\"cmd/lc_config.svg\" width=\"0.2228in\" height=\"0.2228in\"><alt id=\"alt_id3148386\">Zahnrad-Symbol</alt></image> und wählen Sie auf dem Dropdown-Menü <menuitem>Verschieben…</menuitem>.</variable>"
 
 #. BKMeD
 #: 00000406.xhp
@@ -10301,7 +10301,7 @@ msgctxt ""
 "par_id3109845\n"
 "help.text"
 msgid "<image id=\"img_id3159236\" src=\"cmd/sc_window3d.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3159236\">Icon 3d window</alt></image>"
-msgstr "<image id=\"img_id3159236\" src=\"cmd/sc_window3d.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3159236\">Symbol für 3D-Effekt</alt></image>"
+msgstr "<image id=\"img_id3159236\" src=\"cmd/sc_window3d.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3159236\">Symbol für 3D-Effekte</alt></image>"
 
 #. hT4Qu
 #: 00040500.xhp
