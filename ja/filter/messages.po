@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-02-17 15:58+0100\n"
-"PO-Revision-Date: 2021-01-24 12:02+0000\n"
-"Last-Translator: Jun NOGATA <nogajun@gmail.com>\n"
+"PO-Revision-Date: 2021-03-16 04:36+0000\n"
+"Last-Translator: jun meguro <jmaguro@gmail.com>\n"
 "Language-Team: Japanese <https://translations.documentfoundation.org/projects/libo_ui-master/filtermessages/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-POOTLE-MTIME: 1565928198.000000\n"
 
 #. 5AQgJ
@@ -550,7 +550,7 @@ msgstr "%PRODUCTNAME で簡単に編集できる PDF を作成します"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:494
 msgctxt "pdfgeneralpage|extended_tip|embed"
 msgid "This setting enables you to export the document as a .pdf file containing two file formats: PDF and ODF."
-msgstr ""
+msgstr "この設定では、PDFとODFの2つのファイル形式を含む.pdfファイルとしてドキュメントをエクスポートできます。"
 
 #. RAvA6
 #: filter/uiconfig/ui/pdfgeneralpage.ui:505
@@ -568,7 +568,7 @@ msgstr "ドキュメントのコンテンツ構造情報をPDFに含めます"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:515
 msgctxt "pdfgeneralpage|extended_tip|tagged"
 msgid "Select to write PDF tags. This can increase file size by huge amounts."
-msgstr ""
+msgstr "PDFタグを書き込む場合に選択します。これにより、ファイルサイズが大幅に増加する可能性があります。"
 
 #. 6sDFd
 #: filter/uiconfig/ui/pdfgeneralpage.ui:526
@@ -586,7 +586,7 @@ msgstr "記入欄を付加したPDFを作成します"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:536
 msgctxt "pdfgeneralpage|extended_tip|forms"
 msgid "Choose to create a PDF form. This can be filled out and printed by the user of the PDF document."
-msgstr ""
+msgstr "PDFフォームの作成を選択します。これは、PDFドキュメントのユーザーが入力および印刷できます。"
 
 #. B7zan
 #: filter/uiconfig/ui/pdfgeneralpage.ui:555
@@ -598,7 +598,7 @@ msgstr "フィールド名の重複を許可(_N)"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:564
 msgctxt "pdfgeneralpage|extended_tip|allowdups"
 msgid "Allows you to use the same field name for multiple fields in the generated PDF file. If disabled, field names will be exported using generated unique names."
-msgstr ""
+msgstr "生成されたPDFファイル内の複数のフィールドに同じフィールド名を使用できます。無効にすると、生成された一意の名前を使用してフィールド名がエクスポートされます。"
 
 #. tkPCH
 #: filter/uiconfig/ui/pdfgeneralpage.ui:579
@@ -628,7 +628,7 @@ msgstr "XML"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:586
 msgctxt "pdfgeneralpage|extended_tip|format"
 msgid "Select the format of submitting forms from within the PDF file."
-msgstr ""
+msgstr "PDFファイル内からフォームを送信する際の形式を選択します。"
 
 #. ECLBB
 #: filter/uiconfig/ui/pdfgeneralpage.ui:608
@@ -688,7 +688,7 @@ msgstr "アウトラインをエクスポート(_I)"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:785
 msgctxt "pdfgeneralpage|extended_tip|bookmarks"
 msgid "Select to export bookmarks of Writer documents as PDF bookmarks. Bookmarks are created for all outline paragraphs (Tools - Chapter Numbering) and for all table of contents entries for which you did assign hyperlinks in the source document."
-msgstr ""
+msgstr "選択すると、WriterドキュメントのブックマークがPDFブックマークとしてエクスポートされます。ブックマークは、すべてのアウトライン段落(「ツール」-「章番号付け」)およびソースドキュメントでハイパーリンクを割り当てたすべての目次エントリに対して作成されます。"
 
 #. kQbPh
 #: filter/uiconfig/ui/pdfgeneralpage.ui:796
@@ -706,7 +706,7 @@ msgstr "コメントをPDFの注釈とする(_E)"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:820
 msgctxt "pdfgeneralpage|extended_tip|comments"
 msgid "Select to export comments of Writer and Calc documents as PDF annotations."
-msgstr ""
+msgstr "選択すると、WriterおよびCalcドキュメントのコメントがPDF注釈としてエクスポートされます。"
 
 #. y9evS
 #: filter/uiconfig/ui/pdfgeneralpage.ui:831
@@ -718,7 +718,7 @@ msgstr "自動的に挿入された空白ページをエクスポート(_O)"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:840
 msgctxt "pdfgeneralpage|extended_tip|emptypages"
 msgid "If switched on, automatically inserted blank pages are exported to the PDF file. This is best if you are printing the pdf file double-sided. Example: In a book a chapter paragraph style is set to always start with an odd numbered page. If the previous chapter ends on an odd page, %PRODUCTNAME inserts an even numbered blank page. This option controls whether to export that even numbered page or not."
-msgstr ""
+msgstr "有効化すると、自動的に挿入された空白ページがPDFファイルにエクスポートされます。これは、PDFファイルを両面印刷する場合に最適です。例:本では、章の段落スタイルは常に奇数ページから始まるように設定されています。前の章が奇数ページで終わる場合、%PRODUCTNAME は偶数ページの空白ページを挿入します。このオプションは、偶数ページをエクスポートするかどうかを制御します。"
 
 #. sHqKP
 #: filter/uiconfig/ui/pdfgeneralpage.ui:851
@@ -778,7 +778,7 @@ msgstr "参照しているドキュメントもPDFの対象として変換(_C)"
 #: filter/uiconfig/ui/pdflinkspage.ui:58
 msgctxt "pdflinkspage|extended_tip|convert"
 msgid "Enable this checkbox to convert the URLs referencing other ODF files to PDF files with the same name. In the referencing URLs the extensions .odt, .odp, .ods, .odg, and .odm are converted to the extension .pdf."
-msgstr ""
+msgstr "他のODFファイルを参照するURLを同じ名前のPDFファイルに変換するには、このチェック・ボックスを有効にします。参照するURLでは、拡張子.odt、.odp、.ods、.odgおよび.odmが拡張子.pdfに変換されます。"
 
 #. 6Lyp3
 #: filter/uiconfig/ui/pdflinkspage.ui:69
@@ -790,7 +790,7 @@ msgstr "ファイルシステム内の相対URLにエクスポート(_U)"
 #: filter/uiconfig/ui/pdflinkspage.ui:78
 msgctxt "pdflinkspage|extended_tip|exporturl"
 msgid "Enable this checkbox to export URLs to other documents as relative URLs in the file system. See \"relative hyperlinks\" in the Help."
-msgstr ""
+msgstr "このチェックボックスを有効にすると、URLがファイル・システム内の相対URLとしてドキュメントにエクスポートされます。ヘルプの「相対ハイパーリンク」を参照してください。"
 
 #. biumY
 #: filter/uiconfig/ui/pdflinkspage.ui:93
@@ -808,7 +808,7 @@ msgstr "標準モード"
 #: filter/uiconfig/ui/pdflinkspage.ui:131
 msgctxt "pdflinkspage|extended_tip|default"
 msgid "Links from your PDF document to other documents will be handled as it is specified in your operating system."
-msgstr ""
+msgstr "PDFドキュメントから他のドキュメントへのリンクは、オペレーティングシステムで指定されているとおりに処理されます。"
 
 #. DNRK8
 #: filter/uiconfig/ui/pdflinkspage.ui:142
@@ -820,7 +820,7 @@ msgstr "PDFリーダーアプリケーションで開く"
 #: filter/uiconfig/ui/pdflinkspage.ui:151
 msgctxt "pdflinkspage|extended_tip|openpdf"
 msgid "Cross-document links are opened with the PDF reader application that currently shows the document. The PDF reader application must be able to handle the specified file type inside the hyperlink."
-msgstr ""
+msgstr "ドキュメント間リンクは、現在ドキュメントを表示しているPDFリーダー・アプリケーションで開きます。PDFリーダー・アプリケーションは、ハイパーリンク内に指定されたファイル・タイプを処理できる必要があります。"
 
 #. wPem9
 #: filter/uiconfig/ui/pdflinkspage.ui:162
@@ -898,7 +898,7 @@ msgstr "パスワードの設定(_P)…"
 #: filter/uiconfig/ui/pdfsecuritypage.ui:36
 msgctxt "pdfsecuritypage|extended_tip|setpassword"
 msgid "Click to open a dialog where you enter the passwords."
-msgstr ""
+msgstr "クリックすると、パスワードを入力するダイアログボックスが開きます。"
 
 #. 63szB
 #: filter/uiconfig/ui/pdfsecuritypage.ui:55
@@ -982,7 +982,7 @@ msgstr "不許可(_N)"
 #: filter/uiconfig/ui/pdfsecuritypage.ui:303
 msgctxt "pdfsecuritypage|extended_tip|printnone"
 msgid "Printing the document is not permitted."
-msgstr ""
+msgstr "ドキュメントの印刷は許可されていません。"
 
 #. kSfrd
 #: filter/uiconfig/ui/pdfsecuritypage.ui:314
@@ -994,7 +994,7 @@ msgstr "低解像度(150 dpi)(_L)"
 #: filter/uiconfig/ui/pdfsecuritypage.ui:323
 msgctxt "pdfsecuritypage|extended_tip|printlow"
 msgid "The document can only be printed in low resolution (150 dpi). Not all PDF readers honor this setting."
-msgstr ""
+msgstr "ドキュメントは低解像度(150dpi)でのみ印刷できます。すべてのPDFリーダーがこの設定に従うわけではありません。"
 
 #. CmQzT
 #: filter/uiconfig/ui/pdfsecuritypage.ui:334
@@ -1006,7 +1006,7 @@ msgstr "高解像度(_H)"
 #: filter/uiconfig/ui/pdfsecuritypage.ui:343
 msgctxt "pdfsecuritypage|extended_tip|printhigh"
 msgid "The document can be printed in high resolution."
-msgstr ""
+msgstr "文書は高解像度で印刷できます。"
 
 #. Gjpp4
 #: filter/uiconfig/ui/pdfsecuritypage.ui:358
@@ -1024,7 +1024,7 @@ msgstr "不許可(_T)"
 #: filter/uiconfig/ui/pdfsecuritypage.ui:396
 msgctxt "pdfsecuritypage|extended_tip|changenone"
 msgid "No changes of the content are permitted."
-msgstr ""
+msgstr "内容の変更はできません。"
 
 #. Vt6Zn
 #: filter/uiconfig/ui/pdfsecuritypage.ui:407
@@ -1036,7 +1036,7 @@ msgstr "ページの挿入、削除、および回転(_I)"
 #: filter/uiconfig/ui/pdfsecuritypage.ui:416
 msgctxt "pdfsecuritypage|extended_tip|changeinsdel"
 msgid "Only inserting, deleting, and rotating pages is permitted."
-msgstr ""
+msgstr "ページの挿入、削除、および回転のみが許可されます。"
 
 #. dAmDo
 #: filter/uiconfig/ui/pdfsecuritypage.ui:427
@@ -1048,7 +1048,7 @@ msgstr "フォームフィールドへの入力(_F)"
 #: filter/uiconfig/ui/pdfsecuritypage.ui:436
 msgctxt "pdfsecuritypage|extended_tip|changeform"
 msgid "Only filling in form fields is permitted."
-msgstr ""
+msgstr "フォームフィールドへの入力のみが許可されています。"
 
 #. zGE7J
 #: filter/uiconfig/ui/pdfsecuritypage.ui:447
@@ -1060,7 +1060,7 @@ msgstr "注釈とフォームフィールドへの入力(_C)"
 #: filter/uiconfig/ui/pdfsecuritypage.ui:456
 msgctxt "pdfsecuritypage|extended_tip|changecomment"
 msgid "Only commenting and filling in form fields is permitted."
-msgstr ""
+msgstr "フォームフィールドへのコメントと入力のみが許可されています。"
 
 #. uP8VW
 #: filter/uiconfig/ui/pdfsecuritypage.ui:467
@@ -1072,7 +1072,7 @@ msgstr "抽出ページ以外(_A)"
 #: filter/uiconfig/ui/pdfsecuritypage.ui:476
 msgctxt "pdfsecuritypage|extended_tip|changeany"
 msgid "All changes are permitted, except extracting pages."
-msgstr ""
+msgstr "ページの抽出を除くすべての変更が許可されます。"
 
 #. vLxXJ
 #: filter/uiconfig/ui/pdfsecuritypage.ui:491
@@ -1090,7 +1090,7 @@ msgstr "内容のコピーを有効にする(_B)"
 #: filter/uiconfig/ui/pdfsecuritypage.ui:529
 msgctxt "pdfsecuritypage|extended_tip|enablecopy"
 msgid "Select to enable copying of content to the clipboard."
-msgstr ""
+msgstr "クリップボードへのコンテンツのコピーを有効にする場合に選択します。"
 
 #. 2EMgQ
 #: filter/uiconfig/ui/pdfsecuritypage.ui:540
