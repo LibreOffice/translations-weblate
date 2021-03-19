@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-08 14:40+0100\n"
+"POT-Creation-Date: 2021-03-19 17:32+0100\n"
 "PO-Revision-Date: 2019-07-11 19:01+0200\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1610,10 +1610,10 @@ msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Numbering Start Value"
 msgstr ""
 
-#. KYbBB
+#. tBVDF
 #: sw/inc/inspectorproperties.hrc:181
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
-msgid "Numbering Style Name"
+msgid "List Style Name"
 msgstr ""
 
 #. zrVDM
@@ -2315,17 +2315,17 @@ msgctxt "RID_PAGEFORMATPANEL_MARGINS_CM"
 msgid "Mirrored"
 msgstr ""
 
-#. CL5kF
+#. qGjWe
 #. Dialog buttons
 #: sw/inc/strings.hrc:27
 msgctxt "STR_STANDARD_LABEL"
-msgid "Set to ~Parent"
+msgid "Reset to ~Parent"
 msgstr ""
 
-#. JbHNF
+#. FRWsF
 #: sw/inc/strings.hrc:28
 msgctxt "STR_STANDARD_TOOLTIP"
-msgid ""
+msgid "Values on this tab specified in “Contains” in Organizer are removed."
 msgstr ""
 
 #. F6NWs
@@ -2346,10 +2346,10 @@ msgctxt "STR_RESET_TOOLTIP"
 msgid "Unsaved modifications to this tab are reverted."
 msgstr ""
 
-#. VWhVF
+#. Sju8m
 #: sw/inc/strings.hrc:32
 msgctxt "STR_RESET_EXTENDEDTIP"
-msgid ""
+msgid "Revert any changes made on the current tab to the settings that were present when this dialog was opened, or after the last use of “Apply”."
 msgstr ""
 
 #. Lv4Ua
@@ -2358,16 +2358,16 @@ msgctxt "STR_APPLY_LABEL"
 msgid "Apply"
 msgstr ""
 
-#. thWwz
+#. yYQPB
 #: sw/inc/strings.hrc:34
 msgctxt "STR_APPLY_TOOLTIP"
-msgid ""
+msgid "Save all modifications without closing dialog. Cannot be reverted with Reset."
 msgstr ""
 
-#. gKE6L
+#. zqBhC
 #: sw/inc/strings.hrc:35
 msgctxt "STR_APPLY_EXTENDEDTIP"
-msgid ""
+msgid "Values in this tab are set to the corresponding values of the style specified in “Inherit from” in Organizer. In all cases, also when “Inherit from” is “None”, the values on this tab specified in “Contains” are removed."
 msgstr ""
 
 #. MvGmf
@@ -5655,11 +5655,11 @@ msgctxt "STR_STYLE_FAMILY_PAGE"
 msgid "Pages"
 msgstr "താളുകള്‍"
 
-#. ncffA
+#. FFZEr
 #: sw/inc/strings.hrc:607
 msgctxt "STR_STYLE_FAMILY_NUMBERING"
-msgid "Numbering"
-msgstr "അക്കമിടുക"
+msgid "List"
+msgstr ""
 
 #. NydLs
 #: sw/inc/strings.hrc:608
@@ -8503,19 +8503,17 @@ msgctxt "STR_LAYOUT_SPLIT"
 msgid "Split"
 msgstr "വേര്തിരിക്കുക"
 
-#. AETHf
+#. CFmBk
 #: sw/inc/strings.hrc:1129
-#, fuzzy
 msgctxt "STR_NUMRULE_ON"
-msgid "Numbering"
-msgstr "നംന്പറിടുക"
+msgid "List Style: (%LISTSTYLENAME)"
+msgstr ""
 
-#. 7HmsY
+#. HvZBm
 #: sw/inc/strings.hrc:1130
-#, fuzzy
 msgctxt "STR_NUMRULE_OFF"
-msgid "no numbering"
-msgstr "അക്കമിടല്‍ കാണിയ്ക്കുക"
+msgid "List Style: (None)"
+msgstr ""
 
 #. QDaFk
 #: sw/inc/strings.hrc:1131
@@ -10144,6 +10142,12 @@ msgstr "ഖണ്ഡിക യോജിപ്പിക്കുക"
 msgctxt "RID_SHELLRES_AUTOFMTSTRS"
 msgid "Add non breaking space"
 msgstr "നോണ്‍ ബ്രെയിക്കിങ് സ്പെയിസ് ചേര്‍ക്കുക"
+
+#. FHPwi
+#: sw/inc/utlui.hrc:49
+msgctxt "RID_SHELLRES_AUTOFMTSTRS"
+msgid "Transliterates RTL Hungarian text to Old Hungarian script"
+msgstr ""
 
 #. MEgcB
 #: sw/uiconfig/swriter/ui/abstractdialog.ui:22
@@ -30587,6 +30591,20 @@ msgstr "ഐച്ഛികങ്ങള്‍"
 msgctxt "wrappage|extended_tip|WrapPage"
 msgid "Specify the way you want text to wrap around an object."
 msgstr ""
+
+#~ msgctxt "STR_STYLE_FAMILY_NUMBERING"
+#~ msgid "Numbering"
+#~ msgstr "അക്കമിടുക"
+
+#, fuzzy
+#~ msgctxt "STR_NUMRULE_ON"
+#~ msgid "Numbering"
+#~ msgstr "നംന്പറിടുക"
+
+#, fuzzy
+#~ msgctxt "STR_NUMRULE_OFF"
+#~ msgid "no numbering"
+#~ msgstr "അക്കമിടല്‍ കാണിയ്ക്കുക"
 
 #~ msgctxt "STR_POOLCHR_HTML_CITIATION"
 #~ msgid "Quotation"

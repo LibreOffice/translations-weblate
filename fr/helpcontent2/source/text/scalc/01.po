@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-02-17 15:58+0100\n"
+"POT-Creation-Date: 2021-03-19 17:31+0100\n"
 "PO-Revision-Date: 2021-03-05 01:36+0000\n"
 "Last-Translator: sophie <gautier.sophie@gmail.com>\n"
 "Language-Team: French <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/fr/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565208174.000000\n"
 
 #. sZfWF
@@ -1033,14 +1033,14 @@ msgctxt ""
 msgid "<emph>Filling cells using context menus:</emph>"
 msgstr "<emph>Remplissage de cellules à l'aide des menus contextuels :</emph>"
 
-#. hRJz3
+#. 2j5RS
 #: 02140000.xhp
 msgctxt ""
 "02140000.xhp\n"
 "par_id3145384\n"
 "help.text"
-msgid "Call the <link href=\"text/shared/00/00000005.xhp#kontextmenue\" name=\"context menu\">context menu</link> when positioned in a cell and choose <emph>Selection List</emph>."
-msgstr "Placez le curseur sur une cellule, ouvrez le <link href=\"text/shared/00/00000005.xhp#kontextmenue\" name=\"menu contextuel\">menu contextuel</link> et choisissez <emph>Liste de sélection</emph>."
+msgid "Call the <link href=\"text/shared/00/00000005.xhp#contextmenu\" name=\"context menu\">context menu</link> when positioned in a cell and choose <emph>Selection List</emph>."
+msgstr ""
 
 #. BzAsX
 #: 02140000.xhp
@@ -19492,68 +19492,77 @@ msgctxt ""
 msgid "The number 0 is returned for empty cells and matrix elements."
 msgstr "Le chiffre 0 est renvoyé pour les cellules vides et les éléments de matrice."
 
-#. Eg4Cg
+#. frvbX
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_idN11827\n"
 "help.text"
-msgid "<item type=\"input\">=HYPERLINK(\"http://www.example.org\")</item> displays the text \"http://www.example.org\" in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"http://www.exemple.org\")</item> affiche le texte \"http://www.exemple.org\" dans la cellule et exécute le lien hypertexte http://www.exemple.org lorsqu'il est cliqué."
+msgid "<input>=HYPERLINK(\"http://www.example.org\")</input> displays the text \"http://www.example.org\" in the cell and executes the hyperlink http://www.example.org when clicked."
+msgstr ""
 
-#. GThdD
+#. wHG7A
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_idN1182A\n"
 "help.text"
-msgid "<item type=\"input\">=HYPERLINK(\"http://www.example.org\";\"Click here\")</item> displays the text \"Click here\" in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"http://www.exemple.org\";\"Cliquer ici )</item> affiche le texte \"Cliquer ici\" dans la cellule et exécute le lien hypertexte http://www.exemple.org lorsqu'il est cliqué."
+msgid "<input>=HYPERLINK(\"http://www.example.org\";\"Click here\")</input> displays the text \"Click here\" in the cell and executes the hyperlink http://www.example.org when clicked."
+msgstr ""
 
-#. nBEGH
+#. jamR2
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id0907200912224534\n"
 "help.text"
-msgid "<item type=\"input\">=HYPERLINK(\"http://www.example.org\";12345)</item> displays the number 12345 and executes the hyperlink http://www.example.org when clicked."
-msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"http://www.exemple.org\";12345)</item> affiche le nombre 12345 et exécute le lien hypertexte http://www.exemple.org lorsqu'il est cliqué."
+msgid "<input>=HYPERLINK(\"http://www.example.org\";12345)</input> displays the number 12345 and executes the hyperlink http://www.example.org when clicked."
+msgstr ""
 
-#. GFCwJ
+#. qLdBN
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_idN1182D\n"
 "help.text"
-msgid "<item type=\"input\">=HYPERLINK($B4)</item> where cell B4 contains <item type=\"input\">http://www.example.org</item>. The function adds http://www.example.org to the URL of the hyperlink cell and returns the same text which is used as formula result."
-msgstr "<item type=\"input\">=LIEN.HYPERTEXTE($B4)</item> où la cellule B4 contient <item type=\"input\">http://www.exemple.org</item>. La fonction ajoute http://www.exemple.org à l'URL de la cellule contenant le lien et renvoie le même texte qui est utilisé comme résultat de la formule."
+msgid "<input>=HYPERLINK($B4)</input> where cell B4 contains <literal>http://www.example.org</literal>. The function adds http://www.example.org to the URL of the hyperlink cell and returns the same text which is used as formula result."
+msgstr ""
 
-#. viZae
+#. cWDrv
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_idN11830\n"
 "help.text"
-msgid "<item type=\"input\">=HYPERLINK(\"http://www.\";\"Click \") & \"example.org\"</item> displays the text Click example.org in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"http://www.\";\"Cliquer sur\") & \"exemple.org\"</item> affiche le texte Cliquer sur exemple.org dans la cellule et exécute le lien hypertexte http://www.exemple.org lorsque cliqué."
+msgid "<input>=HYPERLINK(\"http://www.\";\"Click \") & \"example.org\"</input> displays the text Click example.org in the cell and executes the hyperlink http://www.example.org when clicked."
+msgstr ""
 
-#. bdxGj
+#. DDEtK
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id8859523\n"
 "help.text"
-msgid "<item type=\"input\">=HYPERLINK(\"#Sheet1.A1\";\"Go to top\")</item> displays the text Go to top and jumps to cell Sheet1.A1 in this document."
-msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"#Feuille1.A1\";\"Aller en haut\")</item> affiche le texte Aller en haut et saute à la cellule Feuille1.A1 dans le document."
+msgid "<input>=HYPERLINK(\"#Sheet1.A1\";\"Go to top\")</input> displays the text Go to top and jumps to cell Sheet1.A1 in this document."
+msgstr ""
 
-#. kFDkB
+#. CoMEq
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id2958769\n"
 "help.text"
-msgid "<item type=\"input\">=HYPERLINK(\"file:///C:/writer.odt#Specification\";\"Go to Writer bookmark\")</item> displays the text \"Go to Writer bookmark\", loads the specified text document and jumps to bookmark \"Specification\"."
-msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"file:///C:/writer.odt#Spécification\";\"Aller au repère de texte Writer\")</item> affiche le texte Aller au repère de texte Writer, charge le document texte spécifié et atteint le repère de texte \"Spécification\"."
+msgid "<input>=HYPERLINK(\"file:///C:/writer.odt#Specification\";\"Go to Writer bookmark\")</input> displays the text \"Go to Writer bookmark\", loads the specified text document and jumps to bookmark \"Specification\"."
+msgstr ""
+
+#. Ky2xV
+#: 04060109.xhp
+msgctxt ""
+"04060109.xhp\n"
+"par_id321615667588042\n"
+"help.text"
+msgid "<input>=HYPERLINK(\"file:///C:/Documents/\";\"Open Documents folder\")</input> displays the text \"Open Documents folder\" and shows the folder contents using the standard file manager in your operating system."
+msgstr ""
 
 #. ubKsF
 #: 04060109.xhp
@@ -45718,14 +45727,14 @@ msgctxt ""
 msgid "<ahelp hid=\"SFX2_HID_TEMPLATE_FMT\">Displays the list of the styles from the selected style category.</ahelp>"
 msgstr "<ahelp hid=\"SFX2_HID_TEMPLATE_FMT\">Affiche la liste des styles de la catégorie de style sélectionnée.</ahelp>"
 
-#. xvaTV
+#. YBufY
 #: 05100000.xhp
 msgctxt ""
 "05100000.xhp\n"
 "par_idN109D1\n"
 "help.text"
-msgid "In the <link href=\"text/shared/00/00000005.xhp#kontextmenue\" name=\"context menu\">context menu</link> you can choose commands to create a new style, delete a user-defined style, or change the selected style."
-msgstr "Dans le <link href=\"text/shared/00/00000005.xhp#kontextmenue\" name=\"menu contextuel\">menu contextuel</link>, vous pouvez sélectionner différentes commandes : pour créer un style, supprimer un style défini par l'utilisateur ou modifier le style sélectionné."
+msgid "In the <link href=\"text/shared/00/00000005.xhp#contextmenu\" name=\"context menu\">context menu</link> you can choose commands to create a new style, delete a user-defined style, or change the selected style."
+msgstr ""
 
 #. zdEoY
 #: 05100000.xhp
@@ -69180,6 +69189,69 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Page de wiki sur la Source XML</link>"
+
+#~ msgctxt ""
+#~ "02140000.xhp\n"
+#~ "par_id3145384\n"
+#~ "help.text"
+#~ msgid "Call the <link href=\"text/shared/00/00000005.xhp#kontextmenue\" name=\"context menu\">context menu</link> when positioned in a cell and choose <emph>Selection List</emph>."
+#~ msgstr "Placez le curseur sur une cellule, ouvrez le <link href=\"text/shared/00/00000005.xhp#kontextmenue\" name=\"menu contextuel\">menu contextuel</link> et choisissez <emph>Liste de sélection</emph>."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_idN11827\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=HYPERLINK(\"http://www.example.org\")</item> displays the text \"http://www.example.org\" in the cell and executes the hyperlink http://www.example.org when clicked."
+#~ msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"http://www.exemple.org\")</item> affiche le texte \"http://www.exemple.org\" dans la cellule et exécute le lien hypertexte http://www.exemple.org lorsqu'il est cliqué."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_idN1182A\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=HYPERLINK(\"http://www.example.org\";\"Click here\")</item> displays the text \"Click here\" in the cell and executes the hyperlink http://www.example.org when clicked."
+#~ msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"http://www.exemple.org\";\"Cliquer ici )</item> affiche le texte \"Cliquer ici\" dans la cellule et exécute le lien hypertexte http://www.exemple.org lorsqu'il est cliqué."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id0907200912224534\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=HYPERLINK(\"http://www.example.org\";12345)</item> displays the number 12345 and executes the hyperlink http://www.example.org when clicked."
+#~ msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"http://www.exemple.org\";12345)</item> affiche le nombre 12345 et exécute le lien hypertexte http://www.exemple.org lorsqu'il est cliqué."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_idN1182D\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=HYPERLINK($B4)</item> where cell B4 contains <item type=\"input\">http://www.example.org</item>. The function adds http://www.example.org to the URL of the hyperlink cell and returns the same text which is used as formula result."
+#~ msgstr "<item type=\"input\">=LIEN.HYPERTEXTE($B4)</item> où la cellule B4 contient <item type=\"input\">http://www.exemple.org</item>. La fonction ajoute http://www.exemple.org à l'URL de la cellule contenant le lien et renvoie le même texte qui est utilisé comme résultat de la formule."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_idN11830\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=HYPERLINK(\"http://www.\";\"Click \") & \"example.org\"</item> displays the text Click example.org in the cell and executes the hyperlink http://www.example.org when clicked."
+#~ msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"http://www.\";\"Cliquer sur\") & \"exemple.org\"</item> affiche le texte Cliquer sur exemple.org dans la cellule et exécute le lien hypertexte http://www.exemple.org lorsque cliqué."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id8859523\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=HYPERLINK(\"#Sheet1.A1\";\"Go to top\")</item> displays the text Go to top and jumps to cell Sheet1.A1 in this document."
+#~ msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"#Feuille1.A1\";\"Aller en haut\")</item> affiche le texte Aller en haut et saute à la cellule Feuille1.A1 dans le document."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id2958769\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=HYPERLINK(\"file:///C:/writer.odt#Specification\";\"Go to Writer bookmark\")</item> displays the text \"Go to Writer bookmark\", loads the specified text document and jumps to bookmark \"Specification\"."
+#~ msgstr "<item type=\"input\">=LIEN.HYPERTEXTE(\"file:///C:/writer.odt#Spécification\";\"Aller au repère de texte Writer\")</item> affiche le texte Aller au repère de texte Writer, charge le document texte spécifié et atteint le repère de texte \"Spécification\"."
+
+#~ msgctxt ""
+#~ "05100000.xhp\n"
+#~ "par_idN109D1\n"
+#~ "help.text"
+#~ msgid "In the <link href=\"text/shared/00/00000005.xhp#kontextmenue\" name=\"context menu\">context menu</link> you can choose commands to create a new style, delete a user-defined style, or change the selected style."
+#~ msgstr "Dans le <link href=\"text/shared/00/00000005.xhp#kontextmenue\" name=\"menu contextuel\">menu contextuel</link>, vous pouvez sélectionner différentes commandes : pour créer un style, supprimer un style défini par l'utilisateur ou modifier le style sélectionné."
 
 #~ msgctxt ""
 #~ "04060106.xhp\n"

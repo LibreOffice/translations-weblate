@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-08 14:40+0100\n"
+"POT-Creation-Date: 2021-03-19 17:31+0100\n"
 "PO-Revision-Date: 2021-03-14 21:37+0000\n"
 "Last-Translator: Riyadh Talal <riyadhtalal@gmail.com>\n"
 "Language-Team: Arabic <https://translations.documentfoundation.org/projects/libo_ui-master/officecfgregistrydataorgopenofficeofficeui/ar/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1542022442.000000\n"
 
 #. W5ukN
@@ -3186,15 +3186,15 @@ msgctxt ""
 msgid "Format ~Page..."
 msgstr "تنسيق ال~صفحة..."
 
-#. EgQDP
+#. g3ACv
 #: CalcCommands.xcu
 msgctxt ""
 "CalcCommands.xcu\n"
 "..CalcCommands.UserInterface.Commands..uno:PageFormatDialog\n"
 "ContextLabel\n"
 "value.text"
-msgid "~Page..."
-msgstr "الص~فحة..."
+msgid "~Page Style..."
+msgstr ""
 
 #. C83UC
 #: CalcCommands.xcu
@@ -9474,6 +9474,26 @@ msgctxt ""
 "value.text"
 msgid "Layout"
 msgstr "التخطيط"
+
+#. BBXg7
+#: DrawImpressCommands.xcu
+msgctxt ""
+"DrawImpressCommands.xcu\n"
+"..DrawImpressCommands.UserInterface.Commands..uno:Scale\n"
+"Label\n"
+"value.text"
+msgid "Scale"
+msgstr ""
+
+#. sdUMB
+#: DrawImpressCommands.xcu
+msgctxt ""
+"DrawImpressCommands.xcu\n"
+"..DrawImpressCommands.UserInterface.Commands..uno:Scale\n"
+"TooltipLabel\n"
+"value.text"
+msgid "Scaling at the current document"
+msgstr ""
 
 #. hTkgv
 #: DrawImpressCommands.xcu
@@ -23422,15 +23442,15 @@ msgctxt ""
 msgid "~Export As"
 msgstr "~صدّر كَ‍"
 
-#. NaW49
+#. XZGNE
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:ExportToPDF\n"
 "Label\n"
 "value.text"
-msgid "PDF"
-msgstr "PDF"
+msgid "Export as PDF"
+msgstr ""
 
 #. YsFV2
 #: GenericCommands.xcu
@@ -23452,15 +23472,15 @@ msgctxt ""
 msgid "Export as PDF"
 msgstr "صدّر بنسق PDF"
 
-#. JFz9A
+#. pCD7W
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:ExportDirectToPDF\n"
 "Label\n"
 "value.text"
-msgid "PDF"
-msgstr "PDF"
+msgid "Export Directly as PDF"
+msgstr ""
 
 #. 8eSWp
 #: GenericCommands.xcu
@@ -25544,15 +25564,15 @@ msgctxt ""
 msgid "Date Picker Content Control"
 msgstr ""
 
-#. c5426
+#. NFhYp
 #: GenericCommands.xcu
 msgctxt ""
 "GenericCommands.xcu\n"
 "..GenericCommands.UserInterface.Commands..uno:DevelopmentToolsDockingWindow\n"
 "Label\n"
 "value.text"
-msgid "Development Tool"
-msgstr "أداة التطوير"
+msgid "Development Tools"
+msgstr ""
 
 #. jLF5j
 #: GenericCommands.xcu
@@ -33681,6 +33701,16 @@ msgctxt ""
 msgid "Select Paragraph"
 msgstr "حدّد الفقرة"
 
+#. GkfWK
+#: WriterCommands.xcu
+msgctxt ""
+"WriterCommands.xcu\n"
+"..WriterCommands.UserInterface.Commands..uno:SelectionCycle\n"
+"Label\n"
+"value.text"
+msgid "Select Cycle"
+msgstr ""
+
 #. GzD2B
 #: WriterCommands.xcu
 msgctxt ""
@@ -34411,15 +34441,25 @@ msgctxt ""
 msgid "Selection Mode"
 msgstr "وضع التحديد"
 
-#. Ac5BP
+#. fK3Zr
 #: WriterCommands.xcu
 msgctxt ""
 "WriterCommands.xcu\n"
 "..WriterCommands.UserInterface.Popups..uno:ContinueNumbering\n"
 "Label\n"
 "value.text"
-msgid "Continue previous numbering"
-msgstr "أكمل الترقيم السابق"
+msgid "~Add to List"
+msgstr ""
+
+#. rbB7v
+#: WriterCommands.xcu
+msgctxt ""
+"WriterCommands.xcu\n"
+"..WriterCommands.UserInterface.Popups..uno:ContinueNumbering\n"
+"TooltipLabel\n"
+"value.text"
+msgid "“Add to List” adds selected paragraphs to an immediately preceding list."
+msgstr ""
 
 #. oCEjg
 #: WriterCommands.xcu
@@ -38462,6 +38502,38 @@ msgctxt ""
 "value.text"
 msgid "Fontwork Shape"
 msgstr "شكل معمل الخطوط"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:ExportToPDF\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "PDF"
+#~ msgstr "PDF"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:ExportDirectToPDF\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "PDF"
+#~ msgstr "PDF"
+
+#~ msgctxt ""
+#~ "GenericCommands.xcu\n"
+#~ "..GenericCommands.UserInterface.Commands..uno:DevelopmentToolsDockingWindow\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Development Tool"
+#~ msgstr "أداة التطوير"
+
+#~ msgctxt ""
+#~ "WriterCommands.xcu\n"
+#~ "..WriterCommands.UserInterface.Popups..uno:ContinueNumbering\n"
+#~ "Label\n"
+#~ "value.text"
+#~ msgid "Continue previous numbering"
+#~ msgstr "أكمل الترقيم السابق"
 
 #~ msgctxt ""
 #~ "WriterCommands.xcu\n"

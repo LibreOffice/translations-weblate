@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-08 14:39+0100\n"
+"POT-Creation-Date: 2021-03-19 17:31+0100\n"
 "PO-Revision-Date: 2018-07-12 14:33+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4307,6 +4307,762 @@ msgctxt ""
 "bas_id641595692394484\n"
 "help.text"
 msgid "'Sort range based on columns A (ascending) and C (descending)"
+msgstr ""
+
+#. zNFY6
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"tit\n"
+"help.text"
+msgid "SFDatabases.Database service"
+msgstr ""
+
+#. K7nuj
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id371587913266310\n"
+"help.text"
+msgid "<variable id=\"DatabaseService\"><link href=\"text/sbasic/shared/03/sf_database.xhp\" name=\"Database service\"><literal>SFDatabases</literal>.<literal>Database</literal> service</link></variable>"
+msgstr ""
+
+#. RByov
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id891599407198144\n"
+"help.text"
+msgid "The <literal>Database</literal> service provides access to databases either embedded or described in Base documents. This service provides methods to:"
+msgstr ""
+
+#. 7dqXS
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id551615386924481\n"
+"help.text"
+msgid "Get access to data in database tables."
+msgstr ""
+
+#. 29pT5
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id551615386924285\n"
+"help.text"
+msgid "Run <literal>SELECT</literal> queries and perform aggregate functions."
+msgstr ""
+
+#. LYsPD
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id551615386924111\n"
+"help.text"
+msgid "Run SQL action statements such as <literal>INSERT</literal>, <literal>UPDATE</literal>, <literal>DELETE</literal>, etc."
+msgstr ""
+
+#. ABgYk
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id811599407236602\n"
+"help.text"
+msgid "Each instance of the <literal>Database</literal> service represents a single database and gives access to its tables, queries and data. This service does not provide access to forms or reports in the Base document."
+msgstr ""
+
+#. Snu6R
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id231615386789950\n"
+"help.text"
+msgid "All exchanges between this service and the database are done using SQL only."
+msgstr ""
+
+#. UnijT
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id121599407322804\n"
+"help.text"
+msgid "SQL statements may be run in <emph>direct</emph> or <emph>indirect</emph> <emph>mode</emph>. In direct mode the statement is transferred to the database engine without any syntax checking or review."
+msgstr ""
+
+#. Kg5Cn
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id681599407189019\n"
+"help.text"
+msgid "The provided interfaces include simple tables and queries lists, as well as access to database data."
+msgstr ""
+
+#. N3J98
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id891599407280007\n"
+"help.text"
+msgid "To make SQL statements more readable, you can use optional square brackets to enclose tables, queries and fields instead of using other enclosing characters that may be exclusive to certain Relational Database Management Systems (RDBMS)."
+msgstr ""
+
+#. CAFnK
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id91587913266988\n"
+"help.text"
+msgid "Service invocation"
+msgstr ""
+
+#. GBCxf
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id541599408159668\n"
+"help.text"
+msgid "The code snippet below shows how to access any database with the <literal>Database</literal> service."
+msgstr ""
+
+#. RApNW
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"bas_id471599408248873\n"
+"help.text"
+msgid "'   ... Run queries, SQL statements, ..."
+msgstr ""
+
+#. f2tV4
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id111615146818256\n"
+"help.text"
+msgid "<emph>FileName</emph>: The name of the Base file. Must be expressed using <literal>SF_FileSystem.FileNaming</literal> notation."
+msgstr ""
+
+#. yg5bv
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id771615146944307\n"
+"help.text"
+msgid "<emph>RegistrationName</emph>: The name of a registered database. If a file name is provided, this argument should not be used."
+msgstr ""
+
+#. RM9c6
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id491615147048748\n"
+"help.text"
+msgid "Conversely, if a <literal>RegistrationName</literal> is specified, the <literal>FileName</literal> parameter should not be defined."
+msgstr ""
+
+#. 3d6NY
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id841615147168279\n"
+"help.text"
+msgid "<emph>ReadOnly</emph>: Determines if the database will be opened as readonly (Default = True)."
+msgstr ""
+
+#. Gn7AF
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id291615147236001\n"
+"help.text"
+msgid "<emph>User, Password</emph>: Additional connection parameters to the database server."
+msgstr ""
+
+#. Z2VVg
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id771615147491563\n"
+"help.text"
+msgid "Accessing Databases with the UI Service"
+msgstr ""
+
+#. 6s3Hr
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id901599408410712\n"
+"help.text"
+msgid "It is also possible to access the database associated with a Base document using the <link href=\"text/sbasic/shared/03/sf_ui.xhp\" name=\"UI Service\"><literal>ScriptForge.UI</literal></link> service, as shown in the example below:"
+msgstr ""
+
+#. T6mkQ
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"bas_id631615147843278\n"
+"help.text"
+msgid "' User and password are supplied below, if needed"
+msgstr ""
+
+#. 88wGG
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"bas_id921599408791887\n"
+"help.text"
+msgid "'   ... Run queries, SQL statements, ..."
+msgstr ""
+
+#. MF67N
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"bm_id771615387442357\n"
+"help.text"
+msgid "<bookmark_value>Database Service;Queries</bookmark_value>        <bookmark_value>Database Service;Tables</bookmark_value>"
+msgstr ""
+
+#. EF9Lc
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id841587913266618\n"
+"help.text"
+msgid "Properties"
+msgstr ""
+
+#. x4Z5A
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id521587913266568\n"
+"help.text"
+msgid "Name"
+msgstr ""
+
+#. QUrYT
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id421587913266368\n"
+"help.text"
+msgid "Readonly"
+msgstr ""
+
+#. 3kQCm
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id631587914939732\n"
+"help.text"
+msgid "Type"
+msgstr ""
+
+#. RYuuo
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id951587913266220\n"
+"help.text"
+msgid "Description"
+msgstr ""
+
+#. BzLQb
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id651587913266754\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. up8WT
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id421587914989890\n"
+"help.text"
+msgid "Array of strings"
+msgstr ""
+
+#. dGoYp
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id351587913266349\n"
+"help.text"
+msgid "The list of stored queries."
+msgstr ""
+
+#. bfdLR
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id931599409717463\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. 2DDTs
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id71599409717945\n"
+"help.text"
+msgid "Array of strings"
+msgstr ""
+
+#. rGTvw
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id341599409717612\n"
+"help.text"
+msgid "The list of stored tables."
+msgstr ""
+
+#. u5YE4
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id741599409777967\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. evuSw
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id551599409777759\n"
+"help.text"
+msgid "The UNO object representing the current database connection."
+msgstr ""
+
+#. w9YZG
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id271599409887585\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. NeTGg
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id861599409887284\n"
+"help.text"
+msgid "The UNO object representing the metadata describing the database system attributes."
+msgstr ""
+
+#. ApsdK
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id231614360519973\n"
+"help.text"
+msgid "List of Methods in the Database Service"
+msgstr ""
+
+#. emrA2
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id201587913266596\n"
+"help.text"
+msgid "Closes the current database connection."
+msgstr ""
+
+#. PjGi2
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id591587913266515\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. nwbSh
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id13159655484952\n"
+"help.text"
+msgid "Computes the given aggregate function on a field or expression belonging to a table."
+msgstr ""
+
+#. E9LsG
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id101615148468548\n"
+"help.text"
+msgid "Optionally, a SQL <literal>WHERE</literal> clause can be specified as a filter that will be applied prior to the aggregate function."
+msgstr ""
+
+#. 6B63L
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id461596554849371\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. ay642
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id201596554849717\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
+msgstr ""
+
+#. rKxVP
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id441596554849949\n"
+"help.text"
+msgid "<emph>Expression</emph>: A SQL expression in which the field names are surrounded with square brackets."
+msgstr ""
+
+#. 3PSmS
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id381596554849698\n"
+"help.text"
+msgid "<emph>TableName</emph>: A table name (without square brackets)."
+msgstr ""
+
+#. F4AAZ
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id521596554849185\n"
+"help.text"
+msgid "<emph>Criteria</emph>: A <literal>WHERE</literal> clause without the \"WHERE\" keyword, in which field names are surrounded with square brackets."
+msgstr ""
+
+#. EYL7z
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id841596554849466\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. AGBFS
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id781615150306678\n"
+"help.text"
+msgid "The example below assumes the file <literal>Employees.odb</literal> has a table named <literal>EmployeeData</literal>."
+msgstr ""
+
+#. KAqZB
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"bas_id871615150277916\n"
+"help.text"
+msgid "' Counts the number of employees in the table"
+msgstr ""
+
+#. AVstM
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"bas_id291615150373387\n"
+"help.text"
+msgid "' Returns the sum of all salaries in the table"
+msgstr ""
+
+#. cMiVJ
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"bas_id931615150423062\n"
+"help.text"
+msgid "' Below are some examples of how tables can be filtered"
+msgstr ""
+
+#. kCmmv
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id41599488113961\n"
+"help.text"
+msgid "Computes a SQL expression on a single record returned by a <literal>WHERE</literal> clause defined by the <literal>Criteria</literal> parameter."
+msgstr ""
+
+#. 8yUaz
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id601615381471954\n"
+"help.text"
+msgid "If the query returns multiple records, only the first one is considered. Use the <literal>OrderClause</literal> parameter to determine how query results are sorted."
+msgstr ""
+
+#. mpiPA
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id991599488113830\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. Xeeq3
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id681599488113330\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
+msgstr ""
+
+#. CNwh2
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id671599488113986\n"
+"help.text"
+msgid "<emph>Expression</emph>: A SQL expression in which the field names are surrounded with square brackets."
+msgstr ""
+
+#. 5DGVh
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id441599488113247\n"
+"help.text"
+msgid "<emph>TableName</emph>: A table name (without square brackets)."
+msgstr ""
+
+#. jtrX7
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id40159948811316\n"
+"help.text"
+msgid "<emph>Criteria</emph>: A <literal>WHERE</literal> clause without the \"WHERE\" keyword, in which field names are surrounded with square brackets."
+msgstr ""
+
+#. X5HJp
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id71599488689029\n"
+"help.text"
+msgid "<emph>OrderClause</emph>: An <literal>ORDER BY</literal> clause without the \"ORDER BY\" keywords. Field names should be surrounded with square brackets."
+msgstr ""
+
+#. ebKA7
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id41599488113501\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. CPoBx
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id481599489278579\n"
+"help.text"
+msgid "Stores the contents of a table or the results of a <literal>SELECT</literal> query or of an SQL statement in a two-dimensional array. The first index in the array corresponds to the rows and the second index refers to the columns."
+msgstr ""
+
+#. GXji8
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id821615384762425\n"
+"help.text"
+msgid "An upper limit can be specified to the number of returned rows. Optionally column names may be inserted in the first row of the array."
+msgstr ""
+
+#. gX7AY
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id271599490209915\n"
+"help.text"
+msgid "The returned array will be empty if no rows are returned and the column headers are not required."
+msgstr ""
+
+#. 9xWTp
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id99159948927831\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. X7Dke
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id901599489278929\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
+msgstr ""
+
+#. dURZU
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id451599489278429\n"
+"help.text"
+msgid "<emph>SQLCommand</emph>: A table or query name (without square brackets) or a <literal>SELECT</literal> SQL statement."
+msgstr ""
+
+#. fFFFd
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id271599489278141\n"
+"help.text"
+msgid "<emph>DirectSQL</emph>: When <literal>True</literal>, the SQL command is sent to the database engine without pre-analysis. Default is <literal>False</literal>. This argument is ignored for tables. For queries, the applied option is the one set when the query was defined."
+msgstr ""
+
+#. unoDn
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id941599489278747\n"
+"help.text"
+msgid "<emph>Header</emph>: When <literal>True</literal>, the first row of the returned array contains the column headers."
+msgstr ""
+
+#. BZxwK
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id591599489278926\n"
+"help.text"
+msgid "<emph>MaxRows</emph>: The maximum number of rows to return. The default is zero, meaning there is no limit to the number of returned rows."
+msgstr ""
+
+#. yD9S9
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id531599489278812\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
+msgstr ""
+
+#. uAVtn
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id721615385125947\n"
+"help.text"
+msgid "Below are a few examples of how the GetRows can be used:"
+msgstr ""
+
+#. zkeuW
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"bas_id171615385196045\n"
+"help.text"
+msgid "' Returns all rows in the table with column headers"
+msgstr ""
+
+#. eFmmE
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"bas_id371615385230721\n"
+"help.text"
+msgid "' Returns the first 50 employee records ordered by the 'FirstName' field"
+msgstr ""
+
+#. FMBEy
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id31599490609759\n"
+"help.text"
+msgid "Executes an action query of an SQL statement such as creating a table, as well as inserting, updating and deleting records."
+msgstr ""
+
+#. gyiQy
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id331615385491925\n"
+"help.text"
+msgid "The method returns <literal>True</literal> when successful."
+msgstr ""
+
+#. G5bDE
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id21599490810021\n"
+"help.text"
+msgid "The <literal>RunSql</literal> method is rejected with an error message in case the database was previously opened in read-only mode."
+msgstr ""
+
+#. mqkkG
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id681599490609322\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
+msgstr ""
+
+#. VwpXv
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id221599490609863\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
+msgstr ""
+
+#. cMjus
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id701599490609473\n"
+"help.text"
+msgid "<emph>SQLCommand</emph>: A query name (without square brackets) or a SQL statement."
+msgstr ""
+
+#. kngXb
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"par_id51599490609377\n"
+"help.text"
+msgid "<emph>DirectSQL</emph>: When <literal>True</literal>, the SQL command is sent to the database engine without pre-analysis. (Default = <literal>False</literal>). For queries, the applied option is the one set when the query was defined."
+msgstr ""
+
+#. ACadx
+#: sf_database.xhp
+msgctxt ""
+"sf_database.xhp\n"
+"hd_id31599490609478\n"
+"help.text"
+msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
 msgstr ""
 
 #. BC4Sc
@@ -9502,13 +10258,13 @@ msgctxt ""
 msgid "Get translated strings at runtime for the language defined in the <literal>Locale</literal> property."
 msgstr ""
 
-#. iBQxR
+#. kCrgU
 #: sf_l10n.xhp
 msgctxt ""
 "sf_l10n.xhp\n"
-"par_id811614352321187\n"
+"par_id971614966420419\n"
 "help.text"
-msgid "The <literal>L10N</literal> service is based on the GNU implementation of PO (portable object) files. To learn more about this file format, visit <link href=\"https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html\" name=\"GetText\">GNU gettext Utilities: PO Files</link>."
+msgid "The acronym <literal>L10N</literal> stands for Localization and refers to a set of procedures for translating software to a specific country or region."
 msgstr ""
 
 #. supr5
@@ -9527,6 +10283,15 @@ msgctxt ""
 "par_id181585843652814\n"
 "help.text"
 msgid "The main advantage of the PO format is dissociation of the programmer and the translator. PO files are independent text files, so the programmer can send POT template files to translators, who will then translate their contents and return the translated PO files for each supported language."
+msgstr ""
+
+#. iBQxR
+#: sf_l10n.xhp
+msgctxt ""
+"sf_l10n.xhp\n"
+"par_id811614352321187\n"
+"help.text"
+msgid "The <literal>L10N</literal> service is based on the GNU implementation of PO (portable object) files. To learn more about this file format, visit <link href=\"https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html\" name=\"GetText\">GNU gettext Utilities: PO Files</link>."
 msgstr ""
 
 #. 4CMir
@@ -9952,6 +10717,15 @@ msgctxt ""
 msgid "This method can be called either by the full name <literal>GetText</literal> or by the shortcut <literal>_</literal> (a single underscore):"
 msgstr ""
 
+#. NzdBC
+#: sf_l10n.xhp
+msgctxt ""
+"sf_l10n.xhp\n"
+"par_id421614967136502\n"
+"help.text"
+msgid "In the ScriptForge library, all methods starting with the \"_\" character are reserved for internal use only. However, the shortcut <literal>_</literal> used for <literal>GetText</literal> is the only exception to this rule, hence it can be safely used in Basic scripts."
+msgstr ""
+
 #. rNrAw
 #: sf_l10n.xhp
 msgctxt ""
@@ -10031,6 +10805,411 @@ msgctxt ""
 "par_id301613075694148\n"
 "help.text"
 msgid "<link href=\"text/sbasic/guide/translation.xhp\" name=\"Controls Translation\"> Translation of Controls in the Dialog Editor</link>"
+msgstr ""
+
+#. Ah5Gj
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"tit\n"
+"help.text"
+msgid "ScriptForge.Platform service"
+msgstr ""
+
+#. PCkEG
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"bm_id681600788076499\n"
+"help.text"
+msgid "<variable id=\"PlatformService\"><link href=\"text/sbasic/shared/03/sf_platform.xhp\" name=\"Platform service\"><literal>ScriptForge</literal>.<literal>Platform</literal> service</link></variable>"
+msgstr ""
+
+#. 7D6Dx
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id181600788076612\n"
+"help.text"
+msgid "The <literal>Platform</literal> service provides a collection of properties about the current execution environment and context, such as:"
+msgstr ""
+
+#. FDJFB
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id301600788076785\n"
+"help.text"
+msgid "The hardware platform (architecture, CPU count, machine type, etc)"
+msgstr ""
+
+#. i9FbJ
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id1001600788076848\n"
+"help.text"
+msgid "Operating system information (OS type, release, version, etc)"
+msgstr ""
+
+#. uPLtj
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id67160078807676\n"
+"help.text"
+msgid "The LibreOffice version"
+msgstr ""
+
+#. BrEr7
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id671600788076855\n"
+"help.text"
+msgid "The current user name"
+msgstr ""
+
+#. ZvBqs
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id951614903258253\n"
+"help.text"
+msgid "All properties of the <literal>Platform</literal> service are read-only."
+msgstr ""
+
+#. iK4Gv
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"hd_id281600788076359\n"
+"help.text"
+msgid "Service invocation"
+msgstr ""
+
+#. Emisv
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id321614902851541\n"
+"help.text"
+msgid "The code snippet below instantiates the <literal>Platform</literal> service and accesses the <literal>Architecture</literal> property."
+msgstr ""
+
+#. KC5eN
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"hd_id711600788076834\n"
+"help.text"
+msgid "Properties"
+msgstr ""
+
+#. VXJ8a
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id461600788076917\n"
+"help.text"
+msgid "Name"
+msgstr ""
+
+#. JN68D
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id221600788076591\n"
+"help.text"
+msgid "Readonly"
+msgstr ""
+
+#. ZndAt
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id761600788076328\n"
+"help.text"
+msgid "Type"
+msgstr ""
+
+#. dAoKA
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id67160078807636\n"
+"help.text"
+msgid "Description"
+msgstr ""
+
+#. XdLGG
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id311600788076756\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. EEWuL
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id441600788076826\n"
+"help.text"
+msgid "The hardware bit architecture. Example: '<literal>32bit</literal>' or '<literal>64bit</literal>'"
+msgstr ""
+
+#. 8EZ8A
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id49160078807654\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. iG4iH
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id81600788076419\n"
+"help.text"
+msgid "The computer's network name."
+msgstr ""
+
+#. hvAeY
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id711600788076534\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. g5EUJ
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id541600788076645\n"
+"help.text"
+msgid "The number of central processor units."
+msgstr ""
+
+#. 89Lo8
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id891600788076190\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. rmGRV
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id91600788076674\n"
+"help.text"
+msgid "The name of the currently logged user."
+msgstr ""
+
+#. Dt7J5
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id391600788076253\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. LA6EN
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id21600788076541\n"
+"help.text"
+msgid "The machine type. Examples are: '<literal>i386</literal>' or '<literal>x86_64</literal>'."
+msgstr ""
+
+#. tqwyD
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id211600788076138\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. 9uRw8
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id521600788076371\n"
+"help.text"
+msgid "The actual LibreOffice version expressed as<br/>'<literal>LibreOffice w.x.y.z (The Document Foundation)</literal>'."
+msgstr ""
+
+#. 4bpcJ
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id621614902220807\n"
+"help.text"
+msgid "Example: '<literal>LibreOffice 7.1.1.2 (The Document Foundation, Debian and Ubuntu)</literal>'"
+msgstr ""
+
+#. 7WDer
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id21600788076758\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. NUSby
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id781600788076694\n"
+"help.text"
+msgid "The operating system type. Example: '<literal>Darwin</literal>, <literal>Linux</literal>' or '<literal>Windows</literal>'."
+msgstr ""
+
+#. cLiaw
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id261600788076841\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. nepQ6
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id11600788076757\n"
+"help.text"
+msgid "A single string identifying the underlying platform with as much useful and human-readable information as possible."
+msgstr ""
+
+#. EH36m
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id501614902381381\n"
+"help.text"
+msgid "Example: '<literal>Linux-5.8.0-44-generic-x86_64-with-glibc2.32</literal>'"
+msgstr ""
+
+#. hbyth
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id531600789141795\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. 4iEvV
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id301600789141619\n"
+"help.text"
+msgid "The operating system's release. Example: '<literal>5.8.0-44-generic</literal>'"
+msgstr ""
+
+#. 2fBtD
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id541600789286532\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. iukPq
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id701600789286280\n"
+"help.text"
+msgid "The operating system's build or version."
+msgstr ""
+
+#. DWQNA
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id351614902520555\n"
+"help.text"
+msgid "Example: '<literal>#50-Ubuntu SMP Tue Feb 9 06:29:41 UTC 2021</literal>'"
+msgstr ""
+
+#. fCdYi
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id941600789527698\n"
+"help.text"
+msgid "Yes"
+msgstr ""
+
+#. wkthE
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id631600789527859\n"
+"help.text"
+msgid "The real processor name. Example: '<literal>amdk6</literal>'."
+msgstr ""
+
+#. MYY9M
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id111614902598396\n"
+"help.text"
+msgid "This property may return the same value as the <literal>Machine</literal> property."
+msgstr ""
+
+#. 4pnPw
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id301613075694148\n"
+"help.text"
+msgid "<link href=\"text/sbasic/python/python_platform.xhp\" name=\"OS python\">Identifying the operating system</link>"
+msgstr ""
+
+#. UCfLb
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id301613065794148\n"
+"help.text"
+msgid "<link href=\"text/scalc/01/04060104.xhp\" name=\"Platform information with Calc INFO formula\">Platform information with INFO(\"system\") Calc formula</link>"
+msgstr ""
+
+#. PqDHG
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id103613075694148\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/03132100.xhp\" name=\"GetGuiType Function\">GetGuiType function</link>"
+msgstr ""
+
+#. DAfoV
+#: sf_platform.xhp
+msgctxt ""
+"sf_platform.xhp\n"
+"par_id301316075694148\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/03/lib_tools.xhp\" name=\"Tools library\">Tools library</link>"
 msgstr ""
 
 #. GpvmN
