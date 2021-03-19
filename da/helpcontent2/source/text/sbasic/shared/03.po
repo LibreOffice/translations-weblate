@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-03-08 14:39+0100\n"
-"PO-Revision-Date: 2021-03-18 21:36+0000\n"
+"PO-Revision-Date: 2021-03-19 16:40+0000\n"
 "Last-Translator: SteenRønnow <steen.roennow@mail.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/da/>\n"
 "Language: da\n"
@@ -8661,7 +8661,7 @@ msgctxt ""
 "par_id441584882040860\n"
 "help.text"
 msgid "<emph>FileName</emph>: It can be a <literal>FileName</literal> or a <literal>NamePattern</literal> indicating one or more files to be deleted."
-msgstr "<emph>Filnavn</emph>: Det kan være et <literal>Filnavn</literal> eller et <literal>Navnemønster</literal>, der udpeger en eller flere filer til sletning."
+msgstr "<emph>FileName</emph> (Filnavn): Det kan være et <literal>FileName</literal> eller et <literal>NamePattern</literal> (Navnemønster), der udpeger en eller flere filer til sletning."
 
 #. YtAfH
 #: sf_filesystem.xhp
@@ -8670,7 +8670,7 @@ msgctxt ""
 "bas_id181584882040535\n"
 "help.text"
 msgid "' Only files are deleted, subfolders are not"
-msgstr ""
+msgstr "' Kun filer slettes, ikke undermapper."
 
 #. c9ZCd
 #: sf_filesystem.xhp
@@ -8679,7 +8679,7 @@ msgctxt ""
 "par_id11584882015881\n"
 "help.text"
 msgid "Deletes one or more folders. Returns <literal>True</literal> if at least one folder has been deleted or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Sletter en eller flere mapper. Returnerer <literal>True</literal> (Sand), hvis mindst en mappe blev slettet eller <literal>False</literal> (Falsk), hvis der skete en fejl."
 
 #. xmtzX
 #: sf_filesystem.xhp
@@ -8688,7 +8688,7 @@ msgctxt ""
 "par_id21612999775346\n"
 "help.text"
 msgid "An error will also occur if the <literal>FolderName</literal> parameter uses wildcard characters and does not match any folders."
-msgstr ""
+msgstr "Der vil også ske en fejl, hvis parameteren <literal>FolderName</literal> (Mappernavn) bruger jokertegn, der ikke matcher nogen mapper."
 
 #. GsqDD
 #: sf_filesystem.xhp
@@ -8697,7 +8697,7 @@ msgctxt ""
 "par_id21613001848853\n"
 "help.text"
 msgid "The folders to be deleted must not be readonly."
-msgstr ""
+msgstr "Mapper, der skal slettes, må ikke være readonly (skrivebeskyttet)."
 
 #. kRSqe
 #: sf_filesystem.xhp
@@ -8706,7 +8706,7 @@ msgctxt ""
 "par_id701612999808842\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Metoden stopper umiddelbart efter, at den er stødt på en fejl. Metoder ruller ikke tilbage og anullerer heller ikke ændringer, der blev foretaget, før fejlen skete."
 
 #. ecg9D
 #: sf_filesystem.xhp
@@ -8715,7 +8715,7 @@ msgctxt ""
 "par_id451584882542247\n"
 "help.text"
 msgid "<emph>FolderName</emph>: It can be a <literal>FolderName</literal> or a <literal>NamePattern</literal> indicating one or more folders to be deleted."
-msgstr ""
+msgstr "<emph>FolderName</emph> (Mappenavn): Det kan være et <literal>FolderName</literal> eller et <literal>NamePattern</literal> (Navnemønster), der udpeger en eller flere mapper til sletning."
 
 #. ECKGi
 #: sf_filesystem.xhp
@@ -8724,7 +8724,7 @@ msgctxt ""
 "bas_id491584882542177\n"
 "help.text"
 msgid "' Only folders are deleted, files in the top folder (C:\\Temp\\) are not"
-msgstr ""
+msgstr "' Kun mapper slettes, filer i den øverste mappe (C:\\Temp\\) slettes ikke."
 
 #. ZbyLn
 #: sf_filesystem.xhp
@@ -8733,7 +8733,7 @@ msgctxt ""
 "par_id161583764426709\n"
 "help.text"
 msgid "Returns <literal>True</literal> if a given file name is valid and exists, otherwise the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Returnerer <literal>True</literal> (Sand), hvis en fil er gyldig og eksisterer, ellers returnerer metoden <literal>False</literal> (Falsk)."
 
 #. BNEmC
 #: sf_filesystem.xhp
@@ -8742,7 +8742,7 @@ msgctxt ""
 "par_id91613003122613\n"
 "help.text"
 msgid "If the <literal>FileName</literal> parameter is actually an existing folder name, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Hvis parameteren <literal>FileName</literal> (Filnavn) faktisk er et eksisterende mappenavn, returnerer metoden <literal>False</literal> (Falsk)."
 
 #. 7pDFB
 #: sf_filesystem.xhp
@@ -8751,7 +8751,7 @@ msgctxt ""
 "par_id361583764426547\n"
 "help.text"
 msgid "<emph>FileName</emph>: A string representing the file to be tested."
-msgstr ""
+msgstr "<emph>FileName</emph> (Filnavn): En streng, der repræsenterer den fil, der skal testes."
 
 #. ChDCL
 #: sf_filesystem.xhp
@@ -8760,7 +8760,7 @@ msgctxt ""
 "par_id11158394432779\n"
 "help.text"
 msgid "Returns a zero-based array of the files stored in a given folder. Each entry in the array is a string containing the full path and file name."
-msgstr ""
+msgstr "Returnerer en nul-baseret matrix af filer, der er gemt i en given mappe. Hver element i matrixen er en streng, der indeholder den fulde sti og filnavnet."
 
 #. HT5PM
 #: sf_filesystem.xhp
@@ -8769,7 +8769,7 @@ msgctxt ""
 "par_id641613003790120\n"
 "help.text"
 msgid "If <literal>FolderName</literal> does not exist, an exception is raised."
-msgstr ""
+msgstr "Hvis <literal>FolderName</literal> (Mappenavn) ikke eksisterer, sættes et undtagelsesflag."
 
 #. nFaPD
 #: sf_filesystem.xhp
@@ -8778,7 +8778,7 @@ msgctxt ""
 "par_id821613003779799\n"
 "help.text"
 msgid "The resulting list may be filtered with wildcards."
-msgstr ""
+msgstr "Den resulterende liste kan filtreres med jokere."
 
 #. YsYdQ
 #: sf_filesystem.xhp
@@ -8787,7 +8787,7 @@ msgctxt ""
 "par_id731583944543140\n"
 "help.text"
 msgid "<emph>FolderName</emph>: A string representing a folder. The folder must exist. <literal>FolderName</literal> must not designate a file."
-msgstr ""
+msgstr "<emph>FolderName</emph> (Mappenavn): En streng, der repræsenterer en mappe. Mappen skal eksistere. <literal>FolderName</literal> (Mappenavnet) må ikke betegne en fil."
 
 #. V95Bm
 #: sf_filesystem.xhp
@@ -8796,7 +8796,7 @@ msgctxt ""
 "par_id591585648450060\n"
 "help.text"
 msgid "<emph>Filter</emph>: A string containing wildcards (\"?\" and \"*\") that will be applied to the resulting list of files (default = \"\")."
-msgstr ""
+msgstr "<emph>Filter</emph> (Filter): En streng, der indeholder jokere (\"?\" og \"*\"), der bliver brugt på den resulterende liste over filer (standard= \"\")."
 
 #. HJ9vL
 #: sf_filesystem.xhp
@@ -8805,7 +8805,7 @@ msgctxt ""
 "bas_id451583944327508\n"
 "help.text"
 msgid "filesList = FSO.Files(\"/home/user/\", \"*.txt\")"
-msgstr ""
+msgstr "filesList = FSO.Files(\"/home/user/\", \"*.txt\")"
 
 #. zG7ec
 #: sf_filesystem.xhp
@@ -8814,7 +8814,7 @@ msgctxt ""
 "par_id51583765642590\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the specified <literal>FolderName</literal> is valid and exists, otherwise the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Returnerer <literal>True</literal> (Sand), hvis det angivne <literal>FolderName</literal> (Mappenavn) er gyldigt og eksisterer, ellers returnerer metoden <literal>False</literal> (Falsk)."
 
 #. G4Rcz
 #: sf_filesystem.xhp
@@ -8823,7 +8823,7 @@ msgctxt ""
 "par_id151613004111990\n"
 "help.text"
 msgid "If the <literal>FolderName</literal> parameter is actually an existing file name, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Hvis parameteren <literal>FolderName</literal> (Mappenavn) faktisk er et eksisterende filnavn, returnerer metoden <literal>False</literal> (Falsk)."
 
 #. Z46FB
 #: sf_filesystem.xhp
@@ -8832,7 +8832,7 @@ msgctxt ""
 "par_id1001583765642211\n"
 "help.text"
 msgid "<emph>FolderName</emph>: A string representing the folder to be tested."
-msgstr ""
+msgstr "<emph>FolderName</emph> (Mappenavn): En streng, der repræsenterer den mappe, der skal testes."
 
 #. eAFVs
 #: sf_filesystem.xhp
@@ -8841,7 +8841,7 @@ msgctxt ""
 "par_id521584110618989\n"
 "help.text"
 msgid "Returns the <literal>BaseName</literal> (equal to the last component) of a folder or file name, without its extension."
-msgstr ""
+msgstr "Returnerer et filnavn eller en mappes  <literal>BaseName</literal> (Basenavn) (lig med den sidste komponent) uden dens udvidelse."
 
 #. YnBXv
 #: sf_filesystem.xhp
@@ -8850,7 +8850,7 @@ msgctxt ""
 "par_id731613004316790\n"
 "help.text"
 msgid "The method does not check if the specified file or folder exists."
-msgstr ""
+msgstr "Metoden tjekker ikke, om den angivne fil eller mappe eksisterer."
 
 #. B3jVo
 #: sf_filesystem.xhp
@@ -8868,7 +8868,7 @@ msgctxt ""
 "bas_id861584110618986\n"
 "help.text"
 msgid "' If the input parameter is a folder, it returns the last component of the path"
-msgstr ""
+msgstr "' Hvis input-parameteren er en mappe, returnerer den stiens sidste komponent"
 
 #. xmK9A
 #: sf_filesystem.xhp
@@ -8877,7 +8877,7 @@ msgctxt ""
 "bas_id591613004793431\n"
 "help.text"
 msgid "' If the input parameter is a file, the method returns the file name without the extension and the path"
-msgstr ""
+msgstr "' Hvis input-parameteren er en fil, returnerer metoden filnavnet uden udvidelsen og stien."
 
 #. A56XC
 #: sf_filesystem.xhp
@@ -8886,7 +8886,7 @@ msgctxt ""
 "par_id831584032680866\n"
 "help.text"
 msgid "Returns the extension part of a file or folder name without the dot \".\" character."
-msgstr ""
+msgstr "Returnerer en fils udvidelsesdel eller et mappenavn eller en mappe uden tegnet punktum \".\" ."
 
 #. pdCJv
 #: sf_filesystem.xhp
@@ -8895,7 +8895,7 @@ msgctxt ""
 "par_id941613060736524\n"
 "help.text"
 msgid "The method does not check for the existence of the specified file or folder."
-msgstr ""
+msgstr "Metoden tjekker ikke den angivne fil eller mappes eksistens."
 
 #. Aqvwt
 #: sf_filesystem.xhp
@@ -8904,7 +8904,7 @@ msgctxt ""
 "par_id561613060896361\n"
 "help.text"
 msgid "If this method is applied to a folder name or to a file without an extension, then an empty string is returned."
-msgstr ""
+msgstr "Hvis denne metode anvendes på et mappenavn eller en fil uden udvidelse, returneres en tom streng."
 
 #. GDoGW
 #: sf_filesystem.xhp
@@ -8913,7 +8913,7 @@ msgctxt ""
 "par_id821584032680311\n"
 "help.text"
 msgid "<emph>FileName</emph>: A string representing the file name and its path."
-msgstr ""
+msgstr "<emph>FileName</emph> (Filnavn): En streng, der repræsenterer filens navn og dens sti."
 
 #. Am6Bu
 #: sf_filesystem.xhp
@@ -8922,7 +8922,7 @@ msgctxt ""
 "par_id48160068505010\n"
 "help.text"
 msgid "The builtin <literal>FileLen</literal> Basic function returns the number of bytes contained in a file as a <literal>Long</literal> value, i.e. up to 2GB."
-msgstr ""
+msgstr "Den indbyggede Basic-funktion <literal>FileLen</literal> (Fillængde) returnerer antallet af bytes i en fil som en <literal>Long</literal> (Lang)  værdi, det vil sige op til 2GB."
 
 #. 2FHpa
 #: sf_filesystem.xhp
@@ -8931,7 +8931,7 @@ msgctxt ""
 "par_id571613061005426\n"
 "help.text"
 msgid "The <literal>GetFileLen</literal> method can handle files with much larger sizes by returning a <literal>Currency</literal> value."
-msgstr ""
+msgstr "Metoden <literal>GetFileLen</literal> (HentFillængde) kan håndtere meget større filer ved at returnere værdien <literal>Currency</literal> (Valuta)."
 
 #. FvwV6
 #: sf_filesystem.xhp
@@ -8940,7 +8940,7 @@ msgctxt ""
 "par_id161600685050367\n"
 "help.text"
 msgid "<emph>FileName</emph>: A string representing an existing file."
-msgstr ""
+msgstr "<emph>FileName</emph> (Filnavn): En streng, der repræsenterer en eksisterende fil."
 
 #. o2GGJ
 #: sf_filesystem.xhp
@@ -8949,7 +8949,7 @@ msgctxt ""
 "par_id191584811478936\n"
 "help.text"
 msgid "Returns the last modified date of a given file."
-msgstr ""
+msgstr "Returnerer en given fils Sidst ændret-dato."
 
 #. dxpgz
 #: sf_filesystem.xhp
@@ -8958,7 +8958,7 @@ msgctxt ""
 "par_id25158481147822\n"
 "help.text"
 msgid "<emph>FileName</emph>: A string representing an existing file."
-msgstr ""
+msgstr "<emph>FileName</emph> (Filnavn): En streng, der repræsenterer en eksisterende fil."
 
 #. VEZR6
 #: sf_filesystem.xhp
@@ -8967,7 +8967,7 @@ msgctxt ""
 "par_id711584032366587\n"
 "help.text"
 msgid "Returns the last component of a file or folder name in native operating system format."
-msgstr ""
+msgstr "Returnerer den sidste komponent i et fil- eller mappenavn i operativsystemets eget format."
 
 #. 4vAvz
 #: sf_filesystem.xhp
@@ -8976,7 +8976,7 @@ msgctxt ""
 "par_id541613061300811\n"
 "help.text"
 msgid "The method does not check if the specified file or folder exists."
-msgstr ""
+msgstr "Metoden tjekker ikke, om den angivne fil eller mappe eksisterer."
 
 #. VWPoq
 #: sf_filesystem.xhp
@@ -8985,7 +8985,7 @@ msgctxt ""
 "par_id671584032366193\n"
 "help.text"
 msgid "<emph>FileName</emph>: A string representing the file name and its path."
-msgstr ""
+msgstr "<emph>FileName</emph> (Filnavn): En streng, der repræsenterer filens navn og dens sti."
 
 #. ffxFe
 #: sf_filesystem.xhp
@@ -8994,7 +8994,7 @@ msgctxt ""
 "par_id871584113432747\n"
 "help.text"
 msgid "Returns a string containing the name of the parent folder of a specified file or folder name."
-msgstr ""
+msgstr "Returnerer en streng, der indeholder navnet på en angiven fils eller mappes overordnede mappe ."
 
 #. 2eBgA
 #: sf_filesystem.xhp
@@ -9003,7 +9003,7 @@ msgctxt ""
 "par_id611613061603039\n"
 "help.text"
 msgid "The method does not check if the specified file or folder exists."
-msgstr ""
+msgstr "Metoden tjekker ikke, om den angivne fil eller mappe eksisterer."
 
 #. XDmYQ
 #: sf_filesystem.xhp
@@ -9012,7 +9012,7 @@ msgctxt ""
 "par_id471584113432231\n"
 "help.text"
 msgid "<emph>FileName</emph>: A string with the file or folder name to be analyzed."
-msgstr ""
+msgstr "<emph>FileName</emph> (Filnavn): En streng med det fil- eller mappenavn, der skal analyseres."
 
 #. Uc93M
 #: sf_filesystem.xhp
@@ -9030,7 +9030,7 @@ msgctxt ""
 "par_id391613061770924\n"
 "help.text"
 msgid "The returned file name does not have any suffix. The folder part of the returned string is the system's temporary folder."
-msgstr ""
+msgstr "Det returnerede filnavn har intet suffiks. Mappedelen af den returnerede streng er systemet midlertidige mappe."
 
 #. W7gF7
 #: sf_filesystem.xhp
@@ -9039,7 +9039,7 @@ msgctxt ""
 "par_id971613061774934\n"
 "help.text"
 msgid "The method does not create the temporary file."
-msgstr ""
+msgstr "Metoden opretter ikke den midlertidige fil."
 
 #. ch2AJ
 #: sf_filesystem.xhp
@@ -9048,7 +9048,7 @@ msgctxt ""
 "par_id58160104251423\n"
 "help.text"
 msgid "Hash functions are used by some cryptographic algorithms, in digital signatures, message authentication codes, fraud detection, fingerprints, checksums (message integrity check), hash tables, password storage and much more."
-msgstr ""
+msgstr "Hash-funktioner bruges af nogle kryptografiske algoritmer, i digital signaturer, besked-autentifikationkoder, afsløring af falskneri, fingeraftryk, tjeksummer (tjek af beskedintegritet), hash-tabeller, lagring af kodeord og meget mere."
 
 #. qxDnP
 #: sf_filesystem.xhp
@@ -9057,7 +9057,7 @@ msgctxt ""
 "par_id301601042791356\n"
 "help.text"
 msgid "The <literal>HashFile</literal> method returns the result of a hash function, applied on a given file and using a specified algorithm. The returned value is a string of lower-case hexadecimal digits."
-msgstr ""
+msgstr "Metoden <literal>HashFile</literal> (Hashfil) returnerer resultatet af en hash-funktion, der er anvendt på en given fil og med en angiven algoritme. Den returnerede værdi er en streng af hexadecimale cifre skrevet med små bogstaver."
 
 #. eAW33
 #: sf_filesystem.xhp
@@ -9066,7 +9066,7 @@ msgctxt ""
 "par_id861601043268484\n"
 "help.text"
 msgid "The hash algorithms supported are: <literal>MD5</literal>, <literal>SHA1</literal>, <literal>SHA224</literal>, <literal>SHA256</literal>, <literal>SHA384</literal> and <literal>SHA512</literal>."
-msgstr ""
+msgstr "De understøttede hash-algoritmer er: <literal>MD5</literal>, <literal>SHA1</literal>, <literal>SHA224</literal>, <literal>SHA256</literal>, <literal>SHA384</literal> and <literal>SHA512</literal>."
 
 #. jTMPS
 #: sf_filesystem.xhp
@@ -9075,7 +9075,7 @@ msgctxt ""
 "par_id28160104251451\n"
 "help.text"
 msgid "<emph>FileName</emph>: A string representing an existing file."
-msgstr ""
+msgstr "<emph>FileName</emph> (Filnavn): En streng, der repræsenterer en eksisterende fil."
 
 #. F86KG
 #: sf_filesystem.xhp
@@ -9084,7 +9084,7 @@ msgctxt ""
 "par_id71601042959846\n"
 "help.text"
 msgid "<emph>Algorithm</emph>: One of the supported algorithms."
-msgstr ""
+msgstr "<emph>Algorithm</emph> (Algoritme): En eller flere understøttede algoritmer."
 
 #. HzFs2
 #: sf_filesystem.xhp
@@ -9093,7 +9093,7 @@ msgctxt ""
 "par_id51584791330688\n"
 "help.text"
 msgid "Moves one or more files from one location to another. Returns <literal>True</literal> if at least one file has been moved or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Flytter en eller flere filer fra en placering til en anden. Returnerer <literal>True</literal> (Sand), hvis i det mindste en fil er flyttet eller <literal>False</literal> (Falsk), hvis der er sket en fejl."
 
 #. oEPar
 #: sf_filesystem.xhp
@@ -9102,7 +9102,7 @@ msgctxt ""
 "par_id631613062890648\n"
 "help.text"
 msgid "An error will also occur if the <literal>Source</literal> parameter uses wildcard characters and does not match any files."
-msgstr ""
+msgstr "Der sker også en fejl, hvis parameteren<literal>Source</literal> (Kilde) bruger jokertegn, der ikke matcher nogen filer."
 
 #. ETmEP
 #: sf_filesystem.xhp
@@ -9111,7 +9111,7 @@ msgctxt ""
 "par_id241613062902777\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Metoden stopper umiddelbart efter, at den støder på en fejl. Metoden ruller ikke tilbage og annullerer heller ikke ændringer, der er foretaget, før fejlen skete."
 
 #. LAeis
 #: sf_filesystem.xhp
@@ -9120,7 +9120,7 @@ msgctxt ""
 "par_id721584791330406\n"
 "help.text"
 msgid "<emph>Source</emph>: It can be a <literal>FileName</literal> or <literal>NamePattern</literal> to designate one or more files to be moved."
-msgstr ""
+msgstr "<emph>Source</emph> (Kilde): Det kan være et <literal>FileName</literal> (Filnavn) eller et <literal>NamePattern</literal> (Navnemønster), der betegner en eller flere filer til flytning."
 
 #. rgNqi
 #: sf_filesystem.xhp
@@ -9129,7 +9129,7 @@ msgctxt ""
 "par_id291584791330181\n"
 "help.text"
 msgid "<emph>Destination</emph>: If <literal>Source</literal> is a <literal>FileName</literal> then this parameter indicates the new path and file name of the moved file."
-msgstr ""
+msgstr "<emph>Destination</emph> (Mål): Hvis <literal>Source</literal> (Kilde) er et <literal>FileName</literal> (Filnavn), angiver denne parameter den nye sti og filnavnet på den flyttede fil."
 
 #. E7BHq
 #: sf_filesystem.xhp
@@ -9138,7 +9138,7 @@ msgctxt ""
 "par_id31613063334246\n"
 "help.text"
 msgid "If the move operation involves multiple files, then Destination must be a folder name. If it does not exist, it is created."
-msgstr ""
+msgstr "Hvis operationen Flyt gælder flere filer, skal Destinationen være et mappenavn. Hvis det ikke eksisterer, oprettes mappen."
 
 #. BvhBP
 #: sf_filesystem.xhp
@@ -9147,7 +9147,7 @@ msgctxt ""
 "par_id391613063494599\n"
 "help.text"
 msgid "If <literal>Source</literal> and <literal>Destination</literal> have the same parent folder, the method will rename the <literal>Source</literal>."
-msgstr ""
+msgstr "Hvis <literal>Source</literal> (Kilde) og <literal>Destination</literal> (Mål) har den samme overordnede mappe, omdøber metoden <literal>Source</literal> (Kilden)."
 
 #. 6UKxC
 #: sf_filesystem.xhp
@@ -9156,7 +9156,7 @@ msgctxt ""
 "par_id941613063476533\n"
 "help.text"
 msgid "Wildcard characters are not allowed in <literal>Destination</literal>."
-msgstr ""
+msgstr "Jokertegn er ikke tilladte i <literal>Destination</literal> (Mål)."
 
 #. qPvQA
 #: sf_filesystem.xhp
@@ -9165,7 +9165,7 @@ msgctxt ""
 "bas_id331584791330495\n"
 "help.text"
 msgid "' Only files are moved, subfolders are not"
-msgstr ""
+msgstr "' Kun filer flyttes -- ikke undermapper"
 
 #. iYBMe
 #: sf_filesystem.xhp
@@ -9174,7 +9174,7 @@ msgctxt ""
 "par_id301584791330868\n"
 "help.text"
 msgid "Moves one or more folders from one location to another. Returns <literal>True</literal> if at least one folder has been moved or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Flytter en eller flere mapper fra en placering til en anden. Returnerer <literal>True</literal> (Sand), hvis mindst en mappe er flyttet, eller <literal>False</literal> (Faslk), hvis der er sket en fejl."
 
 #. R9Jrz
 #: sf_filesystem.xhp
@@ -9183,7 +9183,7 @@ msgctxt ""
 "par_id411613072570664\n"
 "help.text"
 msgid "An error will also occur if the <literal>Source</literal> parameter uses wildcard characters and does not match any folders."
-msgstr ""
+msgstr "Der vil også ske en fejl, hvis parameteren<literal>Source</literal> (Kilde) bruger jokertegn, der ikker matcher nogen mapper."
 
 #. F2DaD
 #: sf_filesystem.xhp
@@ -9192,7 +9192,7 @@ msgctxt ""
 "par_id601613072595264\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Metoden stopper umiddelbart efter, at den støder på en fejl. Metoden ruller ikke tilbage og annullerer heller ikke ændringer, der er foretaget, før fejlen skete."
 
 #. tLxAt
 #: sf_filesystem.xhp
@@ -9201,7 +9201,7 @@ msgctxt ""
 "par_id541584791330777\n"
 "help.text"
 msgid "<emph>Source</emph>: It can be a <literal>FolderName</literal> or <literal>NamePattern</literal> to designate one or more folders to be moved."
-msgstr ""
+msgstr "<emph>Source</emph> (KIlde): Det kan være et <literal>FolderName</literal> (Mappenavn) eller et <literal>NamePattern</literal> (Navnemønster), der betegne en eller flere mapper til flytning."
 
 #. bTWWF
 #: sf_filesystem.xhp
@@ -9210,7 +9210,7 @@ msgctxt ""
 "par_id551584791330279\n"
 "help.text"
 msgid "<emph>Destination</emph>: If the move operation involves a single folder, then <literal>Destination</literal> is the name and path of the moved folder and it must not exist."
-msgstr ""
+msgstr "<emph>Destination</emph> (Mål): Hvis flytning berører en enkelt mappe, er <literal>Destination</literal> navnet på og stien til den flyttede mappe og må ikke allerede eksistere."
 
 #. upwt8
 #: sf_filesystem.xhp
@@ -9219,7 +9219,7 @@ msgctxt ""
 "par_id11613072890641\n"
 "help.text"
 msgid "If multiple folders are being moved, then <literal>Destination</literal> designates where the folders in <literal>Source</literal> will be moved into. If <literal>Source</literal> does not exist, it is created."
-msgstr ""
+msgstr "Hvis flere mapper flyttes, udpeger <literal>Destination</literal> (Mål) den placering, som mapperne i <literal>Source</literal> (Kilde) skal flyttes til. Hvis <literal>Source</literal> ikke eksisterer, oprettes den."
 
 #. DFBsa
 #: sf_filesystem.xhp
@@ -9228,7 +9228,7 @@ msgctxt ""
 "par_id301613072928159\n"
 "help.text"
 msgid "Wildcard characters are not allowed in <literal>Destination</literal>."
-msgstr ""
+msgstr "Jokertegn er ikke tilladt i <literal>Destination</literal> (Mål)."
 
 #. JNTia
 #: sf_filesystem.xhp
@@ -9237,7 +9237,7 @@ msgctxt ""
 "par_id121585320922117\n"
 "help.text"
 msgid "Opens a file and returns a <literal>TextStream</literal> object that can be used to read from, write to, or append to the file."
-msgstr ""
+msgstr "Åbner en fil og returnerer objektet <literal>TextStream</literal> (Tekststrøm), som kan bruges til at læse fra, skrive i eller tilføje til filen."
 
 #. ePMpQ
 #: sf_filesystem.xhp
@@ -9246,7 +9246,7 @@ msgctxt ""
 "par_id591613073104711\n"
 "help.text"
 msgid "Note that the method does not check if the given file is really a text file."
-msgstr ""
+msgstr "Bemærk, at metoden ikke tjekker, om den givne fil faktisk er en tekstfil."
 
 #. p6VFZ
 #: sf_filesystem.xhp
@@ -9255,7 +9255,7 @@ msgctxt ""
 "par_id951613073135036\n"
 "help.text"
 msgid "The method returns a <literal>Null</literal> object if an error occurred."
-msgstr ""
+msgstr "Metoden returnerer objektet <literal>Null</literal>, hvis der skete en fejl."
 
 #. R5a4m
 #: sf_filesystem.xhp
@@ -9264,7 +9264,7 @@ msgctxt ""
 "par_id551585320922678\n"
 "help.text"
 msgid "<emph>FileName</emph>: Identifies the file to open."
-msgstr ""
+msgstr "<emph>FileName</emph> (Filnavn): Identificerer den fil, der skal åbnes."
 
 #. FUxVH
 #: sf_filesystem.xhp
@@ -9273,7 +9273,7 @@ msgctxt ""
 "par_id671585320922388\n"
 "help.text"
 msgid "<emph>IOMode</emph>: Indicates the input/output mode. It can be one of three constants: <literal>FSO.ForReading</literal> (default), <literal>FSO.ForWriting</literal>, or <literal>FSO.ForAppending</literal>."
-msgstr ""
+msgstr "<emph>IOMode</emph> (IO-tilstand): Angiver input/output-tilstanden. Det kan være en af tre konstanter: <literal>FSO.ForReading</literal> (standard / til læsning), <literal>FSO.ForWriting</literal> (til skrivning) eller <literal>FSO.ForAppending</literal> (til tilføjelse)."
 
 #. ttSYS
 #: sf_filesystem.xhp
@@ -9282,7 +9282,7 @@ msgctxt ""
 "par_id21585321398586\n"
 "help.text"
 msgid "<emph>Create</emph>: Boolean value that indicates whether a new file can be created if the specified filename doesn't exist:"
-msgstr "<emph>Create</emph>: Boolsk værdi, der angiver, om en ny fil kan oprettes, hvis det angivene fil ikke eksisterer:"
+msgstr "<emph>Create</emph> (Opret): Boolsk værdi, der angiver, om en ny fil kan oprettes, hvis det angivne fil ikke eksisterer:"
 
 #. VDFAi
 #: sf_filesystem.xhp
@@ -9291,7 +9291,7 @@ msgctxt ""
 "par_id721613073434797\n"
 "help.text"
 msgid "If <literal>True</literal> a new file and its parent folders will be created if they do not exist;"
-msgstr ""
+msgstr "Hvis <literal>True</literal> (Sand) oprettes en fil og dens overordnede mappe, hvis de ikke eksisterer;"
 
 #. EypVC
 #: sf_filesystem.xhp
@@ -9300,7 +9300,7 @@ msgctxt ""
 "par_id201613073469289\n"
 "help.text"
 msgid "If <literal>False</literal> then new files are not created (default)."
-msgstr ""
+msgstr "Hvis <literal>False</literal> (Falsk) oprettes de nye filer ikke (standard)."
 
 #. BoVQQ
 #: sf_filesystem.xhp
@@ -9309,7 +9309,7 @@ msgctxt ""
 "par_id771585321576210\n"
 "help.text"
 msgid "<emph>Encoding</emph>: The character set to be used. The default encoding is \"UTF-8\"."
-msgstr ""
+msgstr "<emph>Encoding</emph> (Tegnsæt): Det tegnsæt , der skal bruges. Standard-tegnsættet er \"UTF-8\"."
 
 #. FuYwe
 #: sf_filesystem.xhp
@@ -9318,7 +9318,7 @@ msgctxt ""
 "par_id871583670342501\n"
 "help.text"
 msgid "Opens a dialog box to open or save files."
-msgstr ""
+msgstr "Åbner et dialog til at åbne eller gemme filer."
 
 #. SjDBv
 #: sf_filesystem.xhp
@@ -9327,7 +9327,7 @@ msgctxt ""
 "par_id881613074436979\n"
 "help.text"
 msgid "If the <literal>SAVE</literal> mode is set and the picked file exists, a warning message will be displayed."
-msgstr ""
+msgstr "Hvis tilstanden <literal>SAVE</literal> (GEM) er sat og den udvalgte fil eksisterer, vises en advarsel."
 
 #. PAaAH
 #: sf_filesystem.xhp
@@ -9336,7 +9336,7 @@ msgctxt ""
 "par_id481583670342502\n"
 "help.text"
 msgid "<emph>DefaultFile</emph>: This argument is a string composed of a folder and file name:"
-msgstr ""
+msgstr "<emph>DefaultFile</emph> (Standardfil): Dette argument er en streng, der er sammensat af et mappe- og et filnavn:"
 
 #. fyVCs
 #: sf_filesystem.xhp
@@ -9345,7 +9345,7 @@ msgctxt ""
 "par_id511613074665951\n"
 "help.text"
 msgid "The folder part indicates the folder that will be shown when the dialog opens (default = the last selected folder)."
-msgstr ""
+msgstr "Mappedelen peger på den mappe, som bliver vist, når dialogen åbnes (standard = den sidst åbnede mappe)."
 
 #. xs5hU
 #: sf_filesystem.xhp
@@ -9354,7 +9354,7 @@ msgctxt ""
 "par_id631613074685308\n"
 "help.text"
 msgid "The file part designates the default file to open or save."
-msgstr ""
+msgstr "Fildelen peger på den standardfil, der skal åbnes eller gemmes."
 
 #. rcast
 #: sf_filesystem.xhp
@@ -9363,7 +9363,7 @@ msgctxt ""
 "par_id981583670342502\n"
 "help.text"
 msgid "<emph>Mode</emph>: <literal>OPEN</literal> (input file) or <literal>SAVE</literal> (output file). The default value is <literal>OPEN</literal>."
-msgstr ""
+msgstr "<emph>Mode</emph> (Tilstand): <literal>OPEN</literal> (input-fil) eller <literal>SAVE</literal> (output-fil). Standardværdien er <literal>OPEN</literal>."
 
 #. Dtmio
 #: sf_filesystem.xhp
@@ -9381,7 +9381,7 @@ msgctxt ""
 "bas_id941583670925672\n"
 "help.text"
 msgid "' Only *.txt files are displayed"
-msgstr ""
+msgstr "' Kun *.txt-filer vises"
 
 #. HkwaR
 #: sf_filesystem.xhp
@@ -9390,7 +9390,7 @@ msgctxt ""
 "par_id521583671701777\n"
 "help.text"
 msgid "Opens a dialog box to select a folder."
-msgstr ""
+msgstr "Åbner et dialogfelt for at vælge en mappe."
 
 #. coL3A
 #: sf_filesystem.xhp

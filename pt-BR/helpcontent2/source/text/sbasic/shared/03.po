@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-03-08 14:39+0100\n"
-"PO-Revision-Date: 2021-03-15 20:37+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
+"PO-Revision-Date: 2021-03-19 16:40+0000\n"
+"Last-Translator: Rafael Lima <rafael.palma.lima@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/pt_BR/>\n"
 "Language: pt-BR\n"
 "MIME-Version: 1.0\n"
@@ -4316,7 +4316,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDialogs.Dialog service"
-msgstr ""
+msgstr "Serviço SFDialogs.Dialog"
 
 #. LzQoS
 #: sf_dialog.xhp
@@ -4325,7 +4325,7 @@ msgctxt ""
 "bm_id781582391760253\n"
 "help.text"
 msgid "<variable id=\"dlg_h1\"><link href=\"text/sbasic/shared/03/sf_dialog.xhp\" name=\"SFDialogs.Dialog\"><literal>SFDialogs</literal>.<literal>Dialog</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"dlg_h1\"><link href=\"text/sbasic/shared/03/sf_dialog.xhp\" name=\"SFDialogs.Dialog\">Serviço <literal>SFDialogs</literal>.<literal>Dialog</literal></link></variable>"
 
 #. ny8EV
 #: sf_dialog.xhp
@@ -4334,7 +4334,7 @@ msgctxt ""
 "par_id931583589764919\n"
 "help.text"
 msgid "The <literal>Dialog</literal> service contributes to the management of dialogs created with the Basic <link href=\"text/sbasic/guide/create_dialog.xhp\" name=\"Dialog Editor\">Dialog Editor</link>. Each instance of the current class represents a single dialog box displayed to the user."
-msgstr ""
+msgstr "O serviço <literal>Dialog</literal> auxilia na gestão de caixas de diálogo criadas com o <link href=\"text/sbasic/guide/create_dialog.xhp\" name=\"Dialog Editor\">Editor de Diálogos Basic</link>. Cada instância desta classe representa uma caixa de diálogo única apresentada ao usuário."
 
 #. vxEvV
 #: sf_dialog.xhp
@@ -4343,7 +4343,7 @@ msgctxt ""
 "par_id831598110550771\n"
 "help.text"
 msgid "A dialog box can be displayed in modal or in non-modal modes."
-msgstr ""
+msgstr "Uma caixa de diálogo pode ser apresentada de forma modal ou não modal."
 
 #. LVjBj
 #: sf_dialog.xhp
@@ -4352,7 +4352,7 @@ msgctxt ""
 "par_id221598110444025\n"
 "help.text"
 msgid "In modal mode, the box is displayed and the execution of the macro process is suspended until one of the OK or Cancel buttons is pressed. In the meantime, user actions executed on the box can trigger specific actions."
-msgstr ""
+msgstr "No modo modal, a caixa de diálogo é apresentada e a execução da macro é suspensa até que o botão OK ou Cancelar sejam pressionados. Enquanto isso, ações do usuário executadas na caixa de diálogo podem disparar ações específicas."
 
 #. QEaR3
 #: sf_dialog.xhp
@@ -4361,7 +4361,7 @@ msgctxt ""
 "par_id981598110463521\n"
 "help.text"
 msgid "In non-modal mode, the dialog box is \"floating\" on the user desktop and the execution of the macro process continues normally. Regardless of its status, the dialog closes when the macro that displayed it finishes running."
-msgstr ""
+msgstr "No modo \"não modal\", a caixa de diálogo flutua na área de trabalho do usuário e a execução da macro continua normalmente. Independente de seu estado, a caixa de diálogo é fechada quando a macro que a apresentou finaliza sua execução."
 
 #. GrpyR
 #: sf_dialog.xhp
@@ -4370,7 +4370,7 @@ msgctxt ""
 "par_id721598110472337\n"
 "help.text"
 msgid "A dialog box disappears from memory after its explicit termination."
-msgstr ""
+msgstr "Caixas de diálogo desaparecem da memória após serem explicitamente encerradas."
 
 #. asacX
 #: sf_dialog.xhp
@@ -4379,7 +4379,7 @@ msgctxt ""
 "par_id891598188164936\n"
 "help.text"
 msgid "The <literal>SFDialogs.Dialog</literal> service is closely related to the <literal>SFDialogs.DialogControl</literal> service."
-msgstr ""
+msgstr "O serviço <literal>SFDialogs.Dialog</literal> está intimamente relacionado ao serviço <literal>SFDialogs.DialogControl</literal>."
 
 #. CByHp
 #: sf_dialog.xhp
@@ -4388,7 +4388,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation and usage"
-msgstr ""
+msgstr "Invocação e Uso do Serviço"
 
 #. hZcuK
 #: sf_dialog.xhp
@@ -4397,7 +4397,7 @@ msgctxt ""
 "par_id361598174756160\n"
 "help.text"
 msgid "The dialog service is invoked through the <literal>CreateScriptService</literal> method. It requires three arguments to specify the dialog box to activate:"
-msgstr ""
+msgstr "O serviço Dialog é invocado através do método <literal>CreateScriptService</literal>. Três argumentos devem ser especificados para a caixa de diálogo ser ativada:"
 
 #. Ntzqh
 #: sf_dialog.xhp
@@ -4406,7 +4406,7 @@ msgctxt ""
 "par_id31612271944733\n"
 "help.text"
 msgid "<emph>Container</emph>: \"<link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope specifier\"><literal>GlobalScope</literal></link>\" for preinstalled libraries or a window name as defined by <link href=\"text/sbasic/shared/03/sf_ui.xhp\" name=\"ScriptForge.UI\"><literal>ScriptForge.UI</literal></link> service. Empty string \"\" default value stands for the current document."
-msgstr ""
+msgstr "<emph>Container</emph>: \"<link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope specifier\"><literal>GlobalScope</literal></link>\" para bibliotecas pré-instalados o um nome de janela definido pelo serviço <link href=\"text/sbasic/shared/03/sf_ui.xhp\" name=\"ScriptForge.UI\"><literal>ScriptForge.UI</literal></link>. O valor padrão é uma String vazia \"\", o que indica o documento atual."
 
 #. juLgm
 #: sf_dialog.xhp
@@ -4415,7 +4415,7 @@ msgctxt ""
 "par_id311612271947124\n"
 "help.text"
 msgid "<emph>Library</emph>: The case-sensitive name of a library contained in the container. Default value is \"Standard\"."
-msgstr ""
+msgstr "<emph>Library</emph>: Nome da biblioteca contida no \"Container\" (sensível ao caso). O valor padrão é \"Standard\"."
 
 #. FSp5N
 #: sf_dialog.xhp
@@ -4424,7 +4424,7 @@ msgctxt ""
 "par_id821612271946316\n"
 "help.text"
 msgid "<emph>DialogName</emph>: A case-sensitive string designating the dialog."
-msgstr ""
+msgstr "<emph>DialogName</emph>: String sensível ao caso designando a caixa de diálogo."
 
 #. mqjFF
 #: sf_dialog.xhp
@@ -4433,7 +4433,7 @@ msgctxt ""
 "bas_id321598171269873\n"
 "help.text"
 msgid "'... controls initialization goes here..."
-msgstr ""
+msgstr "'... Inicialização dos controles vêm aqui..."
 
 #. yn6sy
 #: sf_dialog.xhp
@@ -4442,7 +4442,7 @@ msgctxt ""
 "bas_id471598176518738\n"
 "help.text"
 msgid "'Default mode = Modal"
-msgstr ""
+msgstr "'Modo padrão = Modal"
 
 #. h9a9G
 #: sf_dialog.xhp
@@ -4451,7 +4451,7 @@ msgctxt ""
 "bas_id551598171288547\n"
 "help.text"
 msgid "'... Process controls and do what is needed here"
-msgstr ""
+msgstr "'...Processa os controles e faz o que é necessário aqui..."
 
 #. ovpiH
 #: sf_dialog.xhp
@@ -4460,7 +4460,7 @@ msgctxt ""
 "par_id951598174966322\n"
 "help.text"
 msgid "Alternatively a <literal>Dialog</literal> instance can be retrieved via the <literal>SFDialogs.DialogEvent</literal> service, providing the dialog was initiated with the <literal>Dialog</literal> service. <literal>DialogEvent</literal> returns the <literal>SFDialogs.Dialog</literal> service instance that triggered the event."
-msgstr ""
+msgstr "Alternativamente, uma instância <literal>Dialog</literal> pode ser obtida pelo serviço <literal>SFDialogs.DialogEvent</literal>, retornando o diálogo que foi iniciado com o serviço <literal>Dialog</literal>. <literal>DialogEvent</literal> retorna a instância do serviço <literal>SFDialogs.Dialog</literal> que disparou o evento."
 
 #. XxoaB
 #: sf_dialog.xhp
@@ -4469,7 +4469,7 @@ msgctxt ""
 "par_id251598176312571\n"
 "help.text"
 msgid "Note that in previous examples, the prefix <literal>\"SFDialogs.\"</literal> may be omitted."
-msgstr ""
+msgstr "Note que nos exemplos anteriores o prefixo <literal>\"SFDialogs.\"</literal> pode ser omitido."
 
 #. nXGkZ
 #: sf_dialog.xhp
@@ -4478,7 +4478,7 @@ msgctxt ""
 "hd_id651583668365757\n"
 "help.text"
 msgid "Properties"
-msgstr ""
+msgstr "Propriedades"
 
 #. zVLEC
 #: sf_dialog.xhp
@@ -4487,7 +4487,7 @@ msgctxt ""
 "par_id871583668386455\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. FBCFG
 #: sf_dialog.xhp
@@ -4496,7 +4496,7 @@ msgctxt ""
 "par_id491583668386455\n"
 "help.text"
 msgid "ReadOnly"
-msgstr ""
+msgstr "Somente leitura"
 
 #. ByVDE
 #: sf_dialog.xhp
@@ -4505,7 +4505,7 @@ msgctxt ""
 "par_id271583668474014\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. 8AUBJ
 #: sf_dialog.xhp
@@ -4514,7 +4514,7 @@ msgctxt ""
 "par_id401583668386455\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Descrição"
 
 #. iZZec
 #: sf_dialog.xhp
@@ -4523,7 +4523,7 @@ msgctxt ""
 "par_id371583668519172\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #. av994
 #: sf_dialog.xhp
@@ -4532,7 +4532,7 @@ msgctxt ""
 "par_id771583668386455\n"
 "help.text"
 msgid "Value = 1. An OK button was pressed."
-msgstr ""
+msgstr "Valor = 1. Um botão OK foi pressionado."
 
 #. GKcTG
 #: sf_dialog.xhp
@@ -4541,7 +4541,7 @@ msgctxt ""
 "par_id541583839708548\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #. z4BZ4
 #: sf_dialog.xhp
@@ -4550,7 +4550,7 @@ msgctxt ""
 "par_id731583839708412\n"
 "help.text"
 msgid "Value = 0. A Cancel button was pressed."
-msgstr ""
+msgstr "Valor = 0. Um botão Cancelar foi pressionado."
 
 #. cThsX
 #: sf_dialog.xhp
@@ -4559,7 +4559,7 @@ msgctxt ""
 "par_id761584027709516\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #. 48bDT
 #: sf_dialog.xhp
@@ -4568,7 +4568,7 @@ msgctxt ""
 "par_id971584027709752\n"
 "help.text"
 msgid "Specify the title of the dialog."
-msgstr ""
+msgstr "Especifica o título da caixa de diálogo."
 
 #. 2pjyZ
 #: sf_dialog.xhp
@@ -4577,7 +4577,7 @@ msgctxt ""
 "par_id31583839767743\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #. 3Rypn
 #: sf_dialog.xhp
@@ -4586,7 +4586,7 @@ msgctxt ""
 "par_id111583839767195\n"
 "help.text"
 msgid "Specify the height of the dialog box."
-msgstr ""
+msgstr "Especifica a altura da caixa de diálogo."
 
 #. KD2zy
 #: sf_dialog.xhp
@@ -4595,7 +4595,7 @@ msgctxt ""
 "par_id771583839920487\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #. ABrxD
 #: sf_dialog.xhp
@@ -4604,7 +4604,7 @@ msgctxt ""
 "par_id451583839920858\n"
 "help.text"
 msgid "Specifies if the dialog box is currently in execution in modal mode."
-msgstr ""
+msgstr "Especifica se a caixa de diálogo está em execução no formato \"modal\"."
 
 #. sA5Nj
 #: sf_dialog.xhp
@@ -4613,7 +4613,7 @@ msgctxt ""
 "par_id571588333908716\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #. JoAYu
 #: sf_dialog.xhp
@@ -4622,7 +4622,7 @@ msgctxt ""
 "par_id721588333908708\n"
 "help.text"
 msgid "The name of the dialog"
-msgstr ""
+msgstr "Nome da caixa de diálogo"
 
 #. jcbwB
 #: sf_dialog.xhp
@@ -4631,7 +4631,7 @@ msgctxt ""
 "par_id501583774433513\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #. Tfrah
 #: sf_dialog.xhp
@@ -4640,7 +4640,7 @@ msgctxt ""
 "par_id151598177605296\n"
 "help.text"
 msgid "A dialog may have several pages that can be traversed by the user step by step. The Page property of the Dialog object defines which page of the dialog is active."
-msgstr ""
+msgstr "Uma caixa de diálogo pode ter várias páginas que podem ser percorridas pelo usuário uma a uma. A propriedade \"Page\" do objeto \"Dialog\" define qual página está ativa no diálogo."
 
 #. FZG3n
 #: sf_dialog.xhp
@@ -4649,7 +4649,7 @@ msgctxt ""
 "par_id271588334016191\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #. 3sRE5
 #: sf_dialog.xhp
@@ -4658,7 +4658,7 @@ msgctxt ""
 "par_id251588334016874\n"
 "help.text"
 msgid "Specify if the dialog box is visible on the desktop. By default it is not visible until the Execute() method is run and visible afterwards."
-msgstr ""
+msgstr "Especifica se a caixa de diálogo está visível na área de trabalho. Por padrão, ela não é visível até que o método \"Execute\" seja invocado. Após isso, a caixa de diálogo passa a ser visível."
 
 #. w6DwG
 #: sf_dialog.xhp
@@ -4667,7 +4667,7 @@ msgctxt ""
 "par_id451598177924437\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #. W2CkE
 #: sf_dialog.xhp
@@ -4676,7 +4676,7 @@ msgctxt ""
 "par_id191598177924897\n"
 "help.text"
 msgid "The UNO object representing the dialog model. Refer to <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1awt_1_1XControlModel.html\" name=\"XControlModel interface\">XControlModel</link> and <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1awt_1_1UnoControlDialogModel-members.html\" name=\"css.awt.UnoControlDialogModel\">UnoControlDialogModel</link> in Application Programming Interface (API) documentation for detailed information."
-msgstr ""
+msgstr "Objeto UNO representando o modelo do diálogo. Consulte <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1awt_1_1XControlModel.html\" name=\"XControlModel interface\">XControlModel</link> e <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1awt_1_1UnoControlDialogModel-members.html\" name=\"css.awt.UnoControlDialogModel\">UnoControlDialogModel</link> na documentação da API para mais detalhes."
 
 #. YFYi4
 #: sf_dialog.xhp
@@ -4685,7 +4685,7 @@ msgctxt ""
 "par_id811598178083501\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #. bmedG
 #: sf_dialog.xhp
@@ -4694,7 +4694,7 @@ msgctxt ""
 "par_id731598178083442\n"
 "help.text"
 msgid "The UNO object representing the dialog view. Refer to <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1awt_1_1XControlModel.html\" name=\"XControl interface\">XControl</link> and <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1awt_1_1UnoControlDialog-members.html\" name=\"UnoControlDialog interface\">UnoControlDialog</link> in Application Programming Interface (API) documentation for detailed information."
-msgstr ""
+msgstr "Objeto UNO representando a visualização do diálogo. Consulte <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1awt_1_1XControlModel.html\" name=\"XControl interface\">XControl</link> e <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1awt_1_1UnoControlDialog-members.html\" name=\"UnoControlDialog interface\">UnoControlDialog</link> na documentação da API para mais detalhes."
 
 #. gTQjc
 #: sf_dialog.xhp
@@ -4703,7 +4703,7 @@ msgctxt ""
 "par_id921606472825856\n"
 "help.text"
 msgid "Methods"
-msgstr ""
+msgstr "Métodos"
 
 #. DiCyL
 #: sf_dialog.xhp
@@ -4712,7 +4712,7 @@ msgctxt ""
 "par_id871583933076448\n"
 "help.text"
 msgid "Set the focus on the current <literal>Dialog</literal> instance. Return <literal>True</literal> if focusing was successful."
-msgstr ""
+msgstr "Coloca o foco na instância <literal>Dialog</literal> atual. Retorna <literal>True</literal> se a focalização foi bem-sucedida."
 
 #. 7QdPA
 #: sf_dialog.xhp
@@ -4721,7 +4721,7 @@ msgctxt ""
 "par_id151598178880227\n"
 "help.text"
 msgid "This method is called from a dialog or control event, or when a dialog is displayed in non-modal mode."
-msgstr ""
+msgstr "Este método é chamado a partir de uma caixa de diálogo ou evento de controle, o quando um diálogo é apresentado no modo \"não modal\"."
 
 #. L9qDh
 #: sf_dialog.xhp
@@ -4748,7 +4748,7 @@ msgctxt ""
 "bas_id841598179117184\n"
 "help.text"
 msgid "' Dialog stored in current document's standard library"
-msgstr ""
+msgstr "' Diálogo armazenado na biblioteca padrão do documento atual"
 
 #. 4qLn9
 #: sf_dialog.xhp
@@ -4757,7 +4757,7 @@ msgctxt ""
 "par_id161584541257982\n"
 "help.text"
 msgid "Return either:"
-msgstr ""
+msgstr "Retorna:"
 
 #. isSnB
 #: sf_dialog.xhp
@@ -4766,7 +4766,7 @@ msgctxt ""
 "par_id421598179770993\n"
 "help.text"
 msgid "the list of the controls contained in the dialog"
-msgstr ""
+msgstr "A lista dos controles contidos na caixa de diálogo"
 
 #. 4EuYK
 #: sf_dialog.xhp
@@ -4775,7 +4775,7 @@ msgctxt ""
 "par_id81598185229301\n"
 "help.text"
 msgid "a dialog control class instance based on its name"
-msgstr ""
+msgstr "Uma instância do controle de diálogo com base no seu nome"
 
 #. 2RFtC
 #: sf_dialog.xhp
@@ -4802,7 +4802,7 @@ msgctxt ""
 "par_id1001584541257789\n"
 "help.text"
 msgid "<emph>ControlName</emph> : A valid control name as a case-sensitive string. If absent, the list of control names is returned as a zero-based array."
-msgstr ""
+msgstr "<emph>ControlName</emph> : String sensível ao caso com o nome válido de um controle. Se não for especificado, a lista de nomes de controles é retornada em um Array indexado em zero."
 
 #. atHXa
 #: sf_dialog.xhp
@@ -4820,7 +4820,7 @@ msgctxt ""
 "par_id381598185776500\n"
 "help.text"
 msgid "Ends the display of a modal dialog and gives back the argument as return value for the current <literal>Execute()</literal> running action."
-msgstr ""
+msgstr "Finaliza a apresentação de um diálogo modal e retorna o argumento como valor de retorno da ação <literal>Execute()</literal> atual."
 
 #. gjvwy
 #: sf_dialog.xhp
@@ -4829,7 +4829,7 @@ msgctxt ""
 "par_id551598185953362\n"
 "help.text"
 msgid "<literal>EndExecute()</literal> is usually contained in the processing of a macro triggered by a dialog or control event."
-msgstr ""
+msgstr "<literal>EndExecute()</literal> está geralmente contido no processamento da macro disparada por uma caixa de diálogo ou evento de controle."
 
 #. BkuiE
 #: sf_dialog.xhp
@@ -4838,7 +4838,7 @@ msgctxt ""
 "par_id451598185776957\n"
 "help.text"
 msgid "<emph>ReturnValue</emph> : The value passed to the running <literal>Execute()</literal> method."
-msgstr ""
+msgstr "<emph>ReturnValue</emph> : Valor passado para o método <literal>Execute()</literal> em execução."
 
 #. FD9fr
 #: sf_dialog.xhp
@@ -4847,7 +4847,7 @@ msgctxt ""
 "par_id29159818646178\n"
 "help.text"
 msgid "Display the dialog box and, when modal, wait for its termination by the user. The returned value is either:"
-msgstr ""
+msgstr "Mostra a caixa de diálogo, quando modal, e espera for sua finalização pelo usuário. O valor retornado é:"
 
 #. PRCaG
 #: sf_dialog.xhp
