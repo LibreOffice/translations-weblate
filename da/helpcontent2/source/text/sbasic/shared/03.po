@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-03-19 17:31+0100\n"
-"PO-Revision-Date: 2021-03-20 17:36+0000\n"
+"PO-Revision-Date: 2021-03-21 21:37+0000\n"
 "Last-Translator: SteenRønnow <steen.roennow@mail.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/da/>\n"
 "Language: da\n"
@@ -11340,7 +11340,7 @@ msgctxt ""
 "par_id351582712098824\n"
 "help.text"
 msgid "Called internally by <literal>ScriptForge</literal> to register for a library the list of services it implements.         <br/>Each library associated to <literal>Scriptforge</literal> or extending it must implement its own <literal>RegisterScriptServices</literal> method."
-msgstr "Kaldet internt <literal>ScriptForge</literal> for at registrere en liste over tjenester, et bibliotek implementerer.         <br/>Hvert bibliotek, der er knyttet til <literal>Scriptforge</literal> eller udvider det, skal implementere metoden <literal>RegisterScriptServices</literal> selvstændigt."
+msgstr "Kaldet internt af <literal>ScriptForge</literal> for at registrere en liste over tjenester, et bibliotek implementerer.         <br/>Hvert bibliotek, der er knyttet til <literal>Scriptforge</literal> eller udvider det, skal selvstændigt implementere metoden <literal>RegisterScriptServices</literal> (Registrer scripttjenester)."
 
 #. Adbws
 #: sf_services.xhp
@@ -11349,7 +11349,7 @@ msgctxt ""
 "par_id671595847982308\n"
 "help.text"
 msgid "Called - as many times as there are services to register in the library - by <literal>RegisterScriptServices</literal>."
-msgstr ""
+msgstr "Kaldt – så mange gange, som der er tjenester at registrere i biblioteket – af <literal>RegisterScriptServices</literal> (Registrer scripttjenester)."
 
 #. vsobg
 #: sf_services.xhp
@@ -11358,7 +11358,7 @@ msgctxt ""
 "par_id241596294275434\n"
 "help.text"
 msgid "Called to register a library event manager by <literal>RegisterScriptServices</literal>."
-msgstr ""
+msgstr "Kaldt for at registrere et biblioteks hændelseshåndtering af <literal>RegisterScriptServices</literal> (Registrer scripttjenester)."
 
 #. VC4em
 #: sf_services.xhp
@@ -11367,7 +11367,7 @@ msgctxt ""
 "par_id741582712156448\n"
 "help.text"
 msgid "Called by user scripts to get an object giving access to the service given as argument.         <br/>All services should be invoked thru the <literal>CreateScriptService</literal> method."
-msgstr ""
+msgstr "Kaldt af brugerskript for at få et bojekt til at give adgang til den tjeneste, der er givet som argument.         <br/>Alle tjenester bør kaldes ved hjælp af metoden <literal>CreateScriptService</literal> (Opret scripttjeneste)."
 
 #. 9Geac
 #: sf_services.xhp
@@ -11376,7 +11376,7 @@ msgctxt ""
 "par_id651582712806415\n"
 "help.text"
 msgid "Conventionally, the <literal>String</literal>, <literal>Array</literal> and <literal>Exception</literal> services may be invoked directly respectively as <literal>SF_String</literal>, <literal>SF_Array</literal> and <literal>SF_Exception</literal>."
-msgstr ""
+msgstr "Konventionelt kan tjenesterne <literal>String</literal> (streng), <literal>Array</literal> (matrix) og <literal>Exception</literal> (undtagelse) kaldes direkte som henholdsvis <literal>SF_String</literal>, <literal>SF_Array</literal> and <literal>SF_Exception</literal>."
 
 #. BzHaE
 #: sf_services.xhp
@@ -11385,7 +11385,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in the Services Service"
-msgstr ""
+msgstr "Tjenesten List of Methods in the Services (Liste over metoder i tjenesterne)"
 
 #. howve
 #: sf_services.xhp
@@ -11394,7 +11394,7 @@ msgctxt ""
 "par_id871582714020043\n"
 "help.text"
 msgid "Gain access to one of the services of a library for the benefit of a user script.      <br/> The returned value is a Basic object or <literal>Nothing</literal> if an error occurred."
-msgstr ""
+msgstr "Få adgang til en af tjenesterne i et bibliotek for at benytte et brugerskript.      <br/> Den returnerede værdi er et basic-objekt eller <literal>Nothing</literal> (ingenting), hvis der skete en fejl."
 
 #. KweBC
 #: sf_services.xhp
@@ -11403,7 +11403,7 @@ msgctxt ""
 "par_id101582714266656\n"
 "help.text"
 msgid "A service can be understood as either:"
-msgstr ""
+msgstr "En tjeneste kan forstås som enten:"
 
 #. w7Czn
 #: sf_services.xhp
@@ -11412,7 +11412,7 @@ msgctxt ""
 "par_id531582714337820\n"
 "help.text"
 msgid "as a set of methods gathered in a Basic standard module"
-msgstr ""
+msgstr "som et sæt af metoder, der er samlet i et Basic-standardmodul"
 
 #. rfAFT
 #: sf_services.xhp
@@ -11421,7 +11421,7 @@ msgctxt ""
 "par_id291582714347134\n"
 "help.text"
 msgid "or a set of methods and properties gathered in a Basic class module."
-msgstr ""
+msgstr "eller som et sæt metoder og egenskaber, der er samlet i et Basic-klassemodul."
 
 #. tR7ys
 #: sf_services.xhp
@@ -11430,7 +11430,7 @@ msgctxt ""
 "hd_id431582714020044\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
 
 #. SpGFT
 #: sf_services.xhp
@@ -11439,7 +11439,7 @@ msgctxt ""
 "hd_id251582714020044\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
 
 #. VuLrG
 #: sf_services.xhp
@@ -11448,7 +11448,7 @@ msgctxt ""
 "par_id971582714020045\n"
 "help.text"
 msgid "<emph>Service</emph>: The name of the service identified as \"library.service\".      <br/>The library is a Basic library that must exist in the <link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope\">GlobalScope</link>. The default value is \"ScriptForge\".      <br/>The service is one of the services registered by the library via the <literal>RegisterScriptServices()</literal> method."
-msgstr ""
+msgstr "<emph>Service</emph> (tjeneste): Navnet på den tjeneste, der er defineret som \"library.service\" (bibliotek.tjeneste).      <br/>Biblioteket er et Basic-bibliotek, der må findes i <link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope\">GlobalScope</link> (global rækkevide). Standardværdien er \"ScriptForge\".      <br/>Tjenesten er en af de tjenester, der er registreret af biblioteket ved hjælp af metoden <literal>RegisterScriptServices()</literal> (Registrer scripttjenester())."
 
 #. q97vs
 #: sf_services.xhp
@@ -11457,7 +11457,7 @@ msgctxt ""
 "par_id391582714020045\n"
 "help.text"
 msgid "<emph>arg0, ...</emph>: A list of arguments required by the invoked service.        <br/>If the first argument refers to an event manager, then arg0 is mandatory and must be the UNO object representing the event provided as argument to the user macro."
-msgstr ""
+msgstr "<emph>arg0, ...</emph>: En liste over argumenter, der kræves af den kaldte tjeneste.        <br/>Hvis det første argument henviser til en hændelseshåndtering, er arg0 obligatorisk og skal være det UNO-objekt, der repræsenterer den hændelse, der blev givet som argument til brugermakroen."
 
 #. imGjJ
 #: sf_services.xhp
@@ -11466,7 +11466,7 @@ msgctxt ""
 "hd_id91582714020046\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
 
 #. wuR7S
 #: sf_services.xhp
@@ -11475,7 +11475,7 @@ msgctxt ""
 "bas_id981582898174133\n"
 "help.text"
 msgid "' To be done once"
-msgstr ""
+msgstr "' Skal gøres en gang"
 
 #. oqovE
 #: sf_services.xhp
@@ -11484,7 +11484,7 @@ msgctxt ""
 "bas_id311582715700844\n"
 "help.text"
 msgid "' Refers to the \"ScriptForge.Array\" service or SF_Array"
-msgstr ""
+msgstr "' Henviser til tjenesten \"ScriptForge.Array\" eller SF_Array"
 
 #. KvcPo
 #: sf_services.xhp
@@ -11493,7 +11493,7 @@ msgctxt ""
 "bas_id61582715759468\n"
 "help.text"
 msgid "' Returns a new empty dictionary class instance; \"ScriptForge.\" is optional"
-msgstr ""
+msgstr "' Returnerer en ny tom klasseforekomst af en ordbog; \"ScriptForge.\"er valgfri"
 
 #. pMGcR
 #: sf_services.xhp
@@ -11502,7 +11502,7 @@ msgctxt ""
 "bas_id901582715797722\n"
 "help.text"
 msgid "' Refers to the Calc service, implemented in the associated SFDocuments library"
-msgstr ""
+msgstr "' Refererer til den Calc-tjeneste, der er implementeret i det tilknyttede SFDocuments-bibliotek"
 
 #. BoXHx
 #: sf_services.xhp
@@ -11511,7 +11511,7 @@ msgctxt ""
 "bas_id361582715845747\n"
 "help.text"
 msgid "' Returns a Timer class instance starting immediately"
-msgstr ""
+msgstr "' Returnerer en klasseforekomst Timer, der starter øjeblikkelig"
 
 #. 9bmdn
 #: sf_services.xhp
@@ -11520,7 +11520,7 @@ msgctxt ""
 "bas_id571596298708062\n"
 "help.text"
 msgid "' Refers to the DocumentEvent service implemented in the associated SFDocuments library"
-msgstr ""
+msgstr "' Refererer til tjenesten DocumentEvent (dokumenthændelse), der er implementeret i det tilknyttede SFDocuments-bibliotek"
 
 #. DFhat
 #: sf_services.xhp
@@ -11529,7 +11529,7 @@ msgctxt ""
 "bas_id121613492254532\n"
 "help.text"
 msgid "' Returns the instance of the Document class that fired the event"
-msgstr ""
+msgstr "' Returnerer den forekomst af klassen Document, der udløste hændelsen"
 
 #. AsuMY
 #: sf_services.xhp
@@ -11538,7 +11538,7 @@ msgctxt ""
 "par_id1315827229793\n"
 "help.text"
 msgid "By executing a series of invocations of <literal>RegisterService()</literal> and <literal>RegisterEventManager()</literal>, the <literal>RegisterScriptServices()</literal> method incorporates a library into the <literal>ScriptForge</literal> framework.      <br/>Each library pertaining to the framework must implement its own version of this method."
-msgstr ""
+msgstr "Ved at udføre en serie af kald på <literal>RegisterService()</literal> (Registrer tjenester) og <literal>RegisterEventManager()</literal> (Registrer hændelseshåndtering), metoden <literal>RegisterScriptServices()</literal> (Registrer scripttjenester()) inddrager et bibliotek i konstruktionen <literal>ScriptForge</literal>.      <br/>Hver bibliotek, der vedrører konstruktionen skal implementere sin egen version af denne metode."
 
 #. 8FgEA
 #: sf_services.xhp
@@ -11547,7 +11547,7 @@ msgctxt ""
 "par_id411582723190195\n"
 "help.text"
 msgid "The method has to be stored in a <emph>standard</emph> Basic module as opposed to a class module."
-msgstr ""
+msgstr "Metoden skal lagres i et Basic-<emph>standard</emph>modul – som modsætning til et klassemodul."
 
 #. jEAZb
 #: sf_services.xhp
@@ -11556,7 +11556,7 @@ msgctxt ""
 "par_id351582724127926\n"
 "help.text"
 msgid "A service is either:"
-msgstr ""
+msgstr "En tjeneste er enten:"
 
 #. oC8wx
 #: sf_services.xhp
@@ -11565,7 +11565,7 @@ msgctxt ""
 "par_id171582722979820\n"
 "help.text"
 msgid "a Basic standard module passed as a Basic object."
-msgstr ""
+msgstr "et Basic-standardmodul, videregivet som et Basic-objekt."
 
 #. r98Hy
 #: sf_services.xhp
@@ -11574,7 +11574,7 @@ msgctxt ""
 "par_id121582722979649\n"
 "help.text"
 msgid "or a string designating the function to execute to get an instance of the service. It is in fact the function containing the <literal>New</literal> keyword of a <link href=\"text/sbasic/shared/03103700.xhp\" name=\"Set statement\">Set</link> statement creating the instance."
-msgstr ""
+msgstr "eller en streng, der betegner den funktion, der skal udføres for at få en forekomst af tjenesten. Det er faktisk den funktion, der indeholder nøgleordet <literal>New</literal> (Ny), i udtrykket <link href=\"text/sbasic/shared/03103700.xhp\" name=\"Set statement\">Set</link> (Sæt), der oprettede forekomsten."
 
 #. FKqFQ
 #: sf_services.xhp
@@ -11583,7 +11583,7 @@ msgctxt ""
 "par_id771582725815107\n"
 "help.text"
 msgid "GlobalScope.LibraryName.ModuleName ' Object"
-msgstr ""
+msgstr "GlobalScope.LibraryName.ModuleName ' Objekt"
 
 #. DYyWS
 #: sf_services.xhp
@@ -11601,7 +11601,7 @@ msgctxt ""
 "hd_id351582722979618\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
 
 #. uej6R
 #: sf_services.xhp
@@ -11610,7 +11610,7 @@ msgctxt ""
 "bas_id11582725353585\n"
 "help.text"
 msgid "' Refer to a Basic standard module implementing the service as a set of methods"
-msgstr ""
+msgstr "' Henvis til et Basic-standardmodul, der implementerer tjenesten som et sæt metoder"
 
 #. jCUWF
 #: sf_services.xhp
@@ -11619,7 +11619,7 @@ msgctxt ""
 "bas_id341582725374064\n"
 "help.text"
 msgid "' The function should return an instance of a Basic object class implementing the service"
-msgstr ""
+msgstr "' Funktionen bør returnere en forekomst af et Basic-objektklasse, der implementerer tjenesten"
 
 #. iwekv
 #: sf_services.xhp
@@ -11628,7 +11628,7 @@ msgctxt ""
 "par_id741582727674249\n"
 "help.text"
 msgid "When a user script contains a statement such as:"
-msgstr ""
+msgstr "Når et brugerskript indeholder et udtryk som for eksempel:"
 
 #. ivHq4
 #: sf_services.xhp
@@ -11655,7 +11655,7 @@ msgctxt ""
 "par_id441582728492537\n"
 "help.text"
 msgid "invoke the <literal>RegisterScriptServices</literal> method to load the list of services of <literal>myLibrary</literal> in memory"
-msgstr ""
+msgstr "kald metoden <literal>RegisterScriptServices</literal> (Registrer scripttjenester) for at hente listen over tjenester i <literal>myLibrary</literal> (mit bibliotek) ind i hukommelsen"
 
 #. csxrp
 #: sf_services.xhp
@@ -11664,7 +11664,7 @@ msgctxt ""
 "par_id531582728511341\n"
 "help.text"
 msgid "initialize the variable <literal>myServ</literal> with the given service"
-msgstr ""
+msgstr "initialiser variablen <literal>myServ</literal> (min server) med den givne tjeneste"
 
 #. x6Xa6
 #: sf_services.xhp
@@ -11673,7 +11673,7 @@ msgctxt ""
 "par_id331595857355789\n"
 "help.text"
 msgid "The method returns <literal>True</literal> if the name-value pair given as argument could be registered successfully."
-msgstr ""
+msgstr "Metoden returnerer <literal>True</literal> (sand), hvis parret navn-værdi, der blevet givet som argument, kunne registreres med succes."
 
 #. hm3aY
 #: sf_services.xhp
@@ -11682,7 +11682,7 @@ msgctxt ""
 "hd_id701595857355894\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
 
 #. 7U5MA
 #: sf_services.xhp
@@ -11691,7 +11691,7 @@ msgctxt ""
 "hd_id1159585735573\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
 
 #. ELGxD
 #: sf_services.xhp
@@ -11700,7 +11700,7 @@ msgctxt ""
 "par_id721595857355929\n"
 "help.text"
 msgid "<emph>ServiceName</emph>: The name of the service as a case-insensitive string. The name must be unique."
-msgstr ""
+msgstr "<emph>ServiceName</emph> (tjenestens navn): Tjenestens navn som en streng med Store og små bogstaver. Navnet skal være unikt."
 
 #. GkGcA
 #: sf_services.xhp
@@ -11709,7 +11709,7 @@ msgctxt ""
 "par_id271595857355756\n"
 "help.text"
 msgid "<emph>ServiceReference</emph>: A service reference is either:"
-msgstr ""
+msgstr "<emph>ServiceReference</emph> (tjeneste-reference): En tjeneste-reference er enten:"
 
 #. EnhtA
 #: sf_services.xhp
@@ -11718,7 +11718,7 @@ msgctxt ""
 "hd_id481595857355966\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
 
 #. cmHCE
 #: sf_services.xhp
@@ -11727,7 +11727,7 @@ msgctxt ""
 "bas_id101595857355820\n"
 "help.text"
 msgid "' Refer to a Basic standard module implementing the service as a set of methods"
-msgstr ""
+msgstr "' Henvis til et Basic-standardmodul, der implementerer tjenesten som et sæt metoder"
 
 #. bgCCe
 #: sf_services.xhp
@@ -11736,7 +11736,7 @@ msgctxt ""
 "bas_id951595857355198\n"
 "help.text"
 msgid "' The function should return an instance of a Basic object class implementing the service"
-msgstr ""
+msgstr "' Funktionen bør returnerere en forekomst af en Basic objektklasse, der implementerer tjenesten"
 
 #. QPDMC
 #: sf_services.xhp
@@ -11745,7 +11745,7 @@ msgctxt ""
 "par_id701596299279876\n"
 "help.text"
 msgid "The method returns <literal>True</literal> if the name-value pair given as argument could be registered successfully."
-msgstr ""
+msgstr "Metoden returnerer <literal>True</literal> (sand), hvis parret navn-værdi givet som argument kunne registreres med succes."
 
 #. hXBCv
 #: sf_services.xhp
@@ -11754,7 +11754,7 @@ msgctxt ""
 "hd_id151596299279417\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
 
 #. biZdX
 #: sf_services.xhp
@@ -11763,7 +11763,7 @@ msgctxt ""
 "hd_id421596299279275\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
 
 #. Ky8rX
 #: sf_services.xhp
@@ -11772,7 +11772,7 @@ msgctxt ""
 "par_id331596299279165\n"
 "help.text"
 msgid "<emph>ServiceName</emph>: The name of the service as a case-insensitive string. The name must be unique."
-msgstr ""
+msgstr "<emph>ServiceName</emph> (tjenestenavn): Tjenestens navn som en streng med både Stort og småt. Navnet skal være unikt."
 
 #. 3AXvN
 #: sf_services.xhp
@@ -11781,7 +11781,7 @@ msgctxt ""
 "par_id92159629927929\n"
 "help.text"
 msgid "<emph>ServiceReference</emph>: A string designating the function to execute to get an instance of the service. It is in fact the function containing the <literal>New</literal> keyword of a <link href=\"text/sbasic/shared/03103700.xhp\" name=\"Set statement\">Set</link> statement creating the instance.:"
-msgstr ""
+msgstr "<emph>ServiceReference</emph> :(tjeneste-reference) En streng, der betegner den funktion, der skal udføres for at hente en forekomst af tjenesten. Det er faktisk den funktion, der indeholder nøgleordet <literal>New</literal> (Ny) i udtrykket <link href=\"text/sbasic/shared/03103700.xhp\" name=\"Set statement\">Set</link> (sæt), der opretter forekomsten:"
 
 #. 3DmHk
 #: sf_services.xhp
@@ -11790,7 +11790,7 @@ msgctxt ""
 "hd_id631596299279349\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
 
 #. FKFAC
 #: sf_services.xhp
@@ -11799,7 +11799,7 @@ msgctxt ""
 "bas_id521596299279373\n"
 "help.text"
 msgid "' The function should return an instance of a Basic object class implementing the service"
-msgstr ""
+msgstr "' Funktionen bør returnerer en forekomst af en Basic-objektklasse, der implementierer tjenesten"
 
 #. LCVem
 #: sf_session.xhp
@@ -11808,7 +11808,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Session service"
-msgstr ""
+msgstr "Tjenesten ScriptForge.Session"
 
 #. c4YAM
 #: sf_session.xhp
@@ -11817,7 +11817,7 @@ msgctxt ""
 "hd_id901582814720985\n"
 "help.text"
 msgid "<variable id=\"SessionService\"><link href=\"text/sbasic/shared/03/sf_session.xhp\" name=\"Session service\"><literal>ScriptForge</literal>.<literal>Session</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"SessionService\"><link href=\"text/sbasic/shared/03/sf_session.xhp\" name=\"Session service\">Tjenesten <literal>ScriptForge</literal>.<literal>Session</literal></link></variable>"
 
 #. yTgFK
 #: sf_session.xhp
@@ -11835,7 +11835,7 @@ msgctxt ""
 "par_id34158281472051\n"
 "help.text"
 msgid "the installation or execution environment"
-msgstr ""
+msgstr "installations- eller udførelses-miljøet"
 
 #. cf5WG
 #: sf_session.xhp
@@ -11844,7 +11844,7 @@ msgctxt ""
 "par_id411582814720361\n"
 "help.text"
 msgid "UNO introspection"
-msgstr ""
+msgstr "UNO-introspektion"
 
 #. fBApv
 #: sf_session.xhp
@@ -11853,7 +11853,7 @@ msgctxt ""
 "par_id321582814720863\n"
 "help.text"
 msgid "the invocation of external scripts or programs"
-msgstr ""
+msgstr "kald af eksterne skripts eller programmer"
 
 #. 63uDb
 #: sf_session.xhp
@@ -11862,7 +11862,7 @@ msgctxt ""
 "hd_id91582814720116\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Kald af tjenester"
 
 #. 8BEnm
 #: sf_session.xhp
@@ -11871,7 +11871,7 @@ msgctxt ""
 "hd_id291582814720762\n"
 "help.text"
 msgid "Constants"
-msgstr ""
+msgstr "Konstanter"
 
 #. BuuCB
 #: sf_session.xhp
@@ -11889,7 +11889,7 @@ msgctxt ""
 "par_id9158281472045\n"
 "help.text"
 msgid "Value"
-msgstr ""
+msgstr "Værdi"
 
 #. Wd88w
 #: sf_session.xhp
@@ -11898,7 +11898,7 @@ msgctxt ""
 "par_id241582814720636\n"
 "help.text"
 msgid "Where to find the library?"
-msgstr ""
+msgstr "Hvor findes biblioteket?"
 
 #. k58kN
 #: sf_session.xhp
@@ -11907,7 +11907,7 @@ msgctxt ""
 "par_id361582814720116\n"
 "help.text"
 msgid "Applicable"
-msgstr ""
+msgstr "Anvendelig"
 
 #. DJspw
 #: sf_session.xhp
@@ -11916,7 +11916,7 @@ msgctxt ""
 "par_id451582814720105\n"
 "help.text"
 msgid "in the document"
-msgstr ""
+msgstr "i dokumentet"
 
 #. Q2KtM
 #: sf_session.xhp
@@ -11925,7 +11925,7 @@ msgctxt ""
 "par_id73158281472032\n"
 "help.text"
 msgid "in any shared library"
-msgstr ""
+msgstr "i ethvert delt bibliotek"
 
 #. E7meg
 #: sf_session.xhp
@@ -11934,7 +11934,7 @@ msgctxt ""
 "par_id391582814720487\n"
 "help.text"
 msgid "in My Macros"
-msgstr ""
+msgstr "i Mine makroer"
 
 #. MiuWT
 #: sf_session.xhp
@@ -11943,7 +11943,7 @@ msgctxt ""
 "par_id56158281472073\n"
 "help.text"
 msgid "in an extension installed for the current user"
-msgstr ""
+msgstr "i en udvidelse, der installeret til den aktuelle bruger"
 
 #. SAMnM
 #: sf_session.xhp
@@ -11952,7 +11952,7 @@ msgctxt ""
 "par_id21582814720997\n"
 "help.text"
 msgid "in %PRODUCTNAME macros"
-msgstr ""
+msgstr "i %PRODUCTNAME-makroer"
 
 #. LnKrt
 #: sf_session.xhp
@@ -11961,7 +11961,7 @@ msgctxt ""
 "par_id981582814720125\n"
 "help.text"
 msgid "in an extension installed for all users"
-msgstr ""
+msgstr "i en udvidelse, der er installeret til alle brugere"
 
 #. gCi9j
 #: sf_session.xhp
@@ -11970,7 +11970,7 @@ msgctxt ""
 "par_id93158281472047\n"
 "help.text"
 msgid "in an extension but the installation parameters are unknown"
-msgstr ""
+msgstr "i en udvidelse, selv om installationsparametrene er ukendte"
 
 #. mLURi
 #: sf_session.xhp
@@ -11979,7 +11979,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in the Session Service"
-msgstr ""
+msgstr "Tjenesten List of Methods in the Session (Liste over metoder i sessionen)"
 
 #. V4BCf
 #: sf_session.xhp
@@ -11988,7 +11988,7 @@ msgctxt ""
 "par_id491613061572993\n"
 "help.text"
 msgid "<literal>Session</literal> service methods behave as follows:      <br/>Arguments are passed by value. Updates performed by the called function are not sent back to the calling script.      <br/>A single value or an array of values is returned to the calling script."
-msgstr ""
+msgstr "Tjenesten <literal>Session</literal>s (Sessions) metoder har denne adfærd:      <br/>Argumenter videregives efter værdi. Opdateringer, udført af den kaldte funktion, sendes ikke tilbage til det kaldende script.      <br/>En enkelt værdi eller et matrix af værdier returneres til det kaldende script."
 
 #. 72GZi
 #: sf_session.xhp
@@ -11997,7 +11997,7 @@ msgctxt ""
 "par_id451582815407230\n"
 "help.text"
 msgid "Execute the Basic script given its name and location and fetch its result if any."
-msgstr ""
+msgstr "Udfør Basic-skriptet givet dets navn og placering og hent dets resultat, hvis der er noget."
 
 #. yWXBt
 #: sf_session.xhp
@@ -12006,7 +12006,7 @@ msgctxt ""
 "par_id921600856780901\n"
 "help.text"
 msgid "If the script is not found, or if it returns nothing, the returned value is <literal>Empty</literal>."
-msgstr ""
+msgstr "Hvis scriptet ikke bliver fundet, eller hvis det intet returnerer, er den returnerede værdi <literal>Empty</literal> (tom)."
 
 #. QqRGF
 #: sf_session.xhp
@@ -12015,7 +12015,7 @@ msgctxt ""
 "hd_id931582815407230\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
 
 #. DSXJQ
 #: sf_session.xhp
@@ -12024,7 +12024,7 @@ msgctxt ""
 "hd_id491582815407231\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
 
 #. bWiEa
 #: sf_session.xhp
@@ -12033,7 +12033,7 @@ msgctxt ""
 "par_id631582815407231\n"
 "help.text"
 msgid "<emph>Scope</emph>: \"document\" or \"application\" or one of the applicable <literal>session.CONSTANTS</literal>."
-msgstr ""
+msgstr "<emph>Scope</emph> (Rækkevidde): \"document\" (dokument) eller \"application\" (program) eller en af de anvendelige <literal>session.CONSTANTS</literal> (session.KONSTANTER)."
 
 #. fxDM3
 #: sf_session.xhp
@@ -12051,7 +12051,7 @@ msgctxt ""
 "par_id881582815407231\n"
 "help.text"
 msgid "<emph>arg0, ...</emph>: The arguments to provide to the called script."
-msgstr ""
+msgstr "<emph>arg0, ...</emph>: Argumenter, der skal gives til det kaldte script."
 
 #. sMGpX
 #: sf_session.xhp
@@ -12060,7 +12060,7 @@ msgctxt ""
 "hd_id831582815407231\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
 
 #. bvuhY
 #: sf_session.xhp
@@ -12069,7 +12069,7 @@ msgctxt ""
 "bas_id61582815407231\n"
 "help.text"
 msgid "' Xray returns no value"
-msgstr ""
+msgstr "' Xray returnerer ingen værdi"
 
 #. Yr22N
 #: sf_session.xhp
@@ -12078,7 +12078,7 @@ msgctxt ""
 "par_id111582816585181\n"
 "help.text"
 msgid "Execute a Calc function using its English name and based on the given arguments.      <br/>If the arguments are arrays, the function is executed as an <link href=\"text/scalc/01/04060107.xhp\" name=\"array formula\">array formula</link>."
-msgstr ""
+msgstr "Udfør en Calc-funktion med dens engelske navn og baseret på de givne argumenter.      <br/>Hvis argumenterne er matrixer, udføres funktionen som en <link href=\"text/scalc/01/04060107.xhp\" name=\"array formula\">array formula</link> (matrixformel)."
 
 #. njbYK
 #: sf_session.xhp
@@ -12087,7 +12087,7 @@ msgctxt ""
 "hd_id391582816585182\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
 
 #. BDHmP
 #: sf_session.xhp
@@ -12096,7 +12096,7 @@ msgctxt ""
 "hd_id711582816585182\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
 
 #. gG7vu
 #: sf_session.xhp
@@ -12105,7 +12105,7 @@ msgctxt ""
 "par_id771582816585183\n"
 "help.text"
 msgid "<emph>CalcFunction</emph>: The English name of the function to execute."
-msgstr ""
+msgstr "<emph>CalcFunction</emph> (Calc-funktion): Det engelske navn på funktionen, der skal udføres."
 
 #. ULCqi
 #: sf_session.xhp
@@ -12114,7 +12114,7 @@ msgctxt ""
 "par_id371582816585183\n"
 "help.text"
 msgid "<emph>arg0, ...</emph>: The arguments to provide to the called Calc function. Each argument must be either a string, a numeric value or an array of arrays combining those types."
-msgstr ""
+msgstr "<emph>arg0, ...</emph>: De argumenter, der skal gives til Calc-funktionen. Hvert argument skal være enten en streng, en numerisk værdi eller en matrix af matrixer, der kombinerer disse typer."
 
 #. 8bZb8
 #: sf_session.xhp
@@ -12123,7 +12123,7 @@ msgctxt ""
 "hd_id891582816585184\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
 
 #. XMfUD
 #: sf_session.xhp
@@ -12132,7 +12132,7 @@ msgctxt ""
 "bas_id881582816585185\n"
 "help.text"
 msgid "' Generates an error."
-msgstr ""
+msgstr "' Genererer en fejl."
 
 #. ygESx
 #: sf_session.xhp
@@ -12141,7 +12141,7 @@ msgctxt ""
 "par_id571582818023245\n"
 "help.text"
 msgid "Execute the Python script given its location and name, fetch its result if any. Result can be a single value or an array of values."
-msgstr ""
+msgstr "Udfør Python-scriptet givet dets placering og navn, hent dets resultat, om noget. Resultatet kan være en enkelt værdi eller et matrix af værdier."
 
 #. SB2gx
 #: sf_session.xhp
@@ -12150,7 +12150,7 @@ msgctxt ""
 "par_id71600856817410\n"
 "help.text"
 msgid "If the script is not found, or if it returns nothing, the returned value is <literal>Empty</literal>."
-msgstr ""
+msgstr "Hvis scriptet ikke bliver fundet, eller hvis det intet returnerer, er den returnerede værdi <literal>Empty</literal> (tom)."
 
 #. yxEDA
 #: sf_session.xhp
@@ -12159,7 +12159,7 @@ msgctxt ""
 "hd_id741582818023245\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functsyntax\"/>"
 
 #. oCchM
 #: sf_session.xhp
@@ -12168,7 +12168,7 @@ msgctxt ""
 "hd_id81582818023246\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functparameters\"/>"
 
 #. JsjbE
 #: sf_session.xhp
@@ -12177,7 +12177,7 @@ msgctxt ""
 "par_id791582818023246\n"
 "help.text"
 msgid "<emph>Scope</emph>: One of the applicable <literal>session.CONSTANTS</literal>. Default = <literal>session.SCRIPTISSHARED</literal>."
-msgstr ""
+msgstr "<emph>Scope</emph> (Rækkevidde): En af de anvendelige <literal>session.CONSTANTS</literal> (session.KONSTANTER). Standard = <literal>session.SCRIPTISSHARED</literal> (sesseion.SCRIPT ER DELT)."
 
 #. UDbdL
 #: sf_session.xhp
@@ -12186,7 +12186,7 @@ msgctxt ""
 "par_id71582818023247\n"
 "help.text"
 msgid "<emph>Script</emph>: Either \"library/module.py$method\" or \"module.py$method\" or \"myExtension.oxt|myScript|module.py$method\" as a case-sensitive string."
-msgstr ""
+msgstr "<emph>Script</emph>: Enten \"library/module.py$method\" eller \"module.py$method\" eller \"myExtension.oxt|myScript|module.py$method\" som en streng med både Stort og småt."
 
 #. P6ZKD
 #: sf_session.xhp
@@ -12195,7 +12195,7 @@ msgctxt ""
 "par_id501613061041313\n"
 "help.text"
 msgid "library: The folder path to the Python module."
-msgstr ""
+msgstr "library (bibliotek): Mappestien til Python-modulet."
 
 #. ktFHu
 #: sf_session.xhp
@@ -12204,7 +12204,7 @@ msgctxt ""
 "par_id771613061043097\n"
 "help.text"
 msgid "myScript: The folder containing the Python module."
-msgstr ""
+msgstr "myScript (mit script): Den mappe, der indeholder Python-modulet."
 
 #. ANBoy
 #: sf_session.xhp
@@ -12213,7 +12213,7 @@ msgctxt ""
 "par_id301613061123849\n"
 "help.text"
 msgid "module.py: The Python module."
-msgstr ""
+msgstr "module.py: Python-modulet."
 
 #. f4B8C
 #: sf_session.xhp
@@ -12222,7 +12222,7 @@ msgctxt ""
 "par_id241613061044560\n"
 "help.text"
 msgid "method: The Python function."
-msgstr ""
+msgstr "metode: Python-funktionen."
 
 #. LPeJj
 #: sf_session.xhp
@@ -12231,7 +12231,7 @@ msgctxt ""
 "par_id711582818023247\n"
 "help.text"
 msgid "<emph>arg0, ...</emph>: The arguments to provide to the called script."
-msgstr ""
+msgstr "<emph>arg0, ...</emph>: Argumenterne, der skal gives til til det kaldte script."
 
 #. CBkpV
 #: sf_session.xhp
@@ -12240,7 +12240,7 @@ msgctxt ""
 "hd_id141582818023247\n"
 "help.text"
 msgid "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/sbasic/shared/00000003.xhp#functexample\"/>"
 
 #. Lv4iA
 #: sf_session.xhp
@@ -12249,7 +12249,7 @@ msgctxt ""
 "par_id111587477335982\n"
 "help.text"
 msgid "Returns <literal>True</literal> if an UNO object contains the given method. Returns <literal>False</literal> when the method is not found or when an argument is invalid."
-msgstr ""
+msgstr "Returnerer <literal>True</literal>, hvis et UNO-objekt indeholder den givne metode. Returnerer <literal>False</literal>, når metoden ikke bliver fundet eller når et argument er ugyldigt."
 
 #. KfxYm
 #: sf_session.xhp
