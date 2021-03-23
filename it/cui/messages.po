@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-19 17:30+0100\n"
+"POT-Creation-Date: 2021-03-23 11:44+0100\n"
 "PO-Revision-Date: 2021-01-12 09:36+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/it/>\n"
@@ -3518,23 +3518,23 @@ msgctxt "RID_CUI_TOOLBARMODES"
 msgid "Standard user interface with menu, toolbar, and collapsed sidebar. Intended for users who are familiar with the classic interface."
 msgstr ""
 
-#. 8irik
+#. BoVy3
 #: cui/inc/toolbarmode.hrc:23
+msgctxt "RID_CUI_TOOLBARMODES"
+msgid "The Tabbed user interface is the most similar to the Ribbons used in Microsoft Office. It organizes functions in tabs and makes the main menu obsolete."
+msgstr ""
+
+#. 8irik
+#: cui/inc/toolbarmode.hrc:24
 msgctxt "RID_CUI_TOOLBARMODES"
 msgid "Standard user interface but with single-line toolbar. Intended for use on small screens."
 msgstr ""
 
 #. wKg2Q
-#: cui/inc/toolbarmode.hrc:24
+#: cui/inc/toolbarmode.hrc:25
 msgctxt "RID_CUI_TOOLBARMODES"
 msgid "Standard user interface with expanded sidebar. Expert users who want to quickly change many different properties are advised to use this UI."
 msgstr "Interfaccia utente Standard con barra laterale estesa. Consigliata agli utenti esperti che desiderano cambiare in modo rapido molte proprietà diverse."
-
-#. BoVy3
-#: cui/inc/toolbarmode.hrc:25
-msgctxt "RID_CUI_TOOLBARMODES"
-msgid "The Tabbed user interface is the most similar to the Ribbons used in Microsoft Office. It organizes functions in tabs and makes the main menu obsolete."
-msgstr ""
 
 #. qXq4A
 #: cui/inc/toolbarmode.hrc:26
@@ -3542,16 +3542,16 @@ msgctxt "RID_CUI_TOOLBARMODES"
 msgid "The Tabbed Compact variant aims to be familiar with the Microsoft Office interface, yet occupying less space for smaller screens."
 msgstr ""
 
-#. LXAzN
+#. oZV6K
 #: cui/inc/toolbarmode.hrc:27
 msgctxt "RID_CUI_TOOLBARMODES"
-msgid "The Groupedbar Compact interface provides access to functions in groups, with icons for most-frequently used features, and dropdown menus for others. This compact variant favors vertical space."
+msgid "The Groupedbar interface provides access to functions in groups, with icons for most-frequently used features, and dropdown menus for others. This full variant favors functions and is slightly larger than others."
 msgstr ""
 
-#. oZV6K
+#. LXAzN
 #: cui/inc/toolbarmode.hrc:28
 msgctxt "RID_CUI_TOOLBARMODES"
-msgid "The Groupedbar interface provides access to functions in groups, with icons for most-frequently used features, and dropdown menus for others. This full variant favors functions and is slightly larger than others."
+msgid "The Groupedbar Compact interface provides access to functions in groups, with icons for most-frequently used features, and dropdown menus for others. This compact variant favors vertical space."
 msgstr ""
 
 #. eGMCZ
@@ -21014,29 +21014,29 @@ msgctxt "ToolbarmodeDialog|applymodule"
 msgid "A_pply to %MODULE"
 msgstr "A_pplica a %MODULE"
 
-#. WRYEa
-#: cui/uiconfig/ui/toolbarmodedialog.ui:110
-msgctxt "ToolbarmodeDialog|radiobutton4"
-msgid "Tabbed"
-msgstr "A schede"
-
 #. odHug
-#: cui/uiconfig/ui/toolbarmodedialog.ui:128
+#: cui/uiconfig/ui/toolbarmodedialog.ui:110
 msgctxt "ToolbarmodeDialog|radiobutton1"
 msgid "Standard Toolbar"
 msgstr "Barra degli strumenti standard"
 
-#. wTDDF
-#: cui/uiconfig/ui/toolbarmodedialog.ui:156
+#. Vsppg
+#: cui/uiconfig/ui/toolbarmodedialog.ui:127
 msgctxt "ToolbarmodeDialog|radiobutton2"
-msgid "Single Toolbar"
-msgstr "Barra degli strumenti singola"
+msgid "Tabbed"
+msgstr ""
 
-#. AMgFL
-#: cui/uiconfig/ui/toolbarmodedialog.ui:174
+#. DZLbS
+#: cui/uiconfig/ui/toolbarmodedialog.ui:156
 msgctxt "ToolbarmodeDialog|radiobutton3"
+msgid "Single Toolbar"
+msgstr ""
+
+#. KDJfx
+#: cui/uiconfig/ui/toolbarmodedialog.ui:174
+msgctxt "ToolbarmodeDialog|radiobutton4"
 msgid "Sidebar"
-msgstr "Barra laterale"
+msgstr ""
 
 #. YvSd9
 #: cui/uiconfig/ui/toolbarmodedialog.ui:192
@@ -21044,17 +21044,17 @@ msgctxt "ToolbarmodeDialog|radiobutton5"
 msgid "Tabbed Compact"
 msgstr "A schede, compatta"
 
-#. yT3UT
+#. AipCL
 #: cui/uiconfig/ui/toolbarmodedialog.ui:210
-msgctxt "ToolbarmodeDialog|radiobutton7"
-msgid "Groupedbar"
-msgstr "Barra raggruppata"
-
-#. jAJbo
-#: cui/uiconfig/ui/toolbarmodedialog.ui:228
 msgctxt "ToolbarmodeDialog|radiobutton6"
+msgid "Groupedbar"
+msgstr ""
+
+#. qwCAA
+#: cui/uiconfig/ui/toolbarmodedialog.ui:228
+msgctxt "ToolbarmodeDialog|radiobutton7"
 msgid "Groupedbar Compact"
-msgstr "Barra raggruppata compatta"
+msgstr ""
 
 #. iSVgL
 #: cui/uiconfig/ui/toolbarmodedialog.ui:246
@@ -21619,6 +21619,26 @@ msgstr "Visualizza layout"
 msgctxt "zoomdialog|extended_tip|ZoomDialog"
 msgid "Reduces or enlarges the screen display of %PRODUCTNAME."
 msgstr "Riduce o ingrandisce la visualizzazione di %PRODUCTNAME."
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton4"
+#~ msgid "Tabbed"
+#~ msgstr "A schede"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton2"
+#~ msgid "Single Toolbar"
+#~ msgstr "Barra degli strumenti singola"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton3"
+#~ msgid "Sidebar"
+#~ msgstr "Barra laterale"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton7"
+#~ msgid "Groupedbar"
+#~ msgstr "Barra raggruppata"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton6"
+#~ msgid "Groupedbar Compact"
+#~ msgstr "Barra raggruppata compatta"
 
 #~ msgctxt "RID_CUI_TIPOFTHEDAY"
 #~ msgid "To automatically number table rows in Writer, select the relevant column, then apply a numbering style from List Styles."

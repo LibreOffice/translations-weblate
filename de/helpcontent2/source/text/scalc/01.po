@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-19 17:31+0100\n"
+"POT-Creation-Date: 2021-03-23 11:44+0100\n"
 "PO-Revision-Date: 2021-03-21 21:37+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/de/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565412342.000000\n"
 
 #. sZfWF
@@ -63268,23 +63268,23 @@ msgctxt ""
 msgid "If there are less delimiters than strings to be joined, the delimiters will be used again from the start."
 msgstr "Wenn weniger Trennzeichen als Zeichenfolgen verbunden werden sollen, werden die Trennzeichen erneut durchlaufen."
 
-#. 4Zi8d
+#. QaJCw
 #: func_textjoin.xhp
 msgctxt ""
 "func_textjoin.xhp\n"
 "par_id441556229012536\n"
 "help.text"
-msgid "<input>=TEXTJOIN(\" \",TRUE, \"Here\", \"comes\", \"the\", \"sun\")</input> returns \"Here comes the sun\" with space character as delimiter and empty strings are ignored."
-msgstr "<input>=VERBINDEN(\" \";WAHR;\"Hier\";\"kommt\";\"die\";\"Sonne\")</input> gibt \"Hier kommt die Sonne\" mit einem Leerzeichen als Trennzeichen zurück und leere Zeichenketten werden ignoriert."
+msgid "<input>=TEXTJOIN(\" \"; 1; \"Here\"; \"comes\"; \"the\"; \"sun\")</input> returns \"Here comes the sun\" with space character as delimiter and empty strings are ignored."
+msgstr ""
 
-#. SamHC
+#. 39FPP
 #: func_textjoin.xhp
 msgctxt ""
 "func_textjoin.xhp\n"
 "par_id441556239012536\n"
 "help.text"
-msgid "if A1:B2 contains \"Here\", \"comes\", \"the\", \"sun\" respectively, <input>=TEXTJOIN(\"-\",TRUE,A1:B2)</input> returns \"Here-comes-the-sun\" with dash character as delimiter and empty strings are ignored."
-msgstr "Wenn A1:B2 \"Hier\", \"kommt\", \"die\", \"Sonne\" enthält, gibt <input>=VERBINDEN (\"-\";WAHR,A1:B2)</input> \"Hier-kommt-die-Sonne\" mit einem Bindestrich als Trennzeichen zurück und leere Zeichenketten werden ignoriert."
+msgid "if A1:B2 contains \"Here\", \"comes\", \"the\", \"sun\" respectively, <input>=TEXTJOIN(\"-\";1;A1:B2)</input> returns \"Here-comes-the-sun\" with dash character as delimiter and empty strings are ignored."
+msgstr ""
 
 #. AXCJg
 #: func_textjoin.xhp
@@ -69189,6 +69189,20 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki-Seite zu XML-Quellen (englisch)</link>"
+
+#~ msgctxt ""
+#~ "func_textjoin.xhp\n"
+#~ "par_id441556229012536\n"
+#~ "help.text"
+#~ msgid "<input>=TEXTJOIN(\" \",TRUE, \"Here\", \"comes\", \"the\", \"sun\")</input> returns \"Here comes the sun\" with space character as delimiter and empty strings are ignored."
+#~ msgstr "<input>=VERBINDEN(\" \";WAHR;\"Hier\";\"kommt\";\"die\";\"Sonne\")</input> gibt \"Hier kommt die Sonne\" mit einem Leerzeichen als Trennzeichen zurück und leere Zeichenketten werden ignoriert."
+
+#~ msgctxt ""
+#~ "func_textjoin.xhp\n"
+#~ "par_id441556239012536\n"
+#~ "help.text"
+#~ msgid "if A1:B2 contains \"Here\", \"comes\", \"the\", \"sun\" respectively, <input>=TEXTJOIN(\"-\",TRUE,A1:B2)</input> returns \"Here-comes-the-sun\" with dash character as delimiter and empty strings are ignored."
+#~ msgstr "Wenn A1:B2 \"Hier\", \"kommt\", \"die\", \"Sonne\" enthält, gibt <input>=VERBINDEN (\"-\";WAHR,A1:B2)</input> \"Hier-kommt-die-Sonne\" mit einem Bindestrich als Trennzeichen zurück und leere Zeichenketten werden ignoriert."
 
 #~ msgctxt ""
 #~ "02140000.xhp\n"

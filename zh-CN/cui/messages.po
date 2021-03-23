@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-19 17:30+0100\n"
+"POT-Creation-Date: 2021-03-23 11:44+0100\n"
 "PO-Revision-Date: 2021-03-14 21:37+0000\n"
 "Last-Translator: Ming Hua <plateauwolf@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/zh_Hans/>\n"
@@ -3520,23 +3520,23 @@ msgctxt "RID_CUI_TOOLBARMODES"
 msgid "Standard user interface with menu, toolbar, and collapsed sidebar. Intended for users who are familiar with the classic interface."
 msgstr "带有菜单栏、工具栏和已折叠侧边栏的标准用户界面。适用于习惯传统界面的用户。"
 
-#. 8irik
+#. BoVy3
 #: cui/inc/toolbarmode.hrc:23
+msgctxt "RID_CUI_TOOLBARMODES"
+msgid "The Tabbed user interface is the most similar to the Ribbons used in Microsoft Office. It organizes functions in tabs and makes the main menu obsolete."
+msgstr "和 Microsoft Office 的 Ribbon 风格最相似的用户界面。它把各种功能分组放在多个选项卡中，不再需要主菜单。"
+
+#. 8irik
+#: cui/inc/toolbarmode.hrc:24
 msgctxt "RID_CUI_TOOLBARMODES"
 msgid "Standard user interface but with single-line toolbar. Intended for use on small screens."
 msgstr "仅有一个工具栏的标准用户界面。适用于屏幕狭小的用户。"
 
 #. wKg2Q
-#: cui/inc/toolbarmode.hrc:24
+#: cui/inc/toolbarmode.hrc:25
 msgctxt "RID_CUI_TOOLBARMODES"
 msgid "Standard user interface with expanded sidebar. Expert users who want to quickly change many different properties are advised to use this UI."
 msgstr "侧边栏默认展开的标准用户界面。需要快速对各种属性进行改动的专业用户推荐使用此界面。"
-
-#. BoVy3
-#: cui/inc/toolbarmode.hrc:25
-msgctxt "RID_CUI_TOOLBARMODES"
-msgid "The Tabbed user interface is the most similar to the Ribbons used in Microsoft Office. It organizes functions in tabs and makes the main menu obsolete."
-msgstr "和 Microsoft Office 的 Ribbon 风格最相似的用户界面。它把各种功能分组放在多个选项卡中，不再需要主菜单。"
 
 #. qXq4A
 #: cui/inc/toolbarmode.hrc:26
@@ -3544,17 +3544,17 @@ msgctxt "RID_CUI_TOOLBARMODES"
 msgid "The Tabbed Compact variant aims to be familiar with the Microsoft Office interface, yet occupying less space for smaller screens."
 msgstr "简洁选项卡式工具栏在保持与 Mircosoft Office 界面相似的同时，尽可能让界面少占空间从而适用于小型屏幕。"
 
-#. LXAzN
-#: cui/inc/toolbarmode.hrc:27
-msgctxt "RID_CUI_TOOLBARMODES"
-msgid "The Groupedbar Compact interface provides access to functions in groups, with icons for most-frequently used features, and dropdown menus for others. This compact variant favors vertical space."
-msgstr ""
-
 #. oZV6K
-#: cui/inc/toolbarmode.hrc:28
+#: cui/inc/toolbarmode.hrc:27
 msgctxt "RID_CUI_TOOLBARMODES"
 msgid "The Groupedbar interface provides access to functions in groups, with icons for most-frequently used features, and dropdown menus for others. This full variant favors functions and is slightly larger than others."
 msgstr "分组式工具栏把各种功能分组显示，用图标表示最常用的功能，其他则列于下拉菜单中。此完整模式侧重于列全功能，比另一模式的界面尺寸略大。"
+
+#. LXAzN
+#: cui/inc/toolbarmode.hrc:28
+msgctxt "RID_CUI_TOOLBARMODES"
+msgid "The Groupedbar Compact interface provides access to functions in groups, with icons for most-frequently used features, and dropdown menus for others. This compact variant favors vertical space."
+msgstr ""
 
 #. eGMCZ
 #: cui/inc/toolbarmode.hrc:29
@@ -21016,29 +21016,29 @@ msgctxt "ToolbarmodeDialog|applymodule"
 msgid "A_pply to %MODULE"
 msgstr ""
 
-#. WRYEa
-#: cui/uiconfig/ui/toolbarmodedialog.ui:110
-msgctxt "ToolbarmodeDialog|radiobutton4"
-msgid "Tabbed"
-msgstr "选项卡式工具栏"
-
 #. odHug
-#: cui/uiconfig/ui/toolbarmodedialog.ui:128
+#: cui/uiconfig/ui/toolbarmodedialog.ui:110
 msgctxt "ToolbarmodeDialog|radiobutton1"
 msgid "Standard Toolbar"
 msgstr "标准工具栏"
 
-#. wTDDF
-#: cui/uiconfig/ui/toolbarmodedialog.ui:156
+#. Vsppg
+#: cui/uiconfig/ui/toolbarmodedialog.ui:127
 msgctxt "ToolbarmodeDialog|radiobutton2"
-msgid "Single Toolbar"
-msgstr "单一工具栏"
+msgid "Tabbed"
+msgstr ""
 
-#. AMgFL
-#: cui/uiconfig/ui/toolbarmodedialog.ui:174
+#. DZLbS
+#: cui/uiconfig/ui/toolbarmodedialog.ui:156
 msgctxt "ToolbarmodeDialog|radiobutton3"
+msgid "Single Toolbar"
+msgstr ""
+
+#. KDJfx
+#: cui/uiconfig/ui/toolbarmodedialog.ui:174
+msgctxt "ToolbarmodeDialog|radiobutton4"
 msgid "Sidebar"
-msgstr "侧边栏"
+msgstr ""
 
 #. YvSd9
 #: cui/uiconfig/ui/toolbarmodedialog.ui:192
@@ -21046,17 +21046,17 @@ msgctxt "ToolbarmodeDialog|radiobutton5"
 msgid "Tabbed Compact"
 msgstr "简洁选项卡式"
 
-#. yT3UT
+#. AipCL
 #: cui/uiconfig/ui/toolbarmodedialog.ui:210
-msgctxt "ToolbarmodeDialog|radiobutton7"
-msgid "Groupedbar"
-msgstr "分组式工具栏"
-
-#. jAJbo
-#: cui/uiconfig/ui/toolbarmodedialog.ui:228
 msgctxt "ToolbarmodeDialog|radiobutton6"
+msgid "Groupedbar"
+msgstr ""
+
+#. qwCAA
+#: cui/uiconfig/ui/toolbarmodedialog.ui:228
+msgctxt "ToolbarmodeDialog|radiobutton7"
 msgid "Groupedbar Compact"
-msgstr "简洁分组式"
+msgstr ""
 
 #. iSVgL
 #: cui/uiconfig/ui/toolbarmodedialog.ui:246
@@ -21621,6 +21621,26 @@ msgstr "视图布局"
 msgctxt "zoomdialog|extended_tip|ZoomDialog"
 msgid "Reduces or enlarges the screen display of %PRODUCTNAME."
 msgstr "缩小或放大 %PRODUCTNAME 的屏幕显示。"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton4"
+#~ msgid "Tabbed"
+#~ msgstr "选项卡式工具栏"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton2"
+#~ msgid "Single Toolbar"
+#~ msgstr "单一工具栏"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton3"
+#~ msgid "Sidebar"
+#~ msgstr "侧边栏"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton7"
+#~ msgid "Groupedbar"
+#~ msgstr "分组式工具栏"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton6"
+#~ msgid "Groupedbar Compact"
+#~ msgstr "简洁分组式"
 
 #~ msgctxt "RID_CUI_TIPOFTHEDAY"
 #~ msgid "To automatically number table rows in Writer, select the relevant column, then apply a numbering style from List Styles."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-19 17:30+0100\n"
+"POT-Creation-Date: 2021-03-23 11:44+0100\n"
 "PO-Revision-Date: 2021-03-08 13:45+0000\n"
 "Last-Translator: Jun NOGATA <nogajun@gmail.com>\n"
 "Language-Team: Japanese <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/ja/>\n"
@@ -3518,23 +3518,23 @@ msgctxt "RID_CUI_TOOLBARMODES"
 msgid "Standard user interface with menu, toolbar, and collapsed sidebar. Intended for users who are familiar with the classic interface."
 msgstr "メニューやツールバー、折りたためるサイドバーを備えた標準的なユーザーインターフェイスです。従来のインターフェースに慣れているユーザーを対象にしています。"
 
-#. 8irik
+#. BoVy3
 #: cui/inc/toolbarmode.hrc:23
+msgctxt "RID_CUI_TOOLBARMODES"
+msgid "The Tabbed user interface is the most similar to the Ribbons used in Microsoft Office. It organizes functions in tabs and makes the main menu obsolete."
+msgstr "タブUIは、Microsoft Officeで使用されているリボンUIにとても似ています。タブで機能が整理され、 メインメニューはありません。"
+
+#. 8irik
+#: cui/inc/toolbarmode.hrc:24
 msgctxt "RID_CUI_TOOLBARMODES"
 msgid "Standard user interface but with single-line toolbar. Intended for use on small screens."
 msgstr "標準的なユーザーインターフェースですが、ツールバーは1行だけです。小さな画面での利用を想定しています。"
 
 #. wKg2Q
-#: cui/inc/toolbarmode.hrc:24
+#: cui/inc/toolbarmode.hrc:25
 msgctxt "RID_CUI_TOOLBARMODES"
 msgid "Standard user interface with expanded sidebar. Expert users who want to quickly change many different properties are advised to use this UI."
 msgstr "サイドバーは、拡張されたサイドバーを備えた標準UIです。多数の異なるプロパティを素早く操作したい熟練したユーザーには、このUIの利用をおすすめします。"
-
-#. BoVy3
-#: cui/inc/toolbarmode.hrc:25
-msgctxt "RID_CUI_TOOLBARMODES"
-msgid "The Tabbed user interface is the most similar to the Ribbons used in Microsoft Office. It organizes functions in tabs and makes the main menu obsolete."
-msgstr "タブUIは、Microsoft Officeで使用されているリボンUIにとても似ています。タブで機能が整理され、 メインメニューはありません。"
 
 #. qXq4A
 #: cui/inc/toolbarmode.hrc:26
@@ -3542,17 +3542,17 @@ msgctxt "RID_CUI_TOOLBARMODES"
 msgid "The Tabbed Compact variant aims to be familiar with the Microsoft Office interface, yet occupying less space for smaller screens."
 msgstr "タブ コンパクトは、Microsoft OfficeのUIを使いやすくしながらも、小さな画面でスペースを取らないようになっています。"
 
-#. LXAzN
-#: cui/inc/toolbarmode.hrc:27
-msgctxt "RID_CUI_TOOLBARMODES"
-msgid "The Groupedbar Compact interface provides access to functions in groups, with icons for most-frequently used features, and dropdown menus for others. This compact variant favors vertical space."
-msgstr "グループバー コンパクトは、よく使われる機能のアイコンとその他のドロップダウンメニューの機能がグループとなり機能を提供しています。このコンパクトな派生版は、縦のスペース節約を重視してます。"
-
 #. oZV6K
-#: cui/inc/toolbarmode.hrc:28
+#: cui/inc/toolbarmode.hrc:27
 msgctxt "RID_CUI_TOOLBARMODES"
 msgid "The Groupedbar interface provides access to functions in groups, with icons for most-frequently used features, and dropdown menus for others. This full variant favors functions and is slightly larger than others."
 msgstr "グループバーUIは、よく利用する機能のアイコンと、その他の機能のドロップダウンメニューで構成され機能を提供しています。この完全版のグループバーは、機能を優先し、ほかのUIよりも若干大きくなっています。"
+
+#. LXAzN
+#: cui/inc/toolbarmode.hrc:28
+msgctxt "RID_CUI_TOOLBARMODES"
+msgid "The Groupedbar Compact interface provides access to functions in groups, with icons for most-frequently used features, and dropdown menus for others. This compact variant favors vertical space."
+msgstr "グループバー コンパクトは、よく使われる機能のアイコンとその他のドロップダウンメニューの機能がグループとなり機能を提供しています。このコンパクトな派生版は、縦のスペース節約を重視してます。"
 
 #. eGMCZ
 #: cui/inc/toolbarmode.hrc:29
@@ -21014,29 +21014,29 @@ msgctxt "ToolbarmodeDialog|applymodule"
 msgid "A_pply to %MODULE"
 msgstr "%MODULEに適用"
 
-#. WRYEa
-#: cui/uiconfig/ui/toolbarmodedialog.ui:110
-msgctxt "ToolbarmodeDialog|radiobutton4"
-msgid "Tabbed"
-msgstr "タブ"
-
 #. odHug
-#: cui/uiconfig/ui/toolbarmodedialog.ui:128
+#: cui/uiconfig/ui/toolbarmodedialog.ui:110
 msgctxt "ToolbarmodeDialog|radiobutton1"
 msgid "Standard Toolbar"
 msgstr "標準ツールバー"
 
-#. wTDDF
-#: cui/uiconfig/ui/toolbarmodedialog.ui:156
+#. Vsppg
+#: cui/uiconfig/ui/toolbarmodedialog.ui:127
 msgctxt "ToolbarmodeDialog|radiobutton2"
-msgid "Single Toolbar"
-msgstr "シングルツールバー"
+msgid "Tabbed"
+msgstr ""
 
-#. AMgFL
-#: cui/uiconfig/ui/toolbarmodedialog.ui:174
+#. DZLbS
+#: cui/uiconfig/ui/toolbarmodedialog.ui:156
 msgctxt "ToolbarmodeDialog|radiobutton3"
+msgid "Single Toolbar"
+msgstr ""
+
+#. KDJfx
+#: cui/uiconfig/ui/toolbarmodedialog.ui:174
+msgctxt "ToolbarmodeDialog|radiobutton4"
 msgid "Sidebar"
-msgstr "サイドバー"
+msgstr ""
 
 #. YvSd9
 #: cui/uiconfig/ui/toolbarmodedialog.ui:192
@@ -21044,17 +21044,17 @@ msgctxt "ToolbarmodeDialog|radiobutton5"
 msgid "Tabbed Compact"
 msgstr "タブコンパクト"
 
-#. yT3UT
+#. AipCL
 #: cui/uiconfig/ui/toolbarmodedialog.ui:210
-msgctxt "ToolbarmodeDialog|radiobutton7"
-msgid "Groupedbar"
-msgstr "グループバー"
-
-#. jAJbo
-#: cui/uiconfig/ui/toolbarmodedialog.ui:228
 msgctxt "ToolbarmodeDialog|radiobutton6"
+msgid "Groupedbar"
+msgstr ""
+
+#. qwCAA
+#: cui/uiconfig/ui/toolbarmodedialog.ui:228
+msgctxt "ToolbarmodeDialog|radiobutton7"
 msgid "Groupedbar Compact"
-msgstr "グループバー コンパクト"
+msgstr ""
 
 #. iSVgL
 #: cui/uiconfig/ui/toolbarmodedialog.ui:246
@@ -21619,6 +21619,26 @@ msgstr "表示レイアウト"
 msgctxt "zoomdialog|extended_tip|ZoomDialog"
 msgid "Reduces or enlarges the screen display of %PRODUCTNAME."
 msgstr "%PRODUCTNAME の画面表示を縮小/拡大します。"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton4"
+#~ msgid "Tabbed"
+#~ msgstr "タブ"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton2"
+#~ msgid "Single Toolbar"
+#~ msgstr "シングルツールバー"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton3"
+#~ msgid "Sidebar"
+#~ msgstr "サイドバー"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton7"
+#~ msgid "Groupedbar"
+#~ msgstr "グループバー"
+
+#~ msgctxt "ToolbarmodeDialog|radiobutton6"
+#~ msgid "Groupedbar Compact"
+#~ msgstr "グループバー コンパクト"
 
 #~ msgctxt "RID_CUI_TIPOFTHEDAY"
 #~ msgid "To automatically number table rows in Writer, select the relevant column, then apply a numbering style from List Styles."
