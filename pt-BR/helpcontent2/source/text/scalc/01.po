@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-03-23 11:44+0100\n"
-"PO-Revision-Date: 2021-03-23 11:02+0000\n"
+"PO-Revision-Date: 2021-03-24 12:37+0000\n"
 "Last-Translator: Olivier Hallot <olivier.hallot@libreoffice.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/pt_BR/>\n"
 "Language: pt-BR\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-POOTLE-MTIME: 1559657369.000000\n"
 
 #. sZfWF
@@ -19539,7 +19539,6 @@ msgstr "<input>=HIPERLINK(\"http://www.\";\"Clique \") & \"exemplo.org\"</input>
 
 #. DDEtK
 #: 04060109.xhp
-#, fuzzy
 msgctxt ""
 "04060109.xhp\n"
 "par_id8859523\n"
@@ -19549,13 +19548,12 @@ msgstr "<input>=HIPERLINK(\"#Planilha1.A1\";\"Vá para o início\")</input> exib
 
 #. CoMEq
 #: 04060109.xhp
-#, fuzzy
 msgctxt ""
 "04060109.xhp\n"
 "par_id2958769\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"file:///C:/writer.odt#Specification\";\"Go to Writer bookmark\")</input> displays the text \"Go to Writer bookmark\", loads the specified text document and jumps to bookmark \"Specification\"."
-msgstr "<input>=HIPERLINK(\"file:///C:/writer.odt#Specification\";\"Ir para indicador do Writer\")</input> exibe o texto Ir para indicador do Writer, carrega o documento de texto especificado e vai até o indicador \"Especificacao\"."
+msgstr "<input>=HIPERLINK(\"file:///C:/writer.odt#Especificacao\";\"Ir para marca-página do Writer\")</input> exibe o texto \"Ir para marca-página do Writer\", carrega o documento de texto especificado e salta até o marca-página \"Especificacao\"."
 
 #. Ky2xV
 #: 04060109.xhp
@@ -45731,13 +45729,12 @@ msgstr "<ahelp hid=\"SFX2_HID_TEMPLATE_FMT\">Exibe a lista de estilos da categor
 
 #. YBufY
 #: 05100000.xhp
-#, fuzzy
 msgctxt ""
 "05100000.xhp\n"
 "par_idN109D1\n"
 "help.text"
 msgid "In the <link href=\"text/shared/00/00000005.xhp#contextmenu\" name=\"context menu\">context menu</link> you can choose commands to create a new style, delete a user-defined style, or change the selected style."
-msgstr "No <link href=\"text/shared/00/00000005.xhp#contextmenu\" name=\"context menu\">menu de contexto</link>, você pode escolher comandos para criar um novo estilo, excluir um estilo definido pelo usuário ou alterar o estilo selecionado."
+msgstr "No <link href=\"text/shared/00/00000005.xhp#contextmenu\" name=\"context menu\">menu de contexto</link>, você pode escolher comandos para criar um estilo, excluir um estilo definido pelo usuário ou alterar o estilo selecionado."
 
 #. zdEoY
 #: 05100000.xhp
@@ -63278,7 +63275,7 @@ msgctxt ""
 "par_id441556229012536\n"
 "help.text"
 msgid "<input>=TEXTJOIN(\" \"; 1; \"Here\"; \"comes\"; \"the\"; \"sun\")</input> returns \"Here comes the sun\" with space character as delimiter and empty strings are ignored."
-msgstr ""
+msgstr "<input>=UNITEXTO(\" \",1, \"Vovô\", \"viu\", \"a\", \"uva\")</input> retorna \"Vovô viu a uva\" com o caractere espaço de delimitador e os textos vazios são ignorados."
 
 #. 39FPP
 #: func_textjoin.xhp
@@ -63287,7 +63284,7 @@ msgctxt ""
 "par_id441556239012536\n"
 "help.text"
 msgid "if A1:B2 contains \"Here\", \"comes\", \"the\", \"sun\" respectively, <input>=TEXTJOIN(\"-\";1;A1:B2)</input> returns \"Here-comes-the-sun\" with dash character as delimiter and empty strings are ignored."
-msgstr ""
+msgstr "Se A1:B2 contém \"Vovô\", \"viu\", \"a\", \"uva\" respectivamente, <input>=UNIRTEXTO(\"-\",1,A1:B2)</input> retorna \"Vovô-viu-a-uva\" com hífen como delimitador e texto vazios são ignorados."
 
 #. AXCJg
 #: func_textjoin.xhp
