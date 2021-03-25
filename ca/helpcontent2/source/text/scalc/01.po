@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-03-23 11:44+0100\n"
-"PO-Revision-Date: 2021-03-24 12:37+0000\n"
+"PO-Revision-Date: 2021-03-25 13:37+0000\n"
 "Last-Translator: Jaumej <jaume.jorba@gmail.com>\n"
 "Language-Team: Catalan <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/ca/>\n"
 "Language: ca\n"
@@ -7677,13 +7677,12 @@ msgstr "Si assumim que els continguts de les cel·les són A1=<item type=\"input
 
 #. vtGrD
 #: 04060103.xhp
-#, fuzzy
 msgctxt ""
 "04060103.xhp\n"
 "par_id461513468030965\n"
 "help.text"
 msgid "Because of the iterative method used, it is possible for IRR to fail and return <link href=\"text/scalc/05/02140000.xhp\" name=\"Error 523\">Error 523</link>, with \"Error: Calculation does not converge\" in the status bar. In that case, try another value for Guess."
-msgstr "A causa del mètode iteratiu utilitzat és possible que IRR falli i retorni l'error <link href=\"text/scalc/05/02140000.xhp\" name=\"Error 523\">523</link> amb «El càlcul de l'error no convergeix» a la barra d'estat. En aquest cas proveu un altre valor per a Endevina."
+msgstr "A causa del mètode iteratiu utilitzat, és possible que el TIR falli i retorni <link href=\"text/scalc/05/02140000.xhp\" name=\"Error 523\">Error 523</link> amb \"Error: El càlcul no convergeix\" a la barra d'estat. En aquest cas, proveu un altre valor per l'estimació."
 
 #. PxBBB
 #: 04060103.xhp
@@ -8052,7 +8051,7 @@ msgctxt ""
 "par_id5863826\n"
 "help.text"
 msgid "<input>=A2+B2+STYLE(IF(CURRENT()>10;\"Red\";\"Default\"))</input>"
-msgstr ""
+msgstr "<input>=A2+B2+STYLE(IF(CURRENT()>10;\"Red\";\"Default\"))</input>"
 
 #. fNamE
 #: 04060104.xhp
@@ -8947,13 +8946,12 @@ msgstr "<ahelp hid=\"HID_FUNC_IFNA\">Retorna el valor si la cel·la no conté el
 
 #. hQbWy
 #: 04060104.xhp
-#, fuzzy
 msgctxt ""
 "04060104.xhp\n"
 "par_id31537481\n"
 "help.text"
 msgid "IFNA(Value; Alternate_value)"
-msgstr "IFNA(Valor; Valoralternatiu)"
+msgstr "SI ND(Valor; Valoralternatiu)"
 
 #. 6oj7E
 #: 04060104.xhp
@@ -9506,7 +9504,6 @@ msgstr "<ahelp hid=\"HID_FUNC_ZELLE\">Retorna informació sobre l'adreça, la fo
 
 #. Vwajg
 #: 04060104.xhp
-#, fuzzy
 msgctxt ""
 "04060104.xhp\n"
 "par_id3147355\n"
@@ -10038,13 +10035,12 @@ msgstr "Funcions lògiques"
 
 #. dGzEx
 #: 04060105.xhp
-#, fuzzy
 msgctxt ""
 "04060105.xhp\n"
 "par_id3149312\n"
 "help.text"
 msgid "<variable id=\"logicaltext\">This category contains the <emph>Logical</emph> functions.</variable>"
-msgstr "<unk>GA Aquesta categoria conté les funcions <emph>Lògica</emph>.</variable>"
+msgstr "<variable id=\"logicaltext\">Aquesta categoria conté les funcions <emph>Lògiques</emph>.</variable>"
 
 #. ADKTB
 #: 04060105.xhp
@@ -10138,13 +10134,12 @@ msgstr "Els arguments són expressions lògiques per si mateixes (CERT, 1<5, 2+3
 
 #. 7ALjG
 #: 04060105.xhp
-#, fuzzy
 msgctxt ""
 "04060105.xhp\n"
 "par_id3159123\n"
 "help.text"
 msgid "AND(<embedvar href=\"text/scalc/01/ful_func.xhp#logical255_1\" markup=\"keep\"/>)"
-msgstr "AND(<embedvar href=\"text/scalc/01/fulfunc.xhp#logical2551\" markup=\"keep\"/>)"
+msgstr "I(<embedvar href=\"text/scalc/01/fulfunc.xhp#logical2551\" markup=\"keep\"/>)"
 
 #. 3exzA
 #: 04060105.xhp
@@ -10261,7 +10256,7 @@ msgctxt ""
 "par_id3154558\n"
 "help.text"
 msgid "IF(Test [; [ThenValue] [; [OtherwiseValue]]])"
-msgstr ""
+msgstr "SI(Criteri [; [AleshoresValor] [; [EnAltreCasValor]]])"
 
 #. JnjcT
 #: 04060105.xhp
@@ -10297,7 +10292,7 @@ msgctxt ""
 "par_id3150867\n"
 "help.text"
 msgid "<input>=IF(A1>5;100;\"too small\")</input> If the value in <literal>A1</literal> is greater than <literal>5</literal>, the value <literal>100</literal> is returned; otherwise, the text <literal>too small</literal> is returned."
-msgstr ""
+msgstr "<input>=SI(A1>5;100;\"massa petit\")</input> si el valor a <literal>A1</literal> és major que <literal>5</literal>, es retorna el valor <literal>100</literal>; en altre cas, es retorna el text <literal>massa petit</literal>."
 
 #. jvk3H
 #: 04060105.xhp
@@ -10409,13 +10404,12 @@ msgstr "Els arguments són expressions lògiques per si mateixes (CERT, 1<5, 2+3
 
 #. rpDNn
 #: 04060105.xhp
-#, fuzzy
 msgctxt ""
 "04060105.xhp\n"
 "par_id3150468\n"
 "help.text"
 msgid "OR(<embedvar href=\"text/scalc/01/ful_func.xhp#logical255_1\" markup=\"keep\"/>)"
-msgstr "OR(<embedvar href=\"text/scalc/01/fulfunc.xhp#logical2551\" markup=\"keep\"/>)"
+msgstr "O(<embedvar href=\"text/scalc/01/ful_func.xhp#logical255_1\" markup=\"keep\"/>)"
 
 #. oFKWj
 #: 04060105.xhp
@@ -10554,13 +10548,12 @@ msgstr "Els arguments són expressions lògiques per si mateixes (CERT, 1<5, 2+3
 
 #. fpCVV
 #: 04060105.xhp
-#, fuzzy
 msgctxt ""
 "04060105.xhp\n"
 "par_id3150469\n"
 "help.text"
 msgid "XOR(<embedvar href=\"text/scalc/01/ful_func.xhp#logical255_1\" markup=\"keep\"/>)"
-msgstr "XOR(<embedvar href=\"text/scalc/01/fulfunc.xhp#logical2551\" markup=\"keep\"/>)"
+msgstr "OEX(<embedvar href=\"text/scalc/01/fulfunc.xhp#logical2551\" markup=\"keep\"/>)"
 
 #. qpsgo
 #: 04060105.xhp
