@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-29 16:02+0200\n"
-"PO-Revision-Date: 2021-03-29 14:09+0000\n"
+"POT-Creation-Date: 2021-03-23 11:44+0100\n"
+"PO-Revision-Date: 2021-03-29 14:28+0000\n"
 "Last-Translator: Rafael Lima <rafael.palma.lima@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/pt_BR/>\n"
 "Language: pt-BR\n"
@@ -14162,7 +14162,7 @@ msgctxt ""
 "par_id881579876394584\n"
 "help.text"
 msgid "<emph>Start</emph>: The position in the string where the search will begin. This parameter is passed by reference, so after execution the value of Start will point to the first character of the found substring. If no matching substring is found, Start will be set to 0."
-msgstr ""
+msgstr "<emph>Start</emph>: Posição na String onde a busca será iniciada. Este parâmetro é passado por referência, logo, após a execução do método o valor de Start apontará para o primeiro caractere da sub-string encontrada. Se nenhuma sub-string correspondente for encontrada, Start terá o valor 0."
 
 #. 8ACCG
 #: sf_string.xhp
@@ -14171,7 +14171,7 @@ msgctxt ""
 "par_id251579876403831\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph>: Default = <literal>False</literal>"
-msgstr ""
+msgstr "<emph>CaseSensitive</emph>: Padrão = <literal>False</literal>"
 
 #. y5jTA
 #: sf_string.xhp
@@ -14180,7 +14180,7 @@ msgctxt ""
 "par_id841579876412287\n"
 "help.text"
 msgid "<emph>Forward</emph>: Determines the direction of the search. If <literal>True</literal>, search moves forward. If <literal>False</literal> search moves backwards (Default = <literal>True</literal>)"
-msgstr ""
+msgstr "<emph>Forward</emph>: Determina a direção da busca. Se <literal>True</literal>, a busca moverá para frente. Se <literal>False</literal> a busca ocorrerá para trás (Padrão = <literal>True</literal>)"
 
 #. 6Qzy2
 #: sf_string.xhp
@@ -14189,7 +14189,7 @@ msgctxt ""
 "par_id451612309155653\n"
 "help.text"
 msgid "At the first iteration, if <literal>Forward = True</literal>, then Start should be equal to 1, whereas if <literal>Forward = False</literal> then Start should be equal to <literal>Len(InputStr)</literal>"
-msgstr ""
+msgstr "Na primeira iteração, se <literal>Forward = True</literal>, então Start deveria ser igual a 1, ao passo que, se <literal>Forward = False</literal> então Start deveria ser igual a <literal>Len(InputStr)</literal>"
 
 #. gv3oo
 #: sf_string.xhp
@@ -14198,7 +14198,7 @@ msgctxt ""
 "par_id221612309579001\n"
 "help.text"
 msgid "In the example above, the new value of <literal>lStart</literal> can be used to keep searching the same input string by setting the <literal>Start</literal> parameter to <literal>lStart + Len(result)</literal> at the next iteration."
-msgstr ""
+msgstr "No exemplo acima, o novo valor de <literal>lStart</literal> pode ser usado para continuar a busca na mesma String de entrada ao definir o parâmetro <literal>Start</literal> para <literal>lStart + Len(result)</literal> na próxima iteração."
 
 #. qAkN4
 #: sf_string.xhp
@@ -14207,7 +14207,7 @@ msgctxt ""
 "par_id471601048983628\n"
 "help.text"
 msgid "Hash functions are used inside some cryptographic algorithms, in digital signatures, message authentication codes, manipulation detection, fingerprints, checksums (message integrity check), hash tables, password storage and much more."
-msgstr ""
+msgstr "Funções hash são usadas por alguns algoritmos criptográficos, em assinaturas digitais, códigos de autenticação de mensagens, detecção de fraudes, impressões digitais, verificação de integridade de mensagens, tabelas hash, armazenamento de senhas e muito mais."
 
 #. HupGD
 #: sf_string.xhp
@@ -14216,7 +14216,7 @@ msgctxt ""
 "par_id301601048983765\n"
 "help.text"
 msgid "The <literal>HashStr</literal> method returns the result of a hash function applied on a given string and using a specified algorithm, as a string of lowercase hexadecimal digits."
-msgstr ""
+msgstr "O método <literal>HashStr</literal> retorna o resultado da função hash aplicada em uma dada String usando o algoritmo escolhido. O valor retornado é uma String com caracteres hexadecimais minúsculos."
 
 #. ZRZEF
 #: sf_string.xhp
@@ -14225,7 +14225,7 @@ msgctxt ""
 "par_id631601048983149\n"
 "help.text"
 msgid "The hash algorithms supported are: <literal>MD5</literal>, <literal>SHA1</literal>, <literal>SHA224</literal>, <literal>SHA256</literal>, <literal>SHA384</literal> and <literal>SHA512</literal>."
-msgstr ""
+msgstr "Os algoritmos hash suportados são: <literal>MD5</literal>, <literal>SHA1</literal>, <literal>SHA224</literal>, <literal>SHA256</literal>, <literal>SHA384</literal> e <literal>SHA512</literal>."
 
 #. xWGnD
 #: sf_string.xhp
@@ -14234,7 +14234,7 @@ msgctxt ""
 "par_id621601048983210\n"
 "help.text"
 msgid "<emph>InputStr</emph> : The string to hash. It is presumed to be encoded in UTF-8. The hashing algorithm will consider the string as a stream of bytes."
-msgstr ""
+msgstr "<emph>InputStr</emph> : String à qual a função hash será aplicada. Assume-se que a String usa a codificação UTF-8. O algoritmo hash considerará a String como um fluxo de bytes."
 
 #. krqwK
 #: sf_string.xhp
@@ -14243,7 +14243,7 @@ msgctxt ""
 "par_id941601048983822\n"
 "help.text"
 msgid "<emph>Algorithm</emph> : One of the supported algorithms listed above, passed as a string."
-msgstr ""
+msgstr "<emph>Algorithm</emph> : Um dos algoritmos hash suportados e listados acima, passados como uma String."
 
 #. TXGmB
 #: sf_string.xhp
@@ -14252,7 +14252,7 @@ msgctxt ""
 "par_id221579879516929\n"
 "help.text"
 msgid "Encodes the input string into the HTML character codes, replacing special characters by their <literal>&</literal> counterparts."
-msgstr ""
+msgstr "Codifica a String de entrada em caracteres HTML, substituindo caracteres especiais pelos símbolos <literal>&</literal> correspondentes."
 
 #. YNfid
 #: sf_string.xhp
@@ -14261,7 +14261,7 @@ msgctxt ""
 "par_id341612351999692\n"
 "help.text"
 msgid "For example, the character <literal>é</literal> would be replaced by <literal>&eacute;</literal> or an equivalent numerical HTML code."
-msgstr ""
+msgstr "Por exemplo, o caractere <literal>é</literal> seria substituído por <literal>&eacute;</literal> ou um código numérico HTML equivalente."
 
 #. 2SAZB
 #: sf_string.xhp
@@ -14270,7 +14270,7 @@ msgctxt ""
 "bas_id501579879570781\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to encode"
-msgstr ""
+msgstr "<emph>InputStr</emph>: String a ser codificada."
 
 #. jpv97
 #: sf_string.xhp
@@ -14279,7 +14279,7 @@ msgctxt ""
 "par_id171579880990533\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the input string is a valid date according to a specified date format."
-msgstr ""
+msgstr "Retorna <literal>True</literal> se a String de entrada é uma data válida de acordo com o formato de dada especificado."
 
 #. rhVGc
 #: sf_string.xhp
@@ -14288,7 +14288,7 @@ msgctxt ""
 "par_id151579881091821\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>"
-msgstr ""
+msgstr "<emph>InputStr</emph>: String a ser verificada. Se estiver vazia o método retorna <literal>False</literal>"
 
 #. J4E4L
 #: sf_string.xhp
@@ -14297,7 +14297,7 @@ msgctxt ""
 "par_id991579881107670\n"
 "help.text"
 msgid "<emph>DateFormat</emph>: The date format, as a string. It can be either \"YYYY-MM-DD\" (default), \"DD-MM-YYYY\" or \"MM-DD-YYYY\""
-msgstr ""
+msgstr "<emph>DateFormat</emph>: Formato da data, como uma String. Pode ser um dos valores a seguir: \"YYYY-MM-DD\" (padrão), \"DD-MM-YYYY\" ou \"MM-DD-YYYY\""
 
 #. GvZLC
 #: sf_string.xhp
@@ -14306,7 +14306,7 @@ msgctxt ""
 "par_id291579881117126\n"
 "help.text"
 msgid "The dash (-) may be replaced by a dot (.), a slash (/) or a space."
-msgstr ""
+msgstr "O traço (-) pode ser substituído por um ponto (.), uma barra (/) ou um espaço em branco."
 
 #. yCA3T
 #: sf_string.xhp
@@ -14315,7 +14315,7 @@ msgctxt ""
 "par_id51579881125801\n"
 "help.text"
 msgid "If the format is invalid, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Se o formato for inválido, o método retorna <literal>False</literal>."
 
 #. qFmWW
 #: sf_string.xhp
@@ -14324,7 +14324,7 @@ msgctxt ""
 "par_id211612370427721\n"
 "help.text"
 msgid "This method checks the format of the input string without performing any calendar-specific checks. Hence it does not test the input string for leap years or months with 30 or 31 days. For that, refer to the <link href=\"text/sbasic/shared/03102300.xhp\" name=\"IsDate function\"><literal>IsDate</literal> built-in function</link>."
-msgstr ""
+msgstr "Este método verifica o formato da String de entrada sem fazer verificações específicas de calendário. Assim, o método não testa se a String de entrada é um ano bissexto ou se um determinado mês tem 30 ou 31 dias. Para isso, consulte a função interna Basic <link href=\"text/sbasic/shared/03102300.xhp\" name=\"IsDate function\"><literal>IsDate</literal></link>."
 
 #. DJQFQ
 #: sf_string.xhp
@@ -14333,7 +14333,7 @@ msgctxt ""
 "par_id181612371147364\n"
 "help.text"
 msgid "The example below shows the difference between the methods <literal>IsADate</literal> (ScriptForge) and the <literal>IsDate</literal> (built-in) function."
-msgstr ""
+msgstr "O exemplo abaixo mostra a diferença entre os métodos <literal>IsADate</literal> (ScriptForge) e o método interno <literal>IsDate</literal>."
 
 #. hAADi
 #: sf_string.xhp
@@ -14342,7 +14342,7 @@ msgctxt ""
 "par_id161579881600317\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are alphabetic."
-msgstr ""
+msgstr "Retorna <literal>True</literal> se todos os caracteres em uma String são alfabéticos."
 
 #. Cpeo3
 #: sf_string.xhp
@@ -14351,7 +14351,7 @@ msgctxt ""
 "par_id251579881615469\n"
 "help.text"
 msgid "Alphabetic characters are those characters defined in the <link href=\"https://unicode.org/reports/tr44/\" name=\"Unicode documentation\">Unicode Character Database</link> as <literal>Letter</literal>."
-msgstr ""
+msgstr "Caracteres alfabéticos são aqueles definidos na base <link href=\"https://unicode.org/reports/tr44/\" name=\"Unicode documentation\">Unicode Character Database</link> como pertencentes ao grupo <literal>Letter</literal>."
 
 #. CLTDC
 #: sf_string.xhp
@@ -14360,7 +14360,7 @@ msgctxt ""
 "par_id11579881691826\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked.  If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: String a ser verificada. Se estiver vazia o método retorna <literal>False</literal>"
 
 #. KaLGv
 #: sf_string.xhp
@@ -14369,7 +14369,7 @@ msgctxt ""
 "par_id421579883181382\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are alphabetic, digits or \"_\" (underscore). The first character must not be a digit."
-msgstr ""
+msgstr "Retorna <literal>True</literal> se todos os caracteres na String são alfabéticos, dígitos ou \"_\" (underscore). O primeiro caractere não pode ser um dígito."
 
 #. LLCAz
 #: sf_string.xhp
@@ -14378,7 +14378,7 @@ msgctxt ""
 "par_id31579884464101\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: String a ser verificada. Se estiver vazia o método retorna <literal>False</literal>"
 
 #. qAZpA
 #: sf_string.xhp
@@ -14387,7 +14387,7 @@ msgctxt ""
 "par_id671580039484786\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are Ascii characters."
-msgstr ""
+msgstr "Retorna <literal>True</literal> se todos os caracteres na String são caracteres ASCII."
 
 #. AR4hr
 #: sf_string.xhp
@@ -14396,7 +14396,7 @@ msgctxt ""
 "par_id791580039528838\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: String a ser verificada. Se estiver vazia o método retorna <literal>False</literal>"
 
 #. iuPF4
 #: sf_string.xhp
@@ -14405,7 +14405,7 @@ msgctxt ""
 "par_id861580044805749\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are digits."
-msgstr ""
+msgstr "Retorna <literal>True</literal> se todos os caracteres na String de entrada são dígitos."
 
 #. njKib
 #: sf_string.xhp
@@ -14414,7 +14414,7 @@ msgctxt ""
 "par_id41580044873043\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: String a ser verificada. Se estiver vazia o método retorna <literal>False</literal>"
 
 #. J8Ykx
 #: sf_string.xhp
