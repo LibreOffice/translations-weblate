@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-23 11:44+0100\n"
+"POT-Creation-Date: 2021-03-29 16:02+0200\n"
 "PO-Revision-Date: 2021-03-28 12:36+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/de/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1566197858.000000\n"
 
 #. GyY9M
@@ -17220,14 +17220,33 @@ msgctxt "pageformatpage|liststoreGutterPosition"
 msgid "Top"
 msgstr "Oben"
 
-#. xdECe
+#. cuazP
+#: cui/uiconfig/ui/pageformatpage.ui:711
+msgctxt "pageformatpage|checkBackgroundFullSize"
+msgid "Background covers margins"
+msgstr ""
+
+#. ApZcb
+#. xdds
 #: cui/uiconfig/ui/pageformatpage.ui:715
+msgctxt "pageformatpage|checkBackgroundFullSize"
+msgid "Any background will cover margins of the page as well"
+msgstr ""
+
+#. XtMGD
+#: cui/uiconfig/ui/pageformatpage.ui:720
+msgctxt "extended_tip|checkBackgroundFullSize"
+msgid "If enabled, then any background will cover the entire page, including margins. If disabled, any background will cover the page only inside the margins."
+msgstr ""
+
+#. xdECe
+#: cui/uiconfig/ui/pageformatpage.ui:735
 msgctxt "pageformatpage|label5"
 msgid "Layout Settings"
 msgstr "Layout-Einstellungen"
 
 #. eBMbb
-#: cui/uiconfig/ui/pageformatpage.ui:736
+#: cui/uiconfig/ui/pageformatpage.ui:756
 msgctxt "pageformatpage|labelMsg"
 msgid ""
 "The margin settings are out of print range.\n"
@@ -18295,19 +18314,19 @@ msgctxt "qr text"
 msgid "The text from which to generate the QR code."
 msgstr "Der Text, aus dem der QR-Code generiert werden soll."
 
-#. PFE57
+#. 4FXDa
 #. Text to be stored in the QR
 #: cui/uiconfig/ui/qrcodegen.ui:132
 msgctxt "qrcodegen|label_text"
-msgid "URL/Text :"
-msgstr "URL/Text:"
+msgid "URL/Text:"
+msgstr ""
 
-#. HYC7f
-#. Set Border around QR
+#. FoKEY
+#. Set Margin around QR
 #: cui/uiconfig/ui/qrcodegen.ui:147
-msgctxt "qrcodegen|label_border"
-msgid "Border :"
-msgstr "Umrandung:"
+msgctxt "qrcodegen|label_margin"
+msgid "Margin:"
+msgstr ""
 
 #. i2kkj
 #. Error Correction Level of QR code
@@ -18316,11 +18335,11 @@ msgctxt "qrcodegen|label_ecc"
 msgid "Error Correction:"
 msgstr "Fehlerkorrektur:"
 
-#. ecSS4
+#. FvtZ3
 #: cui/uiconfig/ui/qrcodegen.ui:200
-msgctxt "edit border"
-msgid "The width in dots of the border surrounding the QR code."
-msgstr "Die Breite des Randes, der den QR-Code umgibt, in Punkten."
+msgctxt "edit margin"
+msgid "The margin surrounding the QR code."
+msgstr ""
 
 #. vUJPT
 #: cui/uiconfig/ui/qrcodegen.ui:217
@@ -21621,6 +21640,18 @@ msgstr "Ansichtslayout"
 msgctxt "zoomdialog|extended_tip|ZoomDialog"
 msgid "Reduces or enlarges the screen display of %PRODUCTNAME."
 msgstr "Vergrößert oder verkleinert die Bildschirmanzeige von %PRODUCTNAME."
+
+#~ msgctxt "qrcodegen|label_text"
+#~ msgid "URL/Text :"
+#~ msgstr "URL/Text:"
+
+#~ msgctxt "qrcodegen|label_border"
+#~ msgid "Border :"
+#~ msgstr "Umrandung:"
+
+#~ msgctxt "edit border"
+#~ msgid "The width in dots of the border surrounding the QR code."
+#~ msgstr "Die Breite des Randes, der den QR-Code umgibt, in Punkten."
 
 #~ msgctxt "ToolbarmodeDialog|radiobutton4"
 #~ msgid "Tabbed"
