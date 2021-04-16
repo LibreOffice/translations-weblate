@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-04-12 12:06+0200\n"
-"PO-Revision-Date: 2021-04-10 15:37+0000\n"
+"PO-Revision-Date: 2021-04-16 00:37+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/el/>\n"
 "Language: el\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.4.2\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1562059311.000000\n"
 
@@ -5262,7 +5262,7 @@ msgctxt ""
 "par_id3156110\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBANZAHL2\">DCOUNTA counts the number of cells (fields) of the specified column that are not blank, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells of the specified column are not counted. However, if no column is specified, DCOUNTA returns the count of all records that match the specified search criteria irrespective of their contents."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBANZAHL2\">Η DCOUNTA μετρά τον αριθμό των κελιών (πεδίων) της συγκεκριμένης στήλης που δεν είναι κενά, για όλες τις γραμμές (εγγραφές της βάσης δεδομένων) που ταιριάζουν τα καθορισμένα κριτήρια αναζήτησης.</ahelp> Τα κενά κελιά της καθορισμένης στήλης δεν μετρώνται. Όμως, εάν δεν καθορίζεται στήλη, η DCOUNTA επιστρέφει το πλήθος όλων των εγγραφών που συμφωνούν με τα καθορισμένα κριτήρια αναζήτησης ανεξάρτητα από τα περιεχόμενά τους."
 
 #. CxWGV
 #: 04060101.xhp
@@ -5280,7 +5280,7 @@ msgctxt ""
 "par_id3153982\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">600\" (this search criterion will match records in the database table that have a value greater than 600 in the Distance column)."
-msgstr ""
+msgstr "Ο πίνακας βάσης δεδομένων του παραδείγματος δίνει πληροφορίες για τους επισκέπτες που προσκλήθηκαν στη γιορτή γενεθλίων του Τζο (που περιγράφτηκε παραπάνω) και πρέπει να καταλαμβάνουν τα κελιά A1:E10. Το περιεχόμενο των κελιών A12:E12 πρέπει να ταυτίζεται με τις ετικέτες κεφαλίδας για τον πίνακα της βάσης δεδομένων στα κελιά A1:E1. Διασφαλίστε ότι τα κελιά A13:E13 είναι κενά, εκτός από το κελί D13 που πρέπει να περιέχει \">600\" (αυτό το κριτήριο αναζήτησης θα ταιριάξει τις εγγραφές του πίνακα της βάσης δεδομένων που έχουν τιμή μεγαλύτερη από 600 στη στήλη απόσταση)."
 
 #. SSD7D
 #: 04060101.xhp
@@ -5289,7 +5289,7 @@ msgctxt ""
 "par_id61616368616093\n"
 "help.text"
 msgid "Insert the formula <input>=DCOUNTA(A1:E10;; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate how many of Joe’s party guests travel further than 600 meters to school. The value 5 is returned."
-msgstr ""
+msgstr "Εισάγεται τον τύπο <input>=DCOUNTA(A1:E10;; A12:E13)</input> σε ένα κενό κελί κάπου στο φύλλο για να υπολογίσετε πόσοι επισκέπτες από τη γιορτή του Τζο κινούνται πάνω από 600 μέτρα μέχρι το σχολείο. Επιστρέφεται η τιμή 5."
 
 #. WyEGc
 #: 04060101.xhp
@@ -5298,7 +5298,7 @@ msgctxt ""
 "par_id841616368623207\n"
 "help.text"
 msgid "The same result is obtained if you use the formula <input>=DCOUNTA(A1:E10; \"Distance\"; A12:E13)</input> or the formula <input>=DCOUNTA(A1:E10; \"Name\"; A12:E13)</input>. The latter case reflects that in contrast to DCOUNT, DCOUNTA counts both numeric and alphanumeric values in the column indicated by the <emph>DatabaseField</emph> argument."
-msgstr ""
+msgstr "Το ίδιο αποτέλεσμα λαμβάνεται εάν χρησιμοποιήσετε τον τύπο <input>=DCOUNTA(A1:E10; \"Απόσταση\"; A12:E13)</input> ή τον τύπο <input>=DCOUNTA(A1:E10; \"Name\"; A12:E13)</input>. Η δεύτερη περίπτωση αντανακλά ότι αντίθετα από τις DCOUNT, DCOUNTA μετρά και αριθμητικές και αλφαριθμητικές τιμές στη στήλη που δείχνει το όρισμα <emph>ΠεδίοΒάσηςΔεδομένων</emph>."
 
 #. ZFJzE
 #: 04060101.xhp
@@ -5307,7 +5307,7 @@ msgctxt ""
 "bm_id3147256\n"
 "help.text"
 msgid "<bookmark_value>DGET function</bookmark_value>    <bookmark_value>cell contents;searching in Calc databases</bookmark_value>    <bookmark_value>searching;cell contents in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Συνάρτηση DGET</bookmark_value> <bookmark_value>περιεχόμενα κελιού;αναζήτηση σε βάσεις δεδομένων Calc</bookmark_value> <bookmark_value>αναζήτηση;περιεχόμενα κελιού σε βάσεις δεδομένων Calc</bookmark_value>"
 
 #. wj7ck
 #: 04060101.xhp
@@ -5325,7 +5325,7 @@ msgctxt ""
 "par_id3152801\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBAUSZUG\">DGET returns the contents of the cell (field) of the specified column, for the single row (database record) that matches the specified search criteria.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBAUSZUG\">Η DGET επιστρέφει τα περιεχόμενα του κελιού (πεδίου) της καθορισμένης στήλης, για τη μοναδική γραμμή (εγγραφή της βάσης δεδομένων) που ταιριάζει στα καθορισμένα κριτήρια αναζήτησης.</ahelp>"
 
 #. GxBWY
 #: 04060101.xhp
@@ -5334,7 +5334,7 @@ msgctxt ""
 "par_id171616180137385\n"
 "help.text"
 msgid "Calc reports Err:502 (invalid argument) if multiple matches are found, or a #VALUE! error (wrong data type) if no matches are found. A #VALUE! error is also reported if a single match is found but the relevant cell is empty."
-msgstr ""
+msgstr "Το Calc αναφέρει Err:502 (άκυρο όρισμα) εάν βρεθούν πολλές συμφωνίες, ή σφάλμα #ΤΙΜΗ! (εσφαλμένος τύπος δεδομένων) εάν δεν βρεθούν συμφωνίες. Σφάλμα #ΤΙΜΗ! αναφέρεται επίσης εάν η μοναδική συμφωνία βρεθεί , αλλά το σχετικό κελί είναι κενό."
 
 #. oFi8J
 #: 04060101.xhp
@@ -5352,7 +5352,7 @@ msgctxt ""
 "par_id3155388\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell C13 which should contain \"11\" (this search criterion will match records in the database table that have a value of 11 in the Age column)."
-msgstr ""
+msgstr "Ο πίνακας της βάσης δεδομένων του παραδείγματος δίνει πληροφορίες για τους επισκέπτες που προσκλήθηκαν στη γιορτή γενεθλίων του Τζο (που περιγράφτηκε παραπάνω) και πρέπει να καταλαμβάνει τα κελιά A1:E10. Το περιεχόμενο των κελιών A12:E12 πρέπει να ταυτίζεται με τις ετικέτες κεφαλίδας για τον πίνακα της βάσης δεδομένων στα κελιά A1:E1. Διασφαλίστε ότι τα κελιά A13:E13 είναι κελιά, εκτός από το κελί C13 που πρέπει να περιέχει \"11\" (αυτό είναι το κριτήριο αναζήτησης που ταιριάζει με τις εγγραφές στον πίνακα της βάσης δεδομένων που έχει τιμή 11 στη στήλη Ηλικία)."
 
 #. A942C
 #: 04060101.xhp
@@ -5361,7 +5361,7 @@ msgctxt ""
 "par_id3153096\n"
 "help.text"
 msgid "Insert the formula <input>=DGET(A1:E10; \"Name\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the name of Joe’s party guest who is age 11. The name Daniel is returned."
-msgstr ""
+msgstr "Εισάγετε τον τύπο <input>=DGET(A1:E10; \"Name\"; A12:E13)</input> σε ένα κενό κελί κάπου αλλού στο φύλλο για να βρείτε το όνομα του επισκέπτη της γιορτής του Τζο που είναι 11. Επιστρέφεται το όνομα Ντάνιελ."
 
 #. 6AKoj
 #: 04060101.xhp
