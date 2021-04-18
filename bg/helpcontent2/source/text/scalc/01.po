@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-04-12 12:06+0200\n"
-"PO-Revision-Date: 2021-04-17 04:37+0000\n"
+"PO-Revision-Date: 2021-04-18 08:37+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/bg/>\n"
 "Language: bg\n"
@@ -5262,7 +5262,7 @@ msgctxt ""
 "par_id3156110\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBANZAHL2\">DCOUNTA counts the number of cells (fields) of the specified column that are not blank, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells of the specified column are not counted. However, if no column is specified, DCOUNTA returns the count of all records that match the specified search criteria irrespective of their contents."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBANZAHL2\">DCOUNTA брои клетките (полетата) на указаната колона, които не са празни, за всички редове (записи в базата от данни), които отговарят на зададените критерии за търсене.</ahelp> Празните клетки в избраната колона не се броят. Ако не е зададена колона, DCOUNTA връща броя на всички записи, които отговарят на зададените критерии за търсене, независимо от съдържанието им."
 
 #. CxWGV
 #: 04060101.xhp
@@ -5280,7 +5280,7 @@ msgctxt ""
 "par_id3153982\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">600\" (this search criterion will match records in the database table that have a value greater than 600 in the Distance column)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:E13 са празни, с изключение на клетката D13, която трябва да съдържа „>600“ (този критерий за търсене ще съответства на записи в базата от данни, които съдържат стойност, по-голяма от 600, в колоната „Разстояние“)."
 
 #. SSD7D
 #: 04060101.xhp
@@ -5289,7 +5289,7 @@ msgctxt ""
 "par_id61616368616093\n"
 "help.text"
 msgid "Insert the formula <input>=DCOUNTA(A1:E10;; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate how many of Joe’s party guests travel further than 600 meters to school. The value 5 is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DCOUNTA(A1:E10;; A12:E13)</input> в празна клетка другаде в листа, за да преброите колко от гостите на Иван изминават повече от 600 метра до училище. Резултатът е 5."
 
 #. WyEGc
 #: 04060101.xhp
@@ -5298,7 +5298,7 @@ msgctxt ""
 "par_id841616368623207\n"
 "help.text"
 msgid "The same result is obtained if you use the formula <input>=DCOUNTA(A1:E10; \"Distance\"; A12:E13)</input> or the formula <input>=DCOUNTA(A1:E10; \"Name\"; A12:E13)</input>. The latter case reflects that in contrast to DCOUNT, DCOUNTA counts both numeric and alphanumeric values in the column indicated by the <emph>DatabaseField</emph> argument."
-msgstr ""
+msgstr "Същият резултат се получава и ако използвате формулата <input>=DCOUNTA(A1:E10; \"Разстояние\"; A12:E13)</input> или <input>=DCOUNTA(A1:E10; \"Име\"; A12:E13)</input>. Последното отразява факта, че за разлика от DCOUNT, DCOUNTA брои и числовите, и буквено-цифровите стойности в колоната, указана от аргумента <emph>ПолеОтБД</emph>."
 
 #. ZFJzE
 #: 04060101.xhp
@@ -5307,7 +5307,7 @@ msgctxt ""
 "bm_id3147256\n"
 "help.text"
 msgid "<bookmark_value>DGET function</bookmark_value>    <bookmark_value>cell contents;searching in Calc databases</bookmark_value>    <bookmark_value>searching;cell contents in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DGET, функция</bookmark_value><bookmark_value>съдържание на клетки;търсене в бази от данни на Calc</bookmark_value><bookmark_value>търсене;съдържание на клетки в бази от данни на Calc</bookmark_value>"
 
 #. wj7ck
 #: 04060101.xhp
@@ -5325,7 +5325,7 @@ msgctxt ""
 "par_id3152801\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBAUSZUG\">DGET returns the contents of the cell (field) of the specified column, for the single row (database record) that matches the specified search criteria.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBAUSZUG\">DGET връща съдържанието на клетката (полето) от указаната колона за единствения ред (запис в базата от данни), който отговаря на зададените критерии за търсене.</ahelp>"
 
 #. GxBWY
 #: 04060101.xhp
@@ -5334,7 +5334,7 @@ msgctxt ""
 "par_id171616180137385\n"
 "help.text"
 msgid "Calc reports Err:502 (invalid argument) if multiple matches are found, or a #VALUE! error (wrong data type) if no matches are found. A #VALUE! error is also reported if a single match is found but the relevant cell is empty."
-msgstr ""
+msgstr "Calc докладва Гр:502 (невалиден аргумент), ако се намерят няколко съвпадения, или грешка #VALUE! (погрешен тип данни), ако не бъде намерено съвпадение. Грешка #VALUE! се докладва и ако е намерено точно едно съвпадение, но съответната клетка е празна."
 
 #. oFi8J
 #: 04060101.xhp
@@ -5352,7 +5352,7 @@ msgctxt ""
 "par_id3155388\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell C13 which should contain \"11\" (this search criterion will match records in the database table that have a value of 11 in the Age column)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:E13 са празни, с изключение на клетката C13, която трябва да съдържа „11“ (този критерий за търсене ще съответства на записи в базата от данни, които съдържат стойност 11 в колоната „Възраст“)."
 
 #. A942C
 #: 04060101.xhp
@@ -5361,7 +5361,7 @@ msgctxt ""
 "par_id3153096\n"
 "help.text"
 msgid "Insert the formula <input>=DGET(A1:E10; \"Name\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the name of Joe’s party guest who is age 11. The name Daniel is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DGET(A1:E10; \"Име\"; A12:E13)</input> в празна клетка другаде в листа, за да намерите името на този гост на партито на Иван, чиято възраст е 11 години. Резултатът е името Георги."
 
 #. 6AKoj
 #: 04060101.xhp
@@ -5370,7 +5370,7 @@ msgctxt ""
 "par_id3150524\n"
 "help.text"
 msgid "If you change the value in cell C13 to “10”, then the formula <input>=DGET(A1:E10; \"Name\"; A12:E13)</input> returns an invalid argument error (Err:502). The reflects that multiple records match the specified criterion (both Betty and Charles are age 10)."
-msgstr ""
+msgstr "Ако промените стойността в клетката C13 на „10“, формулата <input>=DGET(A1:E10; \"Име\"; A12:E13)</input> връща грешка за невалиден аргумент (Гр:502). Причината е, че повече от един запис отговаря на зададения критерий (и Бистра, и Веселин са на 10 години)."
 
 #. umeGw
 #: 04060101.xhp
@@ -5379,7 +5379,7 @@ msgctxt ""
 "bm_id3149766\n"
 "help.text"
 msgid "<bookmark_value>DMAX function</bookmark_value>    <bookmark_value>maximum values in Calc databases</bookmark_value>    <bookmark_value>searching;maximum values in columns</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DMAX, функция</bookmark_value><bookmark_value>максимални стойности в бази от данни на Calc</bookmark_value><bookmark_value>търсене;максимални стойности в колони</bookmark_value>"
 
 #. MDBf2
 #: 04060101.xhp
@@ -5397,7 +5397,7 @@ msgctxt ""
 "par_id3154903\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBMAX\">DMAX calculates the maximum value across the cells (fields) of the specified column that contain numeric values, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBMAX\">DMAX изчислява максималната стойност от клетките (полетата) на указаната колона, които съдържат числови стойности, за всички редове (записи с данни), които отговарят на зададените критерии за търсене.</ahelp> Празните клетки и клетките, съдържащи нечислови знаци, не се включват."
 
 #. pUGwd
 #: 04060101.xhp
@@ -5406,7 +5406,7 @@ msgctxt ""
 "par_id51616180409281\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no non-zero numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща 0, ако не са намерени съвпадения, или ако в клетките от съответстващите записи в указаната колона няма ненулеви числови стойности."
 
 #. ho2GW
 #: 04060101.xhp
@@ -5424,7 +5424,7 @@ msgctxt ""
 "par_id3148442\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:E13 са празни, с изключение на клетката D13, която трябва да съдържа „>0“ (този критерий за търсене е предназначен да съответства на всички записи в базата от данни)."
 
 #. Mqocw
 #: 04060101.xhp
@@ -5433,7 +5433,7 @@ msgctxt ""
 "par_id3148804\n"
 "help.text"
 msgid "Insert the formula <input>=DMAX(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the maximum distance in meters that any of Joe’s party guests travel to school. The value 1200 is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DMAX(A1:E10; \"Разстояние\"; A12:E13)</input> в празна клетка другаде в листа, за да намерите максималното разстояние в метри, което някой от гостите на партито на Иван изминава до училище. Резултатът е 1200."
 
 #. 5cyyS
 #: 04060101.xhp
@@ -5442,7 +5442,7 @@ msgctxt ""
 "bm_id3159141\n"
 "help.text"
 msgid "<bookmark_value>DMIN function</bookmark_value>    <bookmark_value>minimum values in Calc databases</bookmark_value>    <bookmark_value>searching;minimum values in columns</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DMIN, функция</bookmark_value><bookmark_value>минимални стойности в бази от данни на Calc</bookmark_value><bookmark_value>търсене;минимални стойности в колони</bookmark_value>"
 
 #. iGV4a
 #: 04060101.xhp
@@ -5460,7 +5460,7 @@ msgctxt ""
 "par_id3154261\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBMIN\">DMIN calculates the minimum value across the cells (fields) of the specified column that contain numeric values, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBMIN\">DMIN изчислява минималната стойност от клетките (полетата) на указаната колона, които съдържат числови стойности, за всички редове (записи с данни), които отговарят на зададените критерии за търсене.</ahelp> Празните клетки и клетките, съдържащи нечислови знаци, не се включват."
 
 #. yYJTa
 #: 04060101.xhp
@@ -5469,7 +5469,7 @@ msgctxt ""
 "par_id901616180605426\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no non-zero numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща 0, ако не са намерени съвпадения, или ако в клетките от съответстващите записи в указаната колона няма ненулеви числови стойности."
 
 #. QxBsV
 #: 04060101.xhp
@@ -5487,7 +5487,7 @@ msgctxt ""
 "par_id3148925\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:E13 са празни, с изключение на клетката D13, която трябва да съдържа „>0“ (този критерий за търсене е предназначен да съответства на всички записи в базата от данни)."
 
 #. LrfjC
 #: 04060101.xhp
@@ -5496,7 +5496,7 @@ msgctxt ""
 "par_id3149161\n"
 "help.text"
 msgid "Insert the formula <input>=DMIN(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the minimum distance in meters that any of Joe’s party guests travel to school. The value 150 is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DMIN(A1:E10; \"Разстояние\"; A12:E13)</input> в празна клетка другаде в листа, за да намерите минималното разстояние в метри, което някой от гостите на партито на Иван изминава до училище. Резултатът е 150."
 
 #. WppQu
 #: 04060101.xhp
@@ -5505,7 +5505,7 @@ msgctxt ""
 "bm_id3154274\n"
 "help.text"
 msgid "<bookmark_value>DAVERAGE function</bookmark_value>    <bookmark_value>averages; in Calc databases</bookmark_value>    <bookmark_value>calculating;averages in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DAVERAGE, функция</bookmark_value><bookmark_value>средни стойности; в бази от данни на Calc</bookmark_value><bookmark_value>изчисляване;средни стойности в бази от данни на Calc</bookmark_value>"
 
 #. dQciw
 #: 04060101.xhp
@@ -5523,7 +5523,7 @@ msgctxt ""
 "par_id3166453\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBMITTELWERT\">DAVERAGE calculates the average of the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp>  Non-numeric values in those cells are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBMITTELWERT\">DAVERAGE изчислява средната стойност на числата в клетките (полетата) на указаната колона за всички редове (записи с данни), които отговарят на зададените критерии за търсене.</ahelp> Нечисловите стойности в тези клетки се игнорират."
 
 #. 87qxe
 #: 04060101.xhp
@@ -5532,7 +5532,7 @@ msgctxt ""
 "par_id31615978739452\n"
 "help.text"
 msgid "Returns a #DIV/0! error if no records match the specified search criteria, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща грешка #DIV/0!, ако никой запис не отговаря на зададените критерии за търсене, или ако в клетките на съответстващите записи от указаната колона няма числови стойности."
 
 #. PPkBD
 #: 04060101.xhp
@@ -5550,7 +5550,7 @@ msgctxt ""
 "par_id3149104\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:E13 са празни, с изключение на клетката D13, която трябва да съдържа „>0“ (този критерий за търсене е предназначен да съответства на всички записи в базата от данни)."
 
 #. CjTGB
 #: 04060101.xhp
@@ -5559,7 +5559,7 @@ msgctxt ""
 "par_id201616368312277\n"
 "help.text"
 msgid "Insert the formula <input>=DAVERAGE(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the average distance in meters travelled to school by Joe’s party guests. The value 666.67 is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DAVERAGE(A1:E10; \"Разстояние\"; A12:E13)</input> в празна клетка другаде в листа, за да намерите средното разстояние в метри, което гостите на партито на Иван изминават до училище. Резултатът е 666,67."
 
 #. B6fYC
 #: 04060101.xhp
@@ -5568,7 +5568,7 @@ msgctxt ""
 "bm_id3159269\n"
 "help.text"
 msgid "<bookmark_value>DPRODUCT function</bookmark_value>    <bookmark_value>multiplying;cell contents in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DPRODUCT, функция</bookmark_value><bookmark_value>умножаване;съдържание на клетки в бази от данни на Calc </bookmark_value>"
 
 #. gvW9Q
 #: 04060101.xhp
@@ -5586,7 +5586,7 @@ msgctxt ""
 "par_id3152879\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBPRODUKT\">DPRODUCT calculates the product of all numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBPRODUKT\">DPRODUCT изчислява произведението на всички числови стойности в клетките (полетата) на указаната колона, за всички редове (записи с данни), които отговарят на зададените критерии за търсене.</ahelp> Празните клетки и клетките, съдържащи нечислови знаци, не се включват."
 
 #. oUsZD
 #: 04060101.xhp
@@ -5595,7 +5595,7 @@ msgctxt ""
 "par_id741616180868336\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща 0, ако не са намерени съответствия, или ако в клетките на указаната колона няма числови стойности за съответстващите записи."
 
 #. PgAsj
 #: 04060101.xhp
@@ -5613,7 +5613,7 @@ msgctxt ""
 "par_id3148986\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell C13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:E13 са празни, с изключение на клетката C13, която трябва да съдържа „>0“ (този критерий за търсене е предназначен да съответства на всички записи в базата от данни)."
 
 #. iaoUA
 #: 04060101.xhp
@@ -5622,7 +5622,7 @@ msgctxt ""
 "par_id91616368981807\n"
 "help.text"
 msgid "Insert the formula <input>=DPRODUCT(A1:E10; \"Age\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the product of the ages in years of Joe’s party guests. The value 279417600 is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DPRODUCT(A1:E10; \"Възраст\"; A12:E13)</input> в празна клетка другаде в листа, за да изчислите произведението на възрастите в години на гостите на партито на Иван. Резултатът е 279417600."
 
 #. QGMit
 #: 04060101.xhp
@@ -5631,7 +5631,7 @@ msgctxt ""
 "bm_id3148462\n"
 "help.text"
 msgid "<bookmark_value>DSTDEV function</bookmark_value>    <bookmark_value>standard deviations in databases;based on a sample</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DSTDEV, функция</bookmark_value><bookmark_value>стандартно отклонение в база от данни;на извадка</bookmark_value>"
 
 #. EvGNP
 #: 04060101.xhp
@@ -5649,7 +5649,7 @@ msgctxt ""
 "par_id3154605\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBSTDABW\">DSTDEV calculates the sample standard deviation based on the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Non-numeric values are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBSTDABW\">DSTDEV изчислява стандартното отклонение на извадка на базата на числовите стойности в клетките (полетата) на указаната колона за всички редове (записи с данни), които отговарят на зададените критерии за търсене.</ahelp> Нечисловите стойности се игнорират."
 
 #. RACag
 #: 04060101.xhp
@@ -5658,7 +5658,7 @@ msgctxt ""
 "par_id121616181037440\n"
 "help.text"
 msgid "Returns a #NUM! error if exactly one record matches the specified search criteria, or if there is only one numeric value in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща грешка #NUM!, ако точно един запис отговаря на зададените критерии за търсене, или ако в клетките на съответстващите записи от указаната колона има само една числова стойност."
 
 #. r6onB
 #: 04060101.xhp
@@ -5667,7 +5667,7 @@ msgctxt ""
 "par_id931616181041535\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща 0, ако не са намерени съответствия, или ако в клетките на указаната колона няма числови стойности за съответстващите записи."
 
 #. GgdKD
 #: 04060101.xhp
@@ -5685,7 +5685,7 @@ msgctxt ""
 "par_id3149934\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:D13 are blank and that cell E13 contains \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:D13 са празни, а клетката E13 съдържа „>0“ (този критерий за търсене е предназначен да съответства на всички записи в базата от данни)."
 
 #. SXqfH
 #: 04060101.xhp
@@ -5694,7 +5694,7 @@ msgctxt ""
 "par_id3150630\n"
 "help.text"
 msgid "Insert the formula <input>=DSTDEV(A1:E10; \"Weight\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the sample standard deviation of the weights in kg of Joe’s party guests. The value 5.5 is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DSTDEV(A1:E10; \"Тегло\"; A12:E13)</input> в празна клетка другаде в листа, за да изчислите стандартното отклонение на теглата в килограми на гостите на партито на Иван. Резултатът е 5,5."
 
 #. A72yR
 #: 04060101.xhp
@@ -5703,7 +5703,7 @@ msgctxt ""
 "bm_id3150429\n"
 "help.text"
 msgid "<bookmark_value>DSTDEVP function</bookmark_value>    <bookmark_value>standard deviations in databases;based on populations</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DSTDEVP, функция</bookmark_value><bookmark_value>стандартно отклонение в база от данни;на популация</bookmark_value>"
 
 #. FpESx
 #: 04060101.xhp
@@ -5721,7 +5721,7 @@ msgctxt ""
 "par_id3145598\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBSTDABWN\">DSTDEVP calculates the population standard deviation based on the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Non-numeric values are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBSTDABWN\">DSTDEVP изчислява стандартното отклонение на популация на базата на числовите стойности в клетките (полетата) на указаната колона за всички редове (записи с данни), които отговарят на зададените критерии за търсене.</ahelp> Нечисловите стойности се игнорират."
 
 #. TjThw
 #: 04060101.xhp
@@ -5730,7 +5730,7 @@ msgctxt ""
 "par_id541616181205698\n"
 "help.text"
 msgid "Returns a #NUM! error if no records match the specified search criteria, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща грешка #NUM!, ако никой запис не отговаря на зададените критерии за търсене, или ако в клетките на съответстващите записи от указаната колона няма числови стойности."
 
 #. uGaWp
 #: 04060101.xhp
@@ -5748,7 +5748,7 @@ msgctxt ""
 "par_id3155431\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:D13 are blank and that cell E13 contains \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:D13 са празни, а клетката E13 съдържа „>0“ (този критерий за търсене е предназначен да съответства на всички записи в базата от данни)."
 
 #. 6eisL
 #: 04060101.xhp
@@ -5757,7 +5757,7 @@ msgctxt ""
 "par_id3148411\n"
 "help.text"
 msgid "Insert the formula <input>=DSTDEVP(A1:E10; \"Weight\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the population standard deviation of the weights in kg of Joe’s party guests. The value 5.18545 is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DSTDEVP(A1:E10; \"Тегло\"; A12:E13)</input> в празна клетка другаде в листа, за да изчислите стандартното отклонение на популация на теглата в килограми на гостите на партито на Иван. Резултатът е 5,18545."
 
 #. gXoTJ
 #: 04060101.xhp
@@ -5766,7 +5766,7 @@ msgctxt ""
 "bm_id3154794\n"
 "help.text"
 msgid "<bookmark_value>DSUM function</bookmark_value>    <bookmark_value>calculating;sums in Calc databases</bookmark_value>    <bookmark_value>sums;cells in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DSUM, функция</bookmark_value><bookmark_value>изчисляване;суми в бази от данни на Calc</bookmark_value><bookmark_value>суми;на клетки в бази от данни на Calc</bookmark_value>"
 
 #. ybMg9
 #: 04060101.xhp
@@ -5784,7 +5784,7 @@ msgctxt ""
 "par_id3149591\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBSUMME\">DSUM calculates the sum of all numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBSUMME\">DSUM изчислява сумата на всички числови стойности в клетките (полетата) на указаната колона за всички редове (записи с данни), които отговарят на зададените критерии за търсене.</ahelp> Празните клетки и клетките, съдържащи нечислови знаци, не се включват."
 
 #. PEAvG
 #: 04060101.xhp
@@ -5793,7 +5793,7 @@ msgctxt ""
 "par_id691616181332088\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща 0, ако не са намерени съответствия, или ако в клетките на указаната колона няма числови стойности за съответстващите записи."
 
 #. LD8jB
 #: 04060101.xhp
@@ -5811,7 +5811,7 @@ msgctxt ""
 "par_id3152766\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:E13 са празни, с изключение на клетката D13, която трябва да съдържа „>0“ (този критерий за търсене е предназначен да съответства на всички записи в базата от данни)."
 
 #. riVB4
 #: 04060101.xhp
@@ -5820,7 +5820,7 @@ msgctxt ""
 "par_id3151312\n"
 "help.text"
 msgid "Insert the formula <input>=DSUM(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the total distance in meters that all of Joe’s party guests travel to school. The value 6000 is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DSUM(A1:E10; \"Разстояние\"; A12:E13)</input> в празна клетка другаде в листа, за да намерите общото разстояние в метри, което всички гости на партито на Иван изминават до училище. Резултатът е 6000."
 
 #. fbsJf
 #: 04060101.xhp
@@ -5829,7 +5829,7 @@ msgctxt ""
 "bm_id3155614\n"
 "help.text"
 msgid "<bookmark_value>DVAR function</bookmark_value>    <bookmark_value>variances;based on samples</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DVAR, функция</bookmark_value><bookmark_value>дисперсия;на извадка</bookmark_value>"
 
 #. G6ZBW
 #: 04060101.xhp
@@ -5847,7 +5847,7 @@ msgctxt ""
 "par_id3154418\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBVARIANZ\">DVAR calculates the sample variance based on the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Non-numeric values are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBVARIANZ\">DVAR изчислява дисперсията на извадка на базата на числовите стойности в клетките (полетата) на указаната колона за всички редове (записи с данни), които отговарят на зададените критерии за търсене.</ahelp> Нечисловите стойности се игнорират."
 
 #. yytCQ
 #: 04060101.xhp
@@ -5856,7 +5856,7 @@ msgctxt ""
 "par_id301616181465164\n"
 "help.text"
 msgid "Returns a #NUM! error if exactly one record matches the specified search criteria, or if there is only one numeric value in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща грешка #NUM!, ако точно един запис отговаря на зададените критерии за търсене, или ако в клетките на съответстващите записи от указаната колона има само една числова стойност."
 
 #. gW4LZ
 #: 04060101.xhp
@@ -5865,7 +5865,7 @@ msgctxt ""
 "par_id741616181469136\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща 0, ако не са намерени съответствия, или ако в клетките на указаната колона няма числови стойности за съответстващите записи."
 
 #. hLSuf
 #: 04060101.xhp
@@ -5883,7 +5883,7 @@ msgctxt ""
 "par_id3153701\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:E13 са празни, с изключение на клетката D13, която трябва да съдържа „>0“ (този критерий за търсене е предназначен да съответства на всички записи в базата от данни)."
 
 #. bRDWF
 #: 04060101.xhp
@@ -5892,7 +5892,7 @@ msgctxt ""
 "par_id3153676\n"
 "help.text"
 msgid "Insert the formula <input>=DVAR(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the sample variance of the distances in meters that Joe’s party guests travel to school. The value 193125 is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DVAR(A1:E10; \"Разстояние\"; A12:E13)</input> в празна клетка другаде в листа, за да намерите дисперсията на извадка на разстоянията в метри, които гостите на партито на Иван изминават до училище. Резултатът е 193125."
 
 #. sGiDz
 #: 04060101.xhp
@@ -5901,7 +5901,7 @@ msgctxt ""
 "bm_id3153880\n"
 "help.text"
 msgid "<bookmark_value>DVARP function</bookmark_value>    <bookmark_value>variances;based on populations</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DVARP, функция</bookmark_value><bookmark_value>дисперсия;на популация</bookmark_value>"
 
 #. XpcPC
 #: 04060101.xhp
@@ -5919,7 +5919,7 @@ msgctxt ""
 "par_id3155119\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBVARIANZEN\">DVARP calculates the population variation based on the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Non-numeric values are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBVARIANZEN\">DVARP изчислява дисперсията на популация на базата на числовите стойности в клетките (полетата) на указаната колона за всички редове (записи с данни), които отговарят на зададените критерии за търсене.</ahelp> Нечисловите стойности се игнорират."
 
 #. ERRmG
 #: 04060101.xhp
@@ -5928,7 +5928,7 @@ msgctxt ""
 "par_id301616181648263\n"
 "help.text"
 msgid "Returns a #NUM! error if no records match the specified search criteria, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Връща грешка #NUM!, ако никой запис не отговаря на зададените критерии за търсене, или ако в клетките на съответстващите записи от указаната колона няма числови стойности."
 
 #. BygUf
 #: 04060101.xhp
@@ -5946,7 +5946,7 @@ msgctxt ""
 "par_id3147099\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Примерната таблица с данни за гостите на рождения ден на Иван (описана по-горе) трябва да заема клетките A1:E10. Съдържанието на клетките A12:E12 трябва да е идентично на заглавията от таблицата с данни в клетките A1:E1. Уверете се, че клетките A13:E13 са празни, с изключение на клетката D13, която трябва да съдържа „>0“ (този критерий за търсене е предназначен да съответства на всички записи в базата от данни)."
 
 #. 8puR2
 #: 04060101.xhp
@@ -5955,7 +5955,7 @@ msgctxt ""
 "par_id3147322\n"
 "help.text"
 msgid "Insert the formula <input>=DVARP(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the population variance of the distances in meters that Joe’s party guests travel to school. The value 171666.67 is returned."
-msgstr ""
+msgstr "Вмъкнете формулата <input>=DVARP(A1:E10; \"Разстояние\"; A12:E13)</input> в празна клетка другаде в листа, за да намерите дисперсията на популация на разстоянията в метри, които гостите на партито на Иван изминават до училище. Резултатът е 171666,67."
 
 #. n99gx
 #: 04060102.xhp
@@ -6324,7 +6324,7 @@ msgctxt ""
 "par_id851616615176815\n"
 "help.text"
 msgid "Beware that Basis 2 is not supported by Microsoft Excel. Hence, if you use Basis 2 and export your document to XLSX format, it will return an error when opened in Excel."
-msgstr ""
+msgstr "Имайте предвид, че основа 2 не се поддържа от Microsoft Excel. Ако използвате основа 2 и експортирате документа във формат XLSX, това ще предизвика грешка при отваряне в Excel."
 
 #. UCPgp
 #: 04060103.xhp
