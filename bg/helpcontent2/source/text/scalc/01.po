@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-04-12 12:06+0200\n"
-"PO-Revision-Date: 2021-04-18 08:37+0000\n"
+"PO-Revision-Date: 2021-04-19 11:37+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/bg/>\n"
 "Language: bg\n"
@@ -8250,7 +8250,7 @@ msgctxt ""
 "par_id3150024\n"
 "help.text"
 msgid "<item type=\"input\">x value</item>"
-msgstr ""
+msgstr "<item type=\"input\">Стойност на x</item>"
 
 #. AGBFY
 #: 04060104.xhp
@@ -8259,7 +8259,7 @@ msgctxt ""
 "par_id3148725\n"
 "help.text"
 msgid "<item type=\"input\">y value</item>"
-msgstr ""
+msgstr "<item type=\"input\">Стойност на y</item>"
 
 #. uEBVE
 #: 04060104.xhp
@@ -21057,7 +21057,7 @@ msgctxt ""
 "par_id641617285271044\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_FEST\">Returns a number as text with a specified number of decimal places and optional thousands separators.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_FEST\">Връща число като текст със зададен брой десетични позиции и – по желание – с разделители на хилядите.</ahelp>"
 
 #. vGkWA
 #: 04060110.xhp
@@ -21066,7 +21066,7 @@ msgctxt ""
 "par_id3147567\n"
 "help.text"
 msgid "FIXED(Number; [Decimals = 2 [; NoThousandsSeparators = FALSE]])"
-msgstr ""
+msgstr "FIXED(Число; [ДробниПозиции = 2 [; БезРазделителНаХилядите = FALSE]])"
 
 #. Lu9oq
 #: 04060110.xhp
@@ -21075,7 +21075,7 @@ msgctxt ""
 "par_id3151272\n"
 "help.text"
 msgid "<emph>Number</emph> is rounded to <literal>Decimals</literal> places (after the decimal separator) and the result formatted as text, using <link href=\"text/shared/optionen/01140000.xhp\" name=\"current locale setting\">locale-specific settings</link>."
-msgstr ""
+msgstr "<emph>Число</emph> се закръглява до <literal>ДробниПозиции</literal> разреда (след десетичния разделител) и резултатът се форматира като текст съобразно <link href=\"text/shared/optionen/01140000.xhp\" name=\"current locale setting\">настройките за конкретния локал</link>."
 
 #. 5zSz5
 #: 04060110.xhp
@@ -21084,7 +21084,7 @@ msgctxt ""
 "par_id3156322\n"
 "help.text"
 msgid "<emph>Decimals</emph> (optional) refers to the number of decimal places to be displayed. If <literal>Decimals</literal> is negative, <literal>Number</literal> is rounded to ABS(<literal>Decimals</literal>) places to the left from the decimal point. If <literal>Decimals</literal> is a fraction, it is truncated actually ignoring what is the closest integer."
-msgstr ""
+msgstr "<emph>ДробниПозиции</emph> (незадължителен) задава броя на показваните дробни разреди. Ако <literal>ДробниПозиции</literal> е отрицателен, <literal>Число</literal> се закръглява до ABS(<literal>ДробниПозиции</literal>) разреда вляво от десетичната запетая. Ако <literal>ДробниПозиции</literal> е дроб, дробната му част се премахва, без значение кое е най-близкото цяло число."
 
 #. MccEk
 #: 04060110.xhp
@@ -21093,7 +21093,7 @@ msgctxt ""
 "par_id3150877\n"
 "help.text"
 msgid "<emph>NoThousandsSeparators</emph> (optional) determines whether the thousands separator is used.  If it is <literal>TRUE</literal> or non-zero, then group separators are omitted from the resulting string. If the parameter is equal to 0 or if it is missing altogether, the thousands separators of your <link href=\"text/shared/optionen/01140000.xhp\" name=\"current locale setting\">current locale setting</link> are displayed."
-msgstr ""
+msgstr "<emph>БезРазделителНаХилядите</emph> (незадължителен) определя дали да се използва разделител на хилядите. Ако е <literal>TRUE</literal> или ненулев, разделителите на групи се пропускат в низа резултат. Ако параметърът е равен на 0 или липсва, се използва разделителят на хилядите, зададен в <link href=\"text/shared/optionen/01140000.xhp\" name=\"current locale setting\">текущата настройка за локал</link>."
 
 #. nDs7Q
 #: 04060110.xhp
@@ -21111,7 +21111,7 @@ msgctxt ""
 "par_id5282143\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(123456.789;;TRUE)</item> returns 123456.79 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(123456,789;;TRUE)</item> връща 123456,79 като текстов низ."
 
 #. U8QaS
 #: 04060110.xhp
@@ -21120,7 +21120,7 @@ msgctxt ""
 "par_id21617202293406\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12345.6789;-2)</item> returns 12,300 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12345,6789;-2)</item> връща 12 300 като текстов низ."
 
 #. iqSth
 #: 04060110.xhp
@@ -21129,7 +21129,7 @@ msgctxt ""
 "par_id161617202295558\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12134567.89;-3;1)</item> returns 12135000 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12134567,89;-3;1)</item> връща 12135000 като текстов низ."
 
 #. NmXWD
 #: 04060110.xhp
@@ -21138,7 +21138,7 @@ msgctxt ""
 "par_id451617286696878\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12345.789;3/4)</item> returns 12,346 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12345,789;3/4)</item> връща 12 346 като текстов низ."
 
 #. wHPtQ
 #: 04060110.xhp
@@ -21147,7 +21147,7 @@ msgctxt ""
 "par_id371617286698199\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12345.789,8/5)</item> returns 12,345.8 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12345,789;8/5)</item> връща 12 345,8 като текстов низ."
 
 #. zxsGX
 #: 04060110.xhp
@@ -53376,7 +53376,7 @@ msgctxt ""
 "par_id101607384677959\n"
 "help.text"
 msgid "Only allow values that result in the formula entered in the <emph>Formula</emph> box to return <literal>TRUE</literal>, when the formula is calculated with the entered value. The formula can be any expression that evaluates to a boolean value of <literal>TRUE</literal> or <literal>FALSE</literal>, or returns a numerical value, where a nonzero value is interpreted as <literal>TRUE</literal> and <literal>0</literal> is interpreted as <literal>FALSE</literal>."
-msgstr ""
+msgstr "Позволени са само стойности, за които формулата, въведена в полето <emph>Формула</emph>, връща <literal>TRUE</literal> при изчисляването ѝ с въведената стойност. Формулата може да представлява произволен израз, който се оценява на логическа стойност <literal>TRUE</literal> или <literal>FALSE</literal> или връща числова стойност, при което ненулева стойност се интерпретира като <literal>TRUE</literal>, а <literal>0</literal> – като <literal>FALSE</literal>."
 
 #. LhCDS
 #: 12120100.xhp
@@ -53385,7 +53385,7 @@ msgctxt ""
 "par_id461607565255803\n"
 "help.text"
 msgid "Formulas can use relative referencing. For example, if cells <literal>A1:A4</literal> were selected, the cursor is in cell <literal>A1</literal> and <input>ISODD(A1)</input> is entered into the <emph>Formula</emph> box, then only odd numbers could be entered into cells <literal>A1</literal> through <literal>A4</literal>."
-msgstr ""
+msgstr "Формулите могат да използват относителни обръщения. Например, ако са избрани клетките <literal>A1:A4</literal>, курсорът е в клетката <literal>A1</literal> и <input>ISODD(A1)</input> е въведено в полето <emph>Формула</emph>, тогава в клетките от <literal>A1</literal> до <literal>A4</literal> ще могат да се въвеждат само нечетни числа."
 
 #. apG3s
 #: 12120100.xhp
@@ -53421,7 +53421,7 @@ msgctxt ""
 "par_idN1070D\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Shows a list of all valid strings or values to select from. The list can also be opened by selecting the cell and pressing <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command+D</keycode></caseinline><defaultinline><keycode>Ctrl+D</keycode></defaultinline></switchinline>.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Ще се показва списък на всички валидни текстове или числа, между които може да се избира. Списъкът може да бъде отворен и чрез избиране на клетката и натискане на <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command+D</keycode></caseinline><defaultinline><keycode>Ctrl+D</keycode></defaultinline></switchinline>.</ahelp>"
 
 #. AuAaR
 #: 12120100.xhp
@@ -53493,7 +53493,7 @@ msgctxt ""
 "par_id3144502\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/data\">Select the comparative operator that you want to use.</ahelp> The available operators depend on what you selected in the <emph>Allow </emph>box. If you select \"between\" or \"not between\", the <emph>Minimum</emph> and <emph>Maximum</emph> input boxes appear. Otherwise, only the <emph>Minimum</emph>, the <emph>Maximum</emph>, or the <emph>Value</emph> input boxes appear."
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/data\">Изберете желаната операция за сравнение.</ahelp> Наличните операции зависят от избора ви в полето <emph>Разрешени</emph>. Ако изберете „между“ или „не между“, се показват входните полета <emph>Минимум</emph> и <emph>Максимум</emph>. Иначе се вижда само полето <emph>Минимум</emph>, <emph>Максимум</emph> или <emph>Стойност</emph>."
 
 #. DTzua
 #: 12120100.xhp
@@ -53907,7 +53907,7 @@ msgctxt ""
 "par_id301616845402409\n"
 "help.text"
 msgid "This function ignores any text or empty cell within a data range. If you suspect wrong results from this function, look for text in the data ranges. To highlight text contents in a data range, use the <link href=\"text/scalc/01/03080000.xhp\" name=\"value highlight\">value highlighting</link> feature."
-msgstr ""
+msgstr "Тази функция игнорира текстовете и празните клетки в диапазон с данни. Ако подозирате, че резултатът ѝ е погрешен, потърсете текст в диапазоните с данни. За да осветите текстовото съдържание в диапазон с данни, използвайте функционалността за <link href=\"text/scalc/01/03080000.xhp\" name=\"value highlight\">осветяване на стойности</link>."
 
 #. GAPGX
 #: common_func_workdaysintl.xhp
@@ -54393,7 +54393,7 @@ msgctxt ""
 "Databar-Moreoptions\n"
 "help.text"
 msgid "Databar More Options"
-msgstr ""
+msgstr "Лента за данни – още настройки"
 
 #. 6Mf5d
 #: databar_more_options.xhp
@@ -54402,7 +54402,7 @@ msgctxt ""
 "bm_id651610566601713\n"
 "help.text"
 msgid "<bookmark_value>conditional formatting;data bar options</bookmark_value><bookmark_value>data bar formatting;data bar options</bookmark_value><bookmark_value>data bar options;conditional formatting</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>условно форматиране;настройки на лента за данни</bookmark_value><bookmark_value>лента за данни, форматиране;настройки на лента за данни</bookmark_value><bookmark_value>настройки на лента за данни;условно форматиране</bookmark_value>"
 
 #. RYVeJ
 #: databar_more_options.xhp
@@ -54411,7 +54411,7 @@ msgctxt ""
 "hd_id631610470827523\n"
 "help.text"
 msgid "<variable id=\"databaroptions\"><link href=\"/text/scalc/01/databar_more_options.xhp\" name=\"More Options for Databar\">Databar More Options</link></variable>"
-msgstr ""
+msgstr "<variable id=\"databaroptions\"><link href=\"/text/scalc/01/databar_more_options.xhp\" name=\"More Options for Databar\">Лента за данни – още настройки</link></variable>"
 
 #. PDdJA
 #: databar_more_options.xhp
@@ -54420,7 +54420,7 @@ msgctxt ""
 "hd_id531610472930609\n"
 "help.text"
 msgid "Entry Values"
-msgstr ""
+msgstr "Входни стойности"
 
 #. gUW4X
 #: databar_more_options.xhp
@@ -54429,7 +54429,7 @@ msgctxt ""
 "hd_id661610569199542\n"
 "help.text"
 msgid "Minimum:"
-msgstr ""
+msgstr "Минимум:"
 
 #. AxvHB
 #: databar_more_options.xhp
@@ -54438,7 +54438,7 @@ msgctxt ""
 "par_id861610473146895\n"
 "help.text"
 msgid "Set the minimum value for which the data bar does not start filling."
-msgstr ""
+msgstr "Задава минималната стойност, за която лентата за данни не започва да се запълва."
 
 #. FjNLX
 #: databar_more_options.xhp
@@ -54447,7 +54447,7 @@ msgctxt ""
 "hd_id501610569361264\n"
 "help.text"
 msgid "Maximum:"
-msgstr ""
+msgstr "Максимум:"
 
 #. mCsBS
 #: databar_more_options.xhp
@@ -54456,7 +54456,7 @@ msgctxt ""
 "par_id461610473163880\n"
 "help.text"
 msgid "Set the maximum value for which the data bar gets completely filled."
-msgstr ""
+msgstr "Задава максималната стойност, за която лентата за данни се запълва изцяло."
 
 #. ePnFB
 #: databar_more_options.xhp
@@ -54465,7 +54465,7 @@ msgctxt ""
 "par_id791610556114310\n"
 "help.text"
 msgid "The options for setting the minimum and maximum values are:"
-msgstr ""
+msgstr "Възможностите за задаване на минималната и максималната стойност са:"
 
 #. gBHrw
 #: databar_more_options.xhp
@@ -54474,7 +54474,7 @@ msgctxt ""
 "par_id621610556164264\n"
 "help.text"
 msgid "<emph>Automatic:</emph> Automatically sets the minimum and maximum value based on the values in the data set."
-msgstr ""
+msgstr "<emph>Автоматично:</emph> минималната и максималната стойност се задават автоматично според стойностите в набора от данни."
 
 #. ajaES
 #: databar_more_options.xhp
@@ -54483,7 +54483,7 @@ msgctxt ""
 "par_id591610556220990\n"
 "help.text"
 msgid "<emph>Minimum:</emph> Automatically sets the minimum value in the data set as minimum."
-msgstr ""
+msgstr "<emph>Минимум:</emph> автоматично задава минималната стойност в набора от данни като минимум."
 
 #. QRiYs
 #: databar_more_options.xhp
@@ -54492,7 +54492,7 @@ msgctxt ""
 "par_id951610556245716\n"
 "help.text"
 msgid "<emph>Maximum:</emph> Automatically sets the maximum value in the data set for maximum."
-msgstr ""
+msgstr "<emph>Максимум:</emph> автоматично задава максималната стойност в набора от данни като максимум."
 
 #. Rv45U
 #: databar_more_options.xhp
@@ -54501,7 +54501,7 @@ msgctxt ""
 "par_id901610556259738\n"
 "help.text"
 msgid "<emph>Percentile:</emph> Set the minimum and maximum as percentile value."
-msgstr ""
+msgstr "<emph>Процентил:</emph> минимумът и максимумът се задават като процентил."
 
 #. dPLJt
 #: databar_more_options.xhp
@@ -54510,7 +54510,7 @@ msgctxt ""
 "par_id621610556295743\n"
 "help.text"
 msgid "<emph>Value:</emph> Set the minimum and maximum as a specific value."
-msgstr ""
+msgstr "<emph>Стойност:</emph> минимумът и максимумът се задават с конкретна стойност."
 
 #. Xo6Dm
 #: databar_more_options.xhp
@@ -54519,7 +54519,7 @@ msgctxt ""
 "par_id331610556326466\n"
 "help.text"
 msgid "<emph>Formula:</emph> Set the minimum and maximum as a formula."
-msgstr ""
+msgstr "<emph>Формула:</emph> минимумът и максимумът се задават с формула."
 
 #. dtrcK
 #: databar_more_options.xhp
@@ -54528,7 +54528,7 @@ msgctxt ""
 "hd_id551610558198954\n"
 "help.text"
 msgid "Bar Colors"
-msgstr ""
+msgstr "Цветове на лентите"
 
 #. brFRN
 #: databar_more_options.xhp
@@ -54537,7 +54537,7 @@ msgctxt ""
 "hd_id391610569504555\n"
 "help.text"
 msgid "Positive:"
-msgstr ""
+msgstr "Положителни:"
 
 #. AYuC9
 #: databar_more_options.xhp
@@ -54546,7 +54546,7 @@ msgctxt ""
 "par_id611610558381528\n"
 "help.text"
 msgid "Set the color for positive values. It is set to blue be default."
-msgstr ""
+msgstr "Задайте цвета за положителни стойности. Подразбира се синьо."
 
 #. EHFuG
 #: databar_more_options.xhp
@@ -54555,7 +54555,7 @@ msgctxt ""
 "hd_id161610569508370\n"
 "help.text"
 msgid "Negative:"
-msgstr ""
+msgstr "Отрицателни:"
 
 #. DqVgR
 #: databar_more_options.xhp
@@ -54564,7 +54564,7 @@ msgctxt ""
 "par_id451610558525398\n"
 "help.text"
 msgid "Set the color for negative values. It is set to red by default."
-msgstr ""
+msgstr "Задайте цвета за отрицателни стойности. Подразбира се червено."
 
 #. Eci5i
 #: databar_more_options.xhp
@@ -54573,7 +54573,7 @@ msgctxt ""
 "hd_id261610569510818\n"
 "help.text"
 msgid "Fill:"
-msgstr ""
+msgstr "Запълване:"
 
 #. GRWdV
 #: databar_more_options.xhp
@@ -54582,7 +54582,7 @@ msgctxt ""
 "par_id221610558585001\n"
 "help.text"
 msgid "Choose between color and gradient for the fill."
-msgstr ""
+msgstr "Изберете между запълване с цвят и запълване с градиент."
 
 #. oQVLz
 #: databar_more_options.xhp
@@ -54591,7 +54591,7 @@ msgctxt ""
 "hd_id711610558701623\n"
 "help.text"
 msgid "Axis"
-msgstr ""
+msgstr "Ос"
 
 #. F9wz2
 #: databar_more_options.xhp
@@ -54600,7 +54600,7 @@ msgctxt ""
 "hd_id731610569777368\n"
 "help.text"
 msgid "Position of vertical axis:"
-msgstr ""
+msgstr "Позиция на вертикалната ос:"
 
 #. jrmur
 #: databar_more_options.xhp
@@ -54609,7 +54609,7 @@ msgctxt ""
 "par_id901610558734975\n"
 "help.text"
 msgid "Set the position of vertical axis in the cell."
-msgstr ""
+msgstr "Задайте позицията на вертикалната ос в клетката."
 
 #. GCTov
 #: databar_more_options.xhp
@@ -54618,7 +54618,7 @@ msgctxt ""
 "par_id591610558837411\n"
 "help.text"
 msgid "<emph>Automatic:</emph> Set the axis automatically"
-msgstr ""
+msgstr "<emph>Автоматично:</emph> автоматично позициониране на оста"
 
 #. VMCSd
 #: databar_more_options.xhp
@@ -54627,7 +54627,7 @@ msgctxt ""
 "par_id991610558892435\n"
 "help.text"
 msgid "<emph>Middle:</emph> Set the vertical position to be in the middle of the cell."
-msgstr ""
+msgstr "<emph>В средата:</emph> оста е в средата на клетката."
 
 #. 6ketG
 #: databar_more_options.xhp
@@ -54636,7 +54636,7 @@ msgctxt ""
 "par_id971610558965550\n"
 "help.text"
 msgid "<emph>None:</emph> Set the data bar to have no visible vertical axis"
-msgstr ""
+msgstr "<emph>Няма:</emph> лентата за данни няма видима вертикална ос."
 
 #. Up8nD
 #: databar_more_options.xhp
@@ -54645,7 +54645,7 @@ msgctxt ""
 "hd_id591610569865757\n"
 "help.text"
 msgid "Color of vertical axis:"
-msgstr ""
+msgstr "Цвят на вертикалната ос:"
 
 #. 2cZEy
 #: databar_more_options.xhp
@@ -54654,7 +54654,7 @@ msgctxt ""
 "par_id601610560622213\n"
 "help.text"
 msgid "Choose the color of the vertical axis."
-msgstr ""
+msgstr "Изберете цвета на вертикалната ос."
 
 #. CTJaw
 #: databar_more_options.xhp
@@ -54663,7 +54663,7 @@ msgctxt ""
 "hd_id631610560675220\n"
 "help.text"
 msgid "Bar Lengths"
-msgstr ""
+msgstr "Дължина на лентите"
 
 #. V2bCh
 #: databar_more_options.xhp
@@ -54672,7 +54672,7 @@ msgctxt ""
 "hd_id651610569932338\n"
 "help.text"
 msgid "Minimum bar length (%):"
-msgstr ""
+msgstr "Минимална дължина (%):"
 
 #. 9HmjS
 #: databar_more_options.xhp
@@ -54681,7 +54681,7 @@ msgctxt ""
 "par_id381610560706116\n"
 "help.text"
 msgid "Set the minimum length of the data bar in percentage with respect to the cell length."
-msgstr ""
+msgstr "Задайте минималната дължина на лентата за данни в проценти от дължината на клетката."
 
 #. zvuC5
 #: databar_more_options.xhp
@@ -54690,7 +54690,7 @@ msgctxt ""
 "hd_id151610569983195\n"
 "help.text"
 msgid "Maximum bar length (%):"
-msgstr ""
+msgstr "Максимална дължина (%):"
 
 #. ZwUDq
 #: databar_more_options.xhp
@@ -54699,7 +54699,7 @@ msgctxt ""
 "par_id511610560783506\n"
 "help.text"
 msgid "Set the maximum length of the data bar in percentage with respect to the cell length."
-msgstr ""
+msgstr "Задайте максималната дължина на лентата за данни в проценти от дължината на клетката."
 
 #. 5eqMJ
 #: databar_more_options.xhp
@@ -54708,7 +54708,7 @@ msgctxt ""
 "hd_id821610560955981\n"
 "help.text"
 msgid "Display bar only"
-msgstr ""
+msgstr "Показване само на лента"
 
 #. qxGGB
 #: databar_more_options.xhp
@@ -54717,7 +54717,7 @@ msgctxt ""
 "par_id501610560981306\n"
 "help.text"
 msgid "Only databar is shown. Value becomes hidden."
-msgstr ""
+msgstr "Показва се само лента за данни. Стойността остава скрита."
 
 #. UiW5C
 #: ex_data_stat_func.xhp
@@ -60450,7 +60450,7 @@ msgctxt ""
 "par_id311713256011430\n"
 "help.text"
 msgid "<image src=\"media/helpimg/scalc/IMCOT_equation.svg\" id=\"img_id211575078735993\" width=\"341.869px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMCOT equation</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/scalc/IMCOT_equation.svg\" id=\"img_id211575078735993\" width=\"341.869px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMCOT, уравнение</alt></image>"
 
 #. z7EtV
 #: func_imcot.xhp
@@ -60531,7 +60531,7 @@ msgctxt ""
 "par_id13510198901485\n"
 "help.text"
 msgid "<image src=\"media/helpimg/scalc/IMCSC_equation.svg\" id=\"img_id211575078735993\" width=\"491.844px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMCSC equation</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/scalc/IMCSC_equation.svg\" id=\"img_id211575078735993\" width=\"491.844px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMCSC, уравнение</alt></image>"
 
 #. jBzZA
 #: func_imcsc.xhp
@@ -60612,7 +60612,7 @@ msgctxt ""
 "par_id195151657917534\n"
 "help.text"
 msgid "<image src=\"media/helpimg/scalc/IMCSCH_equation.svg\" id=\"img_id211575078735993\" width=\"504.344px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMCSCH equation</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/scalc/IMCSCH_equation.svg\" id=\"img_id211575078735993\" width=\"504.344px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMCSCH, уравнение</alt></image>"
 
 #. ndjhY
 #: func_imcsch.xhp
@@ -60693,7 +60693,7 @@ msgctxt ""
 "par_id17543461310594\n"
 "help.text"
 msgid "<image src=\"media/helpimg/scalc/IMSEC_equation.svg\" id=\"img_id211575078735993\" width=\"491.194px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMSEC equation</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/scalc/IMSEC_equation.svg\" id=\"img_id211575078735993\" width=\"491.194px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMSEC, уравнение</alt></image>"
 
 #. CEucF
 #: func_imsec.xhp
@@ -60774,7 +60774,7 @@ msgctxt ""
 "par_id74572850718840\n"
 "help.text"
 msgid "<image src=\"media/helpimg/scalc/IMSECH_equation.svg\" id=\"img_id211575078735993\" width=\"503.694px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMSECH equation</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/scalc/IMSECH_equation.svg\" id=\"img_id211575078735993\" width=\"503.694px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMSECH, уравнение</alt></image>"
 
 #. Rqker
 #: func_imsech.xhp
@@ -61017,7 +61017,7 @@ msgctxt ""
 "par_id25021317131239\n"
 "help.text"
 msgid "<image src=\"media/helpimg/scalc/IMTAN_equation.svg\" id=\"img_id211575078735993\" width=\"353.294px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMTAN equation</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/scalc/IMTAN_equation.svg\" id=\"img_id211575078735993\" width=\"353.294px\" height=\"59.5625px\"><alt id=\"alt_id401575078735994\">IMTAN, уравнение</alt></image>"
 
 #. 7QtEG
 #: func_imtan.xhp
@@ -61440,7 +61440,7 @@ msgctxt ""
 "par_id27619246864839\n"
 "help.text"
 msgid "Calculates the minimum of values of the range C2:C6 that correspond to all values of the range B2:B6 except its minimum and maximum. Returns 65."
-msgstr ""
+msgstr "Изчислява минимума на стойностите от диапазона C2:C6, които съответстват на всички стойности от диапазона B2:B6, освен минималната и максималната. Връща 65."
 
 #. 7S443
 #: func_minifs.xhp
@@ -61449,7 +61449,7 @@ msgctxt ""
 "par_id220502883332563\n"
 "help.text"
 msgid "<item type=\"input\">=MINIFS(C2:C6;A2:A6;\".*book\";B2:B6;\">\"&MIN(B2:B6))</item>"
-msgstr ""
+msgstr "<item type=\"input\">=MINIFS(C2:C6;A2:A6;\".*ели\";B2:B6;\">\"&MIN(B2:B6))</item>"
 
 #. gNhzJ
 #: func_minifs.xhp
@@ -61458,7 +61458,7 @@ msgctxt ""
 "par_id15342189586295\n"
 "help.text"
 msgid "Calculates the minimum of values of the range C2:C6 that correspond to all cells of the A2:A6 range ending with \"book\" and to all cells of the B2:B6 range except its minimum. Returns 190."
-msgstr ""
+msgstr "Изчислява минимума на стойностите от диапазона C2:C6, които съответстват на всички клетки от диапазона A2:A6, завършващи с „ели“, и на всички стойности от диапазона B2:B6 освен минималната. Връща 190."
 
 #. uz4wr
 #: func_minifs.xhp
@@ -63294,7 +63294,7 @@ msgctxt ""
 "par_id1102201617001888\n"
 "help.text"
 msgid "<input>SKEWP(2;3;1;6;8;5)</input> returns 0.2329985562"
-msgstr ""
+msgstr "<input>SKEWP(2;3;1;6;8;5)</input> връща 0,2329985562."
 
 #. TAGzC
 #: func_skewp.xhp
@@ -63303,7 +63303,7 @@ msgctxt ""
 "par_id1102201618185378\n"
 "help.text"
 msgid "<input>SKEWP(A1:A6)</input> returns 0.2329985562, when the range A1:A6 contains {2;3;1;6;8;5}"
-msgstr ""
+msgstr "<input>SKEWP(A1:A6)</input> връща 0,2329985562, когато диапазонът A1:A6 съдържа {2;3;1;6;8;5}."
 
 #. 5iYyJ
 #: func_skewp.xhp
@@ -63726,7 +63726,7 @@ msgctxt ""
 "par_id441556229012536\n"
 "help.text"
 msgid "<input>=TEXTJOIN(\" \"; 1; \"Here\"; \"comes\"; \"the\"; \"sun\")</input> returns \"Here comes the sun\" with space character as delimiter and empty strings are ignored."
-msgstr ""
+msgstr "<input>=TEXTJOIN(\" \"; 1; \"Слънцето\"; \"изгрява\"; \"от\"; \"изток\")</input> връща \"Слънцето изгрява от изток\" със знак за интервал като разделител, като празните низове се игнорират."
 
 #. 39FPP
 #: func_textjoin.xhp
@@ -63735,7 +63735,7 @@ msgctxt ""
 "par_id441556239012536\n"
 "help.text"
 msgid "if A1:B2 contains \"Here\", \"comes\", \"the\", \"sun\" respectively, <input>=TEXTJOIN(\"-\";1;A1:B2)</input> returns \"Here-comes-the-sun\" with dash character as delimiter and empty strings are ignored."
-msgstr ""
+msgstr "Ако A1:B2 съдържа съответно \"Слънцето\", \"изгрява\", \"от\" и \"изток\", <input>=TEXTJOIN(\"-\";1;A1:B2)</input> връща \"Слънцето-изгрява-от-изток\" с разделител дефис, като празните низове се игнорират."
 
 #. AXCJg
 #: func_textjoin.xhp
