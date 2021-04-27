@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-29 16:02+0200\n"
+"POT-Creation-Date: 2021-04-27 17:02+0200\n"
 "PO-Revision-Date: 2021-04-18 08:37+0000\n"
 "Last-Translator: SteenRønnow <steen.roennow@mail.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textshared00/da/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1563711617.000000\n"
 
 #. 3B8ZN
@@ -2250,23 +2250,32 @@ msgctxt ""
 msgid "Direct and Style Formatting"
 msgstr "Direkte formatering og typografiformatering"
 
-#. MxsZg
+#. DCSZA
+#: 00000005.xhp
+msgctxt ""
+"00000005.xhp\n"
+"par_id431619103899855\n"
+"help.text"
+msgid "A style is a set of formatting atributes, grouped and identified by a name (the style name). When you apply a style to an object, the object is formatted with the set of attributes of the style. Several objects of same nature can have the same style. As consequence, when you change the set of formatting attributes of the style, all objects associated with the style also change their formatting attributes accordingly. Use styles to uniformly format a large set of paragraphs, cells, and objects and better manage the formatting of documents."
+msgstr ""
+
+#. GDMrG
 #: 00000005.xhp
 msgctxt ""
 "00000005.xhp\n"
 "par_id3159254\n"
 "help.text"
-msgid "If you format a document without Styles, it is referred to as \"direct\" formatting. This means modifying text or other objects, such as frames or tables, by applying various attributes directly. The format applies only to the selected area and all changes must be made separately. Styles, on the other hand, are not applied to the text directly, but rather are defined in the Styles window and then applied. One advantage is that when you change a Style, all parts of the document to which that Style is assigned are modified at the same time."
-msgstr "Hvis du formaterer et dokument uden typografier, refereres dette som \"direkte\" formatering. Det betyder, at man retter i teksten eller andre objekter, såsom rammer eller tabeller, direkte - ved at anvende forskellige attributter direkte. Formatet anvendes kun til det valgte område, og alle ændringer skal laves separat. Typografier anvendes på den anden side ikke direkte på teksten, men er i stedet defineret i vinduet Typografier og formatering og så anvendt. En fordel er, at når du ændrer en typografi, vil alle dele af dokumentet, som er tildelt denne typografi, blive modificeret samtidigt."
+msgid "When you do not use styles, and apply formatting attributes to parts of text directly, this is called Direct formatting (also called manual formatting). The formatting is applied only to the selected area of the document. If the document has several paragraphs, frames, or any other object, you apply direct formatting on each object. Direct formatting is available with the Format menu and with the Formatting toolbar."
+msgstr ""
 
-#. QTCDE
+#. KeiAC
 #: 00000005.xhp
 msgctxt ""
 "00000005.xhp\n"
-"par_id3147287\n"
+"par_id971619105747398\n"
 "help.text"
-msgid "You can remove direct formatting from your document by selecting the entire text with the shortcut keys <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+A</keycode> and then choosing <menuitem>Format - Clear Direct Formatting</menuitem>."
-msgstr "Du kan fjerne direkte formatering fra dit dokument ved at markere hele teksten med genvejstasterne <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+A</keycode> og så vælge <menuitem>Formater - Ryd direkte formatering</menuitem>."
+msgid "A direct formatting attribute applied on a object overrides the corresponding attribute of the style applied to the object."
+msgstr ""
 
 #. aUcVk
 #: 00000005.xhp
@@ -14992,6 +15001,20 @@ msgctxt ""
 "help.text"
 msgid "<variable id=\"pasteunformatted\">    <switchinline select=\"sys\">      <caseinline select=\"MAC\"><keycode>Command+Option+Shift+V</keycode></caseinline>      <defaultinline><keycode>Crtl+Alt+Shift+V</keycode></defaultinline>     </switchinline>  </variable>"
 msgstr "<variable id=\"pasteunformatted\">    <switchinline select=\"sys\">      <caseinline select=\"MAC\"><keycode>Kommando+Alternativ+Skift+V</keycode></caseinline>      <defaultinline><keycode>Crtl+Alt+Skift+V</keycode></defaultinline>     </switchinline>  </variable>"
+
+#~ msgctxt ""
+#~ "00000005.xhp\n"
+#~ "par_id3159254\n"
+#~ "help.text"
+#~ msgid "If you format a document without Styles, it is referred to as \"direct\" formatting. This means modifying text or other objects, such as frames or tables, by applying various attributes directly. The format applies only to the selected area and all changes must be made separately. Styles, on the other hand, are not applied to the text directly, but rather are defined in the Styles window and then applied. One advantage is that when you change a Style, all parts of the document to which that Style is assigned are modified at the same time."
+#~ msgstr "Hvis du formaterer et dokument uden typografier, refereres dette som \"direkte\" formatering. Det betyder, at man retter i teksten eller andre objekter, såsom rammer eller tabeller, direkte - ved at anvende forskellige attributter direkte. Formatet anvendes kun til det valgte område, og alle ændringer skal laves separat. Typografier anvendes på den anden side ikke direkte på teksten, men er i stedet defineret i vinduet Typografier og formatering og så anvendt. En fordel er, at når du ændrer en typografi, vil alle dele af dokumentet, som er tildelt denne typografi, blive modificeret samtidigt."
+
+#~ msgctxt ""
+#~ "00000005.xhp\n"
+#~ "par_id3147287\n"
+#~ "help.text"
+#~ msgid "You can remove direct formatting from your document by selecting the entire text with the shortcut keys <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+A</keycode> and then choosing <menuitem>Format - Clear Direct Formatting</menuitem>."
+#~ msgstr "Du kan fjerne direkte formatering fra dit dokument ved at markere hele teksten med genvejstasterne <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline><keycode>+A</keycode> og så vælge <menuitem>Formater - Ryd direkte formatering</menuitem>."
 
 #~ msgctxt ""
 #~ "00040500.xhp\n"
