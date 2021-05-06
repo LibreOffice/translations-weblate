@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2019-07-11 18:38+0200\n"
-"PO-Revision-Date: 2021-04-29 20:37+0000\n"
+"PO-Revision-Date: 2021-05-06 22:49+0000\n"
 "Last-Translator: Karl Morten Ramberg <karl.m.ramberg@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://translations.documentfoundation.org/projects/libo_help-6-3/textsbasicpython/nb_NO/>\n"
 "Language: nb\n"
@@ -374,7 +374,7 @@ msgctxt ""
 "N0580\n"
 "help.text"
 msgid "def sleep(self, *args):  # OnUnload at the latest (optional)"
-msgstr ""
+msgstr "def sov (selv, * args): # OnUnload senest (valgfritt)"
 
 #. QiSAD
 #: python_document_events.xhp
@@ -383,7 +383,7 @@ msgctxt ""
 "N0581\n"
 "help.text"
 msgid "\"\"\" Stop doc. events monitoring \"\"\""
-msgstr ""
+msgstr "\"\" \"Stopp dok. Hendelsesovervåking\" \"\""
 
 #. TyiYD
 #: python_document_events.xhp
@@ -392,7 +392,7 @@ msgctxt ""
 "N0583\n"
 "help.text"
 msgid "Console.log(\"INFO\", \"Document events have been logged\", True)"
-msgstr ""
+msgstr "Konsoll.log (\"INFO\", \"Dokumenthendelser er logget\", Sant)"
 
 #. utJGT
 #: python_document_events.xhp
@@ -401,7 +401,7 @@ msgctxt ""
 "N0587\n"
 "help.text"
 msgid "\"\"\" Intercepts all doc. events \"\"\""
-msgstr ""
+msgstr "\"\" \"Oppfanger alle dok. Hendelser\" \"\""
 
 #. Xwnsi
 #: python_document_events.xhp
@@ -410,7 +410,7 @@ msgctxt ""
 "N0588\n"
 "help.text"
 msgid "#self.setCell(event.Source, event.EventName) # only for Calc docs"
-msgstr ""
+msgstr "#self.setCell(event.Source, event.EventName) #kun for Calc dokument"
 
 #. rE9Ep
 #: python_document_events.xhp
@@ -419,7 +419,7 @@ msgctxt ""
 "N0595\n"
 "help.text"
 msgid "\"\"\" Release all activities \"\"\""
-msgstr ""
+msgstr "\"\" \"Frislipp alle aktiviteter\" \"\""
 
 #. XaEoP
 #: python_document_events.xhp
@@ -428,7 +428,7 @@ msgctxt ""
 "N0601\n"
 "help.text"
 msgid "def OnLoad(*args):  # 'Open Document' event"
-msgstr ""
+msgstr "def OnLoad(*args):  # 'Open Document' hendelse"
 
 #. CkJg4
 #: python_document_events.xhp
@@ -437,7 +437,7 @@ msgctxt ""
 "N0604\n"
 "help.text"
 msgid "def OnUnload(*args):  # 'Document has been closed' event"
-msgstr ""
+msgstr "def OnUnload(*args):  # 'Dokument har blitt lukket' hendelse"
 
 #. KobNT
 #: python_document_events.xhp
@@ -446,7 +446,7 @@ msgctxt ""
 "N0605\n"
 "help.text"
 msgid "pass  # (optional) performed when disposed"
-msgstr ""
+msgstr "send # (valgfritt) utført når det avsluttes"
 
 #. xPosR
 #: python_document_events.xhp
@@ -455,7 +455,7 @@ msgctxt ""
 "N0613\n"
 "help.text"
 msgid "(Back/Fore)ground console to report/log program execution."
-msgstr ""
+msgstr "(Bak/For) grunnkonsoll for å rapportere / logge programkjøring."
 
 #. Qph5m
 #: python_document_events.xhp
@@ -464,7 +464,7 @@ msgctxt ""
 "N0617\n"
 "help.text"
 msgid "\"\"\" Print free item list to console \"\"\""
-msgstr ""
+msgstr "\"\" \"Skriv ut frie gjenstandsliste til konsollen\" \"\""
 
 #. nzjHS
 #: python_document_events.xhp
@@ -473,7 +473,7 @@ msgctxt ""
 "N0622\n"
 "help.text"
 msgid "\"\"\" Append log message to console, optional user prompt \"\"\""
-msgstr ""
+msgstr "\"\" \"Legg loggmelding til konsollen, valgfri brukerprompt\" \"\""
 
 #. HDXPV
 #: python_document_events.xhp
@@ -482,7 +482,7 @@ msgctxt ""
 "N0627\n"
 "help.text"
 msgid "\"\"\" Set log messages lower limit \"\"\""
-msgstr ""
+msgstr "\"\" \"Sett nedre grense for loggmeldinger \" \"\""
 
 #. fXnMH
 #: python_document_events.xhp
@@ -491,7 +491,7 @@ msgctxt ""
 "N0632\n"
 "help.text"
 msgid "\"\"\" Display console content/dialog \"\"\""
-msgstr ""
+msgstr "\"\" \"Vis konsollinnhold/dialog\" \"\""
 
 #. 2dfeg
 #: python_document_events.xhp
@@ -500,7 +500,7 @@ msgctxt ""
 "N0647\n"
 "help.text"
 msgid "Mind the misspelled <literal>documentEventOccured</literal> method that inherits a typo from %PRODUCTNAME Application Programming Interface (API)."
-msgstr ""
+msgstr "Husk den feilstavede metoden <literal> documentEventOccured </literal> som arver en skrivefeil fra %PRODUCTNAME Application Programming Interface (API)."
 
 #. uGHTE
 #: python_document_events.xhp
@@ -509,7 +509,7 @@ msgctxt ""
 "N0648\n"
 "help.text"
 msgid "<literal>Start application</literal> and <literal>Close application</literal> events can respectively be used to set and to unset Python path for user scripts or %PRODUCTNAME scripts. In a similar fashion, document based Python libraries or modules can be loaded and released using <literal>Open document</literal> and <literal>Document closed</literal> events. Refer to <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Importing Python Modules</link> for more information."
-msgstr ""
+msgstr "<literal> Start applikasjon </literal> og <literal> Lukk applikasjons </literal> hendelser kan henholdsvis brukes til å angi og deaktivere Python-sti for brukerskript eller %PRODUCTNAME-skript. På lignende måte kan dokumentbaserte Python-biblioteker eller -moduler lastes inn og frigjøres ved hjelp av <literal> Åpne dokument </literal> og <literal> Dockment lukket </literal> hendelser. Se <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\"> Importere Python-moduler </link> for mer informasjon."
 
 #. 8pHCg
 #: python_document_events.xhp
@@ -518,7 +518,7 @@ msgctxt ""
 "N0649\n"
 "help.text"
 msgid "With %PRODUCTNAME Basic"
-msgstr ""
+msgstr "Med %PRODUCTNAME Basic"
 
 #. SEw8V
 #: python_document_events.xhp
@@ -536,7 +536,7 @@ msgctxt ""
 "N0651\n"
 "help.text"
 msgid "REM controller.Events module"
-msgstr ""
+msgstr "REM Hendelse modul"
 
 #. kYy8A
 #: python_document_events.xhp
@@ -545,7 +545,7 @@ msgctxt ""
 "N0653\n"
 "help.text"
 msgid "Private _obj As Object ' controller.ConsoleLogger instance"
-msgstr ""
+msgstr "Private _obj As Object ' Kontroller.KonsollLogger forekomst"
 
 #. PfRq6
 #: python_document_events.xhp
@@ -554,7 +554,7 @@ msgctxt ""
 "N0655\n"
 "help.text"
 msgid "Sub OnLoad(evt As com.sun.star.document.DocumentEvent) ' >> Open Document <<"
-msgstr ""
+msgstr "Sub OnLoad(evt As com.sun.star.document.DocumentEvent) ' >> Open Document <<"
 
 #. BEVFV
 #: python_document_events.xhp
@@ -563,7 +563,7 @@ msgctxt ""
 "N0659\n"
 "help.text"
 msgid "REM controller.ConsoleLogger class module"
-msgstr ""
+msgstr "REM kontroller.KonsollLogger klasse modul"
 
 #. PG65V
 #: python_document_events.xhp
@@ -581,7 +581,7 @@ msgctxt ""
 "N0668\n"
 "help.text"
 msgid "' CONSTRUCTOR/DESTRUCTOR"
-msgstr ""
+msgstr "' CONSTRUCTOR/DESTRUCTOR"
 
 #. EQG8C
 #: python_document_events.xhp
@@ -590,7 +590,7 @@ msgctxt ""
 "N0674\n"
 "help.text"
 msgid "' MEMBERS"
-msgstr ""
+msgstr "' MEDLEMMER"
 
 #. aGuEg
 #: python_document_events.xhp
@@ -599,7 +599,7 @@ msgctxt ""
 "N0679\n"
 "help.text"
 msgid "''' System-dependent filename '''"
-msgstr ""
+msgstr "'' 'Systemavhengig filnavn' ''"
 
 #. kEEgf
 #: python_document_events.xhp
@@ -608,7 +608,7 @@ msgctxt ""
 "N0686\n"
 "help.text"
 msgid "' METHODS"
-msgstr ""
+msgstr "' METODER"
 
 #. YMAtN
 #: python_document_events.xhp
@@ -617,7 +617,7 @@ msgctxt ""
 "N0688\n"
 "help.text"
 msgid "''' Monitor document events '''"
-msgstr ""
+msgstr "'' Overvåk dokumenthendelser '' '"
 
 #. cBx2G
 #: python_document_events.xhp
@@ -626,7 +626,7 @@ msgctxt ""
 "N0701\n"
 "help.text"
 msgid "''' Initialize document events logging '''"
-msgstr ""
+msgstr "'' Initialisere dokumenthendelseslogging '' '"
 
 #. A5RuU
 #: python_document_events.xhp
@@ -635,7 +635,7 @@ msgctxt ""
 "N0706\n"
 "help.text"
 msgid "IIf(IsMissing(evt),\"\",evt.EventName & \"-\") & \"Document events are being logged\", _"
-msgstr ""
+msgstr "IIf(IsMissing(evt),\"\",evt.EventName & \"-\") & \"Dokumenthendelser logges\", _"
 
 #. NkHa4
 #: python_document_events.xhp
@@ -644,7 +644,7 @@ msgctxt ""
 "N0714\n"
 "help.text"
 msgid "''' Terminate document events logging '''"
-msgstr ""
+msgstr "'' Avslutte loggføring av dokumenthendelser '' '"
 
 #. np2xy
 #: python_document_events.xhp
@@ -653,7 +653,7 @@ msgctxt ""
 "N0717\n"
 "help.text"
 msgid "IIf(IsMissing(evt),\"\",evt.EventName & \"-\") & \"Document events have been logged\", _"
-msgstr ""
+msgstr "IIf(IsMissing(evt),\"\",evt.EventName & \"-\") & \"Dokumenthendelser er logget\", _"
 
 #. uVpJf
 #: python_document_events.xhp
@@ -662,7 +662,7 @@ msgctxt ""
 "N0723\n"
 "help.text"
 msgid "' Your code for handled events goes here"
-msgstr ""
+msgstr "'Koden din for håndterte hendelser lagres her"
 
 #. AJJDf
 #: python_document_events.xhp
@@ -671,7 +671,7 @@ msgctxt ""
 "N0724\n"
 "help.text"
 msgid "Mind the misspelled <literal>_documentEventOccured</literal> method that inherits a typo from %PRODUCTNAME Application Programming Interface (API)."
-msgstr ""
+msgstr "Vær oppmerksom på den feilstavede metoden <literal> _documentEventOccured </literal> som arver en skrivefeil fra %PRODUCTNAME Application Programming Interface (API)."
 
 #. b3qae
 #: python_document_events.xhp
@@ -680,7 +680,7 @@ msgctxt ""
 "N0725\n"
 "help.text"
 msgid "Discovering Documents Events"
-msgstr ""
+msgstr "Oppdage dokumenthendelser"
 
 #. BDj9Q
 #: python_document_events.xhp
@@ -689,7 +689,7 @@ msgctxt ""
 "N0726\n"
 "help.text"
 msgid "The broadcaster API object provides the list of events it is responsible for:"
-msgstr ""
+msgstr "Kringkaster API-objektet inneholder listen over hendelser den er ansvarlig for:"
 
 #. Z2BhT
 #: python_document_events.xhp
@@ -698,7 +698,7 @@ msgctxt ""
 "N0727\n"
 "help.text"
 msgid "With Python"
-msgstr ""
+msgstr "Med Python"
 
 #. 8PCHK
 #: python_document_events.xhp
@@ -707,7 +707,7 @@ msgctxt ""
 "N0734\n"
 "help.text"
 msgid "\"\"\" Display document events \"\"\""
-msgstr ""
+msgstr "\"\" \"Vis dokumenthendelser\" \"\""
 
 #. SECnV
 #: python_document_events.xhp
@@ -716,7 +716,7 @@ msgctxt ""
 "N0736\n"
 "help.text"
 msgid "adapted from DisplayAvailableEvents() by A. Pitonyak"
-msgstr ""
+msgstr "tilpasset fra DisplayAvailableEvents () av A. Pitonyak"
 
 #. wXN8p
 #: python_document_events.xhp
@@ -725,7 +725,7 @@ msgctxt ""
 "N0747\n"
 "help.text"
 msgid "The <link href=\"https://extensions.libreoffice.org/extensions/apso-alternative-script-organizer-for-python\" name=\"Alternative Python Script Organizer\">Alternative Python Script Organizer (APSO)</link> extension is used to render events information on screen."
-msgstr ""
+msgstr "<link href=\"https://extensions.libreoffice.org/extensions/apso-alternative-script-organizer-for-python\" name=\"Alternative Python Script Organizer\">Alternativ Python Script Organizer (APSO)</link> utvidelse brukes til å gjengi hendelsesinformasjon på skjermen."
 
 #. kgY8m
 #: python_document_events.xhp
@@ -734,7 +734,7 @@ msgctxt ""
 "N0748\n"
 "help.text"
 msgid "With %PRODUCTNAME Basic"
-msgstr ""
+msgstr "Med %PRODUCTNAME Basic"
 
 #. KjotC
 #: python_document_events.xhp
@@ -743,7 +743,7 @@ msgctxt ""
 "N0750\n"
 "help.text"
 msgid "''' Display document events '''"
-msgstr ""
+msgstr "'' 'Vis dokumenthendelser' ''"
 
 #. upkPP
 #: python_examples.xhp
