@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-05-14 14:15+0200\n"
-"PO-Revision-Date: 2021-05-15 20:37+0000\n"
+"PO-Revision-Date: 2021-05-16 21:37+0000\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian Nynorsk <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/nn/>\n"
 "Language: nn\n"
@@ -1193,7 +1193,7 @@ msgctxt ""
 "par_id631582551461984\n"
 "help.text"
 msgid "<emph>Array_2D</emph> : the pre-existing array, may be empty. If that array has 1 dimension, it is considered as the first row of the resulting 2 dimension array."
-msgstr ""
+msgstr "<emph>Array_2D</emph>: matrisa som finst frå før, kan vera tom. Viss denne matrisa har berre éin dimensjon, vert denne rekna som den første rada i den nye todimensjonale matrisa."
 
 #. ZmnBs
 #: sf_array.xhp
@@ -1202,7 +1202,7 @@ msgctxt ""
 "par_id101582551483685\n"
 "help.text"
 msgid "<emph>Row</emph> : a 1D array with as many items as there are columns in Array_2D."
-msgstr ""
+msgstr "<emph>Rad</emph>: ei eindimensjonal matrise med like mange element som det er kolonnar i Array_2D."
 
 #. aM65P
 #: sf_array.xhp
@@ -1211,7 +1211,7 @@ msgctxt ""
 "par_id391582552517870\n"
 "help.text"
 msgid "Check if a one dimension array contains a certain number, text or date. Text comparison can be case-sensitive or not.      <br/>Sorted input arrays must be filled homogeneously, meaning all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and is in reality not.      <br/>A binary search is done when the array is sorted, otherwise, it is simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored."
-msgstr ""
+msgstr "Sjå etter om ei eindimensjonal matrise inneheld eit bestemt tal, ein bestemt tekst eller dato. Tekstsamanlikningar kan skilja mellom store og små bokstavar.<br/>Sorterte inndatamatriser må fyllast ut homogent, det vil seia at alle elementa må vera skalarar av same type (<literal>Tomme-</literal> og <literal>Null-</literal>element kan ikkje brukast). <br/>Det er uråd å vita på førehand kva resultatet av metoden vert når matrisa er sagt å vera sortert utan at ho er det.<br/>Det vert utført eit binærsøk når matrisa er sortert, elles vert ho skanna frå øvst til nedst og <literal>Tomme</literal> element og <literal>Nullelement</literal> vert ignorerte."
 
 #. ho7Rr
 #: sf_array.xhp
@@ -1220,7 +1220,7 @@ msgctxt ""
 "par_id451582552517871\n"
 "help.text"
 msgid "<emph>Array_1D</emph> : the array to scan."
-msgstr ""
+msgstr "<emph>Array_1D</emph>: matrisa som skal skannast."
 
 #. ADj73
 #: sf_array.xhp
@@ -1229,7 +1229,7 @@ msgctxt ""
 "par_id221582552517872\n"
 "help.text"
 msgid "<emph>ToFind</emph> : a number, a date or a string to find."
-msgstr ""
+msgstr "<emph>ToFind</emph>: eit tal, ein dato eller ein streng som skal finnast."
 
 #. 3iQDC
 #: sf_array.xhp
@@ -1238,7 +1238,7 @@ msgctxt ""
 "par_id981582552517872\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph> : Only for string comparisons, default = <literal>False</literal>."
-msgstr ""
+msgstr "<emph>CaseSensitive</emph> : Only for string comparisons, default = <literal>Usann</literal>."
 
 #. NBAGy
 #: sf_array.xhp
@@ -1247,7 +1247,7 @@ msgctxt ""
 "par_id641582553128490\n"
 "help.text"
 msgid "<emph>SortOrder</emph> : \"ASC\", \"DESC\" or \"\" (= not sorted, default)"
-msgstr ""
+msgstr "<emph>Sorteringsrekkjefølgje</emph> : \"ASC\", \"DESC\" eller \"\" (= ikkje sortert, standard)"
 
 #. HVqG3
 #: sf_array.xhp
@@ -1256,7 +1256,7 @@ msgctxt ""
 "par_id71582557214489\n"
 "help.text"
 msgid "Store the content of a 2-columns array into a <link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"dictionary\">ScriptForge.Dictionary</link> object.      <br/>The key will be extracted from the first column, the item from the second."
-msgstr ""
+msgstr "Lagrar innhaldet av ei matrise med to kolonnar i eit <link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"dictionary\">ScriptForge.Dictionary</link>-objekt.<br/>Nøkkelen vert henta ut frå den første kolonnen, elementet frå den andre."
 
 #. CMssn
 #: sf_array.xhp
@@ -1265,7 +1265,7 @@ msgctxt ""
 "par_id561582557214489\n"
 "help.text"
 msgid "<emph>Array_1D</emph> : the first column must contain exclusively strings with a length > 0, in any order."
-msgstr ""
+msgstr "<emph>Array_1D</emph>: den første kolonnen må innehalda strengar med lengd > 0 i kva rekkjefølgje som helst."
 
 #. fngum
 #: sf_array.xhp
@@ -1274,7 +1274,7 @@ msgctxt ""
 "par_id671582558126025\n"
 "help.text"
 msgid "Count the number of dimensions of an array. The result can be greater than two.      <br/>If the argument is not an array, returns -1      <br/>If the array is not initialized, returns 0."
-msgstr ""
+msgstr "Tel kor mange dimensjonar ei matrise har. Resultatet kan vera større enn to<br/>Viss argumentet ikkje er ein streng, vert det returnert -1<br/>Viss matrisa ikkje er initialisert, vert det returnert 0."
 
 #. tGdVE
 #: sf_array.xhp
@@ -1283,7 +1283,7 @@ msgctxt ""
 "par_id771582558126027\n"
 "help.text"
 msgid "<emph>Array_ND</emph> : the array to examine."
-msgstr ""
+msgstr "<emph>Array_ND</emph>: matrisa som skal granskast-"
 
 #. n2AxD
 #: sf_array.xhp

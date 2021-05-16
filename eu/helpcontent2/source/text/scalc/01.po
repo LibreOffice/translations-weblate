@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-05-14 14:15+0200\n"
-"PO-Revision-Date: 2021-05-15 20:37+0000\n"
+"PO-Revision-Date: 2021-05-16 21:37+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/eu/>\n"
 "Language: eu\n"
@@ -4604,7 +4604,7 @@ msgctxt ""
 "par_id551615889661457\n"
 "help.text"
 msgid "By entering a number to specify the column within the <emph>Database</emph> area, starting with 1. For example, if a <emph>Database</emph> occupied the cell range D6:H123, then enter 3 to indicate the header cell at F6. Calc expects an integer value that lies between 1 and the number of columns defined within <emph>Database</emph> and ignores any digits after a decimal point. If the value is less than 1, Calc reports Err:504 (error in parameter list). If the value is greater than the number of columns in <emph>Database</emph>, Calc reports a #VALUE! error."
-msgstr ""
+msgstr "<emph>Datu-basea</emph> area barruko zutabea zehazteko zenbaki bat sartuta, 1 zenbakitik hasita. Adibidez, <emph>Datu-basea</emph> elementuak D6:H123 gelaxka-barrutia hartzen badu, sartu 3 zenbakia F6 goiburuko-gelaxka adierazteko. Calc aplikazioak 1 eta <emph>Datu-basea</emph> elementuan definitutako zutabe kopuruaren artean dagoen osoko zenbaki bat espero du, eta ez ikusiarena egiten die koma dezimalaren ondoren dauden digituei. Balioa 1 baino txikiagoa bada, Err:504 errorea (errorea parametro-zerrendan) sortuko da. Balioa <emph>Datu-basea</emph> elementuko zutabe kopurua baino handiagoa bada, #BALIOA! errorea sortuko da."
 
 #. qSkvo
 #: 04060101.xhp
@@ -4757,7 +4757,7 @@ msgctxt ""
 "par_id3153713\n"
 "help.text"
 msgid "The following table provides an example database table that is utilized to demonstrate how to use the functions in the Database category. The cell range A1:E10 contains fictitious information about the guests invited to Joe's birthday party. The following information is given for each guest - name, school grade, age in years, distance to school in meters, and weight in kilograms."
-msgstr ""
+msgstr "Hurrengo taulak adibideko datu-base bateko taula bat eskaintzen du, 'Datu-basea' kategoriako funtzioak nola erabili erakusteko erabiliko dena. A1:E10 gelaxka-barrutiak Jon izeneko batek antolatutako urteurren-festara gonbidatutakoen informazioa du. Honako informazioa dauka taulak: izena, eskola-maila, adina, distantzia eskolara metrotan eta pisua kilotan."
 
 #. Y2HFt
 #: 04060101.xhp
@@ -4955,7 +4955,7 @@ msgctxt ""
 "par_id451616246535763\n"
 "help.text"
 msgid "As in this simple example, it is sometimes desirable (but not essential) to place the search criteria area directly under the database table, with the columns of the two areas vertically aligned. Blank entries in the search criteria area are ignored. With the above example database table and this search criteria area, insert the formula <item type=\"input\">=DCOUNT(A1:E10;;A12:E14)</item> into an empty cell elsewhere in the sheet to count how many of Joe’s guests travel further than 600 meters to school. The value 5 is returned (counting Betty, Daniel, Eva, Harry, and Irene)."
-msgstr ""
+msgstr "Adibide sinple honetan bezala, zenbaitetan desiragarria da (baina ez funtsezkoa) bilaketa-irizpideen area zuzenean datu-basearen taularen azpian kokatzea, bi areen zutabeak bertikalean lerrokatuta. Bilaketa-irizpideetan hutsik dauden sarrerei ez ikusiarena egiten zaie. Goiko adibideko datu-basearen taularekin eta bilaketa-irizpideen arearekin, txertatu <item type=\"input\">=DCOUNT(A1:E10;;A12:E14)</item> formula orriko edozein gelaxka hutsetan, Jonen zenbat gonbidatuk egin behar dituzten 600 metro baino gehiago eskolara. Itzulitako balioa 5 izango da (Bilintx, Eider, Gari, Jokin eta Koro zenbatuta)."
 
 #. bBHFr
 #: 04060101.xhp
@@ -5000,7 +5000,7 @@ msgctxt ""
 "par_id361616251794063\n"
 "help.text"
 msgid "In this example the search criteria area contains only two headings and these are not vertically aligned with the corresponding headings in the example database table. Since there are two conditions in the same row, these are connected by AND. With the above example database table and this search criteria area, insert the formula <item type=\"input\">=DCOUNT(A1:E10;;B12:C13)</item> into an empty cell elsewhere in the sheet to count how many of Joe’s guests are in grade 2 and greater than 7 years old. The value 2 is returned (counting Eva and Irene)."
-msgstr ""
+msgstr "Adibide honetan, bilaketa-irizpideen areak bi izenburu soilik ditu eta ez daude bertikalean lerrokatuta adibideko datu-basearen taulan dagozkien izenburuekin. Errenkada berean bi baldintza daudenez gero, AND batekin daude konektatuta. Goiko adibideko datu-basearen taularekin eta bilaketa-irizpideen area honekin, txertatu <item type=\"input\">=DCOUNT(A1:E10;;B12:C13)</item> formula orriko edozein gelaxka hutsetan, Jonen zenbat gonbidatu dauden 2. mailan eta 7 urte baino gehiago dituzten ezagutzeko. Itzuliko den balioa 2 izango da (Gari eta Koro)."
 
 #. 6Tfyk
 #: 04060101.xhp
@@ -5117,7 +5117,7 @@ msgctxt ""
 "par_id631616253692350\n"
 "help.text"
 msgid "This simple example shows the use of regular expressions. For this example to work as intended, select to enable regular expressions at <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calculate</menuitem></link>. With the above example database table and this search criteria area, insert the formula <item type=\"input\">=DCOUNT(A1:E10;;A12:A13)</item> into an empty cell elsewhere in the sheet to count how many of Joe’s guests have names that begin with the letters “A”, “B”, or “C”. The value 3 is returned (counting Andy, Betty, and Charles)."
-msgstr ""
+msgstr "Adibide sinple honen bidez, adierazpen erregularrak nola funtzionatzen duten erakutsiko da. Behar den moduan funtzionatu dezan, hautatu adierazpen erregularrak gaitzeko <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Hobespenak</menuitem></caseinline><defaultinline><menuitem>Tresnak - Aukerak</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Kalkulatu</menuitem></link> atalean. Goiko adibideko datu-basearen taularekin eta bilaketa-irizpideen area honekin, txertatu <item type=\"input\">=DCOUNT(A1:E10;;A12:A13)</item> formula orriko edozein gelaxka hutsetan, Jonen zenbat gonbidatuk A”, “B” edo “D” letrekin hasten diren izenak dituzten ezagutzeko. Itzuliko den balioa 3 da (Aitor, Bilintx eta Danel)."
 
 #. KBZPC
 #: 04060101.xhp
@@ -60171,7 +60171,7 @@ msgctxt ""
 "par_id541556228253979\n"
 "help.text"
 msgid "FOURIER(Array; GroupedByColumns [; Inverse [; Polar [; MinimumMagnitude]]])"
-msgstr ""
+msgstr "FOURIER(Matrizea; ZutabekaElkartuta [; Alderantzizkoa [; Polarra [; GutxienekoMagnitudea]]])"
 
 #. ELSK7
 #: func_fourier.xhp
@@ -60180,7 +60180,7 @@ msgctxt ""
 "par_id741556228390897\n"
 "help.text"
 msgid "<emph>Array</emph> is a 2 x N or N x 2 range representing an array of complex number to be transformed, where N is the length of the array. The array represents the real and imaginary parts of the data."
-msgstr ""
+msgstr "<emph>Matrizea</emph>: Transformatuko diren zenbaki konplexuen matrize bat ordezkatzen duen 2 x N edo N x 2 barruti bat da, non N matrizearen luzera den. Matrizeak datuen zati erreal eta irudikariak ordezkatzen ditu."
 
 #. xTPa5
 #: func_fourier.xhp
@@ -60189,7 +60189,7 @@ msgctxt ""
 "par_id621556228397269\n"
 "help.text"
 msgid "<emph>GroupedByColumns</emph> is a logical (TRUE or FALSE, 1 or 0) argument. When TRUE the array is grouped by columns where the first column contains the real part of the complex number and the second columns contains the imaginary part of the complex number. When FALSE, the first row contains the real part of the complex number and the second row contains the imaginary part of the complex number. If there is only 1 column (row), the input sequence is treated as purely real."
-msgstr ""
+msgstr "<emph>ZutabekaElkartuta</emph>: Argumentu logiko bat da (TRUE edo FALSE, 1 edo 0). TRUE (egia) denean, matrizea zutabeka elkartuko da, non lehen zutabeak zenbaki konplexuaren zati erreala duen eta bigarren zutabek zenbaki konplexuaren zati irudikaria duen. FALSE (faltsua) denean, lehen errenkadak zutabe konplexuaren zati erreala du eta bigarren errenkadak zenbaki konplexuaren zati irudikaria du. Zutabe (errenkada) bakar bat badago, sarrerako sekuentzia zenbaki errealtzat hartuko da."
 
 #. tbzAA
 #: func_fourier.xhp
@@ -60198,7 +60198,7 @@ msgctxt ""
 "par_id631556228516997\n"
 "help.text"
 msgid "<emph>Inverse</emph> is an optional logical (TRUE or FALSE, 1 or 0) argument. When TRUE, calculates the inverse Discrete Fourier Transform. The default value is FALSE."
-msgstr ""
+msgstr "<emph>Alderantzizkoa</emph>: Aukerako argumentu logikoa da (TRUE edo FALSE, 1 edo 0). TRUE (egia) denean, Fourierren transformatu diskretuaren alderantzizkoa kalkulatzen du. Balio lehenetsia FALSE (faltsua) da."
 
 #. N6enC
 #: func_fourier.xhp
@@ -60207,7 +60207,7 @@ msgctxt ""
 "par_id811561732287508\n"
 "help.text"
 msgid "<emph>Polar</emph>: is an optional logical (TRUE or FALSE, 1 or 0) argument. Indicates whether the final output is in polar coordinates (magnitude, phase). This argument is optional and the default value is FALSE."
-msgstr ""
+msgstr "<emph>Polarra</emph>: Aukerako argumentu logikoa da (TRUE edo FALSE, 1 edo 0). Akzen irteera koordenatu polarretan (magnitudea, fasea) dagoen ala ez adierazten du. Argumentu hau aukerakoa da eta balio lehenetsia FALSE (faltsua) da."
 
 #. qBBZd
 #: func_fourier.xhp
@@ -60216,7 +60216,7 @@ msgctxt ""
 "par_id661561732521977\n"
 "help.text"
 msgid "<emph>MinimumMagnitude</emph>: used only if Polar=TRUE. All frequency components with magnitude less than <emph>MinimumMagnitude</emph> will be suppressed with a zero magnitude-phase entry. This is very useful when looking at the magnitude-phase spectrum of a signal because there is always some very tiny amount of rounding error when doing FFT algorithms and results in incorrect non-zero phase for non-existent frequencies. By providing a suitable value to this parameter, these non-existent frequency components can be suppressed. By default the value of <emph>MinimumMagnitude</emph> is 0.0, and no suppression is done by default."
-msgstr ""
+msgstr "<emph>GutxienekoMagnitudea</emph>: Polarra=TRUE denean soilik erabiltzen da. <emph>GutxienekoMagnitudea</emph> baino magnitude txikiagoa duten maiztasun-osagaia guztiak ezabatu egingo dira zero magnitudeako fase-sarrera batekin. Hori oso erabilgarria da seinale baten magnitu-fasearen espektrora begiratzean, beti baitago biribiltze-errore txikitxoren bat FFT algoritmoak aplikatzean, eta zero ez diren fase okerrak sortzen baitira existitzen ez diren maiztasunetarako. Parametro honi balio egokia esleitzen bazazio, existitzen ez diren maiztasun-osagai horiek ezabatu egin daitezke. <emph>GutxienekoMagnitudea</emph> parametroaren balio lehenetsia 0.0 da, eta ez da ezabaketarik gauzatzen."
 
 #. P2z9v
 #: func_hour.xhp
@@ -68902,7 +68902,7 @@ msgctxt ""
 "par_id1003430\n"
 "help.text"
 msgid "Observations"
-msgstr ""
+msgstr "Behaketak"
 
 #. DqgMQ
 #: statistics_test_f.xhp
@@ -69046,7 +69046,7 @@ msgctxt ""
 "hd_id1000160\n"
 "help.text"
 msgid "Data"
-msgstr ""
+msgstr "Datuak"
 
 #. aU9k6
 #: statistics_test_t.xhp
@@ -69109,7 +69109,7 @@ msgctxt ""
 "par_id1002910\n"
 "help.text"
 msgid "Alpha"
-msgstr ""
+msgstr "Alfa"
 
 #. da77D
 #: statistics_test_t.xhp
