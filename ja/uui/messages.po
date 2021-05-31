@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-03-23 11:46+0100\n"
+"POT-Creation-Date: 2021-05-31 15:16+0200\n"
 "PO-Revision-Date: 2021-05-13 23:37+0000\n"
 "Last-Translator: Jun NOGATA <nogajun@gmail.com>\n"
 "Language-Team: Japanese <https://translations.documentfoundation.org/projects/libo_ui-master/uuimessages/ja/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1538446410.000000\n"
 
 #. DLY8p
@@ -649,17 +649,15 @@ msgctxt "STR_ALREADYOPEN_TITLE"
 msgid "Document in Use"
 msgstr "使用中のドキュメント"
 
-#. YCVzp
+#. QU4jD
 #: uui/inc/strings.hrc:33
 msgctxt "STR_ALREADYOPEN_MSG"
 msgid ""
 "Document file '$(ARG1)' is locked for editing by yourself on a different system since $(ARG2)\n"
 "\n"
-"Open document read-only, or ignore own file locking and open the document for editing."
+"Open document read-only, or ignore own file locking and open the document for editing.\n"
+"Select Notify to open read-only and get notified when the document becomes editable."
 msgstr ""
-"ドキュメントファイル '$(ARG1)' は、あなた自身が $(ARG2) から他のシステム上で編集中のためロックされています。\n"
-"\n"
-"読み取り専用でドキュメントを開くか、ファイルのロックを無視してドキュメントを開き編集してください。"
 
 #. 8mKMg
 #: uui/inc/strings.hrc:34
@@ -667,14 +665,20 @@ msgctxt "STR_ALREADYOPEN_READONLY_BTN"
 msgid "Open ~Read-Only"
 msgstr "読み取り専用で開く(~R)"
 
-#. ThAZk
+#. FqhkL
 #: uui/inc/strings.hrc:35
+msgctxt "STR_ALREADYOPEN_READONLY_NOTIFY_BTN"
+msgid "~Notify"
+msgstr ""
+
+#. ThAZk
+#: uui/inc/strings.hrc:36
 msgctxt "STR_ALREADYOPEN_OPEN_BTN"
 msgid "~Open"
 msgstr "開く(~O)"
 
 #. uFhJT
-#: uui/inc/strings.hrc:36
+#: uui/inc/strings.hrc:37
 msgctxt "STR_ALREADYOPEN_SAVE_MSG"
 msgid ""
 "Document file '$(ARG1)' is locked for editing by yourself on a different system since $(ARG2)\n"
@@ -686,77 +690,82 @@ msgstr ""
 "他のシステム上のドキュメントを閉じて保存を再び試みるか、ファイルのロックを無視して現在のドキュメントを保存してください。"
 
 #. ZCJGW
-#: uui/inc/strings.hrc:37
+#: uui/inc/strings.hrc:38
 msgctxt "STR_ALREADYOPEN_RETRY_SAVE_BTN"
 msgid "~Retry Saving"
 msgstr "保存の再試行(~R)"
 
 #. EVEQx
-#: uui/inc/strings.hrc:38
+#: uui/inc/strings.hrc:39
 msgctxt "STR_ALREADYOPEN_SAVE_BTN"
 msgid "~Save"
 msgstr "保存(~S)"
 
 #. SZb7E
-#: uui/inc/strings.hrc:40
+#: uui/inc/strings.hrc:41
 msgctxt "RID_KEEP_PASSWORD"
 msgid "~Remember password until end of session"
 msgstr "セッション終了時までパスワードを記憶(~R)"
 
 #. 7HtCZ
-#: uui/inc/strings.hrc:41
+#: uui/inc/strings.hrc:42
 msgctxt "RID_SAVE_PASSWORD"
 msgid "~Remember password"
 msgstr "パスワードを記憶(~R)"
 
 #. CV6Ci
-#: uui/inc/strings.hrc:42
+#: uui/inc/strings.hrc:43
 msgctxt "STR_WARNING_INCOMPLETE_ENCRYPTION_TITLE"
 msgid "Non-Encrypted Streams"
 msgstr "暗号化されていないストリーム"
 
 #. P7Bd8
-#: uui/inc/strings.hrc:44
+#: uui/inc/strings.hrc:45
 msgctxt "STR_LOCKFAILED_TITLE"
 msgid "Document Could Not Be Locked"
 msgstr "ドキュメントをロックできません"
 
-#. XBEF9
-#: uui/inc/strings.hrc:45
+#. hJ55V
+#: uui/inc/strings.hrc:46
 msgctxt "STR_LOCKFAILED_MSG"
-msgid "The lock file could not be created for exclusive access by %PRODUCTNAME, due to missing permission to create a lock file on that file location or lack of free disk space."
-msgstr "%PRODUCTNAME は、ファイルがある場所にロックファイルを生成する権利がないため、ファイルを排他的アクセス用にロックできませんでした。"
+msgid ""
+"The lock file could not be created for exclusive access by %PRODUCTNAME, due to missing permission to create a lock file on that file location or lack of free disk space.\n"
+"\n"
+"Select Notify to open read-only and get notified when the document becomes editable."
+msgstr ""
 
 #. CaBXF
-#: uui/inc/strings.hrc:46
+#: uui/inc/strings.hrc:47
 msgctxt "STR_LOCKFAILED_OPENREADONLY_BTN"
 msgid "Open ~Read-Only"
 msgstr "読み取り専用で開く(~R)"
 
-#. u5nuY
+#. Wuw4K
 #: uui/inc/strings.hrc:48
+msgctxt "STR_LOCKFAILED_OPENREADONLY_NOTIFY_BTN"
+msgid "~Notify"
+msgstr ""
+
+#. u5nuY
+#: uui/inc/strings.hrc:50
 msgctxt "STR_OPENLOCKED_TITLE"
 msgid "Document in Use"
 msgstr "ドキュメントは使用中です"
 
-#. hFQZP
-#: uui/inc/strings.hrc:49
+#. qcayz
+#: uui/inc/strings.hrc:51
 msgctxt "STR_OPENLOCKED_MSG"
 msgid ""
 "Document file '$(ARG1)' is locked for editing by:\n"
 "\n"
 "$(ARG2)\n"
 "\n"
-"Open document read-only or open a copy of the document for editing.$(ARG3)"
+"Open document read-only or open a copy of the document for editing.\n"
+"Select Notify to open read-only and get notified when the document becomes editable.$(ARG3)"
 msgstr ""
-"文書ファイル'$(ARG1)'は編集のため以下のユーザーによってロックされています。:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"文書を読み取り専用で開くか、編集するために文書のコピーを開きます。$(ARG3)"
 
 #. VF7vT
-#: uui/inc/strings.hrc:50
+#: uui/inc/strings.hrc:52
 msgctxt "STR_OPENLOCKED_ALLOWIGNORE_MSG"
 msgid ""
 "\n"
@@ -766,31 +775,37 @@ msgstr ""
 "ファイルロックを無視して、編集のためにドキュメントを開くこともできます。"
 
 #. tc7YZ
-#: uui/inc/strings.hrc:51
+#: uui/inc/strings.hrc:53
 msgctxt "STR_OPENLOCKED_OPENREADONLY_BTN"
 msgid "Open ~Read-Only"
 msgstr "読み取り専用で開く(~R)"
 
+#. anQNW
+#: uui/inc/strings.hrc:54
+msgctxt "STR_OPENLOCKED_OPENREADONLY_NOTIFY_BTN"
+msgid "~Notify"
+msgstr ""
+
 #. TsA54
-#: uui/inc/strings.hrc:52
+#: uui/inc/strings.hrc:55
 msgctxt "STR_OPENLOCKED_OPENCOPY_BTN"
 msgid "Open ~Copy"
 msgstr "コピーを開く(~C)"
 
 #. EXAAf
-#: uui/inc/strings.hrc:53
+#: uui/inc/strings.hrc:56
 msgctxt "STR_UNKNOWNUSER"
 msgid "Unknown User"
 msgstr "不明なユーザー"
 
 #. PFEwD
-#: uui/inc/strings.hrc:55
+#: uui/inc/strings.hrc:58
 msgctxt "STR_FILECHANGED_TITLE"
 msgid "Document Has Been Changed by Others"
 msgstr "ドキュメントが他のユーザーによって変更されています"
 
 #. umCKE
-#: uui/inc/strings.hrc:56
+#: uui/inc/strings.hrc:59
 msgctxt "STR_FILECHANGED_MSG"
 msgid ""
 "The file has been changed since it was opened for editing in %PRODUCTNAME. Saving your version of the document will overwrite changes made by others.\n"
@@ -802,19 +817,19 @@ msgstr ""
 "強制的に保存しますか？"
 
 #. DGYmK
-#: uui/inc/strings.hrc:57
+#: uui/inc/strings.hrc:60
 msgctxt "STR_FILECHANGED_SAVEANYWAY_BTN"
 msgid "~Save Anyway"
 msgstr "強制的に保存(~S)"
 
 #. YBz5F
-#: uui/inc/strings.hrc:59
+#: uui/inc/strings.hrc:62
 msgctxt "STR_TRYLATER_TITLE"
 msgid "Document in Use"
 msgstr "ドキュメントは使用中です"
 
 #. 4Fimj
-#: uui/inc/strings.hrc:60
+#: uui/inc/strings.hrc:63
 msgctxt "STR_TRYLATER_MSG"
 msgid ""
 "Document file '$(ARG1)' is locked for editing by:\n"
@@ -830,7 +845,7 @@ msgstr ""
 "ドキュメントを後でもう一度保存するか、ドキュメントのコピーを保存してください。"
 
 #. b3UBG
-#: uui/inc/strings.hrc:61
+#: uui/inc/strings.hrc:64
 msgctxt "STR_OVERWRITE_IGNORELOCK_MSG"
 msgid ""
 "Document file '$(ARG1)' is locked for editing by:\n"
@@ -846,19 +861,19 @@ msgstr ""
 "このファイルに対するロックを無視して既存の文書を上書きすることもできます。"
 
 #. 8JFLZ
-#: uui/inc/strings.hrc:62
+#: uui/inc/strings.hrc:65
 msgctxt "STR_TRYLATER_RETRYSAVING_BTN"
 msgid "~Retry Saving"
 msgstr "保存の再試行(~R)"
 
 #. 6iCzM
-#: uui/inc/strings.hrc:63
+#: uui/inc/strings.hrc:66
 msgctxt "STR_TRYLATER_SAVEAS_BTN"
 msgid "~Save As..."
 msgstr "名前を付けて保存(~S)..."
 
 #. nqrvC
-#: uui/inc/strings.hrc:65
+#: uui/inc/strings.hrc:68
 msgctxt "STR_RENAME_OR_REPLACE"
 msgid ""
 "A file with the name \"%NAME\" already exists in the location \"%FOLDER\".\n"
@@ -868,7 +883,7 @@ msgstr ""
 "現在のファイルを上書きするか、新しい名前をつけるかを選択してください。"
 
 #. 3bJvA
-#: uui/inc/strings.hrc:66
+#: uui/inc/strings.hrc:69
 msgctxt "STR_NAME_CLASH_RENAME_ONLY"
 msgid ""
 "A file with the name \"%NAME\" already exists in the location \"%FOLDER\".\n"
@@ -878,58 +893,115 @@ msgstr ""
 "新しい名前を入力してください。"
 
 #. Bapqc
-#: uui/inc/strings.hrc:67
+#: uui/inc/strings.hrc:70
 msgctxt "STR_SAME_NAME_USED"
 msgid "Please provide a different file name!"
 msgstr "他のファイル名を付けてください！"
 
 #. BsaWY
-#: uui/inc/strings.hrc:69
+#: uui/inc/strings.hrc:72
 msgctxt "STR_ERROR_PASSWORD_TO_OPEN_WRONG"
 msgid "The password is incorrect. The file cannot be opened."
 msgstr "パスワードが正しくありません。ドキュメントを開けません。"
 
 #. WQbYF
-#: uui/inc/strings.hrc:70
+#: uui/inc/strings.hrc:73
 msgctxt "STR_ERROR_PASSWORD_TO_MODIFY_WRONG"
 msgid "The password is incorrect. The file cannot be modified."
 msgstr "パスワードが正しくありません。ドキュメントは変更できません。"
 
 #. Gq9FJ
-#: uui/inc/strings.hrc:71
+#: uui/inc/strings.hrc:74
 msgctxt "STR_ERROR_MASTERPASSWORD_WRONG"
 msgid "The master password is incorrect."
 msgstr "マスターパスワードが正しくありません。"
 
 #. pRwHM
-#: uui/inc/strings.hrc:72
+#: uui/inc/strings.hrc:75
 msgctxt "STR_ERROR_SIMPLE_PASSWORD_WRONG"
 msgid "The password is incorrect."
 msgstr "パスワードが正しくありません。"
 
 #. DwdJn
-#: uui/inc/strings.hrc:73
+#: uui/inc/strings.hrc:76
 msgctxt "STR_ERROR_PASSWORDS_NOT_IDENTICAL"
 msgid "The password confirmation does not match."
 msgstr "パスワードが一致しません。"
 
 #. dwGow
-#: uui/inc/strings.hrc:75
+#: uui/inc/strings.hrc:78
 msgctxt "STR_LOCKCORRUPT_TITLE"
 msgid "Lock file is corrupted"
 msgstr "ロックファイルは壊れています"
 
-#. QxsDe
-#: uui/inc/strings.hrc:76
+#. nkUGA
+#: uui/inc/strings.hrc:79
 msgctxt "STR_LOCKCORRUPT_MSG"
-msgid "The lock file is corrupted and probably empty. Opening the document read-only and closing it again removes the corrupted lock file."
-msgstr "ロックファイルが壊れており、多分空です。ドキュメントは読み込み専用で開かれ、閉じられたときに壊れたロックファイルを削除します。"
+msgid ""
+"The lock file is corrupted and probably empty. Opening the document read-only and closing it again removes the corrupted lock file.\n"
+"\n"
+"Select Notify to open read-only and get notified when the document becomes editable."
+msgstr ""
 
 #. fKEYB
-#: uui/inc/strings.hrc:77
+#: uui/inc/strings.hrc:80
 msgctxt "STR_LOCKCORRUPT_OPENREADONLY_BTN"
 msgid "Open ~Read-Only"
 msgstr "読み取り専用で開く(~R)"
+
+#. qRAcY
+#: uui/inc/strings.hrc:81
+msgctxt "STR_LOCKCORRUPT_OPENREADONLY_NOTIFY_BTN"
+msgid "~Notify"
+msgstr ""
+
+#. rBAR3
+#: uui/inc/strings.hrc:83
+msgctxt "STR_RELOADEDITABLE_TITLE"
+msgid "Document is now editable"
+msgstr ""
+
+#. cVZuC
+#: uui/inc/strings.hrc:84
+msgctxt "STR_RELOADEDITABLE_MSG"
+msgid ""
+"Document file '$(ARG1)' is now editable \n"
+"\n"
+"Reload this document for editing?"
+msgstr ""
+
+#. vynDE
+#: uui/inc/strings.hrc:85
+msgctxt "STR_RELOADEDITABLE_BTN"
+msgid "~Reload"
+msgstr ""
+
+#. waDLe
+#: uui/inc/strings.hrc:87
+msgctxt "STR_READONLYOPEN_TITLE"
+msgid "Document is read-only"
+msgstr ""
+
+#. DbVND
+#: uui/inc/strings.hrc:88
+msgctxt "STR_READONLYOPEN_MSG"
+msgid ""
+"Document file '$(ARG1)' is read-only.\n"
+"\n"
+"Open read-only or select Notify to open read-only and get notified when the document becomes editable."
+msgstr ""
+
+#. KLAtB
+#: uui/inc/strings.hrc:89
+msgctxt "STR_READONLYOPEN_BTN"
+msgid "Open ~Read-Only"
+msgstr ""
+
+#. 9L3b3
+#: uui/inc/strings.hrc:90
+msgctxt "STR_READONLYOPEN_NOTIFY_BTN"
+msgid "~Notify"
+msgstr ""
 
 #. 45x3T
 #: uui/uiconfig/ui/authfallback.ui:8
@@ -1240,3 +1312,35 @@ msgstr "この証明書を受け入れず、この Web サイトに接続しな�
 msgctxt "unknownauthdialog|examine"
 msgid "Examine Certificate…"
 msgstr "証明書の確認..."
+
+#~ msgctxt "STR_ALREADYOPEN_MSG"
+#~ msgid ""
+#~ "Document file '$(ARG1)' is locked for editing by yourself on a different system since $(ARG2)\n"
+#~ "\n"
+#~ "Open document read-only, or ignore own file locking and open the document for editing."
+#~ msgstr ""
+#~ "ドキュメントファイル '$(ARG1)' は、あなた自身が $(ARG2) から他のシステム上で編集中のためロックされています。\n"
+#~ "\n"
+#~ "読み取り専用でドキュメントを開くか、ファイルのロックを無視してドキュメントを開き編集してください。"
+
+#~ msgctxt "STR_LOCKFAILED_MSG"
+#~ msgid "The lock file could not be created for exclusive access by %PRODUCTNAME, due to missing permission to create a lock file on that file location or lack of free disk space."
+#~ msgstr "%PRODUCTNAME は、ファイルがある場所にロックファイルを生成する権利がないため、ファイルを排他的アクセス用にロックできませんでした。"
+
+#~ msgctxt "STR_OPENLOCKED_MSG"
+#~ msgid ""
+#~ "Document file '$(ARG1)' is locked for editing by:\n"
+#~ "\n"
+#~ "$(ARG2)\n"
+#~ "\n"
+#~ "Open document read-only or open a copy of the document for editing.$(ARG3)"
+#~ msgstr ""
+#~ "文書ファイル'$(ARG1)'は編集のため以下のユーザーによってロックされています。:\n"
+#~ "\n"
+#~ "$(ARG2)\n"
+#~ "\n"
+#~ "文書を読み取り専用で開くか、編集するために文書のコピーを開きます。$(ARG3)"
+
+#~ msgctxt "STR_LOCKCORRUPT_MSG"
+#~ msgid "The lock file is corrupted and probably empty. Opening the document read-only and closing it again removes the corrupted lock file."
+#~ msgstr "ロックファイルが壊れており、多分空です。ドキュメントは読み込み専用で開かれ、閉じられたときに壊れたロックファイルを削除します。"
