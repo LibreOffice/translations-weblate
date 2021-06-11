@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-06-04 13:09+0200\n"
+"POT-Creation-Date: 2021-06-11 17:08+0200\n"
 "PO-Revision-Date: 2021-06-11 22:03+0000\n"
 "Last-Translator: sophie <gautier.sophie@gmail.com>\n"
 "Language-Team: French <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/fr/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565208174.000000\n"
 
 #. sZfWF
@@ -69748,14 +69748,14 @@ msgctxt ""
 msgid "<variable id=\"sam01\">Choose <menuitem>Data - Statistics - Sampling</menuitem></variable>"
 msgstr "<variable id=\"sam01\">Choisissez <menuitem>Données - Statistiques - Échantillonnage</menuitem></variable>"
 
-#. MDjEn
+#. bdELn
 #: statistics_sampling.xhp
 msgctxt ""
 "statistics_sampling.xhp\n"
 "par_id1000050\n"
 "help.text"
-msgid "Sampling allows you to pick data from a <emph>source</emph> table to fill a <emph>target</emph> table. The sampling can be random or in a periodic basis."
-msgstr "L'échantillonnage permet de prendre des données d'une table <emph>source</emph> pour remplir une table <emph>cible</emph>. L'échantillonnage peut être aléatoire ou sur une base périodique."
+msgid "Sampling allows you to pick data from a <emph>source</emph> table (population) to fill a <emph>target</emph> table. The sampling can be random or in a periodic basis, as well as with or without sample replacement in the source table."
+msgstr ""
 
 #. GRbRi
 #: statistics_sampling.xhp
@@ -69775,41 +69775,113 @@ msgctxt ""
 msgid "Sampling Method"
 msgstr "Méthode d'échantillonnage"
 
-#. zDwkD
+#. XsLMx
 #: statistics_sampling.xhp
 msgctxt ""
 "statistics_sampling.xhp\n"
-"par_id1000070\n"
+"hd_id611623249550632\n"
 "help.text"
-msgid "<emph>Random</emph>: Picks exactly <emph>Sample Size</emph> lines of the source table in a random way."
-msgstr "<emph>Aléatoire</emph> : prends exactement des lignes de la <emph>taille de l'échantillon</emph> de la table source de façon aléatoire."
+msgid "Random"
+msgstr ""
 
-#. AAvrF
+#. fnhdR
 #: statistics_sampling.xhp
 msgctxt ""
 "statistics_sampling.xhp\n"
-"par_id1000080\n"
+"par_id711623249563655\n"
 "help.text"
-msgid "<emph>Sample size</emph>: Number of lines sampled from the source table."
-msgstr "<emph>Taille de l'échantillon</emph> : nombre de lignes échantillonnées à partir de la table source."
+msgid "Picks exactly <emph>Sample Size</emph> lines of the source table in a random way."
+msgstr ""
 
-#. hy48Z
+#. ePB4n
 #: statistics_sampling.xhp
 msgctxt ""
 "statistics_sampling.xhp\n"
-"par_id1000090\n"
+"hd_id431623249579089\n"
 "help.text"
-msgid "<emph>Periodic</emph>: Picks lines in a pace defined by <emph>Period</emph>."
-msgstr "<emph>Périodique</emph> : prends des lignes suivant un rythme défini par <emph>période</emph>."
+msgid "Sample size"
+msgstr ""
 
-#. i8TDF
+#. LtFAr
 #: statistics_sampling.xhp
 msgctxt ""
 "statistics_sampling.xhp\n"
-"par_id1000100\n"
+"par_id461623249594879\n"
 "help.text"
-msgid "<emph>Period</emph>: the number of lines to skip periodically when sampling."
-msgstr "<emph>Période</emph> : le nombre de lignes à ignorer périodiquement lors de l'échantillonnage."
+msgid "Number of lines sampled from the source table. The Sample size is limited to the population size for all sampling methods without replacement."
+msgstr ""
+
+#. S4cc4
+#: statistics_sampling.xhp
+msgctxt ""
+"statistics_sampling.xhp\n"
+"hd_id931623249610097\n"
+"help.text"
+msgid "With replacement"
+msgstr ""
+
+#. ArJPP
+#: statistics_sampling.xhp
+msgctxt ""
+"statistics_sampling.xhp\n"
+"par_id191623249619384\n"
+"help.text"
+msgid "When checked, put back samples in population (source table) after draw. A sample can be drawn more than once and therefore a larger sample size than population is possible. This option is mutually exclusive with <emph>Keep order</emph>. When unchecked, a sample drawn is not put back to the population and sample size is limited to population size."
+msgstr ""
+
+#. QG5Yo
+#: statistics_sampling.xhp
+msgctxt ""
+"statistics_sampling.xhp\n"
+"hd_id791623249632175\n"
+"help.text"
+msgid "Keep order"
+msgstr ""
+
+#. KBoyr
+#: statistics_sampling.xhp
+msgctxt ""
+"statistics_sampling.xhp\n"
+"par_id741623249641180\n"
+"help.text"
+msgid "When checked, samples are drawn in order of population data. Samples are not put back to the population (exclusive with <emph>With replacement</emph>). This option is automatically checked for <emph>Periodic</emph> sampling. When unchecked, samples are drawn in random order."
+msgstr ""
+
+#. 73nDr
+#: statistics_sampling.xhp
+msgctxt ""
+"statistics_sampling.xhp\n"
+"hd_id461623249656476\n"
+"help.text"
+msgid "Periodic"
+msgstr ""
+
+#. MFSpi
+#: statistics_sampling.xhp
+msgctxt ""
+"statistics_sampling.xhp\n"
+"par_id481623249667345\n"
+"help.text"
+msgid "Picks lines in a pace defined by <emph>Period</emph>."
+msgstr ""
+
+#. jM46a
+#: statistics_sampling.xhp
+msgctxt ""
+"statistics_sampling.xhp\n"
+"hd_id101623249682605\n"
+"help.text"
+msgid "Period"
+msgstr ""
+
+#. NVGau
+#: statistics_sampling.xhp
+msgctxt ""
+"statistics_sampling.xhp\n"
+"par_id621623249692296\n"
+"help.text"
+msgid "The number of lines to skip periodically when sampling. The <emph>Period</emph> is limited to the population size."
+msgstr ""
 
 #. NjytZ
 #: statistics_sampling.xhp
@@ -71061,6 +71133,41 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Wiki page on XML Source</link>"
 msgstr "<link href=\"https://wiki.documentfoundation.org/Development/Calc/XMLSource\" target=\"_blank\" name=\"Wiki page on XML Source\">Page de wiki sur la Source XML</link>"
+
+#~ msgctxt ""
+#~ "statistics_sampling.xhp\n"
+#~ "par_id1000050\n"
+#~ "help.text"
+#~ msgid "Sampling allows you to pick data from a <emph>source</emph> table to fill a <emph>target</emph> table. The sampling can be random or in a periodic basis."
+#~ msgstr "L'échantillonnage permet de prendre des données d'une table <emph>source</emph> pour remplir une table <emph>cible</emph>. L'échantillonnage peut être aléatoire ou sur une base périodique."
+
+#~ msgctxt ""
+#~ "statistics_sampling.xhp\n"
+#~ "par_id1000070\n"
+#~ "help.text"
+#~ msgid "<emph>Random</emph>: Picks exactly <emph>Sample Size</emph> lines of the source table in a random way."
+#~ msgstr "<emph>Aléatoire</emph> : prends exactement des lignes de la <emph>taille de l'échantillon</emph> de la table source de façon aléatoire."
+
+#~ msgctxt ""
+#~ "statistics_sampling.xhp\n"
+#~ "par_id1000080\n"
+#~ "help.text"
+#~ msgid "<emph>Sample size</emph>: Number of lines sampled from the source table."
+#~ msgstr "<emph>Taille de l'échantillon</emph> : nombre de lignes échantillonnées à partir de la table source."
+
+#~ msgctxt ""
+#~ "statistics_sampling.xhp\n"
+#~ "par_id1000090\n"
+#~ "help.text"
+#~ msgid "<emph>Periodic</emph>: Picks lines in a pace defined by <emph>Period</emph>."
+#~ msgstr "<emph>Périodique</emph> : prends des lignes suivant un rythme défini par <emph>période</emph>."
+
+#~ msgctxt ""
+#~ "statistics_sampling.xhp\n"
+#~ "par_id1000100\n"
+#~ "help.text"
+#~ msgid "<emph>Period</emph>: the number of lines to skip periodically when sampling."
+#~ msgstr "<emph>Période</emph> : le nombre de lignes à ignorer périodiquement lors de l'échantillonnage."
 
 #~ msgctxt ""
 #~ "04060110.xhp\n"
