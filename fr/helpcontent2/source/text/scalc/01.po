@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-06-04 13:09+0200\n"
-"PO-Revision-Date: 2021-06-11 15:18+0000\n"
+"PO-Revision-Date: 2021-06-11 22:03+0000\n"
 "Last-Translator: sophie <gautier.sophie@gmail.com>\n"
 "Language-Team: French <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/fr/>\n"
 "Language: fr\n"
@@ -5234,7 +5234,7 @@ msgctxt ""
 "par_id61616368616093\n"
 "help.text"
 msgid "Insert the formula <input>=DCOUNTA(A1:E10;; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate how many of Joe’s party guests travel further than 600 meters to school. The value 5 is returned."
-msgstr ""
+msgstr "Insérez la formule <input>=BDNBVAL(A1:E10;A12:E13)</input> dans une cellule vide ailleurs dans la feuille de calcul pour calcule combien d'invités de Joe sont éloignés de plus de 600 mètres de l'école. La valeur 5 est renvoyée."
 
 #. WyEGc
 #: 04060101.xhp
@@ -5243,7 +5243,7 @@ msgctxt ""
 "par_id841616368623207\n"
 "help.text"
 msgid "The same result is obtained if you use the formula <input>=DCOUNTA(A1:E10; \"Distance\"; A12:E13)</input> or the formula <input>=DCOUNTA(A1:E10; \"Name\"; A12:E13)</input>. The latter case reflects that in contrast to DCOUNT, DCOUNTA counts both numeric and alphanumeric values in the column indicated by the <emph>DatabaseField</emph> argument."
-msgstr ""
+msgstr "Le même résultat est obtenu si vous utilisez la formule <input>=BDNBVAL(A1:E10;\"Distance\";A12:E13)</input> ou la formule <input>=BDNBVAL(A1:E10; \"Nom\"; A12:E13)</input>. Le dernier cas reflète que contrairement à BDNB, BDNBVAL compte à la fois les valeurs numériques et alphanumériques dans la colonne indiquée par l'argument <emph>Champ de base de données</emph>."
 
 #. GasLC
 #: 04060101.xhp
@@ -5252,7 +5252,7 @@ msgctxt ""
 "bm_id3147256\n"
 "help.text"
 msgid "<bookmark_value>DGET function</bookmark_value><bookmark_value>cell contents;searching in Calc databases</bookmark_value><bookmark_value>searching;cell contents in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BDLIRE, fonction</bookmark_value><bookmark_value>Contenu des cellules;recherche dans les bases de données Calc</bookmark_value><bookmark_value>Recherche;contenu de cellule dans les bases de données Calc</bookmark_value>"
 
 #. wj7ck
 #: 04060101.xhp
@@ -5270,7 +5270,7 @@ msgctxt ""
 "par_id3152801\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBAUSZUG\">DGET returns the contents of the cell (field) of the specified column, for the single row (database record) that matches the specified search criteria.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBAUSZUG\">BDLIRE renvoie le contenu des cellules (champs) de la colonne spécifié, pour une seule ligne (enregistrement de base de données) qui correspond aux critères de recherche spécifiés.</ahelp>"
 
 #. GxBWY
 #: 04060101.xhp
@@ -5279,7 +5279,7 @@ msgctxt ""
 "par_id171616180137385\n"
 "help.text"
 msgid "Calc reports Err:502 (invalid argument) if multiple matches are found, or a #VALUE! error (wrong data type) if no matches are found. A #VALUE! error is also reported if a single match is found but the relevant cell is empty."
-msgstr ""
+msgstr "Calc renvoie une Err:502 (argument incorrect) si plusieurs correspondances sont trouvées, ou une erreur #VALEUR! (mauvais type de données) si aucune correspondance n'est trouvée. Une erreur #VALEUR! est également renvoyée si une seule correspondance est trouvée mais que la cellule correspondante est vide."
 
 #. oFi8J
 #: 04060101.xhp
@@ -5297,7 +5297,7 @@ msgctxt ""
 "par_id3155388\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell C13 which should contain \"11\" (this search criterion will match records in the database table that have a value of 11 in the Age column)."
-msgstr ""
+msgstr "L'exemple de table de base de données donnant des informations sur les hôtes invités à la fête d'anniversaire de Joe (décrite ci-dessus) doit occuper les cellules A1:E10. Le contenu des cellules A12:E12 doit être identique aux étiquettes d'en-tête de la table de base de données dans les cellules A1:E1. Assurez-vous que les cellules A13:E13 sont vides, à l'exception de la cellule C13 qui doit contenir \"11\" (ce critère de recherche correspondra aux enregistrements de la table de base de données qui ont une valeur de 11 dans la colonne Âge)."
 
 #. A942C
 #: 04060101.xhp
@@ -5306,7 +5306,7 @@ msgctxt ""
 "par_id3153096\n"
 "help.text"
 msgid "Insert the formula <input>=DGET(A1:E10; \"Name\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the name of Joe’s party guest who is age 11. The name Daniel is returned."
-msgstr ""
+msgstr "Insérez la formule <input>=BDLIRE(A1:E10;\"Nom\"; A12:E13)</input> dans une cellule vide ailleurs dans la feuille pour trouver le nom de l'invité de Joe qui a 11 ans. Le nom Daniel est renvoyé."
 
 #. 6AKoj
 #: 04060101.xhp
