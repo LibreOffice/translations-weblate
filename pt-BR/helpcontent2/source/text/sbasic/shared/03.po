@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-06-24 12:51+0200\n"
-"PO-Revision-Date: 2021-06-28 11:40+0000\n"
+"PO-Revision-Date: 2021-07-01 16:20+0000\n"
 "Last-Translator: Rafael Lima <rafael.palma.lima@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/pt_BR/>\n"
 "Language: pt-BR\n"
@@ -22093,7 +22093,7 @@ msgctxt ""
 "par_id13159655484952\n"
 "help.text"
 msgid "Creates and stores a new %PRODUCTNAME Base document embedding an empty database of the given type. The method returns a <literal>Document</literal> service instance."
-msgstr ""
+msgstr "Cria e armazena um novo documento %PRODUCTNAME Base com um banco de dados vazio de um tipo especificado. O método retorna uma instância do serviço <literal>Document</literal>."
 
 #. gqGpB
 #: sf_ui.xhp
@@ -22102,7 +22102,7 @@ msgctxt ""
 "par_id441596554849949\n"
 "help.text"
 msgid "<emph>filename</emph> : Identifies the file to create. It must follow the <literal>SF_FileSystem.FileNaming</literal> notation. If the file already exists, it is overwritten without warning"
-msgstr ""
+msgstr "<emph>filename</emph>: Identifica o arquivo a ser criado. Deve seguir a notação <literal>SF_FileSystem.FileNaming</literal>. Se o arquivo já existe, ele será sobrescrito sem aviso prévio."
 
 #. ncJxE
 #: sf_ui.xhp
@@ -22111,7 +22111,7 @@ msgctxt ""
 "par_id381596554849698\n"
 "help.text"
 msgid "<emph>embeddeddatabase</emph> : Either \"HSQLDB\" (default) or \"FIREBIRD\"."
-msgstr ""
+msgstr "<emph>embeddeddatabase</emph>: Pode ser \"HSQLDB\" (padrão) ou \"FIREBIRD\"."
 
 #. BWgpN
 #: sf_ui.xhp
@@ -22120,7 +22120,7 @@ msgctxt ""
 "par_id521596554849185\n"
 "help.text"
 msgid "<emph>registrationname</emph> : The name used to store the new database in the databases register. When = \"\" (default), no registration takes place. If the name already exists it is overwritten without warning."
-msgstr ""
+msgstr "<emph>registrationname</emph>: Nome usado para armazenar a nova base de dados no registro de bancos de dados. Quando for igual a \"\" nenhum registro será feito. Se o nome já existe, ele será sobrescrito sem aviso prévio."
 
 #. XkY2F
 #: sf_ui.xhp
@@ -22138,7 +22138,7 @@ msgctxt ""
 "par_id651588521753997\n"
 "help.text"
 msgid "Create a new %PRODUCTNAME document of a given type or based on a given template. The method returns a document object."
-msgstr ""
+msgstr "Cria um novo documento %PRODUCTNAME de um determinado tipo ou baseado em algum template. O método retorna um objeto de documento."
 
 #. 2rUeD
 #: sf_ui.xhp
@@ -22147,7 +22147,7 @@ msgctxt ""
 "par_id51588521753302\n"
 "help.text"
 msgid "<emph>documenttype</emph> : \"Calc\", \"Writer\", etc. If absent, the <literal>TemplateFile</literal> argument must be present."
-msgstr ""
+msgstr "<emph>documenttype</emph>: \"Calc\", \"Writer\", etc. Se não for especificado, o argumento <literal>TemplateFile</literal> passa a ser obrigatório."
 
 #. BQ6UD
 #: sf_ui.xhp
@@ -22156,7 +22156,7 @@ msgctxt ""
 "par_id401588522663325\n"
 "help.text"
 msgid "<emph>templatefile</emph> : The full <literal>FileName</literal> of the template to build the new document on. If the file does not exist, the argument is ignored. The <literal>FileSystem</literal> service provides the <literal>TemplatesFolder</literal> and <literal>UserTemplatesFolder</literal> properties to help to build the argument."
-msgstr ""
+msgstr "<emph>templatefile</emph>: O nome completo do arquivo (<literal>FileName</literal>) do template a ser usado na construção do novo documento. Se o arquivo não existir, o argumento é ignorado. O serviço <literal>FileSystem</literal> fornece o caminho para a pasta de templates (<literal>TemplatesFolder</literal> e <literal>UserTemplatesFolder</literal>) que podem ajudar na preparação deste argumento."
 
 #. VeNQg
 #: sf_ui.xhp
@@ -22165,7 +22165,7 @@ msgctxt ""
 "par_id131588522824366\n"
 "help.text"
 msgid "<emph>hidden</emph>: if <literal>True</literal>, open the new document in the background (default = <literal>False</literal>). To use with caution: activation or closure afterwards can only happen programmatically."
-msgstr ""
+msgstr "<emph>hidden</emph>: Se <literal>True</literal>, abre o novo documento no plano de fundo (padrão = <literal>False</literal>). Use com cuidado, pois a ativação ou fechamento posterior só pode ser feita por meio de programação."
 
 #. gWFt9
 #: sf_ui.xhp
@@ -22174,7 +22174,7 @@ msgctxt ""
 "par_id701620762417802\n"
 "help.text"
 msgid "In both examples below, the first call to <literal>CreateDocument</literal> method creates a blank Calc document, whereas the second creates a document from a template file."
-msgstr ""
+msgstr "Em ambos os exemplos abaixo, a primeira chamada do método <literal>CreateDocument</literal> cria um documento Calc em branco, enquanto que a segunda chamada cria um documento usando um arquivo de modelo."
 
 #. W3qxn
 #: sf_ui.xhp
@@ -22192,7 +22192,7 @@ msgctxt ""
 "par_id851588520551368\n"
 "help.text"
 msgid "<emph>windowname</emph>: See the definitions <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\" name=\"WindowName section\">above</link>. If this argument is absent, the active window is used."
-msgstr ""
+msgstr "<emph>windowname</emph>: Veja as definições <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\" name=\"WindowName section\">acima</link>. Se este argumento estiver ausente a janela ativa é usada."
 
 #. AAjDB
 #: sf_ui.xhp
@@ -22201,7 +22201,7 @@ msgctxt ""
 "par_id521620330287071\n"
 "help.text"
 msgid "To access the name of the currently active window, refer to the <literal>ActiveWindow</literal> property."
-msgstr ""
+msgstr "Para acessar o nome da janela atualmente ativa, consulte a propriedade <literal>ActiveWindow</literal>."
 
 #. CYsyC
 #: sf_ui.xhp
@@ -22219,7 +22219,7 @@ msgctxt ""
 "par_id951587986441954\n"
 "help.text"
 msgid "<emph>windowname</emph>: see the definitions <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\" name=\"WindowName section\">above</link>. If this argument is absent, the active window is maximized."
-msgstr ""
+msgstr "<emph>windowname</emph>: Veja as definições <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\" name=\"WindowName section\">acima</link>. Se este argumento estiver ausente a janela ativa é maximizada."
 
 #. vzDdG
 #: sf_ui.xhp
@@ -22237,7 +22237,7 @@ msgctxt ""
 "par_id751587986592626\n"
 "help.text"
 msgid "<emph>windowname</emph>: see the definitions <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\" name=\"WindowName section\">above</link>. If this argument is absent, the active window is minimized."
-msgstr ""
+msgstr "<emph>windowname</emph>: Veja as definições <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\" name=\"WindowName section\">acima</link>. Se este argumento estiver ausente a janela ativa é minimizada."
 
 #. WHDDQ
 #: sf_ui.xhp
@@ -22246,7 +22246,7 @@ msgctxt ""
 "par_id691596555746539\n"
 "help.text"
 msgid "Open an existing %PRODUCTNAME Base document. The method returns a document object."
-msgstr ""
+msgstr "Abre um documento %PRODUCTNAME Base existente. O método retorna um objeto de documento."
 
 #. yGPbD
 #: sf_ui.xhp
@@ -22255,7 +22255,7 @@ msgctxt ""
 "par_id231596555746385\n"
 "help.text"
 msgid "<emph>filename</emph> : Identifies the file to open. It must follow the SF_FileSystem.FileNaming notation. If the file already exists, it is overwritten without warning"
-msgstr ""
+msgstr "<emph>filename</emph>: Identifica o arquivo a ser aberto. Deve seguir a notação SF_FileSystem.FileNaming. Se o arquivo já existe, ele será sobrescrito sem aviso prévio."
 
 #. DBB9u
 #: sf_ui.xhp
@@ -22264,7 +22264,7 @@ msgctxt ""
 "par_id711596555746281\n"
 "help.text"
 msgid "<emph>registrationname</emph> : The name to use to find the database in the databases register. It is ignored if <literal>FileName</literal> <> \"\"."
-msgstr ""
+msgstr "<emph>registrationname</emph>: Nome a ser usado para encontrar o banco de dados no registro de bancos de dados. É ignorado se <literal>FileName</literal> for diferente de \"\"."
 
 #. TqAd2
 #: sf_ui.xhp
@@ -22273,7 +22273,7 @@ msgctxt ""
 "id721596556313545\n"
 "help.text"
 msgid "<emph>macroexecution</emph>: 0 = behaviour is defined by the user configuration, 1 = macros are not executable, 2 = macros are executable."
-msgstr ""
+msgstr "<emph>macroexecution</emph>: Se igual a 0 então o comportamento é definido pelas configurações de usuário. Se for igual a 1, macros não são executáveis. Se for igual a 2, macros são executáveis."
 
 #. Dok5e
 #: sf_ui.xhp
@@ -22282,7 +22282,7 @@ msgctxt ""
 "par_id941620762989833\n"
 "help.text"
 msgid "To improve code readability you can use <link href=\"text/sbasic/shared/03/sf_ui.xhp#Constants\" name=\"CHANGE ME\">predefined constants</link> for the <literal>macroexecution</literal> argument, as in the examples above."
-msgstr ""
+msgstr "Para melhorar a legibilidade do código você pode usar <link href=\"text/sbasic/shared/03/sf_ui.xhp#Constants\" name=\"CHANGE ME\">constantes pré-definidas</link> para o argumento <literal>macroexecution</literal>, como nos exemplos acima."
 
 #. LBgGQ
 #: sf_ui.xhp
@@ -22291,7 +22291,7 @@ msgctxt ""
 "par_id541588523635283\n"
 "help.text"
 msgid "Opens an existing %PRODUCTNAME document with the given options. Returns a document object or one of its subclasses. The method returns <literal>Nothing</literal> (in Basic) / <literal>None</literal> (in Python) if the opening failed, even when the failure is caused by a user decision."
-msgstr ""
+msgstr "Abre um documento %PRODUCTNAME existente com as opções especificadas. Retorna um objeto de documento ou uma de suas subclasses. O método retornará <literal>Nothing</literal> (em Basic) / <literal>None</literal> (em Python) se a abertura falhar, mesmo quando a falha for causada por uma decisão do usuário."
 
 #. 8tjbg
 #: sf_ui.xhp
@@ -22300,7 +22300,7 @@ msgctxt ""
 "par_id481588523635890\n"
 "help.text"
 msgid "<emph>filename</emph>: Identifies the file to open. It must follow the <literal>FileNaming</literal> notation of the <literal>FileSystem</literal> service."
-msgstr ""
+msgstr "<emph>filename</emph>: Identifica o nome do arquivo a ser aberto. Deve seguir a notação <literal>FileNaming</literal> do serviço <literal>FileSystem</literal>."
 
 #. PWvQz
 #: sf_ui.xhp
@@ -22309,7 +22309,7 @@ msgctxt ""
 "par_id451588523635507\n"
 "help.text"
 msgid "<emph>password</emph>: To use when the document is protected. If wrong or absent while the document is protected, the user will be prompted to enter a password."
-msgstr ""
+msgstr "<emph>password</emph>: Senha a ser usada quando o documento for protegido. Se a senha for incorreta ou inexistente, o usuário será solicitado a informar a senha do documento."
 
 #. 2jjFK
 #: sf_ui.xhp
@@ -22318,7 +22318,7 @@ msgctxt ""
 "par_id611588524329781\n"
 "help.text"
 msgid "<emph>readonly</emph>: Default = <literal>False</literal>."
-msgstr ""
+msgstr "<emph>readonly</emph>: Somente Leitura. Padrão = <literal>False</literal>."
 
 #. BcyEp
 #: sf_ui.xhp
@@ -22327,7 +22327,7 @@ msgctxt ""
 "par_id641588523635497\n"
 "help.text"
 msgid "<emph>hidden</emph>: if <literal>True</literal>, open the new document in the background (default = <literal>False</literal>). To use with caution: activation or closure afterwards can only happen programmatically."
-msgstr ""
+msgstr "<emph>hidden</emph>: Se <literal>True</literal>, abre o novo documento no plano de fundo (padrão = <literal>False</literal>). Use com cuidado, pois a ativação ou fechamento posterior só pode ser feita por meio de programação."
 
 #. sbgeH
 #: sf_ui.xhp
@@ -22336,7 +22336,7 @@ msgctxt ""
 "par_id981588524474719\n"
 "help.text"
 msgid "<emph>macroexecution</emph>: 0 = behaviour is defined by the user configuration, 1 = macros are not executable, 2 = macros are executable."
-msgstr ""
+msgstr "<emph>macroexecution</emph>: Se igual a 0 então o comportamento é definido pelas configurações de usuário. Se for igual a 1, macros não são executáveis. Se for igual a 2, macros são executáveis."
 
 #. AF7iF
 #: sf_ui.xhp
@@ -22345,7 +22345,7 @@ msgctxt ""
 "par_id611588524584693\n"
 "help.text"
 msgid "<emph>filtername</emph>: The name of a filter that should be used for loading the document. If present, the filter must exist."
-msgstr ""
+msgstr "<emph>filtername</emph>: Nome do filtro que deve ser usado para carregar o documento. Se este argumento for passado, então o filtro deve existir."
 
 #. MKueU
 #: sf_ui.xhp
@@ -22354,7 +22354,7 @@ msgctxt ""
 "par_id191588524634348\n"
 "help.text"
 msgid "<emph>filteroptions</emph>: An optional string of options associated with the filter."
-msgstr ""
+msgstr "<emph>filteroptions</emph>: String opcional com as opções associadas ao filtro."
 
 #. qMTrj
 #: sf_ui.xhp
@@ -22372,7 +22372,7 @@ msgctxt ""
 "par_id441587986945696\n"
 "help.text"
 msgid "<emph>left, top</emph>: Distances of the top-left corner from top and left edges of the screen, in pixels."
-msgstr ""
+msgstr "<emph>left, top</emph>: Distâncias do canto superior esquerdo com relação às bordas superior e esquerda da tela, em pixels."
 
 #. AdcjG
 #: sf_ui.xhp
@@ -22381,7 +22381,7 @@ msgctxt ""
 "par_id601587987453825\n"
 "help.text"
 msgid "<emph>width, height</emph>: New dimensions of the window, in pixels."
-msgstr ""
+msgstr "<emph>width, height</emph>: Novas dimensões da janela, em pixels."
 
 #. vDNVH
 #: sf_ui.xhp
@@ -22390,7 +22390,7 @@ msgctxt ""
 "par_id801587987507028\n"
 "help.text"
 msgid "In the following examples, the <literal>width</literal> and <literal>height</literal> of the window are changed while <literal>top</literal> and <literal>left</literal> are left unchanged."
-msgstr ""
+msgstr "Nos exemplos a seguir, os valores <literal>width</literal> e <literal>height</literal> da janela são modificados e os valores <literal>top</literal> e <literal>left</literal> são mantidos."
 
 #. 7HuAE
 #: sf_ui.xhp
@@ -22408,7 +22408,7 @@ msgctxt ""
 "par_id21620332301809\n"
 "help.text"
 msgid "To resize a window that is not active, first activate it using the <literal>Activate</literal> method."
-msgstr ""
+msgstr "Para redimensionar uma janela que não está ativa, primeiro ative-a usando o método <literal>Activate</literal>."
 
 #. NnBWM
 #: sf_ui.xhp
@@ -22426,7 +22426,7 @@ msgctxt ""
 "par_id71587996421829\n"
 "help.text"
 msgid "<emph>text</emph>: An optional text to be displayed in front of the progress bar."
-msgstr ""
+msgstr "<emph>text</emph>: Um texto opcional a ser mostrado na frente da barra de progresso."
 
 #. hbCpG
 #: sf_ui.xhp
@@ -22435,7 +22435,7 @@ msgctxt ""
 "par_id881587996421777\n"
 "help.text"
 msgid "<emph>percentage</emph>: an optional degree of progress between 0 and 100."
-msgstr ""
+msgstr "<emph>percentage</emph>: Um valor opcional referente ao progresso a ser mostrado, entre 0 e 100."
 
 #. qbGdy
 #: sf_ui.xhp
@@ -22444,7 +22444,7 @@ msgctxt ""
 "bas_id651620332601083\n"
 "help.text"
 msgid "' Resets the statusbar"
-msgstr ""
+msgstr "' Redefine a barra de status"
 
 #. venZk
 #: sf_ui.xhp
@@ -22498,7 +22498,7 @@ msgctxt ""
 "par_id571598864255776\n"
 "help.text"
 msgid "Displays a non-modal dialog box. Specify its title, an explicatory text and a percentage of progress to be represented on a progressbar. The dialog will remain visible until a call to the method without arguments or until the user manually closes the dialog."
-msgstr ""
+msgstr "Mostra uma caixa de diálogo não modal. Especifica seu título, um texto explicativo e uma porcentagem de progresso a ser informada na barra de progresso. A caixa de diálogo permanece visível até uma chamada do método sem argumentos ou até que o usuário feche-a manualmente."
 
 #. drhV6
 #: sf_ui.xhp
@@ -22507,7 +22507,7 @@ msgctxt ""
 "par_id441598864535695\n"
 "help.text"
 msgid "<emph>title</emph> : The title appearing on top of the dialog box. Default = \"ScriptForge\"."
-msgstr ""
+msgstr "<emph>title</emph>: Título a ser apresentado no topo da caixa de diálogo. Padrão = \"ScriptForge\"."
 
 #. jvrZV
 #: sf_ui.xhp
@@ -22516,7 +22516,7 @@ msgctxt ""
 "par_id311598864255297\n"
 "help.text"
 msgid "<emph>text</emph>: An optional text to be displayed above the progress bar."
-msgstr ""
+msgstr "<emph>text</emph>: Texto opcional a ser apresentado acima da barra de progresso."
 
 #. Qj3N3
 #: sf_ui.xhp
@@ -22534,7 +22534,7 @@ msgctxt ""
 "bas_id651620333289753\n"
 "help.text"
 msgid "' Closes the Progress Bar window"
-msgstr ""
+msgstr "' Fecha a janela com a barra de progresso"
 
 #. u3gZ8
 #: sf_ui.xhp
@@ -22543,7 +22543,7 @@ msgctxt ""
 "pyc_id761620333269236\n"
 "help.text"
 msgid "# Closes the Progress Bar window"
-msgstr ""
+msgstr "# Fecha a janela com a barra de progresso"
 
 #. ZEG6t
 #: sf_ui.xhp
@@ -22561,7 +22561,7 @@ msgctxt ""
 "par_id45158858711917\n"
 "help.text"
 msgid "<emph>windowname</emph>: see the definitions above."
-msgstr ""
+msgstr "<emph>windowname</emph>: Veja as definições apresentadas acima."
 
 #. F7ntw
 #: sf_ui.xhp
