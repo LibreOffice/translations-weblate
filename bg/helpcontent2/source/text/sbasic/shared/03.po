@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2021-06-11 15:19+0000\n"
+"PO-Revision-Date: 2021-07-03 02:05+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/bg/>\n"
 "Language: bg\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.6.2\n"
 "X-POOTLE-MTIME: 1559418514.000000\n"
 
 #. ViEWM
@@ -140,7 +140,7 @@ msgctxt ""
 "bm_id491529070339774\n"
 "help.text"
 msgid "<bookmark_value>BASIC ScriptForge library</bookmark_value>        <bookmark_value>Python scriptforge module</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BASIC, библиотека ScriptForge</bookmark_value> <bookmark_value>Python, модул scriptforge</bookmark_value>"
 
 #. BtMUU
 #: lib_ScriptForge.xhp
@@ -158,7 +158,7 @@ msgctxt ""
 "par_id1001623412767893\n"
 "help.text"
 msgid "To learn more about how to create and execute Python scripts using the <literal>ScriptForge</literal> library, read the <embedvar href=\"text/sbasic/shared/03/sf_intro.xhp#title\"/> help page."
-msgstr ""
+msgstr "За да научите повече за създаването и изпълняването на скриптове на Python с библиотеката <literal>ScriptForge</literal>, прочетете страницата <embedvar href=\"text/sbasic/shared/03/sf_intro.xhp#title\"/> в помощта."
 
 #. wKZM6
 #: lib_ScriptForge.xhp
@@ -1247,7 +1247,7 @@ msgctxt ""
 "par_id981582552517872\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph> : Only for string comparisons, default = <literal>False</literal>."
-msgstr "<emph>CaseSensitive</emph>: само за сравняване на низове, подразбира се = <literal>False</literal>."
+msgstr "<emph>CaseSensitive</emph>: само за сравняване на низове, подразбира се <literal>False</literal>."
 
 #. NBAGy
 #: sf_array.xhp
@@ -1517,7 +1517,7 @@ msgctxt ""
 "par_id611585561482373\n"
 "help.text"
 msgid "Import the data contained in a comma-separated values (CSV) file. The comma may be replaced by any character."
-msgstr ""
+msgstr "Импортира данните от файл със стойности, разделени със запетая (CSV). Запетаята може да бъде заменена с произволен друг знак."
 
 #. Fft9z
 #: sf_array.xhp
@@ -1526,7 +1526,7 @@ msgctxt ""
 "par_id41585562158392\n"
 "help.text"
 msgid "The applicable CSV format is described in <link href=\"https://tools.ietf.org/html/rfc4180\" name=\"CSV formats\">IETF Common Format and MIME Type for CSV Files</link>."
-msgstr ""
+msgstr "Приложимият формат CSV е описан в документа <link href=\"https://tools.ietf.org/html/rfc4180\" name=\"CSV formats\">IETF Common Format and MIME Type for CSV Files</link>."
 
 #. PT3Pq
 #: sf_array.xhp
@@ -1536,6 +1536,8 @@ msgctxt ""
 "help.text"
 msgid "Each line in the file contains a full record (line splitting is not allowed).     <br/>However sequences like <literal>\\n</literal>, <literal>\\t</literal>, ... are left unchanged. Use <literal>SF_String</literal>.Unescape() method to manage them."
 msgstr ""
+"Всеки ред във файла съдържа по един пълен запис (не се разрешава разделяне на редове на части). <br/>Последователности от рода на <literal>\\n"
+"</literal>, <literal>\\t</literal>, ... остават непроменени. За тяхната обработка използвайте метода <literal>SF_String</literal>.Unescape()."
 
 #. dCYB3
 #: sf_array.xhp
@@ -1544,7 +1546,7 @@ msgctxt ""
 "par_id231585562475026\n"
 "help.text"
 msgid "The method returns a two dimension array whose rows correspond to a single record read in the file and whose columns correspond to a field of the record. No check is made about the coherence of the field types across columns. A best guess will be made to identify numeric and date types."
-msgstr ""
+msgstr "Методът връща двуизмерен масив, чиито редове съответстват на записите, прочетени от файла, а колоните – на полета от записите. Не се проверява дали типовете на полетата са съгласувани в рамките на колоните. Прави се опит за разпознаване на числа и дати."
 
 #. FMKSo
 #: sf_array.xhp
@@ -1553,7 +1555,7 @@ msgctxt ""
 "par_id101585562548245\n"
 "help.text"
 msgid "If a line contains less or more fields than the first line in the file, an exception will be raised. Empty lines however are simply ignored. If the size of the file exceeds the number of items limit (see inside the code), a warning is raised and the array is truncated."
-msgstr ""
+msgstr "Ако някой ред съдържа повече или по-малко полета от първия ред във файла, ще възникне изключение. Празните редове обаче просто се игнорират. Ако размерът на файла надхвърля ограничението за брой на елементите (вижте в кода), ще бъде издадено предупреждение и масивът ще бъде съкратен."
 
 #. zbUFJ
 #: sf_array.xhp
@@ -1562,7 +1564,7 @@ msgctxt ""
 "par_id441585561482121\n"
 "help.text"
 msgid "<emph>FileName</emph> : the name of the text file containing the data. The name is expressed as given by the current <literal>FileNaming</literal> property of the <literal>SF_FileSystem</literal> service. Default = any (both the URL format and the native operating system format are admitted)."
-msgstr ""
+msgstr "<emph>FileName</emph>: името на текстовия файл с данните. Името се изразява според текущото свойство <literal>FileNaming</literal> на услугата <literal>SF_FileSystem</literal>. Подразбира се any (приемат се и форматът URL, и собственият формат на операционната система)."
 
 #. eQNz4
 #: sf_array.xhp
@@ -1571,7 +1573,7 @@ msgctxt ""
 "par_id251585561482929\n"
 "help.text"
 msgid "<emph>Delimiter</emph> : A single character, usually, a comma, a semicolon or a TAB character. Default = <literal>\",\"</literal>."
-msgstr ""
+msgstr "<emph>Delimiter</emph>: единичен знак, обикновено, запетая, точка и запетая или знак за табулация. Подразбира се <literal>\",\"</literal>."
 
 #. xZgEn
 #: sf_array.xhp
@@ -1580,7 +1582,7 @@ msgctxt ""
 "par_id631585563491559\n"
 "help.text"
 msgid "<emph>DateFormat</emph> : A special mechanism handles dates when <literal>DateFormat</literal> is either \"YYYY-MM-DD\", \"DD-MM-YYYY\" or \"MM-DD-YYYY\". The dash (-) may be replaced by a dot (.), a slash (/) or a space. Other date formats will be ignored. Dates defaulting to \"\" are considered as normal text."
-msgstr ""
+msgstr "<emph>DateFormat</emph>: когато <literal>DateFormat</literal> е \"YYYY-MM-DD\", \"DD-MM-YYYY\" или \"MM-DD-YYYY\", датите се обработват по специален начин. Тирето (-) може да е заменено с точка (.), наклонена черта (/) или интервал. Другите формати на дати се игнорират. Датите с подразбирана стойност \"\" се смятат за обикновен текст."
 
 #. MVUwS
 #: sf_array.xhp
@@ -1589,7 +1591,7 @@ msgctxt ""
 "par_id61585564516409\n"
 "help.text"
 msgid "Given this CSV file:"
-msgstr ""
+msgstr "Нека е даден следният CSV файл:"
 
 #. xCx7D
 #: sf_array.xhp
@@ -1598,7 +1600,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr ""
+msgstr "Претърсва едномерен масив за число, низ или дата. Сравняването на текст може да бъде или да не бъде чувствително към регистъра.<br/>Ако масивът е сортиран, той трябва да е запълнен хомогенно, тоест всички елементи трябва да са скалари от един и същ тип (елементи със стойност <literal>Empty</literal> и <literal>Null</literal> са забранени).<br/>Резултатът от метода е непредсказуем, когато масивът е обявен като сортиран, но в действителност не е такъв.<br/>Ако масивът е сортиран, се извършва двоично търсене. В противен случай той просто се обхожда от началото до края и елементите <literal>Empty</literal> и <literal>Null</literal> се игнорират. <br/> <br/>Ако търсенето е неуспешно, методът връща <literal>LBound(input array) - 1</literal>."
 
 #. mg7DA
 #: sf_array.xhp
@@ -1607,7 +1609,7 @@ msgctxt ""
 "par_id315825627687760\n"
 "help.text"
 msgid "<emph>Array_1D</emph> : the array to scan."
-msgstr ""
+msgstr "<emph>Array_1D</emph>: масивът за обхождане."
 
 #. 4CuFE
 #: sf_array.xhp
@@ -1616,7 +1618,7 @@ msgctxt ""
 "par_id511582562775516\n"
 "help.text"
 msgid "<emph>ToFind</emph> : a number, a date or a string to find."
-msgstr ""
+msgstr "<emph>ToFind</emph>: търсено число, дата или низ."
 
 #. 4YGrJ
 #: sf_array.xhp
@@ -1625,7 +1627,7 @@ msgctxt ""
 "par_id311582562787187\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph> : Only for string comparisons, default = <literal>False</literal>."
-msgstr ""
+msgstr "<emph>CaseSensitive</emph>: само за сравняване на низове, подразбира се <literal>False</literal>."
 
 #. KHzrp
 #: sf_array.xhp
@@ -1634,7 +1636,7 @@ msgctxt ""
 "par_id421582562794501\n"
 "help.text"
 msgid "<emph>SortOrder</emph> : <literal>\"ASC\"</literal>, <literal>\"DESC\"</literal> or <literal>\"\"</literal> (= not sorted, default)"
-msgstr ""
+msgstr "<emph>SortOrder</emph>: <literal>\"ASC\"</literal>, <literal>\"DESC\"</literal> или <literal>\"\"</literal> (= несортиран, подразбира се)."
 
 #. AWJHj
 #: sf_array.xhp
@@ -1643,7 +1645,7 @@ msgctxt ""
 "par_id911582626951109\n"
 "help.text"
 msgid "Insert before a given index of the input array the items listed as arguments.      <br/>Arguments are inserted blindly. Each of them might be either a scalar of any type or a subarray."
-msgstr ""
+msgstr "Вмъква преди даден индекс на входния масив елементите, изброени като аргументи. <br/>Аргументите се вмъкват без проверка. Всеки от тях може да бъде или скалар от произволен тип, или подмасив."
 
 #. 32Nui
 #: sf_array.xhp
@@ -1652,7 +1654,7 @@ msgctxt ""
 "par_id251582626951111\n"
 "help.text"
 msgid "<emph>Array_1D</emph> : the pre-existing array, may be empty."
-msgstr ""
+msgstr "<emph>Array_1D</emph>: съществуващият масив, може да е празен."
 
 #. BYjmR
 #: sf_array.xhp
@@ -1661,7 +1663,7 @@ msgctxt ""
 "par_id361582626951111\n"
 "help.text"
 msgid "<emph>Before</emph> : the index before which to insert; must be in the interval <literal>[LBound, UBound + 1]</literal>."
-msgstr ""
+msgstr "<emph>Before</emph>: индексът, преди който да се вмъква; трябва да е в интервала <literal>[LBound, UBound + 1]</literal>."
 
 #. uEZky
 #: sf_array.xhp
@@ -1670,7 +1672,7 @@ msgctxt ""
 "par_id41582626951111\n"
 "help.text"
 msgid "<emph>arg0, ...</emph> : a list of items to insert inside <literal>Array_1D</literal>."
-msgstr ""
+msgstr "<emph>arg0, ...</emph>: списък от елементи, които да бъдат вмъкнати в <literal>Array_1D</literal>."
 
 #. RLTGT
 #: sf_array.xhp
@@ -1679,7 +1681,7 @@ msgctxt ""
 "par_id441582627664147\n"
 "help.text"
 msgid "Insert in a sorted array a new item on its place.      <br/>The array must be filled homogeneously, meaning that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are forbidden."
-msgstr ""
+msgstr "Вмъква нов елемент на правилното място в сортиран масив. <br/>Масивът трябва да е попълнен хомогенно, тоест всичките му елементи трябва да са скалари от един и същ тип. <br/>Забранени са елементи <literal>Empty</literal> and <literal>Null</literal>."
 
 #. 7q2JZ
 #: sf_array.xhp
@@ -1688,7 +1690,7 @@ msgctxt ""
 "par_id121582627664147\n"
 "help.text"
 msgid "<emph>Array_1D</emph> : The array to sort."
-msgstr ""
+msgstr "<emph>Array_1D</emph>: масивът, който да бъде сортиран."
 
 #. GygFp
 #: sf_array.xhp
@@ -1697,7 +1699,7 @@ msgctxt ""
 "par_id315826276641480\n"
 "help.text"
 msgid "<emph>Item</emph> : The scalar value to insert, of the same type as the existing array items."
-msgstr ""
+msgstr "<emph>Item</emph>: скаларната стойност, която да бъде вмъкната, от същия тип като съществуващите елементи на масива."
 
 #. LFGs8
 #: sf_array.xhp
@@ -1706,7 +1708,7 @@ msgctxt ""
 "par_id415826279771170\n"
 "help.text"
 msgid "<emph>SortOrder</emph> : <literal>\"ASC\"</literal> (default) or <literal>\"DESC\"</literal>."
-msgstr ""
+msgstr "<emph>SortOrder</emph>: <literal>\"ASC\"</literal> (подразбира се) или <literal>\"DESC\"</literal>."
 
 #. CwMCp
 #: sf_array.xhp
@@ -1715,7 +1717,7 @@ msgctxt ""
 "par_id701582627970037\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph> : Only for string comparisons, default = <literal>False</literal>."
-msgstr ""
+msgstr "<emph>CaseSensitive</emph>: само за сравняване на низове, подразбира се <literal>False</literal>."
 
 #. t9UFn
 #: sf_array.xhp
