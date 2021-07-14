@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-06-24 12:51+0200\n"
-"PO-Revision-Date: 2021-07-09 13:47+0000\n"
+"PO-Revision-Date: 2021-07-14 18:03+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/eu/>\n"
 "Language: eu\n"
@@ -5603,7 +5603,7 @@ msgctxt ""
 "par_id121616181037440\n"
 "help.text"
 msgid "Returns a #NUM! error if exactly one record matches the specified search criteria, or if there is only one numeric value in the cells of the specified column for the matching records."
-msgstr "#NUM! errore bat itzultzen du erregistro bakar bat soilik bat badator zehaztutako bilaketa-irizpideekin, edo zehaztutako zutabeko gelaxketan zenbakizko balio bakar bat badago bat datozen erregistroetan."
+msgstr "#ZBKIA! errore bat itzultzen du erregistro bakar bat soilik bat badator zehaztutako bilaketa-irizpideekin, edo zehaztutako zutabeko gelaxketan zenbakizko balio bakar bat badago bat datozen erregistroetan."
 
 #. r6onB
 #: 04060101.xhp
@@ -5666,7 +5666,7 @@ msgctxt ""
 "par_id3145598\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBSTDABWN\">DSTDEVP calculates the population standard deviation based on the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Non-numeric values are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBSTDABWN\">DSTDEVP funtzioak populazioaren desbideratze estandarra kalkulatzen du zehaztutako zutabearen gelaxketako (eremuetako) zenbakizko balioekin, zehaztutako bilaketa-irizpidearekin bat datozen errenkada (datu-baseko erregistro) guztietarako.</ahelp> Zenbakiak ez diren gelaxketako balioei ez ikusiarena egingo zaie."
 
 #. TjThw
 #: 04060101.xhp
@@ -5675,7 +5675,7 @@ msgctxt ""
 "par_id541616181205698\n"
 "help.text"
 msgid "Returns a #NUM! error if no records match the specified search criteria, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "#ZBKIA! errore bat itzultzen du ez badago zehaztutako bilaketa-irizpideekin bat datorren erregistrorik, edo zehaztutako zutabeko gelaxketan zenbakizko baliorik ez badago bat datozen erregistroetan."
 
 #. uGaWp
 #: 04060101.xhp
@@ -5693,7 +5693,7 @@ msgctxt ""
 "par_id3155431\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:D13 are blank and that cell E13 contains \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Jonen urtebetetze-festara gonbidatutako pertsonen informazioa ematen duen adibideko datu-baseak (goian deskribatutakoak) A1:E10 gelaxkak bete beharko lituzke. A12:E12 gelaxken edukiak eta datu-basearen taulak A1:E1 gelaxketan dituen goiburuko-etiketek berdina izan behar lukete. Ziurtatu A13:D13 gelaxkak hutsik daudela, E13 gelaxkan salbu, horrek \">0\" eduki behar baitu (bilaketa-irizpide horrek bat egingo du datu-basearen taulako erregistro guztiekin)."
 
 #. 6eisL
 #: 04060101.xhp
@@ -5702,7 +5702,7 @@ msgctxt ""
 "par_id3148411\n"
 "help.text"
 msgid "Insert the formula <input>=DSTDEVP(A1:E10; \"Weight\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the population standard deviation of the weights in kg of Joe’s party guests. The value 5.18545 is returned."
-msgstr ""
+msgstr "Txertatu <input>=DSTDEVP(A1:E10; \"Pisua\"; A12:E13)</input> formula orriko edozein gelaxka hutsetan, Jonen gonbidatuen pisuen (kiloetan) desbideratze estandarra kalkulatzeko. Itzulitako balioa 5,18545 izango da."
 
 #. Z2CTY
 #: 04060101.xhp
@@ -5711,7 +5711,7 @@ msgctxt ""
 "bm_id3154794\n"
 "help.text"
 msgid "<bookmark_value>DSUM function</bookmark_value><bookmark_value>calculating;sums in Calc databases</bookmark_value><bookmark_value>sums;cells in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DSUM funtzioa</bookmark_value><bookmark_value>kalkulatzea;batuketak Calc datu-baseetan</bookmark_value><bookmark_value>batu;gelaxkak Calc datu-baseetan</bookmark_value>"
 
 #. ybMg9
 #: 04060101.xhp
@@ -5729,7 +5729,7 @@ msgctxt ""
 "par_id3149591\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBSUMME\">DSUM calculates the sum of all numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBSUMME\">DSUM funtzioak batu egiten ditu zehaztutako zutabearen gelaxketako (eremuetako) zenbakizko balioak, zehaztutako bilaketa-irizpidearekin bat datozen errenkada (datu-baseko erregistro) guztietarako.</ahelp> Hutsik dauden gelaxkei edo zenbakiak ez diren balioak dituztenei ez ikusiarena egingo zaie."
 
 #. PEAvG
 #: 04060101.xhp
@@ -5738,7 +5738,7 @@ msgctxt ""
 "par_id691616181332088\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "0 itzultzen du ez badago bat datorren erregistrorik edo zehaztutako zutabeko gelaxketan zenbakizko baliorik ez badago bat datozen erregistroetan."
 
 #. LD8jB
 #: 04060101.xhp
@@ -5756,7 +5756,7 @@ msgctxt ""
 "par_id3152766\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Jonen urtebetetze-festara gonbidatutako pertsonen informazioa ematen duen adibideko datu-baseak (goian deskribatutakoak) A1:E10 gelaxkak bete beharko lituzke. A12:E12 gelaxken edukiak eta datu-basearen taulak A1:E1 gelaxketan dituen goiburuko-etiketek berdina izan behar lukete. Ziurtatu A13:E13 gelaxkak hutsik daudela, D13 gelaxkan salbu, horrek \">0\" eduki behar baitu (bilaketa-irizpide horrek bat egingo du datu-basearen taulako erregistro guztiekin)."
 
 #. riVB4
 #: 04060101.xhp
@@ -5765,7 +5765,7 @@ msgctxt ""
 "par_id3151312\n"
 "help.text"
 msgid "Insert the formula <input>=DSUM(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the total distance in meters that all of Joe’s party guests travel to school. The value 6000 is returned."
-msgstr ""
+msgstr "Txertatu <input>=DSUM(A1:E10; \"Distantzia\"; A12:E13)</input> formula orriko edozein gelaxka hutsetan, Jonen gonbidatuek eskolara iristeko egin behar duten distantzia osoa, metrotan, kalkulatzeko. Itzuliko den balioa 6.000 izango da."
 
 #. YBFb7
 #: 04060101.xhp
@@ -5774,7 +5774,7 @@ msgctxt ""
 "bm_id3155614\n"
 "help.text"
 msgid "<bookmark_value>DVAR function</bookmark_value><bookmark_value>variances;based on samples</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DVAR funtzioa</bookmark_value><bookmark_value>bariantzak;laginetan oinarrituta</bookmark_value>"
 
 #. G6ZBW
 #: 04060101.xhp
@@ -54509,7 +54509,7 @@ msgctxt ""
 "par_id861619279223855\n"
 "help.text"
 msgid "<emph>Note:</emph> \"=0\" does not match empty cells."
-msgstr ""
+msgstr "<emph>Oharra:</emph> \"=0\" balioak ez du bat egiten gelaxka hutsekin."
 
 #. 2nrnV
 #: ex_data_stat_func.xhp
