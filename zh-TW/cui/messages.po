@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 19:39+0200\n"
-"PO-Revision-Date: 2021-07-16 18:31+0000\n"
+"PO-Revision-Date: 2021-07-28 13:28+0000\n"
 "Last-Translator: Po-Yen Huang <jeff@mail.ossii.com.tw>\n"
 "Language-Team: Chinese (Traditional) <https://translations.documentfoundation.org/projects/libo_ui-7-1/cuimessages/zh_Hant/>\n"
 "Language: zh-TW\n"
@@ -5772,7 +5772,7 @@ msgstr "斷字處理"
 #: cui/uiconfig/ui/breaknumberoption.ui:96
 msgctxt "beforebreak"
 msgid "Sets the minimum number of characters of the word to be hyphenated that must remain at the end of the line."
-msgstr ""
+msgstr "設定保留在行尾，要斷字單字的最小字元數。"
 
 #. 8Fp43
 #: cui/uiconfig/ui/breaknumberoption.ui:107
@@ -5784,7 +5784,7 @@ msgstr "斷字之前的字元數"
 #: cui/uiconfig/ui/breaknumberoption.ui:141
 msgctxt "afterbreak"
 msgid "Specifies the minimum number of characters of a hyphenated word required at the next line."
-msgstr ""
+msgstr "指定下ㄧ行所需的帶連字號單字的最小字元數。"
 
 #. p6cfZ
 #: cui/uiconfig/ui/breaknumberoption.ui:152
@@ -5796,7 +5796,7 @@ msgstr "斷字之後的字元數"
 #: cui/uiconfig/ui/breaknumberoption.ui:186
 msgctxt "wordlength"
 msgid "Specifies the minimum number of characters required for automatic hyphenation to be applied."
-msgstr ""
+msgstr "指定套用自動斷字所需的最小字元數。"
 
 #. sAo4B
 #: cui/uiconfig/ui/breaknumberoption.ui:197
@@ -6210,13 +6210,13 @@ msgstr "參照邊線(_R)："
 #: cui/uiconfig/ui/cellalignment.ui:87
 msgctxt "cellalignment|extended_tip|spinDegrees"
 msgid "Enter the rotation angle from 0 to 360 for the text in the selected cell(s)."
-msgstr ""
+msgstr "為選定儲存格中的文字輸入 0 至 360 度間的旋轉角度。"
 
 #. D2Ebb
 #: cui/uiconfig/ui/cellalignment.ui:104
 msgctxt "cellalignment|extended_tip|references"
 msgid "Specify the cell edge from which to write the rotated text."
-msgstr ""
+msgstr "指定從其寫入旋轉文字的儲存格邊緣。"
 
 #. Gwudo
 #: cui/uiconfig/ui/cellalignment.ui:127
@@ -6240,13 +6240,13 @@ msgstr "亞洲語言版面配置模式(_M)"
 #: cui/uiconfig/ui/cellalignment.ui:159
 msgctxt "cellalignment|extended_tip|checkAsianMode"
 msgid "Aligns Asian characters one below the other in the selected cell(s). If the cell contains more than one line of text, the lines are converted to text columns that are arranged from right to left. Western characters in the converted text are rotated 90 degrees to the right. Asian characters are not rotated."
-msgstr ""
+msgstr "將亞洲語言字元與下一個對齊。如果儲存格中包含了不只ㄧ行文字，則這些行將轉換為由右至左排列的文字欄位。轉換後的西文字員會向右旋轉 90 度。亞洲語言字原則不旋轉。"
 
 #. rTfQa
 #: cui/uiconfig/ui/cellalignment.ui:183
 msgctxt "cellalignment|extended_tip|dialcontrol"
 msgid "Click in the dial to set the text orientation."
-msgstr ""
+msgstr "點擊轉盤以設定文字方向。"
 
 #. Kh9JE
 #: cui/uiconfig/ui/cellalignment.ui:201
@@ -6264,7 +6264,7 @@ msgstr "文字自動折行(_W)"
 #: cui/uiconfig/ui/cellalignment.ui:247
 msgctxt "cellalignment|extended_tip|checkWrapTextAuto"
 msgid "Wraps text onto another line at the cell border. The number of lines depends on the width of the cell."
-msgstr ""
+msgstr "將文字折行至儲存格中的另一行上。行數取決於儲存格寬度。"
 
 #. GDRER
 #: cui/uiconfig/ui/cellalignment.ui:258
@@ -6288,7 +6288,7 @@ msgstr "斷字處理啟用中(_A)"
 #: cui/uiconfig/ui/cellalignment.ui:291
 msgctxt "cellalignment|extended_tip|checkHyphActive"
 msgid "Enables word hyphenation for text wrapping to the next line."
-msgstr ""
+msgstr "為文字折行到下ㄧ行啟用斷字處理。"
 
 #. pQLTe
 #: cui/uiconfig/ui/cellalignment.ui:309
@@ -6306,7 +6306,7 @@ msgstr "屬性"
 #: cui/uiconfig/ui/cellalignment.ui:385
 msgctxt "cellalignment|extended_tip|spinIndentFrom"
 msgid "Indents from the left edge of the cell by the amount that you enter."
-msgstr ""
+msgstr "按照您輸入的數量從儲存格的左邊界縮排。"
 
 #. dzBtA
 #: cui/uiconfig/ui/cellalignment.ui:398
@@ -6372,7 +6372,7 @@ msgstr "分散對齊"
 #: cui/uiconfig/ui/cellalignment.ui:451
 msgctxt "cellalignment|extended_tip|comboboxHorzAlign"
 msgid "Select the horizontal alignment option that you want to apply to the cell contents."
-msgstr ""
+msgstr "選取要套用於儲存格內容的水平對齊選項。"
 
 #. Cu2BM
 #: cui/uiconfig/ui/cellalignment.ui:465
@@ -6414,7 +6414,7 @@ msgstr "分散對齊"
 #: cui/uiconfig/ui/cellalignment.ui:474
 msgctxt "cellalignment|extended_tip|comboboxVertAlign"
 msgid "Select the vertical alignment option that you want to apply to the cell contents."
-msgstr ""
+msgstr "選取要套用於儲存格內容的垂直對齊選項。"
 
 #. FT9GJ
 #: cui/uiconfig/ui/cellalignment.ui:497
@@ -6450,7 +6450,7 @@ msgstr "ABCD"
 #: cui/uiconfig/ui/cellalignment.ui:566
 msgctxt "cellalignment|extended_tip|CellAlignPage"
 msgid "Sets the alignment options for the contents of the current cell, or the selected cells."
-msgstr ""
+msgstr "設定目前儲存格與選定儲存格的對齊選項。"
 
 #. xPtim
 #: cui/uiconfig/ui/certdialog.ui:24
@@ -6468,7 +6468,7 @@ msgstr "選取 NSS 路徑(_S)..."
 #: cui/uiconfig/ui/certdialog.ui:48
 msgctxt "certdialog|extended_tip|add"
 msgid "Opens a file picker dialog to add a new Network Security Services Certificate directory to the list."
-msgstr ""
+msgstr "開啟檔案選取程式對話方塊來將新的網路安全服務憑證目錄新增至清單中。"
 
 #. GFGjC
 #: cui/uiconfig/ui/certdialog.ui:139
@@ -6510,7 +6510,7 @@ msgstr "憑證路徑"
 #: cui/uiconfig/ui/certdialog.ui:284
 msgctxt "certdialog|extended_tip|CertDialog"
 msgid "Select or add the correct Network Security Services Certificate directory to use for digital signatures."
-msgstr ""
+msgstr "選取或新增正確的網路安全服務憑證目錄來使用數位簽章。"
 
 #. xXVpD
 #: cui/uiconfig/ui/charnamepage.ui:247
@@ -6522,7 +6522,7 @@ msgstr "選取所要套用的漸層色圖案。"
 #: cui/uiconfig/ui/charnamepage.ui:345
 msgctxt "charnamepage|extended_tip|westsizelb-nocjk"
 msgid "Enter or select the font size that you want to apply. For scalable fonts, you can also enter decimal values."
-msgstr ""
+msgstr "輸入或選取要套用的字型大小。對於可縮放的字型，您也可以輸入十進位值。"
 
 #. YcKtn
 #: cui/uiconfig/ui/charnamepage.ui:377
@@ -6540,7 +6540,7 @@ msgstr "語言："
 #: cui/uiconfig/ui/charnamepage.ui:439
 msgctxt "charnamepage|extended_tip|westlanglb-nocjk"
 msgid "Sets the language that the spellchecker uses for the selected text or the text that you type. Available language modules have a check mark in front of them."
-msgstr ""
+msgstr "設定拼字檢查器要用於選定文字或您輸入文字的語言。可用的語言模組前面會有一個勾選標記。"
 
 #. NgZJ9
 #: cui/uiconfig/ui/charnamepage.ui:458
@@ -6570,13 +6570,13 @@ msgstr "選取所要套用的漸層色圖案。"
 #: cui/uiconfig/ui/charnamepage.ui:618
 msgctxt "charnamepage|extended_tip|westsizelb-cjk"
 msgid "Enter or select the font size that you want to apply. For scalable fonts, you can also enter decimal values."
-msgstr ""
+msgstr "輸入或選取要套用的字型大小。對於可縮放的字型，您也可以輸入十進位值。"
 
 #. zCCrx
 #: cui/uiconfig/ui/charnamepage.ui:650
 msgctxt "charnamepage|extended_tip|westlanglb-cjk"
 msgid "Sets the language that the spellchecker uses for the selected text or the text that you type. Available language modules have a check mark in front of them."
-msgstr ""
+msgstr "設定拼字檢查器要用於選定文字或您輸入文字的語言。可用的語言模組前面會有一個勾選標記。"
 
 #. qpSnT
 #: cui/uiconfig/ui/charnamepage.ui:679
@@ -6612,13 +6612,13 @@ msgstr "選取所要套用的漸層色圖案。"
 #: cui/uiconfig/ui/charnamepage.ui:851
 msgctxt "charnamepage|extended_tip|eastsizelb"
 msgid "Enter or select the font size that you want to apply. For scalable fonts, you can also enter decimal values."
-msgstr ""
+msgstr "輸入或選取要套用的字型大小。對於可縮放的字型，您也可以輸入十進位值。"
 
 #. KLJQT
 #: cui/uiconfig/ui/charnamepage.ui:881
 msgctxt "charnamepage|extended_tip|eastlanglb"
 msgid "Sets the language that the spellchecker uses for the selected text or the text that you type. Available language modules have a check mark in front of them."
-msgstr ""
+msgstr "設定拼字檢查器要用於選定文字或您輸入文字的語言。可用的語言模組前面會有一個勾選標記。"
 
 #. 5uQYn
 #: cui/uiconfig/ui/charnamepage.ui:909
@@ -6654,13 +6654,13 @@ msgstr "選取所要套用的漸層色圖案。"
 #: cui/uiconfig/ui/charnamepage.ui:1081
 msgctxt "charnamepage|extended_tip|ctlsizelb"
 msgid "Enter or select the font size that you want to apply. For scalable fonts, you can also enter decimal values."
-msgstr ""
+msgstr "輸入或選取要套用的字型大小。對於可縮放的字型，您也可以輸入十進位值。"
 
 #. zCKxL
 #: cui/uiconfig/ui/charnamepage.ui:1111
 msgctxt "charnamepage|extended_tip|ctllanglb"
 msgid "Sets the language that the spellchecker uses for the selected text or the text that you type. Available language modules have a check mark in front of them."
-msgstr ""
+msgstr "設定拼字檢查器要用於選定文字或您輸入文字的語言。可用的語言模組前面會有一個勾選標記。"
 
 #. Nobqa
 #: cui/uiconfig/ui/charnamepage.ui:1140
@@ -7230,19 +7230,19 @@ msgstr "揀選顏色"
 #: cui/uiconfig/ui/colorpickerdialog.ui:158
 msgctxt "extended tip | preview"
 msgid "In the left part of the bottom bar, the current result of your work in this dialog is visible."
-msgstr ""
+msgstr "在底部列的左側可以看見您在此對話方塊中的目前工作結果。"
 
 #. 7jLV5
 #: cui/uiconfig/ui/colorpickerdialog.ui:174
 msgctxt "extended tip | previous"
 msgid "In the right part of the bottom bar, you will see the original color from the parent tab, Colors."
-msgstr ""
+msgstr "在底部列的右側，您可以看到來自上層分頁「顏色」的原始色彩。"
 
 #. yEApx
 #: cui/uiconfig/ui/colorpickerdialog.ui:199
 msgctxt "extended tip | colorField"
 msgid "Click in the big color area on the left to select a new color. Using this selector area you can modify two components of the color as represented in the RGB or HSB color models. Note that these are the two components not selected with the radio buttons on the right side of the dialog."
-msgstr ""
+msgstr "點擊左側的大型顏色區域來選取新色彩。使用此選擇器區域，您可以修改以 RGB 或 HSB 色彩模型表示顏色的兩個分量。請注意，這兩個分量不會用對話方塊右側的按鈕選取。"
 
 #. N8gjc
 #: cui/uiconfig/ui/colorpickerdialog.ui:216
