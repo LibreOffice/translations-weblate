@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:54+0200\n"
-"PO-Revision-Date: 2021-07-30 15:38+0000\n"
+"PO-Revision-Date: 2021-08-02 20:02+0000\n"
 "Last-Translator: Jun NOGATA <nogajun@gmail.com>\n"
 "Language-Team: Japanese <https://translations.documentfoundation.org/projects/libo_ui-master/sdmessages/ja/>\n"
 "Language: ja\n"
@@ -128,7 +128,7 @@ msgstr "印刷可能なページサイズに合わせる"
 #: sd/inc/DocumentRenderer.hrc:60
 msgctxt "STR_IMPRESS_PRINT_UI_PAGE_OPTIONS_CHOICES"
 msgid "Distribute on multiple sheets of paper"
-msgstr "複数の用紙に分ける"
+msgstr "複数の用紙に分割する"
 
 #. f5XRs
 #: sd/inc/DocumentRenderer.hrc:61
@@ -152,7 +152,7 @@ msgstr "印刷可能なページサイズに合わせる"
 #: sd/inc/DocumentRenderer.hrc:68
 msgctxt "STR_IMPRESS_PRINT_UI_PAGE_OPTIONS_CHOICES_DRAW"
 msgid "Distribute on multiple sheets of paper"
-msgstr "複数の用紙に分ける"
+msgstr "複数の用紙に分割する"
 
 #. 6YzMK
 #: sd/inc/DocumentRenderer.hrc:69
@@ -903,7 +903,7 @@ msgstr ""
 #: sd/inc/strings.hrc:106
 msgctxt "STR_SCALE_TOOLTIP"
 msgid "Scaling factor of the document; right-click to change."
-msgstr ""
+msgstr "ドキュメントのスケール変更します。右クリックで変更できます。"
 
 #. NzFb7
 #: sd/inc/strings.hrc:107
@@ -3039,7 +3039,7 @@ msgstr "アニメーション"
 #: sd/inc/strings.hrc:481
 msgctxt "RID_SVXSTR_EDIT_GRAPHIC"
 msgid "Link"
-msgstr ""
+msgstr "リンク"
 
 #. yYhnC
 #: sd/inc/strings.hrc:483
@@ -3129,7 +3129,7 @@ msgstr "標準(_D)"
 #: sd/uiconfig/sdraw/ui/copydlg.ui:49
 msgctxt "copydlg|extended_tip|default"
 msgid "Resets the values visible in the dialog back to the default installation values."
-msgstr ""
+msgstr "ダイアログの値をインストール直後状態の値に戻します。"
 
 #. ELfL6
 #: sd/uiconfig/sdraw/ui/copydlg.ui:70
@@ -3199,10 +3199,9 @@ msgstr "選択されているオブジェクトと複製オブジェクトの中
 
 #. uyLiW
 #: sd/uiconfig/sdraw/ui/copydlg.ui:305
-#, fuzzy
 msgctxt "copydlg|extended_tip|angle"
 msgid "Enter the angle (0 to 359 degrees) by which you want to rotate the duplicate object. Positive values rotate the duplicate object in a clockwise direction and negative values in a counterclockwise direction."
-msgstr "複製オブジェクトを回転する角度を、0～359 の数値で入力します。正の値で右回りに、負の値で左回りに回転します。"
+msgstr "複製したオブジェクトを回転させる角度(0～359度)を入力します。正の値を入力すると時計回り、負の値を入力すると反時計回りに複製したオブジェクトが回転します。"
 
 #. Mb9Gs
 #: sd/uiconfig/sdraw/ui/copydlg.ui:320
@@ -3260,10 +3259,9 @@ msgstr "選択されているオブジェクトの色を選択します。"
 
 #. AAoBa
 #: sd/uiconfig/sdraw/ui/copydlg.ui:517
-#, fuzzy
 msgctxt "copydlg|extended_tip|end"
 msgid "Choose a color for the duplicate object. If you are making more than one copy, this color is applied to the last copy."
-msgstr "複製オブジェクトの色を選択します。２つ以上の複製を作成している場合は、最後の複製にこの色が適用されます。"
+msgstr "複製するオブジェクトの色を選択します。複数のオブジェクトをコピーする場合、この色は最後にコピーされたオブジェクトに適用されます。"
 
 #. F3A93
 #: sd/uiconfig/sdraw/ui/copydlg.ui:532
@@ -3273,10 +3271,9 @@ msgstr "色"
 
 #. W2wTC
 #: sd/uiconfig/sdraw/ui/copydlg.ui:565
-#, fuzzy
 msgctxt "copydlg|extended_tip|DuplicateDialog"
 msgid "Makes one or more copies of a selected object."
-msgstr "選択したオブジェクトの複製を作成します。"
+msgstr "選択したオブジェクトを1つ、または複数、コピーします。"
 
 #. Y4vXd
 #: sd/uiconfig/sdraw/ui/crossfadedialog.ui:15
@@ -3522,7 +3519,7 @@ msgstr "ページ名"
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:36
 msgctxt "drawprinteroptions|extended_tip|printname"
 msgid "Specifies whether to print the page name of a document."
-msgstr ""
+msgstr "ドキュメントのページ名を印刷する場合に設定します。"
 
 #. ENmG2
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:48
@@ -3534,7 +3531,7 @@ msgstr "日付と時刻"
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:56
 msgctxt "drawprinteroptions|extended_tip|printdatetime"
 msgid "Specifies whether to print the current date and time."
-msgstr ""
+msgstr "現在の日付と時刻を印刷する場合に設定します。"
 
 #. oFCsx
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:72
@@ -3552,7 +3549,7 @@ msgstr "カラー (画面表示と同じ)"
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:110
 msgctxt "drawprinteroptions|extended_tip|originalcolors"
 msgid "Specifies to print in original colors."
-msgstr ""
+msgstr "オリジナルの色で印刷する場合に指定します。"
 
 #. 5FsHB
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:122
@@ -3564,7 +3561,7 @@ msgstr "グレースケール"
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:132
 msgctxt "drawprinteroptions|extended_tip|grayscale"
 msgid "Specifies to print colors as grayscale."
-msgstr ""
+msgstr "グレースケールで印刷する場合に指定します。"
 
 #. oFnFq
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:144
@@ -3576,7 +3573,7 @@ msgstr "白黒"
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:154
 msgctxt "drawprinteroptions|extended_tip|blackandwhite"
 msgid "Specifies to print colors as black and white."
-msgstr ""
+msgstr "白黒で印刷する場合に指定します。"
 
 #. MGAFs
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:170
@@ -3594,7 +3591,7 @@ msgstr "元のサイズ"
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:208
 msgctxt "drawprinteroptions|extended_tip|originalsize"
 msgid "Specifies that you do not want to further scale pages when printing."
-msgstr ""
+msgstr "ページの拡大縮小を行わず印刷する場合に指定します。"
 
 #. drvLN
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:220
@@ -3606,19 +3603,19 @@ msgstr "印刷可能なページサイズに合わせる"
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:230
 msgctxt "drawprinteroptions|extended_tip|fittoprinttable"
 msgid "Specifies whether to scale down objects that are beyond the margins of the current printer so they fit on the paper in the printer."
-msgstr ""
+msgstr "オブジェクトがプリンターの余白の大きさを超えた場合、用紙に収まるよう縮小する場合に指定します。"
 
 #. snSFu
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:242
 msgctxt "drawprinteroptions|distributeonmultiple"
 msgid "Distribute on multiple sheets of paper"
-msgstr "複数の用紙に分ける"
+msgstr "複数の用紙に分割する"
 
 #. gYaD7
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:252
 msgctxt "drawprinteroptions|extended_tip|distributeonmultiple"
 msgid "Prints a large format document, such as a poster or banner, by distributing the document page across multiple sheets of paper. The distribution option calculates how many sheets of paper are needed. You can then piece together the sheets."
-msgstr ""
+msgstr "ポスターやバナーなどの大判ドキュメントを複数の用紙に分割して印刷します。分割オプションでは、必要な用紙の枚数が計算されます。印刷したシートは、つなぎ合わせられます。"
 
 #. kAHyQ
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:264
@@ -3630,7 +3627,7 @@ msgstr "ページをタイル状に印刷する"
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:274
 msgctxt "drawprinteroptions|extended_tip|tilesheet"
 msgid "Specifies that pages are to be printed in tiled format. If the pages or slides are smaller than the paper, repeat the pages or slides on one sheet of paper."
-msgstr ""
+msgstr "ページをタイルのように印刷する場合に指定します。ページやスライドのサイズは用紙より小さい場合、1枚の用紙にページやスライドを繰り返して印刷します。"
 
 #. qbU9A
 #: sd/uiconfig/sdraw/ui/drawprinteroptions.ui:290
@@ -6178,19 +6175,19 @@ msgstr "順序:"
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:76
 msgctxt "impressprinteroptions|extended_tip|impressdocument"
 msgid "Select which parts of the document should be printed."
-msgstr ""
+msgstr "ドキュメントのどの部分を印刷するかを選択します。"
 
 #. nPeoT
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:91
 msgctxt "impressprinteroptions|extended_tip|slidesperpage"
 msgid "Select how many slides to print per page."
-msgstr ""
+msgstr "スライドを1ページあたり何枚、割り付けるか選択します。"
 
 #. B3gRG
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:106
 msgctxt "impressprinteroptions|extended_tip|slideperpageorder"
 msgid "Specify how to arrange slides on the printed page."
-msgstr ""
+msgstr "印刷ページへのスライドの配置を指定します。"
 
 #. xTmU5
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:121
@@ -6208,7 +6205,7 @@ msgstr "スライド名"
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:158
 msgctxt "impressprinteroptions|extended_tip|printname"
 msgid "Specifies whether to print the page name of a document."
-msgstr ""
+msgstr "ドキュメントのページ名を印刷するかを設定します。"
 
 #. PYhD6
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:170
@@ -6220,7 +6217,7 @@ msgstr "日付と時刻"
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:178
 msgctxt "impressprinteroptions|extended_tip|printdatetime"
 msgid "Specifies whether to print the current date and time."
-msgstr ""
+msgstr "現在の日付と時刻を印刷するかを設定します。"
 
 #. URBvB
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:190
@@ -6250,7 +6247,7 @@ msgstr "カラー (画面表示と同じ)"
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:252
 msgctxt "impressprinteroptions|extended_tip|originalcolors"
 msgid "Specifies to print in original colors."
-msgstr ""
+msgstr "オリジナルの色で印刷する場合に指定します。"
 
 #. Hp6An
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:264
@@ -6262,7 +6259,7 @@ msgstr "グレースケール"
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:274
 msgctxt "impressprinteroptions|extended_tip|grayscale"
 msgid "Specifies to print colors as grayscale."
-msgstr ""
+msgstr "グレースケールで印刷する場合に指定します。"
 
 #. vnaCm
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:286
@@ -6274,7 +6271,7 @@ msgstr "白黒"
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:296
 msgctxt "impressprinteroptions|extended_tip|blackandwhite"
 msgid "Specifies to print colors as black and white."
-msgstr ""
+msgstr "白黒で印刷する場合に指定します。"
 
 #. G3CZp
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:312
@@ -6292,7 +6289,7 @@ msgstr "元のサイズ"
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:350
 msgctxt "impressprinteroptions|extended_tip|originalsize"
 msgid "Specifies that you do not want to further scale pages when printing."
-msgstr ""
+msgstr "ページの拡大縮小を行わず印刷する場合に指定します。"
 
 #. f2eFU
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:362
@@ -6304,19 +6301,19 @@ msgstr "印刷可能なページサイズに合わせる"
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:372
 msgctxt "impressprinteroptions|extended_tip|fittoprintable"
 msgid "Specifies whether to scale down objects that are beyond the margins of the current printer so they fit on the paper in the printer."
-msgstr ""
+msgstr "オブジェクトがプリンターの余白の大きさを超えた場合、用紙に収まるよう縮小する場合に指定します。"
 
 #. wCDEw
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:384
 msgctxt "impressprinteroptions|distributeonmultiple"
 msgid "Distribute on multiple sheets of paper"
-msgstr "複数の用紙に分ける"
+msgstr "複数の用紙に分割する"
 
 #. XuTF9
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:394
 msgctxt "impressprinteroptions|extended_tip|distributeonmultiple"
 msgid "Prints a large format document, such as a poster or banner, by distributing the document page across multiple sheets of paper. The distribution option calculates how many sheets of paper are needed. You can then piece together the sheets."
-msgstr ""
+msgstr "ポスターやバナーなどの大判ドキュメントを複数の用紙に分割して印刷します。分割オプションでは、必要な用紙の枚数が計算されます。印刷したシートは、つなぎ合わせられます。"
 
 #. gCjUa
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:406
@@ -6328,7 +6325,7 @@ msgstr "ページをタイル状に印刷する"
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:416
 msgctxt "impressprinteroptions|extended_tip|tilesheet"
 msgid "Specifies that pages are to be printed in tiled format. If the pages or slides are smaller than the paper, repeat the pages or slides on one sheet of paper."
-msgstr ""
+msgstr "ページをタイルのように印刷する場合に指定します。ページやスライドのサイズは用紙より小さい場合、1枚の用紙にページやスライドを繰り返して印刷します。"
 
 #. xa7tq
 #: sd/uiconfig/simpress/ui/impressprinteroptions.ui:432
@@ -8453,7 +8450,7 @@ msgstr "標準"
 #: sd/uiconfig/simpress/ui/prntopts.ui:42
 msgctxt "extended_tip|pagedefaultrb"
 msgid "Specifies that you do not want to further scale pages when printing."
-msgstr "印刷時にページのさらなる倍率変更を行いません。"
+msgstr "ページの拡大縮小を行わず印刷する場合に指定します。"
 
 #. Azbxx
 #: sd/uiconfig/simpress/ui/prntopts.ui:53
@@ -9713,7 +9710,7 @@ msgstr "マウスをクリックしたときに次のスライドに進む場合
 #: sd/uiconfig/simpress/ui/slidetransitionspanel.ui:275
 msgctxt "slidetransitionspanel|rb_auto_after"
 msgid "After:"
-msgstr ""
+msgstr "後:"
 
 #. rJJQy
 #: sd/uiconfig/simpress/ui/slidetransitionspanel.ui:287
@@ -9779,7 +9776,7 @@ msgstr "現在のスライド切り替えをプレビューとして表示しま
 #: sd/uiconfig/simpress/ui/slidetransitionspanel.ui:456
 msgctxt "slidetransitionspanel|extended_tip|SlideTransitionsPanel"
 msgid "Defines the special effect that plays when you display a slide during a slide show."
-msgstr ""
+msgstr "スライドショーでスライドを表示したときに適用される画面効果を設定します。"
 
 #. T99jN
 #: sd/uiconfig/simpress/ui/tabledesignpanel.ui:24
