@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-06-24 12:51+0200\n"
-"PO-Revision-Date: 2021-08-09 19:40+0000\n"
+"PO-Revision-Date: 2021-08-09 19:43+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/it/>\n"
 "Language: it\n"
@@ -18752,7 +18752,7 @@ msgctxt ""
 "par_id3149289\n"
 "help.text"
 msgid "<emph>Lookup</emph> is the value of any type looked for in the first column of the array."
-msgstr "<emph>Criterio di ricerca</emph> è il valore, che può essere di qualsiasi tipo, da ricerca nella prima colonna della matrice."
+msgstr "<emph>Cerca</emph> è il valore di qualsiasi tipo ricercato nella prima colonna della matrice."
 
 #. WFj5E
 #: 04060109.xhp
@@ -18779,7 +18779,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than <emph>Lookup</emph>. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr ""
+msgstr "<emph>Ricerca intervallo ordinato</emph> è un parametro facoltativo che indica se la prima colonna della matrice contiene un elenco in ordine crescente. In questa modalità, la ricerca restituisce il valore nella riga con la prima colonna avente un valore uguale o inferiore a <emph>Criterio di ricerca</emph>. Ad esempio, l'elenco potrebbe essere una serie di date in cui sono variati dei parametri fiscali, quindi i valori rappresentano le date di inizio di un periodo in cui era in vigore un valore fiscale specifico. Pertanto, la ricerca di una data assente nella prima colonna della matrice, ma compresa tra alcune date limite esistenti, darebbe la più bassa di esse, consentendo di scoprire i dati in essere alla data cercata. In questo modo si può vedere ogni valore della cella come il limite inferiore di un intervallo e la cella successiva come il limite superiore. Inserite il valore FALSO o 0 se la prima colonna non è un elenco ordinato da interpretare quindi come limiti di intervallo. Quando questo parametro è VERO o non viene fornito, la prima colonna della matrice <emph>deve essere ordinata in ordine crescente</emph>. Le colonne ordinate possono essere cercate molto più velocemente e la funzione restituisce sempre un valore, anche se il valore di ricerca non corrisponde esattamente, se è maggiore del valore più basso dell'elenco ordinato. Negli elenchi non ordinati, il criterio di ricerca deve corrispondere esattamente. In caso contrario, la funzione restituirà #N/D con il messaggio: <emph>Errore: Valore non disponibile</emph>."
 
 #. fJQRf
 #: 04060109.xhp
