@@ -1600,7 +1600,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr "Cerca un numero, una stringa o una data all'interno di una matrice unidimensionale. La comparazione del testo può fare o meno distinzione tra i caratteri minuscoli e maiuscoli. <br/>Se la matrice è ordinata deve essere riempita in modo omogeneo, ciò significa che tutti gli elementi devono essere scalari dello stesso tipo (i valori <literal>Empty</literal> e <literal>Null</literal> sono vietati). <br/>Il risultato del metodo non è prevedibile se una matrice viene passata come ordinata, ma in realtà non lo è. <br/>Se la matrice è ordinata viene effettuata una ricerca di tipo binario, altrimenti viene semplicemente controllata da cima a fondo ed i valori <literal>Empty</literal> e <literal>Null</literal> vengono ignorati. <br/> <br/>Se la ricerca non ha successo il metodo restituisce <literal>LBound(matrice di partenza) - 1</literal>."
+msgstr "Cerca un numero, una stringa o una data all'interno di una matrice unidimensionale. Il confronto del testo può distinguere tra maiuscole e minuscole. <br/>Se la matrice è ordinata deve essere riempita in modo omogeneo, ciò significa che tutti gli elementi devono essere scalari dello stesso tipo (i valori <literal>Empty</literal> e <literal>Null</literal> non sono ammessi). <br/>Il risultato del metodo non è prevedibile se una matrice viene passata come ordinata, ma in realtà non lo è. <br/>Se la matrice è ordinata viene eseguita una ricerca di tipo binario, altrimenti viene semplicemente controllata da cima a fondo e i valori <literal>Empty</literal> e <literal>Null</literal> vengono ignorati. <br/> <br/>Se la ricerca è stata infruttuosa, il metodo restituisce <literal>LBound(matrice di partenza) - 1</literal>."
 
 #. mg7DA
 #: sf_array.xhp
@@ -1609,7 +1609,7 @@ msgctxt ""
 "par_id315825627687760\n"
 "help.text"
 msgid "<emph>Array_1D</emph> : the array to scan."
-msgstr ""
+msgstr "<emph>Array_1D</emph> : la matrice da controllare."
 
 #. 4CuFE
 #: sf_array.xhp
