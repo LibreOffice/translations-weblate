@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2021-08-23 17:40+0000\n"
+"PO-Revision-Date: 2021-08-23 17:53+0000\n"
 "Last-Translator: Elisabetta Manuele <calembour@hotmail.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -6631,7 +6631,7 @@ msgctxt ""
 "par_id981598110463521\n"
 "help.text"
 msgid "In non-modal mode, the dialog box is \"floating\" on the user desktop and the execution of the macro process continues normally. A non-modal dialog closes when it is terminated with the <literal>Terminate()</literal> method or when the %PRODUCTNAME session ends. The window close button is inactive in non-modal dialogs."
-msgstr "In modalità non modale, la finestra di dialogo è \"fluttuante\" sul desktop dell'utente e l'esecuzione del processo della macro continua normalmente. Una finestra non modale si chiude quanto viene terminata dal metodo <literal>Terminate()</literal> o quando finisce la sessione di %PRODUCTNAME. Nelle finestre non modali, il pulsante di chiusura della finestra è inattivo."
+msgstr "In modalità non modale, la finestra di dialogo è \"mobile\" sul desktop dell'utente e l'esecuzione del processo della macro continua normalmente. Una finestra non modale si chiude quanto viene terminata con il metodo <literal>Terminate()</literal> o con la conclusione della sessione di %PRODUCTNAME. Nelle finestre non modali, il pulsante di chiusura della finestra è inattivo."
 
 #. GrpyR
 #: sf_dialog.xhp
@@ -6640,7 +6640,7 @@ msgctxt ""
 "par_id721598110472337\n"
 "help.text"
 msgid "A dialog box disappears from memory after its explicit termination."
-msgstr ""
+msgstr "Una finestra di dialogo scompare dalla memoria dopo la sua esplicita terminazione."
 
 #. asacX
 #: sf_dialog.xhp
@@ -6649,7 +6649,7 @@ msgctxt ""
 "par_id891598188164936\n"
 "help.text"
 msgid "The <literal>SFDialogs.Dialog</literal> service is closely related to the <literal>SFDialogs.DialogControl</literal> service."
-msgstr ""
+msgstr "Il servizio <literal>SFDialogs.Dialog</literal> è strettamente collegato al servizio <literal>SFDialogs.DialogControl</literal>."
 
 #. CByHp
 #: sf_dialog.xhp
@@ -6658,7 +6658,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation and usage"
-msgstr ""
+msgstr "Invocazione e utilizzo del servizio"
 
 #. S8GrJ
 #: sf_dialog.xhp
@@ -6667,7 +6667,7 @@ msgctxt ""
 "par_id361598174756160\n"
 "help.text"
 msgid "The <literal>Dialog</literal> service is invoked through the <literal>CreateScriptService</literal> method. It requires three positional arguments to specify the dialog box to activate:"
-msgstr ""
+msgstr "Il servizio <literal>Dialog</literal> è invocato tramite il metodo <literal>CreateScriptService</literal>. Richiede tre argomenti posizionali per specificare la finestra di dialogo da attivare:"
 
 #. Ntzqh
 #: sf_dialog.xhp
@@ -6676,7 +6676,7 @@ msgctxt ""
 "par_id31612271944733\n"
 "help.text"
 msgid "<emph>Container</emph>: \"<link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope specifier\"><literal>GlobalScope</literal></link>\" for preinstalled libraries or a window name as defined by <link href=\"text/sbasic/shared/03/sf_ui.xhp\" name=\"ScriptForge.UI\"><literal>ScriptForge.UI</literal></link> service. Empty string \"\" default value stands for the current document."
-msgstr ""
+msgstr "<emph>Container</emph>: \"<link href=\"text/sbasic/shared/03131900.xhp\" name=\"Selettore GlobalScope\"><literal>GlobalScope</literal></link>\" per le librerie preinstallare o un nome di finestra come definito dal servizio <link href=\"text/sbasic/shared/03/sf_ui.xhp\" name=\"ScriptForge.UI\"><literal>ScriptForge.UI</literal></link>. Una stringa vuota \"\", che è il valore predefinito, indica il documento corrente."
 
 #. juLgm
 #: sf_dialog.xhp
@@ -6685,7 +6685,7 @@ msgctxt ""
 "par_id311612271947124\n"
 "help.text"
 msgid "<emph>Library</emph>: The case-sensitive name of a library contained in the container. Default value is \"Standard\"."
-msgstr ""
+msgstr "<emph>Library</emph>: Il nome, sensibile alla differenza tra maiuscole e minuscole, di una libreria contenuta nel container. Il valore predefinito è \"Standard\"."
 
 #. FSp5N
 #: sf_dialog.xhp
@@ -6694,7 +6694,7 @@ msgctxt ""
 "par_id821612271946316\n"
 "help.text"
 msgid "<emph>DialogName</emph>: A case-sensitive string designating the dialog."
-msgstr ""
+msgstr "<emph>DialogName</emph>: Una stringa, sensibile alla differenza tra maiuscole e minuscole, che determina la finestra."
 
 #. r5vY5
 #: sf_dialog.xhp
@@ -6703,7 +6703,7 @@ msgctxt ""
 "par_id761620142701399\n"
 "help.text"
 msgid "Below %PRODUCTNAME Basic and Python examples are displaying the <literal>dlgConsole</literal> dialog that belongs to <literal>ScriptForge</literal> shared library:"
-msgstr ""
+msgstr "I seguenti esempi in Basic e Python in %PRODUCTNAME visualizzano la finestra <literal>dlgConsole</literal> che appartiene alla libreria condivisa <literal>ScriptForge</literal>:"
 
 #. mqjFF
 #: sf_dialog.xhp
@@ -6712,7 +6712,7 @@ msgctxt ""
 "bas_id321598171269873\n"
 "help.text"
 msgid "'... controls initialization goes here..."
-msgstr ""
+msgstr "'... in questo punto va inserita l'inizializzazione dei controlli..."
 
 #. yn6sy
 #: sf_dialog.xhp
@@ -6721,7 +6721,7 @@ msgctxt ""
 "bas_id471598176518738\n"
 "help.text"
 msgid "'Default mode = Modal"
-msgstr ""
+msgstr "'Modalità predefinita = Modal"
 
 #. h9a9G
 #: sf_dialog.xhp
@@ -6730,7 +6730,7 @@ msgctxt ""
 "bas_id551598171288547\n"
 "help.text"
 msgid "'... Process controls and do what is needed here"
-msgstr ""
+msgstr "'...In questo punto va l'elaborazione dei controlli e l'esecuzione di quanto necessario"
 
 #. VD35X
 #: sf_dialog.xhp
@@ -6739,7 +6739,7 @@ msgctxt ""
 "par_id601619622310089\n"
 "help.text"
 msgid "Or using Python:"
-msgstr ""
+msgstr "O usando Python:"
 
 #. knENA
 #: sf_dialog.xhp
@@ -6748,7 +6748,7 @@ msgctxt ""
 "pyc_id41619622700314\n"
 "help.text"
 msgid "# ... controls initialization goes here..."
-msgstr ""
+msgstr "#... in questo punto va inserita l'inizializzazione dei controlli..."
 
 #. 2PTBU
 #: sf_dialog.xhp
@@ -6757,7 +6757,7 @@ msgctxt ""
 "pyc_id661611699964814\n"
 "help.text"
 msgid "# Default mode is Modal"
-msgstr ""
+msgstr "# La modalità predefinita è Modal"
 
 #. ABoA2
 #: sf_dialog.xhp
@@ -6766,7 +6766,7 @@ msgctxt ""
 "pyc_id681619619965191\n"
 "help.text"
 msgid "# ... Process controls and do what is needed here"
-msgstr ""
+msgstr "#...In questo punto va l'elaborazione dei controlli e l'esecuzione di quanto necessario"
 
 #. eehkB
 #: sf_dialog.xhp
@@ -6775,7 +6775,7 @@ msgctxt ""
 "par_id951598174966322\n"
 "help.text"
 msgid "Alternatively a <literal>Dialog</literal> instance can be retrieved via the <literal>SFDialogs.DialogEvent</literal> service, providing that the dialog was initiated with the <literal>Dialog</literal> service. <literal>DialogEvent</literal> returns the <literal>SFDialogs.Dialog</literal> service instance that triggered the event."
-msgstr ""
+msgstr "In alternativa un'istanza di <literal>Dialog</literal> può essere richiamate tramite il servizio <literal>SFDialogs.DialogEvent</literal>, purchè la finestra di dialogo sia inizializzata con il servizio <literal>Dialog</literal>. <literal>DialogEvent</literal> restituisce l'istanza al servizio <literal>SFDialogs.Dialog</literal> che attiva l'evento."
 
 #. QBG5g
 #: sf_dialog.xhp
