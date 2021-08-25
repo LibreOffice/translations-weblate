@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2021-08-25 16:16+0000\n"
-"Last-Translator: Valter Mura <valtermura@gmail.com>\n"
+"PO-Revision-Date: 2021-08-25 16:30+0000\n"
+"Last-Translator: Elisabetta Manuele <calembour@hotmail.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -13903,7 +13903,7 @@ msgctxt ""
 "par_id921618228229529\n"
 "help.text"
 msgid "The following example assumes you want to activate the form named <literal>FormA</literal> located in <literal>Sheet1</literal> of the currently open Calc file. It first gets access to the document using the <literal>Document</literal> service and <literal>ThisComponent</literal> and then activates the form."
-msgstr "L'esempio seguente presuppone che vogliate attivare il formulario denominato <literal>FormA</literal> che si trova nel foglio <literal>Sheet1</literal> del file di Calc correntemente aperto. Per prima cosa accede al documento usando il servizio <literal>Document</literal> e <literal>ThisComponent</literal> e poi attiva il formulario."
+msgstr "L'esempio seguente presuppone che vogliate attivare il formulario denominato <literal>FormA</literal> che si trova nel foglio <literal>Sheet1</literal> del file di Calc attualmente aperto. In primo luogo accede al documento usando il servizio <literal>Document</literal> e <literal>ThisComponent</literal> quindi attiva il formulario."
 
 #. 4EC5M
 #: sf_form.xhp
@@ -13912,7 +13912,7 @@ msgctxt ""
 "bas_id21618228468066\n"
 "help.text"
 msgid "'Gets hold of the form that will be activated"
-msgstr ""
+msgstr "'Prende il formulario da attivare"
 
 #. M2Wks
 #: sf_form.xhp
@@ -13921,7 +13921,7 @@ msgctxt ""
 "bas_id201618228487565\n"
 "help.text"
 msgid "'Activates the form"
-msgstr ""
+msgstr "'Attiva il formulario"
 
 #. YHxMm
 #: sf_form.xhp
@@ -13930,7 +13930,7 @@ msgctxt ""
 "par_id81618228720782\n"
 "help.text"
 msgid "<literal>ThisComponent</literal> applies to Calc and Writer documents. For Base documents use <literal>ThisDataBaseDocument</literal>."
-msgstr ""
+msgstr "<literal>ThisComponent</literal> si applica ai documenti di Calc e Writer. Per i documenti di Base usate <literal>ThisDataBaseDocument</literal>."
 
 #. QznyJ
 #: sf_form.xhp
@@ -13939,7 +13939,7 @@ msgctxt ""
 "par_id501616860541195\n"
 "help.text"
 msgid "Closes the form document containing the actual <literal>Form</literal> instance. The <literal>Form</literal> instance is disposed."
-msgstr ""
+msgstr "Chiude il documento formulario contenente l'effettiva istanza di <literal>Form</literal>. L'istanza di <literal>Form</literal> viene eliminata."
 
 #. CcCpD
 #: sf_form.xhp
@@ -13948,7 +13948,7 @@ msgctxt ""
 "par_id611618229004669\n"
 "help.text"
 msgid "This method only closes form documents located in Base documents. If the form is stored in a Writer or Calc document, calling <literal>CloseFormDocument</literal> will have no effect."
-msgstr ""
+msgstr "Questo metodo chiude solo i documenti formulario che si trovano nei documenti di Base. Se il formulario è memorizzato in un documento di Writer o di Calc la chiamata a <literal>CloseFormDocument</literal> non avrà effetto."
 
 #. a8CxQ
 #: sf_form.xhp
@@ -13957,7 +13957,7 @@ msgctxt ""
 "par_id161584541257982\n"
 "help.text"
 msgid "The value returned by the <literal>Controls</literal> method depends on the arguments provided:"
-msgstr ""
+msgstr "Il valore restituito dal metodo <literal>Controls</literal> dipende dagli argomenti forniti:"
 
 #. YkyY2
 #: sf_form.xhp
@@ -13966,7 +13966,7 @@ msgctxt ""
 "par_id421598179770993\n"
 "help.text"
 msgid "If the method is called <emph>without arguments</emph>, then it returns the list of the controls contained in the form. Beware that the returned list does not contain any subform controls."
-msgstr ""
+msgstr "Se il metodo viene chiamato <emph>senza argomenti</emph>, restituirà l'elenco dei controlli contenuti nel formulario. Fate attenzione che l'elenco restituito non contiene i controlli di alcun formulario secondario."
 
 #. SsiUX
 #: sf_form.xhp
@@ -13975,7 +13975,7 @@ msgctxt ""
 "par_id81598185229301\n"
 "help.text"
 msgid "If the optional <literal>ControlName</literal> argument is provided, the method returns a <literal>FormControl</literal> class instance referring to the specified control."
-msgstr ""
+msgstr "Se viene fornito l'argomento opzionale <literal>ControlName</literal>, il metodo restituisce un'istanza della classe <literal>FormControl</literal> che fa riferimento al controllo specificato."
 
 #. 7CFJU
 #: sf_form.xhp
@@ -13984,7 +13984,7 @@ msgctxt ""
 "par_id1001584541257789\n"
 "help.text"
 msgid "<emph>controlname</emph> : A valid control name as a case-sensitive string. If absent, the list of control names is returned as a zero-based array."
-msgstr ""
+msgstr "<emph>controlname</emph>: Il nome valido di un controllo, in forma di stringa sensibile alle differenze tra lettere minuscole e maiuscole. Se assente, viene restituito l'elenco dei nomi dei controlli in forma di matrice con indice a partire da zero."
 
 #. unh4B
 #: sf_form.xhp
@@ -13993,7 +13993,7 @@ msgctxt ""
 "par_id291616861407907\n"
 "help.text"
 msgid "Return a <link href=\"text/sbasic/shared/03/sf_database.xhp\" name=\"DBService\"><literal>SFDatabases</literal>.<literal>Database</literal></link> instance giving access to the execution of SQL commands on the database the current form is connected to and/or that is stored in the current Base document."
-msgstr ""
+msgstr "Restituisce un'istanza di <link href=\"text/sbasic/shared/03/sf_database.xhp\" name=\"DBService\"><literal>SFDatabases</literal>.<literal>Database</literal></link> che fornisce l'accesso per l'esecuzione di comandi SQL sul database a cui è connesso il formulario corrente e/o che è memorizzato nel documento corrente di Base."
 
 #. fZRst
 #: sf_form.xhp
@@ -14002,7 +14002,7 @@ msgctxt ""
 "par_id991616861417207\n"
 "help.text"
 msgid "Each form has its own database connection, except in Base documents where they all share the same connection."
-msgstr ""
+msgstr "Ogni formulario ha la propria connessione al database, fatta eccezione per i documenti di Base nei quali condividono tutti la stessa connessione."
 
 #. wFSWb
 #: sf_form.xhp
