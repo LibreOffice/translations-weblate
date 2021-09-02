@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2021-09-02 15:44+0000\n"
+"PO-Revision-Date: 2021-09-02 16:11+0000\n"
 "Last-Translator: Elisabetta Manuele <calembour@hotmail.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -16449,7 +16449,7 @@ msgctxt ""
 "par_id301614358956087\n"
 "help.text"
 msgid "Several instances of the <literal>L10N</literal> service may coexist. However, each instance must use a separate directory for its PO files."
-msgstr "Possono coesistere diverse istante del servizio <literal>L10N</literal>. Però, ogni istanza deve usare una cartella separata per i suoi file PO."
+msgstr "Possono coesistere diverse istante del servizio <literal>L10N</literal>. Però ogni istanza deve usare una cartella separata per i relativi file PO."
 
 #. 3YPqe
 #: sf_l10n.xhp
@@ -16458,7 +16458,7 @@ msgctxt ""
 "par_id891614358528334\n"
 "help.text"
 msgid "The following example instantiates the <literal>L10N</literal> service without any optional arguments. This will only enable the <literal>AddText</literal> and <literal>ExportToPOTFile</literal> methods."
-msgstr ""
+msgstr "L'esempio seguente istanzia il servizio <literal>L10N</literal> senza alcuna argomento opzionale. Questo attiverà solo i metodi <literal>AddText</literal> e <literal>ExportToPOTFile</literal>."
 
 #. XUTWZ
 #: sf_l10n.xhp
@@ -16467,7 +16467,7 @@ msgctxt ""
 "par_id611614358672609\n"
 "help.text"
 msgid "The example below specifies the folder containing the PO files. Because the locale is not defined, the service instance will use the current %PRODUCTNAME locale settings."
-msgstr ""
+msgstr "L'esempio seguente specifica la cartella che contiene i file PO. Dato che l'argomento locale non è definito, l'istanza del servizio userà le impostazioni locali correnti di %PRODUCTNAME."
 
 #. Ab7iH
 #: sf_l10n.xhp
@@ -16476,7 +16476,7 @@ msgctxt ""
 "par_id321614358809763\n"
 "help.text"
 msgid "In the example below, both the folder name and locale settings are explicitly defined to be Belgian French."
-msgstr ""
+msgstr "Nell'esempio seguente, entrambi i nomi della cartella e delle impostazioni locali sono definiti esplicitamente per essere il francese del Belgio."
 
 #. zEgWG
 #: sf_l10n.xhp
@@ -16485,7 +16485,7 @@ msgctxt ""
 "bas_id661614358846464\n"
 "help.text"
 msgid "Set myPO = CreateScriptService(\"L10N\", \"C:\\myPOFiles\\\", \"fr-BE\")"
-msgstr ""
+msgstr "Set myPO = CreateScriptService(\"L10N\", \"C:\\myPOFiles\\\", \"fr-BE\")"
 
 #. UGFWB
 #: sf_l10n.xhp
@@ -16494,7 +16494,7 @@ msgctxt ""
 "par_id411585843652496\n"
 "help.text"
 msgid "PO files must be named in the form \"la-CO.po\" or \"la.po\", where \"la\" refers to the language and \"CO\" is the country. Some examples are: \"en-US.po\", \"fr-BE.po\" or \"fr.po\"."
-msgstr ""
+msgstr "I file PO devono essere nominati nel formato \"li-PA.po\" o \"li.po\", dove \"li\" si riferisce alla lingua e \"PA\" è il paese. Alcuni esempi sono: \"en-US.po\", \"fr-BE.po\" o \"fr.po\"."
 
 #. zQhHX
 #: sf_l10n.xhp
@@ -16566,7 +16566,7 @@ msgctxt ""
 "par_id751585843652642\n"
 "help.text"
 msgid "The folder containing the PO files (see the <link href=\"text/sbasic/shared/03/sf_filesystem.xhp#bm_id901612991354326\" name=\"FileNaming property\"><literal>FileSystem.FileNaming</literal></link> property to learn about the notation used)."
-msgstr ""
+msgstr "La cartella contenente i file PO (per saperne di più sulla notazione usata vedete la proprietà <link href=\"text/sbasic/shared/03/sf_filesystem.xhp#bm_id901612991354326\" name=\"proprietà FileNaming\"><literal>FileSystem.FileNaming</literal></link>)."
 
 #. Zsp7p
 #: sf_l10n.xhp
@@ -16584,7 +16584,7 @@ msgctxt ""
 "par_id331585843652912\n"
 "help.text"
 msgid "A zero-based array listing all the base names (without the \".po\" extension) of the PO-files found in the specified <literal>Folder</literal>."
-msgstr ""
+msgstr "Una matrice con indice di partenza zero che elenca tutte le basi dei nomi (senza l'estensione \".po\") dei file PO che si trovano nella cartella (<literal>Folder</literal>) specificata."
 
 #. NWxhu
 #: sf_l10n.xhp
@@ -16602,7 +16602,7 @@ msgctxt ""
 "par_id561585843652947\n"
 "help.text"
 msgid "The currently active language-COUNTRY combination. This property will be initially empty if the service was instantiated without any of the optional arguments."
-msgstr ""
+msgstr "La combinazione lingua-PAESE correntemente attiva. Questa proprietà sarà inizialmente vuota se il servizio è stato istanziato senza nessuno degli argomenti opzionali."
 
 #. 5cs7h
 #: sf_l10n.xhp
@@ -16611,7 +16611,7 @@ msgctxt ""
 "par_id231614360519973\n"
 "help.text"
 msgid "List of Methods in the L10N Service"
-msgstr ""
+msgstr "Elenco dei metodi del servizio L10N"
 
 #. Q24j9
 #: sf_l10n.xhp
@@ -16620,7 +16620,7 @@ msgctxt ""
 "par_id1001585843652271\n"
 "help.text"
 msgid "Adds a new entry in the list of localizable strings. It must not exist yet."
-msgstr ""
+msgstr "Aggiunge una nuova voce nell'elenco delle stringhe traducibili. Non deve esistere già."
 
 #. WPVrn
 #: sf_l10n.xhp
@@ -16629,7 +16629,7 @@ msgctxt ""
 "par_id391585843652753\n"
 "help.text"
 msgid "<emph>Context</emph>: The key to retrieve the translated string with the <literal>GetText</literal> method. This parameter has a default value of \"\"."
-msgstr ""
+msgstr "<emph>Context</emph>: La chiave con cui ricercare le stringhe tradotte con il metodo <literal>GetText</literal>. Questo parametro ha come valore predefinito \"\"."
 
 #. EC7wb
 #: sf_l10n.xhp
@@ -16638,7 +16638,7 @@ msgctxt ""
 "par_id581585844419114\n"
 "help.text"
 msgid "<emph>MsgId</emph>: The untranslated string, which is the text appearing in the program code. It must not be empty. The <literal>MsgId</literal> becomes the key to retrieve the translated string via <literal>GetText</literal> method when <literal>Context</literal> is empty."
-msgstr ""
+msgstr "<emph>MsgId</emph>: La stringa non tradotta, che corrisponde al testo che appare nel codice del programma. Non deve essere vuota. <literal>MsgId</literal> diventa la chiave con cui trovare la stringa tradotta tramite il metodo <literal>GetText</literal> se <literal>Context</literal> è vuoto."
 
 #. X3F7E
 #: sf_l10n.xhp
