@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-08-30 15:20+0200\n"
-"PO-Revision-Date: 2021-09-07 12:28+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"PO-Revision-Date: 2021-09-08 09:16+0000\n"
+"Last-Translator: Yotam Benshalom <benshalom@gmail.com>\n"
 "Language-Team: Hebrew <https://translations.documentfoundation.org/projects/libo_ui-master/swmessages/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
@@ -98,7 +98,7 @@ msgstr "הטבלאות חייבות להיות ללא כותרות."
 #: sw/inc/AccessibilityCheckStrings.hrc:29
 msgctxt "STR_HEADING_ORDER"
 msgid "Keep headings' levels ordered. Heading level %LEVEL_CURRENT% must not go after %LEVEL_PREV%."
-msgstr ""
+msgstr "שמירה על סדר בין רמות הכותרות. כותרות מרמה %LEVEL_CURRENT% לא צריכות להופיע לאחר רמה %LEVEL_PREV%."
 
 #. TBXjj
 #: sw/inc/AccessibilityCheckStrings.hrc:30
@@ -15286,7 +15286,7 @@ msgstr "לפני"
 #: sw/uiconfig/swriter/ui/footnotepage.ui:74
 msgctxt "footnotepage|pos"
 msgid "Position"
-msgstr "מיקום"
+msgstr "מקום"
 
 #. okHEF
 #: sw/uiconfig/swriter/ui/footnotepage.ui:86
@@ -15480,7 +15480,7 @@ msgstr "התחלת מספור מחדש"
 #: sw/uiconfig/swriter/ui/footnotesendnotestabpage.ui:60
 msgctxt "footnotesendnotestabpage|extended_tip|ftnntnum"
 msgid "Restarts the footnote numbering at the number that you specify."
-msgstr "התחלת מספור הערות השוליים מחדש מן המספר המצוין."
+msgstr "התחלת מספור הערות השוליים מחדש מהמספר שמצוין."
 
 #. Buptq
 #: sw/uiconfig/swriter/ui/footnotesendnotestabpage.ui:86
@@ -20265,23 +20265,21 @@ msgstr "מסמך: %1‏"
 
 #. rWpBq
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:209
-#, fuzzy
 msgctxt "mmsalutationpage|greeting"
 msgid "This document should contain a salutation"
-msgstr "לדוא\"ל זה נדרשת ברכה פותחת"
+msgstr "למסמך זה נדרשת ברכה פותחת"
 
 #. zPnZa
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:217
 msgctxt "mmsalutationpage|extended_tip|greeting"
 msgid "Adds a salutation."
-msgstr ""
+msgstr "מוסיף ברכה פותחת."
 
 #. DDB2B
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:238
-#, fuzzy
 msgctxt "mmsalutationpage|generalft"
 msgid "General salutation"
-msgstr "ברכה כללית"
+msgstr "ברכה פותחת כללית"
 
 #. 7Snab
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:262
@@ -20298,38 +20296,33 @@ msgstr "שדה כתובת עבור נמענת"
 
 #. Gu5tC
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:305
-#, fuzzy
 msgctxt "mmsalutationpage|femaleft"
 msgid "_Female"
-msgstr "נקבה"
+msgstr "_נקבה"
 
 #. Rmtni
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:319
-#, fuzzy
 msgctxt "mmsalutationpage|maleft"
 msgid "_Male"
-msgstr "זכר"
+msgstr "_זכר"
 
 #. dUuiH
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:333
-#, fuzzy
 msgctxt "mmsalutationpage|femalecolft"
 msgid "Field name"
-msgstr "שם קובץ"
+msgstr "שם שדה"
 
 #. cFDEw
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:347
-#, fuzzy
 msgctxt "mmsalutationpage|femalefieldft"
 msgid "Field value"
 msgstr "ערך שדה"
 
 #. YCdbP
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:359
-#, fuzzy
 msgctxt "mmsalutationpage|newfemale"
 msgid "_New..."
-msgstr "חדש..."
+msgstr "_חדש…"
 
 #. iQETJ
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:367
@@ -20339,10 +20332,9 @@ msgstr ""
 
 #. R5QR8
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:378
-#, fuzzy
 msgctxt "mmsalutationpage|newmale"
 msgid "N_ew..."
-msgstr "חדש..."
+msgstr "_חדש…"
 
 #. ACYDN
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:386
@@ -20404,7 +20396,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:28
 msgctxt "mmselectpage|currentdoc"
 msgid "Use the current _document"
-msgstr ""
+msgstr "להשתמש במסמך ה_נוכחי"
 
 #. EUVtU
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:37
@@ -20416,19 +20408,19 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:48
 msgctxt "mmselectpage|newdoc"
 msgid "Create a ne_w document"
-msgstr ""
+msgstr "יצירת מסמך ח_דש"
 
 #. XY8FU
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:57
 msgctxt "mmselectpage|extended_tip|newdoc"
 msgid "Creates a new Writer document to use for the mail merge."
-msgstr ""
+msgstr "יוצר מסמך Writer חדש לשימוש עבור מיזוג הדואר."
 
 #. bATvf
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:68
 msgctxt "mmselectpage|loaddoc"
 msgid "Start from _existing document"
-msgstr ""
+msgstr "התחלה ממסמך _קיים"
 
 #. MFqCS
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:78
@@ -20440,13 +20432,13 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:89
 msgctxt "mmselectpage|template"
 msgid "Start from a t_emplate"
-msgstr ""
+msgstr "התחלה מ_תבנית"
 
 #. BxBQF
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:99
 msgctxt "mmselectpage|extended_tip|template"
 msgid "Select the template that you want to create your mail merge document with."
-msgstr ""
+msgstr "נא לבחור את התבנית עמה ברצונך ליצור את מסמך מיזוג הדואר שלך."
 
 #. mSCWL
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:110
