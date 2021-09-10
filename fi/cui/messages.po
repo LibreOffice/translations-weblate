@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2020-10-29 13:01+0100\n"
-"PO-Revision-Date: 2021-08-29 06:26+0000\n"
+"PO-Revision-Date: 2021-09-10 12:22+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://translations.documentfoundation.org/projects/libo_ui-7-0/cuimessages/fi/>\n"
 "Language: fi\n"
@@ -6391,7 +6391,7 @@ msgstr "Keltainen:"
 #: cui/uiconfig/ui/colorpickerdialog.ui:617
 msgctxt "colorpickerdialog|label8"
 msgid "_Key:"
-msgstr "Avain:"
+msgstr "Avainväri:"
 
 #. mxFDw
 #: cui/uiconfig/ui/colorpickerdialog.ui:687
@@ -10765,28 +10765,28 @@ msgstr "Asiakirjojen lähettäminen sähköpostin liitteinä"
 #: cui/uiconfig/ui/optfltrembedpage.ui:82
 msgctxt "optfltrembedpage|column1"
 msgid "[L]"
-msgstr ""
+msgstr "[L]"
 
 #. 66D6D
 #. A column title, short for Save. This string is repeated as a prefix to an explanatory note under the widget
 #: cui/uiconfig/ui/optfltrembedpage.ui:97
 msgctxt "optfltrembedpage|column2"
 msgid "[S]"
-msgstr ""
+msgstr "[T]"
 
 #. x5kfq
 #. The [L] here is repeated as the column title for the "Load" column of this options page
 #: cui/uiconfig/ui/optfltrembedpage.ui:138
 msgctxt "optfltrembedpage|label2"
 msgid "[L]: Load and convert the object"
-msgstr "[L]: Tuo ja muuntaa objektin"
+msgstr "[L]: Lataa ja muunna objekti"
 
 #. PiDB7
 #. The [S] here is repeated as the column title for the "Save" column of this options page
 #: cui/uiconfig/ui/optfltrembedpage.ui:151
 msgctxt "optfltrembedpage|label3"
 msgid "[S]: Convert and save the object"
-msgstr "[S]: Muuntaa ja tallentaa objektin"
+msgstr "[T]: Muunna ja tallenna objekti"
 
 #. f2hGQ
 #: cui/uiconfig/ui/optfltrembedpage.ui:175
@@ -11958,7 +11958,7 @@ msgstr "Oletustiedostomuoto ja ODF-asetukset"
 #: cui/uiconfig/ui/optsecuritypage.ui:35
 msgctxt "optsecuritypage|label9"
 msgid "Maintain a list of Time Stamping Authority (TSA) URLs to be used for digital signatures in PDF export."
-msgstr "Ylläpidä luetteloa PDF-viennin sähköisissä allekirjoituksissa käytettävien aikaleimapalvelimien (TSA) URL-osoitteista"
+msgstr "Ylläpidä luetteloa PDF-viennin sähköisissä allekirjoituksissa käytettävien aikaleimavarmentajien (Time Stamping Authority, TSA) URL-osoitteista."
 
 #. nXJ6o
 #: cui/uiconfig/ui/optsecuritypage.ui:48
@@ -15076,6 +15076,7 @@ msgstr "Teksti näkyvissä poistuttaessa"
 
 #. mH7ec
 #: cui/uiconfig/ui/textanimtabpage.ui:300
+#, fuzzy
 msgctxt "textanimtabpage|FT_COUNT"
 msgid "Animation cycles:"
 msgstr "Animaation kierto:"
@@ -15270,7 +15271,7 @@ msgstr "_Lisää"
 #: cui/uiconfig/ui/textflowpage.ui:245
 msgctxt "textflowpage|checkPageStyle"
 msgid "With page st_yle:"
-msgstr "Sivutyylin kanssa:"
+msgstr "Sivutyylillä:"
 
 #. fMeRA
 #: cui/uiconfig/ui/textflowpage.ui:266
@@ -15330,7 +15331,7 @@ msgstr "Vaihdot"
 #: cui/uiconfig/ui/textflowpage.ui:414
 msgctxt "textflowpage|checkSplitPara"
 msgid "_Do not split paragraph"
-msgstr "_Ei rivien erotusta"
+msgstr "Älä jaa kappaletta"
 
 #. vWpZR
 #: cui/uiconfig/ui/textflowpage.ui:431
@@ -15558,7 +15559,7 @@ msgstr "Alueen läpinäkyvyystila"
 #: cui/uiconfig/ui/tsaurldialog.ui:16
 msgctxt "tsaurldialog|TSAURLDialog"
 msgid "Time Stamping Authority URLs"
-msgstr "Aikaleimapalvelimien (TSA) URL-osoitteet"
+msgstr "Aikaleimavarmentajien (TSA) URL-osoitteet"
 
 #. osDWc
 #: cui/uiconfig/ui/tsaurldialog.ui:67
@@ -15570,13 +15571,13 @@ msgstr "Lisää..."
 #: cui/uiconfig/ui/tsaurldialog.ui:145
 msgctxt "tsaurldialog|label2"
 msgid "Add or delete Time Stamp Authority URLs"
-msgstr "Lisää tai poista aikaleimapalvelimien osoitteita"
+msgstr "Lisää tai poista aikaleimavarmentajien URL-osoitteita"
 
 #. fUEE7
 #: cui/uiconfig/ui/tsaurldialog.ui:207
 msgctxt "tsaurldialog|enteraurl"
 msgid "Enter a Time Stamp Authority URL"
-msgstr "Anna aikaleimapalvelimen URL-osoite"
+msgstr "Anna aikaleimavarmentajan URL-osoite"
 
 #. NEFBL
 #: cui/uiconfig/ui/tsaurldialog.ui:235
@@ -15594,7 +15595,7 @@ msgstr "Käytä kaksoisrivejä"
 #: cui/uiconfig/ui/twolinespage.ui:58
 msgctxt "twolinespage|label2"
 msgid "Double-lined"
-msgstr "Kaksoisrivi"
+msgstr "Kaksoisrivit"
 
 #. nwAhC
 #: cui/uiconfig/ui/twolinespage.ui:99
@@ -15724,16 +15725,15 @@ msgstr "Mukautettu:"
 
 #. QGHoo
 #: cui/uiconfig/ui/zoomdialog.ui:214
-#, fuzzy
 msgctxt "zoomdialog|zoomsb-atkobject"
 msgid "Variable"
-msgstr "Muuttuja"
+msgstr "Mukautettu"
 
 #. 8iPB6
 #: cui/uiconfig/ui/zoomdialog.ui:239
 msgctxt "zoomdialog|label2"
 msgid "Zoom Factor"
-msgstr "Zoom-kerroin"
+msgstr "Zoomauskerroin"
 
 #. CzsKr
 #: cui/uiconfig/ui/zoomdialog.ui:272
