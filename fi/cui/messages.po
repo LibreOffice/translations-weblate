@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-08 10:35+0200\n"
-"PO-Revision-Date: 2021-09-10 08:15+0000\n"
+"PO-Revision-Date: 2021-09-10 21:17+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/fi/>\n"
 "Language: fi\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.8.1\n"
 "X-POOTLE-MTIME: 1564954460.000000\n"
 
 #. GyY9M
@@ -4529,7 +4529,7 @@ msgstr "Poista lyhenteitä"
 #: cui/uiconfig/ui/acorexceptpage.ui:189
 msgctxt "acorexceptpage|extended_tip|abbrevlist"
 msgid "Lists the abbreviations that are not automatically corrected."
-msgstr "Luettelo lyhenteistä, jotka eivät korjaudu ohjelmallisesti."
+msgstr "Luettelee lyhenteet, joita ei korjata automaattisesti."
 
 #. VoLnB
 #: cui/uiconfig/ui/acorexceptpage.ui:206
@@ -4583,7 +4583,7 @@ msgstr "Poista sanat, joissa on kaksi isoa alkukirjainta tai pieni alkukirjain"
 #: cui/uiconfig/ui/acorexceptpage.ui:380
 msgctxt "acorexceptpage|extended_tip|doublelist"
 msgid "Lists the words or abbreviations that start with two initial capitals that are not automatically corrected. All words which start with two capital letters are listed in the field."
-msgstr "Luettelo niistä kahdella suuraakkosella alkavista lyhenteistä, joita ohjelman ei pidä korjata. Kentässä luetellaan kaikki kahdella kirjaimella alkavat sanat."
+msgstr "Luettelo kahdella isolla kirjaimella alkavista sanoista tai lyhenteistä, joita ei korjata automaattisesti. Kentässä luetellaan kaikki kahdella isolla kirjaimella alkavat sanat."
 
 #. 7FHhG
 #: cui/uiconfig/ui/acorexceptpage.ui:397
@@ -4595,19 +4595,19 @@ msgstr "Sanat, joissa on KAksi ISoa ALkukirjainta tai pIENI aLKUKIRJAIN"
 #: cui/uiconfig/ui/acorexceptpage.ui:412
 msgctxt "acorexceptpage|extended_tip|AcorExceptPage"
 msgid "Specify the abbreviations or letter combinations that you do not want %PRODUCTNAME to correct automatically."
-msgstr "Määritetään lyhenteet tai kirjainyhdistelmät, joita %PRODUCTNAME-ohjelmiston ei haluta korjaavan."
+msgstr "Määritä lyhenteet tai kirjainyhdistelmät, joita et halua %PRODUCTNAMEn korjaavan automaattisesti."
 
 #. Cd7nJ
 #: cui/uiconfig/ui/acoroptionspage.ui:84
 msgctxt "acoroptionspage|extended_tip|AutocorrectOptionsPage"
 msgid "Select the options for automatically correcting errors as you type, and then click OK."
-msgstr "Valitaan kirjoitettaessa tapahtuvan virheiden ohjelmallisen korjaamisen asetukset ja hyväksytään OK:lla."
+msgstr "Valitse kirjoitettaessa tapahtuvan virheiden automaattisen korjaamisen asetukset ja napsauta OK."
 
 #. D8rmz
 #: cui/uiconfig/ui/acorreplacepage.ui:40
 msgctxt "acorreplacepage|extended_tip|new"
 msgid "Adds or replaces an entry in the replacement table."
-msgstr "Lisätään tai korvataan korvaustaulukon merkintä."
+msgstr "Lisää tai korvaa korvaustaulukon merkinnän."
 
 #. qjPVK
 #: cui/uiconfig/ui/acorreplacepage.ui:52
@@ -4619,28 +4619,32 @@ msgstr "_Korvaa"
 #: cui/uiconfig/ui/acorreplacepage.ui:60
 msgctxt "acorreplacepage|extended_tip|replace"
 msgid "Adds or replaces an entry in the replacement table."
-msgstr "Lisätään tai korvataan korvaustaulukon merkintä."
+msgstr "Lisää tai korvaa korvaustaulukon merkinnän."
 
 #. 7hHNW
 #: cui/uiconfig/ui/acorreplacepage.ui:79
+#, fuzzy
 msgctxt "acorreplacepage|extended_tip|delete"
 msgid "Deletes the selected element or elements without requiring confirmation."
 msgstr "Poistetaan valittu määrä osatekijöitä ilman vahvistuskyselyä."
 
 #. YLcSj
 #: cui/uiconfig/ui/acorreplacepage.ui:146
+#, fuzzy
 msgctxt "acorreplacepage|extended_tip|tabview"
 msgid "Lists the entries for automatically replacing words, abbreviations or word parts while you type. To add an entry, enter text in the Replace and With boxes, and then click New. To edit an entry, select it, change the text in the With box, and then click Replace. To delete an entry, select it, and then click Delete."
 msgstr "Luettelon sisältää kirjoitettaessa korvautuvat sanat, lyhenteet ja sanan osat. Merkinnän lisäämiseksi kirjoitetaan teksti Korvaa- ja Millä:-kenttiin ja napsautetaan sitten Uusi-painiketta. Rivin muokkaamiseksi rivi valitaan ja muutetaan tekstiä Millä:-kentässä ja napsautetaan sitten Korvaa-painiketta. Rivin poistamiseksi se valitaan ja sitten napsautetaan Poista-painiketta."
 
 #. p6tMV
 #: cui/uiconfig/ui/acorreplacepage.ui:168
+#, fuzzy
 msgctxt "acorreplacepage|extended_tip|newtext"
 msgid "Enter the replacement text, graphic, frame, or OLE object that you want to replace the text in the Replace box. If you have selected text, a graphic, a frame, or an OLE object in your document, the relevant information is already entered here."
 msgstr "Annetaan  Korvaa-kentän tekstin korvaava teksti, kuva, kehys tai OLE-objekti. Jos asiakirjassa on valittuna teksti, kuva, kehys tai OLE-objekti, asiaan kuuluva tieto on jo kentässä."
 
 #. gd9PD
 #: cui/uiconfig/ui/acorreplacepage.ui:187
+#, fuzzy
 msgctxt "acorreplacepage|extended_tip|origtext"
 msgid "Enter the word, abbreviation or word part that you want to replace while you type. Wildcard character sequence .* in the end of word results the replacement of the word before arbitrary suffixes, too. Wildcard character sequence .* before the word results the replacement after arbitrary prefixes, too. For example, the pattern \"i18n.*\" with the replacement text \"internationalization\" finds and replaces \"i18ns\" with \"internationalizations\", or the pattern \".*...\" with the replacement text \"…\" finds and replaces three dots in \"word...\" with the typographically correct precomposed Unicode horizontal ellipsis (\"word…\")."
 msgstr "Kenttään syötetään sana, lyhenne tai sanan osa, joka halutaan korvattavaksi tekstiä kirjoitettaessa. Jokerimerkki .* sanan lopussa mahdollistaa korjauksen myös tilanteissa, joissa sanan perässä on mikä tahansa jälkiliite. Vastaavasti jokerimerkki .* sanan alussa mahdollistaa vaihtuvat etuliitteet. Esimerkiksi korvattava teksti \"n:o.*\" korvaustekstillä \"numero\" johtaa sanan \"n:ossa\" korvaamiseen sanalla \"numerossa\", tai korvattava teksti \".*...\" korvaustekstillä \"…\" korvaa sanan perässä olevat kolme pistettä \"sana...\" typografisesti paremmalla Unicode-merkillä \"sana…\"."
@@ -4667,13 +4671,13 @@ msgstr "_Vain teksti"
 #: cui/uiconfig/ui/acorreplacepage.ui:240
 msgctxt "acorreplacepage|extended_tip|textonly"
 msgid "Saves the entry in the With box without formatting. When the replacement is made, the text uses the same format as the document text."
-msgstr "Millä:-kentän merkintä tallennetaan ilman muotoiluja. Korvattaessa tekstissä käytetään asiakirjan tekstin muotoilua."
+msgstr "Tallentaa Korvaaja-kentän merkinnän ilman muotoiluja. Korvattaessa tekstissä käytetään asiakirjan tekstin muotoilua."
 
 #. yuDgJ
 #: cui/uiconfig/ui/acorreplacepage.ui:254
 msgctxt "acorreplacepage|extended_tip|AcorReplacePage"
 msgid "Edits the replacement table for automatically correcting or replacing words or abbreviations in your document."
-msgstr "Muokataan asiakirjan ohjelmallisen korjauksen tai sanojen korvauksen tai lyhennysten korvaustaulukkoa."
+msgstr "Muokkaa asiakirjan automaattisen korjauksen sekä sanojen tai lyhenteiden korvauksen korvaustaulukkoa."
 
 #. 9Xnti
 #: cui/uiconfig/ui/additionsdialog.ui:12
@@ -4830,7 +4834,7 @@ msgstr "Ikääntyminen"
 #: cui/uiconfig/ui/agingdialog.ui:144
 msgctxt "agingdialog|extended_tip|value"
 msgid "Specifies the number of colors to which the image is to be reduced."
-msgstr "Määritetään kuvaan jätettävien värien lukumäärä."
+msgstr "Määrittää kuvaan jätettävien värien määrän."
 
 #. bJvBm
 #: cui/uiconfig/ui/agingdialog.ui:157
@@ -4860,19 +4864,19 @@ msgstr "Muokkaa..."
 #: cui/uiconfig/ui/applyautofmtpage.ui:64
 msgctxt "applyautofmtpage|extended_tip|edit"
 msgid "Modifies the selected AutoCorrect option."
-msgstr "Muokataan valittua automaattisen korjauksen asetusta."
+msgstr "Muokkaa valittua automaattisen korjauksen asetusta."
 
 #. sYxng
 #: cui/uiconfig/ui/applyautofmtpage.ui:78
 msgctxt "applyautofmtpage|label1"
 msgid "[M]: Replace while modifying existing text"
-msgstr "[M]: Korvaa muokattaessa nykyistä tekstiä"
+msgstr "[M]: Korvaa muokattaessa olemassa olevaa tekstiä"
 
 #. FtXg9
 #: cui/uiconfig/ui/applyautofmtpage.ui:90
 msgctxt "applyautofmtpage|label2"
 msgid "[T]: AutoCorrect while typing"
-msgstr "[T]: Automaattinen korjaus kirjoitettaessa"
+msgstr "[K]: Automaattinen korjaus kirjoitettaessa"
 
 #. NujUD
 #: cui/uiconfig/ui/applyautofmtpage.ui:136
@@ -4884,13 +4888,13 @@ msgstr "[M]"
 #: cui/uiconfig/ui/applyautofmtpage.ui:158
 msgctxt "applyautofmtpage|t"
 msgid "[T]"
-msgstr "[T]"
+msgstr "[K]"
 
 #. 2tG6L
 #: cui/uiconfig/ui/applyautofmtpage.ui:205
 msgctxt "applyautofmtpage|extended_tip|ApplyAutoFmtPage"
 msgid "Select the options for automatically correcting errors as you type, and then click OK."
-msgstr "Valitaan kirjoitettaessa tapahtuvan virheiden ohjelmallisen korjaamisen asetukset ja hyväksytään OK:lla."
+msgstr "Valitse kirjoitettaessa tapahtuvan virheiden automaattisen korjaamisen asetukset ja napsauta OK."
 
 #. EjG2g
 #: cui/uiconfig/ui/applylocalizedpage.ui:92
@@ -4902,19 +4906,19 @@ msgstr "[M]"
 #: cui/uiconfig/ui/applylocalizedpage.ui:114
 msgctxt "applylocalizedpage|t"
 msgid "[T]"
-msgstr "[T]"
+msgstr "[K]"
 
 #. 9D3Vt
 #: cui/uiconfig/ui/applylocalizedpage.ui:139
 msgctxt "applylocalizedpage|extended_tip|list"
 msgid "Select to apply the replacements while you type [T], or when you modify existing text [M]."
-msgstr "Valitaan korvausten käyttö kirjoitettaessa [T] tai muokattaessa vanhaa tekstiä [M]."
+msgstr "Valitse korvausten käyttö kirjoitettaessa [K] tai muokattaessa olemassa olevaa tekstiä [M]."
 
 #. KM3Dj
 #: cui/uiconfig/ui/applylocalizedpage.ui:200
 msgctxt "applylocalizedpage|extended_tip|checklist"
 msgid "Select to apply the replacements while you type [T], or when you modify existing text [M]."
-msgstr "Valitaan korvausten käyttö kirjoitettaessa [T] tai muokattaessa vanhaa tekstiä [M]."
+msgstr "Valitse korvausten käyttö kirjoitettaessa [K] tai muokattaessa olemassa olevaa tekstiä [M]."
 
 #. srHxL
 #: cui/uiconfig/ui/applylocalizedpage.ui:241
@@ -5118,7 +5122,7 @@ msgstr "Läpinäkyvyys"
 #: cui/uiconfig/ui/areadialog.ui:257
 msgctxt "areadialog|extended_tip|AreaDialog"
 msgid "Sets the fill properties of the selected drawing object."
-msgstr "Asetetaan valitun piirrosobjektin täyttöominaisuudet."
+msgstr "Asettaa valitun piirrosobjektin täyttöominaisuudet."
 
 #. as89H
 #: cui/uiconfig/ui/areatabpage.ui:33
@@ -5292,7 +5296,7 @@ msgstr "Korvaukset ja poikkeukset kielelle:"
 #: cui/uiconfig/ui/autocorrectdialog.ui:137
 msgctxt "autocorrectdialog|extended_tip|lang"
 msgid "Select the language for which you want to create or edit the replacement rules."
-msgstr "Valitaan kieli, jolle luodaan korvaus säännöt tai niitä muokataan."
+msgstr "Valitse kieli, jonka korvaussääntöjä haluat luoda tai muokata."
 
 #. Qpig7
 #: cui/uiconfig/ui/autocorrectdialog.ui:199
@@ -5352,7 +5356,7 @@ msgstr "Muuta..."
 #: cui/uiconfig/ui/baselinksdialog.ui:60
 msgctxt "baselinksdialog|extended_tip|CHANGE_SOURCE"
 msgid "Change the source file for the selected link."
-msgstr "Vaihdetaan valitun linkin lähdetiedostoa."
+msgstr "Vaihda valitun linkin lähdetiedostoa."
 
 #. RDZHa
 #: cui/uiconfig/ui/baselinksdialog.ui:72
