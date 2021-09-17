@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-09-14 11:59+0200\n"
-"PO-Revision-Date: 2021-09-16 12:36+0000\n"
+"PO-Revision-Date: 2021-09-17 15:36+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/fi/>\n"
 "Language: fi\n"
@@ -10223,10 +10223,11 @@ msgstr "Avataan Muokkaa mukautettua sanastoa -valintaikkuna, jossa voidaan muoka
 #: cui/uiconfig/ui/hangulhanjaoptdialog.ui:166
 msgctxt "hangulhanjaoptdialog|extended_tip|delete"
 msgid "Deletes the selected user-defined dictionary."
-msgstr "Poistetaan valittu käyttäjän määrittämä sanasto."
+msgstr "Poistaa valitun käyttäjän määrittämän sanaston."
 
 #. v7Bkk
 #: cui/uiconfig/ui/hangulhanjaoptdialog.ui:231
+#, fuzzy
 msgctxt "hangulhanjaoptdialog|extended_tip|dicts"
 msgid "Lists all user-defined dictionaries. Select the check box next to the dictionary that you want to use. Clear the check box next to the dictionary that you do not want to use."
 msgstr "Luettelossa on kaikki käyttäjän määrittämät sanastot. Valitaan käytettävän sanaston viereinen valintaruutu. Tyhjennetään valintaruutu niiden sanastojen vierestä, joita ei käytetä."
@@ -10241,13 +10242,13 @@ msgstr "Omat sanastot"
 #: cui/uiconfig/ui/hangulhanjaoptdialog.ui:276
 msgctxt "hangulhanjaoptdialog|ignorepost"
 msgid "Ignore post-positional word"
-msgstr "Ohita postpositio-sanat"
+msgstr "Sivuuta postpositiot"
 
 #. B4zEG
 #: cui/uiconfig/ui/hangulhanjaoptdialog.ui:284
 msgctxt "hangulhanjaoptdialog|extended_tip|ignorepost"
 msgid "Ignores positional characters at the end of Korean words when you search a dictionary."
-msgstr "Ohitetaan korean sanojen lopussa olevat asemaa osoittavat merkit sanakirjasta haettaessa."
+msgstr "Sivuuttaa korean postpositiot sanastosta haettaessa."
 
 #. EEKAT
 #: cui/uiconfig/ui/hangulhanjaoptdialog.ui:295
@@ -10259,7 +10260,7 @@ msgstr "Näytä ensin viimeksi käytetyt merkinnät"
 #: cui/uiconfig/ui/hangulhanjaoptdialog.ui:303
 msgctxt "hangulhanjaoptdialog|extended_tip|showrecentfirst"
 msgid "Shows the replacement suggestion that you selected the last time as the first entry on the list."
-msgstr "Näytetään edellisellä kerralla valittu korvausehdotus luettelon ensimmäisenä."
+msgstr "Näyttää edellisellä kerralla valitun korvausehdotuksen luettelon ensimmäisenä."
 
 #. MKAyM
 #: cui/uiconfig/ui/hangulhanjaoptdialog.ui:314
@@ -10271,7 +10272,7 @@ msgstr "Korvaa kaikki yksikäsitteiset merkinnät automaattisesti"
 #: cui/uiconfig/ui/hangulhanjaoptdialog.ui:322
 msgctxt "hangulhanjaoptdialog|extended_tip|autoreplaceunique"
 msgid "Automatically replaces words that only have one suggested word replacement."
-msgstr "Sanat, joilla on vain yksi korvausehdotus, korvautuvat kyselyittä."
+msgstr "Korvaa automaattisesti sanat, joilla on vain yksi korvausehdotus."
 
 #. Bdqne
 #: cui/uiconfig/ui/hangulhanjaoptdialog.ui:337
@@ -10283,7 +10284,7 @@ msgstr "Asetukset"
 #: cui/uiconfig/ui/hatchpage.ui:85
 msgctxt "hatchpage|extended_tip|add"
 msgid "Adds a custom hatching pattern to the current list. Specify the properties of your hatching pattern, and then click this button."
-msgstr "Lisätään mukautettu viivoitus nykyiseen luetteloon. Määritetään ensin viivoituskuvion ominaisuudet ja sitten napsautetaan tätä painiketta."
+msgstr "Lisää mukautetun viivoituksen nykyiseen luetteloon. Määritä ensin viivoituskuvion ominaisuudet ja napsauta sitten tätä painiketta."
 
 #. TGiD7
 #: cui/uiconfig/ui/hatchpage.ui:97
@@ -10295,7 +10296,7 @@ msgstr "Muuta"
 #: cui/uiconfig/ui/hatchpage.ui:104
 msgctxt "hatchpage|extended_tip|modify"
 msgid "Applies the current hatching properties to the selected hatching pattern. If you want, you can save the pattern under a different name."
-msgstr "Käytetään vallitsevia viivoitusominaisuuksia valittuun viivoituskuvioon. Jos halutaan, kuvion voi tallentaa eri nimellä."
+msgstr "Käyttää tämänhetkisiä viivoitusominaisuuksia valittuun viivoituskuvioon. Halutessasi voit tallentaa kuvion eri nimellä."
 
 #. U8bWc
 #: cui/uiconfig/ui/hatchpage.ui:127
@@ -10313,7 +10314,7 @@ msgstr "Väli:"
 #: cui/uiconfig/ui/hatchpage.ui:182
 msgctxt "hatchpage|extended_tip|distancemtr"
 msgid "Enter the amount of space that you want to have between the hatch lines."
-msgstr "Määritetään viivoituksen välien suuruus."
+msgstr "Syötä viivojen välin suuruus."
 
 #. spGWy
 #: cui/uiconfig/ui/hatchpage.ui:196
@@ -10356,7 +10357,7 @@ msgstr "Kolminkertainen"
 #: cui/uiconfig/ui/hatchpage.ui:277
 msgctxt "hatchpage|extended_tip|linetypelb"
 msgid "Select the type of hatch lines that you want to use."
-msgstr "Valitaan käytettävä viivoitustyyppi."
+msgstr "Valitse käytettävä viivoitustyyppi."
 
 #. VyTto
 #: cui/uiconfig/ui/hatchpage.ui:291
@@ -10368,7 +10369,7 @@ msgstr "Viivan väri:"
 #: cui/uiconfig/ui/hatchpage.ui:316
 msgctxt "hatchpage|extended_tip|linecolorlb"
 msgid "Select the color of the hatch lines."
-msgstr "Valitaan viivoituksen viivojen väri."
+msgstr "Valitse viivoituksen viivojen väri."
 
 #. 3hgCJ
 #: cui/uiconfig/ui/hatchpage.ui:328
@@ -10584,7 +10585,7 @@ msgstr ""
 #: cui/uiconfig/ui/hyperlinkdocpage.ui:318
 msgctxt "hyperlinkdocpage|extended_tip|name"
 msgid "Enter a name for the hyperlink."
-msgstr "Nimetään hyperlinkki."
+msgstr "Anna hyperlinkille nimi."
 
 #. y3amv
 #: cui/uiconfig/ui/hyperlinkdocpage.ui:339
@@ -10740,7 +10741,7 @@ msgstr "Nimi:"
 #: cui/uiconfig/ui/hyperlinkinternetpage.ui:330
 msgctxt "hyperlinkinternetpage|extended_tip|name"
 msgid "Enter a name for the hyperlink."
-msgstr "Nimetään hyperlinkki."
+msgstr "Anna hyperlinkille nimi."
 
 #. UG2wE
 #: cui/uiconfig/ui/hyperlinkinternetpage.ui:351
@@ -10854,7 +10855,7 @@ msgstr ""
 #: cui/uiconfig/ui/hyperlinkmailpage.ui:244
 msgctxt "hyperlinkmailpage|extended_tip|name"
 msgid "Enter a name for the hyperlink."
-msgstr "Nimetään hyperlinkki."
+msgstr "Anna hyperlinkille nimi."
 
 #. zkpdN
 #: cui/uiconfig/ui/hyperlinkmailpage.ui:265
@@ -10920,7 +10921,7 @@ msgstr "_Sulje"
 #: cui/uiconfig/ui/hyperlinkmarkdialog.ui:56
 msgctxt "hyperlinkmarkdialog|extended_tip|close"
 msgid "Once the hyperlink has been completely entered, click on Close to set the link and leave the dialog."
-msgstr "Kun hyperlinkin syöttäminen on kokonaan valmis, napsautetaan Sulje linkin asettamiseksi ja valintaikkunan sulkemiseksi."
+msgstr "Kun hyperlinkin syöttäminen on kokonaan valmis, napsauta Sulje linkin asettamiseksi ja valintaikkunan sulkemiseksi."
 
 #. P5DCe
 #: cui/uiconfig/ui/hyperlinkmarkdialog.ui:122
@@ -10932,7 +10933,7 @@ msgstr "Linkkien kohteet puuna"
 #: cui/uiconfig/ui/hyperlinkmarkdialog.ui:123
 msgctxt "hyperlinkmarkdialog|extended_tip|TreeListBox"
 msgid "Specifies the position in the target document where you wish to jump to."
-msgstr "Määritetään se kohdeasiakirjan sijainti, jonne halutaan hypätä."
+msgstr "Määrittää kohdeasiakirjassa olevan sijainnin, johon halutaan siirtyä."
 
 #. tHygQ
 #: cui/uiconfig/ui/hyperlinknewdocpage.ui:54
@@ -10986,7 +10987,7 @@ msgstr "Tiedoston tyyppi:"
 #: cui/uiconfig/ui/hyperlinknewdocpage.ui:162
 msgctxt "hyperlinknewdocpage|extended_tip|path"
 msgid "Enter a URL for the file that you want to open when you click the hyperlink."
-msgstr "Annetaan sen tiedoston URL-osoite, joka avataan, kun hyperlinkkiä napsautetaan."
+msgstr "Anna hyperlinkkiä napsauttamalla avattavan tiedoston URL-osoite."
 
 #. Ee4g2
 #: cui/uiconfig/ui/hyperlinknewdocpage.ui:202
@@ -11028,7 +11029,7 @@ msgstr ""
 #: cui/uiconfig/ui/hyperlinknewdocpage.ui:329
 msgctxt "hyperlinknewdocpage|extended_tip|name"
 msgid "Enter a name for the hyperlink."
-msgstr "Nimetään hyperlinkki."
+msgstr "Anna hyperlinkille nimi."
 
 #. cSknQ
 #: cui/uiconfig/ui/hyperlinknewdocpage.ui:350
@@ -11094,7 +11095,7 @@ msgstr "Tavuta"
 #: cui/uiconfig/ui/hyphenate.ui:109
 msgctxt "hyphenate|extended_tip|ok"
 msgid "Inserts the hyphen at the indicated position."
-msgstr "Lisätään tavuviiva osoitetulle kohdalle."
+msgstr "Lisää tavuviivan osoitettuun kohtaan."
 
 #. gEGtP
 #: cui/uiconfig/ui/hyphenate.ui:121
@@ -11106,13 +11107,13 @@ msgstr "Ohita"
 #: cui/uiconfig/ui/hyphenate.ui:127
 msgctxt "hyphenate|extended_tip|continue"
 msgid "Ignores the hyphenation suggestion and finds the next word to hyphenate."
-msgstr "Ohitetaan tavutusehdotus ja etsitään seuraava tavutettava sana."
+msgstr "Ohittaa tavutusehdotuksen ja etsii seuraavan tavutettavan sanan."
 
 #. zXLRC
 #: cui/uiconfig/ui/hyphenate.ui:146
 msgctxt "hyphenate|extended_tip|delete"
 msgid "Removes the current hyphenation point from the displayed word."
-msgstr "Poistetaan käsiteltävä tavutuskohta esitetystä sanasta."
+msgstr "Poistaa käsiteltävän tavutuskohdan esillä olevasta sanasta."
 
 #. dsjvf
 #: cui/uiconfig/ui/hyphenate.ui:166
@@ -11124,25 +11125,25 @@ msgstr "Sana:"
 #: cui/uiconfig/ui/hyphenate.ui:196
 msgctxt "hyphenate|extended_tip|worded"
 msgid "Displays the hyphenation suggestion(s) for the selected word."
-msgstr "Näytetään valitun sanan tavutusehdotukset."
+msgstr "Näyttää valitun sanan tavutusehdotuksen tai -ehdotukset."
 
 #. HAF8G
 #: cui/uiconfig/ui/hyphenate.ui:215
 msgctxt "hyphenate|extended_tip|left"
 msgid "Set the position of the hyphen. This option is only available if more than one hyphenation suggestion is displayed."
-msgstr "Asetetaan tavuviivan paikka. Tämä vaihtoehto on käytettävissä vain, jos useampi kuin yksi tavutusehdotus on esillä."
+msgstr "Asettaa tavuviivan sijainnin. Tämä vaihtoehto on käytettävissä vain, jos esillä on useampi kuin yksi tavutusehdotus."
 
 #. 5gKXt
 #: cui/uiconfig/ui/hyphenate.ui:233
 msgctxt "hyphenate|extended_tip|right"
 msgid "Set the position of the hyphen. This option is only available if more than one hyphenation suggestion is displayed."
-msgstr "Asetetaan tavuviivan paikka. Tämä vaihtoehto on käytettävissä vain, jos useampi kuin yksi tavutusehdotus on esillä."
+msgstr "Asettaa tavuviivan sijainnin. Tämä vaihtoehto on käytettävissä vain, jos esillä on useampi kuin yksi tavutusehdotus."
 
 #. 8QHd8
 #: cui/uiconfig/ui/hyphenate.ui:271
 msgctxt "hyphenate|extended_tip|HyphenateDialog"
 msgid "Inserts hyphens in words that are too long to fit at the end of a line."
-msgstr "Lisätään tavuviiva sanoihin, jotka ovat sopimattoman pitkiä rivin loppuun."
+msgstr "Lisää tavuviivoja sanoihin, jotka eivät mahdu rivin loppuun."
 
 #. HGCp4
 #: cui/uiconfig/ui/iconchangedialog.ui:62
@@ -11188,7 +11189,7 @@ msgstr "Poista..."
 #: cui/uiconfig/ui/iconselectordialog.ui:188
 msgctxt "iconselectordialog|extended_tip|deleteButton"
 msgid "Click to remove the selected icon from the list. Only user-defined icons can be removed."
-msgstr "Napsautetaan valitun kuvakkeen poistamiseksi. Vain käyttäjän määrittämät kuvakkeet ovat poistettavissa."
+msgstr "Napsauta poistaaksesi valitun kuvakkeen luettelosta. Vain käyttäjän määrittämiä kuvakkeita voi poistaa."
 
 #. C4HU9
 #: cui/uiconfig/ui/iconselectordialog.ui:217
@@ -11692,7 +11693,7 @@ msgstr "Määritellyt hakemistot ja arkistotiedostot"
 #: cui/uiconfig/ui/javaclasspathdialog.ui:158
 msgctxt "extended_tip|paths"
 msgid "Specifies the location of Java classes or Java class libraries."
-msgstr "Määritetään Java-luokkien tai Java-luokkakirjastojen sijainti."
+msgstr "Määrittää Java-luokkien tai Java-luokkakirjastojen sijainnin."
 
 #. 5cgAY
 #: cui/uiconfig/ui/javaclasspathdialog.ui:185
@@ -11704,7 +11705,7 @@ msgstr "Lisää Java-arkistotiedosto..."
 #: cui/uiconfig/ui/javaclasspathdialog.ui:192
 msgctxt "extended_tip|archive"
 msgid "Select an archive file in jar or zip format and add the file to the class path."
-msgstr "Valitaan jar- tai zip-muotoinen arkistotiedosto ja lisätään tiedosto luokkapolkuun."
+msgstr "Valitse jar- tai zip-muotoinen arkistotiedosto ja lisää se luokkapolkuun."
 
 #. LBBVG
 #: cui/uiconfig/ui/javaclasspathdialog.ui:204
@@ -11716,7 +11717,7 @@ msgstr "Lisää hakemisto"
 #: cui/uiconfig/ui/javaclasspathdialog.ui:211
 msgctxt "extended_tip|folder"
 msgid "Select a folder and add the folder to the class path."
-msgstr "Valitaan kansio ja lisätään se luokkapolkuun."
+msgstr "Valitse kansio ja lisää se luokkapolkuun."
 
 #. YNHm3
 #: cui/uiconfig/ui/javaclasspathdialog.ui:223
@@ -11728,13 +11729,13 @@ msgstr "Poista"
 #: cui/uiconfig/ui/javaclasspathdialog.ui:230
 msgctxt "extended_tip|remove"
 msgid "Select an archive or a folder in the list and click Remove to remove the object from the class path."
-msgstr "Valitaan luettelosta arkistotiedosto tai kansio ja napsautetaan Poista-painiketta kohteen poistamiseksi luokkapolusta."
+msgstr "Valitse luettelosta arkistotiedosto tai kansio ja napsauta Poista-painiketta kohteen poistamiseksi luokkapolusta."
 
 #. De7GF
 #: cui/uiconfig/ui/javaclasspathdialog.ui:266
 msgctxt "extended_tip|JavaClassPath"
 msgid "Specifies the location of Java classes or Java class libraries."
-msgstr "Määritetään Java-luokkien tai Java-luokkakirjastojen sijainti."
+msgstr "Määrittää Java-luokkien tai -luokkakirjastojen sijainnin."
 
 #. LU9ad
 #: cui/uiconfig/ui/javastartparametersdialog.ui:16
@@ -12606,7 +12607,7 @@ msgstr "Korosta reunoja"
 #: cui/uiconfig/ui/mosaicdialog.ui:242
 msgctxt "mosaicdialog|extended_tip|edges"
 msgid "Enhances, or sharpens, the edges of the object."
-msgstr "Korostetaan tai terävöitetään kohteiden reunoja."
+msgstr "Korostaa eli terävöi objektin reunoja."
 
 #. LKQEa
 #: cui/uiconfig/ui/mosaicdialog.ui:263
@@ -12834,7 +12835,7 @@ msgstr "Poista"
 #: cui/uiconfig/ui/numberingformatpage.ui:144
 msgctxt "numberingformatpage|extended_tip|delete"
 msgid "Deletes the selected number format."
-msgstr "Poistetaan valittu muotoilu."
+msgstr "Poista valittu luvun muoto."
 
 #. BFF82
 #: cui/uiconfig/ui/numberingformatpage.ui:169
@@ -12858,7 +12859,7 @@ msgstr ""
 #: cui/uiconfig/ui/numberingformatpage.ui:233
 msgctxt "numberingformatpage|extended_tip|decimalsed"
 msgid "Enter the number of decimal places that you want to display."
-msgstr "Syötetään luvun esitettävien desimaalien määrä."
+msgstr "Syötä näytettävien desimaalien määrä."
 
 #. VnduH
 #: cui/uiconfig/ui/numberingformatpage.ui:251
@@ -12870,7 +12871,7 @@ msgstr ""
 #: cui/uiconfig/ui/numberingformatpage.ui:275
 msgctxt "numberingformatpage|extended_tip|leadzerosed"
 msgid "Enter the maximum number of zeroes to display in front of the decimal point."
-msgstr "Syötetään desimaalipilkun edessä näytettävien nollien enimmäismäärä."
+msgstr "Syötä desimaalipilkun edessä näytettävien nollien enimmäismäärä."
 
 #. ZiPyf
 #: cui/uiconfig/ui/numberingformatpage.ui:296
@@ -12924,7 +12925,7 @@ msgstr "_Tuhaterotin"
 #: cui/uiconfig/ui/numberingformatpage.ui:396
 msgctxt "numberingformatpage|extended_tip|thousands"
 msgid "Inserts a separator between thousands. The type of separator that is used depends on your language settings."
-msgstr "Tuhansien väliin tulee erotinmerkki. Merkin tyyppi on kieliasetuksista riippuvainen."
+msgstr "Lisää tuhansien väliin väliin erottimen. Erottimen tyyppi riippuu kieliasetuksista."
 
 #. rsmBU
 #: cui/uiconfig/ui/numberingformatpage.ui:418
@@ -12954,7 +12955,7 @@ msgstr "Päivitä automaattisesti"
 #: cui/uiconfig/ui/numberingformatpage.ui:533
 msgctxt "numberingformatpage|extended_tip|currencylb"
 msgid "Select a currency, and then scroll to the top of the Format list to view the formatting options for the currency."
-msgstr "Valitaan maan valuutta ja sitten vieritetään Muotoilu-luettelon yläreunaan, jotta nähdään valuutan muotoiluvaihtoehdot."
+msgstr "Valitse valuutta ja vieritä sitten Muotoilu-luettelon yläreunaan nähdäksesi valuutan muotoiluvaihtoehdot."
 
 #. TBLU5
 #: cui/uiconfig/ui/numberingformatpage.ui:574
@@ -12984,7 +12985,7 @@ msgstr "Lähdemuoto"
 #: cui/uiconfig/ui/numberingformatpage.ui:646
 msgctxt "numberingformatpage|extended_tip|sourceformat"
 msgid "Uses the same number format as the cells containing the data for the chart."
-msgstr "Käytetään samaa lukumuotoa kuin kaavion arvosoluissa."
+msgstr "Käyttää samaa lukumuotoa kuin kaavion datan sisältävät solut."
 
 #. iCX4U
 #: cui/uiconfig/ui/numberingformatpage.ui:687
@@ -13014,7 +13015,7 @@ msgstr "Galleria"
 #: cui/uiconfig/ui/numberingoptionspage.ui:112
 msgctxt "numberingoptionspage|extended_tip|levellb"
 msgid "Select the level(s) that you want to define the formatting options for."
-msgstr "Valitaan tasot, joille muotoiluasetuksia aiotaan käyttää."
+msgstr "Valitse taso(t), joiden muotoiluasetukset haluat määrittää."
 
 #. iHsAJ
 #: cui/uiconfig/ui/numberingoptionspage.ui:123
@@ -13026,7 +13027,7 @@ msgstr "Taso"
 #: cui/uiconfig/ui/numberingoptionspage.ui:167
 msgctxt "numberingoptionspage|label4"
 msgid "Number:"
-msgstr "Luku:"
+msgstr "Numerointi:"
 
 #. CJfZf
 #: cui/uiconfig/ui/numberingoptionspage.ui:183
@@ -13044,7 +13045,7 @@ msgstr ""
 #: cui/uiconfig/ui/numberingoptionspage.ui:220
 msgctxt "numberingoptionspage|extended_tip|startat"
 msgid "Enter a new starting number for the current level."
-msgstr "Annetaan uusi aloitusnumero nykyiselle tasolle."
+msgstr "Anna uusi aloitusnumero nykyiselle tasolle."
 
 #. xWX3x
 #: cui/uiconfig/ui/numberingoptionspage.ui:233
@@ -13110,19 +13111,19 @@ msgstr "Tasaus:"
 #: cui/uiconfig/ui/numberingoptionspage.ui:378
 msgctxt "numberingoptionspage|orientlb"
 msgid "Top of baseline"
-msgstr "Perusviivan yläreuna"
+msgstr "Peruslinjan yläreuna"
 
 #. YgzFa
 #: cui/uiconfig/ui/numberingoptionspage.ui:379
 msgctxt "numberingoptionspage|orientlb"
 msgid "Center of baseline"
-msgstr "Perusviivan keskipiste"
+msgstr "Peruslinjan keskikohta"
 
 #. rRWyY
 #: cui/uiconfig/ui/numberingoptionspage.ui:380
 msgctxt "numberingoptionspage|orientlb"
 msgid "Bottom of baseline"
-msgstr "Perusviivan alareuna"
+msgstr "Peruslinjan alareuna"
 
 #. GRqAC
 #: cui/uiconfig/ui/numberingoptionspage.ui:381
@@ -13152,7 +13153,7 @@ msgstr "Rivin yläreuna"
 #: cui/uiconfig/ui/numberingoptionspage.ui:385
 msgctxt "numberingoptionspage|orientlb"
 msgid "Center of line"
-msgstr "Viivan keskikohta"
+msgstr "Rivin keskikohta"
 
 #. 7dPkC
 #: cui/uiconfig/ui/numberingoptionspage.ui:386
@@ -13696,7 +13697,7 @@ msgstr "_Luokkapolku..."
 #: cui/uiconfig/ui/optadvancedpage.ui:161
 msgctxt "extended_tip|classpath"
 msgid "Opens the Class Path dialog."
-msgstr "Avataan Luokkapolku-valintaikkuna."
+msgstr "Avaa Luokkapolku-valintaikkunan."
 
 #. MxHGu
 #: cui/uiconfig/ui/optadvancedpage.ui:233
@@ -20985,7 +20986,7 @@ msgstr "A_utomaattisesti"
 #: cui/uiconfig/ui/textflowpage.ui:78
 msgctxt "textflowpage|extended_tip|checkAuto"
 msgid "Automatically inserts hyphens where they are needed in a paragraph."
-msgstr "Lisää automaattisesti yhdysmerkkejä kappaleeseen tarpeen mukaan."
+msgstr "Lisää automaattisesti tavuviivoja kappaleeseen tarpeen mukaan."
 
 #. MzDMB
 #: cui/uiconfig/ui/textflowpage.ui:99
@@ -20997,13 +20998,13 @@ msgstr "Anna peräkkäisten tavutettavien rivien enimmäismäärä."
 #: cui/uiconfig/ui/textflowpage.ui:119
 msgctxt "textflowpage|extended_tip|spinLineBegin"
 msgid "Enter the minimum number of characters that must appear at the beginning of the line after the hyphen."
-msgstr "Anna rivin alkuun yhdysmerkin jälkeen jäävien merkkien vähimmäismäärä."
+msgstr "Anna rivin alkuun tavuviivan jälkeen jäävien merkkien vähimmäismäärä."
 
 #. FFGUz
 #: cui/uiconfig/ui/textflowpage.ui:139
 msgctxt "textflowpage|extended_tip|spinLineEnd"
 msgid "Enter the minimum number of characters to leave at the end of the line before a hyphen is inserted."
-msgstr "Anna rivin loppuun yhdysmerkin eteen jäävien merkkien vähimmäismäärä."
+msgstr "Anna rivin loppuun tavuviivan eteen jäävien merkkien vähimmäismäärä."
 
 #. c6KN2
 #: cui/uiconfig/ui/textflowpage.ui:153
@@ -21021,7 +21022,7 @@ msgstr "Merkkejä rivin a_lussa"
 #: cui/uiconfig/ui/textflowpage.ui:181
 msgctxt "textflowpage|labelMaxNum"
 msgid "_Maximum number of consecutive hyphens"
-msgstr "Per_äkkäisten yhdysmerkkien enimmäismäärä"
+msgstr "Peräkkäisten tavuviivojen enimmäismäärä"
 
 #. GgHhP
 #: cui/uiconfig/ui/textflowpage.ui:192
