@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-09-10 23:11+0200\n"
+"POT-Creation-Date: 2021-09-20 13:02+0200\n"
 "PO-Revision-Date: 2020-03-08 23:16+0000\n"
 "Last-Translator: Mihkel Tõnnov <mihhkel@gmail.com>\n"
 "Language-Team: Estonian <https://weblate.documentfoundation.org/projects/libo_help-master/textsbasicshared03/et/>\n"
@@ -1312,15 +1312,6 @@ msgctxt ""
 msgid "The second column contains the data that will be associated to the corresponding label in the dictionary."
 msgstr ""
 
-#. fyDBX
-#: sf_array.xhp
-msgctxt ""
-"sf_array.xhp\n"
-"hd_id991627154151529\n"
-"help.text"
-msgid "Copy"
-msgstr ""
-
 #. bGXKd
 #: sf_array.xhp
 msgctxt ""
@@ -1969,31 +1960,31 @@ msgctxt ""
 msgid "<emph>column</emph>: A 1-dimensional array with as many items as there are rows in <literal>array_2d</literal>."
 msgstr ""
 
-#. xAruD
+#. vsPSG
 #: sf_array.xhp
 msgctxt ""
 "sf_array.xhp\n"
 "par_id851582643611291\n"
 "help.text"
-msgid "Prepend at the beginning of a two dimension array a new row. The resulting array has the same lower boundaries as the initial two dimension array."
+msgid "Prepend a new row at the beginning of a 2-dimensional array. The resulting array has the same lower boundaries as the initial 2-dimensional array."
 msgstr ""
 
-#. nBfC8
+#. g2LFC
 #: sf_array.xhp
 msgctxt ""
 "sf_array.xhp\n"
 "par_id991582643611645\n"
 "help.text"
-msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the last row of the resulting 2 dimension array."
+msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the last row of the resulting 2-dimensional array."
 msgstr ""
 
-#. SBF4d
+#. RiLGr
 #: sf_array.xhp
 msgctxt ""
 "sf_array.xhp\n"
 "par_id321582643611415\n"
 "help.text"
-msgid "<emph>row</emph>: A 1-dimensional array containing as many items as there are rows in <literal>array_2d</literal>."
+msgid "<emph>row</emph>: A 1-dimensional array containing as many items as there are columns in <literal>array_2d</literal>."
 msgstr ""
 
 #. WmxAd
@@ -2275,13 +2266,13 @@ msgctxt ""
 msgid "<emph>array_1d</emph>: The array to trim."
 msgstr ""
 
-#. bjHF2
+#. GAC2A
 #: sf_array.xhp
 msgctxt ""
 "sf_array.xhp\n"
 "par_id461582653148663\n"
 "help.text"
-msgid "Build a set, as a zero-based array, by applying the union operator on the two input arrays. Resulting items originate from any of both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, their items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
+msgid "Builds a set, as a zero-based array, by applying the union operator on the two input arrays. Resulting items originate from any of both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, their items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
 msgstr ""
 
 #. oHeQj
@@ -2491,13 +2482,13 @@ msgctxt ""
 msgid "Closes the given form document. Returns <literal>True</literal> if closure is successful."
 msgstr ""
 
-#. HFyny
+#. ycunk
 #: sf_base.xhp
 msgctxt ""
 "sf_base.xhp\n"
 "par_id941619079997810\n"
 "help.text"
-msgid "<emph>formDocument:</emph> The name of the <literal>FormDocument</literal> to be closed, as a case-sensitive string."
+msgid "<emph>formdocument:</emph> The name of the <literal>FormDocument</literal> to be closed, as a case-sensitive string."
 msgstr ""
 
 #. aLKLw
@@ -6100,24 +6091,6 @@ msgctxt ""
 msgid "' Run queries, SQL statements, ..."
 msgstr ""
 
-#. VDFaU
-#: sf_database.xhp
-msgctxt ""
-"sf_database.xhp\n"
-"pyc_id881625699438103\n"
-"help.text"
-msgid "ui = CreateScriptService(\"UI\")"
-msgstr ""
-
-#. EeDew
-#: sf_database.xhp
-msgctxt ""
-"sf_database.xhp\n"
-"pyc_id111625699438354\n"
-"help.text"
-msgid "doc = ui.OpenBaseDocument(\"/home/user/Documents/myDB.odb\")"
-msgstr ""
-
 #. FsCDs
 #: sf_database.xhp
 msgctxt ""
@@ -6127,15 +6100,6 @@ msgctxt ""
 msgid "# User and password are supplied below, if needed"
 msgstr ""
 
-#. b8DCF
-#: sf_database.xhp
-msgctxt ""
-"sf_database.xhp\n"
-"pyc_id741625699438527\n"
-"help.text"
-msgid "myDatabase = doc.GetDatabase()"
-msgstr ""
-
 #. BDNDo
 #: sf_database.xhp
 msgctxt ""
@@ -6143,24 +6107,6 @@ msgctxt ""
 "pyc_id201625699438702\n"
 "help.text"
 msgid "# Run queries, SQL statements, ..."
-msgstr ""
-
-#. yL6GV
-#: sf_database.xhp
-msgctxt ""
-"sf_database.xhp\n"
-"pyc_id171625699438887\n"
-"help.text"
-msgid "myDatabase.CloseDatabase()"
-msgstr ""
-
-#. SAyeP
-#: sf_database.xhp
-msgctxt ""
-"sf_database.xhp\n"
-"pyc_id231625699570502\n"
-"help.text"
-msgid "doc.CloseDocument()"
 msgstr ""
 
 #. AVkg5
@@ -6575,15 +6521,6 @@ msgctxt ""
 "par_id21599490810021\n"
 "help.text"
 msgid "The <literal>RunSql</literal> method is rejected with an error message in case the database was previously opened in read-only mode."
-msgstr ""
-
-#. AN4H9
-#: sf_database.xhp
-msgctxt ""
-"sf_database.xhp\n"
-"par_id421625701780046\n"
-"help.text"
-msgid "<input>db.RunSql(sqlcommand: str, directsql: bool = False): bool</input>"
 msgstr ""
 
 #. WnUpF
