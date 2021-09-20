@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-01-30 14:31+0100\n"
-"PO-Revision-Date: 2021-08-11 14:17+0000\n"
+"PO-Revision-Date: 2021-09-20 22:36+0000\n"
 "Last-Translator: Jun NOGATA <nogajun@gmail.com>\n"
 "Language-Team: Japanese <https://translations.documentfoundation.org/projects/libo_ui-7-0/sfx2messages/ja/>\n"
 "Language: ja\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.8.1\n"
 "X-POOTLE-MTIME: 1562983822.000000\n"
 
 #. bHbFE
@@ -1269,6 +1269,9 @@ msgid ""
 "If you will delete it, text or objects using these styles will revert to the parent style.\n"
 "Do you still wish to delete these styles?\n"
 msgstr ""
+"選択した1つまたは複数のスタイルは、このドキュメントに使われています。\n"
+"このスタイルを削除すると、スタイルを使用しているテキストやオブジェクトは親のスタイルに戻ります。\n"
+"それでも、このスタイルを削除しますか?\n"
 
 #. kuD77
 #: include/sfx2/strings.hrc:234
@@ -1421,8 +1424,8 @@ msgid ""
 "An error occurred in sending the message. Possible errors could be a missing user account or a defective setup.\n"
 "Please check the %PRODUCTNAME settings or your email program settings."
 msgstr ""
-"メッセージ送信時にエラーが発生しました。エラーの原因としては、ユーザーアカウントがないか、あるいは設定が正しくないかが考えられます。\n"
-"%PRODUCTNAME、またはお使いのメールプログラムの設定を確認してください。"
+"メッセージ送信時にエラーが発生しました。エラーの原因としては、ユーザーアカウントが存在しない、または設定が正しくないかが考えられます。\n"
+"%PRODUCTNAMEの設定やお使いのメールプログラムの設定を確認してください。"
 
 #. 3nzi6
 #. Error codes look like "MAPI_E_FAILURE" or "1234"
@@ -1433,6 +1436,9 @@ msgid ""
 "\n"
 "Error code is $1"
 msgstr ""
+"メッセージ送信時にエラーが発生しました。エラーの原因としてはユーザーアカウントが存在しない、または設定が正しくないなどが考えられます。\n"
+"\n"
+"エラーコード $1"
 
 #. ZWTDr
 #: include/sfx2/strings.hrc:261
@@ -1453,12 +1459,14 @@ msgid ""
 "This document cannot be edited, because it is locked in another session.%LOCKINFO\n"
 "Do you want to edit a copy of the document?"
 msgstr ""
+"このドキュメントは他のセッション %LOCKINFO でロックされているため編集できません。\n"
+"ドキュメントのコピーを編集しますか?"
 
 #. n3sMB
 #: include/sfx2/strings.hrc:264
 msgctxt "STR_QUERY_OPENASTEMPLATE_ALLOW_IGNORE"
 msgid "You can also try to ignore the lock and open the file for editing."
-msgstr ""
+msgstr "ロックを無視してファイルを開いて編集することもできます。"
 
 #. yaKxR
 #: include/sfx2/strings.hrc:265
