@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-09-14 12:01+0200\n"
-"PO-Revision-Date: 2021-09-05 11:21+0000\n"
+"PO-Revision-Date: 2021-09-20 11:11+0000\n"
 "Last-Translator: Jun NOGATA <nogajun@gmail.com>\n"
 "Language-Team: Japanese <https://translations.documentfoundation.org/projects/libo_ui-master/sfx2messages/ja/>\n"
 "Language: ja\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.8.1\n"
 "X-POOTLE-MTIME: 1562983822.000000\n"
 
 #. bHbFE
@@ -50,55 +50,55 @@ msgstr "閉じる(~C)"
 #: include/sfx2/strings.hrc:30
 msgctxt "STR_OPEN"
 msgid "~Open"
-msgstr ""
+msgstr "開く(~O)"
 
 #. ACduP
 #: include/sfx2/strings.hrc:31
 msgctxt "STR_EDIT_TEMPLATE"
 msgid "~Edit"
-msgstr ""
+msgstr "編集(~E)"
 
 #. aKW5U
 #: include/sfx2/strings.hrc:32
 msgctxt "STR_DEFAULT_TEMPLATE"
 msgid "Set as De~fault"
-msgstr ""
+msgstr "既定に設定(~F)"
 
 #. Bwnha
 #: include/sfx2/strings.hrc:33
 msgctxt "STR_RESET_DEFAULT"
 msgid "Reset De~fault"
-msgstr ""
+msgstr "既定に戻す(~F)"
 
 #. oRvm4
 #: include/sfx2/strings.hrc:34
 msgctxt "STR_DELETE_TEMPLATE"
 msgid "~Delete"
-msgstr ""
+msgstr "削除(~D)"
 
 #. UyfFH
 #: include/sfx2/strings.hrc:35
 msgctxt "STR_SFX_RENAME"
 msgid "~Rename"
-msgstr ""
+msgstr "名前の変更(~R)"
 
 #. Gnhk4
 #: include/sfx2/strings.hrc:36
 msgctxt "STR_ACTION_MOVE"
 msgid "~Move"
-msgstr ""
+msgstr "移動(_M)"
 
 #. tWE8a
 #: include/sfx2/strings.hrc:37
 msgctxt "STR_ACTION_EXPORT"
 msgid "E~xport"
-msgstr ""
+msgstr "エクスポート(~X)"
 
 #. aEN5D
 #: include/sfx2/strings.hrc:38
 msgctxt "STR_CATEGORY_RENAME"
 msgid "Ren~ame Category"
-msgstr ""
+msgstr "カテゴリーの名前を変更(~A)"
 
 #. Ys9z4
 #: include/sfx2/strings.hrc:39
@@ -1132,7 +1132,7 @@ msgstr "新しい対象を追加する際にエラーが発生しました。こ
 #: include/sfx2/strings.hrc:207
 msgctxt "STR_REDACTION_NO_DRAW_WARNING"
 msgid "Draw module is needed for redaction. Please make sure you have %PRODUCTNAME Draw installed and working correctly."
-msgstr ""
+msgstr "墨消しにはDrawモジュールが必要です。%PRODUCTNAME Drawがインストールされ、正しく動作していることを確認してください。"
 
 #. FQ9kN
 #: include/sfx2/strings.hrc:209
@@ -1256,6 +1256,9 @@ msgid ""
 "If you will delete it, text or objects using these styles will revert to the parent style.\n"
 "Do you still wish to delete these styles?\n"
 msgstr ""
+"選択した1つまたは複数のスタイルは、このドキュメントに使われています。\n"
+"このスタイルを削除すると、スタイルを使用しているテキストやオブジェクトは親のスタイルに戻ります。\n"
+"それでも、このスタイルを削除しますか?\n"
 
 #. kuD77
 #: include/sfx2/strings.hrc:230
@@ -1408,8 +1411,8 @@ msgid ""
 "An error occurred in sending the message. Possible errors could be a missing user account or a defective setup.\n"
 "Please check the %PRODUCTNAME settings or your email program settings."
 msgstr ""
-"メッセージ送信時にエラーが発生しました。エラーの原因としては、ユーザーアカウントがないか、あるいは設定が正しくないかが考えられます。\n"
-"%PRODUCTNAME、またはお使いのメールプログラムの設定を確認してください。"
+"メッセージ送信時にエラーが発生しました。エラーの原因としては、ユーザーアカウントが存在しない、または設定が正しくないかが考えられます。\n"
+"%PRODUCTNAMEの設定やお使いのメールプログラムの設定を確認してください。"
 
 #. 3nzi6
 #. Error codes look like "MAPI_E_FAILURE" or "1234"
@@ -1420,6 +1423,9 @@ msgid ""
 "\n"
 "Error code is $1"
 msgstr ""
+"メッセージ送信時にエラーが発生しました。エラーの原因としてはユーザーアカウントが存在しない、または設定が正しくないなどが考えられます。\n"
+"\n"
+"エラーコード $1"
 
 #. ZWTDr
 #: include/sfx2/strings.hrc:257
@@ -1440,12 +1446,14 @@ msgid ""
 "This document cannot be edited, because it is locked in another session.%LOCKINFO\n"
 "Do you want to edit a copy of the document?"
 msgstr ""
+"このドキュメントは他のセッション %LOCKINFO でロックされているため編集できません。\n"
+"ドキュメントのコピーを編集しますか?"
 
 #. n3sMB
 #: include/sfx2/strings.hrc:260
 msgctxt "STR_QUERY_OPENASTEMPLATE_ALLOW_IGNORE"
 msgid "You can also try to ignore the lock and open the file for editing."
-msgstr ""
+msgstr "ロックを無視してファイルを開いて編集することもできます。"
 
 #. yaKxR
 #: include/sfx2/strings.hrc:261
