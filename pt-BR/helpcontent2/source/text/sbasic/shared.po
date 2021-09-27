@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-09-20 13:02+0200\n"
+"POT-Creation-Date: 2021-09-27 19:09+0200\n"
 "PO-Revision-Date: 2021-09-22 18:36+0000\n"
 "Last-Translator: Rafael Lima <rafael.palma.lima@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/pt_BR/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1559388696.000000\n"
 
 #. yzYVt
@@ -34425,69 +34425,6 @@ msgctxt ""
 msgid "The example below creates the function <literal>FileExists</literal> that uses the service <literal>com.sun.star.ucb.SimpleFileAccess</literal> to test if a given path is an existing file."
 msgstr "O exemplo abaixo cria a função <literal>FileExists</literal> que utiliza o serviço <literal>com.sun.star.ucb.SimpleFileAccess</literal> para testar se um caminho informado é um arquivo existente."
 
-#. CCdzF
-#: 03131600.xhp
-msgctxt ""
-"03131600.xhp\n"
-"bas_id901629989240801\n"
-"help.text"
-msgid "Function FileExists(sPath as String) as Boolean"
-msgstr "Função FileExists(sPath as String) como booleano"
-
-#. egz97
-#: 03131600.xhp
-msgctxt ""
-"03131600.xhp\n"
-"bas_id361629989241073\n"
-"help.text"
-msgid "Dim svcSFA as Object"
-msgstr "Dim svcSFA  como objeto"
-
-#. kPKBG
-#: 03131600.xhp
-msgctxt ""
-"03131600.xhp\n"
-"bas_id461629989241289\n"
-"help.text"
-msgid "Set svcSFA = CreateUnoService(\"com.sun.star.ucb.SimpleFileAccess\")"
-msgstr "Set svcSFA = CreateUnoService(\"com.sun.star.ucb.SimpleFileAccess\")"
-
-#. bTCFr
-#: 03131600.xhp
-msgctxt ""
-"03131600.xhp\n"
-"bas_id441629989241521\n"
-"help.text"
-msgid "Dim bExists as Boolean : bExists = svcSFA.exists(sPath)"
-msgstr "Dim bExists as Boolean : bExists = svcSFA.exists(sPath)"
-
-#. rn8Gk
-#: 03131600.xhp
-msgctxt ""
-"03131600.xhp\n"
-"bas_id651629989241801\n"
-"help.text"
-msgid "Dim bIsFolder as Boolean : bIsFolder = svcSFA.IsFolder(sPath)"
-msgstr "Dim bIsFolder as Boolean : bIsFolder = svcSFA.IsFolder(sPath)"
-
-#. 3Es78
-#: 03131600.xhp
-msgctxt ""
-"03131600.xhp\n"
-"bas_id521629989242114\n"
-"help.text"
-msgid "FileExists = bExists And Not bIsFolder"
-msgstr "FileExists = bExists And Not bIsFolder"
-
-#. ErPrk
-#: 03131600.xhp
-msgctxt ""
-"03131600.xhp\n"
-"bas_id211629989242416\n"
-"help.text"
-msgid "End Function"
-msgstr "Função End"
-
 #. be6H2
 #: 03131600.xhp
 msgctxt ""
@@ -42569,6 +42506,55 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME IDE do Basic</link>"
+
+#~ msgctxt ""
+#~ "03131600.xhp\n"
+#~ "bas_id901629989240801\n"
+#~ "help.text"
+#~ msgid "Function FileExists(sPath as String) as Boolean"
+#~ msgstr "Função FileExists(sPath as String) como booleano"
+
+#~ msgctxt ""
+#~ "03131600.xhp\n"
+#~ "bas_id361629989241073\n"
+#~ "help.text"
+#~ msgid "Dim svcSFA as Object"
+#~ msgstr "Dim svcSFA  como objeto"
+
+#~ msgctxt ""
+#~ "03131600.xhp\n"
+#~ "bas_id461629989241289\n"
+#~ "help.text"
+#~ msgid "Set svcSFA = CreateUnoService(\"com.sun.star.ucb.SimpleFileAccess\")"
+#~ msgstr "Set svcSFA = CreateUnoService(\"com.sun.star.ucb.SimpleFileAccess\")"
+
+#~ msgctxt ""
+#~ "03131600.xhp\n"
+#~ "bas_id441629989241521\n"
+#~ "help.text"
+#~ msgid "Dim bExists as Boolean : bExists = svcSFA.exists(sPath)"
+#~ msgstr "Dim bExists as Boolean : bExists = svcSFA.exists(sPath)"
+
+#~ msgctxt ""
+#~ "03131600.xhp\n"
+#~ "bas_id651629989241801\n"
+#~ "help.text"
+#~ msgid "Dim bIsFolder as Boolean : bIsFolder = svcSFA.IsFolder(sPath)"
+#~ msgstr "Dim bIsFolder as Boolean : bIsFolder = svcSFA.IsFolder(sPath)"
+
+#~ msgctxt ""
+#~ "03131600.xhp\n"
+#~ "bas_id521629989242114\n"
+#~ "help.text"
+#~ msgid "FileExists = bExists And Not bIsFolder"
+#~ msgstr "FileExists = bExists And Not bIsFolder"
+
+#~ msgctxt ""
+#~ "03131600.xhp\n"
+#~ "bas_id211629989242416\n"
+#~ "help.text"
+#~ msgid "End Function"
+#~ msgstr "Função End"
 
 #~ msgctxt ""
 #~ "calc_functions.xhp\n"
