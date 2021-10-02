@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2021-09-29 17:36+0000\n"
+"PO-Revision-Date: 2021-10-02 12:36+0000\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian Nynorsk <https://translations.documentfoundation.org/projects/libo_help-7-2/textsbasicshared03/nn/>\n"
 "Language: nn\n"
@@ -6451,7 +6451,7 @@ msgctxt ""
 "par_id481599489278579\n"
 "help.text"
 msgid "Stores the contents of a table or the results of a <literal>SELECT</literal> query or of an SQL statement in a two-dimensional array. The first index in the array corresponds to the rows and the second index refers to the columns."
-msgstr ""
+msgstr "Lagrar innhaldet i ein tabell eller resultatet av ei <literal>SELECT</literal>-spørjing eller av eit SQL-uttrykk i ei todimensjonal matrise. Den første indeksen i matrisa svarar til radene og den andre indeksen til kolonnane."
 
 #. GXji8
 #: sf_database.xhp
@@ -6460,7 +6460,7 @@ msgctxt ""
 "par_id821615384762425\n"
 "help.text"
 msgid "An upper limit can be specified to the number of returned rows. Optionally column names may be inserted in the first row of the array."
-msgstr ""
+msgstr "Du kan setja ei øvre grense for kor mange rader som skal returnerast. Kolonnenamn kan eventuelt setjast inn i den første rada i matrisa."
 
 #. gX7AY
 #: sf_database.xhp
@@ -6469,7 +6469,7 @@ msgctxt ""
 "par_id271599490209915\n"
 "help.text"
 msgid "The returned array will be empty if no rows are returned and the column headers are not required."
-msgstr ""
+msgstr "Den returnerte matrisa vil vera tom viss det ikkje vert returnert rader og det ikkje krevst kolonneoverskrifter."
 
 #. dURZU
 #: sf_database.xhp
@@ -6478,7 +6478,7 @@ msgctxt ""
 "par_id451599489278429\n"
 "help.text"
 msgid "<emph>SQLCommand</emph>: A table or query name (without square brackets) or a <literal>SELECT</literal> SQL statement."
-msgstr ""
+msgstr "<emph>SQLCommand</emph> (SQL-kommando): Eit tabell- eller spørjingsnamn (utan hakeparentesar) eller eit <literal>SELECT</literal> SQL-uytrykk."
 
 #. fFFFd
 #: sf_database.xhp
@@ -6487,7 +6487,7 @@ msgctxt ""
 "par_id271599489278141\n"
 "help.text"
 msgid "<emph>DirectSQL</emph>: When <literal>True</literal>, the SQL command is sent to the database engine without pre-analysis. Default is <literal>False</literal>. This argument is ignored for tables. For queries, the applied option is the one set when the query was defined."
-msgstr ""
+msgstr "<emph>DirectSQL</emph>: Når denne er <literal>Sann</literal>, vert SQL-kommandoen sendt til databasemotoren utan førehandsanalyse. Standard er <literal>Usann</literal>. Argumentet vert ignorert for tabellar. For spørjingar er det brukte alternativet det som vart sett då spørjinga vart definert."
 
 #. unoDn
 #: sf_database.xhp
@@ -6496,7 +6496,7 @@ msgctxt ""
 "par_id941599489278747\n"
 "help.text"
 msgid "<emph>Header</emph>: When <literal>True</literal>, the first row of the returned array contains the column headers."
-msgstr ""
+msgstr "<emph>Header</emph> (overskrift): Når denne er <literal>Sann</literal> inneheld den første rada i den returnerte matrisa kolonneoverskriftene."
 
 #. BZxwK
 #: sf_database.xhp
@@ -6505,7 +6505,7 @@ msgctxt ""
 "par_id591599489278926\n"
 "help.text"
 msgid "<emph>MaxRows</emph>: The maximum number of rows to return. The default is zero, meaning there is no limit to the number of returned rows."
-msgstr ""
+msgstr "<emph>MaxRows</emph> (maks-rader): Det høgste talet på rader som kan returnerast. Standard er null, som tyder at det er inga grense for kor mange rader som kan returnerast."
 
 #. 3XZPf
 #: sf_database.xhp
@@ -6514,7 +6514,7 @@ msgctxt ""
 "par_id721615385125947\n"
 "help.text"
 msgid "Below are a few examples of how the <literal>GetRows</literal> method can be used:"
-msgstr ""
+msgstr "Nedføre er det nokre eksempel på korleis metoden <literal>GetRows</literal> kan brukast:"
 
 #. zkeuW
 #: sf_database.xhp
@@ -6523,7 +6523,7 @@ msgctxt ""
 "bas_id171615385196045\n"
 "help.text"
 msgid "' Returns all rows in the table with column headers"
-msgstr ""
+msgstr "' Returnerer alle radene i tabellen med kolonneoverskrifter"
 
 #. eFmmE
 #: sf_database.xhp
@@ -6532,7 +6532,7 @@ msgctxt ""
 "bas_id371615385230721\n"
 "help.text"
 msgid "' Returns the first 50 employee records ordered by the 'FirstName' field"
-msgstr ""
+msgstr "' Returnerer dei første 50 tilsettepostane sortert etter feltet «Fornamn»"
 
 #. FMBEy
 #: sf_database.xhp
@@ -6541,7 +6541,7 @@ msgctxt ""
 "par_id31599490609759\n"
 "help.text"
 msgid "Executes an action query of an SQL statement such as creating a table, as well as inserting, updating and deleting records."
-msgstr ""
+msgstr "Utfører ei handlingsspørjing for ei SQL-setning, for eksempel oppretting av ein tabell, i tillegg til å setja inn, oppdatera og sletta postar."
 
 #. gyiQy
 #: sf_database.xhp
@@ -6550,7 +6550,7 @@ msgctxt ""
 "par_id331615385491925\n"
 "help.text"
 msgid "The method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Metoden returnerer <literal>Sann</literal> når han lukkast."
 
 #. G5bDE
 #: sf_database.xhp
@@ -6559,7 +6559,7 @@ msgctxt ""
 "par_id21599490810021\n"
 "help.text"
 msgid "The <literal>RunSql</literal> method is rejected with an error message in case the database was previously opened in read-only mode."
-msgstr ""
+msgstr "Metoden <literal>RunSql</literal> vert avvist med ei feilmelding dersom databasen tidlegare vart opna som skriveverna."
 
 #. cMjus
 #: sf_database.xhp
