@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-01-30 14:55+0100\n"
-"PO-Revision-Date: 2021-10-01 17:36+0000\n"
+"PO-Revision-Date: 2021-10-02 21:36+0000\n"
 "Last-Translator: Ming Hua <plateauwolf@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.documentfoundation.org/projects/libo_ui-7-1/scmessages/zh_Hans/>\n"
 "Language: zh-CN\n"
@@ -26933,7 +26933,7 @@ msgstr "无(_E)"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:394
 msgctxt "pastespecial|extended_tip|none"
 msgid "Does not apply an operation when you insert the cell range from the clipboard. The contents of the clipboard will replace existing cell contents."
-msgstr ""
+msgstr "从剪贴板插入单元格区域时不进行任何运算。剪贴板上的内容将取代单元格已有的内容。"
 
 #. CEsbt
 #: sc/uiconfig/scalc/ui/pastespecial.ui:406
@@ -26945,7 +26945,7 @@ msgstr "加(_A)"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:416
 msgctxt "pastespecial|extended_tip|add"
 msgid "Adds the values in the clipboard cells to the values in the target cells. Also, if the clipboard only contains comments, adds the comments to the target cells."
-msgstr ""
+msgstr "将剪贴板上单元格中的值和目标单元格中的值相加。另外，如果剪贴板上只有批注，则把批注附加到目标单元格上。"
 
 #. iFTvh
 #: sc/uiconfig/scalc/ui/pastespecial.ui:428
@@ -26957,7 +26957,7 @@ msgstr "减(_S)"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:438
 msgctxt "pastespecial|extended_tip|subtract"
 msgid "Subtracts the values in the clipboard cells from the values in the target cells."
-msgstr ""
+msgstr "从目标单元格中的值里减去剪贴板上单元格中的值。"
 
 #. pn4re
 #: sc/uiconfig/scalc/ui/pastespecial.ui:450
@@ -26969,7 +26969,7 @@ msgstr "乘(_Y)"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:460
 msgctxt "pastespecial|extended_tip|multiply"
 msgid "Multiplies the values in the clipboard cells with the values in the target cells."
-msgstr ""
+msgstr "将剪贴板上单元格中的值和目标单元格中的值相乘。"
 
 #. ND3Xd
 #: sc/uiconfig/scalc/ui/pastespecial.ui:472
@@ -26981,7 +26981,7 @@ msgstr "除(_V)"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:482
 msgctxt "pastespecial|extended_tip|divide"
 msgid "Divides the values in the target cells by the values in the clipboard cells."
-msgstr ""
+msgstr "用目标单元格中的值除以剪贴板上单元格中的值。"
 
 #. 9otLM
 #: sc/uiconfig/scalc/ui/pastespecial.ui:500
@@ -26999,13 +26999,13 @@ msgstr "跳过空白单元格(_K)"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:538
 msgctxt "pastespecial|skip_empty"
 msgid "If enabled, blank cells in source will not override the target."
-msgstr "若启用，则源单元格中的空白单元格将不会覆盖目标单元格。"
+msgstr "若启用，则来源中的空白单元格不会覆盖目标单元格。"
 
 #. u2Cms
 #: sc/uiconfig/scalc/ui/pastespecial.ui:544
 msgctxt "pastespecial|extended_tip|skip_empty"
 msgid "Empty cells from the clipboard do not replace target cells. If you use this option in conjunction with the \"Multiply\" or the \"Divide\" operation, the operation is not applied to the target cell of an empty cell in the clipboard."
-msgstr ""
+msgstr "剪贴板上的空白单元格不会取代目标单元格的已有内容。如果进行「乘」或「除」运算的同时选择此选项，则不会让剪贴板上空白单元格参与对目标单元格的运算。"
 
 #. aDeKR
 #: sc/uiconfig/scalc/ui/pastespecial.ui:556
@@ -27017,7 +27017,7 @@ msgstr "转置(_T)"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:565
 msgctxt "pastespecial|extended_tip|transpose"
 msgid "The rows of the range in the clipboard are pasted to become columns of the output range. The columns of the range in the clipboard are pasted to become rows."
-msgstr ""
+msgstr "剪贴板上单元格区域中的各行将被粘贴为目标区域中的各列。同理，剪贴板上的列将被粘贴为行。"
 
 #. eJ6zh
 #: sc/uiconfig/scalc/ui/pastespecial.ui:577
@@ -27029,7 +27029,7 @@ msgstr "链接(_L)"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:586
 msgctxt "pastespecial|extended_tip|link"
 msgid "Inserts the cell range as a link, so that changes made to the cells in the source file are updated in the target file. To ensure that changes made to empty cells in the source file are updated in the target file, ensure that the \"Paste All\" option is also selected."
-msgstr ""
+msgstr "将单元格区域插入为链接，从而让源文件中对单元格的改动也会在目标文件中得到更新。为确保对源文件中的空白单元格所做的改动也能体现到目标文件中，请同时勾选粘贴「全部」选项。"
 
 #. HCco8
 #: sc/uiconfig/scalc/ui/pastespecial.ui:604
@@ -27083,7 +27083,7 @@ msgstr "移动单元格"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:741
 msgctxt "pastespecial|extended_tip|PasteSpecial"
 msgid "Inserts the contents of the clipboard into the current file in a format that you can specify."
-msgstr "将剪贴板上的内容插入到当前文件中，格式可以由您指定。"
+msgstr "将剪贴板上的内容以您指定的格式插入到当前文件中。"
 
 #. AqzPf
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:16
