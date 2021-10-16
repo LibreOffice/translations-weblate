@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: OpenOffice.org\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-01-30 14:55+0100\n"
-"PO-Revision-Date: 2021-10-14 22:36+0000\n"
+"PO-Revision-Date: 2021-10-16 19:36+0000\n"
 "Last-Translator: Милош Поповић <gpopac@gmail.com>\n"
 "Language-Team: Serbian <https://translations.documentfoundation.org/projects/libo_ui-7-1/scmessages/sr/>\n"
 "Language: sr\n"
@@ -55,7 +55,7 @@ msgstr "Математичке"
 #: sc/inc/compiler.hrc:33
 msgctxt "RID_FUNCTION_CATEGORIES"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. GzHHA
 #: sc/inc/compiler.hrc:34
@@ -485,10 +485,9 @@ msgstr "Убаци везу"
 
 #. BwMzH
 #: sc/inc/globstr.hrc:101
-#, fuzzy
 msgctxt "STR_UNDO_ENTERMATRIX"
 msgid "Insert Array Formula"
-msgstr "Убаци формулу за потез"
+msgstr "Убаци формулу низа"
 
 #. CUCCD
 #: sc/inc/globstr.hrc:102
@@ -600,7 +599,6 @@ msgstr "Уреди називе опсега"
 
 #. 9CG3c
 #: sc/inc/globstr.hrc:120
-#, fuzzy
 msgctxt "STR_UNDO_TRANSLITERATE"
 msgid "Change Case"
 msgstr "Замена малих и ВЕЛИКИХ слова"
@@ -619,10 +617,9 @@ msgstr "%PRODUCTNAME Рачун"
 
 #. 5wfvQ
 #: sc/inc/globstr.hrc:123
-#, fuzzy
 msgctxt "STR_MSSG_DOSUBTOTALS_1"
 msgid "Delete data?"
-msgstr "Обрисати податке?"
+msgstr "Да обришем податке?"
 
 #. 2S3Pc
 #: sc/inc/globstr.hrc:124
@@ -632,14 +629,12 @@ msgstr "Не могу да уметнем редове"
 
 #. CGqBM
 #: sc/inc/globstr.hrc:125
-#, fuzzy
 msgctxt "STR_MSSG_REPEATDB_0"
 msgid "No operations to execute"
 msgstr "Нема операција за извршавање"
 
 #. BC4uB
 #: sc/inc/globstr.hrc:126
-#, fuzzy
 msgctxt "STR_MSSG_MAKEAUTOFILTER_0"
 msgid ""
 "The range does not contain column headers.\n"
@@ -650,72 +645,63 @@ msgstr ""
 
 #. W8DjC
 #: sc/inc/globstr.hrc:127
-#, fuzzy
 msgctxt "STR_MSSG_IMPORTDATA_0"
 msgid "Error while importing data!"
 msgstr "Грешка при увозу података!"
 
 #. 3g9N3
 #: sc/inc/globstr.hrc:128
-#, fuzzy
 msgctxt "STR_MSSG_MAKEOUTLINE_0"
 msgid "Grouping not possible"
 msgstr "Груписање није могуће"
 
 #. vxHwk
 #: sc/inc/globstr.hrc:129
-#, fuzzy
 msgctxt "STR_MSSG_REMOVEOUTLINE_0"
 msgid "Ungrouping not possible"
 msgstr "Разгруписавање није могуће"
 
 #. WF28B
 #: sc/inc/globstr.hrc:130
-#, fuzzy
 msgctxt "STR_MSSG_PASTEFROMCLIP_0"
 msgid "Insert into multiple selection not possible"
 msgstr "Уметање у вишеструки избор није могуће"
 
 #. 83Jsw
 #: sc/inc/globstr.hrc:131
-#, fuzzy
 msgctxt "STR_MSSG_MOVEBLOCKTO_0"
 msgid "Cell merge not possible if cells already merged!"
-msgstr "Спајање ћелија није могуће ако су ћелије већ спојене."
+msgstr "Спајање ћелија није могуће ако су ћелије већ спојене!"
 
 #. won4Y
 #: sc/inc/globstr.hrc:132
-#, fuzzy
 msgctxt "STR_MSSG_INSERTCELLS_0"
 msgid "Inserting into merged ranges not possible"
 msgstr "Уметање у спојене опсеге није могуће"
 
 #. L3jzC
 #: sc/inc/globstr.hrc:133
-#, fuzzy
 msgctxt "STR_MSSG_DELETECELLS_0"
 msgid "Deleting in merged ranges not possible"
 msgstr "Брисање у спојеним опсезима није могуће"
 
 #. DkYXD
 #: sc/inc/globstr.hrc:134
-#, fuzzy
 msgctxt "STR_MSSG_MERGECELLS_0"
 msgid "Cell merge not possible if cells already merged"
 msgstr "Спајање ћелија није могуће ако су ћелије већ спојене"
 
 #. z5JEL
 #: sc/inc/globstr.hrc:135
-#, fuzzy
 msgctxt "STR_SORT_ERR_MERGED"
 msgid "Ranges containing merged cells can only be sorted without formats."
-msgstr "Опсези који садрже спојене ћелије могу бити поређани само неформатирани."
+msgstr "Опсези који садрже спојене ћелије могу бити поређани само као неформатирани."
 
 #. CMwFG
 #: sc/inc/globstr.hrc:136
 msgctxt "STR_MSSG_SOLVE_0"
 msgid "Goal Seek succeeded. Result: "
-msgstr ""
+msgstr "Жељени циљ је постигнут. Резултат: "
 
 #. nLBkx
 #: sc/inc/globstr.hrc:137
@@ -725,6 +711,9 @@ msgid ""
 "\n"
 "Insert the result into the variable cell?"
 msgstr ""
+"\n"
+"\n"
+"Да уметнем резултат у променљиву ћелију?"
 
 #. 7fkiC
 #: sc/inc/globstr.hrc:138
@@ -733,19 +722,20 @@ msgid ""
 "Goal Seek failed.\n"
 "\n"
 msgstr ""
+"Жељени циљ није постигнут.\n"
+"\n"
 
 #. kDeqC
 #: sc/inc/globstr.hrc:139
-#, fuzzy
 msgctxt "STR_MSSG_SOLVE_3"
 msgid "Insert the closest value ("
-msgstr "Убацити најближу вредност ("
+msgstr "Да убацим најближу вредност ("
 
 #. ESuoy
 #: sc/inc/globstr.hrc:140
 msgctxt "STR_MSSG_SOLVE_4"
 msgid ") into the variable cell anyway?"
-msgstr ""
+msgstr ") у променљиву ћелију?"
 
 #. qoGmi
 #: sc/inc/globstr.hrc:141
@@ -755,14 +745,12 @@ msgstr ""
 
 #. nRMet
 #: sc/inc/globstr.hrc:142
-#, fuzzy
 msgctxt "STR_TABLE_ERGEBNIS"
 msgid "Result"
 msgstr "Резултат"
 
 #. R2KAi
 #: sc/inc/globstr.hrc:143
-#, fuzzy
 msgctxt "STR_UNDO_SPELLING"
 msgid "Spellcheck"
 msgstr "Провера писања"
@@ -771,62 +759,55 @@ msgstr "Провера писања"
 #: sc/inc/globstr.hrc:144
 msgctxt "STR_TABLE_AND"
 msgid "AND"
-msgstr ""
+msgstr "И"
 
 #. frBzb
 #: sc/inc/globstr.hrc:145
 msgctxt "STR_TABLE_OR"
 msgid "OR"
-msgstr ""
+msgstr "ИЛИ"
 
 #. ovwBG
 #: sc/inc/globstr.hrc:146
-#, fuzzy
 msgctxt "STR_TABLE_DEF"
 msgid "Sheet"
 msgstr "Лист"
 
 #. wnc9f
 #: sc/inc/globstr.hrc:147
-#, fuzzy
 msgctxt "STR_MOVE_TO_END"
 msgid "- move to end position -"
 msgstr "- помери на крајњи положај -"
 
 #. FJEi6
 #: sc/inc/globstr.hrc:148
-#, fuzzy
 msgctxt "STR_NO_REF_TABLE"
 msgid "#REF!"
-msgstr "#REF!"
+msgstr "#РЕФ!"
 
 #. UCTdV
 #: sc/inc/globstr.hrc:149
-#, fuzzy
 msgctxt "STR_PIVOT_NODATA"
 msgid "The pivot table must contain at least one entry."
 msgstr "Пивот табела мора да садржи најмање један унос."
 
 #. SWM6f
 #: sc/inc/globstr.hrc:150
-#, fuzzy
 msgctxt "STR_PIVOT_MOVENOTALLOWED"
 msgid "The data range can not be deleted."
 msgstr "Не могу да обришем опсег података."
 
 #. hEFjA
 #: sc/inc/globstr.hrc:151
-#, fuzzy
 msgctxt "STR_PIVOT_ERROR"
 msgid "Error creating the pivot table."
 msgstr "Грешка у прављењу пивот табеле."
 
 #. s8SDR
 #: sc/inc/globstr.hrc:152
-#, fuzzy
 msgctxt "STR_PIVOT_NOTEMPTY"
 msgid "The destination range is not empty. Overwrite existing contents?"
-msgstr "Одредишни опсег није празан. Преписати постојећи садржај?"
+msgstr "Одредишни опсег није празан. Да препишем постојећи садржај?"
 
 #. BrFHa
 #: sc/inc/globstr.hrc:153
@@ -835,31 +816,29 @@ msgid ""
 "Deleting the pivot table will also remove any associated pivot charts.\n"
 "Do you want to proceed?"
 msgstr ""
+"Брисање пивот табеле ће уклонити и све графике који су везани за њу.\n"
+"Да ли желите да наставите?"
 
 #. W25Ey
 #: sc/inc/globstr.hrc:154
-#, fuzzy
 msgctxt "STR_DATAPILOT_SUBTOTAL"
 msgid "The source range contains subtotals which may distort the results. Use it anyway?"
 msgstr "Изворишни опсег садржи међузбирове који могу да поремете резултате. Ипак желите да га искористите?"
 
 #. gX9QE
 #: sc/inc/globstr.hrc:155
-#, fuzzy
 msgctxt "STR_PIVOT_TOTAL"
 msgid "Total"
 msgstr "Укупно"
 
 #. fZRCR
 #: sc/inc/globstr.hrc:156
-#, fuzzy
 msgctxt "STR_PIVOT_DATA"
 msgid "Data"
-msgstr "Податак"
+msgstr "Подаци"
 
 #. S7sk9
 #: sc/inc/globstr.hrc:157
-#, fuzzy
 msgctxt "STR_PIVOT_GROUP"
 msgid "Group"
 msgstr "Групиши"
@@ -870,7 +849,7 @@ msgstr "Групиши"
 #: sc/inc/globstr.hrc:160
 msgctxt "STR_SELCOUNT"
 msgid "Selected: $1, $2"
-msgstr ""
+msgstr "Изабрано: $1, $2"
 
 #. FgTCG
 #. To translators: STR_SELCOUNT_ROWARG is $1 of STR_SELCOUNT. $1 of STR_SELCOUNT_ROWARG is number of rows
@@ -878,9 +857,9 @@ msgstr ""
 msgctxt "STR_SELCOUNT_ROWARG"
 msgid "$1 row"
 msgid_plural "$1 rows"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$1 ред"
+msgstr[1] "$1 реда"
+msgstr[2] "$1 редова"
 
 #. o4pBL
 #. To translators: STR_SELCOUNT_COLARG is $1 of STR_SELCOUNT. $1 of STR_SELCOUNT_ROWARG is number of columns
@@ -888,138 +867,120 @@ msgstr[2] ""
 msgctxt "STR_SELCOUNT_COLARG"
 msgid "$1 column"
 msgid_plural "$1 columns"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "$1 колона"
+msgstr[1] "$1 колоне"
+msgstr[2] "$1 колона"
 
 #. 3dMsw
 #: sc/inc/globstr.hrc:165
 msgctxt "STR_FILTER_SELCOUNT"
 msgid "$1 of $2 records found"
-msgstr ""
+msgstr "Пронађено је $1 од $2 записа"
 
 #. ibncs
 #: sc/inc/globstr.hrc:166
-#, fuzzy
 msgctxt "STR_COLUMN"
 msgid "Column"
 msgstr "Колона"
 
 #. SGJKJ
 #: sc/inc/globstr.hrc:167
-#, fuzzy
 msgctxt "STR_ROW"
 msgid "Row"
 msgstr "Ред"
 
 #. R7ojN
 #: sc/inc/globstr.hrc:168
-#, fuzzy
 msgctxt "STR_PAGE"
 msgid "Page"
 msgstr "Страница"
 
 #. pHaMh
 #: sc/inc/globstr.hrc:169
-#, fuzzy
 msgctxt "STR_PGNUM"
 msgid "Page %1"
 msgstr "Страница %1"
 
 #. vRVuG
 #: sc/inc/globstr.hrc:170
-#, fuzzy
 msgctxt "STR_LOAD_DOC"
 msgid "Load document"
 msgstr "Учитај документ"
 
 #. 5ryKn
 #: sc/inc/globstr.hrc:171
-#, fuzzy
 msgctxt "STR_SAVE_DOC"
 msgid "Save document"
 msgstr "Сачувај документ"
 
 #. fgGGb
 #: sc/inc/globstr.hrc:172
-#, fuzzy
 msgctxt "STR_AREA_ALREADY_INSERTED"
 msgid "This range has already been inserted."
 msgstr "Овај опсег је већ уметнут."
 
 #. XyAxZ
 #: sc/inc/globstr.hrc:173
-#, fuzzy
 msgctxt "STR_INVALID_TABREF"
 msgid "Invalid sheet reference."
 msgstr "Неисправна референца листа."
 
 #. tFYkx
 #: sc/inc/globstr.hrc:174
-#, fuzzy
 msgctxt "STR_INVALID_QUERYAREA"
 msgid "This range does not contain a valid query."
 msgstr "Овај опсег не садржи исправан упит."
 
 #. BGXtf
 #: sc/inc/globstr.hrc:175
-#, fuzzy
 msgctxt "STR_REIMPORT_EMPTY"
 msgid "This range does not contain imported data."
 msgstr "Овај опсег не садржи увезене податке."
 
 #. tEWjf
 #: sc/inc/globstr.hrc:176
-#, fuzzy
 msgctxt "STR_NOMULTISELECT"
 msgid "This function cannot be used with multiple selections."
 msgstr "Ова функција се не може користити са вишеструким изборима."
 
 #. 9TmCm
 #: sc/inc/globstr.hrc:177
-#, fuzzy
 msgctxt "STR_FILL_SERIES_PROGRESS"
 msgid "Fill Row..."
-msgstr "Попуни ред..."
+msgstr "Попуни ред…"
 
 #. CwoMD
 #: sc/inc/globstr.hrc:178
-#, fuzzy
 msgctxt "STR_UNDO_THESAURUS"
 msgid "Thesaurus"
 msgstr "Синоними"
 
 #. uaQG5
 #: sc/inc/globstr.hrc:179
-#, fuzzy
 msgctxt "STR_FILL_TAB"
 msgid "Fill Sheets"
 msgstr "Попуни листове"
 
 #. GzG9j
 #: sc/inc/globstr.hrc:180
-#, fuzzy
 msgctxt "STR_UPDATE_SCENARIO"
 msgid "Add selected ranges to current scenario?"
-msgstr "Додај изабране опсеге у тренутни сценарио?"
+msgstr "Да додам изабране опсеге у тренутни сценарио?"
 
 #. D6qcp
 #: sc/inc/globstr.hrc:181
-#, fuzzy
 msgctxt "STR_ERR_NEWSCENARIO"
 msgid "The scenario ranges must be selected in order to be able to create a new scenario."
 msgstr "За израду новог сценарија морате изабрати опсеге сценарија."
 
 #. yjtPb
 #: sc/inc/globstr.hrc:182
-#, fuzzy
 msgctxt "STR_NOAREASELECTED"
 msgid "A range has not been selected."
 msgstr "Опсег није изабран."
 
 #. VrD8B
 #: sc/inc/globstr.hrc:183
-#, fuzzy
 msgctxt "STR_NEWTABNAMENOTUNIQUE"
 msgid "This name already exists."
 msgstr "Име већ постоји."
@@ -1036,14 +997,12 @@ msgstr ""
 
 #. CGAdE
 #: sc/inc/globstr.hrc:185
-#, fuzzy
 msgctxt "STR_SCENARIO"
 msgid "Scenario"
 msgstr "Сценарио"
 
 #. xW54w
 #: sc/inc/globstr.hrc:186
-#, fuzzy
 msgctxt "STR_PIVOT_TABLE"
 msgid "Pivot Table"
 msgstr "Пивот табела"
@@ -1051,7 +1010,6 @@ msgstr "Пивот табела"
 #. FDigt
 #. Text strings for captions of subtotal functions.
 #: sc/inc/globstr.hrc:188
-#, fuzzy
 msgctxt "STR_FUN_TEXT_SUM"
 msgid "Sum"
 msgstr "Збир"
@@ -1060,70 +1018,61 @@ msgstr "Збир"
 #: sc/inc/globstr.hrc:189
 msgctxt "STR_FUN_TEXT_SELECTION_COUNT"
 msgid "Selection count"
-msgstr ""
+msgstr "Бројање избора"
 
 #. SZAUf
 #: sc/inc/globstr.hrc:190
-#, fuzzy
 msgctxt "STR_FUN_TEXT_COUNT"
 msgid "Count"
-msgstr "Преброји"
+msgstr "Бројање"
 
 #. juNtW
 #: sc/inc/globstr.hrc:191
-#, fuzzy
 msgctxt "STR_FUN_TEXT_COUNT2"
 msgid "CountA"
-msgstr "ПребројиA"
+msgstr "БројањеA"
 
 #. B58nD
 #: sc/inc/globstr.hrc:192
-#, fuzzy
 msgctxt "STR_FUN_TEXT_AVG"
 msgid "Average"
 msgstr "Просек"
 
 #. AoUSX
 #: sc/inc/globstr.hrc:193
-#, fuzzy
 msgctxt "STR_FUN_TEXT_MEDIAN"
 msgid "Median"
-msgstr "Мултимедија"
+msgstr "Медијана"
 
 #. YMzF9
 #: sc/inc/globstr.hrc:194
-#, fuzzy
 msgctxt "STR_FUN_TEXT_MAX"
 msgid "Max"
-msgstr "Макс"
+msgstr "Највећи"
 
 #. A8fBH
 #: sc/inc/globstr.hrc:195
-#, fuzzy
 msgctxt "STR_FUN_TEXT_MIN"
 msgid "Min"
-msgstr "Мин"
+msgstr "Најмањи"
 
 #. oZVg5
 #: sc/inc/globstr.hrc:196
-#, fuzzy
 msgctxt "STR_FUN_TEXT_PRODUCT"
 msgid "Product"
 msgstr "Производ"
 
 #. 6FXQo
 #: sc/inc/globstr.hrc:197
-#, fuzzy
 msgctxt "STR_FUN_TEXT_STDDEV"
 msgid "StDev"
-msgstr "StDev"
+msgstr "Ст. дев."
 
 #. NhH7q
 #: sc/inc/globstr.hrc:198
-#, fuzzy
 msgctxt "STR_FUN_TEXT_VAR"
 msgid "Var"
-msgstr "Var"
+msgstr "Вар"
 
 #. XyzD7
 #: sc/inc/globstr.hrc:199
@@ -1133,84 +1082,72 @@ msgstr "На овом месту није нађен ниједан график
 
 #. N96nt
 #: sc/inc/globstr.hrc:200
-#, fuzzy
 msgctxt "STR_PIVOT_NOTFOUND"
 msgid "No pivot table found at this position."
-msgstr "На овом месту није нађена ниједна пивот табела."
+msgstr "На овом месту није нађена пивот табела."
 
 #. Q9boB
 #: sc/inc/globstr.hrc:201
-#, fuzzy
 msgctxt "STR_EMPTYDATA"
 msgid "(empty)"
 msgstr "(празно)"
 
 #. Trnkk
 #: sc/inc/globstr.hrc:202
-#, fuzzy
 msgctxt "STR_PRINT_INVALID_AREA"
 msgid "Invalid print range"
 msgstr "Неисправан опсег за штампу"
 
 #. 2HpWz
 #: sc/inc/globstr.hrc:203
-#, fuzzy
 msgctxt "STR_PAGESTYLE"
 msgid "Page Style"
 msgstr "Стил странице"
 
 #. zFTin
 #: sc/inc/globstr.hrc:204
-#, fuzzy
 msgctxt "STR_HEADER"
 msgid "Header"
 msgstr "Заглавље"
 
 #. fzG3P
 #: sc/inc/globstr.hrc:205
-#, fuzzy
 msgctxt "STR_FOOTER"
 msgid "Footer"
 msgstr "Подножје"
 
 #. Yp9Fp
 #: sc/inc/globstr.hrc:206
-#, fuzzy
 msgctxt "STR_TEXTATTRS"
 msgid "Text Attributes"
 msgstr "Особине текста"
 
 #. CD5iM
 #: sc/inc/globstr.hrc:207
-#, fuzzy
 msgctxt "STR_PROTECTIONERR"
 msgid "Protected cells can not be modified."
 msgstr "Заштићене ћелије не могу бити измењене."
 
 #. YS36j
 #: sc/inc/globstr.hrc:208
-#, fuzzy
 msgctxt "STR_READONLYERR"
 msgid "Document opened in read-only mode."
 msgstr "Документ је отворен само за читање."
 
 #. tPq5q
 #: sc/inc/globstr.hrc:209
-#, fuzzy
 msgctxt "STR_MATRIXFRAGMENTERR"
 msgid "You cannot change only part of an array."
-msgstr "Не можете изменити само део потеза."
+msgstr "Не можете изменити само део низа."
 
 #. xDVk8
 #: sc/inc/globstr.hrc:210
-#, fuzzy
 msgctxt "STR_PAGEHEADER"
 msgid "Header"
 msgstr "Заглавље"
 
 #. DPEzg
 #: sc/inc/globstr.hrc:211
-#, fuzzy
 msgctxt "STR_PAGEFOOTER"
 msgid "Footer"
 msgstr "Подножје"
@@ -1218,16 +1155,14 @@ msgstr "Подножје"
 #. 499qP
 #. BEGIN error constants and error strings.
 #: sc/inc/globstr.hrc:214
-#, fuzzy
 msgctxt "STR_ERROR_STR"
 msgid "Err:"
-msgstr "Греш.:"
+msgstr "Грешка:"
 
 #. BDcUB
 #. BEGIN defined ERROR.TYPE() values.
 #. ERROR.TYPE( #DIV/0! ) == 2
 #: sc/inc/globstr.hrc:217
-#, fuzzy
 msgctxt "STR_LONG_ERR_DIV_ZERO"
 msgid "Error: Division by zero"
 msgstr "Грешка: дељење нулом"
@@ -1235,7 +1170,6 @@ msgstr "Грешка: дељење нулом"
 #. 9y5GD
 #. ERROR.TYPE( #VALUE! ) == 3
 #: sc/inc/globstr.hrc:219
-#, fuzzy
 msgctxt "STR_LONG_ERR_NO_VALUE"
 msgid "Error: Wrong data type"
 msgstr "Грешка: погрешна врста податка"
@@ -1243,7 +1177,6 @@ msgstr "Грешка: погрешна врста податка"
 #. kHwc6
 #. ERROR.TYPE( #REF! ) == 4
 #: sc/inc/globstr.hrc:221
-#, fuzzy
 msgctxt "STR_LONG_ERR_NO_REF"
 msgid "Error: Not a valid reference"
 msgstr "Грешка: референца није исправна"
@@ -1251,7 +1184,6 @@ msgstr "Грешка: референца није исправна"
 #. Fwbua
 #. ERROR.TYPE( #NAME! ) == 5
 #: sc/inc/globstr.hrc:223
-#, fuzzy
 msgctxt "STR_LONG_ERR_NO_NAME"
 msgid "Error: Invalid name"
 msgstr "Грешка: неисправан назив"
@@ -1259,7 +1191,6 @@ msgstr "Грешка: неисправан назив"
 #. MMr4E
 #. ERROR.TYPE( #NUM! ) == 6
 #: sc/inc/globstr.hrc:225
-#, fuzzy
 msgctxt "STR_LONG_ERR_ILL_FPO"
 msgid "Error: Invalid numeric value"
 msgstr "Грешка: неисправна бројчана вредност"
@@ -1267,7 +1198,6 @@ msgstr "Грешка: неисправна бројчана вредност"
 #. zyzjD
 #. ERROR.TYPE( #N/A ) == 7
 #: sc/inc/globstr.hrc:227
-#, fuzzy
 msgctxt "STR_LONG_ERR_NV"
 msgid "Error: Value not available"
 msgstr "Грешка: вредност није доступна"
@@ -1282,91 +1212,78 @@ msgstr "#ADDIN?"
 
 #. tv5E2
 #: sc/inc/globstr.hrc:230
-#, fuzzy
 msgctxt "STR_LONG_ERR_NO_ADDIN"
 msgid "Error: Add-in not found"
 msgstr "Грешка: додатак није пронађен"
 
 #. jxTFr
 #: sc/inc/globstr.hrc:231
-#, fuzzy
 msgctxt "STR_NO_MACRO"
 msgid "#MACRO?"
-msgstr "#MACRO?"
+msgstr "#МАКРО?"
 
 #. 7bF82
 #: sc/inc/globstr.hrc:232
-#, fuzzy
 msgctxt "STR_LONG_ERR_NO_MACRO"
 msgid "Error: Macro not found"
 msgstr "Грешка: макро није пронађен"
 
 #. NnSBz
 #: sc/inc/globstr.hrc:233
-#, fuzzy
 msgctxt "STR_LONG_ERR_SYNTAX"
 msgid "Internal syntactical error"
 msgstr "Унутрашња синтаксичка грешка"
 
 #. 7PBrr
 #: sc/inc/globstr.hrc:234
-#, fuzzy
 msgctxt "STR_LONG_ERR_ILL_ARG"
 msgid "Error: Invalid argument"
 msgstr "Грешка: неисправан аргумент"
 
 #. XZD8G
 #: sc/inc/globstr.hrc:235
-#, fuzzy
 msgctxt "STR_LONG_ERR_ILL_PAR"
 msgid "Error in parameter list"
 msgstr "Грешка у листи параметара"
 
 #. iJfWD
 #: sc/inc/globstr.hrc:236
-#, fuzzy
 msgctxt "STR_LONG_ERR_ILL_CHAR"
 msgid "Error: Invalid character"
 msgstr "Грешка: неисправан знак"
 
 #. eoEQw
 #: sc/inc/globstr.hrc:237
-#, fuzzy
 msgctxt "STR_LONG_ERR_PAIR"
 msgid "Error: in bracketing"
 msgstr "Грешка: у заградама"
 
 #. sdgFF
 #: sc/inc/globstr.hrc:238
-#, fuzzy
 msgctxt "STR_LONG_ERR_OP_EXP"
 msgid "Error: Operator missing"
 msgstr "Грешка: недостаје оператор"
 
 #. XoBCd
 #: sc/inc/globstr.hrc:239
-#, fuzzy
 msgctxt "STR_LONG_ERR_VAR_EXP"
 msgid "Error: Variable missing"
 msgstr "Грешка: недостаје променљива"
 
 #. ne6HG
 #: sc/inc/globstr.hrc:240
-#, fuzzy
 msgctxt "STR_LONG_ERR_CODE_OVF"
 msgid "Error: Formula overflow"
 msgstr "Грешка: прекорачење формуле"
 
 #. zRh8E
 #: sc/inc/globstr.hrc:241
-#, fuzzy
 msgctxt "STR_LONG_ERR_STR_OVF"
 msgid "Error: String overflow"
 msgstr "Грешка: прекорачење низа знакова"
 
 #. 5cMZo
 #: sc/inc/globstr.hrc:242
-#, fuzzy
 msgctxt "STR_LONG_ERR_STACK_OVF"
 msgid "Error: Internal overflow"
 msgstr "Грешка: унутрашње прекорачење"
@@ -1375,11 +1292,10 @@ msgstr "Грешка: унутрашње прекорачење"
 #: sc/inc/globstr.hrc:243
 msgctxt "STR_LONG_ERR_MATRIX_SIZE"
 msgid "Error: Array or matrix size"
-msgstr ""
+msgstr "Грешка: величина низа или матрице"
 
 #. JXoDE
 #: sc/inc/globstr.hrc:244
-#, fuzzy
 msgctxt "STR_LONG_ERR_CIRC_REF"
 msgid "Error: Circular reference"
 msgstr "Грешка: кружна референца"
@@ -2433,17 +2349,15 @@ msgstr "Овај документ не може бити затворен док
 
 #. PJdNn
 #: sc/inc/globstr.hrc:394
-#, fuzzy
 msgctxt "STR_UNDO_RESIZEMATRIX"
 msgid "Adapt array area"
-msgstr "Прилагоди област потеза"
+msgstr "Прилагоди област низа"
 
 #. nZEgk
 #: sc/inc/globstr.hrc:395
-#, fuzzy
 msgctxt "STR_TIP_RESIZEMATRIX"
 msgid "Array formula  %1 R x %2 C"
-msgstr "Формула за потез  %1 Р x %2 К"
+msgstr "Формула за низ  %1 Р x %2 К"
 
 #. nkxuG
 #: sc/inc/globstr.hrc:396
@@ -2552,16 +2466,15 @@ msgstr "Аутоматско"
 
 #. G4way
 #: sc/inc/globstr.hrc:411
-#, fuzzy
 msgctxt "STR_ERR_LONG_NESTED_ARRAY"
 msgid "Nested arrays are not supported."
-msgstr "Угнеждени потези нису подржани."
+msgstr "Угнеждени низови нису подржани."
 
 #. uPhvo
 #: sc/inc/globstr.hrc:412
 msgctxt "STR_ERR_LONG_BAD_ARRAY_CONTENT"
 msgid "Unsupported inline array content."
-msgstr ""
+msgstr "Неподржан уграђени садржај низа."
 
 #. n5PAG
 #: sc/inc/globstr.hrc:413
@@ -4585,10 +4498,9 @@ msgstr ""
 
 #. hBdDy
 #: sc/inc/scfuncs.hrc:228
-#, fuzzy
 msgctxt "SC_OPCODE_NETWORKDAYS"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. 73dG6
 #: sc/inc/scfuncs.hrc:229
@@ -4642,10 +4554,9 @@ msgstr ""
 
 #. 9k2cU
 #: sc/inc/scfuncs.hrc:242
-#, fuzzy
 msgctxt "SC_OPCODE_NETWORKDAYS_MS"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. Sk8Tf
 #: sc/inc/scfuncs.hrc:243
@@ -4700,10 +4611,9 @@ msgstr ""
 
 #. FiXLp
 #: sc/inc/scfuncs.hrc:256
-#, fuzzy
 msgctxt "SC_OPCODE_WORKDAY_MS"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. UhRAn
 #: sc/inc/scfuncs.hrc:257
@@ -6378,10 +6288,9 @@ msgstr "Вредности"
 
 #. rpbBe
 #: sc/inc/scfuncs.hrc:666
-#, fuzzy
 msgctxt "SC_OPCODE_IRR"
 msgid "An array or reference to cells whose contents correspond to the payments."
-msgstr "Потез или референца на ћелије чији садржај одговара отплатама."
+msgstr "Низ или референца на ћелије чији садржај одговара отплатама."
 
 #. ZA6d7
 #: sc/inc/scfuncs.hrc:667
@@ -6413,10 +6322,9 @@ msgstr "Вредности"
 
 #. D6tGr
 #: sc/inc/scfuncs.hrc:676
-#, fuzzy
 msgctxt "SC_OPCODE_MIRR"
 msgid "An array or reference to cells whose contents correspond to the payments."
-msgstr "Потез или референца на ћелије чији садржај одговара отплатама."
+msgstr "Низ или референца на ћелије чији садржај одговара отплатама."
 
 #. yhrru
 #: sc/inc/scfuncs.hrc:677
@@ -6427,10 +6335,9 @@ msgstr "инвестиција"
 
 #. Mp4Sr
 #: sc/inc/scfuncs.hrc:678
-#, fuzzy
 msgctxt "SC_OPCODE_MIRR"
 msgid "Interest rate for investments (the negative values in the array)."
-msgstr "Каматна стопа на инвестиције (негативне вредности у потезу)."
+msgstr "Каматна стопа на инвестиције (негативне вредности у низу)."
 
 #. zhJmQ
 #: sc/inc/scfuncs.hrc:679
@@ -6441,10 +6348,9 @@ msgstr "стопа_реинвестирања"
 
 #. p87Mu
 #: sc/inc/scfuncs.hrc:680
-#, fuzzy
 msgctxt "SC_OPCODE_MIRR"
 msgid "Interest rate for reinvestments (the positive values in the array)."
-msgstr "Каматна стопа на реинвестирање (позитивне вредности у потезу)."
+msgstr "Каматна стопа на реинвестирање (позитивне вредности у низу)."
 
 #. xeEfA
 #: sc/inc/scfuncs.hrc:686
@@ -6870,7 +6776,7 @@ msgstr "Није доступно. Враћа грешку #N/A."
 #: sc/inc/scfuncs.hrc:826
 msgctxt "SC_OPCODE_TYPE"
 msgid "Returns the data type of a value (1 = number, 2 = text, 4 = Boolean value, 8 = formula, 16 = error value, 64 = array)."
-msgstr ""
+msgstr "Враћа врсту податка са вредношћу (1 = број, 2 = текст, 4 = логичка вредност, 8 = формула, 16 = вредност грешке, 64 = низ)."
 
 #. NSwsV
 #: sc/inc/scfuncs.hrc:827
@@ -8423,7 +8329,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:1360
 msgctxt "SC_OPCODE_AGGREGATE"
 msgid "Reference 1 or array"
-msgstr ""
+msgstr "Референца 1 или низ"
 
 #. Zv6Z4
 #: sc/inc/scfuncs.hrc:1361
@@ -9056,108 +8962,93 @@ msgstr "Цео број 1; цео број 2,... су цели бројеви з
 
 #. DHxNC
 #: sc/inc/scfuncs.hrc:1547
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_TRANS"
 msgid "Array transposition. Exchanges the rows and columns of an array."
-msgstr "Транспоновање потеза (матрице). Замењује редове и колоне."
+msgstr "Транспоновање низа. Замењује редове и колоне."
 
 #. aHw86
 #: sc/inc/scfuncs.hrc:1548
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_TRANS"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. RpAQz
 #: sc/inc/scfuncs.hrc:1549
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_TRANS"
 msgid "The array in which the rows and columns have been transposed."
-msgstr "Потез (матрица) коме се транспонују редови и колоне."
+msgstr "Низ у коме се транспонују редови и колоне."
 
 #. jc4zS
 #: sc/inc/scfuncs.hrc:1555
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_MULT"
 msgid "Array multiplication. Returns the product of two arrays."
-msgstr "Множење потеза (матрица). Враћа производ два потеза."
+msgstr "Множење низова. Враћа производ два потеза."
 
 #. FhD6y
 #: sc/inc/scfuncs.hrc:1556
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_MULT"
 msgid "Array 1"
-msgstr "Потез "
+msgstr "Низ 1"
 
 #. FdTzG
 #: sc/inc/scfuncs.hrc:1557
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_MULT"
 msgid "The first array for the array product."
-msgstr "Први потез за производ."
+msgstr "Први низ за производ низова."
 
 #. Ebs87
 #: sc/inc/scfuncs.hrc:1558
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_MULT"
 msgid "Array 2"
-msgstr "Потез "
+msgstr "Низ 2"
 
 #. 3xEDC
 #: sc/inc/scfuncs.hrc:1559
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_MULT"
 msgid "The second array having the same number of rows as the first array has columns."
-msgstr "Други потез који има исти број редова као први колона."
+msgstr "Други низ који има исти број редова колико има колона у првом низу."
 
 #. FEfgL
 #: sc/inc/scfuncs.hrc:1565
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_DET"
 msgid "Returns the array determinant."
-msgstr "Враћа детерминанту потеза (матрице)."
+msgstr "Враћа детерминанту низа."
 
 #. DFRHS
 #: sc/inc/scfuncs.hrc:1566
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_DET"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. Aa8fB
 #: sc/inc/scfuncs.hrc:1567
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_DET"
 msgid "The array for which the determinant is to be determined."
-msgstr "Потез за који се одређује детрминанта."
+msgstr "Низ за који се одређује детрминанта."
 
 #. QkN5Q
 #: sc/inc/scfuncs.hrc:1573
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_INV"
 msgid "Returns the inverse of an array."
-msgstr "Враћа инверзни потез (матрицу)."
+msgstr "Враћа обрнути низ."
 
 #. Wwjsu
 #: sc/inc/scfuncs.hrc:1574
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_INV"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. TWy2P
 #: sc/inc/scfuncs.hrc:1575
-#, fuzzy
 msgctxt "SC_OPCODE_MAT_INV"
 msgid "The array to be inverted."
-msgstr "Потез који се инвертује."
+msgstr "Низ који ће бити обрнут."
 
 #. 6FfMG
 #: sc/inc/scfuncs.hrc:1581
-#, fuzzy
 msgctxt "SC_OPCODE_MATRIX_UNIT"
 msgid "Returns the unitary square array of a certain size."
-msgstr "Враћа јединични квадратни потез (матрицу) задате димензије."
+msgstr "Враћа јединични квадратни низ задате димензије."
 
 #. LjQFC
 #: sc/inc/scfuncs.hrc:1582
@@ -9168,143 +9059,123 @@ msgstr "Димензије"
 
 #. 4teei
 #: sc/inc/scfuncs.hrc:1583
-#, fuzzy
 msgctxt "SC_OPCODE_MATRIX_UNIT"
 msgid "The size of the unitary array."
-msgstr "Димензија јединичног потеза."
+msgstr "Димензија јединичног низа."
 
 #. dg4DZ
 #: sc/inc/scfuncs.hrc:1589
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_PRODUCT"
 msgid "(Inner products) Returns the sum of the products of array arguments."
-msgstr "(Скаларни производ) Враћа збир производа елемената потеза (вектора или матрице)."
+msgstr "(Скаларни производ) враћа збир производа елемената низа (вектора или матрице)."
 
 #. pZTDb
 #: sc/inc/scfuncs.hrc:1590
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_PRODUCT"
 msgid "Array "
-msgstr "Потез "
+msgstr "Низ "
 
 #. WCRTE
 #: sc/inc/scfuncs.hrc:1591
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_PRODUCT"
 msgid "Array 1, array 2, ... are arrays whose arguments are to be multiplied."
-msgstr "Потез 1, потез 2, ...  до 30 потеза чији елементи треба да се помноже."
+msgstr "Низ 1, низ 2,… до 30 потеза чији елементи треба да се помноже."
 
 #. uPVf6
 #: sc/inc/scfuncs.hrc:1597
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_X2MY2"
 msgid "Returns the sum of the difference of squares of two arrays."
-msgstr "Враћа збир разлика квадрата два потеза."
+msgstr "Враћа збир разлика квадрата два низа."
 
 #. AUFNs
 #: sc/inc/scfuncs.hrc:1598
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_X2MY2"
 msgid "Array X"
-msgstr "Потез "
+msgstr "Низ X"
 
 #. 9vSGo
 #: sc/inc/scfuncs.hrc:1599
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_X2MY2"
 msgid "First array where the square of the arguments are totalled."
-msgstr "Први потез код кога се сабирају квадрати елемената."
+msgstr "Први низ код кога се сабирају квадрати елемената."
 
 #. YSPPg
 #: sc/inc/scfuncs.hrc:1600
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_X2MY2"
 msgid "Array Y"
-msgstr "Потез "
+msgstr "Низ Y"
 
 #. 9T4Rr
 #: sc/inc/scfuncs.hrc:1601
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_X2MY2"
 msgid "Second array where the square of the arguments is to be subtracted."
-msgstr "Други потез код кога се одузимају квадрати елемената."
+msgstr "Други низ код кога се одузимају квадрати елемената."
 
 #. hMGY3
 #: sc/inc/scfuncs.hrc:1607
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_X2DY2"
 msgid "Returns the total of the square sum of two arrays."
-msgstr "Враћа резултат збира квадрата два потеза."
+msgstr "Враћа резултат збира квадрата два низа."
 
 #. FrwhU
 #: sc/inc/scfuncs.hrc:1608
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_X2DY2"
 msgid "Array X"
-msgstr "Потез "
+msgstr "Низ X"
 
 #. H8mTf
 #: sc/inc/scfuncs.hrc:1609
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_X2DY2"
 msgid "First array where the square of the arguments are totalled."
-msgstr "Први потез код кога се сабирају квадрати елемената."
+msgstr "Први низ код кога се сабирају квадрати елемената."
 
 #. Vtggo
 #: sc/inc/scfuncs.hrc:1610
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_X2DY2"
 msgid "Array Y"
-msgstr "Потез "
+msgstr "Низ Y"
 
 #. reqfP
 #: sc/inc/scfuncs.hrc:1611
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_X2DY2"
 msgid "Second array where the square of the arguments is to be totalled."
-msgstr "Други потез код кога се сабирају квадрати елемената."
+msgstr "Други низ код кога се сабирају квадрати елемената."
 
 #. 2Z63V
 #: sc/inc/scfuncs.hrc:1617
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_XMY2"
 msgid "Returns the sum of squares of differences of two arrays."
-msgstr "Враћа збир разлика квадрата два потеза."
+msgstr "Враћа збир разлика квадрата два низа."
 
 #. ZMxo6
 #: sc/inc/scfuncs.hrc:1618
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_XMY2"
 msgid "Array X"
-msgstr "Потез "
+msgstr "Низ X"
 
 #. 53FNi
 #: sc/inc/scfuncs.hrc:1619
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_XMY2"
 msgid "First array for forming argument differences."
-msgstr "Први потез (вектор, матрица) за израчунавање разлике елемената."
+msgstr "Први низ (вектор, матрица) за израчунавање разлике елемената."
 
 #. BKfnC
 #: sc/inc/scfuncs.hrc:1620
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_XMY2"
 msgid "Array Y"
-msgstr "Потез "
+msgstr "Низ Y"
 
 #. 2mWCE
 #: sc/inc/scfuncs.hrc:1621
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_XMY2"
 msgid "Second array for forming the argument differences."
-msgstr "Други потез за израчунавање разлике елемената."
+msgstr "Други низ за израчунавање разлике елемената."
 
 #. DQZg5
 #: sc/inc/scfuncs.hrc:1627
-#, fuzzy
 msgctxt "SC_OPCODE_FREQUENCY"
 msgid "Returns a frequency distribution as a vertical array."
-msgstr "Враћа дистрибуцију вредности као вертикални потез (вектор)."
+msgstr "Враћа дистрибуцију вредности као вертикални низ."
 
 #. iHT4A
 #: sc/inc/scfuncs.hrc:1628
@@ -9315,10 +9186,9 @@ msgstr "Податак"
 
 #. 8EzEW
 #: sc/inc/scfuncs.hrc:1629
-#, fuzzy
 msgctxt "SC_OPCODE_FREQUENCY"
 msgid "The array of the data."
-msgstr "Потез са подацима."
+msgstr "Низ са подацима."
 
 #. Pe6wN
 #: sc/inc/scfuncs.hrc:1630
@@ -9329,17 +9199,15 @@ msgstr "класе"
 
 #. mtdmt
 #: sc/inc/scfuncs.hrc:1631
-#, fuzzy
 msgctxt "SC_OPCODE_FREQUENCY"
 msgid "The array for forming classes."
-msgstr "Скуп за формирање класа."
+msgstr "Низ за формирање класа."
 
 #. BDaQC
 #: sc/inc/scfuncs.hrc:1637
-#, fuzzy
 msgctxt "SC_OPCODE_LINEST"
 msgid "Calculates parameters of the linear regression as an array."
-msgstr "Израчунава параметре линеарне регресије као потез."
+msgstr "Израчунава параметре линеарне регресије као низ."
 
 #. kziZ4
 #: sc/inc/scfuncs.hrc:1638
@@ -9349,10 +9217,9 @@ msgstr ""
 
 #. fyrtU
 #: sc/inc/scfuncs.hrc:1639
-#, fuzzy
 msgctxt "SC_OPCODE_LINEST"
 msgid "The Y data array."
-msgstr "Потез података за Y."
+msgstr "Низ података за Y."
 
 #. 53VYE
 #: sc/inc/scfuncs.hrc:1640
@@ -9362,10 +9229,9 @@ msgstr ""
 
 #. aKFRR
 #: sc/inc/scfuncs.hrc:1641
-#, fuzzy
 msgctxt "SC_OPCODE_LINEST"
 msgid "The X data array."
-msgstr "Потез података за X."
+msgstr "Низ података за X."
 
 #. mdXQk
 #: sc/inc/scfuncs.hrc:1642
@@ -9397,10 +9263,9 @@ msgstr "За параметар = 0, рачуна се само коефициј
 
 #. TjhxE
 #: sc/inc/scfuncs.hrc:1651
-#, fuzzy
 msgctxt "SC_OPCODE_LOGEST"
 msgid "Calculates the parameters of the exponential regression curve as an array."
-msgstr "Израчунава параметре криве експоненцијалне регресије као потез."
+msgstr "Израчунава параметре криве експоненцијалне регресије као низ."
 
 #. HfsMq
 #: sc/inc/scfuncs.hrc:1652
@@ -9410,10 +9275,9 @@ msgstr ""
 
 #. qwCCT
 #: sc/inc/scfuncs.hrc:1653
-#, fuzzy
 msgctxt "SC_OPCODE_LOGEST"
 msgid "The Y data array."
-msgstr "Потез података за Y."
+msgstr "Низ података за Y."
 
 #. ThcLS
 #: sc/inc/scfuncs.hrc:1654
@@ -9423,10 +9287,9 @@ msgstr ""
 
 #. kMYqN
 #: sc/inc/scfuncs.hrc:1655
-#, fuzzy
 msgctxt "SC_OPCODE_LOGEST"
 msgid "The X data array."
-msgstr "Потез података за X."
+msgstr "Низ података за X."
 
 #. DNNRH
 #: sc/inc/scfuncs.hrc:1656
@@ -9471,10 +9334,9 @@ msgstr ""
 
 #. XBTHe
 #: sc/inc/scfuncs.hrc:1667
-#, fuzzy
 msgctxt "SC_OPCODE_TREND"
 msgid "The Y data array."
-msgstr "Потез података за Y."
+msgstr "Низ података за Y."
 
 #. gfEwT
 #: sc/inc/scfuncs.hrc:1668
@@ -9484,10 +9346,9 @@ msgstr ""
 
 #. LhqAb
 #: sc/inc/scfuncs.hrc:1669
-#, fuzzy
 msgctxt "SC_OPCODE_TREND"
 msgid "The X data array as the basis for the regression."
-msgstr "Потез података за X као основа за регресију."
+msgstr "Низ података за X као основа за регресију."
 
 #. rVGjP
 #: sc/inc/scfuncs.hrc:1670
@@ -9498,10 +9359,9 @@ msgstr "нови податак_X"
 
 #. JedWB
 #: sc/inc/scfuncs.hrc:1671
-#, fuzzy
 msgctxt "SC_OPCODE_TREND"
 msgid "The array of X data for recalculating the values."
-msgstr "Потез података за X за поновно рачунање вредности."
+msgstr "Низ података за X за поновно рачунање вредности."
 
 #. s3wFj
 #: sc/inc/scfuncs.hrc:1672
@@ -9532,10 +9392,9 @@ msgstr ""
 
 #. 4kBWF
 #: sc/inc/scfuncs.hrc:1681
-#, fuzzy
 msgctxt "SC_OPCODE_GROWTH"
 msgid "The Y data array."
-msgstr "Потез података за Y."
+msgstr "Низ података за Y."
 
 #. f6ix4
 #: sc/inc/scfuncs.hrc:1682
@@ -9545,10 +9404,9 @@ msgstr ""
 
 #. iGU4n
 #: sc/inc/scfuncs.hrc:1683
-#, fuzzy
 msgctxt "SC_OPCODE_GROWTH"
 msgid "The X data array as the basis for the regression."
-msgstr "Потез података за X као основа за регресију."
+msgstr "Низ података за X као основа за регресију."
 
 #. L8Rx3
 #: sc/inc/scfuncs.hrc:1684
@@ -9559,10 +9417,9 @@ msgstr "нови податак_X"
 
 #. kFxgD
 #: sc/inc/scfuncs.hrc:1685
-#, fuzzy
 msgctxt "SC_OPCODE_GROWTH"
 msgid "The array of X data for recalculating the values."
-msgstr "Потез података за X за поновно рачунање вредности."
+msgstr "Низ података за X за поновно рачунање вредности."
 
 #. brbfA
 #: sc/inc/scfuncs.hrc:1686
@@ -10244,10 +10101,9 @@ msgstr "Податак"
 
 #. QzeFE
 #: sc/inc/scfuncs.hrc:1943
-#, fuzzy
 msgctxt "SC_OPCODE_PERCENTILE"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. ojZCE
 #: sc/inc/scfuncs.hrc:1944
@@ -10279,10 +10135,9 @@ msgstr "Податак"
 
 #. eF3iC
 #: sc/inc/scfuncs.hrc:1953
-#, fuzzy
 msgctxt "SC_OPCODE_PERCENTILE_EXC"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. 2Xss9
 #: sc/inc/scfuncs.hrc:1954
@@ -10313,10 +10168,9 @@ msgstr "Податак"
 
 #. f5Hig
 #: sc/inc/scfuncs.hrc:1963
-#, fuzzy
 msgctxt "SC_OPCODE_PERCENTILE_INC"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. KCoTn
 #: sc/inc/scfuncs.hrc:1964
@@ -10347,10 +10201,9 @@ msgstr "Податак"
 
 #. VT77G
 #: sc/inc/scfuncs.hrc:1973
-#, fuzzy
 msgctxt "SC_OPCODE_QUARTILE"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. FTjuA
 #: sc/inc/scfuncs.hrc:1974
@@ -10382,10 +10235,9 @@ msgstr "Податак"
 
 #. GVYTe
 #: sc/inc/scfuncs.hrc:1983
-#, fuzzy
 msgctxt "SC_OPCODE_QUARTILE_EXC"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. awisv
 #: sc/inc/scfuncs.hrc:1984
@@ -10416,10 +10268,9 @@ msgstr "Податак"
 
 #. FbmTA
 #: sc/inc/scfuncs.hrc:1993
-#, fuzzy
 msgctxt "SC_OPCODE_QUARTILE_INC"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. mhCBG
 #: sc/inc/scfuncs.hrc:1994
@@ -10451,10 +10302,9 @@ msgstr "Податак"
 
 #. aCZTT
 #: sc/inc/scfuncs.hrc:2003
-#, fuzzy
 msgctxt "SC_OPCODE_LARGE"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. PjGgh
 #: sc/inc/scfuncs.hrc:2004
@@ -10486,10 +10336,9 @@ msgstr "Податак"
 
 #. 2JKnR
 #: sc/inc/scfuncs.hrc:2013
-#, fuzzy
 msgctxt "SC_OPCODE_SMALL"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. ceVdB
 #: sc/inc/scfuncs.hrc:2014
@@ -10521,10 +10370,9 @@ msgstr "Податак"
 
 #. 6pfJB
 #: sc/inc/scfuncs.hrc:2023
-#, fuzzy
 msgctxt "SC_OPCODE_PERCENT_RANK"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. wDy3T
 #: sc/inc/scfuncs.hrc:2024
@@ -10568,10 +10416,9 @@ msgstr "Податак"
 
 #. 5FeiY
 #: sc/inc/scfuncs.hrc:2035
-#, fuzzy
 msgctxt "SC_OPCODE_PERCENT_RANK_EXC"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. DUeLX
 #: sc/inc/scfuncs.hrc:2036
@@ -10615,10 +10462,9 @@ msgstr "Податак"
 
 #. 6Rsi4
 #: sc/inc/scfuncs.hrc:2047
-#, fuzzy
 msgctxt "SC_OPCODE_PERCENT_RANK_INC"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. CDS3K
 #: sc/inc/scfuncs.hrc:2048
@@ -10677,10 +10523,9 @@ msgstr "Податак"
 
 #. EqDZB
 #: sc/inc/scfuncs.hrc:2061
-#, fuzzy
 msgctxt "SC_OPCODE_RANK"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. YmafZ
 #: sc/inc/scfuncs.hrc:2062
@@ -10725,10 +10570,9 @@ msgstr "Податак"
 
 #. Q9hFR
 #: sc/inc/scfuncs.hrc:2073
-#, fuzzy
 msgctxt "SC_OPCODE_RANK_EQ"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. aFChD
 #: sc/inc/scfuncs.hrc:2074
@@ -10773,10 +10617,9 @@ msgstr "Податак"
 
 #. B57dE
 #: sc/inc/scfuncs.hrc:2085
-#, fuzzy
 msgctxt "SC_OPCODE_RANK_AVG"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. 5e2Co
 #: sc/inc/scfuncs.hrc:2086
@@ -10808,10 +10651,9 @@ msgstr "Податак"
 
 #. qdPdp
 #: sc/inc/scfuncs.hrc:2095
-#, fuzzy
 msgctxt "SC_OPCODE_TRIM_MEAN"
 msgid "The array of the data in the sample."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. cHNxJ
 #: sc/inc/scfuncs.hrc:2096
@@ -10843,10 +10685,9 @@ msgstr "Податак"
 
 #. G9hSp
 #: sc/inc/scfuncs.hrc:2105
-#, fuzzy
 msgctxt "SC_OPCODE_PROB"
 msgid "The sample data array."
-msgstr "Потез података узорка."
+msgstr "Низ података унутар узорка."
 
 #. XF3fT
 #: sc/inc/scfuncs.hrc:2106
@@ -10857,10 +10698,9 @@ msgstr "Вероватноћа"
 
 #. uRCZ2
 #: sc/inc/scfuncs.hrc:2107
-#, fuzzy
 msgctxt "SC_OPCODE_PROB"
 msgid "The array of the associated probabilities."
-msgstr "Потез придружених вероватноћа."
+msgstr "Низ придружених вероватноћа."
 
 #. bryLB
 #: sc/inc/scfuncs.hrc:2108
@@ -14261,10 +14101,9 @@ msgstr "Податак_B"
 
 #. 9ECN3
 #: sc/inc/scfuncs.hrc:2966
-#, fuzzy
 msgctxt "SC_OPCODE_CHI_TEST"
 msgid "The observed data array."
-msgstr "Потез посматраних података."
+msgstr "Низ података посматраних вредности."
 
 #. MAJEC
 #: sc/inc/scfuncs.hrc:2967
@@ -14274,10 +14113,9 @@ msgstr ""
 
 #. E4yRB
 #: sc/inc/scfuncs.hrc:2968
-#, fuzzy
 msgctxt "SC_OPCODE_CHI_TEST"
 msgid "The expected data array."
-msgstr "Потез очекиваних података."
+msgstr "Низ података очекиваних вредности."
 
 #. 34jxF
 #: sc/inc/scfuncs.hrc:2974
@@ -14295,10 +14133,9 @@ msgstr "Податак_B"
 
 #. zmUWQ
 #: sc/inc/scfuncs.hrc:2976
-#, fuzzy
 msgctxt "SC_OPCODE_CHI_TEST_MS"
 msgid "The observed data array."
-msgstr "Потез посматраних података."
+msgstr "Низ података посматраних вредности."
 
 #. Ncp5A
 #: sc/inc/scfuncs.hrc:2977
@@ -14308,10 +14145,9 @@ msgstr ""
 
 #. NwGZE
 #: sc/inc/scfuncs.hrc:2978
-#, fuzzy
 msgctxt "SC_OPCODE_CHI_TEST_MS"
 msgid "The expected data array."
-msgstr "Потез очекиваних података."
+msgstr "Низ података очекиваних вредности."
 
 #. CfCjB
 #: sc/inc/scfuncs.hrc:2984
@@ -14329,10 +14165,9 @@ msgstr "Податак_1"
 
 #. YfKrA
 #: sc/inc/scfuncs.hrc:2986
-#, fuzzy
 msgctxt "SC_OPCODE_F_TEST"
 msgid "The first record array."
-msgstr "Потез првог записа."
+msgstr "Низ првог записа."
 
 #. HcSHD
 #: sc/inc/scfuncs.hrc:2987
@@ -14343,10 +14178,9 @@ msgstr "Податак_2"
 
 #. DdRTF
 #: sc/inc/scfuncs.hrc:2988
-#, fuzzy
 msgctxt "SC_OPCODE_F_TEST"
 msgid "The second record array."
-msgstr "Потез другог записа."
+msgstr "Низ другог записа."
 
 #. xAyB8
 #: sc/inc/scfuncs.hrc:2994
@@ -14364,10 +14198,9 @@ msgstr "Податак_1"
 
 #. tEFdd
 #: sc/inc/scfuncs.hrc:2996
-#, fuzzy
 msgctxt "SC_OPCODE_F_TEST_MS"
 msgid "The first record array."
-msgstr "Потез првог записа."
+msgstr "Низ првог записа."
 
 #. 45maL
 #: sc/inc/scfuncs.hrc:2997
@@ -14378,10 +14211,9 @@ msgstr "Податак_2"
 
 #. NcENT
 #: sc/inc/scfuncs.hrc:2998
-#, fuzzy
 msgctxt "SC_OPCODE_F_TEST_MS"
 msgid "The second record array."
-msgstr "Потез другог записа."
+msgstr "Низ другог записа."
 
 #. TZSAL
 #: sc/inc/scfuncs.hrc:3004
@@ -14399,10 +14231,9 @@ msgstr "Податак_1"
 
 #. E6YmJ
 #: sc/inc/scfuncs.hrc:3006
-#, fuzzy
 msgctxt "SC_OPCODE_T_TEST"
 msgid "The first record array."
-msgstr "Потез првог записа."
+msgstr "Низ првог записа."
 
 #. YWjTr
 #: sc/inc/scfuncs.hrc:3007
@@ -14413,10 +14244,9 @@ msgstr "Податак_2"
 
 #. 2scEP
 #: sc/inc/scfuncs.hrc:3008
-#, fuzzy
 msgctxt "SC_OPCODE_T_TEST"
 msgid "The second record array."
-msgstr "Потез другог записа."
+msgstr "Низ другог записа."
 
 #. hWPAL
 #: sc/inc/scfuncs.hrc:3009
@@ -14461,10 +14291,9 @@ msgstr "Податак_1"
 
 #. F5qSy
 #: sc/inc/scfuncs.hrc:3020
-#, fuzzy
 msgctxt "SC_OPCODE_T_TEST_MS"
 msgid "The first record array."
-msgstr "Потез првог записа."
+msgstr "Низ првог записа."
 
 #. QdUAu
 #: sc/inc/scfuncs.hrc:3021
@@ -14475,10 +14304,9 @@ msgstr "Податак_2"
 
 #. D6yiE
 #: sc/inc/scfuncs.hrc:3022
-#, fuzzy
 msgctxt "SC_OPCODE_T_TEST_MS"
 msgid "The second record array."
-msgstr "Потез другог записа."
+msgstr "Низ другог записа."
 
 #. 7UpjE
 #: sc/inc/scfuncs.hrc:3023
@@ -14522,10 +14350,9 @@ msgstr ""
 
 #. cDSEe
 #: sc/inc/scfuncs.hrc:3034
-#, fuzzy
 msgctxt "SC_OPCODE_RSQ"
 msgid "The Y data array."
-msgstr "Потез података за Y."
+msgstr "Низ података за Y."
 
 #. kARX2
 #: sc/inc/scfuncs.hrc:3035
@@ -14535,10 +14362,9 @@ msgstr ""
 
 #. hcEaB
 #: sc/inc/scfuncs.hrc:3036
-#, fuzzy
 msgctxt "SC_OPCODE_RSQ"
 msgid "The X data array."
-msgstr "Потез података за X."
+msgstr "Низ података за X."
 
 #. EeGGQ
 #: sc/inc/scfuncs.hrc:3042
@@ -14555,10 +14381,9 @@ msgstr ""
 
 #. WXipw
 #: sc/inc/scfuncs.hrc:3044
-#, fuzzy
 msgctxt "SC_OPCODE_INTERCEPT"
 msgid "The Y data array."
-msgstr "Потез података за Y."
+msgstr "Низ података за Y."
 
 #. TdM7y
 #: sc/inc/scfuncs.hrc:3045
@@ -14568,10 +14393,9 @@ msgstr ""
 
 #. T4PDz
 #: sc/inc/scfuncs.hrc:3046
-#, fuzzy
 msgctxt "SC_OPCODE_INTERCEPT"
 msgid "The X data array."
-msgstr "Потез података за X."
+msgstr "Низ података за X."
 
 #. DCeGA
 #: sc/inc/scfuncs.hrc:3052
@@ -14588,10 +14412,9 @@ msgstr ""
 
 #. uaECq
 #: sc/inc/scfuncs.hrc:3054
-#, fuzzy
 msgctxt "SC_OPCODE_SLOPE"
 msgid "The Y data array."
-msgstr "Потез података за Y."
+msgstr "Низ података за Y."
 
 #. rknKp
 #: sc/inc/scfuncs.hrc:3055
@@ -14601,10 +14424,9 @@ msgstr ""
 
 #. xFSqB
 #: sc/inc/scfuncs.hrc:3056
-#, fuzzy
 msgctxt "SC_OPCODE_SLOPE"
 msgid "The X data array."
-msgstr "Потез података за X."
+msgstr "Низ података за X."
 
 #. xfNoa
 #: sc/inc/scfuncs.hrc:3062
@@ -14621,10 +14443,9 @@ msgstr ""
 
 #. iURZt
 #: sc/inc/scfuncs.hrc:3064
-#, fuzzy
 msgctxt "SC_OPCODE_STEYX"
 msgid "The Y data array."
-msgstr "Потез података за Y."
+msgstr "Низ података за Y."
 
 #. QEGMx
 #: sc/inc/scfuncs.hrc:3065
@@ -14634,10 +14455,9 @@ msgstr ""
 
 #. o5k38
 #: sc/inc/scfuncs.hrc:3066
-#, fuzzy
 msgctxt "SC_OPCODE_STEYX"
 msgid "The X data array."
-msgstr "Потез података за X."
+msgstr "Низ података за X."
 
 #. pamGW
 #: sc/inc/scfuncs.hrc:3072
@@ -14655,10 +14475,9 @@ msgstr "Податак_1"
 
 #. RAEvh
 #: sc/inc/scfuncs.hrc:3074
-#, fuzzy
 msgctxt "SC_OPCODE_PEARSON"
 msgid "The first record array."
-msgstr "Потез првог записа."
+msgstr "Низ првог записа."
 
 #. wbKnK
 #: sc/inc/scfuncs.hrc:3075
@@ -14669,10 +14488,9 @@ msgstr "Податак_2"
 
 #. EEAuv
 #: sc/inc/scfuncs.hrc:3076
-#, fuzzy
 msgctxt "SC_OPCODE_PEARSON"
 msgid "The second record array."
-msgstr "Потез другог записа."
+msgstr "Низ другог записа."
 
 #. WDcKB
 #: sc/inc/scfuncs.hrc:3082
@@ -14690,10 +14508,9 @@ msgstr "Податак_1"
 
 #. 7VtBm
 #: sc/inc/scfuncs.hrc:3084
-#, fuzzy
 msgctxt "SC_OPCODE_CORREL"
 msgid "The first record array."
-msgstr "Потез првог записа."
+msgstr "Низ првог записа."
 
 #. hqTcz
 #: sc/inc/scfuncs.hrc:3085
@@ -14704,10 +14521,9 @@ msgstr "Податак_2"
 
 #. aNhvr
 #: sc/inc/scfuncs.hrc:3086
-#, fuzzy
 msgctxt "SC_OPCODE_CORREL"
 msgid "The second record array."
-msgstr "Потез другог записа."
+msgstr "Низ другог записа."
 
 #. QR42t
 #: sc/inc/scfuncs.hrc:3092
@@ -14725,10 +14541,9 @@ msgstr "Податак_1"
 
 #. skBUc
 #: sc/inc/scfuncs.hrc:3094
-#, fuzzy
 msgctxt "SC_OPCODE_COVAR"
 msgid "The first record array."
-msgstr "Потез првог записа."
+msgstr "Низ првог записа."
 
 #. 2Da2J
 #: sc/inc/scfuncs.hrc:3095
@@ -14739,10 +14554,9 @@ msgstr "Податак_2"
 
 #. 2KRqV
 #: sc/inc/scfuncs.hrc:3096
-#, fuzzy
 msgctxt "SC_OPCODE_COVAR"
 msgid "The second record array."
-msgstr "Потез другог записа."
+msgstr "Низ другог записа."
 
 #. fbobA
 #: sc/inc/scfuncs.hrc:3102
@@ -14760,10 +14574,9 @@ msgstr "Податак_1"
 
 #. AQzmF
 #: sc/inc/scfuncs.hrc:3104
-#, fuzzy
 msgctxt "SC_OPCODE_COVARIANCE_P"
 msgid "The first record array."
-msgstr "Потез првог записа."
+msgstr "Низ првог записа."
 
 #. FKuFq
 #: sc/inc/scfuncs.hrc:3105
@@ -14774,10 +14587,9 @@ msgstr "Податак_2"
 
 #. 7Bt3T
 #: sc/inc/scfuncs.hrc:3106
-#, fuzzy
 msgctxt "SC_OPCODE_COVARIANCE_P"
 msgid "The second record array."
-msgstr "Потез другог записа."
+msgstr "Низ другог записа."
 
 #. 3L3ku
 #: sc/inc/scfuncs.hrc:3112
@@ -14795,10 +14607,9 @@ msgstr "Податак_1"
 
 #. VZuaM
 #: sc/inc/scfuncs.hrc:3114
-#, fuzzy
 msgctxt "SC_OPCODE_COVARIANCE_S"
 msgid "The first record array."
-msgstr "Потез првог записа."
+msgstr "Низ првог записа."
 
 #. pYdps
 #: sc/inc/scfuncs.hrc:3115
@@ -14809,10 +14620,9 @@ msgstr "Податак_2"
 
 #. QPWqm
 #: sc/inc/scfuncs.hrc:3116
-#, fuzzy
 msgctxt "SC_OPCODE_COVARIANCE_S"
 msgid "The second record array."
-msgstr "Потез другог записа."
+msgstr "Низ другог записа."
 
 #. BiBeC
 #: sc/inc/scfuncs.hrc:3122
@@ -14843,10 +14653,9 @@ msgstr ""
 
 #. 5dSvW
 #: sc/inc/scfuncs.hrc:3126
-#, fuzzy
 msgctxt "SC_OPCODE_FORECAST"
 msgid "The Y data array."
-msgstr "Потез података за Y."
+msgstr "Низ података за Y."
 
 #. RvAhN
 #: sc/inc/scfuncs.hrc:3127
@@ -14856,10 +14665,9 @@ msgstr ""
 
 #. 2EEKK
 #: sc/inc/scfuncs.hrc:3128
-#, fuzzy
 msgctxt "SC_OPCODE_FORECAST"
 msgid "The X data array."
-msgstr "Потез података за X."
+msgstr "Низ података за X."
 
 #. XHpHo
 #: sc/inc/scfuncs.hrc:3134
@@ -14878,7 +14686,7 @@ msgstr "Одредиште"
 #: sc/inc/scfuncs.hrc:3136
 msgctxt "SC_OPCODE_FORECAST_ETS_ADD"
 msgid "The date (array) for which you want to predict a value."
-msgstr ""
+msgstr "Датум (низ) за који желите да предвидите вредност."
 
 #. WTRGs
 #: sc/inc/scfuncs.hrc:3137
@@ -14891,7 +14699,7 @@ msgstr "Вредности"
 #: sc/inc/scfuncs.hrc:3138
 msgctxt "SC_OPCODE_FORECAST_ETS_ADD"
 msgid "The data array from which you want to forecast."
-msgstr ""
+msgstr "Низ података за који желите да направите прогнозу."
 
 #. ALBwX
 #: sc/inc/scfuncs.hrc:3139
@@ -14903,7 +14711,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3140
 msgctxt "SC_OPCODE_FORECAST_ETS_ADD"
 msgid "The date or numeric array; a consistent step between values is needed."
-msgstr ""
+msgstr "Датум или нумерички низ; потребан је уједначен корак између вредности."
 
 #. xzZDH
 #: sc/inc/scfuncs.hrc:3141
@@ -14958,7 +14766,7 @@ msgstr "Одредиште"
 #: sc/inc/scfuncs.hrc:3154
 msgctxt "SC_OPCODE_FORECAST_ETS_MUL"
 msgid "The date (array) for which you want to predict a value."
-msgstr ""
+msgstr "Датум (низ) за који желите да предвидите вредност."
 
 #. fooqd
 #: sc/inc/scfuncs.hrc:3155
@@ -14971,7 +14779,7 @@ msgstr "Вредности"
 #: sc/inc/scfuncs.hrc:3156
 msgctxt "SC_OPCODE_FORECAST_ETS_MUL"
 msgid "The data array from which you want to forecast."
-msgstr ""
+msgstr "Низ података на основу кога желите да направите прогнозу."
 
 #. HVuEv
 #: sc/inc/scfuncs.hrc:3157
@@ -14983,7 +14791,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3158
 msgctxt "SC_OPCODE_FORECAST_ETS_MUL"
 msgid "The date or numeric array; a consistent step between values is needed."
-msgstr ""
+msgstr "Датум или нумерички низ; потребан је уједначен корак између вредности."
 
 #. 8h8MX
 #: sc/inc/scfuncs.hrc:3159
@@ -15038,7 +14846,7 @@ msgstr "Одредиште"
 #: sc/inc/scfuncs.hrc:3172
 msgctxt "SC_OPCODE_FORECAST_ETS_PIA"
 msgid "The date (array) for which you want to predict a value."
-msgstr ""
+msgstr "Датум (низ) за који желите да предвидите вредност."
 
 #. 2gGRa
 #: sc/inc/scfuncs.hrc:3173
@@ -15051,7 +14859,7 @@ msgstr "Вредности"
 #: sc/inc/scfuncs.hrc:3174
 msgctxt "SC_OPCODE_FORECAST_ETS_PIA"
 msgid "The data array from which you want to forecast."
-msgstr ""
+msgstr "Низ података на основу којих желите да направите прогнозу."
 
 #. sX9wy
 #: sc/inc/scfuncs.hrc:3175
@@ -15063,7 +14871,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3176
 msgctxt "SC_OPCODE_FORECAST_ETS_PIA"
 msgid "The date or numeric array; a consistent step between values is needed."
-msgstr ""
+msgstr "Датум или нумерички низ; потребан је уједначен корак између вредности."
 
 #. D2CaS
 #: sc/inc/scfuncs.hrc:3177
@@ -15130,7 +14938,7 @@ msgstr "Одредиште"
 #: sc/inc/scfuncs.hrc:3192
 msgctxt "SC_OPCODE_FORECAST_ETS_PIM"
 msgid "The date (array) for which you want to predict a value."
-msgstr ""
+msgstr "Датум (низ) за који желите да предвидите вредност."
 
 #. FMQnR
 #: sc/inc/scfuncs.hrc:3193
@@ -15143,7 +14951,7 @@ msgstr "Вредности"
 #: sc/inc/scfuncs.hrc:3194
 msgctxt "SC_OPCODE_FORECAST_ETS_PIM"
 msgid "The data array from which you want to forecast."
-msgstr ""
+msgstr "Низ података за који желите да направите прогнозу."
 
 #. qZ7k6
 #: sc/inc/scfuncs.hrc:3195
@@ -15155,7 +14963,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3196
 msgctxt "SC_OPCODE_FORECAST_ETS_PIM"
 msgid "The date or numeric array; a consistent step between values is needed."
-msgstr ""
+msgstr "Датум или нумерички низ; потребан је уједначен корак између вредности."
 
 #. 7XXpN
 #: sc/inc/scfuncs.hrc:3197
@@ -15222,7 +15030,7 @@ msgstr "Вредности"
 #: sc/inc/scfuncs.hrc:3212
 msgctxt "SC_OPCODE_FORECAST_ETS_SEA"
 msgid "The data array from which you want to forecast."
-msgstr ""
+msgstr "Низ података на основу којих желите да направите прогнозу."
 
 #. gXDNU
 #: sc/inc/scfuncs.hrc:3213
@@ -15234,7 +15042,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3214
 msgctxt "SC_OPCODE_FORECAST_ETS_SEA"
 msgid "The date or numeric array; a consistent step between values is needed."
-msgstr ""
+msgstr "Датум или нумерички низ; потребан је уједначени корак између вредности."
 
 #. wCmnG
 #: sc/inc/scfuncs.hrc:3215
@@ -15277,7 +15085,7 @@ msgstr "Вредности"
 #: sc/inc/scfuncs.hrc:3226
 msgctxt "SC_OPCODE_FORECAST_ETS_STA"
 msgid "The data array from which you want to forecast."
-msgstr ""
+msgstr "Низ података за који желите да направите прогнозу."
 
 #. XAEUE
 #: sc/inc/scfuncs.hrc:3227
@@ -15289,7 +15097,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3228
 msgctxt "SC_OPCODE_FORECAST_ETS_STA"
 msgid "The date or numeric array; a consistent step between values is needed."
-msgstr ""
+msgstr "Датум или нумерички низ; потребан је уједначени корак између вредности."
 
 #. 8KpGB
 #: sc/inc/scfuncs.hrc:3229
@@ -15301,7 +15109,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3230
 msgctxt "SC_OPCODE_FORECAST_ETS_STA"
 msgid "Value (1-9) or array of values, indicating which statistic will be returned for the calculated forecast"
-msgstr ""
+msgstr "Вредност (1-9) или низ вредности који указује која ће статистика бити враћена за израчунату прогнозу"
 
 #. BYRRT
 #: sc/inc/scfuncs.hrc:3231
@@ -15356,7 +15164,7 @@ msgstr "Вредности"
 #: sc/inc/scfuncs.hrc:3244
 msgctxt "SC_OPCODE_FORECAST_ETS_STM"
 msgid "The data array from which you want to forecast."
-msgstr ""
+msgstr "Низ података на основу којих желите да направите прогнозу."
 
 #. dC4fq
 #: sc/inc/scfuncs.hrc:3245
@@ -15368,7 +15176,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3246
 msgctxt "SC_OPCODE_FORECAST_ETS_STM"
 msgid "The date or numeric array; a consistent step between values is needed."
-msgstr ""
+msgstr "Датум или нумерички низ; потребан је уједначени корак између вредности."
 
 #. GGM8p
 #: sc/inc/scfuncs.hrc:3247
@@ -15380,7 +15188,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3248
 msgctxt "SC_OPCODE_FORECAST_ETS_STM"
 msgid "Value (1-9) or array of values, indicating which statistic will be returned for the calculated forecast"
-msgstr ""
+msgstr "Вредност (1-9) или низ вредности који указује која ће статистика бити враћена за израчунату прогнозу"
 
 #. o2X3W
 #: sc/inc/scfuncs.hrc:3249
@@ -15447,10 +15255,9 @@ msgstr ""
 
 #. peRhT
 #: sc/inc/scfuncs.hrc:3264
-#, fuzzy
 msgctxt "SC_OPCODE_FORECAST_LIN"
 msgid "The Y data array."
-msgstr "Потез података за Y."
+msgstr "Низ података за Y."
 
 #. JXRbB
 #: sc/inc/scfuncs.hrc:3265
@@ -15460,10 +15267,9 @@ msgstr ""
 
 #. mBkBN
 #: sc/inc/scfuncs.hrc:3266
-#, fuzzy
 msgctxt "SC_OPCODE_FORECAST_LIN"
 msgid "The X data array."
-msgstr "Потез података за X."
+msgstr "Низ података за X."
 
 #. 5KaAD
 #: sc/inc/scfuncs.hrc:3272
@@ -15663,45 +15469,39 @@ msgstr "Референца на ћелију, опсег или ниска са 
 
 #. MXaHK
 #: sc/inc/scfuncs.hrc:3330
-#, fuzzy
 msgctxt "SC_OPCODE_COLUMNS"
 msgid "Returns the number of columns in an array or reference."
-msgstr "Враћа број колона у потезу или референци."
+msgstr "Враћа број колона у низу или референци."
 
 #. YDiv5
 #: sc/inc/scfuncs.hrc:3331
-#, fuzzy
 msgctxt "SC_OPCODE_COLUMNS"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. CuyRx
 #: sc/inc/scfuncs.hrc:3332
-#, fuzzy
 msgctxt "SC_OPCODE_COLUMNS"
 msgid "The array (reference) for which the number of columns is to be determined."
-msgstr "Потез (референца) за који се одређује број колона."
+msgstr "Низ (референца) за који се одређује број колона."
 
 #. DtZRC
 #: sc/inc/scfuncs.hrc:3338
-#, fuzzy
 msgctxt "SC_OPCODE_ROWS"
 msgid "Returns the number of rows in a reference or array."
-msgstr "Враћа број редова у референци или потезу."
+msgstr "Враћа број редова у референци или низу."
 
 #. gqr54
 #: sc/inc/scfuncs.hrc:3339
-#, fuzzy
 msgctxt "SC_OPCODE_ROWS"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. CULSp
 #: sc/inc/scfuncs.hrc:3340
-#, fuzzy
 msgctxt "SC_OPCODE_ROWS"
 msgid "The array (reference) for which the number of rows is to be determined."
-msgstr "Потез (референца) за који се одређује број редова."
+msgstr "Низ (референца) за који се одређује број редова."
 
 #. PJXet
 #: sc/inc/scfuncs.hrc:3346
@@ -15747,17 +15547,15 @@ msgstr "Вредност која треба да се нађе у првом р
 
 #. C2C5B
 #: sc/inc/scfuncs.hrc:3357
-#, fuzzy
 msgctxt "SC_OPCODE_H_LOOKUP"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. 5hKGB
 #: sc/inc/scfuncs.hrc:3358
-#, fuzzy
 msgctxt "SC_OPCODE_H_LOOKUP"
 msgid "The array or the range for the reference."
-msgstr "Потез или опсег за референцу."
+msgstr "Низ или опсег за референцу."
 
 #. PZDud
 #: sc/inc/scfuncs.hrc:3359
@@ -15768,10 +15566,9 @@ msgstr "Индекс"
 
 #. QVoEL
 #: sc/inc/scfuncs.hrc:3360
-#, fuzzy
 msgctxt "SC_OPCODE_H_LOOKUP"
 msgid "The row index in the array."
-msgstr "Индекс реда у потезу."
+msgstr "Индекс реда у низу."
 
 #. vFGhz
 #: sc/inc/scfuncs.hrc:3361
@@ -15783,7 +15580,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3362
 msgctxt "SC_OPCODE_H_LOOKUP"
 msgid "If the value is TRUE or not given, the search row of the array represents a series of ranges, and must be sorted in ascending order."
-msgstr ""
+msgstr "Уколико је вредност „TRUE“ (тачно) или није дата, ред за претрагу низа представља низове опсега и мора бити сачувана у растућем смеру."
 
 #. Qid6E
 #: sc/inc/scfuncs.hrc:3368
@@ -15808,17 +15605,15 @@ msgstr "Вредност која треба да буде нађена у пр�
 
 #. ZYwFZ
 #: sc/inc/scfuncs.hrc:3371
-#, fuzzy
 msgctxt "SC_OPCODE_V_LOOKUP"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. F33tJ
 #: sc/inc/scfuncs.hrc:3372
-#, fuzzy
 msgctxt "SC_OPCODE_V_LOOKUP"
 msgid "The array or range for referencing."
-msgstr "Потез или опсег за референцирање."
+msgstr "Низ или опсег за референцирање."
 
 #. jzXj7
 #: sc/inc/scfuncs.hrc:3373
@@ -15829,10 +15624,9 @@ msgstr "Индекс"
 
 #. xpSFz
 #: sc/inc/scfuncs.hrc:3374
-#, fuzzy
 msgctxt "SC_OPCODE_V_LOOKUP"
 msgid "Column index number in the array."
-msgstr "Број индекса колоне у потезу."
+msgstr "Број индекса колоне у низу."
 
 #. caFNm
 #: sc/inc/scfuncs.hrc:3375
@@ -15844,7 +15638,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:3376
 msgctxt "SC_OPCODE_V_LOOKUP"
 msgid "If the value is TRUE or not given, the search column of the array represents a series of ranges, and must be sorted in ascending order."
-msgstr ""
+msgstr "Уколико је вредност „TRUE“ (тачно) или није дат, колона за претрагу низа представља низ опсега и мора бити поређана у растућем редоследу."
 
 #. KZapz
 #: sc/inc/scfuncs.hrc:3382
@@ -15997,7 +15791,7 @@ msgstr "Вектор (ред или колона) из које се одређ�
 #: sc/inc/scfuncs.hrc:3418
 msgctxt "SC_OPCODE_MATCH"
 msgid "Defines a position in an array after comparing values."
-msgstr ""
+msgstr "Одређује месо у низу након поређења вредности."
 
 #. AGtj9
 #: sc/inc/scfuncs.hrc:3419
@@ -16015,17 +15809,15 @@ msgstr "Вредност за поређење."
 
 #. svVHi
 #: sc/inc/scfuncs.hrc:3421
-#, fuzzy
 msgctxt "SC_OPCODE_MATCH"
 msgid "Lookup array"
-msgstr "потез_претраге"
+msgstr "Низ за трагање"
 
 #. cdkps
 #: sc/inc/scfuncs.hrc:3422
-#, fuzzy
 msgctxt "SC_OPCODE_MATCH"
 msgid "The array (range) in which the search is made."
-msgstr "Потез (опсег) за вршење претраге."
+msgstr "Низ (опсег) унутар кога ће бити извршена претрага."
 
 #. WuncN
 #: sc/inc/scfuncs.hrc:3423
@@ -16038,7 +15830,7 @@ msgstr "Врста"
 #: sc/inc/scfuncs.hrc:3424
 msgctxt "SC_OPCODE_MATCH"
 msgid "Type can take the value 1 (first column array ascending), 0 (exact match or wildcard or regular expression match) or -1 (first column array descending) and determines the criteria to be used for comparison purposes."
-msgstr ""
+msgstr "Врста може узети вредност 1 (прва колона растућег низа), 0 (тачно поклапање знакова или регуларног израза) или -1 (прва колона опадајућег низа) и одређује критеријум који се користи за поређење."
 
 #. XJ4FS
 #: sc/inc/scfuncs.hrc:3430
@@ -18512,19 +18304,19 @@ msgstr "Позиција у тексту одакле почиње претра�
 #: sc/inc/scfuncs.hrc:4124
 msgctxt "SC_OPCODE_FOURIER"
 msgid "Computes the Discrete Fourier Transform (DFT) of an array"
-msgstr ""
+msgstr "Рачуна дискретну Фоуријерову трансформацију (DFT) од низа"
 
 #. ey2C9
 #: sc/inc/scfuncs.hrc:4125
 msgctxt "SC_OPCODE_FOURIER"
 msgid "Array"
-msgstr ""
+msgstr "Низ"
 
 #. s7m3H
 #: sc/inc/scfuncs.hrc:4126
 msgctxt "SC_OPCODE_FOURIER"
 msgid "The array whose DFT needs to be computed. The dimensions of this array can be Nx1 or Nx2 or 1xN or 2xN."
-msgstr ""
+msgstr "Низ за који треба израчунати DFT. Димензије низа могу бити Nx1, Nx2, 1xN или 2xN."
 
 #. M7L6L
 #: sc/inc/scfuncs.hrc:4127
@@ -18536,7 +18328,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:4128
 msgctxt "SC_OPCODE_FOURIER"
 msgid "Flag to indicate whether the array is grouped by columns or not (default TRUE)."
-msgstr ""
+msgstr "Ознака која указује дали је низ груписан на основу колона или не (подразумевано је „TRUE“)."
 
 #. aS9wx
 #: sc/inc/scfuncs.hrc:4129
@@ -25395,7 +25187,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/fourieranalysisdialog.ui:425
 msgctxt "fourieranalysisdialog|extended_tip|FourierAnalysisDialog"
 msgid "Produces the Fourier analysis of a data set by computing the Discrete Fourier Transform (DFT) of an input array of complex numbers using a couple of Fast Fourier Transform (FFT) algorithms."
-msgstr ""
+msgstr "Покреће Фоуријерову анализу низа података рачунајући дискретну Фоуријерову трансформацију (DFT) улазног низа комплексних бројева користећи неколико алгоритама за брзу Фоуријерову трансформацију (FFT)."
 
 #. FEwZR
 #: sc/uiconfig/scalc/ui/functionpanel.ui:63
@@ -25460,10 +25252,9 @@ msgstr "Математичке"
 
 #. RdQeE
 #: sc/uiconfig/scalc/ui/functionpanel.ui:85
-#, fuzzy
 msgctxt "functionpanel|category"
 msgid "Array"
-msgstr "Потези (матрице)"
+msgstr "Низ"
 
 #. h4kRr
 #: sc/uiconfig/scalc/ui/functionpanel.ui:86
@@ -29194,13 +28985,13 @@ msgstr "Функција"
 #: sc/uiconfig/scalc/ui/optformula.ui:339
 msgctxt "optformula|label7"
 msgid "Array co_lumn:"
-msgstr ""
+msgstr "_Колона низа:"
 
 #. 6sZYU
 #: sc/uiconfig/scalc/ui/optformula.ui:353
 msgctxt "optformula|label8"
 msgid "Array _row:"
-msgstr ""
+msgstr "_Ред низа:"
 
 #. GQdGa
 #: sc/uiconfig/scalc/ui/optformula.ui:410
@@ -35327,7 +35118,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/validationcriteriapage.ui:269
 msgctxt "validationcriteriapage|hintft"
 msgid "A valid source can only consist of a contiguous selection of rows and columns, or a formula that results in an area or array."
-msgstr ""
+msgstr "Исправни извор може садржати само континуиран избор редова и колона или формулу која враћа површ или низ."
 
 #. 9v4Ah
 #: sc/uiconfig/scalc/ui/validationcriteriapage.ui:289
