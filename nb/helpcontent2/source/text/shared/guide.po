@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-10-04 19:51+0200\n"
+"POT-Creation-Date: 2021-10-20 13:08+0200\n"
 "PO-Revision-Date: 2021-10-20 04:00+0000\n"
 "Last-Translator: Karl Morten Ramberg <karl.m.ramberg@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://translations.documentfoundation.org/projects/libo_help-master/textsharedguide/nb_NO/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565211984.000000\n"
 
 #. iharT
@@ -4048,13 +4048,31 @@ msgctxt ""
 msgid "<link href=\"text/shared/guide/convertfilters.xhp\" name=\"conversion filter names\">File Conversion Filter Names</link>"
 msgstr "<link href=\"text/shared/guide/convertfilters.xhp\" name=\"conversion filter names\">Filkonvertering Filter navn</link>"
 
-#. G5KB2
+#. KwhCE
 #: convertfilters.xhp
 msgctxt ""
 "convertfilters.xhp\n"
 "par_id581554399002498\n"
 "help.text"
-msgid "<variable id=\"variable name\">            <ahelp hid=\".\">Tables with filter names for command line document conversion.</ahelp>        </variable>"
+msgid "<variable id=\"variable name\">            <ahelp hid=\".\">Tables with filter names for <link href=\"text/shared/guide/start_parameters.xhp\" name=\"commandline\">command line</link> document conversion.</ahelp>        </variable>"
+msgstr ""
+
+#. Whybs
+#: convertfilters.xhp
+msgctxt ""
+"convertfilters.xhp\n"
+"hd_id531633524464103\n"
+"help.text"
+msgid "Usage"
+msgstr ""
+
+#. vcWaC
+#: convertfilters.xhp
+msgctxt ""
+"convertfilters.xhp\n"
+"par_id801633524474460\n"
+"help.text"
+msgid "Filter names are used when importing and exporting files in alien formats and converting files formats through the <link href=\"text/shared/guide/start_parameters.xhp\" name=\"commandline\">command line</link>."
 msgstr ""
 
 #. QAzjK
@@ -4406,6 +4424,15 @@ msgctxt ""
 "FilterName_writer_layout_dump\n"
 "help.text"
 msgid "Writer Layout XML"
+msgstr ""
+
+#. nxmVA
+#: convertfilters.xhp
+msgctxt ""
+"convertfilters.xhp\n"
+"FilterName_writer_indexing_export\n"
+"help.text"
+msgid "Writer Indexing Export XML"
 msgstr ""
 
 #. Va5zD
@@ -22966,50 +22993,77 @@ msgctxt ""
 msgid "Starting $[officename] Software From the Command Line"
 msgstr "Start av $[officename] programvaren fra kommandolinjen"
 
-#. gqJUq
+#. 7E3QP
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id3156152\n"
 "help.text"
-msgid "Under Windows, select <emph>Run</emph> from the Windows Start menu, or open a shell under Linux, *BSD, or macOS platforms."
-msgstr "I Windows velger du <emph> Kjør </emph> fra Start-menyen i Windows, eller åpner et skjerm under Linux, * BSD eller MacOS-plattformer."
+msgid "Select <emph>Run</emph> from the Windows Start menu."
+msgstr ""
 
-#. bvyAG
+#. xf2BF
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id3152472\n"
 "help.text"
-msgid "Under Windows, type the following text in the <emph>Open </emph>text field and click <emph>OK</emph>."
-msgstr "På Windows, skriv inn den følgende teksten i  <emph>Åpne</emph>-tekstfeltet og klikk på <emph>OK</emph>."
+msgid "Type the following text in the <emph>Open</emph> text field and click <emph>OK</emph>."
+msgstr ""
 
-#. hm8EE
-#: start_parameters.xhp
-msgctxt ""
-"start_parameters.xhp\n"
-"par_id3149669\n"
-"help.text"
-msgid "Under UNIX-like systems, type the following line of text, then press <emph>Return</emph>:"
-msgstr "På UNIX system, skriver du inn det følgende, og trykker deretter<emph>Enter</emph>:"
-
-#. Q5DoA
+#. nMQWE
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id3147561\n"
 "help.text"
-msgid "<switchinline select=\"sys\"><caseinline select=\"WIN\">{install}\\program\\soffice.exe {parameter}</caseinline><caseinline select=\"UNIX\">{install}/program/soffice {parameter}</caseinline></switchinline>"
-msgstr "<switchinline select=\"sys\"><caseinline select=\"WIN\">{install}\\program\\soffice.exe {parameter} </caseinline><caseinline select=\"UNIX\">{install}/program/soffice {parameter} </caseinline></switchinline>"
+msgid "{install}\\program\\soffice.exe {parameter}"
+msgstr ""
 
-#. n4TUN
+#. mmyAy
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id3153360\n"
 "help.text"
-msgid "Replace <emph>{install}</emph> with the path to your installation of $[officename] software (for example, <emph>C:\\Program Files\\Office</emph> in Windows, or <emph>~/office</emph> in UNIX)"
-msgstr "Erstatt <emph>{installer}</emph> med stien til installasjonen din av $[officename] (for eksempel <emph>c:\\Programmer\\Office</emph>, eller <emph>~/Office</emph>)"
+msgid "Replace <emph>{install}</emph> with the path to your installation of %PRODUCTNAME software (for example, <emph>C:\\Program Files\\%PRODUCTNAME</emph>"
+msgstr ""
+
+#. x5jE9
+#: start_parameters.xhp
+msgctxt ""
+"start_parameters.xhp\n"
+"par_id3157152\n"
+"help.text"
+msgid "Open a shell under Linux, *BSD, or macOS platforms."
+msgstr ""
+
+#. LEs72
+#: start_parameters.xhp
+msgctxt ""
+"start_parameters.xhp\n"
+"par_id3147669\n"
+"help.text"
+msgid "Type the following line of text, then press <emph>Return</emph>:"
+msgstr ""
+
+#. smkWS
+#: start_parameters.xhp
+msgctxt ""
+"start_parameters.xhp\n"
+"par_id3143561\n"
+"help.text"
+msgid "{install}/program/soffice {parameter}"
+msgstr ""
+
+#. BEAF7
+#: start_parameters.xhp
+msgctxt ""
+"start_parameters.xhp\n"
+"par_id3157360\n"
+"help.text"
+msgid "Replace <emph>{install}</emph> with the path to your installation of %PRODUCTNAME software (for example, <emph>/opt/%PRODUCTNAME</emph> in UNIX)"
+msgstr ""
 
 #. 4EMfS
 #: start_parameters.xhp
@@ -23236,14 +23290,14 @@ msgctxt ""
 msgid "Store soffice.bin pid to <emph>{file}</emph>."
 msgstr "Lagrer soffic e.bin pid til<emph>(fil)</emph>."
 
-#. KsDn3
+#. 8kbVi
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id3146786\n"
 "help.text"
-msgid "Sets the <emph>DISPLAY </emph>environment variable on UNIX-like platforms to the value <emph>{display}</emph>. This parameter is only supported by the start script for $[officename] software on UNIX-like platforms."
-msgstr "Setter <emph> DISPLAY </emph> miljøvariabelen på UNIX-lignende plattformer til verdien <emph> {display} </emph>. Denne parameteren støttes bare av startskriptet for $[officename] -programvare på UNIX-lignende plattformer."
+msgid "Sets the <emph>DISPLAY</emph> environment variable on UNIX-like platforms to the value <emph>{display}</emph>. This parameter is only supported by the start script for $[officename] software on UNIX-like platforms."
+msgstr ""
 
 #. 67rps
 #: start_parameters.xhp
@@ -23695,23 +23749,14 @@ msgctxt ""
 msgid "Opens and starts the following presentation documents of each immediately. Files are closed after the showing. Files other than Impress documents are opened in default mode , regardless of previous mode."
 msgstr "Åpner og starter følgende presentasjonsdokumentene straks. Filene lukkes etter visningen. Andre filer enn Impress-dokumenter åpnes i standardmodus, uavhengig av tidligere modus."
 
-#. 7TVQD
-#: start_parameters.xhp
-msgctxt ""
-"start_parameters.xhp\n"
-"par_id315053p\n"
-"help.text"
-msgid "Batch convert files (implies --headless). If --outdir isn't specified, then current working directory is used as output_dir."
-msgstr "Batch konverterer filer (krever --headless). Dersom --outdir ikke er spesifisert, blir den gjeldende mappen brukt som output_dir."
-
-#. bcvZm
+#. N3vAB
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id2016120401222926\n"
 "help.text"
-msgid "If --convert-to is used more than once, last value of OutputFileExtension[:OutputFilterName] is effective. If --outdir is used more than once, only its last value is effective. For example:"
-msgstr "Hvis -convert-to brukes mer enn en gang, er siste verdi eller OutputFileExtension [:OutputFilterName] effektiv. Hvis --outdir brukes mer enn en gang, blir bare den siste verdien brukt. For eksempel:"
+msgid "If --convert-to is used more than once, last value of OutputFileExtension[:OutputFilterName[:OutputFilterParams]] is effective. If --outdir is used more than once, only its last value is effective. For example:"
+msgstr ""
 
 #. RYx7a
 #: start_parameters.xhp
@@ -26610,6 +26655,62 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/shared/guide/xsltfilter.xhp\">About XML Filters</link>"
 msgstr "<link href=\"text/shared/guide/xsltfilter.xhp\">Om XML-filtere</link>"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3156152\n"
+#~ "help.text"
+#~ msgid "Under Windows, select <emph>Run</emph> from the Windows Start menu, or open a shell under Linux, *BSD, or macOS platforms."
+#~ msgstr "I Windows velger du <emph> Kjør </emph> fra Start-menyen i Windows, eller åpner et skjerm under Linux, * BSD eller MacOS-plattformer."
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3152472\n"
+#~ "help.text"
+#~ msgid "Under Windows, type the following text in the <emph>Open </emph>text field and click <emph>OK</emph>."
+#~ msgstr "På Windows, skriv inn den følgende teksten i  <emph>Åpne</emph>-tekstfeltet og klikk på <emph>OK</emph>."
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3149669\n"
+#~ "help.text"
+#~ msgid "Under UNIX-like systems, type the following line of text, then press <emph>Return</emph>:"
+#~ msgstr "På UNIX system, skriver du inn det følgende, og trykker deretter<emph>Enter</emph>:"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3147561\n"
+#~ "help.text"
+#~ msgid "<switchinline select=\"sys\"><caseinline select=\"WIN\">{install}\\program\\soffice.exe {parameter}</caseinline><caseinline select=\"UNIX\">{install}/program/soffice {parameter}</caseinline></switchinline>"
+#~ msgstr "<switchinline select=\"sys\"><caseinline select=\"WIN\">{install}\\program\\soffice.exe {parameter} </caseinline><caseinline select=\"UNIX\">{install}/program/soffice {parameter} </caseinline></switchinline>"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3153360\n"
+#~ "help.text"
+#~ msgid "Replace <emph>{install}</emph> with the path to your installation of $[officename] software (for example, <emph>C:\\Program Files\\Office</emph> in Windows, or <emph>~/office</emph> in UNIX)"
+#~ msgstr "Erstatt <emph>{installer}</emph> med stien til installasjonen din av $[officename] (for eksempel <emph>c:\\Programmer\\Office</emph>, eller <emph>~/Office</emph>)"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3146786\n"
+#~ "help.text"
+#~ msgid "Sets the <emph>DISPLAY </emph>environment variable on UNIX-like platforms to the value <emph>{display}</emph>. This parameter is only supported by the start script for $[officename] software on UNIX-like platforms."
+#~ msgstr "Setter <emph> DISPLAY </emph> miljøvariabelen på UNIX-lignende plattformer til verdien <emph> {display} </emph>. Denne parameteren støttes bare av startskriptet for $[officename] -programvare på UNIX-lignende plattformer."
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id315053p\n"
+#~ "help.text"
+#~ msgid "Batch convert files (implies --headless). If --outdir isn't specified, then current working directory is used as output_dir."
+#~ msgstr "Batch konverterer filer (krever --headless). Dersom --outdir ikke er spesifisert, blir den gjeldende mappen brukt som output_dir."
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id2016120401222926\n"
+#~ "help.text"
+#~ msgid "If --convert-to is used more than once, last value of OutputFileExtension[:OutputFilterName] is effective. If --outdir is used more than once, only its last value is effective. For example:"
+#~ msgstr "Hvis -convert-to brukes mer enn en gang, er siste verdi eller OutputFileExtension [:OutputFilterName] effektiv. Hvis --outdir brukes mer enn en gang, blir bare den siste verdien brukt. For eksempel:"
 
 #~ msgctxt ""
 #~ "data_im_export.xhp\n"

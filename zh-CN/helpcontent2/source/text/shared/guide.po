@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-10-04 19:51+0200\n"
+"POT-Creation-Date: 2021-10-20 13:08+0200\n"
 "PO-Revision-Date: 2021-02-17 15:04+0000\n"
 "Last-Translator: Ming Hua <plateauwolf@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.documentfoundation.org/projects/libo_help-master/textsharedguide/zh_Hans/>\n"
@@ -4048,13 +4048,31 @@ msgctxt ""
 msgid "<link href=\"text/shared/guide/convertfilters.xhp\" name=\"conversion filter names\">File Conversion Filter Names</link>"
 msgstr "<link href=\"text/shared/guide/convertfilters.xhp\" name=\"conversion filter names\">文件转换筛选器名称</link>"
 
-#. G5KB2
+#. KwhCE
 #: convertfilters.xhp
 msgctxt ""
 "convertfilters.xhp\n"
 "par_id581554399002498\n"
 "help.text"
-msgid "<variable id=\"variable name\">            <ahelp hid=\".\">Tables with filter names for command line document conversion.</ahelp>        </variable>"
+msgid "<variable id=\"variable name\">            <ahelp hid=\".\">Tables with filter names for <link href=\"text/shared/guide/start_parameters.xhp\" name=\"commandline\">command line</link> document conversion.</ahelp>        </variable>"
+msgstr ""
+
+#. Whybs
+#: convertfilters.xhp
+msgctxt ""
+"convertfilters.xhp\n"
+"hd_id531633524464103\n"
+"help.text"
+msgid "Usage"
+msgstr ""
+
+#. vcWaC
+#: convertfilters.xhp
+msgctxt ""
+"convertfilters.xhp\n"
+"par_id801633524474460\n"
+"help.text"
+msgid "Filter names are used when importing and exporting files in alien formats and converting files formats through the <link href=\"text/shared/guide/start_parameters.xhp\" name=\"commandline\">command line</link>."
 msgstr ""
 
 #. QAzjK
@@ -4406,6 +4424,15 @@ msgctxt ""
 "FilterName_writer_layout_dump\n"
 "help.text"
 msgid "Writer Layout XML"
+msgstr ""
+
+#. nxmVA
+#: convertfilters.xhp
+msgctxt ""
+"convertfilters.xhp\n"
+"FilterName_writer_indexing_export\n"
+"help.text"
+msgid "Writer Indexing Export XML"
 msgstr ""
 
 #. Va5zD
@@ -22966,50 +22993,77 @@ msgctxt ""
 msgid "Starting $[officename] Software From the Command Line"
 msgstr "从命令行启动 $[officename] 软件"
 
-#. gqJUq
+#. 7E3QP
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id3156152\n"
 "help.text"
-msgid "Under Windows, select <emph>Run</emph> from the Windows Start menu, or open a shell under Linux, *BSD, or macOS platforms."
-msgstr "在 Windows 平台下，请从 Windows「开始」菜单选择「<emph>运行</emph>」，或在 Linux、*BSD 或 macOS 平台打开 shell。"
+msgid "Select <emph>Run</emph> from the Windows Start menu."
+msgstr ""
 
-#. bvyAG
+#. xf2BF
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id3152472\n"
 "help.text"
-msgid "Under Windows, type the following text in the <emph>Open </emph>text field and click <emph>OK</emph>."
-msgstr "在 Windows 下，在「<emph>打开</emph>」文字字段中输入以下文字并点击「<emph>确定</emph>」。"
+msgid "Type the following text in the <emph>Open</emph> text field and click <emph>OK</emph>."
+msgstr ""
 
-#. hm8EE
-#: start_parameters.xhp
-msgctxt ""
-"start_parameters.xhp\n"
-"par_id3149669\n"
-"help.text"
-msgid "Under UNIX-like systems, type the following line of text, then press <emph>Return</emph>:"
-msgstr "在类 UNIX 系统中，输入下面一行文字，然后按「<emph>回车</emph>」:"
-
-#. Q5DoA
+#. nMQWE
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id3147561\n"
 "help.text"
-msgid "<switchinline select=\"sys\"><caseinline select=\"WIN\">{install}\\program\\soffice.exe {parameter}</caseinline><caseinline select=\"UNIX\">{install}/program/soffice {parameter}</caseinline></switchinline>"
-msgstr "<switchinline select=\"sys\"><caseinline select=\"WIN\">{安装位置}\\program\\soffice.exe {参数}</caseinline><caseinline select=\"UNIX\">{安装位置}/program/soffice {参数}</caseinline></switchinline>"
+msgid "{install}\\program\\soffice.exe {parameter}"
+msgstr ""
 
-#. n4TUN
+#. mmyAy
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id3153360\n"
 "help.text"
-msgid "Replace <emph>{install}</emph> with the path to your installation of $[officename] software (for example, <emph>C:\\Program Files\\Office</emph> in Windows, or <emph>~/office</emph> in UNIX)"
-msgstr "将「<emph>{安装位置}</emph>」替换为 $[officename] 软件的安装路径 (例如，Windows 平台的「<emph>C:\\Program Files\\Office</emph>」或 UNIX 平台的「<emph>~/office</emph>」)"
+msgid "Replace <emph>{install}</emph> with the path to your installation of %PRODUCTNAME software (for example, <emph>C:\\Program Files\\%PRODUCTNAME</emph>"
+msgstr ""
+
+#. x5jE9
+#: start_parameters.xhp
+msgctxt ""
+"start_parameters.xhp\n"
+"par_id3157152\n"
+"help.text"
+msgid "Open a shell under Linux, *BSD, or macOS platforms."
+msgstr ""
+
+#. LEs72
+#: start_parameters.xhp
+msgctxt ""
+"start_parameters.xhp\n"
+"par_id3147669\n"
+"help.text"
+msgid "Type the following line of text, then press <emph>Return</emph>:"
+msgstr ""
+
+#. smkWS
+#: start_parameters.xhp
+msgctxt ""
+"start_parameters.xhp\n"
+"par_id3143561\n"
+"help.text"
+msgid "{install}/program/soffice {parameter}"
+msgstr ""
+
+#. BEAF7
+#: start_parameters.xhp
+msgctxt ""
+"start_parameters.xhp\n"
+"par_id3157360\n"
+"help.text"
+msgid "Replace <emph>{install}</emph> with the path to your installation of %PRODUCTNAME software (for example, <emph>/opt/%PRODUCTNAME</emph> in UNIX)"
+msgstr ""
 
 #. 4EMfS
 #: start_parameters.xhp
@@ -23236,14 +23290,14 @@ msgctxt ""
 msgid "Store soffice.bin pid to <emph>{file}</emph>."
 msgstr "将 soffice.bin 的进程 ID (pid) 存储到「<emph>{文件}</emph>」。"
 
-#. KsDn3
+#. 8kbVi
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id3146786\n"
 "help.text"
-msgid "Sets the <emph>DISPLAY </emph>environment variable on UNIX-like platforms to the value <emph>{display}</emph>. This parameter is only supported by the start script for $[officename] software on UNIX-like platforms."
-msgstr "设置类 UNIX 平台的「<emph>DISPLAY </emph>环境变量为值 <emph>{display}</emph>」。该参数仅被类 UNIX 平台 $[officename] 软件的启动脚本支持。"
+msgid "Sets the <emph>DISPLAY</emph> environment variable on UNIX-like platforms to the value <emph>{display}</emph>. This parameter is only supported by the start script for $[officename] software on UNIX-like platforms."
+msgstr ""
 
 #. 67rps
 #: start_parameters.xhp
@@ -23695,23 +23749,14 @@ msgctxt ""
 msgid "Opens and starts the following presentation documents of each immediately. Files are closed after the showing. Files other than Impress documents are opened in default mode , regardless of previous mode."
 msgstr "打开并立即开始后续演示文稿文档的放映。放映结束后将关闭文件。除 Impress 文档外的其他文件将以默认模式打开，无论之前为何模式。"
 
-#. 7TVQD
-#: start_parameters.xhp
-msgctxt ""
-"start_parameters.xhp\n"
-"par_id315053p\n"
-"help.text"
-msgid "Batch convert files (implies --headless). If --outdir isn't specified, then current working directory is used as output_dir."
-msgstr "批量转换文件 (隐含「--headless」)。如果未指定「--outdir」，则当前工作目录将作为「输出目录」。"
-
-#. bcvZm
+#. N3vAB
 #: start_parameters.xhp
 msgctxt ""
 "start_parameters.xhp\n"
 "par_id2016120401222926\n"
 "help.text"
-msgid "If --convert-to is used more than once, last value of OutputFileExtension[:OutputFilterName] is effective. If --outdir is used more than once, only its last value is effective. For example:"
-msgstr "如果多次使用「--convert-to」，则最后一个 OutputFileExtension[:OutputFilterName] 有效。如果多次使用「--outdir」，最后一次的值有效。例如:"
+msgid "If --convert-to is used more than once, last value of OutputFileExtension[:OutputFilterName[:OutputFilterParams]] is effective. If --outdir is used more than once, only its last value is effective. For example:"
+msgstr ""
 
 #. RYx7a
 #: start_parameters.xhp
@@ -26610,6 +26655,62 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/shared/guide/xsltfilter.xhp\">About XML Filters</link>"
 msgstr "<link href=\"text/shared/guide/xsltfilter.xhp\">关于 XML 筛选器</link>"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3156152\n"
+#~ "help.text"
+#~ msgid "Under Windows, select <emph>Run</emph> from the Windows Start menu, or open a shell under Linux, *BSD, or macOS platforms."
+#~ msgstr "在 Windows 平台下，请从 Windows「开始」菜单选择「<emph>运行</emph>」，或在 Linux、*BSD 或 macOS 平台打开 shell。"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3152472\n"
+#~ "help.text"
+#~ msgid "Under Windows, type the following text in the <emph>Open </emph>text field and click <emph>OK</emph>."
+#~ msgstr "在 Windows 下，在「<emph>打开</emph>」文字字段中输入以下文字并点击「<emph>确定</emph>」。"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3149669\n"
+#~ "help.text"
+#~ msgid "Under UNIX-like systems, type the following line of text, then press <emph>Return</emph>:"
+#~ msgstr "在类 UNIX 系统中，输入下面一行文字，然后按「<emph>回车</emph>」:"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3147561\n"
+#~ "help.text"
+#~ msgid "<switchinline select=\"sys\"><caseinline select=\"WIN\">{install}\\program\\soffice.exe {parameter}</caseinline><caseinline select=\"UNIX\">{install}/program/soffice {parameter}</caseinline></switchinline>"
+#~ msgstr "<switchinline select=\"sys\"><caseinline select=\"WIN\">{安装位置}\\program\\soffice.exe {参数}</caseinline><caseinline select=\"UNIX\">{安装位置}/program/soffice {参数}</caseinline></switchinline>"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3153360\n"
+#~ "help.text"
+#~ msgid "Replace <emph>{install}</emph> with the path to your installation of $[officename] software (for example, <emph>C:\\Program Files\\Office</emph> in Windows, or <emph>~/office</emph> in UNIX)"
+#~ msgstr "将「<emph>{安装位置}</emph>」替换为 $[officename] 软件的安装路径 (例如，Windows 平台的「<emph>C:\\Program Files\\Office</emph>」或 UNIX 平台的「<emph>~/office</emph>」)"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id3146786\n"
+#~ "help.text"
+#~ msgid "Sets the <emph>DISPLAY </emph>environment variable on UNIX-like platforms to the value <emph>{display}</emph>. This parameter is only supported by the start script for $[officename] software on UNIX-like platforms."
+#~ msgstr "设置类 UNIX 平台的「<emph>DISPLAY </emph>环境变量为值 <emph>{display}</emph>」。该参数仅被类 UNIX 平台 $[officename] 软件的启动脚本支持。"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id315053p\n"
+#~ "help.text"
+#~ msgid "Batch convert files (implies --headless). If --outdir isn't specified, then current working directory is used as output_dir."
+#~ msgstr "批量转换文件 (隐含「--headless」)。如果未指定「--outdir」，则当前工作目录将作为「输出目录」。"
+
+#~ msgctxt ""
+#~ "start_parameters.xhp\n"
+#~ "par_id2016120401222926\n"
+#~ "help.text"
+#~ msgid "If --convert-to is used more than once, last value of OutputFileExtension[:OutputFilterName] is effective. If --outdir is used more than once, only its last value is effective. For example:"
+#~ msgstr "如果多次使用「--convert-to」，则最后一个 OutputFileExtension[:OutputFilterName] 有效。如果多次使用「--outdir」，最后一次的值有效。例如:"
 
 #~ msgctxt ""
 #~ "data_im_export.xhp\n"

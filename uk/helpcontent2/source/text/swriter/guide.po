@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-09-27 19:09+0200\n"
+"POT-Creation-Date: 2021-10-20 13:08+0200\n"
 "PO-Revision-Date: 2021-10-03 18:36+0000\n"
 "Last-Translator: Євген Кондратюк <lachend@gmail.com>\n"
 "Language-Team: Ukrainian <https://translations.documentfoundation.org/projects/libo_help-master/textswriterguide/uk/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565131987.000000\n"
 
 #. XAt2Y
@@ -43,14 +43,41 @@ msgctxt ""
 msgid "<variable id=\"anchor_object\"><link href=\"text/swriter/guide/anchor_object.xhp\" name=\"Positioning Objects\">Positioning Objects</link></variable>"
 msgstr "<variable id=\"anchor_object\"><link href=\"text/swriter/guide/anchor_object.xhp\" name=\"Розташування об'єктів\">Розташування об'єктів</link></variable>"
 
-#. PYtpk
+#. ZQbRG
+#: anchor_object.xhp
+msgctxt ""
+"anchor_object.xhp\n"
+"par_id181634295881266\n"
+"help.text"
+msgid "An object, such as an image, is positioned within a document using anchors attached to other elements."
+msgstr ""
+
+#. rrmfz
+#: anchor_object.xhp
+msgctxt ""
+"anchor_object.xhp\n"
+"par_id41634291500513\n"
+"help.text"
+msgid "An anchor determines the reference point for an object. The reference point could be the page or frame where the object is, a paragraph, or even a character. An image always has an anchor and therefore a reference point."
+msgstr ""
+
+#. 2Bkvg
 #: anchor_object.xhp
 msgctxt ""
 "anchor_object.xhp\n"
 "par_id3147251\n"
 "help.text"
-msgid "You can use anchors to position an object, graphic, or frame in a document. An anchored item remains in place, or moves when you modify the document. The following anchoring options are available:"
-msgstr "Щоб задати положення об'єкту, графічного об'єкту або рамки в документі, можна використовувати прив'язки. Прив'язаний елемент залишається на місці або переміщується при зміні документа. Доступні такі параметри прив'язки:"
+msgid "An anchor moves with the element it is attached to as the document is edited. An object retains it's position relative to the reference point determined by it's anchor, such that, whenever the reference point moves or changes, the object moves relative to it."
+msgstr ""
+
+#. ELWph
+#: anchor_object.xhp
+msgctxt ""
+"anchor_object.xhp\n"
+"par_id441634291545244\n"
+"help.text"
+msgid "The following anchoring options are available:"
+msgstr ""
 
 #. mWome
 #: anchor_object.xhp
@@ -79,14 +106,14 @@ msgctxt ""
 msgid "As character"
 msgstr "Як символ"
 
-#. AbQya
+#. CjGAr
 #: anchor_object.xhp
 msgctxt ""
 "anchor_object.xhp\n"
 "par_id3151181\n"
 "help.text"
-msgid "Anchors the selected item as a character in the current text. If the height of the selected item is greater than the current font size, the height of the line containing the item is increased."
-msgstr "Прив'язує вибраний елемент як символ в поточному тексті. Якщо висота вибраного елементу більша, ніж у поточного шрифту, висота рядка, що містить його, збільшується."
+msgid "Anchors the selected object as a character in the current text. If the height of the selected object is greater than the current font size, the height of the line containing the object is increased."
+msgstr ""
 
 #. SNGPX
 #: anchor_object.xhp
@@ -106,14 +133,23 @@ msgctxt ""
 msgid "To character"
 msgstr "До символу"
 
-#. qoghU
+#. 7UsDq
 #: anchor_object.xhp
 msgctxt ""
 "anchor_object.xhp\n"
 "par_id3151235\n"
 "help.text"
-msgid "Anchors the selected item to a character."
-msgstr "Прив'язує вибраний елемент до символу."
+msgid "Anchors the selected object to the paragraph that contains the character to which the anchor is attached. The reference point for the object is the start of the paragraph that contains the character."
+msgstr ""
+
+#. Awa37
+#: anchor_object.xhp
+msgctxt ""
+"anchor_object.xhp\n"
+"par_id261634292505179\n"
+"help.text"
+msgid "For example, if you split the paragraph at a point before the anchor, the reference point moves to the start of the new paragraph and the object moves relative to that point. If you join the paragraph to the one before it, the reference point moves to the start of the combined paragraph and the object moves to a position relative to that."
+msgstr ""
 
 #. ekiBZ
 #: anchor_object.xhp
@@ -124,14 +160,14 @@ msgctxt ""
 msgid "To paragraph"
 msgstr "До абзацу"
 
-#. EYzAE
+#. F7oaB
 #: anchor_object.xhp
 msgctxt ""
 "anchor_object.xhp\n"
 "par_id3155094\n"
 "help.text"
-msgid "Anchors the selected item to the current paragraph."
-msgstr "Прив'язує вибраний елемент до поточного абзацу."
+msgid "Anchors the selected object to the current paragraph."
+msgstr ""
 
 #. MWaB5
 #: anchor_object.xhp
@@ -142,14 +178,14 @@ msgctxt ""
 msgid "To page"
 msgstr "До сторінки"
 
-#. i5YBs
+#. HnFeA
 #: anchor_object.xhp
 msgctxt ""
 "anchor_object.xhp\n"
 "par_id3155144\n"
 "help.text"
-msgid "Anchors the selected item to the current page."
-msgstr "Прив'язує вибраний елемент до поточної сторінки."
+msgid "Anchors the selected object to the current page."
+msgstr ""
 
 #. ZEdjj
 #: anchor_object.xhp
@@ -169,14 +205,14 @@ msgctxt ""
 msgid "Anchors the selected item to the surrounding frame."
 msgstr "Прив'язує вибраний елемент до рамки, що його оточує."
 
-#. C2FTe
+#. qbj2P
 #: anchor_object.xhp
 msgctxt ""
 "anchor_object.xhp\n"
 "par_id3145715\n"
 "help.text"
-msgid "When you insert an object, graphic, or frame, an anchor icon appears where the item is anchored. You can position an anchored item by dragging the item to another location. To change the anchoring options of an item, right-click the item, and then choose an option from the <item type=\"menuitem\">Anchor</item> submenu."
-msgstr "Коли вставляється об'єкт, графічний об'єкт або рамка, в місці прив'язки з'являється значок прив'язки. Пов'язаний елемент можна перемістити, перетягнувши його значок. Щоб змінити параметри прив'язки елементу, натисніть на нього правою кнопкою миші і виберіть параметр з підменю <item type=\"menuitem\">Прив'язка</item>."
+msgid "When you insert an object, graphic, or frame, an anchor icon appears where the object is anchored. You can move an anchor or, keeping other object constraints in mind, position an object relative to the anchor's reference point by dragging the object. To change the anchoring options of an item, right-click the item, and then choose an option from the <item type=\"menuitem\">Anchor</item> submenu."
+msgstr ""
 
 #. EkgCv
 #: arrange_chapters.xhp
@@ -10942,14 +10978,14 @@ msgctxt ""
 msgid "Inserting and Deleting Page Breaks"
 msgstr "Вставка і видалення розривів сторінок"
 
-#. jCD3e
+#. 2xdB8
 #: page_break.xhp
 msgctxt ""
 "page_break.xhp\n"
 "bm_id3155183\n"
 "help.text"
-msgid "<bookmark_value>page breaks; inserting and deleting</bookmark_value>      <bookmark_value>inserting; page breaks</bookmark_value>      <bookmark_value>deleting;page breaks</bookmark_value>      <bookmark_value>pages; inserting/deleting page breaks</bookmark_value>      <bookmark_value>manual page breaks</bookmark_value>      <bookmark_value>tables;deleting page breaks before</bookmark_value>"
-msgstr "<bookmark_value>розриви сторінок; вставка і видалення</bookmark_value><bookmark_value>вставка; розриви сторінок</bookmark_value><bookmark_value>видалення;розриви сторінок</bookmark_value><bookmark_value>сторінки; вставка/видалення розривів сторінок</bookmark_value><bookmark_value>розриви сторінок уручну</bookmark_value><bookmark_value>таблиці; вилучення розривів сторінок перед </bookmark_value>"
+msgid "<bookmark_value>inserting; page breaks</bookmark_value>    <bookmark_value>deleting;page breaks</bookmark_value>    <bookmark_value>pages; inserting/deleting page breaks</bookmark_value>    <bookmark_value>manual page breaks</bookmark_value>    <bookmark_value>tables;deleting page breaks before</bookmark_value>"
+msgstr ""
 
 #. eCabG
 #: page_break.xhp
@@ -11050,14 +11086,23 @@ msgctxt ""
 msgid "Clear the <emph>Break</emph> check box."
 msgstr "Зніміть прапорець <emph>Розрив</emph>."
 
-#. xYtzm
+#. TS5bX
 #: page_break.xhp
 msgctxt ""
 "page_break.xhp\n"
-"par_id3154249\n"
+"hd_id151633462071702\n"
 "help.text"
-msgid "<link href=\"text/swriter/01/04010000.xhp\" name=\"Insert Break dialog\">Insert Break dialog</link>"
-msgstr "<link href=\"text/swriter/01/04010000.xhp\" name=\"Діалогове вікно Розрив\">Діалогове вікно \"Розрив\"</link>"
+msgid "To Quickly Switch Between Portrait and Landscape Page Layout"
+msgstr ""
+
+#. xLfpN
+#: page_break.xhp
+msgctxt ""
+"page_break.xhp\n"
+"par_id121633463140208\n"
+"help.text"
+msgid "Read the help page <link href=\"text/swriter/guide/pageorientation.xhp\" name=\"pageorientation_link\">Changing Page Orientation</link> to learn more about advanced configurations that can be defined concerning page orientation."
+msgstr ""
 
 #. 5GEmu
 #: pagebackground.xhp
@@ -11707,14 +11752,14 @@ msgctxt ""
 msgid "Changing Page Orientation (Landscape or Portrait)"
 msgstr "Зміна орієнтації сторінки (альбомна або книжна)"
 
-#. 3mWPy
+#. uj4MU
 #: pageorientation.xhp
 msgctxt ""
 "pageorientation.xhp\n"
 "bm_id9683828\n"
 "help.text"
-msgid "<bookmark_value>page styles;orientation/scope</bookmark_value>      <bookmark_value>page formats; changing individual pages</bookmark_value>      <bookmark_value>formatting; changing individual pages</bookmark_value>      <bookmark_value>portrait and landscape</bookmark_value>      <bookmark_value>landscape and portrait</bookmark_value>      <bookmark_value>printing;portrait/landscape format</bookmark_value>      <bookmark_value>orientation of pages</bookmark_value>      <bookmark_value>paper orientation</bookmark_value>      <bookmark_value>pages;orientation</bookmark_value>      <bookmark_value>sideways orientation of pages</bookmark_value>      <bookmark_value>scope of page styles</bookmark_value>"
-msgstr "<bookmark_value>стилі сторінки;орієнтація/область дії</bookmark_value><bookmark_value>формати сторінки; зміни окремих сторінок</bookmark_value><bookmark_value>форматування;  зміни окремих сторінок</bookmark_value><bookmark_value>книжкова і альбомна</bookmark_value><bookmark_value>альбомна і книжкова</bookmark_value><bookmark_value>друк;книжний/альбомний формат</bookmark_value><bookmark_value>орієнтація сторінок</bookmark_value><bookmark_value>орієнтація паперу</bookmark_value><bookmark_value>сторінки; орієнтація</bookmark_value><bookmark_value>бокова орієнтація сторінок</bookmark_value><bookmark_value>область дії стилів сторінок</bookmark_value>"
+msgid "<bookmark_value>page styles;orientation/scope</bookmark_value>    <bookmark_value>page formats; changing individual pages</bookmark_value>    <bookmark_value>formatting; changing individual pages</bookmark_value>    <bookmark_value>portrait and landscape</bookmark_value>    <bookmark_value>landscape and portrait</bookmark_value>    <bookmark_value>printing;portrait/landscape format</bookmark_value>    <bookmark_value>orientation of pages</bookmark_value>    <bookmark_value>paper orientation</bookmark_value>    <bookmark_value>pages;orientation</bookmark_value>    <bookmark_value>sideways orientation of pages</bookmark_value>    <bookmark_value>scope of page styles</bookmark_value>"
+msgstr ""
 
 #. ETQJ7
 #: pageorientation.xhp
@@ -11922,6 +11967,69 @@ msgctxt ""
 "help.text"
 msgid "Now you have defined a proper page style with the name \"My Landscape\". To apply the new style, double-click the \"My Landscape\" page style in the <emph>Styles</emph> window. All pages in the current scope of page styles will be changed. If you defined the \"next style\" to be a different style, only the first page of the current scope of page styles will be changed."
 msgstr "Зараз ви визначили відповідний стиль сторінки з назвою \"Моя альбомна орієнтація\". Для застосування нового стилю двічі клацніть стиль сторінки \"Моя альбомна орієнтація\" у вікні <emph>Стилі</emph>. Змінюються всі сторінки поточної області стилів сторінки. При виборі іншого стилю як \"наступний стиль\" змінюється тільки перша сторінка поточної області стилів сторінки."
+
+#. bfdGy
+#: pageorientation.xhp
+msgctxt ""
+"pageorientation.xhp\n"
+"hd_id151633462071702\n"
+"help.text"
+msgid "To Quickly Switch Between Portrait and Landscape Page Layout"
+msgstr ""
+
+#. EEW2C
+#: pageorientation.xhp
+msgctxt ""
+"pageorientation.xhp\n"
+"par_id51633462108943\n"
+"help.text"
+msgid "The default template provided by %PRODUCTNAME Writer offers several page layout styles, among which the <emph>Default Page Style</emph> has Portrait orientation and the <emph>Landscape</emph> style has landscape orientation."
+msgstr ""
+
+#. aMkMn
+#: pageorientation.xhp
+msgctxt ""
+"pageorientation.xhp\n"
+"par_id321633462254730\n"
+"help.text"
+msgid "These styles can be used to quickly switch between portrait and landscape orientation by inserting manual breaks and choosing the appropriate page styles as described below:"
+msgstr ""
+
+#. dQpYD
+#: pageorientation.xhp
+msgctxt ""
+"pageorientation.xhp\n"
+"par_id21633462303911\n"
+"help.text"
+msgid "Place the cursor where the page break is to be inserted."
+msgstr ""
+
+#. sTgyV
+#: pageorientation.xhp
+msgctxt ""
+"pageorientation.xhp\n"
+"par_id841633462305362\n"
+"help.text"
+msgid "Go to <menuitem>Insert - More Breaks - Manual Break</menuitem>. The <emph>Insert Break</emph> dialog will open."
+msgstr ""
+
+#. fpcnD
+#: pageorientation.xhp
+msgctxt ""
+"pageorientation.xhp\n"
+"par_id31633462305839\n"
+"help.text"
+msgid "Choose the option <emph>Page break</emph> and in the <emph>Page Style</emph> drop-down list choose the page style to be applied to the page after the break (Default Page Style, Landscape, etc)."
+msgstr ""
+
+#. z3nCn
+#: pageorientation.xhp
+msgctxt ""
+"pageorientation.xhp\n"
+"par_id51633462306574\n"
+"help.text"
+msgid "If the applied has to be changed again at a certain point in the document (for instance, to switch back from landscape to portrait orientation), place the cursor at this point and repeat the steps previously described."
+msgstr ""
 
 #. JyqRA
 #: pageorientation.xhp
@@ -19590,6 +19698,69 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/swriter/01/05060201.xhp\" name=\"Contour Editor\">Contour Editor</link>"
 msgstr "<link href=\"text/swriter/01/05060201.xhp\" name=\"Редактор контурів\">Редактор контурів</link>"
+
+#~ msgctxt ""
+#~ "anchor_object.xhp\n"
+#~ "par_id3147251\n"
+#~ "help.text"
+#~ msgid "You can use anchors to position an object, graphic, or frame in a document. An anchored item remains in place, or moves when you modify the document. The following anchoring options are available:"
+#~ msgstr "Щоб задати положення об'єкту, графічного об'єкту або рамки в документі, можна використовувати прив'язки. Прив'язаний елемент залишається на місці або переміщується при зміні документа. Доступні такі параметри прив'язки:"
+
+#~ msgctxt ""
+#~ "anchor_object.xhp\n"
+#~ "par_id3151181\n"
+#~ "help.text"
+#~ msgid "Anchors the selected item as a character in the current text. If the height of the selected item is greater than the current font size, the height of the line containing the item is increased."
+#~ msgstr "Прив'язує вибраний елемент як символ в поточному тексті. Якщо висота вибраного елементу більша, ніж у поточного шрифту, висота рядка, що містить його, збільшується."
+
+#~ msgctxt ""
+#~ "anchor_object.xhp\n"
+#~ "par_id3151235\n"
+#~ "help.text"
+#~ msgid "Anchors the selected item to a character."
+#~ msgstr "Прив'язує вибраний елемент до символу."
+
+#~ msgctxt ""
+#~ "anchor_object.xhp\n"
+#~ "par_id3155094\n"
+#~ "help.text"
+#~ msgid "Anchors the selected item to the current paragraph."
+#~ msgstr "Прив'язує вибраний елемент до поточного абзацу."
+
+#~ msgctxt ""
+#~ "anchor_object.xhp\n"
+#~ "par_id3155144\n"
+#~ "help.text"
+#~ msgid "Anchors the selected item to the current page."
+#~ msgstr "Прив'язує вибраний елемент до поточної сторінки."
+
+#~ msgctxt ""
+#~ "anchor_object.xhp\n"
+#~ "par_id3145715\n"
+#~ "help.text"
+#~ msgid "When you insert an object, graphic, or frame, an anchor icon appears where the item is anchored. You can position an anchored item by dragging the item to another location. To change the anchoring options of an item, right-click the item, and then choose an option from the <item type=\"menuitem\">Anchor</item> submenu."
+#~ msgstr "Коли вставляється об'єкт, графічний об'єкт або рамка, в місці прив'язки з'являється значок прив'язки. Пов'язаний елемент можна перемістити, перетягнувши його значок. Щоб змінити параметри прив'язки елементу, натисніть на нього правою кнопкою миші і виберіть параметр з підменю <item type=\"menuitem\">Прив'язка</item>."
+
+#~ msgctxt ""
+#~ "page_break.xhp\n"
+#~ "bm_id3155183\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>page breaks; inserting and deleting</bookmark_value>      <bookmark_value>inserting; page breaks</bookmark_value>      <bookmark_value>deleting;page breaks</bookmark_value>      <bookmark_value>pages; inserting/deleting page breaks</bookmark_value>      <bookmark_value>manual page breaks</bookmark_value>      <bookmark_value>tables;deleting page breaks before</bookmark_value>"
+#~ msgstr "<bookmark_value>розриви сторінок; вставка і видалення</bookmark_value><bookmark_value>вставка; розриви сторінок</bookmark_value><bookmark_value>видалення;розриви сторінок</bookmark_value><bookmark_value>сторінки; вставка/видалення розривів сторінок</bookmark_value><bookmark_value>розриви сторінок уручну</bookmark_value><bookmark_value>таблиці; вилучення розривів сторінок перед </bookmark_value>"
+
+#~ msgctxt ""
+#~ "page_break.xhp\n"
+#~ "par_id3154249\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/swriter/01/04010000.xhp\" name=\"Insert Break dialog\">Insert Break dialog</link>"
+#~ msgstr "<link href=\"text/swriter/01/04010000.xhp\" name=\"Діалогове вікно Розрив\">Діалогове вікно \"Розрив\"</link>"
+
+#~ msgctxt ""
+#~ "pageorientation.xhp\n"
+#~ "bm_id9683828\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>page styles;orientation/scope</bookmark_value>      <bookmark_value>page formats; changing individual pages</bookmark_value>      <bookmark_value>formatting; changing individual pages</bookmark_value>      <bookmark_value>portrait and landscape</bookmark_value>      <bookmark_value>landscape and portrait</bookmark_value>      <bookmark_value>printing;portrait/landscape format</bookmark_value>      <bookmark_value>orientation of pages</bookmark_value>      <bookmark_value>paper orientation</bookmark_value>      <bookmark_value>pages;orientation</bookmark_value>      <bookmark_value>sideways orientation of pages</bookmark_value>      <bookmark_value>scope of page styles</bookmark_value>"
+#~ msgstr "<bookmark_value>стилі сторінки;орієнтація/область дії</bookmark_value><bookmark_value>формати сторінки; зміни окремих сторінок</bookmark_value><bookmark_value>форматування;  зміни окремих сторінок</bookmark_value><bookmark_value>книжкова і альбомна</bookmark_value><bookmark_value>альбомна і книжкова</bookmark_value><bookmark_value>друк;книжний/альбомний формат</bookmark_value><bookmark_value>орієнтація сторінок</bookmark_value><bookmark_value>орієнтація паперу</bookmark_value><bookmark_value>сторінки; орієнтація</bookmark_value><bookmark_value>бокова орієнтація сторінок</bookmark_value><bookmark_value>область дії стилів сторінок</bookmark_value>"
 
 #~ msgctxt ""
 #~ "protection.xhp\n"
