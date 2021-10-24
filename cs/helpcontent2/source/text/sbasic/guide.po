@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-10-20 13:08+0200\n"
-"PO-Revision-Date: 2021-10-16 20:36+0000\n"
+"PO-Revision-Date: 2021-10-24 01:36+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicguide/cs/>\n"
 "Language: cs\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.8.1\n"
 "X-POOTLE-MTIME: 1565163076.000000\n"
 
 #. WcTKB
@@ -1256,7 +1256,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Reading and Writing values to Ranges"
-msgstr ""
+msgstr "Čtení a zápis hodnot do oblastí"
 
 #. 3hH3s
 #: read_write_values.xhp
@@ -1265,7 +1265,7 @@ msgctxt ""
 "hd_id461623364876507\n"
 "help.text"
 msgid "<variable id=\"title\"><link href=\"text/sbasic/guide/read_write_values.xhp\" name=\"ReadWriteValues_h1\">Reading and Writing values to Ranges</link></variable>"
-msgstr ""
+msgstr "<variable id=\"title\"><link href=\"text/sbasic/guide/read_write_values.xhp\" name=\"Čtení a zápis hodnot\">Čtení a zápis hodnot do oblastí</link></variable>"
 
 #. ZKUBE
 #: read_write_values.xhp
@@ -1274,7 +1274,7 @@ msgctxt ""
 "par_id781633210592228\n"
 "help.text"
 msgid "Macros in %PRODUCTNAME Calc often need to read and write values from/to sheets. This help page describes the various approaches to accessing sheets and ranges to read or write their values."
-msgstr ""
+msgstr "Makra v aplikaci %PRODUCTNAME často vyžadují čtení a zápis hodnot z listů a do listů. Tato stránka popisuje různé možnosti, jak k listům a oblastem přistupovat a jak z nich číst a do nich zapisovat hodnoty."
 
 #. D4ZJu
 #: read_write_values.xhp
@@ -1283,7 +1283,7 @@ msgctxt ""
 "par_id191633214565965\n"
 "help.text"
 msgid "All examples presented in this page can be implemented both in Basic and Python."
-msgstr ""
+msgstr "Všechny příklady na této stránce mohou být implementovány jak v Basicu, tak v Pythonu."
 
 #. LfNCy
 #: read_write_values.xhp
@@ -1292,7 +1292,7 @@ msgctxt ""
 "hd_id331633213558740\n"
 "help.text"
 msgid "Accessing a Single Cell"
-msgstr ""
+msgstr "Přístup k jediné buňce"
 
 #. A5M3f
 #: read_write_values.xhp
@@ -1301,7 +1301,7 @@ msgctxt ""
 "par_id731633213581386\n"
 "help.text"
 msgid "The example below enters the numeric value 123 into cell \"A1\" of the current sheet."
-msgstr ""
+msgstr "V následujícím příkladu je do buňky \"A1\" z aktuálního listu zadána číselná hodnota 123."
 
 #. G6yWX
 #: read_write_values.xhp
@@ -1310,7 +1310,7 @@ msgctxt ""
 "par_id131633213887433\n"
 "help.text"
 msgid "The same can be accomplished with Python:"
-msgstr ""
+msgstr "Téhož lze dosáhnout v Pythonu:"
 
 #. CDmg6
 #: read_write_values.xhp
@@ -1319,7 +1319,7 @@ msgctxt ""
 "par_id861633214219511\n"
 "help.text"
 msgid "Note that in the previous examples the cell is accessed using its range name \"A1\". It is also possible to access cells using indices as though the sheet were a matrix where columns and rows are indexed starting from zero."
-msgstr ""
+msgstr "V těchto příkladech je k přístupu k buňce použit název oblasti \"A1\". K buňce je možné přistupovat také pomocí indexů, které odpovídají představě, že list je matice a jeho řádky a sloupce začínají od indexu 0."
 
 #. Jja4D
 #: read_write_values.xhp
@@ -1328,7 +1328,7 @@ msgctxt ""
 "par_id161633214461067\n"
 "help.text"
 msgid "This can be done using the <literal>getCellByPosition(colIndex, rowIndex)</literal> method, that takes in a column and a row index. The example below in Basic changes the text value in cell \"C1\" (column 2, row 0)."
-msgstr ""
+msgstr "K tomu slouží metoda <literal>getCellByPosition(colIndex, rowIndex)</literal>, jejímiž argumenty jsou index sloupce a index řádku. Následující příklad v Basicu změní textovou hodnotu v buňce \"C1\" (sloupec 2, řádek 0)."
 
 #. 5tsZR
 #: read_write_values.xhp
@@ -1337,7 +1337,7 @@ msgctxt ""
 "par_id221633214713436\n"
 "help.text"
 msgid "This example can also be implemented in Python as follows:"
-msgstr ""
+msgstr "V Pythonu lze tento příklad implementovat následovně:"
 
 #. h6eq5
 #: read_write_values.xhp
@@ -1346,7 +1346,7 @@ msgctxt ""
 "par_id101633215142970\n"
 "help.text"
 msgid "The main difference between Python and Basic scripts lies on how to get access to the sheet object by using the <literal>XSCRIPTCONTEXT</literal> context variable. After that, all methods and properties are identical in Basic and Python."
-msgstr ""
+msgstr "Hlavní rozdíl mezi skripty v Pythonu a Basicu spočívá v tom, že v Pythonu se získává přístup k objektu s listem pomocí kontextové proměnné <literal>XSCRIPTCONTEXT</literal>. Poté jsou všechny metody a vlastnosti v obou jazycích stejné."
 
 #. PmETF
 #: read_write_values.xhp
@@ -1355,7 +1355,7 @@ msgctxt ""
 "hd_id411633215666257\n"
 "help.text"
 msgid "Values, Strings and Formulas"
-msgstr ""
+msgstr "Hodnoty, řetězce a vzorce"
 
 #. MBHDg
 #: read_write_values.xhp
@@ -1364,7 +1364,7 @@ msgctxt ""
 "par_id861633215682610\n"
 "help.text"
 msgid "Calc cells can have three types of values: numeric, strings and formulas. Each type has its own set and get methods:"
-msgstr ""
+msgstr "Buňky Calcu mohou obsahovat tři typu hodnot: čísla, řetězce a vzorce. Každý typ má vlastní metody set a get:"
 
 #. RXE76
 #: read_write_values.xhp
@@ -1373,7 +1373,7 @@ msgctxt ""
 "par_id191633215791905\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. rYCuZ
 #: read_write_values.xhp
@@ -1382,7 +1382,7 @@ msgctxt ""
 "par_id181633215791905\n"
 "help.text"
 msgid "Numeric"
-msgstr ""
+msgstr "Číslo"
 
 #. ywHfC
 #: read_write_values.xhp
@@ -1391,7 +1391,7 @@ msgctxt ""
 "par_id961633215932180\n"
 "help.text"
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #. KH9Ya
 #: read_write_values.xhp
@@ -1400,7 +1400,7 @@ msgctxt ""
 "par_id651633215984116\n"
 "help.text"
 msgid "Formula"
-msgstr ""
+msgstr "Vzorec"
 
 #. nGhov
 #: read_write_values.xhp
@@ -1409,7 +1409,7 @@ msgctxt ""
 "par_id21633215845395\n"
 "help.text"
 msgid "Dates and currency values are considered as numeric values in Calc."
-msgstr ""
+msgstr "Hodnoty data a měny jsou Calcu považovány za číselné."
 
 #. t87Qx
 #: read_write_values.xhp
@@ -1418,7 +1418,7 @@ msgctxt ""
 "par_id221633216111353\n"
 "help.text"
 msgid "The following example enters numeric values into cells \"A1\" and \"A2\" and inserts a formula in cell \"A3\" that returns the multiplication of these values."
-msgstr ""
+msgstr "V následujícím příkladu jsou do buněk \"A1\" a \"A2\" zadány číselné hodnoty a do buňky \"A3\" je vložen vzorec, který vrátí součin těchto hodnot."
 
 #. r6BG6
 #: read_write_values.xhp
@@ -1427,7 +1427,7 @@ msgctxt ""
 "hd_id321633216630043\n"
 "help.text"
 msgid "Accessing Ranges in Different Sheets"
-msgstr ""
+msgstr "Přístup k oblastem na jiných listech"
 
 #. TFU8U
 #: read_write_values.xhp
@@ -1436,7 +1436,7 @@ msgctxt ""
 "par_id371633216672570\n"
 "help.text"
 msgid "The previous examples used only the active sheet to perform operations. It is possible to access cell ranges in different sheets by their indices or names."
-msgstr ""
+msgstr "V předchozí příklady pracovaly pouze s aktivním listem. Je však možné přistupovat k oblastem buněk na jiných listech, a to pomocí jejich indexů nebo názvů."
 
 #. c3yhF
 #: read_write_values.xhp
@@ -1445,7 +1445,7 @@ msgctxt ""
 "par_id861633216843382\n"
 "help.text"
 msgid "The example below enters a numeric value into cell \"A1\" of the sheet named \"Sheet2\"."
-msgstr ""
+msgstr "V následujícím příkladu je zadána číselná hodnota do buňky \"A1\" na listu pojmenovaném \"Sheet2\"."
 
 #. GpnNS
 #: read_write_values.xhp
@@ -1454,7 +1454,7 @@ msgctxt ""
 "par_id611633217090743\n"
 "help.text"
 msgid "This example can also be implemented in Python as follows:"
-msgstr ""
+msgstr "V Pythonu lze tento příklad implementovat následovně:"
 
 #. xGQ3k
 #: read_write_values.xhp
@@ -1463,7 +1463,7 @@ msgctxt ""
 "par_id631633217279518\n"
 "help.text"
 msgid "Sheets can also be accessed using zero-based indices indicating which sheet considering the order they appear in the Calc file."
-msgstr ""
+msgstr "K listům lze přistupovat také pomocí indexů (začínajících od nuly), které označují pořadí listu v souboru Calcu."
 
 #. tSo3e
 #: read_write_values.xhp
@@ -1472,7 +1472,7 @@ msgctxt ""
 "par_id291633264880172\n"
 "help.text"
 msgid "In Basic, instead of using the <literal>getByName</literal> method, use <literal>Sheets(sheetIndex)</literal> as shown next:"
-msgstr ""
+msgstr "V Basicu použijte místo metody <literal>getByName</literal> <literal>Sheets(sheetIndex)</literal>, jak ukazuje následující příklad:"
 
 #. svDuj
 #: read_write_values.xhp
@@ -1481,7 +1481,7 @@ msgctxt ""
 "par_id891633265000047\n"
 "help.text"
 msgid "This can be done in a similar fashion in Python:"
-msgstr ""
+msgstr "Podobným způsobem lze totéž provést v Pythonu:"
 
 #. 6qHAn
 #: read_write_values.xhp
@@ -1490,7 +1490,7 @@ msgctxt ""
 "hd_id451633265241066\n"
 "help.text"
 msgid "Using the ScriptForge Library"
-msgstr ""
+msgstr "Pomocí knihovny ScriptForge"
 
 #. 8CkSe
 #: read_write_values.xhp
@@ -1499,7 +1499,7 @@ msgctxt ""
 "par_id731633265268585\n"
 "help.text"
 msgid "The Calc service of the ScriptForge library can be used to get and set cell values as follows:"
-msgstr ""
+msgstr "K získávání a nastavování hodnot buněk lze použít službu Calc knihovny ScriptForge, a to následovně:"
 
 #. DCJ2E
 #: read_write_values.xhp
@@ -1508,7 +1508,7 @@ msgctxt ""
 "par_id551633265526538\n"
 "help.text"
 msgid "' Loads the ScriptForge library"
-msgstr ""
+msgstr "' Načte knihovnu ScriptForge"
 
 #. hgDyM
 #: read_write_values.xhp
@@ -1517,7 +1517,7 @@ msgctxt ""
 "par_id581633265527001\n"
 "help.text"
 msgid "' Gets access to the current Calc document"
-msgstr ""
+msgstr "' Získá přístup k aktuálnímu dokumentu Calcu"
 
 #. Gw4KG
 #: read_write_values.xhp
@@ -1526,7 +1526,7 @@ msgctxt ""
 "par_id751633265527427\n"
 "help.text"
 msgid "' Sets the value of cells A1 and A2"
-msgstr ""
+msgstr "' Nastaví hodnoty buněk A1 a A2"
 
 #. VUWVE
 #: read_write_values.xhp
@@ -1535,7 +1535,7 @@ msgctxt ""
 "par_id781633267324929\n"
 "help.text"
 msgid "The <literal>setValue</literal> method can be used to set both numeric and text values. To set a cell formula, use the <literal>setFormula</literal> method."
-msgstr ""
+msgstr "Metodu <literal>setValue</literal> lze použít pro zadání číselných i textových hodnot. Chcete-li nastavit vzorec, použijte metodu <literal>setFormula</literal>."
 
 #. jPRii
 #: read_write_values.xhp
@@ -1544,7 +1544,7 @@ msgctxt ""
 "par_id251633265634883\n"
 "help.text"
 msgid "With the Calc service, getting and setting cell values can be done with a single line of code. The example below gets the value from cell \"A1\" and shows it on a message box."
-msgstr ""
+msgstr "Pomocí služby Calc je možné získávat a nastavovat hodnoty buněk jediným řádkem kódu. V následujícím příkladu se získá hodnota buňky \"A1\" a zobrazí se jako zpráva."
 
 #. NzUg4
 #: read_write_values.xhp
@@ -1553,7 +1553,7 @@ msgctxt ""
 "par_id521633608223310\n"
 "help.text"
 msgid "The ScriptForge library also makes it simpler to access ranges in different sheets, as demonstrated in the example below:"
-msgstr ""
+msgstr "Knihovna ScriptForge rovněž zjednodušuje přístup k oblastem na jiných listech, jak ukazuje následující příklad:"
 
 #. CCeEh
 #: read_write_values.xhp
@@ -1562,7 +1562,7 @@ msgctxt ""
 "bas_id521633608366292\n"
 "help.text"
 msgid "' Gets cell \"A1\" from the sheet named \"Sheet1\""
-msgstr ""
+msgstr "' Získá hodnotu buňky \"A1\" z listu pojmenovaného \"Sheet1\""
 
 #. qUTqA
 #: read_write_values.xhp
@@ -1571,7 +1571,7 @@ msgctxt ""
 "bas_id661633608366484\n"
 "help.text"
 msgid "' Gets cell \"B3\" from the sheet named \"Sheet2\""
-msgstr ""
+msgstr "' Získá hodnotu buňky \"B3\" z listu pojmenovaného \"Sheet2\""
 
 #. mCX5W
 #: read_write_values.xhp
@@ -1580,7 +1580,7 @@ msgctxt ""
 "bas_id501633608516381\n"
 "help.text"
 msgid "' Places the result into cell \"A1\" of sheet \"Report\""
-msgstr ""
+msgstr "' Umístí výsledek do buňky \"A1\" na listu \"Report\""
 
 #. ZdkEz
 #: read_write_values.xhp
@@ -1589,7 +1589,7 @@ msgctxt ""
 "par_id431633266057163\n"
 "help.text"
 msgid "The examples above can also be implemented in Python as follows:"
-msgstr ""
+msgstr "V Pythonu lze tyto příklady implementovat následovně:"
 
 #. ayg6P
 #: sample_code.xhp
