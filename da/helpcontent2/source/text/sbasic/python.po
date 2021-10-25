@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-10-20 13:08+0200\n"
+"POT-Creation-Date: 2021-10-25 12:48+0200\n"
 "PO-Revision-Date: 2021-10-04 18:05+0000\n"
 "Last-Translator: SteenRønnow <steen.roennow@mail.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicpython/da/>\n"
@@ -583,14 +583,14 @@ msgctxt ""
 msgid "Monitoring Document Events"
 msgstr ""
 
-#. SZGH4
+#. VwSwW
 #: python_document_events.xhp
 msgctxt ""
 "python_document_events.xhp\n"
 "N0530\n"
 "help.text"
-msgid "Monitoring is illustrated herewith for Basic and Python languages using object-oriented programming. Assigning <literal>OnLoad</literal> script, to the <emph>Open Document</emph> event, suffices to initiate and terminate document event monitoring. <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab is used to assign either scripts."
-msgstr "Overvågning illustreres hermed for sprogene Basic and Python ved hjælp af objekt-orienteret programmering. Tildeling af scriptet <literal>OnLoad</literal> (Ved indlæsning) til hændelsen <emph>Open Document</emph> (Åbn dokument) er tilstrækkeligt tlil at starte og afslutte overvågning af dokumenthændelser. Menuen <menuitem>Funktioner ▸ Tilpas</menuitem> fanebladet <menuitem>Hændelser</menuitem> bruges til at tildele et script."
+msgid "Monitoring is illustrated herewith for Basic and Python languages using object-oriented programming. Assigning <literal>OnLoad</literal> script, to the <menuitem>Open Document</menuitem> event, suffices to initiate and terminate document event monitoring. <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab is used to assign either scripts."
+msgstr ""
 
 #. KgWvt
 #: python_document_events.xhp
@@ -628,14 +628,14 @@ msgctxt ""
 msgid "Events monitoring starts from object instantiation and ultimately stops when Python releases the object. Raised events are reported using <literal>Access2Base</literal> console."
 msgstr "Overvågning af hændelser begynder med objektinstantiering og slutter i sidste ende, når Python frigiver objektet. Iværksatte hændelser rapporteres med <literal>Access2Base</literal> konsolen."
 
-#. D2HXF
+#. mCDwK
 #: python_document_events.xhp
 msgctxt ""
 "python_document_events.xhp\n"
 "N0534\n"
 "help.text"
-msgid "<literal>OnLoad</literal> and <literal>OnUnload</literal> events can be used to respectively set and unset Python programs path. They are described as <emph>Open document</emph> and <emph>Document closed</emph>."
-msgstr "Hændelserne <literal>OnLoad</literal> (ved indlæsning) og <literal>OnUnload</literal> (ved udlæsning) kan bruges til henholdvis at sætte og deaktivere stien til Python-programmer. De beskrives som <emph>Open document</emph> (Åbn dokument) og <emph>Document closed</emph> (dokument lukket)."
+msgid "<literal>OnLoad</literal> and <literal>OnUnload</literal> events can be used to respectively set and unset Python programs path. They are described as <menuitem>Open document</menuitem> and <menuitem>Document closed</menuitem>."
+msgstr ""
 
 #. AdYNb
 #: python_document_events.xhp
@@ -808,6 +808,15 @@ msgctxt ""
 msgid "def OnLoad(*args):  # 'Open Document' event"
 msgstr "def OnLoad(*args):  # 'Åbn dokument'-hændelse"
 
+#. PmjAB
+#: python_document_events.xhp
+msgctxt ""
+"python_document_events.xhp\n"
+"N0602\n"
+"help.text"
+msgid "listener = UiDocument()  # Initiates listening"
+msgstr ""
+
 #. CkJg4
 #: python_document_events.xhp
 msgctxt ""
@@ -871,6 +880,15 @@ msgctxt ""
 msgid "\"\"\" Display console content/dialog \"\"\""
 msgstr "\"\"\" Vis konsolindhold/-dialog \"\"\""
 
+#. mPJ3B
+#: python_document_events.xhp
+msgctxt ""
+"python_document_events.xhp\n"
+"N0638\n"
+"help.text"
+msgid "''' Grab application-based Basic script '''"
+msgstr ""
+
 #. 2dfeg
 #: python_document_events.xhp
 msgctxt ""
@@ -880,14 +898,14 @@ msgctxt ""
 msgid "Mind the misspelled <literal>documentEventOccured</literal> method that inherits a typo from %PRODUCTNAME Application Programming Interface (API)."
 msgstr "Pas på den fejlstavede <literal>documentEventOccured</literal>-metode, som arver en trykfejl fra %PRODUCTNAME API (Applikations programmerings brugerflade)"
 
-#. CuAga
+#. qNVD4
 #: python_document_events.xhp
 msgctxt ""
 "python_document_events.xhp\n"
 "N0648\n"
 "help.text"
-msgid "<emph>Start application</emph> and <emph>Close application</emph> events can respectively be used to set and to unset Python path for user scripts or %PRODUCTNAME scripts. In a similar fashion, document based Python libraries or modules can be loaded and released using <emph>Open document</emph> and <emph>Document closed</emph> events. Refer to <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Importing Python Modules</link> for more information."
-msgstr "Hændelserne <emph>Start program</emph> og <emph>Luk program</emph> kan bruges til henholdsvis at sætte og deaktivere Python-stien til bruger-scripts eller %PRODUCTNAME-scripts. Ligeledes kan dokumenter, baserede på Python-biblioteker eller -moduler ind- og udlæses ved hjælp af hændelserne <emph>Open document</emph> (åbn dokument) og <emph>Document closed</emph> (Dokument lukket). Se flere oplysninger i <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Import af Python Moduler</link>."
+msgid "<menuitem>Start application</menuitem> and <menuitem>Close application</menuitem> events can respectively be used to set and to unset Python path for user scripts or %PRODUCTNAME scripts. In a similar fashion, document based Python libraries or modules can be loaded and released using <menuitem>Open document</menuitem> and <menuitem>Document closed</menuitem> events. Refer to <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Importing Python Modules</link> for more information."
+msgstr ""
 
 #. 8pHCg
 #: python_document_events.xhp
@@ -3615,6 +3633,27 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/03/sf_exception.html?#PythonShell\" name=\"PythonShell method\"><literal>PythonShell</literal></link> function in <link href=\"text/sbasic/shared/03/sf_exception.html\" name=\"ScriptForge.Exception service\"><literal>ScriptForge.Exception</literal></link> service"
 msgstr ""
+
+#~ msgctxt ""
+#~ "python_document_events.xhp\n"
+#~ "N0530\n"
+#~ "help.text"
+#~ msgid "Monitoring is illustrated herewith for Basic and Python languages using object-oriented programming. Assigning <literal>OnLoad</literal> script, to the <emph>Open Document</emph> event, suffices to initiate and terminate document event monitoring. <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab is used to assign either scripts."
+#~ msgstr "Overvågning illustreres hermed for sprogene Basic and Python ved hjælp af objekt-orienteret programmering. Tildeling af scriptet <literal>OnLoad</literal> (Ved indlæsning) til hændelsen <emph>Open Document</emph> (Åbn dokument) er tilstrækkeligt tlil at starte og afslutte overvågning af dokumenthændelser. Menuen <menuitem>Funktioner ▸ Tilpas</menuitem> fanebladet <menuitem>Hændelser</menuitem> bruges til at tildele et script."
+
+#~ msgctxt ""
+#~ "python_document_events.xhp\n"
+#~ "N0534\n"
+#~ "help.text"
+#~ msgid "<literal>OnLoad</literal> and <literal>OnUnload</literal> events can be used to respectively set and unset Python programs path. They are described as <emph>Open document</emph> and <emph>Document closed</emph>."
+#~ msgstr "Hændelserne <literal>OnLoad</literal> (ved indlæsning) og <literal>OnUnload</literal> (ved udlæsning) kan bruges til henholdvis at sætte og deaktivere stien til Python-programmer. De beskrives som <emph>Open document</emph> (Åbn dokument) og <emph>Document closed</emph> (dokument lukket)."
+
+#~ msgctxt ""
+#~ "python_document_events.xhp\n"
+#~ "N0648\n"
+#~ "help.text"
+#~ msgid "<emph>Start application</emph> and <emph>Close application</emph> events can respectively be used to set and to unset Python path for user scripts or %PRODUCTNAME scripts. In a similar fashion, document based Python libraries or modules can be loaded and released using <emph>Open document</emph> and <emph>Document closed</emph> events. Refer to <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Importing Python Modules</link> for more information."
+#~ msgstr "Hændelserne <emph>Start program</emph> og <emph>Luk program</emph> kan bruges til henholdsvis at sætte og deaktivere Python-stien til bruger-scripts eller %PRODUCTNAME-scripts. Ligeledes kan dokumenter, baserede på Python-biblioteker eller -moduler ind- og udlæses ved hjælp af hændelserne <emph>Open document</emph> (åbn dokument) og <emph>Document closed</emph> (Dokument lukket). Se flere oplysninger i <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Import af Python Moduler</link>."
 
 #~ msgctxt ""
 #~ "python_shell.xhp\n"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-10-20 13:08+0200\n"
+"POT-Creation-Date: 2021-10-25 12:48+0200\n"
 "PO-Revision-Date: 2021-10-24 01:36+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicpython/cs/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565688717.000000\n"
 
 #. naSFZ
@@ -583,14 +583,14 @@ msgctxt ""
 msgid "Monitoring Document Events"
 msgstr "Sledování událostí v dokumentu"
 
-#. SZGH4
+#. VwSwW
 #: python_document_events.xhp
 msgctxt ""
 "python_document_events.xhp\n"
 "N0530\n"
 "help.text"
-msgid "Monitoring is illustrated herewith for Basic and Python languages using object-oriented programming. Assigning <literal>OnLoad</literal> script, to the <emph>Open Document</emph> event, suffices to initiate and terminate document event monitoring. <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab is used to assign either scripts."
-msgstr "Sledování je níže znázorněno pro jazyky Basic a Python a objektově orientované programování. Přiřadíte-li události <emph>Otevřít dokument</emph> skript <literal>OnLoad</literal>, můžete sledovat události inicializace a zavření dokumentu. K přiřazení skriptů slouží karta <menuitem>Události</menuitem> z nabídky <menuitem>Nástroje – Přizpůsobit</menuitem>."
+msgid "Monitoring is illustrated herewith for Basic and Python languages using object-oriented programming. Assigning <literal>OnLoad</literal> script, to the <menuitem>Open Document</menuitem> event, suffices to initiate and terminate document event monitoring. <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab is used to assign either scripts."
+msgstr ""
 
 #. KgWvt
 #: python_document_events.xhp
@@ -628,14 +628,14 @@ msgctxt ""
 msgid "Events monitoring starts from object instantiation and ultimately stops when Python releases the object. Raised events are reported using <literal>Access2Base</literal> console."
 msgstr "Sledování událostí začíná při vytvoření instance objektu a končí, když je objekt v Pythonu uvolněn. Vyvolané události jsou zaznamenávány pomocí konzole <literal>Access2Base</literal>."
 
-#. D2HXF
+#. mCDwK
 #: python_document_events.xhp
 msgctxt ""
 "python_document_events.xhp\n"
 "N0534\n"
 "help.text"
-msgid "<literal>OnLoad</literal> and <literal>OnUnload</literal> events can be used to respectively set and unset Python programs path. They are described as <emph>Open document</emph> and <emph>Document closed</emph>."
-msgstr "Události <literal>OnLoad</literal> a <literal>OnUnload</literal> můžete využít k tomu, abyste nastavili, případně zrušili nastavení cesty k programům Pythonu. Tyto události jsou uváděny pod názvy <emph>Otevřít dokument</emph> a <emph>Dokument zavřen</emph>."
+msgid "<literal>OnLoad</literal> and <literal>OnUnload</literal> events can be used to respectively set and unset Python programs path. They are described as <menuitem>Open document</menuitem> and <menuitem>Document closed</menuitem>."
+msgstr ""
 
 #. AdYNb
 #: python_document_events.xhp
@@ -808,6 +808,15 @@ msgctxt ""
 msgid "def OnLoad(*args):  # 'Open Document' event"
 msgstr "def OnLoad(*args):  # Událost 'Otevřít dokument'"
 
+#. PmjAB
+#: python_document_events.xhp
+msgctxt ""
+"python_document_events.xhp\n"
+"N0602\n"
+"help.text"
+msgid "listener = UiDocument()  # Initiates listening"
+msgstr ""
+
 #. CkJg4
 #: python_document_events.xhp
 msgctxt ""
@@ -871,6 +880,15 @@ msgctxt ""
 msgid "\"\"\" Display console content/dialog \"\"\""
 msgstr "\"\"\" Zobrazí obsah konzole \"\"\""
 
+#. mPJ3B
+#: python_document_events.xhp
+msgctxt ""
+"python_document_events.xhp\n"
+"N0638\n"
+"help.text"
+msgid "''' Grab application-based Basic script '''"
+msgstr ""
+
 #. 2dfeg
 #: python_document_events.xhp
 msgctxt ""
@@ -880,14 +898,14 @@ msgctxt ""
 msgid "Mind the misspelled <literal>documentEventOccured</literal> method that inherits a typo from %PRODUCTNAME Application Programming Interface (API)."
 msgstr "Název metody <literal>documentEventOccured</literal> obsahuje pravopisnou chybu, protože stejná chyba se nachází v rozhraní pro programování aplikací (API) pro %PRODUCTNAME."
 
-#. CuAga
+#. qNVD4
 #: python_document_events.xhp
 msgctxt ""
 "python_document_events.xhp\n"
 "N0648\n"
 "help.text"
-msgid "<emph>Start application</emph> and <emph>Close application</emph> events can respectively be used to set and to unset Python path for user scripts or %PRODUCTNAME scripts. In a similar fashion, document based Python libraries or modules can be loaded and released using <emph>Open document</emph> and <emph>Document closed</emph> events. Refer to <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Importing Python Modules</link> for more information."
-msgstr "Události <emph>Spustit aplikaci</emph>  a <emph>Ukončit aplikaci</emph> je možné použít k tomu, abyste nastavili či zrušili nastavení cesty k Pythonu pro uživatelské skripty nebo skripty %PRODUCTNAME. Podobným způsobem, pomocí událostí <emph>Otevřít dokument</emph> a <emph>Dokument zavřen</emph>, lze načítat a uvolňovat knihovny nebo moduly Pythonu vložené v dokumentu. Další informace naleznete v části <link href=\"text/sbasic/python/python_import.xhp\" name=\"Import modulů Pythonu\">Import modulů Pythonu</link>."
+msgid "<menuitem>Start application</menuitem> and <menuitem>Close application</menuitem> events can respectively be used to set and to unset Python path for user scripts or %PRODUCTNAME scripts. In a similar fashion, document based Python libraries or modules can be loaded and released using <menuitem>Open document</menuitem> and <menuitem>Document closed</menuitem> events. Refer to <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Importing Python Modules</link> for more information."
+msgstr ""
 
 #. 8pHCg
 #: python_document_events.xhp
@@ -3615,6 +3633,27 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/03/sf_exception.html?#PythonShell\" name=\"PythonShell method\"><literal>PythonShell</literal></link> function in <link href=\"text/sbasic/shared/03/sf_exception.html\" name=\"ScriptForge.Exception service\"><literal>ScriptForge.Exception</literal></link> service"
 msgstr "Funkce <link href=\"text/sbasic/shared/03/sf_exception.html?#PythonShell\" name=\"Metoda PythonShell\"><literal>PythonShell</literal></link> ve službě <link href=\"text/sbasic/shared/03/sf_exception.html\" name=\"Služba ScriptForge.Exception\"><literal>ScriptForge.Exception</literal></link>"
+
+#~ msgctxt ""
+#~ "python_document_events.xhp\n"
+#~ "N0530\n"
+#~ "help.text"
+#~ msgid "Monitoring is illustrated herewith for Basic and Python languages using object-oriented programming. Assigning <literal>OnLoad</literal> script, to the <emph>Open Document</emph> event, suffices to initiate and terminate document event monitoring. <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab is used to assign either scripts."
+#~ msgstr "Sledování je níže znázorněno pro jazyky Basic a Python a objektově orientované programování. Přiřadíte-li události <emph>Otevřít dokument</emph> skript <literal>OnLoad</literal>, můžete sledovat události inicializace a zavření dokumentu. K přiřazení skriptů slouží karta <menuitem>Události</menuitem> z nabídky <menuitem>Nástroje – Přizpůsobit</menuitem>."
+
+#~ msgctxt ""
+#~ "python_document_events.xhp\n"
+#~ "N0534\n"
+#~ "help.text"
+#~ msgid "<literal>OnLoad</literal> and <literal>OnUnload</literal> events can be used to respectively set and unset Python programs path. They are described as <emph>Open document</emph> and <emph>Document closed</emph>."
+#~ msgstr "Události <literal>OnLoad</literal> a <literal>OnUnload</literal> můžete využít k tomu, abyste nastavili, případně zrušili nastavení cesty k programům Pythonu. Tyto události jsou uváděny pod názvy <emph>Otevřít dokument</emph> a <emph>Dokument zavřen</emph>."
+
+#~ msgctxt ""
+#~ "python_document_events.xhp\n"
+#~ "N0648\n"
+#~ "help.text"
+#~ msgid "<emph>Start application</emph> and <emph>Close application</emph> events can respectively be used to set and to unset Python path for user scripts or %PRODUCTNAME scripts. In a similar fashion, document based Python libraries or modules can be loaded and released using <emph>Open document</emph> and <emph>Document closed</emph> events. Refer to <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Importing Python Modules</link> for more information."
+#~ msgstr "Události <emph>Spustit aplikaci</emph>  a <emph>Ukončit aplikaci</emph> je možné použít k tomu, abyste nastavili či zrušili nastavení cesty k Pythonu pro uživatelské skripty nebo skripty %PRODUCTNAME. Podobným způsobem, pomocí událostí <emph>Otevřít dokument</emph> a <emph>Dokument zavřen</emph>, lze načítat a uvolňovat knihovny nebo moduly Pythonu vložené v dokumentu. Další informace naleznete v části <link href=\"text/sbasic/python/python_import.xhp\" name=\"Import modulů Pythonu\">Import modulů Pythonu</link>."
 
 #~ msgctxt ""
 #~ "python_shell.xhp\n"
