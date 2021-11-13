@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-10-25 12:48+0200\n"
-"PO-Revision-Date: 2021-11-12 11:37+0000\n"
+"PO-Revision-Date: 2021-11-13 08:45+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicpython/el/>\n"
 "Language: el\n"
@@ -923,7 +923,7 @@ msgctxt ""
 "bm_id591622446367707\n"
 "help.text"
 msgid "<bookmark_value>API;GlobalScope.BasicLibraries</bookmark_value>        <bookmark_value>Tools;Strings</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>API;GlobalScope.BasicLibraries</bookmark_value><bookmark_value>Εργαλεία;Συμβολοσειρές</bookmark_value>"
 
 #. D5Lsi
 #: python_document_events.xhp
@@ -932,7 +932,7 @@ msgctxt ""
 "N0650\n"
 "help.text"
 msgid "Using <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab, the <menuitem>Open document</menuitem> event fires a <literal>ConsoleLogger</literal> initialisation. <literal>_documentEventOccured</literal> routine - set by <literal>ConsoleLogger</literal> - serves as a unique entry point to trap all document events."
-msgstr ""
+msgstr "Χρησιμοποιώντας την καρτέλα <menuitem>Εργαλεία - Προσαρμογή</menuitem> μενού <menuitem>Συμβάντα</menuitem>, το συμβάν <menuitem>Άνοιγμα εγγράφου</menuitem> ενεργοποιεί μια προετοιμασία <literal>ConsoleLogger</literal>. Η ρουτίνα <literal>_documentEventOccured</literal> - που ορίζεται από το <literal>ConsoleLogger</literal> - χρησιμεύει ως μοναδικό σημείο εισόδου για την παγίδευση όλων των συμβάντων του εγγράφου."
 
 #. gGpkW
 #: python_document_events.xhp
@@ -941,7 +941,7 @@ msgctxt ""
 "hd_id421630510141729\n"
 "help.text"
 msgid "controller.Events module"
-msgstr ""
+msgstr "controller.Events module"
 
 #. rJX92
 #: python_document_events.xhp
@@ -950,7 +950,7 @@ msgctxt ""
 "bas_id431630567378062\n"
 "help.text"
 msgid "Global _obj As Object ' controller.ConsoleLogger instance"
-msgstr ""
+msgstr "Global _obj As Object ' στιγμιότυπο controller.ConsoleLogger"
 
 #. PfRq6
 #: python_document_events.xhp
@@ -968,7 +968,7 @@ msgctxt ""
 "bas_id371630509596674\n"
 "help.text"
 msgid "''' ConsoleLogger unique entry point '''"
-msgstr ""
+msgstr "''' Μοναδικό σημείο εισόδου ConsoleLogger '''"
 
 #. upGWH
 #: python_document_events.xhp
@@ -977,7 +977,7 @@ msgctxt ""
 "hd_id721630511986813\n"
 "help.text"
 msgid "controller.ConsoleLogger class module"
-msgstr ""
+msgstr "λειτουργική μονάδα κλάσης controller.ConsoleLogger"
 
 #. AN8tn
 #: python_document_events.xhp
@@ -986,7 +986,7 @@ msgctxt ""
 "par_id901630509435225\n"
 "help.text"
 msgid "Events monitoring starts from the moment a <literal>ConsoleLogger</literal> object is instantiated and ultimately stops upon document closure. <literal>StartAdapter</literal> routine loads necessary Basic libraries, while caught events are reported using <literal>Access2Base.Trace</literal> module."
-msgstr ""
+msgstr "Η παρακολούθηση συμβάντων ξεκινά από τη στιγμή που δημιουργείται ένα αντικείμενο <literal>ConsoleLogger</literal> και σταματάει τελικά με το κλείσιμο του εγγράφου. Η ρουτίνα <literal>StartAdapter</literal> φορτώνει τις απαραίτητες βιβλιοθήκες Basic, ενώ τα συμβάντα που συλλαμβάνονται αναφέρονται μέσω της λειτουργικής μονάδας <literal>Access2Base.Trace</literal>."
 
 #. 2jXHB
 #: python_document_events.xhp
@@ -995,7 +995,7 @@ msgctxt ""
 "N0664\n"
 "help.text"
 msgid "' ADAPTER design pattern object to be instantiated in the \"Open Document\" event"
-msgstr ""
+msgstr "' Αντικείμενο μοτίβου σχεδίασης ADAPTER που πρόκειται να δημιουργηθεί στο συμβάν \"Open Document\"."
 
 #. ueeGx
 #: python_document_events.xhp
@@ -1004,7 +1004,7 @@ msgctxt ""
 "N0666\n"
 "help.text"
 msgid "Private Const UI_NOPROMPT = False ' Set it to True to visualise documents events"
-msgstr ""
+msgstr "Private Const UI_NOPROMPT = False ' Ορίστε το σε True για οπτικοποίηση συμβάντων εγγράφων"
 
 #. EQG8C
 #: python_document_events.xhp
@@ -1022,7 +1022,7 @@ msgctxt ""
 "bas_id131630510956418\n"
 "help.text"
 msgid "Private _txtMsg As String ' text message to log in console"
-msgstr ""
+msgstr "Private _txtMsg As String 'μήνυμα κειμένου για να συνδεθείτε στην κονσόλα"
 
 #. JaEhY
 #: python_document_events.xhp
@@ -1031,7 +1031,7 @@ msgctxt ""
 "N0677\n"
 "help.text"
 msgid "' PROPERTIES"
-msgstr ""
+msgstr "' ΙΔΙΟΤΗΤΕΣ"
 
 #. aGuEg
 #: python_document_events.xhp
@@ -1076,7 +1076,7 @@ msgctxt ""
 "N0705\n"
 "help.text"
 msgid "Access2Base.Trace.TraceLog(\"INFO\", _txtMsg & \"Document events are being logged\", UI_PROMPT)"
-msgstr ""
+msgstr "Access2Base.Trace.TraceLog(\"INFO\", _txtMsg & \"Τα συμβάντα του εγγράφου συνδέονται\", UI_PROMPT)"
 
 #. NkHa4
 #: python_document_events.xhp
@@ -1094,7 +1094,7 @@ msgctxt ""
 "N0717\n"
 "help.text"
 msgid "Access2Base.Trace.TraceLog(\"INFO\", _txtMsg & \"Document events have been logged\", UI_PROMPT)"
-msgstr ""
+msgstr "Access2Base.Trace.TraceLog(\"INFO\", _txtMsg & \"Τα συμβάντα εγγράφου έχουν συνδεθεί\", UI_PROMPT)"
 
 #. GAD2E
 #: python_document_events.xhp
@@ -1103,7 +1103,7 @@ msgctxt ""
 "N0719\n"
 "help.text"
 msgid "Access2Base.Trace.TraceConsole() ' Captured events dialog"
-msgstr ""
+msgstr "Access2Base.Trace.TraceConsole() 'Διάλογος των συμβάντων που καταγράφηκαν"
 
 #. X8Kdh
 #: python_document_events.xhp
@@ -1112,7 +1112,7 @@ msgctxt ""
 "N0722\n"
 "help.text"
 msgid "' EVENTS"
-msgstr ""
+msgstr "' ΣΥΜΒΑΝΤΑ"
 
 #. uVpJf
 #: python_document_events.xhp
@@ -1148,7 +1148,7 @@ msgctxt ""
 "bm_id681622445958242\n"
 "help.text"
 msgid "<bookmark_value>API;frame.GlobalEventBroadcaster: Monitoring Document Event</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>API;frame.GlobalEventBroadcaster: Παρακολούθηση συμβάντος εγγράφου</bookmark_value>"
 
 #. BDj9Q
 #: python_document_events.xhp
@@ -2597,7 +2597,7 @@ msgctxt ""
 "N0218\n"
 "help.text"
 msgid "<bookmark_value>Python;Programming</bookmark_value>        <bookmark_value>XSCRIPTCONTEXT;Python</bookmark_value>        <bookmark_value>XSCRIPTCONTEXT;getComponentContext()</bookmark_value>        <bookmark_value>uno.py</bookmark_value>        <bookmark_value>uno.py;getComponentContext()</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Python;Προγραμματισμός</bookmark_value><bookmark_value>XSCRIPTCONTEXT;Python</bookmark_value><bookmark_value>XSCRIPTCONTEXT;getComponentContext()</bookmark_value><bookmark_value>uno.py</bookmark_value><bookmark_value>uno.py;getComponentContext()</bookmark_value>"
 
 #. CU6JS
 #: python_programming.xhp
@@ -3533,7 +3533,7 @@ msgctxt ""
 "par_id851633601202270\n"
 "help.text"
 msgid "From a full-featured %PRODUCTNAME installed package, use either Basic or Python:"
-msgstr ""
+msgstr "Από ένα πλήρως εγκατεστημένο πακέτο %PRODUCTNAME, χρησιμοποιήστε είτε Basic είτε Python:"
 
 #. 5HhXz
 #: python_shell.xhp
@@ -3542,7 +3542,7 @@ msgctxt ""
 "N0121\n"
 "help.text"
 msgid "Using a Basic macro"
-msgstr ""
+msgstr "Χρήση μακροεντολής Basic"
 
 #. KhWLk
 #: python_shell.xhp
@@ -3551,7 +3551,7 @@ msgctxt ""
 "N0127\n"
 "help.text"
 msgid "Using a Python macro"
-msgstr ""
+msgstr "Χρήση μακροεντολής Python"
 
 #. 3FCJH
 #: python_shell.xhp
@@ -3560,7 +3560,7 @@ msgctxt ""
 "N0141\n"
 "help.text"
 msgid "Example output"
-msgstr ""
+msgstr "Έξοδος παραδείγματος"
 
 #. MxDtE
 #: python_shell.xhp
@@ -3569,7 +3569,7 @@ msgctxt ""
 "N0142\n"
 "help.text"
 msgid "<image src=\"media/helpimg/python/python_interactive_console.png\" id=\"N0143\"><alt id=\"N0143\">Python Interactive Console</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/python/python_interactive_console.png\" id=\"N0143\"><alt id=\"N0143\">Διαδραστική κονσόλα Python</alt></image>"
 
 #. fk6sx
 #: python_shell.xhp
@@ -3578,7 +3578,7 @@ msgctxt ""
 "hd_id381633446811095\n"
 "help.text"
 msgid "Using the Terminal"
-msgstr ""
+msgstr "Χρήση τερματικού"
 
 #. CNFdD
 #: python_shell.xhp
@@ -3587,7 +3587,7 @@ msgctxt ""
 "par_id801633601715910\n"
 "help.text"
 msgid "From a %PRODUCTNAME copy included in a GNU/Linux platform, use the terminal as shown:"
-msgstr ""
+msgstr "Από ένα αντίγραφο %PRODUCTNAME που περιλαμβάνεται σε λειτουργικό GNU/Linux, χρησιμοποιήστε το τερματικό όπως φαίνεται:"
 
 #. vWPwe
 #: python_shell.xhp
@@ -3596,7 +3596,7 @@ msgctxt ""
 "par_id531633444780190\n"
 "help.text"
 msgid "<literal>whereis</literal> or <literal>type</literal> terminal commands help locate Python interactive console:"
-msgstr ""
+msgstr "Οι εντολές τερματικού <literal>whereis</literal> ή <literal>type</literal> βοηθούν στον εντοπισμό της διαδραστικής κονσόλας Python:"
 
 #. 8Ei5d
 #: python_shell.xhp
@@ -3605,7 +3605,7 @@ msgctxt ""
 "hd_id311633513620803\n"
 "help.text"
 msgid "Alternative console"
-msgstr ""
+msgstr "Εναλλακτική κονσόλα"
 
 #. d8DCA
 #: python_shell.xhp
@@ -3614,7 +3614,7 @@ msgctxt ""
 "par_id81632760673283\n"
 "help.text"
 msgid "Use <link href=\"https://extensions.libreoffice.org/extensions/apso-alternative-script-organizer-for-Python\" name=\"APSO extension\">APSO extension</link> console as an alternative:"
-msgstr ""
+msgstr "Χρησιμοποιήστε την κονσόλα <link href=\"https://extensions.libreoffice.org/extensions/apso-alternative-script-organizer-for-Python\" name=\"APSO extension\">επέκταση APSO</link> ως εναλλακτική:"
 
 #. 6h9CS
 #: python_shell.xhp
@@ -3623,7 +3623,7 @@ msgctxt ""
 "N0144\n"
 "help.text"
 msgid "<image src=\"media/helpimg/python/python_shell.png\" id=\"N0144\"><alt id=\"N0144\">APSO console</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/python/python_shell.png\" id=\"N0144\"><alt id=\"N0144\">Κονσόλα APSO</alt></image>"
 
 #. DNr5W
 #: python_shell.xhp
@@ -3632,7 +3632,7 @@ msgctxt ""
 "par_id351633599611244\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/03/sf_exception.html?#PythonShell\" name=\"PythonShell method\"><literal>PythonShell</literal></link> function in <link href=\"text/sbasic/shared/03/sf_exception.html\" name=\"ScriptForge.Exception service\"><literal>ScriptForge.Exception</literal></link> service"
-msgstr ""
+msgstr "Λειτουργία <link href=\"text/sbasic/shared/03/sf_exception.html?#PythonShell\" name=\"PythonShell method\"><literal>PythonShell</literal></link> στην υπηρεσία <link href=\"text/sbasic/shared/03/sf_exception.html\" name=\"ScriptForge.Exception service\"><literal>ScriptForge.Exception</literal></link>"
 
 #~ msgctxt ""
 #~ "python_shell.xhp\n"
