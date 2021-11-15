@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-06-24 12:51+0200\n"
-"PO-Revision-Date: 2021-11-15 04:41+0000\n"
+"PO-Revision-Date: 2021-11-15 04:54+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-7-2/textscalc01/de/>\n"
 "Language: de\n"
@@ -57020,7 +57020,7 @@ msgctxt ""
 "hd_id9522389625800\n"
 "help.text"
 msgid "<variable id=\"convert_head\">        <link href=\"text/scalc/01/func_convert.xhp\">CONVERT</link>      </variable> function"
-msgstr "<variable id=\"convert_head\">        <link href=\"text/scalc/01/func_convert.xhp\">UMRECHNEN</link>      </variable> Funktion"
+msgstr "<variable id=\"convert_head\">Funktion <link href=\"text/scalc/01/func_convert.xhp\">UMRECHNEN</link></variable>"
 
 #. fmXAR
 #: func_convert.xhp
@@ -57029,7 +57029,7 @@ msgctxt ""
 "par_id3154902\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_CONVERT\"><variable id=\"convert_desc\">Converts a value from one unit of measurement to the corresponding value in another unit of measurement.</variable></ahelp> Enter the units of measurement directly as text in quotation marks or as a reference. The units of measurement specified through the arguments must match the supported unit symbols, which are case-sensitive. For example, the symbol for the unit \"newton\" is the uppercase \"N\"."
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_CONVERT\"><variable id=\"convert_desc\">Rechnet einen Wert aus einer Maßeinheit in eine andere um.</variable></ahelp> Geben Sie die Maßeinheitenzeichen direkt als Text in Anführungszeichen oder als Bezug ein. Die über die Argumente angegebenen Maßeinheiten müssen mit den unterstützten Maßeinheitenzeichen übereinstimmen, wobei die Groß- und Kleinschreibung zu beachten ist. Zum Beispiel ist das Symbol für die Einheit \"Newton\" ein großes \"N\"."
 
 #. fUwa3
 #: func_convert.xhp
@@ -57038,7 +57038,7 @@ msgctxt ""
 "par_id761620414839890\n"
 "help.text"
 msgid "The measurement units recognized by <literal>CONVERT</literal> fall into 13 groups, which are listed <link href=\"text/scalc/01/func_convert.xhp#Unit_Groups\" name=\"Unit_Groups_Section\">below</link>. CONVERT will perform conversions between any two units within one group but reject any request to convert between units in different groups."
-msgstr ""
+msgstr "Die von <literal>UMRECHNEN</literal> erkannten Maßeinheiten lassen sich in 13 Gruppen einteilen, die im <link href=\"text/scalc/01/func_convert.xhp#Unit_Groups\" name=\"Unit_Groups_Section\">Folgenden</link> aufgeführt sind. UMRECHNEN führt Umrechnungen zwischen zwei beliebigen Einheiten innerhalb einer Gruppe durch, lehnt aber jede Anfrage zur Umrechnung zwischen Einheiten in verschiedenen Gruppen ab."
 
 #. x6USE
 #: func_convert.xhp
@@ -57047,7 +57047,7 @@ msgctxt ""
 "par_id861620428840333\n"
 "help.text"
 msgid "You can also add binary and decimal prefixes to units of measurement that support them. The list of all prefixes and their corresponding multipliers are shown <link href=\"text/scalc/01/func_convert.xhp#Prefixes\" name=\"Prefixes_Section\">below</link>."
-msgstr ""
+msgstr "Sie können auch binäre und dezimale Präfixe zu Maßeinheiten hinzufügen, die sie unterstützen. Die Liste aller Präfixe und ihrer entsprechenden Multiplikatoren wird weiter <link href=\"text/scalc/01/func_convert.xhp#Prefixes\" name=\"Prefixes_Section\">unten</link> angezeigt."
 
 #. GvB7m
 #: func_convert.xhp
@@ -57056,7 +57056,7 @@ msgctxt ""
 "par_id601621101375988\n"
 "help.text"
 msgid "This function may not be compatible with other spreadsheet software."
-msgstr ""
+msgstr "Diese Funktion ist möglicherweise nicht mit anderen Tabellenkalkulationsprogrammen kompatibel."
 
 #. wfq9t
 #: func_convert.xhp
@@ -57065,7 +57065,7 @@ msgctxt ""
 "par_id23219159944266\n"
 "help.text"
 msgid "<input>CONVERT(Number; FromUnit; ToUnit)</input>"
-msgstr ""
+msgstr "<input>UMRECHNEN(Zahl; \"Ausgangseinheit\"; \"Zieleinheit\")</input>"
 
 #. RiLFj
 #: func_convert.xhp
@@ -57074,7 +57074,7 @@ msgctxt ""
 "par_id3147522\n"
 "help.text"
 msgid "<emph>Number</emph> is the number to be converted."
-msgstr ""
+msgstr "<emph>Zahl</emph> ist die Zahl, die umgewandelt wird."
 
 #. GErYL
 #: func_convert.xhp
@@ -57083,7 +57083,7 @@ msgctxt ""
 "par_id3154472\n"
 "help.text"
 msgid "<emph>FromUnit</emph> is the unit from which conversion is taking place."
-msgstr ""
+msgstr "<emph>Ausgangseinheit</emph> ist die Einheit, aus der umgewandelt wird."
 
 #. d2Hrk
 #: func_convert.xhp
@@ -57092,7 +57092,7 @@ msgctxt ""
 "par_id3153790\n"
 "help.text"
 msgid "<emph>ToUnit</emph> is the unit to which conversion is taking place. Both units must be of the same type."
-msgstr ""
+msgstr "<emph>Zieleinheit</emph> ist die Einheit, in die umgerechnet wird. Beide Einheiten müssen vom selben Typ sein."
 
 #. 7D2db
 #: func_convert.xhp
@@ -57101,7 +57101,7 @@ msgctxt ""
 "par_id541620414925560\n"
 "help.text"
 msgid "If <literal>FromUnit</literal> and <literal>ToUnit</literal> are not valid units from the same group, then <literal>CONVERT</literal> reports an invalid argument error (Err:502)."
-msgstr ""
+msgstr "Wenn <literal>Ausgangseinheit</literal> und <literal>Zieleinheit</literal> keine gültigen Einheiten aus derselben Gruppe sind, dann meldet <literal>UMRECHNEN</literal> einen Fehler wegen ungültiger Argumente (Err:502)."
 
 #. gq5EJ
 #: func_convert.xhp
