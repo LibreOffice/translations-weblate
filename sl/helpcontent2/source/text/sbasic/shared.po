@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LibreOffice 6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-11-16 12:08+0100\n"
+"POT-Creation-Date: 2021-11-19 15:43+0100\n"
 "PO-Revision-Date: 2019-07-02 16:17+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: sl.libreoffice.org\n"
@@ -30131,14 +30131,14 @@ msgctxt ""
 msgid "<bookmark_value>Asc function</bookmark_value>"
 msgstr "<bookmark_value>funkcija Asc</bookmark_value>"
 
-#. UG5Ac
+#. CiUxk
 #: 03120101.xhp
 msgctxt ""
 "03120101.xhp\n"
 "hd_id3150499\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03120101.xhp\" name=\"Asc Function\">Asc Function</link>"
-msgstr "<link href=\"text/sbasic/shared/03120101.xhp\" name=\"Funkcija Asc\">Funkcija Asc</link>"
+msgid "<variable id=\"Asc_h1\"><link href=\"text/sbasic/shared/03120101.xhp\" name=\"Asc Function\">Asc Function</link></variable>"
+msgstr ""
 
 #. 8jiwA
 #: 03120101.xhp
@@ -30149,59 +30149,32 @@ msgctxt ""
 msgid "Returns the ASCII (American Standard Code for Information Interchange) value of the first character in a string expression."
 msgstr "Vrne vrednost prvega znaka v nizu po ASCII (American Standard Code for Information Interchange)."
 
-#. BNWoG
-#: 03120101.xhp
-msgctxt ""
-"03120101.xhp\n"
-"hd_id3155555\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Skladnja:"
-
-#. giD6a
+#. xFKDc
 #: 03120101.xhp
 msgctxt ""
 "03120101.xhp\n"
 "par_id3143267\n"
 "help.text"
-msgid "Asc (Text As String)"
-msgstr "Asc (Besedilo As String)"
+msgid "Asc(string) As Long"
+msgstr ""
 
-#. qe9hh
-#: 03120101.xhp
-msgctxt ""
-"03120101.xhp\n"
-"hd_id3147242\n"
-"help.text"
-msgid "Return value:"
-msgstr "Vrnjena vrednost:"
-
-#. kmTWL
+#. s239Q
 #: 03120101.xhp
 msgctxt ""
 "03120101.xhp\n"
 "par_id3150669\n"
 "help.text"
-msgid "Integer"
-msgstr "Integer"
+msgid "Long"
+msgstr ""
 
-#. ZSM8u
-#: 03120101.xhp
-msgctxt ""
-"03120101.xhp\n"
-"hd_id3148473\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parametri:"
-
-#. nuuuC
+#. DZtGt
 #: 03120101.xhp
 msgctxt ""
 "03120101.xhp\n"
 "par_id3149415\n"
 "help.text"
-msgid "<emph>Text:</emph> Any valid string expression. Only the first character in the string is relevant."
-msgstr "<emph>Besedilo:</emph> poljuben niz. Samo prvi znak v nizu ima v tej funkciji pomen."
+msgid "<emph>string</emph>: Any valid string expression. Only the first character in the string is relevant."
+msgstr ""
 
 #. CF7UG
 #: 03120101.xhp
@@ -30212,15 +30185,6 @@ msgctxt ""
 msgid "Use the Asc function to replace keys with values. If the Asc function encounters a blank string, $[officename] Basic reports a run-time error. In addition to 7 bit ASCII characters (Codes 0-127), the ASCII function can also detect non-printable key codes in ASCII code. This function can also handle 16 bit unicode characters."
 msgstr "Uporabljajte funkcijo Asc, kadar morate zamenjati ključe z vrednostmi. Če funkcija Asc naleti na prazen niz, javi $[officename] Basic napako v izvajanju. Poleg 7-bitnih znakov ASCII (kode 0-127) lahko funkcija Asc zazna kode, ki jih ni mogoče tiskati. Ta funkcija lahko dela tudi s 16-bitnimi znaki Unicode."
 
-#. d4CxC
-#: 03120101.xhp
-msgctxt ""
-"03120101.xhp\n"
-"hd_id3159413\n"
-"help.text"
-msgid "Example:"
-msgstr "Primer:"
-
 #. VF7kK
 #: 03120101.xhp
 msgctxt ""
@@ -30230,14 +30194,14 @@ msgctxt ""
 msgid "Print ASC(\"A\") ' returns 65"
 msgstr "Print ASC(\"A\") ' vrne 65"
 
-#. imR9f
+#. mntEX
 #: 03120101.xhp
 msgctxt ""
 "03120101.xhp\n"
 "par_id3148797\n"
 "help.text"
-msgid "Print ASC(\"Z\") ' returns 90"
-msgstr "Print ASC(\"Z\") ' vrne 90"
+msgid "Print ASC(string:=\"Z\") ' returns 90"
+msgstr ""
 
 #. raPFD
 #: 03120101.xhp
@@ -30247,15 +30211,6 @@ msgctxt ""
 "help.text"
 msgid "Print ASC(\"Las Vegas\") ' returns 76, since only the first character is taken into account"
 msgstr "Print ASC(\"Nova Gorica\") ' vrne 78, ker se upošteva samo en, to je prvi, znak"
-
-#. 9QUxr
-#: 03120101.xhp
-msgctxt ""
-"03120101.xhp\n"
-"par_idN1067B\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03120102.xhp\">CHR</link>"
-msgstr "<link href=\"text/sbasic/shared/03120102.xhp\">CHR</link>"
 
 #. QMLJb
 #: 03120102.xhp
@@ -30275,14 +30230,14 @@ msgctxt ""
 msgid "<bookmark_value>Chr function</bookmark_value>"
 msgstr "<bookmark_value>funkcija Chr</bookmark_value>"
 
-#. tDyPJ
+#. vBnDE
 #: 03120102.xhp
 msgctxt ""
 "03120102.xhp\n"
 "hd_id3149205\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03120102.xhp\" name=\"Chr Function\">Chr Function</link>"
-msgstr "<link href=\"text/sbasic/shared/03120102.xhp\" name=\"Funkcija Chr\">Funkcija Chr</link>"
+msgid "<variable id=\"Chr_h1\"><link href=\"text/sbasic/shared/03120102.xhp\" name=\"Chr Function\">Chr Function</link></variable>"
+msgstr ""
 
 #. UTy3n
 #: 03120102.xhp
@@ -30293,14 +30248,14 @@ msgctxt ""
 msgid "Returns the character that corresponds to the specified character code."
 msgstr "Vrne znak, ki odgovarja navedeni kodi za znake."
 
-#. bf6Zk
+#. cR5b8
 #: 03120102.xhp
 msgctxt ""
 "03120102.xhp\n"
 "par_id3150669\n"
 "help.text"
-msgid "Chr(Expression As Integer)"
-msgstr "Chr(Izraz As Integer)"
+msgid "Chr[$](expression As Integer) As String"
+msgstr ""
 
 #. HnFyY
 #: 03120102.xhp
@@ -30356,14 +30311,14 @@ msgctxt ""
 msgid "' This example inserts quotation marks (ASCII value 34) in a string."
 msgstr "' V tem primeru vstavimo narekovaje (ASCII vrednost 34) v niz."
 
-#. aCHvq
+#. PpQfe
 #: 03120102.xhp
 msgctxt ""
 "03120102.xhp\n"
 "par_id3151380\n"
 "help.text"
-msgid "MsgBox \"A \"+ Chr$(34)+\"short\" + Chr$(34)+\" trip.\""
-msgstr "MsgBox \"Nekako \"+ Chr$(34)+\"kratek\" + Chr$(34)+\" izlet.\""
+msgid "MsgBox \"A \"+ Chr$(34)+\"short\" + Chr(34)+\" trip.\""
+msgstr ""
 
 #. iCsGw
 #: 03120102.xhp
@@ -30373,15 +30328,6 @@ msgctxt ""
 "help.text"
 msgid "' The printout appears in the dialog as: A \"short\" trip."
 msgstr "' Izpis v pogovornem oknu se prikaže kot: Nekako \"kratek\" izlet."
-
-#. q8bRB
-#: 03120102.xhp
-msgctxt ""
-"03120102.xhp\n"
-"par_idN10668\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03120101.xhp\">ASC</link>"
-msgstr "<link href=\"text/sbasic/shared/03120101.xhp\">ASC</link>"
 
 #. bzZDz
 #: 03120103.xhp
@@ -30707,14 +30653,14 @@ msgctxt ""
 msgid "<bookmark_value>AscW function</bookmark_value>"
 msgstr "<bookmark_value>funkcija AscW</bookmark_value>"
 
-#. 4pFSg
+#. 8JuD6
 #: 03120111.xhp
 msgctxt ""
 "03120111.xhp\n"
 "hd_id3150499\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03120111.xhp\" name=\"AscW Function [VBA]\">AscW Function [VBA]</link>"
-msgstr "<link href=\"text/sbasic/shared/03120111.xhp\" name=\"Funkcija AscW [VBA]\">Funkcija AscW [VBA]</link>"
+msgid "<variable id=\"AscW_h1\"><link href=\"text/sbasic/shared/03120111.xhp\" name=\"AscW Function [VBA]\">AscW Function [VBA]</link></variable>"
+msgstr ""
 
 #. XujWF
 #: 03120111.xhp
@@ -30725,23 +30671,23 @@ msgctxt ""
 msgid "Returns the Unicode value of the first character in a string expression."
 msgstr "Vrne številčno kodo Unicode prvega znaka v nizu besedila."
 
-#. tyhN7
+#. re4di
 #: 03120111.xhp
 msgctxt ""
 "03120111.xhp\n"
 "par_id3150669\n"
 "help.text"
-msgid "Integer"
-msgstr "Integer"
+msgid "Long"
+msgstr ""
 
-#. cLSGx
+#. sEFFg
 #: 03120111.xhp
 msgctxt ""
 "03120111.xhp\n"
 "par_id3149415\n"
 "help.text"
-msgid "<emph>Text:</emph> Any valid string expression. Only the first character in the string is relevant."
-msgstr "<emph>Besedilo:</emph> poljuben niz. Samo prvi znak v nizu ima v tej funkciji pomen."
+msgid "<emph>string</emph>: Any valid string expression. Only the first character in the string is relevant."
+msgstr ""
 
 #. PWbGW
 #: 03120111.xhp
@@ -30761,14 +30707,14 @@ msgctxt ""
 msgid "Print AscW(\"A\") ' returns 65"
 msgstr "Print AscW(\"A\") ' vrne 65"
 
-#. cSPdQ
+#. jFJn8
 #: 03120111.xhp
 msgctxt ""
 "03120111.xhp\n"
 "par_id3148797\n"
 "help.text"
-msgid "Print AscW(\"Ω\") ' returns 937"
-msgstr "Print AscW(\"Ω\") ' vrne 937"
+msgid "Print AscW(string:=\"Ω\") ' returns 937"
+msgstr ""
 
 #. KNmoP
 #: 03120111.xhp
@@ -30778,33 +30724,6 @@ msgctxt ""
 "help.text"
 msgid "Print AscW(\"Αθήνα\") ' returns 913, since only the first character (Alpha) is taken into account"
 msgstr "Print AscW(\"Αθήνα\") ' vrne 913, ker se upošteva samo en, to je prvi, znak (alfa)"
-
-#. Z2b5U
-#: 03120111.xhp
-msgctxt ""
-"03120111.xhp\n"
-"par_idN1067B\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03120102.xhp\">Chr</link>"
-msgstr "<link href=\"text/sbasic/shared/03120102.xhp\">Chr</link>"
-
-#. BbWXB
-#: 03120111.xhp
-msgctxt ""
-"03120111.xhp\n"
-"par_id051920171027053197\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03120112.xhp\">ChrW</link>"
-msgstr "<link href=\"text/sbasic/shared/03120112.xhp\">ChrW</link>"
-
-#. GkoG4
-#: 03120111.xhp
-msgctxt ""
-"03120111.xhp\n"
-"par_id051920171027051338\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03120101.xhp\">Asc</link>"
-msgstr "<link href=\"text/sbasic/shared/03120101.xhp\">Asc</link>"
 
 #. 9DDYF
 #: 03120112.xhp
@@ -30824,14 +30743,14 @@ msgctxt ""
 msgid "<bookmark_value>ChrW function</bookmark_value>"
 msgstr "<bookmark_value>funkcija ChrW</bookmark_value>"
 
-#. 4MJ6d
+#. C6uF5
 #: 03120112.xhp
 msgctxt ""
 "03120112.xhp\n"
 "hd_id3149205\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03120112.xhp\" name=\"ChrW Function\">ChrW Function [VBA]</link>"
-msgstr "<link href=\"text/sbasic/shared/03120112.xhp\" name=\"Funkcija ChrW [VBA]\">Funkcija ChrW [VBA]</link>"
+msgid "<variable id=\"ChrW_h1\"><link href=\"text/sbasic/shared/03120112.xhp\" name=\"ChrW Function\">ChrW Function [VBA]</link></variable>"
+msgstr ""
 
 #. yFpZL
 #: 03120112.xhp
@@ -30842,14 +30761,14 @@ msgctxt ""
 msgid "Returns the Unicode character that corresponds to the specified character code."
 msgstr "Vrne znak Unicode, ki odgovarja navedeni kodi za znake."
 
-#. UVM29
+#. X2EkR
 #: 03120112.xhp
 msgctxt ""
 "03120112.xhp\n"
 "par_id3150669\n"
 "help.text"
-msgid "ChrW(Expression As Integer)"
-msgstr "ChrW(Izraz As Integer)"
+msgid "ChrW(Expression As Integer) As String"
+msgstr ""
 
 #. mA9x6
 #: 03120112.xhp
@@ -30895,33 +30814,6 @@ msgctxt ""
 "help.text"
 msgid "' The printout appears in the dialog as: From Α to Ω"
 msgstr "' Izpis v pogovornem oknu se prikaže kot: To je Α in Ω"
-
-#. hSMKc
-#: 03120112.xhp
-msgctxt ""
-"03120112.xhp\n"
-"par_id051920171010491586\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03120102.xhp\">Chr</link>"
-msgstr "<link href=\"text/sbasic/shared/03120102.xhp\">Chr</link>"
-
-#. JJUXA
-#: 03120112.xhp
-msgctxt ""
-"03120112.xhp\n"
-"par_idN10668\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03120101.xhp\">Asc</link>"
-msgstr "<link href=\"text/sbasic/shared/03120101.xhp\">Asc</link>"
-
-#. 2fMt4
-#: 03120112.xhp
-msgctxt ""
-"03120112.xhp\n"
-"par_id051920171009414669\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/03120111.xhp\">AscW</link>"
-msgstr "<link href=\"text/sbasic/shared/03120111.xhp\">AscW</link>"
 
 #. E7Eoi
 #: 03120200.xhp
@@ -43108,6 +43000,188 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">Razvojno okolje %PRODUCTNAME Basic</link>"
+
+#~ msgctxt ""
+#~ "03120101.xhp\n"
+#~ "hd_id3150499\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120101.xhp\" name=\"Asc Function\">Asc Function</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120101.xhp\" name=\"Funkcija Asc\">Funkcija Asc</link>"
+
+#~ msgctxt ""
+#~ "03120101.xhp\n"
+#~ "hd_id3155555\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Skladnja:"
+
+#~ msgctxt ""
+#~ "03120101.xhp\n"
+#~ "par_id3143267\n"
+#~ "help.text"
+#~ msgid "Asc (Text As String)"
+#~ msgstr "Asc (Besedilo As String)"
+
+#~ msgctxt ""
+#~ "03120101.xhp\n"
+#~ "hd_id3147242\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Vrnjena vrednost:"
+
+#~ msgctxt ""
+#~ "03120101.xhp\n"
+#~ "par_id3150669\n"
+#~ "help.text"
+#~ msgid "Integer"
+#~ msgstr "Integer"
+
+#~ msgctxt ""
+#~ "03120101.xhp\n"
+#~ "hd_id3148473\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parametri:"
+
+#~ msgctxt ""
+#~ "03120101.xhp\n"
+#~ "par_id3149415\n"
+#~ "help.text"
+#~ msgid "<emph>Text:</emph> Any valid string expression. Only the first character in the string is relevant."
+#~ msgstr "<emph>Besedilo:</emph> poljuben niz. Samo prvi znak v nizu ima v tej funkciji pomen."
+
+#~ msgctxt ""
+#~ "03120101.xhp\n"
+#~ "hd_id3159413\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Primer:"
+
+#~ msgctxt ""
+#~ "03120101.xhp\n"
+#~ "par_id3148797\n"
+#~ "help.text"
+#~ msgid "Print ASC(\"Z\") ' returns 90"
+#~ msgstr "Print ASC(\"Z\") ' vrne 90"
+
+#~ msgctxt ""
+#~ "03120101.xhp\n"
+#~ "par_idN1067B\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120102.xhp\">CHR</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120102.xhp\">CHR</link>"
+
+#~ msgctxt ""
+#~ "03120102.xhp\n"
+#~ "hd_id3149205\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120102.xhp\" name=\"Chr Function\">Chr Function</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120102.xhp\" name=\"Funkcija Chr\">Funkcija Chr</link>"
+
+#~ msgctxt ""
+#~ "03120102.xhp\n"
+#~ "par_id3150669\n"
+#~ "help.text"
+#~ msgid "Chr(Expression As Integer)"
+#~ msgstr "Chr(Izraz As Integer)"
+
+#~ msgctxt ""
+#~ "03120102.xhp\n"
+#~ "par_id3151380\n"
+#~ "help.text"
+#~ msgid "MsgBox \"A \"+ Chr$(34)+\"short\" + Chr$(34)+\" trip.\""
+#~ msgstr "MsgBox \"Nekako \"+ Chr$(34)+\"kratek\" + Chr$(34)+\" izlet.\""
+
+#~ msgctxt ""
+#~ "03120102.xhp\n"
+#~ "par_idN10668\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120101.xhp\">ASC</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120101.xhp\">ASC</link>"
+
+#~ msgctxt ""
+#~ "03120111.xhp\n"
+#~ "hd_id3150499\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120111.xhp\" name=\"AscW Function [VBA]\">AscW Function [VBA]</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120111.xhp\" name=\"Funkcija AscW [VBA]\">Funkcija AscW [VBA]</link>"
+
+#~ msgctxt ""
+#~ "03120111.xhp\n"
+#~ "par_id3150669\n"
+#~ "help.text"
+#~ msgid "Integer"
+#~ msgstr "Integer"
+
+#~ msgctxt ""
+#~ "03120111.xhp\n"
+#~ "par_id3149415\n"
+#~ "help.text"
+#~ msgid "<emph>Text:</emph> Any valid string expression. Only the first character in the string is relevant."
+#~ msgstr "<emph>Besedilo:</emph> poljuben niz. Samo prvi znak v nizu ima v tej funkciji pomen."
+
+#~ msgctxt ""
+#~ "03120111.xhp\n"
+#~ "par_id3148797\n"
+#~ "help.text"
+#~ msgid "Print AscW(\"Ω\") ' returns 937"
+#~ msgstr "Print AscW(\"Ω\") ' vrne 937"
+
+#~ msgctxt ""
+#~ "03120111.xhp\n"
+#~ "par_idN1067B\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120102.xhp\">Chr</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120102.xhp\">Chr</link>"
+
+#~ msgctxt ""
+#~ "03120111.xhp\n"
+#~ "par_id051920171027053197\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120112.xhp\">ChrW</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120112.xhp\">ChrW</link>"
+
+#~ msgctxt ""
+#~ "03120111.xhp\n"
+#~ "par_id051920171027051338\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120101.xhp\">Asc</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120101.xhp\">Asc</link>"
+
+#~ msgctxt ""
+#~ "03120112.xhp\n"
+#~ "hd_id3149205\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120112.xhp\" name=\"ChrW Function\">ChrW Function [VBA]</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120112.xhp\" name=\"Funkcija ChrW [VBA]\">Funkcija ChrW [VBA]</link>"
+
+#~ msgctxt ""
+#~ "03120112.xhp\n"
+#~ "par_id3150669\n"
+#~ "help.text"
+#~ msgid "ChrW(Expression As Integer)"
+#~ msgstr "ChrW(Izraz As Integer)"
+
+#~ msgctxt ""
+#~ "03120112.xhp\n"
+#~ "par_id051920171010491586\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120102.xhp\">Chr</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120102.xhp\">Chr</link>"
+
+#~ msgctxt ""
+#~ "03120112.xhp\n"
+#~ "par_idN10668\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120101.xhp\">Asc</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120101.xhp\">Asc</link>"
+
+#~ msgctxt ""
+#~ "03120112.xhp\n"
+#~ "par_id051920171009414669\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03120111.xhp\">AscW</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03120111.xhp\">AscW</link>"
 
 #~ msgctxt ""
 #~ "03080101.xhp\n"
