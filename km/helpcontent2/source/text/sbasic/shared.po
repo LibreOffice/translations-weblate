@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shared\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-11-19 15:43+0100\n"
+"POT-Creation-Date: 2021-11-24 12:02+0100\n"
 "PO-Revision-Date: 2018-10-21 20:23+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -25487,23 +25487,59 @@ msgctxt ""
 msgid "Parameters:"
 msgstr "ប៉ារ៉ាម៉ែត្រ ៖"
 
-#. eJRAh
+#. 94dPA
 #: 03100500.xhp
 msgctxt ""
 "03100500.xhp\n"
 "par_id3159414\n"
 "help.text"
-msgid "<emph>Expression:</emph> Any numeric expression that you want to convert. If the <emph>Expression</emph> exceeds the value range between -32768 and 32767, $[officename] Basic reports an overflow error. To convert a string expression, the number must be entered as normal text (\"123.5\") using the default number format of your operating system."
-msgstr "<emph>កន្សោម​ ៖</emph> កន្សោម​លេខ​ណា​មួយ​ដែល​អ្នក​ចង់​បម្លែង ។ ប្រសិន​បើ <emph>Expression</emph> លើស​ជួរ​តម្លៃ​ចន្លោះ -32768 និង 32767 $[officename] Basic រាយ​ការណ៍​កំហុស​លើស​ចំណុះ​មួយ ។ ដើម្បី​បម្លែង​កន្សោម​ខ្សែ​អក្សរ លេខ​ត្រូវ​តែ​វាយ​បញ្ចូល​ជា​អត្ថបទ​ធម្មតា (\"123.5\") ដោយ​ប្រើ​ទ្រង់ទ្រាយ​លេខ​លំនាំដើម នៃ​ប្រព័ន្ធ​ប្រតិបត្តិការ​របស់​អ្នក ។"
+msgid "<emph>Expression:</emph> Any expression that you want to convert."
+msgstr ""
 
-#. Tq6qi
+#. tSQka
+#: 03100500.xhp
+msgctxt ""
+"03100500.xhp\n"
+"par_id3159415\n"
+"help.text"
+msgid "If the argument is a number, it is used as numeric value of the expression."
+msgstr ""
+
+#. RD4KV
+#: 03100500.xhp
+msgctxt ""
+"03100500.xhp\n"
+"par_id3159416\n"
+"help.text"
+msgid "If the argument is string, the function trims the leading whitespace; then it tries to recognize a number in following characters. These syntaxes are recognized: decimal numbers (with optional leading sign) using decimal and group separators of locale configured in $[officename] (group separators are accepted in any position), with optional exponential notation like \"-12e+1\" (where an optionally signed whole decimal number after e or E or d or D defines power of 10); octal numbers like \"&Onnn...\", where \"nnn...\" after \"&O\" or \"&o\" is sequence of characters up to the next non-alphanumeric character, and must be no longer than 11 digits from 0 to 7; hexadecimal numbers like \"&Hnnn...\", where \"nnn...\" after \"&H\" or \"&h\" is sequence of characters up to the next non-alphanumeric character, and must be no longer than 8 digits from 0 to 9, A to F, or a to f. The rest of the string is ignored. If the string is not recognized, e.g. when after trimming leading whitespace it doesn't start with plus, minus, a decimal digit, or \"&\", or when the sequence after \"&O\" is longer than 11 characters or contains an alphabetic character, the numeric value of expression is 0."
+msgstr ""
+
+#. ioj8X
+#: 03100500.xhp
+msgctxt ""
+"03100500.xhp\n"
+"par_id3159417\n"
+"help.text"
+msgid "If the argument is an error, the error number is used as numeric value of the expression."
+msgstr ""
+
+#. S3UH5
+#: 03100500.xhp
+msgctxt ""
+"03100500.xhp\n"
+"par_id3159418\n"
+"help.text"
+msgid "If the argument is a date, number of days since 1899-12-30 (serial date) is used as numeric value of the expression. Time is represented as fraction of a day."
+msgstr ""
+
+#. TA6XM
 #: 03100500.xhp
 msgctxt ""
 "03100500.xhp\n"
 "par_id3150358\n"
 "help.text"
-msgid "This function always rounds the fractional part of a number to the nearest integer."
-msgstr "អនុគមន៍​នេះ​តែងតែ​បង្គត់​ផ្នែក​ទសភាគ​នៃ​ចំនួន​មួយ ទៅ​ជា​ចំនួន​គត់​ដែល​ជិត​បំផុត ។"
+msgid "After calculating the numeric value of the expression, it is rounded to the nearest integer (if needed), and if the result is not between -32768 and 32767, $[officename] Basic reports an overflow error. Otherwise, the result is returned."
+msgstr ""
 
 #. GsgXV
 #: 03100600.xhp
@@ -43000,6 +43036,13 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr ""
+
+#~ msgctxt ""
+#~ "03100500.xhp\n"
+#~ "par_id3159414\n"
+#~ "help.text"
+#~ msgid "<emph>Expression:</emph> Any numeric expression that you want to convert. If the <emph>Expression</emph> exceeds the value range between -32768 and 32767, $[officename] Basic reports an overflow error. To convert a string expression, the number must be entered as normal text (\"123.5\") using the default number format of your operating system."
+#~ msgstr "<emph>កន្សោម​ ៖</emph> កន្សោម​លេខ​ណា​មួយ​ដែល​អ្នក​ចង់​បម្លែង ។ ប្រសិន​បើ <emph>Expression</emph> លើស​ជួរ​តម្លៃ​ចន្លោះ -32768 និង 32767 $[officename] Basic រាយ​ការណ៍​កំហុស​លើស​ចំណុះ​មួយ ។ ដើម្បី​បម្លែង​កន្សោម​ខ្សែ​អក្សរ លេខ​ត្រូវ​តែ​វាយ​បញ្ចូល​ជា​អត្ថបទ​ធម្មតា (\"123.5\") ដោយ​ប្រើ​ទ្រង់ទ្រាយ​លេខ​លំនាំដើម នៃ​ប្រព័ន្ធ​ប្រតិបត្តិការ​របស់​អ្នក ។"
 
 #~ msgctxt ""
 #~ "03120101.xhp\n"
