@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-11-24 12:02+0100\n"
-"PO-Revision-Date: 2021-12-03 13:38+0000\n"
+"PO-Revision-Date: 2021-12-04 16:25+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/cs/>\n"
 "Language: cs\n"
@@ -38777,7 +38777,7 @@ msgctxt ""
 "bm_id291592361063458\n"
 "help.text"
 msgid "<bookmark_value>calling Calc function;macros</bookmark_value>    <bookmark_value>setting Calc function;macros</bookmark_value>    <bookmark_value>macros;calling Calc function</bookmark_value>    <bookmark_value>macros;setting Calc function</bookmark_value>    <bookmark_value>createUNOservice function;calling Calc function</bookmark_value>    <bookmark_value>API;sheet.addin.Analysis</bookmark_value>    <bookmark_value>API;sheet.FunctionAccess</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>volání funkcí Calcu;makra</bookmark_value><bookmark_value>nastavení funkcí Calcu;makra</bookmark_value><bookmark_value>makra;volání funkcí Calcu</bookmark_value><bookmark_value>makra;nastavení funkcí Calcu</bookmark_value><bookmark_value>createUNOservice;volání funkcí Calcu</bookmark_value><bookmark_value>API;sheet.addin.Analysis</bookmark_value><bookmark_value>API;sheet.FunctionAccess</bookmark_value>"
 
 #. oDKGc
 #: calc_functions.xhp
@@ -38786,7 +38786,7 @@ msgctxt ""
 "hd_id91592352089011\n"
 "help.text"
 msgid "<variable id=\"CallingCalcFunctionsh1\"><link href=\"text/sbasic/shared/calc_functions.xhp\" name=\"Calling Calc Functions\">Using Calc Functions in Macros</link></variable>"
-msgstr ""
+msgstr "<variable id=\"CallingCalcFunctionsh1\"><link href=\"text/sbasic/shared/calc_functions.xhp\" name=\"Volání funkcí Calcu\">Použití funkcí Calcu v makrech</link></variable>"
 
 #. vixak
 #: calc_functions.xhp
@@ -38795,7 +38795,7 @@ msgctxt ""
 "par_id1001592359117987\n"
 "help.text"
 msgid "In addition to the native BASIC functions, you can call Calc functions in your macros and scripts and set Calc functions in cell formulas."
-msgstr ""
+msgstr "Kromě nativních funkcí jazyka BASIC je možné z maker a skriptů volat funkce aplikace Calc a nastavovat je ve vzorcích v buňkách."
 
 #. pFoqw
 #: calc_functions.xhp
@@ -38822,7 +38822,7 @@ msgctxt ""
 "par_id751629987917982\n"
 "help.text"
 msgid "The example below creates a function named <literal>MyVlook</literal> that calls the <literal>VLOOKUP</literal> Calc function over a data array passed as argument and returns the value found by the function."
-msgstr ""
+msgstr "V následujícím příkladu je vytvořena funkce pojmenovaná <literal>MyVlook</literal>, která zavolá funkci Calcu <literal>VLOOKUP</literal> pro pole dat předané jako argument a vrátí hodnotu touto funkcí nalezenou."
 
 #. NyNyQ
 #: calc_functions.xhp
@@ -38831,7 +38831,7 @@ msgctxt ""
 "bas_id271629987890173\n"
 "help.text"
 msgid "' Always use the function name in English"
-msgstr ""
+msgstr "' Vždy používejte anglický název funkce"
 
 #. x87Fg
 #: calc_functions.xhp
@@ -38840,7 +38840,7 @@ msgctxt ""
 "par_id241629988142878\n"
 "help.text"
 msgid "The macro below presents an example of how the <literal>MyVlook</literal> function can be called. If first creates a 5-by-2 data array and then calls the function <literal>MyVlook</literal> and shows the returned value using <literal>MsgBox</literal>."
-msgstr ""
+msgstr "Následující příklad udává, jak se má funkce <literal>MyVlook</literal> volat. Nejprve se vytvoří pole dat 5 × 2, poté se zavolá funkce <literal>MyVlook</literal> a pomocí <literal>MsgBox</literal> se zobrazí návratová hodnota."
 
 #. XincG
 #: calc_functions.xhp
@@ -38849,7 +38849,7 @@ msgctxt ""
 "bas_id331629988249519\n"
 "help.text"
 msgid "' Creates a 5 by 2 array and fills it with data"
-msgstr ""
+msgstr "' Vytvoří pole 5 × 2 a naplní jej daty"
 
 #. vGqJS
 #: calc_functions.xhp
@@ -38858,7 +38858,7 @@ msgctxt ""
 "bas_id641629988249903\n"
 "help.text"
 msgid "myData(1, 1) = 1 : myData(1, 2) = \"Strongly disagree\""
-msgstr ""
+msgstr "myData(1, 1) = 1 : myData(1, 2) = \"Rozhodně nesouhlasím\""
 
 #. tFbTR
 #: calc_functions.xhp
@@ -38867,7 +38867,7 @@ msgctxt ""
 "bas_id201629988250130\n"
 "help.text"
 msgid "myData(2, 1) = 3 : myData(2, 2) = \"Disagree\""
-msgstr ""
+msgstr "myData(2, 1) = 3 : myData(2, 2) = \"Nesouhlasím\""
 
 #. FtDFM
 #: calc_functions.xhp
@@ -38876,7 +38876,7 @@ msgctxt ""
 "bas_id291629988250317\n"
 "help.text"
 msgid "myData(3, 1) = 5 : myData(3, 2) = \"Undecided\""
-msgstr ""
+msgstr "myData(3, 1) = 5 : myData(3, 2) = \"Nevím\""
 
 #. VAGCD
 #: calc_functions.xhp
@@ -38885,7 +38885,7 @@ msgctxt ""
 "bas_id731629988250530\n"
 "help.text"
 msgid "myData(4, 1) = 7 : myData(4, 2) = \"Agree\""
-msgstr ""
+msgstr "myData(4, 1) = 7 : myData(4, 2) = \"Souhlasím\""
 
 #. zVfFm
 #: calc_functions.xhp
@@ -38894,7 +38894,7 @@ msgctxt ""
 "bas_id641629988250759\n"
 "help.text"
 msgid "myData(5, 1) = 9 : myData(5, 2) = \"Strongly agree\""
-msgstr ""
+msgstr "myData(5, 1) = 9 : myData(5, 2) = \"Rozhodně souhlasím\""
 
 #. bH6aF
 #: calc_functions.xhp
@@ -38903,7 +38903,7 @@ msgctxt ""
 "bas_id521629988250997\n"
 "help.text"
 msgid "' Looks up the data array"
-msgstr ""
+msgstr "' Prohledá pole dat"
 
 #. dbNrF
 #: calc_functions.xhp
@@ -38912,7 +38912,7 @@ msgctxt ""
 "bas_id491629988324413\n"
 "help.text"
 msgid "' Shows the message \"Disagree\""
-msgstr ""
+msgstr "' Zobrazí zprávu \"Nesouhlasím\""
 
 #. u8bVb
 #: calc_functions.xhp
@@ -38921,7 +38921,7 @@ msgctxt ""
 "hd_id261632673377666\n"
 "help.text"
 msgid "Setting Cell Formulas Containing Internal Calc Functions"
-msgstr ""
+msgstr "Nastavení vzorců v buňkách obsahujících interní funkce Calcu"
 
 #. QAMok
 #: calc_functions.xhp
@@ -38930,7 +38930,7 @@ msgctxt ""
 "par_id41632673385259\n"
 "help.text"
 msgid "Use the formula text string to add a formula to a spreadsheet cell."
-msgstr ""
+msgstr "Vzorec přidáte do buňky sešitu jako textový řetězec."
 
 #. o3jiB
 #: calc_functions.xhp
@@ -38939,7 +38939,7 @@ msgctxt ""
 "par_id291632673370039\n"
 "help.text"
 msgid "All Calc functions must be expressed with their English names."
-msgstr ""
+msgstr "Všechny funkce Calcu musí být zapsány pomocí anglických názvů."
 
 #. dfwfw
 #: calc_functions.xhp
@@ -38948,7 +38948,7 @@ msgctxt ""
 "par_id101632673833258\n"
 "help.text"
 msgid "REM Add a formula to cell A1. Function name must be in English."
-msgstr ""
+msgstr "REM Přidá vzorec do buňky A1.Název funkce musí být v angličtině."
 
 #. BcaTk
 #: calc_functions.xhp
@@ -38957,7 +38957,7 @@ msgctxt ""
 "par_id191632673837838\n"
 "help.text"
 msgid "REM Cell A1 displays the localized function name"
-msgstr ""
+msgstr "REM V buňce A1 se zobrazí lokalizovaný název funkce (v češtině však názvy lokalizovány nejsou)"
 
 #. V3quU
 #: calc_functions.xhp
@@ -38984,7 +38984,7 @@ msgctxt ""
 "bas_id421592358343633\n"
 "help.text"
 msgid "REM Example calling Add-in function SQRTPI"
-msgstr ""
+msgstr "REM Příklad voláni funkce SQRTPI z doplňku"
 
 #. bFnDA
 #: calc_functions.xhp
@@ -39011,7 +39011,7 @@ msgctxt ""
 "hd_id251632673972700\n"
 "help.text"
 msgid "Setting Cell Formulas with Add-In Functions"
-msgstr ""
+msgstr "Nastavení vzorců v buňkách pomocí funkcí doplňků"
 
 #. wPiTB
 #: calc_functions.xhp
@@ -39020,7 +39020,7 @@ msgctxt ""
 "par_id431632674656090\n"
 "help.text"
 msgid "The Add-In function must be expressed by its UNO service name."
-msgstr ""
+msgstr "Funkci z doplňku je nutné vyjádřit názvem její služby UNO."
 
 #. nUVAe
 #: calc_functions.xhp
@@ -39029,7 +39029,7 @@ msgctxt ""
 "par_id101632623833258\n"
 "help.text"
 msgid "REM Add an Add-In formula to cell A1. Function name is the UNO service name."
-msgstr ""
+msgstr "REM Přidá funkci doplňku do buňky A1. Názvem funkce je název služby UNO."
 
 #. Q6BTa
 #: calc_functions.xhp
@@ -39038,7 +39038,7 @@ msgctxt ""
 "par_id191632673867838\n"
 "help.text"
 msgid "REM Cell A1 displays the localized function name"
-msgstr ""
+msgstr "REM V buňce A1 se zobrazí lokalizovaný název funkce (v češtině však názvy lokalizovány nejsou)"
 
 #. mYEEy
 #: calc_functions.xhp
@@ -39047,7 +39047,7 @@ msgctxt ""
 "hd_id661632676716180\n"
 "help.text"
 msgid "Add-In Functions UNO service Names"
-msgstr ""
+msgstr "Názvy služeb UNO pro funkce doplňků"
 
 #. PsFhU
 #: calc_functions.xhp
@@ -39056,7 +39056,7 @@ msgctxt ""
 "par_id651629988674793\n"
 "help.text"
 msgid "The table below presents a list of all Calc Add-In functions and their respective UNO service names."
-msgstr ""
+msgstr "Následující tabulka udává seznam všech funkcí z doplňků Calcu a jim odpovídajících názvů služeb UNO."
 
 #. emGWD
 #: calc_functions.xhp
@@ -40118,7 +40118,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Collection Object"
-msgstr ""
+msgstr "Objekt Collection"
 
 #. TdXDY
 #: collection.xhp
@@ -40127,7 +40127,7 @@ msgctxt ""
 "bm_id3149205\n"
 "help.text"
 msgid "<bookmark_value>Collection Object</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>objekt Collection</bookmark_value>"
 
 #. 68sg6
 #: collection.xhp
@@ -40136,7 +40136,7 @@ msgctxt ""
 "hd_id791633472607429\n"
 "help.text"
 msgid "<variable id=\"Collection_h1\"><link href=\"text/sbasic/shared/collection.xhp\" name=\"New_Operator\">Collection Object</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Collection_h1\"><link href=\"text/sbasic/shared/collection.xhp\" name=\"Objekt Collection\">Objekt Collection</link></variable>"
 
 #. 7xSei
 #: collection.xhp
@@ -40145,7 +40145,7 @@ msgctxt ""
 "par_id581633961735332\n"
 "help.text"
 msgid "Collections can be used to store items of different types. Each item can be accessed by its index or by an optional key associated with it."
-msgstr ""
+msgstr "Kolekce lze používat k uchování položek různých typů. Ke každé položce lze přistupovat pomocí jejího indexu nebo pomocí volitelného klíče, který k ní je přiřazen."
 
 #. 9b4kg
 #: collection.xhp
@@ -40154,7 +40154,7 @@ msgctxt ""
 "par_id131633961959816\n"
 "help.text"
 msgid "A <literal>Collection</literal> object has the following methods:"
-msgstr ""
+msgstr "Objekt <literal>Collection</literal> má následující metody:"
 
 #. XoLQr
 #: collection.xhp
@@ -40163,7 +40163,7 @@ msgctxt ""
 "par_id331633962000259\n"
 "help.text"
 msgid "<emph>Add:</emph> inserts a new item into the collection. Optionally a string value can be defined as the key to the item."
-msgstr ""
+msgstr "<emph>Add:</emph> vloží do kolekce novou položku. Volitelně lze definovat řetězec, který bude klíčem položky."
 
 #. ddAGy
 #: collection.xhp
@@ -40172,7 +40172,7 @@ msgctxt ""
 "par_id181633962000767\n"
 "help.text"
 msgid "<emph>Count:</emph> returns the number of items in the collection."
-msgstr ""
+msgstr "<emph>Count:</emph> vrátí počet položek v kolekci."
 
 #. ad7qY
 #: collection.xhp
@@ -40181,7 +40181,7 @@ msgctxt ""
 "par_id521633962001072\n"
 "help.text"
 msgid "<emph>Item:</emph> returns the item in the collection by passing its index or key."
-msgstr ""
+msgstr "<emph>Item:</emph> vrátí položku kolekce podle jejího indexu nebo klíče."
 
 #. GX6nx
 #: collection.xhp
@@ -40190,7 +40190,7 @@ msgctxt ""
 "par_id981633962001272\n"
 "help.text"
 msgid "<emph>Remove:</emph> removes the specified item from the collection by its index or key."
-msgstr ""
+msgstr "<emph>Remove:</emph> odstraní z kolekce položku určenou podle jejího indexu nebo klíče."
 
 #. yyWx7
 #: collection.xhp
@@ -40199,7 +40199,7 @@ msgctxt ""
 "par_id221633976539661\n"
 "help.text"
 msgid "Items in a Collection can be accessed either by their indices (as in a 1-based single-dimensional Array) or by their associated keys."
-msgstr ""
+msgstr "K položkám v kolekci lze přistupovat buď pomocí jejích indexů (jako v jednorozměrném poli číslovaném od 1), nebo pomocí přiřazených klíčů."
 
 #. PheLX
 #: collection.xhp
@@ -40208,7 +40208,7 @@ msgctxt ""
 "par_id811634214809970\n"
 "help.text"
 msgid "The <link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"SFDic_link\"><literal>ScriptForge Dictionary</literal></link> service extends the <literal>Collection</literal> object by providing supplemental features as key retrieval and replacement, as well as import/export to Array objects and JSON strings."
-msgstr ""
+msgstr "Služba <link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"ScriptForge Dictionary\"><literal>ScriptForge Dictionary</literal></link> rozšiřuje objekt <literal>Collection</literal> o dodatečné funkce jako získávání a nahrazování klíčů nebo import a export do objektů polí a řetězců JSON."
 
 #. pJAht
 #: collection.xhp
@@ -40217,7 +40217,7 @@ msgctxt ""
 "hd_id51633962353863\n"
 "help.text"
 msgid "Creating a Collection"
-msgstr ""
+msgstr "Vytvoření kolekce"
 
 #. 28i8B
 #: collection.xhp
@@ -40226,7 +40226,7 @@ msgctxt ""
 "par_id491633962366024\n"
 "help.text"
 msgid "To create a <literal>Collection</literal> use the <literal>New</literal> keyword. The following example creates a <literal>Collection</literal> object and populates it with three items:"
-msgstr ""
+msgstr "Objekt <literal>Collection</literal> vytvoříte pomocí klíčového slova <literal>New</literal>. V následujícím příkladu je vytvořen objekt <literal>Collection</literal> a naplněn třemi položkami:"
 
 #. 8hHmz
 #: collection.xhp
@@ -40235,7 +40235,7 @@ msgctxt ""
 "hd_id421633962742512\n"
 "help.text"
 msgid "Adding Items"
-msgstr ""
+msgstr "Přidání položek"
 
 #. 3qnWY
 #: collection.xhp
@@ -40244,7 +40244,7 @@ msgctxt ""
 "par_id261633962766238\n"
 "help.text"
 msgid "The <literal>Add</literal> method can be used to add new items into the <literal>Collection</literal> object."
-msgstr ""
+msgstr "K přidávání nových položek do objektu <literal>Collection</literal> se používá metoda <literal>Add</literal>."
 
 #. htAaY
 #: collection.xhp
@@ -40253,7 +40253,7 @@ msgctxt ""
 "par_id501633974650241\n"
 "help.text"
 msgid "<emph>item:</emph> the item to be added to the <literal>Collection</literal>. May be of any type."
-msgstr ""
+msgstr "<emph>item:</emph> položka, která se má do objektu <literal>Collection</literal> přidat. Může být jakéhokoliv typu."
 
 #. DUGrx
 #: collection.xhp
@@ -40262,7 +40262,7 @@ msgctxt ""
 "par_id181633974650705\n"
 "help.text"
 msgid "<emph>key:</emph> string value used as the unique key used to identify this value."
-msgstr ""
+msgstr "<emph>key:</emph> řetězec použitý jako jedinečný klíč identifikující tuto hodnotu."
 
 #. yoEzK
 #: collection.xhp
@@ -40271,7 +40271,7 @@ msgctxt ""
 "par_id391633974651050\n"
 "help.text"
 msgid "<emph>before, after:</emph> optional keyword argument that indicates where the new item will be placed in the <literal>Collection</literal>. Only one of the arguments <literal>before</literal> or <literal>after</literal> can be specified to determine the index or key before which (or after which) the new item is to be placed."
-msgstr ""
+msgstr "<emph>before, after:</emph> klíčové slovo pro nepovinný argument, který určuje, kam se nová položka v objektu <literal>Collection</literal> umístí. Zadán může být pouze jediný z argumentů <literal>before</literal> a <literal>after</literal>. Argument určuje index nebo klíč, před který (či za který) se nová položka umístí."
 
 #. xcdEF
 #: collection.xhp
@@ -40280,7 +40280,7 @@ msgctxt ""
 "par_id211633962988398\n"
 "help.text"
 msgid "The example below adds two elements into a <literal>Collection</literal>. The first has a key associated with it, whereas the second does not."
-msgstr ""
+msgstr "V tomto příkladu se do objektu <literal>Collection</literal> přidají dva prvky. K prvnímu je přiřazen klíč, zatímco ke druhému není."
 
 #. ZKBEQ
 #: collection.xhp
@@ -40289,7 +40289,7 @@ msgctxt ""
 "par_id71633963110632\n"
 "help.text"
 msgid "The <literal>Add</literal> method also supports keyword arguments:"
-msgstr ""
+msgstr "Metoda <literal>Add</literal> podporuje také argumenty s klíčovými slovy:"
 
 #. ZhTZb
 #: collection.xhp
@@ -40298,7 +40298,7 @@ msgctxt ""
 "par_id941633963225913\n"
 "help.text"
 msgid "Keys must be unique in a <literal>Collection</literal> object. Comparison between keys is <emph>case-insensitive</emph>. Adding duplicated keys will result in a runtime error."
-msgstr ""
+msgstr "Klíče musí být v rámci objektu <literal>Collection</literal> jedinečné. Při porovnávání klíčů <emph>se nerozlišuje velikost písmen</emph>. Přidání duplicitního klíče způsobí běhovou chybu."
 
 #. NVgmj
 #: collection.xhp
@@ -40307,7 +40307,7 @@ msgctxt ""
 "par_id891633975568372\n"
 "help.text"
 msgid "The example below illustrates how to use the <literal>Before</literal> and <literal>After</literal> keyword arguments to determine the position of the item that is being added."
-msgstr ""
+msgstr "Následující příklad ukazuje, jak použít pro určení umístění přidávané položky argumenty <literal>before</literal> a <literal>after</literal>."
 
 #. WxjE9
 #: collection.xhp
@@ -40316,7 +40316,7 @@ msgctxt ""
 "par_id121633976325472\n"
 "help.text"
 msgid "Items in a <literal>Collection</literal> object are assigned an integer index value that starts at 1 and corresponds to the order in which they were added."
-msgstr ""
+msgstr "Položkám v objektu <literal>Collection</literal> jsou přiřazeny hodnoty celočíselných indexů, které začínají od 1 a odpovídají pořadí, v němž byly položky přidány."
 
 #. 2Lrc6
 #: collection.xhp
@@ -40325,7 +40325,7 @@ msgctxt ""
 "hd_id141633977141797\n"
 "help.text"
 msgid "Accessing Items"
-msgstr ""
+msgstr "Přístup k položkám"
 
 #. MquEn
 #: collection.xhp
@@ -40334,7 +40334,7 @@ msgctxt ""
 "par_id431633977156315\n"
 "help.text"
 msgid "Use the <literal>Item</literal> method to access a given item by its index or key."
-msgstr ""
+msgstr "K přístupu k položce podle indexu nebo klíče se používá metoda <literal>Item</literal>."
 
 #. DCFTg
 #: collection.xhp
@@ -40343,7 +40343,7 @@ msgctxt ""
 "par_id261633976447187\n"
 "help.text"
 msgid "<emph>index:</emph> an integer value specifying the index of the item to be returned."
-msgstr ""
+msgstr "<emph>index:</emph> celočíselná hodnota určující index položky, která se má vrátit."
 
 #. mqA85
 #: collection.xhp
@@ -40352,7 +40352,7 @@ msgctxt ""
 "par_id51633976782487\n"
 "help.text"
 msgid "<emph>key:</emph> a string value specifying the key of the item to be returned."
-msgstr ""
+msgstr "<emph>key:</emph> řetězec určující klíč položky, která se má vrátit."
 
 #. egnJW
 #: collection.xhp
@@ -40361,7 +40361,7 @@ msgctxt ""
 "hd_id651633976030220\n"
 "help.text"
 msgid "Removing Items"
-msgstr ""
+msgstr "Odstranění položek"
 
 #. Wteju
 #: collection.xhp
@@ -40370,7 +40370,7 @@ msgctxt ""
 "par_id391633976125206\n"
 "help.text"
 msgid "Use the <literal>Remove</literal> method to delete items from a <literal>Collection</literal> object."
-msgstr ""
+msgstr "K odstranění položek z objektu <literal>Collection</literal> se používá metoda <literal>Remove</literal>."
 
 #. sHVAN
 #: collection.xhp
@@ -40379,7 +40379,7 @@ msgctxt ""
 "par_id121633976268027\n"
 "help.text"
 msgid "Items can be removed either by their indices or key values."
-msgstr ""
+msgstr "Položky lze odstraňovat buď podle indexů, nebo podle klíčů."
 
 #. o9Eyd
 #: collection.xhp
@@ -40388,7 +40388,7 @@ msgctxt ""
 "par_id261633976447289\n"
 "help.text"
 msgid "<emph>index:</emph> an integer value specifying the index of the item to be removed."
-msgstr ""
+msgstr "<emph>index:</emph> celočíselná hodnota určující index položky, která se má odstranit."
 
 #. 8TMiC
 #: collection.xhp
@@ -40397,7 +40397,7 @@ msgctxt ""
 "par_id51633976782455\n"
 "help.text"
 msgid "<emph>key:</emph> a string value specifying the key of the item to be removed."
-msgstr ""
+msgstr "<emph>key:</emph> řetězec určující klíč položky, která se má odstranit."
 
 #. WpHmn
 #: collection.xhp
@@ -40406,7 +40406,7 @@ msgctxt ""
 "hd_id491633978085731\n"
 "help.text"
 msgid "Iterating Over all Items"
-msgstr ""
+msgstr "Iterování přes všechny položky"
 
 #. FVzmC
 #: collection.xhp
@@ -40415,7 +40415,7 @@ msgctxt ""
 "par_id91633978099143\n"
 "help.text"
 msgid "It is possible to use a <literal>For Each ... Next</literal> statement to iterate over all items in a <literal>Collection</literal>."
-msgstr ""
+msgstr "Přes všechny položky v objektu <literal>Collection</literal> lze iterovat pomocí příkazu <literal>For Each ... Next</literal>."
 
 #. EWDWE
 #: collection.xhp
@@ -40424,7 +40424,7 @@ msgctxt ""
 "hd_id191634215349347\n"
 "help.text"
 msgid "Clearing a Collection"
-msgstr ""
+msgstr "Vymazání kolekce"
 
 #. V4EZw
 #: collection.xhp
@@ -40433,7 +40433,7 @@ msgctxt ""
 "par_id891634215363485\n"
 "help.text"
 msgid "To remove all items from a <literal>Collection</literal> object call the <literal>Remove</literal> method for each item, as illustrated in the example below:"
-msgstr ""
+msgstr "Chcete-li všechny položky objektu <literal>Collection</literal> vymazat, zavolejte pro každou z nich metodu <literal>Remove</literal>, jak ukazuje následující příklad:"
 
 #. tUMtQ
 #: collection.xhp
@@ -40442,7 +40442,7 @@ msgctxt ""
 "bas_id681634215646028\n"
 "help.text"
 msgid "' Create a sample Collection with two entries"
-msgstr ""
+msgstr "' Vytvoří ukázkovou kolekci se dvěma položkami"
 
 #. Yy5nP
 #: collection.xhp
@@ -40451,7 +40451,7 @@ msgctxt ""
 "bas_id391634215647196\n"
 "help.text"
 msgid "' Removes all items in the collection"
-msgstr ""
+msgstr "' Odstraní z kolekce všechny položky"
 
 #. gvH3T
 #: compatibilitymode.xhp
@@ -40640,7 +40640,7 @@ msgctxt ""
 "N0106\n"
 "help.text"
 msgid "<literal>Option Compatible</literal> extends %PRODUCTNAME Basic compiler and runtime, allowing supplemental language constructs to Basic."
-msgstr ""
+msgstr "<literal>Option Compatible</literal> rozšiřuje kompilátor a běhové prostředí jazyka %PRODUCTNAME Basic a tím umožňuje používat další konstrukty tohoto jazyka."
 
 #. SNhhH
 #: compatible.xhp
@@ -41333,7 +41333,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Is Operator"
-msgstr ""
+msgstr "Operátor Is"
 
 #. xvBgn
 #: is_keyword.xhp
@@ -41342,7 +41342,7 @@ msgctxt ""
 "bm_id3149205\n"
 "help.text"
 msgid "<bookmark_value>Is Operator</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>operátor Is</bookmark_value>"
 
 #. 7otAB
 #: is_keyword.xhp
@@ -41351,7 +41351,7 @@ msgctxt ""
 "hd_id791633472607429\n"
 "help.text"
 msgid "<variable id=\"IsOperator_h1\"><link href=\"text/sbasic/shared/is_keyword.xhp\" name=\"Is_Operator\">Is Operator</link></variable>"
-msgstr ""
+msgstr "<variable id=\"IsOperator_h1\"><link href=\"text/sbasic/shared/is_keyword.xhp\" name=\"Operátor Is\">Operátor Is</link></variable>"
 
 #. mwGMA
 #: is_keyword.xhp
@@ -41360,7 +41360,7 @@ msgctxt ""
 "par_id3145090\n"
 "help.text"
 msgid "Tests if two Basic variables refer to the same object instance."
-msgstr ""
+msgstr "Ověří, zda dvě proměnné jazyka Basic odkazují na tutéž instanci objektu."
 
 #. HTVQA
 #: is_keyword.xhp
@@ -41369,7 +41369,7 @@ msgctxt ""
 "par_id441633531311929\n"
 "help.text"
 msgid "If <literal>oObj1</literal> and <literal>oObj2</literal> are references to the same object instance, the result will be <emph>True</emph>."
-msgstr ""
+msgstr "Pokud <literal>oObj1</literal> a <literal>oObj2</literal> odkazují na tutéž instanci objektu, bude výsledek <emph>True</emph>."
 
 #. akugg
 #: is_keyword.xhp
@@ -41378,7 +41378,7 @@ msgctxt ""
 "par_id771633473462939\n"
 "help.text"
 msgid "The example below first defines a new type <literal>Student</literal>. Calling <literal>TestObjects</literal> creates the object <literal>oStudent1</literal> as a new object of this type."
-msgstr ""
+msgstr "V následujícím příkladu je nejprve definován nový typ <literal>Student</literal>. Volání <literal>TestObjects</literal> vytvoří objekt <literal>oStudent1</literal> jako nový objekt tohoto typu."
 
 #. mAAho
 #: is_keyword.xhp
@@ -41387,7 +41387,7 @@ msgctxt ""
 "par_id841633532400710\n"
 "help.text"
 msgid "The assignment <literal>oStudent2 = oStudent1</literal> actually copies the reference to the same object. Hence the result of applying the <literal>Is</literal> operator is <emph>True</emph>."
-msgstr ""
+msgstr "Přiřazením <literal>oStudent2 = oStudent1</literal> se zkopíruje odkaz na tentýž objekt. Výsledkem použití operátoru <literal>Is</literal> je proto <emph>True</emph>."
 
 #. mvVuR
 #: is_keyword.xhp
@@ -41396,7 +41396,7 @@ msgctxt ""
 "par_id181633473874216\n"
 "help.text"
 msgid "The example below returns <emph>False</emph> because <literal>oStudent1</literal> and <literal>oStudent2</literal> are references to two different object instances, each created with the <literal>New</literal> operator."
-msgstr ""
+msgstr "Následující příklad vrátí <emph>False</emph>, protože <literal>oStudent1</literal> a <literal>oStudent2</literal> jsou odkazy na dvě odlišné instance objektu, z nichž každá byla vytvořena operátorem <literal>New</literal>."
 
 #. onSEk
 #: keys.xhp
@@ -41711,7 +41711,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "New Operator"
-msgstr ""
+msgstr "Operátor New"
 
 #. 8iBmc
 #: new_keyword.xhp
@@ -41720,7 +41720,7 @@ msgctxt ""
 "bm_id3149205\n"
 "help.text"
 msgid "<bookmark_value>New Operator</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>operátor New</bookmark_value>"
 
 #. T3AA8
 #: new_keyword.xhp
@@ -41729,7 +41729,7 @@ msgctxt ""
 "hd_id791633472607429\n"
 "help.text"
 msgid "<variable id=\"NewOperator_h1\"><link href=\"text/sbasic/shared/new_keyword.xhp\" name=\"New_Operator\">New Operator</link></variable>"
-msgstr ""
+msgstr "<variable id=\"NewOperator_h1\"><link href=\"text/sbasic/shared/new_keyword.xhp\" name=\"Operátor New\">Operátor New</link></variable>"
 
 #. BWufp
 #: new_keyword.xhp
@@ -41738,7 +41738,7 @@ msgctxt ""
 "par_id3145090\n"
 "help.text"
 msgid "Use the <literal>New</literal> operator to instantiate objects of user-defined types, as well as Uno services, structs and enumerations."
-msgstr ""
+msgstr "Operátor <literal>New</literal> se používá k vytváření instancí objektů jak uživatelem definovaným typů, tak služeb, struktur a výčtů Uno."
 
 #. uDGEZ
 #: new_keyword.xhp
@@ -41747,7 +41747,7 @@ msgctxt ""
 "par_id831633630704012\n"
 "help.text"
 msgid "The <literal>New</literal> operator can be used either during variable declaration or in an assignment operation."
-msgstr ""
+msgstr "Operátor <literal>New</literal> lze použít buď během deklarace proměnné, nebo během operace přiřazení."
 
 #. r6osC
 #: new_keyword.xhp
@@ -41756,7 +41756,7 @@ msgctxt ""
 "par_id621633630563936\n"
 "help.text"
 msgid "The following example uses the <literal>New</literal> operator to create an instance of the <literal>PropertyValue</literal> Uno struct."
-msgstr ""
+msgstr "V následujícím příkladu se operátor <literal>New</literal> používá pro vytvoření instance struktury Uno <literal>PropertyValue</literal>."
 
 #. nPNvc
 #: new_keyword.xhp
@@ -41765,7 +41765,7 @@ msgctxt ""
 "bas_id631633630856218\n"
 "help.text"
 msgid "' Instantiating the object during variable declaration"
-msgstr ""
+msgstr "' Vytvoření instance objektu během deklarace proměnné"
 
 #. Ts8iC
 #: new_keyword.xhp
@@ -41774,7 +41774,7 @@ msgctxt ""
 "bas_id11633631135918\n"
 "help.text"
 msgid "' The same can be accomplished with an assignment"
-msgstr ""
+msgstr "' Téhož lze dosáhnout pomocí přiřazení"
 
 #. 6RJcJ
 #: new_keyword.xhp
@@ -41783,7 +41783,7 @@ msgctxt ""
 "par_id971633631328827\n"
 "help.text"
 msgid "The example below creates a new type <literal>Student</literal> and instantiates an object of this type:"
-msgstr ""
+msgstr "V níže uvedeném příkladu jsou vytvořeny nový typ <literal>Student</literal> a instance objektu tohoto typu:"
 
 #. r4nQn
 #: partition.xhp
@@ -42152,7 +42152,7 @@ msgctxt ""
 "par_id721552552263062\n"
 "help.text"
 msgid "<emph>Expression:</emph> Any string expression that you want to modify."
-msgstr ""
+msgstr "<emph>Expression:</emph> Řetězec, který chcete změnit."
 
 #. DZNvL
 #: replace.xhp
@@ -42161,7 +42161,7 @@ msgctxt ""
 "par_id901552552269836\n"
 "help.text"
 msgid "<emph>Find:</emph> Any string expression that shall be searched for."
-msgstr ""
+msgstr "<emph>Find:</emph> Řetězec, který se má vyhledat."
 
 #. BRcsD
 #: replace.xhp
@@ -42170,7 +42170,7 @@ msgctxt ""
 "par_id791552552275383\n"
 "help.text"
 msgid "<emph>Replace:</emph> Any string expression that shall replace the found search string."
-msgstr ""
+msgstr "<emph>Replace:</emph> Řetězec, který má být náhradou nalezeného řetězce."
 
 #. dXu9i
 #: replace.xhp
@@ -42179,7 +42179,7 @@ msgctxt ""
 "par_id111552552283060\n"
 "help.text"
 msgid "<emph>Start:</emph> Optional numeric expression that indicates the character position where the search starts and also the start of the substring to be returned."
-msgstr ""
+msgstr "<emph>Start:</emph> Číselný výraz, který značí pozici znaku, z níž se začne vyhledávat, a zároveň začátek řetězce, který se má vrátit."
 
 #. jCuAB
 #: replace.xhp
@@ -42188,7 +42188,7 @@ msgctxt ""
 "par_id921552552289833\n"
 "help.text"
 msgid "<emph>Count:</emph> Optional maximum number of times the replace shall be performed. When set to -1, all possible replacements are performed."
-msgstr ""
+msgstr "<emph>Count:</emph> Nepovinný maximální počet toho, kolikrát se má text nahradit. Je-li nastaven na -1, nahradí se všechny vyhledané výskyty."
 
 #. 2VHcc
 #: replace.xhp
@@ -42197,7 +42197,7 @@ msgctxt ""
 "par_id891552552302894\n"
 "help.text"
 msgid "<emph>Compare:</emph> Optional boolean expression that defines the type of comparison. The value of this parameter can be <literal>True</literal> or <literal>False</literal>. The default value of <literal>True</literal> specifies a text comparison that is not case-sensitive. The value of <literal>False</literal> specifies a binary comparison that is case-sensitive. You can as well use 0 instead of <literal>False</literal> or 1 instead of <literal>True</literal>."
-msgstr ""
+msgstr "<emph>Compare:</emph> Nepovinný booleovský výraz, který určuje druh porovnávání. Hodnota tohoto parametru může být <literal>True</literal> nebo <literal>False</literal>. Výchozí hodnota <literal>True</literal> určuje, že při porovnání textu nezáleží na velikosti znaků. Hodnota <literal>False</literal> určuje binární porovnávání, u něhož na velikosti znaků záleží. Místo <literal>False</literal> lze použít hodnotu 0 a místo <literal>True</literal> hodnotu 1."
 
 #. GoUoB
 #: replace.xhp
@@ -42206,7 +42206,7 @@ msgctxt ""
 "par_id991552552420717\n"
 "help.text"
 msgid "MsgBox Replace (\"aBbcnnbnn\", \"b\", \"$\", 1, 1, False)  'returns \"aB$cnnbnn\""
-msgstr ""
+msgstr "MsgBox Replace (\"aBbcnnbnn\", \"b\", \"$\", 1, 1, False)  'vrátí \"aB$cnnbnn\""
 
 #. ZHjzn
 #: replace.xhp
@@ -42224,7 +42224,7 @@ msgctxt ""
 "par_id571552552467647\n"
 "help.text"
 msgid "REM * only when lowercase (compare=False), hence second occurrence of \"b\""
-msgstr ""
+msgstr "REM * pouze zapsané malými písmeny (compare=False), proto jde až od druhý výskyt \"b\""
 
 #. ACEgG
 #: replace.xhp
@@ -42233,7 +42233,7 @@ msgctxt ""
 "par_id71552552474769\n"
 "help.text"
 msgid "REM * only first (respecting case) occurrence (count=1)"
-msgstr ""
+msgstr "REM * pouze první výskyt dané velikosti (count=1)"
 
 #. QEPtG
 #: replace.xhp
@@ -42251,7 +42251,7 @@ msgctxt ""
 "bas_id491622734884707\n"
 "help.text"
 msgid "MsgBox Replace(\"aBbcnnbnn\", \"b\", \"$£\", compare:=False)  'returns \"aB$£cnn$£nn\""
-msgstr ""
+msgstr "MsgBox Replace(\"aBbcnnbnn\", \"b\", \"$£\", compare:=False)  'vrátí \"aB$£cnn$£nn\""
 
 #. KMcAt
 #: replace.xhp
@@ -42260,7 +42260,7 @@ msgctxt ""
 "bas_id341622734993202\n"
 "help.text"
 msgid "REM Replace all (count = -1) \"b\" with \"$£\" respecting casing (compare=False) starting from first letter (start=1)"
-msgstr ""
+msgstr "REM nahradí všechna (count = -1) \"b\" řetězcem \"$£\" při rozlišování velikosti písmen (compare=False) a od prvního písmena (start=1)"
 
 #. Z9NfM
 #: special_vba_func.xhp
@@ -42404,7 +42404,7 @@ msgctxt ""
 "bm_id051920170358346963\n"
 "help.text"
 msgid "<bookmark_value>VBA Functions;Mathematical Functions</bookmark_value><bookmark_value>VBA Functions;formatting numbers</bookmark_value><bookmark_value>VBA Functions;partitioning numbers</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>funkce VBA;matematické funkce</bookmark_value><bookmark_value>funkce VBA;formátování čísel</bookmark_value><bookmark_value>funkce VBA;výskyt čísel v intervalu</bookmark_value>"
 
 #. AXMSu
 #: special_vba_func.xhp
@@ -42485,7 +42485,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "StrConv Function [VBA]"
-msgstr ""
+msgstr "Funkce StrConv [VBA]"
 
 #. Gq99z
 #: strconv.xhp
@@ -42494,7 +42494,7 @@ msgctxt ""
 "bm_id941622761814292\n"
 "help.text"
 msgid "<bookmark_value>StrConv function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>StrConv</bookmark_value>"
 
 #. jBFFC
 #: strconv.xhp
@@ -42503,7 +42503,7 @@ msgctxt ""
 "hd_id791622761498015\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/strconv.xhp\" name=\"StrConv Function\">StrConv Function</link>"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/strconv.xhp\" name=\"Funkce StrConv\">Funkce StrConv</link>"
 
 #. V3uyt
 #: strconv.xhp
@@ -42512,7 +42512,7 @@ msgctxt ""
 "par_id621622761498018\n"
 "help.text"
 msgid "<variable id=\"variable name\">Convert a string as specified by a conversion type.</variable>"
-msgstr ""
+msgstr "<variable id=\"variable name\">Převede řetězec tak, jak určuje typ převodu.</variable>"
 
 #. aVAee
 #: strconv.xhp
@@ -42521,7 +42521,7 @@ msgctxt ""
 "par_id771622762489917\n"
 "help.text"
 msgid "StrConv(Text, Conversion, [ LCID ])"
-msgstr ""
+msgstr "StrConv(Text, Conversion, [ LCID ])"
 
 #. Crvxp
 #: strconv.xhp
@@ -42530,7 +42530,7 @@ msgctxt ""
 "par_id421622762822934\n"
 "help.text"
 msgid "<emph>Text</emph>: Any valid string expression."
-msgstr ""
+msgstr "<emph>Text</emph>: Jakýkoliv řetězec."
 
 #. 56k2A
 #: strconv.xhp
@@ -42539,7 +42539,7 @@ msgctxt ""
 "par_id671622762931475\n"
 "help.text"
 msgid "<emph>Conversion</emph>: The type of conversion to perform, as defined in the table below."
-msgstr ""
+msgstr "<emph>Conversion</emph>: Typ převodu, který se má provést. Typy jsou uvedeny v následující tabulce."
 
 #. Y7PoD
 #: strconv.xhp
@@ -42548,7 +42548,7 @@ msgctxt ""
 "par_id531622763145456\n"
 "help.text"
 msgid "Conversion"
-msgstr ""
+msgstr "Převod"
 
 #. gzFBG
 #: strconv.xhp
@@ -42557,7 +42557,7 @@ msgctxt ""
 "par_id131622763145457\n"
 "help.text"
 msgid "Value"
-msgstr ""
+msgstr "Hodnota"
 
 #. 6dDST
 #: strconv.xhp
@@ -42566,7 +42566,7 @@ msgctxt ""
 "par_id411622763145457\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #. WmnMz
 #: strconv.xhp
@@ -42575,7 +42575,7 @@ msgctxt ""
 "par_id421622763145458\n"
 "help.text"
 msgid "Converts <emph>Text</emph> characters to uppercase."
-msgstr ""
+msgstr "Převede znaky argumentu <emph>Text</emph> na velká písmena."
 
 #. FMyrC
 #: strconv.xhp
@@ -42584,7 +42584,7 @@ msgctxt ""
 "par_id251622763427976\n"
 "help.text"
 msgid "Converts <emph>Text</emph> characters lowercase."
-msgstr ""
+msgstr "Převede znaky argumentu <emph>Text</emph> na malá písmena."
 
 #. 8HoXG
 #: strconv.xhp
@@ -42593,7 +42593,7 @@ msgctxt ""
 "par_id531622764070154\n"
 "help.text"
 msgid "Converts the first letter of every word in <emph>Text</emph> to uppercase."
-msgstr ""
+msgstr "Převede první písmeno každého slova argumentu <emph>Text</emph> na velká písmena."
 
 #. AF58D
 #: strconv.xhp
@@ -42602,7 +42602,7 @@ msgctxt ""
 "par_id881622764192628\n"
 "help.text"
 msgid "Converts narrow (<link href=\"text/shared/00/00000005.xhp#halfwidth\" name=\"halfwidth\">half-width</link>) characters in <emph>Text</emph> to wide (<link href=\"text/shared/00/00000005.xhp#halfwidth\" name=\"halfwidth\">full-width</link>) characters."
-msgstr ""
+msgstr "Převede úzké znaky (<link href=\"text/shared/00/00000005.xhp#halfwidth\" name=\"poloviční šířka\">s poloviční šířkou</link>) v argumentu <emph>Text</emph> na široké (<link href=\"text/shared/00/00000005.xhp#halfwidth\" name=\"poloviční šířka\">s plnou šířkou</link>)."
 
 #. RAUq6
 #: strconv.xhp
@@ -42611,7 +42611,7 @@ msgctxt ""
 "par_id71622764459352\n"
 "help.text"
 msgid "Converts wide (<link href=\"text/shared/00/00000005.xhp#halfwidth\" name=\"halfwidth\">full-width</link>) characters in <emph>Text</emph> to narrow (<link href=\"text/shared/00/00000005.xhp#halfwidth\" name=\"halfwidth\">half-width</link>) characters."
-msgstr ""
+msgstr "Převede široké znaky (<link href=\"text/shared/00/00000005.xhp#halfwidth\" name=\"poloviční šířka\">s plnou šířkou</link>) v argumentu <emph>Text</emph> na úzké (<link href=\"text/shared/00/00000005.xhp#halfwidth\" name=\"poloviční šířka\">s poloviční šířkou</link>)."
 
 #. fAVnd
 #: strconv.xhp
@@ -42620,7 +42620,7 @@ msgctxt ""
 "par_id371622764565366\n"
 "help.text"
 msgid "Converts Hiragana characters in <emph>Text</emph> to Katakana characters."
-msgstr ""
+msgstr "Převede znaky písma hiragana v argumentu <emph>Text</emph> na znaky písma katakana."
 
 #. BmF5K
 #: strconv.xhp
@@ -42629,7 +42629,7 @@ msgctxt ""
 "par_id911622764728794\n"
 "help.text"
 msgid "Converts Katakana characters in <emph>Text</emph> to Hiragana characters."
-msgstr ""
+msgstr "Převede znaky písma katakana v argumentu <emph>Text</emph> na znaky písma hiragana."
 
 #. 2tpZF
 #: strconv.xhp
@@ -42638,7 +42638,7 @@ msgctxt ""
 "par_id21622764841321\n"
 "help.text"
 msgid "Converts <emph>Text</emph> characters to Unicode characters using the default code page of the system."
-msgstr ""
+msgstr "Převede znaky v argumentu <emph>Text</emph> na znaky Unicode, a to pomocí výchozího kódování systému."
 
 #. EhJtA
 #: strconv.xhp
@@ -42647,7 +42647,7 @@ msgctxt ""
 "par_id901622764984846\n"
 "help.text"
 msgid "vbFromUnicode"
-msgstr ""
+msgstr "vbFromUnicode"
 
 #. mn5xD
 #: strconv.xhp
@@ -42656,7 +42656,7 @@ msgctxt ""
 "par_id281622764984846\n"
 "help.text"
 msgid "128"
-msgstr ""
+msgstr "128"
 
 #. 4VdbE
 #: strconv.xhp
@@ -42665,7 +42665,7 @@ msgctxt ""
 "par_id221622764991492\n"
 "help.text"
 msgid "Converts <emph>Text</emph> characters from Unicode to the default code page of the system."
-msgstr ""
+msgstr "Převede znaky v argumentu <emph>Text</emph> z Unicode na výchozí kódování systému."
 
 #. B2oeo
 #: strconv.xhp
@@ -42674,7 +42674,7 @@ msgctxt ""
 "par_id761622765118156\n"
 "help.text"
 msgid "<emph>LCID</emph> Optional. The Locale ID in decimal number. If this parameter is omitted, it assumes the system Locale ID. Refer to the file <link href=\"https://opengrok.libreoffice.org/xref/core/l10ntools/source/ulfconv/msi-encodinglist.txt\" name=\"LCID\">msi-encodinglist.txt</link> for the available LCID values."
-msgstr ""
+msgstr "<emph>LCID</emph>: Nepovinné. ID národního prostředí jako desítkové číslo. Je-li tento parametr vynechán, předpokládá se ID národního prostředí systému. Dostupné hodnoty LCID naleznete v souboru <link href=\"https://opengrok.libreoffice.org/xref/core/l10ntools/source/ulfconv/msi-encodinglist.txt\" name=\"LCID\">msi-encodinglist.txt</link>."
 
 #. CdCwD
 #: strconv.xhp
@@ -42683,7 +42683,7 @@ msgctxt ""
 "par_id311622770486052\n"
 "help.text"
 msgid "REM Converts narrow (single-byte) characters in string to wide"
-msgstr ""
+msgstr "REM Převede úzké (jednobajtové) znaky řetězce na široké"
 
 #. ysFBA
 #: strconv.xhp
@@ -42692,7 +42692,7 @@ msgctxt ""
 "par_id231622770493491\n"
 "help.text"
 msgid "REM Converts wide (double-byte) characters in string to narrow (single-byte) characters"
-msgstr ""
+msgstr "REM Převede široké (dvoubajtové) znaky řetězce na úzké (jednobajtové)"
 
 #. EitmH
 #: strconv.xhp
@@ -42701,7 +42701,7 @@ msgctxt ""
 "par_id871622770498992\n"
 "help.text"
 msgid "REM Converts Hiragana characters in string to Katakana characters"
-msgstr ""
+msgstr "REM Převede znaky písma hiragana na znaky písma katakana"
 
 #. WxMQr
 #: strconv.xhp
@@ -42710,7 +42710,7 @@ msgctxt ""
 "par_id351622770504087\n"
 "help.text"
 msgid "REM Converts Katakana characters in string to Hiragana characters"
-msgstr ""
+msgstr "REM Převede znaky písma katakana na znaky písma hiragana"
 
 #. 4wc9E
 #: thisdbdoc.xhp
@@ -42719,7 +42719,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ThisDatabaseDocument object"
-msgstr ""
+msgstr "Objekt ThisDatabaseDocument"
 
 #. rDs9b
 #: thisdbdoc.xhp
@@ -42728,7 +42728,7 @@ msgctxt ""
 "N0089\n"
 "help.text"
 msgid "<bookmark_value>ThisDatabaseDocument</bookmark_value>            <bookmark_value>API; Database document</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ThisDatabaseDocument</bookmark_value><bookmark_value>API;dokument databáze</bookmark_value>"
 
 #. v4XLY
 #: thisdbdoc.xhp
@@ -42737,7 +42737,7 @@ msgctxt ""
 "hd_id401544551916353\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/thisdbdoc.xhp\" name=\"ThisDatabaseDocument\">ThisDatabaseDocument object</link>"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/thisdbdoc.xhp\" name=\"ThisDatabaseDocument\">Objekt ThisDatabaseDocument</link>"
 
 #. CT58E
 #: thisdbdoc.xhp
@@ -42746,7 +42746,7 @@ msgctxt ""
 "N0091\n"
 "help.text"
 msgid "<literal>ThisDatabaseDocument</literal> addresses the active <literal>Base</literal> document whose properties can be read and set, and whose methods can be called."
-msgstr ""
+msgstr "<literal>ThisDatabaseDocument</literal> odkazuje na aktivní dokument aplikace <literal>Base</literal>, jehož vlastnosti lze číst a nastavovat a jehož metody lze volat."
 
 #. umGF9
 #: thisdbdoc.xhp
@@ -42755,7 +42755,7 @@ msgctxt ""
 "par_id241622646033201\n"
 "help.text"
 msgid "<literal>ThisDatabaseDocument</literal> returns an object of type <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sdb_1_1OfficeDatabaseDocument.html\" name=\"XOfficeDatabaseDocument interface\">com.sun.star.sdb.XOfficeDatabaseDocument</link>."
-msgstr ""
+msgstr "<literal>ThisDatabaseDocument</literal> vrátí objekt typu <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sdb_1_1OfficeDatabaseDocument.html\" name=\"Rozhraní XOfficeDatabaseDocument\">com.sun.star.sdb.XOfficeDatabaseDocument</link>."
 
 #. EFj3T
 #: thisdbdoc.xhp
@@ -42764,7 +42764,7 @@ msgctxt ""
 "par_id241622797081182\n"
 "help.text"
 msgid "When the active window does not relate to a Base document, <literal>ThisDatabaseDocument</literal> returns <literal>Nothing</literal>."
-msgstr ""
+msgstr "Pokud se aktivní okno netýká dokumentu Base, <literal>ThisDatabaseDocument</literal> vrátí <literal>Nothing</literal>."
 
 #. WvPJY
 #: thisdbdoc.xhp
@@ -42773,7 +42773,7 @@ msgctxt ""
 "par_id871622796485123\n"
 "help.text"
 msgid "When the active window is the Basic IDE, <literal>ThisDatabaseDocument</literal> object returns the database owning the current script."
-msgstr ""
+msgstr "Pokud je aktivním oknem IDE jazyka Basic, objekt <literal>ThisDatabaseDocument</literal> vrátí databázi, která vlastní aktuální skript."
 
 #. DrF8G
 #: thisdbdoc.xhp
@@ -42782,7 +42782,7 @@ msgctxt ""
 "par_id631622806529469\n"
 "help.text"
 msgid "Opening current database \"formName\" and maximizing it can be achieved as shown:"
-msgstr ""
+msgstr "Následujícím způsobem je možné otevřít aktuální databázi „formName“ a maximalizovat ji:"
 
 #. wxbXC
 #: thisdbdoc.xhp
@@ -42791,7 +42791,7 @@ msgctxt ""
 "par_id251622800540402\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/03132200.xhp\" name=\"ThisComponent object\">ThisComponent</link> object"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/03132200.xhp\" name=\"Objekt ThisComponent\">Objekt ThisComponent</link>"
 
 #. 7k6AR
 #: thisdbdoc.xhp
@@ -42800,7 +42800,7 @@ msgctxt ""
 "par_id101622646874083\n"
 "help.text"
 msgid "<link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sdb_1_1OfficeDatabaseDocument.html\" name=\"OfficeDatabaseDocument API service\">com.sun.star.sdb.OfficeDatabaseDocument</link> API service"
-msgstr ""
+msgstr "Služba API <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sdb_1_1OfficeDatabaseDocument.html\" name=\"Služba API OfficeDatabaseDocument\">com.sun.star.sdb.OfficeDatabaseDocument</link>"
 
 #. 7Znag
 #: thisdbdoc.xhp
@@ -42809,7 +42809,7 @@ msgctxt ""
 "par_id581622646875379\n"
 "help.text"
 msgid "<link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1OfficeDocument.html\" name=\"OfficeDocument API service\">com.sun.star.document.OfficeDocument</link> API service"
-msgstr ""
+msgstr "Služba API <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1document_1_1OfficeDocument.html\" name=\"Služba API OfficeDocument\">com.sun.star.document.OfficeDocument</link>"
 
 #. WMVc9
 #: uno_objects.xhp
@@ -42827,7 +42827,7 @@ msgctxt ""
 "bm_id171544787218331\n"
 "help.text"
 msgid "<bookmark_value>programming;UNO objects</bookmark_value>    <bookmark_value>UNO objects</bookmark_value>    <bookmark_value>UNO functions</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>programování;objekty UNO</bookmark_value><bookmark_value>objekty UNO</bookmark_value><bookmark_value>funkce UNO</bookmark_value><bookmark_value>UNO;objekty a funkce</bookmark_value>"
 
 #. DhRpt
 #: uno_objects.xhp
@@ -42836,7 +42836,7 @@ msgctxt ""
 "hd_id3156027\n"
 "help.text"
 msgid "<variable id=\"UnoObjects_h1\"><link href=\"text/sbasic/shared/uno_objects.xhp\" name=\"UnoObjects_help\">UNO Objects, Functions and Services</link></variable>"
-msgstr ""
+msgstr "<variable id=\"UnoObjects_h1\"><link href=\"text/sbasic/shared/uno_objects.xhp\" name=\"Objekty UNO\">Objekty, funkce a služby UNO</link></variable>"
 
 #. 9xsDp
 #: uno_objects.xhp
@@ -42854,7 +42854,7 @@ msgctxt ""
 "hd_id121622648046670\n"
 "help.text"
 msgid "%PRODUCTNAME Global Objects"
-msgstr ""
+msgstr "Globální objekty %PRODUCTNAME"
 
 #. xd3nC
 #: uno_objects.xhp
@@ -42863,7 +42863,7 @@ msgctxt ""
 "hd_id121622648046680\n"
 "help.text"
 msgid "Active document Objects"
-msgstr ""
+msgstr "Objekty aktivního dokumentu"
 
 #. NxFfo
 #: uno_objects.xhp
@@ -42872,7 +42872,7 @@ msgctxt ""
 "par_id481622648684689\n"
 "help.text"
 msgid "The following objects can be used from the active document."
-msgstr ""
+msgstr "Z aktivního dokumentu je možné používat následující objekty."
 
 #. yFvUL
 #: uno_objects.xhp
@@ -42899,7 +42899,7 @@ msgctxt ""
 "hd_id151622648087678\n"
 "help.text"
 msgid "UNO Methods"
-msgstr ""
+msgstr "Metody UNO"
 
 #. WVSFD
 #: uno_objects.xhp
@@ -42908,7 +42908,7 @@ msgctxt ""
 "par_id481622648684690\n"
 "help.text"
 msgid "Use the following methods to manage or query Unified Network Objects (UNO)."
-msgstr ""
+msgstr "Pomocí následujících metod lze spravovat objekty UNO (Unified Network Objects) nebo se na ně dotazovat."
 
 #. 8GF88
 #: uno_objects.xhp
