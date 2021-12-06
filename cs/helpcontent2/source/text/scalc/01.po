@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-06-24 12:51+0200\n"
-"PO-Revision-Date: 2021-12-05 10:38+0000\n"
+"PO-Revision-Date: 2021-12-06 18:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-7-2/textscalc01/cs/>\n"
 "Language: cs\n"
@@ -5145,7 +5145,7 @@ msgctxt ""
 "par_id3156133\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBANZAHL\">DCOUNT counts the number of cells (fields) of the specified column that contain numeric values, for all rows (database records) that match the specified search criteria.</ahelp> However, if no column is specified, DCOUNT returns the count of all records that match the specified search criteria irrespective of their contents."
-msgstr "<ahelp hid=\"HID_FUNC_DBANZAHL\">DCOUNT vypočítá počet buněk (polí) zadaného sloupce, které obsahují číselné hodnoty odpovídající zadaným kritériím vyhledávání, a to ze všech řádků (záznamů databáze).</ahelp> Není-li sloupec zadán, DCOUNT vrátí počet všech záznamů odpovídajících kritériím, a to bez ohledu na obsah."
+msgstr "<ahelp hid=\"HID_FUNC_DBANZAHL\">DCOUNT vypočítá počet buněk (polí) zadaného sloupce, které obsahují číselné hodnoty, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Není-li sloupec zadán, DCOUNT vrátí počet všech záznamů odpovídajících kritériím, a to bez ohledu na obsah."
 
 #. EetM7
 #: 04060101.xhp
@@ -5190,7 +5190,7 @@ msgctxt ""
 "bm_id3156123\n"
 "help.text"
 msgid "<bookmark_value>DCOUNTA function</bookmark_value><bookmark_value>records;counting in Calc databases</bookmark_value><bookmark_value>counting rows;with numeric or alphanumeric values</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DCOUNTA</bookmark_value><bookmark_value>záznamy; počítání v databázích Calcu</bookmark_value><bookmark_value>počítání řádků; s numerickými nebo alfanumerickými hodnotami</bookmark_value>"
 
 #. aJdyL
 #: 04060101.xhp
@@ -5208,7 +5208,7 @@ msgctxt ""
 "par_id3156110\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBANZAHL2\">DCOUNTA counts the number of cells (fields) of the specified column that are not blank, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells of the specified column are not counted. However, if no column is specified, DCOUNTA returns the count of all records that match the specified search criteria irrespective of their contents."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBANZAHL2\">DCOUNTA vypočítá počet buněk (polí) zadaného sloupce, které nejsou prázdné, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Prázdné buňky zadaného sloupce se nepočítají. Není-li sloupec zadán, DCOUNTA vrátí počet všech záznamů odpovídajících kritériím, a to bez ohledu na obsah."
 
 #. CxWGV
 #: 04060101.xhp
@@ -5226,7 +5226,7 @@ msgctxt ""
 "par_id3153982\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">600\" (this search criterion will match records in the database table that have a value greater than 600 in the Distance column)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky D13, která obsahuje \">600\" (toto kritérium vyhledávání nalezne záznamy databázové tabulky, které mají ve sloupci Vzdálenost hodnoty větší než 600)."
 
 #. SSD7D
 #: 04060101.xhp
@@ -5235,7 +5235,7 @@ msgctxt ""
 "par_id61616368616093\n"
 "help.text"
 msgid "Insert the formula <input>=DCOUNTA(A1:E10;; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate how many of Joe’s party guests travel further than 600 meters to school. The value 5 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DCOUNTA(A1:E10;;A12:E13)</input>, který vypočítá, kolik Janových hostů cestuje do školy dále než 600 metrů. Vrátí se hodnota 5."
 
 #. WyEGc
 #: 04060101.xhp
@@ -5244,7 +5244,7 @@ msgctxt ""
 "par_id841616368623207\n"
 "help.text"
 msgid "The same result is obtained if you use the formula <input>=DCOUNTA(A1:E10; \"Distance\"; A12:E13)</input> or the formula <input>=DCOUNTA(A1:E10; \"Name\"; A12:E13)</input>. The latter case reflects that in contrast to DCOUNT, DCOUNTA counts both numeric and alphanumeric values in the column indicated by the <emph>DatabaseField</emph> argument."
-msgstr ""
+msgstr "Stejný výsledek dostanete při použití vzorce <input>=DCOUNTA(A1:E10; \"Vzdálenost\"; A12:E13)</input> nebo <input>=DCOUNTA(A1:E10; \"Jméno\"; A12:E13)</input>. Druhý případ ilustruje, že na rozdíl od funkce DCOUNT počítá funkce DCOUNTA ve sloupci zadaném jako argument <emph>Pole databáze</emph> jak číselné, tak alfanumerické hodnoty."
 
 #. GasLC
 #: 04060101.xhp
@@ -5253,7 +5253,7 @@ msgctxt ""
 "bm_id3147256\n"
 "help.text"
 msgid "<bookmark_value>DGET function</bookmark_value><bookmark_value>cell contents;searching in Calc databases</bookmark_value><bookmark_value>searching;cell contents in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DGET</bookmark_value><bookmark_value>obsah buňky;vyhledávání v databázích Calcu</bookmark_value> <bookmark_value>vyhledávání;obsah buňky v databázích Calcu</bookmark_value>"
 
 #. wj7ck
 #: 04060101.xhp
@@ -5271,7 +5271,7 @@ msgctxt ""
 "par_id3152801\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBAUSZUG\">DGET returns the contents of the cell (field) of the specified column, for the single row (database record) that matches the specified search criteria.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBAUSZUG\">DGET vrátí obsah buňky (pole) zadaného sloupce, a to pro jeden řádek (záznam databáze) vyhovující zadaným kritériím vyhledávání.</ahelp>"
 
 #. GxBWY
 #: 04060101.xhp
@@ -5280,7 +5280,7 @@ msgctxt ""
 "par_id171616180137385\n"
 "help.text"
 msgid "Calc reports Err:502 (invalid argument) if multiple matches are found, or a #VALUE! error (wrong data type) if no matches are found. A #VALUE! error is also reported if a single match is found but the relevant cell is empty."
-msgstr ""
+msgstr "Pokud je nalezeno více výskytů, nastane Chyba:502 (neplatný argument), není-li nalezen žádný výskyt, nastane chyba #VALUE!. K chybě #VALUE! dojde také tehdy, když je nalezen jediný výskyt, ale odpovídající buňka je prázdná."
 
 #. oFi8J
 #: 04060101.xhp
@@ -5298,7 +5298,7 @@ msgctxt ""
 "par_id3155388\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell C13 which should contain \"11\" (this search criterion will match records in the database table that have a value of 11 in the Age column)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky C13, která obsahuje \"11\" (toto kritérium vyhledávání nalezne záznamy databázové tabulky, které mají ve sloupci Věk hodnotu 11)."
 
 #. A942C
 #: 04060101.xhp
@@ -5307,7 +5307,7 @@ msgctxt ""
 "par_id3153096\n"
 "help.text"
 msgid "Insert the formula <input>=DGET(A1:E10; \"Name\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the name of Joe’s party guest who is age 11. The name Daniel is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DGET(A1:E10;\"Jméno\";A12:E13)</input>, který nalezne jméno Janova hosta, kterému je 11 let. Vrátí se jméno Daniel."
 
 #. 6AKoj
 #: 04060101.xhp
@@ -5316,7 +5316,7 @@ msgctxt ""
 "par_id3150524\n"
 "help.text"
 msgid "If you change the value in cell C13 to “10”, then the formula <input>=DGET(A1:E10; \"Name\"; A12:E13)</input> returns an invalid argument error (Err:502). The reflects that multiple records match the specified criterion (both Betty and Charles are age 10)."
-msgstr ""
+msgstr "Změníte-li hodnotu v buňce C13 na „10“, vrátí vzorec <input>=DGET(A1:E10; \"Name\"; A12:E13)</input> chybu neplatného argumentu (Chyba:502). Ta odpovídá tomu, že zadanému kritériu vyhovuje více záznamů (10 let je Bětě i Davidovi)."
 
 #. rB9Ek
 #: 04060101.xhp
@@ -5325,7 +5325,7 @@ msgctxt ""
 "bm_id3149766\n"
 "help.text"
 msgid "<bookmark_value>DMAX function</bookmark_value><bookmark_value>maximum values in Calc databases</bookmark_value><bookmark_value>searching;maximum values in columns</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DMAX</bookmark_value><bookmark_value>maximální hodnoty v databázích Calcu</bookmark_value><bookmark_value>vyhledávání;maximální hodnoty ve sloupcích</bookmark_value>"
 
 #. MDBf2
 #: 04060101.xhp
@@ -5343,7 +5343,7 @@ msgctxt ""
 "par_id3154903\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBMAX\">DMAX calculates the maximum value across the cells (fields) of the specified column that contain numeric values, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBMAX\">DMAX zjistí největší hodnotu z buněk (polí) zadaného sloupce, který obsahuje číselné hodnoty, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Prázdné buňky nebo buňky obsahující nečíselné znaky nejsou uvažovány."
 
 #. pUGwd
 #: 04060101.xhp
@@ -5352,7 +5352,7 @@ msgctxt ""
 "par_id51616180409281\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no non-zero numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Není-li nalezen žádný výskyt nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné nenulové číselné hodnoty , vrátí 0."
 
 #. ho2GW
 #: 04060101.xhp
@@ -5370,7 +5370,7 @@ msgctxt ""
 "par_id3148442\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky D13, která obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. Mqocw
 #: 04060101.xhp
@@ -5379,7 +5379,7 @@ msgctxt ""
 "par_id3148804\n"
 "help.text"
 msgid "Insert the formula <input>=DMAX(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the maximum distance in meters that any of Joe’s party guests travel to school. The value 1200 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DMAX(A1:E10;\"Vzdálenost\";A12:E13)</input>, který zjistí největší vzdálenost v metrech, kterou někdo z Janových hostů cestuje do školy. Vrátí se hodnota 1200."
 
 #. CnaXx
 #: 04060101.xhp
@@ -5388,7 +5388,7 @@ msgctxt ""
 "bm_id3159141\n"
 "help.text"
 msgid "<bookmark_value>DMIN function</bookmark_value><bookmark_value>minimum values in Calc databases</bookmark_value><bookmark_value>searching;minimum values in columns</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DMIN</bookmark_value><bookmark_value>minimální hodnoty v databázích Calcu</bookmark_value><bookmark_value>vyhledávání;minimální hodnoty ve sloupcích</bookmark_value>"
 
 #. iGV4a
 #: 04060101.xhp
@@ -5406,7 +5406,7 @@ msgctxt ""
 "par_id3154261\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBMIN\">DMIN calculates the minimum value across the cells (fields) of the specified column that contain numeric values, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBMAX\">DMAX zjistí nejmenší hodnotu z buněk (polí) zadaného sloupce, který obsahuje číselné hodnoty, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Prázdné buňky nebo buňky obsahující nečíselné znaky nejsou uvažovány."
 
 #. yYJTa
 #: 04060101.xhp
@@ -5415,7 +5415,7 @@ msgctxt ""
 "par_id901616180605426\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no non-zero numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Není-li nalezen žádný výskyt nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné nenulové číselné hodnoty, vrátí 0."
 
 #. QxBsV
 #: 04060101.xhp
@@ -5433,7 +5433,7 @@ msgctxt ""
 "par_id3148925\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky D13, která obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. LrfjC
 #: 04060101.xhp
@@ -5442,7 +5442,7 @@ msgctxt ""
 "par_id3149161\n"
 "help.text"
 msgid "Insert the formula <input>=DMIN(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the minimum distance in meters that any of Joe’s party guests travel to school. The value 150 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DMIN(A1:E10;\"Vzdálenost\";A12:E13)</input>, který zjistí nejmenší vzdálenost v metrech, kterou někdo z Janových hostů cestuje do školy. Vrátí se hodnota 150."
 
 #. XEu9j
 #: 04060101.xhp
@@ -5451,7 +5451,7 @@ msgctxt ""
 "bm_id3154274\n"
 "help.text"
 msgid "<bookmark_value>DAVERAGE function</bookmark_value><bookmark_value>averages; in Calc databases</bookmark_value><bookmark_value>calculating;averages in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DAVERAGE</bookmark_value><bookmark_value>průměry; v databázích Calcu</bookmark_value><bookmark_value>výpočty;průměry v databázích Calcu</bookmark_value>"
 
 #. dQciw
 #: 04060101.xhp
@@ -5469,7 +5469,7 @@ msgctxt ""
 "par_id3166453\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBMITTELWERT\">DAVERAGE calculates the average of the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp>  Non-numeric values in those cells are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBMITTELWERT\">DAVERAGE vypočítá průměr číselných hodnot v buňkách (polích) zadaného sloupce, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Nečíselné hodnoty v těchto buňkách nejsou uvažovány."
 
 #. 87qxe
 #: 04060101.xhp
@@ -5478,7 +5478,7 @@ msgctxt ""
 "par_id31615978739452\n"
 "help.text"
 msgid "Returns a #DIV/0! error if no records match the specified search criteria, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Nevyhovují-li zadaným kritériím vyhledávání žádné záznamy nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné nenulové hodnoty, vrátí chybu #DIV/0!."
 
 #. PPkBD
 #: 04060101.xhp
@@ -5496,7 +5496,7 @@ msgctxt ""
 "par_id3149104\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky D13, která obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. CjTGB
 #: 04060101.xhp
@@ -5505,7 +5505,7 @@ msgctxt ""
 "par_id201616368312277\n"
 "help.text"
 msgid "Insert the formula <input>=DAVERAGE(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the average distance in meters travelled to school by Joe’s party guests. The value 666.67 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DAVERAGE(A1:E10;\"Vzdálenost\";A12:E13)</input>, který vypočítá, jako průměrnou vzdálenost cestují do školy hosté Janova večírku. Vrátí se hodnota 666,67."
 
 #. 6fcFr
 #: 04060101.xhp
@@ -5514,7 +5514,7 @@ msgctxt ""
 "bm_id3159269\n"
 "help.text"
 msgid "<bookmark_value>DPRODUCT function</bookmark_value><bookmark_value>multiplying;cell contents in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DPRODUCT</bookmark_value><bookmark_value>násobení;obsah buňky v databázích Calcu</bookmark_value>"
 
 #. gvW9Q
 #: 04060101.xhp
@@ -5532,7 +5532,7 @@ msgctxt ""
 "par_id3152879\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBPRODUKT\">DPRODUCT calculates the product of all numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBPRODUKT\">DPRODUCT vypočítá součin všech číselných hodnot v buňkách (polích) zadaného sloupce, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Prázdné buňky nebo buňky obsahující nečíselné hodnoty nejsou uvažovány."
 
 #. oUsZD
 #: 04060101.xhp
@@ -5541,7 +5541,7 @@ msgctxt ""
 "par_id741616180868336\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Není-li nalezen žádný výskyt nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné číselné hodnoty, vrátí 0."
 
 #. PgAsj
 #: 04060101.xhp
@@ -5559,7 +5559,7 @@ msgctxt ""
 "par_id3148986\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell C13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky C13, která obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. iaoUA
 #: 04060101.xhp
@@ -5568,7 +5568,7 @@ msgctxt ""
 "par_id91616368981807\n"
 "help.text"
 msgid "Insert the formula <input>=DPRODUCT(A1:E10; \"Age\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the product of the ages in years of Joe’s party guests. The value 279417600 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DPRODUCT(A1:E10;\"Věk\";A12:E13)</input>, který vypočítá v letech součin věků hostů Janova večírku. Vrátí se hodnota 279417600."
 
 #. KsVCV
 #: 04060101.xhp
@@ -5577,7 +5577,7 @@ msgctxt ""
 "bm_id3148462\n"
 "help.text"
 msgid "<bookmark_value>DSTDEV function</bookmark_value><bookmark_value>standard deviations in databases;based on a sample</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DSTDEV</bookmark_value><bookmark_value>směrodatné odchylky v databázích;založené na výběru</bookmark_value>"
 
 #. EvGNP
 #: 04060101.xhp
@@ -5595,7 +5595,7 @@ msgctxt ""
 "par_id3154605\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBSTDABW\">DSTDEV calculates the sample standard deviation based on the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Non-numeric values are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBSTDABW\">DSTDEV vypočítá směrodatnou odchylku výběru z číselných hodnot v buňkách (polích) zadaného sloupce, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Nečíselné hodnoty jsou ignorovány."
 
 #. RACag
 #: 04060101.xhp
@@ -5604,7 +5604,7 @@ msgctxt ""
 "par_id121616181037440\n"
 "help.text"
 msgid "Returns a #NUM! error if exactly one record matches the specified search criteria, or if there is only one numeric value in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Vyhovuje-li zadaným kritériím vyhledávání pouze jeden záznam nebo je-li v buňkách zadaného sloupce pro vyhovující řádky pouze jediná číselná hodnota, vrátí chybu #NUM!."
 
 #. r6onB
 #: 04060101.xhp
@@ -5613,7 +5613,7 @@ msgctxt ""
 "par_id931616181041535\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Není-li nalezen žádný výskyt nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné číselné hodnoty, vrátí 0."
 
 #. GgdKD
 #: 04060101.xhp
@@ -5631,7 +5631,7 @@ msgctxt ""
 "par_id3149934\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:D13 are blank and that cell E13 contains \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:D13 jsou prázdné a buňka E13 obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. SXqfH
 #: 04060101.xhp
@@ -5640,7 +5640,7 @@ msgctxt ""
 "par_id3150630\n"
 "help.text"
 msgid "Insert the formula <input>=DSTDEV(A1:E10; \"Weight\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the sample standard deviation of the weights in kg of Joe’s party guests. The value 5.5 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DSTDEV(A1:E10;\"Váha\";A12:E13)</input>, který vypočítá v kg směrodatnou odchylku výběru z vah hostů Janova večírku. Vrátí se hodnota 5,5."
 
 #. VRXXy
 #: 04060101.xhp
@@ -5649,7 +5649,7 @@ msgctxt ""
 "bm_id3150429\n"
 "help.text"
 msgid "<bookmark_value>DSTDEVP function</bookmark_value><bookmark_value>standard deviations in databases;based on populations</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DSTDEVP</bookmark_value><bookmark_value>směrodatné odchylky v databázích;založené na základním souboru</bookmark_value>"
 
 #. FpESx
 #: 04060101.xhp
@@ -5667,7 +5667,7 @@ msgctxt ""
 "par_id3145598\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBSTDABWN\">DSTDEVP calculates the population standard deviation based on the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Non-numeric values are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBSTDABWN\">DSTDEVP vypočítá směrodatnou odchylku základního souboru z číselných hodnot v buňkách (polích) zadaného sloupce, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Nečíselné hodnoty jsou ignorovány."
 
 #. TjThw
 #: 04060101.xhp
@@ -5676,7 +5676,7 @@ msgctxt ""
 "par_id541616181205698\n"
 "help.text"
 msgid "Returns a #NUM! error if no records match the specified search criteria, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Nevyhovují-li zadaným kritériím vyhledávání žádné záznamy nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné nenulové hodnoty, vrátí chybu #NUM!."
 
 #. uGaWp
 #: 04060101.xhp
@@ -5694,7 +5694,7 @@ msgctxt ""
 "par_id3155431\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:D13 are blank and that cell E13 contains \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:D13 jsou prázdné a buňka E13 obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. 6eisL
 #: 04060101.xhp
@@ -5703,7 +5703,7 @@ msgctxt ""
 "par_id3148411\n"
 "help.text"
 msgid "Insert the formula <input>=DSTDEVP(A1:E10; \"Weight\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the population standard deviation of the weights in kg of Joe’s party guests. The value 5.18545 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DSTDEVP(A1:E10;\"Váha\";A12:E13)</input>, který vypočítá v kg směrodatnou odchylku základního souboru z vah hostů Janova večírku. Vrátí se hodnota 5,18545."
 
 #. Z2CTY
 #: 04060101.xhp
@@ -5712,7 +5712,7 @@ msgctxt ""
 "bm_id3154794\n"
 "help.text"
 msgid "<bookmark_value>DSUM function</bookmark_value><bookmark_value>calculating;sums in Calc databases</bookmark_value><bookmark_value>sums;cells in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DSUM</bookmark_value><bookmark_value>výpočty;součty v databázích Calcu</bookmark_value><bookmark_value>součty;buňky v databázích Calcu</bookmark_value>"
 
 #. ybMg9
 #: 04060101.xhp
@@ -5730,7 +5730,7 @@ msgctxt ""
 "par_id3149591\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBSUMME\">DSUM calculates the sum of all numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBSUMME\">DSUM vypočítá součet všech číselných hodnot v buňkách (polích) zadaného sloupce, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Prázdné buňky nebo buňky obsahující nečíselné hodnoty nejsou uvažovány."
 
 #. PEAvG
 #: 04060101.xhp
@@ -5739,7 +5739,7 @@ msgctxt ""
 "par_id691616181332088\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Není-li nalezen žádný výskyt nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné číselné hodnoty, vrátí 0."
 
 #. LD8jB
 #: 04060101.xhp
@@ -5757,7 +5757,7 @@ msgctxt ""
 "par_id3152766\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky D13, která obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. riVB4
 #: 04060101.xhp
@@ -5766,7 +5766,7 @@ msgctxt ""
 "par_id3151312\n"
 "help.text"
 msgid "Insert the formula <input>=DSUM(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the total distance in meters that all of Joe’s party guests travel to school. The value 6000 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DSUM(A1:E10;\"Vzdálenost\";A12:E13)</input>, který zjistí v metrech součet všech vzdáleností, které Janovi hosté urazí cestou do školy. Vrátí se hodnota 6000."
 
 #. YBFb7
 #: 04060101.xhp
@@ -5775,7 +5775,7 @@ msgctxt ""
 "bm_id3155614\n"
 "help.text"
 msgid "<bookmark_value>DVAR function</bookmark_value><bookmark_value>variances;based on samples</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DVAR</bookmark_value><bookmark_value>rozptyly;založené na výběru</bookmark_value>"
 
 #. G6ZBW
 #: 04060101.xhp
@@ -5793,7 +5793,7 @@ msgctxt ""
 "par_id3154418\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBVARIANZ\">DVAR calculates the sample variance based on the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Non-numeric values are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBVARIANZ\">DVAR vypočítá rozptyl výběru z číselných hodnot v buňkách (polích) zadaného sloupce, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Nečíselné hodnoty jsou ignorovány."
 
 #. yytCQ
 #: 04060101.xhp
@@ -5802,7 +5802,7 @@ msgctxt ""
 "par_id301616181465164\n"
 "help.text"
 msgid "Returns a #NUM! error if exactly one record matches the specified search criteria, or if there is only one numeric value in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Vyhovuje-li zadaným kritériím vyhledávání pouze jeden záznam nebo je-li v buňkách zadaného sloupce pro vyhovující řádky pouze jediná číselná hodnota, vrátí chybu #NUM!."
 
 #. gW4LZ
 #: 04060101.xhp
@@ -5811,7 +5811,7 @@ msgctxt ""
 "par_id741616181469136\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Není-li nalezen žádný výskyt nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné číselné hodnoty, vrátí 0."
 
 #. hLSuf
 #: 04060101.xhp
@@ -5829,7 +5829,7 @@ msgctxt ""
 "par_id3153701\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky D13, která obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. bRDWF
 #: 04060101.xhp
