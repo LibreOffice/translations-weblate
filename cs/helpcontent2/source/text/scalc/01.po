@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-11-25 19:33+0100\n"
-"PO-Revision-Date: 2021-12-05 23:38+0000\n"
+"PO-Revision-Date: 2021-12-07 05:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/cs/>\n"
 "Language: cs\n"
@@ -5730,7 +5730,7 @@ msgctxt ""
 "par_id3149591\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBSUMME\">DSUM calculates the sum of all numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBSUMME\">DSUM vypočítá součet všech číselných hodnot v buňkách (polích) zadaného sloupce, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Prázdné buňky nebo buňky obsahující nečíselné hodnoty nejsou uvažovány."
 
 #. PEAvG
 #: 04060101.xhp
@@ -5739,7 +5739,7 @@ msgctxt ""
 "par_id691616181332088\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Není-li nalezen žádný výskyt nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné číselné hodnoty, vrátí 0."
 
 #. LD8jB
 #: 04060101.xhp
@@ -5757,7 +5757,7 @@ msgctxt ""
 "par_id3152766\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky D13, která obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. riVB4
 #: 04060101.xhp
@@ -5766,7 +5766,7 @@ msgctxt ""
 "par_id3151312\n"
 "help.text"
 msgid "Insert the formula <input>=DSUM(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the total distance in meters that all of Joe’s party guests travel to school. The value 6000 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DSUM(A1:E10;\"Vzdálenost\";A12:E13)</input>, který zjistí v metrech součet všech vzdáleností, které Janovi hosté urazí cestou do školy. Vrátí se hodnota 6000."
 
 #. YBFb7
 #: 04060101.xhp
@@ -5775,7 +5775,7 @@ msgctxt ""
 "bm_id3155614\n"
 "help.text"
 msgid "<bookmark_value>DVAR function</bookmark_value><bookmark_value>variances;based on samples</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DVAR</bookmark_value><bookmark_value>rozptyly;založené na výběru</bookmark_value>"
 
 #. G6ZBW
 #: 04060101.xhp
@@ -5793,7 +5793,7 @@ msgctxt ""
 "par_id3154418\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBVARIANZ\">DVAR calculates the sample variance based on the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Non-numeric values are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBVARIANZ\">DVAR vypočítá rozptyl výběru z číselných hodnot v buňkách (polích) zadaného sloupce, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Nečíselné hodnoty jsou ignorovány."
 
 #. yytCQ
 #: 04060101.xhp
@@ -5802,7 +5802,7 @@ msgctxt ""
 "par_id301616181465164\n"
 "help.text"
 msgid "Returns a #NUM! error if exactly one record matches the specified search criteria, or if there is only one numeric value in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Vyhovuje-li zadaným kritériím vyhledávání pouze jeden záznam nebo je-li v buňkách zadaného sloupce pro vyhovující řádky pouze jediná číselná hodnota, vrátí chybu #NUM!."
 
 #. gW4LZ
 #: 04060101.xhp
@@ -5811,7 +5811,7 @@ msgctxt ""
 "par_id741616181469136\n"
 "help.text"
 msgid "Returns 0 if no matches are found, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Není-li nalezen žádný výskyt nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné číselné hodnoty, vrátí 0."
 
 #. hLSuf
 #: 04060101.xhp
@@ -5829,7 +5829,7 @@ msgctxt ""
 "par_id3153701\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky D13, která obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. bRDWF
 #: 04060101.xhp
@@ -5838,7 +5838,7 @@ msgctxt ""
 "par_id3153676\n"
 "help.text"
 msgid "Insert the formula <input>=DVAR(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the sample variance of the distances in meters that Joe’s party guests travel to school. The value 193125 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DVAR(A1:E10;\"Vzdálenost\";A12:E13)</input>, který zjistí v metrech čtverečních rozptyl výběru pro vzdálenosti, které Janovi hosté urazí cestou do školy. Vrátí se hodnota 193125."
 
 #. 7FWS4
 #: 04060101.xhp
@@ -5847,7 +5847,7 @@ msgctxt ""
 "bm_id3153880\n"
 "help.text"
 msgid "<bookmark_value>DVARP function</bookmark_value><bookmark_value>variances;based on populations</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>DVARP</bookmark_value><bookmark_value>rozptyly;založené na základním souboru</bookmark_value>"
 
 #. XpcPC
 #: 04060101.xhp
@@ -5865,7 +5865,7 @@ msgctxt ""
 "par_id3155119\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBVARIANZEN\">DVARP calculates the population variation based on the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Non-numeric values are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBVARIANZEN\">>DVARP vypočítá rozptyl základního souboru z číselných hodnot v buňkách (polích) zadaného sloupce, a to ze všech řádků (záznamů databáze) vyhovujících zadaným kritériím vyhledávání.</ahelp> Nečíselné hodnoty jsou ignorovány."
 
 #. ERRmG
 #: 04060101.xhp
@@ -5874,7 +5874,7 @@ msgctxt ""
 "par_id301616181648263\n"
 "help.text"
 msgid "Returns a #NUM! error if no records match the specified search criteria, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Nevyhovují-li zadaným kritériím vyhledávání žádné záznamy nebo nejsou-li v buňkách zadaného sloupce pro vyhovující řádky žádné nenulové hodnoty, vrátí chybu #NUM!."
 
 #. BygUf
 #: 04060101.xhp
@@ -5892,7 +5892,7 @@ msgctxt ""
 "par_id3147099\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "Ukázková databázová tabulka (popsaná výše), obsahující informace o hostech pozvaných na Janův narozeninový večírek, zabírá buňky A1:E10. Obsah buněk A12:E12 je totožný s popisky záhlaví databázové tabulky v buňkách A1:E1. Buňky A13:E13 jsou prázdné s výjimkou buňky D13, která obsahuje \">0\" (toto kritérium vyhledávání nalezne všechny záznamy databázové tabulky)."
 
 #. 8puR2
 #: 04060101.xhp
@@ -5901,7 +5901,7 @@ msgctxt ""
 "par_id3147322\n"
 "help.text"
 msgid "Insert the formula <input>=DVARP(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the population variance of the distances in meters that Joe’s party guests travel to school. The value 171666.67 is returned."
-msgstr ""
+msgstr "Vložte do jakékoliv prázdné buňky listu vzorec <input>=DVARP(A1:E10;\"Vzdálenost\";A12:E13)</input>, který zjistí v metrech čtverečních rozptyl základního souboru pro vzdálenosti, které Janovi hosté urazí cestou do školy. Vrátí se hodnota 171666,67."
 
 #. n99gx
 #: 04060102.xhp
@@ -6243,7 +6243,7 @@ msgctxt ""
 "par_id3155064\n"
 "help.text"
 msgid "<emph>Rate</emph> is the rate of depreciation."
-msgstr "<emph>Sazba</emph>je odpisová sazba."
+msgstr "<emph>Sazba</emph> je odpisová sazba."
 
 #. TzEBm
 #: 04060103.xhp
@@ -6252,7 +6252,7 @@ msgctxt ""
 "par_id421612299085248\n"
 "help.text"
 msgid "An asset was acquired on 2020-02-01 at a cost of 2000 currency units. The end date of the first settlement period was 2020-12-31. The salvage value of the asset at the end of its depreciable life will be 10 currency units. The rate of depreciation is 0.1 (10%) and the year is calculated using the US method (Basis 0). Assuming degressive depreciation, what is the amount of depreciation in the fourth depreciation period?"
-msgstr ""
+msgstr "Majetek byl pořízen dne 2020-02-01 za cenu 2000 měnových jednotek. Koncové datum prvního období bylo 2020-12-31. Zůstatková cena majetku na konci jeho životnosti bude 10 měnových jednotek. Odpisová sazba činí 0,1 (10 %) a rok se počítá pomocí metody US (Základ 0). Jaká bude výše odpisu za čtvrté období za předpokladu degresivní amortizace?"
 
 #. qyD4t
 #: 04060103.xhp
@@ -6261,7 +6261,7 @@ msgctxt ""
 "par_id901612299089478\n"
 "help.text"
 msgid "<input>=AMORDEGRC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0.1; 0)</input> returns a depreciation amount of 163 currency units."
-msgstr ""
+msgstr "<input>=AMORDEGRC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0,1; 0)</input> vrátí výši odpisu 163 měnových jednotek."
 
 #. AvpDv
 #: 04060103.xhp
@@ -6270,7 +6270,7 @@ msgctxt ""
 "par_id851616615176815\n"
 "help.text"
 msgid "Beware that Basis 2 is not supported by Microsoft Excel. Hence, if you use Basis 2 and export your document to XLSX format, it will return an error when opened in Excel."
-msgstr ""
+msgstr "Mějte na paměti, že Základ 2 není podporován aplikací Microsoft Excel. Pokud jej použijete a dokument exportujete do formátu XLSX, při otevření v Excelu se vrátí chyba."
 
 #. UCPgp
 #: 04060103.xhp
@@ -6369,7 +6369,7 @@ msgctxt ""
 "par_id641612299092454\n"
 "help.text"
 msgid "An asset was acquired on 2020-02-01 at a cost of 2000 currency units. The end date of the first settlement period was 2020-12-31. The salvage value of the asset at the end of its depreciable life will be 10 currency units. The rate of depreciation is 0.1 (10%) and the year is calculated using the US method (Basis 0). Assuming linear depreciation, what is the amount of depreciation in the fourth depreciation period?"
-msgstr ""
+msgstr "Majetek byl pořízen dne 2020-02-01 za cenu 2000 měnových jednotek. Koncové datum prvního období bylo 2020-12-31. Zůstatková cena majetku na konci jeho životnosti bude 10 měnových jednotek. Odpisová sazba činí 0,1 (10 %) a rok se počítá pomocí metody US (Základ 0). Jaká bude výše odpisu za čtvrté období za předpokladu lineární amortizace?"
 
 #. zcGNo
 #: 04060103.xhp
@@ -6378,7 +6378,7 @@ msgctxt ""
 "par_id391612299096511\n"
 "help.text"
 msgid "<input>=AMORLINC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0.1; 0)</input> returns a depreciation amount of 200 currency units."
-msgstr ""
+msgstr "<input>=AMORLINC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0,1; 0)</input> vrátí výši odpisu 200 měnových jednotek."
 
 #. DHKDL
 #: 04060103.xhp
@@ -6477,7 +6477,7 @@ msgctxt ""
 "par_id961591171682507\n"
 "help.text"
 msgid "We recommend that you always specify the value that you require for ACCRINT’s <emph>Par</emph> argument, rather than allowing Calc to apply an arbitrary default. This will make your formula easier to understand and easier to maintain."
-msgstr "Doporučuje se hodnotu argumentu <emph>Nominál</emph> vždy uvádět a neponechávat v Calcu nastavenou výchozí hodnotu. Díky tomu bude vzorec pochopitelnější a bude se snadněji udržovat."
+msgstr "Doporučuje se hodnotu argumentu <emph>Nominál</emph> funkce ACCRINT vždy uvádět a neponechávat v Calcu nastavenou výchozí hodnotu. Díky tomu bude vzorec pochopitelnější a bude se snadněji udržovat."
 
 #. Vobjm
 #: 04060103.xhp
@@ -6576,7 +6576,7 @@ msgctxt ""
 "par_id3159204\n"
 "help.text"
 msgid "<emph>Par</emph> (optional) is the par value of the security. If omitted, a default value of 1000 is used."
-msgstr ""
+msgstr "<emph>Nominál</emph> (nepovinné) je nominální hodnota cenného papíru. Není-li zadána, použije se výchozí hodnota 1000."
 
 #. EJaKm
 #: 04060103.xhp
@@ -6585,7 +6585,7 @@ msgctxt ""
 "par_id481612296978513\n"
 "help.text"
 msgid "We recommend that you always specify the value that you require for ACCRINTM’s <emph>Par</emph> argument, rather than allowing Calc to apply an arbitrary default. This will make your formula easier to understand and easier to maintain."
-msgstr ""
+msgstr "Doporučuje se hodnotu argumentu <emph>Nominál</emph> funkce ACCRINTM vždy uvádět a neponechávat v Calcu nastavenou výchozí hodnotu. Díky tomu bude vzorec pochopitelnější a bude se snadněji udržovat."
 
 #. nB5zK
 #: 04060103.xhp
@@ -7836,7 +7836,7 @@ msgctxt ""
 "par_id3152882\n"
 "help.text"
 msgid "A computer system with an initial cost of 75,000 currency units is to be depreciated monthly over 5 years. The value at the end of the depreciation is to be 1 currency unit. The factor is 2."
-msgstr "Počítačový systém v pořizovací hodnotě 75 000 měnových jednotek má být odepisován každý měsíc po dobu pěti let. Hodnota na konci doby odepisování má být 1 měnová jednotka. Faktor je 2."
+msgstr "Počítačová sestava v pořizovací hodnotě 75 000 měnových jednotek má být odepisována každý měsíc po dobu pěti let. Hodnota na konci doby odepisování má být 1 měnová jednotka. Faktor je 2."
 
 #. vLiEt
 #: 04060103.xhp
@@ -7944,7 +7944,7 @@ msgctxt ""
 "par_id3156147\n"
 "help.text"
 msgid "A computer system with an initial cost of 25,000 currency units is to be depreciated over a three-year period. The salvage value is to be 1,000 currency units. The first period of depreciation comprises 6 months. What is the fixed-declining balance depreciation of the computer system in the second period, which is a full year starting from the end of the first six-month period?"
-msgstr ""
+msgstr "Počítačová sestava s počáteční cenou 25 000 měnových jednotek má životnost tři roky. Zůstatková cena má být 1000 měnových jednotek. První období odpisů trvá 6 měsíců. Jaký je geometrický degresivní odpis této sestavy ve druhém období, které trvá celý rok a začíná od konce prvního, šestiměsíčního období?"
 
 #. 4CQGc
 #: 04060103.xhp
@@ -7953,7 +7953,7 @@ msgctxt ""
 "par_id3149513\n"
 "help.text"
 msgid "<input>=DB(25000; 1000; 3; 2; 6)</input> returns 11,037.95 currency units."
-msgstr ""
+msgstr "<input>=DB(25000; 1000; 3; 2; 6)</input> vrátí 11 037,95 měnových jednotek."
 
 #. fWK6h
 #: 04060103.xhp
@@ -8196,7 +8196,7 @@ msgctxt ""
 "par_id3150024\n"
 "help.text"
 msgid "<item type=\"input\">x value</item>"
-msgstr ""
+msgstr "<item type=\"input\">hodnota x</item>"
 
 #. AGBFY
 #: 04060104.xhp
@@ -8205,7 +8205,7 @@ msgctxt ""
 "par_id3148725\n"
 "help.text"
 msgid "<item type=\"input\">y value</item>"
-msgstr ""
+msgstr "<item type=\"input\">hodnota y</item>"
 
 #. uEBVE
 #: 04060104.xhp
@@ -8286,7 +8286,7 @@ msgctxt ""
 "par_id9841608\n"
 "help.text"
 msgid "The type of the operating system: <br/>\"AIX\" for Advanced Interactive Executive IBM computer operating systems<br/>\"ANDROID\" for Google mobile operating system<br/>\"DRAGONFLY\" for DragonFly operating system forked from FreeBSD<br/>\"EMSCRIPTEM\" for browser WebAssembly system<br/>\"FREEBSD\", \"OPENBSD\" or \"NETBSD\" for operating systems based on the Berkeley Software Distribution (BSD)<br/>\"HAIKU\" for BeOS compatible operating system<br/>\"iOS\" for Apple mobile operating system <br/>\"LINUX\" for GNU/Linux based operating systems<br/>\"MACOSX\" for Apple Mac OS X<br/>\"SOLARIS\" for Oracle Solaris operating system<br/>\"WNT\" for Microsoft Windows"
-msgstr ""
+msgstr "Typ operačního systému:<br/>\"AIX\" pro počítačové operační systémy IBM Advanced Interactive Executive<br/>\"ANDROID\" pro mobilní operační systémy společnosti Google<br/>\"DRAGONFLY\" pro operační systém DragonFly vzniklý z FreeBSD<br/>\"EMSCRIPTEM\" pro systém WebAssembly v prohlížečích<br/>\"FREEBSD\", \"OPENBSD\" nebo \"NETBSD\" pro operační systémy založené na Berkeley Software Distribution (BSD)<br/>\"HAIKU\" pro operační systém kompatibilní s BeOS<br/>\"iOS\" pro mobilní operační systém společnosti Apple<br/>\"LINUX\" pro operační systémy založené na systému GNU/Linux<br/>\"MACOSX\" pro Apple Mac OS X<br/>\"SOLARIS\" pro operační systém Oracle Solaris<br/>\"WNT\" pro Microsoft Windows"
 
 #. zcvAx
 #: 04060104.xhp
@@ -8367,7 +8367,7 @@ msgctxt ""
 "par_id3157975\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_AKTUELL\">This function returns the result to date of evaluating the formula of which it is a part (in other words the result as far as that evaluation has got). Its main use is together with the STYLE() function to apply selected styles to a cell depending on the cell contents.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_AKTUELL\">Tato funkce vrací výsledné datum vyhodnocení vzorce, kterého je součástí (jinými slovy výsledek pokud ho vyhodnocení má). Hlavně se používá spolu s funkcí STYLE() pro použití vybraných stylů na buňku závisející na jejím obsahu</ahelp>"
+msgstr "<ahelp hid=\"HID_FUNC_AKTUELL\">Tato funkce vrátí aktuální výsledek vyhodnocení vzorce, kterého je součástí (jinými slovy výsledek, pokud ho vyhodnocení má). Používá se zejména s funkcí STYLE() pro použití vybraných stylů na buňku podle jejího obsahu.</ahelp>"
 
 #. VVH9p
 #: 04060104.xhp
@@ -8394,7 +8394,7 @@ msgctxt ""
 "par_id8751792\n"
 "help.text"
 msgid "The example returns 6. The formula is calculated from left to right as: 1 + 2 equals 3, giving the result to date when CURRENT() is encountered; CURRENT() therefore yields 3, which is added to the original 3 to give 6."
-msgstr "Příklad vrací 6. Vzorec je počítán zleva doprava takto: 1+ 2 rovná se 3 a vrací výsledek do datumu, kde je vložena funkce CURRENT(). CURRENT() proto tedy výsledek 3, který je přidán k originálu 3 a vrátí 6"
+msgstr "Příklad vrátí 6. Vzorec se vypočítá zleva doprava takto: 1+2 rovná se 3 a tento výsledek je předán funkci CURRENT(). CURRENT() proto tento výsledek 3 přidá k původnímu číslu 3 a vrátí se 6."
 
 #. 3LWfB
 #: 04060104.xhp
@@ -8403,7 +8403,7 @@ msgctxt ""
 "par_id5863826\n"
 "help.text"
 msgid "<input>=A2+B2+STYLE(IF(CURRENT()>10;\"Red\";\"Default\"))</input>"
-msgstr ""
+msgstr "<input>=A2+B2+STYLE(IF(CURRENT()>10;\"Chyba\";\"Dobré\"))</input>"
 
 #. fNamE
 #: 04060104.xhp
@@ -8412,7 +8412,7 @@ msgctxt ""
 "par_id7463911\n"
 "help.text"
 msgid "The example returns A2 + B2 (STYLE returns 0 here). If this sum is greater than 10, the style Red is applied to the cell. See the <emph>STYLE</emph> function for more explanation."
-msgstr "Příklad vrací A2+ B2 (STYLE zde vrací 0). Pokud je tato suma větší než 10, červený styl je použit pro buňku. Viz funkce <emph>STYLE</emph> pro podrobnější informace."
+msgstr "Příklad vrátí A2+B2 (STYLE zde vrací 0). Pokud je součet větší než 10, pro buňku se použije styl „Chyba“. Další vysvětlení naleznete u funkce <emph>STYLE</emph>."
 
 #. bF4GC
 #: 04060104.xhp
@@ -8430,7 +8430,7 @@ msgctxt ""
 "par_id6019165\n"
 "help.text"
 msgid "The example returns choochoo."
-msgstr "Příklad vrací choochoo."
+msgstr "Příklad vrátí choochoo."
 
 #. sMe8w
 #: 04060104.xhp
@@ -10608,7 +10608,7 @@ msgctxt ""
 "par_id3154558\n"
 "help.text"
 msgid "IF(Test [; [ThenValue] [; [OtherwiseValue]]])"
-msgstr ""
+msgstr "IF(Test [; [HodnotaPotom] [; [HodnotaJinak]]])"
 
 #. JnjcT
 #: 04060105.xhp
@@ -10644,7 +10644,7 @@ msgctxt ""
 "par_id3150867\n"
 "help.text"
 msgid "<input>=IF(A1>5;100;\"too small\")</input> If the value in <literal>A1</literal> is greater than <literal>5</literal>, the value <literal>100</literal> is returned; otherwise, the text <literal>too small</literal> is returned."
-msgstr ""
+msgstr "<input>=IF(A1>5;100;\"příliš málo\")</input> Pokud je hodnota v buňce <literal>A1</literal> větší než <literal>5</literal>, vrátí se <literal>100</literal>; v opačném případě se vrátí text <literal>příliš málo</literal>."
 
 #. jvk3H
 #: 04060105.xhp
@@ -10653,7 +10653,7 @@ msgctxt ""
 "par_id71607569817532\n"
 "help.text"
 msgid "<input>=IF(A1>5;;\"too small\")</input> If the value in <literal>A1</literal> is greater than <literal>5</literal>, the value <literal>0</literal> is returned because empty parameters are considered to be <literal>0</literal>; otherwise, the text <literal>too small</literal> is returned."
-msgstr ""
+msgstr "<input>=IF(A1>5;;\"příliš málo\")</input> Pokud je hodnota v buňce <literal>A1</literal> větší než <literal>5</literal>, vrátí se <literal>0</literal>, protože prázdný parametr je považován za <literal>0</literal>; v opačném případě se vrátí text <literal>příliš málo</literal>."
 
 #. Q6yTs
 #: 04060105.xhp
@@ -10662,7 +10662,7 @@ msgctxt ""
 "par_id11607570458867\n"
 "help.text"
 msgid "<input>=IF(A1>5;100;)</input> If the value in <literal>A1</literal> is less than <literal>5</literal>, the value <literal>0</literal> is returned because the empty <emph>OtherwiseValue</emph> is interpreted as <literal>0</literal>; otherwise <literal>100</literal> is returned."
-msgstr ""
+msgstr "<input>=IF(A1>5;100;)</input> Pokud je hodnota v buňce <literal>A1</literal> menší než <literal>5</literal>, vrátí se hodnota <literal>0</literal>, protože prázdný parametr <emph>HodnotaJinak</emph> je považována za <literal>0</literal>; v opačném případě se vrátí <literal>100</literal>."
 
 #. BKYkX
 #: 04060105.xhp
@@ -12867,7 +12867,7 @@ msgctxt ""
 "par_id3148511\n"
 "help.text"
 msgid "TRUNC(Number[; Count])"
-msgstr ""
+msgstr "TRUNC(Číslo[; Počet])"
 
 #. TXm3Z
 #: 04060106.xhp
@@ -12885,7 +12885,7 @@ msgctxt ""
 "par_id3150816\n"
 "help.text"
 msgid "<item type=\"literal\">TRUNC(Number; 0)</item> behaves as <item type=\"literal\">INT(Number)</item> for positive numbers, but effectively rounds towards zero for negative numbers."
-msgstr "<item type=\"literal\">TRUNC(číslo; 0)</item> se chová stejně jako <item type=\"literal\">INT(číslo)</item> pro kladná čísla, ale efektivně zaokrouhlí k nule záporná čísla."
+msgstr "<item type=\"literal\">TRUNC(číslo; 0)</item> se chová pro kladná čísla stejně jako <item type=\"literal\">INT(číslo)</item>, ale záporná čísla zaokrouhlí směrem k nule."
 
 #. SyxhC
 #: 04060106.xhp
@@ -12894,7 +12894,7 @@ msgctxt ""
 "par_id3148548\n"
 "help.text"
 msgid "The <emph>visible</emph> decimal places of the result are specified in <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Preferences</caseinline><defaultinline>Tools - Options</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\">%PRODUCTNAME Calc - Calculate</link>."
-msgstr "Počet <emph>viditelných</emph> desetinných míst výsledky se určuje v <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Předvolby</caseinline><defaultinline>Nástroje - Možnosti</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\">%PRODUCTNAME Calc - Výpočet</link>."
+msgstr "Počet <emph>viditelných</emph> desetinných míst výsledku se určuje v <switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Předvolby</caseinline><defaultinline>Nástroje - Možnosti</defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\">%PRODUCTNAME Calc - Výpočty</link>."
 
 #. grGeQ
 #: 04060106.xhp
@@ -12903,7 +12903,7 @@ msgctxt ""
 "par_id3152569\n"
 "help.text"
 msgid "<item type=\"input\">=TRUNC(1.239;2)</item> returns 1.23. The 9 is lost."
-msgstr "<item type=\"input\">=TRUNC(1.239;2)</item> vrátí 1.23. Číslice 9 bude odříznuta."
+msgstr "<item type=\"input\">=TRUNC(1,239;2)</item> vrátí 1,23. Číslice 9 bude odříznuta."
 
 #. DJRaY
 #: 04060106.xhp
@@ -12912,7 +12912,7 @@ msgctxt ""
 "par_id7050080\n"
 "help.text"
 msgid "<item type=\"input\">=TRUNC(-1.234999;3)</item> returns -1.234. All the 9s are lost."
-msgstr "<item type=\"input\">=TRUNC(-1.234999;3)</item> vrátí -1.234. Všechny devítky budou odříznuty."
+msgstr "<item type=\"input\">=TRUNC(-1,234999;3)</item> vrátí -1,234. Všechny devítky budou odříznuty."
 
 #. wGT5E
 #: 04060106.xhp
@@ -12921,7 +12921,7 @@ msgctxt ""
 "par_id441635243969504\n"
 "help.text"
 msgid "<input>=TRUNC(-45.67)</input> returns -45. The default value for <emph>Count</emph> is 0."
-msgstr ""
+msgstr "<input>=TRUNC(-45,67)</input> vrátí -45. Výchozí hodnota parametru <emph>Počet</emph> je 0."
 
 #. gMj5a
 #: 04060106.xhp
@@ -12930,7 +12930,7 @@ msgctxt ""
 "par_id151635245092041\n"
 "help.text"
 msgid "Refer to the <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TRUNC\" name=\"TRUNC_Wiki\">TRUNC</link> wiki page for more details about this function."
-msgstr ""
+msgstr "Další informace o této funkci naleznete na wiki stránce <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TRUNC\" name=\"TRUNC na wiki\">TRUNC</link>."
 
 #. MQVNf
 #: 04060106.xhp
