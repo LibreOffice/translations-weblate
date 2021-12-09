@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-06-24 12:51+0200\n"
-"PO-Revision-Date: 2021-12-07 21:38+0000\n"
+"PO-Revision-Date: 2021-12-09 18:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-7-2/textscalc01/cs/>\n"
 "Language: cs\n"
@@ -19842,7 +19842,7 @@ msgctxt ""
 "par_idN11827\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"http://www.example.org\")</input> displays the text \"http://www.example.org\" in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"http://www.example.org\")</input> zobrazí v buňce text \"http://www.example.org\" a po klepnutí přejde na hypertextový odkaz http://www.example.org."
 
 #. wHG7A
 #: 04060109.xhp
@@ -19851,7 +19851,7 @@ msgctxt ""
 "par_idN1182A\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"http://www.example.org\";\"Click here\")</input> displays the text \"Click here\" in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"http://www.example.org\";\"Klepněte sem\")</input> zobrazí v buňce text „Klepněte sem“ a po klepnutí přejde na hypertextový odkaz http://www.example.org."
 
 #. jamR2
 #: 04060109.xhp
@@ -19860,7 +19860,7 @@ msgctxt ""
 "par_id0907200912224534\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"http://www.example.org\";12345)</input> displays the number 12345 and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"http://www.example.org\";12345)</input> zobrazí číslo 12345 a po klepnutí přejde na hypertextový odkaz http://www.example.org."
 
 #. qLdBN
 #: 04060109.xhp
@@ -19869,7 +19869,7 @@ msgctxt ""
 "par_idN1182D\n"
 "help.text"
 msgid "<input>=HYPERLINK($B4)</input> where cell B4 contains <literal>http://www.example.org</literal>. The function adds http://www.example.org to the URL of the hyperlink cell and returns the same text which is used as formula result."
-msgstr ""
+msgstr "<input>=HYPERLINK($B4)</input>, kde B4 obsahuje <literal>http://www.example.org</literal>. Funkce vloží http://www.example.org do URL buňky s hypertextovým odkazem a jako výsledek vzorce vrátí stejný text."
 
 #. cWDrv
 #: 04060109.xhp
@@ -19878,7 +19878,7 @@ msgctxt ""
 "par_idN11830\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"http://www.\";\"Click \") & \"example.org\"</input> displays the text Click example.org in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"http://www.\";\"Klepněte na \") & \"example.org\"</input> zobrazí v buňce text Klepněte na example.org a po klepnutí přejde na hypertextový odkaz http://www.example.org."
 
 #. DDEtK
 #: 04060109.xhp
@@ -19887,7 +19887,7 @@ msgctxt ""
 "par_id8859523\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"#Sheet1.A1\";\"Go to top\")</input> displays the text Go to top and jumps to cell Sheet1.A1 in this document."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"#List1.A1\";\"Zpět na začátek\")</input> zobrazí text Zpět na začátek a přejde v dokumentu na buňku List1.A1."
 
 #. CoMEq
 #: 04060109.xhp
@@ -19896,7 +19896,7 @@ msgctxt ""
 "par_id2958769\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"file:///C:/writer.odt#Specification\";\"Go to Writer bookmark\")</input> displays the text \"Go to Writer bookmark\", loads the specified text document and jumps to bookmark \"Specification\"."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"file:///C:/writer.odt#Specifikace\";\"Přejít na záložku Writeru\")</input> zobrazí text „Přejít na záložku Writeru“, načte stanovený textový dokument a přejde v něm na záložku „Specifikace“."
 
 #. Ky2xV
 #: 04060109.xhp
@@ -19905,7 +19905,7 @@ msgctxt ""
 "par_id321615667588042\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"file:///C:/Documents/\";\"Open Documents folder\")</input> displays the text \"Open Documents folder\" and shows the folder contents using the standard file manager in your operating system."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"file:///C:/Dokumenty/\";\"Otevřít složku Dokumenty\")</input> zobrazí text „Otevřít složku Dokumenty“ a po klepnutí zobrazí obsah této složky ve standardním správci souborů operačního systému."
 
 #. ubKsF
 #: 04060109.xhp
@@ -20040,7 +20040,7 @@ msgctxt ""
 "par_id7928708\n"
 "help.text"
 msgid "If no constraint for a filter is given, the field's selected value is implicitly used. If a constraint for a filter is given, it must match the field's selected value, or an error is returned. Filters are the fields at the top left of a pivot table, populated using the \"Filters\" area of the pivot table layout dialog. From each filter, an item (value) can be selected, which means only that item is included in the calculation."
-msgstr ""
+msgstr "Pokud není určena omezující podmínka pro filtr, zvolí se aktuálně použitá hodnota pole. Pokud je použita omezující podmínka, musí se shodovat s aktuální hodnotou pole, jinak je vrácena chyba. Filtry jsou pole v levé horní části kontingenční tabulky, přidaná přesunutím do oblasti „Filtry“ v dialogovém okně rozvržení kontingenční tabulky. Z každého filtru lze vybrat položku (hodnotu), což znamená, že se do výpočtu zahrne jen tato položka."
 
 #. nARMD
 #: 04060109.xhp
