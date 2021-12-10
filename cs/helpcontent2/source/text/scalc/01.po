@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-11-25 19:33+0100\n"
-"PO-Revision-Date: 2021-12-09 18:38+0000\n"
+"PO-Revision-Date: 2021-12-10 20:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/cs/>\n"
 "Language: cs\n"
@@ -20499,7 +20499,7 @@ msgctxt ""
 "par_id581621538151600\n"
 "help.text"
 msgid "<input>=LEN(CLEAN(CHAR(7) & \"LibreOffice Calc\" & CHAR(8)))</input> returns 16, showing that the CLEAN function removes the non-printable Unicode U+0007 (\"BEL\") and U+0008 (\"BS\") characters at the beginning and end of the string argument. CLEAN does not remove spaces."
-msgstr ""
+msgstr "<input>=LEN(CLEAN(CHAR(7) & \"LibreOffice Calc\" & CHAR(8)))</input> vrátí 16, což znamená, že funkce CLEAN odstraní na začátku a na konci řetězcového argumentu netisknutelné znaky Unicode U+0007 („bell“) a U+0008 („backspace“), avšak neodstraní mezery."
 
 #. zdGBJ
 #: 04060110.xhp
@@ -20643,7 +20643,7 @@ msgctxt ""
 "par_id3156361\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DEZIMAL\">Converts text with characters from a <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"number system\">number system</link> to a positive integer in the base radix given.</ahelp> The radix must be in the range 2 to 36. Spaces and tabs are ignored. The <emph>Text</emph> field is not case-sensitive."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DEZIMAL\">Převede text se znaky z <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"číselné soustavy\">číselné soustavy</link> na kladné číslo v soustavě s určeným základem.</ahelp> Základ této soustavy musí být v rozsahu 2 až 36. Mezery a tabulátory jsou ignorovány. U pole <emph>text</emph> nezáleží na velikosti znaků."
 
 #. 5yN72
 #: 04060110.xhp
@@ -20778,7 +20778,7 @@ msgctxt ""
 "par_id3153546\n"
 "help.text"
 msgid "<item type=\"input\">=DOLLAR(255)</item> returns $255.00 for the English (USA) locale and USD (dollar) currency; ￥255.00 for the Japanese locale and JPY (yen) currency; or 255,00 € for the German (Germany) locale and EUR (euro) currency."
-msgstr ""
+msgstr "<item type=\"input\">=DOLLAR(255)</item> vrátí například $255.00 pro národní prostředí angličtina (USA) a měnu USD (dolar), ￥255.00 pro národní nastavení japonština a měnu JPY (jen) či 255,00 € pro národní prostředí němčina (Německo) a měnu EUR (euro)."
 
 #. 2beTG
 #: 04060110.xhp
@@ -20949,7 +20949,7 @@ msgctxt ""
 "par_id641617285271044\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_FEST\">Returns a number as text with a specified number of decimal places and optional thousands separators.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_FEST\">Vrátí číslo jako text s určeným počtem desetinných míst a volitelným oddělovačem tisíců.</ahelp>"
 
 #. vGkWA
 #: 04060110.xhp
@@ -20958,7 +20958,7 @@ msgctxt ""
 "par_id3147567\n"
 "help.text"
 msgid "FIXED(Number; [Decimals = 2 [; NoThousandsSeparators = FALSE]])"
-msgstr ""
+msgstr "FIXED(Číslo; [Desetinná místa = 2 [; Nerozdělovat tisíce = NEPRAVDA]])"
 
 #. Lu9oq
 #: 04060110.xhp
@@ -20967,7 +20967,7 @@ msgctxt ""
 "par_id3151272\n"
 "help.text"
 msgid "<emph>Number</emph> is rounded to <literal>Decimals</literal> places (after the decimal separator) and the result formatted as text, using <link href=\"text/shared/optionen/01140000.xhp\" name=\"current locale setting\">locale-specific settings</link>."
-msgstr ""
+msgstr "<emph>Číslo</emph> se zaokrouhlí na zadaný počet desetinných míst (za oddělovačem desetinných míst) a výsledek je naformátován jako text s použitím <link href=\"text/shared/optionen/01140000.xhp\" name=\"aktuální nastavení národního prostředí\">nastavení národního prostředí</link>."
 
 #. 5zSz5
 #: 04060110.xhp
@@ -20976,7 +20976,7 @@ msgctxt ""
 "par_id3156322\n"
 "help.text"
 msgid "<emph>Decimals</emph> (optional) refers to the number of decimal places to be displayed. If <literal>Decimals</literal> is negative, <literal>Number</literal> is rounded to ABS(<literal>Decimals</literal>) places to the left from the decimal point. If <literal>Decimals</literal> is a fraction, it is truncated actually ignoring what is the closest integer."
-msgstr ""
+msgstr "<emph>Desetinná místa</emph> (nepovinné) udává počet desetinných míst, které se mají zobrazit. Pokud je tento argument záporný, <literal>Číslo</emph> se zaokrouhlí na počet míst ABS(<literal>Desetinná místa</literal>) doleva od desetinné čárky. Je-li argument <literal>Desetinná místa</literal> zlomkem, ořízne se bez ohledu na to, jaké je nejbližší celé číslo."
 
 #. MccEk
 #: 04060110.xhp
@@ -20985,7 +20985,7 @@ msgctxt ""
 "par_id3150877\n"
 "help.text"
 msgid "<emph>NoThousandsSeparators</emph> (optional) determines whether the thousands separator is used.  If it is <literal>TRUE</literal> or non-zero, then group separators are omitted from the resulting string. If the parameter is equal to 0 or if it is missing altogether, the thousands separators of your <link href=\"text/shared/optionen/01140000.xhp\" name=\"current locale setting\">current locale setting</link> are displayed."
-msgstr ""
+msgstr "<emph>Nerozdělovat tisíce</emph> (nepovinné) určuje, zda se použije oddělovač tisíců. Má-li hodnotu <literal>PRAVDA</literal> nebo nenulovou, do výsledného řetězce se oddělovače skupin nezahrnou. Pokud je roven 0 nebo je vynechán, zobrazí se oddělovač tisíců podle <link href=\"text/shared/optionen/01140000.xhp\" name=\"aktuální národní prostředí\">aktuálního národního prostředí</link>."
 
 #. nDs7Q
 #: 04060110.xhp
@@ -20994,7 +20994,7 @@ msgctxt ""
 "par_id3145208\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(1234567.89;3)</item> returns 1,234,567.890 as a text string."
-msgstr "<item type=\"input\">=FIXED(1234567.89;3)</item> vrátí 1,234,567.890 jako textový řetězec."
+msgstr "<item type=\"input\">=FIXED(1234567,89;3)</item> vrátí 1 234 567,890 jako textový řetězec."
 
 #. eo6wB
 #: 04060110.xhp
@@ -21003,7 +21003,7 @@ msgctxt ""
 "par_id5282143\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(123456.789;;TRUE)</item> returns 123456.79 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(123456,789;;TRUE)</item> vrátí 1234567,79 jako textový řetězec."
 
 #. U8QaS
 #: 04060110.xhp
@@ -21012,7 +21012,7 @@ msgctxt ""
 "par_id21617202293406\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12345.6789;-2)</item> returns 12,300 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12345,6789;-2)</item> vrátí 12 300 jako textový řetězec."
 
 #. iqSth
 #: 04060110.xhp
@@ -21021,7 +21021,7 @@ msgctxt ""
 "par_id161617202295558\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12134567.89;-3;1)</item> returns 12135000 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12134567,89;-3;1)</item> vrátí 12135000 jako textový řetězec."
 
 #. NmXWD
 #: 04060110.xhp
@@ -21030,7 +21030,7 @@ msgctxt ""
 "par_id451617286696878\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12345.789;3/4)</item> returns 12,346 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12345,789;3/4)</item> vrátí 12 346 jako textový řetězec."
 
 #. CB5nt
 #: 04060110.xhp
@@ -21039,7 +21039,7 @@ msgctxt ""
 "par_id371617286698199\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12345.789;8/5)</item> returns 12,345.8 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12345,789;8/5)</item> vrátí 12 345,8 jako textový řetězec."
 
 #. SaBEW
 #: 04060110.xhp
@@ -21165,7 +21165,7 @@ msgctxt ""
 "par_id2949141\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\";1)</item> vrátí \" \" (1 bajt je pouze polovina znaku DBCS a místo ní se vrátí znak mezery)."
 
 #. mQvUN
 #: 04060110.xhp
@@ -21174,7 +21174,7 @@ msgctxt ""
 "par_id2949151\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\";2)</item> vrátí \"中\" (2 bajty představují jeden úplný znak DBCS)."
 
 #. qAEZ3
 #: 04060110.xhp
@@ -21183,7 +21183,7 @@ msgctxt ""
 "par_id2949161\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";3)</item> returns \"中 \" (3 bytes constitute one DBCS character and a half; the last character returned is therefore a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\";3)</item> vrátí \"中 \" (3 bajty představují jeden a půl znaku DBCS; místo posledního znaku se proto vrátí znak mezery)."
 
 #. s3UVQ
 #: 04060110.xhp
@@ -21192,7 +21192,7 @@ msgctxt ""
 "par_id2949171\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\";4)</item> vrátí \"中国\" (4 bajty představují dva úplné znaky DBCS)."
 
 #. FM3FS
 #: 04060110.xhp
@@ -21201,7 +21201,7 @@ msgctxt ""
 "par_id2949181\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"office\";3)</item> returns \"off\" (3 non-DBCS characters each consisting of 1 byte)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"office\";3)</item> vrátí \"off\" (3 znaky bez DBCS, z nichž je každý tvořen 1 bajtem)."
 
 #. eEgeD
 #: 04060110.xhp
@@ -21552,7 +21552,7 @@ msgctxt ""
 "par_id2958417\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;0)</item> returns \"\" (0 bytes is always an empty string)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";1;0)</item> vrátí \"\" (0 bajtů vždy představuje prázdný řetězec)."
 
 #. q6dWL
 #: 04060110.xhp
@@ -21561,7 +21561,7 @@ msgctxt ""
 "par_id2958427\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;1)</item> returns \" \" (1 byte is only half a DBCS character and therefore the result is a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";1;1)</item> vrátí \" \" (1 bajt je pouze polovina znaku DBCS, a proto je výsledkem znak mezery)."
 
 #. CfNES
 #: 04060110.xhp
@@ -21570,7 +21570,7 @@ msgctxt ""
 "par_id2958437\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";1;2)</item> vrátí \"中\" (2 bajty představují jeden úplný znak DBCS)."
 
 #. wBLqC
 #: 04060110.xhp
@@ -21579,7 +21579,7 @@ msgctxt ""
 "par_id2958447\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;3)</item> returns \"中 \" (3 bytes constitute one and a half DBCS character; the last byte results in a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";1;3)</item> vrátí \"中 \" (3 bajty představují jeden a půl znaku DBCS; místo posledního znaku se proto vrátí znak mezery)."
 
 #. GedmG
 #: 04060110.xhp
@@ -21588,7 +21588,7 @@ msgctxt ""
 "par_id2958457\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";1;4)</item> vrátí \"中国\" (4 bajty představují dva úplné znaky DBCS)."
 
 #. dAMAA
 #: 04060110.xhp
@@ -21597,7 +21597,7 @@ msgctxt ""
 "par_id2958467\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;1)</item> returns \" \" (byte position 2 is not at the beginning of a character in a DBCS string; 1 space character is returned)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";2;1)</item> vrátí \" \" (bajt na pozici 2 není na začátku znaku řetězce DBCS; vrátí se 1 znak mezery)."
 
 #. SXLij
 #: 04060110.xhp
@@ -21606,7 +21606,7 @@ msgctxt ""
 "par_id2958477\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;2)</item> returns \" \" (byte position 2 points to the last half of the first character in the DBCS string; the 2 bytes asked for therefore constitutes the last half of the first character and the first half of the second character in the string; 2 space characters are therefore returned)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";2;2)</item> vrátí \" \" (bajt na pozici 2 představuje druhou polovinu prvního znaku řetězce DBCS; požadované 2 bajty proto představují druhou polovinu prvního znaku a první polovinu druhého znaku řetězce; vrátí se tudíž 2 znaky mezery)."
 
 #. cFw7V
 #: 04060110.xhp
@@ -21615,7 +21615,7 @@ msgctxt ""
 "par_id2958487\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;3)</item> returns \" 国\" (byte position 2 is not at the beginning of a character in a DBCS string; a space character is returned for byte position 2)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";2;3)</item> vrátí \" 国\" (bajt na pozici 2 není na začátku znaku řetězce DBCS; vrátí se pro něj proto znak mezery)."
 
 #. drtpL
 #: 04060110.xhp
@@ -21624,7 +21624,7 @@ msgctxt ""
 "par_id2958497\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;1)</item> returns \" \" (byte position 3 is at the beginning of a character in a DBCS string, but 1 byte is only half a DBCS character and a space character is therefore returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";3;1)</item> vrátí \" \" (bajt na pozici 3 je na začátku znaku řetězce DBCS, ale 1 bajt představuje pouze polovinu znaku DBCS, a proto se místo ní vrátí znak mezery)."
 
 #. koipq
 #: 04060110.xhp
@@ -21633,7 +21633,7 @@ msgctxt ""
 "par_id2958507\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;2)</item> returns \"国\" (byte position 3 is at the beginning of a character in a DBCS string, and 2 bytes constitute one DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";3;2)</item> vrátí \"国\" (bajt na pozici 3 je na začátku znaku řetězce DBCS a 2 bajty představují jeden znak DBCS)."
 
 #. aQmsH
 #: 04060110.xhp
@@ -21642,7 +21642,7 @@ msgctxt ""
 "par_id2958517\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"office\";2;3)</item> returns \"ffi\" (byte position 2 is at the beginning of a character in a non-DBCS string, and 3 bytes of a non-DBCS string constitute 3 characters)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"office\";2;3)</item> vrátí \"ffi\" (bajt na pozici 2 je na začátku znaku řetězce bez DBCS a 3 bajty řetězce bez DBCS představují 3 znaky)."
 
 #. k4kCo
 #: 04060110.xhp
@@ -21858,7 +21858,7 @@ msgctxt ""
 "par_id381626381556310\n"
 "help.text"
 msgid "Refer to the <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/REPT\" name=\"REPT_Wiki\">REPT</link> wiki page for more details about this function."
-msgstr ""
+msgstr "Další informace o této funkci naleznete na wiki stránce <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/REPT\" name=\"REPT na wiki\">REPT</link>."
 
 #. mtFNA
 #: 04060110.xhp
@@ -21912,7 +21912,7 @@ msgctxt ""
 "par_id3153350\n"
 "help.text"
 msgid "<emph>Number</emph> (optional) is the number of characters from the right part of the text. If this parameter is not defined, one character is returned."
-msgstr ""
+msgstr "<emph>Počet</emph> (nepovinné) je počet znaků z pravé části textu. Není-li tento parametr zadán, vrátí se jeden znak."
 
 #. xNFMc
 #: 04060110.xhp
@@ -21975,7 +21975,7 @@ msgctxt ""
 "par_id2953350\n"
 "help.text"
 msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want RIGHTB to extract, based on bytes. If this parameter is not defined, one byte is returned."
-msgstr ""
+msgstr "<emph>Počet_bajtů</emph> (nepovinné) udává na základě bajtů počet znaků textu z pravé části. Není-li tento parametr zadán, vrátí se jeden bajt."
 
 #. KnAgN
 #: 04060110.xhp
@@ -22893,7 +22893,7 @@ msgctxt ""
 "par_id151626469224135\n"
 "help.text"
 msgid "<input>=ROT13(\"Gur Qbphzrag Sbhaqngvba jnf sbhaqrq va Frcgrzore 2010.\")</input> returns the string \"The Document Foundation was founded in September 2010.\". Notice how spaces, digits, and full stops are unaffected by ROT13."
-msgstr ""
+msgstr "<input>=ROT13(\"Anqnpr Gur Qbphzrag Sbhaqngvba olyn mnybžran i máří 2010.\")</input> vrátí řetězec „Nadace The Document Foundation byla založena v září 2010.“. Mezery, číslice, interpunkce a znaky s diakritikou funkce ROT13 nezmění."
 
 #. 4TMAT
 #: 04060111.xhp
@@ -22902,7 +22902,7 @@ msgctxt ""
 "par_id221626469509161\n"
 "help.text"
 msgid "Refer to the <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ROT13\" name=\"ROT13_Wiki\">ROT13</link> wiki page for more details about this function."
-msgstr ""
+msgstr "Další informace o této funkci naleznete na wiki stránce <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ROT13\" name=\"ROT13 na wiki\">ROT13</link>."
 
 #. CFJsA
 #: 04060111.xhp
@@ -24639,7 +24639,7 @@ msgctxt ""
 "bm_id3153074\n"
 "help.text"
 msgid "<bookmark_value>Bessel functions</bookmark_value>  <bookmark_value>BESSELI function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Besselova funkce</bookmark_value><bookmark_value>BESSELI</bookmark_value>"
 
 #. YpfCj
 #: 04060115.xhp
@@ -24720,7 +24720,7 @@ msgctxt ""
 "bm_id161618267677640\n"
 "help.text"
 msgid "<bookmark_value>BESSELJ function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BESSELJ</bookmark_value>"
 
 #. Cccmx
 #: 04060115.xhp
@@ -24801,7 +24801,7 @@ msgctxt ""
 "bm_id151618267791726\n"
 "help.text"
 msgid "<bookmark_value>BESSELK function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BESSELK</bookmark_value>"
 
 #. jb2FF
 #: 04060115.xhp
@@ -24882,7 +24882,7 @@ msgctxt ""
 "bm_id201618267836525\n"
 "help.text"
 msgid "<bookmark_value>BESSELY function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BESSELY</bookmark_value>"
 
 #. 9PCdq
 #: 04060115.xhp
