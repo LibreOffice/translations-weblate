@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-06-24 12:51+0200\n"
-"PO-Revision-Date: 2021-12-09 18:38+0000\n"
+"PO-Revision-Date: 2021-12-10 20:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-7-2/textscalc01/cs/>\n"
 "Language: cs\n"
@@ -20553,7 +20553,7 @@ msgctxt ""
 "par_id581621538151600\n"
 "help.text"
 msgid "<input>=LEN(CLEAN(CHAR(7) & \"LibreOffice Calc\" & CHAR(8)))</input> returns 16, showing that the CLEAN function removes the non-printable Unicode U+0007 (\"BEL\") and U+0008 (\"BS\") characters at the beginning and end of the string argument. CLEAN does not remove spaces."
-msgstr ""
+msgstr "<input>=LEN(CLEAN(CHAR(7) & \"LibreOffice Calc\" & CHAR(8)))</input> vrátí 16, což znamená, že funkce CLEAN odstraní na začátku a na konci řetězcového argumentu netisknutelné znaky Unicode U+0007 („bell“) a U+0008 („backspace“), avšak neodstraní mezery."
 
 #. zdGBJ
 #: 04060110.xhp
@@ -20832,7 +20832,7 @@ msgctxt ""
 "par_id3153546\n"
 "help.text"
 msgid "<item type=\"input\">=DOLLAR(255)</item> returns $255.00 for the English (USA) locale and USD (dollar) currency; ￥255.00 for the Japanese locale and JPY (yen) currency; or 255,00 € for the German (Germany) locale and EUR (euro) currency."
-msgstr ""
+msgstr "<item type=\"input\">=DOLLAR(255)</item> vrátí například $255.00 pro národní prostředí angličtina (USA) a měnu USD (dolar), ￥255.00 pro národní nastavení japonština a měnu JPY (jen) či 255,00 € pro národní prostředí němčina (Německo) a měnu EUR (euro)."
 
 #. 2beTG
 #: 04060110.xhp
@@ -21003,7 +21003,7 @@ msgctxt ""
 "par_id641617285271044\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_FEST\">Returns a number as text with a specified number of decimal places and optional thousands separators.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_FEST\">Vrátí číslo jako text s určeným počtem desetinných míst a volitelným oddělovačem tisíců.</ahelp>"
 
 #. vGkWA
 #: 04060110.xhp
@@ -21012,7 +21012,7 @@ msgctxt ""
 "par_id3147567\n"
 "help.text"
 msgid "FIXED(Number; [Decimals = 2 [; NoThousandsSeparators = FALSE]])"
-msgstr ""
+msgstr "FIXED(Číslo; [Desetinná místa = 2 [; Nerozdělovat tisíce = NEPRAVDA]])"
 
 #. Lu9oq
 #: 04060110.xhp
@@ -21021,7 +21021,7 @@ msgctxt ""
 "par_id3151272\n"
 "help.text"
 msgid "<emph>Number</emph> is rounded to <literal>Decimals</literal> places (after the decimal separator) and the result formatted as text, using <link href=\"text/shared/optionen/01140000.xhp\" name=\"current locale setting\">locale-specific settings</link>."
-msgstr ""
+msgstr "<emph>Číslo</emph> se zaokrouhlí na zadaný počet desetinných míst (za oddělovačem desetinných míst) a výsledek je naformátován jako text s použitím <link href=\"text/shared/optionen/01140000.xhp\" name=\"aktuální nastavení národního prostředí\">nastavení národního prostředí</link>."
 
 #. 5zSz5
 #: 04060110.xhp
@@ -21030,7 +21030,7 @@ msgctxt ""
 "par_id3156322\n"
 "help.text"
 msgid "<emph>Decimals</emph> (optional) refers to the number of decimal places to be displayed. If <literal>Decimals</literal> is negative, <literal>Number</literal> is rounded to ABS(<literal>Decimals</literal>) places to the left from the decimal point. If <literal>Decimals</literal> is a fraction, it is truncated actually ignoring what is the closest integer."
-msgstr ""
+msgstr "<emph>Desetinná místa</emph> (nepovinné) udává počet desetinných míst, které se mají zobrazit. Pokud je tento argument záporný, <literal>Číslo</emph> se zaokrouhlí na počet míst ABS(<literal>Desetinná místa</literal>) doleva od desetinné čárky. Je-li argument <literal>Desetinná místa</literal> zlomkem, ořízne se bez ohledu na to, jaké je nejbližší celé číslo."
 
 #. MccEk
 #: 04060110.xhp
@@ -21039,7 +21039,7 @@ msgctxt ""
 "par_id3150877\n"
 "help.text"
 msgid "<emph>NoThousandsSeparators</emph> (optional) determines whether the thousands separator is used.  If it is <literal>TRUE</literal> or non-zero, then group separators are omitted from the resulting string. If the parameter is equal to 0 or if it is missing altogether, the thousands separators of your <link href=\"text/shared/optionen/01140000.xhp\" name=\"current locale setting\">current locale setting</link> are displayed."
-msgstr ""
+msgstr "<emph>Nerozdělovat tisíce</emph> (nepovinné) určuje, zda se použije oddělovač tisíců. Má-li hodnotu <literal>PRAVDA</literal> nebo nenulovou, do výsledného řetězce se oddělovače skupin nezahrnou. Pokud je roven 0 nebo je vynechán, zobrazí se oddělovač tisíců podle <link href=\"text/shared/optionen/01140000.xhp\" name=\"aktuální národní prostředí\">aktuálního národního prostředí</link>."
 
 #. nDs7Q
 #: 04060110.xhp
@@ -21048,7 +21048,7 @@ msgctxt ""
 "par_id3145208\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(1234567.89;3)</item> returns 1,234,567.890 as a text string."
-msgstr "<item type=\"input\">=FIXED(1234567.89;3)</item> vrátí 1,234,567.890 jako textový řetězec."
+msgstr "<item type=\"input\">=FIXED(1234567,89;3)</item> vrátí 1 234 567,890 jako textový řetězec."
 
 #. eo6wB
 #: 04060110.xhp
@@ -21057,7 +21057,7 @@ msgctxt ""
 "par_id5282143\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(123456.789;;TRUE)</item> returns 123456.79 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(123456,789;;TRUE)</item> vrátí 1234567,79 jako textový řetězec."
 
 #. U8QaS
 #: 04060110.xhp
@@ -21066,7 +21066,7 @@ msgctxt ""
 "par_id21617202293406\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12345.6789;-2)</item> returns 12,300 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12345,6789;-2)</item> vrátí 12 300 jako textový řetězec."
 
 #. iqSth
 #: 04060110.xhp
@@ -21075,7 +21075,7 @@ msgctxt ""
 "par_id161617202295558\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12134567.89;-3;1)</item> returns 12135000 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12134567,89;-3;1)</item> vrátí 12135000 jako textový řetězec."
 
 #. NmXWD
 #: 04060110.xhp
@@ -21084,7 +21084,7 @@ msgctxt ""
 "par_id451617286696878\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12345.789;3/4)</item> returns 12,346 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12345,789;3/4)</item> vrátí 12 346 jako textový řetězec."
 
 #. CB5nt
 #: 04060110.xhp
@@ -21093,7 +21093,7 @@ msgctxt ""
 "par_id371617286698199\n"
 "help.text"
 msgid "<item type=\"input\">=FIXED(12345.789;8/5)</item> returns 12,345.8 as a text string."
-msgstr ""
+msgstr "<item type=\"input\">=FIXED(12345,789;8/5)</item> vrátí 12 345,8 jako textový řetězec."
 
 #. zxsGX
 #: 04060110.xhp
@@ -24900,7 +24900,7 @@ msgctxt ""
 "bm_id3153074\n"
 "help.text"
 msgid "<bookmark_value>Bessel functions</bookmark_value>  <bookmark_value>BESSELI function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Besselova funkce</bookmark_value><bookmark_value>BESSELI</bookmark_value>"
 
 #. YpfCj
 #: 04060115.xhp
@@ -24981,7 +24981,7 @@ msgctxt ""
 "bm_id161618267677640\n"
 "help.text"
 msgid "<bookmark_value>BESSELJ function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BESSELJ</bookmark_value>"
 
 #. Cccmx
 #: 04060115.xhp
@@ -25062,7 +25062,7 @@ msgctxt ""
 "bm_id151618267791726\n"
 "help.text"
 msgid "<bookmark_value>BESSELK function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BESSELK</bookmark_value>"
 
 #. jb2FF
 #: 04060115.xhp
@@ -25143,7 +25143,7 @@ msgctxt ""
 "bm_id201618267836525\n"
 "help.text"
 msgid "<bookmark_value>BESSELY function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BESSELY</bookmark_value>"
 
 #. 9PCdq
 #: 04060115.xhp
