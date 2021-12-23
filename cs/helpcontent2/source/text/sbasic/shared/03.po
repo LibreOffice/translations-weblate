@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2021-12-20 07:38+0000\n"
+"PO-Revision-Date: 2021-12-23 21:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.8.1\n"
 "X-POOTLE-MTIME: 1564160910.000000\n"
 
 #. ViEWM
@@ -1256,7 +1256,7 @@ msgctxt ""
 "par_id391582552517870\n"
 "help.text"
 msgid "Check if a one dimension array contains a certain number, text or date. Text comparison can be case-sensitive or not.      <br/>Sorted input arrays must be filled homogeneously, meaning all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and is in reality not.      <br/>A binary search is done when the array is sorted, otherwise, it is simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored."
-msgstr ""
+msgstr "Ověří, zda jednorozměrné pole obsahuje určité číslo, text nebo datum. U porovnání textu se může či nemusí rozlišovat velikost písmen.<br/>Seřazená vstupní pole musí být homogenně vyplněna, tj. všechny položky musí být skaláry téhož typu (položky <literal>Empty</literal> a <literal>Null</literal> nejsou povoleny).<br/>Výsledek metody nelze určit, pokud je pole označeno jako seřazené, ale ve skutečnosti seřazeno není.<br/>Je-li pole seřazeno, provede se binární vyhledávání, v opačném případě se pole prohledá od začátku do konce, přičemž položky <literal>Empty</literal> a <literal>Null</literal> se ignorují."
 
 #. CuUGw
 #: sf_array.xhp
@@ -1265,7 +1265,7 @@ msgctxt ""
 "par_id451582552517871\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to scan."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Pole, které se má prohledat."
 
 #. WZiqW
 #: sf_array.xhp
@@ -1274,7 +1274,7 @@ msgctxt ""
 "par_id221582552517872\n"
 "help.text"
 msgid "<emph>tofind</emph>: A number, a date or a string to find."
-msgstr ""
+msgstr "<emph>tofind</emph>: Číslo, datum nebo řetězec, který se má najít."
 
 #. jFfok
 #: sf_array.xhp
@@ -1283,7 +1283,7 @@ msgctxt ""
 "par_id981582552517872\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Pouze pro porovnání řetězců (výchozí = <literal>False</literal>)."
 
 #. 5ARWv
 #: sf_array.xhp
@@ -1292,7 +1292,7 @@ msgctxt ""
 "par_id641582553128490\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\", \"DESC\" or \"\" (not sorted). The default value is \"\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Může být jedna z hodnot \"ASC\", \"DESC\" nebo \"\" (neseřazeno). Výchozí hodnotou je \"\"."
 
 #. HVqG3
 #: sf_array.xhp
@@ -1301,7 +1301,7 @@ msgctxt ""
 "par_id71582557214489\n"
 "help.text"
 msgid "Store the content of a 2-columns array into a <link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"dictionary\">ScriptForge.Dictionary</link> object.      <br/>The key will be extracted from the first column, the item from the second."
-msgstr ""
+msgstr "Uloží obsah dvourozměrného pole do objektu <link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"slovník\">ScriptForge.Dictionary</link>.<br/>Klíče budou získány z prvního sloupce, položky z druhého."
 
 #. AdhMA
 #: sf_array.xhp
@@ -1310,7 +1310,7 @@ msgctxt ""
 "par_id561582557214489\n"
 "help.text"
 msgid "<emph>array_2d</emph>: Data to be converted into a <literal>ScriptForge.Dictionary</literal> object."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Data, která se mají převést na objekt <literal>ScriptForge.Dictionary</literal>."
 
 #. 9B9aE
 #: sf_array.xhp
@@ -1319,7 +1319,7 @@ msgctxt ""
 "par_id781626977460310\n"
 "help.text"
 msgid "The first column must contain exclusively strings with a length greater than zero, in any order. These values will be used as labels in the dictionary."
-msgstr ""
+msgstr "První sloupec musí obsahovat výhradně řetězce s délkou větší než nula, a to v jakémkoliv pořadí. Tyto hodnoty se použijí jako klíče slovníku."
 
 #. GYEkD
 #: sf_array.xhp
@@ -1328,7 +1328,7 @@ msgctxt ""
 "par_id511626977461127\n"
 "help.text"
 msgid "The second column contains the data that will be associated to the corresponding label in the dictionary."
-msgstr ""
+msgstr "Druhý sloupec obsahuje data, která budou k odpovídajícímu klíči slovníku přiřazena."
 
 #. bGXKd
 #: sf_array.xhp
@@ -1337,7 +1337,7 @@ msgctxt ""
 "par_id571627154604275\n"
 "help.text"
 msgid "Creates a copy of a 1D or 2D array."
-msgstr ""
+msgstr "Vytvoří kopii jednorozměrného či dvourozměrného pole."
 
 #. EYuiH
 #: sf_array.xhp
@@ -1346,7 +1346,7 @@ msgctxt ""
 "par_id191627155816815\n"
 "help.text"
 msgid "<emph>array_nd</emph>: The 1D or 2D array to be copied."
-msgstr ""
+msgstr "<emph>array_nd</emph>: Jednorozměrné či dvourozměrné pole, které se má zkopírovat."
 
 #. 76Guf
 #: sf_array.xhp
@@ -1355,7 +1355,7 @@ msgctxt ""
 "par_id451627155478940\n"
 "help.text"
 msgid "A simple assignment of an <literal>Array</literal> object will copy its reference instead of creating a copy of the object's contents. See the example below:"
-msgstr ""
+msgstr "Prosté přiřazení objektu <literal>Array</literal> zkopíruje odkaz na objekt místo vytvoření kopie jeho obsahu. Viz následující příklad:"
 
 #. B2KZj
 #: sf_array.xhp
@@ -1364,7 +1364,7 @@ msgctxt ""
 "bas_id801627155939671\n"
 "help.text"
 msgid "' The assignment below is made by reference"
-msgstr ""
+msgstr "' Přiřazení níže je odkazem"
 
 #. SoKPK
 #: sf_array.xhp
@@ -1373,7 +1373,7 @@ msgctxt ""
 "bas_id291627156013810\n"
 "help.text"
 msgid "' Hence changing values in \"b\" will also change \"a\""
-msgstr ""
+msgstr "' Proto se při změně hodnot v \"b\" změní také \"a\""
 
 #. 6NbNZ
 #: sf_array.xhp
@@ -1382,7 +1382,7 @@ msgctxt ""
 "par_id701627155874259\n"
 "help.text"
 msgid "By using the <literal>Copy</literal> method, a copy of the whole <literal>Array</literal> object is made. In the example below, <literal>a</literal> and <literal>b</literal> are different objects and changing values in <literal>b</literal> will not affect values in <literal>a</literal>."
-msgstr ""
+msgstr "Při použití metody <literal>Copy</literal> se vytvoří kopie celého objektu <literal>Array</literal>. V následujícím příkladu jsou <literal>a</literal> a <literal>b</literal> rozdílné objekty a změny hodnot v <literal>b</literal> nijak neovlivní hodnoty v <literal>a</literal>."
 
 #. UycBx
 #: sf_array.xhp
@@ -1391,7 +1391,7 @@ msgctxt ""
 "bas_id141627156152196\n"
 "help.text"
 msgid "' Creates a copy of \"a\" using the \"Copy\" method"
-msgstr ""
+msgstr "' Vytvoří kopii \"a\" pomocí metody \"Copy\""
 
 #. bYzRV
 #: sf_array.xhp
@@ -1400,7 +1400,7 @@ msgctxt ""
 "par_id671582558126025\n"
 "help.text"
 msgid "Count the number of dimensions of an array. The result can be greater than two.    <br/>If the argument is not an array, returns -1    <br/>If the array is not initialized, returns 0."
-msgstr ""
+msgstr "Spočítá rozměry pole. Výsledek může být větší než 2.<br/>Pokud není argumentem pole, vrátí -1.<br/>Pokud není pole inicializováno, vrátí 0."
 
 #. xbtFE
 #: sf_array.xhp
@@ -1409,7 +1409,7 @@ msgctxt ""
 "par_id771582558126027\n"
 "help.text"
 msgid "<emph>array_nd</emph>: The array to examine."
-msgstr ""
+msgstr "<emph>array_nd</emph>: Pole, které se má prozkoumat."
 
 #. n2AxD
 #: sf_array.xhp
@@ -1418,7 +1418,7 @@ msgctxt ""
 "par_id91582558644287\n"
 "help.text"
 msgid "Build a set, as a zero-based array, by applying the difference operator on the two input arrays. Resulting items originate from the first array and not from the second.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, their items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Použije operátor rozdílu na dvě vstupní pole a vytvoří tak množinu v podobě pole začínajícího od 0. Výsledné položky pocházejí z prvního pole, nikoliv ze druhého.<br/>Výsledné pole je vzestupně seřazeno.<br/>Obě vstupní pole musí být homogenně vyplněna, tj. jejich položky musí být skaláry téhož typu. Položky <literal>Empty</literal> a <literal>Null</literal> nejsou povoleny.<br/>Porovnání textu může či nemusí rozlišovat velikost písmen."
 
 #. FTb9n
 #: sf_array.xhp
@@ -1427,7 +1427,7 @@ msgctxt ""
 "par_id271582558644287\n"
 "help.text"
 msgid "<emph>array1_1d</emph>: A 1-dimensional reference array, whose items are examined for removal."
-msgstr ""
+msgstr "<emph>array1_1d</emph>: Referenční jednorozměrné pole, pro jehož položky se bude zjišťovat, zda mají být odstraněny."
 
 #. JXqBK
 #: sf_array.xhp
@@ -1436,7 +1436,7 @@ msgctxt ""
 "par_id141582558644287\n"
 "help.text"
 msgid "<emph>array2_1d</emph>: A 1-dimensional array, whose items are subtracted from the first input array."
-msgstr ""
+msgstr "<emph>array2_1d</emph>: Jednorozměrné pole, jehož položky se od prvního vstupního pole odčítají."
 
 #. jK4zC
 #: sf_array.xhp
@@ -1445,7 +1445,7 @@ msgctxt ""
 "par_id291582559651473\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: This argument is only applicable if the arrays are populated with strings (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Tento argument je použitelný pouze tehdy, obsahují-li pole řetězce (výchozí = <literal>False</literal>)."
 
 #. mzRus
 #: sf_array.xhp
@@ -1454,7 +1454,7 @@ msgctxt ""
 "par_id941586179707156\n"
 "help.text"
 msgid "Write all items of the array sequentially to a text file. If the file exists already, it will be overwritten without warning."
-msgstr ""
+msgstr "Postupně zapíše všechny položky pole do textového souboru. Pokud již soubor existuje, bez upozornění je přepsán."
 
 #. 9mNLT
 #: sf_array.xhp
@@ -1463,7 +1463,7 @@ msgctxt ""
 "par_id100158617970719\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to export. It must contain only strings."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Pole, které se má exportovat. Může obsahovat pouze řetězce."
 
 #. kXJDE
 #: sf_array.xhp
@@ -1472,7 +1472,7 @@ msgctxt ""
 "par_id101586179707232\n"
 "help.text"
 msgid "<emph>filename</emph>: The name of the text file where the data will be written to. The name must be expressed according to the current <literal>FileNaming</literal> property of the <literal>SF_FileSystem</literal> service."
-msgstr ""
+msgstr "<emph>filename</emph>: Název textového souboru, do něhož se mají data zapsat. Název musí odpovídat aktuální vlastnosti <literal>FileNaming</literal> ze služby <literal>SF_FileSystem</literal>."
 
 #. fAeZV
 #: sf_array.xhp
@@ -1481,7 +1481,7 @@ msgctxt ""
 "par_id70158617970791\n"
 "help.text"
 msgid "<emph>encoding</emph>: The character set that should be used. Use one of the names listed in <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\" name=\"IANA character sets\">IANA character sets</link>. Note that %PRODUCTNAME may not implement all existing character sets (Default is \"UTF-8\")."
-msgstr ""
+msgstr "<emph>encoding</emph>: Znaková sada, která by se měla použít. Uveďte některý z názvů ze seznamu <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\" name=\"Znakové sady IANA\">znakových sad IANA</link>. Mějte na paměti, že v %PRODUCTNAME nemusí být všechny znakové sady implementovány. (Výchozí je \"UTF-8\".)"
 
 #. TtHbe
 #: sf_array.xhp
@@ -1490,7 +1490,7 @@ msgctxt ""
 "par_id171582560281082\n"
 "help.text"
 msgid "Extract from a two dimension array a specific column as a new array.      <br/>Its lower <literal>LBound</literal> and upper <literal>UBound</literal> boundaries are identical to that of the first dimension of the input array."
-msgstr ""
+msgstr "Získá z dvourozměrného pole určitý sloupec jako nové pole.<br/> Meze nového pole, dolní <literal>LBound</literal> a horní <literal>UBound</literal>, jsou totožné s mezemi prvního rozměru vstupního pole."
 
 #. j2CVW
 #: sf_array.xhp
@@ -1499,7 +1499,7 @@ msgctxt ""
 "par_id301582560281083\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The array from which to extract."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Pole, z něhož se má sloupec získat."
 
 #. QDqrA
 #: sf_array.xhp
@@ -1508,7 +1508,7 @@ msgctxt ""
 "par_id421582560281084\n"
 "help.text"
 msgid "<emph>columnindex</emph>: The column number to extract - must be in the interval <literal>[LBound, UBound]</literal>."
-msgstr ""
+msgstr "<emph>columnindex</emph>: Číslo sloupce, který se má získat. Musí být v intervalu <literal>[LBound, UBound]</literal>."
 
 #. AJxYE
 #: sf_array.xhp
@@ -1517,7 +1517,7 @@ msgctxt ""
 "bas_id861609975902708\n"
 "help.text"
 msgid "'Creates a 3x3 matrix: |1, 2, 3|"
-msgstr ""
+msgstr "' Vytvoří matici 3 × 3: |1, 2, 3|"
 
 #. uZD8U
 #: sf_array.xhp
@@ -1526,7 +1526,7 @@ msgctxt ""
 "bas_id431609976009994\n"
 "help.text"
 msgid "'Extracts the third column: |3, 6, 9|"
-msgstr ""
+msgstr "' Získá třetí sloupec: [3, 6, 9]"
 
 #. is3Zq
 #: sf_array.xhp
@@ -1535,7 +1535,7 @@ msgctxt ""
 "par_id211582561467219\n"
 "help.text"
 msgid "Extract from a two dimension array a specific row as a new array.      <br/>Its lower <literal>LBound</literal> and upper <literal>UBound</literal> boundaries are identical to that of the second dimension of the input array."
-msgstr ""
+msgstr "Získá z dvourozměrného pole určitý řádek jako nové pole.<br/> Meze nového pole, dolní <literal>LBound</literal> a horní <literal>UBound</literal>, jsou totožné s mezemi druhého rozměru vstupního pole."
 
 #. VCBJA
 #: sf_array.xhp
@@ -1544,7 +1544,7 @@ msgctxt ""
 "par_id911582561542889\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The array from which to extract."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Pole, z něhož se má řádek získat."
 
 #. MjXTV
 #: sf_array.xhp
@@ -1553,7 +1553,7 @@ msgctxt ""
 "par_id441582561551202\n"
 "help.text"
 msgid "<emph>rowindex</emph>: The row number to extract - must be in the interval <literal>[LBound, UBound]</literal>."
-msgstr ""
+msgstr "<emph>rowindex</emph>: Číslo řádku, který se má získat. Musí být v intervalu <literal>[LBound, UBound]</literal>."
 
 #. AajEu
 #: sf_array.xhp
@@ -1562,7 +1562,7 @@ msgctxt ""
 "bas_id301582561604167\n"
 "help.text"
 msgid "'Creates a 3x3 matrix: |1, 2, 3|"
-msgstr ""
+msgstr "' Vytvoří matici 3 × 3: |1, 2, 3|"
 
 #. txoEC
 #: sf_array.xhp
@@ -1571,7 +1571,7 @@ msgctxt ""
 "bas_id431609976648017\n"
 "help.text"
 msgid "'Extracts the first row: |1, 2, 3|"
-msgstr ""
+msgstr "' Získá první řádek: |1, 2, 3|"
 
 #. nGy3S
 #: sf_array.xhp
