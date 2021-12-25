@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2021-12-23 21:38+0000\n"
+"PO-Revision-Date: 2021-12-25 10:25+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -1580,7 +1580,7 @@ msgctxt ""
 "par_id431585757822181\n"
 "help.text"
 msgid "Stack all single items of an array and all items in its subarrays into one new array without subarrays. Empty subarrays are ignored and subarrays with a number of dimensions greater than one are not flattened."
-msgstr ""
+msgstr "Uspořádá všechny jednotlivé položky pole a položky všech jeho podpolí do nového pole, které podpole neobsahuje. Prázdná podpole se ignorují, podpole s více rozměry než jedním zjednodušena nejsou."
 
 #. CNFGJ
 #: sf_array.xhp
@@ -1589,7 +1589,7 @@ msgctxt ""
 "par_id431585757822869\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Předem existující pole, může být prázdné."
 
 #. DDwn4
 #: sf_array.xhp
@@ -1598,7 +1598,7 @@ msgctxt ""
 "par_id291610040786530\n"
 "help.text"
 msgid "You can use the <literal>Flatten</literal> method along with other methods such as <literal>Append</literal> or <literal>Prepend</literal> to concatenate a set of 1D arrays into a single 1D array."
-msgstr ""
+msgstr "Metodu <literal>Flatten</literal> je možné spolu s metodami jako <literal>Append</literal> či <literal>Prepend</literal> použít pro spojení více jednorozměrných polí do jediného jednorozměrného pole."
 
 #. XE4hJ
 #: sf_array.xhp
@@ -1607,7 +1607,7 @@ msgctxt ""
 "par_id941610040961148\n"
 "help.text"
 msgid "Next is an example of how the methods <literal>Flatten</literal> and <literal>Append</literal> can be combined to concatenate three arrays."
-msgstr ""
+msgstr "Následuje příklad spojení tří polí zkombinováním metod <literal>Flatten</literal> a <literal>Append</literal>."
 
 #. FyJQi
 #: sf_array.xhp
@@ -1616,7 +1616,7 @@ msgctxt ""
 "bas_id841610041372527\n"
 "help.text"
 msgid "'Creates three arrays for this example"
-msgstr ""
+msgstr "' Vytvoří pro tento příklad tři pole"
 
 #. WvdEp
 #: sf_array.xhp
@@ -1625,7 +1625,7 @@ msgctxt ""
 "bas_id171610041440657\n"
 "help.text"
 msgid "'Concatenates the three arrays into a single 1D array"
-msgstr ""
+msgstr "' Spojí tři pole do jediného jednorozměrného"
 
 #. 3Gm5m
 #: sf_array.xhp
@@ -1634,7 +1634,7 @@ msgctxt ""
 "par_id611585561482373\n"
 "help.text"
 msgid "Import the data contained in a comma-separated values (CSV) file. The comma may be replaced by any character."
-msgstr ""
+msgstr "Naimportuje data ze souboru s hodnotami oddělenými čárkou (CSV). Čárku lze nahradit libovolným znakem."
 
 #. Fft9z
 #: sf_array.xhp
@@ -1643,7 +1643,7 @@ msgctxt ""
 "par_id41585562158392\n"
 "help.text"
 msgid "The applicable CSV format is described in <link href=\"https://tools.ietf.org/html/rfc4180\" name=\"CSV formats\">IETF Common Format and MIME Type for CSV Files</link>."
-msgstr ""
+msgstr "Formát CSV, který je možné použít, je popsán v dookumentu <link href=\"https://tools.ietf.org/html/rfc4180\" name=\"Formáty CSV\">IETF Common Format and MIME Type for CSV Files</link>."
 
 #. PT3Pq
 #: sf_array.xhp
@@ -1653,6 +1653,8 @@ msgctxt ""
 "help.text"
 msgid "Each line in the file contains a full record (line splitting is not allowed).     <br/>However sequences like <literal>\\n</literal>, <literal>\\t</literal>, ... are left unchanged. Use <literal>SF_String</literal>.Unescape() method to manage them."
 msgstr ""
+"Každý řádek souboru obsahuje úplný záznam (není povoleno řádky dělit).<br/>Posloupnosti znaků jako <literal>\\n"
+"</literal>, <literal>\\t</literal> apod. jsou ponechány beze změny. Chcete-li je zpracovat, použijte metodu <literal>SF_String</literal>.Unescape()."
 
 #. dCYB3
 #: sf_array.xhp
@@ -1661,7 +1663,7 @@ msgctxt ""
 "par_id231585562475026\n"
 "help.text"
 msgid "The method returns a two dimension array whose rows correspond to a single record read in the file and whose columns correspond to a field of the record. No check is made about the coherence of the field types across columns. A best guess will be made to identify numeric and date types."
-msgstr ""
+msgstr "Metoda vrátí dvourozměrné pole s řádky odpovídajícími záznamům načteným ze souboru a sloupci odpovídajícími jednotlivým polím záznamů. Nekontroluje se, zda jsou ve sloupcích konzistentní typy polí. Kvalifikovaným odhadem se určí číselné a datové typy."
 
 #. FMKSo
 #: sf_array.xhp
@@ -1670,7 +1672,7 @@ msgctxt ""
 "par_id101585562548245\n"
 "help.text"
 msgid "If a line contains less or more fields than the first line in the file, an exception will be raised. Empty lines however are simply ignored. If the size of the file exceeds the number of items limit (see inside the code), a warning is raised and the array is truncated."
-msgstr ""
+msgstr "Obsahuje-li řádek více polí než první řádek v souboru, nastane chyba. Prázdné řádky se jednoduše ignorují. Pokud velikost souboru převýší limit pro počet položek (uvedený v kódu), dojde k upozornění a pole se zkrátí."
 
 #. zGf5A
 #: sf_array.xhp
@@ -1679,7 +1681,7 @@ msgctxt ""
 "par_id441585561482121\n"
 "help.text"
 msgid "<emph>filename</emph>: The name of the text file containing the data. The name must be expressed according to the current <literal>FileNaming</literal> property of the <literal>SF_FileSystem</literal> service."
-msgstr ""
+msgstr "<emph>filename</emph>: Název textového souboru obsahujícího data. Název musí odpovídat aktuální vlastnosti <literal>FileNaming</literal> ze služby <literal>SF_FileSystem</literal>."
 
 #. SBuiC
 #: sf_array.xhp
@@ -1688,7 +1690,7 @@ msgctxt ""
 "par_id251585561482929\n"
 "help.text"
 msgid "<emph>delimiter</emph>: A single character, usually, a comma, a semicolon or a TAB character (Default = \",\")."
-msgstr ""
+msgstr "<emph>delimiter</emph>: Jediný znak, obvykle čárka, středník nebo tabulátor (výchozí = \",\")."
 
 #. Ehoz6
 #: sf_array.xhp
@@ -1697,7 +1699,7 @@ msgctxt ""
 "par_id631585563491559\n"
 "help.text"
 msgid "<emph>dateformat</emph>: A special mechanism handles dates when <literal>dateformat</literal> is either \"YYYY-MM-DD\", \"DD-MM-YYYY\" or \"MM-DD-YYYY\". The dash (-) may be replaced by a dot (.), a slash (/) or a space. Other date formats will be ignored. Dates defaulting to an empty string \"\" are considered as normal text."
-msgstr ""
+msgstr "<emph>dateformat</emph>: Pokud je <literal>dateformat</literal> \"YYYY-MM-DD\", \"DD-MM-YYYY\" či \"MM-DD-YYYY\", zpracují se data speciálním způsobem. Pomlčku (-) lze nahradit tečkou (.), lomítkem (/) nebo mezerou. Jiné formáty data se ignorují. Data, která odpovídají prázdnému řetězci \"\", jsou považována za běžný text."
 
 #. oj4Th
 #: sf_array.xhp
@@ -1706,7 +1708,7 @@ msgctxt ""
 "par_id61585564516409\n"
 "help.text"
 msgid "Consider the CSV file \"myFile.csv\" with the following contents:"
-msgstr ""
+msgstr "Soubor CSV \"myFile.csv\" obsahuje následující řádky:"
 
 #. xNCNA
 #: sf_array.xhp
@@ -1715,7 +1717,7 @@ msgctxt ""
 "par_id181626979812772\n"
 "help.text"
 msgid "The examples below in Basic and Python read the contents of the CSV file into an <literal>Array</literal> object."
-msgstr ""
+msgstr "Následující příklady načtou obsah souboru CSV do objektu <literal>Array</literal> v jazycích Basic a Python."
 
 #. xCx7D
 #: sf_array.xhp
