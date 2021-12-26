@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2021-12-25 10:25+0000\n"
+"PO-Revision-Date: 2021-12-26 20:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -1247,7 +1247,7 @@ msgctxt ""
 "par_id101582551483685\n"
 "help.text"
 msgid "<emph>row</emph>: A 1-dimensional array with as many items as there are columns in <literal>array_2d</literal>."
-msgstr "<emph>column</emph>: Jednorozměrné pole s tolika položkami, kolik má pole <literal>array_2d</literal> sloupců."
+msgstr "<emph>row</emph>: Jednorozměrné pole s tolika položkami, kolik má pole <literal>array_2d</literal> sloupců."
 
 #. aM65P
 #: sf_array.xhp
@@ -1726,7 +1726,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr ""
+msgstr "Vyhledá v jednorozměrném poli číslo, řetězec nebo datum. U porovnání textu se může či nemusí rozlišovat velikost písmen.<br/>Seřazená vstupní pole musí být homogenně vyplněna, tj. všechny položky musí být skaláry téhož typu (položky <literal>Empty</literal> a <literal>Null</literal> nejsou povoleny).<br/>Výsledek metody nelze určit, pokud je pole označeno jako seřazené, ale ve skutečnosti seřazeno není.<br/>Je-li pole seřazeno, provede se binární vyhledávání, v opačném případě se pole prohledá od začátku do konce, přičemž položky <literal>Empty</literal> a <literal>Null</literal> se ignorují.<br/><br/>Pokud není hledání úspěšné, metoda vrátí <literal>LBound(input array) - 1</literal>."
 
 #. Bm5Um
 #: sf_array.xhp
@@ -1735,7 +1735,7 @@ msgctxt ""
 "par_id315825627687760\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to scan."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Pole, které se má prohledat."
 
 #. B5FFj
 #: sf_array.xhp
@@ -1744,7 +1744,7 @@ msgctxt ""
 "par_id511582562775516\n"
 "help.text"
 msgid "<emph>tofind</emph>: A number, a date or a string to find."
-msgstr ""
+msgstr "<emph>tofind</emph>: Číslo, datum nebo řetězec, který se má najít."
 
 #. i4XQT
 #: sf_array.xhp
@@ -1753,7 +1753,7 @@ msgctxt ""
 "par_id311582562787187\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Pouze pro porovnání řetězců (výchozí = <literal>False</literal>)."
 
 #. gd5ZZ
 #: sf_array.xhp
@@ -1762,7 +1762,7 @@ msgctxt ""
 "par_id421582562794501\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\", \"DESC\" or \"\" (not sorted). The default value is \"\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Může být jedna z hodnot \"ASC\", \"DESC\" nebo \"\" (neseřazeno). Výchozí hodnotou je \"\"."
 
 #. AWJHj
 #: sf_array.xhp
@@ -1771,7 +1771,7 @@ msgctxt ""
 "par_id911582626951109\n"
 "help.text"
 msgid "Insert before a given index of the input array the items listed as arguments.      <br/>Arguments are inserted blindly. Each of them might be either a scalar of any type or a subarray."
-msgstr ""
+msgstr "Vloží před zadaný index vstupního pole položky uvedené jako argumenty.<br/>Argumenty se vkládají bez jakékoliv kontroly. Každý z nich může být buď skalár libovolného typu, nebo podpole."
 
 #. FwHz6
 #: sf_array.xhp
@@ -1780,7 +1780,7 @@ msgctxt ""
 "par_id251582626951111\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Předem existující pole, může být prázdné."
 
 #. zEACt
 #: sf_array.xhp
@@ -1789,7 +1789,7 @@ msgctxt ""
 "par_id361582626951111\n"
 "help.text"
 msgid "<emph>before</emph>: The index before which to insert; must be in the interval <literal>[LBound, UBound + 1]</literal>."
-msgstr ""
+msgstr "<emph>before</emph>: Index, před který se položky vloží; musí být v intervalu <literal>[LBound, UBound + 1]</literal>."
 
 #. iYFC5
 #: sf_array.xhp
@@ -1798,7 +1798,7 @@ msgctxt ""
 "par_id41582626951111\n"
 "help.text"
 msgid "<emph>arg0, arg1, ...</emph>: Items that will be inserted into <literal>array_1d</literal>."
-msgstr ""
+msgstr "<emph>arg0, arg1, ...</emph>: Položky, které se do pole <literal>array_1d</literal> vloží."
 
 #. rA4FE
 #: sf_array.xhp
@@ -1807,7 +1807,7 @@ msgctxt ""
 "par_id441582627664147\n"
 "help.text"
 msgid "Inserts into a sorted array a new item on its place.      <br/>The array must be filled homogeneously, meaning that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are forbidden."
-msgstr ""
+msgstr "Vloží do seřazeného pole na správné místo novou položku.<br/>Seřazená vstupní pole musí být homogenně vyplněna, tj. všechny položky musí být skaláry téhož typu.<br/>Položky <literal>Empty</literal> a <literal>Null</literal> nejsou povoleny."
 
 #. jBpdF
 #: sf_array.xhp
@@ -1816,7 +1816,7 @@ msgctxt ""
 "par_id121582627664147\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array into which the value will be inserted."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Pole, do něhož se hodnota vloží."
 
 #. 36fZG
 #: sf_array.xhp
@@ -1825,7 +1825,7 @@ msgctxt ""
 "par_id315826276641480\n"
 "help.text"
 msgid "<emph>item</emph>: The scalar value to insert, of the same type as the existing array items."
-msgstr ""
+msgstr "<emph>item</emph>: Skalární hodnota, která se má vložit, téhož typu jako stávající položky pole."
 
 #. dHYTn
 #: sf_array.xhp
@@ -1834,7 +1834,7 @@ msgctxt ""
 "par_id415826279771170\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Může být \"ASC\" (výchozí) nebo \"DESC\"."
 
 #. TJanG
 #: sf_array.xhp
@@ -1843,7 +1843,7 @@ msgctxt ""
 "par_id701582627970037\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Pouze pro porovnání řetězců (výchozí = <literal>False</literal>)."
 
 #. t9UFn
 #: sf_array.xhp
@@ -1852,7 +1852,7 @@ msgctxt ""
 "par_id71582629177169\n"
 "help.text"
 msgid "Build a set, as a zero-based array, by applying the intersection set operator on the two input arrays. Resulting items are contained in both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, in other words all items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Použije na dvě vstupní pole množinový operátor průniku a vytvoří tak novou množinu v podobě pole začínajícího od 0. Výsledné položky jsou obsaženy v obou polích.<br/>Výsledné pole je vzestupně seřazeno.<br/>Obě vstupní pole musí být homogenně vyplněna, tj. jejich položky musí být skaláry téhož typu. Položky <literal>Empty</literal> a <literal>Null</literal> nejsou povoleny.<br/>Porovnání textu může či nemusí rozlišovat velikost písmen."
 
 #. vCyDN
 #: sf_array.xhp
@@ -1861,7 +1861,7 @@ msgctxt ""
 "par_id881582629216169\n"
 "help.text"
 msgid "<emph>array1_1d</emph>: The first input array."
-msgstr ""
+msgstr "<emph>array1_1d</emph>: První vstupní pole."
 
 #. NhXEb
 #: sf_array.xhp
@@ -1870,7 +1870,7 @@ msgctxt ""
 "par_id191582629223038\n"
 "help.text"
 msgid "<emph>array2_1d</emph>: The second input array."
-msgstr ""
+msgstr "<emph>array2_1d</emph>: Druhé vstupní pole."
 
 #. Dx32U
 #: sf_array.xhp
@@ -1879,7 +1879,7 @@ msgctxt ""
 "par_id71582629230275\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Applies to arrays populated with text items (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Týká se polí s textovými položkami (výchozí = <literal>False</literal>)."
 
 #. cirZm
 #: sf_array.xhp
@@ -1888,7 +1888,7 @@ msgctxt ""
 "par_id431583064481679\n"
 "help.text"
 msgid "Join a two-dimensional array with two delimiters, one for the columns, one for the rows."
-msgstr ""
+msgstr "Spojí položky dvourozměrného pole dvěma oddělovači, prvním mezi sloupci, druhým mezi řádky."
 
 #. 8xwfF
 #: sf_array.xhp
@@ -1897,7 +1897,7 @@ msgctxt ""
 "par_id821583064481534\n"
 "help.text"
 msgid "<emph>array_2d</emph>: Each item must be either text, a number, a date or a boolean.      <br/>Dates are transformed into the YYYY-MM-DD hh:mm:ss format.      <br/>Invalid items are replaced by a zero-length string."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Každá položka musí být text, číslo, datum nebo booleovská hodnota.<br/>Data jsou převedena na formát YYYY-MM-DD hh:mm:ss.<br/>Neplatné položky jsou nahrazeny řetězci s nulovou délkou."
 
 #. TiqUm
 #: sf_array.xhp
@@ -1906,7 +1906,7 @@ msgctxt ""
 "par_id171583066989446\n"
 "help.text"
 msgid "<emph>columndelimiter</emph>: Delimits each column (default = Tab/Chr(9))."
-msgstr ""
+msgstr "<emph>columndelimiter</emph>: Odděluje sloupce (výchozí = tabulátor/Chr(9))."
 
 #. WG5wm
 #: sf_array.xhp
@@ -1915,7 +1915,7 @@ msgctxt ""
 "par_id431583067008842\n"
 "help.text"
 msgid "<emph>rowdelimiter</emph>: Delimits each row (default = LineFeed/Chr(10))"
-msgstr ""
+msgstr "<emph>rowdelimiter</emph>: Odděluje řádky (výchozí = konec řádku LF / Chr(10))"
 
 #. VrBJV
 #: sf_array.xhp
@@ -1924,7 +1924,7 @@ msgctxt ""
 "par_id541583067456273\n"
 "help.text"
 msgid "<emph>quote</emph>: If <literal>True</literal>, protect strings with double quotes. The default is <literal>False</literal>."
-msgstr ""
+msgstr "<emph>quote</emph>: Je-li <literal>True</literal>, uzavře řetězce do dvojitých uvozovek. Výchozí je <literal>False</literal>."
 
 #. CEE7o
 #: sf_array.xhp
@@ -1933,7 +1933,7 @@ msgctxt ""
 "par_id731582630075045\n"
 "help.text"
 msgid "Prepend at the beginning of the input array the items listed as arguments."
-msgstr ""
+msgstr "Přidá položky uvedené jako argumenty na začátek vstupního pole."
 
 #. HSbWh
 #: sf_array.xhp
@@ -1942,7 +1942,7 @@ msgctxt ""
 "par_id321582630107068\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Předem existující pole, může být prázdné."
 
 #. jszVE
 #: sf_array.xhp
@@ -1951,7 +1951,7 @@ msgctxt ""
 "par_id915826301138550\n"
 "help.text"
 msgid "<emph>arg0, arg1, ...</emph>: A list of items to prepend to <literal>array_1d</literal>."
-msgstr ""
+msgstr "<emph>arg0, arg1, ...</emph>: Seznam položek, které se mají k poli <literal>array_1d</literal> přidat."
 
 #. BokfB
 #: sf_array.xhp
@@ -1960,7 +1960,7 @@ msgctxt ""
 "par_id91582643223166\n"
 "help.text"
 msgid "Prepend to the left side of a two dimension array a new column. The resulting array has the same lower boundaries as the initial two dimension array."
-msgstr ""
+msgstr "Přidá na levou stranu dvourozměrného pole nový sloupec. Výsledné pole má stejné dolní meze jako původní dvourozměrné pole."
 
 #. iBqEm
 #: sf_array.xhp
@@ -1969,7 +1969,7 @@ msgctxt ""
 "par_id621582643223545\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the last column of the resulting 2 dimension array."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Předem existující pole, může být prázdné. Pokud je toto pole pouze jednorozměrné, je považováno za poslední řádek výsledného dvourozměrného pole."
 
 #. aKJwC
 #: sf_array.xhp
@@ -1978,7 +1978,7 @@ msgctxt ""
 "par_id381582643223870\n"
 "help.text"
 msgid "<emph>column</emph>: A 1-dimensional array with as many items as there are rows in <literal>array_2d</literal>."
-msgstr ""
+msgstr "<emph>column</emph>: Jednorozměrné pole s tolika položkami, kolik má pole <literal>array_2d</literal> řádků."
 
 #. vsPSG
 #: sf_array.xhp
@@ -1987,7 +1987,7 @@ msgctxt ""
 "par_id851582643611291\n"
 "help.text"
 msgid "Prepend a new row at the beginning of a 2-dimensional array. The resulting array has the same lower boundaries as the initial 2-dimensional array."
-msgstr ""
+msgstr "Přidá na začátek dvourozměrného pole nový řádek. Výsledné pole má stejné dolní meze jako původní dvourozměrné pole."
 
 #. g2LFC
 #: sf_array.xhp
@@ -1996,7 +1996,7 @@ msgctxt ""
 "par_id991582643611645\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the last row of the resulting 2-dimensional array."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Předem existující pole, může být prázdné. Pokud je toto pole pouze jednorozměrné, je považováno za poslední řádek výsledného dvourozměrného pole."
 
 #. RiLGr
 #: sf_array.xhp
@@ -2005,7 +2005,7 @@ msgctxt ""
 "par_id321582643611415\n"
 "help.text"
 msgid "<emph>row</emph>: A 1-dimensional array containing as many items as there are columns in <literal>array_2d</literal>."
-msgstr ""
+msgstr "<emph>row</emph>: Jednorozměrné pole s tolika položkami, kolik má pole <literal>array_2d</literal> sloupců."
 
 #. WmxAd
 #: sf_array.xhp
@@ -2014,7 +2014,7 @@ msgctxt ""
 "par_id441582648204012\n"
 "help.text"
 msgid "Initialize a new zero-based array with numeric values."
-msgstr ""
+msgstr "Inicializuje číselnými hodnotami nové pole začínající od 0."
 
 #. EVXVL
 #: sf_array.xhp
@@ -2023,7 +2023,7 @@ msgctxt ""
 "par_id591582648204013\n"
 "help.text"
 msgid "<emph>from</emph>: Value of the first item."
-msgstr ""
+msgstr "<emph>from</emph>: Hodnota první položky."
 
 #. ciMBJ
 #: sf_array.xhp
@@ -2032,7 +2032,7 @@ msgctxt ""
 "par_id31582648204013\n"
 "help.text"
 msgid "<emph>upto</emph>: The last item should not exceed <literal>UpTo</literal>."
-msgstr ""
+msgstr "<emph>upto</emph>: Poslední položka by neměla být větší než <literal>UpTo</literal>."
 
 #. 2QZtd
 #: sf_array.xhp
@@ -2041,7 +2041,7 @@ msgctxt ""
 "par_id581582648204014\n"
 "help.text"
 msgid "<emph>bystep</emph>: The difference between two successive items (Default = 1)."
-msgstr ""
+msgstr "<emph>bystep</emph>: Rozdíl mezi dvěma po sobě následujícími položkami (výchozí = 1)."
 
 #. SbVGG
 #: sf_array.xhp
@@ -2050,7 +2050,7 @@ msgctxt ""
 "par_id451582648806764\n"
 "help.text"
 msgid "Return the reversed one dimension input array."
-msgstr ""
+msgstr "Vrátí obrácené jednorozměrné vstupní pole."
 
 #. dG6d8
 #: sf_array.xhp
@@ -2059,7 +2059,7 @@ msgctxt ""
 "par_id31582648806765\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to reverse."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Pole, které se má obrátit."
 
 #. tkEUv
 #: sf_array.xhp
@@ -2068,7 +2068,7 @@ msgctxt ""
 "par_id151582649200088\n"
 "help.text"
 msgid "Returns a random permutation of a one-dimensional array."
-msgstr ""
+msgstr "Vrátí náhodnou permutaci jednorozměrného pole."
 
 #. xFwWY
 #: sf_array.xhp
@@ -2077,7 +2077,7 @@ msgctxt ""
 "par_id11582649200088\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to shuffle."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Pole, jehož permutace se má vytvořit."
 
 #. BvV5v
 #: sf_array.xhp
@@ -2086,7 +2086,7 @@ msgctxt ""
 "bas_id611582649200089\n"
 "help.text"
 msgid "' Array \"a\" is now in random order, f.i. (2, 3, 1, 4)"
-msgstr ""
+msgstr "' Array \"a\" je v náhodném pořadí, např. (2, 3, 1, 4)"
 
 #. GhFBG
 #: sf_array.xhp
@@ -2095,7 +2095,7 @@ msgctxt ""
 "par_id111586184185502\n"
 "help.text"
 msgid "Returns a subset of a one-dimensional array."
-msgstr ""
+msgstr "Vrátí podmnožinu jednorozměrného pole."
 
 #. YeRkh
 #: sf_array.xhp
@@ -2104,7 +2104,7 @@ msgctxt ""
 "par_id201586184185438\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to slice."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Pole, jehož podmnožina se má vrátit."
 
 #. UzHmT
 #: sf_array.xhp
@@ -2113,7 +2113,7 @@ msgctxt ""
 "par_id921586184482370\n"
 "help.text"
 msgid "<emph>from</emph>: The lower index in <literal>array_1d</literal> of the subarray to extract (<literal>from</literal> included)"
-msgstr ""
+msgstr "<emph>from</emph>: Dolní index pole <literal>array_1d</literal>, od něhož se má podpole získat (včetně indexu <literal>from</literal>)"
 
 #. 326GB
 #: sf_array.xhp
@@ -2122,7 +2122,7 @@ msgctxt ""
 "par_id211586184471488\n"
 "help.text"
 msgid "<emph>upto</emph>: The upper index in <literal>array_1d</literal> of the subarray to extract (<literal>upto</literal> included). The default value is the upper bound of <literal>array_1d</literal>. If <literal>upto</literal> < <literal>from</literal> then the returned array is empty."
-msgstr ""
+msgstr "<emph>upto</emph>: Horní index pole <literal>array_1d</literal>, do něhož se má podpole získat (včetně indexu <literal>upto</literal>). Výchozí hodnotou je horní mez pole <literal>array_1d</literal>. Je-li <literal>upto</literal> < <literal>from</literal>, vrátí se prázdné pole."
 
 #. oBwcF
 #: sf_array.xhp
@@ -2131,7 +2131,7 @@ msgctxt ""
 "par_id171582649483675\n"
 "help.text"
 msgid "Sort a one dimension array in ascending or descending order. Text comparisons can be case-sensitive or not.      <br/>The array must be filled homogeneously, which means that items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Seřadí jednorozměrné pole vzestupně nebo sestupně. Při porovnávání textů se může či nemusí rozlišovat velikost písmen.<br/>Pole musí být homogenně vyplněno, tj. všechny položky musí být skaláry téhož typu.<br/>Položky <literal>Empty</literal> a <literal>Null</literal> jsou povoleny. Platí, že <literal>Empty</literal> < <literal>Null</literal> < jakákoliv jiná skalární hodnota."
 
 #. eNuB8
 #: sf_array.xhp
@@ -2140,7 +2140,7 @@ msgctxt ""
 "par_id71158264948346\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to sort."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Pole, které se má seřadit."
 
 #. 7S2Bq
 #: sf_array.xhp
@@ -2149,7 +2149,7 @@ msgctxt ""
 "par_id21582649483175\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Může být \"ASC\" (výchozí) nebo \"DESC\"."
 
 #. K4GrR
 #: sf_array.xhp
@@ -2158,7 +2158,7 @@ msgctxt ""
 "par_id301582649483187\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Pouze pro porovnání řetězců (výchozí = <literal>False</literal>)."
 
 #. 6CkrZ
 #: sf_array.xhp
@@ -2167,7 +2167,7 @@ msgctxt ""
 "par_id801582650186957\n"
 "help.text"
 msgid "Return a permutation of the columns of a two dimension array, sorted on the values of a given row.      <br/>The row must be filled homogeneously, which means that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Vrátí permutaci sloupců dvourozměrného pole, seřazenou podle hodnot v zadaném řádku.<br/>Pole musí být homogenně vyplněno, tj. všechny položky musí být skaláry téhož typu.<br/>Položky <literal>Empty</literal> a <literal>Null</literal> jsou povoleny. Platí, že <literal>Empty</literal> < <literal>Null</literal> < jakákoliv jiná skalární hodnota."
 
 #. ww7Us
 #: sf_array.xhp
@@ -2176,7 +2176,7 @@ msgctxt ""
 "par_id921582650186869\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The 2-dimensional array to sort."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Dvourozměrné pole, které se má seřadit."
 
 #. GdFxm
 #: sf_array.xhp
@@ -2185,7 +2185,7 @@ msgctxt ""
 "par_id311582650186221\n"
 "help.text"
 msgid "<emph>rowindex</emph>: The index of the row that will be used as reference to sort the columns."
-msgstr ""
+msgstr "<emph>rowindex</emph>: Index řádku, který bude pro řazení sloupců použit."
 
 #. toBNF
 #: sf_array.xhp
@@ -2194,7 +2194,7 @@ msgctxt ""
 "par_id34158265018698\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Může být \"ASC\" (výchozí) nebo \"DESC\"."
 
 #. BFduL
 #: sf_array.xhp
@@ -2203,7 +2203,7 @@ msgctxt ""
 "par_id91158265018699\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Pouze pro porovnání řetězců (výchozí = <literal>False</literal>)."
 
 #. 7GkBx
 #: sf_array.xhp
@@ -2212,7 +2212,7 @@ msgctxt ""
 "par_id751582650954576\n"
 "help.text"
 msgid "Return a permutation of the rows of a two dimension array, sorted on the values of a given column.      <br/>The column must be filled homogeneously, therefore all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Vrátí permutaci řádků dvourozměrného pole, seřazenou podle hodnot v zadaném sloupci.<br/>Pole musí být homogenně vyplněno, tj. všechny položky musí být skaláry téhož typu.<br/>Položky <literal>Empty</literal> a <literal>Null</literal> jsou povoleny. Platí, že <literal>Empty</literal> < <literal>Null</literal> < jakákoliv jiná skalární hodnota."
 
 #. durL8
 #: sf_array.xhp
@@ -2221,7 +2221,7 @@ msgctxt ""
 "par_id621582650954370\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The array to sort."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Pole, které se má seřadit."
 
 #. HZqQi
 #: sf_array.xhp
@@ -2230,7 +2230,7 @@ msgctxt ""
 "par_id361582650954796\n"
 "help.text"
 msgid "<emph>columnindex</emph>: The index of the column that will be used as reference to sort the rows."
-msgstr ""
+msgstr "<emph>columnindex</emph>: Index sloupce, který bude pro řazení řádků použit."
 
 #. 7TDWy
 #: sf_array.xhp
@@ -2239,7 +2239,7 @@ msgctxt ""
 "par_id471582650954416\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Může být \"ASC\" (výchozí) nebo \"DESC\"."
 
 #. 9YDzi
 #: sf_array.xhp
@@ -2248,7 +2248,7 @@ msgctxt ""
 "par_id111582650954690\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Pouze pro porovnání řetězců (výchozí = <literal>False</literal>)."
 
 #. skzGA
 #: sf_array.xhp
@@ -2257,7 +2257,7 @@ msgctxt ""
 "par_id611582651575637\n"
 "help.text"
 msgid "Swaps rows and columns in a two-dimensional array."
-msgstr ""
+msgstr "Prohodí v dvourozměrném poli řádky a sloupce."
 
 #. gcbVN
 #: sf_array.xhp
@@ -2266,7 +2266,7 @@ msgctxt ""
 "par_id61582651575188\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The 2-dimensional array to transpose."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Dvourozměrné pole, které se má transponovat."
 
 #. dwAVQ
 #: sf_array.xhp
@@ -2275,7 +2275,7 @@ msgctxt ""
 "par_id181582652996483\n"
 "help.text"
 msgid "Remove from a one dimension array all <literal>Null</literal>, <literal>Empty</literal> and zero-length entries.      <br/>String items are trimmed with %PRODUCTNAME Basic <literal>Trim()</literal> function."
-msgstr ""
+msgstr "Odstraní z jednorozměrného pole všechny položky s nulovou délkou a s hodnotami <literal>Null</literal>, <literal>Empty</literal>.<br/>Řetězce v položkách budou oříznuty funkcí %PRODUCTNAME Basic <literal>Trim()</literal>."
 
 #. L8FQg
 #: sf_array.xhp
@@ -2284,7 +2284,7 @@ msgctxt ""
 "par_id111582652996147\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to trim."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Pole, které se má oříznout."
 
 #. GAC2A
 #: sf_array.xhp
@@ -2293,7 +2293,7 @@ msgctxt ""
 "par_id461582653148663\n"
 "help.text"
 msgid "Builds a set, as a zero-based array, by applying the union operator on the two input arrays. Resulting items originate from any of both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, their items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Použije operátor sjednocení na dvě vstupní pole a vytvoří tak množinu v podobě pole začínajícího od 0. Výsledné položky mohou pocházet z obou polí.<br/>Výsledné pole je vzestupně seřazeno.<br/>Obě vstupní pole musí být homogenně vyplněna, tj. jejich položky musí být skaláry téhož typu. Položky <literal>Empty</literal> a <literal>Null</literal> nejsou povoleny.<br/>Porovnání textu může či nemusí rozlišovat velikost písmen."
 
 #. oHeQj
 #: sf_array.xhp
@@ -2302,7 +2302,7 @@ msgctxt ""
 "par_id4715826531488\n"
 "help.text"
 msgid "<emph>array1_1d</emph>: The first input array."
-msgstr ""
+msgstr "<emph>array1_1d</emph>: První vstupní pole."
 
 #. GJuXQ
 #: sf_array.xhp
@@ -2311,7 +2311,7 @@ msgctxt ""
 "par_id51158265314898\n"
 "help.text"
 msgid "<emph>array2_1d</emph>: The second input array."
-msgstr ""
+msgstr "<emph>array2_1d</emph>: Druhé vstupní pole."
 
 #. HNhsz
 #: sf_array.xhp
@@ -2320,7 +2320,7 @@ msgctxt ""
 "par_id821582653148126\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Applicable only if the arrays are populated with strings (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Použitelné pouze tehdy, obsahují-li pole řetězce (výchozí = <literal>False</literal>)."
 
 #. CGMRq
 #: sf_array.xhp
@@ -2329,7 +2329,7 @@ msgctxt ""
 "par_id221582653464565\n"
 "help.text"
 msgid "Build a set of unique values derived from the input array.      <br/>The input array must be filled homogeneously, its items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Vytvoří ze vstupního pole množinu jedinečných hodnot.<br/>Vstupní pole musí být homogenně vyplněno, tj. všechny položky musí být skaláry téhož typu. Položky <literal>Empty</literal> a <literal>Null</literal> nejsou povoleny.<br/>Porovnání textu může či nemusí rozlišovat velikost písmen."
 
 #. bcFGM
 #: sf_array.xhp
@@ -2338,7 +2338,7 @@ msgctxt ""
 "par_id521582653464553\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The input array."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Vstupní pole."
 
 #. MYeE2
 #: sf_array.xhp
@@ -2347,7 +2347,7 @@ msgctxt ""
 "par_id41158265346441\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Applicable only if the array is populated with strings (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Použitelné pouze tehdy, obsahuje-li pole řetězce (výchozí = <literal>False</literal>)."
 
 #. GAXAU
 #: sf_base.xhp
@@ -2356,7 +2356,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.Base service"
-msgstr ""
+msgstr "Služba SFDocuments.Base"
 
 #. TiAmG
 #: sf_base.xhp
@@ -2365,7 +2365,7 @@ msgctxt ""
 "bm_id781582391760253\n"
 "help.text"
 msgid "<variable id=\"ctrls_h1\"><link href=\"text/sbasic/shared/03/sf_base.xhp\" name=\"SFDocuments.Base service\"><literal>SFDocuments</literal>.<literal>Base</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"ctrls_h1\"><link href=\"text/sbasic/shared/03/sf_base.xhp\" name=\"Služba SFDocuments.Base\">Služba <literal>SFDocuments</literal>.<literal>Base</literal></link></variable>"
 
 #. 4KK8s
 #: sf_base.xhp
@@ -2374,7 +2374,7 @@ msgctxt ""
 "par_id901619031958273\n"
 "help.text"
 msgid "The <literal>Base</literal> service provides a number of methods and properties to facilitate the management and handling of %PRODUCTNAME Base documents."
-msgstr ""
+msgstr "Služba <literal>Base</literal> poskytuje řadu metod a vlastností usnadňujících správu a obsluhu dokumentů %PRODUCTNAME Base."
 
 #. ZxoY9
 #: sf_base.xhp
@@ -2383,7 +2383,7 @@ msgctxt ""
 "par_id961619032060880\n"
 "help.text"
 msgid "This service is closely related to the <literal>Document</literal> service, which provides generic methods for handling %PRODUCTNAME documents, including Base documents. Hence, the <literal>Base</literal> service extends the <literal>Document</literal> service and provides additional methods that are specific for Base documents, enabling users to:"
-msgstr ""
+msgstr "Služba úzce souvisí se službou <literal>Dokument</literal>, která nabízí obecné metody pro nakládání s dokumenty %PRODUCTNAME, a to včetně dokumentů aplikace Base. Služba <literal>Base</literal> tak službu <literal>Document</literal> rozšiřuje, nabízí dodatečné metody specifické pro Base, a umožňuje uživatelům:"
 
 #. EK3gt
 #: sf_base.xhp
@@ -2392,7 +2392,7 @@ msgctxt ""
 "par_id241619032289964\n"
 "help.text"
 msgid "Get access to the database contained in a Base document."
-msgstr ""
+msgstr "Získat přístup k databázi obsažené v dokumentu Base."
 
 #. y2wmE
 #: sf_base.xhp
@@ -2401,7 +2401,7 @@ msgctxt ""
 "par_id291619032292829\n"
 "help.text"
 msgid "Open form documents stored in a Base document."
-msgstr ""
+msgstr "Otevřít dokument formulářů uložený v dokumentu Base."
 
 #. cpnJ7
 #: sf_base.xhp
@@ -2410,7 +2410,7 @@ msgctxt ""
 "par_id421619032296454\n"
 "help.text"
 msgid "Check if a form document from a Base document is currently loaded."
-msgstr ""
+msgstr "Zkontrolovat, zda je dokument formulářů z dokumentu Base aktuálně načten."
 
 #. myHaG
 #: sf_base.xhp
@@ -2419,7 +2419,7 @@ msgctxt ""
 "par_id241619032941497\n"
 "help.text"
 msgid "Refer to the <link href=\"text/sbasic/shared/03/sf_document.xhp\" name=\"Document Service\"><literal>Document</literal> service</link> to learn more about methods and properties that can be used to manage %PRODUCTNAME documents."
-msgstr ""
+msgstr "Další informace o metodách a vlastnostech pro správu dokumentů %PRODUCTNAME naleznete na stránce <link href=\"text/sbasic/shared/03/sf_document.xhp\" name=\"Služba Document\">Služba <literal>Document</literal></link>."
 
 #. bGpRM
 #: sf_base.xhp
@@ -2428,7 +2428,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Volání služby"
 
 #. vi6hS
 #: sf_base.xhp
@@ -2437,7 +2437,7 @@ msgctxt ""
 "par_id311619033224680\n"
 "help.text"
 msgid "The Base service can be invoked in a variety of ways. The code snippet below uses the method <literal>CreateBaseDocument</literal> from the <literal>UI</literal> service to create a new Base file."
-msgstr ""
+msgstr "Službu Base lze volat různými způsoby. Následující část kódu používá metodu <literal>CreateBaseDocument</literal> ze služby <literal>UI</literal> pro vytvoření nového souboru aplikace Base."
 
 #. t4HPk
 #: sf_base.xhp
@@ -2446,7 +2446,7 @@ msgctxt ""
 "par_id101619033666470\n"
 "help.text"
 msgid "Note that in all examples the object <literal>oDoc</literal> is an instance of the <literal>Base</literal> service."
-msgstr ""
+msgstr "Ve všech příkladech je objekt <literal>oDoc</literal> instancí služby <literal>Base</literal>."
 
 #. hKce4
 #: sf_base.xhp
@@ -2455,7 +2455,7 @@ msgctxt ""
 "par_id281619033570656\n"
 "help.text"
 msgid "The <literal>Base</literal> service can also be instantiated while opening an existing Base file, as shown below:"
-msgstr ""
+msgstr "Instanci služby <literal>Base</literal> je možné vytvořit také při otevírání existujícího souboru Base:"
 
 #. noxU9
 #: sf_base.xhp
@@ -2464,7 +2464,7 @@ msgctxt ""
 "par_id331619033713781\n"
 "help.text"
 msgid "If a Base document is already open, it is possible to instantiate the <literal>Base</literal> service directly:"
-msgstr ""
+msgstr "Pokud je soubor Base již otevřen, je možné vytvořit instanci služby <literal>Base</literal> přímo:"
 
 #. DrqrF
 #: sf_base.xhp
@@ -2473,7 +2473,7 @@ msgctxt ""
 "par_id871623102536956\n"
 "help.text"
 msgid "The examples above can be translated to Python as follows:"
-msgstr ""
+msgstr "Do Pythonu lze tyto příklady převést následovně:"
 
 #. f8Esv
 #: sf_base.xhp
@@ -2482,7 +2482,7 @@ msgctxt ""
 "par_id281619619980185\n"
 "help.text"
 msgid "The use of the <emph>\"SFDocuments.\"</emph> substring in the previous example is optional."
-msgstr ""
+msgstr "Použití řetězce <emph>\"SFDocuments.\"</emph> je v předchozím příkladu volitelné."
 
 #. oMw4m
 #: sf_base.xhp
@@ -2491,7 +2491,7 @@ msgctxt ""
 "par_id451619034669263\n"
 "help.text"
 msgid "List of Methods in the Base Service"
-msgstr ""
+msgstr "Seznam metod služby Base"
 
 #. TvfQt
 #: sf_base.xhp
@@ -2500,7 +2500,7 @@ msgctxt ""
 "par_id801916099743199\n"
 "help.text"
 msgid "Closes the given form document. Returns <literal>True</literal> if closure is successful."
-msgstr ""
+msgstr "Zavře zadaný dokument formulářů. Při úspěšném uzavření vrátí <literal>True</literal>."
 
 #. ycunk
 #: sf_base.xhp
@@ -2509,7 +2509,7 @@ msgctxt ""
 "par_id941619079997810\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of the <literal>FormDocument</literal> to be closed, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> Název objektu <literal>FormDocument</literal>, který se má zavřít, jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. aLKLw
 #: sf_base.xhp
@@ -2518,7 +2518,7 @@ msgctxt ""
 "par_id351619100723505\n"
 "help.text"
 msgid "If form documents are organized in folders, it is necessary to include the folder name to specify the form document to be opened, as illustrated in the following examples:"
-msgstr ""
+msgstr "Pokud jsou dokumenty uspořádány ve složkách, je nezbytné při určení názvu dokumentu formulářů uvést název složky, jak ukazují následující příklady:"
 
 #. ZQnqj
 #: sf_base.xhp
@@ -2527,7 +2527,7 @@ msgctxt ""
 "par_id481619036833610\n"
 "help.text"
 msgid "Returns an array with the full names (path/name) of all form documents in the Base document as an zero-based Array of strings."
-msgstr ""
+msgstr "Vrátí pole s celými názvy (cesta/název) všech dokumentů formulářů v dokumentu Base, a to jako pole řetězců začínající od 0."
 
 #. sECnJ
 #: sf_base.xhp
@@ -2536,7 +2536,7 @@ msgctxt ""
 "par_id431619037334440\n"
 "help.text"
 msgid "The code snippet below prints the names of all form documents in the current Base document."
-msgstr ""
+msgstr "Následující část kódu vypíše názvy všech dokumentů formulářů v aktuálním dokumentu Base."
 
 #. DQb6z
 #: sf_base.xhp
@@ -2545,7 +2545,7 @@ msgctxt ""
 "par_id921619036922844\n"
 "help.text"
 msgid "To learn more about form documents, refer to the <link href=\"text/sbasic/shared/03/sf_form.xhp\" name=\"Form service\"><literal>Form</literal> service help page</link>."
-msgstr ""
+msgstr "Další informace o dokumentech formulářů naleznete na <link href=\"text/sbasic/shared/03/sf_form.xhp\" name=\"Služba Form\">stránce služby <literal>Form</literal></link>."
 
 #. gCGqW
 #: sf_base.xhp
@@ -2554,7 +2554,7 @@ msgctxt ""
 "par_id191619037523467\n"
 "help.text"
 msgid "Depending on the parameters provided this method will return:"
-msgstr ""
+msgstr "V závislosti na předaných parametrech tato metoda vrátí:"
 
 #. HqFmT
 #: sf_base.xhp
@@ -2563,7 +2563,7 @@ msgctxt ""
 "par_id781619037575043\n"
 "help.text"
 msgid "A zero-based Array with the names of all the forms contained in a form document (if the <literal>Form</literal> argument is absent)"
-msgstr ""
+msgstr "Pole začínající od 0 s názvy všech formulářů obsažených v dokumentu formulářů (pokud chybí argument <literal>Form</literal>)"
 
 #. Q4Had
 #: sf_base.xhp
@@ -2572,7 +2572,7 @@ msgctxt ""
 "par_id111619037577804\n"
 "help.text"
 msgid "A <literal>SFDocuments.Form</literal> object representing the form specified in the <literal>Form</literal> argument."
-msgstr ""
+msgstr "Objekt <literal>SFDocuments.Form</literal> představující formuláře uvedený v argumentu <literal>Form</literal>."
 
 #. pEtwt
 #: sf_base.xhp
@@ -2581,7 +2581,7 @@ msgctxt ""
 "par_id861619037838260\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of a valid form document as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> Název platného dokumentu formulářů jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. L3csm
 #: sf_base.xhp
@@ -2590,7 +2590,7 @@ msgctxt ""
 "par_id281619037857187\n"
 "help.text"
 msgid "<emph>form:</emph> The name or index number of the form stored in the form document. If this argument is absent, the method will return a list with the names of all forms available in the form document."
-msgstr ""
+msgstr "<emph>form:</emph> Název nebo číslo indexu formuláře uloženého v dokumentu formulářů. Pokud tento argument chybí, metoda vrátí seznam s názvy všech formulářů, které jsou v dokumentu formulářů obsaženy."
 
 #. K4nQh
 #: sf_base.xhp
@@ -2599,7 +2599,7 @@ msgctxt ""
 "par_id921619437863617\n"
 "help.text"
 msgid "Although it is possible to use index numbers to refer to forms, this is only recommended when there is just one form in the form document. If there are two or more forms, it is preferable to use the form name instead."
-msgstr ""
+msgstr "I když je možné při odkazování na formuláře používat čísla indexů, je to doporučeno pouze tehdy, je-li v dokumentu formuláře pouze jediný formulář. V případě dvou a více formuláře je vhodné dát místo toho přednost názvu formuláře."
 
 #. DoxrV
 #: sf_base.xhp
@@ -2608,7 +2608,7 @@ msgctxt ""
 "par_id21623104676805\n"
 "help.text"
 msgid "The first line of the example below returns a list of all forms in the form document \"myFormDocument\". The second line returns an instance of the Form service representing the form \"myForm\"."
-msgstr ""
+msgstr "První řádek následujícího příkladu vrátí seznam všech formulářů v dokumentu formulářů „myFormDocument“. Druhý řádek vrátí instanci služby Form představující formulář „myForm“."
 
 #. 9jA9n
 #: sf_base.xhp
@@ -2617,7 +2617,7 @@ msgctxt ""
 "par_id371619098340303\n"
 "help.text"
 msgid "Returns an instance of the <link href=\"text/sbasic/shared/03/sf_database.xhp\" name=\"Database service\"><literal>Database</literal> service</link> that allows the execution of SQL commands on the database defined and/or stored in the current Base document"
-msgstr ""
+msgstr "Vrátí instanci <link href=\"text/sbasic/shared/03/sf_database.xhp\" name=\"Služba Database\">služby <literal>Database</literal></link>, která umožňuje spouštět SQL příkazy na databázi definované nebo uložené v aktuálním dokumentu Base"
 
 #. 9Bncy
 #: sf_base.xhp
@@ -2626,7 +2626,7 @@ msgctxt ""
 "par_id731619098073221\n"
 "help.text"
 msgid "<emph>user, password:</emph> Optional login parameters as strings. The default value for both parameters is an empty string \"\"."
-msgstr ""
+msgstr "<emph>user, password:</emph> Nepovinné přihlašovací parametry jako řetězce. Výchozí hodnotou obou parametrů je prázdný řetězec \"\"."
 
 #. UbzRD
 #: sf_base.xhp
@@ -2635,7 +2635,7 @@ msgctxt ""
 "bas_id631615147843278\n"
 "help.text"
 msgid "' User and password are supplied below, if needed"
-msgstr ""
+msgstr "' Níže jsou uvedeny uživatel a heslo, jsou-li potřeba"
 
 #. XBJVn
 #: sf_base.xhp
@@ -2644,7 +2644,7 @@ msgctxt ""
 "bas_id921599408791887\n"
 "help.text"
 msgid "'   ... Run queries, SQL statements, ..."
-msgstr ""
+msgstr "'   ... Spouštění dotazů, SQL příkazů, ..."
 
 #. DA8ob
 #: sf_base.xhp
@@ -2653,7 +2653,7 @@ msgctxt ""
 "pyc_id351623104861223\n"
 "help.text"
 msgid "'   ... Run queries, SQL statements, ..."
-msgstr ""
+msgstr "'   ... Spouštění dotazů, SQL příkazů, ..."
 
 #. mBphD
 #: sf_base.xhp
@@ -2662,7 +2662,7 @@ msgctxt ""
 "par_id871619098478513\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the specified <literal>FormDocument</literal> is  currently open."
-msgstr ""
+msgstr "Vrátí <literal>True</literal>, pokud je určený <literal>FormDocument</literal> aktuálně otevřený."
 
 #. njjFg
 #: sf_base.xhp
@@ -2671,7 +2671,7 @@ msgctxt ""
 "par_id981619098545701\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of a <literal>FormDocument</literal> to be checked, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> Název objektu <literal>FormDocument</literal>, který se má zkontrolovat, jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. RS3kj
 #: sf_base.xhp
@@ -2680,7 +2680,7 @@ msgctxt ""
 "par_id801619099743199\n"
 "help.text"
 msgid "Opens the specified <literal>FormDocument</literal> either in normal or in design mode."
-msgstr ""
+msgstr "Otevře určený <literal>FormDocument</literal> v běžném režimu nebo v režimu návrhu."
 
 #. 38vtF
 #: sf_base.xhp
@@ -2689,7 +2689,7 @@ msgctxt ""
 "par_id451619100075330\n"
 "help.text"
 msgid "If the form document is already open, it is activated without changing its mode. The method returns <literal>True</literal> if the form document could be opened."
-msgstr ""
+msgstr "Pokud je dokument již otevřen, aktivuje se a jeho režim se nezmění. Metoda vrátí <literal>True</literal>, pokud dokument mohl být otevřen."
 
 #. dUE6w
 #: sf_base.xhp
@@ -2698,7 +2698,7 @@ msgctxt ""
 "par_id941619099797810\n"
 "help.text"
 msgid "<emph>formDocument:</emph> The name of the <literal>FormDocument</literal> to be opened, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> Název objektu <literal>FormDocument</literal>, který se má otevřít, jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. Coxpu
 #: sf_base.xhp
@@ -2707,7 +2707,7 @@ msgctxt ""
 "par_id981619099816849\n"
 "help.text"
 msgid "<emph>designmode:</emph> If this argument is <literal>True</literal> the <literal>FormDocument</literal> will be opened in design mode."
-msgstr ""
+msgstr "<emph>designmode:</emph> Je-li tento argument <literal>True</literal>, <literal>FormDocument</literal> bude otevřen v režimu návrhu."
 
 #. B29ng
 #: sf_base.xhp
@@ -2716,7 +2716,7 @@ msgctxt ""
 "par_id251619100191992\n"
 "help.text"
 msgid "Most form documents are stored in the root of the Base document and they can be opened simply using their names, as in the example below:"
-msgstr ""
+msgstr "Většina dokumentů formulářů je uložena v kořeni dokumentu Base, a proto je lze otevřít pouze pomocí názvu, tak jako v následujícím příkladu:"
 
 #. ACLqQ
 #: sf_base.xhp
@@ -2725,7 +2725,7 @@ msgctxt ""
 "par_id351619100327505\n"
 "help.text"
 msgid "If form documents are organized in folders, it becomes necessary to include the folder name to specify the form document to be opened, as illustrated in the following example:"
-msgstr ""
+msgstr "Pokud jsou dokumenty uspořádány ve složkách, je nezbytné při určení názvu dokumentu formulářů uvést název složky, jak ukazují následující příklady:"
 
 #. zzgBi
 #: sf_base.xhp
@@ -2734,7 +2734,7 @@ msgctxt ""
 "par_id156589200121138\n"
 "help.text"
 msgid "This method sends the content of the given form document to a default printer or a printer defined by the <literal>SetPrinter()</literal> method."
-msgstr ""
+msgstr "Tato metoda odešle obsah daného dokumentu formulářů na výchozí tiskárnu nebo na tiskárnu určenou metodou <literal>SetPrinter()</literal>."
 
 #. oeDSX
 #: sf_base.xhp
@@ -2743,7 +2743,7 @@ msgctxt ""
 "par_id981611169416934\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the document was successfully printed."
-msgstr ""
+msgstr "Vrátí <literal>True</literal>, pokud byl dokument úspěšně vytištěn."
 
 #. pwm7n
 #: sf_base.xhp
@@ -2752,7 +2752,7 @@ msgctxt ""
 "par_id368519200121646\n"
 "help.text"
 msgid "<emph>formdocument</emph>: A valid document form name as a case-sensitive string. The form document must be open. It is activated by the method."
-msgstr ""
+msgstr "<emph>formdocument</emph>: Platný název dokumentů formulářů jako řetězec, u něhož se rozlišuje velikost písmen. Dokument formulářů musí být otevřen, aktivuje jej tato metoda."
 
 #. nRU4K
 #: sf_base.xhp
@@ -2761,7 +2761,7 @@ msgctxt ""
 "par_id211635436910093\n"
 "help.text"
 msgid "<emph>pages</emph>: The pages to print as a string, like in the user interface. Example: \"1-4;10;15-18\". Default is all pages."
-msgstr ""
+msgstr "<emph>pages</emph>: Stránky, které se mají vytisknout, jako řetězec podobný tomu, který se zadává v uživatelské rozhraní, například: \"1-4;10;15-18\". Výchozí jsou všechny stránky."
 
 #. UxDTL
 #: sf_base.xhp
@@ -2770,7 +2770,7 @@ msgctxt ""
 "par_id141635436912146\n"
 "help.text"
 msgid "<emph>copies</emph>: The number of copies. Default is 1."
-msgstr ""
+msgstr "<emph>copies</emph>: Počet kopií. Výchozí je 1."
 
 #. gDM4C
 #: sf_base.xhp
@@ -2779,7 +2779,7 @@ msgctxt ""
 "par_id911298505147502\n"
 "help.text"
 msgid "Define the printer options for a form document. The form document must be open."
-msgstr ""
+msgstr "Určuje možnosti tiskárny pro dokument formulářů. Tento dokument musí být otevřený."
 
 #. owLwe
 #: sf_base.xhp
@@ -2788,7 +2788,7 @@ msgctxt ""
 "par_id381651114800685\n"
 "help.text"
 msgid "Returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Vrátí <literal>True</literal> v případě úspěšného nastavení."
 
 #. uGA7B
 #: sf_base.xhp
@@ -2797,7 +2797,7 @@ msgctxt ""
 "par_id961635950394507\n"
 "help.text"
 msgid "<emph>formdocument</emph>: A valid document form name as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument</emph>: Platný název dokumentu formulářů jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. 3RzkD
 #: sf_basic.xhp
@@ -2806,7 +2806,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Basic service"
-msgstr ""
+msgstr "Služba ScriptForge.Basic"
 
 #. GxEht
 #: sf_basic.xhp
@@ -2815,7 +2815,7 @@ msgctxt ""
 "hd_id731582733781114\n"
 "help.text"
 msgid "<variable id=\"BasicService\"><link href=\"text/sbasic/shared/03/sf_basic.xhp\" name=\"Basic service\"><literal>ScriptForge</literal>.<literal>Basic</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"BasicService\"><link href=\"text/sbasic/shared/03/sf_basic.xhp\" name=\"Služba Basic\">Služba <literal>ScriptForge</literal>.<literal>Basic</literal></link></variable>"
 
 #. G5jAV
 #: sf_basic.xhp
@@ -2824,7 +2824,7 @@ msgctxt ""
 "par_id381589189355849\n"
 "help.text"
 msgid "The <literal>ScriptForge.Basic</literal> service proposes a collection of %PRODUCTNAME Basic methods to be executed in a Python context. <literal>Basic</literal> service methods reproduce the exact syntax and behaviour of Basic builtin functions."
-msgstr ""
+msgstr "Záměrem služby <literal>ScriptForge.Basic</literal> je, aby šla v kontextu Pythonu spouštět vybraná sada metod jazyka %PRODUCTNAME Basic. Metody služby <literal>Basic</literal> přesně reprodukují syntaxi a chování funkcí vestavěných v Basicu."
 
 #. Bb7Br
 #: sf_basic.xhp
@@ -2833,7 +2833,7 @@ msgctxt ""
 "par_id591589189364267\n"
 "help.text"
 msgid "Typical example:"
-msgstr ""
+msgstr "Typický příklad:"
 
 #. fBDsN
 #: sf_basic.xhp
@@ -2842,7 +2842,7 @@ msgctxt ""
 "pyc_id971618493778666\n"
 "help.text"
 msgid "bas.MsgBox('Display this text in a message box from a Python script')"
-msgstr ""
+msgstr "bas.MsgBox('Zobrazit ze skriptu Pythonu tento text v dialogu')"
 
 #. kGyCd
 #: sf_basic.xhp
@@ -2851,7 +2851,7 @@ msgctxt ""
 "par_id151618849022977\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Basic</literal> service is limited to Python scripts."
-msgstr ""
+msgstr "Služba <literal>ScriptForge</literal>.<literal>Basic</literal> je omezena na skripty Pythonu."
 
 #. biAQa
 #: sf_basic.xhp
@@ -2860,7 +2860,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Volání služby"
 
 #. pNUsj
 #: sf_basic.xhp
@@ -2869,7 +2869,7 @@ msgctxt ""
 "par_id141610734722352\n"
 "help.text"
 msgid "Before using the <literal>Basic</literal> service, import the <literal>CreateScriptService()</literal> method from the <literal>scriptforge</literal> module:"
-msgstr ""
+msgstr "Před použitím služby <literal>Basic</literal> naimportujte metodu <literal>CreateScriptService()</literal> z modulu <literal>scriptforge</literal>:"
 
 #. E6SaA
 #: sf_basic.xhp
@@ -2878,7 +2878,7 @@ msgctxt ""
 "hd_id201618922972557\n"
 "help.text"
 msgid "Properties"
-msgstr ""
+msgstr "Vlastnosti"
 
 #. bLzCe
 #: sf_basic.xhp
@@ -2887,7 +2887,7 @@ msgctxt ""
 "par_id401618922991909\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Název"
 
 #. 5FcQt
 #: sf_basic.xhp
@@ -2896,7 +2896,7 @@ msgctxt ""
 "par_id591618922991909\n"
 "help.text"
 msgid "ReadOnly"
-msgstr ""
+msgstr "Pouze pro čtení"
 
 #. N5DD5
 #: sf_basic.xhp
@@ -2905,7 +2905,7 @@ msgctxt ""
 "par_id211618922991909\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. qXwST
 #: sf_basic.xhp
@@ -2914,7 +2914,7 @@ msgctxt ""
 "par_id971618923022846\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #. KuiAD
 #: sf_basic.xhp
@@ -2923,7 +2923,7 @@ msgctxt ""
 "par_id21619004009875\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. 7DG4F
 #: sf_basic.xhp
@@ -2932,7 +2932,7 @@ msgctxt ""
 "par_id791619004012484\n"
 "help.text"
 msgid "Values: 0, 1, 5, 4, 3"
-msgstr ""
+msgstr "Hodnoty: 0, 1, 5, 4, 3"
 
 #. 8ie8B
 #: sf_basic.xhp
@@ -2941,7 +2941,7 @@ msgctxt ""
 "par_id201619004097755\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. DQkGQ
 #: sf_basic.xhp
@@ -2950,7 +2950,7 @@ msgctxt ""
 "par_id311619004099683\n"
 "help.text"
 msgid "Values: 48, 64, 32, 16<br/>"
-msgstr ""
+msgstr "Hodnoty: 48, 64, 32, 16"
 
 #. mCpye
 #: sf_basic.xhp
@@ -2959,7 +2959,7 @@ msgctxt ""
 "par_id581618922991909\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. h3hZE
 #: sf_basic.xhp
@@ -2968,7 +2968,7 @@ msgctxt ""
 "par_id211618923312141\n"
 "help.text"
 msgid "Values: 2, 128, 256, 512"
-msgstr ""
+msgstr "Hodnoty: 2, 128, 256, 512"
 
 #. kLst4
 #: sf_basic.xhp
@@ -2977,7 +2977,7 @@ msgctxt ""
 "par_id961618924503848\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. Tmtc2
 #: sf_basic.xhp
@@ -2986,7 +2986,7 @@ msgctxt ""
 "par_id871618924506654\n"
 "help.text"
 msgid "Values: 3, 2, 5, 7, 1, 4, 6<br/>Constants  indicating <literal>MsgBox</literal> selected button."
-msgstr ""
+msgstr "Hodnoty: 3, 2, 5, 7, 1, 4, 6<br/>Konstanty označující vybrané tlačítko pro <literal>MsgBox</literal>."
 
 #. BDtqm
 #: sf_basic.xhp
@@ -2995,7 +2995,7 @@ msgctxt ""
 "par_id731619006254384\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. SKW53
 #: sf_basic.xhp
@@ -3004,7 +3004,7 @@ msgctxt ""
 "par_id711619006255184\n"
 "help.text"
 msgid "UNO<br/>object"
-msgstr ""
+msgstr "Objekt<br/>UNO"
 
 #. AA95E
 #: sf_basic.xhp
@@ -3013,7 +3013,7 @@ msgctxt ""
 "par_id541619006255653\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/stardesktop.xhp\" name=\"StarDesktop\"><literal>StarDesktop</literal></link> object represents %PRODUCTNAME Start Center."
-msgstr ""
+msgstr "Objekt <link href=\"text/sbasic/shared/stardesktop.xhp\" name=\"StarDesktop\"><literal>StarDesktop</literal></link> představující úvodní obrazovku %PRODUCTNAME."
 
 #. vXq8C
 #: sf_basic.xhp
@@ -3022,7 +3022,7 @@ msgctxt ""
 "par_id651606319520519\n"
 "help.text"
 msgid "List of Methods in the Basic Service"
-msgstr ""
+msgstr "Seznam metod služby Basic"
 
 #. GvjSD
 #: sf_basic.xhp
@@ -3031,7 +3031,7 @@ msgctxt ""
 "par_id71621894830071\n"
 "help.text"
 msgid "Converts a numeric expression or a string to a <literal>datetime</literal>.<literal>datetime</literal> Python native object."
-msgstr ""
+msgstr "Převede číselný výraz nebo řetězec na nativní objekt Pythonu <literal>datetime</literal>.<literal>datetime</literal>."
 
 #. SVk4F
 #: sf_basic.xhp
@@ -3040,7 +3040,7 @@ msgctxt ""
 "par_id431621896441258\n"
 "help.text"
 msgid "This method exposes the Basic builtin function <link href=\"text/sbasic/shared/03100300.xhp\" name=\"CDate_Basic\">CDate</link> to Python scripts."
-msgstr ""
+msgstr "Tato metoda zpřístupňuje skriptům Pythonu vestavěnou funkci Basicu <link href=\"text/sbasic/shared/03100300.xhp\" name=\"CDate v Basicu\">CDate</link>."
 
 #. xvPTA
 #: sf_basic.xhp
@@ -3049,7 +3049,7 @@ msgctxt ""
 "par_id401621896675880\n"
 "help.text"
 msgid "<emph>expression</emph>: a numeric expression or a string representing a date."
-msgstr ""
+msgstr "<emph>expression</emph>: číselný výraz nebo řetězec představující datum."
 
 #. aBGSG
 #: sf_basic.xhp
