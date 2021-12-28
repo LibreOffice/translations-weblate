@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2021-12-23 21:39+0000\n"
+"PO-Revision-Date: 2021-12-28 01:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-7-2/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -1463,7 +1463,7 @@ msgctxt ""
 "par_id431585757822181\n"
 "help.text"
 msgid "Stack all single items of an array and all items in its subarrays into one new array without subarrays. Empty subarrays are ignored and subarrays with a number of dimensions greater than one are not flattened."
-msgstr ""
+msgstr "Uspořádá všechny jednotlivé položky pole a položky všech jeho podpolí do nového pole, které podpole neobsahuje. Prázdná podpole se ignorují, podpole s více rozměry než jedním zjednodušena nejsou."
 
 #. j2LdZ
 #: sf_array.xhp
@@ -1481,7 +1481,7 @@ msgctxt ""
 "par_id291610040786530\n"
 "help.text"
 msgid "You can use the <literal>Flatten</literal> method along with other methods such as <literal>Append</literal> or <literal>Prepend</literal> to concatenate a set of 1D arrays into a single 1D array."
-msgstr ""
+msgstr "Metodu <literal>Flatten</literal> je možné spolu s metodami jako <literal>Append</literal> či <literal>Prepend</literal> použít pro spojení více jednorozměrných polí do jediného jednorozměrného pole."
 
 #. XE4hJ
 #: sf_array.xhp
@@ -1490,7 +1490,7 @@ msgctxt ""
 "par_id941610040961148\n"
 "help.text"
 msgid "Next is an example of how the methods <literal>Flatten</literal> and <literal>Append</literal> can be combined to concatenate three arrays."
-msgstr ""
+msgstr "Následuje příklad spojení tří polí zkombinováním metod <literal>Flatten</literal> a <literal>Append</literal>."
 
 #. FyJQi
 #: sf_array.xhp
@@ -1499,7 +1499,7 @@ msgctxt ""
 "bas_id841610041372527\n"
 "help.text"
 msgid "'Creates three arrays for this example"
-msgstr ""
+msgstr "' Vytvoří pro tento příklad tři pole"
 
 #. WvdEp
 #: sf_array.xhp
@@ -1508,7 +1508,7 @@ msgctxt ""
 "bas_id171610041440657\n"
 "help.text"
 msgid "'Concatenates the three arrays into a single 1D array"
-msgstr ""
+msgstr "' Spojí tři pole do jediného jednorozměrného"
 
 #. 3Gm5m
 #: sf_array.xhp
@@ -1517,7 +1517,7 @@ msgctxt ""
 "par_id611585561482373\n"
 "help.text"
 msgid "Import the data contained in a comma-separated values (CSV) file. The comma may be replaced by any character."
-msgstr ""
+msgstr "Naimportuje data ze souboru s hodnotami oddělenými čárkou (CSV). Čárku lze nahradit libovolným znakem."
 
 #. Fft9z
 #: sf_array.xhp
@@ -1526,7 +1526,7 @@ msgctxt ""
 "par_id41585562158392\n"
 "help.text"
 msgid "The applicable CSV format is described in <link href=\"https://tools.ietf.org/html/rfc4180\" name=\"CSV formats\">IETF Common Format and MIME Type for CSV Files</link>."
-msgstr ""
+msgstr "Formát CSV, který je možné použít, je popsán v dookumentu <link href=\"https://tools.ietf.org/html/rfc4180\" name=\"Formáty CSV\">IETF Common Format and MIME Type for CSV Files</link>."
 
 #. PT3Pq
 #: sf_array.xhp
@@ -1536,6 +1536,8 @@ msgctxt ""
 "help.text"
 msgid "Each line in the file contains a full record (line splitting is not allowed).     <br/>However sequences like <literal>\\n</literal>, <literal>\\t</literal>, ... are left unchanged. Use <literal>SF_String</literal>.Unescape() method to manage them."
 msgstr ""
+"Každý řádek souboru obsahuje úplný záznam (není povoleno řádky dělit).<br/>Posloupnosti znaků jako <literal>\\n"
+"</literal>, <literal>\\t</literal> apod. jsou ponechány beze změny. Chcete-li je zpracovat, použijte metodu <literal>SF_String</literal>.Unescape()."
 
 #. dCYB3
 #: sf_array.xhp
@@ -1544,7 +1546,7 @@ msgctxt ""
 "par_id231585562475026\n"
 "help.text"
 msgid "The method returns a two dimension array whose rows correspond to a single record read in the file and whose columns correspond to a field of the record. No check is made about the coherence of the field types across columns. A best guess will be made to identify numeric and date types."
-msgstr ""
+msgstr "Metoda vrátí dvourozměrné pole s řádky odpovídajícími záznamům načteným ze souboru a sloupci odpovídajícími jednotlivým polím záznamů. Nekontroluje se, zda jsou ve sloupcích konzistentní typy polí. Kvalifikovaným odhadem se určí číselné a datové typy."
 
 #. FMKSo
 #: sf_array.xhp
@@ -1553,7 +1555,7 @@ msgctxt ""
 "par_id101585562548245\n"
 "help.text"
 msgid "If a line contains less or more fields than the first line in the file, an exception will be raised. Empty lines however are simply ignored. If the size of the file exceeds the number of items limit (see inside the code), a warning is raised and the array is truncated."
-msgstr ""
+msgstr "Obsahuje-li řádek více polí než první řádek v souboru, nastane chyba. Prázdné řádky se jednoduše ignorují. Pokud velikost souboru převýší limit pro počet položek (uvedený v kódu), dojde k upozornění a pole se zkrátí."
 
 #. zbUFJ
 #: sf_array.xhp
@@ -1598,7 +1600,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr ""
+msgstr "Vyhledá v jednorozměrném poli číslo, řetězec nebo datum. U porovnání textu se může či nemusí rozlišovat velikost písmen.<br/>Seřazená vstupní pole musí být homogenně vyplněna, tj. všechny položky musí být skaláry téhož typu (položky <literal>Empty</literal> a <literal>Null</literal> nejsou povoleny).<br/>Výsledek metody nelze určit, pokud je pole označeno jako seřazené, ale ve skutečnosti seřazeno není.<br/>Je-li pole seřazeno, provede se binární vyhledávání, v opačném případě se pole prohledá od začátku do konce, přičemž položky <literal>Empty</literal> a <literal>Null</literal> se ignorují.<br/><br/>Pokud není hledání úspěšné, metoda vrátí <literal>LBound(input array) - 1</literal>."
 
 #. mg7DA
 #: sf_array.xhp
@@ -1643,7 +1645,7 @@ msgctxt ""
 "par_id911582626951109\n"
 "help.text"
 msgid "Insert before a given index of the input array the items listed as arguments.      <br/>Arguments are inserted blindly. Each of them might be either a scalar of any type or a subarray."
-msgstr ""
+msgstr "Vloží před zadaný index vstupního pole položky uvedené jako argumenty.<br/>Argumenty se vkládají bez jakékoliv kontroly. Každý z nich může být buď skalár libovolného typu, nebo podpole."
 
 #. 32Nui
 #: sf_array.xhp
@@ -1724,7 +1726,7 @@ msgctxt ""
 "par_id71582629177169\n"
 "help.text"
 msgid "Build a set, as a zero-based array, by applying the intersection set operator on the two input arrays. Resulting items are contained in both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, in other words all items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Použije na dvě vstupní pole množinový operátor průniku a vytvoří tak novou množinu v podobě pole začínajícího od 0. Výsledné položky jsou obsaženy v obou polích.<br/>Výsledné pole je vzestupně seřazeno.<br/>Obě vstupní pole musí být homogenně vyplněna, tj. jejich položky musí být skaláry téhož typu. Položky <literal>Empty</literal> a <literal>Null</literal> nejsou povoleny.<br/>Porovnání textu může či nemusí rozlišovat velikost písmen."
 
 #. NxFNB
 #: sf_array.xhp
@@ -1760,7 +1762,7 @@ msgctxt ""
 "par_id431583064481679\n"
 "help.text"
 msgid "Join a two-dimensional array with two delimiters, one for the columns, one for the rows."
-msgstr ""
+msgstr "Spojí položky dvourozměrného pole dvěma oddělovači, prvním mezi sloupci, druhým mezi řádky."
 
 #. 6Cm9k
 #: sf_array.xhp
@@ -1805,7 +1807,7 @@ msgctxt ""
 "par_id731582630075045\n"
 "help.text"
 msgid "Prepend at the beginning of the input array the items listed as arguments."
-msgstr ""
+msgstr "Přidá položky uvedené jako argumenty na začátek vstupního pole."
 
 #. j5HX9
 #: sf_array.xhp
@@ -1832,7 +1834,7 @@ msgctxt ""
 "par_id91582643223166\n"
 "help.text"
 msgid "Prepend to the left side of a two dimension array a new column. The resulting array has the same lower boundaries as the initial two dimension array."
-msgstr ""
+msgstr "Přidá na levou stranu dvourozměrného pole nový sloupec. Výsledné pole má stejné dolní meze jako původní dvourozměrné pole."
 
 #. iBZMy
 #: sf_array.xhp
@@ -1886,7 +1888,7 @@ msgctxt ""
 "par_id441582648204012\n"
 "help.text"
 msgid "Initialize a new zero-based array with numeric values."
-msgstr ""
+msgstr "Inicializuje číselnými hodnotami nové pole začínající od 0."
 
 #. ArYNC
 #: sf_array.xhp
@@ -1922,7 +1924,7 @@ msgctxt ""
 "par_id451582648806764\n"
 "help.text"
 msgid "Return the reversed one dimension input array."
-msgstr ""
+msgstr "Vrátí obrácené jednorozměrné vstupní pole."
 
 #. zvyHb
 #: sf_array.xhp
@@ -2003,7 +2005,7 @@ msgctxt ""
 "par_id171582649483675\n"
 "help.text"
 msgid "Sort a one dimension array in ascending or descending order. Text comparisons can be case-sensitive or not.      <br/>The array must be filled homogeneously, which means that items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Seřadí jednorozměrné pole vzestupně nebo sestupně. Při porovnávání textů se může či nemusí rozlišovat velikost písmen.<br/>Pole musí být homogenně vyplněno, tj. všechny položky musí být skaláry téhož typu.<br/>Položky <literal>Empty</literal> a <literal>Null</literal> jsou povoleny. Platí, že <literal>Empty</literal> < <literal>Null</literal> < jakákoliv jiná skalární hodnota."
 
 #. ABuRp
 #: sf_array.xhp
@@ -2039,7 +2041,7 @@ msgctxt ""
 "par_id801582650186957\n"
 "help.text"
 msgid "Return a permutation of the columns of a two dimension array, sorted on the values of a given row.      <br/>The row must be filled homogeneously, which means that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Vrátí permutaci sloupců dvourozměrného pole, seřazenou podle hodnot v zadaném řádku.<br/>Pole musí být homogenně vyplněno, tj. všechny položky musí být skaláry téhož typu.<br/>Položky <literal>Empty</literal> a <literal>Null</literal> jsou povoleny. Platí, že <literal>Empty</literal> < <literal>Null</literal> < jakákoliv jiná skalární hodnota."
 
 #. EGBcR
 #: sf_array.xhp
@@ -2084,7 +2086,7 @@ msgctxt ""
 "par_id751582650954576\n"
 "help.text"
 msgid "Return a permutation of the rows of a two dimension array, sorted on the values of a given column.      <br/>The column must be filled homogeneously, therefore all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Vrátí permutaci řádků dvourozměrného pole, seřazenou podle hodnot v zadaném sloupci.<br/>Pole musí být homogenně vyplněno, tj. všechny položky musí být skaláry téhož typu.<br/>Položky <literal>Empty</literal> a <literal>Null</literal> jsou povoleny. Platí, že <literal>Empty</literal> < <literal>Null</literal> < jakákoliv jiná skalární hodnota."
 
 #. MCFqq
 #: sf_array.xhp
@@ -2147,7 +2149,7 @@ msgctxt ""
 "par_id181582652996483\n"
 "help.text"
 msgid "Remove from a one dimension array all <literal>Null</literal>, <literal>Empty</literal> and zero-length entries.      <br/>String items are trimmed with %PRODUCTNAME Basic <literal>Trim()</literal> function."
-msgstr ""
+msgstr "Odstraní z jednorozměrného pole všechny položky s nulovou délkou a s hodnotami <literal>Null</literal>, <literal>Empty</literal>.<br/>Řetězce v položkách budou oříznuty funkcí %PRODUCTNAME Basic <literal>Trim()</literal>."
 
 #. pgrAD
 #: sf_array.xhp
@@ -2201,7 +2203,7 @@ msgctxt ""
 "par_id221582653464565\n"
 "help.text"
 msgid "Build a set of unique values derived from the input array.      <br/>The input array must be filled homogeneously, its items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Vytvoří ze vstupního pole množinu jedinečných hodnot.<br/>Vstupní pole musí být homogenně vyplněno, tj. všechny položky musí být skaláry téhož typu. Položky <literal>Empty</literal> a <literal>Null</literal> nejsou povoleny.<br/>Porovnání textu může či nemusí rozlišovat velikost písmen."
 
 #. g5SkL
 #: sf_array.xhp
@@ -2228,7 +2230,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.Base service"
-msgstr ""
+msgstr "Služba SFDocuments.Base"
 
 #. TiAmG
 #: sf_base.xhp
@@ -2237,7 +2239,7 @@ msgctxt ""
 "bm_id781582391760253\n"
 "help.text"
 msgid "<variable id=\"ctrls_h1\"><link href=\"text/sbasic/shared/03/sf_base.xhp\" name=\"SFDocuments.Base service\"><literal>SFDocuments</literal>.<literal>Base</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"ctrls_h1\"><link href=\"text/sbasic/shared/03/sf_base.xhp\" name=\"Služba SFDocuments.Base\">Služba <literal>SFDocuments</literal>.<literal>Base</literal></link></variable>"
 
 #. 4KK8s
 #: sf_base.xhp
@@ -2246,7 +2248,7 @@ msgctxt ""
 "par_id901619031958273\n"
 "help.text"
 msgid "The <literal>Base</literal> service provides a number of methods and properties to facilitate the management and handling of %PRODUCTNAME Base documents."
-msgstr ""
+msgstr "Služba <literal>Base</literal> poskytuje řadu metod a vlastností usnadňujících správu a obsluhu dokumentů %PRODUCTNAME Base."
 
 #. ZxoY9
 #: sf_base.xhp
@@ -2255,7 +2257,7 @@ msgctxt ""
 "par_id961619032060880\n"
 "help.text"
 msgid "This service is closely related to the <literal>Document</literal> service, which provides generic methods for handling %PRODUCTNAME documents, including Base documents. Hence, the <literal>Base</literal> service extends the <literal>Document</literal> service and provides additional methods that are specific for Base documents, enabling users to:"
-msgstr ""
+msgstr "Služba úzce souvisí se službou <literal>Dokument</literal>, která nabízí obecné metody pro nakládání s dokumenty %PRODUCTNAME, a to včetně dokumentů aplikace Base. Služba <literal>Base</literal> tak službu <literal>Document</literal> rozšiřuje, nabízí dodatečné metody specifické pro Base, a umožňuje uživatelům:"
 
 #. EK3gt
 #: sf_base.xhp
@@ -2264,7 +2266,7 @@ msgctxt ""
 "par_id241619032289964\n"
 "help.text"
 msgid "Get access to the database contained in a Base document."
-msgstr ""
+msgstr "Získat přístup k databázi obsažené v dokumentu Base."
 
 #. y2wmE
 #: sf_base.xhp
@@ -2273,7 +2275,7 @@ msgctxt ""
 "par_id291619032292829\n"
 "help.text"
 msgid "Open form documents stored in a Base document."
-msgstr ""
+msgstr "Otevřít dokument formulářů uložený v dokumentu Base."
 
 #. cpnJ7
 #: sf_base.xhp
@@ -2282,7 +2284,7 @@ msgctxt ""
 "par_id421619032296454\n"
 "help.text"
 msgid "Check if a form document from a Base document is currently loaded."
-msgstr ""
+msgstr "Zkontrolovat, zda je dokument formulářů z dokumentu Base aktuálně načten."
 
 #. myHaG
 #: sf_base.xhp
@@ -2291,7 +2293,7 @@ msgctxt ""
 "par_id241619032941497\n"
 "help.text"
 msgid "Refer to the <link href=\"text/sbasic/shared/03/sf_document.xhp\" name=\"Document Service\"><literal>Document</literal> service</link> to learn more about methods and properties that can be used to manage %PRODUCTNAME documents."
-msgstr ""
+msgstr "Další informace o metodách a vlastnostech pro správu dokumentů %PRODUCTNAME naleznete na stránce <link href=\"text/sbasic/shared/03/sf_document.xhp\" name=\"Služba Document\">Služba <literal>Document</literal></link>."
 
 #. bGpRM
 #: sf_base.xhp
@@ -2300,7 +2302,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Volání služby"
 
 #. vi6hS
 #: sf_base.xhp
@@ -2309,7 +2311,7 @@ msgctxt ""
 "par_id311619033224680\n"
 "help.text"
 msgid "The Base service can be invoked in a variety of ways. The code snippet below uses the method <literal>CreateBaseDocument</literal> from the <literal>UI</literal> service to create a new Base file."
-msgstr ""
+msgstr "Službu Base lze volat různými způsoby. Následující část kódu používá metodu <literal>CreateBaseDocument</literal> ze služby <literal>UI</literal> pro vytvoření nového souboru aplikace Base."
 
 #. t4HPk
 #: sf_base.xhp
@@ -2318,7 +2320,7 @@ msgctxt ""
 "par_id101619033666470\n"
 "help.text"
 msgid "Note that in all examples the object <literal>oDoc</literal> is an instance of the <literal>Base</literal> service."
-msgstr ""
+msgstr "Ve všech příkladech je objekt <literal>oDoc</literal> instancí služby <literal>Base</literal>."
 
 #. hKce4
 #: sf_base.xhp
@@ -2327,7 +2329,7 @@ msgctxt ""
 "par_id281619033570656\n"
 "help.text"
 msgid "The <literal>Base</literal> service can also be instantiated while opening an existing Base file, as shown below:"
-msgstr ""
+msgstr "Instanci služby <literal>Base</literal> je možné vytvořit také při otevírání existujícího souboru Base:"
 
 #. noxU9
 #: sf_base.xhp
@@ -2336,7 +2338,7 @@ msgctxt ""
 "par_id331619033713781\n"
 "help.text"
 msgid "If a Base document is already open, it is possible to instantiate the <literal>Base</literal> service directly:"
-msgstr ""
+msgstr "Pokud je soubor Base již otevřen, je možné vytvořit instanci služby <literal>Base</literal> přímo:"
 
 #. DrqrF
 #: sf_base.xhp
@@ -2345,7 +2347,7 @@ msgctxt ""
 "par_id871623102536956\n"
 "help.text"
 msgid "The examples above can be translated to Python as follows:"
-msgstr ""
+msgstr "Do Pythonu lze tyto příklady převést následovně:"
 
 #. f8Esv
 #: sf_base.xhp
@@ -2354,7 +2356,7 @@ msgctxt ""
 "par_id281619619980185\n"
 "help.text"
 msgid "The use of the <emph>\"SFDocuments.\"</emph> substring in the previous example is optional."
-msgstr ""
+msgstr "Použití řetězce <emph>\"SFDocuments.\"</emph> je v předchozím příkladu volitelné."
 
 #. oMw4m
 #: sf_base.xhp
@@ -2363,7 +2365,7 @@ msgctxt ""
 "par_id451619034669263\n"
 "help.text"
 msgid "List of Methods in the Base Service"
-msgstr ""
+msgstr "Seznam metod služby Base"
 
 #. ZQnqj
 #: sf_base.xhp
@@ -2372,7 +2374,7 @@ msgctxt ""
 "par_id481619036833610\n"
 "help.text"
 msgid "Returns an array with the full names (path/name) of all form documents in the Base document as an zero-based Array of strings."
-msgstr ""
+msgstr "Vrátí pole s celými názvy (cesta/název) všech dokumentů formulářů v dokumentu Base, a to jako pole řetězců začínající od 0."
 
 #. sECnJ
 #: sf_base.xhp
@@ -2381,7 +2383,7 @@ msgctxt ""
 "par_id431619037334440\n"
 "help.text"
 msgid "The code snippet below prints the names of all form documents in the current Base document."
-msgstr ""
+msgstr "Následující část kódu vypíše názvy všech dokumentů formulářů v aktuálním dokumentu Base."
 
 #. DQb6z
 #: sf_base.xhp
@@ -2390,7 +2392,7 @@ msgctxt ""
 "par_id921619036922844\n"
 "help.text"
 msgid "To learn more about form documents, refer to the <link href=\"text/sbasic/shared/03/sf_form.xhp\" name=\"Form service\"><literal>Form</literal> service help page</link>."
-msgstr ""
+msgstr "Další informace o dokumentech formulářů naleznete na <link href=\"text/sbasic/shared/03/sf_form.xhp\" name=\"Služba Form\">stránce služby <literal>Form</literal></link>."
 
 #. gCGqW
 #: sf_base.xhp
@@ -2399,7 +2401,7 @@ msgctxt ""
 "par_id191619037523467\n"
 "help.text"
 msgid "Depending on the parameters provided this method will return:"
-msgstr ""
+msgstr "V závislosti na předaných parametrech tato metoda vrátí:"
 
 #. HqFmT
 #: sf_base.xhp
@@ -2408,7 +2410,7 @@ msgctxt ""
 "par_id781619037575043\n"
 "help.text"
 msgid "A zero-based Array with the names of all the forms contained in a form document (if the <literal>Form</literal> argument is absent)"
-msgstr ""
+msgstr "Pole začínající od 0 s názvy všech formulářů obsažených v dokumentu formulářů (pokud chybí argument <literal>Form</literal>)"
 
 #. Q4Had
 #: sf_base.xhp
@@ -2417,7 +2419,7 @@ msgctxt ""
 "par_id111619037577804\n"
 "help.text"
 msgid "A <literal>SFDocuments.Form</literal> object representing the form specified in the <literal>Form</literal> argument."
-msgstr ""
+msgstr "Objekt <literal>SFDocuments.Form</literal> představující formuláře uvedený v argumentu <literal>Form</literal>."
 
 #. pEtwt
 #: sf_base.xhp
@@ -2426,7 +2428,7 @@ msgctxt ""
 "par_id861619037838260\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of a valid form document as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> Název platného dokumentu formulářů jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. L3csm
 #: sf_base.xhp
@@ -2435,7 +2437,7 @@ msgctxt ""
 "par_id281619037857187\n"
 "help.text"
 msgid "<emph>form:</emph> The name or index number of the form stored in the form document. If this argument is absent, the method will return a list with the names of all forms available in the form document."
-msgstr ""
+msgstr "<emph>form:</emph> Název nebo číslo indexu formuláře uloženého v dokumentu formulářů. Pokud tento argument chybí, metoda vrátí seznam s názvy všech formulářů, které jsou v dokumentu formulářů obsaženy."
 
 #. K4nQh
 #: sf_base.xhp
@@ -2444,7 +2446,7 @@ msgctxt ""
 "par_id921619437863617\n"
 "help.text"
 msgid "Although it is possible to use index numbers to refer to forms, this is only recommended when there is just one form in the form document. If there are two or more forms, it is preferable to use the form name instead."
-msgstr ""
+msgstr "I když je možné při odkazování na formuláře používat čísla indexů, je to doporučeno pouze tehdy, je-li v dokumentu formuláře pouze jediný formulář. V případě dvou a více formuláře je vhodné dát místo toho přednost názvu formuláře."
 
 #. DoxrV
 #: sf_base.xhp
@@ -2453,7 +2455,7 @@ msgctxt ""
 "par_id21623104676805\n"
 "help.text"
 msgid "The first line of the example below returns a list of all forms in the form document \"myFormDocument\". The second line returns an instance of the Form service representing the form \"myForm\"."
-msgstr ""
+msgstr "První řádek následujícího příkladu vrátí seznam všech formulářů v dokumentu formulářů „myFormDocument“. Druhý řádek vrátí instanci služby Form představující formulář „myForm“."
 
 #. 9jA9n
 #: sf_base.xhp
@@ -2462,7 +2464,7 @@ msgctxt ""
 "par_id371619098340303\n"
 "help.text"
 msgid "Returns an instance of the <link href=\"text/sbasic/shared/03/sf_database.xhp\" name=\"Database service\"><literal>Database</literal> service</link> that allows the execution of SQL commands on the database defined and/or stored in the current Base document"
-msgstr ""
+msgstr "Vrátí instanci <link href=\"text/sbasic/shared/03/sf_database.xhp\" name=\"Služba Database\">služby <literal>Database</literal></link>, která umožňuje spouštět SQL příkazy na databázi definované nebo uložené v aktuálním dokumentu Base"
 
 #. 9Bncy
 #: sf_base.xhp
@@ -2471,7 +2473,7 @@ msgctxt ""
 "par_id731619098073221\n"
 "help.text"
 msgid "<emph>user, password:</emph> Optional login parameters as strings. The default value for both parameters is an empty string \"\"."
-msgstr ""
+msgstr "<emph>user, password:</emph> Nepovinné přihlašovací parametry jako řetězce. Výchozí hodnotou obou parametrů je prázdný řetězec \"\"."
 
 #. UbzRD
 #: sf_base.xhp
@@ -2480,7 +2482,7 @@ msgctxt ""
 "bas_id631615147843278\n"
 "help.text"
 msgid "' User and password are supplied below, if needed"
-msgstr ""
+msgstr "' Níže jsou uvedeny uživatel a heslo, jsou-li potřeba"
 
 #. XBJVn
 #: sf_base.xhp
@@ -2489,7 +2491,7 @@ msgctxt ""
 "bas_id921599408791887\n"
 "help.text"
 msgid "'   ... Run queries, SQL statements, ..."
-msgstr ""
+msgstr "'   ... Spouštění dotazů, SQL příkazů, ..."
 
 #. DA8ob
 #: sf_base.xhp
@@ -2498,7 +2500,7 @@ msgctxt ""
 "pyc_id351623104861223\n"
 "help.text"
 msgid "'   ... Run queries, SQL statements, ..."
-msgstr ""
+msgstr "'   ... Spouštění dotazů, SQL příkazů, ..."
 
 #. mBphD
 #: sf_base.xhp
@@ -2507,7 +2509,7 @@ msgctxt ""
 "par_id871619098478513\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the specified <literal>FormDocument</literal> is  currently open."
-msgstr ""
+msgstr "Vrátí <literal>True</literal>, pokud je určený <literal>FormDocument</literal> aktuálně otevřený."
 
 #. njjFg
 #: sf_base.xhp
@@ -2516,7 +2518,7 @@ msgctxt ""
 "par_id981619098545701\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of a <literal>FormDocument</literal> to be checked, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> Název objektu <literal>FormDocument</literal>, který se má zkontrolovat, jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. RS3kj
 #: sf_base.xhp
@@ -2525,7 +2527,7 @@ msgctxt ""
 "par_id801619099743199\n"
 "help.text"
 msgid "Opens the specified <literal>FormDocument</literal> either in normal or in design mode."
-msgstr ""
+msgstr "Otevře určený <literal>FormDocument</literal> v běžném režimu nebo v režimu návrhu."
 
 #. 38vtF
 #: sf_base.xhp
@@ -2534,7 +2536,7 @@ msgctxt ""
 "par_id451619100075330\n"
 "help.text"
 msgid "If the form document is already open, it is activated without changing its mode. The method returns <literal>True</literal> if the form document could be opened."
-msgstr ""
+msgstr "Pokud je dokument již otevřen, aktivuje se a jeho režim se nezmění. Metoda vrátí <literal>True</literal>, pokud dokument mohl být otevřen."
 
 #. dUE6w
 #: sf_base.xhp
@@ -2543,7 +2545,7 @@ msgctxt ""
 "par_id941619099797810\n"
 "help.text"
 msgid "<emph>formDocument:</emph> The name of the <literal>FormDocument</literal> to be opened, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> Název objektu <literal>FormDocument</literal>, který se má otevřít, jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. Coxpu
 #: sf_base.xhp
@@ -2552,7 +2554,7 @@ msgctxt ""
 "par_id981619099816849\n"
 "help.text"
 msgid "<emph>designmode:</emph> If this argument is <literal>True</literal> the <literal>FormDocument</literal> will be opened in design mode."
-msgstr ""
+msgstr "<emph>designmode:</emph> Je-li tento argument <literal>True</literal>, <literal>FormDocument</literal> bude otevřen v režimu návrhu."
 
 #. B29ng
 #: sf_base.xhp
@@ -2561,7 +2563,7 @@ msgctxt ""
 "par_id251619100191992\n"
 "help.text"
 msgid "Most form documents are stored in the root of the Base document and they can be opened simply using their names, as in the example below:"
-msgstr ""
+msgstr "Většina dokumentů formulářů je uložena v kořeni dokumentu Base, a proto je lze otevřít pouze pomocí názvu, tak jako v následujícím příkladu:"
 
 #. pv3RA
 #: sf_base.xhp
@@ -2579,7 +2581,7 @@ msgctxt ""
 "par_id351619100327505\n"
 "help.text"
 msgid "If form documents are organized in folders, it becomes necessary to include the folder name to specify the form document to be opened, as illustrated in the following example:"
-msgstr ""
+msgstr "Pokud jsou dokumenty uspořádány ve složkách, je nezbytné při určení názvu dokumentu formulářů uvést název složky, jak ukazují následující příklady:"
 
 #. mLgzR
 #: sf_base.xhp
@@ -2597,7 +2599,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Basic service"
-msgstr ""
+msgstr "Služba ScriptForge.Basic"
 
 #. GxEht
 #: sf_basic.xhp
@@ -2606,7 +2608,7 @@ msgctxt ""
 "hd_id731582733781114\n"
 "help.text"
 msgid "<variable id=\"BasicService\"><link href=\"text/sbasic/shared/03/sf_basic.xhp\" name=\"Basic service\"><literal>ScriptForge</literal>.<literal>Basic</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"BasicService\"><link href=\"text/sbasic/shared/03/sf_basic.xhp\" name=\"Služba Basic\">Služba <literal>ScriptForge</literal>.<literal>Basic</literal></link></variable>"
 
 #. G5jAV
 #: sf_basic.xhp
@@ -2615,7 +2617,7 @@ msgctxt ""
 "par_id381589189355849\n"
 "help.text"
 msgid "The <literal>ScriptForge.Basic</literal> service proposes a collection of %PRODUCTNAME Basic methods to be executed in a Python context. <literal>Basic</literal> service methods reproduce the exact syntax and behaviour of Basic builtin functions."
-msgstr ""
+msgstr "Záměrem služby <literal>ScriptForge.Basic</literal> je, aby šla v kontextu Pythonu spouštět vybraná sada metod jazyka %PRODUCTNAME Basic. Metody služby <literal>Basic</literal> přesně reprodukují syntaxi a chování funkcí vestavěných v Basicu."
 
 #. Bb7Br
 #: sf_basic.xhp
@@ -2624,7 +2626,7 @@ msgctxt ""
 "par_id591589189364267\n"
 "help.text"
 msgid "Typical example:"
-msgstr ""
+msgstr "Typický příklad:"
 
 #. yrYgm
 #: sf_basic.xhp
@@ -2642,7 +2644,7 @@ msgctxt ""
 "par_id151618849022977\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Basic</literal> service is limited to Python scripts."
-msgstr ""
+msgstr "Služba <literal>ScriptForge</literal>.<literal>Basic</literal> je omezena na skripty Pythonu."
 
 #. biAQa
 #: sf_basic.xhp
@@ -2651,7 +2653,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Volání služby"
 
 #. pNUsj
 #: sf_basic.xhp
@@ -2660,7 +2662,7 @@ msgctxt ""
 "par_id141610734722352\n"
 "help.text"
 msgid "Before using the <literal>Basic</literal> service, import the <literal>CreateScriptService()</literal> method from the <literal>scriptforge</literal> module:"
-msgstr ""
+msgstr "Před použitím služby <literal>Basic</literal> naimportujte metodu <literal>CreateScriptService()</literal> z modulu <literal>scriptforge</literal>:"
 
 #. E6SaA
 #: sf_basic.xhp
@@ -2669,7 +2671,7 @@ msgctxt ""
 "hd_id201618922972557\n"
 "help.text"
 msgid "Properties"
-msgstr ""
+msgstr "Vlastnosti"
 
 #. bLzCe
 #: sf_basic.xhp
@@ -2678,7 +2680,7 @@ msgctxt ""
 "par_id401618922991909\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Název"
 
 #. 5FcQt
 #: sf_basic.xhp
@@ -2687,7 +2689,7 @@ msgctxt ""
 "par_id591618922991909\n"
 "help.text"
 msgid "ReadOnly"
-msgstr ""
+msgstr "Pouze pro čtení"
 
 #. N5DD5
 #: sf_basic.xhp
@@ -2696,7 +2698,7 @@ msgctxt ""
 "par_id211618922991909\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. qXwST
 #: sf_basic.xhp
@@ -2705,7 +2707,7 @@ msgctxt ""
 "par_id971618923022846\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #. W8eh6
 #: sf_basic.xhp
@@ -2723,7 +2725,7 @@ msgctxt ""
 "par_id21619004009875\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. TkYXL
 #: sf_basic.xhp
@@ -2741,7 +2743,7 @@ msgctxt ""
 "par_id791619004012484\n"
 "help.text"
 msgid "Values: 0, 1, 5, 4, 3"
-msgstr ""
+msgstr "Hodnoty: 0, 1, 5, 4, 3"
 
 #. oASRR
 #: sf_basic.xhp
@@ -2759,7 +2761,7 @@ msgctxt ""
 "par_id201619004097755\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. GNqXc
 #: sf_basic.xhp
@@ -2777,7 +2779,7 @@ msgctxt ""
 "par_id311619004099683\n"
 "help.text"
 msgid "Values: 48, 64, 32, 16<br/>"
-msgstr ""
+msgstr "Hodnoty: 48, 64, 32, 16"
 
 #. RBdBG
 #: sf_basic.xhp
@@ -2795,7 +2797,7 @@ msgctxt ""
 "par_id581618922991909\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. CrG3W
 #: sf_basic.xhp
@@ -2813,7 +2815,7 @@ msgctxt ""
 "par_id211618923312141\n"
 "help.text"
 msgid "Values: 2, 128, 256, 512"
-msgstr ""
+msgstr "Hodnoty: 2, 128, 256, 512"
 
 #. F3DMG
 #: sf_basic.xhp
@@ -2831,7 +2833,7 @@ msgctxt ""
 "par_id961618924503848\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. XKzky
 #: sf_basic.xhp
@@ -2849,7 +2851,7 @@ msgctxt ""
 "par_id871618924506654\n"
 "help.text"
 msgid "Values: 3, 2, 5, 7, 1, 4, 6<br/>Constants  indicating <literal>MsgBox</literal> selected button."
-msgstr ""
+msgstr "Hodnoty: 3, 2, 5, 7, 1, 4, 6<br/>Konstanty označující vybrané tlačítko pro <literal>MsgBox</literal>."
 
 #. fHLnu
 #: sf_basic.xhp
@@ -2867,7 +2869,7 @@ msgctxt ""
 "par_id731619006254384\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #. SKW53
 #: sf_basic.xhp
@@ -2876,7 +2878,7 @@ msgctxt ""
 "par_id711619006255184\n"
 "help.text"
 msgid "UNO<br/>object"
-msgstr ""
+msgstr "Objekt<br/>UNO"
 
 #. AA95E
 #: sf_basic.xhp
@@ -2885,7 +2887,7 @@ msgctxt ""
 "par_id541619006255653\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/stardesktop.xhp\" name=\"StarDesktop\"><literal>StarDesktop</literal></link> object represents %PRODUCTNAME Start Center."
-msgstr ""
+msgstr "Objekt <link href=\"text/sbasic/shared/stardesktop.xhp\" name=\"StarDesktop\"><literal>StarDesktop</literal></link> představující úvodní obrazovku %PRODUCTNAME."
 
 #. vXq8C
 #: sf_basic.xhp
@@ -2894,7 +2896,7 @@ msgctxt ""
 "par_id651606319520519\n"
 "help.text"
 msgid "List of Methods in the Basic Service"
-msgstr ""
+msgstr "Seznam metod služby Basic"
 
 #. GvjSD
 #: sf_basic.xhp
@@ -2903,7 +2905,7 @@ msgctxt ""
 "par_id71621894830071\n"
 "help.text"
 msgid "Converts a numeric expression or a string to a <literal>datetime</literal>.<literal>datetime</literal> Python native object."
-msgstr ""
+msgstr "Převede číselný výraz nebo řetězec na nativní objekt Pythonu <literal>datetime</literal>.<literal>datetime</literal>."
 
 #. SVk4F
 #: sf_basic.xhp
@@ -2912,7 +2914,7 @@ msgctxt ""
 "par_id431621896441258\n"
 "help.text"
 msgid "This method exposes the Basic builtin function <link href=\"text/sbasic/shared/03100300.xhp\" name=\"CDate_Basic\">CDate</link> to Python scripts."
-msgstr ""
+msgstr "Tato metoda zpřístupňuje skriptům Pythonu vestavěnou funkci Basicu <link href=\"text/sbasic/shared/03100300.xhp\" name=\"CDate v Basicu\">CDate</link>."
 
 #. xvPTA
 #: sf_basic.xhp
@@ -2921,7 +2923,7 @@ msgctxt ""
 "par_id401621896675880\n"
 "help.text"
 msgid "<emph>expression</emph>: a numeric expression or a string representing a date."
-msgstr ""
+msgstr "<emph>expression</emph>: číselný výraz nebo řetězec představující datum."
 
 #. aBGSG
 #: sf_basic.xhp
@@ -2930,7 +2932,7 @@ msgctxt ""
 "par_id481621950748686\n"
 "help.text"
 msgid "Converts a UNO date/time representation to a <literal>datetime.datetime</literal> Python native object."
-msgstr ""
+msgstr "Převede reprezentaci data/času v UNO na nativní objekt Pythonu <literal>datetime.datetime</literal>."
 
 #. qhCRh
 #: sf_basic.xhp
@@ -2939,7 +2941,7 @@ msgctxt ""
 "par_id41621950816227\n"
 "help.text"
 msgid "<emph>unodate</emph>: A UNO date/time object of one of the following types: <literal>com.sun.star.util.DateTime</literal>, <literal>com.sun.star.util.Date</literal> or <literal>com.sun.star.util.Time</literal>"
-msgstr ""
+msgstr "<emph>unodate</emph>: Objekt UNO data/času, některý z následujících typů: <literal>com.sun.star.util.DateTime</literal>, <literal>com.sun.star.util.Date</literal> nebo <literal>com.sun.star.util.Time</literal>"
 
 #. GQ2hL
 #: sf_basic.xhp
@@ -2948,7 +2950,7 @@ msgctxt ""
 "par_id281621952224847\n"
 "help.text"
 msgid "The following example creates a <literal>com.sun.star.util.DateTime</literal> object and converts it to a <literal>datetime.datetime</literal> Python object."
-msgstr ""
+msgstr "V následujícím příkladu je vytvořen objekt <literal>com.sun.star.util.DateTime</literal>, který se převede na objekt Pythonu <literal>datetime.datetime</literal>."
 
 #. JXsJN
 #: sf_basic.xhp
@@ -2957,7 +2959,7 @@ msgctxt ""
 "par_id741621952469980\n"
 "help.text"
 msgid "Converts a date representation into a <literal>com.sun.star.util.DateTime</literal> object."
-msgstr ""
+msgstr "Převede reprezentaci data na objekt <literal>com.sun.star.util.DateTime</literal>."
 
 #. 7LW9r
 #: sf_basic.xhp
@@ -2966,7 +2968,7 @@ msgctxt ""
 "par_id511621952524000\n"
 "help.text"
 msgid "<emph>date</emph>: A Python date/time object of one of the following types: <literal>datetime.datetime</literal>, <literal>datetime.date</literal>, <literal>datetime.time</literal>, <literal>float (time.time)</literal> or <literal>time.struct_time</literal>."
-msgstr ""
+msgstr "<emph>date</emph>: Objekt Pythonu data/času, některý z následujících typ: <literal>datetime.datetime</literal>, <literal>datetime.date</literal>, <literal>datetime.time</literal>, <literal>float (time.time)</literal> nebo <literal>time.struct_time</literal>."
 
 #. vaMxs
 #: sf_basic.xhp
@@ -2975,7 +2977,7 @@ msgctxt ""
 "par_id93158919969864\n"
 "help.text"
 msgid "Returns a system path file name for the given <literal>file:</literal> URL."
-msgstr ""
+msgstr "Vrátí cestu systému k souboru pro danou adresu URL s <literal>file:</literal>."
 
 #. L4crp
 #: sf_basic.xhp
@@ -2984,7 +2986,7 @@ msgctxt ""
 "par_id321618502481706\n"
 "help.text"
 msgid "<emph>url</emph>: An absolute <literal>file:</literal> URL."
-msgstr ""
+msgstr "<emph>url</emph>: Absolutní adresa URL s <literal>file:</literal>."
 
 #. nmEbg
 #: sf_basic.xhp
@@ -2993,7 +2995,7 @@ msgctxt ""
 "par_id81618502493505\n"
 "help.text"
 msgid "A system path file name."
-msgstr ""
+msgstr "Cesta systému s názvem souboru."
 
 #. 7YMKT
 #: sf_basic.xhp
@@ -3002,7 +3004,7 @@ msgctxt ""
 "par_id658519200121138\n"
 "help.text"
 msgid "Returns a <literal>file:</literal> URL for the given system path."
-msgstr ""
+msgstr "Vrátí adresu URL s <literal>file:</literal> pro danou cestu systému."
 
 #. ZdzNY
 #: sf_basic.xhp
@@ -3011,7 +3013,7 @@ msgctxt ""
 "par_id401618521015903\n"
 "help.text"
 msgid "<emph>systempath</emph>: A system file name as a string."
-msgstr ""
+msgstr "<emph>systempath</emph>: Název souboru v systému jako řetězec."
 
 #. BYkqo
 #: sf_basic.xhp
@@ -3020,7 +3022,7 @@ msgctxt ""
 "par_id61658101307414\n"
 "help.text"
 msgid "A <literal>file:</literal> URL as a string."
-msgstr ""
+msgstr "Adresa URL s <literal>file:</literal> jako řetězec."
 
 #. kyZyo
 #: sf_basic.xhp
@@ -3029,7 +3031,7 @@ msgctxt ""
 "par_id651589200121138\n"
 "help.text"
 msgid "Instantiates a UNO service with the <literal>ProcessServiceManager</literal>."
-msgstr ""
+msgstr "Vytvoří instanci služby UNO se službou <literal>ProcessServiceManager</literal>."
 
 #. 7BvYk
 #: sf_basic.xhp
@@ -3047,7 +3049,7 @@ msgctxt ""
 "par_id901599410483300\n"
 "help.text"
 msgid "Adds a date or time interval to a given date/time a number of times and returns the resulting date."
-msgstr ""
+msgstr "Přidá k určenému datu/času interval (se zadaným počtem opakování) a vrátí výsledné datum."
 
 #. aRMEj
 #: sf_basic.xhp
@@ -3056,7 +3058,7 @@ msgctxt ""
 "par_id581618562143601\n"
 "help.text"
 msgid "<emph>interval</emph>: A string expression from the following table, specifying the date or time interval."
-msgstr ""
+msgstr "<emph>interval</emph>: Řetězec z následující tabulky, který určuje interval data nebo času."
 
 #. Vx3AB
 #: sf_basic.xhp
@@ -3065,7 +3067,7 @@ msgctxt ""
 "par_id281618562144897\n"
 "help.text"
 msgid "<emph>number</emph>: A numerical expression specifying how often the <literal>interval</literal> value will be added when positive or subtracted when negative."
-msgstr ""
+msgstr "<emph>number</emph>: Číselný výraz, který určuje, kolikrát se má <literal>interval</literal> přidat (number je kladné) nebo odebrat (number je záporné)."
 
 #. 4C2B6
 #: sf_basic.xhp
@@ -3092,7 +3094,7 @@ msgctxt ""
 "par_id991589202413257\n"
 "help.text"
 msgid "Returns the number of date or time intervals between two given date/time values."
-msgstr ""
+msgstr "Vrátí počet intervalů mezi dvěma daty/časy."
 
 #. 2HBSe
 #: sf_basic.xhp
@@ -3119,7 +3121,7 @@ msgctxt ""
 "par_id121618563454738\n"
 "help.text"
 msgid "A number."
-msgstr ""
+msgstr "Číslo."
 
 #. KPEWi
 #: sf_basic.xhp
@@ -3146,7 +3148,7 @@ msgctxt ""
 "par_id61618672313838\n"
 "help.text"
 msgid "<emph>date</emph>: The date/time from which the result is calculated."
-msgstr ""
+msgstr "<emph>date</emph>: Datum/čas, ze kterého se má vypočítat výsledek."
 
 #. P3vuB
 #: sf_basic.xhp
@@ -3155,7 +3157,7 @@ msgctxt ""
 "par_id511619445271897\n"
 "help.text"
 msgid "<emph>firstdayofweek, firstweekofyear</emph>: optional parameters that respectively specify the starting day of a week and the starting week of a year, as detailed in above <literal>DateDiff</literal> method."
-msgstr ""
+msgstr "<emph>firstdayofweek, firstweekofyear</emph>: nepovinné parametry určující první den v týdnu a první týden v roce, jak je popsáno výše u metody <literal>DateDiff</literal>."
 
 #. 5Yz25
 #: sf_basic.xhp
@@ -3164,7 +3166,7 @@ msgctxt ""
 "par_id791618672371743\n"
 "help.text"
 msgid "The extracted part for the given date/time."
-msgstr ""
+msgstr "Požadovaná část zadaného data/času."
 
 #. Dc9Cs
 #: sf_basic.xhp
@@ -3173,7 +3175,7 @@ msgctxt ""
 "par_id121589203370778\n"
 "help.text"
 msgid "Computes a date value from a date string."
-msgstr ""
+msgstr "Vypočítá datum z data zadaného jako řetězec."
 
 #. qTtuh
 #: sf_basic.xhp
@@ -3182,7 +3184,7 @@ msgctxt ""
 "par_id441618674018955\n"
 "help.text"
 msgid "The computed date."
-msgstr ""
+msgstr "Vypočtené datum."
 
 #. GuCbF
 #: sf_basic.xhp
@@ -3191,7 +3193,7 @@ msgctxt ""
 "par_id458161678389887\n"
 "help.text"
 msgid "Converts a number to a string, and then formats it according to the format that you specify."
-msgstr ""
+msgstr "Převede číslo na řetězec a ten upraví podle zadaného formátu."
 
 #. St67G
 #: sf_basic.xhp
@@ -3200,7 +3202,7 @@ msgctxt ""
 "hd_id751618825527776\n"
 "help.text"
 msgid "Formatting Codes"
-msgstr ""
+msgstr "Formátovací kódy"
 
 #. G2TzF
 #: sf_basic.xhp
@@ -3209,7 +3211,7 @@ msgctxt ""
 "hd_id681618825574599\n"
 "help.text"
 msgid "Predefined Formats"
-msgstr ""
+msgstr "Předem definované formáty"
 
 #. osJdR
 #: sf_basic.xhp
@@ -3218,7 +3220,7 @@ msgctxt ""
 "par_id451618876389887\n"
 "help.text"
 msgid "Returns the default context of the process service factory, if existent, else returns a null reference."
-msgstr ""
+msgstr "Vrátí výchozí kontext process service factory, pokud existuje, jinak vrátí null."
 
 #. d4EQf
 #: sf_basic.xhp
@@ -3227,7 +3229,7 @@ msgctxt ""
 "par_id881618848030897\n"
 "help.text"
 msgid "<literal>GetDefaultContext</literal> is an alternative to the <link href=\"text/sbasic/python/python_programming.xhp\" name=\"getComponentContext method\">getComponentContext()</link> method available from <literal>XSCRIPTCONTEXT</literal> global variable or from <link href=\"text/sbasic/python/python_programming.xhp\" name=\"uno.py module\">uno.py</link> module."
-msgstr ""
+msgstr "<literal>GetDefaultContext</literal> je alternativou metody <link href=\"text/sbasic/python/python_programming.xhp\" name=\"getComponentContext method\">getComponentContext()</link>, dostupné z globální proměnné <literal>XSCRIPTCONTEXT</literal> nebo z modulu <link href=\"text/sbasic/python/python_programming.xhp\" name=\"uno.py module\">uno.py</link>."
 
 #. dk35X
 #: sf_basic.xhp
@@ -3236,7 +3238,7 @@ msgctxt ""
 "par_id381618831451271\n"
 "help.text"
 msgid "The default component context is used, when instantiating services via <literal>XMultiServiceFactory</literal>. See the <literal>Professional UNO</literal> chapter in the Developer's Guide on <link href=\"https://api.libreoffice.org/\" name=\"API Developer's Guide\">api.libreoffice.org</link> for more information."
-msgstr ""
+msgstr "Výchozí kontext pro komponentu se používá při vytváření instancí služeb pomocí <literal>XMultiServiceFactory</literal>. Další informace naleznete v kapitole <literal>Professional UNO</literal> příručky Developer's Guide na <link href=\"https://api.libreoffice.org/\" name=\"API Developer's Guide\">api.libreoffice.org</link>."
 
 #. LACDh
 #: sf_basic.xhp
@@ -3245,7 +3247,7 @@ msgctxt ""
 "par_id154618876389887\n"
 "help.text"
 msgid "Returns a numerical value that specifies the graphical user interface. This function is only provided for backward compatibility with previous versions."
-msgstr ""
+msgstr "Vrátí číselnou hodnotu určující grafické uživatelské rozhraní. Tato funkce je k dispozici kvůli zpětné kompatibilitě s předchozími verzemi."
 
 #. SmsEL
 #: sf_basic.xhp
@@ -3254,7 +3256,7 @@ msgctxt ""
 "par_id341618848532640\n"
 "help.text"
 msgid "Refer to <literal>system()</literal> method from <literal>platform</literal> Python module to <link href=\"text/sbasic/python/python_platform.xhp\" name=\"identify the operating system\">identify the operating system</link>."
-msgstr ""
+msgstr "Chcete-li <link href=\"text/sbasic/python/python_platform.xhp\" name=\"rozpoznávání operačního systému\">rozpoznat operační systém</link>, použijte metodu <literal>system()</literal> z modulu Pythonu <literal>platform</literal>."
 
 #. BJTbw
 #: sf_basic.xhp
@@ -3263,7 +3265,7 @@ msgctxt ""
 "par_id451618876389788\n"
 "help.text"
 msgid "Returns the operating system-dependent directory separator used to specify file paths."
-msgstr ""
+msgstr "Vrátí na operačním systému závislý oddělovač adresářů používaný při určování cesty k souboru."
 
 #. BWvPB
 #: sf_basic.xhp
@@ -3272,7 +3274,7 @@ msgctxt ""
 "par_id341618848562340\n"
 "help.text"
 msgid "Use <literal>os.pathsep</literal> from <literal>os</literal> Python module to <link href=\"text/sbasic/python/python_platform.xhp\" name=\"path delimiter\">identify the path separator</link>."
-msgstr ""
+msgstr "Pro <link href=\"text/sbasic/python/python_platform.xhp\" name=\"oddělovač cesty\">rozpoznání oddělovače pro cestu</link> použijte <literal>os.pathsep</literal> z modulu Pythonu <literal>os</literal>."
 
 #. Jvd3v
 #: sf_basic.xhp
@@ -3281,7 +3283,7 @@ msgctxt ""
 "par_id451618678389887\n"
 "help.text"
 msgid "Returns the number of system ticks provided by the operating system. You can use this function to optimize certain processes. Use this method to estimate time in milliseconds:"
-msgstr ""
+msgstr "Vrátí počet systémových tiků operačního systému. Tuto funkci je možné použít k optimalizaci některých procesů. Pomocí této metody odhadnete čas v milisekundách."
 
 #. CEtsQ
 #: sf_basic.xhp
@@ -3326,7 +3328,7 @@ msgctxt ""
 "bm_id61618905161499\n"
 "help.text"
 msgid "<bookmark_value>Basic service;GlobalScope.BasicLibraries</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Basic (služba);GlobalScope.BasicLibraries</bookmark_value>"
 
 #. KRHNc
 #: sf_basic.xhp
@@ -3335,7 +3337,7 @@ msgctxt ""
 "par_id741622396277528\n"
 "help.text"
 msgid "Returns the UNO object containing all shared Basic libraries and modules."
-msgstr ""
+msgstr "Vrátí objekt UNO obsahující všechny sdílené knihovny a modulu Basicu."
 
 #. MCrF8
 #: sf_basic.xhp
@@ -3344,7 +3346,7 @@ msgctxt ""
 "par_id911622396571584\n"
 "help.text"
 msgid "This method is the Python equivalent to <literal>GlobalScope</literal>.<literal>BasicLibraries</literal> in Basic scripts."
-msgstr ""
+msgstr "Tato metoda v Pythonu odpovídá metodě <literal>GlobalScope</literal>.<literal>BasicLibraries</literal> ve skriptech Basicu."
 
 #. DEARA
 #: sf_basic.xhp
@@ -3353,7 +3355,7 @@ msgctxt ""
 "par_id281622398076950\n"
 "help.text"
 msgid "The following example loads the Gimmicks Basic library if it has not been loaded yet."
-msgstr ""
+msgstr "V následujícím příkladu je načtena knihovna Basicu Gimmicks, pokud již nebyla načtena dříve."
 
 #. ZaDVN
 #: sf_basic.xhp
@@ -3362,7 +3364,7 @@ msgctxt ""
 "bm_id61618905163671\n"
 "help.text"
 msgid "<bookmark_value>Basic service;GlobalScope.DialogLibraries</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Basic (služba);GlobalScope.DialogLibraries</bookmark_value>"
 
 #. jusQK
 #: sf_basic.xhp
@@ -3371,7 +3373,7 @@ msgctxt ""
 "par_id381622397863419\n"
 "help.text"
 msgid "Returns the UNO object containing all shared dialog libraries."
-msgstr ""
+msgstr "Vrátí objekt UNO obsahující všechny sdílené knihovny dialogových oken."
 
 #. QEFwP
 #: sf_basic.xhp
@@ -3380,7 +3382,7 @@ msgctxt ""
 "par_id491622397863810\n"
 "help.text"
 msgid "This method is the Python equivalent to <literal>GlobalScope</literal>.<literal>DialogLibraries</literal> in Basic scripts."
-msgstr ""
+msgstr "Tato metoda v Pythonu odpovídá metodě <literal>GlobalScope</literal>.<literal>DialogLibraries</literal> ve skriptech Basicu."
 
 #. 8ozVo
 #: sf_basic.xhp
@@ -3389,7 +3391,7 @@ msgctxt ""
 "par_id811622398234384\n"
 "help.text"
 msgid "The following example shows a message box with the names of all available dialog libraries."
-msgstr ""
+msgstr "V následujícím příkladu se zobrazí dialog s názvy všech dostupných knihoven dialogových oken."
 
 #. Vb2CW
 #: sf_basic.xhp
@@ -3398,7 +3400,7 @@ msgctxt ""
 "bm_id61618905164342\n"
 "help.text"
 msgid "<bookmark_value>Basic service;InputBox</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Basic (služba);InputBox</bookmark_value>"
 
 #. 7GPZv
 #: sf_basic.xhp
@@ -3416,7 +3418,7 @@ msgctxt ""
 "pyc_id751619081201175\n"
 "help.text"
 msgid "txt = s.InputBox('Please enter a phrase:', \"Dear user\")"
-msgstr ""
+msgstr "txt = s.InputBox('Zadejte heslo:', \"Drahý uživateli\")"
 
 #. UgiDk
 #: sf_basic.xhp
@@ -3434,7 +3436,7 @@ msgctxt ""
 "par_id651618921455396\n"
 "help.text"
 msgid "For in-depth information please refer to <link href=\"https://wiki.documentfoundation.org/Macros/General/IO_to_Screen\" name=\"Input/Output to Screen with Python\">Input/Output to Screen with Python</link> on the Wiki."
-msgstr ""
+msgstr "Podrobné informace naleznete na wiki stránce <link href=\"https://wiki.documentfoundation.org/Macros/General/IO_to_Screen\" name=\"Input/Output to Screen with Python\">Input/Output to Screen with Python</link>."
 
 #. WMifG
 #: sf_basic.xhp
@@ -3443,7 +3445,7 @@ msgctxt ""
 "bm_id681618905411293\n"
 "help.text"
 msgid "<bookmark_value>Basic service;MsgBox</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Basic (služba);MsgBox</bookmark_value>"
 
 #. ogocf
 #: sf_basic.xhp
@@ -3452,7 +3454,7 @@ msgctxt ""
 "par_id231618922407948\n"
 "help.text"
 msgid "Displays a dialog box containing a message and returns an optional value.<br/>MB_xx constants help specify the dialog type, the number and type of buttons to display, plus the icon type. By adding their respective values they form bit patterns, that define the <literal>MsgBox</literal> dialog appearance."
-msgstr ""
+msgstr "Zobrazí dialog obsahující zprávu a volitelně vrátí hodnotu.<br/>Konstanty MB_xx popisují typ dialogu, počet a typ zobrazených tlačítek a typ ikony. Jejich hodnoty tvoří bitový vzorek, který určuje vzhled dialogu <literal>MsgBox</literal>."
 
 #. 5adLA
 #: sf_basic.xhp
@@ -3461,7 +3463,7 @@ msgctxt ""
 "par_id711619082902143\n"
 "help.text"
 msgid "An optional integer as detailed in above <literal>IDxx</literal> properties."
-msgstr ""
+msgstr "Volitelné celé číslo popsané výše u vlastnosti <literal>IDxx</literal>."
 
 #. hvEhT
 #: sf_basic.xhp
@@ -3470,7 +3472,7 @@ msgctxt ""
 "bm_id791618906935711\n"
 "help.text"
 msgid "<bookmark_value>Basic service;Now</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Basic (služba);Now</bookmark_value>"
 
 #. f96nJ
 #: sf_basic.xhp
@@ -3479,7 +3481,7 @@ msgctxt ""
 "par_id191619084216660\n"
 "help.text"
 msgid "Returns the current system date and time as a <literal>datetime</literal>.<literal>datetime</literal> Python native object."
-msgstr ""
+msgstr "Vrátí aktuální systémový datum a čas jako nativní objekt Pythonu <literal>datetime</literal>.<literal>datetime</literal>."
 
 #. qxE2n
 #: sf_basic.xhp
@@ -3488,7 +3490,7 @@ msgctxt ""
 "bm_id831618907521168\n"
 "help.text"
 msgid "<bookmark_value>Basic service;RGB</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Basic (služba);RGB</bookmark_value>"
 
 #. vBVsk
 #: sf_basic.xhp
@@ -3497,7 +3499,7 @@ msgctxt ""
 "par_id621619448293385\n"
 "help.text"
 msgid "Returns an integer color value consisting of red, green, and blue components."
-msgstr ""
+msgstr "Vrátí celočíselnou hodnotu typu složenou z hodnot modré, červené a zelené složky."
 
 #. vPBAA
 #: sf_basic.xhp
@@ -3524,7 +3526,7 @@ msgctxt ""
 "bm_id81618907850447\n"
 "help.text"
 msgid "<bookmark_value>Basic service;ThisComponent</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Basic (služba);ThisComponent</bookmark_value>"
 
 #. 7wnpT
 #: sf_basic.xhp
@@ -3533,7 +3535,7 @@ msgctxt ""
 "par_id141622840830978\n"
 "help.text"
 msgid "If the current component refers to a %PRODUCTNAME document, this method returns the UNO object representing the document."
-msgstr ""
+msgstr "Jestliže aktuální komponenta odkazuje na dokument %PRODUCTNAME, tato metoda vrátí objekt UNO, který tento dokument reprezentuje."
 
 #. 72GZE
 #: sf_basic.xhp
@@ -3542,7 +3544,7 @@ msgctxt ""
 "par_id961622841287976\n"
 "help.text"
 msgid "The method will return <literal>None</literal> when the current component does not correspond to a document."
-msgstr ""
+msgstr "Pokud aktuální komponenta neodpovídá žádnému dokumentu, metoda vrátí <literal>None</literal>."
 
 #. xbQ6U
 #: sf_basic.xhp
@@ -3551,7 +3553,7 @@ msgctxt ""
 "bm_id81618907858201\n"
 "help.text"
 msgid "<bookmark_value>Basic service;ThisDatabaseDocument</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Basic (služba);ThisDatabaseDocument</bookmark_value>"
 
 #. GXewr
 #: sf_basic.xhp
@@ -3560,7 +3562,7 @@ msgctxt ""
 "par_id271622912644859\n"
 "help.text"
 msgid "If the script is being executed from a Base document or any of its subcomponents this method returns the main component of the Base instance."
-msgstr ""
+msgstr "Pokud je skript spuštěn z dokumentu Base nebo některé z jeho dílčích komponent, vrátí tato metoda hlavní komponentu instance Base."
 
 #. 6MCpX
 #: sf_basic.xhp
@@ -3569,7 +3571,7 @@ msgctxt ""
 "par_id811622912819443\n"
 "help.text"
 msgid "This method returns <literal>None</literal> otherwise."
-msgstr ""
+msgstr "V ostatních případech tato metoda vrátí <literal>None</literal>."
 
 #. q3CG8
 #: sf_basic.xhp
@@ -3578,7 +3580,7 @@ msgctxt ""
 "par_id201623153844931\n"
 "help.text"
 msgid "Visit the <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sdb_1_1OfficeDatabaseDocument.html\" name=\"OfficeDatabaseDocument\">OfficeDatabaseDocument</link> API page to learn more about Base's main component structure."
-msgstr ""
+msgstr "Podrobnosti o struktuře hlavní komponenty Base naleznete na stránce API <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sdb_1_1OfficeDatabaseDocument.html\" name=\"OfficeDatabaseDocument\">OfficeDatabaseDocument</link>."
 
 #. mAUuG
 #: sf_basic.xhp
@@ -3587,7 +3589,7 @@ msgctxt ""
 "bm_id81618907851793\n"
 "help.text"
 msgid "<bookmark_value>Basic service;Xray</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Basic (služba);Xray</bookmark_value>"
 
 #. TwoGN
 #: sf_basic.xhp
@@ -3596,7 +3598,7 @@ msgctxt ""
 "par_id451619094057178\n"
 "help.text"
 msgid "Inspect Uno objects or variables."
-msgstr ""
+msgstr "Prozkoumá objekty UNO nebo proměnné."
 
 #. 2A4om
 #: sf_basic.xhp
@@ -3614,7 +3616,7 @@ msgctxt ""
 "par_id951618554355538\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Macros/General/IO_to_Screen\" name=\"Input/Output to Screen with Python\">Input/Output to Screen with Python</link> on the wiki"
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Macros/General/IO_to_Screen\" name=\"Input/Output to Screen with Python\">Input/Output to Screen with Python</link> na wiki"
 
 #. RYwFj
 #: sf_calc.xhp
@@ -3623,7 +3625,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.Calc service"
-msgstr ""
+msgstr "Služba SFDocuments.Calc"
 
 #. nXFgM
 #: sf_calc.xhp
@@ -3632,7 +3634,7 @@ msgctxt ""
 "hd_id731582733781114\n"
 "help.text"
 msgid "<variable id=\"CalcService\"><link href=\"text/sbasic/shared/03/sf_calc.xhp\" name=\"Calc service\"><literal>SFDocuments</literal>.<literal>Calc</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"CalcService\"><link href=\"text/sbasic/shared/03/sf_calc.xhp\" name=\"Služba Calc\">Služba <literal>SFDocuments</literal>.<literal>Calc</literal></link></variable>"
 
 #. DGXCA
 #: sf_calc.xhp
@@ -3668,7 +3670,7 @@ msgctxt ""
 "par_id891589189452545\n"
 "help.text"
 msgid "Handling sheets within a Calc document (copy, insert, move, etc)"
-msgstr ""
+msgstr "Manipulaci s listy v dokumentu Calcu (kopírování, vkládání, přesun apod.)"
 
 #. SCCmJ
 #: sf_calc.xhp
@@ -3677,7 +3679,7 @@ msgctxt ""
 "par_id811589189463041\n"
 "help.text"
 msgid "Exchanging data between Basic data structures and Calc ranges"
-msgstr ""
+msgstr "Výměnu dat mezi datovými strukturami Basicu a oblastmi Calcu"
 
 #. YS7kC
 #: sf_calc.xhp
@@ -3686,7 +3688,7 @@ msgctxt ""
 "par_id141599569935662\n"
 "help.text"
 msgid "Copying and importing massive amounts of data"
-msgstr ""
+msgstr "Kopírování a importování velkého množství dat"
 
 #. A47hJ
 #: sf_calc.xhp
