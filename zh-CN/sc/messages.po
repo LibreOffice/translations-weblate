@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-01-30 14:31+0100\n"
-"PO-Revision-Date: 2021-12-24 14:38+0000\n"
+"PO-Revision-Date: 2021-12-28 04:38+0000\n"
 "Last-Translator: 锁琨珑 <suokunlong@126.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.documentfoundation.org/projects/libo_ui-7-0/scmessages/zh_Hans/>\n"
 "Language: zh-CN\n"
@@ -1173,7 +1173,7 @@ msgstr "错误: 被零除"
 #: sc/inc/globstr.hrc:219
 msgctxt "STR_LONG_ERR_NO_VALUE"
 msgid "Error: Wrong data type"
-msgstr "错误: 错误的数据类型"
+msgstr "错误: 没有返回值"
 
 #. kHwc6
 #. ERROR.TYPE( #REF! ) == 4
@@ -1214,7 +1214,7 @@ msgstr "#ADDIN?"
 #: sc/inc/globstr.hrc:230
 msgctxt "STR_LONG_ERR_NO_ADDIN"
 msgid "Error: Add-in not found"
-msgstr "错误: 没有找到AddIn"
+msgstr "错误: 没有找到附加项"
 
 #. jxTFr
 #: sc/inc/globstr.hrc:231
@@ -1244,7 +1244,7 @@ msgstr "错误: 无效的参数"
 #: sc/inc/globstr.hrc:235
 msgctxt "STR_LONG_ERR_ILL_PAR"
 msgid "Error in parameter list"
-msgstr "参数列表内有错误"
+msgstr "参数错误"
 
 #. iJfWD
 #: sc/inc/globstr.hrc:236
@@ -1274,7 +1274,7 @@ msgstr "错误: 缺少变量"
 #: sc/inc/globstr.hrc:240
 msgctxt "STR_LONG_ERR_CODE_OVF"
 msgid "Error: Formula overflow"
-msgstr "错误: 公式太长"
+msgstr "错误: 公式溢出"
 
 #. zRh8E
 #: sc/inc/globstr.hrc:241
@@ -9172,13 +9172,13 @@ msgstr "样本中的数据矩阵。"
 #: sc/inc/scfuncs.hrc:2004
 msgctxt "SC_OPCODE_LARGE"
 msgid "Rank c"
-msgstr "等级"
+msgstr "排名"
 
 #. wE8Uv
 #: sc/inc/scfuncs.hrc:2005
 msgctxt "SC_OPCODE_LARGE"
 msgid "The ranking of the value."
-msgstr "数值在数据组里的位置。"
+msgstr "目标值在数据集中的排名位置。"
 
 #. HCszB
 #: sc/inc/scfuncs.hrc:2011
@@ -9202,19 +9202,19 @@ msgstr "样本中的数据矩阵。"
 #: sc/inc/scfuncs.hrc:2014
 msgctxt "SC_OPCODE_SMALL"
 msgid "Rank c"
-msgstr "等级"
+msgstr "排名"
 
 #. Qd8EW
 #: sc/inc/scfuncs.hrc:2015
 msgctxt "SC_OPCODE_SMALL"
 msgid "The ranking of the value."
-msgstr "数值在数据组里的位置。"
+msgstr "目标值在数据集中的排名位置。"
 
 #. tfvUj
 #: sc/inc/scfuncs.hrc:2021
 msgctxt "SC_OPCODE_PERCENT_RANK"
 msgid "Returns the percentage rank of a value in a sample."
-msgstr "计算一个数值在数据集中的百分比排位。"
+msgstr "计算一个值在数据集中的百分比排名。"
 
 #. rLBSp
 #: sc/inc/scfuncs.hrc:2022
@@ -9238,7 +9238,7 @@ msgstr "值"
 #: sc/inc/scfuncs.hrc:2025
 msgctxt "SC_OPCODE_PERCENT_RANK"
 msgid "The value for which percentage ranking is to be determined."
-msgstr "要确定其百分比排位的数值。"
+msgstr "要确定其百分比排名的值。"
 
 #. gTAAs
 #: sc/inc/scfuncs.hrc:2026
@@ -9256,7 +9256,7 @@ msgstr "返回的百分比值的有效数字位数: 若忽略，则使用 3 位�
 #: sc/inc/scfuncs.hrc:2033
 msgctxt "SC_OPCODE_PERCENT_RANK_EXC"
 msgid "Returns the percentage rank (0..1, exclusive) of a value in a sample."
-msgstr "返回样本中数值的百分比排位(0-1之间，不含0和1)。"
+msgstr "返回某个值在样本中的百分比排名（在0-1之间，不含0和1）。"
 
 #. xnpWg
 #: sc/inc/scfuncs.hrc:2034
@@ -9280,7 +9280,7 @@ msgstr "值"
 #: sc/inc/scfuncs.hrc:2037
 msgctxt "SC_OPCODE_PERCENT_RANK_EXC"
 msgid "The value for which percentage ranking is to be determined."
-msgstr "要确定其百分比排位的数值。"
+msgstr "要确定其百分比排名的值。"
 
 #. FzDnP
 #: sc/inc/scfuncs.hrc:2038
@@ -9298,7 +9298,7 @@ msgstr "返回的百分比值的有效数字位数: 若忽略，则使用 3 位�
 #: sc/inc/scfuncs.hrc:2045
 msgctxt "SC_OPCODE_PERCENT_RANK_INC"
 msgid "Returns the percentage rank (0..1, inclusive) of a value in a sample."
-msgstr "返回样本中值的百分比排位(0-1之间，不包含0和1)。"
+msgstr "返回某个值在样本中的百分比排名（在0-1之间，不含0和1）。"
 
 #. XYEDP
 #: sc/inc/scfuncs.hrc:2046
@@ -9322,7 +9322,7 @@ msgstr "值"
 #: sc/inc/scfuncs.hrc:2049
 msgctxt "SC_OPCODE_PERCENT_RANK_INC"
 msgid "The value for which percentage ranking is to be determined."
-msgstr "要确定其百分比排位的数值。"
+msgstr "要确定其百分比排名的值。"
 
 #. zTXLN
 #: sc/inc/scfuncs.hrc:2050
@@ -9340,7 +9340,7 @@ msgstr "返回的百分比值的有效数字位数: 若忽略，则使用 3 位�
 #: sc/inc/scfuncs.hrc:2057
 msgctxt "SC_OPCODE_RANK"
 msgid "Returns the ranking of a value in a sample."
-msgstr "返回样本中值的排位。"
+msgstr "返回某个值在样本中的排名。"
 
 #. p2juz
 #: sc/inc/scfuncs.hrc:2058
@@ -9352,7 +9352,7 @@ msgstr "值"
 #: sc/inc/scfuncs.hrc:2059
 msgctxt "SC_OPCODE_RANK"
 msgid "The value for which the rank is to be determined."
-msgstr "需要确定其排位的值。"
+msgstr "需要确定其排名的值。"
 
 #. e3CY7
 #: sc/inc/scfuncs.hrc:2060
@@ -9382,7 +9382,7 @@ msgstr "排序顺序: 0 或省略表示降序排序，任何非 0 值表示升�
 #: sc/inc/scfuncs.hrc:2069
 msgctxt "SC_OPCODE_RANK_EQ"
 msgid "Returns the ranking of a value in a sample; if more than one value has the same rank, the top rank of that set of values is returned."
-msgstr "返回样本中值的排位；如果一个以上的值拥有相同的排位，则只返回该值集中排位最高的值。"
+msgstr "返回某个值在样本中的排名；如果一个以上的值具有相同的排名，则只返回该值集中排名最高的值的排名。"
 
 #. GuZrj
 #: sc/inc/scfuncs.hrc:2070
@@ -9394,7 +9394,7 @@ msgstr "值"
 #: sc/inc/scfuncs.hrc:2071
 msgctxt "SC_OPCODE_RANK_EQ"
 msgid "The value for which the rank is to be determined."
-msgstr "需要确定其排位的值。"
+msgstr "需要确定其排名的值。"
 
 #. UyjWf
 #: sc/inc/scfuncs.hrc:2072
@@ -9424,7 +9424,7 @@ msgstr "排序顺序: 0 或省略表示降序排序，任何非 0 值表示升�
 #: sc/inc/scfuncs.hrc:2081
 msgctxt "SC_OPCODE_RANK_AVG"
 msgid "Returns the ranking of a value in a sample; if more than one value has the same rank, the average rank is returned."
-msgstr "返回样本中值的排位；如果一个以上的值拥有相同的排位，则只返回该值集的平均排位。"
+msgstr "返回某个值在样本中的排名；如果一个以上的值具有相同的排名，则返回平均排名。"
 
 #. wYAYF
 #: sc/inc/scfuncs.hrc:2082
@@ -9436,7 +9436,7 @@ msgstr "值"
 #: sc/inc/scfuncs.hrc:2083
 msgctxt "SC_OPCODE_RANK_AVG"
 msgid "The value for which the rank is to be determined."
-msgstr "需要确定其排位的值。"
+msgstr "需要确定其排名的值。"
 
 #. FPuzE
 #: sc/inc/scfuncs.hrc:2084
