@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-06-24 12:51+0200\n"
-"PO-Revision-Date: 2021-12-30 20:38+0000\n"
+"PO-Revision-Date: 2022-01-01 03:38+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-7-2/textscalc01/de/>\n"
 "Language: de\n"
@@ -14342,7 +14342,7 @@ msgctxt ""
 "par_id3152043\n"
 "help.text"
 msgid "<emph>Range</emph> is the range to which the criterion is to be applied."
-msgstr ""
+msgstr "<emph>Bereich</emph> ist der Bereich, auf den das Kriterium angewendet werden soll."
 
 #. FCxrw
 #: 04060106.xhp
@@ -14360,7 +14360,7 @@ msgctxt ""
 "par_id8347422\n"
 "help.text"
 msgid "SUMIF supports the reference concatenation operator (~) only in the Criterion parameter, and only if the optional SumRange parameter is not given."
-msgstr ""
+msgstr "SUMNEWENN unterstützt den Verkettungsoperator für Bereiche (~) nur im Parameter „Bedingung“ und nur, wenn der optionale Parameter „Summenbereich“ nicht angegeben wird."
 
 #. uazzL
 #: 04060106.xhp
@@ -18734,7 +18734,7 @@ msgctxt ""
 "par_id3149984\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_SVERWEIS\">Vertical search with reference to adjacent cells to the right.</ahelp> This function checks if a specific value is contained in the first column of an array. The function then returns the value in the same row of the column named by <emph>Index</emph>. If the <emph>Sorted</emph> parameter is omitted or set to TRUE or one, it is assumed that the data is sorted in ascending order. In this case, if the exact <emph>Lookup</emph> is not found, the last value that is smaller than the criterion will be returned. If <emph>Sorted</emph> is set to FALSE or zero, an exact match must be found, otherwise the error <emph>Error: Value Not Available</emph> will be the result. Thus with a value of zero the data does not need to be sorted in ascending order."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_SVERWEIS\">Vertikale Suche mit Bezug auf benachbarte Zellen rechts.</ahelp> Diese Funktion prüft, ob ein bestimmter Wert in der ersten Spalte einer Matrix enthalten ist. Die Funktion gibt dann den Wert in derselben Zeile aber der Spalte mit dem Namen <emph>Index</emph> zurück. Wird der Parameter <emph>Sortiert</emph> weggelassen oder auf WAHR oder eins gesetzt, wird davon ausgegangen, dass die Daten in aufsteigender Reihenfolge sortiert sind. Wenn in diesem Fall der genaue <emph>Suchwert</emph> nicht gefunden wird, wird der letzte Wert zurückgegeben, der kleiner als das Kriterium ist. Wenn <emph>Sortiert</emph> auf FALSCH oder Null gesetzt ist, muss eine exakte Übereinstimmung gefunden werden, ansonsten wird der Fehler <emph>Fehler: Wert nicht verfügbar</emph> ausgegeben. Bei einem Wert von Null müssen die Daten also nicht aufsteigend sortiert werden."
 
 #. j8RoY
 #: 04060109.xhp
@@ -18743,7 +18743,7 @@ msgctxt ""
 "par_id3150156\n"
 "help.text"
 msgid "=VLOOKUP(Lookup; Array; Index [; SortedRangeLookup])"
-msgstr ""
+msgstr "=SVERWEIS(Suchwert; Matrix; Index [; Sortiert])"
 
 #. LDrCq
 #: 04060109.xhp
@@ -18752,7 +18752,7 @@ msgctxt ""
 "par_id3149289\n"
 "help.text"
 msgid "<emph>Lookup</emph> is the value of any type looked for in the first column of the array."
-msgstr ""
+msgstr "<emph>Suchwert</emph> ist der Wert eines beliebigen Typs, der in der ersten Spalte der Matrix gesucht wird."
 
 #. WFj5E
 #: 04060109.xhp
@@ -18779,7 +18779,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than <emph>Lookup</emph>. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr ""
+msgstr "<emph>Sortiert</emph> ist ein optionaler Parameter, der angibt, ob die erste Spalte in der Matrix Bereichsgrenzen anstelle von einfachen Werten enthält. In diesem Modus gibt die Suche den Wert in der Zeile mit der ersten Spalte mit einem Wert gleich oder kleiner als <emph>Suche</emph> zurück. Er könnte beispielsweise Datumsangaben enthalten, an denen ein Steuerwert geändert wurde, und die Werte repräsentieren daher das Anfangsdatum einer Periode, in der ein bestimmter Steuerwert gültig war. Somit würde die Suche nach einem Datum, das in der ersten Matrixspalte fehlt, aber zwischen einigen existierenden Grenzdaten liegt, das niedrigere von ihnen ergeben, was es ermöglicht, herauszufinden, ob die Daten für das gesuchte Datum gültig sind. Geben Sie den booleschen Wert FALSCH oder Null ein, wenn die erste Spalte keine Liste mit Bereichsgrenzen ist. Wenn dieser Parameter WAHR ist oder nicht angegeben ist, muss die erste Spalte im Array <emph>aufsteigend sortiert werden</emph>. Sortierte Spalten können viel schneller durchsucht werden und die Funktion gibt immer einen Wert zurück, auch wenn der Suchwert nicht exakt gefunden wurde, wenn dieser größer als der kleinste Wert der sortierten Liste ist. In unsortierten Listen muss der Suchwert exakt übereinstimmen. Andernfalls gibt die Funktion #N/V mit der Meldung zurück: <emph>Fehler: Wert nicht verfügbar</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -18842,7 +18842,7 @@ msgctxt ""
 "par_id3150309\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_TABELLE\">Returns the sheet number of either a reference or a string representing a sheet name.</ahelp> If you do not enter any parameters, the result is the sheet number of the spreadsheet containing the formula."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_TABELLE\">Gibt die Tabellennummer eines Bezugs oder einer Zeichenfolge, die einen Tabellennamen darstellt, zurück.</ahelp> Wenn Sie keine Parameter eingeben, ist das Ergebnis die Tabellennummer der Tabelle, welche die Formel enthält."
 
 #. KRzAZ
 #: 04060109.xhp
@@ -18869,7 +18869,7 @@ msgctxt ""
 "par_id3146988\n"
 "help.text"
 msgid "<input>=SHEET(Sheet2.A1)</input> returns 2 if Sheet2 is the second sheet in the spreadsheet document."
-msgstr ""
+msgstr "<input>=TABELLE(Tabelle2.A1)</input> gibt 2 zurück, wenn Tabelle2 die zweite Tabelle im Tabellendokument ist."
 
 #. fEQws
 #: 04060109.xhp
@@ -18878,7 +18878,7 @@ msgctxt ""
 "par_id491612531793751\n"
 "help.text"
 msgid "<input>=SHEET(\"Sheet3\")</input> returns 3 if Sheet3 is the third sheet in the spreadsheet document."
-msgstr ""
+msgstr "<input>=TABELLE(\"Tabelle3\")</input> gibt 3 zurück, wenn Tabelle3 die dritte Tabelle im Tabellendokument ist."
 
 #. 7ZBfD
 #: 04060109.xhp
@@ -18968,7 +18968,7 @@ msgctxt ""
 "par_id3159152\n"
 "help.text"
 msgid "MATCH(Search; LookupArray [; Type])"
-msgstr ""
+msgstr "VERGLEICH(Suchwert; Suchmatrix [; Typ])"
 
 #. KZU4F
 #: 04060109.xhp
@@ -18977,7 +18977,7 @@ msgctxt ""
 "par_id3149336\n"
 "help.text"
 msgid "<emph>Search</emph> is the value which is to be searched for in the single-row or single-column array."
-msgstr ""
+msgstr "<emph>Suchwert</emph> ist der Wert, nach dem in der einzeiligen oder einspaltigen Matrix gesucht werden soll."
 
 #. 9j4xw
 #: 04060109.xhp
@@ -19229,7 +19229,7 @@ msgctxt ""
 "par_id3154104\n"
 "help.text"
 msgid "LOOKUP(Lookup; SearchVector [; ResultVector])"
-msgstr ""
+msgstr "VERWEIS(Suchwert; Suchvektor [; Ergebnisvektor])"
 
 #. yGLLE
 #: 04060109.xhp
@@ -19238,7 +19238,7 @@ msgctxt ""
 "par_id3150646\n"
 "help.text"
 msgid "<emph>Lookup</emph> is the value of any type to be looked for; entered either directly or as a reference."
-msgstr ""
+msgstr "<emph>Suchwert</emph> ist der Wert eines beliebigen Typs, nach dem gesucht werden soll; entweder direkt oder als Bezug eingegeben."
 
 #. tFDBC
 #: 04060109.xhp
@@ -19463,7 +19463,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "HLOOKUP(Lookup; Array; Index [; SortedRangeLookup])"
-msgstr ""
+msgstr "WVERWEIS(Suchwert; Matrix; Index [; Sortiert])"
 
 #. nhwwF
 #: 04060109.xhp
@@ -19481,7 +19481,7 @@ msgctxt ""
 "par_id141612447324913\n"
 "help.text"
 msgid "Suppose we have built a small database table occupying the cell range A1:DO4 and containing basic information about 118 chemical elements. The first column contains the row headings “Element”, “Symbol”, “Atomic Number”, and “Relative Atomic Mass”. Subsequent columns contain the relevant information for each of the elements, ordered left to right by atomic number. For example, cells B1:B4 contain “Hydrogen”, “H”, “1” and “1.008”, while cells DO1:DO4 contain “Oganesson”, “Og”, “118”, and “294”."
-msgstr ""
+msgstr "Angenommen, wir haben eine kleine Datenbanktabelle erstellt, die den Zellbereich A1:DO4 einnimmt und grundlegende Informationen über 118 chemische Elemente enthält. Die erste Spalte enthält die Zeilenüberschriften „Element“, „Symbol“, „Atomzahl“ und „Relative Atommasse“. Nachfolgende Spalten enthalten die relevanten Informationen für jedes der Elemente, von links nach rechts nach der Ordnungszahl geordnet. Zum Beispiel enthalten die Zellen B1:B4 „Wasserstoff“, „H“, „1“ und „1,008“, während die Zellen DO1:DO4 „Oganesson“, „Og“, „118“ und „294“ enthalten."
 
 #. eAMVa
 #: 04060109.xhp
@@ -19490,7 +19490,7 @@ msgctxt ""
 "par_id151612978320063\n"
 "help.text"
 msgid "Element"
-msgstr ""
+msgstr "Element"
 
 #. BcKD5
 #: 04060109.xhp
@@ -19499,7 +19499,7 @@ msgctxt ""
 "par_id711612450364379\n"
 "help.text"
 msgid "Hydrogen"
-msgstr ""
+msgstr "Wasserstoff"
 
 #. ACHPj
 #: 04060109.xhp
@@ -19508,7 +19508,7 @@ msgctxt ""
 "par_id681612450364379\n"
 "help.text"
 msgid "Helium"
-msgstr ""
+msgstr "Helium"
 
 #. 7YEmL
 #: 04060109.xhp
@@ -19517,7 +19517,7 @@ msgctxt ""
 "par_id531612453345232\n"
 "help.text"
 msgid "Lithium"
-msgstr ""
+msgstr "Lithium"
 
 #. Y3c6z
 #: 04060109.xhp
@@ -19526,7 +19526,7 @@ msgctxt ""
 "par_id571612453039430\n"
 "help.text"
 msgid "Oganesson"
-msgstr ""
+msgstr "Oganesson"
 
 #. 4H4fa
 #: 04060109.xhp
@@ -19535,7 +19535,7 @@ msgctxt ""
 "par_id341612978329327\n"
 "help.text"
 msgid "Symbol"
-msgstr ""
+msgstr "Symbol"
 
 #. jVBoy
 #: 04060109.xhp
@@ -19544,7 +19544,7 @@ msgctxt ""
 "par_id601612978601591\n"
 "help.text"
 msgid "Atomic Number"
-msgstr ""
+msgstr "Ordnungszahl"
 
 #. WjrrE
 #: 04060109.xhp
@@ -19553,7 +19553,7 @@ msgctxt ""
 "par_id751612978603374\n"
 "help.text"
 msgid "Relative Atomic Mass"
-msgstr ""
+msgstr "Relative Atommasse"
 
 #. Cb3HA
 #: 04060109.xhp
@@ -19562,7 +19562,7 @@ msgctxt ""
 "par_id51612447346319\n"
 "help.text"
 msgid "<input>=HLOOKUP(\"Lead\"; $A$1:$DO$4; 2; 0)</input> returns “Pb”, the symbol for lead."
-msgstr ""
+msgstr "<input>=WVERWEIS(\"Blei\";$A$1:$DO$4;2;0)</input> gibt \"Pb\" zurück, das Symbol für Blei."
 
 #. Fa8kD
 #: 04060109.xhp
@@ -19571,7 +19571,7 @@ msgctxt ""
 "par_id291612447349416\n"
 "help.text"
 msgid "<input>=HLOOKUP(\"Gold\"; $A$1:$DO$4; 3; 0)</input> returns 79, the atomic number for gold."
-msgstr ""
+msgstr "<input>=WVERWEIS(\"Gold\";$A$1:$DO$4;3;0)</input> gibt 79 zurück, die Ordnungszahl für Gold."
 
 #. LbWuo
 #: 04060109.xhp
@@ -19580,7 +19580,7 @@ msgctxt ""
 "par_id971612447352912\n"
 "help.text"
 msgid "<input>=HLOOKUP(\"Carbon\"; $A$1:$DO$4; 4; 0)</input> returns 12.011, the relative atomic mass of carbon."
-msgstr ""
+msgstr "<input>=HLOOKUP(\"Kohlenstoff\";$A$1:$DO$4;4;0)</input> gibt 12,011 zurück, die relative Atommasse von Kohlenstoff."
 
 #. B4DL3
 #: 04060109.xhp
@@ -19841,7 +19841,7 @@ msgctxt ""
 "par_idN11827\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"http://www.example.org\")</input> displays the text \"http://www.example.org\" in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"http://www.beispiel.org\")</input> zeigt den Text \"http://www.beispiel.org\" in der Zelle an und ruft den Hyperlink \"http://www.beispiel.org\" beim Anklicken auf."
 
 #. wHG7A
 #: 04060109.xhp
@@ -19850,7 +19850,7 @@ msgctxt ""
 "par_idN1182A\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"http://www.example.org\";\"Click here\")</input> displays the text \"Click here\" in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"http://www.beispiel.org\";\"Hier klicken\")</input> zeigt den Text \"Hier klicken\" in der Zelle an und ruft den Hyperlink \"http://www.beispiel.org\" beim Anklicken auf."
 
 #. jamR2
 #: 04060109.xhp
@@ -19859,7 +19859,7 @@ msgctxt ""
 "par_id0907200912224534\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"http://www.example.org\";12345)</input> displays the number 12345 and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"http://www.beispiel.org\";12345)</input> zeigt die Zahl 12345 an und ruft den Hyperlink \"http://www.beispiel.org\" beim Anklicken auf."
 
 #. qLdBN
 #: 04060109.xhp
@@ -19868,7 +19868,7 @@ msgctxt ""
 "par_idN1182D\n"
 "help.text"
 msgid "<input>=HYPERLINK($B4)</input> where cell B4 contains <literal>http://www.example.org</literal>. The function adds http://www.example.org to the URL of the hyperlink cell and returns the same text which is used as formula result."
-msgstr ""
+msgstr "<input>=HYPERLINK($B4)</input> wobei Zelle B4 <literal>http://www.beispiel.org</literal> enthält. Die Funktion fügt \"http://www.beispiel.org\" zur URL der Hyperlink-Zelle hinzu und gibt denselben Text zurück, der als Formelergebnis verwendet wird."
 
 #. cWDrv
 #: 04060109.xhp
@@ -19877,7 +19877,7 @@ msgctxt ""
 "par_idN11830\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"http://www.\";\"Click \") & \"example.org\"</input> displays the text Click example.org in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"http://www.\";\"Klicke \")&\"beispiel.org\"</input> zeigt den Text \"Klicke beispiel.org\" in der Zelle an und ruft den Hyperlink \"http://www.beispiel.org\" beim Anklicken auf."
 
 #. DDEtK
 #: 04060109.xhp
@@ -19886,7 +19886,7 @@ msgctxt ""
 "par_id8859523\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"#Sheet1.A1\";\"Go to top\")</input> displays the text Go to top and jumps to cell Sheet1.A1 in this document."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"#Tabelle1.A1\";\"Nach oben\")</input> zeigt den Text \"Nach oben\" an und springt zur Zelle Tabelle1.A1 in diesem Dokument."
 
 #. CoMEq
 #: 04060109.xhp
@@ -19895,7 +19895,7 @@ msgctxt ""
 "par_id2958769\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"file:///C:/writer.odt#Specification\";\"Go to Writer bookmark\")</input> displays the text \"Go to Writer bookmark\", loads the specified text document and jumps to bookmark \"Specification\"."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"file:///C:/writer.odt#Spezifikation\";\"Wechsel zum Writer-Lesezeichen\")</input> zeigt den Text \"Wechsel zum Writer-Lesezeichen\" an, lädt das angegebene Textdokument und springt zum Lesezeichen \"Spezifikation\"."
 
 #. Ky2xV
 #: 04060109.xhp
@@ -19904,7 +19904,7 @@ msgctxt ""
 "par_id321615667588042\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"file:///C:/Documents/\";\"Open Documents folder\")</input> displays the text \"Open Documents folder\" and shows the folder contents using the standard file manager in your operating system."
-msgstr ""
+msgstr "<input>=HYPERLINK(\"file:///C:/Dokumente/\";\"Dokumentordner öffnen\")</input> zeigt den Text \"Dokumentordner öffnen\" an und ruft den Ordnerinhalt mit dem Standard-Dateimanager Ihres Betriebssystems beim Anklicken auf."
 
 #. ubKsF
 #: 04060109.xhp
