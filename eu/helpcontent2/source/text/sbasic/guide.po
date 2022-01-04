@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-10-20 13:08+0200\n"
-"PO-Revision-Date: 2022-01-02 15:39+0000\n"
+"PO-Revision-Date: 2022-01-04 20:00+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicguide/eu/>\n"
 "Language: eu\n"
@@ -1274,7 +1274,7 @@ msgctxt ""
 "par_id781633210592228\n"
 "help.text"
 msgid "Macros in %PRODUCTNAME Calc often need to read and write values from/to sheets. This help page describes the various approaches to accessing sheets and ranges to read or write their values."
-msgstr ""
+msgstr "%PRODUCTNAME Calc aplikazioko makroek sarritan orrietako balioak irakurtzea eta idaztea behar dute. Laguntza-orri honetan orriak eta barrutiak atzitzeko zenbait modu deskribatzen dira."
 
 #. D4ZJu
 #: read_write_values.xhp
@@ -1283,7 +1283,7 @@ msgctxt ""
 "par_id191633214565965\n"
 "help.text"
 msgid "All examples presented in this page can be implemented both in Basic and Python."
-msgstr ""
+msgstr "Orri honetako adibide guztiak bai Basic bai Python erabilita inplementatu daitezke."
 
 #. LfNCy
 #: read_write_values.xhp
@@ -1292,7 +1292,7 @@ msgctxt ""
 "hd_id331633213558740\n"
 "help.text"
 msgid "Accessing a Single Cell"
-msgstr ""
+msgstr "Gelaxka bakarra atzitzea"
 
 #. A5M3f
 #: read_write_values.xhp
@@ -1301,7 +1301,7 @@ msgctxt ""
 "par_id731633213581386\n"
 "help.text"
 msgid "The example below enters the numeric value 123 into cell \"A1\" of the current sheet."
-msgstr ""
+msgstr "Beheko adibidean 123 zenbakizko balioa uneko orriko \"A1\" gelaxkan sartzen da."
 
 #. G6yWX
 #: read_write_values.xhp
@@ -1310,7 +1310,7 @@ msgctxt ""
 "par_id131633213887433\n"
 "help.text"
 msgid "The same can be accomplished with Python:"
-msgstr ""
+msgstr "Python bidez ekintza bera gauzatzeko:"
 
 #. CDmg6
 #: read_write_values.xhp
@@ -1319,7 +1319,7 @@ msgctxt ""
 "par_id861633214219511\n"
 "help.text"
 msgid "Note that in the previous examples the cell is accessed using its range name \"A1\". It is also possible to access cells using indices as though the sheet were a matrix where columns and rows are indexed starting from zero."
-msgstr ""
+msgstr "Kontuan izan, aurreko adibideetan, gelaxka atzitzeko bere barruti-izena erabili dela, \"A1\" alegia. Posible da gelaxkak atzitzeko indizeak erabiltzea, orria zeron hasten diren zutabeen eta errenkaden matrize bat bailitzan."
 
 #. Jja4D
 #: read_write_values.xhp
@@ -1328,7 +1328,7 @@ msgctxt ""
 "par_id161633214461067\n"
 "help.text"
 msgid "This can be done using the <literal>getCellByPosition(colIndex, rowIndex)</literal> method, that takes in a column and a row index. The example below in Basic changes the text value in cell \"C1\" (column 2, row 0)."
-msgstr ""
+msgstr "Hori egiteko, <literal>getCellByPosition(zutabeIndizea, errenkadaIndizea)</literal> metodoa erabili daiteke, zutabe baten eta errenkada baten indizea hartuta. Beheko adibideak, Basic lengoaian, \"C1\" (2 zutabea, 0 errenkada) gelaxkako testu-balioa aldatzen du."
 
 #. 5tsZR
 #: read_write_values.xhp
@@ -1337,7 +1337,7 @@ msgctxt ""
 "par_id221633214713436\n"
 "help.text"
 msgid "This example can also be implemented in Python as follows:"
-msgstr ""
+msgstr "Adibide hori Python erabilita ere inplementatu daiteke, hurrengo moduan:"
 
 #. h6eq5
 #: read_write_values.xhp
@@ -1346,7 +1346,7 @@ msgctxt ""
 "par_id101633215142970\n"
 "help.text"
 msgid "The main difference between Python and Basic scripts lies on how to get access to the sheet object by using the <literal>XSCRIPTCONTEXT</literal> context variable. After that, all methods and properties are identical in Basic and Python."
-msgstr ""
+msgstr "Python eta Basic scripten arteko desberdintasun nagusia da nola atzitzen duten orri-objektua <literal>XSCRIPTCONTEXT</literal> testuinguru-aldagaiaren bidez. Horren ondoren, metodo eta propietate guztiak berdinak dira, Basic zein Python erabili."
 
 #. PmETF
 #: read_write_values.xhp
@@ -1355,7 +1355,7 @@ msgctxt ""
 "hd_id411633215666257\n"
 "help.text"
 msgid "Values, Strings and Formulas"
-msgstr ""
+msgstr "Balioak, kateak eta formulak"
 
 #. MBHDg
 #: read_write_values.xhp
@@ -1364,7 +1364,7 @@ msgctxt ""
 "par_id861633215682610\n"
 "help.text"
 msgid "Calc cells can have three types of values: numeric, strings and formulas. Each type has its own set and get methods:"
-msgstr ""
+msgstr "Calc gelaxkek hiru balio mota dituzte: zenbakizkoak, kateak eta formulak. Mota bakoitzak balioa ezartzeko eta eskuratzeko metodoak ditu:"
 
 #. RXE76
 #: read_write_values.xhp
@@ -1409,7 +1409,7 @@ msgctxt ""
 "par_id21633215845395\n"
 "help.text"
 msgid "Dates and currency values are considered as numeric values in Calc."
-msgstr ""
+msgstr "Calc-en, datak eta monetak zenbakizko baliotzat hartzen dira."
 
 #. t87Qx
 #: read_write_values.xhp
@@ -1418,7 +1418,7 @@ msgctxt ""
 "par_id221633216111353\n"
 "help.text"
 msgid "The following example enters numeric values into cells \"A1\" and \"A2\" and inserts a formula in cell \"A3\" that returns the multiplication of these values."
-msgstr ""
+msgstr "Hurrengo adibidean, zenbakizko balioak sartzen dira \"A1\" eta \"A2\" gelaxketan eta bi balio horien biderketa itzultzen duen formula bat txertatzen da \"A3\" gelaxkan."
 
 #. r6BG6
 #: read_write_values.xhp
@@ -1427,7 +1427,7 @@ msgctxt ""
 "hd_id321633216630043\n"
 "help.text"
 msgid "Accessing Ranges in Different Sheets"
-msgstr ""
+msgstr "Orri anitzetako barrutiak atzitzea"
 
 #. TFU8U
 #: read_write_values.xhp
@@ -1436,7 +1436,7 @@ msgctxt ""
 "par_id371633216672570\n"
 "help.text"
 msgid "The previous examples used only the active sheet to perform operations. It is possible to access cell ranges in different sheets by their indices or names."
-msgstr ""
+msgstr "Aurreko adibideetan, orri aktiboa soilik erabili da eragiketak gauzatzeko. Posible da beste orri batzuetako gelaxka-barrutiak atzitzea haien indizeak edo izenak erabilita."
 
 #. c3yhF
 #: read_write_values.xhp
@@ -1445,7 +1445,7 @@ msgctxt ""
 "par_id861633216843382\n"
 "help.text"
 msgid "The example below enters a numeric value into cell \"A1\" of the sheet named \"Sheet2\"."
-msgstr "Beheko adibidean, zenbakizko balio bat sartzen da \"Orria2\" orriko \"A1\" gelaxkan."
+msgstr "Beheko adibidean, zenbakizko balio bat sartzen da \"Sheet2\" orriko \"A1\" gelaxkan."
 
 #. GpnNS
 #: read_write_values.xhp
@@ -1463,7 +1463,7 @@ msgctxt ""
 "par_id631633217279518\n"
 "help.text"
 msgid "Sheets can also be accessed using zero-based indices indicating which sheet considering the order they appear in the Calc file."
-msgstr ""
+msgstr "Orriak atzitzeko, zeron oinarritutako indizeak ere erabili daitezke, Calc fitxategian orriak agertzen diren ordena kontuan hartuta."
 
 #. tSo3e
 #: read_write_values.xhp
@@ -1499,7 +1499,7 @@ msgctxt ""
 "par_id731633265268585\n"
 "help.text"
 msgid "The Calc service of the ScriptForge library can be used to get and set cell values as follows:"
-msgstr ""
+msgstr "ScriptForge liburutegiko Calc zerbitzuarekin gelaxka-balioak eskuratzeko eta ezartzeko:"
 
 #. DCJ2E
 #: read_write_values.xhp
@@ -1535,7 +1535,7 @@ msgctxt ""
 "par_id781633267324929\n"
 "help.text"
 msgid "The <literal>setValue</literal> method can be used to set both numeric and text values. To set a cell formula, use the <literal>setFormula</literal> method."
-msgstr ""
+msgstr "<literal>setValue</literal> metodoa zenbakizko balioak zein testu-balioak ezartzeko erabili daiteke. Gelaxka-formula bat ezartzeko, erabili <literal>setFormula</literal> metodoa."
 
 #. jPRii
 #: read_write_values.xhp
@@ -1544,7 +1544,7 @@ msgctxt ""
 "par_id251633265634883\n"
 "help.text"
 msgid "With the Calc service, getting and setting cell values can be done with a single line of code. The example below gets the value from cell \"A1\" and shows it on a message box."
-msgstr ""
+msgstr "Calc zerbitzuarekin, gelaxka-balioak kode-lerro bakarrarekin eskuratu eta ezarri daitezke. Beheko adibidean, \"A1\" gelaxkako balioa hartzen da eta mezu-koadro batean erakusten da."
 
 #. NzUg4
 #: read_write_values.xhp
@@ -1553,7 +1553,7 @@ msgctxt ""
 "par_id521633608223310\n"
 "help.text"
 msgid "The ScriptForge library also makes it simpler to access ranges in different sheets, as demonstrated in the example below:"
-msgstr ""
+msgstr "ScriptForge liburutegiari esker, sinpleagoa da orri anitzetako barrutiak atzitzea, beheko adibidean ikusten den moduan:"
 
 #. CCeEh
 #: read_write_values.xhp
@@ -1562,7 +1562,7 @@ msgctxt ""
 "bas_id521633608366292\n"
 "help.text"
 msgid "' Gets cell \"A1\" from the sheet named \"Sheet1\""
-msgstr ""
+msgstr "' \"Sheet1\" izeneko \"A1\" gelaxka eskuratzen du"
 
 #. qUTqA
 #: read_write_values.xhp
@@ -1571,7 +1571,7 @@ msgctxt ""
 "bas_id661633608366484\n"
 "help.text"
 msgid "' Gets cell \"B3\" from the sheet named \"Sheet2\""
-msgstr ""
+msgstr "' \"Sheet2\" izeneko \"B3\" gelaxka eskuratzen du"
 
 #. mCX5W
 #: read_write_values.xhp
@@ -1580,7 +1580,7 @@ msgctxt ""
 "bas_id501633608516381\n"
 "help.text"
 msgid "' Places the result into cell \"A1\" of sheet \"Report\""
-msgstr ""
+msgstr "' \"Report\" orriko \"A1\" gelaxkan kokatzen du emaitza"
 
 #. ZdkEz
 #: read_write_values.xhp
@@ -1589,7 +1589,7 @@ msgctxt ""
 "par_id431633266057163\n"
 "help.text"
 msgid "The examples above can also be implemented in Python as follows:"
-msgstr ""
+msgstr "Goiko adibidea Python erabilita ere inplementatu daiteke, hurrengo moduan:"
 
 #. ayg6P
 #: sample_code.xhp
