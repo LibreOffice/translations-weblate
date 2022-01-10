@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-09 15:38+0000\n"
+"PO-Revision-Date: 2022-01-10 11:44+0000\n"
 "Last-Translator: Olivier Hallot <olivier.hallot@libreoffice.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/pt_BR/>\n"
 "Language: pt-BR\n"
@@ -10805,7 +10805,7 @@ msgctxt ""
 "par_id551638554058131\n"
 "help.text"
 msgid "When the <literal>TableControl</literal> is added to the dialog, it is possible to use the Basic IDE to define whether column and row headers will be shown in the table. If the <literal>TableControl</literal> has column and/or row headers, the first column and/or row in the provided data array are used as labels for the table headers."
-msgstr ""
+msgstr "Ao adicionar o controle de tabela <literal>TableControl</literal> à caixa de diálogo, é possível usar o IDE do Basic para definir se os cabeçalhos de coluna e linha serão mostrados na tabela. Se o controle <literal>TableControl</literal> tem cabeçalhos de coluna e / ou linha, a primeira coluna e / ou linha na matriz de dados fornecida são usados como rótulos para os cabeçalhos da tabela."
 
 #. qn4UN
 #: sf_dialogcontrol.xhp
@@ -10814,7 +10814,7 @@ msgctxt ""
 "par_id411638569396108\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Este método retorna <literal>True</literal> quando for bem-sucedido."
 
 #. LESVB
 #: sf_dialogcontrol.xhp
@@ -10823,7 +10823,7 @@ msgctxt ""
 "par_id1001584541257133\n"
 "help.text"
 msgid "<emph>dataarray</emph>: Data to be entered into the table represented as an Array of Arrays in Basic or a tuple of tuples in Python. The data must include column and row headers if they are to be displayed by the <literal>TableControl</literal>."
-msgstr ""
+msgstr "<emph>dataarray</emph>: dados a serem inseridos na tabela representados como uma matriz de matrizes em Basic ou uma tupla de tuplas em Python. Os dados devem incluir cabeçalhos de coluna e linha se eles forem exibidos pelo controle <literal>TableControl</literal>."
 
 #. 6AKaJ
 #: sf_dialogcontrol.xhp
@@ -10832,7 +10832,7 @@ msgctxt ""
 "par_id1001584541257025\n"
 "help.text"
 msgid "<emph>widths</emph>: Array containing the relative widths of each column. In other words, <literal>widths = Array(1, 2)</literal> means that the second column is twice as wide as the first one. If the number of values in the array is smaller than the number of columns in the table, then the last value in the array is used to define the width of the remaining columns."
-msgstr ""
+msgstr "<emph>widths</emph>: matriz contendo as larguras relativas de cada coluna. Em outras palavras, <literal>widths = Array(1, 2)</literal> significa que a segunda coluna tem o dobro da largura da primeira. Se o número de valores na matriz for menor que o número de colunas na tabela, o último valor na matriz será usado para definir a largura das colunas restantes."
 
 #. AEGq3
 #: sf_dialogcontrol.xhp
@@ -10841,7 +10841,7 @@ msgctxt ""
 "par_id1001584541257007\n"
 "help.text"
 msgid "<emph>alignments</emph>: Defines the alignment in each column as a string in which each character can be \"L\" (Left), \"C\" (Center), \"R\" (Right) or \" \" (whitespace, default, meaning left for strings and right for numeric values). If the length of the string is shorter than the number of columns in the table, then the last character in the string is used to define the alignment of the remaining columns."
-msgstr ""
+msgstr "<emph>alignments</emph>: define o alinhamento em cada coluna como uma string em que cada caractere pode ser \"L\" (esquerda), \"C\" (centro), \"R\" (direita) ou \"\" (espaço em branco, padrão, significando esquerda para strings e direita para valores numéricos). Se o comprimento da string for menor que o número de colunas da tabela, o último caractere da string será usado para definir o alinhamento das colunas restantes."
 
 #. FCNEg
 #: sf_dialogcontrol.xhp
@@ -10850,7 +10850,7 @@ msgctxt ""
 "par_id381638569172413\n"
 "help.text"
 msgid "The following example assumes that the dialog <literal>myDialog</literal> has a <literal>TableControl</literal> named <literal>Grid1</literal> with \"Show header row\" and \"Show column row\" properties set to \"Yes\"."
-msgstr ""
+msgstr "O exemplo a seguir assume que a caixa de diálogo <literal>myDialog</literal> tem um controle <literal>TableControl</literal> denominado <literal>Grid1</literal> com as propriedades \"Mostrar cabeçalhos de linha\" e \"Mostrar cabeçalhos de coluna\" definidas como \" Sim\"."
 
 #. N9Byz
 #: sf_dialogcontrol.xhp
@@ -10859,7 +10859,7 @@ msgctxt ""
 "par_id171638650502346\n"
 "help.text"
 msgid "The <literal>Value</literal> property returns the selected row in the table. If no row is selected, an empty Array object is returned. The following code snippet shows how to test if any row is selected in the table."
-msgstr ""
+msgstr "A propriedade <literal>Value</literal> retorna a linha selecionada na tabela. Se nenhuma linha for selecionada, um objeto Array vazio é retornado. O fragmento de código a seguir mostra como testar se alguma linha está selecionada na tabela."
 
 #. C3f3k
 #: sf_dialogcontrol.xhp
@@ -10868,7 +10868,7 @@ msgctxt ""
 "bas_id361638651540588\n"
 "help.text"
 msgid "MsgBox \"No row selected.\""
-msgstr ""
+msgstr "MsgBox \"Sem linha selecionada.\""
 
 #. iQ94A
 #: sf_dialogcontrol.xhp
@@ -10877,7 +10877,7 @@ msgctxt ""
 "bas_id781638651541028\n"
 "help.text"
 msgid "MsgBox \"Row \" & oTable.ListIndex & \" is selected.\""
-msgstr ""
+msgstr "MsgBox \"A linha \" & oTable.ListIndex & \" está selecionada.\""
 
 #. yyATt
 #: sf_dialogcontrol.xhp
@@ -10886,7 +10886,7 @@ msgctxt ""
 "pyc_id111638569958471\n"
 "help.text"
 msgid "dlg = CreateScriptService(\"Dialog\", \"GlobalScope\", \"Standard\", \"myDialog\")"
-msgstr ""
+msgstr "dlg = CreateScriptService(\"Dialog\", \"GlobalScope\", \"Standard\", \"myDialog\")"
 
 #. HNmmm
 #: sf_dialogcontrol.xhp
