@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-11 13:38+0000\n"
-"Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
+"PO-Revision-Date: 2022-01-11 17:27+0000\n"
+"Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -12182,7 +12182,7 @@ msgctxt ""
 "par_id156589200121138\n"
 "help.text"
 msgid "This method sends the contents of the document to the default printer or to the printer defined by the <literal>SetPrinter</literal> method."
-msgstr ""
+msgstr "Tato metoda odešle obsah daného dokumentu na výchozí tiskárnu nebo na tiskárnu určenou metodou <literal>SetPrinter</literal>."
 
 #. CJxTR
 #: sf_document.xhp
@@ -12191,7 +12191,7 @@ msgctxt ""
 "par_id981611169416934\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the document was successfully printed."
-msgstr ""
+msgstr "Vrátí <literal>True</literal>, pokud byl dokument úspěšně vytištěn."
 
 #. uQMeV
 #: sf_document.xhp
@@ -12200,7 +12200,7 @@ msgctxt ""
 "par_id211635436910093\n"
 "help.text"
 msgid "<emph>pages</emph>: The pages to print as a string, like in the user interface. Example: \"1-4;10;15-18\". Default is all pages."
-msgstr ""
+msgstr "<emph>pages</emph>: Stránky, které se mají vytisknout, jako řetězec podobný tomu, který se zadává v uživatelské rozhraní, například: \"1-4;10;15-18\". Výchozí jsou všechny stránky."
 
 #. EHtFi
 #: sf_document.xhp
@@ -12209,7 +12209,7 @@ msgctxt ""
 "par_id141635436912146\n"
 "help.text"
 msgid "<emph>copies</emph>: The number of copies. Default is 1."
-msgstr ""
+msgstr "<emph>copies</emph>: Počet kopií. Výchozí je 1."
 
 #. Nmwv9
 #: sf_document.xhp
@@ -12218,7 +12218,7 @@ msgctxt ""
 "par_id991589202413257\n"
 "help.text"
 msgid "Runs a command on a document. The command is executed without arguments."
-msgstr ""
+msgstr "Spustí na dokument příkaz, který se vykoná bez argumentů."
 
 #. MGb6t
 #: sf_document.xhp
@@ -12227,7 +12227,7 @@ msgctxt ""
 "par_id921611152932311\n"
 "help.text"
 msgid "A few typical commands are: Save, SaveAs, ExportToPDF, SetDocumentProperties, Undo, Copy, Paste, etc."
-msgstr ""
+msgstr "Typickými příkazy jsou: Save, SaveAs, ExportToPDF, SetDocumentProperties, Undo, Copy, Paste atd."
 
 #. qBhYc
 #: sf_document.xhp
@@ -12236,7 +12236,7 @@ msgctxt ""
 "par_id261589202778896\n"
 "help.text"
 msgid "The document itself does not need to be active to be able to run commands."
-msgstr ""
+msgstr "Není nutné, aby byl kvůli spouštění příkazů dokument aktivní."
 
 #. QSiFB
 #: sf_document.xhp
@@ -12245,7 +12245,7 @@ msgctxt ""
 "par_id401589202413575\n"
 "help.text"
 msgid "<emph>command</emph>: Case-sensitive string containing the command in English. The command itself is not checked for correctness. If nothing happens after the command call, then the command is probably wrong."
-msgstr ""
+msgstr "<emph>command</emph>: Řetězec, u něhož se rozlišuje velikost písmen, obsahující příkaz v angličtině. Nekontroluje se správnost příkazu. Jestliže se po zavolá příkazu nic nestane, je pravděpodobně chybný."
 
 #. wQF35
 #: sf_document.xhp
@@ -12254,7 +12254,7 @@ msgctxt ""
 "par_id721611153068137\n"
 "help.text"
 msgid "The following example runs the \"SelectData\" command in a Calc sheet named \"MyFile.ods\", which will result in the selection of the data area based on the currently selected cell."
-msgstr ""
+msgstr "V následujícím příkladu se spustí příkaz \"SelectData\" na list Calcu ze souboru \"MyFile.ods\". Výsledkem příkazu je výběr oblasti dat závisející na aktuálně vybrané buňce."
 
 #. avaEg
 #: sf_document.xhp
@@ -12263,7 +12263,7 @@ msgctxt ""
 "par_id751611153375195\n"
 "help.text"
 msgid "The example above actually runs the UNO command <literal>.uno:SelectData</literal>. Hence, to use the <literal>RunCommand</literal> method it is necessary to remove the \".uno:\" substring."
-msgstr ""
+msgstr "Ve výše uvedeném příkladu se spouští příkaz UNO <literal>.uno:SelectData</literal>. Při použití v metodě <literal>RunCommand</literal> je tedy nezbytné z názvu příkazu odstranit část řetězce obsahující \".uno:\"."
 
 #. JRHRS
 #: sf_document.xhp
@@ -12272,7 +12272,7 @@ msgctxt ""
 "par_id191611153511038\n"
 "help.text"
 msgid "Each LibreOffice component has its own set of commands available. One easy way to learn commands is going to <emph>Tools > Customize > Keyboard</emph>. When you position your mouse over a function in the <emph>Function</emph> list, a tooltip will appear with the corresponding UNO command."
-msgstr ""
+msgstr "Sada dostupných příkazů závisí na používané komponentě LibreOffice. Jednoduchým způsobit, jak příkazy zjistit, je přejít na <emph>Nástroje > Přizpůsobit > Klávesnice</emph>. Umístíte-li myš nad funkci v seznamu <emph>Funkce</emph>, zobrazí se tip s příslušným příkazem UNO."
 
 #. enSv9
 #: sf_document.xhp
@@ -12281,7 +12281,7 @@ msgctxt ""
 "par_id81589202925519\n"
 "help.text"
 msgid "Stores the document to the file location from which it was loaded. The method is ignored if the document was not modified."
-msgstr ""
+msgstr "Uloží dokument na místo, odkud byl načten. Pokud dokument nebyl změněn, metoda je ignorována."
 
 #. sFUcr
 #: sf_document.xhp
