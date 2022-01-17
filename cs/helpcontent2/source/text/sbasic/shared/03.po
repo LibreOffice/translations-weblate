@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-16 15:54+0000\n"
+"PO-Revision-Date: 2022-01-17 11:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -13856,7 +13856,7 @@ msgctxt ""
 "par_id321584544734273\n"
 "help.text"
 msgid "<emph>destination</emph>: Specifies the <literal>FolderName</literal> into which the single or multiple folders defined in <literal>source</literal> are to be copied."
-msgstr ""
+msgstr "<emph>destination</emph>: Určuje jako <literal>FolderName</literal> složku, do níž se má jedna či více složek definovaná argumentem <literal>source</literal> zkopírovat."
 
 #. iLKYc
 #: sf_filesystem.xhp
@@ -13865,7 +13865,7 @@ msgctxt ""
 "par_id491612999134762\n"
 "help.text"
 msgid "If <literal>destination</literal> does not exist, it is created."
-msgstr ""
+msgstr "Jestliže <literal>destination</literal> neexistuje, vytvoří se."
 
 #. TvYDS
 #: sf_filesystem.xhp
@@ -13874,7 +13874,7 @@ msgctxt ""
 "par_id591612999166740\n"
 "help.text"
 msgid "Wildcard characters are not allowed in <literal>destination</literal>."
-msgstr ""
+msgstr "V argumentu <literal>destination</literal> nejsou povoleny zástupné znaky."
 
 #. 3A2C2
 #: sf_filesystem.xhp
@@ -13883,7 +13883,7 @@ msgctxt ""
 "par_id251584542431525\n"
 "help.text"
 msgid "<emph>overwrite</emph>: If <literal>True</literal> (default), files may be overwritten. The method will fail if <literal>destination</literal> is readonly, regardless of the value specified in <literal>overwrite</literal>."
-msgstr ""
+msgstr "<emph>overwrite</emph>: Je-li <literal>True</literal> (výchozí), soubory mohou být přepsány. Pokud je složka <literal>destination</literal> pouze pro čtení, metoda selže bez ohledu na hodnotu tohoto parametru."
 
 #. 7CxBB
 #: sf_filesystem.xhp
@@ -13892,7 +13892,7 @@ msgctxt ""
 "par_id751626216627481\n"
 "help.text"
 msgid "In the examples below all files, folders and subfolders are copied."
-msgstr ""
+msgstr "V níže uvedených příkladech se zkopírují všechny soubory, složky a podsložky."
 
 #. fNBgH
 #: sf_filesystem.xhp
@@ -13901,7 +13901,7 @@ msgctxt ""
 "par_id31158454067562\n"
 "help.text"
 msgid "Creates the specified <literal>FolderName</literal>. Returns <literal>True</literal> if the folder could be successfully created."
-msgstr ""
+msgstr "Vytvoří složku zadanou jako <literal>FolderName</literal>. V případě úspěšného vytvoření vrátí <literal>True</literal>."
 
 #. 9H3cp
 #: sf_filesystem.xhp
@@ -13910,7 +13910,7 @@ msgctxt ""
 "par_id431613000475359\n"
 "help.text"
 msgid "If the specified folder has a parent folder that does not exist, it is created."
-msgstr ""
+msgstr "Pokud pro zadanou složku neexistuje rodičovská složka, vytvoří se."
 
 #. 7gTts
 #: sf_filesystem.xhp
@@ -13919,7 +13919,7 @@ msgctxt ""
 "par_id491584540675469\n"
 "help.text"
 msgid "<emph>foldername</emph>: A string representing the folder to be created. If the folder already exists, an exception will be raised."
-msgstr ""
+msgstr "<emph>foldername</emph>: Řetězec představující složku, která se má vytvořit. Pokud již složka existuje, nastane výjimka."
 
 #. 2zcfH
 #: sf_filesystem.xhp
@@ -13928,7 +13928,7 @@ msgctxt ""
 "par_id731585322689518\n"
 "help.text"
 msgid "Creates a specified file and returns a <literal>TextStream</literal> service instance that can be used to write to the file."
-msgstr ""
+msgstr "Vytvoří zadaný soubor a vrátí instanci služby <literal>TextStream</literal>, kterou lze použít k zápisu do tohoto souboru."
 
 #. YMZDA
 #: sf_filesystem.xhp
@@ -13937,7 +13937,7 @@ msgctxt ""
 "par_id821613001057759\n"
 "help.text"
 msgid "The method returns a <literal>Null</literal> object if an error occurred."
-msgstr ""
+msgstr "Nastane-li chyba, metoda vrátí objekt <literal>Null</literal>."
 
 #. 2NPVD
 #: sf_filesystem.xhp
@@ -13946,7 +13946,7 @@ msgctxt ""
 "par_id901585322689715\n"
 "help.text"
 msgid "<emph>filename</emph>: The name of the file to be created."
-msgstr ""
+msgstr "<emph>filename</emph>: Název souboru, který se má vytvořit."
 
 #. gEJA4
 #: sf_filesystem.xhp
@@ -13955,7 +13955,7 @@ msgctxt ""
 "par_id501585322689209\n"
 "help.text"
 msgid "<emph>overwrite</emph>: Boolean value that determines if <literal>filename</literal> can be overwritten (default = <literal>True</literal>)."
-msgstr ""
+msgstr "<emph>overwrite</emph>: Booleovská hodnota určující, zda je možné soubor <literal>filename</literal> přepsat (výchozí = <literal>True</literal>)."
 
 #. CkbhC
 #: sf_filesystem.xhp
@@ -13964,7 +13964,7 @@ msgctxt ""
 "par_id551585322689192\n"
 "help.text"
 msgid "<emph>encoding</emph>: The character set to be used. The default encoding is \"UTF-8\"."
-msgstr ""
+msgstr "<emph>encoding</emph>: Znaková sada, která se má použít. Výchozím kódováním je \"UTF-8\"."
 
 #. eoE92
 #: sf_filesystem.xhp
@@ -13973,7 +13973,7 @@ msgctxt ""
 "par_id141613001281573\n"
 "help.text"
 msgid "To learn more about the names of character sets, visit <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\" name=\"Character Sets\">IANA's Character Set</link> page. Beware that %PRODUCTNAME does not implement all existing character sets."
-msgstr ""
+msgstr "Podrobnosti o názvech znakových sad naleznete na stránce <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\" name=\"Znakové sady\">znakových sad IANA</link>. Mějte na paměti, že v %PRODUCTNAME nemusí být všechny znakové sady implementovány."
 
 #. DVGxr
 #: sf_filesystem.xhp
@@ -13982,7 +13982,7 @@ msgctxt ""
 "par_id11584882040881\n"
 "help.text"
 msgid "Deletes one or more files. Returns <literal>True</literal> if at least one file has been deleted or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Smaže jeden či více souborů. Vrátí <literal>True</literal>, pokud byl smazán alespoň jeden soubor, nebo <literal>False</literal>, nastane-li chyba."
 
 #. y69YZ
 #: sf_filesystem.xhp
@@ -13991,7 +13991,7 @@ msgctxt ""
 "par_id21612999775356\n"
 "help.text"
 msgid "An error will also occur if the <literal>filename</literal> parameter uses wildcard characters and does not match any files."
-msgstr ""
+msgstr "K chybě dojde i tehdy, jestliže parametr <literal>filename</literal> používá zástupné znaky, které neodpovídají žádnému souboru."
 
 #. TWJRd
 #: sf_filesystem.xhp
@@ -14000,7 +14000,7 @@ msgctxt ""
 "par_id21613001848493\n"
 "help.text"
 msgid "The files to be deleted must not be readonly."
-msgstr ""
+msgstr "Soubory, které se mají smazat, nesmí být pouze pro čtení."
 
 #. PEFBq
 #: sf_filesystem.xhp
@@ -14009,7 +14009,7 @@ msgctxt ""
 "par_id701612999808832\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Při výskytu chyby se metoda okamžitě ukončí. Přitom však nevrátí zpět žádné změny, které do té doby provede."
 
 #. DkCdk
 #: sf_filesystem.xhp
@@ -14018,7 +14018,7 @@ msgctxt ""
 "par_id441584882040860\n"
 "help.text"
 msgid "<emph>filename</emph>: It can be a <literal>FileName</literal> or a <literal>NamePattern</literal> indicating one or more files to be deleted."
-msgstr ""
+msgstr "<emph>filename</emph>: Jeden či více souborů, které se mají smazat, zadané jako <literal>FileName</literal> nebo <literal>NamePattern</literal>."
 
 #. FnaSi
 #: sf_filesystem.xhp
@@ -14027,7 +14027,7 @@ msgctxt ""
 "par_id851626217167909\n"
 "help.text"
 msgid "In the examples below only files are deleted, subfolders are not deleted."
-msgstr ""
+msgstr "V níže uvedených příkladech se smažou pouze soubory, podsložky smazány nejsou."
 
 #. c9ZCd
 #: sf_filesystem.xhp
@@ -14036,7 +14036,7 @@ msgctxt ""
 "par_id11584882015881\n"
 "help.text"
 msgid "Deletes one or more folders. Returns <literal>True</literal> if at least one folder has been deleted or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Smaže jednu či více složek. Vrátí <literal>True</literal>, pokud byla smazána alespoň jedna složka nebo <literal>False</literal>, nastane-li chyba."
 
 #. bGmGo
 #: sf_filesystem.xhp
@@ -14045,7 +14045,7 @@ msgctxt ""
 "par_id21612999775346\n"
 "help.text"
 msgid "An error will also occur if the <literal>foldername</literal> parameter uses wildcard characters and does not match any folders."
-msgstr ""
+msgstr "K chybě dojde i tehdy, jestliže parametr <literal>foldername</literal> používá zástupné znaky, které neodpovídají žádné složce."
 
 #. GsqDD
 #: sf_filesystem.xhp
@@ -14054,7 +14054,7 @@ msgctxt ""
 "par_id21613001848853\n"
 "help.text"
 msgid "The folders to be deleted must not be readonly."
-msgstr ""
+msgstr "Složky, které se mají smazat, nesmí být pouze pro čtení."
 
 #. kRSqe
 #: sf_filesystem.xhp
@@ -14063,7 +14063,7 @@ msgctxt ""
 "par_id701612999808842\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Při výskytu chyby se metoda okamžitě ukončí. Přitom však nevrátí zpět žádné změny, které do té doby provede."
 
 #. 7YCXM
 #: sf_filesystem.xhp
@@ -14072,7 +14072,7 @@ msgctxt ""
 "par_id451584882542247\n"
 "help.text"
 msgid "<emph>foldername</emph>: It can be a <literal>FolderName</literal> or a <literal>NamePattern</literal> indicating one or more folders to be deleted."
-msgstr ""
+msgstr "<emph>foldername</emph>: Jedna či více složek, které se mají smazat, zadané jako <literal>FolderName</literal> nebo <literal>NamePattern</literal>."
 
 #. cCnG9
 #: sf_filesystem.xhp
@@ -14081,7 +14081,7 @@ msgctxt ""
 "par_id651626217314709\n"
 "help.text"
 msgid "In the examples below only folders and their contents are deleted. Files in the parent folder \"C:\\Temp\" are not deleted."
-msgstr ""
+msgstr "V níže uvedených příkladech se smažou pouze složky a jejich obsah. Soubory v rodičovské složce \"C:\\Temp\" smazány nejsou."
 
 #. ZbyLn
 #: sf_filesystem.xhp
@@ -14090,7 +14090,7 @@ msgctxt ""
 "par_id161583764426709\n"
 "help.text"
 msgid "Returns <literal>True</literal> if a given file name is valid and exists, otherwise the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Vrátí <literal>True</literal>, pokud je zadaný název souboru platný a soubor existuje. V opačném případě metoda vrátí <literal>False</literal>."
 
 #. 7j5TN
 #: sf_filesystem.xhp
@@ -14099,7 +14099,7 @@ msgctxt ""
 "par_id91613003122613\n"
 "help.text"
 msgid "If the <literal>filename</literal> parameter is actually an existing folder name, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Jestliže je parametr <literal>filename</literal> názvem existující složky, metoda vrátí <literal>False</literal>."
 
 #. fr2Ei
 #: sf_filesystem.xhp
@@ -14108,7 +14108,7 @@ msgctxt ""
 "par_id361583764426547\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing the file to be tested."
-msgstr ""
+msgstr "<emph>filename</emph>: Řetězec představující soubor, který se má otestovat."
 
 #. ChDCL
 #: sf_filesystem.xhp
@@ -14117,7 +14117,7 @@ msgctxt ""
 "par_id11158394432779\n"
 "help.text"
 msgid "Returns a zero-based array of the files stored in a given folder. Each entry in the array is a string containing the full path and file name."
-msgstr ""
+msgstr "Vrátí pole začínající od 0 se soubory uloženými v zadané složce. Položkami pole jsou řetězce obsahující úplnou cestu a název souboru."
 
 #. JVjE3
 #: sf_filesystem.xhp
@@ -14126,7 +14126,7 @@ msgctxt ""
 "par_id641613003790120\n"
 "help.text"
 msgid "If the argument <literal>foldername</literal> specifies a folder that does not exist, an exception is raised."
-msgstr ""
+msgstr "Pokud argument <literal>foldername</literal> určuje složku, která neexistuje, je vyvolána výjimka."
 
 #. nFaPD
 #: sf_filesystem.xhp
@@ -14135,7 +14135,7 @@ msgctxt ""
 "par_id821613003779799\n"
 "help.text"
 msgid "The resulting list may be filtered with wildcards."
-msgstr ""
+msgstr "Výsledný seznam může být filtrován pomocí zástupných znaků."
 
 #. bq6vD
 #: sf_filesystem.xhp
@@ -14144,7 +14144,7 @@ msgctxt ""
 "par_id731583944543140\n"
 "help.text"
 msgid "<emph>foldername</emph>: A string representing a folder. The folder must exist. This argument must not designate a file."
-msgstr ""
+msgstr "<emph>foldername</emph>: Řetězec představující složku, která musí existovat. Tento argument nesmí označovat soubor."
 
 #. EM5cJ
 #: sf_filesystem.xhp
@@ -14153,7 +14153,7 @@ msgctxt ""
 "par_id591585648450060\n"
 "help.text"
 msgid "<emph>filter</emph>: A string containing wildcards (\"?\" and \"*\") that will be applied to the resulting list of files (default = \"\")."
-msgstr ""
+msgstr "<emph>filter</emph>: Řetězec obsahující zástupné znaky (\"?\" nebo \"*\"), které se použijí na výsledný seznam souborů (výchozí = \"\")."
 
 #. zG7ec
 #: sf_filesystem.xhp
@@ -14162,7 +14162,7 @@ msgctxt ""
 "par_id51583765642590\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the specified <literal>FolderName</literal> is valid and exists, otherwise the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Vrátí <literal>True</literal>, pokud je zadaný název složky <literal>FolderName</literal> platný a složka existuje. V opačném případě metoda vrátí <literal>False</literal>."
 
 #. 9xtCG
 #: sf_filesystem.xhp
@@ -14171,7 +14171,7 @@ msgctxt ""
 "par_id151613004111990\n"
 "help.text"
 msgid "If the <literal>foldername</literal> parameter is actually an existing file name, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Jestliže je parametr <literal>foldername</literal> názvem existujícího souboru, metoda vrátí <literal>False</literal>."
 
 #. qrf4A
 #: sf_filesystem.xhp
@@ -14180,7 +14180,7 @@ msgctxt ""
 "par_id1001583765642211\n"
 "help.text"
 msgid "<emph>foldername</emph>: A string representing the folder to be tested."
-msgstr ""
+msgstr "<emph>foldername</emph>: Řetězec představující složku, která se má otestovat."
 
 #. eAFVs
 #: sf_filesystem.xhp
@@ -14189,7 +14189,7 @@ msgctxt ""
 "par_id521584110618989\n"
 "help.text"
 msgid "Returns the <literal>BaseName</literal> (equal to the last component) of a folder or file name, without its extension."
-msgstr ""
+msgstr "Vrátí <literal>BaseName</literal> (poslední část) názvu složky nebo souboru bez přípony."
 
 #. YnBXv
 #: sf_filesystem.xhp
@@ -14198,7 +14198,7 @@ msgctxt ""
 "par_id731613004316790\n"
 "help.text"
 msgid "The method does not check if the specified file or folder exists."
-msgstr ""
+msgstr "Metoda nekontroluje, zda zadaný soubor či složka existuje."
 
 #. 3FPjB
 #: sf_filesystem.xhp
@@ -14207,7 +14207,7 @@ msgctxt ""
 "par_id691584110618308\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing the file name and its path."
-msgstr ""
+msgstr "<emph>filename</emph>: Řetězec představující název souboru včetně cesty."
 
 #. jwFaP
 #: sf_filesystem.xhp
@@ -14216,7 +14216,7 @@ msgctxt ""
 "par_id1001626271201609\n"
 "help.text"
 msgid "In the examples below, the first <literal>GetBaseName</literal> method call corresponds to a folder, so the function returns the last component of the path. The second call receives a file name as input, so the name of the file is returned without its extension."
-msgstr ""
+msgstr "V níže uvedených příkladech odpovídá první volání metody <literal>GetBaseName</literal> složce, funkce proto vrátí poslední část cesty. Vstupem do druhého volání je název souboru, vrátí se tudíž název soubory bez přípony."
 
 #. A56XC
 #: sf_filesystem.xhp
@@ -14225,7 +14225,7 @@ msgctxt ""
 "par_id831584032680866\n"
 "help.text"
 msgid "Returns the extension part of a file or folder name without the dot \".\" character."
-msgstr ""
+msgstr "Vrátí z názvu souboru nebo složky část s příponou bez znaku tečky \".\"."
 
 #. pdCJv
 #: sf_filesystem.xhp
@@ -14234,7 +14234,7 @@ msgctxt ""
 "par_id941613060736524\n"
 "help.text"
 msgid "The method does not check for the existence of the specified file or folder."
-msgstr ""
+msgstr "Metoda nekontroluje, zda zadaný soubor nebo složka existuje."
 
 #. Aqvwt
 #: sf_filesystem.xhp
@@ -14243,7 +14243,7 @@ msgctxt ""
 "par_id561613060896361\n"
 "help.text"
 msgid "If this method is applied to a folder name or to a file without an extension, then an empty string is returned."
-msgstr ""
+msgstr "Použije-li se tato metoda na název složky nebo název souboru bez přípony, vrátí se prázdný řetězec."
 
 #. NzK5z
 #: sf_filesystem.xhp
@@ -14252,7 +14252,7 @@ msgctxt ""
 "par_id821584032680311\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing the file name and its path."
-msgstr ""
+msgstr "<emph>filename</emph>: Řetězec představující název souboru včetně cesty."
 
 #. Am6Bu
 #: sf_filesystem.xhp
@@ -14261,7 +14261,7 @@ msgctxt ""
 "par_id48160068505010\n"
 "help.text"
 msgid "The builtin <literal>FileLen</literal> Basic function returns the number of bytes contained in a file as a <literal>Long</literal> value, i.e. up to 2GB."
-msgstr ""
+msgstr "Vestavěná funkce Basicu <literal>FileLen</literal> vrátí počet bajtů pro obsah souboru jako hodnotu typu <literal>Long</literal>, tj. maximálně 2 GB."
 
 #. 2FHpa
 #: sf_filesystem.xhp
@@ -14270,7 +14270,7 @@ msgctxt ""
 "par_id571613061005426\n"
 "help.text"
 msgid "The <literal>GetFileLen</literal> method can handle files with much larger sizes by returning a <literal>Currency</literal> value."
-msgstr ""
+msgstr "Metodou <literal>GetFileLen</literal> lze zpracovat značně větší soubory díky tomu, že se vrátí hodnoty typu <literal>Currency</literal>."
 
 #. PK2Fo
 #: sf_filesystem.xhp
@@ -14279,7 +14279,7 @@ msgctxt ""
 "par_id161600685050367\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing an existing file."
-msgstr ""
+msgstr "<emph>filename</emph>: Řetězec představující existující soubor."
 
 #. o2GGJ
 #: sf_filesystem.xhp
@@ -14288,7 +14288,7 @@ msgctxt ""
 "par_id191584811478936\n"
 "help.text"
 msgid "Returns the last modified date of a given file."
-msgstr ""
+msgstr "Vrátí pro zadaný soubor datum poslední změny."
 
 #. VMB4i
 #: sf_filesystem.xhp
@@ -14297,7 +14297,7 @@ msgctxt ""
 "par_id25158481147822\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing an existing file."
-msgstr ""
+msgstr "<emph>filename</emph>: Řetězec představující existující soubor."
 
 #. VEZR6
 #: sf_filesystem.xhp
@@ -14306,7 +14306,7 @@ msgctxt ""
 "par_id711584032366587\n"
 "help.text"
 msgid "Returns the last component of a file or folder name in native operating system format."
-msgstr ""
+msgstr "Vrátí poslední část názvu souboru či složky v nativním formátu operačního systému."
 
 #. 4vAvz
 #: sf_filesystem.xhp
@@ -14315,7 +14315,7 @@ msgctxt ""
 "par_id541613061300811\n"
 "help.text"
 msgid "The method does not check if the specified file or folder exists."
-msgstr ""
+msgstr "Metoda nekontroluje, zda zadaný soubor či složka existuje."
 
 #. iajZD
 #: sf_filesystem.xhp
@@ -14324,7 +14324,7 @@ msgctxt ""
 "par_id671584032366193\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing the file name and its path."
-msgstr ""
+msgstr "<emph>filename</emph>: Řetězec představující název souboru včetně cesty."
 
 #. ffxFe
 #: sf_filesystem.xhp
@@ -14333,7 +14333,7 @@ msgctxt ""
 "par_id871584113432747\n"
 "help.text"
 msgid "Returns a string containing the name of the parent folder of a specified file or folder name."
-msgstr ""
+msgstr "Vrátí řetězec představující název rodičovské složky zadaného souboru nebo název složky."
 
 #. 2eBgA
 #: sf_filesystem.xhp
@@ -14342,7 +14342,7 @@ msgctxt ""
 "par_id611613061603039\n"
 "help.text"
 msgid "The method does not check if the specified file or folder exists."
-msgstr ""
+msgstr "Metoda nekontroluje, zda zadaný soubor či složka existuje."
 
 #. YUAQ3
 #: sf_filesystem.xhp
@@ -14351,7 +14351,7 @@ msgctxt ""
 "par_id471584113432231\n"
 "help.text"
 msgid "<emph>filename</emph>: A string with the file or folder name to be analyzed."
-msgstr ""
+msgstr "<emph>filename</emph>: Řetězec s názvem analyzovaného souboru nebo složky."
 
 #. Uc93M
 #: sf_filesystem.xhp
@@ -14360,7 +14360,7 @@ msgctxt ""
 "par_id82158385117289\n"
 "help.text"
 msgid "Returns a randomly generated temporary file name that is useful for performing operations that require a temporary file."
-msgstr ""
+msgstr "Vrátí náhodně generovaný název souboru, použitelný pro operace, které vyžadují dočasný soubor."
 
 #. FS3qq
 #: sf_filesystem.xhp
@@ -14369,7 +14369,7 @@ msgctxt ""
 "par_id391613061770924\n"
 "help.text"
 msgid "The returned file name does not have any suffix. The folder part of the returned string is the system's temporary folder."
-msgstr ""
+msgstr "Vrácený název souboru neobsahuje příponu. Složka vráceného řetězce odpovídá systémové složce s dočasnými soubory."
 
 #. W7gF7
 #: sf_filesystem.xhp
@@ -14378,7 +14378,7 @@ msgctxt ""
 "par_id971613061774934\n"
 "help.text"
 msgid "The method does not create the temporary file."
-msgstr ""
+msgstr "Metoda dočasný soubor nevytvoří."
 
 #. ch2AJ
 #: sf_filesystem.xhp
@@ -14387,7 +14387,7 @@ msgctxt ""
 "par_id58160104251423\n"
 "help.text"
 msgid "Hash functions are used by some cryptographic algorithms, in digital signatures, message authentication codes, fraud detection, fingerprints, checksums (message integrity check), hash tables, password storage and much more."
-msgstr ""
+msgstr "Hashovací funkce se používají u některých kryptografických algoritmů, elektronických podpisů, autentizačních kódů, detekování podvodů, otisků (fingerprints), kontrolních součtů (kontrolách integrity zpráv), hashovacích tabulek, ukládání hesel apod."
 
 #. qxDnP
 #: sf_filesystem.xhp
@@ -14396,7 +14396,7 @@ msgctxt ""
 "par_id301601042791356\n"
 "help.text"
 msgid "The <literal>HashFile</literal> method returns the result of a hash function, applied on a given file and using a specified algorithm. The returned value is a string of lower-case hexadecimal digits."
-msgstr ""
+msgstr "Metoda <literal>HashFile</literal> vrátí výsledek hashovací funkce použité s daným algoritmem na zadaný soubor. Návratovou hodnotou je řetězec složený z malých šestnáctkových číslic."
 
 #. eAW33
 #: sf_filesystem.xhp
@@ -14405,7 +14405,7 @@ msgctxt ""
 "par_id861601043268484\n"
 "help.text"
 msgid "The hash algorithms supported are: <literal>MD5</literal>, <literal>SHA1</literal>, <literal>SHA224</literal>, <literal>SHA256</literal>, <literal>SHA384</literal> and <literal>SHA512</literal>."
-msgstr ""
+msgstr "Podporovanými hashovacími algoritmy jsou: <literal>MD5</literal>, <literal>SHA1</literal>, <literal>SHA224</literal>, <literal>SHA256</literal>, <literal>SHA384</literal> a <literal>SHA512</literal>."
 
 #. s5ZiA
 #: sf_filesystem.xhp
@@ -14414,7 +14414,7 @@ msgctxt ""
 "par_id28160104251451\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing an existing file."
-msgstr ""
+msgstr "<emph>filename</emph>: Řetězec představující existující soubor."
 
 #. Eomhm
 #: sf_filesystem.xhp
@@ -14423,7 +14423,7 @@ msgctxt ""
 "par_id71601042959846\n"
 "help.text"
 msgid "<emph>algorithm</emph>: One of the supported algorithms."
-msgstr ""
+msgstr "<emph>algorithm</emph>: Některý z podporovaných algoritmů."
 
 #. HzFs2
 #: sf_filesystem.xhp
@@ -14432,7 +14432,7 @@ msgctxt ""
 "par_id51584791330688\n"
 "help.text"
 msgid "Moves one or more files from one location to another. Returns <literal>True</literal> if at least one file has been moved or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Přesune jeden či více souborů z jednoho umístění na jiné. Vrátí <literal>True</literal>, pokud byl přesunut alespoň jeden soubor, nebo <literal>False</literal>, nastane-li chyba."
 
 #. RFrNE
 #: sf_filesystem.xhp
@@ -14441,7 +14441,7 @@ msgctxt ""
 "par_id631613062890648\n"
 "help.text"
 msgid "An error will also occur if the <literal>source</literal> parameter uses wildcard characters and does not match any files."
-msgstr ""
+msgstr "K chybě dojde i tehdy, jestliže parametr <literal>source</literal> používá zástupné znaky, které neodpovídají žádnému souboru."
 
 #. ETmEP
 #: sf_filesystem.xhp
@@ -14450,7 +14450,7 @@ msgctxt ""
 "par_id241613062902777\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Při výskytu chyby se metoda okamžitě ukončí. Přitom však nevrátí zpět žádné změny, které do té doby provede."
 
 #. DbC6F
 #: sf_filesystem.xhp
@@ -14459,7 +14459,7 @@ msgctxt ""
 "par_id721584791330406\n"
 "help.text"
 msgid "<emph>source</emph>: It can be a <literal>FileName</literal> or <literal>NamePattern</literal> to designate one or more files to be moved."
-msgstr ""
+msgstr "<emph>source</emph>: Jeden či více souborů, které se mají přesunout, zadané jako <literal>FileName</literal> nebo <literal>NamePattern</literal>."
 
 #. BHa7Y
 #: sf_filesystem.xhp
@@ -14468,7 +14468,7 @@ msgctxt ""
 "par_id291584791330181\n"
 "help.text"
 msgid "<emph>destination</emph>: If <literal>source</literal> is a <literal>FileName</literal> then this parameter indicates the new path and file name of the moved file."
-msgstr ""
+msgstr "<emph>destination</emph>: Pokud je argument <literal>source</literal> zadán jako <literal>FileName</literal>, potom značí novou cestu a název přesunutého souboru."
 
 #. ZzA3Y
 #: sf_filesystem.xhp
@@ -14477,7 +14477,7 @@ msgctxt ""
 "par_id31613063334246\n"
 "help.text"
 msgid "If the move operation involves multiple files, then <literal>destination</literal> must be a folder name. If it does not exist, it is created."
-msgstr ""
+msgstr "Pokud se má přesunout více souborů, musí být argument <literal>destination</literal> názvem složky. Jestliže tato složka neexistuje, vytvoří se."
 
 #. 39oR8
 #: sf_filesystem.xhp
@@ -14486,7 +14486,7 @@ msgctxt ""
 "par_id391613063494599\n"
 "help.text"
 msgid "If <literal>source</literal> and <literal>destination</literal> have the same parent folder, the method will rename the <literal>source</literal>."
-msgstr ""
+msgstr "Mají-li <literal>source</literal> a <literal>destination</literal> stejnou rodičovskou složku, metoda soubor argument <literal>source</literal> přejmenuje."
 
 #. 7bzK4
 #: sf_filesystem.xhp
@@ -14495,7 +14495,7 @@ msgctxt ""
 "par_id941613063476533\n"
 "help.text"
 msgid "Wildcard characters are not allowed in <literal>destination</literal>."
-msgstr ""
+msgstr "V argumentu <literal>destination</literal> nejsou povoleny zástupné znaky."
 
 #. Bysqd
 #: sf_filesystem.xhp
@@ -14504,7 +14504,7 @@ msgctxt ""
 "par_id91626272612758\n"
 "help.text"
 msgid "In the following examples only files are moved, subfolders are not."
-msgstr ""
+msgstr "V následujících příkladech jsou přesunuty pouze soubory, nikoliv složky."
 
 #. iYBMe
 #: sf_filesystem.xhp
@@ -14513,7 +14513,7 @@ msgctxt ""
 "par_id301584791330868\n"
 "help.text"
 msgid "Moves one or more folders from one location to another. Returns <literal>True</literal> if at least one folder has been moved or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Přesune jednu či více složek z jednoho umístění na jiné. Vrátí <literal>True</literal>, pokud byla přesunuta alespoň jedna složka, nebo <literal>False</literal>, nastane-li chyba."
 
 #. RHjYG
 #: sf_filesystem.xhp
@@ -14522,7 +14522,7 @@ msgctxt ""
 "par_id411613072570664\n"
 "help.text"
 msgid "An error will also occur if the <literal>source</literal> parameter uses wildcard characters and does not match any folders."
-msgstr ""
+msgstr "K chybě dojde i tehdy, jestliže parametr <literal>source</literal> používá zástupné znaky, které neodpovídají žádné složce."
 
 #. F2DaD
 #: sf_filesystem.xhp
@@ -14531,7 +14531,7 @@ msgctxt ""
 "par_id601613072595264\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Při výskytu chyby se metoda okamžitě ukončí. Přitom však nevrátí zpět žádné změny, které do té doby provede."
 
 #. xVGBy
 #: sf_filesystem.xhp
@@ -14540,7 +14540,7 @@ msgctxt ""
 "par_id541584791330777\n"
 "help.text"
 msgid "<emph>source</emph>: It can be a <literal>FolderName</literal> or <literal>NamePattern</literal> to designate one or more folders to be moved."
-msgstr ""
+msgstr "<emph>source</emph>: Jedna či více složek, které se mají přesunout, zadané jako <literal>FolderName</literal> nebo <literal>NamePattern</literal>."
 
 #. 4Ampu
 #: sf_filesystem.xhp
@@ -14549,7 +14549,7 @@ msgctxt ""
 "par_id551584791330279\n"
 "help.text"
 msgid "<emph>destination</emph>: If the move operation involves a single folder, then <literal>destination</literal> is the name and path of the moved folder and it must not exist."
-msgstr ""
+msgstr "<emph>destination</emph>: Pokud se má přesunout jediná složka, je argument <literal>destination</literal> názvem a cestou přesunuté složky. Tato složka nesmí existovat."
 
 #. dD7SB
 #: sf_filesystem.xhp
@@ -14558,7 +14558,7 @@ msgctxt ""
 "par_id11613072890641\n"
 "help.text"
 msgid "If multiple folders are being moved, then <literal>destination</literal> designates where the folders in <literal>source</literal> will be moved into. If <literal>destination</literal> does not exist, it is created."
-msgstr ""
+msgstr "Má-li se přesunout více složek, značí argument <literal>destination</literal> umístění, na nějž se složky z argumentu <literal>source</literal> přesunou. Pokud složka <literal>destination</literal> neexistuje, vytvoří se."
 
 #. A69QS
 #: sf_filesystem.xhp
@@ -14567,7 +14567,7 @@ msgctxt ""
 "par_id301613072928159\n"
 "help.text"
 msgid "Wildcard characters are not allowed in <literal>destination</literal>."
-msgstr ""
+msgstr "V argumentu <literal>destination</literal> nejsou povoleny zástupné znaky."
 
 #. JNTia
 #: sf_filesystem.xhp
@@ -14576,7 +14576,7 @@ msgctxt ""
 "par_id121585320922117\n"
 "help.text"
 msgid "Opens a file and returns a <literal>TextStream</literal> object that can be used to read from, write to, or append to the file."
-msgstr ""
+msgstr "Otevře soubor a vrátí objekt <literal>TextStream</literal>, který lze použít pro čtení ze souboru, zápis do něj nebo zápis do něj v režimu přidávání."
 
 #. ePMpQ
 #: sf_filesystem.xhp
@@ -14585,7 +14585,7 @@ msgctxt ""
 "par_id591613073104711\n"
 "help.text"
 msgid "Note that the method does not check if the given file is really a text file."
-msgstr ""
+msgstr "Metoda nekontroluje, zda se jedná o textový soubor."
 
 #. SGJCd
 #: sf_filesystem.xhp
@@ -14594,7 +14594,7 @@ msgctxt ""
 "par_id951613073135036\n"
 "help.text"
 msgid "The method returns a <literal>Null</literal> object (in Basic) or <literal>None</literal> (in Python) if an error occurred."
-msgstr ""
+msgstr "Nastane-li chyba, vrátí metoda objekt <literal>Null</literal> (v Basicu) nebo <literal>None</literal> (v Pythonu)."
 
 #. mxuwo
 #: sf_filesystem.xhp
@@ -14603,7 +14603,7 @@ msgctxt ""
 "par_id551585320922678\n"
 "help.text"
 msgid "<emph>filename</emph>: Identifies the file to open."
-msgstr ""
+msgstr "<emph>filename</emph>: Určuje soubor, který se má otevřít."
 
 #. tsRLR
 #: sf_filesystem.xhp
@@ -14612,7 +14612,7 @@ msgctxt ""
 "par_id671585320922388\n"
 "help.text"
 msgid "<emph>iomode</emph>: Indicates the input/output mode. It can be one of three constants: <literal>svc.ForReading</literal> (default), <literal>svc.ForWriting</literal>, or <literal>svc.ForAppending</literal>."
-msgstr ""
+msgstr "<emph>iomode</emph>: Značí režim vstupu/výstupu. Může se jednat o některou ze tří konstant: <literal>svc.ForReading</literal> (výchozí), <literal>svc.ForWriting</literal> a <literal>svc.ForAppending</literal>."
 
 #. z27vT
 #: sf_filesystem.xhp
@@ -14621,7 +14621,7 @@ msgctxt ""
 "par_id21585321398586\n"
 "help.text"
 msgid "<emph>create</emph>: Boolean value that indicates whether a new file can be created if the specified <literal>filename</literal> doesn't exist:"
-msgstr ""
+msgstr "<emph>create</emph>: Booleovská hodnota určující, zda může být vytvořen nový soubor, pokud zadaný soubor <literal>filename</literal> neexistuje:"
 
 #. VDFAi
 #: sf_filesystem.xhp
@@ -14630,7 +14630,7 @@ msgctxt ""
 "par_id721613073434797\n"
 "help.text"
 msgid "If <literal>True</literal> a new file and its parent folders will be created if they do not exist;"
-msgstr ""
+msgstr "Je-li <literal>True</literal>, nový soubor a jeho rodičovské složky se vytvoří."
 
 #. EypVC
 #: sf_filesystem.xhp
@@ -14639,7 +14639,7 @@ msgctxt ""
 "par_id201613073469289\n"
 "help.text"
 msgid "If <literal>False</literal> then new files are not created (default)."
-msgstr ""
+msgstr "Je-li <literal>False</literal>, nové soubory se nevytvoří (výchozí)."
 
 #. wjGYH
 #: sf_filesystem.xhp
@@ -14648,7 +14648,7 @@ msgctxt ""
 "par_id771585321576210\n"
 "help.text"
 msgid "<emph>encoding</emph>: The character set to be used. The default encoding is \"UTF-8\"."
-msgstr ""
+msgstr "<emph>encoding</emph>: Znaková sada, která se má použít. Výchozím kódováním je \"UTF-8\"."
 
 #. FuYwe
 #: sf_filesystem.xhp
@@ -14657,7 +14657,7 @@ msgctxt ""
 "par_id871583670342501\n"
 "help.text"
 msgid "Opens a dialog box to open or save files."
-msgstr ""
+msgstr "Otevře dialogové okno pro otevření nebo uložení souborů."
 
 #. SjDBv
 #: sf_filesystem.xhp
@@ -14666,7 +14666,7 @@ msgctxt ""
 "par_id881613074436979\n"
 "help.text"
 msgid "If the <literal>SAVE</literal> mode is set and the picked file exists, a warning message will be displayed."
-msgstr ""
+msgstr "Pokud je nastaven režim <literal>SAVE</literal> a vybraný soubor již existuje, zobrazí se zpráva s upozorněním."
 
 #. YgsLZ
 #: sf_filesystem.xhp
@@ -14675,7 +14675,7 @@ msgctxt ""
 "par_id481583670342502\n"
 "help.text"
 msgid "<emph>defaultfile</emph>: This argument is a string composed of a folder and file name:"
-msgstr ""
+msgstr "<emph>defaultfile</emph>: Řetězec složený z názvu složky a souboru:"
 
 #. fyVCs
 #: sf_filesystem.xhp
@@ -14684,7 +14684,7 @@ msgctxt ""
 "par_id511613074665951\n"
 "help.text"
 msgid "The folder part indicates the folder that will be shown when the dialog opens (default = the last selected folder)."
-msgstr ""
+msgstr "Část se složkou určuje složku, která se zobrazí po otevření dialogového okna (výchozí = naposledy vybraná složka)."
 
 #. xs5hU
 #: sf_filesystem.xhp
@@ -14693,7 +14693,7 @@ msgctxt ""
 "par_id631613074685308\n"
 "help.text"
 msgid "The file part designates the default file to open or save."
-msgstr ""
+msgstr "Část se souborem značí výchozí soubor, který se má otevřít či uložit."
 
 #. fBHyg
 #: sf_filesystem.xhp
@@ -14702,7 +14702,7 @@ msgctxt ""
 "par_id981583670342502\n"
 "help.text"
 msgid "<emph>mode</emph>: A string value that can be either \"OPEN\" (for input files) or \"SAVE\" (for output files). The default value is \"OPEN\"."
-msgstr ""
+msgstr "<emph>mode</emph>: Řetězec, jehož hodnota je buď \"OPEN\" (pro vstupní soubory), nebo \"SAVE\" (pro výstupní soubory). Výchozí hodnotou je \"OPEN\"."
 
 #. uvwDP
 #: sf_filesystem.xhp
@@ -14711,7 +14711,7 @@ msgctxt ""
 "par_id31583670342502\n"
 "help.text"
 msgid "<emph>filter</emph>: The extension of the files displayed when the dialog is opened (default = no filter)."
-msgstr ""
+msgstr "<emph>filter</emph>: Přípona souborů zobrazených po otevření dialogového okna (výchozí = bez filtru)."
 
 #. niaGR
 #: sf_filesystem.xhp
@@ -14720,7 +14720,7 @@ msgctxt ""
 "par_id881626276134300\n"
 "help.text"
 msgid "The examples below open a file picker with the \"txt\" filter applied."
-msgstr ""
+msgstr "V níže uvedených příkladech je otevřen výběr souboru s filtrem pro příponu \"txt\"."
 
 #. HkwaR
 #: sf_filesystem.xhp
@@ -14729,7 +14729,7 @@ msgctxt ""
 "par_id521583671701777\n"
 "help.text"
 msgid "Opens a dialog box to select a folder."
-msgstr ""
+msgstr "Otevře dialogové okno pro výběr složky."
 
 #. mG6QD
 #: sf_filesystem.xhp
@@ -14738,7 +14738,7 @@ msgctxt ""
 "par_id951583671701872\n"
 "help.text"
 msgid "<emph>defaultfolder</emph>: A string containing the folder name that will be displayed when the dialog is opened (default = the last selected folder)."
-msgstr ""
+msgstr "<emph>defaultfolder</emph>: Řetězec obsahující název složky zobrazené po otevření dialogového okna (výchozí = naposledy vybraná složka)."
 
 #. ymABK
 #: sf_filesystem.xhp
@@ -14747,7 +14747,7 @@ msgctxt ""
 "par_id821583671701764\n"
 "help.text"
 msgid "<emph>freetext</emph>: Text to display in the dialog (default = \"\")."
-msgstr ""
+msgstr "<emph>freetext</emph>: Text zobrazený v okně (výchozí = \"\")."
 
 #. 4FFby
 #: sf_filesystem.xhp
@@ -14756,7 +14756,7 @@ msgctxt ""
 "bas_id921583671701610\n"
 "help.text"
 msgid "aFolder = FSO.PickFolder(\"C:\\Documents\", \"Choose a folder or press Cancel\")"
-msgstr ""
+msgstr "aFolder = FSO.PickFolder(\"C:\\Dokumenty\", \"Zvolte složku nebo stiskněte Zrušit\")"
 
 #. ENDba
 #: sf_filesystem.xhp
@@ -14765,7 +14765,7 @@ msgctxt ""
 "pyc_id631626276402296\n"
 "help.text"
 msgid "aFolder = fso.PickFolder(r\"C:\\Documents\", \"Choose a folder or press Cancel\")"
-msgstr ""
+msgstr "aFolder = fso.PickFolder(r\"C:\\Dokumenty\", \"Zvolte složku nebo stiskněte Zrušit\")"
 
 #. xdfBh
 #: sf_filesystem.xhp
@@ -14774,7 +14774,7 @@ msgctxt ""
 "par_id431584016761996\n"
 "help.text"
 msgid "Returns a zero-based array of strings corresponding to the folders stored in a given <literal>foldername</literal>."
-msgstr ""
+msgstr "Vrátí pole začínající od 0 s řetězci, které odpovídají složkám uloženým na zadaném umístění <literal>foldername</literal>."
 
 #. LVNZq
 #: sf_filesystem.xhp
@@ -14783,7 +14783,7 @@ msgctxt ""
 "par_id431613075267241\n"
 "help.text"
 msgid "The list may be filtered with wildcards."
-msgstr ""
+msgstr "Seznam může být filtrován pomocí zástupných znaků."
 
 #. 7pDiA
 #: sf_filesystem.xhp
@@ -14792,7 +14792,7 @@ msgctxt ""
 "par_id701584016761945\n"
 "help.text"
 msgid "<emph>foldername</emph>: A string representing a folder. The folder must exist. <literal>foldername</literal> must not designate a file."
-msgstr ""
+msgstr "<emph>foldername</emph>: Řetězec představující složku, která musí existovat. Tento argument nesmí označovat soubor."
 
 #. Xmg8b
 #: sf_filesystem.xhp
@@ -14801,7 +14801,7 @@ msgctxt ""
 "par_id471585648674921\n"
 "help.text"
 msgid "<emph>filter</emph>: A string containing wildcards (\"?\" and \"*\") that will be applied to the resulting list of folders (default = \"\")."
-msgstr ""
+msgstr "<emph>filter</emph>: Řetězec obsahující zástupné znaky (\"?\" nebo \"*\"), které se použijí na výsledný seznam složek (výchozí = \"\")."
 
 #. XQG8t
 #: sf_form.xhp
@@ -14810,7 +14810,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.Form service"
-msgstr ""
+msgstr "Služba SFDocuments.Form"
 
 #. kanuY
 #: sf_form.xhp
@@ -14819,7 +14819,7 @@ msgctxt ""
 "bm_id781582391760253\n"
 "help.text"
 msgid "<variable id=\"FormService\"><link href=\"text/sbasic/shared/03/sf_form.xhp\" name=\"SFDocuments.Form\"><literal>SFDocuments</literal>.<literal>Form</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"FormService\"><link href=\"text/sbasic/shared/03/sf_form.xhp\" name=\"SFDocuments.Form\">Služba <literal>SFDocuments</literal>.<literal>Form</literal></link></variable>"
 
 #. LDpRB
 #: sf_form.xhp
@@ -14828,7 +14828,7 @@ msgctxt ""
 "par_id931583589764919\n"
 "help.text"
 msgid "The <literal>Form</literal> service provides methods and properties to manage forms in %PRODUCTNAME documents. This service supports forms in Base, Calc and Writer documents and allows to:"
-msgstr ""
+msgstr "Služba <literal>Form</literal> nabízí metody a vlastnosti pro správu formulářů v dokumentech %PRODUCTNAME. Podporuje formuláře v aplikacích Base, Calc a Writer a umožňuje:"
 
 #. U3zGB
 #: sf_form.xhp
@@ -14837,7 +14837,7 @@ msgctxt ""
 "par_id381618172063851\n"
 "help.text"
 msgid "Open and activate forms."
-msgstr ""
+msgstr "Otevírat a aktivovat formuláře."
 
 #. SC6Yb
 #: sf_form.xhp
@@ -14846,7 +14846,7 @@ msgctxt ""
 "par_id261618172129782\n"
 "help.text"
 msgid "Navigate through records shown by the form."
-msgstr ""
+msgstr "Navigovat mezi záznamy zobrazenými ve formuláři."
 
 #. krQfB
 #: sf_form.xhp
@@ -14855,7 +14855,7 @@ msgctxt ""
 "par_id281618172141607\n"
 "help.text"
 msgid "Get access to the controls inside the form."
-msgstr ""
+msgstr "Přistupovat k ovládacím prvkům formuláře."
 
 #. itKdZ
 #: sf_form.xhp
@@ -14864,7 +14864,7 @@ msgctxt ""
 "par_id371618172155483\n"
 "help.text"
 msgid "Get access to subforms of a parent form."
-msgstr ""
+msgstr "Přistupovat k podformulářům rodičovského formuláře."
 
 #. QcJ24
 #: sf_form.xhp
@@ -14873,7 +14873,7 @@ msgctxt ""
 "par_id351616768789190\n"
 "help.text"
 msgid "The <literal>SFDocuments</literal>.<literal>Form</literal> service is available from %PRODUCTNAME 7.2 onwards."
-msgstr ""
+msgstr "Služba <literal>SFDocuments</literal>.<literal>Form</literal> je k dispozici od verze %PRODUCTNAME 7.2."
 
 #. Ga5NU
 #: sf_form.xhp
@@ -14882,7 +14882,7 @@ msgctxt ""
 "par_id451616765867881\n"
 "help.text"
 msgid "Forms are usually used in %PRODUCTNAME documents to create user interfaces connected to relational databases. Hence, the <literal>Form</literal> service provides quick access to the linked database through the <link href=\"text/sbasic/shared/03/sf_database.xhp\" name=\"SFDatabases.Database\"><literal>SFDatabases</literal>.<literal>Database</literal> service</link>."
-msgstr ""
+msgstr "Formuláře se v dokumentech %PRODUCTNAME často využívají pro vytvoření uživatelského rozhraní propojeného s relační databází. Služba <literal>Form</literal> tak umožňuje rychlý přístup k odkazované databázi prostřednictvím <link href=\"text/sbasic/shared/03/sf_database.xhp\" name=\"SFDatabases.Database\">služby <literal>SFDatabases</literal>.<literal>Database</literal></link>."
 
 #. rGB5M
 #: sf_form.xhp
@@ -14891,7 +14891,7 @@ msgctxt ""
 "par_id891598188164936\n"
 "help.text"
 msgid "The <literal>SFDocuments</literal>.<literal>Form</literal> service is closely related to the <link href=\"text/sbasic/shared/03/sf_formcontrol.xhp\" name=\"SFDocuments.FormControl\"><literal>SFDocuments</literal>.<literal>FormControl</literal> service.</link>"
-msgstr ""
+msgstr "Služba <literal>SFDocuments</literal>.<literal>Form</literal> úzce souvisí se <link href=\"text/sbasic/shared/03/sf_formcontrol.xhp\" name=\"SFDocuments.FormControl\">službou <literal>SFDocuments</literal>.<literal>FormControl</literal>.</link>"
 
 #. 3HUmh
 #: sf_form.xhp
@@ -14900,7 +14900,7 @@ msgctxt ""
 "hd_id161616766330804\n"
 "help.text"
 msgid "Definitions"
-msgstr ""
+msgstr "Definice"
 
 #. GYDbT
 #: sf_form.xhp
@@ -14909,7 +14909,7 @@ msgctxt ""
 "par_id951618172906010\n"
 "help.text"
 msgid "Forms are usually created in Base documents, but they can be added to Writer and Calc documents as well."
-msgstr ""
+msgstr "Formuláře jsou zpravidla vytvářeny v dokumentech aplikace Base, je ale možné je přidat rovněž do dokumentů Writeru nebo Calcu."
 
 #. nKUdb
 #: sf_form.xhp
