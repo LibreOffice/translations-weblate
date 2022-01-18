@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-17 11:38+0000\n"
+"PO-Revision-Date: 2022-01-18 12:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -14918,7 +14918,7 @@ msgctxt ""
 "par_id671618173380680\n"
 "help.text"
 msgid "In Base, each form you create using the <menuitem>Insert - Form</menuitem>  functionality or through the <link href=\"text/shared/autopi/01090000.xhp\" name=\"FormWizard\">Form Wizard</link> is actually a <literal>FormDocument</literal> that can be handled with the <literal>Form</literal> service. Base documents can contain an unlimited number of form documents."
-msgstr ""
+msgstr "V aplikaci Base je každý formulář vytvořený funkcí <menuitem>Vložit - Formulář</menuitem> nebo <link href=\"text/shared/autopi/01090000.xhp\" name=\"Průvodce formulářem\">Průvodcem formulářem</link> vlastně objektem <literal>FormDocument</literal>, se kterým lze zacházet pomocí služby <literal>Form</literal>. Dokumenty v Base mohou obsahovat neomezený počet takových dokumentů formulářů."
 
 #. kegBD
 #: sf_form.xhp
@@ -14927,7 +14927,7 @@ msgctxt ""
 "par_id841618177362626\n"
 "help.text"
 msgid "Below is an example showing the hierarchy of all the elements involved in accessing forms and subforms in a Base document. Suppose you have a Base file named <literal>Employees.odb</literal> and inside it you created a form document to add new employees to the database. The form document contains a main form named <literal>EmployeeData</literal> that gives access to a table. There is also a subform <literal>WorksAtPlant</literal> that allows you to associate the new employee to one of the plants of the company."
-msgstr ""
+msgstr "Níže je uveden příklad zobrazující hierarchii všech prvků, kterých se týká přístup k formulářům a podformulářům v dokumentu Base. Předpokládejme, že máte v Base soubor pojmenovaný <literal>Employees.odb</literal> a v něm jste vytvořili dokument formulářů, kterým se do databáze přidávají noví zaměstnanci. Tento dokument formulářů obsahuje hlavní formulář pojmenovaný <literal>EmployeeData</literal> umožňující přistupovat do tabulky databáze. Existuje také podformulář <literal>WorksAtPlant</literal>, pomocí něhož přiřadíte nového zaměstnance do jedné z provozoven společnosti."
 
 #. izkiB
 #: sf_form.xhp
@@ -14936,7 +14936,7 @@ msgctxt ""
 "bas_id151618176848874\n"
 "help.text"
 msgid "Employees.odb (Base document)"
-msgstr ""
+msgstr "Employees.odb (dokument Base)"
 
 #. cz2fJ
 #: sf_form.xhp
@@ -14945,7 +14945,7 @@ msgctxt ""
 "bas_id941618176869485\n"
 "help.text"
 msgid "|-- EmployeeData (Main Form)"
-msgstr ""
+msgstr "|-- EmployeeData (hlavní formulář)"
 
 #. k8nxK
 #: sf_form.xhp
@@ -14954,7 +14954,7 @@ msgctxt ""
 "par_id221618173444457\n"
 "help.text"
 msgid "A <literal>FormDocument</literal> can be seen as a set of forms that provide access to datasets such as database tables and queries from within %PRODUCTNAME documents. The names of forms and subforms inside a FormDocument can be accessed using the <link href=\"text/shared/02/01170600.xhp\" name=\"FormNavigator\">Form Navigator</link>."
-msgstr ""
+msgstr "Na objekt <literal>FormDocument</literal> lze nahlížet jako na sadu formulářů, které poskytují z dokumentů %PRODUCTNAME přístup k datovým sadám, jako jsou databázové tabulky nebo dotazy. Názvy formulářů a podformulářů v objektu FormDocument je možné zjistit v <link href=\"text/shared/02/01170600.xhp\" name=\"Navigátor formulářem\">Navigátoru formulářem</link>."
 
 #. AMFVt
 #: sf_form.xhp
@@ -14963,7 +14963,7 @@ msgctxt ""
 "hd_id851616767037521\n"
 "help.text"
 msgid "Forms and Subforms"
-msgstr ""
+msgstr "Formuláře a podformuláře"
 
 #. GA63u
 #: sf_form.xhp
@@ -14972,7 +14972,7 @@ msgctxt ""
 "par_id681616767265034\n"
 "help.text"
 msgid "A form document is composed of one or more forms which, in turn, may also contain any number of subforms. A Form is an abstract set of controls that are linked to a specified data source, which can be a database table, a query or a SQL <literal>SELECT</literal> statement."
-msgstr ""
+msgstr "Dokument formulářů se skládá z jednoho či více formulářů, které mohou obsahovat libovolný počet podformulářů. Objekt Form je abstraktní sada ovládacích prvků, které jsou propojeny s určitým zdrojem dat, kterým může být databázová tabulka, dotaz nebo SQL příkaz <literal>SELECT</literal>."
 
 #. fDvBD
 #: sf_form.xhp
@@ -14981,7 +14981,7 @@ msgctxt ""
 "par_id711618178831976\n"
 "help.text"
 msgid "In Calc and Writer documents, each form can be linked to datasets located in different databases. On the other hand, in Base documents the database contained in the document is common to all forms."
-msgstr ""
+msgstr "V dokumentech Calcu a Writeru je možné propojit každý formulář s datovou sadou v jiné databázi. Naproti tomu databáze obsažená v dokumentu Base je společná pro všechny formuláře."
 
 #. wDfhy
 #: sf_form.xhp
@@ -14990,7 +14990,7 @@ msgctxt ""
 "par_id191616837111507\n"
 "help.text"
 msgid "To invoke the <literal>SFDocuments</literal>.<literal>Form</literal> service refer to the methods <literal>Forms()</literal>, <literal>FormDocuments()</literal> and <literal>OpenFormDocument()</literal> of the <link href=\"text/sbasic/shared/03/sf_document.xhp\" name=\"SFDocuments\"><literal>SFDocuments</literal>.<literal>Document</literal></link> service"
-msgstr ""
+msgstr "Při volání služby <literal>SFDocuments</literal>.<literal>Form</literal> využijete metody <literal>Forms()</literal>, <literal>FormDocuments()</literal> a <literal>OpenFormDocument()</literal> ze služby <link href=\"text/sbasic/shared/03/sf_document.xhp\" name=\"SFDocuments\"><literal>SFDocuments</literal>.<literal>Document</literal></link>."
 
 #. gs4KC
 #: sf_form.xhp
@@ -14999,7 +14999,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Volání služby"
 
 #. KfjEA
 #: sf_form.xhp
@@ -15008,7 +15008,7 @@ msgctxt ""
 "hd_id991618179698545\n"
 "help.text"
 msgid "In Writer documents"
-msgstr ""
+msgstr "V dokumentech Writeru"
 
 #. 8s4VD
 #: sf_form.xhp
@@ -15017,7 +15017,7 @@ msgctxt ""
 "par_id51616767892693\n"
 "help.text"
 msgid "The code snippet below shows how to access the form named <literal>Form1</literal> that is inside a Writer file:"
-msgstr ""
+msgstr "Následující část kódu ukazuje, jak přistupovat k formuláři pojmenovanému <literal>Form1</literal>, který je uložen v souboru Writeru:"
 
 #. NFikt
 #: sf_form.xhp
@@ -15026,7 +15026,7 @@ msgctxt ""
 "par_id531618179517628\n"
 "help.text"
 msgid "Forms can be accessed by their names or by their indices, as shown below:"
-msgstr ""
+msgstr "K formulářům lze přistupovat buď pomocí názvu, nebo indexu, například:"
 
 #. 8PHy6
 #: sf_form.xhp
@@ -15035,7 +15035,7 @@ msgctxt ""
 "par_id181618250546617\n"
 "help.text"
 msgid "If you try to access a <literal>FormDocument</literal> that is currently opened in <emph>Design Mode</emph> an exception will be raised."
-msgstr ""
+msgstr "Pokud se pokusíte přistoupit k objektu <literal>FormDocument</literal>, který je aktuálně otevřen v <emph>režimu návrhu</emph>, bude vyvolána výjimka."
 
 #. xNr3R
 #: sf_form.xhp
@@ -15044,7 +15044,7 @@ msgctxt ""
 "hd_id921618179792926\n"
 "help.text"
 msgid "In Calc documents"
-msgstr ""
+msgstr "V dokumentech Calcu"
 
 #. yCpnG
 #: sf_form.xhp
@@ -15053,7 +15053,7 @@ msgctxt ""
 "par_id481618179851104\n"
 "help.text"
 msgid "A form in a Calc file must have a unique name inside its sheet. Hence, the <literal>Forms</literal> method requires two arguments, the first indicating the sheet name and the second specifying the form name."
-msgstr ""
+msgstr "Formulář v souboru Calcu musí mít v rámci listu jedinečný název. Metoda <literal>Forms</literal> proto vyžaduje dva argumenty, první označující název listu a druhý určující název formuláře."
 
 #. i9Um4
 #: sf_form.xhp
@@ -15062,7 +15062,7 @@ msgctxt ""
 "par_id51622028165429\n"
 "help.text"
 msgid "This is achieved identically using Python:"
-msgstr ""
+msgstr "Totéž lze provést v Pythonu:"
 
 #. 2fB94
 #: sf_form.xhp
@@ -15071,7 +15071,7 @@ msgctxt ""
 "hd_id201618180055756\n"
 "help.text"
 msgid "In Base documents"
-msgstr ""
+msgstr "V dokumentech Base"
 
 #. J3Btp
 #: sf_form.xhp
