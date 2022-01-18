@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2022-01-17 19:38+0000\n"
+"PO-Revision-Date: 2022-01-18 22:39+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-7-2/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -13111,7 +13111,7 @@ msgctxt ""
 "par_id711616768164987\n"
 "help.text"
 msgid "A <literal>FormDocument</literal> inside a Base document is accessed by its name. The following example opens the form document named <literal>thisFormDocument</literal> and accesses the form <literal>MainForm</literal>:"
-msgstr ""
+msgstr "K objektu <literal>FormDocument</literal> se v dokumentu Base přistupuje pomocí jeho názvu. V následujícím příkladu je otevřen dokument formulářů pojmenovaný <literal>thisFormDocument</literal> a přistoupí se k formuláři <literal>MainForm</literal>:"
 
 #. pbtEM
 #: sf_form.xhp
@@ -13120,7 +13120,7 @@ msgctxt ""
 "bas_id271598171225874\n"
 "help.text"
 msgid "' The statement below is necessary only if the form hasn't been opened yet"
-msgstr ""
+msgstr "' Níže uvedený příkaz je nutný pouze tehdy, nebyl-li formulář dosud otevřen"
 
 #. EDADK
 #: sf_form.xhp
@@ -13129,7 +13129,7 @@ msgctxt ""
 "bas_id51616768358888\n"
 "help.text"
 msgid "' Or, alternatively, to access the form by its index ..."
-msgstr ""
+msgstr "' K formuláři lze také přistupovat prostřednictvím jeho indexu"
 
 #. 2v2aG
 #: sf_form.xhp
@@ -13138,7 +13138,7 @@ msgctxt ""
 "par_id991618249636036\n"
 "help.text"
 msgid "To perform any action on a form using the <literal>Form</literal> service, the <literal>FormDocument</literal> must have been opened either manually by the user or programmatically in a user script. The latter can be done by calling the <literal>OpenFormDocument</literal> method of the <link href=\"text/sbasic/shared/03/sf_base.xhp\" name=\"ScriptForge Base Service\"><literal>Base</literal> service</link>."
-msgstr ""
+msgstr "Aby bylo možné ve formuláři provést jakoukoliv akci pomocí služby <literal>Form</literal>, je nutné, aby bylo objekt <literal>FormDocument</literal> otevřen, ať už ručně, nebo v uživatelském skriptu. Druhou možnost lze provést volání metody <literal>OpenFormDocument</literal> ze <link href=\"text/sbasic/shared/03/sf_base.xhp\" name=\"Služba ScriptForge Base\">služby <literal>Base</literal></link>."
 
 #. DDerZ
 #: sf_form.xhp
@@ -13147,7 +13147,7 @@ msgctxt ""
 "par_id11618180564274\n"
 "help.text"
 msgid "To access a given subform of a form use the <literal>SubForms</literal> method. Note that in the example below <literal>mySubForm</literal> is a new instance of the <literal>Form</literal> service."
-msgstr ""
+msgstr "Pro přístup k podformuláři použijte metodu <literal>SubForms</literal>. V níže uvedeném příkladu je <literal>mySubForm</literal> novou instancí služby <literal>Form</literal>."
 
 #. e7fcY
 #: sf_form.xhp
@@ -13156,7 +13156,7 @@ msgctxt ""
 "par_id681622028653480\n"
 "help.text"
 msgid "Previous examples translate in Python as:"
-msgstr ""
+msgstr "Předchozí příklady lze zapsat v Pythonu jako:"
 
 #. ebc4K
 #: sf_form.xhp
@@ -13165,7 +13165,7 @@ msgctxt ""
 "pyc_id811622808499801\n"
 "help.text"
 msgid "#  The statement below is necessary only if the form hasn't been opened yet"
-msgstr ""
+msgstr "# Níže uvedený příkaz je nutný pouze tehdy, nebyl-li formulář dosud otevřen"
 
 #. GdyX6
 #: sf_form.xhp
@@ -13174,7 +13174,7 @@ msgctxt ""
 "pyc_id511622808538351\n"
 "help.text"
 msgid "#  Or, alternatively, to access the form by its index ..."
-msgstr ""
+msgstr "# K formuláři lze také přistupovat prostřednictvím jeho indexu"
 
 #. QFFzk
 #: sf_form.xhp
@@ -13183,7 +13183,7 @@ msgctxt ""
 "hd_id211618180379064\n"
 "help.text"
 msgid "In Form events"
-msgstr ""
+msgstr "V událostech formuláře"
 
 #. WBzCD
 #: sf_form.xhp
@@ -13192,7 +13192,7 @@ msgctxt ""
 "par_id421616768529754\n"
 "help.text"
 msgid "To invoke the <literal>Form</literal> service when a form event takes place:"
-msgstr ""
+msgstr "Vytvoření instance služby <literal>Form</literal>, když nastane událost:"
 
 #. k2fKf
 #: sf_form.xhp
@@ -13201,7 +13201,7 @@ msgctxt ""
 "par_id721623150543016\n"
 "help.text"
 msgid "It is recommended to free resources after use of the Form service."
-msgstr ""
+msgstr "Po použití služby Form je doporučeno uvolnit zdroje."
 
 #. pF9UQ
 #: sf_form.xhp
@@ -13210,7 +13210,7 @@ msgctxt ""
 "par_id221623150547406\n"
 "help.text"
 msgid "This operation is done implicitly when a form document is closed with the <literal>CloseFormDocument()</literal> method described below."
-msgstr ""
+msgstr "Tato operace se automaticky provede při uzavření dokumentu formulářů pomocí níže popsané metody <literal>CloseFormDocument()</literal>."
 
 #. GueeT
 #: sf_form.xhp
@@ -13219,7 +13219,7 @@ msgctxt ""
 "hd_id651583668365757\n"
 "help.text"
 msgid "Properties"
-msgstr ""
+msgstr "Vlastnosti"
 
 #. 9LaxS
 #: sf_form.xhp
@@ -13228,7 +13228,7 @@ msgctxt ""
 "par_id871583668386455\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Název"
 
 #. SpGw6
 #: sf_form.xhp
@@ -13237,7 +13237,7 @@ msgctxt ""
 "par_id491583668386455\n"
 "help.text"
 msgid "Readonly"
-msgstr ""
+msgstr "Pouze pro čtení"
 
 #. K7Bsy
 #: sf_form.xhp
@@ -13246,7 +13246,7 @@ msgctxt ""
 "par_id271583668474014\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. ekeZU
 #: sf_form.xhp
@@ -13255,7 +13255,7 @@ msgctxt ""
 "par_id401583668386455\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #. wSC47
 #: sf_form.xhp
@@ -13264,7 +13264,7 @@ msgctxt ""
 "par_id371583668519172\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. jJ2dL
 #: sf_form.xhp
@@ -13273,7 +13273,7 @@ msgctxt ""
 "par_id771583668386455\n"
 "help.text"
 msgid "Specifies if the form allows to delete records."
-msgstr ""
+msgstr "Určuje, zda formulář umožňuje mazat záznamy."
 
 #. DBxgx
 #: sf_form.xhp
@@ -13282,7 +13282,7 @@ msgctxt ""
 "par_id541583839708548\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. j5J3C
 #: sf_form.xhp
@@ -13291,7 +13291,7 @@ msgctxt ""
 "par_id731583839708412\n"
 "help.text"
 msgid "Specifies if the form allows to add records."
-msgstr ""
+msgstr "Určuje, zda formulář umožňuje přidávat záznamy."
 
 #. FCFEk
 #: sf_form.xhp
@@ -13300,7 +13300,7 @@ msgctxt ""
 "par_id761584027709516\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. 8qCAE
 #: sf_form.xhp
@@ -13309,7 +13309,7 @@ msgctxt ""
 "par_id971584027709752\n"
 "help.text"
 msgid "Specifies if the form allows to update records."
-msgstr ""
+msgstr "Určuje, zda formulář umožňuje aktualizovat záznamy."
 
 #. VxAL4
 #: sf_form.xhp
@@ -13318,7 +13318,7 @@ msgctxt ""
 "par_id31583839767743\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "ano"
 
 #. CRA7v
 #: sf_form.xhp
@@ -13327,7 +13327,7 @@ msgctxt ""
 "par_id111583839767195\n"
 "help.text"
 msgid "Specifies the hierarchical name of the Base Form containing the actual form."
-msgstr ""
+msgstr "Určuje v hierarchii název formuláře Base obsahujícího aktuální formulář."
 
 #. FehA2
 #: sf_form.xhp
@@ -13336,7 +13336,7 @@ msgctxt ""
 "par_id771583839920487\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. V8tZX
 #: sf_form.xhp
@@ -13345,7 +13345,7 @@ msgctxt ""
 "par_id451583839920858\n"
 "help.text"
 msgid "Specifies uniquely the current record of the form's underlying table, query or SQL statement."
-msgstr ""
+msgstr "Určuje unikátně aktuální záznam z tabulky, dotazu nebo SQL příkazu propojeného s formulářem."
 
 #. 3jDxi
 #: sf_form.xhp
@@ -13354,7 +13354,7 @@ msgctxt ""
 "par_id571588333908716\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. 7NUo8
 #: sf_form.xhp
@@ -13363,7 +13363,7 @@ msgctxt ""
 "par_id721588333908708\n"
 "help.text"
 msgid "Identifies the current record in the dataset being viewed on a form. If the row number is positive, the cursor moves to the given row number with respect to the beginning of the result set. Row count starts at 1. If the given row number is negative, the cursor moves to an absolute row position with respect to the end of the result set. Row -1 refers to the last row in the result set."
-msgstr ""
+msgstr "Identifikuje aktuální záznam v datové sadě, která se ve formuláři zobrazuje. Je-li číslo řádku kladné, kurzor se na daný řádek přesune od začátku výsledné sady. Čísla řádků začínají od 1. Je-li číslo řádku záporné, kurzor se přesune na pozici řádku od konce výsledné sady. Řádek -1 tak odkazuje na poslední řádek výsledků."
 
 #. FKDA7
 #: sf_form.xhp
@@ -13372,7 +13372,7 @@ msgctxt ""
 "par_id501583774433513\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. eAsdX
 #: sf_form.xhp
@@ -13381,7 +13381,7 @@ msgctxt ""
 "par_id151598177605296\n"
 "help.text"
 msgid "Specifies a subset of records to be displayed as a <literal>SQL</literal> <literal>WHERE</literal>-clause without the <literal>WHERE</literal> keyword."
-msgstr ""
+msgstr "Určuje podmnožinu záznamů, které se mají zobrazit jako klauzule <literal>SQL</literal> <literal>WHERE</literal> bez klíčového slova <literal>WHERE</literal>."
 
 #. uyje5
 #: sf_form.xhp
@@ -13390,7 +13390,7 @@ msgctxt ""
 "par_id271588334016191\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "ano"
 
 #. FQDDW
 #: sf_form.xhp
@@ -13399,7 +13399,7 @@ msgctxt ""
 "par_id251588334016874\n"
 "help.text"
 msgid "Specifies how records in a child subform are linked to records in its parent form."
-msgstr ""
+msgstr "Určuje, jak jsou záznamy v podformuláři propojeny se záznamy v rodičovském formuláři."
 
 #. DMwPW
 #: sf_form.xhp
@@ -13408,7 +13408,7 @@ msgctxt ""
 "par_id901616774153495\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "ano"
 
 #. 2EiCA
 #: sf_form.xhp
@@ -13417,7 +13417,7 @@ msgctxt ""
 "par_id981616774153723\n"
 "help.text"
 msgid "Specifies how records in a child subform are linked to records in its parent form."
-msgstr ""
+msgstr "Určuje, jak jsou záznamy v podformuláři propojeny se záznamy v rodičovském formuláři."
 
 #. ppCiD
 #: sf_form.xhp
@@ -13426,7 +13426,7 @@ msgctxt ""
 "par_id501616774304840\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "ano"
 
 #. kPfzG
 #: sf_form.xhp
@@ -13435,7 +13435,7 @@ msgctxt ""
 "par_id461616774304497\n"
 "help.text"
 msgid "The name of the current form."
-msgstr ""
+msgstr "Název aktuálního formuláře."
 
 #. vpBCA
 #: sf_form.xhp
@@ -13444,7 +13444,7 @@ msgctxt ""
 "par_id751616774384451\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. ppErx
 #: sf_form.xhp
@@ -13453,7 +13453,7 @@ msgctxt ""
 "par_id321616774384489\n"
 "help.text"
 msgid "Specifies in which order the records should be displayed as a <literal>SQL</literal> <literal>ORDER BY</literal> clause without the <literal>ORDER BY</literal> keywords."
-msgstr ""
+msgstr "Určuje, v jakém pořadí se mají záznamy zobrazit jako klauzule <literal>SQL</literal> <literal>ORDER BY</literal> bez klíčových slov <literal>ORDER BY</literal>."
 
 #. AGC5s
 #: sf_form.xhp
@@ -13462,7 +13462,7 @@ msgctxt ""
 "par_id261616774918923\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "ano"
 
 #. rjCpM
 #: sf_form.xhp
@@ -13471,7 +13471,7 @@ msgctxt ""
 "par_id171616774918881\n"
 "help.text"
 msgid "The parent of the current form. It can be either a <literal>SFDocuments</literal>.<literal>Form</literal> or a <literal>SFDocuments</literal>.<literal>Document</literal> object."
-msgstr ""
+msgstr "Rodičovský objekt aktuálního formuláře. Jedná se buď o objekt <literal>SFDocuments</literal>.<literal>Form</literal>, nebo <literal>SFDocuments</literal>.<literal>Document</literal>."
 
 #. rLS8r
 #: sf_form.xhp
@@ -13480,7 +13480,7 @@ msgctxt ""
 "par_id501616777650751\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. USDVC
 #: sf_form.xhp
@@ -13489,7 +13489,7 @@ msgctxt ""
 "par_id91616777650933\n"
 "help.text"
 msgid "Specifies the source of the data, as a table name, a query name or a SQL statement."
-msgstr ""
+msgstr "Určuje zdroj dat, například název tabulky, název dotazu nebo SQL příkaz."
 
 #. rtCsj
 #: sf_form.xhp
@@ -13498,7 +13498,7 @@ msgctxt ""
 "par_id451598177924437\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "ano"
 
 #. GxHLP
 #: sf_form.xhp
@@ -13507,7 +13507,7 @@ msgctxt ""
 "par_id94159817792441\n"
 "help.text"
 msgid "UNO<br/>object"
-msgstr ""
+msgstr "objekt<br/>UNO"
 
 #. VYFDs
 #: sf_form.xhp
@@ -13516,7 +13516,7 @@ msgctxt ""
 "par_id191598177924897\n"
 "help.text"
 msgid "The UNO object representing interactions with the form. Refer to <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1form_1_1XForm.html\" name=\"XForm interface\">XForm</link> and <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1form_1_1component_1_1DataForm.html\" name=\"DataForm service\">DataForm</link> in the API documentation for detailed information."
-msgstr ""
+msgstr "Objekt UNO představující interakce s formulářem. Podrobné informace naleznete v dokumentaci API pro <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1form_1_1XForm.html\" name=\"Rozhraní XForm interface\">rozhraní XForm</link> a <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1form_1_1component_1_1DataForm.html\" name=\"Služba DataForm\">službu DataForm</link>."
 
 #. cwE3k
 #: sf_form.xhp
@@ -13525,7 +13525,7 @@ msgctxt ""
 "hd_id421612628828054\n"
 "help.text"
 msgid "Event properties"
-msgstr ""
+msgstr "Vlastnosti události"
 
 #. eTuoa
 #: sf_form.xhp
@@ -13534,7 +13534,7 @@ msgctxt ""
 "par_id41612629140856\n"
 "help.text"
 msgid "The properties below return or set URI strings that define the script triggered by the event."
-msgstr ""
+msgstr "Následující vlastnosti vrátí nebo nastaví řetězce URI, které určují skript, který byl událostí spuštěn."
 
 #. fdses
 #: sf_form.xhp
@@ -13543,7 +13543,7 @@ msgctxt ""
 "par_id961612628879819\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Název"
 
 #. DsQGQ
 #: sf_form.xhp
@@ -13552,7 +13552,7 @@ msgctxt ""
 "par_id401612628879819\n"
 "help.text"
 msgid "ReadOnly"
-msgstr ""
+msgstr "Pouze pro čtení"
 
 #. 5FemG
 #: sf_form.xhp
@@ -13561,7 +13561,7 @@ msgctxt ""
 "par_id281612628879819\n"
 "help.text"
 msgid "Basic IDE Description"
-msgstr ""
+msgstr "Popis v IDE jazyka BASIC"
 
 #. PgdP8
 #: sf_form.xhp
@@ -13570,7 +13570,7 @@ msgctxt ""
 "par_id111612629836630\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. GAgms
 #: sf_form.xhp
@@ -13579,7 +13579,7 @@ msgctxt ""
 "par_id1001612629836902\n"
 "help.text"
 msgid "Before record change"
-msgstr ""
+msgstr "Před změnou záznamu"
 
 #. Mr9ns
 #: sf_form.xhp
@@ -13588,7 +13588,7 @@ msgctxt ""
 "par_id291612629836294\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. DwhZn
 #: sf_form.xhp
@@ -13597,7 +13597,7 @@ msgctxt ""
 "par_id62161262983683\n"
 "help.text"
 msgid "Fill parameters"
-msgstr ""
+msgstr "Vyplnit parametry"
 
 #. DrMbU
 #: sf_form.xhp
@@ -13606,7 +13606,7 @@ msgctxt ""
 "par_id81612629836634\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. eAJAN
 #: sf_form.xhp
@@ -13615,7 +13615,7 @@ msgctxt ""
 "par_id881612629836744\n"
 "help.text"
 msgid "Prior to reset"
-msgstr ""
+msgstr "Před přenastavením"
 
 #. Y9d6z
 #: sf_form.xhp
@@ -13624,7 +13624,7 @@ msgctxt ""
 "par_id591612629836830\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. LKxEu
 #: sf_form.xhp
@@ -13633,7 +13633,7 @@ msgctxt ""
 "par_id161612629836775\n"
 "help.text"
 msgid "Before record action"
-msgstr ""
+msgstr "Před záznamem"
 
 #. Zyx2S
 #: sf_form.xhp
@@ -13642,7 +13642,7 @@ msgctxt ""
 "par_id891612629836630\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. 2HBeC
 #: sf_form.xhp
@@ -13651,7 +13651,7 @@ msgctxt ""
 "par_id461612629836679\n"
 "help.text"
 msgid "Before submitting"
-msgstr ""
+msgstr "Před odesláním"
 
 #. 2fJrZ
 #: sf_form.xhp
@@ -13660,7 +13660,7 @@ msgctxt ""
 "par_id131612629836291\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. BX4AH
 #: sf_form.xhp
@@ -13669,7 +13669,7 @@ msgctxt ""
 "par_id151612629836151\n"
 "help.text"
 msgid "Confirm deletion"
-msgstr ""
+msgstr "Potvrdit odstranění"
 
 #. W9izF
 #: sf_form.xhp
@@ -13678,7 +13678,7 @@ msgctxt ""
 "par_id211612629836725\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. pDvPB
 #: sf_form.xhp
@@ -13687,7 +13687,7 @@ msgctxt ""
 "par_id361612629836624\n"
 "help.text"
 msgid "After record change"
-msgstr ""
+msgstr "Po změně záznamu"
 
 #. WprGG
 #: sf_form.xhp
@@ -13696,7 +13696,7 @@ msgctxt ""
 "par_id311612629836481\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. Xn2CS
 #: sf_form.xhp
@@ -13705,7 +13705,7 @@ msgctxt ""
 "par_id721612629836752\n"
 "help.text"
 msgid "Error occurred"
-msgstr ""
+msgstr "Došlo k chybě"
 
 #. B3zCy
 #: sf_form.xhp
@@ -13714,7 +13714,7 @@ msgctxt ""
 "par_id981612629836116\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. L3Ac6
 #: sf_form.xhp
@@ -13723,7 +13723,7 @@ msgctxt ""
 "par_id381612629836635\n"
 "help.text"
 msgid "When loading"
-msgstr ""
+msgstr "Při načítání"
 
 #. 9Z9vv
 #: sf_form.xhp
@@ -13732,7 +13732,7 @@ msgctxt ""
 "par_id711612629836704\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. XL4Js
 #: sf_form.xhp
@@ -13741,7 +13741,7 @@ msgctxt ""
 "par_id35161262983642\n"
 "help.text"
 msgid "When reloading"
-msgstr ""
+msgstr "Při opětovném načtení"
 
 #. P6DEi
 #: sf_form.xhp
@@ -13750,7 +13750,7 @@ msgctxt ""
 "par_id44161677878329\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. ywCsh
 #: sf_form.xhp
@@ -13759,7 +13759,7 @@ msgctxt ""
 "par_id661616778783899\n"
 "help.text"
 msgid "Before reloading"
-msgstr ""
+msgstr "Před opětovným načtením"
 
 #. eGnRj
 #: sf_form.xhp
@@ -13768,7 +13768,7 @@ msgctxt ""
 "par_id651616778529764\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. E6JUH
 #: sf_form.xhp
@@ -13777,7 +13777,7 @@ msgctxt ""
 "par_id311616778529570\n"
 "help.text"
 msgid "After resetting"
-msgstr ""
+msgstr "Po přenastavení"
 
 #. VDAk5
 #: sf_form.xhp
@@ -13786,7 +13786,7 @@ msgctxt ""
 "par_id601616778529481\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. 99FfH
 #: sf_form.xhp
@@ -13795,7 +13795,7 @@ msgctxt ""
 "par_id351616778529352\n"
 "help.text"
 msgid "After record action"
-msgstr ""
+msgstr "Po záznamu"
 
 #. CxndA
 #: sf_form.xhp
@@ -13804,7 +13804,7 @@ msgctxt ""
 "par_id711616778529292\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. DTDCq
 #: sf_form.xhp
@@ -13813,7 +13813,7 @@ msgctxt ""
 "par_id981616778529250\n"
 "help.text"
 msgid "When unloading"
-msgstr ""
+msgstr "Při uvolnění"
 
 #. iWroa
 #: sf_form.xhp
@@ -13822,7 +13822,7 @@ msgctxt ""
 "par_id521616778529932\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "ne"
 
 #. pVPR9
 #: sf_form.xhp
@@ -13831,7 +13831,7 @@ msgctxt ""
 "par_id511616778529291\n"
 "help.text"
 msgid "Before unloading"
-msgstr ""
+msgstr "Před uvolněním"
 
 #. cTdFS
 #: sf_form.xhp
@@ -13840,7 +13840,7 @@ msgctxt ""
 "par_id961618181634322\n"
 "help.text"
 msgid "To learn more about URI strings, refer to the <link href=\"https://wiki.openoffice.org/wiki/Documentation/DevGuide/Scripting/Scripting_Framework_URI_Specification\" name=\"URI specification\">Scripting Framework URI Specification</link>."
-msgstr ""
+msgstr "Podrobnosti o řetězcích URI naleznete na stránce <link href=\"https://wiki.openoffice.org/wiki/Documentation/DevGuide/Scripting/Scripting_Framework_URI_Specification\" name=\"Specifikace URI\">Scripting Framework URI Specification</link>."
 
 #. bkBH8
 #: sf_form.xhp
@@ -13849,7 +13849,7 @@ msgctxt ""
 "par_id921606472825856\n"
 "help.text"
 msgid "List of methods in the Form service"
-msgstr ""
+msgstr "Seznam metod služby Form"
 
 #. KwDij
 #: sf_form.xhp
@@ -13858,7 +13858,7 @@ msgctxt ""
 "par_id871583933076448\n"
 "help.text"
 msgid "Sets the focus on the current <literal>Form</literal> instance. Returns <literal>True</literal> if focusing was successful."
-msgstr ""
+msgstr "Nastaví aktuální instanci služby <literal>Form</literal> zaměření. V případě úspěšného nastavení vrátí <literal>True</literal>."
 
 #. 9qj5F
 #: sf_form.xhp
@@ -13867,7 +13867,7 @@ msgctxt ""
 "par_id81616858956290\n"
 "help.text"
 msgid "The behavior of the <literal>Activate</literal> method depends on the type of document where the form is located:"
-msgstr ""
+msgstr "Chování metody <literal>Activate</literal> závisí na typu dokumentu, v němž se formulář nachází:"
 
 #. YVgyr
 #: sf_form.xhp
@@ -13876,7 +13876,7 @@ msgctxt ""
 "par_id761616858967361\n"
 "help.text"
 msgid "<emph>In Writer documents:</emph> Sets the focus on that document."
-msgstr ""
+msgstr "<emph>V dokumentech Writeru:</emph> Nastaví zaměření tomuto dokumentu."
 
 #. HKFTw
 #: sf_form.xhp
@@ -13885,7 +13885,7 @@ msgctxt ""
 "par_id931616859010103\n"
 "help.text"
 msgid "<emph>In Calc documents:</emph> Sets the focus on the sheet to which the form belongs."
-msgstr ""
+msgstr "<emph>V dokumentech Calcu:</emph> Nastaví zaměření listu, k němuž formulář patří."
 
 #. 6jx5G
 #: sf_form.xhp
@@ -13894,7 +13894,7 @@ msgctxt ""
 "par_id41616859019478\n"
 "help.text"
 msgid "<emph>In Base documents:</emph> Sets the focus on the <literal>FormDocument</literal> the <literal>Form</literal> refers to."
-msgstr ""
+msgstr "<emph>V dokumentech Base:</emph> Nastaví zaměření na objekt <literal>FormDocument</literal>, na který formulář <literal>Form</literal> odkazuje."
 
 #. J5C7y
 #: sf_form.xhp
@@ -13903,7 +13903,7 @@ msgctxt ""
 "par_id921618228229529\n"
 "help.text"
 msgid "The following example assumes you want to activate the form named <literal>FormA</literal> located in <literal>Sheet1</literal> of the currently open Calc file. It first gets access to the document using the <literal>Document</literal> service and <literal>ThisComponent</literal> and then activates the form."
-msgstr ""
+msgstr "V následujícím příkladu se předpokládá, že chcete aktivovat formulář pojmenovaný <literal>FormA</literal>, umístěný na listu <literal>Sheet1</literal> aktuálně otevřeného souboru Calcu. Nejprve se získá pomocí služby <literal>Document</literal> a komponenty <literal>ThisComponent</literal> přístup k dokumentu, poté se formulář aktivuje."
 
 #. 4EC5M
 #: sf_form.xhp
@@ -13912,7 +13912,7 @@ msgctxt ""
 "bas_id21618228468066\n"
 "help.text"
 msgid "'Gets hold of the form that will be activated"
-msgstr ""
+msgstr "' Získá přístup k formuláři, který se má aktivovat"
 
 #. M2Wks
 #: sf_form.xhp
@@ -13921,7 +13921,7 @@ msgctxt ""
 "bas_id201618228487565\n"
 "help.text"
 msgid "'Activates the form"
-msgstr ""
+msgstr "' Aktivuje formulář"
 
 #. YHxMm
 #: sf_form.xhp
@@ -13930,7 +13930,7 @@ msgctxt ""
 "par_id81618228720782\n"
 "help.text"
 msgid "<literal>ThisComponent</literal> applies to Calc and Writer documents. For Base documents use <literal>ThisDataBaseDocument</literal>."
-msgstr ""
+msgstr "<literal>ThisComponent</literal> je relevantní pro dokumenty Calcu a Writeru. V dokumentech Base se používá <literal>ThisDataBaseDocument</literal>."
 
 #. QznyJ
 #: sf_form.xhp
@@ -13939,7 +13939,7 @@ msgctxt ""
 "par_id501616860541195\n"
 "help.text"
 msgid "Closes the form document containing the actual <literal>Form</literal> instance. The <literal>Form</literal> instance is disposed."
-msgstr ""
+msgstr "Zavře dokument formulářů obsahující aktuální instanci služby <literal>Form</literal>. Tato instance je uvolněna."
 
 #. CcCpD
 #: sf_form.xhp
@@ -13948,7 +13948,7 @@ msgctxt ""
 "par_id611618229004669\n"
 "help.text"
 msgid "This method only closes form documents located in Base documents. If the form is stored in a Writer or Calc document, calling <literal>CloseFormDocument</literal> will have no effect."
-msgstr ""
+msgstr "Tato metoda zavře pouze dokumenty formulářů umístěné v dokumentech Base. Jestliže je formulář uložen v dokumentu Writeru či Calcu, volání metody <literal>CloseFormDocument</literal> nic neprovede."
 
 #. a8CxQ
 #: sf_form.xhp
@@ -13957,7 +13957,7 @@ msgctxt ""
 "par_id161584541257982\n"
 "help.text"
 msgid "The value returned by the <literal>Controls</literal> method depends on the arguments provided:"
-msgstr ""
+msgstr "Hodnota vrácená metodou <literal>Controls</literal> závisí na zadaných argumentech:"
 
 #. YkyY2
 #: sf_form.xhp
@@ -13966,7 +13966,7 @@ msgctxt ""
 "par_id421598179770993\n"
 "help.text"
 msgid "If the method is called <emph>without arguments</emph>, then it returns the list of the controls contained in the form. Beware that the returned list does not contain any subform controls."
-msgstr ""
+msgstr "Je-li metoda zavolána <emph>bez argumentů</emph>, vrátí seznam ovládacích prvků, které formulář obsahuje. Mějte na paměti, že vrácený seznam nezahrnuje ovládací prvky z podformulářů."
 
 #. SsiUX
 #: sf_form.xhp
@@ -13975,7 +13975,7 @@ msgctxt ""
 "par_id81598185229301\n"
 "help.text"
 msgid "If the optional <literal>ControlName</literal> argument is provided, the method returns a <literal>FormControl</literal> class instance referring to the specified control."
-msgstr ""
+msgstr "Je-li zadán nepovinný argument <literal>ControlName</literal>, metoda vrátí instanci třídy <literal>FormControl</literal> odkazující na požadovaný ovládací prvek."
 
 #. 7CFJU
 #: sf_form.xhp
@@ -13984,7 +13984,7 @@ msgctxt ""
 "par_id1001584541257789\n"
 "help.text"
 msgid "<emph>controlname</emph> : A valid control name as a case-sensitive string. If absent, the list of control names is returned as a zero-based array."
-msgstr ""
+msgstr "<emph>controlname</emph> : Platný název ovládacího prvku jako řetězec, u něhož záleží na velikost písmen. Není-li zadán, vrátí se seznam názvů ovládacích prvků jako pole začínající od 0."
 
 #. unh4B
 #: sf_form.xhp

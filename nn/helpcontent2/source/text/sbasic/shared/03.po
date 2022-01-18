@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2022-01-16 07:38+0000\n"
+"PO-Revision-Date: 2022-01-18 22:39+0000\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian Nynorsk <https://translations.documentfoundation.org/projects/libo_help-7-2/textsbasicshared03/nn/>\n"
 "Language: nn\n"
@@ -12539,7 +12539,7 @@ msgctxt ""
 "par_id301584791330868\n"
 "help.text"
 msgid "Moves one or more folders from one location to another. Returns <literal>True</literal> if at least one folder has been moved or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Flyttar éi eller fleire mapper frå éin stad til ein annan. Returnerer <literal>Sann</literal> viss minst éi mappe er flytt, eller <literal>Usann</literal> viss det skjedde ein feil."
 
 #. R9Jrz
 #: sf_filesystem.xhp
@@ -12548,7 +12548,7 @@ msgctxt ""
 "par_id411613072570664\n"
 "help.text"
 msgid "An error will also occur if the <literal>Source</literal> parameter uses wildcard characters and does not match any folders."
-msgstr ""
+msgstr "Det oppstår også ein feil viss parameteren <literal>Source</literal> brukar jokerteikn og det ikkje er samsvar med mappene."
 
 #. F2DaD
 #: sf_filesystem.xhp
@@ -12557,7 +12557,7 @@ msgctxt ""
 "par_id601613072595264\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Metoden stoppar straks når han møter ein feil. Metoden rullar ikkje tilbake, og angrar heller ikkje endringar som vart gjort før feilen oppstod."
 
 #. tLxAt
 #: sf_filesystem.xhp
@@ -12566,7 +12566,7 @@ msgctxt ""
 "par_id541584791330777\n"
 "help.text"
 msgid "<emph>Source</emph>: It can be a <literal>FolderName</literal> or <literal>NamePattern</literal> to designate one or more folders to be moved."
-msgstr ""
+msgstr "<emph>Source</emph>: Kan vera eit <literal>FolderName</literal> eller eit <literal>NamePattern</literal> som peikar på éi eller fleire mapper som skal flyttast."
 
 #. bTWWF
 #: sf_filesystem.xhp
@@ -12575,7 +12575,7 @@ msgctxt ""
 "par_id551584791330279\n"
 "help.text"
 msgid "<emph>Destination</emph>: If the move operation involves a single folder, then <literal>Destination</literal> is the name and path of the moved folder and it must not exist."
-msgstr ""
+msgstr "<emph>Destination</emph>: Viss flyttinga involverer ei enkelt mappe, er <literal>Destination</literal> namnet og stien til den flytte mappa, som ikkje må finnast frå før."
 
 #. rNbq3
 #: sf_filesystem.xhp
@@ -12584,7 +12584,7 @@ msgctxt ""
 "par_id11613072890641\n"
 "help.text"
 msgid "If multiple folders are being moved, then <literal>Destination</literal> designates where the folders in <literal>Source</literal> will be moved into. If <literal>Destination</literal> does not exist, it is created."
-msgstr ""
+msgstr "Viss fleire mapper vert flytte, bestemmer <literal>Destination</literal> kvar mappene i <literal>Source</literal> skal flyttast til. Viss <literal>Destination</literal> ikkje finst frå før, vert det laga."
 
 #. DFBsa
 #: sf_filesystem.xhp
@@ -12593,7 +12593,7 @@ msgctxt ""
 "par_id301613072928159\n"
 "help.text"
 msgid "Wildcard characters are not allowed in <literal>Destination</literal>."
-msgstr ""
+msgstr "Det er ikkje lov å bruka jokerteikn i <literal>Destination</literal>."
 
 #. JNTia
 #: sf_filesystem.xhp
@@ -12602,7 +12602,7 @@ msgctxt ""
 "par_id121585320922117\n"
 "help.text"
 msgid "Opens a file and returns a <literal>TextStream</literal> object that can be used to read from, write to, or append to the file."
-msgstr ""
+msgstr "Opnar ei fil og returnerer objektet <literal>TextStream</literal> som kan brukast til å lesa frå, skriva til eller leggja til fila."
 
 #. ePMpQ
 #: sf_filesystem.xhp
@@ -12611,7 +12611,7 @@ msgctxt ""
 "par_id591613073104711\n"
 "help.text"
 msgid "Note that the method does not check if the given file is really a text file."
-msgstr ""
+msgstr "Merk at metoden ikkje kontrollerer pm den gjevne fila faktisk er ei tekstfil."
 
 #. p6VFZ
 #: sf_filesystem.xhp
@@ -12620,7 +12620,7 @@ msgctxt ""
 "par_id951613073135036\n"
 "help.text"
 msgid "The method returns a <literal>Null</literal> object if an error occurred."
-msgstr ""
+msgstr "Metoden returnerer objektet <literal>Null</literal> viss det går feil."
 
 #. R5a4m
 #: sf_filesystem.xhp
@@ -12629,7 +12629,7 @@ msgctxt ""
 "par_id551585320922678\n"
 "help.text"
 msgid "<emph>FileName</emph>: Identifies the file to open."
-msgstr ""
+msgstr "<emph>FileName</emph>: Identifiserer fila som skal opnast."
 
 #. FUxVH
 #: sf_filesystem.xhp
@@ -12638,7 +12638,7 @@ msgctxt ""
 "par_id671585320922388\n"
 "help.text"
 msgid "<emph>IOMode</emph>: Indicates the input/output mode. It can be one of three constants: <literal>FSO.ForReading</literal> (default), <literal>FSO.ForWriting</literal>, or <literal>FSO.ForAppending</literal>."
-msgstr ""
+msgstr "<emph>IOMode</emph>: Indikerer input/output modus. Det kan vera éin av dei tre konstantane: <literal>FSO.ForReading</literal> (standard), <literal>FSO.ForWriting</literal> eller <literal>FSO.ForAppending</literal>."
 
 #. ttSYS
 #: sf_filesystem.xhp
@@ -12647,7 +12647,7 @@ msgctxt ""
 "par_id21585321398586\n"
 "help.text"
 msgid "<emph>Create</emph>: Boolean value that indicates whether a new file can be created if the specified filename doesn't exist:"
-msgstr ""
+msgstr "<emph>Create</emph>: Boolsk verdi som indikerer om ei ny fil kan lagast viss den gjevne fila ikkje finst frå før."
 
 #. VDFAi
 #: sf_filesystem.xhp
@@ -12656,7 +12656,7 @@ msgctxt ""
 "par_id721613073434797\n"
 "help.text"
 msgid "If <literal>True</literal> a new file and its parent folders will be created if they do not exist;"
-msgstr ""
+msgstr "Viss <literal>Sann</literal> vert ei fil og den overordna mappa for fila oppretta viss dei ikkje finst frå før."
 
 #. EypVC
 #: sf_filesystem.xhp
@@ -12665,7 +12665,7 @@ msgctxt ""
 "par_id201613073469289\n"
 "help.text"
 msgid "If <literal>False</literal> then new files are not created (default)."
-msgstr ""
+msgstr "Viss <literal>Usann</literal> vert den nye fila ikkje oppretta (standard)."
 
 #. BoVQQ
 #: sf_filesystem.xhp
@@ -12674,7 +12674,7 @@ msgctxt ""
 "par_id771585321576210\n"
 "help.text"
 msgid "<emph>Encoding</emph>: The character set to be used. The default encoding is \"UTF-8\"."
-msgstr ""
+msgstr "<emph>Encoding</emph>: Teiknsettet som skal brukast. Standard = «UTF-8»."
 
 #. FuYwe
 #: sf_filesystem.xhp
@@ -12683,7 +12683,7 @@ msgctxt ""
 "par_id871583670342501\n"
 "help.text"
 msgid "Opens a dialog box to open or save files."
-msgstr ""
+msgstr "Opnar eit dialogvindauge for å lagra og opna filer."
 
 #. SjDBv
 #: sf_filesystem.xhp
@@ -12692,7 +12692,7 @@ msgctxt ""
 "par_id881613074436979\n"
 "help.text"
 msgid "If the <literal>SAVE</literal> mode is set and the picked file exists, a warning message will be displayed."
-msgstr ""
+msgstr "Viss <literal>SAVE</literal>-modus er sett og den valde fila finst frå før, vert det vist ei åtvaring."
 
 #. PAaAH
 #: sf_filesystem.xhp
@@ -12701,7 +12701,7 @@ msgctxt ""
 "par_id481583670342502\n"
 "help.text"
 msgid "<emph>DefaultFile</emph>: This argument is a string composed of a folder and file name:"
-msgstr ""
+msgstr "<emph>DefaultFile</emph>: Dette argumentet er ein streng som er sett saman av eit mappe- og eit filnamn:"
 
 #. fyVCs
 #: sf_filesystem.xhp
@@ -12710,7 +12710,7 @@ msgctxt ""
 "par_id511613074665951\n"
 "help.text"
 msgid "The folder part indicates the folder that will be shown when the dialog opens (default = the last selected folder)."
-msgstr ""
+msgstr "Mappedelen peikar på den mappa som vert vist når dialogvindauget vert opna (standard = den sist opna mappa)."
 
 #. xs5hU
 #: sf_filesystem.xhp
@@ -12719,7 +12719,7 @@ msgctxt ""
 "par_id631613074685308\n"
 "help.text"
 msgid "The file part designates the default file to open or save."
-msgstr ""
+msgstr "Fildelen peikar på den standardfila som skal opnast eller lagrast."
 
 #. rcast
 #: sf_filesystem.xhp
@@ -12728,7 +12728,7 @@ msgctxt ""
 "par_id981583670342502\n"
 "help.text"
 msgid "<emph>Mode</emph>: <literal>OPEN</literal> (input file) or <literal>SAVE</literal> (output file). The default value is <literal>OPEN</literal>."
-msgstr ""
+msgstr "<emph>Mode</emph>: <literal>OPEN</literal> (inndatafil) eller <literal>SAVE</literal> (utdatafil). Standardverdien er <literal>OPEN</literal>."
 
 #. Dtmio
 #: sf_filesystem.xhp
@@ -12737,7 +12737,7 @@ msgctxt ""
 "par_id31583670342502\n"
 "help.text"
 msgid "<emph>Filter</emph>: The extension of the files displayed when the dialog is opened (default = no filter)."
-msgstr ""
+msgstr "<emph>Filter</emph>: Namneutvidinga på dei filene som vert viste når dialogvindauget er ope (standard=inkje filter)."
 
 #. 8WirR
 #: sf_filesystem.xhp
@@ -12746,7 +12746,7 @@ msgctxt ""
 "bas_id941583670925672\n"
 "help.text"
 msgid "' Only *.txt files are displayed"
-msgstr ""
+msgstr "' Berre *.txt-filer vert viste"
 
 #. HkwaR
 #: sf_filesystem.xhp
@@ -12755,7 +12755,7 @@ msgctxt ""
 "par_id521583671701777\n"
 "help.text"
 msgid "Opens a dialog box to select a folder."
-msgstr ""
+msgstr "Opnar eit dialogfelt for å velja ei mappe."
 
 #. coL3A
 #: sf_filesystem.xhp
