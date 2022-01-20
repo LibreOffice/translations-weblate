@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-19 07:29+0000\n"
+"PO-Revision-Date: 2022-01-20 08:38+0000\n"
 "Last-Translator: Elisabetta Manuele <calembour@hotmail.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/it/>\n"
 "Language: it\n"
@@ -63509,7 +63509,7 @@ msgctxt ""
 "par_id3155841\n"
 "help.text"
 msgid "<input>=NUMBERVALUE(\"1.234.567,89\"; \",\"; \".\")</input> returns 1234567.89 (considering en-US locale). The function removes the two group separators and changes the decimal separator from a comma to a full stop."
-msgstr ""
+msgstr "<input>=NUMERO.VALORE(\"1.234.567,89\"; \",\"; \".\")</input> restituisce 1234567.89 (in base al formato locale en-US). La funzione rimuove i due separatori di gruppo e converte il separatore decimale da virgola a punto."
 
 #. UNiLM
 #: func_numbervalue.xhp
@@ -63518,7 +63518,7 @@ msgctxt ""
 "par_id721625603302860\n"
 "help.text"
 msgid "<input>=NUMBERVALUE(\"123·4\"; \"·\")</input> returns 123.4 (considering en-US locale). The function changes the decimal separator from a \"·\" to a full stop. No group separator is used in the supplied number and so the <emph>Group Separator</emph> argument is omitted."
-msgstr ""
+msgstr "<input>=VALORE.NUMERO(\"123·4\"; \".\")</input> restituisce 123,4 (in base al formato locale it-IT). La funzione converte il separatore decimale da \"·\" a virgola. Poiché nel numero specificato non viene utilizzato alcun separatore di gruppo, l'argomento <emph>Separatore di gruppo</emph> viene omesso."
 
 #. iGGwj
 #: func_numbervalue.xhp
@@ -63527,7 +63527,7 @@ msgctxt ""
 "par_id491625603415715\n"
 "help.text"
 msgid "<input>=NUMBERVALUE(\"123e12\")</input> returns 1.23E+14 (considering en-US locale). No decimal or group separators are used in the supplied number and so the <emph>Decimal Separator</emph> and <emph>Group Separator</emph> arguments are omitted."
-msgstr ""
+msgstr "<input>=VALORE.NUMERO(\"123e12\")</input> restituisce 1.23E+14 (in base al formato locale en-US). Poiché nel numero specificato non viene utilizzato alcun separatore decimale o di gruppo, gli argomenti <emph>Separatore decimale</emph> e <emph>Separatore di gruppo</emph> vengono omessi."
 
 #. vTYDd
 #: func_numbervalue.xhp
@@ -63536,7 +63536,7 @@ msgctxt ""
 "par_id801625603497421\n"
 "help.text"
 msgid "<input>=NUMBERVALUE(\"1#!234#!567\"; \".\"; \"#!\")</input> returns 1234567 (considering en-US locale). Note that in this case the group separator is specified as a two-character string."
-msgstr ""
+msgstr "<input>VALORE.NUMERO(\"1#!234#!567\"; \".\"; \"#!\")</input> restituisce 1234567  (in base la formato locale en-US ). Da notare che in questo caso il separatore di gruppo è specificato come una stringa di due caratteri."
 
 #. 4sMd6
 #: func_numbervalue.xhp
@@ -64553,7 +64553,7 @@ msgctxt ""
 "par_id451628776707264\n"
 "help.text"
 msgid "<input>=ROMAN(999)</input> returns \"CMXCIX\" (uses simplification mode equal to zero, which is the default)."
-msgstr ""
+msgstr "<input>=ROMAN(999)</input> restituisce \"CMXCIX\" (utilizza la modalità di semplificazione pari a zero, ovvero l'impostazione predefinita)."
 
 #. mBktA
 #: func_roman.xhp
@@ -65831,7 +65831,7 @@ msgctxt ""
 "par_id731628780240876\n"
 "help.text"
 msgid "<input>=VALUE(\"07/30/2021\")</input> returns 44407 (considering en-US locale) which is the date-time sequence number corresponding to the specified date."
-msgstr ""
+msgstr "<input>=VALORE(\"30/07/2021\")</input> restituisce 44407 (in base al formato locale it-IT) che è il numero di sequenza data-ora corrispondente alla data specificata."
 
 #. Kkcm7
 #: func_value.xhp
