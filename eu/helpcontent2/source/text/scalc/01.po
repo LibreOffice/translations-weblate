@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-21 18:38+0000\n"
+"PO-Revision-Date: 2022-01-22 19:38+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/eu/>\n"
 "Language: eu\n"
@@ -20147,7 +20147,7 @@ msgctxt ""
 "bm_id331624453577057\n"
 "help.text"
 msgid "<bookmark_value>using double quotation marks in formulas</bookmark_value>  <bookmark_value>formulas; using double quotation marks</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>komatxo bikoitzak erabiltzea formuletan</bookmark_value>  <bookmark_value>formulak; komatxo bikoitzak erabiltzea</bookmark_value>"
 
 #. XXyWj
 #: 04060110.xhp
@@ -20156,7 +20156,7 @@ msgctxt ""
 "hd_id291624454173529\n"
 "help.text"
 msgid "Using double quotation marks in formulas"
-msgstr ""
+msgstr "Komatxo bikoitzak erabiltzea formuletan"
 
 #. aGDFQ
 #: 04060110.xhp
@@ -20165,7 +20165,7 @@ msgctxt ""
 "par_id891624454058773\n"
 "help.text"
 msgid "To include a text string in a formula, place the text string between two double quotation marks (\") and Calc takes the characters in the string without attempting to interpret them. For example, the formula <input>=\"Hello world!\"</input> displays the text string <literal>Hello world!</literal> in the cell, with no surrounding double quotation marks."
-msgstr ""
+msgstr "Formula batean testu-kate bat sartzeko, kokatu katea komatxo bikoitzen artean (\"). Calc aplikazioak kateko karaktereak bere hartan hartuko ditu, interpretatzen saiatu gabe. Adibidez, <input>=\"Kaixo mundua!\"</input> formulak <literal>Kaixo mundua!</literal> testu-katea erakutsiko du gelaxkan, komatxo bikoitzik gabe."
 
 #. HCwEU
 #: 04060110.xhp
@@ -20174,7 +20174,7 @@ msgctxt ""
 "par_id461624454425320\n"
 "help.text"
 msgid "The more complex formula <input>=CONCATENATE(\"Life is really simple, \"; \"but we insist on making it complicated \"; \"(Confucius).\")</input> concatenates three individual strings in double quotation marks, outputting <literal>Life is really simple, but we insist on making it complicated (Confucius).</literal>"
-msgstr ""
+msgstr "<input>=CONCATENATE(\"Bizitza sinplea da, \"; \"baina konplexu bihurtzen saiatzen gara \"; \"(Konfuzio).\")</input> formula konplexuenak komatxo bikoitza artean dauden hiru kate kateatzen ditu. Irteera honakoa izango da: <literal>Bizitza sinplea da, baina konplexu bihurtzen saiatzen gara (Konfuzio).</literal>"
 
 #. XBDt9
 #: 04060110.xhp
@@ -20183,7 +20183,7 @@ msgctxt ""
 "par_id711624454477483\n"
 "help.text"
 msgid "To place a literal double quotation mark within a string inside a formula, two methods can be used:"
-msgstr ""
+msgstr "Formula bateko kate batean komatxo bikoitz literalak kokatzeko, bi metodo erabili daitezke:"
 
 #. 8qFEv
 #: 04060110.xhp
@@ -20201,7 +20201,7 @@ msgctxt ""
 "par_id21624454513641\n"
 "help.text"
 msgid "You can use the CHAR function or the UNICHAR function to insert a double quotation mark. For example, the formula <input>=UNICHAR(34) & \"The Catcher in the Rye\" & UNICHAR(34) & \" is a famous book by J. D. Salinger.\"</input> displays the string <literal>\"The Catcher in the Rye\" is a famous book by J. D. Salinger.</literal>"
-msgstr ""
+msgstr "CHAR funtzioa edo UNICHAR funtzioa erabili daiteke komatxo bikoitzak txertatzeko. Adibidez, <input>=UNICHAR(34) & \"Narrazioak\" & UNICHAR(34) & \" Joseba Sarrionandiaren liburu ezaguna da .\"</input> formulak <literal>\"Narrazioak\" Joseba Sarrionandiaren liburu ezaguna da.</literal> katea erakutsiko du."
 
 #. cpK3Z
 #: 04060110.xhp
@@ -20291,7 +20291,7 @@ msgctxt ""
 "par_id3153289\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_BASIS\">Converts a positive integer to a specified base into a text from the <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"numbering system\">numbering system</link>.</ahelp> The digits 0-9 and the letters A-Z are used."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_BASIS\">Osoko zenbaki bat zehaztutako oinarri batera bihurtzen du <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"numbering system\">zenbakitze-sistema</link> jakin bateko testu-forman.</ahelp> 0-9 digituak eta A-Z letrak erabiliko dira."
 
 #. 2cDvi
 #: 04060110.xhp
@@ -21164,7 +21164,7 @@ msgctxt ""
 "par_id2949141\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\";1)</item> funtzioak \" \" itzultzen du (byte 1 DBCS karaktere baten erdia da eta, hori dela eta, zuriune-karaktere bat itzultzen da)."
 
 #. mQvUN
 #: 04060110.xhp
@@ -21173,7 +21173,7 @@ msgctxt ""
 "par_id2949151\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\";2)</item> funtzioak \"中\" itzultzen du (2 bytek DBCS karaktere oso bat osatzen dute)."
 
 #. qAEZ3
 #: 04060110.xhp
@@ -21182,7 +21182,7 @@ msgctxt ""
 "par_id2949161\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";3)</item> returns \"中 \" (3 bytes constitute one DBCS character and a half; the last character returned is therefore a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\";3)</item> funtzioak \"中 \" itzultzen du (3 bytek DBCS karaktere bat eta erdi osatzen dute; itzulitako azken karakterea zuriune bat izango da)."
 
 #. s3UVQ
 #: 04060110.xhp
@@ -21191,7 +21191,7 @@ msgctxt ""
 "par_id2949171\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\";4)</item> funtzioak \"中国\" itzultzen du (4 bytek bi DBCS karaktere oso egiten dute)."
 
 #. FM3FS
 #: 04060110.xhp
@@ -21200,7 +21200,7 @@ msgctxt ""
 "par_id2949181\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"office\";3)</item> returns \"off\" (3 non-DBCS characters each consisting of 1 byte)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"office\";3)</item> funtzioak \"off\" itzultzen du (DBCS ez diren 3 karaktere, bakoitza 1 bytekoa)."
 
 #. eEgeD
 #: 04060110.xhp
@@ -21551,7 +21551,7 @@ msgctxt ""
 "par_id2958417\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;0)</item> returns \"\" (0 bytes is always an empty string)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";1;0)</item> funtzioak \"\" itzultzen du (0 byte hutsik dagoen katea da beti)."
 
 #. q6dWL
 #: 04060110.xhp
@@ -21560,7 +21560,7 @@ msgctxt ""
 "par_id2958427\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;1)</item> returns \" \" (1 byte is only half a DBCS character and therefore the result is a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";1;1)</item> funtzioak \" \" itzultzen du (byte 1 DBCS karaktere baten erdia da eta, hori dela eta, zuriune-karaktere bat itzultzen da)."
 
 #. CfNES
 #: 04060110.xhp
@@ -21569,7 +21569,7 @@ msgctxt ""
 "par_id2958437\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";1;2)</item> funtzioak \"中\" itzultzen du (2 bytek DBCS karaktere oso bat osatzen dute)."
 
 #. wBLqC
 #: 04060110.xhp
@@ -21578,7 +21578,7 @@ msgctxt ""
 "par_id2958447\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;3)</item> returns \"中 \" (3 bytes constitute one and a half DBCS character; the last byte results in a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";1;3)</item> funtzioak \"中 \" itzultzen du (3 byte DBCS karaktere bat eta erdi dira; azken byteak zuriune bat itzultzen du)."
 
 #. GedmG
 #: 04060110.xhp
@@ -21587,7 +21587,7 @@ msgctxt ""
 "par_id2958457\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";1;4)</item> funtzioak \"中国\" itzultzen du (4 bytek bi DBCS karaktere oso egiten dute)."
 
 #. dAMAA
 #: 04060110.xhp
@@ -21596,7 +21596,7 @@ msgctxt ""
 "par_id2958467\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;1)</item> returns \" \" (byte position 2 is not at the beginning of a character in a DBCS string; 1 space character is returned)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";2;1)</item> funtzioak \" \" itzultzen du (2 byte-kokagunea ez dago karaktere baten hasieran DBCS kate batean; zuriune bat itzultzen da)."
 
 #. SXLij
 #: 04060110.xhp
@@ -21605,7 +21605,7 @@ msgctxt ""
 "par_id2958477\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;2)</item> returns \" \" (byte position 2 points to the last half of the first character in the DBCS string; the 2 bytes asked for therefore constitutes the last half of the first character and the first half of the second character in the string; 2 space characters are therefore returned)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";2;2)</item> funtzioak \" \" itzultzen du (2 byte-kokaguneak DBCS kateko lehen karakterearen azken erdira apuntatzen du; eskatutako 2 byte-ak, beraz, lehen karakterearen azken erdia eta bigarren karakterearen lehen erdia dira; beraz, 2 zuriune-karaktere itzultzen dira)."
 
 #. cFw7V
 #: 04060110.xhp
@@ -21623,7 +21623,7 @@ msgctxt ""
 "par_id2958497\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;1)</item> returns \" \" (byte position 3 is at the beginning of a character in a DBCS string, but 1 byte is only half a DBCS character and a space character is therefore returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";3;1)</item> funtzioak \" \" itzultzen du (3 byte-kokagunea DBCS kate bateko karaktere baten hasieran dago, baina byte 1 DBCS karaktere baten erdia besterik ez da, eta beraz, zuriune-karaktere bat itzultzen da)."
 
 #. koipq
 #: 04060110.xhp
@@ -21632,7 +21632,7 @@ msgctxt ""
 "par_id2958507\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;2)</item> returns \"国\" (byte position 3 is at the beginning of a character in a DBCS string, and 2 bytes constitute one DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\";3;2)</item> funtzioak \"国\" itzultzen du (3 byte-kokagunea DBCS kate bateko karaktere baten hasieran dago, eta 2 byte-k DBCS karaktere bat osatzen dute)."
 
 #. aQmsH
 #: 04060110.xhp
@@ -21641,7 +21641,7 @@ msgctxt ""
 "par_id2958517\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"office\";2;3)</item> returns \"ffi\" (byte position 2 is at the beginning of a character in a non-DBCS string, and 3 bytes of a non-DBCS string constitute 3 characters)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"office\";2;3)</item> funtzioak \"ffi\" itzultzen du (2 byte-kokagunea DBCS ez den kate bateko karaktere baten hasieran dago, eta 3 byte, DBCS ez den kate batean, 3 karaktere dira)."
 
 #. k4kCo
 #: 04060110.xhp
@@ -21974,7 +21974,7 @@ msgctxt ""
 "par_id2953350\n"
 "help.text"
 msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want RIGHTB to extract, based on bytes. If this parameter is not defined, one byte is returned."
-msgstr ""
+msgstr "<emph>Byte_kopurua</emph> (aukerakoa): RIGHTB funtzioak aterako dituen karaktere kopurua, bytetan oinarrituta, zehazten du. Parametro hau definitzen ez bada, byte bat emango du funtzioak."
 
 #. KnAgN
 #: 04060110.xhp
@@ -38093,7 +38093,7 @@ msgctxt ""
 "par_id3155849\n"
 "help.text"
 msgid "<input>=PHI(2.25)</input> returns 0.0317."
-msgstr ""
+msgstr "<input>=PHI(2.25)</input> funtzioak 0.0317 itzultzen du."
 
 #. NsLhE
 #: 04060184.xhp
@@ -38111,7 +38111,7 @@ msgctxt ""
 "par_id3149286\n"
 "help.text"
 msgid "<input>=PHI(0)</input> returns 0.3989."
-msgstr ""
+msgstr "<input>=PHI(0)</input> funtzioak 0.3989 itzultzen du."
 
 #. GMDrd
 #: 04060184.xhp
@@ -43925,7 +43925,7 @@ msgctxt ""
 "par_id491632804983642\n"
 "help.text"
 msgid "Merge and Center Cells"
-msgstr ""
+msgstr "Batu eta zentratu gelaxkak"
 
 #. ZRQSQ
 #: 05060000.xhp
@@ -43934,7 +43934,7 @@ msgctxt ""
 "par_id3154020\n"
 "help.text"
 msgid "Or, choose <variable id=\"format_mergecells_menu\"><menuitem>Format - Merge and Unmerge Cells - </menuitem></variable><menuitem> Merge and Center Cells</menuitem>."
-msgstr ""
+msgstr "Edo aukeratu <variable id=\"format_mergecells_menu\"><menuitem>Formatua - Batu eta bereizi gelaxkak - </menuitem></variable><menuitem> Batu eta zentratu gelaxkak</menuitem>."
 
 #. 8zues
 #: 05060000.xhp
@@ -43943,7 +43943,7 @@ msgctxt ""
 "par_id3149665\n"
 "help.text"
 msgid "Cells cannot be merged again without first unmerging them."
-msgstr ""
+msgstr "Gelaxkak ezin dira batu aurretik bereizten ez badira."
 
 #. Dybs6
 #: 05060000.xhp
@@ -43961,7 +43961,7 @@ msgctxt ""
 "par_id3148552\n"
 "help.text"
 msgid "Multiple selection is not supported, that is, the selection must be rectangular."
-msgstr ""
+msgstr "Ez da onartzen hautapen anitzik, alegia, hautapenak laukizuzena izan behar du."
 
 #. XB4aH
 #: 05060000.xhp
@@ -43970,7 +43970,7 @@ msgctxt ""
 "par_id211632985508898\n"
 "help.text"
 msgid "The merged cell receives the name and content of the first cell of the selection."
-msgstr ""
+msgstr "Batutako gelaxkak hautapenaren lehen gelaxkaren izena eta edukiak jasoko ditu."
 
 #. XRBDv
 #: 05060000.xhp
@@ -43979,7 +43979,7 @@ msgctxt ""
 "par_id271632985709781\n"
 "help.text"
 msgid "If more than one cell to be merged has content the <emph>Merge Cells</emph> dialog opens."
-msgstr ""
+msgstr "Batuko den gelaxketako batek baino gehiagok badu edukia, <emph>Batu gelaxkak</emph> elkarrizketa-koadroa irekiko da."
 
 #. QWjJw
 #: 05060000.xhp
@@ -43988,7 +43988,7 @@ msgctxt ""
 "par_id391632360383197\n"
 "help.text"
 msgid "Merge Cells Dialog Options"
-msgstr ""
+msgstr "'Batu gelaxkak' elkarrizketa-koadroaren aukerak"
 
 #. LBMEE
 #: 05060000.xhp
@@ -44051,7 +44051,7 @@ msgctxt ""
 "hd_id3157910\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/05070000.xhp\" name=\"Page Style\">Page Style</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/05070000.xhp\" name=\"Page Style\">Orrialde-estiloa</link>"
 
 #. 4vJrN
 #: 05070000.xhp
@@ -44330,7 +44330,7 @@ msgctxt ""
 "par_id3155378\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/sheetprintpage/checkBTN_PAGENO\">Select this option if you want this style to restart page numbering.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/sheetprintpage/checkBTN_PAGENO\">Hautatu aukera hau estilo honek orrialde-zenbakitzea berrabiarazi dezan.</ahelp>"
 
 #. gVwLk
 #: 05070500.xhp
@@ -44339,7 +44339,7 @@ msgctxt ""
 "par_id3145389\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/sheetprintpage/spinED_PAGENO\">Enter the number you want to restart at.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/sheetprintpage/spinED_PAGENO\">Sartu hemen zein zenbakitan hasiko den berrabiaraztea.</ahelp>"
 
 #. V6Y9R
 #: 05070500.xhp
@@ -44654,7 +44654,7 @@ msgctxt ""
 "par_id3159488\n"
 "help.text"
 msgid "<variable id=\"printrangestext\"><ahelp hid=\".uno:EditPrintArea\">Opens a dialog where you can specify the print range.</ahelp></variable> You can also set the rows or columns which are to be repeated in every page."
-msgstr ""
+msgstr "<variable id=\"printrangestext\"><ahelp hid=\".uno:EditPrintArea\">Inprimatze-barrutia zehaztea ahalbidetzen duen elkarrizketa-koadro bat irekitzen du.</ahelp></variable> Orrialde bakoitzean errepikatuko diren errenkadak edo zutabeak ere ezarri daitezke."
 
 #. eja4j
 #: 05080300.xhp
@@ -44816,7 +44816,7 @@ msgctxt ""
 "par_id3149665\n"
 "help.text"
 msgid "The Styles <link href=\"text/shared/00/00000005.xhp#docking\" name=\"dockable window\">dockable window</link> can remain open while editing the document."
-msgstr ""
+msgstr "'Estiloak' <link href=\"text/shared/00/00000005.xhp#docking\" name=\"dockable window\">leiho atrakagarria</link> irekita egon daiteke dokumentua edizioan dagoen bitartean."
 
 #. cawKF
 #: 05100000.xhp
@@ -45410,7 +45410,7 @@ msgctxt ""
 "par_id3149413\n"
 "help.text"
 msgid "List of the conditions defined for the cell range in order of evaluation. You can define as many conditions as you want."
-msgstr ""
+msgstr "Gelaxka-barrutirako definitutako baldintzen zerrenda, ebaluazio-ordenan. Nahi adina baldintza definitu daitezke."
 
 #. YHZ6v
 #: 05120000.xhp
@@ -45428,7 +45428,7 @@ msgctxt ""
 "par_id3149414\n"
 "help.text"
 msgid "<ahelp hid=\".\">Increase priority of the selected condition.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Handitu hautatutako baldintzaren lehentasuna.</ahelp>"
 
 #. YWF6k
 #: 05120000.xhp
@@ -45446,7 +45446,7 @@ msgctxt ""
 "par_id3149415\n"
 "help.text"
 msgid "<ahelp hid=\".\">Decrease priority of the selected condition.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Txikitu hautatutako baldintzaren lehentasuna.</ahelp>"
 
 #. FZJa2
 #: 05120000.xhp
@@ -45455,7 +45455,7 @@ msgctxt ""
 "hd_id31531891\n"
 "help.text"
 msgid "Condition list entry"
-msgstr ""
+msgstr "Baldintza-zerrendako sarrera"
 
 #. YLwyA
 #: 05120000.xhp
@@ -48371,7 +48371,7 @@ msgctxt ""
 "hd_id3150767\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/12040000.xhp\" name=\"Filter\">More Filters</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/12040000.xhp\" name=\"Filter\">Iragazki gehiago</link>"
 
 #. PgpNB
 #: 12040000.xhp
@@ -48389,7 +48389,7 @@ msgctxt ""
 "par_id911633127394220\n"
 "help.text"
 msgid "%PRODUCTNAME automatically recognizes predefined database ranges."
-msgstr ""
+msgstr "%PRODUCTNAME aplikazioak automatikoki ezagutzen ditu aurrez definitutako datu-baseen barrutiak."
 
 #. 7khnq
 #: 12040000.xhp
@@ -52907,7 +52907,7 @@ msgctxt ""
 "par_id3153379\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/erroralerttabpage/ErrorAlertTabPage\">Defines the error message that is displayed when invalid data is entered in a cell.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/erroralerttabpage/ErrorAlertTabPage\">Gelaxka batean datu baliogabeak sartzean bistaratuko den errore-mezua definitzen du.</ahelp>"
 
 #. CqYXY
 #: 12120300.xhp
@@ -53078,7 +53078,7 @@ msgctxt ""
 "par_id531545240216611\n"
 "help.text"
 msgid "msg = \"Invalid value: \" & \"'\" & CellValue & \"'\""
-msgstr ""
+msgstr "msg = \"Baliogabeko balioa: \" & \"'\" & CellValue & \"'\""
 
 #. Zfic8
 #: 12120300.xhp
@@ -53087,7 +53087,7 @@ msgctxt ""
 "bas_id971625928577365\n"
 "help.text"
 msgid "msg = msg & \" in cell: \" & \"'\" & CellAddress & \"'\""
-msgstr ""
+msgstr "msg = msg & \" gelaxka honetan: \" & \"'\" & CellAddress & \"'\""
 
 #. hiNR9
 #: 12120300.xhp
@@ -53096,7 +53096,7 @@ msgctxt ""
 "bas_id181625928577640\n"
 "help.text"
 msgid "msg = msg & Chr(10) & \"Accept anyway?\""
-msgstr ""
+msgstr "msg = msg & Chr(10) & \"Onartu?\""
 
 #. EhFBn
 #: 12120300.xhp
@@ -53105,7 +53105,7 @@ msgctxt ""
 "bas_id941625928578118\n"
 "help.text"
 msgid "iAnswer = MsgBox (msg , MB_FLAGS, \"Error message\")"
-msgstr ""
+msgstr "iAnswer = MsgBox (msg , MB_FLAGS, \"Errore-mezua\")"
 
 #. 4C6T2
 #: ODFF.xhp
@@ -55571,7 +55571,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>ARABIC function</bookmark_value>      <bookmark_value>text functions;convert roman numbers</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ARABIC funtzioa</bookmark_value>      <bookmark_value>testu-funtzioak;zenbaki erromatarrak bihurtzea</bookmark_value>"
 
 #. BNUYi
 #: func_arabic.xhp
@@ -55580,7 +55580,7 @@ msgctxt ""
 "hd_id881628776094597\n"
 "help.text"
 msgid "<variable id=\"Arabic_h1\"><link href=\"text/scalc/01/func_arabic.xhp\" name=\"function ARABIC\">ARABIC</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Arabic_h1\"><link href=\"text/scalc/01/func_arabic.xhp\" name=\"function ARABIC\">ARABIC</link></variable>"
 
 #. xPXrU
 #: func_arabic.xhp
@@ -55625,7 +55625,7 @@ msgctxt ""
 "par_id451628776707264\n"
 "help.text"
 msgid "<input>=ARABIC(\"MXIV\")</input> returns the numeric value 1014."
-msgstr ""
+msgstr "<input>=ARABIC(\"MXIV\")</input> funtzioak 1014 zenbakizko balioa itzultzen du."
 
 #. hDmDF
 #: func_arabic.xhp
@@ -55634,7 +55634,7 @@ msgctxt ""
 "par_id101628778036375\n"
 "help.text"
 msgid "<input>=ARABIC(\"MMII\")</input> returns the numeric value 2002."
-msgstr ""
+msgstr "<input>=ARABIC(\"MMII\")</input> funtzioak 2002 zenbakizko balioa itzultzen du."
 
 #. XAwC8
 #: func_arabic.xhp
@@ -55643,7 +55643,7 @@ msgctxt ""
 "par_id101628778036134\n"
 "help.text"
 msgid "<input>=ARABIC(\"\")</input> returns 0."
-msgstr ""
+msgstr "<input>=ARABIC(\"\")</input> funtzioak 0 itzultzen du."
 
 #. yugTC
 #: func_asc.xhp
@@ -55652,7 +55652,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ASC Function"
-msgstr ""
+msgstr "ASC funtzioa"
 
 #. H3kmF
 #: func_asc.xhp
@@ -55661,7 +55661,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>ASC function</bookmark_value>      <bookmark_value>text functions;katakana characters</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ASC funtzioa</bookmark_value>      <bookmark_value>testu-funtzioak;katakana karaktereak</bookmark_value>"
 
 #. 5sWTB
 #: func_asc.xhp
@@ -55670,7 +55670,7 @@ msgctxt ""
 "hd_id881628776094597\n"
 "help.text"
 msgid "<variable id=\"Asc_h1\"><link href=\"text/scalc/01/func_asc.xhp\" name=\"function ASC\">ASC</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Asc_h1\"><link href=\"text/scalc/01/func_asc.xhp\" name=\"function ASC\">ASC</link></variable>"
 
 #. gtGVG
 #: func_asc.xhp
@@ -55688,7 +55688,7 @@ msgctxt ""
 "par_id151634221012221\n"
 "help.text"
 msgid "See <link href=\"https://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\" name=\"wiki.documentfoundation.org Calc/Features/JIS and ASC functions\">https://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr ""
+msgstr "Begiratu <link href=\"https://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\" name=\"wiki.documentfoundation.org Calc/Features/JIS and ASC functions\">https://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> bihurketen taula bat kontsultatzeko."
 
 #. nWQan
 #: func_asc.xhp
@@ -62501,7 +62501,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "JIS Function"
-msgstr ""
+msgstr "JIS funtzioa"
 
 #. 5Qavf
 #: func_jis.xhp
@@ -62510,7 +62510,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>JIS function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>JIS funtzioa</bookmark_value>"
 
 #. MEYJo
 #: func_jis.xhp
@@ -63428,7 +63428,7 @@ msgctxt ""
 "hd_id3145621\n"
 "help.text"
 msgid "<variable id=\"numbervalue_h1\"><link href=\"text/scalc/01/func_numbervalue.xhp\">NUMBERVALUE</link></variable>"
-msgstr ""
+msgstr "<variable id=\"numbervalue_h1\"><link href=\"text/scalc/01/func_numbervalue.xhp\">NUMBERVALUE</link></variable>"
 
 #. Ywca6
 #: func_numbervalue.xhp
@@ -64562,7 +64562,7 @@ msgctxt ""
 "par_id101628778036375\n"
 "help.text"
 msgid "<input>=ROMAN(999;0)</input> returns \"CMXCIX\"."
-msgstr ""
+msgstr "<input>=ROMAN(999;0)</input> funtzioak \"CMXCIX\" itzultzen du."
 
 #. fGqPj
 #: func_roman.xhp
@@ -64571,7 +64571,7 @@ msgctxt ""
 "par_id101628778036134\n"
 "help.text"
 msgid "<input>=ROMAN(999;1)</input> returns \"LMVLIV\"."
-msgstr ""
+msgstr "<input>=ROMAN(999;1)</input> funtzioak \"LMVLIV\" itzultzen du."
 
 #. qBbFo
 #: func_roman.xhp
@@ -64580,7 +64580,7 @@ msgctxt ""
 "par_id101628778036278\n"
 "help.text"
 msgid "<input>=ROMAN(999;2)</input> returns \"XMIX\"."
-msgstr ""
+msgstr "<input>=ROMAN(999;2)</input> funtzioak \"XMIX\" itzultzen du."
 
 #. AY5jP
 #: func_roman.xhp
@@ -64589,7 +64589,7 @@ msgctxt ""
 "par_id101628778036364\n"
 "help.text"
 msgid "<input>=ROMAN(999;3)</input> returns \"VMIV\"."
-msgstr ""
+msgstr "<input>=ROMAN(999;3)</input> funtzioak \"VMIV\" itzultzen du."
 
 #. B2aqT
 #: func_roman.xhp
@@ -64598,7 +64598,7 @@ msgctxt ""
 "par_id101628778036008\n"
 "help.text"
 msgid "<input>=ROMAN(999;4)</input> returns \"IM\"."
-msgstr ""
+msgstr "<input>=ROMAN(999;4)</input> funtzioak \"IM\" itzultzen du."
 
 #. CBuwx
 #: func_roman.xhp
@@ -65003,7 +65003,7 @@ msgctxt ""
 "par_id3163656\n"
 "help.text"
 msgid "SUM(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "SUM(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. h8z3Q
 #: func_sum.xhp
@@ -65012,7 +65012,7 @@ msgctxt ""
 "par_id3163704\n"
 "help.text"
 msgid "<input>=SUM(2;3;4)</input> returns 9."
-msgstr ""
+msgstr "<input>=SUM(2;3;4)</input> funtzioak 9 itzultzen du."
 
 #. 6ohPR
 #: func_sum.xhp
@@ -70097,7 +70097,7 @@ msgctxt ""
 "hd_id1000070\n"
 "help.text"
 msgid "Output Regression Types"
-msgstr ""
+msgstr "Irteerako erregresio motak"
 
 #. QMDBG
 #: statistics_regression.xhp
