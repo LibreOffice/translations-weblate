@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-26 20:44+0000\n"
+"PO-Revision-Date: 2022-01-26 20:50+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/it/>\n"
 "Language: it\n"
@@ -37004,7 +37004,7 @@ msgctxt ""
 "par_id691634217736290\n"
 "help.text"
 msgid "Beware that VBA's <literal>Round</literal> function works differently than %PRODUCTNAME Calc's <literal>Round</literal> function. In Calc, if the difference between the number to be rounded and the nearest integer is exactly 0.5, then the number is rounded up. Hence, in Calc the number 2.5 is rounded to 3 whereas using VBA's <literal>Round</literal> function the value 2.5 is rounded to 2 due to the \"round-to-even\" rule."
-msgstr "Fate attenzione che la funzione <literal>Round</literal> di VBA lavora diversamente rispetto alla funzione <literal>Round</literal> di %PRODUCTNAME Calc. In Calc, se la differenza tra il numero da arrotondare e il numero intero più vicino è esattamente 0,5, il numero viene arrotondato per eccesso. Perciò, in Calc il numero 2,5 viene arrotondato a 3 mentre usando la funzione <literal>Round</literal> di VBA il valore 2,5 viene arrotondato a 2 a causa della regola di \"arrotondamento del banchiere\" (al numero pari)."
+msgstr "Fate attenzione che la funzione <literal>Round</literal> di VBA lavora diversamente rispetto alla funzione <literal>Round</literal> (ARROTONDA) di %PRODUCTNAME Calc. In Calc, se la differenza tra il numero da arrotondare e il numero intero più vicino è esattamente 0,5, il numero viene arrotondato per eccesso. Perciò, in Calc il numero 2,5 viene arrotondato a 3 mentre usando la funzione <literal>Round</literal> di VBA il valore 2,5 viene arrotondato a 2 a causa della regola di \"arrotondamento del banchiere\" (al numero pari)."
 
 #. GSzGj
 #: 03170000.xhp
@@ -37013,7 +37013,7 @@ msgctxt ""
 "par_id240720170117391741\n"
 "help.text"
 msgid "<emph>expression</emph>: The numeric expression to be rounded."
-msgstr ""
+msgstr "<emph>expression</emph>: l'espressione numerica da arrotondare."
 
 #. 9E33v
 #: 03170000.xhp
@@ -37022,7 +37022,7 @@ msgctxt ""
 "par_id240720170117395610\n"
 "help.text"
 msgid "<emph>numdecimalplaces</emph>: Optional argument that specifies the number of decimal digits in the resulting rounded value. The default value is 0."
-msgstr ""
+msgstr "<emph>numdecimalplaces</emph>: argomento facoltativo che specifica il numero di cifre decimali del valore arrotondato risultante. Il valore predefinito è 0."
 
 #. oSEiU
 #: 03170000.xhp
@@ -37031,7 +37031,7 @@ msgctxt ""
 "par_id541634154843718\n"
 "help.text"
 msgid "The following examples illustrate the \"round-to-even\" rule:"
-msgstr ""
+msgstr "L'esempio seguente illustra la regola di \"arrotondamento del banchiere\" (al numero pari):"
 
 #. 4DLZC
 #: 03170000.xhp
@@ -37040,7 +37040,7 @@ msgctxt ""
 "bas_id651634154984931\n"
 "help.text"
 msgid "' Rounding to the nearest integer (decimalplaces = 0)"
-msgstr ""
+msgstr "' Arrotondamento al numero intero più vicino (decimalplaces = 0)"
 
 #. DQwkT
 #: 03170000.xhp
@@ -37049,7 +37049,7 @@ msgctxt ""
 "bas_id651634157812537\n"
 "help.text"
 msgid "' Rounding with 2 decimal digits (decimalplaces = 2)"
-msgstr ""
+msgstr "' Arrotondamento con 2 cifre decimali (decimalplaces = 2)"
 
 #. g7CVV
 #: 03170000.xhp
@@ -38363,7 +38363,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Using Calc Functions in Macros"
-msgstr ""
+msgstr "Utilizzo delle funzioni di Calc nelle macro"
 
 #. B2ErX
 #: calc_functions.xhp
@@ -38372,7 +38372,7 @@ msgctxt ""
 "bm_id291592361063458\n"
 "help.text"
 msgid "<bookmark_value>calling Calc function;macros</bookmark_value>    <bookmark_value>setting Calc function;macros</bookmark_value>    <bookmark_value>macros;calling Calc function</bookmark_value>    <bookmark_value>macros;setting Calc function</bookmark_value>    <bookmark_value>createUNOservice function;calling Calc function</bookmark_value>    <bookmark_value>API;sheet.addin.Analysis</bookmark_value>    <bookmark_value>API;sheet.FunctionAccess</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>richiamare funzioni di Calc;macro</bookmark_value> <bookmark_value>impostare funzioni di Calc;macro</bookmark_value> <bookmark_value>macro;richiamare funzioni di Calc</bookmark_value> <bookmark_value>macro;impostare funzioni di Calc</bookmark_value> <bookmark_value>funzione createUNOservice;richiamare funzioni di Calc</bookmark_value> <bookmark_value>API;sheet.addin.Analysis</bookmark_value> <bookmark_value>API;sheet.FunctionAccess</bookmark_value>"
 
 #. oDKGc
 #: calc_functions.xhp
