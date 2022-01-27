@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-27 12:28+0000\n"
+"PO-Revision-Date: 2022-01-27 12:40+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -4704,7 +4704,7 @@ msgctxt ""
 "par_id821591631203212\n"
 "help.text"
 msgid "<emph>row2, column2</emph>: Specify the row and column numbers of the bottom-right cell in the range to be considered. If these arguments are not provided, or if values smaller than <literal>row1</literal> and <literal>column1</literal> are given, then the address of the single cell range represented by <literal>row1</literal> and <literal>column1</literal> is returned."
-msgstr "<emph>row2, column2</emph>: specifica i numeri di riga e colonna della cella d'angolo in basso a destra dell'intervallo da considerare. Se questi argomenti non sono inseriti, o se i loro valori sono inferiori a quelli di <literal>row1</literal> e <literal>column1</literal>, verrà restituito l'indirizzo dell'intervallo rappresentato dalla singola cella <literal>row1</literal> e <literal>column1</literal>."
+msgstr "<emph>row2, column2</emph>: specifica i numeri di riga e colonna della cella inferiore destra nell'intervallo da considerare. Se questi argomenti non sono inseriti, o se i loro valori sono inferiori a quelli di <literal>row1</literal> e <literal>column1</literal>, verrà restituito l'indirizzo dell'intervallo rappresentato dalla singola cella <literal>row1</literal> e <literal>column1</literal>."
 
 #. Egj6k
 #: sf_calc.xhp
@@ -4713,7 +4713,7 @@ msgctxt ""
 "par_id821591631203336\n"
 "help.text"
 msgid "<emph>sheetname</emph>: The name of the sheet to be appended to the returned range address. The sheet must exist. The default value is \"~\" corresponding to the currently active sheet."
-msgstr ""
+msgstr "<emph>sheetname</emph>: il nome del foglio da aggiungere all'intervallo di celle restituito. Il foglio deve esistere. Il valore predefinito è \"~\" che corrisponde al foglio attualmente attivo."
 
 #. idfEg
 #: sf_calc.xhp
@@ -4722,7 +4722,7 @@ msgctxt ""
 "par_id131611616623705\n"
 "help.text"
 msgid "The examples below in Basic and Python consider that \"Sheet1\" is the currently active sheet."
-msgstr ""
+msgstr "Gli esempi sottostanti in Basic e Python considerano che \"Sheet1\" sia il foglio attualmente attivo."
 
 #. eXJNG
 #: sf_calc.xhp
@@ -4731,7 +4731,7 @@ msgctxt ""
 "par_id501611617808112\n"
 "help.text"
 msgid "The method <literal>A1Style</literal> can be combined with any of the many properties and methods of the Calc service that require a range as argument, such as <literal>GetValue</literal>, <literal>GetFormula</literal>, <literal>ClearAll</literal>, etc."
-msgstr ""
+msgstr "Il metodo <literal>A1Style</literal> può essere combinato con qualsiasi proprietà e metodo del servizio Calc che richieda un intervallo come argomento, come <literal>GetValue</literal>, <literal>GetFormula</literal>, <literal>ClearAll</literal>, ecc."
 
 #. Hfeug
 #: sf_calc.xhp
@@ -4740,7 +4740,7 @@ msgctxt ""
 "par_id93158919969864\n"
 "help.text"
 msgid "If the argument <literal>sheetname</literal> is provided, the given sheet is activated and it becomes the currently selected sheet. If the argument is absent, then the document window is activated."
-msgstr ""
+msgstr "Se è fornito l'argomento <literal>sheetname</literal>, il foglio specificato viene attivato e diventa il foglio attualmente selezionato. Se l'argomento è assente, viene attivata la finestra del documento."
 
 #. EhMzz
 #: sf_calc.xhp
@@ -4776,7 +4776,7 @@ msgctxt ""
 "par_id93158919969856\n"
 "help.text"
 msgid "Returns either the list with the names of all chart objects in a given sheet or a single <literal>Chart</literal> service instance."
-msgstr ""
+msgstr "Restituisce l'elenco con i nomi di tutti gli oggetti grafici del foglio precisato, o una singola istanza del servizio <literal>Chart</literal>."
 
 #. sBNho
 #: sf_calc.xhp
@@ -4785,7 +4785,7 @@ msgctxt ""
 "par_id371635438503202\n"
 "help.text"
 msgid "If only <literal>sheetname</literal> is specified, an zero-based array of strings containing the names of all charts is returned."
-msgstr ""
+msgstr "Se è specificato solo <literal>sheetname</literal>, viene restituita una matrice con indice a partire da zero che contiene i nomi di tutti i grafici."
 
 #. pGvVW
 #: sf_calc.xhp
@@ -4794,7 +4794,7 @@ msgctxt ""
 "par_id371635438509045\n"
 "help.text"
 msgid "If a <literal>chartname</literal> is provided, than a single object corresponding to the desired chart is returned. The specified chart must exist."
-msgstr ""
+msgstr "Se è inserito un <literal>chartname</literal>, viene restituito un singolo oggetto corrispondente al grafico desiderato. Il grafico specificato deve esistere."
 
 #. T2e3d
 #: sf_calc.xhp
@@ -4803,7 +4803,7 @@ msgctxt ""
 "par_id821591631205026\n"
 "help.text"
 msgid "<emph>sheetname</emph>: The name of the sheet from which the list of charts is to be retrieved or where the specified chart is located."
-msgstr ""
+msgstr "<emph>sheetname</emph>: il nome del foglio da cui recuperare l'elenco dei grafici, o nel quale si trova il grafico specificato."
 
 #. Dhape
 #: sf_calc.xhp
@@ -4812,7 +4812,7 @@ msgctxt ""
 "par_id821591631203566\n"
 "help.text"
 msgid "<emph>chartname</emph>: The user-defined name of the chart object to be returned. If the chart does not have a user-defined name, then the internal object name can be used. If this argument is absent, then the list of chart names in the specified sheet is returned."
-msgstr ""
+msgstr "<emph>chartname</emph>: il nome definito dall'utente dell'oggetto rappresentante il grafico da restituire. Se il grafico non possiede un nome definito dall'utente, potete usare il nome interno dell'oggetto. Se l'argomento è assente, viene restituito l'elenco di tutti i nomi dei grafici presenti nel foglio specificato."
 
 #. C7CSH
 #: sf_calc.xhp
@@ -4821,7 +4821,7 @@ msgctxt ""
 "par_id431635438771588\n"
 "help.text"
 msgid "Use the <menuitem>Navigator</menuitem> sidebar to check the names assigned to charts under the <menuitem>OLE objects</menuitem> category."
-msgstr ""
+msgstr "Usate il <menuitem>Navigator</menuitem> nella barra laterale per controllare i nomi assegnati ai grafici all'interno della categoria <menuitem>Oggetti OLE</menuitem>."
 
 #. zbX9R
 #: sf_calc.xhp
