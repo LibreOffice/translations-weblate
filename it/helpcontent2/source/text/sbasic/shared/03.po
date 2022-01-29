@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-29 18:11+0000\n"
-"Last-Translator: Valter Mura <valtermura@gmail.com>\n"
+"PO-Revision-Date: 2022-01-29 18:24+0000\n"
+"Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1670,7 +1670,7 @@ msgctxt ""
 "par_id101585562548245\n"
 "help.text"
 msgid "If a line contains less or more fields than the first line in the file, an exception will be raised. Empty lines however are simply ignored. If the size of the file exceeds the number of items limit (see inside the code), a warning is raised and the array is truncated."
-msgstr "Se una riga contiene un numero minore o maggiore di campi rispetto alla prima riga del file, verrà sollevata un'eccezione. In ogni caso le righe vuote saranno semplicemente ignorate. Se la dimensione del file eccede il numero limite di elementi (vedete all'interno del codice), viene sollevata un'eccezione e la matrice viene troncata."
+msgstr "Se una riga contiene un numero minore o maggiore di campi rispetto alla prima riga del file, si genera un'eccezione. In ogni caso le righe vuote saranno semplicemente ignorate. Se la dimensione del file eccede il numero limite di elementi (vedete all'interno del codice), viene sollevata un'eccezione e la matrice viene troncata."
 
 #. zGf5A
 #: sf_array.xhp
@@ -5747,7 +5747,7 @@ msgctxt ""
 "par_id351591698903911\n"
 "help.text"
 msgid "<emph>sheetname</emph>: The name of the sheet to move. The sheet must exist or an exception is raised."
-msgstr "<emph>sheetname</emph>: il nome del foglio da spostare. Il foglio deve esistere, altrimenti viene sollevata un'eccezione."
+msgstr "<emph>sheetname</emph>: il nome del foglio da spostare. Il foglio deve esistere, altrimenti si genera un'eccezione."
 
 #. fevuS
 #: sf_calc.xhp
@@ -11608,7 +11608,7 @@ msgctxt ""
 "hd_id731582733781114\n"
 "help.text"
 msgid "<variable id=\"DocumentService\"><link href=\"text/sbasic/shared/03/sf_document.xhp\" name=\"Exception service\"><literal>SFDocuments</literal>.<literal>Document</literal> service</link></variable>"
-msgstr "<variable id=\"DocumentService\"><link href=\"text/sbasic/shared/03/sf_document.xhp\" name=\"Servizio Exception service\">Servizio <literal>SFDocuments</literal>.<literal>Document</literal></link></variable>"
+msgstr "<variable id=\"DocumentService\"><link href=\"text/sbasic/shared/03/sf_document.xhp\" name=\"Servizio Exception\">Servizio <literal>SFDocuments</literal>.<literal>Document</literal></link></variable>"
 
 #. FoEeH
 #: sf_document.xhp
@@ -12562,7 +12562,7 @@ msgctxt ""
 "par_id621587225732733\n"
 "help.text"
 msgid "Errors and warnings raised with the <literal>Exception</literal> service are stored in memory and can be retrieved using the <literal>Console</literal> method."
-msgstr "Gli errori e gli avvisi sollevati col servizio <literal>Exception</literal> vengono memorizzati e possono essere recuperati usando il metodo <literal>Console</literal>."
+msgstr "Gli errori e gli avvisi generati col servizio <literal>Exception</literal> vengono memorizzati e possono essere recuperati usando il metodo <literal>Console</literal>."
 
 #. CpBSQ
 #: sf_exception.xhp
@@ -12760,7 +12760,7 @@ msgctxt ""
 "par_id151610652632828\n"
 "help.text"
 msgid "Default value is 0 or the numeric value corresponding to the Basic run-time error code."
-msgstr "Il valore predefinito è 0 o il valore numerico corrispondente al codice dell'errore del tempo di esecuzione (run-time) di Basic."
+msgstr "Il valore predefinito è 0 o il valore numerico corrispondente al codice dell'errore del tempo di esecuzione (runtime) di Basic."
 
 #. uLE2Q
 #: sf_exception.xhp
@@ -12787,7 +12787,7 @@ msgctxt ""
 "par_id681610652723345\n"
 "help.text"
 msgid "Default value is 0 or the code line number for a standard Basic run-time error."
-msgstr "Il valore predefinito è 0 o il numero della riga di codice per un errore del tempo di esecuzione (run-time) standard di Basic."
+msgstr "Il valore predefinito è 0 o il numero della riga di codice per un errore del tempo di esecuzione (runtime) standard di Basic."
 
 #. mnFGS
 #: sf_exception.xhp
@@ -12967,7 +12967,7 @@ msgctxt ""
 "par_id481587218637988\n"
 "help.text"
 msgid "<emph>arg0[, arg1, ...]</emph>: Any number of arguments of any type."
-msgstr "<emph>arg0[, arg1, ...]</emph>: Qualsiasi numero di argomenti di qualunque tipo."
+msgstr "<emph>arg0[, arg1, ...]</emph>: qualsiasi numero di argomenti di qualunque tipo."
 
 #. ZxYFC
 #: sf_exception.xhp
@@ -13066,7 +13066,7 @@ msgctxt ""
 "par_id541587219824771\n"
 "help.text"
 msgid "Generates a run-time error. An error message is displayed to the user and reported in the console. The execution is stopped. The <literal>Raise()</literal> method can be placed inside the normal script flow or in a dedicated error-handling routine."
-msgstr "Genera un errore del tempo di esecuzione (run-time). Viene visualizzato un messaggio di errore e registrato nella console. L'esecuzione viene fermata. Il metodo <literal>Raise()</literal> può essere posizionato all'interno del normale flusso dello script o in una routine dedicata alla gestione dell'errore."
+msgstr "Genera un errore del tempo di esecuzione (runtime). Viene visualizzato un messaggio di errore e registrato nella console. L'esecuzione viene fermata. Il metodo <literal>Raise()</literal> può essere posizionato all'interno del normale flusso dello script o in una routine dedicata alla gestione dell'errore."
 
 #. RuDTE
 #: sf_exception.xhp
@@ -13075,7 +13075,7 @@ msgctxt ""
 "par_id921587220542454\n"
 "help.text"
 msgid "The code snippets presented next are equivalent. They show alternative ways to raise an exception with code 2100."
-msgstr "I frammenti di codice presentati di seguito sono equivalenti. Mostrano modi alternativi per sollevare un'eccezione con codice 2100."
+msgstr "I frammenti di codice presentati di seguito sono equivalenti. Mostrano modi alternativi per generare un'eccezione con codice 2100."
 
 #. 6wEJq
 #: sf_exception.xhp
@@ -13120,7 +13120,7 @@ msgctxt ""
 "par_id111587222580987\n"
 "help.text"
 msgid "To raise an exception with the standard values:"
-msgstr "Per sollevare un'eccezione con i valori standard:"
+msgstr "Per generare un'eccezione con i valori standard:"
 
 #. SABN3
 #: sf_exception.xhp
@@ -13129,7 +13129,7 @@ msgctxt ""
 "par_id751587222598238\n"
 "help.text"
 msgid "To raise an exception with a specific code:"
-msgstr "Per sollevare un'eccezione con un codice specifico:"
+msgstr "Per generare un'eccezione con un codice specifico:"
 
 #. QXgCy
 #: sf_exception.xhp
@@ -13156,7 +13156,7 @@ msgctxt ""
 "par_id611587222617174\n"
 "help.text"
 msgid "To raise an application error:"
-msgstr "Per sollevare un errore dell'applicazione:"
+msgstr "Per generare un errore dell'applicazione:"
 
 #. ifrWg
 #: sf_exception.xhp
@@ -13921,7 +13921,7 @@ msgctxt ""
 "par_id491584540675469\n"
 "help.text"
 msgid "<emph>foldername</emph>: A string representing the folder to be created. If the folder already exists, an exception will be raised."
-msgstr "<emph>foldername</emph>: una stringa che rappresenta la cartella da creare. Se la cartella esiste già, viene sollevata un'eccezione."
+msgstr "<emph>foldername</emph>: una stringa che rappresenta la cartella da creare. Se la cartella esiste già, si genera un'eccezione."
 
 #. 2zcfH
 #: sf_filesystem.xhp
@@ -14083,7 +14083,7 @@ msgctxt ""
 "par_id651626217314709\n"
 "help.text"
 msgid "In the examples below only folders and their contents are deleted. Files in the parent folder \"C:\\Temp\" are not deleted."
-msgstr "Negli esempi sottostanti vengono cancellate solo le cartelle e i loro contenuti. I file nella cartella di origine \"C:\\Temp\" non vengono eliminati."
+msgstr "Negli esempi sottostanti sono eliminate solo le cartelle e i loro contenuti. I file nella cartella di origine \"C:\\Temp\" non vengono eliminati."
 
 #. ZbyLn
 #: sf_filesystem.xhp
@@ -14101,7 +14101,7 @@ msgctxt ""
 "par_id91613003122613\n"
 "help.text"
 msgid "If the <literal>filename</literal> parameter is actually an existing folder name, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Se il parametro <literal>filename</literal> è in realtà il nome di una cartella, il metodo restituisce <literal>False</literal>."
 
 #. fr2Ei
 #: sf_filesystem.xhp
@@ -14110,7 +14110,7 @@ msgctxt ""
 "par_id361583764426547\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing the file to be tested."
-msgstr ""
+msgstr "<emph>filename</emph>: una stringa che rappresenta il file da verificare."
 
 #. ChDCL
 #: sf_filesystem.xhp
@@ -14128,7 +14128,7 @@ msgctxt ""
 "par_id641613003790120\n"
 "help.text"
 msgid "If the argument <literal>foldername</literal> specifies a folder that does not exist, an exception is raised."
-msgstr ""
+msgstr "Se l'argomento <literal>foldername</literal> specifica una cartella che non esiste, si genera un'eccezione."
 
 #. nFaPD
 #: sf_filesystem.xhp
@@ -14146,7 +14146,7 @@ msgctxt ""
 "par_id731583944543140\n"
 "help.text"
 msgid "<emph>foldername</emph>: A string representing a folder. The folder must exist. This argument must not designate a file."
-msgstr ""
+msgstr "<emph>foldername</emph>: una stringa che rappresenta una cartella. La cartella deve esistere. Questo argomento non deve indicare un file."
 
 #. EM5cJ
 #: sf_filesystem.xhp
@@ -14155,7 +14155,7 @@ msgctxt ""
 "par_id591585648450060\n"
 "help.text"
 msgid "<emph>filter</emph>: A string containing wildcards (\"?\" and \"*\") that will be applied to the resulting list of files (default = \"\")."
-msgstr ""
+msgstr "<emph>filter</emph>: una stringa contenente caratteri jolly (\"?\" e \"*\") da applicare all'elenco di file risultante (predefinito = \"\")."
 
 #. zG7ec
 #: sf_filesystem.xhp
@@ -14173,7 +14173,7 @@ msgctxt ""
 "par_id151613004111990\n"
 "help.text"
 msgid "If the <literal>foldername</literal> parameter is actually an existing file name, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Se il parametro <literal>foldername</literal> corrisponde effettivamente al nome di un file esistente, il metodo restituisce <literal>False</literal>."
 
 #. qrf4A
 #: sf_filesystem.xhp
@@ -14182,7 +14182,7 @@ msgctxt ""
 "par_id1001583765642211\n"
 "help.text"
 msgid "<emph>foldername</emph>: A string representing the folder to be tested."
-msgstr ""
+msgstr "<emph>foldername</emph>: una stringa che rappresenta la cartella da verificare."
 
 #. eAFVs
 #: sf_filesystem.xhp
@@ -14209,7 +14209,7 @@ msgctxt ""
 "par_id691584110618308\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing the file name and its path."
-msgstr ""
+msgstr "<emph>filename</emph>: una stringa che rappresenta il nome del file ed il suo percorso."
 
 #. jwFaP
 #: sf_filesystem.xhp
@@ -15037,7 +15037,7 @@ msgctxt ""
 "par_id181618250546617\n"
 "help.text"
 msgid "If you try to access a <literal>FormDocument</literal> that is currently opened in <emph>Design Mode</emph> an exception will be raised."
-msgstr "Se provate ad accedere a un formulario (<literal>FormDocument</literal>) che in quel momento è aperto in <emph>Modo struttura</emph>, verrà sollevata un'eccezione."
+msgstr "Se provate ad accedere a un formulario (<literal>FormDocument</literal>) che in quel momento è aperto in <emph>Modo struttura</emph>, si genererà un'eccezione."
 
 #. xNr3R
 #: sf_form.xhp
