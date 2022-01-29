@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-29 17:57+0000\n"
+"PO-Revision-Date: 2022-01-29 18:04+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -1256,7 +1256,7 @@ msgctxt ""
 "par_id391582552517870\n"
 "help.text"
 msgid "Check if a one dimension array contains a certain number, text or date. Text comparison can be case-sensitive or not.      <br/>Sorted input arrays must be filled homogeneously, meaning all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and is in reality not.      <br/>A binary search is done when the array is sorted, otherwise, it is simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored."
-msgstr "Controlla se una matrice unidimensionale contiene un determinato numero, testo o data. La comparazione del testo può essere soggetta a distinzione tra maiuscole e minuscole oppure no. <br/>Le matrici ordinate di partenza devono essere riempite in modo omogeneo, ciò significa che tutti gli elementi devono essere scalari dello stesso tipo (i valori <literal>Empty</literal> e <literal>Null</literal> sono vietati). <br/>Il risultato del metodo non è prevedibile se una matrice viene passata come ordinata, ma in realtà non lo è. <br/>Se la matrice è ordinata viene effettuata una ricerca di tipo binario, altrimenti viene semplicemente controllata da cima a fondo ed i valori <literal>Empty</literal> e <literal>Null</literal> vengono ignorati."
+msgstr "Controlla se una matrice unidimensionale contiene un determinato numero, testo o data. La comparazione del testo può essere soggetta a distinzione tra maiuscole e minuscole oppure no. <br/>Le matrici ordinate di partenza devono essere riempite in modo omogeneo, ciò significa che tutti gli elementi devono essere scalari dello stesso tipo (i valori <literal>Empty</literal> e <literal>Null</literal> sono vietati). <br/>Il risultato del metodo non è prevedibile se una matrice viene passata come ordinata, ma in realtà non lo è. <br/>Se la matrice è ordinata viene effettuata una ricerca di tipo binario, altrimenti viene semplicemente controllata da cima a fondo e i valori <literal>Empty</literal> e <literal>Null</literal> vengono ignorati."
 
 #. CuUGw
 #: sf_array.xhp
@@ -4307,7 +4307,7 @@ msgctxt ""
 "par_id85159240716128\n"
 "help.text"
 msgid "Returns the topmost row number in a given range or sheet."
-msgstr "Restituisce il numero di riga più in alto in un determinato intervallo o foglio."
+msgstr "Restituisce il numero di riga più in alto in una determinata area o foglio."
 
 #. BHFeu
 #: sf_calc.xhp
@@ -5252,7 +5252,7 @@ msgctxt ""
 "par_id5515929031216390\n"
 "help.text"
 msgid "<emph>columnheader:</emph> When <literal>True</literal>, the topmost row of the range is used as labels for the category axis or the legend (Default = <literal>False</literal>)."
-msgstr "<emph>columnheader</emph>: se impostato su <literal>True</literal>, la riga in cima all'intervallo è usata per le etichette delle categorie degli assi o della legenda (predefinito = <literal>False</literal>)."
+msgstr "<emph>columnheader</emph>: se impostato su <literal>True</literal>, la riga più in alto dell'area è usata per le etichette delle categorie degli assi o della legenda (predefinito = <literal>False</literal>)."
 
 #. iyq5m
 #: sf_calc.xhp
@@ -6640,7 +6640,7 @@ msgctxt ""
 "par_id481593880373529\n"
 "help.text"
 msgid "Deletes the topmost rows of a given range and moves upwards all cells below the affected range. The current selection is not affected."
-msgstr "Elimina le prime righe in cima all'area specificata e sposta in alto tutte le celle al di sotto dell'intervallo interessato. Non ha effetto sulla selezione corrente."
+msgstr "Elimina le righe più in alto dell'area specificata e sposta in alto tutte le celle al di sotto dell'area interessata. Non ha effetto sulla selezione corrente."
 
 #. kb5h3
 #: sf_calc.xhp
@@ -13930,7 +13930,7 @@ msgctxt ""
 "par_id731585322689518\n"
 "help.text"
 msgid "Creates a specified file and returns a <literal>TextStream</literal> service instance that can be used to write to the file."
-msgstr "Crea il file specificato e restituisce un'istanza del servizio <literal>TextStream</literal> che può essere usata per scrivere nel file."
+msgstr "Crea il file specificato e restituisce un'istanza del servizio <literal>TextStream</literal>, che può essere usata per scrivere nel file."
 
 #. YMZDA
 #: sf_filesystem.xhp
@@ -13948,7 +13948,7 @@ msgctxt ""
 "par_id901585322689715\n"
 "help.text"
 msgid "<emph>filename</emph>: The name of the file to be created."
-msgstr ""
+msgstr "<emph>filename</emph>: il nome del file da creare."
 
 #. gEJA4
 #: sf_filesystem.xhp
@@ -13957,7 +13957,7 @@ msgctxt ""
 "par_id501585322689209\n"
 "help.text"
 msgid "<emph>overwrite</emph>: Boolean value that determines if <literal>filename</literal> can be overwritten (default = <literal>True</literal>)."
-msgstr ""
+msgstr "<emph>overwrite</emph>: un valore booleano che determina se il file <literal>filename</literal> può essere sovrascritto (predefinito = <literal>True</literal>)."
 
 #. CkbhC
 #: sf_filesystem.xhp
@@ -13966,7 +13966,7 @@ msgctxt ""
 "par_id551585322689192\n"
 "help.text"
 msgid "<emph>encoding</emph>: The character set to be used. The default encoding is \"UTF-8\"."
-msgstr ""
+msgstr "<emph>encoding</emph>: la codifica caratteri da usare. La codifica predefinita è \"UTF-8\"."
 
 #. eoE92
 #: sf_filesystem.xhp
@@ -14398,7 +14398,7 @@ msgctxt ""
 "par_id301601042791356\n"
 "help.text"
 msgid "The <literal>HashFile</literal> method returns the result of a hash function, applied on a given file and using a specified algorithm. The returned value is a string of lower-case hexadecimal digits."
-msgstr "Il metodo <literal>HashFile</literal> restituisce il risultato di una funzione di hash applicata ad un determinato file usando un algoritmo specificato. Il valore restituito è una stringa di cifre esadecimali con le lettere in minuscolo."
+msgstr "Il metodo <literal>HashFile</literal> restituisce il risultato di una funzione di hash applicata a un determinato file usando un algoritmo specificato. Il valore restituito è una stringa di cifre esadecimali con le lettere in minuscolo."
 
 #. eAW33
 #: sf_filesystem.xhp
@@ -21949,7 +21949,7 @@ msgctxt ""
 "par_id301601048983765\n"
 "help.text"
 msgid "The <literal>HashStr</literal> method returns the result of a hash function applied on a given string and using a specified algorithm, as a string of lowercase hexadecimal digits."
-msgstr "Il metodo <literal>HashStr</literal> restituisce il risultato di una funzione di hash, applicata alla stringa indicata, usando un algoritmo specifico, in formato stringa esadecimale con lettere minuscole."
+msgstr "Il metodo <literal>HashStr</literal> restituisce il risultato di una funzione di hash, applicata alla stringa specificata, usando un algoritmo specifico, in formato stringa esadecimale con lettere minuscole."
 
 #. ZRZEF
 #: sf_string.xhp
