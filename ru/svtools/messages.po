@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2021-12-20 13:21+0100\n"
+"POT-Creation-Date: 2022-01-31 18:20+0100\n"
 "PO-Revision-Date: 2022-01-20 04:10+0000\n"
 "Last-Translator: bormant <bormant@mail.ru>\n"
 "Language-Team: Russian <https://translations.documentfoundation.org/projects/libo_ui-master/svtoolsmessages/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1562678205.000000\n"
 
 #. fLdeV
@@ -5028,6 +5028,12 @@ msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "Interslavic Cyrillic"
 msgstr "Межславянская кириллица"
 
+#. 4eEDW
+#: svtools/inc/langtab.hrc:440
+msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
+msgid "Pennsylvania Dutch"
+msgstr ""
+
 #. fXSja
 #: svtools/uiconfig/ui/addresstemplatedialog.ui:8
 msgctxt "addresstemplatedialog|AddressTemplateDialog"
@@ -5250,236 +5256,248 @@ msgctxt "graphicexport|label2"
 msgid "Color Depth"
 msgstr "Глубина цвета"
 
-#. 5v8Jn
-#: svtools/uiconfig/ui/graphicexport.ui:393
-msgctxt "graphicexport|extended_tip|compressionjpgnf"
+#. eUi3Y
+#: svtools/uiconfig/ui/graphicexport.ui:385
+msgctxt "graphicexport|losslesscb"
+msgid "Lossless"
+msgstr ""
+
+#. QKNme
+#: svtools/uiconfig/ui/graphicexport.ui:394
+msgctxt "graphicexport|extended_tip|losslesscb"
+msgid "Lossless images do not lose quality but result in larger files."
+msgstr ""
+
+#. 5Gv5x
+#: svtools/uiconfig/ui/graphicexport.ui:413
+msgctxt "graphicexport|extended_tip|compressionjpgwebpnf"
 msgid "Sets the quality for the export. Choose from a low quality with minimal file size, up to a high quality and big file size."
-msgstr "Устанавливает качество для экспорта. Выбор от низкого качества с минимальным размером файла до высокого качества и большого размера файла."
+msgstr ""
 
 #. Tk5y2
-#: svtools/uiconfig/ui/graphicexport.ui:422
+#: svtools/uiconfig/ui/graphicexport.ui:442
 msgctxt "graphicexport|label9"
 msgid "Quality"
 msgstr "Качество"
 
 #. AHkNV
-#: svtools/uiconfig/ui/graphicexport.ui:458
+#: svtools/uiconfig/ui/graphicexport.ui:478
 msgctxt "graphicexport|extended_tip|compressionpngnf"
 msgid "Sets the compression for the export. A high compression means a smaller, but slower to load image."
 msgstr "Сжатие при экспорте. При высоком сжатии размер файла меньше, но медленнее загрузка изображения."
 
 #. f4LYz
-#: svtools/uiconfig/ui/graphicexport.ui:487
+#: svtools/uiconfig/ui/graphicexport.ui:507
 msgctxt "graphicexport|label"
 msgid "Compression"
 msgstr "Сжатие"
 
 #. hQadL
-#: svtools/uiconfig/ui/graphicexport.ui:507
+#: svtools/uiconfig/ui/graphicexport.ui:527
 msgctxt "graphicexport|rlecb"
 msgid "RLE encoding"
 msgstr "Кодирование RLE"
 
 #. DqpKW
-#: svtools/uiconfig/ui/graphicexport.ui:518
+#: svtools/uiconfig/ui/graphicexport.ui:538
 msgctxt "graphicexport|extended_tip|rlecb"
 msgid "Applies RLE (Run Length Encoding) to the BMP graphics."
 msgstr "Выберите этот значок, чтобы выполнить просмотр графических объектов."
 
 #. EA7BF
-#: svtools/uiconfig/ui/graphicexport.ui:527
+#: svtools/uiconfig/ui/graphicexport.ui:547
 msgctxt "graphicexport|label3"
 msgid "Compression"
 msgstr "Сжатие"
 
 #. qiLZK
-#: svtools/uiconfig/ui/graphicexport.ui:547
+#: svtools/uiconfig/ui/graphicexport.ui:567
 msgctxt "graphicexport|interlacedcb"
 msgid "Interlaced"
 msgstr "С чередованием"
 
 #. cLvu6
-#: svtools/uiconfig/ui/graphicexport.ui:558
+#: svtools/uiconfig/ui/graphicexport.ui:578
 msgctxt "graphicexport|extended_tip|interlacedcb"
 msgid "Specifies whether the graphic is to be saved in interlaced mode."
 msgstr "Определяет, является ли фон выбранного объекта прозрачным или непрозрачным."
 
 #. BkbD3
-#: svtools/uiconfig/ui/graphicexport.ui:567
+#: svtools/uiconfig/ui/graphicexport.ui:587
 msgctxt "graphicexport|label12"
 msgid "Mode"
 msgstr "Режим"
 
 #. Nhj88
-#: svtools/uiconfig/ui/graphicexport.ui:587
+#: svtools/uiconfig/ui/graphicexport.ui:607
 msgctxt "graphicexport|savetransparencycb"
 msgid "Save transparency"
 msgstr "Сохранить прозрачность"
 
 #. kZ3uW
-#: svtools/uiconfig/ui/graphicexport.ui:598
+#: svtools/uiconfig/ui/graphicexport.ui:618
 msgctxt "graphicexport|extended_tip|savetransparencycb"
 msgid "Specifies whether to save the background of the picture as transparent. Only objects will be visible in the GIF image. Use the Color Replacer to set the transparent color in the picture."
 msgstr "Указывается, требуется ли сохранить фон изображения в прозрачном виде. В GIF-изображении будут видны только объекты. Для задания прозрачного цвета для рисунка используется инструмент \"Пипетка\"."
 
 #. ZPmXf
-#: svtools/uiconfig/ui/graphicexport.ui:607
+#: svtools/uiconfig/ui/graphicexport.ui:627
 msgctxt "graphicexport|labe"
 msgid "Drawing Objects"
 msgstr "Рисунки"
 
 #. KMCxb
-#: svtools/uiconfig/ui/graphicexport.ui:634
+#: svtools/uiconfig/ui/graphicexport.ui:654
 msgctxt "graphicexport|binarycb"
 msgid "Binary"
 msgstr "Двоичное"
 
 #. qFTuj
-#: svtools/uiconfig/ui/graphicexport.ui:643
+#: svtools/uiconfig/ui/graphicexport.ui:663
 msgctxt "graphicexport|extended_tip|binarycb"
 msgid "Exports the file in binary format. The resulting file is smaller than a text file."
 msgstr "Экспорт файла в двоичном формате. Итоговый файл меньше текстового файла (ASCII)."
 
 #. 8cZsH
-#: svtools/uiconfig/ui/graphicexport.ui:654
+#: svtools/uiconfig/ui/graphicexport.ui:674
 msgctxt "graphicexport|textcb"
 msgid "Text"
 msgstr "Текст"
 
 #. GFbg2
-#: svtools/uiconfig/ui/graphicexport.ui:663
+#: svtools/uiconfig/ui/graphicexport.ui:683
 msgctxt "graphicexport|extended_tip|textcb"
 msgid "Exports the file in ASCII text format. The resulting file is larger than a binary file."
 msgstr "Экспорт файла в текстовом формате ASCII. Размер файлов этого типа больше, чем двоичных файлов."
 
 #. ECUb9
-#: svtools/uiconfig/ui/graphicexport.ui:678
+#: svtools/uiconfig/ui/graphicexport.ui:698
 msgctxt "graphicexport|label16"
 msgid "Encoding"
 msgstr "Кодировка"
 
 #. aeV52
-#: svtools/uiconfig/ui/graphicexport.ui:710
+#: svtools/uiconfig/ui/graphicexport.ui:730
 msgctxt "graphicexport|tiffpreviewcb"
 msgid "Image preview (TIFF)"
 msgstr "Просмотр (TIFF)"
 
 #. H8vtD
-#: svtools/uiconfig/ui/graphicexport.ui:719
+#: svtools/uiconfig/ui/graphicexport.ui:739
 msgctxt "graphicexport|extended_tip|tiffpreviewcb"
 msgid "Specifies whether a preview image is exported in the TIFF format together with the actual PostScript file."
 msgstr "Указывает, будет ли предварительный просмотр изображения экспортироваться в формате TIFF вместе с фактическим файлом PostScript."
 
 #. AeEJu
-#: svtools/uiconfig/ui/graphicexport.ui:730
+#: svtools/uiconfig/ui/graphicexport.ui:750
 msgctxt "graphicexport|epsipreviewcb"
 msgid "Interchange (EPSI)"
 msgstr "Interchange (EPSI)"
 
 #. gLbUQ
-#: svtools/uiconfig/ui/graphicexport.ui:738
+#: svtools/uiconfig/ui/graphicexport.ui:758
 msgctxt "graphicexport|extended_tip|epsipreviewcb"
 msgid "Specifies whether a monochrome preview graphic in EPSI format is exported together with the PostScript file. This format only contains printable characters from the 7-bit ASCII code."
 msgstr "Указывает, будет ли монохромный предварительный просмотр графического объекта в формате EPSI экспортироваться вместе с файлом PostScript."
 
 #. sRbZb
-#: svtools/uiconfig/ui/graphicexport.ui:753
+#: svtools/uiconfig/ui/graphicexport.ui:773
 msgctxt "graphicexport|label17"
 msgid "Preview"
 msgstr "Просмотр"
 
 #. Jfbgx
-#: svtools/uiconfig/ui/graphicexport.ui:780
+#: svtools/uiconfig/ui/graphicexport.ui:800
 msgctxt "graphicexport|color1rb"
 msgid "Color"
 msgstr "Цвет"
 
 #. LNHEi
-#: svtools/uiconfig/ui/graphicexport.ui:789
+#: svtools/uiconfig/ui/graphicexport.ui:809
 msgctxt "graphicexport|extended_tip|color1rb"
 msgid "Exports the file in color."
 msgstr "Используется для форматирования основания диаграммы."
 
 #. VeZFK
-#: svtools/uiconfig/ui/graphicexport.ui:800
+#: svtools/uiconfig/ui/graphicexport.ui:820
 msgctxt "graphicexport|color2rb"
 msgid "Grayscale"
 msgstr "Оттенки серого"
 
 #. TWEx8
-#: svtools/uiconfig/ui/graphicexport.ui:809
+#: svtools/uiconfig/ui/graphicexport.ui:829
 msgctxt "graphicexport|extended_tip|color2rb"
 msgid "Exports the file in grayscale tones."
 msgstr "Используется для форматирования линии среднего значения."
 
 #. BbSGF
-#: svtools/uiconfig/ui/graphicexport.ui:824
+#: svtools/uiconfig/ui/graphicexport.ui:844
 msgctxt "graphicexport|label18"
 msgid "Color Format"
 msgstr "Формат цвета"
 
 #. b6J7X
-#: svtools/uiconfig/ui/graphicexport.ui:851
+#: svtools/uiconfig/ui/graphicexport.ui:871
 msgctxt "graphicexport|level1rb"
 msgid "Level 1"
 msgstr "Уровень 1"
 
 #. pEcBC
-#: svtools/uiconfig/ui/graphicexport.ui:860
+#: svtools/uiconfig/ui/graphicexport.ui:880
 msgctxt "graphicexport|extended_tip|level1rb"
 msgid "Compression is not available at this level. Select the Level 1 option if your PostScript printer does not offer the capabilities of Level 2."
 msgstr "На этом уровне сжатие недоступно. Выберите параметр  Уровень 1, если принтер PostScript не предлагает возможности уровня 2."
 
 #. kuCNX
-#: svtools/uiconfig/ui/graphicexport.ui:871
+#: svtools/uiconfig/ui/graphicexport.ui:891
 msgctxt "graphicexport|level2rb"
 msgid "Level 2"
 msgstr "Уровень 2"
 
 #. wiWrE
-#: svtools/uiconfig/ui/graphicexport.ui:880
+#: svtools/uiconfig/ui/graphicexport.ui:900
 msgctxt "graphicexport|extended_tip|level2rb"
 msgid "Select the Level 2 option if your output device supports colored bitmaps, palette graphics and compressed graphics."
 msgstr "Выберите параметр Уровень 2, если устройство вывода поддерживает цветные растровые изображения, графические изображения в цветовой палитре и сжатые графические изображения."
 
 #. JUuBZ
-#: svtools/uiconfig/ui/graphicexport.ui:895
+#: svtools/uiconfig/ui/graphicexport.ui:915
 msgctxt "graphicexport|label19"
 msgid "Version"
 msgstr "Версия"
 
 #. FjkbL
-#: svtools/uiconfig/ui/graphicexport.ui:922
+#: svtools/uiconfig/ui/graphicexport.ui:942
 msgctxt "graphicexport|compresslzw"
 msgid "LZW encoding"
 msgstr "Кодировка LZW"
 
 #. 5cYFM
-#: svtools/uiconfig/ui/graphicexport.ui:931
+#: svtools/uiconfig/ui/graphicexport.ui:951
 msgctxt "graphicexport|extended_tip|compresslzw"
 msgid "LZW compression is the compression of a file into a smaller file using a table-based lookup algorithm."
 msgstr "Легенда располагается под диаграммой."
 
 #. vXGXe
-#: svtools/uiconfig/ui/graphicexport.ui:942
+#: svtools/uiconfig/ui/graphicexport.ui:962
 msgctxt "graphicexport|compressnone"
 msgid "None"
 msgstr "Нет"
 
 #. kW3QD
-#: svtools/uiconfig/ui/graphicexport.ui:951
+#: svtools/uiconfig/ui/graphicexport.ui:971
 msgctxt "graphicexport|extended_tip|compressnone"
 msgid "Specifies that you do not wish to use compression."
 msgstr "Указывается необходимость печати повторяющихся значений."
 
 #. ghAqZ
-#: svtools/uiconfig/ui/graphicexport.ui:966
+#: svtools/uiconfig/ui/graphicexport.ui:986
 msgctxt "graphicexport|label20"
 msgid "Compression"
 msgstr "Сжатие"
 
 #. LmAeC
-#: svtools/uiconfig/ui/graphicexport.ui:1005
+#: svtools/uiconfig/ui/graphicexport.ui:1025
 msgctxt "graphicexport|label4"
 msgid "Information"
 msgstr "Информация"
@@ -5610,11 +5628,11 @@ msgctxt "printersetupdialog|options"
 msgid "Options..."
 msgstr "Параметры..."
 
-#. BAnmG
+#. dAZjP
 #: svtools/uiconfig/ui/printersetupdialog.ui:46
 msgctxt "printersetupdialog|extended_tip|options"
-msgid "Opens the Printer Options dialog where you can override the global printer options set on the Tools - Options - %PRODUCTNAME Writer/Web - Print panel for the current document."
-msgstr "Открывает диалог «Параметры печати», где можно изменить глобальные параметры печати, заданные для текущего документа в Сервис ▸ Параметры ▸ %PRODUCTNAME Writer/Web ▸ Печать."
+msgid "Opens the Printer Options dialog where you can override the global printer options set on the Tools - Options - Writer/Web - Print panel for the current document."
+msgstr ""
 
 #. NCVY4
 #: svtools/uiconfig/ui/printersetupdialog.ui:114
@@ -5831,6 +5849,14 @@ msgstr "Для применения изменений Skia %PRODUCTNAME дол�
 msgctxt "thineditcontrol|button"
 msgid "Pick Date"
 msgstr "Выбор даты"
+
+#~ msgctxt "graphicexport|extended_tip|compressionjpgnf"
+#~ msgid "Sets the quality for the export. Choose from a low quality with minimal file size, up to a high quality and big file size."
+#~ msgstr "Устанавливает качество для экспорта. Выбор от низкого качества с минимальным размером файла до высокого качества и большого размера файла."
+
+#~ msgctxt "printersetupdialog|extended_tip|options"
+#~ msgid "Opens the Printer Options dialog where you can override the global printer options set on the Tools - Options - %PRODUCTNAME Writer/Web - Print panel for the current document."
+#~ msgstr "Открывает диалог «Параметры печати», где можно изменить глобальные параметры печати, заданные для текущего документа в Сервис ▸ Параметры ▸ %PRODUCTNAME Writer/Web ▸ Печать."
 
 #~ msgctxt "STR_FORMAT_ID_PNG_BITMAP"
 #~ msgid "Portable Network Graphic (PNG)"
