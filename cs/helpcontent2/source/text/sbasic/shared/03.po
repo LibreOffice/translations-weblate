@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-01-31 18:12+0000\n"
+"PO-Revision-Date: 2022-02-02 12:39+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 4.8.1\n"
 "X-POOTLE-MTIME: 1564160910.000000\n"
 
 #. ViEWM
@@ -23792,7 +23792,7 @@ msgctxt ""
 "par_id611612384873347\n"
 "help.text"
 msgid "If <literal>oldstr</literal> is an array, each occurrence of any of the items in <literal>oldstr</literal> is replaced by <literal>newstr</literal>."
-msgstr ""
+msgstr "Je-li argument <literal>oldstr</literal> pole, každý výskyt jakékoliv jeho položky se nahradí argumentem <literal>newstr</literal>."
 
 #. AfRz6
 #: sf_string.xhp
@@ -23801,7 +23801,7 @@ msgctxt ""
 "par_id611612384880820\n"
 "help.text"
 msgid "If <literal>oldstr</literal> and <literal>newstr</literal> are arrays, replacements occur one by one up to the <literal>UBound(newstr)</literal>."
-msgstr ""
+msgstr "Je-li <literal>oldstr</literal> i <literal>newstr</literal> pole, nahrazovat se budou odpovídající položky až do indexu <literal>UBound(newstr)</literal>."
 
 #. E39aH
 #: sf_string.xhp
@@ -23810,7 +23810,7 @@ msgctxt ""
 "par_id241612385058264\n"
 "help.text"
 msgid "If <literal>oldstr</literal> has more entries than <literal>newstr</literal>, then the residual elements in <literal>oldstr</literal> are replaced by the last element in <literal>newstr</literal>."
-msgstr ""
+msgstr "Pokud má <literal>oldstr</literal> více položek než <literal>newstr</literal>, přebývající prvky v <literal>oldstr</literal> budou nahrazeny posledním prvkem <literal>newstr</literal>."
 
 #. MkqW5
 #: sf_string.xhp
@@ -23819,7 +23819,7 @@ msgctxt ""
 "par_id701580146547619\n"
 "help.text"
 msgid "<emph>occurrences</emph>: The maximum number of replacements. The default value is 0, meaning that all occurrences will be replaced."
-msgstr ""
+msgstr "<emph>occurrences</emph>: Maximální počet nahrazení. Výchozí hodnotou je 0, což znamená, že se nahradí všechny výskyty."
 
 #. QX33p
 #: sf_string.xhp
@@ -23828,7 +23828,7 @@ msgctxt ""
 "par_id741612385380533\n"
 "help.text"
 msgid "When <literal>oldstr</literal> is an array, the <literal>occurrence</literal> parameter is computed separately for each item in the array."
-msgstr ""
+msgstr "Je-li parametr <literal>oldstr</literal> pole, parametr <literal>occurrence</literal> se uplatní zvlášť pro každou položku tohoto pole."
 
 #. aWrvA
 #: sf_string.xhp
@@ -23837,7 +23837,7 @@ msgctxt ""
 "par_id301580146556599\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: The search can be case sensitive or not (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Zda se u vyhledávání se rozlišuje velikost písmen (výchozí = <literal>False</literal>)."
 
 #. eygyi
 #: sf_string.xhp
@@ -23846,7 +23846,7 @@ msgctxt ""
 "par_id901580147558931\n"
 "help.text"
 msgid "Returns a string with a readable representation of the argument, truncated at a given length. This is useful mainly for debugging or logging purposes."
-msgstr ""
+msgstr "Vrátí řetězec s čitelnou reprezentací argumentu oříznutou na zadanou délku. Ta je využitelná zejména pro účely ladění a záznamu."
 
 #. cU3Ev
 #: sf_string.xhp
@@ -23855,7 +23855,7 @@ msgctxt ""
 "par_id11612386054691\n"
 "help.text"
 msgid "If the <literal>anyvalue</literal> parameter is an object, it will be enclosed with square brackets \"[\" and \"]\"."
-msgstr ""
+msgstr "Pokud je parametr <literal>anyvalue</literal> objekt, bude uzavřen do hranatých závorek \"[\" a \"]\"."
 
 #. gVB32
 #: sf_string.xhp
@@ -23865,6 +23865,8 @@ msgctxt ""
 "help.text"
 msgid "In strings, tabs and line breaks are replaced by \\t, \\n or \\r."
 msgstr ""
+"Tabulátory a zalomení řádku jsou v řetězcích nahrazeny sekvencemi \\t a \\n"
+" či \\r."
 
 #. SfUGD
 #: sf_string.xhp
@@ -23873,7 +23875,7 @@ msgctxt ""
 "par_id921612386089103\n"
 "help.text"
 msgid "If the final length exceeds the <literal>maxlength</literal> parameter, the latter part of the string is replaced by \" ... (N)\" where N is the total length of the original string before truncation."
-msgstr ""
+msgstr "Jestliže je délka výsledného řetězce větší než parametr <literal>maxlength</literal>, přesahující část řetězce se nahradí řetězcem \" ... (N)\", kde N je celková délka původního řetězce před zkrácením."
 
 #. zLfNR
 #: sf_string.xhp
@@ -23882,7 +23884,7 @@ msgctxt ""
 "par_id91580147593626\n"
 "help.text"
 msgid "<emph>anyvalue</emph>: The input value to be represented. It can be any value, such as a string, an array, a Basic object, a UNO object, etc."
-msgstr ""
+msgstr "<emph>anyvalue</emph>: Vstupní hodnota, jejíž reprezentace se má připravit. Může se jednat o libovolnou hodnotu, například řetězec, pole, objekt Basicu, objekt UNO atd."
 
 #. hdDFi
 #: sf_string.xhp
@@ -23891,7 +23893,7 @@ msgctxt ""
 "par_id811580147609322\n"
 "help.text"
 msgid "<emph>maxlength</emph>: The maximum length of the resulting string. The default value is 0, meaning there is no limit to the length of the resulting representation."
-msgstr ""
+msgstr "<emph>maxlength</emph>: Maximální délka výsledného řetězce. Výchozí hodnotou je 0, což znamená, že délka výsledné reprezentace není nijak omezena."
 
 #. Ape7i
 #: sf_string.xhp
@@ -23900,7 +23902,7 @@ msgctxt ""
 "par_id641612386659292\n"
 "help.text"
 msgid "Note that the representation of data types such as Arrays and <literal>ScriptForge.Dictionary</literal> object instances include both the data type and their values:"
-msgstr ""
+msgstr "Reprezentace datových typů jako pole či objekt <literal>ScriptForge.Dictionary</literal> obsahují jak datový typ, tak hodnoty:"
 
 #. ZFFAD
 #: sf_string.xhp
@@ -23909,7 +23911,7 @@ msgctxt ""
 "bas_id971612386906463\n"
 "help.text"
 msgid "' An example with a Basic built-in Array"
-msgstr ""
+msgstr "' Příklad s vestavěným polem Basicu"
 
 #. GEZzM
 #: sf_string.xhp
@@ -23918,7 +23920,7 @@ msgctxt ""
 "bas_id401612386876329\n"
 "help.text"
 msgid "' An example with a ScriptForge Array"
-msgstr ""
+msgstr "' Příklad s polem knihovny ScriptForge"
 
 #. mZ3ar
 #: sf_string.xhp
@@ -23927,7 +23929,7 @@ msgctxt ""
 "bas_id551612386931680\n"
 "help.text"
 msgid "' An example with a ScriptForge Dictionary"
-msgstr ""
+msgstr "' Příklad s objektem Dictionary knihovny ScriptForge"
 
 #. vvADG
 #: sf_string.xhp
@@ -23936,7 +23938,7 @@ msgctxt ""
 "par_id411580312925741\n"
 "help.text"
 msgid "Returns the input string in reversed order."
-msgstr ""
+msgstr "Vrátí vstupní řetězec v obráceném pořadí."
 
 #. EEyG6
 #: sf_string.xhp
@@ -23945,7 +23947,7 @@ msgctxt ""
 "par_id141612387177873\n"
 "help.text"
 msgid "This method is equivalent to the built-in <link href=\"text/sbasic/shared/03120412.xhp\" name=\"StrReverse function\"><literal>StrReverse</literal> Basic function</link>."
-msgstr ""
+msgstr "Tato metoda odpovídá vestavění <link href=\"text/sbasic/shared/03120412.xhp\" name=\"Funkce StrReverse\">funkci Basicu <literal>StrReverse</literal></link>."
 
 #. ZEarP
 #: sf_string.xhp
@@ -23954,7 +23956,7 @@ msgctxt ""
 "par_id961612387463144\n"
 "help.text"
 msgid "To use the <literal>StrReverse</literal> function, the statement <literal>Option VBASupport 1</literal> must be present in the module."
-msgstr ""
+msgstr "Pro použití funkce <literal>StrReverse</literal> je nutné, aby se v modulu nacházel příkaz <literal>Option VBASupport 1</literal>."
 
 #. pSyL6
 #: sf_string.xhp
@@ -23963,7 +23965,7 @@ msgctxt ""
 "par_id241580312964497\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be reversed."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Řetězec, který se má obrátit."
 
 #. KBFDk
 #: sf_string.xhp
@@ -23972,7 +23974,7 @@ msgctxt ""
 "par_id721580210762286\n"
 "help.text"
 msgid "Returns a zero-based array of strings with the lines in the input string. Each item in the array is obtained by splitting the input string at newline characters."
-msgstr ""
+msgstr "Vrátí pole řetězců začínající od 0 s řádky vstupního řetězce. Položky pole jsou získány rozdělením vstupního řetězce v místech se znaky konce řádku."
 
 #. nuUF6
 #: sf_string.xhp
@@ -23981,7 +23983,7 @@ msgctxt ""
 "par_id481580210806878\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be split."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Řetězec, který se má rozdělit."
 
 #. FEFUw
 #: sf_string.xhp
@@ -23990,7 +23992,7 @@ msgctxt ""
 "par_id231580210820309\n"
 "help.text"
 msgid "<emph>keepbreaks</emph>: When <literal>True</literal>, line breaks are preserved in the output array (default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>keepbreaks</emph>: Je-li <literal>True</literal>, ve výstupním poli se zachovají konce řádků (výchozí = <literal>False</literal>)."
 
 #. HAG8Q
 #: sf_string.xhp
@@ -23999,7 +24001,7 @@ msgctxt ""
 "par_id471580211762739\n"
 "help.text"
 msgid "Splits a string into an array of elements using a specified delimiter."
-msgstr ""
+msgstr "Rozdělí řetězec na pole prvků pomocí zadaného oddělovače."
 
 #. zsADB
 #: sf_string.xhp
@@ -24008,7 +24010,7 @@ msgctxt ""
 "par_id281612388034501\n"
 "help.text"
 msgid "If a quoted substring contains a delimiter, it is ignored. This is useful when parsing CSV-like records that contain quoted strings."
-msgstr ""
+msgstr "Pokud se oddělovač nachází v podřetězci v uvozovkách, ignoruje se. To je užitečné při zpracování záznamů ve tvaru jako v souboru CSV, které obsahují řetězce v uvozovkách."
 
 #. JKAaG
 #: sf_string.xhp
@@ -24017,7 +24019,7 @@ msgctxt ""
 "par_id881580211809490\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be split."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Řetězec, který se má rozdělit."
 
 #. zFjwe
 #: sf_string.xhp
@@ -24026,7 +24028,7 @@ msgctxt ""
 "par_id811580211821162\n"
 "help.text"
 msgid "<emph>delimiter</emph>: A string of one or more characters that will be used as delimiter. The default delimiter is the Ascii space \" \" character."
-msgstr ""
+msgstr "<emph>delimiter</emph>: Řetězec jednoho či více znaků, které se použijí jako oddělovač. Výchozím oddělovačem je znak mezery ASCII \" \"."
 
 #. 3rGRu
 #: sf_string.xhp
@@ -24035,7 +24037,7 @@ msgctxt ""
 "par_id181580211833778\n"
 "help.text"
 msgid "<emph>occurrences</emph>: The maximum number of substrings to return. The default value is 0, meaning that there is no limit to the number of returned strings."
-msgstr ""
+msgstr "<emph>occurrences</emph>: Maximální počet vrácených podřetězců. Výchozí hodnotou je 0, což znamená, že počet vrácených řetězců není omezen."
 
 #. W2og7
 #: sf_string.xhp
@@ -24044,7 +24046,7 @@ msgctxt ""
 "par_id421599123777334\n"
 "help.text"
 msgid "<emph>quotechar</emph>: Either the single (') or double (\") quote."
-msgstr ""
+msgstr "<emph>quotechar</emph>: Jednoduchá ('), nebo dvojitá (\") uvozovka."
 
 #. DiYMJ
 #: sf_string.xhp
@@ -24053,7 +24055,7 @@ msgctxt ""
 "par_id661627251379676\n"
 "help.text"
 msgid "Beware of the differences between Basic and Python when representing strings. For example, in Basic two \"\" characters inside a string are interpreted as a single \" character. In Python, strings enclosed with single quotes can contain \" characters without having to double them."
-msgstr ""
+msgstr "Při reprezentaci řetězců mějte na paměti rozdíly mezi jazyky Basic a Python. V Basicu jsou například dva znaky \"\" uvnitř řetězce interpretovány jako jediný znak \". V Pythonu však mohou řetězce uzavřené v jednoduchých závorkách obsahovat znaky \" bez nutnosti je zdvojovat."
 
 #. 6Q2tJ
 #: sf_string.xhp
@@ -24062,7 +24064,7 @@ msgctxt ""
 "par_id771580212837884\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the first characters of a string are identical to a given substring."
-msgstr ""
+msgstr "Vrátí <literal>True</literal>, pokud se první znaky řetězce shodují se zadaným podřetězcem."
 
 #. BYx4G
 #: sf_string.xhp
@@ -24071,7 +24073,7 @@ msgctxt ""
 "par_id781612393174350\n"
 "help.text"
 msgid "This method returns <literal>False</literal> if either the input string or the substring have a length = 0 or when the substring is longer than the input string."
-msgstr ""
+msgstr "Metoda vrátí <literal>False</literal>, má-li řetězec nebo podřetězec délku 0 nebo je-li podřetězec delší než vstupní řetězec."
 
 #. jrzxu
 #: sf_string.xhp
@@ -24080,7 +24082,7 @@ msgctxt ""
 "par_id271580212876135\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be tested."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Řetězec, který se má ověřit."
 
 #. tE9WD
 #: sf_string.xhp
@@ -24089,7 +24091,7 @@ msgctxt ""
 "par_id571580212889462\n"
 "help.text"
 msgid "<emph>substring</emph>: The substring to be searched at the start of <literal>inputstr</literal>."
-msgstr ""
+msgstr "<emph>substring</emph>: Podřetězec, který se má vyhledat na začátku řetězce <literal>inputstr</literal>."
 
 #. ZeQP4
 #: sf_string.xhp
@@ -24098,7 +24100,7 @@ msgctxt ""
 "par_id811580212900799\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: The search can be case sensitive or not (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Zda se u vyhledávání se rozlišuje velikost písmen (výchozí = <literal>False</literal>)."
 
 #. DGgBx
 #: sf_string.xhp
@@ -24107,7 +24109,7 @@ msgctxt ""
 "par_id911580295999690\n"
 "help.text"
 msgid "Returns the input string without its leading and trailing whitespaces."
-msgstr ""
+msgstr "Vrátí vstupní řetězec bez úvodních a koncových prázdných znaků."
 
 #. BESEu
 #: sf_string.xhp
@@ -24116,7 +24118,7 @@ msgctxt ""
 "par_id541580296044377\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to trim."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Řetězec, který se má oříznout."
 
 #. 9t9vX
 #: sf_string.xhp
