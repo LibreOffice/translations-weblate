@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2022-01-31 19:39+0000\n"
+"PO-Revision-Date: 2022-02-02 05:39+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-7-2/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -17352,7 +17352,7 @@ msgctxt ""
 "par_id351582712098824\n"
 "help.text"
 msgid "Called internally by <literal>ScriptForge</literal> to register for a library the list of services it implements.         <br/>Each library associated to <literal>Scriptforge</literal> or extending it must implement its own <literal>RegisterScriptServices</literal> method."
-msgstr ""
+msgstr "Volána interně knihovnou <literal>ScriptForge</literal>, aby zaregistrovala pro knihovnu seznam služeb, které implementuje.<br/>Každá knihovna, která je ke knihovně <literal>ScriptForge</literal> připojena nebo která ji rozšiřuje, musí implementovat vlastní metodu <literal>RegisterScriptServices</literal>."
 
 #. Adbws
 #: sf_services.xhp
@@ -17361,7 +17361,7 @@ msgctxt ""
 "par_id671595847982308\n"
 "help.text"
 msgid "Called - as many times as there are services to register in the library - by <literal>RegisterScriptServices</literal>."
-msgstr ""
+msgstr "Volána - tolikrát, kolik existuje služeb k zaregistrování v knihovně - metodou <literal>RegisterScriptServices</literal>."
 
 #. vsobg
 #: sf_services.xhp
@@ -17370,7 +17370,7 @@ msgctxt ""
 "par_id241596294275434\n"
 "help.text"
 msgid "Called to register a library event manager by <literal>RegisterScriptServices</literal>."
-msgstr ""
+msgstr "Volána za účelem zaregistrování správce událostí knihovny, a to metodou <literal>RegisterScriptServices</literal>."
 
 #. sZBHB
 #: sf_services.xhp
@@ -17379,7 +17379,7 @@ msgctxt ""
 "par_id741582712156448\n"
 "help.text"
 msgid "Called by user scripts to get an object giving access to the service given as argument.         <br/>All services should be invoked through the <literal>CreateScriptService</literal> method."
-msgstr ""
+msgstr "Volána uživatelskými skripty za účelem získání objektu, který poskytuje přístup ke službě zadané jako argument.<br/>Metodou <literal>CreateScriptService</literal> by měly být vytvářeny instance všech služeb."
 
 #. 9Geac
 #: sf_services.xhp
@@ -17388,7 +17388,7 @@ msgctxt ""
 "par_id651582712806415\n"
 "help.text"
 msgid "Conventionally, the <literal>String</literal>, <literal>Array</literal> and <literal>Exception</literal> services may be invoked directly respectively as <literal>SF_String</literal>, <literal>SF_Array</literal> and <literal>SF_Exception</literal>."
-msgstr ""
+msgstr "Konvencí je, že služby <literal>String</literal>, <literal>Array</literal> a <literal>Exception</literal> mohou být volány přímo, resp. jako <literal>SF_String</literal>, <literal>SF_Array</literal> a <literal>SF_Exception</literal>."
 
 #. BzHaE
 #: sf_services.xhp
@@ -17397,7 +17397,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in the Services Service"
-msgstr ""
+msgstr "Seznam metod služby Services"
 
 #. howve
 #: sf_services.xhp
@@ -20105,7 +20105,7 @@ msgctxt ""
 "par_id901580147558931\n"
 "help.text"
 msgid "Returns a string with a readable representation of the argument, truncated at a given length. This is useful mainly for debugging or logging purposes."
-msgstr ""
+msgstr "Vrátí řetězec s čitelnou reprezentací argumentu oříznutou na zadanou délku. Ta je využitelná zejména pro účely ladění a záznamu."
 
 #. jNrC5
 #: sf_string.xhp
@@ -20124,6 +20124,8 @@ msgctxt ""
 "help.text"
 msgid "In strings, tabs and line breaks are replaced by \\t, \\n or \\r."
 msgstr ""
+"Tabulátory a zalomení řádku jsou v řetězcích nahrazeny sekvencemi \\t a \\n"
+" či \\r."
 
 #. vnB48
 #: sf_string.xhp
@@ -20159,7 +20161,7 @@ msgctxt ""
 "par_id641612386659292\n"
 "help.text"
 msgid "Note that the representation of data types such as Arrays and <literal>ScriptForge.Dictionary</literal> object instances include both the data type and their values:"
-msgstr ""
+msgstr "Reprezentace datových typů jako pole či objekt <literal>ScriptForge.Dictionary</literal> obsahují jak datový typ, tak hodnoty:"
 
 #. ZFFAD
 #: sf_string.xhp
@@ -20168,7 +20170,7 @@ msgctxt ""
 "bas_id971612386906463\n"
 "help.text"
 msgid "' An example with a Basic built-in Array"
-msgstr ""
+msgstr "' Příklad s vestavěným polem Basicu"
 
 #. GEZzM
 #: sf_string.xhp
@@ -20177,7 +20179,7 @@ msgctxt ""
 "bas_id401612386876329\n"
 "help.text"
 msgid "' An example with a ScriptForge Array"
-msgstr ""
+msgstr "' Příklad s polem knihovny ScriptForge"
 
 #. mZ3ar
 #: sf_string.xhp
@@ -20186,7 +20188,7 @@ msgctxt ""
 "bas_id551612386931680\n"
 "help.text"
 msgid "' An example with a ScriptForge Dictionary"
-msgstr ""
+msgstr "' Příklad s objektem Dictionary knihovny ScriptForge"
 
 #. vvADG
 #: sf_string.xhp
@@ -20195,7 +20197,7 @@ msgctxt ""
 "par_id411580312925741\n"
 "help.text"
 msgid "Returns the input string in reversed order."
-msgstr ""
+msgstr "Vrátí vstupní řetězec v obráceném pořadí."
 
 #. 5PtEv
 #: sf_string.xhp
@@ -20231,7 +20233,7 @@ msgctxt ""
 "par_id721580210762286\n"
 "help.text"
 msgid "Returns a zero-based array of strings with the lines in the input string. Each item in the array is obtained by splitting the input string at newline characters."
-msgstr ""
+msgstr "Vrátí pole řetězců začínající od 0 s řádky vstupního řetězce. Položky pole jsou získány rozdělením vstupního řetězce v místech se znaky konce řádku."
 
 #. RRtva
 #: sf_string.xhp
@@ -20258,7 +20260,7 @@ msgctxt ""
 "par_id471580211762739\n"
 "help.text"
 msgid "Splits a string into an array of elements using a specified delimiter."
-msgstr ""
+msgstr "Rozdělí řetězec na pole prvků pomocí zadaného oddělovače."
 
 #. zsADB
 #: sf_string.xhp
@@ -20267,7 +20269,7 @@ msgctxt ""
 "par_id281612388034501\n"
 "help.text"
 msgid "If a quoted substring contains a delimiter, it is ignored. This is useful when parsing CSV-like records that contain quoted strings."
-msgstr ""
+msgstr "Pokud se oddělovač nachází v podřetězci v uvozovkách, ignoruje se. To je užitečné při zpracování záznamů ve tvaru jako v souboru CSV, které obsahují řetězce v uvozovkách."
 
 #. mw9Lu
 #: sf_string.xhp
@@ -20312,7 +20314,7 @@ msgctxt ""
 "par_id771580212837884\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the first characters of a string are identical to a given substring."
-msgstr ""
+msgstr "Vrátí <literal>True</literal>, pokud se první znaky řetězce shodují se zadaným podřetězcem."
 
 #. BYx4G
 #: sf_string.xhp
@@ -20321,7 +20323,7 @@ msgctxt ""
 "par_id781612393174350\n"
 "help.text"
 msgid "This method returns <literal>False</literal> if either the input string or the substring have a length = 0 or when the substring is longer than the input string."
-msgstr ""
+msgstr "Metoda vrátí <literal>False</literal>, má-li řetězec nebo podřetězec délku 0 nebo je-li podřetězec delší než vstupní řetězec."
 
 #. rmutH
 #: sf_string.xhp
@@ -20357,7 +20359,7 @@ msgctxt ""
 "par_id911580295999690\n"
 "help.text"
 msgid "Returns the input string without its leading and trailing whitespaces."
-msgstr ""
+msgstr "Vrátí vstupní řetězec bez úvodních a koncových prázdných znaků."
 
 #. ekDEE
 #: sf_string.xhp
