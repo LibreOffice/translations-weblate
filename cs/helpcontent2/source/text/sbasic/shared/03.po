@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2022-02-05 00:40+0000\n"
+"PO-Revision-Date: 2022-02-06 05:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-7-2/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -3706,7 +3706,7 @@ msgctxt ""
 "par_id591589191059889\n"
 "help.text"
 msgid "The <literal>Calc</literal> service is closely related to the <literal>UI</literal> service of the <literal>ScriptForge</literal> library. Below are a few examples of how the <literal>Calc</literal> service can be invoked."
-msgstr "Služba <literal>Calc</literal> úzce souvisí se službou <literal>UI</literal> knihovny <literal>ScriptForge</literal>. Níže je uvedeno několik příkladů, jak lze službu <literal>Calc</literal> volat."
+msgstr "Služba <literal>Calc</literal> úzce souvisí se službou <literal>UI</literal> knihovny <literal>ScriptForge</literal>. Níže je uvedeno několik příkladů, jak lze vytvořit instanci služby <literal>Calc</literal>."
 
 #. mKqEu
 #: sf_calc.xhp
@@ -21945,7 +21945,7 @@ msgctxt ""
 "par_id13159655484952\n"
 "help.text"
 msgid "Creates and stores a new %PRODUCTNAME Base document embedding an empty database of the given type. The method returns a <literal>Document</literal> service instance."
-msgstr ""
+msgstr "Vytvoří a uloží nový dokument %PRODUCTNAME Base s vloženou prázdnou databází zadaného typu. Metoda vrátí instanci služby <literal>Document</literal>."
 
 #. gqGpB
 #: sf_ui.xhp
@@ -21954,7 +21954,7 @@ msgctxt ""
 "par_id441596554849949\n"
 "help.text"
 msgid "<emph>filename</emph> : Identifies the file to create. It must follow the <literal>SF_FileSystem.FileNaming</literal> notation. If the file already exists, it is overwritten without warning"
-msgstr ""
+msgstr "<emph>filename</emph>: Určuje soubor, který se má vytvořit. Název musí odpovídat zápisu <literal>SF_FileSystem.FileNaming</literal>. Pokud již soubor existuje, je bez upozornění přepsán."
 
 #. ncJxE
 #: sf_ui.xhp
@@ -21972,7 +21972,7 @@ msgctxt ""
 "par_id521596554849185\n"
 "help.text"
 msgid "<emph>registrationname</emph> : The name used to store the new database in the databases register. When = \"\" (default), no registration takes place. If the name already exists it is overwritten without warning."
-msgstr ""
+msgstr "<emph>registrationname</emph>: Název použitý pro uložení nové databáze v registru databází. Pokud je \"\" (výchozí), databáze se nezaregistruje. Pokud již název existuje, je bez upozornění přepsán."
 
 #. GtB5n
 #: sf_ui.xhp
@@ -21981,7 +21981,7 @@ msgctxt ""
 "par_id651588521753997\n"
 "help.text"
 msgid "Create a new %PRODUCTNAME document of a given type or based on a given template. The method returns a document object."
-msgstr ""
+msgstr "Vytvoří nový dokument %PRODUCTNAME zadaného typu nebo ze zadané šablony. Metoda vrátí objekt dokumentu."
 
 #. JnBPt
 #: sf_ui.xhp
@@ -21990,7 +21990,7 @@ msgctxt ""
 "par_id51588521753302\n"
 "help.text"
 msgid "<emph>documenttype</emph> : \"Calc\", \"Writer\", etc. If absent, the <literal>templatefile</literal> argument must be present."
-msgstr ""
+msgstr "<emph>documenttype</emph>: \"Calc\", \"Writer\" atd. Není-li tento argument zadán, je nutné zadat argument <literal>templatefile</literal>."
 
 #. BQ6UD
 #: sf_ui.xhp
@@ -21999,7 +21999,7 @@ msgctxt ""
 "par_id401588522663325\n"
 "help.text"
 msgid "<emph>templatefile</emph> : The full <literal>FileName</literal> of the template to build the new document on. If the file does not exist, the argument is ignored. The <literal>FileSystem</literal> service provides the <literal>TemplatesFolder</literal> and <literal>UserTemplatesFolder</literal> properties to help to build the argument."
-msgstr ""
+msgstr "<emph>templatefile</emph>: Úplný název <literal>FileName</literal> šablony, ze které se má nový dokument vytvořit. Pokud soubor neexistuje, tento argument je ignorován. Při vytváření tohoto argumentu je možné použít vlastnosti <literal>TemplatesFolder</literal> a <literal>UserTemplatesFolder</literal> služby <literal>FileSystem</literal>."
 
 #. VeNQg
 #: sf_ui.xhp
@@ -22008,7 +22008,7 @@ msgctxt ""
 "par_id131588522824366\n"
 "help.text"
 msgid "<emph>hidden</emph>: if <literal>True</literal>, open the new document in the background (default = <literal>False</literal>). To use with caution: activation or closure afterwards can only happen programmatically."
-msgstr ""
+msgstr "<emph>hidden</emph>: Je-li <literal>True</literal>, nový dokument se otevře na pozadí (výchozí = <literal>False</literal>). Používejte tuto možnost obezřetně: takový dokument je možné aktivovat nebo zavřít pouze programem."
 
 #. gWFt9
 #: sf_ui.xhp
@@ -22017,7 +22017,7 @@ msgctxt ""
 "par_id701620762417802\n"
 "help.text"
 msgid "In both examples below, the first call to <literal>CreateDocument</literal> method creates a blank Calc document, whereas the second creates a document from a template file."
-msgstr ""
+msgstr "V obou níže uvedených příkladech je pomocí metody <literal>CreateDocument</literal> nejprve vytvořen prázdný dokument Calcu, její druhé volání vytvoří dokument ze souboru šablony."
 
 #. W3qxn
 #: sf_ui.xhp
@@ -22044,7 +22044,7 @@ msgctxt ""
 "par_id521620330287071\n"
 "help.text"
 msgid "To access the name of the currently active window, refer to the <literal>ActiveWindow</literal> property."
-msgstr ""
+msgstr "Chcete-li získat název aktuálně aktivního okna, použijte vlastnost <literal>ActiveWindow</literal>."
 
 #. CYsyC
 #: sf_ui.xhp
@@ -22053,7 +22053,7 @@ msgctxt ""
 "par_id24158798644169\n"
 "help.text"
 msgid "Maximizes the active window or the given window."
-msgstr ""
+msgstr "Maximalizuje aktivní nebo zadané okno."
 
 #. hD4TC
 #: sf_ui.xhp
@@ -22062,7 +22062,7 @@ msgctxt ""
 "par_id951587986441954\n"
 "help.text"
 msgid "<emph>windowname</emph>: see the definitions <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\" name=\"WindowName section\">above</link>. If this argument is absent, the active window is maximized."
-msgstr ""
+msgstr "<emph>windowname</emph>: viz <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\" name=\"WindowName section\">výše uvedené</link> definice. Není-li tento argument zadá, je maximalizováno aktivní okno."
 
 #. vzDdG
 #: sf_ui.xhp
@@ -22071,7 +22071,7 @@ msgctxt ""
 "par_id871587986592696\n"
 "help.text"
 msgid "Minimizes the active window or the given window."
-msgstr ""
+msgstr "Minimalizuje aktivní nebo zadané okno."
 
 #. Enys5
 #: sf_ui.xhp
@@ -22080,7 +22080,7 @@ msgctxt ""
 "par_id751587986592626\n"
 "help.text"
 msgid "<emph>windowname</emph>: see the definitions <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\" name=\"WindowName section\">above</link>. If this argument is absent, the active window is minimized."
-msgstr ""
+msgstr "<emph>windowname</emph>: viz <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\" name=\"WindowName section\">výše uvedené</link> definice. Není-li tento argument zadá, je minimalizováno aktivní okno."
 
 #. WHDDQ
 #: sf_ui.xhp
@@ -22089,7 +22089,7 @@ msgctxt ""
 "par_id691596555746539\n"
 "help.text"
 msgid "Open an existing %PRODUCTNAME Base document. The method returns a document object."
-msgstr ""
+msgstr "Otevření existující dokument %PRODUCTNAME Base. Metoda vrátí objekt dokumentu."
 
 #. q2E3C
 #: sf_ui.xhp
@@ -22098,7 +22098,7 @@ msgctxt ""
 "par_id231596555746385\n"
 "help.text"
 msgid "<emph>filename</emph>: Identifies the file to open. It must follow the <literal>SF_FileSystem.FileNaming</literal> notation. If the file already exists, it is overwritten without warning"
-msgstr ""
+msgstr "<emph>filename</emph>: Určuje soubor, který se má otevřít. Název musí odpovídat zápisu <literal>SF_FileSystem.FileNaming</literal>. Pokud již soubor existuje, je bez upozornění přepsán."
 
 #. mtpoL
 #: sf_ui.xhp
@@ -22107,7 +22107,7 @@ msgctxt ""
 "par_id711596555746281\n"
 "help.text"
 msgid "<emph>registrationname</emph>: The name to use to find the database in the databases register. It is ignored if <literal>FileName</literal> <> \"\"."
-msgstr ""
+msgstr "<emph>registrationname</emph>: Název, podle něhož lze databázi nalézt v registru databází. Tento argument je ignorován, je-li zadán argument <literal>filename</literal>."
 
 #. TqAd2
 #: sf_ui.xhp
@@ -22116,7 +22116,7 @@ msgctxt ""
 "id721596556313545\n"
 "help.text"
 msgid "<emph>macroexecution</emph>: 0 = behaviour is defined by the user configuration, 1 = macros are not executable, 2 = macros are executable."
-msgstr ""
+msgstr "<emph>macroexecution</emph>: 0 = chování je určeno nastavením uživatele, 1 = makra nejsou spustitelná, 2 = makra jsou spustitelná."
 
 #. Dok5e
 #: sf_ui.xhp
@@ -22125,7 +22125,7 @@ msgctxt ""
 "par_id941620762989833\n"
 "help.text"
 msgid "To improve code readability you can use <link href=\"text/sbasic/shared/03/sf_ui.xhp#Constants\" name=\"CHANGE ME\">predefined constants</link> for the <literal>macroexecution</literal> argument, as in the examples above."
-msgstr ""
+msgstr "V zájmu čitelnějšího kódu můžete pro argument <literal>macroexecution</literal> použít <link href=\"text/sbasic/shared/03/sf_ui.xhp#Constants\" name=\"předdefinované konstanty\">předdefinované konstanty</link> jako ve výše uvedených příkladech."
 
 #. LBgGQ
 #: sf_ui.xhp
@@ -22134,7 +22134,7 @@ msgctxt ""
 "par_id541588523635283\n"
 "help.text"
 msgid "Opens an existing %PRODUCTNAME document with the given options. Returns a document object or one of its subclasses. The method returns <literal>Nothing</literal> (in Basic) / <literal>None</literal> (in Python) if the opening failed, even when the failure is caused by a user decision."
-msgstr ""
+msgstr "Otevře existující dokument %PRODUCTNAME se zadanými možnostmi. Vrátí objekt dokumentu nebo některou z jeho podtříd. Jestliže otevírání selže (a to i když je selhání způsobeno rozhodnutím uživatele), metoda vrátí <literal>Nothing</literal> (v Basicu) nebo <literal>None</literal> (v Pythonu)."
 
 #. 8tjbg
 #: sf_ui.xhp
@@ -22143,7 +22143,7 @@ msgctxt ""
 "par_id481588523635890\n"
 "help.text"
 msgid "<emph>filename</emph>: Identifies the file to open. It must follow the <literal>FileNaming</literal> notation of the <literal>FileSystem</literal> service."
-msgstr ""
+msgstr "<emph>filename</emph>: Určuje soubor, který se má otevřít. Musí odpovídat zápisu <literal>FileNaming</literal> služby <literal>FileSystem</literal>."
 
 #. PWvQz
 #: sf_ui.xhp
@@ -22152,7 +22152,7 @@ msgctxt ""
 "par_id451588523635507\n"
 "help.text"
 msgid "<emph>password</emph>: To use when the document is protected. If wrong or absent while the document is protected, the user will be prompted to enter a password."
-msgstr ""
+msgstr "<emph>password</emph>: Používá se v případě, že je dokument chráněn heslem. Je-li heslo chybné nebo není zadáno a dokument je chráněn, k zadání hesla bude uživatel vyzván."
 
 #. 2jjFK
 #: sf_ui.xhp
@@ -22161,7 +22161,7 @@ msgctxt ""
 "par_id611588524329781\n"
 "help.text"
 msgid "<emph>readonly</emph>: Default = <literal>False</literal>."
-msgstr ""
+msgstr "<emph>readonly</emph>: Výchozí = <literal>False</literal>."
 
 #. BcyEp
 #: sf_ui.xhp
@@ -22170,7 +22170,7 @@ msgctxt ""
 "par_id641588523635497\n"
 "help.text"
 msgid "<emph>hidden</emph>: if <literal>True</literal>, open the new document in the background (default = <literal>False</literal>). To use with caution: activation or closure afterwards can only happen programmatically."
-msgstr ""
+msgstr "<emph>hidden</emph>: Je-li <literal>True</literal>, nový dokument se otevře na pozadí (výchozí = <literal>False</literal>). Používejte tuto možnost obezřetně: takový dokument je možné aktivovat nebo zavřít pouze programem."
 
 #. sbgeH
 #: sf_ui.xhp
@@ -22179,7 +22179,7 @@ msgctxt ""
 "par_id981588524474719\n"
 "help.text"
 msgid "<emph>macroexecution</emph>: 0 = behaviour is defined by the user configuration, 1 = macros are not executable, 2 = macros are executable."
-msgstr ""
+msgstr "<emph>macroexecution</emph>: 0 = chování je určeno nastavením uživatele, 1 = makra nejsou spustitelná, 2 = makra jsou spustitelná."
 
 #. AF7iF
 #: sf_ui.xhp
@@ -22188,7 +22188,7 @@ msgctxt ""
 "par_id611588524584693\n"
 "help.text"
 msgid "<emph>filtername</emph>: The name of a filter that should be used for loading the document. If present, the filter must exist."
-msgstr ""
+msgstr "<emph>filtername</emph>: Název filtru, který by se měl pro načtení dokumentu použít. Je-li zadán, filtr musí existovat."
 
 #. MKueU
 #: sf_ui.xhp
@@ -22197,7 +22197,7 @@ msgctxt ""
 "par_id191588524634348\n"
 "help.text"
 msgid "<emph>filteroptions</emph>: An optional string of options associated with the filter."
-msgstr ""
+msgstr "<emph>filteroptions</emph>: Nepovinný řetězec možností pro zadaný filtr."
 
 #. qMTrj
 #: sf_ui.xhp
@@ -22206,7 +22206,7 @@ msgctxt ""
 "par_id751587986945965\n"
 "help.text"
 msgid "Resizes and/or moves the active window. Absent and negative arguments are ignored. If the window is minimized or maximized, calling <literal>Resize</literal> without arguments restores it."
-msgstr ""
+msgstr "Změní velikost aktivního okna a/nebo jej přesune. Nezadané a záporné argumenty jsou ignorovány. Jestliže je okno minimalizováno či maximalizováno, volání metody <literal>Resize</literal> bez argumentů jej obnoví."
 
 #. 6NUcv
 #: sf_ui.xhp
@@ -22215,7 +22215,7 @@ msgctxt ""
 "par_id441587986945696\n"
 "help.text"
 msgid "<emph>left, top</emph>: Distances of the top-left corner from top and left edges of the screen, in pixels."
-msgstr ""
+msgstr "<emph>left, top</emph>: Vzdálenosti levého horního rohu od horního a levého okraje obrazovky (v pixelech)."
 
 #. AdcjG
 #: sf_ui.xhp
@@ -22224,7 +22224,7 @@ msgctxt ""
 "par_id601587987453825\n"
 "help.text"
 msgid "<emph>width, height</emph>: New dimensions of the window, in pixels."
-msgstr ""
+msgstr "<emph>width, height</emph>: Nové rozměry okna (v pixelech)."
 
 #. vDNVH
 #: sf_ui.xhp
@@ -22233,7 +22233,7 @@ msgctxt ""
 "par_id801587987507028\n"
 "help.text"
 msgid "In the following examples, the <literal>width</literal> and <literal>height</literal> of the window are changed while <literal>top</literal> and <literal>left</literal> are left unchanged."
-msgstr ""
+msgstr "V následujících příkladech je u okna změněna šířka <literal>width</literal> a výška <literal>height</literal>, zatímco vzdálenost shora <literal>top</literal> a zleva <literal>left</literal> je ponechána beze změny."
 
 #. HP2Jb
 #: sf_ui.xhp
@@ -22242,7 +22242,7 @@ msgctxt ""
 "par_id21620332301809\n"
 "help.text"
 msgid "To resize a window that is not active, first activate it using the <literal>Activate</literal> method."
-msgstr ""
+msgstr "Chcete-li změnit velikost neaktivního okna, nejprve jej aktivujte metodou <literal>Activate</literal>."
 
 #. NnBWM
 #: sf_ui.xhp
@@ -22251,7 +22251,7 @@ msgctxt ""
 "par_id281587996421580\n"
 "help.text"
 msgid "Display a text and a progressbar in the status bar of the active window. Any subsequent calls in the same macro run refer to the same status bar of the same window, even if the window is not visible anymore. A call without arguments resets the status bar to its normal state."
-msgstr ""
+msgstr "Zobrazí ve stavovém řádku aktivního okna text a ukazatel průběhu. Jakékoliv další volání v témže makru bude odkazovat na tentýž stavový řádek téhož okna, i když okno už nebude viditelné. Volání metody bez argumentů obnoví běžný stav stavového řádku."
 
 #. rDr2L
 #: sf_ui.xhp
@@ -22260,7 +22260,7 @@ msgctxt ""
 "par_id71587996421829\n"
 "help.text"
 msgid "<emph>text</emph>: An optional text to be displayed in front of the progress bar."
-msgstr ""
+msgstr "<emph>text</emph>: Nepovinný text, který se má zobrazit v popředí ukazatele průběhu."
 
 #. hbCpG
 #: sf_ui.xhp
@@ -22269,7 +22269,7 @@ msgctxt ""
 "par_id881587996421777\n"
 "help.text"
 msgid "<emph>percentage</emph>: an optional degree of progress between 0 and 100."
-msgstr ""
+msgstr "<emph>percentage</emph>: nepovinný stupeň průběhu mezi 0 a 100."
 
 #. qbGdy
 #: sf_ui.xhp
@@ -22278,7 +22278,7 @@ msgctxt ""
 "bas_id651620332601083\n"
 "help.text"
 msgid "' Resets the statusbar"
-msgstr ""
+msgstr "' Obnoví stavový řádek"
 
 #. oQfWc
 #: sf_ui.xhp
@@ -22287,7 +22287,7 @@ msgctxt ""
 "par_id571598864255776\n"
 "help.text"
 msgid "Displays a non-modal dialog box. Specify its title, an explicatory text and a percentage of progress to be represented on a progressbar. The dialog will remain visible until a call to the method without arguments or until the user manually closes the dialog."
-msgstr ""
+msgstr "Zobrazí nemodální dialogové okno, pro nějž určíte název, vysvětlující text a procento průběhu, které se má zobrazit ukazatelem průběhu. Dialogové okno zůstane zobrazené, dokud nezavoláte tuto metodu bez argumentů nebo dokud uživatel okno nezavře ručně."
 
 #. drhV6
 #: sf_ui.xhp
@@ -22296,7 +22296,7 @@ msgctxt ""
 "par_id441598864535695\n"
 "help.text"
 msgid "<emph>title</emph> : The title appearing on top of the dialog box. Default = \"ScriptForge\"."
-msgstr ""
+msgstr "<emph>title</emph> : Název zobrazený v záhlaví dialogového okna. Výchozí = \"ScriptForge\"."
 
 #. jvrZV
 #: sf_ui.xhp
@@ -22305,7 +22305,7 @@ msgctxt ""
 "par_id311598864255297\n"
 "help.text"
 msgid "<emph>text</emph>: An optional text to be displayed above the progress bar."
-msgstr ""
+msgstr "<emph>text</emph>: Nepovinný text, který se má zobrazit nad ukazatelem průběhu."
 
 #. Qj3N3
 #: sf_ui.xhp
@@ -22314,7 +22314,7 @@ msgctxt ""
 "par_id881598864255424\n"
 "help.text"
 msgid "<emph>percentage</emph>: an optional degree of progress between 0 and 100."
-msgstr ""
+msgstr "<emph>percentage</emph>: nepovinný stupeň průběhu mezi 0 a 100."
 
 #. rVBX3
 #: sf_ui.xhp
@@ -22323,7 +22323,7 @@ msgctxt ""
 "bas_id651620333289753\n"
 "help.text"
 msgid "' Closes the Progress Bar window"
-msgstr ""
+msgstr "' Zavře okno s ukazatelem průběhu"
 
 #. u3gZ8
 #: sf_ui.xhp
@@ -22332,7 +22332,7 @@ msgctxt ""
 "pyc_id761620333269236\n"
 "help.text"
 msgid "# Closes the Progress Bar window"
-msgstr ""
+msgstr "# Zavře okno s ukazatelem průběhu"
 
 #. ZEG6t
 #: sf_ui.xhp
@@ -22341,7 +22341,7 @@ msgctxt ""
 "par_id431588587119925\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the given window could be identified."
-msgstr ""
+msgstr "Vrátí <literal>True</literal>, pokud lze zadané okno identifikovat."
 
 #. rkJbT
 #: sf_ui.xhp
@@ -22350,7 +22350,7 @@ msgctxt ""
 "par_id45158858711917\n"
 "help.text"
 msgid "<emph>windowname</emph>: see the definitions above."
-msgstr ""
+msgstr "<emph>windowname</emph>: viz výše uvedené definice."
 
 #~ msgctxt ""
 #~ "lib_ScriptForge.xhp\n"
