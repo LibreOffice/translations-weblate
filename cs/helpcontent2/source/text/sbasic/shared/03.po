@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2022-02-06 05:38+0000\n"
+"PO-Revision-Date: 2022-02-07 12:38+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-7-2/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -131,7 +131,7 @@ msgctxt ""
 "hd_id31529004750471\n"
 "help.text"
 msgid "<variable id=\"ScriptForge_lib\"><link href=\"text/sbasic/shared/03/lib_ScriptForge.xhp\" name=\"ScriptForge library\">The <literal>ScriptForge</literal> Library</link></variable>"
-msgstr "<variable id=\"ScriptForge_lib\"><link href=\"text/sbasic/shared/03/lib_ScriptForge.xhp\" name=\"Knihovna ScriptForge\">Knihovna <literal>ScriptForge</literal> </link></variable>"
+msgstr "<variable id=\"ScriptForge_lib\"><link href=\"text/sbasic/shared/03/lib_ScriptForge.xhp\" name=\"Knihovna ScriptForge\">Knihovna <literal>ScriptForge</literal></link></variable>"
 
 #. yE8bw
 #: lib_ScriptForge.xhp
@@ -17523,7 +17523,7 @@ msgctxt ""
 "par_id1315827229793\n"
 "help.text"
 msgid "By executing a series of invocations of <literal>RegisterService()</literal> and <literal>RegisterEventManager()</literal>, the <literal>RegisterScriptServices()</literal> method incorporates a library into the <literal>ScriptForge</literal> framework.      <br/>Each library pertaining to the framework must implement its own version of this method."
-msgstr ""
+msgstr "Metoda <literal>RegisterScriptServices()</literal> začlení knihovnu do prostředí <literal>ScriptForge</literal>, a to pomocí volání metod <literal>RegisterService()</literal> and <literal>RegisterEventManager()</literal>.<br/>Každá knihovny příslušná k tomuto prostředí musí implementovat vlastní verzi této metody."
 
 #. 8FgEA
 #: sf_services.xhp
@@ -17532,7 +17532,7 @@ msgctxt ""
 "par_id411582723190195\n"
 "help.text"
 msgid "The method has to be stored in a <emph>standard</emph> Basic module as opposed to a class module."
-msgstr ""
+msgstr "Na rozdíl od modulu třídy je nutné, aby byla tato metoda uložena v modulu Basicu <emph>standard</emph>."
 
 #. jEAZb
 #: sf_services.xhp
@@ -17541,7 +17541,7 @@ msgctxt ""
 "par_id351582724127926\n"
 "help.text"
 msgid "A service is either:"
-msgstr ""
+msgstr "Služba je:"
 
 #. oC8wx
 #: sf_services.xhp
@@ -17550,7 +17550,7 @@ msgctxt ""
 "par_id171582722979820\n"
 "help.text"
 msgid "a Basic standard module passed as a Basic object."
-msgstr ""
+msgstr "Standardní modul Basicu předaný jako objekt Basicu."
 
 #. r98Hy
 #: sf_services.xhp
@@ -17559,7 +17559,7 @@ msgctxt ""
 "par_id121582722979649\n"
 "help.text"
 msgid "or a string designating the function to execute to get an instance of the service. It is in fact the function containing the <literal>New</literal> keyword of a <link href=\"text/sbasic/shared/03103700.xhp\" name=\"Set statement\">Set</link> statement creating the instance."
-msgstr ""
+msgstr "Nebo řetězec označující funkci, která se má spustit, aby se získala instance služby. Jedná se o funkci obsahující klíčové slovo <literal>New</literal> pro příkaz <link href=\"text/sbasic/shared/03103700.xhp\" name=\"Příkaz Set\">Set</link>, který instanci vytváří."
 
 #. FKqFQ
 #: sf_services.xhp
@@ -17568,7 +17568,7 @@ msgctxt ""
 "par_id771582725815107\n"
 "help.text"
 msgid "GlobalScope.LibraryName.ModuleName ' Object"
-msgstr ""
+msgstr "GlobalScope.LibraryName.ModuleName ' Objekt"
 
 #. DYyWS
 #: sf_services.xhp
@@ -17577,7 +17577,7 @@ msgctxt ""
 "bas_id721582724496873\n"
 "help.text"
 msgid "\"LibraryName.ModuleName.FunctionName\" ' String"
-msgstr ""
+msgstr "\"LibraryName.ModuleName.FunctionName\" ' Řetězec"
 
 #. uej6R
 #: sf_services.xhp
@@ -17586,7 +17586,7 @@ msgctxt ""
 "bas_id11582725353585\n"
 "help.text"
 msgid "' Refer to a Basic standard module implementing the service as a set of methods"
-msgstr ""
+msgstr "' Odkazuje na standardní modul Basicu implementující službu jako sadu metod"
 
 #. jCUWF
 #: sf_services.xhp
@@ -17595,7 +17595,7 @@ msgctxt ""
 "bas_id341582725374064\n"
 "help.text"
 msgid "' The function should return an instance of a Basic object class implementing the service"
-msgstr ""
+msgstr "' Funkce by měla vrátit instanci třídy s objektem Basicu, která implementuje službu"
 
 #. iwekv
 #: sf_services.xhp
@@ -17604,7 +17604,7 @@ msgctxt ""
 "par_id741582727674249\n"
 "help.text"
 msgid "When a user script contains a statement such as:"
-msgstr ""
+msgstr "Pokud uživatelský skript obsahuje například tento příkaz:"
 
 #. ivHq4
 #: sf_services.xhp
@@ -17613,7 +17613,7 @@ msgctxt ""
 "par_id611582727701061\n"
 "help.text"
 msgid "<br/><literal>ScriptForge</literal> performs these tasks:"
-msgstr ""
+msgstr "<br/>Knihovna <literal>ScriptForge</literal> provede tyto kroky:"
 
 #. 8AiaU
 #: sf_services.xhp
@@ -17622,7 +17622,7 @@ msgctxt ""
 "par_id511582728914523\n"
 "help.text"
 msgid "load the library <literal>myLibrary</literal> when necessary"
-msgstr ""
+msgstr "Je-li to nutné, načte knihovnu <literal>myLibrary</literal>."
 
 #. Egm5V
 #: sf_services.xhp
@@ -17631,7 +17631,7 @@ msgctxt ""
 "par_id441582728492537\n"
 "help.text"
 msgid "invoke the <literal>RegisterScriptServices</literal> method to load the list of services of <literal>myLibrary</literal> in memory"
-msgstr ""
+msgstr "Zavolá metodu <literal>RegisterScriptServices</literal>, kterou se načte do paměti seznam služeb <literal>myLibrary</literal>."
 
 #. csxrp
 #: sf_services.xhp
@@ -17640,7 +17640,7 @@ msgctxt ""
 "par_id531582728511341\n"
 "help.text"
 msgid "initialize the variable <literal>myServ</literal> with the given service"
-msgstr ""
+msgstr "Inicializuje proměnnou <literal>myServ</literal> danou službou."
 
 #. x6Xa6
 #: sf_services.xhp
