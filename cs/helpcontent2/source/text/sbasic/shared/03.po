@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2022-02-07 20:14+0000\n"
+"PO-Revision-Date: 2022-02-08 17:39+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-7-2/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -17712,7 +17712,7 @@ msgctxt ""
 "par_id92159629927929\n"
 "help.text"
 msgid "<emph>ServiceReference</emph>: A string designating the function to execute to get an instance of the service. It is in fact the function containing the <literal>New</literal> keyword of a <link href=\"text/sbasic/shared/03103700.xhp\" name=\"Set statement\">Set</link> statement creating the instance.:"
-msgstr ""
+msgstr "<emph>ServiceReference</emph>: Nebo řetězec označující funkci, která se má spustit, aby se získala instance služby. Jedná se o funkci obsahující klíčové slovo <literal>New</literal> pro příkaz <link href=\"text/sbasic/shared/03103700.xhp\" name=\"Příkaz Set\">Set</link>, který instanci vytváří."
 
 #. FKFAC
 #: sf_services.xhp
@@ -17721,7 +17721,7 @@ msgctxt ""
 "bas_id521596299279373\n"
 "help.text"
 msgid "' The function should return an instance of a Basic object class implementing the service"
-msgstr ""
+msgstr "' Funkce by měla vrátit instanci třídy s objektem Basicu, která implementuje službu"
 
 #. LCVem
 #: sf_session.xhp
@@ -17739,7 +17739,7 @@ msgctxt ""
 "hd_id901582814720985\n"
 "help.text"
 msgid "<variable id=\"SessionService\"><link href=\"text/sbasic/shared/03/sf_session.xhp\" name=\"Session service\"><literal>ScriptForge</literal>.<literal>Session</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"SessionService\"><link href=\"text/sbasic/shared/03/sf_session.xhp\" name=\"Session service\">Služba <literal>ScriptForge</literal>.<literal>Session</literal></link></variable>"
 
 #. yTgFK
 #: sf_session.xhp
@@ -17802,7 +17802,7 @@ msgctxt ""
 "par_id82158281472034\n"
 "help.text"
 msgid "Below is a list of constants available to ease the designation of the library containing a Basic or Python script to invoke.   <br/>Use them as <literal>session.CONSTANT</literal>."
-msgstr ""
+msgstr "Následuje seznam konstant usnadňujících nalezení knihovny obsahující skript Basicu nebo Pythonu, který se má zavolat. <br/>Používají se jako <literal>session.CONSTANT</literal>."
 
 #. yyF2R
 #: sf_session.xhp
@@ -17910,7 +17910,7 @@ msgctxt ""
 "par_id491613061572993\n"
 "help.text"
 msgid "<literal>Session</literal> service methods behave as follows:      <br/>Arguments are passed by value. Updates performed by the called function are not sent back to the calling script.      <br/>A single value or an array of values is returned to the calling script."
-msgstr ""
+msgstr "Metody služby <literal>Session</literal> se chovají následovně:<br/>Argumenty jsou předávány hodnotou. Změny provedené na argumentech volanou funkcí tedy neovlivní jejich hodnoty ve volajícím skriptu.<br/>Volajícímu skriptu se vrátí jediná hodnota nebo pole hodnot."
 
 #. 72GZi
 #: sf_session.xhp
@@ -17928,7 +17928,7 @@ msgctxt ""
 "par_id921600856780901\n"
 "help.text"
 msgid "If the script is not found, or if it returns nothing, the returned value is <literal>Empty</literal>."
-msgstr ""
+msgstr "Není-li skript nalezen nebo nic nevrací, návratovou hodnotou je <literal>Empty</literal>."
 
 #. bWiEa
 #: sf_session.xhp
@@ -17937,7 +17937,7 @@ msgctxt ""
 "par_id631582815407231\n"
 "help.text"
 msgid "<emph>Scope</emph>: \"document\" or \"application\" or one of the applicable <literal>session.CONSTANTS</literal>."
-msgstr ""
+msgstr "<emph>Scope</emph>: \"document\", \"application\" nebo některá z relevantních konstant <literal>session.CONSTANTS</literal>."
 
 #. fxDM3
 #: sf_session.xhp
@@ -17946,7 +17946,7 @@ msgctxt ""
 "par_id691582815407231\n"
 "help.text"
 msgid "<emph>Script</emph>: \"library.module.method\" as a case-sensitive string.      <br/>The library is loaded in memory if necessary.      <br/>The module must not be a class module.      <br/>The method may be a <literal>Sub</literal> or a <literal>Function</literal>."
-msgstr ""
+msgstr "<emph>Script</emph>: Skript, který se má zavolat, ve formátu \"knihovna.modul.metoda\" jako řetězec, u nějž se rozlišuje velikost písmen.<br/>Je-li to nezbytné, knihovna se načte do paměti.<br/>Modul nemůže být modulem třídy.<br/>Metoda může být typu <literal>Sub</literal> nebo <literal>Function</literal>."
 
 #. UM3xU
 #: sf_session.xhp
@@ -17955,7 +17955,7 @@ msgctxt ""
 "par_id881582815407231\n"
 "help.text"
 msgid "<emph>arg0, ...</emph>: The arguments to provide to the called script."
-msgstr ""
+msgstr "<emph>arg0, ...</emph>: Argumenty, které se mají předat volanému skriptu."
 
 #. bvuhY
 #: sf_session.xhp
@@ -17964,7 +17964,7 @@ msgctxt ""
 "bas_id61582815407231\n"
 "help.text"
 msgid "' Xray returns no value"
-msgstr ""
+msgstr "' Xray nevrátí žádnou hodnotu"
 
 #. Yr22N
 #: sf_session.xhp
@@ -17982,7 +17982,7 @@ msgctxt ""
 "par_id771582816585183\n"
 "help.text"
 msgid "<emph>CalcFunction</emph>: The English name of the function to execute."
-msgstr ""
+msgstr "<emph>CalcFunction</emph>: Anglický název funkce Calcu, která se má spustit."
 
 #. ULCqi
 #: sf_session.xhp
@@ -17991,7 +17991,7 @@ msgctxt ""
 "par_id371582816585183\n"
 "help.text"
 msgid "<emph>arg0, ...</emph>: The arguments to provide to the called Calc function. Each argument must be either a string, a numeric value or an array of arrays combining those types."
-msgstr ""
+msgstr "<emph>arg0, ...</emph>: Argumenty, které se mají volané funkci Calcu předat. Každý argument musí být řetězec, číselná hodnota nebo pole polí kombinující tyto typy."
 
 #. XMfUD
 #: sf_session.xhp
@@ -18027,7 +18027,7 @@ msgctxt ""
 "par_id791582818023246\n"
 "help.text"
 msgid "<emph>Scope</emph>: One of the applicable <literal>session.CONSTANTS</literal>. Default = <literal>session.SCRIPTISSHARED</literal>."
-msgstr ""
+msgstr "<emph>Scope</emph>: Některá z relevantních konstant <literal>session.CONSTANTS</literal>. Výchozí = <literal>session.SCRIPTISSHARED</literal>."
 
 #. UDbdL
 #: sf_session.xhp
@@ -18036,7 +18036,7 @@ msgctxt ""
 "par_id71582818023247\n"
 "help.text"
 msgid "<emph>Script</emph>: Either \"library/module.py$method\" or \"module.py$method\" or \"myExtension.oxt|myScript|module.py$method\" as a case-sensitive string."
-msgstr ""
+msgstr "<emph>script</emph>: Řetězec, u nějž se rozlišuje velikost písmen, ve formátu \"knihovna/modul.py$metoda\", \"modul.py$metoda\" nebo \"mojeRozsireni.oxt|mujSkript|modul.py$metoda\"."
 
 #. P6ZKD
 #: sf_session.xhp
@@ -18081,7 +18081,7 @@ msgctxt ""
 "par_id711582818023247\n"
 "help.text"
 msgid "<emph>arg0, ...</emph>: The arguments to provide to the called script."
-msgstr ""
+msgstr "<emph>arg0, ...</emph>: Argumenty, které se mají předat volanému skriptu."
 
 #. Lv4iA
 #: sf_session.xhp
@@ -18099,7 +18099,7 @@ msgctxt ""
 "par_id921587477335673\n"
 "help.text"
 msgid "<emph>UnoObject</emph>: The object to inspect."
-msgstr ""
+msgstr "<emph>UnoObject</emph>: Objekt, který se má prozkoumat."
 
 #. d8D4G
 #: sf_session.xhp
@@ -18108,7 +18108,7 @@ msgctxt ""
 "par_id631587477566016\n"
 "help.text"
 msgid "<emph>MethodName</emph>: the method as a case-sensitive string"
-msgstr ""
+msgstr "<emph>MethodName</emph>: Metoda jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. gDBRB
 #: sf_session.xhp
@@ -18126,7 +18126,7 @@ msgctxt ""
 "par_id121587477832805\n"
 "help.text"
 msgid "<emph>UnoObject</emph>: The object to inspect."
-msgstr ""
+msgstr "<emph>UnoObject</emph>: Objekt, který se má prozkoumat."
 
 #. DGzZA
 #: sf_session.xhp
@@ -18135,7 +18135,7 @@ msgctxt ""
 "par_id701587477832750\n"
 "help.text"
 msgid "<emph>PropertyName</emph>: the property as a case-sensitive string"
-msgstr ""
+msgstr "<emph>PropertyName</emph>: Vlastnost jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. QWaTF
 #: sf_session.xhp
@@ -18153,7 +18153,7 @@ msgctxt ""
 "par_id241601129640549\n"
 "help.text"
 msgid "<emph>URL</emph>: The URL to open."
-msgstr ""
+msgstr "<emph>URL</emph>: Adresa URL, která se má otevřít."
 
 #. hmMBt
 #: sf_session.xhp
@@ -18162,7 +18162,7 @@ msgctxt ""
 "par_id311582819697897\n"
 "help.text"
 msgid "Executes an arbitrary system command and returns <literal>True </literal> if it was launched successfully."
-msgstr ""
+msgstr "Spustí libovolný systémový příkaz a v případě úspěšného spuštění vrátí <literal>True</literal>."
 
 #. QgJxa
 #: sf_session.xhp
@@ -18171,7 +18171,7 @@ msgctxt ""
 "par_id461582819697898\n"
 "help.text"
 msgid "<emph>Command</emph>: The command to execute. This may be an executable file or a document which is registered with an application so that the system knows what application to launch for that document. The command must be expressed in the current <literal>SF_FileSystem.FileNaming</literal> notation."
-msgstr ""
+msgstr "<emph>Command</emph>: Příkaz, který se má spustit. Může se jednat o spustitelný soubor nebo o dokument, jehož typ je zaregistrován u nějaké aplikace, takže systém bude moci určit, kterou aplikaci má pro spuštění dokumentu použít. Příkaz musí odpovídat zápisu <literal>SF_FileSystem.FileNaming</literal>."
 
 #. vTm42
 #: sf_session.xhp
@@ -18180,7 +18180,7 @@ msgctxt ""
 "par_id611582819697899\n"
 "help.text"
 msgid "<emph>Parameters</emph>: A list of space separated parameters as a single string. The method does not validate the given parameters, but only passes them to the specified command."
-msgstr ""
+msgstr "<emph>Paramters</emph>: Seznam mezerou oddělených parametrů jako jediný řetězec. Metoda zadané parametry nijak neověřuje, pouze je předá zadanému příkazu."
 
 #. 2hTM7
 #: sf_session.xhp
@@ -18198,7 +18198,7 @@ msgctxt ""
 "par_id701601030349896\n"
 "help.text"
 msgid "<emph>Recipient</emph>: An email address (the \"To\" recipient)."
-msgstr ""
+msgstr "<emph>Recipient</emph>: E-mailová adresa (příjemce „komu“)."
 
 #. xC9Lq
 #: sf_session.xhp
@@ -18207,7 +18207,7 @@ msgctxt ""
 "par_id571601030349904\n"
 "help.text"
 msgid "<emph>Cc</emph>: A comma-separated list of email addresses (the \"carbon copy\" recipients)."
-msgstr ""
+msgstr "<emph>Cc</emph>: Čárkami oddělený seznam e-mailových adres (příjemci „kopie“)."
 
 #. xxBCy
 #: sf_session.xhp
@@ -18216,7 +18216,7 @@ msgctxt ""
 "par_id961601031043346\n"
 "help.text"
 msgid "<emph>Bcc</emph>: A comma-separated list of email addresses (the \"blind carbon copy\" recipients)."
-msgstr ""
+msgstr "<emph>Bcc</emph>: Čárkami oddělený seznam e-mailových adres (příjemci „skrytá kopie“)."
 
 #. vMyR2
 #: sf_session.xhp
@@ -18225,7 +18225,7 @@ msgctxt ""
 "par_id891601031050814\n"
 "help.text"
 msgid "<emph>Subject</emph>: the header of the message."
-msgstr ""
+msgstr "<emph>Subject</emph>: Nadpis zprávy."
 
 #. L7Cqy
 #: sf_session.xhp
@@ -18234,7 +18234,7 @@ msgctxt ""
 "par_id191601031056673\n"
 "help.text"
 msgid "<emph>Body</emph>: The content of the message as an unformatted text."
-msgstr ""
+msgstr "<emph>Body</emph>: Obsah zprávy jako neformátovaný text."
 
 #. HKGDs
 #: sf_session.xhp
@@ -18243,7 +18243,7 @@ msgctxt ""
 "par_id511601031063269\n"
 "help.text"
 msgid "<emph>FileNames</emph>: a comma-separated list of file names. Each file name must respect the <literal>SF_FileSystem.FileNaming</literal> notation."
-msgstr ""
+msgstr "<emph>FileNames</emph>: Čárkami oddělený seznam názvů souborů. Názvy musí odpovídat zápisu <literal>SF_FileSystem.FileNaming</literal>."
 
 #. k3Ssx
 #: sf_session.xhp
@@ -18252,7 +18252,7 @@ msgctxt ""
 "par_id161601032784063\n"
 "help.text"
 msgid "<emph>EditMessage</emph>: When <literal>True</literal> (default), the message is edited before being sent."
-msgstr ""
+msgstr "<emph>EditMessage</emph>: Je-li <literal>True</literal> (výchozí), zprávu bude možné před odesláním upravit."
 
 #. HtzHP
 #: sf_session.xhp
@@ -18270,7 +18270,7 @@ msgctxt ""
 "par_id251587478024311\n"
 "help.text"
 msgid "<emph>UnoObject</emph>: The object to inspect."
-msgstr ""
+msgstr "<emph>UnoObject</emph>: Objekt, který se má prozkoumat."
 
 #. sL6Ri
 #: sf_session.xhp
@@ -18288,7 +18288,7 @@ msgctxt ""
 "par_id241587478343323\n"
 "help.text"
 msgid "<emph>UnoObject</emph>: The object to inspect."
-msgstr ""
+msgstr "<emph>UnoObject</emph>: Objekt, který se má prozkoumat."
 
 #. Cm4eK
 #: sf_session.xhp
@@ -18306,7 +18306,7 @@ msgctxt ""
 "par_id921582820251349\n"
 "help.text"
 msgid "<emph>UnoObject</emph>: The object to identify."
-msgstr ""
+msgstr "<emph>UnoObject</emph>: Objekt, který se má prozkoumat."
 
 #. UAy4i
 #: sf_session.xhp
@@ -18324,7 +18324,7 @@ msgctxt ""
 "par_id771582821057374\n"
 "help.text"
 msgid "<emph>URI</emph>: URI text of the web service."
-msgstr ""
+msgstr "<emph>URI</emph>: Text URI webové služby."
 
 #. gn6AM
 #: sf_string.xhp
@@ -18642,7 +18642,7 @@ msgctxt ""
 "par_id63158659509728\n"
 "help.text"
 msgid "The following code snippets show the three ways to call methods in the <literal>String</literal> service (the <literal>ExpandTabs</literal> method is used as an example):"
-msgstr ""
+msgstr "Následující části kódu ukazují tři způsoby volání metod služby <literal>String</literal> (jako příklad je uvedena metoda <literal>ExpandTabs</literal>):"
 
 #. GfEcK
 #: sf_string.xhp
@@ -18660,7 +18660,7 @@ msgctxt ""
 "par_id241611950267068\n"
 "help.text"
 msgid "The <literal>SF_String</literal> object provides the following properties:"
-msgstr ""
+msgstr "Objekt <literal>SF_String</literal> poskytuje následující vlastnosti:"
 
 #. FDjPb
 #: sf_string.xhp
@@ -18813,7 +18813,7 @@ msgctxt ""
 "par_id941582304592013\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be capitalized."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, u nějž se mají první písmena změnit."
 
 #. DB982
 #: sf_string.xhp
@@ -18831,7 +18831,7 @@ msgctxt ""
 "par_id571582384689863\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The input string to be examined"
-msgstr ""
+msgstr "<emph>InputStr</emph>: Vstupní řetězec, pro nějž se má počet zjistit."
 
 #. 97Asr
 #: sf_string.xhp
@@ -18840,7 +18840,7 @@ msgctxt ""
 "par_id601582384696486\n"
 "help.text"
 msgid "<emph>Substring</emph>: The substring or the regular expression to be used during search"
-msgstr ""
+msgstr "<emph>Substring</emph>: Podřetězec nebo regulární výraz použitý pro vyhledávání."
 
 #. i5aBr
 #: sf_string.xhp
@@ -18849,7 +18849,7 @@ msgctxt ""
 "par_id451582384703719\n"
 "help.text"
 msgid "<emph>IsRegex</emph>: Use <literal>True</literal> if the substring is a regular expression (default = <literal>False</literal>)"
-msgstr ""
+msgstr "<emph>IsRegex</emph>: Použijte <literal>True</literal>, pokud je podřetězec regulárním výrazem (výchozí = <literal>False</literal>)"
 
 #. fxSHM
 #: sf_string.xhp
@@ -18858,7 +18858,7 @@ msgctxt ""
 "par_id141582384726168\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph>: Default = <literal>False</literal>"
-msgstr ""
+msgstr "<emph>CaseSensitive</emph>: Výchozí = <literal>False</literal>."
 
 #. QcE5q
 #: sf_string.xhp
@@ -18912,7 +18912,7 @@ msgctxt ""
 "par_id191579861552201\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be tested."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má ověřit."
 
 #. B5JDX
 #: sf_string.xhp
@@ -18921,7 +18921,7 @@ msgctxt ""
 "par_id211579861561473\n"
 "help.text"
 msgid "<emph>Substring</emph>: The substring to be searched at the end of <literal>InputStr</literal>."
-msgstr ""
+msgstr "<emph>Substring</emph>: Podřetězec, který se má vyhledat na konci řetězce <literal>inputstr</literal>."
 
 #. WfUif
 #: sf_string.xhp
@@ -18930,7 +18930,7 @@ msgctxt ""
 "par_id801579861574009\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph>: The comparison can be case sensitive or not (default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>CaseSensitive</emph>: Zda se u vyhledávání rozlišuje velikost písmen (výchozí = <literal>False</literal>)."
 
 #. gn2F8
 #: sf_string.xhp
@@ -18968,7 +18968,7 @@ msgctxt ""
 "par_id9158592144110\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be converted."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má převést."
 
 #. cpLKD
 #: sf_string.xhp
@@ -19007,7 +19007,7 @@ msgctxt ""
 "par_id231579868290408\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be expanded"
-msgstr ""
+msgstr "<emph>InputStr</emph>: Vstupní řetězec, který se má upravit."
 
 #. J3oNq
 #: sf_string.xhp
@@ -19016,7 +19016,7 @@ msgctxt ""
 "par_id281579868299807\n"
 "help.text"
 msgid "<emph>TabSize</emph>: This parameter is used to determine the Tab stops using the formula: TabSize + 1, 2 * TabSize + 1 , ... N * TabSize + 1 (default = 8)"
-msgstr ""
+msgstr "<emph>TabSize</emph>: Tento parametr odpovídající kroku tabulátoru se použije pro určení umístění textu, a to podle vzorců: TabSize + 1, 2 * TabSize + 1 , ... N * TabSize + 1 (výchozí = 8)"
 
 #. GUoE8
 #: sf_string.xhp
@@ -19034,7 +19034,7 @@ msgctxt ""
 "par_id431579874633865\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be searched"
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má prohledat."
 
 #. bywcr
 #: sf_string.xhp
@@ -19043,7 +19043,7 @@ msgctxt ""
 "par_id31579874656437\n"
 "help.text"
 msgid "<emph>ReplacedBy</emph>: Zero, one or more characters that will replace all non-printable characters in <literal>InputStr</literal> (Default = \"\")"
-msgstr ""
+msgstr "<emph>ReplacedBy</emph>: Žádný, jeden či více znaků, které nahradí každý netisknutelný znak v řetězci <literal>InputStr</literal> (výchozí = \"\")."
 
 #. W44TL
 #: sf_string.xhp
@@ -19061,7 +19061,7 @@ msgctxt ""
 "par_id131579876314120\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be searched"
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má prohledat."
 
 #. pEWGm
 #: sf_string.xhp
@@ -19070,7 +19070,7 @@ msgctxt ""
 "par_id751579876371545\n"
 "help.text"
 msgid "<emph>Regex</emph>: The regular expression"
-msgstr ""
+msgstr "<emph>Regex</emph>: Regulární výraz."
 
 #. vBGPG
 #: sf_string.xhp
@@ -19079,7 +19079,7 @@ msgctxt ""
 "par_id881579876394584\n"
 "help.text"
 msgid "<emph>Start</emph>: The position in the string where the search will begin. This parameter is passed by reference, so after execution the value of <literal>Start</literal> will point to the first character of the found substring. If no matching substring is found, <literal>Start</literal> will be set to 0."
-msgstr ""
+msgstr "<emph>Start</emph>: Pozice v řetězci, od níž vyhledávání začne. Tento parametr se předává odkazem, po provedení metody tedy bude hodnota <literal>Start</literal> odkazovat na první znak nalezeného řetězce. Nebude-li nalezen žádný, hodnota <literal>Start</literal> bude 0."
 
 #. 8ACCG
 #: sf_string.xhp
@@ -19088,7 +19088,7 @@ msgctxt ""
 "par_id251579876403831\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph>: Default = <literal>False</literal>"
-msgstr ""
+msgstr "<emph>CaseSensitive</emph>: Výchozí = <literal>False</literal>."
 
 #. y5jTA
 #: sf_string.xhp
@@ -19097,7 +19097,7 @@ msgctxt ""
 "par_id841579876412287\n"
 "help.text"
 msgid "<emph>Forward</emph>: Determines the direction of the search. If <literal>True</literal>, search moves forward. If <literal>False</literal> search moves backwards (Default = <literal>True</literal>)"
-msgstr ""
+msgstr "<emph>Forward</emph>: Určuje směr vyhledávání. V případě <literal>True</literal> vyhledávání postupuje směrem dopředu, v opačném případě směrem zpět (výchozí = <literal>True</literal>)."
 
 #. 24fyo
 #: sf_string.xhp
@@ -19106,7 +19106,7 @@ msgctxt ""
 "par_id451612309155653\n"
 "help.text"
 msgid "At the first iteration, if <literal>Forward = True</literal>, then <literal>Start</literal> should be equal to 1, whereas if <literal>Forward = False</literal> then <literal>Start</literal> should be equal to <literal>Len(InputStr)</literal>"
-msgstr ""
+msgstr "Po první iteraci vyhledávání by měla být v případě <literal>Forward = True</literal> hodnota <literal>Start</literal> rovna 1, zatímco v případě <literal>Forward = False</literal> by se tato hodnota měla rovnat <literal>Len(InputStr)</literal>."
 
 #. gv3oo
 #: sf_string.xhp
@@ -19151,7 +19151,7 @@ msgctxt ""
 "par_id621601048983210\n"
 "help.text"
 msgid "<emph>InputStr</emph> : The string to hash. It is presumed to be encoded in UTF-8. The hashing algorithm will consider the string as a stream of bytes."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který má být zahashován. Předpokládá se, že je v kódování UTF-8. V hashovacím algoritmu bude řetězec považován za posloupnost bajtů."
 
 #. krqwK
 #: sf_string.xhp
@@ -19160,7 +19160,7 @@ msgctxt ""
 "par_id941601048983822\n"
 "help.text"
 msgid "<emph>Algorithm</emph> : One of the supported algorithms listed above, passed as a string."
-msgstr ""
+msgstr "<emph>Algorithm</emph>: Některý z výše uvedených podporovaných algoritmů, zadaný jako řetězec."
 
 #. TXGmB
 #: sf_string.xhp
@@ -19187,7 +19187,7 @@ msgctxt ""
 "bas_id501579879570781\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to encode"
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zakódovat."
 
 #. jpv97
 #: sf_string.xhp
@@ -19205,7 +19205,7 @@ msgctxt ""
 "par_id151579881091821\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>"
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. J4E4L
 #: sf_string.xhp
@@ -19214,7 +19214,7 @@ msgctxt ""
 "par_id991579881107670\n"
 "help.text"
 msgid "<emph>DateFormat</emph>: The date format, as a string. It can be either \"YYYY-MM-DD\" (default), \"DD-MM-YYYY\" or \"MM-DD-YYYY\""
-msgstr ""
+msgstr "<emph>DateFormat</emph>: Formát data jako řetězec. Je možné zvolit \"YYYY-MM-DD\" (výchozí), \"DD-MM-YYYY\" nebo \"MM-DD-YYYY\"."
 
 #. GvZLC
 #: sf_string.xhp
@@ -19277,7 +19277,7 @@ msgctxt ""
 "par_id11579881691826\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. KaLGv
 #: sf_string.xhp
@@ -19295,7 +19295,7 @@ msgctxt ""
 "par_id31579884464101\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. qAZpA
 #: sf_string.xhp
@@ -19313,7 +19313,7 @@ msgctxt ""
 "par_id791580039528838\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. iuPF4
 #: sf_string.xhp
@@ -19331,7 +19331,7 @@ msgctxt ""
 "par_id41580044873043\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. J8Ykx
 #: sf_string.xhp
@@ -19349,7 +19349,7 @@ msgctxt ""
 "par_id841580045280071\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. R6MsU
 #: sf_string.xhp
@@ -19367,7 +19367,7 @@ msgctxt ""
 "par_id801580047079938\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. j3yDJ
 #: sf_string.xhp
@@ -19376,7 +19376,7 @@ msgctxt ""
 "par_id781580047088954\n"
 "help.text"
 msgid "<emph>OSName</emph>: The operating system name, as a string. It can be WINDOWS, LINUX, MACOSX or SOLARIS."
-msgstr ""
+msgstr "<emph>OSName</emph>: Název operačního systému jako řetězec. Může se jednat o hodnoty \"WINDOWS\", \"LINUX\", \"MACOSX\" a \"SOLARIS\"."
 
 #. GnrxA
 #: sf_string.xhp
@@ -19403,7 +19403,7 @@ msgctxt ""
 "par_id331580047594144\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. kEz4y
 #: sf_string.xhp
@@ -19430,7 +19430,7 @@ msgctxt ""
 "par_id951880048466565\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. VgT3x
 #: sf_string.xhp
@@ -19457,7 +19457,7 @@ msgctxt ""
 "par_id981580048466565\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. yWHew
 #: sf_string.xhp
@@ -19475,7 +19475,7 @@ msgctxt ""
 "par_id141580049142548\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. DnQC9
 #: sf_string.xhp
@@ -19484,7 +19484,7 @@ msgctxt ""
 "par_id31580049154551\n"
 "help.text"
 msgid "<emph>Pattern</emph>: The pattern as a string. Wildcard are:"
-msgstr ""
+msgstr "<emph>Pattern</emph>: Vzorek jako řetězec. Zástupnými znaky jsou:"
 
 #. ZCzDP
 #: sf_string.xhp
@@ -19506,12 +19506,13 @@ msgstr "\"*\" představuje žádný, jeden či více znaků."
 
 #. CntsV
 #: sf_string.xhp
+#, fuzzy
 msgctxt ""
 "sf_string.xhp\n"
 "par_id991580049206617\n"
 "help.text"
 msgid "<emph>CaseSensitive</emph>: Default = <literal>False</literal>."
-msgstr ""
+msgstr "<emph>CaseSensitive</emph>: Výchozí = <literal>False</literal>."
 
 #. kSMmn
 #: sf_string.xhp
@@ -19547,7 +19548,7 @@ msgctxt ""
 "par_id721580051706431\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. HYBp5
 #: sf_string.xhp
@@ -19565,7 +19566,7 @@ msgctxt ""
 "par_id161580052454770\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Řetězec, který se má zkontrolovat. Je-li prázdný, metoda vrátí <literal>False</literal>."
 
 #. AVFYQ
 #: sf_string.xhp
