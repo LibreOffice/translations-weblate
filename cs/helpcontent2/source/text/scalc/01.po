@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-02-09 16:45+0100\n"
-"PO-Revision-Date: 2022-02-15 08:38+0000\n"
+"PO-Revision-Date: 2022-02-16 09:39+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/cs/>\n"
 "Language: cs\n"
@@ -44925,7 +44925,7 @@ msgctxt ""
 "par_id3163710\n"
 "help.text"
 msgid "<variable id=\"bedingtetext\"><ahelp hid=\".\">Use <emph>Conditional Formatting</emph> to define range-based conditions that determine which cell style will be applied to each cell in a given range based on its contents.</ahelp></variable> The cell style corresponding to the first condition that evaluates to <emph>true</emph> is applied. Cell styles applied through Conditional Formatting override cell styles applied manually using the <link href=\"text/scalc/main0202.xhp\" name=\"FormattingBar_link\"><emph>Formatting Bar</emph></link> or the <emph>Styles</emph> sidebar."
-msgstr ""
+msgstr "<variable id=\"bedingtetext\"><ahelp hid=\".\">Pomocí <emph>podmíněného formátování</emph> můžete definovat podmínky určující to, který styl buňky bude na buňku v zadané oblasti použit, a to v závislosti na její hodnotě.</ahelp></variable> Použije se styl buňky odpovídající první podmínce, která se vyhodnotí jako pravdivá. Styly buňky použitými prostřednictvím podmíněného formátování budou nahrazeny styly použité ručně na <link href=\"text/scalc/main0202.xhp\" name=\"Lišta Formátování\"><emph>liště Formátování</emph></link> nebo na postranní liště <emph>Styly</emph>."
 
 #. 2GWTv
 #: 05120000.xhp
@@ -52683,7 +52683,7 @@ msgctxt ""
 "hd_id961642017927878\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/calculation_accuracy.xhp\" name=\"accuracy\">%PRODUCTNAME Calculation Accuracy</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/calculation_accuracy.xhp\" name=\"Přesnost\">Přesnost výpočtů v %PRODUCTNAME</link>"
 
 #. sW5fH
 #: calculation_accuracy.xhp
@@ -52692,7 +52692,7 @@ msgctxt ""
 "hd_id941642017968835\n"
 "help.text"
 msgid "Inherent Accuracy Problem"
-msgstr ""
+msgstr "Inherentní problém s přesností"
 
 #. hov7p
 #: calculation_accuracy.xhp
@@ -52701,7 +52701,7 @@ msgctxt ""
 "par_id541642018071800\n"
 "help.text"
 msgid "%PRODUCTNAME  Calc, just like most other spreadsheet software, uses floating-point math capabilities available on hardware. Given that most contemporary hardware uses binary floating-point arithmetic with limited precision defined in <link href=\"https://en.wikipedia.org/wiki/IEEE_754\" name=\"IEEE754\">IEEE 754</link> standard, many decimal numbers - including as simple as 0.1 - cannot be precisely represented in %PRODUCTNAME Calc (which uses 64-bit double-precision numbers internally)."
-msgstr ""
+msgstr "%PRODUCTNAME Calc, stejně jako většina ostatních tabulkových procesorů, používá na hardwaru závisející možnosti výpočtů s čísly s plovoucí desetinou čárkou. Většina moderního hardwaru využívá binární aritmetiku s plovoucí desetinnou čárkou s omezenou přesností definovanou standardem <link href=\"https://en.wikipedia.org/wiki/IEEE_754\" name=\"IEEE754\">IEEE 754</link>, nelze v aplikaci %PRODUCTNAME Calc (která interně používá 64bitová čísla s dvojitou přesností) přesně vyjádřit mnoho desetinných čísel, včetně tak jednoduchých jako například 0,1."
 
 #. YPbto
 #: calculation_accuracy.xhp
@@ -52710,7 +52710,7 @@ msgctxt ""
 "par_id191642019423811\n"
 "help.text"
 msgid "Calculations with those numbers necessarily <link href=\"https://en.wikipedia.org/wiki/Floating-point_arithmetic#Accuracy_problems\" name=\"wpediaaccuracy\">results in rounding errors</link>, and those accumulate with every calculation."
-msgstr ""
+msgstr "Výpočty s těmito čísly nutně <link href=\"https://en.wikipedia.org/wiki/Floating-point_arithmetic#Accuracy_problems\" name=\"Přesnost na Wikipedii\">vedou k chybám zaokrouhlování</link> a ty se při výpočtech hromadí."
 
 #. dvRFz
 #: calculation_accuracy.xhp
@@ -52719,7 +52719,7 @@ msgctxt ""
 "par_id221642019437175\n"
 "help.text"
 msgid "This is not a bug, but is expected and currently unavoidable without using complex calculations in software, which would incur inappropriate performance penalties, and thus is out of question. Users need to account for that, and use rounding and comparisons with <link href=\"https://en.wikipedia.org/wiki/Machine_epsilon\" name=\"macnie_epsilon\">machine epsilon (or unit roundoff)</link> as necessary."
-msgstr ""
+msgstr "Nejedná se o chybu softwaru ani o nic neočekávaného, čemu by se dalo v současnosti vyhnout, aniž bychom museli používat složité softwarové výpočty, které by si kladly nepřijatelně neúměrné nároky na výkon. Je třeba, aby s tímto chováním uživatelé počítali a v případě nutnosti používali zaokrouhlování nebo porovnání s <link href=\"https://en.wikipedia.org/wiki/Machine_epsilon\" name=\"Epsilon\">hodnotou epsilon</link>, vyjadřující relativní velikost chyby."
 
 #. ncGy5
 #: calculation_accuracy.xhp
@@ -52728,7 +52728,7 @@ msgctxt ""
 "par_id801642019531438\n"
 "help.text"
 msgid "An example with numbers:"
-msgstr ""
+msgstr "Příklad s čísly:"
 
 #. BpnPy
 #: calculation_accuracy.xhp
@@ -52737,7 +52737,7 @@ msgctxt ""
 "par_id761642018318896\n"
 "help.text"
 msgid "This will result in -999.129999999997 in A3, instead of expected -999.13 (you might need to increase shown decimal places in cell format to see this)."
-msgstr ""
+msgstr "Výsledkem bude -999,129999999997 v buňce A3 namísto očekávaných -999,13 (možná budete muset zvýšit počet zobrazených desetinných míst ve formátu buňky, abyste uvedený výsledek uviděli)."
 
 #. kDcn9
 #: calculation_accuracy.xhp
@@ -52746,7 +52746,7 @@ msgctxt ""
 "par_id221642020132399\n"
 "help.text"
 msgid "An example with dates and times:"
-msgstr ""
+msgstr "Příklad s daty a časy:"
 
 #. aWCYz
 #: calculation_accuracy.xhp
@@ -52755,7 +52755,7 @@ msgctxt ""
 "par_id801642018326882\n"
 "help.text"
 msgid "Due to the specific of time representation in Calc, this also applies to all calculations involving times. For example, the cells A1 and A2 below show the date and time data as entered (in ISO 8601 format):"
-msgstr ""
+msgstr "Vzhledem ke specifickému způsobu reprezentace času v Calcu to platí i pro všechny výpočty zahrnující časy. Např. v následujícím příkladu se v buňkách A1 a A2 zobrazují údaje o datu a čase tak, jak byly zadány (ve formátu ISO 8601):"
 
 #. rcuhc
 #: calculation_accuracy.xhp
@@ -52764,7 +52764,7 @@ msgctxt ""
 "par_id101643312991679\n"
 "help.text"
 msgid "Cell A3 will show 00:10:00 if the default formatting [HH]:MM:SS is applied to the cell. However, cell A3 will show 00:09:59.999999 instead of expected 00:10:00.000000 if formatted using [HH]:MM:SS.000000 format string. This happens despite only whole numbers of hours and minutes were used, because internally, any time is a fraction of a day, 12:00 (noon) being represented as 0.5."
-msgstr ""
+msgstr "Pokud je na buňku A3 použito výchozí formátování [HH]:MM:SS, zobrazí se v ní 00:10:00. Jestliže je však použit formátovací řetězec [HH]:MM:SS.000000, místo očekávané hodnoty 00:10:00.000000 se zobrazí 00:09:59.999999. K tomu dochází přesto, že byla použita pouze celá čísla hodin a minut, protože interně je jakýkoli čas zlomkem dne, přičemž 12:00 (poledne) je reprezentováno jako 0,5."
 
 #. EZjhJ
 #: calculation_accuracy.xhp
@@ -52773,7 +52773,7 @@ msgctxt ""
 "par_id921642020011065\n"
 "help.text"
 msgid "The data in A1 is represented internally as 43934.5125, and in A2 as 43934.5055555555591126903891563 (which is not exact representation of the entered datetime, which would be 43934.505555555555555555...)."
-msgstr ""
+msgstr "Data v buňkách jsou interně reprezentována jako 43934,5125 v A1 a jako 43934,5055555555591126903891563 v A2 (což není přesná reprezentace zadaného data, ta by byla 43934,505555555555555555555555...)."
 
 #. QY6Ti
 #: calculation_accuracy.xhp
@@ -52782,7 +52782,7 @@ msgctxt ""
 "par_id801642020017858\n"
 "help.text"
 msgid "Their subtraction results in 0.00694444443287037, a value slightly less than expected 0.00694444444444..., which is 10 minutes."
-msgstr ""
+msgstr "Výsledkem jejich odečtení je 0,006944443287037, což je hodnota o něco menší než očekávaných 0,006944444444..., představujících 10 minut."
 
 #. J8xZD
 #: cell_styles.xhp
@@ -52845,7 +52845,7 @@ msgctxt ""
 "hd_id301640873452726\n"
 "help.text"
 msgid "Technical information"
-msgstr ""
+msgstr "Technické informace"
 
 #. 7AVhU
 #: common_func.xhp
@@ -52854,7 +52854,7 @@ msgctxt ""
 "par_id251640873774457\n"
 "help.text"
 msgid "This function is not part of the <emph>Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</emph> standard. The name space is"
-msgstr ""
+msgstr "Tato funkce není součástí standardu <emph>Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</emph>. Její jmenný prostor je"
 
 #. STMGF
 #: common_func.xhp
@@ -54024,7 +54024,7 @@ msgctxt ""
 "par_id0403201618594553\n"
 "help.text"
 msgid "<emph>timeline (mandatory):</emph> A numeric array or range. The timeline (x-value) range for the historical values."
-msgstr ""
+msgstr "<emph>časová osa (vyžadováno):</emph> Číselná matice nebo oblast. Oblast s časovou osou (hodnoty X) pro historické hodnoty."
 
 #. Re7Cm
 #: exponsmooth_embd.xhp
@@ -54033,7 +54033,7 @@ msgctxt ""
 "par_id040320161859450\n"
 "help.text"
 msgid "The timeline does not have to be sorted, the functions will sort it for calculations.<br/>The timeline values must have a consistent step between them.<br/>If a constant step cannot be identified in the sorted timeline, the functions will return the #NUM! error.<br/>If the ranges of both the timeline and the historical values are not the same size, the functions will return the #N/A error.<br/>If the timeline contains fewer than 2 data periods, the functions will return the #VALUE! error."
-msgstr ""
+msgstr "Časová osa nemusí být seřazena, funkce ji pro výpočet seřadí.<br/>Mezi hodnotami časové osy je vyžadován konzistentní krok.<br/>Pokud nelze v seřazené časové ose konstantní krok identifikovat, funkce vrátí chybu #NUM!<br/>Pokud se liší velikost oblastí časové osy a historických hodnot, funkce vrátí chybu #N/A.<br/>Pokud časová osa obsahuje méně než 2 periody dat, funkce vrátí chybu #VALUE!"
 
 #. AbNWD
 #: exponsmooth_embd.xhp
@@ -57705,7 +57705,7 @@ msgctxt ""
 "par_id911641306487164\n"
 "help.text"
 msgid "1 - The \"at\" unit is deprecated. Use \"atm\" instead."
-msgstr ""
+msgstr "1 - Jednotka \"at\" je označena jako zastaralá. Použijte místo ní \"atm\"."
 
 #. vWzBh
 #: func_convert.xhp
@@ -58263,7 +58263,7 @@ msgctxt ""
 "par_id671641306535516\n"
 "help.text"
 msgid "2 - These units are not part of the <emph>Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</emph> standard for the CONVERT function. They are preserved for backward compatibility."
-msgstr ""
+msgstr "2 - Tyto jednotky nejsou součástí standardu <emph>Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</emph> pro funkci CONVERT a jsou zachovány z důvodu zpětné kompatibility."
 
 #. ej2DE
 #: func_convert.xhp
@@ -58686,7 +58686,7 @@ msgctxt ""
 "par_id531642776283977\n"
 "help.text"
 msgid "<input>DATEDIF(Start date; End date; Interval)</input>"
-msgstr ""
+msgstr "<input>DATEDIF(Počáteční datum; Koncové datum; Interval)</input>"
 
 #. CMjse
 #: func_datedif.xhp
@@ -58713,7 +58713,7 @@ msgctxt ""
 "par_id3153183\n"
 "help.text"
 msgid "<emph>Interval</emph> is a string that determines how the difference will be calculated. Possible values are \"d\", \"m\", \"y\", \"ym\", \"md\" or \"yd\" regardless of the current language settings."
-msgstr ""
+msgstr "<emph>Interval</emph> je řetězec, který určuje, jak bude rozdíl vypočítán. Možnými hodnotami jsou \"d\", \"m\", \"y\", \"ym\", \"md\" nebo \"yd\", a to bez ohledu na aktuální nastavení jazyka."
 
 #. Lxgdp
 #: func_datedif.xhp
@@ -60342,7 +60342,7 @@ msgctxt ""
 "hd_id0603201610022291\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/func_forecastetsmult.xhp\">FORECAST.ETS.MULT Function</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/func_forecastetsmult.xhp\">Funkce FORECAST.ETS.MULT</link>"
 
 #. tYAjY
 #: func_forecastetsmult.xhp
@@ -63816,7 +63816,7 @@ msgctxt ""
 "hd_2016112109231\n"
 "help.text"
 msgid "<variable id=\"rawsubtracth1\"><link href=\"text/scalc/01/func_rawsubtract.xhp\">RAWSUBTRACT</link></variable>"
-msgstr ""
+msgstr "<variable id=\"rawsubtracth1\"><link href=\"text/scalc/01/func_rawsubtract.xhp\">RAWSUBTRACT</link></variable>"
 
 #. CoCx7
 #: func_rawsubtract.xhp
@@ -64275,7 +64275,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ROUNDDOWN function"
-msgstr ""
+msgstr "Funkce ROUNDDOWN"
 
 #. riRPe
 #: func_rounddown.xhp
@@ -64284,7 +64284,7 @@ msgctxt ""
 "bm_id3156384\n"
 "help.text"
 msgid "<bookmark_value>ROUNDDOWN function</bookmark_value>    <bookmark_value>numbers;rounding down</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ROUNDDOWN</bookmark_value><bookmark_value>čísla;zaokrouhlování dolů</bookmark_value>"
 
 #. sroq5
 #: func_rounddown.xhp
@@ -64293,7 +64293,7 @@ msgctxt ""
 "hd_id601641846107898\n"
 "help.text"
 msgid "<variable id=\"rounddown_h1\"><link href=\"text/scalc/01/func_rounddown.xhp\" name=\"rounddown_link\">ROUNDDOWN function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"rounddown_h1\"><link href=\"text/scalc/01/func_rounddown.xhp\" name=\"ROUNDDOWN\">Funkce ROUNDDOWN</link></variable>"
 
 #. dFaB6
 #: func_rounddown.xhp
@@ -64302,7 +64302,7 @@ msgctxt ""
 "par_id841641927277474\n"
 "help.text"
 msgid "Rounds down a number while keeping a specified number of decimal digits."
-msgstr ""
+msgstr "Zaokrouhlí číslo dolů na zadaný počet míst."
 
 #. gchGZ
 #: func_rounddown.xhp
@@ -64311,7 +64311,7 @@ msgctxt ""
 "par_id701642530512560\n"
 "help.text"
 msgid "This function is equivalent to the <link href=\"text/scalc/01/func_trunc.xhp\" name=\"TRUNC_link\">TRUNC function</link>."
-msgstr ""
+msgstr "Tato funkce odpovídá <link href=\"text/scalc/01/func_trunc.xhp\" name=\"TRUNC\">funkci TRUNC</link>."
 
 #. soLKp
 #: func_rounddown.xhp
@@ -64320,7 +64320,7 @@ msgctxt ""
 "par_id341641927560587\n"
 "help.text"
 msgid "<input>ROUNDDOWN(Number [; Count])</input>"
-msgstr ""
+msgstr "<input>ROUNDDOWN(Číslo [; Počet])</input>"
 
 #. zMhAG
 #: func_rounddown.xhp
@@ -64329,7 +64329,7 @@ msgctxt ""
 "par_id11641927688319\n"
 "help.text"
 msgid "<emph>Number:</emph> The number to be rounded down."
-msgstr ""
+msgstr "<emph>Číslo:</emph> Číslo, které se má zaokrouhlit dolů."
 
 #. CkVAE
 #: func_rounddown.xhp
@@ -64338,7 +64338,7 @@ msgctxt ""
 "par_id861641927715672\n"
 "help.text"
 msgid "<emph>Count:</emph> Optional parameter that defines the number of decimal places to be kept. The default value is 0 (zero)."
-msgstr ""
+msgstr "<emph>Počet:</emph> Nepovinný parametr určující počet míst, která se mají zachovat. Výchozí hodnotou je 0 (nula)."
 
 #. rJEFs
 #: func_rounddown.xhp
@@ -64347,7 +64347,7 @@ msgctxt ""
 "par_id911641928545976\n"
 "help.text"
 msgid "Use negative values for <emph>Count</emph> to round the integer part of the original <emph>Number</emph>. For example, -1 will round down the first integer number before the decimal separator, -2 will round down the two integer numbers before the decimal separator, and so forth."
-msgstr ""
+msgstr "Použitím záporné hodnoty pro <emph>Počet</emph> zaokrouhlíte celou část původního argumentu <emph>Číslo</emph>. Například hodnota -1 zaokrouhlí dolů první celé číslo před desetinným oddělovačem, -2 zaokrouhlí dvě celá čísla před desetinným oddělovačem atd."
 
 #. WfEbN
 #: func_rounddown.xhp
@@ -64356,7 +64356,7 @@ msgctxt ""
 "par_id181641929609906\n"
 "help.text"
 msgid "In %PRODUCTNAME the <emph>Count</emph> parameter is optional whereas in MS Excel this parameter is mandatory. When an ODS file contains a call to ROUNDDOWN without the <emph>Count</emph> parameter and the file is exported to XLS or XLSX formats, the missing argument will automatically be added with value zero to maintain compatibility."
-msgstr ""
+msgstr "V %PRODUCTNAME je parametr <emph>Počet</emph> nepovinný, zatímco v programu MS Excel je povinný. Obsahuje-li soubor ODS volání funkce ROUNDDOWN bez parametru <emph>Počet</emph> a soubor je vyexportován do formátu XLS či XLSX, kvůli zachování kompatibility je chybějící argument automaticky doplněn s hodnotou nula."
 
 #. BCmT8
 #: func_rounddown.xhp
@@ -64365,7 +64365,7 @@ msgctxt ""
 "par_id901641928192870\n"
 "help.text"
 msgid "<input>=ROUNDDOWN(21.89)</input> returns 21. Note that this example uses the default value for <emph>Count</emph> which is 0."
-msgstr ""
+msgstr "<input>=ROUNDDOWN(21,89)</input> vrátí 21. V tomto příkladu se používá výchozí hodnota parametru <emph>Count</emph>, což je 0."
 
 #. aGJYK
 #: func_rounddown.xhp
@@ -64374,7 +64374,7 @@ msgctxt ""
 "par_id901641928192110\n"
 "help.text"
 msgid "<input>=ROUNDDOWN(103.37,1)</input> returns 103.3."
-msgstr ""
+msgstr "<input>=ROUNDDOWN(103,37;1)</input> vrátí 103,3."
 
 #. bzN7A
 #: func_rounddown.xhp
@@ -64383,7 +64383,7 @@ msgctxt ""
 "par_id171641928456743\n"
 "help.text"
 msgid "<input>=ROUNDDOWN(0.664,2)</input> returns 0.66."
-msgstr ""
+msgstr "<input>=ROUNDDOWN(0,664;2)</input> vrátí 0,66."
 
 #. e4fx9
 #: func_rounddown.xhp
@@ -64392,7 +64392,7 @@ msgctxt ""
 "par_id641641928712287\n"
 "help.text"
 msgid "<input>=ROUNDDOWN(214.2,-1)</input> returns 210. Note the negative value for <emph>Count</emph>, which causes the first integer value before the decimal separator to be rounded towards zero."
-msgstr ""
+msgstr "<input>=ROUNDDOWN(214,2;-1)</input> vrátí 210. Záporná hodnota parametru <emph>Počet</emph> způsobí, že se směrem k nule zaokrouhlí první celočíselná hodnota před desetinným oddělovačem."
 
 #. E7heY
 #: func_roundsig.xhp
@@ -64419,7 +64419,7 @@ msgctxt ""
 "hd_id351519154702177\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/func_roundsig.xhp\" name=\"function roundsig\">ROUNDSIG</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/func_roundsig.xhp\" name=\"Funkce ROUNDSIG\">ROUNDSIG</link>"
 
 #. jJKBA
 #: func_roundsig.xhp
@@ -64437,7 +64437,7 @@ msgctxt ""
 "par_id291519155534115\n"
 "help.text"
 msgid "ROUNDSIG( Value; Digits )"
-msgstr "ROUNDSIG( Hodnota; Čísla )"
+msgstr "ROUNDSIG( Hodnota; Číslice )"
 
 #. BBtjx
 #: func_roundsig.xhp
@@ -64455,7 +64455,7 @@ msgctxt ""
 "par_id321519155209912\n"
 "help.text"
 msgid "<emph>Digits</emph>: the number of decimal places to round."
-msgstr "<emph>Čísla</emph>: počet desetinných míst k zaokrouhlení."
+msgstr "<emph>Číslice</emph>: počet desetinných míst k zaokrouhlení."
 
 #. ZuCEG
 #: func_roundsig.xhp
@@ -64464,7 +64464,7 @@ msgctxt ""
 "par_id371519155264297\n"
 "help.text"
 msgid "<emph>Digits</emph> must be an integer greater than 0."
-msgstr "<emph>Čísla</emph> musí být celé číslo větší než 0."
+msgstr "<emph>Číslice</emph> musí být celé číslo větší než 0."
 
 #. FRBcJ
 #: func_roundsig.xhp
@@ -65517,7 +65517,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TRUNC function"
-msgstr ""
+msgstr "Funkce TRUNC"
 
 #. UkBEB
 #: func_trunc.xhp
@@ -65526,7 +65526,7 @@ msgctxt ""
 "bm_id3156384\n"
 "help.text"
 msgid "<bookmark_value>TRUNC function</bookmark_value>    <bookmark_value>decimal places;cutting off</bookmark_value>    <bookmark_value>numbers;truncate</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>TRUNC</bookmark_value><bookmark_value>desetinná místa;odstraňování</bookmark_value><bookmark_value>čísla;odřezávání</bookmark_value>"
 
 #. CQ5Zg
 #: func_trunc.xhp
@@ -65535,7 +65535,7 @@ msgctxt ""
 "hd_id601641846107898\n"
 "help.text"
 msgid "<variable id=\"trunc_h1\"><link href=\"text/scalc/01/func_trunc.xhp\" name=\"trunc_link\">TRUNC function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"trunc_h1\"><link href=\"text/scalc/01/func_trunc.xhp\" name=\"TRUNC\">Funkce TRUNC</link></variable>"
 
 #. dkTrh
 #: func_trunc.xhp
@@ -65544,7 +65544,7 @@ msgctxt ""
 "par_id841641927277474\n"
 "help.text"
 msgid "Truncates a number while keeping a specified number of decimal digits."
-msgstr ""
+msgstr "Odřízne z čísla desetinná místa tak, aby byl zachován zadaný počet číslic."
 
 #. Hxed7
 #: func_trunc.xhp
@@ -65553,7 +65553,7 @@ msgctxt ""
 "par_id701642530512560\n"
 "help.text"
 msgid "This function is equivalent to the <link href=\"text/scalc/01/func_rounddown.xhp\" name=\"ROUNDDOWN_link\">ROUNDDOWN function</link>."
-msgstr ""
+msgstr "Tato funkce odpovídá <link href=\"text/scalc/01/func_rounddown.xhp\" name=\"ROUNDDOWN\">funkci ROUNDDOWN</link>."
 
 #. oZAWU
 #: func_trunc.xhp
@@ -65562,7 +65562,7 @@ msgctxt ""
 "par_id321641927458888\n"
 "help.text"
 msgid "The rounding method used by this function is known as <emph>rounding towards zero</emph>. The resulting number will always be smaller than or equal to the original number."
-msgstr ""
+msgstr "Funkce používá zaokrouhlování označované jako <emph>směrem k nule</emph>. Výsledné číslo bude vždy menší nebo rovno původnímu číslu."
 
 #. SqCQv
 #: func_trunc.xhp
@@ -65571,7 +65571,7 @@ msgctxt ""
 "par_id341641927560587\n"
 "help.text"
 msgid "<input>TRUNC(Number [; Count])</input>"
-msgstr ""
+msgstr "<input>TRUNC(Číslo [; Počet])</input>"
 
 #. RryDW
 #: func_trunc.xhp
@@ -65580,7 +65580,7 @@ msgctxt ""
 "par_id11641927688319\n"
 "help.text"
 msgid "<emph>Number:</emph> The number to be truncated."
-msgstr ""
+msgstr "<emph>Číslo:</emph> Číslo, jehož část se má odříznout."
 
 #. Hg6mt
 #: func_trunc.xhp
@@ -65589,7 +65589,7 @@ msgctxt ""
 "par_id861641927715672\n"
 "help.text"
 msgid "<emph>Count:</emph> Optional parameter that defines the number of decimal places to be kept. The default value is 0 (zero)."
-msgstr ""
+msgstr "<emph>Počet:</emph> Nepovinný parametr určující počet míst, která se mají zachovat. Výchozí hodnotou je 0 (nula)."
 
 #. HKrSh
 #: func_trunc.xhp
@@ -65598,7 +65598,7 @@ msgctxt ""
 "par_id911641928545976\n"
 "help.text"
 msgid "Use negative values for <emph>Count</emph> to round the integer part of the original <emph>Number</emph>. For example, -1 will round down the first integer number before the decimal separator, -2 will round down the two integer numbers before the decimal separator, and so forth."
-msgstr ""
+msgstr "Použitím záporné hodnoty pro <emph>Počet</emph> zaokrouhlíte celou část původního argumentu <emph>Číslo</emph>. Například hodnota -1 zaokrouhlí dolů první celé číslo před desetinným oddělovačem, -2 zaokrouhlí dvě celá čísla před desetinným oddělovačem atd."
 
 #. EJFZd
 #: func_trunc.xhp
@@ -65607,7 +65607,7 @@ msgctxt ""
 "par_id901641928192870\n"
 "help.text"
 msgid "<input>=TRUNC(21.89)</input> returns 21. Note that this example uses the default value for <emph>Count</emph> which is 0."
-msgstr ""
+msgstr "<input>=TRUNC(21,89)</input> vrátí 21. V tomto příkladu se používá výchozí hodnota parametru <emph>Count</emph>, což je 0."
 
 #. ccEGa
 #: func_trunc.xhp
@@ -65616,7 +65616,7 @@ msgctxt ""
 "par_id901641928192110\n"
 "help.text"
 msgid "<input>=TRUNC(103.37,1)</input> returns 103.3."
-msgstr ""
+msgstr "<input>=TRUNC(103,37;1)</input> vrátí 103,3."
 
 #. jJvgo
 #: func_trunc.xhp
@@ -65625,7 +65625,7 @@ msgctxt ""
 "par_id171641928456743\n"
 "help.text"
 msgid "<input>=TRUNC(0.664,2)</input> returns 0.66."
-msgstr ""
+msgstr "<input>=TRUNC(0,664;2)</input> vrátí 0,66."
 
 #. Qf3R9
 #: func_trunc.xhp
@@ -65634,7 +65634,7 @@ msgctxt ""
 "par_id641641928712287\n"
 "help.text"
 msgid "<input>=TRUNC(214.2,-1)</input> returns 210. Note the negative value for <emph>Count</emph>, which causes the first integer value before the decimal separator to be rounded towards zero."
-msgstr ""
+msgstr "<input>=TRUNC(214,2;-1)</input> vrátí 210. Záporná hodnota parametru <emph>Počet</emph> způsobí, že se směrem k nule zaokrouhlí první celočíselná hodnota před desetinným oddělovačem."
 
 #. w86Dm
 #: func_value.xhp
@@ -67281,7 +67281,7 @@ msgctxt ""
 "par_id240920171007389295\n"
 "help.text"
 msgid "Choose <menuitem>Data – Streams</menuitem>"
-msgstr ""
+msgstr "Nabídka <menuitem>Data – Proudy</menuitem>"
 
 #. aV8Lc
 #: live_data_stream.xhp
@@ -67290,7 +67290,7 @@ msgctxt ""
 "par_id221641995264796\n"
 "help.text"
 msgid "Data streaming is the continuous flow of data generated by various sources. In %PRODUCTNAME Calc, data streams can be processed, stored, analyzed, and acted upon as it's generated in real-time."
-msgstr ""
+msgstr "Datové proudy jsou představovány souvislým tokem dat generovaných různými zdroji. V aplikaci %PRODUCTNAME Calc je možné datové proudy v reálném čase zpracovávat, ukládat, analyzovat a provádět akce."
 
 #. KANFG
 #: live_data_stream.xhp
@@ -67299,7 +67299,7 @@ msgctxt ""
 "par_id831641996045238\n"
 "help.text"
 msgid "Some real-life examples of streaming data include use cases in every industry, including real-time stock trades, up-to-the-minute retail inventory management, social media feeds, multiplayer game interactions, and ride-sharing apps."
-msgstr ""
+msgstr "Běžné nasazení datových proudů zahrnuje případy ze všech odvětví, například obchodování na burzách v reálném čase, správu maloobchodních skladových zásob, kanály sociálních médií, interakce při hře více hráčů nebo aplikace na spolujízdu."
 
 #. sWHpE
 #: live_data_stream.xhp
@@ -67308,7 +67308,7 @@ msgctxt ""
 "hd_id791641995257145\n"
 "help.text"
 msgid "Source stream"
-msgstr ""
+msgstr "Zdrojový proud"
 
 #. dyVdA
 #: live_data_stream.xhp
@@ -67317,7 +67317,7 @@ msgctxt ""
 "hd_id931641998122172\n"
 "help.text"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. oYvgF
 #: live_data_stream.xhp
@@ -67326,7 +67326,7 @@ msgctxt ""
 "par_id31641995269740\n"
 "help.text"
 msgid "URL of the source document in the local file system or internet."
-msgstr ""
+msgstr "URL zdrojového dokumentu v místním systému souborů nebo na internetu."
 
 #. 3Bdbh
 #: live_data_stream.xhp
@@ -67335,7 +67335,7 @@ msgctxt ""
 "hd_id811641996480534\n"
 "help.text"
 msgid "Interpret stream data as"
-msgstr ""
+msgstr "Interpretovat data z proudu jako"
 
 #. QpvTc
 #: live_data_stream.xhp
@@ -67344,7 +67344,7 @@ msgctxt ""
 "par_id591641996318461\n"
 "help.text"
 msgid "<emph>value1,value2,...,valueN, and fill into range</emph>:"
-msgstr ""
+msgstr "<emph>hodnota1, hodnota2,... hodnotaN a vyplnit po oblast:</emph>:"
 
 #. iB5Fv
 #: live_data_stream.xhp
@@ -67353,7 +67353,7 @@ msgctxt ""
 "par_id441641996322078\n"
 "help.text"
 msgid "<emph>address,value</emph>:"
-msgstr ""
+msgstr "<emph>addresa, hodnota</emph>:"
 
 #. JYyrF
 #: live_data_stream.xhp
@@ -67362,7 +67362,7 @@ msgctxt ""
 "hd_id241641998151807\n"
 "help.text"
 msgid "Empty lines trigger UI refresh"
-msgstr ""
+msgstr "Prázdné řádky obnoví uživatelské rozhraní"
 
 #. CEui4
 #: live_data_stream.xhp
@@ -67371,7 +67371,7 @@ msgctxt ""
 "hd_id341641995330350\n"
 "help.text"
 msgid "When new data arrives"
-msgstr ""
+msgstr "Při přijetí nových dat"
 
 #. snU6R
 #: live_data_stream.xhp
@@ -67380,7 +67380,7 @@ msgctxt ""
 "par_id731641995339462\n"
 "help.text"
 msgid "There are three features of this option:"
-msgstr ""
+msgstr "Pro tuto možnost jsou k dispozici tři varianty:"
 
 #. GLs5t
 #: live_data_stream.xhp
@@ -67389,7 +67389,7 @@ msgctxt ""
 "par_id471641995370002\n"
 "help.text"
 msgid "<emph>Move existing data down</emph>: the existing data is moved down in index and the empty space is filled by arriving data. In short, we deal in fix range of indexes."
-msgstr ""
+msgstr "<emph>Přesunout stávající data dolů</emph>: stávající data se přesunou dolů a prázdné místo se vyplní nově přijatými daty. Pracuje se tedy s pevně zadaným rozsahem indexů."
 
 #. nfgHU
 #: live_data_stream.xhp
@@ -67398,7 +67398,7 @@ msgctxt ""
 "par_id841641995386510\n"
 "help.text"
 msgid "<emph>Move the range down</emph>: the arriving data is appended at the end of existing data and range of indexes to be processed is shifted."
-msgstr ""
+msgstr "<emph>Přesunout oblast dolů</emph>: nově přijatá data se připojí na konec stávajících dat a posune se rozsah zpracovávaných indexů."
 
 #. 4zg6F
 #: live_data_stream.xhp
@@ -67407,7 +67407,7 @@ msgctxt ""
 "par_id1001641996559358\n"
 "help.text"
 msgid "<emph>Overwrite existing data</emph>: the arriving data overrides the existing data."
-msgstr ""
+msgstr "<emph>Přepsat stávající data</emph>: stávající data jsou přepsána nově přijatými."
 
 #. ZHiEZ
 #: live_data_stream.xhp
