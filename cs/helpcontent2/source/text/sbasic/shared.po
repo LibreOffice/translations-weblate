@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-01-31 18:19+0100\n"
-"PO-Revision-Date: 2022-02-17 16:43+0000\n"
-"Last-Translator: Šimon Rataj <ratajs@ratajs.cz>\n"
+"PO-Revision-Date: 2022-02-17 17:07+0000\n"
+"Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -24917,7 +24917,7 @@ msgctxt ""
 "par_id1001638264728895\n"
 "help.text"
 msgid "The <literal>expression</literal> can be a number or mathematical formula. When equals to 0, <literal>False</literal> is returned, otherwise <literal>True</literal> is returned."
-msgstr "<literal>Expression</literal> – výraz – může být číslo nebo matematický vzorec. Pokud je roven 0, vrácena je hodnota <literal>False</literal>, jinak je vrácena hodnota <literal>True</literal>."
+msgstr "<literal>Expression</literal> může být číslo nebo matematický vzorec. Pokud je roven 0, je vrácena hodnota <literal>False</literal>, jinak je vrácena hodnota <literal>True</literal>."
 
 #. 4jZzA
 #: 03100100.xhp
@@ -24926,7 +24926,7 @@ msgctxt ""
 "par_id3149655\n"
 "help.text"
 msgid "Multiple expressions such as <input>expr1 [[{operator] expr2]..]</input> can be combined. <input>expr1</input> and <input>expr2</input> can be any string or numeric expressions that you want to evaluate. <literal>CBool</literal> combines the expressions and returns either <literal>True</literal> or <literal>False</literal>.  <input>operator</input> can be a <link href=\"text/sbasic/shared/03070000.xhp\" name=\"mathematical operator\">mathematical operator</link>, <link href=\"text/sbasic/shared/03060000.xhp\" name=\"logical operator\">logical operator</link> or <link href=\"text/sbasic/shared/03110100.xhp\" name=\"comparison operator\">comparison operator</link>."
-msgstr ""
+msgstr "Je možné kombinovat více výrazů, například <input>expr1 [[{operator] expr2]..]</input>. <input>expr1</input> and <input>expr2</input> mohou být řetězce nebo číselné výrazy, které chcete vyhodnotit. Funkce <literal>CBool</literal> výrazy zkombinuje a vrátí buď hodnotu <literal>True</literal>, nebo <literal>False</literal>. <input>operator</input> může být <link href=\"text/sbasic/shared/03070000.xhp\" name=\"matematický operátor\">matematický</link>, <link href=\"text/sbasic/shared/03060000.xhp\" name=\"logický operátor\">logický</link> nebo <link href=\"text/sbasic/shared/03110100.xhp\" name=\"porovnávací operátor\">porovnávací</link> operátor."
 
 #. wMSZE
 #: 03100100.xhp
@@ -24935,7 +24935,7 @@ msgctxt ""
 "par_id3145171\n"
 "help.text"
 msgid "The following examples computes a logical expression and a mathematical formula. It uses the <literal>CBool</literal> function to evaluate the value that is returned by the <literal>Instr</literal> function. The function checks if the word \"and\" is found in the sentence that was entered by the user."
-msgstr ""
+msgstr "V následujících příkladech funkce <literal>CBool</literal> vyhodnotí logický výraz, matematický vzorec a návratovou hodnotu funkce <literal>Instr</literal>. Tato funkce kontroluje, zda text zadaný uživatelem obsahuje znak „a“."
 
 #. 2SpGu
 #: 03100100.xhp
@@ -24944,7 +24944,7 @@ msgctxt ""
 "bas_id961636989038747\n"
 "help.text"
 msgid "Print CBool( 1>2 Xor 44 ) ' computes to True"
-msgstr ""
+msgstr "Print CBool( 1>2 Xor 44 ) ' výsledkem je True"
 
 #. bjPRQ
 #: 03100100.xhp
@@ -24953,7 +24953,7 @@ msgctxt ""
 "bas_id991636996682074\n"
 "help.text"
 msgid "Print CBool( expression := 15 /2 -7.5 ) ' displays False as expression equals 0"
-msgstr ""
+msgstr "Print CBool( expression := 15 /2 -7.5 ) ' výsledkem je False, protože je výraz roven 0"
 
 #. xxrvS
 #: 03100100.xhp
@@ -24962,7 +24962,7 @@ msgctxt ""
 "par_id3155132\n"
 "help.text"
 msgid "txt = InputBox(\"Please enter a short sentence:\")"
-msgstr ""
+msgstr "txt = InputBox(\"Zadejte krátkou větu:\")"
 
 #. FPJDk
 #: 03100100.xhp
@@ -24971,7 +24971,7 @@ msgctxt ""
 "par_id3155855\n"
 "help.text"
 msgid "' Proof if the character \"a\" appears in the sentence."
-msgstr ""
+msgstr "' Zjistí, zda se ve větě vyskytuje „a“."
 
 #. GFk66
 #: 03100100.xhp
@@ -24998,7 +24998,7 @@ msgctxt ""
 "par_id3152940\n"
 "help.text"
 msgid "MsgBox \"The character »a« appears in the sentence you entered!\""
-msgstr ""
+msgstr "MsgBox \"V zadané větě se vyskytuje znak „a“!\""
 
 #. 8FnUJ
 #: 03100300.xhp
@@ -28292,7 +28292,7 @@ msgctxt ""
 "par_id3145171\n"
 "help.text"
 msgid "Keyword"
-msgstr ""
+msgstr "Klíčové slovo"
 
 #. EAezL
 #: 03103600.xhp
@@ -28976,7 +28976,7 @@ msgctxt ""
 "par_id3153126\n"
 "help.text"
 msgid "Array (ArgumentList)"
-msgstr ""
+msgstr "Array (SeznamArgumentů)"
 
 #. EuCLG
 #: 03104200.xhp
@@ -28994,7 +28994,7 @@ msgctxt ""
 "par_id3145609\n"
 "help.text"
 msgid "<emph>ArgumentList:</emph> A list of any number of arguments that are separated by commas."
-msgstr ""
+msgstr "<emph>ArgumentList:</emph> Seznam libovolného počtu argumentů oddělených čárkami."
 
 #. 2d2eF
 #: 03104300.xhp
