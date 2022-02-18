@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-01-31 18:19+0100\n"
-"PO-Revision-Date: 2022-02-17 17:17+0000\n"
-"Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
+"PO-Revision-Date: 2022-02-18 11:44+0000\n"
+"Last-Translator: Šimon Rataj <ratajs@ratajs.cz>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -29507,7 +29507,7 @@ msgctxt ""
 "par_id3148686\n"
 "help.text"
 msgid "<emph>expression1, expression2</emph>: Any numeric values or strings that you want to compare."
-msgstr "<emph>expression1, expression2:</emph> Jakékoli číselné hodnoty nebo řetězce, které chcete porovnat."
+msgstr "<emph>expression1, expression2</emph>: Jakékoliv číselné hodnoty nebo řetězce, které chcete porovnat."
 
 #. VeMGA
 #: 03110100.xhp
@@ -29777,7 +29777,7 @@ msgctxt ""
 "bas_id91642668171601\n"
 "help.text"
 msgid "Chr[$](charcode As Integer) As String"
-msgstr ""
+msgstr "Chr[$](charcode As Integer) As String"
 
 #. 6bDTr
 #: 03120102.xhp
@@ -29786,7 +29786,7 @@ msgctxt ""
 "par_id3149295\n"
 "help.text"
 msgid "<emph>charcode</emph>: a numeric expression that represents a valid 8-bit ASCII value (0-255) or a 16-bit Unicode value. (To support expressions with a nominally negative argument like <emph>Chr(&H8000)</emph> in a backwards-compatible way, values in the range −32768 to −1 are internally mapped to the range 32768 to 65535.)"
-msgstr ""
+msgstr "<emph>charcode</emph>: číselný výraz, který představuje platný 8bitový ASCII kód (0-255) nebo 16bitový kód Unicode. (Aby byla pro výrazy s nominálně zápornými argumenty, například <emph>Chr(&H8000)</emph>, zachována zpětná kompatibilita, jsou hodnoty v rozsahu −32768 až −1 interně převáděny na rozsah 32768 až 65535.)"
 
 #. Xyjgr
 #: 03120102.xhp
@@ -29795,7 +29795,7 @@ msgctxt ""
 "par_id991552913928635\n"
 "help.text"
 msgid "When VBA compatibility mode is enabled (<link href=\"text/sbasic/shared/03103350.xhp\" name=\"vbasupport\"><literal>Option VBASupport 1</literal></link>), <literal>charcode</literal> is a numeric expression that represents a valid 8-bit ASCII value (0-255) only."
-msgstr ""
+msgstr "Pokud je povolen režim kompatibility s VBA (<link href=\"text/sbasic/shared/03103350.xhp\" name=\"VBASupport\"><literal>OPTION VBASUPPORT 1</literal></link>), <literal>charcode</literal> je číselný výraz, který představuje pouze platnou 8bitovou hodnotu ASCII (0-255)."
 
 #. sw8rF
 #: 03120102.xhp
@@ -29822,7 +29822,7 @@ msgctxt ""
 "par_id3154909\n"
 "help.text"
 msgid "' This example inserts quotation marks (ASCII value 34) in a string."
-msgstr "' Tento příklad vloží do řetězce uvozovky (ASCII hodnota 34)"
+msgstr "' Tento příklad vloží do řetězce uvozovky (ASCII hodnoty 8222 a 8220)"
 
 #. rTCjE
 #: 03120102.xhp
@@ -29831,7 +29831,7 @@ msgctxt ""
 "par_id3151380\n"
 "help.text"
 msgid "MsgBox \"A \" + Chr$(34) + \"short\" + Chr(34) + \" trip.\""
-msgstr ""
+msgstr "MsgBox Chr$(8222) + \"Krátký\" + Chr(8220) + \" výlet.\""
 
 #. iCsGw
 #: 03120102.xhp
@@ -29840,7 +29840,7 @@ msgctxt ""
 "par_id3145174\n"
 "help.text"
 msgid "' The printout appears in the dialog as: A \"short\" trip."
-msgstr "' Výstup se zobrazí jako: A \"short\" trip."
+msgstr "' Výstup se zobrazí v dialogovém okně jako: „Krátký“ výlet."
 
 #. TeaSB
 #: 03120102.xhp
@@ -29849,7 +29849,7 @@ msgctxt ""
 "bas_id481642668824226\n"
 "help.text"
 msgid "MsgBox Chr(charcode := 64) ' \"@\" sign"
-msgstr ""
+msgstr "MsgBox Chr(charcode := 64) ' znak \"@\""
 
 #. bzZDz
 #: 03120103.xhp
@@ -29876,7 +29876,7 @@ msgctxt ""
 "hd_id3143272\n"
 "help.text"
 msgid "<variable id=\"Str_h1\"><link href=\"text/sbasic/shared/03120103.xhp\" name=\"Str Function\">Str Function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Str_h1\"><link href=\"text/sbasic/shared/03120103.xhp\" name=\"Funkce Str\">Funkce Str</link></variable>"
 
 #. Z8JfH
 #: 03120103.xhp
@@ -29885,7 +29885,7 @@ msgctxt ""
 "par_id3155100\n"
 "help.text"
 msgid "The <literal>Str</literal> function converts the contents of variables into a string. It handles numeric values, dates, strings and currency values."
-msgstr ""
+msgstr "Funkce <literal>Str</literal> převede obsah proměnné na řetězec. Umožňuje zpracovat číselné hodnoty, data, řetězce a hodnoty měny."
 
 #. Zxy4r
 #: 03120103.xhp
@@ -29894,7 +29894,7 @@ msgctxt ""
 "par_id3146958\n"
 "help.text"
 msgid "Positive numbers are preceded by a blank space. Negative numbers are preceded by a minus sign."
-msgstr ""
+msgstr "Kladná čísla jsou uvozena mezerou, záporná znaménkem minus."
 
 #. A5Fyi
 #: 03120103.xhp
@@ -29903,7 +29903,7 @@ msgctxt ""
 "par_id331641237252390\n"
 "help.text"
 msgid "For numeric values the string returned by the <literal>Str</literal> function is locale-independent. Hence the dot is used as the decimal separator when needed."
-msgstr ""
+msgstr "Pro číselné hodnoty je řetězec vrácený funkcí <literal>Str</literal> nezávislý na národním prostředí. V případě potřeby se proto použije jako desetinný oddělovač tečka."
 
 #. HjAty
 #: 03120103.xhp
@@ -29912,7 +29912,7 @@ msgctxt ""
 "par_id601641237849695\n"
 "help.text"
 msgid "If a string is passed as argument, it is returned without any changes."
-msgstr ""
+msgstr "Je-li předán jako argument řetězec, vrátí se beze změny."
 
 #. nfPG2
 #: 03120103.xhp
@@ -29921,7 +29921,7 @@ msgctxt ""
 "par_id231641251937406\n"
 "help.text"
 msgid "Dates are converted into locale-dependent strings."
-msgstr ""
+msgstr "Data se převedou na řetězce závisející na národním prostředí."
 
 #. NEAum
 #: 03120103.xhp
@@ -29930,7 +29930,7 @@ msgctxt ""
 "par_id3149497\n"
 "help.text"
 msgid "Str (Value As Variant)"
-msgstr ""
+msgstr "Str (Value As Variant)"
 
 #. BPCDW
 #: 03120103.xhp
@@ -29939,7 +29939,7 @@ msgctxt ""
 "par_id3149178\n"
 "help.text"
 msgid "<emph>Value:</emph> Any value to be converted into a string."
-msgstr ""
+msgstr "<emph>Value:</emph> Jakákoliv hodnota, která se má převést na řetězec."
 
 #. hHwSa
 #: 03120103.xhp
@@ -29948,7 +29948,7 @@ msgctxt ""
 "par_id401641251970766\n"
 "help.text"
 msgid "Below are some numeric examples using the <literal>Str</literal> function."
-msgstr ""
+msgstr "Následuje několik příkladů funkce <literal>Str</literal> zpracovávající čísla."
 
 #. viBgo
 #: 03120103.xhp
@@ -29957,7 +29957,7 @@ msgctxt ""
 "bas_id831641238784987\n"
 "help.text"
 msgid "' Note the blank space at the beginning of the returned strings"
-msgstr ""
+msgstr "' Na začátku vrácených řetězců se nachází mezera"
 
 #. A8Cbc
 #: 03120103.xhp
@@ -29966,7 +29966,7 @@ msgctxt ""
 "bas_id991641238830710\n"
 "help.text"
 msgid "' Strings passed as arguments are left unchanged"
-msgstr ""
+msgstr "' Řetězec předaný jako argument se nezmění"
 
 #. kjJa8
 #: 03120103.xhp
@@ -29975,7 +29975,7 @@ msgctxt ""
 "par_id601641238259787\n"
 "help.text"
 msgid "Use the <literal>LTrim</literal> function to remove the blank space at the beginning of the returned string."
-msgstr ""
+msgstr "Pomocí funkce <literal>LTrim</literal> odstraníte mezeru na začátku vráceného řetězce."
 
 #. FDMfX
 #: 03120103.xhp
@@ -29984,7 +29984,7 @@ msgctxt ""
 "par_id881641252036753\n"
 "help.text"
 msgid "The <literal>Str</literal> function can also handle <literal>Date</literal> variables."
-msgstr ""
+msgstr "Funkcí <literal>Str</literal> je možné také zpracovat proměnné typu <literal>Date</literal>."
 
 #. vYQmG
 #: 03120104.xhp
@@ -30011,7 +30011,7 @@ msgctxt ""
 "hd_id3149205\n"
 "help.text"
 msgid "<variable id=\"Val_h1\"><link href=\"text/sbasic/shared/03120104.xhp\" name=\"Val Function\">Val Function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Val_h1\"><link href=\"text/sbasic/shared/03120104.xhp\" name=\"Funkce Val\">Funkce Val</link></variable>"
 
 #. VDZFx
 #: 03120104.xhp
@@ -30020,7 +30020,7 @@ msgctxt ""
 "par_id3153345\n"
 "help.text"
 msgid "Use the <literal>Val</literal> function to convert a string that represents a number into numeric data type."
-msgstr ""
+msgstr "Pomocí funkce <literal>Val</literal> převedete řetězec představující číslo na číselný datový typ."
 
 #. aQ5EY
 #: 03120104.xhp
@@ -30029,7 +30029,7 @@ msgctxt ""
 "par_id281641235880765\n"
 "help.text"
 msgid "The string passed to the <literal>Val</literal> function is locale-independent. This means that commas are interpreted as thousands separators and a dot is used as the decimal separator."
-msgstr ""
+msgstr "Řetězec předaný funkci <literal>Val</literal> je nezávislý na národním prostředí. To znamená, že čárky jsou považovány za oddělovače tisíců a tečky za desetinné oddělovače."
 
 #. Rk6u2
 #: 03120104.xhp
@@ -30065,7 +30065,7 @@ msgctxt ""
 "par_id3149670\n"
 "help.text"
 msgid "If only part of the string contains numbers, only the first appropriate characters of the string are converted. If the string does not contain any numbers then <literal>Val</literal> returns 0."
-msgstr ""
+msgstr "Jestliže čísla obsahuje pouze část řetězce, převedou se pouze příslušné počáteční znaky řetězce. Pokud řetězec žádná čísla neobsahuje, funkce <literal>Val</literal> vrátí 0."
 
 #. JLvDd
 #: 03120104.xhp
@@ -30074,7 +30074,7 @@ msgctxt ""
 "bas_id131641236938068\n"
 "help.text"
 msgid "' Below 123,1 is interpreted as 1231 since \",\" is the thousands separator"
-msgstr ""
+msgstr "' Číslo 123,1 níže je považováno za 1231, protože znak \",\" je oddělovač tisíců"
 
 #. qMAhh
 #: 03120104.xhp
@@ -30083,7 +30083,7 @@ msgctxt ""
 "bas_id681641252873197\n"
 "help.text"
 msgid "' All numbers are considered until a non-numeric character is reached"
-msgstr ""
+msgstr "' Zpracována jsou všechna čísla až po první nečíselný znak"
 
 #. i9otK
 #: 03120104.xhp
@@ -30092,7 +30092,7 @@ msgctxt ""
 "bas_id911641237027667\n"
 "help.text"
 msgid "' The example below returns 0 (zero) since the string provided does not start with a number"
-msgstr ""
+msgstr "' Příklad níže vrátí 0 (nulu), protože zadaný řetězec nezačíná číslem"
 
 #. MeApW
 #: 03120105.xhp
@@ -30119,7 +30119,7 @@ msgctxt ""
 "hd_id3156027\n"
 "help.text"
 msgid "<variable id=\"CByte_h1\"><link href=\"text/sbasic/shared/03120105.xhp\" name=\"CByte Function\">CByte Function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"CByte_h1\"><link href=\"text/sbasic/shared/03120105.xhp\" name=\"Funkce CByte\">Funkce CByte</link></variable>"
 
 #. qP4eK
 #: 03120105.xhp
@@ -30128,7 +30128,7 @@ msgctxt ""
 "par_id3143267\n"
 "help.text"
 msgid "Converts a string or a numeric expression to the <literal>Byte</literal> type."
-msgstr ""
+msgstr "Převede řetězec nebo číselný výraz na typ <literal>Byte</literal>."
 
 #. 8h2Wu
 #: 03120105.xhp
@@ -30137,7 +30137,7 @@ msgctxt ""
 "par_id3147573\n"
 "help.text"
 msgid "Cbyte( expression As Variant) As Byte"
-msgstr ""
+msgstr "CByte (expression As Variant) As Byte"
 
 #. 4vJi5
 #: 03120105.xhp
@@ -30146,7 +30146,7 @@ msgctxt ""
 "par_id3145068\n"
 "help.text"
 msgid "<emph>Expression</emph>: Any string or a numeric expression that can be evaluated to a number. Decimal values are rounded to the nearest tenth. Valid values range from 0 to 256."
-msgstr ""
+msgstr "<emph>Expression</emph>: Řetězec nebo číselný výraz, který může být vyhodnocen jako číslo. Desetinná část se zaokrouhlí na nejbližší hodnotu. Platné hodnoty se nacházejí v rozsahu 0 až 255."
 
 #. dfezQ
 #: 03120105.xhp
@@ -30155,7 +30155,7 @@ msgctxt ""
 "bas_id941637751110886\n"
 "help.text"
 msgid "' Above expressions are computed as 16, 0 and 3"
-msgstr ""
+msgstr "' Výše uvedené výrazy se vyhodnotí jako 16, 0 a 3"
 
 #. svGqi
 #: 03120111.xhp
