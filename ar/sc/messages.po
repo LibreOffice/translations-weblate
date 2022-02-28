@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-02-18 12:18+0100\n"
-"PO-Revision-Date: 2022-02-28 20:57+0000\n"
+"PO-Revision-Date: 2022-02-28 22:35+0000\n"
 "Last-Translator: Riyadh Talal <riyadhtalal@gmail.com>\n"
 "Language-Team: Arabic <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/ar/>\n"
 "Language: ar\n"
@@ -1843,7 +1843,7 @@ msgstr "رسوم بيانية"
 #: sc/inc/globstr.hrc:320
 msgctxt "STR_VOBJ_DRAWINGS"
 msgid "Drawing Objects"
-msgstr "كائنات رسومية"
+msgstr "كائنات رسم"
 
 #. JGftp
 #: sc/inc/globstr.hrc:321
@@ -1909,7 +1909,7 @@ msgstr "اتجاه الطباعة"
 #: sc/inc/globstr.hrc:331
 msgctxt "STR_SCATTR_PAGE_FIRSTPAGENO"
 msgid "First page number"
-msgstr "أول رقم صفحة"
+msgstr "رقم أول صفحة"
 
 #. 98ZSn
 #: sc/inc/globstr.hrc:332
@@ -1921,7 +1921,7 @@ msgstr "تقليص/تكبير مخرجات الطباعة"
 #: sc/inc/globstr.hrc:333
 msgctxt "STR_SCATTR_PAGE_SCALETOPAGES"
 msgid "Fit print range(s) on number of pages"
-msgstr "ملاءمة نطاق (نطاقات) الطباعة بعدد الصفحات"
+msgstr "ملاءمة نطاق (نطاقات) الطباعة على عدد الصفحات"
 
 #. kDAZk
 #: sc/inc/globstr.hrc:334
@@ -1946,12 +1946,12 @@ msgstr "الارتفاع"
 msgctxt "STR_SCATTR_PAGE_SCALE_PAGES"
 msgid "One page"
 msgid_plural "%1 pages"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "لا صفحات"
+msgstr[1] "صفحة واحدة"
+msgstr[2] "صفحتان"
+msgstr[3] "%1 صفحات"
+msgstr[4] "%1 صفحة"
+msgstr[5] "%1 صفحة"
 
 #. CHEgx
 #: sc/inc/globstr.hrc:338
@@ -2049,7 +2049,7 @@ msgstr "تعذر إدراج الجدول."
 #: sc/inc/globstr.hrc:352
 msgctxt "STR_TABREMOVE_ERROR"
 msgid "The sheets could not be deleted."
-msgstr "تعذر حذف الجداول."
+msgstr "تعذر حذف الورقات."
 
 #. SQGAE
 #: sc/inc/globstr.hrc:353
@@ -2141,7 +2141,7 @@ msgstr ""
 #: sc/inc/globstr.hrc:366
 msgctxt "STR_QUICKHELP_DELETE"
 msgid "Delete contents"
-msgstr "حذف المحتويات"
+msgstr "احذف المحتويات"
 
 #. uJtdh
 #: sc/inc/globstr.hrc:367
@@ -14615,20 +14615,19 @@ msgstr "الموضوع/الملف"
 #: sc/inc/scfuncs.hrc:3479
 msgctxt "SC_OPCODE_DDE"
 msgid "The topic or name of the file."
-msgstr ""
+msgstr "موضوع أو اسم الملف."
 
 #. utkfp
 #: sc/inc/scfuncs.hrc:3480
 msgctxt "SC_OPCODE_DDE"
 msgid "Item/range"
-msgstr ""
+msgstr "العنصر/النطاق"
 
 #. cYaTf
 #: sc/inc/scfuncs.hrc:3481
-#, fuzzy
 msgctxt "SC_OPCODE_DDE"
 msgid "The item or range from which data is to be taken."
-msgstr "النطاق المراد أخذ البيانات منه."
+msgstr "العنصر أو النطاق المراد أخذ البيانات منه."
 
 #. u5Tb2
 #: sc/inc/scfuncs.hrc:3482
@@ -14646,26 +14645,25 @@ msgstr "تحديد كيفية تحويل البيانات إلى أرقام."
 #: sc/inc/scfuncs.hrc:3489
 msgctxt "SC_OPCODE_HYPERLINK"
 msgid "Construct a Hyperlink."
-msgstr ""
+msgstr "ركّب ارتباطًا تشعبيًا"
 
 #. UAXBE
 #: sc/inc/scfuncs.hrc:3490
 msgctxt "SC_OPCODE_HYPERLINK"
 msgid "URL"
-msgstr "عنوان URL"
+msgstr "رابط"
 
 #. XFwBY
 #: sc/inc/scfuncs.hrc:3491
 msgctxt "SC_OPCODE_HYPERLINK"
 msgid "The clickable URL."
-msgstr ""
+msgstr "الرابط القابل للنقر."
 
 #. AufAt
 #: sc/inc/scfuncs.hrc:3492
-#, fuzzy
 msgctxt "SC_OPCODE_HYPERLINK"
 msgid "Cell text"
-msgstr "نص خلية"
+msgstr "نص الخلية"
 
 #. mgaK8
 #: sc/inc/scfuncs.hrc:3493
@@ -14693,7 +14691,6 @@ msgstr "اسم حقل الجدول المحوري المطلوب استخراج�
 
 #. svGFq
 #: sc/inc/scfuncs.hrc:3502
-#, fuzzy
 msgctxt "SC_OPCODE_GET_PIVOT_DATA"
 msgid "Pivot table"
 msgstr "جدول محوري"
@@ -14706,7 +14703,6 @@ msgstr "مرجع إلى خلية أو نطاق في الجدول المحوري.
 
 #. gcYNf
 #: sc/inc/scfuncs.hrc:3504
-#, fuzzy
 msgctxt "SC_OPCODE_GET_PIVOT_DATA"
 msgid "Field name / item"
 msgstr "اسم الحقل/ العنصر"
@@ -17641,10 +17637,9 @@ msgstr "اسم السيناريو"
 
 #. oWz3B
 #: sc/inc/strings.hrc:169
-#, fuzzy
 msgctxt "SCSTR_QHLP_SCEN_COMMENT"
 msgid "Comment"
-msgstr "_التعليقات"
+msgstr "تعليق"
 
 #. tNLKD
 #: sc/inc/strings.hrc:171
@@ -21345,13 +21340,13 @@ msgstr "الدالة"
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:176
 msgctxt "datafielddialog|checkbutton1"
 msgid "Show it_ems without data"
-msgstr ""
+msgstr "أظهِر الع_ناصر بلا بيانات"
 
 #. 4S4kV
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:184
 msgctxt "datafielddialog|extended_tip|checkbutton1"
 msgid "Includes empty columns and rows in the results table."
-msgstr ""
+msgstr "ضمّن الأعمدة والصفوف الفارغة في جدول النتائج."
 
 #. CNVLs
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:203
@@ -27168,10 +27163,9 @@ msgstr ""
 
 #. wT6PN
 #: sc/uiconfig/scalc/ui/optdlg.ui:119
-#, fuzzy
 msgctxt "optdlg|label2"
 msgid "Sheets"
-msgstr "ورقة"
+msgstr "أوراق"
 
 #. JptgQ
 #: sc/uiconfig/scalc/ui/optdlg.ui:135
@@ -28011,24 +28005,21 @@ msgstr ""
 
 #. KBmND
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:133
-#, fuzzy
 msgctxt "pivotfielddialog|none"
 msgid "_None"
-msgstr "ملاحظة"
+msgstr "_بلا"
 
 #. ABmZC
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:148
-#, fuzzy
 msgctxt "pivotfielddialog|auto"
 msgid "_Automatic"
-msgstr "تلقائي"
+msgstr "_تلقائي"
 
 #. mHvW7
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:163
-#, fuzzy
 msgctxt "pivotfielddialog|user"
 msgid "_User-defined"
-msgstr "_معرف من قبل المستخدم"
+msgstr "ع_رّفه المستخدم"
 
 #. k2AjG
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:211
@@ -28046,13 +28037,13 @@ msgstr "المجاميع الفرعية"
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:242
 msgctxt "pivotfielddialog|showall"
 msgid "Show it_ems without data"
-msgstr ""
+msgstr "أظهِر الع_ناصر بلا بيانات"
 
 #. 7GAbs
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:250
 msgctxt "pivotfielddialog|extended_tip|showall"
 msgid "Includes empty columns and rows in the results table."
-msgstr ""
+msgstr "ضمّن الأعمدة والصفوف الفارغة في جدول النتائج."
 
 #. aUWEK
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:269
@@ -28248,10 +28239,9 @@ msgstr "خيا_رات"
 
 #. ztfNB
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:48
-#, fuzzy
 msgctxt "pivottablelayoutdialog|PivotTableLayout"
 msgid "Pivot Table Layout"
-msgstr "قيمة الجدول المحوري"
+msgstr "مخطط الجدول المحوري"
 
 #. FCKww
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:75
@@ -28269,7 +28259,7 @@ msgstr "يغلق الحوار ويستبعد كل التغييرات."
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:163
 msgctxt "pivottablelayoutdialog|label3"
 msgid "Column Fields:"
-msgstr "حقول العمود:"
+msgstr "حقول أعمدة:"
 
 #. AeEju
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:214
@@ -28279,10 +28269,9 @@ msgstr ""
 
 #. WWrpy
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:244
-#, fuzzy
 msgctxt "pivottablelayoutdialog|label5"
 msgid "Data Fields:"
-msgstr "حقل بيانات"
+msgstr "حقول بيانات:"
 
 #. cvgCA
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:295
@@ -28294,7 +28283,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:325
 msgctxt "pivottablelayoutdialog|label4"
 msgid "Row Fields:"
-msgstr ""
+msgstr "حقول صفوف:"
 
 #. n7GRA
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:374
@@ -28306,7 +28295,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:404
 msgctxt "pivottablelayoutdialog|label2"
 msgid "Filters:"
-msgstr ""
+msgstr "المرشّحات:"
 
 #. yN8BR
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:455
@@ -28316,10 +28305,9 @@ msgstr ""
 
 #. Scoht
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:517
-#, fuzzy
 msgctxt "pivottablelayoutdialog|label1"
 msgid "Available Fields:"
-msgstr "الحقول المت~وفّرة"
+msgstr "الحقول المتاحة:"
 
 #. FBtEV
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:567
@@ -28331,25 +28319,25 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:598
 msgctxt "pivottablelayoutdialog|label6"
 msgid "Drag the Items into the Desired Position"
-msgstr ""
+msgstr "اسحب العنصر إلى الموضع المرغوب"
 
 #. 9EpNA
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:626
 msgctxt "pivottablelayoutdialog|check-ignore-empty-rows"
 msgid "Ignore empty rows"
-msgstr ""
+msgstr "أهمِل الصفوف الفارغة"
 
 #. CAJBa
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:634
 msgctxt "pivottablelayoutdialog|extended_tip|check-ignore-empty-rows"
 msgid "Ignores empty fields in the data source."
-msgstr ""
+msgstr "يهمل الحقول الفارغة في مصدر البيانات."
 
 #. jgyea
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:645
 msgctxt "pivottablelayoutdialog|check-identify-categories"
 msgid "Identify categories"
-msgstr ""
+msgstr "نعرّف على الأصناف"
 
 #. uzKL8
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:653
@@ -28413,10 +28401,9 @@ msgstr "خيارات"
 
 #. LevDB
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:792
-#, fuzzy
 msgctxt "pivottablelayoutdialog|destination-radio-new-sheet"
 msgid "New sheet"
-msgstr "ور_قة جديدة"
+msgstr "ورقة جديدة"
 
 #. Ld2sG
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:808
@@ -28444,10 +28431,9 @@ msgstr ""
 
 #. UjyGK
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:872
-#, fuzzy
 msgctxt "pivottablelayoutdialog|destination-radio-named-range"
 msgid "Named range"
-msgstr "مجال م_سمى"
+msgstr "نطاق مسمَّى"
 
 #. xhpiB
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:891
@@ -28476,10 +28462,9 @@ msgstr ""
 
 #. 6s5By
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:971
-#, fuzzy
 msgctxt "pivottablelayoutdialog|source-radio-named-range"
 msgid "Named range"
-msgstr "مجال م_سمى"
+msgstr "نطاق مسمَّى"
 
 #. QTYpg
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:1001
@@ -28491,7 +28476,7 @@ msgstr "المصدر"
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:1019
 msgctxt "pivottablelayoutdialog|label7"
 msgid "Source and Destination"
-msgstr ""
+msgstr "المصدر والوجهة"
 
 #. WUqGN
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:1028
@@ -29351,10 +29336,9 @@ msgstr ""
 
 #. X9GgG
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:170
-#, fuzzy
 msgctxt "scenariodialog|label2"
 msgid "Comment"
-msgstr "_التعليقات"
+msgstr "تعليق"
 
 #. GcXCj
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:200
@@ -30248,7 +30232,7 @@ msgstr "ملاءمة نطاق (نطاقات) الطباعة بالعرض/الا�
 #: sc/uiconfig/scalc/ui/sheetprintpage.ui:646
 msgctxt "sheetprintpage|comboLB_SCALEMODE"
 msgid "Fit print range(s) on number of pages"
-msgstr "ملاءمة نطاق (نطاقات) الطباعة بعدد الصفحات"
+msgstr "ملاءمة نطاق (نطاقات) الطباعة على عدد الصفحات"
 
 #. AzkrF
 #: sc/uiconfig/scalc/ui/sheetprintpage.ui:650
