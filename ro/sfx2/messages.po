@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-01-10 12:21+0100\n"
-"PO-Revision-Date: 2022-03-04 05:39+0000\n"
+"PO-Revision-Date: 2022-03-05 08:39+0000\n"
 "Last-Translator: Secară Cristian <cristi@secarica.ro>\n"
 "Language-Team: Romanian <https://translations.documentfoundation.org/projects/libo_ui-7-3/sfx2messages/ro/>\n"
 "Language: ro\n"
@@ -526,7 +526,7 @@ msgid ""
 "Opening \"$(ARG1)\" failed with error code $(ARG2) and message: \"$(ARG3)\"\n"
 "Maybe no web browser could be found on your system. In that case, please check your Desktop Preferences or install a web browser (for example, Firefox) in the default location requested during the browser installation."
 msgstr ""
-"Deschiderea „$(ARG1)” a eșuat cu codul de eroare $(ARG2) și mesajul: \"$(ARG3)\"\n"
+"Deschiderea „$(ARG1)” a eșuat cu codul de eroare $(ARG2) și mesajul: „$(ARG3)”\n"
 "Poate că nu a putut fi găsit niciun browser web pe sistemul dumneavoastră. În acest caz, vă rugăm să verificați preferințele desktop sau să instalați un browser web (de exemplu, Firefox) în locația implicită solicitată în timpul instalării browserului."
 
 #. QEABe
@@ -543,7 +543,7 @@ msgstr ""
 #: include/sfx2/strings.hrc:107
 msgctxt "STR_NO_ABS_URI_REF"
 msgid "\"$(ARG1)\" cannot be passed to an external application to open it (e.g., it might not be an absolute URL, or might denote no existing file)."
-msgstr ""
+msgstr "„$(ARG1)” nu poate fi transmis unei aplicații externe pentru a o deschide (de exemplu, ar putea să nu fie o adresă URL absolută sau ar putea indica un fișier inexistent)."
 
 #. XDUCY
 #: include/sfx2/strings.hrc:108
@@ -603,7 +603,7 @@ msgstr "Navighează"
 #: include/sfx2/strings.hrc:117
 msgctxt "STR_GID_INSERT"
 msgid "Insert"
-msgstr "Inserare"
+msgstr "Inserează"
 
 #. fokQp
 #: include/sfx2/strings.hrc:118
@@ -735,7 +735,7 @@ msgstr "Lansator rapid %PRODUCTNAME %PRODUCTVERSION"
 #: include/sfx2/strings.hrc:139
 msgctxt "STR_QUICKSTART_FILEOPEN"
 msgid "Open Document..."
-msgstr "Deschide document..."
+msgstr "Deschide un document..."
 
 #. wecTF
 #: include/sfx2/strings.hrc:140
@@ -747,7 +747,7 @@ msgstr "Din șablon..."
 #: include/sfx2/strings.hrc:141
 msgctxt "STR_QUICKSTART_PRELAUNCH"
 msgid "Load %PRODUCTNAME During System Start-Up"
-msgstr "Încarcă %PRODUCTNAME în timpul pornirii sistemului"
+msgstr "Încarcă %PRODUCTNAME la pornirea sistemului"
 
 #. hMejq
 #: include/sfx2/strings.hrc:142
@@ -765,7 +765,7 @@ msgstr "Fișier"
 #: include/sfx2/strings.hrc:144
 msgctxt "STR_QUICKSTART_STARTCENTER"
 msgid "Startcenter"
-msgstr "Centrul de lansare"
+msgstr "Centru de lansare"
 
 #. Uhn54
 #: include/sfx2/strings.hrc:145
@@ -782,12 +782,16 @@ msgid ""
 "Would you like to change the document, and update all links\n"
 "to get the most recent data?"
 msgstr ""
+"Documentul %{filename} conține unul sau mai multe linkuri către date externe.\n"
+"\n"
+"Doriți să schimbați documentul și să actualizați toate linkurile\n"
+"pentru a obține cele mai recente date?"
 
 #. zJGEM
 #: include/sfx2/strings.hrc:147
 msgctxt "STR_DDE_ERROR"
 msgid "DDE link to %1 for %2 area %3 are not available."
-msgstr "Legătura DDE la %1 pentru %3 zona %2 nu este disponibilă."
+msgstr "Linkul DDE la %1 pentru %3 zona %2 nu este disponibilă."
 
 #. zECGD
 #: include/sfx2/strings.hrc:148
@@ -796,14 +800,14 @@ msgid ""
 "For security reasons, the hyperlink cannot be executed.\n"
 "The stated address will not be opened."
 msgstr ""
-"Din motive de securitate, legătura web nu poate fi executată.\n"
-"Adresa menționată nu va fi deschisă."
+"Din motive de securitate, hyperlinkul nu poate fi executat.\n"
+"Adresa declarată nu va fi deschisă."
 
 #. vcMzA
 #: include/sfx2/strings.hrc:149
 msgctxt "RID_SECURITY_WARNING_TITLE"
 msgid "Security Warning"
-msgstr "Avertizare de securitate"
+msgstr "Avertisment de securitate"
 
 #. vVCon
 #: include/sfx2/strings.hrc:150
@@ -812,8 +816,8 @@ msgid ""
 "Saving will remove all existing signatures.\n"
 "Do you want to continue saving the document?"
 msgstr ""
-"Salvând documentul, toate semnăturile existente vor fi înlăturate.\n"
-"Doriți să continuați operația de salvare a documentului?"
+"Salvarea va elimina toate semnăturile existente.\n"
+"Vreți să continuați salvarea documentului?"
 
 #. cGnF9
 #: include/sfx2/strings.hrc:151
@@ -832,14 +836,14 @@ msgid ""
 "This will discard all changes on the server since check-out.\n"
 "Do you want to proceed?"
 msgstr ""
-"Acesta șterge toate modificările pe server de la ultima actualizare.\n"
-"Doriți să continuați?"
+"Această acțiune va abandona toate modificările efectuate pe server de la momentul check-out.\n"
+"Vreți să continuați?"
 
 #. jufLD
 #: include/sfx2/strings.hrc:153
 msgctxt "STR_INFO_WRONGDOCFORMAT"
 msgid "This document must be saved in OpenDocument file format before it can be digitally signed."
-msgstr "Acest document trebuie salvat în format OpenDocument înainte sa fie semnat digital."
+msgstr "Acest document trebuie salvat în format de fișier OpenDocument înainte de a putea fi semnat digital."
 
 #. ori9u
 #: include/sfx2/strings.hrc:154
@@ -851,7 +855,7 @@ msgstr " (Semnat)"
 #: include/sfx2/strings.hrc:155
 msgctxt "STR_EMBEDDED_TITLE"
 msgid " (Embedded document)"
-msgstr ""
+msgstr " (document încorporat)"
 
 #. 3nT9T
 #: include/sfx2/strings.hrc:156
@@ -899,7 +903,7 @@ msgstr "Fișiere PDF"
 #: include/sfx2/strings.hrc:163
 msgctxt "RID_SVXSTR_EDITGRFLINK"
 msgid "Link Image"
-msgstr "Legare imagine"
+msgstr "Leagă imaginea"
 
 #. u9H7a
 #. i66948 used in project scripting
@@ -911,22 +915,22 @@ msgid ""
 "\n"
 "Check spelling of method name."
 msgstr ""
-"Nu sa găsit metodă %1\n"
-"pentru componentă.\n"
+"O metodă adecvată de componente %1\n"
+"nu a putut fi găsită.\n"
 "\n"
-"Verificați că ați scris corect numele metodei."
+"Verificați ortografia numelui metodei."
 
 #. 2FLYB
 #: include/sfx2/strings.hrc:166
 msgctxt "RID_SVXSTR_GRFILTER_OPENERROR"
 msgid "Image file cannot be opened"
-msgstr "Fișierul imagine nu poate fi deschis"
+msgstr "Fișierul de imagine nu poate fi deschis"
 
 #. 6eLsb
 #: include/sfx2/strings.hrc:167
 msgctxt "RID_SVXSTR_GRFILTER_IOERROR"
 msgid "Image file cannot be read"
-msgstr "Fișierul imagine nu a putut fi citit"
+msgstr "Fișierul de imagine nu poate fi citit"
 
 #. HGRsV
 #: include/sfx2/strings.hrc:168
@@ -938,7 +942,7 @@ msgstr "Format de imagine necunoscut"
 #: include/sfx2/strings.hrc:169
 msgctxt "RID_SVXSTR_GRFILTER_VERSIONERROR"
 msgid "This version of the image file is not supported"
-msgstr "Această versiune a fișierului imagine nu este suportat"
+msgstr "Această versiune a fișierului de imagine nu este acceptată"
 
 #. Sn8KQ
 #: include/sfx2/strings.hrc:170
@@ -950,7 +954,7 @@ msgstr "Filtrul de imagine nu a fost găsit"
 #: include/sfx2/strings.hrc:171
 msgctxt "RID_SVXSTR_TXTFILTER_FILTERERROR"
 msgid "This is not a text document"
-msgstr ""
+msgstr "Acesta nu este un document text"
 
 #. ejBgZ
 #: include/sfx2/strings.hrc:172
@@ -962,6 +966,11 @@ msgid ""
 "Exit change recording mode?\n"
 "\n"
 msgstr ""
+"Această acțiune va încheia modul de modificare a înregistrării.\n"
+"De acum înainte nu vor mai fi înregistrate informații despre modificări.\n"
+"\n"
+"Ieșiți din modul de modificare a înregistrării ?\n"
+"\n"
 
 #. E2CcY
 #: include/sfx2/strings.hrc:173
@@ -973,25 +982,25 @@ msgstr "Parolă incorectă"
 #: include/sfx2/strings.hrc:174
 msgctxt "RID_SVXSTR_GPG_ENCRYPT_FAILURE"
 msgid "OpenPGP key not trusted, damaged, or encryption failure. Please try again."
-msgstr ""
+msgstr "Cheia OpenPGP nu este de încredere, este deteriorată sau eșec de criptare. Încercați din nou."
 
 #. DQCUm
 #: include/sfx2/strings.hrc:176
 msgctxt "STR_PASSWD_MIN_LEN"
 msgid "(Minimum $(MINLEN) characters)"
-msgstr "(Minim $(MINLEN) caractere)"
+msgstr "(Minimum $(MINLEN) caractere)"
 
 #. ZKZnh
 #: include/sfx2/strings.hrc:177
 msgctxt "STR_PASSWD_MIN_LEN1"
 msgid "(Minimum 1 character)"
-msgstr "(Minim 1 caracter)"
+msgstr "(Minimum 1 caracter)"
 
 #. B3WoF
 #: include/sfx2/strings.hrc:178
 msgctxt "STR_PASSWD_EMPTY"
 msgid "(The password can be empty)"
-msgstr "(Parola poate să fie vidă)"
+msgstr "(Parola poate fi goală)"
 
 #. iBD9D
 #: include/sfx2/strings.hrc:179
@@ -1016,20 +1025,20 @@ msgid ""
 "The selected filter $(FILTER) is not included in your edition.\n"
 "You can find information about orders on our homepage."
 msgstr ""
-"Filtrul selectat $(FILTER) nu este inclus în ediția dumneavoastră.\n"
+"Filtrul selectat $(FILTER) nu este inclus în ediția pe care o aveți.\n"
 "Puteți găsi informații despre comenzi pe pagina noastră de start."
 
 #. Y9yeS
 #: include/sfx2/strings.hrc:184
 msgctxt "STR_WELCOME_LINE1"
 msgid "Welcome to %PRODUCTNAME."
-msgstr "Bun venit în %PRODUCTNAME."
+msgstr "Bun venit la %PRODUCTNAME."
 
 #. DVEkR
 #: include/sfx2/strings.hrc:185
 msgctxt "STR_WELCOME_LINE2"
 msgid "Drop a document here or open an app to create one."
-msgstr ""
+msgstr "Plasați aici un document sau deschideți o aplicație pentru a crea unul."
 
 #. oTVdA
 #. Translators: Target types in Auto-redaction dialog
@@ -1042,19 +1051,19 @@ msgstr ""
 #: include/sfx2/strings.hrc:189
 msgctxt "STR_REDACTION_TARGET_TYPE_REGEX"
 msgid "Regular expression"
-msgstr ""
+msgstr "Expresie regulată"
 
 #. TaDCG
 #: include/sfx2/strings.hrc:190
 msgctxt "STR_REDACTION_TARGET_TYPE_PREDEF"
 msgid "Predefined"
-msgstr ""
+msgstr "Predefinit"
 
 #. bDjwW
 #: include/sfx2/strings.hrc:191
 msgctxt "STR_REDACTION_TARGET_TYPE_UNKNOWN"
 msgid "Unknown"
-msgstr ""
+msgstr "Necunoscut"
 
 #. YgzCk
 #. Translators: Values for the Case Sensitive and the Whole Words columns in Auto-redaction dialog
@@ -1080,37 +1089,37 @@ msgstr "Țintă"
 #: include/sfx2/strings.hrc:199
 msgctxt "STR_REDACTION_LOAD_TARGETS"
 msgid "Load Targets"
-msgstr ""
+msgstr "Încarcă destinațiile"
 
 #. HgrwX
 #: include/sfx2/strings.hrc:200
 msgctxt "STR_REDACTION_SAVE_TARGETS"
 msgid "Save Targets"
-msgstr ""
+msgstr "Salvează destinațiile"
 
 #. MYMTF
 #: include/sfx2/strings.hrc:201
 msgctxt "STR_REDACTION_FIELDS_REQUIRED"
 msgid "All fields are required"
-msgstr ""
+msgstr "Sunt necesare toate fișierele"
 
 #. rQS6M
 #: include/sfx2/strings.hrc:202
 msgctxt "STR_REDACTION_TARGET_NAME_CLASH"
 msgid "There is already a target with this name"
-msgstr ""
+msgstr "O destinație cu acest nume există deja"
 
 #. s248s
 #: include/sfx2/strings.hrc:203
 msgctxt "STR_REDACTION_MULTI_EDIT"
 msgid "You have selected multiple targets, but only one target can be edited at once."
-msgstr ""
+msgstr "Ați selectat destinații multiple, dar numai o singură destinație poate fi editată la un moment dat."
 
 #. BTayC
 #: include/sfx2/strings.hrc:204
 msgctxt "STR_REDACTION_MULTI_DELETE"
 msgid "Are you sure you would like to delete $(TARGETSCOUNT) targets at once?"
-msgstr ""
+msgstr "Sigur doriți să ștergeți $(TARGETSCOUNT) destinații deodată?"
 
 #. qFqDC
 #: include/sfx2/strings.hrc:205
@@ -1122,19 +1131,19 @@ msgstr ""
 #: include/sfx2/strings.hrc:206
 msgctxt "STR_REDACTION_EDIT_TARGET"
 msgid "Edit Target"
-msgstr ""
+msgstr "Editare destinație"
 
 #. ACY9D
 #: include/sfx2/strings.hrc:207
 msgctxt "STR_REDACTION_TARGET_ADD_ERROR"
 msgid "An error occurred while adding new target. Please report this incident."
-msgstr ""
+msgstr "A apărut o eroare la adăugarea noii destinații. Vă rugăm să raportați acest incident."
 
 #. 6Jog7
 #: include/sfx2/strings.hrc:208
 msgctxt "STR_REDACTION_NO_DRAW_WARNING"
 msgid "Draw module is needed for redaction. Please make sure you have %PRODUCTNAME Draw installed and working correctly."
-msgstr ""
+msgstr "Modulul Draw este necesar pentru redactare. Asigurați-vă că ați instalat %PRODUCTNAME Draw și că funcționează corect."
 
 #. FQ9kN
 #: include/sfx2/strings.hrc:210
@@ -1152,25 +1161,25 @@ msgstr "Exportă"
 #: include/sfx2/strings.hrc:212
 msgctxt "STR_SFX_EXPLORERFILE_INSERT"
 msgid "Insert"
-msgstr "Inserare"
+msgstr "Inserează"
 
 #. VBKtt
 #: include/sfx2/strings.hrc:213
 msgctxt "STR_SFX_EXPLORERFILE_BUTTONINSERT"
 msgid "~Insert"
-msgstr "~Inserare"
+msgstr "~Inserează"
 
 #. DcLFD
 #: include/sfx2/strings.hrc:214
 msgctxt "STR_SFX_IMPORT_ALL_IMAGES"
 msgid "<All images>"
-msgstr ""
+msgstr "<Toate imaginile>"
 
 #. tPDwc
 #: include/sfx2/strings.hrc:215
 msgctxt "STR_PB_SAVEACOPY"
 msgid "Save a Copy"
-msgstr "Salvare copie"
+msgstr "Salvează o copie"
 
 #. T9mMd
 #: include/sfx2/strings.hrc:216
@@ -1194,7 +1203,7 @@ msgstr "Document %PRODUCTNAME"
 #: include/sfx2/strings.hrc:220
 msgctxt "SFX_ST_DURATION_FORMAT"
 msgid " Y: %1 M: %2 D: %3 H: %4 M: %5 S: %6"
-msgstr " Y: %1 M: %2 D: %3 H: %4 M: %5 S: %6"
+msgstr " A: %1 L: %2 Z: %3 H: %4 M: %5 S: %6"
 
 #. jQX7C
 #: include/sfx2/strings.hrc:221
@@ -1210,19 +1219,19 @@ msgstr ""
 #: include/sfx2/strings.hrc:223
 msgctxt "STR_QUERY_OVERWRITE"
 msgid "Style already exists. Overwrite?"
-msgstr "Stilul există deja. Doriți să suprascrieți?"
+msgstr "Stilul există deja. Îl suprascrieți?"
 
 #. f627N
 #: include/sfx2/strings.hrc:225
 msgctxt "STR_RESET"
 msgid "~Reset"
-msgstr "~Resetează"
+msgstr "~Restabilește"
 
 #. EXGDb
 #: include/sfx2/strings.hrc:226
 msgctxt "STR_TABPAGE_INVALIDNAME"
 msgid "This name is already in use."
-msgstr "Acest nume este deja folosit."
+msgstr "Acest nume este deja în uz."
 
 #. N5aeR
 #: include/sfx2/strings.hrc:227
@@ -1258,12 +1267,15 @@ msgid ""
 "If you will delete it, text or objects using these styles will revert to the parent style.\n"
 "Do you still wish to delete these styles?\n"
 msgstr ""
+"Unul sau mai multe dintre stilurile selectate sunt utilizate în acest document.\n"
+"Dacă le veți șterge, textul sau obiectele care folosesc aceste stiluri vor reveni la stilul părinte.\n"
+"Mai doriți să ștergeți aceste stiluri?\n"
 
 #. kuD77
 #: include/sfx2/strings.hrc:231
 msgctxt "STR_DELETE_STYLE"
 msgid "Styles in use: "
-msgstr "Stiluri folosite: "
+msgstr "Stiluri în uz: "
 
 #. 4JhEW
 #: include/sfx2/strings.hrc:232
@@ -1287,19 +1299,19 @@ msgstr "Trimite"
 #: include/sfx2/strings.hrc:235
 msgctxt "STR_FONT_TABPAGE"
 msgid "Font"
-msgstr "Set fonturi"
+msgstr "Font"
 
 #. 7baC6
 #: include/sfx2/strings.hrc:237
 msgctxt "STR_VIEWVERSIONCOMMENT"
 msgid "View Version Comment"
-msgstr "Vizualizare comentariu versiune"
+msgstr "Vizualizează comentariul versiunii"
 
 #. LGiF8
 #: include/sfx2/strings.hrc:238
 msgctxt "STR_NO_NAME_SET"
 msgid "(no name set)"
-msgstr "(fără valoare setată)"
+msgstr "(fără nume stabilit)"
 
 #. rZ4Ao
 #: include/sfx2/strings.hrc:240
@@ -1311,13 +1323,13 @@ msgstr "Ierarhic"
 #: include/sfx2/strings.hrc:242
 msgctxt "STR_MACRO_LOSS"
 msgid "Do you really want to cancel the recording? Any steps recorded up to this point will be lost."
-msgstr "Sigur vreți să renunțați la înregistrare? Orice pași înregistrați până la acest punct vor fi pierduți."
+msgstr "Chiar vreți să anulați înregistrarea? Orice pași înregistrați până la acest punct se vor pierde."
 
 #. 9MnrK
 #: include/sfx2/strings.hrc:243
 msgctxt "STR_CANCEL_RECORDING"
 msgid "Cancel Recording"
-msgstr "Renunță la înregistrare"
+msgstr "Anulează înregistrarea"
 
 #. m9FCm
 #: include/sfx2/strings.hrc:245
@@ -1342,14 +1354,14 @@ msgid ""
 "Could not start printer.\n"
 "Please check your printer configuration."
 msgstr ""
-"Nu am putut porni imprimanta.\n"
-"Verificați configurația de imprimare."
+"Nu s-a putut porni imprimanta.\n"
+"Verificați configurația imprimantei."
 
 #. acKHX
 #: include/sfx2/strings.hrc:249
 msgctxt "STR_ERROR_PRINTER_BUSY"
 msgid "Printer busy"
-msgstr "Imprimanta ocupată"
+msgstr "Imprimanta este ocupată"
 
 #. hDEUj
 #: include/sfx2/strings.hrc:250
@@ -1365,8 +1377,8 @@ msgid ""
 "Would you like to save the new settings in the\n"
 "active document?"
 msgstr ""
-"Mărimea și orientarea paginii au fost modificate.\n"
-"Doriți să salvați noile setări în\n"
+"Dimensiunea și orientarea paginii au fost modificate.\n"
+"Doriți să salvați noile configurări în\n"
 "documentul activ?"
 
 #. cxuAH
@@ -1378,7 +1390,7 @@ msgid ""
 "in the active document?"
 msgstr ""
 "Dimensiunea paginii a fost modificată.\n"
-"Ar trebui salvate noile setări\n"
+"Doriți să salvați noile configurări în\n"
 "în documentul activ ?"
 
 #. 4QJxB
@@ -1389,8 +1401,8 @@ msgid ""
 "Would you like to save the new settings in the\n"
 "active document?"
 msgstr ""
-"Mărimea și orientarea paginii au fost modificate.\n"
-"Doriți să salvați noile setări în\n"
+"Dimensiunea și orientarea paginii au fost modificate.\n"
+"Doriți să salvați noile configurări în\n"
 "documentul activ?"
 
 #. RXbfs
@@ -1401,7 +1413,7 @@ msgid ""
 " print job is being carried out."
 msgstr ""
 "Documentul nu poate fi închis deoarece\n"
-"se desfășoară o sarcină de imprimare."
+"se desfășoară o sarcină de tipărire."
 
 #. YGyQP
 #: include/sfx2/strings.hrc:255
@@ -1410,6 +1422,8 @@ msgid ""
 "An error occurred in sending the message. Possible errors could be a missing user account or a defective setup.\n"
 "Please check the %PRODUCTNAME settings or your email program settings."
 msgstr ""
+"A apărut o eroare la trimiterea mesajului. Posibilele erori pot fi lipsa unui cont de utilizator sau o configurare defectuoasă.\n"
+"Verificați configurările %PRODUCTNAME sau configurările programului de e-mail."
 
 #. 3nzi6
 #. Error codes look like "MAPI_E_FAILURE" or "1234"
