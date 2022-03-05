@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 19:40+0200\n"
-"PO-Revision-Date: 2022-03-04 20:44+0000\n"
+"PO-Revision-Date: 2022-03-05 21:39+0000\n"
 "Last-Translator: Secară Cristian <cristi@secarica.ro>\n"
 "Language-Team: Romanian <https://translations.documentfoundation.org/projects/libo_ui-7-1/sfx2messages/ro/>\n"
 "Language: ro\n"
@@ -1276,12 +1276,15 @@ msgid ""
 "If you will delete it, text or objects using these styles will revert to the parent style.\n"
 "Do you still wish to delete these styles?\n"
 msgstr ""
+"Unul sau mai multe dintre stilurile selectate sunt utilizate în acest document.\n"
+"Dacă le veți șterge, textul sau obiectele care folosesc aceste stiluri vor reveni la stilul părinte.\n"
+"Mai doriți să ștergeți aceste stiluri?\n"
 
 #. kuD77
 #: include/sfx2/strings.hrc:235
 msgctxt "STR_DELETE_STYLE"
 msgid "Styles in use: "
-msgstr "Stiluri folosite: "
+msgstr "Stiluri în uz: "
 
 #. 4JhEW
 #: include/sfx2/strings.hrc:236
@@ -1305,19 +1308,19 @@ msgstr "Trimite"
 #: include/sfx2/strings.hrc:239
 msgctxt "STR_FONT_TABPAGE"
 msgid "Font"
-msgstr "Set fonturi"
+msgstr "Font"
 
 #. 7baC6
 #: include/sfx2/strings.hrc:241
 msgctxt "STR_VIEWVERSIONCOMMENT"
 msgid "View Version Comment"
-msgstr "Vizualizare comentariu versiune"
+msgstr "Vizualizează comentariul versiunii"
 
 #. LGiF8
 #: include/sfx2/strings.hrc:242
 msgctxt "STR_NO_NAME_SET"
 msgid "(no name set)"
-msgstr "(fără valoare setată)"
+msgstr "(fără nume stabilit)"
 
 #. rZ4Ao
 #: include/sfx2/strings.hrc:244
@@ -1329,13 +1332,13 @@ msgstr "Ierarhic"
 #: include/sfx2/strings.hrc:246
 msgctxt "STR_MACRO_LOSS"
 msgid "Do you really want to cancel the recording? Any steps recorded up to this point will be lost."
-msgstr "Sigur vreți să renunțați la înregistrare? Orice pași înregistrați până la acest punct vor fi pierduți."
+msgstr "Chiar vreți să anulați înregistrarea? Orice pași înregistrați până la acest punct se vor pierde."
 
 #. 9MnrK
 #: include/sfx2/strings.hrc:247
 msgctxt "STR_CANCEL_RECORDING"
 msgid "Cancel Recording"
-msgstr "Renunță la înregistrare"
+msgstr "Anulează înregistrarea"
 
 #. m9FCm
 #: include/sfx2/strings.hrc:249
@@ -1360,14 +1363,14 @@ msgid ""
 "Could not start printer.\n"
 "Please check your printer configuration."
 msgstr ""
-"Nu am putut porni imprimanta.\n"
-"Verificați configurația de imprimare."
+"Nu s-a putut porni imprimanta.\n"
+"Verificați configurația imprimantei."
 
 #. acKHX
 #: include/sfx2/strings.hrc:253
 msgctxt "STR_ERROR_PRINTER_BUSY"
 msgid "Printer busy"
-msgstr "Imprimanta ocupată"
+msgstr "Imprimanta este ocupată"
 
 #. hDEUj
 #: include/sfx2/strings.hrc:254
@@ -1383,8 +1386,8 @@ msgid ""
 "Would you like to save the new settings in the\n"
 "active document?"
 msgstr ""
-"Mărimea și orientarea paginii au fost modificate.\n"
-"Doriți să salvați noile setări în\n"
+"Dimensiunea și orientarea paginii au fost modificate.\n"
+"Doriți să salvați noile configurări în\n"
 "documentul activ?"
 
 #. cxuAH
@@ -1396,7 +1399,7 @@ msgid ""
 "in the active document?"
 msgstr ""
 "Dimensiunea paginii a fost modificată.\n"
-"Ar trebui salvate noile setări\n"
+"Doriți să salvați noile configurări în\n"
 "în documentul activ ?"
 
 #. 4QJxB
@@ -1407,8 +1410,8 @@ msgid ""
 "Would you like to save the new settings in the\n"
 "active document?"
 msgstr ""
-"Mărimea și orientarea paginii au fost modificate.\n"
-"Doriți să salvați noile setări în\n"
+"Dimensiunea și orientarea paginii au fost modificate.\n"
+"Doriți să salvați noile configurări în\n"
 "documentul activ?"
 
 #. RXbfs
@@ -1419,7 +1422,7 @@ msgid ""
 " print job is being carried out."
 msgstr ""
 "Documentul nu poate fi închis deoarece\n"
-"se desfășoară o sarcină de imprimare."
+"se desfășoară o sarcină de tipărire."
 
 #. YGyQP
 #: include/sfx2/strings.hrc:259
@@ -1428,6 +1431,8 @@ msgid ""
 "An error occurred in sending the message. Possible errors could be a missing user account or a defective setup.\n"
 "Please check the %PRODUCTNAME settings or your email program settings."
 msgstr ""
+"A apărut o eroare la trimiterea mesajului. Posibilele erori pot fi lipsa unui cont de utilizator sau o configurare defectuoasă.\n"
+"Verificați configurările %PRODUCTNAME sau configurările programului de e-mail."
 
 #. 3nzi6
 #. Error codes look like "MAPI_E_FAILURE" or "1234"
@@ -3308,7 +3313,7 @@ msgstr "_Stilul următor:"
 #: sfx2/uiconfig/ui/managestylepage.ui:66
 msgctxt "managestylepage|linkedwithft"
 msgid "Inherit from:"
-msgstr "Moștenește de la:"
+msgstr "Moștenit de la:"
 
 #. 9pGL9
 #: sfx2/uiconfig/ui/managestylepage.ui:80
@@ -3386,7 +3391,7 @@ msgstr ""
 #: sfx2/uiconfig/ui/optprintpage.ui:60
 msgctxt "optprintpage|file"
 msgid "Print to _file"
-msgstr "Imprimă în _fișier"
+msgstr "Tipărește în _fișier"
 
 #. TMHvE
 #: sfx2/uiconfig/ui/optprintpage.ui:70
@@ -3446,31 +3451,31 @@ msgstr ""
 #: sfx2/uiconfig/ui/optprintpage.ui:219
 msgctxt "optprintpage|reducegrad"
 msgid "Reduce _gradient"
-msgstr "Reducere _gradient"
+msgstr "Reduce de_gradeul"
 
 #. GC8dk
 #: sfx2/uiconfig/ui/optprintpage.ui:228
 msgctxt "extended_tip|reducegrad"
 msgid "If this field is marked, gradients are printed with reduced quality."
-msgstr ""
+msgstr "Dacă acest câmp este marcat, degradeurile sunt imprimate cu o calitate redusă."
 
 #. skDME
 #: sfx2/uiconfig/ui/optprintpage.ui:256
 msgctxt "optprintpage|reducegradstripes"
 msgid "Gradient _stripes:"
-msgstr "Numărul g_radientelor:"
+msgstr "_Benzi de degrade:"
 
 #. k8zh7
 #: sfx2/uiconfig/ui/optprintpage.ui:266
 msgctxt "extended_tip|reducegradstripes"
 msgid "Specifies the maximum number of gradient stripes for printing."
-msgstr ""
+msgstr "Specifică numărul maxim de benzi de degrade pentru tipărire."
 
 #. 5HCxT
 #: sfx2/uiconfig/ui/optprintpage.ui:284
 msgctxt "extended_tip|reducegradstep"
 msgid "Specifies the maximum number of gradient stripes for printing."
-msgstr ""
+msgstr "Specifică numărul maxim de benzi de degrade pentru tipărire."
 
 #. W8LE7
 #: sfx2/uiconfig/ui/optprintpage.ui:301
@@ -3482,13 +3487,13 @@ msgstr "_Culoare intermediară"
 #: sfx2/uiconfig/ui/optprintpage.ui:311
 msgctxt "extended_tip|reducegradcolor"
 msgid "Specifies that gradients are only printed in a single intermediate color."
-msgstr ""
+msgstr "Specifică faptul că degradeurile sunt tipărite doar într-o singură culoare intermediară."
 
 #. myMLR
 #: sfx2/uiconfig/ui/optprintpage.ui:336
 msgctxt "optprintpage|label1"
 msgid "Reduce Gradient"
-msgstr ""
+msgstr "Reduce degradeul"
 
 #. abbre
 #: sfx2/uiconfig/ui/optprintpage.ui:344
