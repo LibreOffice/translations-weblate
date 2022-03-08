@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-02-21 15:22+0100\n"
-"PO-Revision-Date: 2022-03-06 15:39+0000\n"
+"PO-Revision-Date: 2022-03-08 11:39+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/bg/>\n"
 "Language: bg\n"
@@ -29453,7 +29453,7 @@ msgctxt ""
 "bm_id3150682\n"
 "help.text"
 msgid "<bookmark_value>comparison operators;%PRODUCTNAME Basic</bookmark_value>  <bookmark_value>Operators;comparison</bookmark_value>  <bookmark_value>Operators;equal sign (=)</bookmark_value>  <bookmark_value>Operators;greater than (>)</bookmark_value>  <bookmark_value>Operators;greater than or equal to (>=)</bookmark_value>  <bookmark_value>Operators;less than (<)</bookmark_value>  <bookmark_value>Operators;less than or equal to (<=)</bookmark_value>  <bookmark_value>Operators;not equal to (<>)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>сравнение, операции за;%PRODUCTNAME Basic</bookmark_value>  <bookmark_value>операции;сравняване</bookmark_value>  <bookmark_value>операции;знак равно (=)</bookmark_value>  <bookmark_value>операции;по-голямо от (>)</bookmark_value>  <bookmark_value>операции;по-голямо или равно (>=)</bookmark_value>  <bookmark_value>операции;по-малко от (<)</bookmark_value>  <bookmark_value>операции;по-малко или равно (<=)</bookmark_value>  <bookmark_value>операции;различно от (<>)</bookmark_value>"
 
 #. k9nDv
 #: 03110100.xhp
@@ -29462,7 +29462,7 @@ msgctxt ""
 "hd_id3150682\n"
 "help.text"
 msgid "<variable id=\"CompOper_h1\"><link href=\"text/sbasic/shared/03110100.xhp\" name=\"Comparison Operators\">Comparison Operators</link></variable>"
-msgstr ""
+msgstr "<variable id=\"CompOper_h1\"><link href=\"text/sbasic/shared/03110100.xhp\" name=\"Comparison Operators\">Операции за сравняване</link></variable>"
 
 #. vzC53
 #: 03110100.xhp
@@ -29471,7 +29471,7 @@ msgctxt ""
 "par_id3156042\n"
 "help.text"
 msgid "Comparison operators compare two expressions. The result is returned as a boolean expression that determines if the comparison is <literal>True</literal> (-1) or <literal>False</literal> (0)."
-msgstr ""
+msgstr "Операциите за сравняване сравняват два израза. Резултатът се връща като булев израз, който определя дали сравнението е <literal>True</literal> (-1) или <literal>False</literal> (0)."
 
 #. ikYGG
 #: 03110100.xhp
@@ -29480,7 +29480,7 @@ msgctxt ""
 "par_id3147573\n"
 "help.text"
 msgid "<emph>result</emph>: Boolean that specifies the result of the comparison (<literal>True</literal>, or <literal>False</literal>)"
-msgstr ""
+msgstr "<emph>result</emph>: булева стойност, която указва резултата от сравнението (<literal>True</literal> или <literal>False</literal>)."
 
 #. GYpPy
 #: 03110100.xhp
@@ -29489,7 +29489,7 @@ msgctxt ""
 "par_id3148686\n"
 "help.text"
 msgid "<emph>expression1, expression2</emph>: Any numeric values or strings that you want to compare."
-msgstr ""
+msgstr "<emph>expression1, expression2:</emph> числови стойности или низове, които да бъдат сравнени."
 
 #. VeMGA
 #: 03110100.xhp
@@ -29759,7 +29759,7 @@ msgctxt ""
 "bas_id91642668171601\n"
 "help.text"
 msgid "Chr[$](charcode As Integer) As String"
-msgstr ""
+msgstr "Chr[$](charcode As Integer) As String"
 
 #. 6bDTr
 #: 03120102.xhp
@@ -29768,7 +29768,7 @@ msgctxt ""
 "par_id3149295\n"
 "help.text"
 msgid "<emph>charcode</emph>: a numeric expression that represents a valid 8-bit ASCII value (0-255) or a 16-bit Unicode value. (To support expressions with a nominally negative argument like <emph>Chr(&H8000)</emph> in a backwards-compatible way, values in the range −32768 to −1 are internally mapped to the range 32768 to 65535.)"
-msgstr ""
+msgstr "<emph>charcode</emph>: числов израз, представящ валиден 8-битов код ASCII (0-255) или 16-битова стойност от Уникод. (За да се поддържат изрази с номинално отрицателен аргумент като <emph>Chr(&H8000)</emph> по съвместим назад начин, стойностите в интервала от −32768 до −1 вътрешно се съпоставят на интервала от 32768 до 65535.)"
 
 #. Xyjgr
 #: 03120102.xhp
@@ -29777,7 +29777,7 @@ msgctxt ""
 "par_id991552913928635\n"
 "help.text"
 msgid "When VBA compatibility mode is enabled (<link href=\"text/sbasic/shared/03103350.xhp\" name=\"vbasupport\"><literal>Option VBASupport 1</literal></link>), <literal>charcode</literal> is a numeric expression that represents a valid 8-bit ASCII value (0-255) only."
-msgstr ""
+msgstr "Когато е включен режимът за съвместимост с VBA (<link href=\"text/sbasic/shared/03103350.xhp\" name=\"vbasupport\"><literal>Option VBASupport 1</literal></link>), числовият израз <literal>charcode</literal> може да представя само валидна 8-битовa стойност от ASCII (0 – 255)."
 
 #. sw8rF
 #: 03120102.xhp
@@ -29813,7 +29813,7 @@ msgctxt ""
 "par_id3151380\n"
 "help.text"
 msgid "MsgBox \"A \" + Chr$(34) + \"short\" + Chr(34) + \" trip.\""
-msgstr ""
+msgstr "MsgBox \"Една \" + Chr$(34) + \"кратка\" + Chr(34) + \" разходка.\""
 
 #. iCsGw
 #: 03120102.xhp
@@ -29831,7 +29831,7 @@ msgctxt ""
 "bas_id481642668824226\n"
 "help.text"
 msgid "MsgBox Chr(charcode := 64) ' \"@\" sign"
-msgstr ""
+msgstr "MsgBox Chr(charcode := 64) ' Знак \"@\""
 
 #. bzZDz
 #: 03120103.xhp
@@ -29858,7 +29858,7 @@ msgctxt ""
 "hd_id3143272\n"
 "help.text"
 msgid "<variable id=\"Str_h1\"><link href=\"text/sbasic/shared/03120103.xhp\" name=\"Str Function\">Str Function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Str_h1\"><link href=\"text/sbasic/shared/03120103.xhp\" name=\"Str Function\">Функция Str</link></variable>"
 
 #. Z8JfH
 #: 03120103.xhp
@@ -29867,7 +29867,7 @@ msgctxt ""
 "par_id3155100\n"
 "help.text"
 msgid "The <literal>Str</literal> function converts the contents of variables into a string. It handles numeric values, dates, strings and currency values."
-msgstr ""
+msgstr "Функцията <literal>Str</literal> преобразува съдържанието на променливи в низ. Тя приема числови стойности, дати, низове и валутни стойности."
 
 #. Zxy4r
 #: 03120103.xhp
@@ -29876,7 +29876,7 @@ msgctxt ""
 "par_id3146958\n"
 "help.text"
 msgid "Positive numbers are preceded by a blank space. Negative numbers are preceded by a minus sign."
-msgstr ""
+msgstr "Пред положителните числа се поставя интервал. Пред отрицателните числа се поставя знак минус."
 
 #. A5Fyi
 #: 03120103.xhp
@@ -29885,7 +29885,7 @@ msgctxt ""
 "par_id331641237252390\n"
 "help.text"
 msgid "For numeric values the string returned by the <literal>Str</literal> function is locale-independent. Hence the dot is used as the decimal separator when needed."
-msgstr ""
+msgstr "За числови стойности низът, връщан от функцията <literal>Str</literal>, е независим от локала. Затова при необходимост се използва точка като разделител на дробната част."
 
 #. HjAty
 #: 03120103.xhp
@@ -29894,7 +29894,7 @@ msgctxt ""
 "par_id601641237849695\n"
 "help.text"
 msgid "If a string is passed as argument, it is returned without any changes."
-msgstr ""
+msgstr "Ако като аргумент е подаден низ, той се връща без промени."
 
 #. nfPG2
 #: 03120103.xhp
@@ -29903,7 +29903,7 @@ msgctxt ""
 "par_id231641251937406\n"
 "help.text"
 msgid "Dates are converted into locale-dependent strings."
-msgstr ""
+msgstr "Датите се преобразуват в зависими от локала низове."
 
 #. NEAum
 #: 03120103.xhp
@@ -29912,7 +29912,7 @@ msgctxt ""
 "par_id3149497\n"
 "help.text"
 msgid "Str (Value As Variant)"
-msgstr ""
+msgstr "Str (Value As Variant)"
 
 #. BPCDW
 #: 03120103.xhp
@@ -29921,7 +29921,7 @@ msgctxt ""
 "par_id3149178\n"
 "help.text"
 msgid "<emph>Value:</emph> Any value to be converted into a string."
-msgstr ""
+msgstr "<emph>Value:</emph> произволна стойност, която да бъде преобразувана в низ."
 
 #. hHwSa
 #: 03120103.xhp
@@ -29930,7 +29930,7 @@ msgctxt ""
 "par_id401641251970766\n"
 "help.text"
 msgid "Below are some numeric examples using the <literal>Str</literal> function."
-msgstr ""
+msgstr "По-долу следват няколко числови примера с функцията <literal>Str</literal>."
 
 #. viBgo
 #: 03120103.xhp
@@ -29939,7 +29939,7 @@ msgctxt ""
 "bas_id831641238784987\n"
 "help.text"
 msgid "' Note the blank space at the beginning of the returned strings"
-msgstr ""
+msgstr "' Обърнете внимание на интервала в началото на върнатите низове."
 
 #. A8Cbc
 #: 03120103.xhp
@@ -29948,7 +29948,7 @@ msgctxt ""
 "bas_id991641238830710\n"
 "help.text"
 msgid "' Strings passed as arguments are left unchanged"
-msgstr ""
+msgstr "' Низовете, подадени като аргументи, се оставят непроменени."
 
 #. kjJa8
 #: 03120103.xhp
@@ -29957,7 +29957,7 @@ msgctxt ""
 "par_id601641238259787\n"
 "help.text"
 msgid "Use the <literal>LTrim</literal> function to remove the blank space at the beginning of the returned string."
-msgstr ""
+msgstr "Функцията <literal>LTrim</literal> служи за премахване на интервалите в началото на връщания низ."
 
 #. FDMfX
 #: 03120103.xhp
@@ -29966,7 +29966,7 @@ msgctxt ""
 "par_id881641252036753\n"
 "help.text"
 msgid "The <literal>Str</literal> function can also handle <literal>Date</literal> variables."
-msgstr ""
+msgstr "Функцията <literal>Str</literal> може да обработва и променливи от тип <literal>Date</literal>."
 
 #. vYQmG
 #: 03120104.xhp
@@ -29993,7 +29993,7 @@ msgctxt ""
 "hd_id3149205\n"
 "help.text"
 msgid "<variable id=\"Val_h1\"><link href=\"text/sbasic/shared/03120104.xhp\" name=\"Val Function\">Val Function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Val_h1\"><link href=\"text/sbasic/shared/03120104.xhp\" name=\"Val Function\">Функция Val</link></variable>"
 
 #. VDZFx
 #: 03120104.xhp
@@ -30002,7 +30002,7 @@ msgctxt ""
 "par_id3153345\n"
 "help.text"
 msgid "Use the <literal>Val</literal> function to convert a string that represents a number into numeric data type."
-msgstr ""
+msgstr "Функцията <literal>Val</literal> преобразува низ, който представя число, в числов тип данни."
 
 #. aQ5EY
 #: 03120104.xhp
@@ -30011,7 +30011,7 @@ msgctxt ""
 "par_id281641235880765\n"
 "help.text"
 msgid "The string passed to the <literal>Val</literal> function is locale-independent. This means that commas are interpreted as thousands separators and a dot is used as the decimal separator."
-msgstr ""
+msgstr "Низът, подаван на функцията <literal>Val</literal>, е независим от локала. Това означава, че запетаите се интерпретират като разделители на хилядите, а точката се използва за разделител на дробната част."
 
 #. Rk6u2
 #: 03120104.xhp
@@ -30047,7 +30047,7 @@ msgctxt ""
 "par_id3149670\n"
 "help.text"
 msgid "If only part of the string contains numbers, only the first appropriate characters of the string are converted. If the string does not contain any numbers then <literal>Val</literal> returns 0."
-msgstr ""
+msgstr "Ако само част от низа съдържа числа, се преобразуват само първите подходящи знаци от низа. Ако низът не съдържа числа, <literal>Val</literal> връща 0."
 
 #. JLvDd
 #: 03120104.xhp

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-02-21 15:22+0100\n"
-"PO-Revision-Date: 2022-03-06 15:39+0000\n"
+"PO-Revision-Date: 2022-03-08 11:39+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/el/>\n"
 "Language: el\n"
@@ -30274,7 +30274,7 @@ msgctxt ""
 "par_id3149295\n"
 "help.text"
 msgid "<emph>charcode</emph>: Numeric expression that represent a valid 16 bit Unicode value (0-65535). (To support expressions with a nominally negative argument like <emph>ChrW(&H8000)</emph> in a backwards-compatible way, values in the range −32768 to −1 are internally mapped to the range 32768 to 65535.) An empty value returns error code 5. A value out of the range [0 to 65535] returns error code 6."
-msgstr ""
+msgstr "<emph>charcode</emph> (κωδικός χαρακτήρα): Αριθμητική έκφραση που αντιπροσωπεύει μια έγκυρη τιμή Unicode 16 bit (0-65535). (Για την υποστήριξη εκφράσεων με ονομαστικά αρνητικό όρισμα όπως <emph>ChrW(&H8000)</emph> με τρόπο συμβατό προς τα πίσω, οι τιμές στην περιοχή −32768 έως −1 αντιστοιχίζονται εσωτερικά στην περιοχή 32768 έως 65535.)Μια κενή τιμή επιστρέφει τον κωδικό σφάλματος 5. Μια τιμή εκτός της περιοχής [0 έως 65535] επιστρέφει τον κωδικό σφάλματος 6."
 
 #. 8DF8a
 #: 03120112.xhp
@@ -30292,7 +30292,7 @@ msgctxt ""
 "par_id3151380\n"
 "help.text"
 msgid "MsgBox \"From \" + ChrW(913) + \" to \" + ChrW(937)"
-msgstr ""
+msgstr "MsgBox \"Από \" + ChrW(913) + \" έως \" + ChrW(937)"
 
 #. zPJDa
 #: 03120112.xhp
@@ -30310,7 +30310,7 @@ msgctxt ""
 "bas_id181642669411658\n"
 "help.text"
 msgid "MsgBox ChrW(charcode := 116) ' \"t\" lowercase T letter"
-msgstr ""
+msgstr "MsgBox ChrW(charcode := 116) ' \"t\" πεζό γράμμα T"
 
 #. E7Eoi
 #: 03120200.xhp
@@ -30517,7 +30517,7 @@ msgctxt ""
 "par_id3149178\n"
 "help.text"
 msgid "The following functions edit, format, and align the contents of strings. Use the <literal>&</literal> or <literal>+</literal> operators to concatenate strings."
-msgstr ""
+msgstr "Οι παρακάτω συναρτήσεις επεξεργάζουν, μορφοποιούν και ευθυγραμμίζουν τα περιεχόμενα των συμβολοσειρών. Χρησιμοποιήστε τους τελεστές <literal>&</literal> ή <literal>+</literal> για να συνδέσουν τις συμβολοσειρές."
 
 #. PG2TT
 #: 03120300.xhp
@@ -30526,7 +30526,7 @@ msgctxt ""
 "bm_id3150669\n"
 "help.text"
 msgid "<bookmark_value>ampersand symbol; in string handling</bookmark_value>  <bookmark_value>Operators;concatenation (& or +)</bookmark_value>  <bookmark_value>\"& or +\" concatenation (strings)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>σύμβολο εμπορικού και; στο χειρισμό συμβολοσειρών</bookmark_value> <bookmark_value>Τελεστές;σύνδεση (& ή +)</bookmark_value> <bookmark_value>Σύνδεση \"& ή +\" (συμβολοσειρές)</bookmark_value>"
 
 #. hAn8q
 #: 03120301.xhp
@@ -31804,7 +31804,7 @@ msgctxt ""
 "par_id3148947\n"
 "help.text"
 msgid "<emph>filename:</emph> A file name as string."
-msgstr ""
+msgstr "<emph>όνομα αρχείου:</emph> (filename) Ένα όνομα αρχείου ως συμβολοσειρά."
 
 #. Fgfbo
 #: 03120313.xhp
@@ -31858,7 +31858,7 @@ msgctxt ""
 "par_id3156023\n"
 "help.text"
 msgid "<emph>filename:</emph> A file name as a string."
-msgstr ""
+msgstr "<emph>όνομα αρχείου:</emph> (filename) Ένα όνομα αρχείου ως συμβολοσειρά."
 
 #. b5PSp
 #: 03120314.xhp
@@ -32524,7 +32524,7 @@ msgctxt ""
 "par_id31541255547\n"
 "help.text"
 msgid "iPos = InStrRev(sInput,\"the\",10,1) ' Returns 1, search is case-insensitive"
-msgstr ""
+msgstr "iPos = InStrRev(sInput,\"the\",10,1) ' Επιστρέφει 1, η αναζήτηση δεν κάνει διάκριση πεζών-κεφαλαίων"
 
 #. Yxhru
 #: 03120411.xhp
@@ -32533,7 +32533,7 @@ msgctxt ""
 "par_id05192017032\n"
 "help.text"
 msgid "iPos = InStrRev(sInput,\"the\",10,0) ' Returns 0, search is case-sensitive"
-msgstr ""
+msgstr "iPos = InStrRev(sInput,\"the\",10,0) ' Επιστρέφει 0, η αναζήτηση γίνεται με διάκριση πεζών-κεφαλαίων"
 
 #. YWCD7
 #: 03120412.xhp
@@ -33766,7 +33766,7 @@ msgctxt ""
 "par_id991572457387308\n"
 "help.text"
 msgid "To manage personal or shared library containers (<emph>Application Macros</emph> or <emph>My Macros</emph>) from within a document, use the <literal>GlobalScope</literal> specifier."
-msgstr ""
+msgstr "Για να διαχειριστείτε προσωπικούς ή κοινόχρηστους περιέκτες βιβλιοθήκης (<emph>Μακροεντολές εφαρμογής</emph> ή <emph>Οι μακροεντολές μου</emph>) μέσα από ένα έγγραφο, χρησιμοποιήστε το προσδιοριστικό <literal>GlobalScope</literal>."
 
 #. Jz8ET
 #: 03131900.xhp
@@ -33820,7 +33820,7 @@ msgctxt ""
 "par_id3150543\n"
 "help.text"
 msgid "<literal>BasicLibraries</literal> and <literal>DialogLibraries</literal> containers exist at application level and within every document. Document's library containers do not need the <literal>GlobalScope</literal> specifier to be managed. If you want to call a global library container (located in <emph>Application Macros</emph> or <emph>My Macros</emph>) from within a document, you must use the <literal>GlobalScope</literal> specifier."
-msgstr ""
+msgstr "Οι περιέκτες <literal>BasicLibraries</literal> και <literal>DialogLibraries</literal> υπάρχουν σε επίπεδο εφαρμογής και σε κάθε έγγραφο. Οι περιέκτες βιβλιοθήκης του εγγράφου δεν χρειάζονται το προσδιοριστικό <literal>GlobalScope</literal> για διαχείριση. Εάν θέλετε να καλέσετε έναν περιέκτη καθολικής βιβλιοθήκης (που βρίσκεται στις <emph>Μακροεντολές εφαρμογής</emph> ή στο <emph>Οι μακροεντολές μου</emph>) μέσα από ένα έγγραφο, πρέπει να χρησιμοποιήσετε το προσδιοριστικό <literal>GlobalScope</literal> ."
 
 #. BDRji
 #: 03131900.xhp
@@ -37249,7 +37249,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "CallByName Function"
-msgstr ""
+msgstr "Συνάρτηση CallByName"
 
 #. tbCrP
 #: CallByName.xhp
@@ -37258,7 +37258,7 @@ msgctxt ""
 "hd_id3150669\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/CallByName.xhp\">CallByName Function</link>"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/CallByName.xhp\">Συνάρτηση CallByName</link>"
 
 #. 7EWyG
 #: CallByName.xhp
@@ -37267,7 +37267,7 @@ msgctxt ""
 "par_id3149670\n"
 "help.text"
 msgid "Invokes a subroutine by its string name."
-msgstr ""
+msgstr "Καλεί μια υπορουτίνα με το όνομα της συμβολοσειράς της."
 
 #. GSJB7
 #: CallByName.xhp
@@ -37276,7 +37276,7 @@ msgctxt ""
 "bm_id3150669\n"
 "help.text"
 msgid "<bookmark_value>CallByName function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Συνάρτηση CallByName</bookmark_value>"
 
 #. kJE7K
 #: CallByName.xhp
@@ -37285,7 +37285,7 @@ msgctxt ""
 "par_id3153360\n"
 "help.text"
 msgid "CallByName(object As Object, ProcName As String, CallType As Integer [,arg0 [,arg1 …]])"
-msgstr ""
+msgstr "CallByName(object As Object, ProcName As String, CallType As Integer [,arg0 [,arg1 …]])"
 
 #. vF2Bi
 #: CallByName.xhp
@@ -37294,7 +37294,7 @@ msgctxt ""
 "par_id3154141\n"
 "help.text"
 msgid "<emph>result</emph>: An optional variable that contains the result of the called method or property."
-msgstr ""
+msgstr "<emph>αποτέλεσμα</emph> (result): Μια προαιρετική μεταβλητή που περιέχει το αποτέλεσμα της καλούμενης μεθόδου ή ιδιότητας."
 
 #. 6Hx3V
 #: CallByName.xhp
@@ -37303,7 +37303,7 @@ msgctxt ""
 "par_id3150448\n"
 "help.text"
 msgid "<emph>object</emph>: A Basic module, <link href=\"text/sbasic/shared/classmodule.xhp\" name=\"ClassModule\">ClassModule</link> instance or UNO service holding properties or methods."
-msgstr ""
+msgstr "<emph>αντικείμενο</emph> (object): Μια λειτουργική μονάδα Basic, στιγμιότυπο <link href=\"text/sbasic/shared/classmodule.xhp\" name=\"ClassModule\">ClassModule</link> ή ιδιότητες ή μέθοδοι διατήρησης υπηρεσίας UNO."
 
 #. EiVq3
 #: CallByName.xhp
@@ -37312,7 +37312,7 @@ msgctxt ""
 "par_id3150449\n"
 "help.text"
 msgid "<emph>ProcName</emph>: The <literal>Function</literal>, <literal>Sub</literal> or <literal>Property</literal> that is being called."
-msgstr ""
+msgstr "<emph>ProcName</emph>: Η <literal>Function</literal>, <literal>Sub</literal> ή <literal>Property</literal> που καλείται."
 
 #. YnBZr
 #: CallByName.xhp
@@ -37321,7 +37321,7 @@ msgctxt ""
 "par_id3150450\n"
 "help.text"
 msgid "<emph>CallType</emph>: The type of performed action such as Get, Let, Method and Set."
-msgstr ""
+msgstr "<emph>Τύπος κλήσης</emph> (Τύπος κλήσης): Ο τύπος της ενέργειας που εκτελείται όπως Get, Let, Method και Set."
 
 #. PpyR8
 #: CallByName.xhp
@@ -37330,7 +37330,7 @@ msgctxt ""
 "par_id3150451\n"
 "help.text"
 msgid "<emph>arg0, arg1 …</emph>: The <literal>Function</literal> optional parameters given as positional arguments."
-msgstr ""
+msgstr "<emph>arg0, arg1 …</emph>: Οι προαιρετικές παράμετροι <literal>Function</literal> δίνονται ως ορίσματα θέσης."
 
 #. J4tFe
 #: CallByName.xhp
@@ -37339,7 +37339,7 @@ msgctxt ""
 "par_id951642689912087\n"
 "help.text"
 msgid "Arguments are provided in the exact same order defined in the method signature. Keyword arguments are not possible."
-msgstr ""
+msgstr "Τα ορίσματα παρέχονται με την ίδια ακριβώς σειρά που ορίζεται στην υπογραφή της μεθόδου. Τα ορίσματα λέξεων-κλειδιών δεν είναι δυνατά."
 
 #. EYBNE
 #: CallByName.xhp
@@ -37348,7 +37348,7 @@ msgctxt ""
 "par_id331644505028463\n"
 "help.text"
 msgid "Value"
-msgstr ""
+msgstr "Τιμή"
 
 #. arGjh
 #: CallByName.xhp
@@ -37357,7 +37357,7 @@ msgctxt ""
 "par_id541644505028463\n"
 "help.text"
 msgid "CallType Description"
-msgstr ""
+msgstr "Περιγραφή CallType (τύπου κλήσης)"
 
 #. 34akS
 #: CallByName.xhp
@@ -37366,7 +37366,7 @@ msgctxt ""
 "par_id661644505028464\n"
 "help.text"
 msgid "<emph>Method</emph>: Calls a procedure as a function or a subroutine."
-msgstr ""
+msgstr "<emph>Method</emph> (Μέθοδος): Καλεί μια διαδικασία ως συνάρτηση ή υπορουτίνα."
 
 #. vC2DV
 #: CallByName.xhp
@@ -37375,7 +37375,7 @@ msgctxt ""
 "par_id661644505028465\n"
 "help.text"
 msgid "<emph>Get</emph>: Reads a property or variable content."
-msgstr ""
+msgstr "<emph>Get</emph> (Λήψη): Διαβάζει μια ιδιότητα ή περιεχόμενο μεταβλητής."
 
 #. 65JuB
 #: CallByName.xhp
@@ -37384,7 +37384,7 @@ msgctxt ""
 "par_id661644505028466\n"
 "help.text"
 msgid "<emph>Let</emph>: Assigns a content to a <literal>Property</literal> or variable."
-msgstr ""
+msgstr "<emph>Let</emph> (άδεια): Εκχωρεί ένα περιεχόμενο σε μια <literal>Property</literal> (ιδιότητα) ή μεταβλητή."
 
 #. AGBZb
 #: CallByName.xhp
@@ -37393,7 +37393,7 @@ msgctxt ""
 "par_id661644505028467\n"
 "help.text"
 msgid "<emph>Set</emph>: Assigns a reference value to an <literal>Object</literal> or <literal>Variant</literal> variable."
-msgstr ""
+msgstr "<emph>Set</emph> (ορισμός): Εκχωρεί μια τιμή αναφοράς σε μια μεταβλητή <literal>Object</literal> (αντικειμένου) ή <literal>Variant</literal> (παραλλαγής)."
 
 #. EMgkf
 #: CallByName.xhp
@@ -37402,7 +37402,7 @@ msgctxt ""
 "par_id661644588401903\n"
 "help.text"
 msgid "A <literal>Calc.Maths</literal> module contains a <literal>Multiply</literal> function expecting a varying list of numbers."
-msgstr ""
+msgstr "Μια λειτουργική μονάδα <literal>Calc.Maths</literal> περιέχει μια συνάρτηση <literal>Multiply</literal> (πολλαπλασιασμού)αναμένοντας έναν διαφορετικό κατάλογο αριθμών."
 
 #. e4GEe
 #: CallByName.xhp
@@ -37411,7 +37411,7 @@ msgctxt ""
 "par_id711644588403951\n"
 "help.text"
 msgid "<literal>ScriptForge.Platform.Architecture</literal> information is retrieved."
-msgstr ""
+msgstr "Οι πληροφορίες <literal>ScriptForge.Platform.Architecture</literal> ανακτώνται."
 
 #. WR7MJ
 #: CallByName.xhp
@@ -37420,7 +37420,7 @@ msgctxt ""
 "par_id651644588404943\n"
 "help.text"
 msgid "<literal>DisplayDirectory</literal> property of <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1ui_1_1dialogs_1_1FilePicker-members.html\" name=\"FilePicker\">com.sun.star.ui.dialogs.FilePicker</link> UNO service is assigned a value, its content is read twice."
-msgstr ""
+msgstr "Στην ιδιότητα <literal>DisplayDirectory</literal> της <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1ui_1_1dialogs_1_1FilePicker-members.html\" name=\"FilePicker\">com.sun.star.ui.dialogs.FilePicker</link> υπηρεσίας UNO εκχωρείται μια τιμή, το περιεχόμενό της διαβάζεται δύο φορές."
 
 #. 3DsDt
 #: CallByName.xhp
@@ -37429,7 +37429,7 @@ msgctxt ""
 "bas_id791644586147817\n"
 "help.text"
 msgid "BasicLibraries.loadLibrary(\"Calc\") ' Calc.Maths user library.module"
-msgstr ""
+msgstr "BasicLibraries.loadLibrary(\"Calc\") ' Calc.Maths user library.module"
 
 #. HBeDy
 #: CallByName.xhp
@@ -37438,7 +37438,7 @@ msgctxt ""
 "hd_id971644589733247\n"
 "help.text"
 msgid "Calc.Maths module"
-msgstr ""
+msgstr "Λειτουργική μονάδα Calc.Maths"
 
 #. jkaab
 #: CallByName.xhp
@@ -37447,7 +37447,7 @@ msgctxt ""
 "bas_id811644589423326\n"
 "help.text"
 msgid "Option Compatible ' Calc.Maths module"
-msgstr ""
+msgstr "Option Compatible ' λειτουργική μονάδα Calc.Maths"
 
 #. xbQAQ
 #: CallByName.xhp
@@ -37456,7 +37456,7 @@ msgctxt ""
 "bas_id661644589424096\n"
 "help.text"
 msgid "''' Multiply a variable list of numbers '''"
-msgstr ""
+msgstr "''' Πολλαπλασιασμός ενός μεταβλητού καταλόγου αριθμών '''"
 
 #. Ug7AF
 #: Compiler_options.xhp
@@ -38176,7 +38176,7 @@ msgctxt ""
 "par_id241629988142878\n"
 "help.text"
 msgid "The macro below presents an example of how the <literal>MyVlook</literal> function can be called. It first creates a 5-by-2 data array and then calls the function <literal>MyVlook</literal> and shows the returned value using <literal>MsgBox</literal>."
-msgstr ""
+msgstr "Η παρακάτω μακροεντολή παρουσιάζει ένα παράδειγμα για το πώς μπορεί να κληθεί η συνάρτηση <literal>MyVlook</literal>. Αρχικά δημιουργεί έναν πίνακα δεδομένων 5 επί 2 και, στη συνέχεια, καλεί τη συνάρτηση <literal>MyVlook</literal> και εμφανίζει την επιστρεφόμενη τιμή χρησιμοποιώντας το <literal>MsgBox</literal>."
 
 #. XincG
 #: calc_functions.xhp
