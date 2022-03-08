@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-02-18 12:17+0100\n"
-"PO-Revision-Date: 2022-03-08 11:39+0000\n"
+"PO-Revision-Date: 2022-03-08 21:16+0000\n"
 "Last-Translator: SteenRønnow <steen.roennow@mail.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/da/>\n"
 "Language: da\n"
@@ -64356,7 +64356,7 @@ msgctxt ""
 "par_id341641927560587\n"
 "help.text"
 msgid "<input>ROUNDDOWN(Number [; Count])</input>"
-msgstr ""
+msgstr "<input>RUND.NED(Tal [; Antal])</input>"
 
 #. zMhAG
 #: func_rounddown.xhp
@@ -64365,7 +64365,7 @@ msgctxt ""
 "par_id11641927688319\n"
 "help.text"
 msgid "<emph>Number:</emph> The number to be rounded down."
-msgstr ""
+msgstr "<emph>Tal:</emph> Det tal, der skal rundes ned."
 
 #. CkVAE
 #: func_rounddown.xhp
@@ -64374,7 +64374,7 @@ msgctxt ""
 "par_id861641927715672\n"
 "help.text"
 msgid "<emph>Count:</emph> Optional parameter that defines the number of decimal places to be kept. The default value is 0 (zero)."
-msgstr ""
+msgstr "<emph>Antal:</emph>Valgfri parameter, der definerer det antal decimalpladser, der skal beholdes. Standardværdien er 0 (nul)."
 
 #. rJEFs
 #: func_rounddown.xhp
@@ -64383,7 +64383,7 @@ msgctxt ""
 "par_id911641928545976\n"
 "help.text"
 msgid "Use negative values for <emph>Count</emph> to round the integer part of the original <emph>Number</emph>. For example, -1 will round down the first integer number before the decimal separator, -2 will round down the two integer numbers before the decimal separator, and so forth."
-msgstr ""
+msgstr "Brug negative værdier i <emph>Antal</emph> for at afrunde heltalsdelen af det oprindelige <emph>Tal</emph>. For eksempel vil -1 nedrunde det første heltal før decimalskilletegnet, -2 vil nedrunde de to heltalscifre før decimalskilletegnet og så videre."
 
 #. WfEbN
 #: func_rounddown.xhp
@@ -64392,7 +64392,7 @@ msgctxt ""
 "par_id181641929609906\n"
 "help.text"
 msgid "In %PRODUCTNAME the <emph>Count</emph> parameter is optional whereas in MS Excel this parameter is mandatory. When an ODS file contains a call to ROUNDDOWN without the <emph>Count</emph> parameter and the file is exported to XLS or XLSX formats, the missing argument will automatically be added with value zero to maintain compatibility."
-msgstr ""
+msgstr "I %PRODUCTNAME er parameteren <emph>Antal</emph> er valgfri, medens denne parameter er obligatorisk i MS Excel. Når ODS-fil indeholder et kald til RUND.NED uden parameteren <emph>Antal</emph> og filen eksporteres til XLS eller XLSX-formatet, bliver det manglende argumet automatisk tilføjet med værdien nul for at opretholde kompatibiliteten."
 
 #. BCmT8
 #: func_rounddown.xhp
@@ -64419,7 +64419,7 @@ msgctxt ""
 "par_id171641928456743\n"
 "help.text"
 msgid "<input>=ROUNDDOWN(0.664,2)</input> returns 0.66."
-msgstr ""
+msgstr "<input>=RUND.NED(0,664;2)</input> returnerer 0,66."
 
 #. e4fx9
 #: func_rounddown.xhp
@@ -64429,6 +64429,8 @@ msgctxt ""
 "help.text"
 msgid "<input>=ROUNDDOWN(214.2,-1)</input> returns 210. Note the negative value for <emph>Count</emph>, which causes the first integer value before the decimal separator to be rounded towards zero."
 msgstr ""
+"<input>=RUND.NED(214,2;-1)</input> returnerer 210. Bemærk <emph>Antal</emph>s negative værdi, \n"
+"som bevirker, at den første heltalsværdi foran decimalskilletegnet bliver afrundet mod nul."
 
 #. E7heY
 #: func_roundsig.xhp
@@ -64455,7 +64457,7 @@ msgctxt ""
 "hd_id351519154702177\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/func_roundsig.xhp\" name=\"function roundsig\">ROUNDSIG</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/func_roundsig.xhp\" name=\"function roundsig\">ROUNDSIG</link>"
 
 #. jJKBA
 #: func_roundsig.xhp
@@ -65553,7 +65555,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TRUNC function"
-msgstr ""
+msgstr "AFKORT (funktion)"
 
 #. UkBEB
 #: func_trunc.xhp
@@ -65562,7 +65564,7 @@ msgctxt ""
 "bm_id3156384\n"
 "help.text"
 msgid "<bookmark_value>TRUNC function</bookmark_value>    <bookmark_value>decimal places;cutting off</bookmark_value>    <bookmark_value>numbers;truncate</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>AFKORT funktion</bookmark_value>    <bookmark_value>decimalpladser;afskære</bookmark_value>    <bookmark_value>tal;afkorte</bookmark_value>"
 
 #. CQ5Zg
 #: func_trunc.xhp
@@ -65571,7 +65573,7 @@ msgctxt ""
 "hd_id601641846107898\n"
 "help.text"
 msgid "<variable id=\"trunc_h1\"><link href=\"text/scalc/01/func_trunc.xhp\" name=\"trunc_link\">TRUNC function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"trunc_h1\"><link href=\"text/scalc/01/func_trunc.xhp\" name=\"trunc_link\">AFKORT (funktion)</link></variable>"
 
 #. dkTrh
 #: func_trunc.xhp
@@ -65580,7 +65582,7 @@ msgctxt ""
 "par_id841641927277474\n"
 "help.text"
 msgid "Truncates a number while keeping a specified number of decimal digits."
-msgstr ""
+msgstr "Afkortere et tal, mens den beholder et angiver antal decimalcifre."
 
 #. Hxed7
 #: func_trunc.xhp
@@ -65589,7 +65591,7 @@ msgctxt ""
 "par_id701642530512560\n"
 "help.text"
 msgid "This function is equivalent to the <link href=\"text/scalc/01/func_rounddown.xhp\" name=\"ROUNDDOWN_link\">ROUNDDOWN function</link>."
-msgstr ""
+msgstr "Denne funktion svarer til <link href=\"text/scalc/01/func_rounddown.xhp\" name=\"ROUNDDOWN_link\">RUND.NED (funktionen)</link>."
 
 #. oZAWU
 #: func_trunc.xhp
@@ -65598,7 +65600,7 @@ msgctxt ""
 "par_id321641927458888\n"
 "help.text"
 msgid "The rounding method used by this function is known as <emph>rounding towards zero</emph>. The resulting number will always be smaller than or equal to the original number."
-msgstr ""
+msgstr "Den afrundingsmetode, der bruges af denne funktion er kendt som <emph>afrunding mod nul</emph>. Det resulterende tal er altid mindre end elle lig med det oprindelige tal."
 
 #. SqCQv
 #: func_trunc.xhp
@@ -65607,7 +65609,7 @@ msgctxt ""
 "par_id341641927560587\n"
 "help.text"
 msgid "<input>TRUNC(Number [; Count])</input>"
-msgstr ""
+msgstr "<input>AFKORT(Tal [; Antal])</input>"
 
 #. RryDW
 #: func_trunc.xhp
@@ -65616,7 +65618,7 @@ msgctxt ""
 "par_id11641927688319\n"
 "help.text"
 msgid "<emph>Number:</emph> The number to be truncated."
-msgstr ""
+msgstr "<emph>Tal:</emph> Det tal, der skal afkortes."
 
 #. Hg6mt
 #: func_trunc.xhp
@@ -65625,7 +65627,7 @@ msgctxt ""
 "par_id861641927715672\n"
 "help.text"
 msgid "<emph>Count:</emph> Optional parameter that defines the number of decimal places to be kept. The default value is 0 (zero)."
-msgstr ""
+msgstr "<emph>Antal:</emph> Valgfri parameter, der definerer antallet af decimalpladser, der skal holdes. Standardværdien er 0 (nul)."
 
 #. HKrSh
 #: func_trunc.xhp
@@ -65634,7 +65636,7 @@ msgctxt ""
 "par_id911641928545976\n"
 "help.text"
 msgid "Use negative values for <emph>Count</emph> to round the integer part of the original <emph>Number</emph>. For example, -1 will round down the first integer number before the decimal separator, -2 will round down the two integer numbers before the decimal separator, and so forth."
-msgstr ""
+msgstr "Brug negative værdier i <emph>Antal</emph> for at afrunde heltalsdelen af det oprindelige <emph>Tal</emph>. For eksempel vil -1 runde ned til det første heltalsciffer før decimalskilletegnet, -2 vil runde de to heltalscifre før decimalskilletegnet ned og så videre."
 
 #. EJFZd
 #: func_trunc.xhp
@@ -65643,7 +65645,7 @@ msgctxt ""
 "par_id901641928192870\n"
 "help.text"
 msgid "<input>=TRUNC(21.89)</input> returns 21. Note that this example uses the default value for <emph>Count</emph> which is 0."
-msgstr ""
+msgstr "<input>=AFKORT(21,89)</input> returnerer 21. Bemærk, at dettte eksempel benytter standardværdien for <emph>Antal</emph>, som er 0."
 
 #. ccEGa
 #: func_trunc.xhp
@@ -65652,7 +65654,7 @@ msgctxt ""
 "par_id901641928192110\n"
 "help.text"
 msgid "<input>=TRUNC(103.37,1)</input> returns 103.3."
-msgstr ""
+msgstr "<input>=AFKORT(103,37;1)</input> returns 103,3."
 
 #. jJvgo
 #: func_trunc.xhp
@@ -65661,7 +65663,7 @@ msgctxt ""
 "par_id171641928456743\n"
 "help.text"
 msgid "<input>=TRUNC(0.664,2)</input> returns 0.66."
-msgstr ""
+msgstr "<input>=AFKORT(0,664;2)</input> returnerer 0,66."
 
 #. Qf3R9
 #: func_trunc.xhp
@@ -65670,7 +65672,7 @@ msgctxt ""
 "par_id641641928712287\n"
 "help.text"
 msgid "<input>=TRUNC(214.2,-1)</input> returns 210. Note the negative value for <emph>Count</emph>, which causes the first integer value before the decimal separator to be rounded towards zero."
-msgstr ""
+msgstr "<input>=AFKORT(214,2;-1)</input> returnerer 210. Bemærk den negative værdi af <emph>Antal</emph>, som bevirker, at det første heltalsciffer foran decimalskilletegnet afrundes mod nul."
 
 #. w86Dm
 #: func_value.xhp
@@ -67317,7 +67319,7 @@ msgctxt ""
 "par_id240920171007389295\n"
 "help.text"
 msgid "Choose <menuitem>Data – Streams</menuitem>"
-msgstr ""
+msgstr "Vælg <menuitem>Data ▸ Strømme</menuitem>"
 
 #. aV8Lc
 #: live_data_stream.xhp
@@ -67326,7 +67328,7 @@ msgctxt ""
 "par_id221641995264796\n"
 "help.text"
 msgid "Data streaming is the continuous flow of data generated by various sources. In %PRODUCTNAME Calc, data streams can be processed, stored, analyzed, and acted upon as it's generated in real-time."
-msgstr ""
+msgstr "Datastreaming er en sammenhængende strøm af data genereret af forskellige kilde. I %PRODUCTNAME Calc kan datastrømme bearbejdes, lagres, analyseres og reageres på, da det genereres i realtid."
 
 #. KANFG
 #: live_data_stream.xhp
@@ -67335,7 +67337,7 @@ msgctxt ""
 "par_id831641996045238\n"
 "help.text"
 msgid "Some real-life examples of streaming data include use cases in every industry, including real-time stock trades, up-to-the-minute retail inventory management, social media feeds, multiplayer game interactions, and ride-sharing apps."
-msgstr ""
+msgstr "Nogle eksempler på datastreaming fra det virkelige liv inddrager brugsprogrammer fra flere brancher, herunder realtids børshandel, detaljeret beholdningsstatistik ajourført op til minuttet, feeds fra sociale medier, interaktive multiplayer-spil og programmer til kørselsdeling."
 
 #. sWHpE
 #: live_data_stream.xhp
@@ -67344,7 +67346,7 @@ msgctxt ""
 "hd_id791641995257145\n"
 "help.text"
 msgid "Source stream"
-msgstr ""
+msgstr "Kildestrøm"
 
 #. dyVdA
 #: live_data_stream.xhp
@@ -67353,7 +67355,7 @@ msgctxt ""
 "hd_id931641998122172\n"
 "help.text"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. oYvgF
 #: live_data_stream.xhp
@@ -67362,7 +67364,7 @@ msgctxt ""
 "par_id31641995269740\n"
 "help.text"
 msgid "URL of the source document in the local file system or internet."
-msgstr ""
+msgstr "Kildedokumentets URL i det lokale filsystem eller på internettet."
 
 #. 3Bdbh
 #: live_data_stream.xhp
@@ -67371,7 +67373,7 @@ msgctxt ""
 "hd_id811641996480534\n"
 "help.text"
 msgid "Interpret stream data as"
-msgstr ""
+msgstr "Fortolk datastrømme som"
 
 #. QpvTc
 #: live_data_stream.xhp
@@ -67389,7 +67391,7 @@ msgctxt ""
 "par_id441641996322078\n"
 "help.text"
 msgid "<emph>address,value</emph>:"
-msgstr ""
+msgstr "<emph>adresse,værdi</emph>:"
 
 #. JYyrF
 #: live_data_stream.xhp
@@ -67398,7 +67400,7 @@ msgctxt ""
 "hd_id241641998151807\n"
 "help.text"
 msgid "Empty lines trigger UI refresh"
-msgstr ""
+msgstr "Tomme linjer udløser opfiskning af brugerfladen"
 
 #. CEui4
 #: live_data_stream.xhp
@@ -67407,7 +67409,7 @@ msgctxt ""
 "hd_id341641995330350\n"
 "help.text"
 msgid "When new data arrives"
-msgstr ""
+msgstr "Når der kommer nye data"
 
 #. snU6R
 #: live_data_stream.xhp
@@ -67416,7 +67418,7 @@ msgctxt ""
 "par_id731641995339462\n"
 "help.text"
 msgid "There are three features of this option:"
-msgstr ""
+msgstr "Der er tre funktionaliter i denne indstilling:"
 
 #. GLs5t
 #: live_data_stream.xhp
@@ -67425,7 +67427,7 @@ msgctxt ""
 "par_id471641995370002\n"
 "help.text"
 msgid "<emph>Move existing data down</emph>: the existing data is moved down in index and the empty space is filled by arriving data. In short, we deal in fix range of indexes."
-msgstr ""
+msgstr "<emph>Flyt eksisterende data ned</emph>: de eksisterende data flyttes ned i indekset og den tomme plads udfyldes med ankommende data. Kort og godt vi beskæftiger vi med at rette indeksområder."
 
 #. nfgHU
 #: live_data_stream.xhp
@@ -67434,7 +67436,7 @@ msgctxt ""
 "par_id841641995386510\n"
 "help.text"
 msgid "<emph>Move the range down</emph>: the arriving data is appended at the end of existing data and range of indexes to be processed is shifted."
-msgstr ""
+msgstr "<emph>Flyt området ned</emph>:de ankommende data tilføjes til sidst i de de eksisterende data og og det indeksområde, der skal bearbejdes, ændres."
 
 #. 4zg6F
 #: live_data_stream.xhp
@@ -67443,7 +67445,7 @@ msgctxt ""
 "par_id1001641996559358\n"
 "help.text"
 msgid "<emph>Overwrite existing data</emph>: the arriving data overrides the existing data."
-msgstr ""
+msgstr "<emph>Overskriv eksisterende data</emph>: de ankommende data tilsidesætter de eksisterende data."
 
 #. ZHiEZ
 #: live_data_stream.xhp
@@ -67452,7 +67454,7 @@ msgctxt ""
 "hd_id121641995404922\n"
 "help.text"
 msgid "Maximal Amount of Rows"
-msgstr ""
+msgstr "Højeste antal rækker"
 
 #. GTkWu
 #: live_data_stream.xhp
@@ -67461,7 +67463,7 @@ msgctxt ""
 "par_id961641995414472\n"
 "help.text"
 msgid "Limit the maximum numbers of rows to a specified value or leave undefined, but limited to the %PRODUCTNAME Calc row limit."
-msgstr ""
+msgstr "Begræns det højeste antal rækker til en angivet værdi eller efterlad det udefineret, men begrænset til %PRODUCTNAME Calcs begrænsning af rækker."
 
 #. k7H5Y
 #: solver.xhp
