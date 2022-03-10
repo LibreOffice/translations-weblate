@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-11-03 12:48+0100\n"
-"PO-Revision-Date: 2022-03-09 03:19+0000\n"
+"PO-Revision-Date: 2022-03-10 18:39+0000\n"
 "Last-Translator: Secară Cristian <cristi@secarica.ro>\n"
 "Language-Team: Romanian <https://translations.documentfoundation.org/projects/libo_ui-7-2/swmessages/ro/>\n"
 "Language: ro\n"
@@ -7097,6 +7097,9 @@ msgid ""
 "\n"
 "Do you want to enter email account information now?"
 msgstr ""
+"Pentru a putea trimite documente de îmbinare a corespondenței prin e-mail, %PRODUCTNAME necesită informații despre contul de e-mail care urmează să fie utilizat.\n"
+"\n"
+"Vreți să introduceți informațiile despre contul de e-mail acum?"
 
 #. r9BVg
 #: sw/inc/strings.hrc:867
@@ -7154,10 +7157,9 @@ msgstr "În~cheiere"
 
 #. L5FEG
 #: sw/inc/strings.hrc:877
-#, fuzzy
 msgctxt "ST_MMWTITLE"
 msgid "Mail Merge Wizard"
-msgstr "Asistentul pentru corespondența în serie"
+msgstr "Asistent pentru îmbinarea corespondenței"
 
 #. CEhZj
 #: sw/inc/strings.hrc:879
@@ -7368,7 +7370,7 @@ msgstr "Inserează referință"
 #: sw/inc/strings.hrc:921
 msgctxt "STR_DBFLD"
 msgid "Mail merge fields"
-msgstr "Câmpuri pentru corespondența în serie"
+msgstr "Câmpuri pentru îmbinarea corespondenței"
 
 #. JP2DU
 #: sw/inc/strings.hrc:922
@@ -9648,7 +9650,7 @@ msgstr "Nu s-au putut fuziona documentele."
 #: sw/inc/strings.hrc:1357
 msgctxt "STR_NO_BASE_FOR_MERGE"
 msgid "%PRODUCTNAME Base component is absent, and it is required to use Mail Merge."
-msgstr ""
+msgstr "Componenta %PRODUCTNAME Base este absentă, aceasta fiind necesară pentru a utiliza îmbinarea corespondenței."
 
 #. wcuf4
 #: sw/inc/strings.hrc:1358
@@ -12671,7 +12673,7 @@ msgstr "Informații despre adresă"
 #: sw/uiconfig/swriter/ui/createaddresslist.ui:161
 msgctxt "createaddresslist|extended_tip|CONTAINER"
 msgid "Enter or edit the field contents for each mail merge recipient."
-msgstr ""
+msgstr "Introduceți sau editați conținutul câmpului pentru fiecare destinatar de îmbinare a corespondenței."
 
 #. UKKXX
 #: sw/uiconfig/swriter/ui/createaddresslist.ui:185
@@ -18556,7 +18558,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mailmerge.ui:16
 msgctxt "mailmerge|MailmergeDialog"
 msgid "Mail Merge"
-msgstr "Corespondență în serie"
+msgstr "Îmbinare corespondență"
 
 #. GwH4i
 #: sw/uiconfig/swriter/ui/mailmerge.ui:131
@@ -18592,19 +18594,19 @@ msgstr "_De la:"
 #: sw/uiconfig/swriter/ui/mailmerge.ui:187
 msgctxt "mailmerge|extended_tip|rbfrom"
 msgid "Specify the number of the first record to be printed."
-msgstr ""
+msgstr "Specificați numărul primei înregistrări de tipărit."
 
 #. ACUEE
 #: sw/uiconfig/swriter/ui/mailmerge.ui:207
 msgctxt "mailmerge|extended_tip|from"
 msgid "Specify the number of the first record to be printed."
-msgstr ""
+msgstr "Specificați numărul primei înregistrări de tipărit."
 
 #. kSjcA
 #: sw/uiconfig/swriter/ui/mailmerge.ui:221
 msgctxt "mailmerge|label3"
 msgid "_To:"
-msgstr "_La:"
+msgstr "Că_tre:"
 
 #. sUXJo
 #: sw/uiconfig/swriter/ui/mailmerge.ui:241
@@ -18652,13 +18654,13 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mailmerge.ui:365
 msgctxt "mailmerge|singlejobs"
 msgid "_Single print jobs"
-msgstr "_Sarcini de imprimare unice"
+msgstr "_Sarcini de tipărire individuale"
 
 #. p6r4G
 #: sw/uiconfig/swriter/ui/mailmerge.ui:405
 msgctxt "mailmerge|generate"
 msgid "Generate file name from _database"
-msgstr "Generează numele _de fișier din baza de date"
+msgstr "Generează numele de fișier din baza de _date"
 
 #. KEEvW
 #: sw/uiconfig/swriter/ui/mailmerge.ui:413
@@ -19090,7 +19092,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:193
 msgctxt "mmaddressblockpage|label4"
 msgid "Match the field name used in the mail merge to the column headers in your data source."
-msgstr "Potrivește numele câmpului folosit în corespondența în serie cu antetele de coloană din sursa de date."
+msgstr "Potriviți numele câmpului utilizat la îmbinarea corespondenței cu anteturile coloanei din sursa de date."
 
 #. WGCk4
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:209
@@ -19210,7 +19212,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mmcreatingdialog.ui:7
 msgctxt "mmcreatingdialog|MMCreatingDialog"
 msgid "Mail Merge"
-msgstr "Corespondență în serie"
+msgstr "Îmbinare corespondență"
 
 #. sv2qk
 #: sw/uiconfig/swriter/ui/mmcreatingdialog.ui:54
@@ -20218,13 +20220,13 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:217
 msgctxt "mmselectpage|label1"
 msgid "Select Starting Document for the Mail Merge"
-msgstr "Selectați documentul inițial pentru corespondența în serie"
+msgstr "Selectați documentul inițial pentru îmbinarea corespondenței"
 
 #. Hpca5
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:232
 msgctxt "mmselectpage|extended_tip|MMSelectPage"
 msgid "Specify the document that you want to use as a base for the mail merge document."
-msgstr ""
+msgstr "Specificați documentul pe care vreți să-l utilizați ca bază pentru documentul de îmbinare a corespondenței."
 
 #. CDQgx
 #: sw/uiconfig/swriter/ui/mmsendmails.ui:22
@@ -27225,7 +27227,7 @@ msgstr "Lățime coloană"
 #: sw/uiconfig/swriter/ui/tablepreviewdialog.ui:8
 msgctxt "tablepreviewdialog|TablePreviewDialog"
 msgid "Mail Merge Recipients"
-msgstr "Destinatari pentru corespondența în serie"
+msgstr "Destinatari pentru îmbinarea corespondenței"
 
 #. VCi4N
 #: sw/uiconfig/swriter/ui/tablepreviewdialog.ui:61
