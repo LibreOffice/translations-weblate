@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-02-18 12:17+0100\n"
-"PO-Revision-Date: 2022-03-02 14:39+0000\n"
+"PO-Revision-Date: 2022-03-13 07:39+0000\n"
 "Last-Translator: Olivier Hallot <olivier.hallot@libreoffice.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/pt_BR/>\n"
 "Language: pt-BR\n"
@@ -22946,7 +22946,7 @@ msgctxt ""
 "par_id71641991391639\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/12/2022\",\"01/17/2022\",0)</input> returns 0 because <emph>Type</emph> was set to 0 and there are only 5 days in the interval."
-msgstr ""
+msgstr "<input>=SEMANAS(\"12/01/2022\",\"17/01/2022\",0)</input> retorna 0 por que <emph>Tipo</emph> é 0 e há apenas 5 dias no intervalo."
 
 #. zVfY3
 #: 04060111.xhp
@@ -22955,7 +22955,7 @@ msgctxt ""
 "par_id71641991390039\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/12/2022\",\"01/19/2022\",0)</input> returns 1 because <emph>Type</emph> was set to 0 and there are 7 days in the interval."
-msgstr ""
+msgstr "<input>=SEMANAS(\"12/01/2022\",\"19/01/2022\",0)</input> retorna 1 por que <emph>Tipo</emph> é 0 e há 7 dias no intervalo."
 
 #. rABLZ
 #: 04060111.xhp
@@ -22964,7 +22964,7 @@ msgctxt ""
 "par_id71641991391123\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/12/2022\",\"01/17/2022\",1)</input> returns 1 because <emph>Type</emph> was set to 1 and the interval contains a Monday, since 01/12/2022 is a Wednesday and 01/17/2022 is a Monday."
-msgstr ""
+msgstr "<input>=SEMANAS(\"12/01/2022\",\"17/01/2022\",1)</input> retorna 1 por que <emph>Tipo</emph> é 1 e o intervalo contem uma segunda-feira, pois 12/01/2022 é uma quarta-feira e 17/01/2022 é uma segunda-feira."
 
 #. AxokT
 #: 04060111.xhp
@@ -22973,7 +22973,7 @@ msgctxt ""
 "par_id71641991332523\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/10/2022\",\"01/15/2022\",1)</input> returns 0 because <emph>Type</emph> was set to 1 and the interval does not contain any Mondays, except for the start date."
-msgstr ""
+msgstr "<input>=SEMANAS(\"10/01/2022\",\"15/01/2022\",1)</input> retorna 0 por que <emph>Tipo</emph> é 1 e o intervalo não contém uma segunda-feira, exceto na data de início."
 
 #. 94JhK
 #: 04060111.xhp
@@ -32045,7 +32045,7 @@ msgctxt ""
 "par_id3149825\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_BETAINV\">Returns the inverse of the cumulative Beta probability density function.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_BETAINV\">Retorna o inverso da função de densidade de probabilidade Beta acumulada.</ahelp>"
 
 #. 9kR89
 #: 04060181.xhp
@@ -32063,7 +32063,7 @@ msgctxt ""
 "par_id3149266\n"
 "help.text"
 msgid "<emph>Number</emph> is the probability associated with the Beta distribution for the given arguments <emph>Alpha</emph> and <emph>Beta</emph>."
-msgstr ""
+msgstr "<emph>Número</emph> é a probabilidade associada à distribuição Beta para os argumentos dados <emph>Alfa</emph> e <emph>Beta</emph>."
 
 #. dxYmS
 #: 04060181.xhp
@@ -52745,7 +52745,7 @@ msgctxt ""
 "par_id801642019531438\n"
 "help.text"
 msgid "An example with numbers:"
-msgstr ""
+msgstr "Um exemplo numérico:"
 
 #. BpnPy
 #: calculation_accuracy.xhp
@@ -52754,7 +52754,7 @@ msgctxt ""
 "par_id761642018318896\n"
 "help.text"
 msgid "This will result in -999.129999999997 in A3, instead of expected -999.13 (you might need to increase shown decimal places in cell format to see this)."
-msgstr ""
+msgstr "Isso resultará em -999,129999999997 em A3, em vez do esperado -999,13 (talvez seja necessário aumentar as casas decimais mostradas no formato de célula para que seja visto)."
 
 #. kDcn9
 #: calculation_accuracy.xhp
@@ -52763,7 +52763,7 @@ msgctxt ""
 "par_id221642020132399\n"
 "help.text"
 msgid "An example with dates and times:"
-msgstr ""
+msgstr "Um exemplo com datas e horas:"
 
 #. aWCYz
 #: calculation_accuracy.xhp
@@ -52772,7 +52772,7 @@ msgctxt ""
 "par_id801642018326882\n"
 "help.text"
 msgid "Due to the specific of time representation in Calc, this also applies to all calculations involving times. For example, the cells A1 and A2 below show the date and time data as entered (in ISO 8601 format):"
-msgstr ""
+msgstr "Devido à natureza da representação de tempo no Calc, aplica-se também a todos os cálculos envolvendo horas. Por exemplo, as células A1 e A2 abaixo mostram os dados de data e hora conforme inseridos (em formato ISO 8601):"
 
 #. rcuhc
 #: calculation_accuracy.xhp
@@ -52781,7 +52781,7 @@ msgctxt ""
 "par_id101643312991679\n"
 "help.text"
 msgid "Cell A3 will show 00:10:00 if the default formatting [HH]:MM:SS is applied to the cell. However, cell A3 will show 00:09:59.999999 instead of expected 00:10:00.000000 if formatted using [HH]:MM:SS.000000 format string. This happens despite only whole numbers of hours and minutes were used, because internally, any time is a fraction of a day, 12:00 (noon) being represented as 0.5."
-msgstr ""
+msgstr "A célula A3 mostrará 00:10:00 se a formatação padrão [HH]:MM:SS for aplicada à célula. No entanto, a célula A3 mostrará 00:09:59.999999 em vez do esperado 00:10:00.000000 caso formatada usando a string de formato [HH]:MM:SS.000000. Isso acontece apesar de serem utilizados apenas números inteiros de horas e minutos, pois internamente qualquer hora é uma fração de um dia, sendo 12:00 (meio-dia) representado como 0,5."
 
 #. EZjhJ
 #: calculation_accuracy.xhp
@@ -52790,7 +52790,7 @@ msgctxt ""
 "par_id921642020011065\n"
 "help.text"
 msgid "The data in A1 is represented internally as 43934.5125, and in A2 as 43934.5055555555591126903891563 (which is not exact representation of the entered datetime, which would be 43934.505555555555555555...)."
-msgstr ""
+msgstr "Os dados em A1 são representados internamente como 43934.5125, e em A2 como 43934.5055555555591126903891563 (que não é uma representação exata da data e hora inserida, a qual seria 43934.505555555555555555...)."
 
 #. QY6Ti
 #: calculation_accuracy.xhp
@@ -52799,7 +52799,7 @@ msgctxt ""
 "par_id801642020017858\n"
 "help.text"
 msgid "Their subtraction results in 0.00694444443287037, a value slightly less than expected 0.00694444444444..., which is 10 minutes."
-msgstr ""
+msgstr "A subtração resulta em 0,00694444443287037, um valor ligeiramente menor que o esperado 0,00694444444444..., que corresponde a 10 minutos."
 
 #. J8xZD
 #: cell_styles.xhp
@@ -52862,7 +52862,7 @@ msgctxt ""
 "hd_id301640873452726\n"
 "help.text"
 msgid "Technical information"
-msgstr ""
+msgstr "Informação técnica"
 
 #. 7AVhU
 #: common_func.xhp
@@ -52871,7 +52871,7 @@ msgctxt ""
 "par_id251640873774457\n"
 "help.text"
 msgid "This function is not part of the <emph>Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</emph> standard. The name space is"
-msgstr ""
+msgstr "Esta função não faz parte do padrão <emph>Open Document Format for Office Applications (OpenDocument) Versão 1.3. Parte 4: Formato de Fórmula Recalculada (OpenFormula)</emph>. O espaço de nomes é"
 
 #. STMGF
 #: common_func.xhp
@@ -54041,7 +54041,7 @@ msgctxt ""
 "par_id0403201618594553\n"
 "help.text"
 msgid "<emph>timeline (mandatory):</emph> A numeric array or range. The timeline (x-value) range for the historical values."
-msgstr ""
+msgstr "<emph>linha_do_tempo (obrigatório):</emph> Uma matriz numérica ou intervalo. A linha do tempo (valores de x) dos dados históricos."
 
 #. Re7Cm
 #: exponsmooth_embd.xhp
@@ -54050,7 +54050,7 @@ msgctxt ""
 "par_id040320161859450\n"
 "help.text"
 msgid "The timeline does not have to be sorted, the functions will sort it for calculations.<br/>The timeline values must have a consistent step between them.<br/>If a constant step cannot be identified in the sorted timeline, the functions will return the #NUM! error.<br/>If the ranges of both the timeline and the historical values are not the same size, the functions will return the #N/A error.<br/>If the timeline contains fewer than 2 data periods, the functions will return the #VALUE! error."
-msgstr ""
+msgstr "A linha do tempo não precisa estar ordenada, as funções farão a ordenação para os cálculos.<br/>Os valores da linha do tempo devem ter um passo constante entre sucessivos valores. <br/>Se não for identificado um passo constante na linha do tempo ordenada, as funções retornam um erro #NUM!.<br/>Se os tamanhos da linha do tempo e dos dados históricos não forem os mesmos, as funções retornam o erro #N/DISP.<br/>Se a linha do tempo contém menos de 2 períodos de dados, as funções retornam o erro #VALOR!."
 
 #. AbNWD
 #: exponsmooth_embd.xhp
@@ -57722,7 +57722,7 @@ msgctxt ""
 "par_id911641306487164\n"
 "help.text"
 msgid "1 - The \"at\" unit is deprecated. Use \"atm\" instead."
-msgstr ""
+msgstr "1 - A unidade \"at\" está obsoleta. Utilize \"atm\" em seu lugar."
 
 #. vWzBh
 #: func_convert.xhp
@@ -58280,7 +58280,7 @@ msgctxt ""
 "par_id671641306535516\n"
 "help.text"
 msgid "2 - These units are not part of the <emph>Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</emph> standard for the CONVERT function. They are preserved for backward compatibility."
-msgstr ""
+msgstr "2 - Estas unidades não fazem parte do padrão <emph>Open Document Format for Office Applications (OpenDocument) Versão 1.3. Parte 4: Formato de Fórmula Recalculada (OpenFormula)</emph> para a função CONVERTER. São preservadas para compatibilidade retroativa."
 
 #. ej2DE
 #: func_convert.xhp
@@ -58703,7 +58703,7 @@ msgctxt ""
 "par_id531642776283977\n"
 "help.text"
 msgid "<input>DATEDIF(Start date; End date; Interval)</input>"
-msgstr ""
+msgstr "<input>DATADIF(DataInicial; DataFinal; Intervalo)</input>"
 
 #. CMjse
 #: func_datedif.xhp
@@ -58730,7 +58730,7 @@ msgctxt ""
 "par_id3153183\n"
 "help.text"
 msgid "<emph>Interval</emph> is a string that determines how the difference will be calculated. Possible values are \"d\", \"m\", \"y\", \"ym\", \"md\" or \"yd\" regardless of the current language settings."
-msgstr ""
+msgstr "<emph>Interval</emph> é uma string que determina como será calculada a diferença. Os valores possíveis são \"d\", \"m\", \"y\", \"ym\", \"md\" ou \"yd\", independentemente das configurações de idioma atuais."
 
 #. Lxgdp
 #: func_datedif.xhp
@@ -60359,7 +60359,7 @@ msgctxt ""
 "hd_id0603201610022291\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/func_forecastetsmult.xhp\">FORECAST.ETS.MULT Function</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/func_forecastetsmult.xhp\">PREVISAO.ETS.MULT Function</link>"
 
 #. tYAjY
 #: func_forecastetsmult.xhp
@@ -63833,7 +63833,7 @@ msgctxt ""
 "hd_2016112109231\n"
 "help.text"
 msgid "<variable id=\"rawsubtracth1\"><link href=\"text/scalc/01/func_rawsubtract.xhp\">RAWSUBTRACT</link></variable>"
-msgstr ""
+msgstr "<variable id=\"rawsubtracth1\"><link href=\"text/scalc/01/func_rawsubtract.xhp\">SUBTRAC.NATURAL</link></variable>"
 
 #. CoCx7
 #: func_rawsubtract.xhp
@@ -64292,7 +64292,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ROUNDDOWN function"
-msgstr ""
+msgstr "Função ARREDONDAR.PARA.BAIXO"
 
 #. riRPe
 #: func_rounddown.xhp
@@ -64301,7 +64301,7 @@ msgctxt ""
 "bm_id3156384\n"
 "help.text"
 msgid "<bookmark_value>ROUNDDOWN function</bookmark_value>    <bookmark_value>numbers;rounding down</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>função ARREDONDAR.PARA.BAIXO</bookmark_value>    <bookmark_value>números;arredondar para baixo</bookmark_value>"
 
 #. sroq5
 #: func_rounddown.xhp
@@ -64310,7 +64310,7 @@ msgctxt ""
 "hd_id601641846107898\n"
 "help.text"
 msgid "<variable id=\"rounddown_h1\"><link href=\"text/scalc/01/func_rounddown.xhp\" name=\"rounddown_link\">ROUNDDOWN function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"rounddown_h1\"><link href=\"text/scalc/01/func_rounddown.xhp\" name=\"rounddown_link\">Função ARREDONDAR.PARA.BAIXO</link></variable>"
 
 #. dFaB6
 #: func_rounddown.xhp
@@ -64319,7 +64319,7 @@ msgctxt ""
 "par_id841641927277474\n"
 "help.text"
 msgid "Rounds down a number while keeping a specified number of decimal digits."
-msgstr ""
+msgstr "Arredonda para baixo um número mantendo um número especificado de dígitos decimais."
 
 #. gchGZ
 #: func_rounddown.xhp
@@ -64328,7 +64328,7 @@ msgctxt ""
 "par_id701642530512560\n"
 "help.text"
 msgid "This function is equivalent to the <link href=\"text/scalc/01/func_trunc.xhp\" name=\"TRUNC_link\">TRUNC function</link>."
-msgstr ""
+msgstr "Essa função é equivalente à <link href=\"text/scalc/01/func_trunc.xhp\" name=\"TRUNC_link\">função TRUNCAR</link>."
 
 #. soLKp
 #: func_rounddown.xhp
@@ -64337,7 +64337,7 @@ msgctxt ""
 "par_id341641927560587\n"
 "help.text"
 msgid "<input>ROUNDDOWN(Number [; Count])</input>"
-msgstr ""
+msgstr "<input>ARREDONDAR.PARA.BAIXO(Número [; Cont])</input>"
 
 #. zMhAG
 #: func_rounddown.xhp
@@ -64346,7 +64346,7 @@ msgctxt ""
 "par_id11641927688319\n"
 "help.text"
 msgid "<emph>Number:</emph> The number to be rounded down."
-msgstr ""
+msgstr "<emph>Número:</emph> o número a arredondar para baixo."
 
 #. CkVAE
 #: func_rounddown.xhp
@@ -64355,7 +64355,7 @@ msgctxt ""
 "par_id861641927715672\n"
 "help.text"
 msgid "<emph>Count:</emph> Optional parameter that defines the number of decimal places to be kept. The default value is 0 (zero)."
-msgstr ""
+msgstr "<emph>Cont:</emph> parâmetro opcional que define o número de casas decimais a serem mantidas. O valor padrão é 0 (zero)."
 
 #. rJEFs
 #: func_rounddown.xhp
@@ -64364,7 +64364,7 @@ msgctxt ""
 "par_id911641928545976\n"
 "help.text"
 msgid "Use negative values for <emph>Count</emph> to round the integer part of the original <emph>Number</emph>. For example, -1 will round down the first integer number before the decimal separator, -2 will round down the two integer numbers before the decimal separator, and so forth."
-msgstr ""
+msgstr "Utilize valores negativos para <emph>Cont</emph> para arredondar a parte inteira do <emph>Número</emph> original. Por exemplo, -1 arredondará para baixo o primeiro número inteiro antes do separador decimal, -2 arredondará para baixo os dois números inteiros antes do separador decimal e assim por diante."
 
 #. WfEbN
 #: func_rounddown.xhp
@@ -64373,7 +64373,7 @@ msgctxt ""
 "par_id181641929609906\n"
 "help.text"
 msgid "In %PRODUCTNAME the <emph>Count</emph> parameter is optional whereas in MS Excel this parameter is mandatory. When an ODS file contains a call to ROUNDDOWN without the <emph>Count</emph> parameter and the file is exported to XLS or XLSX formats, the missing argument will automatically be added with value zero to maintain compatibility."
-msgstr ""
+msgstr "No %PRODUCTNAME, o parâmetro <emph>Cont</emph> é opcional, enquanto no MS Excel esse parâmetro é obrigatório. Quando um arquivo ODS contém uma chamada para ARREDONDAR.PARA.BAIXO sem o parâmetro <emph>Cont</emph> e o arquivo é exportado para os formatos XLS ou XLSX, o argumento ausente será adicionado automaticamente com valor zero para manter a compatibilidade."
 
 #. BCmT8
 #: func_rounddown.xhp
@@ -64382,7 +64382,7 @@ msgctxt ""
 "par_id901641928192870\n"
 "help.text"
 msgid "<input>=ROUNDDOWN(21.89)</input> returns 21. Note that this example uses the default value for <emph>Count</emph> which is 0."
-msgstr ""
+msgstr "<input>=ARREDONDAR.PARA.BAIXO(21,89)</input> retorna 21. Observe que este exemplo usa o valor padrão 0 para <emph>Cont</emph>."
 
 #. aGJYK
 #: func_rounddown.xhp
@@ -65543,7 +65543,7 @@ msgctxt ""
 "bm_id3156384\n"
 "help.text"
 msgid "<bookmark_value>TRUNC function</bookmark_value>    <bookmark_value>decimal places;cutting off</bookmark_value>    <bookmark_value>numbers;truncate</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>função TRUNCAR</bookmark_value>    <bookmark_value>casas decimais;cortar</bookmark_value>    <bookmark_value>números;truncar</bookmark_value>"
 
 #. CQ5Zg
 #: func_trunc.xhp
@@ -65552,7 +65552,7 @@ msgctxt ""
 "hd_id601641846107898\n"
 "help.text"
 msgid "<variable id=\"trunc_h1\"><link href=\"text/scalc/01/func_trunc.xhp\" name=\"trunc_link\">TRUNC function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"trunc_h1\"><link href=\"text/scalc/01/func_trunc.xhp\" name=\"trunc_link\">Função TRUNCAR</link></variable>"
 
 #. dkTrh
 #: func_trunc.xhp
@@ -65561,7 +65561,7 @@ msgctxt ""
 "par_id841641927277474\n"
 "help.text"
 msgid "Truncates a number while keeping a specified number of decimal digits."
-msgstr ""
+msgstr "Trunca um número mantendo um número especificado de casas decimais."
 
 #. Hxed7
 #: func_trunc.xhp
@@ -65570,7 +65570,7 @@ msgctxt ""
 "par_id701642530512560\n"
 "help.text"
 msgid "This function is equivalent to the <link href=\"text/scalc/01/func_rounddown.xhp\" name=\"ROUNDDOWN_link\">ROUNDDOWN function</link>."
-msgstr ""
+msgstr "Essa função é equivalente à <link href=\"text/scalc/01/func_rounddown.xhp\" name=\"ROUNDDOWN_link\">função ARREDONDAR.PARA.BAIXO</link>."
 
 #. oZAWU
 #: func_trunc.xhp
@@ -65579,7 +65579,7 @@ msgctxt ""
 "par_id321641927458888\n"
 "help.text"
 msgid "The rounding method used by this function is known as <emph>rounding towards zero</emph>. The resulting number will always be smaller than or equal to the original number."
-msgstr ""
+msgstr "O método de arredondamento usado por esta função é conhecido como <emph>arredondamento para zero</emph>. O número resultante será sempre menor ou igual ao número original."
 
 #. SqCQv
 #: func_trunc.xhp
@@ -65588,7 +65588,7 @@ msgctxt ""
 "par_id341641927560587\n"
 "help.text"
 msgid "<input>TRUNC(Number [; Count])</input>"
-msgstr ""
+msgstr "<input>TRUNCAR(Número [; Cont])</input>"
 
 #. RryDW
 #: func_trunc.xhp
@@ -65597,7 +65597,7 @@ msgctxt ""
 "par_id11641927688319\n"
 "help.text"
 msgid "<emph>Number:</emph> The number to be truncated."
-msgstr ""
+msgstr "<emph>Número:</emph> o número a ser truncado."
 
 #. Hg6mt
 #: func_trunc.xhp
@@ -65606,7 +65606,7 @@ msgctxt ""
 "par_id861641927715672\n"
 "help.text"
 msgid "<emph>Count:</emph> Optional parameter that defines the number of decimal places to be kept. The default value is 0 (zero)."
-msgstr ""
+msgstr "<emph>Cont:</emph> parâmetro opcional que define o número de casas decimais a serem mantidas. O valor padrão é 0 (zero)."
 
 #. HKrSh
 #: func_trunc.xhp
@@ -65615,7 +65615,7 @@ msgctxt ""
 "par_id911641928545976\n"
 "help.text"
 msgid "Use negative values for <emph>Count</emph> to round the integer part of the original <emph>Number</emph>. For example, -1 will round down the first integer number before the decimal separator, -2 will round down the two integer numbers before the decimal separator, and so forth."
-msgstr ""
+msgstr "Utilize valores negativos para <emph>Cont</emph> para arredondar a parte inteira do <emph>Número</emph> original. Por exemplo, -1 arredondará para baixo o primeiro número inteiro antes do separador decimal, -2 arredondará para baixo os dois números inteiros antes do separador decimal e assim por diante."
 
 #. EJFZd
 #: func_trunc.xhp
@@ -65624,7 +65624,7 @@ msgctxt ""
 "par_id901641928192870\n"
 "help.text"
 msgid "<input>=TRUNC(21.89)</input> returns 21. Note that this example uses the default value for <emph>Count</emph> which is 0."
-msgstr ""
+msgstr "<input>=TRUNCAR(21,89)</input> retorna 21. Observe que este exemplo usa o valor padrão 0 para <emph>Cont</emph>."
 
 #. ccEGa
 #: func_trunc.xhp
@@ -65633,7 +65633,7 @@ msgctxt ""
 "par_id901641928192110\n"
 "help.text"
 msgid "<input>=TRUNC(103.37,1)</input> returns 103.3."
-msgstr ""
+msgstr "<input>=TRUNCAR(103,37;1)</input> retorna 103,3."
 
 #. jJvgo
 #: func_trunc.xhp
@@ -65642,7 +65642,7 @@ msgctxt ""
 "par_id171641928456743\n"
 "help.text"
 msgid "<input>=TRUNC(0.664,2)</input> returns 0.66."
-msgstr ""
+msgstr "<input>=TRUNCAR(0,664;2)</input> retorna 0,66."
 
 #. Qf3R9
 #: func_trunc.xhp
@@ -65651,7 +65651,7 @@ msgctxt ""
 "par_id641641928712287\n"
 "help.text"
 msgid "<input>=TRUNC(214.2,-1)</input> returns 210. Note the negative value for <emph>Count</emph>, which causes the first integer value before the decimal separator to be rounded towards zero."
-msgstr ""
+msgstr "<input>=TRUNCAR(214,2;-1)</input> retorna 210. Note o valor negativo de <emph>Cont</emph>, que causa o primeiro valor inteiro antes do separador decimal ser arrendondado para baixo."
 
 #. w86Dm
 #: func_value.xhp
@@ -67298,7 +67298,7 @@ msgctxt ""
 "par_id240920171007389295\n"
 "help.text"
 msgid "Choose <menuitem>Data – Streams</menuitem>"
-msgstr ""
+msgstr "Escolha <menuitem>Dados – Fluxo de dados</menuitem>."
 
 #. aV8Lc
 #: live_data_stream.xhp
@@ -67307,7 +67307,7 @@ msgctxt ""
 "par_id221641995264796\n"
 "help.text"
 msgid "Data streaming is the continuous flow of data generated by various sources. In %PRODUCTNAME Calc, data streams can be processed, stored, analyzed, and acted upon as it's generated in real-time."
-msgstr ""
+msgstr "O fluxo de dados é o fluxo contínuo de dados gerados por várias fontes. No %PRODUCTNAME Calc, os fluxos de dados podem ser processados, armazenados, analisados e executados à medida que são gerados em tempo real."
 
 #. KANFG
 #: live_data_stream.xhp
@@ -67316,7 +67316,7 @@ msgctxt ""
 "par_id831641996045238\n"
 "help.text"
 msgid "Some real-life examples of streaming data include use cases in every industry, including real-time stock trades, up-to-the-minute retail inventory management, social media feeds, multiplayer game interactions, and ride-sharing apps."
-msgstr ""
+msgstr "Alguns exemplos reais de dados de streaming incluem casos de uso em todos os setores, incluindo negociações de ações em tempo real, gerenciamento de estoque de varejo atualizado, feeds de mídia social, interações de jogos de múltiplos jogadores e aplicativos de compartilhamento de viagens e caronas."
 
 #. sWHpE
 #: live_data_stream.xhp
@@ -67325,7 +67325,7 @@ msgctxt ""
 "hd_id791641995257145\n"
 "help.text"
 msgid "Source stream"
-msgstr ""
+msgstr "Fonte do fluxo de dados"
 
 #. dyVdA
 #: live_data_stream.xhp
@@ -67334,7 +67334,7 @@ msgctxt ""
 "hd_id931641998122172\n"
 "help.text"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #. oYvgF
 #: live_data_stream.xhp
@@ -67343,7 +67343,7 @@ msgctxt ""
 "par_id31641995269740\n"
 "help.text"
 msgid "URL of the source document in the local file system or internet."
-msgstr ""
+msgstr "Insira o URL do documento de origem no sistema de arquivos local ou na Internet."
 
 #. 3Bdbh
 #: live_data_stream.xhp
@@ -67352,7 +67352,7 @@ msgctxt ""
 "hd_id811641996480534\n"
 "help.text"
 msgid "Interpret stream data as"
-msgstr ""
+msgstr "Interpretar fluxo de dados como"
 
 #. QpvTc
 #: live_data_stream.xhp
@@ -67361,7 +67361,7 @@ msgctxt ""
 "par_id591641996318461\n"
 "help.text"
 msgid "<emph>value1,value2,...,valueN, and fill into range</emph>:"
-msgstr ""
+msgstr "<emph>valor1,valor2,...,valorN e preencha no intervalo</emph>:"
 
 #. iB5Fv
 #: live_data_stream.xhp
@@ -67370,7 +67370,7 @@ msgctxt ""
 "par_id441641996322078\n"
 "help.text"
 msgid "<emph>address,value</emph>:"
-msgstr ""
+msgstr "<emph>endereço;valor</emph>:"
 
 #. JYyrF
 #: live_data_stream.xhp
@@ -67379,7 +67379,7 @@ msgctxt ""
 "hd_id241641998151807\n"
 "help.text"
 msgid "Empty lines trigger UI refresh"
-msgstr ""
+msgstr "As linhas vazias atualizam a interface"
 
 #. CEui4
 #: live_data_stream.xhp
@@ -67388,7 +67388,7 @@ msgctxt ""
 "hd_id341641995330350\n"
 "help.text"
 msgid "When new data arrives"
-msgstr ""
+msgstr "Ao chegar novos dados"
 
 #. snU6R
 #: live_data_stream.xhp
@@ -67397,7 +67397,7 @@ msgctxt ""
 "par_id731641995339462\n"
 "help.text"
 msgid "There are three features of this option:"
-msgstr ""
+msgstr "Existem três recursos desta opção:"
 
 #. GLs5t
 #: live_data_stream.xhp
@@ -67406,7 +67406,7 @@ msgctxt ""
 "par_id471641995370002\n"
 "help.text"
 msgid "<emph>Move existing data down</emph>: the existing data is moved down in index and the empty space is filled by arriving data. In short, we deal in fix range of indexes."
-msgstr ""
+msgstr "<emph>Mover dados existentes para baixo</emph>: os dados existentes são movidos para baixo no índice e o espaço vazio é preenchido pelos dados que chegam. Em suma, lidamos com intervalo fixo de índices."
 
 #. nfgHU
 #: live_data_stream.xhp
@@ -67415,7 +67415,7 @@ msgctxt ""
 "par_id841641995386510\n"
 "help.text"
 msgid "<emph>Move the range down</emph>: the arriving data is appended at the end of existing data and range of indexes to be processed is shifted."
-msgstr ""
+msgstr "<emph>Mover o intervalo para baixo</emph>: os dados que chegam são anexados ao final dos dados existentes e o intervalo de índices a serem processados é deslocado."
 
 #. 4zg6F
 #: live_data_stream.xhp
@@ -67424,7 +67424,7 @@ msgctxt ""
 "par_id1001641996559358\n"
 "help.text"
 msgid "<emph>Overwrite existing data</emph>: the arriving data overrides the existing data."
-msgstr ""
+msgstr "<emph>Substituir dados existentes</emph>: os dados que chegam substituem os dados existentes."
 
 #. ZHiEZ
 #: live_data_stream.xhp
@@ -67442,7 +67442,7 @@ msgctxt ""
 "par_id961641995414472\n"
 "help.text"
 msgid "Limit the maximum numbers of rows to a specified value or leave undefined, but limited to the %PRODUCTNAME Calc row limit."
-msgstr ""
+msgstr "Limite o número máximo de linhas a um valor especificado ou deixe indefinido, porém limitado ao número máximo de linhas do %PRODUCTNAME Calc."
 
 #. k7H5Y
 #: solver.xhp

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-02-21 15:22+0100\n"
-"PO-Revision-Date: 2022-03-08 11:39+0000\n"
+"PO-Revision-Date: 2022-03-13 07:39+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/bg/>\n"
 "Language: bg\n"
@@ -30056,7 +30056,7 @@ msgctxt ""
 "bas_id131641236938068\n"
 "help.text"
 msgid "' Below 123,1 is interpreted as 1231 since \",\" is the thousands separator"
-msgstr ""
+msgstr "' По-долу 123,1 се интерпретира като 1231, защото \",\" е разделителят на хилядите."
 
 #. qMAhh
 #: 03120104.xhp
@@ -30065,7 +30065,7 @@ msgctxt ""
 "bas_id681641252873197\n"
 "help.text"
 msgid "' All numbers are considered until a non-numeric character is reached"
-msgstr ""
+msgstr "' Вземат се предвид всички числа до срещането на нечислов знак."
 
 #. i9otK
 #: 03120104.xhp
@@ -30074,7 +30074,7 @@ msgctxt ""
 "bas_id911641237027667\n"
 "help.text"
 msgid "' The example below returns 0 (zero) since the string provided does not start with a number"
-msgstr ""
+msgstr "' Примерът по-долу връща 0 (нула), защото подаденият низ не започва с число."
 
 #. MeApW
 #: 03120105.xhp
@@ -30101,7 +30101,7 @@ msgctxt ""
 "hd_id3156027\n"
 "help.text"
 msgid "<variable id=\"CByte_h1\"><link href=\"text/sbasic/shared/03120105.xhp\" name=\"CByte Function\">CByte Function</link></variable>"
-msgstr ""
+msgstr "<variable id=\"CByte_h1\"><link href=\"text/sbasic/shared/03120105.xhp\" name=\"CByte Function\">Функция CByte</link></variable>"
 
 #. qP4eK
 #: 03120105.xhp
@@ -30110,7 +30110,7 @@ msgctxt ""
 "par_id3143267\n"
 "help.text"
 msgid "Converts a string or a numeric expression to the <literal>Byte</literal> type."
-msgstr ""
+msgstr "Преобразува низов или числов израз към типа <literal>Byte</literal>."
 
 #. 8h2Wu
 #: 03120105.xhp
@@ -30119,7 +30119,7 @@ msgctxt ""
 "par_id3147573\n"
 "help.text"
 msgid "Cbyte( expression As Variant) As Byte"
-msgstr ""
+msgstr "Cbyte(expression As Variant) As Byte"
 
 #. 4vJi5
 #: 03120105.xhp
@@ -30128,7 +30128,7 @@ msgctxt ""
 "par_id3145068\n"
 "help.text"
 msgid "<emph>Expression</emph>: Any string or a numeric expression that can be evaluated to a number. Decimal values are rounded to the nearest tenth. Valid values range from 0 to 256."
-msgstr ""
+msgstr "<emph>Expression</emph>: произволен низов или числов израз, който може да се оцени с резултат число. Дробните стойности се закръгляват до най-близката десета. Валидните стойности са от 0 до 256."
 
 #. dfezQ
 #: 03120105.xhp
@@ -30137,7 +30137,7 @@ msgctxt ""
 "bas_id941637751110886\n"
 "help.text"
 msgid "' Above expressions are computed as 16, 0 and 3"
-msgstr ""
+msgstr "' Горните изрази се изчисляват на 16, 0 и 3."
 
 #. svGqi
 #: 03120111.xhp
@@ -30272,7 +30272,7 @@ msgctxt ""
 "par_id3149295\n"
 "help.text"
 msgid "<emph>charcode</emph>: Numeric expression that represent a valid 16 bit Unicode value (0-65535). (To support expressions with a nominally negative argument like <emph>ChrW(&H8000)</emph> in a backwards-compatible way, values in the range −32768 to −1 are internally mapped to the range 32768 to 65535.) An empty value returns error code 5. A value out of the range [0 to 65535] returns error code 6."
-msgstr ""
+msgstr "<emph>charcode</emph>: числов израз, който представлява валидна 16-битова стойност от Уникод (0 – 65535). (За да се поддържат изрази с номинално отрицателен аргумент като <emph>ChrW(&H8000)</emph> по съвместим назад начин, стойностите в интервала от −32768 до −1 вътрешно се съпоставят на интервала от 32768 до 65535.) За празна стойност се връща код на грешка 5. За стойност извън интервала [0, 65535] се връща код на грешка 6."
 
 #. 8DF8a
 #: 03120112.xhp
@@ -30290,7 +30290,7 @@ msgctxt ""
 "par_id3151380\n"
 "help.text"
 msgid "MsgBox \"From \" + ChrW(913) + \" to \" + ChrW(937)"
-msgstr ""
+msgstr "MsgBox \"От \" + ChrW(913) + \" до \" + ChrW(937)"
 
 #. zPJDa
 #: 03120112.xhp
@@ -30308,7 +30308,7 @@ msgctxt ""
 "bas_id181642669411658\n"
 "help.text"
 msgid "MsgBox ChrW(charcode := 116) ' \"t\" lowercase T letter"
-msgstr ""
+msgstr "MsgBox ChrW(charcode := 116) ' \"t\", малка латинска буква T"
 
 #. E7Eoi
 #: 03120200.xhp
@@ -30515,7 +30515,7 @@ msgctxt ""
 "par_id3149178\n"
 "help.text"
 msgid "The following functions edit, format, and align the contents of strings. Use the <literal>&</literal> or <literal>+</literal> operators to concatenate strings."
-msgstr ""
+msgstr "Следващите функции служат за редактиране, форматиране и подравняване на съдържанието на низове. За слепване (конкатениране) на низове използвайте операцията <literal>&</literal> или <literal>+</literal>."
 
 #. PG2TT
 #: 03120300.xhp
@@ -30524,7 +30524,7 @@ msgctxt ""
 "bm_id3150669\n"
 "help.text"
 msgid "<bookmark_value>ampersand symbol; in string handling</bookmark_value>  <bookmark_value>Operators;concatenation (& or +)</bookmark_value>  <bookmark_value>\"& or +\" concatenation (strings)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>амперсанд; при работа с низове</bookmark_value>  <bookmark_value>операции;конкатенация (& или +)</bookmark_value>  <bookmark_value>\"& или +\" конкатенация (низове)</bookmark_value>"
 
 #. hAn8q
 #: 03120301.xhp
@@ -31802,7 +31802,7 @@ msgctxt ""
 "par_id3148947\n"
 "help.text"
 msgid "<emph>filename:</emph> A file name as string."
-msgstr ""
+msgstr "<emph>filename:</emph> име на файл под формата на низ."
 
 #. Fgfbo
 #: 03120313.xhp
@@ -31856,7 +31856,7 @@ msgctxt ""
 "par_id3156023\n"
 "help.text"
 msgid "<emph>filename:</emph> A file name as a string."
-msgstr ""
+msgstr "<emph>filename:</emph> име на файл под формата на низ."
 
 #. b5PSp
 #: 03120314.xhp
@@ -32522,7 +32522,7 @@ msgctxt ""
 "par_id31541255547\n"
 "help.text"
 msgid "iPos = InStrRev(sInput,\"the\",10,1) ' Returns 1, search is case-insensitive"
-msgstr ""
+msgstr "iPos = InStrRev(sInput,\"the\",10,1) ' Връща 1, търсенето игнорира регистъра"
 
 #. Yxhru
 #: 03120411.xhp
@@ -32531,7 +32531,7 @@ msgctxt ""
 "par_id05192017032\n"
 "help.text"
 msgid "iPos = InStrRev(sInput,\"the\",10,0) ' Returns 0, search is case-sensitive"
-msgstr ""
+msgstr "iPos = InStrRev(sInput,\"the\",10,0) ' Връща 0, търсенето зачита регистъра"
 
 #. YWCD7
 #: 03120412.xhp
@@ -33764,7 +33764,7 @@ msgctxt ""
 "par_id991572457387308\n"
 "help.text"
 msgid "To manage personal or shared library containers (<emph>Application Macros</emph> or <emph>My Macros</emph>) from within a document, use the <literal>GlobalScope</literal> specifier."
-msgstr ""
+msgstr "За да управлявате от документ контейнерите за лични или споделени библиотеки (<emph>Макроси на приложението</emph> или <emph>Моите макроси</emph>), използвайте спецификатора <literal>GlobalScope</literal>."
 
 #. Jz8ET
 #: 03131900.xhp
@@ -33818,7 +33818,7 @@ msgctxt ""
 "par_id3150543\n"
 "help.text"
 msgid "<literal>BasicLibraries</literal> and <literal>DialogLibraries</literal> containers exist at application level and within every document. Document's library containers do not need the <literal>GlobalScope</literal> specifier to be managed. If you want to call a global library container (located in <emph>Application Macros</emph> or <emph>My Macros</emph>) from within a document, you must use the <literal>GlobalScope</literal> specifier."
-msgstr ""
+msgstr "Контейнерите <literal>BasicLibraries</literal> и <literal>DialogLibraries</literal> съществуват на ниво приложение и във всеки документ. Управлението на контейнерите за библиотеки в документ не изисква спецификатора <literal>GlobalScope</literal>. Ако искате да извикате глобален контейнер с библиотеки (в <emph>Макроси на приложението</emph> или <emph>Моите макроси</emph>), използването на спецификатора <literal>GlobalScope</literal> е задължително."
 
 #. BDRji
 #: 03131900.xhp
@@ -37247,7 +37247,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "CallByName Function"
-msgstr ""
+msgstr "Функция CallByName"
 
 #. tbCrP
 #: CallByName.xhp
@@ -37256,7 +37256,7 @@ msgctxt ""
 "hd_id3150669\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/CallByName.xhp\">CallByName Function</link>"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/CallByName.xhp\">Функция CallByName</link>"
 
 #. 7EWyG
 #: CallByName.xhp
@@ -37265,7 +37265,7 @@ msgctxt ""
 "par_id3149670\n"
 "help.text"
 msgid "Invokes a subroutine by its string name."
-msgstr ""
+msgstr "Извиква подпрограма по името ѝ като низ."
 
 #. GSJB7
 #: CallByName.xhp
@@ -37274,7 +37274,7 @@ msgctxt ""
 "bm_id3150669\n"
 "help.text"
 msgid "<bookmark_value>CallByName function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>CallByName, функция</bookmark_value>"
 
 #. kJE7K
 #: CallByName.xhp
@@ -37283,7 +37283,7 @@ msgctxt ""
 "par_id3153360\n"
 "help.text"
 msgid "CallByName(object As Object, ProcName As String, CallType As Integer [,arg0 [,arg1 …]])"
-msgstr ""
+msgstr "CallByName(object As Object, ProcName As String, CallType As Integer [,arg0 [,arg1 …]])"
 
 #. vF2Bi
 #: CallByName.xhp
@@ -37292,7 +37292,7 @@ msgctxt ""
 "par_id3154141\n"
 "help.text"
 msgid "<emph>result</emph>: An optional variable that contains the result of the called method or property."
-msgstr ""
+msgstr "<emph>result</emph>: незадължителна променлива, която съдържа резултата от извикания метод или свойство."
 
 #. 6Hx3V
 #: CallByName.xhp
@@ -37301,7 +37301,7 @@ msgctxt ""
 "par_id3150448\n"
 "help.text"
 msgid "<emph>object</emph>: A Basic module, <link href=\"text/sbasic/shared/classmodule.xhp\" name=\"ClassModule\">ClassModule</link> instance or UNO service holding properties or methods."
-msgstr ""
+msgstr "<emph>object</emph>: модул на Basic, екземпляр на <link href=\"text/sbasic/shared/classmodule.xhp\" name=\"ClassModule\">ClassModule</link> или услуга на UNO, която съдържа свойства или методи."
 
 #. EiVq3
 #: CallByName.xhp
@@ -37310,7 +37310,7 @@ msgctxt ""
 "par_id3150449\n"
 "help.text"
 msgid "<emph>ProcName</emph>: The <literal>Function</literal>, <literal>Sub</literal> or <literal>Property</literal> that is being called."
-msgstr ""
+msgstr "<emph>ProcName</emph>: извикваната подпрограма от тип <literal>Function</literal>, <literal>Sub</literal> или <literal>Property</literal>."
 
 #. YnBZr
 #: CallByName.xhp
@@ -37319,7 +37319,7 @@ msgctxt ""
 "par_id3150450\n"
 "help.text"
 msgid "<emph>CallType</emph>: The type of performed action such as Get, Let, Method and Set."
-msgstr ""
+msgstr "<emph>CallType</emph>: типът на извършваното действие, например Get, Let, Method и Set."
 
 #. PpyR8
 #: CallByName.xhp
@@ -37328,7 +37328,7 @@ msgctxt ""
 "par_id3150451\n"
 "help.text"
 msgid "<emph>arg0, arg1 …</emph>: The <literal>Function</literal> optional parameters given as positional arguments."
-msgstr ""
+msgstr "<emph>arg0, arg1 …</emph>: незадължителните параметри на подпрограмата от тип <literal>Function</literal>, дадени като позиционни аргументи."
 
 #. J4tFe
 #: CallByName.xhp
@@ -37337,7 +37337,7 @@ msgctxt ""
 "par_id951642689912087\n"
 "help.text"
 msgid "Arguments are provided in the exact same order defined in the method signature. Keyword arguments are not possible."
-msgstr ""
+msgstr "Аргументите се подават в точно същия ред, в който са дефинирани в сигнатурата на метода. Не са възможни аргументи с ключови думи."
 
 #. EYBNE
 #: CallByName.xhp
@@ -37346,7 +37346,7 @@ msgctxt ""
 "par_id331644505028463\n"
 "help.text"
 msgid "Value"
-msgstr ""
+msgstr "Стойност"
 
 #. arGjh
 #: CallByName.xhp
@@ -37355,7 +37355,7 @@ msgctxt ""
 "par_id541644505028463\n"
 "help.text"
 msgid "CallType Description"
-msgstr ""
+msgstr "Описание на стойността от тип CallType"
 
 #. 34akS
 #: CallByName.xhp
@@ -37364,7 +37364,7 @@ msgctxt ""
 "par_id661644505028464\n"
 "help.text"
 msgid "<emph>Method</emph>: Calls a procedure as a function or a subroutine."
-msgstr ""
+msgstr "<emph>Method</emph>: извикване на подпрограма като функция или процедура."
 
 #. vC2DV
 #: CallByName.xhp
@@ -37373,7 +37373,7 @@ msgctxt ""
 "par_id661644505028465\n"
 "help.text"
 msgid "<emph>Get</emph>: Reads a property or variable content."
-msgstr ""
+msgstr "<emph>Get</emph>: четене на съдържанието на свойство или променлива."
 
 #. 65JuB
 #: CallByName.xhp
@@ -37382,7 +37382,7 @@ msgctxt ""
 "par_id661644505028466\n"
 "help.text"
 msgid "<emph>Let</emph>: Assigns a content to a <literal>Property</literal> or variable."
-msgstr ""
+msgstr "<emph>Let</emph>: присвояване на съдържание на свойство (<literal>Property</literal>) или променлива."
 
 #. AGBZb
 #: CallByName.xhp
@@ -37391,7 +37391,7 @@ msgctxt ""
 "par_id661644505028467\n"
 "help.text"
 msgid "<emph>Set</emph>: Assigns a reference value to an <literal>Object</literal> or <literal>Variant</literal> variable."
-msgstr ""
+msgstr "<emph>Set</emph>: присвояване на стойност псевдоним на променлива от тип <literal>Object</literal> или <literal>Variant</literal>."
 
 #. EMgkf
 #: CallByName.xhp
@@ -37400,7 +37400,7 @@ msgctxt ""
 "par_id661644588401903\n"
 "help.text"
 msgid "A <literal>Calc.Maths</literal> module contains a <literal>Multiply</literal> function expecting a varying list of numbers."
-msgstr ""
+msgstr "Модулът <literal>Calc.Maths</literal> съдържа функция <literal>Multiply</literal>, която очаква вариращ списък от числа."
 
 #. e4GEe
 #: CallByName.xhp
@@ -37409,7 +37409,7 @@ msgctxt ""
 "par_id711644588403951\n"
 "help.text"
 msgid "<literal>ScriptForge.Platform.Architecture</literal> information is retrieved."
-msgstr ""
+msgstr "Извлича се информация от свойството <literal>ScriptForge.Platform.Architecture</literal>."
 
 #. WR7MJ
 #: CallByName.xhp
@@ -37418,7 +37418,7 @@ msgctxt ""
 "par_id651644588404943\n"
 "help.text"
 msgid "<literal>DisplayDirectory</literal> property of <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1ui_1_1dialogs_1_1FilePicker-members.html\" name=\"FilePicker\">com.sun.star.ui.dialogs.FilePicker</link> UNO service is assigned a value, its content is read twice."
-msgstr ""
+msgstr "На свойството <literal>DisplayDirectory</literal> на услугата на UNO <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1ui_1_1dialogs_1_1FilePicker-members.html\" name=\"FilePicker\">com.sun.star.ui.dialogs.FilePicker</link> се присвоява стойност, съдържанието му се чете два пъти."
 
 #. 3DsDt
 #: CallByName.xhp
@@ -37427,7 +37427,7 @@ msgctxt ""
 "bas_id791644586147817\n"
 "help.text"
 msgid "BasicLibraries.loadLibrary(\"Calc\") ' Calc.Maths user library.module"
-msgstr ""
+msgstr "BasicLibraries.loadLibrary(\"Calc\") ' Calc.Maths потребителска библиотека.модул"
 
 #. HBeDy
 #: CallByName.xhp
@@ -37436,7 +37436,7 @@ msgctxt ""
 "hd_id971644589733247\n"
 "help.text"
 msgid "Calc.Maths module"
-msgstr ""
+msgstr "Модул Calc.Maths"
 
 #. jkaab
 #: CallByName.xhp
@@ -37445,7 +37445,7 @@ msgctxt ""
 "bas_id811644589423326\n"
 "help.text"
 msgid "Option Compatible ' Calc.Maths module"
-msgstr ""
+msgstr "Option Compatible ' Модул Calc.Maths"
 
 #. xbQAQ
 #: CallByName.xhp
@@ -37454,7 +37454,7 @@ msgctxt ""
 "bas_id661644589424096\n"
 "help.text"
 msgid "''' Multiply a variable list of numbers '''"
-msgstr ""
+msgstr "''' Произведение на вариращ списък от числа '''"
 
 #. Ug7AF
 #: Compiler_options.xhp
@@ -38174,7 +38174,7 @@ msgctxt ""
 "par_id241629988142878\n"
 "help.text"
 msgid "The macro below presents an example of how the <literal>MyVlook</literal> function can be called. It first creates a 5-by-2 data array and then calls the function <literal>MyVlook</literal> and shows the returned value using <literal>MsgBox</literal>."
-msgstr ""
+msgstr "Макросът по-долу представя пример за възможната употреба на функцията <literal>MyVlook</literal>. Той първо създава масив с данни с размери 5 на 2, а след това извиква функцията <literal>MyVlook</literal> и показва върнатата стойност чрез <literal>MsgBox</literal>."
 
 #. XincG
 #: calc_functions.xhp
@@ -38309,7 +38309,7 @@ msgctxt ""
 "par_id261592359338681\n"
 "help.text"
 msgid "The Calc Add-In functions are in the UNO services <link href=\"text/sbasic/shared/calc_functions.xhp#analysis\" name=\"analysis\"><literal>com.sun.star.sheet.addin.Analysis</literal></link>, <link href=\"text/sbasic/shared/calc_functions.xhp#dates\" name=\"dates\"><literal>com.sun.star.sheet.addin.DateFunctions</literal></link> and <link href=\"text/sbasic/shared/calc_functions.xhp#pricing\" name=\"pricing\"><literal>com.sun.star.sheet.addin.PricingFunctions</literal></link>."
-msgstr ""
+msgstr "Функциите от добавките на Calc са в UNO услугите <link href=\"text/sbasic/shared/calc_functions.xhp#analysis\" name=\"analysis\"><literal>com.sun.star.sheet.addin.Analysis</literal></link>, <link href=\"text/sbasic/shared/calc_functions.xhp#dates\" name=\"dates\"><literal>com.sun.star.sheet.addin.DateFunctions</literal></link> и <link href=\"text/sbasic/shared/calc_functions.xhp#pricing\" name=\"pricing\"><literal>com.sun.star.sheet.addin.PricingFunctions</literal></link>."
 
 #. 94wim
 #: calc_functions.xhp
@@ -38381,7 +38381,7 @@ msgctxt ""
 "hd_id661632676716180\n"
 "help.text"
 msgid "UNO Service Names for Analysis Add-In Functions"
-msgstr ""
+msgstr "Имена в услугата на UNO за функциите от добавката Analysis"
 
 #. SBEpf
 #: calc_functions.xhp
@@ -38390,7 +38390,7 @@ msgctxt ""
 "par_id651629988674793\n"
 "help.text"
 msgid "The table below presents a list of all Calc Analysis Add-In functions and their respective UNO service names."
-msgstr ""
+msgstr "Долната таблица представя списък на всички функции от добавката Analysis за Calc и съответните им имена в услугата на UNO."
 
 #. 2NxGD
 #: calc_functions.xhp
@@ -38399,7 +38399,7 @@ msgctxt ""
 "par_id511592356505781\n"
 "help.text"
 msgid "Calc Function name"
-msgstr ""
+msgstr "Име на функция на Calc"
 
 #. b2FSD
 #: calc_functions.xhp
@@ -38408,7 +38408,7 @@ msgctxt ""
 "par_id471592356505782\n"
 "help.text"
 msgid "UNO service name"
-msgstr ""
+msgstr "Име в услугата на UNO"
 
 #. emGWD
 #: calc_functions.xhp
@@ -39326,7 +39326,7 @@ msgctxt ""
 "hd_id661632676736180\n"
 "help.text"
 msgid "UNO Service Names for Date Add-In Functions"
-msgstr ""
+msgstr "Имена в услугата на UNO за функциите от добавката Date"
 
 #. QMryg
 #: calc_functions.xhp
@@ -39335,7 +39335,7 @@ msgctxt ""
 "par_id751629988674793\n"
 "help.text"
 msgid "The table below presents a list of all Calc Date Add-In functions and their respective UNO service names."
-msgstr ""
+msgstr "Долната таблица представя списък на всички функции от добавката Date за Calc и съответните им имена в услугата на UNO."
 
 #. dcQK3
 #: calc_functions.xhp
@@ -39344,7 +39344,7 @@ msgctxt ""
 "par_id511593356505781\n"
 "help.text"
 msgid "Calc Function name"
-msgstr ""
+msgstr "Име на функция на Calc"
 
 #. TEzJG
 #: calc_functions.xhp
@@ -39353,7 +39353,7 @@ msgctxt ""
 "par_id471593356505782\n"
 "help.text"
 msgid "UNO service name"
-msgstr ""
+msgstr "Име в услугата на UNO"
 
 #. J6Jdh
 #: calc_functions.xhp
@@ -39362,7 +39362,7 @@ msgctxt ""
 "par_id721593355432992\n"
 "help.text"
 msgid "DAYSINMONTH"
-msgstr ""
+msgstr "DAYSINMONTH"
 
 #. yW5C5
 #: calc_functions.xhp
@@ -39371,7 +39371,7 @@ msgctxt ""
 "par_id761641413741892\n"
 "help.text"
 msgid "DAYSINYEAR"
-msgstr ""
+msgstr "DAYSINYEAR"
 
 #. vXhZ9
 #: calc_functions.xhp
@@ -39380,7 +39380,7 @@ msgctxt ""
 "par_id11641413916930\n"
 "help.text"
 msgid "MONTHS"
-msgstr ""
+msgstr "MONTHS"
 
 #. gWTY8
 #: calc_functions.xhp
@@ -39389,7 +39389,7 @@ msgctxt ""
 "par_id761641413962003\n"
 "help.text"
 msgid "WEEKS"
-msgstr ""
+msgstr "WEEKS"
 
 #. DjCEK
 #: calc_functions.xhp
@@ -39398,7 +39398,7 @@ msgctxt ""
 "par_id71641413988924\n"
 "help.text"
 msgid "YEARS"
-msgstr ""
+msgstr "YEARS"
 
 #. bNKK9
 #: calc_functions.xhp
@@ -39407,7 +39407,7 @@ msgctxt ""
 "par_id341641414018758\n"
 "help.text"
 msgid "ROT13"
-msgstr ""
+msgstr "ROT13"
 
 #. A7nYJ
 #: calc_functions.xhp
@@ -39416,7 +39416,7 @@ msgctxt ""
 "par_id171641414040589\n"
 "help.text"
 msgid "WEEKSINYEAR"
-msgstr ""
+msgstr "WEEKSINYEAR"
 
 #. qqkuj
 #: calc_functions.xhp
@@ -39425,7 +39425,7 @@ msgctxt ""
 "hd_id661632676732180\n"
 "help.text"
 msgid "UNO Service Names for Pricing Add-In Functions"
-msgstr ""
+msgstr "Имена в услугата на UNO за функциите от добавката Pricing"
 
 #. ErZSq
 #: calc_functions.xhp
@@ -39434,7 +39434,7 @@ msgctxt ""
 "par_id751629983674793\n"
 "help.text"
 msgid "The table below presents a list of all Calc Pricing Add-In functions and their respective UNO service names."
-msgstr ""
+msgstr "Долната таблица представя списък на всички функции от добавката Pricing за Calc и съответните им имена в услугата на UNO."
 
 #. mwzeA
 #: calc_functions.xhp
@@ -39443,7 +39443,7 @@ msgctxt ""
 "par_id511593356506781\n"
 "help.text"
 msgid "Calc Function name"
-msgstr ""
+msgstr "Име на функция на Calc"
 
 #. TRZn5
 #: calc_functions.xhp
@@ -39452,7 +39452,7 @@ msgctxt ""
 "par_id471593356505762\n"
 "help.text"
 msgid "UNO service name"
-msgstr ""
+msgstr "Име в услугата на UNO"
 
 #. rQJPp
 #: calc_functions.xhp
@@ -39461,7 +39461,7 @@ msgctxt ""
 "par_id701641414383401\n"
 "help.text"
 msgid "OPT_BARRIER"
-msgstr ""
+msgstr "OPT_BARRIER"
 
 #. zF653
 #: calc_functions.xhp
@@ -39470,7 +39470,7 @@ msgctxt ""
 "par_id131641414493411\n"
 "help.text"
 msgid "OPT_PROB_HIT"
-msgstr ""
+msgstr "OPT_PROB_HIT"
 
 #. 2xAys
 #: calc_functions.xhp
@@ -39479,7 +39479,7 @@ msgctxt ""
 "par_id81641414542294\n"
 "help.text"
 msgid "OPT_PROB_INMONEY"
-msgstr ""
+msgstr "OPT_PROB_INMONEY"
 
 #. WKVoC
 #: calc_functions.xhp
@@ -39488,7 +39488,7 @@ msgctxt ""
 "par_id711641414594816\n"
 "help.text"
 msgid "OPT_TOUCH"
-msgstr ""
+msgstr "OPT_TOUCH"
 
 #. WS3B9
 #: classmodule.xhp
@@ -39974,7 +39974,7 @@ msgctxt ""
 "N0120\n"
 "help.text"
 msgid "<literal>CompatibilityMode()</literal> function controls runtime mode and affects all code executed after setting or resetting the mode."
-msgstr ""
+msgstr "Функцията <literal>CompatibilityMode()</literal> управлява режима на изпълнение и влияе върху всичкия код, изпълняван след включване или изключване на режима."
 
 #. YSokk
 #: compatibilitymode.xhp
@@ -40037,7 +40037,7 @@ msgctxt ""
 "par_id901639929393688\n"
 "help.text"
 msgid "Color components calculation with the <link href=\"text/sbasic/shared/03010303.xhp\" name=\"linkred\"><literal>Red</literal></link> and <link href=\"text/sbasic/shared/03010301.xhp\" name=\"linkblue\"><literal>Blue</literal></link> functions which <emph>are interchanged</emph> (The <link href=\"text/sbasic/shared/03010302.xhp\" name=\"linkgreen\"><literal>Green</literal></link> function is not affected)."
-msgstr ""
+msgstr "Изчисляване на цветови компоненти с функциите <link href=\"text/sbasic/shared/03010303.xhp\" name=\"linkred\"><literal>Red</literal></link> и <link href=\"text/sbasic/shared/03010301.xhp\" name=\"linkblue\"><literal>Blue</literal></link>, които <emph>са разменени</emph> (Функцията <link href=\"text/sbasic/shared/03010302.xhp\" name=\"linkgreen\"><literal>Green</literal></link> не е засегната)."
 
 #. piCTC
 #: compatibilitymode.xhp
@@ -40109,7 +40109,7 @@ msgctxt ""
 "N0103\n"
 "help.text"
 msgid "<bookmark_value>VBA compatibility option</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>VBA, оператор за съвместимост</bookmark_value>"
 
 #. imVdb
 #: compatible.xhp
