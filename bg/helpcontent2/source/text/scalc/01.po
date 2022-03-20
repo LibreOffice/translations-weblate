@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-02-18 12:17+0100\n"
-"PO-Revision-Date: 2022-03-13 07:39+0000\n"
+"PO-Revision-Date: 2022-03-20 12:48+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/bg/>\n"
 "Language: bg\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.11.2\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1562357170.000000\n"
 
@@ -20040,7 +20040,7 @@ msgctxt ""
 "par_id401624454547945\n"
 "help.text"
 msgid "Beware that Calc's AutoCorrect function may modify double quotation marks. AutoCorrect should not change the double quotation marks within formula cells but may change those used in non-formula cells containing text. For example, if you copy a string that is surrounded by some other form of typographical double quotation marks, such as the left double quotation mark (U+201C) and the right double quotation mark (U+201D), and then paste into a formula cell, an error may result. Open the <emph>Double Quotes</emph> area of the <menuitem>Tools - AutoCorrect Options - Localized Options</menuitem> dialog to set the characters used to automatically correct the start and end typographical double quotation marks. Uncheck the <menuitem>Replace</menuitem> toggle button to disable the feature."
-msgstr ""
+msgstr "Имайте предвид, че функцията на Calc за автокоригиране може да замени двойните кавички. Автокоригирането не променя двойни кавички в клетки с формули, но може да замести тези в клетките без формули, които съдържат текст. Например ако копирате низ, който е ограден от някакъв друг вид типографски двойни кавички, например лява двойна кавичка (U+201C) и дясна двойна кавичка (U+201D), и ги поставите в клетка с формула, може да възникне грешка. Отворете областта <emph>Двойни кавички</emph> от диалога <menuitem>Инструменти - Настройки на автокорекция - Локализирани настройки</menuitem>, за да зададете знаците, които се използват за автоматично поправяне на началните и крайни типографски двойни кавички. Махнете отметката от <menuitem>Замяна</menuitem>, за да изключите тази функционалност."
 
 #. rdzbS
 #: 04060110.xhp
@@ -20121,7 +20121,7 @@ msgctxt ""
 "par_id3153289\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_BASIS\">Converts a positive integer to a specified base into a text from the <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"numbering system\">numbering system</link>.</ahelp> The digits 0-9 and the letters A-Z are used."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_BASIS\">Преобразува положително цяло число в текст според <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"numbering system\">бройна система</link> с дадена основа.</ahelp> Използват се цифрите от 0 до 9 и буквите от A до Z."
 
 #. 2cDvi
 #: 04060110.xhp
@@ -20472,7 +20472,7 @@ msgctxt ""
 "par_id3156361\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DEZIMAL\">Converts text with characters from a <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"number system\">number system</link> to a positive integer in the base radix given.</ahelp> The radix must be in the range 2 to 36. Spaces and tabs are ignored. The <emph>Text</emph> field is not case-sensitive."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DEZIMAL\">Преобразува текст със знаци от<link href=\"text/shared/00/00000005.xhp#number_system\" name=\"number system\">бройна система</link> с дадена основа в положително цяло число.</ahelp> Основата трябва да бъде между 2 и 36. Интервалите и знаците за табулация се игнорират. В полето <emph>Текст</emph> регистърът на буквите е без значение."
 
 #. 5yN72
 #: 04060110.xhp
@@ -20994,7 +20994,7 @@ msgctxt ""
 "par_id2949141\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\"; 1)</item> връща \" \" (1 байт е само половин DBCS знак и вместо това се връща интервал)."
 
 #. mQvUN
 #: 04060110.xhp
@@ -21003,7 +21003,7 @@ msgctxt ""
 "par_id2949151\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\"; 2)</item> връща \"中\" (2 байта представляват един цял DBCS знак)."
 
 #. qAEZ3
 #: 04060110.xhp
@@ -21012,7 +21012,7 @@ msgctxt ""
 "par_id2949161\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";3)</item> returns \"中 \" (3 bytes constitute one DBCS character and a half; the last character returned is therefore a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\"; 3)</item> връща \"中 \" (3 байта представляват един и половина DBCS знака; затова последният върнат знак е интервал)."
 
 #. s3UVQ
 #: 04060110.xhp
@@ -21021,7 +21021,7 @@ msgctxt ""
 "par_id2949171\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"中国\"; 4)</item> връща \"中国\" (4 байта представляват два цели DBCS знака)."
 
 #. FM3FS
 #: 04060110.xhp
@@ -21030,7 +21030,7 @@ msgctxt ""
 "par_id2949181\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"office\";3)</item> returns \"off\" (3 non-DBCS characters each consisting of 1 byte)."
-msgstr ""
+msgstr "<item type=\"input\">=LEFTB(\"office\"; 3)</item> връща \"off\" (3 не-DBCS знака, всеки по 1 байт)."
 
 #. eEgeD
 #: 04060110.xhp
@@ -21381,7 +21381,7 @@ msgctxt ""
 "par_id2958417\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;0)</item> returns \"\" (0 bytes is always an empty string)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\"; 1; 0)</item> връща \"\" (0 байта винаги означава празен низ)."
 
 #. q6dWL
 #: 04060110.xhp
@@ -21390,7 +21390,7 @@ msgctxt ""
 "par_id2958427\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;1)</item> returns \" \" (1 byte is only half a DBCS character and therefore the result is a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\"; 1; 1)</item> връща \" \" (1 байт е само половин DBCS знак, затова резултатът е интервал)."
 
 #. CfNES
 #: 04060110.xhp
@@ -21399,7 +21399,7 @@ msgctxt ""
 "par_id2958437\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\"; 1; 2)</item> връща \"中\" (2 байта образуват един цял DBCS знак)."
 
 #. wBLqC
 #: 04060110.xhp
@@ -21408,7 +21408,7 @@ msgctxt ""
 "par_id2958447\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;3)</item> returns \"中 \" (3 bytes constitute one and a half DBCS character; the last byte results in a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\"; 1; 3)</item> връща \"中 \" (3 байта образуват един и половина DBCS знака; на последния байт отговаря знак интервал)."
 
 #. GedmG
 #: 04060110.xhp
@@ -21417,7 +21417,7 @@ msgctxt ""
 "par_id2958457\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\"; 1; 4)</item> връща \"中国\" (4 байта образуват два цели DBCS знака)."
 
 #. dAMAA
 #: 04060110.xhp
@@ -21426,7 +21426,7 @@ msgctxt ""
 "par_id2958467\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;1)</item> returns \" \" (byte position 2 is not at the beginning of a character in a DBCS string; 1 space character is returned)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\"; 2; 1)</item> връща \" \" (байтът на позиция 2 не е в началото на знак в DBCS низ; връща се 1 интервал)."
 
 #. SXLij
 #: 04060110.xhp
@@ -21435,7 +21435,7 @@ msgctxt ""
 "par_id2958477\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;2)</item> returns \" \" (byte position 2 points to the last half of the first character in the DBCS string; the 2 bytes asked for therefore constitutes the last half of the first character and the first half of the second character in the string; 2 space characters are therefore returned)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\"; 2; 2)</item> връща \" \" (байтът на позиция 2 е втората половина на първия знак в DBCS низа, така че поисканите 2 байта обхващат втората половина на първия знак и първата половина на втория знак в низа – затова се връщат 2 интервала)."
 
 #. cFw7V
 #: 04060110.xhp
@@ -21444,7 +21444,7 @@ msgctxt ""
 "par_id2958487\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;3)</item> returns \" 国\" (byte position 2 is not at the beginning of a character in a DBCS string; a space character is returned for byte position 2)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\"; 2; 3)</item> връща \" 国\" (байтът на позиция 2 не е в началото на знак в DBCS низ – за байта на позиция 2 се връща интервал)."
 
 #. drtpL
 #: 04060110.xhp
@@ -21453,7 +21453,7 @@ msgctxt ""
 "par_id2958497\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;1)</item> returns \" \" (byte position 3 is at the beginning of a character in a DBCS string, but 1 byte is only half a DBCS character and a space character is therefore returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\"; 3; 1)</item> връща \" \" (байтът на позиция 3 е в началото на знак в DBCS низ, но 1 байт е само половин DBCS знак, затова вместо него се връща интервал)."
 
 #. koipq
 #: 04060110.xhp
@@ -21462,7 +21462,7 @@ msgctxt ""
 "par_id2958507\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;2)</item> returns \"国\" (byte position 3 is at the beginning of a character in a DBCS string, and 2 bytes constitute one DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"中国\"; 3; 2)</item> връща \"国\" (байтът на позиция 3 е в началото на знак в DBCS низ и 2 байта са цял DBCS знак)."
 
 #. aQmsH
 #: 04060110.xhp
@@ -21471,7 +21471,7 @@ msgctxt ""
 "par_id2958517\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"office\";2;3)</item> returns \"ffi\" (byte position 2 is at the beginning of a character in a non-DBCS string, and 3 bytes of a non-DBCS string constitute 3 characters)."
-msgstr ""
+msgstr "<item type=\"input\">=MIDB(\"office\"; 2; 3)</item> връща \"ffi\" (байтът на позиция 2 е в началото на знак в не-DBCS низ, а 3 байта от не-DBCS низ представляват 3 знака)."
 
 #. k4kCo
 #: 04060110.xhp
@@ -21687,7 +21687,7 @@ msgctxt ""
 "par_id381626381556310\n"
 "help.text"
 msgid "Refer to the <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/REPT\" name=\"REPT_Wiki\">REPT</link> wiki page for more details about this function."
-msgstr ""
+msgstr "Вижте уикистраницата <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/REPT\" name=\"REPT_Wiki\">REPT</link> за повече подробности относно тази функция."
 
 #. mtFNA
 #: 04060110.xhp
@@ -21741,7 +21741,7 @@ msgctxt ""
 "par_id3153350\n"
 "help.text"
 msgid "<emph>Number</emph> (optional) is the number of characters from the right part of the text. If this parameter is not defined, one character is returned."
-msgstr ""
+msgstr "<emph>Брой</emph> (незадължителен) е броят на знаците от дясната част на текста. Ако параметърът е пропуснат, се връща един знак."
 
 #. xNFMc
 #: 04060110.xhp
@@ -21804,7 +21804,7 @@ msgctxt ""
 "par_id2953350\n"
 "help.text"
 msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want RIGHTB to extract, based on bytes. If this parameter is not defined, one byte is returned."
-msgstr ""
+msgstr "<emph>Брой_байтове</emph> (незадължителен) указва броя на знаците, които RIGHTB да извлече, като брой байтове. Ако параметърът е пропуснат, се връща един байт."
 
 #. KnAgN
 #: 04060110.xhp
@@ -22722,7 +22722,7 @@ msgctxt ""
 "par_id151626469224135\n"
 "help.text"
 msgid "<input>=ROT13(\"Gur Qbphzrag Sbhaqngvba jnf sbhaqrq va Frcgrzore 2010.\")</input> returns the string \"The Document Foundation was founded in September 2010.\". Notice how spaces, digits, and full stops are unaffected by ROT13."
-msgstr ""
+msgstr "<input>=ROT13(\"Gur Qbphzrag Sbhaqngvba jnf sbhaqrq va Frcgrzore 2010.\")</input> връща низа \"The Document Foundation was founded in September 2010.\". Обърнете внимание, че интервалите, цифрите и точката не се влияят от ROT13."
 
 #. 4TMAT
 #: 04060111.xhp
@@ -22731,7 +22731,7 @@ msgctxt ""
 "par_id221626469509161\n"
 "help.text"
 msgid "Refer to the <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ROT13\" name=\"ROT13_Wiki\">ROT13</link> wiki page for more details about this function."
-msgstr ""
+msgstr "Вижте уикистраницата <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ROT13\" name=\"ROT13_Wiki\">ROT13</link> за повече подробности относно тази функция."
 
 #. CFJsA
 #: 04060111.xhp
@@ -22884,7 +22884,7 @@ msgctxt ""
 "par_id3151387\n"
 "help.text"
 msgid "<emph>StartDate</emph> is the start date in the interval."
-msgstr ""
+msgstr "<emph>НачалнаДата</emph> е началната дата на интервала."
 
 #. AGYKD
 #: 04060111.xhp
@@ -22893,7 +22893,7 @@ msgctxt ""
 "par_id3146324\n"
 "help.text"
 msgid "<emph>EndDate</emph> is the end date in the interval. The end date must be greater than the start date, or else an error is returned."
-msgstr ""
+msgstr "<emph>КрайнаДата</emph> е крайната дата на интервала. Крайната дата трябва да бъде по-голяма от началната, иначе се връща грешка."
 
 #. PcBbC
 #: 04060111.xhp
@@ -22902,7 +22902,7 @@ msgctxt ""
 "par_id3166467\n"
 "help.text"
 msgid "<emph>Type</emph> specifies the type of difference to be calculated. Possible values are 0 (time interval) or 1 (calendar weeks)."
-msgstr ""
+msgstr "<emph>Тип</emph> указва типа на разликата, която да бъде изчислена. Възможните стойности са 0 (времеви интервал) или 1 (календарни седмици)."
 
 #. QaW6B
 #: 04060111.xhp
@@ -22911,7 +22911,7 @@ msgctxt ""
 "par_id81641990941192\n"
 "help.text"
 msgid "If <emph>Type = 0</emph> the function will assume that 7 days is equivalent to one week without considering any specific day to mark the beginning of a week."
-msgstr ""
+msgstr "Ako <emph>Тип = 0</emph>, функцията ще приеме, че 7 дни са равнозначни на една седмица, без да взема някой конкретен ден за начало на седмица."
 
 #. geCV7
 #: 04060111.xhp
@@ -22920,7 +22920,7 @@ msgctxt ""
 "par_id31641991010650\n"
 "help.text"
 msgid "If <emph>Type = 1</emph> the function will consider Monday to be the first day of the week. Therefore, except for the start date, each occurrence of a Monday in the interval is counted as an additional week."
-msgstr ""
+msgstr "Ако <emph>Тип = 1</emph>, функцията ще приеме понеделник за първи ден на седмицата. Тогава всяко срещане на понеделник в интервала, с изключение на началната дата, се смята за още една седмица."
 
 #. CF4K3
 #: 04060111.xhp
@@ -22929,7 +22929,7 @@ msgctxt ""
 "par_id971641990480242\n"
 "help.text"
 msgid "This function considers Monday to be the first day of the week regardless of the current locale settings."
-msgstr ""
+msgstr "Тази функция приема понеделник за първи ден на седмицата независимо от текущите настройки за локал."
 
 #. H2Gpc
 #: 04060111.xhp
@@ -22938,7 +22938,7 @@ msgctxt ""
 "par_id671641994821992\n"
 "help.text"
 msgid "In the following examples, dates are passed as strings. However, they can also be stored in separate cells and be passed as references."
-msgstr ""
+msgstr "В следващите примери датите се предават като низове. Те обаче могат да се съхраняват и в отделни клетки и да се предават като обръщения."
 
 #. SyEBP
 #: 04060111.xhp
@@ -22947,7 +22947,7 @@ msgctxt ""
 "par_id71641991391639\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/12/2022\",\"01/17/2022\",0)</input> returns 0 because <emph>Type</emph> was set to 0 and there are only 5 days in the interval."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\";\"2022-01-17\";0)</input> връща 0, защото за <emph>Тип</emph> е зададена стойност 0 и в интервала има само 5 дни."
 
 #. zVfY3
 #: 04060111.xhp
@@ -22956,7 +22956,7 @@ msgctxt ""
 "par_id71641991390039\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/12/2022\",\"01/19/2022\",0)</input> returns 1 because <emph>Type</emph> was set to 0 and there are 7 days in the interval."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\";\"2022-01-19\";0)</input> връща 1, защото за <emph>Тип</emph> е зададена стойност 0 и в интервала има 7 дни."
 
 #. rABLZ
 #: 04060111.xhp
@@ -22965,7 +22965,7 @@ msgctxt ""
 "par_id71641991391123\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/12/2022\",\"01/17/2022\",1)</input> returns 1 because <emph>Type</emph> was set to 1 and the interval contains a Monday, since 01/12/2022 is a Wednesday and 01/17/2022 is a Monday."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\";\"2022-01-17\";1)</input> връща 1, защото на <emph>Тип</emph> е зададена стойност 1 и интервалът съдържа понеделник, тъй като 12.01.2022 г. е сряда, а 17.01.2011 г. е понеделник."
 
 #. AxokT
 #: 04060111.xhp
@@ -22974,7 +22974,7 @@ msgctxt ""
 "par_id71641991332523\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/10/2022\",\"01/15/2022\",1)</input> returns 0 because <emph>Type</emph> was set to 1 and the interval does not contain any Mondays, except for the start date."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-10\";\"2022-01-15\";1)</input> връща 0, защото на <emph>Тип</emph> е зададена стойност 1 и интервалът не съдържа понеделници освен началната дата."
 
 #. 94JhK
 #: 04060111.xhp
@@ -32046,7 +32046,7 @@ msgctxt ""
 "par_id3149825\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_BETAINV\">Returns the inverse of the cumulative Beta probability density function.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_BETAINV\">Изчислява обратната на кумулативната функция на бета-разпределение.</ahelp>"
 
 #. 9kR89
 #: 04060181.xhp
@@ -32064,7 +32064,7 @@ msgctxt ""
 "par_id3149266\n"
 "help.text"
 msgid "<emph>Number</emph> is the probability associated with the Beta distribution for the given arguments <emph>Alpha</emph> and <emph>Beta</emph>."
-msgstr ""
+msgstr "<emph>Число</emph> е вероятността, свързана с бета-разпределението за дадените аргументи <emph>Алфа</emph> и <emph>Бета</emph>."
 
 #. dxYmS
 #: 04060181.xhp
@@ -32073,7 +32073,7 @@ msgctxt ""
 "par_id3149710\n"
 "help.text"
 msgid "<emph>Alpha</emph> is a strictly positive parameter of the Beta distribution."
-msgstr ""
+msgstr "<emph>Алфа</emph> е строго положителен параметър на бета-разпределението."
 
 #. kzkLn
 #: 04060181.xhp
@@ -32082,7 +32082,7 @@ msgctxt ""
 "par_id3156306\n"
 "help.text"
 msgid "<emph>Beta</emph> is a strictly positive parameter of the Beta distribution."
-msgstr ""
+msgstr "<emph>Бета</emph> е строго положителен параметър на бета-разпределението."
 
 #. GMG7C
 #: 04060181.xhp
@@ -32091,7 +32091,7 @@ msgctxt ""
 "par_id3150960\n"
 "help.text"
 msgid "<emph>Start</emph> (optional) is the lower bound of the output range of the function. If omitted, the default value is 0."
-msgstr ""
+msgstr "<emph>Начало</emph> (незадължителен) е долната граница на изходния диапазон на функцията. Ако е пропуснат, подразбираната стойност е 0."
 
 #. NNPPv
 #: 04060181.xhp
@@ -32100,7 +32100,7 @@ msgctxt ""
 "par_id3151268\n"
 "help.text"
 msgid "<emph>End</emph> (optional) is the upper bound of the output range of the function. If omitted, the default value is 1."
-msgstr ""
+msgstr "<emph>Край</emph> (незадължителен) е горната граница на изходния диапазон на функцията. Ако е пропуснат, подразбираната стойност е 1."
 
 #. CfVEd
 #: 04060181.xhp
@@ -32109,7 +32109,7 @@ msgctxt ""
 "par_id3146859\n"
 "help.text"
 msgid "<input>=BETAINV(0.5;5;10)</input> returns the value 0.3257511553."
-msgstr ""
+msgstr "<input>=BETAINV(0,5;5;10)</input> връща стойността 0,3257511553."
 
 #. hpGub
 #: 04060181.xhp
@@ -32118,7 +32118,7 @@ msgctxt ""
 "par_id871621424421294\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/BETAINV\">BETAINV Wiki page</link>"
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/BETAINV\">Уикистраница за BETAINV</link>"
 
 #. kAezG
 #: 04060181.xhp
@@ -32127,7 +32127,7 @@ msgctxt ""
 "bm_id2945620\n"
 "help.text"
 msgid "<bookmark_value>BETA.INV function</bookmark_value><bookmark_value>cumulative probability density function;inverse of</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>BETA.INV, функция</bookmark_value><bookmark_value>кумулативна функция на разпределение;обратна</bookmark_value>"
 
 #. SdmAC
 #: 04060181.xhp
@@ -32145,7 +32145,7 @@ msgctxt ""
 "par_id2949825\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_BETAINV_MS\">Returns the inverse of the cumulative Beta probability density function.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_BETAINV_MS\">Изчислява обратната на кумулативната функция на бета-разпределение.</ahelp>"
 
 #. xtGcA
 #: 04060181.xhp
@@ -32163,7 +32163,7 @@ msgctxt ""
 "par_id2949266\n"
 "help.text"
 msgid "<emph>Number</emph> is the probability associated with the Beta distribution for the given arguments <emph>Alpha</emph> and <emph>Beta</emph>."
-msgstr ""
+msgstr "<emph>Число</emph> е вероятността, свързана с бета-разпределението за дадените аргументи <emph>Алфа</emph> и <emph>Бета</emph>."
 
 #. oRwEr
 #: 04060181.xhp
@@ -32172,7 +32172,7 @@ msgctxt ""
 "par_id2949710\n"
 "help.text"
 msgid "<emph>Alpha</emph> is a strictly positive parameter of the Beta distribution."
-msgstr ""
+msgstr "<emph>Алфа</emph> е строго положителен параметър на бета-разпределението."
 
 #. AcKWH
 #: 04060181.xhp
@@ -32181,7 +32181,7 @@ msgctxt ""
 "par_id2956306\n"
 "help.text"
 msgid "<emph>Beta</emph> is a strictly positive parameter of the Beta distribution."
-msgstr ""
+msgstr "<emph>Бета</emph> е строго положителен параметър на бета-разпределението."
 
 #. Xijgg
 #: 04060181.xhp
@@ -32190,7 +32190,7 @@ msgctxt ""
 "par_id2950960\n"
 "help.text"
 msgid "<emph>Start</emph> (optional) is the lower bound of the output range of the function. If omitted, the default value is 0."
-msgstr ""
+msgstr "<emph>Начало</emph> (незадължителен) е долната граница на изходния диапазон на функцията. Ако е пропуснат, подразбираната стойност е 0."
 
 #. Rg7zt
 #: 04060181.xhp
@@ -32199,7 +32199,7 @@ msgctxt ""
 "par_id2951268\n"
 "help.text"
 msgid "<emph>End</emph> (optional) is the upper bound of the output range of the function. If omitted, the default value is 1."
-msgstr ""
+msgstr "<emph>Край</emph> (незадължителен) е горната граница на изходния диапазон на функцията. Ако е пропуснат, подразбираната стойност е 1."
 
 #. dbj7p
 #: 04060181.xhp
@@ -32208,7 +32208,7 @@ msgctxt ""
 "par_id2946859\n"
 "help.text"
 msgid "<input>=BETA.INV(0.5;5;10)</input> returns the value 0.3257511553."
-msgstr ""
+msgstr "<input>=BETA.INV(0,5;5;10)</input> връща стойността 0,3257511553."
 
 #. Qrj6p
 #: 04060181.xhp
@@ -32217,7 +32217,7 @@ msgctxt ""
 "par_id841621424421294\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/BETA.INV\">BETA.INV Wiki page</link>"
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/BETA.INV\">Уикистраница за BETA.INV</link>"
 
 #. fbcUB
 #: 04060181.xhp
@@ -37644,7 +37644,7 @@ msgctxt ""
 "par_id3150254\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_PHI\">Returns the value of the probability density function for a given value considering the standard normal distribution.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_PHI\">Изчислява на функцията на плътност на стандартното нормално разпределение за дадена стойност.</ahelp>"
 
 #. oEGwC
 #: 04060184.xhp
@@ -37653,7 +37653,7 @@ msgctxt ""
 "par_id151629986285891\n"
 "help.text"
 msgid "<input>PHI(Number)</input>"
-msgstr ""
+msgstr "<input>PHI(Число)</input>"
 
 #. 4JwEu
 #: 04060184.xhp
@@ -37662,7 +37662,7 @@ msgctxt ""
 "par_id3156108\n"
 "help.text"
 msgid "<emph>Number</emph> is the value for which the probability density function is calculated."
-msgstr ""
+msgstr "<emph>Число</emph> е стойността, за която се изчислява функцията на плътност."
 
 #. 92hiK
 #: 04060184.xhp
@@ -37671,7 +37671,7 @@ msgctxt ""
 "par_id3155849\n"
 "help.text"
 msgid "<input>=PHI(2.25)</input> returns 0.0317."
-msgstr ""
+msgstr "<input>=PHI(2,25)</input> връща 0,0317."
 
 #. NsLhE
 #: 04060184.xhp
@@ -37680,7 +37680,7 @@ msgctxt ""
 "par_id3143236\n"
 "help.text"
 msgid "<input>=PHI(-2.25)</input> also returns 0.0317 because the normal distribution is symmetrical."
-msgstr ""
+msgstr "<input>=PHI(-2,25)</input> също връща 0,0317, защото нормалното разпределение е симетрично."
 
 #. NXho4
 #: 04060184.xhp
@@ -37689,7 +37689,7 @@ msgctxt ""
 "par_id3149286\n"
 "help.text"
 msgid "<input>=PHI(0)</input> returns 0.3989."
-msgstr ""
+msgstr "<input>=PHI(0)</input> връща 0,3989."
 
 #. GMDrd
 #: 04060184.xhp
@@ -37698,7 +37698,7 @@ msgctxt ""
 "par_id611629985664328\n"
 "help.text"
 msgid "Calling <input>PHI(Number)</input> is equivalent to calling <input>NORMDIST(Number,0,1,FALSE())</input> or <input>NORM.S.DIST(Number;FALSE())</input>, hence using the standard normal distribution with mean equal to 0 and standard deviation equal to 1 with the <emph>Cumulative</emph> argument set to <emph>False.</emph>"
-msgstr ""
+msgstr "Извикването на <input>PHI(Число)</input> е еквивалентно на <input>NORMDIST(Число;0;1;FALSE())</input> или <input>NORM.S.DIST(Число;FALSE())</input>, тоест стандартно нормално разпределение със средна стойност 0 и стандартно отклонение 1, с аргумент <emph>Кумулативна</emph>, равен на <emph>False</emph>."
 
 #. vqBTN
 #: 04060184.xhp
@@ -41388,7 +41388,7 @@ msgctxt ""
 "par_id881623862728559\n"
 "help.text"
 msgid "Prefix \"-\" (negation) has a higher precedence than \"^\" (exponentiation). For example -3^2 equals 9, which is the square of a negative number."
-msgstr ""
+msgstr "Префиксът „-“ (обръщане на знака) има по-висок приоритет от „^“ (степенуване). Например -3^2 е равно на 9, защото е квадрат на отрицателно число."
 
 #. 77TDi
 #: 04060199.xhp
@@ -42495,7 +42495,7 @@ msgctxt ""
 "par_id3152576\n"
 "help.text"
 msgid "The <emph>Function List</emph> window is a resizable <link href=\"text/shared/00/00000005.xhp#docking\" name=\"dockable window\">dockable window</link>. Use it to quickly enter functions in the spreadsheet. By double-clicking an entry in the functions list, the respective function is directly inserted with all parameters."
-msgstr ""
+msgstr "Прозорецът <emph>Списък на функциите</emph> може да се преоразмерява и <link href=\"text/shared/00/00000005.xhp#docking\" name=\"dockable window\">закачва</link>. Чрез него можете бързо да въвеждате функции в електронната таблица. Двукратното щракване върху елемент от списъка с функции вмъква съответната функция заедно с всичките ѝ параметри."
 
 #. tu2NZ
 #: 04080000.xhp
@@ -42558,7 +42558,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "External Links"
-msgstr ""
+msgstr "Външни връзки"
 
 #. Fnwpz
 #: 04090000.xhp
@@ -42576,7 +42576,7 @@ msgctxt ""
 "hd_id3145785\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04090000.xhp\" name=\"External Data\">External Links</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04090000.xhp\" name=\"External Data\">Външни връзки</link>"
 
 #. SaAut
 #: 04090000.xhp
