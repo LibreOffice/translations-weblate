@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-02-18 12:16+0100\n"
+"POT-Creation-Date: 2022-03-21 12:30+0100\n"
 "PO-Revision-Date: 2022-03-20 12:44+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/de/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1566197858.000000\n"
 
 #. GyY9M
@@ -2153,11 +2153,11 @@ msgctxt "RID_CUISTR_CLICK_RESULT"
 msgid "(Click on any test to view its resultant bitmap image)"
 msgstr "(Klicken Sie auf einen Test, um die entstehende Bitmap anzuzeigen.)"
 
-#. YFfQV
+#. BT9KG
 #: cui/inc/strings.hrc:403
 msgctxt "RID_CUISTR_ZIPFAIL"
-msgid "Creation of Zip file failed!"
-msgstr "Erstellung der Zip-Datei fehlgeschlagen!"
+msgid "Creation of ZIP file failed."
+msgstr ""
 
 #. 9QSQr
 #: cui/inc/strings.hrc:404
@@ -2240,11 +2240,11 @@ msgctxt "RID_CUI_TIPOFTHEDAY"
 msgid "Find all expressions in brackets per Edit ▸ Find and Replace ▸ Find ▸ \\([^)]+\\) (check “Regular expressions”)"
 msgstr "Um alle Ausdrücke in Klammern zu suchen, wählen Sie »Bearbeiten ▸ Suchen und ersetzen… ▸ Textfeld: Suchen ▸ \\ ([^)]+\\)« (aktivieren Sie das Markierfeld \"Reguläre Ausdrücke\")."
 
-#. DUvk6
+#. jpiRT
 #: cui/inc/tipoftheday.hrc:62
 msgctxt "RID_CUI_TIPOFTHEDAY"
-msgid "Select a different icon set from Tools ▸ Options ▸ %PRODUCTNAME ▸ View ▸ User Interface ▸ Icon style."
-msgstr "Um einen anderen Symbolsatz zu verwenden, wählen Sie »Extras ▸ Optionen… ▸ %PRODUCTNAME ▸ Ansicht ▸ Bereich: Benutzeroberfläche ▸ Dropdown-Menü: Symbolstil«."
+msgid "Select a different icon set from Tools ▸ Options ▸ %PRODUCTNAME ▸ View ▸ User Interface ▸ Icon Theme."
+msgstr ""
 
 #. RejqP
 #: cui/inc/tipoftheday.hrc:63
@@ -3057,12 +3057,12 @@ msgctxt "RID_CUI_TIPOFTHEDAY"
 msgid "Automatically mark alphabetical index entries using a concordance file."
 msgstr "Um in Writer automatisch alle Verzeichniseinträge alphabetisch zu markieren, nehmen Sie eine Konkordanzdatei zu Hilfe."
 
-#. BnMpb
+#. DBfad
 #. local help missing
 #: cui/inc/tipoftheday.hrc:197
 msgctxt "RID_CUI_TIPOFTHEDAY"
-msgid "Use Format ▸ Align (or the context menu) for precise positioning of objects in Draw/Impress: it centers on the page if one object is selected or works on the group respectively."
-msgstr "Um in Draw/Impress Objekte genau zu positionieren, wählen Sie »Format ▸ Ausrichten« (oder das Kontextmenü): Es wird auf der Seite zentriert, wenn ein Objekt ausgewählt ist, oder entsprechend die Gruppe."
+msgid "Use Format ▸ Align Objects in Impress or Shape ▸ Align Objects in Draw (or the context menu) for precise positioning of objects: it centers on the page if one object is selected or works on the group respectively."
+msgstr ""
 
 #. TijVG
 #: cui/inc/tipoftheday.hrc:198
@@ -4446,68 +4446,74 @@ msgctxt "accelconfigpage|extended_tip|save"
 msgid "Saves the current shortcut key configuration, so that you can load it later."
 msgstr "Speichert die aktuelle Tastenkombination, damit sie künftig geladen werden kann."
 
-#. mJmga
-#: cui/uiconfig/ui/accelconfigpage.ui:297
+#. oSRQ7
+#: cui/uiconfig/ui/accelconfigpage.ui:295
+msgctxt "accelconfigpage|tooltip|reset"
+msgid "Unsaved modifications to shortcut keys are reverted."
+msgstr ""
+
+#. stv4J
+#: cui/uiconfig/ui/accelconfigpage.ui:298
 msgctxt "accelconfigpage|extended_tip|reset"
-msgid "Resets modified values back to the default values."
-msgstr "Setzt die geänderten Werte auf die Standardwerte zurück."
+msgid "Revert any changes made to keyboard shortcuts to the assignments that were present when this dialog was opened."
+msgstr ""
 
 #. BKAsD
-#: cui/uiconfig/ui/accelconfigpage.ui:348
+#: cui/uiconfig/ui/accelconfigpage.ui:349
 msgctxt "accelconfigpage|searchEntry"
 msgid "Type to search"
 msgstr "Tippen zum Suchen"
 
 #. nGtvW
-#: cui/uiconfig/ui/accelconfigpage.ui:352
+#: cui/uiconfig/ui/accelconfigpage.ui:353
 msgctxt "accelconfigpage|extended_tip|searchEntry"
 msgid "Type here to search in the list of functions."
 msgstr "Tippen Sie hier, um in der Liste der Funktionen zu suchen."
 
 #. T5FGo
-#: cui/uiconfig/ui/accelconfigpage.ui:374
+#: cui/uiconfig/ui/accelconfigpage.ui:375
 msgctxt "accelconfigpage|label23"
 msgid "_Category"
 msgstr "_Bereich"
 
 #. xfWzA
-#: cui/uiconfig/ui/accelconfigpage.ui:388
+#: cui/uiconfig/ui/accelconfigpage.ui:389
 msgctxt "accelconfigpage|label24"
 msgid "_Function"
 msgstr "_Funktion"
 
 #. 7PCeb
-#: cui/uiconfig/ui/accelconfigpage.ui:402
+#: cui/uiconfig/ui/accelconfigpage.ui:403
 msgctxt "accelconfigpage|label25"
 msgid "_Keys"
 msgstr "_Tasten"
 
 #. 8DnFJ
-#: cui/uiconfig/ui/accelconfigpage.ui:446
+#: cui/uiconfig/ui/accelconfigpage.ui:447
 msgctxt "accelconfigpage|extended_tip|category"
 msgid "Lists the available function categories. To assign shortcuts to Styles, open the \"Styles\" category."
 msgstr "Zeigt eine Liste der verfügbaren Funktionskategorien an. Um Formatvorlagen bestimmte Tastenkombinationen zuzuweisen, öffnen Sie die Kategorie \"Formatvorlagen\"."
 
 #. wGm8q
-#: cui/uiconfig/ui/accelconfigpage.ui:493
+#: cui/uiconfig/ui/accelconfigpage.ui:494
 msgctxt "accelconfigpage|extended_tip|function"
 msgid "Select a function that you want to assign a shortcut key to, click a key combination in the Shortcut keys list, and then click Modify. If the selected function already has a shortcut key, it is displayed in the Keys list."
 msgstr "Wählen Sie eine einer Tastenkombination zuzuordnende Funktion, klicken Sie auf die gewünschte Kombination in der Liste Tastenkombinationen und dann auf »Ändern«. Sollte eine Funktion bereits über eine Tastenkombination verfügen, so wird diese in der Liste Tasten eingeblendet."
 
 #. PzCaG
-#: cui/uiconfig/ui/accelconfigpage.ui:539
+#: cui/uiconfig/ui/accelconfigpage.ui:540
 msgctxt "accelconfigpage|extended_tip|keys"
 msgid "Displays the shortcut keys that are assigned to the selected function."
 msgstr "Zeigt die der ausgewählten Funktion zugewiesene Tastenkombination an."
 
 #. CqdJF
-#: cui/uiconfig/ui/accelconfigpage.ui:563
+#: cui/uiconfig/ui/accelconfigpage.ui:564
 msgctxt "accelconfigpage|label22"
 msgid "F_unctions"
 msgstr "_Funktionen"
 
 #. kVeWd
-#: cui/uiconfig/ui/accelconfigpage.ui:576
+#: cui/uiconfig/ui/accelconfigpage.ui:577
 msgctxt "accelconfigpage|extended_tip|AccelConfigPage"
 msgid "Assigns or edits the shortcut keys for the office suite commands, or Basic macros."
 msgstr "Hier weisen Sie Tastenkombinationen für die Befehle der Office-Suite oder für einfache Makros zu oder bearbeiten diese."
@@ -7544,24 +7550,28 @@ msgid "HSB"
 msgstr "HSB"
 
 #. sesZZ
+#. This is the C of the CMYK color model: https://en.wikipedia.org/wiki/CMYK_color_model
 #: cui/uiconfig/ui/colorpickerdialog.ui:639
 msgctxt "colorpickerdialog|label5"
 msgid "_Cyan:"
 msgstr "_Cyan:"
 
 #. Gw7rx
+#. This is the M of the CMYK color model: https://en.wikipedia.org/wiki/CMYK_color_model
 #: cui/uiconfig/ui/colorpickerdialog.ui:654
 msgctxt "colorpickerdialog|label6"
 msgid "_Magenta:"
 msgstr "_Magenta:"
 
 #. Uv2KG
+#. This is the Y of the CMYK color model: https://en.wikipedia.org/wiki/CMYK_color_model
 #: cui/uiconfig/ui/colorpickerdialog.ui:669
 msgctxt "colorpickerdialog|label7"
 msgid "_Yellow:"
 msgstr "_Gelb (Yellow):"
 
 #. aFvbe
+#. This is the K of the CMYK color model: https://en.wikipedia.org/wiki/CMYK_color_model
 #: cui/uiconfig/ui/colorpickerdialog.ui:684
 msgctxt "colorpickerdialog|label8"
 msgid "_Key:"
@@ -7598,7 +7608,7 @@ msgid "CMYK"
 msgstr "CMYK"
 
 #. HuUmH
-#: cui/uiconfig/ui/colorpickerdialog.ui:815
+#: cui/uiconfig/ui/colorpickerdialog.ui:812
 msgctxt "extended tip | ColorPicker"
 msgid "Define custom colors using a two-dimensional graphic and numerical gradient chart of the Pick a Color dialog."
 msgstr ""
@@ -17376,219 +17386,219 @@ msgid "_Orientation:"
 msgstr "_Ausrichtung:"
 
 #. mtFWf
-#: cui/uiconfig/ui/pageformatpage.ui:131
+#: cui/uiconfig/ui/pageformatpage.ui:135
 msgctxt "pageformatpage|radiobuttonPortrait"
 msgid "_Portrait"
 msgstr "Ho_chformat"
 
 #. LGkU8
-#: cui/uiconfig/ui/pageformatpage.ui:150
+#: cui/uiconfig/ui/pageformatpage.ui:154
 msgctxt "pageformatpage|radiobuttonLandscape"
 msgid "L_andscape"
 msgstr "_Querformat"
 
 #. PTwDK
-#: cui/uiconfig/ui/pageformatpage.ui:172
+#: cui/uiconfig/ui/pageformatpage.ui:176
 msgctxt "pageformatpage|labelTextFlow"
 msgid "_Text direction:"
 msgstr "Te_xtrichtung:"
 
 #. FmMdc
-#: cui/uiconfig/ui/pageformatpage.ui:228
+#: cui/uiconfig/ui/pageformatpage.ui:232
 msgctxt "pageformatpage|labelPaperTray"
 msgid "Paper _tray:"
 msgstr "_Papierschacht:"
 
 #. u8DFb
-#: cui/uiconfig/ui/pageformatpage.ui:260
+#: cui/uiconfig/ui/pageformatpage.ui:264
 msgctxt "pageformatpage|labelPaperFormat"
 msgid "Paper Format"
 msgstr "Papierformat"
 
 #. 479hs
-#: cui/uiconfig/ui/pageformatpage.ui:305
+#: cui/uiconfig/ui/pageformatpage.ui:309
 msgctxt "pageformatpage|labelLeftMargin"
 msgid "Left:"
 msgstr "Links:"
 
 #. EoGm2
-#: cui/uiconfig/ui/pageformatpage.ui:319
+#: cui/uiconfig/ui/pageformatpage.ui:323
 msgctxt "pageformatpage|labelInner"
 msgid "I_nner:"
 msgstr "I_nnen:"
 
 #. 7FFiR
-#: cui/uiconfig/ui/pageformatpage.ui:357
+#: cui/uiconfig/ui/pageformatpage.ui:361
 msgctxt "pageformatpage|labelRightMargin"
 msgid "Right:"
 msgstr "Rechts:"
 
 #. RfnGu
-#: cui/uiconfig/ui/pageformatpage.ui:371
+#: cui/uiconfig/ui/pageformatpage.ui:375
 msgctxt "pageformatpage|labelOuter"
 msgid "O_uter:"
 msgstr "Au_ßen:"
 
 #. tGMLA
-#: cui/uiconfig/ui/pageformatpage.ui:404
+#: cui/uiconfig/ui/pageformatpage.ui:408
 msgctxt "pageformatpage|labelTopMargin"
 msgid "Top:"
 msgstr "Oben:"
 
 #. eaqBS
-#: cui/uiconfig/ui/pageformatpage.ui:430
+#: cui/uiconfig/ui/pageformatpage.ui:434
 msgctxt "pageformatpage|labelBottomMargin"
 msgid "Bottom:"
 msgstr "Unten:"
 
 #. TYx6B
-#: cui/uiconfig/ui/pageformatpage.ui:456
+#: cui/uiconfig/ui/pageformatpage.ui:460
 msgctxt "pageformatpage|labelGutterMargin"
 msgid "Gutter:"
 msgstr "Bundsteg:"
 
 #. Tvwu6
-#: cui/uiconfig/ui/pageformatpage.ui:484
+#: cui/uiconfig/ui/pageformatpage.ui:488
 msgctxt "pageformatpage|labelMargins"
 msgid "Margins"
 msgstr "Seitenränder"
 
 #. WcuCU
-#: cui/uiconfig/ui/pageformatpage.ui:517
+#: cui/uiconfig/ui/pageformatpage.ui:521
 msgctxt "pageformatpage|labelPageLayout"
 msgid "_Page layout:"
 msgstr "_Seitenlayout:"
 
 #. vnXWF
-#: cui/uiconfig/ui/pageformatpage.ui:531
+#: cui/uiconfig/ui/pageformatpage.ui:535
 msgctxt "pageformatpage|labelPageNumbers"
 msgid "Page numbers:"
 msgstr "Seitennummern:"
 
 #. tyvA3
-#: cui/uiconfig/ui/pageformatpage.ui:543
+#: cui/uiconfig/ui/pageformatpage.ui:547
 msgctxt "pageformatpage|checkRegisterTrue"
 msgid "Use page li_ne-spacing"
 msgstr "Seitenzeilenabstand verwenden"
 
 #. DtZQG
 #. xdds
-#: cui/uiconfig/ui/pageformatpage.ui:547
+#: cui/uiconfig/ui/pageformatpage.ui:551
 msgctxt "pageformatpage|checkRegisterTrue"
 msgid "Enables page line-spacing (register-true) using the selected Reference Style"
 msgstr "Aktiviert den Seitenzeilenabstand (registerhaltig) unter Verwendung der ausgewählten Referenzvorlage"
 
 #. p2egb
-#: cui/uiconfig/ui/pageformatpage.ui:552
+#: cui/uiconfig/ui/pageformatpage.ui:556
 msgctxt "extended_tip|checkRegisterTrue"
 msgid "If enabled, then all paragraph styles with the option page line-spacing activated will be affected, assuming the line spacing of the Reference Style. This will align them to an invisible vertical page grid, regardless of their font size, so that each line is the same height."
 msgstr "Wenn diese Option aktiviert ist, sind alle Absatzvorlagen mit aktivierter Option Seitenzeilenabstand betroffen, sofern der Zeilenabstand der Referenzvorlage angenommen wird. Dadurch werden sie unabhängig von ihrer Schriftgröße an einem unsichtbaren vertikalen Seitenraster ausgerichtet, sodass jede Zeile dieselbe Höhe hat."
 
 #. 46djR
-#: cui/uiconfig/ui/pageformatpage.ui:566
+#: cui/uiconfig/ui/pageformatpage.ui:570
 msgctxt "pageformatpage|liststorePageLayout"
 msgid "Right and left"
 msgstr "Rechts und links"
 
 #. xetCH
-#: cui/uiconfig/ui/pageformatpage.ui:567
+#: cui/uiconfig/ui/pageformatpage.ui:571
 msgctxt "pageformatpage|liststorePageLayout"
 msgid "Mirrored"
 msgstr "Gespiegelt"
 
 #. 47EHF
-#: cui/uiconfig/ui/pageformatpage.ui:568
+#: cui/uiconfig/ui/pageformatpage.ui:572
 msgctxt "pageformatpage|liststorePageLayout"
 msgid "Only right"
 msgstr "Nur Rechts"
 
 #. ALSy9
-#: cui/uiconfig/ui/pageformatpage.ui:569
+#: cui/uiconfig/ui/pageformatpage.ui:573
 msgctxt "pageformatpage|liststorePageLayout"
 msgid "Only left"
 msgstr "Nur Links"
 
 #. Fhvzk
-#: cui/uiconfig/ui/pageformatpage.ui:591
+#: cui/uiconfig/ui/pageformatpage.ui:595
 msgctxt "pageformatpage|labelTblAlign"
 msgid "Table alignment:"
 msgstr "Tabellenausrichtung:"
 
 #. 79BH9
-#: cui/uiconfig/ui/pageformatpage.ui:603
+#: cui/uiconfig/ui/pageformatpage.ui:607
 msgctxt "pageformatpage|checkbuttonHorz"
 msgid "Hori_zontal"
 msgstr "_Horizontal"
 
 #. krxQZ
-#: cui/uiconfig/ui/pageformatpage.ui:617
+#: cui/uiconfig/ui/pageformatpage.ui:621
 msgctxt "pageformatpage|checkbuttonVert"
 msgid "_Vertical"
 msgstr "_Vertikal"
 
 #. FPLFK
-#: cui/uiconfig/ui/pageformatpage.ui:631
+#: cui/uiconfig/ui/pageformatpage.ui:635
 msgctxt "pageformatpage|checkAdaptBox"
 msgid "_Fit object to paper format"
 msgstr "Objekt _an Papierformat anpassen"
 
 #. bqcXW
-#: cui/uiconfig/ui/pageformatpage.ui:648
+#: cui/uiconfig/ui/pageformatpage.ui:651
 msgctxt "pageformatpage|labelRegisterStyle"
 msgid "Reference _Style:"
 msgstr "Referenz_vorlage:"
 
 #. FnoPF
-#: cui/uiconfig/ui/pageformatpage.ui:672
+#: cui/uiconfig/ui/pageformatpage.ui:675
 msgctxt "pageformatpage|labelGutterPosition"
 msgid "Gutter position:"
 msgstr "Bundstegposition:"
 
 #. LF4Ex
-#: cui/uiconfig/ui/pageformatpage.ui:687
+#: cui/uiconfig/ui/pageformatpage.ui:690
 msgctxt "pageformatpage|liststoreGutterPosition"
 msgid "Left"
 msgstr "Links"
 
 #. DSBY5
-#: cui/uiconfig/ui/pageformatpage.ui:688
+#: cui/uiconfig/ui/pageformatpage.ui:691
 msgctxt "pageformatpage|liststoreGutterPosition"
 msgid "Top"
 msgstr "Oben"
 
 #. AosV5
-#: cui/uiconfig/ui/pageformatpage.ui:704
+#: cui/uiconfig/ui/pageformatpage.ui:701
 msgctxt "pageformatpage|checkRtlGutter"
 msgid "Gutter on right side of page"
 msgstr "Bundsteg rechts auf der Seite"
 
 #. cuazP
-#: cui/uiconfig/ui/pageformatpage.ui:718
+#: cui/uiconfig/ui/pageformatpage.ui:715
 msgctxt "pageformatpage|checkBackgroundFullSize"
 msgid "Background covers margins"
 msgstr "Hintergrund deckt Ränder ab"
 
 #. ApZcb
 #. xdds
-#: cui/uiconfig/ui/pageformatpage.ui:722
+#: cui/uiconfig/ui/pageformatpage.ui:719
 msgctxt "pageformatpage|checkBackgroundFullSize"
 msgid "Any background will cover margins of the page as well"
 msgstr "Jeder Hintergrund deckt auch die Ränder der Seite ab"
 
 #. XtMGD
-#: cui/uiconfig/ui/pageformatpage.ui:727
+#: cui/uiconfig/ui/pageformatpage.ui:724
 msgctxt "extended_tip|checkBackgroundFullSize"
 msgid "If enabled, then any background will cover the entire page, including margins. If disabled, any background will cover the page only inside the margins."
 msgstr "Wenn diese Option aktiviert ist, deckt jeder Hintergrund die gesamte Seite einschließlich der Ränder ab. Wenn deaktiviert, bedeckt jeder Hintergrund die Seite nur innerhalb der Ränder."
 
 #. xdECe
-#: cui/uiconfig/ui/pageformatpage.ui:742
+#: cui/uiconfig/ui/pageformatpage.ui:754
 msgctxt "pageformatpage|label5"
 msgid "Layout Settings"
 msgstr "Layout-Einstellungen"
 
 #. eBMbb
-#: cui/uiconfig/ui/pageformatpage.ui:763
+#: cui/uiconfig/ui/pageformatpage.ui:775
 msgctxt "pageformatpage|labelMsg"
 msgid ""
 "The margin settings are out of print range.\n"
@@ -21036,11 +21046,11 @@ msgctxt "textcolumnstabpage|extended_tip|MTR_FLD_COL_SPACING"
 msgid "Enter the amount of space to leave between the columns."
 msgstr "Geben Sie den Abstand zwischen den Spalten ein."
 
-#. 4u4bL
+#. 7Fgep
 #: cui/uiconfig/ui/textcolumnstabpage.ui:108
 msgctxt "textcolumnstabpage|extended_tip|TextColumnsPage"
-msgid "Sets the columns layout properties for text in the selected drawing or text object."
-msgstr "Legt die Eigenschaften des Spaltenlayouts für Text in der ausgewählten Zeichnung oder dem ausgewählten Textobjekt fest."
+msgid "Sets the columns’ layout properties for text in the selected drawing or text object."
+msgstr ""
 
 #. 3Huae
 #: cui/uiconfig/ui/textdialog.ui:8
@@ -22105,40 +22115,60 @@ msgid "In columns view layout you see pages in a given number of columns side by
 msgstr "Im Spaltenlayout werden die Seiten entsprechend der eingestellten Spaltenzahl nebeneinander angezeigt. Geben Sie die Anzahl der Spalten an."
 
 #. opsyv
-#: cui/uiconfig/ui/zoomdialog.ui:367
+#: cui/uiconfig/ui/zoomdialog.ui:366
 msgctxt "zoomdialog|columnssb-atkobject"
 msgid "Columns"
 msgstr "Spalten"
 
 #. psRyA
-#: cui/uiconfig/ui/zoomdialog.ui:368
+#: cui/uiconfig/ui/zoomdialog.ui:367
 msgctxt "zoomdialog|extended_tip|columnssb"
 msgid "In columns view layout you see pages in a given number of columns side by side. Enter the number of columns."
 msgstr "Im Spaltenlayout werden die Seiten entsprechend der eingestellten Spaltenzahl nebeneinander angezeigt. Geben Sie die Anzahl der Spalten an."
 
 #. rhLet
-#: cui/uiconfig/ui/zoomdialog.ui:387
+#: cui/uiconfig/ui/zoomdialog.ui:386
 msgctxt "zoomdialog|bookmode"
 msgid "Book mode"
 msgstr "Buchmodus"
 
 #. egdNS
-#: cui/uiconfig/ui/zoomdialog.ui:400
+#: cui/uiconfig/ui/zoomdialog.ui:398
 msgctxt "zoomdialog|extended_tip|bookmode"
 msgid "In book mode view layout you see two pages side by side as in an open book. The first page is a right page with an odd page number."
 msgstr "Im Buchmodus sehen Sie zwei Seiten nebeneinander, wie in einem aufgeschlagenen Buch. Die erste Seite ist eine rechte Seite mit einer ungeraden Seitennummer."
 
 #. pdZqi
-#: cui/uiconfig/ui/zoomdialog.ui:416
+#: cui/uiconfig/ui/zoomdialog.ui:414
 msgctxt "zoomdialog|label1"
 msgid "View Layout"
 msgstr "Ansichtslayout"
 
 #. DWWgJ
-#: cui/uiconfig/ui/zoomdialog.ui:448
+#: cui/uiconfig/ui/zoomdialog.ui:446
 msgctxt "zoomdialog|extended_tip|ZoomDialog"
 msgid "Reduces or enlarges the screen display."
 msgstr "Verkleinert oder vergrößert die Bildschirmanzeige."
+
+#~ msgctxt "RID_CUISTR_ZIPFAIL"
+#~ msgid "Creation of Zip file failed!"
+#~ msgstr "Erstellung der Zip-Datei fehlgeschlagen!"
+
+#~ msgctxt "RID_CUI_TIPOFTHEDAY"
+#~ msgid "Select a different icon set from Tools ▸ Options ▸ %PRODUCTNAME ▸ View ▸ User Interface ▸ Icon style."
+#~ msgstr "Um einen anderen Symbolsatz zu verwenden, wählen Sie »Extras ▸ Optionen… ▸ %PRODUCTNAME ▸ Ansicht ▸ Bereich: Benutzeroberfläche ▸ Dropdown-Menü: Symbolstil«."
+
+#~ msgctxt "RID_CUI_TIPOFTHEDAY"
+#~ msgid "Use Format ▸ Align (or the context menu) for precise positioning of objects in Draw/Impress: it centers on the page if one object is selected or works on the group respectively."
+#~ msgstr "Um in Draw/Impress Objekte genau zu positionieren, wählen Sie »Format ▸ Ausrichten« (oder das Kontextmenü): Es wird auf der Seite zentriert, wenn ein Objekt ausgewählt ist, oder entsprechend die Gruppe."
+
+#~ msgctxt "accelconfigpage|extended_tip|reset"
+#~ msgid "Resets modified values back to the default values."
+#~ msgstr "Setzt die geänderten Werte auf die Standardwerte zurück."
+
+#~ msgctxt "textcolumnstabpage|extended_tip|TextColumnsPage"
+#~ msgid "Sets the columns layout properties for text in the selected drawing or text object."
+#~ msgstr "Legt die Eigenschaften des Spaltenlayouts für Text in der ausgewählten Zeichnung oder dem ausgewählten Textobjekt fest."
 
 #~ msgctxt "RID_CUI_TIPOFTHEDAY"
 #~ msgid "You can use styles to make the tables in your document consistent. Choose one from the predefined per Styles (F11) or via Table ▸ AutoFormat."

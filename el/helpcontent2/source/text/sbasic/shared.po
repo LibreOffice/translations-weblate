@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-02-21 15:22+0100\n"
+"POT-Creation-Date: 2022-03-21 12:31+0100\n"
 "PO-Revision-Date: 2022-03-20 12:49+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/el/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1549637171.000000\n"
 
 #. yzYVt
@@ -23058,14 +23058,14 @@ msgctxt ""
 msgid "<bookmark_value>Call statement</bookmark_value>"
 msgstr "<bookmark_value>Δήλωση Call</bookmark_value>"
 
-#. LmAwf
+#. HW8av
 #: 03090401.xhp
 msgctxt ""
 "03090401.xhp\n"
 "hd_id3154422\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03090401.xhp\" name=\"Call Statement\">Call Statement</link>"
-msgstr "<link href=\"text/sbasic/shared/03090401.xhp\" name=\"Πρόταση Call\">Πρόταση Call</link>"
+msgid "<variable id=\"Call_h1\"><link href=\"text/sbasic/shared/03090401.xhp\" name=\"Call Statement\">Call Statement</link></variable>"
+msgstr ""
 
 #. nPKzF
 #: 03090401.xhp
@@ -23075,15 +23075,6 @@ msgctxt ""
 "help.text"
 msgid "Transfers the control of the program to a subroutine, a function, or a procedure of a <link href=\"text/sbasic/shared/03090403.xhp\" name=\"Dynamic Link Library\">Dynamic Link Library (DLL)</link>. The keyword, type and number of parameters is dependent on the routine that is being called."
 msgstr "Μεταφέρει το στοιχείο ελέγχου του προγράμματος σε υπορουτίνα, μια συνάρτηση, ή διεργασία <link href=\"text/sbasic/shared/03090403.xhp\" name=\"Dynamic Link Library\">Βιβλιοθήκης δυναμικής σύνδεσης (DLL)</link>. Η λέξη-κλειδί, ο τύπος και ο αριθμός των παραμέτρων εξαρτάται από την καλούμενη ρουτίνα."
-
-#. MdeJS
-#: 03090401.xhp
-msgctxt ""
-"03090401.xhp\n"
-"hd_id3153345\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Σύνταξη:"
 
 #. CXLBw
 #: 03090401.xhp
@@ -23102,15 +23093,6 @@ msgctxt ""
 "help.text"
 msgid "[Call] name [(] [param :=] value, ... [)]"
 msgstr "[Call] name [(] [param :=] value, ... [)]"
-
-#. 5MBBJ
-#: 03090401.xhp
-msgctxt ""
-"03090401.xhp\n"
-"hd_id3150771\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Παράμετροι:"
 
 #. C2MXB
 #: 03090401.xhp
@@ -23156,15 +23138,6 @@ msgctxt ""
 "help.text"
 msgid "When a function is used as an expression, enclosing parameters with brackets becomes necessary. Using a <link href=\"text/sbasic/shared/03090403.xhp\" name=\"Declare Statement\">Declare statement</link> is compulsory prior to call a DLL."
 msgstr "Όταν μια συνάρτηση χρησιμοποιείται ως έκφραση, οι παράμετροι περίκλεισης με αγκύλες είναι απαραίτητες. Η χρήση <link href=\"text/sbasic/shared/03090403.xhp\" name=\"Declare Statement\">πρότασης δήλωσης</link> είναι υποχρεωτική πριν την κλήση DLL."
-
-#. QZZ8c
-#: 03090401.xhp
-msgctxt ""
-"03090401.xhp\n"
-"hd_id3125865\n"
-"help.text"
-msgid "Example:"
-msgstr "Παράδειγμα:"
 
 #. eyeVE
 #: 03090402.xhp
@@ -34371,14 +34344,14 @@ msgctxt ""
 msgid "oUnoValue = CreateUnoValue( \"[]byte\", MyBasicValue ) ' to get a byte sequence."
 msgstr "oUnoValue = CreateUnoValue( \"[]byte\", MyBasicValue ) ' για να πάρετε την αλληλουχία byte."
 
-#. rSTG8
+#. pEjGF
 #: 03132300.xhp
 msgctxt ""
 "03132300.xhp\n"
 "par_id3150541\n"
 "help.text"
-msgid "If <literal>CreateUnoValue</literal> cannot be converted to the specified Uno type, and error occurs. For the conversion, the <literal>TypeConverter</literal> service is used."
-msgstr "Εάν το <literal>CreateUnoValue</literal> δεν μπορεί να μετατραπεί στον καθορισμένο τύπο Uno, συμβαίνει σφάλμα. Για τη μετατροπή, χρησιμοποιείται η υπηρεσία <literal>TypeConverter</literal>."
+msgid "If <literal>CreateUnoValue</literal> cannot be converted to the specified Uno type, and error occurs. For the conversion, the <literal>com.sun.star.script.Converter</literal> service is used."
+msgstr ""
 
 #. bT3DS
 #: 03132300.xhp
@@ -37251,14 +37224,14 @@ msgctxt ""
 msgid "CallByName Function"
 msgstr "Συνάρτηση CallByName"
 
-#. tbCrP
+#. 3957Y
 #: CallByName.xhp
 msgctxt ""
 "CallByName.xhp\n"
 "hd_id3150669\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/CallByName.xhp\">CallByName Function</link>"
-msgstr "<link href=\"text/sbasic/shared/CallByName.xhp\">Συνάρτηση CallByName</link>"
+msgid "<variable id=\"CallByName_h1\"><link href=\"text/sbasic/shared/CallByName.xhp\">CallByName Function</link></variable>"
+msgstr ""
 
 #. 7EWyG
 #: CallByName.xhp
@@ -37269,14 +37242,14 @@ msgctxt ""
 msgid "Invokes a subroutine by its string name."
 msgstr "Καλεί μια υπορουτίνα με το όνομα της συμβολοσειράς της."
 
-#. GSJB7
+#. V4GLV
 #: CallByName.xhp
 msgctxt ""
 "CallByName.xhp\n"
 "bm_id3150669\n"
 "help.text"
-msgid "<bookmark_value>CallByName function</bookmark_value>"
-msgstr "<bookmark_value>Συνάρτηση CallByName</bookmark_value>"
+msgid "<bookmark_value>CallByName function</bookmark_value>  <bookmark_value>API;OfficeFilePicker</bookmark_value>"
+msgstr ""
 
 #. kJE7K
 #: CallByName.xhp
@@ -37413,14 +37386,14 @@ msgctxt ""
 msgid "<literal>ScriptForge.Platform.Architecture</literal> information is retrieved."
 msgstr "Οι πληροφορίες <literal>ScriptForge.Platform.Architecture</literal> ανακτώνται."
 
-#. WR7MJ
+#. rvtXD
 #: CallByName.xhp
 msgctxt ""
 "CallByName.xhp\n"
 "par_id651644588404943\n"
 "help.text"
-msgid "<literal>DisplayDirectory</literal> property of <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1ui_1_1dialogs_1_1FilePicker-members.html\" name=\"FilePicker\">com.sun.star.ui.dialogs.FilePicker</link> UNO service is assigned a value, its content is read twice."
-msgstr "Στην ιδιότητα <literal>DisplayDirectory</literal> της <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1ui_1_1dialogs_1_1FilePicker-members.html\" name=\"FilePicker\">com.sun.star.ui.dialogs.FilePicker</link> υπηρεσίας UNO εκχωρείται μια τιμή, το περιεχόμενό της διαβάζεται δύο φορές."
+msgid "<literal>DisplayDirectory</literal> property of <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1ui_1_1dialogs_1_1FilePicker-members.html\" name=\"FilePicker\">com.sun.star.ui.dialogs.FilePicker</link> UNO service is set to the user home folder, its content is read twice."
+msgstr ""
 
 #. 3DsDt
 #: CallByName.xhp
@@ -40239,14 +40212,14 @@ msgctxt ""
 msgid "' With this option the code works, otherwise it causes a compiling error"
 msgstr "' με αυτήν την επιλογή δουλεύει ο κώδικας, αλλιώς προκαλεί σφάλμα μεταγλώττισης"
 
-#. E6GpA
+#. rWE5B
 #: compatible.xhp
 msgctxt ""
 "compatible.xhp\n"
 "par_id381561650119146\n"
 "help.text"
-msgid "Statement <literal>Option VBAsupport 1</literal> sets <literal>Option Compatible</literal> statement automatically."
-msgstr "Η πρόταση <literal>Option VBAsupport 1</literal> ορίζει την πρόταση <literal>Option Compatible</literal> αυτόματα."
+msgid "Statement <literal>Option VBAsupport 1</literal> implies <literal>Option Compatible</literal> statement automatically."
+msgstr ""
 
 #. j8iHM
 #: compatible.xhp
@@ -42524,6 +42497,69 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">IDE Basic του %PRODUCTNAME</link>"
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "hd_id3154422\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03090401.xhp\" name=\"Call Statement\">Call Statement</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03090401.xhp\" name=\"Πρόταση Call\">Πρόταση Call</link>"
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "hd_id3153345\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Σύνταξη:"
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "hd_id3150771\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Παράμετροι:"
+
+#~ msgctxt ""
+#~ "03090401.xhp\n"
+#~ "hd_id3125865\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Παράδειγμα:"
+
+#~ msgctxt ""
+#~ "03132300.xhp\n"
+#~ "par_id3150541\n"
+#~ "help.text"
+#~ msgid "If <literal>CreateUnoValue</literal> cannot be converted to the specified Uno type, and error occurs. For the conversion, the <literal>TypeConverter</literal> service is used."
+#~ msgstr "Εάν το <literal>CreateUnoValue</literal> δεν μπορεί να μετατραπεί στον καθορισμένο τύπο Uno, συμβαίνει σφάλμα. Για τη μετατροπή, χρησιμοποιείται η υπηρεσία <literal>TypeConverter</literal>."
+
+#~ msgctxt ""
+#~ "CallByName.xhp\n"
+#~ "hd_id3150669\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/CallByName.xhp\">CallByName Function</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/CallByName.xhp\">Συνάρτηση CallByName</link>"
+
+#~ msgctxt ""
+#~ "CallByName.xhp\n"
+#~ "bm_id3150669\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>CallByName function</bookmark_value>"
+#~ msgstr "<bookmark_value>Συνάρτηση CallByName</bookmark_value>"
+
+#~ msgctxt ""
+#~ "CallByName.xhp\n"
+#~ "par_id651644588404943\n"
+#~ "help.text"
+#~ msgid "<literal>DisplayDirectory</literal> property of <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1ui_1_1dialogs_1_1FilePicker-members.html\" name=\"FilePicker\">com.sun.star.ui.dialogs.FilePicker</link> UNO service is assigned a value, its content is read twice."
+#~ msgstr "Στην ιδιότητα <literal>DisplayDirectory</literal> της <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1ui_1_1dialogs_1_1FilePicker-members.html\" name=\"FilePicker\">com.sun.star.ui.dialogs.FilePicker</link> υπηρεσίας UNO εκχωρείται μια τιμή, το περιεχόμενό της διαβάζεται δύο φορές."
+
+#~ msgctxt ""
+#~ "compatible.xhp\n"
+#~ "par_id381561650119146\n"
+#~ "help.text"
+#~ msgid "Statement <literal>Option VBAsupport 1</literal> sets <literal>Option Compatible</literal> statement automatically."
+#~ msgstr "Η πρόταση <literal>Option VBAsupport 1</literal> ορίζει την πρόταση <literal>Option Compatible</literal> αυτόματα."
 
 #~ msgctxt ""
 #~ "00000003.xhp\n"
