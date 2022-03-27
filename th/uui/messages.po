@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-03-21 12:33+0100\n"
-"PO-Revision-Date: 2022-03-24 08:43+0000\n"
+"PO-Revision-Date: 2022-03-27 13:59+0000\n"
 "Last-Translator: Theppitak Karoonboonyanan <theppitak@gmail.com>\n"
 "Language-Team: Thai <https://translations.documentfoundation.org/projects/libo_ui-master/uuimessages/th/>\n"
 "Language: th\n"
@@ -48,6 +48,9 @@ msgid ""
 "$(ARG1)\n"
 "which are too large to store in binary format. If you wish users that don't have access to the library password to be able to run macros in those module(s) you must split those modules into a number of smaller modules. Do you wish to continue to save/export this library?"
 msgstr ""
+"คุณกำลังจะบันทึก/ส่งออกไลบรารีภาษา BASIC ที่ปกป้องด้วยรหัสผ่านซึ่งมีโมดูล \n"
+"$(ARG1)\n"
+"ซึ่งใหญ่เกินกว่าจะเก็บในรูปไบนารีได้ ถ้าคุณต้องการให้ผู้ใช้ที่ไม่มีรหัสผ่านของไลบรารียังสามารถเรียกใช้แมโครในโมดูลดังกล่าวได้ คุณจะต้องแยกโมดูลดังกล่าวออกเป็นโมดูลที่เล็กลงหลายตัว คุณต้องการบันทึก/ส่งออกไลบรารีนี้ต่อไปหรือไม่?"
 
 #. 3rNDF
 #: uui/inc/ids.hrc:42
@@ -61,12 +64,19 @@ msgid ""
 "\n"
 "Are you certain that this file is a legacy document created many years ago?"
 msgstr ""
+"โปรดระวัง!\n"
+"\n"
+"คุณกำลังจะโหลดไฟล์ที่มีชนิดผิดปกติอย่างมาก ($(ARG2)) จาก URL:\n"
+"\n"
+"$(ARG1)\n"
+"\n"
+"คุณแน่ใจหรือไม่ว่าไฟล์นี้เป็นเอกสารยุคเก่าที่สร้างขึ้นเมื่อหลายปีที่แล้ว?"
 
 #. v6bPE
 #: uui/inc/ids.hrc:44
 msgctxt "RID_UUI_ERRHDL"
 msgid "The data from $(ARG1) has an incorrect checksum."
-msgstr "The data from $(ARG1) has an incorrect checksum"
+msgstr "ข้อมูลจาก $(ARG1) มีค่าผลรวมตรวจสอบที่ไม่ถูกต้อง"
 
 #. AGF5W
 #: uui/inc/ids.hrc:46
@@ -84,25 +94,25 @@ msgstr "ไม่สามารถอ่านข้อมูลของ $(ARG
 #: uui/inc/ids.hrc:50
 msgctxt "RID_UUI_ERRHDL"
 msgid "The seek operation on $(ARG1) could not be performed."
-msgstr "ไม่สามารถปฏิบัติการการค้นหา $(ARG1)"
+msgstr "ไม่สามารถทำฟังก์ชัน seek กับ $(ARG1) ได้"
 
 #. CD7zU
 #: uui/inc/ids.hrc:52
 msgctxt "RID_UUI_ERRHDL"
 msgid "The tell operation on $(ARG1) could not be performed."
-msgstr "The tell operation on $(ARG1) could not be performed"
+msgstr "ไม่สามารถทำฟังก์ชัน tell กับ $(ARG1) ได้"
 
 #. AkGXL
 #: uui/inc/ids.hrc:54
 msgctxt "RID_UUI_ERRHDL"
 msgid "Data for $(ARG1) could not be written."
-msgstr "ไม่สามารถเขียนข้อมูล $(ARG1)"
+msgstr "ไม่สามารถเขียนข้อมูลของ $(ARG1) ได้"
 
 #. ndib2
 #: uui/inc/ids.hrc:56
 msgctxt "RID_UUI_ERRHDL"
 msgid "Action impossible: $(ARG1) is the current directory."
-msgstr "Action impossible: $(ARG1) is the current directory"
+msgstr "ไม่สามารถทำคำสั่งได้: $(ARG1) คือไดเรกทอรีปัจจุบัน"
 
 #. wWVF2
 #: uui/inc/ids.hrc:58
@@ -114,19 +124,19 @@ msgstr "$(ARG1) ยังไม่พร้อม"
 #: uui/inc/ids.hrc:60
 msgctxt "RID_UUI_ERRHDL"
 msgid "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)."
-msgstr "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)"
+msgstr "ไม่สามารถทำคำสั่งได้: $(ARG1) และ $(ARG2) เป็นคนละอุปกรณ์ (ไดรฟ์)"
 
 #. ic2pB
 #: uui/inc/ids.hrc:62
 msgctxt "RID_UUI_ERRHDL"
 msgid "General input/output error while accessing $(ARG1)."
-msgstr "General input/output error while accessing $(ARG1)"
+msgstr "เกิดข้อผิดพลาดเกี่ยวกับอินพุต/เอาต์พุตทั่วไปขณะเข้าถึง $(ARG1)"
 
 #. r6GVi
 #: uui/inc/ids.hrc:64
 msgctxt "RID_UUI_ERRHDL"
 msgid "An attempt was made to access $(ARG1) in an invalid way."
-msgstr "An attempt was made to access $(ARG1) in an invalid way"
+msgstr "มีความพยายามเข้าถึง $(ARG1) ผิดวิธี"
 
 #. Y6bwq
 #: uui/inc/ids.hrc:66
@@ -150,25 +160,25 @@ msgstr "ข้อมูลจาก $(ARG1) มีความยาวที่
 #: uui/inc/ids.hrc:72
 msgctxt "RID_UUI_ERRHDL"
 msgid "The operation on $(ARG1) was started with an invalid parameter."
-msgstr "การปฏิบัติการบน $(ARG1) มีการเริ่มด้วยพารามิเตอร์ที่ไม่ถูกต้อง"
+msgstr "ปฏิบัติการบน $(ARG1) มีการเริ่มด้วยพารามิเตอร์ที่ไม่ถูกต้อง"
 
 #. fEQmj
 #: uui/inc/ids.hrc:74
 msgctxt "RID_UUI_ERRHDL"
 msgid "The operation cannot be performed because $(ARG1) contains wildcards."
-msgstr "The operation cannot be performed because $(ARG1) contains wildcards"
+msgstr "ไม่สามารถกระทำปฏิบัติการนี้ได้ เพราะ $(ARG1) มี wildcard"
 
 #. v2dLh
 #: uui/inc/ids.hrc:76
 msgctxt "RID_UUI_ERRHDL"
 msgid "Error during shared access to $(ARG1)."
-msgstr "Error during shared access to $(ARG1)."
+msgstr "เกิดข้อผิดพลาดขณะเข้าถึง $(ARG1) แบบใช้ร่วม"
 
 #. AEtU6
 #: uui/inc/ids.hrc:78
 msgctxt "RID_UUI_ERRHDL"
 msgid "$(ARG1) contains misplaced characters."
-msgstr "$(ARG1) contains misplaced characters"
+msgstr "$(ARG1) มีอักขระที่วางผิดตำแหน่ง"
 
 #. fD986
 #: uui/inc/ids.hrc:80
@@ -180,19 +190,19 @@ msgstr "ชื่อ $(ARG1) มีอักขระมากเกินไป
 #: uui/inc/ids.hrc:82
 msgctxt "RID_UUI_ERRHDL"
 msgid "$(ARG1) does not exist."
-msgstr "$(ARG1) ไม่มี"
+msgstr "ไม่มี $(ARG1)"
 
 #. nB6UA
 #: uui/inc/ids.hrc:84
 msgctxt "RID_UUI_ERRHDL"
 msgid "The path $(ARG1) does not exist."
-msgstr "ไม่มีพาธ $(ARG1) "
+msgstr "ไม่มีพาธ $(ARG1)"
 
 #. FMV9Y
 #: uui/inc/ids.hrc:86
 msgctxt "RID_UUI_ERRHDL"
 msgid "The operation on $(ARG1) is not supported on this operating system."
-msgstr "ไม่สนับสนุนการปฏิบัติการ $(ARG1) บนระบบปฏิบัติการนี้"
+msgstr "ไม่รองรับปฏิบัติการ $(ARG1) บนระบบปฏิบัติการนี้"
 
 #. zzACo
 #: uui/inc/ids.hrc:88
@@ -204,7 +214,7 @@ msgstr "$(ARG1) ไม่ใช่ไดเรกทอรี"
 #: uui/inc/ids.hrc:90
 msgctxt "RID_UUI_ERRHDL"
 msgid "$(ARG1) is not a file."
-msgstr "$(ARG1) ไม่ใช่แฟ้ม"
+msgstr "$(ARG1) ไม่ใช่ไฟล์"
 
 #. khxN3
 #: uui/inc/ids.hrc:92
@@ -216,19 +226,19 @@ msgstr "ไม่มีที่ว่างเหลือบนอุปกร
 #: uui/inc/ids.hrc:94
 msgctxt "RID_UUI_ERRHDL"
 msgid "The operation on $(ARG1) cannot be performed because too many files are already open."
-msgstr "ไม่สามารถแสดงปฏิบัติการบน $(ARG1) ได้เนื่องจากมีแฟ้มจำนวนมากเปิดอยู่"
+msgstr "ไม่สามารถกระทำปฏิบัติการนี้บน $(ARG1) ได้ เนื่องจากมีไฟล์เปิดไว้จำนวนมากเกินไป"
 
 #. ctFbB
 #: uui/inc/ids.hrc:96
 msgctxt "RID_UUI_ERRHDL"
 msgid "The operation on $(ARG1) cannot be performed because there is no more memory available."
-msgstr "ไม่สามารถแสดงปฏิบัติการบน $(ARG1) ได้เนื่องจากไม่มีหน่วยความจำว่าง"
+msgstr "ไม่สามารถกระทำปฏิบัติการนี้บน $(ARG1) ได้ เนื่องจากไม่มีหน่วยความจำว่าง"
 
 #. jpzJG
 #: uui/inc/ids.hrc:98
 msgctxt "RID_UUI_ERRHDL"
 msgid "The operation on $(ARG1) cannot continue because more data is pending."
-msgstr "ไม่สามารถดำเนินปฏิบัติการบน $(ARG1) ต่อได้เนื่องจากข้อมูลจำนวนมากค้างอยู่"
+msgstr "ไม่สามารถดำเนินปฏิบัติการบน $(ARG1) ต่อได้ เนื่องจากยังมีข้อมูลอื่นค้างอยู่"
 
 #. 6DVTU
 #: uui/inc/ids.hrc:100
@@ -240,7 +250,7 @@ msgstr "ไม่สามารถคัดลอก $(ARG1) ไปยังต
 #: uui/inc/ids.hrc:102
 msgctxt "RID_UUI_ERRHDL"
 msgid "Unknown input/output error while accessing $(ARG1)."
-msgstr "ข้อผิดพลาดการป้อนเข้า/ผลลัพธ์ที่ไม่รู้จักขณะกำลังเข้าถึง $(ARG1)"
+msgstr "เกิดข้อผิดพลาดเกี่ยวกับอินพุต/เอาต์พุตที่ไม่ทราบสาเหตุขณะเข้าถึง $(ARG1)"
 
 #. cVa9F
 #: uui/inc/ids.hrc:104
@@ -276,25 +286,25 @@ msgstr "ไม่มีโฟลเดอร์ $(ARG1) อยู่"
 #: uui/inc/ids.hrc:114
 msgctxt "RID_UUI_ERRHDL"
 msgid "The installed Java version is not supported."
-msgstr "ไม่สนับสนุน Java รุ่นที่ติดตั้งอยู่"
+msgstr "ไม่รองรับ Java รุ่นที่ติดตั้งอยู่"
 
 #. DbH3p
 #: uui/inc/ids.hrc:116
 msgctxt "RID_UUI_ERRHDL"
 msgid "The installed Java version $(ARG1) is not supported."
-msgstr "ไม่สนับสนุน Java รุ่น $(ARG1) ที่ติดตั้งอยู่"
+msgstr "ไม่รองรับ Java รุ่น $(ARG1) ที่ติดตั้งอยู่"
 
 #. 7NCGk
 #: uui/inc/ids.hrc:118
 msgctxt "RID_UUI_ERRHDL"
 msgid "The installed Java version is not supported, at least version $(ARG1) is required."
-msgstr "ไม่สนับสนุน Java รุ่นที่ติดตั้งอยู่ อย่างน้อยที่สุดต้องการรุ่น $(ARG1) "
+msgstr "ไม่รองรับ Java รุ่นที่ติดตั้งอยู่ ต้องการรุ่น $(ARG1) เป็นอย่างต่ำ"
 
 #. bNWmn
 #: uui/inc/ids.hrc:120
 msgctxt "RID_UUI_ERRHDL"
 msgid "The installed Java version $(ARG1) is not supported, at least version $(ARG2) is required."
-msgstr "ไม่สนับสนุนรุ่น Java  $(ARG1) ที่ติดตั้ง อย่างน้อยที่สุดต้องการรุ่น $(ARG2) "
+msgstr "ไม่รองรับ Java รุ่น $(ARG1) ที่ติดตั้งอยู่ ต้องการรุ่น $(ARG2) เป็นอย่างต่ำ"
 
 #. 5MfGQ
 #: uui/inc/ids.hrc:122
@@ -318,13 +328,13 @@ msgstr "โวลุม $(ARG1) ไม่พร้อม"
 #: uui/inc/ids.hrc:128
 msgctxt "RID_UUI_ERRHDL"
 msgid "$(ARG1) is not ready; please insert a storage medium."
-msgstr "$(ARG1) is not ready; please insert a storage medium"
+msgstr "$(ARG1) ไม่พร้อม; กรุณาใส่สื่อเก็บข้อมูล"
 
 #. RogFv
 #: uui/inc/ids.hrc:130
 msgctxt "RID_UUI_ERRHDL"
 msgid "Volume $(ARG1) is not ready; please insert a storage medium."
-msgstr "Volume $(ARG1) is not ready; please insert a storage medium"
+msgstr "โวลุม $(ARG1) ไม่พร้อม; กรุณาใส่สื่อเก็บข้อมูล"
 
 #. AqFh4
 #: uui/inc/ids.hrc:132
@@ -342,11 +352,10 @@ msgstr "ไม่สามารถสร้างวัตถุในไดเ
 #: uui/inc/ids.hrc:136
 msgctxt "RID_UUI_ERRHDL"
 msgid "%PRODUCTNAME cannot keep files from being overwritten when this transmission protocol is used. Do you want to continue anyway?"
-msgstr "%PRODUCTNAME ไม่สามารถป้องกันไฟล์จากการถูกเขียนทับเมื่อใช้โปรโตคอลการส่งข้อมูลนี้ คุณต้องการทำต่ออยู่ดีหรือไม่?"
+msgstr "%PRODUCTNAME ไม่สามารถป้องกันไฟล์จากการถูกเขียนทับเมื่อใช้โพรโทคอลการส่งข้อมูลนี้ คุณยังคงต้องการทำต่อไปหรือไม่?"
 
 #. CUbSR
 #: uui/inc/ids.hrc:138
-#, fuzzy
 msgctxt "RID_UUI_ERRHDL"
 msgid ""
 "The file '$(ARG1)' is corrupt and therefore cannot be opened. %PRODUCTNAME can try to repair the file.\n"
@@ -358,11 +367,11 @@ msgid ""
 "\n"
 "Should %PRODUCTNAME repair the file?\n"
 msgstr ""
-"ไฟล์ '$(ARG1)' เสียหายเปิดไม่ได้ %PRODUCTNAME สามารถลองซ่อมไฟล์ดังกล่าว\n"
+"ไฟล์ '$(ARG1)' เสียหายเปิดไม่ได้ %PRODUCTNAME สามารถพยายามซ่อมไฟล์ดังกล่าวได้\n"
 "\n"
-"ความเสียหายอาจเป็นผลมาจากการจัดการเอกสารหรือจากความเสียหายทางโครงสร้างของเอกสารเนื่องจากการรับส่งข้อมูล\n"
+"ความเสียหายอาจเกิดจากการยักย้ายข้อมูลเอกสาร หรืออาจเป็นความเสียหายของโครงสร้างเอกสารอันเนื่องมาจากการถ่ายโอนข้อมูลก็ได้\n"
 "\n"
-"ขอแนะนำว่าคุณอย่าเชื่อถือในเนื้อหาของเอกสารที่ซ่อมแซมแล้ว\n"
+"ขอแนะนำว่าคุณอย่าเชื่อถือเนื้อหาของเอกสารที่ซ่อมแซมแล้ว\n"
 "การทำงานของแมโครจะถูกปิดไว้สำหรับเอกสารนี้\n"
 "\n"
 "ต้องการให้ %PRODUCTNAME ซ่อมไฟล์หรือไม่?\n"
@@ -371,7 +380,7 @@ msgstr ""
 #: uui/inc/ids.hrc:140
 msgctxt "RID_UUI_ERRHDL"
 msgid "The file '$(ARG1)' could not be repaired and therefore cannot be opened."
-msgstr "แฟ้ม '$(ARG1)' ไม่สามารถซ่อมได้จึงไม่สามารถเปิดได้"
+msgstr "ไฟล์ '$(ARG1)' ไม่สามารถซ่อมได้ จึงไม่สามารถเปิดได้"
 
 #. JCpTn
 #: uui/inc/ids.hrc:142
@@ -380,8 +389,8 @@ msgid ""
 "Configuration data in '$(ARG1)' is corrupted. Without this data some functions may not operate correctly.\n"
 "Do you want to continue startup of %PRODUCTNAME without the corrupted configuration data?"
 msgstr ""
-"Configuration data in '$(ARG1)' is corrupted. Without this data some functions may not operate correctly.\n"
-"Do you want to continue startup of %PRODUCTNAME without the corrupted configuration data?"
+"ข้อมูลค่าตั้งใน '$(ARG1)' เสียหาย และหากไม่มีข้อมูลดังกล่าว การทำงานบางอย่างของโปรแกรมอาจไม่ถูกต้องได้\n"
+"คุณยังคงต้องการเปิดทำงาน %PRODUCTNAME ต่อไปโดยไม่ใช้ข้อมูลค่าตั้งที่เสียหายดังกล่าวหรือไม่?"
 
 #. QCACp
 #: uui/inc/ids.hrc:144
@@ -390,14 +399,14 @@ msgid ""
 "The personal configuration file '$(ARG1)' is corrupted and must be deleted to continue. Some of your personal settings may be lost.\n"
 "Do you want to continue startup of %PRODUCTNAME without the corrupted configuration data?"
 msgstr ""
-"The personal configuration file '$(ARG1)' is corrupted and must be deleted to continue. Some of your personal settings may be lost.\n"
-"Do you want to continue startup of %PRODUCTNAME without the corrupted configuration data?"
+"ไฟล์ค่าตั้งส่วนตัว '$(ARG1)' เสียหาย และต้องลบทิ้งเพื่อดำเนินการต่อ ทำให้ค่าตั้งส่วนตัวบางอย่างของคุณอาจสูญหายได้\n"
+"คุณยังคงต้องการเปิดทำงาน %PRODUCTNAME ต่อไปโดยไม่ใช้ข้อมูลค่าตั้งที่เสียหายดังกล่าวหรือไม่?"
 
 #. e5Rft
 #: uui/inc/ids.hrc:146
 msgctxt "RID_UUI_ERRHDL"
 msgid "The configuration data source '$(ARG1)' is unavailable. Without this data some functions may not operate correctly."
-msgstr "ข้อมูลโครงแบบของแหล่งข้อมูล '$(ARG1)' ไม่สามารถใช้ได้ หากไม่มีข้อมูลนี้ ฟังก์ชันบางอย่างจะไม่สามารถทำงานอย่างถูกต้องได้"
+msgstr "แหล่งข้อมูลค่าตั้ง '$(ARG1)' ไม่สามารถใช้ได้ หากไม่มีข้อมูลดังกล่าว การทำงานบางอย่างของโปรแกรมอาจไม่ถูกต้องได้"
 
 #. 4gRCA
 #: uui/inc/ids.hrc:148
@@ -406,32 +415,32 @@ msgid ""
 "The configuration data source '$(ARG1)' is unavailable. Without this data some functions may not operate correctly.\n"
 "Do you want to continue startup of %PRODUCTNAME without the missing configuration data?"
 msgstr ""
-"ข้อมูลโครงแบบของแหล่งข้อมูล '$(ARG1)' ไม่สามารถใช้ได้ หากไม่มีข้อมูลนี้ ฟังก์ชันบางอย่างจะไม่สามารถทำงานอย่างถูกต้องได้\n"
-"คุณยังต้องการเริ่ม %PRODUCTNAME ต่อไป โดยปราศจากข้อมูลโครงแบบดังกล่าวหรือไม่?"
+"แหล่งข้อมูลค่าตั้ง '$(ARG1)' ไม่สามารถใช้ได้ หากไม่มีข้อมูลดังกล่าว การทำงานบางอย่างของโปรแกรมอาจไม่ถูกต้องได้\n"
+"คุณยังคงต้องการเปิดทำงาน %PRODUCTNAME ต่อไปโดยไม่ใช้ข้อมูลค่าตั้งดังกล่าวหรือไม่?"
 
 #. DAUhe
 #: uui/inc/ids.hrc:150
 msgctxt "RID_UUI_ERRHDL"
 msgid "The form contains invalid data. Do you still want to continue?"
-msgstr "The form contains invalid data. Do you still want to continue?"
+msgstr "แบบฟอร์มมีข้อมูลที่ไม่ถูกต้อง คุณยังคงต้องการทำต่อไปหรือไม่?"
 
 #. DSoD4
 #: uui/inc/ids.hrc:152
 msgctxt "RID_UUI_ERRHDL"
 msgid "The file $(ARG1) is locked by another user. Currently, another write access to this file cannot be granted."
-msgstr "ไฟล์ $(ARG1) ถูกล็อกโดยผู้ใช้คนอื่น ขณะนี้ไม่สามารถให้การเข้าถึงไฟล์ดังกล่าวเพื่อเขียนได้อีก"
+msgstr "ไฟล์ $(ARG1) ถูกผู้ใช้คนอื่นล็อคไว้ ทำให้ไม่สามารถอนุญาตให้เข้าถึงไฟล์ดังกล่าวเพื่อเขียนได้อีกในตอนนี้"
 
 #. k6aHT
 #: uui/inc/ids.hrc:154
 msgctxt "RID_UUI_ERRHDL"
 msgid "The file $(ARG1) is locked by yourself. Currently, another write access to this file cannot be granted."
-msgstr "ไฟล์ $(ARG1) ถูกล็อกโดยตัวคุณเอง ขณะนี้ไม่สามารถให้การเข้าถึงไฟล์ดังกล่าวเพื่อเขียนได้อีก"
+msgstr "ไฟล์ $(ARG1) ถูกตัวคุณเองล็อคไว้ ทำให้ไม่สามารถอนุญาตให้เข้าถึงไฟล์ดังกล่าวเพื่อเขียนได้อีกในตอนนี้"
 
 #. ZoUzb
 #: uui/inc/ids.hrc:156
 msgctxt "RID_UUI_ERRHDL"
 msgid "The file $(ARG1) is currently not locked by yourself."
-msgstr "ไฟล์ $(ARG1) ขณะนี้ไม่ถูกล็อกโดยตัวคุณเอง"
+msgstr "ไฟล์ $(ARG1) ขณะนี้ไม่ได้ถูกตัวคุณเองล็อคไว้"
 
 #. L9PCQ
 #: uui/inc/ids.hrc:158
@@ -440,8 +449,8 @@ msgid ""
 "The previously obtained lock for file $(ARG1) has expired.\n"
 "This can happen due to problems on the server managing the file lock. It cannot be guaranteed that write operations on this file will not overwrite changes done by other users!"
 msgstr ""
-"การล็อกของไฟล์ $(ARG1) ที่ได้มาก่อนหน้านี้ได้หมดอายุลง\n"
-"นี่อาจเกิดขึ้นจากปัญหาบนเครื่องเซิร์ฟเวอร์ในการจัดการการล็อกไฟล์ ไม่สามารถรับประกันได้ว่าปฏิบัติการเขียนลงไปที่ไฟล์ดังกล่าวจะไม่ถูกเขียนทับโดยผู้ใช้คนอื่น"
+"การล็อคของไฟล์ $(ARG1) ที่ได้มาก่อนหน้านี้ได้หมดอายุลงแล้ว\n"
+"นี่อาจเกิดจากปัญหาบนเครื่องเซิร์ฟเวอร์ที่จัดการการล็อคไฟล์ จึงไม่สามารถรับประกันได้ว่าการเขียนต่างๆ ที่ทำกับไฟล์นี้จะไม่ถูกเขียนทับโดยผู้ใช้อื่น"
 
 #. gZzEy
 #: uui/inc/ids.hrc:160
@@ -452,8 +461,8 @@ msgid ""
 "\n"
 " $(ARG1)."
 msgstr ""
-"ไม่สามารถบรรจุส่วนโปรแกรม ซึ่งอาจเป็นไปได้ว่าเกิดจากการติดตั้งที่ไม่สมบูรณ์\n"
-"ข้อความเต็มของความผิดพลาด:\n"
+"ไม่สามารถโหลดองค์ประกอบของโปรแกรม ซึ่งอาจเป็นไปได้ว่าเกิดจากการติดตั้งที่ไม่สมบูรณ์\n"
+"ข้อความเต็มของข้อผิดพลาดคือ:\n"
 "\n"
 " $(ARG1)"
 
@@ -465,9 +474,9 @@ msgid ""
 "\n"
 "Before accepting this certificate, you should examine this site's certificate carefully. Are you willing to accept this certificate for the purpose of identifying the Web site $(ARG1)?"
 msgstr ""
-"ไม่สามารถยืนยันเอกลักษณ์ของไซต์ $(ARG1)\n"
+"ไม่สามารถยืนยันเอกลักษณ์ของไซต์ $(ARG1) ได้\n"
 "\n"
-"ก่อนยอมรับใบรับรองนี้ คุณควรตรวจสอบใบรับรองของไซต์นี้อย่างรอบคอบ คุณเต็มใจที่จะยอมรับใบรับรองนี้เพื่อวัตถุประสงค์ในการยืนยันเอกลักษณ์ของเว็บไซต์ $(ARG1) หรือไม่?"
+"ก่อนที่จะยอมรับใบรับรองนี้ คุณควรตรวจสอบใบรับรองของไซต์นี้อย่างรอบคอบ คุณเต็มใจที่จะยอมรับใบรับรองนี้เพื่อวัตถุประสงค์ในการยืนยันเอกลักษณ์ของเว็บไซต์ $(ARG1) หรือไม่?"
 
 #. kBZVn
 #: uui/inc/ids.hrc:166
@@ -477,7 +486,7 @@ msgid ""
 "\n"
 "You should check to make sure that your computer's time is correct."
 msgstr ""
-"$(ARG1) เป็นไซต์ที่ใช้ใบรับรองด้านความมั่นคงในการเข้ารหัสป้องกันข้อมูลระหว่างการสื่อสัญญาณ แต่ใบรับรองได้หมดอายุลงเมื่อ $(ARG2)\n"
+"$(ARG1) เป็นไซต์ที่ใช้ใบรับรองความปลอดภัยในการเข้ารหัสลับข้อมูลขณะถ่ายโอน แต่ใบรับรองได้หมดอายุลงเมื่อ $(ARG2)\n"
 "\n"
 "คุณควรตรวจสอบให้แน่ใจว่าเวลาของคอมพิวเตอร์ของคุณถูกต้องแล้ว"
 
@@ -485,7 +494,7 @@ msgstr ""
 #: uui/inc/ids.hrc:167
 msgctxt "STR_UUI_SSLWARN_EXPIRED_TITLE"
 msgid "Security Warning: Server Certificate Invalid"
-msgstr "คำเตือนด้านความมั่นคง: ใบรับรองของเครื่องแม่ข่ายไม่ถูกต้อง"
+msgstr "คำเตือนด้านความปลอดภัย: ใบรับรองของเครื่องแม่ข่ายไม่ถูกต้อง"
 
 #. iyR2A
 #: uui/inc/ids.hrc:168
@@ -497,17 +506,17 @@ msgid ""
 "\n"
 "Would you like to continue anyway?"
 msgstr ""
-"คุณได้พยายามที่จะสร้างการเชื่อมต่อกับ $(ARG1) แต่ใบรับรองความมั่นคงที่เสนอเป็นของ $(ARG2) มีความเป็นไปได้เล็กน้อยว่าบางคนอาจกำลังพยายามดักสกัดการสื่อสารของคุณกับเว็บไซต์นี้\n"
+"คุณได้พยายามที่จะสร้างการเชื่อมต่อกับ $(ARG1) แต่ใบรับรองความปลอดภัยที่เสนอเป็นของ $(ARG2) มีความเป็นไปได้เล็กน้อยว่าอาจมีคนกำลังพยายามดักฟังการสื่อสารของคุณกับเว็บไซต์นี้\n"
 "\n"
 "ถ้าคุณสงสัยว่าใบรับรองที่แสดงไม่ใช่ของ $(ARG1) กรุณายกเลิกการเชื่อมต่อและแจ้งผู้ดูแลระบบของไซต์ดังกล่าว\n"
 "\n"
-"คุณต้องการทำต่ออยู่ดีหรือไม่?"
+"คุณยังคงต้องการทำต่อไปหรือไม่?"
 
 #. q6DM2
 #: uui/inc/ids.hrc:169
 msgctxt "STR_UUI_SSLWARN_DOMAINMISMATCH_TITLE"
 msgid "Security Warning: Server Certificate Expired"
-msgstr "คำเตือนด้านความมั่นคง: ใบรับรองของเครื่องแม่ข่ายหมดอายุ"
+msgstr "คำเตือนด้านความปลอดภัย: ใบรับรองของเครื่องแม่ข่ายหมดอายุแล้ว"
 
 #. zd5oX
 #: uui/inc/ids.hrc:170
@@ -525,7 +534,7 @@ msgstr ""
 #: uui/inc/ids.hrc:171
 msgctxt "STR_UUI_SSLWARN_INVALID_TITLE"
 msgid "Security Warning: Domain Name Mismatch"
-msgstr "คำเตือนด้านความมั่นคง: ชื่อโดเมนไม่ตรงกัน"
+msgstr "คำเตือนด้านความปลอดภัย: ชื่อโดเมนไม่ตรงกัน"
 
 #. wH3TZ
 msgctxt "stock"
@@ -596,19 +605,19 @@ msgstr "ใ_ช่"
 #: uui/inc/strings.hrc:24
 msgctxt "STR_ENTER_PASSWORD_TO_OPEN"
 msgid "Enter password to open file: \n"
-msgstr "ใส่รหัสผ่านเพื่อเปิดไฟล์: \n"
+msgstr "ป้อนรหัสผ่านเพื่อเปิดไฟล์: \n"
 
 #. rmDwa
 #: uui/inc/strings.hrc:25
 msgctxt "STR_ENTER_PASSWORD_TO_MODIFY"
 msgid "Enter password to modify file: \n"
-msgstr "ใส่รหัสผ่านเพื่อเปลี่ยนแปลงไฟล์: \n"
+msgstr "ป้อนรหัสผ่านเพื่อเปลี่ยนแปลงไฟล์: \n"
 
 #. BVofP
 #: uui/inc/strings.hrc:26
 msgctxt "STR_ENTER_SIMPLE_PASSWORD"
 msgid "Enter password: "
-msgstr "ใส่รหัสผ่าน: "
+msgstr "ป้อนรหัสผ่าน: "
 
 #. UTuR2
 #: uui/inc/strings.hrc:27
@@ -626,7 +635,7 @@ msgstr "ตั้งรหัสผ่าน"
 #: uui/inc/strings.hrc:29
 msgctxt "STR_TITLE_ENTER_PASSWORD"
 msgid "Enter Password"
-msgstr "ใส่รหัสผ่าน"
+msgstr "ป้อนรหัสผ่าน"
 
 #. hggFL
 #: uui/inc/strings.hrc:30
@@ -649,6 +658,10 @@ msgid ""
 "Open document read-only, or ignore own file locking and open the document for editing.\n"
 "Select Notify to open read-only and get notified when the document becomes editable."
 msgstr ""
+"ไฟล์เอกสาร '$(ARG1)' ถูกตัวคุณเองล็อคไว้เพื่อแก้ไขในอีกระบบหนึ่งตั้งแต่ $(ARG2)\n"
+"\n"
+"คุณอาจเปิดเอกสารแบบอ่านอย่างเดียว หรืออาจเพิกเฉยต่อการล็อคไฟล์ของคุณเองแล้วเปิดเอกสารเพื่อแก้ไขก็ได้\n"
+"เลือก 'แจ้งเตือน' หากต้องการเปิดแบบอ่านอย่างเดียว และให้แจ้งเตือนเมื่อเอกสารสามารถแก้ไขได้"
 
 #. 8mKMg
 #: uui/inc/strings.hrc:34
@@ -660,13 +673,13 @@ msgstr "เปิดแบบ~อ่านอย่างเดียว"
 #: uui/inc/strings.hrc:35
 msgctxt "STR_ALREADYOPEN_READONLY_NOTIFY_BTN"
 msgid "~Notify"
-msgstr ""
+msgstr "แ~จ้งเตือน"
 
 #. ThAZk
 #: uui/inc/strings.hrc:36
 msgctxt "STR_ALREADYOPEN_OPEN_BTN"
 msgid "~Open"
-msgstr "เปิด"
+msgstr "~เปิด"
 
 #. uFhJT
 #: uui/inc/strings.hrc:37
@@ -676,18 +689,21 @@ msgid ""
 "\n"
 "Close document on other system and retry saving or ignore own file locking and save current document."
 msgstr ""
+"ไฟล์เอกสาร '$(ARG1)' ถูกตัวคุณเองล็อคไว้เพื่อแก้ไขในอีกระบบหนึ่งตั้งแต่ $(ARG2)\n"
+"\n"
+"คุณอาจปิดเอกสารที่ระบบนั้นแล้วลองบันทึกใหม่ หรืออาจเพิกเฉยต่อการล็อคไฟล์ของคุณเองแล้วบันทึกเอกสารปัจจุบันก็ได้"
 
 #. ZCJGW
 #: uui/inc/strings.hrc:38
 msgctxt "STR_ALREADYOPEN_RETRY_SAVE_BTN"
 msgid "~Retry Saving"
-msgstr "~พยายามบันทึกอีกครั้ง"
+msgstr "~ลองบันทึกใหม่"
 
 #. EVEQx
 #: uui/inc/strings.hrc:39
 msgctxt "STR_ALREADYOPEN_SAVE_BTN"
 msgid "~Save"
-msgstr "บันทึก"
+msgstr "~บันทึก"
 
 #. SZb7E
 #: uui/inc/strings.hrc:41
@@ -1075,17 +1091,15 @@ msgstr ""
 
 #. svTn6
 #: uui/uiconfig/ui/macrowarnmedium.ui:27
-#, fuzzy
 msgctxt "macrowarnmedium|cancel"
 msgid "_Disable Macros"
-msgstr "ปิดการทำงานของแมคโคร"
+msgstr "ปิ_ดการทำงานของแมโคร"
 
 #. o4c9e
 #: uui/uiconfig/ui/macrowarnmedium.ui:43
-#, fuzzy
 msgctxt "macrowarnmedium|ok"
 msgid "_Enable Macros"
-msgstr "เปิดการทำงานของแมคโคร"
+msgstr "_เปิดการทำงานของแมโคร"
 
 #. tYAFs
 #: uui/uiconfig/ui/macrowarnmedium.ui:89
@@ -1221,7 +1235,7 @@ msgstr "เปลี่ยนชื่อ"
 #: uui/uiconfig/ui/sslwarndialog.ui:8
 msgctxt "sslwarndialog|SSLWarnDialog"
 msgid "Security Warning: "
-msgstr "คำเตือนด้านความมั่นคง: "
+msgstr "คำเตือนด้านความปลอดภัย: "
 
 #. e7vJt
 #: uui/uiconfig/ui/sslwarndialog.ui:25
