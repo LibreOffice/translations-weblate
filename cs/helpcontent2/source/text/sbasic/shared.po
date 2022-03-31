@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-03-21 12:31+0100\n"
+"POT-Creation-Date: 2022-04-01 00:19+0200\n"
 "PO-Revision-Date: 2022-02-23 11:28+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/cs/>\n"
@@ -2923,14 +2923,14 @@ msgctxt ""
 msgid "<bookmark_value>procedures</bookmark_value>  <bookmark_value>functions;using</bookmark_value>  <bookmark_value>variables;passing to procedures, functions, properties</bookmark_value>  <bookmark_value>parameters;for procedures, functions or properties</bookmark_value>  <bookmark_value>parameters;passing by reference or value</bookmark_value>  <bookmark_value>variables;scope</bookmark_value>  <bookmark_value>scope of variables</bookmark_value>  <bookmark_value>GLOBAL variables</bookmark_value>  <bookmark_value>PUBLIC variables</bookmark_value>  <bookmark_value>PRIVATE variables</bookmark_value>  <bookmark_value>functions;return value type</bookmark_value>  <bookmark_value>return value type of functions</bookmark_value>"
 msgstr "<bookmark_value>procedury</bookmark_value><bookmark_value>funkce;použití</bookmark_value><bookmark_value>proměnné; předávání procedurám a funkcím</bookmark_value><bookmark_value>parametry;pro procedury a funkce</bookmark_value><bookmark_value>parametry;předávání odkazem nebo hodnotou</bookmark_value><bookmark_value>proměnné;viditelnost</bookmark_value> <bookmark_value>viditelnost proměnných</bookmark_value><bookmark_value>GLOBAL proměnné</bookmark_value><bookmark_value>PUBLIC proměnné</bookmark_value><bookmark_value>PRIVATE proměnné</bookmark_value><bookmark_value>funkce; typ návratové hodnoty</bookmark_value><bookmark_value>typ návratové hodnoty funkcí</bookmark_value>"
 
-#. AYcBA
+#. RY6Z4
 #: 01020300.xhp
 msgctxt ""
 "01020300.xhp\n"
 "hd_id3149456\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures, Functions and Properties</link>"
-msgstr "<link href=\"text/sbasic/shared/01020300.xhp\">Použití procedur, funkcí a vlastností</link>"
+msgid "<variable id=\"UsingSubs_h1\"><link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures, Functions and Properties</link></variable>"
+msgstr ""
 
 #. DSyYW
 #: 01020300.xhp
@@ -19114,14 +19114,14 @@ msgctxt ""
 msgid "Performs the integer division on two numbers and returns the result."
 msgstr "Provede celočíselné dělení dvou čísel a vrátí výsledek."
 
-#. iN7zc
+#. 7hxCB
 #: 03070700.xhp
 msgctxt ""
 "03070700.xhp\n"
 "bm_id3150669\n"
 "help.text"
-msgid "<bookmark_value>Operators;Integer division (\\)</bookmark_value>  <bookmark_value>\"\\\\\" operator (mathematical)</bookmark_value>"
-msgstr "<bookmark_value>operátory;celočíselné dělení (\\)</bookmark_value><bookmark_value>operátor \"\\\\\" (matematický)</bookmark_value>"
+msgid "<bookmark_value>Operators;Integer division (\\\\)</bookmark_value>  <bookmark_value>\"\\\\\" operator (mathematical)</bookmark_value>"
+msgstr ""
 
 #. KDgG2
 #: 03070700.xhp
@@ -23704,32 +23704,41 @@ msgctxt ""
 msgid "<bookmark_value>Function statement</bookmark_value>"
 msgstr "<bookmark_value>Function (příkaz)</bookmark_value>"
 
-#. 4m9Rw
+#. 4AZJf
 #: 03090406.xhp
 msgctxt ""
 "03090406.xhp\n"
 "hd_id3153346\n"
 "help.text"
-msgid "<link href=\"text/sbasic/shared/03090406.xhp\" name=\"Function Statement\">Function Statement</link>"
-msgstr "<link href=\"text/sbasic/shared/03090406.xhp\" name=\"Příkaz Function\">Příkaz Function</link>"
+msgid "<variable id=\"Function_h1\"><link href=\"text/sbasic/shared/03090406.xhp\" name=\"Function Statement\">Function Statement</link></variable>"
+msgstr ""
 
-#. mLEJz
+#. i3BLj
 #: 03090406.xhp
 msgctxt ""
 "03090406.xhp\n"
 "par_id3159158\n"
 "help.text"
-msgid "Defines a subroutine that can be used as an expression to determine a return type."
-msgstr "Definuje podprogram, který lze zavolat z programu a který vrací hodnotu."
+msgid "A function is a block of code which runs when it is called. A function is usually called in an expression."
+msgstr ""
 
-#. qCx4G
+#. fLBaF
 #: 03090406.xhp
 msgctxt ""
 "03090406.xhp\n"
-"par_id661588586825434\n"
+"par_id451647246564161\n"
 "help.text"
-msgid "<literal>Sub</literal>, <literal>Function</literal> or <literal>Property</literal> statements are similar methods, without distinction. They receive parameters by reference allowing them to be modified in return. %PRODUCTNAME  Basic compiler accepts their respective argument syntax to be used interchangeably."
-msgstr "Příkazy <literal>Sub</literal>, <literal>Function</literal> a <literal>Property</literal> si jsou podobné. Do obou jsou parametry předávány odkazem, a jejich hodnoty lze proto měnit. Pro kompilátor jazyka %PRODUCTNAME Basic jsou přijatelné obě syntaxe a je možné je vzájemně zaměňovat."
+msgid "You can pass data, known as parameters or arguments, into a function. You may pass a parameter by value or by reference. When by reference, modifications applied to the parameter in the function will be sent back to the calling code."
+msgstr ""
+
+#. 9wMCM
+#: 03090406.xhp
+msgctxt ""
+"03090406.xhp\n"
+"par_id101647247154065\n"
+"help.text"
+msgid "A function usually returns data as a result."
+msgstr ""
 
 #. zFnQ7
 #: 03090406.xhp
@@ -23829,6 +23838,15 @@ msgctxt ""
 "help.text"
 msgid "Exit For ' sItem found"
 msgstr "Exit For ' nalezeno sItem"
+
+#. FTf7A
+#: 03090406.xhp
+msgctxt ""
+"03090406.xhp\n"
+"par_id181647247913872\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/01010210.xhp\" name=\"Subroutine basics\">Subroutines basics</link>"
+msgstr ""
 
 #. yZEAJ
 #: 03090407.xhp
@@ -24027,6 +24045,15 @@ msgctxt ""
 "help.text"
 msgid "<emph>arguments:</emph> Optional parameters that you want to pass to the subroutine."
 msgstr "<emph>argumenty:</emph> Nepovinné parametry předávané podprogramu."
+
+#. gPQ9W
+#: 03090409.xhp
+msgctxt ""
+"03090409.xhp\n"
+"par_id181647247913872\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/01010210.xhp\" name=\"Subroutine basics\">Subroutines basics</link>"
+msgstr ""
 
 #. CCDzt
 #: 03090410.xhp
@@ -39940,14 +39967,14 @@ msgctxt ""
 msgid "<variable id=\"compatibilitymodeh1\"><link href=\"text/sbasic/shared/compatibilitymode.xhp\" name=\"CompatibilityMode\">CompatibilityMode() Function</link></variable>"
 msgstr "<variable id=\"compatibilitymodeh1\"><link href=\"text/sbasic/shared/compatibilitymode.xhp\" name=\"CompatibilityMode\">Funkce CompatibilityMode()</link></variable>"
 
-#. ipFPG
+#. 4EEry
 #: compatibilitymode.xhp
 msgctxt ""
 "compatibilitymode.xhp\n"
 "N0120\n"
 "help.text"
-msgid "<literal>CompatibilityMode()</literal> function controls runtime mode and affects all code executed after setting or resetting the mode."
-msgstr "Funkce <literal>CompatibilityMode()</literal> určuje režim běhu programů a ovlivňuje, jak se bude po nastavení nebo zrušení tohoto režimu vykonávat veškerý kód."
+msgid "<literal>CompatibilityMode()</literal> function controls or queries runtime mode. It affects all code executed after setting or resetting the runtime mode."
+msgstr ""
 
 #. YSokk
 #: compatibilitymode.xhp
@@ -39958,14 +39985,41 @@ msgctxt ""
 msgid "Use this feature with caution, limit it to document conversion for example."
 msgstr "Používejte tuto funkci opatrně, například ji omezte na převody dokumentů."
 
-#. GJLGQ
+#. VDnNU
 #: compatibilitymode.xhp
 msgctxt ""
 "compatibilitymode.xhp\n"
-"par_id271561645872679\n"
+"bas_id751645014686110\n"
 "help.text"
-msgid "<literal>Option Compatible</literal> turns on VBA compatibility at module level for the %PRODUCTNAME Basic interpreter."
-msgstr "<literal>Option Compatible</literal> zapíná na úrovni modulu pro interpret jazyka %PRODUCTNAME Basic kompatibilitu s VBA."
+msgid "CompatibilityMode(Optional Enable As Boolean) As Boolean"
+msgstr ""
+
+#. 34s7C
+#: compatibilitymode.xhp
+msgctxt ""
+"compatibilitymode.xhp\n"
+"par_id551648117368688\n"
+"help.text"
+msgid "<literal>CompatibilityMode</literal> function always returns the mode that is active after its execution. That is if called with argument, it returns the new mode, if called without argument, it returns active mode without modifying it."
+msgstr ""
+
+#. buGpD
+#: compatibilitymode.xhp
+msgctxt ""
+"compatibilitymode.xhp\n"
+"par_id971648117815981\n"
+"help.text"
+msgid "<emph>Enable</emph>: Sets or unsets new compatibility mode when the argument is present."
+msgstr ""
+
+#. ouFEB
+#: compatibilitymode.xhp
+msgctxt ""
+"compatibilitymode.xhp\n"
+"par_id371648123169691\n"
+"help.text"
+msgid "<literal>CompatibilityMode</literal> function relates to <link href=\"text/sbasic/shared/03103350.xhp#vbasupportstatement\" name=\"VBASupport compiler option\">Option VBASupport 1</link>, in which case it always returns <literal>True</literal>. It is unrelated to <link href=\"text/sbasic/shared/compatible.xhp#compatiblestatement\" name=\"Option Compatible compiler directive\">Option Compatible</link> compiler directive."
+msgstr ""
 
 #. NM3yP
 #: compatibilitymode.xhp
@@ -39976,14 +40030,14 @@ msgctxt ""
 msgid "This function may affect or help in the following situations:"
 msgstr "Tato funkce může ovlivnit následující situace:"
 
-#. 9jVgZ
+#. RSBt2
 #: compatibilitymode.xhp
 msgctxt ""
 "compatibilitymode.xhp\n"
-"N0122\n"
+"par_id301645018760314\n"
 "help.text"
-msgid "Creating enumerations with <link href=\"text/sbasic/shared/enum.xhp\" name=\"enum statement\">Enum statement</link>"
-msgstr "Vytváření výčtů <link href=\"text/sbasic/shared/enum.xhp\" name=\"Příkaz Enum\">příkazem Enum</link>."
+msgid "Scoping of variables."
+msgstr ""
 
 #. f6LjG
 #: compatibilitymode.xhp
@@ -40012,15 +40066,6 @@ msgctxt ""
 msgid "Color components calculation with the <link href=\"text/sbasic/shared/03010303.xhp\" name=\"linkred\"><literal>Red</literal></link> and <link href=\"text/sbasic/shared/03010301.xhp\" name=\"linkblue\"><literal>Blue</literal></link> functions which <emph>are interchanged</emph> (The <link href=\"text/sbasic/shared/03010302.xhp\" name=\"linkgreen\"><literal>Green</literal></link> function is not affected)."
 msgstr "Výpočet složek barvy pomocí funkcí <link href=\"text/sbasic/shared/03010303.xhp\" name=\"Funkce Red\"><literal>Red</literal></link> a <link href=\"text/sbasic/shared/03010301.xhp\" name=\"Funkce Blue\"><literal>Blue</literal></link>, které <emph>jsou odlišné</emph>. (Funkce <link href=\"text/sbasic/shared/03010302.xhp\" name=\"Funkce Green\"><literal>Green</literal></link> není ovlivněna.)"
 
-#. piCTC
-#: compatibilitymode.xhp
-msgctxt ""
-"compatibilitymode.xhp\n"
-"N0126\n"
-"help.text"
-msgid "<literal>CompatibilityMode()</literal> function may be necessary when resorting to <literal>Option Compatible</literal> or <literal>Option VBASupport</literal> compiler modes."
-msgstr "Funkce <literal>CompatibilityMode()</literal> může být nezbytná při používání režimů kompilátoru <literal>Option Compatible</literal> nebo <literal>Option VBASupport</literal>."
-
 #. cFz7C
 #: compatibilitymode.xhp
 msgctxt ""
@@ -40030,14 +40075,14 @@ msgctxt ""
 msgid "Given a NOT empty directory at <emph>file:///home/me/Test</emph>"
 msgstr "Za předpokladu, že adresář <emph>file:///home/me/Test</emph> není prázdný"
 
-#. 7mLBk
+#. yntDo
 #: compatibilitymode.xhp
 msgctxt ""
 "compatibilitymode.xhp\n"
 "par_id461561646613414\n"
 "help.text"
-msgid "With <literal>CompatibilityMode( true )</literal> the program results in an error, otherwise the Test directory and all its content is deleted."
-msgstr "S <literal>CompatibilityMode( true )</literal> je výsledkem programu chyba, v opačném případě se adresář Test a veškerý jeho obsah smažou."
+msgid "With <literal>CompatibilityMode( True )</literal> the program raises an error, otherwise the <literal>Test</literal> directory and all its content is deleted."
+msgstr ""
 
 #. TcWG2
 #: compatibilitymode.xhp
@@ -40048,23 +40093,23 @@ msgctxt ""
 msgid "Modifying <literal>Dir</literal> behavior"
 msgstr "Změna chování funkce <literal>Dir</literal>"
 
-#. S3VK4
+#. RcnAo
 #: compatibilitymode.xhp
 msgctxt ""
 "compatibilitymode.xhp\n"
 "par_id831561647900147\n"
 "help.text"
-msgid "CompatibilityMode( true )   ' Shows also normal files"
-msgstr "CompatibilityMode( true )   ' Zobrazí také běžné soubory"
+msgid "CompatibilityMode( Enable := True )   ' Shows also normal files"
+msgstr ""
 
-#. YJM4j
+#. oBqaD
 #: compatibilitymode.xhp
 msgctxt ""
 "compatibilitymode.xhp\n"
-"N0129\n"
+"bas_id641645017016611\n"
 "help.text"
-msgid "Refer to <link href=\"text/sbasic/python/python_platform.xhp\">Identifying the Operating System</link> and <link href=\"text/sbasic/python/python_session.xhp\">Getting Session Information</link> for <literal>Option Compatible</literal> simple examples, or <link href=\"text/sbasic/guide/access2base.xhp\">Access2Base shared Basic library</link> for other class examples making use of <literal>Option Compatible</literal> compiler mode."
-msgstr "Jednoduché příklady využívající <literal>Option Compatible</literal> naleznete v částech <link href=\"text/sbasic/python/python_platform.xhp\">Rozpoznávání operačního systému</link> a <link href=\"text/sbasic/python/python_session.xhp\">Zjišťování informací o relaci</link>. Další příklady použití režimu kompilátoru <literal>OptionCompatible</literal> obsahuje <link href=\"text/sbasic/guide/access2base.xhp\">sdílená knihovna Basicu Access2Base</link>."
+msgid "CompatibilityMode Enable := False ' Shows only directories"
+msgstr ""
 
 #. P7qDB
 #: compatibilitymode.xhp
@@ -40074,15 +40119,6 @@ msgctxt ""
 "help.text"
 msgid "Variables scope modification in <link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures and Functions</link> with <literal>CompatibilityMode()</literal> function."
 msgstr "Změna rozsahu platnosti proměnných pomocí funkce <literal>CompatibilityMode()</literal> je uvedena v části <link href=\"text/sbasic/shared/01020300.xhp\">Použití procedur a funkcí</link>."
-
-#. YwBF4
-#: compatible.xhp
-msgctxt ""
-"compatible.xhp\n"
-"N0103\n"
-"help.text"
-msgid "<bookmark_value>VBA compatibility option</bookmark_value>"
-msgstr "<bookmark_value>možnost kompatibility s VBA</bookmark_value>"
 
 #. imVdb
 #: compatible.xhp
@@ -40101,15 +40137,6 @@ msgctxt ""
 "help.text"
 msgid "<literal>Option Compatible</literal> extends %PRODUCTNAME Basic compiler and runtime, allowing supplemental language constructs to Basic."
 msgstr "<literal>Option Compatible</literal> rozšiřuje kompilátor a běhové prostředí jazyka %PRODUCTNAME Basic a tím umožňuje používat další konstrukty tohoto jazyka."
-
-#. SNhhH
-#: compatible.xhp
-msgctxt ""
-"compatible.xhp\n"
-"par_id931561646897105\n"
-"help.text"
-msgid "The function <link href=\"text/sbasic/shared/compatibilitymode.xhp\" name=\"copatibilitymode\"><literal>CompatibilityMode()</literal></link> controls runtime mode and affects all code executed after setting or resetting the mode."
-msgstr "Funkce <link href=\"text/sbasic/shared/compatibilitymode.xhp\" name=\"compatibilitymode\"><literal>CompatibilityMode()</literal></link> určuje režim běhu programů a ovlivňuje, jak se bude po nastavení nebo zrušení tohoto režimu vykonávat veškerý kód."
 
 #. w5NPC
 #: compatible.xhp
@@ -40137,24 +40164,6 @@ msgctxt ""
 "help.text"
 msgid "Create <link href=\"text/sbasic/shared/03040000.xhp#addvbaconstants\" name=\"addvbaconstants\">VBA constants including non-printable characters</link>."
 msgstr "Vytváření <link href=\"text/sbasic/shared/03040000.xhp#addvbaconstants\" name=\"konstanty VBA\">konstant VBA obsahujících netisknutelné znaky</link>."
-
-#. jGHBX
-#: compatible.xhp
-msgctxt ""
-"compatible.xhp\n"
-"N0110\n"
-"help.text"
-msgid "Support <literal>Private</literal>/<literal>Public</literal> keywords for procedures."
-msgstr "Podpora klíčových slov <literal>Private</literal>/<literal>Public</literal> pro procedury."
-
-#. VGYZH
-#: compatible.xhp
-msgctxt ""
-"compatible.xhp\n"
-"N0111\n"
-"help.text"
-msgid "Compulsory <literal>Set</literal> statement for objects."
-msgstr "Povinný příkaz <literal>Set</literal> pro objekty."
 
 #. xwLEC
 #: compatible.xhp
@@ -41389,14 +41398,14 @@ msgctxt ""
 msgid "<bookmark_value>Property statement</bookmark_value>"
 msgstr "<bookmark_value>Property</bookmark_value>"
 
-#. 6Gjab
+#. a5AX6
 #: property.xhp
 msgctxt ""
 "property.xhp\n"
 "N0182\n"
 "help.text"
-msgid "Property Statement"
-msgstr "Příkaz Property"
+msgid "<variable id=\"Property_h1\"><link href=\"text/sbasic/shared/Property.xhp\" name=\"Property statement\">Property Statement</link></variable>"
+msgstr ""
 
 #. CxW74
 #: property.xhp
@@ -41542,6 +41551,15 @@ msgctxt ""
 msgid "Use <emph>Let</emph> or <emph>Set</emph> when handling UNO services or class objects:"
 msgstr "<emph>Let</emph> nebo <emph>Set</emph> používejte při práci se službami nebo objekty tříd UNO:"
 
+#. mbhy9
+#: property.xhp
+msgctxt ""
+"property.xhp\n"
+"par_id181647247913872\n"
+"help.text"
+msgid "<link href=\"text/sbasic/shared/01010210.xhp\" name=\"Subroutine basics\">Subroutines basics</link>"
+msgstr ""
+
 #. KbzAx
 #: property.xhp
 msgctxt ""
@@ -41550,15 +41568,6 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/03090404.xhp\" name=\"End\">End</link>, <link href=\"text/sbasic/shared/03090412.xhp\" name=\"Exit\">Exit</link> statements"
 msgstr "Příkazy <link href=\"text/sbasic/shared/03090404.xhp\" name=\"End\">End</link>, <link href=\"text/sbasic/shared/03090412.xhp\" name=\"Exit\">Exit</link>"
-
-#. Dh5aG
-#: property.xhp
-msgctxt ""
-"property.xhp\n"
-"N0238\n"
-"help.text"
-msgid "<link href=\"text/sbasic/shared/01020300.xhp\" name=\"Using Procedures and Fonctions\">Using Procedures and Functions</link>"
-msgstr "<link href=\"text/sbasic/shared/01020300.xhp\" name=\"Použití procedur a funkcí\">Použití procedur a funkcí</link>"
 
 #. uM2zs
 #: replace.xhp
@@ -42495,6 +42504,132 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
+
+#~ msgctxt ""
+#~ "01020300.xhp\n"
+#~ "hd_id3149456\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/01020300.xhp\">Using Procedures, Functions and Properties</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/01020300.xhp\">Použití procedur, funkcí a vlastností</link>"
+
+#~ msgctxt ""
+#~ "03070700.xhp\n"
+#~ "bm_id3150669\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>Operators;Integer division (\\)</bookmark_value>  <bookmark_value>\"\\\\\" operator (mathematical)</bookmark_value>"
+#~ msgstr "<bookmark_value>operátory;celočíselné dělení (\\)</bookmark_value><bookmark_value>operátor \"\\\\\" (matematický)</bookmark_value>"
+
+#~ msgctxt ""
+#~ "03090406.xhp\n"
+#~ "hd_id3153346\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/03090406.xhp\" name=\"Function Statement\">Function Statement</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/03090406.xhp\" name=\"Příkaz Function\">Příkaz Function</link>"
+
+#~ msgctxt ""
+#~ "03090406.xhp\n"
+#~ "par_id3159158\n"
+#~ "help.text"
+#~ msgid "Defines a subroutine that can be used as an expression to determine a return type."
+#~ msgstr "Definuje podprogram, který lze zavolat z programu a který vrací hodnotu."
+
+#~ msgctxt ""
+#~ "03090406.xhp\n"
+#~ "par_id661588586825434\n"
+#~ "help.text"
+#~ msgid "<literal>Sub</literal>, <literal>Function</literal> or <literal>Property</literal> statements are similar methods, without distinction. They receive parameters by reference allowing them to be modified in return. %PRODUCTNAME  Basic compiler accepts their respective argument syntax to be used interchangeably."
+#~ msgstr "Příkazy <literal>Sub</literal>, <literal>Function</literal> a <literal>Property</literal> si jsou podobné. Do obou jsou parametry předávány odkazem, a jejich hodnoty lze proto měnit. Pro kompilátor jazyka %PRODUCTNAME Basic jsou přijatelné obě syntaxe a je možné je vzájemně zaměňovat."
+
+#~ msgctxt ""
+#~ "compatibilitymode.xhp\n"
+#~ "N0120\n"
+#~ "help.text"
+#~ msgid "<literal>CompatibilityMode()</literal> function controls runtime mode and affects all code executed after setting or resetting the mode."
+#~ msgstr "Funkce <literal>CompatibilityMode()</literal> určuje režim běhu programů a ovlivňuje, jak se bude po nastavení nebo zrušení tohoto režimu vykonávat veškerý kód."
+
+#~ msgctxt ""
+#~ "compatibilitymode.xhp\n"
+#~ "par_id271561645872679\n"
+#~ "help.text"
+#~ msgid "<literal>Option Compatible</literal> turns on VBA compatibility at module level for the %PRODUCTNAME Basic interpreter."
+#~ msgstr "<literal>Option Compatible</literal> zapíná na úrovni modulu pro interpret jazyka %PRODUCTNAME Basic kompatibilitu s VBA."
+
+#~ msgctxt ""
+#~ "compatibilitymode.xhp\n"
+#~ "N0122\n"
+#~ "help.text"
+#~ msgid "Creating enumerations with <link href=\"text/sbasic/shared/enum.xhp\" name=\"enum statement\">Enum statement</link>"
+#~ msgstr "Vytváření výčtů <link href=\"text/sbasic/shared/enum.xhp\" name=\"Příkaz Enum\">příkazem Enum</link>."
+
+#~ msgctxt ""
+#~ "compatibilitymode.xhp\n"
+#~ "N0126\n"
+#~ "help.text"
+#~ msgid "<literal>CompatibilityMode()</literal> function may be necessary when resorting to <literal>Option Compatible</literal> or <literal>Option VBASupport</literal> compiler modes."
+#~ msgstr "Funkce <literal>CompatibilityMode()</literal> může být nezbytná při používání režimů kompilátoru <literal>Option Compatible</literal> nebo <literal>Option VBASupport</literal>."
+
+#~ msgctxt ""
+#~ "compatibilitymode.xhp\n"
+#~ "par_id461561646613414\n"
+#~ "help.text"
+#~ msgid "With <literal>CompatibilityMode( true )</literal> the program results in an error, otherwise the Test directory and all its content is deleted."
+#~ msgstr "S <literal>CompatibilityMode( true )</literal> je výsledkem programu chyba, v opačném případě se adresář Test a veškerý jeho obsah smažou."
+
+#~ msgctxt ""
+#~ "compatibilitymode.xhp\n"
+#~ "par_id831561647900147\n"
+#~ "help.text"
+#~ msgid "CompatibilityMode( true )   ' Shows also normal files"
+#~ msgstr "CompatibilityMode( true )   ' Zobrazí také běžné soubory"
+
+#~ msgctxt ""
+#~ "compatibilitymode.xhp\n"
+#~ "N0129\n"
+#~ "help.text"
+#~ msgid "Refer to <link href=\"text/sbasic/python/python_platform.xhp\">Identifying the Operating System</link> and <link href=\"text/sbasic/python/python_session.xhp\">Getting Session Information</link> for <literal>Option Compatible</literal> simple examples, or <link href=\"text/sbasic/guide/access2base.xhp\">Access2Base shared Basic library</link> for other class examples making use of <literal>Option Compatible</literal> compiler mode."
+#~ msgstr "Jednoduché příklady využívající <literal>Option Compatible</literal> naleznete v částech <link href=\"text/sbasic/python/python_platform.xhp\">Rozpoznávání operačního systému</link> a <link href=\"text/sbasic/python/python_session.xhp\">Zjišťování informací o relaci</link>. Další příklady použití režimu kompilátoru <literal>OptionCompatible</literal> obsahuje <link href=\"text/sbasic/guide/access2base.xhp\">sdílená knihovna Basicu Access2Base</link>."
+
+#~ msgctxt ""
+#~ "compatible.xhp\n"
+#~ "N0103\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>VBA compatibility option</bookmark_value>"
+#~ msgstr "<bookmark_value>možnost kompatibility s VBA</bookmark_value>"
+
+#~ msgctxt ""
+#~ "compatible.xhp\n"
+#~ "par_id931561646897105\n"
+#~ "help.text"
+#~ msgid "The function <link href=\"text/sbasic/shared/compatibilitymode.xhp\" name=\"copatibilitymode\"><literal>CompatibilityMode()</literal></link> controls runtime mode and affects all code executed after setting or resetting the mode."
+#~ msgstr "Funkce <link href=\"text/sbasic/shared/compatibilitymode.xhp\" name=\"compatibilitymode\"><literal>CompatibilityMode()</literal></link> určuje režim běhu programů a ovlivňuje, jak se bude po nastavení nebo zrušení tohoto režimu vykonávat veškerý kód."
+
+#~ msgctxt ""
+#~ "compatible.xhp\n"
+#~ "N0110\n"
+#~ "help.text"
+#~ msgid "Support <literal>Private</literal>/<literal>Public</literal> keywords for procedures."
+#~ msgstr "Podpora klíčových slov <literal>Private</literal>/<literal>Public</literal> pro procedury."
+
+#~ msgctxt ""
+#~ "compatible.xhp\n"
+#~ "N0111\n"
+#~ "help.text"
+#~ msgid "Compulsory <literal>Set</literal> statement for objects."
+#~ msgstr "Povinný příkaz <literal>Set</literal> pro objekty."
+
+#~ msgctxt ""
+#~ "property.xhp\n"
+#~ "N0182\n"
+#~ "help.text"
+#~ msgid "Property Statement"
+#~ msgstr "Příkaz Property"
+
+#~ msgctxt ""
+#~ "property.xhp\n"
+#~ "N0238\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/sbasic/shared/01020300.xhp\" name=\"Using Procedures and Fonctions\">Using Procedures and Functions</link>"
+#~ msgstr "<link href=\"text/sbasic/shared/01020300.xhp\" name=\"Použití procedur a funkcí\">Použití procedur a funkcí</link>"
 
 #~ msgctxt ""
 #~ "03090401.xhp\n"

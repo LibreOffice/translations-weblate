@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-03-21 12:32+0100\n"
+"POT-Creation-Date: 2022-04-01 00:20+0200\n"
 "PO-Revision-Date: 2022-03-12 17:25+0000\n"
 "Last-Translator: Ming Hua <plateauwolf@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.documentfoundation.org/projects/libo_ui-master/swmessages/zh_Hans/>\n"
@@ -16995,74 +16995,104 @@ msgctxt "insertbreak|linerb-atkobject"
 msgid "Ends the current line, and moves the text found to the right of the cursor to the next line, without creating a new paragraph."
 msgstr "结束当前行，并将光标右侧文字移动到下一行，但不新建段落。"
 
+#. 88jq6
+#: sw/uiconfig/swriter/ui/insertbreak.ui:122
+msgctxt "insertbreak|clearft"
+msgid "Restart Location:"
+msgstr ""
+
+#. fJEqu
+#: sw/uiconfig/swriter/ui/insertbreak.ui:140
+msgctxt "insertbreak|clearlb0"
+msgid "[None]"
+msgstr ""
+
+#. dGBC7
+#: sw/uiconfig/swriter/ui/insertbreak.ui:141
+msgctxt "insertbreak|clearlb1"
+msgid "Left"
+msgstr ""
+
+#. HbijZ
+#: sw/uiconfig/swriter/ui/insertbreak.ui:142
+msgctxt "insertbreak|clearlb2"
+msgid "Right"
+msgstr ""
+
+#. AAg7H
+#: sw/uiconfig/swriter/ui/insertbreak.ui:143
+msgctxt "insertbreak|clearlb3"
+msgid "Next Full Line"
+msgstr ""
+
 #. gqCuB
-#: sw/uiconfig/swriter/ui/insertbreak.ui:119
+#: sw/uiconfig/swriter/ui/insertbreak.ui:154
 msgctxt "insertbreak|columnrb"
 msgid "Column break"
 msgstr "分栏符"
 
 #. poiJj
-#: sw/uiconfig/swriter/ui/insertbreak.ui:128
+#: sw/uiconfig/swriter/ui/insertbreak.ui:163
 msgctxt "insertbreak|columnrb-atkobject"
 msgid "Inserts a manual column break (in a multiple column layout), and moves the text found to the right of the cursor to the beginning of the next column. A manual column break is indicated by a nonprinting border at the top of the new column."
 msgstr "插入手动分栏符 (多栏布局)，并将光标右侧文字移动到次栏开头。手动分栏符以边框形式 (打印时不可见) 显示在新栏顶部。"
 
 #. 9GAAp
-#: sw/uiconfig/swriter/ui/insertbreak.ui:140
+#: sw/uiconfig/swriter/ui/insertbreak.ui:175
 msgctxt "insertbreak|pagerb"
 msgid "Page break"
 msgstr "分页符"
 
 #. G7e9T
-#: sw/uiconfig/swriter/ui/insertbreak.ui:149
+#: sw/uiconfig/swriter/ui/insertbreak.ui:184
 msgctxt "insertbreak|pagerb-atkobject"
 msgid "Inserts a manual page break, and moves the text found to the right of the cursor to the beginning of the next page. The inserted page break is indicated by a nonprinting border at the top of the new page."
 msgstr "插入手动分页符，并将光标右侧的文字移到下一页的起始处。所插入的手动分页符由新页面顶端的非打印边框指示。"
 
 #. qAj3x
-#: sw/uiconfig/swriter/ui/insertbreak.ui:164
+#: sw/uiconfig/swriter/ui/insertbreak.ui:199
 msgctxt "insertbreak|styleft"
 msgid "Page Style:"
 msgstr "页面样式:"
 
 #. BWnND
-#: sw/uiconfig/swriter/ui/insertbreak.ui:181
+#: sw/uiconfig/swriter/ui/insertbreak.ui:216
 msgctxt "insertbreak|liststore1"
 msgid "[None]"
 msgstr "[无]"
 
 #. 8WDUc
-#: sw/uiconfig/swriter/ui/insertbreak.ui:185
+#: sw/uiconfig/swriter/ui/insertbreak.ui:220
 msgctxt "insertbreak|stylelb-atkobject"
 msgid "Select the page style for the page that follows the manual page break."
 msgstr "选择手动分页符之后页面的页面样式。"
 
 #. LbNq3
-#: sw/uiconfig/swriter/ui/insertbreak.ui:197
+#: sw/uiconfig/swriter/ui/insertbreak.ui:232
 msgctxt "insertbreak|pagenumcb"
 msgid "Change page number"
 msgstr "更改页码"
 
 #. cfsdj
-#: sw/uiconfig/swriter/ui/insertbreak.ui:206
+#: sw/uiconfig/swriter/ui/insertbreak.ui:241
 msgctxt "insertbreak|pagenumcb-atkobject"
 msgid "Assigns the page number that you specify to the page that follows the manual page break. This option is only available if you assign a different page style to the page that follows manual page break."
 msgstr "为手动分页符之后的页面指定页码。仅当您为手动分页符之后的页面指定不同的页面样式时，此选项才可用。"
 
 #. iWGZG
-#: sw/uiconfig/swriter/ui/insertbreak.ui:229
+#: sw/uiconfig/swriter/ui/insertbreak.ui:264
 msgctxt "insertbreak|pagenumsb-atkobject"
 msgid "Enter the new page number for the page that follows the manual page break."
 msgstr "输入手动分页符之后页面的新页码。"
 
 #. uAMAX
-#: sw/uiconfig/swriter/ui/insertbreak.ui:245
+#: sw/uiconfig/swriter/ui/insertbreak.ui:280
 msgctxt "insertbreak|label1"
 msgid "Type"
 msgstr "类型"
 
 #. fYmmW
-#: sw/uiconfig/swriter/ui/insertbreak.ui:269
+#: sw/uiconfig/swriter/ui/insertbreak.ui:304
 msgctxt "insertbreak|extended_tip|BreakDialog"
 msgid "Inserts a manual line break, column break or a page break at the current cursor position."
 msgstr "在光标当前位置插入手动换行、分栏或分页符。"
@@ -20154,212 +20184,218 @@ msgctxt "navigatorcontextmenu|STR_SELECT"
 msgid "Select"
 msgstr "选择"
 
-#. dajzZ
+#. iH6Pr
 #: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:51
+msgctxt "navigatorcontextmenu|STR_COPY_ENTRY"
+msgid "_Copy"
+msgstr ""
+
+#. dajzZ
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:60
 msgctxt "navigatorcontextmenu|STR_DELETE"
 msgid "Delete"
 msgstr "删除"
 
 #. axFMf
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:60
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:69
 msgctxt "navigatorcontextmenu|STR_PROMOTE_CHAPTER"
 msgid "Move Chapter Up"
 msgstr "前移章节"
 
 #. Radwp
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:69
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:78
 msgctxt "navigatorcontextmenu|STR_DEMOTE_CHAPTER"
 msgid "Move Chapter Down"
 msgstr "后移章节"
 
 #. FJZdw
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:78
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:87
 msgctxt "navigatorcontextmenu|STR_PROMOTE_LEVEL"
 msgid "Promote Outline Level"
 msgstr "提升大纲级别"
 
 #. GRZmf
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:87
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:96
 msgctxt "navigatorcontextmenu|STR_DEMOTE_LEVEL"
 msgid "Demote Outline Level"
 msgstr "降低大纲级别"
 
 #. tukRq
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:96
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:105
 msgctxt "navigatorcontextmenu|STR_REMOVE_INDEX"
 msgid "_Remove Index"
 msgstr "移除索引(_R)"
 
 #. C4355
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:104
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:113
 msgctxt "navigatorcontextmenu|STR_UPDATE"
 msgid "_Update"
 msgstr "更新(_U)"
 
 #. BtCca
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:112
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:121
 msgctxt "navigatorcontextmenu|STR_EDIT_ENTRY"
 msgid "Edit..."
 msgstr "编辑..."
 
 #. BYyhD
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:120
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:129
 msgctxt "navigatorcontextmenu|STR_REMOVE_TBL_PROTECTION"
 msgid "_Unprotect"
 msgstr "去除保护(_U)"
 
 #. 6KWWG
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:128
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:137
 msgctxt "navigatorcontextmenu|STR_READONLY_IDX"
 msgid "Read-_only"
 msgstr "只读(_O)"
 
 #. BUQRq
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:136
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:145
 msgctxt "navigatorcontextmenu|STR_DELETE_ENTRY"
 msgid "_Delete"
 msgstr "删除(_D)"
 
 #. CUqD5
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:145
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:154
 msgctxt "navigatorcontextmenu|STR_RENAME"
 msgid "_Rename..."
 msgstr "重命名(_R)..."
 
 #. U5nAb
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:153
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:162
 msgctxt "navigatorcontextmenu|STR_POSTIT_SHOW"
 msgid "Show All"
 msgstr "全部显示"
 
 #. E2wWp
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:161
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:170
 msgctxt "navigatorcontextmenu|STR_POSTIT_HIDE"
 msgid "Hide All"
 msgstr "全部隐藏"
 
 #. aDRke
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:169
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:178
 msgctxt "navigatorcontextmenu|STR_POSTIT_DELETE"
 msgid "Delete All"
 msgstr "全部删除"
 
 #. YBipC
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:183
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:192
 msgctxt "navigatorcontextmenu|STR_OUTLINE_CONTENT"
 msgid "Outline Folding"
 msgstr "大纲折叠"
 
 #. EBK2E
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:203
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:212
 msgctxt "navigatorcontextmenu|STR_OUTLINE_TRACKING"
 msgid "Outline Tracking"
 msgstr "大纲追踪"
 
 #. fZEEr
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:217
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:226
 msgctxt "navigatorcontextmenu|STR_TABLE_TRACKING"
 msgid "Table Tracking"
 msgstr "表格追踪"
 
 #. 7oCFa
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:225
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:234
 msgctxt "navigatorcontextmenu|STR_SECTION_TRACKING"
 msgid "Section Tracking"
 msgstr "区域追踪"
 
 #. YmjQf
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:233
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:242
 msgctxt "navigatorcontextmenu|STR_FRAME_TRACKING"
 msgid "Frame Tracking"
 msgstr "框架追踪"
 
 #. vhxX5
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:241
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:250
 msgctxt "navigatorcontextmenu|STR_IMAGE_TRACKING"
 msgid "Image Tracking"
 msgstr "图像追踪"
 
 #. mcYqZ
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:249
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:258
 msgctxt "navigatorcontextmenu|STR_OLE_OBJECT_TRACKING"
 msgid "OLE Object Tracking"
 msgstr "OLE 对象追踪"
 
 #. DRaED
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:257
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:266
 msgctxt "navigatorcontextmenu|STR_BOOKMARK_TRACKING"
 msgid "Bookmark Tracking"
 msgstr "书签追踪"
 
 #. vpLmh
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:265
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:274
 msgctxt "navigatorcontextmenu|STR_HYPERLINK_TRACKING"
 msgid "Hyperlink Tracking"
 msgstr "超链接追踪"
 
 #. EvBzN
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:273
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:282
 msgctxt "navigatorcontextmenu|STR_REFERENCE_TRACKING"
 msgid "Reference Tracking"
 msgstr "引用追踪"
 
 #. M8Bes
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:281
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:290
 msgctxt "navigatorcontextmenu|STR_INDEX_TRACKING"
 msgid "Index Tracking"
 msgstr "索引追踪"
 
 #. KBFwM
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:289
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:298
 msgctxt "navigatorcontextmenu|STR_COMMENT_TRACKING"
 msgid "Comment Tracking"
 msgstr "批注追踪"
 
 #. oGavB
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:297
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:306
 msgctxt "navigatorcontextmenu|STR_DRAWING_OBJECT_TRACKING"
 msgid "Drawing Object Tracking"
 msgstr "绘图对象追踪"
 
 #. w8FTW
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:305
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:314
 msgctxt "navigatorcontextmenu|STR_FIELD_TRACKING"
 msgid "Field Tracking"
 msgstr "字段追踪"
 
 #. BoCeZ
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:313
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:322
 msgctxt "navigatorcontextmenu|STR_FOOTNOTE_TRACKING"
 msgid "Footnote Tracking"
 msgstr "脚注追踪"
 
 #. vBGAw
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:321
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:330
 msgctxt "navigatorcontextmenu|STR_SORT_ALPHABETICALLY"
 msgid "Sort Alphabetically"
 msgstr ""
 
 #. cECoG
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:335
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:344
 msgctxt "navigatorcontextmenu|STR_OUTLINE_LEVEL"
 msgid "Outline Level"
 msgstr "大纲级别"
 
 #. GyAcG
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:349
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:358
 msgctxt "navigatorcontextmenu|STR_DRAGMODE"
 msgid "Drag Mode"
 msgstr "拖拽模式"
 
 #. Zehx2
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:363
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:372
 msgctxt "navigatorcontextmenu|STR_DISPLAY"
 msgid "Display"
 msgstr "显示"
 
 #. bgZoy
-#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:383
+#: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:392
 msgctxt "navigatorcontextmenu|STR_COLLAPSE_ALL_CATEGORIES"
 msgid "Collapse All Categories"
 msgstr "折叠所有类别"
