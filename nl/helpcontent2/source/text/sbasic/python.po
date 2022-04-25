@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-04-11 15:28+0200\n"
-"PO-Revision-Date: 2022-04-25 11:47+0000\n"
+"PO-Revision-Date: 2022-04-25 11:50+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicpython/nl/>\n"
 "Language: nl\n"
@@ -527,7 +527,7 @@ msgctxt ""
 "par_id631630582394790\n"
 "help.text"
 msgid "Recalculate table of contents, indexes or table entries of a Writer document when document is going to be closed"
-msgstr "Opnieuw bepalen inhoudsopgave en indexen bij het gaan sluiten van een Writer-document"
+msgstr "Inhoudsopgave en indexen opnieuw bepalen bij het sluiten van een Writer-document"
 
 #. fCNvj
 #: python_document_events.xhp
@@ -536,7 +536,7 @@ msgctxt ""
 "par_id601630582398998\n"
 "help.text"
 msgid "Import math Python packages before opening a Calc document. Release these packages when the document closes."
-msgstr ""
+msgstr "Importeer math Python-packages voordat Calc-document wordt geopend. Geef deze weer vrij bij het sluiten van het document."
 
 #. bXprs
 #: python_document_events.xhp
@@ -545,7 +545,7 @@ msgctxt ""
 "N0528\n"
 "help.text"
 msgid "Next to <link href=\"text/sbasic/shared/01040000.xhp\" name=\"assigning macros to events\">assigning macros to events</link>, one can monitor events raised by %PRODUCTNAME documents. Application Programming Interface (API) broadcasters are responsible for calling event scripts. Unlike listeners that require to define all supported methods, even if unused, document monitors require only two methods next to hooked event scripts."
-msgstr ""
+msgstr "Naast het<link href=\"text/sbasic/shared/01040000.xhp\" name=\"assigning macros to events\">koppelen van macro's aan gebeurtenissen</link>, kan men gebeurtenissen volgen die optreden in %PRODUCTNAME documenten. Application Programming Interface (API) broadcasters verzorgen het aanroepen van de scripts bij gebeurtenissen. Anders dan listeners waarbij alle ondersteunde methoden moeten zijn gedefinieerd, ook al worden ze niet gebruikt, zijn er hier maar twee methoden verplicht naast de hooked scripts voor gebeurtenissen."
 
 #. 6j5Bu
 #: python_document_events.xhp
@@ -554,7 +554,7 @@ msgctxt ""
 "N0529\n"
 "help.text"
 msgid "Monitoring Document Events"
-msgstr ""
+msgstr "Documentgebeurtenissen monitoren"
 
 #. VwSwW
 #: python_document_events.xhp
@@ -563,7 +563,7 @@ msgctxt ""
 "N0530\n"
 "help.text"
 msgid "Monitoring is illustrated herewith for Basic and Python languages using object-oriented programming. Assigning <literal>OnLoad</literal> script, to the <menuitem>Open Document</menuitem> event, suffices to initiate and terminate document event monitoring. <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab is used to assign either scripts."
-msgstr ""
+msgstr "Monitoring wordt hier uitgelegd voor de de programmeertalen Basic en Python met gebruik van object-georiënteerd programmeren. Het toekennen van het <literal>OnLoad</literal>-script aan de <menuitem>Open Document</menuitem>-gebeurtenis, zorgt voor het beginnen en beëindigen van de documentgebeurtenis monitoring. <menuitem>Extra - Aanpassen</menuitem> menu <menuitem>Gebeurtenissen</menuitem>-tab wordt gebruikt voor het toekennen van scripts."
 
 #. KgWvt
 #: python_document_events.xhp
@@ -572,7 +572,7 @@ msgctxt ""
 "N0531\n"
 "help.text"
 msgid "Intercepting events helps setting scripts pre- and post-conditions such as loading and unloading libraries or track script processing in the background. <literal>Access2Base.Trace</literal> module usage is illustrating that second context."
-msgstr ""
+msgstr "Het onderscheppen van gebeurtenissen dient om vooraf en achteraf voorwaarden te kunnen zetten in het script voor het loaden en unloaden van bibliotheken en het volgen in de achtergrond van de verwerking van het script. Het gebruik van de module <literal>Access2Base.Trace</literal> is een voorbeeld van het volgen van de verwerking."
 
 #. BG7Xs
 #: python_document_events.xhp
@@ -590,7 +590,7 @@ msgctxt ""
 "bm_id721622446590963\n"
 "help.text"
 msgid "<bookmark_value>API;frame.Desktop: Monitoring Document Event</bookmark_value>        <bookmark_value>API;script.provider.MasterScriptProviderFactory: Monitoring Document Event</bookmark_value>        <bookmark_value>API;script.provider.XScript: Monitoring Document Event</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>API;frame.Desktop: Monitoring document gebeurtenis</bookmark_value>        <bookmark_value>API;script.provider.MasterScriptProviderFactory: Monitoring document gebeurtenis</bookmark_value>        <bookmark_value>API;script.provider.XScript: Monitoring document gebeurtenis</bookmark_value>"
 
 #. eGKkK
 #: python_document_events.xhp
@@ -599,7 +599,7 @@ msgctxt ""
 "N0533\n"
 "help.text"
 msgid "Events monitoring starts from object instantiation and ultimately stops when Python releases the object. Raised events are reported using <literal>Access2Base</literal> console."
-msgstr ""
+msgstr "Het monitoren van gebeurtenissen begint bij het instantiëren (aanmaken) van het object en stopt bij het door Python vrijgeven van het object. De voorkomende gebeurtenissen worden gemeld op het <literal>Access2Base</literal> console."
 
 #. mCDwK
 #: python_document_events.xhp
@@ -608,7 +608,7 @@ msgctxt ""
 "N0534\n"
 "help.text"
 msgid "<literal>OnLoad</literal> and <literal>OnUnload</literal> events can be used to respectively set and unset Python programs path. They are described as <menuitem>Open document</menuitem> and <menuitem>Document closed</menuitem>."
-msgstr ""
+msgstr "De gebeurtenissen <literal>OnLoad</literal> en <literal>OnUnload</literal> kunnen worden gebruikt om het pad van Python respectievelijk te bepalen en te wissen. Zij worden beschreven als <menuitem>Open document</menuitem> en <menuitem>Document closed</menuitem>."
 
 #. i7waD
 #: python_document_events.xhp
@@ -617,7 +617,7 @@ msgctxt ""
 "N0544\n"
 "help.text"
 msgid "\"\"\" Monitor document events \"\"\""
-msgstr ""
+msgstr "\"\"\" Monitor documentgebeurtenissen \"\"\""
 
 #. 4k7DQ
 #: python_document_events.xhp
