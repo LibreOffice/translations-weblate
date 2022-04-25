@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-04-11 15:28+0200\n"
-"PO-Revision-Date: 2022-04-25 11:51+0000\n"
+"PO-Revision-Date: 2022-04-25 11:58+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicpython/nl/>\n"
 "Language: nl\n"
@@ -671,7 +671,7 @@ msgctxt ""
 "N0560\n"
 "help.text"
 msgid "self.listen()  # Start monitoring doc. events"
-msgstr "self.listen()  # Start monitoren documentgebeurtenissen"
+msgstr "self.listen()  # Start documentgebeurtenissen monitoren"
 
 #. 8tXZv
 #: python_document_events.xhp
@@ -680,7 +680,7 @@ msgctxt ""
 "N0569\n"
 "help.text"
 msgid "\"\"\" Output doc. events on 1st column of a Calc spreadsheet \"\"\""
-msgstr ""
+msgstr "\"\"\" Uitvoer documentgebeurtenissen in 1e kolom van een Calc-document\"\"\""
 
 #. HEByB
 #: python_document_events.xhp
@@ -689,7 +689,7 @@ msgctxt ""
 "N0575\n"
 "help.text"
 msgid "def listen(self, *args):  # OnLoad/OnNew at the earliest"
-msgstr ""
+msgstr "def listen(self, *args):  # vanaf OnLoad/OnNew"
 
 #. eq9UC
 #: python_document_events.xhp
@@ -698,7 +698,7 @@ msgctxt ""
 "N0576\n"
 "help.text"
 msgid "\"\"\" Start doc. events monitoring \"\"\""
-msgstr ""
+msgstr "\"\"\" Start monitoren documentgebeurtenissen \"\"\""
 
 #. o7xSw
 #: python_document_events.xhp
@@ -707,7 +707,7 @@ msgctxt ""
 "N0578\n"
 "help.text"
 msgid "Console.log(\"INFO\", \"Document events are being logged\", True)"
-msgstr ""
+msgstr "Console.log(\"INFO\", \"Documentgebeurtenissen worden gelogd\", True)"
 
 #. jnyCD
 #: python_document_events.xhp
@@ -716,7 +716,7 @@ msgctxt ""
 "N0580\n"
 "help.text"
 msgid "def sleep(self, *args):  # OnUnload at the latest (optional)"
-msgstr ""
+msgstr "def sleep(self, *args):  # op zijn laatst bij OnUnload (optioneel)"
 
 #. QiSAD
 #: python_document_events.xhp
@@ -725,7 +725,7 @@ msgctxt ""
 "N0581\n"
 "help.text"
 msgid "\"\"\" Stop doc. events monitoring \"\"\""
-msgstr ""
+msgstr "\"\"\" Stop monitoren documentgebeurtenissen \"\"\""
 
 #. TyiYD
 #: python_document_events.xhp
@@ -734,7 +734,7 @@ msgctxt ""
 "N0583\n"
 "help.text"
 msgid "Console.log(\"INFO\", \"Document events have been logged\", True)"
-msgstr ""
+msgstr "Console.log(\"INFO\", \"Documentgebeurtenissen zijn gelogd\", True)"
 
 #. utJGT
 #: python_document_events.xhp
@@ -743,7 +743,7 @@ msgctxt ""
 "N0587\n"
 "help.text"
 msgid "\"\"\" Intercepts all doc. events \"\"\""
-msgstr ""
+msgstr "\"\"\" Onderschept alle documentgebeurtenissen \"\"\""
 
 #. Xwnsi
 #: python_document_events.xhp
@@ -752,7 +752,7 @@ msgctxt ""
 "N0588\n"
 "help.text"
 msgid "#self.setCell(event.Source, event.EventName) # only for Calc docs"
-msgstr ""
+msgstr "#self.setCell(event.Source, event.EventName) # alleen voor Calc-documenten"
 
 #. rE9Ep
 #: python_document_events.xhp
@@ -761,7 +761,7 @@ msgctxt ""
 "N0595\n"
 "help.text"
 msgid "\"\"\" Release all activities \"\"\""
-msgstr ""
+msgstr "\"\"\" Alle activiteiten vrijgeven \"\"\""
 
 #. XaEoP
 #: python_document_events.xhp
@@ -770,7 +770,7 @@ msgctxt ""
 "N0601\n"
 "help.text"
 msgid "def OnLoad(*args):  # 'Open Document' event"
-msgstr ""
+msgstr "def OnLoad(*args):  # 'Open Document'-gebeurtenis"
 
 #. PmjAB
 #: python_document_events.xhp
@@ -779,7 +779,7 @@ msgctxt ""
 "N0602\n"
 "help.text"
 msgid "listener = UiDocument()  # Initiates listening"
-msgstr ""
+msgstr "listener = UiDocument()  # Start het afvangen"
 
 #. CkJg4
 #: python_document_events.xhp
@@ -788,7 +788,7 @@ msgctxt ""
 "N0604\n"
 "help.text"
 msgid "def OnUnload(*args):  # 'Document has been closed' event"
-msgstr ""
+msgstr "def OnUnload(*args):  # De gebeurtenis 'Document gesloten'"
 
 #. KobNT
 #: python_document_events.xhp
@@ -797,7 +797,7 @@ msgctxt ""
 "N0605\n"
 "help.text"
 msgid "pass  # (optional) performed when disposed"
-msgstr ""
+msgstr "pass  # (optioneel) uitgevoerd bij verwijdering"
 
 #. xPosR
 #: python_document_events.xhp
@@ -815,7 +815,7 @@ msgctxt ""
 "N0617\n"
 "help.text"
 msgid "\"\"\" Print free item list to console \"\"\""
-msgstr ""
+msgstr "\"\"\" Print vrije item-lijst op console \"\"\""
 
 #. nzjHS
 #: python_document_events.xhp
@@ -824,7 +824,7 @@ msgctxt ""
 "N0622\n"
 "help.text"
 msgid "\"\"\" Append log message to console, optional user prompt \"\"\""
-msgstr ""
+msgstr "\"\"\" Zet logbericht op console, optioneel prompt \"\"\""
 
 #. HDXPV
 #: python_document_events.xhp
@@ -833,7 +833,7 @@ msgctxt ""
 "N0627\n"
 "help.text"
 msgid "\"\"\" Set log messages lower limit \"\"\""
-msgstr ""
+msgstr "\"\"\" Bepaal ondergrens logberichten \"\"\""
 
 #. fXnMH
 #: python_document_events.xhp
@@ -842,7 +842,7 @@ msgctxt ""
 "N0632\n"
 "help.text"
 msgid "\"\"\" Display console content/dialog \"\"\""
-msgstr ""
+msgstr "\"\"\" Toon console inhoud/dialoog \"\"\""
 
 #. mPJ3B
 #: python_document_events.xhp
@@ -851,7 +851,7 @@ msgctxt ""
 "N0638\n"
 "help.text"
 msgid "''' Grab application-based Basic script '''"
-msgstr ""
+msgstr "''' Haal applicatie-gebaseerd Basic-script op'''"
 
 #. 2dfeg
 #: python_document_events.xhp
@@ -860,7 +860,7 @@ msgctxt ""
 "N0647\n"
 "help.text"
 msgid "Mind the misspelled <literal>documentEventOccured</literal> method that inherits a typo from %PRODUCTNAME Application Programming Interface (API)."
-msgstr ""
+msgstr "Denk aan de verkeerd geschreven methode <literal>documentEventOccured</literal> die een tikfout overerft van %PRODUCTNAME Application Programming Interface (API)."
 
 #. qNVD4
 #: python_document_events.xhp
@@ -869,7 +869,7 @@ msgctxt ""
 "N0648\n"
 "help.text"
 msgid "<menuitem>Start application</menuitem> and <menuitem>Close application</menuitem> events can respectively be used to set and to unset Python path for user scripts or %PRODUCTNAME scripts. In a similar fashion, document based Python libraries or modules can be loaded and released using <menuitem>Open document</menuitem> and <menuitem>Document closed</menuitem> events. Refer to <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Importing Python Modules</link> for more information."
-msgstr ""
+msgstr "De gebeurtenissen <menuitem>Start application</menuitem> en <menuitem>Close application</menuitem> kunnen respectievelijk worden gebruikt voor het zetten en vrijgeven van het Python-pad voor gebruikerscripts of voor %PRODUCTNAME-scripts. Op een vergelijkbare manier kunnen documentgebaseerde Python-bibliotheken en  modules worden geladen en vrijgegeven met de gebeurtenissen <menuitem>Open document</menuitem> en <menuitem>Document closed</menuitem>. Bekijk <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Python-modules importeren</link> voor meer informatie."
 
 #. 8pHCg
 #: python_document_events.xhp
@@ -887,7 +887,7 @@ msgctxt ""
 "bm_id591622446367707\n"
 "help.text"
 msgid "<bookmark_value>API;GlobalScope.BasicLibraries</bookmark_value>        <bookmark_value>Tools;Strings</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>API;GlobalScope.BasicLibraries</bookmark_value>        <bookmark_value>Tools;Strings</bookmark_value>"
 
 #. D5Lsi
 #: python_document_events.xhp
@@ -896,7 +896,7 @@ msgctxt ""
 "N0650\n"
 "help.text"
 msgid "Using <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab, the <menuitem>Open document</menuitem> event fires a <literal>ConsoleLogger</literal> initialisation. <literal>_documentEventOccured</literal> routine - set by <literal>ConsoleLogger</literal> - serves as a unique entry point to trap all document events."
-msgstr ""
+msgstr "Via het menu <menuitem>Extra - Aanpassen</menuitem> tabblad <menuitem>Gebeurtenissens</menuitem>, de gebeurtenis <menuitem>Document openen</menuitem> zorgt voor de initialisatie van <literal>ConsoleLogger</literal>. De routine <literal>documentEventOccured</literal> - gezet door de <literal>ConsoleLogger</literal> - dient al een uniek toegangspunt om alle doucment-gebeurtenissen af te vangen."
 
 #. gGpkW
 #: python_document_events.xhp
@@ -905,7 +905,7 @@ msgctxt ""
 "hd_id421630510141729\n"
 "help.text"
 msgid "controller.Events module"
-msgstr ""
+msgstr "controller.Events module"
 
 #. rJX92
 #: python_document_events.xhp
@@ -914,7 +914,7 @@ msgctxt ""
 "bas_id431630567378062\n"
 "help.text"
 msgid "Global _obj As Object ' controller.ConsoleLogger instance"
-msgstr ""
+msgstr "Global _obj As Object ' controller.ConsoleLogger instance"
 
 #. PfRq6
 #: python_document_events.xhp
@@ -923,7 +923,7 @@ msgctxt ""
 "N0655\n"
 "help.text"
 msgid "Sub OnLoad(evt As com.sun.star.document.DocumentEvent) ' >> Open Document <<"
-msgstr ""
+msgstr "Sub OnLoad(evt As com.sun.star.document.DocumentEvent) ' >> Open Document <<"
 
 #. p8RfU
 #: python_document_events.xhp
@@ -932,7 +932,7 @@ msgctxt ""
 "bas_id371630509596674\n"
 "help.text"
 msgid "''' ConsoleLogger unique entry point '''"
-msgstr ""
+msgstr "''' ConsoleLogger uniek toegangspunt '''"
 
 #. upGWH
 #: python_document_events.xhp
@@ -941,7 +941,7 @@ msgctxt ""
 "hd_id721630511986813\n"
 "help.text"
 msgid "controller.ConsoleLogger class module"
-msgstr ""
+msgstr "controller.ConsoleLogger class module"
 
 #. AN8tn
 #: python_document_events.xhp
@@ -950,7 +950,7 @@ msgctxt ""
 "par_id901630509435225\n"
 "help.text"
 msgid "Events monitoring starts from the moment a <literal>ConsoleLogger</literal> object is instantiated and ultimately stops upon document closure. <literal>StartAdapter</literal> routine loads necessary Basic libraries, while caught events are reported using <literal>Access2Base.Trace</literal> module."
-msgstr ""
+msgstr "Het monitoren van gebeurtenissen begint op het moment dat een <literal>ConsoleLogger</literal> object is aangemaakt en stopt uiterlijk als het document wordt gesloten. De routine <literal>StartAdapter</literal> laad de benodigde Basic-bibliotheken, afgevangen gebeurtenissen worden gerapporteerd via de module <literal>Access2Base.Trace</literal>."
 
 #. 2jXHB
 #: python_document_events.xhp
@@ -959,7 +959,7 @@ msgctxt ""
 "N0664\n"
 "help.text"
 msgid "' ADAPTER design pattern object to be instantiated in the \"Open Document\" event"
-msgstr ""
+msgstr "' ADAPTER design pattern object aanmaken wordt gedaan door de gebeurtenis \"Document openen\""
 
 #. ueeGx
 #: python_document_events.xhp
@@ -968,7 +968,7 @@ msgctxt ""
 "N0666\n"
 "help.text"
 msgid "Private Const UI_NOPROMPT = False ' Set it to True to visualise documents events"
-msgstr ""
+msgstr "Private Const UI_NOPROMPT = False ' Om documentgebeurtenissen te visualiseren, zet dit op True"
 
 #. EQG8C
 #: python_document_events.xhp
@@ -986,7 +986,7 @@ msgctxt ""
 "bas_id131630510956418\n"
 "help.text"
 msgid "Private _txtMsg As String ' text message to log in console"
-msgstr ""
+msgstr "Private _txtMsg As String ' tekstbericht om in console te loggen"
 
 #. JaEhY
 #: python_document_events.xhp
@@ -995,7 +995,7 @@ msgctxt ""
 "N0677\n"
 "help.text"
 msgid "' PROPERTIES"
-msgstr ""
+msgstr "' PROPERTIES"
 
 #. aGuEg
 #: python_document_events.xhp
@@ -1013,7 +1013,7 @@ msgctxt ""
 "N0686\n"
 "help.text"
 msgid "' METHODS"
-msgstr ""
+msgstr "' METHODS"
 
 #. YMAtN
 #: python_document_events.xhp
@@ -1022,7 +1022,7 @@ msgctxt ""
 "N0688\n"
 "help.text"
 msgid "''' Monitor document events '''"
-msgstr ""
+msgstr "''' Documentgebeurtenissen monitoren '''"
 
 #. cBx2G
 #: python_document_events.xhp
@@ -1031,7 +1031,7 @@ msgctxt ""
 "N0701\n"
 "help.text"
 msgid "''' Initialize document events logging '''"
-msgstr ""
+msgstr "''' Initialiseren logging documentgebeurtenissen '''"
 
 #. hxzE4
 #: python_document_events.xhp
@@ -1040,7 +1040,7 @@ msgctxt ""
 "N0705\n"
 "help.text"
 msgid "Access2Base.Trace.TraceLog(\"INFO\", _txtMsg & \"Document events are being logged\", UI_PROMPT)"
-msgstr ""
+msgstr "Access2Base.Trace.TraceLog(\"INFO\", _txtMsg & \"Documentgebeurtenissen worden gelogd\", UI_PROMPT)"
 
 #. NkHa4
 #: python_document_events.xhp
@@ -1049,7 +1049,7 @@ msgctxt ""
 "N0714\n"
 "help.text"
 msgid "''' Terminate document events logging '''"
-msgstr ""
+msgstr "''' Beëindig de logging van documentgebeurtenissen '''"
 
 #. JEve4
 #: python_document_events.xhp
@@ -1058,7 +1058,7 @@ msgctxt ""
 "N0717\n"
 "help.text"
 msgid "Access2Base.Trace.TraceLog(\"INFO\", _txtMsg & \"Document events have been logged\", UI_PROMPT)"
-msgstr ""
+msgstr "Access2Base.Trace.TraceLog(\"INFO\", _txtMsg & \"Documentgebeurtenissen zijn gelogd\", UI_PROMPT)"
 
 #. GAD2E
 #: python_document_events.xhp
@@ -1067,7 +1067,7 @@ msgctxt ""
 "N0719\n"
 "help.text"
 msgid "Access2Base.Trace.TraceConsole() ' Captured events dialog"
-msgstr ""
+msgstr "Access2Base.Trace.TraceConsole() ' Afgevangen gebeurtenissendialoog"
 
 #. X8Kdh
 #: python_document_events.xhp
@@ -1076,7 +1076,7 @@ msgctxt ""
 "N0722\n"
 "help.text"
 msgid "' EVENTS"
-msgstr ""
+msgstr "' EVENTS"
 
 #. uVpJf
 #: python_document_events.xhp
@@ -1085,7 +1085,7 @@ msgctxt ""
 "N0723\n"
 "help.text"
 msgid "' Your code for handled events goes here"
-msgstr ""
+msgstr "' Hier komt uw eigen code voor de afgevangen gebeurtenissen"
 
 #. AJJDf
 #: python_document_events.xhp
@@ -1094,7 +1094,7 @@ msgctxt ""
 "N0724\n"
 "help.text"
 msgid "Mind the misspelled <literal>_documentEventOccured</literal> method that inherits a typo from %PRODUCTNAME Application Programming Interface (API)."
-msgstr ""
+msgstr "Denk aan de spelfout in de methode <literal>_documentEventOccured</literal> die een tikfout erft van de %PRODUCTNAME Application Programming Interface (API)."
 
 #. b3qae
 #: python_document_events.xhp
@@ -1103,7 +1103,7 @@ msgctxt ""
 "N0725\n"
 "help.text"
 msgid "Discovering Documents Events"
-msgstr ""
+msgstr "Documentgebeurtenissen vinden"
 
 #. Ys35P
 #: python_document_events.xhp
@@ -1112,7 +1112,7 @@ msgctxt ""
 "bm_id681622445958242\n"
 "help.text"
 msgid "<bookmark_value>API;frame.GlobalEventBroadcaster: Monitoring Document Event</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>API;frame.GlobalEventBroadcaster: Documentgebeurtenis monitoren</bookmark_value>"
 
 #. BDj9Q
 #: python_document_events.xhp
@@ -1121,7 +1121,7 @@ msgctxt ""
 "N0726\n"
 "help.text"
 msgid "The broadcaster API object provides the list of events it is responsible for:"
-msgstr ""
+msgstr "Het object broadcaster API geeft een lijst gebeurtenissen waar het verantwoordelijk voor is:"
 
 #. Z2BhT
 #: python_document_events.xhp
@@ -1139,7 +1139,7 @@ msgctxt ""
 "N0734\n"
 "help.text"
 msgid "\"\"\" Display document events \"\"\""
-msgstr ""
+msgstr "\"\"\" Documentgebeurtenissen tonen \"\"\""
 
 #. SECnV
 #: python_document_events.xhp
@@ -1148,7 +1148,7 @@ msgctxt ""
 "N0736\n"
 "help.text"
 msgid "adapted from DisplayAvailableEvents() by A. Pitonyak"
-msgstr ""
+msgstr "bewerkte versie van DisplayAvailableEvents() gemaakt door A. Pitonyak"
 
 #. wXN8p
 #: python_document_events.xhp
@@ -1157,7 +1157,7 @@ msgctxt ""
 "N0747\n"
 "help.text"
 msgid "The <link href=\"https://extensions.libreoffice.org/extensions/apso-alternative-script-organizer-for-python\" name=\"Alternative Python Script Organizer\">Alternative Python Script Organizer (APSO)</link> extension is used to render events information on screen."
-msgstr ""
+msgstr "De extensie <link href=\"https://extensions.libreoffice.org/extensions/apso-alternative-script-organizer-for-python\" name=\"Alternative Python Script Organizer\">Alternative Python Script Organizer (APSO)</link> wordt gebruikt om informatie over gebeurtenissen op het scherm te tonen."
 
 #. kgY8m
 #: python_document_events.xhp
@@ -1175,7 +1175,7 @@ msgctxt ""
 "N0750\n"
 "help.text"
 msgid "''' Display document events '''"
-msgstr ""
+msgstr "''' Documentgebeurtenissen tonen '''"
 
 #. upkPP
 #: python_examples.xhp
@@ -1211,7 +1211,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Creating A Dialog Handler"
-msgstr ""
+msgstr "Een dialog-handler aanmaken"
 
 #. WeSDk
 #: python_handler.xhp
@@ -1220,7 +1220,7 @@ msgctxt ""
 "N0664\n"
 "help.text"
 msgid "<bookmark_value>Basic;Dialog Handler</bookmark_value>         <bookmark_value>Python;Dialog Handler</bookmark_value>         <bookmark_value>Access2Base;dlgTrace</bookmark_value>         <bookmark_value>Access2Base;_DumpToFile</bookmark_value>         <bookmark_value>API;DialogProvider2</bookmark_value>         <bookmark_value>API;XDialogEventHandler</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Basic;Dialog Handler</bookmark_value>         <bookmark_value>Python;Dialog Handler</bookmark_value>         <bookmark_value>Access2Base;dlgTrace</bookmark_value>         <bookmark_value>Access2Base;_DumpToFile</bookmark_value>         <bookmark_value>API;DialogProvider2</bookmark_value>         <bookmark_value>API;XDialogEventHandler</bookmark_value>"
 
 #. MQUtw
 #: python_handler.xhp
@@ -1229,7 +1229,7 @@ msgctxt ""
 "N0665\n"
 "help.text"
 msgid "<variable id=\"pythonhandler_h1\"><link href=\"text/sbasic/python/python_handler.xhp\" name=\"Creating a Dialog Handler\">Creating a Dialog Handler</link></variable>"
-msgstr ""
+msgstr "<variable id=\"pythonhandler_h1\"><link href=\"text/sbasic/python/python_handler.xhp\" name=\"Creating a Dialog Handler\">Een dialog-handler aanmaken</link></variable>"
 
 #. AxGAd
 #: python_handler.xhp
@@ -1238,7 +1238,7 @@ msgctxt ""
 "N0666\n"
 "help.text"
 msgid "Next to <link href=\"text/sbasic/shared/01040000.xhp\" name=\"Assigning macros to events\">assigning macros to events</link> or <link href=\"text/sbasic/basic/python/python_listener\" name=\"creating event listeners\">creating event listeners</link>, one can use dialog handlers, whose principle is to define UNO keywords, or methods, that are mapped to events to watch for. The event handler is responsible for executing methods using the <literal>vnd.sun.star.UNO:<method_name></literal> protocol. Unlike listeners that require to define all supported methods, even if unused, dialog handlers require only two methods on top of intended control hook scripts."
-msgstr ""
+msgstr "Behalve het <link href=\"text/sbasic/shared/01040000.xhp\" name=\"Assigning macros to events\">koppelen van macro's aan gebeurtenissen</link> en <link href=\"text/sbasic/basic/python/python_listener\" name=\"creating event listeners\">afvangen van gebeurtenissen</link>, kan men ook een dialoog-handler gebruiken, dan definieert men UNO-sleutelwoorden of methoden, die gekoppeld worden aan bepaalde te volgen gebeurtenissen. De handler zorgt voor het uitvoeren van de methode met gebruik van het protocol <literal>vnd.sun.star.UNO:<method_name></literal>. Anders dan bij het afvangen waar alle ondersteunde methoden gedefinieerd moeten worden, ook de ongebruikte, hoeft bij een dialoog-handler dat maar twee methoden boven de bedoelde control hook scripts."
 
 #. Waa56
 #: python_handler.xhp
@@ -1247,7 +1247,7 @@ msgctxt ""
 "N0667\n"
 "help.text"
 msgid "The advantages of this approach are:"
-msgstr ""
+msgstr "De voordelen van deze benadering zijn:"
 
 #. bBbcE
 #: python_handler.xhp
@@ -1256,7 +1256,7 @@ msgctxt ""
 "N0668\n"
 "help.text"
 msgid "It packs the code that handles event-driven macros,"
-msgstr ""
+msgstr "Het brengt de code bij elkaar die de door gebeurtenissen aangestuurde macro's afhandelt,"
 
 #. NCGBC
 #: python_handler.xhp
@@ -1265,7 +1265,7 @@ msgctxt ""
 "N0669\n"
 "help.text"
 msgid "it decorrelates events from macros names which facilitates maintenance or updates, in particular when moving macros or modules."
-msgstr ""
+msgstr "het voorkomt samenhang tussen gebeurtenissen van macro-namen waardoor onderhoud of wijzigingen gemakkelijker mogelijk is, in het bijzonder bij het verplaatsen van macro's of modules."
 
 #. WETAj
 #: python_handler.xhp
@@ -1274,7 +1274,7 @@ msgctxt ""
 "N0670\n"
 "help.text"
 msgid "This mechanism is illustrated herewith for Basic and Python languages using an imported copy of <literal>Access2Base</literal> <literal>dlgTrace</literal> dialog. Exception handling and localisation are omitted for clarity."
-msgstr ""
+msgstr "Dit mechanisme wordt hier toegelicht met de talen Basic en Python met een geïmporteerde kopie van de dialoog  <literal>Access2Base</literal> <literal>dlgTrace</literal>. Omdat het een voorbeeld is zijn de foutafhandeling en de vertaling weggelaten."
 
 #. qfJEk
 #: python_handler.xhp
@@ -1283,7 +1283,7 @@ msgctxt ""
 "N0671\n"
 "help.text"
 msgid "Assigning Dialog methods"
-msgstr ""
+msgstr "Toekenning Dialoog-methodes"
 
 #. 46GAC
 #: python_handler.xhp
@@ -1292,7 +1292,7 @@ msgctxt ""
 "N0672\n"
 "help.text"
 msgid "Export <literal>Access2Base</literal> <literal>dlgTrace</literal> dialog and import it into <literal>MyLib</literal> application library."
-msgstr ""
+msgstr "Exporteer de <literal>Access2Base</literal> dialoog <literal>dlgTrace</literal> en importeer die in de applicatie-bibliotheek <literal>MyLib</literal>."
 
 #. QKmBa
 #: python_handler.xhp
@@ -1301,7 +1301,7 @@ msgctxt ""
 "N0673\n"
 "help.text"
 msgid "Inside the control properties pane of the <link href=\"text/sbasic/guide/create_dialog.xhp\" name=\"Dialog Editor\">Dialog Editor</link>, use the Events tab to replace macro assignments by component assignments, and type in the intended method names:"
-msgstr ""
+msgstr "Binnen het paneel van de eigenschappen van de <link href=\"text/sbasic/guide/create_dialog.xhp\" name=\"Dialog Editor\">dialoogeditor</link>, gebruik het tabblad Gebeurtenissen om een koppeling van een macro te vervangen door een koppeling met een component, voer de bedoelde methodenamen in:"
 
 #. qNEVD
 #: python_handler.xhp
@@ -1310,7 +1310,7 @@ msgctxt ""
 "N0674\n"
 "help.text"
 msgid "Set <literal>Dump to file</literal> dialog button component method name to <literal>_dump2File</literal>"
-msgstr ""
+msgstr "Zet de methode-naam van de dialoogknop <literal>Dump to file</literal> op <literal>_dump2File</literal>"
 
 #. t65Et
 #: python_handler.xhp
@@ -1319,7 +1319,7 @@ msgctxt ""
 "N0675\n"
 "help.text"
 msgid "Optionally define <literal>txtTracelog</literal> key pressed and mouse button pressed events component method names as <literal>_openHelp</literal>"
-msgstr ""
+msgstr "Definieer eventueel bij gebeurtenissen <literal>txtTracelog</literal> toets ingedrukt en muisknop ingedrukt component methodenamen als <literal>_openHelp</literal>"
 
 #. WMZBj
 #: python_handler.xhp
@@ -1328,7 +1328,7 @@ msgctxt ""
 "N0676\n"
 "help.text"
 msgid "Optionally define <literal>Ok</literal> button receiving focus event component method name as <literal>onOkHasfocus</literal>"
-msgstr ""
+msgstr "Definieer eventueel de methodenaam knop <literal>Ok</literal> krijgt focus als <literal>onOkHasfocus</literal>"
 
 #. Joqhs
 #: python_handler.xhp
@@ -1337,7 +1337,7 @@ msgctxt ""
 "N0677\n"
 "help.text"
 msgid "Events assigned actions should mention the <literal>vnd.sun.star.UNO:</literal> protocol."
-msgstr ""
+msgstr "Acties gekoppeld aan gebeurtenissen moeten het protocol <literal>vnd.sun.star.UNO:</literal> vermelden."
 
 #. BTnaF
 #: python_handler.xhp
@@ -1346,7 +1346,7 @@ msgctxt ""
 "N0678\n"
 "help.text"
 msgid "Creating the handler"
-msgstr ""
+msgstr "De handler aanmaken"
 
 #. nHvEi
 #: python_handler.xhp
@@ -1355,7 +1355,7 @@ msgctxt ""
 "N0679\n"
 "help.text"
 msgid "<literal>createDialogWithHandler</literal> method of <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1awt_1_1DialogProvider2.html\" name=\"com.sun.star.awt.DialogProvider2\">com.sun.star.awt.DialogProvider2</link> service is used to set the dialog and its handler. The handler is responsible for implementing <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1awt_1_1XDialogEventHandler.html\" name=\"com.sun.star.awt.XDialogEventHandler\">com.sun.star.awt.XDialogEventHandler</link> interface."
-msgstr ""
+msgstr "De methode <literal>createDialogWithHandler</literal> van de <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1awt_1_1DialogProvider2.html\" name=\"com.sun.star.awt.DialogProvider2\">com.sun.star.awt.DialogProvider2</link> service wordt gebruikt om de dialoog en de handler in te stellen. De handler zorgt voor de implementatie van de <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1awt_1_1XDialogEventHandler.html\" name=\"com.sun.star.awt.XDialogEventHandler\">com.sun.star.awt.XDialogEventHandler</link> interface."
 
 #. 2CCEz
 #: python_handler.xhp
@@ -1364,7 +1364,7 @@ msgctxt ""
 "N0680\n"
 "help.text"
 msgid "All component method names must be explicitly declared when using a dialog handler."
-msgstr ""
+msgstr "Bij gebruik van een dialoog-handler moeten alle methode-namen expliciet worden gedeclareerd."
 
 #. kBAiZ
 #: python_handler.xhp
@@ -1373,7 +1373,7 @@ msgctxt ""
 "N0681\n"
 "help.text"
 msgid "With Python"
-msgstr ""
+msgstr "Met Python"
 
 #. rUiYd
 #: python_handler.xhp
@@ -1382,7 +1382,7 @@ msgctxt ""
 "N0682\n"
 "help.text"
 msgid "In this example the dialog is located on the computer."
-msgstr ""
+msgstr "In dit voorbeeld staat de dialoog op de computer."
 
 #. FyaBp
 #: python_handler.xhp
@@ -1391,7 +1391,7 @@ msgctxt ""
 "N0692\n"
 "help.text"
 msgid "\"\"\" Access2Base Console Handler \"\"\""
-msgstr ""
+msgstr "\"\"\" Access2Base console-handler \"\"\""
 
 #. dugqK
 #: python_handler.xhp
@@ -1400,7 +1400,7 @@ msgctxt ""
 "N0693\n"
 "help.text"
 msgid "''' adapted from « Créer un dialogue avec gestionnaire d'événements » by JM Zambon"
-msgstr ""
+msgstr "''' originele versie is « Créer un dialogue avec gestionnaire d'événements » van JM Zambon"
 
 #. 5Cysb
 #: python_handler.xhp
@@ -1409,7 +1409,7 @@ msgctxt ""
 "N0716\n"
 "help.text"
 msgid "\"\"\" Create a Dialog from its location \"\"\""
-msgstr ""
+msgstr "\"\"\" Een dialoog aanmaken vanaf de locatie \"\"\""
 
 #. C9pNa
 #: python_handler.xhp
@@ -1418,7 +1418,7 @@ msgctxt ""
 "N0729\n"
 "help.text"
 msgid "''' Ugly MsgBox '''"
-msgstr ""
+msgstr "''' Lelijke MsgBox '''"
 
 #. zcjmD
 #: python_handler.xhp
@@ -1427,7 +1427,7 @@ msgctxt ""
 "N0740\n"
 "help.text"
 msgid "As expected, <literal>onOkHasFocus</literal> missing method throws an exception."
-msgstr ""
+msgstr "Zoals verwacht, de ontbrekende methode bij <literal>onOkHasFocus</literal> zorgt voor een exception."
 
 #. 63rxz
 #: python_handler.xhp
@@ -1436,7 +1436,7 @@ msgctxt ""
 "N0741\n"
 "help.text"
 msgid "Refer to <link href=\"text/sbasic/python/python_2_basic.xhp\" name=\"Python calls to %PRODUCTNAME Basic\">Python calls to %PRODUCTNAME Basic</link> page for <literal>getBasicScript</literal> routine description and for details about cross-language scripting execution."
-msgstr ""
+msgstr "Bekijk de pagina <link href=\"text/sbasic/python/python_2_basic.xhp\" name=\"Python calls to %PRODUCTNAME Basic\">Python aanroepen van %PRODUCTNAME Basic</link> voor een beschrijving van de routine <literal>getBasicScript</literal> en voor details over de uitvoering van scripts tussen verschillende programmeertalen."
 
 #. b6xGw
 #: python_handler.xhp
@@ -1445,7 +1445,7 @@ msgctxt ""
 "N0742\n"
 "help.text"
 msgid "With %PRODUCTNAME Basic"
-msgstr ""
+msgstr "With %PRODUCTNAME BASIC"
 
 #. 5N3MV
 #: python_handler.xhp
