@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-04-26 13:58+0200\n"
+"POT-Creation-Date: 2022-05-04 12:42+0200\n"
 "PO-Revision-Date: 2022-05-03 12:47+0000\n"
 "Last-Translator: Rafael Lima <rafael.palma.lima@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/pt_BR/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1559389078.000000\n"
 
 #. ViEWM
@@ -7963,14 +7963,14 @@ msgctxt ""
 msgid "# Run queries, SQL statements, ..."
 msgstr "# Executa consultas, comandos SQL, etc..."
 
-#. AVkg5
+#. 2Znjy
 #: sf_database.xhp
 msgctxt ""
 "sf_database.xhp\n"
 "par_id361619188184750\n"
 "help.text"
-msgid "The <link href=\"text/sbasic/shared/03/sf_database.xhp#GetDatabase\" name=\"GetDatabase method\">GetDatabase</link> method used in the example above is part of ScriptForge's <literal>Base</literal> service."
-msgstr "O método <link href=\"text/sbasic/shared/03/sf_database.xhp#GetDatabase\" name=\"GetDatabase method\">GetDatabase</link> usado no exemplo acima é parte do serviço <literal>Base</literal> da biblioteca ScriptForge."
+msgid "The <link href=\"text/sbasic/shared/03/sf_base.xhp#GetDatabase\" name=\"GetDatabase method\">GetDatabase</link> method used in the example above is part of ScriptForge's <literal>Base</literal> service."
+msgstr ""
 
 #. EF9Lc
 #: sf_database.xhp
@@ -15163,14 +15163,14 @@ msgctxt ""
 msgid "aFolder = FSO.PickFolder(\"C:\\Documents\", \"Choose a folder or press Cancel\")"
 msgstr "aFolder = FSO.PickFolder(\"C:\\Documents\", \"Escolha uma pasta ou pressiona Cancelar\")"
 
-#. ENDba
+#. nW8Rx
 #: sf_filesystem.xhp
 msgctxt ""
 "sf_filesystem.xhp\n"
 "pyc_id631626276402296\n"
 "help.text"
-msgid "aFolder = fso.PickFolder(r\"C:\\Documents\", \"Choose a folder or press Cancel\")"
-msgstr "aFolder = fso.PickFolder(r\"C:\\Documents\", \"Escolha uma pasta ou pressiona Cancelar\")"
+msgid "aFolder = fs.PickFolder(r\"C:\\Documents\", \"Choose a folder or press Cancel\")"
+msgstr ""
 
 #. xdfBh
 #: sf_filesystem.xhp
@@ -25839,14 +25839,14 @@ msgctxt ""
 msgid "Document object"
 msgstr "Objeto Document"
 
-#. utsAW
+#. w8QcA
 #: sf_ui.xhp
 msgctxt ""
 "sf_ui.xhp\n"
 "par_id841588521238711\n"
 "help.text"
-msgid "The methods <literal>CreateDocument</literal>, <literal>CreateBaseDocument</literal>, <literal>GetDocument</literal> and <literal>OpenDocument</literal>, described below, generate document objects. When a window contains a document, an instance of the <literal>Document</literal> class represents that document. A counterexample the Basic IDE is not a document but is a window in our terminology. Additionally a document has a type: <literal>Calc</literal>, <literal>Impress</literal>, <literal>Writer</literal>, ..."
-msgstr "Os métodos <literal>CreateDocument</literal>, <literal>CreateBaseDocument</literal>, <literal>GetDocument</literal> e <literal>OpenDocument</literal>, descritos abaixo, geram objetos do tipo Document. Quando uma janela contém um documento, uma instância da classe <literal>Document</literal> é utilizada para representar o documento. Como um contra-exemplo, a janela IDE do Basic não é um documento, mas é uma janela nessa terminologia. Além disso, um documento possui um tipo: <literal>Calc</literal>, <literal>Impress</literal>, <literal>Writer</literal>, ..."
+msgid "The methods <literal>CreateDocument</literal>, <literal>CreateBaseDocument</literal>, <literal>GetDocument</literal>,  <literal>OpenBaseDocument</literal> and <literal>OpenDocument</literal>, described below, generate document objects. When a window contains a document, an instance of the <literal>Document</literal> class represents that document. A counterexample the Basic IDE is not a document but is a window in our terminology. Additionally a document has a type: <literal>Calc</literal>, <literal>Impress</literal>, <literal>Writer</literal>, ..."
+msgstr ""
 
 #. CbJ8H
 #: sf_ui.xhp
@@ -26235,14 +26235,14 @@ msgctxt ""
 msgid "Open an existing %PRODUCTNAME Base document. The method returns a document object."
 msgstr "Abre um documento %PRODUCTNAME Base existente. O método retorna um objeto de documento."
 
-#. q2E3C
+#. CZBya
 #: sf_ui.xhp
 msgctxt ""
 "sf_ui.xhp\n"
 "par_id231596555746385\n"
 "help.text"
-msgid "<emph>filename</emph>: Identifies the file to open. It must follow the <literal>SF_FileSystem.FileNaming</literal> notation. If the file already exists, it is overwritten without warning"
-msgstr "<emph>FileName</emph> : Identifica o arquivo a ser aberto. Deve seguir a notação <literal>SF_FileSystem.FileNaming</literal>. Se o arquivo já existe, ele será sobrescrito sem um aviso."
+msgid "<emph>filename</emph>: Identifies the file to open. It must follow the <literal>SF_FileSystem.FileNaming</literal> notation."
+msgstr ""
 
 #. mtpoL
 #: sf_ui.xhp
@@ -26891,6 +26891,34 @@ msgctxt ""
 "help.text"
 msgid "<emph>printimages</emph>: Print graphic objects when <literal>True</literal> (default)."
 msgstr "<emph>printimages</emph>: Imprime objetos gráficos quando <literal>True</literal> (padrão)."
+
+#~ msgctxt ""
+#~ "sf_database.xhp\n"
+#~ "par_id361619188184750\n"
+#~ "help.text"
+#~ msgid "The <link href=\"text/sbasic/shared/03/sf_database.xhp#GetDatabase\" name=\"GetDatabase method\">GetDatabase</link> method used in the example above is part of ScriptForge's <literal>Base</literal> service."
+#~ msgstr "O método <link href=\"text/sbasic/shared/03/sf_database.xhp#GetDatabase\" name=\"GetDatabase method\">GetDatabase</link> usado no exemplo acima é parte do serviço <literal>Base</literal> da biblioteca ScriptForge."
+
+#~ msgctxt ""
+#~ "sf_filesystem.xhp\n"
+#~ "pyc_id631626276402296\n"
+#~ "help.text"
+#~ msgid "aFolder = fso.PickFolder(r\"C:\\Documents\", \"Choose a folder or press Cancel\")"
+#~ msgstr "aFolder = fso.PickFolder(r\"C:\\Documents\", \"Escolha uma pasta ou pressiona Cancelar\")"
+
+#~ msgctxt ""
+#~ "sf_ui.xhp\n"
+#~ "par_id841588521238711\n"
+#~ "help.text"
+#~ msgid "The methods <literal>CreateDocument</literal>, <literal>CreateBaseDocument</literal>, <literal>GetDocument</literal> and <literal>OpenDocument</literal>, described below, generate document objects. When a window contains a document, an instance of the <literal>Document</literal> class represents that document. A counterexample the Basic IDE is not a document but is a window in our terminology. Additionally a document has a type: <literal>Calc</literal>, <literal>Impress</literal>, <literal>Writer</literal>, ..."
+#~ msgstr "Os métodos <literal>CreateDocument</literal>, <literal>CreateBaseDocument</literal>, <literal>GetDocument</literal> e <literal>OpenDocument</literal>, descritos abaixo, geram objetos do tipo Document. Quando uma janela contém um documento, uma instância da classe <literal>Document</literal> é utilizada para representar o documento. Como um contra-exemplo, a janela IDE do Basic não é um documento, mas é uma janela nessa terminologia. Além disso, um documento possui um tipo: <literal>Calc</literal>, <literal>Impress</literal>, <literal>Writer</literal>, ..."
+
+#~ msgctxt ""
+#~ "sf_ui.xhp\n"
+#~ "par_id231596555746385\n"
+#~ "help.text"
+#~ msgid "<emph>filename</emph>: Identifies the file to open. It must follow the <literal>SF_FileSystem.FileNaming</literal> notation. If the file already exists, it is overwritten without warning"
+#~ msgstr "<emph>FileName</emph> : Identifica o arquivo a ser aberto. Deve seguir a notação <literal>SF_FileSystem.FileNaming</literal>. Se o arquivo já existe, ele será sobrescrito sem um aviso."
 
 #~ msgctxt ""
 #~ "lib_tools.xhp\n"
