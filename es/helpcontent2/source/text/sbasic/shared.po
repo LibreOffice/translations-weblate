@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-05-10 20:16+0200\n"
+"POT-Creation-Date: 2022-05-25 12:36+0200\n"
 "PO-Revision-Date: 2022-05-25 10:44+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/es/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1557855034.000000\n"
 
 #. yzYVt
@@ -10807,32 +10807,32 @@ msgctxt ""
 msgid "Returns the size of an open file in bytes."
 msgstr "Devuelve el tamaño de un archivo abierto en bytes."
 
-#. 43MqD
+#. D84bA
 #: 03020303.xhp
 msgctxt ""
 "03020303.xhp\n"
 "par_id3150359\n"
 "help.text"
-msgid "Lof (FileNumber)"
-msgstr "Lof (NúmeroArchivo)"
+msgid "Lof (FileNumber) As Long"
+msgstr ""
 
-#. BBamj
+#. 6oGoB
 #: 03020303.xhp
 msgctxt ""
 "03020303.xhp\n"
 "par_id3150869\n"
 "help.text"
-msgid "<emph>FileNumber:</emph> Any numeric expression that contains the file number that is specified in the Open statement."
-msgstr "<emph>NúmeroArchivo:</emph> Cualquier expresión numérica que contenga el número de archivo especificado en la instrucción Open."
+msgid "<emph>FileNumber:</emph> Any numeric expression that contains the file number that is specified in the <literal>Open</literal> statement."
+msgstr ""
 
-#. vTRvK
+#. EAe7H
 #: 03020303.xhp
 msgctxt ""
 "03020303.xhp\n"
 "par_id3147349\n"
 "help.text"
-msgid "To obtain the length of a file that is not open, use the <emph>FileLen</emph> function."
-msgstr "Para obtener la longitud de un archivo que no está abierto, se utiliza la función <emph>FileLen</emph>."
+msgid "To obtain the length of a file that is not open, use the <link href=\"text/sbasic/shared/03020408.xhp\" name=\"FileLen function\"><literal>FileLen</literal></link> function."
+msgstr ""
 
 #. AGL3X
 #: 03020304.xhp
@@ -11869,41 +11869,14 @@ msgctxt ""
 msgid "Returns the length of a file in bytes."
 msgstr "Devuelve la longitud de un archivo en bytes."
 
-#. GfNg3
+#. RpGc5
 #: 03020408.xhp
 msgctxt ""
 "03020408.xhp\n"
-"hd_id3159414\n"
+"par_id401651744449325\n"
 "help.text"
-msgid "Syntax:"
-msgstr "Sintaxis:"
-
-#. MoBSd
-#: 03020408.xhp
-msgctxt ""
-"03020408.xhp\n"
-"par_id3149656\n"
-"help.text"
-msgid "FileLen (Text As String)"
-msgstr "FileLen (Texto As String)"
-
-#. LVwBo
-#: 03020408.xhp
-msgctxt ""
-"03020408.xhp\n"
-"hd_id3148798\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valor de retorno:"
-
-#. H2KXW
-#: 03020408.xhp
-msgctxt ""
-"03020408.xhp\n"
-"hd_id3150768\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parámetros:"
+msgid "Use <link href=\"text/sbasic/shared/03/sf_filesystem.xhp\" name=\"ScriptForge.FileSystem service\">ScriptForge.FileSystem</link> service <link href=\"text/sbasic/shared/03/sf_filesystem.xhp#GetFileLen\" name=\"GetFileLen method\">GetFileLen()</link> method when size is expected to be over 2 gigabytes."
+msgstr ""
 
 #. Fo2XH
 #: 03020408.xhp
@@ -11914,23 +11887,14 @@ msgctxt ""
 msgid "<emph>Text:</emph> Any string expression that contains an unambiguous file specification. You can also use <link href=\"text/sbasic/shared/00000002.xhp\" name=\"URL notation\">URL notation</link>."
 msgstr "<emph>Texto:</emph> Cualquier expresión de cadena que contenga una especificación de archivo inequívoca. También se puede usar la <link href=\"text/sbasic/shared/00000002.xhp\" name=\"URL notation\">notación URL</link>."
 
-#. SCB9u
+#. 7RtHj
 #: 03020408.xhp
 msgctxt ""
 "03020408.xhp\n"
 "par_id3150439\n"
 "help.text"
-msgid "This function determines the length of a file. If the FileLen function is called for an open file, it returns the file length before it was opened. To determine the current file length of an open file, use the Lof function."
-msgstr "Esta función determina la longitud de un archivo. Si se llama a la función FileLen para un archivo abierto, ésta devuelve su longitud antes de que se abriera. Para determinar la longitud actual de un archivo abierto, se debe usar la función Lof."
-
-#. j8DBv
-#: 03020408.xhp
-msgctxt ""
-"03020408.xhp\n"
-"hd_id3163710\n"
-"help.text"
-msgid "Example:"
-msgstr "Ejemplo:"
+msgid "This function determines the length of a file. If the <literal>FileLen</literal> function is called for an open file, it returns the file length before it was opened. To determine the current file length of an open file, use the <link href=\"text/sbasic/shared/03020303.xhp\" name=\"Lof function\"><literal>Lof</literal></link> function."
+msgstr ""
 
 #. FerKv
 #: 03020409.xhp
@@ -24982,59 +24946,14 @@ msgctxt ""
 msgid "Converts any numerical expression or string expression to a double type."
 msgstr "Convierte cualquier expresión de cadena o numérica en un tipo doble."
 
-#. jjGQH
-#: 03100400.xhp
-msgctxt ""
-"03100400.xhp\n"
-"hd_id3149516\n"
-"help.text"
-msgid "Syntax"
-msgstr "Sintaxis"
-
-#. aTHD8
+#. wEVGF
 #: 03100400.xhp
 msgctxt ""
 "03100400.xhp\n"
 "par_id3156152\n"
 "help.text"
-msgid "CDbl (Expression)"
-msgstr "CDbl (Expresión)"
-
-#. 38G4w
-#: 03100400.xhp
-msgctxt ""
-"03100400.xhp\n"
-"hd_id3153061\n"
-"help.text"
-msgid "Return value"
-msgstr "Valor de retorno:"
-
-#. LM9Ye
-#: 03100400.xhp
-msgctxt ""
-"03100400.xhp\n"
-"hd_id3154760\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parámetros:"
-
-#. DVRKM
-#: 03100400.xhp
-msgctxt ""
-"03100400.xhp\n"
-"par_id3153897\n"
-"help.text"
-msgid "<emph>Expression:</emph> Any string or numeric expression that you want to convert. To convert a string expression, the number must be entered as normal text (\"123.5\") using the default number format of your operating system."
-msgstr "<emph>Expresión:</emph> Cualquier expresión de cadena o numérica que desee convertir. Para convertir una expresión de cadena, el número debe introducirse como texto normal (\"123,5\") usando el formato numérico predeterminado del sistema operativo."
-
-#. HxfeM
-#: 03100400.xhp
-msgctxt ""
-"03100400.xhp\n"
-"hd_id3148797\n"
-"help.text"
-msgid "Example:"
-msgstr "Ejemplo:"
+msgid "CDbl (Expression As Variant) As Double"
+msgstr ""
 
 #. Hs9F5
 #: 03100500.xhp
@@ -25072,59 +24991,14 @@ msgctxt ""
 msgid "Converts any string or numeric expression to an integer."
 msgstr "Convierte cualquier expresión de cadena o numérica en un entero."
 
-#. AFSBH
-#: 03100500.xhp
-msgctxt ""
-"03100500.xhp\n"
-"hd_id3147573\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Sintaxis:"
-
-#. ZGxYP
+#. CCHrN
 #: 03100500.xhp
 msgctxt ""
 "03100500.xhp\n"
 "par_id3154142\n"
 "help.text"
-msgid "CInt (Expression)"
-msgstr "CInt (Expresión)"
-
-#. AQaNC
-#: 03100500.xhp
-msgctxt ""
-"03100500.xhp\n"
-"hd_id3147531\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valor de retorno:"
-
-#. a2YC7
-#: 03100500.xhp
-msgctxt ""
-"03100500.xhp\n"
-"hd_id3145069\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parámetros:"
-
-#. 94dPA
-#: 03100500.xhp
-msgctxt ""
-"03100500.xhp\n"
-"par_id3159414\n"
-"help.text"
-msgid "<emph>Expression:</emph> Any expression that you want to convert."
+msgid "CInt (Expression As Variant) As Integer"
 msgstr ""
-
-#. tSQka
-#: 03100500.xhp
-msgctxt ""
-"03100500.xhp\n"
-"par_id3159415\n"
-"help.text"
-msgid "If the argument is a number, it is used as numeric value of the expression."
-msgstr "Si el argumento es un número, se utilizará como valor numérico de la expresión."
 
 #. UnfBB
 #: 03100500.xhp
@@ -25234,50 +25108,23 @@ msgctxt ""
 msgid "Converts any string or numeric expression to a long integer."
 msgstr "Convierte cualquier expresión de cadena o numérica en un entero largo."
 
-#. CtL6e
-#: 03100600.xhp
-msgctxt ""
-"03100600.xhp\n"
-"hd_id3145315\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Sintaxis:"
-
-#. 3HnrW
+#. 8aFmF
 #: 03100600.xhp
 msgctxt ""
 "03100600.xhp\n"
 "par_id3147573\n"
 "help.text"
-msgid "CLng (Expression)"
-msgstr "CLng (Expresión)"
+msgid "CLng (Expression As Variant) As Long"
+msgstr ""
 
-#. iViY7
-#: 03100600.xhp
-msgctxt ""
-"03100600.xhp\n"
-"hd_id3145610\n"
-"help.text"
-msgid "Return value:"
-msgstr "Valor de retorno:"
-
-#. pC3ZX
-#: 03100600.xhp
-msgctxt ""
-"03100600.xhp\n"
-"hd_id3154760\n"
-"help.text"
-msgid "Parameters:"
-msgstr "Parámetros:"
-
-#. kyujG
+#. HDHVW
 #: 03100600.xhp
 msgctxt ""
 "03100600.xhp\n"
 "par_id3159414\n"
 "help.text"
-msgid "<emph>Expression:</emph> Any numerical expression that you want to convert. If the <emph>Expression</emph> lies outside the valid long integer range between -2.147.483.648 and 2.147.483.647, $[officename] Basic returns an overflow error. To convert a string expression, the number must be entered as normal text (\"123.5\") using the default number format of your operating system."
-msgstr "<emph>Expresión:</emph> cualquier expresión numérica que quiera convertir. Si <emph>Expresión</emph> está fuera del intervalo de enteros largos válido de −2 147 483 648 y 2 147 483 647, $[officename] Basic devuelve un error de desbordamiento. Para convertir una expresión de cadena, el número debe introducirse como texto normal («123,5») usando el formato numérico predeterminado del sistema operativo."
+msgid "If <literal>Expression</literal> lies outside the valid long integer range between -2.147.483.648 and 2.147.483.647, $[officename] Basic returns an overflow error."
+msgstr ""
 
 #. hgEwt
 #: 03100600.xhp
@@ -25513,59 +25360,68 @@ msgctxt ""
 msgid "Converts any string or numeric expression to data type Single."
 msgstr "Convierte cualquier cadena o expresión numérica en el tipo de datos Simple."
 
-#. BNPsA
-#: 03100900.xhp
-msgctxt ""
-"03100900.xhp\n"
-"hd_id3153255\n"
-"help.text"
-msgid "Syntax:"
-msgstr "Sintaxis:"
-
-#. JxpvM
+#. dQQAS
 #: 03100900.xhp
 msgctxt ""
 "03100900.xhp\n"
 "par_id3148983\n"
 "help.text"
-msgid "CSng (Expression)"
-msgstr "CSng (Expresión)"
+msgid "CSng (Expression As Variant) As Single"
+msgstr ""
 
-#. FR3tS
+#. ZodWe
 #: 03100900.xhp
 msgctxt ""
 "03100900.xhp\n"
-"hd_id3152347\n"
+"par_id3153897\n"
 "help.text"
-msgid "Return value:"
-msgstr "Valor de retorno:"
+msgid "<emph>Expression</emph>: Any string or numeric expression that you want to convert. To convert a string expression, the number must be entered using a dot \".\" as the decimal point and a comma \",\" as the thousands separator (for instance 123,456.78), which may differ from your %PRODUCTNAME <link href=\"text/shared/optionen/01140000.xhp\" name=\"language settings\">language settings</link>."
+msgstr ""
 
-#. cSsM4
+#. 6CgWz
 #: 03100900.xhp
 msgctxt ""
 "03100900.xhp\n"
-"hd_id3146957\n"
+"par_id761652451117906\n"
 "help.text"
-msgid "Parameters:"
-msgstr "Parámetros:"
+msgid "Numeric expressions are displayed according %PRODUCTNAME <link href=\"text/shared/optionen/01140000.xhp\" name=\"language settings\">language settings</link>:"
+msgstr ""
 
-#. XEQKF
+#. DirnZ
 #: 03100900.xhp
 msgctxt ""
 "03100900.xhp\n"
-"par_id3153345\n"
+"par_idm1341608224\n"
 "help.text"
-msgid "<emph>Expression:</emph> Any string or numeric expression that you want to convert. To convert a string expression, the number must be entered as normal text (\"123.5\") using the default number format of your operating system."
-msgstr "<emph>Expresión:</emph> Cualquier expresión de cadena o numérica que desee convertir. Para convertir una expresión de cadena, el número debe introducirse como texto normal (\"123,5\") usando el formato numérico predeterminado del sistema operativo."
+msgid "MsgBox CDbl(1234.5678) ' 1234.5678"
+msgstr ""
 
-#. kT9UB
+#. BoiF4
 #: 03100900.xhp
 msgctxt ""
 "03100900.xhp\n"
-"hd_id3149514\n"
+"par_idm1341604480\n"
 "help.text"
-msgid "Example:"
-msgstr "Ejemplo:"
+msgid "MsgBox CSng(1234.5678) ' 1234.567749023"
+msgstr ""
+
+#. rf5Br
+#: 03100900.xhp
+msgctxt ""
+"03100900.xhp\n"
+"par_idm1341608242\n"
+"help.text"
+msgid "MsgBox CDbl(expression := 5678.1234) ' 5678.1234"
+msgstr ""
+
+#. uVUDG
+#: 03100900.xhp
+msgctxt ""
+"03100900.xhp\n"
+"par_idm1341604408\n"
+"help.text"
+msgid "MsgBox CSng(expression := 5678.1234) ' 5678.123535156"
+msgstr ""
 
 #. MCFBf
 #: 03101000.xhp
@@ -42396,6 +42252,223 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/sbasic/shared/01030000.xhp\">%PRODUCTNAME Basic IDE</link>"
 msgstr "<link href=\"text/sbasic/shared/01030000.xhp\">EID de Basic de %PRODUCTNAME</link>"
+
+#~ msgctxt ""
+#~ "03020303.xhp\n"
+#~ "par_id3150359\n"
+#~ "help.text"
+#~ msgid "Lof (FileNumber)"
+#~ msgstr "Lof (NúmeroArchivo)"
+
+#~ msgctxt ""
+#~ "03020303.xhp\n"
+#~ "par_id3150869\n"
+#~ "help.text"
+#~ msgid "<emph>FileNumber:</emph> Any numeric expression that contains the file number that is specified in the Open statement."
+#~ msgstr "<emph>NúmeroArchivo:</emph> Cualquier expresión numérica que contenga el número de archivo especificado en la instrucción Open."
+
+#~ msgctxt ""
+#~ "03020303.xhp\n"
+#~ "par_id3147349\n"
+#~ "help.text"
+#~ msgid "To obtain the length of a file that is not open, use the <emph>FileLen</emph> function."
+#~ msgstr "Para obtener la longitud de un archivo que no está abierto, se utiliza la función <emph>FileLen</emph>."
+
+#~ msgctxt ""
+#~ "03020408.xhp\n"
+#~ "hd_id3159414\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Sintaxis:"
+
+#~ msgctxt ""
+#~ "03020408.xhp\n"
+#~ "par_id3149656\n"
+#~ "help.text"
+#~ msgid "FileLen (Text As String)"
+#~ msgstr "FileLen (Texto As String)"
+
+#~ msgctxt ""
+#~ "03020408.xhp\n"
+#~ "hd_id3148798\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valor de retorno:"
+
+#~ msgctxt ""
+#~ "03020408.xhp\n"
+#~ "hd_id3150768\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parámetros:"
+
+#~ msgctxt ""
+#~ "03020408.xhp\n"
+#~ "par_id3150439\n"
+#~ "help.text"
+#~ msgid "This function determines the length of a file. If the FileLen function is called for an open file, it returns the file length before it was opened. To determine the current file length of an open file, use the Lof function."
+#~ msgstr "Esta función determina la longitud de un archivo. Si se llama a la función FileLen para un archivo abierto, ésta devuelve su longitud antes de que se abriera. Para determinar la longitud actual de un archivo abierto, se debe usar la función Lof."
+
+#~ msgctxt ""
+#~ "03020408.xhp\n"
+#~ "hd_id3163710\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Ejemplo:"
+
+#~ msgctxt ""
+#~ "03100400.xhp\n"
+#~ "hd_id3149516\n"
+#~ "help.text"
+#~ msgid "Syntax"
+#~ msgstr "Sintaxis"
+
+#~ msgctxt ""
+#~ "03100400.xhp\n"
+#~ "par_id3156152\n"
+#~ "help.text"
+#~ msgid "CDbl (Expression)"
+#~ msgstr "CDbl (Expresión)"
+
+#~ msgctxt ""
+#~ "03100400.xhp\n"
+#~ "hd_id3153061\n"
+#~ "help.text"
+#~ msgid "Return value"
+#~ msgstr "Valor de retorno:"
+
+#~ msgctxt ""
+#~ "03100400.xhp\n"
+#~ "hd_id3154760\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parámetros:"
+
+#~ msgctxt ""
+#~ "03100400.xhp\n"
+#~ "par_id3153897\n"
+#~ "help.text"
+#~ msgid "<emph>Expression:</emph> Any string or numeric expression that you want to convert. To convert a string expression, the number must be entered as normal text (\"123.5\") using the default number format of your operating system."
+#~ msgstr "<emph>Expresión:</emph> Cualquier expresión de cadena o numérica que desee convertir. Para convertir una expresión de cadena, el número debe introducirse como texto normal (\"123,5\") usando el formato numérico predeterminado del sistema operativo."
+
+#~ msgctxt ""
+#~ "03100400.xhp\n"
+#~ "hd_id3148797\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Ejemplo:"
+
+#~ msgctxt ""
+#~ "03100500.xhp\n"
+#~ "hd_id3147573\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Sintaxis:"
+
+#~ msgctxt ""
+#~ "03100500.xhp\n"
+#~ "par_id3154142\n"
+#~ "help.text"
+#~ msgid "CInt (Expression)"
+#~ msgstr "CInt (Expresión)"
+
+#~ msgctxt ""
+#~ "03100500.xhp\n"
+#~ "hd_id3147531\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valor de retorno:"
+
+#~ msgctxt ""
+#~ "03100500.xhp\n"
+#~ "hd_id3145069\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parámetros:"
+
+#~ msgctxt ""
+#~ "03100500.xhp\n"
+#~ "par_id3159415\n"
+#~ "help.text"
+#~ msgid "If the argument is a number, it is used as numeric value of the expression."
+#~ msgstr "Si el argumento es un número, se utilizará como valor numérico de la expresión."
+
+#~ msgctxt ""
+#~ "03100600.xhp\n"
+#~ "hd_id3145315\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Sintaxis:"
+
+#~ msgctxt ""
+#~ "03100600.xhp\n"
+#~ "par_id3147573\n"
+#~ "help.text"
+#~ msgid "CLng (Expression)"
+#~ msgstr "CLng (Expresión)"
+
+#~ msgctxt ""
+#~ "03100600.xhp\n"
+#~ "hd_id3145610\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valor de retorno:"
+
+#~ msgctxt ""
+#~ "03100600.xhp\n"
+#~ "hd_id3154760\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parámetros:"
+
+#~ msgctxt ""
+#~ "03100600.xhp\n"
+#~ "par_id3159414\n"
+#~ "help.text"
+#~ msgid "<emph>Expression:</emph> Any numerical expression that you want to convert. If the <emph>Expression</emph> lies outside the valid long integer range between -2.147.483.648 and 2.147.483.647, $[officename] Basic returns an overflow error. To convert a string expression, the number must be entered as normal text (\"123.5\") using the default number format of your operating system."
+#~ msgstr "<emph>Expresión:</emph> cualquier expresión numérica que quiera convertir. Si <emph>Expresión</emph> está fuera del intervalo de enteros largos válido de −2 147 483 648 y 2 147 483 647, $[officename] Basic devuelve un error de desbordamiento. Para convertir una expresión de cadena, el número debe introducirse como texto normal («123,5») usando el formato numérico predeterminado del sistema operativo."
+
+#~ msgctxt ""
+#~ "03100900.xhp\n"
+#~ "hd_id3153255\n"
+#~ "help.text"
+#~ msgid "Syntax:"
+#~ msgstr "Sintaxis:"
+
+#~ msgctxt ""
+#~ "03100900.xhp\n"
+#~ "par_id3148983\n"
+#~ "help.text"
+#~ msgid "CSng (Expression)"
+#~ msgstr "CSng (Expresión)"
+
+#~ msgctxt ""
+#~ "03100900.xhp\n"
+#~ "hd_id3152347\n"
+#~ "help.text"
+#~ msgid "Return value:"
+#~ msgstr "Valor de retorno:"
+
+#~ msgctxt ""
+#~ "03100900.xhp\n"
+#~ "hd_id3146957\n"
+#~ "help.text"
+#~ msgid "Parameters:"
+#~ msgstr "Parámetros:"
+
+#~ msgctxt ""
+#~ "03100900.xhp\n"
+#~ "par_id3153345\n"
+#~ "help.text"
+#~ msgid "<emph>Expression:</emph> Any string or numeric expression that you want to convert. To convert a string expression, the number must be entered as normal text (\"123.5\") using the default number format of your operating system."
+#~ msgstr "<emph>Expresión:</emph> Cualquier expresión de cadena o numérica que desee convertir. Para convertir una expresión de cadena, el número debe introducirse como texto normal (\"123,5\") usando el formato numérico predeterminado del sistema operativo."
+
+#~ msgctxt ""
+#~ "03100900.xhp\n"
+#~ "hd_id3149514\n"
+#~ "help.text"
+#~ msgid "Example:"
+#~ msgstr "Ejemplo:"
 
 #~ msgctxt ""
 #~ "03090102.xhp\n"
