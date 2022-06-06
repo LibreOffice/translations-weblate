@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-06-01 11:37+0000\n"
+"PO-Revision-Date: 2022-06-06 18:38+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_help-7-3/textsbasicshared03/el/>\n"
 "Language: el\n"
@@ -21867,7 +21867,7 @@ msgctxt ""
 "par_id31579874656437\n"
 "help.text"
 msgid "<emph>replacedby</emph>: Zero, one or more characters that will replace all non-printable characters in <literal>inputstr</literal> (Default = \"\")"
-msgstr ""
+msgstr "<emph>replacedby</emph>: Μηδέν, ένας ή περισσότεροι χαρακτήρες που θα αντικαταστήσουν όλους τους μη εκτυπώσιμους χαρακτήρες στο <literal>inputstr</literal> (Προεπιλογή = \"\")"
 
 #. W44TL
 #: sf_string.xhp
@@ -21876,7 +21876,7 @@ msgctxt ""
 "par_id1001579876228707\n"
 "help.text"
 msgid "Finds in a string a substring matching a given regular expression."
-msgstr ""
+msgstr "Βρίσκει σε μια συμβολοσειρά μια υποσυμβολοσειρά που ταιριάζει με μια δεδομένη κανονική έκφραση."
 
 #. aq28M
 #: sf_string.xhp
@@ -21885,7 +21885,7 @@ msgctxt ""
 "par_id131579876314120\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be searched"
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά προς αναζήτηση"
 
 #. hRrBB
 #: sf_string.xhp
@@ -21894,7 +21894,7 @@ msgctxt ""
 "par_id751579876371545\n"
 "help.text"
 msgid "<emph>regex</emph>: The regular expression"
-msgstr ""
+msgstr "<emph>regex</emph>: Η κανονική έκφραση"
 
 #. y2Fqs
 #: sf_string.xhp
@@ -21903,7 +21903,7 @@ msgctxt ""
 "par_id881579876394584\n"
 "help.text"
 msgid "<emph>start</emph>: The position in the string where the search will begin. This parameter is passed by reference, so after execution the value of <literal>start</literal> will point to the first character of the found substring. If no matching substring is found, <literal>start</literal> will be set to 0."
-msgstr ""
+msgstr "<emph>start</emph>: Η θέση στη συμβολοσειρά όπου θα ξεκινήσει η αναζήτηση. Αυτή η παράμετρος μεταβιβάζεται με αναφορά, επομένως μετά την εκτέλεση η τιμή <literal>start</literal> θα δείχνει στον πρώτο χαρακτήρα της υποσυμβολοσειράς που βρέθηκε. Εάν δεν βρεθεί αντίστοιχη υποσυμβολοσειρά, το <literal>start</literal> θα οριστεί σε 0."
 
 #. yZMDg
 #: sf_string.xhp
@@ -21912,7 +21912,7 @@ msgctxt ""
 "par_id251579876403831\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: The search can be case sensitive or not (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph> (διάκριση πεζών-κεφαλαίων): Η αναζήτηση μπορεί να κάνει διάκριση πεζών-κεφαλαίων ή όχι (Προεπιλογή = <literal>False</literal>)."
 
 #. A4JC7
 #: sf_string.xhp
@@ -21921,7 +21921,7 @@ msgctxt ""
 "par_id841579876412287\n"
 "help.text"
 msgid "<emph>forward</emph>: Determines the direction of the search. If <literal>True</literal>, search moves forward. If <literal>False</literal> search moves backwards (Default = <literal>True</literal>)"
-msgstr ""
+msgstr "<emph>forward</emph> (προς τα εμπρός): Καθορίζει την κατεύθυνση της αναζήτησης. Εάν είναι <literal>True</literal>, η αναζήτηση προχωρά. Εάν η αναζήτηση είναι <literal>False</literal> μετακινείται προς τα πίσω (Προεπιλογή = <literal>True</literal>)"
 
 #. SkaCi
 #: sf_string.xhp
@@ -21930,7 +21930,7 @@ msgctxt ""
 "par_id451612309155653\n"
 "help.text"
 msgid "At the first iteration, if <literal>forward = True</literal>, then <literal>start</literal> should be equal to 1, whereas if <literal>forward = False</literal> then <literal>start</literal> should be equal to <literal>Len(inputstr)</literal>"
-msgstr ""
+msgstr "Στην πρώτη επανάληψη, εάν <literal>forward = True</literal>, τότε το <literal>start</literal> θα πρέπει να είναι ίσο με 1, ενώ εάν <literal>forward = False</literal> τότε το <literal>start</literal> πρέπει να είναι ίσο με <literal>Len(inputstr)</literal>"
 
 #. gv3oo
 #: sf_string.xhp
@@ -21939,7 +21939,7 @@ msgctxt ""
 "par_id221612309579001\n"
 "help.text"
 msgid "In the example above, the new value of <literal>lStart</literal> can be used to keep searching the same input string by setting the <literal>Start</literal> parameter to <literal>lStart + Len(result)</literal> at the next iteration."
-msgstr ""
+msgstr "Στο παραπάνω παράδειγμα, η νέα τιμή του <literal>lStart</literal> μπορεί να χρησιμοποιηθεί για να συνεχιστεί η αναζήτηση της ίδιας συμβολοσειράς εισόδου ορίζοντας την παράμετρο <literal>Start</literal> σε <literal>lStart + Len(result)</literal> στην επόμενη επανάληψη."
 
 #. qAkN4
 #: sf_string.xhp
@@ -21948,7 +21948,7 @@ msgctxt ""
 "par_id471601048983628\n"
 "help.text"
 msgid "Hash functions are used inside some cryptographic algorithms, in digital signatures, message authentication codes, manipulation detection, fingerprints, checksums (message integrity check), hash tables, password storage and much more."
-msgstr ""
+msgstr "Οι συναρτήσεις κατακερματισμού χρησιμοποιούνται σε ορισμένους κρυπτογραφικούς αλγόριθμους, σε ψηφιακές υπογραφές, κωδικούς ταυτοποίησης μηνυμάτων, ανίχνευση χειρισμού, δακτυλικά αποτυπώματα, αθροίσματα ελέγχου (έλεγχος ακεραιότητας μηνυμάτων), πίνακες κατακερματισμού, αποθήκευση κωδικών πρόσβασης και πολλά άλλα."
 
 #. HupGD
 #: sf_string.xhp
@@ -21957,7 +21957,7 @@ msgctxt ""
 "par_id301601048983765\n"
 "help.text"
 msgid "The <literal>HashStr</literal> method returns the result of a hash function applied on a given string and using a specified algorithm, as a string of lowercase hexadecimal digits."
-msgstr ""
+msgstr "Η μέθοδος <literal>HashStr</literal> επιστρέφει το αποτέλεσμα μιας συνάρτησης κατακερματισμού που εφαρμόζεται σε μια δεδομένη συμβολοσειρά και χρησιμοποιώντας έναν καθορισμένο αλγόριθμο, ως συμβολοσειρά πεζών δεκαεξαδικών ψηφίων."
 
 #. ZRZEF
 #: sf_string.xhp
@@ -21966,7 +21966,7 @@ msgctxt ""
 "par_id631601048983149\n"
 "help.text"
 msgid "The hash algorithms supported are: <literal>MD5</literal>, <literal>SHA1</literal>, <literal>SHA224</literal>, <literal>SHA256</literal>, <literal>SHA384</literal> and <literal>SHA512</literal>."
-msgstr ""
+msgstr "Οι αλγόριθμοι κατακερματισμού που υποστηρίζονται είναι: <literal>MD5</literal>, <literal>SHA1</literal>, <literal>SHA224</literal>, <literal>SHA256</literal>, <literal>SHA384</literal> και <literal>SHA512</literal>."
 
 #. yUmmb
 #: sf_string.xhp
@@ -21975,7 +21975,7 @@ msgctxt ""
 "par_id621601048983210\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to hash. It is presumed to be encoded in UTF-8. The hashing algorithm will consider the string as a stream of bytes."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά προς κατακερματισμό. Υποτίθεται ότι είναι κωδικοποιημένη σε UTF-8. Ο αλγόριθμος κατακερματισμού θα θεωρήσει τη συμβολοσειρά ως μια ροή ψηφιολέξεων (bytes)."
 
 #. nuQRb
 #: sf_string.xhp
@@ -21984,7 +21984,7 @@ msgctxt ""
 "par_id941601048983822\n"
 "help.text"
 msgid "<emph>algorithm</emph>: One of the supported algorithms listed above, passed as a string."
-msgstr ""
+msgstr "<emph>algorithm</emph> (αλγόριθμος): Ένας από τους υποστηριζόμενους αλγορίθμους που αναφέρονται παραπάνω, μεταβιβάστηκε ως συμβολοσειρά."
 
 #. TXGmB
 #: sf_string.xhp
@@ -21993,7 +21993,7 @@ msgctxt ""
 "par_id221579879516929\n"
 "help.text"
 msgid "Encodes the input string into the HTML character codes, replacing special characters by their <literal>&</literal> counterparts."
-msgstr ""
+msgstr "Κωδικοποιεί τη συμβολοσειρά εισόδου στους κωδικούς χαρακτήρων HTML, αντικαθιστώντας τους ειδικούς χαρακτήρες από τους αντίστοιχους <literal>&</literal>."
 
 #. YNfid
 #: sf_string.xhp
@@ -22002,7 +22002,7 @@ msgctxt ""
 "par_id341612351999692\n"
 "help.text"
 msgid "For example, the character <literal>é</literal> would be replaced by <literal>&eacute;</literal> or an equivalent numerical HTML code."
-msgstr ""
+msgstr "Για παράδειγμα, ο χαρακτήρας <literal>é</literal> θα αντικατασταθεί από <literal>&eacute;</literal> ή έναν ισοδύναμο αριθμητικό κωδικό HTML."
 
 #. CGFQH
 #: sf_string.xhp
@@ -22011,7 +22011,7 @@ msgctxt ""
 "bas_id501579879570781\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to encode."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά προς κωδικοποίηση."
 
 #. jpv97
 #: sf_string.xhp
@@ -22020,7 +22020,7 @@ msgctxt ""
 "par_id171579880990533\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the input string is a valid date according to a specified date format."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν η συμβολοσειρά εισόδου είναι έγκυρη ημερομηνία σύμφωνα με μια καθορισμένη μορφή ημερομηνίας."
 
 #. tBGBH
 #: sf_string.xhp
@@ -22029,7 +22029,7 @@ msgctxt ""
 "par_id151579881091821\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>"
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>"
 
 #. nmTv3
 #: sf_string.xhp
@@ -22038,7 +22038,7 @@ msgctxt ""
 "par_id991579881107670\n"
 "help.text"
 msgid "<emph>dateformat</emph>: The date format, as a string. It can be either \"YYYY-MM-DD\" (default), \"DD-MM-YYYY\" or \"MM-DD-YYYY\""
-msgstr ""
+msgstr "<emph>dateformat</emph>: Η μορφή ημερομηνίας, ως συμβολοσειρά. Μπορεί να είναι είτε \"ΕΕΕΕ-ΜΜ-ΗΗ\" (προεπιλογή), \"ΗΗ-ΜΜ-ΕΕΕΕ\" ή \"ΜΜ-ΗΗ-ΕΕΕΕ\""
 
 #. GvZLC
 #: sf_string.xhp
@@ -22047,7 +22047,7 @@ msgctxt ""
 "par_id291579881117126\n"
 "help.text"
 msgid "The dash (-) may be replaced by a dot (.), a slash (/) or a space."
-msgstr ""
+msgstr "Η παύλα (-) μπορεί να αντικατασταθεί από μια τελεία (.), μια κάθετο (/) ή ένα διάστημα."
 
 #. yCA3T
 #: sf_string.xhp
@@ -22056,7 +22056,7 @@ msgctxt ""
 "par_id51579881125801\n"
 "help.text"
 msgid "If the format is invalid, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Εάν η μορφή είναι άκυρη, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. qFmWW
 #: sf_string.xhp
@@ -22065,7 +22065,7 @@ msgctxt ""
 "par_id211612370427721\n"
 "help.text"
 msgid "This method checks the format of the input string without performing any calendar-specific checks. Hence it does not test the input string for leap years or months with 30 or 31 days. For that, refer to the <link href=\"text/sbasic/shared/03102300.xhp\" name=\"IsDate function\"><literal>IsDate</literal> built-in function</link>."
-msgstr ""
+msgstr "Αυτή η μέθοδος ελέγχει τη μορφή της συμβολοσειράς εισόδου χωρίς να πραγματοποιεί ελέγχους που αφορούν το ημερολόγιο. Ως εκ τούτου, δεν δοκιμάζει τη συμβολοσειρά εισόδου για δίσεκτα έτη, ή μήνες με 30 ή 31 ημέρες. Για αυτό, ανατρέξτε στην ενσωματωμένη συνάρτηση <link href=\"text/sbasic/shared/03102300.xhp\" name=\"IsDate function\"><literal>IsDate</literal></link>."
 
 #. DJQFQ
 #: sf_string.xhp
@@ -22074,7 +22074,7 @@ msgctxt ""
 "par_id181612371147364\n"
 "help.text"
 msgid "The example below shows the difference between the methods <literal>IsADate</literal> (ScriptForge) and the <literal>IsDate</literal> (built-in) function."
-msgstr ""
+msgstr "Το παρακάτω παράδειγμα δείχνει τη διαφορά μεταξύ των μεθόδων <literal>IsADate</literal> (ScriptForge) και της συνάρτησης <literal>IsDate</literal> (ενσωματωμένη)."
 
 #. hAADi
 #: sf_string.xhp
@@ -22083,7 +22083,7 @@ msgctxt ""
 "par_id161579881600317\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are alphabetic."
-msgstr ""
+msgstr "Επιστρέφει το <literal>True</literal> εάν όλοι οι χαρακτήρες της συμβολοσειράς είναι αλφαβητικοί."
 
 #. Cpeo3
 #: sf_string.xhp
@@ -22092,7 +22092,7 @@ msgctxt ""
 "par_id251579881615469\n"
 "help.text"
 msgid "Alphabetic characters are those characters defined in the <link href=\"https://unicode.org/reports/tr44/\" name=\"Unicode documentation\">Unicode Character Database</link> as <literal>Letter</literal>."
-msgstr ""
+msgstr "Οι αλφαβητικοί χαρακτήρες είναι εκείνοι οι χαρακτήρες που ορίζονται στη <link href=\"https://unicode.org/reports/tr44/\" name=\"Unicode documentation\">Βάση δεδομένων χαρακτήρων Unicode</link> ως <literal>Letter</literal> (Γράμμα)."
 
 #. a9rTa
 #: sf_string.xhp
@@ -22101,7 +22101,7 @@ msgctxt ""
 "par_id11579881691826\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. KaLGv
 #: sf_string.xhp
@@ -22110,7 +22110,7 @@ msgctxt ""
 "par_id421579883181382\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are alphabetic, digits or \"_\" (underscore). The first character must not be a digit."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν όλοι οι χαρακτήρες στη συμβολοσειρά είναι αλφαβητικά, ψηφία ή \"_\" (υπογράμμιση). Ο πρώτος χαρακτήρας δεν πρέπει να είναι ψηφίο."
 
 #. BAEB4
 #: sf_string.xhp
@@ -22119,7 +22119,7 @@ msgctxt ""
 "par_id31579884464101\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. qAZpA
 #: sf_string.xhp
@@ -22128,7 +22128,7 @@ msgctxt ""
 "par_id671580039484786\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are Ascii characters."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν όλοι οι χαρακτήρες στη συμβολοσειρά είναι χαρακτήρες Ascii."
 
 #. 3DNou
 #: sf_string.xhp
@@ -22137,7 +22137,7 @@ msgctxt ""
 "par_id791580039528838\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. iuPF4
 #: sf_string.xhp
@@ -22146,7 +22146,7 @@ msgctxt ""
 "par_id861580044805749\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are digits."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν όλοι οι χαρακτήρες στη συμβολοσειρά είναι ψηφία."
 
 #. yU7cc
 #: sf_string.xhp
@@ -22155,7 +22155,7 @@ msgctxt ""
 "par_id41580044873043\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. J8Ykx
 #: sf_string.xhp
@@ -22164,7 +22164,7 @@ msgctxt ""
 "par_id521580045221758\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the string is a valid email address."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν η συμβολοσειρά είναι έγκυρη διεύθυνση ηλ. αλληλογραφίας."
 
 #. 8Pxsn
 #: sf_string.xhp
@@ -22173,7 +22173,7 @@ msgctxt ""
 "par_id841580045280071\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. R6MsU
 #: sf_string.xhp
@@ -22182,7 +22182,7 @@ msgctxt ""
 "par_id41580047039666\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the string is a valid filename in a given operating system."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν η συμβολοσειρά είναι έγκυρο όνομα αρχείου σε ένα δεδομένο λειτουργικό σύστημα."
 
 #. aQbRF
 #: sf_string.xhp
@@ -22191,7 +22191,7 @@ msgctxt ""
 "par_id801580047079938\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. jWMpJ
 #: sf_string.xhp
@@ -22200,7 +22200,7 @@ msgctxt ""
 "par_id781580047088954\n"
 "help.text"
 msgid "<emph>osname</emph>: The operating system name, as a string. It can be \"WINDOWS\", \"LINUX\", \"MACOSX\" or \"SOLARIS\"."
-msgstr ""
+msgstr "<emph>osname</emph>: Το όνομα του λειτουργικού συστήματος, ως συμβολοσειρά. Μπορεί να είναι \"WINDOWS\", \"LINUX\", \"MACOSX\" ή \"SOLARIS\"."
 
 #. GnrxA
 #: sf_string.xhp
@@ -22209,7 +22209,7 @@ msgctxt ""
 "par_id991612372824234\n"
 "help.text"
 msgid "The default value is the current operating system on which the script is running."
-msgstr ""
+msgstr "Η προεπιλεγμένη τιμή είναι το τρέχον λειτουργικό σύστημα στο οποίο εκτελείται η δέσμη ενεργειών."
 
 #. FPuAV
 #: sf_string.xhp
@@ -22218,7 +22218,7 @@ msgctxt ""
 "par_id911580047551929\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are hexadecimal digits."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν όλοι οι χαρακτήρες στη συμβολοσειρά είναι δεκαεξαδικά ψηφία."
 
 #. hWqAh
 #: sf_string.xhp
@@ -22227,7 +22227,7 @@ msgctxt ""
 "par_id331580047594144\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. kEz4y
 #: sf_string.xhp
@@ -22236,7 +22236,7 @@ msgctxt ""
 "par_id521612377109554\n"
 "help.text"
 msgid "The hexadecimal digits may be prefixed with \"0x\" or \"&H\"."
-msgstr ""
+msgstr "Τα δεκαεξαδικά ψηφία μπορούν να έχουν το πρόθεμα \"0x\" ή \"&H\"."
 
 #. 3WKNf
 #: sf_string.xhp
@@ -22245,7 +22245,7 @@ msgctxt ""
 "par_id791584008420941\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the string is a valid International Bank Account Number (IBAN). The comparison is not case-sensitive."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν η συμβολοσειρά είναι έγκυρος αριθμός διεθνούς τραπεζικού λογαριασμού (IBAN). Η σύγκριση δεν κάνει διάκριση πεζών-κεφαλαίων."
 
 #. DnC6i
 #: sf_string.xhp
@@ -22254,7 +22254,7 @@ msgctxt ""
 "par_id951880048466565\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. VgT3x
 #: sf_string.xhp
@@ -22263,7 +22263,7 @@ msgctxt ""
 "par_id631619526542367\n"
 "help.text"
 msgid "<literal>True</literal> if the string contains a valid IBAN number."
-msgstr ""
+msgstr "<literal>True</literal> εάν η συμβολοσειρά περιέχει έγκυρο αριθμό IBAN."
 
 #. CcTNk
 #: sf_string.xhp
@@ -22272,7 +22272,7 @@ msgctxt ""
 "par_id791580048420941\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the string is a valid IP(v4) address."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν η συμβολοσειρά είναι έγκυρη διεύθυνση IP(v4)."
 
 #. rMpXB
 #: sf_string.xhp
@@ -22281,7 +22281,7 @@ msgctxt ""
 "par_id981580048466565\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. yWHew
 #: sf_string.xhp
@@ -22290,7 +22290,7 @@ msgctxt ""
 "par_id831580049093038\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the whole input string matches a given pattern containing wildcards."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν ολόκληρη η συμβολοσειρά εισόδου ταιριάζει με ένα δεδομένο μοτίβο που περιέχει χαρακτήρες υποκατάστασης."
 
 #. PzigS
 #: sf_string.xhp
@@ -22299,7 +22299,7 @@ msgctxt ""
 "par_id141580049142548\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. XEBzh
 #: sf_string.xhp
@@ -22308,7 +22308,7 @@ msgctxt ""
 "par_id31580049154551\n"
 "help.text"
 msgid "<emph>pattern</emph>: The pattern as a string. Wildcards are:"
-msgstr ""
+msgstr "<emph>pattern</emph> (μοτίβο): Το μοτίβο ως συμβολοσειρά. Οι χαρακτήρες υποκατάστασης είναι:"
 
 #. ZCzDP
 #: sf_string.xhp
@@ -22317,7 +22317,7 @@ msgctxt ""
 "par_id181612441703306\n"
 "help.text"
 msgid "\"?\" represents any single character;"
-msgstr ""
+msgstr "\"?\" αντιπροσωπεύει οποιονδήποτε μεμονωμένο χαρακτήρα."
 
 #. CFPcW
 #: sf_string.xhp
@@ -22326,7 +22326,7 @@ msgctxt ""
 "par_id861612377611438\n"
 "help.text"
 msgid "\"*\" represents zero, one, or multiple characters."
-msgstr ""
+msgstr "Το \"*\" αντιπροσωπεύει μηδέν, έναν ή πολλούς χαρακτήρες."
 
 #. eLYBF
 #: sf_string.xhp
@@ -22335,7 +22335,7 @@ msgctxt ""
 "par_id991580049206617\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: The search can be case sensitive or not (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph> (διάκριση πεζών-κεφαλαίων): Η αναζήτηση μπορεί να κάνει διάκριση πεζών-κεφαλαίων ή όχι (Προεπιλογή = <literal>False</literal>)."
 
 #. kSMmn
 #: sf_string.xhp
@@ -22344,7 +22344,7 @@ msgctxt ""
 "par_id581580050048679\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are in lowercase. Non-alphabetic characters are ignored."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν όλοι οι χαρακτήρες στη συμβολοσειρά είναι με πεζούς χαρακτήρες. Οι μη αλφαβητικοί χαρακτήρες αγνοούνται."
 
 #. nWGvX
 #: sf_string.xhp
@@ -22353,7 +22353,7 @@ msgctxt ""
 "par_id751580050122938\n"
 "help.text"
 msgid "<emph>InputStr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>InputStr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. BzD3y
 #: sf_string.xhp
@@ -22362,7 +22362,7 @@ msgctxt ""
 "par_id231580051650488\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are printable."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν όλοι οι χαρακτήρες της συμβολοσειράς είναι εκτυπώσιμοι."
 
 #. gUhut
 #: sf_string.xhp
@@ -22371,7 +22371,7 @@ msgctxt ""
 "par_id721580051706431\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. HYBp5
 #: sf_string.xhp
@@ -22380,7 +22380,7 @@ msgctxt ""
 "par_id281580052400960\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the whole input string matches a given regular expression."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν ολόκληρη η συμβολοσειρά εισόδου ταιριάζει με μια δεδομένη κανονική έκφραση."
 
 #. ZuBxC
 #: sf_string.xhp
@@ -22389,7 +22389,7 @@ msgctxt ""
 "par_id161580052454770\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. mi4mi
 #: sf_string.xhp
@@ -22398,7 +22398,7 @@ msgctxt ""
 "par_id581580052467973\n"
 "help.text"
 msgid "<emph>regex</emph>: The regular expression. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>regex</emph>: Η κανονική έκφραση. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. vmqZM
 #: sf_string.xhp
@@ -22407,7 +22407,7 @@ msgctxt ""
 "par_id621580052654341\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: The search can be case sensitive or not (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph> (διάκριση πεζών-κεφαλαίων): Η αναζήτηση μπορεί να κάνει διάκριση πεζών-κεφαλαίων ή όχι (Προεπιλογή = <literal>False</literal>)."
 
 #. iZSEw
 #: sf_string.xhp
@@ -22416,7 +22416,7 @@ msgctxt ""
 "par_id1001589460240467\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the input string is a valid Calc sheet name."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν η συμβολοσειρά εισόδου είναι ένα έγκυρο όνομα φύλλου Calc."
 
 #. xPFLm
 #: sf_string.xhp
@@ -22425,7 +22425,7 @@ msgctxt ""
 "par_id671589460240552\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. uE5gz
 #: sf_string.xhp
@@ -22434,7 +22434,7 @@ msgctxt ""
 "par_id551612442002823\n"
 "help.text"
 msgid "A sheet name must not contain the characters [ ] * ? : / \\ or the character ' (apostrophe) as first or last character."
-msgstr ""
+msgstr "Ένα όνομα φύλλου δεν πρέπει να περιέχει τους χαρακτήρες [ ] * ? : / \\ ή τον χαρακτήρα ' (απόστροφος) ως πρώτο ή τελευταίο χαρακτήρα."
 
 #. ALdgg
 #: sf_string.xhp
@@ -22443,7 +22443,7 @@ msgctxt ""
 "par_id371580293093655\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the first character of every word is in uppercase and the other characters are in lowercase."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν ο πρώτος χαρακτήρας κάθε λέξης είναι με κεφαλαία και οι άλλοι χαρακτήρες με πεζούς."
 
 #. uVF9U
 #: sf_string.xhp
@@ -22452,7 +22452,7 @@ msgctxt ""
 "par_id471580293142283\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. 7Ryzp
 #: sf_string.xhp
@@ -22461,7 +22461,7 @@ msgctxt ""
 "par_id801580128672004\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are in uppercase. Non alphabetic characters are ignored."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν όλοι οι χαρακτήρες στη συμβολοσειρά είναι με κεφαλαία. Οι μη αλφαβητικοί χαρακτήρες αγνοούνται."
 
 #. HFDCW
 #: sf_string.xhp
@@ -22470,7 +22470,7 @@ msgctxt ""
 "par_id391580128736809\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. BTRpG
 #: sf_string.xhp
@@ -22479,7 +22479,7 @@ msgctxt ""
 "par_id531580132067813\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the string is a valid absolute URL (Uniform Resource Locator) address. Only the http, https and ftp protocols are supported."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν η συμβολοσειρά είναι μια έγκυρη απόλυτη διεύθυνση URL (Uniform Resource Locator). Υποστηρίζονται μόνο τα πρωτόκολλα http, https και ftp."
 
 #. HrFqG
 #: sf_string.xhp
@@ -22488,7 +22488,7 @@ msgctxt ""
 "par_id321580132113593\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. wBAqG
 #: sf_string.xhp
@@ -22497,7 +22497,7 @@ msgctxt ""
 "par_id41580132491698\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are whitespaces"
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν όλοι οι χαρακτήρες στη συμβολοσειρά είναι κενά διαστήματα"
 
 #. JDD85
 #: sf_string.xhp
@@ -22506,7 +22506,7 @@ msgctxt ""
 "par_id801580132535511\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be checked. If empty, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα ελεγχθεί. Εάν είναι κενή, η μέθοδος επιστρέφει <literal>False</literal>."
 
 #. 7EBbA
 #: sf_string.xhp
@@ -22515,7 +22515,7 @@ msgctxt ""
 "par_id891580133307100\n"
 "help.text"
 msgid "Returns the input string center-justified."
-msgstr ""
+msgstr "Επιστρέφει τη συμβολοσειρά εισόδου με πλήρη στοίχιση στο κέντρο."
 
 #. TLmnE
 #: sf_string.xhp
@@ -22524,7 +22524,7 @@ msgctxt ""
 "par_id571612380829021\n"
 "help.text"
 msgid "The leading and trailing white spaces are stripped and the remaining characters are completed left and right up to a specified total <literal>length</literal> with the character <literal>padding</literal>."
-msgstr ""
+msgstr "Τα κενά διαστήματα στηναρχή και στο τέλος αφαιρούνται και οι υπόλοιποι χαρακτήρες συμπληρώνονται αριστερά και δεξιά μέχρι ένα καθορισμένο συνολικό <literal>length</literal> (μήκος) με τον χαρακτήρα <literal>padding</literal>."
 
 #. 4uuQT
 #: sf_string.xhp
@@ -22533,7 +22533,7 @@ msgctxt ""
 "par_id911580133391827\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be center-justified. If empty, the method returns an empty string."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που πρέπει να στοιχιστεί πλήρως στο κέντρο. Εάν είναι κενή, η μέθοδος επιστρέφει μια κενή συμβολοσειρά."
 
 #. jHJNT
 #: sf_string.xhp
@@ -22542,7 +22542,7 @@ msgctxt ""
 "par_id671580133694946\n"
 "help.text"
 msgid "<emph>length</emph>: The length of the resulting string (default = the length of the input string)."
-msgstr ""
+msgstr "<emph>length</emph> (μήκος): Το μήκος της συμβολοσειράς που προκύπτει (προεπιλογή = το μήκος της συμβολοσειράς εισόδου)."
 
 #. A3qof
 #: sf_string.xhp
@@ -22551,7 +22551,7 @@ msgctxt ""
 "par_id511612381090109\n"
 "help.text"
 msgid "If the specified length is shorter than the center-justified input string, then the returned string is truncated."
-msgstr ""
+msgstr "Εάν το καθορισμένο μήκος είναι μικρότερο από τη συμβολοσειρά εισόδου με πλήρη στοίχιση στο κέντρο, τότε η συμβολοσειρά που επιστρέφεται περικόπτεται."
 
 #. fys4j
 #: sf_string.xhp
@@ -22560,7 +22560,7 @@ msgctxt ""
 "par_id101580133705268\n"
 "help.text"
 msgid "<emph>padding</emph>: The single character to be used as padding (default = the Ascii space \" \")."
-msgstr ""
+msgstr "<emph>padding</emph> (συμπλήρωμα): Ο μεμονωμένος χαρακτήρας που θα χρησιμοποιηθεί ως συμπλήρωμα (προεπιλογή = ο χώρος Ascii \" \")."
 
 #. 4zk3p
 #: sf_string.xhp
@@ -22569,7 +22569,7 @@ msgctxt ""
 "par_id911580135466348\n"
 "help.text"
 msgid "Returns the input string left-justified."
-msgstr ""
+msgstr "Επιστρέφει τη συμβολοσειρά εισόδου με πλήρη στοίχιση αριστερά."
 
 #. 9KeCE
 #: sf_string.xhp
@@ -22578,7 +22578,7 @@ msgctxt ""
 "par_id431612381917641\n"
 "help.text"
 msgid "The leading white spaces are stripped and the remaining characters are completed to the right up to a specified total <literal>length</literal> with the character <literal>padding</literal>."
-msgstr ""
+msgstr "Τα αρχικά κενά διαστήματα αφαιρούνται και οι υπόλοιποι χαρακτήρες συμπληρώνονται προς τα δεξιά μέχρι ένα καθορισμένο συνολικό <literal>length</literal> (μήκος) με τον χαρακτήρα <literal>padding</literal> (συμπλήρωσης)."
 
 #. UQXSM
 #: sf_string.xhp
@@ -22587,7 +22587,7 @@ msgctxt ""
 "par_id281580135523448\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be left-justified. If empty, the method returns an empty string."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που πρέπει να στοιχιστεί πλήρως αριστερά. Εάν είναι κενή, η μέθοδος επιστρέφει μια κενή συμβολοσειρά."
 
 #. EAwAa
 #: sf_string.xhp
@@ -22596,7 +22596,7 @@ msgctxt ""
 "par_id431580135534910\n"
 "help.text"
 msgid "<emph>length</emph>: The length of the resulting string (default = the length of the input string)."
-msgstr ""
+msgstr "<emph>length</emph> (μήκος): Το μήκος της συμβολοσειράς που προκύπτει (προεπιλογή = το μήκος της συμβολοσειράς εισόδου)."
 
 #. ntKXx
 #: sf_string.xhp
@@ -22605,7 +22605,7 @@ msgctxt ""
 "par_id161612381664182\n"
 "help.text"
 msgid "If the specified length is shorter than the left-justified input string, then the returned string is truncated."
-msgstr ""
+msgstr "Εάν το καθορισμένο μήκος είναι μικρότερο από την συμβολοσειρά εισόδου με πλήρη αριστερή στοίχιση, τότε η συμβολοσειρά που επιστρέφεται περικόπτεται."
 
 #. wBnmv
 #: sf_string.xhp
@@ -22614,7 +22614,7 @@ msgctxt ""
 "par_id221580135568475\n"
 "help.text"
 msgid "<emph>padding</emph>: The single character to be used as padding (default = the Ascii space \" \")."
-msgstr ""
+msgstr "<emph>padding</emph> (συμπλήρωμα): Ο μεμονωμένος χαρακτήρας που θα χρησιμοποιηθεί ως συμπλήρωμα (προεπιλογή = ο χώρος Ascii \" \")."
 
 #. TTokb
 #: sf_string.xhp
@@ -22623,7 +22623,7 @@ msgctxt ""
 "par_id821580136091225\n"
 "help.text"
 msgid "Returns the input string right-justified."
-msgstr ""
+msgstr "Επιστρέφει τη συμβολοσειρά εισόδου με πλήρη στοίχιση δεξιά."
 
 #. 4fG7c
 #: sf_string.xhp
@@ -22632,7 +22632,7 @@ msgctxt ""
 "par_id771612382000293\n"
 "help.text"
 msgid "The leading white spaces are stripped and the remaining characters are completed to the left up to a specified total <literal>length</literal> with the character <literal>padding</literal>."
-msgstr ""
+msgstr "Τα αρχικά κενά διαστήματα αφαιρούνται και οι υπόλοιποι χαρακτήρες συμπληρώνονται προς τα αριστερά μέχρι ένα καθορισμένο συνολικό <literal>length</literal> (μήκος) με τον χαρακτήρα <literal>padding</literal> (συμπλήρωσης)."
 
 #. KxskT
 #: sf_string.xhp
@@ -22641,7 +22641,7 @@ msgctxt ""
 "par_id201580136154170\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be right-justified. If empty, the method returns an empty string."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που πρέπει να στοιχιστεί πλήρως δεξιά. Εάν είναι κενή, η μέθοδος επιστρέφει μια κενή συμβολοσειρά."
 
 #. FboQc
 #: sf_string.xhp
@@ -22650,7 +22650,7 @@ msgctxt ""
 "par_id71580136164632\n"
 "help.text"
 msgid "<emph>length</emph>: The length of the resulting string (default = the length of the input string)."
-msgstr ""
+msgstr "<emph>length</emph> (μήκος): Το μήκος της συμβολοσειράς που προκύπτει (προεπιλογή = το μήκος της συμβολοσειράς εισόδου)."
 
 #. dshKE
 #: sf_string.xhp
@@ -22659,7 +22659,7 @@ msgctxt ""
 "par_id191612381732163\n"
 "help.text"
 msgid "If the specified length is shorter than the right-justified input string, then the returned string is truncated."
-msgstr ""
+msgstr "Εάν το καθορισμένο μήκος είναι μικρότερο από τη συμβολοσειρά εισόδου με πλήρη στοίχιση δεξιά, τότε η συμβολοσειρά που επιστρέφεται περικόπτεται."
 
 #. LtcVG
 #: sf_string.xhp
@@ -22668,7 +22668,7 @@ msgctxt ""
 "par_id751580136200680\n"
 "help.text"
 msgid "<emph>padding</emph>: The single character to be used as padding (default = the Ascii space \" \")."
-msgstr ""
+msgstr "<emph>padding</emph> (συμπλήρωμα): Ο μεμονωμένος χαρακτήρας που θα χρησιμοποιηθεί ως συμπλήρωμα (προεπιλογή = ο χώρος Ascii \" \")."
 
 #. Wn55u
 #: sf_string.xhp
@@ -22677,7 +22677,7 @@ msgctxt ""
 "par_id251580136888958\n"
 "help.text"
 msgid "Returns the input string enclosed in single or double quotes. Existing quotes are left unchanged, including leading and/or trailing quotes."
-msgstr ""
+msgstr "Επιστρέφει τη συμβολοσειρά εισόδου που περικλείεται σε μονά ή διπλά εισαγωγικά. Τα υπάρχοντα εισαγωγικά παραμένουν αμετάβλητα, συμπεριλαμβανομένων των αρχικών και/ή των τελικών εισαγωγικών."
 
 #. YBvt4
 #: sf_string.xhp
@@ -22686,7 +22686,7 @@ msgctxt ""
 "par_id811580136944674\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to quote."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα μπει σε εισαγωγικά."
 
 #. GynWV
 #: sf_string.xhp
@@ -22695,7 +22695,7 @@ msgctxt ""
 "par_id581599129397412\n"
 "help.text"
 msgid "<emph>quotechar</emph>: Either the single (') or double (\") quote (default)."
-msgstr ""
+msgstr "<emph>quotechar</emph> (χαρακτήρας εισαγωγικού): Είτε το μονό (') είτε το διπλό (\") εισαγωγικό (προεπιλογή)."
 
 #. fY3PC
 #: sf_string.xhp
@@ -22704,7 +22704,7 @@ msgctxt ""
 "par_id911612382537087\n"
 "help.text"
 msgid "This method can be useful while preparing a string field to be stored in a csv-like file, which requires that text values be enclosed with single or double quotes."
-msgstr ""
+msgstr "Αυτή η μέθοδος μπορεί να είναι χρήσιμη κατά την προετοιμασία ενός πεδίου συμβολοσειράς που θα αποθηκευτεί σε ένα αρχείο που μοιάζει με csv, το οποίο απαιτεί οι τιμές κειμένου να περικλείονται με μονά ή διπλά εισαγωγικά."
 
 #. 8Rr4M
 #: sf_string.xhp
@@ -22713,7 +22713,7 @@ msgctxt ""
 "par_id951580139124650\n"
 "help.text"
 msgid "Replaces all occurrences of the characters specified in the <literal>Before</literal> parameter by the corresponding characters specified in <literal>After</literal>."
-msgstr ""
+msgstr "Αντικαθιστά όλες τις εμφανίσεις των χαρακτήρων που καθορίζονται στην παράμετρο <literal>Before</literal> (Πριν) με τους αντίστοιχους χαρακτήρες που καθορίζονται στο <literal>After</literal> (Μετά)."
 
 #. 5hn2y
 #: sf_string.xhp
@@ -22722,7 +22722,7 @@ msgctxt ""
 "par_id1001612384040018\n"
 "help.text"
 msgid "If the length of <literal>Before</literal> is greater than the length of <literal>After</literal>, the residual characters in <literal>Before</literal> are replaced by the last character in <literal>After</literal>."
-msgstr ""
+msgstr "Εάν το μήκος του <literal>Before</literal> είναι μεγαλύτερο από το μήκος του <literal>After</literal>, οι υπόλοιποι χαρακτήρες στο <literal>Before</literal> αντικαθίστανται από τον τελευταίο χαρακτήρα στο <literal>After </literal>."
 
 #. DD2CL
 #: sf_string.xhp
@@ -22731,7 +22731,7 @@ msgctxt ""
 "par_id11580139160633\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The input string on which replacements will occur."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά εισόδου στην οποία θα πραγματοποιηθούν αντικαταστάσεις."
 
 #. DvaRE
 #: sf_string.xhp
@@ -22740,7 +22740,7 @@ msgctxt ""
 "par_id111580139169795\n"
 "help.text"
 msgid "<emph>before</emph>: A string with the characters that will be searched in the input string for replacement."
-msgstr ""
+msgstr "<emph>πριν</emph>: Μια συμβολοσειρά με τους χαρακτήρες που θα αναζητηθούν στη συμβολοσειρά εισόδου για αντικατάσταση."
 
 #. N46b3
 #: sf_string.xhp
@@ -22749,7 +22749,7 @@ msgctxt ""
 "par_id851580139182113\n"
 "help.text"
 msgid "<emph>after</emph>: A string with the new characters that will replace those defined in <literal>before</literal>."
-msgstr ""
+msgstr "<emph>after</emph>: Μια συμβολοσειρά με τους νέους χαρακτήρες που θα αντικαταστήσουν αυτούς που ορίζονται στο <literal>before</literal>."
 
 #. CDuCC
 #: sf_string.xhp
@@ -22758,7 +22758,7 @@ msgctxt ""
 "bas_id921580139218457\n"
 "help.text"
 msgid "' Replaces accented characters"
-msgstr ""
+msgstr "' Αντικαθιστά τους τονισμένους χαρακτήρες"
 
 #. 5ww5A
 #: sf_string.xhp
@@ -22767,7 +22767,7 @@ msgctxt ""
 "par_id151612442904499\n"
 "help.text"
 msgid "The <literal>SF_String</literal> service provides useful public constants for the Latin character sets, as shown in the example below:"
-msgstr ""
+msgstr "Η υπηρεσία <literal>SF_String</literal> παρέχει χρήσιμες δημόσιες σταθερές για τα σύνολα λατινικών χαρακτήρων, όπως φαίνεται στο παρακάτω παράδειγμα:"
 
 #. 9SPjv
 #: sf_string.xhp
@@ -22776,7 +22776,7 @@ msgctxt ""
 "par_id671580140272818\n"
 "help.text"
 msgid "Replaces all occurrences of a given regular expression by a new string."
-msgstr ""
+msgstr "Αντικαθιστά όλες τις εμφανίσεις μιας δεδομένης κανονικής έκφρασης με μια νέα συμβολοσειρά."
 
 #. ujCyu
 #: sf_string.xhp
@@ -22785,7 +22785,7 @@ msgctxt ""
 "par_id471580140311626\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The input string on which replacements will occur."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά εισόδου στην οποία θα πραγματοποιηθούν αντικαταστάσεις."
 
 #. o2DS2
 #: sf_string.xhp
@@ -22794,7 +22794,7 @@ msgctxt ""
 "par_id651580140322666\n"
 "help.text"
 msgid "<emph>regex</emph>: The regular expression."
-msgstr ""
+msgstr "<emph>regex</emph>: Η κανονική έκφραση."
 
 #. itEEd
 #: sf_string.xhp
@@ -22803,7 +22803,7 @@ msgctxt ""
 "par_id891580140334754\n"
 "help.text"
 msgid "<emph>newstr</emph>: The replacing string."
-msgstr ""
+msgstr "<emph>newstr</emph>: Η συμβολοσειρά που αντικαθιστά την προηγούμενη."
 
 #. gJRAr
 #: sf_string.xhp
@@ -22812,7 +22812,7 @@ msgctxt ""
 "par_id581580140345221\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: The search can be case sensitive or not (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph> (διάκριση πεζών-κεφαλαίων): Η αναζήτηση μπορεί να κάνει διάκριση πεζών-κεφαλαίων ή όχι (Προεπιλογή = <literal>False</literal>)."
 
 #. ykPVR
 #: sf_string.xhp
@@ -22821,7 +22821,7 @@ msgctxt ""
 "bas_id961612384647003\n"
 "help.text"
 msgid "' \"Lxxxx xxxxx xxxxx xxx xxxx, xxxxxxxxxxx xxxxxxxxxx xxxx.\" (each lowercase letter is replaced by \"x\")"
-msgstr ""
+msgstr "' \"Lxxxx xxxxx xxxxx xxx xxxx, xxxxxxxxxxxxxxxxxxxxx xxxx.\" (κάθε πεζό γράμμα αντικαθίσταται από \"x\")"
 
 #. rkMsv
 #: sf_string.xhp
@@ -22830,7 +22830,7 @@ msgctxt ""
 "bas_id751612384623936\n"
 "help.text"
 msgid "' \"x x x x x, x x x.\" (each word is replaced by \"x\")"
-msgstr ""
+msgstr "' \"x x x x x, x x x.\" (κάθε λέξη αντικαθίσταται από \"x\")"
 
 #. 2Gd5C
 #: sf_string.xhp
@@ -22839,7 +22839,7 @@ msgctxt ""
 "par_id51580146471894\n"
 "help.text"
 msgid "Replaces in a string some or all occurrences of an array of strings by an array of new strings."
-msgstr ""
+msgstr "Αντικαθιστά σε μια συμβολοσειρά μερικές ή όλες τις εμφανίσεις μιας σειράς συμβολοσειρών με μια σειρά νέων συμβολοσειρών."
 
 #. SDpot
 #: sf_string.xhp
@@ -22848,7 +22848,7 @@ msgctxt ""
 "par_id831580146504326\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The input string on which replacements will occur."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά εισόδου στην οποία θα πραγματοποιηθούν αντικαταστάσεις."
 
 #. UfuEm
 #: sf_string.xhp
@@ -22857,7 +22857,7 @@ msgctxt ""
 "par_id411580146514927\n"
 "help.text"
 msgid "<emph>oldstr</emph>: A single string or an array of strings. Zero-length strings are ignored."
-msgstr ""
+msgstr "<emph>oldstr</emph>: Μια μεμονωμένη συμβολοσειρά ή ένας πίνακας από συμβολοσειρές. Οι συμβολοσειρές μηδενικού μήκους αγνοούνται."
 
 #. Ukr3F
 #: sf_string.xhp
@@ -22866,7 +22866,7 @@ msgctxt ""
 "par_id591580146532966\n"
 "help.text"
 msgid "<emph>newstr</emph>: The replacing string or the array of replacing strings."
-msgstr ""
+msgstr "<emph>newstr</emph>: Η συμβολοσειρά αντικατάστασης ή ο πίνακας συμβολοσειρών αντικατάστασης."
 
 #. 7BQ7F
 #: sf_string.xhp
@@ -22875,7 +22875,7 @@ msgctxt ""
 "par_id611612384873347\n"
 "help.text"
 msgid "If <literal>oldstr</literal> is an array, each occurrence of any of the items in <literal>oldstr</literal> is replaced by <literal>newstr</literal>."
-msgstr ""
+msgstr "Εάν το <literal>oldstr</literal> είναι ένας πίνακας, κάθε εμφάνιση οποιουδήποτε από τα στοιχεία στο <literal>oldstr</literal> αντικαθίσταται από <literal>newstr</literal>."
 
 #. AfRz6
 #: sf_string.xhp
@@ -22884,7 +22884,7 @@ msgctxt ""
 "par_id611612384880820\n"
 "help.text"
 msgid "If <literal>oldstr</literal> and <literal>newstr</literal> are arrays, replacements occur one by one up to the <literal>UBound(newstr)</literal>."
-msgstr ""
+msgstr "Εάν οι <literal>oldstr</literal> και <literal>newstr</literal> είναι πίνακες, οι αντικαταστάσεις πραγματοποιούνται μία προς μία μέχρι το <literal>UBound(newstr)</literal>."
 
 #. E39aH
 #: sf_string.xhp
@@ -22893,7 +22893,7 @@ msgctxt ""
 "par_id241612385058264\n"
 "help.text"
 msgid "If <literal>oldstr</literal> has more entries than <literal>newstr</literal>, then the residual elements in <literal>oldstr</literal> are replaced by the last element in <literal>newstr</literal>."
-msgstr ""
+msgstr "Εάν το <literal>oldstr</literal> έχει περισσότερες καταχωρήσεις από το <literal>newstr</literal>, τότε τα υπολειπόμενα στοιχεία στο <literal>oldstr</literal> αντικαθίστανται από το τελευταίο στοιχείο στο <literal>newstr</literal> ."
 
 #. MkqW5
 #: sf_string.xhp
@@ -22902,7 +22902,7 @@ msgctxt ""
 "par_id701580146547619\n"
 "help.text"
 msgid "<emph>occurrences</emph>: The maximum number of replacements. The default value is 0, meaning that all occurrences will be replaced."
-msgstr ""
+msgstr "<emph>occurrences</emph> (εμφανίσεις): Ο μέγιστος αριθμός αντικαταστάσεων. Η προεπιλεγμένη τιμή είναι 0, που σημαίνει ότι όλες οι εμφανίσεις θα αντικατασταθούν."
 
 #. QX33p
 #: sf_string.xhp
@@ -22911,7 +22911,7 @@ msgctxt ""
 "par_id741612385380533\n"
 "help.text"
 msgid "When <literal>oldstr</literal> is an array, the <literal>occurrence</literal> parameter is computed separately for each item in the array."
-msgstr ""
+msgstr "Όταν το <literal>oldstr</literal> είναι ένας πίνακας, η παράμετρος <literal>occurrence</literal> (εμφάνιση) υπολογίζεται ξεχωριστά για κάθε στοιχείο του πίνακα."
 
 #. aWrvA
 #: sf_string.xhp
@@ -22920,7 +22920,7 @@ msgctxt ""
 "par_id301580146556599\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: The search can be case sensitive or not (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph> (διάκριση πεζών-κεφαλαίων): Η αναζήτηση μπορεί να κάνει διάκριση πεζών-κεφαλαίων ή όχι (Προεπιλογή = <literal>False</literal>)."
 
 #. eygyi
 #: sf_string.xhp
@@ -22929,7 +22929,7 @@ msgctxt ""
 "par_id901580147558931\n"
 "help.text"
 msgid "Returns a string with a readable representation of the argument, truncated at a given length. This is useful mainly for debugging or logging purposes."
-msgstr ""
+msgstr "Επιστρέφει μια συμβολοσειρά με μια αναγνώσιμη αναπαράσταση του ορίσματος, περικομμένη σε δεδομένο μήκος. Αυτό είναι χρήσιμο κυρίως για σκοπούς αποσφαλμάτωσης ή καταγραφής."
 
 #. cU3Ev
 #: sf_string.xhp
@@ -22938,7 +22938,7 @@ msgctxt ""
 "par_id11612386054691\n"
 "help.text"
 msgid "If the <literal>anyvalue</literal> parameter is an object, it will be enclosed with square brackets \"[\" and \"]\"."
-msgstr ""
+msgstr "Εάν η παράμετρος <literal>anyvalue</literal> είναι αντικείμενο, θα περικλείεται με αγκύλες \"[\" και \"]\"."
 
 #. gVB32
 #: sf_string.xhp
@@ -22948,6 +22948,8 @@ msgctxt ""
 "help.text"
 msgid "In strings, tabs and line breaks are replaced by \\t, \\n or \\r."
 msgstr ""
+"Στις συμβολοσειρές, οι στηλοθέτες και οι αλλαγές γραμμής αντικαθίστανται από \\t, \\n"
+" ή \\r."
 
 #. SfUGD
 #: sf_string.xhp
@@ -22956,7 +22958,7 @@ msgctxt ""
 "par_id921612386089103\n"
 "help.text"
 msgid "If the final length exceeds the <literal>maxlength</literal> parameter, the latter part of the string is replaced by \" ... (N)\" where N is the total length of the original string before truncation."
-msgstr ""
+msgstr "Εάν το τελικό μήκος υπερβαίνει την παράμετρο <literal>maxlength</literal>, το τελευταίο μέρος της συμβολοσειράς αντικαθίσταται από το \"... (N)\" όπου N είναι το συνολικό μήκος της αρχικής συμβολοσειράς πριν από την περικοπή."
 
 #. zLfNR
 #: sf_string.xhp
@@ -22965,7 +22967,7 @@ msgctxt ""
 "par_id91580147593626\n"
 "help.text"
 msgid "<emph>anyvalue</emph>: The input value to be represented. It can be any value, such as a string, an array, a Basic object, a UNO object, etc."
-msgstr ""
+msgstr "<emph>anyvalue</emph> (οποιαδήποτε τιμή): Η τιμή εισόδου που θα αναπαρασταθεί. Μπορεί να είναι οποιαδήποτε τιμή, όπως συμβολοσειρά, πίνακας, αντικείμενο Basic, αντικείμενο UNO κ.λπ."
 
 #. hdDFi
 #: sf_string.xhp
@@ -22974,7 +22976,7 @@ msgctxt ""
 "par_id811580147609322\n"
 "help.text"
 msgid "<emph>maxlength</emph>: The maximum length of the resulting string. The default value is 0, meaning there is no limit to the length of the resulting representation."
-msgstr ""
+msgstr "<emph>maxlength</emph>: Το μέγιστο μήκος της συμβολοσειράς που προκύπτει. Η προεπιλεγμένη τιμή είναι 0, που σημαίνει ότι δεν υπάρχει όριο στο μήκος της αναπαράστασης που προκύπτει."
 
 #. Ape7i
 #: sf_string.xhp
@@ -22983,7 +22985,7 @@ msgctxt ""
 "par_id641612386659292\n"
 "help.text"
 msgid "Note that the representation of data types such as Arrays and <literal>ScriptForge.Dictionary</literal> object instances include both the data type and their values:"
-msgstr ""
+msgstr "Σημειώστε ότι η αναπαράσταση τύπων δεδομένων όπως πίνακες και παρουσίες αντικειμένων <literal>ScriptForge.Dictionary</literal> περιλαμβάνει τόσο τον τύπο δεδομένων όσο και τις τιμές τους:"
 
 #. ZFFAD
 #: sf_string.xhp
@@ -22992,7 +22994,7 @@ msgctxt ""
 "bas_id971612386906463\n"
 "help.text"
 msgid "' An example with a Basic built-in Array"
-msgstr ""
+msgstr "' Ένα παράδειγμα με έναν ενσωματωμένο πίνακα Basic"
 
 #. GEZzM
 #: sf_string.xhp
@@ -23001,7 +23003,7 @@ msgctxt ""
 "bas_id401612386876329\n"
 "help.text"
 msgid "' An example with a ScriptForge Array"
-msgstr ""
+msgstr "' Ένα παράδειγμα με έναν πίνακα ScriptForge"
 
 #. mZ3ar
 #: sf_string.xhp
@@ -23010,7 +23012,7 @@ msgctxt ""
 "bas_id551612386931680\n"
 "help.text"
 msgid "' An example with a ScriptForge Dictionary"
-msgstr ""
+msgstr "' Ένα παράδειγμα με ένα λεξικό ScriptForge"
 
 #. vvADG
 #: sf_string.xhp
@@ -23019,7 +23021,7 @@ msgctxt ""
 "par_id411580312925741\n"
 "help.text"
 msgid "Returns the input string in reversed order."
-msgstr ""
+msgstr "Επιστρέφει τη συμβολοσειρά εισόδου με αντίστροφη σειρά."
 
 #. EEyG6
 #: sf_string.xhp
@@ -23028,7 +23030,7 @@ msgctxt ""
 "par_id141612387177873\n"
 "help.text"
 msgid "This method is equivalent to the built-in <link href=\"text/sbasic/shared/03120412.xhp\" name=\"StrReverse function\"><literal>StrReverse</literal> Basic function</link>."
-msgstr ""
+msgstr "Αυτή η μέθοδος είναι ισοδύναμη με την ενσωματωμένη <link href=\"text/sbasic/shared/03120412.xhp\" name=\"StrReverse function\">συνάρτηση Basic <literal>StrReverse</literal></link>."
 
 #. ZEarP
 #: sf_string.xhp
@@ -23037,7 +23039,7 @@ msgctxt ""
 "par_id961612387463144\n"
 "help.text"
 msgid "To use the <literal>StrReverse</literal> function, the statement <literal>Option VBASupport 1</literal> must be present in the module."
-msgstr ""
+msgstr "Για να χρησιμοποιήσετε τη συνάρτηση <literal>StrReverse</literal>, η δήλωση <literal>Option VBASupport 1</literal> πρέπει να υπάρχει στη λειτουργική μονάδα."
 
 #. pSyL6
 #: sf_string.xhp
@@ -23046,7 +23048,7 @@ msgctxt ""
 "par_id241580312964497\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be reversed."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που πρέπει να αντιστραφεί."
 
 #. KBFDk
 #: sf_string.xhp
@@ -23055,7 +23057,7 @@ msgctxt ""
 "par_id721580210762286\n"
 "help.text"
 msgid "Returns a zero-based array of strings with the lines in the input string. Each item in the array is obtained by splitting the input string at newline characters."
-msgstr ""
+msgstr "Επιστρέφει έναν πίνακα συμβολοσειρών με βάση το μηδέν με τις γραμμές στη συμβολοσειρά εισόδου. Κάθε στοιχείο στον πίνακα λαμβάνεται με διαχωρισμό της συμβολοσειράς εισόδου σε χαρακτήρες νέας γραμμής."
 
 #. nuUF6
 #: sf_string.xhp
@@ -23064,7 +23066,7 @@ msgctxt ""
 "par_id481580210806878\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be split."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα χωριστεί."
 
 #. FEFUw
 #: sf_string.xhp
@@ -23073,7 +23075,7 @@ msgctxt ""
 "par_id231580210820309\n"
 "help.text"
 msgid "<emph>keepbreaks</emph>: When <literal>True</literal>, line breaks are preserved in the output array (default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>keepbreaks</emph>: Όταν είναι <literal>True</literal>, οι αλλαγές γραμμής διατηρούνται στον πίνακα εξόδου (προεπιλογή = <literal>False</literal>)."
 
 #. HAG8Q
 #: sf_string.xhp
@@ -23082,7 +23084,7 @@ msgctxt ""
 "par_id471580211762739\n"
 "help.text"
 msgid "Splits a string into an array of elements using a specified delimiter."
-msgstr ""
+msgstr "Διαχωρίζει μια συμβολοσειρά σε έναν πίνακα στοιχείων χρησιμοποιώντας έναν καθορισμένο οριοθέτη."
 
 #. zsADB
 #: sf_string.xhp
@@ -23091,7 +23093,7 @@ msgctxt ""
 "par_id281612388034501\n"
 "help.text"
 msgid "If a quoted substring contains a delimiter, it is ignored. This is useful when parsing CSV-like records that contain quoted strings."
-msgstr ""
+msgstr "Εάν μια υποσυμβολοσειρά με εισαγωγικά περιέχει έναν οριοθέτη, αγνοείται. Αυτό είναι χρήσιμο κατά την ανάλυση εγγραφών τύπου CSV που περιέχουν συμβολοσειρές σε εισαγωγικά."
 
 #. JKAaG
 #: sf_string.xhp
@@ -23100,7 +23102,7 @@ msgctxt ""
 "par_id881580211809490\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be split."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα χωριστεί."
 
 #. zFjwe
 #: sf_string.xhp
@@ -23109,7 +23111,7 @@ msgctxt ""
 "par_id811580211821162\n"
 "help.text"
 msgid "<emph>delimiter</emph>: A string of one or more characters that will be used as delimiter. The default delimiter is the Ascii space \" \" character."
-msgstr ""
+msgstr "<emph>delimiter</emph> (οριοθέτης): Μια συμβολοσειρά ενός ή περισσότερων χαρακτήρων που θα χρησιμοποιηθεί ως οριοθέτης. Ο προεπιλεγμένος οριοθέτης είναι ο χαρακτήρας διαστήματος Ascii \" \"."
 
 #. 3rGRu
 #: sf_string.xhp
@@ -23118,7 +23120,7 @@ msgctxt ""
 "par_id181580211833778\n"
 "help.text"
 msgid "<emph>occurrences</emph>: The maximum number of substrings to return. The default value is 0, meaning that there is no limit to the number of returned strings."
-msgstr ""
+msgstr "<emph>occurrences</emph> (εμφανίσεις): Ο μέγιστος αριθμός υποσυμβολοσειρών προς επιστροφή. Η προεπιλεγμένη τιμή είναι 0, που σημαίνει ότι δεν υπάρχει όριο στον αριθμό των επιστρεφόμενων συμβολοσειρών."
 
 #. W2og7
 #: sf_string.xhp
@@ -23127,7 +23129,7 @@ msgctxt ""
 "par_id421599123777334\n"
 "help.text"
 msgid "<emph>quotechar</emph>: Either the single (') or double (\") quote."
-msgstr ""
+msgstr "<emph>quotechar</emph>: Είτε το μονό (') είτε το διπλό (\") εισαγωγικό."
 
 #. DiYMJ
 #: sf_string.xhp
@@ -23136,7 +23138,7 @@ msgctxt ""
 "par_id661627251379676\n"
 "help.text"
 msgid "Beware of the differences between Basic and Python when representing strings. For example, in Basic two \"\" characters inside a string are interpreted as a single \" character. In Python, strings enclosed with single quotes can contain \" characters without having to double them."
-msgstr ""
+msgstr "Προσοχή στις διαφορές μεταξύ Basic και Python κατά την αναπαράσταση συμβολοσειρών. Για παράδειγμα, στη Basic δύο χαρακτήρες \"\" μέσα σε μια συμβολοσειρά ερμηνεύονται ως ένας χαρακτήρας \". Στην Python, οι συμβολοσειρές που περικλείονται με μονά εισαγωγικά μπορούν να περιέχουν \" χαρακτήρες χωρίς να χρειάζεται να τους διπλασιάσουν."
 
 #. 6Q2tJ
 #: sf_string.xhp
@@ -23145,7 +23147,7 @@ msgctxt ""
 "par_id771580212837884\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the first characters of a string are identical to a given substring."
-msgstr ""
+msgstr "Επιστρέφει <literal>True</literal> εάν οι πρώτοι χαρακτήρες μιας συμβολοσειράς είναι ταυτόσημοι με μια δεδομένη υποσυμβολοσειρά."
 
 #. BYx4G
 #: sf_string.xhp
@@ -23154,7 +23156,7 @@ msgctxt ""
 "par_id781612393174350\n"
 "help.text"
 msgid "This method returns <literal>False</literal> if either the input string or the substring have a length = 0 or when the substring is longer than the input string."
-msgstr ""
+msgstr "Αυτή η μέθοδος επιστρέφει <literal>False</literal> εάν είτε η συμβολοσειρά εισόδου, είτε η υποσυμβολοσειρά έχουν μήκος = 0, ή όταν η υποσυμβολοσειρά είναι μεγαλύτερη από τη συμβολοσειρά εισόδου."
 
 #. jrzxu
 #: sf_string.xhp
@@ -23163,7 +23165,7 @@ msgctxt ""
 "par_id271580212876135\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be tested."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα δοκιμαστεί."
 
 #. tE9WD
 #: sf_string.xhp
@@ -23172,7 +23174,7 @@ msgctxt ""
 "par_id571580212889462\n"
 "help.text"
 msgid "<emph>substring</emph>: The substring to be searched at the start of <literal>inputstr</literal>."
-msgstr ""
+msgstr "<emph>substring</emph>: Η υποσυμβολοσειρά προς αναζήτηση στην αρχή του <literal>inputstr</literal>."
 
 #. ZeQP4
 #: sf_string.xhp
@@ -23181,7 +23183,7 @@ msgctxt ""
 "par_id811580212900799\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: The search can be case sensitive or not (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph> (διάκριση πεζών-κεφαλαίων): Η αναζήτηση μπορεί να κάνει διάκριση πεζών-κεφαλαίων ή όχι (Προεπιλογή = <literal>False</literal>)."
 
 #. DGgBx
 #: sf_string.xhp
@@ -23190,7 +23192,7 @@ msgctxt ""
 "par_id911580295999690\n"
 "help.text"
 msgid "Returns the input string without its leading and trailing whitespaces."
-msgstr ""
+msgstr "Επιστρέφει τη συμβολοσειρά εισόδου χωρίς τα αρχικά και τα τελικά κενά διαστήματά της."
 
 #. BESEu
 #: sf_string.xhp
@@ -23199,7 +23201,7 @@ msgctxt ""
 "par_id541580296044377\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to trim."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά για περικοπή."
 
 #. 9t9vX
 #: sf_string.xhp
@@ -23209,6 +23211,8 @@ msgctxt ""
 "help.text"
 msgid "Converts any escaped sequence (\\\\, \\n, \\r, \\t) in the input string to their corresponding Ascii character."
 msgstr ""
+"Μετατρέπει οποιαδήποτε ακολουθία διαφυγής (\\\\, \\n"
+", \\r, \\t) στη συμβολοσειρά εισόδου στον αντίστοιχο χαρακτήρα Ascii."
 
 #. mzTsG
 #: sf_string.xhp
@@ -23217,7 +23221,7 @@ msgctxt ""
 "par_id971580483124743\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be converted."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά που θα μετατραπεί."
 
 #. BoYHV
 #: sf_string.xhp
@@ -23226,7 +23230,7 @@ msgctxt ""
 "par_id831580213634029\n"
 "help.text"
 msgid "Removes the single or double quotes enclosing the input string."
-msgstr ""
+msgstr "Καταργεί τα μονά ή διπλά εισαγωγικά που περικλείουν τη συμβολοσειρά εισόδου."
 
 #. Ae8c5
 #: sf_string.xhp
@@ -23235,7 +23239,7 @@ msgctxt ""
 "par_id811612393585600\n"
 "help.text"
 msgid "This is useful when parsing CSV-like records that contain quoted strings."
-msgstr ""
+msgstr "Αυτό είναι χρήσιμο κατά την ανάλυση εγγραφών τύπου CSV που περιέχουν συμβολοσειρές σε εισαγωγικά."
 
 #. BhVvp
 #: sf_string.xhp
@@ -23244,7 +23248,7 @@ msgctxt ""
 "par_id761580213677493\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to unquote."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά στην οποία θα αφαιρεθούν τα εισαγωγικά."
 
 #. gRUHA
 #: sf_string.xhp
@@ -23253,7 +23257,7 @@ msgctxt ""
 "par_id211599129509890\n"
 "help.text"
 msgid "<emph>quotechar</emph>: Either the single (') or double (\") quote (default)."
-msgstr ""
+msgstr "<emph>quotechar</emph> (χαρακτήρας εισαγωγικού): Είτε το μονό (') είτε το διπλό (\") εισαγωγικό (προεπιλογή)."
 
 #. nGq4Q
 #: sf_string.xhp
@@ -23262,7 +23266,7 @@ msgctxt ""
 "bas_id371580213702598\n"
 "help.text"
 msgid "' s = \"Some text\" (without enclosing quotes)"
-msgstr ""
+msgstr "' s = \"Κάποιο κείμενο\" (χωρίς εισαγωγικά)"
 
 #. Fp8ip
 #: sf_string.xhp
@@ -23271,7 +23275,7 @@ msgctxt ""
 "bas_id51580213693694\n"
 "help.text"
 msgid "' The string below does not have enclosing quotes, so it remains unchanged"
-msgstr ""
+msgstr "' Η παρακάτω συμβολοσειρά δεν περιέχει εισαγωγικά, επομένως παραμένει αμετάβλητη"
 
 #. A4Eki
 #: sf_string.xhp
@@ -23280,7 +23284,7 @@ msgctxt ""
 "bas_id961612393917830\n"
 "help.text"
 msgid "' s = \"Some text\" (unchanged)"
-msgstr ""
+msgstr "' s = \"Κάποιο κείμενο\" (αμετάβλητο)"
 
 #. ULtxx
 #: sf_string.xhp
@@ -23289,7 +23293,7 @@ msgctxt ""
 "bas_id461612394182689\n"
 "help.text"
 msgid "' Quotes inside the string are not removed"
-msgstr ""
+msgstr "' Τα εισαγωγικά μέσα στη συμβολοσειρά δεν αφαιρούνται"
 
 #. 8w4ia
 #: sf_string.xhp
@@ -23298,7 +23302,7 @@ msgctxt ""
 "bas_id961612394171208\n"
 "help.text"
 msgid "' s = \"The \"\"true\"\" meaning\" (unchanged)"
-msgstr ""
+msgstr "' s = \"Η έννοια \"\"αληθινή\"\" (αμετάβλητη)"
 
 #. JGhWK
 #: sf_string.xhp
@@ -23307,7 +23311,7 @@ msgctxt ""
 "par_id871585834468102\n"
 "help.text"
 msgid "Converts the input string into an array of substrings so that each item in the array has at most a given number of characters."
-msgstr ""
+msgstr "Μετατρέπει τη συμβολοσειρά εισόδου σε έναν πίνακα υποσυμβολοσειρών, έτσι ώστε κάθε στοιχείο του πίνακα να έχει το πολύ έναν δεδομένο αριθμό χαρακτήρων."
 
 #. 4G9FU
 #: sf_string.xhp
@@ -23316,7 +23320,7 @@ msgctxt ""
 "par_id21612394465120\n"
 "help.text"
 msgid "In practice, this method returns a zero-based array of output lines, without newlines at the end, except for the pre-existing line-breaks."
-msgstr ""
+msgstr "Στην πράξη, αυτή η μέθοδος επιστρέφει έναν πίνακα με βάση το μηδέν γραμμών εξόδου, χωρίς νέες γραμμές στο τέλος, εκτός από τις προϋπάρχουσες αλλαγές γραμμής."
 
 #. qgd6X
 #: sf_string.xhp
@@ -23325,7 +23329,7 @@ msgctxt ""
 "par_id601612395193333\n"
 "help.text"
 msgid "Tabs are expanded using the same procedure performed by the <link href=\"text/sbasic/shared/03/sf_string.xhp#ExpandTabs\" name=\"ExpandTabs method\">ExpandTabs</link> method."
-msgstr ""
+msgstr "Οι στηλοθέτες επεκτείνονται χρησιμοποιώντας την ίδια διαδικασία που εκτελείται με τη μέθοδο <link href=\"text/sbasic/shared/03/sf_string.xhp#ExpandTabs\" name=\"ExpandTabs method\">ExpandTabs</link>."
 
 #. kTwEG
 #: sf_string.xhp
@@ -23334,7 +23338,7 @@ msgctxt ""
 "par_id641612394826616\n"
 "help.text"
 msgid "Symbolic line breaks are replaced by their equivalent Ascii characters."
-msgstr ""
+msgstr "Οι συμβολικές αλλαγές γραμμής αντικαθίστανται από τους ισοδύναμους χαρακτήρες Ascii."
 
 #. y7VvP
 #: sf_string.xhp
@@ -23343,7 +23347,7 @@ msgctxt ""
 "par_id361612394859733\n"
 "help.text"
 msgid "If the wrapped output has no content, the returned array is empty."
-msgstr ""
+msgstr "Εάν η αναδιπλωμένη έξοδος δεν έχει περιεχόμενο, ο πίνακας που επιστρέφεται είναι κενός."
 
 #. SNRzH
 #: sf_string.xhp
@@ -23352,7 +23356,7 @@ msgctxt ""
 "par_id251585834468498\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to wrap."
-msgstr ""
+msgstr "<emph>inputstr</emph>: Η συμβολοσειρά προς αναδίπλωση."
 
 #. MiptC
 #: sf_string.xhp
@@ -23361,7 +23365,7 @@ msgctxt ""
 "par_id351585834773177\n"
 "help.text"
 msgid "<emph>width</emph>: The maximum number of characters in each line (Default = 70)."
-msgstr ""
+msgstr "<emph>width</emph> (πλάτος): Ο μέγιστος αριθμός χαρακτήρων σε κάθε γραμμή (Προεπιλογή = 70)."
 
 #. epG6z
 #: sf_string.xhp
@@ -23370,7 +23374,7 @@ msgctxt ""
 "par_id741585834874500\n"
 "help.text"
 msgid "<emph>tabsize</emph>: Before wrapping the text, the existing TAB <literal>Chr(9)</literal> characters are replaced with spaces. The argument <literal>tabsize</literal> defines the TAB stops at TabSize + 1, 2 * TabSize + 1 , ... N * TabSize + 1 (Default = 8)."
-msgstr ""
+msgstr "<emph>tabsize</emph>: Πριν από την αναδίπλωση του κειμένου, οι υπάρχοντες χαρακτήρες TAB <literal>Chr(9)</literal> αντικαθίστανται με κενά διαστήματα. Το όρισμα <literal>tabsize</literal> ορίζει τις στάσεις TAB στο TabSize + 1, 2 * TabSize + 1 , ... N * TabSize + 1 (Προεπιλογή = 8)."
 
 #. HjZDB
 #: sf_textstream.xhp
@@ -23379,7 +23383,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.TextStream service"
-msgstr ""
+msgstr "Υπηρεσία ScriptForge.TextStream"
 
 #. cEA5U
 #: sf_textstream.xhp
@@ -23388,7 +23392,7 @@ msgctxt ""
 "bm_id351585330787295\n"
 "help.text"
 msgid "<variable id=\"TextStreamService\"><link href=\"text/sbasic/shared/03/sf_textstream.xhp\" name=\"TextStream service\"><literal>ScriptForge</literal>.<literal>TextStream</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"TextStreamService\"><link href=\"text/sbasic/shared/03/sf_textstream.xhp\" name=\"TextStream service\">Υπηρεσία <literal>ScriptForge</literal>.<literal>TextStream</literal></link></variable>"
 
 #. nBJsE
 #: sf_textstream.xhp
@@ -23397,7 +23401,7 @@ msgctxt ""
 "par_id511585330787205\n"
 "help.text"
 msgid "The <literal>TextStream</literal> service is used to sequentially read from and write to files opened or created using the <literal>ScriptForge.FileSystem</literal> service."
-msgstr ""
+msgstr "Η υπηρεσία <literal>TextStream</literal> χρησιμοποιείται για τη διαδοχική ανάγνωση και εγγραφή σε αρχεία που ανοίγονται ή δημιουργούνται χρησιμοποιώντας την υπηρεσία <literal>ScriptForge.FileSystem</literal>."
 
 #. TeRTa
 #: sf_textstream.xhp
@@ -23406,7 +23410,7 @@ msgctxt ""
 "par_id41613596903894\n"
 "help.text"
 msgid "The methods <literal>OpenTextFile</literal> and <literal>CreateTextFile</literal> from the <literal>FileSystem</literal> service return an instance of the <literal>TextStream</literal> service."
-msgstr ""
+msgstr "Οι μέθοδοι <literal>OpenTextFile</literal> και <literal>CreateTextFile</literal> από την υπηρεσία <literal>FileSystem</literal> επιστρέφουν μια παρουσία της υπηρεσίας <literal>TextStream</literal>."
 
 #. MVFWC
 #: sf_textstream.xhp
@@ -23415,7 +23419,7 @@ msgctxt ""
 "par_id161585330787262\n"
 "help.text"
 msgid "Line delimiters may be specified by the user. In input operations CR, LF or CR+LF are supported. In output operations, the default line delimiter is the one used by the operating system."
-msgstr ""
+msgstr "Οι οριοθέτες γραμμής μπορούν να καθοριστούν από τον χρήστη. Στις λειτουργίες εισόδου υποστηρίζονται τα CR, LF ή CR+LF. Στις λειτουργίες εξόδου, το προεπιλεγμένο διαχωριστικό γραμμής είναι αυτό που χρησιμοποιείται από το λειτουργικό σύστημα."
 
 #. GDkir
 #: sf_textstream.xhp
@@ -23424,7 +23428,7 @@ msgctxt ""
 "par_id831613598137669\n"
 "help.text"
 msgid "The line delimiter for the operating system where the macro is being executed can be accessed using the <literal>SF_String.sfNEWLINE</literal> property."
-msgstr ""
+msgstr "Ο οριοθέτης γραμμής για το λειτουργικό σύστημα όπου εκτελείται η μακροεντολή μπορεί να προσπελαστεί χρησιμοποιώντας την ιδιότητα <literal>SF_String.sfNEWLINE</literal>."
 
 #. SvXzF
 #: sf_textstream.xhp
@@ -23433,7 +23437,7 @@ msgctxt ""
 "par_id851613597445432\n"
 "help.text"
 msgid "All operations needed to read from or write to a file (open, read/write and close) are presumed to happen during the same macro run."
-msgstr ""
+msgstr "Όλες οι λειτουργίες που απαιτούνται για την ανάγνωση ή την εγγραφή σε ένα αρχείο (άνοιγμα, ανάγνωση/εγγραφή και κλείσιμο) θεωρείται ότι πραγματοποιούνται κατά την ίδια εκτέλεση μακροεντολής."
 
 #. dc5KN
 #: sf_textstream.xhp
@@ -23442,7 +23446,7 @@ msgctxt ""
 "hd_id83158533078741\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Κλήση υπηρεσίας"
 
 #. AuQX2
 #: sf_textstream.xhp
@@ -23451,7 +23455,7 @@ msgctxt ""
 "par_id351613598192725\n"
 "help.text"
 msgid "The examples below in Basic and Python use the <literal>OpenTextFile</literal> method to create an instance of the <literal>TextStream</literal> Service."
-msgstr ""
+msgstr "Τα παρακάτω παραδείγματα σε Basic και Python χρησιμοποιούν τη μέθοδο <literal>OpenTextFile</literal> για να δημιουργήσουν μια παρουσία της υπηρεσίας <literal>TextStream</literal>."
 
 #. UUudg
 #: sf_textstream.xhp
@@ -23460,7 +23464,7 @@ msgctxt ""
 "par_id371585330787197\n"
 "help.text"
 msgid "The file must be closed with the <literal>CloseFile</literal> method after all read or write operations have been executed:"
-msgstr ""
+msgstr "Το αρχείο πρέπει να κλείσει με τη μέθοδο <literal>CloseFile</literal> αφού έχουν εκτελεστεί όλες οι λειτουργίες ανάγνωσης ή εγγραφής:"
 
 #. zNveN
 #: sf_textstream.xhp
@@ -23469,7 +23473,7 @@ msgctxt ""
 "par_id891582733781994\n"
 "help.text"
 msgid "Optionally, the resources used by the <literal>TextStream</literal> instance can be released using the <literal>Dispose</literal> method:"
-msgstr ""
+msgstr "Προαιρετικά, οι πόροι που χρησιμοποιούνται από την παρουσία <literal>TextStream</literal> μπορούν να απελευθερωθούν χρησιμοποιώντας τη μέθοδο <literal>Dispose</literal>:"
 
 #. nsGCZ
 #: sf_textstream.xhp
@@ -23478,7 +23482,7 @@ msgctxt ""
 "par_id121612917368946\n"
 "help.text"
 msgid "The methods in the <literal>TextStream</literal> service are mostly based on the <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextInputStream.html\" name=\"XTextInputStream API\"><literal>XTextInputStream</literal></link> and <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextOutputStream.html\" name=\"XTextOutputStream API\"><literal>XTextOutputStream</literal></link> UNO interfaces."
-msgstr ""
+msgstr "Οι μέθοδοι στην υπηρεσία <literal>TextStream</literal> βασίζονται κυρίως στις διεπαφές UNO <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextInputStream.html\" name=\"XTextInputStream API\"><literal>XTextInputStream</literal></link> και <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextOutputStream.html\" name=\"XTextOutputStream API\"><literal>XTextOutputOextlie </literal></link> ."
 
 #. JAmgD
 #: sf_textstream.xhp
@@ -23487,7 +23491,7 @@ msgctxt ""
 "hd_id941585330787948\n"
 "help.text"
 msgid "Properties"
-msgstr ""
+msgstr "Ιδιότητες"
 
 #. aN9zM
 #: sf_textstream.xhp
@@ -23496,7 +23500,7 @@ msgctxt ""
 "par_id631585330787267\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Όνομα"
 
 #. vwGC5
 #: sf_textstream.xhp
@@ -23505,7 +23509,7 @@ msgctxt ""
 "par_id401585330787370\n"
 "help.text"
 msgid "Readonly"
-msgstr ""
+msgstr "Μόνο για ανάγνωση"
 
 #. GpL38
 #: sf_textstream.xhp
@@ -23514,7 +23518,7 @@ msgctxt ""
 "par_id581585330787700\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Τύπος"
 
 #. 6FDuM
 #: sf_textstream.xhp
@@ -23523,7 +23527,7 @@ msgctxt ""
 "par_id551585330787608\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Περιγραφή"
 
 #. ECkTm
 #: sf_textstream.xhp
@@ -23532,7 +23536,7 @@ msgctxt ""
 "par_id181585330787752\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ναι"
 
 #. YFkaY
 #: sf_textstream.xhp
@@ -23541,7 +23545,7 @@ msgctxt ""
 "par_id901585330787680\n"
 "help.text"
 msgid "Used in read mode. A <literal>True</literal> value indicates that the end of the file has been reached. A test using this property should precede calls to the <literal>ReadLine</literal> method."
-msgstr ""
+msgstr "Χρησιμοποιείται σε λειτουργία ανάγνωσης. Η τιμή <literal>True</literal> υποδηλώνει ότι έχει φτάσει το τέλος του αρχείου. Μια δοκιμή που χρησιμοποιεί αυτήν την ιδιότητα θα πρέπει να προηγείται των κλήσεων στη μέθοδο <literal>ReadLine</literal>."
 
 #. EFEnA
 #: sf_textstream.xhp
@@ -23550,7 +23554,7 @@ msgctxt ""
 "par_id561585330787568\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ναι"
 
 #. cVCoJ
 #: sf_textstream.xhp
@@ -23559,7 +23563,7 @@ msgctxt ""
 "par_id741585330787777\n"
 "help.text"
 msgid "The character set to be used. The default encoding is \"UTF-8\"."
-msgstr ""
+msgstr "Το σύνολο χαρακτήρων που θα χρησιμοποιηθεί. Η προεπιλεγμένη κωδικοποίηση είναι \"UTF-8\"."
 
 #. p5s3X
 #: sf_textstream.xhp
@@ -23568,7 +23572,7 @@ msgctxt ""
 "par_id641585330787207\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ναι"
 
 #. JjEqX
 #: sf_textstream.xhp
@@ -23577,7 +23581,7 @@ msgctxt ""
 "par_id281585330787614\n"
 "help.text"
 msgid "Returns the name of the current file either in URL format or in the native operating system's format, depending on the current value of the <literal>FileNaming</literal> property of the <literal>FileSystem</literal> service."
-msgstr ""
+msgstr "Επιστρέφει το όνομα του τρέχοντος αρχείου, είτε σε μορφή URL, είτε στη μορφή του εγγενούς λειτουργικού συστήματος, ανάλογα με την τρέχουσα τιμή της ιδιότητας <literal>FileNaming</literal> της υπηρεσίας <literal>FileSystem</literal>."
 
 #. goEnw
 #: sf_textstream.xhp
@@ -23586,7 +23590,7 @@ msgctxt ""
 "par_id111585330787410\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ναι"
 
 #. MZS6Z
 #: sf_textstream.xhp
@@ -23595,7 +23599,7 @@ msgctxt ""
 "par_id861585330787417\n"
 "help.text"
 msgid "Indicates the input/output mode. Possible values are \"READ\", \"WRITE\" or \"APPEND\"."
-msgstr ""
+msgstr "Υποδεικνύει τη λειτουργία εισόδου/εξόδου. Πιθανές τιμές είναι \"READ\", \"WRITE\" ή \"APPEND\"."
 
 #. 7nTb9
 #: sf_textstream.xhp
@@ -23604,7 +23608,7 @@ msgctxt ""
 "par_id87158533078795\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ναι"
 
 #. j45gC
 #: sf_textstream.xhp
@@ -23613,7 +23617,7 @@ msgctxt ""
 "par_id561585330787741\n"
 "help.text"
 msgid "Returns the number of lines read or written so far."
-msgstr ""
+msgstr "Επιστρέφει τον αριθμό των γραμμών που διαβάστηκαν ή γράφτηκαν μέχρι στιγμής."
 
 #. CLAvQ
 #: sf_textstream.xhp
@@ -23622,7 +23626,7 @@ msgctxt ""
 "par_id531585330787157\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "Όχι"
 
 #. rdA5M
 #: sf_textstream.xhp
@@ -23631,7 +23635,7 @@ msgctxt ""
 "par_id691585330787279\n"
 "help.text"
 msgid "Sets or returns the current delimiter to be inserted between two successive written lines. The default value is the native line delimiter in the current operating system."
-msgstr ""
+msgstr "Ορίζει ή επιστρέφει τον τρέχοντα οριοθέτη που θα εισαχθεί μεταξύ δύο διαδοχικών γραπτών γραμμών. Η προεπιλεγμένη τιμή είναι ο εγγενής διαχωριστής γραμμής στο τρέχον λειτουργικό σύστημα."
 
 #. dCeHZ
 #: sf_textstream.xhp
@@ -23640,7 +23644,7 @@ msgctxt ""
 "par_id141613001281573\n"
 "help.text"
 msgid "To learn more about the names of character sets, visit <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\" name=\"Character Sets\">IANA's Character Set</link> page. Beware that %PRODUCTNAME does not implement all existing character sets."
-msgstr ""
+msgstr "Για να μάθετε περισσότερα σχετικά με τα ονόματα των συνόλων χαρακτήρων, επισκεφτείτε τη σελίδα <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\" name=\"Character Sets\">Σύνολο χαρακτήρων IANA</link>. Προσέξτε ότι το %PRODUCTNAME δεν υλοποιεί όλα τα υφιστάμενα σύνολα χαρακτήρων."
 
 #. hKJkD
 #: sf_textstream.xhp
@@ -23649,7 +23653,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in the TextStream Service"
-msgstr ""
+msgstr "Κατάλογος μεθόδων στην υπηρεσία TextStream"
 
 #. DBBKM
 #: sf_textstream.xhp
@@ -23658,7 +23662,7 @@ msgctxt ""
 "par_id421585330787675\n"
 "help.text"
 msgid "Closes the current input or output stream and empties the output buffer if relevant. Returns <literal>True</literal> if the file was successfully closed."
-msgstr ""
+msgstr "Κλείνει την τρέχουσα ροή εισόδου ή εξόδου και αδειάζει την προσωρινή μνήμη εξόδου, εάν χρειάζεται. Επιστρέφει <literal>True</literal> εάν το αρχείο έκλεισε με επιτυχία."
 
 #. MCW3q
 #: sf_textstream.xhp
@@ -23667,7 +23671,7 @@ msgctxt ""
 "par_id65158533078799\n"
 "help.text"
 msgid "Returns all the remaining lines in the text stream as a single string. Line breaks are not removed."
-msgstr ""
+msgstr "Επιστρέφει όλες τις υπόλοιπες γραμμές στη ροή κειμένου ως μία συμβολοσειρά. Οι αλλαγές γραμμής δεν αφαιρούνται."
 
 #. Vr34D
 #: sf_textstream.xhp
@@ -23676,7 +23680,7 @@ msgctxt ""
 "par_id71613600347125\n"
 "help.text"
 msgid "The resulting string can be split in lines either by using the <literal>Split</literal> built-in Basic function if the line delimiter is known, or with the <literal>SF_String.SplitLines</literal> method."
-msgstr ""
+msgstr "Η συμβολοσειρά που προκύπτει μπορεί να χωριστεί σε γραμμές είτε χρησιμοποιώντας την ενσωματωμένη συνάρτηση Basic <literal>Split</literal>, εάν ο οριοθέτης γραμμής είναι γνωστός, είτε με τη μέθοδο <literal>SF_String.SplitLines</literal>."
 
 #. VRLGn
 #: sf_textstream.xhp
