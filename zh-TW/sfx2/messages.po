@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-05-25 12:37+0200\n"
+"POT-Creation-Date: 2022-06-09 11:50+0200\n"
 "PO-Revision-Date: 2022-06-06 17:37+0000\n"
 "Last-Translator: Po-Yen Huang <jeff@mail.ossii.com.tw>\n"
 "Language-Team: Chinese (Traditional) <https://translations.documentfoundation.org/projects/libo_ui-master/sfx2messages/zh_Hant/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1554783395.000000\n"
 
 #. bHbFE
@@ -2274,6 +2274,14 @@ msgctxt "SFX_CB_PROPERTY_STRINGARRAY"
 msgid "Yes or no"
 msgstr "是或否"
 
+#. WzBG6
+#. accessibility descriptions that use %PRODUCTNAME, we set these explicitly because querying a11y descs
+#. in order to change %PRODUCTNAME at runtime is expensive, so limit doing that as much as possible.
+#: sfx2/inc/dinfdlg.hrc:83
+msgctxt "documentinfopage|extended_tip|userdatacb"
+msgid "Saves the user's full name with the file. You can edit the name by choosing Tools - Options - %PRODUCTNAME - User Data."
+msgstr "以檔案儲存使用者全名。您可以選擇 [工具] - [選項] - [%PRODUCTNAME] - [使用者資料]，以編輯名稱。"
+
 #. AxhLy
 #: sfx2/inc/doctempl.hrc:29
 msgctxt "TEMPLATE_LONG_NAMES_ARY"
@@ -3314,86 +3322,80 @@ msgctxt "documentinfopage|userdatacb"
 msgid "_Apply user data"
 msgstr "採用使用者資料(_A)"
 
-#. QR2RQ
-#: sfx2/uiconfig/ui/documentinfopage.ui:191
-msgctxt "documentinfopage|extended_tip|userdatacb"
-msgid "Saves the user's full name with the file. You can edit the name by choosing Tools - Options - User Data."
-msgstr "將使用者的全名與檔案一起儲存。您可以透過選擇「工具」→「選項」→「使用者資料」來編輯名稱。"
-
 #. JFxmP
-#: sfx2/uiconfig/ui/documentinfopage.ui:202
+#: sfx2/uiconfig/ui/documentinfopage.ui:197
 msgctxt "documentinfopage|reset"
 msgid "Reset Properties"
 msgstr "重設屬性"
 
 #. HrN2U
-#: sfx2/uiconfig/ui/documentinfopage.ui:209
+#: sfx2/uiconfig/ui/documentinfopage.ui:204
 msgctxt "documentinfopage|extended_tip|reset"
 msgid "Resets the editing time to zero, the creation date to the current date and time, and the version number to 1. The modification and printing dates are also deleted."
 msgstr "重設編輯時間為零、建立日期為目前的日期和時間、版本號碼為 1，並刪除修改日期和列印日期。"
 
 #. qeWvU
-#: sfx2/uiconfig/ui/documentinfopage.ui:220
+#: sfx2/uiconfig/ui/documentinfopage.ui:215
 msgctxt "documentinfopage|signature"
 msgid "Di_gital Signatures..."
 msgstr "數位簽章(_G)..."
 
 #. rEEgJ
-#: sfx2/uiconfig/ui/documentinfopage.ui:239
+#: sfx2/uiconfig/ui/documentinfopage.ui:234
 msgctxt "documentinfopage|label11"
 msgid "_Size:"
 msgstr "大小(_S)："
 
 #. WNFYB
-#: sfx2/uiconfig/ui/documentinfopage.ui:252
+#: sfx2/uiconfig/ui/documentinfopage.ui:247
 msgctxt "documentinfopage|showsize"
 msgid "unknown"
 msgstr "不明"
 
 #. EgtLE
-#: sfx2/uiconfig/ui/documentinfopage.ui:267
+#: sfx2/uiconfig/ui/documentinfopage.ui:262
 msgctxt "documentinfopage|label8"
 msgid "_Location:"
 msgstr "位置(_L)："
 
 #. 9xhwo
-#: sfx2/uiconfig/ui/documentinfopage.ui:280
+#: sfx2/uiconfig/ui/documentinfopage.ui:275
 msgctxt "documentinfopage|label7"
 msgid "_Type:"
 msgstr "類型(_T)："
 
 #. ZLmAo
-#: sfx2/uiconfig/ui/documentinfopage.ui:303
+#: sfx2/uiconfig/ui/documentinfopage.ui:298
 msgctxt "documentinfopage|changepass"
 msgid "Change _Password"
 msgstr "變更密碼(_P)"
 
 #. oqAZE
-#: sfx2/uiconfig/ui/documentinfopage.ui:321
+#: sfx2/uiconfig/ui/documentinfopage.ui:316
 msgctxt "documentinfopage|templateft"
 msgid "Template:"
 msgstr "範本："
 
 #. 5pXPV
-#: sfx2/uiconfig/ui/documentinfopage.ui:370
+#: sfx2/uiconfig/ui/documentinfopage.ui:365
 msgctxt "documentinfopage|extended_tip|nameed"
 msgid "Displays the file name."
 msgstr "顯示檔案名稱。"
 
 #. LCDUj
-#: sfx2/uiconfig/ui/documentinfopage.ui:401
+#: sfx2/uiconfig/ui/documentinfopage.ui:396
 msgctxt "documentinfopage|thumbnailsavecb"
 msgid "Save preview image with this document"
 msgstr "儲存這個文件的預覽影像"
 
 #. 2GKBr
-#: sfx2/uiconfig/ui/documentinfopage.ui:419
+#: sfx2/uiconfig/ui/documentinfopage.ui:414
 msgctxt "documentinfopage|image-preferred-dpi-checkbutton"
 msgid "Image preferred DPI"
 msgstr "影像偏好 DPI"
 
 #. VWjRu
-#: sfx2/uiconfig/ui/documentinfopage.ui:483
+#: sfx2/uiconfig/ui/documentinfopage.ui:478
 msgctxt "documentinfopage|extended_tip|DocumentInfoPage"
 msgid "Contains basic information about the current file."
 msgstr "包含有關目前檔案的基本資訊。"
@@ -5252,6 +5254,10 @@ msgctxt "versionsofdialog|extended_tip|VersionsOfDialog"
 msgid "Saves and organizes multiple versions of the current document in the same file. You can also open, delete and compare previous versions."
 msgstr "在同一個檔案中儲存並安排當目前文件的多個版本。您也可以開啟、刪除與比較先前的版本。"
 
+#~ msgctxt "documentinfopage|extended_tip|userdatacb"
+#~ msgid "Saves the user's full name with the file. You can edit the name by choosing Tools - Options - User Data."
+#~ msgstr "將使用者的全名與檔案一起儲存。您可以透過選擇「工具」→「選項」→「使用者資料」來編輯名稱。"
+
 #~ msgctxt "STR_ACTION_REFRESH"
 #~ msgid "~Refresh"
 #~ msgstr "重新整理(~R)"
@@ -5259,10 +5265,6 @@ msgstr "在同一個檔案中儲存並安排當目前文件的多個版本。您
 #~ msgctxt "STR_CLOSE_PANE"
 #~ msgid "Close Pane"
 #~ msgstr "關閉窗格"
-
-#~ msgctxt "documentinfopage|extended_tip|userdatacb"
-#~ msgid "Saves the user's full name with the file. You can edit the name by choosing Tools - Options - %PRODUCTNAME - User Data."
-#~ msgstr "以檔案儲存使用者全名。您可以選擇 [工具] - [選項] - [%PRODUCTNAME] - [使用者資料]，以編輯名稱。"
 
 #~ msgctxt "linkeditdialog|extended_tip|app"
 #~ msgid "Lists the application that last saved the source file. %PRODUCTNAME applications have the server name soffice."

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-05-25 12:37+0200\n"
+"POT-Creation-Date: 2022-06-09 11:50+0200\n"
 "PO-Revision-Date: 2022-06-06 17:37+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_ui-master/sfx2messages/el/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1559714005.000000\n"
 
 #. bHbFE
@@ -2277,6 +2277,14 @@ msgctxt "SFX_CB_PROPERTY_STRINGARRAY"
 msgid "Yes or no"
 msgstr "Ναι ή όχι"
 
+#. WzBG6
+#. accessibility descriptions that use %PRODUCTNAME, we set these explicitly because querying a11y descs
+#. in order to change %PRODUCTNAME at runtime is expensive, so limit doing that as much as possible.
+#: sfx2/inc/dinfdlg.hrc:83
+msgctxt "documentinfopage|extended_tip|userdatacb"
+msgid "Saves the user's full name with the file. You can edit the name by choosing Tools - Options - %PRODUCTNAME - User Data."
+msgstr "Αποθηκεύει το πλήρες όνομα του χρήστη με το αρχείο. Μπορείτε να επεξεργαστείτε το όνομα επιλέγοντας Εργαλεία - Επιλογές - %PRODUCTNAME - Δεδομένα χρήστη."
+
 #. AxhLy
 #: sfx2/inc/doctempl.hrc:29
 msgctxt "TEMPLATE_LONG_NAMES_ARY"
@@ -3317,86 +3325,80 @@ msgctxt "documentinfopage|userdatacb"
 msgid "_Apply user data"
 msgstr "Χρήση _προσωπικών δεδομένων"
 
-#. QR2RQ
-#: sfx2/uiconfig/ui/documentinfopage.ui:191
-msgctxt "documentinfopage|extended_tip|userdatacb"
-msgid "Saves the user's full name with the file. You can edit the name by choosing Tools - Options - User Data."
-msgstr "Αποθηκεύει το πλήρες όνομα του χρήστη μαζί με το αρχείο. Μπορείτε να επεξεργαστείτε το όνομα επιλέγοντας Εργαλεία - Επιλογές - Δεδομένα χρήστη."
-
 #. JFxmP
-#: sfx2/uiconfig/ui/documentinfopage.ui:202
+#: sfx2/uiconfig/ui/documentinfopage.ui:197
 msgctxt "documentinfopage|reset"
 msgid "Reset Properties"
 msgstr "Επαναφορά ιδιοτήτων"
 
 #. HrN2U
-#: sfx2/uiconfig/ui/documentinfopage.ui:209
+#: sfx2/uiconfig/ui/documentinfopage.ui:204
 msgctxt "documentinfopage|extended_tip|reset"
 msgid "Resets the editing time to zero, the creation date to the current date and time, and the version number to 1. The modification and printing dates are also deleted."
 msgstr "Επαναφέρει τον χρόνο επεξεργασίας στο μηδέν, την ώρα δημιουργίας στη τωρινή ημερομηνία και ώρα, και τον αριθμό έκδοσης σε 1. Επίσης, σβήνονται οι ημερομηνίες αλλαγής και εκτύπωσης."
 
 #. qeWvU
-#: sfx2/uiconfig/ui/documentinfopage.ui:220
+#: sfx2/uiconfig/ui/documentinfopage.ui:215
 msgctxt "documentinfopage|signature"
 msgid "Di_gital Signatures..."
 msgstr "_Ψηφιακές υπογραφές..."
 
 #. rEEgJ
-#: sfx2/uiconfig/ui/documentinfopage.ui:239
+#: sfx2/uiconfig/ui/documentinfopage.ui:234
 msgctxt "documentinfopage|label11"
 msgid "_Size:"
 msgstr "_Μέγεθος:"
 
 #. WNFYB
-#: sfx2/uiconfig/ui/documentinfopage.ui:252
+#: sfx2/uiconfig/ui/documentinfopage.ui:247
 msgctxt "documentinfopage|showsize"
 msgid "unknown"
 msgstr "άγνωστο"
 
 #. EgtLE
-#: sfx2/uiconfig/ui/documentinfopage.ui:267
+#: sfx2/uiconfig/ui/documentinfopage.ui:262
 msgctxt "documentinfopage|label8"
 msgid "_Location:"
 msgstr "_Τοποθεσία:"
 
 #. 9xhwo
-#: sfx2/uiconfig/ui/documentinfopage.ui:280
+#: sfx2/uiconfig/ui/documentinfopage.ui:275
 msgctxt "documentinfopage|label7"
 msgid "_Type:"
 msgstr "_Τύπος:"
 
 #. ZLmAo
-#: sfx2/uiconfig/ui/documentinfopage.ui:303
+#: sfx2/uiconfig/ui/documentinfopage.ui:298
 msgctxt "documentinfopage|changepass"
 msgid "Change _Password"
 msgstr "Αλλαγή _κωδικού πρόσβασης"
 
 #. oqAZE
-#: sfx2/uiconfig/ui/documentinfopage.ui:321
+#: sfx2/uiconfig/ui/documentinfopage.ui:316
 msgctxt "documentinfopage|templateft"
 msgid "Template:"
 msgstr "Πρότυπο:"
 
 #. 5pXPV
-#: sfx2/uiconfig/ui/documentinfopage.ui:370
+#: sfx2/uiconfig/ui/documentinfopage.ui:365
 msgctxt "documentinfopage|extended_tip|nameed"
 msgid "Displays the file name."
 msgstr "Εμφανίζει το όνομα του αρχείου."
 
 #. LCDUj
-#: sfx2/uiconfig/ui/documentinfopage.ui:401
+#: sfx2/uiconfig/ui/documentinfopage.ui:396
 msgctxt "documentinfopage|thumbnailsavecb"
 msgid "Save preview image with this document"
 msgstr "Αποθήκευση της εικόνας προεπισκόπησης με αυτό το έγγραφο"
 
 #. 2GKBr
-#: sfx2/uiconfig/ui/documentinfopage.ui:419
+#: sfx2/uiconfig/ui/documentinfopage.ui:414
 msgctxt "documentinfopage|image-preferred-dpi-checkbutton"
 msgid "Image preferred DPI"
 msgstr "Προτιμώμενο DPI εικόνας"
 
 #. VWjRu
-#: sfx2/uiconfig/ui/documentinfopage.ui:483
+#: sfx2/uiconfig/ui/documentinfopage.ui:478
 msgctxt "documentinfopage|extended_tip|DocumentInfoPage"
 msgid "Contains basic information about the current file."
 msgstr "Περιέχει βασικές πληροφορίες για το τρέχον αρχείο."
@@ -5255,6 +5257,10 @@ msgctxt "versionsofdialog|extended_tip|VersionsOfDialog"
 msgid "Saves and organizes multiple versions of the current document in the same file. You can also open, delete and compare previous versions."
 msgstr "Αποθηκεύει και διαχειρίζεται πολλαπλές εκδόσεις του τρέχοντος εγγράφου στο ίδιο αρχείο. Μπορείτε επίσης να ανοίξετε, να διαγράψετε και να συγκρίνετε προηγούμενες εκδόσεις."
 
+#~ msgctxt "documentinfopage|extended_tip|userdatacb"
+#~ msgid "Saves the user's full name with the file. You can edit the name by choosing Tools - Options - User Data."
+#~ msgstr "Αποθηκεύει το πλήρες όνομα του χρήστη μαζί με το αρχείο. Μπορείτε να επεξεργαστείτε το όνομα επιλέγοντας Εργαλεία - Επιλογές - Δεδομένα χρήστη."
+
 #~ msgctxt "STR_ACTION_REFRESH"
 #~ msgid "~Refresh"
 #~ msgstr "Α_νανέωση"
@@ -5262,10 +5268,6 @@ msgstr "Αποθηκεύει και διαχειρίζεται πολλαπλέ�
 #~ msgctxt "STR_CLOSE_PANE"
 #~ msgid "Close Pane"
 #~ msgstr "Κλείσιμο παραθύρου"
-
-#~ msgctxt "documentinfopage|extended_tip|userdatacb"
-#~ msgid "Saves the user's full name with the file. You can edit the name by choosing Tools - Options - %PRODUCTNAME - User Data."
-#~ msgstr "Αποθηκεύει το πλήρες όνομα του χρήστη με το αρχείο. Μπορείτε να επεξεργαστείτε το όνομα επιλέγοντας Εργαλεία - Επιλογές - %PRODUCTNAME - Δεδομένα χρήστη."
 
 #~ msgctxt "linkeditdialog|extended_tip|app"
 #~ msgid "Lists the application that last saved the source file. %PRODUCTNAME applications have the server name soffice."
