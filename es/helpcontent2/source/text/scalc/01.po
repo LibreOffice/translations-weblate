@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-07-13 01:13+0000\n"
+"PO-Revision-Date: 2022-07-13 01:47+0000\n"
 "Last-Translator: Daniela Rosales Espino <daniiglez1@outlook.com>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/es/>\n"
 "Language: es\n"
@@ -19097,7 +19097,7 @@ msgctxt ""
 "par_id3154104\n"
 "help.text"
 msgid "LOOKUP(Lookup; SearchVector [; ResultVector])"
-msgstr ""
+msgstr "BÚSQUEDA(Búsqueda; Vector de búsqueda [; Vector de resultado])"
 
 #. yGLLE
 #: 04060109.xhp
@@ -19106,7 +19106,7 @@ msgctxt ""
 "par_id3150646\n"
 "help.text"
 msgid "<emph>Lookup</emph> is the value of any type to be looked for; entered either directly or as a reference."
-msgstr ""
+msgstr "<emph>Búsqueda</emph> es el valor de cualquier tipo a buscar; introducido directamente o como una referencia."
 
 #. tFDBC
 #: 04060109.xhp
@@ -19268,7 +19268,7 @@ msgctxt ""
 "par_id3155425\n"
 "help.text"
 msgid "CHOOSE(Index; Value 1 [; Value 2 [; ... [; Value 30]]])"
-msgstr ""
+msgstr "ELEGIR(Índice; Valor 1 [; Valor 2 [; ... [; Valor 30]]])"
 
 #. CNK7e
 #: 04060109.xhp
@@ -19286,7 +19286,7 @@ msgctxt ""
 "par_id3149939\n"
 "help.text"
 msgid "<emph>Value 1, Value 2, ..., Value 30</emph> is the list of values entered as a reference to a cell or as individual values."
-msgstr ""
+msgstr "<emph>Valor 1, Valor 2, ..., Valor 30</emph> esta es la lista de valores introducidos como referencia a una celda o como valores individuales."
 
 #. s64Du
 #: 04060109.xhp
@@ -19331,7 +19331,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "HLOOKUP(Lookup; Array; Index [; SortedRangeLookup])"
-msgstr ""
+msgstr "HBÚSQUEDA(Búsqueda; Intervalo; Índice [; Búsqueda por intervalos ordenados])"
 
 #. nhwwF
 #: 04060109.xhp
@@ -62576,7 +62576,7 @@ msgctxt ""
 "par_id659756597565975\n"
 "help.text"
 msgid "<ahelp hid=\".\"><variable id=\"minifs_des\">Returns the minimum of the values of cells in a range that meets multiple criteria in multiple ranges.</variable></ahelp>"
-msgstr "<ahelp hid=\".\"><variable id=\"minifs_des\">Devuelve el mínimo de los valores de las celdas en un rango que cumple varios criterios en varios rangos.</variable></ahelp>"
+msgstr "<ahelp hid=\".\"><variable id=\"minifs_des\">Devuelve el mínimo de los valores de las celdas en un rango que cumple varios criterios en múltiples rangos.</variable></ahelp>"
 
 #. yekSJ
 #: func_minifs.xhp
@@ -62585,7 +62585,7 @@ msgctxt ""
 "par_id11655988824213\n"
 "help.text"
 msgid "MINIFS(<embedvar href=\"text/scalc/01/ex_data_stat_func.xhp#args\" markup=\"ignore\"/>)"
-msgstr ""
+msgstr "MIN.SI.CONJUNTO(<embedvar href=\"text/scalc/01/ex_data_stat_func.xhp#args\" markup=\"ignore\"/>)"
 
 #. Gf5P2
 #: func_minifs.xhp
@@ -62594,7 +62594,7 @@ msgctxt ""
 "par_id59901690530236\n"
 "help.text"
 msgid "<emph>Func_Range</emph> – required argument. A range of cells, a name of a named range or a label of a column or a row containing values for calculating the minimum."
-msgstr ""
+msgstr "<emph>Función_Rango</emph> – argumento requerido. Un rango de celdas, un nombre de un rango con nombre o una etiqueta de una columna o una fila que contiene valores para calcular el mínimo."
 
 #. KkDwL
 #: func_minifs.xhp
@@ -62612,7 +62612,7 @@ msgctxt ""
 "par_id94321051525036\n"
 "help.text"
 msgid "<item type=\"input\">=MINIFS(B2:B6;B2:B6;\"<35\")</item>"
-msgstr ""
+msgstr "<item type=\"input\">=MIN.SI.CONJUNTO(B2:B6;B2:B6;\"<35\")</item>"
 
 #. eRNbh
 #: func_minifs.xhp
@@ -62621,7 +62621,7 @@ msgctxt ""
 "par_id28647227259438\n"
 "help.text"
 msgid "Calculates the minimum of values of the range B2:B6 that are lower than or equal to 20. Returns 17."
-msgstr ""
+msgstr "Calcula el mínimo de valores del rango B2:B6 que son menores o iguales a 20. Devuelve 17."
 
 #. zufoC
 #: func_minifs.xhp
@@ -62630,7 +62630,7 @@ msgctxt ""
 "par_id36952767622741\n"
 "help.text"
 msgid "<item type=\"input\">=MINIFS(C2:C6;B2:B6;\">=20\";C2:C6;\">90\")</item>"
-msgstr ""
+msgstr "<item type=\"input\">=MIN.SI.CONJUNTO(C2:C6;B2:B6;\">=20\";C2:C6;\">90\")</item>"
 
 #. iCk4M
 #: func_minifs.xhp
@@ -62639,7 +62639,7 @@ msgctxt ""
 "par_id189772445525114\n"
 "help.text"
 msgid "Calculates the minimum of values of the range C2:C6 that are lower than 90 and correspond to cells of the B2:B6 range with values greater than or equal to 20. Returns 190."
-msgstr ""
+msgstr "Calcula el mínimo de valores del rango C2:C6 que son menores a 90 y corresponden a celdas del rango B2:B6 con valores mayores o iguales a 20. Devuelve 190."
 
 #. iqFXq
 #: func_minifs.xhp
@@ -62657,7 +62657,7 @@ msgctxt ""
 "par_id307691022525348\n"
 "help.text"
 msgid "<item type=\"input\">=MINIFS(C2:C6;B2:B6;\">\"&MIN(B2:B6);B2:B6;\"<\"&MAX(B2:B6))</item>"
-msgstr ""
+msgstr "<item type=\"input\">=MIN.SI.CONJUNTO(C2:C6;B2:B6;\">\"&MÍNIMO(B2:B6);B2:B6;\"<\"&MÁXIMO(B2:B6))</item>"
 
 #. Dp4Sx
 #: func_minifs.xhp
@@ -62666,7 +62666,7 @@ msgctxt ""
 "par_id27619246864839\n"
 "help.text"
 msgid "Calculates the minimum of values of the range C2:C6 that correspond to all values of the range B2:B6 except its minimum and maximum. Returns 65."
-msgstr ""
+msgstr "Calcula el mínimo de valores del rango C2:C6 que corresponden a todos los valores del rango B2:B6 excepto su mínimo y máximo. Devuelve 65."
 
 #. 7S443
 #: func_minifs.xhp
@@ -62675,7 +62675,7 @@ msgctxt ""
 "par_id220502883332563\n"
 "help.text"
 msgid "<item type=\"input\">=MINIFS(C2:C6;A2:A6;\".*book\";B2:B6;\">\"&MIN(B2:B6))</item>"
-msgstr ""
+msgstr "<item type=\"input\">=MIN.SI.CONJUNTO(C2:C6;A2:A6;\".*libro\";B2:B6;\">\"&MÍNIMO(B2:B6))</item>"
 
 #. gNhzJ
 #: func_minifs.xhp
@@ -62684,7 +62684,7 @@ msgctxt ""
 "par_id15342189586295\n"
 "help.text"
 msgid "Calculates the minimum of values of the range C2:C6 that correspond to all cells of the A2:A6 range ending with \"book\" and to all cells of the B2:B6 range except its minimum. Returns 190."
-msgstr ""
+msgstr "Calcula el mínimo de valores del rango C2:C6 que corresponden a todas las celdas del rango A2:A6 que terminan en \"libro\" y a todas las celdas del rango B2:B6 excepto su mínimo. Devuelve 190."
 
 #. uz4wr
 #: func_minifs.xhp
@@ -62702,7 +62702,7 @@ msgctxt ""
 "par_id50762995519951\n"
 "help.text"
 msgid "If you need to change a criterion easily, you may want to specify it in a separate cell and use a reference to this cell in the condition of the MINIFS function. For example, the above function can be rewritten as follows:"
-msgstr ""
+msgstr "Si necesita cambiar un criterio fácilmente, puede especificarlo en una celda separada y usar una referencia a esta celda en la condición de la función MIN.SI.CONJUNTO. Por ejemplo, la función anterior se puede reescribir de la siguiente manera:"
 
 #. EcoDf
 #: func_minifs.xhp
@@ -62711,7 +62711,7 @@ msgctxt ""
 "par_id135761606425300\n"
 "help.text"
 msgid "<item type=\"input\">=MINIFS(C2:C6;A2:A6;\".*\"&E2;B2:B6;\"<\"&MAX(B2:B6))</item>"
-msgstr ""
+msgstr "<item type=\"input\">=MIN.SI.CONJUNTO(C2:C6;A2:A6;\".*\"&E2;B2:B6;\"<\"&MÁXIMO(B2:B6))</item>"
 
 #. cxmqK
 #: func_minifs.xhp
@@ -62918,7 +62918,7 @@ msgctxt ""
 "par_id231020162249539143\n"
 "help.text"
 msgid "NETWORKDAYS.INTL(StartDate; EndDate [; [ Weekend ] [; Holidays ] ])"
-msgstr ""
+msgstr "DIAS.LAB.INTL(FechaInicial; FechaFinal [; [ Fin de semana] [; Feriados ] ])"
 
 #. D8jig
 #: func_networkdays.intl.xhp
@@ -63017,7 +63017,7 @@ msgctxt ""
 "bm_id3151254\n"
 "help.text"
 msgid "<bookmark_value>NETWORKDAYS function</bookmark_value>  <bookmark_value>NETWORKDAYS_EXCEL2003 function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Función DIAS.LAB</bookmark_value>  <bookmark_value>Función DIAS.LAB_EXCEL2003</bookmark_value>"
 
 #. HzF8v
 #: func_networkdays.xhp
@@ -63035,7 +63035,7 @@ msgctxt ""
 "par_id3153788\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_NETWORKDAYS\">Returns the number of workdays between a <emph>start date</emph> and an <emph>end date</emph>. Holidays can be deducted.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_NETWORKDAYS\">Devuelve el número de días laborables entre una <emph>fecha inicial</emph> y una <emph>fecha final</emph>. Los días feriados se pueden deducir.</ahelp>"
 
 #. AME9S
 #: func_networkdays.xhp
@@ -63044,7 +63044,7 @@ msgctxt ""
 "par_id3145775\n"
 "help.text"
 msgid "NETWORKDAYS(StartDate; EndDate [; [ Holidays ] [; Workdays ] ])"
-msgstr ""
+msgstr "DIAS.LAB(FechaInicial; FechaFinal [; [ Feriados ] [; Días laborales] ])"
 
 #. BEtbU
 #: func_networkdays.xhp
@@ -63080,7 +63080,7 @@ msgctxt ""
 "par_id160920161749585013\n"
 "help.text"
 msgid "<emph>Workdays</emph> is an optional list of number values defining standard work week. This list starts by Sunday, workdays are indicated by zero and non-working days by non-zero value."
-msgstr ""
+msgstr "<emph>Días laborales</emph> es una lista opcional de valores numéricos que definen la semana laboral estándar. Esta lista comienza el domingo, los días laborables se indican con cero y los días no laborables con un valor distinto de cero."
 
 #. yTEUA
 #: func_networkdays.xhp
@@ -63215,7 +63215,7 @@ msgctxt ""
 "par_id3145087\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_NUMBERVALUE\">Converts the string representation of a number into a locale-independent numeric value.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_NUMBERVALUE\">Convierte la representación de cadena de un número en un valor numérico independiente de la configuración regional.</ahelp>"
 
 #. xfP9G
 #: func_numbervalue.xhp
