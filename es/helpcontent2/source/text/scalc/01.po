@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-07-13 01:50+0000\n"
+"PO-Revision-Date: 2022-07-13 02:49+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-7-3/textscalc01/es/>\n"
 "Language: es\n"
@@ -5246,7 +5246,7 @@ msgctxt ""
 "par_id841616368623207\n"
 "help.text"
 msgid "The same result is obtained if you use the formula <input>=DCOUNTA(A1:E10; \"Distance\"; A12:E13)</input> or the formula <input>=DCOUNTA(A1:E10; \"Name\"; A12:E13)</input>. The latter case reflects that in contrast to DCOUNT, DCOUNTA counts both numeric and alphanumeric values in the column indicated by the <emph>DatabaseField</emph> argument."
-msgstr ""
+msgstr "Se obtiene el mismo resultado si utiliza la fórmula <input>=DCONTARA(A1:E10; \"Distancia\"; A12:E13)</input> o la fórmula <input>=BDCONTARA(A1:E10; \"Nombre\"; A12 :E13)</input>. El último caso refleja que, a diferencia de BDCONTAR, BDCONTARA cuenta valores numéricos y alfanuméricos en la columna indicada por el argumento <emph>Campo de base de datos</emph"
 
 #. GasLC
 #: 04060101.xhp
@@ -5255,7 +5255,7 @@ msgctxt ""
 "bm_id3147256\n"
 "help.text"
 msgid "<bookmark_value>DGET function</bookmark_value><bookmark_value>cell contents;searching in Calc databases</bookmark_value><bookmark_value>searching;cell contents in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Función BDEXTRAER</bookmark_value><bookmark_value>contenido de las celdas; búsqueda en bases de datos Calc</bookmark_value><bookmark_value>búsqueda; contenido de las celdas en bases de datos Calc</bookmark_value>"
 
 #. wj7ck
 #: 04060101.xhp
@@ -5300,7 +5300,7 @@ msgctxt ""
 "par_id3155388\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell C13 which should contain \"11\" (this search criterion will match records in the database table that have a value of 11 in the Age column)."
-msgstr ""
+msgstr "La tabla de base de datos de ejemplo que da información sobre los invitados a la fiesta de cumpleaños de Joe (descrita anteriormente) debe ocupar las celdas A1:E10. El contenido de las celdas A12:E12 debe ser idéntico al de las etiquetas de cabecera de la tabla de la base de datos en las celdas A1:E1. Asegúrese de que las celdas A13:E13 estén en blanco, excepto la celda C13 que debe contener \"11\" (este criterio de búsqueda coincidirá con los registros de la tabla de la base de datos que tengan un valor de 11 en la columna edad)."
 
 #. A942C
 #: 04060101.xhp
@@ -5309,7 +5309,7 @@ msgctxt ""
 "par_id3153096\n"
 "help.text"
 msgid "Insert the formula <input>=DGET(A1:E10; \"Name\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the name of Joe’s party guest who is age 11. The name Daniel is returned."
-msgstr ""
+msgstr "Inserta la fórmula <input>=BDEXTRAER(A1:E10; \"Nombre\"; A12:E13)</input> en una celda vacía en otro lugar de la hoja para encontrar el nombre del invitado a la fiesta de Joe que tiene 11 años. Nos devolverá el nombre de Daniel."
 
 #. 6AKoj
 #: 04060101.xhp
@@ -5318,7 +5318,7 @@ msgctxt ""
 "par_id3150524\n"
 "help.text"
 msgid "If you change the value in cell C13 to “10”, then the formula <input>=DGET(A1:E10; \"Name\"; A12:E13)</input> returns an invalid argument error (Err:502). The reflects that multiple records match the specified criterion (both Betty and Charles are age 10)."
-msgstr ""
+msgstr "Si cambia el valor de la celda C13 por \"10\", la fórmula <input>=BDEXTRAER(A1:E10; \"Nombre\"; A12:E13)</input> devuelve un error de argumento no válido (Err:502). Refleja que varios registros coinciden con el criterio especificado (tanto Betty como Carlos tienen 10 años)."
 
 #. rB9Ek
 #: 04060101.xhp
@@ -5345,7 +5345,7 @@ msgctxt ""
 "par_id3154903\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBMAX\">DMAX calculates the maximum value across the cells (fields) of the specified column that contain numeric values, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBMAX\">BDMAX calcula el valor máximo en todas las celdas (campos) de la columna especificada que contienen valores numéricos, para todas las filas (registros de la base de datos) que coinciden con los criterios de búsqueda especificados.</ahelp> No se incluyen las celdas en blanco ni las que contienen caracteres no numéricos."
 
 #. pUGwd
 #: 04060101.xhp
@@ -5372,7 +5372,7 @@ msgctxt ""
 "par_id3148442\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "La tabla de base de datos del ejemplo que da información sobre los invitados a la fiesta de cumpleaños de Joe (descrita anteriormente) debe ocupar las celdas A1:E10. El contenido de las celdas A12:E12 debe ser idéntico al de las etiquetas de cabecera de la tabla de la base de datos en las celdas A1:E1. Asegúrese de que las celdas A13:E13 estén en blanco, excepto la celda D13, que debe contener \">0\" (este criterio de búsqueda pretende coincidir con todos los registros de la tabla de la base de datos)."
 
 #. Mqocw
 #: 04060101.xhp
@@ -5408,7 +5408,7 @@ msgctxt ""
 "par_id3154261\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBMIN\">DMIN calculates the minimum value across the cells (fields) of the specified column that contain numeric values, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBMIN\">BDMIN calcula el valor mínimo en todas las celdas (campos) de la columna especificada que contienen valores numéricos, para todas las filas (registros de la base de datos) que coinciden con los criterios de búsqueda especificados.</ahelp> No se incluyen las celdas en blanco ni las que contienen caracteres no numéricos."
 
 #. yYJTa
 #: 04060101.xhp
@@ -5435,7 +5435,7 @@ msgctxt ""
 "par_id3148925\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "La tabla de base de datos del ejemplo que da información sobre los invitados a la fiesta de cumpleaños de Joe (descrita anteriormente) debe ocupar las celdas A1:E10. El contenido de las celdas A12:E12 debe ser idéntico al de las etiquetas de cabecera de la tabla de la base de datos en las celdas A1:E1. Asegúrese de que las celdas A13:E13 estén en blanco, excepto la celda D13, que debe contener \">0\" (este criterio de búsqueda pretende coincidir con todos los registros de la tabla de la base de datos)."
 
 #. LrfjC
 #: 04060101.xhp
@@ -5444,7 +5444,7 @@ msgctxt ""
 "par_id3149161\n"
 "help.text"
 msgid "Insert the formula <input>=DMIN(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to find the minimum distance in meters that any of Joe’s party guests travel to school. The value 150 is returned."
-msgstr ""
+msgstr "Inserta la fórmula <input>=BDMIN(A1:E10; \"Distancia\"; A12:E13)</input> en una celda vacía de otro lugar de la hoja para encontrar la distancia mínima en metros que recorre cualquiera de los invitados a la fiesta de Joe hasta la escuela. Nos devolverá el valor 150."
 
 #. XEu9j
 #: 04060101.xhp
@@ -5453,7 +5453,7 @@ msgctxt ""
 "bm_id3154274\n"
 "help.text"
 msgid "<bookmark_value>DAVERAGE function</bookmark_value><bookmark_value>averages; in Calc databases</bookmark_value><bookmark_value>calculating;averages in Calc databases</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>función BDPROMEDIO</bookmark_value><bookmark_value>promedios; en bases de datos Calc</bookmark_value><bookmark_value>cálculo; medias en bases de datos Calc</bookmark_value>"
 
 #. dQciw
 #: 04060101.xhp
@@ -5471,7 +5471,7 @@ msgctxt ""
 "par_id3166453\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBMITTELWERT\">DAVERAGE calculates the average of the numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp>  Non-numeric values in those cells are ignored."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBMITTELWERT\">BDPROMEDIO calcula la media de los valores numéricos de las celdas (campos) de la columna especificada, para todas las filas (registros de la base de datos) que coinciden con los criterios de búsqueda especificados.</ahelp> Los valores no numéricos de esas celdas deben ser ignorados."
 
 #. 87qxe
 #: 04060101.xhp
@@ -5480,7 +5480,7 @@ msgctxt ""
 "par_id31615978739452\n"
 "help.text"
 msgid "Returns a #DIV/0! error if no records match the specified search criteria, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr ""
+msgstr "Devuelve un error #DIV/0! si ningún registro coincide con los criterios de búsqueda especificados, o si no hay valores numéricos en las celdas de la columna especificada para los registros coincidentes."
 
 #. PPkBD
 #: 04060101.xhp
@@ -5498,7 +5498,7 @@ msgctxt ""
 "par_id3149104\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr ""
+msgstr "La tabla de base de datos de ejemplo que da información sobre los invitados a la fiesta de cumpleaños de Joe (descrita anteriormente) debe ocupar las celdas A1:E10. El contenido de las celdas A12:E12 debe ser idéntico al de las etiquetas de cabecera de la tabla de la base de datos en las celdas A1:E1. Asegúrese de que las celdas A13:E13 estén en blanco, excepto la celda D13, que debe contener \">0\" (este criterio de búsqueda pretende coincidir con todos los registros de la tabla de la base de datos)."
 
 #. CjTGB
 #: 04060101.xhp
@@ -5507,7 +5507,7 @@ msgctxt ""
 "par_id201616368312277\n"
 "help.text"
 msgid "Insert the formula <input>=DAVERAGE(A1:E10; \"Distance\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the average distance in meters travelled to school by Joe’s party guests. The value 666.67 is returned."
-msgstr ""
+msgstr "Introduzca la fórmula <input>=BDPROMEDIO(A1:E10; \"Distancia\"; A12:E13)</input> en una celda vacía de otro lugar de la hoja para calcular la distancia media en metros recorrida hasta la escuela por los invitados a la fiesta de Joe. Se obtendrá el valor 666,67."
 
 #. 6fcFr
 #: 04060101.xhp
@@ -5534,7 +5534,7 @@ msgctxt ""
 "par_id3152879\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DBPRODUKT\">DPRODUCT calculates the product of all numeric values in the cells (fields) of the specified column, for all rows (database records) that match the specified search criteria.</ahelp> Blank cells or cells containing non-numeric characters are not included."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_DBPRODUKT\">DPRODUCTo calcula el producto de todos los valores numéricos de las celdas (campos) de la columna especificada, para todas las filas (registros de la base de datos) que coinciden con los criterios de búsqueda especificados.</ahelp> No se incluyen las celdas en blanco ni las que contienen caracteres no numéricos."
 
 #. oUsZD
 #: 04060101.xhp
@@ -19232,7 +19232,7 @@ msgctxt ""
 "par_id3154104\n"
 "help.text"
 msgid "LOOKUP(Lookup; SearchVector [; ResultVector])"
-msgstr "BÚSQUEDA(Búsqueda; Vector de búsqueda [; Vector de resultado])"
+msgstr "BUSCAR(CriteriodeBúsqueda; VectordeBúsqueda [; VectordeResultado])"
 
 #. yGLLE
 #: 04060109.xhp
@@ -19241,7 +19241,7 @@ msgctxt ""
 "par_id3150646\n"
 "help.text"
 msgid "<emph>Lookup</emph> is the value of any type to be looked for; entered either directly or as a reference."
-msgstr "<emph>Búsqueda</emph> es el valor de cualquier tipo a buscar; introducido directamente o como una referencia."
+msgstr "<emph>CriteriodeBúsqueda</emph> es el valor de cualquier tipo a buscar; introducido directamente o como referencia."
 
 #. tFDBC
 #: 04060109.xhp
@@ -19844,7 +19844,7 @@ msgctxt ""
 "par_idN11827\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"http://www.example.org\")</input> displays the text \"http://www.example.org\" in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<input>=HIPERVINCULO(\"http://www.example.org\")</input> muestra el texto \"http://www.example.org\" en la celda y ejecuta el hipervínculo http://www.example.org cuando se hace clic."
 
 #. wHG7A
 #: 04060109.xhp
@@ -19853,7 +19853,7 @@ msgctxt ""
 "par_idN1182A\n"
 "help.text"
 msgid "<input>=HYPERLINK(\"http://www.example.org\";\"Click here\")</input> displays the text \"Click here\" in the cell and executes the hyperlink http://www.example.org when clicked."
-msgstr ""
+msgstr "<input>=HIPERVINCULO(\"http://www.example.org\"; \"Pulse aquí\")</input> muestra el texto \"Pulse aquí\" en la celda y ejecuta el hipervínculo http://www.example.org cuando se haga clic."
 
 #. jamR2
 #: 04060109.xhp
@@ -50813,7 +50813,7 @@ msgctxt ""
 "par_idN108F1\n"
 "help.text"
 msgid "If you double-click a field which has adjacent fields at the same level, the <emph>Show Detail</emph> dialog opens:"
-msgstr "Si hace doble clic en un campo con campos adyacentes en el mismo nivel, se abrirá el diálogo <emph>Mostrar detalle</emph>:"
+msgstr "Si pulsa dos veces en un campo con campos adyacentes en el mismo nivel, se abrirá el diálogo <emph>Mostrar detalle</emph>:"
 
 #. qExkE
 #: 12090102.xhp
@@ -62801,7 +62801,7 @@ msgctxt ""
 "par_id659756597565975\n"
 "help.text"
 msgid "<ahelp hid=\".\"><variable id=\"minifs_des\">Returns the minimum of the values of cells in a range that meets multiple criteria in multiple ranges.</variable></ahelp>"
-msgstr "<ahelp hid=\".\"><variable id=\"minifs_des\">Devuelve el mínimo de los valores de las celdas en un rango que cumple varios criterios en múltiples rangos.</variable></ahelp>"
+msgstr "<ahelp hid=\".\"><variable id=\"minifs_des\">Devuelve el mínimo de los valores de las celdas en un intervalo que cumple varios criterios en múltiples intervalos.</variable></ahelp>"
 
 #. yekSJ
 #: func_minifs.xhp
@@ -63242,7 +63242,7 @@ msgctxt ""
 "bm_id3151254\n"
 "help.text"
 msgid "<bookmark_value>NETWORKDAYS function</bookmark_value>  <bookmark_value>NETWORKDAYS_EXCEL2003 function</bookmark_value>"
-msgstr "<bookmark_value>Función DIAS.LAB</bookmark_value>  <bookmark_value>Función DIAS.LAB_EXCEL2003</bookmark_value>"
+msgstr "<bookmark_value>función DIAS.LAB</bookmark_value><bookmark_value>función DIAS.LAB_EXCEL2003</bookmark_value>"
 
 #. HzF8v
 #: func_networkdays.xhp
@@ -63305,7 +63305,7 @@ msgctxt ""
 "par_id160920161749585013\n"
 "help.text"
 msgid "<emph>Workdays</emph> is an optional list of number values defining standard work week. This list starts by Sunday, workdays are indicated by zero and non-working days by non-zero value."
-msgstr "<emph>Días laborales</emph> es una lista opcional de valores numéricos que definen la semana laboral estándar. Esta lista comienza el domingo, los días laborables se indican con cero y los días no laborables con un valor distinto de cero."
+msgstr "<emph>Días laborables</emph> es una lista opcional de valores numéricos que definen la semana laborable estándar. Esta lista comienza el domingo, los días laborables se indican con cero y los días no laborables con un valor distinto de cero."
 
 #. yTEUA
 #: func_networkdays.xhp
