@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-07-18 04:37+0000\n"
+"PO-Revision-Date: 2022-07-18 04:42+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/de/>\n"
 "Language: de\n"
@@ -21488,7 +21488,7 @@ msgctxt ""
 "par_id2958477\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;2)</item> returns \" \" (byte position 2 points to the last half of the first character in the DBCS string; the 2 bytes asked for therefore constitutes the last half of the first character and the first half of the second character in the string; 2 space characters are therefore returned)."
-msgstr "<item type=\"input\">=TEILB(\"中国\";2;2)</item> ergibt \" \" (Die 2. Byteposition ist nicht am Anfang eines Zeichens einer DBCS-Zeichenfolge; die 2 Bytes, die zurückgegeben werden sollen, bilden stattdessen die zweite Hälfte des ersten Zeichens und die erste Hälfte des zweiten Zeichens in der Zeichenfolge; deshalb werden ersatzweise zwei Leerzeichen zurückgegeben)."
+msgstr "<item type=\"input\">=TEILB(\"中国\";2;2)</item> ergibt \"  \" (Die 2. Byteposition ist nicht am Anfang eines Zeichens einer DBCS-Zeichenfolge; die 2 Bytes, die zurückgegeben werden sollen, bilden stattdessen die zweite Hälfte des ersten Zeichens und die erste Hälfte des zweiten Zeichens in der Zeichenfolge; deshalb werden ersatzweise zwei Leerzeichen zurückgegeben)."
 
 #. cFw7V
 #: 04060110.xhp
@@ -21497,7 +21497,7 @@ msgctxt ""
 "par_id2958487\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;3)</item> returns \" 国\" (byte position 2 is not at the beginning of a character in a DBCS string; a space character is returned for byte position 2)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";2;3)</item> ergibt \" 国\" (Die 2. Byteposition ist nicht am Anfang eines Zeichens einer DBCS-Zeichenfolge; deshalb wird ersatzweise ein Leerzeichen für die 2. Byteposition zurückgegeben)."
 
 #. drtpL
 #: 04060110.xhp
@@ -21506,7 +21506,7 @@ msgctxt ""
 "par_id2958497\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;1)</item> returns \" \" (byte position 3 is at the beginning of a character in a DBCS string, but 1 byte is only half a DBCS character and a space character is therefore returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";3;1)</item> ergibt \" \" (Die 3. Byteposition am Anfang eines Zeichens einer DBCS-Zeichenfolge, aber 1 Byte ist lediglich ein halbes DBCS-Zeichen, deshalb wird ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. koipq
 #: 04060110.xhp
@@ -21515,7 +21515,7 @@ msgctxt ""
 "par_id2958507\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;2)</item> returns \"国\" (byte position 3 is at the beginning of a character in a DBCS string, and 2 bytes constitute one DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";3;2)</item> ergibt \"国\" (Die 3. Byteposition ist am Anfang eines Zeichens einer DBCS-Zeichenfolge und 2 Bytes bilden ein DBCS-Zeichen)."
 
 #. aQmsH
 #: 04060110.xhp
@@ -21524,7 +21524,7 @@ msgctxt ""
 "par_id2958517\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"office\";2;3)</item> returns \"ffi\" (byte position 2 is at the beginning of a character in a non-DBCS string, and 3 bytes of a non-DBCS string constitute 3 characters)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"Büro\";2;3)</item> ergibt \"üro\" (Die 2. Byteposition ist am Anfang eines Zeichens einer Nicht-DBCS-Zeichenfolge und 3 Bytes einer Nicht-DBCS-Zeichenfolge bilden 3 Zeichen)."
 
 #. k4kCo
 #: 04060110.xhp
@@ -21740,7 +21740,7 @@ msgctxt ""
 "par_id381626381556310\n"
 "help.text"
 msgid "Refer to the <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/REPT\" name=\"REPT_Wiki\">REPT</link> wiki page for more details about this function."
-msgstr ""
+msgstr "Lesen Sie für weitere Details über diese Funktion die Wikipedia-Seite <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/REPT\" name=\"REPT_Wiki\">REPT</link> (in Englisch)."
 
 #. mtFNA
 #: 04060110.xhp
