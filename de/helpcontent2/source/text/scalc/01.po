@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-07-18 04:34+0000\n"
+"PO-Revision-Date: 2022-07-18 04:37+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/de/>\n"
 "Language: de\n"
@@ -20165,7 +20165,7 @@ msgctxt ""
 "par_id3153289\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_BASIS\">Converts a positive integer to a specified base into a text from the <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"numbering system\">numbering system</link>.</ahelp> The digits 0-9 and the letters A-Z are used."
-msgstr "<ahelp hid=\"HID_FUNC_BASIS\">Wandelt eine positive ganze Zahl in einen Text aus dem <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"numbering system\">Zahlensystem</link> zur angegebenen Basis um.</ahelp> Dabei werden die Ziffern 0-9 und die Buchstaben A-Z verwendet."
+msgstr "<ahelp hid=\"HID_FUNC_BASIS\">Wandelt eine positive ganze Zahl in einen Text aus dem <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"numbering system\">Zahlensystem</link> der angegebenen Basis um.</ahelp> Dabei werden die Ziffern 0-9 und die Buchstaben A-Z verwendet."
 
 #. 2cDvi
 #: 04060110.xhp
@@ -21047,7 +21047,7 @@ msgctxt ""
 "par_id2949141\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=LINKSB(\"中国\";1)</item> ergibt \" \" (1 Byte ist nur ein halbes DBCS-Zeichen, deshalb wird ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. mQvUN
 #: 04060110.xhp
@@ -21056,7 +21056,7 @@ msgctxt ""
 "par_id2949151\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=LINKSB(\"中国\";2)</item> ergibt \"中\" (2 Bytes bilden ein vollständiges DBCS-Zeichen)."
 
 #. qAEZ3
 #: 04060110.xhp
@@ -21065,7 +21065,7 @@ msgctxt ""
 "par_id2949161\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";3)</item> returns \"中 \" (3 bytes constitute one DBCS character and a half; the last character returned is therefore a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=LINKSB(\"中国\";3)</item> ergibt \"中 \" (3 Bytes bilden eineinhalb DBCS-Zeichen; als zweites Zeichen wird deshalb ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. s3UVQ
 #: 04060110.xhp
@@ -21074,7 +21074,7 @@ msgctxt ""
 "par_id2949171\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=LINKSB(\"中国\";4)</item> ergibt \"中国\" (4 Bytes bilden zwei vollständige DBCS-Zeichen)."
 
 #. FM3FS
 #: 04060110.xhp
@@ -21083,7 +21083,7 @@ msgctxt ""
 "par_id2949181\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"office\";3)</item> returns \"off\" (3 non-DBCS characters each consisting of 1 byte)."
-msgstr ""
+msgstr "<item type=\"input\">=LINKSB(\"Büro\";3)</item> ergibt \"Bür\" (3 Nicht-DBCS-Zeichen, jedes mit der Länge von 1 Byte)."
 
 #. eEgeD
 #: 04060110.xhp
@@ -21434,7 +21434,7 @@ msgctxt ""
 "par_id2958417\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;0)</item> returns \"\" (0 bytes is always an empty string)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";1;0)</item> ergibt \"\" (0 Bytes entsprechen immer einer leeren Zeichenfolge)."
 
 #. q6dWL
 #: 04060110.xhp
@@ -21443,7 +21443,7 @@ msgctxt ""
 "par_id2958427\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;1)</item> returns \" \" (1 byte is only half a DBCS character and therefore the result is a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";1;1)</item> ergibt \" \" (1 Byte ist lediglich ein halbes DBCS-Zeichen, deshalb wird ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. CfNES
 #: 04060110.xhp
@@ -21452,7 +21452,7 @@ msgctxt ""
 "par_id2958437\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";1;2)</item> ergibt \"中\" 2 Bytes bilden ein vollständiges DBCS-Zeichen)."
 
 #. wBLqC
 #: 04060110.xhp
@@ -21461,7 +21461,7 @@ msgctxt ""
 "par_id2958447\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;3)</item> returns \"中 \" (3 bytes constitute one and a half DBCS character; the last byte results in a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";1;3)</item> ergibt \"中 \" (3 Bytes bilden eineinhalb DBCS-Zeichen; als zweites Zeichen wird deshalb ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. GedmG
 #: 04060110.xhp
@@ -21470,7 +21470,7 @@ msgctxt ""
 "par_id2958457\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";1;4)</item> ergibt \"中国\" (4 Bytes bilden zwei vollständige DBCS-Zeichen)."
 
 #. dAMAA
 #: 04060110.xhp
@@ -21479,7 +21479,7 @@ msgctxt ""
 "par_id2958467\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;1)</item> returns \" \" (byte position 2 is not at the beginning of a character in a DBCS string; 1 space character is returned)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";2;1)</item> ergibt \" \" (Die 2. Byteposition ist nicht am Anfang eines Zeichens einer DBCS-Zeichenfolge; deshalb wird ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. SXLij
 #: 04060110.xhp
@@ -21488,7 +21488,7 @@ msgctxt ""
 "par_id2958477\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;2)</item> returns \" \" (byte position 2 points to the last half of the first character in the DBCS string; the 2 bytes asked for therefore constitutes the last half of the first character and the first half of the second character in the string; 2 space characters are therefore returned)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";2;2)</item> ergibt \" \" (Die 2. Byteposition ist nicht am Anfang eines Zeichens einer DBCS-Zeichenfolge; die 2 Bytes, die zurückgegeben werden sollen, bilden stattdessen die zweite Hälfte des ersten Zeichens und die erste Hälfte des zweiten Zeichens in der Zeichenfolge; deshalb werden ersatzweise zwei Leerzeichen zurückgegeben)."
 
 #. cFw7V
 #: 04060110.xhp
