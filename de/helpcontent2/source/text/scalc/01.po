@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-07-18 04:25+0000\n"
-"Last-Translator: Annabelle Wübbelsmann <translowl@web.de>\n"
+"PO-Revision-Date: 2022-07-20 14:22+0000\n"
+"Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-7-3/textscalc01/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20210,7 +20210,7 @@ msgctxt ""
 "par_id401624454547945\n"
 "help.text"
 msgid "Beware that Calc's AutoCorrect function may modify double quotation marks. AutoCorrect should not change the double quotation marks within formula cells but may change those used in non-formula cells containing text. For example, if you copy a string that is surrounded by some other form of typographical double quotation marks, such as the left double quotation mark (U+201C) and the right double quotation mark (U+201D), and then paste into a formula cell, an error may result. Open the <emph>Double Quotes</emph> area of the <menuitem>Tools - AutoCorrect Options - Localized Options</menuitem> dialog to set the characters used to automatically correct the start and end typographical double quotation marks. Uncheck the <menuitem>Replace</menuitem> toggle button to disable the feature."
-msgstr ""
+msgstr "Beachten Sie, dass die AutoKorrektur von Calc doppelte Anführungszeichen ändern kann. Die AutoKorrektur sollte die doppelten Anführungszeichen in Zellen mit Formeln nicht ändern, kann jedoch diejenigen ändern, die in Zellen ohne Formeln mit Text verwendet werden. Wenn Sie beispielsweise eine Zeichenfolge kopieren, die von einer anderen Form typographischer doppelter Anführungszeichen umgeben ist, beispielsweise das linke doppelte Anführungszeichen (U+201C) und das rechte doppelte Anführungszeichen (U+201D), und dies in eine Zelle mit Formeln einfügen, kann ein Fehler auftreten. Öffnen Sie den Dialog <menuitem>Extras – AutoKorrektur-Optionen… – Register: Gebietsschemaabhängige Optionen</menuitem> und deaktivieren Sie im Bereich <emph>Doppelte Anführungszeichen</emph> das Markierfeld <menuitem>Ersetzen</menuitem>, um die Zeichen, die verwendet werden, um die typographischen doppelten Anführungszeichen am Anfang und am Ende automatisch zu korrigieren, auszuschalten."
 
 #. rdzbS
 #: 04060110.xhp
@@ -20291,7 +20291,7 @@ msgctxt ""
 "par_id3153289\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_BASIS\">Converts a positive integer to a specified base into a text from the <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"numbering system\">numbering system</link>.</ahelp> The digits 0-9 and the letters A-Z are used."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_BASIS\">Wandelt eine positive ganze Zahl in einen Text aus dem <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"numbering system\">Zahlensystem</link> der angegebenen Basis um.</ahelp> Dabei werden die Ziffern 0-9 und die Buchstaben A-Z verwendet."
 
 #. 2cDvi
 #: 04060110.xhp
@@ -20642,7 +20642,7 @@ msgctxt ""
 "par_id3156361\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DEZIMAL\">Converts text with characters from a <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"number system\">number system</link> to a positive integer in the base radix given.</ahelp> The radix must be in the range 2 to 36. Spaces and tabs are ignored. The <emph>Text</emph> field is not case-sensitive."
-msgstr "<ahelp hid=\"HID_FUNC_DEZIMAL\">Wandelt Text mit Zeichen aus einem <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"number system\">Zahlensystem</link> in eine positive Ganzzahl in der gegebenen Zahlenbasis um.</ahelp> Die Zahlenbasis muss im Bereich von 2 bis 36 liegen. Leer- und Tabulatorzeichen werden ignoriert. Das Feld <emph>Text</emph> unterscheidet nicht zwischen Groß- und Kleinschreibung."
+msgstr "<ahelp hid=\"HID_FUNC_DEZIMAL\">Wandelt Text mit Zeichen aus einem <link href=\"text/shared/00/00000005.xhp#number_system\" name=\"number system\">Zahlensystem</link> in eine positive ganze Zahl in der gegebenen Zahlenbasis um.</ahelp> Die Zahlenbasis muss im Bereich von 2 bis 36 liegen. Leer- und Tabulatorzeichen werden ignoriert. Das Feld <emph>Text</emph> unterscheidet nicht zwischen Groß- und Kleinschreibung."
 
 #. 5yN72
 #: 04060110.xhp
@@ -21164,7 +21164,7 @@ msgctxt ""
 "par_id2949141\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=LINKSB(\"中国\";1)</item> ergibt \" \" (1 Byte ist nur ein halbes DBCS-Zeichen, deshalb wird ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. mQvUN
 #: 04060110.xhp
@@ -21173,7 +21173,7 @@ msgctxt ""
 "par_id2949151\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=LINKSB(\"中国\";2)</item> ergibt \"中\" (2 Bytes bilden ein vollständiges DBCS-Zeichen)."
 
 #. qAEZ3
 #: 04060110.xhp
@@ -21182,7 +21182,7 @@ msgctxt ""
 "par_id2949161\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";3)</item> returns \"中 \" (3 bytes constitute one DBCS character and a half; the last character returned is therefore a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=LINKSB(\"中国\";3)</item> ergibt \"中 \" (3 Bytes bilden eineinhalb DBCS-Zeichen; als zweites Zeichen wird deshalb ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. s3UVQ
 #: 04060110.xhp
@@ -21191,7 +21191,7 @@ msgctxt ""
 "par_id2949171\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=LINKSB(\"中国\";4)</item> ergibt \"中国\" (4 Bytes bilden zwei vollständige DBCS-Zeichen)."
 
 #. FM3FS
 #: 04060110.xhp
@@ -21200,7 +21200,7 @@ msgctxt ""
 "par_id2949181\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"office\";3)</item> returns \"off\" (3 non-DBCS characters each consisting of 1 byte)."
-msgstr ""
+msgstr "<item type=\"input\">=LINKSB(\"Büro\";3)</item> ergibt \"Bür\" (3 Nicht-DBCS-Zeichen, jedes mit der Länge von 1 Byte)."
 
 #. eEgeD
 #: 04060110.xhp
@@ -21551,7 +21551,7 @@ msgctxt ""
 "par_id2958417\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;0)</item> returns \"\" (0 bytes is always an empty string)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";1;0)</item> ergibt \"\" (0 Bytes entsprechen immer einer leeren Zeichenfolge)."
 
 #. q6dWL
 #: 04060110.xhp
@@ -21560,7 +21560,7 @@ msgctxt ""
 "par_id2958427\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;1)</item> returns \" \" (1 byte is only half a DBCS character and therefore the result is a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";1;1)</item> ergibt \" \" (1 Byte ist lediglich ein halbes DBCS-Zeichen, deshalb wird ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. CfNES
 #: 04060110.xhp
@@ -21569,7 +21569,7 @@ msgctxt ""
 "par_id2958437\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";1;2)</item> ergibt \"中\" 2 Bytes bilden ein vollständiges DBCS-Zeichen)."
 
 #. wBLqC
 #: 04060110.xhp
@@ -21578,7 +21578,7 @@ msgctxt ""
 "par_id2958447\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;3)</item> returns \"中 \" (3 bytes constitute one and a half DBCS character; the last byte results in a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";1;3)</item> ergibt \"中 \" (3 Bytes bilden eineinhalb DBCS-Zeichen; als zweites Zeichen wird deshalb ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. GedmG
 #: 04060110.xhp
@@ -21587,7 +21587,7 @@ msgctxt ""
 "par_id2958457\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";1;4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";1;4)</item> ergibt \"中国\" (4 Bytes bilden zwei vollständige DBCS-Zeichen)."
 
 #. dAMAA
 #: 04060110.xhp
@@ -21596,7 +21596,7 @@ msgctxt ""
 "par_id2958467\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;1)</item> returns \" \" (byte position 2 is not at the beginning of a character in a DBCS string; 1 space character is returned)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";2;1)</item> ergibt \" \" (Die 2. Byteposition ist nicht am Anfang eines Zeichens einer DBCS-Zeichenfolge; deshalb wird ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. SXLij
 #: 04060110.xhp
@@ -21605,7 +21605,7 @@ msgctxt ""
 "par_id2958477\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;2)</item> returns \" \" (byte position 2 points to the last half of the first character in the DBCS string; the 2 bytes asked for therefore constitutes the last half of the first character and the first half of the second character in the string; 2 space characters are therefore returned)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";2;2)</item> ergibt \"  \" (Die 2. Byteposition ist nicht am Anfang eines Zeichens einer DBCS-Zeichenfolge; die 2 Bytes, die zurückgegeben werden sollen, bilden stattdessen die zweite Hälfte des ersten Zeichens und die erste Hälfte des zweiten Zeichens in der Zeichenfolge; deshalb werden ersatzweise zwei Leerzeichen zurückgegeben)."
 
 #. cFw7V
 #: 04060110.xhp
@@ -21614,7 +21614,7 @@ msgctxt ""
 "par_id2958487\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";2;3)</item> returns \" 国\" (byte position 2 is not at the beginning of a character in a DBCS string; a space character is returned for byte position 2)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";2;3)</item> ergibt \" 国\" (Die 2. Byteposition ist nicht am Anfang eines Zeichens einer DBCS-Zeichenfolge; deshalb wird ersatzweise ein Leerzeichen für die 2. Byteposition zurückgegeben)."
 
 #. drtpL
 #: 04060110.xhp
@@ -21623,7 +21623,7 @@ msgctxt ""
 "par_id2958497\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;1)</item> returns \" \" (byte position 3 is at the beginning of a character in a DBCS string, but 1 byte is only half a DBCS character and a space character is therefore returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";3;1)</item> ergibt \" \" (Die 3. Byteposition am Anfang eines Zeichens einer DBCS-Zeichenfolge, aber 1 Byte ist lediglich ein halbes DBCS-Zeichen, deshalb wird ersatzweise ein Leerzeichen zurückgegeben)."
 
 #. koipq
 #: 04060110.xhp
@@ -21632,7 +21632,7 @@ msgctxt ""
 "par_id2958507\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;2)</item> returns \"国\" (byte position 3 is at the beginning of a character in a DBCS string, and 2 bytes constitute one DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"中国\";3;2)</item> ergibt \"国\" (Die 3. Byteposition ist am Anfang eines Zeichens einer DBCS-Zeichenfolge und 2 Bytes bilden ein DBCS-Zeichen)."
 
 #. aQmsH
 #: 04060110.xhp
@@ -21641,7 +21641,7 @@ msgctxt ""
 "par_id2958517\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"office\";2;3)</item> returns \"ffi\" (byte position 2 is at the beginning of a character in a non-DBCS string, and 3 bytes of a non-DBCS string constitute 3 characters)."
-msgstr ""
+msgstr "<item type=\"input\">=TEILB(\"Büro\";2;3)</item> ergibt \"üro\" (Die 2. Byteposition ist am Anfang eines Zeichens einer Nicht-DBCS-Zeichenfolge und 3 Bytes einer Nicht-DBCS-Zeichenfolge bilden 3 Zeichen)."
 
 #. k4kCo
 #: 04060110.xhp
@@ -21857,7 +21857,7 @@ msgctxt ""
 "par_id381626381556310\n"
 "help.text"
 msgid "Refer to the <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/REPT\" name=\"REPT_Wiki\">REPT</link> wiki page for more details about this function."
-msgstr ""
+msgstr "Lesen Sie für weitere Details über diese Funktion die Wikipedia-Seite <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/REPT\" name=\"REPT_Wiki\">REPT</link> (englisch)."
 
 #. mtFNA
 #: 04060110.xhp
@@ -21911,7 +21911,7 @@ msgctxt ""
 "par_id3153350\n"
 "help.text"
 msgid "<emph>Number</emph> (optional) is the number of characters from the right part of the text. If this parameter is not defined, one character is returned."
-msgstr ""
+msgstr "<emph>Zahl</emph> (optional) gibt die Anzahl von Zeichen im rechten Teil des Textes an. Ist diese Parameter leer, wird ein Zeichen zurückgegeben."
 
 #. xNFMc
 #: 04060110.xhp
@@ -21956,7 +21956,7 @@ msgctxt ""
 "par_id2954344\n"
 "help.text"
 msgid "RIGHTB(\"Text\" [; Number_bytes])"
-msgstr "RECHTSB(\"Text\" [; Zahl_Bytes])"
+msgstr "RECHTSB(\"Text\" [; Anzahl_Bytes])"
 
 #. jvjXS
 #: 04060110.xhp
@@ -21974,7 +21974,7 @@ msgctxt ""
 "par_id2953350\n"
 "help.text"
 msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want RIGHTB to extract, based on bytes. If this parameter is not defined, one byte is returned."
-msgstr ""
+msgstr "<emph>Anzahl_Bytes</emph> (optional) gibt die Anzahl der auf Bytes basierenden Zeichen an, die Sie mit RECHTSB abfragen möchten. Ist diese Parameter leer, wird ein Byte zurückgegeben."
 
 #. KnAgN
 #: 04060110.xhp
@@ -22892,7 +22892,7 @@ msgctxt ""
 "par_id151626469224135\n"
 "help.text"
 msgid "<input>=ROT13(\"Gur Qbphzrag Sbhaqngvba jnf sbhaqrq va Frcgrzore 2010.\")</input> returns the string \"The Document Foundation was founded in September 2010.\". Notice how spaces, digits, and full stops are unaffected by ROT13."
-msgstr ""
+msgstr "<input>=ROT13(\"Gur Qbphzrag Sbhaqngvba jheqr vz Frcgrzore 2010 trteüaqrg.\")</input> ergibt die Zeichenfolge \"The Document Foundation wurde im September 2010 gegründet.\". Beachten Sie, dass Leerzeichen, Ziffern, Punkte und Umlaute nicht nicht von ROT13 beeinflusst werden."
 
 #. 4TMAT
 #: 04060111.xhp
@@ -22901,7 +22901,7 @@ msgctxt ""
 "par_id221626469509161\n"
 "help.text"
 msgid "Refer to the <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ROT13\" name=\"ROT13_Wiki\">ROT13</link> wiki page for more details about this function."
-msgstr ""
+msgstr "Lesen Sie für weitere Details zu dieser Funktion die Wikipedia-Seite <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ROT13\" name=\"ROT13_Wiki\">ROT13</link> (englisch)."
 
 #. CFJsA
 #: 04060111.xhp
