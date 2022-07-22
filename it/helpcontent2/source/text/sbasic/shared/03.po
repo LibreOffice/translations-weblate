@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-07-18 04:25+0000\n"
+"PO-Revision-Date: 2022-07-22 14:00+0000\n"
 "Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -185,7 +185,7 @@ msgctxt ""
 "par_id901528999850603\n"
 "help.text"
 msgid "• Basic macros require to load <literal>ScriptForge</literal> library using the following statement:<br/><literal>GlobalScope.BasicLibraries.loadLibrary(\"ScriptForge\")</literal><br/><br/>• Python scripts require an import from <literal>scriptforge</literal> module:<br/><literal>from scriptforge import CreateScriptService</literal>"
-msgstr ""
+msgstr "• Le macro in Basic richiedono il caricamento della libreria <literal>ScriptForge</literal> usando la seguente istruzione:<br/><literal>GlobalScope.BasicLibraries.loadLibrary(\"ScriptForge\")</literal><br/><br/>• Gli script in Python richiedono un'importazione dal modulo <literal>scriptforge</literal>:<br/><literal>from scriptforge import CreateScriptService</literal>"
 
 #. eotwE
 #: lib_ScriptForge.xhp
@@ -1706,7 +1706,7 @@ msgctxt ""
 "par_id281626980354105\n"
 "help.text"
 msgid "<input>Name,DateOfBirth,Address,City</input>"
-msgstr ""
+msgstr "<input>Nome,DataDiNascita,Indirizzo,Città</input>"
 
 #. FRZKB
 #: sf_array.xhp
@@ -1715,7 +1715,7 @@ msgctxt ""
 "par_id301626980648833\n"
 "help.text"
 msgid "<input>Anna,2002/03/31,\"Rue de l'église, 21\",Toulouse</input>"
-msgstr ""
+msgstr "<input>Anna,31/03/2002,\"Via della chiesa, 21\",Tolosa</input>"
 
 #. g2r8f
 #: sf_array.xhp
@@ -1724,7 +1724,7 @@ msgctxt ""
 "par_id881626980658900\n"
 "help.text"
 msgid "<input>Fred,1998/05/04,\"Rue Albert Einstein, 113A\",Carcassonne</input>"
-msgstr ""
+msgstr "<input>Fred,04/05/1998,\"Via Albert Einstein, 113A\",Carcassonne</input>"
 
 #. xNCNA
 #: sf_array.xhp
@@ -1742,7 +1742,7 @@ msgctxt ""
 "bas_id531585561482408\n"
 "help.text"
 msgid "arr = SF_Array.ImportFromCSVFile(\"C:\\Temp\\myFile.csv\", DateFormat := \"YYYY/MM/DD\")"
-msgstr ""
+msgstr "arr = SF_Array.ImportFromCSVFile(\"C:\\Temp\\myFile.csv\", DateFormat := \"DD/MM/YYYY\")"
 
 #. wyEqv
 #: sf_array.xhp
@@ -1751,7 +1751,7 @@ msgctxt ""
 "bas_id621585561482783\n"
 "help.text"
 msgid "MsgBox arr(0, 3) ' City"
-msgstr ""
+msgstr "MsgBox arr(0, 3) ' Città"
 
 #. tDMNL
 #: sf_array.xhp
@@ -1760,7 +1760,7 @@ msgctxt ""
 "bas_id21585564425349\n"
 "help.text"
 msgid "MsgBox arr(1, 2) ' Rue de l'église, 21"
-msgstr ""
+msgstr "MsgBox arr(1, 2) ' Via della chiesa, 21"
 
 #. SBfVW
 #: sf_array.xhp
@@ -1769,7 +1769,7 @@ msgctxt ""
 "bas_id831585564433851\n"
 "help.text"
 msgid "MsgBox arr(1, 3) ' Toulouse"
-msgstr ""
+msgstr "MsgBox arr(1, 3) ' Tolosa"
 
 #. DpxfS
 #: sf_array.xhp
@@ -1778,7 +1778,7 @@ msgctxt ""
 "pyc_id511626979992999\n"
 "help.text"
 msgid "arr = svc.ImportFromCSVFile(r\"C:\\Temp\\myFile.csv\", dateformat = \"YYYY/MM/DD\")"
-msgstr ""
+msgstr "arr = svc.ImportFromCSVFile(r\"C:\\Temp\\myFile.csv\", dateformat = \"DD/MM/YYYY\")"
 
 #. asqiD
 #: sf_array.xhp
@@ -1787,7 +1787,7 @@ msgctxt ""
 "pyc_id211626979993191\n"
 "help.text"
 msgid "bas.MsgBox(arr[0][3]) # City"
-msgstr ""
+msgstr "bas.MsgBox(arr[0][3]) # Città"
 
 #. 2gFXA
 #: sf_array.xhp
@@ -1796,7 +1796,7 @@ msgctxt ""
 "pyc_id671626979993408\n"
 "help.text"
 msgid "bas.MsgBox(arr[1][2]) # Rue de l'église, 21"
-msgstr ""
+msgstr "bas.MsgBox(arr[1][2]) # Via della chiesa, 21"
 
 #. kYfmG
 #: sf_array.xhp
@@ -1805,7 +1805,7 @@ msgctxt ""
 "pyc_id481626979993648\n"
 "help.text"
 msgid "bas.MsgBox(arr[1][3]) # Toulouse"
-msgstr ""
+msgstr "bas.MsgBox(arr[1][3]) # Tolosa"
 
 #. xCx7D
 #: sf_array.xhp
@@ -4064,7 +4064,7 @@ msgctxt ""
 "par_id641591021597701\n"
 "help.text"
 msgid "The sheet name is optional when defining a range. If no sheet name is provided, then the active sheet is used. Surrounding single quotes and $ signs are allowed but ignored."
-msgstr ""
+msgstr "Il nome del foglio è opzionale quando si definisce un intervallo. Se non è specificato il nome del foglio, viene usato il foglio attivo. I simboli delle virgolette semplici e del dollaro ($) sono ammessi, ma vengono ignorati."
 
 #. ebNR5
 #: sf_calc.xhp
@@ -4073,7 +4073,7 @@ msgctxt ""
 "par_id231655754032310\n"
 "help.text"
 msgid "When specifying a <literal>SheetName</literal> as a string, the use of single quotes to enclose the sheet name are required if the name contains blank spaces \" \" or periods \".\"."
-msgstr ""
+msgstr "Quando si specifica il nome del foglio <literal>SheetName</literal> in formato stringa, l'uso delle virgolette semplici per racchiudere il nome del foglio è necessario se il nome contiene degli spazi bianchi \" \" o dei punti \".\"."
 
 #. BsAKT
 #: sf_calc.xhp
@@ -4082,7 +4082,7 @@ msgctxt ""
 "par_id931655906591984\n"
 "help.text"
 msgid "The examples below illustrate in which cases the use of single quotes is mandatory:"
-msgstr ""
+msgstr "Gli esempi sottostanti illustrano in quali casi l'uso delle virgolette semplici è obbligatorio:"
 
 #. DGacM
 #: sf_calc.xhp
@@ -4091,7 +4091,7 @@ msgctxt ""
 "bas_id971655754336388\n"
 "help.text"
 msgid "' The use of single quotes is optional"
-msgstr ""
+msgstr "' L'uso delle virgolette semplici è opzionale"
 
 #. yWFhF
 #: sf_calc.xhp
@@ -4100,7 +4100,7 @@ msgctxt ""
 "bas_id711655754337420\n"
 "help.text"
 msgid "' The use of single quotes is required"
-msgstr ""
+msgstr "' L'uso delle virgolette semplici è necessario"
 
 #. GVF9g
 #: sf_calc.xhp
@@ -4127,7 +4127,7 @@ msgctxt ""
 "par_id481591024294524\n"
 "help.text"
 msgid "1) $'SheetX'.D2<br/>2) $D$2"
-msgstr ""
+msgstr "1) $'FoglioX'.D2<br/>2) $D$2"
 
 #. pMZEe
 #: sf_calc.xhp
@@ -4145,7 +4145,7 @@ msgctxt ""
 "par_id21591024294492\n"
 "help.text"
 msgid "1) $'SheetX'.D2:F6<br/>2) D2:D10"
-msgstr ""
+msgstr "1) '$FoglioX'.D2:F6<br/>2) D2:D10"
 
 #. P7Ete
 #: sf_calc.xhp
@@ -4163,7 +4163,7 @@ msgctxt ""
 "par_id161592230749179\n"
 "help.text"
 msgid "$'SheetX'.*"
-msgstr ""
+msgstr "$'FoglioX'.*"
 
 #. eQu5j
 #: sf_calc.xhp
@@ -4181,7 +4181,7 @@ msgctxt ""
 "par_id641591024294318\n"
 "help.text"
 msgid "1) $'SheetX'.A:A (column A)<br/>2) 3:5 (rows 3 to 5)"
-msgstr ""
+msgstr "1) '$FoglioX'.A:A (colonna A)<br/>2) 3:5 (righe da 3 a 5)"
 
 #. qpGBr
 #: sf_calc.xhp
@@ -4667,7 +4667,7 @@ msgctxt ""
 "par_id731591025591006\n"
 "help.text"
 msgid "Returns the sheet name of a given range address."
-msgstr ""
+msgstr "Restituisce il nome del foglio di un determinato intervallo."
 
 #. HLpEQ
 #: sf_calc.xhp
@@ -5072,7 +5072,7 @@ msgctxt ""
 "par_id841592919903025\n"
 "help.text"
 msgid "Deletes the columns of a specified range that match a filter expressed as a Calc formula. The filter is applied to each column to decide whether it will be deleted or not."
-msgstr ""
+msgstr "Rimuove da uno specifico intervallo le colonne che corrispondono ad un filtro espresso come formula di Calc. Il filtro viene applicato ad ogni colonna per decidere se questa sarà rimossa o meno."
 
 #. 4JWnp
 #: sf_calc.xhp
