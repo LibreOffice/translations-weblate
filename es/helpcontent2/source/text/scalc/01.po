@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-07-22 07:50+0000\n"
+"PO-Revision-Date: 2022-07-22 20:32+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/es/>\n"
 "Language: es\n"
@@ -22940,7 +22940,7 @@ msgctxt ""
 "par_id3151387\n"
 "help.text"
 msgid "<emph>StartDate</emph> is the start date in the interval."
-msgstr "<emph>Fecha Inicial</emph> es la fecha de inicio en el intervalo."
+msgstr "<emph>Fecha de inicio</emph> es la fecha inicial en el intervalo."
 
 #. AGYKD
 #: 04060111.xhp
@@ -22949,7 +22949,7 @@ msgctxt ""
 "par_id3146324\n"
 "help.text"
 msgid "<emph>EndDate</emph> is the end date in the interval. The end date must be greater than the start date, or else an error is returned."
-msgstr "<emph>Fecha Final</emph> es la fecha final en el intervalo. La fecha final debe ser mayor que la fecha de inicio, de lo contrario nos  devuelve un error."
+msgstr "<emph>Fecha de finalización</emph> es la fecha final en el intervalo. La fecha de finalización debe ser posterior a la de inicio, o de lo contrario se devolverá un error."
 
 #. PcBbC
 #: 04060111.xhp
@@ -22976,7 +22976,7 @@ msgctxt ""
 "par_id31641991010650\n"
 "help.text"
 msgid "If <emph>Type = 1</emph> the function will consider Monday to be the first day of the week. Therefore, except for the start date, each occurrence of a Monday in the interval is counted as an additional week."
-msgstr "Si <emph>Tipo = 1</emph> la función aceptará el lunes como el primer día de la semana. Por lo tanto, a excepción de la fecha de inicio, cada aparición de un lunes en el intervalo se cuenta como una semana adicional."
+msgstr "Si <emph>Tipo = 1</emph>, la función considerará el lunes como el primer día de la semana. Por lo tanto, a excepción de la fecha de inicio, cada aparición de un lunes en el intervalo se cuenta como una semana adicional."
 
 #. CF4K3
 #: 04060111.xhp
@@ -23003,7 +23003,7 @@ msgctxt ""
 "par_id71641991391639\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/12/2022\",\"01/17/2022\",0)</input> returns 0 because <emph>Type</emph> was set to 0 and there are only 5 days in the interval."
-msgstr ""
+msgstr "<input>=SEMANAS(\"01/12/2022\", \"01/17/2022\",0)</input>nos devuelve 0 porque <emph>Tipo</emph> se estableció en 0 y sólo hay 5 días en el intervalo."
 
 #. zVfY3
 #: 04060111.xhp
@@ -23012,7 +23012,7 @@ msgctxt ""
 "par_id71641991390039\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/12/2022\",\"01/19/2022\",0)</input> returns 1 because <emph>Type</emph> was set to 0 and there are 7 days in the interval."
-msgstr ""
+msgstr "<input>=SEMANAS(\"01/12/2022\", \"01/19/2022\",0)</input> nos devuelve 1 porque <emph>Tipo</emph> se estableció en 0 y hay 7 días en el intervalo."
 
 #. rABLZ
 #: 04060111.xhp
@@ -23021,7 +23021,7 @@ msgctxt ""
 "par_id71641991391123\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/12/2022\",\"01/17/2022\",1)</input> returns 1 because <emph>Type</emph> was set to 1 and the interval contains a Monday, since 01/12/2022 is a Wednesday and 01/17/2022 is a Monday."
-msgstr ""
+msgstr "<input>=SEMANAS(\"01/12/2022\", \"01/17/2022\",1)</input>nos devuelve 1 porque <emph>Tipo</emph> se estableció en 1 y el intervalo contiene un lunes, ya que el día 01/12/2022 es un miércoles y el día 17/01/2022 es un lunes."
 
 #. AxokT
 #: 04060111.xhp
@@ -23030,7 +23030,7 @@ msgctxt ""
 "par_id71641991332523\n"
 "help.text"
 msgid "<input>=WEEKS(\"01/10/2022\",\"01/15/2022\",1)</input> returns 0 because <emph>Type</emph> was set to 1 and the interval does not contain any Mondays, except for the start date."
-msgstr ""
+msgstr "<input>=SEMANAS(\"01/10/2022\", \"01/15/2022\",1)</input> nos devuelve 0 porque <emph>Tipo</emph> se estableció en 1 y el intervalo no contiene ningún lunes, excepto la fecha de inicio."
 
 #. 94JhK
 #: 04060111.xhp
@@ -23156,7 +23156,7 @@ msgctxt ""
 "par_id3149211\n"
 "help.text"
 msgid "$[officename] searches the Add-in folder defined in the configuration for a suitable <switchinline select=\"sys\"><caseinline select=\"UNIX\">shared library</caseinline><defaultinline>DLL</defaultinline></switchinline>. To be recognized by $[officename], the <switchinline select=\"sys\"><caseinline select=\"UNIX\">shared library</caseinline><defaultinline>DLL</defaultinline></switchinline> must have certain properties, as explained in the following. This information allows you to program your own Add-In for <emph>Function Wizard</emph> of $[officename] Calc."
-msgstr ""
+msgstr "$[nombre de la oficina] busca en la carpeta añadir en la configuración una <switchinline select=\"sys\"><caseinline select=\"UNIX\">biblioteca compartida</caseinline><defaultinline>DLL</defaultinline></switchinline> adecuada. Para ser reconocida por $[nombre de la oficina], la <switchinline select=\"sys\"><caseinline select=\"UNIX\">biblioteca compartida</caseinline><defaultinline>DLL</defaultinline></switchinline> debe tener ciertas propiedades, como se explica a continuación. Esta información le permite programar su propio añadir en para el <emph>Asistente de funciones</emph> de $[nombre de la oficina] Calc."
 
 #. CAC5V
 #: 04060112.xhp
@@ -23381,7 +23381,7 @@ msgctxt ""
 "par_id3153019\n"
 "help.text"
 msgid "Following you will find a description of those functions, which are called at the <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library</caseinline><defaultinline>external DLL</defaultinline></switchinline>."
-msgstr ""
+msgstr "A continuación encontrará una descripción de esas funciones, que se llaman en la <switchinline select=\"sys\"><caseinline select=\"UNIX\">Biblioteca compartida</caseinline><defaultinline>DLL externa</defaultinline></switchinline>."
 
 #. kDo37
 #: 04060112.xhp
@@ -23390,7 +23390,7 @@ msgctxt ""
 "par_id3150038\n"
 "help.text"
 msgid "For all <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library</caseinline><defaultinline>DLL</defaultinline></switchinline> functions, the following applies:"
-msgstr ""
+msgstr "Para todas las funciones <switchinline select=\"sys\"><caseinline select=\"UNIX\">Biblioteca compartida</caseinline><defaultinline>DLL</defaultinline></switchinline>, se aplica lo siguiente:"
 
 #. QZ7q4
 #: 04060112.xhp
@@ -23399,7 +23399,7 @@ msgctxt ""
 "par_id3147616\n"
 "help.text"
 msgid "<emph>Output</emph>: Resulting value"
-msgstr ""
+msgstr "<emph>Salida</emph>: Valor resultante"
 
 #. ErpXM
 #: 04060112.xhp
@@ -23408,7 +23408,7 @@ msgctxt ""
 "par_id3159119\n"
 "help.text"
 msgid "<emph>Input</emph>: Any number of types (double&, char*, double*, char**, Cell area), where the <link href=\"text/scalc/01/04060112.xhp\" name=\"Cell area\">Cell area</link> is an array of types double array, string array, or cell array."
-msgstr ""
+msgstr "<emph>Entrada</emph>: Cualquier número de tipos (doble&, carácter*, doble*, carácter**, Área de celdas), donde el <link href=\"text/scalc/01/04060112.xhp\" nombre=\"Área de celdas\">Área de celdas</link> es una matriz de los tipos matriz doble, matriz de cadenas, o matriz de celda."
 
 #. BJLCP
 #: 04060112.xhp
@@ -23453,7 +23453,7 @@ msgctxt ""
 "par_id3149893\n"
 "help.text"
 msgid "<emph>Output</emph>: Reference to a variable, which is supposed to contain the number of Add-In functions. For example: If the Add-In provides 5 functions for $[officename] Calc, then nCount=5."
-msgstr ""
+msgstr "<emph>Salida</emph>: Referencia a una variable, que se supone que contiene el número de funciones del Add-In. Por ejemplo: Si el Add-In proporciona 5 funciones para $[nombre de la oficina] Calc, entonces nContar=5."
 
 #. GFJes
 #: 04060112.xhp
@@ -23498,7 +23498,7 @@ msgctxt ""
 "par_id3149949\n"
 "help.text"
 msgid "<emph>Input</emph>: Function number between 0 and nCount-1, inclusively."
-msgstr ""
+msgstr "<emph>Entrada</emph>: Número de función entre 0 y nCount-1, inclusive."
 
 #. CSBYk
 #: 04060112.xhp
@@ -23507,7 +23507,7 @@ msgctxt ""
 "par_id3148579\n"
 "help.text"
 msgid "<emph>Output</emph>: Function name as seen by the programmer, as it is named in the <switchinline select=\"sys\"><caseinline select=\"UNIX\">Shared Library</caseinline><defaultinline>DLL</defaultinline></switchinline>. This name does not determine the name used in the <emph>Function Wizard</emph>."
-msgstr ""
+msgstr "<emph>Salida</emph>: Nombra la función tal y como la ve el programador, tal y como se nombra en la <switchinline select=\"sys\"><caseinline select=\"UNIX\">Biblioteca compartida</caseinline><defaultinline>DLL</defaultinline></switchinline>. Este nombre no determina el nombre utilizado en el <emph>Asistente para funciones</emph>."
 
 #. 6yGps
 #: 04060112.xhp
@@ -23516,7 +23516,7 @@ msgctxt ""
 "par_id3150142\n"
 "help.text"
 msgid "<emph>Output</emph>: Number of parameters in AddIn function. This number must be greater than 0, because there is always a result value; the maximum value is 16."
-msgstr ""
+msgstr "<emph>Salida</emph>: Número de parámetros de la función Add-In. Este número debe ser mayor que 0, porque siempre hay un valor de resultado; el valor máximo es 16."
 
 #. TjFBR
 #: 04060112.xhp
@@ -23525,7 +23525,7 @@ msgctxt ""
 "par_id3148750\n"
 "help.text"
 msgid "<emph>Output</emph>: Pointer to an array of exactly 16 variables of type Paramtype. The first nParamCount entries are filled with the suitable type of parameter."
-msgstr ""
+msgstr "<emph>Salida</emph>: Puntero a una matriz de exactamente 16 variables de tipo de parámetro. Las primeras entradas de nContar parámetro se llenan con el tipo de parámetro adecuado."
 
 #. YNrEv
 #: 04060112.xhp
@@ -23534,7 +23534,7 @@ msgctxt ""
 "par_id3155261\n"
 "help.text"
 msgid "<emph>Output</emph>: Function name as seen by the user, as it appears in the <emph>Function Wizard</emph>. May contain umlauts."
-msgstr ""
+msgstr "<emph>Salida</emph>: Nombre de la función tal y como lo ve el usuario, tal y como aparece en el <emph>Asistente de funciones</emph>. Puede contener diéresis."
 
 #. rcNLZ
 #: 04060112.xhp
@@ -23579,7 +23579,7 @@ msgctxt ""
 "par_id3153564\n"
 "help.text"
 msgid "<literal>void CALLTYPE GetParameterDescription(USHORT& nNo, USHORT& nParam, char* pName, char* pDesc)</literal>"
-msgstr ""
+msgstr "<literal>Tipo de llamada luna descripción de parámetros(USHORT& nNo, USHORT& nParam, char* pName, char* pDesc)</literal>"
 
 #. 99Z6E
 #: 04060112.xhp
@@ -23597,7 +23597,7 @@ msgctxt ""
 "par_id3149883\n"
 "help.text"
 msgid "<emph>Input</emph>: Number of the function in the library; between 0 and nCount-1."
-msgstr ""
+msgstr "<emph>Entrada</emph>: Número de la función en la biblioteca; entre 0 y nCount-1."
 
 #. QHn87
 #: 04060112.xhp
@@ -23606,7 +23606,7 @@ msgctxt ""
 "par_id3159139\n"
 "help.text"
 msgid "<emph>Input</emph>: Indicates, for which parameter the description is provided; parameters start at 1. If nParam is 0, the description itself is supposed to be provided in pDesc; in this case, pName does not have any meaning."
-msgstr ""
+msgstr "<emph>Input</emph>: Indica, para qué parámetro se proporciona la descripción; los parámetros comienzan en 1. Si nParam es 0, se supone que la propia descripción se proporciona en pDesc; en este caso, pName no tiene ningún significado."
 
 #. Eq6cW
 #: 04060112.xhp
@@ -23615,7 +23615,7 @@ msgctxt ""
 "par_id3145245\n"
 "help.text"
 msgid "<emph>Output</emph>: Takes up the parameter name or type, for example, the word \"Number\" or \"String\" or \"Date\", and so on. Implemented in $[officename] Calc as char[256]."
-msgstr ""
+msgstr "<emph>Output</emph>: Toma el nombre o tipo de parámetro, por ejemplo, la palabra \"Número\" o \"Cadena\" o \"Fecha\", etc. Implementado en $[officename] Calc como carácter[256]."
 
 #. yf6Eg
 #: 04060112.xhp
@@ -23624,7 +23624,7 @@ msgctxt ""
 "par_id3148389\n"
 "help.text"
 msgid "<emph>Output</emph>: Takes up the description of the parameter, for example, \"Value, at which the universe is to be calculated.\" Implemented in $[officename] Calc as char[256]."
-msgstr ""
+msgstr "<emph>Output</emph>: Recoge la descripción del parámetro, por ejemplo, \"Valor, al que se va a calcular el universo\". Implementado en $[officename] Calc como carácter[256]."
 
 #. 52p82
 #: 04060112.xhp
@@ -24596,7 +24596,7 @@ msgctxt ""
 "bm_id3153074\n"
 "help.text"
 msgid "<bookmark_value>Bessel functions</bookmark_value>  <bookmark_value>BESSELI function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Funciones de Bessel</bookmark_value> <bookmark_value>Función BESSELI</bookmark_value>"
 
 #. YpfCj
 #: 04060115.xhp
@@ -24677,7 +24677,7 @@ msgctxt ""
 "bm_id161618267677640\n"
 "help.text"
 msgid "<bookmark_value>BESSELJ function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Función BESSELJ</bookmark_value>"
 
 #. Cccmx
 #: 04060115.xhp
@@ -24758,7 +24758,7 @@ msgctxt ""
 "bm_id151618267791726\n"
 "help.text"
 msgid "<bookmark_value>BESSELK function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Función BESSELK</bookmark_value>"
 
 #. jb2FF
 #: 04060115.xhp
@@ -24839,7 +24839,7 @@ msgctxt ""
 "bm_id201618267836525\n"
 "help.text"
 msgid "<bookmark_value>BESSELY function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Función de BESSELY</bookmark_value>"
 
 #. 9PCdq
 #: 04060115.xhp
@@ -25181,7 +25181,7 @@ msgctxt ""
 "par_id3148768\n"
 "help.text"
 msgid "<emph>Number</emph> is a number between -512 and 511. If Number is negative, the function returns a binary number string with 10 characters. The most significant bit is the sign bit, the other 9 bits return the value."
-msgstr ""
+msgstr "<emph>Número</emph> es un número entre -512 y 511. Si Número es negativo, la función devuelve una cadena de números binarios con 10 caracteres. El bit más significativo es el de signo, los otros 9 bits devuelven el valor."
 
 #. 95P9e
 #: 04060115.xhp
@@ -25199,7 +25199,7 @@ msgctxt ""
 "par_id3150662\n"
 "help.text"
 msgid "<item type=\"input\">=DEC2BIN(100;8)</item> returns \"01100100\"."
-msgstr ""
+msgstr "<item type=\"input\">=DEC.A.BIN(100;8)</item> devuelve \"01100100\"."
 
 #. pjCyJ
 #: 04060115.xhp
@@ -25226,7 +25226,7 @@ msgctxt ""
 "par_id3149030\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_DEC2HEX\">The result is the string representing the number in hexadecimal form for the number entered.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_DEC2HEX\">El resultado es la cadena que representa el número en forma hexadecimal para el número introducido.</ahelp>"
 
 #. T8PpC
 #: 04060115.xhp
@@ -25235,7 +25235,7 @@ msgctxt ""
 "par_id3147535\n"
 "help.text"
 msgid "DEC2HEX(Number [; Places])"
-msgstr ""
+msgstr "DEC.A.HEX(Número [; Lugares])"
 
 #. hPFv2
 #: 04060115.xhp
@@ -25244,7 +25244,7 @@ msgctxt ""
 "par_id3152820\n"
 "help.text"
 msgid "<emph>Number</emph> is a number. If Number is negative, the function returns a hexadecimal number string with 10 characters (40 bits). The most significant bit is the sign bit, the other 39 bits return the value."
-msgstr ""
+msgstr "<emph>Número</emph> es un número. Si Número es negativo, la función devuelve una cadena de números hexadecimales con 10 caracteres (40 bits). El bit más significativo es el de signo, los otros 39 bits nos devuelven el valor."
 
 #. TKcz6
 #: 04060115.xhp
@@ -25262,7 +25262,7 @@ msgctxt ""
 "par_id3150476\n"
 "help.text"
 msgid "<item type=\"input\">=DEC2HEX(100;4)</item> returns \"0064\"."
-msgstr ""
+msgstr "<item type=\"input\">=DEC.A.HEX(100;4)</item> devuelve \"0064\"."
 
 #. FEEsf
 #: 04060115.xhp
@@ -25289,7 +25289,7 @@ msgctxt ""
 "par_id3153920\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_DEC2OCT\">The result is the string representing the number in octal form for the number entered.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_DEC2OCT\">El resultado es la cadena que representa el número en forma octal para el número introducido.</ahelp>"
 
 #. 5ecSa
 #: 04060115.xhp
@@ -25298,7 +25298,7 @@ msgctxt ""
 "par_id3148427\n"
 "help.text"
 msgid "DEC2OCT(Number [; Places])"
-msgstr ""
+msgstr "DEC.A.OCT(Número [; Lugares])"
 
 #. ciFBX
 #: 04060115.xhp
@@ -25307,7 +25307,7 @@ msgctxt ""
 "par_id3155991\n"
 "help.text"
 msgid "<emph>Number</emph> is a number. If Number is negative, the function returns an octal number string with 10 characters (30 bits). The most significant bit is the sign bit, the other 29 bits return the value."
-msgstr ""
+msgstr "<emph>Número</emph> es un número. Si el número es negativo, la función devuelve una cadena de números octales con 10 caracteres (30 bits). El bit más significativo es el de signo, los otros 29 bits nos devuelven el valor."
 
 #. tGXUB
 #: 04060115.xhp
@@ -25325,7 +25325,7 @@ msgctxt ""
 "par_id3154317\n"
 "help.text"
 msgid "<item type=\"input\">=DEC2OCT(100;4)</item> returns \"0144\"."
-msgstr ""
+msgstr "<item type=\"input\">=DEC.A.OCT(100;4)</item> devuelve \"0144\"."
 
 #. xBVz4
 #: 04060115.xhp
@@ -25361,7 +25361,7 @@ msgctxt ""
 "par_id3163824\n"
 "help.text"
 msgid "ERF(LowerLimit [; UpperLimit])"
-msgstr ""
+msgstr "FUN.ERROR(Límite inferior [; Límite superior])"
 
 #. TyCGk
 #: 04060115.xhp
@@ -25379,7 +25379,7 @@ msgctxt ""
 "par_id3156294\n"
 "help.text"
 msgid "<emph>UpperLimit</emph> is optional. It is the upper limit of the integral. If this value is missing, the calculation takes place between 0 and the lower limit."
-msgstr ""
+msgstr "<emph>LímiteSuperior</emph> es opcional. Es el límite superior de la integral. Si falta este valor, el cálculo se realiza entre 0 y el límite inferior."
 
 #. HyxLa
 #: 04060115.xhp
@@ -25586,7 +25586,7 @@ msgctxt ""
 "par_id3145212\n"
 "help.text"
 msgid "GESTEP(Number [; Step])"
-msgstr ""
+msgstr "MAYOR.O.IGUAL(Número [; Paso])"
 
 #. QG8JU
 #: 04060115.xhp
@@ -25622,7 +25622,7 @@ msgctxt ""
 "par_id3150258\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_HEX2BIN\">The result is the string representing the number in binary (base-2) form for the hexadecimal number string entered.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_HEX2BIN\">El resultado es la cadena que representa el número en forma binaria (base-2) para la cadena numérica hexadecimal introducida.</ahelp>"
 
 #. S4Zyx
 #: 04060115.xhp
@@ -25631,7 +25631,7 @@ msgctxt ""
 "par_id3155847\n"
 "help.text"
 msgid "HEX2BIN(Number [; Places])"
-msgstr ""
+msgstr "HEX.A.BIN(Número [; Cifras])"
 
 #. bSZFP
 #: 04060115.xhp
@@ -25640,7 +25640,7 @@ msgctxt ""
 "par_id3152810\n"
 "help.text"
 msgid "<emph>Number</emph> is a string that represents a hexadecimal number. It can have a maximum of 10 places. The most significant bit is the sign bit, the following bits return the value. Negative numbers are entered as two's complement."
-msgstr ""
+msgstr "<emph>Número</emph> es una cadena que representa un número hexadecimal. Puede tener un máximo de 10 posiciones. El digito binario más significativo es el de signo, los siguientes digitos binarios nos devuelven el valor. Los números negativos se introducen como complemento a dos."
 
 #. MyDNX
 #: 04060115.xhp
@@ -25658,7 +25658,7 @@ msgctxt ""
 "par_id3156002\n"
 "help.text"
 msgid "<item type=\"input\">=HEX2BIN(\"6a\";8)</item> returns \"01101010\"."
-msgstr ""
+msgstr "<item type=\"input\">=HEX.A.BIN(\"6a\";8)</item> devuelve \"01101010\"."
 
 #. 8Exy5
 #: 04060115.xhp
@@ -25685,7 +25685,7 @@ msgctxt ""
 "par_id3153626\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_HEX2DEC\">The result is the number for the hexadecimal number string entered.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_HEX2DEC\">El resultado es el número de la cadena numérica hexadecimal introducida.</ahelp>"
 
 #. mopAX
 #: 04060115.xhp
@@ -25703,7 +25703,7 @@ msgctxt ""
 "par_id3159176\n"
 "help.text"
 msgid "<emph>Number</emph> is a string that represents a hexadecimal number. It can have a maximum of 10 places. The most significant bit is the sign bit, the following bits return the value. Negative numbers are entered as two's complement."
-msgstr ""
+msgstr "<emph>Número</emph> es una cadena que representa un número hexadecimal. Puede tener un máximo de 10 posiciones. El digito binario más significativo es el de signo, los siguientes digitos binarios nos devuelven el valor. Los números negativos se introducen como complemento a dos."
 
 #. FoRAT
 #: 04060115.xhp
@@ -25739,7 +25739,7 @@ msgctxt ""
 "par_id3153983\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_HEX2OCT\">The result is the string representing the number in octal form for the hexadecimal number string entered.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_HEX2OCT\">El resultado es la cadena que representa el número en forma octal para la cadena numérica hexadecimal introducida.</ahelp>"
 
 #. BoGKD
 #: 04060115.xhp
@@ -25748,7 +25748,7 @@ msgctxt ""
 "par_id3151170\n"
 "help.text"
 msgid "HEX2OCT(Number [; Places])"
-msgstr ""
+msgstr "HEX.A.OCT(Número [; Cifras])"
 
 #. 9wBCe
 #: 04060115.xhp
@@ -25757,7 +25757,7 @@ msgctxt ""
 "par_id3152795\n"
 "help.text"
 msgid "<emph>Number</emph> is a string that represents a hexadecimal number. It can have a maximum of 10 places. The most significant bit is the sign bit, the following bits return the value. Negative numbers are entered as two's complement."
-msgstr ""
+msgstr "<emph>Número</emph> es una cadena que representa un número hexadecimal. Puede tener un máximo de 10 posiciones. El digito binario más significativo es el de signo, los siguientes digitos binarios nos devuelven el valor. Los números negativos se introducen como complemento a dos."
 
 #. EsZAJ
 #: 04060115.xhp
@@ -25775,7 +25775,7 @@ msgctxt ""
 "par_id3159341\n"
 "help.text"
 msgid "<item type=\"input\">=HEX2OCT(\"6a\";4)</item> returns \"0152\"."
-msgstr ""
+msgstr "<item type=\"input\">=HEX.A.OCT(\"6a\";4)</item> devuelve \"0152\"."
 
 #. J65Mw
 #: 04060116.xhp
@@ -26027,7 +26027,7 @@ msgctxt ""
 "hd_id217971417131058\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/01/func_imcosh.xhp#imcosh_head\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_imcosh.xhp#imcosh_head\"/>"
 
 #. H4rBq
 #: 04060116.xhp
@@ -26036,7 +26036,7 @@ msgctxt ""
 "hd_id7625634121212\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/01/func_imcot.xhp#imcot_head\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_imcot.xhp#imcot_head\"/>"
 
 #. Fev3E
 #: 04060116.xhp
@@ -26045,7 +26045,7 @@ msgctxt ""
 "hd_id2907192866882\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/01/func_imcsc.xhp#imcsc_head\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_imcsc.xhp#imcsc_head\"/>"
 
 #. U7uHv
 #: 04060116.xhp
@@ -26054,7 +26054,7 @@ msgctxt ""
 "hd_id2111268313694\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/01/func_imcsch.xhp#imcsch_head\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_imcsch.xhp#imcsch_head\"/>"
 
 #. y5rLV
 #: 04060116.xhp
@@ -26360,7 +26360,7 @@ msgctxt ""
 "par_id3153545\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_IMPRODUCT\">The result is the product of a set of complex numbers.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_IMPRODUCT\">El resultado es el producto de un conjunto de números complejos.</ahelp>"
 
 #. RDe9u
 #: 04060116.xhp
@@ -26369,7 +26369,7 @@ msgctxt ""
 "par_id3149027\n"
 "help.text"
 msgid "IMPRODUCT(<embedvar href=\"text/scalc/01/ful_func.xhp#complex255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "IM.PRODUCT(<embedvar href=\"text/scalc/01/ful_func.xhp#complex255_1\" markup=\"keep\"/>)"
 
 #. x58Ur
 #: 04060116.xhp
@@ -26432,7 +26432,7 @@ msgctxt ""
 "hd_id882954222038\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/01/func_imsec.xhp#imsec_head\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_imsec.xhp#imsec_head\"/>"
 
 #. WpR5E
 #: 04060116.xhp
@@ -26441,7 +26441,7 @@ msgctxt ""
 "hd_id25480538323169\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/01/func_imsech.xhp#imsech_head\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_imsech.xhp#imsech_head\"/>"
 
 #. sWL67
 #: 04060116.xhp
@@ -26450,7 +26450,7 @@ msgctxt ""
 "hd_id14741462320337\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/01/func_imsin.xhp#imsin_head\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_imsin.xhp#imsin_head\"/>"
 
 #. bXgFc
 #: 04060116.xhp
@@ -26459,7 +26459,7 @@ msgctxt ""
 "hd_id12978120123414\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/01/func_imsinh.xhp#imsinh_head\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/01/func_imsinh.xhp#imsinh_head\"/>"
 
 #. ZRj2s
 #: 04060116.xhp
@@ -26540,7 +26540,7 @@ msgctxt ""
 "par_id3153215\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_IMSUM\">The result is the sum of a set of complex numbers.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_IMSUM\">El resultado es la suma de un conjunto de números complejos.</ahelp>"
 
 #. dY4UY
 #: 04060116.xhp
@@ -26639,7 +26639,7 @@ msgctxt ""
 "par_id3155999\n"
 "help.text"
 msgid "COMPLEX(RealNum; INum [; Suffix])"
-msgstr ""
+msgstr "COMPLEJO(NúmeroReal; INum [; Sufijo])"
 
 #. FCxXC
 #: 04060116.xhp
@@ -26702,7 +26702,7 @@ msgctxt ""
 "par_id3146898\n"
 "help.text"
 msgid "<ahelp hid=\"HID_AAI_FUNC_OCT2BIN\">The result is the string representing the number in binary (base-2) form for the octal number string entered.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_AAI_FUNC_OCT2BIN\">El resultado es la cadena que representa el número en forma binaria (base-2) para la cadena numérica octal introducida.</ahelp>"
 
 #. BTUGA
 #: 04060116.xhp
@@ -26720,7 +26720,7 @@ msgctxt ""
 "par_id3156013\n"
 "help.text"
 msgid "<emph>Number</emph> is a string that represents an octal number. It can have a maximum of 10 places. The most significant bit is the sign bit, the following bits return the value. Negative numbers are entered as two's complement."
-msgstr ""
+msgstr "<emph>Número</emph> es una cadena que representa un número octal. Puede tener un máximo de 10 posiciones. El digito binario más significativo es el de signo, los siguientes dígitos binarios devuelven el valor. Los números negativos se introducen como complemento a dos."
 
 #. is4pd
 #: 04060116.xhp
@@ -27026,7 +27026,7 @@ msgctxt ""
 "par_id3146098\n"
 "help.text"
 msgid "ODDFPRICE(Settlement; Maturity; Issue; FirstCoupon; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr ""
+msgstr "PRECIO.PER.IRREGULAR.1(Liquidación; Vencimiento; Emisión; Primer cupón; Tipo; Rendimiento; Amortización; Frecuencia [; Base])"
 
 #. kHZM8
 #: 04060118.xhp
@@ -27134,7 +27134,7 @@ msgctxt ""
 "par_id3152982\n"
 "help.text"
 msgid "ODDFYIELD(Settlement; Maturity; Issue; FirstCoupon; Rate; Price; Redemption; Frequency [; Basis])"
-msgstr ""
+msgstr "RENDTO.PER.IRREGULAR.1(Liquidación; Vencimiento; Emisión; Primer cupón; Tipo; Precio; Liquidación; Frecuencia [; Base])"
 
 #. nJXTW
 #: 04060118.xhp
@@ -27242,7 +27242,7 @@ msgctxt ""
 "par_id3155262\n"
 "help.text"
 msgid "ODDLPRICE(Settlement; Maturity; LastInterest; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr ""
+msgstr "PRECIO.PER.IRREGULAR.2(Liquidación; Vencimiento; Último interés; Tasa; Rendimiento; Amortización; Frecuencia [; Base])"
 
 #. iTfu4
 #: 04060118.xhp
@@ -27368,7 +27368,7 @@ msgctxt ""
 "par_id3150018\n"
 "help.text"
 msgid "ODDLYIELD(Settlement; Maturity; LastInterest; Rate; Price; Redemption; Frequency [; Basis])"
-msgstr ""
+msgstr "RENDTO.PER.IRREGULAR.2(Liquidación; Vencimiento; Último interés; Tasa; Precio; Reembolso; Frecuencia [; Base])"
 
 #. 4X7wa
 #: 04060118.xhp
@@ -27494,7 +27494,7 @@ msgctxt ""
 "par_id3149025\n"
 "help.text"
 msgid "VDB(Cost; Salvage; Life; Start; End [; Factor [; NoSwitch]])"
-msgstr ""
+msgstr "DVS(Coste; Valor residual; Vida; Inicio; Fin [; Factor [; Sin interruptor]])"
 
 #. zGhDb
 #: 04060118.xhp
@@ -27620,7 +27620,7 @@ msgctxt ""
 "par_id3149826\n"
 "help.text"
 msgid "XIRR(Values; Dates [; Guess])"
-msgstr ""
+msgstr "TIR.NO.PER(Valores; Fechas [; Adivinar])"
 
 #. GoDCv
 #: 04060118.xhp
@@ -28565,7 +28565,7 @@ msgctxt ""
 "par_id3151283\n"
 "help.text"
 msgid "IPMT(Rate; Period; NPer; PV [; FV [; Type]])"
-msgstr ""
+msgstr "PAGOINT(Tasa; Periodo; NPer; VA [; VF [; Tipo]])"
 
 #. WpENP
 #: 04060118.xhp
@@ -28673,7 +28673,7 @@ msgctxt ""
 "par_id3145215\n"
 "help.text"
 msgid "FV(Rate; NPer; Pmt [ ; [ PV ] [ ; Type ] ])"
-msgstr ""
+msgstr "VF(Tasa; NPer; Pago [ ; [ VA] [ ; Tipo ] ])"
 
 #. Y9GP8
 #: 04060118.xhp
@@ -28844,7 +28844,7 @@ msgctxt ""
 "par_id3155934\n"
 "help.text"
 msgid "NPER(Rate; Pmt; PV [ ; [ FV ] [ ; Type ] ])"
-msgstr ""
+msgstr "NPER(Tasa; Pago; VA [ ; [ VF] [ ; Tipo ] ])"
 
 #. X44J9
 #: 04060118.xhp
@@ -28997,7 +28997,7 @@ msgctxt ""
 "par_id3146878\n"
 "help.text"
 msgid "PPMT(Rate; Period; NPer; PV [ ; FV [ ; Type ] ])"
-msgstr ""
+msgstr "PAGOPRIN(Tasa; Periodo; NPer; VA [ ; VF [ ; Tipo ] ])"
 
 #. t4fJk
 #: 04060119.xhp
@@ -29807,7 +29807,7 @@ msgctxt ""
 "par_id3155393\n"
 "help.text"
 msgid "PRICEMAT(Settlement; Maturity; Issue; Rate; Yield [; Basis])"
-msgstr ""
+msgstr "PRECIO.VENCIMIENTO(Liquidación; Vencimiento; Emisión; Tasa; Rendimiento [; Base])"
 
 #. tG4zg
 #: 04060119.xhp
@@ -29879,7 +29879,7 @@ msgctxt ""
 "par_id3158409\n"
 "help.text"
 msgid "<input>=PRICEMAT(\"1999-02-15\";\"1999-04-13\";\"1998-11-11\"; 0.061; 0.061;0)</input>  returns 99.98449888."
-msgstr ""
+msgstr "<input>=PRECIO.VENCIMIENTO(\"1999-02-15\"; \"1999-04-13\"; \"1998-11-11\"; 0,061; 0,061;0)</input> devuelve 99,98449888."
 
 #. GAN7n
 #: 04060119.xhp
@@ -49096,7 +49096,7 @@ msgctxt ""
 "par_id3153836\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/consolidatedialog/eddataarea\">Specifies the cell range that you want to consolidate with the cell ranges listed in the <emph>Consolidation ranges </emph>box. Select a cell range in a sheet, and then click <emph>Add</emph>. You can also select the name of a predefined cell from the <emph>Source data range </emph>list.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/consolidatedialog/eddataarea\">Especifica el intervalo de celdas que quieres consolidar con los intervalos de celdas listados en la casilla <emph>Intervalos de consolidación</emph>. Seleccione un intervalo de celdas en una hoja y, a continuación, pulse en <emph>Añadir</emph>. También puede seleccionar el nombre de una celda predefinida de la lista <emph>Intervalo de datos de origen</emph>."
 
 #. HjAGk
 #: 12070000.xhp
@@ -49834,7 +49834,7 @@ msgctxt ""
 "hd_id3153663\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/12090100.xhp\" name=\"Pivot Table - Select Source\">Pivot Table - Select Source</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/12090100.xhp\" name=\"Pivot Table - Select Source\">Tabla dinámica - Seleccionar fuente</link>"
 
 #. JCesq
 #: 12090100.xhp
@@ -50104,7 +50104,7 @@ msgctxt ""
 "par_id3150768\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/pivottablelayoutdialog/listbox-fields\">To define the layout of a pivot table, drag and drop data field buttons onto the <emph>Filters, Row Fields, Column Fields</emph> and <emph>Data Fields</emph> areas.</ahelp> You can also use drag and drop to rearrange the data fields on a pivot table."
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/pivottablelayoutdialog/listbox-fields\">Para definir el diseño de una tabla dinámica, arrastre y suelte los botones de campo de datos en el<emph>Filtros, campos de fila, campos de columna</emph>y<emph>Campo de datos</emph>áreas</ahelp> También puede utilizar la función de arrastrar y soltar para reorganizar los campos de datos de una tabla dinámica."
 
 #. b5Zrk
 #: 12090102.xhp
@@ -50968,7 +50968,7 @@ msgctxt ""
 "par_idN106F7\n"
 "help.text"
 msgid "<ahelp hid=\".\">Opens the <link href=\"text/scalc/01/12090106.xhp\">Data Field Options</link> dialog. The <emph>Options</emph> button is visible for filters and column or row fields only.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Abre el<link href=\"text/scalc/01/12090106.xhp\">Opciones del campo de datos</link>cuadro de diálogo. El<emph>Opciones</emph>el botón es visible sólo para los filtros y los campos de columna o fila.</ahelp>"
 
 #. pTDtv
 #: 12090105.xhp
@@ -52165,7 +52165,7 @@ msgctxt ""
 "par_id101607384677959\n"
 "help.text"
 msgid "Only allow values that result in the formula entered in the <emph>Formula</emph> box to return <literal>TRUE</literal>, when the formula is calculated with the entered value. The formula can be any expression that evaluates to a boolean value of <literal>TRUE</literal> or <literal>FALSE</literal>, or returns a numerical value, where a nonzero value is interpreted as <literal>TRUE</literal> and <literal>0</literal> is interpreted as <literal>FALSE</literal>."
-msgstr ""
+msgstr "Sólo permite que los valores que resultan de la fórmula introducida en el cuadro <emph>Fórmula</emph> devuelvan <literal>VERDADERO</literal>, cuando la fórmula se calcula con el valor introducido. La fórmula puede ser cualquier expresión que se evalúe con un valor booleano de <literal>TRUE</literal> o <literal>FALSO</literal>, o que devuelva un valor numérico, donde un valor distinto de cero se interpreta como <literal>VERDADERO</literal> y <literal>0</literal> se interpreta como <literal>FALSO</literal>."
 
 #. LhCDS
 #: 12120100.xhp
@@ -52174,7 +52174,7 @@ msgctxt ""
 "par_id461607565255803\n"
 "help.text"
 msgid "Formulas can use relative referencing. For example, if cells <literal>A1:A4</literal> were selected, the cursor is in cell <literal>A1</literal> and <input>ISODD(A1)</input> is entered into the <emph>Formula</emph> box, then only odd numbers could be entered into cells <literal>A1</literal> through <literal>A4</literal>."
-msgstr ""
+msgstr "Las fórmulas pueden utilizar referencias relativas. Por ejemplo, si se han seleccionado las celdas <literal>A1:A4</literal>, el cursor está en la celda <literal>A1</literal> y se introduce <input>ISODD(A1)</input> en el cuadro <emph>Fórmula</emph>, entonces sólo se podrían introducir números impares en las celdas <literal>A1</literal> hasta <literal>A4</literal>."
 
 #. apG3s
 #: 12120100.xhp
@@ -52210,7 +52210,7 @@ msgctxt ""
 "par_idN1070D\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Shows a list of all valid strings or values to select from. The list can also be opened by selecting the cell and pressing <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command+D</keycode></caseinline><defaultinline><keycode>Ctrl+D</keycode></defaultinline></switchinline>.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Muestra una lista de todas las cadenas o valores válidos para seleccionar. La lista también se puede abrir seleccionando la celda y pulsando <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Orden+D</keycode></caseinline><defaultinline><keycode>Ctrl+D</keycode></defaultinline></switchinline>.</ahelp>"
 
 #. AuAaR
 #: 12120100.xhp
@@ -52282,7 +52282,7 @@ msgctxt ""
 "par_id3144502\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/data\">Select the comparative operator that you want to use.</ahelp> The available operators depend on what you selected in the <emph>Allow </emph>box. If you select \"between\" or \"not between\", the <emph>Minimum</emph> and <emph>Maximum</emph> input boxes appear. Otherwise, only the <emph>Minimum</emph>, the <emph>Maximum</emph>, or the <emph>Value</emph> input boxes appear."
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/data\">Seleccione el operador comparativo que desea utilizar.</ahelp> Los operadores disponibles dependen de lo que haya seleccionado en la casilla <emph>Permitir</emph>. Si selecciona \"entre\" o \"no entre\", aparecen los cuadros de entrada <emph>Mínimo</emph> y <emph>Máximo</emph>. En caso contrario, sólo aparecen los cuadros de entrada <emph>Mínimo</emph>, <emph>Máximo</emph> o <emph>Valor</emph>."
 
 #. DTzua
 #: 12120100.xhp
@@ -52597,7 +52597,7 @@ msgctxt ""
 "par_id521625929022780\n"
 "help.text"
 msgid "Below is a sample function that can be called when an error occurs. Note that the macro takes in two parameters that are passed on by %PRODUCTNAME when the function is called:"
-msgstr ""
+msgstr "A continuación se muestra una función de ejemplo que puede ser llamada cuando se produce un error. Tenga en cuenta que la macro toma dos parámetros que son pasados por %PRODUCTNAME cuando se llama a la función:"
 
 #. F9upo
 #: 12120300.xhp
@@ -52606,7 +52606,7 @@ msgctxt ""
 "par_id981625929097216\n"
 "help.text"
 msgid "<emph>CellValue</emph>: The value entered by the user, as a String."
-msgstr ""
+msgstr "<emph>Valor de la celda</emph>: El valor introducido por el usuario, en forma de cadena."
 
 #. oSFqW
 #: 12120300.xhp
@@ -52615,7 +52615,7 @@ msgctxt ""
 "par_id421625929100152\n"
 "help.text"
 msgid "<emph>CellAddress</emph>: The address of the cell where the value was entered, as a String prefixed with the sheet name (e.g: \"Sheet1.A1\")."
-msgstr ""
+msgstr "<emph>Dirección de Celda</emph>: La dirección de la celda donde se introdujo el valor, como una Cadena prefijada con el nombre de la hoja (por ejemplo: \"Hoja1.A1\")."
 
 #. A52Nm
 #: 12120300.xhp
@@ -52624,7 +52624,7 @@ msgctxt ""
 "par_id101625929384030\n"
 "help.text"
 msgid "The function must return a Boolean value. If it returns <literal>True</literal>, the entered value is kept. If the function returns <literal>False</literal>, the entered value is erased and the previous value is restored."
-msgstr ""
+msgstr "La función debe devolver un valor booleano. Si devuelve <literal>Verdadero</literal>, se mantiene el valor introducido. Si la función devuelve <literal>Falsó</literal>, el valor introducido se borra y se restaura el valor anterior."
 
 #. 4tzCz
 #: 12120300.xhp
@@ -52768,7 +52768,7 @@ msgctxt ""
 "par_id541642018071800\n"
 "help.text"
 msgid "%PRODUCTNAME  Calc, just like most other spreadsheet software, uses floating-point math capabilities available on hardware. Given that most contemporary hardware uses binary floating-point arithmetic with limited precision defined in <link href=\"https://en.wikipedia.org/wiki/IEEE_754\" name=\"IEEE754\">IEEE 754</link> standard, many decimal numbers - including as simple as 0.1 - cannot be precisely represented in %PRODUCTNAME Calc (which uses 64-bit double-precision numbers internally)."
-msgstr ""
+msgstr "%PRODUCTNAME Calc, al igual que la mayoría de los programas de hojas de cálculo, utiliza las capacidades matemáticas de punto flotante disponibles en el hardware. Dado que la mayoría del hardware contemporáneo utiliza la aritmética binaria de punto flotante con una precisión limitada definida en el estándar <link href=\"https://en.wikipedia.org/wiki/IEEE_754\" name=\"IEEE754\">IEEE 754</link>, muchos números decimales -incluso tan simples como 0,1- no pueden representarse con precisión en %PRODUCTNAME Calc (que utiliza internamente números de doble precisión de 64 bits)."
 
 #. YPbto
 #: calculation_accuracy.xhp
@@ -52777,7 +52777,7 @@ msgctxt ""
 "par_id191642019423811\n"
 "help.text"
 msgid "Calculations with those numbers necessarily <link href=\"https://en.wikipedia.org/wiki/Floating-point_arithmetic#Accuracy_problems\" name=\"wpediaaccuracy\">results in rounding errors</link>, and those accumulate with every calculation."
-msgstr ""
+msgstr "Los cálculos con esos números necesariamente <link href=\"https://en.wikipedia.org/wiki/Floating-point_arithmetic#Accuracy_problems\" name=\"wpediaaccuracy\">resultan en errores de redondeo</link>, y éstos se acumulan con cada cálculo."
 
 #. dvRFz
 #: calculation_accuracy.xhp
@@ -52786,7 +52786,7 @@ msgctxt ""
 "par_id221642019437175\n"
 "help.text"
 msgid "This is not a bug, but is expected and currently unavoidable without using complex calculations in software, which would incur inappropriate performance penalties, and thus is out of question. Users need to account for that, and use rounding and comparisons with <link href=\"https://en.wikipedia.org/wiki/Machine_epsilon\" name=\"macnie_epsilon\">machine epsilon (or unit roundoff)</link> as necessary."
-msgstr ""
+msgstr "No se trata de un error, sino que es algo esperado y actualmente inevitable si no se utilizan cálculos complejos en el software, lo que supondría una penalización inadecuada del rendimiento, y por tanto está fuera de lugar. Los usuarios deben tenerlo en cuenta y utilizar el redondeo y las comparaciones con <link href=\"https://en.wikipedia.org/wiki/Machine_epsilon\" name=\"macnie_epsilon\">epsilon de la maquina (o redondeo de unidades)</link> según sea necesario."
 
 #. ncGy5
 #: calculation_accuracy.xhp
@@ -52804,7 +52804,7 @@ msgctxt ""
 "par_id761642018318896\n"
 "help.text"
 msgid "This will result in -999.129999999997 in A3, instead of expected -999.13 (you might need to increase shown decimal places in cell format to see this)."
-msgstr ""
+msgstr "Esto dará como resultado -999.129999999997 en A3, en lugar del esperado -999.13 (puede que tengas que aumentar los decimales mostrados en el formato de celda para ver esto)."
 
 #. kDcn9
 #: calculation_accuracy.xhp
@@ -52822,7 +52822,7 @@ msgctxt ""
 "par_id801642018326882\n"
 "help.text"
 msgid "Due to the specific of time representation in Calc, this also applies to all calculations involving times. For example, the cells A1 and A2 below show the date and time data as entered (in ISO 8601 format):"
-msgstr ""
+msgstr "Debido a la especificidad de la representación de la hora en Calc, esto también se aplica a todos los cálculos que implican tiempos. Por ejemplo, las celdas A1 y A2 de abajo muestran los datos de fecha y hora tal y como se han introducido (en formato ISO 8601):"
 
 #. rcuhc
 #: calculation_accuracy.xhp
@@ -52831,7 +52831,7 @@ msgctxt ""
 "par_id101643312991679\n"
 "help.text"
 msgid "Cell A3 will show 00:10:00 if the default formatting [HH]:MM:SS is applied to the cell. However, cell A3 will show 00:09:59.999999 instead of expected 00:10:00.000000 if formatted using [HH]:MM:SS.000000 format string. This happens despite only whole numbers of hours and minutes were used, because internally, any time is a fraction of a day, 12:00 (noon) being represented as 0.5."
-msgstr ""
+msgstr "La celda A3 mostrará 00:10:00 si se aplica el formato por defecto [HH]:MM:SS a la celda. Sin embargo, la celda A3 mostrará 00:09:59.999999 en lugar del esperado 00:10:00.000000 si se aplica el formato [HH]:MM:SS.000000. Esto sucede a pesar de que sólo se utilizaron números enteros de horas y minutos, porque internamente, cualquier hora es una fracción de un día, siendo las 12:00 (mediodía) representadas como 0,5."
 
 #. EZjhJ
 #: calculation_accuracy.xhp
@@ -52840,7 +52840,7 @@ msgctxt ""
 "par_id921642020011065\n"
 "help.text"
 msgid "The data in A1 is represented internally as 43934.5125, and in A2 as 43934.5055555555591126903891563 (which is not exact representation of the entered datetime, which would be 43934.505555555555555555...)."
-msgstr ""
+msgstr "Los datos en A1 se representan internamente como 43934.5125, y en A2 como 43934.50555555591126903891563 (que no es la representación exacta de la fecha introducida, que sería 43934.505555555555...)."
 
 #. QY6Ti
 #: calculation_accuracy.xhp
@@ -52849,7 +52849,7 @@ msgctxt ""
 "par_id801642020017858\n"
 "help.text"
 msgid "Their subtraction results in 0.00694444443287037, a value slightly less than expected 0.00694444444444..., which is 10 minutes."
-msgstr ""
+msgstr "Su sustracción da como resultado 0,00694444443287037, un valor ligeramente inferior al esperado 0,006944444444..., que es de 10 minutos."
 
 #. J8xZD
 #: cell_styles.xhp
@@ -52930,7 +52930,7 @@ msgctxt ""
 "par_id251640873774457\n"
 "help.text"
 msgid "This function is not part of the <emph>Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</emph> standard. The name space is"
-msgstr ""
+msgstr "Esta función no forma parte del estándar <emph>Formato de documento abierto para aplicaciones de Office (Abrir Documento) Versión 1.3. Parte 4: Formato de fórmulas recalculadas (Abrir Formula)</emph> estándar. El espacio de nombres es"
 
 #. STMGF
 #: common_func.xhp
@@ -52939,7 +52939,7 @@ msgctxt ""
 "par_id301616845402409\n"
 "help.text"
 msgid "This function ignores any text or empty cell within a data range. If you suspect wrong results from this function, look for text in the data ranges. To highlight text contents in a data range, use the <link href=\"text/scalc/01/03080000.xhp\" name=\"value highlight\">value highlighting</link> feature."
-msgstr ""
+msgstr "Esta función ignora cualquier texto o celda vacía dentro de un rango de datos. Si sospecha que los resultados de esta función son erróneos, busque texto en los rangos de datos. Para resaltar el contenido del texto en un rango de datos, utilice la función <link href=\"text/scalc/01/03080000.xhp\" name=\"value highlight\">resalto de valores</link>."
 
 #. GAPGX
 #: common_func_workdaysintl.xhp
@@ -53173,7 +53173,7 @@ msgctxt ""
 "par_id240920171003293400\n"
 "help.text"
 msgid "<ahelp hid=\".\"><emph>Data Entry Form</emph> is a tool to make table data entry easy in spreadsheets.</ahelp> With the Data Entry Form, you can enter, edit and delete records (or rows) of data and avoid horizontal scrolling when the table has many columns or when some columns are very wide."
-msgstr ""
+msgstr "<ahelp hid=\".\"><emph>Formulario de entrada de datos</emph> es una herramienta que facilita la entrada de datos de tablas en hojas de cálculo.</ahelp> Con el Formulario de entrada de datos, puede introducir, editar y eliminar registros (o filas) de datos y evitar el desplazamiento horizontal cuando la tabla tiene muchas columnas o cuando algunas columnas son muy anchas."
 
 #. VoVM6
 #: data_form.xhp
@@ -53263,7 +53263,7 @@ msgctxt ""
 "par_id981512503964001\n"
 "help.text"
 msgid "<emph>New</emph>: fill the record (table row cells) with the form fields contents and jump to the next record or add a new record in the bottom of the table."
-msgstr ""
+msgstr "<emph>Nuevo</emph>: rellena el registro (celdas de la fila de la tabla) con el contenido de los campos del formulario y salta al siguiente registro o añade un nuevo registro en la parte inferior de la tabla."
 
 #. ZEerU
 #: data_form.xhp
@@ -53875,7 +53875,7 @@ msgctxt ""
 "par_id961527953004850\n"
 "help.text"
 msgid "<variable id=\"args\">Func_Range; Range1; Criterion[; Range2; Criterion2][; … ; [Range127; Criterion127]]</variable>"
-msgstr ""
+msgstr "<variable id=\"args\">Rango_Función; Rango 1; Criterio [; Rango 2; Criterio 2][; … ; [Rango 127; Criterio 127]]</variable>"
 
 #. d8gmy
 #: ex_data_stat_func.xhp
@@ -53884,7 +53884,7 @@ msgctxt ""
 "par_id94162948227556\n"
 "help.text"
 msgid "The logical relation between criteria can be defined as logical AND (conjunction). In other words, if and only if all given criteria are met, a value from the corresponding cell of the given <emph>Func_Range</emph> is taken into calculation."
-msgstr ""
+msgstr "La relación lógica entre los criterios puede definirse como Y lógico (conjunción). En otras palabras, si y sólo si se cumplen todos los criterios dados, un valor de la celda correspondiente del<emph>Función_Rango</emph>se tiene en cuenta en el cálculo."
 
 #. s3NRA
 #: ex_data_stat_func.xhp
@@ -53893,7 +53893,7 @@ msgctxt ""
 "par_id14734320631377\n"
 "help.text"
 msgid "<emph>Func_Range</emph> and <emph>Range1, Range2...</emph> must have the same size, otherwise the function returns err:502 - Invalid argument."
-msgstr ""
+msgstr "<emph>Funcion_Rango</emph> y <emph>Rango 1, Rango 2...</emph>debe tener el mismo tamaño, de lo contrario, la función devuelve error: 502 - Argumento no válido."
 
 #. XB7By
 #: ex_data_stat_func.xhp
@@ -53902,7 +53902,7 @@ msgctxt ""
 "par_id101585468691583\n"
 "help.text"
 msgid "<emph>Range1</emph> – required argument. It is a range of cells, a name of a named range, or a label of a column or a row, to which the corresponding criterion is to be applied."
-msgstr ""
+msgstr "<emph>Rango 1</emph> – argumento requerido. Es un rango de celdas, un nombre de un rango con nombre, o una etiqueta de una columna o una fila, a la que se aplicará el criterio correspondiente."
 
 #. 45WHz
 #: ex_data_stat_func.xhp
@@ -53983,7 +53983,7 @@ msgctxt ""
 "par_id861619279223855\n"
 "help.text"
 msgid "<emph>Note:</emph> \"=0\" does not match empty cells."
-msgstr ""
+msgstr "<emph>Nota</emph>\"=0\" no coincide con las celdas vacías."
 
 #. 2nrnV
 #: ex_data_stat_func.xhp
@@ -53992,7 +53992,7 @@ msgctxt ""
 "par_id51619279363954\n"
 "help.text"
 msgid "For = and <>, if the value is not empty and can not be interpreted as a Number type or one of its subtypes and the property <link href=\"text/shared/optionen/01060500.xhp\" name=\"s\">Search criteria = and <> must apply to whole cells</link> is checked, comparison is against the entire cell contents, if unchecked, comparison is against any subpart of the field that matches the criteria. For = and <>, if the value is not empty and can not be interpreted as a Number type or one of its subtypes applies."
-msgstr ""
+msgstr "Para = y <>, si el valor no está vacío y no puede interpretarse como un tipo Número o uno de sus subtipos y la propiedad <link href=\"text/shared/optionen/01060500.xhp\" name=\"s\">Los criterios de búsqueda = y <> deben aplicarse a las celdas completas </link> está marcada, la comparación se realiza contra todo el contenido de la celda, si no está marcada, la comparación se realiza contra cualquier subparte del campo que coincida con los criterios. Para = y <>, si el valor no está vacío y no puede interpretarse como un tipo de Número o se aplica uno de sus subtipos."
 
 #. VG8wZ
 #: ex_data_stat_func.xhp
@@ -54001,7 +54001,7 @@ msgctxt ""
 "par_id801619279323556\n"
 "help.text"
 msgid "Other Text value. If the property <link href=\"text/shared/optionen/01060500.xhp\" name=\"s\">Search criteria = and <> must apply to whole cells</link> is true, the comparison is against the entire cell contents, if false, comparison is against any subpart of the field that matches the criteria. The expression can contain text, numbers, regular expressions or wildcards (<link href=\"text/shared/optionen/01060500.xhp#wildcards\" name=\"Wild cards\">if enabled in calculation options</link>)."
-msgstr ""
+msgstr "Otro valor de texto. Si la propiedad <link href=\"text/shared/optionen/01060500.xhp\" name=\"s\">Criterios de búsqueda = y <>debe aplicarse a celdas completas </link> es verdadera, la comparación es con todo el contenido de la celda, si es falso, la comparación es contra cualquier subparte del campo que coincida con los criterios. La expresión puede contener texto, números, expresiones regulares o comodines (<link href=\"text/shared/optionen/01060500.xhp#wildcards\" name=\"Wild cards\">si está activado en las opciones de cálculo</link>)."
 
 #. sACAB
 #: ex_data_stat_func.xhp
@@ -54019,7 +54019,7 @@ msgctxt ""
 "par_id317001803813193\n"
 "help.text"
 msgid "<emph>Criterion2</emph> – Optional. Criterion2 and all the following mean the same as Criterion."
-msgstr ""
+msgstr "<emph>Criterio 2 </emph>– Opcional. Criterio 2 y todos los promedios significan lo mismo que Criterio."
 
 #. tzFDE
 #: ex_data_stat_func.xhp
