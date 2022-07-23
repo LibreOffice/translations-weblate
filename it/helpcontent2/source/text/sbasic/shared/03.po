@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-07-23 09:20+0000\n"
+"PO-Revision-Date: 2022-07-23 09:31+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -19811,7 +19811,7 @@ msgctxt ""
 "par_id421614353247163\n"
 "help.text"
 msgid "There are several ways to invoke the <literal>L10N</literal> service using up to five optional arguments that specify the folder where PO files are stored, the locale and encoding to be used, as well as a fallback PO file and its encoding."
-msgstr "Ci sono diversi modi di invocare il servizio <literal>L10N</literal> usando un massimo di cinque argomenti opzionali che specificano la cartella in cui sono memorizzati i file PO, la lingua locale e la codifica da usare, così come un file PO di ripiego e la sua codifica."
+msgstr "Ci sono diversi modi per invocare il servizio <literal>L10N</literal> usando un massimo di cinque argomenti facoltativi che specificano la cartella in cui sono memorizzati i file PO, la lingua locale e la codifica da usare, così come un file PO di ripiego e la sua codifica."
 
 #. cCwBS
 #: sf_l10n.xhp
@@ -19847,7 +19847,7 @@ msgctxt ""
 "par_id281646219882464\n"
 "help.text"
 msgid "<emph>locale2</emph>: A string specifying the fallback locale to be used in case the PO file corresponding to the locale defined the <literal>locale</literal> parameter does not exist. This parameter is expressed in the form \"la-CO\" (language-COUNTRY) or \"la\" (language) only."
-msgstr ""
+msgstr "<emph>locale2</emph>: una stringa che specifica la lingua locale di ripiego da usare nel caso in cui il file PO corrispondente a quella definita nel parametro <literal>locale</literal> non esista. Questo parametro è espresso nel formato \"li-PA\" (lingua-PAESE) o solo \"li\" (lingua)."
 
 #. TaFFX
 #: sf_l10n.xhp
@@ -19856,7 +19856,7 @@ msgctxt ""
 "par_id881646219882951\n"
 "help.text"
 msgid "<emph>encoding2</emph>: The character set of the fallback PO file corresponding to the <literal>locale2</literal> argument. The default encoding is \"UTF-8\"."
-msgstr ""
+msgstr "<emph>encoding2</emph>: la codifica caratteri del file PO di ripiego corrispondente all'argomento <literal>locale2</literal>. La codifica predefinita è \"UTF-8\"."
 
 #. wbSFz
 #: sf_l10n.xhp
@@ -19883,7 +19883,7 @@ msgctxt ""
 "par_id611614358672609\n"
 "help.text"
 msgid "The example below specifies the folder containing the PO files. Because the locale is not defined, the service instance will use the locale defined for the %PRODUCTNAME user interface, which is the same locale defined in the <literal>OfficeLocale</literal> property of the <link href=\"text/sbasic/shared/03/sf_platform.xhp\" name=\"OfficeLocale_link\">Platform</link> service."
-msgstr ""
+msgstr "L'esempio sottostante specifica la cartella contenente i file PO. Dato che la lingua locale non è definita, l'istanza del servizio userà quella definita per l'interfaccia utente di %PRODUCTNAME, che è la stessa lingua locale definita nella proprietà <literal>OfficeLocale</literal> del servizio <link href=\"text/sbasic/shared/03/sf_platform.xhp\" name=\"OfficeLocale_link\">Platform</link>."
 
 #. FewYJ
 #: sf_l10n.xhp
@@ -19892,7 +19892,7 @@ msgctxt ""
 "par_id391625855630975\n"
 "help.text"
 msgid "The example above will result in an runtime error if the PO file corresponding to the <literal>OfficeLocale</literal> locale does not exist in the specified folder."
-msgstr ""
+msgstr "L'esempio qui sopra genera un errore in fase di esecuzione se il file PO corrispondente alla lingua locale <literal>OfficeLocale</literal> non esiste nella cartella specificata."
 
 #. gSzLN
 #: sf_l10n.xhp
@@ -19901,7 +19901,7 @@ msgctxt ""
 "par_id321614358809763\n"
 "help.text"
 msgid "In the example below, the locale is explicitly defined to be Belgian French (\"fr-BE\"), hence the service will load the file \"fr-BE.po\" from the folder \"C:\\myPOFiles\". If the file does not exist, an error will occur."
-msgstr ""
+msgstr "Nell'esempio sottostante, la lingua locale è definita esplicitamente come francese del Belgio (\"fr-BE\"), quindi il servizio caricherà il file \"fr-BE.po\" dalla cartella \"C:\\myPOFiles\". Se il file non esiste, si verificherà un errore."
 
 #. WpYLF
 #: sf_l10n.xhp
@@ -19910,7 +19910,7 @@ msgctxt ""
 "par_id271646220649616\n"
 "help.text"
 msgid "To avoid errors, it is possible to specify a preferred and a fallback locale and encoding. The following example will first try to load the file \"fr-BE.po\" from the specified folder and if it does not exist, the file \"en-US.po\" will be loaded."
-msgstr ""
+msgstr "Per evitare errori, è possibile precisare una lingua locale preferita, una di ripiego e la loro codifica. L'esempio seguente prova prima a caricare il file \"fr-BE.po\" dalla cartella specificata e se non esiste, caricherà il file \"en-US.po\"."
 
 #. UGFWB
 #: sf_l10n.xhp
@@ -20396,7 +20396,7 @@ msgctxt ""
 "bm_id681600788076499\n"
 "help.text"
 msgid "<variable id=\"MenuService\"><link href=\"text/sbasic/shared/03/sf_menu.xhp\" name=\"Menu service\"><literal>SFWidgets</literal>.<literal>Menu</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"MenuService\"><link href=\"text/sbasic/shared/03/sf_menu.xhp\" name=\"Servizio Menu\">Servizio <literal>SFWidgets</literal>.<literal>Menu</literal></link></variable>"
 
 #. FqGPg
 #: sf_menu.xhp
@@ -20405,7 +20405,7 @@ msgctxt ""
 "par_id181600788076612\n"
 "help.text"
 msgid "The <literal>Menu</literal> service can be used to create and remove menus from the menubar of a %PRODUCTNAME document window. Each menu entry can be associated with a script or with a UNO command. This service provides the following capabilities:"
-msgstr ""
+msgstr "Il servizio <literal>Menu</literal> può essere usato per creare ed eliminare dei menu dalla barra dei menu della finestra dei documenti di %PRODUCTNAME. Ogni voce di menu può essere associata a uno script p a un comando UNO. Questo servizio fornisce le seguenti capacità:"
 
 #. UYDdv
 #: sf_menu.xhp
