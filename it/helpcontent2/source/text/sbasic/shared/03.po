@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-07-23 10:23+0000\n"
+"PO-Revision-Date: 2022-07-23 10:29+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -20468,7 +20468,7 @@ msgctxt ""
 "par_id321614902851541\n"
 "help.text"
 msgid "The <literal>Menu</literal> service is instantiated by calling the <link href=\"text/sbasic/shared/03/sf_document.xhp#CreateMenu\" name=\"CreateMenu_link\"><literal>CreateMenu</literal></link> method from the <literal>Document</literal> service. The code snippet below creates a menu named <emph>My Menu</emph> in the current document window with two entries <emph>Item A</emph> and <emph>Item B</emph>."
-msgstr "Il servizio <literal>Menu</literal> viene istanziato chiamando il metodo <link href=\"text/sbasic/shared/03/sf_document.xhp#CreateMenu\" name=\"CreateMenu_link\"><literal>CreateMenu</literal></link> del servizio <literal>Document</literal>. Il frammento di codice sottostante crea nella finestra del documento corrente un menu denominato <emph>Mio Menu</emph> con due voci <emph>Elemento A</emph> ed <emph>Elemento B</emph>."
+msgstr "Il servizio <literal>Menu</literal> viene istanziato chiamando il metodo <link href=\"text/sbasic/shared/03/sf_document.xhp#CreateMenu\" name=\"CreateMenu_link\"><literal>CreateMenu</literal></link> del servizio <literal>Document</literal>. Il frammento di codice sottostante crea nella finestra del documento corrente un menu denominato <emph>Mio Menu</emph> con due voci <emph>Voce A</emph> e <emph>Voce B</emph>."
 
 #. pf7FV
 #: sf_menu.xhp
@@ -20486,7 +20486,7 @@ msgctxt ""
 "bas_id431643134582213\n"
 "help.text"
 msgid ".AddItem(\"Item A\", Command := \"About\")"
-msgstr ".AddItem(\"Elemento A\", Command := \"Informazioni\")"
+msgstr ".AddItem(\"Voce A\", Command := \"Informazioni\")"
 
 #. u52BY
 #: sf_menu.xhp
@@ -20495,7 +20495,7 @@ msgctxt ""
 "bas_id571643134582396\n"
 "help.text"
 msgid ".AddItem(\"Item B\", Script := \"vnd.sun.star.script:Standard.Module1.ItemB_Listener?language=Basic&location=application\")"
-msgstr ".AddItem(\"Elemento B\", Script := \"vnd.sun.star.script:Standard.Module1.ItemB_Listener?language=Basic&location=application\")"
+msgstr ".AddItem(\"Voce B\", Script := \"vnd.sun.star.script:Standard.Module1.ItemB_Listener?language=Basic&location=application\")"
 
 #. nd5od
 #: sf_menu.xhp
@@ -20513,7 +20513,7 @@ msgctxt ""
 "par_id341636718182262\n"
 "help.text"
 msgid "In the example above, <emph>Item A</emph> is associated with the UNO command <literal>.uno:About</literal> whereas <emph>Item B</emph> is associated with the script <literal>ItemB_Listener</literal> defined in <literal>Module1</literal> of the <literal>Standard</literal> library of the <literal>My Macros</literal> container."
-msgstr "Nell'esempio qui sopra, <emph>Elemento A</emph> è associato al comando UNO <literal>.uno:About</literal> mentre <emph>Elemento B</emph> è associato allo script <literal>ItemB_Listener</literal> definito in <literal>Module1</literal> della libreria <literal>Standard</literal> del contenitore <literal>Macro personali</literal>."
+msgstr "Nell'esempio qui sopra, <emph>Voce A</emph> è associata al comando UNO <literal>.uno:About</literal> mentre <emph>Voce B</emph> è associata allo script <literal>ItemB_Listener</literal> definito in <literal>Module1</literal> della libreria <literal>Standard</literal> del contenitore <literal>Macro personali</literal>."
 
 #. 9G7de
 #: sf_menu.xhp
@@ -20522,7 +20522,7 @@ msgctxt ""
 "par_id851635274721129\n"
 "help.text"
 msgid "The following example defines <literal>ItemB_Listener</literal> that will be called when <emph>Item B</emph> is clicked. This listener simply splits the argument string passed to the <literal>Sub</literal> and shows them in a message box."
-msgstr "L'esempio seguente definisce <literal>ItemB_Listener</literal> che sarà chiamato quando si farà clic su <emph>Elemento B</emph>. Questo \"ascoltatore\" semplicemente spezza la stringa passata come argomento alla <literal>Sub</literal> e la visualizza in un riquadro di dialogo."
+msgstr "L'esempio seguente definisce <literal>ItemB_Listener</literal> che sarà chiamato quando si farà clic su <emph>Voce B</emph>. Questo \"ascoltatore\" semplicemente spezza la stringa passata come argomento alla <literal>Sub</literal> e la visualizza in un riquadro di dialogo."
 
 #. AFHBG
 #: sf_menu.xhp
@@ -20549,7 +20549,7 @@ msgctxt ""
 "bas_id301643136028263\n"
 "help.text"
 msgid "\"Menu item: \"   & sArgs(1) & Chr(13) & _"
-msgstr "\"Elemento del menu: \"   & sArgs(1) & Chr(13) & _"
+msgstr "\"Voce del menu: \"   & sArgs(1) & Chr(13) & _"
 
 #. wFTww
 #: sf_menu.xhp
@@ -20558,7 +20558,7 @@ msgctxt ""
 "bas_id181643136028557\n"
 "help.text"
 msgid "\"Item ID: \"     & sArgs(2) & Chr(13) & _"
-msgstr "\"ID dell'elemento: \"     & sArgs(2) & Chr(13) & _"
+msgstr "\"ID della voce: \"     & sArgs(2) & Chr(13) & _"
 
 #. 9SGVd
 #: sf_menu.xhp
@@ -20567,7 +20567,7 @@ msgctxt ""
 "bas_id561643136028710\n"
 "help.text"
 msgid "\"Item status: \" & sArgs(3)"
-msgstr "\"Stato dell'elemento: \" & sArgs(3)"
+msgstr "\"Stato della voce: \" & sArgs(3)"
 
 #. MQJ7M
 #: sf_menu.xhp
@@ -20576,7 +20576,7 @@ msgctxt ""
 "par_id531636493797707\n"
 "help.text"
 msgid "As shown in the example above, menu entries associated with a script receive a comma-separated string argument with the following values:"
-msgstr "Come mostrato nell'esempio qui sopra, gli elementi del menu associati a uno script ricevono come argomento una stringa separata da virgole contenente i seguenti valori:"
+msgstr "Come mostrato nell'esempio qui sopra, le voci del menu associate a uno script ricevono come argomento una stringa separata da virgole contenente i seguenti valori:"
 
 #. uprfo
 #: sf_menu.xhp
@@ -20594,7 +20594,7 @@ msgctxt ""
 "par_id611643136491059\n"
 "help.text"
 msgid "The string ID of the selected menu entry."
-msgstr "La stringa con l'ID dell'elemento del menu selezionato."
+msgstr "La stringa con l'ID della voce del menu selezionata."
 
 #. hENoG
 #: sf_menu.xhp
@@ -20603,7 +20603,7 @@ msgctxt ""
 "par_id961643136491491\n"
 "help.text"
 msgid "The numeric ID of the selected menu entry."
-msgstr "L'ID numerico dell'elemento del menu selezionato."
+msgstr "L'ID numerico della voce del menu selezionata."
 
 #. nYABy
 #: sf_menu.xhp
@@ -20631,6 +20631,8 @@ msgctxt ""
 "help.text"
 msgid "msg = f\"Menu name: {s_args[0]}\\n\""
 msgstr ""
+"msg = f\"Nome del menu: {s_args[0]}\\n"
+"\""
 
 #. GPKGe
 #: sf_menu.xhp
@@ -20640,6 +20642,8 @@ msgctxt ""
 "help.text"
 msgid "msg += f\"Menu item: {s_args[1]}\\n\""
 msgstr ""
+"msg += f\"Voce del menu: {s_args[1]}\\n"
+"\""
 
 #. EfEaE
 #: sf_menu.xhp
@@ -20649,6 +20653,8 @@ msgctxt ""
 "help.text"
 msgid "msg += f\"Item ID: {s_args[2]}\\n\""
 msgstr ""
+"msg += f\"ID della voce: {s_args[2]}\\n"
+"\""
 
 #. FPzcf
 #: sf_menu.xhp
@@ -20657,7 +20663,7 @@ msgctxt ""
 "pyc_id71643137333404\n"
 "help.text"
 msgid "msg += f\"Item status: {s_args[3]}\""
-msgstr ""
+msgstr "msg += f\"Stato della voce: {s_args[3]}\""
 
 #. XxChZ
 #: sf_menu.xhp
@@ -20855,7 +20861,7 @@ msgctxt ""
 "par_id11636721653328\n"
 "help.text"
 msgid "<emph>command:</emph> The name of a UNO command without the <literal>.uno:</literal> prefix. If the command name does not exist, nothing happens."
-msgstr ""
+msgstr "<emph>command:</emph> il nome del comando UNO senza il prefisso <literal>.uno:</literal>. Se il nome del comando non esiste, non succede nulla."
 
 #. LaF26
 #: sf_menu.xhp
@@ -20864,7 +20870,7 @@ msgctxt ""
 "par_id11636721653107\n"
 "help.text"
 msgid "<emph>script:</emph> The URI for a Basic or Python script that will be executed when the item is clicked."
-msgstr ""
+msgstr "<emph>script:</emph> l'URI dello script Basic o Python che sarà eseguito quando la voce riceve un clic."
 
 #. PTXhK
 #: sf_menu.xhp
@@ -20873,7 +20879,7 @@ msgctxt ""
 "par_id31643198954204\n"
 "help.text"
 msgid "The arguments <literal>command</literal> and <literal>script</literal> are mutually exclusive, hence only one of them can be set for each menu item."
-msgstr ""
+msgstr "Gli argomenti <literal>command</literal> e <literal>script</literal> si escludono a vicenda, perciò potete impostare uno solo dei due per ciascuna voce del menu."
 
 #. 57vEy
 #: sf_menu.xhp
