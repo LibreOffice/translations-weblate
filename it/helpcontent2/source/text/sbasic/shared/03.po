@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-07-23 18:30+0000\n"
+"PO-Revision-Date: 2022-07-23 18:34+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -23184,7 +23184,7 @@ msgctxt ""
 "par_id401621896675306\n"
 "help.text"
 msgid "<emph>number</emph>: the number to be converted into written text. It can be provided either as a numeric type or as a string. When a string is provided, it can be preceded by a prefix informing how the numbers should be written. It is also possible to include ISO 4217 currency codes. See examples below for more information."
-msgstr "<emph>number</emph>: il numero da convertire in testo scritto. Può essere fornito sia come tipo numerico, sia come stringa. Quando viene indicato come stringa, può essere preceduto da un prefisso che indica come il numero dovrebbe essere scritto. È possibile includere anche i codici ISO 4217 per le valute. Vedete gli esempi seguenti per maggiori informazioni."
+msgstr "<emph>number</emph>: il numero da convertire in testo scritto. Può essere fornito sia come tipo numerico, sia come stringa. Quando viene indicato come stringa, può essere preceduto da un prefisso che indica come il numero dovrebbe essere scritto. È possibile includere anche i codici ISO 4217 per le valute. Vedere gli esempi seguenti per maggiori informazioni."
 
 #. eppdr
 #: sf_region.xhp
@@ -23193,7 +23193,7 @@ msgctxt ""
 "par_id401621896675412\n"
 "help.text"
 msgid "<emph>locale</emph>: the locale defining the language into which the number will be converted to, given either in \"la-CO\" or \"la\" formats. The default value is the locale defined in the <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\" name=\"OfficeLocale_link\"><literal>OfficeLocale</literal></link> property of the <literal>Platform</literal> service."
-msgstr ""
+msgstr "<emph>locale</emph>: il locale che definisce la lingua in cui il numero deve essere convertito, indicato in uno dei formati \"li-PA\" o \"PA\". Il valore predefinito è il locale impostato nella proprietà <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\" name=\"OfficeLocale_link\"><literal>OfficeLocale</literal></link> del servizio <literal>Platform</literal>."
 
 #. QeBpA
 #: sf_region.xhp
@@ -23202,7 +23202,7 @@ msgctxt ""
 "bas_id301656027173020\n"
 "help.text"
 msgid "' Returns \"one hundred five\""
-msgstr ""
+msgstr "' Restituisce \"centocinque\""
 
 #. 7xovc
 #: sf_region.xhp
@@ -23220,7 +23220,7 @@ msgctxt ""
 "bas_id771656027217144\n"
 "help.text"
 msgid "' Returns: \"two point four two\""
-msgstr ""
+msgstr "' Restituisce: \"due virgola quarantadue\""
 
 #. Xr7no
 #: sf_region.xhp
@@ -23238,7 +23238,7 @@ msgctxt ""
 "bas_id281656027262234\n"
 "help.text"
 msgid "' Returns: \"twenty-five euro and ten cents\" Notice the \"EUR\" currency symbol"
-msgstr ""
+msgstr "' Restituisce: \"venticinque euro e dieci centesimi\", da notare il simbolo della valuta \"EUR\""
 
 #. DBPc8
 #: sf_region.xhp
@@ -23256,7 +23256,7 @@ msgctxt ""
 "bas_id981656027330132\n"
 "help.text"
 msgid "' Returns: \"fifteenth\"; Notice the \"ordinal\" prefix"
-msgstr ""
+msgstr "' Restituisce: \"quindicesimo\"; da notare il prefisso \"ordinal\""
 
 #. ggt2A
 #: sf_region.xhp
@@ -23265,7 +23265,7 @@ msgctxt ""
 "bas_id841656027330394\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(\"ordinal 15\", \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(\"ordinal 15\", \"it-IT\")"
 
 #. YQCCF
 #: sf_region.xhp
@@ -23274,7 +23274,7 @@ msgctxt ""
 "pyc_id401656027481473\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(105, \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(105, \"it-IT\")"
 
 #. FTGnF
 #: sf_region.xhp
@@ -23283,7 +23283,7 @@ msgctxt ""
 "pyc_id781656027481769\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(2.42, \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(2.42, \"it-IT\")"
 
 #. RCDq5
 #: sf_region.xhp
@@ -23292,7 +23292,7 @@ msgctxt ""
 "pyc_id951656027482096\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(\"EUR 25.10\", \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(\"EUR 25.10\", \"it-IT\")"
 
 #. vtGFv
 #: sf_region.xhp
@@ -23301,7 +23301,7 @@ msgctxt ""
 "pyc_id231656027482425\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(\"ordinal 15\", \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(\"ordinal 15\", \"it-IT\")"
 
 #. CHCJt
 #: sf_region.xhp
@@ -23310,7 +23310,7 @@ msgctxt ""
 "par_id801656027524051\n"
 "help.text"
 msgid "To get a list of all supported prefixes in a given language, call <literal>Number2Text</literal> with the special \"help\" argument, as shown in the example below:"
-msgstr ""
+msgstr "Per ottenere un elenco di tutti i prefissi supportati per una determinata lingua, è possibile chiamare <literal>Number2Text</literal> con l'argomento speciale \"help\", come mostrato nel seguente esempio:"
 
 #. ZqfNT
 #: sf_region.xhp
@@ -23319,7 +23319,7 @@ msgctxt ""
 "bas_id181656027807107\n"
 "help.text"
 msgid "' Considering the \"en-US\" locale the message box will show the following text"
-msgstr ""
+msgstr "' Considerando \"it-IT\" come locale la finestra di messaggio mostrerà il testo seguente"
 
 #. hRef2
 #: sf_region.xhp
@@ -23328,7 +23328,7 @@ msgctxt ""
 "bas_id216560277123601\n"
 "help.text"
 msgid "' one, two, three"
-msgstr ""
+msgstr "' uno, due, tre"
 
 #. YMJ5N
 #: sf_region.xhp
@@ -23337,7 +23337,7 @@ msgctxt ""
 "bas_id361656027712711\n"
 "help.text"
 msgid "' ordinal: first, second, third"
-msgstr ""
+msgstr "' ordinal: primo, secondo, terzo"
 
 #. vhTrp
 #: sf_region.xhp
@@ -23346,7 +23346,7 @@ msgctxt ""
 "bas_id891656027712920\n"
 "help.text"
 msgid "' ordinal-number: 1st, 2nd, 3rd"
-msgstr ""
+msgstr "' ordinal-number: 1°, 2°, 3°"
 
 #. YGCiN
 #: sf_region.xhp
@@ -23355,7 +23355,7 @@ msgctxt ""
 "bas_id611656027713104\n"
 "help.text"
 msgid "' year: nineteen ninety-nine, two thousand, two thousand one"
-msgstr ""
+msgstr "' year: millenovecentonovantanove, duemila, duemilauno"
 
 #. vEMTZ
 #: sf_region.xhp
@@ -23364,7 +23364,7 @@ msgctxt ""
 "bas_id861656027713288\n"
 "help.text"
 msgid "' currency (for example, USD): two U.S. dollars and fifty cents"
-msgstr ""
+msgstr "' currency (per esempio, EUR): due euro e cinquanta centesimi"
 
 #. xYrSL
 #: sf_region.xhp
@@ -23373,7 +23373,7 @@ msgctxt ""
 "bas_id841656027713503\n"
 "help.text"
 msgid "' money USD: two and 50/100 U.S. dollars"
-msgstr ""
+msgstr "' money EUR: due e 50/100 euro"
 
 #. RBkxp
 #: sf_region.xhp
@@ -23382,7 +23382,7 @@ msgctxt ""
 "par_id781656027840633\n"
 "help.text"
 msgid "The first line in the message box does not have a prefix, which means that it is the standard format. The subsequent lines include the prefix and some examples of numbers using its format."
-msgstr ""
+msgstr "La prima riga nella finestra di messaggio non ha un prefisso, ciò significa che quello è il formato standard. Le righe successive includono i prefisso ed alcuni numeri di esempio che fanno uso del relativo formato."
 
 #. WPApK
 #: sf_region.xhp
