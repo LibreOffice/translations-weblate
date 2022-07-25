@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-07-25 16:01+0000\n"
+"PO-Revision-Date: 2022-07-25 16:09+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -29029,7 +29029,7 @@ msgctxt ""
 "par_id381656357996613\n"
 "help.text"
 msgid "Invoke the service in <emph>simple mode</emph> to call <literal>AssertX</literal> functions without having to build the full hierarchy of test suites and test cases."
-msgstr "È possibile invocare il servizio <emph>modo semplificato</emph> per chiamare le funzioni <literal>AssertX</literal> senza dover costruire una gerarchia completa di test suite e test case."
+msgstr "È possibile invocare il servizio nel <emph>modo semplificato</emph> per chiamare le funzioni <literal>AssertX</literal> senza dover costruire una gerarchia completa di test suite e test case."
 
 #. DRzjW
 #: sf_unittest.xhp
@@ -29038,7 +29038,7 @@ msgctxt ""
 "par_id331656358092318\n"
 "help.text"
 msgid "In simple mode, the service is invoked inside the test case, as shown in the example below:"
-msgstr ""
+msgstr "Nel modo semplificato, il servizio è invocato all'interno del test case, come mostrato nell'esempio seguente:"
 
 #. RuMFA
 #: sf_unittest.xhp
@@ -29047,7 +29047,7 @@ msgctxt ""
 "bas_id501656358186053\n"
 "help.text"
 msgid "' A few dummy tests"
-msgstr ""
+msgstr "' Alcuni semplici test"
 
 #. 2Firz
 #: sf_unittest.xhp
@@ -29056,7 +29056,7 @@ msgctxt ""
 "bas_id981656421186233\n"
 "help.text"
 msgid "MsgBox(\"All tests passed\")"
-msgstr ""
+msgstr "MsgBox(\"Tutti i controlli sono stati passati\")"
 
 #. nMFgq
 #: sf_unittest.xhp
@@ -29065,7 +29065,7 @@ msgctxt ""
 "bas_id971656421186872\n"
 "help.text"
 msgid "myTest.ReportError(\"A test failed\")"
-msgstr ""
+msgstr "myTest.ReportError(\"Un controllo è fallito\")"
 
 #. ki4xc
 #: sf_unittest.xhp
@@ -29074,7 +29074,7 @@ msgctxt ""
 "par_id321656421319505\n"
 "help.text"
 msgid "In this example, if any of the <literal>AssertEqual</literal> calls fail, the interpreter will go to the <literal>CatchError</literal> label and report the error by calling the <literal>ReportError</literal> method."
-msgstr ""
+msgstr "In questo esempio, se una delle chiamate <literal>AssertEqual</literal> fallisce, l'interprete andrà all'etichetta <literal>CatchError</literal> e visualizzerà l'errore chiamando il metodo <literal>ReportError</literal>."
 
 #. AMsHe
 #: sf_unittest.xhp
@@ -29083,7 +29083,7 @@ msgctxt ""
 "hd_id341656353807950\n"
 "help.text"
 msgid "Full mode"
-msgstr ""
+msgstr "Modo completo"
 
 #. Cev96
 #: sf_unittest.xhp
@@ -29092,7 +29092,7 @@ msgctxt ""
 "par_id881656353390116\n"
 "help.text"
 msgid "When invoked in <emph>full mode</emph>, the service creation is external to the test code and all tests are organized into test cases and test suites inside a single library."
-msgstr ""
+msgstr "Quando è invocato nel <emph>modo completo</emph>, la creazione del servizio è esterna al codice del test e tutti i controlli sono organizzati in test case e test suite all'interno di una singola libreria."
 
 #. kRFxC
 #: sf_unittest.xhp
@@ -29101,7 +29101,7 @@ msgctxt ""
 "par_id41656354017140\n"
 "help.text"
 msgid "The following example creates a <literal>UnitTest</literal> instance whose tests are located inside the current document (<literal>ThisComponent</literal>) in the \"Tests\" library."
-msgstr ""
+msgstr "L'esempio seguente crea un'istanza di <literal>UnitTest</literal> i cui controlli sono situati all'interno del documento corrente (<literal>ThisComponent</literal>) nella libreria \"Tests\"."
 
 #. 3pPFr
 #: sf_unittest.xhp
@@ -29110,7 +29110,7 @@ msgctxt ""
 "hd_id731656421609300\n"
 "help.text"
 msgid "A minimalist example in full mode"
-msgstr ""
+msgstr "Un esempio minimale in modo completo"
 
 #. ktFcg
 #: sf_unittest.xhp
@@ -29119,7 +29119,7 @@ msgctxt ""
 "par_id721656421629357\n"
 "help.text"
 msgid "Consider that a ODS file has a module named \"MathUtils\" in its \"Standard\" library with the following code:"
-msgstr ""
+msgstr "Si consideri un file ODS che contenga un modulo denominato \"MathUtils\" nella sua libreria \"Standard\" con il seguente codice:"
 
 #. ZijqG
 #: sf_unittest.xhp
@@ -29128,7 +29128,7 @@ msgctxt ""
 "bas_id821656421926586\n"
 "help.text"
 msgid "' Code in module Standard.MathUtils"
-msgstr ""
+msgstr "' Codice nel modulo Standard.MathUtils"
 
 #. N8ifA
 #: sf_unittest.xhp
@@ -29137,7 +29137,7 @@ msgctxt ""
 "par_id871656422027581\n"
 "help.text"
 msgid "To create a full test suite, consider that a new library named \"Tests\" is created in the file with a single module \"AllTests\" containing the code below:"
-msgstr ""
+msgstr "Per creare una test suite completa, si presuma che una nuova libreria \"Tests\" venga creata nel file con all'interno un unico modulo \"AllTests\" contenente il seguente codice:"
 
 #. TdD5n
 #: sf_unittest.xhp
@@ -29146,7 +29146,7 @@ msgctxt ""
 "bas_id731656422341011\n"
 "help.text"
 msgid "' Code in module Tests.AllTests"
-msgstr ""
+msgstr "' Codice nel modulo Tests.AllTests"
 
 #. TeQGD
 #: sf_unittest.xhp
@@ -29155,7 +29155,7 @@ msgctxt ""
 "bas_id671656422476689\n"
 "help.text"
 msgid "' Preparation code ran prior to the first test case"
-msgstr ""
+msgstr "' Il codice di preparazione è eseguito prima del primo test case"
 
 #. 5YeqU
 #: sf_unittest.xhp
@@ -29164,7 +29164,7 @@ msgctxt ""
 "bas_id621656422479007\n"
 "help.text"
 msgid "' Optional cleanup code called after the last test case"
-msgstr ""
+msgstr "' Codice di pulizia opzionale, chiamato dopo l'ultimo test case"
 
 #. ANk96
 #: sf_unittest.xhp
@@ -29173,7 +29173,7 @@ msgctxt ""
 "bas_id141656422684085\n"
 "help.text"
 msgid "test.AssertEqual(Sum(1, 1), 2, \"Sum two positive integers\")"
-msgstr ""
+msgstr "test.AssertEqual(Sum(1, 1), 2, \"Somma due interi positivi\")"
 
 #. vZeA5
 #: sf_unittest.xhp
@@ -29182,7 +29182,7 @@ msgctxt ""
 "bas_id491656422684324\n"
 "help.text"
 msgid "test.AssertEqual(Sum(-10, 20), 10, \"Sum of negative and positive integers\")"
-msgstr ""
+msgstr "test.AssertEqual(Sum(-10, 20), 10, \"Somma di interi negativi e positivi\")"
 
 #. xAf6Z
 #: sf_unittest.xhp
@@ -29191,7 +29191,7 @@ msgctxt ""
 "bas_id201656422684556\n"
 "help.text"
 msgid "test.AssertEqual(Sum(1.5, 1), 2.5, \"Sum of float and integer values\")"
-msgstr ""
+msgstr "test.AssertEqual(Sum(1.5, 1), 2.5, \"Somma di valori di tipo float e interi\")"
 
 #. Lp9XE
 #: sf_unittest.xhp
