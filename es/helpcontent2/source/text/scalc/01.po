@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-07-27 13:41+0000\n"
+"PO-Revision-Date: 2022-08-03 17:46+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-7-3/textscalc01/es/>\n"
 "Language: es\n"
@@ -4631,7 +4631,7 @@ msgctxt ""
 "par_id841615891322513\n"
 "help.text"
 msgid "<emph>SearchCriteria argument</emph>"
-msgstr "<emph>Argumento de los criterios de búsqueda</emph>"
+msgstr "<emph>argumento CriteriosDeBúsqueda</emph>"
 
 #. 9eBBv
 #: 04060101.xhp
@@ -4730,7 +4730,7 @@ msgctxt ""
 "par_id921615893158111\n"
 "help.text"
 msgid "Even more powerful criteria can be created using regular expressions, providing that regular expressions have been enabled via the <menuitem>Enable regular expressions in formulas</menuitem>  option on the <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calculate</menuitem></link> dialog."
-msgstr "Se pueden crear criterios aún más poderosos utilizando expresiones regulares, siempre que las expresiones regulares se hayan activado a través de la opción <menuitem>Activar expresiones regulares en las fórmulas</menuitem> en el diálogo <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferencias</menuitem></caseinline><defaultinline><menuitem>Herramientas - Opciones</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calcular</menuitem></link>cuadro de dialogo."
+msgstr "Es posible crear criterios aun más sofisticados utilizando las expresiones regulares, siempre y cuando esté activada la opción <menuitem>Permitir expresiones regulares en las fórmulas</menuitem> en el cuadro de diálogo <link href=\"text/shared/optionen/01060500.xhp\" name=\"Spreadsheet - Calculate\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME ▸ Preferencias</menuitem></caseinline><defaultinline><menuitem>Herramientas ▸ Opciones</menuitem></defaultinline></switchinline><menuitem> ▸ %PRODUCTNAME Calc ▸ Calcular</menuitem></link>."
 
 #. YkSzL
 #: 04060101.xhp
@@ -5003,7 +5003,7 @@ msgctxt ""
 "par_id361616251794063\n"
 "help.text"
 msgid "In this example the search criteria area contains only two headings and these are not vertically aligned with the corresponding headings in the example database table. Since there are two conditions in the same row, these are connected by AND. With the above example database table and this search criteria area, insert the formula <item type=\"input\">=DCOUNT(A1:E10;;B12:C13)</item> into an empty cell elsewhere in the sheet to count how many of Joe’s guests are in grade 2 and greater than 7 years old. The value 2 is returned (counting Eva and Irene)."
-msgstr "En este ejemplo, el área de criterios de búsqueda contiene sólo dos encabezados y éstos no están alineados verticalmente con los encabezados correspondientes en la tabla de la base de datos de ejemplo. Como hay dos condiciones en la misma fila, éstas están conectadas por AND. Con la tabla de base de datos del ejemplo anterior y esta área de criterios de búsqueda, inserta la fórmula <item type=\"input\">=DCOUNT(A1:E10;;B12:C13)</item> en una celda vacía en otro lugar de la hoja para contar cuántos de los invitados de Joe están en el grado 2 y tienen más de 7 años. Se devuelve el valor 2 (contando a Eva e Irene)."
+msgstr "En este ejemplo, el área de criterios de búsqueda contiene solo dos encabezados y estos no están alineados verticalmente con los encabezados correspondientes en la tabla de la base de datos del ejemplo. Como hay dos condiciones en la misma fila, estas están conectadas por Y (AND). Con la tabla de base de datos de ejemplo anterior y esta área de criterios de búsqueda, inserte la fórmula <item type=\"input\">=BDCONTAR(A1:E10;;B12:C13)</item> en una celda vacía en otra parte de la hoja para contar cuántos de los invitados de Juan están en el grado 2 y son mayores de 7 años. Devolverá el valor 2 (Eva e Irene)."
 
 #. 6Tfyk
 #: 04060101.xhp
@@ -5480,7 +5480,7 @@ msgctxt ""
 "par_id31615978739452\n"
 "help.text"
 msgid "Returns a #DIV/0! error if no records match the specified search criteria, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr "Devuelve un error #DIV/0! si ningún registro coincide con los criterios de búsqueda especificados, o si no hay valores numéricos en las celdas de la columna especificada para los registros coincidentes."
+msgstr "Devuelve un error #¡DIV/0! si ningún registro coincide con los criterios de búsqueda especificados, o si no hay valores numéricos en las celdas de la columna especificada para los registros coincidentes."
 
 #. PPkBD
 #: 04060101.xhp
@@ -5489,7 +5489,7 @@ msgctxt ""
 "par_id3150710\n"
 "help.text"
 msgid "DAVERAGE(Database; DatabaseField; SearchCriteria)"
-msgstr "BDPROMEDIO(Base de Datos; Campo de Base de Datos; Búsqueda por Criterios)"
+msgstr "BDPROMEDIO(Base de datos; Campo de base de datos; Criterios de búsqueda)"
 
 #. PcjTP
 #: 04060101.xhp
@@ -5498,7 +5498,7 @@ msgctxt ""
 "par_id3149104\n"
 "help.text"
 msgid "The example database table giving information about the guests invited to Joe’s birthday party (described above) should occupy cells A1:E10. The content of cells A12:E12 should be identical to the header labels for the database table in cells A1:E1. Make sure that cells A13:E13 are blank, except for cell D13 which should contain \">0\" (this search criterion is intended to match all records in the database table)."
-msgstr "La tabla de base de datos de ejemplo que da información sobre los invitados a la fiesta de cumpleaños de Joe (descrita anteriormente) debe ocupar las celdas A1:E10. El contenido de las celdas A12:E12 debe ser idéntico al de las etiquetas de cabecera de la tabla de la base de datos en las celdas A1:E1. Asegúrese de que las celdas A13:E13 estén en blanco, excepto la celda D13, que debe contener \">0\" (este criterio de búsqueda pretende coincidir con todos los registros de la tabla de la base de datos)."
+msgstr "La tabla de la base de datos de ejemplo que proporciona información sobre los invitados a la fiesta de cumpleaños de Juan (descrita anteriormente) debe situarse en las celdas A1:E10. El contenido de las celdas A12:E12 debe ser idéntico a las etiquetas de cabecera de la tabla de la base de datos en las celdas A1:E1. Asegúrese de que las celdas A13:E13 estén en blanco, a excepción de la celda D13 que debe contener «>0» (este criterio de búsqueda tiene como objetivo hacer coincidir todos los registros en la tabla de la base de datos)."
 
 #. CjTGB
 #: 04060101.xhp
@@ -5606,7 +5606,7 @@ msgctxt ""
 "par_id121616181037440\n"
 "help.text"
 msgid "Returns a #NUM! error if exactly one record matches the specified search criteria, or if there is only one numeric value in the cells of the specified column for the matching records."
-msgstr "Devuelve un error #NUM! si exactamente un registro coincide con los criterios de búsqueda especificados, o si sólo hay un valor numérico en las celdas de la columna especificada para los registros coincidentes."
+msgstr "Devuelve un error #¡NUM! si un registro coincide exactamente con los criterios de búsqueda especificados, o si solo hay un valor numérico en las celdas de la columna especificada para los registros coincidentes."
 
 #. r6onB
 #: 04060101.xhp
@@ -5804,7 +5804,7 @@ msgctxt ""
 "par_id301616181465164\n"
 "help.text"
 msgid "Returns a #NUM! error if exactly one record matches the specified search criteria, or if there is only one numeric value in the cells of the specified column for the matching records."
-msgstr "Devuelve un error #NUM! si un registro coincide con los criterios de búsqueda especificados, o si sólo hay un valor numérico en las celdas de la columna especificada para los registros coincidentes."
+msgstr "Devuelve un error #¡NUM! si un registro coincide exactamente con los criterios de búsqueda especificados, o si solo hay un valor numérico en las celdas de la columna especificada para los registros coincidentes."
 
 #. gW4LZ
 #: 04060101.xhp
@@ -14921,7 +14921,7 @@ msgctxt ""
 "par_id111631901383901\n"
 "help.text"
 msgid "One, and only one, of <emph>Text1</emph> or <emph>Text2</emph> must be equal to \"EUR\"."
-msgstr "Uno, y sólo uno, de <emph>Texto 1</emph> o <emph>Texto 2</emph> debe ser igual a \"EUR\"."
+msgstr "Uno, y solo uno, de <emph>Texto1</emph> o <emph>Texto2</emph> debe ser igual a «EUR»."
 
 #. Smhnw
 #: 04060106.xhp
@@ -31895,7 +31895,7 @@ msgctxt ""
 "par_id3164967\n"
 "help.text"
 msgid "COUNTIF(Range; Criterion)"
-msgstr "CONTAR.SI(Rango; Criterio)"
+msgstr "CONTAR.SI(Intervalo; Criterio)"
 
 #. sxGvB
 #: 04060181.xhp
@@ -47251,7 +47251,7 @@ msgctxt ""
 "par_id3154758\n"
 "help.text"
 msgid "<ahelp hid=\".uno:Calculate\">If AutoCalculate is disabled, the Recalculate command recalculates all (so-called dirty) formula cells that depend on changed cell content and their dependents, and formula cells containing volatile functions such as RAND() or NOW() and formula cells that depend on them.</ahelp>"
-msgstr "<ahelp hid=\".uno:Calculate\">Si el cálculo automático está desactivado, la orden Volver a Calcular vuelve a calcular todas las celdas de fórmula (denominadas sucias) que dependen del contenido de la celda modificada y sus dependientes, y las celdas de fórmula que contienen funciones volátiles como RAND() o NOW() y las celdas de fórmula que dependen de ellas.</ahelp>"
+msgstr "<ahelp hid=\".uno:Calculate\">Si el cálculo automático está desactivado, la orden Recalcular vuelve a calcular todas las celdas de la fórmula que dependen del contenido de la celda modificada y sus dependencias, así como aquellas celdas de la fórmula que contienen funciones volátiles como ALEATORIO() o AHORA() más las celdas que dependen de ellas.</ahelp>"
 
 #. QcG4R
 #: 06080000.xhp
@@ -47260,7 +47260,7 @@ msgctxt ""
 "par_id3154759\n"
 "help.text"
 msgid "<ahelp hid=\".uno:Calculate\">If AutoCalculate is enabled, the Recalculate command applies only to formula cells containing volatile functions like RAND() or NOW() and formula cells that depend on them.</ahelp>"
-msgstr "<ahelp hid=\".uno:Calculate\">Si el cálculo automático está activado, la orden Volver a Calcular se aplica sólo a las celdas de fórmula que contienen funciones volátiles como ALEATORIO() o AHORA() y a las celdas de fórmula que dependen de ellas.</ahelp>"
+msgstr "<ahelp hid=\".uno:Calculate\">Si el cálculo automático está activado, la orden Recalcular se aplica solo a las celdas de fórmula que contienen funciones volátiles como ALEATORIO() o AHORA() y a las celdas de fórmula que dependen de ellas.</ahelp>"
 
 #. CXEtC
 #: 06080000.xhp
@@ -48214,7 +48214,7 @@ msgctxt ""
 "par_id3155602\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outarealb\"> Select a named <link href=\"text/scalc/01/12010000.xhp\" name=\"cell range\"> cell range</link> where you want to display the sorted list.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outarealb\">Seleccione un nombre<link href=\"text/scalc/01/12010000.xhp\" name=\"cell range\">rango de celdas</link>donde desea mostrar la lista ordenada.</ahelp>"
+msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outarealb\">Seleccione un <link href=\"text/scalc/01/12010000.xhp\" name=\"cell range\">intervalo de celdas con nombre</link> en el cual mostrar la lista ordenada.</ahelp>"
 
 #. nxJWR
 #: 12030200.xhp
@@ -48232,7 +48232,7 @@ msgctxt ""
 "par_id3145642\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outareaed\">Enter the cell range where you want to display the sorted list.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outareaed\">Ingrese el rango de celdas donde desea mostrar la lista ordenada.</ahelp>"
+msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/outareaed\">Introduzca el intervalo de celdas donde quiera que se muestre la lista ordenada.</ahelp>"
 
 #. ZCoZV
 #: 12030200.xhp
@@ -63937,7 +63937,7 @@ msgctxt ""
 "par_id31575066315078\n"
 "help.text"
 msgid "<variable id=\"optvolat\"><emph>Volatility</emph> is the annual percentage volatility of the underlying asset expressed as a decimal (for example, enter 30% as 0.3). The value should be greater than 0.0.</variable>"
-msgstr "<variable id=\"optvolat\"><emph>Volatilidad</emph> es el porcentaje anual de volatilidad del activo subyacente expresado como decimal (por ejemplo, ingrese 30% como 0.3). El valor debe ser mayor que 0.0.</variable>"
+msgstr "<variable id=\"optvolat\"><emph>Volatilidad</emph> es el porcentaje anual de volatilidad del activo subyacente expresado como decimal (por ejemplo, ingrese 30 % como 0,3). El valor debe ser mayor que 0,0.</variable>"
 
 #. iCEkw
 #: func_opt_touch.xhp
@@ -63946,7 +63946,7 @@ msgctxt ""
 "par_id681575066324254\n"
 "help.text"
 msgid "<variable id=\"optrate\"><emph>Rate</emph> is the continuously compounded interest rate. This is a percentage expressed as a decimal (for example, enter 40% as 0.4).</variable>"
-msgstr "<variable id=\"optrate\"><emph>Tasa</emph> es la tasa de interés continuamente compuesta. Este es un porcentaje expresado como decimal (por ejemplo, ingrese 40% como 0.4).</variable>"
+msgstr "<variable id=\"optrate\"><emph>Tasa</emph> es la tasa de interés continuamente compuesta. Este es un porcentaje expresado como decimal (por ejemplo, ingrese 40 % como 0,4).</variable>"
 
 #. eoG8E
 #: func_opt_touch.xhp
@@ -63955,7 +63955,7 @@ msgctxt ""
 "par_id71575066333773\n"
 "help.text"
 msgid "<variable id=\"optfrate\"><emph>ForeignRate</emph> is the continuously compounded foreign interest rate. This is a percentage expressed as a decimal (for example, enter 50% as 0.5).</variable>"
-msgstr "<variable id=\"optfrate\"><emph>Tasa Extranjera</emph> es la tasa de interés extranjera compuesta continuamente. Este es un porcentaje expresado como decimal (por ejemplo, ingrese 50% como 0.5).</variable>"
+msgstr "<variable id=\"optfrate\"><emph>Tasa extranjera</emph> es la tasa de interés extranjera compuesta continuamente. Este es un porcentaje expresado como decimal (por ejemplo, ingrese 50 % como 0,5).</variable>"
 
 #. hzfJp
 #: func_opt_touch.xhp
@@ -67438,7 +67438,7 @@ msgctxt ""
 "hd_id121589913023217\n"
 "help.text"
 msgid "Target Cell"
-msgstr "celda destino"
+msgstr "Celda de destino"
 
 #. EsgHG
 #: solver.xhp
@@ -67492,7 +67492,7 @@ msgctxt ""
 "par_id7141026\n"
 "help.text"
 msgid "<ahelp hid=\".\">Enter the value or a cell reference in the text field.</ahelp>"
-msgstr "<ahelp hid=\".\">Ingrese el valor o una referencia de celda en el campo de texto.</ahelp>"
+msgstr "<ahelp hid=\".\">Introduzca el valor o una referencia de celda en el campo de texto.</ahelp>"
 
 #. KMA6B
 #: solver.xhp
@@ -67501,7 +67501,7 @@ msgctxt ""
 "hd_id761589914010085\n"
 "help.text"
 msgid "By Changing Cells"
-msgstr "Cambio de celdas"
+msgstr "Por modificación de celdas"
 
 #. VvrzV
 #: solver.xhp
@@ -67528,7 +67528,7 @@ msgctxt ""
 "par_id421589915278885\n"
 "help.text"
 msgid "Add the set of constraints for the mathematical problem. Each constraint is represented by a cell reference (a variable), an operator, and a value."
-msgstr "añade el conjunto de restricciones para el problema matemático. Cada restricción está representada por una referencia de celda (una variable), un operador y un valor."
+msgstr "Añada el conjunto de restricciones para el problema matemático. Cada restricción está representada por una referencia de celda (una variable), un operador y un valor."
 
 #. YApta
 #: solver.xhp
@@ -67537,7 +67537,7 @@ msgctxt ""
 "par_id9183935\n"
 "help.text"
 msgid "<ahelp hid=\".\"><emph>Cell reference:</emph> Enter a cell reference of the variable.</ahelp>"
-msgstr "<ahelp hid=\".\"><emph>Referencia de celda</emph>Introduzca una referencia de celda de la variable</ahelp>"
+msgstr "<ahelp hid=\".\"><emph>Referencia de celda</emph>: introduzca una referencia de celda de la variable</ahelp>"
 
 #. eyxy9
 #: solver.xhp
@@ -67546,7 +67546,7 @@ msgctxt ""
 "par_id1939451\n"
 "help.text"
 msgid "<ahelp hid=\".\">Click the Shrink button to shrink or restore the dialog. You can click or select cells in the sheet. You can enter a cell reference manually in the input box.</ahelp>"
-msgstr "<ahelp hid=\".\">pulse en el botón Reducir para reducir o restaurar el cuadro de diálogo. Puede pulsar seleccionar celdas en la hoja. Puede ingresar una referencia de celda manualmente en el cuadro de entrada.</ahelp>"
+msgstr "<ahelp hid=\".\">Pulse en el botón Reducir para reducir o restaurar el cuadro de diálogo. Puede pulsar o seleccionar celdas en la hoja. Se puede introducir una referencia de celda manualmente en el cuadro de entrada.</ahelp>"
 
 #. CWWbZ
 #: solver.xhp
@@ -67555,7 +67555,7 @@ msgctxt ""
 "par_id946684\n"
 "help.text"
 msgid "<ahelp hid=\".\"><emph>Operator:</emph> Select an operator from the list.</ahelp> Use Binary operator to restrict your variable to 0 or 1. Use the Integer operator to restrict your variable to take only integer values (no decimal part)."
-msgstr "<ahelp hid=\".\"><emph>Operador</emph>Seleccione un operador de la lista</ahelp>Use el operador Binario para restringir su variable a 0 o 1. Use el operador entero para restringir su variable para tomar solo valores enteros (sin parte decimal)."
+msgstr "<ahelp hid=\".\"><emph>Operador</emph>: seleccione un operador de la lista.</ahelp> Utilice el operador Binario para restringir su variable a 0 o 1. Utilice el operador Entero para restringir su variable para que admita solo valores enteros (sin parte decimal)."
 
 #. CtpNG
 #: solver.xhp
@@ -70140,7 +70140,7 @@ msgctxt ""
 "par_id1701201620340139\n"
 "help.text"
 msgid "<emph>Power regression</emph>: finds a power curve in the form of y = exp( b + a<sub>1</sub>.ln[x<sub>1</sub>] + a<sub>2</sub>.ln[x<sub>2</sub>] + a<sub>3</sub>.ln[x<sub>3</sub>] ...), where a<sub>i</sub> is the i-th power, [x<sub>i</sub>] is the i-th independent variable, and b is intercept that best fits the data."
-msgstr "<emph>Regresión de poder</emph>: encuentra una curva de potencia en forma de y = exp( b + a<sub>1</sub>.ln[x<sub>1</sub>] + a<sub>2</sub>.ln[x<sub>2</sub>] + a<sub>3</sub>. ln[x<sub>3</sub>] ...), donde a<sub>i</sub> es la i-ésima potencia, [x<sub>i</sub>] es la i-ésima variable independiente, y b es el intercepto que mejor se ajusta a los datos"
+msgstr "<emph>Regresión de potencia</emph>: encuentra una curva de potencia en forma de y = exp( b + a<sub>1</sub>.ln[x<sub>1</sub>] + a<sub>2</sub>.ln[x<sub>2</sub>] + a<sub>3</sub>. ln[x<sub>3</sub>] ...), donde a<sub>i</sub> es la i-ésima potencia, [x<sub>i</sub>] es la i-ésima variable independiente, y b es el intercepto que mejor se ajusta a los datos."
 
 #. 3KkxA
 #: statistics_regression.xhp
@@ -70599,7 +70599,7 @@ msgctxt ""
 "par_id1003280\n"
 "help.text"
 msgid "<emph>Variable 1 range</emph>: The reference of the range of the first data series to analyze."
-msgstr "<emph>Rango de variable 1</emph>: La referencia del rango de la primera serie de datos a analizar."
+msgstr "<emph>Intervalo de 1.ª variable</emph>: la referencia del intervalo de la primera serie de datos que se debe analizar."
 
 #. qzYBv
 #: statistics_test_f.xhp
@@ -70608,7 +70608,7 @@ msgctxt ""
 "par_id1003290\n"
 "help.text"
 msgid "<emph>Variable 2 range</emph>: The reference of the range of the second data series to analyze."
-msgstr "<emph>Rango variable 2</emph>: La referencia del rango de la segunda serie de datos a analizar."
+msgstr "<emph>Intervalo de 2.ª variable</emph>: la referencia del intervalo de la segunda serie de datos que se debe analizar."
 
 #. MvvMT
 #: statistics_test_f.xhp
@@ -70617,7 +70617,7 @@ msgctxt ""
 "par_id1003300\n"
 "help.text"
 msgid "<emph>Results to</emph>: The reference of the top left cell of the range where the test will be displayed."
-msgstr "<emph>Resultados a</emph>: La referencia de la celda superior izquierda del rango donde se mostrará la prueba."
+msgstr "<emph>Resultados en</emph>: la referencia de la celda superior izquierda del intervalo donde se mostrará la prueba."
 
 #. Greqo
 #: statistics_test_f.xhp
@@ -70851,7 +70851,7 @@ msgctxt ""
 "par_id1002860\n"
 "help.text"
 msgid "<emph>Variable 1 range</emph>: The reference of the range of the first data series to analyze."
-msgstr "<emph>Rango de variable 1</emph>: La referencia del rango de la primera serie de datos a analizar."
+msgstr "<emph>Intervalo de 1.ª variable</emph>: la referencia del intervalo de la primera serie de datos que se debe analizar."
 
 #. 27zQ4
 #: statistics_test_t.xhp
@@ -70860,7 +70860,7 @@ msgctxt ""
 "par_id1002870\n"
 "help.text"
 msgid "<emph>Variable 2 range</emph>: The reference of the range of the second data series to analyze."
-msgstr "<emph>Rango variable 2</emph>: La referencia del rango de la segunda serie de datos a analizar."
+msgstr "<emph>Intervalo de 2.ª variable</emph>: la referencia del intervalo de la segunda serie de datos que se debe analizar."
 
 #. 8D2Gp
 #: statistics_test_t.xhp
@@ -70869,7 +70869,7 @@ msgctxt ""
 "par_id1002880\n"
 "help.text"
 msgid "<emph>Results to</emph>: The reference of the top left cell of the range where the test will be displayed."
-msgstr "<emph>Resultados a</emph>: La referencia de la celda superior izquierda del rango donde se mostrará la prueba."
+msgstr "<emph>Resultados en</emph>: la referencia de la celda superior izquierda del intervalo donde se mostrará la prueba."
 
 #. KcmaB
 #: statistics_test_t.xhp
@@ -71112,7 +71112,7 @@ msgctxt ""
 "par_id1003670\n"
 "help.text"
 msgid "<emph>Variable 1 range</emph>: The reference of the range of the first data series to analyze."
-msgstr "<emph>Rango de variable 1</emph>: La referencia del rango de la primera serie de datos a analizar."
+msgstr "<emph>Intervalo de 1.ª variable</emph>: la referencia del intervalo de la primera serie de datos que se debe analizar."
 
 #. 6sDZb
 #: statistics_test_z.xhp
@@ -71121,7 +71121,7 @@ msgctxt ""
 "par_id1003680\n"
 "help.text"
 msgid "<emph>Variable 2 range</emph>: The reference of the range of the second data series to analyze."
-msgstr "<emph>Rango variable 2</emph>: La referencia del rango de la segunda serie de datos a analizar."
+msgstr "<emph>Intervalo de 2.ª variable</emph>: la referencia del intervalo de la segunda serie de datos que se debe analizar."
 
 #. SRfn5
 #: statistics_test_z.xhp
@@ -71130,7 +71130,7 @@ msgctxt ""
 "par_id1003690\n"
 "help.text"
 msgid "<emph>Results to</emph>: The reference of the top left cell of the range where the test will be displayed."
-msgstr "<emph>Resultados a</emph>: La referencia de la celda superior izquierda del rango es donde se mostrará la prueba."
+msgstr "<emph>Resultados en</emph>: la referencia de la celda superior izquierda del intervalo donde se mostrará la prueba."
 
 #. WLqsj
 #: statistics_test_z.xhp
