@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-05-25 12:36+0200\n"
-"PO-Revision-Date: 2022-08-03 22:48+0000\n"
+"PO-Revision-Date: 2022-08-07 18:14+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersar@yahoo.com>\n"
 "Language-Team: Basque <https://translations.documentfoundation.org/projects/libo_help-master/textsdatabase/eu/>\n"
 "Language: eu\n"
@@ -2461,7 +2461,7 @@ msgctxt ""
 "par_id191120151931441881\n"
 "help.text"
 msgid "A useful construction for selecting records based on parts of a text field's content is to add a hidden column with <item type=\"input\">\"LIKE '%' || :Part_of_field || '%'\"</item> as the criterion. This will select records with an exact match. If a case-insensitive test is wanted, one solution is to use <item type=\"input\">LOWER (Field_Name)</item> as the field and <item type=\"input\">LIKE LOWER ( '%' || :Part_of_field || '%' )</item> as the criterion. Note that the spaces in the criterion are important; if they are left out the SQL parser interprets the entire criterion as a string to be matched. In <link href=\"text/sdatabase/02010100.xhp#sqlmode\">SQL mode</link> this should be typed as <item type=\"input\">LOWER ( \"Field_Name\" ) LIKE LOWER ( '%' || :Part_of_field || '%' )</item>."
-msgstr ""
+msgstr "Testu-eremu baten edukien zatietan oinarrituta erregistroak hautatzeko modu erabilgarri bat <item type=\"input\">\"LIKE '%' || :Eremuaren_zatia || '%'\"</item> irizpide gisa duen ezkutuko zutabe bat gehitzea da. Formula horrek zehazki bat datozen erregistroak hautatuko ditu. Maiuskulak/minuskulak kontuan hartzen dituen testua lortu nahi bada, erabili <item type=\"input\">LOWER (Eremu_izena)</item> eremu gisa eta <item type=\"input\">LIKE LOWER ( '%' || :Eremuaren_zatia || '%' )</item> irizpide gisa. Kontuan izan irizpideko zuriuneak garrantzitsuak diela; kanpo uzten badira, SQL analizatzaileak ulertzen du irizpide osoak bat egin behar duela katearekin. <link href=\"text/sdatabase/02010100.xhp#sqlmode\">SQL moduan</link> honela idatzi behar da: <item type=\"input\">LOWER ( \"Eremuaren izena\" ) LIKE LOWER ( '%' || :Eremuaren_zatia || '%' )</item>."
 
 #. sSSB9
 #: 02010100.xhp
@@ -5881,7 +5881,7 @@ msgctxt ""
 "hd_id91652478785999\n"
 "help.text"
 msgid "Show output of \"select\" statements"
-msgstr ""
+msgstr "Erakutsi \"select\" instrukzioen irteera"
 
 #. nB4gp
 #: 11080000.xhp
@@ -5890,7 +5890,7 @@ msgctxt ""
 "par_id281652481037143\n"
 "help.text"
 msgid "Show the result of the SQL SELECT command in the Output box."
-msgstr ""
+msgstr "Erakutsi SQL SELECT komandoaren emaitza irteerako koadroan."
 
 #. uaXF8
 #: 11080000.xhp
@@ -5899,7 +5899,7 @@ msgctxt ""
 "hd_id3154071\n"
 "help.text"
 msgid "Execute"
-msgstr ""
+msgstr "Exekutatu"
 
 #. 6UCdY
 #: 11080000.xhp
