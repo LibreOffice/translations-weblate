@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-10-02 21:43+0000\n"
+"PO-Revision-Date: 2022-10-02 21:50+0000\n"
 "Last-Translator: Daniela Rosales Espino <daniiglez1@outlook.com>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/es/>\n"
 "Language: es\n"
@@ -1364,7 +1364,7 @@ msgctxt ""
 "bas_id291627156013810\n"
 "help.text"
 msgid "' Hence changing values in \"b\" will also change \"a\""
-msgstr "Por lo tanto, cambiar los valores en \"b\" también cambiará \"a\""
+msgstr "Por lo tanto, si se cambian los valores en \"b\" también cambiará \"a\""
 
 #. 6NbNZ
 #: sf_array.xhp
@@ -1373,7 +1373,7 @@ msgctxt ""
 "par_id701627155874259\n"
 "help.text"
 msgid "By using the <literal>Copy</literal> method, a copy of the whole <literal>Array</literal> object is made. In the example below, <literal>a</literal> and <literal>b</literal> are different objects and changing values in <literal>b</literal> will not affect values in <literal>a</literal>."
-msgstr ""
+msgstr "Al usar el<literal>Copiar</literal>método, una copia de la totalidad<literal>matriz</literal>se hace el objeto. En el siguiente ejemplo,<literal>a</literal>y<literal>b</literal>son objetos diferentes y valores cambiantes en<literal>b</literal>no afectará los valores en<literal>a</literal>"
 
 #. UycBx
 #: sf_array.xhp
@@ -1382,7 +1382,7 @@ msgctxt ""
 "bas_id141627156152196\n"
 "help.text"
 msgid "' Creates a copy of \"a\" using the \"Copy\" method"
-msgstr ""
+msgstr "' Crea una copia de \"a\" usando el método \"Copiar\""
 
 #. bYzRV
 #: sf_array.xhp
@@ -1391,7 +1391,7 @@ msgctxt ""
 "par_id671582558126025\n"
 "help.text"
 msgid "Count the number of dimensions of an array. The result can be greater than two.    <br/>If the argument is not an array, returns -1    <br/>If the array is not initialized, returns 0."
-msgstr ""
+msgstr "Cuente el número de dimensiones de una matriz. El resultado puede ser mayor que dos. <br/>Si el argumento no es una matriz, devuelve -1 <br/>Si la matriz no está inicializada, devuelve 0."
 
 #. xbtFE
 #: sf_array.xhp
@@ -1400,7 +1400,7 @@ msgctxt ""
 "par_id771582558126027\n"
 "help.text"
 msgid "<emph>array_nd</emph>: The array to examine."
-msgstr ""
+msgstr "<emph>matriz_nd</emph>: La matriz a examinar."
 
 #. n2AxD
 #: sf_array.xhp
@@ -1410,6 +1410,8 @@ msgctxt ""
 "help.text"
 msgid "Build a set, as a zero-based array, by applying the difference operator on the two input arrays. Resulting items originate from the first array and not from the second.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, their items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
 msgstr ""
+"Cree un conjunto, como una matriz de base cero, aplicando el operador de diferencia en las dos matrices de entrada. Los elementos resultantes se originan en la primera matriz y no en la segunda.\n"
+"<br/>La matriz resultante se ordena en orden ascendente. <br/>Ambas matrices de entrada deben llenarse de manera homogénea, sus elementos deben ser escalares del mismo tipo. Los elementos <literal>Vacío</literal> y <literal> Nulo </literal> están prohibidos. <br/>La comparación de texto puede distinguir entre mayúsculas y minúsculas o no."
 
 #. FTb9n
 #: sf_array.xhp
@@ -1418,7 +1420,7 @@ msgctxt ""
 "par_id271582558644287\n"
 "help.text"
 msgid "<emph>array1_1d</emph>: A 1-dimensional reference array, whose items are examined for removal."
-msgstr ""
+msgstr "<emph>matriz_id</emph>: Una matriz de referencia unidimensional, cuyos elementos se examinan para eliminarlos."
 
 #. JXqBK
 #: sf_array.xhp
@@ -1427,7 +1429,7 @@ msgctxt ""
 "par_id141582558644287\n"
 "help.text"
 msgid "<emph>array2_1d</emph>: A 1-dimensional array, whose items are subtracted from the first input array."
-msgstr ""
+msgstr "<emph>matriz2_1d</emph>: Una matriz unidimensional, cuyos elementos se restan de la primera matriz de entrada."
 
 #. jK4zC
 #: sf_array.xhp
@@ -1436,7 +1438,7 @@ msgctxt ""
 "par_id291582559651473\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: This argument is only applicable if the arrays are populated with strings (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>distingue mayúsculas y minúsculas</emph>: este argumento solo es aplicable si las matrices se completan con cadenas (Predeterminado = <literal>Falso</literal>)."
 
 #. mzRus
 #: sf_array.xhp
@@ -1445,7 +1447,7 @@ msgctxt ""
 "par_id941586179707156\n"
 "help.text"
 msgid "Write all items of the array sequentially to a text file. If the file exists already, it will be overwritten without warning."
-msgstr ""
+msgstr "Escriba todos los elementos de la matriz secuencialmente en un archivo de texto. Si el archivo ya existe, se sobrescribirá sin previo aviso."
 
 #. 9mNLT
 #: sf_array.xhp
@@ -1454,7 +1456,7 @@ msgctxt ""
 "par_id100158617970719\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to export. It must contain only strings."
-msgstr ""
+msgstr "<emph>matriz_1d</emph>: La matriz a exportar. Debe contener solo cadenas."
 
 #. kXJDE
 #: sf_array.xhp
@@ -1463,7 +1465,7 @@ msgctxt ""
 "par_id101586179707232\n"
 "help.text"
 msgid "<emph>filename</emph>: The name of the text file where the data will be written to. The name must be expressed according to the current <literal>FileNaming</literal> property of the <literal>SF_FileSystem</literal> service."
-msgstr ""
+msgstr "<emph>Nombre del archivo</emph>: El nombre del archivo de texto donde se escribirán los datos. El nombre debe expresarse de acuerdo con la actual<literal>Nombre de archivo</literal>propiedad de la<literal>Sistema de archivos FS</literal>Servicio."
 
 #. fAeZV
 #: sf_array.xhp
@@ -1472,7 +1474,7 @@ msgctxt ""
 "par_id70158617970791\n"
 "help.text"
 msgid "<emph>encoding</emph>: The character set that should be used. Use one of the names listed in <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\" name=\"IANA character sets\">IANA character sets</link>. Note that %PRODUCTNAME may not implement all existing character sets (Default is \"UTF-8\")."
-msgstr ""
+msgstr "<emph>codificación</emph>: El conjunto de caracteres que se debe utilizar. Utilice uno de los nombres enumerados en<link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\" name=\"IANA character sets\">Conjuntos de caracteres de la IANA</link>. Tenga en cuenta que es posible que %PRODUCTNAME no implemente todos los conjuntos de caracteres existentes (el valor predeterminado es \"UTF-8\")."
 
 #. TtHbe
 #: sf_array.xhp
@@ -1490,7 +1492,7 @@ msgctxt ""
 "par_id301582560281083\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The array from which to extract."
-msgstr ""
+msgstr "<emph>matriz_2d</emph>: La matriz de la que se extrae."
 
 #. QDqrA
 #: sf_array.xhp
@@ -1499,7 +1501,7 @@ msgctxt ""
 "par_id421582560281084\n"
 "help.text"
 msgid "<emph>columnindex</emph>: The column number to extract - must be in the interval <literal>[LBound, UBound]</literal>."
-msgstr ""
+msgstr "<emph>índice de columna</emph>: El número de columna a extraer - debe estar en el intervalo<literal>[Límite L, Límite U]</literal>."
 
 #. AJxYE
 #: sf_array.xhp
@@ -1508,7 +1510,7 @@ msgctxt ""
 "bas_id861609975902708\n"
 "help.text"
 msgid "'Creates a 3x3 matrix: |1, 2, 3|"
-msgstr ""
+msgstr "'Crea una matriz de 3x3: |1, 2, 3|"
 
 #. uZD8U
 #: sf_array.xhp
@@ -1526,7 +1528,7 @@ msgctxt ""
 "par_id211582561467219\n"
 "help.text"
 msgid "Extract from a two dimension array a specific row as a new array.      <br/>Its lower <literal>LBound</literal> and upper <literal>UBound</literal> boundaries are identical to that of the second dimension of the input array."
-msgstr ""
+msgstr "Extraiga de una matriz de dos dimensiones una fila específica como una nueva matriz<br/>Es mas bajo<literal>Límite L</literal>y superior<literal>Limite U</literal>los límites son idénticos a los de la segunda dimensión de la matriz de entrada."
 
 #. VCBJA
 #: sf_array.xhp
@@ -1535,7 +1537,7 @@ msgctxt ""
 "par_id911582561542889\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The array from which to extract."
-msgstr ""
+msgstr "<emph>matriz_2d</emph>: La matriz de la que se extrae."
 
 #. MjXTV
 #: sf_array.xhp
@@ -1544,7 +1546,7 @@ msgctxt ""
 "par_id441582561551202\n"
 "help.text"
 msgid "<emph>rowindex</emph>: The row number to extract - must be in the interval <literal>[LBound, UBound]</literal>."
-msgstr ""
+msgstr "<emph>índice de fila</emph>: El número de fila a extraer - debe estar en el intervalo<literal>[Límite L, Límite U]</literal>."
 
 #. AajEu
 #: sf_array.xhp
@@ -1553,7 +1555,7 @@ msgctxt ""
 "bas_id301582561604167\n"
 "help.text"
 msgid "'Creates a 3x3 matrix: |1, 2, 3|"
-msgstr ""
+msgstr "'Crea una matriz de 3x3: |1, 2, 3|"
 
 #. txoEC
 #: sf_array.xhp
@@ -1571,7 +1573,7 @@ msgctxt ""
 "par_id431585757822181\n"
 "help.text"
 msgid "Stack all single items of an array and all items in its subarrays into one new array without subarrays. Empty subarrays are ignored and subarrays with a number of dimensions greater than one are not flattened."
-msgstr ""
+msgstr "Apile todos los elementos individuales de una matriz y todos los elementos en sus subarreglos en una nueva matriz sin subarreglos. Los subarreglos vacíos se ignoran y los subarreglos con un número de dimensiones mayor que uno no se aplanan."
 
 #. CNFGJ
 #: sf_array.xhp
@@ -1580,7 +1582,7 @@ msgctxt ""
 "par_id431585757822869\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr ""
+msgstr "<emph>matriz_1d</emph>: La matriz preexistente puede estar vacía."
 
 #. DDwn4
 #: sf_array.xhp
@@ -1589,7 +1591,7 @@ msgctxt ""
 "par_id291610040786530\n"
 "help.text"
 msgid "You can use the <literal>Flatten</literal> method along with other methods such as <literal>Append</literal> or <literal>Prepend</literal> to concatenate a set of 1D arrays into a single 1D array."
-msgstr ""
+msgstr "Puedes usar el<literal>Aplanar</literal>método junto con otros métodos tales como<literal>Adjuntar</literal>o<literal>Anteponer</literal>para concatenar un conjunto de arreglos 1D en un solo arreglo 1D."
 
 #. XE4hJ
 #: sf_array.xhp
@@ -1598,7 +1600,7 @@ msgctxt ""
 "par_id941610040961148\n"
 "help.text"
 msgid "Next is an example of how the methods <literal>Flatten</literal> and <literal>Append</literal> can be combined to concatenate three arrays."
-msgstr ""
+msgstr "El siguiente es un ejemplo de cómo los métodos<literal>Aplanar</literal>y<literal>Adjuntar</literal>se pueden combinar para concatenar tres matrices."
 
 #. FyJQi
 #: sf_array.xhp
@@ -1607,7 +1609,7 @@ msgctxt ""
 "bas_id841610041372527\n"
 "help.text"
 msgid "'Creates three arrays for this example"
-msgstr ""
+msgstr "Crea tres matrices para este ejemplo."
 
 #. WvdEp
 #: sf_array.xhp
@@ -1644,6 +1646,8 @@ msgctxt ""
 "help.text"
 msgid "Each line in the file contains a full record (line splitting is not allowed).     <br/>However sequences like <literal>\\n</literal>, <literal>\\t</literal>, ... are left unchanged. Use <literal>SF_String</literal>.Unescape() method to manage them."
 msgstr ""
+"Cada línea del archivo contiene un registro completo (no se permite la división de líneas).<br/>Sin embargo, secuencias como<literal>\\n"
+"</literal>,<literal>\\t</literal>,...se dejan sin cambios. Usar<literal>SF_Cadena</literal>Método Un escape () para gestionarlos."
 
 #. dCYB3
 #: sf_array.xhp
@@ -1652,7 +1656,7 @@ msgctxt ""
 "par_id231585562475026\n"
 "help.text"
 msgid "The method returns a two dimension array whose rows correspond to a single record read in the file and whose columns correspond to a field of the record. No check is made about the coherence of the field types across columns. A best guess will be made to identify numeric and date types."
-msgstr ""
+msgstr "El método devuelve una matriz de dos dimensiones cuyas filas corresponden a un solo registro leído en el archivo y cuyas columnas corresponden a un campo del registro. No se comprueba la coherencia de los tipos de campo en las columnas. Se hará una mejor conjetura para identificar los tipos numéricos y de fecha."
 
 #. FMKSo
 #: sf_array.xhp
@@ -1661,7 +1665,7 @@ msgctxt ""
 "par_id101585562548245\n"
 "help.text"
 msgid "If a line contains less or more fields than the first line in the file, an exception will be raised. Empty lines however are simply ignored. If the size of the file exceeds the number of items limit (see inside the code), a warning is raised and the array is truncated."
-msgstr ""
+msgstr "Si una línea contiene menos o más campos que la primera línea del archivo, se generará una excepción. Sin embargo, las líneas vacías simplemente se ignoran. Si el tamaño del archivo supera el límite de número de elementos (consulte el interior del código), se genera una advertencia y la matriz se trunca."
 
 #. zGf5A
 #: sf_array.xhp
@@ -1670,7 +1674,7 @@ msgctxt ""
 "par_id441585561482121\n"
 "help.text"
 msgid "<emph>filename</emph>: The name of the text file containing the data. The name must be expressed according to the current <literal>FileNaming</literal> property of the <literal>SF_FileSystem</literal> service."
-msgstr ""
+msgstr "<emph>Nombre del archivo</emph>:El nombre del archivo de texto que contiene los datos. El nombre debe expresarse de acuerdo con la actual<literal>nombre de archivo</literal>propiedad de la<literal>Sistema de archivos FS</literal>Servicio."
 
 #. SBuiC
 #: sf_array.xhp
@@ -1679,7 +1683,7 @@ msgctxt ""
 "par_id251585561482929\n"
 "help.text"
 msgid "<emph>delimiter</emph>: A single character, usually, a comma, a semicolon or a TAB character (Default = \",\")."
-msgstr ""
+msgstr "<emph>delimitador</emph>: Un solo carácter, por lo general, una coma, un punto y coma o un carácter TABULADOR (Predeterminado = \",\")."
 
 #. Ehoz6
 #: sf_array.xhp
@@ -1688,7 +1692,7 @@ msgctxt ""
 "par_id631585563491559\n"
 "help.text"
 msgid "<emph>dateformat</emph>: A special mechanism handles dates when <literal>dateformat</literal> is either \"YYYY-MM-DD\", \"DD-MM-YYYY\" or \"MM-DD-YYYY\". The dash (-) may be replaced by a dot (.), a slash (/) or a space. Other date formats will be ignored. Dates defaulting to an empty string \"\" are considered as normal text."
-msgstr ""
+msgstr "<emph>formato de fecha</emph>: Un mecanismo especial maneja las fechas cuando<literal>formato de fecha</literal>es \"AAAA-MM-DD\", \"DD-MM-AAAA\" o \"MM-DD-AAAA\". El guión (-) puede ser reemplazado por un punto (.), una barra oblicua (/) o un espacio. Se ignorarán otros formatos de fecha. Las fechas predeterminadas en una cadena vacía \"\" se consideran como texto normal."
 
 #. oj4Th
 #: sf_array.xhp
@@ -1697,7 +1701,7 @@ msgctxt ""
 "par_id61585564516409\n"
 "help.text"
 msgid "Consider the CSV file \"myFile.csv\" with the following contents:"
-msgstr ""
+msgstr "Considere el archivo CSV \"mi archivo .csv\" con los siguientes contenidos:"
 
 #. T6E8L
 #: sf_array.xhp
@@ -1706,7 +1710,7 @@ msgctxt ""
 "par_id281626980354105\n"
 "help.text"
 msgid "<input>Name,DateOfBirth,Address,City</input>"
-msgstr ""
+msgstr "<input>Nombre, fecha de nacimiento, dirección, ciudad</input>"
 
 #. FRZKB
 #: sf_array.xhp
@@ -1715,7 +1719,7 @@ msgctxt ""
 "par_id301626980648833\n"
 "help.text"
 msgid "<input>Anna,2002/03/31,\"Rue de l'église, 21\",Toulouse</input>"
-msgstr ""
+msgstr "<input>Anna, 31/03/2002, \"Calle de la Iglesia, 21\", Toulouse</input>"
 
 #. g2r8f
 #: sf_array.xhp
@@ -1724,7 +1728,7 @@ msgctxt ""
 "par_id881626980658900\n"
 "help.text"
 msgid "<input>Fred,1998/05/04,\"Rue Albert Einstein, 113A\",Carcassonne</input>"
-msgstr ""
+msgstr "<input>Fred, 04/05/1998,\"Rue Albert Einstein, 113A\",Carcasona</input>"
 
 #. xNCNA
 #: sf_array.xhp
@@ -1733,7 +1737,7 @@ msgctxt ""
 "par_id181626979812772\n"
 "help.text"
 msgid "The examples below in Basic and Python read the contents of the CSV file into an <literal>Array</literal> object."
-msgstr ""
+msgstr "Los siguientes ejemplos en Basic y Python leen el contenido del archivo CSV en un objeto <literal> Matriz</literal>objeto."
 
 #. F4yYB
 #: sf_array.xhp
@@ -1742,7 +1746,7 @@ msgctxt ""
 "bas_id531585561482408\n"
 "help.text"
 msgid "arr = SF_Array.ImportFromCSVFile(\"C:\\Temp\\myFile.csv\", DateFormat := \"YYYY/MM/DD\")"
-msgstr ""
+msgstr "arr = SF_matriz. Importar desde archivo CSV (\"C:\\Temp\\myFile.csv\", Formato de fecha: = \"YYYY/MM/DD\")"
 
 #. wyEqv
 #: sf_array.xhp
@@ -1760,7 +1764,7 @@ msgctxt ""
 "bas_id21585564425349\n"
 "help.text"
 msgid "MsgBox arr(1, 2) ' Rue de l'église, 21"
-msgstr ""
+msgstr "MsgBox arr(1, 2) ' Rue de l'église, 21"
 
 #. SBfVW
 #: sf_array.xhp
@@ -1778,7 +1782,7 @@ msgctxt ""
 "pyc_id511626979992999\n"
 "help.text"
 msgid "arr = svc.ImportFromCSVFile(r\"C:\\Temp\\myFile.csv\", dateformat = \"YYYY/MM/DD\")"
-msgstr ""
+msgstr "arr = svc.Importar desde archivo CSV(r\"C:\\Temp\\myFile.csv\", formato de fecha = \"YYYY/MM/DD\")"
 
 #. asqiD
 #: sf_array.xhp
@@ -1796,7 +1800,7 @@ msgctxt ""
 "pyc_id671626979993408\n"
 "help.text"
 msgid "bas.MsgBox(arr[1][2]) # Rue de l'église, 21"
-msgstr ""
+msgstr "bas.MsgBox(arr[1][2]) # Rue de l'église, 21"
 
 #. kYfmG
 #: sf_array.xhp
@@ -1805,7 +1809,7 @@ msgctxt ""
 "pyc_id481626979993648\n"
 "help.text"
 msgid "bas.MsgBox(arr[1][3]) # Toulouse"
-msgstr ""
+msgstr "bas.MsgBox(arr[1][3]) # Toulouse"
 
 #. xCx7D
 #: sf_array.xhp
@@ -1814,7 +1818,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr ""
+msgstr "Busque en una matriz de una dimensión un número, una cadena o una fecha. La comparación de texto puede distinguir entre mayúsculas y minúsculas o no.<br/>Si la matriz está ordenada, debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo. Si la matriz está ordenada, debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo.(<literal>Vacío</literal>y<literal>nulo</literal>artículos están prohibidos).<br/>El resultado del método es impredecible cuando la matriz se anuncia como ordenada y en realidad no lo es.<br/>Se realiza una búsqueda binaria en matrices ordenadas. De lo contrario, las matrices simplemente se escanean de arriba a abajo y<literal><literal>Vacío</literal>y<literal>nulo</literal>los elementos se ignoran.<br/><br/>El método vuelve<literal>Límite L(matriz de entrada)-1</literal>si la búsqueda no tuvo éxito."
 
 #. Bm5Um
 #: sf_array.xhp
@@ -1841,7 +1845,7 @@ msgctxt ""
 "par_id311582562787187\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>distingue mayúsculas y minúsculas</emph>: solo para comparaciones de cadenas (predeterminado =<literal>falso</literal>)."
 
 #. gd5ZZ
 #: sf_array.xhp
@@ -1850,7 +1854,7 @@ msgctxt ""
 "par_id421582562794501\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\", \"DESC\" or \"\" (not sorted). The default value is \"\"."
-msgstr ""
+msgstr "<emph>Orden de clasificación</emph>: Puede ser \"ASC\", \"DESC\" o \"\" (no ordenado). El valor predeterminado es \"\"."
 
 #. AWJHj
 #: sf_array.xhp
@@ -1859,7 +1863,7 @@ msgctxt ""
 "par_id911582626951109\n"
 "help.text"
 msgid "Insert before a given index of the input array the items listed as arguments.      <br/>Arguments are inserted blindly. Each of them might be either a scalar of any type or a subarray."
-msgstr ""
+msgstr "Inserte antes de un índice dado de la matriz de entrada los elementos enumerados como argumentos.<br/>Los argumentos se insertan a ciegas. Cada uno de ellos puede ser un escalar de cualquier tipo o un subarreglo."
 
 #. FwHz6
 #: sf_array.xhp
@@ -1868,7 +1872,7 @@ msgctxt ""
 "par_id251582626951111\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr ""
+msgstr "<emph>matriz_1d</emph>: La matriz preexistente puede estar vacía."
 
 #. zEACt
 #: sf_array.xhp
@@ -1877,7 +1881,7 @@ msgctxt ""
 "par_id361582626951111\n"
 "help.text"
 msgid "<emph>before</emph>: The index before which to insert; must be in the interval <literal>[LBound, UBound + 1]</literal>."
-msgstr ""
+msgstr "<emph>antes de</emph>: El índice antes del cual insertar; debe estar en el intervalo<literal>[Límite L, Límite U+ 1]</literal>."
 
 #. iYFC5
 #: sf_array.xhp
@@ -1886,7 +1890,7 @@ msgctxt ""
 "par_id41582626951111\n"
 "help.text"
 msgid "<emph>arg0, arg1, ...</emph>: Items that will be inserted into <literal>array_1d</literal>."
-msgstr ""
+msgstr "<emph>arg0, arg1, ...</emph>: elementos que se insertarán en<literal>matriz_1d</literal>."
 
 #. rA4FE
 #: sf_array.xhp
@@ -1895,7 +1899,7 @@ msgctxt ""
 "par_id441582627664147\n"
 "help.text"
 msgid "Inserts into a sorted array a new item on its place.      <br/>The array must be filled homogeneously, meaning that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are forbidden."
-msgstr ""
+msgstr "Inserta en una matriz ordenada un nuevo elemento en su lugar. <br/>La matriz debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo. Los elementos <br/><literal>Vacío</literal> y <literal>Nulo</literal> están prohibidos."
 
 #. jBpdF
 #: sf_array.xhp
@@ -1904,7 +1908,7 @@ msgctxt ""
 "par_id121582627664147\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array into which the value will be inserted."
-msgstr ""
+msgstr "<emph>matriz_1d</emph>:La matriz en la que se insertará el valor."
 
 #. 36fZG
 #: sf_array.xhp
@@ -1913,7 +1917,7 @@ msgctxt ""
 "par_id315826276641480\n"
 "help.text"
 msgid "<emph>item</emph>: The scalar value to insert, of the same type as the existing array items."
-msgstr ""
+msgstr "<emph>artículo</emph>: el valor escalar que se va a insertar, del mismo tipo que los elementos de matriz existentes."
 
 #. dHYTn
 #: sf_array.xhp
@@ -1922,7 +1926,7 @@ msgctxt ""
 "par_id415826279771170\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>Orden de clasificación</emph>: Puede ser \"ASC\" (predeterminado) o \"DESC\"."
 
 #. TJanG
 #: sf_array.xhp
@@ -1931,7 +1935,7 @@ msgctxt ""
 "par_id701582627970037\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>distingue mayúsculas y minúsculas</emph>: solo para comparaciones de cadenas (predeterminado =<literal>falso</literal>."
 
 #. t9UFn
 #: sf_array.xhp
@@ -1940,7 +1944,7 @@ msgctxt ""
 "par_id71582629177169\n"
 "help.text"
 msgid "Build a set, as a zero-based array, by applying the intersection set operator on the two input arrays. Resulting items are contained in both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, in other words all items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Cree un conjunto, como una matriz de base cero, aplicando el operador de conjunto de intersección en las dos matrices de entrada. Los elementos resultantes están contenidos en ambas matrices. <br/>La matriz resultante se ordena en orden ascendente. <br/>Ambas matrices de entrada deben llenarse de manera homogénea, en otras palabras, todos los elementos deben ser escalares del mismo tipo. Los elementos <literal>Vacío</literal> y <literal>Nulo</literal> están prohibidos. <br/>La comparación de texto puede distinguir entre mayúsculas y minúsculas o no."
 
 #. vCyDN
 #: sf_array.xhp
@@ -1949,7 +1953,7 @@ msgctxt ""
 "par_id881582629216169\n"
 "help.text"
 msgid "<emph>array1_1d</emph>: The first input array."
-msgstr ""
+msgstr "<emph>matriz1_1d</emph>: La primera matriz de entrada."
 
 #. NhXEb
 #: sf_array.xhp
@@ -1958,7 +1962,7 @@ msgctxt ""
 "par_id191582629223038\n"
 "help.text"
 msgid "<emph>array2_1d</emph>: The second input array."
-msgstr ""
+msgstr "<emph>matriz2_1d</emph>:La segunda matriz de entrada."
 
 #. Dx32U
 #: sf_array.xhp
@@ -1967,7 +1971,7 @@ msgctxt ""
 "par_id71582629230275\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Applies to arrays populated with text items (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>distingue mayúsculas y minúsculas</emph>: se aplica a las matrices rellenadas con elementos de texto (predeterminado =<literal>falso</literal>."
 
 #. cirZm
 #: sf_array.xhp
@@ -1976,7 +1980,7 @@ msgctxt ""
 "par_id431583064481679\n"
 "help.text"
 msgid "Join a two-dimensional array with two delimiters, one for the columns, one for the rows."
-msgstr ""
+msgstr "Únase a una matriz bidimensional con dos delimitadores, uno para las columnas y otro para las filas."
 
 #. 8xwfF
 #: sf_array.xhp
@@ -1985,7 +1989,7 @@ msgctxt ""
 "par_id821583064481534\n"
 "help.text"
 msgid "<emph>array_2d</emph>: Each item must be either text, a number, a date or a boolean.      <br/>Dates are transformed into the YYYY-MM-DD hh:mm:ss format.      <br/>Invalid items are replaced by a zero-length string."
-msgstr ""
+msgstr "<emph>matriz_2d</emph>: Cada elemento debe ser texto, un número, una fecha o un valor booleano.<br/>Las fechas se transforman al formato AAAA-MM-DD hh:mm:ss.<br/>los elementos no válidos se reemplazan por una cadena de longitud cero."
 
 #. TiqUm
 #: sf_array.xhp
@@ -1994,7 +1998,7 @@ msgctxt ""
 "par_id171583066989446\n"
 "help.text"
 msgid "<emph>columndelimiter</emph>: Delimits each column (default = Tab/Chr(9))."
-msgstr ""
+msgstr "<emph>delimitador de columna</emph>: delimita cada columna (predeterminado = Tabulador/entero(9))."
 
 #. WG5wm
 #: sf_array.xhp
@@ -2003,7 +2007,7 @@ msgctxt ""
 "par_id431583067008842\n"
 "help.text"
 msgid "<emph>rowdelimiter</emph>: Delimits each row (default = LineFeed/Chr(10))"
-msgstr ""
+msgstr "<emph>delimitador de fila</emph>>: delimita cada fila (predeterminado = Linea de alimentación/Entero(10))"
 
 #. VrBJV
 #: sf_array.xhp
@@ -2021,7 +2025,7 @@ msgctxt ""
 "par_id731582630075045\n"
 "help.text"
 msgid "Prepend at the beginning of the input array the items listed as arguments."
-msgstr ""
+msgstr "Anteponga al comienzo de la matriz de entrada los elementos enumerados como argumentos."
 
 #. HSbWh
 #: sf_array.xhp
@@ -2030,7 +2034,7 @@ msgctxt ""
 "par_id321582630107068\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr ""
+msgstr "<emph>matriz_1d</emph>: La matriz preexistente puede estar vacía."
 
 #. jszVE
 #: sf_array.xhp
@@ -2039,7 +2043,7 @@ msgctxt ""
 "par_id915826301138550\n"
 "help.text"
 msgid "<emph>arg0, arg1, ...</emph>: A list of items to prepend to <literal>array_1d</literal>."
-msgstr ""
+msgstr "<emph>arg0, arg1, ...</emph>Una lista de elementos para antepone<literal>array_1d</literal>."
 
 #. BokfB
 #: sf_array.xhp
@@ -2048,7 +2052,7 @@ msgctxt ""
 "par_id91582643223166\n"
 "help.text"
 msgid "Prepend to the left side of a two dimension array a new column. The resulting array has the same lower boundaries as the initial two dimension array."
-msgstr ""
+msgstr "Anteponga al lado izquierdo de una matriz de dos dimensiones una nueva columna. La matriz resultante tiene los mismos límites inferiores que la matriz inicial de dos dimensiones."
 
 #. iBqEm
 #: sf_array.xhp
@@ -2057,7 +2061,7 @@ msgctxt ""
 "par_id621582643223545\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the last column of the resulting 2 dimension array."
-msgstr ""
+msgstr "<emph>array_2d</emph>: La matriz preexistente puede estar vacía. Si esa matriz tiene 1 dimensión, se considera como la última columna de la matriz de 2 dimensiones resultante."
 
 #. aKJwC
 #: sf_array.xhp
@@ -2075,7 +2079,7 @@ msgctxt ""
 "par_id851582643611291\n"
 "help.text"
 msgid "Prepend a new row at the beginning of a 2-dimensional array. The resulting array has the same lower boundaries as the initial 2-dimensional array."
-msgstr ""
+msgstr "Anteponga una nueva fila al comienzo de una matriz bidimensional. La matriz resultante tiene los mismos límites inferiores que la matriz bidimensional inicial."
 
 #. g2LFC
 #: sf_array.xhp
@@ -2084,7 +2088,7 @@ msgctxt ""
 "par_id991582643611645\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the last row of the resulting 2-dimensional array."
-msgstr ""
+msgstr "<emph>matriz bidimencional</emph>: la matriz preexistente puede estar vacía. Si esa matriz tiene 1 dimensión, se considera como la última fila de la matriz bidimensional resultante."
 
 #. RiLGr
 #: sf_array.xhp
@@ -2093,7 +2097,7 @@ msgctxt ""
 "par_id321582643611415\n"
 "help.text"
 msgid "<emph>row</emph>: A 1-dimensional array containing as many items as there are columns in <literal>array_2d</literal>."
-msgstr ""
+msgstr "<emph>fila</emph>: una matriz unidimensional que contiene tantos elementos como columnas hay en <literal>mateiz bidimencional</literal>."
 
 #. WmxAd
 #: sf_array.xhp
@@ -2102,7 +2106,7 @@ msgctxt ""
 "par_id441582648204012\n"
 "help.text"
 msgid "Initialize a new zero-based array with numeric values."
-msgstr ""
+msgstr "Inicialice una nueva matriz de base cero con valores numéricos."
 
 #. EVXVL
 #: sf_array.xhp
@@ -2165,7 +2169,7 @@ msgctxt ""
 "par_id11582649200088\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to shuffle."
-msgstr ""
+msgstr "<emph>matriz unidimencional</emph>: La matriz a barajar."
 
 #. BvV5v
 #: sf_array.xhp
@@ -2174,7 +2178,7 @@ msgctxt ""
 "bas_id611582649200089\n"
 "help.text"
 msgid "' Array \"a\" is now in random order, f.i. (2, 3, 1, 4)"
-msgstr ""
+msgstr "' La matriz \"a\" ahora está en orden aleatorio, p.i. (2, 3, 1, 4)"
 
 #. GhFBG
 #: sf_array.xhp
@@ -2192,7 +2196,7 @@ msgctxt ""
 "par_id201586184185438\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to slice."
-msgstr ""
+msgstr "<emph>matriz unidimencional</emph>: La matriz a dividir."
 
 #. UzHmT
 #: sf_array.xhp
@@ -2201,7 +2205,7 @@ msgctxt ""
 "par_id921586184482370\n"
 "help.text"
 msgid "<emph>from</emph>: The lower index in <literal>array_1d</literal> of the subarray to extract (<literal>from</literal> included)"
-msgstr ""
+msgstr "<emph>de</emph>: el índice inferior en <literal>matriz unidimencional</literal> del subarreglo a extraer (<literal>de</literal> incluido)"
 
 #. 326GB
 #: sf_array.xhp
@@ -2210,7 +2214,7 @@ msgctxt ""
 "par_id211586184471488\n"
 "help.text"
 msgid "<emph>upto</emph>: The upper index in <literal>array_1d</literal> of the subarray to extract (<literal>upto</literal> included). The default value is the upper bound of <literal>array_1d</literal>. If <literal>upto</literal> < <literal>from</literal> then the returned array is empty."
-msgstr ""
+msgstr "<emph>hasta</emph>: El índice superior en <literal>matriz unidimencional</literal> del subarreglo a extraer (<literal>hasta</literal> incluido). El valor predeterminado es el límite superior de <literal>matriz unidimencional</literal>. Si <literal>hasta</literal> < <literal>desde</literal> entonces la matriz devuelta está vacía."
 
 #. oBwcF
 #: sf_array.xhp
@@ -2219,7 +2223,7 @@ msgctxt ""
 "par_id171582649483675\n"
 "help.text"
 msgid "Sort a one dimension array in ascending or descending order. Text comparisons can be case-sensitive or not.      <br/>The array must be filled homogeneously, which means that items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Ordene una matriz de una dimensión en orden ascendente o descendente. Las comparaciones de texto pueden distinguir entre mayúsculas y minúsculas o no. <br/>La matriz debe llenarse de manera homogénea, lo que significa que los elementos deben ser escalares del mismo tipo. Se permiten elementos <br/><literal>Vacío</literal> y <literal>Nulo</literal>. Convencionalmente <literal>Vacío</literal> < <literal>Nulo</literal> < cualquier otro valor escalar."
 
 #. eNuB8
 #: sf_array.xhp
@@ -2228,7 +2232,7 @@ msgctxt ""
 "par_id71158264948346\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to sort."
-msgstr ""
+msgstr "<emph>matriz unidimencional</emph>: La matriz a ordenar."
 
 #. 7S2Bq
 #: sf_array.xhp
@@ -2237,7 +2241,7 @@ msgctxt ""
 "par_id21582649483175\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>ordenar</emph>: puede ser \"ASC\" (predeterminado) o \"DESC\"."
 
 #. K4GrR
 #: sf_array.xhp
@@ -2246,7 +2250,7 @@ msgctxt ""
 "par_id301582649483187\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>sensible a mayúsculas y minúsculas</emph>: solo para comparaciones de cadenas (Predeterminado = <literal>Falso</literal>)."
 
 #. 6CkrZ
 #: sf_array.xhp
@@ -2255,7 +2259,7 @@ msgctxt ""
 "par_id801582650186957\n"
 "help.text"
 msgid "Return a permutation of the columns of a two dimension array, sorted on the values of a given row.      <br/>The row must be filled homogeneously, which means that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Devuelve una permutación de las columnas de una matriz de dos dimensiones, ordenadas según los valores de una fila dada. <br/>La fila debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo. Se permiten elementos <br/><literal>Vacío</literal> y <literal>Nulo</literal>. Convencionalmente <literal>Vacío</literal> < <literal>Nulo</literal> < cualquier otro valor escalar."
 
 #. ww7Us
 #: sf_array.xhp
@@ -2264,7 +2268,7 @@ msgctxt ""
 "par_id921582650186869\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The 2-dimensional array to sort."
-msgstr ""
+msgstr "<emph>matriz bidimensional</emph>: la matriz bidimensional para ordenar."
 
 #. GdFxm
 #: sf_array.xhp
@@ -2273,7 +2277,7 @@ msgctxt ""
 "par_id311582650186221\n"
 "help.text"
 msgid "<emph>rowindex</emph>: The index of the row that will be used as reference to sort the columns."
-msgstr ""
+msgstr "<emph>índice de fila</emph>: El índice de la fila que se usará como referencia para ordenar las columnas."
 
 #. toBNF
 #: sf_array.xhp
@@ -2282,7 +2286,7 @@ msgctxt ""
 "par_id34158265018698\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>ordenar</emph>: puede ser \"ASC\" (predeterminado) o \"DESC\"."
 
 #. BFduL
 #: sf_array.xhp
@@ -2291,7 +2295,7 @@ msgctxt ""
 "par_id91158265018699\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>sensible a mayúsculas y minúsculas</emph>: solo para comparaciones de cadenas (Predeterminado = <literal>Falso</literal>)."
 
 #. 7GkBx
 #: sf_array.xhp
@@ -2300,7 +2304,7 @@ msgctxt ""
 "par_id751582650954576\n"
 "help.text"
 msgid "Return a permutation of the rows of a two dimension array, sorted on the values of a given column.      <br/>The column must be filled homogeneously, therefore all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Devuelve una permutación de las filas de una matriz de dos dimensiones, ordenada según los valores de una columna determinada. <br/>La columna debe llenarse de manera homogénea, por lo tanto, todos los elementos deben ser escalares del mismo tipo. Se permiten elementos <br/><literal>Vacío</literal> y <literal>Nulo</literal>. Convencionalmente <literal>Vacío</literal> < <literal>Nulo</literal> < cualquier otro valor escalar."
 
 #. durL8
 #: sf_array.xhp
@@ -2309,7 +2313,7 @@ msgctxt ""
 "par_id621582650954370\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The array to sort."
-msgstr ""
+msgstr "<emph>matriz bidimencional</emph>: La matriz a ordenar."
 
 #. HZqQi
 #: sf_array.xhp
