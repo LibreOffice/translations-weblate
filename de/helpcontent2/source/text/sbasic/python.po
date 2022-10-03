@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-04-11 15:28+0200\n"
-"PO-Revision-Date: 2022-10-03 12:55+0000\n"
+"PO-Revision-Date: 2022-10-03 13:17+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicpython/de/>\n"
 "Language: de\n"
@@ -563,7 +563,7 @@ msgctxt ""
 "N0530\n"
 "help.text"
 msgid "Monitoring is illustrated herewith for Basic and Python languages using object-oriented programming. Assigning <literal>OnLoad</literal> script, to the <menuitem>Open Document</menuitem> event, suffices to initiate and terminate document event monitoring. <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab is used to assign either scripts."
-msgstr "Die Überwachung wird für Basic- und Python-Sprachen unter Verwendung objektorientierter Programmierung veranschaulicht. Das Zuweisen des Skripts <literal>OnLoad</literal> zum Ereignis <menuitem>Open Document</menuitem> reicht aus, um die Dokumentereignis-Überwachung zu beginnen und zu beenden. Das Menü <menuitem>Extras – Anpassen…</menuitem> Register: <menuitem>Events</menuitem> wird verwendet, um Skripts zuzuweisen."
+msgstr "Die Überwachung wird für Basic- und Python-Sprachen unter Verwendung objektorientierter Programmierung veranschaulicht. Das Zuweisen des Skripts <literal>OnLoad</literal> zum Ereignis <menuitem>Open Document</menuitem> reicht aus, um die Dokumentereignis-Überwachung zu beginnen und zu beenden. Wählen Sie <menuitem>Extras – Anpassen…</menuitem> Register: <menuitem>Ereignisse</menuitem>, um Skripte zuzuweisen."
 
 #. KgWvt
 #: python_document_events.xhp
@@ -608,7 +608,7 @@ msgctxt ""
 "N0534\n"
 "help.text"
 msgid "<literal>OnLoad</literal> and <literal>OnUnload</literal> events can be used to respectively set and unset Python programs path. They are described as <menuitem>Open document</menuitem> and <menuitem>Document closed</menuitem>."
-msgstr ""
+msgstr "Die Ereignisse <literal>OnLoad</literal> und <literal>OnUnload</literal> können verwendet werden, um den Python-Programmpfad festzulegen beziehungsweise aufzuheben. Sie werden als <menuitem>Dokument öffnen</menuitem> und <menuitem>Dokument geschlossen</menuitem> bezeichnet."
 
 #. i7waD
 #: python_document_events.xhp
@@ -779,7 +779,7 @@ msgctxt ""
 "N0602\n"
 "help.text"
 msgid "listener = UiDocument()  # Initiates listening"
-msgstr ""
+msgstr "listener = UiDocument()  # Beginnt die Überwachung"
 
 #. CkJg4
 #: python_document_events.xhp
@@ -851,7 +851,7 @@ msgctxt ""
 "N0638\n"
 "help.text"
 msgid "''' Grab application-based Basic script '''"
-msgstr ""
+msgstr "''' Anwendungsbasiertes Basic-Skript abrufen '''"
 
 #. 2dfeg
 #: python_document_events.xhp
@@ -869,7 +869,7 @@ msgctxt ""
 "N0648\n"
 "help.text"
 msgid "<menuitem>Start application</menuitem> and <menuitem>Close application</menuitem> events can respectively be used to set and to unset Python path for user scripts or %PRODUCTNAME scripts. In a similar fashion, document based Python libraries or modules can be loaded and released using <menuitem>Open document</menuitem> and <menuitem>Document closed</menuitem> events. Refer to <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Importing Python Modules</link> for more information."
-msgstr ""
+msgstr "Mit den Ereignissen <menuitem>Anwendung starten</menuitem> und <menuitem>Anwendung schließen</menuitem> können Sie den Python-Pfad für Benutzerskripte oder %PRODUCTNAME-Skripte festlegen und deaktivieren. In ähnlicher Weise können dokumentbasierte Python-Bibliotheken oder -Module mit den Ereignissen <menuitem>Dokument öffnen</menuitem> und <menuitem>Dokument geschlossen</menuitem> geladen und freigegeben werden. Weitere Informationen finden Sie unter <link href=\"text/sbasic/python/python_import.xhp\" name=\"Importing Python Modules\">Importieren von Python-Modulen</link>."
 
 #. 8pHCg
 #: python_document_events.xhp
@@ -896,7 +896,7 @@ msgctxt ""
 "N0650\n"
 "help.text"
 msgid "Using <menuitem>Tools - Customize</menuitem> menu <menuitem>Events</menuitem> tab, the <menuitem>Open document</menuitem> event fires a <literal>ConsoleLogger</literal> initialisation. <literal>_documentEventOccured</literal> routine - set by <literal>ConsoleLogger</literal> - serves as a unique entry point to trap all document events."
-msgstr ""
+msgstr "Bei der Verwendung des Menüs <menuitem>Extras – Anpassen…</menuitem> – Register: <menuitem>Ereignisse</menuitem> startet das Ereignis <menuitem>Dokument öffnen</menuitem> die Initialisierung von <literal>ConsoleLogger</literal>. Die Routine <literal>_documentEventOccured</literal> – festgelegt von <literal>ConsoleLogger</literal> – dient als eindeutiger Einstiegspunkt, um alle Dokumentereignisse abzufangen."
 
 #. gGpkW
 #: python_document_events.xhp
@@ -905,7 +905,7 @@ msgctxt ""
 "hd_id421630510141729\n"
 "help.text"
 msgid "controller.Events module"
-msgstr ""
+msgstr "Modul controller.Events"
 
 #. rJX92
 #: python_document_events.xhp
@@ -914,7 +914,7 @@ msgctxt ""
 "bas_id431630567378062\n"
 "help.text"
 msgid "Global _obj As Object ' controller.ConsoleLogger instance"
-msgstr ""
+msgstr "Global _obj As Object ' Instanz controller.ConsoleLogger"
 
 #. PfRq6
 #: python_document_events.xhp
@@ -932,7 +932,7 @@ msgctxt ""
 "bas_id371630509596674\n"
 "help.text"
 msgid "''' ConsoleLogger unique entry point '''"
-msgstr ""
+msgstr "''' Eindeutiger Einstiegspunkt für ConsoleLogger '''"
 
 #. upGWH
 #: python_document_events.xhp
@@ -941,7 +941,7 @@ msgctxt ""
 "hd_id721630511986813\n"
 "help.text"
 msgid "controller.ConsoleLogger class module"
-msgstr ""
+msgstr "Klassenmodul controller.ConsoleLogger"
 
 #. AN8tn
 #: python_document_events.xhp
