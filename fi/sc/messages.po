@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-08-08 14:37+0200\n"
-"PO-Revision-Date: 2022-09-28 15:11+0000\n"
+"PO-Revision-Date: 2022-10-03 12:43+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/fi/>\n"
 "Language: fi\n"
@@ -2685,6 +2685,7 @@ msgstr "VariSkaala"
 
 #. 7eqFv
 #: sc/inc/globstr.hrc:452
+#, fuzzy
 msgctxt "STR_COND_DATABAR"
 msgid "DataBar"
 msgstr "VariPalkki"
@@ -2999,7 +3000,7 @@ msgstr "Virheellinen kohdearvo."
 #: sc/inc/globstr.hrc:501
 msgctxt "STR_INVALIDVAR"
 msgid "Undefined name for variable cell."
-msgstr "Määrittämätön nimi muuttujasoluna."
+msgstr "Määrittämätön muuttujasolun nimi."
 
 #. vvxwu
 #: sc/inc/globstr.hrc:502
@@ -7459,7 +7460,7 @@ msgstr "Nollaa suurempi luku, jonka luonnollinen logaritmi lasketaan."
 #: sc/inc/scfuncs.hrc:1312
 msgctxt "SC_OPCODE_LOG10"
 msgid "Calculates the base-10 logarithm of a number."
-msgstr "Laskee luvun kymmenkantalogaritmin."
+msgstr "Laskee luvun kymmenkantaisen logaritmin."
 
 #. EAwMz
 #: sc/inc/scfuncs.hrc:1313
@@ -8534,6 +8535,7 @@ msgstr "Tiedot X"
 
 #. LhqAb
 #: sc/inc/scfuncs.hrc:1670
+#, fuzzy
 msgctxt "SC_OPCODE_TREND"
 msgid "The X data array as the basis for the regression."
 msgstr "X tiedot taulukko kohteelle."
@@ -8588,6 +8590,7 @@ msgstr "Tiedot X"
 
 #. iGU4n
 #: sc/inc/scfuncs.hrc:1684
+#, fuzzy
 msgctxt "SC_OPCODE_GROWTH"
 msgid "The X data array as the basis for the regression."
 msgstr "X tiedot taulukko kohteelle."
@@ -9460,7 +9463,7 @@ msgstr "Tuloksena saatavan prosenttiluvun merkitsevien numeroiden määrä. Olet
 #: sc/inc/scfuncs.hrc:2034
 msgctxt "SC_OPCODE_PERCENT_RANK_EXC"
 msgid "Returns the percentage rank (0..1, exclusive) of a value in a sample."
-msgstr "Palauttaa arvon prosenttisijoituksen (0..1, välin päätepisteet poislukien) otoksessa."
+msgstr "Palauttaa arvon prosenttisijoituksen (0...1, välin päätepisteet poislukien) otoksessa."
 
 #. xnpWg
 #: sc/inc/scfuncs.hrc:2035
@@ -9502,7 +9505,7 @@ msgstr "Tuloksena saatavan prosenttiluvun merkitsevien numeroiden määrä. Olet
 #: sc/inc/scfuncs.hrc:2046
 msgctxt "SC_OPCODE_PERCENT_RANK_INC"
 msgid "Returns the percentage rank (0..1, inclusive) of a value in a sample."
-msgstr "Palauttaa arvon prosenttisijoituksen (0..1, välin päätepisteet mukaan lukien) otoksessa."
+msgstr "Palauttaa arvon prosenttisijoituksen (0...1, välin päätepisteet mukaan lukien) otoksessa."
 
 #. XYEDP
 #: sc/inc/scfuncs.hrc:2047
@@ -12283,7 +12286,7 @@ msgstr "Khiin neliö -jakauman vapausaste."
 #: sc/inc/scfuncs.hrc:2851
 msgctxt "SC_OPCODE_CHISQ_INV"
 msgid "Values of the inverse of CHISQDIST(x;DegreesOfFreedom;TRUE())."
-msgstr "Funktion CHINELIÖ.JAKAUMA(x;Vapausaste;TRUE()) käänteisfunktion arvot."
+msgstr "Funktion CHINELIÖ.JAKAUMA(x;Vapausaste;TOSI()) käänteisfunktion arvot."
 
 #. ZKhAF
 #: sc/inc/scfuncs.hrc:2852
@@ -12445,7 +12448,7 @@ msgstr "Elementtien otosmäärä."
 #: sc/inc/scfuncs.hrc:2905
 msgctxt "SC_OPCODE_CONFIDENCE"
 msgid "Returns a (1-alpha) confidence interval for a normal distribution."
-msgstr "Palauttaa normaalijakauman (1 alfa) luottamusvälin."
+msgstr "Palauttaa normaalijakauman (1-alfa) luottamusvälin."
 
 #. CHTCY
 #: sc/inc/scfuncs.hrc:2906
@@ -12487,7 +12490,7 @@ msgstr "Populaation koko."
 #: sc/inc/scfuncs.hrc:2917
 msgctxt "SC_OPCODE_CONFIDENCE_N"
 msgid "Returns a (1-alpha) confidence interval for a normal distribution."
-msgstr "Palauttaa normaalijakauman (1 alfa) luottamusvälin."
+msgstr "Palauttaa normaalijakauman (1-alfa) luottamusvälin."
 
 #. YSHEH
 #: sc/inc/scfuncs.hrc:2918
@@ -12529,7 +12532,7 @@ msgstr "Populaation koko."
 #: sc/inc/scfuncs.hrc:2929
 msgctxt "SC_OPCODE_CONFIDENCE_T"
 msgid "Returns a (1-alpha) confidence interval for a Student's t distribution."
-msgstr "Palauttaa Studentin t-jakauman (1 alfa) luottamusvälin."
+msgstr "Palauttaa Studentin t-jakauman (1-alfa) luottamusvälin."
 
 #. YguyE
 #: sc/inc/scfuncs.hrc:2930
@@ -13399,7 +13402,7 @@ msgstr "Luottamustaso"
 #: sc/inc/scfuncs.hrc:3179
 msgctxt "SC_OPCODE_FORECAST_ETS_PIA"
 msgid "Confidence level (default 0.95); value 0 to 1 (exclusive) for 0 to 100% calculated prediction interval."
-msgstr "Luottamustaso (oletusarvo 0,95); arvo väliltä 0 - 1 (ei päätepisteitä) vastaten 0 - 100 % laskettua ennustejakson pituutta."
+msgstr "Luottamustaso (oletusarvo 0,95); arvo väliltä 0...1 (ilman päätepisteitä) vastaten 0...100 % laskettua ennustejakson pituutta."
 
 #. CME3w
 #: sc/inc/scfuncs.hrc:3180
@@ -13489,7 +13492,7 @@ msgstr "Luottamustaso"
 #: sc/inc/scfuncs.hrc:3199
 msgctxt "SC_OPCODE_FORECAST_ETS_PIM"
 msgid "Confidence level (default 0.95); value 0 to 1 (exclusive) for 0 to 100% calculated prediction interval."
-msgstr "Luottamustaso (oletusarvo 0,95); arvo väliltä 0 - 1 (ei päätepisteitä) vastaten 0 - 100 % laskettua ennustejakson pituutta."
+msgstr "Luottamustaso (oletusarvo 0,95); arvo väliltä 0...1 (ilman päätepisteitä) vastaten 0...100 % laskettua ennustejakson pituutta."
 
 #. pvqRr
 #: sc/inc/scfuncs.hrc:3200
@@ -14011,7 +14014,7 @@ msgstr "Vaakatason haku ja viite alempana oleviin soluihin."
 #: sc/inc/scfuncs.hrc:3356
 msgctxt "SC_OPCODE_H_LOOKUP"
 msgid "Search criterion"
-msgstr "hakuehto"
+msgstr "Hakuehto"
 
 #. ZAJVk
 #: sc/inc/scfuncs.hrc:3357
@@ -14065,7 +14068,7 @@ msgstr "Pystyhaku ja viite määritettyihin soluihin."
 #: sc/inc/scfuncs.hrc:3370
 msgctxt "SC_OPCODE_V_LOOKUP"
 msgid "Search criterion"
-msgstr "hakuehto"
+msgstr "Hakuehto"
 
 #. uJXUC
 #: sc/inc/scfuncs.hrc:3371
@@ -14329,7 +14332,7 @@ msgstr "Korkeus"
 #: sc/inc/scfuncs.hrc:3439
 msgctxt "SC_OPCODE_OFFSET"
 msgid "The number of rows of the moved reference."
-msgstr "Siirretyn viitteen rivien määrä."
+msgstr "Siirrettävän viitteen rivien määrä."
 
 #. Y5Gux
 #: sc/inc/scfuncs.hrc:3440
@@ -14341,7 +14344,7 @@ msgstr "Leveys"
 #: sc/inc/scfuncs.hrc:3441
 msgctxt "SC_OPCODE_OFFSET"
 msgid "The number of columns in the moved reference."
-msgstr "Siirretyn viitteen sarakkeiden määrä."
+msgstr "Siirrettävän viitteen sarakkeiden määrä."
 
 #. 94GDy
 #: sc/inc/scfuncs.hrc:3447
@@ -14507,6 +14510,7 @@ msgstr "Solussa näytettävä teksti."
 
 #. Cw6S6
 #: sc/inc/scfuncs.hrc:3499
+#, fuzzy
 msgctxt "SC_OPCODE_GET_PIVOT_DATA"
 msgid "Extracts value(s) from a pivot table."
 msgstr "Palauttaa arvoja pivot-taulukosta."
@@ -14519,6 +14523,7 @@ msgstr "Tietokenttä"
 
 #. 3E4Np
 #: sc/inc/scfuncs.hrc:3501
+#, fuzzy
 msgctxt "SC_OPCODE_GET_PIVOT_DATA"
 msgid "The name of the pivot table field to extract."
 msgstr "Palautettavan pivot-taulukon kentän nimi."
@@ -14641,13 +14646,13 @@ msgstr "Arvo on joko luku, viite luvun sisältävään soluun tai luvun tuottava
 #: sc/inc/scfuncs.hrc:3546
 msgctxt "SC_OPCODE_CURRENCY"
 msgid "Decimals"
-msgstr "desimaalit"
+msgstr "Desimaalit"
 
 #. h5DFB
 #: sc/inc/scfuncs.hrc:3547
 msgctxt "SC_OPCODE_CURRENCY"
 msgid "Decimal places. Denotes the number of digits to the right of the decimal point."
-msgstr "Desimaaleja. Määrittää pilkun jälkeisten desimaalien määrän."
+msgstr "Desimaalit. Määrittää pilkun jälkeisten desimaalien määrän."
 
 #. f5PPE
 #: sc/inc/scfuncs.hrc:3553
@@ -15265,7 +15270,7 @@ msgstr "Ei tuhaterottimia"
 #: sc/inc/scfuncs.hrc:3753
 msgctxt "SC_OPCODE_FIXED"
 msgid "Thousands separator. If 0 or omitted the locale group separator is used else the separator is suppressed."
-msgstr "Tuhatlukuerotin. Jos 0 tai ei mitään, käytetään maa-asetusten mukaista erotinmerkkiä. Muutoin erotinmerkkiä ei käytetä."
+msgstr "Tuhaterotin. Jos arvo on 0 tai sitä ei ole, käytetään maa-asetusten mukaista erotinmerkkiä. Muutoin erotinmerkkiä ei käytetä."
 
 #. nxnkq
 #: sc/inc/scfuncs.hrc:3759
@@ -15553,7 +15558,7 @@ msgstr "Kantaluku"
 #: sc/inc/scfuncs.hrc:3841
 msgctxt "SC_OPCODE_BASE"
 msgid "The base number for conversion must be in the range 2 - 36."
-msgstr "Muunnon perusluvun on oltava jokin luku 2 - 36."
+msgstr "Muunnoksen kantaluvun on oltava välillä 2...36."
 
 #. CoREj
 #: sc/inc/scfuncs.hrc:3842
@@ -15595,7 +15600,7 @@ msgstr "Kantaluku"
 #: sc/inc/scfuncs.hrc:3853
 msgctxt "SC_OPCODE_DECIMAL"
 msgid "The base number for conversion must be in the range 2 - 36."
-msgstr "Muunnon perusluvun on oltava jokin luku 2 - 36."
+msgstr "Muunnoksen kantaluvun on oltava välillä 2...36."
 
 #. 75E55
 #: sc/inc/scfuncs.hrc:3859
@@ -15649,7 +15654,7 @@ msgstr "Luku"
 #: sc/inc/scfuncs.hrc:3873
 msgctxt "SC_OPCODE_ROMAN"
 msgid "The number to be converted to a Roman numeral must be in the 0 - 3999 range."
-msgstr "Roomalaisiksi numeroiksi muunnettavan luvun on oltava välillä 0 - 3999."
+msgstr "Roomalaisiksi numeroiksi muunnettavan luvun on oltava välillä 0...3999."
 
 #. XQ9Lu
 #: sc/inc/scfuncs.hrc:3874
@@ -15661,7 +15666,7 @@ msgstr "Tila"
 #: sc/inc/scfuncs.hrc:3875
 msgctxt "SC_OPCODE_ROMAN"
 msgid "The more this value increases, the more the Roman numeral is simplified. The value must be in the 0 - 4 range."
-msgstr "Mitä suuremmaksi tätä arvoa kasvatetaan, sitä enemmän roomalaista numeroa yksinkertaistetaan. Arvon on oltava 0 - 4."
+msgstr "Mitä suuremmaksi tätä arvoa kasvatetaan, sitä enemmän roomalaista numeroa yksinkertaistetaan. Arvon on oltava välillä 0...4."
 
 #. R6BAC
 #: sc/inc/scfuncs.hrc:3881
@@ -16599,7 +16604,7 @@ msgstr "Mukautetut tyylit"
 #: sc/inc/strings.hrc:27
 msgctxt "SCSTR_LONG_SCDOC_NAME"
 msgid "%PRODUCTNAME Spreadsheet format (calc6)"
-msgstr "%PRODUCTNAME laskentataulukon muoto (calc6)"
+msgstr "%PRODUCTNAME-laskentataulukkomuoto (calc6)"
 
 #. cZ6cB
 #: sc/inc/strings.hrc:28
@@ -16611,7 +16616,7 @@ msgstr "%PRODUCTNAME %PRODUCTVERSION -laskentataulukko"
 #: sc/inc/strings.hrc:29
 msgctxt "SCSTR_UNDEFINED"
 msgid "- undefined -"
-msgstr "(ei mitään)"
+msgstr "(ei määritetty)"
 
 #. ZaHNM
 #: sc/inc/strings.hrc:30
@@ -16868,7 +16873,7 @@ msgstr "~Loppu"
 #: sc/inc/strings.hrc:74
 msgctxt "SCSTR_UNKNOWN"
 msgid "Unknown"
-msgstr "tuntematon"
+msgstr "Tuntematon"
 
 #. NoEfk
 #: sc/inc/strings.hrc:75
@@ -17285,19 +17290,19 @@ msgstr "~Sulje"
 #: sc/inc/strings.hrc:146
 msgctxt "STR_JAN"
 msgid "Jan"
-msgstr "Tam"
+msgstr "Tammi"
 
 #. WWzNg
 #: sc/inc/strings.hrc:147
 msgctxt "STR_FEB"
 msgid "Feb"
-msgstr "Hel"
+msgstr "Helmi"
 
 #. CCC3U
 #: sc/inc/strings.hrc:148
 msgctxt "STR_MAR"
 msgid "Mar"
-msgstr "Maa"
+msgstr "Maalis"
 
 #. cr7Jq
 #: sc/inc/strings.hrc:149
@@ -17556,13 +17561,13 @@ msgstr "Aluetta siirretty"
 #: sc/inc/strings.hrc:197
 msgctxt "STR_CHG_CONTENT"
 msgid "Changed contents"
-msgstr "Sisältö muutettu"
+msgstr "Sisältöä muutettu"
 
 #. cefNw
 #: sc/inc/strings.hrc:198
 msgctxt "STR_CHG_CONTENT_WITH_CHILD"
 msgid "Changed contents"
-msgstr "Sisältö muutettu"
+msgstr "Sisältöä muutettu"
 
 #. DcsSq
 #: sc/inc/strings.hrc:199
@@ -17983,7 +17988,7 @@ msgstr "Koeyritysten määrä"
 #: sc/inc/strings.hrc:276
 msgctxt "STR_RNG_PARAMETER_STANDARD_NU_VALUE"
 msgid "nu Value"
-msgstr "nu-arvo"
+msgstr "nyy-arvo"
 
 #. gygpC
 #. SamplingDialog
@@ -18197,13 +18202,13 @@ msgstr "Potenssi"
 #: sc/inc/strings.hrc:315
 msgctxt "STR_MESSAGE_XINVALID_RANGE"
 msgid "Independent variable(s) range is not valid."
-msgstr "Riippumattoman muuttujan/muuttujien alue ei kelpaa."
+msgstr "Riippumattomien muuttujien alue ei kelpaa."
 
 #. 8x8DM
 #: sc/inc/strings.hrc:316
 msgctxt "STR_MESSAGE_YINVALID_RANGE"
 msgid "Dependent variable(s) range is not valid."
-msgstr "Riippuvan muuttujan/muuttujien alue ei kelpaa."
+msgstr "Riippuvien muuttujien alue ei kelpaa."
 
 #. E7BD2
 #: sc/inc/strings.hrc:317
@@ -18614,7 +18619,7 @@ msgstr "Summa"
 #: sc/inc/subtotals.hrc:29
 msgctxt "subtotalgrppage|liststore1"
 msgid "Count"
-msgstr "Lukumäärä"
+msgstr "Laske"
 
 #. HJFGn
 #: sc/inc/subtotals.hrc:30
@@ -18944,7 +18949,7 @@ msgstr "Poista"
 #: sc/uiconfig/scalc/ui/allheaderfooterdialog.ui:8
 msgctxt "allheaderfooterdialog|AllHeaderFooterDialog"
 msgid "Headers/Footers"
-msgstr "Ylä/alatunnisteet"
+msgstr "Ylä- ja alatunnisteet"
 
 #. 5TTBG
 #: sc/uiconfig/scalc/ui/allheaderfooterdialog.ui:139
@@ -19280,7 +19285,7 @@ msgstr "_Suojattu"
 #: sc/uiconfig/scalc/ui/cellprotectionpage.ui:43
 msgctxt "cellprotectionpage|extended_tip|checkProtected"
 msgid "Prevents the selected cells from being modified."
-msgstr ""
+msgstr "Estää valittujen solujen muuttamisen."
 
 #. 7WF2B
 #: sc/uiconfig/scalc/ui/cellprotectionpage.ui:54
@@ -19292,7 +19297,7 @@ msgstr "_Piilota kaava"
 #: sc/uiconfig/scalc/ui/cellprotectionpage.ui:64
 msgctxt "cellprotectionpage|extended_tip|checkHideFormula"
 msgid "Hides formulas in the selected cells."
-msgstr ""
+msgstr "Piilottaa valittujen solujen kaavat."
 
 #. arvbZ
 #: sc/uiconfig/scalc/ui/cellprotectionpage.ui:75
@@ -19304,7 +19309,7 @@ msgstr "Piilota _kaikki"
 #: sc/uiconfig/scalc/ui/cellprotectionpage.ui:84
 msgctxt "cellprotectionpage|extended_tip|checkHideAll"
 msgid "Hides formulas and contents of the selected cells."
-msgstr ""
+msgstr "Piilottaa valittujen solujen kaavat ja sisällön."
 
 #. fBWyS
 #: sc/uiconfig/scalc/ui/cellprotectionpage.ui:99
@@ -20207,7 +20212,7 @@ msgstr "Ehdollinen muotoilu alueelle"
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:34
 msgctxt "conditionalformatdialog|extended_tip|ok"
 msgid "Saves all changes and closes dialog."
-msgstr ""
+msgstr "Tallentaa kaikki muutokset ja sulkee valintaikkunan."
 
 #. zqDuf
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:54
@@ -20603,7 +20608,7 @@ msgstr "Asetukset"
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:596
 msgctxt "consolidatedialog|extended_tip|more"
 msgid "Shows additional options."
-msgstr ""
+msgstr "Näyttää lisäasetukset."
 
 #. HEHFf
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:618
@@ -20963,13 +20968,13 @@ msgstr "Negatiivinen:"
 #: sc/uiconfig/scalc/ui/databaroptions.ui:287
 msgctxt "databaroptions|extended_tip|positive_colour"
 msgid "Select the color for the positive values"
-msgstr ""
+msgstr "Valitse positiivisten arvojen väri"
 
 #. fHCLy
 #: sc/uiconfig/scalc/ui/databaroptions.ui:306
 msgctxt "datbaroptions|extended_tip|negative_colour"
 msgid "Select the color for the negative values"
-msgstr ""
+msgstr "Valitse negatiivisten arvojen väri"
 
 #. zbBGo
 #: sc/uiconfig/scalc/ui/databaroptions.ui:320
@@ -21041,7 +21046,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/databaroptions.ui:443
 msgctxt "datbaroptions|extended_tip|axis_colour"
 msgid "Set the color of the vertical axis"
-msgstr ""
+msgstr "Aseta pystyakselin väri"
 
 #. DjBHB
 #: sc/uiconfig/scalc/ui/databaroptions.ui:458
@@ -21119,13 +21124,13 @@ msgstr "Funktio"
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:176
 msgctxt "datafielddialog|checkbutton1"
 msgid "Show it_ems without data"
-msgstr "Näytä tyhjät tietueet"
+msgstr "Näytä tyhjät kohteet"
 
 #. 4S4kV
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:184
 msgctxt "datafielddialog|extended_tip|checkbutton1"
 msgid "Includes empty columns and rows in the results table."
-msgstr ""
+msgstr "Sisällyttää tyhjät sarakkeet ja rivit tulostaulukkoon."
 
 #. CNVLs
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:203
@@ -21959,7 +21964,7 @@ msgstr "Asetukset"
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:493
 msgctxt "definedatabaserangedialog|extended_tip|more"
 msgid "Shows additional options."
-msgstr ""
+msgstr "Näyttää lisää asetuksia."
 
 #. swLE2
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:519
@@ -22031,7 +22036,7 @@ msgstr "_Tulostusalue"
 #: sc/uiconfig/scalc/ui/definename.ui:253
 msgctxt "definename|extended_tip|printarea"
 msgid "Defines the area as a print range."
-msgstr ""
+msgstr "Määrittelee alueen tulostusalueeksi."
 
 #. L5Ebf
 #: sc/uiconfig/scalc/ui/definename.ui:264
@@ -22157,7 +22162,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/deletecolumnentry.ui:29
 msgctxt "deletecolumnentry|name"
 msgid "Delete Columns"
-msgstr ""
+msgstr "Poista sarakkeet"
 
 #. QFtCG
 #: sc/uiconfig/scalc/ui/deletecolumnentry.ui:46
@@ -22187,7 +22192,7 @@ msgstr "Poista _kaikki"
 #: sc/uiconfig/scalc/ui/deletecontents.ui:100
 msgctxt "deletecontents|extended_tip|deleteall"
 msgid "Deletes all content from the selected cell range."
-msgstr ""
+msgstr "Poistaa kaiken sisällön valitulta solualueelta."
 
 #. cjPVi
 #: sc/uiconfig/scalc/ui/deletecontents.ui:120
@@ -22697,7 +22702,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/filldlg.ui:8
 msgctxt "filldlg|FillSeriesDialog"
 msgid "Fill Series"
-msgstr "Sarjat"
+msgstr "Täytä sarja"
 
 #. S4ehT
 #: sc/uiconfig/scalc/ui/filldlg.ui:100
@@ -22967,13 +22972,13 @@ msgstr "Etsi"
 #: sc/uiconfig/scalc/ui/findreplaceentry.ui:59
 msgctxt "findreplace|replace"
 msgid "Replace With"
-msgstr ""
+msgstr "Korvaaja"
 
 #. RF57t
 #: sc/uiconfig/scalc/ui/findreplaceentry.ui:73
 msgctxt "findreplace|columns"
 msgid "Column"
-msgstr ""
+msgstr "Sarake"
 
 #. WWQzs
 #: sc/uiconfig/scalc/ui/findreplaceentry.ui:82
@@ -23111,13 +23116,13 @@ msgstr "Alatunniste (vasen)"
 #: sc/uiconfig/scalc/ui/formatcellsdialog.ui:8
 msgctxt "formatcellsdialog|FormatCellsDialog"
 msgid "Format Cells"
-msgstr "Solun määritteet"
+msgstr "Muotoile solut"
 
 #. ngekD
 #: sc/uiconfig/scalc/ui/formatcellsdialog.ui:138
 msgctxt "formatcellsdialog|numbers"
 msgid "Numbers"
-msgstr "Luku"
+msgstr "Luvut"
 
 #. TvoWD
 #: sc/uiconfig/scalc/ui/formatcellsdialog.ui:185
@@ -23399,13 +23404,13 @@ msgstr "Lisäosa"
 #: sc/uiconfig/scalc/ui/functionpanel.ui:94
 msgctxt "functionpanel|extended_tip|category"
 msgid "Displays the available functions."
-msgstr ""
+msgstr "Näyttää saatavilla olevat funktiot."
 
 #. V9ATp
 #: sc/uiconfig/scalc/ui/functionpanel.ui:141
 msgctxt "functionpanel|extended_tip|funclist"
 msgid "Displays the available functions."
-msgstr ""
+msgstr "Näyttää saatavilla olevat funktiot."
 
 #. rmQie
 #: sc/uiconfig/scalc/ui/functionpanel.ui:175
@@ -23501,7 +23506,7 @@ msgstr "Siirry taulukkoon"
 #: sc/uiconfig/scalc/ui/gotosheetdialog.ui:103
 msgctxt "gotosheetdialog|extended_tip|entry-mask"
 msgid "Type some letters of sheet name to find it."
-msgstr "Löydä taulukko kirjoittamalla joitakin kirjaimia sen nimestä."
+msgstr "Etsi taulukkoa kirjoittamalla sen nimen kirjaimia."
 
 #. Xuqh4
 #: sc/uiconfig/scalc/ui/gotosheetdialog.ui:112
@@ -23579,7 +23584,7 @@ msgstr "Jaksot:"
 #: sc/uiconfig/scalc/ui/groupbydate.ui:410
 msgctxt "groupbydate|label3"
 msgid "Group by"
-msgstr "Ryhmitä käyttäen"
+msgstr "Ryhmitysperuste"
 
 #. FJRdk
 #: sc/uiconfig/scalc/ui/groupbynumber.ui:8
@@ -23627,7 +23632,7 @@ msgstr "Lopeta"
 #: sc/uiconfig/scalc/ui/groupbynumber.ui:280
 msgctxt "groupbynumber|label3"
 msgid "Group by"
-msgstr "Ryhmitä käyttäen"
+msgstr "Ryhmitysperuste"
 
 #. 5jF3L
 #: sc/uiconfig/scalc/ui/groupdialog.ui:8
@@ -23873,7 +23878,7 @@ msgstr "Sivu"
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:549
 msgctxt "headerfootercontent|labelSTR_HF_OF_QUESTION"
 msgid "of ?"
-msgstr " / ?"
+msgstr "/ ?"
 
 #. jQyGW
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:561
@@ -23909,7 +23914,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/headerfooterdialog.ui:8
 msgctxt "headerfooterdialog|HeaderFooterDialog"
 msgid "Headers/Footers"
-msgstr "Ylätunnisteet/Alatunnisteet"
+msgstr "Ylä- ja alatunnisteet"
 
 #. 84Cdv
 #: sc/uiconfig/scalc/ui/headerfooterdialog.ui:139
@@ -24271,7 +24276,7 @@ msgstr "_Selaa..."
 #: sc/uiconfig/scalc/ui/insertsheet.ui:419
 msgctxt "insertsheet|extended_tip|browse"
 msgid "Opens a dialog for selecting a file."
-msgstr ""
+msgstr "Avaa tiedostonvalintaikkunan."
 
 #. LvF7e
 #: sc/uiconfig/scalc/ui/insertsheet.ui:430
@@ -24433,7 +24438,7 @@ msgstr "_Tulostusalue"
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:369
 msgctxt "managenamesdialog|extended_tip|printrange"
 msgid "Defines the area as a print range."
-msgstr ""
+msgstr "Määrittelee alueen tulostusalueeksi."
 
 #. EjtHY
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:380
@@ -24523,7 +24528,7 @@ msgstr "Jotkin soluista eivät ole tyhjiä."
 #: sc/uiconfig/scalc/ui/mergecellsdialog.ui:96
 msgctxt "mergecellsdialog|move-cells-radio"
 msgid "Move the contents of the hidden cells into the first cell"
-msgstr "Siirretäänkö piilotettujen solujen sisältö ensimmäiseen soluun?"
+msgstr "Siirrä piilotettujen solujen sisältö ensimmäiseen soluun"
 
 #. wzTMG
 #: sc/uiconfig/scalc/ui/mergecellsdialog.ui:111
@@ -24541,7 +24546,7 @@ msgstr "Säilytä piilotettujen solujen sisältö"
 #: sc/uiconfig/scalc/ui/mergecellsdialog.ui:202
 msgctxt "mergecellsdialog|extended_tip|MergeCellsDialog"
 msgid "Combines the selected cells into a single cell or splits merged cells. Aligns cell content centered."
-msgstr ""
+msgstr "Yhdistää valitut solut yhdeksi soluksi tai jakaa yhdistetyt solut. Tasaa solun sisällön keskelle."
 
 #. rG3G4
 #: sc/uiconfig/scalc/ui/mergecolumnentry.ui:29
@@ -24571,7 +24576,7 @@ msgstr "Poista"
 #: sc/uiconfig/scalc/ui/movecopysheet.ui:16
 msgctxt "movecopysheet|MoveCopySheetDialog"
 msgid "Move/Copy Sheet"
-msgstr "Siirrä/kopioi taulukko"
+msgstr "Siirrä tai kopioi taulukko"
 
 #. iJZov
 #: sc/uiconfig/scalc/ui/movecopysheet.ui:95
@@ -25087,13 +25092,13 @@ msgstr "Aktiivinen ikkuna"
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:323
 msgctxt "navigatorpanel|extended_tip|documents"
 msgid "Displays the names of all open documents."
-msgstr ""
+msgstr "Näyttää kaikkien avoimien asiakirjojen nimet."
 
 #. F58Zg
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:376
 msgctxt "navigatorpanel|extended_tip|contentbox"
 msgid "Displays all objects in your document."
-msgstr ""
+msgstr "Näyttää kaikki asiakirjan objektit."
 
 #. HfX6U
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:474
@@ -25583,7 +25588,7 @@ msgstr "Luku"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:4415
 msgctxt "notebookbar_groupedbar_compact|datab"
 msgid "_Data"
-msgstr "Tiedot"
+msgstr "Tie_dot"
 
 #. CMGpS
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:4526
@@ -25601,7 +25606,7 @@ msgstr "Ta_rkista"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:4748
 msgctxt "notebookbar_groupedbar_compact|viewb"
 msgid "_View"
-msgstr "Näytä"
+msgstr "_Näytä"
 
 #. bgPuY
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:4857
@@ -25632,7 +25637,7 @@ msgstr "Kappale"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:5694
 msgctxt "notebookbar_groupedbar_compact|viewS"
 msgid "_View"
-msgstr "Näytä"
+msgstr "_Näytä"
 
 #. DC7Hv
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:5829
@@ -25707,7 +25712,7 @@ msgstr "_Objekti"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:9208
 msgctxt "notebookbar_groupedbar_compact|graphicB"
 msgid "_Media"
-msgstr "_Media"
+msgstr "Media"
 
 #. nyHDP
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:9821
@@ -26517,7 +26522,7 @@ msgstr "Määrittää, tehdäänkö laskutoimitukset taulukossa näkyvillä pyö
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:130
 msgctxt "optcalculatepage|match"
 msgid "Search criteria = and <> must apply to _whole cells"
-msgstr "Hakuehtojen = ja <> on koskettava _soluja kokonaisuudessaan"
+msgstr "Hakuehdot = ja <> koskevat kokonaisia soluja"
 
 #. deGGB
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:134
@@ -26582,10 +26587,9 @@ msgstr "_Iteroinnit"
 
 #. pBKcn
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:274
-#, fuzzy
 msgctxt "extended_tip|iterate"
 msgid "Specifies whether formulas with iterative references (formulas that are continuously repeated until the problem is solved) are calculated after a specific number of repetitions."
-msgstr "Määritellään, käytetäänkö iteratiivisia viittauksia (kaavoja toistetaan, kunnes kelvollinen ratkaisu saavutetaan). Merkitsemällä ruutu toistetaan laskuja määritellyt kerrat."
+msgstr "Määrittää, lasketaanko iteratiivisia viittauksia käyttävät kaavat* määrätyn toistomäärän jälkeen. (* Kaavat, joita toistetaan kunnes ongelma on ratkaistu.)"
 
 #. S6iwg
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:296
@@ -26691,10 +26695,9 @@ msgstr "Jokerimerkkien salliminen parantaa Microsoft Excel -yhteentoimivuutta"
 
 #. KXxjQ
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:501
-#, fuzzy
 msgctxt "extended_tip|formulawildcards"
 msgid "Specifies that wildcards are enabled when searching and also for character string comparisons."
-msgstr "Valinta sallii säännölliset lausekkeet hauissa sekä merkkijonovertailuissa."
+msgstr "Määrittää, että jokerimerkit ovat käytössä hauissa ja merkkijonovertailuissa."
 
 #. Gghyb
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:512
@@ -26704,10 +26707,9 @@ msgstr "Salli säännölliset lausekkeet kaavoissa"
 
 #. D9B3G
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:521
-#, fuzzy
 msgctxt "extended_tip|formularegex"
 msgid "Specifies that regular expressions instead of simple wildcards are enabled when searching and also for character string comparisons."
-msgstr "Valinta sallii säännölliset lausekkeet hauissa sekä merkkijonovertailuissa."
+msgstr "Määrittää, että säännölliset lausekkeet ovat käytössä yksinkertaisten jokerimerkkien sijasta hauissa ja merkkijonovertailuissa."
 
 #. gg3Am
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:532
@@ -26852,7 +26854,7 @@ msgstr "Määrittää uusien laskentataulukkoasiakirjojen oletusasetukset."
 #: sc/uiconfig/scalc/ui/optdlg.ui:27
 msgctxt "optdlg|forceBreaksCB"
 msgid "_Always apply manual breaks"
-msgstr "Noudata aina pakotettuja vaihtoja"
+msgstr "Noudata aina manuaalisia vaihtoja"
 
 #. gbrKD
 #: sc/uiconfig/scalc/ui/optdlg.ui:42
@@ -26870,7 +26872,7 @@ msgstr "Määrittää, että tyhjiä sivuja vailla solujen sisältöä tai piirr
 #: sc/uiconfig/scalc/ui/optdlg.ui:66
 msgctxt "optdlg|label1"
 msgid "Pages"
-msgstr "Sivujen tulostus"
+msgstr "Sivut"
 
 #. nfmkw
 #: sc/uiconfig/scalc/ui/optdlg.ui:95
@@ -27014,13 +27016,13 @@ msgstr "Taulukon rivi:"
 #: sc/uiconfig/scalc/ui/optformula.ui:383
 msgctxt "optformula|reset"
 msgid "Rese_t Separators Settings"
-msgstr "Palauta erotinmerkkiasetukset"
+msgstr "Palauta erotinasetukset"
 
 #. 9oMMw
 #: sc/uiconfig/scalc/ui/optformula.ui:407
 msgctxt "optformula|label3"
 msgid "Separators"
-msgstr "Erotinmerkit"
+msgstr "Erottimet"
 
 #. J6mTS
 #: sc/uiconfig/scalc/ui/optformula.ui:421
@@ -27502,7 +27504,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/pastespecial.ui:385
 msgctxt "pastespecial|comments"
 msgid "Comments"
-msgstr ""
+msgstr "Huomautukset"
 
 #. 3uP7i
 #: sc/uiconfig/scalc/ui/pastespecial.ui:393
@@ -27550,7 +27552,7 @@ msgstr "Älä siirrä"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:486
 msgctxt "pastespecial|extended_tip|no_shift"
 msgid "Inserted cells replace the target cells."
-msgstr "Lisätyt solut korvaavat kohdesolut."
+msgstr "Lisättävät solut korvaavat kohdesolut."
 
 #. 4hD8A
 #: sc/uiconfig/scalc/ui/pastespecial.ui:498
@@ -27904,7 +27906,7 @@ msgstr "Kirjainkoon erottelu"
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:452
 msgctxt "pivotfilterdialog|extended_tip|case"
 msgid "Distinguishes between uppercase and lowercase letters."
-msgstr ""
+msgstr "Erottelee isot ja pienet kirjaimet."
 
 #. ECBBQ
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:463
@@ -28210,7 +28212,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:8
 msgctxt "printareasdialog|PrintAreasDialog"
 msgid "Edit Print Ranges"
-msgstr "Muuta tulostusalueita"
+msgstr "Muokkaa tulostusalueita"
 
 #. 9SYaB
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:33
@@ -28444,7 +28446,7 @@ msgstr "Suojaa käsiteltävän taulukon solut muutoksilta."
 #: sc/uiconfig/scalc/ui/queryrunstreamscriptdialog.ui:13
 msgctxt "queryrunstreamscriptdialog|QueryRunStreamScriptDialog"
 msgid "This data stream is generated by a script. Do you want to execute %URL?"
-msgstr "Tämä tietovirta generoidaan komentosarjan avulla. Haluatko suorittaa osoitteen %URL?"
+msgstr "Tämä tietovirran luo komentosarja. Haluatko suorittaa URL-osoitteen %URL?"
 
 #. ea2Cm
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:31
@@ -29574,7 +29576,7 @@ msgstr "Ylätunniste (vasen)"
 #: sc/uiconfig/scalc/ui/sharedfooterdialog.ui:8
 msgctxt "sharedfooterdialog|SharedFooterDialog"
 msgid "Headers/Footers"
-msgstr "Ylätunnisteet/Alatunnisteet"
+msgstr "Ylä- ja alatunnisteet"
 
 #. bCUGs
 #: sc/uiconfig/scalc/ui/sharedfooterdialog.ui:139
@@ -29598,7 +29600,7 @@ msgstr "Alatunniste"
 #: sc/uiconfig/scalc/ui/sharedheaderdialog.ui:8
 msgctxt "sharedheaderdialog|SharedHeaderDialog"
 msgid "Headers/Footers"
-msgstr "Ylätunnisteet/Alatunnisteet"
+msgstr "Ylä- ja alatunnisteet"
 
 #. mYxKb
 #: sc/uiconfig/scalc/ui/sharedheaderdialog.ui:139
@@ -29922,13 +29924,13 @@ msgstr "Pienennä/suurenna tulostetta"
 #: sc/uiconfig/scalc/ui/sheetprintpage.ui:645
 msgctxt "sheetprintpage|comboLB_SCALEMODE"
 msgid "Fit print range(s) to width/height"
-msgstr "Sovita tulostusalue leveyden ja korkeuden mukaan"
+msgstr "Sovita tulostusalueet leveyden ja korkeuden mukaan"
 
 #. Y2GhT
 #: sc/uiconfig/scalc/ui/sheetprintpage.ui:646
 msgctxt "sheetprintpage|comboLB_SCALEMODE"
 msgid "Fit print range(s) on number of pages"
-msgstr "Sovita tulostusalue sivumäärän mukaan"
+msgstr "Sovita tulostusalueet sivumäärän mukaan"
 
 #. AzkrF
 #: sc/uiconfig/scalc/ui/sheetprintpage.ui:650
@@ -29976,7 +29978,7 @@ msgstr "Näytä hyväksytyt muutokset"
 #: sc/uiconfig/scalc/ui/showchangesdialog.ui:130
 msgctxt "showchangesdialog|extended_tip|showaccepted"
 msgid "Shows or hides the changes that were accepted."
-msgstr ""
+msgstr "Näyttää tai piilottaa hyväksytyt muutokset."
 
 #. KBgdT
 #: sc/uiconfig/scalc/ui/showchangesdialog.ui:141
@@ -32329,7 +32331,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:679
 msgctxt "textimportcsv|label3"
 msgid "Other Options"
-msgstr "Muut valinnat"
+msgstr "Muut asetukset"
 
 #. 6FhCS
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:717
@@ -32365,7 +32367,7 @@ msgstr "Määrittää tuontiasetukset merkeillä erotetulle datalle."
 #: sc/uiconfig/scalc/ui/textimportoptions.ui:8
 msgctxt "textimportoptions|TextImportOptionsDialog"
 msgid "Import Options"
-msgstr "Tuonnin valinnat"
+msgstr "Tuonnin asetukset"
 
 #. U4EqV
 #: sc/uiconfig/scalc/ui/textimportoptions.ui:57
@@ -32586,10 +32588,9 @@ msgstr "Jäsennyssymbolit"
 
 #. hhB5n
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:274
-#, fuzzy
 msgctxt "extended_tip|outline"
 msgid "If you have defined an outline, the Outline symbols option specifies whether to view the outline symbols at the border of the sheet."
-msgstr "Kun on määritelty jäsentäminen, Jäsennyssymbolit-merkinnällä määrätään jäsennysmerkit näkyviksi taulukon reunoilla."
+msgstr "Jos olet määritellyt jäsennyksen, Jäsennyssymbolit-asetus määrittää, näytetäänkö jäsennyssymbolit taulukon reunassa."
 
 #. jJ4uB
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:285
@@ -32678,10 +32679,9 @@ msgstr "Piilota"
 
 #. vFtNT
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:446
-#, fuzzy
 msgctxt "extended_tip|grid"
 msgid "Specifies when grid lines will be displayed. Default is to display grid lines only on cells that do not have a background color. You can choose to also display grid lines on cells with background color, or to hide them."
-msgstr "Merkinnällä solut muodostavat näytölle tutun laskentaruudukon. Oletuksena ruudukko näkyy vain taustavärittömissä soluissa. Soluruudukon voi myös valita näkyväsi taustavärin kanssa."
+msgstr "Määrittää, näytetäänkö ruudukko. Oletuksena ruudukko näkyy vain taustavärittömissä soluissa. Ruudukon voi myös valita näkyväksi taustavärin kanssa tai piilotettavaksi."
 
 #. yajBD
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:468
@@ -32763,7 +32763,7 @@ msgstr "Piilota"
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:609
 msgctxt "extended_tip|objgrf"
 msgid "Defines if objects and graphics are shown or hidden."
-msgstr "Määrittää näytetäänkö vai piilotetaanko objektit ja kuvat."
+msgstr "Määrittää, näytetäänkö vai piilotetaanko objektit ja kuvat."
 
 #. wFBeZ
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:623
@@ -32781,7 +32781,7 @@ msgstr "Piilota"
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:628
 msgctxt "extended_tip|diagram"
 msgid "Defines if charts in your document are shown or hidden."
-msgstr "Määrittää näytetäänkö tai piilotetaanko asiakirjan kaaviot."
+msgstr "Määrittää, näytetäänkö tai piilotetaanko asiakirjan kaaviot."
 
 #. YaiTQ
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:642
