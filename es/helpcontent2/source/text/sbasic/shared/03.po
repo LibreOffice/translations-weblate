@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-10-03 15:38+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
+"PO-Revision-Date: 2022-10-10 19:17+0000\n"
+"Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-7-3/textsbasicshared03/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -1148,7 +1148,7 @@ msgctxt ""
 "par_id571609956486468\n"
 "help.text"
 msgid "Because Python has built-in list and tuple support, most of the methods in the <literal>Array</literal> service are available for Basic scripts only. The only exception is <literal>ImportFromCSVFile</literal> which is supported in both Basic and Python."
-msgstr "Debido a que Python tiene compatibilidad integrado para listas y tuplas, la mayoría de los métodos en el servicio <literal>Array</literal> están disponibles solo para scripts básicos. La única excepción es <literal>ImportFromCSVFile</literal>, que se admite tanto en Basic como en Python."
+msgstr "Debido a que Python incorpora compatibilidad para listas y tuplas, la mayoría de los métodos en el servicio <literal>Array</literal> están disponibles solo para secuencias BASIC. La única excepción es <literal>ImportFromCSVFile</literal>, que se admite tanto en BASIC como en Python."
 
 #. SFTcE
 #: sf_array.xhp
@@ -1229,7 +1229,7 @@ msgctxt ""
 "par_id941582551396374\n"
 "help.text"
 msgid "Append to the bottom of a two dimension array a new row. The resulting array has the same lower bounds as the initial two dimension array."
-msgstr "Agregue a la parte inferior de una matriz de dos dimensiones una nueva fila. La matriz resultante tiene los mismos límites inferiores que la matriz inicial de dos dimensiones."
+msgstr "Añade una fila nueva a la parte inferior de una matriz bidimensional. La matriz resultante tiene los mismos límites inferiores que la matriz bidimensional inicial."
 
 #. HEpVM
 #: sf_array.xhp
@@ -1238,7 +1238,7 @@ msgctxt ""
 "par_id631582551461984\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the first row of the resulting 2 dimension array."
-msgstr "<emph>matriz_2d</emph>: La matriz preexistente puede estar vacía. Si esa matriz tiene 1 dimensión, se considera como la primera fila de la matriz resultante de 2 dimensiones."
+msgstr "<emph>array_2d</emph>: la matriz preexistente puede estar vacía. Si esa matriz tiene una dimensión, se considera como la primera fila de la matriz bidimensional resultante."
 
 #. SZZEA
 #: sf_array.xhp
@@ -1292,7 +1292,7 @@ msgctxt ""
 "par_id641582553128490\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\", \"DESC\" or \"\" (not sorted). The default value is \"\"."
-msgstr "<emph>Orden de clasificación</emph>: Puede ser \"ASC\", \"DESC\" o \"\" (no ordenado). El valor predeterminado es \"\"."
+msgstr "<emph>sortorder</emph>: puede ser «ASC», «DESC» o «» (sin ordenar). El valor predeterminado es «»."
 
 #. HVqG3
 #: sf_array.xhp
@@ -1301,7 +1301,7 @@ msgctxt ""
 "par_id71582557214489\n"
 "help.text"
 msgid "Store the content of a 2-columns array into a <link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"dictionary\">ScriptForge.Dictionary</link> object.      <br/>The key will be extracted from the first column, the item from the second."
-msgstr "Almacene el contenido de una matriz de 2 columnas en un<link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"dictionary\">ScriptForge.Dictionary</link>objeto<br/>La clave se extraerá de la primera columna, el elemento de la segunda."
+msgstr "Almacena el contenido de una matriz de dos columnas en un objeto <link href=\"text/sbasic/shared/03/sf_dictionary.xhp\" name=\"dictionary\">ScriptForge.Dictionary</link>.<br/>La clave se extraerá de la primera columna; el elemento, de la segunda."
 
 #. AdhMA
 #: sf_array.xhp
@@ -1310,7 +1310,7 @@ msgctxt ""
 "par_id561582557214489\n"
 "help.text"
 msgid "<emph>array_2d</emph>: Data to be converted into a <literal>ScriptForge.Dictionary</literal> object."
-msgstr "<emph>matriz_2d</emph>: Datos a convertir en un<literal>ScriptForge.Dictionary</literal>objeto."
+msgstr "<emph>array_2d</emph>: los datos que se convertirán en un objeto <literal>ScriptForge.Dictionary</literal>."
 
 #. 9B9aE
 #: sf_array.xhp
@@ -1391,7 +1391,7 @@ msgctxt ""
 "bas_id141627156152196\n"
 "help.text"
 msgid "' Creates a copy of \"a\" using the \"Copy\" method"
-msgstr "' Crea una copia de \"a\" usando el método \"Copiar\""
+msgstr "' Crea una copia de «a» usando el método «Copy»"
 
 #. bYzRV
 #: sf_array.xhp
@@ -1728,7 +1728,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr "Busque en una matriz de una dimensión un número, una cadena o una fecha. La comparación de texto puede distinguir entre mayúsculas y minúsculas o no.<br/>Si la matriz está ordenada, debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo. Si la matriz está ordenada, debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo.(<literal>Vacío</literal>y<literal>nulo</literal>artículos están prohibidos).<br/>El resultado del método es impredecible cuando la matriz se anuncia como ordenada y en realidad no lo es.<br/>Se realiza una búsqueda binaria en matrices ordenadas. De lo contrario, las matrices simplemente se escanean de arriba a abajo y<literal><literal>Vacío</literal>y<literal>nulo</literal>los elementos se ignoran.<br/><br/>El método vuelve<literal>Límite L(matriz de entrada)-1</literal>si la búsqueda no tuvo éxito."
+msgstr "Busque en una matriz de una dimensión un número, una cadena o una fecha. La comparación de texto puede distinguir entre mayúsculas y minúsculas o no.<br/>Si la matriz está ordenada, debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo. Si la matriz está ordenada, debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo.(<literal>Vacío</literal>y<literal>nulo</literal>artículos están prohibidos).<br/>El resultado del método es impredecible cuando la matriz se anuncia como ordenada y en realidad no lo es.<br/>Se realiza una búsqueda binaria en matrices ordenadas. De lo contrario, las matrices simplemente se escanean de arriba a abajo y <literal>Vacío</literal>y<literal>nulo</literal>los elementos se ignoran.<br/><br/>El método vuelve<literal>Límite L(matriz de entrada)-1</literal>si la búsqueda no tuvo éxito."
 
 #. Bm5Um
 #: sf_array.xhp
@@ -1764,7 +1764,7 @@ msgctxt ""
 "par_id421582562794501\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\", \"DESC\" or \"\" (not sorted). The default value is \"\"."
-msgstr "<emph>Orden de clasificación</emph>: Puede ser \"ASC\", \"DESC\" o \"\" (no ordenado). El valor predeterminado es \"\"."
+msgstr "<emph>sortorder</emph>: puede ser «ASC», «DESC» o «» (sin ordenar). El valor predeterminado es «»."
 
 #. AWJHj
 #: sf_array.xhp
@@ -2025,7 +2025,7 @@ msgctxt ""
 "par_id591582648204013\n"
 "help.text"
 msgid "<emph>from</emph>: Value of the first item."
-msgstr "<emph>de</emph>: Valor del primer elemento."
+msgstr "<emph>from</emph>: valor del primer elemento."
 
 #. ciMBJ
 #: sf_array.xhp
@@ -9765,7 +9765,7 @@ msgctxt ""
 "par_id921598458580608\n"
 "help.text"
 msgid "<literal>Dialog</literal><br/>service"
-msgstr "Servicio<br/><literal>Dialogo</literal>"
+msgstr "Servicio<br/><literal>Dialog</literal>"
 
 #. SDCx4
 #: sf_dialogcontrol.xhp
@@ -10575,7 +10575,7 @@ msgctxt ""
 "par_id621612707606219\n"
 "help.text"
 msgid "Text modified"
-msgstr ""
+msgstr "Texto modificado"
 
 #. YFbGT
 #: sf_dialogcontrol.xhp
@@ -10791,7 +10791,7 @@ msgctxt ""
 "par_id151598178880227\n"
 "help.text"
 msgid "This method is often called from a dialog or control event."
-msgstr ""
+msgstr "Este método a menudo se llama desde un cuadro de diálogo o un evento de control."
 
 #. it2QN
 #: sf_dialogcontrol.xhp
@@ -16065,7 +16065,7 @@ msgctxt ""
 "par_id891616864510614\n"
 "help.text"
 msgid "The value returned by the <literal>Subforms</literal> method depends on the arguments provided:"
-msgstr ""
+msgstr "El valor que devuelve el método <literal>Subforms</literal> depende de los argumentos proporcionados:"
 
 #. 4yG2j
 #: sf_form.xhp
@@ -17514,7 +17514,7 @@ msgctxt ""
 "par_id621612707606219\n"
 "help.text"
 msgid "Text modified"
-msgstr ""
+msgstr "Texto modificado"
 
 #. bfgkG
 #: sf_formcontrol.xhp
@@ -17640,7 +17640,7 @@ msgctxt ""
 "hd_id141618777179310\n"
 "help.text"
 msgid "Additional examples"
-msgstr "Ejemplos adicionales"
+msgstr "Más ejemplos"
 
 #. JopFS
 #: sf_formcontrol.xhp
@@ -17649,7 +17649,7 @@ msgctxt ""
 "par_id331618777195723\n"
 "help.text"
 msgid "Below are two examples that illustrate the use of the <literal>FormControl</literal> service."
-msgstr ""
+msgstr "Encontrará más abajo dos ejemplos que ilustran el uso del servicio <literal>FormControl</literal>."
 
 #. 5iGmg
 #: sf_formcontrol.xhp
@@ -19098,7 +19098,7 @@ msgctxt ""
 "par_id451623419793734\n"
 "help.text"
 msgid "<literal>ScriptForge</literal><br/>service"
-msgstr "Servicio<br/><literal>Guiones</literal>"
+msgstr "Servicio<br/><literal>ScriptForge</literal>"
 
 #. Ah5Gj
 #: sf_platform.xhp
@@ -19863,7 +19863,7 @@ msgctxt ""
 "par_id121636721243578\n"
 "help.text"
 msgid "The string \"---\" is used to define line separators in menus or submenus.."
-msgstr ""
+msgstr "La cadena «---» se utiliza para definir líneas separadoras en los menús o los submenús."
 
 #. nA7BW
 #: sf_popupmenu.xhp
@@ -19890,7 +19890,7 @@ msgctxt ""
 "par_id881636724112434\n"
 "help.text"
 msgid "All icons available in %PRODUCTNAME can be used by specifying their path relative to the folder where icon files are located in the installation folder. Icons are located in the following folder:"
-msgstr ""
+msgstr "Todos los iconos disponibles en %PRODUCTNAME pueden utilizarse especificando su ruta relativa a la carpeta donde se encuentran los archivos de iconos en la carpeta de instalación. Los iconos se encuentran en la siguiente carpeta:"
 
 #. n2owj
 #: sf_popupmenu.xhp
@@ -19899,7 +19899,7 @@ msgctxt ""
 "par_id941636724808906\n"
 "help.text"
 msgid "Use the <literal>InstallFolder</literal> property of the <literal>FileSystem</literal> service to determine where %PRODUCTNAME is installed in your system."
-msgstr ""
+msgstr "Utilice la propiedad <literal>InstallFolder</literal> del servicio <literal>FileSystem</literal> para determinar dónde está instalado %PRODUCTNAME en su sistema."
 
 #. xbEsC
 #: sf_popupmenu.xhp
@@ -19953,7 +19953,7 @@ msgctxt ""
 "par_id93158919969864\n"
 "help.text"
 msgid "Inserts a check box in the popup menu. Returns an integer value that identifies the inserted item."
-msgstr ""
+msgstr "Inserta una casilla en el menú emergente. Devuelve un valor entero que identifica el elemento insertado."
 
 #. ZZrDA
 #: sf_popupmenu.xhp
@@ -20070,7 +20070,7 @@ msgctxt ""
 "par_id93158919969399\n"
 "help.text"
 msgid "Inserts a radio button entry in the popup menu. Returns an integer value that identifies the inserted item."
-msgstr ""
+msgstr "Inserta una entrada de botón de opción en el menú emergente. Devuelve un valor entero que identifica el elemento insertado."
 
 #. 92F32
 #: sf_popupmenu.xhp
@@ -20223,7 +20223,7 @@ msgctxt ""
 "par_id971582714020045\n"
 "help.text"
 msgid "<emph>service</emph>: The name of the service identified as a string in the format \"library.service\":"
-msgstr "<emph>servicio</emph>: El nombre del servicio identificado como una cadena con el formato \"biblioteca.servicio\":"
+msgstr "<emph>servicio</emph>: el nombre del servicio identificado como una cadena con el formato «biblioteca.servicio»:"
 
 #. CEqku
 #: sf_services.xhp
@@ -20232,7 +20232,7 @@ msgctxt ""
 "par_id11627475954271\n"
 "help.text"
 msgid "The <emph>library</emph> is a Basic library that must exist in the <link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope\">GlobalScope</link>. The default value is \"ScriptForge\"."
-msgstr "La <emph>biblioteca</emph> es una biblioteca de Basic que debe existir en el <link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope\">Ámbito global</link>. El valor por defecto es \"ScriptForge\"."
+msgstr "La <emph>biblioteca</emph> es una biblioteca de BASIC que debe existir en <link href=\"text/sbasic/shared/03131900.xhp\" name=\"GlobalScope\">GlobalScope</link>. El valor predeterminado es «ScriptForge»."
 
 #. BBFeA
 #: sf_services.xhp
@@ -20268,7 +20268,7 @@ msgctxt ""
 "bas_id981582898174133\n"
 "help.text"
 msgid "' To be done once"
-msgstr "' Que se haga una vez"
+msgstr "' Para hacerse una vez"
 
 #. oqovE
 #: sf_services.xhp
@@ -20277,7 +20277,7 @@ msgctxt ""
 "bas_id311582715700844\n"
 "help.text"
 msgid "' Refers to the \"ScriptForge.Array\" service or SF_Array"
-msgstr ""
+msgstr "' Hace referencia al servicio «ScriptForge.Array» o SF_Array"
 
 #. KvcPo
 #: sf_services.xhp
@@ -20286,7 +20286,7 @@ msgctxt ""
 "bas_id61582715759468\n"
 "help.text"
 msgid "' Returns a new empty dictionary class instance; \"ScriptForge.\" is optional"
-msgstr ""
+msgstr "' Devuelve una instancia de clase de diccionario vacía nueva; «ScriptForge.» es opcional"
 
 #. pMGcR
 #: sf_services.xhp
@@ -20295,7 +20295,7 @@ msgctxt ""
 "bas_id901582715797722\n"
 "help.text"
 msgid "' Refers to the Calc service, implemented in the associated SFDocuments library"
-msgstr ""
+msgstr "' Hace referencia al servicio Calc, implementado en la biblioteca asociada SFDocuments"
 
 #. BoXHx
 #: sf_services.xhp
@@ -20304,7 +20304,7 @@ msgctxt ""
 "bas_id361582715845747\n"
 "help.text"
 msgid "' Returns a Timer class instance starting immediately"
-msgstr "' Devuelve una ocurrencia de la clase Timer que comienza inmediatamente"
+msgstr "' Devuelve una instancia de la clase Timer que comienza inmediatamente"
 
 #. 9bmdn
 #: sf_services.xhp
@@ -24708,7 +24708,7 @@ msgctxt ""
 "par_id11620761899780\n"
 "help.text"
 msgid "Macro execution depends on user settings"
-msgstr ""
+msgstr "La ejecución de macros depende de la configuración del usuario"
 
 #. BTUQ4
 #: sf_ui.xhp
@@ -24762,7 +24762,7 @@ msgctxt ""
 "par_id13159655484952\n"
 "help.text"
 msgid "Creates and stores a new %PRODUCTNAME Base document embedding an empty database of the given type. The method returns a <literal>Document</literal> service instance."
-msgstr ""
+msgstr "Crea y almacena un documento nuevo de %PRODUCTNAME Base que incrusta una base de datos vacía del tipo indicado. El método devuelve una instancia del servicio <literal>Document</literal>."
 
 #. gqGpB
 #: sf_ui.xhp
@@ -24780,7 +24780,7 @@ msgctxt ""
 "par_id381596554849698\n"
 "help.text"
 msgid "<emph>embeddeddatabase</emph> : Either \"HSQLDB\" (default), \"FIREBIRD\" or \"CALC\"."
-msgstr ""
+msgstr "<emph>embeddeddatabase</emph>: puede ser «HSQLDB» (valor predeterminado), «FIREBIRD» o «CALC»."
 
 #. BWgpN
 #: sf_ui.xhp
@@ -24816,7 +24816,7 @@ msgctxt ""
 "par_id51588521753302\n"
 "help.text"
 msgid "<emph>documenttype</emph> : \"Calc\", \"Writer\", etc. If absent, the <literal>templatefile</literal> argument must be present."
-msgstr ""
+msgstr "<emph>documenttype</emph>: «Calc», «Writer», etc. Si está ausente, debe existir el argumento <literal>templatefile</literal>."
 
 #. BQ6UD
 #: sf_ui.xhp
@@ -24897,7 +24897,7 @@ msgctxt ""
 "par_id871587986592696\n"
 "help.text"
 msgid "Minimizes the active window or the given window."
-msgstr ""
+msgstr "Minimiza la ventana activa o la ventana indicada."
 
 #. Enys5
 #: sf_ui.xhp
