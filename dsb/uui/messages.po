@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-04-26 13:59+0200\n"
+"POT-Creation-Date: 2022-10-10 13:36+0200\n"
 "PO-Revision-Date: 2022-03-31 22:31+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Lower Sorbian <https://translations.documentfoundation.org/projects/libo_ui-master/uuimessages/dsb/>\n"
@@ -753,72 +753,28 @@ msgctxt "STR_LOCKFAILED_OPENREADONLY_NOTIFY_BTN"
 msgid "~Notify"
 msgstr "~Informěrowaś"
 
-#. u5nuY
+#. q5Dhj
 #: uui/inc/strings.hrc:50
-msgctxt "STR_OPENLOCKED_TITLE"
-msgid "Document in Use"
-msgstr "Dokument se wužywa"
-
-#. qcayz
-#: uui/inc/strings.hrc:51
-msgctxt "STR_OPENLOCKED_MSG"
+msgctxt "STR_OPENLOCKED_HIDDEN_DATA"
 msgid ""
-"Document file '$(ARG1)' is locked for editing by:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Open document read-only or open a copy of the document for editing.\n"
-"Select Notify to open read-only and get notified when the document becomes editable.$(ARG3)"
+"Document Name: $(ARG1)\n"
+"User Name: $(ARG2)"
 msgstr ""
-"Dokumentowa dataja '$(ARG1)' jo za wobźěłowanje zastajona wót:\n"
-"\n"
-"$(ARG2)\n"
-"\n"
-"Wócyńśo dokument jano za cyitanje abo wócyńśo kopiju dokumenta za wobźěłowanje.\n"
-"Wubjeŕśo „Informěrowaś“, aby dokument jano za cytanje wócynił a powěźeńku dostał, gaž dokument buźo wobźěłujobny.$(ARG3)"
-
-#. VF7vT
-#: uui/inc/strings.hrc:52
-msgctxt "STR_OPENLOCKED_ALLOWIGNORE_MSG"
-msgid ""
-"\n"
-"You may also ignore the file locking and open the document for editing."
-msgstr ""
-"\n"
-"Móžośo teke zastajenje dataje ignorěrowaś a dokument za wobźěłowanje wócyniś."
-
-#. tc7YZ
-#: uui/inc/strings.hrc:53
-msgctxt "STR_OPENLOCKED_OPENREADONLY_BTN"
-msgid "Open ~Read-Only"
-msgstr "~Jano za cytanje wócyniś"
-
-#. anQNW
-#: uui/inc/strings.hrc:54
-msgctxt "STR_OPENLOCKED_OPENREADONLY_NOTIFY_BTN"
-msgid "~Notify"
-msgstr "~Informěrowaś"
-
-#. TsA54
-#: uui/inc/strings.hrc:55
-msgctxt "STR_OPENLOCKED_OPENCOPY_BTN"
-msgid "Open ~Copy"
-msgstr "~Kopiju wócyniś"
 
 #. EXAAf
-#: uui/inc/strings.hrc:56
+#: uui/inc/strings.hrc:51
 msgctxt "STR_UNKNOWNUSER"
 msgid "Unknown User"
 msgstr "Njeznaty wužywaŕ"
 
 #. PFEwD
-#: uui/inc/strings.hrc:58
+#: uui/inc/strings.hrc:53
 msgctxt "STR_FILECHANGED_TITLE"
 msgid "Document Has Been Changed by Others"
 msgstr "Dokument jo se wót drugich składował"
 
 #. umCKE
-#: uui/inc/strings.hrc:59
+#: uui/inc/strings.hrc:54
 msgctxt "STR_FILECHANGED_MSG"
 msgid ""
 "The file has been changed since it was opened for editing in %PRODUCTNAME. Saving your version of the document will overwrite changes made by others.\n"
@@ -830,19 +786,19 @@ msgstr ""
 "Cośo weto składowaś?"
 
 #. DGYmK
-#: uui/inc/strings.hrc:60
+#: uui/inc/strings.hrc:55
 msgctxt "STR_FILECHANGED_SAVEANYWAY_BTN"
 msgid "~Save Anyway"
 msgstr "Weto ~składowaś"
 
 #. YBz5F
-#: uui/inc/strings.hrc:62
+#: uui/inc/strings.hrc:57
 msgctxt "STR_TRYLATER_TITLE"
 msgid "Document in Use"
 msgstr "Dokument se wužywa"
 
 #. 4Fimj
-#: uui/inc/strings.hrc:63
+#: uui/inc/strings.hrc:58
 msgctxt "STR_TRYLATER_MSG"
 msgid ""
 "Document file '$(ARG1)' is locked for editing by:\n"
@@ -858,7 +814,7 @@ msgstr ""
 "Wopytajśo pózdźej hyšći raz, dokument składowaś a składujśo kopiju toś togo dokumenta."
 
 #. b3UBG
-#: uui/inc/strings.hrc:64
+#: uui/inc/strings.hrc:59
 msgctxt "STR_OVERWRITE_IGNORELOCK_MSG"
 msgid ""
 "Document file '$(ARG1)' is locked for editing by:\n"
@@ -874,19 +830,19 @@ msgstr ""
 "Móžośo wopytaś, zastajenje dataje ignorěrowaś a eksistěrujucy dokument pśepisaś."
 
 #. 8JFLZ
-#: uui/inc/strings.hrc:65
+#: uui/inc/strings.hrc:60
 msgctxt "STR_TRYLATER_RETRYSAVING_BTN"
 msgid "~Retry Saving"
 msgstr "~Znowego składowaś"
 
 #. 6iCzM
-#: uui/inc/strings.hrc:66
+#: uui/inc/strings.hrc:61
 msgctxt "STR_TRYLATER_SAVEAS_BTN"
 msgid "~Save As..."
 msgstr "~Składowaś ako..."
 
 #. nqrvC
-#: uui/inc/strings.hrc:68
+#: uui/inc/strings.hrc:63
 msgctxt "STR_RENAME_OR_REPLACE"
 msgid ""
 "A file with the name \"%NAME\" already exists in the location \"%FOLDER\".\n"
@@ -896,7 +852,7 @@ msgstr ""
 "Wubjeŕśo, lěc cośo eksistěrujucu dataju pśepisaś abo nowe mě zapódaś."
 
 #. 3bJvA
-#: uui/inc/strings.hrc:69
+#: uui/inc/strings.hrc:64
 msgctxt "STR_NAME_CLASH_RENAME_ONLY"
 msgid ""
 "A file with the name \"%NAME\" already exists in the location \"%FOLDER\".\n"
@@ -906,49 +862,49 @@ msgstr ""
 "Pšosym zapódajśo nowe mě."
 
 #. Bapqc
-#: uui/inc/strings.hrc:70
+#: uui/inc/strings.hrc:65
 msgctxt "STR_SAME_NAME_USED"
 msgid "Please provide a different file name!"
 msgstr "Pódajśo pšosym druge datajowe mě!"
 
 #. BsaWY
-#: uui/inc/strings.hrc:72
+#: uui/inc/strings.hrc:67
 msgctxt "STR_ERROR_PASSWORD_TO_OPEN_WRONG"
 msgid "The password is incorrect. The file cannot be opened."
 msgstr "Gronidło jo wopacne. Dataja njedajo se wócyniś."
 
 #. WQbYF
-#: uui/inc/strings.hrc:73
+#: uui/inc/strings.hrc:68
 msgctxt "STR_ERROR_PASSWORD_TO_MODIFY_WRONG"
 msgid "The password is incorrect. The file cannot be modified."
 msgstr "Gronidło jo wopacne. Dataja njedajo se změniś."
 
 #. Gq9FJ
-#: uui/inc/strings.hrc:74
+#: uui/inc/strings.hrc:69
 msgctxt "STR_ERROR_MASTERPASSWORD_WRONG"
 msgid "The master password is incorrect."
 msgstr "Głowne gronidło jo wopacne."
 
 #. pRwHM
-#: uui/inc/strings.hrc:75
+#: uui/inc/strings.hrc:70
 msgctxt "STR_ERROR_SIMPLE_PASSWORD_WRONG"
 msgid "The password is incorrect."
 msgstr "Gronidło jo wopacne."
 
 #. DwdJn
-#: uui/inc/strings.hrc:76
+#: uui/inc/strings.hrc:71
 msgctxt "STR_ERROR_PASSWORDS_NOT_IDENTICAL"
 msgid "The password confirmation does not match."
 msgstr "Wobkšuśenje gronidła zapódanemu gronidłoju njewótpowědujo."
 
 #. dwGow
-#: uui/inc/strings.hrc:78
+#: uui/inc/strings.hrc:73
 msgctxt "STR_LOCKCORRUPT_TITLE"
 msgid "Lock file is corrupted"
 msgstr "Zastajeńska dataja jo wobškóźona"
 
 #. nkUGA
-#: uui/inc/strings.hrc:79
+#: uui/inc/strings.hrc:74
 msgctxt "STR_LOCKCORRUPT_MSG"
 msgid ""
 "The lock file is corrupted and probably empty. Opening the document read-only and closing it again removes the corrupted lock file.\n"
@@ -960,25 +916,25 @@ msgstr ""
 "Wubjeŕśo„Informěrowaś“, aby dokument jano za cytanje wócynił a powěźeńku dostał, gaž dokument buźo wobźěłujobny."
 
 #. fKEYB
-#: uui/inc/strings.hrc:80
+#: uui/inc/strings.hrc:75
 msgctxt "STR_LOCKCORRUPT_OPENREADONLY_BTN"
 msgid "Open ~Read-Only"
 msgstr "Jano za ~cytanje wócyniś"
 
 #. qRAcY
-#: uui/inc/strings.hrc:81
+#: uui/inc/strings.hrc:76
 msgctxt "STR_LOCKCORRUPT_OPENREADONLY_NOTIFY_BTN"
 msgid "~Notify"
 msgstr "~Informěrowaś"
 
 #. rBAR3
-#: uui/inc/strings.hrc:83
+#: uui/inc/strings.hrc:78
 msgctxt "STR_RELOADEDITABLE_TITLE"
 msgid "Document is now editable"
 msgstr "Dokument jo něnto wobźěłujobny"
 
 #. cVZuC
-#: uui/inc/strings.hrc:84
+#: uui/inc/strings.hrc:79
 msgctxt "STR_RELOADEDITABLE_MSG"
 msgid ""
 "Document file '$(ARG1)' is now editable \n"
@@ -990,7 +946,7 @@ msgstr ""
 "Toś ten dokument za wobźěłowanje znowego zacytaś?"
 
 #. vynDE
-#: uui/inc/strings.hrc:85
+#: uui/inc/strings.hrc:80
 msgctxt "STR_RELOADEDITABLE_BTN"
 msgid "~Reload"
 msgstr "~Znowego zacytaś"
@@ -1234,7 +1190,7 @@ msgid "Caution: If you forget the master password, you will be unable to access 
 msgstr "Glědajśo: Jolic głowne gronidło zabydnjośo, njamóžośo pśistup na informacije, kótarež se pśez njo šćitaju. Gronidła mjazy wjeliko- a małopisanim rozeznawaju."
 
 #. BHvee
-#: uui/uiconfig/ui/setmasterpassworddlg.ui:202
+#: uui/uiconfig/ui/setmasterpassworddlg.ui:205
 msgctxt "setmasterpassworddlg|extended_tip|SetMasterPasswordDialog"
 msgid "Assign a master password to protect the access to a saved password."
 msgstr "Pśipokažćo głowne gronidło, aby pśistup k skłaźonemu gronidłoju šćitał."
@@ -1304,6 +1260,46 @@ msgstr "Toś ten certifikat njeakceptěrowaś a z toś tym websedłom njezwěza�
 msgctxt "unknownauthdialog|examine"
 msgid "Examine Certificate…"
 msgstr "Certifikat pśepytowaś…"
+
+#~ msgctxt "STR_OPENLOCKED_TITLE"
+#~ msgid "Document in Use"
+#~ msgstr "Dokument se wužywa"
+
+#~ msgctxt "STR_OPENLOCKED_MSG"
+#~ msgid ""
+#~ "Document file '$(ARG1)' is locked for editing by:\n"
+#~ "\n"
+#~ "$(ARG2)\n"
+#~ "\n"
+#~ "Open document read-only or open a copy of the document for editing.\n"
+#~ "Select Notify to open read-only and get notified when the document becomes editable.$(ARG3)"
+#~ msgstr ""
+#~ "Dokumentowa dataja '$(ARG1)' jo za wobźěłowanje zastajona wót:\n"
+#~ "\n"
+#~ "$(ARG2)\n"
+#~ "\n"
+#~ "Wócyńśo dokument jano za cyitanje abo wócyńśo kopiju dokumenta za wobźěłowanje.\n"
+#~ "Wubjeŕśo „Informěrowaś“, aby dokument jano za cytanje wócynił a powěźeńku dostał, gaž dokument buźo wobźěłujobny.$(ARG3)"
+
+#~ msgctxt "STR_OPENLOCKED_ALLOWIGNORE_MSG"
+#~ msgid ""
+#~ "\n"
+#~ "You may also ignore the file locking and open the document for editing."
+#~ msgstr ""
+#~ "\n"
+#~ "Móžośo teke zastajenje dataje ignorěrowaś a dokument za wobźěłowanje wócyniś."
+
+#~ msgctxt "STR_OPENLOCKED_OPENREADONLY_BTN"
+#~ msgid "Open ~Read-Only"
+#~ msgstr "~Jano za cytanje wócyniś"
+
+#~ msgctxt "STR_OPENLOCKED_OPENREADONLY_NOTIFY_BTN"
+#~ msgid "~Notify"
+#~ msgstr "~Informěrowaś"
+
+#~ msgctxt "STR_OPENLOCKED_OPENCOPY_BTN"
+#~ msgid "Open ~Copy"
+#~ msgstr "~Kopiju wócyniś"
 
 #~ msgctxt "RID_UUI_ERRHDL"
 #~ msgid ""
