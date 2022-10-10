@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-10-10 13:35+0200\n"
-"PO-Revision-Date: 2022-10-10 18:24+0000\n"
-"Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
+"PO-Revision-Date: 2022-10-10 19:49+0000\n"
+"Last-Translator: Dante Espejel <dante.misael.espejel@estudiante.uacm.edu.mx>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -1816,7 +1816,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr "Busque en una matriz de una dimensión un número, una cadena o una fecha. La comparación de texto puede distinguir entre mayúsculas y minúsculas o no.<br/>Si la matriz está ordenada, debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo. Si la matriz está ordenada, debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo.(<literal>Vacío</literal>y<literal>nulo</literal>artículos están prohibidos).<br/>El resultado del método es impredecible cuando la matriz se anuncia como ordenada y en realidad no lo es.<br/>Se realiza una búsqueda binaria en matrices ordenadas. De lo contrario, las matrices simplemente se escanean de arriba a abajo y <literal>Vacío</literal>y<literal>nulo</literal>los elementos se ignoran.<br/><br/>El método vuelve<literal>Límite L(matriz de entrada)-1</literal>si la búsqueda no tuvo éxito."
+msgstr "Busca un número, una cadena o una fecha en una matriz unidimensional. La comparación del texto puede o no distinguir entre mayúsculas y minúsculas.<br/>Si la matriz está ordenada, debe llenarse de manera homogénea; esto es, todos los elementos deben ser escalares del mismo tipo (los elementos <literal>Empty</literal> y <literal>Null</literal> no están permitidos).<br/>El resultado del método es impredecible si se le pasa una matriz «ordenada» que en realidad no lo está.<br/>Se efectúa una búsqueda binaria en las matrices ordenadas. Si no, simplemente se leen de arriba abajo, ignorando los elementos <literal>Empty</literal> y <literal>Null</literal>.<br/><br/>El método devuelve <literal>LBound(input array) - 1</literal> si la búsqueda no fue exitosa."
 
 #. Bm5Um
 #: sf_array.xhp
@@ -17557,7 +17557,7 @@ msgctxt ""
 "par_id891616864510614\n"
 "help.text"
 msgid "The value returned by the <literal>Subforms</literal> method depends on the arguments provided:"
-msgstr "El valor devuelto por el método <literal>Subforms</literal> depende de los argumentos proporcionados:"
+msgstr "El valor que devuelve el método <literal>Subforms</literal> depende de los argumentos proporcionados:"
 
 #. 4yG2j
 #: sf_form.xhp
@@ -17566,7 +17566,7 @@ msgctxt ""
 "par_id951616864510585\n"
 "help.text"
 msgid "If the method is called <emph>without any arguments</emph>, then it returns the list of subforms contained in the current form or subform instance."
-msgstr ""
+msgstr "Si el método se llama <emph>sin argumentos</emph>, entonces devuelve la lista de subformularios contenidos en el formulario u ocurrencia de subformulario actual."
 
 #. AD3Q6
 #: sf_form.xhp
@@ -23281,7 +23281,7 @@ msgctxt ""
 "par_id401621896675306\n"
 "help.text"
 msgid "<emph>number</emph>: the number to be converted into written text. It can be provided either as a numeric type or as a string. When a string is provided, it can be preceded by a prefix informing how the numbers should be written. It is also possible to include ISO 4217 currency codes. See examples below for more information."
-msgstr "<emph>número</emph>: el número a convertir en texto escrito. Puede proporcionarse como un tipo numérico o como una cadena. Cuando se proporciona una cadena, puede ir precedida de un prefijo que informa de cómo deben escribirse los números. También es posible incluir códigos de moneda ISO 4217. Para más información, consulte los ejemplos siguientes."
+msgstr "<emph>number</emph>: el número que se debe convertir en texto escrito. Puede proporcionarse como un tipo numérico o como una cadena. Cuando se proporciona una cadena, puede ir precedida de un prefijo que informa de cómo deben escribirse los números. También es posible incluir códigos monetarios ISO 4217. Para más información, consulte los ejemplos siguientes."
 
 #. eppdr
 #: sf_region.xhp
@@ -23290,7 +23290,7 @@ msgctxt ""
 "par_id401621896675412\n"
 "help.text"
 msgid "<emph>locale</emph>: the locale defining the language into which the number will be converted to, given either in \"la-CO\" or \"la\" formats. The default value is the locale defined in the <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\" name=\"OfficeLocale_link\"><literal>OfficeLocale</literal></link> property of the <literal>Platform</literal> service."
-msgstr "<emph>locale</emph>: la configuración regional que define el idioma al que se convertirá el número, dada en formato \"la-CO\" o \"la\". El valor por defecto es la configuración regional definida en la propiedad <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\" name=\"OfficeLocale_link\"><literal>OfficeLocale</literal></link> del servicio <literal>Platform</literal>."
+msgstr "<emph>locale</emph>: la configuración regional que define el idioma al que se convertirá el número, dada en formato «xx-XX» o «xx». El valor predeterminado es la configuración regional definida en la propiedad <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\" name=\"OfficeLocale_link\"><literal>OfficeLocale</literal></link> del servicio <literal>Platform</literal>."
 
 #. QeBpA
 #: sf_region.xhp
@@ -23299,7 +23299,7 @@ msgctxt ""
 "bas_id301656027173020\n"
 "help.text"
 msgid "' Returns \"one hundred five\""
-msgstr "' Devuelve \"ciento cinco\""
+msgstr "' Devuelve «ciento cinco»"
 
 #. 7xovc
 #: sf_region.xhp
@@ -23308,7 +23308,7 @@ msgctxt ""
 "bas_id531656022496631\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(105, \"en-US\")"
-msgstr "numText = oRegion.Number2Text(105, \"en-US\")"
+msgstr "numText = oRegion.Number2Text(105, \"es\")"
 
 #. UGGvv
 #: sf_region.xhp
@@ -23317,7 +23317,7 @@ msgctxt ""
 "bas_id771656027217144\n"
 "help.text"
 msgid "' Returns: \"two point four two\""
-msgstr "' Devuelve: \"dos punto cuatro dos\""
+msgstr "' Devuelve: «two point four two»"
 
 #. Xr7no
 #: sf_region.xhp
@@ -23335,7 +23335,7 @@ msgctxt ""
 "bas_id281656027262234\n"
 "help.text"
 msgid "' Returns: \"twenty-five euro and ten cents\" Notice the \"EUR\" currency symbol"
-msgstr "' Devuelve: \"veinticinco euros y diez céntimos\" Fíjate en el símbolo de la moneda \"EUR\""
+msgstr "' Devuelve: «vint-i-cinc euros amb deu cèntims». Observe el símbolo de la moneda «EUR»"
 
 #. DBPc8
 #: sf_region.xhp
@@ -23344,7 +23344,7 @@ msgctxt ""
 "bas_id201656022497171\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(\"EUR 25.10\", \"en-US\")"
-msgstr "numText = oRegion.Number2Text(\"EUR 25.10\", \"en-US\")"
+msgstr "numText = oRegion.Number2Text(\"EUR 25.10\", \"ca\")"
 
 #. pd3Fm
 #: sf_region.xhp
@@ -23353,7 +23353,7 @@ msgctxt ""
 "bas_id981656027330132\n"
 "help.text"
 msgid "' Returns: \"fifteenth\"; Notice the \"ordinal\" prefix"
-msgstr "' Devuelve: \"decimoquinto\"; Nótese el prefijo \"ordinal\""
+msgstr "' Devuelve: «quinzième». Observe el prefijo «ordinal»"
 
 #. ggt2A
 #: sf_region.xhp
@@ -23362,7 +23362,7 @@ msgctxt ""
 "bas_id841656027330394\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(\"ordinal 15\", \"en-US\")"
-msgstr "numText = oRegion.Number2Text(\"ordinal 15\", \"en-US\")"
+msgstr "numText = oRegion.Number2Text(\"ordinal 15\", \"fr-CH\")"
 
 #. YQCCF
 #: sf_region.xhp
@@ -23947,7 +23947,7 @@ msgctxt ""
 "par_id21582814720997\n"
 "help.text"
 msgid "in <emph>Application Macros</emph>"
-msgstr ""
+msgstr "en <emph>Macros de la aplicación</emph>"
 
 #. LnKrt
 #: sf_session.xhp
