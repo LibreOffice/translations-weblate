@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-06-11 17:08+0200\n"
-"PO-Revision-Date: 2022-07-31 22:52+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
+"PO-Revision-Date: 2022-11-07 18:20+0000\n"
+"Last-Translator: Celia Palacios <celia.palacios@libreoffice.org>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-7-2/textsbasicpython/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -194,7 +194,7 @@ msgctxt ""
 "N0340\n"
 "help.text"
 msgid "%PRODUCTNAME Basic macros can be personal, shared, or embedded in documents. In order to execute them, Python run time needs to be provided with Basic macro locations. Implementing the <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1script_1_1provider_1_1XScript.html\" name=\"XScriptProvider interface\">com.sun.star.script.provider.XScriptProvider</link> interface allows the retrieval of executable scripts:"
-msgstr "Las macros de %PRODUCTNAME BASIC pueden ser personales, compartidas o incrustadas en los documentos. Para poder ejecutarlas, ha de proveerse un entorno de ejecución de Python con las ubicaciones de macros de BASIC. La implementación de la interfaz <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1script_1_1provider_1_1XScript.html\" name=\"XScriptProvider interface\">com.sun.star.script.provider.XScriptProvider</link> permite recuperar macros ejecutables:"
+msgstr "Las macros de %PRODUCTNAME BASIC pueden ser de uso personal, compartidas o estar incrustadas en los documentos. Para poder ejecutarlas, ha de proveerse un entorno de ejecución de Python con las ubicaciones de macros de BASIC. La implementación de la interfaz <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1script_1_1provider_1_1XScript.html\" name=\"XScriptProvider interface\">com.sun.star.script.provider.XScriptProvider</link> permite recuperar macros ejecutables:"
 
 #. w4UAs
 #: python_2_basic.xhp
@@ -311,7 +311,7 @@ msgctxt ""
 "N0372\n"
 "help.text"
 msgid "Examples of Personal or Shared Scripts"
-msgstr "Ejemplos de secuencias de órdenes personales y compartidas"
+msgstr "Ejemplos de secuencias de órdenes personales o compartidas"
 
 #. nyNGG
 #: python_2_basic.xhp
@@ -365,7 +365,7 @@ msgctxt ""
 "N0389\n"
 "help.text"
 msgid "\"\"\"SUM the specified number expression.\"\"\""
-msgstr ""
+msgstr "\"\"\"SUMA la expresión numérica especificada.\"\"\""
 
 #. aPmSn
 #: python_2_basic.xhp
@@ -527,7 +527,7 @@ msgctxt ""
 "N0528\n"
 "help.text"
 msgid "Next to <link href=\"text/sbasic/shared/01040000.xhp\" name=\"assigning macros to events\">assigning macros to events</link>, one can monitor events raised by %PRODUCTNAME documents. Application Programming Interface (API) broadcasters are responsible for calling event scripts. Unlike listeners that require to define all supported methods, even if unused, document monitors require only two methods next to hooked event scripts."
-msgstr "Además de <link href=\"text/sbasic/shared/01040000.xhp\" name=\"assigning macros to events\">asignar macros a sucesos</link>, es posible monitorizar los sucesos emitidos por los documentos de %PRODUCTNAME. Los difusores de API (interfaz de programación de aplicaciones, por sus siglas en inglés) son responsables de llamar a las macros de los sucesos. A diferencia de los agentes de escucha que requieren que se definan todos los métodos admitidos incluso si estos no se utilizan, los monitores de documento únicamente requieren dos métodos junto a macros de sucesos conectadas."
+msgstr "Además de <link href=\"text/sbasic/shared/01040000.xhp\" name=\"assigning macros to events\">asignar macros a eventos</link>, es posible monitorizar los eventos emitidos por los documentos de %PRODUCTNAME. Los emisores de API (interfaz de programación de aplicaciones, por sus siglas en inglés) son responsables de llamar a las macros de los eventos. A diferencia de los agentes de escucha que requieren que se definan todos los métodos admitidos incluso si estos no se utilizan, los monitores de documento únicamente requieren dos métodos junto a macros de eventos conectadas."
 
 #. HztRG
 #: python_document_events.xhp
@@ -608,7 +608,7 @@ msgctxt ""
 "N0544\n"
 "help.text"
 msgid "\"\"\" Monitor document events \"\"\""
-msgstr "\"\"\" Monitor de sucesos del documento \"\"\""
+msgstr "\"\"\" Monitor de eventos del documento \"\"\""
 
 #. 4k7DQ
 #: python_document_events.xhp
@@ -617,7 +617,7 @@ msgctxt ""
 "N0546\n"
 "help.text"
 msgid "adapted from 'Python script to monitor OnSave event' at"
-msgstr "adaptado de «secuencia de órdenes Python para monitorizar el suceso OnSave» en"
+msgstr "adaptado de «secuencia de órdenes Python para monitorizar el evento OnSave» en"
 
 #. AMBQD
 #: python_document_events.xhp
@@ -626,7 +626,7 @@ msgctxt ""
 "N0550\n"
 "help.text"
 msgid "\"\"\" Document events monitor \"\"\""
-msgstr "\"\"\" Monitor de sucesos del documento \"\"\""
+msgstr "\"\"\" Monitor de eventos del documento \"\"\""
 
 #. FNyTn
 #: python_document_events.xhp
@@ -662,7 +662,7 @@ msgctxt ""
 "N0560\n"
 "help.text"
 msgid "self.listen()  # Start monitoring doc. events"
-msgstr ""
+msgstr "self.listen()  # Inicia seguimiento de eventos del documento"
 
 #. 8tXZv
 #: python_document_events.xhp
@@ -725,7 +725,7 @@ msgctxt ""
 "N0583\n"
 "help.text"
 msgid "Console.log(\"INFO\", \"Document events have been logged\", True)"
-msgstr "Console.log(\"INFO\", \"Se han registrado los sucesos del documento\", True)"
+msgstr "Console.log(\"INFO\", \"Se han registrado los eventos del documento\", True)"
 
 #. utJGT
 #: python_document_events.xhp
@@ -734,7 +734,7 @@ msgctxt ""
 "N0587\n"
 "help.text"
 msgid "\"\"\" Intercepts all doc. events \"\"\""
-msgstr "\"\"\" Intercepta todos los sucesos del documento \"\"\""
+msgstr "\"\"\" Intercepta todos los eventos del documento \"\"\""
 
 #. Xwnsi
 #: python_document_events.xhp
@@ -761,7 +761,7 @@ msgctxt ""
 "N0601\n"
 "help.text"
 msgid "def OnLoad(*args):  # 'Open Document' event"
-msgstr "def OnLoad(*args):  # Suceso «Abrir documento»"
+msgstr "def OnLoad(*args):  # Evento «Abrir documento»"
 
 #. CkJg4
 #: python_document_events.xhp
@@ -770,7 +770,7 @@ msgctxt ""
 "N0604\n"
 "help.text"
 msgid "def OnUnload(*args):  # 'Document has been closed' event"
-msgstr ""
+msgstr "def OnUnload(*args): # Evento 'El documento ha sido cerrado'"
 
 #. KobNT
 #: python_document_events.xhp
@@ -788,7 +788,7 @@ msgctxt ""
 "N0613\n"
 "help.text"
 msgid "(Back/Fore)ground console to report/log program execution."
-msgstr ""
+msgstr "Puesta en primer o segundo plano de la consola para registrar la ejecución del programa."
 
 #. Qph5m
 #: python_document_events.xhp
@@ -959,7 +959,7 @@ msgctxt ""
 "N0688\n"
 "help.text"
 msgid "''' Monitor document events '''"
-msgstr "''' Monitorizar sucesos de documento '''"
+msgstr "''' Monitorizar eventos de documento '''"
 
 #. cBx2G
 #: python_document_events.xhp
@@ -968,7 +968,7 @@ msgctxt ""
 "N0701\n"
 "help.text"
 msgid "''' Initialize document events logging '''"
-msgstr "''' Iniciar registro de sucesos de documento '''"
+msgstr "''' Iniciar registro de eventos de documento '''"
 
 #. A5RuU
 #: python_document_events.xhp
@@ -1004,7 +1004,7 @@ msgctxt ""
 "N0723\n"
 "help.text"
 msgid "' Your code for handled events goes here"
-msgstr "' Su código para la gestión de sucesos va aquí"
+msgstr "' Su código para la gestión de eventos va aquí"
 
 #. AJJDf
 #: python_document_events.xhp
@@ -1022,7 +1022,7 @@ msgctxt ""
 "N0725\n"
 "help.text"
 msgid "Discovering Documents Events"
-msgstr "Descubrimiento de sucesos de documento"
+msgstr "Descubrimiento de eventos de documento"
 
 #. Ys35P
 #: python_document_events.xhp
@@ -1058,7 +1058,7 @@ msgctxt ""
 "N0734\n"
 "help.text"
 msgid "\"\"\" Display document events \"\"\""
-msgstr "\"\"\" Mostrar sucesos de documento \"\"\""
+msgstr "\"\"\" Mostrar eventos del documento \"\"\""
 
 #. SECnV
 #: python_document_events.xhp
@@ -1094,7 +1094,7 @@ msgctxt ""
 "N0750\n"
 "help.text"
 msgid "''' Display document events '''"
-msgstr "''' Mostrar sucesos de documento '''"
+msgstr "''' Mostrar eventos del documento '''"
 
 #. upkPP
 #: python_examples.xhp
@@ -1175,7 +1175,7 @@ msgctxt ""
 "N0668\n"
 "help.text"
 msgid "It packs the code that handles event-driven macros,"
-msgstr "Empaqueta el código que gestiona las macros orientadas a sucesos,"
+msgstr "Empaqueta el código que gestiona las macros orientadas a eventos,"
 
 #. NCGBC
 #: python_handler.xhp
@@ -1256,7 +1256,7 @@ msgctxt ""
 "N0677\n"
 "help.text"
 msgid "Events assigned actions should mention the <literal>vnd.sun.star.UNO:</literal> protocol."
-msgstr ""
+msgstr "Las acciones asignadas a los eventos deben mencionar el protocolo <literal>vnd.sun.star.UNO:</literal>."
 
 #. BTnaF
 #: python_handler.xhp
@@ -1670,7 +1670,7 @@ msgctxt ""
 "N0490\n"
 "help.text"
 msgid "Unlike personal and shared scripts, %PRODUCTNAME installation scripts can be imported any time. Next to <literal>uno</literal> & <literal>unohelper</literal> %PRODUCTNAME Python modules, other scripts present in <literal><installation_path>/program</literal> directory can be imported directly, such as the <literal>msgbox</literal> module."
-msgstr ""
+msgstr "A diferencia de las secuencias personales y compartidas, siempre es posible importar las secuencias instaladas por %PRODUCTNAME. Junto con los módulos Python <literal>uno</literal> y <literal>unohelper</literal> de %PRODUCTNAME, es posible importar otras secuencias que estén en el directorio <literal><ruta de la instalación>/program</literal>, como es el caso del módulo <literal>msgbox</literal>."
 
 #. TnQ2j
 #: python_import.xhp
@@ -1877,7 +1877,7 @@ msgctxt ""
 "N0389\n"
 "help.text"
 msgid "Creating an event listener"
-msgstr "Crear un cliente de escucha de sucesos"
+msgstr "Crear un cliente de escucha de eventos"
 
 #. knF23
 #: python_listener.xhp
@@ -2066,7 +2066,7 @@ msgctxt ""
 "N0509\n"
 "help.text"
 msgid "See also <link href=\"text/sbasic/shared/01040000.xhp\" name=\"Document events\">Document events</link>, <link href=\"text/shared/02/01170202.xhp\" name=\"Form events\">Form events</link>."
-msgstr "Consulte también <link href=\"text/sbasic/shared/01040000.xhp\" name=\"Sucesos de documento\">Sucesos de documento</link> y <link href=\"text/shared/02/01170202.xhp\" name=\"Sucesos de formulario\">Sucesos de formulario</link>."
+msgstr "Consulte también <link href=\"text/sbasic/shared/01040000.xhp\" name=\"Eventos de documento\">Eventos de documento</link> y <link href=\"text/shared/02/01170202.xhp\" name=\"Eventos de formulario\">Eventos de formulario</link>."
 
 #. GC8Ny
 #: python_locations.xhp
@@ -3083,7 +3083,7 @@ msgctxt ""
 "N0340\n"
 "help.text"
 msgid "<variable id=\"pythonsession\"><link href=\"text/sbasic/python/python_session.xhp\" name=\"session01\">Getting Session Information</link></variable>"
-msgstr ""
+msgstr "<variable id=\"pythonsession\"><link href=\"text/sbasic/python/python_session.xhp\" name=\"session01\">Obtener información de la sesión</link></variable>"
 
 #. nmTjF
 #: python_session.xhp
