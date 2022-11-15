@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-07-01 17:53+0200\n"
-"PO-Revision-Date: 2022-10-10 19:18+0000\n"
-"Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
+"PO-Revision-Date: 2022-11-15 14:16+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-7-2/textsbasicshared03/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -212,7 +212,7 @@ msgctxt ""
 "par_id851613847558931\n"
 "help.text"
 msgid "%PRODUCTNAME Basic"
-msgstr "%PRODUCTNAME Basic"
+msgstr "%PRODUCTNAME BASIC"
 
 #. jv7Z3
 #: lib_ScriptForge.xhp
@@ -1602,7 +1602,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr "Busque en una matriz de una dimensión un número, una cadena o una fecha. La comparación de texto puede distinguir entre mayúsculas y minúsculas o no.<br/>Si la matriz está ordenada, debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo. Si la matriz está ordenada, debe llenarse de manera homogénea, lo que significa que todos los elementos deben ser escalares del mismo tipo.(<literal>Vacío</literal>y<literal>nulo</literal>artículos están prohibidos).<br/>El resultado del método es impredecible cuando la matriz se anuncia como ordenada y en realidad no lo es.<br/>Se realiza una búsqueda binaria en matrices ordenadas. De lo contrario, las matrices simplemente se escanean de arriba a abajo y <literal>Vacío</literal>y<literal>nulo</literal>los elementos se ignoran.<br/><br/>El método vuelve<literal>Límite L(matriz de entrada)-1</literal>si la búsqueda no tuvo éxito."
+msgstr "Busca un número, una cadena o una fecha en una matriz unidimensional. La comparación del texto puede o no distinguir entre mayúsculas y minúsculas.<br/>Si la matriz está ordenada, debe llenarse de manera homogénea; esto es, todos los elementos deben ser escalares del mismo tipo (los elementos <literal>Empty</literal> y <literal>Null</literal> no están permitidos).<br/>El resultado del método es impredecible si se le pasa una matriz «ordenada» que en realidad no lo está.<br/>Se efectúa una búsqueda binaria en las matrices ordenadas. Si no, simplemente se leen de arriba abajo, ignorando los elementos <literal>Empty</literal> y <literal>Null</literal>.<br/><br/>El método devuelve <literal>LBound(input array) - 1</literal> si la búsqueda no fue exitosa."
 
 #. mg7DA
 #: sf_array.xhp
@@ -2430,7 +2430,7 @@ msgctxt ""
 "par_id861619037838260\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of a valid form document as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> el nombre de un documento de formulario válido, expresado como cadena que distingue mayúsculas y minúsculas."
 
 #. L3csm
 #: sf_base.xhp
@@ -2520,7 +2520,7 @@ msgctxt ""
 "par_id981619098545701\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of a <literal>FormDocument</literal> to be checked, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> el nombre de un <literal>FormDocument</literal> que se debe comprobar, expresado como cadena que distingue entre mayúsculas y minúsculas."
 
 #. RS3kj
 #: sf_base.xhp
@@ -9360,7 +9360,7 @@ msgctxt ""
 "par_id81582888424104\n"
 "help.text"
 msgid "Stores the contents of the dictionary in a two-columns zero-based array. The keys are stored in the first column and the items are stored in the second column."
-msgstr ""
+msgstr "Almacena el contenido del diccionario en una matriz bicolumnar con índice inicial cero. Las claves se almacenan en la primera columna y los elementos, en la segunda."
 
 #. FdwcF
 #: sf_dictionary.xhp
@@ -11997,7 +11997,7 @@ msgctxt ""
 "par_id11584882040881\n"
 "help.text"
 msgid "Deletes one or more files. Returns <literal>True</literal> if at least one file has been deleted or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Elimina uno o más archivos. Devuelve <literal>True</literal> si al menos un archivo se ha eliminado, o bien, <literal>False</literal>, si se ha producido un error."
 
 #. DQEzT
 #: sf_filesystem.xhp
@@ -14103,7 +14103,7 @@ msgctxt ""
 "par_id951616864510585\n"
 "help.text"
 msgid "If the method is called <emph>without any arguments</emph>, then it returns the list of subforms contained in the current form or subform instance."
-msgstr ""
+msgstr "Si el método se llama <emph>sin argumentos</emph>, se devuelve la lista de subformularios contenidos en el formulario u ocurrencia del subformulario actual."
 
 #. AD3Q6
 #: sf_form.xhp
@@ -15777,7 +15777,7 @@ msgctxt ""
 "par_id41623410443946\n"
 "help.text"
 msgid "The <link href=\"text/sbasic/shared/03/lib_ScriptForge.xhp\" name=\"SF_Lib\">ScriptForge library</link> is available both for Basic and Python. Most services, methods and properties work identically in both programming languages. However, due to differences in how each language works, <literal>ScriptForge</literal> users must be aware of some characteristics of the library when using Python:"
-msgstr ""
+msgstr "La <link href=\"text/sbasic/shared/03/lib_ScriptForge.xhp\" name=\"SF_Lib\">biblioteca ScriptForge</link> está disponible tanto para BASIC como para Python. La mayor parte de los servicios, los métodos y las propiedades actúan de idéntica manera en ambos lenguajes de programación. Sin embargo, debido a diferencias de funcionamiento entre ambos, los usuarios de <literal>ScriptForge</literal> deben estar al tanto de ciertas características de la biblioteca cuando se utiliza Python:"
 
 #. HsKzK
 #: sf_intro.xhp
@@ -16452,7 +16452,7 @@ msgctxt ""
 "par_id301614358956087\n"
 "help.text"
 msgid "Several instances of the <literal>L10N</literal> service may coexist. However, each instance must use a separate directory for its PO files."
-msgstr ""
+msgstr "Pueden coexistir varias instancias del servicio <literal>L10N</literal>. Sin embargo, cada ocurrencia debe utilizar un directorio distinto para sus archivos PO."
 
 #. 3YPqe
 #: sf_l10n.xhp
@@ -16569,7 +16569,7 @@ msgctxt ""
 "par_id751585843652642\n"
 "help.text"
 msgid "The folder containing the PO files (see the <link href=\"text/sbasic/shared/03/sf_filesystem.xhp#bm_id901612991354326\" name=\"FileNaming property\"><literal>FileSystem.FileNaming</literal></link> property to learn about the notation used)."
-msgstr ""
+msgstr "La carpeta que contiene los archivos PO (vea la propiedad <link href=\"text/sbasic/shared/03/sf_filesystem.xhp#bm_id901612991354326\" name=\"FileNaming property\"><literal>FileSystem.FileNaming</literal></link> para conocer la notación utilizada)."
 
 #. Zsp7p
 #: sf_l10n.xhp
@@ -16587,7 +16587,7 @@ msgctxt ""
 "par_id331585843652912\n"
 "help.text"
 msgid "A zero-based array listing all the base names (without the \".po\" extension) of the PO-files found in the specified <literal>Folder</literal>."
-msgstr ""
+msgstr "Una matriz indizada a partir de cero que enumera todos los nombres de base (sin la extensión «.po») de los archivos PO que se encuentren en la carpeta especificada en <literal>Folder</literal>."
 
 #. NWxhu
 #: sf_l10n.xhp
@@ -16992,7 +16992,7 @@ msgctxt ""
 "par_id441600788076826\n"
 "help.text"
 msgid "The hardware bit architecture. Example: '<literal>32bit</literal>' or '<literal>64bit</literal>'"
-msgstr "La arquitectura en bits del equipo. Ejemplo: «<literal>32bit</literal>» y «<literal>64bit</literal>»"
+msgstr "La arquitectura de bits del equipo. Ejemplo: «<literal>32bit</literal>» y «<literal>64bit</literal>»"
 
 #. 8EZ8A
 #: sf_platform.xhp
@@ -17208,7 +17208,7 @@ msgctxt ""
 "par_id111614902598396\n"
 "help.text"
 msgid "This property may return the same value as the <literal>Machine</literal> property."
-msgstr ""
+msgstr "Es posible que esta propiedad devuelva el mismo valor que la propiedad <literal>Machine</literal>."
 
 #. 4pnPw
 #: sf_platform.xhp
@@ -20253,7 +20253,7 @@ msgctxt ""
 "par_id471580211762739\n"
 "help.text"
 msgid "Splits a string into an array of elements using a specified delimiter."
-msgstr ""
+msgstr "Divide una cadena en una matriz de elementos utilizando un delimitador especificado."
 
 #. zsADB
 #: sf_string.xhp
@@ -20397,7 +20397,7 @@ msgctxt ""
 "par_id811612393585600\n"
 "help.text"
 msgid "This is useful when parsing CSV-like records that contain quoted strings."
-msgstr ""
+msgstr "Esto es útil cuando se analizan registros tipo CSV que contienen cadenas entrecomilladas."
 
 #. GrBsF
 #: sf_string.xhp
@@ -20442,7 +20442,7 @@ msgctxt ""
 "bas_id461612394182689\n"
 "help.text"
 msgid "' Quotes inside the string are not removed"
-msgstr ""
+msgstr "' Las comillas dentro de la cadena no se eliminan"
 
 #. JGhWK
 #: sf_string.xhp
@@ -20451,7 +20451,7 @@ msgctxt ""
 "par_id871585834468102\n"
 "help.text"
 msgid "Converts the input string into an array of substrings so that each item in the array has at most a given number of characters."
-msgstr ""
+msgstr "Convierte la cadena de entrada en una matriz de subcadenas para que cada elemento de la matriz tenga como máximo un número determinado de caracteres."
 
 #. 4G9FU
 #: sf_string.xhp
@@ -20460,7 +20460,7 @@ msgctxt ""
 "par_id21612394465120\n"
 "help.text"
 msgid "In practice, this method returns a zero-based array of output lines, without newlines at the end, except for the pre-existing line-breaks."
-msgstr ""
+msgstr "En la práctica, este método devuelve una matriz indizada a partir de cero de renglones de salida, sin saltos de renglón al final salvo que estos ya existan en la entrada."
 
 #. qgd6X
 #: sf_string.xhp
@@ -20469,7 +20469,7 @@ msgctxt ""
 "par_id601612395193333\n"
 "help.text"
 msgid "Tabs are expanded using the same procedure performed by the <link href=\"text/sbasic/shared/03/sf_string.xhp#ExpandTabs\" name=\"ExpandTabs method\">ExpandTabs</link> method."
-msgstr ""
+msgstr "Las tabulaciones se expanden utilizando el mismo procedimiento que lleva a cabo el método <link href=\"text/sbasic/shared/03/sf_string.xhp#ExpandTabs\" name=\"ExpandTabs method\">ExpandTabs</link>."
 
 #. kTwEG
 #: sf_string.xhp
@@ -20478,7 +20478,7 @@ msgctxt ""
 "par_id641612394826616\n"
 "help.text"
 msgid "Symbolic line breaks are replaced by their equivalent Ascii characters."
-msgstr ""
+msgstr "Los saltos de renglón simbólicos se sustituyen por sus equivalentes en caracteres ASCII."
 
 #. y7VvP
 #: sf_string.xhp
@@ -20487,7 +20487,7 @@ msgctxt ""
 "par_id361612394859733\n"
 "help.text"
 msgid "If the wrapped output has no content, the returned array is empty."
-msgstr ""
+msgstr "Si la salida ajustada no tiene contenido, la matriz devuelta queda vacía."
 
 #. J73yb
 #: sf_string.xhp
@@ -20541,7 +20541,7 @@ msgctxt ""
 "bm_id351585330787295\n"
 "help.text"
 msgid "<variable id=\"TextStreamService\"><link href=\"text/sbasic/shared/03/sf_textstream.xhp\" name=\"TextStream service\"><literal>ScriptForge</literal>.<literal>TextStream</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"TextStreamService\"><link href=\"text/sbasic/shared/03/sf_textstream.xhp\" name=\"TextStream service\">Servicio <literal>ScriptForge</literal>.<literal>TextStream</literal></link></variable>"
 
 #. nBJsE
 #: sf_textstream.xhp
@@ -20550,7 +20550,7 @@ msgctxt ""
 "par_id511585330787205\n"
 "help.text"
 msgid "The <literal>TextStream</literal> service is used to sequentially read from and write to files opened or created using the <literal>ScriptForge.FileSystem</literal> service."
-msgstr ""
+msgstr "El servicio <literal>TextStream</literal> se utiliza para leer y escribir secuencialmente archivos abiertos mediante el servicio <literal>ScriptForge.FileSystem</literal>."
 
 #. TeRTa
 #: sf_textstream.xhp
@@ -20559,7 +20559,7 @@ msgctxt ""
 "par_id41613596903894\n"
 "help.text"
 msgid "The methods <literal>OpenTextFile</literal> and <literal>CreateTextFile</literal> from the <literal>FileSystem</literal> service return an instance of the <literal>TextStream</literal> service."
-msgstr ""
+msgstr "Los métodos <literal>OpenTextFile</literal> y <literal>CreateTextFile</literal> del servicio <literal>FileSystem</literal> devuelven una ocurrencia del servicio <literal>TextStream</literal>."
 
 #. MVFWC
 #: sf_textstream.xhp
@@ -20631,7 +20631,7 @@ msgctxt ""
 "par_id121612917368946\n"
 "help.text"
 msgid "The methods in the <literal>TextStream</literal> service are mostly based on the <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextInputStream.html\" name=\"XTextInputStream API\"><literal>XTextInputStream</literal></link> and <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextOutputStream.html\" name=\"XTextOutputStream API\"><literal>XTextOutputStream</literal></link> UNO interfaces."
-msgstr ""
+msgstr "Los métodos del servicio <literal>TextStream</literal> se basan principalmente en las interfaces <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextInputStream.html\" name=\"XTextInputStream API\"><literal>XTextInputStream</literal></link> y <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextOutputStream.html\" name=\"XTextOutputStream API\"><literal>XTextOutputStream</literal></link> de UNO."
 
 #. JAmgD
 #: sf_textstream.xhp
@@ -20694,7 +20694,7 @@ msgctxt ""
 "par_id901585330787680\n"
 "help.text"
 msgid "Used in read mode. A <literal>True</literal> value indicates that the end of the file has been reached. A test using this property should precede calls to the <literal>ReadLine</literal> method."
-msgstr ""
+msgstr "Se utiliza en el modo de lectura. Un valor <literal>True</literal> indica que se ha llegado al final del archivo. Una prueba que utilice esta propiedad debe preceder a las llamadas al método <literal>ReadLine</literal>."
 
 #. EFEnA
 #: sf_textstream.xhp
@@ -20784,7 +20784,7 @@ msgctxt ""
 "par_id691585330787279\n"
 "help.text"
 msgid "Sets or returns the current delimiter to be inserted between two successive written lines. The default value is the native line delimiter in the current operating system."
-msgstr ""
+msgstr "Establece o devuelve el delimitador actual que se insertará entre dos renglones escritos sucesivos. El valor predeterminado es el delimitador de renglón nativo del sistema operativo actual."
 
 #. dCeHZ
 #: sf_textstream.xhp
@@ -22035,7 +22035,7 @@ msgctxt ""
 "par_id521620330287071\n"
 "help.text"
 msgid "To access the name of the currently active window, refer to the <literal>ActiveWindow</literal> property."
-msgstr ""
+msgstr "Para acceder al nombre de la ventana actualmente activa, vea la propiedad <literal>ActiveWindow</literal>."
 
 #. CYsyC
 #: sf_ui.xhp
@@ -22080,7 +22080,7 @@ msgctxt ""
 "par_id691596555746539\n"
 "help.text"
 msgid "Open an existing %PRODUCTNAME Base document. The method returns a document object."
-msgstr ""
+msgstr "Abre un documento existente de %PRODUCTNAME Base. El método devuelve un objeto de documento."
 
 #. q2E3C
 #: sf_ui.xhp
@@ -22125,7 +22125,7 @@ msgctxt ""
 "par_id541588523635283\n"
 "help.text"
 msgid "Opens an existing %PRODUCTNAME document with the given options. Returns a document object or one of its subclasses. The method returns <literal>Nothing</literal> (in Basic) / <literal>None</literal> (in Python) if the opening failed, even when the failure is caused by a user decision."
-msgstr ""
+msgstr "Abre un documento existente de %PRODUCTNAME con las opciones especificadas. Devuelve un objeto de documento o una de sus subclases. El método devuelve <literal>Nothing</literal> (en BASIC) o <literal>None</literal> (en Python) si falla la apertura, aun si esta falla es resultado de la decisión del usuario."
 
 #. 8tjbg
 #: sf_ui.xhp
@@ -22134,7 +22134,7 @@ msgctxt ""
 "par_id481588523635890\n"
 "help.text"
 msgid "<emph>filename</emph>: Identifies the file to open. It must follow the <literal>FileNaming</literal> notation of the <literal>FileSystem</literal> service."
-msgstr ""
+msgstr "<emph>filename</emph>: identifica el archivo que se debe abrir. Debe seguir la notación de <literal>FileNaming</literal> del servicio <literal>FileSystem</literal>."
 
 #. PWvQz
 #: sf_ui.xhp
@@ -22152,7 +22152,7 @@ msgctxt ""
 "par_id611588524329781\n"
 "help.text"
 msgid "<emph>readonly</emph>: Default = <literal>False</literal>."
-msgstr ""
+msgstr "<emph>readonly</emph>: el valor predeterminado es <literal>False</literal>."
 
 #. BcyEp
 #: sf_ui.xhp
@@ -22179,7 +22179,7 @@ msgctxt ""
 "par_id611588524584693\n"
 "help.text"
 msgid "<emph>filtername</emph>: The name of a filter that should be used for loading the document. If present, the filter must exist."
-msgstr ""
+msgstr "<emph>filtername</emph>: el nombre del filtro que debe utilizarse para cargar el documento. Si está presente, el filtro debe existir."
 
 #. MKueU
 #: sf_ui.xhp
@@ -22188,7 +22188,7 @@ msgctxt ""
 "par_id191588524634348\n"
 "help.text"
 msgid "<emph>filteroptions</emph>: An optional string of options associated with the filter."
-msgstr ""
+msgstr "<emph>filteroptions</emph>: una cadena facultativa de opciones relacionadas al filtro."
 
 #. qMTrj
 #: sf_ui.xhp
@@ -22215,7 +22215,7 @@ msgctxt ""
 "par_id601587987453825\n"
 "help.text"
 msgid "<emph>width, height</emph>: New dimensions of the window, in pixels."
-msgstr ""
+msgstr "<emph>width, height</emph>: dimensiones nuevas para la ventana, en píxeles."
 
 #. vDNVH
 #: sf_ui.xhp
