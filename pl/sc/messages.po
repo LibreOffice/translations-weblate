@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-11-14 14:36+0100\n"
-"PO-Revision-Date: 2022-11-25 12:34+0000\n"
+"PO-Revision-Date: 2022-11-29 18:26+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/pl/>\n"
 "Language: pl\n"
@@ -849,7 +849,7 @@ msgstr "- przenieś na końcową pozycję -"
 #: sc/inc/globstr.hrc:148
 msgctxt "STR_NO_REF_TABLE"
 msgid "#REF!"
-msgstr "#REF!"
+msgstr "#ADR!"
 
 #. UCTdV
 #: sc/inc/globstr.hrc:149
@@ -1283,7 +1283,7 @@ msgstr "Błąd: wartość niedostępna"
 #: sc/inc/globstr.hrc:229
 msgctxt "STR_NO_ADDIN"
 msgid "#ADDIN?"
-msgstr "#ADDIN?"
+msgstr "#DODATEK?"
 
 #. tv5E2
 #: sc/inc/globstr.hrc:230
@@ -2412,7 +2412,7 @@ msgstr "Zagnieżdżone macierze nie są obsługiwane."
 #: sc/inc/globstr.hrc:412
 msgctxt "STR_ERR_LONG_BAD_ARRAY_CONTENT"
 msgid "Unsupported inline array content."
-msgstr "Nieobsługiwana zawartość linii w zakresie."
+msgstr "Nieobsługiwana zawartość macierzy wewnętrznej."
 
 #. n5PAG
 #: sc/inc/globstr.hrc:413
@@ -6055,7 +6055,7 @@ msgstr "Wartość do testowania."
 #: sc/inc/scfuncs.hrc:733
 msgctxt "SC_OPCODE_IS_ERR"
 msgid "Returns TRUE if the value is an error value not equal to #N/A."
-msgstr "Zwraca wartość PRAWDA, jeśli wartość błędu jest różna od #NIE DOTYCZY."
+msgstr "Zwraca wartość PRAWDA, jeśli wartość błędu jest różna od #N/D."
 
 #. 6Gdng
 #: sc/inc/scfuncs.hrc:734
@@ -6127,7 +6127,7 @@ msgstr "Wartość do testowania."
 #: sc/inc/scfuncs.hrc:765
 msgctxt "SC_OPCODE_IS_NV"
 msgid "Returns TRUE if value equals #N/A."
-msgstr "Zwraca wartość PRAWDA, jeśli wartością błędu jest #NIE DOTYCZY."
+msgstr "Zwraca wartość PRAWDA, jeśli wartością błędu jest #N/D."
 
 #. A2CUm
 #: sc/inc/scfuncs.hrc:766
@@ -6253,7 +6253,7 @@ msgstr "Wartość, która ma być interpretowana jako liczba."
 #: sc/inc/scfuncs.hrc:821
 msgctxt "SC_OPCODE_NO_VALUE"
 msgid "Not available. Returns the error value #N/A."
-msgstr "Niedostępne. Zwraca wartość błędu #NIE DOTYCZY."
+msgstr "Niedostępne. Zwraca wartość błędu #N/D."
 
 #. Q7UfD
 #: sc/inc/scfuncs.hrc:827
@@ -14367,7 +14367,7 @@ msgstr "Adres komórki, w której wystąpił błąd."
 #: sc/inc/scfuncs.hrc:3455
 msgctxt "SC_OPCODE_ERROR_TYPE_ODF"
 msgid "Returns a number corresponding to one of the error values or #N/A if no error exists"
-msgstr "Zwraca numer odpowiadający jednemu z błędów wartości lub #N/D jeśli błąd nie istnieje"
+msgstr "Zwraca numer odpowiadający jednemu z błędów wartości lub #N/D, jeśli błąd nie istnieje"
 
 #. jWN8r
 #: sc/inc/scfuncs.hrc:3456
@@ -22193,7 +22193,7 @@ msgstr "_Tekst"
 #: sc/uiconfig/scalc/ui/deletecontents.ui:128
 msgctxt "deletecontents|extended_tip|text"
 msgid "Deletes text only. Formats, formulas, numbers and dates are not affected."
-msgstr "Usuwa tylko ciągi znaków. Formatowanie, formuły, liczby i daty nie zostaną usunięte."
+msgstr "Usuwa tylko tekst. Formatowanie, formuły, liczby i daty nie zostaną usunięte."
 
 #. pNGEC
 #: sc/uiconfig/scalc/ui/deletecontents.ui:139
@@ -23189,7 +23189,7 @@ msgstr "Użyj składni formuły"
 #: sc/uiconfig/scalc/ui/formulacalculationoptions.ui:155
 msgctxt "formulacalculationoptions|comboConversion"
 msgid "Generate #VALUE! error"
-msgstr "Generuj błąd #VALUE!"
+msgstr "Generuj błąd #ARG!"
 
 #. evLpG
 #: sc/uiconfig/scalc/ui/formulacalculationoptions.ui:156
@@ -25634,7 +25634,7 @@ msgstr "R_ysowanie"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:10246
 msgctxt "notebookbar_groupedbar_compact|ArrangeButton"
 msgid "_Arrange"
-msgstr "Rozmieść"
+msgstr "R_ozmieść"
 
 #. 8pLR3
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:6529
@@ -25885,7 +25885,7 @@ msgstr "Ob_raz"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:6002
 msgctxt "notebookbar_groupedbar_full|arrange"
 msgid "_Arrange"
-msgstr "Rozmieść"
+msgstr "R_ozmieść"
 
 #. DDTxx
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:6150
@@ -25945,7 +25945,7 @@ msgstr "_Edycja"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:8471
 msgctxt "notebookbar_groupedbar_full|arrangedrawb"
 msgid "_Arrange"
-msgstr "Rozmieść"
+msgstr "R_ozmieść"
 
 #. 9Z4JQ
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:8634
@@ -26005,7 +26005,7 @@ msgstr "R_amka"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:10666
 msgctxt "notebookbar_groupedbar_full|arrageOLE"
 msgid "_Arrange"
-msgstr "Rozmieść"
+msgstr "R_ozmieść"
 
 #. DF4U7
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:10828
