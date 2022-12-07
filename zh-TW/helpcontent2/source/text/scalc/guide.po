@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-11-22 14:43+0100\n"
+"POT-Creation-Date: 2022-12-07 13:12+0100\n"
 "PO-Revision-Date: 2019-08-09 08:00+0000\n"
 "Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,22 +70,31 @@ msgctxt ""
 msgid "In the example spreadsheet, you can use the string <item type=\"literal\">'Column One'</item> in a formula to refer to the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">B5</item>, or <item type=\"literal\">'Column Two'</item> for the cell range <item type=\"literal\">C2</item> to <item type=\"literal\">C5</item>. You can also use <item type=\"literal\">'Row One'</item> for the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">D3</item>, or <item type=\"literal\">'Row Two'</item> for the cell range <item type=\"literal\">B4</item> to <item type=\"literal\">D4</item>. The result of a formula that uses a cell name, for example, <item type=\"literal\">SUM('Column One')</item>, is 600."
 msgstr "在範例試算表中，您可以在公式中使用字串 <item type=\"literal\">'Column One'</item> 以表示儲存格範圍 <item type=\"literal\">B3</item> 至 <item type=\"literal\">B5</item> 或 <item type=\"literal\">'Column Two'</item> 以表示儲存格範圍 <item type=\"literal\">C2</item> 至 <item type=\"literal\">C5</item>。您也可以使用 <item type=\"literal\">'Row One'</item> 表示儲存格範圍 <item type=\"literal\">B3</item> 至 <item type=\"literal\">D3</item> 或 <item type=\"literal\">'Row Two'</item> 表示儲存格範圍 <item type=\"literal\">B4</item> 至 <item type=\"literal\">D4</item>。使用儲存格名稱的公式結果，例如 <item type=\"literal\">SUM('Column One')</item> 為 600。"
 
-#. VBpuo
+#. xYcEr
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3155443\n"
 "help.text"
-msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
-msgstr "此功能預設會加以啟動。若要將此功能關閉，請選擇 <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">[%PRODUCTNAME] - [喜好設定]</caseinline><defaultinline>[工具] - [選項]</defaultinline></switchinline> - [%PRODUCTNAME Calc] - [計算]</emph>，並清除 <emph>[自動尋找欄和列標籤]</emph> 核取方塊。"
+msgid "Automatically finding labels is a legacy feature and deactivated by default as it can produce nondeterministic behavior depending on actual document content. To turn this function on, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and mark the <emph>Automatically find column and row labels</emph> check box."
+msgstr ""
 
-#. ADRpB
+#. Q9Nee
+#: address_auto.xhp
+msgctxt ""
+"address_auto.xhp\n"
+"par_id3155444\n"
+"help.text"
+msgid "Using defined labels instead is always possible and behaves similar but in a defined way."
+msgstr ""
+
+#. ZuesG
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3149210\n"
 "help.text"
-msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
+msgid "If you enter a label name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must double it, for example, <item type=\"literal\">'Harry''s Bar'</item>."
 msgstr ""
 
 #. EXFye
@@ -13956,6 +13965,13 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "也就是說，如果您輸入日期 30/1/1 或是更高，則系統內部會設定為 1930/1/1 或更高。所有較小的年份適用於下一個世紀，因此，例如 20/1/1 會轉換成 2020/1/1 。"
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3155443\n"
+#~ "help.text"
+#~ msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
+#~ msgstr "此功能預設會加以啟動。若要將此功能關閉，請選擇 <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">[%PRODUCTNAME] - [喜好設定]</caseinline><defaultinline>[工具] - [選項]</defaultinline></switchinline> - [%PRODUCTNAME Calc] - [計算]</emph>，並清除 <emph>[自動尋找欄和列標籤]</emph> 核取方塊。"
 
 #~ msgctxt ""
 #~ "formula_enter.xhp\n"

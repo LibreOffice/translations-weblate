@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-11-22 14:43+0100\n"
+"POT-Creation-Date: 2022-12-07 13:12+0100\n"
 "PO-Revision-Date: 2018-11-14 12:09+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: milkyswd@gmail.com\n"
@@ -71,22 +71,31 @@ msgctxt ""
 msgid "In the example spreadsheet, you can use the string <item type=\"literal\">'Column One'</item> in a formula to refer to the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">B5</item>, or <item type=\"literal\">'Column Two'</item> for the cell range <item type=\"literal\">C2</item> to <item type=\"literal\">C5</item>. You can also use <item type=\"literal\">'Row One'</item> for the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">D3</item>, or <item type=\"literal\">'Row Two'</item> for the cell range <item type=\"literal\">B4</item> to <item type=\"literal\">D4</item>. The result of a formula that uses a cell name, for example, <item type=\"literal\">SUM('Column One')</item>, is 600."
 msgstr "Lawishshu ispiriidshitte giddo, naanni-fikiima horons'ira dandaatto <item type=\"literal\">'Caccafo mitto'</item> afi'rimalu giddo bisiccu hakkigeeshshora maqishate <item type=\"literal\">B3</item> to <item type=\"literal\">B5</item>, woy <item type=\"literal\">'Caccafo lame'</item> bisiccu hakkigeeshshora <item type=\"literal\">C2</item> to <item type=\"literal\">C5</item>. Bisiccu hakkigeeshshorano <item type=\"literal\">'Haawiittimma Mitto'</item> horons'ira dandaatto <item type=\"literal\">B3</item> to <item type=\"literal\">D3</item>, woy <item type=\"literal\">'Haawiittimma Lame'</item> Bisiccu hakkigeeshshora <item type=\"literal\">B4</item> nni <item type=\"literal\">D4</item> wido. Bisiccu su'mira hasiisanno afi'rimalu gumi, lawishshaho <item type=\"literal\">SUM('Caccafo Mitto')</item>, 600 ikkanno."
 
-#. VBpuo
+#. xYcEr
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3155443\n"
 "help.text"
-msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
-msgstr "Kuni assishshi gadetenni baqqisamino. Konne assishsha ba'anno gede assate, <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Dooro</caseinline><defaultinline>Udiinne - Doogga</defaultinline></switchinline> - %PRODUCTNAME Calc - Shallaggi</emph> doorte <emph>Caccafunna haawiittimmate somo umikkinni hasi</emph> buuxu saaxine huni."
+msgid "Automatically finding labels is a legacy feature and deactivated by default as it can produce nondeterministic behavior depending on actual document content. To turn this function on, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and mark the <emph>Automatically find column and row labels</emph> check box."
+msgstr ""
 
-#. ADRpB
+#. Q9Nee
+#: address_auto.xhp
+msgctxt ""
+"address_auto.xhp\n"
+"par_id3155444\n"
+"help.text"
+msgid "Using defined labels instead is always possible and behaves similar but in a defined way."
+msgstr ""
+
+#. ZuesG
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3149210\n"
 "help.text"
-msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
+msgid "If you enter a label name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must double it, for example, <item type=\"literal\">'Harry''s Bar'</item>."
 msgstr ""
 
 #. EXFye
@@ -13957,6 +13966,13 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "Kunino yaa 1/1/30 woy kunnii ale eessittoro, giddoonni 1/1/1930 woy kunnii ale ikke afamanno. Baalantti woriidi lame-dijiite dirubba 20xx sencherera loosansantanno. Lawishshaho, 1/1/20 1/1/2020 wido woleessantanno."
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3155443\n"
+#~ "help.text"
+#~ msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
+#~ msgstr "Kuni assishshi gadetenni baqqisamino. Konne assishsha ba'anno gede assate, <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Dooro</caseinline><defaultinline>Udiinne - Doogga</defaultinline></switchinline> - %PRODUCTNAME Calc - Shallaggi</emph> doorte <emph>Caccafunna haawiittimmate somo umikkinni hasi</emph> buuxu saaxine huni."
 
 #~ msgctxt ""
 #~ "formula_enter.xhp\n"

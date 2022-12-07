@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-11-22 14:43+0100\n"
+"POT-Creation-Date: 2022-12-07 13:12+0100\n"
 "PO-Revision-Date: 2021-01-27 17:36+0000\n"
 "Last-Translator: Valentina Dagiene <valentina.dagiene@mif.vu.lt>\n"
 "Language-Team: Lithuanian <https://translations.documentfoundation.org/projects/libo_help-master/textscalcguide/lt/>\n"
@@ -70,23 +70,32 @@ msgctxt ""
 msgid "In the example spreadsheet, you can use the string <item type=\"literal\">'Column One'</item> in a formula to refer to the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">B5</item>, or <item type=\"literal\">'Column Two'</item> for the cell range <item type=\"literal\">C2</item> to <item type=\"literal\">C5</item>. You can also use <item type=\"literal\">'Row One'</item> for the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">D3</item>, or <item type=\"literal\">'Row Two'</item> for the cell range <item type=\"literal\">B4</item> to <item type=\"literal\">D4</item>. The result of a formula that uses a cell name, for example, <item type=\"literal\">SUM('Column One')</item>, is 600."
 msgstr "Paveikslėlyje parodytas pavyzdys, kuriame skaičiuoklės lentelės stulpelio antraštė <item type=\"literal\">„Pirmas stulpelis“</item> formulėje suprantama kaip langelių blokas nuo <item type=\"literal\">B3</item> iki <item type=\"literal\">B5</item>, arba stulpelio antraštė <item type=\"literal\">„Antras stulpelis“</item> formulėje suprantam, kaip langelių blokas nuo <item type=\"literal\">C2</item> iki <item type=\"literal\">C5</item>. Taip pat galite naudoti eilutės antraštę <item type=\"literal\">„Pirma eilutė“</item>, jei norite apibrėžti langelių bloką nuo <item type=\"literal\">B3</item> iki <item type=\"literal\">D3</item>, arba eilutės antraštę <item type=\"literal\">„Antra eilutė“</item>, jei norite apibrėžti langelių bloką nuo <item type=\"literal\">B4</item> iki <item type=\"literal\">D4</item>. Pavyzdyje formulės <item type=\"literal\">SUM('Pirmas stulpelis')</item> rezultatas yra 600."
 
-#. VBpuo
+#. xYcEr
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3155443\n"
 "help.text"
-msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
-msgstr "Numatyta, kad ši funkcija yra aktyvi. Jei norite išjungti funkciją, pasirinkite <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Priemonės → Parinktys</emph></defaultinline></switchinline><emph> → „%PRODUCTNAME“ skaičiuoklė → Skaičiavimai</emph> ir atšaukite žymimojo langelio <emph>Automatiškai aptikti stulpelių ir eilučių antraštes</emph> pažymėjimą."
+msgid "Automatically finding labels is a legacy feature and deactivated by default as it can produce nondeterministic behavior depending on actual document content. To turn this function on, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and mark the <emph>Automatically find column and row labels</emph> check box."
+msgstr ""
 
-#. ADRpB
+#. Q9Nee
+#: address_auto.xhp
+msgctxt ""
+"address_auto.xhp\n"
+"par_id3155444\n"
+"help.text"
+msgid "Using defined labels instead is always possible and behaves similar but in a defined way."
+msgstr ""
+
+#. ZuesG
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3149210\n"
 "help.text"
-msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
-msgstr "Jei norite, kad skaičiuoklė atpažintų pavadinimą, jis turi būti sudarytas iš raidžių. Formulėje pavadinimą išskirkite apostrofais (') iš abiejų pusių. Jei pavadinime jau yra apostrofas, prieš jį parašykite kairinį pasvirą brūkšnį. Pavyzdžiui, <item type=\"literal\">'Harry\\'s Bar'</item>."
+msgid "If you enter a label name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must double it, for example, <item type=\"literal\">'Harry''s Bar'</item>."
+msgstr ""
 
 #. EXFye
 #: auto_off.xhp
@@ -13956,6 +13965,20 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "Tai reiškia, kad jei įvesite datą 1/1/30 ar vėlesnę, ji bus rodoma kaip 1/1/1930 ar vėlesnė. Visi mažesni skaičiai pritaikomi dvidešimto amžiaus skaičiams. Pavyzdžiui, jei įvesite datą 1/1/20, ji bus pakeista į 1/1/2020."
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3155443\n"
+#~ "help.text"
+#~ msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
+#~ msgstr "Numatyta, kad ši funkcija yra aktyvi. Jei norite išjungti funkciją, pasirinkite <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Priemonės → Parinktys</emph></defaultinline></switchinline><emph> → „%PRODUCTNAME“ skaičiuoklė → Skaičiavimai</emph> ir atšaukite žymimojo langelio <emph>Automatiškai aptikti stulpelių ir eilučių antraštes</emph> pažymėjimą."
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3149210\n"
+#~ "help.text"
+#~ msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
+#~ msgstr "Jei norite, kad skaičiuoklė atpažintų pavadinimą, jis turi būti sudarytas iš raidžių. Formulėje pavadinimą išskirkite apostrofais (') iš abiejų pusių. Jei pavadinime jau yra apostrofas, prieš jį parašykite kairinį pasvirą brūkšnį. Pavyzdžiui, <item type=\"literal\">'Harry\\'s Bar'</item>."
 
 #~ msgctxt ""
 #~ "formula_enter.xhp\n"

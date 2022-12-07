@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-11-22 14:43+0100\n"
+"POT-Creation-Date: 2022-12-07 13:12+0100\n"
 "PO-Revision-Date: 2020-04-16 16:16+0000\n"
 "Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
 "Language-Team: Amharic <https://weblate.documentfoundation.org/projects/libo_help-master/textscalcguide/am/>\n"
@@ -70,23 +70,32 @@ msgctxt ""
 msgid "In the example spreadsheet, you can use the string <item type=\"literal\">'Column One'</item> in a formula to refer to the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">B5</item>, or <item type=\"literal\">'Column Two'</item> for the cell range <item type=\"literal\">C2</item> to <item type=\"literal\">C5</item>. You can also use <item type=\"literal\">'Row One'</item> for the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">D3</item>, or <item type=\"literal\">'Row Two'</item> for the cell range <item type=\"literal\">B4</item> to <item type=\"literal\">D4</item>. The result of a formula that uses a cell name, for example, <item type=\"literal\">SUM('Column One')</item>, is 600."
 msgstr "ለምሳሌ በ ሰንጠረዥ ውስጥ ሀረግ መጠቀም ይችላሉ <item type=\"literal\">'አምድ አንድ'</item> በ መቀመሪያ የ ክፍል መጠን እንዲያመሳክር <item type=\"literal\">B3</item> ወደ <item type=\"literal\">B5</item> ወይንም <item type=\"literal\">'አምድ ሁለት'</item> ለ ክፍል መጠን <item type=\"literal\">C2</item> ወደ <item type=\"literal\">C5</item> እንዲሁም ይችላሉ <item type=\"literal\">'ረድፍ አንድ'</item> ለ ክፍል መጠን <item type=\"literal\">B3</item> ወደ <item type=\"literal\">D3</item> ወይንም <item type=\"literal\">'ረድፍ ሁለት'</item> ለ ክፍል መጠን <item type=\"literal\">B4</item> ለ <item type=\"literal\">D4</item>. የ መቀመሪያ ውጤት የ ክፍሉን ስም የሚጠቀመው ለምሳሌ <item type=\"literal\">ድምር('አምድ አንድ')</item>, 600 ነው"
 
-#. VBpuo
+#. xYcEr
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3155443\n"
 "help.text"
-msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
-msgstr "ይህ ተግባር በ ነባር ንቁ ነው: ተግባሩን ለማጥፋት ይምረጡ <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - ምርጫዎች </emph></caseinline><defaultinline><emph> መሳሪያዎች - ምርጫዎች </emph></defaultinline></switchinline><emph> - %PRODUCTNAME ሰንጠረዥ - ማስሊያ </emph> እና ያጽዱ <emph> ራሱ በራሱ አምድ እና ረድፍ ምልክቶች መፈለጊያ </emph> ከ ሳጥኑ ውስጥ ያጥፉ"
+msgid "Automatically finding labels is a legacy feature and deactivated by default as it can produce nondeterministic behavior depending on actual document content. To turn this function on, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and mark the <emph>Automatically find column and row labels</emph> check box."
+msgstr ""
 
-#. ADRpB
+#. Q9Nee
+#: address_auto.xhp
+msgctxt ""
+"address_auto.xhp\n"
+"par_id3155444\n"
+"help.text"
+msgid "Using defined labels instead is always possible and behaves similar but in a defined way."
+msgstr ""
+
+#. ZuesG
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3149210\n"
 "help.text"
-msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
-msgstr "እርስዎ ስም ራሱ በራሱ እንዲለይ ከ ፈለጉ በ ሰንጠረዥ ውስጥ: ስሙ በ ፊደል መጀመር አለበት እና የ ፊደል እና ቁጥር ባህሪዎች መያዝ አለበት: እርስዎ ስም ካስገቡ በ መቀመሪያ ውስጥ: ስሙን በ ነጠላ ጥቅስ ምልክት ውስጥ መሆን ('). ነጠላ ጥቅስ ምልክት ከ ስሙ ጋር ከቀረበ: እርስዎ ማስገባት አለብዎት ወደ ኋላ ስላሽ ከ ጥቅስ ምልክቱ ፊት ለ ፊት: ለምሳሌ <item type=\"literal\">'Harry\\'s Bar'.</item>"
+msgid "If you enter a label name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must double it, for example, <item type=\"literal\">'Harry''s Bar'</item>."
+msgstr ""
 
 #. EXFye
 #: auto_off.xhp
@@ -13956,6 +13965,20 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "ይህ ማለት እርስዎ ቀን ያስገቡ በ 1/1/30 ወይንም ከፍተኛ: ሁሉም በ ውስጥ ይወሰዳል እንደ 1/1/1930 ወይንም ከፍተኛ: ሁሉም ዝቅተኛ ሁለት-አሀዝ አመቶች ይፈጸማል በ 20xx አመተ ምህረት: ስለዚህ ለምሳሌ: 1/1/20 ይቀየራል ወደ 1/1/2020."
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3155443\n"
+#~ "help.text"
+#~ msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
+#~ msgstr "ይህ ተግባር በ ነባር ንቁ ነው: ተግባሩን ለማጥፋት ይምረጡ <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - ምርጫዎች </emph></caseinline><defaultinline><emph> መሳሪያዎች - ምርጫዎች </emph></defaultinline></switchinline><emph> - %PRODUCTNAME ሰንጠረዥ - ማስሊያ </emph> እና ያጽዱ <emph> ራሱ በራሱ አምድ እና ረድፍ ምልክቶች መፈለጊያ </emph> ከ ሳጥኑ ውስጥ ያጥፉ"
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3149210\n"
+#~ "help.text"
+#~ msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
+#~ msgstr "እርስዎ ስም ራሱ በራሱ እንዲለይ ከ ፈለጉ በ ሰንጠረዥ ውስጥ: ስሙ በ ፊደል መጀመር አለበት እና የ ፊደል እና ቁጥር ባህሪዎች መያዝ አለበት: እርስዎ ስም ካስገቡ በ መቀመሪያ ውስጥ: ስሙን በ ነጠላ ጥቅስ ምልክት ውስጥ መሆን ('). ነጠላ ጥቅስ ምልክት ከ ስሙ ጋር ከቀረበ: እርስዎ ማስገባት አለብዎት ወደ ኋላ ስላሽ ከ ጥቅስ ምልክቱ ፊት ለ ፊት: ለምሳሌ <item type=\"literal\">'Harry\\'s Bar'.</item>"
 
 #~ msgctxt ""
 #~ "formula_enter.xhp\n"

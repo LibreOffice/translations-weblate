@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-11-22 14:43+0100\n"
+"POT-Creation-Date: 2022-12-07 13:12+0100\n"
 "PO-Revision-Date: 2021-01-12 10:36+0000\n"
 "Last-Translator: Joan Montané <joan@montane.cat>\n"
 "Language-Team: Catalan <https://translations.documentfoundation.org/projects/libo_help-master/textscalcguide/ca_VALENCIA/>\n"
@@ -71,23 +71,32 @@ msgctxt ""
 msgid "In the example spreadsheet, you can use the string <item type=\"literal\">'Column One'</item> in a formula to refer to the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">B5</item>, or <item type=\"literal\">'Column Two'</item> for the cell range <item type=\"literal\">C2</item> to <item type=\"literal\">C5</item>. You can also use <item type=\"literal\">'Row One'</item> for the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">D3</item>, or <item type=\"literal\">'Row Two'</item> for the cell range <item type=\"literal\">B4</item> to <item type=\"literal\">D4</item>. The result of a formula that uses a cell name, for example, <item type=\"literal\">SUM('Column One')</item>, is 600."
 msgstr "Al full de càlcul d'exemple, podeu utilitzar la cadena <item type=\"literal\">'Columna 1'</item> en una fórmula per referir-vos a l'interval de cel·les de <item type=\"literal\">B3</item> a <item type=\"literal\">B5</item>, o bé <item type=\"literal\">'Columna 2'</item> per a l'interval de cel·les de <item type=\"literal\">C2</item> a <item type=\"literal\">C5</item>. També podeu utilitzar <item type=\"literal\">'Fila 1'</item> per a l'interval de cel·les de <item type=\"literal\">B3</item> a <item type=\"literal\">D3</item>, o bé <item type=\"literal\">'Fila 2'</item> per a l'interval de cel·les de <item type=\"literal\">B4</item> a <item type=\"literal\">D4</item>. El resultat d'una fórmula que utilitze un nom d'una cel·la, per exemple, <item type=\"literal\">SUMA('Columna 1')</item>, serà 600."
 
-#. VBpuo
+#. xYcEr
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3155443\n"
 "help.text"
-msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
-msgstr "Esta funció està activada per defecte. Per desactivar-la, trieu <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferències</emph></caseinline><defaultinline><emph>Eines ▸ Opcions</emph></defaultinline></switchinline><emph> ▸ %PRODUCTNAME Calc ▸ Càlcul</emph> i desactiveu la casella de selecció <emph>Busca automàticament les etiquetes de columna i fila</emph>."
+msgid "Automatically finding labels is a legacy feature and deactivated by default as it can produce nondeterministic behavior depending on actual document content. To turn this function on, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and mark the <emph>Automatically find column and row labels</emph> check box."
+msgstr ""
 
-#. ADRpB
+#. Q9Nee
+#: address_auto.xhp
+msgctxt ""
+"address_auto.xhp\n"
+"par_id3155444\n"
+"help.text"
+msgid "Using defined labels instead is always possible and behaves similar but in a defined way."
+msgstr ""
+
+#. ZuesG
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3149210\n"
 "help.text"
-msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
-msgstr "Perquè el Calc reconegui un nom automàticament, aquest nom haurà de començar amb una lletra i haurà d'estar format per caràcters alfanumèrics. Si l'introduïu manualment a la fórmula, l'haureu d'escriure entre cometes simples ('). Noteu que si el nom conté una cometa simple, haureu d'introduir una barra inversa davant d'aquesta cometa, per exemple, <item type=\"literal\">'Despeses d\\'enviament</item>."
+msgid "If you enter a label name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must double it, for example, <item type=\"literal\">'Harry''s Bar'</item>."
+msgstr ""
 
 #. EXFye
 #: auto_off.xhp
@@ -13957,6 +13966,20 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "Això significa que si introduïu la data 1/1/30 o superior, internament es tractarà com a 1/1/1930 o superior, mentre que tots els anys de dos dígits inferiors pertanyeran al segle 20xx. Així, per exemple, 1/1/20 es convertirà a 1/1/2020."
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3155443\n"
+#~ "help.text"
+#~ msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
+#~ msgstr "Esta funció està activada per defecte. Per desactivar-la, trieu <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferències</emph></caseinline><defaultinline><emph>Eines ▸ Opcions</emph></defaultinline></switchinline><emph> ▸ %PRODUCTNAME Calc ▸ Càlcul</emph> i desactiveu la casella de selecció <emph>Busca automàticament les etiquetes de columna i fila</emph>."
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3149210\n"
+#~ "help.text"
+#~ msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
+#~ msgstr "Perquè el Calc reconegui un nom automàticament, aquest nom haurà de començar amb una lletra i haurà d'estar format per caràcters alfanumèrics. Si l'introduïu manualment a la fórmula, l'haureu d'escriure entre cometes simples ('). Noteu que si el nom conté una cometa simple, haureu d'introduir una barra inversa davant d'aquesta cometa, per exemple, <item type=\"literal\">'Despeses d\\'enviament</item>."
 
 #~ msgctxt ""
 #~ "formula_enter.xhp\n"

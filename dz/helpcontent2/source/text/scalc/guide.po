@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-11-22 14:43+0100\n"
+"POT-Creation-Date: 2022-12-07 13:12+0100\n"
 "PO-Revision-Date: 2018-11-14 11:55+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,22 +70,31 @@ msgctxt ""
 msgid "In the example spreadsheet, you can use the string <item type=\"literal\">'Column One'</item> in a formula to refer to the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">B5</item>, or <item type=\"literal\">'Column Two'</item> for the cell range <item type=\"literal\">C2</item> to <item type=\"literal\">C5</item>. You can also use <item type=\"literal\">'Row One'</item> for the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">D3</item>, or <item type=\"literal\">'Row Two'</item> for the cell range <item type=\"literal\">B4</item> to <item type=\"literal\">D4</item>. The result of a formula that uses a cell name, for example, <item type=\"literal\">SUM('Column One')</item>, is 600."
 msgstr "དཔེའི་ཤོག་ཁྲམ་ནང་ ཁྱོད་ཀྱིས་ ནང་ཐིག་ཁྱབ་ཚད་<item type=\"literal\">བི་༣</item> ལས་ <item type=\"literal\">བི་༥</item>ལུ་གཞི་བསྟུན་འབད་ནིའི་དོན་ལས་ མན་ངག་ནང་ ཡིག་རྒྱུན་ <item type=\"literal\">ཀེར་ཐིག་དང་པ་'</item>འདི་ ལག་ལེན་འཐབ་བཏུབ་ ཡང་ན་ ནང་ཐིག་ཁྱབ་ཚད་  <item type=\"literal\">སི་༢</item> ལས་ <item type=\"literal\">སི་༥</item> གི་དོན་ལུ་  <item type=\"literal\">'ཀེར་ཐིག་གཉིས་པ་'</item> འདི་ ལག་ལེན་འཐབ་བཏུབ། དེ་མ་ཚད་ཁྱོད་ཀྱིས་ ནང་ཐིག་ཁྱབ་ཚད་ <item type=\"literal\">བི་༣</item> ལས་ <item type=\"literal\">ཌི་༣</item> གི་དོན་ལུ་  <item type=\"literal\">'གྲལ་ཐིག་དང་པ་'</item> འདི་ལག་ལེན་འཐབ་བཏུབ་ ཡང་ན་ ནང་ཐིག་ཁྱབ་ཚད་ <item type=\"literal\">བི་༤</item> to <item type=\"literal\">ཌི་༤</item> གི་དོན་ལུ་  <item type=\"literal\">'གྲལ་ཐིག་གཉིས་པ་'</item> འདི་ལག་ལེན་འཐབ་བཏུབ།  ནང་ཐིག་མིང་ལག་ལེན་འཐབ་ཨིན་པའི་མན་ངག་ཅིག་གི་གྲུབ་འབྲས་འདི་ ༦༠༠ ཨིན། དཔེར་ན་  <item type=\"literal\">དངུལ་བསྡོམས་('ཀེར་ཐིག་དང་པ་')</item> བཟུམ།"
 
-#. VBpuo
+#. xYcEr
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3155443\n"
 "help.text"
-msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
+msgid "Automatically finding labels is a legacy feature and deactivated by default as it can produce nondeterministic behavior depending on actual document content. To turn this function on, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and mark the <emph>Automatically find column and row labels</emph> check box."
 msgstr ""
 
-#. ADRpB
+#. Q9Nee
+#: address_auto.xhp
+msgctxt ""
+"address_auto.xhp\n"
+"par_id3155444\n"
+"help.text"
+msgid "Using defined labels instead is always possible and behaves similar but in a defined way."
+msgstr ""
+
+#. ZuesG
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3149210\n"
 "help.text"
-msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
+msgid "If you enter a label name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must double it, for example, <item type=\"literal\">'Harry''s Bar'</item>."
 msgstr ""
 
 #. EXFye

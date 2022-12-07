@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-11-22 14:43+0100\n"
+"POT-Creation-Date: 2022-12-07 13:12+0100\n"
 "PO-Revision-Date: 2022-12-07 12:18+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://translations.documentfoundation.org/projects/libo_help-master/textscalcguide/fi/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1542196743.000000\n"
 
 #. NXy6S
@@ -70,22 +70,31 @@ msgctxt ""
 msgid "In the example spreadsheet, you can use the string <item type=\"literal\">'Column One'</item> in a formula to refer to the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">B5</item>, or <item type=\"literal\">'Column Two'</item> for the cell range <item type=\"literal\">C2</item> to <item type=\"literal\">C5</item>. You can also use <item type=\"literal\">'Row One'</item> for the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">D3</item>, or <item type=\"literal\">'Row Two'</item> for the cell range <item type=\"literal\">B4</item> to <item type=\"literal\">D4</item>. The result of a formula that uses a cell name, for example, <item type=\"literal\">SUM('Column One')</item>, is 600."
 msgstr "Esimerkkitaulukossa merkkijonoa <item type=\"literal\">'Column One'</item> (solussa B2) voidaan käyttää kaavassa viittaamaan solualueeseen välillä <item type=\"literal\">B3</item> ja <item type=\"literal\">B5</item> tai merkkijonoa <item type=\"literal\">'Column Two'</item> solualueelle <item type=\"literal\">C2</item>:sta <item type=\"literal\">C5</item>:een. Voidaan myös käyttää merkkijonoa <item type=\"literal\">'Row One'</item> (solussa A3) solualueelle <item type=\"literal\">B3</item>:sta <item type=\"literal\">D3</item>:een, tai <item type=\"literal\">'Row Two'</item> solualueelle välillä <item type=\"literal\">B4</item> ja <item type=\"literal\">D4</item>. Esimerkkinä solunimeä käyttävästä kaavasta on <item type=\"literal\">SUM('Column One')</item>, jonka tulos on 600."
 
-#. VBpuo
+#. xYcEr
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3155443\n"
 "help.text"
-msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
-msgstr "Toiminnon aktiivisuus on oletuksena. Toiminnon kytkemiseksi pois valitaan <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Asetukset</caseinline><defaultinline>Työkalut - Asetukset</defaultinline></switchinline> - %PRODUCTNAME Calc - Laskenta</emph> ja tyhjennetään <emph>Hae sarakkeiden ja rivien selitteet automaattisesti</emph> -valintaruutu."
+msgid "Automatically finding labels is a legacy feature and deactivated by default as it can produce nondeterministic behavior depending on actual document content. To turn this function on, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and mark the <emph>Automatically find column and row labels</emph> check box."
+msgstr ""
 
-#. ADRpB
+#. Q9Nee
+#: address_auto.xhp
+msgctxt ""
+"address_auto.xhp\n"
+"par_id3155444\n"
+"help.text"
+msgid "Using defined labels instead is always possible and behaves similar but in a defined way."
+msgstr ""
+
+#. ZuesG
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3149210\n"
 "help.text"
-msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
+msgid "If you enter a label name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must double it, for example, <item type=\"literal\">'Harry''s Bar'</item>."
 msgstr ""
 
 #. EXFye
@@ -13960,6 +13969,13 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "Tämä tarkoittaa, että jos syötetty päivämäärä on 1.1.30 tai myöhempi, se käsitellään sisäisesti päivämääränä 1.1.1930 ja vastaavasti tehdään myöhemmissä päivämäärissä. Kaikki pienemmät kaksinumeroiset vuodet tarkoittavat vuosia 20xx. Esimerkiksi 1.1.20 muuntuu päivämääräksi 1.1.2020."
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3155443\n"
+#~ "help.text"
+#~ msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
+#~ msgstr "Toiminnon aktiivisuus on oletuksena. Toiminnon kytkemiseksi pois valitaan <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - Asetukset</caseinline><defaultinline>Työkalut - Asetukset</defaultinline></switchinline> - %PRODUCTNAME Calc - Laskenta</emph> ja tyhjennetään <emph>Hae sarakkeiden ja rivien selitteet automaattisesti</emph> -valintaruutu."
 
 #~ msgctxt ""
 #~ "formula_enter.xhp\n"

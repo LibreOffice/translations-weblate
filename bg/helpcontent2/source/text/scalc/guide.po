@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-11-22 14:43+0100\n"
+"POT-Creation-Date: 2022-12-07 13:12+0100\n"
 "PO-Revision-Date: 2022-07-15 17:19+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textscalcguide/bg/>\n"
@@ -71,23 +71,32 @@ msgctxt ""
 msgid "In the example spreadsheet, you can use the string <item type=\"literal\">'Column One'</item> in a formula to refer to the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">B5</item>, or <item type=\"literal\">'Column Two'</item> for the cell range <item type=\"literal\">C2</item> to <item type=\"literal\">C5</item>. You can also use <item type=\"literal\">'Row One'</item> for the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">D3</item>, or <item type=\"literal\">'Row Two'</item> for the cell range <item type=\"literal\">B4</item> to <item type=\"literal\">D4</item>. The result of a formula that uses a cell name, for example, <item type=\"literal\">SUM('Column One')</item>, is 600."
 msgstr "В примерната таблица можете да използвате текста <item type=\"literal\">'Column One'</item> във формула за да посочите областта от клетки от<item type=\"literal\">B3</item> до <item type=\"literal\">B5</item>, или <item type=\"literal\">'Column Two'</item> за областта от клетки от <item type=\"literal\">C2</item> до <item type=\"literal\">C5</item>. Можете също да използвате <item type=\"literal\">'Row One'</item> за областта от клетки <item type=\"literal\">B3</item> дo <item type=\"literal\">D3</item>, или <item type=\"literal\">'Row Two'</item> за областта от клетки <item type=\"literal\">B4</item> до <item type=\"literal\">D4</item>. Резултатът от формулата с използване на име на клетка, например, <item type=\"literal\">SUM('Column One')</item>, е 600."
 
-#. VBpuo
+#. xYcEr
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3155443\n"
 "help.text"
-msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
-msgstr "Тази възможност е активна по подразбиране. За да я изключите, използвайте <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Инструменти - Настройки</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Изчисляване</emph> и изчистете полето <emph>Автоматично намиране на имена на редове и колони</emph>."
+msgid "Automatically finding labels is a legacy feature and deactivated by default as it can produce nondeterministic behavior depending on actual document content. To turn this function on, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and mark the <emph>Automatically find column and row labels</emph> check box."
+msgstr ""
 
-#. ADRpB
+#. Q9Nee
+#: address_auto.xhp
+msgctxt ""
+"address_auto.xhp\n"
+"par_id3155444\n"
+"help.text"
+msgid "Using defined labels instead is always possible and behaves similar but in a defined way."
+msgstr ""
+
+#. ZuesG
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3149210\n"
 "help.text"
-msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
-msgstr "Ако искате име да се разпознава автоматично от Calc, то трябва да започва с буква и да е съставено от букви или цифри. Ако въвеждате името във формулата ръчно, заградете го в апострофи ('). Ако в самото име има апостроф, поставете пред него обратна наклонена черта, например, <item type=\"literal\">'Метод на д\\'Онт'</item>."
+msgid "If you enter a label name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must double it, for example, <item type=\"literal\">'Harry''s Bar'</item>."
+msgstr ""
 
 #. EXFye
 #: auto_off.xhp
@@ -13957,6 +13966,20 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "Това означава, че ако въведете 01.01.30 или дата с по-голяма година, тя ще бъде приета за 01.01.1930 г. или по-късна дата. Всички по-малки двуцифрени години ще се приемат за години от 21 век (започващи с 20). Например 01.01.20 се превръща в  01.01.2020 г."
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3155443\n"
+#~ "help.text"
+#~ msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
+#~ msgstr "Тази възможност е активна по подразбиране. За да я изключите, използвайте <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Инструменти - Настройки</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Изчисляване</emph> и изчистете полето <emph>Автоматично намиране на имена на редове и колони</emph>."
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3149210\n"
+#~ "help.text"
+#~ msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
+#~ msgstr "Ако искате име да се разпознава автоматично от Calc, то трябва да започва с буква и да е съставено от букви или цифри. Ако въвеждате името във формулата ръчно, заградете го в апострофи ('). Ако в самото име има апостроф, поставете пред него обратна наклонена черта, например, <item type=\"literal\">'Метод на д\\'Онт'</item>."
 
 #~ msgctxt ""
 #~ "formula_enter.xhp\n"

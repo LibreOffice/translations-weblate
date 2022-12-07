@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-11-22 14:43+0100\n"
+"POT-Creation-Date: 2022-12-07 13:12+0100\n"
 "PO-Revision-Date: 2020-07-14 18:34+0000\n"
 "Last-Translator: sophie <gautier.sophie@gmail.com>\n"
 "Language-Team: Korean <https://weblate.documentfoundation.org/projects/libo_help-master/textscalcguide/ko/>\n"
@@ -70,22 +70,31 @@ msgctxt ""
 msgid "In the example spreadsheet, you can use the string <item type=\"literal\">'Column One'</item> in a formula to refer to the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">B5</item>, or <item type=\"literal\">'Column Two'</item> for the cell range <item type=\"literal\">C2</item> to <item type=\"literal\">C5</item>. You can also use <item type=\"literal\">'Row One'</item> for the cell range <item type=\"literal\">B3</item> to <item type=\"literal\">D3</item>, or <item type=\"literal\">'Row Two'</item> for the cell range <item type=\"literal\">B4</item> to <item type=\"literal\">D4</item>. The result of a formula that uses a cell name, for example, <item type=\"literal\">SUM('Column One')</item>, is 600."
 msgstr "예제 스프레드시트에서 <item type=\"literal\">'Column One'</item> 문자열을 수식에 사용하여 <item type=\"literal\">B3</item>에서 <item type=\"literal\">B5</item>까지의 셀 범위를 참조하거나 <item type=\"literal\">'Column Two'</item>문자열을 사용하여 <item type=\"literal\">C2</item>에서 <item type=\"literal\">C5</item>까지의 셀 범위를 참조할 수 있습니다. 또한 <item type=\"literal\">'Row One'</item>을 사용하여 <item type=\"literal\">B3</item>에서 <item type=\"literal\">D3</item>까지의 셀 범위를 참조하거나 <item type=\"literal\">'Row Two'</item>를 사용하여 <item type=\"literal\">B4</item>에서 <item type=\"literal\">D4</item>까지의 셀 범위를 참조할 수 있습니다. 셀 이름을 사용하는 수식(예: <item type=\"literal\">SUM('Column One')</item>)의 결과는 600입니다."
 
-#. VBpuo
+#. xYcEr
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3155443\n"
 "help.text"
-msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
-msgstr "이 기능은 기본 값으로 활성화되어 있습니다. 이 기능을 끄려면 <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - 기본 설정</caseinline><defaultinline>도구 - 기본 설정</defaultinline></switchinline> - %PRODUCTNAME Calc - 계산</emph>을 선택하고 <emph>자동으로 열과 행 레이블 찾기</emph> 체크 상자를 해제합니다."
+msgid "Automatically finding labels is a legacy feature and deactivated by default as it can produce nondeterministic behavior depending on actual document content. To turn this function on, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and mark the <emph>Automatically find column and row labels</emph> check box."
+msgstr ""
 
-#. ADRpB
+#. Q9Nee
+#: address_auto.xhp
+msgctxt ""
+"address_auto.xhp\n"
+"par_id3155444\n"
+"help.text"
+msgid "Using defined labels instead is always possible and behaves similar but in a defined way."
+msgstr ""
+
+#. ZuesG
 #: address_auto.xhp
 msgctxt ""
 "address_auto.xhp\n"
 "par_id3149210\n"
 "help.text"
-msgid "If you want a name to be automatically recognized by Calc, the name must start with a letter and be composed of alphanumeric characters. If you enter the name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must enter a backslash in front of the quotation mark, for example, <item type=\"literal\">'Harry\\'s Bar'</item>."
+msgid "If you enter a label name in the formula yourself, enclose the name in single quotation marks ('). If a single quotation mark appears in a name, you must double it, for example, <item type=\"literal\">'Harry''s Bar'</item>."
 msgstr ""
 
 #. EXFye
@@ -13956,6 +13965,13 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr "이것은 1/1/30 이상의 날짜를 입력할 경우 이 날짜가 내부적으로 1/1/1930으로 간주된다는 것을 의미합니다 더 작은 두 자릿수 연도에는 20xx세기가 적용됩니다. 예를 들어, 1/1/20은 1/1/2020으로 변환됩니다."
+
+#~ msgctxt ""
+#~ "address_auto.xhp\n"
+#~ "par_id3155443\n"
+#~ "help.text"
+#~ msgid "This function is active by default. To turn this function off, choose <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline><emph> - %PRODUCTNAME Calc - Calculate</emph> and clear the <emph>Automatically find column and row labels</emph> check box."
+#~ msgstr "이 기능은 기본 값으로 활성화되어 있습니다. 이 기능을 끄려면 <emph><switchinline select=\"sys\"><caseinline select=\"MAC\">%PRODUCTNAME - 기본 설정</caseinline><defaultinline>도구 - 기본 설정</defaultinline></switchinline> - %PRODUCTNAME Calc - 계산</emph>을 선택하고 <emph>자동으로 열과 행 레이블 찾기</emph> 체크 상자를 해제합니다."
 
 #~ msgctxt ""
 #~ "formula_enter.xhp\n"
