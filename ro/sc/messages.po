@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-08-08 14:37+0200\n"
-"PO-Revision-Date: 2022-11-16 12:51+0000\n"
+"PO-Revision-Date: 2022-12-10 11:04+0000\n"
 "Last-Translator: Secară Cristian <cristi@secarica.ro>\n"
 "Language-Team: Romanian <https://translations.documentfoundation.org/projects/libo_ui-7-4/scmessages/ro/>\n"
 "Language: ro\n"
@@ -510,7 +510,7 @@ msgstr "Șterge toate urmele"
 #: sc/inc/globstr.hrc:93
 msgctxt "STR_UNDO_DETINVALID"
 msgid "Mark invalid data"
-msgstr "Marchează datele invalide"
+msgstr "Marchează datele nevalide"
 
 #. NBgVC
 #: sc/inc/globstr.hrc:94
@@ -994,7 +994,7 @@ msgstr "Acest interval a fost deja inserat."
 #: sc/inc/globstr.hrc:173
 msgctxt "STR_INVALID_TABREF"
 msgid "Invalid sheet reference."
-msgstr "Referință foaie invalidă."
+msgstr "Referință nevalidă a foii."
 
 #. tFYkx
 #: sc/inc/globstr.hrc:174
@@ -1068,6 +1068,13 @@ msgid ""
 "• contain [ ] * ? : / \\ \n"
 "• use ' (apostrophe) as first or last character."
 msgstr ""
+"Nume de foaie nevalid.\n"
+"\n"
+"Numele foii nu trebuie:\n"
+"• să fie gol\n"
+"• să existe deja\n"
+"• să conțină [ ] * ? :/\\\n"
+"• să folosească ' (apostrof) ca prim sau ultim caracter."
 
 #. CGAdE
 #: sc/inc/globstr.hrc:185
@@ -1798,7 +1805,7 @@ msgstr "Înlocuire definiție existentă a #?"
 #: sc/inc/globstr.hrc:314
 msgctxt "STR_CREATENAME_MARKERR"
 msgid "Invalid selection for range names"
-msgstr "Selecție invalidă pentru numele de interval"
+msgstr "Selecție nevalidă pentru numele intervalelor"
 
 #. DALzt
 #: sc/inc/globstr.hrc:315
@@ -2077,7 +2084,7 @@ msgstr "Imagine"
 #: sc/inc/globstr.hrc:358
 msgctxt "STR_INVALIDNAME"
 msgid "Invalid name."
-msgstr "Nume invalid."
+msgstr "Nume nevalid."
 
 #. 838A7
 #: sc/inc/globstr.hrc:359
@@ -2089,7 +2096,7 @@ msgstr "Macro-ul selectat nu a fost găsit."
 #: sc/inc/globstr.hrc:360
 msgctxt "STR_VALID_DEFERROR"
 msgid "Invalid value."
-msgstr "Valoare invalidă."
+msgstr "Valoare nevalidă."
 
 #. SREQT
 #: sc/inc/globstr.hrc:361
@@ -2122,8 +2129,8 @@ msgid ""
 "The maximum number of invalid cells has been exceeded.\n"
 "Not all invalid cells have been marked."
 msgstr ""
-"S-a depășit numărul maxim de celule invalide.\n"
-"Nu toate celulele invalide au fost marcate."
+"Numărul maxim de celule nevalide a fost depășit.\n"
+"Nu toate celulele nevalide au fost marcate."
 
 #. pH5Pf
 #: sc/inc/globstr.hrc:366
@@ -2596,7 +2603,7 @@ msgstr "Stiluri de pagină"
 #: sc/inc/globstr.hrc:437
 msgctxt "STR_ERR_DATAPILOTSOURCE"
 msgid "Pivot table source data is invalid."
-msgstr "Datele sursă ale tabelului pivot sunt invalide."
+msgstr "Datele sursă ale tabelului pivot nu sunt valide."
 
 #. qs9E5
 #: sc/inc/globstr.hrc:438
@@ -2650,7 +2657,7 @@ msgstr "Document (global)"
 #: sc/inc/globstr.hrc:446
 msgctxt "STR_ERR_NAME_EXISTS"
 msgid "Invalid name. Already in use for the selected scope."
-msgstr "Nume invalid. Este deja utilizat în acest scop."
+msgstr "Nume nevalid. Este deja în uz pentru scopul selectat."
 
 #. qDNs9
 #: sc/inc/globstr.hrc:447
@@ -18762,7 +18769,7 @@ msgstr ""
 #: sc/inc/strings.hrc:368
 msgctxt "STR_ENABLE_CONTENT_TOOLTIP"
 msgid "Only allow updating if you trust this document."
-msgstr ""
+msgstr "Permite actualizarea numai dacă aveți încredere în acest document."
 
 #. w5Gd7
 #. Insert image dialog
@@ -20071,7 +20078,6 @@ msgstr ""
 
 #. JcTKF
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:344
-#, fuzzy
 msgctxt "conditionalentry|preview|tooltip_text"
 msgid "Example"
 msgstr "Exemplu"
@@ -21854,7 +21860,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:241
 msgctxt "dataproviderdlg/AddTransformation_tooltip"
 msgid "Add Transformations"
-msgstr ""
+msgstr "Adaugă transformări"
 
 #. cSgeU
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:297
@@ -21872,7 +21878,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:357
 msgctxt "dataproviderdlg/apply_tooltiptext"
 msgid "Apply Changes"
-msgstr ""
+msgstr "Aplică modificările"
 
 #. 6pCFs
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:376
@@ -21896,7 +21902,7 @@ msgstr "URL:"
 #: sc/uiconfig/scalc/ui/datastreams.ui:117
 msgctxt "datastreams|url|tooltip_text"
 msgid "Enter the URL of the source document in the local file system or Internet here."
-msgstr "Introduceți numele sau URL-ul documentului sursă."
+msgstr "Introduceți aici adresa URL a documentului sursă în sistemul de fișiere local sau pe Internet."
 
 #. RbmeF
 #: sc/uiconfig/scalc/ui/datastreams.ui:136
@@ -22923,7 +22929,7 @@ msgstr "Date externe"
 #: sc/uiconfig/scalc/ui/externaldata.ui:124
 msgctxt "externaldata|url|tooltip_text"
 msgid "Enter the URL of the source document in the local file system or Internet here."
-msgstr "Introduceți URL-ul documentului sursă din sistemul local de fișiere sau de pe internet."
+msgstr "Introduceți aici adresa URL a documentului sursă din sistemul local de fișiere sau de pe internet."
 
 #. CvbAp
 #: sc/uiconfig/scalc/ui/externaldata.ui:136
@@ -23281,29 +23287,28 @@ msgstr ""
 
 #. AfnFz
 #: sc/uiconfig/scalc/ui/floatingborderstyle.ui:34
-#, fuzzy
 msgctxt "floatingborderstyle|none|tooltip_text"
 msgid "No Border"
-msgstr "Fără bordură"
+msgstr "Fără chenar"
 
 #. J9YqG
 #: sc/uiconfig/scalc/ui/floatingborderstyle.ui:45
 msgctxt "floatingborderstyle|all|tooltip_text"
 msgid "All Borders"
-msgstr ""
+msgstr "Toate chenarele"
 
 #. 3dsGE
 #: sc/uiconfig/scalc/ui/floatingborderstyle.ui:56
-#, fuzzy
 msgctxt "floatingborderstyle|outside|tooltip_text"
 msgid "Outside Borders"
-msgstr "Contur - Borduri"
+msgstr "Chenare externe"
 
 #. BQ8N3
 #: sc/uiconfig/scalc/ui/floatingborderstyle.ui:67
+#, fuzzy
 msgctxt "floatingborderstyle|thickbox|tooltip_text"
 msgid "Thick Box Border"
-msgstr ""
+msgstr "Chenar de casetă gros"
 
 #. RSWP6
 #: sc/uiconfig/scalc/ui/floatingborderstyle.ui:90
@@ -27755,13 +27760,13 @@ msgstr "Lipește numai formatele din intervalul sursă fără a modifica valoril
 #: sc/uiconfig/scalc/ui/pastespecial.ui:199
 msgctxt "pastespecial|paste_transpose|label"
 msgid "Transpose All"
-msgstr ""
+msgstr "Transpune tot"
 
 #. sbLGi
 #: sc/uiconfig/scalc/ui/pastespecial.ui:203
 msgctxt "pastespecial|paste_transpose|tooltip_text"
 msgid "Transpose All"
-msgstr "Transpunere totală"
+msgstr "Transpune tot"
 
 #. 3BC6U
 #: sc/uiconfig/scalc/ui/pastespecial.ui:210
@@ -27947,7 +27952,7 @@ msgstr "Inserează intervalul de celule ca legătură, astfel încât modificăr
 #: sc/uiconfig/scalc/ui/pastespecial.ui:607
 msgctxt "pastespecial|transpose"
 msgid "Transpose"
-msgstr ""
+msgstr "Transpune"
 
 #. P3eE4
 #: sc/uiconfig/scalc/ui/pastespecial.ui:615
@@ -33416,7 +33421,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/validationcriteriapage.ui:224
 msgctxt "validationcriteriapage|showlist"
 msgid "Show selection _list"
-msgstr "Afișare _lista selecție"
+msgstr "Afișează _lista de selecție"
 
 #. S8X7y
 #: sc/uiconfig/scalc/ui/validationcriteriapage.ui:232
