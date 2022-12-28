@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-12-07 19:22+0100\n"
-"PO-Revision-Date: 2022-12-27 16:18+0000\n"
+"PO-Revision-Date: 2022-12-28 16:29+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicpython/pl/>\n"
 "Language: pl\n"
@@ -1625,7 +1625,7 @@ msgctxt ""
 "N0461\n"
 "help.text"
 msgid "<bookmark_value>Python;import</bookmark_value>        <bookmark_value>Python;Modules</bookmark_value>        <bookmark_value>Python;pythonpath</bookmark_value>        <bookmark_value>PythonLibraries</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Python;importowanie</bookmark_value>        <bookmark_value>Python;Moduły</bookmark_value>        <bookmark_value>Python;pythonpath</bookmark_value>        <bookmark_value>PythonLibraries</bookmark_value>"
 
 #. MHcrX
 #: python_import.xhp
@@ -1634,7 +1634,7 @@ msgctxt ""
 "N0462\n"
 "help.text"
 msgid "<variable id=\"pythonimporth1\"><link href=\"text/sbasic/python/python_import.xhp\">Importing Python Modules</link></variable>"
-msgstr ""
+msgstr "<variable id=\"pythonimporth1\"><link href=\"text/sbasic/python/python_import.xhp\">Importowanie modułów Pythona</link></variable>"
 
 #. VHAM5
 #: python_import.xhp
@@ -1643,7 +1643,7 @@ msgctxt ""
 "N0463\n"
 "help.text"
 msgid "%PRODUCTNAME Python scripts come in three distinct flavors, they can be personal, shared or embedded in documents. They are stored in varying places described in <link href=\"text/sbasic/python/python_locations.xhp\">Python Scripts Organization and Location</link>. In order to import Python modules, their locations must be known from Python at run time."
-msgstr ""
+msgstr "Skrypty %PRODUCTNAME w języku Python są dostępne w trzech wersjach: mogą być osobiste, udostępniane lub osadzone w dokumentach. Są one przechowywane w różnych miejscach opisanych w sekcji <link href=\"text/sbasic/python/python_locations.xhp\">Organizacja i lokalizacja skryptów Pythona</link>. Aby zaimportować moduły Pythona, ich lokalizacja musi być znana z Pythona w czasie wykonywania."
 
 #. zMSfx
 #: python_import.xhp
@@ -1652,7 +1652,7 @@ msgctxt ""
 "N0464\n"
 "help.text"
 msgid "This mechanism is illustrated for file system based modules and document based modules. Exception handling is omitted for clarity. The terms library or directory, scripts or modules are used interchangeably. A Python macro refers to a function inside a module."
-msgstr ""
+msgstr "Ten mechanizm jest zilustrowany dla modułów opartych na systemie plików i modułach opartych na dokumentach. Dla przejrzystości pominięto obsługę wyjątków. Terminy biblioteka lub katalog, skrypty lub moduły są używane zamiennie. Makro w języku Python odnosi się do funkcji wewnątrz modułu."
 
 #. GUdHS
 #: python_import.xhp
@@ -1661,7 +1661,7 @@ msgctxt ""
 "N0465\n"
 "help.text"
 msgid "Note that <literal><User Profile>/Scripts/python/pythonpath</literal> local directory is always explored when running a Python macro from <literal><User Profile>/Scripts/python</literal>."
-msgstr ""
+msgstr "Zauważ, że lokalny katalog <literal><User Profile>/Scripts/python/pythonpath</literal> jest zawsze eksplorowany podczas uruchamiania makra Pythona z <literal><User Profile>/Scripts/python</literal>."
 
 #. fyFof
 #: python_import.xhp
@@ -1670,7 +1670,7 @@ msgctxt ""
 "N0466\n"
 "help.text"
 msgid "File System module import"
-msgstr ""
+msgstr "Importowanie modułu systemu plików"
 
 #. SRZgQ
 #: python_import.xhp
@@ -1679,7 +1679,7 @@ msgctxt ""
 "N0467\n"
 "help.text"
 msgid "User or Shared Modules"
-msgstr ""
+msgstr "Moduły użytkownika lub współdzielone"
 
 #. NAJzP
 #: python_import.xhp
@@ -1688,7 +1688,7 @@ msgctxt ""
 "N0468\n"
 "help.text"
 msgid "Personal & shared Python scripts can be imported once their directories are included in Python run time path. Refer to <link href=\"text/sbasic/python/python_session.xhp\">Getting session information</link> page for more details regarding omitted Session Class."
-msgstr ""
+msgstr "Osobiste i współdzielone skrypty Pythona można importować, gdy ich katalogi zostaną uwzględnione w ścieżce wykonawczej Pythona. Więcej informacji na temat pominiętej klasy sesji można znaleźć na stronie <link href=\"text/sbasic/python/python_session.xhp\">Pobieranie informacji o sesji</link>."
 
 #. A4v4U
 #: python_import.xhp
@@ -1697,7 +1697,7 @@ msgctxt ""
 "N0473\n"
 "help.text"
 msgid "user_lib = Session().UserPythonScripts  # User scripts location"
-msgstr ""
+msgstr "user_lib = Session().UserPythonScripts  # Lokalizacja skryptów użytkownika"
 
 #. AAJUq
 #: python_import.xhp
@@ -1706,7 +1706,7 @@ msgctxt ""
 "N0475\n"
 "help.text"
 msgid "sys.path.insert(0, user_lib)  # Add to search path"
-msgstr ""
+msgstr "sys.path.insert(0, user_lib)  # Dodaj do ścieżki wyszukiwania"
 
 #. yFcur
 #: python_import.xhp
@@ -1715,7 +1715,7 @@ msgctxt ""
 "N0476\n"
 "help.text"
 msgid "import screen_io as ui  # 'screen_io.py' module resides in user_lib directory"
-msgstr ""
+msgstr "import screen_io as ui  # 'screen_io.py' moduł znajduje się w user_lib directory"
 
 #. 6KtvD
 #: python_import.xhp
@@ -1724,7 +1724,7 @@ msgctxt ""
 "N0477\n"
 "help.text"
 msgid "# Your code follows here"
-msgstr ""
+msgstr "# Poniżej znajduje się kod niestandardowy"
 
 #. G8bHh
 #: python_import.xhp
@@ -1733,7 +1733,7 @@ msgctxt ""
 "N0478\n"
 "help.text"
 msgid "This Python example exposes a local XSCRIPTCONTEXT variable to an imported module:"
-msgstr ""
+msgstr "Ten przykład Pythona udostępnia lokalną zmienną XSCRIPTCONTEXT w zaimportowanym module:"
 
 #. uwiPp
 #: python_import.xhp
@@ -1742,7 +1742,7 @@ msgctxt ""
 "N0483\n"
 "help.text"
 msgid "share_lib = Session.SharedPythonScripts()  # Shared scripts location"
-msgstr ""
+msgstr "share_lib = Session.SharedPythonScripts()  # Lokalizacja udostępnionych skryptów"
 
 #. HugAN
 #: python_import.xhp
@@ -1751,7 +1751,7 @@ msgctxt ""
 "N0485\n"
 "help.text"
 msgid "sys.path.insert(0, share_lib)  # Add to search path"
-msgstr ""
+msgstr "sys.path.insert(0, share_lib)  # Dodaj do ścieżki wyszukiwania"
 
 #. zGybv
 #: python_import.xhp
@@ -1760,7 +1760,7 @@ msgctxt ""
 "N0486\n"
 "help.text"
 msgid "from IDE_utils import ScriptContext  # 'IDE_utils.py' sits with shared Python scripts."
-msgstr ""
+msgstr "from IDE_utils import ScriptContext  # 'IDE_utils.py' znajduje się we wspólnych skryptach Pythona"
 
 #. VoPZU
 #: python_import.xhp
@@ -1769,7 +1769,7 @@ msgctxt ""
 "N0488\n"
 "help.text"
 msgid "# Your code follows here"
-msgstr ""
+msgstr "# Poniżej znajduje się kod niestandardowy"
 
 #. AH3MT
 #: python_import.xhp
@@ -1778,7 +1778,7 @@ msgctxt ""
 "N0489\n"
 "help.text"
 msgid "Installation Modules for Applications"
-msgstr ""
+msgstr "Moduły instalacyjne dla aplikacji"
 
 #. VFZdV
 #: python_import.xhp
@@ -1787,7 +1787,7 @@ msgctxt ""
 "N0490\n"
 "help.text"
 msgid "Unlike personal and shared scripts, %PRODUCTNAME installation scripts can be imported any time. Next to <literal>uno</literal> & <literal>unohelper</literal> %PRODUCTNAME Python modules, other scripts present in <literal><installation_path>/program</literal> directory can be imported directly, such as the <literal>msgbox</literal> module."
-msgstr ""
+msgstr "W przeciwieństwie do skryptów osobistych i udostępnionych, skrypty instalacyjne %PRODUCTNAME można importować w dowolnym momencie. Oprócz modułów <literal>uno</literal> i <literal>unohelper</literal> %PRODUCTNAME Pythona, inne skrypty znajdujące się w katalogu <literal><installation_path>/program</literal> można importować bezpośrednio, takie jak <literal>msgbox</literal>."
 
 #. TnQ2j
 #: python_import.xhp
@@ -1805,7 +1805,7 @@ msgctxt ""
 "N0534\n"
 "help.text"
 msgid "Document Module Import"
-msgstr ""
+msgstr "Importowanie modułu dokumentu"
 
 #. AUzGt
 #: python_import.xhp
@@ -1814,7 +1814,7 @@ msgctxt ""
 "N0535\n"
 "help.text"
 msgid "Importing a Python document embedded module is illustrated below. Error handling is not detailed. Python run time path is updated when document has been opened and before closure. Refer to <link href=\"text/sbasic/shared/01040000.xhp\">Event-Driven Macros</link> to learn how to associate Python macros to document events."
-msgstr ""
+msgstr "Importowanie modułu osadzonego w dokumencie języka Python zostało zilustrowane poniżej. Obsługa błędów nie jest szczegółowo opisana. Ścieżka środowiska uruchomieniowego Pythona jest aktualizowana po otwarciu dokumentu i przed zamknięciem. Zapoznaj się z artykułem <link href=\"text/sbasic/shared/01040000.xhp\">Makra sterowane zdarzeniami</link>, aby dowiedzieć się, jak powiązać makra Pythona z dokumentacją zdarzeń."
 
 #. APbCX
 #: python_import.xhp
@@ -1823,7 +1823,7 @@ msgctxt ""
 "N0541\n"
 "help.text"
 msgid "\"\"\" Prepare Python modules import when doc. loaded \"\"\""
-msgstr ""
+msgstr "\"\"\" Przygotuj import modułów Pythona po załadowaniu dokumentu \"\"\""
 
 #. DJStg
 #: python_import.xhp
@@ -1832,7 +1832,7 @@ msgctxt ""
 "N0542\n"
 "help.text"
 msgid "PythonLibraries.loadLibrary('lib/subdir')  # Add directory to search path"
-msgstr ""
+msgstr "PythonLibraries.loadLibrary('lib/subdir')  # Dodaj katalog do ścieżki wyszukiwania"
 
 #. tPsVb
 #: python_import.xhp
@@ -1841,7 +1841,7 @@ msgctxt ""
 "N0543\n"
 "help.text"
 msgid "PythonLibraries.loadLibrary('my_gui', 'screen_io')  # Add dir. & import screen_io"
-msgstr ""
+msgstr "PythonLibraries.loadLibrary('my_gui', 'screen_io')  # Dodaje katalog i importuje screen_io"
 
 #. KxLAs
 #: python_import.xhp
@@ -1850,7 +1850,7 @@ msgctxt ""
 "N0546\n"
 "help.text"
 msgid "\"\"\" Cleanup PYTHON_PATH when doc. Gets closed \"\"\""
-msgstr ""
+msgstr "\"\"\" Czyści PYTHON_PATH podczas zamykania dokumentu \"\"\""
 
 #. siAC7
 #: python_import.xhp
@@ -1859,7 +1859,7 @@ msgctxt ""
 "N0547\n"
 "help.text"
 msgid "PythonLibraries.unloadLibrary('my_gui')  # Python runtime path cleanup"
-msgstr ""
+msgstr "PythonLibraries.unloadLibrary('my_gui')  # Oczyszczanie ścieżki środowiska uruchomieniowego Pythona"
 
 #. zajf5
 #: python_import.xhp
@@ -1868,7 +1868,7 @@ msgctxt ""
 "N0548\n"
 "help.text"
 msgid "# Note: imported modules remain loaded in this example."
-msgstr ""
+msgstr "# Uwaga: w tym przykładzie zaimportowane moduły pozostają załadowane."
 
 #. pKa7R
 #: python_import.xhp
@@ -1877,7 +1877,7 @@ msgctxt ""
 "N0553\n"
 "help.text"
 msgid "\"\"\" Python library loader and module importer"
-msgstr ""
+msgstr "\"\"\" Program ładujący biblioteki Pythona i importer modułów"
 
 #. ruYCE
 #: python_import.xhp
@@ -1886,7 +1886,7 @@ msgctxt ""
 "N0555\n"
 "help.text"
 msgid "adapted from 'Bibliothèque de fonctions' by Hubert Lambert"
-msgstr ""
+msgstr "przystosowano z 'Bibliothèque de fonctions' autorstwa Huberta Lamberta"
 
 #. 8gpRJ
 #: python_import.xhp
@@ -1895,7 +1895,7 @@ msgctxt ""
 "N0556\n"
 "help.text"
 msgid "at https://forum.openoffice.org/fr/forum/viewtopic.php?p=286213 \"\"\""
-msgstr ""
+msgstr "pod adresem https://forum.openoffice.org/fr/forum/viewtopic.php?p=286213 \"\"\""
 
 #. T6bdz
 #: python_import.xhp
@@ -1904,7 +1904,7 @@ msgctxt ""
 "N0558\n"
 "help.text"
 msgid "\"\"\" Check run time module list \"\"\""
-msgstr ""
+msgstr "\"\"\" Sprawdź listę modułów wykonawczych \"\"\""
 
 #. EFaRv
 #: python_import.xhp
@@ -1913,7 +1913,7 @@ msgctxt ""
 "N0561\n"
 "help.text"
 msgid "\"\"\" Check PYTHON_PATH content \"\"\""
-msgstr ""
+msgstr "\"\"\" Sprawdź zawartość PYTHON_PATH \"\"\""
 
 #. fvFq9
 #: python_import.xhp
@@ -1922,7 +1922,7 @@ msgctxt ""
 "N0564\n"
 "help.text"
 msgid "\"\"\" add directory to PYTHON_PATH, import named module \"\"\""
-msgstr ""
+msgstr "\"\"\" dodaj katalog do PYTHON_PATH, zaimportuj nazwany moduł \"\"\""
 
 #. eCTGx
 #: python_import.xhp
@@ -1931,7 +1931,7 @@ msgctxt ""
 "N0573\n"
 "help.text"
 msgid "\"\"\" remove directory from PYTHON_PATH \"\"\""
-msgstr ""
+msgstr "\"\"\" usuń katalog z PYTHON_PATH \"\"\""
 
 #. 5xScE
 #: python_import.xhp
@@ -1940,7 +1940,7 @@ msgctxt ""
 "N0580\n"
 "help.text"
 msgid "Refer to <link href=\"text/sbasic/python/python_listener.xhp\">Creating a Python Listener</link> for examples of event-driven macros."
-msgstr ""
+msgstr "Aby zapoznać się z przykładami makr sterowanych zdarzeniami, zobacz <link href=\"text/sbasic/python/python_listener.xhp\">Tworzenie detektorów Pythona</link>."
 
 #. 9BBze
 #: python_listener.xhp
@@ -1949,7 +1949,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Python Listeners : Creating Event Listeners"
-msgstr ""
+msgstr "Detektory Pythona: tworzenie detektorów zdarzeń"
 
 #. ouQd3
 #: python_listener.xhp
@@ -1958,7 +1958,7 @@ msgctxt ""
 "N0385\n"
 "help.text"
 msgid "<bookmark_value>Python;Event Listener</bookmark_value>         <bookmark_value>Python;createUnoListener</bookmark_value>         <bookmark_value>Basic;Event Listener</bookmark_value>         <bookmark_value>API;ActionEvent</bookmark_value>         <bookmark_value>API;DialogProvider</bookmark_value>         <bookmark_value>API;EventObject</bookmark_value>         <bookmark_value>API;ExecutableDialogResults</bookmark_value>         <bookmark_value>API;XActionListener</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Python;Detektor zdarzeń</bookmark_value>         <bookmark_value>Python;createUnoListener</bookmark_value>         <bookmark_value>Basic;Detektor zdarzeń</bookmark_value>         <bookmark_value>API;ActionEvent</bookmark_value>         <bookmark_value>API;DialogProvider</bookmark_value> <bookmark_value>API;EventObject</bookmark_value>         <bookmark_value>API;ExecutableDialogResults</bookmark_value>         <bookmark_value>API;XActionListener</bookmark_value>"
 
 #. o4QUC
 #: python_listener.xhp
@@ -1967,7 +1967,7 @@ msgctxt ""
 "N0386\n"
 "help.text"
 msgid "<variable id=\"pythonlistener\"><link href=\"text/sbasic/python/python_listener.xhp\">Creating Event Listeners</link></variable>"
-msgstr ""
+msgstr "<variable id=\"pythonlistener\"><link href=\"text/sbasic/python/python_listener.xhp\">Tworzenie detektorów zdarzeń</link></variable>"
 
 #. S8UHm
 #: python_listener.xhp
@@ -1976,7 +1976,7 @@ msgctxt ""
 "N0387\n"
 "help.text"
 msgid "Events raised by dialogs, documents, forms or graphical controls can be linked to macros, which is referred to as event-driven programming. The most common method to relate events to macros are the <literal>Events</literal> tab in <menuitem>Tools – Customize</menuitem> menu and the <link href=\"text/sbasic/guide/create_dialog.xhp\">Dialog Editor</link> Control properties pane from <menuitem>Tools - Macros – Organise Dialogs...</menuitem> menu."
-msgstr ""
+msgstr "Zdarzenia wywołane przez okna dialogowe, dokumenty, formularze lub kontrolki graficzne można powiązać z makrami, co jest określane jako programowanie sterowane zdarzeniami. Najpopularniejszą metodą powiązania zdarzeń z makrami jest zakładka <literal>Zdarzenia</literal> w menu <menuitem>Narzędzia - Dostosuj</menuitem> oraz <link href=\"text/sbasic/guide/create_dialog.xhp\">Edytora okien dialogowych</link>, który uruchamia się, wybierając <menuitem>Narzędzia - Makra - Menedżer okien dialogowych</menuitem>."
 
 #. Dd2YW
 #: python_listener.xhp
@@ -1985,7 +1985,7 @@ msgctxt ""
 "N0388\n"
 "help.text"
 msgid "Graphical artifacts, keyboard inputs, mouse moves and other man/machine interactions can be controlled using UNO listeners that watch for the user’s behavior. Listeners are dynamic program code alternatives to macro assignments. One may create as many UNO listeners as events to watch for. A single listener can also handle multiple user interface controls."
-msgstr ""
+msgstr "Artefakty graficzne, dane wprowadzane za pomocą klawiatury, ruchy myszy i inne interakcje człowiek-maszyna mogą być kontrolowane za pomocą detektorów UNO, które obserwują zachowanie użytkownika. Detektory to dynamiczne alternatywy kodu programu dla przypisań makr. Można utworzyć tyle detektorów UNO, ile wydarzeń należy obserwować. Pojedynczy detektor może również obsługiwać wiele kontrolek interfejsu użytkownika."
 
 #. UVzsE
 #: python_listener.xhp
@@ -1994,7 +1994,7 @@ msgctxt ""
 "N0389\n"
 "help.text"
 msgid "Creating an event listener"
-msgstr ""
+msgstr "Tworzenie detektora zdarzeń"
 
 #. knF23
 #: python_listener.xhp
@@ -2003,7 +2003,7 @@ msgctxt ""
 "N0390\n"
 "help.text"
 msgid "Listeners get attached to controls held in dialogs, as well as to document or form events. Listeners are also used when creating runtime dialogs or when adding controls to a dialog on the fly."
-msgstr ""
+msgstr "Detekory przywiązują się do kontrolek znajdujących się w oknach dialogowych, a także do zdarzeń dokumentu lub formularza. Detekory są również używane podczas tworzenia okien dialogowych środowiska uruchomieniowego lub podczas dodawania kontrolek do okna dialogowego w locie."
 
 #. DwE8A
 #: python_listener.xhp
@@ -2012,7 +2012,7 @@ msgctxt ""
 "N0391\n"
 "help.text"
 msgid "This example creates a listener for <literal>Button1</literal> control of <literal>Dialog1</literal> dialog in <literal>Standard</literal> library."
-msgstr ""
+msgstr "Ten przykład tworzy detektor dla kontrolki <literal>Button1</literal> w oknie <literal>Dialog1</literal>, które jest częścią biblioteki <literal>Standard</literal>."
 
 #. Wsp8E
 #: python_listener.xhp
@@ -2030,7 +2030,7 @@ msgctxt ""
 "N0405\n"
 "help.text"
 msgid "_MY_LABEL = 'Python listens..'"
-msgstr ""
+msgstr "_MY_LABEL = 'Detektory Pythona..'"
 
 #. UJrnb
 #: python_listener.xhp
@@ -2039,7 +2039,7 @@ msgctxt ""
 "N0417\n"
 "help.text"
 msgid "MsgBox(\"The user acknowledged the dialog.\")"
-msgstr ""
+msgstr "MsgBox(\"Użytkownik potwierdził okno dialogowe.\")"
 
 #. XVRK7
 #: python_listener.xhp
@@ -2048,7 +2048,7 @@ msgctxt ""
 "N0419\n"
 "help.text"
 msgid "MsgBox(\"The user canceled the dialog.\")"
-msgstr ""
+msgstr "MsgBox(\"Użytkownik zamknął okno dialogowe.\")"
 
 #. FUuHB
 #: python_listener.xhp
@@ -2057,7 +2057,7 @@ msgctxt ""
 "N0424\n"
 "help.text"
 msgid "\"\"\" Create a Dialog from its location \"\"\""
-msgstr ""
+msgstr "\"\"\" Twórz okno dialogowe z podanej lokalizacji \"\"\""
 
 #. NeZcJ
 #: python_listener.xhp
@@ -2066,7 +2066,7 @@ msgctxt ""
 "N0437\n"
 "help.text"
 msgid "\"\"\" Listen to & count button clicks \"\"\""
-msgstr ""
+msgstr "\"\"\" Wykryj i policz kliknięcia przycisku \"\"\""
 
 #. WK4DA
 #: python_listener.xhp
@@ -2075,7 +2075,7 @@ msgctxt ""
 "N0448\n"
 "help.text"
 msgid "def disposing(self, evt: EventObject):  # mandatory routine"
-msgstr ""
+msgstr "def disposing(self, evt: EventObject):  # metoda obowiązkowa"
 
 #. 9mtTR
 #: python_listener.xhp
@@ -2084,7 +2084,7 @@ msgctxt ""
 "N0457\n"
 "help.text"
 msgid "<emph>msgbox.py</emph> in <emph>{installation}/program/</emph> directory has some examples of button listeners."
-msgstr ""
+msgstr "Przykłady detektorów przycisków są dostarczane przez skrypt <emph>msgbox.py</emph> w katalogu <emph>{installation}/program/</emph>."
 
 #. MgUyV
 #: python_listener.xhp
@@ -2102,7 +2102,7 @@ msgctxt ""
 "N0459d\n"
 "help.text"
 msgid "Const MY_LABEL = \"Basic listens..\""
-msgstr ""
+msgstr "Const MY_LABEL = \"Detektory Basic..\""
 
 #. eJe7e
 #: python_listener.xhp
@@ -2111,7 +2111,7 @@ msgctxt ""
 "N0478\n"
 "help.text"
 msgid "Case rc.OK : MsgBox \"The user acknowledged the dialog.\",, \"Basic\""
-msgstr ""
+msgstr "Case rc.OK : MsgBox \"Użytkownik potwierdził okno dialogowe.\",, \"Basic\""
 
 #. KVrqd
 #: python_listener.xhp
@@ -2120,7 +2120,7 @@ msgctxt ""
 "N0479\n"
 "help.text"
 msgid "Case rc.CANCEL : MsgBox \"The user canceled the dialog.\",, \"Basic\""
-msgstr ""
+msgstr "Case rc.CANCEL : MsgBox \"Użytkownik anulował okno dialogowe.\",, \"Basic\""
 
 #. 9AeGf
 #: python_listener.xhp
@@ -2129,7 +2129,7 @@ msgctxt ""
 "N0486\n"
 "help.text"
 msgid "''' Listen to & count button clicks '''"
-msgstr ""
+msgstr "''' Słuchaj i zliczaj kliknięcia przycisków '''"
 
 #. 5Arxo
 #: python_listener.xhp
@@ -2138,7 +2138,7 @@ msgctxt ""
 "N0496\n"
 "help.text"
 msgid "' your code goes here"
-msgstr ""
+msgstr "' miejsce na niestandardowy kod"
 
 #. AQA8b
 #: python_listener.xhp
