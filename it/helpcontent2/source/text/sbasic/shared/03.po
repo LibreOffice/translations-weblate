@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-12-19 15:00+0100\n"
-"PO-Revision-Date: 2023-01-09 10:29+0000\n"
+"PO-Revision-Date: 2023-01-09 10:38+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -9698,7 +9698,7 @@ msgctxt ""
 "par_id311619033224680\n"
 "help.text"
 msgid "The <literal>Datasheet</literal> service can be invoked in two different ways depending on whether the database file is open."
-msgstr "Il servizio <literal>Datasheet</literal> può essere invocato in due modi differenti a seconda che il file del database sia aperto o meno."
+msgstr "Il servizio <literal>Datasheet</literal> può essere invocato in due modi differenti a seconda che il file del database sia aperto o no."
 
 #. LXxpq
 #: sf_datasheet.xhp
@@ -9707,7 +9707,7 @@ msgctxt ""
 "par_id781671108693239\n"
 "help.text"
 msgid "The example below considers that the database file is open, hence the <literal>UI</literal> service can be used to retrieve the document and the <literal>OpenTable</literal> method from the <literal>Database</literal> service is used to get a <literal>Datasheet</literal> service instance."
-msgstr ""
+msgstr "L'esempio seguente presuppone che il file del database sia aperto, perciò il servizio <literal>UI</literal> può essere usato per trovare il documento e il metodo <literal>OpenTable</literal> del servizio <literal>Database</literal> è usato per ottenere un'istanza del servizio <literal>Datasheet</literal>."
 
 #. nmHPC
 #: sf_datasheet.xhp
@@ -9716,7 +9716,7 @@ msgctxt ""
 "bas_id561671040218003\n"
 "help.text"
 msgid "Dim ui As Object, oBase As Object, oSheet As Object"
-msgstr ""
+msgstr "Dim ui As Object, oBase As Object, oSheet As Object"
 
 #. uCvbC
 #: sf_datasheet.xhp
@@ -9725,7 +9725,7 @@ msgctxt ""
 "bas_id981671039972329\n"
 "help.text"
 msgid "' Object oBase is an instance of the Base service"
-msgstr ""
+msgstr "' L'oggetto oBase è un'istanza del servizio Base"
 
 #. y8TZZ
 #: sf_datasheet.xhp
@@ -9734,7 +9734,7 @@ msgctxt ""
 "bas_id451671040032633\n"
 "help.text"
 msgid "' Object oSheet is an instance of the Datasheet service"
-msgstr ""
+msgstr "' L'oggetto oSheet è un'istanza del servizio Datasheet"
 
 #. cnJfg
 #: sf_datasheet.xhp
@@ -9743,7 +9743,7 @@ msgctxt ""
 "par_id721671040093835\n"
 "help.text"
 msgid "In the example above it is also possible to use the method <literal>OpenQuery</literal> from the <literal>Base</literal> service to get a <literal>Datasheet</literal> instance."
-msgstr ""
+msgstr "Nell'esempio qui sopra è anche possibile usare il metodo <literal>OpenQuery</literal> del servizio <literal>Base</literal> per ottenere un'istanza di <literal>Datasheet</literal>."
 
 #. 5usm9
 #: sf_datasheet.xhp
@@ -9752,7 +9752,7 @@ msgctxt ""
 "par_id281619033570656\n"
 "help.text"
 msgid "To invoke the <literal>Datasheet</literal> service when the database file is not open, use the <literal>OpenTable</literal>, <literal>OpenQuery</literal> or <literal>OpenSql</literal> methods from the <literal>Database</literal> service. The example below uses the <literal>OpenTable</literal> method to open an existing table in the database file:"
-msgstr ""
+msgstr "Per invocare il servizio <literal>Datasheet</literal> quando il file del database non è aperto, usare i metodi <literal>OpenTable</literal>, <literal>OpenQuery</literal> o <literal>OpenSql</literal> del servizio <literal>Database</literal>. L'esempio seguente usa il metodo <literal>OpenTable</literal> per aprire una tabella esistente nel file di database:"
 
 #. 6dFFb
 #: sf_datasheet.xhp
@@ -9761,7 +9761,7 @@ msgctxt ""
 "bas_id451671040032621\n"
 "help.text"
 msgid "' Object oDatabase is an instance of the Database service"
-msgstr ""
+msgstr "' L'oggetto oDatabase è un'istanza del servizio Database"
 
 #. vFEti
 #: sf_datasheet.xhp
@@ -9770,7 +9770,7 @@ msgctxt ""
 "bas_id451671040032011\n"
 "help.text"
 msgid "' Object oSheet is an instance of the Datasheet service"
-msgstr ""
+msgstr "' L'oggetto oSheet è un'istanza del servizio Datasheet"
 
 #. TGuKf
 #: sf_datasheet.xhp
@@ -9779,7 +9779,7 @@ msgctxt ""
 "par_id871623102536956\n"
 "help.text"
 msgid "The examples above can be translated to Python as follows:"
-msgstr ""
+msgstr "Gli esempi qui sopra possono essere portati in Python come segue:"
 
 #. xFcX4
 #: sf_datasheet.xhp
@@ -9797,7 +9797,7 @@ msgctxt ""
 "par_id31671041470077\n"
 "help.text"
 msgid "The following properties are available in the <literal>Datasheet</literal> service:"
-msgstr ""
+msgstr "Le seguenti proprietà sono disponibili nel servizio <literal>Datasheet</literal>:"
 
 #. uVScA
 #: sf_datasheet.xhp
@@ -9860,7 +9860,7 @@ msgctxt ""
 "par_id441600788076826\n"
 "help.text"
 msgid "Returns an <literal>Array</literal> with the names of column headers in the datasheet."
-msgstr ""
+msgstr "Restituisce una matrice <literal>Array</literal> con i nomi delle intestazioni di colonna della struttura dati."
 
 #. AawGx
 #: sf_datasheet.xhp
@@ -9878,7 +9878,7 @@ msgctxt ""
 "par_id81600788076419\n"
 "help.text"
 msgid "Returns the currently selected column name."
-msgstr ""
+msgstr "Restituisce il nome della colonna attualmente selezionata."
 
 #. 8ph7x
 #: sf_datasheet.xhp
@@ -9896,7 +9896,7 @@ msgctxt ""
 "par_id541600788076645\n"
 "help.text"
 msgid "Returns the number of the currently selected row, starting at 1."
-msgstr ""
+msgstr "Restituisce il numero della riga attualmente selezionata, a partire da 1."
 
 #. h3vRR
 #: sf_datasheet.xhp
@@ -9914,7 +9914,7 @@ msgctxt ""
 "par_id91600788076674\n"
 "help.text"
 msgid "Returns the file name of the Base file in <literal>FSO.FileNaming</literal> format."
-msgstr ""
+msgstr "Restituisce il nome del file di Base nel formato <literal>FSO.FileNaming</literal>."
 
 #. 3TyFG
 #: sf_datasheet.xhp
