@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-20 13:20+0100\n"
-"PO-Revision-Date: 2022-08-18 16:53+0000\n"
-"Last-Translator: Valter Mura <valtermura@gmail.com>\n"
+"PO-Revision-Date: 2023-01-17 17:32+0000\n"
+"Last-Translator: Elisabetta Manuele <calembour@hotmail.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-7-3/textscalc01/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -13388,7 +13388,7 @@ msgctxt ""
 "par_id431635251540138\n"
 "help.text"
 msgid "<input>=SERIESSUM(A1; 0; 1; {1; 2; 3})</input> calculates the value of 1+2x+3x<sup>2</sup>, where x is the value in cell A1. If A1 contains 1, the formula returns 6; if A1 contains 2, the formula returns 17; if A1 contains 3, the formula returns 34; and so on."
-msgstr "<input>=SOMMA:SERIE(A1; 0; 1; {1; 2; 3})</input> calcola il valore di 1+2x+3x<sup>2</sup>, dove x è il valore all'interno della cella A1. Se A1 contiene 1 la formula restituisce 6; se A1 contiene 2 la formula restituisce 17; se A1 contiene 3 la formula restituisce 34, ecc."
+msgstr "<input>=SOMMA.SERIE(A1; 0; 1; {1; 2; 3})</input> calcola il valore di 1+2x+3x<sup>2</sup>, dove x è il valore all'interno della cella A1. Se A1 contiene 1 la formula restituisce 6; se A1 contiene 2 la formula restituisce 17; se A1 contiene 3 la formula restituisce 34, ecc."
 
 #. i8GB7
 #: 04060106.xhp
@@ -20192,7 +20192,7 @@ msgctxt ""
 "par_id541624454496424\n"
 "help.text"
 msgid "You can \"escape\" the double quotation mark with an additional double quotation mark, and Calc treats the escaped double quotation mark as a literal value. For example, the formula <input>=\"My name is \"\"John Doe\"\".\"</input> outputs the string <literal>My name is \"John Doe\".</literal> Another simple example is the formula <input>=UNICODE(\"\"\"\")</input> which returns <literal>34</literal>, the decimal value of the Unicode quotation mark character (U+0022) — here the first and fourth double quotation marks indicate the beginning and end of the string, while the second double quotation mark escapes the third."
-msgstr "Potete eseguire l'escape delle doppie virgolette con un'ulteriore doppia virgoletta, nel qual caso Calc considera le doppie virgolette precedute da escape come un valore letterale. Ad esempio, la formula <input>=\"Il mio nome è \"\"John Doe\"\".\"</input> restituisce la stringa <literal>Il mio nome è \"John Doe\".</literal> Un altro semplice esempio è la formula <input>=UNICODE(\"\"\"\")</input> che restituisce <literal>34</literal>, il valore decimale del carattere Unicode delle virgolette (U+0022) — qui la prima e la quarta doppia virgoletta indicano l'inizio e la fine della stringa, mentre la seconda doppia virgoletta è un escape della terza."
+msgstr "È possibile eseguire l'escape delle doppie virgolette con un'ulteriore doppia virgoletta, nel qual caso Calc considera le doppie virgolette precedute da escape come un valore letterale. Ad esempio, la formula <input>=\"Il mio nome è \"\"Mario Rossi\"\".\"</input> restituisce la stringa <literal>Il mio nome è \"Mario Rossi\".</literal> Un altro semplice esempio è la formula <input>=UNICODE(\"\"\"\")</input> che restituisce <literal>34</literal>, il valore decimale del carattere Unicode delle virgolette (U+0022) — qui la prima e la quarta doppia virgoletta indicano l'inizio e la fine della stringa, mentre la seconda doppia virgoletta è un escape della terza."
 
 #. MfLZn
 #: 04060110.xhp
@@ -20201,7 +20201,7 @@ msgctxt ""
 "par_id21624454513641\n"
 "help.text"
 msgid "You can use the CHAR function or the UNICHAR function to insert a double quotation mark. For example, the formula <input>=UNICHAR(34) & \"The Catcher in the Rye\" & UNICHAR(34) & \" is a famous book by J. D. Salinger.\"</input> displays the string <literal>\"The Catcher in the Rye\" is a famous book by J. D. Salinger.</literal>"
-msgstr "Potete usare la funzione CHAR o la funzione UNICHAR per inserire una virgoletta doppia. Ad esempio, la formula <input>=UNICHAR(34) & \"Il giovane Holden\" & UNICHAR(34) & \" è un celebre romanzo di J.D. Salinger.\"</input> visualizza la stringa <literal>\"Il giovane Holden\" è un celebre romanzo di J.D. Salinger.</literal>"
+msgstr "È possibile usare la funzione CODICE.CARATT o la funzione CARATT.UNI per inserire una virgoletta doppia. Ad esempio, la formula <input>=CARATT.UNI(34) & \"Il giovane Holden\" & CARATT.UNI(34) & \" è un celebre romanzo di J.D. Salinger.\"</input> visualizza la stringa <literal>\"Il giovane Holden\" è un celebre romanzo di J.D. Salinger.</literal>"
 
 #. cpK3Z
 #: 04060110.xhp
@@ -23972,7 +23972,7 @@ msgctxt ""
 "hd_id3154935\n"
 "help.text"
 msgid "String Array"
-msgstr "Matrice stringa"
+msgstr "Matrice di stringhe"
 
 #. iSVvD
 #: 04060112.xhp
@@ -38084,7 +38084,7 @@ msgctxt ""
 "par_id3156108\n"
 "help.text"
 msgid "<emph>Number</emph> is the value for which the probability density function is calculated."
-msgstr "<emph>Numero</emph> è il valore numerico in cui calcolare la funzione di densità di probabilità."
+msgstr "<emph>Numero</emph> è il valore numerico per cui calcolare la funzione di densità di probabilità."
 
 #. 92hiK
 #: 04060184.xhp
@@ -43871,7 +43871,7 @@ msgctxt ""
 "par_id3151246\n"
 "help.text"
 msgid "<ahelp hid=\".\">This is a toggleable control that joins all cells in a rectangular selection into a single cell, or returns merged cells to the original individual cells. When merging it will format the merged cell as center aligned.</ahelp>"
-msgstr "<ahelp hid=\".\">Questo è un controllo attivabile che unisce tutte le celle di una selezione rettangolare in una singola cella, o restituisce le celle unite alle singole celle originali. Quando si unisce formatta la cella unita come allineata al centro.</ahelp>"
+msgstr "<ahelp hid=\".\">Questo è un controllo attivabile che unisce tutte le celle di una selezione rettangolare in un'unica cella, o restituisce le celle unite alle singole celle originali. La cella ottenuta dalla combinazione di celle sarà allineata al centro.</ahelp>"
 
 #. b63oA
 #: 05060000.xhp
@@ -43880,7 +43880,7 @@ msgctxt ""
 "par_id541633057818950\n"
 "help.text"
 msgid "The control is shown toggled-on whenever there are merged cells in the selection, indicating that clicking the control will unmerge those cells."
-msgstr "Il controllo viene visualizzato attivato ogni volta che nella selezione sono presenti celle unite, indicando che facendo clic sul controllo tali celle verranno separate."
+msgstr "Il controllo risulta attivo quando nella selezione sono presenti celle unite a indicare che facendo clic sul controllo tali celle verranno separate."
 
 #. MiEGm
 #: 05060000.xhp
@@ -43952,7 +43952,7 @@ msgctxt ""
 "par_id581632979766784\n"
 "help.text"
 msgid "Merging a cell selection that partially includes merged cells is generally possible with <emph>Unmerge Cells</emph> followed by <emph>Merge Cells</emph>, without altering the initial selection. The result will be largely depend on previous choices when merging cells made with the <emph>Merge Cells Dialog</emph> options described below."
-msgstr "L'unione di una selezione di celle che include parzialmente celle unite è generalmente possibile tramite <emph>Separa celle</emph> seguito da <emph>Unisci celle</emph>, senza alterare la selezione iniziale. Il risultato dipenderà in gran parte dalle scelte precedenti quando si uniscono le celle per mezzo delle opzioni di <emph>Finestra di dialogo Unisci celle</emph> descritte di seguito."
+msgstr "L'unione di una selezione di celle che include parzialmente celle unite è generalmente possibile tramite <emph>Separa celle</emph> seguito da <emph>Unisci celle</emph>, senza alterare la selezione iniziale. Il risultato dipenderà in gran parte dalle scelte effettuate in precedenza, in fase di aggregazione delle celle, mediante le opzioni contenute nella <emph>finestra di dialogo Unisci celle</emph> e descritte di seguito."
 
 #. wNBDD
 #: 05060000.xhp
@@ -43988,7 +43988,7 @@ msgctxt ""
 "par_id391632360383197\n"
 "help.text"
 msgid "Merge Cells Dialog Options"
-msgstr "Opzioni finestra di dialogo Unisci celle"
+msgstr "Opzioni della finestra di dialogo Unisci celle"
 
 #. LBMEE
 #: 05060000.xhp
@@ -44429,7 +44429,7 @@ msgctxt ""
 "par_idN109B5\n"
 "help.text"
 msgid "Specifies the maximum number of pages horizontally (width) and vertically (height) on which every sheet with the current Page Style is to be printed."
-msgstr "Specifica il numero massimo di pagine, in direzione orizzontale (larghezza) e verticale (altezza), su cui dovranno essere stampate i fogli con lo stile di pagina attivo."
+msgstr "Specifica il numero massimo di pagine, in direzione orizzontale (larghezza) e verticale (altezza), su cui dovranno essere stampati i fogli con lo stile di pagina attivo."
 
 #. KGfGD
 #: 05070500.xhp
@@ -45140,7 +45140,7 @@ msgctxt ""
 "par_id181630332690300\n"
 "help.text"
 msgid "The AutoFormat command is available only if a cell range with at least 3 columns and 3 rows are selected. Otherwise this command will appear grayed out in the menu."
-msgstr "Il comando Formattazione automatica è disponibile solo se è selezionato un intervallo di celle contenente minimo 3 colonne e 3 righe. Altrimenti tale comando sarà visualizzato in grigio nel menu."
+msgstr "Il comando Formattazione automatica è disponibile solo se è selezionato un intervallo di celle contenente almeno 3 colonne e 3 righe. Altrimenti tale comando appare in grigio nel menu."
 
 #. Gid6Q
 #: 05110000.xhp
@@ -45347,7 +45347,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Conditional Formatting"
-msgstr "Formattazione condizionata"
+msgstr "Formattazione condizionale"
 
 #. 76cMu
 #: 05120000.xhp
@@ -45383,7 +45383,7 @@ msgctxt ""
 "par_id2414014\n"
 "help.text"
 msgid "To apply conditional formatting, AutoCalculate must be enabled. Choose <emph>Data - Calculate - AutoCalculate</emph> (you see a check mark next to the command when AutoCalculate is enabled)."
-msgstr "Per applicare la formattazione condizionata, dovete abilitare il Calcolo automatico. Scegliete <emph>Dati - Calcola - Calcolo automatico</emph> (quando il comando Calcolo automatico è abilitato sarà presente affianco un segno di spunta)."
+msgstr "Per applicare la formattazione condizionale, è necessario attivare il comando Calcolo automatico. Scegliere <emph>Dati - Calcola - Calcolo automatico</emph> (quando il Calcolo automatico è attivato, è presente un segno di spunta accanto al comando)."
 
 #. NvgCF
 #: 05120000.xhp
@@ -45392,7 +45392,7 @@ msgctxt ""
 "bm_id3153189\n"
 "help.text"
 msgid "<bookmark_value>conditional formatting; conditions</bookmark_value>"
-msgstr "<bookmark_value>Formattazione;condizionata</bookmark_value>"
+msgstr "<bookmark_value>Formattazione;condizionale; condizioni</bookmark_value>"
 
 #. tYBMm
 #: 05120000.xhp
@@ -46841,7 +46841,7 @@ msgctxt ""
 "par_id701619429750616\n"
 "help.text"
 msgid "Choose <emph>Tools - Protect Sheet</emph> to open the <emph>Protect Sheet</emph> dialog in which you then specify sheet protection with or without a password, and select the elements of the sheet to protect."
-msgstr "Scegliete <emph>Strumenti - Proteggi foglio</emph> per aprire la finestra di dialogo <emph>Proteggi foglio</emph> in cui è possibile specificare la protezione con o senza password e gli elementi del foglio da proteggere."
+msgstr "Scegliere <emph>Strumenti - Proteggi foglio</emph> per aprire la finestra di dialogo <emph>Proteggi foglio</emph> in cui specificare la protezione del foglio con o senza password e selezionare gli elementi del foglio da proteggere."
 
 #. vFHpY
 #: 06060100.xhp
@@ -46868,7 +46868,7 @@ msgctxt ""
 "par_id381619431285815\n"
 "help.text"
 msgid "Mark this checkbox to activate protection of sheet and cell contents."
-msgstr "Contrassegnate questa casella per attivare la protezione del foglio e del contenuto delle celle."
+msgstr "Selezionare questa casella di controllo per attivare la protezione del contenuto del foglio e delle celle."
 
 #. SFevC
 #: 06060100.xhp
@@ -46886,7 +46886,7 @@ msgctxt ""
 "par_id851619431300487\n"
 "help.text"
 msgid "Allows you to enter a password to protect the sheet from unauthorized changes. Confirm the password entered in the first box."
-msgstr "Per proteggere il foglio da modifiche non autorizzate, è possibile inserire in questo campo una password. Confermate la password inserita nel primo campo."
+msgstr "Consente di inserire una password per proteggere il foglio da modifiche non autorizzate. Confermare la password inserita nella prima casella."
 
 #. WX7Gh
 #: 06060100.xhp
@@ -46904,7 +46904,7 @@ msgctxt ""
 "par_id41619431361278\n"
 "help.text"
 msgid "Select the elements to protect from user actions:"
-msgstr "Selezionate gli elementi da proteggere dalle azioni degli utenti:"
+msgstr "Selezionare gli elementi da proteggere dalle azioni dell'utente:"
 
 #. 9Mc4m
 #: 06060100.xhp
@@ -46913,7 +46913,7 @@ msgctxt ""
 "par_id661619430257262\n"
 "help.text"
 msgid "<emph>Select protected cells</emph>: mark this checkbox to allow you to select protected cells. When the checkbox is unmarked, you cannot select protected cells, the cursor cannot enter in a protected range."
-msgstr "<emph>Seleziona celle protette</emph>: contrassegnate questa casella in modo da selezionare le celle protette. Se la casella non è spuntata, non è possibile selezionare le celle protette, e al cursore non è consentito l'accesso all'intervallo protetto."
+msgstr "<emph>Seleziona celle protette</emph>: selezionare questa casella di controllo per consentire la selezione di celle protette. Se la casella di controllo è deselezionata, non è possibile selezionare le celle protette, né posizionare il cursore in un intervallo protetto."
 
 #. UqBRQ
 #: 06060100.xhp
@@ -46922,7 +46922,7 @@ msgctxt ""
 "par_id921619430295947\n"
 "help.text"
 msgid "<emph>Select unprotected cells</emph>: mark this checkbox to allow user to select unprotected cells. When the checkbox is unmarked, user cannot select unprotected cells, the cursor cannot enter in a unprotected cell or range."
-msgstr "<emph>Seleziona celle non protette</emph>: contrassegnate questa casella per permettere all'utente di selezionare le celle non protette. Se la casella non è spuntata, l'utente non può selezionare le celle non protette, e al cursore non è consentito l'accesso a una cella o a un intervallo non protetto."
+msgstr "<emph>Seleziona celle non protette</emph>: selezionare questa casella di controllo per consentire all'utente di selezionare le celle non protette. Se la casella di controllo è deselezionata, l'utente non può selezionare le celle non protette, né posizionare il cursore in una cella o in un intervallo non protetto."
 
 #. R6DuD
 #: 06060100.xhp
@@ -46931,7 +46931,7 @@ msgctxt ""
 "par_id101619430333784\n"
 "help.text"
 msgid "<emph>Insert columns</emph>: Allow column insertions even when the sheet is protected. Note that when column insertions is enabled, you can insert columns even when the range to insert the new columns into contains protected cells which will get shifted after the insertion. Cells of the newly inserted columns inherit the Protection property of the range it belongs: when the new cell is inside a protected range, the cell is protected, and when it is in an unprotected range, the cell is unprotected."
-msgstr "<emph>Inserisci colonne</emph>: consente l'inserimento di colonne, anche se il foglio è protetto. Tenere presente che quando l'inserimento di colonne è abilitato, potete inserire colonne anche quando l'intervallo in cui inserire le nuove colonne contiene al suo interno celle protette, le quali verranno spostate dopo l'inserimento. Le celle delle nuove colonne inserite erediteranno le proprietà di protezione dell'intervallo cui appartengono: quando la nuova cella si trova all'interno di un intervallo protetto, la cella è protetta, mentre quando si trova in un intervallo non protetto, la cella non è protetta."
+msgstr "<emph>Inserisci colonne</emph>: consente di inserire colonne anche quando il foglio è protetto. È bene ricordare che abilitando l'inserimento di colonne, è possibile inserirle anche quando l'intervallo in cui inserire le nuove colonne contiene celle protette che verranno spostate dopo l'inserimento. Le celle delle colonne appena inserite ereditano la proprietà Protezione dell'intervallo a cui appartengono: se la nuova cella si trova all'interno di un intervallo protetto, la cella è protetta, mentre non è protetta se si trova in un intervallo non protetto."
 
 #. 36hCi
 #: 06060100.xhp
@@ -55598,7 +55598,7 @@ msgctxt ""
 "par_id151634221012221\n"
 "help.text"
 msgid "The largest Roman number that can be converted is MMMCMXCIX (or one of its simplified versions), which is equivalent to 3999."
-msgstr "Il  numero romano più alto in grado di essere convertito è MMMCMXCIX (o una delle sue versioni semplificate), che equivale a 3999."
+msgstr "Il numero romano più alto in grado di essere convertito è MMMCMXCIX (o una delle sue versioni semplificate), che equivale a 3999."
 
 #. AueXr
 #: func_arabic.xhp
@@ -65840,7 +65840,7 @@ msgctxt ""
 "par_id501628780340635\n"
 "help.text"
 msgid "<input>=VALUE(\"09:20:25\")</input> returns 0.389178240740741 which is the date-time sequence number corresponding to the specified time value."
-msgstr "<input>=VALORE(\"09:20:25\")</input> restituisce 0,389178240740741 che è il numero di sequenza data-ora corrispondente al valore temporale specificato."
+msgstr "<input>=VALORE(\"09:20:25\")</input> restituisce 0,389178240740741, cioè il numero di sequenza data-ora corrispondente al valore temporale specificato."
 
 #. qxHgs
 #: func_value.xhp
