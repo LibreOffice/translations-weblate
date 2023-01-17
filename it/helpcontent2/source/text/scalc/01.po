@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2022-12-10 08:24+0000\n"
+"PO-Revision-Date: 2023-01-17 11:18+0000\n"
 "Last-Translator: Elisabetta Manuele <calembour@hotmail.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-7-4/textscalc01/it/>\n"
 "Language: it\n"
@@ -13336,7 +13336,7 @@ msgctxt ""
 "par_id431635251540138\n"
 "help.text"
 msgid "<input>=SERIESSUM(A1; 0; 1; {1; 2; 3})</input> calculates the value of 1+2x+3x<sup>2</sup>, where x is the value in cell A1. If A1 contains 1, the formula returns 6; if A1 contains 2, the formula returns 17; if A1 contains 3, the formula returns 34; and so on."
-msgstr "<input>=SOMMA:SERIE(A1; 0; 1; {1; 2; 3})</input> calcola il valore di 1+2x+3x<sup>2</sup>, dove x è il valore all'interno della cella A1. Se A1 contiene 1 la formula restituisce 6; se A1 contiene 2 la formula restituisce 17; se A1 contiene 3 la formula restituisce 34, ecc."
+msgstr "<input>=SOMMA.SERIE(A1; 0; 1; {1; 2; 3})</input> calcola il valore di 1+2x+3x<sup>2</sup>, dove x è il valore all'interno della cella A1. Se A1 contiene 1 la formula restituisce 6; se A1 contiene 2 la formula restituisce 17; se A1 contiene 3 la formula restituisce 34, ecc."
 
 #. i8GB7
 #: 04060106.xhp
@@ -20059,7 +20059,7 @@ msgctxt ""
 "par_id541624454496424\n"
 "help.text"
 msgid "You can \"escape\" the double quotation mark with an additional double quotation mark, and Calc treats the escaped double quotation mark as a literal value. For example, the formula <input>=\"My name is \"\"John Doe\"\".\"</input> outputs the string <literal>My name is \"John Doe\".</literal> Another simple example is the formula <input>=UNICODE(\"\"\"\")</input> which returns <literal>34</literal>, the decimal value of the Unicode quotation mark character (U+0022) — here the first and fourth double quotation marks indicate the beginning and end of the string, while the second double quotation mark escapes the third."
-msgstr "Potete eseguire l'escape delle doppie virgolette con un'ulteriore doppia virgoletta, nel qual caso Calc considera le doppie virgolette precedute da escape come un valore letterale. Ad esempio, la formula <input>=\"Il mio nome è \"\"John Doe\"\".\"</input> restituisce la stringa <literal>Il mio nome è \"John Doe\".</literal> Un altro semplice esempio è la formula <input>=UNICODE(\"\"\"\")</input> che restituisce <literal>34</literal>, il valore decimale del carattere Unicode delle virgolette (U+0022) — qui la prima e la quarta doppia virgoletta indicano l'inizio e la fine della stringa, mentre la seconda doppia virgoletta è un escape della terza."
+msgstr "È possibile eseguire l'escape delle doppie virgolette con un'ulteriore doppia virgoletta, nel qual caso Calc considera le doppie virgolette precedute da escape come un valore letterale. Ad esempio, la formula <input>=\"Il mio nome è \"\"Mario Rossi\"\".\"</input> restituisce la stringa <literal>Il mio nome è \"Mario Rossi\".</literal> Un altro semplice esempio è la formula <input>=UNICODE(\"\"\"\")</input> che restituisce <literal>34</literal>, il valore decimale del carattere Unicode delle virgolette (U+0022) — qui la prima e la quarta doppia virgoletta indicano l'inizio e la fine della stringa, mentre la seconda doppia virgoletta è un escape della terza."
 
 #. MfLZn
 #: 04060110.xhp
@@ -20068,7 +20068,7 @@ msgctxt ""
 "par_id21624454513641\n"
 "help.text"
 msgid "You can use the CHAR function or the UNICHAR function to insert a double quotation mark. For example, the formula <input>=UNICHAR(34) & \"The Catcher in the Rye\" & UNICHAR(34) & \" is a famous book by J. D. Salinger.\"</input> displays the string <literal>\"The Catcher in the Rye\" is a famous book by J. D. Salinger.</literal>"
-msgstr "Potete usare la funzione CHAR o la funzione UNICHAR per inserire una virgoletta doppia. Ad esempio, la formula <input>=UNICHAR(34) & \"Il giovane Holden\" & UNICHAR(34) & \" è un celebre romanzo di J.D. Salinger.\"</input> visualizza la stringa <literal>\"Il giovane Holden\" è un celebre romanzo di J.D. Salinger.</literal>"
+msgstr "È possibile usare la funzione CODICE.CARATT o la funzione CARATT.UNI per inserire una virgoletta doppia. Ad esempio, la formula <input>=CARATT.UNI(34) & \"Il giovane Holden\" & CARATT.UNI(34) & \" è un celebre romanzo di J.D. Salinger.\"</input> visualizza la stringa <literal>\"Il giovane Holden\" è un celebre romanzo di J.D. Salinger.</literal>"
 
 #. cpK3Z
 #: 04060110.xhp
@@ -20554,7 +20554,7 @@ msgctxt ""
 "par_id3145241\n"
 "help.text"
 msgid "<emph>Radix</emph> indicates the base of the numeral system. It may be any positive integer between 2 and 36."
-msgstr "<emph>Radice</emph> indica la base del sistema numerico. Può essere un intero positivo compreso tra 2 e 36."
+msgstr "<emph>Radice</emph> indica la base del sistema numerico. Può essere un numero intero tra 2 e 36."
 
 #. PzV8b
 #: 04060110.xhp
@@ -23929,7 +23929,7 @@ msgctxt ""
 "hd_id3154935\n"
 "help.text"
 msgid "String Array"
-msgstr "Matrice stringa"
+msgstr "Matrice di stringhe"
 
 #. iSVvD
 #: 04060112.xhp
@@ -25009,7 +25009,7 @@ msgctxt ""
 "par_id3155255\n"
 "help.text"
 msgid "<emph>Number</emph> is a string representing a binary (base-2) number. It can have a maximum of 10 places (bits). The most significant bit is the sign bit. Negative numbers are entered as two's complement."
-msgstr "<emph>Numero</emph> è una stringa rappresentante un numero binario (base 2). Può avere un massimo di 10 cifre (bit). Il bit più significativo è quello di segno. I numeri negativi devono essere inseriti come complemento a due."
+msgstr "<emph>Numero</emph> è una stringa rappresentante un numero binario (base 2). Può avere un massimo di 10 cifre (bits). Il bit più significativo è quello di segno. I numeri negativi devono essere inseriti come complemento a due."
 
 #. dPTaY
 #: 04060115.xhp
@@ -25072,7 +25072,7 @@ msgctxt ""
 "par_id3153567\n"
 "help.text"
 msgid "<emph>Number</emph> is a string representing a binary (base-2) number. It can have a maximum of 10 places (bits). The most significant bit is the sign bit. Negative numbers are entered as two's complement."
-msgstr "<emph>Numero</emph> è una stringa rappresentante un numero binario (base 2). Può avere un massimo di 10 cifre (bit). Il bit più significativo è quello di segno. I numeri negativi devono essere inseriti come complemento a due."
+msgstr "<emph>Numero</emph> è una stringa rappresentante un numero binario (base 2). Può avere un massimo di 10 cifre (bits). Il bit più significativo è quello di segno. I numeri negativi devono essere inseriti come complemento a due."
 
 #. Fx75T
 #: 04060115.xhp
@@ -46573,7 +46573,7 @@ msgctxt ""
 "par_id101619430333784\n"
 "help.text"
 msgid "<emph>Insert columns</emph>: Allow column insertions even when the sheet is protected. Note that when column insertions is enabled, you can insert columns even when the range to insert the new columns into contains protected cells which will get shifted after the insertion. Cells of the newly inserted columns inherit the Protection property of the range it belongs: when the new cell is inside a protected range, the cell is protected, and when it is in an unprotected range, the cell is unprotected."
-msgstr "<emph>Inserisci colonne</emph>: consente l'inserimento di colonne, anche se il foglio è protetto. Tenere presente che quando l'inserimento di colonne è abilitato, potete inserire colonne anche quando l'intervallo in cui inserire le nuove colonne contiene al suo interno celle protette, le quali verranno spostate dopo l'inserimento. Le celle delle nuove colonne inserite erediteranno le proprietà di protezione dell'intervallo cui appartengono: quando la nuova cella si trova all'interno di un intervallo protetto, la cella è protetta, mentre quando si trova in un intervallo non protetto, la cella non è protetta."
+msgstr "<emph>Inserisci colonne</emph>: consente di inserire colonne anche quando il foglio è protetto. È bene ricordare che abilitando l'inserimento di colonne, è possibile inserirle anche quando l'intervallo in cui inserire le nuove colonne contiene celle protette che verranno spostate dopo l'inserimento. Le celle delle colonne appena inserite ereditano la proprietà Protezione dell'intervallo a cui appartengono: se la nuova cella si trova all'interno di un intervallo protetto, la cella è protetta, mentre non è protetta se si trova in un intervallo non protetto."
 
 #. 36hCi
 #: 06060100.xhp
@@ -55357,7 +55357,7 @@ msgctxt ""
 "par_id151634221012221\n"
 "help.text"
 msgid "The largest Roman number that can be converted is MMMCMXCIX (or one of its simplified versions), which is equivalent to 3999."
-msgstr "Il  numero romano più alto in grado di essere convertito è MMMCMXCIX (o una delle sue versioni semplificate), che equivale a 3999."
+msgstr "Il numero romano più alto in grado di essere convertito è MMMCMXCIX (o una delle sue versioni semplificate), che equivale a 3999."
 
 #. AueXr
 #: func_arabic.xhp
@@ -65716,7 +65716,7 @@ msgctxt ""
 "par_id911641928545976\n"
 "help.text"
 msgid "Use negative values for <emph>Count</emph> to round the integer part of the original <emph>Number</emph>. For example, -1 will round down the first integer number before the decimal separator, -2 will round down the two integer numbers before the decimal separator, and so forth."
-msgstr "Utilizzare valori negativi per <emph>Conteggio</emph> per arrotondare la parte intera del <emph>Numero</emph> originale. Ad esempio, -1 arrotonda il primo numero intero prima del separatore decimale (unità), -2 arrotonda i due numeri interi prima del separatore decimale (decine) e così via."
+msgstr "Utilizzate valori negativi per <emph>Conteggio</emph> per arrotondare la parte intera del <emph>Numero</emph> originale. Ad esempio, -1 arrotonda il primo numero intero prima del separatore decimale (unità), -2 arrotonda i due numeri interi prima del separatore decimale (decine) e così via."
 
 #. EJFZd
 #: func_trunc.xhp
@@ -65869,7 +65869,7 @@ msgctxt ""
 "par_id501628780340635\n"
 "help.text"
 msgid "<input>=VALUE(\"09:20:25\")</input> returns 0.389178240740741 which is the date-time sequence number corresponding to the specified time value."
-msgstr "<input>=VALORE(\"09:20:25\")</input> restituisce 0,389178240740741 che è il numero di sequenza data-ora corrispondente al valore temporale specificato."
+msgstr "<input>=VALORE(\"09:20:25\")</input> restituisce 0,389178240740741, cioè il numero di sequenza data-ora corrispondente al valore temporale specificato."
 
 #. qxHgs
 #: func_value.xhp
