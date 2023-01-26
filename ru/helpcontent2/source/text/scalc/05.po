@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: 05\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-12-07 19:22+0100\n"
-"PO-Revision-Date: 2023-01-23 11:28+0000\n"
+"PO-Revision-Date: 2023-01-26 15:16+0000\n"
 "Last-Translator: Timon <kaktebyavirubit@gmail.com>\n"
 "Language-Team: Russian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc05/ru/>\n"
 "Language: ru\n"
@@ -176,7 +176,7 @@ msgctxt ""
 "par_id3153160\n"
 "help.text"
 msgid "Function argument is not valid. For example, a negative number for the SQRT() function, for this please use IMSQRT()."
-msgstr "Недопустимый аргумент функции. Например, отрицательное число в функции SQRT() (в этом случае следует использовать IMSQRT())."
+msgstr "Недопустимый аргумент функции. Например, отрицательное число в функции КОРЕНЬ() (в этом случае следует использовать МНИМ.КОРЕНЬ())."
 
 #. XtB4F
 #: 02140000.xhp
@@ -437,7 +437,7 @@ msgctxt ""
 "par_id3155954\n"
 "help.text"
 msgid "No value (instead of Err:519 cell displays #VALUE!)"
-msgstr ""
+msgstr "Нет значения (вместо Ошибка:519 ячейка отображает #ЗНАЧ!)"
 
 #. cf6oh
 #: 02140000.xhp
@@ -473,7 +473,7 @@ msgctxt ""
 "par_id3153737\n"
 "help.text"
 msgid "Internal syntax error (instead of Err:521 cell displays #NULL!)"
-msgstr "Внутренняя синтаксическая ошибка (вместо Err:521 ячейка отображает #NULL!)"
+msgstr "Внутренняя синтаксическая ошибка (вместо Ошибка:521 ячейка отображает #NULL!)"
 
 #. AiUic
 #: 02140000.xhp
@@ -536,7 +536,7 @@ msgctxt ""
 "par_id3154634\n"
 "help.text"
 msgid "Not a valid reference (instead of Err:524 cell displays #REF!)"
-msgstr ""
+msgstr "Недействительная ссылка (вместо Ошибка:524 ячейка отображает #ССЫЛ!)"
 
 #. iGGQE
 #: 02140000.xhp
@@ -563,7 +563,7 @@ msgctxt ""
 "par_id3148428\n"
 "help.text"
 msgid "invalid names (instead of Err:525 cell displays #NAME?)"
-msgstr "некорректные имена (вместо Err:525 ячейка отображает #NAME!)"
+msgstr "некорректные имена (вместо Ошибка:525 ячейка отображает #NAME?)"
 
 #. pTzCU
 #: 02140000.xhp
@@ -671,7 +671,7 @@ msgctxt ""
 "par_id5844294\n"
 "help.text"
 msgid "Division operator / if the denominator is 0<br/>Some more functions return this error, for example:<br/>VARP with less than 1 argument<br/>STDEVP with less than 1 argument<br/>VAR with less than 2 arguments<br/>STDEV with less than 2 arguments<br/>STANDARDIZE with stdev=0<br/>NORMDIST with stdev=0"
-msgstr "Оператор деления/если знаменатель равен 0.<br/>Эта ошибка возвращается некоторыми функциями, например:<br/>VARP с менее чем 1 аргументом<br/>STDEVP с менее чем 1 аргументом<br/>ВАР с менее чем 2 аргументами<br/>STDEV с менее чем 2 аргументами<br/>STANDARDIZE с stdev=0<br/>NORMDIST с stdev=0"
+msgstr "Оператор деления/если знаменатель равен 0.<br/>Эта ошибка возвращается некоторыми функциями, например:<br/>ДИСПГ с менее чем 1 аргументом<br/>СТОТКЛГ с менее чем 1 аргументом<br/>ДИСП с менее чем 2 аргументами<br/>СТОТКЛ с менее чем 2 аргументами<br/>НОРМАЛИЗАЦИЯ со Ст. откл.=0<br/>НОРМРАСП со Ст. откл.=0"
 
 #. qUCvU
 #: 02140000.xhp
@@ -770,7 +770,7 @@ msgctxt ""
 "par_id8266853\n"
 "help.text"
 msgid "In older versions of the software, empty cells were forced to numeric 0 in some contexts and to empty string in others, except in direct comparison where =A1=0 and =A1=\"\" both resulted in TRUE if A1 was empty. Emptiness now is inherited until used, so both =VLOOKUP(...)=0 and =VLOOKUP(...)=\"\" give TRUE if the lookup resulted in an empty cell being returned."
-msgstr "В предыдущих версиях программы в пустых ячейках в некоторых контекстах принудительно устанавливалось число 0, а в других - пустая строка, за исключением прямого сравнения, где обе формулы =A1=0 и =A1=\"\" возвращали значение TRUE в том случае, если ячейка A1 была пустой. Теперь пустота ячейки наследуется до момента её использования, поэтому оба выражения =VLOOKUP(...)=0 и =VLOOKUP(...)=\"\" возвращают значение TRUE, если в результате поиска возвращена пустая ячейка."
+msgstr "В предыдущих версиях программы в пустых ячейках в некоторых контекстах принудительно устанавливалось число 0, а в других - пустая строка, за исключением прямого сравнения, где обе формулы =A1=0 и =A1=\"\" возвращали значение ИСТИНА в том случае, если ячейка A1 была пустой. Теперь пустота ячейки наследуется до момента её использования, поэтому оба выражения =ВПР(...)=0 и =ВПР(...)=\"\" возвращают значение ИСТИНА, если в результате поиска возвращена пустая ячейка."
 
 #. FKFTK
 #: empty_cells.xhp
@@ -896,7 +896,7 @@ msgctxt ""
 "par_id221535143151829\n"
 "help.text"
 msgid "=ISNUMBER(VLOOKUP(1;A1:C1;2))"
-msgstr "=ISNUMBER(VLOOKUP(1;A1:C1;2))"
+msgstr "=ЕЧИСЛО(ВПР(1;A1:C1;2))"
 
 #. eHH8h
 #: empty_cells.xhp
@@ -914,7 +914,7 @@ msgctxt ""
 "par_id861535143183196\n"
 "help.text"
 msgid "=ISNUMBER(VLOOKUP(1;A1:C1;3))"
-msgstr "=ISNUMBER(VLOOKUP(1;A1:C1;3))"
+msgstr "=ЕЧИСЛО(ВПР(1;A1:C1;3))"
 
 #. TGuuU
 #: empty_cells.xhp
