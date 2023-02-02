@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-01 11:51+0200\n"
-"PO-Revision-Date: 2022-11-14 08:10+0000\n"
+"PO-Revision-Date: 2023-02-02 12:25+0000\n"
 "Last-Translator: bormant <bormant@mail.ru>\n"
 "Language-Team: Russian <https://translations.documentfoundation.org/projects/libo_ui-7-3/dbaccessmessages/ru/>\n"
 "Language: ru\n"
@@ -154,7 +154,7 @@ msgid ""
 "The given command is not a SELECT statement.\n"
 "Only queries are allowed."
 msgstr ""
-"Эта команда не является запросом типа SELECT.\n"
+"Эта команда не является инструкцией SELECT.\n"
 "Допустимы только запросы на выборку данных."
 
 #. 4CSx9
@@ -179,7 +179,7 @@ msgstr "Невозможно вставить значения. ResultSet не �
 #: dbaccess/inc/strings.hrc:38
 msgctxt "RID_STR_NO_UPDATE_MISSING_CONDITION"
 msgid "Values could not be modified, due to a missing condition statement."
-msgstr "Невозможно изменить значения из-за отсутствия условного выражения."
+msgstr "Невозможно изменить значения из-за отсутствия условной инструкции."
 
 #. 7Jns7
 #: dbaccess/inc/strings.hrc:39
@@ -439,7 +439,7 @@ msgstr "Нет прав на операцию INSERT."
 #: dbaccess/inc/strings.hrc:79
 msgctxt "RID_STR_INTERNAL_ERROR"
 msgid "Internal error: no statement object provided by the database driver."
-msgstr "Внутренняя ошибка: нет описания объекта, предоставленного драйвером базы данных."
+msgstr "Внутренняя ошибка: нет объекта инструкций, предоставленного драйвером базы данных."
 
 #. SMWJi
 #: dbaccess/inc/strings.hrc:80
@@ -499,7 +499,7 @@ msgstr "Расширение не установлено."
 #: dbaccess/inc/strings.hrc:90
 msgctxt "STR_QUERY_AND_TABLE_DISTINCT_NAMES"
 msgid "You cannot give a table and a query the same name. Please use a name which is not yet used by a query or table."
-msgstr "Нельзя использовать одинаковые имена для таблиц и запросов. Используйте уникальные имена."
+msgstr "Невозможно использовать одинаковые имена для таблиц и запросов. Используйте уникальные имена."
 
 #. bT6Um
 #: dbaccess/inc/strings.hrc:91
@@ -517,7 +517,7 @@ msgstr "Запрос"
 #: dbaccess/inc/strings.hrc:93
 msgctxt "STR_CONN_WITHOUT_QUERIES_OR_TABLES"
 msgid "The given connection is no valid query and/or tables supplier."
-msgstr "Данное подсоединение не предоставляет таблиц и/или запросов."
+msgstr "Данное подключение не предоставляет таблиц и/или запросов."
 
 #. 7J5ZA
 #: dbaccess/inc/strings.hrc:94
@@ -619,7 +619,7 @@ msgstr "(без сортировки);по возрастанию;по убыв�
 #: dbaccess/inc/strings.hrc:111
 msgctxt "STR_QUERY_FUNCTIONS"
 msgid "(no function);Group"
-msgstr "(без функции);Average;Count;Maximum;Minimum;Sum;Group"
+msgstr "(без функции);группировка"
 
 #. rLdqC
 #: dbaccess/inc/strings.hrc:112
@@ -661,7 +661,7 @@ msgstr "Невозможно применить данные условия к �
 #: dbaccess/inc/strings.hrc:118
 msgctxt "STR_QRY_TOO_LONG_STATEMENT"
 msgid "The SQL statement created is too long."
-msgstr "Созданное выражение SQL является слишком длинным."
+msgstr "Созданная инструкция SQL является слишком длинной."
 
 #. EumQ9
 #: dbaccess/inc/strings.hrc:119
@@ -709,7 +709,7 @@ msgstr "Осуществить связь не удаётся"
 #: dbaccess/inc/strings.hrc:126
 msgctxt "STR_SVT_SQL_SYNTAX_ERROR"
 msgid "Syntax error in SQL statement"
-msgstr "Синтаксическая ошибка в выражении SQL"
+msgstr "Синтаксическая ошибка в инструкции SQL"
 
 #. 4umu8
 #: dbaccess/inc/strings.hrc:127
@@ -757,7 +757,7 @@ msgstr "Перед «LIKE» обязательно должно быть исп�
 #: dbaccess/inc/strings.hrc:134
 msgctxt "STR_QRY_CHECK_CASESENSITIVE"
 msgid "The column could not be found. Please note that the database is case-sensitive."
-msgstr "Столбец не найден. Возможно данная база данных различает названия в прописных и строчных буквах."
+msgstr "Столбец не найден. Обратите внимание, что база данных чувствительна к регистру."
 
 #. 8fSWD
 #. To translators: for $object$, one of the values of the RSC_QUERY_OBJECT_TYPE resource will be inserted.
@@ -962,7 +962,7 @@ msgstr "Отчёты"
 #: dbaccess/inc/strings.hrc:173
 msgctxt "RID_STR_REPORTS_HELP_TEXT_WIZARD"
 msgid "The wizard will guide you through the steps necessary to create a report."
-msgstr "Мастер проведёт вас через шаги, необходимые для создания отчёта."
+msgstr "Мастер проведёт через шаги, необходимые для создания отчёта."
 
 #. e4rD6
 #: dbaccess/inc/strings.hrc:174
@@ -980,7 +980,7 @@ msgstr "Создать отчёт, указав источник данных, �
 #: dbaccess/inc/strings.hrc:176
 msgctxt "RID_STR_FORMS_HELP_TEXT_WIZARD"
 msgid "The wizard will guide you through the steps necessary to create a form."
-msgstr "Мастер проведёт вас через шаги, необходимые для создания формы."
+msgstr "Мастер проведёт через шаги, необходимые для создания формы."
 
 #. c6NPF
 #: dbaccess/inc/strings.hrc:177
@@ -998,7 +998,7 @@ msgstr "Создать запрос, введя инструкции SQL нап�
 #: dbaccess/inc/strings.hrc:179
 msgctxt "RID_STR_QUERIES_HELP_TEXT_WIZARD"
 msgid "The wizard will guide you through the steps necessary to create a query."
-msgstr "Этот мастер поможет вам создать запрос."
+msgstr "Этот мастер поможет создать запрос."
 
 #. hFmde
 #: dbaccess/inc/strings.hrc:180
@@ -1048,7 +1048,7 @@ msgstr ""
 "Изменился тип подключения.\n"
 "Чтобы изменения вступили в силу, нужно закрыть все формы, отчёты, запросы и таблицы.\n"
 "\n"
-"Хотите закрыть все документы сейчас?"
+"Закрыть все документы сейчас?"
 
 #. 5Ujux
 #: dbaccess/inc/strings.hrc:189
@@ -1100,7 +1100,7 @@ msgstr "Встроенная база данных"
 #: dbaccess/inc/strings.hrc:199
 msgctxt "RID_STR_NO_DIFF_CAT"
 msgid "You cannot select different categories."
-msgstr "Вы не можете выбрать другие категории."
+msgstr "Невозможно выбрать другие категории."
 
 #. HMRSN
 #: dbaccess/inc/strings.hrc:200
@@ -1519,7 +1519,7 @@ msgid ""
 "\n"
 "This statement will be directly transferred to the database when the table is created."
 msgstr ""
-"Введите SQL-инструкцию для автоинкрементируемого поля.\n"
+"Введите инструкцию SQL для автоинкрементируемого поля.\n"
 "\n"
 "Эта инструкция будет непосредственно передана в базу данных в момент создания таблицы."
 
@@ -1531,7 +1531,7 @@ msgid ""
 "The table design mode is not available for this data source."
 msgstr ""
 "Информация о типах не может быть получена из базы данных.\n"
-"Режим проектирования таблиц не доступен для этого источника."
+"Режим дизайна таблиц не доступен для этого источника."
 
 #. 2s2rr
 #: dbaccess/inc/strings.hrc:267
@@ -1601,7 +1601,7 @@ msgstr "Папка"
 #: dbaccess/inc/strings.hrc:278
 msgctxt "STR_DATABASE_TYPE_CHANGE"
 msgid "Database properties"
-msgstr "Настройки базы данных"
+msgstr "Свойства базы данных"
 
 #. etNzz
 #: dbaccess/inc/strings.hrc:279
@@ -1619,7 +1619,7 @@ msgstr "Выберите «Подключение к базе данных» д�
 #: dbaccess/inc/strings.hrc:281
 msgctxt "STR_COULD_NOT_LOAD_ODBC_LIB"
 msgid "Could not load the program library #lib# or it is corrupted. The ODBC data source selection is not available."
-msgstr "Невозможно загрузить библиотеку программы #lib# (возможно она повреждена). Недоступен выбор источника данных ODBC."
+msgstr "Невозможно загрузить библиотеку программы #lib# (возможно, она повреждена). Недоступен выбор источника данных ODBC."
 
 #. d3vbZ
 #: dbaccess/inc/strings.hrc:282
@@ -1628,8 +1628,8 @@ msgid ""
 "This kind of data source is not supported on this platform.\n"
 "You are allowed to change the settings, but you probably will not be able to connect to the database."
 msgstr ""
-"Данный тип источников данных на этой платформе не поддерживается.\n"
-"Вы можете изменить настройки, но, вероятно, соединиться с этой базой данных будет невозможно."
+"Данный тип источников данных не поддерживается на этой платформе.\n"
+"Можно изменить настройки, но, вероятно, соединиться с этой базой данных будет невозможно."
 
 #. 2f7Ga
 #: dbaccess/inc/strings.hrc:283
@@ -1684,7 +1684,7 @@ msgstr "Соединение не установлено."
 #: dbaccess/inc/strings.hrc:293
 msgctxt "STR_JDBCDRIVER_SUCCESS"
 msgid "The JDBC driver was loaded successfully."
-msgstr "JDBC драйвер успешно загружен."
+msgstr "JDBC драйвер загружен успешно."
 
 #. RdMCN
 #: dbaccess/inc/strings.hrc:294
@@ -1756,13 +1756,13 @@ msgstr "Отменить:"
 #: dbaccess/inc/strings.hrc:306
 msgctxt "STR_REDO_COLON"
 msgid "Redo:"
-msgstr "Восстановить"
+msgstr "Вернуть:"
 
 #. ixMkj
 #: dbaccess/inc/strings.hrc:307
 msgctxt "STR_UNKNOWN_TYPE_FOUND"
 msgid "No corresponding column type could be found for column '#1'."
-msgstr "Не найден соответствующий тип столбца для столбца «#1»."
+msgstr "Не найден соответствующий тип для столбца «#1»."
 
 #. qVax3
 #: dbaccess/inc/strings.hrc:308
@@ -1791,7 +1791,7 @@ msgstr ""
 #: dbaccess/inc/strings.hrc:312
 msgctxt "RID_STR_EXTENSION_NOT_PRESENT"
 msgid "The report, \"$file$\", requires the Report Builder feature."
-msgstr "Отчёт \"$file$\" требует наличия Report Builder."
+msgstr "Отчёт «$file$» требует наличия Report Builder."
 
 #. oC8Px
 #: dbaccess/inc/strings.hrc:314
@@ -1869,13 +1869,13 @@ msgstr "Чтение"
 #: dbaccess/inc/strings.hrc:327
 msgctxt "STR_TABLE_PRIV_REFERENCE"
 msgid "Modify references"
-msgstr "Изменить ссылки"
+msgstr "Изменение ссылок"
 
 #. SEGp9
 #: dbaccess/inc/strings.hrc:328
 msgctxt "STR_TABLE_PRIV_DROP"
 msgid "Drop structure"
-msgstr "Удалить структуру"
+msgstr "Удаление структуры"
 
 #. BCCiv
 #: dbaccess/inc/strings.hrc:330
@@ -2207,7 +2207,7 @@ msgstr "Настройка подключения к базе Microsoft Access"
 #: dbaccess/inc/strings.hrc:385
 msgctxt "STR_MSACCESS_HELPTEXT"
 msgid "Please select the Microsoft Access file you want to access."
-msgstr "Выберите файл Microsoft Access, к которому вы хотите получить доступ."
+msgstr "Выберите файл Microsoft Access, к которому хотите получить доступ."
 
 #. DYcM8
 #: dbaccess/inc/strings.hrc:386
@@ -2223,7 +2223,7 @@ msgid ""
 "Click 'Browse' to configure provider-specific settings.\n"
 "Please contact your system administrator if you are unsure about the following settings."
 msgstr ""
-"Введите адрес источника данных ADO, к которому вы хотите подключиться.\n"
+"Введите URL-адрес источника данных ADO, к которому хотите подключиться.\n"
 "Нажмите «Просмотр» для настройки специфичных для провайдера настроек.\n"
 "Свяжитесь с системным администратором, если не уверены в правильности настроек."
 
@@ -2423,7 +2423,7 @@ msgstr "Информация"
 #: dbaccess/inc/strings.hrc:421
 msgctxt "STR_EXCEPTION_DETAILS"
 msgid "Details"
-msgstr "Детали"
+msgstr "Подробности"
 
 #. Avmtu
 #: dbaccess/inc/strings.hrc:423
@@ -2537,7 +2537,7 @@ msgstr "Чтобы копировать запрос, соединение до�
 #: dbaccess/inc/strings.hrc:443
 msgctxt "STR_CTW_ERROR_INVALID_INTERACTIONHANDLER"
 msgid "The given interaction handler is invalid."
-msgstr "Некорректное взаимодействие обработчика."
+msgstr "Неверный обработчик взаимодействия."
 
 #. ixrDD
 #: dbaccess/inc/strings.hrc:445
@@ -2561,7 +2561,7 @@ msgstr "Создать..."
 #: dbaccess/inc/strings.hrc:448
 msgctxt "STR_RELATIONDESIGN"
 msgid " - %PRODUCTNAME Base: Relation design"
-msgstr " - %PRODUCTNAME Base: конструктор связей"
+msgstr " - %PRODUCTNAME Base: дизайн связей"
 
 #. ZCd5X
 #: dbaccess/inc/strings.hrc:449
@@ -2582,7 +2582,7 @@ msgid ""
 "The database could not create the relation. Maybe foreign keys for this kind of table aren't supported.\n"
 "Please check your documentation of the database."
 msgstr ""
-"Невозможно создать связь. Возможно не поддерживаются внешние ключи для данного типа таблиц.\n"
+"Невозможно создать связь. Возможно, не поддерживаются внешние ключи для данного типа таблиц.\n"
 "Обратитесь к документации по базе данных."
 
 #. Fsz7D
@@ -2823,7 +2823,7 @@ msgstr "Автоматически корректирует ширину сто�
 #: dbaccess/uiconfig/ui/colwidthdialog.ui:168
 msgctxt "colwidthdialog|extended_tip|ColWidthDialog"
 msgid "Changes the width of the current column, or the selected columns."
-msgstr "Изменяет ширину текущего столбца или выделенных столбцов."
+msgstr "Изменяет ширину текущего или выбранных столбцов."
 
 #. zBVS9
 #: dbaccess/uiconfig/ui/connectionpage.ui:37
@@ -2997,7 +2997,7 @@ msgstr "Преобразование данных"
 #: dbaccess/uiconfig/ui/dbasepage.ui:91
 msgctxt "dbasepage|showDelRowsCheckbutton"
 msgid "Display deleted records as well"
-msgstr "Отображать удаленные записи"
+msgstr "Отображать удалённые записи"
 
 #. sD2dr
 #: dbaccess/uiconfig/ui/dbasepage.ui:108
@@ -3163,7 +3163,7 @@ msgstr "Выполнить команду SQL напрямую"
 #: dbaccess/uiconfig/ui/directsqldialog.ui:147
 msgctxt "directsqldialog|showoutput"
 msgid "_Show output of \"select\" statements"
-msgstr "Показать вывод _операторов \"SELECT\""
+msgstr "Показать вывод инструкций \"SELECT\""
 
 #. xJT2B
 #: dbaccess/uiconfig/ui/directsqldialog.ui:161
@@ -3296,7 +3296,7 @@ msgstr "Выравнивание"
 #: dbaccess/uiconfig/ui/fielddialog.ui:211
 msgctxt "fielddialog|alttitle"
 msgid "Table Format"
-msgstr "Оформление таблицы"
+msgstr "Формат таблицы"
 
 #. nTFUa
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:18
@@ -3350,7 +3350,7 @@ msgstr "Нажмите «Готово» для сохранения базы д�
 #: dbaccess/uiconfig/ui/generalpagedialog.ui:18
 msgctxt "generalpagedialog|datasourceTypePre"
 msgid "Select the type of database to which you want to establish a connection."
-msgstr "Выберите тип базы данных, к которой вы хотите подключиться."
+msgstr "Выберите тип базы данных для подключения."
 
 #. YBtFA
 #: dbaccess/uiconfig/ui/generalpagedialog.ui:34
@@ -3428,7 +3428,7 @@ msgstr "Недавние:"
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:175
 msgctxt "generalpagewizard|extended_tip|docListBox"
 msgid "Select a database file to open from the list of recently used files. Click Finish to open the file immediately and to exit the wizard."
-msgstr "Выберите открываемый файл базы данных из списка недавних файлов. Щёлкните Завершить для открытия файла и выхода из мастера."
+msgstr "Выберите открываемый файл базы данных из списка недавних файлов. Щёлкните «Готово» для открытия файла и выхода из мастера."
 
 #. dVAEy
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:186
@@ -3472,7 +3472,7 @@ msgstr "Невозможно создать новую базу данных, н
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:266
 msgctxt "generalpagewizard|extended_tip|PageGeneral"
 msgid "The Database Wizard creates a database file that contains information about a database."
-msgstr "Мастер баз данных создает файл базы данных, содержащий сведения о базе данных."
+msgstr "Мастер баз данных создаёт файл базы данных, содержащий сведения о базе данных."
 
 #. DQvKi
 #: dbaccess/uiconfig/ui/generalspecialjdbcdetailspage.ui:39
@@ -4312,7 +4312,7 @@ msgstr "Использовать в запросе неуникальные зн
 #: dbaccess/uiconfig/ui/querypropertiesdialog.ui:152
 msgctxt "querypropertiesdialog|distinctvalues"
 msgid "Distinct values:"
-msgstr "Однозначные значения:"
+msgstr "Уникальные значения:"
 
 #. asbjN
 #: dbaccess/uiconfig/ui/querypropertiesdialog.ui:175
@@ -4468,7 +4468,7 @@ msgstr "Изменяет высоту строки в соответствии �
 #: dbaccess/uiconfig/ui/rowheightdialog.ui:168
 msgctxt "rowheightdialog|extended_tip|RowHeightDialog"
 msgid "Changes the height of the current row, or the selected rows."
-msgstr "Изменяет высоту текущей строки или выделенных строк."
+msgstr "Изменяет высоту текущей строки или выбранных строк."
 
 #. SD2FQ
 #: dbaccess/uiconfig/ui/savedialog.ui:8
@@ -4498,7 +4498,7 @@ msgstr "С_хема:"
 #: dbaccess/uiconfig/ui/saveindexdialog.ui:7
 msgctxt "saveindexdialog|SaveIndexDialog"
 msgid "Exit Index Design"
-msgstr "Завершить конструктор индекса"
+msgstr "Завершить дизайн индекса"
 
 #. k9pCR
 #: dbaccess/uiconfig/ui/saveindexdialog.ui:13
@@ -4654,25 +4654,25 @@ msgstr "Тест класса"
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:24
 msgctxt "specialsettingspage|usesql92"
 msgid "Use SQL92 naming constraints"
-msgstr "Использовать стандарт SQL92"
+msgstr "Использовать ограничения SQL92"
 
 #. d8pYB
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:32
 msgctxt "specialsettingspage|extended_tip|usesql92"
 msgid "Only allows characters that conform to the SQL92 naming convention in a name in a data source. All other characters are rejected. Each name must begin with a lowercase letter, an uppercase letter, or an underscore ( _ ). The remaining characters can be ASCII letters, numbers, and underscores."
-msgstr "В имени источника данных допускаются только символы, соответствующие соглашению об именовании SQL92. Все остальные символы отклоняются. Каждое имя должно начинаться со строчной буквы, заглавной буквы или символа подчеркивания ( _ ). Остальные символы могут быть буквами ASCII, цифрами и символами подчеркивания."
+msgstr "В имени источника данных допускаются только символы, соответствующие соглашению об именовании SQL92. Все остальные символы отклоняются. Каждое имя должно начинаться со строчной буквы, заглавной буквы или символа подчёркивания ( _ ). Остальные символы могут быть буквами ASCII, цифрами и символами подчёркивания."
 
 #. Gwn9n
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:43
 msgctxt "specialsettingspage|append"
 msgid "Append the table alias name on SELECT statements"
-msgstr "Добавить псевдоним таблицы в запрос SELECT"
+msgstr "Добавить псевдоним таблицы в инструкции SELECT"
 
 #. tU88G
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:51
 msgctxt "specialsettings|extended_tip|append"
 msgid "Appends the alias to the table name in SELECT statements."
-msgstr "Добавляет псевдоним таблицы в запрос SELECT."
+msgstr "Добавляет псевдоним таблицы в инструкции SELECT."
 
 #. rim5j
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:62
@@ -4738,7 +4738,7 @@ msgstr "Отображает внутренний номер версии зап
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:157
 msgctxt "specialsettingspage|usecatalogname"
 msgid "Use catalog name in SELECT statements"
-msgstr "Использовать имя каталога в выражении SELECT"
+msgstr "Использовать имя каталога в инструкции SELECT"
 
 #. YG2AT
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:165
@@ -4750,25 +4750,25 @@ msgstr "Использует текущий источник данных кат
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:176
 msgctxt "specialsettingspage|useschemaname"
 msgid "Use schema name in SELECT statements"
-msgstr "Использовать имя схемы в выражении SELECT"
+msgstr "Использовать имя схемы в инструкциях SELECT"
 
 #. PEM2R
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:184
 msgctxt "specialsettingspage|extended_tip|useschemaname"
 msgid "Allows you to use the schema name in SELECT statements."
-msgstr "Позволяет использовать имя схемы в запросах SELECT."
+msgstr "Позволяет использовать имя схемы в инструкциях SELECT."
 
 #. gyC7J
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:195
 msgctxt "specialsettingspage|createindex"
 msgid "Create index with ASC or DESC statement"
-msgstr "Создать индекс с условиями ASC или DESC"
+msgstr "Создать индекс с инструкциями ASC или DESC"
 
 #. 2hRPG
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:203
 msgctxt "specialsettingspage|extended_tip|createindex"
 msgid "Creates an index with ASC or DESC statements."
-msgstr "Создает индекс с условиями ASC или DESC."
+msgstr "Создаёт индекс с инструкциями ASC или DESC."
 
 #. Xabxp
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:214
@@ -4792,7 +4792,7 @@ msgstr "Игнорировать информацию валютных поле�
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:241
 msgctxt "specialsettingspage|extended_tip|ignorecurrency"
 msgid "Only for Oracle JDBC connections. When enabled it specifies that no column is treated as a currency field. The field type returned from the database driver is discarded."
-msgstr "Только для подключений Oracle JDBC. Если включено, то ни один столбец не обрабатывается как поле валюты. Тип поля, возвращенный драйвером базы данных, отбрасывается."
+msgstr "Только для подключений Oracle JDBC. Если включено, то ни один столбец не обрабатывается как поле валюты. Тип поля, возвращённый драйвером базы данных, отбрасывается."
 
 #. 2tRzG
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:252
@@ -4804,7 +4804,7 @@ msgstr "Форма проверяет требуемые поля"
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:260
 msgctxt "specialsettingspage|extended_tip|inputchecks"
 msgid "When you enter a new record or update an existing record in a form, and you leave a field empty which is bound to a database column which requires input, then you will see a message complaining about the empty field."
-msgstr ""
+msgstr "Если при вводе или обновлении записи в форме, связанное с обязательным столбцом базы данных поле остаётся пустым, будет выведено информационное сообщение о наличии пустого поля."
 
 #. jEgvf
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:271
@@ -4828,7 +4828,7 @@ msgstr "Поддерживаются первичные ключи"
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:298
 msgctxt "specialsettingspage|extended_tip|primarykeys"
 msgid "Enable to overrule Base's heuristics used to detect whether the database supports primary keys."
-msgstr ""
+msgstr "Включите для отмены эвристики Base о поддержке первичных ключей базой данных."
 
 #. o7mns
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:309
@@ -4840,13 +4840,13 @@ msgstr "Тип результирующего набора из драйвера
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:317
 msgctxt "specialsettingspage|extended_tip|resulttype"
 msgid "Use the database driver different scroll capabilities of a result set."
-msgstr ""
+msgstr "Использовать отличающиеся возможности прокрутки результирующего набора из драйвера базы данных."
 
 #. RQ7hP
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:337
 msgctxt "specialsettingspage|comparisonft"
 msgid "Comparison of Boolean values:"
-msgstr "Сравнение булевых значений:"
+msgstr "Сравнение логических значений:"
 
 #. MrrnQ
 #: dbaccess/uiconfig/ui/specialsettingspage.ui:352
@@ -5224,7 +5224,7 @@ msgstr "Настройки драйвера:"
 #: dbaccess/uiconfig/ui/userdetailspage.ui:142
 msgctxt "userdetailspage|label1"
 msgid "Connection Settings"
-msgstr "Настроки подключения"
+msgstr "Настройки подключения"
 
 #. eLA6J
 #: dbaccess/uiconfig/ui/userdetailspage.ui:174
