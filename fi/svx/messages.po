@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-13 18:04+0100\n"
-"PO-Revision-Date: 2022-06-15 20:52+0000\n"
+"PO-Revision-Date: 2023-02-02 12:26+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://translations.documentfoundation.org/projects/libo_ui-7-2/svxmessages/fi/>\n"
 "Language: fi\n"
@@ -78,6 +78,7 @@ msgstr "Lävistäjäviiva"
 
 #. YPAoe
 #: include/svx/strings.hrc:35
+#, fuzzy
 msgctxt "STR_ObjNamePluralLINE"
 msgid "Lines"
 msgstr "Rivit"
@@ -260,13 +261,13 @@ msgstr "Monikulmio"
 #: include/svx/strings.hrc:65
 msgctxt "STR_ObjNameSingulPOLY_PointCount"
 msgid "Polygon %2 corners"
-msgstr "Monikulmio, jossa %2 kulmaa"
+msgstr "%2-kulmio"
 
 #. a6z8j
 #: include/svx/strings.hrc:66
 msgctxt "STR_ObjNamePluralPOLY"
 msgid "Polygons"
-msgstr "Monikulmio"
+msgstr "Monikulmiot"
 
 #. WSEL3
 #: include/svx/strings.hrc:67
@@ -278,7 +279,7 @@ msgstr "Murtoviiva"
 #: include/svx/strings.hrc:68
 msgctxt "STR_ObjNameSingulPLIN_PointCount"
 msgid "Polyline with %2 corners"
-msgstr "Murtoviiva, jossa %2 kulmaa"
+msgstr "%2-kulmainen murtoviiva"
 
 #. NjP7U
 #: include/svx/strings.hrc:69
@@ -448,7 +449,7 @@ msgstr "Tyhjä kuvaobjekti"
 #: include/svx/strings.hrc:96
 msgctxt "STR_ObjNamePluralGRAFNONE"
 msgid "Blank image objects"
-msgstr "Tyhjiä kuvaobjekteja"
+msgstr "Tyhjät kuvaobjektit"
 
 #. 8Za3o
 #: include/svx/strings.hrc:97
@@ -460,7 +461,7 @@ msgstr "Tyhjä linkitetty kuva"
 #: include/svx/strings.hrc:98
 msgctxt "STR_ObjNamePluralGRAFNONELNK"
 msgid "Blank linked images"
-msgstr "Tyhjiä linkitettyjä kuvia"
+msgstr "Tyhjät linkitetyt kuvat"
 
 #. kUuBg
 #: include/svx/strings.hrc:99
@@ -900,38 +901,37 @@ msgstr "Kumoa %1"
 #: include/svx/strings.hrc:171
 msgctxt "STR_EditSetPointsSmooth"
 msgid "Modify bézier properties of %1"
-msgstr "Muuta kohteen %1 bézier-ominaisuuksia"
+msgstr "Muuta kohteen %1 Bézier-ominaisuuksia"
 
 #. CzVVY
 #: include/svx/strings.hrc:172
 msgctxt "STR_EditSetSegmentsKind"
 msgid "Modify bézier properties of %1"
-msgstr "Muuta kohteen %1 bézier-ominaisuuksia"
+msgstr "Muuta kohteen %1 Bézier-ominaisuuksia"
 
 #. 5KcDa
 #: include/svx/strings.hrc:173
 msgctxt "STR_EditSetGlueEscDir"
 msgid "Set exit direction for %1"
-msgstr "Määritä kohteen %1 poistumissuunta"
+msgstr "Aseta kohteen %1 kiinnityssuunta"
 
 #. Gbbmq
 #: include/svx/strings.hrc:174
 msgctxt "STR_EditSetGluePercent"
 msgid "Set relative attribute at %1"
-msgstr "Määritä suhteellinen määrite kohteeseen %1"
+msgstr "Aseta suhteellinen määrite kohteeseen %1"
 
 #. Auc4o
 #: include/svx/strings.hrc:175
 msgctxt "STR_EditSetGlueAlign"
 msgid "Set reference point for %1"
-msgstr "Määritä kohteen %1 viitepiste"
+msgstr "Aseta kohteelle %1 viitepiste"
 
 #. M5Jac
 #: include/svx/strings.hrc:176
-#, fuzzy
 msgctxt "STR_EditGroup"
 msgid "Group %1"
-msgstr "Ryhmittele %1"
+msgstr "Ryhmitä %1"
 
 #. wEEok
 #: include/svx/strings.hrc:177
@@ -1542,7 +1542,7 @@ msgstr "Käytä välttämättömiä määritteitä"
 #: include/svx/strings.hrc:278
 msgctxt "STR_ItemValTEXTVADJTOP"
 msgid "Top"
-msgstr "Yläreuna"
+msgstr "Ylälaita"
 
 #. 3Cde5
 #: include/svx/strings.hrc:279
@@ -1554,7 +1554,7 @@ msgstr "Keskellä"
 #: include/svx/strings.hrc:280
 msgctxt "STR_ItemValTEXTVADJBOTTOM"
 msgid "Bottom"
-msgstr "Alareuna"
+msgstr "Alalaita"
 
 #. UmBBe
 #: include/svx/strings.hrc:281
@@ -1932,6 +1932,7 @@ msgstr "Täyttö varattu 2:lle"
 
 #. PaSqp
 #: include/svx/strings.hrc:345
+#, fuzzy
 msgctxt "SIP_XA_FILLBMP_SIZELOG"
 msgid "Tile size not in %"
 msgstr "Lohkokokoa ei alueella %"
@@ -2066,13 +2067,13 @@ msgstr "Varjon väri"
 #: include/svx/strings.hrc:367
 msgctxt "SIP_SA_SHADOWXDIST"
 msgid "Shadow spacing X"
-msgstr "Varjon väli X"
+msgstr "Varjon X-väli"
 
 #. TMGmk
 #: include/svx/strings.hrc:368
 msgctxt "SIP_SA_SHADOWYDIST"
 msgid "Shadow spacing Y"
-msgstr "Varjon väli Y"
+msgstr "Varjon Y-väli"
 
 #. u5baB
 #: include/svx/strings.hrc:369
@@ -2102,7 +2103,7 @@ msgstr "Perspektiivivarjo"
 #: include/svx/strings.hrc:373
 msgctxt "SIP_SA_CAPTIONTYPE"
 msgid "Type of legend"
-msgstr "Selitteen laji"
+msgstr "Selitteen tyyppi"
 
 #. GAtWb
 #: include/svx/strings.hrc:374
@@ -2130,18 +2131,21 @@ msgstr "Selitteen lopun tasaus"
 
 #. TXjGv
 #: include/svx/strings.hrc:378
+#, fuzzy
 msgctxt "SIP_SA_CAPTIONESCISREL"
 msgid "Relative exit legend"
 msgstr "Suhteellinen poistumaselite"
 
 #. Z5bQB
 #: include/svx/strings.hrc:379
+#, fuzzy
 msgctxt "SIP_SA_CAPTIONESCREL"
 msgid "Relative exit legend"
 msgstr "Suhteellinen poistumaselite"
 
 #. 4TmFK
 #: include/svx/strings.hrc:380
+#, fuzzy
 msgctxt "SIP_SA_CAPTIONESCABS"
 msgid "Absolute exit of legend"
 msgstr "Absoluuttinen poistumaselite"
@@ -2306,7 +2310,7 @@ msgstr ""
 #: include/svx/strings.hrc:407
 msgctxt "SIP_SA_XMLATTRIBUTES"
 msgid "User-defined attributes"
-msgstr "Käyttäjän määritteet"
+msgstr "Käyttäjän määrittämät määritteet"
 
 #. F9FzF
 #: include/svx/strings.hrc:408
@@ -2699,12 +2703,14 @@ msgstr "Yksittäinen pystysuora murtuma"
 
 #. HQcJt
 #: include/svx/strings.hrc:472
+#, fuzzy
 msgctxt "SIP_SA_RESIZEXALL"
 msgid "Resize X, complete"
 msgstr "Muuta X:n kokoa, täysin"
 
 #. VcK8z
 #: include/svx/strings.hrc:473
+#, fuzzy
 msgctxt "SIP_SA_RESIZEYALL"
 msgid "Resize Y, complete"
 msgstr "Muuta Y:n kokoa, täysin"
@@ -2717,12 +2723,14 @@ msgstr "Kierrä kaikkia"
 
 #. 3faE4
 #: include/svx/strings.hrc:475
+#, fuzzy
 msgctxt "SIP_SA_HORZSHEARALL"
 msgid "Shear horizontal, complete"
 msgstr "Vaakamurtuma, täydellinen"
 
 #. RAEPz
 #: include/svx/strings.hrc:476
+#, fuzzy
 msgctxt "SIP_SA_VERTSHEARALL"
 msgid "Shear vertical, complete"
 msgstr "Pystymurtuma, täydellinen"
@@ -3317,7 +3325,7 @@ msgstr "Oranssi"
 #: include/svx/strings.hrc:578
 msgctxt "RID_SVXSTR_COLOR_BRICK"
 msgid "Brick"
-msgstr "Tiili"
+msgstr "Tiilenpunainen"
 
 #. juJeM
 #: include/svx/strings.hrc:579
@@ -3396,7 +3404,7 @@ msgstr "Vaaleanoranssi"
 #: include/svx/strings.hrc:592
 msgctxt "RID_SVXSTR_COLOR_LIGHTBRICK"
 msgid "Light Brick"
-msgstr "Vaalea tiili"
+msgstr "Vaalea tiilenpunainen"
 
 #. KGDDj
 #: include/svx/strings.hrc:593
@@ -5871,6 +5879,7 @@ msgstr "Kotisivu"
 
 #. WR8JQ
 #: include/svx/strings.hrc:1055
+#, fuzzy
 msgctxt "RID_GALLERYSTR_THEME_INTERACTION"
 msgid "Interaction"
 msgstr "Toimintoasetukset"
@@ -6384,7 +6393,7 @@ msgstr "Fonttipaja"
 #: include/svx/strings.hrc:1147
 msgctxt "RID_SVXSTR_UNDO_APPLY_FONTWORK_SHAPE"
 msgid "Apply Fontwork Shape"
-msgstr "Lisää fonttipaja-muoto"
+msgstr "Lisää fonttipajamuoto"
 
 #. h3CLw
 #: include/svx/strings.hrc:1148
@@ -6396,13 +6405,13 @@ msgstr "Lisää fonttipaja käyttäen samaa kirjainkokoa"
 #: include/svx/strings.hrc:1149
 msgctxt "RID_SVXSTR_UNDO_APPLY_FONTWORK_ALIGNMENT"
 msgid "Apply Fontwork Alignment"
-msgstr "Lisää fonttipaja-tasaus"
+msgstr "Lisää fonttipajatasaus"
 
 #. eKHcV
 #: include/svx/strings.hrc:1150
 msgctxt "RID_SVXSTR_UNDO_APPLY_FONTWORK_CHARACTER_SPACING"
 msgid "Apply Fontwork Character Spacing"
-msgstr "Lisää fonttipaja-merkkiväli"
+msgstr "Lisää fonttipajamerkkiväli"
 
 #. oo88Y
 #: include/svx/strings.hrc:1152
@@ -6601,6 +6610,7 @@ msgstr "/"
 
 #. NZ68L
 #: include/svx/strings.hrc:1188
+#, fuzzy
 msgctxt "RID_STR_FIELDSELECTION"
 msgid "Add field:"
 msgstr "Kenttävalinta:"
@@ -6781,7 +6791,7 @@ msgstr "Kuvapainike"
 #: include/svx/strings.hrc:1219
 msgctxt "RID_STR_PROPTITLE_IMAGECONTROL"
 msgid "Image Control"
-msgstr "Kuvan ohjausobjekti"
+msgstr "Kuvaohjausobjekti"
 
 #. 6Qvho
 #: include/svx/strings.hrc:1220
@@ -6793,7 +6803,7 @@ msgstr "Tiedoston valinta"
 #: include/svx/strings.hrc:1221
 msgctxt "RID_STR_PROPTITLE_DBGRID"
 msgid "Table Control "
-msgstr "Taulukon ohjausobjekti "
+msgstr "Taulukko-ohjausobjekti "
 
 #. 3SUEn
 #: include/svx/strings.hrc:1222
@@ -6845,6 +6855,7 @@ msgstr " (Aika)"
 
 #. 2wgdY
 #: include/svx/strings.hrc:1232
+#, fuzzy
 msgctxt "RID_STR_FILTER_NAVIGATOR"
 msgid "Filter navigator"
 msgstr "Suodattimen rakenneselain"
@@ -6955,7 +6966,7 @@ msgstr "Tietoselain"
 #: include/svx/strings.hrc:1250
 msgctxt "RID_STR_READONLY_VIEW"
 msgid " (read-only)"
-msgstr "(kirjoitussuojattu)"
+msgstr " (kirjoitussuojattu)"
 
 #. DgfNh
 #: include/svx/strings.hrc:1251
@@ -7219,7 +7230,7 @@ msgstr "Sidoslauseke"
 #: include/svx/strings.hrc:1292
 msgctxt "RID_SVXSTR_QUERY_EXIT_RECOVERY"
 msgid "Are you sure you want to discard the %PRODUCTNAME document recovery data?"
-msgstr "Haluatko varmasti luopua %PRODUCTNAMEn asiakirjojen palautustiedoista?"
+msgstr "Haluatko varmasti hylätä %PRODUCTNAMEn asiakirjojen palautustiedot?"
 
 #. 5WjQZ
 #: include/svx/strings.hrc:1294
@@ -7249,20 +7260,20 @@ msgstr "Desimaali"
 #: include/svx/strings.hrc:1299
 msgctxt "RID_SVXSTR_INSERT_HELPTEXT"
 msgid "Insert mode. Click to change to overwrite mode."
-msgstr "Lisäystila. Napsauta siirtyäksesi päällekirjoitustilaan."
+msgstr "Lisäystila. Napsauta vaihtaaksesi korvaustilaan."
 
 #. ZCWNC
 #: include/svx/strings.hrc:1300
 msgctxt "RID_SVXSTR_OVERWRITE_HELPTEXT"
 msgid "Overwrite mode. Click to change to insert mode."
-msgstr "Päällekirjoitustila. Napsauta siirtyäksesi lisäystilaan."
+msgstr "Korvaustila. Napsauta vaihtaaksesi lisäystilaan."
 
 #. 5GD8g
 #. To be shown in the status bar when in overwrite mode, please try to make it not longer than the word 'Overwrite'.
 #: include/svx/strings.hrc:1302
 msgctxt "RID_SVXSTR_OVERWRITE_TEXT"
 msgid "Overwrite"
-msgstr "Päällekirj."
+msgstr "Korvaus"
 
 #. qqCSF
 #: include/svx/strings.hrc:1303
@@ -8096,13 +8107,13 @@ msgstr "Kreikkalaisia ja koptilaisia merkkejä"
 #: include/svx/strings.hrc:1459
 msgctxt "RID_SUBSETMAP"
 msgid "Cyrillic"
-msgstr "Kyrillisiä (perusosa)"
+msgstr "kyrillinen"
 
 #. DQgLS
 #: include/svx/strings.hrc:1460
 msgctxt "RID_SUBSETMAP"
 msgid "Armenian"
-msgstr "Armenia"
+msgstr "armenialainen"
 
 #. kXEQY
 #: include/svx/strings.hrc:1461
@@ -8132,67 +8143,67 @@ msgstr "Arabialaisia (laajennus)"
 #: include/svx/strings.hrc:1465
 msgctxt "RID_SUBSETMAP"
 msgid "Devanagari"
-msgstr "Devanagari"
+msgstr "devanagari"
 
 #. EfVnG
 #: include/svx/strings.hrc:1466
 msgctxt "RID_SUBSETMAP"
 msgid "Bengali"
-msgstr "Bengali"
+msgstr "bengalilainen"
 
 #. iWzLc
 #: include/svx/strings.hrc:1467
 msgctxt "RID_SUBSETMAP"
 msgid "Gurmukhi"
-msgstr "Gurmukhi"
+msgstr "gurmukhi"
 
 #. omacG
 #: include/svx/strings.hrc:1468
 msgctxt "RID_SUBSETMAP"
 msgid "Gujarati"
-msgstr "Gudžarati"
+msgstr "gudžaratilainen"
 
 #. Cdwzw
 #: include/svx/strings.hrc:1469
 msgctxt "RID_SUBSETMAP"
 msgid "Odia"
-msgstr "Orija"
+msgstr "orijalainen"
 
 #. BhEGN
 #: include/svx/strings.hrc:1470
 msgctxt "RID_SUBSETMAP"
 msgid "Tamil"
-msgstr "Tamili"
+msgstr "tamililainen"
 
 #. 6YkEo
 #: include/svx/strings.hrc:1471
 msgctxt "RID_SUBSETMAP"
 msgid "Telugu"
-msgstr "Telugu"
+msgstr "telugulainen"
 
 #. J5qn4
 #: include/svx/strings.hrc:1472
 msgctxt "RID_SUBSETMAP"
 msgid "Kannada"
-msgstr "Kannada"
+msgstr "kannadalainen"
 
 #. 4UEFU
 #: include/svx/strings.hrc:1473
 msgctxt "RID_SUBSETMAP"
 msgid "Malayalam"
-msgstr "Malajalam"
+msgstr "malajalamilainen"
 
 #. C5yzo
 #: include/svx/strings.hrc:1474
 msgctxt "RID_SUBSETMAP"
 msgid "Thai"
-msgstr "Thai"
+msgstr "thailainen"
 
 #. EvjbD
 #: include/svx/strings.hrc:1475
 msgctxt "RID_SUBSETMAP"
 msgid "Lao"
-msgstr "Lao"
+msgstr "laolainen"
 
 #. HqFTh
 #: include/svx/strings.hrc:1476
@@ -8210,7 +8221,7 @@ msgstr "Georgialaisia (laajennus)"
 #: include/svx/strings.hrc:1478
 msgctxt "RID_SUBSETMAP"
 msgid "Hangul Jamo"
-msgstr "Hangul jamo"
+msgstr "korean hangulin jamo-elementit"
 
 #. gMEFL
 #: include/svx/strings.hrc:1479
@@ -8240,7 +8251,7 @@ msgstr "Ylä- ja alaindeksejä"
 #: include/svx/strings.hrc:1483
 msgctxt "RID_SUBSETMAP"
 msgid "Currency Symbols"
-msgstr "Valuuttamerkkejä"
+msgstr "valuuttamerkit"
 
 #. jzA5i
 #: include/svx/strings.hrc:1484
@@ -8252,7 +8263,7 @@ msgstr "Symbolien tarkkeita"
 #: include/svx/strings.hrc:1485
 msgctxt "RID_SUBSETMAP"
 msgid "Letterlike Symbols"
-msgstr "Kirjainsymboleita"
+msgstr "kirjainsymbolit"
 
 #. cDkEd
 #: include/svx/strings.hrc:1486
@@ -8324,7 +8335,7 @@ msgstr "Sekalaisia symboleita"
 #: include/svx/strings.hrc:1497
 msgctxt "RID_SUBSETMAP"
 msgid "Dingbats"
-msgstr "Dingbats-leikkeet"
+msgstr "ornamentit"
 
 #. Cth4P
 #: include/svx/strings.hrc:1498
@@ -8336,19 +8347,19 @@ msgstr "CJK-merkkejä ja -välimerkkejä"
 #: include/svx/strings.hrc:1499
 msgctxt "RID_SUBSETMAP"
 msgid "Hiragana"
-msgstr "Hiragana"
+msgstr "hiragana"
 
 #. i2Cdr
 #: include/svx/strings.hrc:1500
 msgctxt "RID_SUBSETMAP"
 msgid "Katakana"
-msgstr "Katakana"
+msgstr "katakana"
 
 #. 9YYLD
 #: include/svx/strings.hrc:1501
 msgctxt "RID_SUBSETMAP"
 msgid "Bopomofo"
-msgstr "Bopomofo"
+msgstr "bopomofo"
 
 #. F9UFG
 #: include/svx/strings.hrc:1502
@@ -8378,7 +8389,7 @@ msgstr "CJK-yhteensopivia merkkejä"
 #: include/svx/strings.hrc:1506
 msgctxt "RID_SUBSETMAP"
 msgid "Hangul"
-msgstr "Hangul"
+msgstr "hangul"
 
 #. XzS6D
 #: include/svx/strings.hrc:1507
@@ -8468,19 +8479,19 @@ msgstr "Yi-radikaaleja"
 #: include/svx/strings.hrc:1521
 msgctxt "RID_SUBSETMAP"
 msgid "Old Italic"
-msgstr "Vanhoja italialaisia kirjainmerkkejä"
+msgstr "muinaisitalialainen"
 
 #. wtKAB
 #: include/svx/strings.hrc:1522
 msgctxt "RID_SUBSETMAP"
 msgid "Gothic"
-msgstr "Goottilaisia merkkejä"
+msgstr "goottilainen"
 
 #. GPFqC
 #: include/svx/strings.hrc:1523
 msgctxt "RID_SUBSETMAP"
 msgid "Deseret"
-msgstr "Deseret-merkkejä"
+msgstr "deseret"
 
 #. 7AovD
 #: include/svx/strings.hrc:1524
@@ -8492,7 +8503,7 @@ msgstr "Bysanttilaisia musiikkisymboleita"
 #: include/svx/strings.hrc:1525
 msgctxt "RID_SUBSETMAP"
 msgid "Musical Symbols"
-msgstr "Musiikkisymboleita"
+msgstr "musiikkisymbolit"
 
 #. YzBDD
 #: include/svx/strings.hrc:1526
@@ -8564,7 +8575,7 @@ msgstr "limbu"
 #: include/svx/strings.hrc:1537
 msgctxt "RID_SUBSETMAP"
 msgid "Tai Le"
-msgstr "Tai le"
+msgstr "tailelainen"
 
 #. nujxa
 #: include/svx/strings.hrc:1538
@@ -8612,19 +8623,19 @@ msgstr "Egean numeroita"
 #: include/svx/strings.hrc:1545
 msgctxt "RID_SUBSETMAP"
 msgid "Ugaritic"
-msgstr "Ugariti"
+msgstr "ugaritilainen"
 
 #. nBtk5
 #: include/svx/strings.hrc:1546
 msgctxt "RID_SUBSETMAP"
 msgid "Shavian"
-msgstr "Shawilaisia kirjaimia"
+msgstr "shaw’lainen"
 
 #. vvMNk
 #: include/svx/strings.hrc:1547
 msgctxt "RID_SUBSETMAP"
 msgid "Osmanya"
-msgstr "Osmanya"
+msgstr "osmanjalainen"
 
 #. aiySp
 #: include/svx/strings.hrc:1548
@@ -8636,55 +8647,55 @@ msgstr "Sinhala"
 #: include/svx/strings.hrc:1549
 msgctxt "RID_SUBSETMAP"
 msgid "Tibetan"
-msgstr "Tiibet"
+msgstr "tiibetiläinen"
 
 #. tRBTP
 #: include/svx/strings.hrc:1550
 msgctxt "RID_SUBSETMAP"
 msgid "Myanmar"
-msgstr "Myanmar"
+msgstr "burmalainen"
 
 #. 8sgGF
 #: include/svx/strings.hrc:1551
 msgctxt "RID_SUBSETMAP"
 msgid "Khmer"
-msgstr "Khmer"
+msgstr "khmeriläinen"
 
 #. CdXvH
 #: include/svx/strings.hrc:1552
 msgctxt "RID_SUBSETMAP"
 msgid "Ogham"
-msgstr "Ogham"
+msgstr "ogam"
 
 #. jFWRQ
 #: include/svx/strings.hrc:1553
 msgctxt "RID_SUBSETMAP"
 msgid "Runic"
-msgstr "Riimukirjoitus"
+msgstr "riimukirjoitus"
 
 #. jhzoc
 #: include/svx/strings.hrc:1554
 msgctxt "RID_SUBSETMAP"
 msgid "Syriac"
-msgstr "Syyria"
+msgstr "syyrialainen"
 
 #. B66QG
 #: include/svx/strings.hrc:1555
 msgctxt "RID_SUBSETMAP"
 msgid "Thaana"
-msgstr "Thaana"
+msgstr "thaana"
 
 #. j8cuG
 #: include/svx/strings.hrc:1556
 msgctxt "RID_SUBSETMAP"
 msgid "Ethiopic"
-msgstr "Etiopia"
+msgstr "etiopialainen"
 
 #. AE5wq
 #: include/svx/strings.hrc:1557
 msgctxt "RID_SUBSETMAP"
 msgid "Cherokee"
-msgstr "Cherokee"
+msgstr "cherokeelainen"
 
 #. 9mgNF
 #: include/svx/strings.hrc:1558
@@ -8696,7 +8707,7 @@ msgstr "Kanadan alkuperäiskansojen kirjainmerkit"
 #: include/svx/strings.hrc:1559
 msgctxt "RID_SUBSETMAP"
 msgid "Mongolian"
-msgstr "Mongoli"
+msgstr "mongolilainen"
 
 #. XnzyB
 #: include/svx/strings.hrc:1560
@@ -8750,31 +8761,31 @@ msgstr "Ideogrammien kuvailumerkkejä"
 #: include/svx/strings.hrc:1568
 msgctxt "RID_SUBSETMAP"
 msgid "Tagalog"
-msgstr "Tagalog"
+msgstr "tagalogilainen"
 
 #. BVieL
 #: include/svx/strings.hrc:1569
 msgctxt "RID_SUBSETMAP"
 msgid "Hanunoo"
-msgstr "Hanunoo"
+msgstr "hanunoolainen"
 
 #. DwAEz
 #: include/svx/strings.hrc:1570
 msgctxt "RID_SUBSETMAP"
 msgid "Tagbanwa"
-msgstr "Tagbanwa"
+msgstr "tagbanwalainen"
 
 #. 3GDP5
 #: include/svx/strings.hrc:1571
 msgctxt "RID_SUBSETMAP"
 msgid "Buhid"
-msgstr "Buhid"
+msgstr "buhidilainen"
 
 #. BfGBm
 #: include/svx/strings.hrc:1572
 msgctxt "RID_SUBSETMAP"
 msgid "Kanbun"
-msgstr "Kanbun"
+msgstr "kanbun"
 
 #. cL7Vo
 #: include/svx/strings.hrc:1573
@@ -8834,7 +8845,7 @@ msgstr "Lisää arabialaisia merkkejä"
 #: include/svx/strings.hrc:1582
 msgctxt "RID_SUBSETMAP"
 msgid "Buginese"
-msgstr "Bugi"
+msgstr "bugi"
 
 #. zDaXa
 #: include/svx/strings.hrc:1583
@@ -8870,13 +8881,13 @@ msgstr "Lisää georgialaisia merkkejä"
 #: include/svx/strings.hrc:1588
 msgctxt "RID_SUBSETMAP"
 msgid "Glagolitic"
-msgstr "Glagoliittisia kirjaimia"
+msgstr "glagoliittinen"
 
 #. zKCVG
 #: include/svx/strings.hrc:1589
 msgctxt "RID_SUBSETMAP"
 msgid "Kharoshthi"
-msgstr "Kharoshthi"
+msgstr "kharosthi"
 
 #. U8zrU
 #: include/svx/strings.hrc:1590
@@ -8888,13 +8899,13 @@ msgstr "Tarkkeenomaisia sävymerkkejä"
 #: include/svx/strings.hrc:1591
 msgctxt "RID_SUBSETMAP"
 msgid "New Tai Lue"
-msgstr "Uusi Tai lue"
+msgstr "uusi tailuelainen"
 
 #. J4KdA
 #: include/svx/strings.hrc:1592
 msgctxt "RID_SUBSETMAP"
 msgid "Old Persian"
-msgstr "Muinaispersia"
+msgstr "muinaispersialainen"
 
 #. eGPjC
 #: include/svx/strings.hrc:1593
@@ -8912,13 +8923,13 @@ msgstr "Lisää välimerkkejä"
 #: include/svx/strings.hrc:1595
 msgctxt "RID_SUBSETMAP"
 msgid "Syloti Nagri"
-msgstr "Syloti Nagri"
+msgstr "syloti nagri"
 
 #. Qrowh
 #: include/svx/strings.hrc:1596
 msgctxt "RID_SUBSETMAP"
 msgid "Tifinagh"
-msgstr "Tifinagh"
+msgstr "tifinagh"
 
 #. aZKS5
 #: include/svx/strings.hrc:1597
@@ -8936,7 +8947,7 @@ msgstr "Nko"
 #: include/svx/strings.hrc:1599
 msgctxt "RID_SUBSETMAP"
 msgid "Balinese"
-msgstr "Bali"
+msgstr "balilainen"
 
 #. 428ER
 #: include/svx/strings.hrc:1600
@@ -8954,13 +8965,13 @@ msgstr "Latinalaisia (laajennus D)"
 #: include/svx/strings.hrc:1602
 msgctxt "RID_SUBSETMAP"
 msgid "Phags-Pa"
-msgstr "Phags-pa"
+msgstr "phags-pa"
 
 #. V6CsB
 #: include/svx/strings.hrc:1603
 msgctxt "RID_SUBSETMAP"
 msgid "Phoenician"
-msgstr "Foinikia"
+msgstr "foinikialainen"
 
 #. GNBwz
 #: include/svx/strings.hrc:1604
@@ -8984,19 +8995,19 @@ msgstr "Puikkolaskentanumeroita"
 #: include/svx/strings.hrc:1607
 msgctxt "RID_SUBSETMAP"
 msgid "Sundanese"
-msgstr "Sunda"
+msgstr "sundalainen"
 
 #. WrXXX
 #: include/svx/strings.hrc:1608
 msgctxt "RID_SUBSETMAP"
 msgid "Lepcha"
-msgstr "Lepcha"
+msgstr "lepchalainen"
 
 #. FhhAQ
 #: include/svx/strings.hrc:1609
 msgctxt "RID_SUBSETMAP"
 msgid "Ol Chiki"
-msgstr "Ol Chiki"
+msgstr "ol chiki"
 
 #. eHvUh
 #: include/svx/strings.hrc:1610
@@ -9008,7 +9019,7 @@ msgstr "Kyrillisiä (laajennus A)"
 #: include/svx/strings.hrc:1611
 msgctxt "RID_SUBSETMAP"
 msgid "Vai"
-msgstr "Vai"
+msgstr "vailainen"
 
 #. pBASG
 #: include/svx/strings.hrc:1612
@@ -9020,25 +9031,25 @@ msgstr "Kyrillisiä (laajennus B)"
 #: include/svx/strings.hrc:1613
 msgctxt "RID_SUBSETMAP"
 msgid "Saurashtra"
-msgstr "Saurashtra"
+msgstr "saurashtra"
 
 #. 6pufg
 #: include/svx/strings.hrc:1614
 msgctxt "RID_SUBSETMAP"
 msgid "Kayah Li"
-msgstr "Kayah Li"
+msgstr "kayah li"
 
 #. bmFny
 #: include/svx/strings.hrc:1615
 msgctxt "RID_SUBSETMAP"
 msgid "Rejang"
-msgstr "Rejang"
+msgstr "rejang"
 
 #. EaXay
 #: include/svx/strings.hrc:1616
 msgctxt "RID_SUBSETMAP"
 msgid "Cham"
-msgstr "Cham"
+msgstr "tšamilainen"
 
 #. qYaAV
 #: include/svx/strings.hrc:1617
@@ -9056,19 +9067,19 @@ msgstr "Faistoksen kiekko"
 #: include/svx/strings.hrc:1619
 msgctxt "RID_SUBSETMAP"
 msgid "Lycian"
-msgstr "Lyykia"
+msgstr "lyykialainen"
 
 #. EYLa8
 #: include/svx/strings.hrc:1620
 msgctxt "RID_SUBSETMAP"
 msgid "Carian"
-msgstr "Kaaria"
+msgstr "kaarialainen"
 
 #. TPN6m
 #: include/svx/strings.hrc:1621
 msgctxt "RID_SUBSETMAP"
 msgid "Lydian"
-msgstr "Lyydia"
+msgstr "lyydialainen"
 
 #. G5GLd
 #: include/svx/strings.hrc:1622
@@ -9086,7 +9097,7 @@ msgstr "Dominopalikat"
 #: include/svx/strings.hrc:1624
 msgctxt "RID_SUBSETMAP"
 msgid "Samaritan"
-msgstr "Samaria"
+msgstr "samarianaramealainen"
 
 #. feZ2Q
 #: include/svx/strings.hrc:1625
@@ -9116,7 +9127,7 @@ msgstr "Lisu"
 #: include/svx/strings.hrc:1629
 msgctxt "RID_SUBSETMAP"
 msgid "Bamum"
-msgstr "Bamum"
+msgstr "bamum"
 
 #. CQMqK
 #: include/svx/strings.hrc:1630
@@ -9140,7 +9151,7 @@ msgstr "Hangul jamo (laajennus A)"
 #: include/svx/strings.hrc:1633
 msgctxt "RID_SUBSETMAP"
 msgid "Javanese"
-msgstr "Jaava"
+msgstr "jaavalainen"
 
 #. upBjC
 #: include/svx/strings.hrc:1634
@@ -9152,7 +9163,7 @@ msgstr "Myanmar (laajennus A)"
 #: include/svx/strings.hrc:1635
 msgctxt "RID_SUBSETMAP"
 msgid "Tai Viet"
-msgstr "Tai Viet"
+msgstr "tai viet"
 
 #. HGVSu
 #: include/svx/strings.hrc:1636
@@ -9170,31 +9181,31 @@ msgstr "Hangul jamo (laajennus B)"
 #: include/svx/strings.hrc:1638
 msgctxt "RID_SUBSETMAP"
 msgid "Imperial Aramaic"
-msgstr "Valtakunnan aramea"
+msgstr "valtakunnanaramealainen"
 
 #. 7E6G8
 #: include/svx/strings.hrc:1639
 msgctxt "RID_SUBSETMAP"
 msgid "Old South Arabian"
-msgstr "Vanha eteläarabia"
+msgstr "muinaiseteläarabialainen"
 
 #. Ab3wu
 #: include/svx/strings.hrc:1640
 msgctxt "RID_SUBSETMAP"
 msgid "Avestan"
-msgstr "Avesta"
+msgstr "avestalainen"
 
 #. 5gN8e
 #: include/svx/strings.hrc:1641
 msgctxt "RID_SUBSETMAP"
 msgid "Inscriptional Parthian"
-msgstr "Parthian kaiverrusmerkkejä"
+msgstr "piirtokirjoitusparthialainen"
 
 #. D7rcV
 #: include/svx/strings.hrc:1642
 msgctxt "RID_SUBSETMAP"
 msgid "Inscriptional Pahlavi"
-msgstr "Pahlavin kaiverrusmerkkejä"
+msgstr "piirtokirjoituspahlavilainen"
 
 #. d44Dq
 #: include/svx/strings.hrc:1643
@@ -9212,13 +9223,13 @@ msgstr "Rumi-numeromerkkejä"
 #: include/svx/strings.hrc:1645
 msgctxt "RID_SUBSETMAP"
 msgid "Kaithi"
-msgstr "Kaithi"
+msgstr "kaithi"
 
 #. Swfzy
 #: include/svx/strings.hrc:1646
 msgctxt "RID_SUBSETMAP"
 msgid "Egyptian Hieroglyphs"
-msgstr "Egyptin hieroglyfejä"
+msgstr "egyptiläiset hieroglyfit"
 
 #. bMYVC
 #: include/svx/strings.hrc:1647
@@ -9242,7 +9253,7 @@ msgstr "Mandaic"
 #: include/svx/strings.hrc:1650
 msgctxt "RID_SUBSETMAP"
 msgid "Batak"
-msgstr "Batak"
+msgstr "batakilainen"
 
 #. 9SrgK
 #: include/svx/strings.hrc:1651
@@ -9254,7 +9265,7 @@ msgstr "Etiopia (laajennus A)"
 #: include/svx/strings.hrc:1652
 msgctxt "RID_SUBSETMAP"
 msgid "Brahmi"
-msgstr "Brahmi"
+msgstr "brahmi"
 
 #. n4oND
 #: include/svx/strings.hrc:1653
@@ -9314,7 +9325,7 @@ msgstr "Arabialaisia matemaattisia kirjoitusmerkkejä"
 #: include/svx/strings.hrc:1662
 msgctxt "RID_SUBSETMAP"
 msgid "Chakma"
-msgstr "Chakma"
+msgstr "chakmalainen"
 
 #. z3gG4
 #: include/svx/strings.hrc:1663
@@ -9326,7 +9337,7 @@ msgstr "Meetei Mayek (laajennus)"
 #: include/svx/strings.hrc:1664
 msgctxt "RID_SUBSETMAP"
 msgid "Meroitic Cursive"
-msgstr "Meroiittinen kursiivi"
+msgstr "meroiittinen kursiivikirjoitus"
 
 #. b5m8K
 #: include/svx/strings.hrc:1665
@@ -9344,7 +9355,7 @@ msgstr "Miao"
 #: include/svx/strings.hrc:1667
 msgctxt "RID_SUBSETMAP"
 msgid "Sharada"
-msgstr "Sharada"
+msgstr "šarada"
 
 #. rTKpL
 #: include/svx/strings.hrc:1668
@@ -9362,19 +9373,19 @@ msgstr "Lisää sunda-merkkejä"
 #: include/svx/strings.hrc:1670
 msgctxt "RID_SUBSETMAP"
 msgid "Takri"
-msgstr "Takri"
+msgstr "takri"
 
 #. HNCk9
 #: include/svx/strings.hrc:1671
 msgctxt "RID_SUBSETMAP"
 msgid "Bassa Vah"
-msgstr "Bassa vah"
+msgstr "bassa"
 
 #. GWufB
 #: include/svx/strings.hrc:1672
 msgctxt "RID_SUBSETMAP"
 msgid "Caucasian Albanian"
-msgstr "Kaukasian albania"
+msgstr "kaukasianalbanialainen"
 
 #. t8Bfn
 #: include/svx/strings.hrc:1673
@@ -9398,7 +9409,7 @@ msgstr "Duployén pikakirjoitus"
 #: include/svx/strings.hrc:1676
 msgctxt "RID_SUBSETMAP"
 msgid "Elbasan"
-msgstr "Elbasan"
+msgstr "elbasanilainen"
 
 #. QmkME
 #: include/svx/strings.hrc:1677
@@ -9410,13 +9421,13 @@ msgstr "Geometrisiä muotoja (laajennusosa)"
 #: include/svx/strings.hrc:1678
 msgctxt "RID_SUBSETMAP"
 msgid "Grantha"
-msgstr "Grantha"
+msgstr "grantha"
 
 #. tpSqU
 #: include/svx/strings.hrc:1679
 msgctxt "RID_SUBSETMAP"
 msgid "Khojki"
-msgstr "Khojki"
+msgstr "khojki"
 
 #. 4pjBM
 #: include/svx/strings.hrc:1680
@@ -9440,13 +9451,13 @@ msgstr "Lineaari-A"
 #: include/svx/strings.hrc:1683
 msgctxt "RID_SUBSETMAP"
 msgid "Mahajani"
-msgstr "Mahajani"
+msgstr "mahajanilainen"
 
 #. CA7vw
 #: include/svx/strings.hrc:1684
 msgctxt "RID_SUBSETMAP"
 msgid "Manichaean"
-msgstr "Manikealainen"
+msgstr "manikealainen"
 
 #. UUKC4
 #: include/svx/strings.hrc:1685
@@ -9458,13 +9469,13 @@ msgstr "Mende-kirjoitus"
 #: include/svx/strings.hrc:1686
 msgctxt "RID_SUBSETMAP"
 msgid "Modi"
-msgstr "Modi"
+msgstr "modi-aakkoset"
 
 #. jC4Ue
 #: include/svx/strings.hrc:1687
 msgctxt "RID_SUBSETMAP"
 msgid "Mro"
-msgstr "Mro"
+msgstr "mro"
 
 #. TiWmd
 #: include/svx/strings.hrc:1688
@@ -9476,7 +9487,7 @@ msgstr "Myanmar (laajennus B)"
 #: include/svx/strings.hrc:1689
 msgctxt "RID_SUBSETMAP"
 msgid "Nabataean"
-msgstr "Nabatealainen"
+msgstr "nabatealainen"
 
 #. T29Cw
 #: include/svx/strings.hrc:1690
@@ -9501,25 +9512,25 @@ msgstr "Ornamentaaliset Dingbats-leikkeet"
 #: include/svx/strings.hrc:1693
 msgctxt "RID_SUBSETMAP"
 msgid "Pahawh Hmong"
-msgstr "Pahawh Hmong"
+msgstr "pahawh hmong"
 
 #. wd8bD
 #: include/svx/strings.hrc:1694
 msgctxt "RID_SUBSETMAP"
 msgid "Palmyrene"
-msgstr "Palmyralainen"
+msgstr "palmyralainen"
 
 #. dkSnn
 #: include/svx/strings.hrc:1695
 msgctxt "RID_SUBSETMAP"
 msgid "Pau Cin Hau"
-msgstr "Pau Cin Hau"
+msgstr "zotuallai"
 
 #. bts3U
 #: include/svx/strings.hrc:1696
 msgctxt "RID_SUBSETMAP"
 msgid "Psalter Pahlavi"
-msgstr "Psalttari-pahlavi"
+msgstr "psalttaripahlavilainen"
 
 #. XSwsB
 #: include/svx/strings.hrc:1697
@@ -9549,7 +9560,7 @@ msgstr "Lisänuolia C"
 #: include/svx/strings.hrc:1701
 msgctxt "RID_SUBSETMAP"
 msgid "Tirhuta"
-msgstr "Tirhuta"
+msgstr "tirhuta"
 
 #. HRBEN
 #: include/svx/strings.hrc:1702
@@ -9561,13 +9572,13 @@ msgstr "Warang Citi"
 #: include/svx/strings.hrc:1703
 msgctxt "RID_SUBSETMAP"
 msgid "Ahom"
-msgstr "Ahom"
+msgstr "ahom"
 
 #. cPJhp
 #: include/svx/strings.hrc:1704
 msgctxt "RID_SUBSETMAP"
 msgid "Anatolian Hieroglyphs"
-msgstr "Anatolialaiset hieroglyfit"
+msgstr "anatolialaiset hieroglyfit"
 
 #. GAd7H
 #: include/svx/strings.hrc:1705
@@ -9591,13 +9602,13 @@ msgstr "Varhaisdynastinen nuolenpääkirjoitus"
 #: include/svx/strings.hrc:1708
 msgctxt "RID_SUBSETMAP"
 msgid "Hatran"
-msgstr "Hatra"
+msgstr "hatralainen"
 
 #. e3aXA
 #: include/svx/strings.hrc:1709
 msgctxt "RID_SUBSETMAP"
 msgid "Multani"
-msgstr "Multani"
+msgstr "multanilainen"
 
 #. D6qsK
 #: include/svx/strings.hrc:1710
@@ -9621,13 +9632,13 @@ msgstr "Suttonin viittomakirjoitus"
 #: include/svx/strings.hrc:1713
 msgctxt "RID_SUBSETMAP"
 msgid "Adlam"
-msgstr "Adlam"
+msgstr "fulanin adlam-aakkosto"
 
 #. F2AJT
 #: include/svx/strings.hrc:1714
 msgctxt "RID_SUBSETMAP"
 msgid "Bhaiksuki"
-msgstr "Bhaiksuki"
+msgstr "sanskritin bhaiksuki-aakkosto"
 
 #. zDLT2
 #: include/svx/strings.hrc:1715
@@ -9651,7 +9662,7 @@ msgstr "Ideografisia symboleita ja välimerkkejä"
 #: include/svx/strings.hrc:1718
 msgctxt "RID_SUBSETMAP"
 msgid "Marchen"
-msgstr "Marchen"
+msgstr "tiibetiläinen marchan-kirjoitus"
 
 #. Mr7RB
 #: include/svx/strings.hrc:1719
@@ -9663,19 +9674,19 @@ msgstr "Lisää mongolin merkkejä"
 #: include/svx/strings.hrc:1720
 msgctxt "RID_SUBSETMAP"
 msgid "Newa"
-msgstr "Newa"
+msgstr "newarin newa-tavukirjoitus"
 
 #. JJrpR
 #: include/svx/strings.hrc:1721
 msgctxt "RID_SUBSETMAP"
 msgid "Osage"
-msgstr "Osage"
+msgstr "osagen aakkosto"
 
 #. o3qMt
 #: include/svx/strings.hrc:1722
 msgctxt "RID_SUBSETMAP"
 msgid "Tangut"
-msgstr "Tanguutti"
+msgstr "tangut"
 
 #. nRMFd
 #: include/svx/strings.hrc:1723
@@ -9711,7 +9722,7 @@ msgstr "Nüshu"
 #: include/svx/strings.hrc:1728
 msgctxt "RID_SUBSETMAP"
 msgid "Soyombo"
-msgstr "Soyombo"
+msgstr "soyombo-kirjaimisto"
 
 #. gPnhH
 #: include/svx/strings.hrc:1729
@@ -9723,7 +9734,7 @@ msgstr "Syyria (laajennus)"
 #: include/svx/strings.hrc:1730
 msgctxt "RID_SUBSETMAP"
 msgid "Zanabazar Square"
-msgstr "Zanabazar-neliökirjaimisto"
+msgstr "zanabazar-neliökirjaimisto"
 
 #. i5evF
 #: include/svx/strings.hrc:1731
@@ -9735,7 +9746,7 @@ msgstr "Shakkisymbolit"
 #: include/svx/strings.hrc:1732
 msgctxt "RID_SUBSETMAP"
 msgid "Dogra"
-msgstr "Dogri"
+msgstr "dogri"
 
 #. xDvRL
 #: include/svx/strings.hrc:1733
@@ -9747,7 +9758,7 @@ msgstr "gondin gunjala"
 #: include/svx/strings.hrc:1734
 msgctxt "RID_SUBSETMAP"
 msgid "Hanifi Rohingya"
-msgstr "Hanifilaisen rohingyan numerot"
+msgstr "hanifilaisen rohingyan numerot"
 
 #. FAwvP
 #: include/svx/strings.hrc:1735
@@ -9795,7 +9806,7 @@ msgstr ""
 #: include/svx/strings.hrc:1742
 msgctxt "RID_SUBSETMAP"
 msgid "Elymaic"
-msgstr ""
+msgstr "elymealainen"
 
 #. ibmgu
 #: include/svx/strings.hrc:1743
@@ -9837,7 +9848,7 @@ msgstr ""
 #: include/svx/strings.hrc:1749
 msgctxt "RID_SUBSETMAP"
 msgid "Wancho"
-msgstr ""
+msgstr "wancholainen"
 
 #. EDpqy
 #: include/svx/strings.hrc:1750
@@ -9903,7 +9914,7 @@ msgstr "Oikealta vasemmalle (RTL)"
 #: include/svx/strings.hrc:1761
 msgctxt "RID_SVXSTR_FRAMEDIR_SUPER"
 msgid "Use superordinate object settings"
-msgstr "Käytä ensisijaista objektiasetusta"
+msgstr "Käytä ylemmän tason objektiasetuksia"
 
 #. G2Jyh
 #. page direction
@@ -10282,7 +10293,7 @@ msgstr "Tavutus"
 #: include/svx/svxitems.hrc:58
 msgctxt "RID_ATTR_NAMES"
 msgid "Do not split paragraph"
-msgstr "Jaa kappale"
+msgstr "Älä jaa kappaletta"
 
 #. XpVud
 #: include/svx/svxitems.hrc:59
@@ -10312,7 +10323,7 @@ msgstr "Kappaleen sisennys"
 #: include/svx/svxitems.hrc:63
 msgctxt "RID_ATTR_NAMES"
 msgid "Indent"
-msgstr "Sisennä"
+msgstr "Sisennys"
 
 #. UMEWr
 #: include/svx/svxitems.hrc:64
@@ -10846,13 +10857,13 @@ msgstr "Pystysuuntainen reunaviiva"
 #: svx/inc/frmsel.hrc:37
 msgctxt "RID_SVXSTR_FRMSEL_TEXTS"
 msgid "Diagonal border line from top left to bottom right"
-msgstr "Lävistävä rajaviiva vasemmalta ylhäältä oikealle alhaalle"
+msgstr "Lävistävä reunaviiva vasemmalta ylhäältä oikealle alhaalle"
 
 #. wfJ23
 #: svx/inc/frmsel.hrc:38
 msgctxt "RID_SVXSTR_FRMSEL_TEXTS"
 msgid "Diagonal border line from bottom left to top right"
-msgstr "Lävistävä rajaviiva vasemmalta alhaalta oikealle ylhäälle"
+msgstr "Lävistävä reunaviiva vasemmalta alhaalta oikealle ylhäälle"
 
 #. dTBRy
 #: svx/inc/frmsel.hrc:43
@@ -11179,7 +11190,7 @@ msgstr "١, ٢, ٣, ٤, ... (arabia)"
 #: svx/inc/numberingtype.hrc:62
 msgctxt "RID_SVXSTRARY_NUMBERINGTYPE"
 msgid "۱, ۲, ۳, ۴, ... (Farsi)"
-msgstr ""
+msgstr "۱, ۲, ۳, ۴, ... (persia)"
 
 #. YFYp2
 #. NUMBER_INDIC_DEVANAGARI
@@ -11487,9 +11498,9 @@ msgid ""
 "Please check your installation and, if necessary, install the required language module\n"
 "or activate it under 'Tools - Options - Language Settings - Writing Aids'."
 msgstr ""
-"$(ARG1) ei ole käytettävissä oikoluvussa tai on poissa käytöstä.\n"
-"Tarkista asennetut osat ja, mikäli tarpeellista, asenna tarvittava kielipaketti\n"
-"tai ota se käyttöön asetuksista 'Työkalut - Asetukset - Kieliasetukset - Kirjoituksen aputyökalut'."
+"$(ARG1) ei ole käytettävissä oikoluvussa tai on poissa käytöstä. Tarkista asennus ja\n"
+"tarvittaessa asenna vaadittava kielipaketti tai ota se käyttöön asetuksista\n"
+"'Työkalut - Asetukset - Kieliasetukset - Kirjoituksen aputyökalut'."
 
 #. JhrPu
 #: svx/inc/svxerr.hrc:51
@@ -11549,7 +11560,7 @@ msgstr "Asiakirjassa käytettyä salausmenetelmää ei tueta. Vain Microsoft Off
 #: svx/inc/svxerr.hrc:69
 msgctxt "RID_SVXERRCODE"
 msgid "The loading of password-encrypted Microsoft PowerPoint presentations is not supported."
-msgstr "Salasanalla suojattujen Microsoft PowerPoint esitysten lataaminen ei ole tuettu."
+msgstr "Salasanalla suojattujen Microsoft PowerPoint -esitysten lataamista ei tueta."
 
 #. 4CPe7
 #: svx/inc/svxerr.hrc:71
@@ -11649,7 +11660,7 @@ msgstr "Ulompi sivureuna"
 #: svx/inc/swframeposstrings.hrc:42
 msgctxt "RID_SVXSW_FRAMEPOSITIONS"
 msgid "Inner paragraph border"
-msgstr "Sisempi kappaleraja"
+msgstr "Sisempi kappalereuna"
 
 #. Hffsf
 #: svx/inc/swframeposstrings.hrc:43
@@ -11685,7 +11696,7 @@ msgstr "Sivun tekstialueen alalaita"
 #: svx/inc/swframeposstrings.hrc:48
 msgctxt "RID_SVXSW_FRAMEPOSITIONS"
 msgid "Base line"
-msgstr "Perusviiva"
+msgstr "Peruslinja"
 
 #. A3DbQ
 #: svx/inc/swframeposstrings.hrc:49
@@ -11745,13 +11756,13 @@ msgstr "Ulompi kehysreuna"
 #: svx/inc/swframeposstrings.hrc:59
 msgctxt "RID_SVXSW_FRAMEPOSITIONS"
 msgid "Top"
-msgstr "Yläreuna"
+msgstr "Ylälaita"
 
 #. zvKGF
 #: svx/inc/swframeposstrings.hrc:60
 msgctxt "RID_SVXSW_FRAMEPOSITIONS"
 msgid "Bottom"
-msgstr "Alareuna"
+msgstr "Alalaita"
 
 #. zLzw8
 #: svx/inc/swframeposstrings.hrc:61 svx/inc/swframeposstrings.hrc:62
@@ -11787,13 +11798,13 @@ msgstr "Oikealta"
 #: svx/inc/swframeposstrings.hrc:67
 msgctxt "RID_SVXSW_FRAMEPOSITIONS"
 msgid "Top page border"
-msgstr "Sivun yläraja"
+msgstr "Sivun yläreuna"
 
 #. ZyAri
 #: svx/inc/swframeposstrings.hrc:68
 msgctxt "RID_SVXSW_FRAMEPOSITIONS"
 msgid "Bottom page border"
-msgstr "Sivun alaraja"
+msgstr "Sivun alareuna"
 
 #. 2vRtm
 #: svx/inc/swframeposstrings.hrc:69
@@ -12669,7 +12680,7 @@ msgstr "Japanilainen postikortti"
 #: svx/uiconfig/ui/acceptrejectchangesdialog.ui:8
 msgctxt "acceptrejectchangesdialog|AcceptRejectChangesDialog"
 msgid "Manage Changes"
-msgstr "Hallinnoi muutoksia"
+msgstr "Hallitse muutoksia"
 
 #. RMm2g
 #: svx/uiconfig/ui/acceptrejectchangesdialog.ui:23
@@ -12681,7 +12692,7 @@ msgstr "_Hyväksy"
 #: svx/uiconfig/ui/acceptrejectchangesdialog.ui:30
 msgctxt "acceptrejectchangesdialog|extended_tip|accept"
 msgid "Accepts the selected change and removes the highlighting from the change in the document."
-msgstr ""
+msgstr "Hyväksyy valitun muutoksen ja poistaa korostuksen muutoksesta asiakirjassa."
 
 #. UEZKm
 #: svx/uiconfig/ui/acceptrejectchangesdialog.ui:43
@@ -12693,7 +12704,7 @@ msgstr "H_ylkää"
 #: svx/uiconfig/ui/acceptrejectchangesdialog.ui:50
 msgctxt "acceptrejectchangesdialog|extended_tip|reject"
 msgid "Rejects the selected change and removes the highlighting from the change in the document."
-msgstr ""
+msgstr "Hylkää valitun muutoksen ja poistaa korostuksen muutoksesta asiakirjassa."
 
 #. CY86f
 #: svx/uiconfig/ui/acceptrejectchangesdialog.ui:63
@@ -13402,19 +13413,19 @@ msgstr "Valitse ruby-tekstin vaakasuuntainen tasaus."
 #: svx/uiconfig/ui/asianphoneticguidedialog.ui:416
 msgctxt "asianphoneticguidedialog|positionlb"
 msgid "Top"
-msgstr "Yläreuna"
+msgstr "Yllä"
 
 #. 5Ue7R
 #: svx/uiconfig/ui/asianphoneticguidedialog.ui:417
 msgctxt "asianphoneticguidedialog|positionlb"
 msgid "Bottom"
-msgstr "Alareuna"
+msgstr "Alla"
 
 #. TsZ3E
 #: svx/uiconfig/ui/asianphoneticguidedialog.ui:418
 msgctxt "asianphoneticguidedialog|positionlb"
 msgid "Right"
-msgstr "Oikealle"
+msgstr "Oikealla"
 
 #. GmE6A
 #: svx/uiconfig/ui/asianphoneticguidedialog.ui:422
@@ -13432,7 +13443,7 @@ msgstr "Esikatselu:"
 #: svx/uiconfig/ui/asianphoneticguidedialog.ui:503
 msgctxt "asianphoneticguidedialog|extended_tip|AsianPhoneticGuideDialog"
 msgid "Allows you to add comments next to Asian characters to serve as a pronunciation guide."
-msgstr ""
+msgstr "Mahdollistaa ääntämisohjeiden lisäämisen aasialaisten merkkien viereen."
 
 #. pCrNF
 #: svx/uiconfig/ui/cellmenu.ui:12
@@ -15045,10 +15056,9 @@ msgstr "Ympyrän muotoinen"
 
 #. pfLqS
 #: svx/uiconfig/ui/docking3deffects.ui:1895
-#, fuzzy
 msgctxt "docking3deffects|extended_tip|texcirclex"
 msgid "Wraps the horizontal axis of the texture pattern around a sphere."
-msgstr "Pintakuvion vaaka-akseli kääritään pallon ympäri."
+msgstr "Käärii pintakuvion vaaka-akselin pallon ympäri."
 
 #. E9Gy6
 #: svx/uiconfig/ui/docking3deffects.ui:1909
@@ -15082,10 +15092,9 @@ msgstr "Ympyrän muotoinen"
 
 #. FyRf5
 #: svx/uiconfig/ui/docking3deffects.ui:1961
-#, fuzzy
 msgctxt "docking3deffects|extended_tip|texcircley"
 msgid "Wraps the vertical axis of the texture pattern around a sphere."
-msgstr "Pintakuvion pystyakseli kääritään pallon ympäri."
+msgstr "Käärii pintakuvion pystyakselin pallon ympäri."
 
 #. cKvPt
 #: svx/uiconfig/ui/docking3deffects.ui:1975
@@ -15276,10 +15285,9 @@ msgstr "Pintakuviot"
 
 #. DVwWG
 #: svx/uiconfig/ui/docking3deffects.ui:2384
-#, fuzzy
 msgctxt "docking3deffects|extended_tip|texture"
 msgid "Sets the properties of the surface texture for the selected 3D object. This feature is only available after you apply a surface texture to the selected object. To quickly apply a surface texture, open the Gallery, hold down Shift+Ctrl, and then drag an image onto the selected 3D object."
-msgstr "Tehdään valitun kolmiulotteisen objektin pintakuvioinnin ominaisuusasetukset. Tämä piirre on käytettävissä vasta sitten, kun pintakuviointia on käytetty valittuun objektiin. Pintakuvion käyttämiseksi sujuvasti avataan galleria ja pitäen pohjassa Vaihto+Ctrl (Mac: Vaihto+Komento) vedetään kuva valitun 3D-objektin päälle."
+msgstr "Asettaa valitun kolmiulotteisen objektin pintakuvion ominaisuudet. Tämä toiminto on käytettävissä vasta sitten, kun pintakuviota on käytetty valittuun objektiin. Pintakuviota voi käyttää nopeasti avaamalla galleria, pitämällä pohjassa Vaihto+Ctrl (Mac: Vaihto+Komento) ja vetämällä kuva valitun 3D-objektin päälle."
 
 #. J4WKj
 #: svx/uiconfig/ui/docking3deffects.ui:2398
@@ -15739,7 +15747,7 @@ msgstr "Pystysuuntainen"
 #: svx/uiconfig/ui/dockingfontwork.ui:439
 msgctxt "dockingfontwork|extended_tip|vertical"
 msgid "Adds a shadow to the text in the selected object. Click this button, and then enter the dimensions of the shadow in the Distance X and the Distance Y boxes."
-msgstr "Lisää valitun objektin tekstiin varjon. Napsauta painiketta ja syötä varjon mitat Etäisyys X ja Etäisyys Y -ruutuihin."
+msgstr "Lisää valitun objektin tekstiin varjon. Napsauta painiketta ja syötä varjon mitat X-etäisyys- ja Y-etäisyys -ruutuihin."
 
 #. hcSuP
 #: svx/uiconfig/ui/dockingfontwork.ui:452
@@ -15757,7 +15765,7 @@ msgstr "Lisää valitun objektin tekstiin kallistetun varjon. Napsauta painikett
 #: svx/uiconfig/ui/dockingfontwork.ui:496
 msgctxt "dockingfontwork|distancex|tooltip_text"
 msgid "Distance X"
-msgstr "Etäisyys X"
+msgstr "X-etäisyys"
 
 #. foUKw
 #: svx/uiconfig/ui/dockingfontwork.ui:503
@@ -15769,7 +15777,7 @@ msgstr "Anna tekstin merkkien ja varjon reunan välinen vaakasuuntainen etäisyy
 #: svx/uiconfig/ui/dockingfontwork.ui:541
 msgctxt "dockingfontwork|distancey|tooltip_text"
 msgid "Distance Y"
-msgstr "Etäisyys Y"
+msgstr "Y-etäisyys"
 
 #. WhqTH
 #: svx/uiconfig/ui/dockingfontwork.ui:548
@@ -15793,7 +15801,7 @@ msgstr "Valitse tekstin varjon väri."
 #: svx/uiconfig/ui/dockingfontwork.ui:596
 msgctxt "dockingfontwork|extended_tip|DockingFontwork"
 msgid "Simple tool for putting text along a curve without any fancy effects."
-msgstr ""
+msgstr "Yksinkertainen työkalu, jolla tekstin saa käyrälle ilman hienoja tehosteita."
 
 #. ASETE
 #: svx/uiconfig/ui/docrecoverybrokendialog.ui:16
@@ -15967,13 +15975,13 @@ msgstr "Etsi ja korvaa"
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:138
 msgctxt "findreplacedialog-mobile|label4"
 msgid "_Find:"
-msgstr "Etsi:"
+msgstr "Etsittävä:"
 
 #. oNJkY
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:192
 msgctxt "findreplacedialog-mobile|matchcase"
 msgid "Ma_tch case"
-msgstr ""
+msgstr "Sama kirjainkoko"
 
 #. uiV7G
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:207
@@ -15997,7 +16005,7 @@ msgstr "Kokonaiset solut"
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:261
 msgctxt "findreplacedialog-mobile|allsheets"
 msgid "All _sheets"
-msgstr ""
+msgstr "Kaikki taulukot"
 
 #. 8a3TB
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:297
@@ -16009,7 +16017,7 @@ msgstr ""
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:380
 msgctxt "findreplacedialog-mobile|label5"
 msgid "Re_place:"
-msgstr "Korvaa:"
+msgstr "Korvaaja:"
 
 #. PhyMv
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:418
@@ -16117,7 +16125,7 @@ msgstr "Samankaltaisuudet..."
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:837
 msgctxt "findreplacedialog-mobile|soundslike"
 msgid "Sounds like (_Japanese)"
-msgstr ""
+msgstr "Samankuuloinen kuin (japani)"
 
 #. e7EkJ
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:852
@@ -16141,31 +16149,31 @@ msgstr ""
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:914
 msgctxt "findreplacedialog-mobile|replace_backwards"
 msgid "Replace _backwards"
-msgstr ""
+msgstr "Korvaa taaksepäin"
 
 #. EjXBb
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:950
 msgctxt "findreplacedialog-mobile|searchinlabel"
 msgid "Search i_n:"
-msgstr ""
+msgstr "Etsi kohteesta:"
 
 #. vHG2V
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:965
 msgctxt "findreplacedialog-mobile|calcsearchin"
 msgid "Formulas"
-msgstr ""
+msgstr "Kaavat"
 
 #. BC8U6
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:966
 msgctxt "findreplacedialog-mobile|calcsearchin"
 msgid "Values"
-msgstr ""
+msgstr "Arvot"
 
 #. BkByZ
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:967
 msgctxt "findreplacedialog-mobile|calcsearchin"
 msgid "Notes"
-msgstr ""
+msgstr "Muistiinpanot"
 
 #. a8BE2
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:992
@@ -16177,19 +16185,19 @@ msgstr "Suunta:"
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:1009
 msgctxt "findreplacedialog-mobile|rows"
 msgid "Ro_ws"
-msgstr ""
+msgstr "Riveittäin"
 
 #. xCeTz
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:1028
 msgctxt "findreplacedialog-mobile|cols"
 msgid "Colum_ns"
-msgstr ""
+msgstr "Sarakkeittain"
 
 #. fPE4f
 #: svx/uiconfig/ui/findreplacedialog-mobile.ui:1072
 msgctxt "findreplacedialog-mobile|label3"
 msgid "Other _options"
-msgstr ""
+msgstr "Muut asetukset"
 
 #. 2B7FQ
 #: svx/uiconfig/ui/findreplacedialog.ui:8
@@ -16201,19 +16209,19 @@ msgstr "Etsi ja korvaa"
 #: svx/uiconfig/ui/findreplacedialog.ui:107
 msgctxt "findreplacedialog|extended_tip|searchterm"
 msgid "Enter the text that you want to find, or select a previous search from the list."
-msgstr ""
+msgstr "Anna etsittävä teksti tai valitse aiempi haku luettelosta."
 
 #. qZujP
 #: svx/uiconfig/ui/findreplacedialog.ui:123
 msgctxt "findreplacedialog|extended_tip|searchlist"
 msgid "Enter the text that you want to find, or select a previous search from the list."
-msgstr ""
+msgstr "Anna etsittävä teksti tai valitse aiempi haku luettelosta."
 
 #. bathy
 #: svx/uiconfig/ui/findreplacedialog.ui:145
 msgctxt "findreplacedialog|label4"
 msgid "_Find:"
-msgstr "Etsi:"
+msgstr "Etsittävä:"
 
 #. 75TZD
 #: svx/uiconfig/ui/findreplacedialog.ui:200
@@ -16285,7 +16293,7 @@ msgstr "Kirjoita korvaava teksti tai valitse jokin aiemmin käytetty teksti tai 
 #: svx/uiconfig/ui/findreplacedialog.ui:413
 msgctxt "findreplacedialog|label5"
 msgid "Re_place:"
-msgstr "Korvaa:"
+msgstr "Korvaaja:"
 
 #. edBnK
 #: svx/uiconfig/ui/findreplacedialog.ui:452
@@ -16544,13 +16552,13 @@ msgstr "Suunta:"
 #: svx/uiconfig/ui/findreplacedialog.ui:1113
 msgctxt "findreplacedialog|rows"
 msgid "Ro_ws"
-msgstr "_Rivit"
+msgstr "Riveittäin"
 
 #. uib5F
 #: svx/uiconfig/ui/findreplacedialog.ui:1132
 msgctxt "findreplacedialog|cols"
 msgid "Colum_ns"
-msgstr "Sarakkeet"
+msgstr "Sarakkeittain"
 
 #. Q6fG8
 #: svx/uiconfig/ui/findreplacedialog.ui:1176
@@ -16846,10 +16854,9 @@ msgstr "Väritoleranssi"
 
 #. o4Dxq
 #: svx/uiconfig/ui/floatingcontour.ui:471
-#, fuzzy
 msgctxt "floatingcontour|extended_tip|spinbutton"
 msgid "Enter the color tolerance for the Color Replacer as a percentage. To increase the color range that the Color Replacer selects, enter a high percentage."
-msgstr "Annetaan värinvalitsimen käyttämä väritoleranssi arvo prosentteina. Värinvalitsimen valinnan värikirjo tulee kattavammaksi kasvattamalla prosenttilukua."
+msgstr "Anna värien korvaamisen väritoleranssi prosentteina. Isomman prosenttimäärän syöttämällä värien korvaaminen valitsee laajemman väriskaalan."
 
 #. CFqCa
 #: svx/uiconfig/ui/floatingcontour.ui:511
@@ -17439,10 +17446,9 @@ msgstr "Poista pisteet"
 
 #. 6FfFj
 #: svx/uiconfig/ui/imapdialog.ui:359
-#, fuzzy
 msgctxt "imapdialog|extended_tip|TBI_POLYDELETE"
 msgid "Deletes the selected anchor point."
-msgstr "Poistetaan valittu kulmapiste."
+msgstr "Poistaa valitun ankkuripisteen."
 
 #. TcAdh
 #: svx/uiconfig/ui/imapdialog.ui:373
@@ -17473,7 +17479,7 @@ msgstr "Poistetaan käytöstä tai otetaan käyttöön valitun avainalueen hyper
 #: svx/uiconfig/ui/imapdialog.ui:417
 msgctxt "imapdialog|TBI_MACRO"
 msgid "Macro..."
-msgstr "Makrot..."
+msgstr "Makro..."
 
 #. AhhJV
 #: svx/uiconfig/ui/imapdialog.ui:421
@@ -18000,16 +18006,15 @@ msgstr ""
 
 #. xEPJC
 #: svx/uiconfig/ui/optgridpage.ui:681
-#, fuzzy
 msgctxt "extended_tip|mtrfldbezangle"
 msgid "Defines the angle for point reduction."
-msgstr "Määritetään pisteen pienennyksen kulma."
+msgstr "Määrittää pisteiden vähennyksen kulman."
 
 #. hEA4g
 #: svx/uiconfig/ui/optgridpage.ui:694
 msgctxt "optgridpage|label9"
 msgid "Point reducti_on:"
-msgstr "Pisteen pienennys:"
+msgstr "Pisteiden vähennys:"
 
 #. JZEyB
 #: svx/uiconfig/ui/optgridpage.ui:716
@@ -18386,7 +18391,7 @@ msgstr "_Päivämäärä:"
 #: svx/uiconfig/ui/redlinefilterpage.ui:45
 msgctxt "redlinefilterpage|extended_tip|date"
 msgid "Filters the list of changes according to the date and the time that you specify."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa antamasi päivämäärän ja ajan mukaan."
 
 #. EnyT2
 #: svx/uiconfig/ui/redlinefilterpage.ui:56
@@ -18398,7 +18403,7 @@ msgstr "Tekijä:"
 #: svx/uiconfig/ui/redlinefilterpage.ui:64
 msgctxt "redlinefilterpage|extended_tip|author"
 msgid "Filters the list of changes according to the name of the author that you select from the list."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa luettelosta valitsemasi tekijän nimen mukaan."
 
 #. G36HS
 #: svx/uiconfig/ui/redlinefilterpage.ui:75
@@ -18446,7 +18451,7 @@ msgstr "Toiminto"
 #: svx/uiconfig/ui/redlinefilterpage.ui:148
 msgctxt "redlinefilterpage|extended_tip|actionlist"
 msgid "Filters the list of changes according to the type of change that you select in the Action box."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa Toiminto-ruudussa valitsemasi muutostyypin mukaan."
 
 #. c4doe
 #: svx/uiconfig/ui/redlinefilterpage.ui:159
@@ -18458,7 +18463,7 @@ msgstr "_Toiminto:"
 #: svx/uiconfig/ui/redlinefilterpage.ui:167
 msgctxt "redlinefilterpage|extended_tip|action"
 msgid "Filters the list of changes according to the type of change that you select in the Action box."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa Toiminto-ruudussa valitsemasi muutostyypin mukaan."
 
 #. r9bBY
 #: svx/uiconfig/ui/redlinefilterpage.ui:188
@@ -18470,7 +18475,7 @@ msgstr "Tekijä"
 #: svx/uiconfig/ui/redlinefilterpage.ui:189
 msgctxt "redlinefilterpage|extended_tip|authorlist"
 msgid "Filters the list of changes according to the name of the author that you select from the list."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa luettelosta valitsemasi tekijän nimen mukaan."
 
 #. mGrjp
 #: svx/uiconfig/ui/redlinefilterpage.ui:217
@@ -18494,7 +18499,7 @@ msgstr "Määritä viite"
 #: svx/uiconfig/ui/redlinefilterpage.ui:263
 msgctxt "redlinefilterpage|datecond"
 msgid "earlier than"
-msgstr "ennen kuin"
+msgstr "aiemmin kuin"
 
 #. XsdmM
 #: svx/uiconfig/ui/redlinefilterpage.ui:264
@@ -18536,7 +18541,7 @@ msgstr "Päivämääräehto"
 #: svx/uiconfig/ui/redlinefilterpage.ui:276
 msgctxt "redlinefilterpage|extended_tip|datecond"
 msgid "Filters the list of changes according to the date and the time that you specify."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa antamasi päivämäärän ja ajan mukaan."
 
 #. Z2Wv3
 #: svx/uiconfig/ui/redlinefilterpage.ui:299
@@ -18554,7 +18559,7 @@ msgstr "Aloituspäivämäärä"
 #: svx/uiconfig/ui/redlinefilterpage.ui:321
 msgctxt "redlinefilterpage|extended_tip|startdate"
 msgid "Filters the list of changes according to the date and the time that you specify."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa antamasi päivämäärän ja ajan mukaan."
 
 #. CyQhk
 #: svx/uiconfig/ui/redlinefilterpage.ui:342
@@ -18566,7 +18571,7 @@ msgstr "Aloitusaika"
 #: svx/uiconfig/ui/redlinefilterpage.ui:343
 msgctxt "redlinefilterpage|extended_tip|starttime"
 msgid "Filters the list of changes according to the date and the time that you specify."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa antamasi päivämäärän ja ajan mukaan."
 
 #. TbDDR
 #: svx/uiconfig/ui/redlinefilterpage.ui:358
@@ -18584,7 +18589,7 @@ msgstr "Lopetuspäivämäärä"
 #: svx/uiconfig/ui/redlinefilterpage.ui:379
 msgctxt "redlinefilterpage|extended_tip|enddate"
 msgid "Filters the list of changes according to the date and the time that you specify."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa antamasi päivämäärän ja ajan mukaan."
 
 #. jbLhY
 #: svx/uiconfig/ui/redlinefilterpage.ui:400
@@ -18596,7 +18601,7 @@ msgstr "Lopetusaika"
 #: svx/uiconfig/ui/redlinefilterpage.ui:401
 msgctxt "redlinefilterpage|extended_tip|endtime"
 msgid "Filters the list of changes according to the date and the time that you specify."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa antamasi päivämäärän ja ajan mukaan."
 
 #. PAFLU
 #: svx/uiconfig/ui/redlinefilterpage.ui:416
@@ -18608,7 +18613,7 @@ msgstr "Aseta nykyinen aika ja päivämäärä"
 #: svx/uiconfig/ui/redlinefilterpage.ui:442
 msgctxt "redlinefilterpage|extended_tip|RedlineFilterPage"
 msgid "Filters the list of changes according to the date and the time that you specify."
-msgstr ""
+msgstr "Suodattaa muutosluetteloa antamasi päivämäärän ja ajan mukaan."
 
 #. p8TCX
 #: svx/uiconfig/ui/redlineviewpage.ui:69 svx/uiconfig/ui/redlineviewpage.ui:175
@@ -18934,13 +18939,13 @@ msgstr "Pystylohkon valintatila"
 #: svx/uiconfig/ui/sidebararea.ui:55
 msgctxt "sidebararea|transparencyslider|tooltip_text"
 msgid "Specify 0% for fully opaque through 100% for fully transparent."
-msgstr "Valitse arvo väliltä 0 % (täysin peittävä) - 100 % (täysin läpinäkyvä)."
+msgstr "Valitse arvo väliltä 0 % (täysin peittävä) … 100 % (täysin läpinäkyvä)."
 
 #. RBwTW
 #: svx/uiconfig/ui/sidebararea.ui:71
 msgctxt "sidebararea|settransparency|tooltip_text"
 msgid "Specify 0% for fully opaque through 100% for fully transparent."
-msgstr "Valitse arvo väliltä 0 % (täysin peittävä) - 100 % (täysin läpinäkyvä)."
+msgstr "Valitse arvo väliltä 0 % (täysin peittävä) … 100 % (täysin läpinäkyvä)."
 
 #. iA8W8
 #: svx/uiconfig/ui/sidebararea.ui:76
@@ -19006,7 +19011,7 @@ msgstr "Ellipsoidi"
 #: svx/uiconfig/ui/sidebararea.ui:139
 msgctxt "sidebararea|gradientstyle"
 msgid "Quadratic"
-msgstr "Neliön muotoinen"
+msgstr "Neliöllinen"
 
 #. GknV3
 #: svx/uiconfig/ui/sidebararea.ui:140
@@ -19126,7 +19131,7 @@ msgstr "Ellipsoidi"
 #: svx/uiconfig/ui/sidebararea.ui:325
 msgctxt "sidebararea|transtype"
 msgid "Quadratic"
-msgstr "Neliön muotoinen"
+msgstr "Neliöllinen"
 
 #. ozP7p
 #: svx/uiconfig/ui/sidebararea.ui:326
@@ -19252,7 +19257,7 @@ msgstr "Kontrasti:"
 #: svx/uiconfig/ui/sidebargraphic.ui:99
 msgctxt "sidebargraphic|setcontrast|tooltip_text"
 msgid "Specify the degree of difference between the lightest and darkest parts of the graphic."
-msgstr "Aseta kuvan vaaleiden ja tummien osien välinen kirkkausero."
+msgstr "Aseta kuvan vaaleimpien ja tummimpien osien välinen kirkkausero."
 
 #. zJs2p
 #: svx/uiconfig/ui/sidebargraphic.ui:105
@@ -19402,7 +19407,7 @@ msgstr "Kulmatyyli"
 #: svx/uiconfig/ui/sidebarline.ui:282
 msgctxt "sidebarline|caplabel"
 msgid "Ca_p style:"
-msgstr "Viivanpään tyyli:"
+msgstr "Viivanpäätyyli:"
 
 #. PbDF7
 #: svx/uiconfig/ui/sidebarline.ui:296
@@ -19432,7 +19437,7 @@ msgstr "Neliö"
 #: svx/uiconfig/ui/sidebarline.ui:305
 msgctxt "sidebarline|linecapstyle-atkobject"
 msgid "Cap Style"
-msgstr "Viivanpäiden tyyli"
+msgstr "Viivanpäätyyli"
 
 #. rmxCC
 #: svx/uiconfig/ui/sidebarlists.ui:23
@@ -19444,7 +19449,7 @@ msgstr "Luettelomerkit ja numerointi"
 #: svx/uiconfig/ui/sidebarparagraph.ui:53
 msgctxt "sidebarparagraph|horizontalalignment|tooltip_text"
 msgid "Horizontal Alignment"
-msgstr "Vaakasuuntainen tasaus"
+msgstr "Vaakatasaus"
 
 #. 3oBp7
 #: svx/uiconfig/ui/sidebarparagraph.ui:150
@@ -19576,7 +19581,7 @@ msgstr "Kappaleen taustaväri"
 #: svx/uiconfig/ui/sidebarpossize.ui:52
 msgctxt "sidebarpossize|horizontallabel"
 msgid "Position _X:"
-msgstr "Sijainti X:"
+msgstr "X-sijainti:"
 
 #. DqemA
 #: svx/uiconfig/ui/sidebarpossize.ui:67
@@ -19594,7 +19599,7 @@ msgstr "Vaakasuunta"
 #: svx/uiconfig/ui/sidebarpossize.ui:86
 msgctxt "sidebarpossize|verticallabel"
 msgid "Position _Y:"
-msgstr "Sijainti Y:"
+msgstr "Y-sijainti:"
 
 #. 8jhK2
 #: svx/uiconfig/ui/sidebarpossize.ui:101
@@ -19618,7 +19623,7 @@ msgstr "Leveys:"
 #: svx/uiconfig/ui/sidebarpossize.ui:134
 msgctxt "sidebarpossize|selectwidth|tooltip_text"
 msgid "Enter a width for the selected object."
-msgstr "Anna valitun objektin leveys."
+msgstr "Anna valitulle objektille leveys."
 
 #. 9j3cM
 #: svx/uiconfig/ui/sidebarpossize.ui:140
@@ -19636,7 +19641,7 @@ msgstr "Korkeus:"
 #: svx/uiconfig/ui/sidebarpossize.ui:168
 msgctxt "sidebarpossize|selectheight|tooltip_text"
 msgid "Enter a height for the selected object."
-msgstr "Anna valitun objektin korkeus."
+msgstr "Anna valitulle objektille korkeus."
 
 #. Z9wXF
 #: svx/uiconfig/ui/sidebarpossize.ui:174
@@ -19781,7 +19786,7 @@ msgstr "Syötä tekstin palstojen määrä."
 #: svx/uiconfig/ui/sidebartextcolumnspanel.ui:90
 msgctxt "sidebartextcolumns|extended_tip|MTR_FLD_COL_SPACING"
 msgid "Enter the amount of space to leave between the columns."
-msgstr "Syötä palstojen väliin jäävän tilan määrä."
+msgstr "Syötä palstojen väliin jätettävän tilan määrä."
 
 #. dZf2D
 #: svx/uiconfig/ui/stylemenu.ui:12

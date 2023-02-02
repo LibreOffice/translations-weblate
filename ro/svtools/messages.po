@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-13 18:04+0100\n"
-"PO-Revision-Date: 2022-04-17 15:09+0000\n"
+"PO-Revision-Date: 2023-02-02 12:29+0000\n"
 "Last-Translator: Secară Cristian <cristi@secarica.ro>\n"
 "Language-Team: Romanian <https://translations.documentfoundation.org/projects/libo_ui-7-2/svtoolsmessages/ro/>\n"
 "Language: ro\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.2\n"
 "X-POOTLE-MTIME: 1542195873.000000\n"
 
 #. fLdeV
@@ -777,7 +777,7 @@ msgstr "Semialdin cursiv"
 #: include/svtools/strings.hrc:173
 msgctxt "STR_SVT_FONTMAP_BOTH"
 msgid "The same font will be used on both your printer and your screen."
-msgstr "Același font va fi folosit și pe ecran, și la imprimantă. "
+msgstr "Același font va fi folosit atât pentru imprimantă, cât și pentru ecran."
 
 #. HFBCn
 #: include/svtools/strings.hrc:174
@@ -2335,7 +2335,7 @@ msgstr "Numele destinației $(ARG1) este necunoscut."
 #: svtools/inc/errtxt.hrc:110
 msgctxt "RID_ERRHDL"
 msgid "Could not establish Internet connection to $(ARG1)."
-msgstr "Nu am putut stabili conexiunea prin Internet către $(ARG1)."
+msgstr "Nu am putut stabili conexiunea prin internet către $(ARG1)."
 
 #. DRTMX
 #: svtools/inc/errtxt.hrc:111
@@ -2344,8 +2344,8 @@ msgid ""
 "Error reading data from the Internet.\n"
 "Server error message: $(ARG1)."
 msgstr ""
-"Eroare de citire a datelor de pe Internet.\n"
-"Mesajul de eroare al serverului:$(ARG1)."
+"Eroare de citire a datelor de pe internet.\n"
+"Mesajul de eroare al serverului: $(ARG1)."
 
 #. XLR9Z
 #: svtools/inc/errtxt.hrc:112
@@ -2354,20 +2354,20 @@ msgid ""
 "Error transferring data to the Internet.\n"
 "Server error message: $(ARG1)."
 msgstr ""
-"Eroare la transferul datelor prin Internet.\n"
-"Mesajul serverului: $(ARG1)."
+"Eroare la transferul datelor prin internet.\n"
+"Mesajul de eroare al serverului: $(ARG1)."
 
 #. gdoRd
 #: svtools/inc/errtxt.hrc:113
 msgctxt "RID_ERRHDL"
 msgid "General Internet error has occurred."
-msgstr "A avut loc o eroare generală de Internet."
+msgstr "A avut loc o eroare generală de internet."
 
 #. Bxx3u
 #: svtools/inc/errtxt.hrc:114
 msgctxt "RID_ERRHDL"
 msgid "The requested Internet data is not available in the cache and cannot be transmitted as the Online mode has not be activated."
-msgstr "Datele solicitate din Internet nu sunt disponibile în memoria tampon si nu pot fi transmise deoarece modul Conectat nu este activ."
+msgstr "Datele solicitate din internet nu sunt disponibile în memoria tampon și nu pot fi transmise deoarece modul Online nu este activ."
 
 #. PT9qC
 #: svtools/inc/errtxt.hrc:115
@@ -2416,14 +2416,14 @@ msgid ""
 "An attempt was made to execute a macro.\n"
 "For security reasons, macro support is disabled."
 msgstr ""
-"S-a încercat execuția unei macrocomenzi.\n"
-"Din motive de securitate execuția este dezactivată."
+"S-a încercat executarea unei macrocomenzi.\n"
+"Din motive de securitate, suportul pentru macrocomenzi este dezactivat."
 
 #. GKHi6
 #: svtools/inc/errtxt.hrc:122
 msgctxt "RID_ERRHDL"
 msgid "Execution of macros is disabled. Macros are signed, but the document (containing document events) is not signed."
-msgstr ""
+msgstr "Executarea macrocomenzilor este dezactivată. Macrocomenzile sunt semnate, dar documentul (care conține evenimente de document) nu este semnat."
 
 #. 24FhM
 #: svtools/inc/errtxt.hrc:123
@@ -2437,7 +2437,7 @@ msgid ""
 msgstr ""
 "Acest document conține macrocomenzi.\n"
 "\n"
-"Macrocomezile pot conține viruși. Execuția macrocomenzilor este dezactivată prin setarea curentă de securitate a macrocomenzilor în %PRODUCTNAME - Preferințe - %PRODUCTNAME - Securitate.\n"
+"Macrocomenzile pot conține viruși. Executarea macrocomenzilor este dezactivată din cauza setării curente de securitate a macrocomenzilor din %PRODUCTNAME - Preferințe - %PRODUCTNAME - Securitate.\n"
 "\n"
 "Prin urmare, este posibil ca unele funcționalități să nu fie disponibile."
 
@@ -2453,7 +2453,7 @@ msgid ""
 msgstr ""
 "Acest document conține macrocomenzi.\n"
 "\n"
-"Macro-urile pot conține viruși. Execuția macrocomenzilor este dezactivată din cauza setărilor curente de securitate a macrocomenzilor în Instrumente - Opțiuni - %PRODUCTNAME - Securitate.\n"
+"Macrocomenzile pot conține viruși. Executarea macrocomenzilor este dezactivată din cauza setărilor curente de securitate a macrocomenzilor din Instrumente - Opțiuni - %PRODUCTNAME - Securitate.\n"
 "\n"
 "Prin urmare, este posibil ca unele funcționalități să nu fie disponibile."
 
@@ -2469,12 +2469,12 @@ msgid ""
 "Execution of macros is disabled for this document.\n"
 " "
 msgstr ""
-"Documentul criptat conține secvențe necriptate suspecte.\n"
+"Documentul criptat conține fluxuri neașteptate, necriptate.\n"
 "\n"
-"Acestea ar putea fi rezultatul manipulării documentului.\n"
+"Acesta ar putea fi rezultatul manipulării documentelor.\n"
 "\n"
-"Recomandăm să nu aveți încredere în documentul curent.\n"
-"Executarea macro-urilor este dezactivată pentru acest document.\n"
+"Vă recomandăm să nu aveți încredere în conținutul documentului curent.\n"
+"Executarea macrocomenzilor este dezactivată pentru acest document.\n"
 " "
 
 #. 8efKG
@@ -2887,19 +2887,19 @@ msgstr "Neerlandeză (Belgia)"
 #: svtools/inc/langtab.hrc:82
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English (USA)"
-msgstr "Engleză (SUA)"
+msgstr "Engleză (Statele Unite ale Americii)"
 
 #. aCBBC
 #: svtools/inc/langtab.hrc:83
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English (UK)"
-msgstr "Engleză (UK)"
+msgstr "Engleză (Marea Britanie)"
 
 #. 46Cte
 #: svtools/inc/langtab.hrc:84
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English, OED spelling (UK)"
-msgstr "Engleză, ortografie OED (UK)"
+msgstr "Engleză, ortografie OED (Marea Britanie)"
 
 #. XCJAF
 #: svtools/inc/langtab.hrc:85
@@ -3955,7 +3955,7 @@ msgstr "Éwé"
 #: svtools/inc/langtab.hrc:260
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English (Ghana)"
-msgstr "Engleză (Gana)"
+msgstr "Engleză (Ghana)"
 
 #. pAEtz
 #: svtools/inc/langtab.hrc:261
@@ -4831,7 +4831,7 @@ msgstr "Maghiară (Szekely-Hungarian Rovas)"
 #: svtools/inc/langtab.hrc:406
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English (Malaysia)"
-msgstr "Enbleză (Malaysia)"
+msgstr "Engleză (Malaysia)"
 
 #. 4sBjT
 #: svtools/inc/langtab.hrc:407
@@ -4922,19 +4922,19 @@ msgstr ""
 #: svtools/inc/langtab.hrc:421
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English (Zambia)"
-msgstr ""
+msgstr "Engleză (Zambia)"
 
 #. 7kkKy
 #: svtools/inc/langtab.hrc:422
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English (Sri Lanka)"
-msgstr ""
+msgstr "Engleză (Sri Lanka)"
 
 #. xFPXp
 #: svtools/inc/langtab.hrc:423
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English (Nigeria)"
-msgstr ""
+msgstr "Engleză (Nigeria)"
 
 #. Up6ab
 #: svtools/inc/langtab.hrc:424
@@ -4970,13 +4970,13 @@ msgstr ""
 #: svtools/inc/langtab.hrc:429
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English (Hong Kong)"
-msgstr ""
+msgstr "Engleză (Hong Kong)"
 
 #. qTMB2
 #: svtools/inc/langtab.hrc:430
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English (Kenya)"
-msgstr ""
+msgstr "Engleză (Kenya)"
 
 #. SgQ2p
 #: svtools/inc/langtab.hrc:431
@@ -5000,7 +5000,7 @@ msgstr ""
 #: svtools/inc/langtab.hrc:434
 msgctxt "STR_ARR_SVT_LANGUAGE_TABLE"
 msgid "English (Denmark)"
-msgstr ""
+msgstr "Engleză (Danemarca)"
 
 #. gmE6U
 #: svtools/inc/langtab.hrc:435
@@ -5726,7 +5726,7 @@ msgstr "Pentru ca îmbinarea corespondenței să funcționeze corect, %PRODUCTNA
 #: svtools/uiconfig/ui/restartdialog.ui:100
 msgctxt "restartdialog|reason_pdf"
 msgid "For the modified default print job format to take effect, %PRODUCTNAME must be restarted."
-msgstr "Pentru a aplica noul format implicit de imprimare, %PRODUCTNAME trebuie repornit."
+msgstr "Pentru ca formatul implicit modificat al sarcinii de tipărire să aibă efect, %PRODUCTNAME trebuie repornit."
 
 #. DuVPb
 #: svtools/uiconfig/ui/restartdialog.ui:115
@@ -5756,7 +5756,7 @@ msgstr "Setările actualizate de cale vor fi efective doar după restartul %PROD
 #: svtools/uiconfig/ui/restartdialog.ui:175
 msgctxt "restartdialog|reason_language_change"
 msgid "For the updated language settings to take effect, %PRODUCTNAME must be restarted."
-msgstr "Setările actualizate de limbă vor fi efective doar după restartul %PRODUCTNAME."
+msgstr "Pentru ca setările lingvistice actualizate să aibă efect, %PRODUCTNAME trebuie repornit."
 
 #. MtNwS
 #: svtools/uiconfig/ui/restartdialog.ui:190

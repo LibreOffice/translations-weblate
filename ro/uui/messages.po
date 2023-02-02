@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-12-13 18:05+0100\n"
-"PO-Revision-Date: 2022-03-13 22:02+0000\n"
+"PO-Revision-Date: 2023-02-02 12:25+0000\n"
 "Last-Translator: Secară Cristian <cristi@secarica.ro>\n"
 "Language-Team: Romanian <https://translations.documentfoundation.org/projects/libo_ui-7-2/uuimessages/ro/>\n"
 "Language: ro\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.12.2\n"
 "X-POOTLE-MTIME: 1522253070.000000\n"
 
 #. DLY8p
@@ -129,7 +129,7 @@ msgstr "Eroare generală de intrare/ieșire la accesarea $(ARG1)."
 #: uui/inc/ids.hrc:64
 msgctxt "RID_UUI_ERRHDL"
 msgid "An attempt was made to access $(ARG1) in an invalid way."
-msgstr "A avut loc o încercare de accesare a $(ARG1) într-un mod incorect."
+msgstr "A avut loc o încercare de accesare a $(ARG1) într-un mod nevalid."
 
 #. Y6bwq
 #: uui/inc/ids.hrc:66
@@ -141,7 +141,7 @@ msgstr "$(ARG1) conține caractere nevalide."
 #: uui/inc/ids.hrc:68
 msgctxt "RID_UUI_ERRHDL"
 msgid "The device (drive) $(ARG1) is invalid."
-msgstr "Dispozitivul (unitatea) $(ARG1) este nevalid(ă)."
+msgstr "Dispozitivul (unitatea) $(ARG1) nu este valid."
 
 #. Ykhp2
 #: uui/inc/ids.hrc:70
@@ -360,12 +360,12 @@ msgid ""
 "\n"
 "Should %PRODUCTNAME repair the file?\n"
 msgstr ""
-"Fișierul '$(ARG1)' este defect prin urmare nu poate fi deschis. %PRODUCTNAME poate încerca să repare fișierul.\n"
+"Fișierul „$(ARG1)” este corupt și, prin urmare, nu poate fi deschis. %PRODUCTNAME poate încerca să repare fișierul.\n"
 "\n"
-"Defectarea poate fi rezultatul manipulării documentului sau defectarea structurală a documentului datorită transmisiei datelor.\n"
+"Coruperea poate fi rezultatul manipulării documentelor sau al deteriorării structurale a documentelor din cauza transmiterii datelor.\n"
 "\n"
-"Recomandarea e sa nu se încreadă în conținutul documentului restaurat\n"
-"Execuția macro-urilor este dezactivată pentru acest document.\n"
+"Vă recomandăm să nu aveți încredere în conținutul documentului reparat.\n"
+"Execuția macrocomenzilor este dezactivată pentru acest document.\n"
 "\n"
 "Ar trebui ca %PRODUCTNAME să repare fișierul?\n"
 
@@ -415,7 +415,7 @@ msgstr ""
 #: uui/inc/ids.hrc:150
 msgctxt "RID_UUI_ERRHDL"
 msgid "The form contains invalid data. Do you still want to continue?"
-msgstr "Acest formular conține date nevalide. Doriți totuși să continuați?"
+msgstr "Formularul conține date nevalide. Încă vreți să continuați?"
 
 #. DSoD4
 #: uui/inc/ids.hrc:152
@@ -479,15 +479,15 @@ msgid ""
 "\n"
 "You should check to make sure that your computer's time is correct."
 msgstr ""
-"$(ARG1) este un site web care folosește un certificat de securitate pentru a cripta datele în timpul transmisiei, dar certificatul a expirat la $(ARG2).\n"
+"$(ARG1) este un site web care folosește un certificat de securitate pentru a cripta datele în timpul transmisiei, dar certificatul său a expirat pe $(ARG2).\n"
 "\n"
-"Verificați și asigurați-vă că data și ora de pe calculatorul dumneavoastră sunt corecte."
+"Ar trebui să verificați pentru a vă asigura că ora calculatorului dumneavoastră este corectă."
 
 #. 8GuAn
 #: uui/inc/ids.hrc:167
 msgctxt "STR_UUI_SSLWARN_EXPIRED_TITLE"
 msgid "Security Warning: Server Certificate Invalid"
-msgstr "Avertisment de securitate: Certificat invalid de la server"
+msgstr "Avertisment de securitate: certificatul serverului nu este valid"
 
 #. iyR2A
 #: uui/inc/ids.hrc:168
@@ -519,15 +519,15 @@ msgid ""
 "\n"
 "If you suspect the certificate shown, please cancel the connection and notify the site administrator."
 msgstr ""
-"Certificatul nu a putut fi validat. Ar trebui să examinați certificatul siteului cu atenție.\n"
+"Certificatul nu a putut fi validat. Ar trebui să examinați cu atenție certificatul acestui site web.\n"
 "\n"
-"Dacă nu aveți încredere în certificatul afișat, anulați conexiunea și să anunțați administratorul pagini web."
+"Dacă aveți vreo suspiciune în privința certificatului afișat, anulați conexiunea și notificați administratorul site-ului web."
 
 #. Aj227
 #: uui/inc/ids.hrc:171
 msgctxt "STR_UUI_SSLWARN_INVALID_TITLE"
 msgid "Security Warning: Domain Name Mismatch"
-msgstr "Avertisment de securitate: Numele domeniului nu se potrivește"
+msgstr "Avertisment de securitate: numele domeniului nu se potrivește"
 
 #. wH3TZ
 msgctxt "stock"
@@ -1071,36 +1071,39 @@ msgid ""
 "\n"
 "Macros may contain viruses. Disabling macros for a document is always safe. If you disable macros you may lose functionality provided by the document macros."
 msgstr ""
+"Documentul conține macrocomenzi pentru documente.\n"
+"\n"
+"Macrocomenzile pot conține viruși. Dezactivarea macrocomenzilor pentru un document este întotdeauna sigură. Dacă dezactivați macrocomenzile, este posibil să pierdeți funcționalitatea oferită de macrocomenzile documentului."
 
 #. svTn6
 #: uui/uiconfig/ui/macrowarnmedium.ui:27
 msgctxt "macrowarnmedium|cancel"
 msgid "_Disable Macros"
-msgstr "_Dezactivează macrourile"
+msgstr "_Dezactivează macrocomenzile"
 
 #. o4c9e
 #: uui/uiconfig/ui/macrowarnmedium.ui:43
 msgctxt "macrowarnmedium|ok"
 msgid "_Enable Macros"
-msgstr "Activează macrouril_e"
+msgstr "Activ_ează macrocomenzile"
 
 #. tYAFs
 #: uui/uiconfig/ui/macrowarnmedium.ui:89
 msgctxt "macrowarnmedium|descr1Label"
 msgid "The document contains document macros signed by:"
-msgstr "Acest document conține macrocomenzi semnate de:"
+msgstr "Documentul conține macrocomenzi de document semnate de:"
 
 #. SBMFJ
 #: uui/uiconfig/ui/macrowarnmedium.ui:98
 msgctxt "macrowarnmedium|alwaysTrustCheckbutton"
 msgid "_Always trust macros from this source"
-msgstr "_Aveți întotdeauna încredere în macrocomenzile din această sursă"
+msgstr "_Aveți întotdeauna încredere în macrocomenzile de la această sursă"
 
 #. hWGP7
 #: uui/uiconfig/ui/macrowarnmedium.ui:128
 msgctxt "macrowarnmedium|viewSignsButton"
 msgid "_View Signatures…"
-msgstr "Vizualizare semnături..."
+msgstr "_Vizualizează semnăturile…"
 
 #. BABeG
 #: uui/uiconfig/ui/masterpassworddlg.ui:8

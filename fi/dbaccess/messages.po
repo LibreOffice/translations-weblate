@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-11-03 12:46+0100\n"
-"PO-Revision-Date: 2022-07-01 16:29+0000\n"
+"PO-Revision-Date: 2023-02-02 12:26+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://translations.documentfoundation.org/projects/libo_ui-7-2/dbaccessmessages/fi/>\n"
 "Language: fi\n"
@@ -311,7 +311,7 @@ msgstr "Kyselyä nimeltä \"$table$\" ei ole olemassa."
 #: dbaccess/inc/strings.hrc:58
 msgctxt "RID_STR_CONFLICTING_NAMES"
 msgid "There are tables in the database whose names conflict with the names of existing queries. To make full use of all queries and tables, make sure they have distinct names."
-msgstr "Tietokannassa on tauluja, joiden nimet ovat ristiriidassa olemassa olevien kyselyiden kanssa. Jotta kaikki taulut ja kyselyt toimisivat kunnolla, varmista että niillä on eri nimet."
+msgstr "Tietokannassa on tauluja, joiden nimet ovat ristiriidassa olemassa olevien kyselyiden nimien kanssa. Jotta kaikki taulut ja kyselyt toimisivat kunnolla, varmista, että niillä on eri nimet."
 
 #. e2YrR
 #: dbaccess/inc/strings.hrc:59
@@ -804,6 +804,7 @@ msgstr "Sarakkeen ~leveys..."
 
 #. mczq6
 #: dbaccess/inc/strings.hrc:143
+#, fuzzy
 msgctxt "RID_STR_TABLE_FORMAT"
 msgid "Table Format..."
 msgstr "Taulukon muotoilu..."
@@ -984,6 +985,7 @@ msgstr "Tämä ohjattu toiminto auttaa tekemään lomakkeen luomisessa tarvittav
 
 #. c6NPF
 #: dbaccess/inc/strings.hrc:175
+#, fuzzy
 msgctxt "RID_STR_QUERIES_HELP_TEXT"
 msgid "Create a query by specifying the filters, input tables, field names, and properties for sorting or grouping."
 msgstr "Luo kysely määrittämällä suodattimet, syöttötaulukot, kenttien nimet ja lajittelun tai ryhmittelyn ominaisuudet."
@@ -1672,7 +1674,7 @@ msgstr "Yhteyden testaus"
 #: dbaccess/inc/strings.hrc:289
 msgctxt "STR_CONNECTION_SUCCESS"
 msgid "The connection was established successfully."
-msgstr "Yhteys muodostettiin onnistuneesti."
+msgstr "Yhteyden muodostaminen onnistui."
 
 #. 5V7Ay
 #: dbaccess/inc/strings.hrc:290
@@ -1684,7 +1686,7 @@ msgstr "Yhteyttä ei voitu muodostaa."
 #: dbaccess/inc/strings.hrc:291
 msgctxt "STR_JDBCDRIVER_SUCCESS"
 msgid "The JDBC driver was loaded successfully."
-msgstr "JDBC-ajuri ladattiin onnistuneesti."
+msgstr "JDBC-ajurin lataaminen onnistui."
 
 #. RdMCN
 #: dbaccess/inc/strings.hrc:292
@@ -1893,7 +1895,7 @@ msgstr "Polku tekstitiedostoihin"
 #: dbaccess/inc/strings.hrc:330
 msgctxt "STR_CALC_PATH_OR_FILE"
 msgid "Path to the spreadsheet document"
-msgstr "Polku laskentataulukko-asiakirjaan"
+msgstr "Polku laskentataulukkoasiakirjaan"
 
 #. qxbA7
 #: dbaccess/inc/strings.hrc:331
@@ -2047,7 +2049,7 @@ msgstr "Muuta taulun nimi. Se on liian pitkä."
 #: dbaccess/inc/strings.hrc:357
 msgctxt "STR_DBWIZARDTITLE"
 msgid "Database Wizard"
-msgstr "Ohjattu tietokantamääritys"
+msgstr "Ohjattu tietokannan määritys"
 
 #. p4Yy4
 #: dbaccess/inc/strings.hrc:358
@@ -3296,13 +3298,13 @@ msgstr "Taulun muotoilu"
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:18
 msgctxt "finalpagewizard|headerText"
 msgid "Decide How to Proceed After Saving the Database"
-msgstr "Valitse miten haluat edetä tietokannan tallentamisen jälkeen"
+msgstr "Valitse, miten haluat edetä tietokannan tallentamisen jälkeen"
 
 #. 8F6gE
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:46
 msgctxt "finalpagewizard|helpText"
 msgid "Do you want the wizard to register the database in %PRODUCTNAME?"
-msgstr "Haluatko, että tietokanta rekisteröidään %PRODUCTNAME-ohjelmistoon?"
+msgstr "Haluatko, että tietokanta rekisteröidään %PRODUCTNAMEen?"
 
 #. KheM5
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:59
@@ -3332,7 +3334,7 @@ msgstr "Avaa tietokanta muokattavaksi"
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:133
 msgctxt "finalpagewizard|usewizard"
 msgid "Create tables using the table wizard"
-msgstr "Luo taulut käyttäen ohjattua toimintoa"
+msgstr "Luo taulut käyttäen ohjattua taulun luomista"
 
 #. JpPEA
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:156
@@ -3368,13 +3370,13 @@ msgstr ""
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:18
 msgctxt "generalpagewizard|headerText"
 msgid "Welcome to the %PRODUCTNAME Database Wizard"
-msgstr "Tervetuloa %PRODUCTNAMEn tietokantojen ohjattuun toimintoon"
+msgstr "Tervetuloa %PRODUCTNAMEn ohjattuun tietokannan määritykseen"
 
 #. DSNWP
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:35
 msgctxt "generalpagewizard|helpText"
 msgid "Use the Database Wizard to create a new database, open an existing database file, or connect to a database stored on a server."
-msgstr "Voit käyttää tietokantojen ohjattua toimintoa uuden tietokannan luomiseen, olemassa olevan avaamiseen ja yhteyden muodostamiseen palvelimella sijaitsevaan tietokantaan."
+msgstr "Voit käyttää ohjattua tietokannan määritystä uuden tietokannan luomiseen, olemassa olevan tietokantatiedoston avaamiseen tai yhteyden muodostamiseen palvelimella sijaitsevaan tietokantaan."
 
 #. KxZny
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:50
@@ -3404,7 +3406,7 @@ msgstr "Avata olemassa olevan tietokantatiedoston"
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:140
 msgctxt "generalpagewizard|docListLabel"
 msgid "_Recently used:"
-msgstr "Viimeksi käytetty:"
+msgstr "Viime aikoina käytetyt:"
 
 #. dVAEy
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:171

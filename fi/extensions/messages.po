@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2021-04-27 17:02+0200\n"
-"PO-Revision-Date: 2022-05-22 12:46+0000\n"
+"PO-Revision-Date: 2023-02-02 12:27+0000\n"
 "Last-Translator: Tuomas Hietala <tuomas.hietala@iki.fi>\n"
 "Language-Team: Finnish <https://translations.documentfoundation.org/projects/libo_ui-7-2/extensionsmessages/fi/>\n"
 "Language: fi\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.2\n"
 "X-POOTLE-MTIME: 1564237489.000000\n"
 
 #. cBx8W
@@ -185,6 +185,7 @@ msgstr "Sql"
 
 #. GCQne
 #: extensions/inc/stringarrays.hrc:51
+#, fuzzy
 msgctxt "RID_RSC_ENUM_LISTSOURCE_TYPE"
 msgid "Sql [Native]"
 msgstr "Sql [suora]"
@@ -407,12 +408,14 @@ msgstr "13:45:00"
 
 #. v6Dq4
 #: extensions/inc/stringarrays.hrc:112
+#, fuzzy
 msgctxt "RID_RSC_ENUM_TIMEFORMAT_LIST"
 msgid "01:45 PM"
 msgstr "01:45 PM"
 
 #. dSe7J
 #: extensions/inc/stringarrays.hrc:113
+#, fuzzy
 msgctxt "RID_RSC_ENUM_TIMEFORMAT_LIST"
 msgid "01:45:00 PM"
 msgstr "01:45:00 PM"
@@ -523,13 +526,13 @@ msgstr "Yhtenäinen valinta"
 #: extensions/inc/stringarrays.hrc:155
 msgctxt "RID_RSC_ENUM_ORIENTATION"
 msgid "Horizontal"
-msgstr "Vaakataso"
+msgstr "Vaaka"
 
 #. Z5BR2
 #: extensions/inc/stringarrays.hrc:156
 msgctxt "RID_RSC_ENUM_ORIENTATION"
 msgid "Vertical"
-msgstr "Pystytaso"
+msgstr "Pysty"
 
 #. BFfMD
 #: extensions/inc/stringarrays.hrc:161
@@ -607,13 +610,13 @@ msgstr "Ei mitään"
 #: extensions/inc/stringarrays.hrc:189
 msgctxt "RID_RSC_ENUM_SCROLLBARS"
 msgid "Horizontal"
-msgstr "Vaakataso"
+msgstr "Vaaka"
 
 #. YNNCf
 #: extensions/inc/stringarrays.hrc:190
 msgctxt "RID_RSC_ENUM_SCROLLBARS"
 msgid "Vertical"
-msgstr "Pystytaso"
+msgstr "Pysty"
 
 #. gWynn
 #: extensions/inc/stringarrays.hrc:191
@@ -727,7 +730,7 @@ msgstr "Korvaa"
 #: extensions/inc/stringarrays.hrc:221
 msgctxt "RID_RSC_ENUM_WHITESPACE_HANDLING"
 msgid "Collapse"
-msgstr "Pienennä"
+msgstr "Supista"
 
 #. 2Kaax
 #: extensions/inc/stringarrays.hrc:226
@@ -763,7 +766,7 @@ msgstr "Oikealta vasemmalle"
 #: extensions/inc/stringarrays.hrc:235
 msgctxt "RID_RSC_ENUM_WRITING_MODE"
 msgid "Use superordinate object settings"
-msgstr "Käytä ensisijaista objektiasetusta"
+msgstr "Käytä ylemmän tason objektiasetuksia"
 
 #. LZ36B
 #: extensions/inc/stringarrays.hrc:240
@@ -1099,7 +1102,7 @@ msgstr "Sarkainjärjestys"
 #: extensions/inc/strings.hrc:70
 msgctxt "RID_STR_WHEEL_BEHAVIOR"
 msgid "Mouse wheel scroll"
-msgstr "Muokkaus hiiren rullalla"
+msgstr "Vieritys hiiren rullalla"
 
 #. eykyF
 #: extensions/inc/strings.hrc:71
@@ -2311,6 +2314,7 @@ msgstr "Ohjausobjekti (tuntematon tyyppi)"
 
 #. qT2Ed
 #: extensions/inc/strings.hrc:277
+#, fuzzy
 msgctxt "RID_STR_PROPTITLE_IMAGECONTROL"
 msgid "Image Control"
 msgstr "Kuvan ohjaus"
@@ -2355,7 +2359,7 @@ msgstr "Rajoitettu kenttä"
 #: extensions/inc/strings.hrc:284
 msgctxt "RID_STR_PROPTITLE_DBGRID"
 msgid "Table Control "
-msgstr "Taulukon ohjausobjekti "
+msgstr "Taulukko-ohjausobjekti "
 
 #. LyDfr
 #: extensions/inc/strings.hrc:286
@@ -2392,7 +2396,7 @@ msgstr "Tarkistetaan..."
 #: extensions/inc/strings.hrc:294
 msgctxt "RID_UPDATE_STR_CHECKING_ERR"
 msgid "Checking for an update failed."
-msgstr "Päivitysten saatavuuden tarkistus epäonnistui."
+msgstr "Päivitysten tarkistus epäonnistui."
 
 #. sefJb
 #: extensions/inc/strings.hrc:295
@@ -2462,7 +2466,7 @@ msgid ""
 "\n"
 "Click 'Download...' to download %PRODUCTNAME %NEXTVERSION manually from the web site."
 msgstr ""
-"Päivityksen automaattinen lataus ei juuri nyt onnistu.\n"
+"Päivityksen automaattinen lataaminen ei ole tällä hetkellä mahdollista.\n"
 "\n"
 "Napsauta 'Lataa...' ladataksesi %PRODUCTNAME %NEXTVERSION:n manuaalisesti www-sivulta."
 
@@ -2470,7 +2474,7 @@ msgstr ""
 #: extensions/inc/strings.hrc:303
 msgctxt "RID_UPDATE_STR_DOWNLOADING"
 msgid "Downloading %PRODUCTNAME %NEXTVERSION..."
-msgstr "Ladataan %PRODUCTNAME %NEXTVERSION:ta..."
+msgstr "Ladataan %PRODUCTNAMEn versiota %NEXTVERSION..."
 
 #. VFs93
 #: extensions/inc/strings.hrc:304
@@ -2590,7 +2594,7 @@ msgstr "Napsauta kuvaketta aloittaaksesi latauksen."
 #: extensions/inc/strings.hrc:323
 msgctxt "RID_UPDATE_BUBBLE_T_UPDATE_NO_DOWN"
 msgid "%PRODUCTNAME update available"
-msgstr "Ohjelman %PRODUCTNAME päivitys saatavilla"
+msgstr "%PRODUCTNAMEn päivitys saatavilla"
 
 #. vHn6r
 #: extensions/inc/strings.hrc:324
@@ -2602,7 +2606,7 @@ msgstr "Napsauta kuvaketta katsoaksesi lisätietoja."
 #: extensions/inc/strings.hrc:325
 msgctxt "RID_UPDATE_BUBBLE_T_AUTO_START"
 msgid "%PRODUCTNAME update available"
-msgstr "Ohjelman %PRODUCTNAME päivitys saatavilla"
+msgstr "%PRODUCTNAMEn päivitys saatavilla"
 
 #. Q86DD
 #: extensions/inc/strings.hrc:326
@@ -2680,13 +2684,13 @@ msgstr "SANE-liittymää ei voitu alustaa. Skannausta ei voida suorittaa."
 #: extensions/inc/strings.hrc:339
 msgctxt "STR_SLOW_PREVIEW"
 msgid "The device does not offer a preview option. Therefore, a normal scan will be used as a preview instead. This may take a considerable amount of time."
-msgstr "Laitteessa ei ole esikatselutoimintoa. Tavallista skannausta käytetään esikatseluskannauksen sijasta. Tavallinen skannaus saattaa kestää huomattavan kauan."
+msgstr "Laitteessa ei ole esikatselutoimintoa. Sen takia esikatseluna käytetään tavallista skannausta, mikä voi olla hidasta."
 
 #. S8o4P
 #: extensions/inc/strings.hrc:340
 msgctxt "STR_ERROR_SCAN"
 msgid "An error occurred while scanning."
-msgstr "Skannauksessa on ilmennyt virhe."
+msgstr "Skannauksessa tapahtui virhe."
 
 #. hEFtD
 #: extensions/inc/strings.hrc:341
@@ -3466,7 +3470,7 @@ msgstr "Kaikki valintaryhmän luontiin tarvittavat tiedot on nyt määritetty."
 #: extensions/uiconfig/sabpilot/ui/optionvaluespage.ui:35
 msgctxt "optionvaluespage|label1"
 msgid "When you select an option, the option group is given a specific value."
-msgstr "Kun asetus valitaan, valintaryhmälle annetaan tietty arvo."
+msgstr "Kun valitset asetuksen, valintaryhmälle annetaan tietty arvo."
 
 #. XA4df
 #: extensions/uiconfig/sabpilot/ui/optionvaluespage.ui:58
@@ -3562,7 +3566,7 @@ msgstr "Thunderbird"
 #: extensions/uiconfig/sabpilot/ui/selecttypepage.ui:111
 msgctxt "selecttypepage|extended_tip|thunderbird"
 msgid "Select this option if you already use an address book in Thunderbird or Icedove."
-msgstr "Valitse tämä, jos käytät jo osoitekirjaa Thunderbirdissä ja Icedovessa."
+msgstr "Valitse tämä, jos käytät jo osoitekirjaa Thunderbirdissä tai Icedovessa."
 
 #. su4jz
 #: extensions/uiconfig/sabpilot/ui/selecttypepage.ui:122
@@ -3670,7 +3674,7 @@ msgstr "Merkintä"
 #: extensions/uiconfig/sbibliography/ui/combobox.ui:16
 msgctxt "combobox|TBC_FT_SOURCE"
 msgid "Table"
-msgstr ""
+msgstr "Taulu"
 
 #. HWJFh
 #: extensions/uiconfig/sbibliography/ui/editbox.ui:14
@@ -3868,7 +3872,7 @@ msgstr "Käyttäjän määrittämä _3"
 #: extensions/uiconfig/sbibliography/ui/generalpage.ui:910
 msgctxt "generalpage|extended_tip|GeneralPage"
 msgid "Insert, delete, edit, and organize records in the bibliography database."
-msgstr ""
+msgstr "Lisää, poista, muokkaa ja järjestele tietueita lähdeluettelotietokannassa."
 
 #. 7BG4W
 #: extensions/uiconfig/sbibliography/ui/mappingdialog.ui:8
@@ -4120,7 +4124,7 @@ msgstr ""
 #: extensions/uiconfig/sbibliography/ui/toolbar.ui:125
 msgctxt "toolbar|extended_tip|toolbar"
 msgid "Insert, delete, edit, and organize records in the bibliography database."
-msgstr ""
+msgstr "Lisää, poista, muokkaa ja järjestele tietueita lähdeluettelotietokannassa."
 
 #. AFbU5
 #: extensions/uiconfig/scanner/ui/griddialog.ui:111
@@ -4186,7 +4190,7 @@ msgstr "Vasen:"
 #: extensions/uiconfig/scanner/ui/sanedialog.ui:174
 msgctxt "sanedialog|label4"
 msgid "To_p:"
-msgstr "Yläreuna:"
+msgstr "Ylä:"
 
 #. bSfBR
 #: extensions/uiconfig/scanner/ui/sanedialog.ui:188
@@ -4198,7 +4202,7 @@ msgstr "Oikea:"
 #: extensions/uiconfig/scanner/ui/sanedialog.ui:202
 msgctxt "sanedialog|label6"
 msgid "_Bottom:"
-msgstr "Alareuna:"
+msgstr "Ala:"
 
 #. YfU4m
 #: extensions/uiconfig/scanner/ui/sanedialog.ui:274
