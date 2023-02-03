@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-12-19 15:00+0100\n"
-"PO-Revision-Date: 2023-02-02 12:18+0000\n"
+"PO-Revision-Date: 2023-02-03 15:34+0000\n"
 "Last-Translator: Secară Cristian <cristi@secarica.ro>\n"
 "Language-Team: Romanian <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/ro/>\n"
 "Language: ro\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 4.15.2\n"
 "X-POOTLE-MTIME: 1542024690.000000\n"
 
 #. kBovX
@@ -2938,9 +2938,9 @@ msgid ""
 "\n"
 "Do you want to recalculate all formula cells in this document now?"
 msgstr ""
-"Acest document ultima dată nu a fost salvat cu %PRODUCTNAME.  Unele formule pot da rezultate diferite după recalculare.\n"
+"Acest document a fost salvat ultima dată de o altă aplicație decât %PRODUCTNAME. Unele celule de formulă pot produce rezultate diferite atunci când sunt recalculate.\n"
 "\n"
-"Doriți acum recalcularea tuturor celulelor din acest document?"
+"Vreți să recalculați acum toate celulele cu formule din acest document?"
 
 #. rD6BE
 #: sc/inc/globstr.hrc:491
@@ -2950,6 +2950,9 @@ msgid ""
 "\n"
 "Do you want to recalculate all formula cells now?"
 msgstr ""
+"Acest document a fost salvat în format de fișier Excel (.xlsx). Unele celule de formulă pot produce rezultate diferite atunci când sunt recalculate.\n"
+"\n"
+"Vreți să recalculați acum toate celulele cu formule?"
 
 #. YgjzK
 #: sc/inc/globstr.hrc:492
@@ -3650,7 +3653,7 @@ msgstr "Definește intervalul de celule care conține criteriile de căutare."
 #: sc/inc/scfuncs.hrc:50
 msgctxt "SC_OPCODE_DB_COUNT_2"
 msgid "Counts all non-blank cells of a data range where the content corresponds to the search criteria."
-msgstr "Numără toate celulele nevide ale unui interval de date al căror conținut corespunde criteriilor de căutare."
+msgstr "Numără toate celulele care nu sunt vide ale unui interval de date al căror conținut corespunde criteriilor de căutare."
 
 #. Mcdmw
 #: sc/inc/scfuncs.hrc:51
@@ -3692,7 +3695,7 @@ msgstr "Definește intervalul de celule care conține criteriile de căutare."
 #: sc/inc/scfuncs.hrc:62
 msgctxt "SC_OPCODE_DB_AVERAGE"
 msgid "Returns the average value of all the cells of a data range whose contents match the search criteria."
-msgstr "Returnează valoarea medie a tuturor celulelor unui interval de date al căror conținut respectă criteriile de căutare."
+msgstr "Returnează valoarea medie a tuturor celulelor unui interval de date al cărui conținut corespunde criteriilor de căutare."
 
 #. GnTLE
 #: sc/inc/scfuncs.hrc:63
@@ -3818,7 +3821,7 @@ msgstr "Definește intervalul de celule care conține criteriile de căutare."
 #: sc/inc/scfuncs.hrc:98
 msgctxt "SC_OPCODE_DB_MIN"
 msgid "Returns the minimum of all cells of a data range where the contents correspond to the search criteria."
-msgstr "Returnează minimul tuturor celulelor unui interval de date al căror conținut corespunde cu criteriile de căutare."
+msgstr "Returnează minimul tuturor celulelor unui interval de date al cărui conținut corespunde criteriilor de căutare."
 
 #. 4P9kg
 #: sc/inc/scfuncs.hrc:99
@@ -3860,7 +3863,7 @@ msgstr "Definește intervalul de celule care conține criteriile de căutare."
 #: sc/inc/scfuncs.hrc:110
 msgctxt "SC_OPCODE_DB_PRODUCT"
 msgid "Multiplies all cells of a data range where the contents match the search criteria."
-msgstr "Multiplică toate celulele unui interval de date al căror conținut corespunde cu criteriile de căutare."
+msgstr "Multiplică toate celulele unui interval de date al cărui conținut corespunde criteriilor de căutare."
 
 #. jDDb8
 #: sc/inc/scfuncs.hrc:111
@@ -3902,7 +3905,7 @@ msgstr "Definește intervalul de celule care conține criteriile de căutare."
 #: sc/inc/scfuncs.hrc:122
 msgctxt "SC_OPCODE_DB_STD_DEV"
 msgid "Calculates the standard deviation of all cells in a data range whose contents match the search criteria."
-msgstr "Calculează abaterea standard a tuturor celulelor dintr-un interval de date al cărui conținut se potrivește criteriilor de căutare."
+msgstr "Calculează abaterea standard a tuturor celulelor dintr-un interval de date al cărui conținut corespunde criteriilor de căutare."
 
 #. abeZd
 #: sc/inc/scfuncs.hrc:123
@@ -3944,7 +3947,7 @@ msgstr "Definește intervalul de celule care conține criteriile de căutare."
 #: sc/inc/scfuncs.hrc:134
 msgctxt "SC_OPCODE_DB_STD_DEV_P"
 msgid "Returns the standard deviation with regards to the population of all cells of a data range matching the search criteria."
-msgstr "Returnează abaterea standard legată de populația tuturor celulelor dintr-un interval de date ce corespund criteriilor de căutare."
+msgstr "Returnează abaterea standard în ceea ce privește populația tuturor celulelor dintr-un interval de date care corespunde criteriilor de căutare."
 
 #. pEAMu
 #: sc/inc/scfuncs.hrc:135
@@ -3986,7 +3989,7 @@ msgstr "Definește intervalul de celule care conține criteriile de căutare."
 #: sc/inc/scfuncs.hrc:146
 msgctxt "SC_OPCODE_DB_SUM"
 msgid "Adds all the cells of a data range where the contents match the search criteria."
-msgstr "Adaugă toate celulele unui interval de date al cărui conținut se potrivește criteriilor de căutare."
+msgstr "Adaugă toate celulele unui interval de date al cărui conținut corespunde criteriilor de căutare."
 
 #. gCXg5
 #: sc/inc/scfuncs.hrc:147
@@ -4028,7 +4031,7 @@ msgstr "Definește intervalul de celule care conține criteriile de căutare."
 #: sc/inc/scfuncs.hrc:158
 msgctxt "SC_OPCODE_DB_VAR"
 msgid "Determines the variance of all the cells in a data range where the contents match the search criteria."
-msgstr "Determină varianța celulelor dintr-un interval de date al căror conținut corespunde criteriilor de căutare."
+msgstr "Determină varianța tuturor celulelor dintr-un interval de date al cărui conținut corespunde criteriilor de căutare."
 
 #. ktEWn
 #: sc/inc/scfuncs.hrc:159
@@ -4070,7 +4073,7 @@ msgstr "Definește intervalul de celule care conține criteriile de căutare."
 #: sc/inc/scfuncs.hrc:170
 msgctxt "SC_OPCODE_DB_VAR_P"
 msgid "Determines variance of a population based on all cells in a data range where contents match the search criteria."
-msgstr "Determină varianța unei populații bazate pe toate celulele dintr-un interval de date al căror conținut corespunde criteriilor de căutare."
+msgstr "Determină varianța unei populații pe baza tuturor celulelor dintr-un interval de date al cărui conținutul corespunde criteriilor de căutare."
 
 #. ZiVej
 #: sc/inc/scfuncs.hrc:171
@@ -6104,7 +6107,7 @@ msgstr "Valoarea care trebuie testată."
 #: sc/inc/scfuncs.hrc:749
 msgctxt "SC_OPCODE_IS_EMPTY"
 msgid "Returns TRUE if value refers to an empty cell."
-msgstr "Returnează TRUE dacă valoarea referă o celulă goală."
+msgstr "Returnează TRUE dacă valoarea se referă la o celulă goală."
 
 #. jzqbu
 #: sc/inc/scfuncs.hrc:750
@@ -6737,7 +6740,7 @@ msgstr "Intervalul din care sunt calculate mediile valorilor."
 #: sc/inc/scfuncs.hrc:1006
 msgctxt "SC_OPCODE_SUM_IFS"
 msgid "Totals the values of cells in a range that meet multiple criteria in multiple ranges."
-msgstr "Însumează valoarea celulelor dintr-un interval, care corespund unor criterii definite în mai multe intervale."
+msgstr "Totalizează valorile celulelor dintr-un interval care îndeplinesc mai multe criterii în mai multe intervale."
 
 #. 4M6MT
 #: sc/inc/scfuncs.hrc:1007
@@ -16768,10 +16771,9 @@ msgstr ""
 
 #. pDDme
 #: sc/inc/scstyles.hrc:29
-#, fuzzy
 msgctxt "RID_CELLSTYLEFAMILY"
 msgid "All Styles"
-msgstr "Stiluri de celulă"
+msgstr "Toate stilurile"
 
 #. fRpve
 #: sc/inc/scstyles.hrc:30
@@ -17552,7 +17554,7 @@ msgstr "Ancoră celulă"
 #: sc/inc/strings.hrc:154
 msgctxt "SCSTR_CONDITION"
 msgid "Condition "
-msgstr "Condiție "
+msgstr "Condiția "
 
 #. 56Wmj
 #. content description strings are also use        d in ScLinkTargetsObj
@@ -19370,7 +19372,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/autoformattable.ui:206
 msgctxt "autoformattable|extended_tip|add"
 msgid "Allows you to add the current formatting of a range of at least 4 x 4 cells to the list of predefined AutoFormats."
-msgstr ""
+msgstr "Permite adăugarea formatării curentă a unui interval de cel puțin 4 x 4 celule la lista de formate automate predefinite."
 
 #. DYbCK
 #: sc/uiconfig/scalc/ui/autoformattable.ui:225
@@ -19580,7 +19582,7 @@ msgstr "_Ascunde tot"
 #: sc/uiconfig/scalc/ui/cellprotectionpage.ui:84
 msgctxt "cellprotectionpage|extended_tip|checkHideAll"
 msgid "Hides formulas and contents of the selected cells."
-msgstr ""
+msgstr "Ascunde formulele și conținutul celulelor selectate."
 
 #. fBWyS
 #: sc/uiconfig/scalc/ui/cellprotectionpage.ui:99
@@ -19790,7 +19792,7 @@ msgstr "Lista de la"
 #: sc/uiconfig/scalc/ui/colorrowdialog.ui:164
 msgctxt "extended_tip|ColOrRowDialog"
 msgid "Allows you to copy marked cells to a sort list."
-msgstr ""
+msgstr "Permite copierea celulelor marcate într-o listă de sortare."
 
 #. ZnGGB
 #: sc/uiconfig/scalc/ui/colwidthdialog.ui:8
@@ -19832,7 +19834,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/condformatmanager.ui:18
 msgctxt "condformatmanager|CondFormatManager"
 msgid "Manage Conditional Formatting"
-msgstr "Administrare formatare condițională"
+msgstr "Gestionare formatare condițională"
 
 #. FZLBr
 #: sc/uiconfig/scalc/ui/condformatmanager.ui:129
@@ -20336,7 +20338,7 @@ msgstr "IconSet"
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:470
 msgctxt "conditionalentry|type"
 msgid "All Cells"
-msgstr ""
+msgstr "Toate celulele"
 
 #. ysEAt
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:471
