@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-12-19 15:00+0100\n"
-"PO-Revision-Date: 2023-02-06 18:34+0000\n"
+"PO-Revision-Date: 2023-02-08 19:32+0000\n"
 "Last-Translator: Secară Cristian <cristi@secarica.ro>\n"
 "Language-Team: Romanian <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/ro/>\n"
 "Language: ro\n"
@@ -4001,7 +4001,7 @@ msgstr "Bază de date"
 #: sc/inc/scfuncs.hrc:148
 msgctxt "SC_OPCODE_DB_SUM"
 msgid "The range of cells containing data."
-msgstr "Intervalul de celule ce conțin date."
+msgstr "Intervalul de celule care conțin date."
 
 #. 3rKRS
 #: sc/inc/scfuncs.hrc:149
@@ -6374,7 +6374,7 @@ msgstr "Orice valoare sau expresie care poate fi evaluată la ADEVĂRAT sau FALS
 #: sc/inc/scfuncs.hrc:874
 msgctxt "SC_OPCODE_IF"
 msgid "Then value"
-msgstr "Valoare dacă da"
+msgstr "Valoare pentru atunci"
 
 #. 6D8BZ
 #: sc/inc/scfuncs.hrc:875
@@ -6386,7 +6386,7 @@ msgstr "Rezultatul funcției dacă testul logic returnează ADEVĂRAT."
 #: sc/inc/scfuncs.hrc:876
 msgctxt "SC_OPCODE_IF"
 msgid "Otherwise value"
-msgstr "Valoare dacă nu"
+msgstr "Valoare pentru în caz contrar"
 
 #. eEZDV
 #: sc/inc/scfuncs.hrc:877
@@ -6469,16 +6469,15 @@ msgstr "Valoare logică "
 
 #. 8XBdG
 #: sc/inc/scfuncs.hrc:905
-#, fuzzy
 msgctxt "SC_OPCODE_OR"
 msgid "Logical value 1, logical value 2,... are conditions to be tested and which return either TRUE or FALSE."
-msgstr "Valoarea logică 1, valoarea logică 2, ... sunt condiții de la 1 la 30 care testate pot returna TRUE sau FALSE."
+msgstr "Valoare logică 1, valoare logică 2, ... sunt condiții care trebuie testate și care returnează fie ADEVĂRAT, fie FALS."
 
 #. oWP6A
 #: sc/inc/scfuncs.hrc:911
 msgctxt "SC_OPCODE_XOR"
 msgid "Returns TRUE if an odd number of arguments evaluates to TRUE."
-msgstr "Returnează TRUE dacă un număr impar de argumente sunt evaluate ca TRUE."
+msgstr "Returnează ADEVĂRAT dacă un număr impar de argumente este evaluat ca ADEVĂRAT."
 
 #. k66Hq
 #: sc/inc/scfuncs.hrc:912
@@ -6488,16 +6487,15 @@ msgstr "Valoare logică "
 
 #. sX2H9
 #: sc/inc/scfuncs.hrc:913
-#, fuzzy
 msgctxt "SC_OPCODE_XOR"
 msgid "Logical value 1, logical value 2, ... are conditions to be tested and which return either TRUE or FALSE."
-msgstr "Valoarea logică 1, valoarea logică 2, ... sunt condiții de la 1 la 30 care testate pot returna TRUE sau FALSE."
+msgstr "Valoare logică 1, valoare logică 2, ... sunt condiții care trebuie testate și care returnează fie ADEVĂRAT, fie FALS."
 
 #. DrctE
 #: sc/inc/scfuncs.hrc:919
 msgctxt "SC_OPCODE_AND"
 msgid "Returns TRUE if all arguments are TRUE."
-msgstr "Returnează TRUE dacă toate argumentele sunt TRUE."
+msgstr "Returnează ADEVĂRAT dacă toate argumentele sunt ADEVĂRAT."
 
 #. xY9uD
 #: sc/inc/scfuncs.hrc:920
@@ -6507,10 +6505,9 @@ msgstr "Valoare logică "
 
 #. f9SWZ
 #: sc/inc/scfuncs.hrc:921
-#, fuzzy
 msgctxt "SC_OPCODE_AND"
 msgid "Logical value 1, logical value 2;...are conditions to be tested and each returns either TRUE or FALSE."
-msgstr "Valoarea logică 1, valoarea logică 2;... max. 30 de condiții care testate pot returna TRUE sau FALSE."
+msgstr "Valoare logică 1, valoare logică 2, ... sunt condiții de testat și fiecare returnează fie ADEVĂRAT, fie FALS."
 
 #. EXiAr
 #: sc/inc/scfuncs.hrc:927
@@ -6528,13 +6525,13 @@ msgstr "Număr"
 #: sc/inc/scfuncs.hrc:929
 msgctxt "SC_OPCODE_ABS"
 msgid "The number whose absolute value is to be returned."
-msgstr "Numărul a cărui valoare absolută e returnată."
+msgstr "Numărul a cărui valoare absolută urmează să fie returnată."
 
 #. c2x4N
 #: sc/inc/scfuncs.hrc:935
 msgctxt "SC_OPCODE_POWER"
 msgid "Returns a^b, base a raised to the power of exponent b."
-msgstr "Rezultatul este a^b, deci ridică numărul a la puterea b."
+msgstr "Returnează a^b, baza a ridicată la puterea exponentului b."
 
 #. 3FCiX
 #: sc/inc/scfuncs.hrc:936
@@ -6546,7 +6543,7 @@ msgstr "Bază"
 #: sc/inc/scfuncs.hrc:937
 msgctxt "SC_OPCODE_POWER"
 msgid "The base a of the power a^b."
-msgstr "Baza puteri a^b."
+msgstr "Baza a a puterii a^b."
 
 #. iUBVy
 #: sc/inc/scfuncs.hrc:938
@@ -6598,10 +6595,9 @@ msgstr "Număr "
 
 #. a5m6D
 #: sc/inc/scfuncs.hrc:961
-#, fuzzy
 msgctxt "SC_OPCODE_SUM"
 msgid "Number 1, number 2, ... are arguments whose total is to be calculated."
-msgstr "Număr 1, număr 2, ... sunt argumente de la 1 la 30 a căror sumă se calculează."
+msgstr "Număr 1, număr 2, ... sunt argumente al căror total urmează să fie calculat."
 
 #. G3hS7
 #: sc/inc/scfuncs.hrc:967
@@ -6617,16 +6613,15 @@ msgstr "Număr "
 
 #. RqFJB
 #: sc/inc/scfuncs.hrc:969
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_SQ"
 msgid "Number 1, number 2,... are arguments for which the sum of the squares is to be calculated."
-msgstr "Număr 1, număr 2, ... sunt argumente de la 1 la 30 cărora li se calculează suma pătratelor."
+msgstr "Număr 1, număr 2, ... sunt argumente pentru care se calculează suma pătratelor."
 
 #. CAYq3
 #: sc/inc/scfuncs.hrc:975
 msgctxt "SC_OPCODE_PRODUCT"
 msgid "Multiplies the arguments."
-msgstr "Multiplică argumentele."
+msgstr "Înmulțește argumentele."
 
 #. nh4bQ
 #: sc/inc/scfuncs.hrc:976
@@ -6636,17 +6631,15 @@ msgstr "Număr "
 
 #. RffwE
 #: sc/inc/scfuncs.hrc:977
-#, fuzzy
 msgctxt "SC_OPCODE_PRODUCT"
 msgid "Number 1, number 2, ... are arguments to be multiplied and a result returned."
-msgstr "Număr 1, număr 2, ... sunt argumente de la 1 la 30 care sunt înmulțite, și rezultatul returnat."
+msgstr "Număr 1, număr 2, ... sunt argumente care trebuie înmulțite și obținut un rezultat."
 
 #. FATwX
 #: sc/inc/scfuncs.hrc:983
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_IF"
 msgid "Totals the arguments that meet the condition."
-msgstr "Totalizează argumentele care întrunesc condițiile."
+msgstr "Totalizează argumentele care întrunesc condiția."
 
 #. NCqD7
 #: sc/inc/scfuncs.hrc:984
@@ -6658,7 +6651,7 @@ msgstr "Interval"
 #: sc/inc/scfuncs.hrc:985
 msgctxt "SC_OPCODE_SUM_IF"
 msgid "The range to be evaluated by the criteria given."
-msgstr "Intervalul care va fi evaluat de criteriile date."
+msgstr "Intervalul de evaluat după criteriile date."
 
 #. miDfc
 #: sc/inc/scfuncs.hrc:986
@@ -6670,14 +6663,13 @@ msgstr "Criterii"
 #: sc/inc/scfuncs.hrc:987
 msgctxt "SC_OPCODE_SUM_IF"
 msgid "The criteria to be applied to the range."
-msgstr "Criteriile aplicate la interval."
+msgstr "Criteriile de aplicat intervalului."
 
 #. tj6UM
 #: sc/inc/scfuncs.hrc:988
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_IF"
 msgid "Sum range"
-msgstr "Setare interval"
+msgstr "Intervalul sumei"
 
 #. TE6jW
 #: sc/inc/scfuncs.hrc:989
@@ -6701,7 +6693,7 @@ msgstr "Interval"
 #: sc/inc/scfuncs.hrc:997
 msgctxt "SC_OPCODE_AVERAGE_IF"
 msgid "The range to be evaluated by the criteria given."
-msgstr "Intervalul care va fi evaluat de criteriile date."
+msgstr "Intervalul de evaluat după criteriile date."
 
 #. aV2bj
 #: sc/inc/scfuncs.hrc:998
@@ -8487,7 +8479,7 @@ msgstr "Stare"
 #: sc/inc/scfuncs.hrc:1646
 msgctxt "SC_OPCODE_LINEST"
 msgid "If parameter = 0 then only the regression coefficient will be calculated, otherwise other values as well."
-msgstr "Dacă parametrul este 0, atunci se va calcula doar coeficientul de regresie; în caz contrar, și alte valori."
+msgstr "Dacă parametrul = 0, atunci se va calcula doar coeficientul de regresie; în caz contrar, și alte valori."
 
 #. TjhxE
 #: sc/inc/scfuncs.hrc:1652
@@ -8545,7 +8537,7 @@ msgstr "Stare"
 #: sc/inc/scfuncs.hrc:1660
 msgctxt "SC_OPCODE_LOGEST"
 msgid "If parameter = 0 then only the regression coefficient will be calculated, otherwise other values as well."
-msgstr "Dacă parametrul este 0, atunci se va calcula doar coeficientul de regresie; în caz contrar, și alte valori."
+msgstr "Dacă parametrul = 0, atunci se va calcula doar coeficientul de regresie; în caz contrar, și alte valori."
 
 #. FABFr
 #: sc/inc/scfuncs.hrc:1666
@@ -15005,7 +14997,7 @@ msgstr "Valoare"
 #: sc/inc/scfuncs.hrc:3611
 msgctxt "SC_OPCODE_SWITCH_MS"
 msgid "Value to compare against expression. If no result is given, then value is returned as default result."
-msgstr ""
+msgstr "Valoare de comparat cu expresia. Dacă nu este dat niciun rezultat, atunci valoarea este returnată ca rezultat implicit."
 
 #. dsARv
 #: sc/inc/scfuncs.hrc:3612
@@ -26942,7 +26934,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:347
 msgctxt "extended_tip|minchange"
 msgid "Specifies the difference between two consecutive iteration step results. If the result of the iteration is lower than the minimum change value, then the iteration will stop."
-msgstr ""
+msgstr "Specifică diferența dintre două rezultate consecutive ale pasului de iterație. Dacă rezultatul iterației este mai mic decât valoarea minimă de modificare, atunci iterația se va opri."
 
 #. UoUqA
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:369
