@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-12-07 19:22+0100\n"
+"POT-Creation-Date: 2023-03-02 11:50+0100\n"
 "PO-Revision-Date: 2023-03-01 23:55+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Upper Sorbian <https://translations.documentfoundation.org/projects/libo_help-master/textscalcguide/hsb/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: LibreOffice\n"
 
 #. NXy6S
 #: address_auto.xhp
@@ -2409,14 +2409,14 @@ msgctxt ""
 msgid "Referencing a Cell in Another Document"
 msgstr "Poćahi na cele w druhim dokumenće"
 
-#. DLuhq
+#. FkFV9
 #: cellreferences.xhp
 msgctxt ""
 "cellreferences.xhp\n"
 "bm_id3147436\n"
 "help.text"
-msgid "<bookmark_value>sheet references</bookmark_value>      <bookmark_value>references; to cells in other sheets/documents</bookmark_value>      <bookmark_value>cells; operating in another document</bookmark_value>      <bookmark_value>documents;references</bookmark_value>"
-msgstr "<bookmark_value>tabelowe poćahi</bookmark_value><bookmark_value>poćahi; na cele w druhich tabelach/dokumentach</bookmark_value><bookmark_value>cele; w druhim dokumenće wužiwać</bookmark_value><bookmark_value>dokumenty; poćahi</bookmark_value>"
+msgid "<bookmark_value>sheet references</bookmark_value>      <bookmark_value>references; to cells in other sheets/documents</bookmark_value>      <bookmark_value>addresses; to cells in other sheets/documents</bookmark_value>      <bookmark_value>cells; operating in another document</bookmark_value>      <bookmark_value>documents;references</bookmark_value>      <bookmark_value>cell;address</bookmark_value>      <bookmark_value>address; of cell</bookmark_value>"
+msgstr ""
 
 #. a5WVc
 #: cellreferences.xhp
@@ -2562,14 +2562,32 @@ msgctxt ""
 msgid "Switch back to the new spreadsheet. In the input line you will now see how $[officename] Calc has added the reference to the formula for you."
 msgstr "Wróćće so k nowemu tabelowemu dokumentej. W zapodawanskej lince nětko widźiće, kak $[officename] Calc je poćah na formlu za was přidał."
 
-#. VyHdU
+#. fYYAT
 #: cellreferences.xhp
 msgctxt ""
 "cellreferences.xhp\n"
 "par_id5888241\n"
 "help.text"
-msgid "The reference to a cell of another document contains the name of the other document in single inverted commas, then a hash #, then the name of the sheet of the other document, followed by a point and the name of the cell."
-msgstr "Poćah na celu w druhim dokumenće mjeno druheho dokumenta w jednorych wyše stajenych pazorkach, kósnik (#), mjeno tabele druheho dokumenta, dypk a mjeno cele wobsahuje."
+msgid "The reference to a cell of another document contains the fully qualified name of the other document between single quotes <literal>(')</literal>, then a hash <literal>#</literal>, then the name of the sheet of the other document, followed by a period and the name or reference of the cell."
+msgstr ""
+
+#. Wh2Pc
+#: cellreferences.xhp
+msgctxt ""
+"cellreferences.xhp\n"
+"par_id51672076541215\n"
+"help.text"
+msgid "For example, <switchinline select=\"sys\"><caseinline select=\"WIN\">'file:///C:/Users/user/Documents/Price list.ods'#$'Information SKU'.H51</caseinline><defaultinline>'file:///home/user/Documents/Price list.ods'#$'Information SKU'.H51</defaultinline></switchinline>."
+msgstr ""
+
+#. iwcWF
+#: cellreferences.xhp
+msgctxt ""
+"cellreferences.xhp\n"
+"par_id451672076939681\n"
+"help.text"
+msgid "The path and document name URI <emph>must always</emph> be enclosed in single quotes. If the name contains single quotes (') they must be escaped using two single quotes (''). Only a sheet name may not be quoted if it does not contain a space or a character that would be an operator or the name would be pure numeric (for example, '123' must be quoted)."
+msgstr ""
 
 #. ACCDQ
 #: cellreferences.xhp
@@ -10698,13 +10716,13 @@ msgctxt ""
 msgid "Addresses and References, Absolute and Relative"
 msgstr ""
 
-#. ZvNEh
+#. yEuFn
 #: relativ_absolut_ref.xhp
 msgctxt ""
 "relativ_absolut_ref.xhp\n"
 "bm_id3156423\n"
 "help.text"
-msgid "<bookmark_value>addressing; relative and absolute</bookmark_value><bookmark_value>references; absolute/relative</bookmark_value><bookmark_value>absolute addresses in spreadsheets</bookmark_value><bookmark_value>relative addresses</bookmark_value><bookmark_value>absolute references in spreadsheets</bookmark_value><bookmark_value>relative references</bookmark_value><bookmark_value>references; to cells</bookmark_value><bookmark_value>cells; references</bookmark_value>"
+msgid "<bookmark_value>addressing; relative and absolute</bookmark_value><bookmark_value>references; absolute/relative</bookmark_value><bookmark_value>absolute addresses in spreadsheets</bookmark_value><bookmark_value>relative addresses</bookmark_value><bookmark_value>absolute references in spreadsheets</bookmark_value><bookmark_value>relative references</bookmark_value><bookmark_value>references; to cells</bookmark_value><bookmark_value>cells; references</bookmark_value><bookmark_value>range of cells; defining</bookmark_value><bookmark_value>cell references;ranges union</bookmark_value><bookmark_value>cell references;ranges concatenation</bookmark_value><bookmark_value>cell references;ranges intersection</bookmark_value>"
 msgstr ""
 
 #. SCMmK
@@ -10714,6 +10732,42 @@ msgctxt ""
 "hd_id3156423\n"
 "help.text"
 msgid "<variable id=\"relativ_absolut_ref\"><link href=\"text/scalc/guide/relativ_absolut_ref.xhp\">Addresses and References, Absolute and Relative</link></variable>"
+msgstr ""
+
+#. Yxi9x
+#: relativ_absolut_ref.xhp
+msgctxt ""
+"relativ_absolut_ref.xhp\n"
+"hd_id191672069640769\n"
+"help.text"
+msgid "Cell references"
+msgstr ""
+
+#. ByUqP
+#: relativ_absolut_ref.xhp
+msgctxt ""
+"relativ_absolut_ref.xhp\n"
+"par_id451672069651941\n"
+"help.text"
+msgid "An individual cell is fully identified by the sheet it belongs, the column identifier (letter) located along the top of the columns and a row identifier (number) found along the left-hand side of the spreadsheet. On spreadsheets read from left to right, the complete reference for the upper left cell of the sheet is <emph>Sheet.A1</emph>."
+msgstr ""
+
+#. hGDKu
+#: relativ_absolut_ref.xhp
+msgctxt ""
+"relativ_absolut_ref.xhp\n"
+"hd_id211672069771744\n"
+"help.text"
+msgid "Cell ranges"
+msgstr ""
+
+#. ocLKM
+#: relativ_absolut_ref.xhp
+msgctxt ""
+"relativ_absolut_ref.xhp\n"
+"par_id161672070752816\n"
+"help.text"
+msgid "You can reference a set of cells by referencing them in ranges. Ranges can be a block of cells, entire set of columns and entire set of rows. The range A1:B2 is the first four cells in the upper left corner of the sheet. Range A:E contains all the cells of column A, B, C, D and E. Range 2:5 contains all the cells of row 2, 3, 4 and 5."
 msgstr ""
 
 #. 6AVDc
@@ -13964,3 +14018,17 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of 1/1/30 or higher, it will be treated internally as 1/1/1930 or higher. All lower two-digit years apply to the 20xx century. So, for example, 1/1/20 is converted into 1/1/2020."
 msgstr ""
+
+#~ msgctxt ""
+#~ "cellreferences.xhp\n"
+#~ "bm_id3147436\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>sheet references</bookmark_value>      <bookmark_value>references; to cells in other sheets/documents</bookmark_value>      <bookmark_value>cells; operating in another document</bookmark_value>      <bookmark_value>documents;references</bookmark_value>"
+#~ msgstr "<bookmark_value>tabelowe poćahi</bookmark_value><bookmark_value>poćahi; na cele w druhich tabelach/dokumentach</bookmark_value><bookmark_value>cele; w druhim dokumenće wužiwać</bookmark_value><bookmark_value>dokumenty; poćahi</bookmark_value>"
+
+#~ msgctxt ""
+#~ "cellreferences.xhp\n"
+#~ "par_id5888241\n"
+#~ "help.text"
+#~ msgid "The reference to a cell of another document contains the name of the other document in single inverted commas, then a hash #, then the name of the sheet of the other document, followed by a point and the name of the cell."
+#~ msgstr "Poćah na celu w druhim dokumenće mjeno druheho dokumenta w jednorych wyše stajenych pazorkach, kósnik (#), mjeno tabele druheho dokumenta, dypk a mjeno cele wobsahuje."
