@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-03-02 11:51+0100\n"
-"PO-Revision-Date: 2023-03-03 08:52+0000\n"
+"PO-Revision-Date: 2023-03-03 10:30+0000\n"
 "Last-Translator: Po-Yen Huang <jeff@mail.ossii.com.tw>\n"
 "Language-Team: Chinese (Traditional) <https://translations.documentfoundation.org/projects/libo_ui-master/swmessages/zh_Hant/>\n"
 "Language: zh-TW\n"
@@ -140,7 +140,7 @@ msgstr "表格不應包含標題。"
 #: sw/inc/AccessibilityCheckStrings.hrc:36
 msgctxt "STR_HEADING_ORDER"
 msgid "A heading with outline level %LEVEL_CURRENT% must not follow a heading with outline level %LEVEL_PREV%."
-msgstr ""
+msgstr "大綱層級為 %LEVEL_CURRENT% 的標題不得在大綱層級 %LEVEL_PREV% 的標題之後。"
 
 #. TBXjj
 #: sw/inc/AccessibilityCheckStrings.hrc:37
@@ -158,19 +158,19 @@ msgstr "避免使用空的表格儲存格來格式化。"
 #: sw/inc/AccessibilityCheckStrings.hrc:40
 msgctxt "STR_DOCUMENT_DEFAULT_LANGUAGE"
 msgid "Document default language is not set."
-msgstr ""
+msgstr "文件預設語言未設定。"
 
 #. MMD7M
 #: sw/inc/AccessibilityCheckStrings.hrc:41
 msgctxt "STR_STYLE_NO_LANGUAGE"
 msgid "Style “%STYLE_NAME%” has no language set."
-msgstr ""
+msgstr "樣式「%STYLE_NAME%」沒有設定語言。"
 
 #. euwJV
 #: sw/inc/AccessibilityCheckStrings.hrc:42
 msgctxt "STR_DOCUMENT_TITLE"
 msgid "Document title is not set."
-msgstr ""
+msgstr "未設定文件標題。"
 
 #. wH3TZ
 msgctxt "stock"
@@ -277,7 +277,7 @@ msgstr "文字樣式"
 #: sw/inc/app.hrc:37
 msgctxt "RID_PARAGRAPHSTYLEFAMILY"
 msgid "Document Structure"
-msgstr ""
+msgstr "文件結構"
 
 #. KgUsu
 #: sw/inc/app.hrc:38
@@ -3690,7 +3690,7 @@ msgstr "統計"
 #: sw/inc/strings.hrc:266
 msgctxt "STR_OUTLINENUMBERING_DISABLED"
 msgid "This option is disabled when heading numbering is assigned to a paragraph style"
-msgstr ""
+msgstr "當指派標題編號給段落樣式時，此選項會被停用"
 
 #. cW3cP
 #. Statusbar-titles
@@ -3895,7 +3895,7 @@ msgstr "隱藏 $1 的所有評註(~I)"
 #: sw/inc/strings.hrc:301
 msgctxt "STR_OUTLINE_NUMBERING"
 msgid "Heading Numbering"
-msgstr ""
+msgstr "標題編號"
 
 #. DAoSH
 #: sw/inc/strings.hrc:302
@@ -4053,7 +4053,7 @@ msgstr ""
 #: sw/inc/strings.hrc:334
 msgctxt "STR_CANT_SAVE_MACROS"
 msgid "This document has macros, but macros will not be saved in this file format."
-msgstr ""
+msgstr "此文件有巨集，但巨集在此檔案格式中無法儲存。"
 
 #. DAwsE
 #: sw/inc/strings.hrc:335
@@ -4677,7 +4677,7 @@ msgstr "插入書籤: $1"
 #: sw/inc/strings.hrc:441
 msgctxt "STR_UPDATE_BOOKMARK"
 msgid "Update bookmark: $1"
-msgstr ""
+msgstr "更新書籤：$1"
 
 #. XHkEY
 #: sw/inc/strings.hrc:442
@@ -5581,25 +5581,25 @@ msgstr "插入表單欄位"
 #: sw/inc/strings.hrc:592
 msgctxt "STR_UNDO_UPDATE_FORM_FIELD"
 msgid "Update form field"
-msgstr ""
+msgstr "更新表單欄位"
 
 #. Lkt9n
 #: sw/inc/strings.hrc:593
 msgctxt "STR_UNDO_UPDATE_FORM_FIELDS"
 msgid "Update form fields"
-msgstr ""
+msgstr "更新表單欄位"
 
 #. R7raK
 #: sw/inc/strings.hrc:594
 msgctxt "STR_UNDO_DELETE_FORM_FIELDS"
 msgid "Delete form fields"
-msgstr ""
+msgstr "刪除表單欄位"
 
 #. kdxGJ
 #: sw/inc/strings.hrc:595
 msgctxt "STR_UNDO_INSERT_PAGE_NUMBER"
 msgid "Insert page number"
-msgstr ""
+msgstr "插入頁碼"
 
 #. 2zJmG
 #: sw/inc/strings.hrc:596
@@ -6109,19 +6109,19 @@ msgstr "折疊全部"
 #: sw/inc/strings.hrc:687
 msgctxt "STR_OUTLINE_LEVELS_SHOWN_TITLE"
 msgid "Show Up to Outline Level"
-msgstr ""
+msgstr "顯示大綱層級"
 
 #. 6UtZh
 #: sw/inc/strings.hrc:688
 msgctxt "STR_OUTLINE_LEVELS_SHOWN_SPIN_LABEL"
 msgid "Level (1–10):"
-msgstr ""
+msgstr "層級 (1–10)："
 
 #. BFGYg
 #: sw/inc/strings.hrc:689
 msgctxt "STR_OUTLINE_LEVELS_SHOWN_HELP_LABEL"
 msgid "Enter maximum outline level allowed for a displayed heading."
-msgstr ""
+msgstr "輸入顯示標題允許允許的最高大綱層級。"
 
 #. 9Fipd
 #: sw/inc/strings.hrc:691
@@ -7345,7 +7345,7 @@ msgstr "資料庫名稱"
 #: sw/inc/strings.hrc:913
 msgctxt "STR_CHAPTERFLD"
 msgid "~Heading"
-msgstr ""
+msgstr "標題(~H)"
 
 #. wYWy2
 #: sw/inc/strings.hrc:914
@@ -7809,25 +7809,25 @@ msgstr "類別"
 #: sw/inc/strings.hrc:1008
 msgctxt "FMT_CHAPTER_NAME"
 msgid "Heading contents"
-msgstr ""
+msgstr "標題內容"
 
 #. B9gFR
 #: sw/inc/strings.hrc:1009
 msgctxt "FMT_CHAPTER_NO"
 msgid "Heading number"
-msgstr ""
+msgstr "標題編號"
 
 #. vFtwZ
 #: sw/inc/strings.hrc:1010
 msgctxt "FMT_CHAPTER_NO_NOSEPARATOR"
 msgid "Heading number without separator"
-msgstr ""
+msgstr "沒有分隔符號的標題編號"
 
 #. BVPZY
 #: sw/inc/strings.hrc:1011
 msgctxt "FMT_CHAPTER_NAMENO"
 msgid "Heading number and contents"
-msgstr ""
+msgstr "標題編號與內容"
 
 #. bQAHz
 #. --------------------------------------------------------------------
@@ -9620,7 +9620,7 @@ msgstr "A"
 #: sw/inc/strings.hrc:1342
 msgctxt "STR_TOKEN_HELP_ENTRY_NO"
 msgid "Heading number"
-msgstr ""
+msgstr "標題編號"
 
 #. FH365
 #: sw/inc/strings.hrc:1343
@@ -11815,7 +11815,7 @@ msgstr "圖表標示選項"
 #: sw/uiconfig/swriter/ui/captionoptions.ui:105
 msgctxt "captionoptions|tooltip_text|level"
 msgid "Select the number of outline levels of the immediately prior heading number to prepend to the caption number."
-msgstr ""
+msgstr "選取前一個標題編號的大綱層級數以新增至圖表標示編號。"
 
 #. 75br2
 #: sw/uiconfig/swriter/ui/captionoptions.ui:108
@@ -11823,7 +11823,7 @@ msgctxt "captionoptions|extended_tip|level"
 msgid ""
 "Specify the number of outline levels of the immediately prior heading number to prepend to the caption number. For example, select “2” to use the first two numbers in the heading. If [None] is selected, then no heading number is prepended.\n"
 "."
-msgstr ""
+msgstr "指定前一個標題編號的大綱層級數，以新增至標題編號。例如，選擇「2」以使用標題中的前兩個數字。若選擇[無]，則不會附加標題編號。"
 
 #. PDD8Q
 #: sw/uiconfig/swriter/ui/captionoptions.ui:127
@@ -11835,7 +11835,7 @@ msgstr "輸入您要在章節號和標籤號之間插入的字元。"
 #: sw/uiconfig/swriter/ui/captionoptions.ui:140
 msgctxt "captionoptions|label5"
 msgid "_Up to level:"
-msgstr ""
+msgstr "達到層級：(_U)"
 
 #. 3istp
 #: sw/uiconfig/swriter/ui/captionoptions.ui:154
@@ -11847,7 +11847,7 @@ msgstr "分隔符號(_S)："
 #: sw/uiconfig/swriter/ui/captionoptions.ui:170
 msgctxt "captionoptions|label1"
 msgid "Heading Number Prefix"
-msgstr ""
+msgstr "標題編號前綴"
 
 #. dCyRP
 #: sw/uiconfig/swriter/ui/captionoptions.ui:204
@@ -12783,13 +12783,13 @@ msgstr "題名："
 #: sw/uiconfig/swriter/ui/contentcontroldlg.ui:145
 msgctxt "contentcontroldlg|idlabel"
 msgid "Id:"
-msgstr ""
+msgstr "ID："
 
 #. PaN6a
 #: sw/uiconfig/swriter/ui/contentcontroldlg.ui:160
 msgctxt "contentcontroldlg|tabindexlabel"
 msgid "Tab order:"
-msgstr ""
+msgstr "Tab 順序："
 
 #. TZMBP
 #: sw/uiconfig/swriter/ui/contentcontroldlg.ui:192
@@ -12801,7 +12801,7 @@ msgstr "標籤："
 #: sw/uiconfig/swriter/ui/contentcontroldlg.ui:216
 msgctxt "contentcontroldlg:tabindexspinbutton"
 msgid "Keyboard tab navigation order: -1 to exclude from tab stop"
-msgstr ""
+msgstr "鍵盤 Tab 導航順序：-1 以從定位落點中排除"
 
 #. V44Fw
 #: sw/uiconfig/swriter/ui/contentcontroldlg.ui:260
@@ -14786,19 +14786,19 @@ msgstr "將此欄位作為靜態內容插入，即無法更新此欄位。"
 #: sw/uiconfig/swriter/ui/flddocumentpage.ui:348
 msgctxt "flddocumentpage|levelft"
 msgid "_Up to level:"
-msgstr ""
+msgstr "達到層級：(_U)"
 
 #. UDdTC
 #: sw/uiconfig/swriter/ui/flddocumentpage.ui:364
 msgctxt "flddocumentpage|level|tooltip_text"
 msgid "Specifies the number of outline levels of the immediately prior heading number to display."
-msgstr ""
+msgstr "指定要顯示的前一個標題編號的大綱層級數。"
 
 #. VWL2B
 #: sw/uiconfig/swriter/ui/flddocumentpage.ui:367
 msgctxt "flddocumentpage|extended_tip|level"
 msgid "Use this option in combination with “Heading number” to control how many levels of the immediately prior heading number are displayed. For example, selecting “2” will display the first two levels of the heading number. Heading numbers can be enabled in the “Heading Numbering“ dialog (see Tools menu)."
-msgstr ""
+msgstr "將此選項與「標題編號」結合使用，可以控制顯示前一個標題編號的層級數。例如，選擇「2」將顯示標題編號的前兩個層級。可以在「標題編號」對話方塊中啟用標題編號（請參閱「工具」選單）。"
 
 #. PjBqv
 #: sw/uiconfig/swriter/ui/flddocumentpage.ui:385
@@ -15002,7 +15002,7 @@ msgstr "類型(_T)"
 #: sw/uiconfig/swriter/ui/fldrefpage.ui:154
 msgctxt "fldrefpage|tooltip_text|format"
 msgid "Select format for selected reference field."
-msgstr ""
+msgstr "選取所選參照欄位的格式。"
 
 #. vhEDd
 #: sw/uiconfig/swriter/ui/fldrefpage.ui:170
@@ -15032,13 +15032,13 @@ msgstr "選擇篩選器"
 #: sw/uiconfig/swriter/ui/fldrefpage.ui:312
 msgctxt "fldrefpage|extended_tip|selecttip"
 msgid "Lists the available fields for the field type selected in the “Type” list. To insert a field, click the field, select a format in the “Refer using” list, and then click “Insert”."
-msgstr ""
+msgstr "列出在「類型」清單中選擇的欄位類型的可用欄位。要插入欄位，請點擊欄位，在「參照使用」清單中選取格式，然後點擊「插入」。"
 
 #. zQc64
 #: sw/uiconfig/swriter/ui/fldrefpage.ui:357
 msgctxt "fldrefpage|extended_tip|select"
 msgid "Lists the available fields for the field type selected in the “Type” list. To insert a field, click the field, select a format in the “Refer using” list, and then click “Insert”."
-msgstr ""
+msgstr "列出在「類型」清單中選擇的欄位類型的可用欄位。要插入欄位，請點擊欄位，在「參照使用」清單中選取格式，然後點擊「插入」。"
 
 #. AXSpR
 #: sw/uiconfig/swriter/ui/fldrefpage.ui:374
@@ -15134,19 +15134,19 @@ msgstr "隱藏文件中的欄位內容。"
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:405
 msgctxt "fldvarpage|label5"
 msgid "_Level:"
-msgstr ""
+msgstr "層級：(_L)"
 
 #. uXVGk
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:418
 msgctxt "fldvarpage|separatorft"
 msgid "Se_parator:"
-msgstr ""
+msgstr "分隔字元：(_P)"
 
 #. X67zX
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:432
 msgctxt "fldvarpage|level|tooltip_text"
 msgid "Choose the maximum outline level of the heading number to prepend to the displayed field."
-msgstr ""
+msgstr "選擇要新增至顯示欄位前的標題編號之最高大綱層級。"
 
 #. wrAG3
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:434
@@ -15158,7 +15158,7 @@ msgstr "無"
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:438
 msgctxt "fldvarpage|extended_tip|level"
 msgid "Choose the maximum outline level of the heading number to prepend to the displayed field. The selected heading number comes from the first immediately prior heading with the specified outline level or less. No heading number is displayed if “None” is selected."
-msgstr ""
+msgstr "選擇要新增至顯示欄位前的標題編號之最高大綱層級。所選標題編號來自具有指定大綱層級或更小層級的第一個緊接在前的標題。如果選取「無」，則不顯示標題編號。"
 
 #. ECBav
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:453
@@ -16604,7 +16604,7 @@ msgstr "將選定物件保持在物件錨定到的文字佈局邊界內。要將
 #: sw/uiconfig/swriter/ui/frmtypepage.ui:761
 msgctxt "frmtypepage|flysplit"
 msgid "Allow frame to split across pages"
-msgstr ""
+msgstr "允許框架跨頁拆分"
 
 #. cAiUp
 #: sw/uiconfig/swriter/ui/frmtypepage.ui:781
@@ -16802,13 +16802,13 @@ msgstr "插入"
 #: sw/uiconfig/swriter/ui/indexentry.ui:170
 msgctxt "indexentry|typeft"
 msgid "Index:"
-msgstr ""
+msgstr "索引："
 
 #. RvGJB
 #: sw/uiconfig/swriter/ui/indexentry.ui:187
 msgctxt "indexentry|extended_tip|typecb"
 msgid "Select the index that you want to add the entry to."
-msgstr ""
+msgstr "選取您想要新增條目的索引。"
 
 #. goQoK
 #: sw/uiconfig/swriter/ui/indexentry.ui:201
@@ -16820,37 +16820,37 @@ msgstr "新增使用者自訂索引"
 #: sw/uiconfig/swriter/ui/indexentry.ui:215
 msgctxt "indexentry|label3"
 msgid "Entry:"
-msgstr ""
+msgstr "條目："
 
 #. ZDUo6
 #: sw/uiconfig/swriter/ui/indexentry.ui:231
 msgctxt "indexentry|key1ft"
 msgid "1st key:"
-msgstr ""
+msgstr "第一個關鍵字："
 
 #. TszYK
 #: sw/uiconfig/swriter/ui/indexentry.ui:247
 msgctxt "indexentry|key2ft"
 msgid "2nd key:"
-msgstr ""
+msgstr "第二個關鍵字："
 
 #. bgwC9
 #: sw/uiconfig/swriter/ui/indexentry.ui:262
 msgctxt "indexentry|levelft"
 msgid "Index level:"
-msgstr ""
+msgstr "索引層級："
 
 #. EjGCB
 #: sw/uiconfig/swriter/ui/indexentry.ui:280
 msgctxt "indexentry|levelnf"
 msgid "Enter the index level for the entry, which determines the appearance of the entry in the generated index."
-msgstr ""
+msgstr "輸入條目的索引層級，其會決定條目在產生的索引中的外觀。"
 
 #. MWuGF
 #: sw/uiconfig/swriter/ui/indexentry.ui:283
 msgctxt "indexentry|extended_tip|levelnf"
 msgid "Enter the index level for the entry. The index level determines the appearance of the entry, according to the settings for that level in the “Entries” tab and the “Styles” tab in the “Table of Contents, Index, or Bibliography” dialog. With default settings, a higher index level results in a greater indent for the entry in the generated index."
-msgstr ""
+msgstr "輸入條目的索引層級。根據「目次、索引或參考文獻」對話方塊中的「條目」分頁與「樣式」分頁中該層級的設定，索引層級決定了條目的外觀。使用預設設定時，索引層級愈高，產生的索引中的條目縮排就愈大。"
 
 #. QybEJ
 #: sw/uiconfig/swriter/ui/indexentry.ui:299
@@ -16874,31 +16874,31 @@ msgstr "語音描述"
 #: sw/uiconfig/swriter/ui/indexentry.ui:349
 msgctxt "indexentry|extended_tip|phonetic0ed"
 msgid "Enter the phonetic reading for the corresponding entry. For example, if a Japanese Kanji word has more than one pronunciation, enter the correct pronunciation as a Katakana word. The Kanji word is then sorted according to the phonetic reading entry."
-msgstr ""
+msgstr "輸入對應條目的拼音。舉例來說，若一個日語漢字的字詞有多個發音，請輸入正確的發音作為片假名字詞。然後根據拼音條目對漢字詞進行排序。"
 
 #. DGXEy
 #: sw/uiconfig/swriter/ui/indexentry.ui:366
 msgctxt "indexentry|extended_tip|phonetic1ed"
 msgid "Enter the phonetic reading for the corresponding entry."
-msgstr ""
+msgstr "輸入對應條目的拼音。"
 
 #. yHXJW
 #: sw/uiconfig/swriter/ui/indexentry.ui:383
 msgctxt "indexentry|extended_tip|phonetic2ed"
 msgid "Enter the phonetic reading for the corresponding entry."
-msgstr ""
+msgstr "輸入對應條目的拼音。"
 
 #. 8zHnf
 #: sw/uiconfig/swriter/ui/indexentry.ui:405
 msgctxt "indexentry|extended_tip|comboboxtext-entry"
 msgid "Makes the current selection a subentry of the word that you enter here. For example, if you select \"cold\", and enter \"weather\" as the 1st key, the index entry is \"weather, cold\"."
-msgstr ""
+msgstr "使目前選擇成為您在此處輸入的字詞的子條目。例如，若您選取「寒冷」，並輸入「天氣」作為第一個關鍵字，則索引條目為「天氣，寒冷」。"
 
 #. 9CGm5
 #: sw/uiconfig/swriter/ui/indexentry.ui:430
 msgctxt "indexentry|extended_tip|comboboxtext-entry2"
 msgid "Makes the current selection a sub-subentry of the 1st key. For example, if you select \"cold\", and enter \"weather\" as the 1st key and \"winter\" as the 2nd key, the index entry is \"weather, winter, cold\"."
-msgstr ""
+msgstr "使目前選擇成為第一個關鍵字的子條目。例如，若您選擇「寒冷」，並輸入「天氣」作為第一個關鍵字，「冬天」作為第二個關鍵字，則索引條目為「天氣，冬天，寒冷」。"
 
 #. JbXGT
 #: sw/uiconfig/swriter/ui/indexentry.ui:446
@@ -16910,7 +16910,7 @@ msgstr "從選取內容更新條目"
 #: sw/uiconfig/swriter/ui/indexentry.ui:463
 msgctxt "indexentry|extended_tip|entryed"
 msgid "Displays the text that is selected in the document. If you want, you can enter a different word for the index entry. The selected text in the document is not changed."
-msgstr ""
+msgstr "顯示在文件中選取的文字。若需要，您也可以為索引條目輸入不同的字詞。文件中選定的文字不會變更。"
 
 #. B5PWe
 #: sw/uiconfig/swriter/ui/indexentry.ui:500
@@ -16922,7 +16922,7 @@ msgstr "主條目"
 #: sw/uiconfig/swriter/ui/indexentry.ui:508
 msgctxt "indexentry|extended_tip|mainentrycb"
 msgid "Makes the selected text the main entry in an alphabetical index."
-msgstr ""
+msgstr "使所選文字成為字母索引中的主要條目。"
 
 #. 4QfoT
 #: sw/uiconfig/swriter/ui/indexentry.ui:519
@@ -17000,7 +17000,7 @@ msgstr "選取"
 #: sw/uiconfig/swriter/ui/indexentry.ui:700
 msgctxt "indexentry|extended_tip|IndexEntryDialog"
 msgid "Marks the selected text as index or table of contents entry. Edits the selected index entry."
-msgstr ""
+msgstr "將所選文字標記為索引或目次條目。編輯選定的索引條目。"
 
 #. MDsQd
 #: sw/uiconfig/swriter/ui/infonotfounddialog.ui:7
@@ -20864,7 +20864,7 @@ msgstr "刪除超連結"
 #: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:199
 msgctxt "navigatorcontextmenu|STR_DELETE_REFERENCE"
 msgid "Delete Reference"
-msgstr ""
+msgstr "刪除參照"
 
 #. LaCMh
 #: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:207
@@ -21020,7 +21020,7 @@ msgstr "按字母順序排序"
 #: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:441
 msgctxt "navigatorcontextmenu|STR_OUTLINE_LEVEL"
 msgid "Show Up to Outline Level"
-msgstr ""
+msgstr "顯示大綱層級"
 
 #. GyAcG
 #: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:455
@@ -21170,7 +21170,7 @@ msgstr "按一下此處，以在目前的游標位置設定提醒。您最多可
 #: sw/uiconfig/swriter/ui/navigatorpanel.ui:516
 msgctxt "navigatorpanel|headings|tooltip_text"
 msgid "Show Up to Outline Level"
-msgstr ""
+msgstr "顯示大綱層級"
 
 #. EVb5c
 #: sw/uiconfig/swriter/ui/navigatorpanel.ui:520
