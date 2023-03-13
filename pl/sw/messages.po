@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2023-03-10 11:51+0100\n"
+"POT-Creation-Date: 2023-03-13 11:38+0100\n"
 "PO-Revision-Date: 2023-03-13 10:45+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_ui-master/swmessages/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1554834729.000000\n"
 
 #. DqGwU
@@ -15172,11 +15172,11 @@ msgctxt "fldvarpage|extended_tip|invisible"
 msgid "Hides the field contents in the document."
 msgstr "Ukrywa zawartość pola w dokumencie."
 
-#. AwhmA
+#. jUrib
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:405
 msgctxt "fldvarpage|label5"
-msgid "_Outline level:"
-msgstr "Poziom _konspektu:"
+msgid "_Up to level:"
+msgstr ""
 
 #. uXVGk
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:418
@@ -15184,23 +15184,23 @@ msgctxt "fldvarpage|separatorft"
 msgid "Se_parator:"
 msgstr "Sepa_rator:"
 
-#. EMpjx
+#. xWPdj
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:432
 msgctxt "fldvarpage|level|tooltip_text"
-msgid "Choose the heading number to prepend to the displayed field, where the number comes from the first prior heading with the selected outline level. If “None” is selected, then no heading number is displayed."
-msgstr "Wybierz numer nagłówka, który ma zostać dodany do wyświetlanego pola, gdzie numer pochodzi z pierwszego poprzedniego nagłówka z wybranym poziomem konspektu. Jeśli wybrano \"Brak\", numer nagłówka nie jest wyświetlany."
+msgid "Choose heading number to prepend to displayed field, where the number comes from the first prior heading whose outline level is equal to or less than the selected outline level. If [None] is selected, no heading number is displayed."
+msgstr ""
 
-#. wrAG3
+#. B2VKZ
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:434
 msgctxt "fldvarpage|level"
-msgid "None"
-msgstr "Brak"
+msgid "[None]"
+msgstr ""
 
-#. EVQMw
+#. 3eiSX
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:438
 msgctxt "fldvarpage|extended_tip|level"
-msgid "Choose the heading number to prepend to the displayed field. The number comes from the first prior heading with the selected outline level. For example, select “2” to use the heading number of the first prior heading with outline level 2. If “None” is selected, then no heading number is displayed. To use this option, heading numbers must be enabled. Use “Tools - Heading Numbering”."
-msgstr "Wybierz numer nagłówka, który ma zostać dodany do wyświetlanego pola. Numer pochodzi z pierwszego poprzedniego nagłówka z wybranym poziomem konspektu. Na przykład wybierz \"2\", aby użyć numeru nagłówka pierwszego poprzedniego nagłówka z poziomem konspektu 2. Jeśli wybrano \"Brak\", numer nagłówka nie zostanie wyświetlony. Aby skorzystać z tej opcji, numery nagłówków muszą być włączone. Użyj \"Narzędzia - Numeracja nagłówków\"."
+msgid "Choose heading number to prepend to displayed field, where the number comes from the first prior heading whose outline level is equal to or less than the selected outline level. For example, select “2” to use the heading number of the first prior heading that has outline level 2 or less. If “None” is selected, no heading number is displayed. To use this option, heading numbers must be enabled. Use “Tools - Heading Numbering”."
+msgstr ""
 
 #. ECBav
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:453
@@ -15220,11 +15220,11 @@ msgctxt "fldvarpage|extended_tip|separator"
 msgid "Enter the character to use as a separator between the heading number and the field number."
 msgstr "Wprowadź znak, który ma być używany jako separator między numerem nagłówka a numerem pola."
 
-#. SFBKm
+#. GgDBN
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:473
 msgctxt "fldvarpage|label4"
-msgid "With Heading Number Before"
-msgstr "Z numerem nagłówka przed"
+msgid "With Heading Number"
+msgstr ""
 
 #. ibirK
 #: sw/uiconfig/swriter/ui/fldvarpage.ui:513
@@ -29861,11 +29861,11 @@ msgctxt "tocindexpage|addstylescb"
 msgid "_Additional styles"
 msgstr "Dod_atkowe style"
 
-#. ZAC5X
+#. Aw7P8
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:506
 msgctxt "tocindexpage|addstylescb|tooltip_text"
-msgid "Include selected paragraph styles with outline level “Text Body” in the index."
-msgstr "Uwzględnij wybrane style akapitu z poziomem konspektu \"Treść tekstu\" w indeksie."
+msgid "Include selected paragraph styles in the index. Click the “Assign Styles” button."
+msgstr ""
 
 #. mDsDx
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:511
@@ -30952,6 +30952,30 @@ msgstr "Opcje"
 msgctxt "wrappage|extended_tip|WrapPage"
 msgid "Specify the way you want text to wrap around an object."
 msgstr "Określa sposób, w jaki tekst ma opływać obiekt."
+
+#~ msgctxt "fldvarpage|label5"
+#~ msgid "_Outline level:"
+#~ msgstr "Poziom _konspektu:"
+
+#~ msgctxt "fldvarpage|level|tooltip_text"
+#~ msgid "Choose the heading number to prepend to the displayed field, where the number comes from the first prior heading with the selected outline level. If “None” is selected, then no heading number is displayed."
+#~ msgstr "Wybierz numer nagłówka, który ma zostać dodany do wyświetlanego pola, gdzie numer pochodzi z pierwszego poprzedniego nagłówka z wybranym poziomem konspektu. Jeśli wybrano \"Brak\", numer nagłówka nie jest wyświetlany."
+
+#~ msgctxt "fldvarpage|level"
+#~ msgid "None"
+#~ msgstr "Brak"
+
+#~ msgctxt "fldvarpage|extended_tip|level"
+#~ msgid "Choose the heading number to prepend to the displayed field. The number comes from the first prior heading with the selected outline level. For example, select “2” to use the heading number of the first prior heading with outline level 2. If “None” is selected, then no heading number is displayed. To use this option, heading numbers must be enabled. Use “Tools - Heading Numbering”."
+#~ msgstr "Wybierz numer nagłówka, który ma zostać dodany do wyświetlanego pola. Numer pochodzi z pierwszego poprzedniego nagłówka z wybranym poziomem konspektu. Na przykład wybierz \"2\", aby użyć numeru nagłówka pierwszego poprzedniego nagłówka z poziomem konspektu 2. Jeśli wybrano \"Brak\", numer nagłówka nie zostanie wyświetlony. Aby skorzystać z tej opcji, numery nagłówków muszą być włączone. Użyj \"Narzędzia - Numeracja nagłówków\"."
+
+#~ msgctxt "fldvarpage|label4"
+#~ msgid "With Heading Number Before"
+#~ msgstr "Z numerem nagłówka przed"
+
+#~ msgctxt "tocindexpage|addstylescb|tooltip_text"
+#~ msgid "Include selected paragraph styles with outline level “Text Body” in the index."
+#~ msgstr "Uwzględnij wybrane style akapitu z poziomem konspektu \"Treść tekstu\" w indeksie."
 
 #~ msgctxt "STR_FAKE_NUMBERING"
 #~ msgid "Fake numbering “%NUMBERING%”."
