@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-03-20 12:32+0100\n"
-"PO-Revision-Date: 2023-03-25 16:32+0000\n"
+"PO-Revision-Date: 2023-03-26 16:42+0000\n"
 "Last-Translator: Olivier Hallot <olivier.hallot@libreoffice.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/pt_BR/>\n"
 "Language: pt-BR\n"
@@ -66893,7 +66893,7 @@ msgctxt ""
 "par_id441673375101757\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_VORLAGE\"><variable id=\"func_style_desc\">Applies a style to the cell containing the formula.</variable></ahelp> After a set amount of time, another style can be applied."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_VORLAGE\"><variable id=\"func_style_desc\">Aplica um estilo à célula que contém a fórmula.</variable></ahelp> Após um período de tempo determinado, outro estilo pode ser aplicado."
 
 #. GswPt
 #: func_style.xhp
@@ -66902,7 +66902,7 @@ msgctxt ""
 "par_id681673375365338\n"
 "help.text"
 msgid "This function always returns the numeric value 0, which allows to use it by adding the <emph>STYLE</emph> function to other functions in the same cell without changing its value."
-msgstr ""
+msgstr "Esta função sempre retorna o valor numérico 0, o que permite utilizá-la adicionando a função <emph>ESTILO</emph> a outras funções na mesma célula sem alterar seu valor."
 
 #. C6X4Q
 #: func_style.xhp
@@ -66911,7 +66911,7 @@ msgctxt ""
 "par_id961673376106137\n"
 "help.text"
 msgid "<input>STYLE(\"Style\" [; Time [; \"Style2\"]])</input>"
-msgstr ""
+msgstr "<input>ESTILO(\"Estilo\" [; Tempo [; \"Estilo2\"]])</input>"
 
 #. NkFMi
 #: func_style.xhp
@@ -66920,7 +66920,7 @@ msgctxt ""
 "par_id31673375542211\n"
 "help.text"
 msgid "<emph>Style</emph> is the name of the cell style to be applied to the cell. Style names are not case-sensitive and must be entered in quotation marks."
-msgstr ""
+msgstr "<emph>Estilo</emph> é o nome do estilo de célula a ser aplicado à célula. Os nomes de estilo não diferenciam maiúsculas de minúsculas e devem ser inseridos entre aspas."
 
 #. 8E46w
 #: func_style.xhp
@@ -66929,7 +66929,7 @@ msgctxt ""
 "par_id161673375589532\n"
 "help.text"
 msgid "<emph>Time</emph> is an optional time range in seconds. After this time is elapsed, the style defined in <emph>Style2</emph> is applied. Leave this parameter blank if you do not want the style to be changed."
-msgstr ""
+msgstr "<emph>Tempo</emph> é um intervalo de tempo opcional em segundos. Depois de decorrido esse tempo, aplica-se o estilo definido em <emph>Estilo2</emph>. Deixe este parâmetro em branco se não quiser que o estilo seja alterado."
 
 #. aFQCT
 #: func_style.xhp
@@ -66938,7 +66938,7 @@ msgctxt ""
 "par_id81673375703156\n"
 "help.text"
 msgid "<emph>Style2</emph> is the optional name of a cell style assigned to the cell after the time specified in the <emph>Time</emph> parameter has passed. If this parameter is missing the \"Default\" cell style is applied."
-msgstr ""
+msgstr "<emph>Estilo2</emph> é o nome opcional de um estilo de célula atribuído à célula após o tempo decorrido especificado no parâmetro <emph>Tempo</emph>. Se omitido, aplica-se o estilo de célula \"Padrão\"."
 
 #. ryUMD
 #: func_style.xhp
@@ -66947,7 +66947,7 @@ msgctxt ""
 "par_id971673376620554\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #. U3hrJ
 #: func_style.xhp
@@ -66956,7 +66956,7 @@ msgctxt ""
 "par_id491673376748686\n"
 "help.text"
 msgid "<input>=10+STYLE(\"Good\",60,\"Neutral\")</input>"
-msgstr ""
+msgstr "<input>=10+ESTILO(\"Bom\",60,\"Neutro\")</input>"
 
 #. 8deaD
 #: func_style.xhp
@@ -66965,7 +66965,7 @@ msgctxt ""
 "par_id11673376842469\n"
 "help.text"
 msgid "Enters the value 10 into the cell and applies the style named \"Good\". After 60 seconds, the style \"Neutral\" is applied."
-msgstr ""
+msgstr "Insere o valor 10 na célula e aplica o estilo denominado \"Bom\". Após 60 segundos, aplica-se o estilo \"Neutro\"."
 
 #. UYv4h
 #: func_style.xhp
@@ -66974,7 +66974,7 @@ msgctxt ""
 "par_id271673376901358\n"
 "help.text"
 msgid "<input>=A1*A2+STYLE(IF(CURRENT()<100,\"Bad\",\"Good\"))</input>"
-msgstr ""
+msgstr "<input>=A1*A2+ESTILO(SE(ATUAL()<100,\"Ruim\",\"Bom\"))</input>"
 
 #. Zt8eb
 #: func_style.xhp
@@ -66983,7 +66983,7 @@ msgctxt ""
 "par_id1001673377339392\n"
 "help.text"
 msgid "Enters the result of multiplying the values in cells A1 and A2 and applies the style \"Bad\" if the result is less than 100, otherwise the style \"Good\" is applied. Here the function <emph>CURRENT()</emph> is used to get the currently evaluated value of the function in the cell."
-msgstr ""
+msgstr "Insere o resultado da multiplicação dos valores nas células A1 e A2 e aplica o estilo \"Ruim\" se o resultado for menor que 100, caso contrário, aplica-se o estilo \"Bom\". Aqui a função <emph>ATUAL()</emph> é usada para obter o valor atual da função na célula."
 
 #. nMoAR
 #: func_style.xhp
@@ -66992,7 +66992,7 @@ msgctxt ""
 "par_id761673377678426\n"
 "help.text"
 msgid "<input>=\"Total\"&T(STYLE(\"Result\"))</input>"
-msgstr ""
+msgstr "<input>=\"Total\"&T(ESTILO(\"Resultado\"))</input>"
 
 #. hBUAA
 #: func_style.xhp
@@ -67001,7 +67001,7 @@ msgctxt ""
 "par_id871673377683120\n"
 "help.text"
 msgid "Enters the text \"Total\" into the cell and applies the style named \"Result\". Note that this example deals with textual values, hence the output of the <emph>STYLE</emph> function needs to be appended to the text using the & operator. The function <emph>T()</emph> is used to prevent the number \"0\" being appended to the resulting text."
-msgstr ""
+msgstr "Insere o texto \"Total\" na célula e aplica o estilo denominado \"Resultado\". Observe que este exemplo lida com valores textuais, portanto, a saída da função <emph>ESTILO</emph> precisa ser anexada ao texto usando o operador &. A função <emph>T()</emph> é usada para evitar que o número \"0\" seja acrescentado ao texto resultante."
 
 #. zzt3s
 #: func_style.xhp
@@ -67010,7 +67010,7 @@ msgctxt ""
 "par_id201677014634447\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/STYLE\">STYLE wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/STYLE\">Página wiki da função ESTILO</link>."
 
 #. rEQGK
 #: func_style.xhp
@@ -67019,7 +67019,7 @@ msgctxt ""
 "par_id631673379195650\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060109.xhp\">Spreadsheet Functions</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060109.xhp\">Funções de planilha</link>"
 
 #. VZ5Ga
 #: func_style.xhp
@@ -67028,7 +67028,7 @@ msgctxt ""
 "par_id151673379420755\n"
 "help.text"
 msgid "<link href=\"text/scalc/guide/cellstyle_by_formula.xhp\">Assigning Formats by Formula</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/guide/cellstyle_by_formula.xhp\">Atribuir formatos por fórmula</link>"
 
 #. YADMA
 #: func_style.xhp
@@ -67037,7 +67037,7 @@ msgctxt ""
 "par_id461673376361959\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060104.xhp#func_current_description\">CURRENT function</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060104.xhp#func_current_description\">Função ATUAL</link>"
 
 #. L6tnb
 #: func_style.xhp
@@ -67046,7 +67046,7 @@ msgctxt ""
 "par_id381673378944042\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060110.xhp#t\">T function</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060110.xhp#t\">Função T</link>"
 
 #. mEZBk
 #: func_sum.xhp
@@ -67127,7 +67127,7 @@ msgctxt ""
 "par_id3151756\n"
 "help.text"
 msgid "A formula such as <input>=SUM((A1:A40>=C1)*(A1:A40<C2)*B1:B40)</input> may be entered as an <link href=\"text/scalc/01/04060107.xhp\">array formula</link> by pressing the Shift<switchinline select=\"sys\"><caseinline select=\"MAC\">+Command</caseinline><defaultinline>+Ctrl</defaultinline></switchinline>+Enter keys instead of simply pressing the Enter key to finish entering the formula. The formula will then be shown in the Formula bar enclosed in braces and operates by multiplying corresponding elements of the arrays together and returning their sum."
-msgstr ""
+msgstr "Uma fórmula como <input>=SOMA((A1:A40>=C1)*(A1:A40<C2)*B1:B40)</input> pode ser inserida como um <link href=\"text/scalc/01 /04060107.xhp\">fórmula de matriz</link> pressionando as teclas Shift<switchinline select=\"sys\"><caseinline select=\"MAC\">+Command</caseinline><defaultinline>+Ctrl</defaultinline></switchinline >+ Enter em vez de simplesmente pressionar a tecla Enter para terminar de inserir a fórmula. A fórmula será mostrada na Barra de fórmulas entre chaves e opera multiplicando os elementos correspondentes das matrizes e retornando sua soma."
 
 #. KohAT
 #: func_sum.xhp
@@ -67136,7 +67136,7 @@ msgctxt ""
 "par_id771677014538669\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/SUM\">SUM wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/SUM\">Página wiki da função SOMA</link>."
 
 #. DfceH
 #: func_sumifs.xhp
