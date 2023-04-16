@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-03-20 12:32+0100\n"
-"PO-Revision-Date: 2023-04-15 17:32+0000\n"
+"PO-Revision-Date: 2023-04-16 19:33+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/de/>\n"
 "Language: de\n"
@@ -66893,7 +66893,7 @@ msgctxt ""
 "par_id441673375101757\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_VORLAGE\"><variable id=\"func_style_desc\">Applies a style to the cell containing the formula.</variable></ahelp> After a set amount of time, another style can be applied."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_VORLAGE\"><variable id=\"func_style_desc\">Wendet eine Vorlage auf die Zelle an, welche die Formel enthält.</variable></ahelp> Nach einer bestimmten Zeit kann eine anderer Vorlage angewendet werden."
 
 #. GswPt
 #: func_style.xhp
@@ -66902,7 +66902,7 @@ msgctxt ""
 "par_id681673375365338\n"
 "help.text"
 msgid "This function always returns the numeric value 0, which allows to use it by adding the <emph>STYLE</emph> function to other functions in the same cell without changing its value."
-msgstr ""
+msgstr "Diese Funktion gibt immer den numerischen Wert 0 zurück, wodurch sie verwendet werden kann, indem die Funktion <emph>STYLE</emph> zu anderen Funktionen in derselben Zelle hinzugefügt wird, ohne ihren Wert zu ändern."
 
 #. C6X4Q
 #: func_style.xhp
@@ -66911,7 +66911,7 @@ msgctxt ""
 "par_id961673376106137\n"
 "help.text"
 msgid "<input>STYLE(\"Style\" [; Time [; \"Style2\"]])</input>"
-msgstr ""
+msgstr "<input>VORLAGE(\"Vorlage\" [; Zeit [; \"Vorlage 2\"]])</input>"
 
 #. NkFMi
 #: func_style.xhp
@@ -66920,7 +66920,7 @@ msgctxt ""
 "par_id31673375542211\n"
 "help.text"
 msgid "<emph>Style</emph> is the name of the cell style to be applied to the cell. Style names are not case-sensitive and must be entered in quotation marks."
-msgstr ""
+msgstr "<emph>Vorlage</emph> ist der Name der Zellvorlage, welche auf die Zelle angewendet werden soll. Vorlagennamen unterscheiden nicht zwischen Groß- und Kleinschreibung und müssen in Anführungszeichen eingegeben werden."
 
 #. 8E46w
 #: func_style.xhp
@@ -66929,7 +66929,7 @@ msgctxt ""
 "par_id161673375589532\n"
 "help.text"
 msgid "<emph>Time</emph> is an optional time range in seconds. After this time is elapsed, the style defined in <emph>Style2</emph> is applied. Leave this parameter blank if you do not want the style to be changed."
-msgstr ""
+msgstr "<emph>Zeit</emph> ist ein optionaler Zeitbereich in Sekunden. Nach Ablauf dieser Zeit wird die in <emph>Vorlage 2</emph> definierte Vorlage angewendet. Lassen Sie diesen Parameter leer, wenn Sie nicht möchten, dass die Vorlage geändert wird."
 
 #. aFQCT
 #: func_style.xhp
@@ -66938,7 +66938,7 @@ msgctxt ""
 "par_id81673375703156\n"
 "help.text"
 msgid "<emph>Style2</emph> is the optional name of a cell style assigned to the cell after the time specified in the <emph>Time</emph> parameter has passed. If this parameter is missing the \"Default\" cell style is applied."
-msgstr ""
+msgstr "<emph>Vorlage 2</emph> ist der optionale Name einer Zellvorlage, die der Zelle zugewiesen wird, nachdem die im Parameter <emph>Zeit</emph> angegebene Zeit verstrichen ist. Wenn dieser Parameter fehlt, wird die Zellvorlage \"Standard\" angewendet."
 
 #. ryUMD
 #: func_style.xhp
@@ -66947,7 +66947,7 @@ msgctxt ""
 "par_id971673376620554\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #. U3hrJ
 #: func_style.xhp
@@ -66956,7 +66956,7 @@ msgctxt ""
 "par_id491673376748686\n"
 "help.text"
 msgid "<input>=10+STYLE(\"Good\",60,\"Neutral\")</input>"
-msgstr ""
+msgstr "<input>=10+VORLAGE(\"Gut\",60,\"Neutral\")</input>"
 
 #. 8deaD
 #: func_style.xhp
@@ -66965,7 +66965,7 @@ msgctxt ""
 "par_id11673376842469\n"
 "help.text"
 msgid "Enters the value 10 into the cell and applies the style named \"Good\". After 60 seconds, the style \"Neutral\" is applied."
-msgstr ""
+msgstr "Gibt den Wert 10 in die Zelle ein und wendet die Vorlage mit dem Namen \"Gut\" an. Nach 60 Sekunden wird die Vorlage „Neutral“ angewendet."
 
 #. UYv4h
 #: func_style.xhp
@@ -66974,7 +66974,7 @@ msgctxt ""
 "par_id271673376901358\n"
 "help.text"
 msgid "<input>=A1*A2+STYLE(IF(CURRENT()<100,\"Bad\",\"Good\"))</input>"
-msgstr ""
+msgstr "<input>=A1*A2+VORLAGE(WENN(AKTUELL()<100,\"Schlecht\",\"Gut\"))</input>"
 
 #. Zt8eb
 #: func_style.xhp
@@ -66983,7 +66983,7 @@ msgctxt ""
 "par_id1001673377339392\n"
 "help.text"
 msgid "Enters the result of multiplying the values in cells A1 and A2 and applies the style \"Bad\" if the result is less than 100, otherwise the style \"Good\" is applied. Here the function <emph>CURRENT()</emph> is used to get the currently evaluated value of the function in the cell."
-msgstr ""
+msgstr "Trägt das Ergebnis der Multiplikation der Werte in den Zellen A1 und A2 ein und wendet die Vorlage „Schlecht“ an, wenn das Ergebnis kleiner als 100 ist, andernfalls wird die Vorlage „Gut“ angewendet. Hier wird die Funktion <emph>AKTUELL()</emph> verwendet, um den aktuell ausgewerteten Wert der Funktion in der Zelle zu erhalten."
 
 #. nMoAR
 #: func_style.xhp
@@ -66992,7 +66992,7 @@ msgctxt ""
 "par_id761673377678426\n"
 "help.text"
 msgid "<input>=\"Total\"&T(STYLE(\"Result\"))</input>"
-msgstr ""
+msgstr "<input>=\"Gesamt\"&T(VORLAGE(\"Ergebnis\"))</input>"
 
 #. hBUAA
 #: func_style.xhp
@@ -67001,7 +67001,7 @@ msgctxt ""
 "par_id871673377683120\n"
 "help.text"
 msgid "Enters the text \"Total\" into the cell and applies the style named \"Result\". Note that this example deals with textual values, hence the output of the <emph>STYLE</emph> function needs to be appended to the text using the & operator. The function <emph>T()</emph> is used to prevent the number \"0\" being appended to the resulting text."
-msgstr ""
+msgstr "Fügt den Text „Gesamt“ in die Zelle ein und wendet die Vorlage „Ergebnis“ an. Beachten Sie, dass es in diesem Beispiel um Textwerte geht, daher muss die Ausgabe der Funktion <emph>VORLAGE</emph> mit dem Operator \"&\" an den Text angehängt werden. Die Funktion <emph>T()</emph> wird verwendet, um zu verhindern, dass die Zahl \"0\" an den resultierenden Text angehängt wird."
 
 #. zzt3s
 #: func_style.xhp
@@ -67010,7 +67010,7 @@ msgctxt ""
 "par_id201677014634447\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/STYLE\">STYLE wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/STYLE\">Wikiseite zu VORLAGE</link>."
 
 #. rEQGK
 #: func_style.xhp
@@ -67019,7 +67019,7 @@ msgctxt ""
 "par_id631673379195650\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060109.xhp\">Spreadsheet Functions</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060109.xhp\">Tabellenfunktionen</link>"
 
 #. VZ5Ga
 #: func_style.xhp
@@ -67028,7 +67028,7 @@ msgctxt ""
 "par_id151673379420755\n"
 "help.text"
 msgid "<link href=\"text/scalc/guide/cellstyle_by_formula.xhp\">Assigning Formats by Formula</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/guide/cellstyle_by_formula.xhp\">Formate mittels Formel zuweisen</link>"
 
 #. YADMA
 #: func_style.xhp
@@ -67037,7 +67037,7 @@ msgctxt ""
 "par_id461673376361959\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060104.xhp#func_current_description\">CURRENT function</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060104.xhp#func_current_description\">Funktion AKTUELL</link>"
 
 #. L6tnb
 #: func_style.xhp
@@ -67046,7 +67046,7 @@ msgctxt ""
 "par_id381673378944042\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060110.xhp#t\">T function</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060110.xhp#t\">Funktion T</link>"
 
 #. mEZBk
 #: func_sum.xhp
@@ -67127,7 +67127,7 @@ msgctxt ""
 "par_id3151756\n"
 "help.text"
 msgid "A formula such as <input>=SUM((A1:A40>=C1)*(A1:A40<C2)*B1:B40)</input> may be entered as an <link href=\"text/scalc/01/04060107.xhp\">array formula</link> by pressing the Shift<switchinline select=\"sys\"><caseinline select=\"MAC\">+Command</caseinline><defaultinline>+Ctrl</defaultinline></switchinline>+Enter keys instead of simply pressing the Enter key to finish entering the formula. The formula will then be shown in the Formula bar enclosed in braces and operates by multiplying corresponding elements of the arrays together and returning their sum."
-msgstr ""
+msgstr "Eine Formel wie <input>=SUMME((A1:A40>=C1)*(A1:A40<C2)*B1:B40)</input> kann als <link href=\"text/scalc/01\"/04060107.xhp\">Matrixformel</link> eingegeben werden, indem Umschalt+<switchinline select=\"sys\"><caseinline select=\"MAC\">Befehl</caseinline><defaultinline>Strg</defaultinline></switchinline >+Eingabetaste anstatt einfach Eingabetaste gedrückt wird, um die Eingabe der Formel abzuschließen. Die Formel wird dann in der in Klammern eingeschlossenen Formelleiste angezeigt und funktioniert, indem entsprechende Elemente der Matrizen miteinander multipliziert und ihre Summe zurückgegeben werden."
 
 #. KohAT
 #: func_sum.xhp
@@ -67136,7 +67136,7 @@ msgctxt ""
 "par_id771677014538669\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/SUM\">SUM wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/SUM\">Wikiseite zu SUMME</link>."
 
 #. DfceH
 #: func_sumifs.xhp
@@ -67325,7 +67325,7 @@ msgctxt ""
 "par_id971677014512029\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/SUMIFS\">SUMIFS wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/SUMIFS\">Wikiseite zu SUMMEWENNS</link>."
 
 #. UUeQC
 #: func_switch.xhp
@@ -67442,7 +67442,7 @@ msgctxt ""
 "par_id171677014475983\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/SWITCH\">SWITCH wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/SWITCH\">Wikiseite zu SCHALTER</link>."
 
 #. XELDQ
 #: func_switch.xhp
@@ -67586,7 +67586,7 @@ msgctxt ""
 "par_id761677014445916\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TEXTJOIN\">TEXTJOIN wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TEXTJOIN\">Wikiseite zu VERBINDEN</link>."
 
 #. CdeS7
 #: func_textjoin.xhp
@@ -67694,7 +67694,7 @@ msgctxt ""
 "par_id741677014416564\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TIME\">TIME wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TIME\">Wikiseite zu ZEIT</link>."
 
 #. eUYTq
 #: func_timevalue.xhp
@@ -67793,7 +67793,7 @@ msgctxt ""
 "par_id191677014389883\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TIMEVALUE\">TIMEVALUE wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TIMEVALUE\">Wikiseite zu ZEITWERT</link>."
 
 #. 8LaX7
 #: func_today.xhp
@@ -67865,7 +67865,7 @@ msgctxt ""
 "par_id691677014365707\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TODAY\">TODAY wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TODAY\">Wikiseite zu HEUTE</link>."
 
 #. Y2uYG
 #: func_trunc.xhp
@@ -67919,7 +67919,7 @@ msgctxt ""
 "par_id321641927458888\n"
 "help.text"
 msgid "The rounding method used by this function is known as <emph>rounding towards zero</emph>. The magnitude of the resulting number will always be less than or equal to the original number."
-msgstr ""
+msgstr "Die von dieser Funktion verwendete Rundungsmethode wird als <emph>Runden auf Null</emph> bezeichnet. Die Größe der resultierenden Zahl ist immer kleiner oder gleich der ursprünglichen Zahl."
 
 #. SqCQv
 #: func_trunc.xhp
@@ -68000,7 +68000,7 @@ msgctxt ""
 "par_id821677013765236\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TRUNC\">TRUNC wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TRUNC\">Wikiseite zu KÜRZEN</link>."
 
 #. w86Dm
 #: func_value.xhp
@@ -68135,7 +68135,7 @@ msgctxt ""
 "par_id711677013742963\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/VALUE\">VALUE wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/VALUE\">Wikiseite zu WERT</link>."
 
 #. dQeP6
 #: func_webservice.xhp
@@ -68153,7 +68153,7 @@ msgctxt ""
 "hd_id391677019419915\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/func_webservice.xhp\">URI Functions</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/func_webservice.xhp\">URI-Funktionen</link></variable>"
 
 #. 9vyBF
 #: func_webservice.xhp
@@ -68162,7 +68162,7 @@ msgctxt ""
 "par_id141677019419921\n"
 "help.text"
 msgid "These spreadsheet functions are used for inserting data from Universal Resource Identifiers (URI)."
-msgstr ""
+msgstr "Diese Tabellenfunktionen werden zum Einfügen von Daten aus Universal Resource Identifiers (URI) verwendet."
 
 #. 8sQry
 #: func_webservice.xhp
@@ -68378,7 +68378,7 @@ msgctxt ""
 "par_id781677019731175\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEBSERVICE\">WEBSERVICE</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/FILTERXML\">FILTERXML</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ENCODEURL\">ENCODEURL</link>  wiki pages."
-msgstr ""
+msgstr "Wikiseiten zu <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEBSERVICE\">WEBDIENST</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/FILTERXML\">XMLFILTERN</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ENCODEURL\">URLCODIEREN</link>."
 
 #. VBELn
 #: func_weekday.xhp
@@ -68630,7 +68630,7 @@ msgctxt ""
 "par_id131677013566555\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEEKDAY\">WEEKDAY wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEEKDAY\">Wikiseite zu WOCHENTAG</link>."
 
 #. 3iMGJ
 #: func_weeknum.xhp
@@ -68936,7 +68936,7 @@ msgctxt ""
 "par_id361677013519430\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEEKNUM\">WEEKNUM wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEEKNUM\">Wikiseite zu KALENDERWOCHE</link>."
 
 #. ZoCGw
 #: func_weeknum_ooo.xhp
@@ -69062,7 +69062,7 @@ msgctxt ""
 "par_id521677013377460\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEEKNUM_OOO\">WEEKNUM_OOO wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEEKNUM_OOO\">Wikiseite zu KALENDERWOCHE_OOO</link>."
 
 #. 9CdUK
 #: func_weeknumadd.xhp
@@ -69161,7 +69161,7 @@ msgctxt ""
 "par_id801677013334251\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEEKNUM_EXCEL2003\">WEEKNUM_EXCEL2003 wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEEKNUM_EXCEL2003\">Wikiseite zu KALENDERWOCHE_EXCEL2003</link>."
 
 #. ibEk3
 #: func_workday.intl.xhp
@@ -69341,7 +69341,7 @@ msgctxt ""
 "par_id521677013308530\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WORKDAY.INTL\">WORKDAY.INTL wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WORKDAY.INTL\">Wikiseite zu ARBEITSTAG.INTL</link>."
 
 #. 5dvmu
 #: func_workday.xhp
@@ -69449,7 +69449,7 @@ msgctxt ""
 "par_id501677013269388\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WORKDAY\">WORKDAY wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WORKDAY\">Wikiseite zu ARBEITSTAG</link>."
 
 #. dABAX
 #: func_year.xhp
@@ -69548,7 +69548,7 @@ msgctxt ""
 "par_id371677013165080\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/YEAR\">YEAR wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/YEAR\">Wikiseite zu JAHR</link>."
 
 #. kAjPe
 #: func_yearfrac.xhp
@@ -70412,7 +70412,7 @@ msgctxt ""
 "par_id221589959855748\n"
 "help.text"
 msgid "You can install more solver engines as extensions, if available. Open <menuitem>Tools - Extensions</menuitem> and browse to the Extensions web site to search for extensions."
-msgstr ""
+msgstr "Sie können weitere Solver-Engines als Erweiterungen installieren, sofern verfügbar. Öffnen Sie <menuitem>Extras – Erweiterungen…</menuitem> und navigieren Sie zur Webseite für Erweiterungen, um nach Erweiterungen zu suchen."
 
 #. QtDyE
 #: solver_options.xhp
@@ -74597,7 +74597,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Zoom"
-msgstr ""
+msgstr "Maßstab"
 
 #. BFTKX
 #: zoom.xhp
@@ -74606,7 +74606,7 @@ msgctxt ""
 "bm_id61678279382558\n"
 "help.text"
 msgid "<bookmark_value>Zoom;spreadsheet</bookmark_value>    <bookmark_value>Zoom in;spreadsheet</bookmark_value>    <bookmark_value>Zoom out;spreadsheet</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Maßstab; Tabelle</bookmark_value><bookmark_value>Vergrößern; Maßstab in Tabellen</bookmark_value><bookmark_value>Verkleinern; Maßstab in Tabellen</bookmark_value>"
 
 #. FvoRD
 #: zoom.xhp
@@ -74615,7 +74615,7 @@ msgctxt ""
 "hd_id301674151617149\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/zoom.xhp\">Zooming In and Out in Calc</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/zoom.xhp\">Vergrößern und Verkleinern in Calc</link></variable>"
 
 #. DYtFG
 #: zoom.xhp
@@ -74624,7 +74624,7 @@ msgctxt ""
 "par_id841674151617153\n"
 "help.text"
 msgid "Zoom allows users to magnify and reduce the screen display. Multiple methods of zooming in and out are available in Calc."
-msgstr ""
+msgstr "Mit Maßstab können Benutzer die Bildschirmanzeige vergrößern und verkleinern. In Calc stehen mehrere Methoden zum Vergrößern und Verkleinern zur Verfügung."
 
 #. rwFVD
 #: zoom.xhp
@@ -74633,7 +74633,7 @@ msgctxt ""
 "par_id791678229927893\n"
 "help.text"
 msgid "Choose one of the following methods:"
-msgstr ""
+msgstr "Verwenden Sie eine der folgenden Methoden:"
 
 #. eqb5j
 #: zoom.xhp
@@ -74642,7 +74642,7 @@ msgctxt ""
 "par_id91678230156720\n"
 "help.text"
 msgid "Choose menu <menuitem>View - Zoom</menuitem>, and select the magnification value in the submenu."
-msgstr ""
+msgstr "Wählen Sie <menuitem>Ansicht – Maßstab</menuitem> und im Untermenü den gewünschten Maßstab aus."
 
 #. M3VFu
 #: zoom.xhp
@@ -74651,7 +74651,7 @@ msgctxt ""
 "par_id421678230024566\n"
 "help.text"
 msgid "Click the plus (or minus) icon on the zoom slider in the status bar. The screen size increases (or decreases) by 10% with each click."
-msgstr ""
+msgstr "Klicken Sie auf das Symbol Plus (oder Minus) auf dem Maßstab-Schieberegler in der Statusleiste. Die Bildschirmgröße vergrößert (oder verkleinert) sich mit jedem Klick um 10 %."
 
 #. ZLGvd
 #: zoom.xhp
@@ -74660,7 +74660,7 @@ msgctxt ""
 "par_id511678230735657\n"
 "help.text"
 msgid "Drag the Zoom slider handle to adjust the magnification factor with the mouse."
-msgstr ""
+msgstr "Bewegen Sie den Ziehpunkt des Maßstab-Schiebereglers, um den Vergrößerungsfaktor mit der Maus anzupassen."
 
 #. GrFgu
 #: zoom.xhp
@@ -74669,7 +74669,7 @@ msgctxt ""
 "par_id461674152484428\n"
 "help.text"
 msgid "Press <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline> while rolling the mouse wheel."
-msgstr ""
+msgstr "Drücken Sie <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Befehl</keycode></caseinline><defaultinline><keycode>Strg</keycode></defaultinline></switchinline> beim Rollen des Mausrads."
 
 #. hnANA
 #: zoom.xhp
@@ -74678,7 +74678,7 @@ msgctxt ""
 "par_id71678262942683\n"
 "help.text"
 msgid "<image src=\"media/helpimg/scalc/calczoomslider.png\" id=\"img_id721678262942684\" width=\"282px\" height=\"40px\"><alt id=\"alt_id461678262942685\">Calc Zoom Slider</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/scalc/calczoomslider.png\" id=\"img_id721678262942684\" width=\"282px\" height=\"40px\"><alt id=\"alt_id461678262942685\">Maßstab-Schieberegler in Calc</alt></image>"
 
 #. 3svKV
 #: zoom.xhp
@@ -74687,7 +74687,7 @@ msgctxt ""
 "par_id41678230455376\n"
 "help.text"
 msgid "20% is the minimum zoom factor. 400% is the maximum."
-msgstr ""
+msgstr "20 % ist der minimale Maßstab, 400 % der maximale."
 
 #. DpeBz
 #: zoom.xhp
@@ -74696,7 +74696,7 @@ msgctxt ""
 "hd_id101678230496709\n"
 "help.text"
 msgid "Zooming with the Zoom slider"
-msgstr ""
+msgstr "Maßstab verändern mit dem Maßstab-Schieberegler"
 
 #. DzEnz
 #: zoom.xhp
@@ -74705,7 +74705,7 @@ msgctxt ""
 "par_id361678230881080\n"
 "help.text"
 msgid "In addition to the slider plus and minus icons, you can drag the slider handle to manually adjust the zoom factor."
-msgstr ""
+msgstr "Zusätzlich zu den Symbolen Plus und Minus des Schiebereglers können Sie den Schieberegler ziehen, um den Maßstab manuell anzupassen."
 
 #. CabnS
 #: zoom.xhp
@@ -74714,7 +74714,7 @@ msgctxt ""
 "par_id531678230887813\n"
 "help.text"
 msgid "Also, click anywhere on the slider to adjust the zoom factor."
-msgstr ""
+msgstr "Außerdem können Sie irgendwo auf den Schieberegler klicken, um den Maßstab anzupassen."
 
 #. dWykD
 #: zoom.xhp
@@ -74723,7 +74723,7 @@ msgctxt ""
 "par_id841678230875046\n"
 "help.text"
 msgid "The center line on the zoom slider represents 100% zoom factor."
-msgstr ""
+msgstr "Die Mittellinie auf dem Maßstab-Schieberegler repräsentiert einen Maßstab von 100 %."
 
 #. GrGzC
 #: zoom.xhp
@@ -74732,7 +74732,7 @@ msgctxt ""
 "hd_id631678233685940\n"
 "help.text"
 msgid "Access Zoom via the menu"
-msgstr ""
+msgstr "Maßstab über das Menü ändern"
 
 #. MS7p5
 #: zoom.xhp
@@ -74741,7 +74741,7 @@ msgctxt ""
 "par_id501678233750773\n"
 "help.text"
 msgid "Choose menu <menuitem>View – Zoom</menuitem>. The predefined options are:"
-msgstr ""
+msgstr "Wählen Sie <menuitem>Ansicht – Maßstab</menuitem>. Die vordefinierten Optionen sind:"
 
 #. xCqjf
 #: zoom.xhp
@@ -74750,7 +74750,7 @@ msgctxt ""
 "par_id391678233854552\n"
 "help.text"
 msgid "<menuitem>Entire Page</menuitem>: resizes the display to fit the width and height of the page."
-msgstr ""
+msgstr "<menuitem>Gesamte Seite</menuitem>: Passt die Größe der Anzeige an die Breite und Höhe der Seite an."
 
 #. k8CEL
 #: zoom.xhp
@@ -74759,7 +74759,7 @@ msgctxt ""
 "par_id31678233860361\n"
 "help.text"
 msgid "<menuitem>Page Width</menuitem>: resizes the display to fit the width of the page, limited to the minimum and maximum zoom factor. The top and bottom edges of the selection may not be visible."
-msgstr ""
+msgstr "<menuitem>Seitenbreite</menuitem>: Passt die Anzeige an die Breite der Seite an, begrenzt auf den minimalen und maximalen Maßstab. Die oberen und unteren Ränder der Auswahl sind möglicherweise nicht sichtbar."
 
 #. dG4GA
 #: zoom.xhp
@@ -74768,7 +74768,7 @@ msgctxt ""
 "par_id681678233866236\n"
 "help.text"
 msgid "<menuitem>Optimal View</menuitem>: resizes the display to fit the width and height of the selected cells. The enlargement or reduction are limited to the minimum and maximum zoom factors. If only one cell is selected then it will zoom to 100%."
-msgstr ""
+msgstr "<menuitem>Optimale Ansicht</menuitem>: Passt die Größe der Anzeige an die Breite und Höhe der ausgewählten Zellen an. Die Vergrößerung beziehungsweise Verkleinerung ist auf den minimalen und maximalen Maßstab begrenzt. Wenn nur eine Zelle ausgewählt ist, wird auf 100 % angepasst."
 
 #~ msgctxt ""
 #~ "05120100.xhp\n"
