@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2023-03-20 12:32+0100\n"
+"POT-Creation-Date: 2023-04-19 12:24+0200\n"
 "PO-Revision-Date: 2023-03-25 16:32+0000\n"
 "Last-Translator: Karl Morten Ramberg <karl.m.ramberg@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/nb_NO/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1551362013.000000\n"
 
 #. sZfWF
@@ -18268,14 +18268,14 @@ msgctxt ""
 msgid "INDEX"
 msgstr "INDEKS (INDEX på engelsk)"
 
-#. qitDL
+#. KbZsD
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id3150268\n"
 "help.text"
-msgid "<ahelp hid=\"HID_FUNC_INDEX\">INDEX returns a sub range, specified by row and column number, and/or an optional range index.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_INDEX\">INDEX returnerer et underområde, spesifisert av rad- og kolonnenummer, og/eller en valgfri områdeindeks.</ahelp>"
+msgid "<ahelp hid=\"HID_FUNC_INDEX\">INDEX returns a value or an array of values from a reference range, specified by row and column index number or array of row and array of columns index numbers, and an optional range index.</ahelp>"
+msgstr ""
 
 #. dr8Bi
 #: 04060109.xhp
@@ -18286,41 +18286,68 @@ msgctxt ""
 msgid "INDEX(Reference [; [Row] [; [Column] [; Range]]])"
 msgstr "INDEKS(Referanse [; [Rad] [; [Kolonne] [; Område]]])"
 
-#. pnaQW
+#. Gax8C
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id3153260\n"
 "help.text"
-msgid "<emph>Reference</emph> is a reference, entered either directly or by specifying a range name. If the reference consists of multiple ranges, you must enclose the list of references or range names in parentheses, or use the tilde (~) concatenation/union operator."
-msgstr "<emph>Referanse</emph> er en referanse, enten direkte eller ved å angi et områdenavn. Hvis referansen består av flere områder, må du legge ved listen over referanser eller områdenavn i parentes, eller bruke tilde (~) sammenkobling/union-operatoren."
+msgid "<emph>Reference</emph> is a reference, entered either directly or by specifying a range name. If the reference consists of multiple ranges, you must enclose the list of references or range names in parentheses, or use the tilde (~) <link href=\"text/scalc/01/04060199.xhp#referenceoperators\">range concatenation operator</link>."
+msgstr ""
 
-#. D2tov
+#. MKdnE
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id3145302\n"
 "help.text"
-msgid "<emph>Row</emph> (optional) represents the row index of the reference range, for which to return a value. In case of zero or omitted (no specific row) all referenced rows are returned."
-msgstr "<emph>Rad</emph> (valgfritt) representerer radindeksen til referanseområdet som det skal returneres en verdi for. Ved null eller utelatt (ingen spesifikk rad) returneres alle refererte rader."
+msgid "<emph>Row</emph> (optional) represents the row or the array of row indexes of the reference range, for which to return a value. In case of zero or omitted (no specific row) all referenced rows are returned."
+msgstr ""
 
-#. PQAFz
+#. usFXV
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id3154628\n"
 "help.text"
-msgid "<emph>Column</emph> (optional) represents the column index of the reference range, for which to return a value. In case of zero or omitted (no specific column) all referenced columns are returned."
-msgstr "<emph>Kolonne</emph> (valgfritt) representerer kolonneindeksen for referanseområdet som det skal returneres en verdi for. Ved null eller utelatt (ingen spesifikk kolonne) returneres alle refererte kolonner."
+msgid "<emph>Column</emph> (optional) represents the column or array of column indexes of the reference range, for which to return a value. In case of zero or omitted (no specific column) all referenced columns are returned."
+msgstr ""
 
-#. S6zm8
+#. FBj7m
+#: 04060109.xhp
+msgctxt ""
+"04060109.xhp\n"
+"par_id621679327293280\n"
+"help.text"
+msgid "If <emph>Row</emph>, <emph>Column</emph> or both are omitted or defined as arrays of indexes, the INDEX function must be entered as an <link href=\"text/scalc/01/04060107.xhp\">array function</link>."
+msgstr ""
+
+#. BmioJ
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id3155514\n"
 "help.text"
-msgid "<emph>Range</emph> (optional) represents the index of the subrange if referring to a multiple range, default 1."
-msgstr "<emph>Område</emph> (valgfritt) representerer indeksen til underområdet hvis det refereres til et multippelområde, standard 1."
+msgid "<emph>Range</emph> (optional) represents the index of the subrange if referring to a multiple range, default is 1."
+msgstr ""
+
+#. BMeAR
+#: 04060109.xhp
+msgctxt ""
+"04060109.xhp\n"
+"par_id541679331443608\n"
+"help.text"
+msgid "<input>{=INDEX({1,3,5;7,9,10},{2;1},1)}</input> return a 2 row array containing 7 and 1. The row index {2;1} pick row 2 then row 1. The columns index 1 picks the first column."
+msgstr ""
+
+#. RGnNr
+#: 04060109.xhp
+msgctxt ""
+"04060109.xhp\n"
+"par_id511679333116273\n"
+"help.text"
+msgid "<input>{=INDEX(D3:G12,{1;2;3;4},{3,1})}</input> return a 4 rows by 2 columns array. The row index array {1;2;3;4} picks rows 3 to 6 and {3;1} picks the third (F) and first column (D). Columns 1 and 3 of the source reference are swapped in the resulting array."
+msgstr ""
 
 #. 7pFH2
 #: 04060109.xhp
@@ -18340,23 +18367,23 @@ msgctxt ""
 msgid "<item type=\"input\">=INDEX(SumX;4;1)</item> returns the value from the range <emph>SumX</emph> in row 4 and column 1 as defined in <emph>Sheet - Named Ranges and Expressions - Define</emph>."
 msgstr "<item type=\"input\">=INDEX(SumX;4;1)</item> returnerer verdien fra området <emph>SumX</emph> i rad 4 og kolonne 1 som definert i <emph>Ark - navngitt Områder og uttrykk – Definer</emph>."
 
-#. EVP2w
+#. mfFAA
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id4109012\n"
 "help.text"
-msgid "<item type=\"input\">=INDEX(A1:B6;1)</item> returns a reference to the first row of A1:B6."
-msgstr "<item type=\"input\">=INDEKS(A1:B6;1)</item> gir en referanse til den første raden i A1:B6."
+msgid "<input>{=INDEX(A1:B6;1)}</input> returns the values of the first row of A1:B6. Enter the formula as an <link href=\"text/scalc/01/04060107.xhp\">array formula</link>."
+msgstr ""
 
-#. DoWcg
+#. jLKKJ
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id9272133\n"
 "help.text"
-msgid "<item type=\"input\">=INDEX(A1:B6;0;1)</item> returns a reference to the first column of A1:B6."
-msgstr "<item type=\"input\">=INDEKS(A1:B6;0;1)</item> gir en referanse til den første kolonnen i A1:B6."
+msgid "<input>{=INDEX(A1:B6;0;1)}</input> returns the values of the first column of A1:B6. Enter the formula as an <link href=\"text/scalc/01/04060107.xhp\">array formula</link>."
+msgstr ""
 
 #. igC59
 #: 04060109.xhp
@@ -18367,23 +18394,23 @@ msgctxt ""
 msgid "<item type=\"input\">=INDEX(A1:B6;1;1)</item> indicates the value in the upper-left of the A1:B6 range."
 msgstr "<item type=\"input\">=INDEKS(A1:B6;1;1)</item> angir verdien øverst i det venstre hjørnet av området A1:B6."
 
-#. GbCcS
+#. GQjbB
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
 "par_id9960020\n"
 "help.text"
-msgid "<item type=\"input\">=INDEX((A1:B6;C1:D6);0;0;2)</item> returns a reference to the second range C1:D6 of the multiple range."
-msgstr "<item type=\"input\">=INDEX((A1:B6;C1:D6);0;0;2)</item> returnerer en referanse til det andre området C1:D6 i multippelområdet."
+msgid "<input>{=INDEX((A1:B6;C1:D6);0;0;2)}</input> returns the values of the second range C1:D6 of the multiple range. Enter the formula as an <link href=\"text/scalc/01/04060107.xhp\">array formula</link>."
+msgstr ""
 
-#. CuDuU
+#. HSbEt
 #: 04060109.xhp
 msgctxt ""
 "04060109.xhp\n"
-"par_id3158419\n"
+"par_id701677016751508\n"
 "help.text"
-msgid "<item type=\"input\">=INDEX(multi;4;1)</item> indicates the value contained in row 4 and column 1 of the (multiple) range, which you named under <emph>Sheet - Named Ranges and Expressions - Define</emph> as <emph>multi</emph> with the expression <emph>(A1:B6;C1:D6)</emph> for example. The multiple range may consist of several rectangular ranges, each with a row 4 and column 1. If you now want to call the second block of this multiple range enter the number <item type=\"input\">2</item> as the <emph>Range</emph> parameter."
-msgstr "<item type=\"input\">=INDEX(multi;4;1)</item> indikerer verdien i rad 4 og kolonne 1 i (flere) området, som du navnga under <emph>Ark - navngitte områder og Uttrykk – Definer</emph> som <emph>multi</emph> med uttrykket <emph>(A1:B6;C1:D6)</emph> for eksempel. Multippelområdet kan bestå av flere rektangulære områder, hver med en rad 4 og kolonne 1. Hvis du nå vil kalle den andre blokken i dette multiple området, skriv inn tallet <item type=\"input\">2</item> som <emph>Rekkevidde</emph>-parameter."
+msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/INDEX\">INDEX wiki page</link>."
+msgstr ""
 
 #. LCBWC
 #: 04060109.xhp
@@ -53287,14 +53314,14 @@ msgctxt ""
 msgid "Show selection list"
 msgstr "Vis utvalgsliste"
 
-#. X4mFD
+#. CMMBv
 #: 12120100.xhp
 msgctxt ""
 "12120100.xhp\n"
 "par_idN1070D\n"
 "help.text"
-msgid "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Shows a list of all valid strings or values to select from. The list can also be opened by selecting the cell and pressing <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command+D</keycode></caseinline><defaultinline><keycode>Ctrl+D</keycode></defaultinline></switchinline>.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Viser en liste over alle gyldige strenger eller verdier å velge fra. Listen kan også åpnes ved å velge cellen og trykke <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command+D</keycode></caseinline><defaultinline><keycode>Ctrl+ D</keycode></defaultinline></switchinline>.</ahelp>"
+msgid "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Shows a list of all valid strings or values to select from. The list can also be opened by selecting the cell and pressing <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Option+Down Arrow</keycode></caseinline><defaultinline><keycode>Alt+Down Arrow</keycode></defaultinline></switchinline>.</ahelp>"
+msgstr ""
 
 #. AuAaR
 #: 12120100.xhp
@@ -66904,14 +66931,14 @@ msgctxt ""
 msgid "This function always returns the numeric value 0, which allows to use it by adding the <emph>STYLE</emph> function to other functions in the same cell without changing its value."
 msgstr "Denne funksjonen returnerer alltid den numeriske verdien 0, som gjør det mulig å bruke den ved å legge til <emph>STYLE</emph>-funksjonen til andre funksjoner i samme celle uten å endre verdien."
 
-#. C6X4Q
+#. m2FBk
 #: func_style.xhp
 msgctxt ""
 "func_style.xhp\n"
 "par_id961673376106137\n"
 "help.text"
-msgid "<input>STYLE(\"Style\" [; Time [; \"Style2\"]])</input>"
-msgstr "<input>STYLE(\"Stil\" [; Tid [; \"Stil2\"]])</input>"
+msgid "STYLE(\"Style\" [; Time [; \"Style2\"]])"
+msgstr ""
 
 #. NkFMi
 #: func_style.xhp
@@ -72826,6 +72853,24 @@ msgctxt ""
 msgid "For more information on the moving average, refer to the <link href=\"https://en.wikipedia.org/wiki/Moving_average\">corresponding Wikipedia article</link>."
 msgstr "For mer informasjon om glidende gjennomsnitt, se <link href=\"https://en.wikipedia.org/wiki/Moving_average\">tilsvarende Wikipedia-artikkel</link>."
 
+#. 8WEAB
+#: statistics_movingavg.xhp
+msgctxt ""
+"statistics_movingavg.xhp\n"
+"hd_id251681484186482\n"
+"help.text"
+msgid "Trim input range to actual data content"
+msgstr ""
+
+#. ehNLW
+#: statistics_movingavg.xhp
+msgctxt ""
+"statistics_movingavg.xhp\n"
+"par_id141681485134081\n"
+"help.text"
+msgid "Check this box to allow trimming of the input range to the actual data content before computing moving-average. Trimming data ignores unused or empty cells after the last non-empty cell in the input range, thus reducing the computing load of the moving average to the actual data. This checkbox is enabled by default."
+msgstr ""
+
 #. eoQu3
 #: statistics_movingavg.xhp
 msgctxt ""
@@ -73726,14 +73771,14 @@ msgctxt ""
 msgid "F Critical two-tail"
 msgstr "F Kritisk to-hale"
 
-#. jMBzo
+#. 6CEU9
 #: statistics_test_t.xhp
 msgctxt ""
 "statistics_test_t.xhp\n"
 "tit\n"
 "help.text"
-msgid "T Test Statistics in Calc"
-msgstr "T Teststatistikk i Calc"
+msgid "Paired t-test in Calc"
+msgstr ""
 
 #. cKb9k
 #: statistics_test_t.xhp
@@ -74769,6 +74814,90 @@ msgctxt ""
 "help.text"
 msgid "<menuitem>Optimal View</menuitem>: resizes the display to fit the width and height of the selected cells. The enlargement or reduction are limited to the minimum and maximum zoom factors. If only one cell is selected then it will zoom to 100%."
 msgstr "<menuitem>Optimal visning</menuitem>: endrer størrelsen på skjermen slik at den passer til bredden og høyden på de valgte cellene. Forstørrelsen eller reduksjonen er begrenset til minimums- og maksimumszoomfaktorene. Hvis bare én celle er valgt, vil den zoome til 100 %."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id3150268\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_INDEX\">INDEX returns a sub range, specified by row and column number, and/or an optional range index.</ahelp>"
+#~ msgstr "<ahelp hid=\"HID_FUNC_INDEX\">INDEX returnerer et underområde, spesifisert av rad- og kolonnenummer, og/eller en valgfri områdeindeks.</ahelp>"
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id3153260\n"
+#~ "help.text"
+#~ msgid "<emph>Reference</emph> is a reference, entered either directly or by specifying a range name. If the reference consists of multiple ranges, you must enclose the list of references or range names in parentheses, or use the tilde (~) concatenation/union operator."
+#~ msgstr "<emph>Referanse</emph> er en referanse, enten direkte eller ved å angi et områdenavn. Hvis referansen består av flere områder, må du legge ved listen over referanser eller områdenavn i parentes, eller bruke tilde (~) sammenkobling/union-operatoren."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id3145302\n"
+#~ "help.text"
+#~ msgid "<emph>Row</emph> (optional) represents the row index of the reference range, for which to return a value. In case of zero or omitted (no specific row) all referenced rows are returned."
+#~ msgstr "<emph>Rad</emph> (valgfritt) representerer radindeksen til referanseområdet som det skal returneres en verdi for. Ved null eller utelatt (ingen spesifikk rad) returneres alle refererte rader."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id3154628\n"
+#~ "help.text"
+#~ msgid "<emph>Column</emph> (optional) represents the column index of the reference range, for which to return a value. In case of zero or omitted (no specific column) all referenced columns are returned."
+#~ msgstr "<emph>Kolonne</emph> (valgfritt) representerer kolonneindeksen for referanseområdet som det skal returneres en verdi for. Ved null eller utelatt (ingen spesifikk kolonne) returneres alle refererte kolonner."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id3155514\n"
+#~ "help.text"
+#~ msgid "<emph>Range</emph> (optional) represents the index of the subrange if referring to a multiple range, default 1."
+#~ msgstr "<emph>Område</emph> (valgfritt) representerer indeksen til underområdet hvis det refereres til et multippelområde, standard 1."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id4109012\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=INDEX(A1:B6;1)</item> returns a reference to the first row of A1:B6."
+#~ msgstr "<item type=\"input\">=INDEKS(A1:B6;1)</item> gir en referanse til den første raden i A1:B6."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id9272133\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=INDEX(A1:B6;0;1)</item> returns a reference to the first column of A1:B6."
+#~ msgstr "<item type=\"input\">=INDEKS(A1:B6;0;1)</item> gir en referanse til den første kolonnen i A1:B6."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id9960020\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=INDEX((A1:B6;C1:D6);0;0;2)</item> returns a reference to the second range C1:D6 of the multiple range."
+#~ msgstr "<item type=\"input\">=INDEX((A1:B6;C1:D6);0;0;2)</item> returnerer en referanse til det andre området C1:D6 i multippelområdet."
+
+#~ msgctxt ""
+#~ "04060109.xhp\n"
+#~ "par_id3158419\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=INDEX(multi;4;1)</item> indicates the value contained in row 4 and column 1 of the (multiple) range, which you named under <emph>Sheet - Named Ranges and Expressions - Define</emph> as <emph>multi</emph> with the expression <emph>(A1:B6;C1:D6)</emph> for example. The multiple range may consist of several rectangular ranges, each with a row 4 and column 1. If you now want to call the second block of this multiple range enter the number <item type=\"input\">2</item> as the <emph>Range</emph> parameter."
+#~ msgstr "<item type=\"input\">=INDEX(multi;4;1)</item> indikerer verdien i rad 4 og kolonne 1 i (flere) området, som du navnga under <emph>Ark - navngitte områder og Uttrykk – Definer</emph> som <emph>multi</emph> med uttrykket <emph>(A1:B6;C1:D6)</emph> for eksempel. Multippelområdet kan bestå av flere rektangulære områder, hver med en rad 4 og kolonne 1. Hvis du nå vil kalle den andre blokken i dette multiple området, skriv inn tallet <item type=\"input\">2</item> som <emph>Rekkevidde</emph>-parameter."
+
+#~ msgctxt ""
+#~ "12120100.xhp\n"
+#~ "par_idN1070D\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Shows a list of all valid strings or values to select from. The list can also be opened by selecting the cell and pressing <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command+D</keycode></caseinline><defaultinline><keycode>Ctrl+D</keycode></defaultinline></switchinline>.</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Viser en liste over alle gyldige strenger eller verdier å velge fra. Listen kan også åpnes ved å velge cellen og trykke <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command+D</keycode></caseinline><defaultinline><keycode>Ctrl+ D</keycode></defaultinline></switchinline>.</ahelp>"
+
+#~ msgctxt ""
+#~ "func_style.xhp\n"
+#~ "par_id961673376106137\n"
+#~ "help.text"
+#~ msgid "<input>STYLE(\"Style\" [; Time [; \"Style2\"]])</input>"
+#~ msgstr "<input>STYLE(\"Stil\" [; Tid [; \"Stil2\"]])</input>"
+
+#~ msgctxt ""
+#~ "statistics_test_t.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "T Test Statistics in Calc"
+#~ msgstr "T Teststatistikk i Calc"
 
 #~ msgctxt ""
 #~ "05120100.xhp\n"
