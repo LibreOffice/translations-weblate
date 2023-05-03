@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2023-04-27 12:14+0200\n"
+"POT-Creation-Date: 2023-05-03 12:32+0200\n"
 "PO-Revision-Date: 2023-04-29 13:33+0000\n"
 "Last-Translator: Po-Yen Huang <jeff@mail.ossii.com.tw>\n"
 "Language-Team: Chinese (Traditional) <https://translations.documentfoundation.org/projects/libo_ui-master/swmessages/zh_Hant/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1557418140.000000\n"
 
 #. DqGwU
@@ -10358,6 +10358,12 @@ msgstr "加入非中斷空格字元"
 msgctxt "RID_SHELLRES_AUTOFMTSTRS"
 msgid "Transliterates RTL Hungarian text to Old Hungarian script"
 msgstr "將右到左匈牙利文字拼寫為古匈牙利字母"
+
+#. 62jqE
+#: sw/inc/utlui.hrc:52
+msgctxt "RID_SHELLRES_AUTOFMTSTRS"
+msgid "DOI citation recognition"
+msgstr ""
 
 #. MEgcB
 #: sw/uiconfig/swriter/ui/abstractdialog.ui:22
@@ -25347,26 +25353,50 @@ msgctxt "pagenumbering|extended_tip|alignmentCombo"
 msgid "Align page number in page footer or header."
 msgstr "在頁首或頁尾中對齊頁碼。"
 
+#. eAnbq
+#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:171
+msgctxt "numberingoptionspage|mirrorCheckbox"
+msgid "Mirror on even pages"
+msgstr ""
+
+#. TBSiz
+#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:179
+msgctxt "numberingoptionspage|extended_tip|mirrorCheckbox"
+msgid "Creates separate left/right pages with mirrored page number placements"
+msgstr ""
+
+#. ddnjH
+#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:191
+msgctxt "pagenumberdlg|pagetotalCheckbox"
+msgid "Include page total"
+msgstr ""
+
+#. EHbmr
+#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:201
+msgctxt "pagenumberdlg|extended_tip|pagetotalCheckbox"
+msgid "Also insert the total number of pages"
+msgstr ""
+
 #. mFDFf
-#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:175
+#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:217
 msgctxt "pagenumberdlg|numfmtLabel"
 msgid "Page numbers:"
 msgstr "頁碼："
 
 #. zBZCW
-#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:183
+#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:225
 msgctxt "pagenumberdlg|alignmentLabel-atkobject"
 msgid "Number format"
 msgstr "數字格式"
 
 #. BNXjE
-#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:202
+#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:244
 msgctxt "numberingoptionspage|extended_tip|numfmtlb"
 msgid "Select a numbering scheme for the page numbering."
 msgstr "選取頁碼編號方案。"
 
 #. LUsGq
-#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:229
+#: sw/uiconfig/swriter/ui/pagenumberdlg.ui:271
 msgctxt "pagenumberdlg|previewLabel"
 msgid "Preview"
 msgstr "預覽"
@@ -30489,11 +30519,11 @@ msgctxt "viewoptionspage|changestooltip"
 msgid "_Tooltips on tracked changes"
 msgstr "追蹤修訂的提示框(_T)"
 
-#. 8no6x
+#. 69ous
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:327
 msgctxt "viewoptionspage|changeslabel"
-msgid "Display tracked changes"
-msgstr "顯示追蹤修訂"
+msgid "Display Tracked Changes"
+msgstr ""
 
 #. YD6TK
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:369
@@ -31070,6 +31100,10 @@ msgstr "選項"
 msgctxt "wrappage|extended_tip|WrapPage"
 msgid "Specify the way you want text to wrap around an object."
 msgstr "指定您希望文字環繞物件的方式。"
+
+#~ msgctxt "viewoptionspage|changeslabel"
+#~ msgid "Display tracked changes"
+#~ msgstr "顯示追蹤修訂"
 
 #~ msgctxt "STR_POOLNUMRULE_BUL3"
 #~ msgid "Bullet "
