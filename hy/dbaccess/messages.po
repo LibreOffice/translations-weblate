@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-12-14 12:12+0100\n"
-"PO-Revision-Date: 2023-05-31 10:34+0000\n"
+"PO-Revision-Date: 2023-06-01 11:35+0000\n"
 "Last-Translator: Tigran Zargaryan <tigranflib@gmail.com>\n"
 "Language-Team: Armenian <https://translations.documentfoundation.org/projects/libo_ui-7-4/dbaccessmessages/hy/>\n"
 "Language: hy\n"
@@ -1375,7 +1375,7 @@ msgstr "Մուտքագրեք տեքստի առավելագույն թույլա�
 #: dbaccess/inc/strings.hrc:246
 msgctxt "STR_HELP_NUMERIC_TYPE"
 msgid "Enter the number format."
-msgstr ""
+msgstr "Մուտքագրեք թվի ձևաչափը:"
 
 #. 2yCJu
 #: dbaccess/inc/strings.hrc:247
@@ -1386,24 +1386,28 @@ msgid ""
 "If decimal fields, then the maximum length of the number to be entered, if binary fields, then the length of the data block.\n"
 "The value will be corrected accordingly when it exceeds the maximum for this database."
 msgstr ""
+"Որոշեք այս դաշտում տվյալների երկարությունը:\n"
+"\n"
+"Եթե տասնորդական դաշտեր են՝ ապա մուտքագրվող թվի առավելագույն երկարությունը, եթե երկուական դաշտեր են՝ ապա տվյալների բլոկի երկարությունը:\n"
+"Արժեքը համապատասխանաբար կուղղվի, երբ այն գերազանցի այս տվյալների շտեմարանի առավելագույնը:"
 
 #. BY4V7
 #: dbaccess/inc/strings.hrc:248
 msgctxt "STR_HELP_SCALE"
 msgid "Specify the number of decimal places permitted in this field."
-msgstr ""
+msgstr "Նշեք այս դաշտում թույլատրված տասնորդական տեղերի քանակը:"
 
 #. QBHjm
 #: dbaccess/inc/strings.hrc:249
 msgctxt "STR_HELP_FORMAT_CODE"
 msgid "This is where you see how the data would be displayed in the current format (use the button on the right to modify the format)."
-msgstr ""
+msgstr "Այստեղ դուք տեսնում եք, թե ինչպես կցուցադրվեն տվյալները ընթացիկ ձևաչափով (ձևաչափը փոփոխելու համար օգտագործեք աջ կոճակը):"
 
 #. eV4sD
 #: dbaccess/inc/strings.hrc:250
 msgctxt "STR_HELP_FORMAT_BUTTON"
 msgid "This is where you determine the output format of the data."
-msgstr ""
+msgstr "Այստեղ դուք որոշում եք տվյալների ելքային ձևաչափը:"
 
 #. Y5q39
 #: dbaccess/inc/strings.hrc:251
@@ -1413,48 +1417,51 @@ msgid ""
 "\n"
 "You can not enter data in fields of this type. An intrinsic value will be assigned to each new record automatically (resulting from the increment of the previous record)."
 msgstr ""
+"Ընտրեք, արդյոք այս դաշտը պետք է պարունակի ինքնաշխատ ավելացվող արժեքներ:\n"
+"\n"
+"Դուք չեք կարող տվյալներ մուտքագրել այս տեսակի դաշտերում: Յուրաքանչյուր նոր գրառման ինքնաբերաբար կհատկացվի ներքին արժեք (նախորդ գրառմանը ավելացման արդյունքում):"
 
 #. 5uQpF
 #: dbaccess/inc/strings.hrc:252
 msgctxt "STR_TABLEDESIGN_DUPLICATE_NAME"
 msgid "The table cannot be saved because column name \"$column$\" was assigned twice."
-msgstr ""
+msgstr "Աղյուսակը չի կարող պահպանվել, քանի որ սյունակի \"$column$\" անունը նշանակվել է երկու անգամ:"
 
 #. vayRE
 #: dbaccess/inc/strings.hrc:253
 msgctxt "STR_TBL_COLUMN_IS_KEYCOLUMN"
 msgid "The column \"$column$\" belongs to the primary key. If the column is deleted, the primary key will also be deleted. Do you really want to continue?"
-msgstr ""
+msgstr "\"$column$\" սյունակը պատկանում է հիմնական բանալիին: Եթե սյունակը ջնջվի, կջնջվի նաև հիմնական բանալին: Իսկապե՞ս ցանկանում եք շարունակել։"
 
 #. fo93e
 #: dbaccess/inc/strings.hrc:254
 msgctxt "STR_TBL_COLUMN_IS_KEYCOLUMN_TITLE"
 msgid "Primary Key Affected"
-msgstr ""
+msgstr "Առաջնային բանալին վնասված է"
 
 #. wcLcG
 #: dbaccess/inc/strings.hrc:255
 msgctxt "STR_COLUMN_NAME"
 msgid "Column"
-msgstr ""
+msgstr "Սյունակ"
 
 #. ES566
 #: dbaccess/inc/strings.hrc:256
 msgctxt "STR_QRY_CONTINUE"
 msgid "Continue anyway?"
-msgstr ""
+msgstr "Շարունակե՞լ, այնուամենայնիվ:"
 
 #. iXbw5
 #: dbaccess/inc/strings.hrc:257
 msgctxt "STR_TABLEDESIGN_CONNECTION_MISSING"
 msgid "The table could not be saved due to problems connecting to the database."
-msgstr ""
+msgstr "Աղյուսակը չհաջողվեց պահպանել տվյալների շտեմարանին միանալու հետ կապված խնդիրների պատճառով:"
 
 #. kuExF
 #: dbaccess/inc/strings.hrc:258
 msgctxt "STR_TABLEDESIGN_DATASOURCE_DELETED"
 msgid "The table filter could not be adjusted because the data source has been deleted."
-msgstr ""
+msgstr "Աղյուսակի զտիչը չի կարող կարգավորվել, քանի որ տվյալների աղբյուրը ջնջվել է:"
 
 #. Lt4Yc
 #: dbaccess/inc/strings.hrc:259
@@ -1463,12 +1470,14 @@ msgid ""
 "Before you can edit the indexes of a table, you have to save it.\n"
 "Do you want to save the changes now?"
 msgstr ""
+"Նախքան աղյուսակի ցուցիչները խմբագրելը, դուք պետք է պահպանեք այն:\n"
+"Ցանկանու՞մ եք պահպանել փոփոխությունները հիմա:"
 
 #. HFLQk
 #: dbaccess/inc/strings.hrc:260
 msgctxt "STR_TABLEDESIGN_NO_PRIM_KEY_HEAD"
 msgid "No primary key"
-msgstr ""
+msgstr "Հիմնական բանալի չկա"
 
 #. ir5Du
 #: dbaccess/inc/strings.hrc:261
@@ -1479,24 +1488,28 @@ msgid ""
 "\n"
 "Should a primary key be created now?"
 msgstr ""
+"Տվյալների այս շտեմարանում տվյալների գրառումների նույնականացման համար պահանջվում է եզակի ցուցիչ կամ հիմնական բանալի:\n"
+"Դուք կարող եք տվյալներ մուտքագրել այս աղյուսակում միայն այն դեպքում, երբ այս երկու կառուցվածքային պայմաններից մեկը բավարարված է:\n"
+"\n"
+"Արդյո՞ք հիմա պետք է առաջնային բանալի ստեղծվի:"
 
 #. R7KDG
 #: dbaccess/inc/strings.hrc:262
 msgctxt "STR_TABLEDESIGN_ALTER_ERROR"
 msgid "The column \"$column$\" could not be changed. Should the column instead be deleted and the new format appended?"
-msgstr ""
+msgstr "\"$column$\" սյունակը հնարավոր չէ փոխել: Արդյո՞ք սյունակը պետք է ջնջվի և ապա կցվի նոր ձևաչափը:"
 
 #. U3f4j
 #: dbaccess/inc/strings.hrc:263
 msgctxt "STR_TABLEDESIGN_SAVE_ERROR"
 msgid "Error while saving the table design"
-msgstr ""
+msgstr "Սխալ՝ աղյուսակի դիզայնը պահելիս"
 
 #. 9BsSL
 #: dbaccess/inc/strings.hrc:264
 msgctxt "STR_TABLEDESIGN_COULD_NOT_DROP_COL"
 msgid "The column $column$ could not be deleted."
-msgstr ""
+msgstr "$column$ սյունակը չհաջողվեց ջնջել:"
 
 #. Etkrj
 #: dbaccess/inc/strings.hrc:265
@@ -1506,6 +1519,9 @@ msgid ""
 "\n"
 "This statement will be directly transferred to the database when the table is created."
 msgstr ""
+"Մուտքագրեք SQL հայտարարություն ինքնաշխատ աճի դաշտի համար:\n"
+"\n"
+"Այս հայտարարությունը ուղղակիորեն կփոխանցվի տվյալների բազա, երբ ստեղծվի աղյուսակը:"
 
 #. fAEud
 #: dbaccess/inc/strings.hrc:266
@@ -1514,36 +1530,38 @@ msgid ""
 "No type information could be retrieved from the database.\n"
 "The table design mode is not available for this data source."
 msgstr ""
+"Տվյալների շտեմարանից ոչ մի տեսակի տեղեկատվություն չի ստացվել:\n"
+"Աղյուսակի ձևավորման ռեժիմը հասանելի չէ տվյալների այս աղբյուրի համար:"
 
 #. 2s2rr
 #: dbaccess/inc/strings.hrc:267
 msgctxt "STR_CHANGE_COLUMN_NAME"
 msgid "change field name"
-msgstr ""
+msgstr "փոխել դաշտի անունը"
 
 #. PC3QD
 #: dbaccess/inc/strings.hrc:268
 msgctxt "STR_CHANGE_COLUMN_TYPE"
 msgid "change field type"
-msgstr ""
+msgstr "փոխել դաշտի տեսակը"
 
 #. Z2B9o
 #: dbaccess/inc/strings.hrc:269
 msgctxt "STR_CHANGE_COLUMN_DESCRIPTION"
 msgid "change field description"
-msgstr ""
+msgstr "փոխել դաշտի նկարագրությունը"
 
 #. aDrTE
 #: dbaccess/inc/strings.hrc:270
 msgctxt "STR_CHANGE_COLUMN_ATTRIBUTE"
 msgid "change field attribute"
-msgstr ""
+msgstr "փոխել դաշտի հատկանիշը"
 
 #. 3srwC
 #: dbaccess/inc/strings.hrc:272
 msgctxt "STR_ENTER_CONNECTION_PASSWORD"
 msgid "A password is needed to connect to the data source \"$name$\"."
-msgstr ""
+msgstr "\"$name$\" տվյալների աղբյուրին միանալու համար անհրաժեշտ է գաղտնաբառ:"
 
 #. tYDxc
 #: dbaccess/inc/strings.hrc:273
@@ -1555,48 +1573,53 @@ msgid ""
 "\n"
 "does not exist. Should it be created?"
 msgstr ""
+"Այս տեղեկատուն\n"
+"\n"
+"$path$\n"
+"\n"
+"գոյություն չունի. Արդյո՞ք այն պետք է ստեղծվի:"
 
 #. 3PFxY
 #: dbaccess/inc/strings.hrc:274
 msgctxt "STR_COULD_NOT_CREATE_DIRECTORY"
 msgid "The directory $name$ could not be created."
-msgstr ""
+msgstr "$name$ գրացուցակը չհաջողվեց ստեղծել:"
 
 #. V9kGF
 #: dbaccess/inc/strings.hrc:275
 msgctxt "STR_ALREADYEXISTOVERWRITE"
 msgid "The file already exists. Overwrite?"
-msgstr ""
+msgstr "Նիշքն արդեն գոյություն ունի: Վերագրե՞լ"
 
 #. i47ye
 #: dbaccess/inc/strings.hrc:276
 msgctxt "STR_NEW_FOLDER"
 msgid "Folder"
-msgstr ""
+msgstr "Թղթապանակ"
 
 #. U2bRK
 #: dbaccess/inc/strings.hrc:278
 msgctxt "STR_DATABASE_TYPE_CHANGE"
 msgid "Database properties"
-msgstr ""
+msgstr "Շտեմարանի հատկություններ"
 
 #. etNzz
 #: dbaccess/inc/strings.hrc:279
 msgctxt "STR_PARENTTITLE_GENERAL"
 msgid "Data Source Properties: #"
-msgstr ""
+msgstr "Տվյալների աղբյուրի հատկությունները՝ #"
 
 #. z9Ecp
 #: dbaccess/inc/strings.hrc:280
 msgctxt "STR_ERR_USE_CONNECT_TO"
 msgid "Please choose 'Connect to an existing database' to connect to an existing database instead."
-msgstr ""
+msgstr "Խնդրում ենք ընտրել «Միացեք գոյություն ունեցող տվյալների շտեմարանին»՝ փոխարենը գոյություն ունեցող տվյալների շտեմարանին միանալու համար:"
 
 #. PfAC6
 #: dbaccess/inc/strings.hrc:281
 msgctxt "STR_COULD_NOT_LOAD_ODBC_LIB"
 msgid "Could not load the program library #lib# or it is corrupted. The ODBC data source selection is not available."
-msgstr ""
+msgstr "Չհաջողվեց բեռնել ծրագրի #lib# գրադարանը, կամ այն վնասված է: ODBC տվյալների աղբյուրի ընտրությունը հասանելի չէ:"
 
 #. d3vbZ
 #: dbaccess/inc/strings.hrc:282
@@ -1605,151 +1628,153 @@ msgid ""
 "This kind of data source is not supported on this platform.\n"
 "You are allowed to change the settings, but you probably will not be able to connect to the database."
 msgstr ""
+"Այս տեսակի տվյալների աղբյուրը չի աջակցվում այս հարթակում:\n"
+"Ձեզ թույլատրվում է փոխել կարգավորումները, բայց հավանաբար չեք կարողանա միանալ տվյալների շտեմարանին:"
 
 #. 2f7Ga
 #: dbaccess/inc/strings.hrc:283
 msgctxt "STR_AUTOTEXT_FIELD_SEP_NONE"
 msgid "{None}"
-msgstr ""
+msgstr "{Ոչ ոք}"
 
 #. iR7CJ
 #. To translators: EM Dec 2002: 'Space' refers t    o what you get when you hit the space bar on your keyboard.
 #: dbaccess/inc/strings.hrc:285
 msgctxt "STR_AUTOFIELDSEPARATORLIST"
 msgid ";\t59\t,\t44\t:\t58\t{Tab}\t9\t{Space}\t32"
-msgstr ""
+msgstr ";\t59\t,\t44\t:\t58\t{Tab}\t9\t{Space}\t32"
 
 #. DFGo9
 #: dbaccess/inc/strings.hrc:286
 msgctxt "STR_AUTODELIMITER_MISSING"
 msgid "#1 must be set."
-msgstr ""
+msgstr "#1 պետք է տրվի."
 
 #. ZDRBf
 #: dbaccess/inc/strings.hrc:287
 msgctxt "STR_AUTODELIMITER_MUST_DIFFER"
 msgid "#1 and #2 must be different."
-msgstr ""
+msgstr "#1 -ը և #2 -ը պետք է տարբեր լինեն:"
 
 #. 9oCZr
 #: dbaccess/inc/strings.hrc:288
 msgctxt "STR_AUTONO_WILDCARDS"
 msgid "Wildcards such as ?,* are not allowed in #1."
-msgstr ""
+msgstr "Տեղարման նշաններ, ինչպիսիք են ?,* -ը, չեն թույլատրվում #1 -ում:"
 
 #. BdzcB
 #: dbaccess/inc/strings.hrc:290
 msgctxt "STR_CONNECTION_TEST"
 msgid "Connection Test"
-msgstr ""
+msgstr "Միացման փորձարկում"
 
 #. oAAKs
 #: dbaccess/inc/strings.hrc:291
 msgctxt "STR_CONNECTION_SUCCESS"
 msgid "The connection was established successfully."
-msgstr ""
+msgstr "Կապը հաջողությամբ հաստատվեց:"
 
 #. 5V7Ay
 #: dbaccess/inc/strings.hrc:292
 msgctxt "STR_CONNECTION_NO_SUCCESS"
 msgid "The connection could not be established."
-msgstr ""
+msgstr "Կապը չհաջողվեց հաստատել:"
 
 #. wvNFP
 #: dbaccess/inc/strings.hrc:293
 msgctxt "STR_JDBCDRIVER_SUCCESS"
 msgid "The JDBC driver was loaded successfully."
-msgstr ""
+msgstr "JDBC վարորդը հաջողությամբ բեռնվեց:"
 
 #. RdMCN
 #: dbaccess/inc/strings.hrc:294
 msgctxt "STR_JDBCDRIVER_NO_SUCCESS"
 msgid "The JDBC driver could not be loaded."
-msgstr ""
+msgstr "JDBC -ի վարորդը չհաջողվեց բեռնել:"
 
 #. dyCvN
 #: dbaccess/inc/strings.hrc:295
 msgctxt "STR_MSACCESS_FILTERNAME"
 msgid "MS Access file"
-msgstr ""
+msgstr "MS Access նիշք"
 
 #. rDsuu
 #: dbaccess/inc/strings.hrc:296
 msgctxt "STR_MSACCESS_2007_FILTERNAME"
 msgid "MS Access 2007 file"
-msgstr ""
+msgstr "MS Access 2007 նիշք"
 
 #. jFwxU
 #: dbaccess/inc/strings.hrc:297
 msgctxt "STR_FIREBIRD_FILTERNAME"
 msgid "Firebird Database"
-msgstr ""
+msgstr "Firebird շտեմարան"
 
 #. 8Uiv2
 #: dbaccess/inc/strings.hrc:299
 msgctxt "STR_RSC_CHARSETS"
 msgid "System"
-msgstr ""
+msgstr "Համակարգ"
 
 #. pnwDB
 #: dbaccess/inc/strings.hrc:300
 msgctxt "STR_ERROR_DURING_CREATION"
 msgid "Error during creation"
-msgstr ""
+msgstr "Սխալ ստեղծման ժամանակ"
 
 #. hnyJF
 #: dbaccess/inc/strings.hrc:301
 msgctxt "STR_UNEXPECTED_ERROR"
 msgid "An error occurred. The operation could not be performed."
-msgstr ""
+msgstr "Սխալ է տեղի ունեցել. Գործողությունը հնարավոր չի եղել կատարել։"
 
 #. kXCG9
 #: dbaccess/inc/strings.hrc:302
 msgctxt "STR_COULDNOTOPEN_LINKEDDOC"
 msgid "The document \"$file$\" could not be opened."
-msgstr ""
+msgstr "\"$file$\" փաստաթուղթը չհաջողվեց բացել:"
 
 #. bFHHW
 #: dbaccess/inc/strings.hrc:303
 msgctxt "STR_MISSING_TABLES_XDROP"
 msgid "The table cannot be deleted because the database connection does not support this."
-msgstr ""
+msgstr "Աղյուսակը չի կարող ջնջվել, քանի որ տվյալների բազայի կապը չի աջակցում սա:"
 
 #. ZNB5D
 #: dbaccess/inc/strings.hrc:304
 msgctxt "STR_BUTTON_TEXT_ALL"
 msgid "~All"
-msgstr ""
+msgstr "~Բոլորը"
 
 #. C8eBG
 #: dbaccess/inc/strings.hrc:305
 msgctxt "STR_UNDO_COLON"
 msgid "Undo:"
-msgstr ""
+msgstr "Հետարկել՝"
 
 #. aje2A
 #: dbaccess/inc/strings.hrc:306
 msgctxt "STR_REDO_COLON"
 msgid "Redo:"
-msgstr ""
+msgstr "Կրկնել՝"
 
 #. ixMkj
 #: dbaccess/inc/strings.hrc:307
 msgctxt "STR_UNKNOWN_TYPE_FOUND"
 msgid "No corresponding column type could be found for column '#1'."
-msgstr ""
+msgstr "Համապատասխան սյունակի տեսակ չի գտնվել '#1' սյունակի համար:"
 
 #. qVax3
 #: dbaccess/inc/strings.hrc:308
 msgctxt "STR_FILE_DOES_NOT_EXIST"
 msgid "The file \"$file$\" does not exist."
-msgstr ""
+msgstr "\"$file$\" նիշքը գոյություն չունի:"
 
 #. 737k3
 #: dbaccess/inc/strings.hrc:309
 msgctxt "STR_WARNINGS_DURING_CONNECT"
 msgid "Warnings were encountered while connecting to the data source. Press \"$buttontext$\" to view them."
-msgstr ""
+msgstr "Տվյալների աղբյուրին միանալու ժամանակ զգուշացումներ են ստացվել: Սեղմեք \"$buttontext$\" դրանք դիտելու համար:"
 
 #. cGJja
 #: dbaccess/inc/strings.hrc:310
@@ -1758,115 +1783,117 @@ msgid ""
 "The name '$#$' already exists.\n"
 "Please enter another name."
 msgstr ""
+"'$#$' անունն արդեն առկա է։\n"
+"Խնդրում ենք մուտքագրել այլ անուն:"
 
 #. xTNjt
 #. #i96130# use hard coded name
 #: dbaccess/inc/strings.hrc:312
 msgctxt "RID_STR_EXTENSION_NOT_PRESENT"
 msgid "The report, \"$file$\", requires the Report Builder feature."
-msgstr ""
+msgstr "\"$file$\" հաշվետվության համար պահանջվում է \"Հաշվետվությունների կառուցող\" առկայությունը:"
 
 #. oC8Px
 #: dbaccess/inc/strings.hrc:314
 msgctxt "STR_COULDNOTCREATE_DRIVERMANAGER"
 msgid "Cannot connect to the SDBC driver manager (#servicename#)."
-msgstr ""
+msgstr "նարավոր չէ միանալ SDBC վարորդի կառավարիչին (#servicename#):"
 
 #. aym6r
 #: dbaccess/inc/strings.hrc:315
 msgctxt "STR_NOREGISTEREDDRIVER"
 msgid "A driver is not registered for the URL #connurl#."
-msgstr ""
+msgstr "Վարորդը գրանցված չէ #connurl# հասցեի համար:"
 
 #. oafZG
 #: dbaccess/inc/strings.hrc:316
 msgctxt "STR_NOTABLEINFO"
 msgid "Successfully connected, but information about database tables is not available."
-msgstr ""
+msgstr "Հաջողությամբ միացվեց, բայց տվյալների բազայի աղյուսակների մասին տեղեկատվությունը հասանելի չէ:"
 
 #. uBW6C
 #: dbaccess/inc/strings.hrc:317
 msgctxt "STR_ALL_TABLES"
 msgid "All tables"
-msgstr ""
+msgstr "Բոլոր աղյուսակները"
 
 #. nhz6M
 #: dbaccess/inc/strings.hrc:318
 msgctxt "STR_ALL_VIEWS"
 msgid "All views"
-msgstr ""
+msgstr "Բոլոր տեսքերը"
 
 #. APBCw
 #: dbaccess/inc/strings.hrc:319
 msgctxt "STR_ALL_TABLES_AND_VIEWS"
 msgid "All tables and views"
-msgstr ""
+msgstr "Բոլոր աղյուսակները և տեսքերը"
 
 #. 4SGBJ
 #: dbaccess/inc/strings.hrc:321
 msgctxt "STR_TABLE_PRIV_NAME"
 msgid "Table name"
-msgstr ""
+msgstr "Աղյուսակի անունը"
 
 #. Nw93R
 #: dbaccess/inc/strings.hrc:322
 msgctxt "STR_TABLE_PRIV_INSERT"
 msgid "Insert data"
-msgstr ""
+msgstr "Տեղադրեք տվյալները"
 
 #. nLFJd
 #: dbaccess/inc/strings.hrc:323
 msgctxt "STR_TABLE_PRIV_DELETE"
 msgid "Delete data"
-msgstr ""
+msgstr "Ջնջեք տվյալները"
 
 #. eGEDE
 #: dbaccess/inc/strings.hrc:324
 msgctxt "STR_TABLE_PRIV_UPDATE"
 msgid "Modify data"
-msgstr ""
+msgstr "Ձևափոխեք տվյալները"
 
 #. e2bxV
 #: dbaccess/inc/strings.hrc:325
 msgctxt "STR_TABLE_PRIV_ALTER"
 msgid "Alter structure"
-msgstr ""
+msgstr "Փոխել կառուցվածքը"
 
 #. zejFA
 #: dbaccess/inc/strings.hrc:326
 msgctxt "STR_TABLE_PRIV_SELECT"
 msgid "Read data"
-msgstr ""
+msgstr "Կարդալ տվյալները"
 
 #. UsMj8
 #: dbaccess/inc/strings.hrc:327
 msgctxt "STR_TABLE_PRIV_REFERENCE"
 msgid "Modify references"
-msgstr ""
+msgstr "Փոփոխել հղումները"
 
 #. SEGp9
 #: dbaccess/inc/strings.hrc:328
 msgctxt "STR_TABLE_PRIV_DROP"
 msgid "Drop structure"
-msgstr ""
+msgstr "Գցեք կառուցվածքը"
 
 #. BCCiv
 #: dbaccess/inc/strings.hrc:330
 msgctxt "STR_DBASE_PATH_OR_FILE"
 msgid "Path to the dBASE files"
-msgstr ""
+msgstr "dBASE նիշքերի ուղին"
 
 #. hnBFY
 #: dbaccess/inc/strings.hrc:331
 msgctxt "STR_FLAT_PATH_OR_FILE"
 msgid "Path to the text files"
-msgstr ""
+msgstr "Տեքստային նիշքերի ուղին"
 
 #. DRFyX
 #: dbaccess/inc/strings.hrc:332
 msgctxt "STR_CALC_PATH_OR_FILE"
 msgid "Path to the spreadsheet document"
-msgstr ""
+msgstr "Աղյուսակային փաստաթղթերի ուղին"
 
 #. qxbA7
 #: dbaccess/inc/strings.hrc:333
@@ -1878,79 +1905,79 @@ msgstr ""
 #: dbaccess/inc/strings.hrc:334
 msgctxt "STR_WRITER_PATH_OR_FILE"
 msgid "Path to the Writer document"
-msgstr ""
+msgstr "Writer փաստաթղթի ուղին"
 
 #. JScWd
 #: dbaccess/inc/strings.hrc:335
 msgctxt "STR_MYSQL_DATABASE_NAME"
 msgid "Name of the MySQL/MariaDB database"
-msgstr ""
+msgstr "MySQL/MariaDB տվյալների բազայի անվանումը"
 
 #. uhRMQ
 #: dbaccess/inc/strings.hrc:336
 msgctxt "STR_ORACLE_DATABASE_NAME"
 msgid "Name of the Oracle database"
-msgstr ""
+msgstr "Oracle շտեմարանի անվանումը"
 
 #. nmoae
 #: dbaccess/inc/strings.hrc:337
 msgctxt "STR_MSACCESS_MDB_FILE"
 msgid "Microsoft Access database file"
-msgstr ""
+msgstr "Microsoft Access շտեմարանի նիշք"
 
 #. 34zwh
 #: dbaccess/inc/strings.hrc:338
 msgctxt "STR_NO_ADDITIONAL_SETTINGS"
 msgid "No more settings are necessary. To verify that the connection is working, click the '%test' button."
-msgstr ""
+msgstr "Այլևս կարգավորումներ չեն պահանջվում: Ստուգելու համար, որ կապն աշխատում է, սեղմեք '%test' կոճակը:"
 
 #. DDLwe
 #: dbaccess/inc/strings.hrc:339
 msgctxt "STR_COMMONURL"
 msgid "Enter the DBMS/driver-specific connection string here"
-msgstr ""
+msgstr "Այստեղ մուտքագրեք DBMS/վարորդ հատուկ կապի տողը"
 
 #. rKH3t
 #: dbaccess/inc/strings.hrc:340
 msgctxt "STR_HOSTNAME"
 msgid "~Host name"
-msgstr ""
+msgstr "~Հյուրընկալի անուն"
 
 #. Gdbjz
 #: dbaccess/inc/strings.hrc:341
 msgctxt "STR_MOZILLA_PROFILE_NAME"
 msgid "~Mozilla profile name"
-msgstr ""
+msgstr "~Mozilla պրոֆալի անունը"
 
 #. A6YJb
 #: dbaccess/inc/strings.hrc:342
 msgctxt "STR_THUNDERBIRD_PROFILE_NAME"
 msgid "~Thunderbird profile name"
-msgstr ""
+msgstr "~Thunderbird պրոֆալի անունը"
 
 #. HnmRA
 #: dbaccess/inc/strings.hrc:343
 msgctxt "STR_ADD_TABLES"
 msgid "Add Tables"
-msgstr ""
+msgstr "Ավելացրեք աղյուսակներ"
 
 #. eHahH
 #: dbaccess/inc/strings.hrc:344
 msgctxt "STR_ADD_TABLE_OR_QUERY"
 msgid "Add Table or Query"
-msgstr ""
+msgstr "Ավելացնել աղյուսակ կամ հարցում"
 
 #. 5dqK5
 #: dbaccess/inc/strings.hrc:346
 msgctxt "STR_WIZ_COLUMN_SELECT_TITEL"
 msgid "Apply columns"
-msgstr ""
+msgstr "Կիրառել սյունակներ"
 
 #. nZ7x6
 #: dbaccess/inc/strings.hrc:347
 msgctxt "STR_WIZ_TYPE_SELECT_TITEL"
 msgid "Type formatting"
-msgstr ""
+msgstr "Տեսակի ձևաչափում"
 
 #. C5Zs4
 #: dbaccess/inc/strings.hrc:348
@@ -1959,162 +1986,164 @@ msgid ""
 "Enter a unique name for the new primary key data field.\n"
 "The following name is already in use:"
 msgstr ""
+"Մուտքագրեք եզակի անուն նոր առաջնային բանալու տվյալների դաշտի համար:\n"
+"Հետևյալ անվանումն արդեն օգտագործվում է."
 
 #. MuQ2C
 #: dbaccess/inc/strings.hrc:349
 msgctxt "STR_WIZ_NAME_MATCHING_TITEL"
 msgid "Assign columns"
-msgstr ""
+msgstr "Նշանակեք սյունակներ"
 
 #. 5vCFA
 #: dbaccess/inc/strings.hrc:350
 msgctxt "STR_WIZ_PB_PREV"
 msgid "< ~Back"
-msgstr ""
+msgstr "< ~Հետ"
 
 #. aWFVD
 #: dbaccess/inc/strings.hrc:351
 msgctxt "STR_WIZ_PB_NEXT"
 msgid "~Next>"
-msgstr ""
+msgstr "~Հաջորդը>"
 
 #. aKHUX
 #: dbaccess/inc/strings.hrc:352
 msgctxt "STR_WIZ_PB_OK"
 msgid "C~reate"
-msgstr ""
+msgstr "Ս~տեղծել"
 
 #. 3XyRu
 #: dbaccess/inc/strings.hrc:353
 msgctxt "STR_WIZ_TABLE_COPY"
 msgid "Copy table"
-msgstr ""
+msgstr "Պատճենել աղյուսակը"
 
 #. uNGvx
 #: dbaccess/inc/strings.hrc:354
 msgctxt "STR_COPYTABLE_TITLE_COPY"
 msgid "Copy table"
-msgstr ""
+msgstr "Պատճենել աղյուսակը"
 
 #. xCPkD
 #: dbaccess/inc/strings.hrc:355
 msgctxt "STR_INVALID_TABLE_NAME"
 msgid "This table name is not valid in the current database."
-msgstr ""
+msgstr "Աղյուսակի այս անունը վավեր չէ տվյալների ընթացիկ շտեմարանում:"
 
 #. m35Lx
 #: dbaccess/inc/strings.hrc:356
 msgctxt "STR_SUGGEST_APPEND_TABLE_DATA"
 msgid "Choose the option 'Append data' on the first page to append data to an existing table."
-msgstr ""
+msgstr "Ընտրեք «Ավելացնել տվյալներ» տարբերակը առաջին էջում՝ գոյություն ունեցող աղյուսակին տվյալները ավելացնելու համար:"
 
 #. XbmVN
 #: dbaccess/inc/strings.hrc:357
 msgctxt "STR_INVALID_TABLE_NAME_LENGTH"
 msgid "Please change the table name. It is too long."
-msgstr ""
+msgstr "Խնդրում ենք փոխել աղյուսակի անվանումը: Այն չափազանց երկար է։"
 
 #. 55EA7
 #: dbaccess/inc/strings.hrc:359
 msgctxt "STR_DBWIZARDTITLE"
 msgid "Database Wizard"
-msgstr ""
+msgstr "Շտեմարանի հրաշագործ"
 
 #. p4Yy4
 #: dbaccess/inc/strings.hrc:360
 msgctxt "STR_PAGETITLE_INTROPAGE"
 msgid "Select database"
-msgstr ""
+msgstr "Ընտրեք տվյալներ շտեմարանը"
 
 #. GTpDz
 #: dbaccess/inc/strings.hrc:361
 msgctxt "STR_PAGETITLE_DBASE"
 msgid "Set up dBASE connection"
-msgstr ""
+msgstr "Ստեղծեք dBASE կապը"
 
 #. VBaQN
 #: dbaccess/inc/strings.hrc:362
 msgctxt "STR_PAGETITLE_TEXT"
 msgid "Set up a connection to text files"
-msgstr ""
+msgstr "Ստեղծեք կապ տեքստային նիշքերի հետ"
 
 #. TiBeQ
 #: dbaccess/inc/strings.hrc:363
 msgctxt "STR_PAGETITLE_MSACCESS"
 msgid "Set up Microsoft Access connection"
-msgstr ""
+msgstr "Կարգավորեք Microsoft Access կապը"
 
 #. XaDDh
 #: dbaccess/inc/strings.hrc:364
 msgctxt "STR_PAGETITLE_LDAP"
 msgid "Set up LDAP connection"
-msgstr ""
+msgstr "Կարգավորեք LDAP կապը"
 
 #. WZtzU
 #: dbaccess/inc/strings.hrc:365
 msgctxt "STR_PAGETITLE_ADO"
 msgid "Set up ADO connection"
-msgstr ""
+msgstr "Կարգավորեք ADO կապը"
 
 #. n3HgX
 #: dbaccess/inc/strings.hrc:366
 msgctxt "STR_PAGETITLE_JDBC"
 msgid "Set up JDBC connection"
-msgstr ""
+msgstr "Կարգավորեք JDBC կապը"
 
 #. qiZT5
 #: dbaccess/inc/strings.hrc:367
 msgctxt "STR_PAGETITLE_ORACLE"
 msgid "Set up Oracle database connection"
-msgstr ""
+msgstr "Ստեղծեք Oracle տվյալների բազայի կապը"
 
 #. rdZFv
 #: dbaccess/inc/strings.hrc:368
 msgctxt "STR_PAGETITLE_MYSQL"
 msgid "Set up MySQL/MariaDB connection"
-msgstr ""
+msgstr "Կարգավորեք MySQL/MariaDB կապը"
 
 #. uJuNs
 #: dbaccess/inc/strings.hrc:369
 msgctxt "STR_PAGETITLE_ODBC"
 msgid "Set up ODBC connection"
-msgstr ""
+msgstr "Կարգավորեք ODBC կապը"
 
 #. ecB4x
 #: dbaccess/inc/strings.hrc:370
 msgctxt "STR_PAGETITLE_DOCUMENT_OR_SPREADSHEET"
 msgid "Set up Writer Document or Spreadsheet connection"
-msgstr ""
+msgstr "Ստեղծեք Writer փաստաթուղթ կամ Spreadsheet կապը"
 
 #. wUEMA
 #: dbaccess/inc/strings.hrc:371
 msgctxt "STR_PAGETITLE_AUTHENTIFICATION"
 msgid "Set up user authentication"
-msgstr ""
+msgstr "Կարգավորեք օգտվողի նույնականացումը"
 
 #. twW6d
 #: dbaccess/inc/strings.hrc:372
 msgctxt "STR_PAGETITLE_MYSQL_NATIVE"
 msgid "Set up MySQL/MariaDB server data"
-msgstr ""
+msgstr "Կարգավորեք MySQL/MariaDB սերվերի տվյալները"
 
 #. 6Fy7C
 #: dbaccess/inc/strings.hrc:373
 msgctxt "STR_PAGETITLE_FINAL"
 msgid "Save and proceed"
-msgstr ""
+msgstr "Պահպանեք և շարունակեք"
 
 #. LhDjK
 #: dbaccess/inc/strings.hrc:374
 msgctxt "STR_DATABASEDEFAULTNAME"
 msgid "New Database"
-msgstr ""
+msgstr "Նոր շտեմարան"
 
 #. f5EbK
 #: dbaccess/inc/strings.hrc:375
 msgctxt "STR_MYSQLJDBC_HEADERTEXT"
 msgid "Set up connection to a MySQL/MariaDB database using JDBC"
-msgstr ""
+msgstr "Ստեղծեք կապ MySQL/MariaDB տվյալների բազայի հետ՝ օգտագործելով JDBC"
 
 #. tqpeM
 #: dbaccess/inc/strings.hrc:376
@@ -2123,66 +2152,68 @@ msgid ""
 "Please enter the required information to connect to a MySQL/MariaDB database using JDBC. Note that a JDBC driver class must be installed on your system and registered with %PRODUCTNAME.\n"
 "Please contact your system administrator if you are unsure about the following settings."
 msgstr ""
+"Խնդրում ենք մուտքագրել անհրաժեշտ տեղեկատվությունը MySQL/MariaDB տվյալների բազային միանալու համար՝ օգտագործելով JDBC: Նկատի ունեցեք, որ JDBC վարորդների դասը պետք է տեղադրվի ձեր համակարգում և գրանցվի %PRODUCTNAME -ում:\n"
+"Խնդրում ենք կապվել ձեր համակարգի ադմինիստրատորի հետ, եթե վստահ չեք հետևյալ կարգավորումների վերաբերյալ:"
 
 #. Lrd3G
 #: dbaccess/inc/strings.hrc:377
 msgctxt "STR_MYSQL_DRIVERCLASSTEXT"
 msgid "MySQL/MariaDB JDBC d~river class:"
-msgstr ""
+msgstr "MySQL/MariaDB JDBC վ~արորդի դաս:"
 
 #. cBiSe
 #: dbaccess/inc/strings.hrc:378
 msgctxt "STR_MYSQL_DEFAULT"
 msgid "Default: 3306"
-msgstr ""
+msgstr "Լռելյայն: 3306"
 
 #. zDx7G
 #: dbaccess/inc/strings.hrc:379
 msgctxt "STR_DBASE_HEADERTEXT"
 msgid "Set up a connection to dBASE files"
-msgstr ""
+msgstr "Ստեղծեք կապ dBASE նիշքերի հետ"
 
 #. MXTEF
 #: dbaccess/inc/strings.hrc:380
 msgctxt "STR_DBASE_HELPTEXT"
 msgid "Select the folder where the dBASE files are stored."
-msgstr ""
+msgstr "Ընտրեք այն թղթապանակը, որտեղ պահվում են dBASE նիշքերը:"
 
 #. Ke4xP
 #: dbaccess/inc/strings.hrc:381
 msgctxt "STR_TEXT_HEADERTEXT"
 msgid "Set up a connection to text files"
-msgstr ""
+msgstr "Ստեղծեք կապ տեքստային նիշքերի հետ"
 
 #. uJFWa
 #: dbaccess/inc/strings.hrc:382
 msgctxt "STR_TEXT_HELPTEXT"
 msgid "Select the folder where the CSV (Comma Separated Values) text files are stored. %PRODUCTNAME Base will open these files in read-only mode."
-msgstr ""
+msgstr "Ընտրեք այն թղթապանակը, որտեղ պահվում են CSV (ստորակետերով բաժանված արժեքներ) տեքստային նիշքերը: %PRODUCTNAME Base -ը կբացի այս նիշքերը միայն-կարդալ ռեժիմում:"
 
 #. chkNh
 #: dbaccess/inc/strings.hrc:383
 msgctxt "STR_TEXT_PATH_OR_FILE"
 msgid "Path to text files"
-msgstr ""
+msgstr "Ուղի դեպի տեքստային նիշքեր"
 
 #. VXUEj
 #: dbaccess/inc/strings.hrc:384
 msgctxt "STR_MSACCESS_HEADERTEXT"
 msgid "Set up a connection to a Microsoft Access database"
-msgstr ""
+msgstr "Ստեղծեք կապ Microsoft Access տվյալների շտեմարանի հետ"
 
 #. rTF65
 #: dbaccess/inc/strings.hrc:385
 msgctxt "STR_MSACCESS_HELPTEXT"
 msgid "Please select the Microsoft Access file you want to access."
-msgstr ""
+msgstr "Խնդրում ենք ընտրել Microsoft Access նիշքը, որին ցանկանում եք մուտք ունենալ:"
 
 #. DYcM8
 #: dbaccess/inc/strings.hrc:386
 msgctxt "STR_ADO_HEADERTEXT"
 msgid "Set up a connection to an ADO database"
-msgstr ""
+msgstr "Ստեղծեք կապ ADO տվյալների շտեմարանի հետ"
 
 #. WzZiB
 #: dbaccess/inc/strings.hrc:387
@@ -2192,6 +2223,9 @@ msgid ""
 "Click 'Browse' to configure provider-specific settings.\n"
 "Please contact your system administrator if you are unsure about the following settings."
 msgstr ""
+"Խնդրում ենք մուտքագրել ADO տվյալների աղբյուրի URL-ը, որին ցանկանում եք միանալ:\n"
+"Սեղմեք «Թերթել»՝ մատակարարին հատուկ կարգավորումները կարգավորելու համար:\n"
+"Խնդրում ենք կապվել ձեր համակարգի ադմինիստրատորի հետ, եթե վստահ չեք հետևյալ կարգավորումների վերաբերյալ:"
 
 #. PRyfo
 #: dbaccess/inc/strings.hrc:388
@@ -2212,7 +2246,7 @@ msgstr ""
 #: dbaccess/inc/strings.hrc:390
 msgctxt "STR_JDBC_HEADERTEXT"
 msgid "Set up a connection to a JDBC database"
-msgstr ""
+msgstr "Ստեղծեք կապ JDBC տվյալների շտեմարանի հետ"
 
 #. dYGeU
 #: dbaccess/inc/strings.hrc:391
@@ -2221,24 +2255,26 @@ msgid ""
 "Please enter the required information to connect to a JDBC database.\n"
 "Please contact your system administrator if you are unsure about the following settings."
 msgstr ""
+"Խնդրում ենք մուտքագրել անհրաժեշտ տեղեկատվությունը JDBC տվյալների շտեմարանին միանալու համար:\n"
+"Խնդրում ենք կապվել ձեր համակարգի ադմինիստրատորի հետ, եթե վստահ չեք հետևյալ կարգավորումների վերաբերյալ:"
 
 #. DWgup
 #: dbaccess/inc/strings.hrc:392
 msgctxt "STR_ORACLE_HEADERTEXT"
 msgid "Set up a connection to an Oracle database"
-msgstr ""
+msgstr "Ստեղծեք կապ Oracle տվյալների շտեմարանի հետ"
 
 #. Z57ca
 #: dbaccess/inc/strings.hrc:393
 msgctxt "STR_ORACLE_DEFAULT"
 msgid "Default: 1521"
-msgstr ""
+msgstr "Լռելյայն: 1521"
 
 #. dnAP9
 #: dbaccess/inc/strings.hrc:394
 msgctxt "STR_ORACLE_DRIVERCLASSTEXT"
 msgid "Oracle JDBC ~driver class"
-msgstr ""
+msgstr "Oracle JDBC ~վարորդի դաս"
 
 #. aD8dK
 #: dbaccess/inc/strings.hrc:395
@@ -2247,12 +2283,14 @@ msgid ""
 "Please enter the required information to connect to an Oracle database. Note that a JDBC Driver Class must be installed on your system and registered with %PRODUCTNAME.\n"
 "Please contact your system administrator if you are unsure about the following settings."
 msgstr ""
+"Խնդրում ենք մուտքագրել անհրաժեշտ տեղեկատվությունը Oracle-ի տվյալների բազային միանալու համար: Նկատի ունեցեք, որ JDBC Driver Class-ը պետք է տեղադրվի ձեր համակարգում և գրանցվի %PRODUCTNAME -ում:\n"
+"Խնդրում ենք կապվել ձեր համակարգի ադմինիստրատորի հետ, եթե վստահ չեք հետևյալ կարգավորումների վերաբերյալ:"
 
 #. Vqjfj
 #: dbaccess/inc/strings.hrc:396
 msgctxt "STR_SPREADSHEET_HEADERTEXT"
 msgid "Set up a connection to spreadsheets"
-msgstr ""
+msgstr "Ստեղծեք կապ աղյուսակների հետ"
 
 #. FnpBr
 #: dbaccess/inc/strings.hrc:397
@@ -2261,276 +2299,278 @@ msgid ""
 "Click 'Browse...' to select a %PRODUCTNAME spreadsheet or Microsoft Excel workbook.\n"
 "%PRODUCTNAME will open this file in read-only mode."
 msgstr ""
+"Սեղմեք «Թերթել...»՝ %PRODUCTNAME աղյուսակ կամ Microsoft Excel աշխատանքային գիրք ընտրելու համար:\n"
+"%PRODUCTNAME -ը կբացի այս նիշքը միայն-կարդալ ռեժիմում:"
 
 #. fxmJG
 #: dbaccess/inc/strings.hrc:398
 msgctxt "STR_SPREADSHEETPATH"
 msgid "~Location and file name"
-msgstr ""
+msgstr "~Գտնվելու վայրը և նիշքի անվանումը"
 
 #. og5kg
 #: dbaccess/inc/strings.hrc:400
 msgctxt "STR_COMMAND_EXECUTED_SUCCESSFULLY"
 msgid "Command successfully executed."
-msgstr ""
+msgstr "Հրամանը հաջողությամբ կատարվեց:"
 
 #. BhFXv
 #: dbaccess/inc/strings.hrc:401
 msgctxt "STR_DIRECTSQL_CONNECTIONLOST"
 msgid "The connection to the database has been lost. This dialog will be closed."
-msgstr ""
+msgstr "Կապը տվյալների բազայի հետ կորել է: Այս երկխոսությունը կփակվի:"
 
 #. WTysM
 #: dbaccess/inc/strings.hrc:403
 msgctxt "STR_TAB_INDEX_SORTORDER"
 msgid "Sort order"
-msgstr ""
+msgstr "Տեսակավորման կարգ"
 
 #. 67TCR
 #: dbaccess/inc/strings.hrc:404
 msgctxt "STR_TAB_INDEX_FIELD"
 msgid "Index field"
-msgstr ""
+msgstr "Ցուցիչի դաշտ"
 
 #. rCZbG
 #: dbaccess/inc/strings.hrc:405
 msgctxt "STR_ORDER_ASCENDING"
 msgid "Ascending"
-msgstr ""
+msgstr "Ըստ աճման"
 
 #. zUeEN
 #: dbaccess/inc/strings.hrc:406
 msgctxt "STR_ORDER_DESCENDING"
 msgid "Descending"
-msgstr ""
+msgstr "Ըստ նվազման"
 
 #. DpB67
 #: dbaccess/inc/strings.hrc:407
 msgctxt "STR_CONFIRM_DROP_INDEX"
 msgid "Do you really want to delete the index '$name$'?"
-msgstr ""
+msgstr "Իսկապե՞ս ցանկանում եք ջնջել '$name$' ցուցիչը:"
 
 #. 3sTLe
 #: dbaccess/inc/strings.hrc:408
 msgctxt "STR_LOGICAL_INDEX_NAME"
 msgid "index"
-msgstr ""
+msgstr "ցուցիչ"
 
 #. HFaXn
 #: dbaccess/inc/strings.hrc:409
 msgctxt "STR_NEED_INDEX_FIELDS"
 msgid "The index must contain at least one field."
-msgstr ""
+msgstr "Ցուցիչը պետք է պարունակի առնվազն մեկ դաշտ:"
 
 #. LRDDD
 #: dbaccess/inc/strings.hrc:410
 msgctxt "STR_INDEX_NAME_ALREADY_USED"
 msgid "There is already another index named \"$name$\"."
-msgstr ""
+msgstr "Արդեն կա մեկ այլ ցուցիչ՝ \"$name$\"."
 
 #. 9C3mx
 #: dbaccess/inc/strings.hrc:411
 msgctxt "STR_INDEXDESIGN_DOUBLE_COLUMN_NAME"
 msgid "In an index definition, no table column may occur more than once. However, you have entered column \"$name$\" twice."
-msgstr ""
+msgstr "Ցուցիչի սահմանման մեջ աղյուսակի ոչ մի սյունակ չի կարող հայտնվել մեկից ավելի անգամ: Այնուամենայնիվ, դուք երկու անգամ մուտքագրել եք \"$name$\" սյունակը:"
 
 #. XANpc
 #: dbaccess/inc/strings.hrc:413
 msgctxt "STR_COULD_NOT_CONVERT_PARAM"
 msgid "The entry could not be converted to a valid value for the \"$name$\" parameter"
-msgstr ""
+msgstr "Մուտքի կետը չի կարող վերածվել \"$name$\" պարամետրի վավեր արժեքի"
 
 #. FCnE3
 #: dbaccess/inc/strings.hrc:415
 msgctxt "STR_EXCEPTION_STATUS"
 msgid "SQL Status"
-msgstr ""
+msgstr "SQL վիճակ"
 
 #. ha64T
 #: dbaccess/inc/strings.hrc:416
 msgctxt "STR_EXCEPTION_ERRORCODE"
 msgid "Error code"
-msgstr ""
+msgstr "Սխալի կոդ"
 
 #. 9A2cX
 #: dbaccess/inc/strings.hrc:417
 msgctxt "STR_EXPLAN_STRINGCONVERSION_ERROR"
 msgid "A frequent reason for this error is an inappropriate character set setting for the language of your database. Check the setting by choosing Edit - Database - Properties."
-msgstr ""
+msgstr "Այս սխալի հաճախակի պատճառը նիշերի անհամապատասխան կարգավորումն է տվյալների ձեր շտեմարանի լեզվի համար: Ստուգեք կարգավորումը՝ ընտրելով Խմբագրել - Տվյալների շտեմարան - Հատկություններ:"
 
 #. itnjJ
 #: dbaccess/inc/strings.hrc:418
 msgctxt "STR_EXCEPTION_ERROR"
 msgid "Error"
-msgstr ""
+msgstr "Սխալ"
 
 #. Q4A2Y
 #: dbaccess/inc/strings.hrc:419
 msgctxt "STR_EXCEPTION_WARNING"
 msgid "Warning"
-msgstr ""
+msgstr "Զգուշացում"
 
 #. LSBpE
 #: dbaccess/inc/strings.hrc:420
 msgctxt "STR_EXCEPTION_INFO"
 msgid "Information"
-msgstr ""
+msgstr "Տեղեկատվություն"
 
 #. DKRwR
 #: dbaccess/inc/strings.hrc:421
 msgctxt "STR_EXCEPTION_DETAILS"
 msgid "Details"
-msgstr ""
+msgstr "Մանրամասներ"
 
 #. Avmtu
 #: dbaccess/inc/strings.hrc:423
 msgctxt "STR_QUERY_USERADMIN_DELETE_USER"
 msgid "Do you really want to delete the user?"
-msgstr ""
+msgstr "Իսկապե՞ս ցանկանում եք ջնջել օգտատիրոջը:"
 
 #. yeKZF
 #: dbaccess/inc/strings.hrc:424
 msgctxt "STR_USERADMIN_NOT_AVAILABLE"
 msgid "The database does not support user administration."
-msgstr ""
+msgstr "Տվյալների բազան չի աջակցում օգտվողի կառավարումը:"
 
 #. 4CVtX
 #: dbaccess/inc/strings.hrc:425
 msgctxt "STR_ERROR_PASSWORDS_NOT_IDENTICAL"
 msgid "The passwords do not match. Please enter the password again."
-msgstr ""
+msgstr "Գաղտնաբառերը չեն համընկնում: Խնդրում ենք նորից մուտքագրել գաղտնաբառը:"
 
 #. iu64w
 #: dbaccess/inc/strings.hrc:427
 msgctxt "STR_JOIN_TYPE_HINT"
 msgid "Please note that some databases may not support this join type."
-msgstr ""
+msgstr "Խնդրում ենք նկատի ունենալ, որ որոշ տվյալների բազաներ կարող են չաջակցել միացման այս տեսակը:"
 
 #. Khmn9
 #: dbaccess/inc/strings.hrc:428
 msgctxt "STR_QUERY_INNER_JOIN"
 msgid "Includes only records for which the contents of the related fields of both tables are identical."
-msgstr ""
+msgstr "Ներառում է միայն գրառումները, որոնց համար երկու աղյուսակների հարակից դաշտերի բովանդակությունը նույնական է:"
 
 #. JUyyK
 #: dbaccess/inc/strings.hrc:429
 msgctxt "STR_QUERY_LEFTRIGHT_JOIN"
 msgid "Contains ALL records from table '%1' but only records from table '%2' where the values in the related fields are matching."
-msgstr ""
+msgstr "Պարունակում է '%1' աղյուսակի ԲՈԼՈՐ գրառումները, և միայն '%2' աղյուսակի այն գրառումները, որոնցում համապատասխան դաշտերի արժեքները համընկնում են:"
 
 #. EdhCU
 #: dbaccess/inc/strings.hrc:430
 msgctxt "STR_QUERY_FULL_JOIN"
 msgid "Contains ALL records from '%1' and from '%2'."
-msgstr ""
+msgstr "Պարունակում է ԲՈԼՈՐ գրառումները '%1' -ից և '%2' -ից:"
 
 #. c9PsZ
 #: dbaccess/inc/strings.hrc:431
 msgctxt "STR_QUERY_CROSS_JOIN"
 msgid "Contains the Cartesian product of ALL records from '%1' and from '%2'."
-msgstr ""
+msgstr "Պարունակում է %1' -ից և '%2' -ից ԲՈԼՈՐ գրառումների դեկարտյան արտադրյալը:"
 
 #. KyLuN
 #: dbaccess/inc/strings.hrc:433
 msgctxt "STR_CTW_NO_VIEWS_SUPPORT"
 msgid "The destination database does not support views."
-msgstr ""
+msgstr "Նպատակային տվյալների շտեմարանը չի աջակցում դիտումներիը:"
 
 #. RaJQd
 #: dbaccess/inc/strings.hrc:434
 msgctxt "STR_CTW_NO_PRIMARY_KEY_SUPPORT"
 msgid "The destination database does not support primary keys."
-msgstr ""
+msgstr "Նպատակային տվյալների շտեմարանը չի աջակցում հիմնական բանալիները:"
 
 #. JBBmY
 #: dbaccess/inc/strings.hrc:435
 msgctxt "STR_CTW_INVALID_DATA_ACCESS_DESCRIPTOR"
 msgid "no data access descriptor found, or no data access descriptor able to provide all necessary information"
-msgstr ""
+msgstr "տվյալների հասանելիության նկարագրիչ չի գտնվել, կամ չկա տվյալների հասանելիության նկարագրիչ, որը կարող է ապահովել բոլոր անհրաժեշտ տեղեկությունները"
 
 #. Z4JFe
 #: dbaccess/inc/strings.hrc:436
 msgctxt "STR_CTW_ONLY_TABLES_AND_QUERIES_SUPPORT"
 msgid "Only tables and queries are supported at the moment."
-msgstr ""
+msgstr "Այս պահին աջակցվում են միայն աղյուսակները և հարցումները:"
 
 #. KvUFb
 #: dbaccess/inc/strings.hrc:437
 msgctxt "STR_CTW_COPY_SOURCE_NEEDS_BOOKMARKS"
 msgid "The copy source's result set must support bookmarks."
-msgstr ""
+msgstr "Պատճենման աղբյուրի արդյունքների հավաքածուն պետք է աջակցի էջանիշներին:"
 
 #. XVb6E
 #: dbaccess/inc/strings.hrc:438
 msgctxt "STR_CTW_UNSUPPORTED_COLUMN_TYPE"
 msgid "Unsupported source column type ($type$) at column position $pos$."
-msgstr ""
+msgstr "Չաջակցվող աղբյուրի սյունակի տեսակը ($type$) սյունակի $pos$ դիրքում:"
 
 #. 7pnvE
 #: dbaccess/inc/strings.hrc:439
 msgctxt "STR_CTW_ILLEGAL_PARAMETER_COUNT"
 msgid "Illegal number of initialization parameters."
-msgstr ""
+msgstr "Նախնականացման պարամետրերի անօրինական քանակ:"
 
 #. z3h9J
 #: dbaccess/inc/strings.hrc:440
 msgctxt "STR_CTW_ERROR_DURING_INITIALIZATION"
 msgid "An error occurred during initialization."
-msgstr ""
+msgstr "Նախնականացման ժամանակ սխալ է տեղի ունեցել:"
 
 #. Qpda7
 #: dbaccess/inc/strings.hrc:441
 msgctxt "STR_CTW_ERROR_UNSUPPORTED_SETTING"
 msgid "Unsupported setting in the copy source descriptor: $name$."
-msgstr ""
+msgstr "Չաջակցվող կարգավորում պատճենման աղբյուրի նկարագրիչում՝ $name$:"
 
 #. BsP8j
 #: dbaccess/inc/strings.hrc:442
 msgctxt "STR_CTW_ERROR_NO_QUERY"
 msgid "To copy a query, your connection must be able to provide queries."
-msgstr ""
+msgstr "Հարցումը պատճենելու համար ձեր կապը պետք է կարողանա հարցումներ տրամադրել:"
 
 #. QYh2y
 #: dbaccess/inc/strings.hrc:443
 msgctxt "STR_CTW_ERROR_INVALID_INTERACTIONHANDLER"
 msgid "The given interaction handler is invalid."
-msgstr ""
+msgstr "Տրված փոխազդեցության մշակիչն անվավեր է:"
 
 #. ixrDD
 #: dbaccess/inc/strings.hrc:445
 msgctxt "STR_QUERY_REL_EDIT_RELATION"
 msgid "This relation already exists. Do you want to edit it or create a new one?"
-msgstr ""
+msgstr "Այս հարաբերությունն արդեն կա։ Ցանկանու՞մ եք խմբագրել այն, թե՞ ստեղծել նորը:"
 
 #. nFRsS
 #: dbaccess/inc/strings.hrc:446
 msgctxt "STR_QUERY_REL_EDIT"
 msgid "Edit..."
-msgstr ""
+msgstr "Խմբագրել..."
 
 #. yRkFG
 #: dbaccess/inc/strings.hrc:447
 msgctxt "STR_QUERY_REL_CREATE"
 msgid "Create..."
-msgstr ""
+msgstr "Ստեղծել..."
 
 #. VWBJF
 #: dbaccess/inc/strings.hrc:448
 msgctxt "STR_RELATIONDESIGN"
 msgid " - %PRODUCTNAME Base: Relation design"
-msgstr ""
+msgstr " - %PRODUCTNAME Base: Հարաբերությունների դիզայն"
 
 #. ZCd5X
 #: dbaccess/inc/strings.hrc:449
 msgctxt "STR_RELATIONDESIGN_NOT_AVAILABLE"
 msgid "The database does not support relations."
-msgstr ""
+msgstr "Տվյալների բազան չի ապահովում հարաբերություններ:"
 
 #. CG2Pd
 #: dbaccess/inc/strings.hrc:450
 msgctxt "STR_QUERY_REL_DELETE_WINDOW"
 msgid "When you delete this table all corresponding relations will be deleted as well. Continue?"
-msgstr ""
+msgstr "Երբ ջնջեք այս աղյուսակը, բոլոր համապատասխան հարաբերությունները նույնպես կջնջվեն: Շարունակե՞լ:"
 
 #. Wzf9T
 #: dbaccess/inc/strings.hrc:451
@@ -2539,462 +2579,464 @@ msgid ""
 "The database could not create the relation. Maybe foreign keys for this kind of table aren't supported.\n"
 "Please check your documentation of the database."
 msgstr ""
+"Տվյալների շտեմարանը չկարողացավ ստեղծել կապը: Հնարավոր է, որ այս տեսակի աղյուսակների համար օտարերկրյա բանալիները չեն աջակցվում:\n"
+"Խնդրում ենք ստուգել տվյալների շտեմարանի ձեր փաստաթղթերը:"
 
 #. Fsz7D
 #: dbaccess/inc/templwin.hrc:42
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Title"
-msgstr ""
+msgstr "Վերնագիր"
 
 #. zo57j
 #: dbaccess/inc/templwin.hrc:43
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "By"
-msgstr ""
+msgstr "Հեղինակ"
 
 #. Zh8Ni
 #: dbaccess/inc/templwin.hrc:44
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Date"
-msgstr ""
+msgstr "Ամսաթիվ"
 
 #. eHFA4
 #: dbaccess/inc/templwin.hrc:45
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Keywords"
-msgstr ""
+msgstr "Բանալի բառեր"
 
 #. eYGnQ
 #: dbaccess/inc/templwin.hrc:46
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Description"
-msgstr ""
+msgstr "Նկարագրություն"
 
 #. Eg2eG
 #: dbaccess/inc/templwin.hrc:47
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Type"
-msgstr ""
+msgstr "Տեսակ"
 
 #. hokZy
 #: dbaccess/inc/templwin.hrc:48
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Modified on"
-msgstr ""
+msgstr "Փոփոխվել է"
 
 #. XMEJb
 #: dbaccess/inc/templwin.hrc:49
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Modified by"
-msgstr ""
+msgstr "Փոփոխվել է"
 
 #. MWkd5
 #: dbaccess/inc/templwin.hrc:50
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Printed on"
-msgstr ""
+msgstr "Տպվել է"
 
 #. BBEEC
 #: dbaccess/inc/templwin.hrc:51
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Printed by"
-msgstr ""
+msgstr "Տպվել է"
 
 #. VCGe3
 #: dbaccess/inc/templwin.hrc:52
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Subject"
-msgstr ""
+msgstr "Խորագիր"
 
 #. HVYdE
 #: dbaccess/inc/templwin.hrc:53
 msgctxt "STRARY_SVT_DOCINFO"
 msgid "Size"
-msgstr ""
+msgstr "Չափ"
 
 #. 4KVZn
 #: dbaccess/uiconfig/ui/admindialog.ui:8
 msgctxt "admindialog|AdminDialog"
 msgid "Database Properties"
-msgstr ""
+msgstr "Շտեմարանի հատկություններ"
 
 #. k3TWc
 #: dbaccess/uiconfig/ui/admindialog.ui:139
 msgctxt "admindialog|advanced"
 msgid "Advanced Properties"
-msgstr ""
+msgstr "Ընդլայնված հատկություններ"
 
 #. 2CAoQ
 #: dbaccess/uiconfig/ui/advancedsettingsdialog.ui:8
 msgctxt "advancedsettingsdialog|AdvancedSettingsDialog"
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Ընդլայնված կարգավորումներ"
 
 #. UGSGn
 #: dbaccess/uiconfig/ui/advancedsettingsdialog.ui:139
 msgctxt "advancedsettingsdialog|generated"
 msgid "Generated Values"
-msgstr ""
+msgstr "Գեներացված արժեքներ"
 
 #. KunTv
 #: dbaccess/uiconfig/ui/advancedsettingsdialog.ui:186
 msgctxt "advancedsettingsdialog|special"
 msgid "Special Settings"
-msgstr ""
+msgstr "Հատուկ կարգավորումներ"
 
 #. CAaA9
 #: dbaccess/uiconfig/ui/applycolpage.ui:224
 msgctxt "applycolpage|label1"
 msgid "Existing Columns"
-msgstr ""
+msgstr "Առկա սյունակներ"
 
 #. 6FMF4
 #: dbaccess/uiconfig/ui/authentificationpage.ui:19
 msgctxt "authentificationpage|header"
 msgid "Set up the user authentication"
-msgstr ""
+msgstr "Կարգավորեք օգտվողի նույնականացումը"
 
 #. zJ8Zt
 #: dbaccess/uiconfig/ui/authentificationpage.ui:35
 msgctxt "authentificationpage|helptext"
 msgid "Some databases require you to enter a user name."
-msgstr ""
+msgstr "Տվյալների որոշ շտեմարաններ պահանջում են մուտքագրել օգտվողի անուն:"
 
 #. ZqSUv
 #: dbaccess/uiconfig/ui/authentificationpage.ui:60
 msgctxt "authentificationpage|generalUserNameLabel"
 msgid "_User name"
-msgstr ""
+msgstr "_Օգտվողի անուն"
 
 #. ZE2AC
 #: dbaccess/uiconfig/ui/authentificationpage.ui:84
 msgctxt "authentificationpage|passRequiredCheckbutton"
 msgid "Password re_quired"
-msgstr ""
+msgstr "Գաղտնաբառ է պա_հանջվում"
 
 #. zASUB
 #: dbaccess/uiconfig/ui/authentificationpage.ui:108
 msgctxt "authentificationpage|testConnectionButton"
 msgid "_Test Connection"
-msgstr ""
+msgstr "_Փորձարկման միացում"
 
 #. AKLpS
 #: dbaccess/uiconfig/ui/autocharsetpage.ui:32
 msgctxt "autocharsetpage|charsetlabel"
 msgid "_Character set:"
-msgstr ""
+msgstr "_Նիշերի բազմություն:"
 
 #. tgPJD
 #: dbaccess/uiconfig/ui/autocharsetpage.ui:60
 msgctxt "autocharsetpage|charsetheader"
 msgid "Data Conversion"
-msgstr ""
+msgstr "Տվյալների փոխակերպում"
 
 #. fw3s6
 #: dbaccess/uiconfig/ui/choosedatasourcedialog.ui:16
 msgctxt "choosedatasourcedialog|ChooseDataSourceDialog"
 msgid "Data Source"
-msgstr ""
+msgstr "Տվյալների աղբյուր"
 
 #. jctjv
 #: dbaccess/uiconfig/ui/choosedatasourcedialog.ui:81
 msgctxt "choosedatasourcedialog|organize"
 msgid "Or_ganize..."
-msgstr ""
+msgstr "Կազ_մակերպել..."
 
 #. auhD3
 #: dbaccess/uiconfig/ui/choosedatasourcedialog.ui:114
 msgctxt "choosedatasourcedialog|label1"
 msgid "Choose a data source:"
-msgstr ""
+msgstr "Ընտրեք տվյալների աղբյուրը."
 
 #. pqsFf
 #: dbaccess/uiconfig/ui/collectionviewdialog.ui:28
 msgctxt "collectionviewdialog|CollectionView"
 msgid "Save"
-msgstr ""
+msgstr "Պահել"
 
 #. dBcxN
 #: dbaccess/uiconfig/ui/collectionviewdialog.ui:49
 msgctxt "collectionviewdialog|ok"
 msgid "_Save"
-msgstr ""
+msgstr "_Պահել"
 
 #. mvCb2
 #: dbaccess/uiconfig/ui/collectionviewdialog.ui:138
 msgctxt "collectionviewdialog|newFolderButton|tooltip_text"
 msgid "Create New Directory"
-msgstr ""
+msgstr "Ստեղծեք նոր գրացուցակ"
 
 #. Bwm2H
 #: dbaccess/uiconfig/ui/collectionviewdialog.ui:154
 msgctxt "collectionviewdialog|upButton|tooltip_text"
 msgid "Up One Level"
-msgstr ""
+msgstr "Մեկ մակարդակի վերև"
 
 #. rSTnu
 #: dbaccess/uiconfig/ui/collectionviewdialog.ui:193
 msgctxt "collectionviewdialog|columntitle"
 msgid "Folder Name"
-msgstr ""
+msgstr "Թղթապանակի անունը"
 
 #. G5Eev
 #: dbaccess/uiconfig/ui/collectionviewdialog.ui:221
 msgctxt "collectionviewdialog|fileNameLabel"
 msgid "File _name:"
-msgstr ""
+msgstr "Նիշքի_անուն:"
 
 #. ZnGGB
 #: dbaccess/uiconfig/ui/colwidthdialog.ui:15
 msgctxt "colwidthdialog|ColWidthDialog"
 msgid "Column Width"
-msgstr ""
+msgstr "Սյունակի լայնությունը"
 
 #. AiEUA
 #: dbaccess/uiconfig/ui/colwidthdialog.ui:97
 msgctxt "colwidthdialog|label1"
 msgid "_Width:"
-msgstr ""
+msgstr "_Լայնություն:"
 
 #. j9AMh
 #: dbaccess/uiconfig/ui/colwidthdialog.ui:118
 msgctxt "colwidthdialog|extended_tip|value"
 msgid "Enter the column width that you want to use."
-msgstr ""
+msgstr "Մուտքագրեք սյունակի լայնությունը, որը ցանկանում եք օգտագործել:"
 
 #. LtAmr
 #: dbaccess/uiconfig/ui/colwidthdialog.ui:129
 msgctxt "colwidthdialog|automatic"
 msgid "_Automatic"
-msgstr ""
+msgstr "_Ինքնաշխատ"
 
 #. HWoLr
 #: dbaccess/uiconfig/ui/colwidthdialog.ui:137
 msgctxt "colwidthdialog|extended_tip|automatic"
 msgid "Automatically adjusts the column width based on the current font."
-msgstr ""
+msgstr "Ինքնաշխատ կերպով կարգավորում է սյունակի լայնությունը՝ հիմնվելով ընթացիկ տառատեսակի վրա:"
 
 #. enAfe
 #: dbaccess/uiconfig/ui/colwidthdialog.ui:168
 msgctxt "colwidthdialog|extended_tip|ColWidthDialog"
 msgid "Changes the width of the current column, or the selected columns."
-msgstr ""
+msgstr "Փոխում է ընթացիկ սյունակի կամ ընտրված սյունակների լայնությունը:"
 
 #. zBVS9
 #: dbaccess/uiconfig/ui/connectionpage.ui:37
 msgctxt "connectionpage|browseurllabel"
 msgid "Path to the dBASE files:"
-msgstr ""
+msgstr "Ուղի դեպի dBASE նիշքեր:"
 
 #. Xmumk
 #: dbaccess/uiconfig/ui/connectionpage.ui:48
 msgctxt "connectionpage|create"
 msgid "_Create New"
-msgstr ""
+msgstr "_Ստեղծեք նորը"
 
 #. zvUpu
 #: dbaccess/uiconfig/ui/connectionpage.ui:61
 msgctxt "connectionpage|browse"
 msgid "_Browse…"
-msgstr ""
+msgstr "_Թերթել…"
 
 #. PxXFZ
 #: dbaccess/uiconfig/ui/connectionpage.ui:111
 msgctxt "connectionpage|generalLabel"
 msgid "General"
-msgstr ""
+msgstr "Ընդհանուր"
 
 #. BvLEW
 #: dbaccess/uiconfig/ui/connectionpage.ui:147
 msgctxt "connectionpage|userNameLabel"
 msgid "_User name:"
-msgstr ""
+msgstr "_Օգտվողի անուն:"
 
 #. VM8W3
 #: dbaccess/uiconfig/ui/connectionpage.ui:171
 msgctxt "connectionpage|passCheckbutton"
 msgid "Password required"
-msgstr ""
+msgstr "Պահանջվում է գաղտնաբառ"
 
 #. rG2VU
 #: dbaccess/uiconfig/ui/connectionpage.ui:192
 msgctxt "connectionpage|userlabel"
 msgid "User Authentication"
-msgstr ""
+msgstr "Օգտագործողի նույնականացում"
 
 #. jtAGx
 #: dbaccess/uiconfig/ui/connectionpage.ui:226
 msgctxt "connectionpage|javaDriverLabel"
 msgid "_JDBC driver class:"
-msgstr ""
+msgstr "_JDBC վարորդի դաս:"
 
 #. iv6Vk
 #: dbaccess/uiconfig/ui/connectionpage.ui:252
 msgctxt "connectionpage|driverButton"
 msgid "Test Class"
-msgstr ""
+msgstr "Թեստի դաս"
 
 #. uzAzE
 #: dbaccess/uiconfig/ui/connectionpage.ui:269
 msgctxt "connectionpage|JDBCLabel"
 msgid "JDBC Properties"
-msgstr ""
+msgstr "JDBC հատկություններ"
 
 #. UgDTb
 #: dbaccess/uiconfig/ui/connectionpage.ui:284
 msgctxt "connectionpage|connectionButton"
 msgid "Test Connection"
-msgstr ""
+msgstr "Թեստային միացում"
 
 #. 4wjAh
 #: dbaccess/uiconfig/ui/copytablepage.ui:31
 msgctxt "copytablepage|defdata"
 msgid "De_finition and data"
-msgstr ""
+msgstr "Սա_հմանում և տվյալներ"
 
 #. SVMDA
 #: dbaccess/uiconfig/ui/copytablepage.ui:46
 msgctxt "copytablepage|def"
 msgid "Def_inition"
-msgstr ""
+msgstr "Սահ_մանում"
 
 #. MWhAZ
 #: dbaccess/uiconfig/ui/copytablepage.ui:61
 msgctxt "copytablepage|view"
 msgid "A_s table view"
-msgstr ""
+msgstr "Որ_պես աղյուսակային տեսք"
 
 #. rhvDJ
 #: dbaccess/uiconfig/ui/copytablepage.ui:76
 msgctxt "copytablepage|data"
 msgid "Append _data"
-msgstr ""
+msgstr "Հավելեք _տվյալներ"
 
 #. 8FEcc
 #: dbaccess/uiconfig/ui/copytablepage.ui:91
 msgctxt "copytablepage|firstline"
 msgid "Use first _line as column names"
-msgstr ""
+msgstr "Օգտագործեք առաջին_տողը որպես սյունակների անուններ"
 
 #. XdVmL
 #: dbaccess/uiconfig/ui/copytablepage.ui:105
 msgctxt "copytablepage|primarykey"
 msgid "Crea_te new field as primary key"
-msgstr ""
+msgstr "Ստեղ_ծեք նոր դաշտ՝ որպես հիմնական բանալի"
 
 #. 4NZf8
 #: dbaccess/uiconfig/ui/copytablepage.ui:129
 msgctxt "copytablepage|keynamelabel"
 msgid "Name:"
-msgstr ""
+msgstr "Անուն:"
 
 #. 4KFNk
 #: dbaccess/uiconfig/ui/copytablepage.ui:162
 msgctxt "copytablepage|infoLabel"
 msgid "Existing data fields can be set as primary key on the type formatting step (third page) of the wizard."
-msgstr ""
+msgstr "Գոյություն ունեցող տվյալների դաշտերը կարող են սահմանվել որպես հիմնական բանալի տիպի ձևաչափման քայլում (երրորդ էջ):"
 
 #. LqAEB
 #: dbaccess/uiconfig/ui/copytablepage.ui:179
 msgctxt "copytablepage|label1"
 msgid "Options"
-msgstr ""
+msgstr "Ընտրանքներ"
 
 #. gKEgD
 #: dbaccess/uiconfig/ui/copytablepage.ui:202
 msgctxt "copytablepage|label2"
 msgid "Ta_ble name:"
-msgstr ""
+msgstr "Աղ_յուսակի անուն:"
 
 #. PUvDR
 #: dbaccess/uiconfig/ui/dbaseindexdialog.ui:44
 msgctxt "dbaseindexdialog|DBaseIndexDialog"
 msgid "Indexes"
-msgstr ""
+msgstr "Ցուցիչներ"
 
 #. ThFEm
 #: dbaccess/uiconfig/ui/dbaseindexdialog.ui:130
 msgctxt "dbaseindexdialog|label1"
 msgid "_Table:"
-msgstr ""
+msgstr "_Աղյուսակ:"
 
 #. yKLwM
 #: dbaccess/uiconfig/ui/dbaseindexdialog.ui:184
 msgctxt "dbaseindexdialog|label3"
 msgid "T_able indexes"
-msgstr ""
+msgstr "Ա_ղյուսակի ցուցիչներ:"
 
 #. CeDzT
 #: dbaccess/uiconfig/ui/dbaseindexdialog.ui:198
 msgctxt "dbaseindexdialog|label4"
 msgid "_Free indexes"
-msgstr ""
+msgstr "_Ազատ ցուցիչներ"
 
 #. DqAFB
 #: dbaccess/uiconfig/ui/dbaseindexdialog.ui:366
 msgctxt "dbaseindexdialog|label2"
 msgid "Assignment"
-msgstr ""
+msgstr "Նշանակում"
 
 #. nLTCr
 #: dbaccess/uiconfig/ui/dbasepage.ui:32
 msgctxt "dbasepage|charsetlabel"
 msgid "_Character set:"
-msgstr ""
+msgstr "_Նիշերի բազմություն:"
 
 #. CT9hn
 #: dbaccess/uiconfig/ui/dbasepage.ui:60
 msgctxt "dbasepage|charsetheader"
 msgid "Data Conversion"
-msgstr ""
+msgstr "Տվյալների փոխակերպում"
 
 #. jH7nJ
 #: dbaccess/uiconfig/ui/dbasepage.ui:91
 msgctxt "dbasepage|showDelRowsCheckbutton"
 msgid "Display deleted records as well"
-msgstr ""
+msgstr "Ցուցադրել նաև ջնջված գրառումները"
 
 #. sD2dr
 #: dbaccess/uiconfig/ui/dbasepage.ui:108
 msgctxt "dbasepage|specMessageLabel"
 msgid "Note: When deleted, and thus inactive, records are displayed, you will not be able to delete records from the data source."
-msgstr ""
+msgstr "Նշում. Երբ ջնջված և, հետևաբար, ոչ ակտիվ գրառումները ցուցադրվում են, դուք չեք կարողանա ջնջել գրառումները տվյալների աղբյուրից:"
 
 #. fhzxC
 #: dbaccess/uiconfig/ui/dbasepage.ui:126
 msgctxt "dbasepage|label1"
 msgid "Optional Settings"
-msgstr ""
+msgstr "Ընտրովի Կարգավորումներ"
 
 #. sLxfs
 #: dbaccess/uiconfig/ui/dbasepage.ui:141
 msgctxt "dbasepage|indiciesButton"
 msgid "Indexes..."
-msgstr ""
+msgstr "Ցուցիչներ..."
 
 #. JTECg
 #: dbaccess/uiconfig/ui/dbwizconnectionpage.ui:34
 msgctxt "dbwizconnectionpage|helptext"
 msgid "label"
-msgstr ""
+msgstr "պիտակ"
 
 #. hDn8s
 #: dbaccess/uiconfig/ui/dbwizconnectionpage.ui:59
 msgctxt "dbwizconnectionpage|browseurllabel"
 msgid "Path to the dBASE files:"
-msgstr ""
+msgstr "Ուղի դեպի dBASE նիշքեր."
 
 #. AiYtB
 #: dbaccess/uiconfig/ui/dbwizconnectionpage.ui:70
 msgctxt "dbwizconnectionpage|create"
 msgid "_Create New"
-msgstr ""
+msgstr "_Ստեղծեք նորը"
 
 #. PDgBn
 #: dbaccess/uiconfig/ui/dbwizconnectionpage.ui:83
 msgctxt "dbwizconnectionpage|browse"
 msgid "_Browse…"
-msgstr ""
+msgstr "_Թերթել…"
 
 #. pXU9R
 #: dbaccess/uiconfig/ui/dbwizmysqlintropage.ui:32
@@ -3003,349 +3045,351 @@ msgid ""
 "You can connect to a MySQL database using either ODBC or JDBC.\n"
 "Please contact your system administrator if you are unsure about the following settings."
 msgstr ""
+"Դուք կարող եք միանալ MySQL տվյալների բազային՝ օգտագործելով ODBC կամ JDBC:\n"
+"Խնդրում ենք կապվել ձեր համակարգի ադմինիստրատորի հետ, եթե վստահ չեք հետևյալ կարգավորումների վերաբերյալ:"
 
 #. QSqAG
 #: dbaccess/uiconfig/ui/dbwizmysqlintropage.ui:61
 msgctxt "dbwizmysqlintropage|odbc"
 msgid "Connect using ODBC (Open Database Connectivity)"
-msgstr ""
+msgstr "Միացեք ODBC-ի միջոցով (Open Database Connectivity)"
 
 #. Ysd73
 #: dbaccess/uiconfig/ui/dbwizmysqlintropage.ui:77
 msgctxt "dbwizmysqlintropage|jdbc"
 msgid "Connect using JDBC (Java Database Connectivity)"
-msgstr ""
+msgstr "Միացեք JDBC-ի միջոցով (Java Database Connectivity)"
 
 #. 3haAx
 #: dbaccess/uiconfig/ui/dbwizmysqlintropage.ui:93
 msgctxt "dbwizmysqlintropage|directly"
 msgid "Connect directly (using MariaDB C connector)"
-msgstr ""
+msgstr "Միացեք ուղղակիորեն (օգտագործելով MariaDB C միակցիչ)"
 
 #. C9PFE
 #: dbaccess/uiconfig/ui/dbwizmysqlintropage.ui:112
 msgctxt "dbwizmysqlintropage|label1"
 msgid "How do you want to connect to your MySQL database?"
-msgstr ""
+msgstr "Ինչպե՞ս եք ցանկանում միանալ ձեր MySQL տվյալների բազային:"
 
 #. C9PGh
 #: dbaccess/uiconfig/ui/dbwizmysqlintropage.ui:128
 msgctxt "dbwizmysqlintropage|header"
 msgid "Set Up a Connection to a MySQL/MariaDB Database"
-msgstr ""
+msgstr "Ստեղծեք կապ MySQL/MariaDB տվյալների բազայի հետ"
 
 #. 3cSEi
 #: dbaccess/uiconfig/ui/dbwizmysqlnativepage.ui:35
 msgctxt "dbwizmysqlnativepage|helptext"
 msgid "Please enter the required information to connect to a MySQL/MariaDB database."
-msgstr ""
+msgstr "Խնդրում ենք մուտքագրել անհրաժեշտ տեղեկատվությունը MySQL/MariaDB տվյալների բազային միանալու համար:"
 
 #. 4uetU
 #: dbaccess/uiconfig/ui/dbwizmysqlnativepage.ui:70
 msgctxt "dbwizmysqlnativepage|header"
 msgid "Set Up a Connection to a MySQL/MariaDB Database"
-msgstr ""
+msgstr "Ստեղծեք կապ MySQL/MariaDB տվյալների բազայի հետ"
 
 #. AEty7
 #: dbaccess/uiconfig/ui/dbwizspreadsheetpage.ui:55
 msgctxt "dbwizspreadsheetpage|browse"
 msgid "Browse"
-msgstr ""
+msgstr "Թերթել"
 
 #. eEY69
 #: dbaccess/uiconfig/ui/dbwizspreadsheetpage.ui:67
 msgctxt "dbwizspreadsheetpage|create"
 msgid "Create New"
-msgstr ""
+msgstr "Ստեղծել նորը"
 
 #. iycse
 #: dbaccess/uiconfig/ui/dbwizspreadsheetpage.ui:130
 msgctxt "dbwizspreadsheetpage|passwordrequired"
 msgid "_Password required"
-msgstr ""
+msgstr "_Գաղտնաբառ է պահանջվում"
 
 #. TQ6pX
 #: dbaccess/uiconfig/ui/dbwiztextpage.ui:56
 msgctxt "dbwiztextpage|browse"
 msgid "Browse"
-msgstr ""
+msgstr "Թերթել"
 
 #. cFQNG
 #: dbaccess/uiconfig/ui/dbwiztextpage.ui:68
 msgctxt "dbwiztextpage|create"
 msgid "Create New"
-msgstr ""
+msgstr "Ստեղծել նորը"
 
 #. hKFLd
 #: dbaccess/uiconfig/ui/deleteallrowsdialog.ui:12
 msgctxt "deleteallrowsdialog|DeleteAllRowsDialog"
 msgid "You are trying to delete all the columns in the table. A table cannot exist without columns. Should the table be deleted from the database? If not, the table will remain unchanged."
-msgstr ""
+msgstr "Դուք փորձում եք ջնջել աղյուսակի բոլոր սյունակները: Աղյուսակը չի կարող գոյություն ունենալ առանց սյունակների: Արդյո՞ք աղյուսակը պետք է ջնջվի տվյալների բազայից: Եթե ոչ, ապա աղյուսակը կմնա անփոփոխ:"
 
 #. xXvq5
 #: dbaccess/uiconfig/ui/designsavemodifieddialog.ui:12
 msgctxt "designsavemodifieddialog|DesignSaveModifiedDialog"
 msgid "Do you want to save the changes?"
-msgstr ""
+msgstr "Ցանկանու՞մ եք պահպանել փոփոխությունները:"
 
 #. GVoxS
 #: dbaccess/uiconfig/ui/designsavemodifieddialog.ui:13
 msgctxt "designsavemodifieddialog|DesignSaveModifiedDialog"
 msgid "The relation design has been changed."
-msgstr ""
+msgstr "Հարաբերությունների դիզայնը փոխվել է."
 
 #. ebrWc
 #: dbaccess/uiconfig/ui/directsqldialog.ui:8
 msgctxt "directsqldialog|DirectSQLDialog"
 msgid "Execute SQL Statement"
-msgstr ""
+msgstr "Կատարել SQL հայտարարությունը"
 
 #. 8LX77
 #: dbaccess/uiconfig/ui/directsqldialog.ui:99
 msgctxt "directsqldialog|extended_tip|sql"
 msgid "Enter the SQL administration command that you want to run."
-msgstr ""
+msgstr "Մուտքագրեք SQL կառավարման հրամանը, որը ցանկանում եք գործարկել:"
 
 #. QCHBC
 #: dbaccess/uiconfig/ui/directsqldialog.ui:116
 msgctxt "directsqldialog|sql_label"
 msgid "_Command to execute:"
-msgstr ""
+msgstr "_Հրաման կատարելու համար:"
 
 #. KDRkq
 #: dbaccess/uiconfig/ui/directsqldialog.ui:134
 msgctxt "directsqldialog|directsql"
 msgid "Run SQL command _directly"
-msgstr ""
+msgstr "Կատարեք SQL հրամանը _ուղղակիորեն"
 
 #. dAffv
 #: dbaccess/uiconfig/ui/directsqldialog.ui:142
 msgctxt "directsqldialog|extended_tip|directsql"
 msgid "Execute the SQL command directly without escape processing."
-msgstr ""
+msgstr "Կատարեք SQL հրամանը ուղղակիորեն առանց escape մշակման:"
 
 #. gpXeL
 #: dbaccess/uiconfig/ui/directsqldialog.ui:154
 msgctxt "directsqldialog|showoutput"
 msgid "_Show output of \"select\" statements"
-msgstr ""
+msgstr "_Ցույց տալ «ընտրել» հայտարարությունների արդյունքը"
 
 #. YAWEY
 #: dbaccess/uiconfig/ui/directsqldialog.ui:162
 msgctxt "directsqldialog|extended_tip|showoutput"
 msgid "Show the result of the SQL SELECT command in the Output box."
-msgstr ""
+msgstr "Ցույց տալ SQL SELECT հրամանի արդյունքը Արդյունք վանդակում:"
 
 #. xJT2B
 #: dbaccess/uiconfig/ui/directsqldialog.ui:173
 msgctxt "directsqldialog|execute"
 msgid "_Execute"
-msgstr ""
+msgstr "_Կատարել"
 
 #. heWKD
 #: dbaccess/uiconfig/ui/directsqldialog.ui:198
 msgctxt "directsqldialog|extended_tip|sqlhistory"
 msgid "Lists the previously executed SQL commands. To run a command again, click the command, and then click Execute."
-msgstr ""
+msgstr "Ցուցակում է նախկինում կատարված SQL հրամանները: Հրամանը կրկին գործարկելու համար սեղմեք հրամանը, այնուհետև կտտացրեք Կատարել:"
 
 #. FoYMP
 #: dbaccess/uiconfig/ui/directsqldialog.ui:211
 msgctxt "directsqldialog|sqlhistory_label"
 msgid "_Previous commands:"
-msgstr ""
+msgstr "_Նախորդ հրամանները:"
 
 #. aqBRi
 #: dbaccess/uiconfig/ui/directsqldialog.ui:227
 msgctxt "directsqldialog|label1"
 msgid "SQL Command"
-msgstr ""
+msgstr "SQL հրաման"
 
 #. eDyEA
 #: dbaccess/uiconfig/ui/directsqldialog.ui:260
 msgctxt "directsqldialog|extended_tip|status"
 msgid "Displays the results, including errors, of the SQL command that you ran."
-msgstr ""
+msgstr "Ցուցադրում է ձեր կատարած SQL հրամանի արդյունքները, ներառյալ սխալները:"
 
 #. iUSnR
 #: dbaccess/uiconfig/ui/directsqldialog.ui:271
 msgctxt "directsqldialog|label2"
 msgid "Status"
-msgstr ""
+msgstr "Վիճակ"
 
 #. 25QR4
 #: dbaccess/uiconfig/ui/directsqldialog.ui:304
 msgctxt "directsqldialog|extended_tip|output"
 msgid "Displays the results of the SQL command that you ran."
-msgstr ""
+msgstr "Ցուցադրում է ձեր կատարած SQL հրամանի արդյունքները:"
 
 #. DYZA5
 #: dbaccess/uiconfig/ui/directsqldialog.ui:315
 msgctxt "directsqldialog|label3"
 msgid "Output"
-msgstr ""
+msgstr "Արդյունք"
 
 #. YiZrG
 #: dbaccess/uiconfig/ui/fielddescpage.ui:62
 msgctxt "fielddescpage|STR_TAB_FIELD_NAME"
 msgid "Field name"
-msgstr ""
+msgstr "Դաշտի անուն"
 
 #. jYgBz
 #: dbaccess/uiconfig/ui/fielddescpage.ui:88
 msgctxt "fielddescpage|STR_AUTOINCREMENT_VALUE"
 msgid "A_uto-increment statement"
-msgstr ""
+msgstr "Ի_նքնաշխատ ավելացման հայտարարություն"
 
 #. QXHDX
 #: dbaccess/uiconfig/ui/fielddescpage.ui:115
 msgctxt "fielddescpage|STR_DEFAULT_VALUE"
 msgid "_Default value"
-msgstr ""
+msgstr "_Լռելյայն արդյունք"
 
 #. niTFN
 #: dbaccess/uiconfig/ui/fielddescpage.ui:141
 msgctxt "fielddescpage|STR_DEFAULT_VALUE"
 msgid "Format example"
-msgstr ""
+msgstr "Ձևաչափի օրինակ"
 
 #. QMeHq
 #: dbaccess/uiconfig/ui/fielddescpage.ui:172
 msgctxt "fielddescpage|STR_BUTTON_FORMAT"
 msgid "_Format Field"
-msgstr ""
+msgstr "_Ձևաչափի դաշտ"
 
 #. Ff2B8
 #: dbaccess/uiconfig/ui/fielddescpage.ui:194
 #: dbaccess/uiconfig/ui/fielddescpage.ui:221
 msgctxt "fielddescpage|STR_LENGTH"
 msgid "_Length"
-msgstr ""
+msgstr "_Երկարություն"
 
 #. 5DRu2
 #: dbaccess/uiconfig/ui/fielddescpage.ui:248
 msgctxt "fielddescpage|STR_LENGTH"
 msgid "Decimal _places"
-msgstr ""
+msgstr "Տասնորդական _դիրքեր"
 
 #. oXywj
 #: dbaccess/uiconfig/ui/fielddescpage.ui:275
 msgctxt "fielddescpage|STR_FIELD_REQUIRED"
 msgid "_Entry required"
-msgstr ""
+msgstr "_Մուտքի կետը պարտադիր է"
 
 #. SWgjj
 #: dbaccess/uiconfig/ui/fielddescpage.ui:300
 msgctxt "fielddescpage|STR_FIELD_AUTOINCREMENT"
 msgid "_AutoValue"
-msgstr ""
+msgstr "_Ինքնարժեք"
 
 #. xNbpF
 #: dbaccess/uiconfig/ui/fielddescpage.ui:325
 msgctxt "fielddescpage|STR_FIELD_REQUIRED"
 msgid "_Default value"
-msgstr ""
+msgstr "_Լռելյայն արժեք"
 
 #. XYtyx
 #: dbaccess/uiconfig/ui/fielddescpage.ui:350
 msgctxt "fielddescpage|STR_NUMERIC_TYPE"
 msgid "_Type"
-msgstr ""
+msgstr "_Տեսակ"
 
 #. Uym6E
 #: dbaccess/uiconfig/ui/fielddescpage.ui:375
 msgctxt "fielddescpage|STR_TAB_FIELD_DATATYPE"
 msgid "Field _type"
-msgstr ""
+msgstr "Դաշտի _տեսակ"
 
 #. dUE3D
 #: dbaccess/uiconfig/ui/fielddescpanel.ui:46
 msgctxt "designhelpbox|textview-tooltip"
 msgid "Field Properties Help"
-msgstr ""
+msgstr "Դաշտի հատկությունների օգնություն"
 
 #. KUVUc
 #: dbaccess/uiconfig/ui/fielddialog.ui:9
 msgctxt "fielddialog|FieldDialog"
 msgid "Field Format"
-msgstr ""
+msgstr "Դաշտի ձևաչափ"
 
 #. WhGAL
 #: dbaccess/uiconfig/ui/fielddialog.ui:145
 msgctxt "fielddialog|format"
 msgid "Format"
-msgstr ""
+msgstr "Ձևաչափ"
 
 #. MvFHK
 #: dbaccess/uiconfig/ui/fielddialog.ui:192
 msgctxt "fielddialog|alignment"
 msgid "Alignment"
-msgstr ""
+msgstr "Հավասարեցում"
 
 #. M2WyU
 #: dbaccess/uiconfig/ui/fielddialog.ui:211
 msgctxt "fielddialog|alttitle"
 msgid "Table Format"
-msgstr ""
+msgstr "Աղյուսակի ձևաչափ"
 
 #. nTFUa
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:18
 msgctxt "finalpagewizard|headerText"
 msgid "Decide How to Proceed After Saving the Database"
-msgstr ""
+msgstr "Որոշեք, թե ինչպես վարվել տվյալների բազան պահպանելուց հետո"
 
 #. 8F6gE
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:46
 msgctxt "finalpagewizard|helpText"
 msgid "Do you want the wizard to register the database in %PRODUCTNAME?"
-msgstr ""
+msgstr "Ցանկանու՞մ եք, որ հրաշագործը գրանցի տվյալների բազան %PRODUCTNAME -ում:"
 
 #. KheM5
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:59
 msgctxt "finalpagewizard|yesregister"
 msgid "_Yes, register the database for me"
-msgstr ""
+msgstr "_Այո, ինձ համար գրանցիր տվյալների շտեմարանը"
 
 #. wLXis
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:75
 msgctxt "finalpagewizard|noregister"
 msgid "N_o, do not register the database"
-msgstr ""
+msgstr "Ո_չ, մի գրանցեք տվյալների շտեմարանը"
 
 #. 3AhL3
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:105
 msgctxt "finalpagewizard|additionalText"
 msgid "After the database file has been saved, what do you want to do?"
-msgstr ""
+msgstr "Տվյալների շտեմարանի նիշքը պահպանվելուց հետո ի՞նչ եք ուզում անել:"
 
 #. NCBKA
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:118
 msgctxt "finalpagewizard|openediting"
 msgid "Open the database for editing"
-msgstr ""
+msgstr "Բացեք տվյալների շտեմարանը խմբագրման համար"
 
 #. C8hgG
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:133
 msgctxt "finalpagewizard|usewizard"
 msgid "Create tables using the table wizard"
-msgstr ""
+msgstr "Ստեղծեք աղյուսակներ՝ օգտագործելով աղյուսակի հրաշագործը"
 
 #. JpPEA
 #: dbaccess/uiconfig/ui/finalpagewizard.ui:156
 msgctxt "finalpagewizard|finishText"
 msgid "Click 'Finish' to save the database."
-msgstr ""
+msgstr "Կտտացրեք «Ավարտել»՝ տվյալների շտեմարանը պահպանելու համար:"
 
 #. eUk5Q
 #: dbaccess/uiconfig/ui/generalpagedialog.ui:18
 msgctxt "generalpagedialog|datasourceTypePre"
 msgid "Select the type of database to which you want to establish a connection."
-msgstr ""
+msgstr "Ընտրեք տվյալների շտեմարանի տեսակը, որի հետ ցանկանում եք կապ հաստատել:"
 
 #. YBtFA
 #: dbaccess/uiconfig/ui/generalpagedialog.ui:34
 msgctxt "generalpagedialog|datasourceTypeLabel"
 msgid "Database _type:"
-msgstr ""
+msgstr "Շտեմարանի _տեսակ:"
 
 #. CBhUu
 #: dbaccess/uiconfig/ui/generalpagedialog.ui:62
@@ -3355,96 +3399,99 @@ msgid ""
 "\n"
 "The new settings you make will overwrite your existing settings."
 msgstr ""
+"Հետևյալ էջերում կարող եք կապի մանրամասն կարգավորումներ կատարել:\n"
+"\n"
+"Ձեր կատարած նոր կարգավորումները կվերագրեն ձեր առկա կարգավորումները:"
 
 #. bWHAD
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:23
 msgctxt "generalpagewizard|headerText"
 msgid "Welcome to the %PRODUCTNAME Database Wizard"
-msgstr ""
+msgstr "Բարի գալուստ %PRODUCTNAME տվյալների շտեմարանի հրաշագործ"
 
 #. DSNWP
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:40
 msgctxt "generalpagewizard|helpText"
 msgid "Use the Database Wizard to create a new database, open an existing database file, or connect to a database stored on a server."
-msgstr ""
+msgstr "Օգտագործեք Շտեմարանի Հրաշագործը տվյալների նոր շտեմարան ստեղծելու, տվյալների առկա շտեմարանի նիշքը բացելու կամ սերվերում պահվող տվյալների շտեմարանի հետ միանալու համար:"
 
 #. KxZny
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:55
 msgctxt "generalpagewizard|sourceTypeHeader"
 msgid "What do you want to do?"
-msgstr ""
+msgstr "Ի՞նչ եք ուզում անել:"
 
 #. M3vFA
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:66
 msgctxt "generalpagewizard|createDatabase"
 msgid "Create a n_ew database"
-msgstr ""
+msgstr "Ստեղծեք ն_որ շտեմարան"
 
 #. AxE5z
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:77
 msgctxt "generalpagewizard|extended_tip|createDatabase"
 msgid "Select to create a new database."
-msgstr ""
+msgstr "Ընտրեք՝ տվյալների նոր շտեմարան ստեղծելու համար:"
 
 #. BRSfR
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:96
 msgctxt "generalpagewizard|embeddeddbLabel"
 msgid "_Embedded database:"
-msgstr ""
+msgstr "_Ներկառուցված շտեմարան:"
 
 #. S2RBe
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:126
 msgctxt "generalpagewizard|openExistingDatabase"
 msgid "Open an existing database _file"
-msgstr ""
+msgstr "Բացեք գոյություն ունեցող շտեմարանի _նիշքը"
 
 #. qBi4U
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:136
 msgctxt "generalpagewizard|extended_tip|openExistingDatabase"
 msgid "Select to open a database file from a list of recently used files or from a file selection dialog."
-msgstr ""
+msgstr "Ընտրեք՝ տվյալների շտեմարանի նիշքը բացելու համար վերջերս օգտագործված նիշքերի ցանկից կամ նիշքի ընտրության երկխոսությունից:"
 
 #. dfae2
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:155
 msgctxt "generalpagewizard|docListLabel"
 msgid "_Recently used:"
-msgstr ""
+msgstr "_Վերջերս օգտագործված:"
 
 #. bxkCC
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:180
 msgctxt "generalpagewizard|extended_tip|docListBox"
 msgid "Select a database file to open from the list of recently used files. Click Finish to open the file immediately and to exit the wizard."
-msgstr ""
+msgstr "Ընտրեք տվյալների շտեմարանի նիշք, որը պետք է բացվի վերջերս օգտագործված նիշքերի ցանկից: Սեղմեք Ավարտ՝ նիշքն անմիջապես բացելու և հրաշագործից դուրս գալու համար:"
 
 #. dVAEy
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:191
 msgctxt "generalpagewizard|openDatabase"
 msgid "Open"
-msgstr ""
+msgstr "Բացել"
 
 #. 6A3Fu
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:202
 msgctxt "generalpagewizard|extended_tip|openDatabase"
 msgid "Opens a file selection dialog where you can select a database file. Click Open or OK in the file selection dialog to open the file immediately and to exit the wizard."
-msgstr ""
+msgstr "Բացում է նիշքի ընտրության երկխոսությունը, որտեղ կարող եք ընտրել տվյալների շտեմարանի նիշքը: Նիշքի ընտրության երկխոսության պատուհանում սեղմեք «Բացել» կամ «Լավ»՝ նիշքն անմիջապես բացելու և հրաշագործից դուրս գալու համար:"
 
 #. cKpTp
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:213
 msgctxt "generalpagewizard|connectDatabase"
 msgid "Connect to an e_xisting database"
-msgstr ""
+msgstr "Միացեք ա_ռկա տվյալների շտեմարան հետ"
 
 #. 8uBqf
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:223
 msgctxt "generalpagewizard|extended_tip|connectDatabase"
 msgid "Select to create a database document for an existing database connection."
-msgstr ""
+msgstr "Ընտրեք՝ տվյալների շտեմարանի փաստաթուղթ ստեղծելու նպատակով տվյալների առկա շտեմարանին միանալու համար:"
 
 #. CYq28
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:240
 msgctxt "generalpagewizard|extended_tip|datasourceType"
 msgid "Select the database type for the existing database connection."
-msgstr ""
+msgstr "Ընտրեք տվյալների շտեմարանի տեսակը տվյալների առկա շտեմարանին միացման համար:"
 
 #. emqeD
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:263
@@ -3453,516 +3500,518 @@ msgid ""
 "It is not possible to create a new database, because neither HSQLDB, nor Firebird is\n"
 "available in this setup."
 msgstr ""
+"Հնարավոր չէ ստեղծել տվյալների նոր շտեմարան, քանի որ ոչ HSQLDB-ն է, ոչ Firebird-ը\n"
+"հասանելի չեն այս կարգավորումում:"
 
 #. n2DxH
 #: dbaccess/uiconfig/ui/generalpagewizard.ui:273
 msgctxt "generalpagewizard|extended_tip|PageGeneral"
 msgid "The Database Wizard creates a database file that contains information about a database."
-msgstr ""
+msgstr "Շտեմարանի Հրաշագործը ստեղծում է տվյալների շտեմարանի նիշք, որը պարունակում է տվյալների շտեմարանի մասին տեղեկատվություն:"
 
 #. DQvKi
 #: dbaccess/uiconfig/ui/generalspecialjdbcdetailspage.ui:39
 msgctxt "generalspecialjdbcdetailspage|label2"
 msgid "_Host name:"
-msgstr ""
+msgstr "_Հոսթի անուն:"
 
 #. NmRqx
 #: dbaccess/uiconfig/ui/generalspecialjdbcdetailspage.ui:53
 msgctxt "generalspecialjdbcdetailspage|label3"
 msgid "_Port number:"
-msgstr ""
+msgstr "_Հանգույցի թիվը:"
 
 #. JjYBA
 #: dbaccess/uiconfig/ui/generalspecialjdbcdetailspage.ui:80
 msgctxt "generalspecialjdbcdetailspage|socketLabel"
 msgid "Socket:"
-msgstr ""
+msgstr "Կոթառ:"
 
 #. CYJEF
 #: dbaccess/uiconfig/ui/generalspecialjdbcdetailspage.ui:94
 msgctxt "generalspecialjdbcdetailspage|driverClassLabel"
 msgid "MySQL JDBC d_river class:"
-msgstr ""
+msgstr "MySQL JDBC վ_արորդի դաս:"
 
 #. QDQ3G
 #: dbaccess/uiconfig/ui/generalspecialjdbcdetailspage.ui:119
 msgctxt "generalspecialjdbcdetailspage|testDriverClassButton"
 msgid "Test Class"
-msgstr ""
+msgstr "Թեստի դաս"
 
 #. DNTGo
 #: dbaccess/uiconfig/ui/generalspecialjdbcdetailspage.ui:170
 msgctxt "generalspecialjdbcdetailspage|label1"
 msgid "Connection Settings"
-msgstr ""
+msgstr "Միացման կարգավորումներ"
 
 #. yPG6n
 #: dbaccess/uiconfig/ui/generalspecialjdbcdetailspage.ui:202
 msgctxt "generalspecialjdbcdetailspage|charsetlabel"
 msgid "_Character set:"
-msgstr ""
+msgstr "_Նիշերի բազմություն:"
 
 #. 3acBr
 #: dbaccess/uiconfig/ui/generalspecialjdbcdetailspage.ui:230
 msgctxt "generalspecialjdbcdetailspage|charsetheader"
 msgid "Data Conversion"
-msgstr ""
+msgstr "Տվյալների փոխակերպում"
 
 #. hLDiy
 #: dbaccess/uiconfig/ui/generatedvaluespage.ui:25
 msgctxt "generatedvaluespage|autoretrieve"
 msgid "Re_trieve generated values"
-msgstr ""
+msgstr "Վեր_ստանալ ստեղծված արժեքները"
 
 #. 3aTBK
 #: dbaccess/uiconfig/ui/generatedvaluespage.ui:56
 msgctxt "generatedvaluespage|statementft"
 msgid "_Auto-increment statement:"
-msgstr ""
+msgstr "_Ինքնա-աճման հայտարարություն:"
 
 #. o7FfB
 #: dbaccess/uiconfig/ui/generatedvaluespage.ui:97
 msgctxt "generatedvaluespage|queryft"
 msgid "_Query of generated values:"
-msgstr ""
+msgstr "_Ստեղծված արժեքների հարցում."
 
 #. oZ7DF
 #: dbaccess/uiconfig/ui/generatedvaluespage.ui:139
 msgctxt "generatedvaluespage|label1"
 msgid "Settings"
-msgstr ""
+msgstr "Կարգավորումներ"
 
 #. WKPaP
 #: dbaccess/uiconfig/ui/indexdesigndialog.ui:18
 msgctxt "indexdesigndialog|IndexDesignDialog"
 msgid "Indexes"
-msgstr ""
+msgstr "Ցուցիչներ"
 
 #. pYSUo
 #: dbaccess/uiconfig/ui/indexdesigndialog.ui:89
 msgctxt "indexdesigndialog|ID_INDEX_NEW"
 msgid "New Index"
-msgstr ""
+msgstr "նոր ցուցիչ"
 
 #. xvFrq
 #: dbaccess/uiconfig/ui/indexdesigndialog.ui:102
 msgctxt "indexdesigndialog|ID_INDEX_DROP"
 msgid "Delete Current Index"
-msgstr ""
+msgstr "Ջնջեք ընթացիկ ցուցիչը"
 
 #. bWECV
 #: dbaccess/uiconfig/ui/indexdesigndialog.ui:115
 msgctxt "indexdesigndialog|ID_INDEX_RENAME"
 msgid "Rename Current Index"
-msgstr ""
+msgstr "Վերանվանել ընթացիկ ցուցիչը"
 
 #. Bqozz
 #: dbaccess/uiconfig/ui/indexdesigndialog.ui:128
 msgctxt "indexdesigndialog|ID_INDEX_SAVE"
 msgid "Save Current Index"
-msgstr ""
+msgstr "Պահպանել ընթացիկ ցուցիչը"
 
 #. Dxbbx
 #: dbaccess/uiconfig/ui/indexdesigndialog.ui:141
 msgctxt "indexdesigndialog|ID_INDEX_RESET"
 msgid "Reset Current Index"
-msgstr ""
+msgstr "Վերականգնել ընթացիկ ցուցիչը"
 
 #. RqkCS
 #: dbaccess/uiconfig/ui/indexdesigndialog.ui:239
 msgctxt "indexdesigndialog|DESC_LABEL"
 msgid "Index identifier:"
-msgstr ""
+msgstr "Ցուցիչի նույնացուցիչ."
 
 #. 5gKPi
 #: dbaccess/uiconfig/ui/indexdesigndialog.ui:261
 msgctxt "indexdesigndialog|UNIQUE"
 msgid "_Unique"
-msgstr ""
+msgstr "_Եզակի"
 
 #. GDL3o
 #: dbaccess/uiconfig/ui/indexdesigndialog.ui:280
 msgctxt "indexdesigndialog|FIELDS_LABEL"
 msgid "Fields:"
-msgstr ""
+msgstr "Դաշտեր:"
 
 #. CzG9d
 #: dbaccess/uiconfig/ui/indexdesigndialog.ui:309
 msgctxt "indexdesigndialog|INDEX_DETAILS"
 msgid "Index Details"
-msgstr ""
+msgstr "Ցուցիչի մանրամասներ"
 
 #. XpEhE
 #: dbaccess/uiconfig/ui/jdbcconnectionpage.ui:19
 msgctxt "jdbcconnectionpage|header"
 msgid "Set Up a Connection to a JDBC Database"
-msgstr ""
+msgstr "Ստեղծեք կապ JDBC տվյալների շտեմարանի հետ"
 
 #. PYDNi
 #: dbaccess/uiconfig/ui/jdbcconnectionpage.ui:34
 msgctxt "jdbcconnectionpage|helptext"
 msgid "Please enter the required information to connect to a JDBC database. Please contact your system administrator if you are unsure about the following settings."
-msgstr ""
+msgstr "Խնդրում ենք մուտքագրել անհրաժեշտ տեղեկատվությունը JDBC տվյալների շտեմարանին միանալու համար: Խնդրում ենք կապվել ձեր համակարգի ադմինիստրատորի հետ, եթե վստահ չեք հետևյալ կարգավորումների վերաբերյալ:"
 
 #. E4598
 #: dbaccess/uiconfig/ui/jdbcconnectionpage.ui:58
 msgctxt "jdbcconnectionpage|browseurllabel"
 msgid "Path to the dBASE files:"
-msgstr ""
+msgstr "Ուղի դեպի dBASE նիշքեր:"
 
 #. WuCxz
 #: dbaccess/uiconfig/ui/jdbcconnectionpage.ui:69
 msgctxt "jdbcconnectionpage|create"
 msgid "_Create New"
-msgstr ""
+msgstr "_Ստեղծեք նորը"
 
 #. D3Tg7
 #: dbaccess/uiconfig/ui/jdbcconnectionpage.ui:82
 msgctxt "jdbcconnectionpage|browse"
 msgid "_Browse…"
-msgstr ""
+msgstr "_Թերթել…"
 
 #. DDHsx
 #: dbaccess/uiconfig/ui/jdbcconnectionpage.ui:147
 msgctxt "jdbcconnectionpage|jdbcLabel"
 msgid "JDBC d_river class:"
-msgstr ""
+msgstr "JDBC վ_արորդի դաս:"
 
 #. SfoBB
 #: dbaccess/uiconfig/ui/jdbcconnectionpage.ui:179
 msgctxt "jdbcconnectionpage|jdbcButton"
 msgid "_Test Class"
-msgstr ""
+msgstr "_Թեստի դաս"
 
 #. hNXMZ
 #: dbaccess/uiconfig/ui/joindialog.ui:8
 msgctxt "joindialog|JoinDialog"
 msgid "Join Properties"
-msgstr ""
+msgstr "Միանալ հատկություններին"
 
 #. YUCgu
 #: dbaccess/uiconfig/ui/joindialog.ui:131
 msgctxt "joindialog|label1"
 msgid "Tables Involved"
-msgstr ""
+msgstr "Ներառված աղյուսակներ"
 
 #. kbsrd
 #: dbaccess/uiconfig/ui/joindialog.ui:190
 msgctxt "joindialog|label2"
 msgid "Fields Involved"
-msgstr ""
+msgstr "Ներառված դաշտեր"
 
 #. C3Avj
 #: dbaccess/uiconfig/ui/joindialog.ui:222
 msgctxt "joindialog|label5"
 msgid "_Type:"
-msgstr ""
+msgstr "_Տեսակ:"
 
 #. RAXzW
 #: dbaccess/uiconfig/ui/joindialog.ui:238
 msgctxt "joindialog|liststore1"
 msgid "Inner join"
-msgstr ""
+msgstr "Ներքին միացում"
 
 #. ZEaHj
 #: dbaccess/uiconfig/ui/joindialog.ui:239
 msgctxt "joindialog|liststore1"
 msgid "Left join"
-msgstr ""
+msgstr "Ձախ միացում"
 
 #. y9EMH
 #: dbaccess/uiconfig/ui/joindialog.ui:240
 msgctxt "joindialog|liststore1"
 msgid "Right join"
-msgstr ""
+msgstr "Աջ միացում"
 
 #. G57Ed
 #: dbaccess/uiconfig/ui/joindialog.ui:241
 msgctxt "joindialog|liststore1"
 msgid "Full (outer) join"
-msgstr ""
+msgstr "Լրիվ (արտաքին) միացում"
 
 #. vwzCL
 #: dbaccess/uiconfig/ui/joindialog.ui:242
 msgctxt "joindialog|liststore1"
 msgid "Cross join"
-msgstr ""
+msgstr "Խաչաձև միացում"
 
 #. GTvPb
 #: dbaccess/uiconfig/ui/joindialog.ui:252
 msgctxt "joindialog|natural"
 msgid "Natural"
-msgstr ""
+msgstr "Բնական"
 
 #. UkuPe
 #: dbaccess/uiconfig/ui/joindialog.ui:273
 msgctxt "joindialog|label6"
 msgid "Options"
-msgstr ""
+msgstr "Ընտրանքներ"
 
 #. urRcL
 #: dbaccess/uiconfig/ui/jointablemenu.ui:12
 msgctxt "jointablemenu|delete"
 msgid "_Delete"
-msgstr ""
+msgstr "_Ջնջել"
 
 #. 2WDtr
 #: dbaccess/uiconfig/ui/joinviewmenu.ui:12
 msgctxt "joinviewmenu|delete"
 msgid "_Delete"
-msgstr ""
+msgstr "_Ջնջել"
 
 #. phaLD
 #: dbaccess/uiconfig/ui/joinviewmenu.ui:20
 msgctxt "joinviewmenu|edit"
 msgid "Edit..."
-msgstr ""
+msgstr "Խմբագրել..."
 
 #. KF2HS
 #: dbaccess/uiconfig/ui/keymenu.ui:12
 msgctxt "keymenu|primarykey"
 msgid "Primary Key"
-msgstr ""
+msgstr "Առաջնային բանալի"
 
 #. GNYro
 #: dbaccess/uiconfig/ui/ldapconnectionpage.ui:23
 msgctxt "ldapconnectionpage|header"
 msgid "Set Up a Connection to an LDAP Directory"
-msgstr ""
+msgstr "Ստեղծեք միացում LDAP գրացուցակին"
 
 #. jCxP3
 #: dbaccess/uiconfig/ui/ldapconnectionpage.ui:38
 msgctxt "ldapconnectionpage|helpLabel"
 msgid "Please enter the required information to connect to an LDAP directory. Please contact your system administrator if you are unsure about the following settings."
-msgstr ""
+msgstr "Խնդրում ենք մուտքագրել անհրաժեշտ տեղեկատվությունը LDAP գրացուցակին միանալու համար: Խնդրում ենք կապվել ձեր համակարգի ադմինիստրատորի հետ, եթե վստահ չեք հետևյալ կարգավորումների վերաբերյալ:"
 
 #. YCmvx
 #: dbaccess/uiconfig/ui/ldapconnectionpage.ui:63
 msgctxt "ldapconnectionpage|hostNameLabel"
 msgid "_Server:"
-msgstr ""
+msgstr "_Կայան:"
 
 #. Xp6uQ
 #: dbaccess/uiconfig/ui/ldapconnectionpage.ui:77
 msgctxt "ldapconnectionpage|portNumLabel"
 msgid "_Port number:"
-msgstr ""
+msgstr "_Հանգույցի թիվը:"
 
 #. Gcxv9
 #: dbaccess/uiconfig/ui/ldapconnectionpage.ui:125
 msgctxt "ldapconnectionpage|portNumDefLabel"
 msgid "Default: 389"
-msgstr ""
+msgstr "Լռելյայն: 389"
 
 #. zAZYs
 #: dbaccess/uiconfig/ui/ldapconnectionpage.ui:143
 msgctxt "ldapconnectionpage|baseDNLabel"
 msgid "Base _DN:"
-msgstr ""
+msgstr "Base _DN:"
 
 #. LXX9R
 #: dbaccess/uiconfig/ui/ldapconnectionpage.ui:175
 msgctxt "ldapconnectionpage|useSSLCheckbutton"
 msgid "Use _secure connection (TLS/SSL)"
-msgstr ""
+msgstr "Օգտագործեք _անվտանգ կապ (TLS/SSL)"
 
 #. UyMMA
 #: dbaccess/uiconfig/ui/ldappage.ui:44
 msgctxt "ldappage|label1"
 msgid "_Base DN:"
-msgstr ""
+msgstr "_Base DN:"
 
 #. iAAWx
 #: dbaccess/uiconfig/ui/ldappage.ui:69
 msgctxt "ldappage|useSSLCheckbutton"
 msgid "Use secure connection (TLS/SSL)"
-msgstr ""
+msgstr "Օգտագործեք անվտանգ կապ (TLS/SSL)"
 
 #. uYkAF
 #: dbaccess/uiconfig/ui/ldappage.ui:86
 msgctxt "ldappage|label2"
 msgid "_Port number:"
-msgstr ""
+msgstr "_Հանգույցի թիվը:"
 
 #. UMj7r
 #: dbaccess/uiconfig/ui/ldappage.ui:114
 msgctxt "ldappage|label3"
 msgid "Maximum number of _records:"
-msgstr ""
+msgstr "_Գրառումների առավելագույն քանակը."
 
 #. azHuR
 #: dbaccess/uiconfig/ui/ldappage.ui:144
 msgctxt "ldappage|charsetheader"
 msgid "Connection Settings"
-msgstr ""
+msgstr "Միացման կարգավորումներ"
 
 #. DJyKE
 #: dbaccess/uiconfig/ui/migrwarndlg.ui:7
 msgctxt "migrationwarndialog|MigrationWarnDialog"
 msgid "Confirm Migration"
-msgstr ""
+msgstr "Հաստատեք գաղթը"
 
 #. kFt2Q
 #: dbaccess/uiconfig/ui/migrwarndlg.ui:11
 msgctxt "migrationwarndialog|MigrationWarnDialog"
 msgid "The document contains embedded HSQL data, which is deprecated."
-msgstr ""
+msgstr "Փաստաթուղթը պարունակում է ներկառուցված HSQL տվյալներ, որոնք հնացած են:"
 
 #. EDMYj
 #: dbaccess/uiconfig/ui/migrwarndlg.ui:12
 msgctxt "migrationwarndialog|MigrationWarnDialog"
 msgid "Would you like to migrate to Firebird now?"
-msgstr ""
+msgstr "Կցանկանա՞ք հիմա տեղափոխվել Firebird:"
 
 #. emrEJ
 #: dbaccess/uiconfig/ui/migrwarndlg.ui:37
 msgctxt "migrationwarndialog|later"
 msgid "_Later"
-msgstr ""
+msgstr "_Ավելի ուշ"
 
 #. YEXMF
 #: dbaccess/uiconfig/ui/migrwarndlg.ui:61
 msgctxt "migrationwarndialog|link"
 msgid "Click for important information about migration."
-msgstr ""
+msgstr "Սեղմեք միգրացիայի մասին կարևոր տեղեկությունների համար:"
 
 #. TWFAB
 #: dbaccess/uiconfig/ui/mysqlnativepage.ui:39
 msgctxt "mysqlnativepage|connectionheader"
 msgid "Connection Settings"
-msgstr ""
+msgstr "Միացման կարգավորումներ"
 
 #. 2sdZK
 #: dbaccess/uiconfig/ui/mysqlnativepage.ui:75
 msgctxt "mysqlnativepage|usernamelabel"
 msgid "_User name:"
-msgstr ""
+msgstr "_Օգտանուն:"
 
 #. oz8Rm
 #: dbaccess/uiconfig/ui/mysqlnativepage.ui:100
 msgctxt "mysqlnativepage|passwordrequired"
 msgid "Password required"
-msgstr ""
+msgstr "Պահանջվում է գաղտնաբառ"
 
 #. DsZGv
 #: dbaccess/uiconfig/ui/mysqlnativepage.ui:121
 msgctxt "mysqlnativepage|userheader"
 msgid "User Authentication"
-msgstr ""
+msgstr "Օգտագործողի նույնականացում"
 
 #. 8SNx7
 #: dbaccess/uiconfig/ui/mysqlnativepage.ui:154
 msgctxt "mysqlnativepage|charsetlabel"
 msgid "_Character set:"
-msgstr ""
+msgstr "_Նիշերի բազմություն:"
 
 #. VP2sP
 #: dbaccess/uiconfig/ui/mysqlnativepage.ui:183
 msgctxt "mysqlnativepage|charsetheader"
 msgid "Data Conversion"
-msgstr ""
+msgstr "Տվյալների փոխակերպում"
 
 #. 2zNgz
 #: dbaccess/uiconfig/ui/mysqlnativesettings.ui:29
 msgctxt "mysqlnativesettings|dbnamelabel"
 msgid "_Database name:"
-msgstr ""
+msgstr "_Շտեմարանի անունը:"
 
 #. CKY7R
 #: dbaccess/uiconfig/ui/mysqlnativesettings.ui:70
 msgctxt "mysqlnativesettings|hostport"
 msgid "Se_rver/port"
-msgstr ""
+msgstr "Կա_յան/հանգույց"
 
 #. RVEr2
 #: dbaccess/uiconfig/ui/mysqlnativesettings.ui:96
 msgctxt "mysqlnativesettings|serverlabel"
 msgid "_Server:"
-msgstr ""
+msgstr "_Կայան:"
 
 #. DH5Eg
 #: dbaccess/uiconfig/ui/mysqlnativesettings.ui:110
 msgctxt "mysqlnativesettings|portlabel"
 msgid "_Port:"
-msgstr ""
+msgstr "_Հանգույց:"
 
 #. gFnmA
 #: dbaccess/uiconfig/ui/mysqlnativesettings.ui:139
 msgctxt "mysqlnativesettings|defaultport"
 msgid "Default: 3306"
-msgstr ""
+msgstr "Լռելյայն: 3306"
 
 #. MQVfg
 #: dbaccess/uiconfig/ui/mysqlnativesettings.ui:185
 msgctxt "mysqlnativesettings|socketlabel"
 msgid "So_cket:"
-msgstr ""
+msgstr "Կո_թառ:"
 
 #. 2qXzD
 #: dbaccess/uiconfig/ui/mysqlnativesettings.ui:228
 msgctxt "mysqlnativesettings|namedpipelabel"
 msgid "Named p_ipe:"
-msgstr ""
+msgstr "Անվանված խ_ողովակ."
 
 #. CzRyx
 #: dbaccess/uiconfig/ui/namematchingpage.ui:67
 msgctxt "namematchingpage|all"
 msgid "_All"
-msgstr ""
+msgstr "_Բոլորը"
 
 #. db6rw
 #: dbaccess/uiconfig/ui/namematchingpage.ui:81
 msgctxt "namematchingpage|none"
 msgid "Non_e"
-msgstr ""
+msgstr "Ոչ մեկ_ը"
 
 #. yScg2
 #: dbaccess/uiconfig/ui/namematchingpage.ui:113
 msgctxt "namematchingpage|leftlabel"
 msgid "Source table: "
-msgstr ""
+msgstr "Սկզբնական աղյուսակ: "
 
 #. SCMEA
 #: dbaccess/uiconfig/ui/namematchingpage.ui:200
 msgctxt "namematchingpage|rightlabel"
 msgid "Destination table: "
-msgstr ""
+msgstr "Նպատակային աղյուսակ: "
 
 #. GnhfA
 #: dbaccess/uiconfig/ui/odbcpage.ui:32
 msgctxt "odbcpage|charsetlabel"
 msgid "_Character set:"
-msgstr ""
+msgstr "_Նիշերի հավաքածու:"
 
 #. ebokD
 #: dbaccess/uiconfig/ui/odbcpage.ui:60
 msgctxt "odbcpage|charsetheader"
 msgid "Data Conversion"
-msgstr ""
+msgstr "Տվյալների փոխակերպում"
 
 #. doAQr
 #: dbaccess/uiconfig/ui/odbcpage.ui:99
 msgctxt "odbcpage|optionslabel"
 msgid "ODBC _options:"
-msgstr ""
+msgstr "ODBC _ընտրանքներ:"
 
 #. siTp3
 #: dbaccess/uiconfig/ui/odbcpage.ui:132
 msgctxt "odbcpage|useCatalogCheckbutton"
 msgid "Use catalog for file-based databases"
-msgstr ""
+msgstr "Օգտագործեք գրացուցակը նիշքերի վրա հիմնված տվյալների շտեմարանների համար"
 
 #. GMUZg
 #: dbaccess/uiconfig/ui/odbcpage.ui:151
 msgctxt "odbcpage|label1"
 msgid "Optional Settings"
-msgstr ""
+msgstr "Ընտրովի Կարգավորումներ"
 
 #. zjHDt
 #: dbaccess/uiconfig/ui/parametersdialog.ui:18
 msgctxt "parametersdialog|Parameters"
 msgid "Parameter Input"
-msgstr ""
+msgstr "Պարամետրի մուտքագրում"
 
 #. 64gyj
 #: dbaccess/uiconfig/ui/parametersdialog.ui:151
