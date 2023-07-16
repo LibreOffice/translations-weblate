@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-05-31 16:28+0200\n"
-"PO-Revision-Date: 2023-07-15 15:35+0000\n"
+"PO-Revision-Date: 2023-07-16 15:34+0000\n"
 "Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/it/>\n"
 "Language: it\n"
@@ -18279,7 +18279,7 @@ msgctxt ""
 "par_id3153260\n"
 "help.text"
 msgid "<emph>Reference</emph> is a reference, entered either directly or by specifying a range name. If the reference consists of multiple ranges, you must enclose the list of references or range names in parentheses, or either use the tilde (~) <link href=\"text/scalc/01/04060199.xhp#referenceoperators\">range concatenation operator</link> or define a named range with multiple areas."
-msgstr "<emph>Riferimento</emph> è un riferimento, inserito sia direttamente sia specificando il nome di un area. Se il riferimento è costituito da più aree, è necessario racchiudere l'elenco dei riferimenti, o i nomi delle aree, tra parentesi, oppure usare la tilde (~) <link href=\"text/scalc/01/04060199.xhp#referenceoperators\">operatore di concatenazione delle aree</link> o definire un area con nome contenente più aree."
+msgstr "<emph>Riferimento</emph> è un riferimento, inserito sia direttamente sia specificando il nome di un area. Se il riferimento è costituito da più intervalli, è necessario racchiudere l'elenco dei riferimenti, o i nomi delle aree, tra parentesi, oppure usare la tilde (~) come <link href=\"text/scalc/01/04060199.xhp#referenceoperators\">operatore di concatenazione degli intervalli</link> o definire un'area con nome contenente più intervalli."
 
 #. MKdnE
 #: 04060109.xhp
@@ -18289,7 +18289,7 @@ msgctxt ""
 "par_id3145302\n"
 "help.text"
 msgid "<emph>Row</emph> (optional) represents the row or the array of row indexes of the reference range, for which to return a value. In case of zero or omitted (no specific row) all referenced rows are returned."
-msgstr "<emph>Riga</emph> (opzionale) rappresenta l'indice della riga o la matrice degli indici delle righe dell'area di riferimento, dalla quale restituire un valore. Nel caso sia zero o omessa (nessuna riga specificata) vengono restituite tutte le righe del riferimento."
+msgstr "<emph>Riga</emph> (opzionale) rappresenta l'indice della riga o la matrice degli indici delle righe dell'intervallo di riferimento, dal quale restituire un valore. Nel caso sia zero o omessa (nessuna riga specificata) vengono restituite tutte le righe del riferimento."
 
 #. usFXV
 #: 04060109.xhp
@@ -18299,7 +18299,7 @@ msgctxt ""
 "par_id3154628\n"
 "help.text"
 msgid "<emph>Column</emph> (optional) represents the column or array of column indexes of the reference range, for which to return a value. In case of zero or omitted (no specific column) all referenced columns are returned."
-msgstr "<emph>Colonna</emph> (opzionale) rappresenta l'indice della colonna o la matrice degli indici delle colonne dell'area di riferimento, dalla quale restituire un valore. Nel caso sia zero o omessa (nessuna colonna specificata) vengono restituite tutte le colonne del riferimento."
+msgstr "<emph>Colonna</emph> (opzionale) rappresenta l'indice della colonna o la matrice degli indici delle colonne dell'intervallo di riferimento, dal quale restituire un valore. Nel caso sia zero o omessa (nessuna colonna specificata) vengono restituite tutte le colonne del riferimento."
 
 #. FBj7m
 #: 04060109.xhp
@@ -18389,12 +18389,13 @@ msgstr "<item type=\"input\">=INDICE(A1:B6;1;1)</item> restituisce il valore nel
 
 #. GQjbB
 #: 04060109.xhp
+#, fuzzy
 msgctxt ""
 "04060109.xhp\n"
 "par_id9960020\n"
 "help.text"
 msgid "<input>{=INDEX((A1:B6;C1:D6);0;0;2)}</input> returns the values of the second range C1:D6 of the multiple range. Enter the formula as an <link href=\"text/scalc/01/04060107.xhp\">array formula</link>."
-msgstr ""
+msgstr "<input>{=INDICE((A1:B6;C1:D6);0;0;2)}</input> restituisce i valori dal secondo intervallo C1:D6 di un'area multipla. Inserire la formula come <link href=\"text/scalc/01/04060107.xhp\">formula matriciale</link>."
 
 #. HSbEt
 #: 04060109.xhp
@@ -41888,30 +41889,33 @@ msgstr "Prende due riferimenti e restituisce un elenco di riferimenti, che è un
 
 #. FayxP
 #: 04060199.xhp
+#, fuzzy
 msgctxt ""
 "04060199.xhp\n"
 "par_id961672071835372\n"
 "help.text"
 msgid "<input>=COUNT(A1:B2~B2:C3)</input> counts values of A1:B2 and B2:C3. Note that the cell B2 is counted twice."
-msgstr ""
+msgstr "<input>=CONTA(A1:B2~B2:C3)</input> conta i valori in A1:B2 e B2:C3. Da notare che la cella B2 è contata due volte."
 
 #. EYFWA
 #: 04060199.xhp
+#, fuzzy
 msgctxt ""
 "04060199.xhp\n"
 "par_id401672243346224\n"
 "help.text"
 msgid "<input>=INDEX(A1:B2~C1:D2;2;1;2)</input> selects cell C2, that is, the first cell of the second row, first column, of the second range (C1:D2) of the range list."
-msgstr ""
+msgstr "<input>=INDICE(A1:B2~C1:D2;2;1;2)</input> seleziona la cella C2, che è la prima cella della seconda riga e la prima colonna del secondo intervallo (C1:D2) dell'elenco di intervalli."
 
 #. nVdpz
 #: 04060199.xhp
+#, fuzzy
 msgctxt ""
 "04060199.xhp\n"
 "par_id181890\n"
 "help.text"
 msgid "A reference list is not allowed inside an array expression."
-msgstr ""
+msgstr "Un elenco di riferimenti non è ammesso all'interno dell'espressione di una matrice."
 
 #. LfJJp
 #: 04070000.xhp
@@ -43445,12 +43449,13 @@ msgstr "<bookmark_value>Foglio di lavoro;nome</bookmark_value><bookmark_value>Mo
 
 #. 5DuVS
 #: 05050100.xhp
+#, fuzzy
 msgctxt ""
 "05050100.xhp\n"
 "hd_id3147336\n"
 "help.text"
 msgid "<variable id=\"rename_sheet\"><link href=\"text/scalc/01/05050100.xhp#renamesheet\">Rename Sheet</link></variable>"
-msgstr ""
+msgstr "<variable id=\"rename_sheet\"><link href=\"text/scalc/01/05050100.xhp#renamesheet\">Rinomina foglio</link></variable>"
 
 #. RDpzd
 #: 05050100.xhp
@@ -43508,39 +43513,43 @@ msgstr "Mostra foglio"
 
 #. SKiST
 #: 05050300.xhp
+#, fuzzy
 msgctxt ""
 "05050300.xhp\n"
 "bm_id3148946\n"
 "help.text"
 msgid "<bookmark_value>sheets; displaying</bookmark_value><bookmark_value>displaying; sheets</bookmark_value><bookmark_value>show; hidden sheets</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>fogli; visualizzazione</bookmark_value><bookmark_value>visualizzazione; fogli</bookmark_value><bookmark_value>mostrare; fogli nascosti</bookmark_value>"
 
 #. Js8Jr
 #: 05050300.xhp
+#, fuzzy
 msgctxt ""
 "05050300.xhp\n"
 "hd_id3148946\n"
 "help.text"
 msgid "<variable id=\"showsheet\"><link href=\"text/scalc/01/05050300.xhp\">Show Sheet</link></variable>"
-msgstr ""
+msgstr "<variable id=\"showsheet\"><link href=\"text/scalc/01/05050300.xhp\">Mostra foglio</link></variable>"
 
 #. ZMCPC
 #: 05050300.xhp
+#, fuzzy
 msgctxt ""
 "05050300.xhp\n"
 "par_id3148799\n"
 "help.text"
 msgid "<variable id=\"tabeintext\"><ahelp visibility=\"visible\" hid=\".uno:Show\">Displays sheets that were previously hidden with the <emph>Hide Sheets</emph> command.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"tabeintext\"><ahelp visibility=\"visible\" hid=\".uno:Show\">Visualizza i fogli che erano stati precedentemente nascosti con il comando <emph>Nascondi fogli</emph>.</ahelp></variable>"
 
 #. 7cfCr
 #: 05050300.xhp
+#, fuzzy
 msgctxt ""
 "05050300.xhp\n"
 "par_id261684779287732\n"
 "help.text"
 msgid "Select one sheet only to call the command. The current sheet is always selected. If a sheet other than the current sheet is selected, you can deselect it by pressing <switchinline select=\"sys\"> <caseinline select=\"MAC\"><keycode>Command</keycode></caseinline> <defaultinline><keycode>Ctrl</keycode></defaultinline> </switchinline> while clicking the corresponding sheet tab at the bottom of the window."
-msgstr ""
+msgstr "Selezionare solo un foglio per richiamare il comando. Il foglio attivo è sempre selezionato. Se è selezionato un altro foglio oltre a quello corrente, è possibile deselezionarlo premendo <switchinline select=\"sys\"> <caseinline select=\"MAC\"><keycode>Command</keycode></caseinline> <defaultinline><keycode>Ctrl</keycode></defaultinline> </switchinline> mentre si fa clic sull'etichetta della scheda corrispondente al foglio in fondo alla finestra."
 
 #. fbAv3
 #: 05050300.xhp
@@ -47603,12 +47612,13 @@ msgstr "<bookmark_value>Inserire righe;foglio protetto</bookmark_value><bookmark
 
 #. Yrjkt
 #: 06060100.xhp
+#, fuzzy
 msgctxt ""
 "06060100.xhp\n"
 "hd_id3153087\n"
 "help.text"
 msgid "<variable id=\"ProtectingSheeth1\"><link href=\"text/scalc/01/06060100.xhp\">Protect Sheet</link></variable>"
-msgstr ""
+msgstr "<variable id=\"ProtectingSheeth1\"><link href=\"text/scalc/01/06060100.xhp\">Proteggi foglio</link></variable>"
 
 #. LcpD8
 #: 06060100.xhp
@@ -53381,12 +53391,13 @@ msgstr "Mostra elenco di selezione"
 
 #. CMMBv
 #: 12120100.xhp
+#, fuzzy
 msgctxt ""
 "12120100.xhp\n"
 "par_idN1070D\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Shows a list of all valid strings or values to select from. The list can also be opened by selecting the cell and pressing <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Option+Down Arrow</keycode></caseinline><defaultinline><keycode>Alt+Down Arrow</keycode></defaultinline></switchinline>.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/validationcriteriapage/showlist\">Mostra un elenco di stringhe o valori validi da cui selezionare. L'elenco può essere aperto anche selezionando la cella e premendo <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Opzione+Freccia in giù</keycode></caseinline><defaultinline><keycode>Alt+Freccia in giù</keycode></defaultinline></switchinline>.</ahelp>"
 
 #. AuAaR
 #: 12120100.xhp
@@ -54929,39 +54940,43 @@ msgstr "Viene mostrata solo la barra dati. I valori sono nascosti."
 
 #. GXyQU
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "tit\n"
 "help.text"
 msgid "Default Number Formats"
-msgstr ""
+msgstr "Formati numerici predefiniti"
 
 #. 8ndNr
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id111674498160040\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\">Number Format</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\">Formato numero</link>"
 
 #. vtUUF
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id211674498160040\n"
 "help.text"
 msgid "Default number formats"
-msgstr ""
+msgstr "Formati numerici predefiniti"
 
 #. PddvV
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id3149182\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\">Number format: General</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\">Formato numero: generale</link>"
 
 #. Bdin6
 #: default_number_formats.xhp
@@ -54974,12 +54989,13 @@ msgstr "<ahelp hid=\".uno:NumberFormatStandard\" visibility=\"visible\">Applica 
 
 #. acBdB
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id3155922\n"
 "help.text"
 msgid "<image src=\"cmd/lc_numberformatstandard.svg\" id=\"img_id3156024\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156024\">Icon General Number Format</alt></image>"
-msgstr ""
+msgstr "<image src=\"cmd/lc_numberformatstandard.svg\" id=\"img_id3156024\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3156024\">Icona del formato numero generale</alt></image>"
 
 #. obVcY
 #: default_number_formats.xhp
@@ -54992,30 +55008,33 @@ msgstr "Formato numero: generale"
 
 #. E7GxE
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id381674560759637\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\">Number format: Number</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\">Formato numero: numero</link>"
 
 #. ASdou
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id741674560753997\n"
 "help.text"
 msgid "Applies the default decimal number format to the selected cells."
-msgstr ""
+msgstr "Applica il formato di numero decimale predefinito alle celle selezionate."
 
 #. hbYJM
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id901674564711935\n"
 "help.text"
 msgid "<image src=\"cmd/lc_numberformatdecimal.svg\" id=\"img_id841674564711937\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id191674564711938\">Icon Number format: Number</alt></image>"
-msgstr ""
+msgstr "<image src=\"cmd/lc_numberformatdecimal.svg\" id=\"img_id841674564711937\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id191674564711938\">Icona del formato numero: numero</alt></image>"
 
 #. 4JhDr
 #: default_number_formats.xhp
@@ -55028,12 +55047,13 @@ msgstr "Formato numero: numero"
 
 #. w2Sfo
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id3156329\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\">Number format: Percent</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\">Formato numero: percentuale</link>"
 
 #. CQAWE
 #: default_number_formats.xhp
@@ -55046,12 +55066,13 @@ msgstr "<ahelp hid=\".uno:NumberFormatPercent\">Applica il formato percentuale a
 
 #. WJkBh
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id3153968\n"
 "help.text"
 msgid "<image id=\"img_id3150869\" src=\"cmd/lc_numberformatpercent.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150869\">Icon Number Format: Percent</alt></image>"
-msgstr ""
+msgstr "<image id=\"img_id3150869\" src=\"cmd/lc_numberformatpercent.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3150869\">Icona del formato numero: percentuale</alt></image>"
 
 #. beHGN
 #: default_number_formats.xhp
@@ -55064,12 +55085,13 @@ msgstr "Formato numero: percentuale"
 
 #. P67mA
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id3152892\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\">Number format: Currency</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\">Formato numero: valuta</link>"
 
 #. 4gkvd
 #: default_number_formats.xhp
@@ -55082,12 +55104,13 @@ msgstr "<ahelp hid=\".uno:NumberFormatCurrency\" visibility=\"visible\">Applica 
 
 #. wNvKY
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id3155267\n"
 "help.text"
 msgid "<image src=\"cmd/lc_numberformatcurrency.svg\" id=\"img_id3159096\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3159096\">Currency Number Format Icon</alt></image>"
-msgstr ""
+msgstr "<image src=\"cmd/lc_numberformatcurrency.svg\" id=\"img_id3159096\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id3159096\">Icona del formato numero valuta</alt></image>"
 
 #. KG3Ea
 #: default_number_formats.xhp
@@ -55100,30 +55123,33 @@ msgstr "Formato numero: valuta"
 
 #. VmqXg
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_idN10843\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\">Number Format : Date</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\">Formato numero : data</link>"
 
 #. czUYu
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_idN10847\n"
 "help.text"
 msgid "Applies the default date format to the selected cells."
-msgstr ""
+msgstr "Applica il formato di data predefinito alle celle selezionate."
 
 #. LLviv
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id951674565406059\n"
 "help.text"
 msgid "<image src=\"cmd/lc_numberformatdate.svg\" id=\"img_id291674565406060\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id871674565406062\">Icon Number Format : Date</alt></image>"
-msgstr ""
+msgstr "<image src=\"cmd/lc_numberformatdate.svg\" id=\"img_id291674565406060\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id871674565406062\">Icona del formato numero : data</alt></image>"
 
 #. GBmzD
 #: default_number_formats.xhp
@@ -55136,30 +55162,33 @@ msgstr "Formato numero: data"
 
 #. Gx3sL
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id531674560537020\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\">Number Format: Time</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\">Formato numero: orario</link>"
 
 #. Py7SH
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id301674560577097\n"
 "help.text"
 msgid "Applies the default time format to the selected cells."
-msgstr ""
+msgstr "Applica il formato di orario predefinito alle celle selezionate."
 
 #. o3DWb
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id491674565650531\n"
 "help.text"
 msgid "<image src=\"cmd/lc_numberformattime.svg\" id=\"img_id461674565650532\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id231674565650533\">Icon Number Format: Time</alt></image>"
-msgstr ""
+msgstr "<image src=\"cmd/lc_numberformattime.svg\" id=\"img_id461674565650532\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id231674565650533\">Icona del formato numero: orario</alt></image>"
 
 #. nABBs
 #: default_number_formats.xhp
@@ -55172,39 +55201,43 @@ msgstr "Formato numero: orario"
 
 #. BcDfm
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_idN1085E\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\">Number Format: Scientific</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\">Formato numero: scientifico</link>"
 
 #. cFKyR
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_idN10862\n"
 "help.text"
 msgid "Applies the default scientific format to the selected cells."
-msgstr ""
+msgstr "Applica il formato scientifico predefinito alle celle selezionate."
 
 #. gCjsN
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id691674565759525\n"
 "help.text"
 msgid "<image src=\"cmd/lc_numberformatscientific.svg\" id=\"img_id411674565759526\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id351674565759527\">Icon Number Format: Scientific</alt></image>"
-msgstr ""
+msgstr "<image src=\"cmd/lc_numberformatscientific.svg\" id=\"img_id411674565759526\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id351674565759527\">Icona del formato numero: scientifico</alt></image>"
 
 #. 47V9G
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id221674565759529\n"
 "help.text"
 msgid "Number Format: Scientific"
-msgstr ""
+msgstr "Formato numero:scientifico"
 
 #. SFQkA
 #: default_number_formats.xhp
@@ -55280,12 +55313,13 @@ msgstr "Formato numero: aggiungi decimale"
 
 #. ZS2DP
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_id3154908\n"
 "help.text"
 msgid "<link href=\"text/shared/01/05020300.xhp\">Format - Cells - Numbers</link>."
-msgstr ""
+msgstr "<link href=\"text/shared/01/05020300.xhp\">Formato - Celle - Numeri</link>."
 
 #. CWEjJ
 #: duplicate_sheet.xhp
@@ -55298,39 +55332,43 @@ msgstr "Duplica foglio"
 
 #. SDA2b
 #: duplicate_sheet.xhp
+#, fuzzy
 msgctxt ""
 "duplicate_sheet.xhp\n"
 "bm_id781684770157606\n"
 "help.text"
 msgid "<bookmark_value>sheet;duplicate</bookmark_value><bookmark_value>duplicate;sheet</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>foglio;duplicazione</bookmark_value><bookmark_value>duplicazione;foglio</bookmark_value>"
 
 #. xAMZt
 #: duplicate_sheet.xhp
+#, fuzzy
 msgctxt ""
 "duplicate_sheet.xhp\n"
 "hd_id441684769648615\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/duplicate_sheet.xhp\">Duplicate Sheet</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/duplicate_sheet.xhp\">Duplica foglio</link></variable>"
 
 #. jotos
 #: duplicate_sheet.xhp
+#, fuzzy
 msgctxt ""
 "duplicate_sheet.xhp\n"
 "par_id211684769648616\n"
 "help.text"
 msgid "Duplicates the selected sheet assigning a new name."
-msgstr ""
+msgstr "Duplica il foglio selezionato assegnandogli un nuovo nome."
 
 #. 45xtZ
 #: duplicate_sheet.xhp
+#, fuzzy
 msgctxt ""
 "duplicate_sheet.xhp\n"
 "par_id871684769820620\n"
 "help.text"
 msgid "The duplicated sheet inherits the name of the source sheet followed by an underscore character (_) and a number. The new name is unique within the spreadsheet document."
-msgstr ""
+msgstr "Il foglio duplicato eredita il nome del foglio di origine seguito dal carattere di sottolineatura (_) e da un numero. Il nuovo nome è univoco all'interno del documento di foglio elettronico."
 
 #. CCCPS
 #: events_sheet.xhp
@@ -55343,39 +55381,43 @@ msgstr "Eventi del foglio"
 
 #. DGqMr
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "bm_id81685035133668\n"
 "help.text"
 msgid "<bookmark_value>sheet;events</bookmark_value>    <bookmark_value>events;sheet only</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>foglio;eventi</bookmark_value> <bookmark_value>eventi;foglio solamente</bookmark_value>"
 
 #. gkh4B
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "hd_id841685031890653\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/events_sheet.xhp\">Sheet Events</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/events_sheet.xhp\">Eventi del foglio</link></variable>"
 
 #. kB82Y
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id671685031890655\n"
 "help.text"
 msgid "%PRODUCTNAME Calc specific sheet events. You can assign a macro to each sheet event."
-msgstr ""
+msgstr "Eventi specifici dei fogli di %PRODUCTNAME Calc. È possibile assegnare una macro ad ogni evento del foglio."
 
 #. xEZBw
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id451685032666328\n"
 "help.text"
 msgid "The following table describes the events available in %PRODUCTNAME spreadsheets."
-msgstr ""
+msgstr "La tabella seguente descrive gli eventi disponibili nei fogli elettronici di %PRODUCTNAME."
 
 #. LLmiR
 #: events_sheet.xhp
@@ -55406,12 +55448,13 @@ msgstr "Attiva documento"
 
 #. EYWd4
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id51685032748194\n"
 "help.text"
 msgid "Worksheet has been activated (made visible)."
-msgstr ""
+msgstr "Il foglio di lavoro è stato attivato (reso visibile)."
 
 #. TbemK
 #: events_sheet.xhp
@@ -55424,12 +55467,13 @@ msgstr "Disattiva documento"
 
 #. xZDWU
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id121685032856321\n"
 "help.text"
 msgid "Worksheet has been deactivated (made not visible)."
-msgstr ""
+msgstr "Il foglio di lavoro è stato disattivato (reso non più visibile)."
 
 #. xvuTq
 #: events_sheet.xhp
@@ -55442,12 +55486,13 @@ msgstr "Selezione modificata"
 
 #. XNUSY
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id261685032920133\n"
 "help.text"
 msgid "Selection in sheet has been changed."
-msgstr ""
+msgstr "La selezione all'interno del foglio è stata modificata."
 
 #. pGRCd
 #: events_sheet.xhp
@@ -55460,12 +55505,13 @@ msgstr "Doppio clic"
 
 #. 2A7s4
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id281685032963485\n"
 "help.text"
 msgid "Double click in the sheet."
-msgstr ""
+msgstr "Doppio clic sul foglio."
 
 #. gcQ7R
 #: events_sheet.xhp
@@ -55478,12 +55524,13 @@ msgstr "Clic col destro"
 
 #. L9hW4
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id131685033010062\n"
 "help.text"
 msgid "Right click in the sheet."
-msgstr ""
+msgstr "Clic con il pulsante destro nel foglio."
 
 #. daRGZ
 #: events_sheet.xhp
@@ -55496,12 +55543,13 @@ msgstr "Formule calcolate"
 
 #. YSgbM
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id161685033039088\n"
 "help.text"
 msgid "Cells in sheet have been recalculated."
-msgstr ""
+msgstr "Le celle del foglio sono state ricalcolate."
 
 #. FpyAG
 #: events_sheet.xhp
@@ -55514,12 +55562,13 @@ msgstr "Contenuto modificato"
 
 #. 9MX6g
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id21685033082599\n"
 "help.text"
 msgid "Cells in sheet have been changed."
-msgstr ""
+msgstr "Le celle nel foglio sono state modificate."
 
 #. UiW5C
 #: ex_data_stat_func.xhp
@@ -56306,12 +56355,13 @@ msgstr "Usare questo comando per convertire le celle con formule in celle di dat
 
 #. 6LMA9
 #: ful_func.xhp
+#, fuzzy
 msgctxt ""
 "ful_func.xhp\n"
 "par_id631683055048736\n"
 "help.text"
 msgid "Microsoft Excel <link href=\"https://learn.microsoft.com/en-US/office/troubleshoot/excel/wrongly-assumes-1900-is-leap-year\">wrongly assumes year 1900 to be a leap year</link> and considers the inexistent day of 1900-02-29 as valid in date calculations. Dates prior to 1900-03-01 are therefore different in Excel and Calc."
-msgstr ""
+msgstr "Microsoft Excel <link href=\"https://learn.microsoft.com/en-US/office/troubleshoot/excel/wrongly-assumes-1900-is-leap-year\">presume erroneamente che l'anno 1900 fosse bisestile</link> e considera il giorno inesistente del 29/02/1900 come valido nei conteggi sulle date. Le date precedenti all'01/03/1900 sono quindi differenti in Excel e Calc."
 
 #. ebLBc
 #: ful_func.xhp
@@ -57017,12 +57067,13 @@ msgstr "#VALORE!"
 
 #. RCwmP
 #: func_aggregate.xhp
+#, fuzzy
 msgctxt ""
 "func_aggregate.xhp\n"
 "par_id230920152006414\n"
 "help.text"
 msgid "<item type=\"input\">=AGGREGATE(4;2;A2:A9)</item><br/>Returns maximum value for the range A2:A9 = 34."
-msgstr ""
+msgstr "<item type=\"input\">=AGGREGA(4;2;A2:A9)</item><br/>Restituisce il valore massimo nell'intervallo A2:A9 = 34."
 
 #. Tx8Vx
 #: func_aggregate.xhp
@@ -67205,12 +67256,13 @@ msgstr "Funzione STILE"
 
 #. rQpNt
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "bm_id346793467934121\n"
 "help.text"
 msgid "<bookmark_value>STYLE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>funzione STILE</bookmark_value>"
 
 #. 6AhEB
 #: func_style.xhp
@@ -67223,21 +67275,23 @@ msgstr "Funzione <variable id=\"func_style_header\"><link href=\"text/scalc/01/f
 
 #. y45sr
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id441673375101757\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_VORLAGE\"><variable id=\"func_style_desc\">Applies a style to the cell containing the formula.</variable></ahelp> After a set amount of time, another style can be applied."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_VORLAGE\"><variable id=\"func_style_desc\">Applica uno stile alla cella che contiene la formula.</variable></ahelp> Dopo un determinato periodo di tempo, può essere applicato un altro stile."
 
 #. GswPt
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id681673375365338\n"
 "help.text"
 msgid "This function always returns the numeric value 0, which allows to use it by adding the <emph>STYLE</emph> function to other functions in the same cell without changing its value."
-msgstr ""
+msgstr "Questa funzione restituisce sempre il valore numerico 0, che consente di essere usato aggiungendo la funzione <emph>STILE</emph> ad altre funzioni nella stessa cella senza modificarne il loro valore."
 
 #. m2FBk
 #: func_style.xhp
@@ -67250,30 +67304,33 @@ msgstr "STILE(\"Stile\" [; Tempo [; \"Stile2\"]])"
 
 #. NkFMi
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id31673375542211\n"
 "help.text"
 msgid "<emph>Style</emph> is the name of the cell style to be applied to the cell. Style names are not case-sensitive and must be entered in quotation marks."
-msgstr ""
+msgstr "<emph>Stile</emph> il nome dello stile di cella da applicare alla cella. I nomi degli stili non fanno distinzione tra minuscole e maiuscole e devono essere inseriti tra virgolette."
 
 #. 8E46w
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id161673375589532\n"
 "help.text"
 msgid "<emph>Time</emph> is an optional time range in seconds. After this time is elapsed, the style defined in <emph>Style2</emph> is applied. Leave this parameter blank if you do not want the style to be changed."
-msgstr ""
+msgstr "<emph>Tempo</emph> è un intervallo di tempo opzionale espresso in secondi. Una volta trascorso questo tempo, viene applicato lo stile definito in <emph>Stile2</emph>. Lasciare vuoto questo parametro se non si desidera che lo stile venga modificato."
 
 #. aFQCT
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id81673375703156\n"
 "help.text"
 msgid "<emph>Style2</emph> is the optional name of a cell style assigned to the cell after the time specified in the <emph>Time</emph> parameter has passed. If this parameter is missing the \"Default\" cell style is applied."
-msgstr ""
+msgstr "<emph>Stile2</emph> è il nome opzionale di uno stile di cella da assegnare alla cella una volta trascorso il tempo specificato nel parametro <emph>Tempo</emph>. Se questo parametro è mancante viene applicato lo stile di cella \"Predefinito\"."
 
 #. ryUMD
 #: func_style.xhp
@@ -67286,57 +67343,63 @@ msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #. U3hrJ
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id491673376748686\n"
 "help.text"
 msgid "<input>=10+STYLE(\"Good\",60,\"Neutral\")</input>"
-msgstr ""
+msgstr "<input>=10+STILE(\"Buono\",60,\"Neutro\")</input>"
 
 #. 8deaD
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id11673376842469\n"
 "help.text"
 msgid "Enters the value 10 into the cell and applies the style named \"Good\". After 60 seconds, the style \"Neutral\" is applied."
-msgstr ""
+msgstr "Inserisce il valore 10 nella cella ed applica lo stile \"Buono\". Trascorsi 60 secondi, viene applicato lo stile \"Neutro\"."
 
 #. UYv4h
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id271673376901358\n"
 "help.text"
 msgid "<input>=A1*A2+STYLE(IF(CURRENT()<100,\"Bad\",\"Good\"))</input>"
-msgstr ""
+msgstr "<input>=A1*A2+STILE(SE(ATTUALE()<100,\"Non buono\",\"Buono\"))</input>"
 
 #. Zt8eb
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id1001673377339392\n"
 "help.text"
 msgid "Enters the result of multiplying the values in cells A1 and A2 and applies the style \"Bad\" if the result is less than 100, otherwise the style \"Good\" is applied. Here the function <emph>CURRENT()</emph> is used to get the currently evaluated value of the function in the cell."
-msgstr ""
+msgstr "Inserisce il risultato della moltiplicazione dei valori delle celle A1 e A2 ed applica lo stile \"Non buono\" se il risultato è inferiore a 100, altrimenti viene applicato lo stile \"Buono\". In questo caso la funzione <emph>ATTUALE()</emph> è usata per ottenere la valutazione del valore corrente della funzione nella cella."
 
 #. nMoAR
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id761673377678426\n"
 "help.text"
 msgid "<input>=\"Total\"&T(STYLE(\"Result\"))</input>"
-msgstr ""
+msgstr "<input>=\"Totale\"&T(STILE(\"Risultato\"))</input>"
 
 #. hBUAA
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id871673377683120\n"
 "help.text"
 msgid "Enters the text \"Total\" into the cell and applies the style named \"Result\". Note that this example deals with textual values, hence the output of the <emph>STYLE</emph> function needs to be appended to the text using the & operator. The function <emph>T()</emph> is used to prevent the number \"0\" being appended to the resulting text."
-msgstr ""
+msgstr "Inserisce il testo \"Totale\" nella cella ed applica lo stile \"Risultato\". Da notare che questo esempio tratta valori testuali, perciò il risultato della funzione <emph>STILE</emph> necessita di essere concatenato al testo usando l'operatore &. La funzione <emph>T()</emph> è usate per evitare che il numero \"0\" venga concatenato al testo risultante."
 
 #. zzt3s
 #: func_style.xhp
@@ -67349,21 +67412,23 @@ msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Func
 
 #. rEQGK
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id631673379195650\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060109.xhp\">Spreadsheet Functions</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060109.xhp\">Funzioni Foglio elettronico</link>"
 
 #. VZ5Ga
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id151673379420755\n"
 "help.text"
 msgid "<link href=\"text/scalc/guide/cellstyle_by_formula.xhp\">Assigning Formats by Formula</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/guide/cellstyle_by_formula.xhp\">Assegnazione di formati mediante formule</link>"
 
 #. YADMA
 #: func_style.xhp
@@ -67376,12 +67441,13 @@ msgstr "<link href=\"text/scalc/01/04060104.xhp#func_current_description\">Funzi
 
 #. L6tnb
 #: func_style.xhp
+#, fuzzy
 msgctxt ""
 "func_style.xhp\n"
 "par_id381673378944042\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060110.xhp#t\">T function</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060110.xhp#t\">Funzione T</link>"
 
 #. mEZBk
 #: func_sum.xhp
@@ -68492,12 +68558,13 @@ msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/func_webservice.xhp\">Fun
 
 #. 9vyBF
 #: func_webservice.xhp
+#, fuzzy
 msgctxt ""
 "func_webservice.xhp\n"
 "par_id141677019419921\n"
 "help.text"
 msgid "These spreadsheet functions are used for inserting data from Universal Resource Identifiers (URI)."
-msgstr ""
+msgstr "Queste funzioni del foglio elettronico sono usate per inserire dei dati a partire da degli URI (Universal Resource Identifiers)."
 
 #. 8sQry
 #: func_webservice.xhp
@@ -70049,57 +70116,63 @@ msgstr "Nascondi foglio"
 
 #. UENNz
 #: hide_sheet.xhp
+#, fuzzy
 msgctxt ""
 "hide_sheet.xhp\n"
 "bm_id571684781225345\n"
 "help.text"
 msgid "<bookmark_value>sheet;hiding</bookmark_value><bookmark_value>hidden;sheet</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>foglio;nascondere</bookmark_value><bookmark_value>nascosto;foglio</bookmark_value>"
 
 #. 6aLW3
 #: hide_sheet.xhp
+#, fuzzy
 msgctxt ""
 "hide_sheet.xhp\n"
 "hd_id71684779805305\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/hide_sheet.xhp\">Hide Sheet</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/hide_sheet.xhp\">Nascondi foglio</link></variable>"
 
 #. 9Kftu
 #: hide_sheet.xhp
+#, fuzzy
 msgctxt ""
 "hide_sheet.xhp\n"
 "par_id911684779805308\n"
 "help.text"
 msgid "Hides the sheet."
-msgstr ""
+msgstr "Nasconde il foglio."
 
 #. CeubC
 #: hide_sheet.xhp
+#, fuzzy
 msgctxt ""
 "hide_sheet.xhp\n"
 "par_id531684935240299\n"
 "help.text"
 msgid "At least one sheet remains visible. You cannot hide all the sheets in the document."
-msgstr ""
+msgstr "Almeno un foglio deve rimanere visibile. Non è possibile nascondere tutti i fogli del documento."
 
 #. RnFZd
 #: hide_sheet.xhp
+#, fuzzy
 msgctxt ""
 "hide_sheet.xhp\n"
 "par_id651684780971395\n"
 "help.text"
 msgid "The sheet is not visible in the workspace but it is still in the document. All references to hidden sheet contents are valid."
-msgstr ""
+msgstr "Il foglio non è visibile nello spazio di lavoro, ma è ancora presente nel documento. Tutti i riferimenti al foglio nascosto sono validi."
 
 #. BZ2QV
 #: hide_sheet.xhp
+#, fuzzy
 msgctxt ""
 "hide_sheet.xhp\n"
 "par_id781684780979739\n"
 "help.text"
 msgid "The hidden sheet does not show in the sheet navigation bar on the bottom of the screen. However the hidden sheets are listed in the Navigator sidebar under <emph>Sheets</emph> category. Double clicking on a hidden sheet from the Navigator sidebar position the viewing on the first sheet visible on the right."
-msgstr ""
+msgstr "Il foglio nascosto non è visualizzato nella barra di navigazione dei fogli in basso nella videata. In ogni caso i fogli nascosti sono elencati nel Navigatore della barra laterale nella categoria <emph>Fogli</emph>. Un doppio clic su di un foglio nascosto nel Navigatore della barra laterale posiziona la visualizzazione sul primo foglio visibile alla sua destra."
 
 #. keAF3
 #: live_data_stream.xhp
@@ -70427,12 +70500,13 @@ msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/sheet_tab_color.xhp\">Col
 
 #. BEcBk
 #: sheet_tab_color.xhp
+#, fuzzy
 msgctxt ""
 "sheet_tab_color.xhp\n"
 "par_id05092009140203523\n"
 "help.text"
 msgid "Opens a color selector window where you can assign a color to the sheet tab."
-msgstr ""
+msgstr "Apre una finestra del selettore dei colori dalla quale è possibile assegnare un colore alla scheda del foglio."
 
 #. k7H5Y
 #: solver.xhp
@@ -73262,12 +73336,13 @@ msgstr "Riduci l'area di immissione al contenuto effettivo dei dati"
 
 #. ehNLW
 #: statistics_movingavg.xhp
+#, fuzzy
 msgctxt ""
 "statistics_movingavg.xhp\n"
 "par_id141681485134081\n"
 "help.text"
 msgid "Check this box to allow trimming of the input range to the actual data content before computing moving-average. Trimming data ignores unused or empty cells after the last non-empty cell in the input range, thus reducing the computing load of the moving average to the actual data. This checkbox is enabled by default."
-msgstr ""
+msgstr "Selezionare questa casella per permettere la rimozione dei dati vuoi nell'intervallo di input mantenendo il contenuto dai dati effettivi, prima di computare la media mobile. Con la rimozione dei dati vuoti vengono ignorate le celle vuote o non usate dopo l'ultima cella non vuota dell'intervallo, riducendo così il carico computazionale della media mobile ai soli dati effettivi. Questa casella di controllo è attiva per impostazione predefinita."
 
 #. eoQu3
 #: statistics_movingavg.xhp
@@ -74171,12 +74246,13 @@ msgstr "Valore critico di F a due code"
 
 #. 6CEU9
 #: statistics_test_t.xhp
+#, fuzzy
 msgctxt ""
 "statistics_test_t.xhp\n"
 "tit\n"
 "help.text"
 msgid "Paired t-test in Calc"
-msgstr ""
+msgstr "Test t accoppiato in Calc"
 
 #. cKb9k
 #: statistics_test_t.xhp
@@ -75044,174 +75120,193 @@ msgstr "Zoom"
 
 #. BFTKX
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "bm_id61678279382558\n"
 "help.text"
 msgid "<bookmark_value>Zoom;spreadsheet</bookmark_value>    <bookmark_value>Zoom in;spreadsheet</bookmark_value>    <bookmark_value>Zoom out;spreadsheet</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Zoom;foglio elettronico</bookmark_value>    <bookmark_value>Zoom avanti;foglio elettronico</bookmark_value>    <bookmark_value>Zoom indietro;foglio elettronico</bookmark_value>"
 
 #. FvoRD
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "hd_id301674151617149\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/zoom.xhp\">Zooming In and Out in Calc</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/zoom.xhp\">Fare zoom in avanti e indietro in Calc</link></variable>"
 
 #. DYtFG
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id841674151617153\n"
 "help.text"
 msgid "Zoom allows users to magnify and reduce the screen display. Multiple methods of zooming in and out are available in Calc."
-msgstr ""
+msgstr "Lo zoom permette agli utenti di ingrandire e ridurre la visualizzazione sullo schermo. In Calc sono disponibili diversi metodi per fare lo zoom in avanti e indietro."
 
 #. rwFVD
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id791678229927893\n"
 "help.text"
 msgid "Choose one of the following methods:"
-msgstr ""
+msgstr "Scegliere uno dei seguenti metodi:"
 
 #. eqb5j
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id91678230156720\n"
 "help.text"
 msgid "Choose menu <menuitem>View - Zoom</menuitem>, and select the magnification value in the submenu."
-msgstr ""
+msgstr "Scegliere menu <menuitem>Visualizza - Zoom</menuitem> e selezionare il valore di ingrandimento nel sotto-menu."
 
 #. M3VFu
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id421678230024566\n"
 "help.text"
 msgid "Click the plus (or minus) icon on the zoom slider in the status bar. The screen size increases (or decreases) by 10% with each click."
-msgstr ""
+msgstr "Fare clic sull'icona del segno più (o meno) del cursore dello zoom nella barra di stato. Le dimensioni sullo schermo aumentano (o diminuiscono) del 10% ad ogni clic."
 
 #. ZLGvd
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id511678230735657\n"
 "help.text"
 msgid "Drag the Zoom slider handle to adjust the magnification factor with the mouse."
-msgstr ""
+msgstr "Trascinare la maniglia del cursore dello zoom per regolare il fattore di ingrandimento con il mouse."
 
 #. GrFgu
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id461674152484428\n"
 "help.text"
 msgid "Press <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline> while rolling the mouse wheel."
-msgstr ""
+msgstr "Premere <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline> mentre si ruota la rotella del mouse."
 
 #. hnANA
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id71678262942683\n"
 "help.text"
 msgid "<image src=\"media/helpimg/scalc/calczoomslider.png\" id=\"img_id721678262942684\" width=\"282px\" height=\"40px\"><alt id=\"alt_id461678262942685\">Calc Zoom Slider</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/scalc/calczoomslider.png\" id=\"img_id721678262942684\" width=\"282px\" height=\"40px\"><alt id=\"alt_id461678262942685\">Cursore dello zoom in Calc</alt></image>"
 
 #. 3svKV
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id41678230455376\n"
 "help.text"
 msgid "20% is the minimum zoom factor. 400% is the maximum."
-msgstr ""
+msgstr "20% è il fattore minimo di zoom. 400% è il massimo."
 
 #. DpeBz
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "hd_id101678230496709\n"
 "help.text"
 msgid "Zooming with the Zoom slider"
-msgstr ""
+msgstr "Fare zoom usando l'apposito cursore"
 
 #. DzEnz
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id361678230881080\n"
 "help.text"
 msgid "In addition to the slider plus and minus icons, you can drag the slider handle to manually adjust the zoom factor."
-msgstr ""
+msgstr "In aggiunta alle icone con il segno più e meno a lato del cursore, è possibile trascinare la maniglia del cursore per regolare manualmente il fattore di zoom."
 
 #. CabnS
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id531678230887813\n"
 "help.text"
 msgid "Also, click anywhere on the slider to adjust the zoom factor."
-msgstr ""
+msgstr "Inoltre, un clic su qualunque punto del cursore regola il fattore di zoom."
 
 #. dWykD
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id841678230875046\n"
 "help.text"
 msgid "The center line on the zoom slider represents 100% zoom factor."
-msgstr ""
+msgstr "La linea al centro del cursore dello zoom rappresenta il fattore di zoom del 100%."
 
 #. GrGzC
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "hd_id631678233685940\n"
 "help.text"
 msgid "Access Zoom via the menu"
-msgstr ""
+msgstr "Accesso allo zoom tramite menu"
 
 #. MS7p5
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id501678233750773\n"
 "help.text"
 msgid "Choose menu <menuitem>View – Zoom</menuitem>. The predefined options are:"
-msgstr ""
+msgstr "Selezionare il menu <menuitem>Visualizza – Zoom</menuitem>. Le opzioni predefinite sono:"
 
 #. xCqjf
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id391678233854552\n"
 "help.text"
 msgid "<menuitem>Entire Page</menuitem>: resizes the display to fit the width and height of the page."
-msgstr ""
+msgstr "<menuitem>Pagina intera</menuitem>: ridimensiona la visualizzazione per adattarla alla larghezza ed altezza della pagina."
 
 #. k8CEL
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id31678233860361\n"
 "help.text"
 msgid "<menuitem>Page Width</menuitem>: resizes the display to fit the width of the page, limited to the minimum and maximum zoom factor. The top and bottom edges of the selection may not be visible."
-msgstr ""
+msgstr "<menuitem>Larghezza pagina</menuitem>: ridimensiona la visualizzazione per adattarla alla larghezza della pagina, con la limitazione al fattore minimo o massimo di zoom. Le parti superiori ed inferiori della selezione potrebbero non essere visibili."
 
 #. dG4GA
 #: zoom.xhp
+#, fuzzy
 msgctxt ""
 "zoom.xhp\n"
 "par_id681678233866236\n"
 "help.text"
 msgid "<menuitem>Optimal View</menuitem>: resizes the display to fit the width and height of the selected cells. The enlargement or reduction are limited to the minimum and maximum zoom factors. If only one cell is selected then it will zoom to 100%."
-msgstr ""
+msgstr "<menuitem>Vista ottimale</menuitem>: ridimensiona la visualizzazione per adattarla alla larghezza ed altezza delle celle selezionate. L'ingrandimento o la riduzione sono limitati al fattore minimo e massimo di zoom. Se è selezionata solamente una cella lo zoom sarà del 100%."
 
 #~ msgctxt ""
 #~ "02170000.xhp\n"
