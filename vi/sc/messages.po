@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-12-14 12:13+0100\n"
-"PO-Revision-Date: 2023-07-28 11:35+0000\n"
+"PO-Revision-Date: 2023-07-29 13:35+0000\n"
 "Last-Translator: Nguyễn Hoàng Minh <mingu03@yandex.com>\n"
 "Language-Team: Vietnamese <https://translations.documentfoundation.org/projects/libo_ui-7-4/scmessages/vi/>\n"
 "Language: vi\n"
@@ -889,7 +889,7 @@ msgstr ""
 #: sc/inc/globstr.hrc:154
 msgctxt "STR_DATAPILOT_SUBTOTAL"
 msgid "The source range contains subtotals which may distort the results. Use it anyway?"
-msgstr "Phạm vi nguồn chứa tổng phụ có thể bóp méo các kết quả. Vẫn sử dụng nó không?"
+msgstr "Phạm vi nguồn chứa tổng phụ có thể làm sai lệch các kết quả. Vẫn sử dụng nó không?"
 
 #. gX9QE
 #: sc/inc/globstr.hrc:155
@@ -3693,7 +3693,7 @@ msgstr "Xác định phạm vi các ô chứa tiêu chuẩn tìm kiếm."
 #: sc/inc/scfuncs.hrc:62
 msgctxt "SC_OPCODE_DB_AVERAGE"
 msgid "Returns the average value of all the cells of a data range whose contents match the search criteria."
-msgstr "Trả về giá trị trung bình của tất các ô của phạm vi dữ liệu nơi mà các nội dung phù hợp với điều kiện tìm kiếm."
+msgstr "Trả về giá trị trung bình của tất các ô của phạm vi dữ liệu mà các nội dung phù hợp với tiêu chí tìm kiếm."
 
 #. GnTLE
 #: sc/inc/scfuncs.hrc:63
@@ -5996,7 +5996,6 @@ msgstr "PV"
 
 #. zJDGh
 #: sc/inc/scfuncs.hrc:705
-#, fuzzy
 msgctxt "SC_OPCODE_PDURATION"
 msgid "The present value. The current value of the investment."
 msgstr "Giá trị hiện tại. Giá trị hiện thời của đầu tư."
@@ -6495,10 +6494,9 @@ msgstr "Giá trị lôgic "
 
 #. sX2H9
 #: sc/inc/scfuncs.hrc:913
-#, fuzzy
 msgctxt "SC_OPCODE_XOR"
 msgid "Logical value 1, logical value 2, ... are conditions to be tested and which return either TRUE or FALSE."
-msgstr "Giá trị hợp lý 1, giá trị hợp lý 2,... trong khoảng từ 1 đến 30 điều kiện cần thử tra và có thể trả về cả ĐÚNG hoặc SAI."
+msgstr "Giá trị logic 1, giá trị logic 2, ... là các điều kiện để kiểm tra và trả về ĐÚNG hoặc SAI."
 
 #. DrctE
 #: sc/inc/scfuncs.hrc:919
@@ -6514,10 +6512,9 @@ msgstr "Giá trị lôgic "
 
 #. f9SWZ
 #: sc/inc/scfuncs.hrc:921
-#, fuzzy
 msgctxt "SC_OPCODE_AND"
 msgid "Logical value 1, logical value 2;...are conditions to be tested and each returns either TRUE or FALSE."
-msgstr "Giá trị hợp lý 1, giá trị hợp lý 2,... trong khoảng từ 1 đến 30 điều kiện cần kiểm tra và từng giá trị trả về hoặc ĐÚNG hoặc SAI."
+msgstr "Giá trị logic 1, giá trị logic 2;...là các điều kiện để được kiểm tra và mỗi điều kiện trả về TRUE hoặc FALSE."
 
 #. EXiAr
 #: sc/inc/scfuncs.hrc:927
@@ -6605,10 +6602,9 @@ msgstr "Số "
 
 #. a5m6D
 #: sc/inc/scfuncs.hrc:961
-#, fuzzy
 msgctxt "SC_OPCODE_SUM"
 msgid "Number 1, number 2, ... are arguments whose total is to be calculated."
-msgstr "Số 1, số 2, ... trong khoảng từ 1 đến 30 đối số mà tổng số của nó được tính toán."
+msgstr "Số 1, số 2, ... là các đối số cần tính tổng."
 
 #. G3hS7
 #: sc/inc/scfuncs.hrc:967
@@ -6624,10 +6620,9 @@ msgstr "Số "
 
 #. RqFJB
 #: sc/inc/scfuncs.hrc:969
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_SQ"
 msgid "Number 1, number 2,... are arguments for which the sum of the squares is to be calculated."
-msgstr "Số 1, số 2,... trong khoảng từ 1 đến 30 đối số cho đó tổng số của các bình phương được tính."
+msgstr "Số 1, số 2,... là các đối số dùng để tính tổng các bình phương."
 
 #. CAYq3
 #: sc/inc/scfuncs.hrc:975
@@ -6643,14 +6638,12 @@ msgstr "Số "
 
 #. RffwE
 #: sc/inc/scfuncs.hrc:977
-#, fuzzy
 msgctxt "SC_OPCODE_PRODUCT"
 msgid "Number 1, number 2, ... are arguments to be multiplied and a result returned."
-msgstr "Số 1, số 2, ... trong khoảng từ 1 đến 30 đối số được nhân lên và một kết quả trả về."
+msgstr "Số 1, số 2, ... là các đối số cần nhân và trả về kết quả."
 
 #. FATwX
 #: sc/inc/scfuncs.hrc:983
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_IF"
 msgid "Totals the arguments that meet the condition."
 msgstr "Tính tổng các đối số mà thoả mãn điều kiện."
@@ -6665,39 +6658,37 @@ msgstr "Phạm vi"
 #: sc/inc/scfuncs.hrc:985
 msgctxt "SC_OPCODE_SUM_IF"
 msgid "The range to be evaluated by the criteria given."
-msgstr "Phạm vi được đánh giá bởi các tiêu chuẩn cho trước."
+msgstr "Phạm vi được đánh giá bởi các tiêu chí cho trước."
 
 #. miDfc
 #: sc/inc/scfuncs.hrc:986
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_IF"
 msgid "Criteria"
-msgstr "tiêu chuẩn"
+msgstr "Tiêu chí"
 
 #. GBGyP
 #: sc/inc/scfuncs.hrc:987
 msgctxt "SC_OPCODE_SUM_IF"
 msgid "The criteria to be applied to the range."
-msgstr ""
+msgstr "Các tiêu chí được áp dụng cho phạm vi."
 
 #. tj6UM
 #: sc/inc/scfuncs.hrc:988
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_IF"
 msgid "Sum range"
-msgstr "dãy_tổng"
+msgstr "Phạm vi tổng"
 
 #. TE6jW
 #: sc/inc/scfuncs.hrc:989
 msgctxt "SC_OPCODE_SUM_IF"
 msgid "The range from which the values are to be totalled."
-msgstr "Phạm vi từ đó các giá trị được tính tổng cộng."
+msgstr "Phạm vi mà các giá trị sẽ được tính tổng."
 
 #. 6CEv7
 #: sc/inc/scfuncs.hrc:995
 msgctxt "SC_OPCODE_AVERAGE_IF"
 msgid "Averages the arguments that meet the conditions."
-msgstr "Tính tổng các đối số mà thoả mãn điều kiện."
+msgstr "Tính trung bình các đối số đáp ứng các điều kiện."
 
 #. kkYzh
 #: sc/inc/scfuncs.hrc:996
@@ -6709,102 +6700,97 @@ msgstr "Phạm vi"
 #: sc/inc/scfuncs.hrc:997
 msgctxt "SC_OPCODE_AVERAGE_IF"
 msgid "The range to be evaluated by the criteria given."
-msgstr "Phạm vi được đánh giá bởi các tiêu chuẩn cho trước."
+msgstr "Phạm vi được đánh giá bởi các tiêu chí cho trước."
 
 #. aV2bj
 #: sc/inc/scfuncs.hrc:998
-#, fuzzy
 msgctxt "SC_OPCODE_AVERAGE_IF"
 msgid "Criteria"
-msgstr "tiêu chuẩn"
+msgstr "Tiêu chí"
 
 #. mHjDY
 #: sc/inc/scfuncs.hrc:999
 msgctxt "SC_OPCODE_AVERAGE_IF"
 msgid "The criteria to be applied to the range."
-msgstr ""
+msgstr "Các tiêu chí được áp dụng cho phạm vi."
 
 #. SisUL
 #: sc/inc/scfuncs.hrc:1000
 msgctxt "SC_OPCODE_AVERAGE_IF"
 msgid "Average range"
-msgstr ""
+msgstr "Phạm vi trung bình"
 
 #. dRAB6
 #: sc/inc/scfuncs.hrc:1001
 msgctxt "SC_OPCODE_AVERAGE_IF"
 msgid "The range from which the values are to be averaged."
-msgstr "Phạm vi từ đó các giá trị được tính tổng cộng."
+msgstr "Phạm vi mà các giá trị sẽ được tính trung bình."
 
 #. RqVYL
 #: sc/inc/scfuncs.hrc:1006
 msgctxt "SC_OPCODE_SUM_IFS"
 msgid "Totals the values of cells in a range that meet multiple criteria in multiple ranges."
-msgstr ""
+msgstr "Tổng giá trị của các ô trong một phạm vi đáp ứng nhiều tiêu chí trong nhiều phạm vi."
 
 #. 4M6MT
 #: sc/inc/scfuncs.hrc:1007
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_IFS"
 msgid "Sum range"
-msgstr "dãy_tổng"
+msgstr "Phạm vi tổng"
 
 #. qS2sr
 #: sc/inc/scfuncs.hrc:1008
 msgctxt "SC_OPCODE_SUM_IFS"
 msgid "The range from which the values are to be totalled."
-msgstr "Phạm vi từ đó các giá trị được tính tổng cộng."
+msgstr "Phạm vi mà các giá trị sẽ được tính tổng."
 
 #. wcHBn
 #: sc/inc/scfuncs.hrc:1009
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_IFS"
 msgid "Range "
-msgstr "Phạm vi"
+msgstr "Phạm vi "
 
 #. 9qDvh
 #: sc/inc/scfuncs.hrc:1010
 msgctxt "SC_OPCODE_SUM_IFS"
 msgid "Range 1, range 2,... are the ranges to be evaluated by the criteria given."
-msgstr ""
+msgstr "Phạm vi 1, phạm vi 2,.. là các phạm vi được đánh giá bởi các tiêu chí đã cho."
 
 #. YCewT
 #: sc/inc/scfuncs.hrc:1011
-#, fuzzy
 msgctxt "SC_OPCODE_SUM_IFS"
 msgid "Criteria "
-msgstr "tiêu chuẩn"
+msgstr "Tiêu chí "
 
 #. 4QoCb
 #: sc/inc/scfuncs.hrc:1012
 msgctxt "SC_OPCODE_SUM_IFS"
 msgid "Criteria 1, criteria 2,... are the criteria to be applied to the ranges given."
-msgstr ""
+msgstr "Tiêu chí 1, tiêu chí 2,... là các tiêu chí được áp dụng cho các phạm vi đã cho."
 
 #. AoDCe
 #: sc/inc/scfuncs.hrc:1018
 msgctxt "SC_OPCODE_AVERAGE_IFS"
 msgid "Averages the value of the cells that meet multiple criteria in multiple ranges."
-msgstr ""
+msgstr "Tính trung bình giá trị của các ô đáp ứng nhiều tiêu chí trong nhiều phạm vi."
 
 #. QERne
 #: sc/inc/scfuncs.hrc:1019
 msgctxt "SC_OPCODE_AVERAGE_IFS"
 msgid "Average range"
-msgstr ""
+msgstr "Phạm vi trung bình"
 
 #. o52rT
 #: sc/inc/scfuncs.hrc:1020
 msgctxt "SC_OPCODE_AVERAGE_IFS"
 msgid "The range from which the values are to be averaged."
-msgstr "Phạm vi từ đó các giá trị được tính tổng cộng."
+msgstr "Phạm vi mà các giá trị sẽ được tính trung bình."
 
 #. a99iD
 #: sc/inc/scfuncs.hrc:1021
-#, fuzzy
 msgctxt "SC_OPCODE_AVERAGE_IFS"
 msgid "Range "
-msgstr "Phạm vi"
+msgstr "Phạm vi "
 
 #. wvbDq
 #: sc/inc/scfuncs.hrc:1022
