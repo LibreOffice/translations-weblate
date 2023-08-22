@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2023-08-18 15:37+0000\n"
+"PO-Revision-Date: 2023-08-22 00:38+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_help-7-4/textsbasicshared03/pl/>\n"
 "Language: pl\n"
@@ -3895,7 +3895,7 @@ msgctxt ""
 "par_id551621623999947\n"
 "help.text"
 msgid "The code snippet below creates a <literal>Calc</literal> service instance that corresponds to the currently active Calc document."
-msgstr ""
+msgstr "Poniższy fragment kodu tworzy instancję usługi <literal>Calc</literal> odpowiadającą aktualnie aktywnemu dokumentowi Calc."
 
 #. gECrc
 #: sf_calc.xhp
@@ -3904,7 +3904,7 @@ msgctxt ""
 "par_id341621467500466\n"
 "help.text"
 msgid "Another way to create an instance of the <literal>Calc</literal> service is using the <literal>UI</literal> service. In the following example, a new Calc document is created and <literal>oDoc</literal> is a <literal>Calc</literal> service instance:"
-msgstr ""
+msgstr "Innym sposobem na utworzenie instancji usługi <literal>Calc</literal> jest użycie usługi <literal>UI</literal>. W poniższym przykładzie tworzony jest nowy dokument programu Calc, a <literal>oDoc</literal> jest instancją usługi <literal>Calc</literal>:"
 
 #. x6qdq
 #: sf_calc.xhp
@@ -3913,7 +3913,7 @@ msgctxt ""
 "par_id921621467621019\n"
 "help.text"
 msgid "Or using the <literal>OpenDocument</literal> method from the <literal>UI</literal> service:"
-msgstr ""
+msgstr "Lub używając metody <literal>OpenDocument</literal> z usługi <literal>UI</literal>:"
 
 #. MDxMC
 #: sf_calc.xhp
@@ -3931,7 +3931,7 @@ msgctxt ""
 "par_id271621467810774\n"
 "help.text"
 msgid "In the example above, \"MyFile.ods\" is the name of an open document window. If this argument is not provided, the active window is considered."
-msgstr ""
+msgstr "W powyższym przykładzie „MyFile.ods” to nazwa otwartego okna dokumentu. Jeśli ten argument nie zostanie podany, uwzględniane jest aktywne okno."
 
 #. gfpHw
 #: sf_calc.xhp
@@ -3940,7 +3940,7 @@ msgctxt ""
 "par_id71158288562139\n"
 "help.text"
 msgid "It is recommended to free resources after use:"
-msgstr ""
+msgstr "Zaleca się zwolnienie zasobów po użyciu:"
 
 #. 3EHn2
 #: sf_calc.xhp
@@ -3949,7 +3949,7 @@ msgctxt ""
 "par_id231611610666018\n"
 "help.text"
 msgid "However, if the document was closed using the <literal>CloseDocument</literal> method, it becomes unnecessary to free resources using the command described above."
-msgstr ""
+msgstr "Jeśli jednak dokument został zamknięty przy użyciu metody <literal>CloseDocument</literal>, zwalnianie zasobów za pomocą opisanej powyżej komendy staje się niepotrzebne."
 
 #. WqVjE
 #: sf_calc.xhp
@@ -3958,7 +3958,7 @@ msgctxt ""
 "par_id71611090922315\n"
 "help.text"
 msgid "The use of the prefix \"<literal>SFDocuments.</literal>\" while calling the service is optional."
-msgstr ""
+msgstr "Użycie prefiksu \"<literal>SFDocuments.</literal>\" podczas wywoływania usługi jest opcjonalne."
 
 #. Cpd5a
 #: sf_calc.xhp
@@ -3967,7 +3967,7 @@ msgctxt ""
 "hd_id991591016893982\n"
 "help.text"
 msgid "Definitions"
-msgstr ""
+msgstr "Definicje"
 
 #. 4gE5A
 #: sf_calc.xhp
@@ -3976,7 +3976,7 @@ msgctxt ""
 "par_id511591016999246\n"
 "help.text"
 msgid "Many methods require a \"<emph>Sheet</emph>\" or a \"<emph>Range</emph>\" as argument. Single cells are considered a special case of a <literal>Range</literal>."
-msgstr ""
+msgstr "Wiele metod wymaga argumentu \"<emph>Sheet</emph>\" lub \"<emph>Range</emph>\". Pojedyncze komórki są uważane za szczególny przypadek <literal>Range</literal>."
 
 #. kq2Br
 #: sf_calc.xhp
@@ -3985,7 +3985,7 @@ msgctxt ""
 "par_id511591019278671\n"
 "help.text"
 msgid "Both may be expressed either as a string or as a reference (= object) depending on the situation:"
-msgstr ""
+msgstr "Obie mogą być wyrażone jako ciąg znaków lub jako odniesienie (= obiekt) w zależności od sytuacji:"
 
 #. du8tS
 #: sf_calc.xhp
@@ -3994,7 +3994,7 @@ msgctxt ""
 "par_id571591019367284\n"
 "help.text"
 msgid "Within a <emph>specific</emph> <literal>Calc</literal> <emph>instance</emph>, sheets and ranges are given as strings such as \"Sheet1\" and \"D2:F6\"."
-msgstr ""
+msgstr "W <emph>konkretnej instancji</emph> usługi <literal>Calc</literal> arkusze i zakresy są określane jako ciągi znaków, na przykład \"Sheet1\" i \"D2:F6\"."
 
 #. HGR2H
 #: sf_calc.xhp
@@ -4003,7 +4003,7 @@ msgctxt ""
 "par_id121591019432157\n"
 "help.text"
 msgid "Additionally, the <literal>.Sheet</literal> and <literal>.Range</literal> properties return a reference that may be used as argument of a method called from <emph>another instance</emph> of the <literal>Calc</literal> service."
-msgstr ""
+msgstr "Dodatkowo właściwości <literal>.Sheet</literal> i <literal>.Range</literal> zwracają odniesienie, które można użyć jako argumentu metody wywołanej z <emph>innej instancji</emph> metody usługi <literal>Calc</literal>."
 
 #. AHSav
 #: sf_calc.xhp
@@ -4012,7 +4012,7 @@ msgctxt ""
 "par_id421591017227464\n"
 "help.text"
 msgid "The example below copies data from document A (opened as read-only and hidden) to document B."
-msgstr ""
+msgstr "Poniższy przykład kopiuje dane z dokumentu A (otwartego tylko do odczytu i ukrytego) do dokumentu B."
 
 #. iED65
 #: sf_calc.xhp
@@ -4021,7 +4021,7 @@ msgctxt ""
 "par_id341591020333849\n"
 "help.text"
 msgid "Either the sheet name as a <literal>string</literal> or an <literal>object</literal> produced by the <literal>.Sheet</literal> property."
-msgstr ""
+msgstr "Albo nazwa arkusza jako <literal>string</literal>, albo <literal>object</literal> utworzony przez właściwość <literal>.Sheet</literal>."
 
 #. GDuU3
 #: sf_calc.xhp
@@ -4030,7 +4030,7 @@ msgctxt ""
 "par_id651591020343023\n"
 "help.text"
 msgid "The shortcut \"~\" (tilde) represents the current sheet."
-msgstr ""
+msgstr "Skrót „~” (tylda) reprezentuje bieżący arkusz."
 
 #. nskFb
 #: sf_calc.xhp
@@ -4039,7 +4039,7 @@ msgctxt ""
 "par_id291591020728110\n"
 "help.text"
 msgid "Either a string designating a set of contiguous cells located in a sheet of the current instance or an <literal>object</literal> produced by the <literal>.Range</literal> property."
-msgstr ""
+msgstr "Ciąg określający zestaw ciągłych komórek znajdujących się w arkuszu bieżącej instancji lub <literal>object</literal> utworzony przez właściwość <literal>.Range</literal>."
 
 #. 6CySa
 #: sf_calc.xhp
@@ -4048,7 +4048,7 @@ msgctxt ""
 "par_id691591020711395\n"
 "help.text"
 msgid "The shortcut \"~\" (tilde) represents the current selection or the first selected range if multiple ranges are selected."
-msgstr ""
+msgstr "Skrót „~” (tylda) reprezentuje bieżący wybór lub pierwszy wybrany zakres, jeśli wybrano wiele zakresów."
 
 #. 7JEat
 #: sf_calc.xhp
@@ -4057,7 +4057,7 @@ msgctxt ""
 "par_id701592230700986\n"
 "help.text"
 msgid "The shortcut \"*\" represents all used cells."
-msgstr ""
+msgstr "Skrót „*” reprezentuje wszystkie używane komórki."
 
 #. C6fBT
 #: sf_calc.xhp
@@ -4066,7 +4066,7 @@ msgctxt ""
 "par_id641591021597701\n"
 "help.text"
 msgid "The sheet name is optional when defining a range. If no sheet name is provided, then the active sheet is used. Surrounding single quotes and $ signs are allowed but ignored."
-msgstr ""
+msgstr "Nazwa arkusza jest opcjonalna podczas definiowania zakresu. Jeśli nie podano nazwy arkusza, używany jest arkusz aktywny. Otaczające pojedyncze cudzysłowy i znaki $ są dozwolone, ale są ignorowane."
 
 #. ebNR5
 #: sf_calc.xhp
@@ -4075,7 +4075,7 @@ msgctxt ""
 "par_id231655754032310\n"
 "help.text"
 msgid "When specifying a <literal>SheetName</literal> as a string, the use of single quotes to enclose the sheet name are required if the name contains blank spaces \" \" or periods \".\"."
-msgstr ""
+msgstr "Podczas określania <literal>SheetName</literal> jako łańcucha, wymagane jest użycie pojedynczych cudzysłowów w celu umieszczenia nazwy arkusza, jeśli nazwa zawiera spacje \" \" lub kropki \".\"."
 
 #. BsAKT
 #: sf_calc.xhp
@@ -4084,7 +4084,7 @@ msgctxt ""
 "par_id931655906591984\n"
 "help.text"
 msgid "The examples below illustrate in which cases the use of single quotes is mandatory:"
-msgstr ""
+msgstr "Poniższe przykłady ilustrują, w jakich przypadkach stosowanie pojedynczych cudzysłowów jest obowiązkowe:"
 
 #. DGacM
 #: sf_calc.xhp
@@ -4093,7 +4093,7 @@ msgctxt ""
 "bas_id971655754336388\n"
 "help.text"
 msgid "' The use of single quotes is optional"
-msgstr ""
+msgstr "' Użycie pojedynczych cudzysłowów jest opcjonalne"
 
 #. yWFhF
 #: sf_calc.xhp
@@ -4102,7 +4102,7 @@ msgctxt ""
 "bas_id711655754337420\n"
 "help.text"
 msgid "' The use of single quotes is required"
-msgstr ""
+msgstr "' Użycie pojedynczych cudzysłowów jest wymagane"
 
 #. GVF9g
 #: sf_calc.xhp
@@ -4111,7 +4111,7 @@ msgctxt ""
 "par_id371592406978640\n"
 "help.text"
 msgid "Except for the <literal>CurrentSelection</literal> property, the <literal>Calc</literal> service considers only single ranges of cells."
-msgstr ""
+msgstr "Z wyjątkiem właściwości <literal>CurrentSelection</literal>, usługa <literal>Calc</literal> uwzględnia tylko pojedyncze zakresy komórek."
 
 #. vRxTa
 #: sf_calc.xhp
@@ -4120,7 +4120,7 @@ msgctxt ""
 "par_id91591025127496\n"
 "help.text"
 msgid "Examples of valid ranges"
-msgstr ""
+msgstr "Przykłady prawidłowych zakresów"
 
 #. yADDC
 #: sf_calc.xhp
@@ -4129,7 +4129,7 @@ msgctxt ""
 "par_id481591024294524\n"
 "help.text"
 msgid "1) $'SheetX'.D2<br/>2) $D$2"
-msgstr ""
+msgstr "1) $'SheetX'.D2<br/>2) $D$2"
 
 #. pMZEe
 #: sf_calc.xhp
@@ -4138,7 +4138,7 @@ msgctxt ""
 "par_id721591024294894\n"
 "help.text"
 msgid "A single cell"
-msgstr ""
+msgstr "Pojedyncza komórka"
 
 #. AcGDY
 #: sf_calc.xhp
@@ -4147,7 +4147,7 @@ msgctxt ""
 "par_id21591024294492\n"
 "help.text"
 msgid "1) $'SheetX'.D2:F6<br/>2) D2:D10"
-msgstr ""
+msgstr "1) $'SheetX'.D2:F6<br/>2) D2:D10"
 
 #. P7Ete
 #: sf_calc.xhp
@@ -4156,7 +4156,7 @@ msgctxt ""
 "par_id9159102429464\n"
 "help.text"
 msgid "Single range with multiple cells"
-msgstr ""
+msgstr "Pojedynczy zakres z wieloma komórkami"
 
 #. vXrSu
 #: sf_calc.xhp
@@ -4165,7 +4165,7 @@ msgctxt ""
 "par_id161592230749179\n"
 "help.text"
 msgid "$'SheetX'.*"
-msgstr ""
+msgstr "$'SheetX'.*"
 
 #. eQu5j
 #: sf_calc.xhp
@@ -4174,7 +4174,7 @@ msgctxt ""
 "par_id581592230749243\n"
 "help.text"
 msgid "All used cells in the given sheet"
-msgstr ""
+msgstr "Wszystkie użyte komórki w danym arkuszu"
 
 #. C6egy
 #: sf_calc.xhp
@@ -4183,7 +4183,7 @@ msgctxt ""
 "par_id641591024294318\n"
 "help.text"
 msgid "1) $'SheetX'.A:A (column A)<br/>2) 3:5 (rows 3 to 5)"
-msgstr ""
+msgstr "1) $'SheetX'.A:A (kolumna A)<br/>2) 3:5 (rzędy 3 do 5)"
 
 #. qpGBr
 #: sf_calc.xhp
@@ -4192,7 +4192,7 @@ msgctxt ""
 "par_id431591024294723\n"
 "help.text"
 msgid "All cells in contiguous columns or rows up to the last used cell"
-msgstr ""
+msgstr "Wszystkie komórki w ciągłych kolumnach lub wierszach aż do ostatniej użytej komórki"
 
 #. qezwg
 #: sf_calc.xhp
@@ -4201,7 +4201,7 @@ msgctxt ""
 "par_id871591024294202\n"
 "help.text"
 msgid "myRange"
-msgstr ""
+msgstr "myRange"
 
 #. 97TnU
 #: sf_calc.xhp
@@ -4210,7 +4210,7 @@ msgctxt ""
 "par_id721591024294721\n"
 "help.text"
 msgid "A range named \"myRange\" at spreadsheet level"
-msgstr ""
+msgstr "Zakres o nazwie „myRange” na poziomie arkusza kalkulacyjnego"
 
 #. WxyY4
 #: sf_calc.xhp
@@ -4219,7 +4219,7 @@ msgctxt ""
 "par_id181591024294534\n"
 "help.text"
 msgid "1) ~.someRange<br/>2) SheetX.someRange"
-msgstr ""
+msgstr "1) ~.someRange<br/>2) SheetX.someRange"
 
 #. 9gjmL
 #: sf_calc.xhp
@@ -4228,7 +4228,7 @@ msgctxt ""
 "par_id911591024294816\n"
 "help.text"
 msgid "A range name at sheet level"
-msgstr ""
+msgstr "Nazwa zakresu na poziomie arkusza"
 
 #. Z6dKJ
 #: sf_calc.xhp
@@ -4237,7 +4237,7 @@ msgctxt ""
 "par_id781591024294621\n"
 "help.text"
 msgid "myDoc.Range(\"SheetX.D2:F6\")"
-msgstr ""
+msgstr "myDoc.Range(\"SheetX.D2:F6\")"
 
 #. ENndn
 #: sf_calc.xhp
@@ -4246,7 +4246,7 @@ msgctxt ""
 "par_id681591024294568\n"
 "help.text"
 msgid "A range within the sheet SheetX in file associated with the myDoc Calc instance"
-msgstr ""
+msgstr "Zakres w arkuszu SheetX w pliku powiązanym z instancją myDoc Calc"
 
 #. Yero3
 #: sf_calc.xhp
@@ -4255,7 +4255,7 @@ msgctxt ""
 "par_id101591024294151\n"
 "help.text"
 msgid "~.~ or ~"
-msgstr ""
+msgstr "~.~ lub ~"
 
 #. kmjCL
 #: sf_calc.xhp
@@ -4264,7 +4264,7 @@ msgctxt ""
 "par_id22159102429479\n"
 "help.text"
 msgid "The current selection in the active sheet"
-msgstr ""
+msgstr "Bieżący wybór w aktywnym arkuszu"
 
 #. qFqGJ
 #: sf_calc.xhp
@@ -4273,7 +4273,7 @@ msgctxt ""
 "hd_id351582885195476\n"
 "help.text"
 msgid "Properties"
-msgstr ""
+msgstr "Właściwości"
 
 #. FeCia
 #: sf_calc.xhp
@@ -4291,7 +4291,7 @@ msgctxt ""
 "par_id911591018242565\n"
 "help.text"
 msgid "The properties specifically available for Calc documents are:"
-msgstr ""
+msgstr "Właściwości dostępne specjalnie dla dokumentów programu Calc to:"
 
 #. G4iX6
 #: sf_calc.xhp
@@ -4300,7 +4300,7 @@ msgctxt ""
 "par_id41582885195836\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Nazwa"
 
 #. PK7n2
 #: sf_calc.xhp
@@ -4309,7 +4309,7 @@ msgctxt ""
 "par_id31582885195372\n"
 "help.text"
 msgid "Readonly"
-msgstr ""
+msgstr "Tylko do odczytu"
 
 #. oFX3A
 #: sf_calc.xhp
@@ -4318,7 +4318,7 @@ msgctxt ""
 "par_id221591018408168\n"
 "help.text"
 msgid "Argument"
-msgstr ""
+msgstr "Argument"
 
 #. H9m2q
 #: sf_calc.xhp
@@ -4327,7 +4327,7 @@ msgctxt ""
 "par_id31582885195238\n"
 "help.text"
 msgid "Return type"
-msgstr ""
+msgstr "Typ zwracany"
 
 #. DDSFu
 #: sf_calc.xhp
@@ -4336,7 +4336,7 @@ msgctxt ""
 "par_id931582885195131\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #. 3MHFG
 #: sf_calc.xhp
@@ -4345,7 +4345,7 @@ msgctxt ""
 "par_id301592407165942\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 #. pJnFE
 #: sf_calc.xhp
@@ -4354,7 +4354,7 @@ msgctxt ""
 "par_id81592407165611\n"
 "help.text"
 msgid "None"
-msgstr ""
+msgstr "Brak"
 
 #. UUDuD
 #: sf_calc.xhp
@@ -4363,7 +4363,7 @@ msgctxt ""
 "par_id59159240716522\n"
 "help.text"
 msgid "String or array of strings"
-msgstr ""
+msgstr "Ciąg lub tablica ciągów"
 
 #. kAAXc
 #: sf_calc.xhp
@@ -4372,7 +4372,7 @@ msgctxt ""
 "par_id85159240716560\n"
 "help.text"
 msgid "The single selected range as a string or the list of selected ranges as an array."
-msgstr ""
+msgstr "Pojedynczy wybrany zakres jako ciąg znaków lub lista wybranych zakresów jako tablica."
 
 #. PFB5D
 #: sf_calc.xhp
@@ -4381,7 +4381,7 @@ msgctxt ""
 "par_id301592407165606\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. 5GeyC
 #: sf_calc.xhp
@@ -4390,7 +4390,7 @@ msgctxt ""
 "par_id81592407165545\n"
 "help.text"
 msgid "SheetName or RangeName as String"
-msgstr ""
+msgstr "SheetName lub RangeName jako String"
 
 #. TBHV2
 #: sf_calc.xhp
@@ -4399,7 +4399,7 @@ msgctxt ""
 "par_id85159240716828\n"
 "help.text"
 msgid "Returns the first used cell in a given range or sheet."
-msgstr ""
+msgstr "Zwraca pierwszą użytą komórkę w danym zakresie lub arkuszu."
 
 #. BkCoD
 #: sf_calc.xhp
@@ -4408,7 +4408,7 @@ msgctxt ""
 "par_id301592407166642\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. ToQBc
 #: sf_calc.xhp
@@ -4417,7 +4417,7 @@ msgctxt ""
 "par_id81592407165145\n"
 "help.text"
 msgid "SheetName or RangeName as String"
-msgstr ""
+msgstr "SheetName lub RangeName jako String"
 
 #. boSak
 #: sf_calc.xhp
@@ -4426,7 +4426,7 @@ msgctxt ""
 "par_id85159240716225\n"
 "help.text"
 msgid "Returns the leftmost column number in a given range or sheet."
-msgstr ""
+msgstr "Zwraca numer skrajnej lewej kolumny w danym zakresie lub arkuszu."
 
 #. 3AKqL
 #: sf_calc.xhp
@@ -4435,7 +4435,7 @@ msgctxt ""
 "par_id301592407167972\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. zf3hK
 #: sf_calc.xhp
@@ -4444,7 +4444,7 @@ msgctxt ""
 "par_id81592407165695\n"
 "help.text"
 msgid "SheetName or RangeName as String"
-msgstr ""
+msgstr "SheetName lub RangeName jako String"
 
 #. BXscD
 #: sf_calc.xhp
@@ -4453,7 +4453,7 @@ msgctxt ""
 "par_id85159240716128\n"
 "help.text"
 msgid "Returns the topmost row number in a given range or sheet."
-msgstr ""
+msgstr "Zwraca najwyższy numer wiersza w danym zakresie lub arkuszu."
 
 #. BHFeu
 #: sf_calc.xhp
@@ -4462,7 +4462,7 @@ msgctxt ""
 "par_id101593094953259\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. KedYU
 #: sf_calc.xhp
@@ -4471,7 +4471,7 @@ msgctxt ""
 "par_id741593094953790\n"
 "help.text"
 msgid "RangeName As String"
-msgstr ""
+msgstr "RangeName jako String"
 
 #. FhLMF
 #: sf_calc.xhp
@@ -4480,7 +4480,7 @@ msgctxt ""
 "par_id311593094953330\n"
 "help.text"
 msgid "The number of rows (>= 1) in the given range."
-msgstr ""
+msgstr "Liczba wierszy (>= 1) w podanym zakresie."
 
 #. cU3Ah
 #: sf_calc.xhp
@@ -4489,7 +4489,7 @@ msgctxt ""
 "par_id221582885195686\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. ALJCP
 #: sf_calc.xhp
@@ -4498,7 +4498,7 @@ msgctxt ""
 "par_id501591018870619\n"
 "help.text"
 msgid "SheetName or RangeName as String"
-msgstr ""
+msgstr "SheetName lub RangeName jako String"
 
 #. SNj7Q
 #: sf_calc.xhp
@@ -4507,7 +4507,7 @@ msgctxt ""
 "par_id881582885195976\n"
 "help.text"
 msgid "Returns the last used cell in a given range or sheet."
-msgstr ""
+msgstr "Zwraca ostatnio używaną komórkę w danym zakresie lub arkuszu."
 
 #. 75PEK
 #: sf_calc.xhp
@@ -4516,7 +4516,7 @@ msgctxt ""
 "par_id601592315106598\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. 3h43j
 #: sf_calc.xhp
@@ -4525,7 +4525,7 @@ msgctxt ""
 "par_id831592315106202\n"
 "help.text"
 msgid "SheetName or RangeName as String"
-msgstr ""
+msgstr "SheetName lub RangeName jako String"
 
 #. bU5vD
 #: sf_calc.xhp
@@ -4534,7 +4534,7 @@ msgctxt ""
 "par_id791592315106790\n"
 "help.text"
 msgid "The last used column in a given range or sheet."
-msgstr ""
+msgstr "Ostatnia używana kolumna w danym zakresie lub arkuszu."
 
 #. q9Bx7
 #: sf_calc.xhp
@@ -4543,7 +4543,7 @@ msgctxt ""
 "par_id981591025591597\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. r6diM
 #: sf_calc.xhp
@@ -4552,7 +4552,7 @@ msgctxt ""
 "par_id81591025591696\n"
 "help.text"
 msgid "SheetName or RangeName as String"
-msgstr ""
+msgstr "SheetName lub RangeName jako String"
 
 #. SDdEC
 #: sf_calc.xhp
@@ -4561,7 +4561,7 @@ msgctxt ""
 "par_id421591025591509\n"
 "help.text"
 msgid "The last used row in a given range or sheet."
-msgstr ""
+msgstr "Ostatni używany wiersz w danym zakresie lub arkuszu."
 
 #. 4t3He
 #: sf_calc.xhp
@@ -4570,7 +4570,7 @@ msgctxt ""
 "par_id81591025591672\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. 2BJKz
 #: sf_calc.xhp
@@ -4579,7 +4579,7 @@ msgctxt ""
 "par_id561591025591239\n"
 "help.text"
 msgid "RangeName As String"
-msgstr ""
+msgstr "RangeName jako String"
 
 #. 2tmEj
 #: sf_calc.xhp
@@ -4588,7 +4588,7 @@ msgctxt ""
 "par_id571591025591367\n"
 "help.text"
 msgid "A range reference that can be used as argument of methods like <literal>CopyToRange</literal>."
-msgstr ""
+msgstr "Odwołanie do zakresu, którego można użyć jako argumentu metod takich jak <literal>CopyToRange</literal>."
 
 #. boDiE
 #: sf_calc.xhp
@@ -4597,7 +4597,7 @@ msgctxt ""
 "par_id81591025591007\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. kJCwG
 #: sf_calc.xhp
@@ -4606,7 +4606,7 @@ msgctxt ""
 "par_id561591025592149\n"
 "help.text"
 msgid "RangeName As String"
-msgstr ""
+msgstr "RangeName jako String"
 
 #. ey2LS
 #: sf_calc.xhp
@@ -4615,7 +4615,7 @@ msgctxt ""
 "par_id571591025599937\n"
 "help.text"
 msgid "Returns the address of the smallest area that contains the specified range so that the area is surrounded by empty cells or sheet edges. This is equivalent to applying the <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command + *</keycode></caseinline><defaultinline><keycode>Ctrl + *</keycode></defaultinline></switchinline> shortcut to the given range."
-msgstr ""
+msgstr "Zwraca adres najmniejszego obszaru zawierającego określony zakres, tak aby obszar ten był otoczony pustymi komórkami lub krawędziami arkusza. Jest to równoważne zastosowaniu skrótu <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command + *</keycode></caseinline><defaultinline><keycode>Ctrl + *</keycode></defaultinline></switchinline> do podanego zakresu."
 
 #. 66iAb
 #: sf_calc.xhp
@@ -4624,7 +4624,7 @@ msgctxt ""
 "par_id541591025591511\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. dWFQE
 #: sf_calc.xhp
@@ -4633,7 +4633,7 @@ msgctxt ""
 "par_id661591025591903\n"
 "help.text"
 msgid "SheetName As String"
-msgstr ""
+msgstr "SheetName jako String"
 
 #. 4KoAw
 #: sf_calc.xhp
@@ -4642,7 +4642,7 @@ msgctxt ""
 "par_id731591025591753\n"
 "help.text"
 msgid "A sheet reference that can be used as argument of methods like <literal>CopySheet</literal>."
-msgstr ""
+msgstr "Odwołanie do zakresu, którego można użyć jako argumentu metod takich jak <literal>CopySheet</literal>."
 
 #. WanFm
 #: sf_calc.xhp
@@ -4651,7 +4651,7 @@ msgctxt ""
 "par_id541591025591322\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. wRCYZ
 #: sf_calc.xhp
@@ -4660,7 +4660,7 @@ msgctxt ""
 "par_id661591025591188\n"
 "help.text"
 msgid "RangeName As String"
-msgstr ""
+msgstr "RangeName jako String"
 
 #. w7Gft
 #: sf_calc.xhp
@@ -4669,7 +4669,7 @@ msgctxt ""
 "par_id731591025591006\n"
 "help.text"
 msgid "Returns the sheet name of a given range address."
-msgstr ""
+msgstr "Zwraca nazwę arkusza o podanym adresie zakresu."
 
 #. HLpEQ
 #: sf_calc.xhp
@@ -4678,7 +4678,7 @@ msgctxt ""
 "par_id581591025591579\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. V43zC
 #: sf_calc.xhp
@@ -4687,7 +4687,7 @@ msgctxt ""
 "par_id751591025591667\n"
 "help.text"
 msgid "None"
-msgstr ""
+msgstr "Brak"
 
 #. B5BXR
 #: sf_calc.xhp
@@ -4696,7 +4696,7 @@ msgctxt ""
 "par_id861591025591250\n"
 "help.text"
 msgid "Array of strings"
-msgstr ""
+msgstr "Tablica ciągów"
 
 #. qGsms
 #: sf_calc.xhp
@@ -4705,7 +4705,7 @@ msgctxt ""
 "par_id491591025591370\n"
 "help.text"
 msgid "The list with the names of all existing sheets."
-msgstr ""
+msgstr "Lista z nazwami wszystkich istniejących arkuszy."
 
 #. EaAB2
 #: sf_calc.xhp
@@ -4714,7 +4714,7 @@ msgctxt ""
 "par_id711593095062771\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. PFLkD
 #: sf_calc.xhp
@@ -4723,7 +4723,7 @@ msgctxt ""
 "par_id311593095062171\n"
 "help.text"
 msgid "RangeName As String"
-msgstr ""
+msgstr "RangeName jako String"
 
 #. BKFhE
 #: sf_calc.xhp
@@ -4732,7 +4732,7 @@ msgctxt ""
 "par_id681593095062358\n"
 "help.text"
 msgid "The number of columns (>= 1) in the given range."
-msgstr ""
+msgstr "Liczba kolumn (>= 1) w podanym zakresie."
 
 #. cju3B
 #: sf_calc.xhp
@@ -4741,7 +4741,7 @@ msgctxt ""
 "par_id391592315404944\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. DMf2S
 #: sf_calc.xhp
@@ -4750,7 +4750,7 @@ msgctxt ""
 "par_id1001592315404525\n"
 "help.text"
 msgid "RangeName As String"
-msgstr ""
+msgstr "RangeName jako String"
 
 #. VaGpB
 #: sf_calc.xhp
@@ -4759,7 +4759,7 @@ msgctxt ""
 "par_id321592315404430\n"
 "help.text"
 msgid "A <literal>com.sun.star.Table.XCellRange</literal> UNO object."
-msgstr ""
+msgstr "Obiekt UNO <literal>com.sun.star.Table.XCellRange</literal>."
 
 #. nAD2d
 #: sf_calc.xhp
@@ -4768,7 +4768,7 @@ msgctxt ""
 "par_id501592315567199\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. yNxZn
 #: sf_calc.xhp
@@ -4777,7 +4777,7 @@ msgctxt ""
 "par_id411592315560025\n"
 "help.text"
 msgid "RangeName As String"
-msgstr ""
+msgstr "RangeName jako String"
 
 #. UydnH
 #: sf_calc.xhp
@@ -4786,7 +4786,7 @@ msgctxt ""
 "par_id41592315565185\n"
 "help.text"
 msgid "A <literal>com.sun.star.sheet.XSheetCellCursor</literal> UNO object. After moving the cursor, the resulting range address can be accessed through the <literal>AbsoluteName</literal> UNO property of the cursor object, which returns a string value that can be used as argument for properties and methods of the Calc service."
-msgstr ""
+msgstr "Obiekt UNO <literal>com.sun.star.sheet.XSheetCellCursor</literal>. Po przesunięciu kursora uzyskany adres zakresu jest dostępny poprzez właściwość UNO <literal>AbsoluteName</literal> obiektu kursora, która zwraca wartość ciągu znaków, która może być użyta jako argument dla właściwości i metod usługi Calc."
 
 #. QbTFX
 #: sf_calc.xhp
@@ -4795,7 +4795,7 @@ msgctxt ""
 "par_id501592315565569\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. jWLAC
 #: sf_calc.xhp
@@ -4804,7 +4804,7 @@ msgctxt ""
 "par_id411592315565235\n"
 "help.text"
 msgid "SheetName As String"
-msgstr ""
+msgstr "SheetName jako String"
 
 #. cJAB7
 #: sf_calc.xhp
@@ -4813,7 +4813,7 @@ msgctxt ""
 "par_id41592315560095\n"
 "help.text"
 msgid "A <literal>com.sun.star.sheet.XSpreadsheet</literal> UNO object."
-msgstr ""
+msgstr "Obiekt UNO <literal>com.sun.star.sheet.XSpreadsheet</literal>."
 
 #. hwjGf
 #: sf_calc.xhp
@@ -4840,7 +4840,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in the Calc Service"
-msgstr ""
+msgstr "Lista metod w usłudze Calc"
 
 #. Dis6i
 #: sf_calc.xhp
@@ -4849,7 +4849,7 @@ msgctxt ""
 "par_id93158919969228\n"
 "help.text"
 msgid "Returns a range address as a string based on sheet coordinates, i.e. row and column numbers."
-msgstr ""
+msgstr "Zwraca adres zakresu jako ciąg na podstawie współrzędnych arkusza, tj. numerów wierszy i kolumn."
 
 #. 4TBiF
 #: sf_calc.xhp
@@ -4858,7 +4858,7 @@ msgctxt ""
 "par_id21635434153216\n"
 "help.text"
 msgid "If only a pair of coordinates is given, then an address to a single cell is returned. Additional arguments can specify the bottom-right cell of a rectangular range."
-msgstr ""
+msgstr "Jeśli podano tylko parę współrzędnych, zwracany jest adres do pojedynczej komórki. Dodatkowe argumenty mogą określać prawą dolną komórkę zakresu prostokątnego."
 
 #. 2BuFG
 #: sf_calc.xhp
@@ -4867,7 +4867,7 @@ msgctxt ""
 "par_id821591631203080\n"
 "help.text"
 msgid "<emph>row1, column1</emph>: Specify the row and column numbers of the top-left cell in the range to be considered. Row and column numbers start at 1."
-msgstr ""
+msgstr "<emph>row1, column1</emph>: określ numery wierszy i kolumn w lewej górnej komórce zakresu, który ma być brany pod uwagę. Numery wierszy i kolumn zaczynają się od 1."
 
 #. i7N7S
 #: sf_calc.xhp
@@ -4876,7 +4876,7 @@ msgctxt ""
 "par_id821591631203212\n"
 "help.text"
 msgid "<emph>row2, column2</emph>: Specify the row and column numbers of the bottom-right cell in the range to be considered. If these arguments are not provided, or if values smaller than <literal>row1</literal> and <literal>column1</literal> are given, then the address of the single cell range represented by <literal>row1</literal> and <literal>column1</literal> is returned."
-msgstr ""
+msgstr "<emph>row2, column2</emph>: określ numery wierszy i kolumn komórki w prawym dolnym rogu zakresu, który ma być brany pod uwagę. Jeśli te argumenty nie zostaną podane lub podane zostaną wartości mniejsze niż <literal>row1</literal> i <literal>column1</literal>, to adres zakresu pojedynczej komórki reprezentowany przez <literal>row1</literal> i <literal>column1</literal> jest zwracany."
 
 #. Egj6k
 #: sf_calc.xhp
@@ -4885,7 +4885,7 @@ msgctxt ""
 "par_id821591631203336\n"
 "help.text"
 msgid "<emph>sheetname</emph>: The name of the sheet to be appended to the returned range address. The sheet must exist. The default value is \"~\" corresponding to the currently active sheet."
-msgstr ""
+msgstr "<emph>sheetname</emph>: nazwa arkusza, który ma zostać dołączony do zwracanego adresu zakresu. Arkusz musi istnieć. Wartość domyślna to „~” odpowiadająca aktualnie aktywnemu arkuszowi."
 
 #. idfEg
 #: sf_calc.xhp
@@ -4894,7 +4894,7 @@ msgctxt ""
 "par_id131611616623705\n"
 "help.text"
 msgid "The examples below in Basic and Python consider that \"Sheet1\" is the currently active sheet."
-msgstr ""
+msgstr "Poniższe przykłady w językach Basic i Python uwzględniają, że „Sheet1” jest obecnie aktywnym arkuszem."
 
 #. eXJNG
 #: sf_calc.xhp
@@ -4903,7 +4903,7 @@ msgctxt ""
 "par_id501611617808112\n"
 "help.text"
 msgid "The method <literal>A1Style</literal> can be combined with any of the many properties and methods of the Calc service that require a range as argument, such as <literal>GetValue</literal>, <literal>GetFormula</literal>, <literal>ClearAll</literal>, etc."
-msgstr ""
+msgstr "Metodę <literal>A1Style</literal> można łączyć z dowolnymi właściwościami i metodami usługi Calc, które wymagają podania zakresu jako argumentu, na przykład <literal>GetValue</literal>, <literal>GetFormula</literal>, <literal>ClearAll</literal> itd."
 
 #. Hfeug
 #: sf_calc.xhp
@@ -4912,7 +4912,7 @@ msgctxt ""
 "par_id93158919969864\n"
 "help.text"
 msgid "If the argument <literal>sheetname</literal> is provided, the given sheet is activated and it becomes the currently selected sheet. If the argument is absent, then the document window is activated."
-msgstr ""
+msgstr "Podanie argumentu <literal>sheetname</literal> powoduje aktywację danego arkusza i staje się aktualnie wybranym arkuszem. W przypadku braku argumentu okno dokumentu jest aktywowane."
 
 #. EhMzz
 #: sf_calc.xhp
@@ -4921,7 +4921,7 @@ msgctxt ""
 "par_id821591631203996\n"
 "help.text"
 msgid "<emph>sheetname</emph>: The name of the sheet to be activated in the document. The default value is an empty string, meaning that the document window will be activated without changing the active sheet."
-msgstr ""
+msgstr "<emph>sheetname</emph>: nazwa arkusza, który ma zostać aktywowany w dokumencie. Wartością domyślną jest ciąg pusty, co oznacza, że okno dokumentu zostanie uaktywnione bez zmiany aktywnego arkusza."
 
 #. 2cgiA
 #: sf_calc.xhp
@@ -4930,7 +4930,7 @@ msgctxt ""
 "par_id131611616623714\n"
 "help.text"
 msgid "The example below activates the sheet named \"Sheet4\" in the currently active document."
-msgstr ""
+msgstr "Poniższy przykład aktywuje arkusz o nazwie „Sheet4” w aktualnie aktywnym dokumencie."
 
 #. LRebz
 #: sf_calc.xhp
@@ -4939,7 +4939,7 @@ msgctxt ""
 "par_id501611617808220\n"
 "help.text"
 msgid "Activating a sheet makes sense only if it is performed on a Calc document. To make sure you have a Calc document at hand you can use the <literal>isCalc</literal> property of the document object, which returns <literal>True</literal> if it is a Calc document and <literal>False</literal> otherwise."
-msgstr ""
+msgstr "Aktywacja arkusza ma znaczenie tylko w dokumentach programu Calc. Aby upewnić się, że pracujesz z dokumentem programu Calc, użyj właściwości <literal>isCalc</literal> obiektu dokumentu. Ta właściwość zwraca wartość <literal>True</literal>, jeśli jest to dokument Calcu, w przeciwnym razie zwraca wartość <literal>False</literal>."
 
 #. KWFFF
 #: sf_calc.xhp
@@ -4948,7 +4948,7 @@ msgctxt ""
 "par_id93158919969856\n"
 "help.text"
 msgid "Returns either the list with the names of all chart objects in a given sheet or a single <literal>Chart</literal> service instance."
-msgstr ""
+msgstr "Zwraca listę z nazwami wszystkich obiektów wykresu w danym arkuszu lub pojedynczą instancję usługi <literal>Chart</literal>."
 
 #. MKgeJ
 #: sf_calc.xhp
@@ -4957,7 +4957,7 @@ msgctxt ""
 "par_id371635438503202\n"
 "help.text"
 msgid "If only <literal>sheetname</literal> is specified, a zero-based array of strings containing the names of all charts is returned."
-msgstr ""
+msgstr "Jeśli określono tylko <literal>sheetname</literal>, zwracana jest liczona od zera tablica łańcuchów zawierająca nazwy wszystkich wykresów."
 
 #. CLbLn
 #: sf_calc.xhp
@@ -4966,7 +4966,7 @@ msgctxt ""
 "par_id371635438509045\n"
 "help.text"
 msgid "If a <literal>chartname</literal> is provided, then a single object corresponding to the desired chart is returned. The specified chart must exist."
-msgstr ""
+msgstr "Jeśli podano <literal>chartname</literal>, zwracany jest pojedynczy obiekt odpowiadający żądanemu wykresowi. Określony wykres musi istnieć."
 
 #. T2e3d
 #: sf_calc.xhp
@@ -4975,7 +4975,7 @@ msgctxt ""
 "par_id821591631205026\n"
 "help.text"
 msgid "<emph>sheetname</emph>: The name of the sheet from which the list of charts is to be retrieved or where the specified chart is located."
-msgstr ""
+msgstr "<emph>sheetname</emph>: nazwa arkusza, z którego ma zostać pobrana lista wykresów lub w którym znajduje się określony wykres."
 
 #. Dhape
 #: sf_calc.xhp
@@ -4984,7 +4984,7 @@ msgctxt ""
 "par_id821591631203566\n"
 "help.text"
 msgid "<emph>chartname</emph>: The user-defined name of the chart object to be returned. If the chart does not have a user-defined name, then the internal object name can be used. If this argument is absent, then the list of chart names in the specified sheet is returned."
-msgstr ""
+msgstr "<emph>chartname</emph>: zdefiniowana przez użytkownika nazwa zwracanego obiektu wykresu. Jeżeli wykres nie posiada nazwy zdefiniowanej przez użytkownika, możliwe jest użycie wewnętrznej nazwy obiektu. Jeśli brakuje tego argumentu, zwracana jest lista nazw wykresów na określonym arkuszu."
 
 #. C7CSH
 #: sf_calc.xhp
@@ -4993,7 +4993,7 @@ msgctxt ""
 "par_id431635438771588\n"
 "help.text"
 msgid "Use the <menuitem>Navigator</menuitem> sidebar to check the names assigned to charts under the <menuitem>OLE objects</menuitem> category."
-msgstr ""
+msgstr "Użyj paska bocznego <menuitem>Navigator</menuitem>, aby sprawdzić nazwy przypisane do wykresów w kategorii <menuitem>Obiekty OLE</menuitem>."
 
 #. zbX9R
 #: sf_calc.xhp
@@ -5002,7 +5002,7 @@ msgctxt ""
 "par_id41635439328174\n"
 "help.text"
 msgid "The example below shows the number of chart objects in \"Sheet1\"."
-msgstr ""
+msgstr "Poniższy przykład pokazuje liczbę obiektów wykresu w „Sheet1”."
 
 #. gsLHX
 #: sf_calc.xhp
@@ -5011,7 +5011,7 @@ msgctxt ""
 "par_id571635439417400\n"
 "help.text"
 msgid "The following example accesses the chart named \"MyChart\" in \"Sheet1\" and prints its type."
-msgstr ""
+msgstr "Poniższy przykład uzyskuje dostęp do wykresu o nazwie „MyChart” w „Sheet1” i drukuje jego typ."
 
 #. auJdC
 #: sf_calc.xhp
@@ -5020,7 +5020,7 @@ msgctxt ""
 "par_id31592919577984\n"
 "help.text"
 msgid "Clears all the contents and formats of the given range."
-msgstr ""
+msgstr "Czyści całą zawartość i formaty podanego zakresu."
 
 #. M5PqA
 #: sf_calc.xhp
@@ -5038,7 +5038,7 @@ msgctxt ""
 "par_id211592919864118\n"
 "help.text"
 msgid "Clears the formats and styles in the given range."
-msgstr ""
+msgstr "Czyści formaty i style w podanym zakresie."
 
 #. 6Qxnv
 #: sf_calc.xhp
@@ -5047,7 +5047,7 @@ msgctxt ""
 "par_id611592919864268\n"
 "help.text"
 msgid "<emph>range</emph>: The range whose formats and styles are to be cleared, as a string."
-msgstr ""
+msgstr "<emph>range</emph>: zakres, którego formaty i style mają zostać wyczyszczone, jako ciąg."
 
 #. sMwMp
 #: sf_calc.xhp
@@ -5056,7 +5056,7 @@ msgctxt ""
 "par_id841592919928169\n"
 "help.text"
 msgid "Clears the values and formulas in the given range."
-msgstr ""
+msgstr "Czyści wartości i formuły w podanym zakresie."
 
 #. eEGn9
 #: sf_calc.xhp
@@ -5065,7 +5065,7 @@ msgctxt ""
 "par_id771592919928320\n"
 "help.text"
 msgid "<emph>range</emph>: The range whose values and formulas are to be cleared, as a string."
-msgstr ""
+msgstr "<emph>range</emph>: zakres, którego wartości i formuły mają zostać wyczyszczone, jako ciąg znaków."
 
 #. JWFDb
 #: sf_calc.xhp
@@ -5074,7 +5074,7 @@ msgctxt ""
 "par_id841592919903025\n"
 "help.text"
 msgid "Deletes the columns of a specified range that match a filter expressed as a Calc formula. The filter is applied to each column to decide whether it will be deleted or not."
-msgstr ""
+msgstr "Usuwa kolumny z określonego zakresu, które pasują do filtru wyrażonego jako formuła Calc. Filtr jest stosowany do każdej kolumny, aby zdecydować, czy zostanie ona usunięta, czy nie."
 
 #. 4JWnp
 #: sf_calc.xhp
@@ -5083,7 +5083,7 @@ msgctxt ""
 "par_id601652269911029\n"
 "help.text"
 msgid "The deleted column can be limited to the height of the specified range or span to the height of the entire sheet, thus deleting whole columns."
-msgstr ""
+msgstr "Usuniętą kolumnę można ograniczyć do wysokości podanego zakresu lub rozpiętości do wysokości całego arkusza, usuwając tym samym całe kolumny."
 
 #. VAVU3
 #: sf_calc.xhp
@@ -5092,7 +5092,7 @@ msgctxt ""
 "par_id701652271281106\n"
 "help.text"
 msgid "This method returns a string with the range address of the compacted range. If all columns are deleted, then an empty string is returned."
-msgstr ""
+msgstr "Ta metoda zwraca ciąg z adresem zakresu skompaktowanego zakresu. Jeśli wszystkie kolumny zostaną usunięte, zwracany jest pusty ciąg."
 
 #. j2GAb
 #: sf_calc.xhp
@@ -5101,7 +5101,7 @@ msgctxt ""
 "par_id191652271892064\n"
 "help.text"
 msgid "If a range of cells is selected, calling this method will not impact the selection."
-msgstr ""
+msgstr "Jeśli zaznaczony jest zakres komórek, wywołanie tej metody nie wpłynie na zaznaczenie."
 
 #. WsrKe
 #: sf_calc.xhp
@@ -5110,7 +5110,7 @@ msgctxt ""
 "par_id771592919922181\n"
 "help.text"
 msgid "<emph>range</emph>: The range from which columns will be deleted, as a string."
-msgstr ""
+msgstr "<emph>range</emph>: zakres, z którego kolumny zostaną usunięte, jako ciąg."
 
 #. Q9QBp
 #: sf_calc.xhp
@@ -5119,7 +5119,7 @@ msgctxt ""
 "par_id771592919932260\n"
 "help.text"
 msgid "<emph>wholecolumn</emph>: If this option is set to <literal>True</literal> the entire column will be deleted from the sheet. The default value is <literal>False</literal>, which means that the deleted column will be limited to the height of the specified <literal>range</literal>."
-msgstr ""
+msgstr "<emph>wholecolumn</emph>: jeśli ta opcja jest ustawiona na <literal>True</literal>, cała kolumna zostanie usunięta z arkusza. Domyślną wartością jest <literal>False</literal>, co oznacza, że usunięta kolumna będzie ograniczona do wysokości podanego <literal>range</literal>."
 
 #. M7qto
 #: sf_calc.xhp
@@ -5128,7 +5128,7 @@ msgctxt ""
 "par_id771592919915974\n"
 "help.text"
 msgid "<emph>filterformula</emph>: The filter to be applied to each column to determine whether or not it will be deleted. The filter is expressed as a Calc formula that should be applied to the first column. When the formula returns <emph>True</emph> for a column, that column will be deleted. The default filter deletes all empty columns."
-msgstr ""
+msgstr "<emph>filterformula</emph>: filtr, który ma zostać zastosowany do każdej kolumny, aby określić, czy zostanie ona usunięta. Filtr jest wyrażony jako formuła Calc, którą należy zastosować do pierwszej kolumny. Gdy formuła zwróci wartość <emph>True</emph> dla kolumny, ta kolumna zostanie usunięta. Domyślny filtr usuwa wszystkie puste kolumny."
 
 #. 8sYWa
 #: sf_calc.xhp
@@ -5137,7 +5137,7 @@ msgctxt ""
 "par_id361652271022647\n"
 "help.text"
 msgid "For example, suppose range <emph>A1:J200</emph> is selected (height = 200), so the default formula is <emph>=(COUNTBLANK(A1:A200)=200)</emph>. This means that if all 200 cells are empty in the first column (Column A), then the column is deleted. Note that the formula is expressed with respect to the first column only. Internally the <literal>CompactLeft</literal> method will generalize this formula for all the remaining columns."
-msgstr ""
+msgstr "Załóżmy na przykład, że wybrano zakres <emph>A1:J200</emph> (wysokość = 200), więc domyślna formuła to <emph>=(LICZ.PUSTE(A1:A200)=200)</emph>. Oznacza to, że jeśli wszystkie 200 komórek jest pustych w pierwszej kolumnie (Kolumna A), kolumna jest usuwana. Zauważ, że formuła jest wyrażona tylko w odniesieniu do pierwszej kolumny. Wewnętrznie metoda <literal>CompactLeft</literal> uogólni tę formułę dla wszystkich pozostałych kolumn."
 
 #. FDspT
 #: sf_calc.xhp
@@ -5146,7 +5146,7 @@ msgctxt ""
 "bas_id941652271391005\n"
 "help.text"
 msgid "' Delete all empty columns in the range G1:L10 from Sheet1"
-msgstr ""
+msgstr "' Usuń wszystkie puste kolumny w zakresie G1:L10 z Sheet1"
 
 #. huH9x
 #: sf_calc.xhp
@@ -5155,7 +5155,7 @@ msgctxt ""
 "bas_id691652271390762\n"
 "help.text"
 msgid "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\")"
-msgstr ""
+msgstr "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\")"
 
 #. 2BkcC
 #: sf_calc.xhp
@@ -5164,7 +5164,7 @@ msgctxt ""
 "bas_id921652271392627\n"
 "help.text"
 msgid "' The example below is similar, but the entire column is deleted from the sheet"
-msgstr ""
+msgstr "' Poniższy przykład jest podobny, ale cała kolumna jest usuwana z arkusza"
 
 #. 6GoCu
 #: sf_calc.xhp
@@ -5173,7 +5173,7 @@ msgctxt ""
 "bas_id941652271392873\n"
 "help.text"
 msgid "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", WholeColumn := True)"
-msgstr ""
+msgstr "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", WholeColumn := True)"
 
 #. KfQRA
 #: sf_calc.xhp
@@ -5182,7 +5182,7 @@ msgctxt ""
 "bas_id751652271393226\n"
 "help.text"
 msgid "' Deletes all columns where the first row is marked with an \"X\""
-msgstr ""
+msgstr "' Usuwa wszystkie kolumny, w których pierwszy wiersz jest oznaczony znakiem \"X\""
 
 #. fLJ7y
 #: sf_calc.xhp
@@ -5191,7 +5191,7 @@ msgctxt ""
 "bas_id761652271393514\n"
 "help.text"
 msgid "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
-msgstr ""
+msgstr "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
 
 #. UqpQB
 #: sf_calc.xhp
@@ -5200,7 +5200,7 @@ msgctxt ""
 "bas_id241652271725676\n"
 "help.text"
 msgid "' Deletes all columns where the sum of values in the column is odd"
-msgstr ""
+msgstr "' Usuwa wszystkie kolumny, w których suma wartości w kolumnie jest nieparzysta"
 
 #. 5rxDM
 #: sf_calc.xhp
@@ -5209,7 +5209,7 @@ msgctxt ""
 "bas_id531652271726131\n"
 "help.text"
 msgid "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:G10);2)=1)\")"
-msgstr ""
+msgstr "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:G10);2)=1)\")"
 
 #. i4ux6
 #: sf_calc.xhp
@@ -5218,7 +5218,7 @@ msgctxt ""
 "pyc_id451621536612334\n"
 "help.text"
 msgid "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\")"
-msgstr ""
+msgstr "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\")"
 
 #. j5kGd
 #: sf_calc.xhp
@@ -5227,7 +5227,7 @@ msgctxt ""
 "pyc_id201652272121176\n"
 "help.text"
 msgid "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", wholecolumn = True)"
-msgstr ""
+msgstr "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", wholecolumn = True)"
 
 #. pBca4
 #: sf_calc.xhp
@@ -5236,7 +5236,7 @@ msgctxt ""
 "pyc_id781652272122794\n"
 "help.text"
 msgid "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", filterformula = '=(G1=\"X\")')"
-msgstr ""
+msgstr "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", filterformula = '=(G1=\"X\")')"
 
 #. VGAj6
 #: sf_calc.xhp
@@ -5245,7 +5245,7 @@ msgctxt ""
 "pyc_id731652272123209\n"
 "help.text"
 msgid "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", filterformula = '=(MOD(SUM(G1:G10);2)=1)')"
-msgstr ""
+msgstr "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", filterformula = '=(MOD(SUM(G1:G10);2)=1)')"
 
 #. vqJ5B
 #: sf_calc.xhp
@@ -5254,7 +5254,7 @@ msgctxt ""
 "par_id841592919903699\n"
 "help.text"
 msgid "Deletes the rows of a specified range that match a filter expressed as a Calc formula. The filter is applied to each row to decide whether it will be deleted or not."
-msgstr ""
+msgstr "Usuwa wiersze z określonego zakresu, które pasują do filtra wyrażonego jako formuła programu Calc. Filtr jest stosowany do każdego wiersza, aby zdecydować, czy zostanie on usunięty, czy nie."
 
 #. RhiRD
 #: sf_calc.xhp
@@ -5263,7 +5263,7 @@ msgctxt ""
 "par_id601652269910091\n"
 "help.text"
 msgid "The deleted rows can be limited to the width of the specified range or span to the width of the entire sheet, thus deleting whole rows."
-msgstr ""
+msgstr "Usunięte wiersze można ograniczyć do szerokości określonego zakresu lub rozpiętości do szerokości całego arkusza, usuwając tym samym całe wiersze."
 
 #. Yw3WB
 #: sf_calc.xhp
@@ -5272,7 +5272,7 @@ msgctxt ""
 "par_id701652271283456\n"
 "help.text"
 msgid "This method returns a string with the range address of the compacted range. If all rows are deleted, then an empty string is returned."
-msgstr ""
+msgstr "Ta metoda zwraca ciąg z adresem zakresu skompaktowanego zakresu. Jeśli wszystkie wiersze zostaną usunięte, zwracany jest pusty ciąg."
 
 #. RtGtW
 #: sf_calc.xhp
@@ -5281,7 +5281,7 @@ msgctxt ""
 "par_id191652271893913\n"
 "help.text"
 msgid "If a range of cells is selected, calling this method will not impact the selection."
-msgstr ""
+msgstr "Jeśli zaznaczony jest zakres komórek, wywołanie tej metody nie wpłynie na zaznaczenie."
 
 #. X3Ekj
 #: sf_calc.xhp
@@ -5290,7 +5290,7 @@ msgctxt ""
 "par_id771592919922080\n"
 "help.text"
 msgid "<emph>range</emph>: The range from which rows will be deleted, as a string."
-msgstr ""
+msgstr "<emph>range</emph>: zakres, z którego wiersze zostaną usunięte, jako ciąg."
 
 #. sAtHM
 #: sf_calc.xhp
@@ -5299,7 +5299,7 @@ msgctxt ""
 "par_id771592919921160\n"
 "help.text"
 msgid "<emph>wholerow</emph>: If this option is set to <literal>True</literal> the entire row will be deleted from the sheet. The default value is <literal>False</literal>, which means that the deleted row will be limited to the width of the specified <literal>range</literal>."
-msgstr ""
+msgstr "<emph>wholerow</emph>: Jeśli ta opcja jest ustawiona na <literal>True</literal>, cały wiersz zostanie usunięty z arkusza. Domyślną wartością jest <literal>False</literal>, co oznacza, że usuwany wiersz będzie ograniczony do szerokości podanego <literal>range</literal>."
 
 #. pKXWR
 #: sf_calc.xhp
@@ -5308,7 +5308,7 @@ msgctxt ""
 "par_id771592919926374\n"
 "help.text"
 msgid "<emph>filterformula</emph>: The filter to be applied to each row to determine whether or not it will be deleted. The filter is expressed as a Calc formula that should be applied to the first row. When the formula returns <emph>True</emph> for a row, that row will be deleted. The default filter deletes all empty rows."
-msgstr ""
+msgstr "<emph>filterformula</emph>: filtr, który ma zostać zastosowany do każdego wiersza, aby określić, czy zostanie on usunięty. Filtr jest wyrażony jako formuła Calc, którą należy zastosować do pierwszego wiersza. Gdy formuła zwróci wartość <emph>True</emph> dla wiersza, ten wiersz zostanie usunięty. Domyślny filtr usuwa wszystkie puste wiersze."
 
 #. 2DsWD
 #: sf_calc.xhp
@@ -5317,7 +5317,7 @@ msgctxt ""
 "par_id361652271022681\n"
 "help.text"
 msgid "For example, suppose range <emph>A1:J200</emph> is selected (width = 10), so the default formula is <emph>=(COUNTBLANK(A1:J1)=10)</emph>. This means that if all 10 cells are empty in the first row (Row 1), then the row is deleted. Note that the formula is expressed with respect to the first row only. Internally the <literal>CompactUp</literal> method will generalize this formula for all the remaining rows."
-msgstr ""
+msgstr "Załóżmy na przykład, że wybrano zakres <emph>A1:J200</emph> (szerokość = 10), więc domyślna formuła to <emph>=(LICZ.PUSTE(A1:J1)=10)</emph>. Oznacza to, że jeśli wszystkie 10 komórek jest pustych w pierwszym wierszu (wiersz 1), wiersz zostanie usunięty. Zauważ, że wzór jest wyrażony tylko w odniesieniu do pierwszego wiersza. Wewnętrznie metoda <literal>CompactUp</literal> uogólni tę formułę dla wszystkich pozostałych wierszy."
 
 #. GuWzD
 #: sf_calc.xhp
@@ -5326,7 +5326,7 @@ msgctxt ""
 "bas_id941652271391554\n"
 "help.text"
 msgid "' Delete all empty rows in the range G1:L10 from Sheet1"
-msgstr ""
+msgstr "' Usuń wszystkie puste wiersze w zakresie G1:L10 z Sheet1"
 
 #. GBrKx
 #: sf_calc.xhp
@@ -5335,7 +5335,7 @@ msgctxt ""
 "bas_id691652271390789\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\")"
-msgstr ""
+msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\")"
 
 #. FV3Ev
 #: sf_calc.xhp
@@ -5344,7 +5344,7 @@ msgctxt ""
 "bas_id921652271392567\n"
 "help.text"
 msgid "' The example below is similar, but the entire row is deleted from the sheet"
-msgstr ""
+msgstr "' Poniższy przykład jest podobny, ale cały wiersz jest usuwany z arkusza"
 
 #. Y5YVh
 #: sf_calc.xhp
@@ -5353,7 +5353,7 @@ msgctxt ""
 "bas_id941652271392553\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", WholeRow := True)"
-msgstr ""
+msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", WholeRow := True)"
 
 #. mFqmA
 #: sf_calc.xhp
@@ -5362,7 +5362,7 @@ msgctxt ""
 "bas_id751652271393117\n"
 "help.text"
 msgid "' Deletes all rows where the first column is marked with an \"X\""
-msgstr ""
+msgstr "' Usuwa wszystkie wiersze, w których pierwsza kolumna jest oznaczona znakiem \"X\""
 
 #. gJQRm
 #: sf_calc.xhp
@@ -5371,7 +5371,7 @@ msgctxt ""
 "bas_id761652271393034\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
-msgstr ""
+msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
 
 #. DoDfJ
 #: sf_calc.xhp
@@ -5380,7 +5380,7 @@ msgctxt ""
 "bas_id241652271725065\n"
 "help.text"
 msgid "' Deletes all rows where the sum of values in the row is odd"
-msgstr ""
+msgstr "' Usuwa wszystkie wiersze, w których suma wartości w wierszu jest nieparzysta"
 
 #. zXErV
 #: sf_calc.xhp
@@ -5389,7 +5389,7 @@ msgctxt ""
 "bas_id531652271726010\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:L1);2)=1)\")"
-msgstr ""
+msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:L1);2)=1)\")"
 
 #. Mcwq5
 #: sf_calc.xhp
@@ -5398,7 +5398,7 @@ msgctxt ""
 "pyc_id451621536612227\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\")"
-msgstr ""
+msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\")"
 
 #. tXmJD
 #: sf_calc.xhp
@@ -5407,7 +5407,7 @@ msgctxt ""
 "pyc_id201652272121288\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", wholerow = True)"
-msgstr ""
+msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", wholerow = True)"
 
 #. WZ3XF
 #: sf_calc.xhp
@@ -5416,7 +5416,7 @@ msgctxt ""
 "pyc_id781652272122931\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(G1=\"X\")')"
-msgstr ""
+msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(G1=\"X\")')"
 
 #. 4DfG9
 #: sf_calc.xhp
@@ -5425,7 +5425,7 @@ msgctxt ""
 "pyc_id731652272123109\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(MOD(SUM(G1:L1);2)=1)')"
-msgstr ""
+msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(MOD(SUM(G1:L1);2)=1)')"
 
 #. n6vJD
 #: sf_calc.xhp
@@ -5434,7 +5434,7 @@ msgctxt ""
 "par_id591591631693816\n"
 "help.text"
 msgid "Copies a specified sheet before an existing sheet or at the end of the list of sheets. The sheet to be copied may be contained inside any <emph>open</emph> Calc document. Returns <literal>True</literal> if successful."
-msgstr ""
+msgstr "Kopiuje określony arkusz przed istniejącym arkuszem lub na końcu listy arkuszy. Arkusz do skopiowania może znajdować się w dowolnym <emph>otwartym</emph> dokumencie programu Calc. Zwraca <literal>True</literal>, jeśli się powiedzie."
 
 #. YqGL2
 #: sf_calc.xhp
@@ -5443,7 +5443,7 @@ msgctxt ""
 "par_id871591631693741\n"
 "help.text"
 msgid "<emph>sheetname</emph>: The name of the sheet to be copied as a string or its reference as an object."
-msgstr ""
+msgstr "<emph>sheetname</emph>: nazwa arkusza do skopiowania jako ciąg znaków lub jego odniesienie jako obiekt."
 
 #. 5cEGG
 #: sf_calc.xhp
@@ -5452,7 +5452,7 @@ msgctxt ""
 "par_id351591632126180\n"
 "help.text"
 msgid "<emph>newname</emph>: The name of the sheet to insert. The name must not be in use in the document."
-msgstr ""
+msgstr "<emph>newname</emph>: nazwa arkusza do wstawienia. Nazwa nie może być używana w dokumencie."
 
 #. 8sSno
 #: sf_calc.xhp
@@ -5461,7 +5461,7 @@ msgctxt ""
 "par_id211591632192379\n"
 "help.text"
 msgid "<emph>beforesheet</emph>: The name (string) or index (numeric, starting from 1) of the sheet before which to insert the copied sheet. This argument is optional and the default behavior is to add the copied sheet at the last position."
-msgstr ""
+msgstr "<emph>beforesheet</emph>: nazwa (ciąg) lub indeks (liczbowy, począwszy od 1) arkusza, przed którym ma zostać wstawiony skopiowany arkusz. Ten argument jest opcjonalny, a domyślnym zachowaniem jest dodanie skopiowanego arkusza na ostatniej pozycji."
 
 #. yuvEn
 #: sf_calc.xhp
@@ -5470,7 +5470,7 @@ msgctxt ""
 "par_id961591632309410\n"
 "help.text"
 msgid "The following example makes a copy of the sheet \"SheetX\" and places it as the last sheet in the current document. The name of the copied sheet is \"SheetY\"."
-msgstr ""
+msgstr "Poniższy przykład tworzy kopię arkusza „SheetX” i umieszcza go jako ostatni arkusz w bieżącym dokumencie. Nazwa skopiowanego arkusza to „SheetY”."
 
 #. pqVdW
 #: sf_calc.xhp
@@ -5479,7 +5479,7 @@ msgctxt ""
 "bas_id231611706034607\n"
 "help.text"
 msgid "'Gets the Document object of the active window"
-msgstr ""
+msgstr "'Pobiera obiekt Document aktywnego okna"
 
 #. xUG9G
 #: sf_calc.xhp
@@ -5488,7 +5488,7 @@ msgctxt ""
 "par_id461591632297415\n"
 "help.text"
 msgid "The example below copies \"SheetX\" from \"FileA.ods\" and pastes it at the last position of \"FileB.ods\" with the name \"SheetY\":"
-msgstr ""
+msgstr "Poniższy przykład kopiuje „SheetX” z „FileA.ods” i wkleja go na ostatniej pozycji „FileB.ods” z nazwą „SheetY”:"
 
 #. 2AAEx
 #: sf_calc.xhp
