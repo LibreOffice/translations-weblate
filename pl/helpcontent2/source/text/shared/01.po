@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2023-09-12 14:57+0200\n"
+"POT-Creation-Date: 2023-09-22 21:41+0200\n"
 "PO-Revision-Date: 2023-08-12 12:21+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_help-master/textshared01/pl/>\n"
@@ -28015,6 +28015,24 @@ msgctxt ""
 msgid "You can quickly select fill options from the list boxes on the <emph>Drawing Object Properties</emph> toolbar."
 msgstr "Możesz szybko wybrać opcje wypełnienia z pól listy na pasku narzędzi <emph>Właściwości obiektu rysunkowego</emph>."
 
+#. VXtH8
+#: 05210100.xhp
+msgctxt ""
+"05210100.xhp\n"
+"hd_id571693919143757\n"
+"help.text"
+msgid "Use Background"
+msgstr ""
+
+#. shJ58
+#: 05210100.xhp
+msgctxt ""
+"05210100.xhp\n"
+"par_id191693919151752\n"
+"help.text"
+msgid "Use the slide background as a fill. This differs from \"None\" in that the area is actually filled with the slide background at that location, instead of simply showing what is behind the shape."
+msgstr ""
+
 #. CiGCw
 #: 05210100.xhp
 msgctxt ""
@@ -42973,14 +42991,14 @@ msgctxt ""
 msgid "You can assign or edit shortcut keys for the current application or for all $[officename] applications. To assign a key for all applications, choose the <emph>%PRODUCTNAME</emph> radio button in the top right corner."
 msgstr "Możesz przypisać lub edytować klawisze skrótów dla bieżącej aplikacji lub dla wszystkich aplikacji $[officename]. Aby przypisać klawisz do wszystkich aplikacji, wybierz przycisk opcji <emph>%PRODUCTNAME</emph> w prawym górnym rogu."
 
-#. BjkTi
+#. DcgCC
 #: 06140200.xhp
 msgctxt ""
 "06140200.xhp\n"
 "par_id531603928029282\n"
 "help.text"
-msgid "To assign or modify a shortcut key: select a command in the <emph>Function</emph> list, select the key combination to be assigned in the <emph>Shortcut Keys</emph> list, then click <emph>Modify</emph>."
-msgstr "Aby przypisać lub zmodyfikować klawisz skrótu: wybierz polecenie z listy <emph>Funkcja</emph>, wybierz kombinację klawiszy, która ma zostać przypisana z listy <emph>Klawisze skrótów</emph>, a następnie kliknij <emph>Modyfikuj</emph>."
+msgid "To assign or modify a shortcut key: select a command in the <emph>Function</emph> list, select the key combination to be assigned in the <emph>Shortcut Keys</emph> list, then click <emph>Assign</emph>."
+msgstr ""
 
 #. BXkQm
 #: 06140200.xhp
@@ -43135,14 +43153,14 @@ msgctxt ""
 msgid "<ahelp hid=\"cui/ui/accelconfigpage/module\">Displays shortcut keys for the current $[officename] application.</ahelp>"
 msgstr "<ahelp hid=\"cui/ui/accelconfigpage/module\">Wyświetla skróty klawiaturowe zdefiniowane dla bieżącej aplikacji $[officename].</ahelp>"
 
-#. fmYnE
+#. FpST9
 #: 06140200.xhp
 msgctxt ""
 "06140200.xhp\n"
 "hd_id3150772\n"
 "help.text"
-msgid "Modify"
-msgstr "Modyfikuj"
+msgid "Assign"
+msgstr ""
 
 #. btCB8
 #: 06140200.xhp
@@ -48652,23 +48670,23 @@ msgctxt ""
 msgid "<variable id=\"formattingmark\"><link href=\"text/shared/01/formatting_mark.xhp\">Formatting Mark</link> </variable>"
 msgstr "<variable id=\"formattingmark\"><link href=\"text/shared/01/formatting_mark.xhp\">Znacznik formatowania</link></variable>"
 
-#. koBrW
+#. UGZYs
 #: formatting_mark.xhp
 msgctxt ""
 "formatting_mark.xhp\n"
 "par_id0302200910351248\n"
 "help.text"
-msgid "<ahelp hid=\".\">Opens a submenu to insert special formatting marks like non-breaking space, soft hyphen, and optional break.</ahelp>"
-msgstr "<ahelp hid=\".\">Otwiera podmenu służące do wstawiania specjalnych znaczników formatowania takich jak spacja nierozdzielająca, łącznik miękki i podział opcjonalny.</ahelp>"
+msgid "<ahelp hid=\".\">Opens a submenu to insert special formatting marks like no-break space, soft hyphen, and zero-width space.</ahelp>"
+msgstr ""
 
-#. bwYcn
+#. RJtjV
 #: formatting_mark.xhp
 msgctxt ""
 "formatting_mark.xhp\n"
 "hd_id9996948\n"
 "help.text"
-msgid "Non-breaking space"
-msgstr "Spacja nierozdzielająca"
+msgid "No-break space"
+msgstr ""
 
 #. GHcb4
 #: formatting_mark.xhp
@@ -48715,41 +48733,68 @@ msgctxt ""
 msgid "<ahelp hid=\".\">Inserts an invisible optional hyphen within a word that will appear and create a line break once it becomes the last character in a line.</ahelp>"
 msgstr "<ahelp hid=\".\">Wstawia w wyrazie niewidoczny, opcjonalny łącznik, który pojawi się i utworzy podział wiersza w przypadku, gdy będzie ostatnim znakiem wiersza.</ahelp>"
 
-#. Wytt6
+#. KEneD
+#: formatting_mark.xhp
+msgctxt ""
+"formatting_mark.xhp\n"
+"hd_id561694945005291\n"
+"help.text"
+msgid "Narrow no-break space"
+msgstr ""
+
+#. oz4SA
+#: formatting_mark.xhp
+msgctxt ""
+"formatting_mark.xhp\n"
+"par_id231694945031123\n"
+"help.text"
+msgid "Inserts a narrow version of the no-break space. The inserted character is Unicode <literal>U+202F</literal>."
+msgstr ""
+
+#. 3JMZm
 #: formatting_mark.xhp
 msgctxt ""
 "formatting_mark.xhp\n"
 "hd_id2295907\n"
 "help.text"
-msgid "No-width optional break"
-msgstr "Podział opcjonalny zerowej szerokości"
+msgid "Zero-width space"
+msgstr ""
 
-#. fUhyQ
+#. f9FeW
 #: formatting_mark.xhp
 msgctxt ""
 "formatting_mark.xhp\n"
 "par_id1536301\n"
 "help.text"
-msgid "<ahelp hid=\".\">Inserts an invisible space within a word that will insert a line break once it becomes the last character in a line. Available when complex text layout (CTL) is enabled.</ahelp>"
-msgstr "<ahelp hid=\".\">Wstawia w słowie niewidoczną spację, która utworzy podział wiersza w przypadku, gdy będzie ostatnim znakiem wiersza. Funkcja dostępna przy włączonym złożonym układzie tekstu (CTL).</ahelp>"
+msgid "<ahelp hid=\".\">Inserts an invisible space within a word that indicates a word or line break opportunity, even though no space is shown. The inserted character, which has no width, is Unicode<literal>U+200B</literal>.</ahelp>"
+msgstr ""
 
-#. jHLBC
+#. ZVLtD
 #: formatting_mark.xhp
 msgctxt ""
 "formatting_mark.xhp\n"
 "hd_id3245643\n"
 "help.text"
-msgid "Word Joiner"
-msgstr "Łącznik słów"
+msgid "Word joiner"
+msgstr ""
 
-#. 4Ur7Y
+#. tTBJH
 #: formatting_mark.xhp
 msgctxt ""
 "formatting_mark.xhp\n"
 "par_id1085238\n"
 "help.text"
-msgid "<ahelp hid=\".\">Inserts an invisible space within a word that will keep the word together at the end of a line. Available when complex text layout (CTL) is enabled.</ahelp>"
-msgstr "<ahelp hid=\".\">Wstawia w słowie niewidoczną spację, która zachowa sąsiadujące słowa obok siebie na końcu wiersza. Funkcja dostępna przy włączonym złożonym układzie tekstu (CTL).</ahelp>"
+msgid "<ahelp hid=\".\">Inserts an invisible space within a word to indicate that a line break is not allowed between the adjacent characters. The inserted character, which has no width, is Unicode <literal>U+2060</literal>.</ahelp>"
+msgstr ""
+
+#. BHT98
+#: formatting_mark.xhp
+msgctxt ""
+"formatting_mark.xhp\n"
+"par_id201695036157688\n"
+"help.text"
+msgid "To see the Unicode value for a character prior to the cursor position, use <switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command+Option+X</keycode></caseinline><defaultinline><keycode>Alt+X</keycode> (or <keycode>Alt+C</keycode> in some locales)</defaultinline></switchinline> as a toggle."
+msgstr ""
 
 #. vgtCd
 #: formatting_mark.xhp
@@ -57813,6 +57858,62 @@ msgctxt ""
 "help.text"
 msgid "<ahelp hid=\".\">Specifies the maximum number of characters for a string.</ahelp>"
 msgstr "<ahelp hid=\".\">Określa maksymalną liczbę znaków ciągu.</ahelp>"
+
+#~ msgctxt ""
+#~ "06140200.xhp\n"
+#~ "par_id531603928029282\n"
+#~ "help.text"
+#~ msgid "To assign or modify a shortcut key: select a command in the <emph>Function</emph> list, select the key combination to be assigned in the <emph>Shortcut Keys</emph> list, then click <emph>Modify</emph>."
+#~ msgstr "Aby przypisać lub zmodyfikować klawisz skrótu: wybierz polecenie z listy <emph>Funkcja</emph>, wybierz kombinację klawiszy, która ma zostać przypisana z listy <emph>Klawisze skrótów</emph>, a następnie kliknij <emph>Modyfikuj</emph>."
+
+#~ msgctxt ""
+#~ "06140200.xhp\n"
+#~ "hd_id3150772\n"
+#~ "help.text"
+#~ msgid "Modify"
+#~ msgstr "Modyfikuj"
+
+#~ msgctxt ""
+#~ "formatting_mark.xhp\n"
+#~ "par_id0302200910351248\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\".\">Opens a submenu to insert special formatting marks like non-breaking space, soft hyphen, and optional break.</ahelp>"
+#~ msgstr "<ahelp hid=\".\">Otwiera podmenu służące do wstawiania specjalnych znaczników formatowania takich jak spacja nierozdzielająca, łącznik miękki i podział opcjonalny.</ahelp>"
+
+#~ msgctxt ""
+#~ "formatting_mark.xhp\n"
+#~ "hd_id9996948\n"
+#~ "help.text"
+#~ msgid "Non-breaking space"
+#~ msgstr "Spacja nierozdzielająca"
+
+#~ msgctxt ""
+#~ "formatting_mark.xhp\n"
+#~ "hd_id2295907\n"
+#~ "help.text"
+#~ msgid "No-width optional break"
+#~ msgstr "Podział opcjonalny zerowej szerokości"
+
+#~ msgctxt ""
+#~ "formatting_mark.xhp\n"
+#~ "par_id1536301\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\".\">Inserts an invisible space within a word that will insert a line break once it becomes the last character in a line. Available when complex text layout (CTL) is enabled.</ahelp>"
+#~ msgstr "<ahelp hid=\".\">Wstawia w słowie niewidoczną spację, która utworzy podział wiersza w przypadku, gdy będzie ostatnim znakiem wiersza. Funkcja dostępna przy włączonym złożonym układzie tekstu (CTL).</ahelp>"
+
+#~ msgctxt ""
+#~ "formatting_mark.xhp\n"
+#~ "hd_id3245643\n"
+#~ "help.text"
+#~ msgid "Word Joiner"
+#~ msgstr "Łącznik słów"
+
+#~ msgctxt ""
+#~ "formatting_mark.xhp\n"
+#~ "par_id1085238\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\".\">Inserts an invisible space within a word that will keep the word together at the end of a line. Available when complex text layout (CTL) is enabled.</ahelp>"
+#~ msgstr "<ahelp hid=\".\">Wstawia w słowie niewidoczną spację, która zachowa sąsiadujące słowa obok siebie na końcu wiersza. Funkcja dostępna przy włączonym złożonym układzie tekstu (CTL).</ahelp>"
 
 #~ msgctxt ""
 #~ "01010202.xhp\n"
