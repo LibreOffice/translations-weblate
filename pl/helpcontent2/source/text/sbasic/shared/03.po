@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-04 18:04+0200\n"
-"PO-Revision-Date: 2023-10-12 06:13+0000\n"
+"PO-Revision-Date: 2023-10-13 13:37+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_help-7-4/textsbasicshared03/pl/>\n"
 "Language: pl\n"
@@ -15154,7 +15154,7 @@ msgctxt ""
 "par_id731584544734412\n"
 "help.text"
 msgid "Copies one or more folders from one location to another. Returns <literal>True</literal> if at least one folder has been copied or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Kopiuje jeden lub więcej folderów z jednej lokalizacji do drugiej. Zwraca wartość <literal>True</literal>, jeśli skopiowano co najmniej jeden folder, lub <literal>False</literal>, jeśli wystąpił błąd."
 
 #. TSLCU
 #: sf_filesystem.xhp
@@ -15163,7 +15163,7 @@ msgctxt ""
 "par_id21612999775377\n"
 "help.text"
 msgid "An error will also occur if the <literal>source</literal> parameter uses wildcard characters and does not match any folders."
-msgstr ""
+msgstr "Błąd wystąpi również, jeśli parametr <literal>source</literal> używa znaków wieloznacznych i nie pasuje do żadnego folderu."
 
 #. m3Hzh
 #: sf_filesystem.xhp
@@ -15172,7 +15172,7 @@ msgctxt ""
 "par_id701612999808912\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Metoda zatrzymuje się natychmiast po napotkaniu błędu. Metoda nie wycofuje zmian ani nie cofa zmian wprowadzonych przed wystąpieniem błędu."
 
 #. GCCf3
 #: sf_filesystem.xhp
@@ -15181,7 +15181,7 @@ msgctxt ""
 "par_id851584544734202\n"
 "help.text"
 msgid "<emph>source</emph>: It can be a <literal>FolderName</literal> or a <literal>NamePattern</literal> indicating one or more folders to be copied."
-msgstr ""
+msgstr "<emph>source</emph>: może to być <literal>FolderName</literal> lub <literal>NamePattern</literal> wskazujący jeden lub więcej folderów do skopiowania."
 
 #. msqGq
 #: sf_filesystem.xhp
@@ -15190,7 +15190,7 @@ msgctxt ""
 "par_id321584544734273\n"
 "help.text"
 msgid "<emph>destination</emph>: Specifies the <literal>FolderName</literal> into which the single or multiple folders defined in <literal>source</literal> are to be copied."
-msgstr ""
+msgstr "<emph>destination</emph>: określa <literal>FolderName</literal>, do którego mają zostać skopiowane jeden lub wiele folderów zdefiniowanych w <literal>source</literal>."
 
 #. iLKYc
 #: sf_filesystem.xhp
@@ -15199,7 +15199,7 @@ msgctxt ""
 "par_id491612999134762\n"
 "help.text"
 msgid "If <literal>destination</literal> does not exist, it is created."
-msgstr ""
+msgstr "Jeśli <literal>destination</literal> nie istnieje, zostanie utworzone."
 
 #. TvYDS
 #: sf_filesystem.xhp
@@ -15208,7 +15208,7 @@ msgctxt ""
 "par_id591612999166740\n"
 "help.text"
 msgid "Wildcard characters are not allowed in <literal>destination</literal>."
-msgstr ""
+msgstr "Znaki wieloznaczne nie są dozwolone w <literal>destination</literal>."
 
 #. 3A2C2
 #: sf_filesystem.xhp
@@ -15217,7 +15217,7 @@ msgctxt ""
 "par_id251584542431525\n"
 "help.text"
 msgid "<emph>overwrite</emph>: If <literal>True</literal> (default), files may be overwritten. The method will fail if <literal>destination</literal> is readonly, regardless of the value specified in <literal>overwrite</literal>."
-msgstr ""
+msgstr "<emph>overwrite</emph>: jeśli <literal>True</literal> (domyślnie), pliki mogą zostać nadpisane. Metoda nie powiedzie się, jeśli <literal>destination</literal> jest tylko do odczytu, niezależnie od wartości określonej w <literal>overwrite</literal>."
 
 #. 7CxBB
 #: sf_filesystem.xhp
@@ -15226,7 +15226,7 @@ msgctxt ""
 "par_id751626216627481\n"
 "help.text"
 msgid "In the examples below all files, folders and subfolders are copied."
-msgstr ""
+msgstr "W poniższych przykładach kopiowane są wszystkie pliki, foldery i podfoldery."
 
 #. fNBgH
 #: sf_filesystem.xhp
@@ -15235,7 +15235,7 @@ msgctxt ""
 "par_id31158454067562\n"
 "help.text"
 msgid "Creates the specified <literal>FolderName</literal>. Returns <literal>True</literal> if the folder could be successfully created."
-msgstr ""
+msgstr "Tworzy określony <literal>FolderName</literal>. Zwraca <literal>True</literal>, jeśli folder mógł zostać pomyślnie utworzony."
 
 #. 9H3cp
 #: sf_filesystem.xhp
@@ -15244,7 +15244,7 @@ msgctxt ""
 "par_id431613000475359\n"
 "help.text"
 msgid "If the specified folder has a parent folder that does not exist, it is created."
-msgstr ""
+msgstr "Jeśli określony folder ma folder nadrzędny, który nie istnieje, zostanie on utworzony."
 
 #. 7gTts
 #: sf_filesystem.xhp
@@ -15253,7 +15253,7 @@ msgctxt ""
 "par_id491584540675469\n"
 "help.text"
 msgid "<emph>foldername</emph>: A string representing the folder to be created. If the folder already exists, an exception will be raised."
-msgstr ""
+msgstr "<emph>foldername</emph>: ciąg reprezentujący folder, który ma zostać utworzony. Jeśli folder już istnieje, zostanie zgłoszony wyjątek."
 
 #. 2zcfH
 #: sf_filesystem.xhp
@@ -15262,7 +15262,7 @@ msgctxt ""
 "par_id731585322689518\n"
 "help.text"
 msgid "Creates a specified file and returns a <literal>TextStream</literal> service instance that can be used to write to the file."
-msgstr ""
+msgstr "Tworzy określony plik i zwraca instancję usługi <literal>TextStream</literal>, która może być użyta do zapisu w pliku."
 
 #. YMZDA
 #: sf_filesystem.xhp
@@ -15271,7 +15271,7 @@ msgctxt ""
 "par_id821613001057759\n"
 "help.text"
 msgid "The method returns a <literal>Null</literal> object if an error occurred."
-msgstr ""
+msgstr "Metoda zwraca obiekt <literal>Null</literal>, jeśli wystąpił błąd."
 
 #. 2NPVD
 #: sf_filesystem.xhp
@@ -15280,7 +15280,7 @@ msgctxt ""
 "par_id901585322689715\n"
 "help.text"
 msgid "<emph>filename</emph>: The name of the file to be created."
-msgstr ""
+msgstr "<emph>filename</emph>: nazwa pliku, który ma zostać utworzony."
 
 #. gEJA4
 #: sf_filesystem.xhp
@@ -15289,7 +15289,7 @@ msgctxt ""
 "par_id501585322689209\n"
 "help.text"
 msgid "<emph>overwrite</emph>: Boolean value that determines if <literal>filename</literal> can be overwritten (default = <literal>True</literal>)."
-msgstr ""
+msgstr "<emph>overwrite</emph>: wartość logiczna określająca, czy <literal>filename</literal> może zostać nadpisana (domyślnie = <literal>True</literal>)."
 
 #. CkbhC
 #: sf_filesystem.xhp
@@ -15298,7 +15298,7 @@ msgctxt ""
 "par_id551585322689192\n"
 "help.text"
 msgid "<emph>encoding</emph>: The character set to be used. The default encoding is \"UTF-8\"."
-msgstr ""
+msgstr "<emph>encoding</emph>: zestaw znaków, który ma być używany. Domyślne kodowanie to „UTF-8”."
 
 #. eoE92
 #: sf_filesystem.xhp
@@ -15316,7 +15316,7 @@ msgctxt ""
 "par_id11584882040881\n"
 "help.text"
 msgid "Deletes one or more files. Returns <literal>True</literal> if at least one file has been deleted or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Usuwa jeden lub więcej plików. Zwraca <literal>True</literal>, jeśli co najmniej jeden plik został usunięty, lub <literal>False</literal>, jeśli wystąpił błąd."
 
 #. y69YZ
 #: sf_filesystem.xhp
@@ -15325,7 +15325,7 @@ msgctxt ""
 "par_id21612999775356\n"
 "help.text"
 msgid "An error will also occur if the <literal>filename</literal> parameter uses wildcard characters and does not match any files."
-msgstr ""
+msgstr "Błąd wystąpi również, jeśli parametr <literal>filename</literal> używa znaków wieloznacznych i nie pasuje do żadnego pliku."
 
 #. TWJRd
 #: sf_filesystem.xhp
@@ -15334,7 +15334,7 @@ msgctxt ""
 "par_id21613001848493\n"
 "help.text"
 msgid "The files to be deleted must not be readonly."
-msgstr ""
+msgstr "Pliki przeznaczone do usunięcia nie mogą być przeznaczone tylko do odczytu."
 
 #. PEFBq
 #: sf_filesystem.xhp
@@ -15343,7 +15343,7 @@ msgctxt ""
 "par_id701612999808832\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Metoda zatrzymuje się natychmiast po napotkaniu błędu. Metoda nie wycofuje zmian ani nie cofa zmian wprowadzonych przed wystąpieniem błędu."
 
 #. DkCdk
 #: sf_filesystem.xhp
@@ -15352,7 +15352,7 @@ msgctxt ""
 "par_id441584882040860\n"
 "help.text"
 msgid "<emph>filename</emph>: It can be a <literal>FileName</literal> or a <literal>NamePattern</literal> indicating one or more files to be deleted."
-msgstr ""
+msgstr "<emph>filename</emph>: może to być <literal>FileName</literal> lub <literal>NamePattern</literal> wskazująca jeden lub więcej plików do usunięcia."
 
 #. FnaSi
 #: sf_filesystem.xhp
@@ -15361,7 +15361,7 @@ msgctxt ""
 "par_id851626217167909\n"
 "help.text"
 msgid "In the examples below only files are deleted, subfolders are not deleted."
-msgstr ""
+msgstr "W poniższych przykładach usuwane są tylko pliki, podfoldery nie są usuwane."
 
 #. c9ZCd
 #: sf_filesystem.xhp
@@ -15370,7 +15370,7 @@ msgctxt ""
 "par_id11584882015881\n"
 "help.text"
 msgid "Deletes one or more folders. Returns <literal>True</literal> if at least one folder has been deleted or <literal>False</literal> if an error occurred."
-msgstr ""
+msgstr "Usuwa jeden lub więcej folderów. Zwraca wartość <literal>True</literal>, jeśli co najmniej jeden folder został usunięty, lub <literal>False</literal>, jeśli wystąpił błąd."
 
 #. bGmGo
 #: sf_filesystem.xhp
@@ -15379,7 +15379,7 @@ msgctxt ""
 "par_id21612999775346\n"
 "help.text"
 msgid "An error will also occur if the <literal>foldername</literal> parameter uses wildcard characters and does not match any folders."
-msgstr ""
+msgstr "Błąd wystąpi również, jeśli parametr <literal>foldername</literal> używa znaków wieloznacznych i nie pasuje do żadnego folderu."
 
 #. GsqDD
 #: sf_filesystem.xhp
@@ -15388,7 +15388,7 @@ msgctxt ""
 "par_id21613001848853\n"
 "help.text"
 msgid "The folders to be deleted must not be readonly."
-msgstr ""
+msgstr "Foldery, które mają zostać usunięte, nie mogą być przeznaczone tylko do odczytu."
 
 #. kRSqe
 #: sf_filesystem.xhp
@@ -15397,7 +15397,7 @@ msgctxt ""
 "par_id701612999808842\n"
 "help.text"
 msgid "The method stops immediately after it encounters an error. The method does not roll back nor does it undo changes made before the error occurred."
-msgstr ""
+msgstr "Metoda zatrzymuje się natychmiast po napotkaniu błędu. Metoda nie wycofuje zmian ani nie cofa zmian wprowadzonych przed wystąpieniem błędu."
 
 #. 7YCXM
 #: sf_filesystem.xhp
@@ -15406,7 +15406,7 @@ msgctxt ""
 "par_id451584882542247\n"
 "help.text"
 msgid "<emph>foldername</emph>: It can be a <literal>FolderName</literal> or a <literal>NamePattern</literal> indicating one or more folders to be deleted."
-msgstr ""
+msgstr "<emph>foldername</emph>: może to być <literal>FolderName</literal> lub <literal>NamePattern</literal> wskazujący jeden lub więcej folderów do usunięcia."
 
 #. cCnG9
 #: sf_filesystem.xhp
@@ -15415,7 +15415,7 @@ msgctxt ""
 "par_id651626217314709\n"
 "help.text"
 msgid "In the examples below only folders and their contents are deleted. Files in the parent folder \"C:\\Temp\" are not deleted."
-msgstr ""
+msgstr "W poniższych przykładach usuwane są tylko foldery i ich zawartość. Pliki w folderze nadrzędnym „C:\\Temp” nie są usuwane."
 
 #. gSG9s
 #: sf_filesystem.xhp
@@ -15424,7 +15424,7 @@ msgctxt ""
 "par_id11584882015025\n"
 "help.text"
 msgid "Returns a string containing the folder where the specified extension package is installed."
-msgstr ""
+msgstr "Zwraca ciąg znaków zawierający folder, w którym jest zainstalowany określony pakiet rozszerzeń."
 
 #. xuDgD
 #: sf_filesystem.xhp
@@ -15451,7 +15451,7 @@ msgctxt ""
 "par_id451584882542121\n"
 "help.text"
 msgid "<emph>extension</emph>: A string value with the ID of the extension. If the extension is not installed, an exception is raised."
-msgstr ""
+msgstr "<emph>extension</emph>: wartość ciągu z identyfikatorem rozszerzenia. Jeśli rozszerzenie nie jest zainstalowane, zgłaszany jest wyjątek."
 
 #. YhQmv
 #: sf_filesystem.xhp
@@ -15460,7 +15460,7 @@ msgctxt ""
 "par_id651626217313369\n"
 "help.text"
 msgid "The examples below in Basic and Python return the folder where the APSO extension is installed."
-msgstr ""
+msgstr "Poniższe przykłady w języku Basic i Python zwracają folder, w którym zainstalowane jest rozszerzenie APSO."
 
 #. ZbyLn
 #: sf_filesystem.xhp
@@ -15469,7 +15469,7 @@ msgctxt ""
 "par_id161583764426709\n"
 "help.text"
 msgid "Returns <literal>True</literal> if a given file name is valid and exists, otherwise the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Zwraca <literal>True</literal>, jeśli dana nazwa pliku jest poprawna i istnieje, w przeciwnym razie metoda zwraca <literal>False</literal>."
 
 #. 7j5TN
 #: sf_filesystem.xhp
@@ -15478,7 +15478,7 @@ msgctxt ""
 "par_id91613003122613\n"
 "help.text"
 msgid "If the <literal>filename</literal> parameter is actually an existing folder name, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Jeśli parametr <literal>filename</literal> jest w rzeczywistości nazwą istniejącego folderu, metoda zwraca wartość <literal>False</literal >."
 
 #. fr2Ei
 #: sf_filesystem.xhp
@@ -15487,7 +15487,7 @@ msgctxt ""
 "par_id361583764426547\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing the file to be tested."
-msgstr ""
+msgstr "<emph>filename</emph>: ciąg reprezentujący plik do przetestowania."
 
 #. ChDCL
 #: sf_filesystem.xhp
@@ -15496,7 +15496,7 @@ msgctxt ""
 "par_id11158394432779\n"
 "help.text"
 msgid "Returns a zero-based array of the files stored in a given folder. Each entry in the array is a string containing the full path and file name."
-msgstr ""
+msgstr "Zwraca tablicę od zera zawierającą pliki przechowywane w danym folderze. Każdy wpis w tablicy jest ciągiem znaków zawierającym pełną ścieżkę i nazwę pliku."
 
 #. JVjE3
 #: sf_filesystem.xhp
@@ -15505,7 +15505,7 @@ msgctxt ""
 "par_id641613003790120\n"
 "help.text"
 msgid "If the argument <literal>foldername</literal> specifies a folder that does not exist, an exception is raised."
-msgstr ""
+msgstr "Jeśli argument <literal>foldername</literal> określa folder, który nie istnieje, zgłaszany jest wyjątek."
 
 #. nFaPD
 #: sf_filesystem.xhp
@@ -15514,7 +15514,7 @@ msgctxt ""
 "par_id821613003779799\n"
 "help.text"
 msgid "The resulting list may be filtered with wildcards."
-msgstr ""
+msgstr "Otrzymaną listę można filtrować za pomocą symboli wieloznacznych."
 
 #. bq6vD
 #: sf_filesystem.xhp
@@ -15523,7 +15523,7 @@ msgctxt ""
 "par_id731583944543140\n"
 "help.text"
 msgid "<emph>foldername</emph>: A string representing a folder. The folder must exist. This argument must not designate a file."
-msgstr ""
+msgstr "<emph>foldername</emph>: ciąg reprezentujący folder. Folder musi istnieć. Argument ten nie może oznaczać pliku."
 
 #. EM5cJ
 #: sf_filesystem.xhp
@@ -15532,7 +15532,7 @@ msgctxt ""
 "par_id591585648450060\n"
 "help.text"
 msgid "<emph>filter</emph>: A string containing wildcards (\"?\" and \"*\") that will be applied to the resulting list of files (default = \"\")."
-msgstr ""
+msgstr "<emph>filter</emph>: ciąg znaków zawierający symbole wieloznaczne (\"?\" i \"*\"), który zostanie zastosowany do wynikowej listy plików (domyślnie = \"\")."
 
 #. zG7ec
 #: sf_filesystem.xhp
@@ -15541,7 +15541,7 @@ msgctxt ""
 "par_id51583765642590\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the specified <literal>FolderName</literal> is valid and exists, otherwise the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Zwraca <literal>True</literal>, jeśli określona <literal>FolderName</literal> jest poprawna i istnieje, w przeciwnym razie metoda zwraca <literal>False</literal>."
 
 #. 9xtCG
 #: sf_filesystem.xhp
@@ -15550,7 +15550,7 @@ msgctxt ""
 "par_id151613004111990\n"
 "help.text"
 msgid "If the <literal>foldername</literal> parameter is actually an existing file name, the method returns <literal>False</literal>."
-msgstr ""
+msgstr "Jeśli parametr <literal>foldername</literal> jest w rzeczywistości istniejącą nazwą pliku, metoda zwraca wartość <literal>False</literal>."
 
 #. qrf4A
 #: sf_filesystem.xhp
@@ -15559,7 +15559,7 @@ msgctxt ""
 "par_id1001583765642211\n"
 "help.text"
 msgid "<emph>foldername</emph>: A string representing the folder to be tested."
-msgstr ""
+msgstr "<emph>foldername</emph>: ciąg reprezentujący folder, który ma zostać przetestowany."
 
 #. eAFVs
 #: sf_filesystem.xhp
@@ -15568,7 +15568,7 @@ msgctxt ""
 "par_id521584110618989\n"
 "help.text"
 msgid "Returns the <literal>BaseName</literal> (equal to the last component) of a folder or file name, without its extension."
-msgstr ""
+msgstr "Zwraca <literal>BaseName</literal> (równą ostatniemu składnikowi) nazwy folderu lub pliku, bez jego rozszerzenia."
 
 #. YnBXv
 #: sf_filesystem.xhp
@@ -15577,7 +15577,7 @@ msgctxt ""
 "par_id731613004316790\n"
 "help.text"
 msgid "The method does not check if the specified file or folder exists."
-msgstr ""
+msgstr "Metoda nie sprawdza, czy określony plik lub folder istnieje."
 
 #. 3FPjB
 #: sf_filesystem.xhp
@@ -15586,7 +15586,7 @@ msgctxt ""
 "par_id691584110618308\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing the file name and its path."
-msgstr ""
+msgstr "<emph>filename</emph>: ciąg reprezentujący nazwę pliku i jego ścieżkę."
 
 #. jwFaP
 #: sf_filesystem.xhp
@@ -15595,7 +15595,7 @@ msgctxt ""
 "par_id1001626271201609\n"
 "help.text"
 msgid "In the examples below, the first <literal>GetBaseName</literal> method call corresponds to a folder, so the function returns the last component of the path. The second call receives a file name as input, so the name of the file is returned without its extension."
-msgstr ""
+msgstr "W poniższych przykładach pierwsze wywołanie metody <literal>GetBaseName</literal> odpowiada folderowi, więc funkcja zwraca ostatni składnik ścieżki. Drugie wywołanie jako dane wejściowe otrzymuje nazwę pliku, więc zwracana jest nazwa pliku bez rozszerzenia."
 
 #. A56XC
 #: sf_filesystem.xhp
@@ -15604,7 +15604,7 @@ msgctxt ""
 "par_id831584032680866\n"
 "help.text"
 msgid "Returns the extension part of a file or folder name without the dot \".\" character."
-msgstr ""
+msgstr "Zwraca część rozszerzenia nazwy pliku lub folderu bez znaku kropki \".\"."
 
 #. pdCJv
 #: sf_filesystem.xhp
@@ -15613,7 +15613,7 @@ msgctxt ""
 "par_id941613060736524\n"
 "help.text"
 msgid "The method does not check for the existence of the specified file or folder."
-msgstr ""
+msgstr "Metoda nie sprawdza istnienia określonego pliku lub folderu."
 
 #. Aqvwt
 #: sf_filesystem.xhp
@@ -15622,7 +15622,7 @@ msgctxt ""
 "par_id561613060896361\n"
 "help.text"
 msgid "If this method is applied to a folder name or to a file without an extension, then an empty string is returned."
-msgstr ""
+msgstr "Jeśli tę metodę zastosuje się do nazwy folderu lub pliku bez rozszerzenia, zwracany jest pusty ciąg znaków."
 
 #. NzK5z
 #: sf_filesystem.xhp
@@ -15631,7 +15631,7 @@ msgctxt ""
 "par_id821584032680311\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing the file name and its path."
-msgstr ""
+msgstr "<emph>filename</emph>: ciąg reprezentujący nazwę pliku i jego ścieżkę."
 
 #. Am6Bu
 #: sf_filesystem.xhp
@@ -15640,7 +15640,7 @@ msgctxt ""
 "par_id48160068505010\n"
 "help.text"
 msgid "The builtin <literal>FileLen</literal> Basic function returns the number of bytes contained in a file as a <literal>Long</literal> value, i.e. up to 2GB."
-msgstr ""
+msgstr "Wbudowana funkcja Basic <literal>FileLen</literal> zwraca liczbę bajtów zawartych w pliku jako wartość <literal>Long</literal>, czyli do 2 GB."
 
 #. 2FHpa
 #: sf_filesystem.xhp
@@ -15649,7 +15649,7 @@ msgctxt ""
 "par_id571613061005426\n"
 "help.text"
 msgid "The <literal>GetFileLen</literal> method can handle files with much larger sizes by returning a <literal>Currency</literal> value."
-msgstr ""
+msgstr "Metoda <literal>GetFileLen</literal> może obsłużyć pliki o znacznie większych rozmiarach, zwracając wartość <literal>Currency</literal>."
 
 #. PK2Fo
 #: sf_filesystem.xhp
@@ -15658,7 +15658,7 @@ msgctxt ""
 "par_id161600685050367\n"
 "help.text"
 msgid "<emph>filename</emph>: A string representing an existing file."
-msgstr ""
+msgstr "<emph>filename</emph>: ciąg reprezentujący istniejący plik."
 
 #. o2GGJ
 #: sf_filesystem.xhp
