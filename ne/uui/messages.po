@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-10-11 14:17+0200\n"
-"PO-Revision-Date: 2023-10-15 04:52+0000\n"
+"PO-Revision-Date: 2023-10-16 14:08+0000\n"
 "Last-Translator: Saroj Dhakal <lotusnagarkot@gmail.com>\n"
 "Language-Team: Nepali <https://translations.documentfoundation.org/projects/libo_ui-master/uuimessages/ne/>\n"
 "Language: ne\n"
@@ -61,36 +61,43 @@ msgid ""
 "\n"
 "Are you certain that this file is a legacy document created many years ago?"
 msgstr ""
+"होसियार!\n"
+"\n"
+"तपाईँ अति असामान्य प्रकारको फाइल ($(ARG2)) निम्न URL लोड गर्न लाग्दै हुनुहुन्छ:\n"
+"\n"
+"$(ARG1)\n"
+"\n"
+"के यो फाईल धेरै पहिले सिर्जना गरिएको र पुरातन प्रकारको हो भन्ने कुरामा निश्चित हुनुहुन्छ ?"
 
 #. v6bPE
 #: uui/inc/ids.hrc:45
 msgctxt "RID_UUI_ERRHDL"
 msgid "The data from $(ARG1) has an incorrect checksum."
-msgstr "$(ARG1) गलत जाँचयोगबाट डेटा"
+msgstr "$(ARG1) बाट आएको डेटाको चेकसम सहि छैन।"
 
 #. AGF5W
 #: uui/inc/ids.hrc:47
 msgctxt "RID_UUI_ERRHDL"
 msgid "The object $(ARG1) cannot be created in directory $(ARG2)."
-msgstr "डाइरेक्टरी $(ARG2) मा वस्तु $(ARG1) सिर्जना हुन सक्दैन"
+msgstr "डाइरेक्टरी $(ARG2) मा अब्जेक्ट $(ARG1) सिर्जना गर्न सकिँदैन।"
 
 #. Dw4Ff
 #: uui/inc/ids.hrc:49
 msgctxt "RID_UUI_ERRHDL"
 msgid "Data of $(ARG1) could not be read."
-msgstr "$(ARG1) को डेटा पढ्न सकिदैन ।"
+msgstr "$(ARG1) को डेटा खोल्न सकिँदैन ।"
 
 #. Qc4E9
 #: uui/inc/ids.hrc:51
 msgctxt "RID_UUI_ERRHDL"
 msgid "The seek operation on $(ARG1) could not be performed."
-msgstr "$(ARG1) मा खोजिकार्य गर्ने सञ्चालन प्रस्तुत हुन सकेन ।"
+msgstr "$(ARG1) मा खोज्ने कार्य गर्न सकिएन ।"
 
 #. CD7zU
 #: uui/inc/ids.hrc:53
 msgctxt "RID_UUI_ERRHDL"
 msgid "The tell operation on $(ARG1) could not be performed."
-msgstr "$(ARG1) मा सोध्ने सञ्चालन प्रस्तुत हुन सकेन ।"
+msgstr "$(ARG1) मा टेल कार्य गर्न सकिएन ।"
 
 #. AkGXL
 #: uui/inc/ids.hrc:55
@@ -102,7 +109,7 @@ msgstr "$(ARG1) को लागि डेटा लेख्न सकिएन
 #: uui/inc/ids.hrc:57
 msgctxt "RID_UUI_ERRHDL"
 msgid "Action impossible: $(ARG1) is the current directory."
-msgstr "कार्य असंभव: $(ARG1) हालको डाइरेक।टरी हो ।"
+msgstr "गर्न नसकिने कार्य: $(ARG1) तपाईँ रहनुभएको डाइरेक्टरी हो ।"
 
 #. wWVF2
 #: uui/inc/ids.hrc:59
@@ -114,43 +121,43 @@ msgstr "$(ARG1) तयार छैन ।"
 #: uui/inc/ids.hrc:61
 msgctxt "RID_UUI_ERRHDL"
 msgid "Action impossible: $(ARG1) and $(ARG2) are different devices (drives)."
-msgstr "कार्य असंभव: $(ARG1) र $(ARG2) फरक यन्त्रहरू हुन (ड्राइभ्स)"
+msgstr "गर्न नसकिने कार्य: $(ARG1) र $(ARG2) फरक यन्त्रहरू हुन (ड्राइभहरू)।"
 
 #. ic2pB
 #: uui/inc/ids.hrc:63
 msgctxt "RID_UUI_ERRHDL"
 msgid "General input/output error while accessing $(ARG1)."
-msgstr "$(ARG1) पहुँच गर्दा सामान्य आगत/निर्गत त्रुटि ।"
+msgstr "$(ARG1) खोल्दा गर्दा सामान्य इन्पुट या आउटपुट त्रुटि भयो।"
 
 #. r6GVi
 #: uui/inc/ids.hrc:65
 msgctxt "RID_UUI_ERRHDL"
 msgid "An attempt was made to access $(ARG1) in an invalid way."
-msgstr "अवैध मार्गमा $(ARG1) पहुँच गर्न पूर्ण हुन सकेन ।"
+msgstr "$(ARG1) खोल्ने गर्ने प्रयास अमान्य तरिकाबाट भएकोले पूरा हुन सकेन ।"
 
 #. Y6bwq
 #: uui/inc/ids.hrc:67
 msgctxt "RID_UUI_ERRHDL"
 msgid "$(ARG1) contains invalid characters."
-msgstr "$(ARG1) ले अवैध क्यारेक्टर समावेस गर्दछ ।"
+msgstr "$(ARG1) ले अमान्य क्यारेक्टर समावेस गर्दछ ।"
 
 #. 5HEak
 #: uui/inc/ids.hrc:69
 msgctxt "RID_UUI_ERRHDL"
 msgid "The device (drive) $(ARG1) is invalid."
-msgstr "यन्त्र (ड्राईभ) $(ARG1) अवैध छ ।"
+msgstr "यन्त्र (ड्राइभ) $(ARG1) अमान्य छ ।"
 
 #. Ykhp2
 #: uui/inc/ids.hrc:71
 msgctxt "RID_UUI_ERRHDL"
 msgid "The data from $(ARG1) has an invalid length."
-msgstr "$(ARG1) को अवैध लम्बाइबाट डेटा ।"
+msgstr "$(ARG1) मा भएको डेटाको आकार‍ मिलेन।"
 
 #. CbZfa
 #: uui/inc/ids.hrc:73
 msgctxt "RID_UUI_ERRHDL"
 msgid "The operation on $(ARG1) was started with an invalid parameter."
-msgstr "अवैध परिमितिसँग सुरु भएको $(ARG1) मा सञ्चालन ।"
+msgstr "$(ARG1) मा कार्य अमान्य प्यारामिटर सहित सुरु गरिएको थियो।"
 
 #. fEQmj
 #: uui/inc/ids.hrc:75
