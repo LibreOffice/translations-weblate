@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-10-02 11:34+0200\n"
-"PO-Revision-Date: 2023-11-01 12:38+0000\n"
+"PO-Revision-Date: 2023-11-02 13:37+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/pl/>\n"
 "Language: pl\n"
@@ -1661,7 +1661,9 @@ msgctxt ""
 "par_id641585562341028\n"
 "help.text"
 msgid "Each line in the file contains a full record (line splitting is not allowed).     <br/>However sequences like <literal>\\n</literal>, <literal>\\t</literal>, ... are left unchanged. Use <literal>SF_String</literal>.Unescape() method to manage them."
-msgstr "Każda linia w pliku zawiera pełny rekord (podział linii nie jest dozwolony). <br/>Jednakże sekwencje takie jak <literal>\\n</literal>, <literal>\\t</literal>, ... pozostają niezmienione. Użyj metody <literal>SF_String</literal>.Unescape(), aby nimi zarządzać."
+msgstr ""
+"Każdy wiersz w pliku zawiera pełny rekord (podział wiersza nie jest dozwolony). <br/>Jednakże sekwencje takie jak <literal>\\n"
+"</literal>, <literal>\\t</literal>, ... pozostają niezmienione. Użyj metody <literal>SF_String</literal>.Unescape(), aby nimi zarządzać."
 
 #. dCYB3
 #: sf_array.xhp
@@ -1679,7 +1681,7 @@ msgctxt ""
 "par_id101585562548245\n"
 "help.text"
 msgid "If a line contains less or more fields than the first line in the file, an exception will be raised. Empty lines however are simply ignored. If the size of the file exceeds the number of items limit (see inside the code), a warning is raised and the array is truncated."
-msgstr "Jeśli linia zawiera mniej lub więcej pól niż pierwsza linia w pliku, zostanie zgłoszony wyjątek. Puste linie są jednak po prostu ignorowane. Jeśli rozmiar pliku przekracza limit liczby elementów (patrz wewnątrz kodu), pojawia się ostrzeżenie i tablica jest obcinana."
+msgstr "Jeśli wiersz zawiera mniej lub więcej pól niż pierwszy wiersz w pliku, zostanie zgłoszony wyjątek. Puste wiersze są jednak po prostu ignorowane. Jeśli rozmiar pliku przekracza limit liczby elementów (patrz wewnątrz kodu), pojawia się ostrzeżenie i tablica jest obcinana."
 
 #. zGf5A
 #: sf_array.xhp
@@ -11831,7 +11833,7 @@ msgctxt ""
 "par_id241688132171052\n"
 "help.text"
 msgid "<emph>MultiLine</emph>: When <literal>True</literal> (default = <literal>False</literal>), the caption may be displayed on more than one line."
-msgstr "<emph>MultiLine</emph>: gdy <literal>True</literal> (domyślnie = <literal>False</literal>), podpis może być wyświetlany w więcej niż jednej linii."
+msgstr "<emph>MultiLine</emph>: gdy <literal>True</literal> (domyślnie = <literal>False</literal>), podpis może być wyświetlany w więcej niż jednym wierszu."
 
 #. c7gRE
 #: sf_dialog.xhp
@@ -11867,7 +11869,7 @@ msgctxt ""
 "par_id901688132529427\n"
 "help.text"
 msgid "<emph>LineCount</emph>: Specifies the maximum line count displayed in the drop down (default = 5)"
-msgstr "<emph>LineCount</emph>: określa maksymalną liczbę linii wyświetlaną na liście rozwijanej (domyślnie = 5)"
+msgstr "<emph>LineCount</emph>: określa maksymalną liczbę wierszy wyświetlaną na liście rozwijanej (domyślnie = 5)"
 
 #. No6yL
 #: sf_dialog.xhp
@@ -12236,7 +12238,7 @@ msgctxt ""
 "par_id121688135552418\n"
 "help.text"
 msgid "<emph>LineCount</emph>: Specifies the maximum line count displayed in the drop down (default = 5)"
-msgstr "<emph>LineCount</emph>: określa maksymalną liczbę linii wyświetlaną na liście rozwijanej (domyślnie = 5)"
+msgstr "<emph>LineCount</emph>: określa maksymalną liczbę wierszy wyświetlaną na liście rozwijanej (domyślnie = 5)"
 
 #. C3VzG
 #: sf_dialog.xhp
@@ -15017,7 +15019,7 @@ msgctxt ""
 "par_id671598619892378\n"
 "help.text"
 msgid "Add a new line at the end of a multiline text field. A newline character will be inserted when appropriate. The method returns <literal>True</literal> when successful."
-msgstr "Dodaj nową linię na końcu wielowierszowego pola tekstowego. W stosownych przypadkach zostanie wstawiony znak nowej linii. Metoda zwraca wartość <literal>True</literal>, jeśli operacja się powiedzie."
+msgstr "Dodaj nowy wiersz na końcu wielowierszowego pola tekstowego. W stosownych przypadkach zostanie wstawiony znak nowego wiersza. Metoda zwraca wartość <literal>True</literal>, jeśli operacja się powiedzie."
 
 #. D29nu
 #: sf_dialogcontrol.xhp
@@ -15035,7 +15037,7 @@ msgctxt ""
 "par_id1001584541257789\n"
 "help.text"
 msgid "<emph>Line</emph>: The string to insert. Default is an empty line."
-msgstr "<emph>Line</emph>: ciąg do wstawienia. Domyślnie jest to pusta linia."
+msgstr "<emph>Line</emph>: ciąg do wstawienia. Domyślnie jest to pusty wiersz."
 
 #. opNus
 #: sf_dictionary.xhp
@@ -15413,7 +15415,7 @@ msgctxt ""
 "par_id8816012968362\n"
 "help.text"
 msgid "<emph>indent</emph>: When <literal>indent</literal> is a positive number or a text, JSON array elements and object members are pretty-printed with that indentation level. A negative <literal>indent</literal> value will add new lines with no indentation. The default value is an empty string \"\" which selects the most compact representation. Using a positive integer for <literal>indent</literal> indents that many spaces per level. When <literal>indent</literal> is a string, such as <literal>Chr(9)</literal> or <literal>Tab(1)</literal>, the Tab character is used to indent each level."
-msgstr "<emph>indent</emph>: gdy <literal>indent</literal> jest liczbą dodatnią lub tekstem, elementy tablicy JSON i elementy obiektu są ładnie drukowane z tym poziomem wcięcia. Ujemna wartość <literal>indent</literal> spowoduje dodanie nowych linii bez wcięć. Wartość domyślna to pusty ciąg znaków „”, który wybiera najbardziej zwartą reprezentację. Użycie dodatniej liczby całkowitej dla <literal>indent</literal> powoduje wcięcie o tyle spacji na poziom. Gdy <literal>indent</literal> jest ciągiem znaków, np. <literal>Chr(9)</literal> lub <literal>Tab(1)</literal>, znak tabulacji służy do wcięcia każdego poziomu."
+msgstr "<emph>indent</emph>: gdy <literal>indent</literal> jest liczbą dodatnią lub tekstem, elementy tablicy JSON i elementy obiektu są ładnie drukowane z tym poziomem wcięcia. Ujemna wartość <literal>indent</literal> spowoduje dodanie nowych wierszy bez wcięć. Wartość domyślna to pusty ciąg znaków \"\", który wybiera najbardziej zwartą reprezentację. Użycie dodatniej liczby całkowitej dla <literal>indent</literal> powoduje wcięcie o tyle spacji na poziom. Gdy <literal>indent</literal> jest ciągiem znaków, np. <literal>Chr(9)</literal> lub <literal>Tab(1)</literal>, znak tabulacji służy do wcięcia każdego poziomu."
 
 #. sQuKi
 #: sf_dictionary.xhp
@@ -22964,7 +22966,7 @@ msgctxt ""
 "par_id701623366829587\n"
 "help.text"
 msgid "To run the example above, enter each line in the Python shell, one by one, pressing the Enter key after you type each line of code."
-msgstr "Aby uruchomić powyższy przykład, wprowadź każdą linię w powłoce Pythona, jedna po drugiej, naciskając klawisz Enter po wpisaniu każdej linii kodu."
+msgstr "Aby uruchomić powyższy przykład, wprowadź każdy wiersz w powłoce Pythona, jeden po drugim, naciskając klawisz Enter po wpisaniu każdego wiersza kodu."
 
 #. 4PS26
 #: sf_intro.xhp
@@ -23279,7 +23281,7 @@ msgctxt ""
 "par_id351623373686414\n"
 "help.text"
 msgid "The second line of code above defines the <literal>host</literal> and <literal>port</literal> settings so that the Python shell can communicate with an ongoing %PRODUCTNAME process opened with the same socket settings."
-msgstr "Druga linia kodu powyżej definiuje ustawienia <literal>host</literal> i <literal>port</literal>, dzięki czemu powłoka Pythona może komunikować się z trwającym procesem %PRODUCTNAME otwartym z tymi samymi ustawieniami gniazda."
+msgstr "Drugi wiersz kodu powyżej definiuje ustawienia <literal>host</literal> i <literal>port</literal>, dzięki czemu powłoka Pythona może komunikować się z trwającym procesem %PRODUCTNAME otwartym z tymi samymi ustawieniami gniazda."
 
 #. RiXDx
 #: sf_intro.xhp
@@ -23991,7 +23993,7 @@ msgctxt ""
 "help.text"
 msgid "Do not include any leading \"#\" characters. If you want the header to be broken into multiple lines, insert escape sequences (\\n) where relevant. A standard header will be added alongside the text specified in the <literal>header</literal> argument."
 msgstr ""
-"Nie dołączaj żadnych wiodących znaków \"#\". Jeśli chcesz, aby nagłówek został podzielony na wiele linii, wstaw tam, gdzie to konieczne, sekwencje specjalne (\\n"
+"Nie dołączaj żadnych wiodących znaków \"#\". Jeśli chcesz, aby nagłówek został podzielony na wiele wierszy, wstaw tam, gdzie to konieczne, sekwencje specjalne (\\n"
 "). Standardowy nagłówek zostanie dodany obok tekstu określonego w argumencie <literal>header</literal>."
 
 #. E2Loj
@@ -24511,7 +24513,7 @@ msgctxt ""
 "par_id121636721243578\n"
 "help.text"
 msgid "The string <literal>---</literal> is used to define separator lines in menus or submenus."
-msgstr "Ciąg <literal>---</literal> służy do definiowania linii separatora w menu lub podmenu."
+msgstr "Ciąg <literal>---</literal> służy do definiowania wiersza separatora w menu lub podmenu."
 
 #. CYbLC
 #: sf_menu.xhp
@@ -25888,7 +25890,7 @@ msgctxt ""
 "par_id121636721243578\n"
 "help.text"
 msgid "The string <literal>---</literal> is used to define separator lines in menus or submenus."
-msgstr "Ciąg <literal>---</literal> służy do definiowania linii separatora w menu lub podmenu."
+msgstr "Ciąg <literal>---</literal> służy do definiowania wiersza separatora w menu lub podmenu."
 
 #. nA7BW
 #: sf_popupmenu.xhp
@@ -27085,7 +27087,7 @@ msgctxt ""
 "par_id781656027840633\n"
 "help.text"
 msgid "The first line in the message box does not have a prefix, which means that it is the standard format. The subsequent lines include the prefix and some examples of numbers using its format."
-msgstr "Pierwsza linia w oknie komunikatu nie posiada prefiksu, co oznacza, że jest to format standardowy. Kolejne wiersze zawierają przedrostek i kilka przykładów liczb w jego formacie."
+msgstr "Pierwszy wiersz w oknie komunikatu nie posiada prefiksu, co oznacza, że jest to format standardowy. Kolejne wiersze zawierają przedrostek i kilka przykładów liczb w jego formacie."
 
 #. WYDkd
 #: sf_region.xhp
@@ -28345,7 +28347,7 @@ msgctxt ""
 "par_id761611947117831\n"
 "help.text"
 msgid "Line feed<br/>             Vertical tab<br/>             Carriage return<br/>             Carriage return + Line feed<br/>             File separator<br/>             Group separator<br/>             Record separator<br/>             Next line<br/>             Line separator<br/>             Paragraph separator"
-msgstr "Przesunięcie wiersza<br/>             Tabulator pionowy<br/>             Powrót karetki<br/>             Powrót karetki + przesunięcie wiersza<br/>             Separator pliku<br/>             Separator grupy<br/>             Separator rekordów<br/>             Następna linia<br/>             Separator linii<br/>             Separator akapitu"
+msgstr "Przesunięcie wiersza<br/>             Tabulator pionowy<br/>             Powrót karetki<br/>             Powrót karetki + przesunięcie wiersza<br/>             Separator pliku<br/>             Separator grupy<br/>             Separator rekordów<br/>             Następny wiersz<br/>             Separator wiersza<br/>             Separator akapitu"
 
 #. WCvgW
 #: sf_string.xhp
@@ -28390,7 +28392,7 @@ msgctxt ""
 "par_id761611947117835\n"
 "help.text"
 msgid "Space<br/>             Horizontal tab<br/>             Line feed<br/>             Vertical tab<br/>             Form feed<br/>             Carriage return<br/>             Next line<br/>             No-break space<br/>             Line separator<br/>             Paragraph separator"
-msgstr "Spacja<br/>             Tabulator poziomy<br/>             Przesunięcie wiersza<br/>             Tabulator pionowy<br/>             Wysunięcie formularza<br/>             Powrót karetki<br/>             Następny wiersz<br/>             Spacja nierozdzielająca<br/>             Linia separator<br/>             Separator akapitu"
+msgstr "Spacja<br/>             Tabulator poziomy<br/>             Przesunięcie wiersza<br/>             Tabulator pionowy<br/>             Wysunięcie formularza<br/>             Powrót karetki<br/>             Następny wiersz<br/>             Spacja nierozdzielająca<br/>             Separator wiersza<br/>             Separator akapitu"
 
 #. UPByW
 #: sf_string.xhp
@@ -28938,7 +28940,7 @@ msgctxt ""
 "par_id951579868064344\n"
 "help.text"
 msgid "If a line break is found, a new line is started and the character counter is reset."
-msgstr "Jeśli zostanie znaleziony podział linii, rozpoczynana jest nowa linia, a licznik znaków jest resetowany."
+msgstr "Jeśli zostanie znaleziony podział wiersza, rozpoczynany jest nowy wiersz, a licznik znaków jest resetowany."
 
 #. E73Ko
 #: sf_string.xhp
@@ -30101,7 +30103,7 @@ msgctxt ""
 "par_id641612386659292\n"
 "help.text"
 msgid "Note that the representation of data types such as Arrays and <literal>ScriptForge.Dictionary</literal> object instances include both the data type and their values:"
-msgstr ""
+msgstr "Reprezentacje typów danych, takie jak tablice lub obiekty <literal>ScriptForge.Dictionary</literal>, zawierają zarówno typy danych, jak i wartości:"
 
 #. ZFFAD
 #: sf_string.xhp
@@ -30110,7 +30112,7 @@ msgctxt ""
 "bas_id971612386906463\n"
 "help.text"
 msgid "' An example with a Basic built-in Array"
-msgstr ""
+msgstr "' Przykład z wbudowaną tablicą Basic"
 
 #. GEZzM
 #: sf_string.xhp
@@ -30119,7 +30121,7 @@ msgctxt ""
 "bas_id401612386876329\n"
 "help.text"
 msgid "' An example with a ScriptForge Array"
-msgstr ""
+msgstr "' Przykład z tablicą ScriptForge"
 
 #. mZ3ar
 #: sf_string.xhp
@@ -30128,7 +30130,7 @@ msgctxt ""
 "bas_id551612386931680\n"
 "help.text"
 msgid "' An example with a ScriptForge Dictionary"
-msgstr ""
+msgstr "' Przykład ze słownikiem ScriptForge"
 
 #. vvADG
 #: sf_string.xhp
@@ -30137,7 +30139,7 @@ msgctxt ""
 "par_id411580312925741\n"
 "help.text"
 msgid "Returns the input string in reversed order."
-msgstr ""
+msgstr "Zwraca ciąg wejściowy w odwrotnej kolejności."
 
 #. RxpPa
 #: sf_string.xhp
@@ -30146,7 +30148,7 @@ msgctxt ""
 "par_id141612387177873\n"
 "help.text"
 msgid "This method is equivalent to the built-in <link href=\"text/sbasic/shared/03120412.xhp\"><literal>StrReverse</literal> Basic function</link>."
-msgstr ""
+msgstr "Ta metoda odpowiada wbudowanej w Basic <link href=\"text/sbasic/shared/03120412.xhp\">funkcji <literal>StrReverse</literal></link>."
 
 #. ZEarP
 #: sf_string.xhp
@@ -30155,7 +30157,7 @@ msgctxt ""
 "par_id961612387463144\n"
 "help.text"
 msgid "To use the <literal>StrReverse</literal> function, the statement <literal>Option VBASupport 1</literal> must be present in the module."
-msgstr ""
+msgstr "Aby skorzystać z funkcji <literal>StrReverse</literal>, w module musi znajdować się komenda <literal>Option VBASupport 1</literal>."
 
 #. pSyL6
 #: sf_string.xhp
@@ -30164,7 +30166,7 @@ msgctxt ""
 "par_id241580312964497\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be reversed."
-msgstr ""
+msgstr "<emph>inputstr</emph>: ciąg, który ma zostać odwrócony."
 
 #. KBFDk
 #: sf_string.xhp
@@ -30173,7 +30175,7 @@ msgctxt ""
 "par_id721580210762286\n"
 "help.text"
 msgid "Returns a zero-based array of strings with the lines in the input string. Each item in the array is obtained by splitting the input string at newline characters."
-msgstr ""
+msgstr "Zwraca tablicę ciągów od zera zawierającą wiersze w ciągu wejściowym. Każdy element tablicy uzyskuje się poprzez podzielenie ciągu wejściowego na znaki nowego wiersza."
 
 #. nuUF6
 #: sf_string.xhp
@@ -30182,7 +30184,7 @@ msgctxt ""
 "par_id481580210806878\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be split."
-msgstr ""
+msgstr "<emph>inputstr</emph>: ciąg, który ma zostać podzielony."
 
 #. FEFUw
 #: sf_string.xhp
@@ -30191,7 +30193,7 @@ msgctxt ""
 "par_id231580210820309\n"
 "help.text"
 msgid "<emph>keepbreaks</emph>: When <literal>True</literal>, line breaks are preserved in the output array (default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>keepbreaks</emph>: jeśli <literal>True</literal>, w tablicy wyjściowej zachowywane są podziały wierszy (domyślnie = <literal>False</literal>)."
 
 #. HAG8Q
 #: sf_string.xhp
@@ -30200,7 +30202,7 @@ msgctxt ""
 "par_id471580211762739\n"
 "help.text"
 msgid "Splits a string into an array of elements using a specified delimiter."
-msgstr ""
+msgstr "Dzieli ciąg na tablicę elementów przy użyciu określonego ogranicznika."
 
 #. zsADB
 #: sf_string.xhp
@@ -30209,7 +30211,7 @@ msgctxt ""
 "par_id281612388034501\n"
 "help.text"
 msgid "If a quoted substring contains a delimiter, it is ignored. This is useful when parsing CSV-like records that contain quoted strings."
-msgstr ""
+msgstr "Jeśli cytowany podciąg zawiera ogranicznik, jest on ignorowany. Jest to przydatne podczas analizowania rekordów w formacie CSV zawierających ciągi znaków w cudzysłowie."
 
 #. JKAaG
 #: sf_string.xhp
@@ -30218,7 +30220,7 @@ msgctxt ""
 "par_id881580211809490\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be split."
-msgstr ""
+msgstr "<emph>inputstr</emph>: ciąg, który ma zostać podzielony."
 
 #. PFDPa
 #: sf_string.xhp
@@ -30227,7 +30229,7 @@ msgctxt ""
 "par_id811580211821162\n"
 "help.text"
 msgid "<emph>delimiter</emph>: A string of one or more characters that will be used as delimiter. The default delimiter is the ASCII space \" \" character."
-msgstr ""
+msgstr "<emph>separator</emph>: ciąg jednego lub większej liczby znaków, który będzie używany jako ogranicznik. Domyślnym ogranicznikiem jest znak spacji ASCII \" \"."
 
 #. 3rGRu
 #: sf_string.xhp
@@ -30236,7 +30238,7 @@ msgctxt ""
 "par_id181580211833778\n"
 "help.text"
 msgid "<emph>occurrences</emph>: The maximum number of substrings to return. The default value is 0, meaning that there is no limit to the number of returned strings."
-msgstr ""
+msgstr "<emph>occurrences</emph>: maksymalna liczba podciągów do zwrócenia. Wartość domyślna to 0, co oznacza, że nie ma ograniczenia liczby zwracanych ciągów."
 
 #. W2og7
 #: sf_string.xhp
@@ -30245,7 +30247,7 @@ msgctxt ""
 "par_id421599123777334\n"
 "help.text"
 msgid "<emph>quotechar</emph>: Either the single (') or double (\") quote."
-msgstr ""
+msgstr "<emph>quotechar</emph>: pojedynczy (') lub podwójny (\") cudzysłów."
 
 #. DiYMJ
 #: sf_string.xhp
@@ -30254,7 +30256,7 @@ msgctxt ""
 "par_id661627251379676\n"
 "help.text"
 msgid "Beware of the differences between Basic and Python when representing strings. For example, in Basic two \"\" characters inside a string are interpreted as a single \" character. In Python, strings enclosed with single quotes can contain \" characters without having to double them."
-msgstr ""
+msgstr "Podczas reprezentowania ciągów uważaj na różnice między Basic i Pythonem. Na przykład w języku Basic dwa znaki \"\" w ciągu znaków są interpretowane jako pojedynczy znak \". W Pythonie ciągi ujęte w pojedyncze cudzysłowy mogą zawierać znaki \" bez konieczności ich podwajania."
 
 #. 6Q2tJ
 #: sf_string.xhp
@@ -30263,7 +30265,7 @@ msgctxt ""
 "par_id771580212837884\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the first characters of a string are identical to a given substring."
-msgstr ""
+msgstr "Zwraca <literal>True</literal>, jeśli pierwsze znaki ciągu są identyczne z danym podciągiem."
 
 #. BYx4G
 #: sf_string.xhp
@@ -30272,7 +30274,7 @@ msgctxt ""
 "par_id781612393174350\n"
 "help.text"
 msgid "This method returns <literal>False</literal> if either the input string or the substring have a length = 0 or when the substring is longer than the input string."
-msgstr ""
+msgstr "Ta metoda zwraca <literal>False</literal>, jeśli ciąg wejściowy lub podciąg ma długość = 0 lub gdy podciąg jest dłuższy niż ciąg wejściowy."
 
 #. jrzxu
 #: sf_string.xhp
@@ -30281,7 +30283,7 @@ msgctxt ""
 "par_id271580212876135\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be tested."
-msgstr ""
+msgstr "<emph>inputstr</emph>: ciąg do przetestowania."
 
 #. tE9WD
 #: sf_string.xhp
@@ -30290,7 +30292,7 @@ msgctxt ""
 "par_id571580212889462\n"
 "help.text"
 msgid "<emph>substring</emph>: The substring to be searched at the start of <literal>inputstr</literal>."
-msgstr ""
+msgstr "<emph>substring</emph>: podciąg do przeszukania na początku <literal>inputstr</literal>."
 
 #. ZeQP4
 #: sf_string.xhp
@@ -30299,7 +30301,7 @@ msgctxt ""
 "par_id811580212900799\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: The search can be case sensitive or not (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: podczas wyszukiwania może być uwzględniana wielkość liter lub nie (domyślnie = <literal>False</literal>)."
 
 #. DGgBx
 #: sf_string.xhp
@@ -30308,7 +30310,7 @@ msgctxt ""
 "par_id911580295999690\n"
 "help.text"
 msgid "Returns the input string without its leading and trailing whitespaces."
-msgstr ""
+msgstr "Zwraca ciąg wejściowy bez początkowych i końcowych białych znaków."
 
 #. BESEu
 #: sf_string.xhp
@@ -30317,7 +30319,7 @@ msgctxt ""
 "par_id541580296044377\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to trim."
-msgstr ""
+msgstr "<emph>inputstr</emph>: ciąg do przycięcia."
 
 #. 44XZC
 #: sf_string.xhp
@@ -30327,6 +30329,8 @@ msgctxt ""
 "help.text"
 msgid "Converts any escaped sequence (\\\\, \\n, \\r, \\t) in the input string to their corresponding ASCII character."
 msgstr ""
+"Konwertuje dowolną sekwencję ucieczki (\\\\, \\n"
+", \\r, \\t) w ciągu wejściowym na odpowiadający jej znak ASCII."
 
 #. mzTsG
 #: sf_string.xhp
@@ -30335,7 +30339,7 @@ msgctxt ""
 "par_id971580483124743\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to be converted."
-msgstr ""
+msgstr "<emph>inputstr</emph>: ciąg do przekonwertowania."
 
 #. BoYHV
 #: sf_string.xhp
@@ -30344,7 +30348,7 @@ msgctxt ""
 "par_id831580213634029\n"
 "help.text"
 msgid "Removes the single or double quotes enclosing the input string."
-msgstr ""
+msgstr "Usuwa pojedyncze lub podwójne cudzysłowy otaczające ciąg wejściowy."
 
 #. Ae8c5
 #: sf_string.xhp
@@ -30353,7 +30357,7 @@ msgctxt ""
 "par_id811612393585600\n"
 "help.text"
 msgid "This is useful when parsing CSV-like records that contain quoted strings."
-msgstr ""
+msgstr "Jest to przydatne podczas analizowania rekordów w formacie CSV zawierających ciągi znaków w cudzysłowie."
 
 #. BhVvp
 #: sf_string.xhp
@@ -30362,7 +30366,7 @@ msgctxt ""
 "par_id761580213677493\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to unquote."
-msgstr ""
+msgstr "<emph>inputstr</emph>: ciąg, z którego mają zostać usunięte cudzysłowy."
 
 #. gRUHA
 #: sf_string.xhp
@@ -30371,7 +30375,7 @@ msgctxt ""
 "par_id211599129509890\n"
 "help.text"
 msgid "<emph>quotechar</emph>: Either the single (') or double (\") quote (default)."
-msgstr ""
+msgstr "<emph>quotechar</emph>: pojedynczy (') lub podwójny (\") cudzysłów (domyślny)."
 
 #. nGq4Q
 #: sf_string.xhp
@@ -30380,7 +30384,7 @@ msgctxt ""
 "bas_id371580213702598\n"
 "help.text"
 msgid "' s = \"Some text\" (without enclosing quotes)"
-msgstr ""
+msgstr "' s = \"Some text\" (bez cudzysłowów zamykających)"
 
 #. Fp8ip
 #: sf_string.xhp
@@ -30389,7 +30393,7 @@ msgctxt ""
 "bas_id51580213693694\n"
 "help.text"
 msgid "' The string below does not have enclosing quotes, so it remains unchanged"
-msgstr ""
+msgstr "' Poniższy ciąg nie zawiera cudzysłowów, więc pozostaje niezmieniony"
 
 #. A4Eki
 #: sf_string.xhp
@@ -30398,7 +30402,7 @@ msgctxt ""
 "bas_id961612393917830\n"
 "help.text"
 msgid "' s = \"Some text\" (unchanged)"
-msgstr ""
+msgstr "' s = \"Some text\" (niezmieniony)"
 
 #. ULtxx
 #: sf_string.xhp
@@ -30407,7 +30411,7 @@ msgctxt ""
 "bas_id461612394182689\n"
 "help.text"
 msgid "' Quotes inside the string are not removed"
-msgstr ""
+msgstr "' Cudzysłowy wewnątrz ciągu nie są usuwane"
 
 #. 8w4ia
 #: sf_string.xhp
@@ -30416,7 +30420,7 @@ msgctxt ""
 "bas_id961612394171208\n"
 "help.text"
 msgid "' s = \"The \"\"true\"\" meaning\" (unchanged)"
-msgstr ""
+msgstr "' s = \"The \"\"true\"\" meaning\" (niezmieniony)"
 
 #. JGhWK
 #: sf_string.xhp
@@ -30425,7 +30429,7 @@ msgctxt ""
 "par_id871585834468102\n"
 "help.text"
 msgid "Converts the input string into an array of substrings so that each item in the array has at most a given number of characters."
-msgstr ""
+msgstr "Konwertuje ciąg wejściowy na tablicę podciągów, tak aby każdy element tablicy miał co najwyżej określoną liczbę znaków."
 
 #. 4G9FU
 #: sf_string.xhp
@@ -30434,7 +30438,7 @@ msgctxt ""
 "par_id21612394465120\n"
 "help.text"
 msgid "In practice, this method returns a zero-based array of output lines, without newlines at the end, except for the pre-existing line-breaks."
-msgstr ""
+msgstr "W praktyce ta metoda zwraca tablicę wierszy wyjściowych od zera, bez znaków nowego wiersza na końcu, z wyjątkiem istniejących wcześniej podziałów wierszy."
 
 #. BN3eR
 #: sf_string.xhp
@@ -30443,7 +30447,7 @@ msgctxt ""
 "par_id601612395193333\n"
 "help.text"
 msgid "Tabs are expanded using the same procedure performed by the <link href=\"text/sbasic/shared/03/sf_string.xhp#ExpandTabs\">ExpandTabs</link> method."
-msgstr ""
+msgstr "Tabulatory są zastępowane spacjami, tak jak w przypadku metody <link href=\"text/sbasic/shared/03/sf_string.xhp#ExpandTabs\">ExpandTabs</link>."
 
 #. vLtDg
 #: sf_string.xhp
@@ -30452,7 +30456,7 @@ msgctxt ""
 "par_id641612394826616\n"
 "help.text"
 msgid "Symbolic line breaks are replaced by their equivalent ASCII characters."
-msgstr ""
+msgstr "Symboliczne podziały wierszy są zastępowane odpowiadającymi im znakami ASCII."
 
 #. y7VvP
 #: sf_string.xhp
@@ -30461,7 +30465,7 @@ msgctxt ""
 "par_id361612394859733\n"
 "help.text"
 msgid "If the wrapped output has no content, the returned array is empty."
-msgstr ""
+msgstr "Jeśli zawinięte dane wyjściowe nie zawierają treści, zwrócona tablica jest pusta."
 
 #. SNRzH
 #: sf_string.xhp
@@ -30470,7 +30474,7 @@ msgctxt ""
 "par_id251585834468498\n"
 "help.text"
 msgid "<emph>inputstr</emph>: The string to wrap."
-msgstr ""
+msgstr "<emph>inputstr</emph>: ciąg do zawinięcia."
 
 #. MiptC
 #: sf_string.xhp
@@ -30479,7 +30483,7 @@ msgctxt ""
 "par_id351585834773177\n"
 "help.text"
 msgid "<emph>width</emph>: The maximum number of characters in each line (Default = 70)."
-msgstr ""
+msgstr "<emph>width</emph>: maksymalna liczba znaków w każdym wierszu (domyślnie = 70)."
 
 #. epG6z
 #: sf_string.xhp
@@ -30488,7 +30492,7 @@ msgctxt ""
 "par_id741585834874500\n"
 "help.text"
 msgid "<emph>tabsize</emph>: Before wrapping the text, the existing TAB <literal>Chr(9)</literal> characters are replaced with spaces. The argument <literal>tabsize</literal> defines the TAB stops at TabSize + 1, 2 * TabSize + 1 , ... N * TabSize + 1 (Default = 8)."
-msgstr ""
+msgstr "<emph>tabsize</emph>: przed zawinięciem tekstu istniejące znaki tabulacji <literal>Chr(9)</literal> są zastępowane spacjami. Argument <literal>tabsize</literal> definiuje pozycje tabulatora przy TabSize + 1, 2 * TabSize + 1 , ... N * TabSize + 1 (domyślnie = 8)."
 
 #. HjZDB
 #: sf_textstream.xhp
@@ -30497,7 +30501,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.TextStream service"
-msgstr ""
+msgstr "Usługa ScriptForge.TextStream"
 
 #. yCCia
 #: sf_textstream.xhp
@@ -30506,7 +30510,7 @@ msgctxt ""
 "bm_id351585330787295\n"
 "help.text"
 msgid "<variable id=\"TextStreamService\"><link href=\"text/sbasic/shared/03/sf_textstream.xhp\"><literal>ScriptForge</literal>.<literal>TextStream</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"TextStreamService\"><link href=\"text/sbasic/shared/03/sf_textstream.xhp\">Usługa <literal>ScriptForge</literal>.<literal>TextStream</literal></link></variable>"
 
 #. nBJsE
 #: sf_textstream.xhp
@@ -30515,7 +30519,7 @@ msgctxt ""
 "par_id511585330787205\n"
 "help.text"
 msgid "The <literal>TextStream</literal> service is used to sequentially read from and write to files opened or created using the <literal>ScriptForge.FileSystem</literal> service."
-msgstr ""
+msgstr "Usługa <literal>TextStream</literal> służy do sekwencyjnego odczytu i zapisu do plików otwartych lub utworzonych za pomocą usługi <literal>ScriptForge.FileSystem</literal>."
 
 #. TeRTa
 #: sf_textstream.xhp
@@ -30524,7 +30528,7 @@ msgctxt ""
 "par_id41613596903894\n"
 "help.text"
 msgid "The methods <literal>OpenTextFile</literal> and <literal>CreateTextFile</literal> from the <literal>FileSystem</literal> service return an instance of the <literal>TextStream</literal> service."
-msgstr ""
+msgstr "Metody <literal>OpenTextFile</literal> i <literal>CreateTextFile</literal> z usługi <literal>FileSystem</literal> zwracają instancję usługi <literal>TextStream</literal>."
 
 #. MVFWC
 #: sf_textstream.xhp
@@ -30533,7 +30537,7 @@ msgctxt ""
 "par_id161585330787262\n"
 "help.text"
 msgid "Line delimiters may be specified by the user. In input operations CR, LF or CR+LF are supported. In output operations, the default line delimiter is the one used by the operating system."
-msgstr ""
+msgstr "Separatory wierszy mogą być określone przez użytkownika. W operacjach wejściowych obsługiwane są CR, LF lub CR+LF. W operacjach wyjściowych domyślnym ogranicznikiem wierszy jest ten używany przez system operacyjny."
 
 #. GDkir
 #: sf_textstream.xhp
@@ -30542,7 +30546,7 @@ msgctxt ""
 "par_id831613598137669\n"
 "help.text"
 msgid "The line delimiter for the operating system where the macro is being executed can be accessed using the <literal>SF_String.sfNEWLINE</literal> property."
-msgstr ""
+msgstr "Dostęp do ogranicznika wierszy systemu operacyjnego, w którym wykonywane jest makro, można uzyskać za pomocą właściwości <literal>SF_String.sfNEWLINE</literal>."
 
 #. SvXzF
 #: sf_textstream.xhp
@@ -30551,7 +30555,7 @@ msgctxt ""
 "par_id851613597445432\n"
 "help.text"
 msgid "All operations needed to read from or write to a file (open, read/write and close) are presumed to happen during the same macro run."
-msgstr ""
+msgstr "Zakłada się, że wszystkie operacje potrzebne do odczytu lub zapisu pliku (otwieranie, odczyt/zapis i zamykanie) mają miejsce podczas tego samego uruchomienia makra."
 
 #. dc5KN
 #: sf_textstream.xhp
@@ -30560,7 +30564,7 @@ msgctxt ""
 "hd_id83158533078741\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Wywoływanie usługi"
 
 #. AuQX2
 #: sf_textstream.xhp
@@ -30569,7 +30573,7 @@ msgctxt ""
 "par_id351613598192725\n"
 "help.text"
 msgid "The examples below in Basic and Python use the <literal>OpenTextFile</literal> method to create an instance of the <literal>TextStream</literal> Service."
-msgstr ""
+msgstr "Poniższe przykłady w języku Basic i Python wykorzystują metodę <literal>OpenTextFile</literal> do utworzenia instancji usługi <literal>TextStream</literal>."
 
 #. UUudg
 #: sf_textstream.xhp
@@ -30578,7 +30582,7 @@ msgctxt ""
 "par_id371585330787197\n"
 "help.text"
 msgid "The file must be closed with the <literal>CloseFile</literal> method after all read or write operations have been executed:"
-msgstr ""
+msgstr "Po wykonaniu wszystkich operacji odczytu lub zapisu plik należy zamknąć metodą <literal>CloseFile</literal>:"
 
 #. zNveN
 #: sf_textstream.xhp
@@ -30587,7 +30591,7 @@ msgctxt ""
 "par_id891582733781994\n"
 "help.text"
 msgid "Optionally, the resources used by the <literal>TextStream</literal> instance can be released using the <literal>Dispose</literal> method:"
-msgstr ""
+msgstr "Opcjonalnie zasoby wykorzystywane przez instancję <literal>TextStream</literal> można zwolnić przy użyciu metody <literal>Dispose</literal>:"
 
 #. L8vEQ
 #: sf_textstream.xhp
@@ -30596,7 +30600,7 @@ msgctxt ""
 "par_id121612917368946\n"
 "help.text"
 msgid "The methods in the <literal>TextStream</literal> service are mostly based on the <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextInputStream.html\"><literal>XTextInputStream</literal></link> and <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextOutputStream.html\"><literal>XTextOutputStream</literal></link> UNO interfaces."
-msgstr ""
+msgstr "Metody usługi <literal>TextStream</literal> bazują najczęściej na interfejsach UNO <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextInputStream.html\"><literal>XTextInputStream</literal> </link> i <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1io_1_1XTextOutputStream.html\"><literal>XTextOutputStream</literal></link>."
 
 #. JAmgD
 #: sf_textstream.xhp
@@ -30623,7 +30627,7 @@ msgctxt ""
 "par_id401585330787370\n"
 "help.text"
 msgid "Readonly"
-msgstr ""
+msgstr "Tylko do odczytu"
 
 #. GpL38
 #: sf_textstream.xhp
@@ -30632,7 +30636,7 @@ msgctxt ""
 "par_id581585330787700\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. 6FDuM
 #: sf_textstream.xhp
@@ -30641,7 +30645,7 @@ msgctxt ""
 "par_id551585330787608\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #. ECkTm
 #: sf_textstream.xhp
@@ -30650,7 +30654,7 @@ msgctxt ""
 "par_id181585330787752\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. YFkaY
 #: sf_textstream.xhp
@@ -30659,7 +30663,7 @@ msgctxt ""
 "par_id901585330787680\n"
 "help.text"
 msgid "Used in read mode. A <literal>True</literal> value indicates that the end of the file has been reached. A test using this property should precede calls to the <literal>ReadLine</literal> method."
-msgstr ""
+msgstr "Używany w trybie odczytu. Wartość <literal>True</literal> wskazuje, że plik został osiągnięty. Test wykorzystujący tę właściwość powinien poprzedzać wywołanie metody <literal>ReadLine</literal>."
 
 #. EFEnA
 #: sf_textstream.xhp
@@ -30668,7 +30672,7 @@ msgctxt ""
 "par_id561585330787568\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. cVCoJ
 #: sf_textstream.xhp
@@ -30677,7 +30681,7 @@ msgctxt ""
 "par_id741585330787777\n"
 "help.text"
 msgid "The character set to be used. The default encoding is \"UTF-8\"."
-msgstr ""
+msgstr "Zestaw znaków, który ma być używany. Domyślne kodowanie to \"UTF-8\"."
 
 #. p5s3X
 #: sf_textstream.xhp
@@ -30686,7 +30690,7 @@ msgctxt ""
 "par_id641585330787207\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. JjEqX
 #: sf_textstream.xhp
@@ -30695,7 +30699,7 @@ msgctxt ""
 "par_id281585330787614\n"
 "help.text"
 msgid "Returns the name of the current file either in URL format or in the native operating system's format, depending on the current value of the <literal>FileNaming</literal> property of the <literal>FileSystem</literal> service."
-msgstr ""
+msgstr "Zwraca nazwę bieżącego pliku w formacie URL lub w formacie natywnego systemu operacyjnego, w zależności od bieżącej wartości właściwości <literal>FileNaming</literal> usługi <literal>FileSystem</literal>."
 
 #. goEnw
 #: sf_textstream.xhp
@@ -30704,7 +30708,7 @@ msgctxt ""
 "par_id111585330787410\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. MZS6Z
 #: sf_textstream.xhp
@@ -30713,7 +30717,7 @@ msgctxt ""
 "par_id861585330787417\n"
 "help.text"
 msgid "Indicates the input/output mode. Possible values are \"READ\", \"WRITE\" or \"APPEND\"."
-msgstr ""
+msgstr "Wskazuje tryb wejścia/wyjścia. Możliwe wartości to \"READ\", \"WRITE\" lub \"APPEND\"."
 
 #. 7nTb9
 #: sf_textstream.xhp
@@ -30722,7 +30726,7 @@ msgctxt ""
 "par_id87158533078795\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. j45gC
 #: sf_textstream.xhp
@@ -30731,7 +30735,7 @@ msgctxt ""
 "par_id561585330787741\n"
 "help.text"
 msgid "Returns the number of lines read or written so far."
-msgstr ""
+msgstr "Zwraca liczbę wierszy przeczytanych lub zapisanych do tej pory."
 
 #. CLAvQ
 #: sf_textstream.xhp
@@ -30740,7 +30744,7 @@ msgctxt ""
 "par_id531585330787157\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "Nie"
 
 #. rdA5M
 #: sf_textstream.xhp
@@ -30749,7 +30753,7 @@ msgctxt ""
 "par_id691585330787279\n"
 "help.text"
 msgid "Sets or returns the current delimiter to be inserted between two successive written lines. The default value is the native line delimiter in the current operating system."
-msgstr ""
+msgstr "Ustawia lub zwraca bieżący ogranicznik, który ma zostać wstawiony pomiędzy dwoma kolejnymi zapisanymi wierszami. Wartość domyślna to natywny ogranicznik wierszy w bieżącym systemie operacyjnym."
 
 #. veDBj
 #: sf_textstream.xhp
@@ -30758,7 +30762,7 @@ msgctxt ""
 "par_id141613001281573\n"
 "help.text"
 msgid "To learn more about the names of character sets, visit <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\">IANA's Character Set</link> page. Be aware that %PRODUCTNAME does not implement all existing character sets."
-msgstr ""
+msgstr "Aby dowiedzieć się więcej o nazwach zestawów znaków, odwiedź stronę <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\">Zestaw znaków IANA</link>. Należy pamiętać, że %PRODUCTNAME nie implementuje wszystkich istniejących zestawów znaków."
 
 #. hKJkD
 #: sf_textstream.xhp
@@ -30767,7 +30771,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in the TextStream Service"
-msgstr ""
+msgstr "Lista metod w usłudze TextStream"
 
 #. DBBKM
 #: sf_textstream.xhp
@@ -30776,7 +30780,7 @@ msgctxt ""
 "par_id421585330787675\n"
 "help.text"
 msgid "Closes the current input or output stream and empties the output buffer if relevant. Returns <literal>True</literal> if the file was successfully closed."
-msgstr ""
+msgstr "Zamyka bieżący strumień wejściowy lub wyjściowy i opróżnia bufor wyjściowy, jeśli ma to zastosowanie. Zwraca wartość <literal>True</literal>, jeśli plik został pomyślnie zamknięty."
 
 #. MCW3q
 #: sf_textstream.xhp
@@ -30785,7 +30789,7 @@ msgctxt ""
 "par_id65158533078799\n"
 "help.text"
 msgid "Returns all the remaining lines in the text stream as a single string. Line breaks are not removed."
-msgstr ""
+msgstr "Zwraca wszystkie pozostałe wiersze strumienia tekstowego jako pojedynczy ciąg. Podziały wierszy nie są usuwane."
 
 #. Vr34D
 #: sf_textstream.xhp
@@ -30794,7 +30798,7 @@ msgctxt ""
 "par_id71613600347125\n"
 "help.text"
 msgid "The resulting string can be split in lines either by using the <literal>Split</literal> built-in Basic function if the line delimiter is known, or with the <literal>SF_String.SplitLines</literal> method."
-msgstr ""
+msgstr "Wynikowy ciąg można podzielić na wiersze za pomocą wbudowanej funkcji Basic <literal>Split</literal>, jeśli znany jest ogranicznik wierszy, lub za pomocą metody <literal>SF_String.SplitLines</literal>."
 
 #. VRLGn
 #: sf_textstream.xhp
@@ -30803,7 +30807,7 @@ msgctxt ""
 "par_id91585330787373\n"
 "help.text"
 msgid "For large files, using the <literal>ReadAll</literal> method wastes memory resources. In such cases it is recommended to read the file line by line using the <literal>ReadLine</literal> method."
-msgstr ""
+msgstr "W przypadku dużych plików użycie metody <literal>ReadAll</literal> marnuje zasoby pamięci. W takich przypadkach zaleca się czytanie pliku wiersz po wierszu metodą <literal>ReadLine</literal>."
 
 #. BuBVA
 #: sf_textstream.xhp
@@ -30812,7 +30816,7 @@ msgctxt ""
 "par_id921613595637851\n"
 "help.text"
 msgid "Consider the text file \"Students.txt\" with the following contents (a name in each line):"
-msgstr ""
+msgstr "Rozważmy plik tekstowy \"Students.txt\" o następującej zawartości (nazwa w każdym wierszu):"
 
 #. hk7q4
 #: sf_textstream.xhp
@@ -30821,7 +30825,7 @@ msgctxt ""
 "par_id391613596019750\n"
 "help.text"
 msgid "The examples below in Basic and Python use the <literal>ReadAll</literal> and <literal>SplitLines</literal> methods to read the contents of the file into an array of strings:"
-msgstr ""
+msgstr "Poniższe przykłady w języku Basic i Python wykorzystują metody <literal>ReadAll</literal> i <literal>SplitLines</literal> do wczytywania zawartości pliku w tablicę ciągów znaków:"
 
 #. BuRJE
 #: sf_textstream.xhp
@@ -30830,7 +30834,7 @@ msgctxt ""
 "bas_id251613595640550\n"
 "help.text"
 msgid "'Loads the FileSystem service"
-msgstr ""
+msgstr "' Ładuje usługę FileSystem"
 
 #. L2a3D
 #: sf_textstream.xhp
@@ -30839,7 +30843,7 @@ msgctxt ""
 "bas_id181613595641087\n"
 "help.text"
 msgid "'Opens the text file with the names to be read"
-msgstr ""
+msgstr "Otwiera plik tekstowy z nazwami do odczytania"
 
 #. rDCSD
 #: sf_textstream.xhp
@@ -30848,7 +30852,7 @@ msgctxt ""
 "bas_id711613595642109\n"
 "help.text"
 msgid "'Reads all the contents in the input file as a single string"
-msgstr ""
+msgstr "' Odczytuje całą zawartość pliku wejściowego jako pojedynczy ciąg"
 
 #. 6w73J
 #: sf_textstream.xhp
@@ -30857,7 +30861,7 @@ msgctxt ""
 "bas_id961613595643093\n"
 "help.text"
 msgid "'Splits the string into an array"
-msgstr ""
+msgstr "' Dzieli ciąg na tablicę"
 
 #. 7Fq9E
 #: sf_textstream.xhp
@@ -30866,7 +30870,7 @@ msgctxt ""
 "par_id871585330787885\n"
 "help.text"
 msgid "Returns the next line in the text stream as a string. Line breaks are removed from the returned string."
-msgstr ""
+msgstr "Zwraca następny wiersz w strumieniu tekstowym jako ciąg znaków. Podziały wierszy są usuwane ze zwróconego ciągu."
 
 #. 6iDcF
 #: sf_textstream.xhp
@@ -30875,7 +30879,7 @@ msgctxt ""
 "par_id431613600221626\n"
 "help.text"
 msgid "The <literal>AtEndOfStream</literal> test should precede the <literal>ReadLine</literal> method like in the example below."
-msgstr ""
+msgstr "Test <literal>AtEndOfStream</literal> powinien poprzedzać metodę <literal>ReadLine</literal > jak w przykładzie poniżej."
 
 #. GRRkq
 #: sf_textstream.xhp
@@ -30884,7 +30888,7 @@ msgctxt ""
 "par_id171585330787774\n"
 "help.text"
 msgid "An error will be raised if the <literal>AtEndOfStream</literal> was reached during the previous <literal>ReadLine</literal> or <literal>SkipLine</literal> method call."
-msgstr ""
+msgstr "Jeżeli podczas poprzedniego wywołania metody <literal>ReadLine</literal> lub <literal>SkipLine</literal> osiągnięto <literal>AtEndOfStream</literal>, zostanie zgłoszony błąd."
 
 #. mAty4
 #: sf_textstream.xhp
@@ -30893,7 +30897,7 @@ msgctxt ""
 "par_id11585330787847\n"
 "help.text"
 msgid "Skips the next line in the input stream when reading a <literal>TextStream</literal> file."
-msgstr ""
+msgstr "Pomija następny wiersz w strumieniu wejściowym podczas odczytu pliku <literal>TextStream</literal>."
 
 #. FDMJB
 #: sf_textstream.xhp
@@ -30902,7 +30906,7 @@ msgctxt ""
 "par_id441613600704766\n"
 "help.text"
 msgid "This method can result in <literal>AtEndOfStream</literal> being set to <literal>True</literal>."
-msgstr ""
+msgstr "Ta metoda może skutkować ustawieniem <literal>AtEndOfStream</literal> na <literal>True</literal>."
 
 #. D4JVb
 #: sf_textstream.xhp
@@ -30911,7 +30915,7 @@ msgctxt ""
 "par_id141585330787657\n"
 "help.text"
 msgid "Writes a specified number of empty lines to the output stream."
-msgstr ""
+msgstr "Zapisuje określoną liczbę pustych wierszy w strumieniu wyjściowym."
 
 #. YsBUm
 #: sf_textstream.xhp
@@ -30920,7 +30924,7 @@ msgctxt ""
 "par_id291585330787357\n"
 "help.text"
 msgid "<emph>lines</emph>: The number of empty lines to write to the file."
-msgstr ""
+msgstr "<emph>lines</emph>: liczba pustych wierszy do zapisania w pliku."
 
 #. GCPCC
 #: sf_textstream.xhp
@@ -30929,7 +30933,7 @@ msgctxt ""
 "par_id101585330787215\n"
 "help.text"
 msgid "Writes the given string to the output stream as a single line."
-msgstr ""
+msgstr "Zapisuje dany ciąg do strumienia wyjściowego jako pojedynczy wiersz."
 
 #. Eska7
 #: sf_textstream.xhp
@@ -30938,7 +30942,7 @@ msgctxt ""
 "par_id421613601002074\n"
 "help.text"
 msgid "The character defined in the <literal>NewLine</literal> property is used as the line delimiter."
-msgstr ""
+msgstr "Znak zdefiniowany we właściwości <literal>NewLine</literal> jest używany jako ogranicznik wierszy."
 
 #. LXFPE
 #: sf_textstream.xhp
@@ -30947,7 +30951,7 @@ msgctxt ""
 "par_id491585330787650\n"
 "help.text"
 msgid "<emph>line</emph>: The line to write, may be empty."
-msgstr ""
+msgstr "<emph>line</emph>: wiersz do zapisania może być pusty."
 
 #. PM5Bx
 #: sf_textstream.xhp
@@ -30956,7 +30960,7 @@ msgctxt ""
 "par_id821626894480105\n"
 "help.text"
 msgid "The examples below in Basic and Python create a text file in CSV format in which each line contains a value and its square until <literal>lastValue</literal> is reached."
-msgstr ""
+msgstr "Poniższe przykłady w języku Basic i Python tworzą plik tekstowy CSV, w którym każdy wiersz zawiera wartość i jej kwadrat, aż do <literal>lastValue</literal>."
 
 #. 39u4o
 #: sf_textstream.xhp
@@ -30965,7 +30969,7 @@ msgctxt ""
 "bas_id21613321528612\n"
 "help.text"
 msgid "'Instantiates the FileSystem Service"
-msgstr ""
+msgstr "' Tworzy instancję usługi FileSystem"
 
 #. FnTiG
 #: sf_textstream.xhp
@@ -30974,7 +30978,7 @@ msgctxt ""
 "bas_id191613321529277\n"
 "help.text"
 msgid "'Creates a text file"
-msgstr ""
+msgstr "' Tworzy plik tekstowy"
 
 #. f5RSB
 #: sf_textstream.xhp
@@ -30983,7 +30987,7 @@ msgctxt ""
 "bas_id641613321530181\n"
 "help.text"
 msgid "'Writes the Value and Value squared, separated by \";\""
-msgstr ""
+msgstr "' Zapisuje wartość i wartość do kwadratu, oddzielone \";\""
 
 #. FCowk
 #: sf_textstream.xhp
@@ -30992,7 +30996,7 @@ msgctxt ""
 "bas_id141613321530960\n"
 "help.text"
 msgid "myFile.WriteLine(\"Value;Value Squared\")"
-msgstr ""
+msgstr "myFile.WriteLine(\"Wartość;Wartość do kwadratu\")"
 
 #. m9Mo4
 #: sf_textstream.xhp
@@ -31001,7 +31005,7 @@ msgctxt ""
 "bas_id881613321532598\n"
 "help.text"
 msgid "'Closes the file and free resources"
-msgstr ""
+msgstr "' Zamyka plik i zwalnia zasoby"
 
 #. PCSPY
 #: sf_timer.xhp
@@ -31010,7 +31014,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Timer service"
-msgstr ""
+msgstr "Usługa ScriptForge.Timer"
 
 #. uvCrq
 #: sf_timer.xhp
@@ -31019,7 +31023,7 @@ msgctxt ""
 "hd_id731582733781114\n"
 "help.text"
 msgid "<variable id=\"TimerService\"><link href=\"text/sbasic/shared/03/sf_timer.xhp\"><literal>ScriptForge</literal>.<literal>Timer</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"TimerService\"><link href=\"text/sbasic/shared/03/sf_timer.xhp\">Usługa <literal>ScriptForge</literal>.<literal>Timer</literal></link></variable>"
 
 #. WyVvH
 #: sf_timer.xhp
@@ -31028,7 +31032,7 @@ msgctxt ""
 "par_id961582733781662\n"
 "help.text"
 msgid "The <literal>Timer</literal> service measures the amount of time it takes to run user scripts."
-msgstr ""
+msgstr "Usługa <literal>Timer</literal> mierzy ilość czasu potrzebnego na uruchomienie skryptów użytkownika."
 
 #. qDa8E
 #: sf_timer.xhp
@@ -31037,7 +31041,7 @@ msgctxt ""
 "par_id181582733781323\n"
 "help.text"
 msgid "A <literal>Timer</literal> measures <emph>durations</emph>. It can be:"
-msgstr ""
+msgstr "<literal>Timer</literal> mierzy <emph>czas trwania</emph>. To może być:"
 
 #. ErpLm
 #: sf_timer.xhp
@@ -31046,7 +31050,7 @@ msgctxt ""
 "par_id711582733781252\n"
 "help.text"
 msgid "Started, to indicate when to start measuring time."
-msgstr ""
+msgstr "Rozpoczęcie, aby wskazać, kiedy rozpocząć pomiar czasu."
 
 #. NAAFg
 #: sf_timer.xhp
@@ -31055,7 +31059,7 @@ msgctxt ""
 "par_id631582733781431\n"
 "help.text"
 msgid "Suspended, to pause measuring running time."
-msgstr ""
+msgstr "Wstrzymanie, aby wstrzymać odmierzanie czasu pracy."
 
 #. nt9Qc
 #: sf_timer.xhp
@@ -31064,7 +31068,7 @@ msgctxt ""
 "par_id691582733781498\n"
 "help.text"
 msgid "Resumed, to continue tracking running time after the Timer has been suspended."
-msgstr ""
+msgstr "Wznowienie, aby kontynuować śledzenie czasu działania po zawieszeniu usługi Timer."
 
 #. DVCBM
 #: sf_timer.xhp
@@ -31073,7 +31077,7 @@ msgctxt ""
 "par_id31582733781344\n"
 "help.text"
 msgid "Restarted, which will cancel previous measurements and start the <literal>Timer</literal> at zero."
-msgstr ""
+msgstr "Ponowne uruchomienie, co spowoduje anulowanie poprzednich pomiarów i rozpoczęcie odliczania usługi <literal>Timer</literal> od zera."
 
 #. dm7yA
 #: sf_timer.xhp
@@ -31082,7 +31086,7 @@ msgctxt ""
 "par_id991582733781280\n"
 "help.text"
 msgid "Durations are expressed in seconds with a precision of 3 decimal digits (milliseconds). A duration value of 12.345 means 12 seconds and 345 milliseconds"
-msgstr ""
+msgstr "Czasy trwania wyrażane są w sekundach z dokładnością do 3 cyfr dziesiętnych (milisekund). Wartość czasu trwania wynosząca 12,345 oznacza 12 sekund i 345 milisekund"
 
 #. CVhDR
 #: sf_timer.xhp
@@ -31091,7 +31095,7 @@ msgctxt ""
 "hd_id201582733781265\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Wywoływanie usługi"
 
 #. fYto9
 #: sf_timer.xhp
@@ -31100,7 +31104,7 @@ msgctxt ""
 "par_id141609955500101\n"
 "help.text"
 msgid "Before using the <literal>Timer</literal> service the <literal>ScriptForge</literal> library needs to be loaded or imported:"
-msgstr ""
+msgstr "Przed użyciem usługi <literal>Timer</literal> należy załadować lub zaimportować bibliotekę <literal>ScriptForge</literal>:"
 
 #. SCYEX
 #: sf_timer.xhp
@@ -31109,7 +31113,7 @@ msgctxt ""
 "par_id891610734806133\n"
 "help.text"
 msgid "The example below creates a <literal>Timer</literal> object named <literal>myTimer</literal> and starts it immediately."
-msgstr ""
+msgstr "Poniższy przykład tworzy obiekt <literal>Timer</literal> o nazwie <literal>myTimer</literal> i natychmiast go uruchamia."
 
 #. WMZog
 #: sf_timer.xhp
@@ -31118,7 +31122,7 @@ msgctxt ""
 "bas_id681582733781715\n"
 "help.text"
 msgid "'The timer starts immediately when the second argument = True, default = False"
-msgstr ""
+msgstr "' Jeśli drugi argument ma wartość True (domyślnie jest to False), pomiar rozpocznie się natychmiast"
 
 #. CnZqc
 #: sf_timer.xhp
@@ -31127,7 +31131,7 @@ msgctxt ""
 "par_id891582733781994\n"
 "help.text"
 msgid "It is recommended to free resources after use:"
-msgstr ""
+msgstr "Zaleca się zwolnienie zasobów po użyciu:"
 
 #. 8h3fp
 #: sf_timer.xhp
@@ -31136,7 +31140,7 @@ msgctxt ""
 "hd_id521582733781450\n"
 "help.text"
 msgid "Properties"
-msgstr ""
+msgstr "Właściwości"
 
 #. dVncX
 #: sf_timer.xhp
@@ -31154,7 +31158,7 @@ msgctxt ""
 "par_id711582733781103\n"
 "help.text"
 msgid "Readonly"
-msgstr ""
+msgstr "Tylko do odczytu"
 
 #. NvqK9
 #: sf_timer.xhp
@@ -31163,7 +31167,7 @@ msgctxt ""
 "par_id76158273378122\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. 7zFYh
 #: sf_timer.xhp
@@ -31172,7 +31176,7 @@ msgctxt ""
 "par_id751582733781926\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #. T92or
 #: sf_timer.xhp
@@ -31181,7 +31185,7 @@ msgctxt ""
 "par_id621582733781588\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Tak"
 
 #. 9yDgM
 #: sf_timer.xhp
@@ -31190,7 +31194,7 @@ msgctxt ""
 "par_id731582733781476\n"
 "help.text"
 msgid "The actual running time elapsed since start or between start and stop (does not consider suspended time)"
-msgstr ""
+msgstr "Rzeczywisty czas pracy, jaki upłynął od rozpoczęcia lub pomiędzy rozpoczęciem a zatrzymaniem (nie uwzględnia czasu zawieszenia)"
 
 #. ThAaG
 #: sf_timer.xhp
