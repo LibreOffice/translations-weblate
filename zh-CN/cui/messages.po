@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-11-02 14:47+0100\n"
-"PO-Revision-Date: 2023-11-04 13:17+0000\n"
+"PO-Revision-Date: 2023-11-06 05:37+0000\n"
 "Last-Translator: Ming Hua <plateauwolf@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/zh_Hans/>\n"
 "Language: zh-CN\n"
@@ -4543,13 +4543,13 @@ msgstr "自动添加(_I)"
 #: cui/uiconfig/ui/acorexceptpage.ui:73
 msgctxt "acorexceptpage|autoabbrev"
 msgid "Automatically add to the exception list if autocorrection is immediately undone."
-msgstr "如果自动更正被立刻撤消，则自动将其加入到例外列表中。"
+msgstr "如果自动更正被立刻撤消，则自动将其添加到例外列表中。"
 
 #. 7qDG3
 #: cui/uiconfig/ui/acorexceptpage.ui:76
 msgctxt "acorexceptpage|extended_tip|autoabbrev"
 msgid "Adds autocorrected abbreviations to the list of exceptions, if the autocorrection is immediately undone. This feature is only effective when Capitalize first letter of every sentence option is selected in the [T] column on the Options tab of this dialog."
-msgstr "如果立即取消自动更正，则将自动更正的缩写添加到例外列表中。此功能只有在此对话框选项卡 [T] 列的选项 \"句子首字母大写 \"被选中时才有效。"
+msgstr "如果对缩写的自动更正被立刻撤消，则自动将其添加到例外列表中。此功能只有在本对话框「选项」选项卡中 [T] 列勾选了「每个句子首字母大写」选项时才有效。"
 
 #. tpV8t
 #: cui/uiconfig/ui/acorexceptpage.ui:103
@@ -4597,13 +4597,13 @@ msgstr "自动添加(_U)"
 #: cui/uiconfig/ui/acorexceptpage.ui:264
 msgctxt "acorexceptpage|autodouble"
 msgid "Automatically add to the exception list if autocorrection is immediately undone."
-msgstr "如果自动更正被立刻撤消，则自动将其加入到例外列表中。"
+msgstr "如果自动更正被立刻撤消，则自动将其添加到例外列表中。"
 
 #. 7u9Af
 #: cui/uiconfig/ui/acorexceptpage.ui:267
 msgctxt "acorexceptpage|extended_tip|autodouble"
 msgid "Adds autocorrected words that start with two capital letters to the list of exceptions, if the autocorrection is immediately undone. This feature is only effective if the Correct TWo INitial CApitals option is selected in the [T] column on the Options tab of this dialog."
-msgstr ""
+msgstr "如果对前两个字母大写的自动更正被立刻撤消，则自动将其添加到例外列表中。此功能只有在本对话框「选项」选项卡中 [T] 列勾选了「更正单词前两个字母大写」选项时才有效。"
 
 #. AcEEf
 #: cui/uiconfig/ui/acorexceptpage.ui:294
@@ -7063,13 +7063,13 @@ msgstr "溢出边框文本的颜色"
 #: cui/uiconfig/ui/colorconfigwin.ui:1357
 msgctxt "colorconfigwin|comments_lb"
 msgid "Comments color"
-msgstr ""
+msgstr "批注颜色"
 
 #. RzbUK
 #: cui/uiconfig/ui/colorconfigwin.ui:1372
 msgctxt "colorconfigwin|comments"
 msgid "Comments"
-msgstr ""
+msgstr "批注"
 
 #. mA6HV
 #: cui/uiconfig/ui/colorconfigwin.ui:1387
@@ -7943,7 +7943,7 @@ msgstr "原始大小(_O)"
 #: cui/uiconfig/ui/croppage.ui:319
 msgctxt "croppage|uncrop"
 msgid "Reset Crop"
-msgstr ""
+msgstr "重置裁剪"
 
 #. 8CoGW
 #: cui/uiconfig/ui/croppage.ui:335
@@ -10482,7 +10482,7 @@ msgstr "选项"
 #: cui/uiconfig/ui/hatchpage.ui:85
 msgctxt "hatchpage|extended_tip|add"
 msgid "Adds a custom hatching pattern to the current list. Specify the properties of your hatching pattern, and then click this button."
-msgstr "将自定的阴影线加入到当前列表中。指定自定阴影线的属性，然后点击此按钮。"
+msgstr "在现有列表中添加一种自定义阴影线。设置阴影线的属性，然后点击此按钮。"
 
 #. TGiD7
 #: cui/uiconfig/ui/hatchpage.ui:97
@@ -15770,7 +15770,7 @@ msgstr "区域设置:"
 #: cui/uiconfig/ui/optlanguagespage.ui:399
 msgctxt "optlanguagespage|label6"
 msgid "Decimal key on the numpad:"
-msgstr ""
+msgstr "小键盘上的小数点键:"
 
 #. cuqUB
 #: cui/uiconfig/ui/optlanguagespage.ui:413
@@ -15812,7 +15812,7 @@ msgstr "与区域设置 ( %1 ) 相同(_S)"
 #: cui/uiconfig/ui/optlanguagespage.ui:500
 msgctxt "extended_tip|decimalseparator"
 msgid "Specifies to use the numeric keypad decimal key that is set in your system when you press the respective key on the number pad."
-msgstr ""
+msgstr "指定在按下数字小键盘上的小数点键时使用系统设置的数字分隔符键。"
 
 #. BGtpx
 #: cui/uiconfig/ui/optlanguagespage.ui:515
@@ -16418,7 +16418,7 @@ msgstr "将阅读位置随文档一并加载，即使该位置是不同用户所
 #: cui/uiconfig/ui/optsavepage.ui:81
 msgctxt "load_anyuser"
 msgid "Loads the view position settings saved in a document with the document even if it was saved by a different user."
-msgstr ""
+msgstr "将文档中保存的阅读位置随文档一并加载，即使该位置是不同用户所保存的。"
 
 #. js6Gn
 #: cui/uiconfig/ui/optsavepage.ui:135
@@ -17481,7 +17481,7 @@ msgstr "启用硬件加速(_W)"
 #: cui/uiconfig/ui/optviewpage.ui:506
 msgctxt "optviewpage|useaccel|tooltip_text"
 msgid "Requires restart"
-msgstr ""
+msgstr "需要重新启动"
 
 #. qw73y
 #: cui/uiconfig/ui/optviewpage.ui:512
@@ -17499,7 +17499,7 @@ msgstr "使用抗锯齿(_L)"
 #: cui/uiconfig/ui/optviewpage.ui:527
 msgctxt "optviewpage|useaa|tooltip_text"
 msgid "Requires restart"
-msgstr ""
+msgstr "需要重新启动"
 
 #. fUKV9
 #: cui/uiconfig/ui/optviewpage.ui:533
@@ -17517,7 +17517,7 @@ msgstr "使用 Skia 进行所有渲染"
 #: cui/uiconfig/ui/optviewpage.ui:548
 msgctxt "optviewpage|useskia|tooltip_text"
 msgid "Requires restart"
-msgstr ""
+msgstr "需要重新启动"
 
 #. RFqrA
 #: cui/uiconfig/ui/optviewpage.ui:559
@@ -17547,7 +17547,7 @@ msgstr "当前 Skia 已禁用。"
 #: cui/uiconfig/ui/optviewpage.ui:605
 msgctxt "optviewpage|btnSkialog"
 msgid "Copy skia.log"
-msgstr ""
+msgstr "复制 skia.log"
 
 #. sy9iz
 #: cui/uiconfig/ui/optviewpage.ui:682
@@ -21574,7 +21574,7 @@ msgstr "分页符和分栏符"
 #: cui/uiconfig/ui/textflowpage.ui:548
 msgctxt "textflowpage|checkSplitPara"
 msgid "_Allow to split paragraph"
-msgstr ""
+msgstr "允许分隔段落(_A)"
 
 #. XLpSD
 #: cui/uiconfig/ui/textflowpage.ui:557
@@ -21658,7 +21658,7 @@ msgstr "行"
 #: cui/uiconfig/ui/textflowpage.ui:711
 msgctxt "textflowpage|labelOptions"
 msgid "Split Options"
-msgstr ""
+msgstr "分页选项"
 
 #. qrhEF
 #: cui/uiconfig/ui/textflowpage.ui:728
