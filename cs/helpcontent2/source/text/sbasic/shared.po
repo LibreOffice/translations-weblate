@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-10-11 14:17+0200\n"
-"PO-Revision-Date: 2023-11-07 15:36+0000\n"
+"PO-Revision-Date: 2023-11-08 13:03+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/cs/>\n"
 "Language: cs\n"
@@ -34106,7 +34106,7 @@ msgctxt ""
 "par_id3143267\n"
 "help.text"
 msgid "This object is automatically converted to an <literal>Any</literal> of the corresponding type when passed to Uno. The type must be specified by its fully qualified Uno type name."
-msgstr ""
+msgstr "Tento objekt se při předání do Uno automaticky převede na odpovídající typ <literal>Any</literal>. Typ musí být určen plně kvalifikovaným názvem typu Uno."
 
 #. epP4U
 #: 03132300.xhp
@@ -34115,7 +34115,7 @@ msgctxt ""
 "par_id3153626\n"
 "help.text"
 msgid "The $[officename] API frequently uses the <literal>Any</literal> type. It is the counterpart of the <literal>Variant</literal> type known from other environments. The <literal>Any</literal> type holds one arbitrary Uno type and is used in generic Uno interfaces."
-msgstr ""
+msgstr "$[officename] API používá typ <literal>Any</literal> často. Odpovídá typu <literal>Variant</literal> známému z jiných prostředí. Typ <literal>Any</literal> obsahuje jeden určený typ Uno a používají jej obecná Uno rozhraní."
 
 #. 8LEhi
 #: 03132300.xhp
@@ -34124,7 +34124,7 @@ msgctxt ""
 "par_id851677925987795\n"
 "help.text"
 msgid "Object"
-msgstr ""
+msgstr "Objekt"
 
 #. ykaLN
 #: 03132300.xhp
@@ -34133,7 +34133,7 @@ msgctxt ""
 "par_id561677933999834\n"
 "help.text"
 msgid "<emph>Type</emph>: The fully qualified Uno type name.  Supported data types are <literal>void</literal>, <literal>char</literal>, <literal>boolean</literal>, <literal>byte</literal>, <literal>short</literal>, <literal>unsigned short</literal>, <literal>long</literal>, <literal>unsigned long</literal>, <literal>hyper</literal>, <literal>unsigned hyper</literal>, <literal>float</literal>, <literal>double</literal>, <literal>string</literal>, <literal>type</literal>, and <literal>any</literal>. Names are case sensitive and may be preceded by square brackets to indicate an array."
-msgstr ""
+msgstr "<emph>Type</emph>: Plně kvalifikovaný název typu Uno. Podporovanými datovým typy <literal>void</literal>, <literal>char</literal>, <literal>boolean</literal>, <literal>byte</literal>, <literal>short</literal>, <literal>unsigned short</literal>, <literal>long</literal>, <literal>unsigned long</literal>, <literal>hyper</literal>, <literal>unsigned hyper</literal>, <literal>float</literal>, <literal>double</literal>, <literal>string</literal>, <literal>type</literal> a <literal>any</literal>. U názvů se rozlišuje velikost písmen a mohou jim předcházet hranaté závorky označující pole."
 
 #. DmXcC
 #: 03132300.xhp
@@ -34142,7 +34142,7 @@ msgctxt ""
 "par_id521677934011767\n"
 "help.text"
 msgid "<emph>Value</emph>: A strictly typed value."
-msgstr ""
+msgstr "<emph>Value</emph>: Striktně typová hodnota."
 
 #. 6tFRV
 #: 03132300.xhp
@@ -34151,7 +34151,7 @@ msgctxt ""
 "par_id3150541\n"
 "help.text"
 msgid "If <literal>CreateUnoValue</literal> cannot convert the value to the specified Uno type, an error occurs. The <literal>com.sun.star.script.Converter</literal> service is responsible for the conversion."
-msgstr ""
+msgstr "Jestliže hodnotu nelze funkcí <literal>CreateUnoValue</literal> převést na určený typ Uno, nastane chyba. Za převod je zodpovědná služba <literal>com.sun.star.script.Converter</literal>."
 
 #. qXCo6
 #: 03132300.xhp
@@ -34160,7 +34160,7 @@ msgctxt ""
 "par_id3153524\n"
 "help.text"
 msgid "This function is intended for use in situations where the default Basic to Uno type converting mechanism is insufficient. This happens calling generic <literal>Any</literal> based API methods, such as <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1beans_1_1XPropertySet.html\">com.sun.star.beans.XPropertySet</link><literal>.setPropertyValue()</literal> or <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1container_1_1XNameContainer.html\">com.sun.star.container.XNameContainer</link><literal>.insertByName()</literal>. <literal>CreateUnoValue()</literal> sets a value object for the unknown Uno type."
-msgstr ""
+msgstr "Tato funkce je určena pro použití v situacích, kdy nepostačuje základní mechanismus převodu z typu Basicu na typ Uno. K tomu dojde, pokud zavoláte obecné metody API založené na <literal>Any</literal>, například <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1beans_1_1XPropertySet.html\">com.sun.star.beans.XPropertySet</link><literal>.setPropertyValue()</literal> nebo <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1container_1_1XNameContainer.html\">com.sun.star.container.XNameContainer</link><literal>.insertByName()</literal>. <literal>CreateUnoValue()</literal> nastaví pro takový neznámý typ Uno hodnotu objektu."
 
 #. 3XxhD
 #: 03132300.xhp
@@ -34169,7 +34169,7 @@ msgctxt ""
 "par_id511677928924995\n"
 "help.text"
 msgid "This example uses <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1beans_1_1XPropertySet.html\">com.sun.star.beans.XPropertySet</link><literal>.addProperty()</literal> method to create a document property whose default values requires <literal>CreateUnoValue()</literal> usage:"
-msgstr ""
+msgstr "V tomto příkladu je použita metoda <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1beans_1_1XPropertySet.html\">com.sun.star.beans.XPropertySet</link><literal>.addProperty()</literal> za účelem vytvoření vlastnosti dokumentu, jejíž výchozí hodnoty vyžadují použití funkce <literal>CreateUnoValue()</literal>:"
 
 #. vJXdv
 #: 03132300.xhp
@@ -34178,7 +34178,7 @@ msgctxt ""
 "par_id3150769\n"
 "help.text"
 msgid "You can also use this function to pass non-Any values, but this is not recommended. If Basic already knows the target type, using the <literal>CreateUnoValue()</literal> function will only lead to additional converting operations that slow down the Basic execution."
-msgstr ""
+msgstr "Tuto funkci je také možné použít pro předávání hodnot jiných typů než Any. To však nedoporučujeme. Pokud jazyk Basic již cílový typ zná, použitím funkce <literal>CreateUnoValue()</literal> jen vyvoláte další převodní operaci, která zpomalí běh programu."
 
 #. yUCwp
 #: 03132400.xhp
@@ -34673,7 +34673,7 @@ msgctxt ""
 "par_id061420170730135034\n"
 "help.text"
 msgid "<emph>ValueArray</emph>: The array of values of the cash-flow. The values represent cash flow values at regular intervals, at least one value must be negative (payments), and at least one value must be positive (income)."
-msgstr ""
+msgstr "<emph>ValueArray:</emph> Pole hodnot peněžního toku v pravidelných intervalech, alespoň jedna hodnota musí být záporná (platby) a alespoň jedna hodnota musí být kladná (příjmy)."
 
 #. FemwK
 #: 03140003.xhp
@@ -34682,7 +34682,7 @@ msgctxt ""
 "par_id061420170730137782\n"
 "help.text"
 msgid "<emph>Guess</emph>: An initial estimate at what the IRR will be."
-msgstr ""
+msgstr "<emph>Guess</emph>: Počáteční odhad, kolik může IRR být."
 
 #. BU7LM
 #: 03140003.xhp
@@ -35816,7 +35816,7 @@ msgctxt ""
 "par_id240720170117391741\n"
 "help.text"
 msgid "<emph>Date</emph>: The date expression to be formatted."
-msgstr ""
+msgstr "<emph>Date</emph>: Výraz pro datum, který se má zformátovat."
 
 #. WC3h8
 #: 03150000.xhp
@@ -36401,7 +36401,7 @@ msgctxt ""
 "par_id240720170117391741\n"
 "help.text"
 msgid "<emph>expression</emph>: Required. A numeric expression to be formatted. If <literal>expression</literal> is a string, then the decimal and thousands separator need to be localized."
-msgstr ""
+msgstr "<emph>expression</emph>: Vyžadováno. Číselný výraz, který se má zformátovat. Pokud je <literal>expression</literal> řetězec, desetinný oddělovač  a oddělovač tisíců musejí odpovídat národnímu prostředí."
 
 #. mD2xQ
 #: 03170010.xhp
@@ -36446,7 +36446,7 @@ msgctxt ""
 "par_id241542199046808\n"
 "help.text"
 msgid "<emph>vbUseDefault or -2</emph>: Use the user interface locale settings. This is the default when omitted."
-msgstr ""
+msgstr "<emph>vbUseDefault nebo -2</emph>: Použije se nastavení národního prostředí uživatelského rozhraní. Jedná se o výchozí hodnotu, je-li parametr vynechán."
 
 #. xEHZb
 #: 03170010.xhp
@@ -36482,7 +36482,7 @@ msgctxt ""
 "par_id241542191246808\n"
 "help.text"
 msgid "<emph>vbUseDefault or -2</emph>: Same as vbFalse. This is the default when omitted."
-msgstr ""
+msgstr "<emph>vbUseDefault nebo -2</emph>: Stejné jako vbFalse. Jedná se o výchozí hodnotu, je-li parametr vynechán."
 
 #. pj4ES
 #: 03170010.xhp
@@ -36518,7 +36518,7 @@ msgctxt ""
 "par_id241542191267808\n"
 "help.text"
 msgid "<emph>vbUseDefault or -2</emph>: Same as vbFalse. This is the default when omitted."
-msgstr ""
+msgstr "<emph>vbUseDefault nebo -2</emph>: Stejné jako vbFalse. Jedná se o výchozí hodnotu, je-li parametr vynechán."
 
 #. Bdq8A
 #: 03170020.xhp
@@ -36527,7 +36527,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FormatPercent Function [VBA]"
-msgstr ""
+msgstr "Funkce FormatPercent [VBA]"
 
 #. YhjAo
 #: 03170020.xhp
@@ -36536,7 +36536,7 @@ msgctxt ""
 "bm_id661542193659245\n"
 "help.text"
 msgid "<bookmark_value>FormatPercent function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FormatPercent</bookmark_value>"
 
 #. 5GSq4
 #: 03170020.xhp
@@ -36545,7 +36545,7 @@ msgctxt ""
 "hd_id871542193473857\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/03170020.xhp\">FormatPercent [VBA]</link>"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/03170020.xhp\">FormatPercent [VBA]</link>"
 
 #. wE9n7
 #: 03170020.xhp
@@ -36554,7 +36554,7 @@ msgctxt ""
 "par_id351542193473858\n"
 "help.text"
 msgid "Returns a string with a number formatting applied to a numeric expression. A percent sign is appended to the returned string."
-msgstr ""
+msgstr "Vrátí řetězec se zformátovaným číselným výrazem. K vrácenému řetězci je připojen znak procenta."
 
 #. EBFVE
 #: 03170020.xhp
@@ -36563,7 +36563,7 @@ msgctxt ""
 "par_id771542204286220\n"
 "help.text"
 msgid "MsgBox FormatPercent(12.2, NumDigitsAfterDecimal:=2) ' 1220.00% if selected user interface is english"
-msgstr ""
+msgstr "MsgBox FormatPercent(12.2, NumDigitsAfterDecimal:=2) ' 1220.00% při uživatelském rozhraní v angličtině"
 
 #. 4nxgE
 #: 03170020.xhp
@@ -36572,7 +36572,7 @@ msgctxt ""
 "par_id671542204307459\n"
 "help.text"
 msgid "MsgBox FormatPercent(\"-,2\", 2, IncludeLeadingDigit:=vbTrue) ' -20,00% if french user interface"
-msgstr ""
+msgstr "MsgBox FormatPercent(\"-,2\", 2, IncludeLeadingDigit:=vbTrue) ' -20,00% při uživatelském rozhraní v češtině"
 
 #. 5qH6F
 #: 03170020.xhp
@@ -36581,7 +36581,7 @@ msgctxt ""
 "par_id61542204328859\n"
 "help.text"
 msgid "MsgBox FormatPercent(\"-0.2\", 2) ' -20.00% for en-US, -0,00 for fr-CA, de-AT or pt-BR"
-msgstr ""
+msgstr "MsgBox FormatPercent(\"-0.2\", 2) ' -20.00% při národním prostředí en-US, -0,00 při cs-CZ, fr-CA, de-AT nebo pt-BR"
 
 #. y4XTq
 #: 03170020.xhp
@@ -36590,7 +36590,7 @@ msgctxt ""
 "par_id421542204347269\n"
 "help.text"
 msgid "MsgBox FormatPercent(-0.2, UseComputerRegionalSettings, UseParensForNegativeNumbers:=vbTrue) ' (20,00)% if pt-BR"
-msgstr ""
+msgstr "MsgBox FormatPercent(-0.2, UseComputerRegionalSettings, UseParensForNegativeNumbers:=vbTrue) ' (20,00)% při národním prostředí cs-CZ"
 
 #. DoAx5
 #: 03170020.xhp
@@ -36599,7 +36599,7 @@ msgctxt ""
 "par_id151542204366706\n"
 "help.text"
 msgid "MsgBox FormatPercent(\"-0,2\", UseComputerRegionalSettings, vbUseDefault, vbTrue) ' (20,00)% if german"
-msgstr ""
+msgstr "MsgBox FormatPercent(\"-0,2\", UseComputerRegionalSettings, vbUseDefault, vbTrue) ' (20,00)% pro češtinu"
 
 #. GZf86
 #: 03170020.xhp
@@ -36608,7 +36608,7 @@ msgctxt ""
 "par_id971542204385212\n"
 "help.text"
 msgid "MsgBox FormatPercent(\"-12345678\", -1, vbUseDefault, vbUseDefault, GroupDigits:=vbTrue) ' -1 234 567 800,00% for fr-BE"
-msgstr ""
+msgstr "MsgBox FormatPercent(\"-12345678\", -1, vbUseDefault, vbUseDefault, GroupDigits:=vbTrue) ' -1 234 567 800,00% pro cs-CZ"
 
 #. MxFCq
 #: 05060700.xhp
@@ -38093,7 +38093,7 @@ msgctxt ""
 "bm_id291592361063458\n"
 "help.text"
 msgid "<bookmark_value>calling Calc function;macros</bookmark_value>    <bookmark_value>setting Calc function;macros</bookmark_value>    <bookmark_value>macros;calling Calc function</bookmark_value>    <bookmark_value>macros;setting Calc function</bookmark_value>    <bookmark_value>CreateUnoService function;calling Calc function</bookmark_value>    <bookmark_value>API;sheet.addin.Analysis</bookmark_value>    <bookmark_value>API;sheet.FunctionAccess</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>volání funkcí Calcu;makra</bookmark_value><bookmark_value>nastavení funkcí Calcu;makra</bookmark_value><bookmark_value>makra;volání funkcí Calcu</bookmark_value><bookmark_value>makra;nastavení funkcí Calcu</bookmark_value><bookmark_value>createUnoService;volání funkcí Calcu</bookmark_value><bookmark_value>API;sheet.addin.Analysis</bookmark_value><bookmark_value>API;sheet.FunctionAccess</bookmark_value>"
 
 #. wHDmE
 #: calc_functions.xhp
@@ -38129,7 +38129,7 @@ msgctxt ""
 "par_id731592352332694\n"
 "help.text"
 msgid "Use the <literal>CreateUnoService</literal> function to access the <literal>com.sun.star.sheet.FunctionAccess</literal> service."
-msgstr ""
+msgstr "Pro přístup ke službě <literal>com.sun.star.sheet.FunctionAccess</literal> použijte funkci <literal>CreateUnoService</literal>."
 
 #. LFEou
 #: calc_functions.xhp
@@ -39983,7 +39983,7 @@ msgctxt ""
 "par_id551648117368688\n"
 "help.text"
 msgid "<literal>CompatibilityMode</literal> function always returns the mode that is active after its execution. That is, if called with an argument, it returns the new mode; if called without an argument, it returns the active mode without modifying it."
-msgstr ""
+msgstr "Funkce <literal>CompatibilityMode</literal> vždy vrátí režim, který je aktivní po jejím provedení. Tj. zavoláte-li ji s argumentem, vrátí nový režim, v opačném případě vrátí aktivní režim a nezmění jej."
 
 #. buGpD
 #: compatibilitymode.xhp
@@ -41360,7 +41360,7 @@ msgctxt ""
 "par_id111548419647867\n"
 "help.text"
 msgid "Partition( Number, Start, Stop, Interval)"
-msgstr ""
+msgstr "Partition( Number, Start, Stop, Interval)"
 
 #. EXFRi
 #: partition.xhp
@@ -41369,7 +41369,7 @@ msgctxt ""
 "par_id481548420000538\n"
 "help.text"
 msgid "<emph>Number</emph>: Required. The number to determine the partition."
-msgstr "<emph>Číslo</emph>: Vyžadováno. Číslo, pro něž se má určit část řady."
+msgstr "<emph>Number</emph>: Vyžadováno. Číslo, pro něž se má určit část řady."
 
 #. HXMue
 #: partition.xhp
@@ -41378,7 +41378,7 @@ msgctxt ""
 "par_id841548420006137\n"
 "help.text"
 msgid "<emph>Start</emph>: Required. An integer number defining the lower value of the range of numbers."
-msgstr "<emph>Začátek</emph>: Vyžadováno. Celé číslo udávající dolní hodnotu rozmezí čísel."
+msgstr "<emph>Start</emph>: Vyžadováno. Celé číslo udávající dolní hodnotu rozmezí čísel."
 
 #. A4Hit
 #: partition.xhp
@@ -41387,7 +41387,7 @@ msgctxt ""
 "par_id781548420012105\n"
 "help.text"
 msgid "<emph>Stop</emph>: Required. An integer number defining the highest value of the range."
-msgstr ""
+msgstr "<emph>Stop</emph>: Vyžadováno. Celé číslo udávající největší hodnotu rozmezí."
 
 #. evEzB
 #: partition.xhp
@@ -41396,7 +41396,7 @@ msgctxt ""
 "par_id371548420017250\n"
 "help.text"
 msgid "<emph>Interval</emph>: Required. An integer number that specifies the size of the partitions within the range of numbers (between <literal>Start</literal> and <literal>Stop</literal>)."
-msgstr ""
+msgstr "<emph>Interval</emph>: Vyžadováno. Celé číslo udávající velikost části v daném rozmezí čísel (mezi hodnotami <literal>Start</literal> a <literal>Stop</literal>)."
 
 #. 9xjpK
 #: partition.xhp
@@ -42053,7 +42053,7 @@ msgctxt ""
 "par_id771622762489917\n"
 "help.text"
 msgid "StrConv(string As String, Conversion As Integer, [ LCID ])"
-msgstr ""
+msgstr "StrConv(string As String, Conversion As Integer, [ LCID ])"
 
 #. c44hy
 #: strconv.xhp
@@ -42062,7 +42062,7 @@ msgctxt ""
 "par_id421622762822934\n"
 "help.text"
 msgid "<emph>string</emph>: Any valid string expression."
-msgstr ""
+msgstr "<emph>string</emph>: Jakýkoliv řetězec."
 
 #. 56k2A
 #: strconv.xhp
