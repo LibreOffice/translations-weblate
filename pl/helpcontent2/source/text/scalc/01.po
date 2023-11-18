@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-05-17 13:16+0200\n"
-"PO-Revision-Date: 2023-11-17 09:37+0000\n"
+"PO-Revision-Date: 2023-11-18 10:33+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_help-7-5/textscalc01/pl/>\n"
 "Language: pl\n"
@@ -5171,7 +5171,7 @@ msgctxt ""
 "bm_id3150882\n"
 "help.text"
 msgid "<bookmark_value>DCOUNT function</bookmark_value><bookmark_value>counting rows;with numeric values</bookmark_value>"
-msgstr "<bookmark_value>funkcja BD.ILE.REKORDÓW</bookmark_value><bookmark_value>liczenie wierszy; z wartościami numerycznymi</bookmark_value>"
+msgstr "<bookmark_value>funkcja BD.ILE.REKORDÓW</bookmark_value><bookmark_value>liczenie wierszy; z wartościami liczbowymi</bookmark_value>"
 
 #. DLGGD
 #: 04060101.xhp
@@ -55040,7 +55040,7 @@ msgctxt ""
 "par_id961527953004850\n"
 "help.text"
 msgid "<variable id=\"args\">Func_Range; Range1; Criterion[; Range2; Criterion2][; … ; [Range127; Criterion127]]</variable>"
-msgstr ""
+msgstr "<variable id=\"args\">Zakres_funkcji; Zakres1; Kryterium1 [; Zakres2; Kryterium2] [; ...[; Zakres127; Kryterium127]]</variable>"
 
 #. d8gmy
 #: ex_data_stat_func.xhp
@@ -55049,7 +55049,7 @@ msgctxt ""
 "par_id94162948227556\n"
 "help.text"
 msgid "The logical relation between criteria can be defined as logical AND (conjunction). In other words, if and only if all given criteria are met, a value from the corresponding cell of the given <emph>Func_Range</emph> is taken into calculation."
-msgstr ""
+msgstr "Logiczną relację między kryteriami można zdefiniować jako logiczne I (koniunkcja). Innymi słowy, wtedy i tylko wtedy, gdy spełnione są wszystkie podane kryteria, do obliczeń brana jest wartość z odpowiedniej komórki danego <emph>Zakresu_funkcji</emph>."
 
 #. s3NRA
 #: ex_data_stat_func.xhp
@@ -55058,7 +55058,7 @@ msgctxt ""
 "par_id14734320631377\n"
 "help.text"
 msgid "<emph>Func_Range</emph> and <emph>Range1, Range2...</emph> must have the same size, otherwise the function returns err:502 - Invalid argument."
-msgstr ""
+msgstr "<emph>Zakres_funkcji</emph> oraz <emph>Zakres1, Zakres2...</emph> muszą mieć ten sam rozmiar, w przeciwnym razie funkcja zwróci Błąd:502 - nieprawidłowy argument."
 
 #. XB7By
 #: ex_data_stat_func.xhp
@@ -55067,7 +55067,7 @@ msgctxt ""
 "par_id101585468691583\n"
 "help.text"
 msgid "<emph>Range1</emph> – required argument. It is a range of cells, a name of a named range, or a label of a column or a row, to which the corresponding criterion is to be applied."
-msgstr ""
+msgstr "<emph>Zakres1</emph> – wymagany argument. Jest to zakres komórek, nazwa nazwanego zakresu lub etykieta kolumny lub wiersza, do którego ma zostać zastosowane odpowiednie kryterium."
 
 #. 45WHz
 #: ex_data_stat_func.xhp
@@ -55076,7 +55076,7 @@ msgctxt ""
 "par_id621619279022341\n"
 "help.text"
 msgid "<emph>Criterion</emph>: A criterion is a single cell Reference, Number or Text. It is used in comparisons with cell contents."
-msgstr ""
+msgstr "<emph>Kryterium</emph>: kryterium to odwołanie do pojedynczej komórki, liczba lub tekst. Używa się go do porównań zawartości komórek."
 
 #. m9EAG
 #: ex_data_stat_func.xhp
@@ -55085,7 +55085,7 @@ msgctxt ""
 "par_id731619279029255\n"
 "help.text"
 msgid "A reference to an empty cell is interpreted as the numeric value 0."
-msgstr ""
+msgstr "Odwołanie do pustej komórki jest interpretowane jako wartość liczbowa 0."
 
 #. iYNFV
 #: ex_data_stat_func.xhp
@@ -55094,7 +55094,7 @@ msgctxt ""
 "par_id31619279035359\n"
 "help.text"
 msgid "A matching expression can be:"
-msgstr ""
+msgstr "Pasującym wyrażeniem może być:"
 
 #. fSoyL
 #: ex_data_stat_func.xhp
@@ -55103,7 +55103,7 @@ msgctxt ""
 "par_id171619279059462\n"
 "help.text"
 msgid "A Number or Logical value. A matching cell content equals the Number or Logical value."
-msgstr ""
+msgstr "Liczba lub wartość logiczna. Pasująca zawartość komórki jest równa wartości liczbowej lub logicznej."
 
 #. 7Hfq9
 #: ex_data_stat_func.xhp
@@ -55112,7 +55112,7 @@ msgctxt ""
 "par_id511619279076504\n"
 "help.text"
 msgid "A value beginning with a comparator (<, <=, =, >, >=, <>)."
-msgstr ""
+msgstr "Wartość rozpoczynająca się od komparatora (<, <=, =, >, >=, <>)."
 
 #. YEjSD
 #: ex_data_stat_func.xhp
@@ -55121,7 +55121,7 @@ msgctxt ""
 "par_id11619279168512\n"
 "help.text"
 msgid "For =, if the value is empty it matches empty cells."
-msgstr ""
+msgstr "Jeśli wartość = jest pusta, odpowiada pustym komórkom."
 
 #. 39AJR
 #: ex_data_stat_func.xhp
@@ -55130,7 +55130,7 @@ msgctxt ""
 "par_id161619279207350\n"
 "help.text"
 msgid "For <>, if the value is empty it matches non-empty cells."
-msgstr ""
+msgstr "Jeśli wartość <> jest pusta, odpowiada niepustym komórkom."
 
 #. 9xDer
 #: ex_data_stat_func.xhp
@@ -55139,7 +55139,7 @@ msgctxt ""
 "par_id271619279215695\n"
 "help.text"
 msgid "For <>, if the value is not empty it matches any cell content except the value, including empty cells."
-msgstr ""
+msgstr "Jeśli wartość <> nie jest pusta, dopasowuje dowolną zawartość komórki z wyjątkiem wartości, łącznie z pustymi komórkami."
 
 #. y2EGU
 #: ex_data_stat_func.xhp
@@ -55148,7 +55148,7 @@ msgctxt ""
 "par_id861619279223855\n"
 "help.text"
 msgid "<emph>Note:</emph> \"=0\" does not match empty cells."
-msgstr ""
+msgstr "<emph>Uwaga:</emph> \"=0\" nie pasuje do pustych komórek."
 
 #. QHQaK
 #: ex_data_stat_func.xhp
@@ -55157,7 +55157,7 @@ msgctxt ""
 "par_id51619279363954\n"
 "help.text"
 msgid "For = and <>, if the value is not empty and can not be interpreted as a Number type or one of its subtypes and the property <link href=\"text/shared/optionen/01060500.xhp\">Search criteria = and <> must apply to whole cells</link> is checked, comparison is against the entire cell contents, if unchecked, comparison is against any subpart of the field that matches the criteria. For = and <>, if the value is not empty and can not be interpreted as a Number type or one of its subtypes applies."
-msgstr ""
+msgstr "Jeśli wartość = i <> nie jest pusta i nie może być interpretowana jako typ liczbowy lub jeden z jego podtypów oraz właściwość <link href=\"text/shared/optionen/01060500.xhp\">Kryteria wyszukiwania = i < > musi dotyczyć całych komórek</link> jest zaznaczona, porównanie dotyczy całej zawartości komórki, jeśli nie jest zaznaczone, porównanie dotyczy dowolnej podczęści pola spełniającej kryteria. Jeśli wartość = i <> nie jest pusta i nie można jej interpretować jako typu liczbowego lub jednego z jego podtypów."
 
 #. LX8Cp
 #: ex_data_stat_func.xhp
@@ -55166,7 +55166,7 @@ msgctxt ""
 "par_id801619279323556\n"
 "help.text"
 msgid "Other Text value. If the property <link href=\"text/shared/optionen/01060500.xhp\">Search criteria = and <> must apply to whole cells</link> is true, the comparison is against the entire cell contents, if false, comparison is against any subpart of the field that matches the criteria. The expression can contain text, numbers, regular expressions or wildcards (<link href=\"text/shared/optionen/01060500.xhp#wildcards\">if enabled in calculation options</link>)."
-msgstr ""
+msgstr "Inna wartość tekstowa. Jeśli zaznaczona jest opcja <link href=\"text/shared/optionen/01060500.xhp\">Kryteria wyszukiwania = i <> muszą dotyczyć całych komórek</link>, kryteria muszą obejmować całą zawartość komórki, w przeciwnym razie musi pasować do dowolnej części treści. Wyrażenie może zawierać tekst, liczby, wyrażenia regularne lub symbole wieloznaczne <link href=\"text/shared/optionen/01060500.xhp#wildcards\">jeśli włączono je w opcjach wyjściowych</link>)."
 
 #. sACAB
 #: ex_data_stat_func.xhp
@@ -55184,7 +55184,7 @@ msgctxt ""
 "par_id317001803813193\n"
 "help.text"
 msgid "<emph>Criterion2</emph> – Optional. Criterion2 and all the following mean the same as Criterion."
-msgstr ""
+msgstr "<emph>Kryterium2</emph> – opcjonalne. Kryterium2 i wszystkie poniższe oznaczają to samo co Kryterium."
 
 #. tzFDE
 #: ex_data_stat_func.xhp
@@ -55247,7 +55247,7 @@ msgctxt ""
 "par_id0403201618594534\n"
 "help.text"
 msgid "<emph>target (mandatory):</emph> A date, time or numeric single value or range. The data point/range for which to calculate a forecast."
-msgstr "<emph>cel (obowiązkowy):</emph> Data, czas lub numeryczna, pojedyncza wartość lub zakres. Punkt danych/zakres, dla którego należy obliczyć prognozę."
+msgstr "<emph>cel (obowiązkowy):</emph> data, czas lub liczbowa, pojedyncza wartość lub zakres. Punkt danych/zakres, dla którego należy obliczyć prognozę."
 
 #. WvyAv
 #: exponsmooth_embd.xhp
@@ -55256,7 +55256,7 @@ msgctxt ""
 "par_id040320161859459\n"
 "help.text"
 msgid "<emph>values (mandatory):</emph> A numeric array or range. <emph>values</emph> are the historical values, for which you want to forecast the next points."
-msgstr "<emph>wartości (obowiązkowy):</emph> Numeryczna macierz lub zakres. <emph>Wartości</emph> są wartościami historycznymi, dla których chcesz przewidzieć następne punkty."
+msgstr "<emph>wartości (obowiązkowy):</emph> macierz liczbowa lub zakres. <emph>Wartości</emph> są wartościami historycznymi, dla których chcesz przewidzieć następne punkty."
 
 #. S6DPQ
 #: exponsmooth_embd.xhp
@@ -55265,7 +55265,7 @@ msgctxt ""
 "par_id0403201618594553\n"
 "help.text"
 msgid "<emph>timeline (mandatory):</emph> A numeric array or range. The timeline (x-value) range for the historical values."
-msgstr ""
+msgstr "<emph>Oś czasu (obowiązkowa):</emph> tablica lub zakres numeryczny. Zakres osi czasu (wartości X) dla wartości historycznych."
 
 #. Re7Cm
 #: exponsmooth_embd.xhp
@@ -55274,7 +55274,7 @@ msgctxt ""
 "par_id040320161859450\n"
 "help.text"
 msgid "The timeline does not have to be sorted, the functions will sort it for calculations.<br/>The timeline values must have a consistent step between them.<br/>If a constant step cannot be identified in the sorted timeline, the functions will return the #NUM! error.<br/>If the ranges of both the timeline and the historical values are not the same size, the functions will return the #N/A error.<br/>If the timeline contains fewer than 2 data periods, the functions will return the #VALUE! error."
-msgstr ""
+msgstr "Oś czasu nie musi być sortowana, funkcje posortują ją na potrzeby obliczeń.<br/>Wartości na osi czasu muszą mieć między sobą spójny krok.<br/>Jeśli na posortowanej osi czasu nie można zidentyfikować stałego kroku, funkcje zwrócą błąd #LICZBA!.<br/>Jeśli zakresy osi czasu i wartości historycznych nie są tej samej wielkości, funkcje zwrócą błąd #N/D.<br/>Jeśli oś czasu zawiera mniej niż 2 okresy danych, funkcje zwrócą błąd #ARG!."
 
 #. AbNWD
 #: exponsmooth_embd.xhp
@@ -55301,7 +55301,7 @@ msgctxt ""
 "par_id0403201618594650\n"
 "help.text"
 msgid "<emph>aggregation (optional):</emph> A numeric value from 1 to 7, with default 1. The aggregation parameter indicates which method will be used to aggregate identical time values:"
-msgstr "<emph>agregacja (opcjonalna):</emph> Numeryczna wartość z przedziału od 1 do 7 z jedynką jako wartością domyślną. Parametr agregacji wskazuje metodę do użycia agregacji identycznych wartości czasu."
+msgstr "<emph>agregacja (opcjonalna):</emph> wartość liczbowa z przedziału od 1 do 7 z jedynką jako wartością domyślną. Parametr agregacji wskazuje metodę do użycia agregacji identycznych wartości czasu."
 
 #. MBCFC
 #: exponsmooth_embd.xhp
@@ -55400,7 +55400,7 @@ msgctxt ""
 "par_id0503201619582693\n"
 "help.text"
 msgid "<emph>stat_type (mandatory)</emph>: A numerical value from 1 to 9. A value indicating which statistic will be returned for the given values and x-range."
-msgstr "<emph>typ_danych_statystycznych (obowiązkowy)</emph>: Numeryczna wartość z przedziału od 1 do 9. Wartość wskazująca, które dane statystyczne zostaną zwrócone dla podanych wartości i dla zakresu-x."
+msgstr "<emph>typ_danych_statystycznych (obowiązkowy)</emph>: wartość liczbowa z przedziału od 1 do 9. Wartość wskazująca, które dane statystyczne zostaną zwrócone dla podanych wartości i dla zakresu-x."
 
 #. dEXx6
 #: exponsmooth_embd.xhp
@@ -55517,7 +55517,7 @@ msgctxt ""
 "par_id0503201619582665\n"
 "help.text"
 msgid "<emph>confidence_level (mandatory)</emph>: A numeric value between 0 and 1 (exclusive), default is 0.95. A value indicating a confidence level for the calculated prediction interval."
-msgstr "<emph>poziom_ufności (obowiązkowy)</emph>: Numeryczna wartość z przedziału od 0 do 1 (bez wartości granicznych), domyślnie jest 0,95. Wartość wskazująca poziom ufności dla obliczonych interwałów prognozy."
+msgstr "<emph>poziom_ufności (obowiązkowy)</emph>: wartość liczbowa z przedziału od 0 do 1 (bez wartości granicznych), domyślnie jest 0,95. Wartość wskazująca poziom ufności dla obliczonych interwałów prognozy."
 
 #. uCzY7
 #: exponsmooth_embd.xhp
@@ -55535,7 +55535,7 @@ msgctxt ""
 "par_id0603201609412381\n"
 "help.text"
 msgid "<emph>period_length (optional)</emph>: A numeric value >= 0, the default is 1. A positive integer indicating the number of samples in a period."
-msgstr "<emph>długość_okresu (opcjonalny)</emph>: Wartość numeryczna >= 0, domyślnie wynosi 1. Dodatnia liczba całkowita wskazuje liczbę próbek w okresie."
+msgstr "<emph>długość_okresu (opcjonalny)</emph>: wartość liczbowa >= 0, domyślnie wynosi 1. Dodatnia liczba całkowita wskazuje liczbę próbek w okresie."
 
 #. SMBbD
 #: exponsmooth_embd.xhp
@@ -55661,7 +55661,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Formula to values"
-msgstr ""
+msgstr "Formuła na wartość"
 
 #. tthof
 #: formula2value.xhp
@@ -55670,7 +55670,7 @@ msgctxt ""
 "bm_id321645231251889\n"
 "help.text"
 msgid "<bookmark_value>convert;formula to values</bookmark_value><bookmark_value>replace formula with values</bookmark_value><bookmark_value>recalculate;formula to values</bookmark_value><bookmark_value>formula to values;convert</bookmark_value><bookmark_value>formula to values;recalculate</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>konwertuj;formuła na wartości</bookmark_value><bookmark_value>zamień formułę na wartości</bookmark_value><bookmark_value>oblicz ponownie;formuła na wartości</bookmark_value><bookmark_value>formuła na wartości;konwertuj</bookmark_value><bookmark_value>formuła na wartości;oblicz ponownie</bookmark_value>"
 
 #. xmLmV
 #: formula2value.xhp
@@ -55679,7 +55679,7 @@ msgctxt ""
 "hd_id701645222861113\n"
 "help.text"
 msgid "<variable id=\"formula2valueh1\"><link href=\"text/scalc/01/formula2value.xhp\">Formula to value</link></variable>"
-msgstr ""
+msgstr "<variable id=\"formula2valueh1\"><link href=\"text/scalc/01/formula2value.xhp\">Formuła na wartość</link></variable>"
 
 #. CATpt
 #: formula2value.xhp
@@ -55688,7 +55688,7 @@ msgctxt ""
 "par_id501645222861116\n"
 "help.text"
 msgid "Replaces the formula cell with value calculated by the formula. The formula is lost."
-msgstr ""
+msgstr "Zastępuje komórkę formuły wartością obliczoną przez formułę. Formuła została utracona."
 
 #. AKrcm
 #: formula2value.xhp
@@ -55697,7 +55697,7 @@ msgctxt ""
 "par_id51645230882532\n"
 "help.text"
 msgid "Use this command to convert formula cells into data cells. The converted cells contents becomes static and will not be recalculated."
-msgstr ""
+msgstr "Użyj tego polecenia, aby przekonwertować komórki z formułami na komórki danych. Zawartość przekonwertowanych komórek staje się statyczna i nie zostanie ponownie przeliczona."
 
 #. ebLBc
 #: ful_func.xhp
@@ -55724,7 +55724,7 @@ msgctxt ""
 "hd_id980889808897165\n"
 "help.text"
 msgid "Returns"
-msgstr ""
+msgstr "Zwraca"
 
 #. 5MoDd
 #: ful_func.xhp
@@ -55805,7 +55805,7 @@ msgctxt ""
 "par_id71584446760037\n"
 "help.text"
 msgid "<variable id=\"string255_1\">String 1 [; String 2 [; …  [; String 255]]]</variable>"
-msgstr ""
+msgstr "<variable id=\"string255_1\">Ciąg 1 [; Ciąg 2 [; …  [; Ciąg 255]]]</variable>"
 
 #. 2UTGE
 #: ful_func.xhp
@@ -55814,7 +55814,7 @@ msgctxt ""
 "par_id631556228516997\n"
 "help.text"
 msgid "<emph>String 1, String 2, … , String 255</emph> are strings, references to cells or to cell ranges of strings."
-msgstr ""
+msgstr "<emph>Ciąg 1, Ciąg 2, …, Ciąg 255</emph> to ciągi znaków, odwołania do komórek lub zakresów komórek zawierających ciągi znaków."
 
 #. MFitb
 #: ful_func.xhp
@@ -55823,7 +55823,7 @@ msgctxt ""
 "par_id401584447957914\n"
 "help.text"
 msgid "<variable id=\"integer255_1\">Integer 1 [; Integer 2 [; … [; Integer 255]]]</variable>"
-msgstr ""
+msgstr "<variable id=\"integer255_1\">Liczba całkowita 1 [; Liczba całkowita 2 [; … [; Liczba całkowita 255]]]</variable>"
 
 #. yUDDY
 #: ful_func.xhp
@@ -55832,7 +55832,7 @@ msgctxt ""
 "par_id1001584395844941\n"
 "help.text"
 msgid "<emph>Integer 1, Integer 2, … , Integer 255</emph> are integers, references to cells or to cell ranges of integers."
-msgstr ""
+msgstr "<emph>Liczba całkowita 1, Liczba całkowita 2, …, Liczba całkowita 255</emph> to liczby całkowite, odwołania do komórek lub zakresów komórek zawierających liczby całkowite."
 
 #. B6MF9
 #: ful_func.xhp
@@ -55841,7 +55841,7 @@ msgctxt ""
 "par_id101584447971004\n"
 "help.text"
 msgid "<variable id=\"number254_1\">Number 1 [; Number 2 [; … [; Number 254]]]</variable>"
-msgstr ""
+msgstr "<variable id=\"number254_1\">Liczba 1 [; Liczba 2 [; … [; Liczba 254]]]</variable>"
 
 #. b96Za
 #: ful_func.xhp
@@ -55850,7 +55850,7 @@ msgctxt ""
 "par_id931584305947010\n"
 "help.text"
 msgid "<emph>Number 1, Number 2, … , Number 254</emph> are numbers, references to cells or to cell ranges of numbers."
-msgstr ""
+msgstr "<emph>Liczba 1, Liczba 2, … , Liczba 254</emph> to liczby, odwołania do komórek lub zakresów komórek zawierających liczby."
 
 #. kEEQr
 #: ful_func.xhp
@@ -55859,7 +55859,7 @@ msgctxt ""
 "par_id101584447970004\n"
 "help.text"
 msgid "<variable id=\"number255_1\">Number 1 [; Number 2 [; … [; Number 255]]]</variable>"
-msgstr ""
+msgstr "<variable id=\"number255_1\">Liczba 1 [; Liczba 2 [; … [; Liczba 255]]]</variable>"
 
 #. QKcwi
 #: ful_func.xhp
@@ -55868,7 +55868,7 @@ msgctxt ""
 "par_id931584395947010\n"
 "help.text"
 msgid "<emph>Number 1, Number 2, … , Number 255</emph> are numbers, references to cells or to cell ranges of numbers."
-msgstr ""
+msgstr "<emph>Liczba 1, Liczba 2, … , Liczba 255</emph> to liczby, odwołania do komórek lub zakresów komórek zawierających liczby."
 
 #. RLXz8
 #: ful_func.xhp
@@ -55877,7 +55877,7 @@ msgctxt ""
 "par_id291584447988879\n"
 "help.text"
 msgid "<variable id=\"logical255_1\">Logical 1 [; Logical 2 [; … [; Logical 255]]]</variable>"
-msgstr ""
+msgstr "<variable id=\"logical255_1\">Wartość logiczna 1 [; Wartość logiczna 2 [; … [; Wartość logiczna 255]]]</variable>"
 
 #. JTdAs
 #: ful_func.xhp
@@ -55886,7 +55886,7 @@ msgctxt ""
 "par_id931584395957010\n"
 "help.text"
 msgid "<emph>Logical 1, Logical 2,  … , Logical 255</emph> are boolean values, references to cells or to cell ranges of logical values."
-msgstr ""
+msgstr "<emph>Wartość logiczna 1, Wartość logiczna 2,  … , Wartość logiczna 255</emph> to wartości logiczne, odwołania do komórek lub zakresów komórek zawierających wartości logiczne."
 
 #. unnEF
 #: ful_func.xhp
@@ -55895,7 +55895,7 @@ msgctxt ""
 "par_id91584448008632\n"
 "help.text"
 msgid "<variable id=\"complex255_1\">Complex 1 [; Complex 2 [; … [; Complex 255]]]</variable>"
-msgstr ""
+msgstr "<variable id=\"complex255_1\">Liczba zespolona 1 [; Liczba zespolona 2 [; … [; Liczba zespolona 255]]]</variable>"
 
 #. NuCbV
 #: ful_func.xhp
@@ -55904,7 +55904,7 @@ msgctxt ""
 "par_id931584335947010\n"
 "help.text"
 msgid "<emph>Complex 1, Complex 2, … ,Complex 255</emph> are complex numbers, references to cells or to cell ranges of complex numbers. Complex numbers are entered in the form \"x+yi\" or \"x+yj\"."
-msgstr ""
+msgstr "<emph>Liczba zespolona 1, Liczba zespolona 2, … , Liczba zespolona 255</emph> to liczby zespolone, odwołania do komórek lub zakresów komórek liczb zespolonych. Liczby zespolone wprowadza się w postaci \"x+yi\" lub \"x+yj\"."
 
 #. jWF7Y
 #: ful_func.xhp
@@ -55913,7 +55913,7 @@ msgctxt ""
 "par_id61584448028298\n"
 "help.text"
 msgid "<variable id=\"reference255_1\">Reference 1 [; Reference 2 [; … [; Reference 255]]]</variable>"
-msgstr ""
+msgstr "<variable id=\"reference255_1\">Odwołanie 1 [; Odwołanie 2 [; … [; Odwołanie 255]]]</variable>"
 
 #. dxwtx
 #: ful_func.xhp
@@ -55922,7 +55922,7 @@ msgctxt ""
 "par_id431584335947010\n"
 "help.text"
 msgid "<emph>Reference 1, Reference 2, … ,Reference 255</emph> are references to cells."
-msgstr ""
+msgstr "<emph>Odwołanie 1, Odwołanie 2, … , Odwołanie 255</emph> to odwołania do komórek."
 
 #. 4BGvn
 #: ful_func.xhp
@@ -55931,7 +55931,7 @@ msgctxt ""
 "par_id1001601332672155\n"
 "help.text"
 msgid "This function is always recalculated whenever a recalculation occurs."
-msgstr ""
+msgstr "Funkcja ta jest zawsze przeliczana za każdym razem, gdy następuje ponowne obliczenie."
 
 #. 8DbP2
 #: func_aggregate.xhp
@@ -55985,7 +55985,7 @@ msgctxt ""
 "par_id200801176228491\n"
 "help.text"
 msgid "AGGREGATE(Function; Option; Number 1[; Number 2][; ... ;[Number 253]])"
-msgstr ""
+msgstr "AGREGUJ(funkcja; opcja; liczba 1 [; liczba 2] [; ...; [liczba 253]])"
 
 #. Xt2VS
 #: func_aggregate.xhp
@@ -56003,7 +56003,7 @@ msgctxt ""
 "par_id30181907128680\n"
 "help.text"
 msgid "AGGREGATE(Function; Option; Array[; k])"
-msgstr ""
+msgstr "AGREGUJ(funkcja; opcja; tablica[; k])"
 
 #. WPGsi
 #: func_aggregate.xhp
@@ -56309,7 +56309,7 @@ msgctxt ""
 "par_id220402843321947\n"
 "help.text"
 msgid "<emph>Number1</emph> – required argument. The first numeric argument (if the range is set by a list of values inside the function) or a reference to a cell that contains it."
-msgstr ""
+msgstr "<emph>Liczba1</emph> – wymagany argument. Pierwszy argument liczbowy (jeśli zakres jest ustawiony przez listę wartości wewnątrz funkcji) lub odwołanie do komórki, która go zawiera."
 
 #. wNPAv
 #: func_aggregate.xhp
@@ -56318,7 +56318,7 @@ msgctxt ""
 "par_id2309201514193338\n"
 "help.text"
 msgid "<emph>Number2, 3, ...</emph> – optional. A numeric argument or a reference to a cell (up to 253 arguments), for which you need the aggregate value."
-msgstr ""
+msgstr "<emph>Liczba2, 3, ...</emph> – opcjonalnie. Argument liczbowy lub odwołanie do komórki (do 253 argumentów), dla której potrzebna jest wartość zagregowana."
 
 #. VQD44
 #: func_aggregate.xhp
@@ -56327,7 +56327,7 @@ msgctxt ""
 "par_id99381371214702\n"
 "help.text"
 msgid "<emph>Array</emph> – required argument. The array can be specified by the boundaries of the range, the name of the named range or the column label."
-msgstr ""
+msgstr "<emph>Tablica</emph> – wymagany argument. Tablicę można określić poprzez granice zakresu, nazwę nazwanego zakresu lub etykietę kolumny."
 
 #. tQG5i
 #: func_aggregate.xhp
@@ -56345,7 +56345,7 @@ msgctxt ""
 "par_id2209201514174370\n"
 "help.text"
 msgid "<emph>k</emph> – required argument for the following functions: LARGE, SMALL, PERCENTILE.INC, QUARTILE.INC, PERCENTILE.EXC, QUARTILE.EXC. It is a numeric argument, which must correspond to the second argument of these functions."
-msgstr ""
+msgstr "<emph>k</emph> – wymagany argument dla funkcji: MAKS.K, SMALL, PERCENTYL.PRZEDZ.ZAMK, KWARTYL.PRZEDZ.ZAMK, PERCENTYL.PRZEDZ.OTW, KWARTYL.PRZEDZ.OTW. Jest to argument liczbowy, który musi odpowiadać drugiemu argumentowi tych funkcji."
 
 #. 5M7aG
 #: func_aggregate.xhp
@@ -56489,7 +56489,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ARABIC Function"
-msgstr ""
+msgstr "Funkcja ARABSKIE"
 
 #. ze8wK
 #: func_arabic.xhp
@@ -56498,7 +56498,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>ARABIC function</bookmark_value>      <bookmark_value>text functions;convert roman numbers</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ARABSKIE, funkcja</bookmark_value><bookmark_value>funkcje tekstowe;konwertuj liczby rzymskie</bookmark_value>"
 
 #. ku3Gp
 #: func_arabic.xhp
@@ -56507,7 +56507,7 @@ msgctxt ""
 "hd_id881628776094597\n"
 "help.text"
 msgid "<variable id=\"Arabic_h1\"><link href=\"text/scalc/01/func_arabic.xhp\">ARABIC</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Arabic_h1\"><link href=\"text/scalc/01/func_arabic.xhp\">ARABSKIE</link></variable>"
 
 #. xPXrU
 #: func_arabic.xhp
@@ -56516,7 +56516,7 @@ msgctxt ""
 "par_id541542230672101\n"
 "help.text"
 msgid "<variable id=\"func_arabic_desc\"><ahelp hid=\".\">Returns the numeric value corresponding to a Roman number expressed as text.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"func_arabic_desc\"><ahelp hid=\".\">Zwraca wartość liczbową odpowiadającą liczbie rzymskiej wyrażonej jako tekst.</ahelp></variable>"
 
 #. 2UE9g
 #: func_arabic.xhp
@@ -56525,7 +56525,7 @@ msgctxt ""
 "par_id151634221012221\n"
 "help.text"
 msgid "The largest Roman number that can be converted is MMMCMXCIX (or one of its simplified versions), which is equivalent to 3999."
-msgstr ""
+msgstr "Największą liczbą rzymską, którą można przekonwertować, jest MMMCMXCIX (lub jedna z jej uproszczonych wersji), co odpowiada liczbie 3999."
 
 #. AueXr
 #: func_arabic.xhp
@@ -56534,7 +56534,7 @@ msgctxt ""
 "par_id701542231253817\n"
 "help.text"
 msgid "<input>ARABIC(Text)</input>"
-msgstr ""
+msgstr "<input>ARABSKIE(tekst)</input>"
 
 #. sWMEb
 #: func_arabic.xhp
@@ -56543,7 +56543,7 @@ msgctxt ""
 "par_id621542232197446\n"
 "help.text"
 msgid "<emph>Text</emph>: text representing a Roman number."
-msgstr ""
+msgstr "<emph>Tekst</emph>: tekst reprezentujący liczbę rzymską."
 
 #. WcE8r
 #: func_arabic.xhp
@@ -56552,7 +56552,7 @@ msgctxt ""
 "par_id451628776707264\n"
 "help.text"
 msgid "<input>=ARABIC(\"MXIV\")</input> returns the numeric value 1014."
-msgstr ""
+msgstr "<input>=ARABSKIE(\"MXIV\")</input> zwraca wartość liczbową 1014."
 
 #. hDmDF
 #: func_arabic.xhp
@@ -56561,7 +56561,7 @@ msgctxt ""
 "par_id101628778036375\n"
 "help.text"
 msgid "<input>=ARABIC(\"MMII\")</input> returns the numeric value 2002."
-msgstr ""
+msgstr "<input>=ARABSKIE(\"MMII\")</input> zwraca wartość liczbową 2002."
 
 #. XAwC8
 #: func_arabic.xhp
@@ -56570,7 +56570,7 @@ msgctxt ""
 "par_id101628778036134\n"
 "help.text"
 msgid "<input>=ARABIC(\"\")</input> returns 0."
-msgstr ""
+msgstr "<input>=ARABSKIE(\"\")</input> zwraca 0."
 
 #. yugTC
 #: func_asc.xhp
@@ -56579,7 +56579,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ASC Function"
-msgstr ""
+msgstr "Funkcja ASC"
 
 #. H3kmF
 #: func_asc.xhp
@@ -56588,7 +56588,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>ASC function</bookmark_value>      <bookmark_value>text functions;katakana characters</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ASC, funkcja</bookmark_value><bookmark_value>funkcje tekstowe;znaki katakana</bookmark_value>"
 
 #. 4QDi7
 #: func_asc.xhp
@@ -56597,7 +56597,7 @@ msgctxt ""
 "hd_id881628776094597\n"
 "help.text"
 msgid "<variable id=\"Asc_h1\"><link href=\"text/scalc/01/func_asc.xhp\">ASC</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Asc_h1\"><link href=\"text/scalc/01/func_asc.xhp\">ASC</link></variable>"
 
 #. gtGVG
 #: func_asc.xhp
@@ -56606,7 +56606,7 @@ msgctxt ""
 "par_id541542230672101\n"
 "help.text"
 msgid "<variable id=\"func_asc_desc\"><ahelp hid=\".\">Converts double-byte (full-width) characters to single-byte (half-width) ASCII and katakana characters.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"func_asc_desc\"><ahelp hid=\".\">Konwertuje znaki dwubajtowe (o pełnej szerokości) na jednobajtowe (o połowie szerokości) znaki ASCII i katakana.</ahelp></variable>"
 
 #. XLLvR
 #: func_asc.xhp
@@ -56615,7 +56615,7 @@ msgctxt ""
 "par_id151634221012221\n"
 "help.text"
 msgid "See <link href=\"https://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">https://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link> for a conversion table."
-msgstr ""
+msgstr "Zobacz <link href=\"https://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions\">https://wiki.documentfoundation.org/Calc/Features/JIS_and_ASC_functions</link>, aby zapoznać się z tabelą konwersji."
 
 #. nWQan
 #: func_asc.xhp
@@ -56624,7 +56624,7 @@ msgctxt ""
 "par_id701542231253817\n"
 "help.text"
 msgid "<input>ASC(Text)</input>"
-msgstr ""
+msgstr "<input>ASC(tekst)</input>"
 
 #. npFEH
 #: func_asc.xhp
@@ -56633,7 +56633,7 @@ msgctxt ""
 "par_id621542232197446\n"
 "help.text"
 msgid "<emph>Text</emph>: the text string that contains characters to be converted."
-msgstr ""
+msgstr "<emph>Tekst</emph>: ciąg tekstowy zawierający znaki do konwersji."
 
 #. d9fM4
 #: func_asc.xhp
@@ -56642,7 +56642,7 @@ msgctxt ""
 "par_id481637763523789\n"
 "help.text"
 msgid "Applying the ASC function to a string composed of single-byte characters will return the input string without any modifications."
-msgstr ""
+msgstr "Zastosowanie funkcji ASC do ciągu złożonego ze znaków jednobajtowych zwróci ciąg wejściowy bez żadnych modyfikacji."
 
 #. QXBHB
 #: func_asc.xhp
@@ -56651,7 +56651,7 @@ msgctxt ""
 "par_id451628776707264\n"
 "help.text"
 msgid "<input>=ASC(\"LibreOffice\")</input> returns the string \"LibreOffice\". No modifications were made because all characters are single-byte characters."
-msgstr ""
+msgstr "<input>=ASC(\"LibreOffice\")</input> zwraca ciąg \"LibreOffice\". Nie dokonano żadnych modyfikacji, ponieważ wszystkie znaki są znakami jednobajtowymi."
 
 #. f8rff
 #: func_asc.xhp
@@ -56660,7 +56660,7 @@ msgctxt ""
 "par_id101628778036375\n"
 "help.text"
 msgid "<input>=ASC(\"ライト\")</input> returns the string \"ﾗｲﾄ\", which is composed of single-byte characters."
-msgstr ""
+msgstr "<input>=ASC(\"ライト\")</input> zwraca ciąg \"ﾗｲﾄ\", który składa się ze znaków jednobajtowych."
 
 #. y9q7t
 #: func_averageif.xhp
@@ -57038,7 +57038,7 @@ msgctxt ""
 "par_id165832700711773\n"
 "help.text"
 msgid "<emph>Func_range</emph> – required argument. It is a range of cells, a name of a named range or a label of a column or a row containing values for calculating the mean."
-msgstr "<emph>Zakres_uśrednienia</emph> – wymagany argument. Jest to zakres komórek, nazwa nazwanego zakresu lub etykieta kolumny lub wiersz zawierający wartości do obliczenia średniej."
+msgstr "<emph>Zakres_funkcji</emph> – wymagany argument. Jest to zakres komórek, nazwa nazwanego zakresu lub etykieta kolumny lub wiersz zawierający wartości do obliczenia średniej."
 
 #. y7NZn
 #: func_averageifs.xhp
@@ -57695,7 +57695,7 @@ msgctxt ""
 "bm_id1102201617201921\n"
 "help.text"
 msgid "<bookmark_value>colors;numerical values</bookmark_value>         <bookmark_value>colors;calculating in spreadsheets</bookmark_value>         <bookmark_value>COLOR function</bookmark_value>"
-msgstr "<bookmark_value>kolor;wartość numeryczna</bookmark_value>         <bookmark_value>kolor;obliczanie w arkuszu</bookmark_value>         <bookmark_value>KOLOR, funkcja</bookmark_value>"
+msgstr "<bookmark_value>kolor;wartość liczbowa</bookmark_value>         <bookmark_value>kolor;obliczanie w arkuszu</bookmark_value>         <bookmark_value>KOLOR, funkcja</bookmark_value>"
 
 #. qjPSR
 #: func_color.xhp
@@ -63581,7 +63581,7 @@ msgctxt ""
 "par_id59901690530236\n"
 "help.text"
 msgid "<emph>Func_Range</emph> – required argument. A range of cells, a name of a named range or a label of a column or a row containing values for calculating the maximum."
-msgstr "<emph>Maks_zakres</emph> – wymagany argument. Zakres komórek, nazwa zakresu lub etykieta kolumny lub wiersz zawierający wartości do obliczenia maksimum."
+msgstr "<emph>Zakres_funkcji</emph> – wymagany argument. Zakres komórek, nazwa zakresu lub etykieta kolumny lub wiersz zawierający wartości do obliczenia maksimum."
 
 #. BUavo
 #: func_maxifs.xhp
@@ -63761,7 +63761,7 @@ msgctxt ""
 "par_id59901690530236\n"
 "help.text"
 msgid "<emph>Func_Range</emph> – required argument. A range of cells, a name of a named range or a label of a column or a row containing values for calculating the minimum."
-msgstr "<emph>Maks_zakres</emph> – wymagany argument. Zakres komórek, nazwa zakresu lub etykieta kolumny lub wiersz zawierający wartości do obliczenia minimum."
+msgstr "<emph>Zakres_funkcji</emph> – wymagany argument. Zakres komórek, nazwa zakresu lub etykieta kolumny lub wiersz zawierający wartości do obliczenia minimum."
 
 #. KkDwL
 #: func_minifs.xhp
@@ -66173,7 +66173,7 @@ msgctxt ""
 "par_id59901690530236\n"
 "help.text"
 msgid "<emph>Func_Range</emph> – required argument. It is a range of cells, a name of a named range or a label of a column or a row containing values for calculating the sum."
-msgstr "<emph>zakres_sumowania</emph> – wymagany argument. Jest to zakres komórek, nazwa zakresu lub etykieta kolumny lub wiersz zawierający wartości do obliczenia sumy."
+msgstr "<emph>Zakres_funkcji</emph> – wymagany argument. Jest to zakres komórek, nazwa zakresu lub etykieta kolumny lub wiersz zawierający wartości do obliczenia sumy."
 
 #. zahGz
 #: func_sumifs.xhp
