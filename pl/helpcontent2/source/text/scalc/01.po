@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-11-02 14:48+0100\n"
-"PO-Revision-Date: 2023-11-21 09:45+0000\n"
+"PO-Revision-Date: 2023-11-21 11:33+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/pl/>\n"
 "Language: pl\n"
@@ -6314,7 +6314,7 @@ msgctxt ""
 "par_id901612299089478\n"
 "help.text"
 msgid "<input>=AMORDEGRC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0.1; 0)</input> returns a depreciation amount of 163 currency units."
-msgstr "<input>=AMORT.NIELIN(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0.1; 0)</input> zwraca kwotę amortyzacji równą 163 jednostkom waluty."
+msgstr "<input>=AMORT.NIELIN(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0,1; 0)</input> zwraca kwotę amortyzacji równą 163 jednostkom waluty."
 
 #. aG2TT
 #: 04060103.xhp
@@ -6431,7 +6431,7 @@ msgctxt ""
 "par_id391612299096511\n"
 "help.text"
 msgid "<input>=AMORLINC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0.1; 0)</input> returns a depreciation amount of 200 currency units."
-msgstr "<input>=AMORT.LIN(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0.1; 0)</input> zwraca kwotę amortyzacji 200 jednostek walutowych."
+msgstr "<input>=AMORT.LIN(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0,1; 0)</input> zwraca kwotę amortyzacji 200 jednostek walutowych."
 
 #. DHKDL
 #: 04060103.xhp
@@ -7637,7 +7637,7 @@ msgctxt ""
 "par_id3154902\n"
 "help.text"
 msgid "<input>=DURATION(\"2001-01-01\";\"2006-01-01\";0.08;0.09;2;3)</input> returns 4.2 years."
-msgstr "<input>=ROCZ.PRZYCH(\"2001-01-01\";\"2006-01-01\";0.08;0.09;2;3)</input> zwraca 4,2 roku."
+msgstr "<input>=ROCZ.PRZYCH(\"2001-01-01\";\"2006-01-01\";0,08;0,09;2;3)</input> zwraca 4,2 roku."
 
 #. TjeEJ
 #: 04060103.xhp
@@ -27707,7 +27707,7 @@ msgctxt ""
 "par_id3152793\n"
 "help.text"
 msgid "<input>=XIRR(B1:B5; A1:A5; 0.1)</input> returns 0.1828 or 18.28%."
-msgstr "<input>=XIRR(B1:B5; A1:A5; 0.1)</input> zwraca 0,1828 or 18,28%."
+msgstr "<input>=XIRR(B1:B5; A1:A5; 0,1)</input> zwraca 0,1828 or 18,28%."
 
 #. HRiCT
 #: 04060118.xhp
@@ -58289,7 +58289,7 @@ msgctxt ""
 "par_id651586213406243\n"
 "help.text"
 msgid "<input>=CEILING.PRECISE(-45.67; 2)</input> returns -44."
-msgstr "<input>=ZAOKR.W.GÓRĘ.DOKŁ(-45.67; 2)</input> zwraca -44."
+msgstr "<input>=ZAOKR.W.GÓRĘ.DOKŁ(-45,67; 2)</input> zwraca -44."
 
 #. WV9bx
 #: func_ceiling.xhp
@@ -62132,7 +62132,7 @@ msgctxt ""
 "bm_id3157404\n"
 "help.text"
 msgid "<bookmark_value>FLOOR function</bookmark_value><bookmark_value>rounding;down to nearest multiple of significance</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ZAOKR.W.DÓŁ, funkcja</bookmark_value><bookmark_value>zaokrąglanie;w dół do najbliższej wielokrotności istotności</bookmark_value>"
 
 #. soQ7o
 #: func_floor.xhp
@@ -62141,7 +62141,7 @@ msgctxt ""
 "hd_id3157404\n"
 "help.text"
 msgid "<variable id=\"FLOORh1\"><link href=\"text/scalc/01/func_floor.xhp#floor\">FLOOR</link></variable>"
-msgstr ""
+msgstr "<variable id=\"FLOORh1\"><link href=\"text/scalc/01/func_floor.xhp#floor\">ZAOKR.W.DÓŁ</link></variable>"
 
 #. VSV8H
 #: func_floor.xhp
@@ -62150,7 +62150,7 @@ msgctxt ""
 "par_id3157432\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_UNTERGRENZE\">Rounds a number to the nearest multiple of a significance value.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_UNTERGRENZE\">Zaokrągla liczbę do najbliższej wielokrotności wartości istotności.</ahelp>"
 
 #. 345Fr
 #: func_floor.xhp
@@ -62159,7 +62159,7 @@ msgctxt ""
 "par_id661586285977707\n"
 "help.text"
 msgid "For a positive number and a positive significance value, the function rounds down (towards zero). For a negative number and a negative significance value, the direction of rounding is determined by the value of a mode parameter. The function returns an error if the number and significance values have opposite signs."
-msgstr ""
+msgstr "Dla liczby dodatniej i dodatniej wartości istotności funkcja zaokrągla w dół (w stronę zera). Dla liczby ujemnej i ujemnej wartości istotności kierunek zaokrąglania wyznacza wartość parametru trybu. Funkcja zwraca błąd, jeśli wartości liczbowe i istotności mają przeciwne znaki."
 
 #. 5kHtR
 #: func_floor.xhp
@@ -62168,7 +62168,7 @@ msgctxt ""
 "par_id3163894\n"
 "help.text"
 msgid "If the spreadsheet is exported to Microsoft Excel, the FLOOR function is exported as the equivalent FLOOR.MATH function that has existed since Excel 2013. If you plan to use the spreadsheet with earlier Excel versions, use either FLOOR.PRECISE that has existed since Excel 2010, or FLOOR.XCL that is exported as the FLOOR function compatible with all Excel versions."
-msgstr ""
+msgstr "Jeśli arkusz kalkulacyjny jest eksportowany do programu Microsoft Excel, funkcja ZAOKR.W.DÓŁ jest eksportowana jako równoważna funkcja ZAOKR.W.DÓŁ.MATEMATYCZNE, która istnieje od czasu programu Excel 2013. Jeśli planujesz używać arkusza kalkulacyjnego we wcześniejszych wersjach programu Excel, użyj ZAOKR.W.DÓŁ.DOKŁ, która istnieje od czasu programu Excel 2010 lub ZAOKR.W.DÓŁ.XCL, która jest eksportowana jako funkcja ZAOKR.W.DÓŁ kompatybilna ze wszystkimi wersjami Excela."
 
 #. 2haGU
 #: func_floor.xhp
@@ -62177,7 +62177,7 @@ msgctxt ""
 "par_id3157464\n"
 "help.text"
 msgid "FLOOR(Number[; Significance[; Mode]])"
-msgstr ""
+msgstr "ZAOKR.W.DÓŁ(liczba[; istotność [; tryb]])"
 
 #. ERf3D
 #: func_floor.xhp
@@ -62186,7 +62186,7 @@ msgctxt ""
 "par_id3153467\n"
 "help.text"
 msgid "<emph>Number</emph> is the number that is to be rounded, or a reference to a cell containing the number."
-msgstr ""
+msgstr "<emph>Liczba</emph> to liczba, która ma zostać zaokrąglona, lub odwołanie do komórki zawierającej tę liczbę."
 
 #. 8w8tL
 #: func_floor.xhp
@@ -62195,7 +62195,7 @@ msgctxt ""
 "par_id3157497\n"
 "help.text"
 msgid "<emph>Significance</emph> (optional) is the value, or a reference to a cell containing the value, to whose multiple <emph>Number</emph> is to be rounded. It defaults to +1 or -1 depending on the sign of <emph>Number</emph>."
-msgstr ""
+msgstr "<emph>Istotność</emph> (opcjonalnie) to wartość lub odwołanie do komórki zawierającej wartość, do której wielokrotność wartości <emph>Liczba</emph> ma zostać zaokrąglona. Domyślnie jest to +1 lub -1 w zależności od znaku <emph>Liczba</emph>."
 
 #. qCpHR
 #: func_floor.xhp
@@ -62204,7 +62204,7 @@ msgctxt ""
 "par_id3157517\n"
 "help.text"
 msgid "<emph>Mode</emph> (optional) is a number, or a reference to a cell containing a number. The function only uses <emph>Mode</emph> if both <emph>Number</emph> and <emph>Significance</emph> are negative. Then if <emph>Mode</emph> is given and not equal to zero, numbers are rounded up (towards zero); if <emph>Mode</emph> is equal to zero or not given, negative numbers are rounded down (away from zero)."
-msgstr ""
+msgstr "<emph>Tryb</emph> (opcjonalnie) to liczba lub odwołanie do komórki zawierającej liczbę. Funkcja używa <emph>Trybu</emph> tylko wtedy, gdy zarówno <emph>Liczba</emph>, jak i <emph>Istotność</emph> są ujemne. Następnie, jeśli podany jest <emph>Tryb</emph> i nie jest równy zero, liczby są zaokrąglane w górę (w stronę zera); jeśli <emph>Tryb</emph> jest równy zero lub nie został podany, liczby ujemne są zaokrąglane w dół (od zera)."
 
 #. EU85r
 #: func_floor.xhp
@@ -62213,7 +62213,7 @@ msgctxt ""
 "par_id761586287595376\n"
 "help.text"
 msgid "<input>=FLOOR(3.45)</input> returns 3."
-msgstr ""
+msgstr "<input>=ZAOKR.W.DÓŁ(3,45)</input> zwraca 3."
 
 #. vuJc5
 #: func_floor.xhp
@@ -62222,7 +62222,7 @@ msgctxt ""
 "par_id311586287600048\n"
 "help.text"
 msgid "<input>=FLOOR(3.45, 3)</input> returns 3."
-msgstr ""
+msgstr "<input>=ZAOKR.W.DÓŁ(3,45; 3)</input> zwraca 3."
 
 #. uTWTb
 #: func_floor.xhp
@@ -62231,7 +62231,7 @@ msgctxt ""
 "par_id661586287604519\n"
 "help.text"
 msgid "<input>=FLOOR(-1.234)</input> returns -2."
-msgstr ""
+msgstr "<input>=ZAOKR.W.DÓŁ(-1,234)</input> zwraca -2."
 
 #. 8ZGDc
 #: func_floor.xhp
@@ -62240,7 +62240,7 @@ msgctxt ""
 "par_id741586287608968\n"
 "help.text"
 msgid "<input>=FLOOR(-45.67, -2, 0)</input> returns -46."
-msgstr ""
+msgstr "<input>=ZAOKR.W.DÓŁ(-45,67; -2, 0)</input> zwraca -46."
 
 #. gXsTm
 #: func_floor.xhp
@@ -62249,7 +62249,7 @@ msgctxt ""
 "par_id431586287616089\n"
 "help.text"
 msgid "<input>=FLOOR(-45.67, -2, 1)</input> returns -44."
-msgstr ""
+msgstr "<input>=ZAOKR.W.DÓŁ(-45,67; -2; 1)</input> zwraca -44."
 
 #. zzTLr
 #: func_floor.xhp
