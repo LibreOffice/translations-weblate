@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-11-02 14:48+0100\n"
-"PO-Revision-Date: 2023-11-28 09:46+0000\n"
+"PO-Revision-Date: 2023-11-28 09:49+0000\n"
 "Last-Translator: 锁琨珑 <suokunlong@126.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.documentfoundation.org/projects/libo_help-master/textshared01/zh_Hans/>\n"
 "Language: zh-CN\n"
@@ -8555,7 +8555,7 @@ msgctxt ""
 "par_id3157958\n"
 "help.text"
 msgid "One or more of the regular expression term immediately preceding it. For example, \"AX.+4\" finds \"AXx4\", but not \"AX4\"."
-msgstr "正则表达式字符之前紧邻的一个字符出现一次或多次。例如，“Ab*c”匹配“Ac”，“Abc”，“Abbc”，“Abbbc”等等。"
+msgstr "正则表达式字符之前紧邻的一个字符出现一次或多次。例如，“AX.+4”匹配“AXx4”，但是无法匹配“AX4”。"
 
 #. LMvcH
 #: 02100001.xhp
@@ -8564,7 +8564,7 @@ msgctxt ""
 "par_id3145313\n"
 "help.text"
 msgid "The longest possible string that matches this regular expression in a paragraph is always matched. If the paragraph contains the string \"AX 4 AX4\", the entire passage is highlighted."
-msgstr ""
+msgstr "这种模式下，会匹配段落中尽可能长的字符串。如果段落中包含字符串“AX 4 AX4”，那么整个这个字符串会被匹配到并被高亮。"
 
 #. mdVaj
 #: 02100001.xhp
@@ -8573,7 +8573,7 @@ msgctxt ""
 "par_id3153684\n"
 "help.text"
 msgid "Zero or one of the regular expression term immediately preceding it. For example, \"Texts?\" matches \"Text\" and \"Texts\" and \"x(ab|c)?y\" finds \"xy\", \"xaby\", or \"xcy\"."
-msgstr ""
+msgstr "正则表达式字符之前紧邻的一个字符出现零次或一次。例如，“Texts?”匹配“Text”和“，但是无法匹配“AX4”。"
 
 #. zyaC5
 #: 02100001.xhp
