@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-12-04 15:06+0100\n"
-"PO-Revision-Date: 2023-12-07 20:22+0000\n"
+"PO-Revision-Date: 2023-12-09 09:45+0000\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian Nynorsk <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/nn/>\n"
 "Language: nn\n"
@@ -9763,7 +9763,7 @@ msgctxt ""
 "par_id41599488113502\n"
 "help.text"
 msgid "Creates a <literal>Dataset</literal> service instance based on a table, query or SQL <literal>SELECT</literal> statement."
-msgstr ""
+msgstr "Opprettar ei <literal>Dataset</literal>-teneste basert på ein tabell, ei spørjing eller eit SQL <literal>SELECT</literal>-uttrykk."
 
 #. MX6BM
 #: sf_database.xhp
@@ -9772,7 +9772,7 @@ msgctxt ""
 "par_id591701267115505\n"
 "help.text"
 msgid "<emph>sqlcommand</emph>: A table name, a query name or a valid SQL <literal>SELECT</literal> statement. Identifiers may be enclosed with square brackets. This argument is case-sensitive."
-msgstr ""
+msgstr "<emph>sqlcommand</emph>: Eit namn på ein tabell eller ei spørjing eller eit gyldig SQL <literal>SELECT</literal>-uttrykk. Identifikatorer kan vera omslutta av hakeparentesar. Dette argumentet skil mellom store og små bokstavar."
 
 #. HSKm4
 #: sf_database.xhp
@@ -9781,7 +9781,7 @@ msgctxt ""
 "par_id841701267114060\n"
 "help.text"
 msgid "<emph>directsql</emph>: Set this argument to <literal>True</literal> to send the statement directly to the database engine without preprocessing by %PRODUCTNAME (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>directsql</emph>: Set dette argumentet til <literal>Sann</literal> for å senda uttrykket direkte til databasemotoren utan at vert handsama på førehand av %PRODUCTNAME (Standard = <literal>Usann</literal>."
 
 #. ZoWu5
 #: sf_database.xhp
@@ -9790,7 +9790,7 @@ msgctxt ""
 "par_id241701267114527\n"
 "help.text"
 msgid "<emph>filter</emph>: Specifies the condition that records must match to be included in the returned dataset. This argument is expressed as a SQL <literal>WHERE</literal> statement without the \"WHERE\" keyword."
-msgstr ""
+msgstr "<emph>filter</emph>: Spesifiserer vilkåret som postar må samsvara med for å verta tekne med i det returnerte datasettet. Dette argumentet er uttrykt som eit SQL <literal>WHERE</literal>-uttrykk utan nøkkelordet «WHERE»."
 
 #. SGBKv
 #: sf_database.xhp
@@ -9799,7 +9799,7 @@ msgctxt ""
 "par_id471701267115093\n"
 "help.text"
 msgid "<emph>orderby</emph>: Specifies the ordering of the dataset as a SQL <literal>ORDER BY</literal> statement without the \"ORDER BY\" keyword."
-msgstr ""
+msgstr "<emph>orderby</emph>: Spesifiserer rekkjefølgja på datasettet som eit SQL <literal>ORDER BY</literal>-uttrykk utan nøkkelordet «ORDER BY»."
 
 #. V8pDK
 #: sf_database.xhp
@@ -9808,7 +9808,7 @@ msgctxt ""
 "par_id941701267748877\n"
 "help.text"
 msgid "The following examples in Basic and Python return a dataset with the records of a table named \"Customers\"."
-msgstr ""
+msgstr "Eksempla nedanfor i Basic og Python returnerer eit datasett med postane i ein tabell kalla «Kundar»."
 
 #. Ebnho
 #: sf_database.xhp
@@ -9817,7 +9817,7 @@ msgctxt ""
 "bas_id241701267631273\n"
 "help.text"
 msgid "oDataset = myDatabase.CreateDataset(\"Customers\", Filter := \"[Name] LIKE 'A'\")"
-msgstr ""
+msgstr "oDataset = myDatabase.CreateDataset(\"Kundar\", Filter := \"[Namn] LIKE 'A'\")"
 
 #. h2NSq
 #: sf_database.xhp
@@ -9826,7 +9826,7 @@ msgctxt ""
 "pyc_id931701267696812\n"
 "help.text"
 msgid "dataset = myDatabase.CreateDataset(\"Customers\", Filter = \"[Name] LIKE 'A'\")"
-msgstr ""
+msgstr "dataset = myDatabase.CreateDataset(\"Kundar\", Filter := \"[Namn] LIKE 'A'\")"
 
 #. nwbSh
 #: sf_database.xhp
@@ -10186,7 +10186,7 @@ msgctxt ""
 "par_id31599490603311\n"
 "help.text"
 msgid "Cancels all changes made to the database since the last <literal>Commit</literal> or <literal>Rollback</literal> call."
-msgstr ""
+msgstr "Avbryt alle endringar som er gjort i databasen sidan siste oppkall til  <literal>Commit</literal> eller <literal>Rollback</literal>."
 
 #. FMBEy
 #: sf_database.xhp
@@ -10240,7 +10240,7 @@ msgctxt ""
 "par_id31599490604648\n"
 "help.text"
 msgid "Defines the level of isolation in database transactions."
-msgstr ""
+msgstr "Definerer isolasjonsnivået i databasetransaksjonar."
 
 #. GQaTd
 #: sf_database.xhp
@@ -10249,7 +10249,7 @@ msgctxt ""
 "par_id281701459963822\n"
 "help.text"
 msgid "By default databases manage transactions in auto-commit mode, which means that a <literal>Commit</literal> is automatically performed after every SQL statement."
-msgstr ""
+msgstr "Som standard administrerer databasar transaksjonar i auto-commit-modus, noko som betyr at ein <literal>Commit</literal> vert utført automatisk etter kvart SQL-uttrykk."
 
 #. Yq5UG
 #: sf_database.xhp
@@ -10258,7 +10258,7 @@ msgctxt ""
 "par_id181701460140309\n"
 "help.text"
 msgid "Use this method to manually determine the isolation level of transactions. When a transaction mode other than <literal>NONE</literal> is set, the script has to explicitly call the <literal>Commit</literal> method to apply the changes to the database."
-msgstr ""
+msgstr "Bruk denne metoden for å bestemma isolasjonsnivået for transaksjonar manuelt. Når ein annan transaksjonsmodus enn <literal>NONE</literal> er sett, må skriptet eksplisitt kalla opp metoden <literal>Commit</literal> for å bruka endringane i databasen."
 
 #. NKoDH
 #: sf_database.xhp
@@ -10267,7 +10267,7 @@ msgctxt ""
 "par_id211701461020712\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Denne metoden returnerer <literal>Sann</literal> viss han lukkast."
 
 #. GwemZ
 #: sf_database.xhp
@@ -10276,7 +10276,7 @@ msgctxt ""
 "par_id831701530239962\n"
 "help.text"
 msgid "Changing the transaction mode closes all <literal>Dataset</literal> instances created from the current database."
-msgstr ""
+msgstr "Viss du endrar transaksjonsmodus, vert alle førekomster av <literal>Datasett</literal> som er oppretta frå den gjeldande databasen lukka."
 
 #. DeBne
 #: sf_database.xhp
@@ -10285,7 +10285,7 @@ msgctxt ""
 "par_id701599490609584\n"
 "help.text"
 msgid "<emph>transactionmode</emph>: Specifies the transaction mode. This argument must be one of the constants defined in <link href=\"https://api.libreoffice.org/docs/idl/ref/namespacecom_1_1sun_1_1star_1_1sdbc_1_1TransactionIsolation.html\">com.sun.star.sdbc.TransactionIsolation</link> (Default = <literal>NONE</literal>)"
-msgstr ""
+msgstr "<emph>transactionmode</emph>: Spesifiserer transaksjonsmodusen. Dette argumentet må vera ein av konstantane definert i <link href=\"https://api.libreoffice.org/docs/idl/ref/namespacecom_1_1sun_1_1star_1_1sdbc_1_1TransactionIsolation.html\">com.sun.star.sdbc.TransactionIsolation</link> (Standard = <literal>NONE</literal>)."
 
 #. NYvXV
 #: sf_database.xhp
@@ -10294,7 +10294,7 @@ msgctxt ""
 "par_id301701459879269\n"
 "help.text"
 msgid "Read the section <link href=\"text/sbasic/shared/03/sf_database.xhp#Transaction\">Transaction handling</link> above to learn more about the transaction isolation levels used in %PRODUCTNAME."
-msgstr ""
+msgstr "Les bolken <link href=\"text/sbasic/shared/03/sf_database.xhp#Transaction\">Transaksjonshandsaming</link> ovanfor for å læra meir om transaksjonisolasjonsnivå brukte i %PRODUCTNAME."
 
 #. DQkEN
 #: sf_database.xhp
@@ -10303,7 +10303,7 @@ msgctxt ""
 "bas_id951701460628717\n"
 "help.text"
 msgid "' Reset the transaction mode to default"
-msgstr ""
+msgstr "' Tilbakestiller transaksjonsmodus til standard"
 
 #. q2YAr
 #: sf_dataset.xhp
@@ -10312,7 +10312,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDatabases.Dataset service"
-msgstr ""
+msgstr "SFDatabases.Dataset-tenesta"
 
 #. p9Y5W
 #: sf_dataset.xhp
@@ -10321,7 +10321,7 @@ msgctxt ""
 "hd_id731582733781114\n"
 "help.text"
 msgid "<variable id=\"DatasetService\"><link href=\"text/sbasic/shared/03/sf_dataset.xhp\"><literal>SFDatabases</literal>.<literal>Dataset</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"DatasetService\"><link href=\"text/sbasic/shared/03/sf_dataset.xhp\"><literal>SFDatabases</literal>.<literal>Dataset</literal>-tenesta</link></variable>"
 
 #. CmkuE
 #: sf_dataset.xhp
@@ -10501,7 +10501,7 @@ msgctxt ""
 "par_id581582885655885\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the current record position is before the first record in the dataset, otherwise returns <literal>False</literal>."
-msgstr ""
+msgstr "Returnerer <literal>Sann</literal> vis den gjeldande posten er framføre den første posten i datasettet, elles vert <literal>Usann</literal> returnert."
 
 #. EteGE
 #: sf_dataset.xhp
@@ -10510,7 +10510,7 @@ msgctxt ""
 "par_id581582885655855\n"
 "help.text"
 msgid "Set this property to <literal>True</literal> to move the cursor to the beginning of the dataset. Setting this property to <literal>False</literal> is ignored."
-msgstr ""
+msgstr "Set denne eigenskapen til <literal>Sann</literal> for å flytta markøren til byrjinga av datasettet. Set du eigenskapen til <literal>Usann</literal>, vert dette ignorert."
 
 #. Bqkq3
 #: sf_dataset.xhp
@@ -10519,7 +10519,7 @@ msgctxt ""
 "par_id861582885655669\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. PPmEj
 #: sf_dataset.xhp
@@ -10528,7 +10528,7 @@ msgctxt ""
 "par_id271582885623525\n"
 "help.text"
 msgid "<literal>Dictionary</literal> service"
-msgstr ""
+msgstr "<literal>Dictionary</literal>-tenesta"
 
 #. brqY4
 #: sf_dataset.xhp
@@ -10537,7 +10537,7 @@ msgctxt ""
 "par_id581582885657885\n"
 "help.text"
 msgid "Returns a <literal>Dictionary</literal>  with the default values used for each field in the dataset. The fields or columns in the dataset are the keys in the dictionary."
-msgstr ""
+msgstr "Returnerer ei <literal>ordliste</literal> med standardverdiane brukte i kvart felt i datasettet. Felta eller kolonnane i datasettet er nøklane i ordlista."
 
 #. 3hnoA
 #: sf_dataset.xhp
