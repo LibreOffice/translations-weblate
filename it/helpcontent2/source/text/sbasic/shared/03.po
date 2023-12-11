@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-12-04 15:06+0100\n"
-"PO-Revision-Date: 2023-12-10 22:22+0000\n"
+"PO-Revision-Date: 2023-12-11 09:45+0000\n"
 "Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -9805,75 +9805,83 @@ msgstr "' Ripristina il modo di commit automatico"
 
 #. XigYX
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id41599488113502\n"
 "help.text"
 msgid "Creates a <literal>Dataset</literal> service instance based on a table, query or SQL <literal>SELECT</literal> statement."
-msgstr ""
+msgstr "Crea un'istanza del servizio <literal>Dataset</literal> sulla base di una tabella, una ricerca o un'istruzione <literal>SELECT</literal> di SQL."
 
 #. MX6BM
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id591701267115505\n"
 "help.text"
 msgid "<emph>sqlcommand</emph>: A table name, a query name or a valid SQL <literal>SELECT</literal> statement. Identifiers may be enclosed with square brackets. This argument is case-sensitive."
-msgstr ""
+msgstr "<emph>sqlcommand</emph>: Il nome di una tabella, il nome di una ricerca o un'istruzione <literal>SELECT</literal> valida in SQL. Gli identificatori possono essere racchiusi tra parentesi quadre. Questo argomento fa distinzione tra le minuscole e le maiuscole."
 
 #. HSKm4
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id841701267114060\n"
 "help.text"
 msgid "<emph>directsql</emph>: Set this argument to <literal>True</literal> to send the statement directly to the database engine without preprocessing by %PRODUCTNAME (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>directsql</emph>: Impostare questo argomento a <literal>True</literal> per inviare l'istruzione direttamente al motore di database senza che sia prima processata da %PRODUCTNAME (Predefinito = <literal>False</literal>)."
 
 #. ZoWu5
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id241701267114527\n"
 "help.text"
 msgid "<emph>filter</emph>: Specifies the condition that records must match to be included in the returned dataset. This argument is expressed as a SQL <literal>WHERE</literal> statement without the \"WHERE\" keyword."
-msgstr ""
+msgstr "<emph>filter</emph>: Specifica la condizione che i record devono rispettare per essere compresi nell'insieme di dati restituito. Questo argomento è espresso come un'istruzione <literal>WHERE</literal> in SQL senza la parola chiave \"WHERE\"."
 
 #. SGBKv
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id471701267115093\n"
 "help.text"
 msgid "<emph>orderby</emph>: Specifies the ordering of the dataset as a SQL <literal>ORDER BY</literal> statement without the \"ORDER BY\" keyword."
-msgstr ""
+msgstr "<emph>orderby</emph>: specifica l'ordinamento dell'insieme di dati come un'istruzione <literal>ORDER BY</literal> in SQL senza le parole chiave \"ORDER BY\"."
 
 #. V8pDK
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id941701267748877\n"
 "help.text"
 msgid "The following examples in Basic and Python return a dataset with the records of a table named \"Customers\"."
-msgstr ""
+msgstr "L'esempio seguente in Basic e Python restituisce un insieme di dati con i record di una tabella denominata \"Clienti\"."
 
 #. Ebnho
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "bas_id241701267631273\n"
 "help.text"
 msgid "oDataset = myDatabase.CreateDataset(\"Customers\", Filter := \"[Name] LIKE 'A'\")"
-msgstr ""
+msgstr "oDataset = myDatabase.CreateDataset(\"Clienti\", Filter := \"[Name] LIKE 'A'\")"
 
 #. h2NSq
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "pyc_id931701267696812\n"
 "help.text"
 msgid "dataset = myDatabase.CreateDataset(\"Customers\", Filter = \"[Name] LIKE 'A'\")"
-msgstr ""
+msgstr "dataset = myDatabase.CreateDataset(\"Clienti\", Filter = \"[Name] LIKE 'A'\")"
 
 #. nwbSh
 #: sf_database.xhp
