@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-12-04 15:06+0100\n"
-"PO-Revision-Date: 2023-12-10 22:22+0000\n"
+"PO-Revision-Date: 2023-12-12 09:45+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/cs/>\n"
 "Language: cs\n"
@@ -11048,7 +11048,7 @@ msgctxt ""
 "par_id93190955243864\n"
 "help.text"
 msgid "Returns the value of the specified field from the current record of the dataset."
-msgstr ""
+msgstr "Vrátí z aktuálního záznamu datové sady hodnotu zadaného pole."
 
 #. odbAa
 #: sf_dataset.xhp
@@ -11057,7 +11057,7 @@ msgctxt ""
 "par_id171701181922516\n"
 "help.text"
 msgid "If the specified field is binary, then its length is returned."
-msgstr ""
+msgstr "Jestliže je zadané pole binární, vrátí se jeho délka."
 
 #. Tb26K
 #: sf_dataset.xhp
@@ -11066,7 +11066,7 @@ msgctxt ""
 "par_id381701012554805\n"
 "help.text"
 msgid "<emph>fieldname</emph>: The name of the field to be returned, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>fieldname</emph>: Název pole, které se má vrátit, jako řetězec, u něhož se rozlišuje velikost písmen."
 
 #. 9DEBy
 #: sf_dataset.xhp
@@ -11075,7 +11075,7 @@ msgctxt ""
 "bas_id191701180036057\n"
 "help.text"
 msgid "currId = oDataset.GetValue(FieldName := \"ID\")"
-msgstr ""
+msgstr "currId = oDataset.GetValue(FieldName := \"ID\")"
 
 #. Km78M
 #: sf_dataset.xhp
@@ -11084,7 +11084,7 @@ msgctxt ""
 "pyc_id221701180366903\n"
 "help.text"
 msgid "curr_id = dataset.GetValue(fieldname = \"ID\")"
-msgstr ""
+msgstr "curr_id = dataset.GetValue(fieldname = \"ID\")"
 
 #. pDNd8
 #: sf_dataset.xhp
@@ -11093,7 +11093,7 @@ msgctxt ""
 "par_id93190998043864\n"
 "help.text"
 msgid "Inserts a new record at the end of the dataset and initialize its fields with the specified values."
-msgstr ""
+msgstr "Vloží na konec datové sady nový záznam a inicializuje jeho pole zadanými hodnotami."
 
 #. HQzFF
 #: sf_dataset.xhp
@@ -11102,7 +11102,7 @@ msgctxt ""
 "par_id941701206804894\n"
 "help.text"
 msgid "If the primary key of the dataset is an auto value, then this method returns the primary key value of the new record. Otherwise, the method will return 0 (when successful) or -1 (when not successful)."
-msgstr ""
+msgstr "Pokud má primární klíč datové sady automatickou hodnotu, vrátí tato metoda hodnotu primárního klíče nového záznamu. V opačném případě vrátí 0 (v případě úspěšného vložení) nebo -1 (v případě neúspěšného vložení)."
 
 #. bESBG
 #: sf_dataset.xhp
@@ -11111,7 +11111,7 @@ msgctxt ""
 "par_id51701203344601\n"
 "help.text"
 msgid "Updatable fields with unspecified values are initialized with their default values."
-msgstr ""
+msgstr "Pole, která lze aktualizovat, ale nemají zadané hodnoty, budou inicializována výchozími hodnotami."
 
 #. Ee77f
 #: sf_dataset.xhp
@@ -11120,7 +11120,7 @@ msgctxt ""
 "par_id171701181920016\n"
 "help.text"
 msgid "If the specified field is binary, then its length is returned."
-msgstr ""
+msgstr "Jestliže je zadané pole binární, vrátí se jeho délka."
 
 #. hzFC6
 #: sf_dataset.xhp
@@ -11129,7 +11129,7 @@ msgctxt ""
 "par_id381701012511805\n"
 "help.text"
 msgid "<emph>pvargs</emph>: A <literal>Dictionary</literal> containing pairs of field names and their respective values. Alternatively, an even number of arguments can be specified alternating field names (as a <literal>String</literal>) and their values."
-msgstr ""
+msgstr "<emph>pvargs</emph>: <literal>Dictionary</literal> obsahující dvojice názvů polí a jejich hodnot. Alternativně je možné zadat sudý počet argumentů představujících názvy polí (typu <literal>String</literal>) a jejich hodnoty."
 
 #. UdWGr
 #: sf_dataset.xhp
@@ -11138,7 +11138,7 @@ msgctxt ""
 "par_id641701259882955\n"
 "help.text"
 msgid "Consider a table named \"Customers\" with 4 fields: \"ID\" (<literal>BigInt</literal>, auto value and primary key), \"Name\" (<literal>VarChar</literal>), \"Age\" (<literal>Integer</literal>), \"City\" (<literal>VarChar</literal>)."
-msgstr ""
+msgstr "Tabulka s názvem „Customers“ má 4 pole: „ID“ (<literal>BigInt</literal>, automatická hodnota a primární klíč), „Name“ (<literal>VarChar</literal>), „Age“ (<literal>Integer</literal>) a „City“ (<literal>VarChar</literal>)."
 
 #. dEDJy
 #: sf_dataset.xhp
@@ -11147,7 +11147,7 @@ msgctxt ""
 "par_id701701205243738\n"
 "help.text"
 msgid "The example below inserts a new record into this dataset using a <literal>Dictionary</literal>."
-msgstr ""
+msgstr "V následujícím příkladu se do této datové sady vloží nový záznam pomocí <literal>Dictionary</literal>."
 
 #. zucti
 #: sf_dataset.xhp
@@ -11156,7 +11156,7 @@ msgctxt ""
 "bas_id131701260037206\n"
 "help.text"
 msgid "oDataset = oDatabase.CreateDataset(\"Customers\")"
-msgstr ""
+msgstr "oDataset = oDatabase.CreateDataset(\"Customers\")"
 
 #. FaMQe
 #: sf_dataset.xhp
@@ -11165,7 +11165,7 @@ msgctxt ""
 "bas_id171701260037639\n"
 "help.text"
 msgid "oNewData.Add(\"Name\", \"John\")"
-msgstr ""
+msgstr "oNewData.Add(\"Name\", \"John\")"
 
 #. cDNXj
 #: sf_dataset.xhp
@@ -11174,7 +11174,7 @@ msgctxt ""
 "bas_id641701260037815\n"
 "help.text"
 msgid "oNewData.Add(\"Age\", 50)"
-msgstr ""
+msgstr "oNewData.Add(\"Age\", 50)"
 
 #. J83BR
 #: sf_dataset.xhp
@@ -11183,7 +11183,7 @@ msgctxt ""
 "bas_id401701260038016\n"
 "help.text"
 msgid "oNewData.Add(\"City\", \"Chicago\")"
-msgstr ""
+msgstr "oNewData.Add(\"City\", \"Chicago\")"
 
 #. BiEnX
 #: sf_dataset.xhp
@@ -11192,7 +11192,7 @@ msgctxt ""
 "par_id671701260191972\n"
 "help.text"
 msgid "The same result can be achieved by passing all pairs of fields and values as arguments:"
-msgstr ""
+msgstr "Téhož výsledku je možné dosáhnout předáním všech dvojic polí a hodnot:"
 
 #. aPs48
 #: sf_dataset.xhp
@@ -11201,7 +11201,7 @@ msgctxt ""
 "bas_id91701260241574\n"
 "help.text"
 msgid "oDataset.Insert(\"Name\", \"John\", \"Age\", 50, \"City\", \"Chicago\")"
-msgstr ""
+msgstr "oDataset.Insert(\"Name\", \"John\", \"Age\", 50, \"City\", \"Chicago\")"
 
 #. GJrf8
 #: sf_dataset.xhp
@@ -11210,7 +11210,7 @@ msgctxt ""
 "pyc_id401701260819750\n"
 "help.text"
 msgid "dataset = database.CreateDataset(\"Customers\")"
-msgstr ""
+msgstr "dataset = database.CreateDataset(\"Customers\")"
 
 #. GibCs
 #: sf_dataset.xhp
@@ -11219,7 +11219,7 @@ msgctxt ""
 "pyc_id181701260820135\n"
 "help.text"
 msgid "new_data = {\"Name\": \"John\", \"Age\": 30, \"City\": \"Chicago\"}"
-msgstr ""
+msgstr "new_data = {\"Name\": \"John\", \"Age\": 30, \"City\": \"Chicago\"}"
 
 #. tEtaE
 #: sf_dataset.xhp
@@ -11228,7 +11228,7 @@ msgctxt ""
 "pyc_id651701260820486\n"
 "help.text"
 msgid "new_id = dataset.Insert(new_data)"
-msgstr ""
+msgstr "new_id = dataset.Insert(new_data)"
 
 #. PL6Tb
 #: sf_dataset.xhp
@@ -11237,7 +11237,7 @@ msgctxt ""
 "par_id971701261086678\n"
 "help.text"
 msgid "The following calls are accepted in Python:"
-msgstr ""
+msgstr "V Pythonu je možné použít následující volání:"
 
 #. iVyAx
 #: sf_dataset.xhp
@@ -11246,7 +11246,7 @@ msgctxt ""
 "pyc_id101701260954243\n"
 "help.text"
 msgid "dataset.Insert(\"Name\", \"John\", \"Age\", 50, \"City\", \"Chicago\")"
-msgstr ""
+msgstr "dataset.Insert(\"Name\", \"John\", \"Age\", 50, \"City\", \"Chicago\")"
 
 #. SSUPT
 #: sf_dataset.xhp
@@ -11255,7 +11255,7 @@ msgctxt ""
 "pyc_id131701261111943\n"
 "help.text"
 msgid "dataset.Insert(Name = \"John\", Age = 50, City = \"Chicago\")"
-msgstr ""
+msgstr "dataset.Insert(Name = \"John\", Age = 50, City = \"Chicago\")"
 
 #. NYaXF
 #: sf_dataset.xhp
@@ -11264,7 +11264,7 @@ msgctxt ""
 "par_id93190955243874\n"
 "help.text"
 msgid "Moves the dataset cursor to the first (with <literal>MoveFirst</literal>) or to the last (with <literal>MoveLast</literal>) record."
-msgstr ""
+msgstr "Přesune ukazatel v datové sadě na první (u <literal>MoveFirst</literal>) nebo na poslední (u <literal>MoveLast</literal>) záznam."
 
 #. MNACy
 #: sf_dataset.xhp
@@ -11273,7 +11273,7 @@ msgctxt ""
 "par_id411701262609847\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "V případě úspěšného přesunutí vrátí metoda <literal>True</literal>."
 
 #. 9vNrm
 #: sf_dataset.xhp
@@ -11282,7 +11282,7 @@ msgctxt ""
 "par_id61701280052346\n"
 "help.text"
 msgid "Deleted records are ignored by this method."
-msgstr ""
+msgstr "Tato metoda ignoruje smazané záznamy."
 
 #. pHTs8
 #: sf_dataset.xhp
@@ -11291,7 +11291,7 @@ msgctxt ""
 "bas_id191701180876057\n"
 "help.text"
 msgid "oDataset.MoveFirst()"
-msgstr ""
+msgstr "oDataset.MoveFirst()"
 
 #. 5E5mc
 #: sf_dataset.xhp
@@ -11300,7 +11300,7 @@ msgctxt ""
 "pyc_id221701180096903\n"
 "help.text"
 msgid "dataset.MoveFirst()"
-msgstr ""
+msgstr "dataset.MoveFirst()"
 
 #. YFTHA
 #: sf_dataset.xhp
@@ -11309,7 +11309,7 @@ msgctxt ""
 "par_id93190955243345\n"
 "help.text"
 msgid "Moves the dataset cursor forward (with <literal>MoveNext</literal>) or backwards (with <literal>MovePrevious</literal>) by a given number of records."
-msgstr ""
+msgstr "Přesune ukazatel v datové sadě o zadaný počet záznamů vpřed (u <literal>MoveNext</literal>) nebo vzad (u <literal>MovePrevious</literal>)."
 
 #. ZgZBd
 #: sf_dataset.xhp
@@ -11318,7 +11318,7 @@ msgctxt ""
 "par_id411701262609872\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "V případě úspěšného přesunutí vrátí metoda <literal>True</literal>."
 
 #. P3w8A
 #: sf_dataset.xhp
@@ -11327,7 +11327,7 @@ msgctxt ""
 "par_id617012800527025\n"
 "help.text"
 msgid "Deleted records are ignored by this method."
-msgstr ""
+msgstr "Tato metoda ignoruje smazané záznamy."
 
 #. uETmF
 #: sf_dataset.xhp
@@ -11336,7 +11336,7 @@ msgctxt ""
 "par_id381701012554644\n"
 "help.text"
 msgid "<emph>offset</emph>: The number of records by which the cursor shall be moved forward or backwards. This argument may be a negative value (Default = 1)."
-msgstr ""
+msgstr "<emph>offset</emph>: Počet záznamů, o který se má ukazatel přesunout vpřed nebo vzad. Tento argument může být záporný (výchozí = 1)."
 
 #. TBpEB
 #: sf_dataset.xhp
@@ -11345,7 +11345,7 @@ msgctxt ""
 "bas_id191701180036941\n"
 "help.text"
 msgid "oDataset.MoveNext()"
-msgstr ""
+msgstr "oDataset.MoveNext()"
 
 #. sAtoz
 #: sf_dataset.xhp
@@ -11354,7 +11354,7 @@ msgctxt ""
 "bas_id951701262692898\n"
 "help.text"
 msgid "oDataset.MoveNext(5)"
-msgstr ""
+msgstr "oDataset.MoveNext(5)"
 
 #. vASBX
 #: sf_dataset.xhp
@@ -11363,7 +11363,7 @@ msgctxt ""
 "pyc_id221701180366885\n"
 "help.text"
 msgid "dataset.MoveNext()"
-msgstr ""
+msgstr "dataset.MoveNext()"
 
 #. ovQ9A
 #: sf_dataset.xhp
@@ -11372,7 +11372,7 @@ msgctxt ""
 "pyc_id601701262720188\n"
 "help.text"
 msgid "dataset.MoveNext(5)"
-msgstr ""
+msgstr "dataset.MoveNext(5)"
 
 #. gfYEg
 #: sf_dataset.xhp
@@ -11381,7 +11381,7 @@ msgctxt ""
 "par_id93190955243383\n"
 "help.text"
 msgid "Reloads the dataset from the database. The properties <literal>Filter</literal> and <literal>OrderBy</literal> may be defined when calling this method."
-msgstr ""
+msgstr "Znovu načte datovou sadu z databáze. Při volání této metody lze určit vlastnosti <literal>Filter</literal> a <literal>OrderBy</literal>."
 
 #. qTLq2
 #: sf_dataset.xhp
@@ -11390,7 +11390,7 @@ msgctxt ""
 "par_id411701262522872\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "V případě úspěšného načtení vrátí metoda <literal>True</literal>."
 
 #. 4N2Sk
 #: sf_dataset.xhp
@@ -11399,7 +11399,7 @@ msgctxt ""
 "par_id681701263394717\n"
 "help.text"
 msgid "Reloading the dataset is useful when records have been inserted to or deleted from the database. Note that the methods <literal>CreateDataset</literal> and <literal>Reload</literal> perform similar functions, however <literal>Reload</literal> reuses the same <literal>Dataset</literal> class instance."
-msgstr ""
+msgstr "Opětovné načtení je užitečné, jestliže byly do databáze vloženy nebo z ní odstraněny záznamy. Metody <literal>CreateDataset</literal> a <literal>Reload</literal> provádějí podobné operace, metoda <literal>Reload</literal> však znovu používá stejnou instanci třídy <literal>Dataset</literal>."
 
 #. BeqeG
 #: sf_dataset.xhp
@@ -11408,7 +11408,7 @@ msgctxt ""
 "par_id381701012509626\n"
 "help.text"
 msgid "<emph>filter</emph>: Specifies the condition that records must match to be included in the returned dataset. This argument is expressed as a SQL <literal>WHERE</literal> statement without the \"WHERE\" keyword. If this argument is not specified, then the filter used in the current dataset is applied, otherwise the current filter is replaced by this argument."
-msgstr ""
+msgstr "<emph>filter</emph>: Určuje podmínku, kterou musí záznamy splňovat, aby byly zahrnuty do vrácené datové sady. Tento argument je vyjádřen jako SQL příkaz <literal>WHERE</literal> bez klíčového slova „WHERE“. Pokud tento argument není zadán, použije se filtr aktuální datové sady, v opačném případě bude tento aktuální filtr nahrazen tímto argumentem."
 
 #. 7kCWx
 #: sf_dataset.xhp
@@ -11417,7 +11417,7 @@ msgctxt ""
 "par_id381701012563914\n"
 "help.text"
 msgid "<emph>orderby</emph>: Specifies the ordering of the dataset as a SQL <literal>ORDER BY</literal> statement without the \"ORDER BY\" keyword. If this argument is not specified, then the sorting order used in the current dataset is applied, otherwise the current sorting order is replaced by this argument."
-msgstr ""
+msgstr "<emph>orderby</emph>: Určuje řazení datové sady jako SQL příkaz <literal>ORDER BY</literal> bez klíčového slova „ORDER BY“. Pokud tento argument není zadán, použije se řazení aktuální datové sady, v opačném případě bude toto aktuální řazení nahrazeno tímto argumentem."
 
 #. D4cHf
 #: sf_dataset.xhp
@@ -11426,7 +11426,7 @@ msgctxt ""
 "bas_id191701180036128\n"
 "help.text"
 msgid "oDataset.Reload()"
-msgstr ""
+msgstr "oDataset.Reload()"
 
 #. xAG6h
 #: sf_dataset.xhp
@@ -11435,7 +11435,7 @@ msgctxt ""
 "bas_id951701262692252\n"
 "help.text"
 msgid "oDataset.Reload(Filter := \"[Name] = 'John'\", OrderBy := \"Age\")"
-msgstr ""
+msgstr "oDataset.Reload(Filter := \"[Name] = 'John'\", OrderBy := \"Age\")"
 
 #. NK5Zg
 #: sf_dataset.xhp
@@ -11444,7 +11444,7 @@ msgctxt ""
 "pyc_id221701180367255\n"
 "help.text"
 msgid "dataset.Reload()"
-msgstr ""
+msgstr "dataset.Reload()"
 
 #. VxECB
 #: sf_dataset.xhp
@@ -11453,7 +11453,7 @@ msgctxt ""
 "pyc_id601701262720097\n"
 "help.text"
 msgid "dataset.Reload(Filter = \"[Name] = 'John'\", OrderBy = \"Age\""
-msgstr ""
+msgstr "dataset.Reload(Filter = \"[Name] = 'John'\", OrderBy = \"Age\""
 
 #. AQgTY
 #: sf_dataset.xhp
@@ -11462,7 +11462,7 @@ msgctxt ""
 "par_id93190955060783\n"
 "help.text"
 msgid "Update the values of the specified fields in the current record."
-msgstr ""
+msgstr "Aktualizuje v aktuálním záznamu hodnoty zadaných polí."
 
 #. 9y7wT
 #: sf_dataset.xhp
@@ -11471,7 +11471,7 @@ msgctxt ""
 "par_id411701262529574\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "V případě úspěšné aktualizace vrátí metoda <literal>True</literal>."
 
 #. AuDhR
 #: sf_dataset.xhp
@@ -11480,7 +11480,7 @@ msgctxt ""
 "par_id381701012546805\n"
 "help.text"
 msgid "<emph>pvargs</emph>: A <literal>Dictionary</literal> containing pairs of field names and their respective values. Alternatively, an even number of arguments can be specified alternating field names (as a <literal>String</literal>) and their values."
-msgstr ""
+msgstr "<emph>pvargs</emph>: <literal>Dictionary</literal> obsahující dvojice názvů polí a jejich hodnot. Alternativně je možné zadat sudý počet argumentů představujících názvy polí (typu <literal>String</literal>) a jejich hodnoty."
 
 #. UpZsi
 #: sf_dataset.xhp
@@ -11489,7 +11489,7 @@ msgctxt ""
 "par_id791701264626511\n"
 "help.text"
 msgid "The example below updates the current record using a <literal>Dictionary</literal>."
-msgstr ""
+msgstr "V následujícím příkladu je aktuální záznam aktualizován pomocí <literal>Dictionary</literal>."
 
 #. 9XyJf
 #: sf_dataset.xhp
@@ -11498,7 +11498,7 @@ msgctxt ""
 "bas_id617012650175222\n"
 "help.text"
 msgid "oNewValues = CreateScriptService(\"Dictionary\")"
-msgstr ""
+msgstr "oNewValues = CreateScriptService(\"Dictionary\")"
 
 #. qjYTQ
 #: sf_dataset.xhp
@@ -11507,7 +11507,7 @@ msgctxt ""
 "bas_id511701265017930\n"
 "help.text"
 msgid "oNewValues.Add(\"Age\", 51)"
-msgstr ""
+msgstr "oNewValues.Add(\"Age\", 51)"
 
 #. kDD7r
 #: sf_dataset.xhp
@@ -11516,7 +11516,7 @@ msgctxt ""
 "bas_id491701265018498\n"
 "help.text"
 msgid "oNewValues.Add(\"City\", \"New York\")"
-msgstr ""
+msgstr "oNewValues.Add(\"City\", \"New York\")"
 
 #. FTLwr
 #: sf_dataset.xhp
@@ -11525,7 +11525,7 @@ msgctxt ""
 "bas_id401701265027933\n"
 "help.text"
 msgid "oDataset.Update(oNewValues)"
-msgstr ""
+msgstr "oDataset.Update(oNewValues)"
 
 #. ioYcY
 #: sf_dataset.xhp
@@ -11534,7 +11534,7 @@ msgctxt ""
 "par_id221701264980261\n"
 "help.text"
 msgid "The same result can be achieved by passing all pairs of fields and values as arguments:"
-msgstr ""
+msgstr "Téhož výsledku je možné dosáhnout předáním všech dvojic polí a hodnot:"
 
 #. xfo7y
 #: sf_dataset.xhp
@@ -11543,7 +11543,7 @@ msgctxt ""
 "bas_id191701180033508\n"
 "help.text"
 msgid "oDataset.Update(\"Age\", 51, \"City\", \"New York\")"
-msgstr ""
+msgstr "oDataset.Update(\"Age\", 51, \"City\", \"New York\")"
 
 #. VhWGr
 #: sf_dataset.xhp
@@ -11552,7 +11552,7 @@ msgctxt ""
 "pyc_id221701180363025\n"
 "help.text"
 msgid "new_values = {\"Age\": 51, \"City\": \"New York\"}"
-msgstr ""
+msgstr "new_values = {\"Age\": 51, \"City\": \"New York\"}"
 
 #. sPdJv
 #: sf_dataset.xhp
@@ -11561,7 +11561,7 @@ msgctxt ""
 "pyc_id601701262720082\n"
 "help.text"
 msgid "dataset.Update(new_values)"
-msgstr ""
+msgstr "dataset.Update(new_values)"
 
 #. oWPDV
 #: sf_dataset.xhp
@@ -11570,7 +11570,7 @@ msgctxt ""
 "pyc_id761701265203650\n"
 "help.text"
 msgid "dataset.Update(\"Age\", 51, \"City\", \"New York\")"
-msgstr ""
+msgstr "dataset.Update(\"Age\", 51, \"City\", \"New York\")"
 
 #. 8RvfD
 #: sf_dataset.xhp
@@ -11579,7 +11579,7 @@ msgctxt ""
 "pyc_id141701265203921\n"
 "help.text"
 msgid "dataset.Update(Age = 51, City = \"New York\")"
-msgstr ""
+msgstr "dataset.Update(Age = 51, City = \"New York\")"
 
 #. 4TmY5
 #: sf_datasheet.xhp
@@ -12695,7 +12695,7 @@ msgctxt ""
 "par_id951688460698125\n"
 "help.text"
 msgid "All properties and methods applicable to predefined dialogs are available for such new dialogs. In particular the series of <literal>CreateXXX()</literal> methods for the addition of new dialog controls."
-msgstr ""
+msgstr "Všechny vlastnosti a metody použitelné na předem určená dialogová okna jsou k dispozici také pro tato nová okna, včetně sady metod <literal>CreateXXX()</literal> přidávajících do okna nové ovládací prvky."
 
 #. 8iyqo
 #: sf_dialog.xhp
@@ -13406,7 +13406,7 @@ msgctxt ""
 "par_id161584552357982\n"
 "help.text"
 msgid "Duplicate an existing control of any type in the actual dialog. The duplicated control is left unchanged and can be relocated."
-msgstr ""
+msgstr "Zduplikuje v dialogovém okně již existující ovládací prvek jakéhokoliv typu. Duplicitní prvek je ponechán beze změny a je možné jej přesunout."
 
 #. CCUpB
 #: sf_dialog.xhp
@@ -20471,7 +20471,7 @@ msgctxt ""
 "par_id731583944543907\n"
 "help.text"
 msgid "<emph>includesubfolders</emph>: Set this argument to <literal>True</literal> to include the contents of subfolders (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>includesubfolders</emph>: Nastavením tohoto argumentu na <literal>True</literal> zahrnete obsah podsložek (výchozí = <literal>False</literal>)."
 
 #. snMqC
 #: sf_filesystem.xhp
@@ -20480,7 +20480,7 @@ msgctxt ""
 "bas_id901701437618763\n"
 "help.text"
 msgid "' Returns all files matching the \"*.txt\" filter, including files in subfolders"
-msgstr ""
+msgstr "' Vrátí všechny soubory odpovídající filtru \"*.txt\" včetně souborů v podsložkách"
 
 #. zG7ec
 #: sf_filesystem.xhp
@@ -21200,7 +21200,7 @@ msgctxt ""
 "par_id731583944548857\n"
 "help.text"
 msgid "<emph>includesubfolders</emph>: Set this argument to <literal>True</literal> to include the contents of subfolders (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>includesubfolders</emph>: Nastavením tohoto argumentu na <literal>True</literal> zahrnete obsah podsložek (výchozí = <literal>False</literal>)."
 
 #. XQG8t
 #: sf_form.xhp
@@ -24143,7 +24143,7 @@ msgctxt ""
 "bm_id41582391760252\n"
 "help.text"
 msgid "<bookmark_value>FormDocument service</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FormDocument (služba)</bookmark_value>"
 
 #. AQWCM
 #: sf_formdocument.xhp
@@ -24233,7 +24233,7 @@ msgctxt ""
 "par_id591692487747857\n"
 "help.text"
 msgid "The following example uses the <literal>Database</literal> service to open the form document. In this case, the Base file will not be opened and only the form document will be shown."
-msgstr ""
+msgstr "V následujícím příkladu se pomocí služby <literal>Database</literal> otevře dokument formulářů. V tomto případě se soubor Base neotevře a zobrazí se pouze dokument formulářů."
 
 #. qkQZ7
 #: sf_formdocument.xhp
@@ -25655,7 +25655,7 @@ msgctxt ""
 "par_id31586102707537\n"
 "help.text"
 msgid "<emph>filename</emph>: The full output file name in <literal>FileSystem.FileNaming</literal> notation."
-msgstr ""
+msgstr "<emph>filename</emph>: Úplný název výstupního souboru v zápisu <literal>FileSystem.FileNaming</literal>."
 
 #. jQV77
 #: sf_l10n.xhp
@@ -27239,7 +27239,7 @@ msgctxt ""
 "par_id831633021741958\n"
 "help.text"
 msgid "Returns a <literal>Dictionary</literal> instance containing key-value pairs in relation with <emph>Tools - Options - User Data</emph> dialog."
-msgstr ""
+msgstr "Vrátí instanci <literal>Dictionary</literal> obsahující dvojice klíč-hodnota vztahující se k dialogovému oknu <emph>Nástroje - Možnosti - Uživatelské údaje</emph>."
 
 #. FJs9t
 #: sf_platform.xhp
@@ -33334,7 +33334,7 @@ msgctxt ""
 "hd_id101671192603066\n"
 "help.text"
 msgid "<literal>SFDatabases</literal>.<literal>Dataset</literal> service"
-msgstr ""
+msgstr "Služba <literal>SFDatabases</literal>.<literal>Dataset</literal>"
 
 #. zzVnN
 #: sf_toc.xhp
@@ -33343,7 +33343,7 @@ msgctxt ""
 "par_id651606319591202\n"
 "help.text"
 msgid "List of Properties in the Dataset Service"
-msgstr ""
+msgstr "Seznam vlastností služby Dataset"
 
 #. rGLDA
 #: sf_toc.xhp
@@ -33694,7 +33694,7 @@ msgctxt ""
 "hd_id1016711992036103\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Toolbar</literal> service"
-msgstr ""
+msgstr "Služba <literal>ScriptForge</literal>.<literal>Toolbar</literal>"
 
 #. uKPSJ
 #: sf_toc.xhp
@@ -33703,7 +33703,7 @@ msgctxt ""
 "par_id651606205603658\n"
 "help.text"
 msgid "List of Properties in the Toolbar Service"
-msgstr ""
+msgstr "Seznam vlastností služby Toolbar"
 
 #. cFDeN
 #: sf_toc.xhp
@@ -33712,7 +33712,7 @@ msgctxt ""
 "hd_id1016711992054103\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>ToolbarButton</literal> service"
-msgstr ""
+msgstr "Služba <literal>ScriptForge</literal>.<literal>ToolbarButton</literal>"
 
 #. wauAF
 #: sf_toc.xhp
@@ -33721,7 +33721,7 @@ msgctxt ""
 "par_id651635105603658\n"
 "help.text"
 msgid "List of Properties in the ToolbarButton Service"
-msgstr ""
+msgstr "Seznam vlastností služby ToolbarButton"
 
 #. MexL5
 #: sf_toc.xhp
@@ -33766,7 +33766,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFWidgets.Toolbar service"
-msgstr ""
+msgstr "Služba SFWidgets.Toolbar"
 
 #. pqQFq
 #: sf_toolbar.xhp
@@ -33775,7 +33775,7 @@ msgctxt ""
 "hd_id731582733781114\n"
 "help.text"
 msgid "<variable id=\"ToolbarService\"><link href=\"text/sbasic/shared/03/sf_toolbar.xhp\"><literal>SFWidgets</literal>.<literal>Toolbar</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"ToolbarService\"><link href=\"text/sbasic/shared/03/sf_toolbar.xhp\">Služba <literal>SFWidgets</literal>.<literal>Toolbar</literal></link></variable>"
 
 #. oqrPc
 #: sf_toolbar.xhp
@@ -33784,7 +33784,7 @@ msgctxt ""
 "par_id571700837631557\n"
 "help.text"
 msgid "The <literal>Toolbar</literal> service allows to retrieve information related to the toolbars available for a specific document window. With this service it is possible to:"
-msgstr ""
+msgstr "Služba <literal>Toolbar</literal> umožňuje získávat informace týkající se nástrojových lišt dostupných v určitém okně dokumentu. Pomocí této služby lze:"
 
 #. vwn3U
 #: sf_toolbar.xhp
@@ -33793,7 +33793,7 @@ msgctxt ""
 "par_id891589189452545\n"
 "help.text"
 msgid "Toggle the visibility of specific toolbars."
-msgstr ""
+msgstr "Přepínat viditelnost určitých nástrojových lišt."
 
 #. Cq89r
 #: sf_toolbar.xhp
@@ -33802,7 +33802,7 @@ msgctxt ""
 "par_id811589189463041\n"
 "help.text"
 msgid "Access information about the buttons available in each toolbar."
-msgstr ""
+msgstr "Získávat informace o tlačítkách na jednotlivých nástrojových lištách."
 
 #. tGA5p
 #: sf_toolbar.xhp
@@ -33811,7 +33811,7 @@ msgctxt ""
 "par_id141700851608146\n"
 "help.text"
 msgid "Each %PRODUCTNAME application has its own set of available toolbars. This service handles both built-in and custom toolbars."
-msgstr ""
+msgstr "Každá aplikace %PRODUCTNAME má vlastní sadu nástrojových lišt, které v ní jsou k dispozici. Tato služba pracuje jak s vestavěnými, tak s vlastními lištami."
 
 #. EnCbC
 #: sf_toolbar.xhp
@@ -33820,7 +33820,7 @@ msgctxt ""
 "par_id181700851890467\n"
 "help.text"
 msgid "The status bar and the menu bar are not considered toolbars in the context of this service."
-msgstr ""
+msgstr "Stavový řádek a hlavní nabídka se v kontextu této služby za nástrojové lišty nepovažují."
 
 #. x39EK
 #: sf_toolbar.xhp
@@ -33829,7 +33829,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Volání služby"
 
 #. sDTg5
 #: sf_toolbar.xhp
@@ -33838,7 +33838,7 @@ msgctxt ""
 "par_id141609955500101\n"
 "help.text"
 msgid "Before using the <literal>Toolbar</literal> service the <literal>ScriptForge</literal> library needs to be loaded or imported:"
-msgstr ""
+msgstr "Před používáním služby <literal>Toolbar</literal> je nutné načíst či naimportovat knihovnu <literal>ScriptForge</literal> pomocí:"
 
 #. H4Jrb
 #: sf_toolbar.xhp

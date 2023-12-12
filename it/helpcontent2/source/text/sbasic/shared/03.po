@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-12-04 15:06+0100\n"
-"PO-Revision-Date: 2023-12-11 09:45+0000\n"
+"PO-Revision-Date: 2023-12-12 09:45+0000\n"
 "Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -2513,12 +2513,13 @@ msgstr "Aprire i formulari memorizzati in un documento di Base."
 
 #. cpnJ7
 #: sf_base.xhp
+#, fuzzy
 msgctxt ""
 "sf_base.xhp\n"
 "par_id421619032296454\n"
 "help.text"
 msgid "Check if a form document from a Base document is currently loaded."
-msgstr "Controllare se in quel momento un formulario di un documento di Base è caricato."
+msgstr "Controlla se in quel momento un formulario di un documento di Base è caricato."
 
 #. BvCkZ
 #: sf_base.xhp
@@ -2685,12 +2686,13 @@ msgstr "A seconda dei parametri forniti questo metodo restituirà:"
 
 #. HqFmT
 #: sf_base.xhp
+#, fuzzy
 msgctxt ""
 "sf_base.xhp\n"
 "par_id781619037575043\n"
 "help.text"
 msgid "A zero-based Array with the names of all the forms contained in a form document (if the <literal>Form</literal> argument is absent)"
-msgstr "Una matrice, che inizia dall'indice zero, con i nomi di tutti i formulari contenuti in un documento formulario (se l'argomento <literal>Form</literal> è assente)"
+msgstr "Una matrice, che inizia dall'indice zero, con i nomi di tutti i formulari contenuti in un formulario (se l'argomento <literal>Form</literal> è assente)"
 
 #. Q4Had
 #: sf_base.xhp
@@ -2713,21 +2715,23 @@ msgstr "Il metodo <literal>Forms</literal> è deprecato dalla versione 7.6 di %P
 
 #. pEtwt
 #: sf_base.xhp
+#, fuzzy
 msgctxt ""
 "sf_base.xhp\n"
 "par_id861619037838260\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of a valid form document as a case-sensitive string."
-msgstr "<emph>formdocument:</emph> il nome di un documento formulario valido, espresso come stringa che distingue tra maiuscole e minuscole."
+msgstr "<emph>formdocument:</emph> il nome di un formulario valido, espresso come stringa che distingue tra maiuscole e minuscole."
 
 #. L3csm
 #: sf_base.xhp
+#, fuzzy
 msgctxt ""
 "sf_base.xhp\n"
 "par_id281619037857187\n"
 "help.text"
 msgid "<emph>form:</emph> The name or index number of the form stored in the form document. If this argument is absent, the method will return a list with the names of all forms available in the form document."
-msgstr "<emph>form:</emph> il nome o il numero indice del formulario memorizzato nel documento formulario. Se l'argomento è assente, il metodo restituirà l'elenco dei nomi di tutti i formulari disponibili nel documento formulario."
+msgstr "<emph>form:</emph> il nome o il numero indice del formulario memorizzato nel documento. Se l'argomento è assente, il metodo restituirà l'elenco dei nomi di tutti i formulari disponibili nel documento."
 
 #. K4nQh
 #: sf_base.xhp
@@ -2740,12 +2744,13 @@ msgstr "Anche se è possibile usare il numero indice per fare riferimento ai for
 
 #. DoxrV
 #: sf_base.xhp
+#, fuzzy
 msgctxt ""
 "sf_base.xhp\n"
 "par_id21623104676805\n"
 "help.text"
 msgid "The first line of the example below returns a list of all forms in the form document \"myFormDocument\". The second line returns an instance of the Form service representing the form \"myForm\"."
-msgstr "La prima riga dell'esempio che segue restituisce un elenco dei formulari nel documento formulario \"myFormDocument\". La seconda riga restituisce un'istanza del servizio Form che rappresenta il formulario \"myForm\"."
+msgstr "La prima riga dell'esempio che segue restituisce un elenco dei formulari nel documento \"myFormDocument\". La seconda riga restituisce un'istanza del servizio Form che rappresenta il formulario \"myForm\"."
 
 #. MGjWj
 #: sf_base.xhp
@@ -2818,7 +2823,7 @@ msgctxt ""
 "par_id801619099743199\n"
 "help.text"
 msgid "Opens the specified <literal>FormDocument</literal> either in normal or in design mode. This method returns a <literal>FormDocument</literal> service instance corresponding to the specified form document."
-msgstr "Apre il <literal>FormDocument</literal>specificato sia in modo normale o in modo progettazione. Questo metodo restituisce un'istanza del servizio <literal>FormDocument</literal> corrispondente al documento formulario specificato."
+msgstr "Apre il <literal>FormDocument</literal>specificato sia in modo normale o in modo progettazione. Questo metodo restituisce un'istanza del servizio <literal>FormDocument</literal> corrispondente al formulario specificato."
 
 #. UEGjL
 #: sf_base.xhp
@@ -2828,7 +2833,7 @@ msgctxt ""
 "par_id451619100075330\n"
 "help.text"
 msgid "If the form document is already open, it is activated without changing its mode."
-msgstr "Se il documento formulario è già aperto, viene attivato senza modificarne il modo."
+msgstr "Se il formulario è già aperto, viene attivato senza modificarne il modo."
 
 #. ZGYRs
 #: sf_base.xhp
@@ -2838,7 +2843,7 @@ msgctxt ""
 "par_id651692554712005\n"
 "help.text"
 msgid "If the specified form document does not exist, then <literal>Nothing</literal> is returned."
-msgstr "Se il documento formulario specificato non esiste, viene restituito <literal>Nothing</literal>."
+msgstr "Se il formulario specificato non esiste, viene restituito <literal>Nothing</literal>."
 
 #. dUE6w
 #: sf_base.xhp
@@ -10110,57 +10115,63 @@ msgstr "' Restituisce i primi 50 record dei dipendenti ordinati in base al campo
 
 #. BjQGE
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id801619099743199\n"
 "help.text"
 msgid "Opens the specified form document in normal mode. This method returns a <literal>FormDocument</literal> service instance corresponding to the specified form document."
-msgstr ""
+msgstr "Apre il formulario specificato nel modo normale. Questo metodo restituisce un'istanza del servizio <literal>FormDocument</literal> che corrisponde al formulario specificato."
 
 #. DWmz6
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id451619100075330\n"
 "help.text"
 msgid "If the form document is already open, the form document window is activated."
-msgstr ""
+msgstr "Se il formulario è già aperto, la sua finestra viene attivata."
 
 #. WVNUN
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id651692554712005\n"
 "help.text"
 msgid "If the specified form document does not exist, then <literal>Nothing</literal> is returned."
-msgstr ""
+msgstr "Se il formulario specificato non esiste, viene restituito <literal>Nothing</literal>."
 
 #. bEzqx
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id941619099797810\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of the <literal>FormDocument</literal> to be opened, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> il nome del <literal>FormDocument</literal> da aprire, espresso come stringa che distingue tra maiuscole e minuscole."
 
 #. bERnJ
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id251619100191992\n"
 "help.text"
 msgid "Most form documents are stored in the root of the Base document and they can be opened simply using their names, as in the example below:"
-msgstr ""
+msgstr "La maggior parte dei formulari è memorizzata nella radice dei documenti di Base e può essere aperta usando semplicemente il loro nome, come nell'esempio seguente:"
 
 #. LNaUs
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id351619100327505\n"
 "help.text"
 msgid "If form documents are organized in folders, it becomes necessary to include the folder name to specify the form document to be opened, as illustrated in the following example:"
-msgstr ""
+msgstr "Quando i formulari sono organizzati in cartelle, diventa necessario includere il nome della cartella per specificare il formulario da aprire, come illustrato dal seguente esempio:"
 
 #. BS9jq
 #: sf_database.xhp
@@ -10236,12 +10247,13 @@ msgstr "<emph>tablename</emph>: il nome di una tabella esistente in formato stri
 
 #. gU77J
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id31599490603311\n"
 "help.text"
 msgid "Cancels all changes made to the database since the last <literal>Commit</literal> or <literal>Rollback</literal> call."
-msgstr ""
+msgstr "Elimina tutte le modifiche apportate al database dopo l'ultima chiamata di <literal>Commit</literal> o <literal>Rollback</literal>."
 
 #. FMBEy
 #: sf_database.xhp
@@ -10290,327 +10302,363 @@ msgstr "<emph>directsql</emph>: se è <literal>True</literal>, il comando SQL vi
 
 #. iNCig
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id31599490604648\n"
 "help.text"
 msgid "Defines the level of isolation in database transactions."
-msgstr ""
+msgstr "Definisce il livello di isolamento delle transazioni del database."
 
 #. GQaTd
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id281701459963822\n"
 "help.text"
 msgid "By default databases manage transactions in auto-commit mode, which means that a <literal>Commit</literal> is automatically performed after every SQL statement."
-msgstr ""
+msgstr "Per impostazione predefinita i database gestiscono le transazione nel modo di commit automatico, che significa che viene eseguito automaticamente un <literal>Commit</literal> dopo ogni istruzione SQL."
 
 #. Yq5UG
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id181701460140309\n"
 "help.text"
 msgid "Use this method to manually determine the isolation level of transactions. When a transaction mode other than <literal>NONE</literal> is set, the script has to explicitly call the <literal>Commit</literal> method to apply the changes to the database."
-msgstr ""
+msgstr "Usare questo metodo per determinare manualmente il livello di isolamento delle transazioni. Quando per le transazioni è impostato un modo diverso da <literal>NONE</literal>, lo script deve chiamare esplicitamente il metodo <literal>Commit</literal> affinché le modifiche siano applicate al database."
 
 #. NKoDH
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id211701461020712\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Questo metodo restituisce <literal>True</literal>, se eseguito correttamente."
 
 #. GwemZ
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id831701530239962\n"
 "help.text"
 msgid "Changing the transaction mode closes all <literal>Dataset</literal> instances created from the current database."
-msgstr ""
+msgstr "La modifica del modo delle transazioni chiude tutte le istanze di <literal>Dataset</literal> create dal database corrente."
 
 #. DeBne
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id701599490609584\n"
 "help.text"
 msgid "<emph>transactionmode</emph>: Specifies the transaction mode. This argument must be one of the constants defined in <link href=\"https://api.libreoffice.org/docs/idl/ref/namespacecom_1_1sun_1_1star_1_1sdbc_1_1TransactionIsolation.html\">com.sun.star.sdbc.TransactionIsolation</link> (Default = <literal>NONE</literal>)"
-msgstr ""
+msgstr "<emph>transactionmode</emph>: Specifica il modo per le transazioni. Questo argomento deve esser una delle costanti definite in <link href=\"https://api.libreoffice.org/docs/idl/ref/namespacecom_1_1sun_1_1star_1_1sdbc_1_1TransactionIsolation.html\">com.sun.star.sdbc.TransactionIsolation</link> (Predefinito = <literal>NONE</literal>)"
 
 #. NYvXV
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "par_id301701459879269\n"
 "help.text"
 msgid "Read the section <link href=\"text/sbasic/shared/03/sf_database.xhp#Transaction\">Transaction handling</link> above to learn more about the transaction isolation levels used in %PRODUCTNAME."
-msgstr ""
+msgstr "Leggere la precedente sezione <link href=\"text/sbasic/shared/03/sf_database.xhp#Transaction\">Gestione delle transazioni</link> per saperne di più sul livello di isolamento delle transazioni usato in %PRODUCTNAME."
 
 #. DQkEN
 #: sf_database.xhp
+#, fuzzy
 msgctxt ""
 "sf_database.xhp\n"
 "bas_id951701460628717\n"
 "help.text"
 msgid "' Reset the transaction mode to default"
-msgstr ""
+msgstr "' Reimposta il modo predefinito per le transazioni"
 
 #. q2YAr
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "tit\n"
 "help.text"
 msgid "SFDatabases.Dataset service"
-msgstr ""
+msgstr "Servizio SFDatabases.Dataset"
 
 #. p9Y5W
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "hd_id731582733781114\n"
 "help.text"
 msgid "<variable id=\"DatasetService\"><link href=\"text/sbasic/shared/03/sf_dataset.xhp\"><literal>SFDatabases</literal>.<literal>Dataset</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"DatasetService\"><link href=\"text/sbasic/shared/03/sf_dataset.xhp\">Servizio <literal>SFDatabases</literal>.<literal>Dataset</literal></link></variable>"
 
 #. CmkuE
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id571700837631557\n"
 "help.text"
 msgid "The <literal>Dataset</literal> service is used to represent tabular data produced by a database. With this service it is possible to:"
-msgstr ""
+msgstr "Il servizio <literal>Dataset</literal> è usato per rappresentare in formato tabulare i dati prodotti da un database. Con questo servizio è possibile:"
 
 #. HktQA
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id891589189452545\n"
 "help.text"
 msgid "Navigate through and access the data in a dataset."
-msgstr ""
+msgstr "Navigare attraverso ed accedere ai dati di un dataset."
 
 #. 9PgHh
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id811589189463041\n"
 "help.text"
 msgid "Update, insert and remove records in a dataset."
-msgstr ""
+msgstr "Aggiornare, inserire ed eliminare record in un dataset."
 
 #. rByVk
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id251701124711074\n"
 "help.text"
 msgid "Updating and inserting records using the <literal>Dataset</literal> service is slower than using SQL statements. When updating or inserting large amounts of records, it is recommended to use SQL statements instead of using the methods in this service."
-msgstr ""
+msgstr "L'aggiornamento e l'inserimento di record usando il servizio <literal>Dataset</literal> è più lento rispetto all'uso di istruzioni SQL. Quando si aggiornano o inseriscono quantità elevate di record, è raccomandato l'uso di istruzioni SQL invece dei metodi di questo servizio."
 
 #. WAVCq
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Invocazione del servizio"
 
 #. HqBAw
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id141609955500101\n"
 "help.text"
 msgid "Before using the <literal>Dataset</literal> service the <literal>ScriptForge</literal> library needs to be loaded or imported:"
-msgstr ""
+msgstr "Prima di usare il servizio <literal>Dataset</literal> è necessario caricare o importare le librerie <literal>ScriptForge</literal>:"
 
 #. dBCRY
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id411700851985942\n"
 "help.text"
 msgid "The <literal>Dataset</literal> service is invoked using the <literal>CreateDataset</literal> method, which can be called either from a <literal>Database</literal> service instance or from another <literal>Dataset</literal> instance."
-msgstr ""
+msgstr "Il servizio <literal>Dataset</literal> viene invocato usando il metodo <literal>CreateDataset</literal>, che può essere chiamato sia da un'istanza del servizio <literal>Database</literal>, sia da un'altra istanza di <literal>Dataset</literal>."
 
 #. uB7FC
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id771700853155061\n"
 "help.text"
 msgid "The following example creates a <literal>Dataset</literal> from the table \"Customers\" stored in a database file."
-msgstr ""
+msgstr "L'esempio seguente crea un <literal>Dataset</literal> dalla tabella \"Clienti\" memorizzata in un file di database."
 
 #. BPxCC
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id491701125551393\n"
 "help.text"
 msgid "oDataset = oDatabase.CreateDataset(\"Customers\")"
-msgstr ""
+msgstr "oDataset = oDatabase.CreateDataset(\"Clienti\")"
 
 #. kjDBm
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id821701125782721\n"
 "help.text"
 msgid "Upon the creation of the <literal>Dataset</literal>, the current record is positioned before the first record."
-msgstr ""
+msgstr "Subito dopo la creazione del <literal>Dataset</literal>, il record corrente è posizionato prima del primo record."
 
 #. 5RQVs
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id171700853415555\n"
 "help.text"
 msgid "The example below creates a <literal>Dataset</literal> instance by filtering the original dataset."
-msgstr ""
+msgstr "L'esempio sottostante crea un'istanza di <literal>Dataset</literal> filtrando il dataset originario."
 
 #. jsCLR
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id301701127357007\n"
 "help.text"
 msgid "dataset = database.CreateDataset(\"Customers\")"
-msgstr ""
+msgstr "dataset = database.CreateDataset(\"Clienti\")"
 
 #. vvGTe
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id181701127476970\n"
 "help.text"
 msgid "new_dataset = dataset.CreateDataset(filter = \"[City]='New York'\")"
-msgstr ""
+msgstr "new_dataset = dataset.CreateDataset(filter = \"[City]='New York'\")"
 
 #. UbDcm
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "hd_id351582885195476\n"
 "help.text"
 msgid "Properties"
-msgstr ""
+msgstr "Proprietà"
 
 #. 9jpZ5
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id41582885195836\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. wYVH2
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id31582885195372\n"
 "help.text"
 msgid "Readonly"
-msgstr ""
+msgstr "Sola lettura"
 
 #. BzGFs
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id31582885195238\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. uDWJe
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id931582885195131\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #. vvCt8
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id861582885655779\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #. tbT3C
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id581582885655885\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the current record position is before the first record in the dataset, otherwise returns <literal>False</literal>."
-msgstr ""
+msgstr "Restituisce <literal>True</literal> se la posizione del record corrente si trova prima del primo record del dataset, altrimenti restituisce <literal>False</literal>."
 
 #. EteGE
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id581582885655855\n"
 "help.text"
 msgid "Set this property to <literal>True</literal> to move the cursor to the beginning of the dataset. Setting this property to <literal>False</literal> is ignored."
-msgstr ""
+msgstr "Impostare questa proprietà a <literal>True</literal> per spostare il cursore all'inizio del dataset. Impostando questa proprietà a <literal>False</literal> sarà ignorata."
 
 #. Bqkq3
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id861582885655669\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Sì"
 
 #. PPmEj
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id271582885623525\n"
 "help.text"
 msgid "<literal>Dictionary</literal> service"
-msgstr ""
+msgstr "Servizio <literal>Dictionary</literal>"
 
 #. brqY4
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id581582885657885\n"
 "help.text"
 msgid "Returns a <literal>Dictionary</literal>  with the default values used for each field in the dataset. The fields or columns in the dataset are the keys in the dictionary."
-msgstr ""
+msgstr "Restituisce un oggetto <literal>Dictionary</literal> contenente i valori predefiniti usati per ciascun campo del dataset. I campi o le colonne del dataset sono le chiavi del dizionario."
 
 #. 3hnoA
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id581582885653105\n"
 "help.text"
 msgid "The database field types are converted to their corresponding Basic/Python data types. When the field type is undefined, the default value is <literal>Null</literal> if the field is nullable or <literal>Empty</literal>."
-msgstr ""
+msgstr "I tipi di campo del database sono convertiti nei corrispondenti tipi di dati di Basic/Python. Se il tipo di campo non è definito, il valore predefinito è <literal>Null</literal> quando il campo ammette questo valore, oppure <literal>Empty</literal>."
 
 #. 9f7Zn
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id861582885655710\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #. 5DCq8
 #: sf_dataset.xhp
@@ -21381,21 +21429,23 @@ msgstr "I formulari di solito vengono creati nei documenti di Base, ma possono e
 
 #. z79tf
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id671618173380680\n"
 "help.text"
 msgid "In Base, each form you create using the <menuitem>Insert - Form</menuitem>  functionality or through the <link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link> is actually a <literal>FormDocument</literal> that can be handled with the <literal>Form</literal> service. Base documents can contain an unlimited number of form documents."
-msgstr "In Base, ogni formulario creato usando la funzionalità <menuitem>Inserisci - Formulario</menuitem> o attraverso la <link href=\"text/shared/autopi/01090000.xhp\">Procedura guidata per la creazione dei formulari</link> in realtà è un documento (<literal>FormDocument</literal>) che può essere gestito dal servizio <literal>Form</literal>. I documenti di Base possono contenere un numero illimitato di documenti formulario."
+msgstr "In Base, ogni formulario creato usando la funzionalità <menuitem>Inserisci - Formulario</menuitem> o attraverso la <link href=\"text/shared/autopi/01090000.xhp\">Procedura guidata per la creazione dei formulari</link> in realtà è un documento (<literal>FormDocument</literal>) che può essere gestito dal servizio <literal>Form</literal>. I documenti di Base possono contenere un numero illimitato di formulari."
 
 #. kegBD
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id841618177362626\n"
 "help.text"
 msgid "Below is an example showing the hierarchy of all the elements involved in accessing forms and subforms in a Base document. Suppose you have a Base file named <literal>Employees.odb</literal> and inside it you created a form document to add new employees to the database. The form document contains a main form named <literal>EmployeeData</literal> that gives access to a table. There is also a subform <literal>WorksAtPlant</literal> that allows you to associate the new employee to one of the plants of the company."
-msgstr "Di seguito è riportato un esempio che mostra la gerarchia di tutti gli elementi coinvolti nell'accesso ai formulari principali e secondari all'interno di un documento di Base. Supponete di avere un file di Base denominato <literal>Employees.odb</literal> e di creare al suo interno un documento formulario per aggiungere nuovi impiegati al database. Il documento formulario contiene un formulario principale denominato <literal>EmployeeData</literal> che fornisce l'accesso a una tabella. C'è poi un formulario secondario <literal>WorksAtPlant</literal> che consente di associare il nuovo impiegato a uno degli stabilimenti dell'azienda."
+msgstr "Di seguito è riportato un esempio che mostra la gerarchia di tutti gli elementi coinvolti nell'accesso ai formulari principali e secondari all'interno di un documento di Base. Supponendo di avere un file di Base denominato <literal>Employees.odb</literal> e di creare al suo interno un formulario per aggiungere nuovi impiegati al database. Il documento contiene un formulario principale denominato <literal>EmployeeData</literal> che fornisce l'accesso a una tabella. C'è poi un formulario secondario <literal>WorksAtPlant</literal> che consente di associare il nuovo impiegato a uno degli stabilimenti dell'azienda."
 
 #. izkiB
 #: sf_form.xhp
@@ -21417,12 +21467,13 @@ msgstr "|-- EmployeeData (Formulario principale)"
 
 #. aD5yW
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id221618173444457\n"
 "help.text"
 msgid "A <literal>FormDocument</literal> can be seen as a set of forms that provide access to datasets such as database tables and queries from within %PRODUCTNAME documents. The names of forms and subforms inside a FormDocument can be accessed using the <link href=\"text/shared/02/01170600.xhp\">Form Navigator</link>."
-msgstr "Un documento formulario (<literal>FormDocument</literal>) può essere visto come un insieme di formulari che consentono l'accesso a degli insiemi di dati, come tabelle e ricerche di un database, dall'interno di documenti di %PRODUCTNAME. È possibile accedere ai nomi di tutti i formulari e dei formulari secondari all'interno di un FormDocument usando il <link href=\"text/shared/02/01170600.xhp\">Navigatore formulario</link>."
+msgstr "Un (<literal>FormDocument</literal>) può essere visto come un insieme di formulari che consentono l'accesso a degli insiemi di dati, come tabelle e ricerche di un database, dall'interno di documenti di %PRODUCTNAME. È possibile accedere ai nomi di tutti i formulari e dei formulari secondari all'interno di un FormDocument usando il <link href=\"text/shared/02/01170600.xhp\">Navigatore formulario</link>."
 
 #. AMFVt
 #: sf_form.xhp
@@ -21553,12 +21604,13 @@ msgstr "Nei documenti di Base"
 
 #. J3Btp
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id711616768164987\n"
 "help.text"
 msgid "A <literal>FormDocument</literal> inside a Base document is accessed by its name. The following example opens the form document named <literal>thisFormDocument</literal> and accesses the form <literal>MainForm</literal>:"
-msgstr "L'accesso ad un <literal>FormDocument</literal> all'interno di un documento di Base avviene usando il suo nome. L'esempio seguente apre il documento formulario denominato <literal>thisFormDocument</literal> ed accede al formulario <literal>MainForm</literal>:"
+msgstr "L'accesso ad un <literal>FormDocument</literal> all'interno di un documento di Base avviene usando il suo nome. L'esempio seguente apre il documento del formulario denominato <literal>thisFormDocument</literal> ed accede al formulario <literal>MainForm</literal>:"
 
 #. pbtEM
 #: sf_form.xhp
@@ -21652,12 +21704,13 @@ msgstr "Si raccomanda di liberare le risorse dopo aver usato il servizio Form."
 
 #. pF9UQ
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id221623150547406\n"
 "help.text"
 msgid "This operation is done implicitly when a form document is closed with the <literal>CloseFormDocument()</literal> method described below."
-msgstr "Questa operazione viene eseguita implicitamente quando un documento formulario viene chiuso usando il metodo <literal>CloseFormDocument()</literal> descritto in seguito."
+msgstr "Questa operazione viene eseguita implicitamente quando il documento del formulario viene chiuso usando il metodo <literal>CloseFormDocument()</literal> descritto in seguito."
 
 #. GueeT
 #: sf_form.xhp
@@ -22381,21 +22434,23 @@ msgstr "<literal>ThisComponent</literal> si applica ai documenti di Calc e Write
 
 #. QznyJ
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id501616860541195\n"
 "help.text"
 msgid "Closes the form document containing the actual <literal>Form</literal> instance. The <literal>Form</literal> instance is disposed."
-msgstr "Chiude il documento formulario contenente l'effettiva istanza di <literal>Form</literal>. L'istanza di <literal>Form</literal> viene eliminata."
+msgstr "Chiude il documento del formulario contenente l'effettiva istanza di <literal>Form</literal>. L'istanza di <literal>Form</literal> viene eliminata."
 
 #. CcCpD
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id611618229004669\n"
 "help.text"
 msgid "This method only closes form documents located in Base documents. If the form is stored in a Writer or Calc document, calling <literal>CloseFormDocument</literal> will have no effect."
-msgstr "Questo metodo chiude solo i documenti formulario che si trovano nei documenti di Base. Se il formulario è memorizzato in un documento di Writer o di Calc la chiamata a <literal>CloseFormDocument</literal> non avrà effetto."
+msgstr "Questo metodo chiude solo i formulari che si trovano nei documenti di Base. Se il formulario è memorizzato in un documento di Writer o di Calc la chiamata a <literal>CloseFormDocument</literal> non avrà effetto."
 
 #. a8CxQ
 #: sf_form.xhp
@@ -22597,12 +22652,13 @@ msgstr "<variable id=\"FormControlService\"><link href=\"text/sbasic/shared/03/s
 
 #. XFkrG
 #: sf_formcontrol.xhp
+#, fuzzy
 msgctxt ""
 "sf_formcontrol.xhp\n"
 "par_id931583589764919\n"
 "help.text"
 msgid "The <literal>FormControl</literal> service provides access to the controls that belong to a form, a subform or a table control of a <literal>FormDocument</literal>. Each instance of the <literal>FormControl</literal> service refers to a single control in the form. This service allows users to:"
-msgstr "Il servizio <literal>FormControl</literal> fornisce accesso ai controlli che appartengono a un formulario, un formulario secondario o a un controllo tabella di un documento formulario (<literal>FormDocument</literal>). Ogni istanza del servizio <literal>FormControl</literal> si riferisce a un singolo controllo del formulario. Questo servizio permette agli utenti di:"
+msgstr "Il servizio <literal>FormControl</literal> fornisce accesso ai controlli che appartengono a un formulario, un formulario secondario o a un controllo tabella di un documento contenente formulari (<literal>FormDocument</literal>). Ogni istanza del servizio <literal>FormControl</literal> si riferisce a un singolo controllo del formulario. Questo servizio permette agli utenti di:"
 
 #. irNFC
 #: sf_formcontrol.xhp
@@ -22724,12 +22780,13 @@ msgstr "control.Value = 'Ora corrente = ' + strftime(\"%a, %d %b %Y %H:%M:%S\", 
 
 #. LG9Md
 #: sf_formcontrol.xhp
+#, fuzzy
 msgctxt ""
 "sf_formcontrol.xhp\n"
 "par_id781618772761258\n"
 "help.text"
 msgid "To learn more about how to open a <literal>FormDocument</literal> and get access to its forms, refer to the <link href=\"text/sbasic/shared/03/sf_form.xhp\">SFDocuments.Form</link> service help page."
-msgstr "Per saperne di più su come aprire un documento formulario (<literal>FormDocument</literal>) e ottenere l'accesso ai suoi formulari, fare riferimento alla pagina di aiuto del servizio <link href=\"text/sbasic/shared/03/sf_form.xhp\">SFDocuments.Form</link>."
+msgstr "Per saperne di più su come aprire un documento contenente formulari (<literal>FormDocument</literal>) e ottenere l'accesso ai suoi formulari, fare riferimento alla pagina di aiuto del servizio <link href=\"text/sbasic/shared/03/sf_form.xhp\">SFDocuments.Form</link>."
 
 #. qeXCN
 #: sf_formcontrol.xhp
