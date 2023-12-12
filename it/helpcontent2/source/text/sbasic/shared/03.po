@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-01-09 11:30+0100\n"
-"PO-Revision-Date: 2023-12-11 03:37+0000\n"
+"PO-Revision-Date: 2023-12-12 18:37+0000\n"
 "Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-7-5/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -2493,12 +2493,13 @@ msgstr "Aprire i formulari memorizzati in un documento di Base."
 
 #. cpnJ7
 #: sf_base.xhp
+#, fuzzy
 msgctxt ""
 "sf_base.xhp\n"
 "par_id421619032296454\n"
 "help.text"
 msgid "Check if a form document from a Base document is currently loaded."
-msgstr "Controllare se in quel momento un formulario di un documento di Base è caricato."
+msgstr "Controlla se in quel momento un formulario di un documento di Base è caricato."
 
 #. BvCkZ
 #: sf_base.xhp
@@ -2655,12 +2656,13 @@ msgstr "A seconda dei parametri forniti questo metodo restituirà:"
 
 #. HqFmT
 #: sf_base.xhp
+#, fuzzy
 msgctxt ""
 "sf_base.xhp\n"
 "par_id781619037575043\n"
 "help.text"
 msgid "A zero-based Array with the names of all the forms contained in a form document (if the <literal>Form</literal> argument is absent)"
-msgstr "Una matrice, che inizia dall'indice zero, con i nomi di tutti i formulari contenuti in un documento formulario (se l'argomento <literal>Form</literal> è assente)"
+msgstr "Una matrice, che inizia dall'indice zero, con i nomi di tutti i formulari contenuti in un formulario (se l'argomento <literal>Form</literal> è assente)"
 
 #. Q4Had
 #: sf_base.xhp
@@ -2673,21 +2675,23 @@ msgstr "Un oggetto <literal>SFDocuments.Form</literal> che rappresenta il formul
 
 #. pEtwt
 #: sf_base.xhp
+#, fuzzy
 msgctxt ""
 "sf_base.xhp\n"
 "par_id861619037838260\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of a valid form document as a case-sensitive string."
-msgstr "<emph>formdocument:</emph> il nome di un documento formulario valido, espresso come stringa che distingue tra maiuscole e minuscole."
+msgstr "<emph>formdocument:</emph> il nome di un formulario valido, espresso come stringa che distingue tra maiuscole e minuscole."
 
 #. L3csm
 #: sf_base.xhp
+#, fuzzy
 msgctxt ""
 "sf_base.xhp\n"
 "par_id281619037857187\n"
 "help.text"
 msgid "<emph>form:</emph> The name or index number of the form stored in the form document. If this argument is absent, the method will return a list with the names of all forms available in the form document."
-msgstr "<emph>form:</emph> il nome o il numero indice del formulario memorizzato nel documento formulario. Se l'argomento è assente, il metodo restituirà l'elenco dei nomi di tutti i formulari disponibili nel documento formulario."
+msgstr "<emph>form:</emph> il nome o il numero indice del formulario memorizzato nel documento. Se l'argomento è assente, il metodo restituirà l'elenco dei nomi di tutti i formulari disponibili nel documento."
 
 #. K4nQh
 #: sf_base.xhp
@@ -2700,12 +2704,13 @@ msgstr "Anche se è possibile usare il numero indice per fare riferimento ai for
 
 #. DoxrV
 #: sf_base.xhp
+#, fuzzy
 msgctxt ""
 "sf_base.xhp\n"
 "par_id21623104676805\n"
 "help.text"
 msgid "The first line of the example below returns a list of all forms in the form document \"myFormDocument\". The second line returns an instance of the Form service representing the form \"myForm\"."
-msgstr "La prima riga dell'esempio che segue restituisce un elenco dei formulari nel documento formulario \"myFormDocument\". La seconda riga restituisce un'istanza del servizio Form che rappresenta il formulario \"myForm\"."
+msgstr "La prima riga dell'esempio che segue restituisce un elenco dei formulari nel documento \"myFormDocument\". La seconda riga restituisce un'istanza del servizio Form che rappresenta il formulario \"myForm\"."
 
 #. MGjWj
 #: sf_base.xhp
@@ -17935,21 +17940,23 @@ msgstr "I formulari di solito vengono creati nei documenti di Base, ma possono e
 
 #. z79tf
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id671618173380680\n"
 "help.text"
 msgid "In Base, each form you create using the <menuitem>Insert - Form</menuitem>  functionality or through the <link href=\"text/shared/autopi/01090000.xhp\">Form Wizard</link> is actually a <literal>FormDocument</literal> that can be handled with the <literal>Form</literal> service. Base documents can contain an unlimited number of form documents."
-msgstr "In Base, ogni formulario creato usando la funzionalità <menuitem>Inserisci - Formulario</menuitem> o attraverso la <link href=\"text/shared/autopi/01090000.xhp\">Procedura guidata per la creazione dei formulari</link> in realtà è un documento (<literal>FormDocument</literal>) che può essere gestito dal servizio <literal>Form</literal>. I documenti di Base possono contenere un numero illimitato di documenti formulario."
+msgstr "In Base, ogni formulario creato usando la funzionalità <menuitem>Inserisci - Formulario</menuitem> o attraverso la <link href=\"text/shared/autopi/01090000.xhp\">Procedura guidata per la creazione dei formulari</link> in realtà è un documento (<literal>FormDocument</literal>) che può essere gestito dal servizio <literal>Form</literal>. I documenti di Base possono contenere un numero illimitato di formulari."
 
 #. kegBD
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id841618177362626\n"
 "help.text"
 msgid "Below is an example showing the hierarchy of all the elements involved in accessing forms and subforms in a Base document. Suppose you have a Base file named <literal>Employees.odb</literal> and inside it you created a form document to add new employees to the database. The form document contains a main form named <literal>EmployeeData</literal> that gives access to a table. There is also a subform <literal>WorksAtPlant</literal> that allows you to associate the new employee to one of the plants of the company."
-msgstr "Di seguito è riportato un esempio che mostra la gerarchia di tutti gli elementi coinvolti nell'accesso ai formulari principali e secondari all'interno di un documento di Base. Supponete di avere un file di Base denominato <literal>Employees.odb</literal> e di creare al suo interno un documento formulario per aggiungere nuovi impiegati al database. Il documento formulario contiene un formulario principale denominato <literal>EmployeeData</literal> che fornisce l'accesso a una tabella. C'è poi un formulario secondario <literal>WorksAtPlant</literal> che consente di associare il nuovo impiegato a uno degli stabilimenti dell'azienda."
+msgstr "Di seguito è riportato un esempio che mostra la gerarchia di tutti gli elementi coinvolti nell'accesso ai formulari principali e secondari all'interno di un documento di Base. Supponendo di avere un file di Base denominato <literal>Employees.odb</literal> e di creare al suo interno un formulario per aggiungere nuovi impiegati al database. Il documento contiene un formulario principale denominato <literal>EmployeeData</literal> che fornisce l'accesso a una tabella. C'è poi un formulario secondario <literal>WorksAtPlant</literal> che consente di associare il nuovo impiegato a uno degli stabilimenti dell'azienda."
 
 #. izkiB
 #: sf_form.xhp
@@ -17971,12 +17978,13 @@ msgstr "|-- EmployeeData (Formulario principale)"
 
 #. aD5yW
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id221618173444457\n"
 "help.text"
 msgid "A <literal>FormDocument</literal> can be seen as a set of forms that provide access to datasets such as database tables and queries from within %PRODUCTNAME documents. The names of forms and subforms inside a FormDocument can be accessed using the <link href=\"text/shared/02/01170600.xhp\">Form Navigator</link>."
-msgstr "Un documento formulario (<literal>FormDocument</literal>) può essere visto come un insieme di formulari che consentono l'accesso a degli insiemi di dati, come tabelle e ricerche di un database, dall'interno di documenti di %PRODUCTNAME. È possibile accedere ai nomi di tutti i formulari e dei formulari secondari all'interno di un FormDocument usando il <link href=\"text/shared/02/01170600.xhp\">Navigatore formulario</link>."
+msgstr "Un (<literal>FormDocument</literal>) può essere visto come un insieme di formulari che consentono l'accesso a degli insiemi di dati, come tabelle e ricerche di un database, dall'interno di documenti di %PRODUCTNAME. È possibile accedere ai nomi di tutti i formulari e dei formulari secondari all'interno di un FormDocument usando il <link href=\"text/shared/02/01170600.xhp\">Navigatore formulario</link>."
 
 #. AMFVt
 #: sf_form.xhp
@@ -18107,12 +18115,13 @@ msgstr "Nei documenti di Base"
 
 #. J3Btp
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id711616768164987\n"
 "help.text"
 msgid "A <literal>FormDocument</literal> inside a Base document is accessed by its name. The following example opens the form document named <literal>thisFormDocument</literal> and accesses the form <literal>MainForm</literal>:"
-msgstr "L'accesso ad un <literal>FormDocument</literal> all'interno di un documento di Base avviene usando il suo nome. L'esempio seguente apre il documento formulario denominato <literal>thisFormDocument</literal> ed accede al formulario <literal>MainForm</literal>:"
+msgstr "L'accesso ad un <literal>FormDocument</literal> all'interno di un documento di Base avviene usando il suo nome. L'esempio seguente apre il documento del formulario denominato <literal>thisFormDocument</literal> ed accede al formulario <literal>MainForm</literal>:"
 
 #. pbtEM
 #: sf_form.xhp
@@ -18206,12 +18215,13 @@ msgstr "Si raccomanda di liberare le risorse dopo aver usato il servizio Form."
 
 #. pF9UQ
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id221623150547406\n"
 "help.text"
 msgid "This operation is done implicitly when a form document is closed with the <literal>CloseFormDocument()</literal> method described below."
-msgstr "Questa operazione viene eseguita implicitamente quando un documento formulario viene chiuso usando il metodo <literal>CloseFormDocument()</literal> descritto in seguito."
+msgstr "Questa operazione viene eseguita implicitamente quando il documento del formulario viene chiuso usando il metodo <literal>CloseFormDocument()</literal> descritto in seguito."
 
 #. GueeT
 #: sf_form.xhp
@@ -18935,21 +18945,23 @@ msgstr "<literal>ThisComponent</literal> si applica ai documenti di Calc e Write
 
 #. QznyJ
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id501616860541195\n"
 "help.text"
 msgid "Closes the form document containing the actual <literal>Form</literal> instance. The <literal>Form</literal> instance is disposed."
-msgstr "Chiude il documento formulario contenente l'effettiva istanza di <literal>Form</literal>. L'istanza di <literal>Form</literal> viene eliminata."
+msgstr "Chiude il documento del formulario contenente l'effettiva istanza di <literal>Form</literal>. L'istanza di <literal>Form</literal> viene eliminata."
 
 #. CcCpD
 #: sf_form.xhp
+#, fuzzy
 msgctxt ""
 "sf_form.xhp\n"
 "par_id611618229004669\n"
 "help.text"
 msgid "This method only closes form documents located in Base documents. If the form is stored in a Writer or Calc document, calling <literal>CloseFormDocument</literal> will have no effect."
-msgstr "Questo metodo chiude solo i documenti formulario che si trovano nei documenti di Base. Se il formulario è memorizzato in un documento di Writer o di Calc la chiamata a <literal>CloseFormDocument</literal> non avrà effetto."
+msgstr "Questo metodo chiude solo i formulari che si trovano nei documenti di Base. Se il formulario è memorizzato in un documento di Writer o di Calc la chiamata a <literal>CloseFormDocument</literal> non avrà effetto."
 
 #. a8CxQ
 #: sf_form.xhp
@@ -19151,12 +19163,13 @@ msgstr "<variable id=\"FormControlService\"><link href=\"text/sbasic/shared/03/s
 
 #. XFkrG
 #: sf_formcontrol.xhp
+#, fuzzy
 msgctxt ""
 "sf_formcontrol.xhp\n"
 "par_id931583589764919\n"
 "help.text"
 msgid "The <literal>FormControl</literal> service provides access to the controls that belong to a form, a subform or a table control of a <literal>FormDocument</literal>. Each instance of the <literal>FormControl</literal> service refers to a single control in the form. This service allows users to:"
-msgstr "Il servizio <literal>FormControl</literal> fornisce accesso ai controlli che appartengono a un formulario, un formulario secondario o a un controllo tabella di un documento formulario (<literal>FormDocument</literal>). Ogni istanza del servizio <literal>FormControl</literal> si riferisce a un singolo controllo del formulario. Questo servizio permette agli utenti di:"
+msgstr "Il servizio <literal>FormControl</literal> fornisce accesso ai controlli che appartengono a un formulario, un formulario secondario o a un controllo tabella di un documento contenente formulari (<literal>FormDocument</literal>). Ogni istanza del servizio <literal>FormControl</literal> si riferisce a un singolo controllo del formulario. Questo servizio permette agli utenti di:"
 
 #. irNFC
 #: sf_formcontrol.xhp
@@ -19278,12 +19291,13 @@ msgstr "control.Value = 'Ora corrente = ' + strftime(\"%a, %d %b %Y %H:%M:%S\", 
 
 #. LG9Md
 #: sf_formcontrol.xhp
+#, fuzzy
 msgctxt ""
 "sf_formcontrol.xhp\n"
 "par_id781618772761258\n"
 "help.text"
 msgid "To learn more about how to open a <literal>FormDocument</literal> and get access to its forms, refer to the <link href=\"text/sbasic/shared/03/sf_form.xhp\">SFDocuments.Form</link> service help page."
-msgstr "Per saperne di più su come aprire un documento formulario (<literal>FormDocument</literal>) e ottenere l'accesso ai suoi formulari, fare riferimento alla pagina di aiuto del servizio <link href=\"text/sbasic/shared/03/sf_form.xhp\">SFDocuments.Form</link>."
+msgstr "Per saperne di più su come aprire un documento contenente formulari (<literal>FormDocument</literal>) e ottenere l'accesso ai suoi formulari, fare riferimento alla pagina di aiuto del servizio <link href=\"text/sbasic/shared/03/sf_form.xhp\">SFDocuments.Form</link>."
 
 #. qeXCN
 #: sf_formcontrol.xhp
