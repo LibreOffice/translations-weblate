@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2023-12-04 15:07+0100\n"
+"POT-Creation-Date: 2023-12-15 12:24+0100\n"
 "PO-Revision-Date: 2022-05-03 12:42+0000\n"
 "Last-Translator: JO3EMC <jo3emc@jarl.com>\n"
 "Language-Team: Japanese <https://translations.documentfoundation.org/projects/libo_ui-master/uuimessages/ja/>\n"
@@ -954,6 +954,12 @@ msgctxt "STR_LOADREADONLY_MSG"
 msgid "The author would like you to open '$(ARG1)' as read-only unless you need to make changes. Open as read-only?"
 msgstr ""
 
+#. qiB7D
+#: uui/inc/strings.hrc:82
+msgctxt "STR_VERIFIY_CERT"
+msgid "You need to view the certificate first."
+msgstr ""
+
 #. 45x3T
 #: uui/uiconfig/ui/authfallback.ui:8
 msgctxt "authfallback|AuthFallbackDlg"
@@ -1102,11 +1108,29 @@ msgctxt "macrowarnmedium|alwaysTrustCheckbutton"
 msgid "_Always trust macros from this source"
 msgstr "常にこのソースのマクロを信頼(_A)"
 
-#. hWGP7
+#. ZYQ7j
 #: uui/uiconfig/ui/macrowarnmedium.ui:128
 msgctxt "macrowarnmedium|viewSignsButton"
-msgid "_View Signatures…"
-msgstr "署名の表示(_V)…"
+msgid "_Show Signatures…"
+msgstr ""
+
+#. fCrAW
+#: uui/uiconfig/ui/macrowarnmedium.ui:145
+msgctxt "macrowarnmedium|viewCertButton"
+msgid "_Show Certificate…"
+msgstr ""
+
+#. sd5Xp
+#: uui/uiconfig/ui/macrowarnmedium.ui:171
+msgctxt "macrowarnmedium|certNoLongerValidLabel"
+msgid "Warning: The certificate is no longer valid."
+msgstr ""
+
+#. K2umf
+#: uui/uiconfig/ui/macrowarnmedium.ui:183
+msgctxt "macrowarnmedium|certNotYetValidLabel"
+msgid "Warning: The certificate is not yet valid."
+msgstr ""
 
 #. BABeG
 #: uui/uiconfig/ui/masterpassworddlg.ui:8
@@ -1269,6 +1293,10 @@ msgstr "この証明書を受け入れず、この Web サイトに接続しな�
 msgctxt "unknownauthdialog|examine"
 msgid "Examine Certificate…"
 msgstr "証明書の確認..."
+
+#~ msgctxt "macrowarnmedium|viewSignsButton"
+#~ msgid "_View Signatures…"
+#~ msgstr "署名の表示(_V)…"
 
 #~ msgctxt "STR_OPENLOCKED_TITLE"
 #~ msgid "Document in Use"

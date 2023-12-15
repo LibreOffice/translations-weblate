@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2023-12-04 15:07+0100\n"
+"POT-Creation-Date: 2023-12-15 12:24+0100\n"
 "PO-Revision-Date: 2023-12-13 01:45+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_ui-master/uuimessages/bg/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1547809811.000000\n"
 
 #. DLY8p
@@ -959,6 +959,12 @@ msgctxt "STR_LOADREADONLY_MSG"
 msgid "The author would like you to open '$(ARG1)' as read-only unless you need to make changes. Open as read-only?"
 msgstr "Авторът предпочита да отворите „$(ARG1)“ само за четене, освен ако не искате да внасяте промени. Да се отвори ли само за четене?"
 
+#. qiB7D
+#: uui/inc/strings.hrc:82
+msgctxt "STR_VERIFIY_CERT"
+msgid "You need to view the certificate first."
+msgstr ""
+
 #. 45x3T
 #: uui/uiconfig/ui/authfallback.ui:8
 msgctxt "authfallback|AuthFallbackDlg"
@@ -1107,11 +1113,29 @@ msgctxt "macrowarnmedium|alwaysTrustCheckbutton"
 msgid "_Always trust macros from this source"
 msgstr "Макросите от този източник са безопасни"
 
-#. hWGP7
+#. ZYQ7j
 #: uui/uiconfig/ui/macrowarnmedium.ui:128
 msgctxt "macrowarnmedium|viewSignsButton"
-msgid "_View Signatures…"
-msgstr "Показване на подписите…"
+msgid "_Show Signatures…"
+msgstr ""
+
+#. fCrAW
+#: uui/uiconfig/ui/macrowarnmedium.ui:145
+msgctxt "macrowarnmedium|viewCertButton"
+msgid "_Show Certificate…"
+msgstr ""
+
+#. sd5Xp
+#: uui/uiconfig/ui/macrowarnmedium.ui:171
+msgctxt "macrowarnmedium|certNoLongerValidLabel"
+msgid "Warning: The certificate is no longer valid."
+msgstr ""
+
+#. K2umf
+#: uui/uiconfig/ui/macrowarnmedium.ui:183
+msgctxt "macrowarnmedium|certNotYetValidLabel"
+msgid "Warning: The certificate is not yet valid."
+msgstr ""
 
 #. BABeG
 #: uui/uiconfig/ui/masterpassworddlg.ui:8
@@ -1274,6 +1298,10 @@ msgstr "Отказ от приемане на сертификата и от с�
 msgctxt "unknownauthdialog|examine"
 msgid "Examine Certificate…"
 msgstr "Преглед на сертификат…"
+
+#~ msgctxt "macrowarnmedium|viewSignsButton"
+#~ msgid "_View Signatures…"
+#~ msgstr "Показване на подписите…"
 
 #~ msgctxt "RID_UUI_ERRHDL"
 #~ msgid ""
