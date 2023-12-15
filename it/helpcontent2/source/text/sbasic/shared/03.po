@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-12-04 15:06+0100\n"
-"PO-Revision-Date: 2023-12-13 09:45+0000\n"
+"PO-Revision-Date: 2023-12-15 09:45+0000\n"
 "Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/it/>\n"
 "Language: it\n"
@@ -11252,498 +11252,553 @@ msgstr "curr_id = dataset.GetValue(fieldname = \"ID\")"
 
 #. pDNd8
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id93190998043864\n"
 "help.text"
 msgid "Inserts a new record at the end of the dataset and initialize its fields with the specified values."
-msgstr ""
+msgstr "Inserisce un nuovo record alla fine dell'insieme di dati e inizializza i campi con i valori specificati."
 
 #. HQzFF
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id941701206804894\n"
 "help.text"
 msgid "If the primary key of the dataset is an auto value, then this method returns the primary key value of the new record. Otherwise, the method will return 0 (when successful) or -1 (when not successful)."
-msgstr ""
+msgstr "Se la chiave primaria dell'insieme di dati è un valore automatico, questo metodo restituisce la chiave primaria del nuovo record. Altrimenti il metodo restituirà 0 (se eseguito correttamente) o -1 (in caso di errore)."
 
 #. bESBG
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id51701203344601\n"
 "help.text"
 msgid "Updatable fields with unspecified values are initialized with their default values."
-msgstr ""
+msgstr "I campi aggiornabili per i quali non è specificato il valore sono inizializzati con i valori predefiniti."
 
 #. Ee77f
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id171701181920016\n"
 "help.text"
 msgid "If the specified field is binary, then its length is returned."
-msgstr ""
+msgstr "Se il campo specificato è binario, viene restituita la sua lunghezza."
 
 #. hzFC6
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id381701012511805\n"
 "help.text"
 msgid "<emph>pvargs</emph>: A <literal>Dictionary</literal> containing pairs of field names and their respective values. Alternatively, an even number of arguments can be specified alternating field names (as a <literal>String</literal>) and their values."
-msgstr ""
+msgstr "<emph>pvargs</emph>: Un oggetto di tipo <literal>Dictionary</literal> contenente delle coppie di nomi dei campi con i rispettivi valori. In alternativa, può essere specificato un numero pari di argomenti alternando i nomi dei campi (in formato <literal>String</literal>) ai loro valori."
 
 #. UdWGr
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id641701259882955\n"
 "help.text"
 msgid "Consider a table named \"Customers\" with 4 fields: \"ID\" (<literal>BigInt</literal>, auto value and primary key), \"Name\" (<literal>VarChar</literal>), \"Age\" (<literal>Integer</literal>), \"City\" (<literal>VarChar</literal>)."
-msgstr ""
+msgstr "Prendendo in considerazione una tabella \"Clienti\" con 4 campi: \"ID\" (<literal>BigInt</literal>, valore automatico e chiave primaria), \"Nome\" (<literal>VarChar</literal>), \"Età\" (<literal>Integer</literal>), \"Città\" (<literal>VarChar</literal>)."
 
 #. dEDJy
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id701701205243738\n"
 "help.text"
 msgid "The example below inserts a new record into this dataset using a <literal>Dictionary</literal>."
-msgstr ""
+msgstr "L'esempio seguente inserisce un nuovo record in un insieme di dati usando un oggetto di tipo <literal>Dictionary</literal>."
 
 #. zucti
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id131701260037206\n"
 "help.text"
 msgid "oDataset = oDatabase.CreateDataset(\"Customers\")"
-msgstr ""
+msgstr "oDataset = oDatabase.CreateDataset(\"Clienti\")"
 
 #. FaMQe
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id171701260037639\n"
 "help.text"
 msgid "oNewData.Add(\"Name\", \"John\")"
-msgstr ""
+msgstr "oNewData.Add(\"Nome\", \"Giovanni\")"
 
 #. cDNXj
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id641701260037815\n"
 "help.text"
 msgid "oNewData.Add(\"Age\", 50)"
-msgstr ""
+msgstr "oNewData.Add(\"Età\", 50)"
 
 #. J83BR
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id401701260038016\n"
 "help.text"
 msgid "oNewData.Add(\"City\", \"Chicago\")"
-msgstr ""
+msgstr "oNewData.Add(\"Città\", \"Roma\")"
 
 #. BiEnX
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id671701260191972\n"
 "help.text"
 msgid "The same result can be achieved by passing all pairs of fields and values as arguments:"
-msgstr ""
+msgstr "È possibile ottenere lo stesso risultato passando come argomenti tutte le coppie di campi e valori:"
 
 #. aPs48
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id91701260241574\n"
 "help.text"
 msgid "oDataset.Insert(\"Name\", \"John\", \"Age\", 50, \"City\", \"Chicago\")"
-msgstr ""
+msgstr "oDataset.Insert(\"Nome\", \"Giovanni\", \"Età\", 50, \"Città\", \"Roma\")"
 
 #. GJrf8
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id401701260819750\n"
 "help.text"
 msgid "dataset = database.CreateDataset(\"Customers\")"
-msgstr ""
+msgstr "dataset = database.CreateDataset(\"Clienti\")"
 
 #. GibCs
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id181701260820135\n"
 "help.text"
 msgid "new_data = {\"Name\": \"John\", \"Age\": 30, \"City\": \"Chicago\"}"
-msgstr ""
+msgstr "new_data = {\"Nome\": \"Giovanni\", \"Età\": 30, \"Città\": \"Roma\"}"
 
 #. tEtaE
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id651701260820486\n"
 "help.text"
 msgid "new_id = dataset.Insert(new_data)"
-msgstr ""
+msgstr "new_id = dataset.Insert(new_data)"
 
 #. PL6Tb
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id971701261086678\n"
 "help.text"
 msgid "The following calls are accepted in Python:"
-msgstr ""
+msgstr "Le seguenti chiamate sono ammesse in Python:"
 
 #. iVyAx
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id101701260954243\n"
 "help.text"
 msgid "dataset.Insert(\"Name\", \"John\", \"Age\", 50, \"City\", \"Chicago\")"
-msgstr ""
+msgstr "dataset.Insert(\"Nome\", \"Giovanni\", \"Età\", 50, \"Città\", \"Roma\")"
 
 #. SSUPT
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id131701261111943\n"
 "help.text"
 msgid "dataset.Insert(Name = \"John\", Age = 50, City = \"Chicago\")"
-msgstr ""
+msgstr "dataset.Insert(Nome = \"Giovanni\", Età = 50, Città = \"Roma\")"
 
 #. NYaXF
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id93190955243874\n"
 "help.text"
 msgid "Moves the dataset cursor to the first (with <literal>MoveFirst</literal>) or to the last (with <literal>MoveLast</literal>) record."
-msgstr ""
+msgstr "Sposta il cursore dell'insieme di dati al primo (con <literal>MoveFirst</literal>) o all'ultimo (con <literal>MoveLast</literal>) record."
 
 #. MNACy
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id411701262609847\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Questo metodo restituisce <literal>True</literal>, se eseguito correttamente."
 
 #. 9vNrm
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id61701280052346\n"
 "help.text"
 msgid "Deleted records are ignored by this method."
-msgstr ""
+msgstr "I record eliminati sono ignorati da questo metodo."
 
 #. pHTs8
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id191701180876057\n"
 "help.text"
 msgid "oDataset.MoveFirst()"
-msgstr ""
+msgstr "oDataset.MoveFirst()"
 
 #. 5E5mc
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id221701180096903\n"
 "help.text"
 msgid "dataset.MoveFirst()"
-msgstr ""
+msgstr "dataset.MoveFirst()"
 
 #. YFTHA
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id93190955243345\n"
 "help.text"
 msgid "Moves the dataset cursor forward (with <literal>MoveNext</literal>) or backwards (with <literal>MovePrevious</literal>) by a given number of records."
-msgstr ""
+msgstr "Sposta il cursore dell'insieme di dati in avanti (con <literal>MoveNext</literal>) o indietro (con <literal>MovePrevious</literal>) di un determinato numero di record."
 
 #. ZgZBd
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id411701262609872\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Questo metodo restituisce <literal>True</literal>, se eseguito correttamente."
 
 #. P3w8A
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id617012800527025\n"
 "help.text"
 msgid "Deleted records are ignored by this method."
-msgstr ""
+msgstr "I record eliminati sono ignorati da questo metodo."
 
 #. uETmF
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id381701012554644\n"
 "help.text"
 msgid "<emph>offset</emph>: The number of records by which the cursor shall be moved forward or backwards. This argument may be a negative value (Default = 1)."
-msgstr ""
+msgstr "<emph>offset</emph>: il numero di record di cui il cursore deve essere spostato avanti o indietro. Questo argomento può essere un valore negativo (Predefinito = 1)."
 
 #. TBpEB
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id191701180036941\n"
 "help.text"
 msgid "oDataset.MoveNext()"
-msgstr ""
+msgstr "oDataset.MoveNext()"
 
 #. sAtoz
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id951701262692898\n"
 "help.text"
 msgid "oDataset.MoveNext(5)"
-msgstr ""
+msgstr "oDataset.MoveNext(5)"
 
 #. vASBX
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id221701180366885\n"
 "help.text"
 msgid "dataset.MoveNext()"
-msgstr ""
+msgstr "dataset.MoveNext()"
 
 #. ovQ9A
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id601701262720188\n"
 "help.text"
 msgid "dataset.MoveNext(5)"
-msgstr ""
+msgstr "dataset.MoveNext(5)"
 
 #. gfYEg
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id93190955243383\n"
 "help.text"
 msgid "Reloads the dataset from the database. The properties <literal>Filter</literal> and <literal>OrderBy</literal> may be defined when calling this method."
-msgstr ""
+msgstr "Ricarica l'insieme di dati dal database. Le proprietà <literal>Filter</literal> e <literal>OrderBy</literal> possono essere definite durante la chiamata a questo metodo."
 
 #. qTLq2
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id411701262522872\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Questo metodo restituisce <literal>True</literal>, se eseguito correttamente."
 
 #. 4N2Sk
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id681701263394717\n"
 "help.text"
 msgid "Reloading the dataset is useful when records have been inserted to or deleted from the database. Note that the methods <literal>CreateDataset</literal> and <literal>Reload</literal> perform similar functions, however <literal>Reload</literal> reuses the same <literal>Dataset</literal> class instance."
-msgstr ""
+msgstr "Ricaricare l'insieme di dati è utile quando i record sono stati inseriti o eliminati dal database. Da notare che i metodi <literal>CreateDataset</literal> e <literal>Reload</literal> eseguono funzioni simili, però <literal>Reload</literal> riutilizza la stessa istanza della classe <literal>Dataset</literal>."
 
 #. BeqeG
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id381701012509626\n"
 "help.text"
 msgid "<emph>filter</emph>: Specifies the condition that records must match to be included in the returned dataset. This argument is expressed as a SQL <literal>WHERE</literal> statement without the \"WHERE\" keyword. If this argument is not specified, then the filter used in the current dataset is applied, otherwise the current filter is replaced by this argument."
-msgstr ""
+msgstr "<emph>filter</emph>: specifica la condizione che i record devono rispettare per essere compresi nell'insieme di dati restituito. Questo argomento viene espresso come un'istruzione <literal>WHERE</literal> di SQL priva della parola chiave \"WHERE\". Se questo argomento non è specificato, viene applicato il filtro usato nell'insieme di dati corrente, altrimenti il filtro corrente è sostituito da questo argomento."
 
 #. 7kCWx
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id381701012563914\n"
 "help.text"
 msgid "<emph>orderby</emph>: Specifies the ordering of the dataset as a SQL <literal>ORDER BY</literal> statement without the \"ORDER BY\" keyword. If this argument is not specified, then the sorting order used in the current dataset is applied, otherwise the current sorting order is replaced by this argument."
-msgstr ""
+msgstr "<emph>orderby</emph>: specifica l'ordinamento dell'insieme di dati come un'istruzione <literal>ORDER BY</literal> di SQL priva delle parole chiave \"ORDER BY\". Se questo argomento non è specificato, viene applicato l'ordinamento corrente dell'insieme di dati, altrimenti l'ordinamento corrente è sostituito da questo argomento."
 
 #. D4cHf
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id191701180036128\n"
 "help.text"
 msgid "oDataset.Reload()"
-msgstr ""
+msgstr "oDataset.Reload()"
 
 #. xAG6h
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id951701262692252\n"
 "help.text"
 msgid "oDataset.Reload(Filter := \"[Name] = 'John'\", OrderBy := \"Age\")"
-msgstr ""
+msgstr "oDataset.Reload(Filter := \"[Nome] = 'Giovanni'\", OrderBy := \"Età\")"
 
 #. NK5Zg
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id221701180367255\n"
 "help.text"
 msgid "dataset.Reload()"
-msgstr ""
+msgstr "dataset.Reload()"
 
 #. VxECB
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id601701262720097\n"
 "help.text"
 msgid "dataset.Reload(Filter = \"[Name] = 'John'\", OrderBy = \"Age\""
-msgstr ""
+msgstr "dataset.Reload(Filter = \"[Nome] = 'Giovanni'\", OrderBy = \"Età\""
 
 #. AQgTY
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id93190955060783\n"
 "help.text"
 msgid "Update the values of the specified fields in the current record."
-msgstr ""
+msgstr "Aggiorna i valori dei campi specificati del record corrente."
 
 #. 9y7wT
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id411701262529574\n"
 "help.text"
 msgid "This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Questo metodo restituisce <literal>True</literal>, se eseguito correttamente."
 
 #. AuDhR
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id381701012546805\n"
 "help.text"
 msgid "<emph>pvargs</emph>: A <literal>Dictionary</literal> containing pairs of field names and their respective values. Alternatively, an even number of arguments can be specified alternating field names (as a <literal>String</literal>) and their values."
-msgstr ""
+msgstr "<emph>pvargs</emph>: Un oggetto di tipo <literal>Dictionary</literal> contenente delle coppie di nomi dei campi con i rispettivi valori. In alternativa, può essere specificato un numero pari di argomenti alternando i nomi dei campi (in formato <literal>String</literal>) ai loro valori."
 
 #. UpZsi
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id791701264626511\n"
 "help.text"
 msgid "The example below updates the current record using a <literal>Dictionary</literal>."
-msgstr ""
+msgstr "L'esempio seguente aggiorna il record corrente usando un oggetto di tipo <literal>Dictionary</literal>."
 
 #. 9XyJf
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id617012650175222\n"
 "help.text"
 msgid "oNewValues = CreateScriptService(\"Dictionary\")"
-msgstr ""
+msgstr "oNewValues = CreateScriptService(\"Dictionary\")"
 
 #. qjYTQ
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id511701265017930\n"
 "help.text"
 msgid "oNewValues.Add(\"Age\", 51)"
-msgstr ""
+msgstr "oNewValues.Add(\"Età\", 51)"
 
 #. kDD7r
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id491701265018498\n"
 "help.text"
 msgid "oNewValues.Add(\"City\", \"New York\")"
-msgstr ""
+msgstr "oNewValues.Add(\"Città\", \"Milano\")"
 
 #. FTLwr
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id401701265027933\n"
 "help.text"
 msgid "oDataset.Update(oNewValues)"
-msgstr ""
+msgstr "oDataset.Update(oNewValues)"
 
 #. ioYcY
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "par_id221701264980261\n"
 "help.text"
 msgid "The same result can be achieved by passing all pairs of fields and values as arguments:"
-msgstr ""
+msgstr "È possibile ottenere lo stesso risultato passando come argomenti tutte le coppie di campi e valori:"
 
 #. xfo7y
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "bas_id191701180033508\n"
 "help.text"
 msgid "oDataset.Update(\"Age\", 51, \"City\", \"New York\")"
-msgstr ""
+msgstr "oDataset.Update(\"Età\", 51, \"Città\", \"Milano\")"
 
 #. VhWGr
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id221701180363025\n"
 "help.text"
 msgid "new_values = {\"Age\": 51, \"City\": \"New York\"}"
-msgstr ""
+msgstr "new_values = {\"Età\": 51, \"Città\": \"Milano\"}"
 
 #. sPdJv
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id601701262720082\n"
 "help.text"
 msgid "dataset.Update(new_values)"
-msgstr ""
+msgstr "dataset.Update(new_values)"
 
 #. oWPDV
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id761701265203650\n"
 "help.text"
 msgid "dataset.Update(\"Age\", 51, \"City\", \"New York\")"
-msgstr ""
+msgstr "dataset.Update(\"Età\", 51, \"Città\", \"Milano\")"
 
 #. 8RvfD
 #: sf_dataset.xhp
+#, fuzzy
 msgctxt ""
 "sf_dataset.xhp\n"
 "pyc_id141701265203921\n"
 "help.text"
 msgid "dataset.Update(Age = 51, City = \"New York\")"
-msgstr ""
+msgstr "dataset.Update(Età = 51, Città = \"Milano\")"
 
 #. 4TmY5
 #: sf_datasheet.xhp
@@ -12576,12 +12631,13 @@ msgstr "<variable id=\"dlg_h1\"><link href=\"text/sbasic/shared/03/sf_dialog.xhp
 
 #. tvCua
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id931583589764919\n"
 "help.text"
 msgid "The <literal>Dialog</literal> service contributes to the management of dialogs created with the Basic <link href=\"text/sbasic/guide/create_dialog.xhp\">Dialog Editor</link> or dialogs created on-the-fly. Each instance of the current class represents a single dialog box displayed to the user."
-msgstr ""
+msgstr "Il servizio <literal>Dialog</literal> contribuisce alla gestione delle finestre di dialogo create con l'<link href=\"text/sbasic/guide/create_dialog.xhp\">Editor delle finestre</link> di Basic o di quelle create al volo. Ogni istanza della classe corrente rappresenta una singola finestra di dialogo visualizzata all'utente."
 
 #. vxEvV
 #: sf_dialog.xhp
@@ -12648,12 +12704,13 @@ msgstr "Prima di usare il servizio <literal>Dialog</literal> è necessario caric
 
 #. EzMcF
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id361598174756160\n"
 "help.text"
 msgid "The <literal>Dialog</literal> service is invoked through the <literal>CreateScriptService</literal> method. It requires three supplemental positional arguments to specify the dialog box to activate:"
-msgstr ""
+msgstr "Il servizio <literal>Dialog</literal> è invocato tramite il metodo <literal>CreateScriptService</literal>. Richiede tre argomenti posizionali supplementari per specificare la finestra di dialogo da attivare:"
 
 #. KyBGV
 #: sf_dialog.xhp
@@ -12765,102 +12822,113 @@ msgstr "Usare la stringa \"GlobalScope\" come argomento <emph>container</emph> s
 
 #. vwuNC
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id461688463074274\n"
 "help.text"
 msgid "The dialog service offers methods that create new controls dynamically in an existing dialog predefined with the <link href=\"text/sbasic/guide/create_dialog.html\">Dialog Editor</link>. A dialog is initialized with controls in the Dialog Editor and new controls can be added at run-time before or after the dialog <literal>Execute()</literal> statement."
-msgstr ""
+msgstr "Il servizio Dialog offre metodi che creano nuovi dinamicamente dei controlli in una finestra di dialogo esistente definita in precedenza con l' <link href=\"text/sbasic/guide/create_dialog.html\">Editor delle finestre</link>. Una finestra di dialogo viene inizializzata con i controlli nell'Editor delle finestre e dei nuovi controlli possono essere aggiunti durante l'esecuzione prima o dopo l'istruzione <literal>Execute()</literal> della finestra."
 
 #. 5PbBk
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id261688459210848\n"
 "help.text"
 msgid "The <literal>Dialog</literal> service can equally be invoked - through the <literal>CreateScriptService</literal> method - when creating dialogs on-the-fly. It requires two supplemental positional arguments after the name of the ad-hoc service \"NewDialog\":"
-msgstr ""
+msgstr "Il servizio <literal>Dialog</literal> può essere invocato, tramite il metodo <literal>CreateScriptService</literal>, anche quando si creano delle finestre al volo. In questo caso richiede due argomenti posizionali supplementari dopo il nome del servizio ad-hoc \"NuovaFinestra\":"
 
 #. B82Et
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id751688460276630\n"
 "help.text"
 msgid "<emph>DialogName</emph>: A case-sensitive string designating the dialog."
-msgstr ""
+msgstr "<emph>DialogName</emph>: Una stringa, sensibile alla differenza tra maiuscole e minuscole, che determina la finestra."
 
 #. VEJtV
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id751688460276640\n"
 "help.text"
 msgid "<emph>Place</emph>: Window location of the dialog being either :"
-msgstr ""
+msgstr "<emph>Place</emph>: la posizione della finestra di dialogo che può essere:"
 
 #. wXa8D
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id421598178080993\n"
 "help.text"
 msgid "a Basic <link href=\"sbasic/shared/03104200.xhp\">Array</link> or Python tuple with 4 elements: (X, Y, width, height)"
-msgstr ""
+msgstr "una matrice <link href=\"sbasic/shared/03104200.xhp\">Array</link> di Basic o una tupla di Python con 4 elementi (X, Y, larghezza, altezza)"
 
 #. PnCAR
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id881502858229301\n"
 "help.text"
 msgid "a com.sun.star.awt.Rectangle [X, Y, Width, Height] object"
-msgstr ""
+msgstr "un oggetto com.sun.star.awt.Rectangle [X, Y, Larghezza, Altezza]"
 
 #. HkCDF
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id241688051453685\n"
 "help.text"
 msgid "All elements are expressed in <link href=\"text/sbasic/shared/00000002.xhp#AppFontUnits\">Map AppFont units</link>."
-msgstr ""
+msgstr "Tutti gli elementi sono espressi usando le <link href=\"text/sbasic/shared/00000002.xhp#AppFontUnits\">unità Map AppFont</link>."
 
 #. sKdLk
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id601619633410089\n"
 "help.text"
 msgid "Or using Python:"
-msgstr ""
+msgstr "Oppure usando Python:"
 
 #. 7D42J
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "pyc_id981688462077340\n"
 "help.text"
 msgid "dlg = CreateScriptService('NewDialog', 'myDialog1', (100,200, 40, 110))"
-msgstr ""
+msgstr "dlg = CreateScriptService('NuovaFinestra', 'myDialog1', (100,200, 40, 110))"
 
 #. wF8Se
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "pyc_id681619620065191\n"
 "help.text"
 msgid "# ... Process controls and do what is needed"
-msgstr ""
+msgstr "# ... Controlli del processo ed esecuzione di quanto necessario"
 
 #. h9PeA
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id951688460698125\n"
 "help.text"
 msgid "All properties and methods applicable to predefined dialogs are available for such new dialogs. In particular the series of <literal>CreateXXX()</literal> methods for the addition of new dialog controls."
-msgstr ""
+msgstr "Tutte le proprietà ed i metodi applicabili alle finestre di dialogo predefinite sono disponibili per queste nuove finestre. In particolare la serie di metodi <literal>CreateXXX()</literal> per l'aggiunta di nuovi controlli alla finestra di dialogo."
 
 #. 8iyqo
 #: sf_dialog.xhp
@@ -13233,12 +13301,13 @@ msgstr "Nome"
 
 #. eFrre
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id401612628879819\n"
 "help.text"
 msgid "Read/Write"
-msgstr ""
+msgstr "Lettura/Scrittura"
 
 #. uW85z
 #: sf_dialog.xhp
@@ -13665,30 +13734,33 @@ msgstr ""
 
 #. KNVZv
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id421598177970993\n"
 "help.text"
 msgid "a Basic <link href=\"sbasic/shared/03104200.xhp\">Array</link> or Python tuple with 4 elements: (X, Y, width, height)"
-msgstr ""
+msgstr "una matrice <link href=\"sbasic/shared/03104200.xhp\">Array</link> di Basic o una tupla di Python con 4 elementi (X, Y, larghezza, altezza)"
 
 #. HCiRn
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id881591858229301\n"
 "help.text"
 msgid "a com.sun.star.awt.Rectangle [X, Y, Width, Height] object"
-msgstr ""
+msgstr "un oggetto com.sun.star.awt.Rectangle [X, Y, Larghezza, Altezza]"
 
 #. 3Mdpm
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id241688051343685\n"
 "help.text"
 msgid "All elements are expressed in <link href=\"text/sbasic/shared/00000002.xhp#AppFontUnits\">Map AppFont units</link>."
-msgstr ""
+msgstr "Tutti gli elementi sono espressi usando le <link href=\"text/sbasic/shared/00000002.xhp#AppFontUnits\">unità Map AppFont</link>."
 
 #. f4DZt
 #: sf_dialog.xhp
@@ -13746,12 +13818,13 @@ msgstr ""
 
 #. EBEZu
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id241688132526109\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. xAa2y
 #: sf_dialog.xhp
@@ -13782,12 +13855,13 @@ msgstr ""
 
 #. CzJFF
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id511688132750220\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. 9Y7sF
 #: sf_dialog.xhp
@@ -13845,12 +13919,13 @@ msgstr ""
 
 #. WJDCR
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id831688133418579\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. LiKFk
 #: sf_dialog.xhp
@@ -13890,12 +13965,13 @@ msgstr ""
 
 #. Z8TBR
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id1001688133702877\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. GB9hB
 #: sf_dialog.xhp
@@ -13971,12 +14047,13 @@ msgstr ""
 
 #. Egi57
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id561688135183954\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. yEPP4
 #: sf_dialog.xhp
@@ -14070,12 +14147,13 @@ msgstr ""
 
 #. oYoCP
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id551688135418418\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. mFJZ4
 #: sf_dialog.xhp
@@ -14097,12 +14175,13 @@ msgstr ""
 
 #. EJiPj
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id1001688135548955\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. FQ6Eh
 #: sf_dialog.xhp
@@ -14142,12 +14221,13 @@ msgstr ""
 
 #. zzVVQ
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id841688135885946\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. TMyYy
 #: sf_dialog.xhp
@@ -14205,12 +14285,13 @@ msgstr ""
 
 #. hHGWt
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id251688136173107\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. rtHid
 #: sf_dialog.xhp
@@ -14241,12 +14322,13 @@ msgstr ""
 
 #. 4BBzC
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id551688136587329\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. JvdPM
 #: sf_dialog.xhp
@@ -14304,12 +14386,13 @@ msgstr ""
 
 #. ukFA2
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id341688136882960\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. 5azTe
 #: sf_dialog.xhp
@@ -14340,12 +14423,13 @@ msgstr ""
 
 #. iFFvS
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id541688393982300\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. gjYXC
 #: sf_dialog.xhp
@@ -14394,12 +14478,13 @@ msgstr ""
 
 #. VeTxt
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id281688394635114\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. g2ZgE
 #: sf_dialog.xhp
@@ -14439,12 +14524,13 @@ msgstr ""
 
 #. ADdEz
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id771688394821811\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. rEYM9
 #: sf_dialog.xhp
@@ -14475,12 +14561,13 @@ msgstr ""
 
 #. KBrUN
 #: sf_dialog.xhp
+#, fuzzy
 msgctxt ""
 "sf_dialog.xhp\n"
 "par_id241688394984562\n"
 "help.text"
 msgid "<emph>Border</emph>: \"3D\" (default) or \"FLAT\" or \"NONE\""
-msgstr ""
+msgstr "<emph>Border</emph>: \"3D\" (predefinito), \"FLAT\" o \"NONE\""
 
 #. j8x9C
 #: sf_dialog.xhp
