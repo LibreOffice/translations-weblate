@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-07-25 11:20+0200\n"
-"PO-Revision-Date: 2023-12-11 18:37+0000\n"
+"PO-Revision-Date: 2023-12-19 15:37+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_help-7-6/textscalc01/el/>\n"
 "Language: el\n"
@@ -67251,7 +67251,7 @@ msgctxt ""
 "par_id161673375589532\n"
 "help.text"
 msgid "<emph>Time</emph> is an optional time range in seconds. After this time is elapsed, the style defined in <emph>Style2</emph> is applied. Leave this parameter blank if you do not want the style to be changed."
-msgstr ""
+msgstr "Το <emph>Χρόνος</emph> είναι ένα προαιρετικό χρονικό εύρος σε δευτερόλεπτα. Αφού παρέλθει αυτός ο χρόνος, εφαρμόζεται η τεχνοτροπία που ορίζεται στο <emph>Τεχνοτροπία2 (Style2)</emph>. Αφήστε αυτήν την παράμετρο κενή εάν δεν θέλετε να αλλάξει την τεχνοτροπία."
 
 #. aFQCT
 #: func_style.xhp
@@ -67260,7 +67260,7 @@ msgctxt ""
 "par_id81673375703156\n"
 "help.text"
 msgid "<emph>Style2</emph> is the optional name of a cell style assigned to the cell after the time specified in the <emph>Time</emph> parameter has passed. If this parameter is missing the \"Default\" cell style is applied."
-msgstr ""
+msgstr "Το <emph>Τεχνοτροπία2</emph> είναι το προαιρετικό όνομα μιας τεχνοτροπίας κελιού που εκχωρείται στο κελί μετά την πάροδο του χρόνου που καθορίζεται στην παράμετρο <emph>Χρόνος</emph>. Εάν λείπει αυτή η παράμετρος, εφαρμόζεται η τεχνοτροπία κελιού \"Προεπιλογή\"."
 
 #. ryUMD
 #: func_style.xhp
@@ -67269,7 +67269,7 @@ msgctxt ""
 "par_id971673376620554\n"
 "help.text"
 msgid "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
-msgstr ""
+msgstr "<embedvar href=\"text/scalc/00/00000004.xhp#optional\"/>"
 
 #. U3hrJ
 #: func_style.xhp
@@ -67278,7 +67278,7 @@ msgctxt ""
 "par_id491673376748686\n"
 "help.text"
 msgid "<input>=10+STYLE(\"Good\",60,\"Neutral\")</input>"
-msgstr ""
+msgstr "<input>=10+STYLE(\"Καλό\",60,\"Ουδέτερο\")</input>"
 
 #. 8deaD
 #: func_style.xhp
@@ -67287,7 +67287,7 @@ msgctxt ""
 "par_id11673376842469\n"
 "help.text"
 msgid "Enters the value 10 into the cell and applies the style named \"Good\". After 60 seconds, the style \"Neutral\" is applied."
-msgstr ""
+msgstr "Εισάγει την τιμή 10 στο κελί και εφαρμόζει την τεχνοτροπία με το όνομα \"Καλό\". Μετά από 60 δευτερόλεπτα, εφαρμόζεται η τεχνοτροπία \"Ουδέτερη\"."
 
 #. UYv4h
 #: func_style.xhp
@@ -67296,7 +67296,7 @@ msgctxt ""
 "par_id271673376901358\n"
 "help.text"
 msgid "<input>=A1*A2+STYLE(IF(CURRENT()<100,\"Bad\",\"Good\"))</input>"
-msgstr ""
+msgstr "<input>=A1*A2+STYLE(IF(CURRENT()<100,\"Κακό\",\"Καλό\"))</input>"
 
 #. Zt8eb
 #: func_style.xhp
@@ -67305,7 +67305,7 @@ msgctxt ""
 "par_id1001673377339392\n"
 "help.text"
 msgid "Enters the result of multiplying the values in cells A1 and A2 and applies the style \"Bad\" if the result is less than 100, otherwise the style \"Good\" is applied. Here the function <emph>CURRENT()</emph> is used to get the currently evaluated value of the function in the cell."
-msgstr ""
+msgstr "Εισάγει το αποτέλεσμα του πολλαπλασιασμού των τιμών στα κελιά A1 και A2 και εφαρμόζει την τεχνοτροπία \"Κακό\" εάν το αποτέλεσμα είναι μικρότερο από 100, διαφορετικά εφαρμόζεται η τεχνοτροπία \"Καλό\". Εδώ η συνάρτηση <emph>CURRENT()</emph> χρησιμοποιείται για να ληφθεί η τρέχουσα αξιολογούμενη τιμή της συνάρτησης στο κελί."
 
 #. nMoAR
 #: func_style.xhp
@@ -67314,7 +67314,7 @@ msgctxt ""
 "par_id761673377678426\n"
 "help.text"
 msgid "<input>=\"Total\"&T(STYLE(\"Result\"))</input>"
-msgstr ""
+msgstr "<input>=\"Συνολικό\"&T(STYLE(\"Αποτέλεσμα\"))</input>"
 
 #. hBUAA
 #: func_style.xhp
@@ -67323,7 +67323,7 @@ msgctxt ""
 "par_id871673377683120\n"
 "help.text"
 msgid "Enters the text \"Total\" into the cell and applies the style named \"Result\". Note that this example deals with textual values, hence the output of the <emph>STYLE</emph> function needs to be appended to the text using the & operator. The function <emph>T()</emph> is used to prevent the number \"0\" being appended to the resulting text."
-msgstr ""
+msgstr "Εισάγει το κείμενο \"Συνολικό\" στο κελί και εφαρμόζει την τεχνοτροπία με το όνομα \"Αποτέλεσμα\". Σημειώστε ότι αυτό το παράδειγμα ασχολείται με τιμές κειμένου, επομένως η έξοδος της συνάρτησης <emph>STYLE</emph> πρέπει να προσαρτηθεί στο κείμενο χρησιμοποιώντας τον τελεστή &. Η συνάρτηση <emph>T()</emph> χρησιμοποιείται για να αποτρέψει την προσάρτηση του αριθμού \"0\" στο κείμενο που προκύπτει."
 
 #. zzt3s
 #: func_style.xhp
@@ -71184,7 +71184,7 @@ msgctxt ""
 "par_id0503200917103790\n"
 "help.text"
 msgid "If <emph>enabled</emph>, the library is simply filled up with randomly chosen points."
-msgstr "Εάν είναι <emph>ενεργό</emph>, η βιβλιοθήκη γεμίζεται απλά με τυχαία επιλεγμένα σημεία."
+msgstr "Εάν είναι <emph>ενεργό</emph>, η βιβλιοθήκη γεμίζεται προς τα πάνω απλά με τυχαία επιλεγμένα σημεία."
 
 #. oCPc4
 #: solver_options_algo.xhp
