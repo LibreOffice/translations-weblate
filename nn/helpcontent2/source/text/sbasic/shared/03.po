@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-12-21 13:21+0100\n"
-"PO-Revision-Date: 2023-12-23 09:45+0000\n"
+"PO-Revision-Date: 2023-12-24 09:45+0000\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian Nynorsk <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/nn/>\n"
 "Language: nn\n"
@@ -18882,7 +18882,7 @@ msgctxt ""
 "par_id705589322129020\n"
 "help.text"
 msgid "<emph>userdefined</emph>: When <literal>True</literal>, the style must have been added by the user, either in the document or its template, when absent, the argument is ignored."
-msgstr ""
+msgstr "<emph>userdefined</emph>: Når <literal>Sann</literal>, må stilen vera lagt til av brukaren anten i dokumentet eller malen. Når utsegnet er tomt, vert det ignorert."
 
 #. oJ6ge
 #: sf_document.xhp
@@ -18891,7 +18891,7 @@ msgctxt ""
 "bas_id751644827903865\n"
 "help.text"
 msgid "vStyles = oDoc.Styles(\"ParagraphStyles\") 'All styles in the family"
-msgstr ""
+msgstr "vStyles = oDoc.Styles(\"ParagraphStyles\") ' Alle stilane i familien"
 
 #. 9FFPB
 #: sf_document.xhp
@@ -18900,7 +18900,7 @@ msgctxt ""
 "bas_id32799458678382\n"
 "help.text"
 msgid "vStyles = oDoc.Styles(\"ParagraphStyles\", \"H*\") 'Heading, Heading 1, ..."
-msgstr ""
+msgstr "vStyles = oDoc.Styles(\"ParagraphStyles\", \"H*\") ' Overskrift, Overskrift 1, …"
 
 #. PkEhk
 #: sf_document.xhp
@@ -18909,7 +18909,7 @@ msgctxt ""
 "bas_id621654231224240\n"
 "help.text"
 msgid "vStyles = oDoc.Styles(\"ParagraphStyles\", Used := False, UserDefined := True) ' All user-defined styles that are not used"
-msgstr ""
+msgstr "vStyles = oDoc.Styles(\"ParagraphStyles\", Used := False, UserDefined := True) ' Alle brukardefinerte stilane som ikkje er brukte"
 
 #. v876B
 #: sf_document.xhp
@@ -18918,7 +18918,7 @@ msgctxt ""
 "bas_id421701270188965\n"
 "help.text"
 msgid "vStyles = oDoc.Styles(\"ParagraphStyles\", ParentStyle := \"Standard\") ' All styles derived from the 'Default Paragraph Style'"
-msgstr ""
+msgstr "vStyles = oDoc.Styles(\"ParagraphStyles\", ParentStyle := \"Standard\") ' Alle stilane som byggjer på «Standard avsnitsstil»"
 
 #. DmGtB
 #: sf_document.xhp
@@ -18927,7 +18927,7 @@ msgctxt ""
 "pyc_id901701270289703\n"
 "help.text"
 msgid "vStyles = doc.Styles('ParagraphStyles')  #All styles in the family"
-msgstr ""
+msgstr "vStyles = doc.Styles(\"ParagraphStyles\") # Alle stilane i familien"
 
 #. havQL
 #: sf_document.xhp
@@ -18936,7 +18936,7 @@ msgctxt ""
 "pyc_id91701270291214\n"
 "help.text"
 msgid "vStyles = doc.Styles('ParagraphStyles', 'H*')  #Heading, Heading 1, ..."
-msgstr ""
+msgstr "vStyles = doc.Styles(\"ParagraphStyles\", \"H*\") ' Overskrift, Overskrift 1, …"
 
 #. mAFuJ
 #: sf_document.xhp
@@ -18945,7 +18945,7 @@ msgctxt ""
 "pyc_id381701270291427\n"
 "help.text"
 msgid "vStyles = doc.Styles('ParagraphStyles', Used = False, UserDefined = True)  # All user-defined styles that are not used"
-msgstr ""
+msgstr "vStyles = doc.Styles(\"ParagraphStyles\", Used = False, UserDefined = True) # Alle brukardefinerte stilane som ikkje er brukte"
 
 #. XgDGS
 #: sf_document.xhp
@@ -18954,7 +18954,7 @@ msgctxt ""
 "pyc_id841701270291654\n"
 "help.text"
 msgid "vStyles = doc.Styles('ParagraphStyles', ParentStyle = 'Standard\")  # All styles derived from the \"Default Paragraph Style\""
-msgstr ""
+msgstr "vStyles = doc.Styles(\"ParagraphStyles\", ParentStyle := \"Standard\") # Alle stilane som byggjer på «Standard avsnitsstil»"
 
 #. wHDkF
 #: sf_document.xhp
@@ -18963,7 +18963,7 @@ msgctxt ""
 "par_id091612259727155\n"
 "help.text"
 msgid "This method returns either a list of the available toolbar names in the actual document or an instance <link href=\"text/sbasic/shared/03/sf_toolbar.xhp\"><input>SFWidgets.Toolbar</input></link> service."
-msgstr ""
+msgstr "Denne metoden returnerer anten ei liste over dei tilgjengelege verktøylinjenamna i det gjeldande dokumentet eller i ein førekomst av <link href=\"text/sbasic/shared/03/sf_toolbar.xhp\"><input>SFWidgets.Toolbar</input></link>-tenesta."
 
 #. n65W7
 #: sf_document.xhp
@@ -18972,7 +18972,7 @@ msgctxt ""
 "par_id361580321120786\n"
 "help.text"
 msgid "<emph>ToolbarName</emph>: The usual name of one of the available toolbars."
-msgstr ""
+msgstr "<emph>ToolbarName</emph>: Det vanlege namnet på ei av verktøylinjene."
 
 #. jSJAa
 #: sf_document.xhp
@@ -18981,7 +18981,7 @@ msgctxt ""
 "par_id091612259616155\n"
 "help.text"
 msgid "This method returns the UNO representation of a given style for all document types except <literal>Base</literal>. <literal>Nothing</literal> is returned when the StyleName does not exist in the given Family."
-msgstr ""
+msgstr "Denne metoden returnerer UNO-representasjonen av ein gjeven stil for alle dokumenttypane unnateke <literal>Base</literal>. <literal>Ingenting</literal> vert returnert når StyleName ikkje finst i den gjevne familien."
 
 #. ignqD
 #: sf_document.xhp
@@ -18990,7 +18990,7 @@ msgctxt ""
 "par_id361589211120786\n"
 "help.text"
 msgid "<emph>stylename</emph>: One of the styles present in the given family, as a case-sensitive string. The <literal>StyleName</literal> may be localized or not."
-msgstr ""
+msgstr "<emph>stylename</emph>:Ein av stilane i den gjevne familien, som ein streng som skil mellom store og små bokstavar. <literal>StyleName</literal> kan vera regionalt eller ikkje."
 
 #. WCH7E
 #: sf_exception.xhp
@@ -34134,7 +34134,7 @@ msgctxt ""
 "hd_id1016711992513650\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Writer</literal> service"
-msgstr ""
+msgstr "<literal>ScriptForge</literal>.<literal>Writer</literal>-tenesta"
 
 #. EBb8i
 #: sf_toolbar.xhp
@@ -34224,7 +34224,7 @@ msgctxt ""
 "par_id411700851985942\n"
 "help.text"
 msgid "The <literal>Toolbar</literal> service is invoked using the <literal>Toolbars</literal> method, which is available in <link href=\"text/sbasic/shared/03/sf_document.xhp\">SFDocuments.Document</link> service."
-msgstr ""
+msgstr "<literal>Toolbar</literal>-tenesta vert teken i bruk ved å bruka <literal>Toolbars</literal>-metoden som er tilgjengeleg i <link href=\"text/sbasic/shared/03/sf_document.xhp\">SFDocuments.Document</link>-tenesta."
 
 #. DXXZt
 #: sf_toolbar.xhp
