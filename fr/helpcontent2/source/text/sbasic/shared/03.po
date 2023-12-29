@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-04-19 12:24+0200\n"
-"PO-Revision-Date: 2023-11-28 19:37+0000\n"
+"PO-Revision-Date: 2023-12-29 07:37+0000\n"
 "Last-Translator: sophie <gautier.sophie@gmail.com>\n"
 "Language-Team: French <https://translations.documentfoundation.org/projects/libo_help-7-6/textsbasicshared03/fr/>\n"
 "Language: fr\n"
@@ -30500,7 +30500,7 @@ msgctxt ""
 "par_id521596554849185\n"
 "help.text"
 msgid "<emph>registrationname</emph> : The name used to store the new database in the databases register. When = \"\" (default), no registration takes place. If the name already exists it is overwritten without warning."
-msgstr ""
+msgstr "<emph>registrationname</emph> : Le nom utilisé pour stocker la nouvelle base de données dans le registre des bases de données. Lorsque = \"\" (par défaut), aucune inscription n'a lieu. Si le nom existe déjà, il est écrasé sans avertissement."
 
 #. AFin6
 #: sf_ui.xhp
@@ -30509,7 +30509,7 @@ msgctxt ""
 "par_id181629364905056\n"
 "help.text"
 msgid "<emph>calcfilename</emph> : Only when <literal>embeddeddatabase</literal> = \"CALC\", <literal>calcfilename</literal> represents the file containing the tables as Calc sheets. The file must exist or an error is raised."
-msgstr ""
+msgstr "<emph>calcfilename</emph> : uniquement lorsque <literal>embeddeddatabase</literal> = \"CALC\", <literal>calcfilename</literal> représente le fichier contenant les tables sous forme de feuilles Calc. Le fichier doit exister sinon une erreur est générée."
 
 #. GtB5n
 #: sf_ui.xhp
@@ -30518,7 +30518,7 @@ msgctxt ""
 "par_id651588521753997\n"
 "help.text"
 msgid "Create a new %PRODUCTNAME document of a given type or based on a given template. The method returns a document object."
-msgstr ""
+msgstr "Créez un nouveau document %PRODUCTNAME d'un type donné ou basé sur un modèle donné. La méthode renvoie un objet document."
 
 #. JnBPt
 #: sf_ui.xhp
@@ -30527,7 +30527,7 @@ msgctxt ""
 "par_id51588521753302\n"
 "help.text"
 msgid "<emph>documenttype</emph> : \"Calc\", \"Writer\", etc. If absent, the <literal>templatefile</literal> argument must be present."
-msgstr ""
+msgstr "<emph>documenttype</emph> : \"Calc\", \"Writer\", etc. S'il est absent, l'argument <literal>templatefile</literal> doit être présent."
 
 #. BQ6UD
 #: sf_ui.xhp
@@ -30536,7 +30536,7 @@ msgctxt ""
 "par_id401588522663325\n"
 "help.text"
 msgid "<emph>templatefile</emph> : The full <literal>FileName</literal> of the template to build the new document on. If the file does not exist, the argument is ignored. The <literal>FileSystem</literal> service provides the <literal>TemplatesFolder</literal> and <literal>UserTemplatesFolder</literal> properties to help to build the argument."
-msgstr ""
+msgstr "<emph>templatefile</emph> : le <literal>FileName</literal> complet du modèle sur lequel construire le nouveau document. Si le fichier n'existe pas, l'argument est ignoré. Le service <literal>FileSystem</literal> fournit les propriétés <literal>TemplatesFolder</literal> et <literal>UserTemplatesFolder</literal> pour aider à construire l'argument."
 
 #. VeNQg
 #: sf_ui.xhp
@@ -30545,7 +30545,7 @@ msgctxt ""
 "par_id131588522824366\n"
 "help.text"
 msgid "<emph>hidden</emph>: if <literal>True</literal>, open the new document in the background (default = <literal>False</literal>). To use with caution: activation or closure afterwards can only happen programmatically."
-msgstr ""
+msgstr "<emph>hidden</emph> : si <literal>True</literal>, ouvre le nouveau document en arrière-plan (par défaut = <literal>False</literal>). À utiliser avec prudence : l'activation ou la fermeture ultérieure ne peut se produire que par programmation."
 
 #. gWFt9
 #: sf_ui.xhp
@@ -30554,7 +30554,7 @@ msgctxt ""
 "par_id701620762417802\n"
 "help.text"
 msgid "In both examples below, the first call to <literal>CreateDocument</literal> method creates a blank Calc document, whereas the second creates a document from a template file."
-msgstr ""
+msgstr "Dans les deux exemples ci-dessous, le premier appel à la méthode <literal>CreateDocument</literal> crée un document Calc vierge, tandis que le second crée un document à partir d'un fichier modèle."
 
 #. shCRf
 #: sf_ui.xhp
@@ -30563,7 +30563,7 @@ msgctxt ""
 "par_id201588520551463\n"
 "help.text"
 msgid "Returns an open document object referring to either the active window, a given window or the active document."
-msgstr ""
+msgstr "Renvoie un objet document ouvert faisant référence soit à la fenêtre active, soit à une fenêtre donnée, soit au document actif."
 
 #. SNDqY
 #: sf_ui.xhp
@@ -30572,7 +30572,7 @@ msgctxt ""
 "par_id851588520551368\n"
 "help.text"
 msgid "<emph>windowname</emph>: See the definitions <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\">above</link>. If this argument is absent, the active window is used. UNO objects of types <literal>com.sun.star.lang.XComponent</literal> or <literal>com.sun.star.comp.dba.ODatabaseDocument</literal> are also accepted. Thus passing <literal>ThisComponent</literal> or <literal>ThisDatabaseDocument</literal> as argument creates a new <link href=\"text/sbasic/shared/03/sf_document.xhp\">SFDocuments.Document</link>, <link href=\"text/sbasic/shared/03/sf_base.xhp\">Base</link> or <link href=\"text/sbasic/shared/03/sf_calc.xhp\">Calc</link> service."
-msgstr ""
+msgstr "<emph>windowame</emph> : voir les définitions <link href=\"text/sbasic/shared/03/sf_ui.xhp#WindowName\">ci-dessus</link>. Si cet argument est absent, la fenêtre active est utilisée. Les objets UNO de types <literal>com.sun.star.lang.XComponent</literal> ou <literal>com.sun.star.comp.dba.ODatabaseDocument</literal> sont également acceptés. Ainsi, passer <literal>ThisComponent</literal> ou <literal>ThisDatabaseDocument</literal> comme argument crée un nouveau service <link href=\"text/sbasic/shared/03/sf_document.xhp\">SFDocuments.Document</link>, <link href=\"text/sbasic/shared/03/sf_base.xhp\">Base</link> ou <link href=\"text/sbasic/shared/03/sf_calc.xhp\">Calc</link>."
 
 #. AAjDB
 #: sf_ui.xhp
@@ -30581,7 +30581,7 @@ msgctxt ""
 "par_id521620330287071\n"
 "help.text"
 msgid "To access the name of the currently active window, refer to the <literal>ActiveWindow</literal> property."
-msgstr ""
+msgstr "Pour accéder au nom de la fenêtre actuellement active, reportez-vous à la propriété <literal>ActiveWindow</literal>."
 
 #. CYsyC
 #: sf_ui.xhp
