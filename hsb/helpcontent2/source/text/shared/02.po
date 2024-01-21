@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-12-19 15:00+0100\n"
-"PO-Revision-Date: 2024-01-20 04:16+0000\n"
+"PO-Revision-Date: 2024-01-21 13:38+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Upper Sorbian <https://translations.documentfoundation.org/projects/libo_help-7-5/textshared02/hsb/>\n"
 "Language: hsb\n"
@@ -5566,7 +5566,7 @@ msgctxt ""
 "par_id3149021\n"
 "help.text"
 msgid "If you want a list box to display data from a table that is linked to the current data source table, under <emph>Data field</emph> specify the field of the data source table to which the content of the list box refers. Or you can specify the database field that controls the display of the data in the form. This data field provides the link to the other table if both tables can be linked through a common data field. It is usually a data field in which unique identification numbers are stored. The data field whose contents are displayed in the form is specified by an SQL statement under <emph>List content</emph>."
-msgstr ""
+msgstr "Jeli chceće, zo lisćinowe polo daty z tabele pokazuje, kotrež su z aktualnej tabelu datoweho žórła zwjazane, podajće pod <emph>Datowe polo</emph> polo tabele datoweho žórła, na kotrež so wobsah lisćinoweho pola poćahuje. Abo móžeće polo datoweje banki podać, kotrež pokazanje datow we formularje wodźi. Tute datowe polo staja zwjazanje k druhej tabeli k dispoziciji, jeli wobě tabeli datej so přez zhromadne datowe polo zwjazać. Je zwjetša datowe polo, w kotrymž so jónkróćne identifikaciske čisła składuja. Datowe polo, kotrehož wobsah so we formularje pokazuje, so přez SQL-instrukciju pod <emph>Lisćinowy wobsah</emph> podawa."
 
 #. MFCve
 #: 01170102.xhp
@@ -5575,7 +5575,7 @@ msgctxt ""
 "par_id3153924\n"
 "help.text"
 msgid "List boxes work with references. They can either be implemented with linked tables by SQL statements (fourth case) or through value lists:"
-msgstr ""
+msgstr "Lisćinowe pola z referencami dźěłaja. Dadźa so pak ze zwjazanymi tabelemi přez SQL-instrukcije (štwórty pad) implementować pak přez lisćiny hódnotow:"
 
 #. mCErh
 #: 01170102.xhp
@@ -5584,7 +5584,7 @@ msgctxt ""
 "par_id3145641\n"
 "help.text"
 msgid "<emph>References through linked tables (SQL statements)</emph>"
-msgstr ""
+msgstr "<emph>Referency přez zwjazane tabele (SQL-instrukcije)</emph>"
 
 #. jBTmx
 #: 01170102.xhp
@@ -5593,7 +5593,7 @@ msgctxt ""
 "par_id3147341\n"
 "help.text"
 msgid "If you want a list box to display data from a database table that is linked by a common data field to the table on which the form is based, the link field of the form table is specified under <emph>Data field</emph>."
-msgstr ""
+msgstr "Jeli chceće, zo so daty z tabele datoweje banki w lisćinowym polu pokazuja, kotraž je přez zhromadne polo z tabelu zwjazana, na kotrejž formular bazuje, so zwjazowace polo formularoweje tabele pod <emph>Datowe polo</emph> podawa."
 
 #. zuhT8
 #: 01170102.xhp
@@ -5602,7 +5602,7 @@ msgctxt ""
 "par_id3155174\n"
 "help.text"
 msgid "The link is created with an SQL Select, which, if you selected \"SQL\" or \"Native SQL\", is specified under <emph>Type of list contents</emph> in the field <emph>List content</emph>. As an example, a table \"Orders\" is linked to the current form control, and in the database a table \"Customers\" is linked to the \"Orders\" table. You can use an SQL statement as follows:"
-msgstr ""
+msgstr "Zwjazanje so z SQL-přikazom Select wutwori, kotryž, jeli sće „SQL“ abo „Native SQL“ wubrał, so pod <emph>Typ lisćinoweho wobsaha</emph> w polu <emph>Lisćinowy wobsah</emph> podawa. Na přikład je tabela „Skazanki“ z aktualnym formularowym wodźenskim elementom zwjazana, a w datowej bance je tabela „Kupcy“ z tabelu „Skazanki“ zwjazana. Móžeće SQL-instrukciju kaž slěduje wužiwać:"
 
 #. pjEag
 #: 01170102.xhp
@@ -5611,7 +5611,7 @@ msgctxt ""
 "par_id3148537\n"
 "help.text"
 msgid "SELECT CustomerName, CustomerNo FROM Customers,"
-msgstr ""
+msgstr "SELECT MjenoKupca, ČisłoKupca FROM Kupcy,"
 
 #. LraC6
 #: 01170102.xhp
@@ -5620,7 +5620,7 @@ msgctxt ""
 "par_id3154967\n"
 "help.text"
 msgid "where \"CustomerName\" is the data field from the linked table \"Customers\", and \"CustomerNo\" is the field of the table \"Customers\" that is linked to a field of the form table \"Orders\" specified under <emph>Data field</emph>."
-msgstr ""
+msgstr "při čimž „MjenoKupca“ je datowe polo ze zwjazaneje tabele „Kupcy“ a „ČisłoKupca“ je polo tabele „Kupcy“, kotrež je z polom formularoweje tabele „Skazanki“ podatym pod <emph>Datowe polo</emph> zwjazane."
 
 #. LGoHm
 #: 01170102.xhp
@@ -5629,7 +5629,7 @@ msgctxt ""
 "par_id3163808\n"
 "help.text"
 msgid "<emph>References Using Value Lists</emph>"
-msgstr ""
+msgstr "<emph>Referency přez lisćiny hódnotow</emph>"
 
 #. soM4u
 #: 01170102.xhp
@@ -5638,7 +5638,7 @@ msgctxt ""
 "par_id3145295\n"
 "help.text"
 msgid "For list boxes, you can use value lists. Value lists are lists that define reference values. In this way, the control in the form does not directly display the content of a database field, but rather values assigned in the value list."
-msgstr ""
+msgstr "Za lisćinowe pola móžeće lisćiny hódnotow wužiwać. Lisćiny hódnotow su lisćiny, kotrež referencne hódnoty definuja. Na tute wašnje wodźenski element we formularje wobsah pola datoweje banki direktnje njepokazuje, ale hódnoty, kotrež su w lisćinje hódnotow připokazane."
 
 #. VGDPF
 #: 01170102.xhp
@@ -5647,7 +5647,7 @@ msgctxt ""
 "par_id3151186\n"
 "help.text"
 msgid "If you work with reference values of a value list, the contents of the data field that you specified under <emph>Data Field</emph> in the form are not visible, but rather the assigned values. If you chose \"Valuelist\" on the <emph>Data</emph> tab under <emph>Type of list contents</emph> and assigned a reference value to the visible list entries in the form under <emph>List entries</emph> (entered in the <link href=\"text/shared/02/01170101.xhp\"><emph>General</emph></link> tab), then the reference values are compared with the data content of the given data field. If a reference value corresponds to the content of a data field, the associated list entries are displayed in the form."
-msgstr ""
+msgstr "Jeli z referencnymi hódnotami lisćiny hódnotow dźěłaće, wobsah datoweho pola, kotrež sće pod <emph>Datowe polo</emph> w formularje podał, widźomny njeje, ale připokazane hódnoty. Jeli sće „Lisćina hódnotow“ w rajtarku <emph>Daty</emph> pod <emph>Typ lisćinoweho wobsaha</emph> wubrał a widźomnym lisćinowym zapiskam we formularje pod <emph>Lisćinowe zapiski</emph> (w rajtarku <link href=\"text/shared/02/01170101.xhp\"><emph>Powšitkowne</emph></link>) referencnu hódnotu připokazał, so referencne hódnoty z datowym wobsahom dateho datoweho pola přirunuja. Jeli referencna hódnota wobsahej datoweho pola wotpowěduje, so zwjazane lisćinowe zapiski we formularje pokazaja."
 
 #. sBFuk
 #: 01170102.xhp
@@ -5656,7 +5656,7 @@ msgctxt ""
 "hd_id3154664\n"
 "help.text"
 msgid "Bound field"
-msgstr ""
+msgstr "Wjazane polo"
 
 #. mYEfs
 #: 01170102.xhp
@@ -5665,7 +5665,7 @@ msgctxt ""
 "par_id3148475\n"
 "help.text"
 msgid "<ahelp hid=\".\" visibility=\"hidden\">Use an index to specify the table field or table SQL query to link to the field that is provided under <emph>Data field</emph>. Valid values for this property are 1, 2, 3, and so on.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\" visibility=\"hidden\">Wužiwajće indeks, zo byšće tabelowe polo abo SQL-naprašowanje tabele podał, kotrež so ma z polom zwjazać, kotrež je pod <emph>Datowe polo</emph> podate. Płaćiwe hódnoty za tutu kajkosć su 1, 2, 3 a tak dale.</ahelp>"
 
 #. iMiFJ
 #: 01170102.xhp
@@ -5674,7 +5674,7 @@ msgctxt ""
 "par_idN10AD2\n"
 "help.text"
 msgid "If you delete the contents of the <emph>Bound field</emph> cell in the property browser, the first field of the result set is used to display and to exchange data."
-msgstr ""
+msgstr "Jeli wobsah cele <emph>Wjazane polo</emph> w přehladowaku kajkosćow zhašeće, so prěnje polo wuslědkoweje sadźby wužiwa, zo by daty pokazało a wuměniło."
 
 #. rwfaY
 #: 01170102.xhp
@@ -5683,7 +5683,7 @@ msgctxt ""
 "par_id3154588\n"
 "help.text"
 msgid "This property for list boxes defines which data field of a linked table is displayed in the form."
-msgstr ""
+msgstr "Tuta kajkosć za lisćinowe pola definuje, kotre datowe polo zwjazaneje tabele so we formularje pokazuje."
 
 #. ynxKU
 #: 01170102.xhp
@@ -5692,7 +5692,7 @@ msgctxt ""
 "par_id3151213\n"
 "help.text"
 msgid "If a list box in the form is to display contents of a table linked to the form table, then define in the <emph>Type of list contents</emph> field if the display is determined by an SQL command or the (linked) table is accessed. With the <emph>Bound field</emph> property, you use an index to specify to which data field of the query or of the table the list field is linked."
-msgstr ""
+msgstr "Jeli lisćinowe polo we formularje ma wobsah tabele pokazać, kotraž je z formularowej tabelu zwjazana, definujće w polu <emph>Typ lisćinoweho wobsaha</emph>, hač so pokazanje přez SQL-přikaz postaja abo přez přistup k (zwjazanej) tabeli. Z kajkosću <emph>Wjazane polo</emph> indeks wužiwaće, zo byšće podał, z kotrym datowym polom naprašowanja abo tabele so lisćinowe polo zwjazuje."
 
 #. gYpBd
 #: 01170102.xhp
@@ -5701,7 +5701,7 @@ msgctxt ""
 "par_id3148427\n"
 "help.text"
 msgid "The property <emph>Bound field</emph> is only for forms that are used to access more than one table. If the form is based on only one table, the field to be displayed in the form is specified directly under <emph>Data field</emph>. However, if you want the list box to display data from a table that is linked to the current table over a common data field, the linked data field is defined by the property <emph>Bound field</emph>."
-msgstr ""
+msgstr "Kajkosć <emph>Wjazane polo</emph> je jenož za formulary, kotrež so za přistup k wjace hač jednej tabeli wužiwaja. Jeli formular jenož na jednej tabeli bazuje, so polo, kotrež so ma we formularje pokazać, direktnje pod <emph>Datowe polo</emph> podawa. Ale, jeli chceće, zo ma lisćinowe polo daty z tabele pokazać, kotraž je z aktualnej tabelu přez zhromadne datowe polo zwjazana, so zwjazane datowe polo přez kajkosć <emph>Wjazane polo</emph> definuje."
 
 #. XAnRG
 #: 01170102.xhp
@@ -5710,7 +5710,7 @@ msgctxt ""
 "par_id3150365\n"
 "help.text"
 msgid "If you selected \"SQL\" under <emph>Type of list contents</emph>, the SQL command determines the index to be specified. Example: If you specify an SQL command such as \"SELECT Field1, Field2 FROM tablename\" under <emph>List content</emph>, refer to the following table:"
-msgstr ""
+msgstr "Jeli sće „SQL“ pod <emph>Typ lisćinoweho pola</emph> wubrał, SQL-přikaz indeks postaja, kotryž so ma podać. Přikład: Jeli SQL-přikaz podawaće, kaž na přikład „SELECT Polo1, Polo2 FROM Tabelowe_mjeno“ pod <emph>Lisćinowy wobsah</emph>, poćahujće so na slědowacu tabelu:"
 
 #. xQEAN
 #: 01170102.xhp
@@ -5719,7 +5719,7 @@ msgctxt ""
 "par_id3154716\n"
 "help.text"
 msgid "Bound field"
-msgstr ""
+msgstr "Wjazane polo"
 
 #. n4FEd
 #: 01170102.xhp
@@ -5728,7 +5728,7 @@ msgctxt ""
 "par_id3150666\n"
 "help.text"
 msgid "Link"
-msgstr ""
+msgstr "Zwjazanje"
 
 #. FCGuF
 #: 01170102.xhp
@@ -5737,7 +5737,7 @@ msgctxt ""
 "par_id3154286\n"
 "help.text"
 msgid "-1"
-msgstr ""
+msgstr "-1"
 
 #. KxZ3G
 #: 01170102.xhp
@@ -5746,7 +5746,7 @@ msgctxt ""
 "par_id3845757\n"
 "help.text"
 msgid "The index of the selected entry in the list is linked to the field specified under <emph>Data field</emph>."
-msgstr ""
+msgstr "Indeks wubraneho zapiska w lisćinje je z polom zwjazany, kotrež je pod <emph>Datowe polo</emph> podate."
 
 #. JZsUc
 #: 01170102.xhp
@@ -5755,7 +5755,7 @@ msgctxt ""
 "par_id3854206\n"
 "help.text"
 msgid "{empty} or 0"
-msgstr ""
+msgstr "{prózdny} abo 0"
 
 #. DkSZe
 #: 01170102.xhp
@@ -5764,7 +5764,7 @@ msgctxt ""
 "par_id3145257\n"
 "help.text"
 msgid "The database field \"Field1\" is linked to the field specified under <emph>Data field</emph>."
-msgstr ""
+msgstr "Polo „Polo1“ datoweje banki je z polom zwjazane, kotrež je pod <emph>Datowe polo</emph> podate."
 
 #. BLMSL
 #: 01170102.xhp
@@ -5773,7 +5773,7 @@ msgctxt ""
 "par_id3150887\n"
 "help.text"
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. fkYCG
 #: 01170102.xhp
@@ -5782,7 +5782,7 @@ msgctxt ""
 "par_id3156064\n"
 "help.text"
 msgid "The database field \"Field2\" is linked to the field specified under <emph>Data field</emph>."
-msgstr ""
+msgstr "Polo „Polo2“ datoweje banki je z polom zwjazane, kotrež je pod <emph>Datowe polo</emph> podate."
 
 #. TGHbv
 #: 01170102.xhp
@@ -5791,7 +5791,7 @@ msgctxt ""
 "par_id3154134\n"
 "help.text"
 msgid "If you selected \"Table\" under <emph>Type of list contents</emph>, the table structure defines the index to be specified. Example: If a database table is selected under <emph>List content</emph>, refer to the following table:"
-msgstr ""
+msgstr "Jeli sće „Tabela“ pod <emph>Typ lisćinoweho wobsaha</emph> wubrał, tabelowa struktura indeks definuje, kotryž so ma podać. Přikład: Jeli tabela datoweje banki je pod <emph>Lisćinowy wobsah</emph> wubrana, poćahujće so na slědowacu tabelu:"
 
 #. CVNoA
 #: 01170102.xhp
@@ -5800,7 +5800,7 @@ msgctxt ""
 "par_id3155379\n"
 "help.text"
 msgid "Bound field"
-msgstr ""
+msgstr "Wjazane polo"
 
 #. gK3AN
 #: 01170102.xhp
@@ -5809,7 +5809,7 @@ msgctxt ""
 "par_id3155529\n"
 "help.text"
 msgid "Link"
-msgstr ""
+msgstr "Zwjazanje"
 
 #. Lv77m
 #: 01170102.xhp
@@ -5818,7 +5818,7 @@ msgctxt ""
 "par_id3154287\n"
 "help.text"
 msgid "-1"
-msgstr ""
+msgstr "-1"
 
 #. CvS3g
 #: 01170102.xhp
@@ -5827,7 +5827,7 @@ msgctxt ""
 "par_id3145757\n"
 "help.text"
 msgid "The index of the selected entry in the list is linked to the field specified under <emph>Data field</emph>."
-msgstr ""
+msgstr "Indeks wubraneho zapiska w lisćinje je z polom zwjazany, kotrež je pod <emph>Datowe polo</emph> podate."
 
 #. FuJKV
 #: 01170102.xhp
@@ -5836,7 +5836,7 @@ msgctxt ""
 "par_id3155373\n"
 "help.text"
 msgid "{empty} or 0"
-msgstr ""
+msgstr "{prózdny} abo 0"
 
 #. CFAW4
 #: 01170102.xhp
@@ -5845,7 +5845,7 @@ msgctxt ""
 "par_id3154260\n"
 "help.text"
 msgid "The 1st column of the table is linked to the field specified under <emph>Data field</emph>."
-msgstr ""
+msgstr "1. špalta tabela je z polom zwjazana, kotrež je pod <emph>Datowe polo</emph> podate."
 
 #. odzAa
 #: 01170102.xhp
@@ -5854,7 +5854,7 @@ msgctxt ""
 "par_id3156448\n"
 "help.text"
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. eJNuh
 #: 01170102.xhp
