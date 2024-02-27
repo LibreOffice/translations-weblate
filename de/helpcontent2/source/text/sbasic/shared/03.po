@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-02-14 13:07+0100\n"
-"PO-Revision-Date: 2024-02-25 09:45+0000\n"
+"PO-Revision-Date: 2024-02-27 09:45+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/de/>\n"
 "Language: de\n"
@@ -10706,7 +10706,7 @@ msgctxt ""
 "par_id271582887376762\n"
 "help.text"
 msgid "<literal>UNO</literal> object"
-msgstr ""
+msgstr "<literal>UNO</literal>-Objekt"
 
 #. rhAHw
 #: sf_dataset.xhp
@@ -10715,7 +10715,7 @@ msgctxt ""
 "par_id581582884392072\n"
 "help.text"
 msgid "Returns the <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sdb_1_1RowSet.html\">com.sun.star.sdb.RowSet</link> UNO object representing the dataset."
-msgstr ""
+msgstr "Gibt das UNO-Objekt <link href=\"https://api.libreoffice.org/docs/idl/ref/servicecom_1_1sun_1_1star_1_1sdb_1_1RowSet.html\">com.sun.star.sdb.RowSet</link> zurück, das den Datensatz darstellt."
 
 #. DCeqW
 #: sf_dataset.xhp
@@ -10724,7 +10724,7 @@ msgctxt ""
 "par_id651606319520519\n"
 "help.text"
 msgid "List of Methods in the Dataset Service"
-msgstr ""
+msgstr "Liste der Methoden im Service \"Dataset\""
 
 #. GeTvk
 #: sf_dataset.xhp
@@ -10742,7 +10742,7 @@ msgctxt ""
 "par_id93158919969864\n"
 "help.text"
 msgid "Closes the current dataset. This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Schließt den aktuellen Datensatz. Diese Methode gibt bei Erfolg <literal>True</literal> zurück."
 
 #. EM77w
 #: sf_dataset.xhp
@@ -10751,7 +10751,7 @@ msgctxt ""
 "par_id781701179217081\n"
 "help.text"
 msgid "It is recommended to close the dataset after its use to free resources."
-msgstr ""
+msgstr "Es wird empfohlen, den Datensatz nach seiner Verwendung zu schließen, um Ressourcen freizugeben."
 
 #. hMmFX
 #: sf_dataset.xhp
@@ -10778,7 +10778,7 @@ msgctxt ""
 "par_id381701012509515\n"
 "help.text"
 msgid "<emph>filter</emph>: Specifies the condition that records must match to be included in the returned dataset. This argument is expressed as a SQL <literal>WHERE</literal> statement without the \"WHERE\" keyword. If this argument is not specified, then the filter used in the current dataset is applied, otherwise the current filter is replaced by this argument."
-msgstr ""
+msgstr "<emph>filter</emph>: Legt die Bedingung fest, die Datensätze erfüllen müssen, um in den zurückgegebenen Datensatz aufgenommen zu werden. Dieses Argument wird als SQL-Anweisung <literal>WHERE</literal> ohne das Schlüsselwort \"WHERE\" ausgedrückt. Wenn dieses Argument nicht angegeben ist, wird der im aktuellen Datensatz verwendete Filter angewendet, andernfalls wird der aktuelle Filter durch dieses Argument ersetzt."
 
 #. 96FYs
 #: sf_dataset.xhp
@@ -10787,7 +10787,7 @@ msgctxt ""
 "par_id381701012563515\n"
 "help.text"
 msgid "<emph>orderby</emph>: Specifies the ordering of the dataset as a SQL <literal>ORDER BY</literal> statement without the \"ORDER BY\" keyword. If this argument is not specified, then the sorting order used in the current dataset is applied, otherwise the current sorting order is replaced by this argument."
-msgstr ""
+msgstr "<emph>orderby</emph>: Legt die Reihenfolge des Datensatzes als SQL-Anweisung <literal>ORDER BY</literal> ohne das Schlüsselwort \"ORDER BY\" fest. Wenn dieses Argument nicht angegeben ist, wird die im aktuellen Datensatz verwendete Sortierreihenfolge angewendet, andernfalls wird die aktuelle Sortierreihenfolge durch dieses Argument ersetzt."
 
 #. yW4B8
 #: sf_dataset.xhp
@@ -10850,7 +10850,7 @@ msgctxt ""
 "pyc_id581701180363338\n"
 "help.text"
 msgid "new_dataset = dataset.CreateDataset(filter = \"[Name] = 'John'\")"
-msgstr ""
+msgstr "new_dataset = dataset.CreateDataset(filter = \"[Name] = 'John'\")"
 
 #. FfGsf
 #: sf_dataset.xhp
@@ -10859,7 +10859,7 @@ msgctxt ""
 "pyc_id261701180365275\n"
 "help.text"
 msgid "new_dataset = dataset.CreateDataset(filter = \"[Name] LIKE 'A'\")"
-msgstr ""
+msgstr "new_dataset = dataset.CreateDataset(filter = \"[Name] LIKE 'A'\")"
 
 #. xFhtG
 #: sf_dataset.xhp
@@ -10868,7 +10868,7 @@ msgctxt ""
 "pyc_id481701180365786\n"
 "help.text"
 msgid "new_dataset = dataset.CreateDataset(filter = f\"({dataset.Filter}) AND [Name] LIKE 'A'\")"
-msgstr ""
+msgstr "new_dataset = dataset.CreateDataset(filter = f\"({dataset.Filter}) AND [Name] LIKE 'A'\")"
 
 #. xB6gV
 #: sf_dataset.xhp
@@ -10886,7 +10886,7 @@ msgctxt ""
 "par_id93158919961074\n"
 "help.text"
 msgid "Deletes the current record from the dataset. This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Löscht den aktuellen Datensatz aus dem Datensatz. Diese Methode gibt bei Erfolg <literal>True</literal> zurück."
 
 #. DeLNv
 #: sf_dataset.xhp
@@ -10895,7 +10895,7 @@ msgctxt ""
 "par_id101701180833688\n"
 "help.text"
 msgid "After this operation the cursor is positioned at the record immediately after the deleted record. If the deleted record is the last in the dataset, then the cursor is positioned after it and the property <literal>EOF</literal> returns <literal>True</literal>."
-msgstr ""
+msgstr "Nach diesem Vorgang wird der Cursor auf den Datensatz unmittelbar nach dem gelöschten Datensatz positioniert. Wenn der gelöschte Datensatz der letzte im Datensatz ist, wird der Cursor danach positioniert und die Eigenschaft <literal>EOF</literal> gibt <literal>True</literal> zurück."
 
 #. kQmsS
 #: sf_dataset.xhp
@@ -10913,7 +10913,7 @@ msgctxt ""
 "par_id93158955243864\n"
 "help.text"
 msgid "Exports the value of a binary field of the current record to the specified file."
-msgstr ""
+msgstr "Exportiert den Wert eines Binärfelds des aktuellen Datensatzes in die angegebene Datei."
 
 #. tF5uw
 #: sf_dataset.xhp
@@ -10922,7 +10922,7 @@ msgctxt ""
 "par_id171701181928026\n"
 "help.text"
 msgid "If the specified field is not binary or if it contains no data, then the output file is not created."
-msgstr ""
+msgstr "Wenn das angegebene Feld nicht binär ist oder keine Daten enthält, wird die Ausgabedatei nicht erstellt."
 
 #. wmnpF
 #: sf_dataset.xhp
@@ -10931,7 +10931,7 @@ msgctxt ""
 "par_id381701012500605\n"
 "help.text"
 msgid "<emph>fieldname</emph>: The name of the binary field to be exported, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>fieldname</emph>: Der Name des zu exportierenden Binärfelds als Zeichenfolge, bei der die Groß-/Kleinschreibung beachtet wird."
 
 #. U7h8Q
 #: sf_dataset.xhp
@@ -10940,7 +10940,7 @@ msgctxt ""
 "par_id381701012563717\n"
 "help.text"
 msgid "<emph>filename</emph>: The complete path to the file to be created using the notation defined in the <literal>FileSystem</literal>.<literal>FileNaming</literal> property."
-msgstr ""
+msgstr "<emph>filename</emph>: Der vollständige Pfad zur zu erstellenden Datei unter Verwendung der in der Eigenschaft <literal>FileSystem</literal>.<literal>FileNaming</literal> festgelegten Schreibweise."
 
 #. bLWJ5
 #: sf_dataset.xhp
@@ -10949,7 +10949,7 @@ msgctxt ""
 "par_id417011815228395\n"
 "help.text"
 msgid "<emph>overwrite</emph>: Set this argument to <literal>True</literal> to allow the destination file to be overwritten (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>overwrite</emph>: Setzen Sie dieses Argument auf <literal>True</literal>, um das Überschreiben der Zieldatei zu ermöglichen (Standard = <literal>False</literal>)."
 
 #. somcy
 #: sf_dataset.xhp
@@ -10958,7 +10958,7 @@ msgctxt ""
 "par_id1001701183010649\n"
 "help.text"
 msgid "In the example below the dataset contains a field named \"Picture\" that shall be exported to an image file."
-msgstr ""
+msgstr "Im folgenden Beispiel enthält der Datensatz ein Feld mit dem Namen „Bild“, das in eine Bilddatei exportiert werden soll."
 
 #. baa7B
 #: sf_dataset.xhp
@@ -10967,7 +10967,7 @@ msgctxt ""
 "bas_id191701180096457\n"
 "help.text"
 msgid "oDataset.ExportValueToFile(\"Picture\", \"C:\\my_image.png\", True)"
-msgstr ""
+msgstr "oDataset.ExportValueToFile(\"Bild\", \"C:\\Mein_Bild.png\", True)"
 
 #. HSjEn
 #: sf_dataset.xhp
@@ -10976,7 +10976,7 @@ msgctxt ""
 "pyc_id221701180362303\n"
 "help.text"
 msgid "dataset.ExportValueToFile(\"Picture\", r\"C:\\my_image.png\", True)"
-msgstr ""
+msgstr "dataset.ExportValueToFile(\"Bild\", r\"C:\\Mein_Bild.png\", True)"
 
 #. QQxdA
 #: sf_dataset.xhp
@@ -10994,7 +10994,7 @@ msgctxt ""
 "par_id93158919349654\n"
 "help.text"
 msgid "Returns the contents of the dataset in a 2-dimensional array, starting from the first record after the current record."
-msgstr ""
+msgstr "Gibt den Inhalt des Datensatzes in einer zweidimensionalen Matrix zurück, beginnend mit dem ersten Datensatz nach dem aktuellen Datensatz."
 
 #. wKNGY
 #: sf_dataset.xhp
@@ -11003,7 +11003,7 @@ msgctxt ""
 "par_id86170118381308\n"
 "help.text"
 msgid "After execution, the cursor is positioned at the row that was last read or after the last record in the dataset, in which case the <literal>EOF</literal> property returns <literal>True</literal>."
-msgstr ""
+msgstr "Nach der Ausführung wird der Cursor in der Zeile positioniert, die zuletzt gelesen wurde, oder nach dem letzten Datensatz. In diesem Fall gibt die Eigenschaft <literal>EOF</literal> <literal>True</literal> zurück."
 
 #. CYiz6
 #: sf_dataset.xhp
@@ -11012,7 +11012,7 @@ msgctxt ""
 "par_id86170118381410\n"
 "help.text"
 msgid "This method can be used to read data from the dataset in chunks, whose size is defined by the <literal>maxrows</literal> argument."
-msgstr ""
+msgstr "Mit dieser Methode können Daten aus dem Datensatz in Blöcken gelesen werden, deren Größe durch das Argument <literal>maxrows</literal> festgelegt wird."
 
 #. Qa3iR
 #: sf_dataset.xhp
@@ -11021,7 +11021,7 @@ msgctxt ""
 "par_id741701183770602\n"
 "help.text"
 msgid "The returned array will always have two dimensions, even if the dataset contains a single column and a single record."
-msgstr ""
+msgstr "Die zurückgegebene Matrix hat immer zwei Dimensionen, auch wenn der Datensatz eine einzelne Spalte und einen einzelnen Eintrag enthält."
 
 #. 4QAUM
 #: sf_dataset.xhp
