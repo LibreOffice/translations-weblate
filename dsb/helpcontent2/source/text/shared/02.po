@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-06-23 13:37+0200\n"
-"PO-Revision-Date: 2024-03-16 16:37+0000\n"
+"PO-Revision-Date: 2024-03-17 20:37+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Lower Sorbian <https://translations.documentfoundation.org/projects/libo_help-7-6/textshared02/dsb/>\n"
 "Language: dsb\n"
@@ -9598,7 +9598,7 @@ msgctxt ""
 "par_id3147285\n"
 "help.text"
 msgid "You can use all control elements and form events in HTML documents. There have been numerous events to date (for example, focus events), which have not been changed. They will continue to be imported and exported as ONFOCUS, ONBLUR, and so on for JavaScript and as SDONFOCUS, SDONBLUR, and so on for $[officename] Basic."
-msgstr ""
+msgstr "Móžośo wšykne wóźeńske elementy a formularowe tšojenja w dokumentach HTML wužywaś. Jo dotychměst wjele tšojenjow dało (na pśikład fokusowe tšojenja), kótarež njejsu se změnili. Importěrujo a eksportěruju dalej ako ONFOCUS, ONBLUR atd. za JavaScript a ko SDONFOCUS, SDONBLUR atd. za $[officename] Basic."
 
 #. Xg8En
 #: 01170700.xhp
@@ -9607,7 +9607,7 @@ msgctxt ""
 "par_id3150616\n"
 "help.text"
 msgid "Generic names that consist of the Listener interface and the method name of the event are used for all other events: An event registered as XListener::method is exported as"
-msgstr ""
+msgstr "Generiske mjenja, kótarež se ze zwězowańskego městna Listener a metodowego mjenja pódawa se za wšykne druge tšojenja wužywaju: Tšojenje, kótarež jo ako XListener::method zregistrěrowany, eksportěrujo se ako"
 
 #. yEZEy
 #: 01170700.xhp
@@ -9616,7 +9616,7 @@ msgctxt ""
 "par_id3147571\n"
 "help.text"
 msgid "SDEvent-XListener-method = \"/* event-code */\""
-msgstr ""
+msgstr "SDEvent-XListener-method = \"/* event-code */\""
 
 #. MWAqg
 #: 01170700.xhp
@@ -9625,7 +9625,7 @@ msgctxt ""
 "par_id3152425\n"
 "help.text"
 msgid "Note that the XListener- and method components of this option are case sensitive."
-msgstr ""
+msgstr "Źiwajśo na to, až komponenty XListener a method toś togo nastajenja mjazy wjelikopisanim a małopisanim rozeznawaju."
 
 #. G3qH4
 #: 01170700.xhp
@@ -9634,7 +9634,7 @@ msgctxt ""
 "par_id3153683\n"
 "help.text"
 msgid "Event handling of controls is performed using the $[officename] API. If you assign an event to a control, an object registers itself internally as a \"Listener\" for a specific control event. To do this, the object must use a specific interface, for example the XFocusListener Interface, so that it can react to focus events. When the event occurs, the control then invokes a special method of the Listener interface when the control receives the focus. The internally registered object then invokes the JavaScript or $[officename] Basic code, which was assigned to the event."
-msgstr ""
+msgstr "Wobchadanje z tšojenjami wóźeńskich elementow se z pomocu $[officename] API stawa. Jolic wóźeńskemu elementoju tšojenje pśipokazujośo, se objekt sam internje ako „Listener“ za specifiske tšojenje wóźeńskego elementa registrěrujo. Aby mógał to cyniś, musy objekt wěste zwězowańske městno wužywaś, na pśikład zwězowańske městno XFocusListener, aby mógał na fokusowe tšojenja reagěrowaś. Gaž se tšojenje wótměwa, wóźeński element specialnu metodu zwězowańskego městna Listener wuwołujo, gaž wóźeński element fokus dostawa. Internje zregistrěrowany objekt pón kod JavaScript abo $[officename] Basic wuwołujo, kótaryž jo se pśipokazał tšojenjeju."
 
 #. aAwWD
 #: 01170700.xhp
@@ -9643,7 +9643,7 @@ msgctxt ""
 "par_id3156410\n"
 "help.text"
 msgid "The HTML filter now uses precisely these listener interfaces and method names so that it can import and export events as desired. You can register a focus event through"
-msgstr ""
+msgstr "Filter HTML něnto rowno toś te zwězowańske městna listener a metodowe mjenja wužywa, aby mógał tšojenja ako póžedane importěrował a eksportěrował. Móžośo fokusowe tšojenje registrěrowaś pśez"
 
 #. WqiCW
 #: 01170700.xhp
@@ -9652,7 +9652,7 @@ msgctxt ""
 "par_id3150506\n"
 "help.text"
 msgid "<INPUT TYPE=text ONFOCUS=\"/* code */\""
-msgstr ""
+msgstr "<INPUT TYPE=text ONFOCUS=\"/* code */\""
 
 #. ZyeBs
 #: 01170700.xhp
@@ -9661,7 +9661,7 @@ msgctxt ""
 "par_id3154289\n"
 "help.text"
 msgid "rather than through the"
-msgstr ""
+msgstr "město pśez"
 
 #. 7qq8T
 #: 01170700.xhp
@@ -9670,7 +9670,7 @@ msgctxt ""
 "par_id3155391\n"
 "help.text"
 msgid "<INPUT TYPE=text SDEvent-XFocusListener-focusGained=\"/* code */\""
-msgstr ""
+msgstr "<INPUT TYPE=text SDEvent-XFocusListener-focusGained=\"/* code */\""
 
 #. eGwCT
 #: 01170700.xhp
@@ -9679,7 +9679,7 @@ msgctxt ""
 "par_id3152996\n"
 "help.text"
 msgid "register. Events can therefore be registered as desired, including those not offered in the list boxes. To define the script language of events, you can write the following line in the document header:"
-msgstr ""
+msgstr "Tšojenja daju se se togodla ako póžedane registrěrowaś, mjazy nimi te, kótarež se w lisćinowych pólach njepóbituju Aby skriptowu rěc tšojenjow definěrował, móžośo slědujucu smužku do głowy dokument pisaś:"
 
 #. GFAyX
 #: 01170700.xhp
@@ -9688,7 +9688,7 @@ msgctxt ""
 "par_id3150443\n"
 "help.text"
 msgid "<META HTTP-EQUIV=\"content-script-type\" CONTENT=\"...\">"
-msgstr ""
+msgstr "<META HTTP-EQUIV=\"content-script-type\" CONTENT=\"...\">"
 
 #. cWi8M
 #: 01170700.xhp
@@ -9697,7 +9697,7 @@ msgctxt ""
 "par_id3166410\n"
 "help.text"
 msgid "As CONTENT you can, for example, use \"text/x-StarBasic\" for $[officename] Basic or a \"text/JavaScript\" for JavaScript. If no entry is made, JavaScript is assumed."
-msgstr ""
+msgstr "Za CONTENT móžośo na pśikład „text/x-StarBasic“ za $[officename] Basic abo „text/JavaScript“ za JavaScript wužywaś. Jolic nic njejo pódane, se JavaScript pśedpokładujo."
 
 #. GmAvp
 #: 01170700.xhp
@@ -9706,7 +9706,7 @@ msgctxt ""
 "par_id3146797\n"
 "help.text"
 msgid "During exporting, the default script language will be defined based on the first module found in macro management. For events, only one language can be used per document."
-msgstr ""
+msgstr "Pśi eksportěrowanju se standardna skriptowa rěc na zakłaźe prědnego modula definěrujo, kótaryž se w zastojniku makrow namakajo. Za tšojenjao daju se jano jadna rěc na dokument wužywaś."
 
 #. HaBAA
 #: 01170800.xhp
@@ -9715,7 +9715,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Table Element Wizard"
-msgstr ""
+msgstr "Asistent tabelowego elementa"
 
 #. FiFb3
 #: 01170800.xhp
@@ -9724,7 +9724,7 @@ msgctxt ""
 "hd_id3150620\n"
 "help.text"
 msgid "<link href=\"text/shared/02/01170800.xhp\">Table Element Wizard</link>"
-msgstr ""
+msgstr "<link href=\"text/shared/02/01170800.xhp\">Asistent tabelowego elementa</link>"
 
 #. 7EVod
 #: 01170800.xhp
@@ -9733,7 +9733,7 @@ msgctxt ""
 "par_id3155354\n"
 "help.text"
 msgid "If you insert a table control in a document, the <emph>Table Element Wizard</emph> starts automatically. In this wizard, you can interactively specify which information is displayed in the table control."
-msgstr ""
+msgstr "Jolic tabelowy wóźeński element do dokumenta zasajźujośo, se <emph>Asistent tabelowego wóźeńskego elementa</emph> awtomatiski startujo. W toś tom asistenśe móžośo interaktiwnje pódaś, kótare informacije se w tabelowem wóźeńskem elemenśe pokazuju."
 
 #. usZJF
 #: 01170800.xhp
@@ -9742,7 +9742,7 @@ msgctxt ""
 "par_id3154422\n"
 "help.text"
 msgid "You can use the <link href=\"text/shared/02/01171100.xhp\"><emph>Wizards On/Off</emph></link> icon to keep the wizard from starting automatically."
-msgstr ""
+msgstr "Móžośo symbol <link href=\"text/shared/02/01171100.xhp\"><emph>Asistenty zašaltowany/wušaltowane</emph></link> wužywaś, aby tomu zajźował, až se asistent awtomatiski startujo."
 
 #. CrThK
 #: 01170801.xhp
@@ -9751,7 +9751,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Table Element / List Box / Combo Box Wizard: Data"
-msgstr ""
+msgstr "Asistent tabelowego elementa / lisćinowego póla / kombinaciskego póla: Daty"
 
 #. Eh2W5
 #: 01170801.xhp
@@ -9760,7 +9760,7 @@ msgctxt ""
 "hd_id3153323\n"
 "help.text"
 msgid "<link href=\"text/shared/02/01170801.xhp\">Table Element / List Box / Combo Box Wizard: Data</link>"
-msgstr ""
+msgstr "<link href=\"text/shared/02/01170801.xhp\">Asistent tabelowego elementa / lisćinowego póla / kombinaciskego póla: Daty</link>"
 
 #. tZ8GG
 #: 01170801.xhp
@@ -9769,7 +9769,7 @@ msgctxt ""
 "par_id3150476\n"
 "help.text"
 msgid "Select the data source and table to which the form field corresponds. If you insert the form field in a document that is already linked to a data source, this page becomes invisible."
-msgstr ""
+msgstr "Wubjeŕśo datowe žrědło a tabelu, kótarymaž formularowe pólo wótpowědujo. Jolic formularowe pólo do dokumenta zasajźujośo, kótaryž jo z datowym žrědłom zwězany, buźo bok njewidobny."
 
 #. SaFnb
 #: 01170801.xhp
