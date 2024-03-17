@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-03-04 14:25+0100\n"
-"PO-Revision-Date: 2024-03-17 00:54+0000\n"
-"Last-Translator: Olivier Hallot <olivier.hallot@libreoffice.org>\n"
+"PO-Revision-Date: 2024-03-17 01:06+0000\n"
+"Last-Translator: AntonioV <avl.estudante@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/pt_BR/>\n"
 "Language: pt-BR\n"
 "MIME-Version: 1.0\n"
@@ -70925,7 +70925,7 @@ msgctxt ""
 "par_id271708281637035\n"
 "help.text"
 msgid "<emph>NotFound</emph>: a text to return if the <emph>Lookup</emph> value is not found. If a valid match is not found, and <emph>NotFound</emph> is omitted, returns #N/A."
-msgstr "<emph>NaFalta</emph>: um texto a ser retornado se o valor de <emph>Lookup</emph> não for encontrado. Se uma correspondência válida não for encontrada e <emph>NaFalta</emph> for omitido, retornará #N/DISP."
+msgstr "<emph>NaFalta</emph>: um texto a retornar se o valor de <emph>Procura</emph> não for encontrado. Se uma correspondência válida não for encontrada e <emph>NaFalta</emph> for omitido, retornará #N/DISP."
 
 #. hBDsh
 #: func_xlookup.xhp
@@ -70934,7 +70934,7 @@ msgctxt ""
 "par_id121708281643207\n"
 "help.text"
 msgid "<emph>MatchType</emph>: Specify the match type:"
-msgstr "<emph>TipoCorresp</emph>: especifique o tipo de correspondência:"
+msgstr "<emph>TipoCorresp</emph>: especifica o tipo de correspondência:"
 
 #. aCZbP
 #: func_xlookup.xhp
@@ -70943,7 +70943,7 @@ msgctxt ""
 "par_id111708281542144\n"
 "help.text"
 msgid "<emph>0</emph> - Exact match (default). If <emph>Lookup</emph> value is not found and <emph>NotFound</emph> text is omitted, then return #N/A."
-msgstr "<emph>0</emph> - Correspondência exata (padrão). Se o valor de <emph>Lookup</emph> não for encontrado e o texto de <emph>NotFound</emph> for omitido, retornará #N/DISP."
+msgstr "<emph>0</emph> - Correspondência exata (padrão). Se o valor de <emph>Procura</emph> não for encontrado e o texto de <emph>NaFalta</emph> for omitido, retorna #N/DISP."
 
 #. w5rBH
 #: func_xlookup.xhp
@@ -70952,7 +70952,7 @@ msgctxt ""
 "par_id851708281548335\n"
 "help.text"
 msgid "<emph>-1</emph> - Exact match. If <emph>Lookup</emph> value is not found, then return the next smaller item."
-msgstr "<emph>-1</emph> - Correspondência exata. Se o valor <emph>Lookup</emph> não for encontrado, retornará o próximo item menor."
+msgstr "<emph>-1</emph> - Correspondência exata. Se o valor <emph>Procura</emph> não for encontrado, retorna o próximo item menor."
 
 #. zQiND
 #: func_xlookup.xhp
@@ -70961,7 +70961,7 @@ msgctxt ""
 "par_id801708281553430\n"
 "help.text"
 msgid "<emph>1</emph> - Exact match. If <emph>Lookup</emph> value is not found, then return the next larger item."
-msgstr "<emph>1</emph> - Correspondência exata. Se o valor <emph>Lookup</emph> não for encontrado, retornará o próximo item maior."
+msgstr "<emph>1</emph> - Correspondência exata. Se o valor <emph>Procura</emph> não for encontrado, retorna o próximo item maior."
 
 #. 4Jxvx
 #: func_xlookup.xhp
@@ -71006,7 +71006,7 @@ msgctxt ""
 "par_id191708281589997\n"
 "help.text"
 msgid "<emph>2</emph> - Binary search that relies on <emph>Array</emph> being sorted in ascending order. If not sorted, invalid results will be returned."
-msgstr "<emph>2</emph> - Pesquisa binária que depende da <emph>Matriz</emph> ser classificada em ordem crescente. Se não for classificada, serão retornados resultados inválidos."
+msgstr "<emph>2</emph> - Pesquisa binária que depende da <emph>Matriz</emph> ser ordenada em ordem crescente. Se não for ordenada, serão retornados resultados inválidos."
 
 #. mAGCX
 #: func_xlookup.xhp
@@ -71015,7 +71015,7 @@ msgctxt ""
 "par_id561708281595885\n"
 "help.text"
 msgid "<emph>-2</emph> - Binary search that relies on <emph>Array</emph> being sorted in descending order. If not sorted, invalid results will be returned."
-msgstr "<emph>-2</emph> - Pesquisa binária que depende da <emph>Matriz</emph> ser classificada em ordem decrescente. Se não for classificada, serão retornados resultados inválidos."
+msgstr "<emph>-2</emph> - Pesquisa binária que depende da <emph>Matriz</emph> ser ordenada em ordem decrescente. Se não for ordenada, serão retornados resultados inválidos."
 
 #. vD6hn
 #: func_xlookup.xhp
@@ -71069,7 +71069,7 @@ msgctxt ""
 "par_id31708356677157\n"
 "help.text"
 msgid "<input>={XLOOKUP(\"New\", A2:A4, B2:D4,\"Missing\")}</input> returns the array {\"Nouveau\",\"Nuovo\",\"新しい\"}."
-msgstr "<input>={PROCX(\"Novo\", A2:A4, B2:D4, \"Ausente\")}</input> retorna a matriz {\"Nouveau\", \"Nuovo\", \"新しい\"}."
+msgstr "<input>={PROCX(\"New\", A2:A4, B2:D4, \"Ausente\")}</input> retorna a matriz {\"Nouveau\", \"Nuovo\", \"新しい\"}."
 
 #. Z9pX4
 #: func_xlookup.xhp
@@ -71078,7 +71078,7 @@ msgctxt ""
 "par_id671708356683379\n"
 "help.text"
 msgid "<input>={XLOOKUP(\"Reload\", A2:A4, B2:D4,\"Missing\")}</input> returns the array {\"Missing\",\"Missing\",\"Missing\"}."
-msgstr "<input>={PROCX(\"Recarregar\", A2:A4, B2:D4, \"Ausente\")}</input> retorna a matriz {\"Ausente\", \"Ausente\", \"Ausente\"}."
+msgstr "<input>={PROCX(\"Reload\", A2:A4, B2:D4, \"Ausente\")}</input> retorna a matriz {\"Ausente\", \"Ausente\", \"Ausente\"}."
 
 #. SzUpN
 #: func_xlookup.xhp
@@ -71132,7 +71132,7 @@ msgctxt ""
 "par_id211708281649651\n"
 "help.text"
 msgid "XMATCH(Lookup; Array [; MatchType; SearchMode ] )"
-msgstr ""
+msgstr "CORRESPX(PROC; Matriz [; TipoCorresp; ModoPesq ] )"
 
 #. NA2BM
 #: func_xmatch.xhp
