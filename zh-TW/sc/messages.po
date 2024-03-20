@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-03-18 12:30+0100\n"
-"PO-Revision-Date: 2024-01-12 19:24+0000\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"PO-Revision-Date: 2024-03-20 01:45+0000\n"
+"Last-Translator: Po-Yen Huang <jeff.huang@ossii.com.tw>\n"
 "Language-Team: Chinese (Traditional) <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/zh_Hant/>\n"
 "Language: zh-TW\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.3.1\n"
 "X-POOTLE-MTIME: 1557418135.000000\n"
 
 #. kBovX
@@ -1288,7 +1288,7 @@ msgstr "頁尾"
 #: sc/inc/globstr.hrc:222
 msgctxt "STR_TOO_MANY_COLUMNS_DATA_FORM"
 msgid "Too many columns in the data form."
-msgstr ""
+msgstr "資料表單中的欄位太多。"
 
 #. 499qP
 #. BEGIN error constants and error strings.
@@ -3031,6 +3031,9 @@ msgid ""
 "\n"
 "Do you want to recalculate all row heights now?"
 msgstr ""
+"某些儲存格的內容可能不完全可見。重新計算列高將讓它們可見，但可能需要一點時間。\n"
+"\n"
+"您想要立刻重新計算所有列高嗎？"
 
 #. YgjzK
 #: sc/inc/globstr.hrc:508
@@ -14154,7 +14157,7 @@ msgstr "陣列內的列索引。"
 #: sc/inc/scfuncs.hrc:3362
 msgctxt "SC_OPCODE_H_LOOKUP"
 msgid "Sorted range lookup"
-msgstr "排序範圍查找"
+msgstr "排序範圍查閱"
 
 #. R7eTu
 #: sc/inc/scfuncs.hrc:3363
@@ -14220,80 +14223,80 @@ msgstr "若值為 TRUE 或未給定值，則陣列的搜尋欄代表範圍的序
 #: sc/inc/scfuncs.hrc:3383
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Extended vertical search and reference to indicated cells."
-msgstr ""
+msgstr "延伸垂直搜尋與對指定儲存格的參照。"
 
 #. aJEdP
 #: sc/inc/scfuncs.hrc:3384
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Search criterion"
-msgstr ""
+msgstr "搜尋條件"
 
 #. hKyH5
 #: sc/inc/scfuncs.hrc:3385
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "The value to be found in the first column."
-msgstr ""
+msgstr "要在第一欄中找到的值。"
 
 #. LQsQ9
 #: sc/inc/scfuncs.hrc:3386
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Search Array"
-msgstr ""
+msgstr "搜尋陣列"
 
 #. wGtsD
 #: sc/inc/scfuncs.hrc:3387
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "The array or range to search."
-msgstr ""
+msgstr "要搜尋的陣列或範圍。"
 
 #. yhzFf
 #: sc/inc/scfuncs.hrc:3388
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Result Array"
-msgstr ""
+msgstr "結果陣列"
 
 #. VUQxn
 #: sc/inc/scfuncs.hrc:3389
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "The array or range to return."
-msgstr ""
+msgstr "要回傳的陣列或範圍。"
 
 #. WECuA
 #: sc/inc/scfuncs.hrc:3390
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Result if not found"
-msgstr ""
+msgstr "若找不到時的結果"
 
 #. FF2F7
 #: sc/inc/scfuncs.hrc:3391
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "If given, return given text, otherwise return #N/A."
-msgstr ""
+msgstr "若有指定，則回傳指定文字，而非回傳 #N/A。"
 
 #. UGCMv
 #: sc/inc/scfuncs.hrc:3392
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Match Mode"
-msgstr ""
+msgstr "符合模式"
 
 #. d2Wkh
 #: sc/inc/scfuncs.hrc:3393
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "0, -1, 1 or 2 "
-msgstr ""
+msgstr "0, -1, 1 或 2 "
 
 #. EvSiP
 #. TODO : add explanation of values
 #: sc/inc/scfuncs.hrc:3394
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Search Mode"
-msgstr ""
+msgstr "搜尋模式"
 
 #. idJvP
 #: sc/inc/scfuncs.hrc:3395
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "1, -1, 2 or -2 "
-msgstr ""
+msgstr "1, -1, 2 或 -2 "
 
 #. KZapz
 #: sc/inc/scfuncs.hrc:3401
@@ -14467,56 +14470,56 @@ msgstr "類型值可以是 1 (第一欄陣列升序)、0 (實際符合或萬用�
 #: sc/inc/scfuncs.hrc:3449
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Defines a relative position in an array or range of cells after comparing values."
-msgstr ""
+msgstr "比較值後定義陣列或儲存格區域中的相對位置。"
 
 #. m33Cc
 #: sc/inc/scfuncs.hrc:3450
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search criterion"
-msgstr ""
+msgstr "搜尋條件"
 
 #. GLmYe
 #: sc/inc/scfuncs.hrc:3451
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "The value to be used for comparison."
-msgstr ""
+msgstr "用於比較的值。"
 
 #. kthZF
 #: sc/inc/scfuncs.hrc:3452
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search Array"
-msgstr ""
+msgstr "搜尋陣列"
 
 #. xnBcz
 #: sc/inc/scfuncs.hrc:3453
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "The array or range to search."
-msgstr ""
+msgstr "要搜尋的陣列或範圍。"
 
 #. c3dEi
 #: sc/inc/scfuncs.hrc:3454
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Match Mode"
-msgstr ""
+msgstr "符合模式"
 
 #. t6qx7
 #: sc/inc/scfuncs.hrc:3455
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "0, -1, 1 or 2 "
-msgstr ""
+msgstr "0, -1, 1 或 2 "
 
 #. UtoXD
 #. TODO : add explanation of values
 #: sc/inc/scfuncs.hrc:3456
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search Mode"
-msgstr ""
+msgstr "搜尋模式"
 
 #. uZCBe
 #: sc/inc/scfuncs.hrc:3457
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "1, -1, 2 or -2 "
-msgstr ""
+msgstr "1, -1, 2 或 -2 "
 
 #. XJ4FS
 #: sc/inc/scfuncs.hrc:3463
@@ -16797,43 +16800,43 @@ msgstr "可以回傳的最大整數。"
 #: sc/inc/scfuncs.hrc:4189
 msgctxt "SC_OPCODE_FILTER"
 msgid "Filters an array based on a Boolean (True/False) array."
-msgstr ""
+msgstr "以布林 (True/False) 陣列為基礎篩選陣列。"
 
 #. fSQDy
 #: sc/inc/scfuncs.hrc:4190
 msgctxt "SC_OPCODE_FILTER"
 msgid "Range"
-msgstr ""
+msgstr "範圍"
 
 #. A5mF9
 #: sc/inc/scfuncs.hrc:4191
 msgctxt "SC_OPCODE_FILTER"
 msgid "The array, or range to filter."
-msgstr ""
+msgstr "要篩選的陣列或範圍。"
 
 #. qa6rC
 #: sc/inc/scfuncs.hrc:4192
 msgctxt "SC_OPCODE_FILTER"
 msgid "Include"
-msgstr ""
+msgstr "包含"
 
 #. 4sCAD
 #: sc/inc/scfuncs.hrc:4193
 msgctxt "SC_OPCODE_FILTER"
 msgid "A Boolean array whose height or width is the same as the array."
-msgstr ""
+msgstr "高度或寬度與陣列相同的布林陣列。"
 
 #. Dxcxc
 #: sc/inc/scfuncs.hrc:4194
 msgctxt "SC_OPCODE_FILTER"
 msgid "Result if empty"
-msgstr ""
+msgstr "若為空的結果"
 
 #. vJAM9
 #: sc/inc/scfuncs.hrc:4195
 msgctxt "SC_OPCODE_FILTER"
 msgid "The value to return if all values in the included array are empty (filter returns nothing)."
-msgstr ""
+msgstr "若包含的陣列中的所有值都為空（篩選條件未回傳任何內容），則回傳值。"
 
 #. pDDme
 #: sc/inc/scstyles.hrc:29
@@ -19017,7 +19020,7 @@ msgstr "不包含文字"
 #: sc/inc/strings.hrc:415
 msgctxt "STR_CONTENT_WITH_UNKNOWN_ENCRYPTION"
 msgid "Document contains DRM content that is encrypted with an unknown encryption method. Only the un-encrypted content will be shown."
-msgstr ""
+msgstr "文件包含使用未知加密方法加密的 DRM 內容。僅顯示未加密的內容。"
 
 #. Et4zM
 #: sc/inc/subtotals.hrc:28
@@ -22983,13 +22986,13 @@ msgstr "顯示"
 #: sc/uiconfig/scalc/ui/dropmenu.ui:85
 msgctxt "dropmenu|SCSTR_EDIT"
 msgid "Edit Comment"
-msgstr ""
+msgstr "編輯評註"
 
 #. ScTtJ
 #: sc/uiconfig/scalc/ui/dropmenu.ui:93
 msgctxt "dropmenu|SCSTR_DELETE"
 msgid "Delete Comment"
-msgstr ""
+msgstr "刪除評註"
 
 #. PL8Bz
 #: sc/uiconfig/scalc/ui/erroralerttabpage.ui:15
@@ -23469,7 +23472,7 @@ msgstr "全部"
 #: sc/uiconfig/scalc/ui/filterdropdown.ui:232
 msgctxt "filterdropdown|STR_BTN_TOGGLE_ALL"
 msgid "Lock"
-msgstr ""
+msgstr "鎖定"
 
 #. JsSz6
 #: sc/uiconfig/scalc/ui/filterdropdown.ui:251
@@ -27510,13 +27513,13 @@ msgstr "提示使用者"
 #: sc/uiconfig/scalc/ui/optformula.ui:174
 msgctxt "optformula|label10"
 msgid "Optimal row height:"
-msgstr ""
+msgstr "最適列高："
 
 #. N9WbA
 #: sc/uiconfig/scalc/ui/optformula.ui:196
 msgctxt "optformula|extended_tip|rowheightrecalc"
 msgid "Define either we want to calculate the optimal row heights or we do not want at load time."
-msgstr ""
+msgstr "定義我們想要計算最適列高或我們不希望在載入時計算。"
 
 #. xoCdo
 #: sc/uiconfig/scalc/ui/optformula.ui:211
@@ -29916,7 +29919,7 @@ msgstr "顯示這個對話方塊(_S)"
 #: sc/uiconfig/scalc/ui/searchresults.ui:40
 msgctxt "searchresults|ShowBox_Tooltip"
 msgid "Enable the dialog again at Tools - Options - %PRODUCTNAME Calc - View"
-msgstr ""
+msgstr "在「工具」→「選項」→「%PRODUCTNAME Calc」→「檢視」中再次啟用對話方塊"
 
 #. sekAN
 #: sc/uiconfig/scalc/ui/searchresults.ui:101
@@ -31392,7 +31395,7 @@ msgstr "區分字母大小寫(_S)"
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:37
 msgctxt "sortoptionspage|extended_tip|case"
 msgid "Sorts first by uppercase letters and then by lowercase letters. For Asian locales, special handling applies."
-msgstr ""
+msgstr "先按大寫字母排序，然後是小寫字母。對於亞洲語系來說，需要特別處理。"
 
 #. RM629
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:48
@@ -31488,7 +31491,7 @@ msgstr "自訂排序方式"
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:239
 msgctxt "sortoptionspage|label6"
 msgid "Locale"
-msgstr ""
+msgstr "語言環境"
 
 #. dBv73
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:253
@@ -31500,13 +31503,13 @@ msgstr "選項"
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:275
 msgctxt "sortoptionspage|extended_tip|language"
 msgid "Select the locale for the sorting rules."
-msgstr ""
+msgstr "選取排序規則的語言環境。"
 
 #. ybsEh
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:291
 msgctxt "sortoptionspage|extended_tip|algorithmlb"
 msgid "Select a sorting option for the locale."
-msgstr ""
+msgstr "選取語言環境的排序選項。"
 
 #. aDahD
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:312
@@ -33714,7 +33717,7 @@ msgstr "在試算表中匯入 XML 資料。"
 #: sc/uiconfig/scalc/ui/zoombox.ui:14
 msgctxt "zoombox|zoom_label"
 msgid "Scale"
-msgstr ""
+msgstr "顯示比例"
 
 #. 5ozTx
 #: sc/uiconfig/scalc/ui/ztestdialog.ui:95
