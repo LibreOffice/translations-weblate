@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-04-02 12:12+0200\n"
-"PO-Revision-Date: 2024-04-08 01:45+0000\n"
+"PO-Revision-Date: 2024-04-09 01:45+0000\n"
 "Last-Translator: Ming Hua <plateauwolf@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/zh_Hans/>\n"
 "Language: zh-CN\n"
@@ -3031,6 +3031,9 @@ msgid ""
 "\n"
 "Do you want to recalculate all row heights now?"
 msgstr ""
+"有些单元格中的内容并非全部可见。重新计算行高会使其全部可见，但需要一些时间。\n"
+"\n"
+"确定要立即重新计算所有行高吗？"
 
 #. YgjzK
 #: sc/inc/globstr.hrc:508
@@ -14467,56 +14470,56 @@ msgstr "「类型」值可以为 1 (第一列数组升序)、0 (完全匹配/通
 #: sc/inc/scfuncs.hrc:3449
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Defines a relative position in an array or range of cells after comparing values."
-msgstr ""
+msgstr "通过对数值进行比较，指定一个单元格数组或范围中的相对位置。"
 
 #. m33Cc
 #: sc/inc/scfuncs.hrc:3450
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search criterion"
-msgstr ""
+msgstr "搜索标准"
 
 #. GLmYe
 #: sc/inc/scfuncs.hrc:3451
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "The value to be used for comparison."
-msgstr ""
+msgstr "用来比较或要查找的数值。"
 
 #. kthZF
 #: sc/inc/scfuncs.hrc:3452
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search Array"
-msgstr ""
+msgstr "被搜索数组"
 
 #. xnBcz
 #: sc/inc/scfuncs.hrc:3453
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "The array or range to search."
-msgstr ""
+msgstr "要搜索的数组或范围。"
 
 #. c3dEi
 #: sc/inc/scfuncs.hrc:3454
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Match Mode"
-msgstr ""
+msgstr "匹配模式"
 
 #. t6qx7
 #: sc/inc/scfuncs.hrc:3455
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "0, -1, 1 or 2 "
-msgstr ""
+msgstr "0、-1、1 或 2 "
 
 #. UtoXD
 #. TODO : add explanation of values
 #: sc/inc/scfuncs.hrc:3456
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search Mode"
-msgstr ""
+msgstr "搜索模式"
 
 #. uZCBe
 #: sc/inc/scfuncs.hrc:3457
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "1, -1, 2 or -2 "
-msgstr ""
+msgstr "1、-1、2 或 -2 "
 
 #. XJ4FS
 #: sc/inc/scfuncs.hrc:3463
@@ -16809,7 +16812,7 @@ msgstr "范围"
 #: sc/inc/scfuncs.hrc:4191
 msgctxt "SC_OPCODE_FILTER"
 msgid "The array, or range to filter."
-msgstr "需要筛选的数组或范围。"
+msgstr "待筛选的数组或范围。"
 
 #. qa6rC
 #: sc/inc/scfuncs.hrc:4192
@@ -16839,97 +16842,97 @@ msgstr "当包含条件数组中的所有值都为空（即筛选未得到任何
 #: sc/inc/scfuncs.hrc:4201
 msgctxt "SC_OPCODE_SORT"
 msgid "Sorts the contents of a range or array."
-msgstr ""
+msgstr "对范围或数组中的内容排序。"
 
 #. 5dG8m
 #: sc/inc/scfuncs.hrc:4202
 msgctxt "SC_OPCODE_SORT"
 msgid "Range"
-msgstr ""
+msgstr "范围"
 
 #. mUPZF
 #: sc/inc/scfuncs.hrc:4203
 msgctxt "SC_OPCODE_SORT"
 msgid "The range, or array to sort."
-msgstr ""
+msgstr "待排序的范围或数组。"
 
 #. 3vzBe
 #: sc/inc/scfuncs.hrc:4204
 msgctxt "SC_OPCODE_SORT"
 msgid "Sort index"
-msgstr ""
+msgstr "排序指标"
 
 #. SWhii
 #: sc/inc/scfuncs.hrc:4205
 msgctxt "SC_OPCODE_SORT"
 msgid "A number indicating the row or column to sort by."
-msgstr ""
+msgstr "标识用于排序的行或列的序号。"
 
 #. uFhZs
 #: sc/inc/scfuncs.hrc:4206
 msgctxt "SC_OPCODE_SORT"
 msgid "Sort order"
-msgstr ""
+msgstr "排序方向"
 
 #. ySFRx
 #: sc/inc/scfuncs.hrc:4207
 msgctxt "SC_OPCODE_SORT"
 msgid "A number indicating the desired sort order; 1 for ascending order (default), -1 for descending order."
-msgstr ""
+msgstr "表示排序方向的数字，1 代表升序 (默认值)，-1 代表降序。"
 
 #. fnsqA
 #: sc/inc/scfuncs.hrc:4208
 msgctxt "SC_OPCODE_SORT"
 msgid "By col"
-msgstr ""
+msgstr "对各列排序"
 
 #. TDtYt
 #: sc/inc/scfuncs.hrc:4209
 msgctxt "SC_OPCODE_SORT"
 msgid "A logical value indicating the desired sort direction; FALSE to sort by row (default), TRUE to sort by column."
-msgstr ""
+msgstr "表示要按行排序还是按列排序的真假值，FALSE 表示对各行排序 (默认值)，TRUE 表示对各列排序。"
 
 #. 5AEwL
 #: sc/inc/scfuncs.hrc:4215
 msgctxt "SC_OPCODE_SORTBY"
 msgid "Sorts the contents of a range or array based on the values in a corresponding range or array."
-msgstr ""
+msgstr "对一个范围和数组中的内容，按照与其相关的范围或数组进行排序。"
 
 #. g4Mpg
 #: sc/inc/scfuncs.hrc:4216
 msgctxt "SC_OPCODE_SORTBY"
 msgid "Sort range"
-msgstr ""
+msgstr "待排序范围"
 
 #. YsFWA
 #: sc/inc/scfuncs.hrc:4217
 msgctxt "SC_OPCODE_SORTBY"
 msgid "The array or range to sort."
-msgstr ""
+msgstr "待排序的数组或范围。"
 
 #. hkF48
 #: sc/inc/scfuncs.hrc:4218
 msgctxt "SC_OPCODE_SORTBY"
 msgid "Sort by range "
-msgstr ""
+msgstr "排序依据范围 "
 
 #. Xh6BJ
 #: sc/inc/scfuncs.hrc:4219
 msgctxt "SC_OPCODE_SORTBY"
 msgid "Range 1, range 2,... are the arrays or ranges to sort on."
-msgstr ""
+msgstr "「范围 1, 范围 2, ...」是用于确定顺序的各数组或范围。"
 
 #. jUFcA
 #: sc/inc/scfuncs.hrc:4220
 msgctxt "SC_OPCODE_SORTBY"
 msgid "Sort order "
-msgstr ""
+msgstr "排序方向 "
 
 #. F8iPf
 #: sc/inc/scfuncs.hrc:4221
 msgctxt "SC_OPCODE_SORTBY"
 msgid "Order 1, order 2,... are the orders to use for sorting. 1 for ascending, -1 for descending. Default is ascending."
-msgstr ""
+msgstr "「方向 1, 方向 2, ...」是排序的方向。1 代表升序，-1 代表降序。默认为升序。"
 
 #. pDDme
 #: sc/inc/scstyles.hrc:29
@@ -27684,13 +27687,13 @@ msgstr "提示用户"
 #: sc/uiconfig/scalc/ui/optformula.ui:174
 msgctxt "optformula|label10"
 msgid "Optimal row height:"
-msgstr ""
+msgstr "最佳行高:"
 
 #. N9WbA
 #: sc/uiconfig/scalc/ui/optformula.ui:196
 msgctxt "optformula|extended_tip|rowheightrecalc"
 msgid "Define either we want to calculate the optimal row heights or we do not want at load time."
-msgstr ""
+msgstr "指定是否要在加载时计算最佳行高。"
 
 #. xoCdo
 #: sc/uiconfig/scalc/ui/optformula.ui:211
