@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-04-20 14:13+0200\n"
-"PO-Revision-Date: 2024-05-03 06:21+0000\n"
+"PO-Revision-Date: 2024-05-04 15:39+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_ui-master/xmlsecuritymessages/da/>\n"
 "Language: da\n"
@@ -96,10 +96,9 @@ msgstr "MD5-fingeraftryk"
 
 #. s3fND
 #: xmlsecurity/inc/strings.hrc:38
-#, fuzzy
 msgctxt "STR_XMLSECDLG_OPENED_CRTMGR"
 msgid "You have opened the certificate manager at\n"
-msgstr "Du har åbnet certifikatmanageren kl\n"
+msgstr "Du har åbnet certifikatmanageren kl.\n"
 
 #. YFxBG
 #: xmlsecurity/inc/strings.hrc:39
@@ -239,7 +238,7 @@ msgstr ""
 #: xmlsecurity/inc/strings.hrc:67
 msgctxt "STR_RELOAD_FILE_WARNING"
 msgid "Reload the file to apply the new macro security level"
-msgstr ""
+msgstr "Genindlæs filen for at anvende det nye niveau for makrosikkerhed."
 
 #. AeZzq
 #: xmlsecurity/inc/strings.hrc:68
@@ -253,6 +252,13 @@ msgid ""
 "\n"
 "Do you really want to encrypt your document with this untrusted public key?"
 msgstr ""
+"Sikkerhedsadvarsel: den følgende OpenPGP offentlige nøgle er upålidelig:\n"
+"\n"
+"%{data}\n"
+"\n"
+"Kryptering med en upålidelig offentlig nøgle øger risikoen for en \"mand-i-midten\"-angreb (\"man-in-the-middle\" attack). Et succesfuldt \"mand-i-midten\"-angreb giver ondsindede tredjeparter mulighed for dekryptere dit dokument.\n"
+"\n"
+"Ønsker du virkelig at kryptere dit dokument med denne upålidelige offentlige nøgle?"
 
 #. wH3TZ
 msgctxt "stock"
@@ -401,7 +407,7 @@ msgstr "Gyldigt til:"
 #: xmlsecurity/uiconfig/ui/certpage.ui:33
 msgctxt "certpage|label1"
 msgid "Certificate Path"
-msgstr ""
+msgstr "Certifikat-sti"
 
 #. y2mBB
 #: xmlsecurity/uiconfig/ui/certpage.ui:45
@@ -419,7 +425,7 @@ msgstr "Certifikatsti-siden i dialogen Vis certifikat viser placeringen og statu
 #: xmlsecurity/uiconfig/ui/certpage.ui:122
 msgctxt "certpage|label2"
 msgid "Certificate status"
-msgstr ""
+msgstr "Certifikatstatus"
 
 #. YTTCA
 #: xmlsecurity/uiconfig/ui/certpage.ui:148
@@ -637,12 +643,15 @@ msgid ""
 "Only signed macros and macros from trusted file locations are executed.\n"
 "Unsigned macros are disabled."
 msgstr ""
+"Høj.\n"
+"Kun signerede makroer og makroer fra pålidelige filplaceringer bliver udført.\n"
+"Ikke-signerede makroer deaktiveres."
 
 #. nbL9B
 #: xmlsecurity/uiconfig/ui/securitylevelpage.ui:75
 msgctxt "extended_tip|high"
 msgid "Only signed macros or macros from a trusted file location are allowed to run. Macros signed with untrusted certificates will require confirmation to run, when located in untrusted file locations. Trusted certificates and trusted file locations can be set on the Trusted Sources tab page."
-msgstr ""
+msgstr "Kun signerede makroer eller makroer fra pålidelige filplaceringer bliver udført. Makroer signeret med upålidelige certifikater vil kræve bekræftelse for at køre, når de stammer fra upålidelige filplaceringer. Pålidelige certifikater og pålidelige filplaceringer kan indstilles på fanebladet Betroede kilder."
 
 #. SDdW5
 #: xmlsecurity/uiconfig/ui/securitylevelpage.ui:86
@@ -666,31 +675,31 @@ msgstr "Betroede filplaceringer kan sættes på de betroede kilders faneblad. Hv
 #: xmlsecurity/uiconfig/ui/securitylevelpage.ui:116
 msgctxt "SecurityLevelPage|vhighimg"
 msgid "Very high security level"
-msgstr ""
+msgstr "Meget højt sikkerhedsniveau"
 
 #. PG9Kz
 #: xmlsecurity/uiconfig/ui/securitylevelpage.ui:134
 msgctxt "SecurityLevelPage|highimg"
 msgid "High security level"
-msgstr ""
+msgstr "Højt sikkerhedsniveau"
 
 #. mm6H3
 #: xmlsecurity/uiconfig/ui/securitylevelpage.ui:152
 msgctxt "SecurityLevelPage|medimg"
 msgid "Medium security level"
-msgstr ""
+msgstr "Mellem sikkerhedsniveau"
 
 #. odkxv
 #: xmlsecurity/uiconfig/ui/securitylevelpage.ui:170
 msgctxt "SecurityLevelPage|lowimg"
 msgid "Low security level"
-msgstr ""
+msgstr "Lavt sikkerhedsniveau"
 
 #. Dd4PX
 #: xmlsecurity/uiconfig/ui/securitylevelpage.ui:207
 msgctxt "SecurityLevelPage|warningimg"
 msgid "File reload needed"
-msgstr ""
+msgstr "Det er nødvendigt at genindlæse filen"
 
 #. 5kj8c
 #: xmlsecurity/uiconfig/ui/securitytrustpage.ui:61
@@ -888,7 +897,7 @@ msgstr "Detaljer"
 #: xmlsecurity/uiconfig/ui/viewcertdialog.ui:206
 msgctxt "viewcertdialog|path"
 msgid "Certificate Path"
-msgstr ""
+msgstr "Certifikat-sti"
 
 #~ msgctxt "certpage|label1"
 #~ msgid "Certification path"
