@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-07-25 11:20+0200\n"
-"PO-Revision-Date: 2024-05-09 21:38+0000\n"
+"PO-Revision-Date: 2024-05-11 13:38+0000\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <https://translations.documentfoundation.org/projects/libo_ui-7-6/scmessages/ka/>\n"
 "Language: ka\n"
@@ -1071,6 +1071,13 @@ msgid ""
 "• contain [ ] * ? : / \\ \n"
 "• use ' (apostrophe) as first or last character."
 msgstr ""
+"არასწორი ფურცლის სახელი.\n"
+"\n"
+"ფურცლის სახელი არ უნდა:\n"
+"• იყოს ცარიელი\n"
+"• უკვე არსებობდეს\n"
+"• შეიცავდეს სიმბოლოებს [ ] * / : / \\\n"
+"• იყენებდეს ' (აპოსტროფს) პირველ ან ბოლო სიმბოლოდ."
 
 #. CGAdE
 #: sc/inc/globstr.hrc:187
@@ -1552,7 +1559,7 @@ msgstr "კომენტარები"
 msgctxt "STR_QUERY_DELTAB"
 msgid "Are you sure you want to delete the selected sheet?"
 msgid_plural "Are you sure you want to delete the %d selected sheets?"
-msgstr[0] ""
+msgstr[0] "მართლა გნებავთ წაშალოთ %d მონიშნული ფურცელი?"
 
 #. WeWsD
 #: sc/inc/globstr.hrc:278
@@ -2084,6 +2091,8 @@ msgid ""
 "This file contains queries. The results of these queries were not saved.\n"
 "Do you want these queries to be repeated?"
 msgstr ""
+"ფაილი მოთხოვნებს შეიცავს. ამ მოთხოვნების შედეგები არ შენახულა.\n"
+"გნებავთ ამ მოთხოვნების გამეორება?"
 
 #. HrjKf
 #: sc/inc/globstr.hrc:365
@@ -2512,6 +2521,9 @@ msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
+"უკვე ამოხსნილი შერწყმის კონფლიქტები დაიკარგება და თქვენი ცვლილებები გაზიარებულ ელცხრილში შენახული არ იქნება.\n"
+"\n"
+"გნებავთ, გააგრძელოთ?"
 
 #. 6JJGG
 #: sc/inc/globstr.hrc:432
@@ -2521,6 +2533,9 @@ msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
+"ელცხრილის გაზიარებული რეჟიმის გამორთვა ხელს შეუშლის გაზიარებული ელცხრილის ყველა მომხმარებელს, თავიანთი სამუშაო ჩაწერონ.\n"
+"\n"
+"გნებავთ, გააგრძელოთ?"
 
 #. wQu4c
 #: sc/inc/globstr.hrc:433
@@ -2530,6 +2545,9 @@ msgid ""
 "\n"
 "Save your spreadsheet to a separate file and merge your changes to the shared spreadsheet manually."
 msgstr ""
+"ეს ელცხრილი გაზიარებულ რეჟიმში აღარაა.\n"
+"\n"
+"შეინახეთ თქვენი ელცხრილი ცალკე ფაილში და ხელით შეაერთეთ თქვენი ცვლილებები გაზიარებულ ელცხრილთან."
 
 #. Acijp
 #: sc/inc/globstr.hrc:434
@@ -2539,6 +2557,9 @@ msgid ""
 "\n"
 "Sharing mode of a locked file cannot be disabled. Try again later."
 msgstr ""
+"გაზიარებული ელცხრილის ფაილი დაბლოკილია მიმდინარე შერწყმისთვის მომხმარებლისგან: '%1'\n"
+"\n"
+"დაბლოკილი ფაილის გაზიარების რეჟიმს ვერ გათიშავთ. მოგვიანებით სცადეთ."
 
 #. tiq8b
 #: sc/inc/globstr.hrc:435
@@ -2548,6 +2569,9 @@ msgid ""
 "\n"
 "Try again later to save your changes."
 msgstr ""
+"გაზიარებული ელცხრილის ფაილი დაბლოკილია შერწყმის მიმდინარეობის გამო მომხმარებლისგან: '%1'\n"
+"\n"
+"სცადეთ, თქვენი ცვლილებები მოგვიანებით შეინახოთ."
 
 #. 67jJW
 #: sc/inc/globstr.hrc:436
@@ -2661,7 +2685,7 @@ msgstr "კრებსითი ცხრილის წყარო მონ
 #: sc/inc/globstr.hrc:454
 msgctxt "STR_OPTIONS_WARN_SEPARATORS"
 msgid "Because the current formula separator settings conflict with the locale, the formula separators have been reset to their default values."
-msgstr ""
+msgstr "იმის გამო, რომ მიმდინარე ფორმულის გამყოფის პარამეტრები კონფლიქტშია ლოკალთან, ფორმულის გამყოფები ჩამოყრილია საწყის მნიშვნელობებზე."
 
 #. QMTkA
 #: sc/inc/globstr.hrc:455
@@ -2733,7 +2757,7 @@ msgstr ""
 #: sc/inc/globstr.hrc:465
 msgctxt "STR_CLOSE_WITH_UNSAVED_REFS"
 msgid "This Document is referenced by another document and not yet saved. Closing it without saving will result in data loss."
-msgstr ""
+msgstr "ამ დოკუმენტზე არსებობს მომართვა სხვა დოკუმენტიდან და ის ჯერ შენახული არაა. დახურვამ შენახვის გარეშე, შეიძლება, მონაცემების კარგვა გამოიწვიოს."
 
 #. uBwWr
 #: sc/inc/globstr.hrc:466
@@ -2977,6 +3001,9 @@ msgid ""
 "\n"
 " Do you want to edit the existing conditional format?"
 msgstr ""
+"მონიშნული უჯრედი უკვე შეიცავს პირობით დაფორმატებას. შეგიძლიათ, ჩაასწოროთ არსებული პირობითი ფორმატი ან აღწეროთ ახალი გადამფარავი პირობითი ფორმატი.\n"
+"\n"
+"გნებავთ ჩაასწოროთ არსებული პირობითი დაფორმატება?"
 
 #. cisuZ
 #: sc/inc/globstr.hrc:506
@@ -2986,6 +3013,9 @@ msgid ""
 "\n"
 "Do you want to recalculate all formula cells in this document now?"
 msgstr ""
+"დოკუმენტი, ბოლოს, %PRODUCTNAME-ს არ შეუნახავს.   ზოგიერთი ფორმულის უჯრედმა, შეიძლება, სხვა შედეგები აწარმოოს, როცა თავიდან გამოითვლება.\n"
+"\n"
+"გნებავთ დოკუმენტის ყველა ფორმულის უჯრედის თავიდან გამოთვლა?"
 
 #. rD6BE
 #: sc/inc/globstr.hrc:507
@@ -2995,6 +3025,9 @@ msgid ""
 "\n"
 "Do you want to recalculate all formula cells now?"
 msgstr ""
+"ეს დოკუმენტი შენახულია Excel-ის ფაილის ფორმატში (.xlsx). ზოგიერთი ფორმულის უჯრედებმა, შეიძლება, გადათვლისას, განსხვავებული შედეგები მოგცეთ.\n"
+"\n"
+"გნებავთ ყველა ფორმულის უჯრედის თავიდან გამოთვლა?"
 
 #. YgjzK
 #: sc/inc/globstr.hrc:508
@@ -3231,7 +3264,7 @@ msgstr "ტექსტი"
 msgctxt "STR_QUERY_PIVOTTABLE_DELTAB"
 msgid "The selected sheet contains source data of related pivot tables that will be lost."
 msgid_plural "The %d selected sheets contain source data of related pivot tables that will be lost."
-msgstr[0] ""
+msgstr[0] "%d მონიშნული ფურცელი შეიცავს წყარო მონაცემებს მიბმული კრებსითი ცხრილებისთვის, რომლებიც დაიკარგება."
 
 #. 5uVFF
 #: sc/inc/globstr.hrc:548
@@ -3545,7 +3578,7 @@ msgstr "უჯრედი $(ARG1) შეიცავს სიმბოლო�
 #: sc/inc/scerrors.hrc:68
 msgctxt "RID_ERRHDLSC"
 msgid "Cell $(ARG1) contains a string that is longer in the selected target character set \"$(ARG2)\" than the given field width."
-msgstr ""
+msgstr "უჯრედი $(ARG1) შეიცავს სტრიქონს, რომელიც უფრო გრძელია არჩეულ სამიზნე სიმბოლოების ნაკრებში \"$(ARG2)\", ვიდრე მითითებული ველის სიგანე."
 
 #. rseoe
 #. WARNINGS ---------------------------------------------------
@@ -3580,6 +3613,9 @@ msgid ""
 "\n"
 "Please be warned that re-saving this document will permanently delete those sheets that have not been loaded!"
 msgstr ""
+"ყველა ფურცელი არ ჩატვირთულა, რადგან გადაცილებულია ფურცლების მაქსიმალური რაოდენობა.\n"
+"\n"
+"იყავით ფრთხილად ამ დოკუმენტის თავიდან შენახვისას, რადგან სამუდამოდ დაკარგავთ ფურცლებს, რომლებიც არ ჩატვირთულა!"
 
 #. rEAFX
 #: sc/inc/scerrors.hrc:82
@@ -3843,7 +3879,7 @@ msgstr "აღწერს უჯრედების შუალედს, �
 #: sc/inc/scfuncs.hrc:86
 msgctxt "SC_OPCODE_DB_MAX"
 msgid "Returns the maximum value from all of the cells of a data range which correspond to the search criteria."
-msgstr ""
+msgstr "აბრუნებს მაქსიმალურ მნიშვნელობებს მონაცემების შუალედის ყველა უჯრედიდან, რომელიც ძებნის პირობას აკმაყოფილებს."
 
 #. bQKFQ
 #: sc/inc/scfuncs.hrc:87
@@ -4011,7 +4047,7 @@ msgstr "აღწერს უჯრედების შუალედს, �
 #: sc/inc/scfuncs.hrc:134
 msgctxt "SC_OPCODE_DB_STD_DEV_P"
 msgid "Returns the standard deviation with regards to the population of all cells of a data range matching the search criteria."
-msgstr ""
+msgstr "აბრუნებს სტანდარტულ აცდენას პოპულაციისთვის მონაცემების შუალედის ყველა უჯრედისთვის, რომლებიც ძებნის პირობას აკმაყოფილებენ."
 
 #. pEAMu
 #: sc/inc/scfuncs.hrc:135
@@ -4137,7 +4173,7 @@ msgstr "აღწერს უჯრედების შუალედს, �
 #: sc/inc/scfuncs.hrc:170
 msgctxt "SC_OPCODE_DB_VAR_P"
 msgid "Determines variance of a population based on all cells in a data range where contents match the search criteria."
-msgstr ""
+msgstr "ადგენს პოპულაციის დისპერსიას მონაცემების შუალედში არსებული უჯრედების საშუალებით, რომლებიც ძებნის პირობას აკმაყოფილებს."
 
 #. ZiVej
 #: sc/inc/scfuncs.hrc:171
@@ -4293,7 +4329,7 @@ msgstr "ტიპი"
 #: sc/inc/scfuncs.hrc:216
 msgctxt "SC_OPCODE_GET_DIFF_DATE_360"
 msgid "Method used to form differences: Type = 0 denotes US method (NASD), Type = 1 denotes the European method."
-msgstr ""
+msgstr "სხვაობების დადგენის მეთოდი. ტიპი = 0 აღნიშნავს აშშ მეთოდს (NASD). ტიპი = 1 აღნიშნავს ევროპულს."
 
 #. WxBru
 #: sc/inc/scfuncs.hrc:222
@@ -4347,7 +4383,7 @@ msgstr "მასივი"
 #: sc/inc/scfuncs.hrc:230
 msgctxt "SC_OPCODE_NETWORKDAYS"
 msgid "Optional list of numbers to indicate working (0) and weekend (non-zero) days. When omitted, weekend is Saturday and Sunday."
-msgstr ""
+msgstr "რიცხვების არასავალდებულო სია, რომელიც აღნიშნავს სამუშაო (0) და კვირის ბოლოს (არანულოვანი) დღეებს. როცა მითითებული არაა, კვირის ბოლო შაბათი და კვირაა."
 
 #. fmBGW
 #: sc/inc/scfuncs.hrc:236
@@ -4407,7 +4443,7 @@ msgstr "ერთი ან მეტი თარიღის, რომლე�
 #: sc/inc/scfuncs.hrc:250
 msgctxt "SC_OPCODE_WORKDAY_MS"
 msgid "Returns the serial number of the date before or after a number of workdays using arguments to indicate weekend days and holidays."
-msgstr ""
+msgstr "აბრუნებს სერიულ ნომერს თარიღისთვის სამუშაო დღეებამდე ან შემდეგ. არგუმენტები კვირის ბოლოს და დასვენებებს მიუთითებენ."
 
 #. EUpDi
 #: sc/inc/scfuncs.hrc:251
@@ -4776,6 +4812,8 @@ msgid ""
 "Calculates the calendar week corresponding to the given date.\n"
 "This function only provides interoperability with %PRODUCTNAME 5.0 and earlier and OpenOffice.org."
 msgstr ""
+"გამოთვლის კალენდარულ კვირას მითითებული თარიღისთვის.\n"
+"ეს ფუნქცია, მხოლოდ, %PRODUCTNAME 5.0 ან უფრო ძველისთვის და OpenOffice.org-თან თავსებადობისთვის გამოიყენება."
 
 #. CquiW
 #: sc/inc/scfuncs.hrc:386
@@ -4955,7 +4993,7 @@ msgstr "ტიპი = ნიშნავს, რომ გადახდა �
 #: sc/inc/scfuncs.hrc:435
 msgctxt "SC_OPCODE_NPER"
 msgid "Payment period. Calculates the number of payment periods for an investment based on regular payments and a constant interest rate."
-msgstr ""
+msgstr "გადახდის პერიოდი. გამოითვლის ინვესტიციის გადახდის პერიოდებს რაოდენობას, რეგულარულ გადახდებზე და მუდმივ საპროცენტო განაკვეთზე დაფუძნებით."
 
 #. GgGha
 #: sc/inc/scfuncs.hrc:436
@@ -5021,7 +5059,7 @@ msgstr "ტიპი = ნიშნავს, რომ გადახდა �
 #: sc/inc/scfuncs.hrc:451
 msgctxt "SC_OPCODE_PMT"
 msgid "Regular payments. Returns the periodic payment of an annuity, based on regular payments and a fixed periodic interest rate."
-msgstr ""
+msgstr "რეგულარული გადახდები. აბრუნებს კრედიტის პერიოდულ გადახდას, დაფუძნებულს რეგულარულ გადახდაზე და ფიქსირებულ საპროცენტო განაკვეთზე."
 
 #. FBNre
 #: sc/inc/scfuncs.hrc:452
@@ -5165,7 +5203,7 @@ msgstr "მიხვედრა. პროგნოზი და საპრ�
 #: sc/inc/scfuncs.hrc:485
 msgctxt "SC_OPCODE_IPMT"
 msgid "Compounded interest. Calculates the interest payment on the principal for an investment with regular payments and a constant interest rate for a given period."
-msgstr ""
+msgstr "გამოითვლის ინვესტიციის მოგების სიდიდეს მითითებული პერიოდისთვის, დაფუძნებულს მუდმივ გადახდებზე და მუდმივ საპროცენტო განაკვეთზე."
 
 #. NeBtb
 #: sc/inc/scfuncs.hrc:486
@@ -5189,7 +5227,7 @@ msgstr "პერიოდი"
 #: sc/inc/scfuncs.hrc:489
 msgctxt "SC_OPCODE_IPMT"
 msgid "Periods. The periods for which the compounded interest is to be calculated. P = 1 denotes for the first period, P = NPER for the last one."
-msgstr ""
+msgstr "პერიოდები. პერიოდი, რომლისთვისაც მოგება უნდა გამოითვალოს. P = 1 ნიშნავს პირველ პერიოდს, P = NPER კი - ბოლოს."
 
 #. 2JYMa
 #: sc/inc/scfuncs.hrc:490
@@ -5243,7 +5281,7 @@ msgstr "ტიპი = ნიშნავს, რომ გადახდა �
 #: sc/inc/scfuncs.hrc:503
 msgctxt "SC_OPCODE_PPMT"
 msgid "Repayment. Calculates the repayment amount for a period for an investment whereby the payments are at regular intervals and the interest rate constant."
-msgstr ""
+msgstr "გამოთვლის დაბრუნების თანხას ინვესტიციის პერიოდისთვის, სადაც გადახდები რეგულარულია და საპროცენტო განაკვეთი მუდმივი."
 
 #. pNF3b
 #: sc/inc/scfuncs.hrc:504
@@ -5267,7 +5305,7 @@ msgstr "პერიოდი"
 #: sc/inc/scfuncs.hrc:507
 msgctxt "SC_OPCODE_PPMT"
 msgid "Period. The period for which the repayments are to be calculated. Per = 1 denotes for the first period, P = NPER for the last"
-msgstr ""
+msgstr "პერიოდი, რომლისთვისაც თავიდან გახდების გამოთვლა მოხდება. 1 მიუთითებს პირველ პერიოდზე, P = NPER - ბოლოზე."
 
 #. dasVa
 #: sc/inc/scfuncs.hrc:508
@@ -5321,7 +5359,7 @@ msgstr "ტიპი = ნიშნავს, რომ გადახდა �
 #: sc/inc/scfuncs.hrc:521
 msgctxt "SC_OPCODE_CUM_PRINC"
 msgid "Cumulative capital. Calculates the total amount of the repayment share in a period for an investment with constant interest rate."
-msgstr ""
+msgstr "გამოთვლის ჯამურ პროცენტებს ინვესტიციის პერიოდში, მუდმივი საპროცენტო განაკვეთით."
 
 #. yY5uB
 #: sc/inc/scfuncs.hrc:522
@@ -5369,7 +5407,7 @@ msgstr "S"
 #: sc/inc/scfuncs.hrc:529
 msgctxt "SC_OPCODE_CUM_PRINC"
 msgid "The start period. The first period to be taken into account. S = 1 denotes the very first period."
-msgstr ""
+msgstr "დაწყების პერიოდი. გათვალისწინებული იქნება პირველი პერიოდი. S = 1 ყველაზე პირველ პერიოდს აღნიშნავს."
 
 #. cyCEm
 #: sc/inc/scfuncs.hrc:530
@@ -5399,7 +5437,7 @@ msgstr "ტიპი = ნიშნავს, რომ გადახდა �
 #: sc/inc/scfuncs.hrc:539
 msgctxt "SC_OPCODE_CUM_IPMT"
 msgid "Cumulative compounded interest. Calculates the total amount of the interest share in a period for an investment with a constant interest rate."
-msgstr ""
+msgstr "გამოთვლის პროცენტების ჯამურ ოდენობას."
 
 #. nNUsr
 #: sc/inc/scfuncs.hrc:540
@@ -5447,7 +5485,7 @@ msgstr "S"
 #: sc/inc/scfuncs.hrc:547
 msgctxt "SC_OPCODE_CUM_IPMT"
 msgid "The start period. The first period to be taken into account. S = 1 denotes the very first period."
-msgstr ""
+msgstr "დაწყების პერიოდი. გათვალისწინებული იქნება პირველი პერიოდი. S = 1 ყველაზე პირველ პერიოდს აღნიშნავს."
 
 #. kbzPo
 #: sc/inc/scfuncs.hrc:548
@@ -5573,7 +5611,7 @@ msgstr "გამოყენებული დრო. პერიოდებ
 #: sc/inc/scfuncs.hrc:583
 msgctxt "SC_OPCODE_DDB"
 msgid "Calculates the depreciation of an asset for a specific period using the double-declining balance method or declining balance factor."
-msgstr ""
+msgstr "გამოთვლის აქტივის ამორტიზაციას მითითებული პერიოდისთვის ორმაგად-შემცირებადი ბალანსის მეთოდით ან შემცირებადი ბალანსის ფაქტორით."
 
 #. ECRmm
 #: sc/inc/scfuncs.hrc:584
@@ -5687,7 +5725,7 @@ msgstr "პერიოდი"
 #: sc/inc/scfuncs.hrc:607
 msgctxt "SC_OPCODE_DB"
 msgid "Periods: The period for which the depreciation is calculated. The time unit used for period must be the same as that for the useful life."
-msgstr ""
+msgstr "პერიოდები: პერიოდი, რომლისთვისაც ამორტიზაციის გამოთვლა მოხდება. პერიოდისთვის გამოყენებული დროის ერთეული იგივე უნდა იყოს, რაც ეს სასარგებლო დროს აქვს."
 
 #. vz9CU
 #: sc/inc/scfuncs.hrc:608
@@ -5855,7 +5893,7 @@ msgstr "პერიოდები. პროცენტული შემო
 #: sc/inc/scfuncs.hrc:655
 msgctxt "SC_OPCODE_NPV"
 msgid "Net present value. Calculates the net present value of an investment based on a series of periodic payments and a discount rate."
-msgstr ""
+msgstr "გამოთვლის ინვესტიციის სუფთა ფასს პერიოდული გადახდებსა და ფასდაკლებებზე დაფუძნებით."
 
 #. bGMWF
 #: sc/inc/scfuncs.hrc:656
@@ -6317,7 +6355,7 @@ msgstr "ხელმიუწვდომელია. აბრუნებს 
 #: sc/inc/scfuncs.hrc:827
 msgctxt "SC_OPCODE_TYPE"
 msgid "Returns the data type of a value (1 = number, 2 = text, 4 = Boolean value, 8 = formula, 16 = error value, 64 = array)."
-msgstr ""
+msgstr "აბრუნებს მონაცემების ტიპს მნიშვნელობისთვის (1 = რიცხვი, 2 = ტექსტი, 4 = ლოგიკური მნიშვნელობა, 8 = ფორმულა, 16 = შეცდომის მნიშვნელობა, 64 = მასივი)."
 
 #. NSwsV
 #: sc/inc/scfuncs.hrc:828
@@ -6533,7 +6571,7 @@ msgstr "ლოგიკური მნიშვნელობა "
 #: sc/inc/scfuncs.hrc:913
 msgctxt "SC_OPCODE_XOR"
 msgid "Logical value 1, logical value 2, ... are conditions to be tested and which return either TRUE or FALSE."
-msgstr ""
+msgstr "ლოგიკური მნიშვნელობა 1, ლოგიკური მნიშვნელობა 2,... შესამოწმებელი პირობებია, რომლებიც ან ჭეშმარიტს აბრუნებენ, ან ცრუს."
 
 #. DrctE
 #: sc/inc/scfuncs.hrc:919
@@ -7151,7 +7189,7 @@ msgstr "რიცხვი"
 #: sc/inc/scfuncs.hrc:1150
 msgctxt "SC_OPCODE_ARC_COT_HYP"
 msgid "A value smaller than -1 or greater than 1 for which the inverse hyperbolic cotangent is to be returned."
-msgstr ""
+msgstr "მნიშვნელობა, რომელიც -1-ზე ნაკლებია ან 1-ზე მეტი, რომლისთვისაც ინვერსიული ჰიპერბოლური კოტანგენსი გამოითვლენა."
 
 #. rHP2u
 #: sc/inc/scfuncs.hrc:1156
@@ -7685,7 +7723,7 @@ msgstr "მიმართვა 2..n ან k "
 #: sc/inc/scfuncs.hrc:1364
 msgctxt "SC_OPCODE_AGGREGATE"
 msgid "The cells of the range which are to be taken into account or mandatory 2nd argument for certain functions."
-msgstr ""
+msgstr "შუალედის უჯრედები, რომელიც გათვალისწინებულია ან აუცილებელი მეორე არგუმენტია ზოგიერთ ფუნქციისთვის."
 
 #. qUPdR
 #: sc/inc/scfuncs.hrc:1370
@@ -7868,6 +7906,8 @@ msgid ""
 "Rounds a number away from zero to the nearest multiple of significance.\n"
 "This function exists for interoperability with Microsoft Excel 2007 or older versions."
 msgstr ""
+"დაამრგვალებს რიცხვს ნულიდან მიმართულებით, უახლოეს მთელ რიცხვამდე.\n"
+"ეს ფუნქცია Microsoft Excel 2007 და უფრო ძველ ვერსიებთან თავსებადობისთვის არსებობს."
 
 #. mUd2c
 #: sc/inc/scfuncs.hrc:1435
@@ -7981,7 +8021,7 @@ msgstr "სიზუსტე"
 #: sc/inc/scfuncs.hrc:1468
 msgctxt "SC_OPCODE_CEIL"
 msgid "If given the number to whose multiple the value is rounded, else -1 or 1 depending on sign of Number."
-msgstr ""
+msgstr "თუ მითითებულია, მთელი რიცხვი, სადამდეც მნიშვნელობა დამრგვალდება. წინააღმდეგ შემთხვევაში -1 ან 1, რიცხვის ნიშანზე დამოკიდებულებით."
 
 #. tBvNu
 #: sc/inc/scfuncs.hrc:1469
@@ -7993,7 +8033,7 @@ msgstr "რეჟიმი"
 #: sc/inc/scfuncs.hrc:1470
 msgctxt "SC_OPCODE_CEIL"
 msgid "If given and not equal to zero then rounded up according to amount when a negative number and significance."
-msgstr ""
+msgstr "თუ მიწოდებულია და ნულს არ უდრის, მაშინ უარყოფითობის და უარყოფითი ნიშნის ქონის შემთხვევაში რიცხვი აბსოლუტურ მნიშვნელობამდე დამრგვალდება."
 
 #. 6M8Fz
 #: sc/inc/scfuncs.hrc:1476
@@ -8035,7 +8075,7 @@ msgstr "რეჟიმი"
 #: sc/inc/scfuncs.hrc:1482
 msgctxt "SC_OPCODE_CEIL_MATH"
 msgid "For negative numbers; if given and not equal to zero then rounds away from zero, else rounds towards zero."
-msgstr ""
+msgstr "უარყოფითი რიცხვებისთვის. თუ მიწოდებულია და ნულს არ უდრის, მაშინ მრგვალდება ნულიდან, არადა მრგვალდება ნულისკენ."
 
 #. zGxYF
 #: sc/inc/scfuncs.hrc:1488
@@ -8086,6 +8126,8 @@ msgid ""
 "Rounds number towards zero to the nearest multiple of absolute value of significance.\n"
 "This function exists for interoperability with Microsoft Excel 2007 or older versions."
 msgstr ""
+"დაამრგვალებს რიცხვს ნულის მიმართულებით აბსოლუტური მნიშვნელობის ნამრავლამდე.\n"
+"ფუნქცია Microsoft Office 2007 და უფრო ძველ ვერსიებთან სამუშაოდაა."
 
 #. F27ze
 #: sc/inc/scfuncs.hrc:1501
@@ -8553,7 +8595,7 @@ msgstr "ფუნქციის ტიპი"
 #: sc/inc/scfuncs.hrc:1658
 msgctxt "SC_OPCODE_LOGEST"
 msgid "If type = 0 then the functions will be calculated in the form of y=m^x, or also functions y=b*m^x."
-msgstr ""
+msgstr "თუ ტიპი = 0, მაშინ ფუნქციები გამოითვლება ფორმით y=m&^x, ან ასევე ფუნქციით y=b*m^x."
 
 #. RxXC4
 #: sc/inc/scfuncs.hrc:1659
@@ -8673,7 +8715,7 @@ msgstr "ფუნქციის ტიპი"
 #: sc/inc/scfuncs.hrc:1688
 msgctxt "SC_OPCODE_GROWTH"
 msgid "If type = 0 then the functions will be calculated in the form of y=m^x, or also functions y=b*m^x."
-msgstr ""
+msgstr "თუ ტიპი = 0, მაშინ ფუნქციები გამოითვლება ფორმით y=m&^x, ან ასევე ფუნქციით y=b*m^x."
 
 #. kgGDC
 #: sc/inc/scfuncs.hrc:1694
@@ -9351,7 +9393,7 @@ msgstr "ტიპი"
 #: sc/inc/scfuncs.hrc:1976
 msgctxt "SC_OPCODE_QUARTILE"
 msgid "The type of the quartile (0 = MIN, 1 = 25%, 2 = 50%, 3 = 75%, 4 = MAX)."
-msgstr ""
+msgstr "კვარტილების ტიპი (0 = მინ, 1 = 25%, 2 = 50%, 3 = 75%, 4 = მაქს)."
 
 #. URenM
 #: sc/inc/scfuncs.hrc:1982
@@ -9411,7 +9453,7 @@ msgstr "ტიპი"
 #: sc/inc/scfuncs.hrc:1996
 msgctxt "SC_OPCODE_QUARTILE_INC"
 msgid "The type of the quartile (0 = MIN, 1 = 25%, 2 = 50%, 3 = 75%, 4 = MAX)."
-msgstr ""
+msgstr "კვარტილების ტიპი (0 = მინ, 1 = 25%, 2 = 50%, 3 = 75%, 4 = მაქს)."
 
 #. DraGu
 #: sc/inc/scfuncs.hrc:2002
@@ -9645,7 +9687,7 @@ msgstr "მიმდევრობა: 0 ან არმითითება 
 #: sc/inc/scfuncs.hrc:2070
 msgctxt "SC_OPCODE_RANK_EQ"
 msgid "Returns the ranking of a value in a sample; if more than one value has the same rank, the top rank of that set of values is returned."
-msgstr ""
+msgstr "აბრუნებს სინჯში არსებული მნიშვნელობის რანგს. თუ იგივე რანგი ერთზე მეტ მნიშვნელობას აქვს, დააბრუნებს ასეთი მნიშვნელობების უმაღლეს რანგს."
 
 #. GuZrj
 #: sc/inc/scfuncs.hrc:2071
@@ -9687,7 +9729,7 @@ msgstr "მიმდევრობა: 0 ან არმითითება 
 #: sc/inc/scfuncs.hrc:2082
 msgctxt "SC_OPCODE_RANK_AVG"
 msgid "Returns the ranking of a value in a sample; if more than one value has the same rank, the average rank is returned."
-msgstr ""
+msgstr "აბრუნებს მნიშვნელობის რანგს სინჯში. თუ იგივე რანგი ერთზე მეტ მნიშვნელობას გააჩნია, დაბრუნდება მათი საშუალო."
 
 #. wYAYF
 #: sc/inc/scfuncs.hrc:2083
@@ -10143,7 +10185,7 @@ msgstr "0 ან ცრუ გამოითვლის ალბათობ�
 #: sc/inc/scfuncs.hrc:2218
 msgctxt "SC_OPCODE_CRIT_BINOM"
 msgid "Returns the smallest value for which the cumulative binomial distribution is greater than or equal to a criterion value."
-msgstr ""
+msgstr "აბრუნებს უმცირეს მნიშვნელობას, რომლისთვისაც ბინომური განაწილება პირობის მნიშვნელობაზე მეტი ან ტოლია."
 
 #. RNvff
 #: sc/inc/scfuncs.hrc:2219
@@ -10185,7 +10227,7 @@ msgstr "საზღვრის ალბათობა, რომელიც
 #: sc/inc/scfuncs.hrc:2230
 msgctxt "SC_OPCODE_BINOM_INV"
 msgid "Returns the smallest value for which the cumulative binomial distribution is greater than or equal to a criterion value."
-msgstr ""
+msgstr "აბრუნებს უმცირეს მნიშვნელობას, რომლისთვისაც ბინომური განაწილება პირობის მნიშვნელობაზე მეტი ან ტოლია."
 
 #. 5HwPz
 #: sc/inc/scfuncs.hrc:2231
@@ -10263,7 +10305,7 @@ msgstr "ინტეგრალური"
 #: sc/inc/scfuncs.hrc:2248
 msgctxt "SC_OPCODE_POISSON_DIST"
 msgid "0 or FALSE calculates the probability density function. Any other value or TRUE or omitted calculates the cumulative distribution function."
-msgstr ""
+msgstr "0 ან ცრუ გამოთვლის ალბათობის სიმკვრივის ფუნქციას. ნებისმიერი სხვა მნიშვნელობა, ჭეშმარიტი ან არმითითება გამოთვლის განაწილებს ფუნქციას."
 
 #. XEzR8
 #: sc/inc/scfuncs.hrc:2254
@@ -10305,7 +10347,7 @@ msgstr "ინტეგრალური"
 #: sc/inc/scfuncs.hrc:2260
 msgctxt "SC_OPCODE_POISSON_DIST_MS"
 msgid "0 or FALSE calculates the probability density function. Any other value or TRUE or omitted calculates the cumulative distribution function."
-msgstr ""
+msgstr "0 ან ცრუ გამოთვლის ალბათობის სიმკვრივის ფუნქციას. ნებისმიერი სხვა მნიშვნელობა, ჭეშმარიტი ან არმითითება გამოთვლის განაწილებს ფუნქციას."
 
 #. m4pDe
 #: sc/inc/scfuncs.hrc:2266
@@ -10359,7 +10401,7 @@ msgstr "C"
 #: sc/inc/scfuncs.hrc:2274
 msgctxt "SC_OPCODE_NORM_DIST"
 msgid "0 or FALSE calculates the probability density function. Any other value or TRUE or omitted calculates the cumulative distribution function."
-msgstr ""
+msgstr "0 ან ცრუ გამოთვლის ალბათობის სიმკვრივის ფუნქციას. ნებისმიერი სხვა მნიშვნელობა, ჭეშმარიტი ან არმითითება გამოთვლის განაწილებს ფუნქციას."
 
 #. rGWSr
 #: sc/inc/scfuncs.hrc:2280
@@ -10449,7 +10491,7 @@ msgstr "საშუალო მნიშვნელობა ნორმა�
 #: sc/inc/scfuncs.hrc:2299
 msgctxt "SC_OPCODE_NORM_INV"
 msgid "STDEV"
-msgstr ""
+msgstr "STDEV"
 
 #. QKHxf
 #: sc/inc/scfuncs.hrc:2300
@@ -10635,7 +10677,7 @@ msgstr "ინტეგრალური"
 #: sc/inc/scfuncs.hrc:2360
 msgctxt "SC_OPCODE_LOG_NORM_DIST"
 msgid "0 or FALSE calculates the probability density function. Any other value or TRUE or omitted calculates the cumulative distribution function."
-msgstr ""
+msgstr "0 ან ცრუ გამოთვლის ალბათობის სიმკვრივის ფუნქციას. ნებისმიერი სხვა მნიშვნელობა, ჭეშმარიტი ან არმითითება გამოთვლის განაწილებს ფუნქციას."
 
 #. ZgdzP
 #: sc/inc/scfuncs.hrc:2366
@@ -10911,7 +10953,7 @@ msgstr "ინტეგრალური"
 #: sc/inc/scfuncs.hrc:2436
 msgctxt "SC_OPCODE_GAMMA_DIST"
 msgid "0 or FALSE calculates the probability density function. Any other value or TRUE or omitted calculates the cumulative distribution function."
-msgstr ""
+msgstr "0 ან ცრუ გამოთვლის ალბათობის სიმკვრივის ფუნქციას. ნებისმიერი სხვა მნიშვნელობა, ჭეშმარიტი ან არმითითება გამოთვლის განაწილებს ფუნქციას."
 
 #. 5PpFd
 #: sc/inc/scfuncs.hrc:2442
@@ -12195,7 +12237,7 @@ msgstr "ხი-კვადრატის განაწილების თ
 #: sc/inc/scfuncs.hrc:2803
 msgctxt "SC_OPCODE_CHISQ_DIST"
 msgid "Returns left-tail probability of the cumulative distribution function or values of the probability density function of the chi-square distribution."
-msgstr ""
+msgstr "აბრუნებს განაწილების ფუნქციის მარცხენა ალბათობას ან ხი-კვადრატის განაწილების ალბათობის სიმკვრივის ფუნქციის მნიშვნელობებს."
 
 #. 9GsxA
 #: sc/inc/scfuncs.hrc:2804
@@ -12231,13 +12273,13 @@ msgstr "ინტეგრალური"
 #: sc/inc/scfuncs.hrc:2809
 msgctxt "SC_OPCODE_CHISQ_DIST"
 msgid "0 or FALSE calculates the probability density function. Any other value or TRUE or omitted calculates the cumulative distribution function."
-msgstr ""
+msgstr "0 ან ცრუ გამოთვლის ალბათობის სიმკვრივის ფუნქციას. ნებისმიერი სხვა მნიშვნელობა, ჭეშმარიტი ან არმითითება გამოთვლის განაწილებს ფუნქციას."
 
 #. reAtC
 #: sc/inc/scfuncs.hrc:2816
 msgctxt "SC_OPCODE_CHISQ_DIST_MS"
 msgid "Returns left-tail probability of the cumulative distribution function or values of the probability density function of the chi-square distribution."
-msgstr ""
+msgstr "აბრუნებს განაწილების ფუნქციის მარცხენა ალბათობას ან ხი-კვადრატის განაწილების ალბათობის სიმკვრივის ფუნქციის მნიშვნელობებს."
 
 #. DrvkR
 #: sc/inc/scfuncs.hrc:2817
@@ -13869,7 +13911,7 @@ msgstr "უჯრედის სვეტის ნომერი."
 #: sc/inc/scfuncs.hrc:3278
 msgctxt "SC_OPCODE_ADDRESS"
 msgid "ABS"
-msgstr "ABS"
+msgstr "მოდული"
 
 #. EqYrn
 #: sc/inc/scfuncs.hrc:3279
@@ -14043,7 +14085,7 @@ msgstr "მასივი (მიმართვა) რომლისთვ�
 #: sc/inc/scfuncs.hrc:3347
 msgctxt "SC_OPCODE_SHEETS"
 msgid "Returns the number of sheets of a given reference. If no parameter has been entered, the total number of sheets in the document is returned."
-msgstr ""
+msgstr "აბრუნებს მიწოდებული მიმართვის ფურცლების რაოდენობას. თუ პარამეტრები შეყვანილი არაა, დაბრუნდება დოკუმენტში არსებული ფურცლების ჯამური რიცხვი"
 
 #. pfFdg
 #: sc/inc/scfuncs.hrc:3348
@@ -14109,7 +14151,7 @@ msgstr "ძებნის დალაგებული შუალედე�
 #: sc/inc/scfuncs.hrc:3363
 msgctxt "SC_OPCODE_H_LOOKUP"
 msgid "If the value is TRUE or not given, the search row of the array represents a series of ranges, and must be sorted in ascending order."
-msgstr ""
+msgstr "თუ მნიშვნელობა ჭეშმარიტია ან მიწოდებული არაა, მასივის ძებნის მწკრივი წარმოადგენს შუალედების რიგს და უნდა იყოს აღმავლად დალაგებული."
 
 #. Qid6E
 #: sc/inc/scfuncs.hrc:3369
@@ -14163,7 +14205,7 @@ msgstr "ძებნის დალაგებული შუალედე�
 #: sc/inc/scfuncs.hrc:3377
 msgctxt "SC_OPCODE_V_LOOKUP"
 msgid "If the value is TRUE or not given, the search column of the array represents a series of ranges, and must be sorted in ascending order."
-msgstr ""
+msgstr "თუ მნიშვნელობა ჭეშმარიტია ან მიწოდებული არაა, მასივის ძებნის სვეტის წარმოადგენს შუალედების რიგს და უნდა იყოს აღმავლად დალაგებული."
 
 #. KZapz
 #: sc/inc/scfuncs.hrc:3383
@@ -14331,7 +14373,7 @@ msgstr "ტიპი"
 #: sc/inc/scfuncs.hrc:3425
 msgctxt "SC_OPCODE_MATCH"
 msgid "Type can take the value 1 (first column array ascending), 0 (exact match or wildcard or regular expression match) or -1 (first column array descending) and determines the criteria to be used for comparison purposes."
-msgstr ""
+msgstr "ტიპი შეიძლება იყოს 1 (პირველი სვეტი მასივი აღმავლობით), 0 (ზუსტი დამთხვევა, ვაილდკარდი ან რეგულარული გამოსახულების დამთხვევა), ან -1 (პირველი სვეტი მასივი დაღმავლობით) და განსაზღვრავს შემოწმების პირობას."
 
 #. XJ4FS
 #: sc/inc/scfuncs.hrc:3431
@@ -14433,7 +14475,7 @@ msgstr "გამოსახულება"
 #: sc/inc/scfuncs.hrc:3457
 msgctxt "SC_OPCODE_ERROR_TYPE_ODF"
 msgid "The error value whose identifying number you want to find. Can be the actual error value or a reference to a cell that you want to test."
-msgstr ""
+msgstr "შეცდომის მნიშვნელობა, რომლის იდენტიფიკატორების პოვნაც გნებავთ. შეიძლება იყოს ნამდვილი შეცდომის მნიშვნელობა ან მიმართვა უჯრედზე, რომლის შემოწმებაც გნებავთ."
 
 #. AAEbG
 #: sc/inc/scfuncs.hrc:3463
@@ -14691,7 +14733,7 @@ msgstr "მნიშვნელობა"
 #: sc/inc/scfuncs.hrc:3545
 msgctxt "SC_OPCODE_CURRENCY"
 msgid "Value is a number, a reference to a cell containing a number or a formula that results in a number."
-msgstr ""
+msgstr "მნიშვნელობა რიცხვია, მიმართვა უჯრედზე, რომელიც რიცხვს შეიცავს, ან ფორმულა, რომლის შედეგსაც რიცხვი წარმოადგენს."
 
 #. oCD4X
 #: sc/inc/scfuncs.hrc:3546
@@ -14853,7 +14895,7 @@ msgstr "ფუნქციის შედეგი, თუ შემოწმ�
 #: sc/inc/scfuncs.hrc:3607
 msgctxt "SC_OPCODE_SWITCH_MS"
 msgid "Compares expression against list of value/result pairs, and returns result for first value that matches the expression.  If expression does not match any value, a default result is returned, if it is placed as final item in parameter list without a value."
-msgstr ""
+msgstr "შეადარებს გამოსახულებას მნიშვნელობა/შედეგის წყვილებს და დააბრუნებს შედეგს პირველი მნიშვნელობისთვის, რომელიც გამოსახულებას ემთხვევა.    თუ გამოსახულება მნიშვნელობებს არ ემთხვევა, დაბრუნდება ნაგულისხმევი შედეგი, თუ ის პარამეტრების სიაში ბოლოა, მნიშვნელობის გარეშე."
 
 #. PneN8
 #: sc/inc/scfuncs.hrc:3608
@@ -15717,7 +15759,7 @@ msgstr "რეჟიმი"
 #: sc/inc/scfuncs.hrc:3875
 msgctxt "SC_OPCODE_ROMAN"
 msgid "The more this value increases, the more the Roman numeral is simplified. The value must be in the 0 - 4 range."
-msgstr ""
+msgstr "რაც უფრო გაიზრდება ეს მნიშვნელობა, მით უფრო მარტივდება რომაული რიცხვები. მნიშვნელობა უნდა იყოს შუალედიდან 0 - 4."
 
 #. R6BAC
 #: sc/inc/scfuncs.hrc:3881
@@ -15843,7 +15885,7 @@ msgstr "სრული სიზუსტე"
 #: sc/inc/scfuncs.hrc:3917
 msgctxt "SC_OPCODE_EUROCONVERT"
 msgid "If omitted or 0 or FALSE, the result is rounded to the decimals of To_currency. Else the result is not rounded."
-msgstr ""
+msgstr "თუ ამოღებულია, 0-ის ტოლი, ან ცრუ, შედეგი დამრგვალდება გადასაყვან ვალუტამდე. წინააღმდეგ შემთხვევაში შედეგი არ დამრგვალდება."
 
 #. g9PkE
 #: sc/inc/scfuncs.hrc:3918
@@ -15856,7 +15898,7 @@ msgstr "ტრიანგულაციის სიზუსტე"
 #: sc/inc/scfuncs.hrc:3920
 msgctxt "SC_OPCODE_EUROCONVERT"
 msgid "If given and >=3, the intermediate result of a triangular conversion is rounded to that precision. If omitted, the result is not rounded."
-msgstr ""
+msgstr "თუ მითითებულია და >=3, სამკუთხედი გადაყვანის შუალედური პასუხი ამ სიზუსტემდე დამრგვალდება. თუ მითითებული არაა, შედეგი არ დამრგვალდება."
 
 #. upY2X
 #: sc/inc/scfuncs.hrc:3925
@@ -16522,7 +16564,7 @@ msgstr "მასივი"
 #: sc/inc/scfuncs.hrc:4127
 msgctxt "SC_OPCODE_FOURIER"
 msgid "The array whose DFT needs to be computed. The dimensions of this array can be Nx1 or Nx2 or 1xN or 2xN."
-msgstr ""
+msgstr "მასივი, რომლის DFT-ის გამოთვლაც გჭირდებათ. ამ მასივის განზომილებები შეიძლება იყოს Nx1, Nx2, 1xN ან 2xN."
 
 #. M7L6L
 #: sc/inc/scfuncs.hrc:4128
@@ -17238,7 +17280,7 @@ msgstr "%PRODUCTNAME %s"
 #: sc/inc/strings.hrc:125
 msgctxt "SCSTR_DDEDOC_NOT_LOADED"
 msgid "The following DDE source could not be updated possibly because the source document was not open. Please launch the source document and try again."
-msgstr ""
+msgstr "შემდეგი DDE წყაროს განახლება შეუძლებელია, რადგან შეიძლება, წყარო დოკუმენტი ღია არაა. გაუშვით წყარო დოკუმენტი და თავიდან სცადეთ."
 
 #. kGmko
 #: sc/inc/strings.hrc:126
@@ -18706,19 +18748,19 @@ msgstr "საშუალო/საშუალო (%s pt)"
 #: sc/inc/strings.hrc:396
 msgctxt "sortoptionspage|extended_tip|sortuserlb"
 msgid "Select the custom sort order that you want to apply. To define a custom sort order, choose Tools - Options - %PRODUCTNAME Calc - Sort Lists."
-msgstr ""
+msgstr "აირჩიეთ მომხმარებლის დალაგების მიმდევრობა, რომელიც გნებავთ, გადაატაროთ. იმისათვის, რომ აღწეროთ ახალი დალაგების მიმდევრობა, გადადით მენიუში ხელსაწყოები -> მორგება -> %PRODUCTNAME Calc -> სიების დალაგება."
 
 #. T5A7R
 #: sc/inc/strings.hrc:397
 msgctxt "subtotaloptionspage|extended_tip|lbuserdef"
 msgid "Uses a custom sorting order that you defined in the Options dialog box at %PRODUCTNAME Calc - Sort Lists."
-msgstr ""
+msgstr "იყენებს მომხმარებლის დალაგების პირობას, რომელიც აღწერეთ პარამეტრების დიალოგში მენიუდან %PRODUCTNAME Calc -> სიების დალაგება."
 
 #. gbz6Y
 #: sc/inc/strings.hrc:398
 msgctxt "extended_tip|annot"
 msgid "Specifies that a small rectangle in the top right corner of the cell indicates that a comment exists. The comment will be shown only when you enable tips under %PRODUCTNAME - General in the Options dialog box."
-msgstr ""
+msgstr "მიუთითებს, რომ პატარა მართკუთხედი უჯრედის ზედა მარჯვენა კუთხეში მიუთითებს, რომ კომენტარი არსებობს კომენტარი ნაჩვენებია, მხოლოდ მაშინ, თუ ჩართავთ მენიუში %PRODUCTNAME - ზოგადი, მორგების ფანჯარაში."
 
 #. Et4zM
 #: sc/inc/subtotals.hrc:28
@@ -18862,19 +18904,19 @@ msgstr "დახურავს დიალოგს და მოაცილ
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:119
 msgctxt "advancedfilterdialog|extended_tip|rbfilterarea"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. yFS2F
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:134
 msgctxt "advancedfilterdialog|extended_tip|lbfilterarea"
 msgid "Select the named range, or enter the cell range that contains the filter criteria that you want to use."
-msgstr ""
+msgstr "აირჩიეთ სახელიანი შუალედი ან შეიყვანეთ უჯრედების შუალედი, რომელიც ფილტრის პირობას შეიცავს, რომელიც გნებავთ, გამოიყენოთ."
 
 #. AN4qk
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:153
 msgctxt "advancedfilterdialog|extended_tip|edfilterarea"
 msgid "Select the named range, or enter the cell range that contains the filter criteria that you want to use."
-msgstr ""
+msgstr "აირჩიეთ სახელიანი შუალედი ან შეიყვანეთ უჯრედების შუალედი, რომელიც ფილტრის პირობას შეიცავს, რომელიც გნებავთ, გამოიყენოთ."
 
 #. yALPD
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:168
@@ -18952,7 +18994,7 @@ msgstr "_ფილტრის პირობის შენარჩულე
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:323
 msgctxt "advancedfilterdialog|extended_tip|destpers"
 msgid "Select the Copy results to check box, and then specify the destination range where you want to display the filtered data. If this box is checked, the destination range remains linked to the source range. You must have defined the source range under Data - Define range as a database range."
-msgstr ""
+msgstr "აირჩიეთ ველი Copy results to check box და შემდეგ მიუთითეთ დანიშნულების დიაპაზონი, სადაც გსურთ გაფილტრული მონაცემების ჩვენება. თუ ეს ველი მონიშნულია, დანიშნულების დიაპაზონი რჩება მიბმული წყაროს დიაპაზონთან. თქვენ უნდა გქონდეთ განსაზღვრული წყაროს დიაპაზონი მონაცემთა ქვეშ - განსაზღვრეთ დიაპაზონი, როგორც მონაცემთა ბაზის დიაპაზონი."
 
 #. NLz5G
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:355
@@ -18982,7 +19024,7 @@ msgstr "დასვით თოლია, შემდეგ კი აირ�
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:398
 msgctxt "advancedfilterdialog|extended_tip|rbcopyarea"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. RGXM4
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:423
@@ -19210,7 +19252,7 @@ msgstr "აირჩიეთ უკვე აღწერილი ავტო
 #: sc/uiconfig/scalc/ui/autoformattable.ui:206
 msgctxt "autoformattable|extended_tip|add"
 msgid "Allows you to add the current formatting of a range of at least 4 x 4 cells to the list of predefined AutoFormats."
-msgstr ""
+msgstr "საშუალებას გაძლევთ, დაამატოთ მიმდინარე სულ ცოტა 4 x 4 უჯრედისგან შემდგარი შუალედის დაფორმატება წინასწარ აღწერილი ავტოფორმატების სიაში."
 
 #. DYbCK
 #: sc/uiconfig/scalc/ui/autoformattable.ui:225
@@ -19306,7 +19348,7 @@ msgstr "სიგანის და სიმაღლის ავ_ტოჩ�
 #: sc/uiconfig/scalc/ui/autoformattable.ui:398
 msgctxt "autoformattable|extended_tip|autofitcb"
 msgid "When marked, specifies that you want to retain the width and height of the selected cells of the selected format."
-msgstr ""
+msgstr "როცა ჩართულია, მიუთითებს, რომ გნებავთ შეინარჩუნოთ მონიშნული ფორმატის მქონე მონიშნული უჯრედების სიგანე და სიმაღლე."
 
 #. pR75z
 #: sc/uiconfig/scalc/ui/autoformattable.ui:413
@@ -19430,6 +19472,9 @@ msgid ""
 "\n"
 "Select 'Protect Sheet' from the 'Tools' menu."
 msgstr ""
+"უჯრედის დაცვა, მხოლოდ, მაშინაა ეფექტური, როცა მიმდინარე ფურცელია დაცული.\n"
+"\n"
+"აირჩიეთ 'ფურცლის დაცვა' 'ხელსაწყოების' მენიუდან."
 
 #. bVREg
 #: sc/uiconfig/scalc/ui/cellprotectionpage.ui:121
@@ -20383,7 +20428,7 @@ msgstr "შუალედი:"
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:331
 msgctxt "conditionalformatdialog|extended_tip|rbassign"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. BH5wk
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:347
@@ -20447,10 +20492,9 @@ msgstr "ყველა დანარჩენის შენარჩუნ�
 
 #. VvYCZ
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:112
-#, fuzzy
 msgctxt "conflictsdialog|label1"
 msgid "There are conflicting changes in this shared spreadsheet. Conflicts must be resolved before saving the spreadsheet. Keep either own or other changes."
-msgstr "გაზიარებულ ცხრილში კონფლიქტური ცვლილებებია. ცხრილის დამახსოვრებამდე კონფლიქტები უნდა გადაწყდეს. დატოვეთ ან საკუთარი, ან სხვისი ცვლილებები."
+msgstr "გაზიარებულ ელცხრილში აღმოჩენილია ურთიერთგამომრიცხავი ცვლილებები. კონფლიქტები უნდა ამოიხსნას ელცხრილის შენახვამდე. შეინარჩუნეთ საკუთარი ან სხვის ცვლილებები."
 
 #. 2NJDD
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:147
@@ -20600,19 +20644,19 @@ msgstr "აჩვენებს უჯრედის შუალედებ�
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:238
 msgctxt "consolidatedialog|extended_tip|lbdataarea"
 msgid "Specifies the cell range that you want to consolidate with the cell ranges listed in the Consolidation ranges box. Select a cell range in a sheet, and then click Add. You can also select the name of a predefined cell from the Source data range list."
-msgstr ""
+msgstr "მიუთითებს უჯრედების შუალედს, რომელიც გნებავთ, გააერთიანოთ უჯრედების შუალედებთან, რომელიც შუალედების გაერთიანების ველშია მითითებული და დააწკაპუნეთ ღილაკზე 'დამატება'. ასევე შეგიძლიათ აირჩიოთ აღწერილი უჯრედები წყარო მონაცემების შუალედის სიიდან."
 
 #. 6x7He
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:257
 msgctxt "consolidatedialog|extended_tip|eddataarea"
 msgid "Specifies the cell range that you want to consolidate with the cell ranges listed in the Consolidation ranges box. Select a cell range in a sheet, and then click Add. You can also select the name of a predefined cell from the Source data range list."
-msgstr ""
+msgstr "მიუთითებს უჯრედების შუალედს, რომელიც გნებავთ, გააერთიანოთ უჯრედების შუალედებთან, რომელიც შუალედების გაერთიანების ველშია მითითებული და დააწკაპუნეთ ღილაკზე 'დამატება'. ასევე შეგიძლიათ აირჩიოთ აღწერილი უჯრედები წყარო მონაცემების შუალედის სიიდან."
 
 #. N6jCs
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:276
 msgctxt "consolidatedialog|extended_tip|rbdataarea"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. ziYLq
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:306
@@ -20630,7 +20674,7 @@ msgstr "აჩვენებს პირველ უჯრედს შუა
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:344
 msgctxt "consolidatedialog|extended_tip|rbdestarea"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. zrSv3
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:376
@@ -20696,7 +20740,7 @@ msgstr "_ბმული წყარო მონაცემებზე"
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:563
 msgctxt "consolidatedialog|extended_tip|refs"
 msgid "Links the data in the consolidation range to the source data, and automatically updates the results of the consolidation when the source data is changed."
-msgstr ""
+msgstr "მიბამს გაერთიანების შუალედში არსებულ მონაცემებს წყარო მონაცემებს და ავტომატურად განაახლებს გაერთიანების შედეგებს, როცა წყარო მონაცემები შეიცვლება."
 
 #. tTmj2
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:572
@@ -20720,7 +20764,7 @@ msgstr "აჩვენებს დამატებით პარამე�
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:618
 msgctxt "consolidatedialog|extended_tip|ConsolidateDialog"
 msgid "Combines data from one or more independent cell ranges and calculates a new range using the function that you specify."
-msgstr ""
+msgstr "აერთიანებს მონაცემებს ერთი ან მეტი დამოუკიდებელი უჯრედების შუალედიდან და გამოთვლის ახალ შუალედს ფუნქციით, რომელსაც თქვენ მიუთითებთ."
 
 #. cRP7Z
 #: sc/uiconfig/scalc/ui/correlationdialog.ui:8
@@ -21218,7 +21262,7 @@ msgstr "მონაცემების ველი"
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:145
 msgctxt "datafielddialog|extended_tip|functions"
 msgid "Click the type of subtotal that you want to calculate. This option is only available if the User-defined option is selected."
-msgstr ""
+msgstr "დააწკაპუნეთ შუალედური შედეგის ტიპზე, რომლის გამოთვლაც გნებავთ. ეს პარამეტრი, მხოლოდ, ხელმისაწვდომია, თუ არჩეულია მომხმარებლის პარამეტრები."
 
 #. oY6n8
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:162
@@ -21344,7 +21388,7 @@ msgstr "- შემდეგი ელემენტი -"
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:339
 msgctxt "datafielddialog|extended_tip|baseitem"
 msgid "Select the item of the base field from which the respective value is taken as base for the calculation."
-msgstr ""
+msgstr "აირჩიეთ საბაზისო ველის ელემენტი, საიდანაც შესაბამისი მნიშვნელობა იქნება აღებული, როგორც გამოთვლის ფუძე."
 
 #. XxEhf
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:354
@@ -21374,7 +21418,7 @@ msgstr "_ზრდადობით"
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:133
 msgctxt "datafieldoptionsdialog|extended_tip|ascending"
 msgid "Sorts the values from the lowest value to the highest value. If the selected field is the field for which the dialog was opened, the items are sorted by name. If a data field was selected, the items are sorted by the resultant value of the selected data field."
-msgstr ""
+msgstr "ახარისხებს მნიშვნელობებს ყველაზე დაბალი მნიშვნელობიდან უმაღლეს მნიშვნელობამდე. თუ არჩეული ველი არის ველი, რომლისთვისაც გაიხსნა დიალოგი, ელემენტები დალაგებულია სახელების მიხედვით. თუ არჩეულია მონაცემთა ველი, ელემენტები დალაგებულია არჩეული მონაცემთა ველის შედეგის მიხედვით."
 
 #. yk5PT
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:144
@@ -21386,7 +21430,7 @@ msgstr "_კლებადობით"
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:153
 msgctxt "datafieldoptionsdialog|extended_tip|descending"
 msgid "Sorts the values descending from the highest value to the lowest value. If the selected field is the field for which the dialog was opened, the items are sorted by name. If a data field was selected, the items are sorted by the resultant value of the selected data field."
-msgstr ""
+msgstr "ახარისხებს მნიშვნელობებს კლებადობით უმაღლესი მნიშვნელობიდან ყველაზე დაბალ მნიშვნელობამდე. თუ არჩეული ველი არის ველი, რომლისთვისაც გაიხსნა დიალოგი, ელემენტები დალაგებულია სახელების მიხედვით. თუ არჩეულია მონაცემთა ველი, ელემენტები დალაგებულია არჩეული მონაცემთა ველის შედეგის მიხედვით."
 
 #. WoRxx
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:164
@@ -21554,7 +21598,7 @@ msgstr "ელემენტების დამალვა"
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:582
 msgctxt "datafieldoptionsdialog|extended_tip|hierarchy"
 msgid "Select the hierarchy that you want to use. The pivot table must be based on an external source data that contains data hierarchies."
-msgstr ""
+msgstr "აირჩიეთ იერარქია, რომლის გამოყენებაც გნებავთ. კრებსითი ცხრილი უნდა ეყრდნობოდეს გარე წყარო მონაცემებს, რომლებიც მონაცემების იერარქიებს შეიცავს."
 
 #. qTAzs
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:595
@@ -21950,7 +21994,7 @@ msgstr "დახურავს დიალოგს და მოაცილ
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:171
 msgctxt "definedatabaserangedialog|extended_tip|entry"
 msgid "Enter a name for the database range that you want to define, or select an existing name from the list."
-msgstr ""
+msgstr "შეიყვანეთ სახელი მონაცემთა ბაზის შუალედისთვის, რომლის აღწერაც გნებავთ, ან სიიდან არსებული სახელი აირჩიეთ."
 
 #. 4FqWF
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:186
@@ -21962,13 +22006,13 @@ msgstr "სახელი"
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:223
 msgctxt "definedatabaserangedialog|extended_tip|assign"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. ySCS4
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:240
 msgctxt "definedatabaserangedialog|extended_tip|assignrb"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. FUAH2
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:256
@@ -22022,7 +22066,7 @@ msgstr "_უჯრედების ჩასმა ან წაშლა"
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:393
 msgctxt "definedatabaserangedialog|extended_tip|InsertOrDeleteCells"
 msgid "Automatically inserts new rows and columns into the database range in your document when new records are added to the database."
-msgstr ""
+msgstr "ავტომატურად ჩასვამს ახალ მწკრივებს და სვეტებს თქვენი დოკუმენტის მონაცემთა ბაზის შუალედში, როცა მონაცემთა ბაზაში ახალი ჩანაწერები დაემატება."
 
 #. EveBu
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:405
@@ -22130,7 +22174,7 @@ msgstr "აქ ნაჩვენებია მონიშნული ალ
 #: sc/uiconfig/scalc/ui/definename.ui:201
 msgctxt "definename|extended_tip|scope"
 msgid "Select the scope of the named range or named formula. Document (Global) means the name is valid for the whole document."
-msgstr ""
+msgstr "აირჩიეთ მხედველობის არე დასახელებული შუალედისთვის ან ფორმულისთვის. დოკუმენტი (გლობალური) ნიშნავს, რომ სახელი სწორია მთელი დოკუმენტისთვის."
 
 #. KZfrH
 #: sc/uiconfig/scalc/ui/definename.ui:214
@@ -22202,7 +22246,7 @@ msgstr "საშუალებას გაძლევთ, ალაგის
 #: sc/uiconfig/scalc/ui/definename.ui:360
 msgctxt "definename|extended_tip|DefineNameDialog"
 msgid "Opens a dialog where you can specify a name for a selected area or a name for a formula expression."
-msgstr ""
+msgstr "გახსნის დიალოგს, სადაც შეგიძლიათ მიუთითოთ სახელი მონიშნული ალაგისთვის ან სახელი ფორმულის გამოსახულებისთვის."
 
 #. uA5Nz
 #: sc/uiconfig/scalc/ui/deletecells.ui:8
@@ -22268,7 +22312,7 @@ msgstr "მონიშნული"
 #: sc/uiconfig/scalc/ui/deletecells.ui:205
 msgctxt "deletecells|extended_tip|DeleteCellsDialog"
 msgid "Completely deletes selected cells, columns or rows. The cells below or to the right of the deleted cells will fill the space."
-msgstr "Completely deletes selected cells, columns or rows. The cells below or to the right of the deleted cells will fill the space."
+msgstr "სრულად წაშლის მონიშნულ უჯრედებს, სვეტებს ან მწკრივებს. უჯრედები, რომლებიც წაშლილი უჯრედების ქვედა მხარეს ან მარჯვნივაა, შეავსებენ სივრცეს."
 
 #. DAcxk
 #: sc/uiconfig/scalc/ui/deletecolumnentry.ui:29
@@ -22646,7 +22690,7 @@ msgstr "შეცდომების შეტყობინებები�
 #: sc/uiconfig/scalc/ui/erroralerttabpage.ui:25
 msgctxt "erroralerttabpage|extended_tip|tsbshow"
 msgid "Displays the error message that you enter in the Contents area when invalid data is entered in a cell."
-msgstr ""
+msgstr "აჩვენებს შეცდომის შეტყობინებას, რომელიც შემცველობის ალაგში შეიყვანეთ, როცა უჯრედში შეყვანილი მონაცემები არასწორია."
 
 #. pFAUd
 #: sc/uiconfig/scalc/ui/erroralerttabpage.ui:58
@@ -22682,7 +22726,7 @@ msgstr "_მიმოხილვა..."
 #: sc/uiconfig/scalc/ui/erroralerttabpage.ui:145
 msgctxt "erroralerttabpage|extended_tip|browseBtn"
 msgid "Opens the Macro dialog where you can select the macro that is executed when invalid data is entered in a cell. The macro is executed after the error message is displayed."
-msgstr ""
+msgstr "გახსნის მაკროს დიალოგს, სადაც შეგიძლიათ აირჩიოთ მაკრო, რომელიც შესრულდება, როცა უჯრედში არასწორ მონაცემებს შეიყვანეთ. მაკრო შეცდომის შეტყობინების ჩვენების შემდეგ შესრულდება."
 
 #. BKReu
 #: sc/uiconfig/scalc/ui/erroralerttabpage.ui:160
@@ -22802,7 +22846,7 @@ msgstr "შეიყვანეთ წყარო დოკუმენტი�
 #: sc/uiconfig/scalc/ui/externaldata.ui:136
 msgctxt "externaldata|extended_tip|url"
 msgid "Enter the URL or the file name that contains the data that you want to insert, and then press Enter."
-msgstr ""
+msgstr "შეიყვანეთ URL ან ფაილის სახელი, რომელიც შეიცავს მონაცემებს, რომლებიც გნებავთ, ჩასვათ და დააჭირეთ ღილაკს Enter."
 
 #. 2sbsJ
 #: sc/uiconfig/scalc/ui/externaldata.ui:148
@@ -22862,7 +22906,7 @@ msgstr "_ხელმისაწვდომი ცხრილები/შუ
 #: sc/uiconfig/scalc/ui/externaldata.ui:376
 msgctxt "externaldata|extended_tip|ExternalDataDialog"
 msgid "Inserts data from an HTML, Calc, CSV or Excel file into the current sheet as a link. The data must be located within a named range."
-msgstr ""
+msgstr "ჩასვამს მონაცემებს HTML-დან, Calc-დან, CSV-დან ან Excel-ის ფაილიდან მიმდინარე ფურცელში, ბმულის სახით. მონაცემები სახელიან შუალედში უნდა მდებარეობდეს."
 
 #. tKoGc
 #: sc/uiconfig/scalc/ui/filldlg.ui:8
@@ -22880,7 +22924,7 @@ msgstr "_დაბლა"
 #: sc/uiconfig/scalc/ui/filldlg.ui:109
 msgctxt "filldlg|extended_tip|down"
 msgid "Creates a downward series in the selected cell range for the column using the defined increment to the end value."
-msgstr "შექმნის ქვემოთ მიმართულ სერიებს  უჯრების დიაპაზონში განსაზღვრული ზრდადობით და ბოლო მნიშვნელობის მხედვით."
+msgstr "შექმნის ქვემო მიმართულების რიგებს მონიშნულ უჯრედების შუალედში, სვეტისთვის, აღწერილი ზრდის ბიჯით, საბოლოო მნიშვნელობამდე."
 
 #. KwAZX
 #: sc/uiconfig/scalc/ui/filldlg.ui:121
@@ -22892,7 +22936,7 @@ msgstr "მა_რჯვნივ"
 #: sc/uiconfig/scalc/ui/filldlg.ui:130
 msgctxt "filldlg|extended_tip|right"
 msgid "Creates a series running from left to right within the selected cell range using the defined increment to the end value."
-msgstr "შექმნის სერიებს მარჯვნიდან მარცხნივ  მონიშნულ უჯრების დიაპაზონში განსაზღვრული ზრდადობით და ბოლო მნიშვნელობის მხედვით."
+msgstr "შექმნის რიგებს, რომლებიც მარცხნიდან მარჯვნივაა მიმართული მონიშნულ უჯრედების შუალედში, აღწერილი ზრდის ბიჯის გამოყენებით, საბოლოო მნიშვნელობამდე."
 
 #. pGFFC
 #: sc/uiconfig/scalc/ui/filldlg.ui:142
@@ -22904,7 +22948,7 @@ msgstr "მ_აღლა"
 #: sc/uiconfig/scalc/ui/filldlg.ui:151
 msgctxt "filldlg|extended_tip|up"
 msgid "Creates an upward series in the cell range of the column using the defined increment to the end value."
-msgstr "შექმნის ზემოთ მიმართულ სერიებს  უჯრების დიაპაზონში განსაზღვრული ზრდადობით და ბოლო მნიშვნელობის მხედვით"
+msgstr "შექმნის ზემოთ მიმართულ რიგებს სვეტის უჯრედების შუალედში, აღწერილი ბიჯისა და დასრულების მნიშვნელობის გამოყენებით."
 
 #. eR9rC
 #: sc/uiconfig/scalc/ui/filldlg.ui:163
@@ -22916,7 +22960,7 @@ msgstr "მარ_ცხენა"
 #: sc/uiconfig/scalc/ui/filldlg.ui:172
 msgctxt "filldlg|extended_tip|left"
 msgid "Creates a series running from right to left in the selected cell range using the defined increment to the end value."
-msgstr "შექმნის სერიებს მარცხნიდან მარჯვნივ მონიშნულ უჯრების დიაპაზონში განსაზღვრული ზრდადობით და ბოლო მნიშვნელობის მხედვით"
+msgstr "შექმნის რიგებს, რომლებიც მარჯვნიდან მარცხნივაა მიმართული მონიშნულ უჯრედების შუალედში, აღწერილი ზრდის ბიჯის გამოყენებით, საბოლოო მნიშვნელობამდე."
 
 #. DFeXS
 #: sc/uiconfig/scalc/ui/filldlg.ui:189
@@ -22988,7 +23032,7 @@ msgstr "_დღე"
 #: sc/uiconfig/scalc/ui/filldlg.ui:347
 msgctxt "filldlg|extended_tip|day"
 msgid "Use the Date series type and this option to create a series using all seven days of the week. Unit of Increment is day."
-msgstr ""
+msgstr "მონაცემების რიგების ტიპისა და ამ პარამეტრის გამოყენება რიგების კვირის ყველა 7 დღის გამოსაყენებლად შესაქმნელად. ზრდის ერთეული დღეა."
 
 #. v2J3J
 #: sc/uiconfig/scalc/ui/filldlg.ui:359
@@ -23000,7 +23044,7 @@ msgstr "_კვირის დღე"
 #: sc/uiconfig/scalc/ui/filldlg.ui:368
 msgctxt "filldlg|extended_tip|week"
 msgid "Use the Date series type and this option to create a series only using the five weekdays. Unit of Increment is day."
-msgstr ""
+msgstr "გამოიყენეთ მონაცემების რიგის ტიპი და ეს პარამეტრი, რომ შექმნათ რიგები 5 კვირის დღის გამოყენებით. ზრდის ნაბიჯი 1 დღეა."
 
 #. gjGCn
 #: sc/uiconfig/scalc/ui/filldlg.ui:380
@@ -23414,7 +23458,7 @@ msgstr "შემცველობა რიცხვებში"
 #: sc/uiconfig/scalc/ui/formulacalculationoptions.ui:212
 msgctxt "extended_tip|FormulaCalculationOptions"
 msgid "Sets the rules for conversion from strings values to numeric values, string values to cell references, and strings values to date and time values. This affects built-in functions such as INDIRECT that takes a reference as a string value or date and time functions that takes arguments as string values in local or ISO 8601 formats."
-msgstr ""
+msgstr "აყენებს წესებს ტექსტური მნიშვნელობების რიცხვითში, სტრიქონების უჯრედზე მიმართვაში და სტრიქონების თარიღისა და დროის მნიშვნელობების გადაყვანისთვის. ამას გავლენა აქვს ისეთ ჩაშენებულ ფუნქციებზე, როგორიცაა INDIRECT რომელიც მიმართვას ტექსტურ მნიშვნელობად იღებს ან თარიღისა და დროის ფუნქციები, რომლებიც არგუმენტებს ტექსტურ ცვლადებად, ლოკალურ ან ISO 8601 ფორმატში იღებენ."
 
 #. qUwp9
 #: sc/uiconfig/scalc/ui/fourieranalysisdialog.ui:15
@@ -23492,7 +23536,7 @@ msgstr "მორგება"
 #: sc/uiconfig/scalc/ui/fourieranalysisdialog.ui:405
 msgctxt "fourieranalysisdialog|extended_tip|FourierAnalysisDialog"
 msgid "Produces the Fourier analysis of a data set by computing the Discrete Fourier Transform (DFT) of an input array of complex numbers using a couple of Fast Fourier Transform (FFT) algorithms."
-msgstr ""
+msgstr "შეასრულებს მონაცემთა ნაკრების ფურიეს ანალიზს კომპლექსური რიცხვების შეყვანის მასივის დისკრეტული ფურიეს ტრანსფორმაციის (DFT) გამოთვლით სწრაფი ფურიეს ტრანსფორმაციის (FFT) ალგორითმის გამოყენებით."
 
 #. FEwZR
 #: sc/uiconfig/scalc/ui/functionpanel.ui:54
@@ -23630,7 +23674,7 @@ msgstr "_ცვლადი უჯრედი:"
 #: sc/uiconfig/scalc/ui/goalseekdlg.ui:150
 msgctxt "goalseekdlg|extended_tip|formulaedit"
 msgid "In the formula cell, enter the reference of the cell which contains the formula. It contains the current cell reference."
-msgstr ""
+msgstr "ფორმულის უჯრედში შეიყვანეთ მიმართვა უჯრედზე, რომელიც ფორმულას შეიცავს. ის შეიცავს მიმართვას მიმდინარე უჯრედზე."
 
 #. Fy8Wx
 #: sc/uiconfig/scalc/ui/goalseekdlg.ui:169
@@ -23642,19 +23686,19 @@ msgstr "მიუთითებს მნიშვნელობას, რო
 #: sc/uiconfig/scalc/ui/goalseekdlg.ui:188
 msgctxt "goalseekdlg|extended_tip|varedit"
 msgid "Specifies the reference for the cell that contains the value you want to adjust in order to reach the target."
-msgstr ""
+msgstr "მიუთითებს მიმართვას უჯრედზე, რომელიც შეიცავს მნიშვნელობას, რომელიც გნებავთ მოირგოთ სამიზნის მისაღწევად."
 
 #. hVQYj
 #: sc/uiconfig/scalc/ui/goalseekdlg.ui:204
 msgctxt "goalseekdlg|extended_tip|formulabutton"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. phzQE
 #: sc/uiconfig/scalc/ui/goalseekdlg.ui:220
 msgctxt "goalseekdlg|extended_tip|varbutton"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. mHUzW
 #: sc/uiconfig/scalc/ui/goalseekdlg.ui:238
@@ -23966,7 +24010,7 @@ msgstr "ფურცლის სახელი"
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:366
 msgctxt "headerfootercontent|extended_tip|buttonBTN_TABLE"
 msgid "Inserts a placeholder in the selected header/footer area, which is replaced by the sheet name in the header/footer of the actual document."
-msgstr "მონიშნული კალონტიტულების არეში ჩასვამს ჩანაცვლების ველს რომელიც შეცვლილი იქნება ფურცლის სახელით აქტიური დოკუმენტის კოლონტიტულებიდან."
+msgstr "ჩასვამს ადგილმჭერს მონიშნულ თავსართის/ბოლოსართის ალაგში, რომელიც ჩანაცვლდება დოკუმენტის ფურცლის სახელით."
 
 #. QnDzF
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:381
@@ -23978,7 +24022,7 @@ msgstr "გვერდი"
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:386
 msgctxt "headerfootercontent|extended_tip|buttonBTN_PAGE"
 msgid "Inserts a placeholder in the selected header/footer area, which is replaced by page numbering. This allows continuous page numbering in a document."
-msgstr "მონიშნული კალონტიტულების არეში ჩასვამს ჩანაცვლების ველს რომელიც შეცვლილი იქნება ფურცლის ნუმერაციით. ეს საშუალებას იძლევა დოკუმენტის მიმდევრობით გადანომვრისა."
+msgstr "ჩასვამს ადგილმჭერს მონიშნულ თავსართის/ქვედა კოლონტიტულის ალაგში, რომელიც გვერდის ნომრით ჩანაცვლდება. ეს დოკუმენტის უწვეტ დანომრვას უზრუნველჰყოფს."
 
 #. y5CWn
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:401
@@ -23990,7 +24034,7 @@ msgstr "გვერდები"
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:406
 msgctxt "headerfootercontent|extended_tip|buttonBTN_PAGES"
 msgid "Inserts a placeholder in the selected header/footer area, which is replaced by the total number of pages in the document."
-msgstr "მონიშნული კალონტიტულების არეში ჩასვამს ჩანაცვლების ველს რომელიც შეცვლილი იქნება დოკუმენტის ფურცლიების საერთო რაოდენობის გამომხატველი რიცხვით."
+msgstr "ჩასვამს ადგილმჭერს მონიშნულ თავსართის/ბოლოსართის ალაგში, რომელიც დოკუმენტში არსებული გვერდების ჯამური რაოდენობით ჩანაცვლდება."
 
 #. BhqdB
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:421
@@ -24002,7 +24046,7 @@ msgstr "თარიღი"
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:426
 msgctxt "headerfootercontent|extended_tip|buttonBTN_DATE"
 msgid "Inserts a placeholder in the selected header/footer area, which is replaced by the current date which will be repeated in the header/footer on each page of the document."
-msgstr "მონიშნული კალონტიტულების არეში ჩასვამს ჩანაცვლების ველს რომელიც შეცვლილი იქნება მიმდინარე თარიღით და გამეორებული იქნება ყველა ფურცელზე."
+msgstr "ჩასვამს ადგილმჭერს მონიშნული თავსართის/ქვედა კოლონტიტულის ალაგში, რომელიც ჩანაცვლდება მიმდინარე თარიღით, რომელიც გამეორდება დოკუმენტის თითოეული გვერდის თავსართში/ქვედა კოლონტიტულში."
 
 #. m5EGS
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:441
@@ -24014,7 +24058,7 @@ msgstr "დრო"
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:446
 msgctxt "headerfootercontent|extended_tip|buttonBTN_TIME"
 msgid "Inserts a placeholder in the selected header/footer area, which is replaced by the current time in the header/footer on each page of the document."
-msgstr "მონიშნული კალონტიტულების არეში ჩასვამს ჩანაცვლების ველს რომელიც შეცვლილი იქნება მიმდინარე დროით და გამეორდება ყველა ფურცელზე."
+msgstr "ჩასვამს ადგილმჭერს მონიშნულ თავსართის/ქვედა კოლონტიტულის ალაგში, რომელიც დოკუმენტის თითოეული გვერდის თავსართში/ქვედა კოლონტიტულში მიმდინარე დროით ჩანაცვლდება."
 
 #. 6FVPq
 #: sc/uiconfig/scalc/ui/headerfootercontent.ui:468
@@ -24134,7 +24178,7 @@ msgstr "უჯრედის შემცველობის შენახ�
 #: sc/uiconfig/scalc/ui/imoptdialog.ui:152
 msgctxt "imoptdialog|extended_tip|asshown"
 msgid "Enabled by default, data will be saved as displayed, including applied number formats. If this checkbox is not marked, raw data content will be saved, as in older versions of the software."
-msgstr ""
+msgstr "ჩართული ნაგულისხმევად, მონაცემები შეინახება ისე, როგორც ჩანს, გადატარებული რიცხვის ფორმატების ჩათვლით. თუ ეს თოლია დასმული არაა, შენახული იქნება დაუმუშავებელი მონაცემის შემცველობა, როგორც პროგრამის ძველ ვერსიებში ხდებოდა."
 
 #. Fn8ts
 #: sc/uiconfig/scalc/ui/imoptdialog.ui:164
@@ -24152,7 +24196,7 @@ msgstr "ყველა ტე_ქსტური უჯრედის ცი�
 #: sc/uiconfig/scalc/ui/imoptdialog.ui:187
 msgctxt "imoptdialog|extended_tip|quoteall"
 msgid "Exports all text cells with leading and trailing quote characters as set in the Text delimiter box. If not checked, only those text cells get quoted that contain the Field delimiter character."
-msgstr ""
+msgstr "გაიტანს ყველა ტექსტურ უჯრედს პირველი და ბოლო ბრჭყალებით, როგორც ეს ტექსტის გამყოფის ველშია არჩეული. თუ ჩართული არაა, ბრჭყალებში ჩაისმება, მხოლოდ, ის უჯრედები, რომლებიც ველის გამყოფ სიმბოლოს შეიცავენ."
 
 #. KGh9G
 #: sc/uiconfig/scalc/ui/imoptdialog.ui:199
@@ -24260,7 +24304,7 @@ msgstr "მთელი _სვეტი"
 #: sc/uiconfig/scalc/ui/insertcells.ui:164
 msgctxt "insertcells|extended_tip|cols"
 msgid "Inserts an entire column. The number of columns to be inserted is determined by the selected number of columns."
-msgstr "Inserts an entire column. The number of the columns to be inserted is determined by the selected number of columns."
+msgstr "ჩასვამს მთლიან სვეტს. ჩასასმელი სვეტების რაოდენობა მონიშნული სვეტების რაოდენობიდან დადგინდება."
 
 #. GkQo9
 #: sc/uiconfig/scalc/ui/insertcells.ui:180
@@ -24272,7 +24316,7 @@ msgstr "მონიშნული"
 #: sc/uiconfig/scalc/ui/insertcells.ui:205
 msgctxt "insertcells|extended_tip|InsertCellsDialog"
 msgid "Opens the Insert Cells dialog, in which you can insert new cells according to the options that you specify."
-msgstr "Opens the Insert Cells dialog, in which you can insert new cells according to the options that you specify."
+msgstr "გახსნის უჯრედების ჩასმის დიალოგს, რომელშიც შეგიძლიათ, ჩასვათ ახალი უჯრედები პარამეტრებით, რომლებსაც თქვენ მიუთითებთ."
 
 #. Ex63x
 #: sc/uiconfig/scalc/ui/insertname.ui:20
@@ -24326,7 +24370,7 @@ msgstr "მხედველობის არეალი"
 #: sc/uiconfig/scalc/ui/insertname.ui:174
 msgctxt "insertname|extended_tip|ctrl"
 msgid "Lists all defined cell areas. Double-click an entry to insert the named area into the active sheet at the current cursor position."
-msgstr ""
+msgstr "ჩამოთვლის ყველა აღწერილ უჯრედის ალაგებს. ორმაგი წკაპი ჩანაწერზე, რომ ჩასვათ სახელიანი ალაგი აქტიურ ფურცელზე, მიმდინარე კურსორის მდებარეობაზე."
 
 #. xuLCu
 #: sc/uiconfig/scalc/ui/insertname.ui:199
@@ -24380,7 +24424,7 @@ msgstr "_ახალი ფურცელი"
 #: sc/uiconfig/scalc/ui/insertsheet.ui:208
 msgctxt "insertsheet|extended_tip|new"
 msgid "Creates a new sheet. Enter a sheet name in the Name field. Allowed characters are letters, numbers, spaces, and the underline character."
-msgstr ""
+msgstr "შექმნის ახალ ფურცელს. შეიყვანეთ ფურცლის სახელი სახელის ველში. დაშვებული სიმბოლოებია ასოები, ციფრები, ჰარეები და ხაზგასმის სიმბოლო."
 
 #. whnDy
 #: sc/uiconfig/scalc/ui/insertsheet.ui:231
@@ -24434,7 +24478,7 @@ msgstr "ცხრილი ფაილში"
 #: sc/uiconfig/scalc/ui/insertsheet.ui:393
 msgctxt "insertsheet|extended_tip|tables"
 msgid "If you selected a file by using the Browse button, the sheets contained in it are displayed in the list box. The file path is displayed below this box. Select the sheet to be inserted from the list box."
-msgstr "If you selected a file by using the Browse button, the sheets contained in it are displayed in the list box. The file path is displayed below this box. მონიშნეთ the sheet to be inserted from the list box."
+msgstr "თუ აირჩიეთ ფაილი ძებნის ღილაკით, ფურცლები, რომლებიც მას შეიცავენ, ამ სიაშია ნაჩვენები. ფაილის ბილიკი ამ ველის დაბლაა ნაჩვენები. აირჩიეთ ჩასასმელი ფურცელი სიის ველიდან."
 
 #. mGqDq
 #: sc/uiconfig/scalc/ui/insertsheet.ui:412
@@ -24458,7 +24502,7 @@ msgstr "ბ_მული"
 #: sc/uiconfig/scalc/ui/insertsheet.ui:440
 msgctxt "insertsheet|extended_tip|link"
 msgid "Select to insert the sheet as a link instead as a copy. The links can be updated to show the current contents."
-msgstr "მონიშნეთ to insert the sheet as a link instead as a copy. The links can be updated to show the current contents."
+msgstr "ჩართეთ, რომ ფურცელი ბმულის სახით ჩასვათ, ასლის მაგიერ. ეს ბმულები შეიძლება განახლდეს, რომ მიმდინარე შემცველობა აჩვენოს."
 
 #. SYZFG
 #: sc/uiconfig/scalc/ui/insertsheet.ui:475
@@ -24572,7 +24616,7 @@ msgstr "ხილვადობის არე:"
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:246
 msgctxt "managenamesdialog|extended_tip|scope"
 msgid "Select the scope of the named range or named formula. Document (Global) means the name is valid for the whole document."
-msgstr ""
+msgstr "აირჩიეთ მხედველობის არე დასახელებული შუალედისთვის ან ფორმულისთვის. დოკუმენტი (გლობალური) ნიშნავს, რომ სახელი სწორია მთელი დოკუმენტისთვის."
 
 #. 2dF7g
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:271
@@ -24584,7 +24628,7 @@ msgstr "აქ ნაჩვენებია მონიშნული ალ
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:288
 msgctxt "managenamesdialog|extended_tip|assign"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. ddGRB
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:309
@@ -24674,7 +24718,7 @@ msgstr "წაშლის მონიშნულ ელემენტს ა
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:527
 msgctxt "managenamesdialog|extended_tip|ManageNamesDialog"
 msgid "Opens a dialog where you can specify a name for a selected area or a name for a formula expression."
-msgstr ""
+msgstr "გახსნის დიალოგს, სადაც შეგიძლიათ მიუთითოთ სახელი მონიშნული ალაგისთვის ან სახელი ფორმულის გამოსახულებისთვის."
 
 #. 96fTt
 #: sc/uiconfig/scalc/ui/managenamesdialog.ui:532
@@ -24950,37 +24994,37 @@ msgstr "_სვეტის შეყვანის უჯრედი:"
 #: sc/uiconfig/scalc/ui/multipleoperationsdialog.ui:154
 msgctxt "multipleoperationsdialog|extended_tip|formulas"
 msgid "Enter the cell references for the cells containing the formulas that you want to use in the multiple operation."
-msgstr ""
+msgstr "შეიყვანეთ უჯრედის მიმმართველი ფუნქციის შემცველი უჯრედებისთვის, რომლებიც გნებავთ, ერთზე მეტ ოპერაციაში გამოიყენოთ."
 
 #. Dcu9R
 #: sc/uiconfig/scalc/ui/multipleoperationsdialog.ui:173
 msgctxt "multipleoperationsdialog|extended_tip|row"
 msgid "Enter the input cell reference that you want to use as a variable for the rows in the data table."
-msgstr ""
+msgstr "შეიყვანეთ შეყვანის უჯრედის მიმართვა, რომელიც გნებავთ, მონაცემების ცხრილში ცვლადის სახით გამოიყენოთ."
 
 #. E5T7X
 #: sc/uiconfig/scalc/ui/multipleoperationsdialog.ui:192
 msgctxt "multipleoperationsdialog|extended_tip|col"
 msgid "Enter the input cell reference that you want to use as a variable for the columns in the data table."
-msgstr ""
+msgstr "შეიყვანეთ მიმართვა შეყვანის უჯრედზე, რომელიც მონაცემების ცხრილში სვეტების ცვლადად გნებავთ, გამოიყენოთ."
 
 #. uQeAG
 #: sc/uiconfig/scalc/ui/multipleoperationsdialog.ui:208
 msgctxt "multipleoperationsdialog|extended_tip|formulasref"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. qdF79
 #: sc/uiconfig/scalc/ui/multipleoperationsdialog.ui:224
 msgctxt "multipleoperationsdialog|extended_tip|rowref"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. pzEjo
 #: sc/uiconfig/scalc/ui/multipleoperationsdialog.ui:240
 msgctxt "multipleoperationsdialog|extended_tip|colref"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. LqDCg
 #: sc/uiconfig/scalc/ui/multipleoperationsdialog.ui:255
@@ -25022,7 +25066,7 @@ msgstr "აჩვენებს უჯრედის მიმართვა�
 #: sc/uiconfig/scalc/ui/namerangesdialog.ui:150
 msgctxt "namerangesdialog|extended_tip|rbassign"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. RHkHY
 #: sc/uiconfig/scalc/ui/namerangesdialog.ui:174
@@ -25058,13 +25102,13 @@ msgstr "_მონაცემების შუალედისთვის"
 #: sc/uiconfig/scalc/ui/namerangesdialog.ui:250
 msgctxt "namerangesdialog|extended_tip|edassign2"
 msgid "Sets the data range for which the selected label range is valid. To modify it, click in the sheet and select another range with the mouse."
-msgstr ""
+msgstr "აყენებს მონაცემების შუალედს, რომლისთვისაც მონიშნული ჭდეების შუალედი სწორია. მის შესაცვლელად დააწკაპუნეთ ფურცელში და აირჩიეთ სხვა შუალედი თაგუნათი."
 
 #. PvBUo
 #: sc/uiconfig/scalc/ui/namerangesdialog.ui:269
 msgctxt "namerangesdialog|extended_tip|rbassign2"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. UQwuv
 #: sc/uiconfig/scalc/ui/namerangesdialog.ui:300
@@ -25154,7 +25198,7 @@ msgstr "სვეტი"
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:148
 msgctxt "navigatorpanel|extended_tip|column"
 msgid "Enter the column letter. Press Enter to reposition the cell cursor to the specified column in the same row."
-msgstr ""
+msgstr "შეიყვანეთ სვეტის სიმბოლო. დააწექით ღილაკს Enter, რომ გადაიტანოთ უჯრედის კურსორი იგივე მწკრივის მითითებულ სვეტში."
 
 #. PGnEE
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:161
@@ -25166,7 +25210,7 @@ msgstr "მწკრივი"
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:167
 msgctxt "navigatorpanel|extended_tip|row"
 msgid "Enter a row number. Press Enter to reposition the cell cursor to the specified row in the same column."
-msgstr ""
+msgstr "შეიყვანეთ მწკრივის ნომერი. დააწექით ღილაკს Enter, რომ გადაიტანოთ უჯრედის კურსორი იგივე სვეტის მითითებულ მწკრივში."
 
 #. DK6AJ
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:186
@@ -25190,7 +25234,7 @@ msgstr "დაწყება"
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:206
 msgctxt "navigatorpanel|extended_tip|start"
 msgid "Moves to the cell at the beginning of the current data range, which you can highlight using the Data Range button."
-msgstr ""
+msgstr "გადაიტანს მიმდინარე მონაცემების შუალედის დასაწყისის უჯრედამდე, რომელიც შეგიძლიათ, მონაცემების შუალედის ღილაკით გამოკვეთოთ."
 
 #. 4a9pU
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:218
@@ -25202,7 +25246,7 @@ msgstr "დასასრული"
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:222
 msgctxt "navigatorpanel|extended_tip|end"
 msgid "Moves to the cell at the end of the current data range, which you can highlight using the Data Range button."
-msgstr ""
+msgstr "გადაიტანს უჯრედს მიმდინარე მონაცემების შუალედის ბოლოში, რომელიც შეგიძლიათ, მონაცემების შუალედის ღილაკით გამოკვეთოთ."
 
 #. dCSrW
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:234
@@ -25244,7 +25288,7 @@ msgstr "გადათრევის რეჟიმი"
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:294
 msgctxt "navigatorpanel|extended_tip|dragmode"
 msgid "Opens a submenu for selecting the drag mode. You decide which action is performed when dragging and dropping an object from the Navigator into a document. Depending on the mode you select, the icon indicates whether a hyperlink, link or a copy is created."
-msgstr ""
+msgstr "გახსნის ქვემენიუს გადათრევის რეჟიმის ასარჩევად. გადაწყვიტეთ, რომელი ქმედება სრულდება, როცა ნავიგატორიდან დოკუმენტში ობიექტებს გადმოათრევთ და დააგდებთ. არჩეული რეჟიმის მიხედვით, ხატულა მიუთითებს, იქმნება ჰიპერბმული, ბმული თუ ასლი."
 
 #. 3rY8r
 #: sc/uiconfig/scalc/ui/navigatorpanel.ui:319
@@ -25720,7 +25764,7 @@ msgstr "ფ_ონტი"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:3899
 msgctxt "notebookbar_groupedbar_compact|paragraphb"
 msgid "_Paragraph"
-msgstr "_პარაგრაფი"
+msgstr "აბ_ზაცი"
 
 #. UnsAB
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:4297
@@ -25775,7 +25819,7 @@ msgstr "ფ_ონტი"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:5438
 msgctxt "notebookbar_groupedbar_compact|paragraphS"
 msgid "_Paragraph"
-msgstr "_პარაგრაფი"
+msgstr "აბ_ზაცი"
 
 #. 5Wp5j
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:5687
@@ -25797,7 +25841,7 @@ msgstr "და_ხატვა"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:10239
 msgctxt "notebookbar_groupedbar_compact|ArrangeButton"
 msgid "_Arrange"
-msgstr "მოწესრიგებ_ა"
+msgstr "დ_ალაგება"
 
 #. 8pLR3
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_compact.ui:6522
@@ -26048,7 +26092,7 @@ msgstr "გ_ამოსახულება"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:5995
 msgctxt "notebookbar_groupedbar_full|arrange"
 msgid "_Arrange"
-msgstr "მოწესრიგებ_ა"
+msgstr "დ_ალაგება"
 
 #. DDTxx
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:6143
@@ -26108,7 +26152,7 @@ msgstr "_ჩასწორება"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:8464
 msgctxt "notebookbar_groupedbar_full|arrangedrawb"
 msgid "_Arrange"
-msgstr "მოწესრიგებ_ა"
+msgstr "დ_ალაგება"
 
 #. 9Z4JQ
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:8627
@@ -26168,7 +26212,7 @@ msgstr "ჩა_რჩო"
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:10659
 msgctxt "notebookbar_groupedbar_full|arrageOLE"
 msgid "_Arrange"
-msgstr "მოწესრიგებ_ა"
+msgstr "დ_ალაგება"
 
 #. DF4U7
 #: sc/uiconfig/scalc/ui/notebookbar_groupedbar_full.ui:10821
@@ -26660,7 +26704,7 @@ msgstr "_სიზუსტე როგორც ნაჩვენებია
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:119
 msgctxt "extended_tip|calc"
 msgid "Specifies whether to make calculations using the rounded values displayed in the sheet. Charts will be shown with the displayed values. If the Precision as shown option is not marked, the displayed numbers are rounded, but they are calculated internally using the non-rounded number."
-msgstr ""
+msgstr "მიუთითებს, მოხდება თუ არა ანგარიში დამრგვალებული მნიშვნელობებით, რომლებიც ფურცელზეა ნაჩვენები. დიაგრამები ნაჩვენები მნიშვნელობებით იქნება გამოტანილი. თუ სიზუსტე ჩართული არაა, გამოტანილი რიცხვები დამრგვალდება, მაგრამ შიდა გამოყენებისთვის ისინი დამრგვალებული არ იქნება."
 
 #. BiDg6
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:130
@@ -26678,7 +26722,7 @@ msgstr "იქონიეთ ეს ჩართული Microsoft Excel-თ�
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:139
 msgctxt "extended_tip|match"
 msgid "Specifies that the search criteria you set for the Calc database functions must match the whole cell exactly. When both, the Search criteria = and <> must apply to whole cells box and the Enable wildcards in formulas box are marked, Calc behaves exactly as Microsoft Excel when searching cells in the database functions."
-msgstr ""
+msgstr "მიუთითებს, რომ ძებნის პირობა, რომელიც Calc-ის მონაცემთა ბაზის ფუნქციებისთვის დააყენეთ, უნდა ემთხვეოდეს მთლიან უჯრედს, ზუსტად. როცა დაყენებულია ორივე ძებნის პირობა = და <> უნდა გადატარდეს უჯრედის მთლიან ველში და ჩართულია ვაილდკარდები ფუნქციის ვლებში, Calc ზუსტად Microsoft Excel-ვით იქცევა, როცა უჯრედებს მონაცემთა ბაზის ფუნქციებით ეძებთ."
 
 #. 5Wn8V
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:150
@@ -26690,7 +26734,7 @@ msgstr "სვეტებისა და მწკრივების ჭდ
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:158
 msgctxt "extended_tip|lookup"
 msgid "Specifies that you can use the text in any cell as a label for the column below the text or the row to the right of the text. The text must consist of at least one word and must not contain any operators."
-msgstr ""
+msgstr "მიუთითებს, რომ თქვენ შეგიძლიათ გამოიყენოთ ნებისმიერი უჯრედი ჭდის სახით სვეტისთვის ტექსტის ქვემოთ ან მწკრივისთვის ტექსტის მარჯვნივ. ტექსტი უნდა შედგებოდეს, სულ ცოტა, ერთ სიტყვისგან და არ უნდა შეიცავდეს ოპერატორებს."
 
 #. DwExc
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:169
@@ -26702,7 +26746,7 @@ msgstr "წილადი _რიცხვების შეზღუდვა
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:177
 msgctxt "extended_tip|generalprec"
 msgid "You can specify the maximum number of decimal places that are shown by default for cells with General number format. If not enabled, cells with General number format show as many decimal places as the column width allows."
-msgstr ""
+msgstr "თქვენ შეგიძლიათ მიუთითოთ ათობითი ადგილების მაქსიმალური რაოდენობა, რომლებიც ნაგულისხმევად არის ნაჩვენები ზოგადი ნომრის ფორმატის მქონე უჯრედებისთვის. თუ ჩართული არ არის, ზოგადი ნომრის ფორმატის მქონე უჯრედები აჩვენებს იმდენ ათწილადს, რამდენიც იძლევა სვეტის სიგანეს."
 
 #. buc6F
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:196
@@ -26714,7 +26758,7 @@ msgstr "წილა_დი ნაწილი:"
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:215
 msgctxt "extended_tip|prec"
 msgid "Defines the number of decimals to be displayed for numbers with the General number format. The numbers are displayed as rounded numbers, but are not saved as rounded numbers."
-msgstr ""
+msgstr "აღწერს წილადების ციფრებს ზოგადი რიცხვის ფორმატისთვის. რიცხვები ნაჩვენებია, როგორც დამრგვალებული, მაგრამ შენახული ამ სახით არაა."
 
 #. tnj5y
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:237
@@ -26732,7 +26776,7 @@ msgstr "_იტერაციები"
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:274
 msgctxt "extended_tip|iterate"
 msgid "Specifies whether formulas with iterative references (formulas that are continuously repeated until the problem is solved) are calculated after a specific number of repetitions."
-msgstr ""
+msgstr "მიუთითებს, გამოითვლება თუ არა ფორმულები ციკლური მიმართვებით (ფორმულები, რომლებიც მანამდე მეორდება, სანამ ამოცანა არ ამოიხსნება) მითითებული რაოდენობის გამეორებების შემდეგაც."
 
 #. S6iwg
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:296
@@ -26756,7 +26800,7 @@ msgstr "დააყენებს იტერაციების ნაბ�
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:347
 msgctxt "extended_tip|minchange"
 msgid "Specifies the difference between two consecutive iteration step results. If the result of the iteration is lower than the minimum change value, then the iteration will stop."
-msgstr ""
+msgstr "მიუთითებს სხვაობას ორი ერთმანეთის მომდევნო ზრდის ბიჯის შედეგს შორის. თუ ზრდის შედეგი მინიმალური ცვლილების მნიშვნელობაზე ნაკლებია, ზრდა შეწყდება."
 
 #. UoUqA
 #: sc/uiconfig/scalc/ui/optcalculatepage.ui:369
@@ -27026,7 +27070,7 @@ msgstr "მხოლოდ, მონიშნული ფურცლები
 #: sc/uiconfig/scalc/ui/optdlg.ui:103
 msgctxt "extended_tip|printCB"
 msgid "Specifies that only contents from selected sheets are printed, even if you specify a wider range in the File - Print dialog or in the Format - Print Ranges dialog. Contents from sheets that are not selected will not be printed."
-msgstr ""
+msgstr "მიუთითებს, რომ დაიბეჭდება, მხოლოდ, მონიშნული ფურცლის შემცველობა მაშინაც კი, თუ ფაილი -> დაბეჭდვის ან ფორმატი -> შუალედების დაბეჭდვის დიალოგში სხვა მნიშვნელობაა მითითებული. შემცველობა ფურცლებიდან, რომლებიც მონიშნული არაა, არ დაიბეჭდება."
 
 #. wT6PN
 #: sc/uiconfig/scalc/ui/optdlg.ui:119
@@ -27254,7 +27298,7 @@ msgstr "_ასლი"
 #: sc/uiconfig/scalc/ui/optsortlists.ui:38
 msgctxt "extended_tip|copy"
 msgid "Copies the contents of the cells in the Copy list from box. If you select a reference to related rows and columns, the Copy List dialog appears after clicking the button. You can use this dialog to define if the reference is converted to sort lists by row or by column."
-msgstr ""
+msgstr "აკოპირებს უჯრედების შიგთავსს კოპირების სიაში ყუთიდან. თუ თქვენ აირჩევთ მითითებას დაკავშირებულ სტრიქონებსა და სვეტებზე, ღილაკზე დაჭერის შემდეგ გამოჩნდება კოპირების სია. თქვენ შეგიძლიათ გამოიყენოთ ეს დიალოგი, რათა განისაზღვროს, არის თუ არა მითითება გადაყვანილი სიების დალაგებად მწკრივის ან სვეტის მიხედვით."
 
 #. jG3HS
 #: sc/uiconfig/scalc/ui/optsortlists.ui:57
@@ -27266,7 +27310,7 @@ msgstr "სიის დაკოპირება _საიდან:"
 #: sc/uiconfig/scalc/ui/optsortlists.ui:77
 msgctxt "extended_tip|copyfrom"
 msgid "Defines the spreadsheet and the cells to copy, in order to include them in the Lists box. The currently selected range in the spreadsheet is the default."
-msgstr ""
+msgstr "აღწერს ელცხრილს და უჯრედებს დასაკოპირებლად, რომ ისინი სიების ველში ჩასვათ. ამჟამად მონიშნული შუალედი ელცხრილში ნაგულისხმევია."
 
 #. iCaLd
 #: sc/uiconfig/scalc/ui/optsortlists.ui:107
@@ -27344,7 +27388,7 @@ msgstr "წაშლის მონიშნულ ელემენტს ა
 #: sc/uiconfig/scalc/ui/optsortlists.ui:311
 msgctxt "extended_tip|OptSortLists"
 msgid "All user-defined lists are displayed in the Sort Lists dialog. You can also define and edit your own lists. Only text can be used as sort lists, no numbers."
-msgstr ""
+msgstr "ყველა მომხმარებლის სია ნაჩვენებია სიების დალაგების დიალოგში. ასევე, შეგიძლიათ, თქვენი საკუთარი სიები აღწეროთ და ჩაასწოროთ. დალაგების სიებისთვის, მხოლოდ, ტექსტის გამოყენება შეგიძლიათ, რიცხვების - არა."
 
 #. U2gkF
 #: sc/uiconfig/scalc/ui/pagetemplatedialog.ui:8
@@ -27398,7 +27442,7 @@ msgstr "ფურცელი"
 #: sc/uiconfig/scalc/ui/paradialog.ui:8
 msgctxt "paradialog|ParagraphDialog"
 msgid "Paragraph"
-msgstr "პარაგრაფი"
+msgstr "აბზაცი"
 
 #. 6xRiy
 #: sc/uiconfig/scalc/ui/paradialog.ui:136
@@ -27650,7 +27694,7 @@ msgstr "კომენტარები"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:393
 msgctxt "pastespecial|extended_tip|comments"
 msgid "Inserts comments that are attached to cells. If you want to add the comments to the existing cell content, select the \"Add\" operation."
-msgstr ""
+msgstr "ჩასვამს კომენტარებს, რომლებიც უჯრედებზეა მიბმული. თუ გნებავთ დაამატოთ კომენტარები უჯრედის არსებულ შემცველობას, დააწკაპუნეთ ღილაკზე \"დამატება\"."
 
 #. 5n5r7
 #: sc/uiconfig/scalc/ui/pastespecial.ui:404
@@ -27734,7 +27778,7 @@ msgstr "ბმულის სახით"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:596
 msgctxt "pastespecial|extended_tip|link"
 msgid "Inserts the cell range as a link, so that changes made to the cells in the source file are updated in the target file. To ensure that changes made to empty cells in the source file are updated in the target file, ensure that the \"Paste All\" option is also selected."
-msgstr ""
+msgstr "ჩასვამს უჯრედების შუალედს ბმულის სახელით ისე, რომ ცვლილებები, რომელსაც წყარო ფაილის უჯრედებში შეიყვანთ, სამიზნე ფაილში განახლდება. იმისათვის, რომ დარწმუნდეთ, რომ წყაროს ფაილის ცარიელ უჯრედებში შეტანილი ცვლილებებიც განახლდება სამიზნე ფაილში, დარწმუნდით, რომ ჩართულია პარამეტრი \"ყველაფრის ჩასმა\"."
 
 #. 7yzbi
 #: sc/uiconfig/scalc/ui/pastespecial.ui:607
@@ -27746,7 +27790,7 @@ msgstr "ტრანსპონირება"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:615
 msgctxt "pastespecial|extended_tip|transpose"
 msgid "The rows of the range in the clipboard are pasted to become columns of the output range. The columns of the range in the clipboard are pasted to become rows."
-msgstr ""
+msgstr "ბუფერში არსებული შუალედის მწკრივები, რომელსაც ჩასვამთ, გამოტანილი შუალედის სვეტებად გადაიქცევა, სვეტები კი მწკრივებად."
 
 #. 3VcAr
 #: sc/uiconfig/scalc/ui/pastespecial.ui:626
@@ -27764,7 +27808,7 @@ msgstr "თუ ჩართულია, ცაარიელი უჯრე�
 #: sc/uiconfig/scalc/ui/pastespecial.ui:635
 msgctxt "pastespecial|extended_tip|skip_empty"
 msgid "Empty cells from the clipboard do not replace target cells. If you use this option in conjunction with the \"Multiply\" or the \"Divide\" operation, the operation is not applied to the target cell of an empty cell in the clipboard."
-msgstr ""
+msgstr "ცარიელი უჯრედები ბუფერიდან სამიზნე უჯრედებს თავზე არ გადააწერენ. თუ ამ პარამეტრს \"გამრავლებისა\" და \"გაყოფის\" ოპერაციებთან ერთად გამოიყენებთ, ოპერაცია არ გადატარდება ცარიელ სამიზნე უჯრედებზე ბუფერიდან."
 
 #. jTFAJ
 #: sc/uiconfig/scalc/ui/pastespecial.ui:650
@@ -27782,7 +27826,7 @@ msgstr "არცერთი"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:690
 msgctxt "pastespecial|extended_tip|none"
 msgid "Does not apply an operation when you insert the cell range from the clipboard. The contents of the clipboard will replace existing cell contents."
-msgstr ""
+msgstr "ოპერაცია არ გადატარდება, როცა უჯრედების შუალედს ბუფერიდან სვამთ. ბუფერის შემცველობა არსებულ უჯრედების შემცველობას ჩაანაცვლებს."
 
 #. QhQnq
 #: sc/uiconfig/scalc/ui/pastespecial.ui:702
@@ -27794,7 +27838,7 @@ msgstr "დამატება"
 #: sc/uiconfig/scalc/ui/pastespecial.ui:711
 msgctxt "pastespecial|extended_tip|add"
 msgid "Adds the values in the clipboard cells to the values in the target cells. Also, if the clipboard only contains comments, adds the comments to the target cells."
-msgstr ""
+msgstr "მიუმატებს ბუფერში არსებული უჯრედების მნიშვნელობებს სამიზნე უჯრედების მნიშვნელობებს. ასევე, თუ ბუფერი, მხოლოდ, კომენტარებს შეიცავს, დაამატებს კომენტარებს სამიზნე უჯრედებს."
 
 #. 4SmrC
 #: sc/uiconfig/scalc/ui/pastespecial.ui:723
@@ -27860,7 +27904,7 @@ msgstr "მ_ორგება..."
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:41
 msgctxt "pivotfielddialog|extended_tip|options"
 msgid "Opens the Data Field Options dialog. The Options button is visible for filters and column or row fields only."
-msgstr ""
+msgstr "გახსნის მონაცემის ველის პარამეტრების დიალოგს. პარამეტრების ღილაკი ხილულია, მხოლოდ, ფილტრებისთვის და სვეტების და მწკრივის ველებისთვის."
 
 #. KBmND
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:133
@@ -27884,7 +27928,7 @@ msgstr "_მომხმარებლის"
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:211
 msgctxt "pivotfielddialog|extended_tip|functions"
 msgid "Click the type of subtotal that you want to calculate. This option is only available if the User-defined option is selected."
-msgstr ""
+msgstr "დააწკაპუნეთ შუალედური შედეგის ტიპზე, რომლის გამოთვლაც გნებავთ. ეს პარამეტრი, მხოლოდ, ხელმისაწვდომია, თუ არჩეულია მომხმარებლის პარამეტრები."
 
 #. vDXUZ
 #: sc/uiconfig/scalc/ui/pivotfielddialog.ui:228
@@ -27980,19 +28024,19 @@ msgstr "მნიშვნელობა"
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:191
 msgctxt "pivotfilterdialog|extended_tip|field1"
 msgid "Select the field that you want to use in the filter. If field names are not available, the column labels are listed."
-msgstr ""
+msgstr "აირჩიეთ ველი, რომელიც გნებავთ, ფილტრში გამოიყენოთ. თუ ველის სახელები ხელმისაწვდომი არაა, ნაჩვენებია სვეტის ჭდეები."
 
 #. mDaxf
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:209
 msgctxt "pivotfilterdialog|extended_tip|field2"
 msgid "Select the field that you want to use in the filter. If field names are not available, the column labels are listed."
-msgstr ""
+msgstr "აირჩიეთ ველი, რომელიც გნებავთ, ფილტრში გამოიყენოთ. თუ ველის სახელები ხელმისაწვდომი არაა, ნაჩვენებია სვეტის ჭდეები."
 
 #. 3N44y
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:227
 msgctxt "pivotfilterdialog|extended_tip|field3"
 msgid "Select the field that you want to use in the filter. If field names are not available, the column labels are listed."
-msgstr ""
+msgstr "აირჩიეთ ველი, რომელიც გნებავთ, ფილტრში გამოიყენოთ. თუ ველის სახელები ხელმისაწვდომი არაა, ნაჩვენებია სვეტის ჭდეები."
 
 #. jTLFv
 #: sc/uiconfig/scalc/ui/pivotfilterdialog.ui:253
@@ -28124,7 +28168,7 @@ msgstr "სვეტის ველები:"
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:214
 msgctxt "pivottablelayoutdialog|extended_tip|listbox-column"
 msgid "To define the layout of a pivot table, drag and drop data field buttons onto the Filters, Row Fields, Column Fields and Data Fields areas."
-msgstr ""
+msgstr "იმისათვის, რომ აღწეროთ კრებსითი ცხრილის განლაგება, გადმოათრით და დააგდეთ მონაცემის ველის ღილაკები ფილტრების, მწკრივის ველების, სვეტის ველების და მონაცემების ველების ალაგებზე."
 
 #. WWrpy
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:244
@@ -28136,7 +28180,7 @@ msgstr "მონაცემის ველები"
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:295
 msgctxt "pivottablelayoutdialog|extended_tip|listbox-data"
 msgid "To define the layout of a pivot table, drag and drop data field buttons onto the Filters, Row Fields, Column Fields and Data Fields areas."
-msgstr ""
+msgstr "იმისათვის, რომ აღწეროთ კრებსითი ცხრილის განლაგება, გადმოათრით და დააგდეთ მონაცემის ველის ღილაკები ფილტრების, მწკრივის ველების, სვეტის ველების და მონაცემების ველების ალაგებზე."
 
 #. BhTuC
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:325
@@ -28148,7 +28192,7 @@ msgstr "მწკრივის ველები:"
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:374
 msgctxt "pivottablelayoutdialog|extended_tip|listbox-row"
 msgid "To define the layout of a pivot table, drag and drop data field buttons onto the Filters, Row Fields, Column Fields and Data Fields areas."
-msgstr ""
+msgstr "იმისათვის, რომ აღწეროთ კრებსითი ცხრილის განლაგება, გადმოათრით და დააგდეთ მონაცემის ველის ღილაკები ფილტრების, მწკრივის ველების, სვეტის ველების და მონაცემების ველების ალაგებზე."
 
 #. 4XvEh
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:404
@@ -28160,7 +28204,7 @@ msgstr "ფილტრები:"
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:455
 msgctxt "pivottablelayoutdialog|extended_tip|listbox-page"
 msgid "To define the layout of a pivot table, drag and drop data field buttons onto the Filters, Row Fields, Column Fields and Data Fields areas."
-msgstr ""
+msgstr "იმისათვის, რომ აღწეროთ კრებსითი ცხრილის განლაგება, გადმოათრით და დააგდეთ მონაცემის ველის ღილაკები ფილტრების, მწკრივის ველების, სვეტის ველების და მონაცემების ველების ალაგებზე."
 
 #. Scoht
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:517
@@ -28172,7 +28216,7 @@ msgstr "ხელმისაწვდომი ველები:"
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:567
 msgctxt "pivottablelayoutdialog|extended_tip|listbox-fields"
 msgid "To define the layout of a pivot table, drag and drop data field buttons onto the Filters, Row Fields, Column Fields and Data Fields areas."
-msgstr ""
+msgstr "იმისათვის, რომ აღწეროთ კრებსითი ცხრილის განლაგება, გადმოათრით და დააგდეთ მონაცემის ველის ღილაკები ფილტრების, მწკრივის ველების, სვეტის ველების და მონაცემების ველების ალაგებზე."
 
 #. BL7Ff
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:598
@@ -28250,7 +28294,7 @@ msgstr "დეტალებზე გადასვლის ჩართვ�
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:729
 msgctxt "pivottablelayoutdialog|extended_tip|check-drill-to-details"
 msgid "Select this check box and double-click an item label in the table to show or hide details for the item. Clear this check box and double-click a cell in the table to edit the contents of the cell."
-msgstr ""
+msgstr "დასვით ეს თოლია და ორჯერ დააწკაპუნეთ ელემენტის ჭდეზე ცხრილში, რათა აჩვენოტ ან დამალოთ დეტალები ელემენტისთვის. გაასუფთავეთ ეს ველი და ორჯერ დააწკაპუნეთ ცხრილის უჯრედზე, რომ შეცვალოთ უჯრედის შემცელობა."
 
 #. rAmF9
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:740
@@ -28292,7 +28336,7 @@ msgstr "აირჩიეთ ალაგი, სადაც გნება�
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:864
 msgctxt "pivottablelayoutdialog|extended_tip|destination-button"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. LBRZw
 #: sc/uiconfig/scalc/ui/pivottablelayoutdialog.ui:879
@@ -28382,7 +28426,7 @@ msgstr "დახურავს დიალოგს და მოაცილ
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:119
 msgctxt "printareasdialog|extended_tip|rbprintarea"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. 6nt5h
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:138
@@ -28430,13 +28474,13 @@ msgstr "დაბეჭდვის შუალედი"
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:214
 msgctxt "printareasdialog|extended_tip|edrepeatrow"
 msgid "Choose one or more rows to print on every page. In the right text box enter the row reference, for example, \"1\" or \"$1\" or \"$2:$3\"."
-msgstr ""
+msgstr "აირჩიეთ ერთი ან მეტი მწკრივი, რომელიც ყოველ გვერდზე დაიბეჭდება. მარჯვენა ტექსტურ ველში შეიყვანეთ მიმართვა მწკრივზე. მაგ: \"1\" ან \"$1\" ან \"$2:$3\"."
 
 #. J22Vh
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:233
 msgctxt "printareasdialog|extended_tip|rbrepeatrow"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. XqwBA
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:247
@@ -28454,7 +28498,7 @@ msgstr "- მომხმარებლის -"
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:252
 msgctxt "printareasdialog|extended_tip|lbrepeatrow"
 msgid "Choose one or more rows to print on every page. In the right text box enter the row reference, for example, \"1\" or \"$1\" or \"$2:$3\"."
-msgstr ""
+msgstr "აირჩიეთ ერთი ან მეტი მწკრივი, რომელიც ყოველ გვერდზე დაიბეჭდება. მარჯვენა ტექსტურ ველში შეიყვანეთ მიმართვა მწკრივზე. მაგ: \"1\" ან \"$1\" ან \"$2:$3\"."
 
 #. EFCSq
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:267
@@ -28466,13 +28510,13 @@ msgstr "გასამეორებელი მწკრივები"
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:307
 msgctxt "printareasdialog|extended_tip|edrepeatcol"
 msgid "Choose one or more columns to print on every page. In the right text box enter the column reference, for example, \"A\" or \"AB\" or \"$C:$E\"."
-msgstr ""
+msgstr "აირჩიეთ ერთი ან მეტი სვეტი, რომელიც ყოველ გვერდზე დაიბეჭდება. მარჯვენა ტექსტურ ველში შეიყვანეთ მიმართვა სვეტზე. მაგ: \"A\" or \"AB\" or \"$C:$E\"."
 
 #. MG6GD
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:326
 msgctxt "printareasdialog|extended_tip|rbrepeatcol"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. bKSEJ
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:340
@@ -28490,7 +28534,7 @@ msgstr "- მომხმარებლის -"
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:345
 msgctxt "printareasdialog|extended_tip|lbrepeatcol"
 msgid "Choose one or more columns to print on every page. In the right text box enter the column reference, for example, \"A\" or \"AB\" or \"$C:$E\"."
-msgstr ""
+msgstr "აირჩიეთ ერთი ან მეტი სვეტი, რომელიც ყოველ გვერდზე დაიბეჭდება. მარჯვენა ტექსტურ ველში შეიყვანეთ მიმართვა სვეტზე. მაგ: \"A\" or \"AB\" or \"$C:$E\"."
 
 #. Ushqp
 #: sc/uiconfig/scalc/ui/printareasdialog.ui:360
@@ -28616,7 +28660,7 @@ msgstr "უჯრედების შუალედი:"
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:155
 msgctxt "randomnumbergenerator|extended_tip|cell-range-edit"
 msgid "Define the range of cells to fill with random numbers. If you have previously selected a range, it will be displayed here."
-msgstr ""
+msgstr "აღწერს უჯრედების შუალედს, რომელიც შემთხვევითი რიცხვებით შეივსება. თუ შუალედი უკვე მონიშნეთ. ის აქ გამოჩნდება."
 
 #. Jy5mE
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:183
@@ -28736,7 +28780,7 @@ msgstr "საწყ. მნიშვნელობა:"
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:400
 msgctxt "randomnumbergenerator|extended_tip|seed-spin"
 msgid "Value set to initiate the random number generator algorithm. It is used to initialize (seed) the random number generator in order to reproduce the same sequence of pseudorandom numbers. Specify a positive integer number (1, 2, ...) to produce a specific sequence, or leave the field blank if you don't need this particular feature."
-msgstr ""
+msgstr "დაყენებული მნიშვნელობა შემთხვევითი რიცხვების გენერატორის ალგორითმისთვის. გამოიყენება შემთხვევითი რიცხვები გენრატორის ინიციალიზაციისთვის (თესლი) , რომ ფსევდოშემთხვევითი რიცხვების იგივე მიმდევრობა გამოვცეთ. მიუთითეთ დადებითი მთელი რიცხვი (1, 2,...), რომ გარკვეული მიმდევრობა შექმნათ, ან დატოვეთ ცარიელი, თუ ეს ფუნქცია არ გჭირდებათ."
 
 #. sEjpT
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:411
@@ -28862,7 +28906,7 @@ msgstr "წრფივი რეგრესია"
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:363
 msgctxt "regressiondialog|extended_tip|linear-radio"
 msgid "Find a straight line in the form of y = a.x + b, where a is the slope and b is the intercept that best fits the data."
-msgstr ""
+msgstr "ეძებს სწორ ხაზს ფორმით y = a.x + b, სადაც a დახრაა და b კვეთაა, რომელიც მონაცემებს საუკეთესოდ ერგება."
 
 #. bC6dH
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:374
@@ -28874,7 +28918,7 @@ msgstr "ლოგარითმული რეგრესია"
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:385
 msgctxt "regressiondialog|extended_tip|logarithmic-radio"
 msgid "Find a logarithmic curve in the form of  y = a.ln(x) + b, where a is the slope,  b is the intercept and ln(x)  is the natural logarithm of x, that best fits the data."
-msgstr ""
+msgstr "ლოგარითმული რკალის პოვნა ფორმით      y=a.ln(x) + b, სადაც a დახრაა,    b კვეთა და ln(x)   x-ის ნატურალური ლოგარითმია, რომელიც მონაცემებს საუკეთესოდ ერგება."
 
 #. fSEJF
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:396
@@ -28886,7 +28930,7 @@ msgstr "ხარისხობრივი რეგრესია"
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:407
 msgctxt "regressiondialog|extended_tip|power-radio"
 msgid "Find a power curve in the form of y = a.x^b, where a is the coefficient, b is the power that best fits the data."
-msgstr ""
+msgstr "ფესვის რკალის პოვნა ფორმით y = a.x^b, სადაც a კოეფიციენტია, b ხარისხია, რომელიც მონაცემებს საუკეთესოდ ერგება."
 
 #. nhcJV
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:422
@@ -28910,7 +28954,7 @@ msgstr "ნაშთების გამოთვლა"
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:473
 msgctxt "regressiondialog|extended_tip|calcresiduals-check"
 msgid "The residuals give information on how far the actual data points deviate from the predicted data points, based on the regression model."
-msgstr ""
+msgstr "ნაშთები გვაძლევს ინფორმაციას, რა დონეზე სცდება მიმდინარე მონაცემები პროგნოზისას, რეგრესიის მოდელზე დაყრდნობით."
 
 #. GnoB2
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:497
@@ -28974,10 +29018,9 @@ msgstr "გაიმეორეთ პაროლი"
 
 #. ik7CK
 #: sc/uiconfig/scalc/ui/retypepassdialog.ui:96
-#, fuzzy
 msgctxt "retypepassdialog|descLabel"
 msgid "The document you are about to export has one or more protected items with password that cannot be exported. Please re-type your password to be able to export your document."
-msgstr "ექსპორტირებული დოკუმენტი შეიცავს პაროლით დაცულ ობიექტებს. გთხოვთ თავიდან შეიყვანოთ პაროლი, რათა შეძლოთ დოკუმენტის ექსპორტირება."
+msgstr "დოკუმენტი, რომლის გატანასაც აპირებთ, ერთ ან მეტ დაცულ ელემენტს შეიცავს, რომლებიც პაროლითაა დაცული და რომელსაც ვერ გაიტანთ. შეიყვანეთ პაროლი თავიდან, რომ დოკუმენტის გატანა შეძლოთ."
 
 #. DGfRA
 #: sc/uiconfig/scalc/ui/retypepassdialog.ui:124
@@ -29091,7 +29134,7 @@ msgstr "_ნაგულისხმევი მნიშვნელობა"
 #: sc/uiconfig/scalc/ui/rowheightdialog.ui:129
 msgctxt "rowheightdialog|extended_tip|default"
 msgid "Adjusts the row height to the size based on the default template. Existing contents may be shown vertically cropped. The height no longer increases automatically when you enter larger contents."
-msgstr ""
+msgstr "გაასწორებს მწკრივის სიმაღლეს ზომაზე, რომელიც ნაგულისხმევი ნიმუშიდან იქნება აღებული. შეიძლება, არსებული შემცველობა ვერტიკალურად წაიკვეთოს. სიმაღლე აღარ გაიზრდება ავტომატურად, როცა უფრო დიდ შემცველობას შეიყვანთ."
 
 #. qEa9T
 #: sc/uiconfig/scalc/ui/rowheightdialog.ui:160
@@ -29181,7 +29224,7 @@ msgstr "სცენარის შექმნა"
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:104
 msgctxt "scenariodialog|extended_tip|name"
 msgid "Defines the name for the scenario. Use a clear and unique name so you can easily identify the scenario."
-msgstr ""
+msgstr "აღწერს სახელს სცენარისთვის. გამოიყენეთ გასაგები და უნიკალური სახელი, რომ სცენარი ადვილად იპოვოთ."
 
 #. xwJe3
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:113
@@ -29193,7 +29236,7 @@ msgstr "სცენარის სახელი"
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:157
 msgctxt "scenariodialog|extended_tip|comment"
 msgid "Specifies additional information about the scenario. This information will be displayed in the Navigator when you click the Scenarios icon and select the desired scenario."
-msgstr ""
+msgstr "მიუთითებს დამატებით ინფორმაციას სცენარის შესახებ. ეს ინფორმაცია ნაჩვენები იქნება ნავიგატორში, როცა დააწკაპუნებთ სცენარების ხატულაზე და სასურველ სცენარს აირჩევთ."
 
 #. X9GgG
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:170
@@ -29211,7 +29254,7 @@ msgstr "უკუკოპირე_ბა"
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:208
 msgctxt "scenariodialog|extended_tip|copyback"
 msgid "Copies the values of cells that you change into the active scenario. If you do not select this option, the scenario is not changed when you change cell values. The behavior of the Copy back setting depends on the cell protection, the sheet protection, and the Prevent changes settings."
-msgstr ""
+msgstr "აკოპირებს უჯრედების მნიშვნელობებს, რომლებსაც თქვენ ცვლით აქტიურ სცენარში. თუ ამ პარამეტრს არ აირჩევთ, უჯრედის მნიშვნელობების შეცვლისას სცენარი არ იცვლება. კოპირების უკან პარამეტრის ქცევა დამოკიდებულია უჯრედის დაცვაზე, ფურცლის დაცვაზე და აკრძალვა ცვლილებების პარამეტრებზე."
 
 #. RZHB9
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:219
@@ -29235,7 +29278,7 @@ msgstr "ცვლილებების ა_კრძალვა"
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:246
 msgctxt "scenariodialog|extended_tip|preventchanges"
 msgid "Prevents changes to the active scenario. The behavior of the Copy back setting depends on the cell protection, the sheet protection, and the Prevent changes settings."
-msgstr ""
+msgstr "მიმდინარე სცენარში ცვლილებების შეტანის აკრძალვა. უკან კოპირების პარამეტრის ქცევა დამოკიდებულია უჯრედების დაცვაზე, ფურცლის დაცვაზე და ცვლილებების შეტანის აკრძალვის პარამეტრებზე."
 
 #. 6xvMR
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:263
@@ -29247,13 +29290,13 @@ msgstr "საზღვ_რის ჩვენება"
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:274
 msgctxt "scenariodialog|extended_tip|showframe"
 msgid "Highlights the scenario in your table with a border. The color for the border is specified in the field to the right of this option."
-msgstr ""
+msgstr "გამოკვეთს სცენარს თქვენს ცხრილში საზღვრით. საზღვრის ფერი ამ პარამეტრის შემდეგ ველში შეგიძლიათ, მიუთითოთ."
 
 #. cTLu7
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:299
 msgctxt "scenariodialog|extended_tip|bordercolor"
 msgid "Highlights the scenario in your table with a border. The color for the border is specified in the field to the right of this option."
-msgstr ""
+msgstr "გამოკვეთს სცენარს თქვენს ცხრილში საზღვრით. საზღვრის ფერი ამ პარამეტრის შემდეგ ველში შეგიძლიათ, მიუთითოთ."
 
 #. R8AVm
 #: sc/uiconfig/scalc/ui/scenariodialog.ui:320
@@ -29397,7 +29440,7 @@ msgstr "_მიმართვების გაწელვა ახალი
 #: sc/uiconfig/scalc/ui/scgeneralpage.ui:274
 msgctxt "extended_tip|exprefcb"
 msgid "Specifies whether to expand references when inserting columns or rows adjacent to the reference range. This is only possible if the reference range, where the column or row is inserted, originally spanned at least two cells in the desired direction."
-msgstr ""
+msgstr "მიუთითებს, გაიშლება თუ არა მიმართვები სვეტების ან მწკრივების ჩასმისას მიმართვის შუალედთან ახლოს. ეს, მხოლოდ, მაშინაა შესაძლებელი, თუ მიმართვის შუალედი, სადაც სვეტის ან მწკრივის ჩასმა ხდება, სასურველი მიმართულებით, მინიმუმ, ორ უჯრედს შეიცავდა."
 
 #. 6oRpB
 #: sc/uiconfig/scalc/ui/scgeneralpage.ui:291
@@ -29445,7 +29488,7 @@ msgstr "უჯრედზე მიმართვის მოთავსე�
 #: sc/uiconfig/scalc/ui/scgeneralpage.ui:331
 msgctxt "extended_tip|legacy_cell_selection_cb"
 msgid "With the option set, expanding a selection (with Ctrl + Shift + Down/Up) jumps to the end of the range in the column that was added as last to the initial selection. When the option is not set, expanding a selection (with Ctrl + Shift + Down/Up) jumps to the end of the range in the column where selecting the cell range was started. The same of course applies when extending a selection on rows, with Ctrl + Shift + Left/Right."
-msgstr ""
+msgstr "თუ ეს პარამეტრი ჩართულია, მონიშნულის ჩამოშლა (ღილაკებით Ctrl + Shift + მაღლა/დაბლა) გადადის შუალედის სვეტში, რომელიც ბოლოს დაემატა საწყის მონიშნულს. თუ ეს პარამეტრი ჩართული არაა, მონიშნულის ჩამოშლა (ღილაკებით Ctrl + Shift + მაღლა/დაბლა) გადადის შუალედის ბოლო სვეტზე, როცა უჯრედების მონიშვნა დაიწყეთ. იგივე ეხება მწკრივებსაც, Ctrl + Shift + მარჯვენა/მარცხენით."
 
 #. S2fGF
 #: sc/uiconfig/scalc/ui/scgeneralpage.ui:343
@@ -29457,7 +29500,7 @@ msgstr "თავზე გადაწერის _გაფრთხილე
 #: sc/uiconfig/scalc/ui/scgeneralpage.ui:351
 msgctxt "extended_tip|replwarncb"
 msgid "Specifies that, when you paste cells from the clipboard to a cell range that is not empty, a warning appears."
-msgstr ""
+msgstr "მიუთითებს, რომ როცა ჩასვამთ უჯრედებს ბუფერიდან უჯრედების შუალედში, რომელიც ცარიელი არაა, გაფრთხილებას გაჩვენებთ."
 
 #. H477x
 #: sc/uiconfig/scalc/ui/scgeneralpage.ui:363
@@ -29655,7 +29698,7 @@ msgstr "Calc-ში დარეგისტრირებული მონ�
 #: sc/uiconfig/scalc/ui/selectsource.ui:171
 msgctxt "selectsource|extended_tip|database"
 msgid "Uses a table or query in a database that is registered in Calc as the data source for the pivot table."
-msgstr ""
+msgstr "გამოიყენებს ცხრილს ამ მოთხოვნას მონაცემთა ბაზაში, რომელიც Calc-ში კრებსითი ცხრილის მონაცემების წყაროდაა მითითებული."
 
 #. ZDghg
 #: sc/uiconfig/scalc/ui/selectsource.ui:183
@@ -29817,7 +29860,7 @@ msgstr "_გააზიარეთ ეს ელცხრილი სხვ�
 #: sc/uiconfig/scalc/ui/sharedocumentdlg.ui:123
 msgctxt "sharedocumentdlg|warning"
 msgid "Note: Changes to formatting attributes like fonts, colors, and number formats will not be saved and some functionalities like editing charts and drawing objects are not available in shared mode. Turn off shared mode to get exclusive access needed for those changes and functionalities."
-msgstr "შენიშვნა:  გაზიარების რეჟიმში ცვლილებები ფორმატირების ატრიბუტებზე (მაგ. ფერები, ფონტები და რიცხვების ფორმატი) არ დამახსოვრდება, ასევე არ იმუშავებს ისეთი ფუნქციონალი, როგორიცაა დიაგრამების ჩასწორება და ობიექტების დახატვა. გამორთეთ გაზიარების რეჟიმი ამ ფუნქციონალისთვის საჭირო ექსკლუზიური წვდომის მისაღებად."
+msgstr "შენიშვნა: გაზიარების რეჟიმში ცვლილებები დაფორმატების ატრიბუტებზე (მაგ. ფერები, ფონტები და რიცხვების ფორმატი) დამახსოვრებული არ იქნება და არ იმუშავებს ისეთი ფუნქციონალი, როგორიცაა დიაგრამების ჩასწორება და ობიექტების დახატვა. გამორთეთ გაზიარების რეჟიმი ამ ფუნქციონალისთვის საჭირო ექსკლუზიური წვდომის მისაღებად."
 
 #. dQz77
 #: sc/uiconfig/scalc/ui/sharedocumentdlg.ui:190
@@ -29841,13 +29884,13 @@ msgstr "მომხმარებლები, რომლებიც ახ
 #: sc/uiconfig/scalc/ui/sharedwarningdialog.ui:12
 msgctxt "sharedwarningdialog|SharedWarningDialog"
 msgid "The spreadsheet is in shared mode. This allows multiple users to access and edit the spreadsheet at the same time."
-msgstr ""
+msgstr "ელცხრილი გაზიარებულ რეჟიმშია. ეს საშუალებას აძლევს ერთზე მეტ მომხმარებელს, ერთდროული წვდომა იქონიოს და ჩაასწოროს ის."
 
 #. 9e6DK
 #: sc/uiconfig/scalc/ui/sharedwarningdialog.ui:13
 msgctxt "sharedwarningdialog|SharedWarningDialog"
 msgid "Changes to formatting attributes like fonts, colors, and number formats will not be saved and some functionalities like editing charts and drawing objects are not available in shared mode. Turn off shared mode to get exclusive access needed for those changes and functionalities."
-msgstr ""
+msgstr "ცვლილებები დაფორმატების ისეთ ატრიბუტებს, როგორიცაა ფონტები, ფერი, რიცხვის ფორმატები არ შეინახება და ზოგიერთი ფუნქციონალი, როგორიცაა გრაფიკების ჩასწორება და სახატავი ობიექტები, გაზიარებულ რეჟიმში ხელმისაწვდომი არაა. გამორთეთ გაზიარებული რეჟიმი, რომ მიიღოთ ექსკლუზიური წვდომა, რომელიც ამ ცვლილებებისა და ფუნქციონალებისთვისაა საჭირო."
 
 #. AWccB
 #: sc/uiconfig/scalc/ui/sharedwarningdialog.ui:32
@@ -30093,7 +30136,7 @@ msgstr "მასშტაბი"
 #: sc/uiconfig/scalc/ui/sheetprintpage.ui:682
 msgctxt "sheetprintpage|extended_tip|SheetPrintPage"
 msgid "Specifies the elements to be included in the printout of all sheets with the current Page Style. Additionally, you can set the print order, the first page number, and the page scale."
-msgstr ""
+msgstr "მიუთითებს ელემენტებს, რომლებიც ჩაისმება მიმდინარე გვერდის სტილის მქონე ყველა ფურცლის დაბეჭდვისას. დამატებით შეგიძლიათ, მიუთითოთ ბეჭდვის მიმდევრობა, პირველი გვერდiს ნომერი და ბეჭდვის მასშტაბი."
 
 #. CwxSU
 #: sc/uiconfig/scalc/ui/showchangesdialog.ui:8
@@ -30501,7 +30544,7 @@ msgstr "ალაგი:"
 #: sc/uiconfig/scalc/ui/simplerefdialog.ui:142
 msgctxt "simplerefdialog|extended_tip|SimpleRefDialog"
 msgid "Filters the list of changes according to the range of cells that you specify. To select a range of cells in your sheet, click the Set Reference button (...)."
-msgstr ""
+msgstr "ფილტრავს ცვლილებების სიას იმ უჯრედების შუალედით, რომელსაც მიუთითებთ. იმისათვის, რომ მონიშნოთ უჯრედების შუალედი თქვენი ფურცლიდან მონიშნოთ, დააწკაპუნეთ მიმართვის დაყენების ღილაკზე (...)."
 
 #. GGUrx
 #: sc/uiconfig/scalc/ui/solverdlg.ui:8
@@ -30585,7 +30628,7 @@ msgstr "შეიყვანეთ უჯრედების შუალე�
 #: sc/uiconfig/scalc/ui/solverdlg.ui:275
 msgctxt "solverdlg|extended_tip|targetedit"
 msgid "Enter or click the cell reference of the target cell. This field takes the address of the cell whose value is to be optimized."
-msgstr ""
+msgstr "Enter ან დააწკაპუნეთ სამიზნე უჯრედის მიმართვაზე. ეს ველი იღებს უჯრედის მისამართს, რომლის ოპტიმიზაციაც მოხდება."
 
 #. ze8nv
 #: sc/uiconfig/scalc/ui/solverdlg.ui:311
@@ -30777,7 +30820,7 @@ msgstr "შემზღუდავი პირობები"
 #: sc/uiconfig/scalc/ui/solverdlg.ui:898
 msgctxt "solverdlg|extended_tip|SolverDialog"
 msgid "Opens the Solver dialog. A solver allows you to solve mathematical problems with multiple unknown variables and a set of constraints on the variables by goal-seeking methods."
-msgstr ""
+msgstr "გახსნის ამომხსნელის დიალოგს. ამომხსნელი საშუალებას გაძლევთ, ამოხსნათ მათემატიკური ამოცანები ერთზე მეტი უცნობით და შეზღუდვების ნაკრებით ამ უცნობებზე შესაბამისი ფუნქციებით."
 
 #. DFfjo
 #: sc/uiconfig/scalc/ui/solveroptionsdialog.ui:22
@@ -30813,7 +30856,7 @@ msgstr "ჩასწორება..."
 #: sc/uiconfig/scalc/ui/solveroptionsdialog.ui:224
 msgctxt "solveroptionsdialog|extended_tip|edit"
 msgid "If the current entry in the Settings listbox allows you to edit a value, you can click the Edit button. A dialog opens where you can change the value."
-msgstr ""
+msgstr "თუ მიმდინარე ჩანაწერი მორგების სიაში უფლებას გაძლევთ, ჩაასწოროთ მნიშვნელობა, შეგიძლიათ, ჩასწორების ღილაკზე დააწკაპუნოთ. გაიხსნება დიალოგი, სადაც მნიშვნელობის შეცვლას შეძლებთ."
 
 #. GHJGp
 #: sc/uiconfig/scalc/ui/solverprogressdialog.ui:8
@@ -30945,7 +30988,7 @@ msgstr "_ზრდადობით"
 #: sc/uiconfig/scalc/ui/sortkey.ui:50
 msgctxt "sortkey|extended_tip|up"
 msgid "Sorts the selection from the lowest value to the highest value. The sorting rules are given by the locale. You can define the sort rules on Data - Sort - Options."
-msgstr ""
+msgstr "დაალაგებს მონიშნულს უმცირესი მნიშვნელობიდან უდიდესი მნიშვნელობისკენ. დალაგების წესები ლოკალის მიერაა ნაკარნახები. დალაგების წესები შეგიძლიათ აღწეროთ მენიუში მონაცემები -> დალაგება -> მორგება."
 
 #. TfqAv
 #: sc/uiconfig/scalc/ui/sortkey.ui:61
@@ -30957,7 +31000,7 @@ msgstr "_კლებადობით"
 #: sc/uiconfig/scalc/ui/sortkey.ui:70
 msgctxt "sortkey|extended_tip|down"
 msgid "Sorts the selection from the highest value to the lowest value. You can define the sort rules on Data - Sort - Options."
-msgstr ""
+msgstr "დაალაგებს შემცველობას უდიდესი მნიშვნელობიდან უმცირესამდე. დალაგების წესები შეგიძლიათ მიუთითოთ მენიუდან მონაცემები -> დალაგება -> მორგება."
 
 #. Svy7B
 #: sc/uiconfig/scalc/ui/sortkey.ui:100
@@ -31005,7 +31048,7 @@ msgstr "ბუნებრივი დალაგების ჩართვ�
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:75
 msgctxt "sortoptionspage|extended_tip|naturalsort"
 msgid "Natural sort is a sort algorithm that sorts string-prefixed numbers based on the value of the numerical element in each sorted number, instead of the traditional way of sorting them as ordinary strings."
-msgstr ""
+msgstr "ბუნებრივი დალაგება ალგორთმია, რომელიც სტრიქონის პრეფიქსის მქონე რიცხვებს მათი რიცხვითი ნაწილის მნიშვნელობით ალაგებს, მათი ჩვეულებრივი სტრიქონების სახით დალაგების მაგიერ."
 
 #. yev2y
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:86
@@ -31053,7 +31096,7 @@ msgstr "დალაგების შედეგების კოპირ�
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:172
 msgctxt "sortoptionspage|extended_tip|outarealb"
 msgid "Select a named cell range where you want to display the sorted list, or enter a cell range in the input box."
-msgstr ""
+msgstr "აირჩიეთ სახელიანი უჯრედების შუალედი, სადაც გნებავთ, დალაგებული სია გაჩვენოთ. ან შეიყვანეთ უჯრედების შუალედი."
 
 #. ABGSS
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:191
@@ -31065,7 +31108,7 @@ msgstr "დალაგების შედეგების კოპირ�
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:192
 msgctxt "sortoptionspage|extended_tip|outareaed"
 msgid "Enter the cell range where you want to display the sorted list, or select a named range from the list."
-msgstr ""
+msgstr "შეიყვანეთ უჯრედების შუალედ, საიდაც გნებავთ, დალაგებული სია იხილოთ ან აირჩიეთ სახელიანი შუალედი სიიდან."
 
 #. iWcGs
 #: sc/uiconfig/scalc/ui/sortoptionspage.ui:218
@@ -31161,13 +31204,13 @@ msgstr "მიმდინარე მონიშნული"
 #: sc/uiconfig/scalc/ui/sortwarning.ui:83
 msgctxt "sortwarning|sorttext"
 msgid "The cells next to the current selection also contain data. Do you want to extend the sort range to %1, or sort the currently selected range, %2?"
-msgstr ""
+msgstr "მონაცემებს ამჟამად მონიშნულის გვერდითა უჯრედებიც შეიცავენ. გნებავთ დალაგების შუალედის გაფართოება %1-მდე, თუ დავალაგო ამჟამად მონიშნული შუალედი, %2?"
 
 #. Ny8FF
 #: sc/uiconfig/scalc/ui/sortwarning.ui:103
 msgctxt "sortwarning|sorttip"
 msgid "Tip: The sort range can be detected automatically. Place the cell cursor inside a list and execute sort. The whole range of neighboring non-empty cells will then be sorted."
-msgstr ""
+msgstr "მინიშნება: დალაგების შუალედი, შეიძლება, ავტომატურადაც იქნეს აღმოჩენილი. მოათავსეთ უჯრედის კურსორი სიის შიგნით და გაუშვით დალაგება. ამით ყველა მეზობელ არაცარიელ უჯრედს დაალაგებთ."
 
 #. 6n8GK
 #: sc/uiconfig/scalc/ui/sparklinedatarangedialog.ui:8
@@ -31857,7 +31900,7 @@ msgstr "_ფილტრის პირობის შენარჩულე
 #: sc/uiconfig/scalc/ui/standardfilterdialog.ui:1067
 msgctxt "standardfilterdialog|extended_tip|destpers"
 msgid "Select the Copy results to check box, and then specify the destination range where you want to display the filtered data. If this box is checked, the destination range remains linked to the source range. You must have defined the source range under Data - Define range as a database range."
-msgstr ""
+msgstr "აირჩიეთ ველი Copy results to check box და შემდეგ მიუთითეთ დანიშნულების დიაპაზონი, სადაც გსურთ გაფილტრული მონაცემების ჩვენება. თუ ეს ველი მონიშნულია, დანიშნულების დიაპაზონი რჩება მიბმული წყაროს დიაპაზონთან. თქვენ უნდა გქონდეთ განსაზღვრული წყაროს დიაპაზონი მონაცემთა ქვეშ - განსაზღვრეთ დიაპაზონი, როგორც მონაცემთა ბაზის დიაპაზონი."
 
 #. StG9B
 #: sc/uiconfig/scalc/ui/standardfilterdialog.ui:1099
@@ -31887,7 +31930,7 @@ msgstr "დასვით თოლია, შემდეგ კი აირ�
 #: sc/uiconfig/scalc/ui/standardfilterdialog.ui:1142
 msgctxt "standardfilterdialog|extended_tip|rbcopyarea"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "დააწკაპუნეთ შევიწროვების ხატულაზე, რომ დააპატარავოთ დიალოგი შეყვანის ველის ზომამდე. ასე ფურცელზე სასურველი მიმართვის დანიშვნა უფრო ადვილია. შემდეგ, ხაულები მთელ ეკრანზე გაშლის ხატულად თვითონ გადაიქცევა. დააწკაპუნეთ მასზე დიალოგის საწყის ზომაზე დასაბრუნებლად."
 
 #. 4PyDb
 #: sc/uiconfig/scalc/ui/standardfilterdialog.ui:1167
@@ -31989,7 +32032,7 @@ msgstr "დაჯგუფება:"
 #: sc/uiconfig/scalc/ui/subtotalgrppage.ui:61
 msgctxt "subtotalgrppage|extended_tip|group_by"
 msgid "Select the column that you want to control the subtotal calculation process. If the contents of the selected column change, the subtotals are automatically recalculated."
-msgstr ""
+msgstr "აირჩიეთ სვეტი, რომლისთვისაც გსურთ მართოთ შუალედური ჯამების გამოთვლის პროცესი. თუ არჩეული სვეტის შიგთავსი იცვლება, შუალედური ჯამები ავტომატურად ხელახლა გამოითვლება."
 
 #. gL3Zy
 #: sc/uiconfig/scalc/ui/subtotalgrppage.ui:73
@@ -32061,7 +32104,7 @@ msgstr "ალაგი, _ჯერ, ჯგუფებით დალაგდ
 #: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:79
 msgctxt "subtotaloptionspage|extended_tip|sort"
 msgid "Sorts the area that you selected in the Group by box of the Group tabs according to the columns that you selected."
-msgstr ""
+msgstr "დაალაგებს ალაგს, რომელიც მონიშნეთ 'დაჯგუფების პირობაში' ჯგუფის ჩანართში იმ სვეტებით, რომლებიც მონიშნეთ."
 
 #. 6jJEr
 #: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:94
@@ -32307,7 +32350,7 @@ msgstr "_სხვა"
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:449
 msgctxt "textimportcsv|extended_tip|other"
 msgid "Separates data into columns using the custom separator that you specify. Note: The custom separator must also be contained in your data."
-msgstr ""
+msgstr "დააცალკევებს მონაცემებს სვეტებში თქვენს მიერ მითითებული გამყოფით. შენიშვნა: თქვენს მონაცემებში მომხმარებლის გამყოფი აუცილებლად უნდა არსებობდეს."
 
 #. smjGu
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:472
@@ -32319,7 +32362,7 @@ msgstr "სხვა"
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:473
 msgctxt "textimportcsv|extended_tip|inputother"
 msgid "Separates data into columns using the custom separator that you specify. Note: The custom separator must also be contained in your data."
-msgstr ""
+msgstr "დააცალკევებს მონაცემებს სვეტებში თქვენს მიერ მითითებული გამყოფით. შენიშვნა: თქვენს მონაცემებში მომხმარებლის გამყოფი აუცილებლად უნდა არსებობდეს."
 
 #. B5nFB
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:499
@@ -32349,7 +32392,7 @@ msgstr "_ციტირებული ველის ტექსტად �
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:598
 msgctxt "textimportcsv|extended_tip|quotedfieldastext"
 msgid "When this option is enabled, fields or cells whose values are quoted in their entirety (the first and last characters of the value equal the text delimiter) are imported as text."
-msgstr ""
+msgstr "როცა ეს პარამეტრი ჩართულია, ველები ან უჯრედები, რომლების მნიშვნელობებიც მთლიანად ბრჭყალებშია (მნიშვნელობის პირველი და ბოლო სიმბოლოები ტექსტის გამყოფია), ტექსტის სახით იქნება შემოტანილი."
 
 #. nBNfT
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:609
@@ -32361,7 +32404,7 @@ msgstr "სპეციალური _რიცხვების აღმო
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:617
 msgctxt "textimportcsv|extended_tip|detectspecialnumbers"
 msgid "When this option is enabled, Calc will automatically detect all number formats, including special number formats such as dates, time, and scientific notation."
-msgstr ""
+msgstr "როცა ეს პარამეტრი ჩართულია, Calc ავტომატურად დაადგენს ყველა რიცხვის ფორმატს, ისეთი სპეციალური რიცხვის ფორმატების ჩათვლით, როგორიცაა თარიღები, დროები და სამეცნიერო ანოტაციები."
 
 #. C2dCt
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:628
@@ -32379,7 +32422,7 @@ msgstr "თუ ჩართულია, უჯრედები, რომლ�
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:637
 msgctxt "textimportcsv|extended_tip|evaluateformulas"
 msgid "When this option is enabled, cell content starting with an '=' equal sign is evaluated as formula expression. Otherwise, content is imported as text."
-msgstr ""
+msgstr "როცა ეს პარამეტრი ჩართულია, უჯრედის შემცველობა, რომელიც '=' ტოლობის ნიშნით იწყება, ფორმულის გამოსახულებად ითვლება. სხვა შემთხვევაში ის ტექსტად აღიქმება."
 
 #. fBAv9
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:648
@@ -32397,7 +32440,7 @@ msgstr "თუ ჩართულია, ცაარიელი უჯრე�
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:657
 msgctxt "textimportcsv|extended_tip|skipemptycells"
 msgid "When this option is enabled, Calc preserves previous content of cells when pasting empty ones. Otherwise, Calc deletes content of previous cells."
-msgstr ""
+msgstr "როცა ეს პარამეტრი ჩართულია, Calc შეინახავს უჯრედების წინა შემცველობას, როცა ცარიელებს ჩასვამთ. სხვაგვარად Calc უჯრედების წინა შემცველობას უბრალოდ წაშლის."
 
 #. qK6j7
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:668
@@ -32409,7 +32452,7 @@ msgstr "სამეცნიერო ან_ოტაციის აღმო
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:676
 msgctxt "textimportcsv|extended_tip|detectscientificnumbers"
 msgid "When this option is enabled, Calc will automatically detect numbers in scientific notation in addition to basic decimal numbers."
-msgstr ""
+msgstr "როცა ეს პარამეტრი ჩართულია, Calc ავტომატურად აღმოაჩენს რიცხვებს სამეცნიერო ნოტაციებში ჩვეულებრივ რიცხვებთან ერთად."
 
 #. PBycV
 #: sc/uiconfig/scalc/ui/textimportcsv.ui:698
@@ -32577,7 +32620,7 @@ msgstr "მნიშვნელობის _გამოკვეთა"
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:105
 msgctxt "extended_tip|value"
 msgid "Mark the Value highlighting box to show the cell contents in different colors, depending on type. Text cells are formatted in black, formulas in green, number cells in blue, and protected cells are shown with light grey background, no matter how their display is formatted."
-msgstr ""
+msgstr "ჩართეთ მნიშვნელობის გამოკვეთის თოლია, რომ უჯრედის შემცველობა ტიპზე დამოკიდებულებით სხვადასხვა ფერით ვაჩვენო. ტექსტური უჯრედები შავია, ფორმულები მწვანე, რიცხვები ლურჯი და დაცული უჯრედები ღია ნაცრისფერი ფონით იქნება ნაჩვენები იმის მიუხედავად, რას ამბობს მათი დაფორმატების პარამეტრები."
 
 #. ah84V
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:116
@@ -32601,7 +32644,7 @@ msgstr "_მიმართვების ფერადად ჩვენე
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:143
 msgctxt "extended_tip|rangefind"
 msgid "Specifies that each reference is highlighted in color in the formula. The cell range is also enclosed by a colored border as soon as the cell containing the reference is selected for editing."
-msgstr ""
+msgstr "მიუთითებს, რომ ფორმულაში თითოეული მიმართვა ფერადად გამოიკვეთება. უჯრედების შუალედი ასევე ჩაისმება ფერად საზღვრებში მაშინვე, როგორც კი უჯრედს, რომელიც მიმართვას შეიცავს, ჩასასწორებლად აირჩევთ."
 
 #. qtccR
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:158
@@ -32667,7 +32710,7 @@ msgstr "სტრ_უქტურის სიმბოლოები"
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:269
 msgctxt "extended_tip|outline"
 msgid "If you have defined an outline, the Outline symbols option specifies whether to view the outline symbols at the border of the sheet."
-msgstr ""
+msgstr "თუ აღწერეთ სტრუქტურა, სტრუქტურის სიმბოლოების პარამეტრი მიუთითებს, ნაჩვენებია თუ არა სტრუქტურის სიმბოლოები ფურცლის საზღვართან."
 
 #. jJ4uB
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:280
@@ -32691,7 +32734,7 @@ msgstr "ფურცლების _სინქრონიზაცია"
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:329
 msgctxt "extended_tip|synczoom"
 msgid "If checked, all sheets are shown with the same zoom factor. If not checked, each sheet can have its own zoom factor."
-msgstr ""
+msgstr "თუ ჩართულია, ყველა გვერდი იგივე მასშტაბის კოეფიციენტითაა ნაჩვენები. თუ ჩართული არაა, თითოეულ ფურცელს თავსი გადიდების კოეფიციენტი ექნება."
 
 #. pEFjC
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:338
@@ -32751,7 +32794,7 @@ msgstr "დამალვა"
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:430
 msgctxt "extended_tip|grid"
 msgid "Specifies when grid lines will be displayed. Default is to display grid lines only on cells that do not have a background color. You can choose to also display grid lines on cells with background color, or to hide them."
-msgstr ""
+msgstr "მიუთითებს, როდის იქნება ბადის ხაზები ნაჩვენები. ნაგულისხმევია, რომ ბადის ხაზები, მხოლოდ, გამოჩნდება უჯრედებზე, რომლებსაც ფონის ფერი არ აქვთ. შეგიძლიათ აირჩიოთ, რომ ბადის ხაზებ ასევე გამოჩნდეს უჯრედებზე ფონის ფერით, ან, რომ დავმალოთ ისინი."
 
 #. BpEmt
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:444
@@ -32871,7 +32914,7 @@ msgstr "ობიექტები"
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:648
 msgctxt "extended_tip|TpViewPage"
 msgid "Defines which elements of the Calc main window are displayed. You can also show or hide highlighting of values in tables."
-msgstr ""
+msgstr "აღწერს, Calc-ის მთავარი ფანჯრის რომელი ელემენტებია ნაჩვენები. შეგიძლიათ ასევე აჩვენოთ და დამალოთ მნიშვნელობების გამოკვეთა ცხრილებში."
 
 #. AnLEa
 #: sc/uiconfig/scalc/ui/ttestdialog.ui:95
@@ -33105,7 +33148,7 @@ msgstr "_ცარიელი უჯრედების დაშვება
 #: sc/uiconfig/scalc/ui/validationcriteriapage.ui:213
 msgctxt "validationcriteriapage|extended_tip|allowempty"
 msgid "In conjunction with Tools - Detective - Mark invalid Data, this defines that blank cells are shown as invalid data (disabled) or not (enabled)."
-msgstr ""
+msgstr "ბრძანებასთან ხელსაწყოები -> აღმოჩენა -> არასწორი მონაცემების დანიშვნა - ერთად, ეს განსაზღვრავს, რომ ცარიელი უჯრედები ნაჩვენებია, როგორც არასწორი მონაცემებით (გათიშული) ან არა(ჩართული)."
 
 #. tsgJF
 #: sc/uiconfig/scalc/ui/validationcriteriapage.ui:224
@@ -33129,13 +33172,13 @@ msgstr "ელემენ_ტების დალაგება აღმა
 #: sc/uiconfig/scalc/ui/validationcriteriapage.ui:253
 msgctxt "validationcriteriapage|extended_tip|sortascend"
 msgid "Sorts the selection list in ascending order and filters duplicates from the list. If not checked, the order from the data source is taken."
-msgstr ""
+msgstr "დაალაგებს მონიშნულ სიას აღმავალი მიმდევრობით და გაფილტრავს გამეორებებს. თუ ჩართული არაა, მიმდევრობა მონაცემების წყაროდან იქნება აღებული."
 
 #. 96jcJ
 #: sc/uiconfig/scalc/ui/validationcriteriapage.ui:266
 msgctxt "validationcriteriapage|hintft"
 msgid "A valid source can only consist of a contiguous selection of rows and columns, or a formula that results in an area or array."
-msgstr ""
+msgstr "სწორი წყარო შეიძლება, მხოლოდ, შედგებოდეს სვეტებისა და მწკრივების უწყვეტი მონიშნულისგან, ან ფორმულისგან, რომლის შედეგებიც ალაგს ან მასივს წარმოადგენს."
 
 #. 9v4Ah
 #: sc/uiconfig/scalc/ui/validationcriteriapage.ui:289
@@ -33183,7 +33226,7 @@ msgstr "შეყვანის დახმარების ჩვენე�
 #: sc/uiconfig/scalc/ui/validationhelptabpage.ui:25
 msgctxt "validationhelptabpage|extended_tip|tsbhelp"
 msgid "Displays the message that you enter in the Contents box when the cell or cell range is selected in the sheet."
-msgstr ""
+msgstr "აჩვენებს შეტყობინებას, რომელსაც შემცველობის ველში შეიყვანეთ, როცა ფურცელზე უჯრედს ან უჯრედების შუალედს მონიშნავენ."
 
 #. 9NNLK
 #: sc/uiconfig/scalc/ui/validationhelptabpage.ui:63
@@ -33219,7 +33262,7 @@ msgstr "შემცველობა"
 #: sc/uiconfig/scalc/ui/validationhelptabpage.ui:148
 msgctxt "validationhelptabpage|extended_tip|ValidationHelpTabPage"
 msgid "Enter the message that you want to display when the cell or cell range is selected in the sheet."
-msgstr "შეიყვანეთ შეტყობინება, რომლის ასახვაც გსურთ, როდესაც უჯრა ან უჯრების დიაპაზონია არჩეული."
+msgstr "შეიყვანეთ შეტყობინება, რომელიც გნებავთ, გამოჩნდეს, როცა ფურცელზე უჯრედი ან უჯრედების შუალედი მოინიშნება."
 
 #. XEHEu
 #: sc/uiconfig/scalc/ui/warnautocorrect.ui:13
