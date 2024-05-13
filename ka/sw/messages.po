@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-04-30 14:12+0200\n"
-"PO-Revision-Date: 2024-05-12 15:40+0000\n"
+"PO-Revision-Date: 2024-05-13 01:45+0000\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <https://translations.documentfoundation.org/projects/libo_ui-master/swmessages/ka/>\n"
 "Language: ka\n"
@@ -98,19 +98,19 @@ msgstr "ფონის სურათების თავიდან აც
 #: sw/inc/AccessibilityCheckStrings.hrc:29
 msgctxt "STR_AVOID_NEWLINES_SPACE"
 msgid "Avoid newlines to create space."
-msgstr ""
+msgstr "ახალი ხაზების თავიდან აცილება სივრცის შესაქმნელად."
 
 #. Dp49m
 #: sw/inc/AccessibilityCheckStrings.hrc:30
 msgctxt "STR_AVOID_SPACES_SPACE"
 msgid "Avoid spaces to create space."
-msgstr ""
+msgstr "ჰარეების თავიდან აცილება სივრცის შესაქმნელად."
 
 #. g5bQv
 #: sw/inc/AccessibilityCheckStrings.hrc:31
 msgctxt "STR_AVOID_TABS_FORMATTING"
 msgid "Avoid using tabs for formatting."
-msgstr ""
+msgstr "დაფორმატებისთვის ტაბულაციის გამოყენების თავიდან აცილება."
 
 #. xDMGH
 #: sw/inc/AccessibilityCheckStrings.hrc:32
@@ -122,7 +122,7 @@ msgstr ""
 #: sw/inc/AccessibilityCheckStrings.hrc:33
 msgctxt "STR_TEXT_FORMATTING_CONVEYS_MEANING"
 msgid "The text formatting conveys additional meaning."
-msgstr ""
+msgstr "ტექსტის დაფორმატებას დამატებითი დატვირთვაც გააჩნია."
 
 #. DpbCJ
 #: sw/inc/AccessibilityCheckStrings.hrc:34
@@ -134,13 +134,13 @@ msgstr "ინტერაქტიური შეყვანის ველ�
 #: sw/inc/AccessibilityCheckStrings.hrc:35
 msgctxt "STR_FLOATING_TEXT"
 msgid "Anchor Frames/Text boxes “As Character“."
-msgstr ""
+msgstr "ჩარჩოების/ტექსტური ველების მიმაგრება \"როგორც სიმბოლო\"."
 
 #. 77aXx
 #: sw/inc/AccessibilityCheckStrings.hrc:36
 msgctxt "STR_HEADING_IN_TABLE"
 msgid "Tables must not contain headings."
-msgstr ""
+msgstr "ცხრილები სათაურებს არ უნდა შეიცავდეს."
 
 #. FFGhA
 #: sw/inc/AccessibilityCheckStrings.hrc:37
@@ -176,19 +176,19 @@ msgstr ""
 #: sw/inc/AccessibilityCheckStrings.hrc:43
 msgctxt "STR_DOCUMENT_DEFAULT_LANGUAGE"
 msgid "Document default language is not set."
-msgstr ""
+msgstr "დოკუმენტის ნაგულისხმევი ენა დაყენებული არაა."
 
 #. MMD7M
 #: sw/inc/AccessibilityCheckStrings.hrc:44
 msgctxt "STR_STYLE_NO_LANGUAGE"
 msgid "Style “%STYLE_NAME%” has no language set."
-msgstr ""
+msgstr "სტილს “%STYLE_NAME%” ენა დაყენებული არ აქვს."
 
 #. euwJV
 #: sw/inc/AccessibilityCheckStrings.hrc:45
 msgctxt "STR_DOCUMENT_TITLE"
 msgid "Document title is not set."
-msgstr ""
+msgstr "დოკუმენტის სათაური დაყენებული არაა."
 
 #. G79xh
 #: sw/inc/AccessibilityCheckStrings.hrc:46
@@ -594,23 +594,21 @@ msgstr "ფაილის წაკითხვის შეცდომა."
 
 #. DpwFt
 #: sw/inc/error.hrc:38
-#, fuzzy
 msgctxt "RID_SW_ERRHDL"
 msgid "This is not a valid WinWord6 file."
-msgstr "ეს არ არის  WinWord6-ს ფაილი."
+msgstr "ეს სწორი WinWord6-ის ფაილი არაა."
 
 #. DdyFD
 #: sw/inc/error.hrc:39
 msgctxt "RID_SW_ERRHDL"
 msgid "File format error found at $(ARG1)(row,col)."
-msgstr "ფაილის ფორმატში $(ARG1)(row,col). აღმოჩენილია შეცდომა."
+msgstr "ფაილის ფორმატში $(ARG1)(row,col) აღმოჩენილია შეცდომა."
 
 #. FWd22
 #: sw/inc/error.hrc:40
-#, fuzzy
 msgctxt "RID_SW_ERRHDL"
 msgid "This is not a valid WinWord97 file."
-msgstr "ეს არ არის WinWord97-ის ფაილი."
+msgstr "ეს სწორი WinWord97-ის ფაილი არაა."
 
 #. UyAsq
 #: sw/inc/error.hrc:41 sw/inc/error.hrc:59
@@ -628,18 +626,16 @@ msgstr "ფაილის ჩაწერის შეცდომა."
 
 #. FGGTM
 #: sw/inc/error.hrc:44 sw/inc/error.hrc:58
-#, fuzzy
 msgctxt "RID_SW_ERRHDL"
 msgid "Error in writing sub-document $(ARG1)."
-msgstr "შეცდომა სუბ-დოკუმენტის $(ARG1) ჩაწერაში."
+msgstr "შეცდომა ქვედოკუმენტის $(ARG1) ჩაწერისას."
 
 #. Cosns
 #. Import-/Export-Errors
 #: sw/inc/error.hrc:46 sw/inc/error.hrc:47
-#, fuzzy
 msgctxt "RID_SW_ERRHDL"
 msgid "Internal error in %PRODUCTNAME Writer file format."
-msgstr "შიდა შეცდომა %PRODUCTNAME -ის ჩამწერის ფაილის ფორმატში. "
+msgstr "შიდა შეცდომა %PRODUCTNAME Writer-ის ფაილის ფორმატში."
 
 #. AQxBy
 #: sw/inc/error.hrc:48
@@ -655,17 +651,15 @@ msgstr "$(ARG1) არ არსებობს."
 
 #. FCni4
 #: sw/inc/error.hrc:50
-#, fuzzy
 msgctxt "RID_SW_ERRHDL"
 msgid "Cells cannot be further split."
-msgstr "შეუძლებელია უჯრების შემდგომი გაყოფა."
+msgstr "უჯრედებს მეტად ვეღარ გაყოფთ."
 
 #. jAE8g
 #: sw/inc/error.hrc:51
-#, fuzzy
 msgctxt "RID_SW_ERRHDL"
 msgid "Additional columns cannot be inserted."
-msgstr "შეუძლებელია დამატებითი სვეტების ჩასმა"
+msgstr "დამატებით სვეტების ჩასმა შეუძლებელია."
 
 #. sFkDS
 #: sw/inc/error.hrc:52
@@ -676,24 +670,21 @@ msgstr "შეუძლებელია დაკავშირებულ�
 
 #. CmsDd
 #: sw/inc/error.hrc:54
-#, fuzzy
 msgctxt "RID_SW_ERRHDL"
 msgid "Not all attributes could be read."
-msgstr "ყველა ატრიბუტი არ იქნა წაკითხული."
+msgstr "ყველა ატრიბუტის წაკითხვა შესაძლებელი არაა."
 
 #. sFAMg
 #: sw/inc/error.hrc:55
-#, fuzzy
 msgctxt "RID_SW_ERRHDL"
 msgid "Not all attributes could be recorded."
-msgstr "არ ჩაიწერა ყველა ატრიბუტი."
+msgstr "ყველა ატრიბუტის ჩაწერა შეუძლებელია."
 
 #. a5Kkw
 #: sw/inc/error.hrc:56
-#, fuzzy
 msgctxt "RID_SW_ERRHDL"
 msgid "Document could not be completely saved."
-msgstr "დოკუმენტი სრულად არ ჩაწერილა."
+msgstr "დოკუმენტის სრულად ჩაწერა შეუძლებელია."
 
 #. ioXGn
 #: sw/inc/error.hrc:57
@@ -995,13 +986,13 @@ msgstr "სიმბოლო: ფონტის სიმბოლოები
 #: sw/inc/inspectorproperties.hrc:70
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Char Font Char Set Asian"
-msgstr ""
+msgstr "სიმბოლო: ფონტის სიმბოლოების ნაკრები აზიურია"
 
 #. qrfZA
 #: sw/inc/inspectorproperties.hrc:71
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Char Font Char Set Complex"
-msgstr ""
+msgstr "სიმბოლო: ფონტის სიმბოლოების ნაკრები რთულია"
 
 #. CGEVw
 #: sw/inc/inspectorproperties.hrc:72
@@ -1067,13 +1058,13 @@ msgstr "სიმბოლო: ფონტის სტილის სახ�
 #: sw/inc/inspectorproperties.hrc:82
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Char Font Style Name Asian"
-msgstr ""
+msgstr "სიმბოლო: ფონტის სტილის სახელი აზიური"
 
 #. Tm4Rb
 #: sw/inc/inspectorproperties.hrc:83
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Char Font Style Name Complex"
-msgstr ""
+msgstr "სიმბოლო: ფონტის სტილის სახელი რთული"
 
 #. AQzKB
 #: sw/inc/inspectorproperties.hrc:84
@@ -1235,7 +1226,7 @@ msgstr "სიმბოლო: ტრიალი"
 #: sw/inc/inspectorproperties.hrc:110
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Char Rotation is Fit To Line"
-msgstr ""
+msgstr "სიმბოლო: მობრუნება ხაზზეა ჩასმული"
 
 #. cYG7T
 #: sw/inc/inspectorproperties.hrc:111
@@ -1367,7 +1358,7 @@ msgstr "დოკუმენტის ინდექსის მარკე�
 #: sw/inc/inspectorproperties.hrc:132
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Drop Cap Char Style Name"
-msgstr ""
+msgstr "დიდი პირველი ასის მქონე სტილის სახელი"
 
 #. BtV5G
 #: sw/inc/inspectorproperties.hrc:133
@@ -1433,13 +1424,13 @@ msgstr "შევსება: ბიტური რუკის წანა�
 #: sw/inc/inspectorproperties.hrc:143
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Fill Bitmap Position Offset X"
-msgstr ""
+msgstr "შევსება: ბიტური რუკის წანაცვლების X"
 
 #. BVBvB
 #: sw/inc/inspectorproperties.hrc:144
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Fill Bitmap Position Offset Y"
-msgstr ""
+msgstr "შევსება: ბიტური რუკის წანაცვლების Y"
 
 #. CzVxv
 #: sw/inc/inspectorproperties.hrc:145
@@ -1799,7 +1790,7 @@ msgstr "აბზაცი: პირველი ხაზის შეწე�
 #: sw/inc/inspectorproperties.hrc:204
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Para First Line Indent Relative"
-msgstr ""
+msgstr "აბზაცი: პირველი ხაზის შეწევის ფარდობა"
 
 #. z47wS
 #: sw/inc/inspectorproperties.hrc:205
@@ -1811,19 +1802,19 @@ msgstr "აბზაცი: მაქსიმალურად გადატ
 #: sw/inc/inspectorproperties.hrc:206
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Para Hyphenation Min Leading Chars"
-msgstr ""
+msgstr "აბზაცი: გადატანა: მინ. წინა სიმბოლო"
 
 #. DEBbS
 #: sw/inc/inspectorproperties.hrc:207
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Para Hyphenation Min Trailing Chars"
-msgstr ""
+msgstr "აბზაცი: გადატანა: მინ. ბოლო სიმბოლო"
 
 #. kNDph
 #: sw/inc/inspectorproperties.hrc:208
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Para Hyphenation Compound Min Leading Chars"
-msgstr ""
+msgstr "აბზაცი: გადატანა: რთული სიტყვების მინ. პირველი სიმბოლო"
 
 #. hj7Fp
 #: sw/inc/inspectorproperties.hrc:209
@@ -1835,13 +1826,13 @@ msgstr "აბზაცი: გადატანა დიდი ასოე�
 #: sw/inc/inspectorproperties.hrc:210
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Para Hyphenation No Last Word"
-msgstr ""
+msgstr "აბზაცი: გადატანა: ბოლო სიტყვა არა"
 
 #. 32PM5
 #: sw/inc/inspectorproperties.hrc:211
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Para Hyphenation Min Word Length"
-msgstr ""
+msgstr "აბზაცი: გადატანა: მინიმალური სიტყვის სიგრძე"
 
 #. 4ZE3Y
 #: sw/inc/inspectorproperties.hrc:212
@@ -1859,7 +1850,7 @@ msgstr "აბზაცი: გადატანის შენარჩუნ
 #: sw/inc/inspectorproperties.hrc:214
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Para Hyphenation Keep Type"
-msgstr ""
+msgstr "აბზაცი: გატანა: გააგრძელეთ კრეფა"
 
 #. 4bemD
 #: sw/inc/inspectorproperties.hrc:215
@@ -1871,7 +1862,7 @@ msgstr "აბზაცი: ჯვარედინი ჩანთა"
 #: sw/inc/inspectorproperties.hrc:216
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Para is Auto First Line Indent"
-msgstr ""
+msgstr "აბზაცი: არის თუ არა პირველი ხაზი ავტომატურად შეწეული"
 
 #. Q68Bx
 #: sw/inc/inspectorproperties.hrc:217
@@ -1943,7 +1934,7 @@ msgstr "აბზაცი: ხაზის ნომრების რაო�
 #: sw/inc/inspectorproperties.hrc:228
 msgctxt "RID_ATTRIBUTE_NAMES_MAP"
 msgid "Para Line Number Start Value"
-msgstr ""
+msgstr "აბზაცი: ხაზის ნომრის საწყისი მნიშვნელობა"
 
 #. eo9RR
 #: sw/inc/inspectorproperties.hrc:229
@@ -3572,13 +3563,13 @@ msgstr "1 სვეტი"
 #: sw/inc/strings.hrc:232
 msgctxt "STR_COLUMN_VALUESET_ITEM1"
 msgid "2 columns with equal size"
-msgstr ""
+msgstr "2 სვეტი ტოლი ზომით"
 
 #. 7EtFb
 #: sw/inc/strings.hrc:233
 msgctxt "STR_COLUMN_VALUESET_ITEM2"
 msgid "3 columns with equal size"
-msgstr ""
+msgstr "3 სვეტი ტოლი ზომით"
 
 #. oqzB2
 #: sw/inc/strings.hrc:234
@@ -3675,13 +3666,13 @@ msgstr "ფილტრი ვერ ვიპოვე."
 #: sw/inc/strings.hrc:252
 msgctxt "STR_LOAD_GLOBAL_DOC"
 msgid "Name and Path of Master Document"
-msgstr "მთავარი დოკუმენტის სახელი და მდებარეობა"
+msgstr "მთავარი დოკუმენტის სახელი და ბილიკი"
 
 #. SSL5h
 #: sw/inc/strings.hrc:253
 msgctxt "STR_LOAD_HTML_DOC"
 msgid "Name and Path of the HTML Document"
-msgstr "HTML დოკუმენტის სახელი და მდებარეობა"
+msgstr "HTML დოკუმენტის სახელი და ბილიკი"
 
 #. bb3o8
 #: sw/inc/strings.hrc:254
@@ -3958,13 +3949,13 @@ msgstr "უცნობი ავტორი"
 #: sw/inc/strings.hrc:300
 msgctxt "STR_DELETE_NOTE_AUTHOR"
 msgid "Delete ~All Comments by $1"
-msgstr ""
+msgstr "$1-ის ყველ~ა კომენტარის წაშლა"
 
 #. 3TDWE
 #: sw/inc/strings.hrc:301
 msgctxt "STR_HIDE_NOTE_AUTHOR"
 msgid "H~ide All Comments by $1"
-msgstr ""
+msgstr "$1-ის ~ყველა კომენტარის დამალვა"
 
 #. 52Kyz
 #: sw/inc/strings.hrc:302
@@ -4056,7 +4047,7 @@ msgstr "ავტოფორმატის წაშლა"
 #: sw/inc/strings.hrc:324
 msgctxt "STR_DEL_AUTOFORMAT_MSG"
 msgid "The following AutoFormat entry will be deleted:"
-msgstr "შემდეგი ავტო-ფორმატირების შენატანი წაიშლება:"
+msgstr "წაიშლება შემდეგი ავტოფორმატის:"
 
 #. 7KuSQ
 #: sw/inc/strings.hrc:325
@@ -4164,7 +4155,7 @@ msgstr "ბიბლიოგრაფიული ჩანაწერის �
 #: sw/inc/strings.hrc:341
 msgctxt "STR_ACCESS_PAGESETUP_SPACING"
 msgid "Spacing between %1 and %2"
-msgstr ""
+msgstr "დაშორება %1-ს და %2-ს შორის"
 
 #. SBmWN
 #: sw/inc/strings.hrc:342
@@ -4423,13 +4414,13 @@ msgstr ""
 #: sw/inc/strings.hrc:386
 msgctxt "STR_IDXEXAMPLE_IDXTXT_TABLE1"
 msgid "Table 1: This is table 1"
-msgstr ""
+msgstr "ცხრილი 1: ეს პირველი ცხრილია"
 
 #. VyQfs
 #: sw/inc/strings.hrc:387
 msgctxt "STR_IDXEXAMPLE_IDXTXT_IMAGE1"
 msgid "Image 1: This is image 1"
-msgstr ""
+msgstr "გამოსახულება 1: ეს პირველი გამოსახულებაა"
 
 #. EiPU5
 #: sw/inc/strings.hrc:388
@@ -4631,7 +4622,7 @@ msgstr ""
 #: sw/inc/strings.hrc:420
 msgctxt "STR_HIDDEN_CHANGES_DETAIL2"
 msgid "Recording of changes is enabled."
-msgstr ""
+msgstr "ცვლილებების ჩაწერა ჩართულია."
 
 #. BH7Ud
 #: sw/inc/strings.hrc:421
@@ -4938,7 +4929,7 @@ msgstr "ნაგულისხმევი მნიშვნელობე�
 #: sw/inc/strings.hrc:473
 msgctxt "STR_REPLACE_STYLE"
 msgid "Replace style: $1 $2 $3"
-msgstr "შეცვალე სტილი $1 $2 $3"
+msgstr "სტილის ჩანაცვლება: $1 $2 $3"
 
 #. EXFvJ
 #: sw/inc/strings.hrc:474
@@ -5438,7 +5429,7 @@ msgstr "გვერდის სტილის წაშლა: $1"
 #: sw/inc/strings.hrc:556
 msgctxt "STR_UNDO_PAGEDESC_RENAME"
 msgid "Rename page style: $1 $2 $3"
-msgstr "გვერდის სტილის გადარქმევა: $1 $2 $3"
+msgstr "გვერდის სტილის სახელის გადარქმევა: $1 $2 $3"
 
 #. UcTVv
 #: sw/inc/strings.hrc:557
@@ -5468,7 +5459,7 @@ msgstr "აბზაცის სტილის წაშლა: $1"
 #: sw/inc/strings.hrc:561
 msgctxt "STR_UNDO_TXTFMTCOL_RENAME"
 msgid "Rename paragraph style: $1 $2 $3"
-msgstr "გადაარქვი აბზაცის სტილს: $1 $2 $3"
+msgstr "აბზაცის სტილის სახელის გადარქმევა: $1 $2 $3"
 
 #. J2FcF
 #: sw/inc/strings.hrc:562
@@ -5486,7 +5477,7 @@ msgstr "სიმბოლოს სტილის წაშლა: $1"
 #: sw/inc/strings.hrc:564
 msgctxt "STR_UNDO_CHARFMT_RENAME"
 msgid "Rename character style: $1 $2 $3"
-msgstr "გადარქვი სიმბოლოს სტილს: $1 $2 $3"
+msgstr "სიმბოლოს სტილის სახელის გადარქმევა: $1 $2 $3"
 
 #. AvK4p
 #: sw/inc/strings.hrc:565
@@ -5504,7 +5495,7 @@ msgstr "ჩარჩოს სტილის წაშლა: $1"
 #: sw/inc/strings.hrc:567
 msgctxt "STR_UNDO_FRMFMT_RENAME"
 msgid "Rename frame style: $1 $2 $3"
-msgstr "გადაარქვი ჩარჩოს სტილს: $1 $2 $3"
+msgstr "ჩარჩოს სტილის სახელის გადარქმევა: $1 $2 $3"
 
 #. GG9BH
 #: sw/inc/strings.hrc:568
@@ -5522,13 +5513,13 @@ msgstr "დანომვრის სტილის წაშლა: $1"
 #: sw/inc/strings.hrc:570
 msgctxt "STR_UNDO_NUMRULE_RENAME"
 msgid "Rename numbering style: $1 $2 $3"
-msgstr "გადაარქვი გადანომვრის სტილს: $1 $2 $3"
+msgstr "დანომვრის სტილის სახელის გადარქმევა: $1 $2 $3"
 
 #. oWrh9
 #: sw/inc/strings.hrc:571
 msgctxt "STR_UNDO_BOOKMARK_RENAME"
 msgid "Rename bookmark: $1 $2 $3"
-msgstr "გადაარქვი სანიშნს: $1 $2 $3"
+msgstr "სანიშნეს სახელის გადარქმევა: $1 $2 $3"
 
 #. WTcEw
 #: sw/inc/strings.hrc:572
@@ -5668,7 +5659,7 @@ msgstr "$1-ის ობიექტის სათაურის შეცვ
 #: sw/inc/strings.hrc:595
 msgctxt "STR_UNDO_FLYFRMFMT_DESCRIPTION"
 msgid "Change object description of $1"
-msgstr ""
+msgstr "$1-ის ობიექტის აღწერის შეცვლა"
 
 #. VgNVS
 #: sw/inc/strings.hrc:596
@@ -5884,7 +5875,7 @@ msgstr "გამოსახულების ჩვენება შეუ�
 #: sw/inc/strings.hrc:634
 msgctxt "STR_ERROR_CLPBRD_READ"
 msgid "Error reading from the clipboard."
-msgstr "შეცდომა გაცვლის ბუფერდან წაკითხვისას."
+msgstr "შეცდომა ბუფერიდან წაკითხვისას."
 
 #. bXZQD
 #: sw/inc/strings.hrc:636
@@ -5986,7 +5977,7 @@ msgstr "გვერდის ~ფონი"
 #: sw/inc/strings.hrc:654
 msgctxt "STR_PRINTOPTUI_PICTURES"
 msgid "~Images and other graphic objects"
-msgstr ""
+msgstr "~გამოსახულებები და სხვა გრაფიკული ობიექტები"
 
 #. L6GSj
 #: sw/inc/strings.hrc:655
@@ -6026,16 +6017,15 @@ msgstr "გვერდები:"
 
 #. uddbB
 #: sw/inc/strings.hrc:661
-#, fuzzy
 msgctxt "STR_PRINTOPTUI_PRINT_BLANK"
 msgid "Print ~automatically inserted blank pages"
-msgstr "ჩართული ცარიელი გვერდების ~ავტომატურად ამობეჭდვა"
+msgstr "~ავტომატურად ჩასმული ცარიელი გვერდების დაბეჭდვა"
 
 #. MTJt2
 #: sw/inc/strings.hrc:662
 msgctxt "STR_PRINTOPTUI_ONLY_PAPER"
 msgid "~Use only paper tray from printer preferences"
-msgstr ""
+msgstr "~ქაღალდის თარო პრინტერის პარამეტრებიდან"
 
 #. 4uBam
 #: sw/inc/strings.hrc:663
@@ -6053,13 +6043,13 @@ msgstr "მხოლოდ, კომენტარები"
 #: sw/inc/strings.hrc:665
 msgctxt "STR_PRINTOPTUI_PLACE_END"
 msgid "Place at end of document"
-msgstr ""
+msgstr "დოკუმენტის ბოლოში მოთავსება"
 
 #. D4BXH
 #: sw/inc/strings.hrc:666
 msgctxt "STR_PRINTOPTUI_PLACE_PAGE"
 msgid "Place at end of page"
-msgstr ""
+msgstr "გვერდის ბოლოში მოთავსება"
 
 #. 6rzab
 #: sw/inc/strings.hrc:667
@@ -6203,25 +6193,25 @@ msgstr "გამორთ"
 #: sw/inc/strings.hrc:692
 msgctxt "STR_OUTLINE_CONTENT_TOGGLE_VISIBILITY"
 msgid "Click to toggle outline folding"
-msgstr ""
+msgstr "აირჩიეთ კარკასის გაკეცვის გადასართავად"
 
 #. 44jEc
 #: sw/inc/strings.hrc:693
 msgctxt "STR_OUTLINE_CONTENT_TOGGLE_VISIBILITY_EXT"
 msgid "right-click to include sub levels"
-msgstr ""
+msgstr "მარჯვენა წკაპი ქვედონეების ჩასასმელად"
 
 #. mnZA9
 #: sw/inc/strings.hrc:694
 msgctxt "STR_CLICK_OUTLINE_CONTENT_TOGGLE_VISIBILITY"
 msgid "Click to toggle outline folding"
-msgstr ""
+msgstr "აირჩიეთ კარკასის გაკეცვის გადასართავად"
 
 #. rkD8H
 #: sw/inc/strings.hrc:695
 msgctxt "STR_CLICK_OUTLINE_CONTENT_TOGGLE_VISIBILITY_EXT"
 msgid "right-click to include sub levels"
-msgstr ""
+msgstr "მარჯვენა წკაპი ქვედონეების ჩასასმელად"
 
 #. oBH6y
 #: sw/inc/strings.hrc:696
@@ -6245,7 +6235,7 @@ msgstr "დაკეცვა ქვედონეების ჩათვლ�
 #: sw/inc/strings.hrc:699
 msgctxt "STR_OUTLINE_LEVELS_SHOWN_TITLE"
 msgid "Show Up to Outline Level"
-msgstr ""
+msgstr "ჩვენება კარკასის დონემდე"
 
 #. 6UtZh
 #: sw/inc/strings.hrc:700
@@ -6474,19 +6464,19 @@ msgstr "** სინტაქსის შეცდომა **"
 #: sw/inc/strings.hrc:743
 msgctxt "STR_CALC_ZERODIV"
 msgid "** Division by zero **"
-msgstr ""
+msgstr "** ნულზე გაყოფა **"
 
 #. HSo6d
 #: sw/inc/strings.hrc:744
 msgctxt "STR_CALC_BRACK"
 msgid "** Wrong use of brackets **"
-msgstr ""
+msgstr "** ფრჩხილების არასწორი გამოყენება **"
 
 #. jcNfg
 #: sw/inc/strings.hrc:745
 msgctxt "STR_CALC_POW"
 msgid "** Square function overflow **"
-msgstr ""
+msgstr "** კვადრატში აყვანის ფუნქციის გადავსება **"
 
 #. C453V
 #: sw/inc/strings.hrc:746
@@ -6504,13 +6494,13 @@ msgstr "** შეცდომა **"
 #: sw/inc/strings.hrc:748
 msgctxt "STR_CALC_ERROR"
 msgid "** Expression is faulty **"
-msgstr ""
+msgstr "** გამოსახულება ჩავარდნილია **"
 
 #. 2yBhF
 #: sw/inc/strings.hrc:749
 msgctxt "STR_GETREFFLD_REFITEMNOTFOUND"
 msgid "Error: Reference source not found"
-msgstr ""
+msgstr "შეცდომა: მიმართვის წყარო ვერ ვიპოვე"
 
 #. jgRW7
 #: sw/inc/strings.hrc:750
@@ -7076,7 +7066,7 @@ msgstr "ჩემი ავტოტექსტი"
 #: sw/inc/strings.hrc:848
 msgctxt "STR_NOGLOS"
 msgid "AutoText for Shortcut '%1' not found."
-msgstr ""
+msgstr "ავტოტექსტი მალსახმობისთვის '%1' აღმოჩენილი არაა."
 
 #. MwUEP
 #: sw/inc/strings.hrc:849
@@ -7100,7 +7090,7 @@ msgstr "ავტოტექსტი ვერ შეიქმნება."
 #: sw/inc/strings.hrc:852
 msgctxt "STR_CLPBRD_FORMAT_ERROR"
 msgid "Requested clipboard format is not available."
-msgstr "მოთხოვნილი გაცვლის ბუფერის ფორმატი არ არის ხელმისაწვდომი."
+msgstr "მოთხოვნილი ბუფერის ფორმატი ხელმისაწვდომი არაა."
 
 #. YxCCF
 #: sw/inc/strings.hrc:853
@@ -7112,19 +7102,19 @@ msgstr "%PRODUCTNAME %PRODUCTVERSION ტექსტური დოკუმე
 #: sw/inc/strings.hrc:854
 msgctxt "STR_PRIVATEGRAPHIC"
 msgid "Image (%PRODUCTNAME %PRODUCTVERSION Text Document)"
-msgstr ""
+msgstr "გამოსახულება (%PRODUCTNAME %PRODUCTVERSION-ის ტექსტური დოკუმენტი)"
 
 #. ewPPB
 #: sw/inc/strings.hrc:855
 msgctxt "STR_PRIVATEOLE"
 msgid "Object (%PRODUCTNAME %PRODUCTVERSION Text Document)"
-msgstr ""
+msgstr "ობიექტი (%PRODUCTNAME %PRODUCTVERSION ტექსტური დოკუმენტი)"
 
 #. 9VEc3
 #: sw/inc/strings.hrc:856
 msgctxt "STR_DDEFORMAT"
 msgid "Dynamic Data Exchange (DDE link)"
-msgstr ""
+msgstr "დინამიკური მონაცემების მიმოცვლა (DDE ბმული)"
 
 #. svrE7
 #: sw/inc/strings.hrc:858
@@ -7422,7 +7412,7 @@ msgstr "მოთხოვნა"
 #: sw/inc/strings.hrc:911
 msgctxt "STR_QUERY_SPELL_CONTINUE"
 msgid "Continue checking at beginning of document?"
-msgstr "განვაგრძოთ დოკუმენტის დასაწყისში შემოწმება?"
+msgstr "გავაგრძელო შემოწმება დოკუმენტის დასაწყისიდან?"
 
 #. gE7CA
 #: sw/inc/strings.hrc:912
@@ -7971,13 +7961,13 @@ msgstr "a b c"
 #: sw/inc/strings.hrc:1027
 msgctxt "FMT_NUM_ABC_N"
 msgid "A .. AA .. AAA"
-msgstr ""
+msgstr "A .. AA .. AAA"
 
 #. m84Fb
 #: sw/inc/strings.hrc:1028
 msgctxt "FMT_NUM_SABC_N"
 msgid "a .. aa .. aaa"
-msgstr ""
+msgstr "a .. aa .. aaa"
 
 #. d9YtB
 #: sw/inc/strings.hrc:1029
@@ -8436,7 +8426,7 @@ msgstr "ჰორიზონტალური და ვერტიკალ�
 #: sw/inc/strings.hrc:1125
 msgctxt "STR_MIRROR_TOGGLE"
 msgid "+ mirror horizontal on even pages"
-msgstr ""
+msgstr "+ ჰორიზონტალური ანარეკლი ლუწ გვერდებზე"
 
 #. kbnTf
 #: sw/inc/strings.hrc:1126
@@ -8844,7 +8834,7 @@ msgstr "ტექსტის დინების მიყოლა"
 #: sw/inc/strings.hrc:1193
 msgctxt "STR_DONT_FOLLOW_TEXT_FLOW"
 msgid "Do not follow text flow"
-msgstr ""
+msgstr "ტექსტის დინებისთვის არმიყოლა"
 
 #. yXFKP
 #: sw/inc/strings.hrc:1194
@@ -9271,7 +9261,7 @@ msgstr "სქოლიო: "
 #: sw/inc/strings.hrc:1267
 msgctxt "STR_SMARTTAG_CLICK"
 msgid "%s-click to open Smart Tag menu"
-msgstr ""
+msgstr "%s-წკაპი ჭკვიანი ჭდის მენიუსთვის"
 
 #. QCD36
 #: sw/inc/strings.hrc:1268
@@ -9359,16 +9349,15 @@ msgstr "გვერდის გაყოფის ჩასწორება"
 
 #. uvDKE
 #: sw/inc/strings.hrc:1285
-#, fuzzy
 msgctxt "STR_GRFILTER_OPENERROR"
 msgid "Image file cannot be opened"
-msgstr "ეს ფაილი ვერ გაიხსნება"
+msgstr "გამოსახულების ფაილის გახსნა შეუძლებელია"
 
 #. iJuAv
 #: sw/inc/strings.hrc:1286
 msgctxt "STR_GRFILTER_IOERROR"
 msgid "Image file cannot be read"
-msgstr ""
+msgstr "გამოსახულების ფაილის წაკითხვა შეუძლებელია"
 
 #. Bwwho
 #: sw/inc/strings.hrc:1287
@@ -9380,7 +9369,7 @@ msgstr "უცნობი გამოსახულების ფორმ�
 #: sw/inc/strings.hrc:1288
 msgctxt "STR_GRFILTER_VERSIONERROR"
 msgid "This image file version is not supported"
-msgstr ""
+msgstr "ამ გამოსახულების ფაილის ვერსია მხარდაჭერილი არაა"
 
 #. xy4Vm
 #: sw/inc/strings.hrc:1289
@@ -9392,7 +9381,7 @@ msgstr "გამოსახულების ფილტრი ვერ ვ
 #: sw/inc/strings.hrc:1290
 msgctxt "STR_GRFILTER_TOOBIG"
 msgid "Not enough memory to insert the image."
-msgstr ""
+msgstr "გამოსახულების ჩასასმელად მეხსიერება საკმარისი არაა."
 
 #. 5ihue
 #: sw/inc/strings.hrc:1291
@@ -9476,13 +9465,13 @@ msgstr "გვერდი %1 %2-დან"
 #: sw/inc/strings.hrc:1304
 msgctxt "STR_PAGE_COUNT_EXTENDED"
 msgid "Page %1 of %2 [Page %3]"
-msgstr ""
+msgstr "გვერდი %1 %2-დან [გვერდი %3]"
 
 #. gqFYf
 #: sw/inc/strings.hrc:1305
 msgctxt "STR_PAGES_COUNT"
 msgid "Pages %1 - %2 of %3"
-msgstr ""
+msgstr "გვერდები %1 - %2 %3-დან"
 
 #. BqLqv
 #: sw/inc/strings.hrc:1306
@@ -9494,7 +9483,7 @@ msgstr ""
 #: sw/inc/strings.hrc:1307
 msgctxt "STR_PAGE_COUNT_CUSTOM"
 msgid "Page %1 (%2) of %3"
-msgstr ""
+msgstr "გვერდი %1 (%2) %3-დან"
 
 #. jBinK
 #: sw/inc/strings.hrc:1308
@@ -9772,7 +9761,7 @@ msgstr ""
 #: sw/inc/strings.hrc:1357
 msgctxt "STR_AUTOMARK_TYPE"
 msgid "Selection file for the alphabetical index (*.sdi)"
-msgstr ""
+msgstr "ფაილის არჩევანი ანბანური ინდექსისთვის (*.sdi)"
 
 #. Rvcdk
 #. -----------------------------------------------------------------------
@@ -9853,13 +9842,13 @@ msgstr ""
 #: sw/inc/strings.hrc:1377
 msgctxt "STR_WRONG_PASSWORD"
 msgid "The password entered is invalid."
-msgstr ""
+msgstr "შეყვანილი პაროლი არასწორია."
 
 #. oUR7Y
 #: sw/inc/strings.hrc:1378
 msgctxt "STR_WRONG_PASSWD_REPEAT"
 msgid "The password has not been set."
-msgstr ""
+msgstr "პაროლი დაყენებული არაა."
 
 #. GBVqD
 #: sw/inc/strings.hrc:1380
@@ -9871,7 +9860,7 @@ msgstr "გადატანა დასრულდა"
 #: sw/inc/strings.hrc:1381
 msgctxt "STR_LANGSTATUS_NONE"
 msgid "None (Do not check spelling)"
-msgstr ""
+msgstr "არცერთი (არ შეამოწმო მართლწერა)"
 
 #. Z8EjG
 #: sw/inc/strings.hrc:1382
@@ -9901,7 +9890,7 @@ msgstr "ახსნები..."
 #: sw/inc/strings.hrc:1387
 msgctxt "STR_QUERY_SPECIAL_FORCED"
 msgid "Check special regions is deactivated. Check anyway?"
-msgstr ""
+msgstr "სპეციალური რეგიონების შემოწმება დეაქტივირებულია. შევამოწმო მაინც?"
 
 #. KiAdJ
 #: sw/inc/strings.hrc:1388
@@ -9919,7 +9908,7 @@ msgstr ""
 #: sw/inc/strings.hrc:1390
 msgctxt "STR_ERR_SRCSTREAM"
 msgid "The source cannot be loaded."
-msgstr ""
+msgstr "წყაროს ჩატვირთვა შეუძლებელია."
 
 #. K9qMS
 #: sw/inc/strings.hrc:1391
@@ -9965,16 +9954,15 @@ msgstr "სქოლიოს/განმარტებებისა და 
 
 #. EzBCZ
 #: sw/inc/strings.hrc:1398
-#, fuzzy
 msgctxt "STR_NB_REPLACED"
 msgid "Search key replaced XX times."
-msgstr "საძიებო სიტყვა შეიცვალა XX-ჯერ"
+msgstr "ძიების პირობის ჩანაცვლების რიცხვი: XX."
 
 #. 5GCGF
 #: sw/inc/strings.hrc:1399
 msgctxt "STR_SEARCH_KEY_FOUND_TIMES"
 msgid "Search key found %1 times."
-msgstr ""
+msgstr "საძებნი სტრიქონი ნაპოვნია %1-ჯერ."
 
 #. fgywB
 #: sw/inc/strings.hrc:1400
@@ -10190,7 +10178,7 @@ msgstr "ხელით"
 #: sw/inc/strings.hrc:1452
 msgctxt "STR_CONTENT_CONTROL_PLACEHOLDER"
 msgid "Click here to enter text"
-msgstr ""
+msgstr "დააწკაპუნეთ აქ ტექსტის შესაყვანად"
 
 #. N3ocz
 #: sw/inc/strings.hrc:1453
@@ -10216,7 +10204,7 @@ msgstr ""
 #: sw/inc/strings.hrc:1460
 msgctxt "STR_A11Y_DESIGN_MODE_TITLE"
 msgid "The forms are not editable"
-msgstr ""
+msgstr "ფორმები ჩასწორებადი არაა"
 
 #. QJbEq
 #: sw/inc/strings.hrc:1461
@@ -10274,7 +10262,7 @@ msgstr "df"
 #: sw/inc/strings.hrc:1477
 msgctxt "STR_COMPAT_OPT_ADDSPACING"
 msgid "Add spacing between paragraphs and tables"
-msgstr ""
+msgstr "სივრცის დამატება აბზაცებსა და ცხრილებს შორის"
 
 #. eoWMC
 #: sw/inc/strings.hrc:1478
@@ -10286,7 +10274,7 @@ msgstr ""
 #: sw/inc/strings.hrc:1479
 msgctxt "STR_COMPAT_OPT_USEOURTABSTOPFORMAT"
 msgid "Use OpenOffice.org 1.1 tabstop formatting"
-msgstr ""
+msgstr "OpenOffice.org 1.1-ის ტაბულაციის გაჩერების დაფორმატების გამოყენება"
 
 #. cR3TC
 #: sw/inc/strings.hrc:1480
@@ -10298,7 +10286,7 @@ msgstr ""
 #: sw/inc/strings.hrc:1481
 msgctxt "STR_COMPAT_OPT_USELINESPACING"
 msgid "Use OpenOffice.org 1.1 line spacing"
-msgstr ""
+msgstr "Openffice.org 1.1-ის ხაზებს შუა სივრცის გამოყენება"
 
 #. rWnd2
 #: sw/inc/strings.hrc:1482
@@ -10310,7 +10298,7 @@ msgstr ""
 #: sw/inc/strings.hrc:1483
 msgctxt "STR_COMPAT_OPT_USEOBJECTPOSITIONING"
 msgid "Use OpenOffice.org 1.1 object positioning"
-msgstr ""
+msgstr "OpenOffice.org 1.1-ის ობიექტეის მოთავსების გამოყენება"
 
 #. szFCh
 #: sw/inc/strings.hrc:1484
@@ -10322,7 +10310,7 @@ msgstr ""
 #: sw/inc/strings.hrc:1485
 msgctxt "STR_COMPAT_OPT_CONSIDERWRAPPINGSTYLE"
 msgid "Consider wrapping style when positioning objects"
-msgstr ""
+msgstr "გადატანის სტილის გათვალისწინება ობიექტების მოთავსებისას"
 
 #. WBvDH
 #: sw/inc/strings.hrc:1486
@@ -10434,17 +10422,15 @@ msgstr "პირველი ორი დიდი ასოს შესწ�
 
 #. JBCDA
 #: sw/inc/utlui.hrc:33
-#, fuzzy
 msgctxt "RID_SHELLRES_AUTOFMTSTRS"
 msgid "Capitalize first letter of sentences"
-msgstr "გაზარდე წინადადების პირველი ასო"
+msgstr "წინადადების პირველი ასოს გადიდება"
 
 #. eGLb9
 #: sw/inc/utlui.hrc:34
-#, fuzzy
 msgctxt "RID_SHELLRES_AUTOFMTSTRS"
 msgid "Replace \"standard\" quotes with %1custom%2 quotes"
-msgstr " \"სტანდარტული\" ბრჭყალების %1არჩეული%2 ბრჭყალებით შეცვლა"
+msgstr "\"სტანდარტული\" ბრჭყალების შეცვლა %1არჩეული%2 ბრჭყალებით"
 
 #. dgZCx
 #: sw/inc/utlui.hrc:35
@@ -10472,10 +10458,9 @@ msgstr "ავტომატური *სქელი*"
 
 #. oMfhs
 #: sw/inc/utlui.hrc:39
-#, fuzzy
 msgctxt "RID_SHELLRES_AUTOFMTSTRS"
 msgid "Replace 1/2 ... with ½ ..."
-msgstr "ჩაანაცვლე 1/2 ...  ½  -ით..."
+msgstr "1/2-ის ჩანაცვლება ... ½ -ით..."
 
 #. UCK6y
 #: sw/inc/utlui.hrc:40
@@ -10511,7 +10496,7 @@ msgstr "\"სხეული ტექსტის\" სტილის და�
 #: sw/inc/utlui.hrc:45 sw/inc/utlui.hrc:47
 msgctxt "RID_SHELLRES_AUTOFMTSTRS"
 msgid "Set \"Body Text, Indented\" Style"
-msgstr ""
+msgstr "\"სხეულის ტექსტი, შეწეული\" სტილის დაყენება"
 
 #. qEb3E
 #: sw/inc/utlui.hrc:46
@@ -10527,10 +10512,9 @@ msgstr "დააყენე \"სათაური $(ARG1)\" სტილი"
 
 #. orFXE
 #: sw/inc/utlui.hrc:49
-#, fuzzy
 msgctxt "RID_SHELLRES_AUTOFMTSTRS"
 msgid "Set \"Bullet\" or \"Numbering\" Style"
-msgstr "დააყენე \"ჩამონათვალი\" ან \"ნუმერაციის\" სტილი"
+msgstr "\"მარკირების\" ან \"დანომვრის\" სტილის დაყენება"
 
 #. yGoaB
 #: sw/inc/utlui.hrc:50
@@ -10590,7 +10574,7 @@ msgstr "მიბმული გამოსახულება ვერ ვ
 #: sw/uiconfig/swriter/ui/a11ycheckissuespanel.ui:130
 msgctxt "a11ycheckissuespanel|expand_no_alt_label"
 msgid "Missing alternative or description text"
-msgstr ""
+msgstr "არშევსებული ალტერნატიული ან აღწერის ტექსტი"
 
 #. 5GkvC
 #: sw/uiconfig/swriter/ui/a11ycheckissuespanel.ui:159
@@ -10716,7 +10700,7 @@ msgstr "მონიშნეთ ველი და გადაათრიე
 #: sw/uiconfig/swriter/ui/addressblockdialog.ui:189
 msgctxt "addressblockdialog|addressdestft"
 msgid "1. Drag address elements here"
-msgstr ""
+msgstr "1. გადმოათრიეთ აქ მისამართის ელემენტები"
 
 #. FPtPs
 #: sw/uiconfig/swriter/ui/addressblockdialog.ui:213
@@ -10884,7 +10868,7 @@ msgstr "_კომენტარის დისკუსიის წაშლ
 #: sw/uiconfig/swriter/ui/annotation.ui:80
 msgctxt "annotationmenu|deleteby"
 msgid "Delete _All Comments by $1"
-msgstr ""
+msgstr "$1-ის ყველა _კომენტარის წაშლა"
 
 #. 8WjDG
 #: sw/uiconfig/swriter/ui/annotation.ui:88
@@ -10974,7 +10958,7 @@ msgstr "_LF"
 #: sw/uiconfig/swriter/ui/asciifilterdialog.ui:241
 msgctxt "asciifilterdialog|extended_tip|lf"
 msgid "Produces a \"Linefeed\" as the paragraph break."
-msgstr ""
+msgstr "ხაზის დასრულების სიმბოლო აბზაცის ბოლოში."
 
 #. jWeWy
 #: sw/uiconfig/swriter/ui/asciifilterdialog.ui:272
@@ -11120,7 +11104,7 @@ msgstr "სტილები"
 #: sw/uiconfig/swriter/ui/assignstylesdialog.ui:484
 msgctxt "assignstylesdialog|extended_tip|AssignStylesDialog"
 msgid "Creates index entries from specific paragraph styles."
-msgstr "ქმნის ინდექსის ჩანაწერებს სპეციფიკური პარაგრაფის სტილებით."
+msgstr "ქმნის ინდექსის ჩანაწერებს მითითებული აბზაცის სტილებიდან."
 
 #. hDDjU
 #: sw/uiconfig/swriter/ui/attachnamedialog.ui:7
@@ -11156,7 +11140,7 @@ msgstr "სერვერის ავთენტიკაცია"
 #: sw/uiconfig/swriter/ui/authenticationsettingsdialog.ui:92
 msgctxt "authenticationsettingsdialog|authentication"
 msgid "The outgoing mail server (SMTP) requires au_thentication"
-msgstr ""
+msgstr "გამავალ ელფოსტის სერვერ (SMTP) ა_ვთენტიკაცია სჭირდება"
 
 #. G5XjW
 #: sw/uiconfig/swriter/ui/authenticationsettingsdialog.ui:100
@@ -11198,7 +11182,7 @@ msgstr "_მომხმარებლის სახელი:"
 #: sw/uiconfig/swriter/ui/authenticationsettingsdialog.ui:192
 msgctxt "extended_tip|outpassword"
 msgid "Enter the password for the user name."
-msgstr "მომხმარებლის სახელი და პაროლი შეიყვანეთ."
+msgstr "შეიყვანეთ პაროლი მომხმარებლისთვის."
 
 #. Sd4zx
 #: sw/uiconfig/swriter/ui/authenticationsettingsdialog.ui:206
@@ -11312,19 +11296,19 @@ msgstr "ავტოფორმატი"
 #: sw/uiconfig/swriter/ui/autoformattable.ui:39
 msgctxt "autoformattable|extended_tip|cancel"
 msgid "Closes dialog and discards all changes."
-msgstr ""
+msgstr "დახურავს დიალოგს და მოაცილებს ყველა ცვლილებას."
 
 #. V6Tpf
 #: sw/uiconfig/swriter/ui/autoformattable.ui:60
 msgctxt "autoformattable|extended_tip|ok"
 msgid "Saves all changes and closes dialog."
-msgstr ""
+msgstr "შეინახავს ყველა ცვლილებას და დახურავს დიალოგს."
 
 #. NTY8D
 #: sw/uiconfig/swriter/ui/autoformattable.ui:131
 msgctxt "autoformattable|extended_tip|preview"
 msgid "Displays a preview of the current selection."
-msgstr ""
+msgstr "აჩვენებს მიმდინარე მონიშნულის მინიატურას."
 
 #. q7HjF
 #: sw/uiconfig/swriter/ui/autoformattable.ui:173
@@ -11462,7 +11446,7 @@ msgstr "_ასლი"
 #: sw/uiconfig/swriter/ui/autotext.ui:42
 msgctxt "autotext|extended_tip|copy"
 msgid "Copies the selected AutoText to the clipboard."
-msgstr " აკოპირებს მონიშნულ AutoText გაცვლის ბუფერში."
+msgstr "აკოპირებს მონიშნულ ავტოტექსტს ბუფერში."
 
 #. MxnC4
 #: sw/uiconfig/swriter/ui/autotext.ui:51
@@ -11564,7 +11548,7 @@ msgstr "კატ_ეგორიები..."
 #: sw/uiconfig/swriter/ui/autotext.ui:205
 msgctxt "autotext|extended_tip|categories"
 msgid "Adds, renames, or deletes AutoText categories."
-msgstr "ამატებს, სახელს უცვლის და შლის AutoText კატეგორიებს."
+msgstr "ამატებს, სახელს უცვლის და შლის ავტოტექსტის კატეგორიებს."
 
 #. 6fErD
 #: sw/uiconfig/swriter/ui/autotext.ui:217
@@ -11696,7 +11680,7 @@ msgstr "არცერთი"
 #: sw/uiconfig/swriter/ui/bibliofragment.ui:160
 msgctxt "bibliofragment|targettype3"
 msgid "Jump to Bibliography Table Row"
-msgstr ""
+msgstr "გადასვლა ბიბლიოგრაფიის ცხრილის მწკრივზე"
 
 #. bBcSd
 #: sw/uiconfig/swriter/ui/bibliographyentry.ui:8
@@ -11750,7 +11734,7 @@ msgstr "ბიბლიოგრაფიული მონაცემთა �
 #: sw/uiconfig/swriter/ui/bibliographyentry.ui:159
 msgctxt "bibliographyentry|extended_tip|frombibliography"
 msgid "Inserts a reference from the bibliography database."
-msgstr ""
+msgstr "ჩასვამს მიმართვას ბიბლიოგრაფიის მონაცემთა ბაზიდან."
 
 #. BFK8W
 #: sw/uiconfig/swriter/ui/bibliographyentry.ui:170
@@ -11996,7 +11980,7 @@ msgstr "ელფოსტის მისამართი"
 #: sw/uiconfig/swriter/ui/businessdatapage.ui:237
 msgctxt "extended tip | email"
 msgid "Type your company email address."
-msgstr ""
+msgstr "აკრიფეთ თქვენი კომპანიის ელფოსტის მისამართი."
 
 #. CCKWa
 #: sw/uiconfig/swriter/ui/businessdatapage.ui:256
@@ -12044,7 +12028,7 @@ msgstr "საფოსტო ინდექსი"
 #: sw/uiconfig/swriter/ui/businessdatapage.ui:346
 msgctxt "extended tip | izip"
 msgid "Type company ZIP in this field."
-msgstr ""
+msgstr "აკრიფეთ კომპანიის საფოსტო კოდი ამ ველში."
 
 #. NoUHx
 #: sw/uiconfig/swriter/ui/businessdatapage.ui:376
@@ -12272,7 +12256,7 @@ msgstr "_გამყოფი:"
 #: sw/uiconfig/swriter/ui/captionoptions.ui:326
 msgctxt "captionoptions|label1"
 msgid "Heading Number Before Caption Number"
-msgstr ""
+msgstr "სათაურის ნომერი წარწერის ნომრამდე"
 
 #. GHBU2
 #: sw/uiconfig/swriter/ui/cardmediumpage.ui:59
@@ -12362,7 +12346,7 @@ msgstr "_უწყევტი"
 #: sw/uiconfig/swriter/ui/cardmediumpage.ui:356
 msgctxt "cardmediumpage|extended_tip|continuous"
 msgid "Prints labels on continuous paper."
-msgstr "ბეჭდავს იარლიყებს უწყვეტ ფურცელზე."
+msgstr "ბეჭდავს ჭდეებს უწყვეტ ფურცელზე."
 
 #. iqG7v
 #: sw/uiconfig/swriter/ui/cardmediumpage.ui:367
@@ -12452,7 +12436,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/ccdialog.ui:181
 msgctxt "ccdialog|label1"
 msgid "Send a Copy of This Mail To..."
-msgstr ""
+msgstr "ამ ელფოსტის ასლის გაგზავნა..."
 
 #. z7D9z
 #: sw/uiconfig/swriter/ui/characterproperties.ui:8
@@ -12794,7 +12778,7 @@ msgstr "შეიყვანეთ სვეტების სასურვ�
 #: sw/uiconfig/swriter/ui/columnpage.ui:711
 msgctxt "columnpage|balance"
 msgid "Evenly distribute contents _to all columns"
-msgstr "შიგთავსის თანაბრად განაწილება _ყველა სვეტში"
+msgstr "შემცველობის თანაბარი განაწილება _ყველა სვეტში"
 
 #. BYYDE
 #: sw/uiconfig/swriter/ui/columnpage.ui:719
@@ -13256,7 +13240,7 @@ msgstr "თარიღის ფორმატი:"
 #: sw/uiconfig/swriter/ui/contentcontrollistitemdlg.ui:8
 msgctxt "contentcontrollistitemdlg|ContentControlListItemDialog"
 msgid "Content Control List Item Properties"
-msgstr ""
+msgstr "შემცველობის კონტროლის სიის ელემენტის თვისებები"
 
 #. 4AXKq
 #: sw/uiconfig/swriter/ui/contentcontrollistitemdlg.ui:90
@@ -13346,7 +13330,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/converttexttable.ui:242
 msgctxt "converttexttable|keepcolumn"
 msgid "Equal width for all columns"
-msgstr "თანაბარი სიგანე ყველა სვეტისათვის"
+msgstr "თანაბარი სიგანე ყველა სვეტისთვის"
 
 #. xLjLr
 #: sw/uiconfig/swriter/ui/converttexttable.ui:250
@@ -13652,7 +13636,7 @@ msgstr "დ_ამატება..."
 #: sw/uiconfig/swriter/ui/customizeaddrlistdialog.ui:118
 msgctxt "customizeaddrlistdialog|extended_tip|add"
 msgid "Inserts a new text field."
-msgstr "ახალი ტექსტური ველის ჩართვა."
+msgstr "ჩასვამს ახალი ტექსტის ველს."
 
 #. zesMS
 #: sw/uiconfig/swriter/ui/customizeaddrlistdialog.ui:137
@@ -13688,7 +13672,7 @@ msgstr "სასურველი გადასაადგილებე�
 #: sw/uiconfig/swriter/ui/datasourcesunavailabledialog.ui:7
 msgctxt "datasourcesunavailabledialog|DataSourcesUnavailableDialog"
 msgid "Create a New Data Source?"
-msgstr ""
+msgstr "შევქმნა ახალი მონაცემების წყარო?"
 
 #. GChGJ
 #: sw/uiconfig/swriter/ui/datasourcesunavailabledialog.ui:14
@@ -13947,7 +13931,7 @@ msgstr "ასახავს მონიშნული AutoText კატე�
 #: sw/uiconfig/swriter/ui/editcategories.ui:308
 msgctxt "editcategories|extended_tip|EditCategoriesDialog"
 msgid "Adds, renames, or deletes AutoText categories."
-msgstr "ამატებს, სახელს უცვლის და შლის AutoText კატეგორიებს."
+msgstr "ამატებს, სახელს უცვლის და შლის ავტოტექსტის კატეგორიებს."
 
 #. uQE9B
 #: sw/uiconfig/swriter/ui/editfielddialog.ui:18
@@ -13959,7 +13943,7 @@ msgstr "ველების ჩასწორება"
 #: sw/uiconfig/swriter/ui/editfielddialog.ui:97
 msgctxt "editfielddialog|prev_tip"
 msgid "Previous field of same type"
-msgstr ""
+msgstr "იგივე ტიპის წინა ველი"
 
 #. rnvem
 #: sw/uiconfig/swriter/ui/editfielddialog.ui:105
@@ -13971,7 +13955,7 @@ msgstr "ველის შემცველობის ჩასწორე�
 #: sw/uiconfig/swriter/ui/editfielddialog.ui:119
 msgctxt "editfielddialog|next_tip"
 msgid "Next field of same type"
-msgstr ""
+msgstr "იგივე ტიპის შემდეგი ველი"
 
 #. zBjeG
 #: sw/uiconfig/swriter/ui/editfielddialog.ui:125
@@ -14199,7 +14183,7 @@ msgstr "თვისებები"
 #: sw/uiconfig/swriter/ui/editsectiondialog.ui:746
 msgctxt "editsectiondialog|extended_tip|EditSectionDialog"
 msgid "Sets the properties of the section."
-msgstr ""
+msgstr "დააყენებს განყოფილების თვისებებს."
 
 #. Sy8Ao
 #: sw/uiconfig/swriter/ui/endnotepage.ui:38
@@ -14313,7 +14297,7 @@ msgstr "სტილები"
 #: sw/uiconfig/swriter/ui/endnotepage.ui:313
 msgctxt "endnotepage|extended_tip|EndnotePage"
 msgid "Specifies the formatting for endnotes."
-msgstr "Specifies the formatting for endnotes."
+msgstr "მიუთითებს განმარტებებისა და შენიშვნების დაფრმატებას."
 
 #. eMZQa
 #: sw/uiconfig/swriter/ui/envaddresspage.ui:49
@@ -14595,13 +14579,13 @@ msgstr "სიმაღლ_ე"
 #: sw/uiconfig/swriter/ui/envformatpage.ui:573
 msgctxt "envformatpage|extended_tip|width"
 msgid "Enter the width of the envelope."
-msgstr "კონვერტის სიგანის შეყვანა."
+msgstr "შეიყვანეთ კონვერტის სიგანე."
 
 #. xVPdi
 #: sw/uiconfig/swriter/ui/envformatpage.ui:593
 msgctxt "envformatpage|extended_tip|height"
 msgid "Enter the height of the envelope."
-msgstr "კონვერტის სიმაღლის შეყვანა."
+msgstr "შეიყვანეთ კონვერტის სიმაღლე."
 
 #. oi8DL
 #: sw/uiconfig/swriter/ui/envformatpage.ui:608
@@ -15074,13 +15058,13 @@ msgstr "Applies the format that you select in the მომხმარებლ
 #: sw/uiconfig/swriter/ui/flddbpage.ui:420
 msgctxt "flddbpage|extended_tip|format"
 msgid "Lists the available user-defined formats."
-msgstr ""
+msgstr "ჩამოთვლის ხელმისაწვდომ მომხმარებლის ფორმატებს."
 
 #. mY32p
 #: sw/uiconfig/swriter/ui/flddbpage.ui:440
 msgctxt "flddbpage|extended_tip|numformat"
 msgid "Lists the available user-defined formats."
-msgstr ""
+msgstr "ჩამოთვლის ხელმისაწვდომ მომხმარებლის ფორმატებს."
 
 #. LFxBU
 #: sw/uiconfig/swriter/ui/flddbpage.ui:462
@@ -15333,7 +15317,7 @@ msgstr "შეიყვანეთ ახალი ელემენტი."
 #: sw/uiconfig/swriter/ui/fldfuncpage.ui:506
 msgctxt "fldfuncpage|extended_tip|add"
 msgid "Adds the Item to the list."
-msgstr "ამატებსItem სიაზე."
+msgstr "ელემენტის ჩამატება სიაში."
 
 #. 4KX6H
 #: sw/uiconfig/swriter/ui/fldfuncpage.ui:525
@@ -15405,7 +15389,7 @@ msgstr "_ტიპი"
 #: sw/uiconfig/swriter/ui/fldrefpage.ui:153
 msgctxt "fldrefpage|tooltip_text|format"
 msgid "Select format for selected reference field."
-msgstr ""
+msgstr "აირჩიეთ ფორმატი მონიშნული მიმართვის ველისთვის."
 
 #. vhEDd
 #: sw/uiconfig/swriter/ui/fldrefpage.ui:169
@@ -15663,7 +15647,7 @@ msgstr "ჭდეების სინქრონიზაცია"
 #: sw/uiconfig/swriter/ui/footendnotedialog.ui:8
 msgctxt "footendnotedialog|FootEndnoteDialog"
 msgid "Settings of Footnotes and Endnotes"
-msgstr ""
+msgstr "სქოლიოს და განმარტებებისა და შენიშვნების პარამეტრები"
 
 #. hBdgx
 #: sw/uiconfig/swriter/ui/footendnotedialog.ui:135
@@ -15681,7 +15665,7 @@ msgstr "განმარტებები და შენიშვნებ�
 #: sw/uiconfig/swriter/ui/footnoteareapage.ui:59
 msgctxt "footnoteareapage|maxheightpage"
 msgid "_Not larger than page area"
-msgstr "_არაუმეტეს გვერდის სიმაღლის"
+msgstr "_არაუმეტეს გვერდის ალაგისა"
 
 #. GSJFc
 #: sw/uiconfig/swriter/ui/footnoteareapage.ui:68
@@ -16029,7 +16013,7 @@ msgstr "სტილები"
 #: sw/uiconfig/swriter/ui/footnotepage.ui:510
 msgctxt "footnotepage|extended_tip|FootnotePage"
 msgid "Specifies the formatting for footnotes."
-msgstr ""
+msgstr "მიუთითებს დაფორმატებას სქოლიოებისთვის."
 
 #. MV5EC
 #: sw/uiconfig/swriter/ui/footnotesendnotestabpage.ui:51
@@ -16095,7 +16079,7 @@ msgstr "სა_დამდე:"
 #: sw/uiconfig/swriter/ui/footnotesendnotestabpage.ui:236
 msgctxt "footnotesendnotestabpage|ftnntattextend"
 msgid "Collec_t at end of text"
-msgstr ""
+msgstr "_ტექსტის ბოლოში მოგროვება"
 
 #. uTqgF
 #: sw/uiconfig/swriter/ui/footnotesendnotestabpage.ui:245
@@ -16113,7 +16097,7 @@ msgstr "ქვედა კოლონტიტულები"
 #: sw/uiconfig/swriter/ui/footnotesendnotestabpage.ui:292
 msgctxt "footnotesendnotestabpage|endntattextend"
 msgid "C_ollect at end of section"
-msgstr ""
+msgstr "შეგრ_ოვება განყოფილების ბოლოს"
 
 #. KH5Xn
 #: sw/uiconfig/swriter/ui/footnotesendnotestabpage.ui:301
@@ -16263,7 +16247,7 @@ msgstr "ასახავს ცხრილის სიგანეს გვ
 #: sw/uiconfig/swriter/ui/formattablepage.ui:153
 msgctxt "formattablepage|extended_tip|widthmf"
 msgid "Enter the width of the table."
-msgstr "Enter the width of the table."
+msgstr "შეიყვანეთ ცხრილის სიგანე."
 
 #. FCGH6
 #: sw/uiconfig/swriter/ui/formattablepage.ui:174
@@ -16725,7 +16709,7 @@ msgstr "მიმდევრობა"
 #: sw/uiconfig/swriter/ui/frmaddpage.ui:571
 msgctxt "frmaddpage|labelSequence"
 msgid "Specify the sequence for linked frames."
-msgstr ""
+msgstr "მიუთითეთ მიმდევრობა მიბმული ჩარჩოებისთვის."
 
 #. 7Eswq
 #: sw/uiconfig/swriter/ui/frmaddpage.ui:586
@@ -16899,7 +16883,7 @@ msgstr "სიმ_ბოლოზე"
 #: sw/uiconfig/swriter/ui/frmtypepage.ui:506
 msgctxt "frmtypepage|extended_tip|tochar"
 msgid "Anchors the selection to a character."
-msgstr ""
+msgstr "მიამაგრებს მონიშნულს სიმბოლოზე."
 
 #. C9xQY
 #: sw/uiconfig/swriter/ui/frmtypepage.ui:517
@@ -17031,7 +17015,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/frmtypepage.ui:844
 msgctxt "frmtypepage|flysplit"
 msgid "Allow frame to split across pages"
-msgstr ""
+msgstr "ჩარჩოს გვერდებს შორის გაყოფის დაშვება"
 
 #. cAiUp
 #: sw/uiconfig/swriter/ui/frmtypepage.ui:864
@@ -17109,7 +17093,7 @@ msgstr "_სერვერის-მხრის გამოსახულე
 #: sw/uiconfig/swriter/ui/frmurlpage.ui:214
 msgctxt "frmurlpage|extended_tip|server"
 msgid "Uses a server-side image map."
-msgstr "გამოიყენებს სერვერის მხრიან სურათის გეგმას."
+msgstr "იყენებს სერვერის მხრის გამოსახულებს რუკას."
 
 #. MWxs6
 #: sw/uiconfig/swriter/ui/frmurlpage.ui:225
@@ -17199,7 +17183,7 @@ msgstr "ინდექსის ჩანაწერის ჩასმა"
 #: sw/uiconfig/swriter/ui/indexentry.ui:63
 msgctxt "indexentry|tooltip_text|close"
 msgid "Close dialog without saving non-applied changes."
-msgstr ""
+msgstr "დიალოგის დახურვა გადაუტარებელი ცვლილებების შენახვის გარეშე."
 
 #. 8dTXx
 #: sw/uiconfig/swriter/ui/indexentry.ui:81
@@ -17343,7 +17327,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/indexentry.ui:529
 msgctxt "indexentry|applytoallcb"
 msgid "Apply to all other occurrences"
-msgstr ""
+msgstr "გადატარება ყველა სხვა გამოჩენაზე"
 
 #. MBayS
 #: sw/uiconfig/swriter/ui/indexentry.ui:533
@@ -17451,13 +17435,13 @@ msgstr "მხოლოდ წაკითხვადი შემცველ�
 #: sw/uiconfig/swriter/ui/inforeadonlydialog.ui:13
 msgctxt "inforeadonlydialog|InfoReadonlyDialog"
 msgid "Write-protected content cannot be changed."
-msgstr ""
+msgstr "ჩაწერისგან დაცული შემცველობის შეცვლა შეუძლებელია."
 
 #. vGSds
 #: sw/uiconfig/swriter/ui/inforeadonlydialog.ui:14
 msgctxt "inforeadonlydialog|InfoReadonlyDialog"
 msgid "No modifications will be accepted."
-msgstr ""
+msgstr "ცვლილებები მიღებული არ იქნება."
 
 #. wun9A
 #: sw/uiconfig/swriter/ui/inputfielddialog.ui:8
@@ -17559,7 +17543,7 @@ msgstr "ხარისხი"
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:68
 msgctxt "inputwinmenu|extended_tip|pow"
 msgid "Calculates the power of a number."
-msgstr ""
+msgstr "გამოითვლის რიცხვის ხარისხს."
 
 #. dMv5S
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:77
@@ -17577,7 +17561,7 @@ msgstr "სიის გამყოფი"
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:91
 msgctxt "inputwinmenu|extended_tip||"
 msgid "Separates the elements in a list."
-msgstr ""
+msgstr "გამოყოფს სიის ელემენტებს."
 
 #. VXGUH
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:100
@@ -17589,7 +17573,7 @@ msgstr "ტოლი"
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:104
 msgctxt "inputwinmenu|extended_tip|eq"
 msgid "Checks if selected values are equal."
-msgstr ""
+msgstr "ამოწმებს, ტოლია თუ არა მონიშნული მნიშვნელობები."
 
 #. g3ARG
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:113
@@ -17601,7 +17585,7 @@ msgstr "არ უდრის"
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:117
 msgctxt "inputwinmenu|extended_tip|neq"
 msgid "Tests for inequality between selected values."
-msgstr ""
+msgstr "ამოწმებს უტოლობას მონიშნულ მნიშვნელობებს შორს."
 
 #. 9y6jk
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:126
@@ -17781,7 +17765,7 @@ msgstr "სინუსი"
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:333
 msgctxt "inputwinmenu|extended_tip|sin"
 msgid "Calculates the sine in radians"
-msgstr ""
+msgstr "ითვლის სინუსს რადიანებში"
 
 #. EGGzK
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:342
@@ -17793,7 +17777,7 @@ msgstr "კოსინუსი"
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:346
 msgctxt "inputwinmenu|extended_tip|cos"
 msgid "Calculates the cosine in radians."
-msgstr ""
+msgstr "გამოთვლის კოსინუსს რადიანებში."
 
 #. nbqKZ
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:355
@@ -17805,7 +17789,7 @@ msgstr "ტანგენსი"
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:359
 msgctxt "inputwinmenu|extended_tip|tag"
 msgid "Calculates the tangent in radians."
-msgstr ""
+msgstr "გამოთვლის ტანგენსს რადიანებში."
 
 #. PUrKG
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:368
@@ -17817,7 +17801,7 @@ msgstr "არკსინუსი"
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:372
 msgctxt "inputwinmenu|extended_tip|asin"
 msgid "Calculates the arc sine in radians."
-msgstr ""
+msgstr "გამოთვლის არკსინუსს რადიანებში."
 
 #. 4VKJB
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:381
@@ -17829,7 +17813,7 @@ msgstr "არკკოსინუსი"
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:385
 msgctxt "inputwinmenu|extended_tip|acos"
 msgid "Calculates the arc cosine in radians."
-msgstr ""
+msgstr "გამოთვლის არკკოსინუსს რადიანებში."
 
 #. QB8fF
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:394
@@ -17841,7 +17825,7 @@ msgstr "არკტანგენსი"
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:398
 msgctxt "inputwinmenu|extended_tip|atan"
 msgid "Calculates the arc tangent in radians."
-msgstr ""
+msgstr "გამოთვლის არკტანგენსს რადიანებში."
 
 #. mQRGG
 #: sw/uiconfig/swriter/ui/inputwinmenu.ui:413
@@ -18725,19 +18709,19 @@ msgstr "ჩასმა"
 #: sw/uiconfig/swriter/ui/inserttable.ui:61
 msgctxt "inserttable|extended_tip|ok"
 msgid "Saves all changes and closes dialog."
-msgstr ""
+msgstr "შეინახავს ყველა ცვლილებას და დახურავს დიალოგს."
 
 #. M4Bgm
 #: sw/uiconfig/swriter/ui/inserttable.ui:80
 msgctxt "inserttable|extended_tip|cancel"
 msgid "Closes dialog and discards all changes."
-msgstr ""
+msgstr "დახურავს დიალოგს და მოაცილებს ყველა ცვლილებას."
 
 #. zNdax
 #: sw/uiconfig/swriter/ui/inserttable.ui:147
 msgctxt "inserttable|extended_tip|nameedit"
 msgid "Enter a name for the table."
-msgstr ""
+msgstr "შეიყვანეთ სახელი ცხრილისთვის."
 
 #. nrFC2
 #: sw/uiconfig/swriter/ui/inserttable.ui:161
@@ -18797,7 +18781,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/inserttable.ui:309
 msgctxt "inserttable|repeatcb"
 msgid "Repeat heading rows on new _pages"
-msgstr ""
+msgstr "სათაურის მწკრივების გამეორება ახალ _გვერდებზე"
 
 #. LdEem
 #: sw/uiconfig/swriter/ui/inserttable.ui:320
@@ -18809,7 +18793,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/inserttable.ui:331
 msgctxt "inserttable|dontsplitcb"
 msgid "Don’t _split table over pages"
-msgstr ""
+msgstr "ცხრილი გვერდებს შორის _არ გაიყოფა"
 
 #. rGaCK
 #: sw/uiconfig/swriter/ui/inserttable.ui:339
@@ -18875,7 +18859,7 @@ msgstr "ახალი დოკუმე_ნტი"
 #: sw/uiconfig/swriter/ui/labeldialog.ui:34
 msgctxt "labeldialog|extended_tip|ok"
 msgid "Creates a new document for editing."
-msgstr "ქმნის ახალ დოკუმენტს, რომელიც ექვემდებარება \"Label1\" რედაქტირებას."
+msgstr "ქმნის ახალ დოკუმენტს ჩასასწორებლად."
 
 #. hJSCq
 #: sw/uiconfig/swriter/ui/labeldialog.ui:144
@@ -19037,7 +19021,7 @@ msgstr "შეიტანეთ იარლიყების ან სავ
 #: sw/uiconfig/swriter/ui/labelformatpage.ui:414
 msgctxt "labelformatpage|extended_tip|type"
 msgid "Enter or select a label type."
-msgstr "შეიტანე ან მონიშნე იარლიყის ტიპი."
+msgstr "შეიყვანეთ ან აირჩიეთ ჭდის ტიპი."
 
 #. Uhwgr
 #: sw/uiconfig/swriter/ui/labelformatpage.ui:432
@@ -19121,7 +19105,7 @@ msgstr "მორგება..."
 #: sw/uiconfig/swriter/ui/labeloptionspage.ui:248
 msgctxt "labeloptionspage|extended_tip|setup"
 msgid "Opens the Printer Setup dialog."
-msgstr ""
+msgstr "გახსნის პრინტერის მორგების დალოგს."
 
 #. ePWUe
 #: sw/uiconfig/swriter/ui/labeloptionspage.ui:262
@@ -19349,7 +19333,7 @@ msgstr "შეიყვანეთ თქვენი სახელი."
 #: sw/uiconfig/swriter/ui/mailconfigpage.ui:63
 msgctxt "extended_tip|address"
 msgid "Enter your email address for replies."
-msgstr ""
+msgstr "შეიყვანეთ თქვენი ელფოსტის მისამართი პასუხებისთვის."
 
 #. yBLGV
 #: sw/uiconfig/swriter/ui/mailconfigpage.ui:81
@@ -19373,7 +19357,7 @@ msgstr "_ელფოსტის მისამართი:"
 #: sw/uiconfig/swriter/ui/mailconfigpage.ui:122
 msgctxt "mailconfigpage|replytocb"
 msgid "Send replies to _different email address"
-msgstr ""
+msgstr "პასუხების სხვა _ელფოსტის მისამართზე გაგზავნა"
 
 #. jAywn
 #: sw/uiconfig/swriter/ui/mailconfigpage.ui:130
@@ -19397,7 +19381,7 @@ msgstr "მომხმარებლის ინფორმაცია"
 #: sw/uiconfig/swriter/ui/mailconfigpage.ui:252
 msgctxt "extended_tip|server"
 msgid "Enter the SMTP server name."
-msgstr "SMTP სერვერის სახელი შეიყვანეთ."
+msgstr "შეიყვანეთ SMTP სერვერის სახელი."
 
 #. zeoLy
 #: sw/uiconfig/swriter/ui/mailconfigpage.ui:272
@@ -19457,7 +19441,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mailconfigpage.ui:451
 msgctxt "mailconfigpage|label2"
 msgid "Outgoing Email Server (SMTP Only)"
-msgstr ""
+msgstr "გამავალი ელფოსტის სერვერი (მხოლოდ, SMTP)"
 
 #. 5yzqi
 #: sw/uiconfig/swriter/ui/mailconfigpage.ui:466
@@ -19559,13 +19543,13 @@ msgstr "ფაილი"
 #: sw/uiconfig/swriter/ui/mailmerge.ui:346
 msgctxt "mailmerge|extended_tip|file"
 msgid "Saves the form letters in files."
-msgstr "ინახავს ფორმულარებს ფაილებში."
+msgstr "ფორმის წერილებს ფაილებში შენახვა."
 
 #. p6r4G
 #: sw/uiconfig/swriter/ui/mailmerge.ui:390
 msgctxt "mailmerge|generate"
 msgid "Generate file name from _database"
-msgstr ""
+msgstr "ფაილის სახელის გენერაცია _მონაცემთა ბაზიდან"
 
 #. KEEvW
 #: sw/uiconfig/swriter/ui/mailmerge.ui:398
@@ -19607,7 +19591,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mailmerge.ui:492
 msgctxt "mailmerge|extended_tip|pathpb"
 msgid "Opens the Select Path dialog."
-msgstr ""
+msgstr "გახსნის ბილიკის არჩვის დიალოგს."
 
 #. mqhEz
 #: sw/uiconfig/swriter/ui/mailmerge.ui:509
@@ -19955,7 +19939,7 @@ msgstr "_ველები..."
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:172
 msgctxt "mmaddressblockpage|extended_tip|assign"
 msgid "Opens the Match Fields dialog."
-msgstr "ხსნის Match Fields დიალოგს."
+msgstr "გახსნის ველების დამთხვევის დიალოგს."
 
 #. jBqUV
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:193
@@ -19979,7 +19963,7 @@ msgstr "2."
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:255
 msgctxt "mmaddressblockpage|address"
 msgid "_This document shall contain an address block"
-msgstr ""
+msgstr "_ეს დოკუმენტი უნდა შეიცავდეს მისამართების ბლოკს"
 
 #. 5KBsc
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:263
@@ -19997,7 +19981,7 @@ msgstr "_მეტი..."
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:299
 msgctxt "mmaddressblockpage|extended_tip|settings"
 msgid "Opens the Select Address Block dialog."
-msgstr "ხსნის Select Address Blockდიალოგს."
+msgstr "გახსნის მისამართების ბლოკის არჩევის დიალოგს."
 
 #. uu6BK
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:328
@@ -20009,7 +19993,7 @@ msgstr "მონიშნეთ მისამართის ნაკრე�
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:349
 msgctxt "mmaddressblockpage|hideempty"
 msgid "_Suppress lines with just empty fields"
-msgstr ""
+msgstr "_ცარიელი ველების მქონე ხაზების გამოტოვება"
 
 #. icdn5
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:357
@@ -20057,7 +20041,7 @@ msgstr "დოკუმენტი: %1"
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:509
 msgctxt "mmaddressblockpage|label6"
 msgid "Check if the address data matches correctly."
-msgstr ""
+msgstr "შეამოწმეთ, ემთხვევა თუ არა მისამართის მონაცემები."
 
 #. Ek9hx
 #: sw/uiconfig/swriter/ui/mmaddressblockpage.ui:524
@@ -20231,7 +20215,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mmlayoutpage.ui:423
 msgctxt "mmlayoutpage|label1"
 msgid "Adjust Layout of Address Block and Salutation"
-msgstr ""
+msgstr "მისამართის ბლოკისა და მისალმების განლაგების მორგება"
 
 #. 8ACbf
 #: sw/uiconfig/swriter/ui/mmlayoutpage.ui:438
@@ -20261,13 +20245,13 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mmmailbody.ui:143
 msgctxt "mmmailbody|greeting"
 msgid "This email should contain a salutation"
-msgstr ""
+msgstr "ეს ელფოსტა მისალმება უნდა შეიცავდეს"
 
 #. FFQ3x
 #: sw/uiconfig/swriter/ui/mmmailbody.ui:151
 msgctxt "mmmailbody|extended_tip|greeting"
 msgid "Adds a salutation to the email."
-msgstr ""
+msgstr "დაამატებს მისალმებას ელფოსტას."
 
 #. i7T9E
 #: sw/uiconfig/swriter/ui/mmmailbody.ui:172
@@ -20283,7 +20267,6 @@ msgstr "მონიშნეთ პერსონიზებული მი�
 
 #. FbDGH
 #: sw/uiconfig/swriter/ui/mmmailbody.ui:227
-#, fuzzy
 msgctxt "mmmailbody|femalefi"
 msgid "Address list field indicating a female recipient"
 msgstr "მდედრობითი სქესის მიმღების მაჩვენებელი მისამართების სიის ველი"
@@ -20400,7 +20383,7 @@ msgstr "წერი_ლი"
 #: sw/uiconfig/swriter/ui/mmoutputtypepage.ui:85
 msgctxt "mmoutputtypepage|extended_tip|letter"
 msgid "Creates a printable mail merge document."
-msgstr "ქმნის ამობეჭდვად ფოსტის შერწყმის დოკუმენტს."
+msgstr "შექმნის დაბეჭდვად ელფოსტის შერწყმის დოკუმენტს."
 
 #. 7oDY3
 #: sw/uiconfig/swriter/ui/mmoutputtypepage.ui:96
@@ -20442,7 +20425,7 @@ msgstr "დოკუმენტების გაგზავნა"
 #: sw/uiconfig/swriter/ui/mmresultemaildialog.ui:44
 msgctxt "mmresultemaildialog|extended_tip|ok"
 msgid "Click to start sending emails."
-msgstr ""
+msgstr "დააწკაპუნეთ ელფოსტების გაგზავნის დასაწყებად."
 
 #. cNmQk
 #: sw/uiconfig/swriter/ui/mmresultemaildialog.ui:119
@@ -20550,7 +20533,7 @@ msgstr "შენახვა პაროლით"
 #: sw/uiconfig/swriter/ui/mmresultemaildialog.ui:321
 msgctxt "mmresultemaildialog|extended_tip|attach"
 msgid "Shows the name of the attachment."
-msgstr ""
+msgstr "აჩვენებს დანართის სახელს."
 
 #. Z6zpg
 #: sw/uiconfig/swriter/ui/mmresultemaildialog.ui:330
@@ -20634,7 +20617,7 @@ msgstr "დოკუმენტების დაბეჭდვა"
 #: sw/uiconfig/swriter/ui/mmresultprintdialog.ui:44
 msgctxt "mmresultprintdialog|extended_tip|ok"
 msgid "Prints the mail merge documents."
-msgstr ""
+msgstr "დაბეჭდავს ელფოსტის დოკუმენნტებს."
 
 #. juZiE
 #: sw/uiconfig/swriter/ui/mmresultprintdialog.ui:113
@@ -20676,7 +20659,7 @@ msgstr "ყველ_ა დოკუმენტის დაბეჭდვა
 #: sw/uiconfig/swriter/ui/mmresultprintdialog.ui:200
 msgctxt "mmresultprintdialog|extended_tip|printallrb"
 msgid "Prints documents for all recipients."
-msgstr ""
+msgstr "დაბეჭდავს დოკუმენტებს ყველა მიმღებისთვის."
 
 #. 4fHrU
 #: sw/uiconfig/swriter/ui/mmresultprintdialog.ui:218
@@ -20742,7 +20725,7 @@ msgstr "შეინახავს დოკუმენტებს."
 #: sw/uiconfig/swriter/ui/mmresultsavedialog.ui:113
 msgctxt "mmresultsavedialog|singlerb"
 msgid "S_ave as a single large document"
-msgstr ""
+msgstr "შენახვა _ერთ დიდ დოკუმენტად"
 
 #. bZcqe
 #: sw/uiconfig/swriter/ui/mmresultsavedialog.ui:122
@@ -20826,13 +20809,13 @@ msgstr "_ველების დამთხვევა..."
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:84
 msgctxt "mmsalutationpage|extended_tip|assign"
 msgid "Opens the Match Fields dialog."
-msgstr "ხსნის Match Fields დიალოგს."
+msgstr "გახსნის ველების დამთხვევის დალოგს."
 
 #. CDmVL
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:114
 msgctxt "mmsalutationpage|extended_tip|preview"
 msgid "Displays a preview of the salutation."
-msgstr "ასახავს მისალმების ესკიზს."
+msgstr "აჩვენებს მისალმების მინიატურას."
 
 #. NUC5G
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:138
@@ -20866,10 +20849,9 @@ msgstr "დოკუმენტი: %1"
 
 #. rWpBq
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:211
-#, fuzzy
 msgctxt "mmsalutationpage|greeting"
 msgid "This document should contain a salutation"
-msgstr "ეს წერილი უნდა შეიცავდეს მისალმებას"
+msgstr "ეს წერილი მისალმებას უნდა შეიცავდეს"
 
 #. zPnZa
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:219
@@ -20891,7 +20873,6 @@ msgstr "ნაგულისხმევი მისალმების მ�
 
 #. CegBx
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:294
-#, fuzzy
 msgctxt "mmsalutationpage|femalefi"
 msgid "Address list field indicating a female recipient"
 msgstr "მდედრობითი სქესის მიმღების მაჩვენებელი მისამართების სიის ველი"
@@ -20990,7 +20971,7 @@ msgstr "მისალმების შექმნა"
 #: sw/uiconfig/swriter/ui/mmsalutationpage.ui:542
 msgctxt "mmsalutationpage|extended_tip|MMSalutationPage"
 msgid "Specify the properties for the salutation."
-msgstr ""
+msgstr "მიუთითეთ მისალმების თვისებები."
 
 #. TC3eL
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:28
@@ -21044,7 +21025,7 @@ msgstr "მონიშნეთ შაბლონი, რომლის გ�
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:111
 msgctxt "mmselectpage|recentdoc"
 msgid "Start fro_m a recently saved starting document"
-msgstr ""
+msgstr "დაწყება ახლახან შენახული საწყისი დოკუმენტიდან"
 
 #. xomYf
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:120
@@ -21104,7 +21085,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:223
 msgctxt "mmselectpage|label1"
 msgid "Select Starting Document for the Mail Merge"
-msgstr ""
+msgstr "აირჩიეთ საწყისი დოკუმენტი ელფოსტის შერწყმისთვის"
 
 #. Hpca5
 #: sw/uiconfig/swriter/ui/mmselectpage.ui:238
@@ -21140,7 +21121,7 @@ msgstr "მიერთების სტატუსი"
 #: sw/uiconfig/swriter/ui/mmsendmails.ui:150
 msgctxt "mmsendmails|transferstatus"
 msgid "%1 of %2 emails processed"
-msgstr ""
+msgstr "დამუშავებულია %1 ელფოსტა %2-დან"
 
 #. 6VN4T
 #: sw/uiconfig/swriter/ui/mmsendmails.ui:166
@@ -21500,7 +21481,7 @@ msgstr "ანბანურად დალაგება"
 #: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:501
 msgctxt "navigatorcontextmenu|STR_OUTLINE_LEVEL"
 msgid "Show Up to Outline Level"
-msgstr ""
+msgstr "ჩვენება კარკასის დონემდე"
 
 #. Zehx2
 #: sw/uiconfig/swriter/ui/navigatorcontextmenu.ui:515
@@ -21674,13 +21655,13 @@ msgstr "აქ დააწკაპუნეთ რათა მომართ
 #: sw/uiconfig/swriter/ui/navigatorpanel.ui:500
 msgctxt "navigatorpanel|headings|tooltip_text"
 msgid "Show Up to Outline Level"
-msgstr ""
+msgstr "ჩვენება კარკასის დონემდე"
 
 #. zJ7Bk
 #: sw/uiconfig/swriter/ui/navigatorpanel.ui:504
 msgctxt "navigatorpanel|headings|accessible_name"
 msgid "Show Up to Outline Level"
-msgstr ""
+msgstr "ჩვენება კარკასის დონემდე"
 
 #. EVb5c
 #: sw/uiconfig/swriter/ui/navigatorpanel.ui:505
@@ -21704,7 +21685,7 @@ msgstr "სიის ფანჯრის ჩართ/გამორთ"
 #: sw/uiconfig/swriter/ui/navigatorpanel.ui:535
 msgctxt "navigatorpanel|extended_tip|listbox"
 msgid "Shows or hides the Navigator list."
-msgstr ""
+msgstr "აჩვენებს ან დამალავს ნავიგატორის სიას."
 
 #. bifrF
 #: sw/uiconfig/swriter/ui/navigatorpanel.ui:558
@@ -23199,7 +23180,7 @@ msgstr "შენახული ფორმატის სახელებ�
 #: sw/uiconfig/swriter/ui/numberingnamedialog.ui:138
 msgctxt "numberingnamedialog|extended_tip|form"
 msgid "Shows the current saved format names."
-msgstr ""
+msgstr "აჩვენებს ამჟამად შენახული ფორმატის სახელებს."
 
 #. AbLwh
 #: sw/uiconfig/swriter/ui/numberingnamedialog.ui:155
@@ -23445,7 +23426,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/numparapage.ui:259
 msgctxt "numparapage|checkCB_NEW_START"
 msgid "R_estart numbering at this paragraph"
-msgstr ""
+msgstr "დანომვრის თავიდან დაწყ_ება ამ აბზაცთან"
 
 #. Dreuk
 #: sw/uiconfig/swriter/ui/numparapage.ui:263
@@ -23487,7 +23468,7 @@ msgstr "გადატარებული სიის სტილი"
 #: sw/uiconfig/swriter/ui/numparapage.ui:384
 msgctxt "numparapage|checkCB_COUNT_PARA"
 msgid "_Include this paragraph in line numbering"
-msgstr "_სტრიქონების ნუმერაციაში ამ აბზაცის ჩართვა"
+msgstr "_ამ აბზაცის ჩასმა ხაზების დანომვრაში"
 
 #. mhtFH
 #: sw/uiconfig/swriter/ui/numparapage.ui:394
@@ -23655,7 +23636,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/optcaptionpage.ui:192
 msgctxt "optcaptionpage|extended_tip|numbering"
 msgid "Specifies the type of numbering required."
-msgstr ""
+msgstr "მიუთითებს საჭირო დანომვრის ტიპს."
 
 #. TCT4E
 #: sw/uiconfig/swriter/ui/optcaptionpage.ui:215
@@ -23721,7 +23702,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/optcaptionpage.ui:432
 msgctxt "optcaptionpage|label11"
 msgid "Heading Number Before Caption Number"
-msgstr ""
+msgstr "სათაურის ნომერი წარწერის ნომრამდე"
 
 #. 6QFaH
 #: sw/uiconfig/swriter/ui/optcaptionpage.ui:465
@@ -23772,6 +23753,8 @@ msgid ""
 "Add captions automatically\n"
 "when inserting:"
 msgstr ""
+"წარწერების ავტომატური დამატება\n"
+"როცა ცდით, ჩასვათ:"
 
 #. kUskc
 #: sw/uiconfig/swriter/ui/optcaptionpage.ui:719
@@ -23837,13 +23820,13 @@ msgstr "გამოტოვებული _ნაწილების სი
 #: sw/uiconfig/swriter/ui/optcomparison.ui:146
 msgctxt "optcomparison|useRSID"
 msgid "Take it into account when comparing"
-msgstr ""
+msgstr "მხედველობაში მიღება შედარებისას"
 
 #. CeJ8F
 #: sw/uiconfig/swriter/ui/optcomparison.ui:173
 msgctxt "optcomparison|storeRSID"
 msgid "Store it when changing the document"
-msgstr ""
+msgstr "მისი დამახსოვრება დოკუმენტის შეცვლისას"
 
 #. GdpWi
 #: sw/uiconfig/swriter/ui/optcomparison.ui:255
@@ -23951,31 +23934,31 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/optfonttabpage.ui:261
 msgctxt "extended_tip|standardheight"
 msgid "Specifies the size of the font."
-msgstr ""
+msgstr "მიუთითებს ფონტის ზომას."
 
 #. B9rgK
 #: sw/uiconfig/swriter/ui/optfonttabpage.ui:284
 msgctxt "extended_tip|titleheight"
 msgid "Specifies the size of the font."
-msgstr ""
+msgstr "მიუთითებს ფონტის ზომას."
 
 #. cRRCw
 #: sw/uiconfig/swriter/ui/optfonttabpage.ui:307
 msgctxt "extended_tip|listheight"
 msgid "Specifies the size of the font."
-msgstr ""
+msgstr "მიუთითებს ფონტის ზომას."
 
 #. eNpiB
 #: sw/uiconfig/swriter/ui/optfonttabpage.ui:330
 msgctxt "extended_tip|labelheight"
 msgid "Specifies the size of the font."
-msgstr ""
+msgstr "მიუთითებს ფონტის ზომას."
 
 #. DAzgw
 #: sw/uiconfig/swriter/ui/optfonttabpage.ui:353
 msgctxt "extended_tip|indexheight"
 msgid "Specifies the size of the font."
-msgstr ""
+msgstr "მიუთითებს ფონტის ზომას."
 
 #. 7EQZ8
 #: sw/uiconfig/swriter/ui/optfonttabpage.ui:507
@@ -24355,7 +24338,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/optgeneralpage.ui:390
 msgctxt "optgeneralpage|squaremode"
 msgid "_Use square page mode for text grid"
-msgstr ""
+msgstr "_კვადრატული გვერდების რეჟიმი ტექსტის ბადისთვის"
 
 #. FJBNS
 #: sw/uiconfig/swriter/ui/optgeneralpage.ui:399
@@ -24397,7 +24380,7 @@ msgstr "სიტყვებს დათვლა"
 #: sw/uiconfig/swriter/ui/optgeneralpage.ui:644
 msgctxt "extended_tip|OptGeneralPage"
 msgid "Specifies general settings for text documents."
-msgstr ""
+msgstr "მიუთითებს ზოგად პარამეტრებს ტექსტური დოკუმენტებისთვის."
 
 #. G6aHC
 #: sw/uiconfig/swriter/ui/optredlinepage.ui:34
@@ -24787,19 +24770,19 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/opttablepage.ui:454
 msgctxt "opttablepage|label11"
 msgid "Changes affect the adjacent area only"
-msgstr ""
+msgstr "ცვლილებები, მხოლოდ, ახლომდებარე ალაგებს ეხება"
 
 #. P5dLC
 #: sw/uiconfig/swriter/ui/opttablepage.ui:474
 msgctxt "opttablepage|label12"
 msgid "Changes affect the entire table"
-msgstr ""
+msgstr "ცვლილებებს გავლენა მთელ ცხრილზე აქვს"
 
 #. DoB9R
 #: sw/uiconfig/swriter/ui/opttablepage.ui:493
 msgctxt "opttablepage|label13"
 msgid "Changes affect the table size"
-msgstr ""
+msgstr "ცვლილებას აქვს გავლენა ცხრილის ზომაზე"
 
 #. juzyR
 #: sw/uiconfig/swriter/ui/opttablepage.ui:556
@@ -25198,6 +25181,8 @@ msgid ""
 "Minimum space between\n"
 "numbering and text:"
 msgstr ""
+"მინიმალური სივრცე\n"
+"ჩამონათვალსა და ტექსტს შორის:"
 
 #. qNaWE
 #: sw/uiconfig/swriter/ui/outlinepositionpage.ui:193
@@ -25689,7 +25674,7 @@ msgstr "გვერდის ქვედა კოლონტიტული"
 #: sw/uiconfig/swriter/ui/pagenumberdlg.ui:118
 msgctxt "pagenumbering|extended_tip|positionCombo"
 msgid "Insert page number in footer."
-msgstr ""
+msgstr "გვერდის ნომრის ჩასმა ქვედა კოლონტიტულში."
 
 #. aUbVT
 #: sw/uiconfig/swriter/ui/pagenumberdlg.ui:134
@@ -26085,7 +26070,7 @@ msgstr "_ვერტიკალურად"
 #: sw/uiconfig/swriter/ui/picturepage.ui:129
 msgctxt "picturepage|extended_tip|vert"
 msgid "Flips the selected image vertically."
-msgstr ""
+msgstr "გადააბრუნებს მონიშნულ გამოსახულებას ვერტიკალურად."
 
 #. jwAir
 #: sw/uiconfig/swriter/ui/picturepage.ui:140
@@ -26097,7 +26082,7 @@ msgstr "ჰორი_ზონტალურად"
 #: sw/uiconfig/swriter/ui/picturepage.ui:148
 msgctxt "picturepage|extended_tip|hori"
 msgid "Flips the selected image horizontally."
-msgstr ""
+msgstr "გადააბრუნებს მონიშნულ გამოსახულებას ჰორიზონტალურად."
 
 #. F3zpM
 #: sw/uiconfig/swriter/ui/picturepage.ui:159
@@ -26235,7 +26220,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/printeroptions.ui:46
 msgctxt "printeroptions|pictures"
 msgid "Images and other graphic objects"
-msgstr ""
+msgstr "გამოსახულებები და სხვა გრაფიკული ობიექტები"
 
 #. BWWNC
 #: sw/uiconfig/swriter/ui/printeroptions.ui:54
@@ -26319,7 +26304,7 @@ msgstr "ფერი"
 #: sw/uiconfig/swriter/ui/printeroptions.ui:234
 msgctxt "printeroptions|autoblankpages"
 msgid "Print automatically inserted blank pages"
-msgstr "ჩართული ცარიელი გვერდების ~ავტომატურად ამობეჭდვა"
+msgstr "ავტომატურად ჩასმული ცარიელი გვერდების დაბეჭდვა"
 
 #. cnT2C
 #: sw/uiconfig/swriter/ui/printeroptions.ui:244
@@ -26356,7 +26341,7 @@ msgstr "ეკრანის დაბეჭდვა"
 #: sw/uiconfig/swriter/ui/printmonitordialog.ui:70
 msgctxt "printmonitordialog|printing"
 msgid "is being prepared for printing on"
-msgstr ""
+msgstr "მზადდება დასაბეჭდად პრინტერზე"
 
 #. xxmtW
 #: sw/uiconfig/swriter/ui/printoptionspage.ui:34
@@ -26500,7 +26485,7 @@ msgstr "_არცერთი"
 #: sw/uiconfig/swriter/ui/printoptionspage.ui:433
 msgctxt "printoptionspage|extended_tip|none"
 msgid "Do not print document comments."
-msgstr ""
+msgstr "არ დაბეჭდო დოკუმენტის კომენტარები."
 
 #. 6vPTt
 #: sw/uiconfig/swriter/ui/printoptionspage.ui:444
@@ -26578,7 +26563,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/printoptionspage.ui:630
 msgctxt "printoptionspage|blankpages"
 msgid "Print _automatically inserted blank pages"
-msgstr "ჩართული ცარიელი გვერდების _ავტომატურად ამობეჭდვა"
+msgstr "_ავტომატურად ჩასმული ცარიელი გვერდების დაბეჭდვა"
 
 #. fT4kP
 #: sw/uiconfig/swriter/ui/printoptionspage.ui:638
@@ -26590,7 +26575,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/printoptionspage.ui:649
 msgctxt "printoptionspage|papertray"
 msgid "_Paper tray from printer settings"
-msgstr "_ქაღალდების მომწოდებელი პრინტერის პარამეტრებიდან"
+msgstr "ქაღალდის თარო _პრინტერის პარამეტრებიდან"
 
 #. xGp3V
 #: sw/uiconfig/swriter/ui/printoptionspage.ui:657
@@ -26692,7 +26677,7 @@ msgstr "ჩინი"
 #: sw/uiconfig/swriter/ui/privateuserpage.ui:192
 msgctxt "extended tip | title"
 msgid "Type your title in this field."
-msgstr ""
+msgstr "შეიყვანეთ თქვენი სათაური ამ ველში."
 
 #. FcfuU
 #: sw/uiconfig/swriter/ui/privateuserpage.ui:210
@@ -26800,7 +26785,7 @@ msgstr "ქალაქი"
 #: sw/uiconfig/swriter/ui/privateuserpage.ui:422
 msgctxt "extended tip | icity"
 msgid "Type the city where you live."
-msgstr ""
+msgstr "შეიყვანეთ ქალაქი, სადაც ცხოვრობთ."
 
 #. AZwKD
 #: sw/uiconfig/swriter/ui/privateuserpage.ui:440
@@ -26812,7 +26797,7 @@ msgstr "საფოსტო ინდექსი"
 #: sw/uiconfig/swriter/ui/privateuserpage.ui:441
 msgctxt "extended tip | izip"
 msgid "Type your ZIP in this field."
-msgstr ""
+msgstr "შეიყვანეთ თქვენო საფოსტო კოდი ამ ველში."
 
 #. 6DQcL
 #: sw/uiconfig/swriter/ui/privateuserpage.ui:471
@@ -26878,7 +26863,7 @@ msgstr "მობილური ტელეფონის ნომერი"
 #: sw/uiconfig/swriter/ui/privateuserpage.ui:588
 msgctxt "extended tips | mobile"
 msgid "Type your mobile phone number"
-msgstr ""
+msgstr "აკრიფეთ თქვენი მობილური ტელეფონის ნომერი"
 
 #. bGoA3
 #: sw/uiconfig/swriter/ui/privateuserpage.ui:609
@@ -27260,13 +27245,13 @@ msgstr "ტ_იპი"
 #: sw/uiconfig/swriter/ui/savelabeldialog.ui:127
 msgctxt "savelabeldialog|extended_tip|type"
 msgid "Enter or select a label type."
-msgstr "შეიტანე ან მონიშნე იარლიყის ტიპი."
+msgstr "შეიყვანეთ ან აირჩიეთ ჭდის ტიპი."
 
 #. TZRxC
 #: sw/uiconfig/swriter/ui/savelabeldialog.ui:151
 msgctxt "savelabeldialog|extended_tip|brand"
 msgid "Enter or select the desired brand."
-msgstr "შეიტანე ან მონიშნე სასურველი სახეობა."
+msgstr "შეიყვანეთ ან მონიშნეთ სასურველი ბრენდი."
 
 #. vtbE3
 #: sw/uiconfig/swriter/ui/savelabeldialog.ui:166
@@ -27278,7 +27263,7 @@ msgstr "მორგება"
 #: sw/uiconfig/swriter/ui/savelabeldialog.ui:191
 msgctxt "savelabeldialog|extended_tip|SaveLabelDialog"
 msgid "Enter or select the desired brand."
-msgstr "შეიტანე ან მონიშნე სასურველი სახეობა."
+msgstr "შეიყვანეთ ან მონიშნეთ სასურველი ბრენდი."
 
 #. J9Lnz
 #: sw/uiconfig/swriter/ui/savemonitordialog.ui:8
@@ -27464,7 +27449,7 @@ msgstr "თვისებები"
 #: sw/uiconfig/swriter/ui/sectionpage.ui:592
 msgctxt "sectionpage|extended_tip|SectionPage"
 msgid "Sets the properties of the section."
-msgstr ""
+msgstr "დააყენებს განყოფილების თვისებებს."
 
 #. F8WuK
 #: sw/uiconfig/swriter/ui/selectaddressdialog.ui:18
@@ -27482,7 +27467,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/selectaddressdialog.ui:120
 msgctxt "selectaddressdialog|label2"
 msgid "Your recipients are currently selected from:"
-msgstr ""
+msgstr "თქვენი მიმღებები ამჟამად მიღებულია:"
 
 #. omDDB
 #: sw/uiconfig/swriter/ui/selectaddressdialog.ui:137
@@ -27626,13 +27611,13 @@ msgstr "_წაშლა"
 #: sw/uiconfig/swriter/ui/selectblockdialog.ui:138
 msgctxt "selectblockdialog|extended_tip|delete"
 msgid "Deletes the selected address block layout."
-msgstr "შლის მისამართთა მონიშნული ნაკრების განლაგებას"
+msgstr "წაშლის მონიშნულ მისამართების ბლოკის განლაგებას."
 
 #. FD7A8
 #: sw/uiconfig/swriter/ui/selectblockdialog.ui:159
 msgctxt "selectblockdialog|label1"
 msgid "_Select your preferred address block"
-msgstr ""
+msgstr "_აირჩიეთ რჩეული მისამართების ბლოკი"
 
 #. TJ22s
 #: sw/uiconfig/swriter/ui/selectblockdialog.ui:186
@@ -27753,7 +27738,7 @@ msgstr "_მინიატურა"
 #: sw/uiconfig/swriter/ui/selecttabledialog.ui:188
 msgctxt "selecttabledialog|extended_tip|preview"
 msgid "Opens the Mail Merge Recipients dialog."
-msgstr "ხსნის Mail Merge Recipients დიალოგს."
+msgstr "ხსნის ელფოსტის მიმღებების შერწყმის დიალოგს."
 
 #. HvjeJ
 #: sw/uiconfig/swriter/ui/selecttabledialog.ui:224
@@ -28413,7 +28398,7 @@ msgstr "განახლება"
 #: sw/uiconfig/swriter/ui/statisticsinfopage.ui:275
 msgctxt "statisticsinfopage|extended_tip|StatisticsInfoPage"
 msgid "Displays statistics for the current file."
-msgstr ""
+msgstr "აჩვენებს სტატისტიკას მიმდინარე ფაილისთვის."
 
 #. M4Ub9
 #: sw/uiconfig/swriter/ui/stringinput.ui:74
@@ -28942,7 +28927,7 @@ msgstr "ორგანიზაცია"
 #: sw/uiconfig/swriter/ui/templatedialog16.ui:169
 msgctxt "templatedialog16|organizer"
 msgid "Name and hide user-defined styles"
-msgstr ""
+msgstr "მომხმარებლის სტილების სახელი და დამალვა"
 
 #. 7o8No
 #: sw/uiconfig/swriter/ui/templatedialog16.ui:216
@@ -28954,7 +28939,7 @@ msgstr "დაულაგებელი"
 #: sw/uiconfig/swriter/ui/templatedialog16.ui:217
 msgctxt "templatedialog16|bullets"
 msgid "Choose a predefined bullet type"
-msgstr ""
+msgstr "არჩიეთ წინასწარ აღწერილი მარკერებიდან"
 
 #. uCBn4
 #: sw/uiconfig/swriter/ui/templatedialog16.ui:265
@@ -28966,7 +28951,7 @@ msgstr "დალაგებული"
 #: sw/uiconfig/swriter/ui/templatedialog16.ui:266
 msgctxt "templatedialog16|numbering"
 msgid "Choose a predefined ordered list"
-msgstr ""
+msgstr "აირჩიეთ წინასწარ აღწერილი დანომრილი სია"
 
 #. D9oKE
 #: sw/uiconfig/swriter/ui/templatedialog16.ui:314
@@ -28978,7 +28963,7 @@ msgstr "კონტური"
 #: sw/uiconfig/swriter/ui/templatedialog16.ui:315
 msgctxt "templatedialog16|outline"
 msgid "Choose a predefined outline format"
-msgstr ""
+msgstr "აირჩიეთ წინასწარ აღწერილი კარკასის ფორმატი"
 
 #. Dp6La
 #: sw/uiconfig/swriter/ui/templatedialog16.ui:363
@@ -28990,7 +28975,7 @@ msgstr "გამოსახულება"
 #: sw/uiconfig/swriter/ui/templatedialog16.ui:364
 msgctxt "templatedialog16|graphics"
 msgid "Choose a predefined graphic bullet symbol"
-msgstr ""
+msgstr "აირჩიეთ წინასწარ აღწერილი გამოსახულების მარკერის სიმბოლო"
 
 #. K55K4
 #: sw/uiconfig/swriter/ui/templatedialog16.ui:412
@@ -29314,7 +29299,7 @@ msgstr "ჩავარდა"
 #: sw/uiconfig/swriter/ui/testmailsettings.ui:221
 msgctxt "testmailsettings|label8"
 msgid "%PRODUCTNAME is testing the email account settings..."
-msgstr ""
+msgstr "%PRODUCTNAME ამოწმებს ელფოსტის ანგარიშის პარამეტრებს..."
 
 #. eXGU4
 #: sw/uiconfig/swriter/ui/testmailsettings.ui:270
@@ -29434,7 +29419,7 @@ msgstr "შეიყვანეთ ძირითადი ტექსტი�
 #: sw/uiconfig/swriter/ui/textgridpage.ui:420
 msgctxt "textgridpage|checkCB_RUBYBELOW"
 msgid "Ruby text below/left from base text"
-msgstr "ტრანსლიტერაციის ქვემოთ/მარცხნივ ძირითადი ტექსიტადან"
+msgstr "ფირუგანას ტექსტი საბაზისო ტექსტის ზემოდან/ქვემოდანაა"
 
 #. 47KKR
 #: sw/uiconfig/swriter/ui/textgridpage.ui:430
@@ -29524,7 +29509,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/titlepage.ui:196
 msgctxt "titlepage|RB_USE_EXISTING_PAGES"
 msgid "Converting existing pages to title pages"
-msgstr ""
+msgstr "არსებული გვერდების გადაყვანა სათაურის გვერდებზე"
 
 #. BJnEY
 #: sw/uiconfig/swriter/ui/titlepage.ui:206
@@ -29578,7 +29563,7 @@ msgstr "სათაურის გვერდების შექმნა"
 #: sw/uiconfig/swriter/ui/titlepage.ui:326
 msgctxt "titlepage|CB_RESTART_NUMBERING"
 msgid "Reset page numbering after title pages"
-msgstr ""
+msgstr "გვერდების დანომვრის თავიდან დაწყება სათაურის გვერდების შემდეგ"
 
 #. Z4Ef6
 #: sw/uiconfig/swriter/ui/titlepage.ui:334
@@ -29602,7 +29587,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/titlepage.ui:395
 msgctxt "titlepage|CB_SET_PAGE_NUMBER"
 msgid "Set page number for first title page"
-msgstr ""
+msgstr "გვერდის ნომრის დაყენება პირველი სათაურის გვერდისთვის"
 
 #. ATkRE
 #: sw/uiconfig/swriter/ui/titlepage.ui:403
@@ -29650,7 +29635,7 @@ msgstr "ჩასწორება..."
 #: sw/uiconfig/swriter/ui/titlepage.ui:532
 msgctxt "titlepage|extended_tip|PB_PAGE_PROPERTIES"
 msgid "Click to edit the page style."
-msgstr ""
+msgstr "წკაპი გვერდის სტილის ჩასასწორებლად."
 
 #. puRGq
 #: sw/uiconfig/swriter/ui/titlepage.ui:548
@@ -29662,13 +29647,13 @@ msgstr "გვერდის თვისებების ჩასწორ�
 #: sw/uiconfig/swriter/ui/titlepage.ui:577
 msgctxt "titlepage|extended_tip|DLG_TITLEPAGE"
 msgid "Insert title pages in your document."
-msgstr ""
+msgstr "სათაურის გვერდების ჩასმა თქვენს დოკუმენტში."
 
 #. Yk7XD
 #: sw/uiconfig/swriter/ui/tocdialog.ui:8
 msgctxt "tocdialog|TocDialog"
 msgid "Table of Contents, Index or Bibliography"
-msgstr ""
+msgstr "სარჩევი, ინდექსი ან ბიბლიოგრაფია"
 
 #. 49G83
 #: sw/uiconfig/swriter/ui/tocdialog.ui:86
@@ -30016,7 +30001,7 @@ msgstr "სტრუქტურა და დაფორმატება"
 #: sw/uiconfig/swriter/ui/tocentriespage.ui:767
 msgctxt "tocentriespage|reltostyle"
 msgid "Tab position relati_ve to paragraph style indent"
-msgstr ""
+msgstr "ტაბულაციის მდებარეობა აბზაცის სტილის შეწევასთან _შეფარდებით"
 
 #. KYGMo
 #: sw/uiconfig/swriter/ui/tocentriespage.ui:775
@@ -30052,7 +30037,7 @@ msgstr "გამოიყენებს ანბანური რიგი�
 #: sw/uiconfig/swriter/ui/tocentriespage.ui:829
 msgctxt "tocentriespage|mainstyleft"
 msgid "Character style for main entries:"
-msgstr ""
+msgstr "სიმბოლოების სტილი მთავარი ელემენტებისთვის:"
 
 #. uyrYX
 #: sw/uiconfig/swriter/ui/tocentriespage.ui:846
@@ -30364,7 +30349,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:312
 msgctxt "tocindexpage|label1"
 msgid "Create Index or Table of Contents"
-msgstr ""
+msgstr "ინდექსის შექმნა სარჩევიდან"
 
 #. LctBb
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:350
@@ -30412,7 +30397,7 @@ msgstr "ცხრილები"
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:400
 msgctxt "tocindexpage|extended_tip|fromtables"
 msgid "Includes tables in the index."
-msgstr "ჩაურთავს ცხრილებს ინდექსში."
+msgstr "ჩასვამს ცხრილებს ინდექსში."
 
 #. rC8Gw
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:411
@@ -30424,7 +30409,7 @@ msgstr "ტე_ქსტის ჩარჩოები"
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:419
 msgctxt "tocindexpage|extended_tip|fromframes"
 msgid "Includes frames in the index."
-msgstr ""
+msgstr "ჩასვამს ჩარჩოებს ინდექსში."
 
 #. Bab7X
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:430
@@ -30436,7 +30421,7 @@ msgstr "გამოსახულებები"
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:438
 msgctxt "tocindexpage|extended_tip|fromgraphics"
 msgid "Includes graphics in the index."
-msgstr "Iჩაურთავს დიაგრამებს ინდექსში."
+msgstr "ჩასვამს გამოსახულებებს ინდექსში."
 
 #. 7f3c4
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:449
@@ -30448,7 +30433,7 @@ msgstr "OLE ობიექტები"
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:457
 msgctxt "tocindexpage|extended_tip|fromoles"
 msgid "Includes OLE objects in the index."
-msgstr "ჩაურთავს OLE ობიექტებს ინდექსში."
+msgstr "ჩასვამს OLE ობიექტებს ინდექსში."
 
 #. QDvUs
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:468
@@ -30514,7 +30499,7 @@ msgstr "წარწერები"
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:606
 msgctxt "tocindexpage|extended_tip|captions"
 msgid "Creates index entries from object captions."
-msgstr "ქმნის ინდექსის ჩანაწერებს ობიექტის წარწერებიდან."
+msgstr "შექმნის ინდექსის ჩანაწერებს ობიექტის წარწერებიდან."
 
 #. zRKYU
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:617
@@ -30526,7 +30511,7 @@ msgstr "ობიექტის სახელები"
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:626
 msgctxt "tocindexpage|extended_tip|objnames"
 msgid "Creates index entries from object names."
-msgstr "ქმნის ინდექსის ჩანაწერებს ობიექტის სახელებიდან."
+msgstr "შექმნის ინდექსის ჩანაწერებს ობიექტის სახელებიდან."
 
 #. E8n8f
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:646
@@ -30586,7 +30571,7 @@ msgstr "მონიშნეთ ობიექტის ტიპები, �
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:807
 msgctxt "tocindexpage|label6"
 msgid "Create From the Following Objects"
-msgstr ""
+msgstr "შექმნა შემდეგი ობიექტებიდან"
 
 #. NGgFZ
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:845
@@ -30604,7 +30589,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:864
 msgctxt "tocindexpage|useff"
 msgid "Combine identical entries with f. or _ff."
-msgstr ""
+msgstr "'f'-ის ან 'ff'-ის შემცველი ერთნაირი ელემენტების გაერთიანება."
 
 #. 4SLZc
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:873
@@ -30784,7 +30769,7 @@ msgstr "ელემენტების დაფორმატება"
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:1252
 msgctxt "tocindexpage|useparastyle"
 msgid "Create from additional paragraph style"
-msgstr ""
+msgstr "შექმნა დამატებითი აბზაცის სტილიდან"
 
 #. WNBCY
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:1261
@@ -30874,7 +30859,7 @@ msgstr "ენის არჩევანი"
 #: sw/uiconfig/swriter/ui/translationdialog.ui:84
 msgctxt "LanguageSelectDialog"
 msgid "Select the target language for translation"
-msgstr ""
+msgstr "მონიშნეთ სამიზნე ენა თარგმანისთვის"
 
 #. od8Zz
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:43
@@ -31018,7 +31003,7 @@ msgstr "_გლუვი გადახვევა"
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:499
 msgctxt "extended_tip|smoothscroll"
 msgid "Activates the smooth page scrolling function. "
-msgstr ""
+msgstr "გააქტიურებს რბილად გადახვევის ფუნქციას. "
 
 #. ThYRV
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:518
@@ -31078,7 +31063,7 @@ msgstr "ხედი"
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:714
 msgctxt "extended_tip|measureunit"
 msgid "Specifies the Unit for HTML documents."
-msgstr ""
+msgstr "მიუთითებს ერთეულს HTML დოკუმენტებისთვის."
 
 #. YbrL8
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:727
@@ -31138,7 +31123,7 @@ msgstr "მონაცემების წყარო ვერ ვიპო
 #: sw/uiconfig/swriter/ui/warndatasourcedialog.ui:13
 msgctxt "warndatasourcedialog|WarnDataSourceDialog"
 msgid "The data source “%1” was not found."
-msgstr ""
+msgstr "მონაცემების წყარო \"%1\" ვერ ვიპოვე."
 
 #. ThYWH
 #: sw/uiconfig/swriter/ui/warndatasourcedialog.ui:14
@@ -31157,7 +31142,7 @@ msgstr "კავშირის პარამეტრების შემ�
 #: sw/uiconfig/swriter/ui/warnemaildialog.ui:16
 msgctxt "warnemaildialog|WarnEmailDialog"
 msgid "Emails could not be sent"
-msgstr ""
+msgstr "ელფოსტების გაგზავნა შეუძლებელია"
 
 #. pgwcZ
 #: sw/uiconfig/swriter/ui/warnemaildialog.ui:17
@@ -31247,7 +31232,7 @@ msgstr ""
 #: sw/uiconfig/swriter/ui/watermarkdialog.ui:250
 msgctxt "watermarkdialog|extended_tip|FontBox"
 msgid "Select the font from the list."
-msgstr ""
+msgstr "არჩიეთ ფონტი სიიდან."
 
 #. aYVKV
 #: sw/uiconfig/swriter/ui/watermarkdialog.ui:285
@@ -31299,7 +31284,7 @@ msgstr "სიმბოლოები ჰარეების არჩათ�
 #: sw/uiconfig/swriter/ui/wordcount-mobile.ui:279
 msgctxt "wordcount-mobile|cjkcharsft"
 msgid "Asian characters and Korean syllables"
-msgstr ""
+msgstr "აზიური სიმბოლოები და კორეული მარცვლები"
 
 #. mfBEG
 #: sw/uiconfig/swriter/ui/wordcount-mobile.ui:231
@@ -31348,7 +31333,7 @@ msgstr "დოკუმენტი"
 #: sw/uiconfig/swriter/ui/wordcount.ui:232
 msgctxt "wordcount|cjkcharsft"
 msgid "Asian characters and Korean syllables"
-msgstr ""
+msgstr "აზიური სიმბოლოები და კორეული მარცვლები"
 
 #. dZmso
 #: sw/uiconfig/swriter/ui/wordcount.ui:274
