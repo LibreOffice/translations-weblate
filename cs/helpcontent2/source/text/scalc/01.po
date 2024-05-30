@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-05-27 12:59+0200\n"
-"PO-Revision-Date: 2024-05-30 09:45+0000\n"
+"PO-Revision-Date: 2024-05-30 21:08+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/cs/>\n"
 "Language: cs\n"
@@ -68244,7 +68244,7 @@ msgctxt ""
 "par_id211708281649651\n"
 "help.text"
 msgid "SORT(Range [, SortIndex[, SortOrder[, ByCol]]])"
-msgstr ""
+msgstr "SORT(Oblast [, Index řazení[, Pořadí řazení[, Podle sloupce]]])"
 
 #. 4iAJz
 #: func_sort.xhp
@@ -68253,7 +68253,7 @@ msgctxt ""
 "par_id551711457515235\n"
 "help.text"
 msgid "<emph>Range:</emph> Required. The range or array to sort."
-msgstr ""
+msgstr "<emph>Oblast:</emph> Vyžadováno. Oblast nebo matice, která se má seřadit."
 
 #. Epf9D
 #: func_sort.xhp
@@ -68262,7 +68262,7 @@ msgctxt ""
 "par_id151711457520290\n"
 "help.text"
 msgid "<emph>SortIndex:</emph> Optional. The number indicating the row or column to sort by."
-msgstr ""
+msgstr "<emph>Index řazení:</emph> Nepovinné. Číslo označující řádek nebo sloupec, podle kterého se má řadit."
 
 #. 2cgDj
 #: func_sort.xhp
@@ -68271,7 +68271,7 @@ msgctxt ""
 "par_id131711457525811\n"
 "help.text"
 msgid "<emph>SortOrder:</emph> Optional. A number indicating the desired sort order; 1 for ascending order (default), -1 for descending order."
-msgstr ""
+msgstr "<emph>Pořadí řazení:</emph> Nepovinné. Číslo udávající požadované pořadí řazení; 1 značí vzestupné pořadí (výchozí), -1 sestupné pořadí."
 
 #. JwCYE
 #: func_sort.xhp
@@ -68280,7 +68280,7 @@ msgctxt ""
 "par_id351711457531579\n"
 "help.text"
 msgid "<emph>ByCol:</emph> Optional. A logical value indicating the desired sort direction; <emph>FALSE</emph> to sort by row (default), <emph>TRUE</emph> to sort by column."
-msgstr ""
+msgstr "<emph>Podle sloupce:</emph> Nepovinné. Logická hodnota udávající požadovaný směr řazení; <emph>NEPRAVDA</emph> značí řazení podle řádku (výchozí), <emph>PRAVDA</emph> podle sloupce."
 
 #. hDBib
 #: func_sort.xhp
@@ -68289,7 +68289,7 @@ msgctxt ""
 "hd_id751711480783220\n"
 "help.text"
 msgid "Example with ascending order"
-msgstr ""
+msgstr "Příklad se vzestupným řazením"
 
 #. RmqyT
 #: func_sort.xhp
@@ -68298,7 +68298,7 @@ msgctxt ""
 "par_id131711466000482\n"
 "help.text"
 msgid "<input>{=SORT(A2:C6,2,1)}</input>"
-msgstr ""
+msgstr "<input>{=SORT(A2:C6;2;1)}</input>"
 
 #. MBgRu
 #: func_sort.xhp
@@ -68307,7 +68307,7 @@ msgctxt ""
 "par_id471711472262161\n"
 "help.text"
 msgid "Sort the range A2:C6 based on the second column in ascending order (Sales)."
-msgstr ""
+msgstr "Seřadí oblast A2:C6 vzestupně podle druhého sloupce (prodeje)."
 
 #. EQiyc
 #: func_sort.xhp
@@ -68316,7 +68316,7 @@ msgctxt ""
 "par_id31711465709083\n"
 "help.text"
 msgid "book"
-msgstr ""
+msgstr "známka"
 
 #. AA3th
 #: func_sort.xhp
@@ -68325,7 +68325,7 @@ msgctxt ""
 "par_id861711465758906\n"
 "help.text"
 msgid "pencil"
-msgstr ""
+msgstr "nůžky"
 
 #. zjCpK
 #: func_sort.xhp
@@ -68334,7 +68334,7 @@ msgctxt ""
 "par_id331711465788257\n"
 "help.text"
 msgid "notebook"
-msgstr ""
+msgstr "poznámkový blok"
 
 #. GDXFf
 #: func_sort.xhp
@@ -68343,7 +68343,7 @@ msgctxt ""
 "par_id821711465827777\n"
 "help.text"
 msgid "pen"
-msgstr ""
+msgstr "nůž"
 
 #. ofndu
 #: func_sort.xhp
@@ -68352,7 +68352,7 @@ msgctxt ""
 "par_id11711465871342\n"
 "help.text"
 msgid "pencil-case"
-msgstr ""
+msgstr "nůž na papír"
 
 #. pvfNi
 #: func_sort.xhp
@@ -68361,7 +68361,7 @@ msgctxt ""
 "hd_id51711480751179\n"
 "help.text"
 msgid "Example with descending order"
-msgstr ""
+msgstr "Příklad se sestupným řazením"
 
 #. x5oDE
 #: func_sort.xhp
@@ -68370,7 +68370,7 @@ msgctxt ""
 "par_id731711466320553\n"
 "help.text"
 msgid "<input>{=SORT(A2:C6,3,-1)}</input>"
-msgstr ""
+msgstr "<input>{=SORT(A2:C6;3;-1)}</input>"
 
 #. FSrYH
 #: func_sort.xhp
@@ -68379,7 +68379,7 @@ msgctxt ""
 "par_id401711479167509\n"
 "help.text"
 msgid "Sort the range A2:C6 based on the third column in descending order (Revenue)."
-msgstr ""
+msgstr "Seřadí oblast A2:C6 sestupně podle třetího sloupce (tržba)."
 
 #. 5KSd6
 #: func_sort.xhp
@@ -68388,7 +68388,7 @@ msgctxt ""
 "par_id821711478931934\n"
 "help.text"
 msgid "pencil-case"
-msgstr ""
+msgstr "nůž na papír"
 
 #. hHqSc
 #: func_sort.xhp
@@ -68397,7 +68397,7 @@ msgctxt ""
 "par_id721711478941598\n"
 "help.text"
 msgid "notebook"
-msgstr ""
+msgstr "poznámkový blok"
 
 #. Eh74E
 #: func_sort.xhp
@@ -68406,7 +68406,7 @@ msgctxt ""
 "par_id281711478950341\n"
 "help.text"
 msgid "book"
-msgstr ""
+msgstr "známka"
 
 #. KGKEY
 #: func_sort.xhp
@@ -68415,7 +68415,7 @@ msgctxt ""
 "par_id101711478960309\n"
 "help.text"
 msgid "pen"
-msgstr ""
+msgstr "nůž"
 
 #. fjhFK
 #: func_sort.xhp
@@ -68424,7 +68424,7 @@ msgctxt ""
 "par_id911711478969701\n"
 "help.text"
 msgid "pencil"
-msgstr ""
+msgstr "nůžky"
 
 #. JDbrP
 #: func_sort.xhp
@@ -68469,7 +68469,7 @@ msgctxt ""
 "par_id771708806478128\n"
 "help.text"
 msgid "Sorts the contents of a range or array based on the values in a corresponding range or array."
-msgstr ""
+msgstr "Seřadí obsah oblasti nebo matice podle hodnot v jiné oblasti nebo matici."
 
 #. EUgaa
 #: func_sortby.xhp
@@ -68478,7 +68478,7 @@ msgctxt ""
 "par_id211708281649651\n"
 "help.text"
 msgid "SORTBY(Range, SortByRange1, SortOrder1[, SortByRange2, SortOrder2,[...]])"
-msgstr ""
+msgstr "SORTBY(Oblast, Seřadit podle oblasti 1, Pořadí řazení 1[, Seřadit podle oblasti 2, Pořadí řazení 2,[...]])"
 
 #. gifyS
 #: func_sortby.xhp
@@ -68487,7 +68487,7 @@ msgctxt ""
 "par_id451711544450734\n"
 "help.text"
 msgid "<emph>Range</emph>: The array or range to sort."
-msgstr ""
+msgstr "<emph>Oblast</emph>: Matice nebo oblast, která se má seřadit."
 
 #. k3ADs
 #: func_sortby.xhp
@@ -68496,7 +68496,7 @@ msgctxt ""
 "par_id291711544460323\n"
 "help.text"
 msgid "<emph>SortByRange1, SortByRange2,... </emph>: Range 1, range 2,... are the arrays or ranges to sort on."
-msgstr ""
+msgstr "<emph>Seřadit podle oblasti 1, Seřadit podle oblasti 2,... </emph>: Matice nebo oblasti, podle kterých se má řadit."
 
 #. FTuBa
 #: func_sortby.xhp
@@ -68505,7 +68505,7 @@ msgctxt ""
 "par_id501711544465886\n"
 "help.text"
 msgid "<emph>SortOrder1, SortOrder2,...</emph> : Order 1, order 2,... are the orders to use for sorting. 1 for ascending, -1 for descending. Default is ascending."
-msgstr ""
+msgstr "<emph>Pořadí řazení 1, Pořadí řazení 2,...</emph> : Pořadí použitá pro řazení. 1 značí vzestupné, -1 sestupné. Výchozím je vzestupné."
 
 #. FA2hL
 #: func_sortby.xhp
@@ -68514,7 +68514,7 @@ msgctxt ""
 "par_id131711466000482\n"
 "help.text"
 msgid "<input>{=SORTBY(A2:C7,A2:A7,1,C2:C7,-1)}</input>"
-msgstr ""
+msgstr "<input>{=SORTBY(A2:C7;A2:A7;1;C2:C7;-1)}</input>"
 
 #. q9cpQ
 #: func_sortby.xhp
@@ -68523,7 +68523,7 @@ msgctxt ""
 "par_id471711472262161\n"
 "help.text"
 msgid "Sort the range A2:C7 based on the first column in ascending order and third column in descending order."
-msgstr ""
+msgstr "Seřadí oblast A2:C7 vzestupně podle prvního sloupce a sestupně podle třetího sloupce."
 
 #. fKeqF
 #: func_sortby.xhp
@@ -68829,7 +68829,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SUMIF Function"
-msgstr ""
+msgstr "Funkce SUMIF"
 
 #. c4KFv
 #: func_sumif.xhp
@@ -68838,7 +68838,7 @@ msgctxt ""
 "bm_id3151957\n"
 "help.text"
 msgid "<bookmark_value>SUMIF function</bookmark_value>      <bookmark_value>adding;specified numbers</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>SUMIF</bookmark_value><bookmark_value>sčítání; určená čísla</bookmark_value>"
 
 #. aJCj8
 #: func_sumif.xhp
@@ -68847,7 +68847,7 @@ msgctxt ""
 "hd_id3151957\n"
 "help.text"
 msgid "<variable id=\"sumif_head\"><link href=\"text/scalc/01/func_sumif.xhp\">SUMIF</link></variable>"
-msgstr ""
+msgstr "<variable id=\"sumif_head\"><link href=\"text/scalc/01/func_sumif.xhp\">SUMIF</link></variable>"
 
 #. AWAK5
 #: func_sumif.xhp
@@ -68856,7 +68856,7 @@ msgctxt ""
 "par_id3151986\n"
 "help.text"
 msgid "<ahelp hid=\".\">Determines which values in a range of cells meet a specified criterion, then returns the sum of the matching values. Alternatively the function can determine which values in one range of cells meet a criterion, then return the sum of values in the corresponding cells in a second range of cells.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Určí, které hodnoty v oblasti buněk splňují zadané kritérium, a vrátí součet těchto hodnot. Alternativně může funkce určit, které hodnoty v oblasti buněk splňují kritérium, a vrátit součet hodnot odpovídajících buněk v druhé oblasti.</ahelp>"
 
 #. DFaC8
 #: func_sumif.xhp
@@ -68865,7 +68865,7 @@ msgctxt ""
 "par_id411711032873068\n"
 "help.text"
 msgid "SUMIF can only apply a single criterion to a range. Use <link href=\"text/scalc/01/func_sumifs.xhp#sumifs_head\">SUMIFS</link> if you need to apply multiple criteria."
-msgstr ""
+msgstr "Ve funkci SUMIF lze na oblast použít pouze jediné kritérium. Potřebujete-li kritérií více, použijte funkci <link href=\"text/scalc/01/func_sumifs.xhp#sumifs_head\">SUMIFS</link>."
 
 #. F7YsR
 #: func_sumif.xhp
@@ -68874,7 +68874,7 @@ msgctxt ""
 "par_id3152028\n"
 "help.text"
 msgid "<input>SUMIF(Range; Criterion [;SumRange])</input>"
-msgstr ""
+msgstr "<input>SUMIF(Oblast; Kritérium [;Oblast pro součet])</input>"
 
 #. D2NiD
 #: func_sumif.xhp
@@ -68883,7 +68883,7 @@ msgctxt ""
 "par_id3152043\n"
 "help.text"
 msgid "<emph>Range: </emph> The range of cells to which the criterion is applied."
-msgstr ""
+msgstr "<emph>Oblast:</emph> Oblast buněk, na kterou se má kritérium použít."
 
 #. ToLFA
 #: func_sumif.xhp
@@ -68892,7 +68892,7 @@ msgctxt ""
 "par_id521711134077228\n"
 "help.text"
 msgid "SUMIF supports the reference concatenation operator (~) only in the Range parameter, and only if the optional SumRange parameter is not given."
-msgstr ""
+msgstr "Pouze v parametru Oblast podporuje SUMIF operátor řetězení (~), a to pouze tehdy, není-li zadán nepovinný parametr Oblast pro součet."
 
 #. BMGEn
 #: func_sumif.xhp
@@ -68901,7 +68901,7 @@ msgctxt ""
 "par_id3152083\n"
 "help.text"
 msgid "<emph>SumRange: </emph>Optional. The range of cells from which values are summed. If no SumRange is given, the values in the Range are summed."
-msgstr ""
+msgstr "<emph>Oblast pro součet:</emph> Nepovinné. Oblast buněk, jejíž hodnoty budou sečteny. Pokud není tento parametr zadán, sečtou se hodnoty nalezené v oblasti zadané parametrem Oblast."
 
 #. oviCS
 #: func_sumif.xhp
@@ -68910,7 +68910,7 @@ msgctxt ""
 "hd_id451710857799382\n"
 "help.text"
 msgid "Simple usage"
-msgstr ""
+msgstr "Základní použití"
 
 #. FsERF
 #: func_sumif.xhp
@@ -68919,7 +68919,7 @@ msgctxt ""
 "par_id171711049202378\n"
 "help.text"
 msgid "<input>=SUMIF(C2:C6,\">=100\")</input>"
-msgstr ""
+msgstr "<input>=SUMIF(C2:C6;\">=100\")</input>"
 
 #. 6mqDE
 #: func_sumif.xhp
@@ -68928,7 +68928,7 @@ msgctxt ""
 "par_id381711049216331\n"
 "help.text"
 msgid "Sums only the values from range C2:C6 that are >=100. Returns 370 because cells C2:C3 do not meet the criterion. The values from Range are summed because no SumRange is given."
-msgstr ""
+msgstr "Sečte pouze ty hodnoty z oblasti C2:C6, které jsou větší nebo rovny 100. Vrátí 370, protože buňky C2:C3 nesplňují kritérium. Sčítají se hodnoty z oblasti dané parametrem Oblast, protože oblast pro součet není zadána."
 
 #. AEAwA
 #: func_sumif.xhp
