@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-05-27 12:59+0200\n"
-"PO-Revision-Date: 2024-05-30 21:08+0000\n"
+"PO-Revision-Date: 2024-06-03 09:45+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/cs/>\n"
 "Language: cs\n"
@@ -68937,7 +68937,7 @@ msgctxt ""
 "par_id6670125\n"
 "help.text"
 msgid "<input>=SUMIF(B2:B5,\">=20\",C2:C6)</input>"
-msgstr ""
+msgstr "<input>=SUMIF(B2:B5;\">=20\";C2:C6)</input>"
 
 #. nUdXV
 #: func_sumif.xhp
@@ -68946,7 +68946,7 @@ msgctxt ""
 "par_id341710857230552\n"
 "help.text"
 msgid "Sums values from the range B2:B6 only if the corresponding values in the range A1:A5 are >=20. Returns 340 because the fifth and sixth rows do not meet the criterion."
-msgstr ""
+msgstr "Sečte hodnoty z oblasti B2:B6 pouze tehdy, pokud jsou odpovídající hodnoty v oblasti A1:A5 větší nebo rovny 20. Vrátí 340, protože pátý a šestý řádek kritérium nesplňují."
 
 #. Zjs4B
 #: func_sumif.xhp
@@ -68955,7 +68955,7 @@ msgctxt ""
 "hd_id291710867590698\n"
 "help.text"
 msgid "Using regular expressions"
-msgstr ""
+msgstr "Použití regulárních výrazů"
 
 #. 2XByE
 #: func_sumif.xhp
@@ -68964,7 +68964,7 @@ msgctxt ""
 "par_id911710859836541\n"
 "help.text"
 msgid "<input>=SUMIF(A2:A6,\"pen\",C2:C5)</input>"
-msgstr ""
+msgstr "<input>=SUMIF(A2:A6;\"nůž\";C2:C5)</input>"
 
 #. 3ggQs
 #: func_sumif.xhp
@@ -68973,7 +68973,7 @@ msgctxt ""
 "par_id31710859838046\n"
 "help.text"
 msgid "Sums values from the range C2:C6 only if the corresponding range in A2:A6 exactly match the letters \"pen\". Returns 85 because rows A2 and A4:A6 do not meet the criterion."
-msgstr ""
+msgstr "Sečte hodnoty z oblasti C2:C6 pouze tehdy, pokud se odpovídající hodnoty v oblasti A2:A6 přesně shodují s písmeny \"nůž\". Vrátí 85, protože řádky A2 a A4:A6 kritérium nesplňují."
 
 #. L9Ftz
 #: func_sumif.xhp
@@ -68982,7 +68982,7 @@ msgctxt ""
 "par_id781710871590769\n"
 "help.text"
 msgid "<input>=SUMIF(A2:A6,\"pen*\",C2:C6)</input>"
-msgstr ""
+msgstr "<input>=SUMIF(A2:A6;\"nůž*\";C2:C6)</input>"
 
 #. netyd
 #: func_sumif.xhp
@@ -68991,7 +68991,7 @@ msgctxt ""
 "par_id431710871624405\n"
 "help.text"
 msgid "Sums the values from the range C2:C6 only if the corresponding cell in range A2:A6 contains the letters \"pen\". Returns the value 150 because rows A4:A5 do not meet the criterion."
-msgstr ""
+msgstr "Sečte hodnoty z oblasti C2:C6 pouze tehdy, pokud odpovídající hodnoty v oblasti A2:A6 obsahují písmena \"nůž\". Vrátí 150, protože řádky A4:A5 kritérium nesplňují."
 
 #. PdFbx
 #: func_sumif.xhp
@@ -69000,7 +69000,7 @@ msgctxt ""
 "par_id311711128230771\n"
 "help.text"
 msgid "<input>=SUMIF(ProductName,\"pen*\",Revenue)</input>"
-msgstr ""
+msgstr "<input>=SUMIF(NázevZboží;\"nůž*\";Tržby)</input>"
 
 #. ZeyUD
 #: func_sumif.xhp
@@ -69009,7 +69009,7 @@ msgctxt ""
 "par_id741711128545751\n"
 "help.text"
 msgid "A named range can be given as the Range or SumRange parameter. For example, if the columns in the above table are respectively named \"ProductName\", \"Sales\", and \"Revenue\", the function returns 150. This function will only work as described if you have defined the names of the columns using the <link href=\"text/scalc/01/04070100.xhp#definenames)\">Define Names</link> dialog."
-msgstr ""
+msgstr "Jako parametry Oblast nebo Oblast pro součet lze zadat pojmenovanou oblast. Jestliže jsou například sloupce výše uvedené tabulky pojmenovány \"NázevZboží\", \"Prodeje\" a \"Tržby\", funkce vrátí 150. Takto se bude funkce chovat pouze tehdy, pokud jste pomocí dialogového okna <link href=\"text/scalc/01/04070100.xhp#definenames)\">Definovat názvy</link> názvy sloupců definovali."
 
 #. amnCv
 #: func_sumif.xhp
@@ -69018,7 +69018,7 @@ msgctxt ""
 "hd_id531711029933195\n"
 "help.text"
 msgid "Reference to a cell as a criterion"
-msgstr ""
+msgstr "Odkaz na buňku jako kritérium"
 
 #. sGzYo
 #: func_sumif.xhp
@@ -69027,7 +69027,7 @@ msgctxt ""
 "par_id561711031254255\n"
 "help.text"
 msgid "If you need to change a criterion easily, you may specify it in a separate cell and use a reference to this cell in the condition of the SUMIFS function. For example:"
-msgstr ""
+msgstr "Potřebujete-li kritérium snadno změnit, můžete jej zadat do samostatné buňky, na kterou odkážete v podmínce funkce SUMIF. Například:"
 
 #. pAzfZ
 #: func_sumif.xhp
@@ -69036,7 +69036,7 @@ msgctxt ""
 "par_id331711030450765\n"
 "help.text"
 msgid "<input>=SUMIF(A2:A6,E2,C2:C6)</input>"
-msgstr ""
+msgstr "<input>=SUMIF(A2:A6;E2;C2:C6)</input>"
 
 #. sFiDn
 #: func_sumif.xhp
@@ -69045,7 +69045,7 @@ msgctxt ""
 "par_id11711031541218\n"
 "help.text"
 msgid "If E2 = pen, the function returns 85 because the link to the cell is substituted with its contents."
-msgstr ""
+msgstr "Pokud E2 = nůž, funkce vrátí 85, jelikož odkaz na buňku bude nahrazen jejím obsahem."
 
 #. gyimf
 #: func_sumif.xhp
@@ -69054,7 +69054,7 @@ msgctxt ""
 "par_id771677014538669\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/SUMIF\">SUMIF wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/SUMIF\">Wiki stránka SUMIF</link>."
 
 #. DfceH
 #: func_sumifs.xhp
@@ -69954,7 +69954,7 @@ msgctxt ""
 "par_id771708806478128\n"
 "help.text"
 msgid "Returns the array of unique values from a range or array of values."
-msgstr ""
+msgstr "Vrátí z oblasti nebo matice hodnot matici jedinečných hodnot."
 
 #. h3r2U
 #: func_unique.xhp
@@ -69963,7 +69963,7 @@ msgctxt ""
 "par_id711715953325962\n"
 "help.text"
 msgid "The UNIQUE function is always case sensitive, independent from the setting of <emph>Case sensitive</emph> checkbox in <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\"><menuitem>%PRODUCTNAME Calc - Calculate</menuitem></link>."
-msgstr ""
+msgstr "Ve funkci UNIQUE se vždy rozlišuje velikost písmen, a to bez ohledu na nastavení zaškrtávacího pole <emph>Rozlišovat velikost písmen</emph> v <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Předvolby</menuitem></caseinline><defaultinline><menuitem>Nástroje - Možnosti</menuitem></defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\"><menuitem>%PRODUCTNAME Calc - Výpočty</menuitem></link>."
 
 #. A8bJf
 #: func_unique.xhp
@@ -69972,7 +69972,7 @@ msgctxt ""
 "par_id211708281649651\n"
 "help.text"
 msgid "UNIQUE(Array, [By col], [Uniqueness])"
-msgstr ""
+msgstr "UNIQUE(Matice, [Podle sloupce], [Jedinečnost])"
 
 #. DUA7p
 #: func_unique.xhp
@@ -69981,7 +69981,7 @@ msgctxt ""
 "par_id381715698113514\n"
 "help.text"
 msgid "<emph>Array</emph>: the range or array from which to return unique values."
-msgstr ""
+msgstr "<emph>Matice</emph>: oblast nebo matice, ze které se mají jedinečné hodnoty vrátit."
 
 #. ZDyWq
 #: func_unique.xhp
@@ -69990,7 +69990,7 @@ msgctxt ""
 "par_id311715698119400\n"
 "help.text"
 msgid "<emph>By col</emph>: (optional) a logical value that indicates how to compare data: TRUE - compares data horizontally for a match of all cells in each column, across all columns. FALSE or omitted (default) - compares data vertically, for a match of all cells of each row, across all rows."
-msgstr ""
+msgstr "<emph>Podle sloupce</emph> (nepovinné): logická hodnota určující, jak se mají data porovnávat: PRAVDA – data se porovnají data vodorovně, pro každý sloupec se hledá shoda všech jeho buněk, a to napříč všemi sloupci. NEPRAVDA nebo vynecháno (výchozí) – data porovnají svisle, pro každý řádek se hledá shoda všech, a to napříč všemi řádky."
 
 #. DSDnH
 #: func_unique.xhp
@@ -69999,7 +69999,7 @@ msgctxt ""
 "par_id531715698124705\n"
 "help.text"
 msgid "<emph>Uniqueness</emph>: (optional) A logical value that defines which values are considered unique. TRUE returns values that occur only once. The default is FALSE or omitted, which returns all distinct values in the range or array."
-msgstr ""
+msgstr "<emph>Jedinečnost</emph> (nepovinné): Logická hodnota určující, jaké hodnoty jsou považovány za jedinečné. PRAVDA – vrátí hodnoty, které se vyskytují pouze jednou. NEPRAVDA nebo vynecháno – vrátí všechny navzájem odlišné hodnoty v oblasti nebo matici."
 
 #. fknB6
 #: func_unique.xhp
@@ -70008,7 +70008,7 @@ msgctxt ""
 "par_id501715889339407\n"
 "help.text"
 msgid "The UNIQUE function must be entered as an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
-msgstr ""
+msgstr "Funkci UNIQUE je nutné zadat jako <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">maticový vzorec</link>."
 
 #. RUvGf
 #: func_unique.xhp
@@ -70017,7 +70017,7 @@ msgctxt ""
 "par_id471715980557106\n"
 "help.text"
 msgid "Given the data table below, the examples returns unique occurrences of grades and age."
-msgstr ""
+msgstr "Pro následující tabulku dat vrátí příklady jedinečné výskyty kombinací třídy a věku."
 
 #. Kgeri
 #: func_unique.xhp
@@ -70026,7 +70026,7 @@ msgctxt ""
 "hd_id931715984553129\n"
 "help.text"
 msgid "Example 1"
-msgstr ""
+msgstr "Příklad 1"
 
 #. nbDpQ
 #: func_unique.xhp
@@ -70035,7 +70035,7 @@ msgctxt ""
 "par_id641715980827372\n"
 "help.text"
 msgid "<input>{=UNIQUE(B1:C10,FALSE(),FALSE())}</input> returns the array below. The grades and ages of the rows with name Andy and Harry are returned only once. The same for rows with name Eva and Irene."
-msgstr ""
+msgstr "<input>{=UNIQUE(B1:C10;FALSE();FALSE())}</input> vrátí níže uvedenou matici. Třída a věk řádků se jmény Aleš a Jindřich se vrátí pouze jedno. Totéž platí pro řádky se jmény Eva a Irena."
 
 #. 9XEhA
 #: func_unique.xhp
@@ -70044,7 +70044,7 @@ msgctxt ""
 "par_id641715983343641\n"
 "help.text"
 msgid "<emph>Grade</emph>"
-msgstr ""
+msgstr "<emph>Třída</emph>"
 
 #. LFWFS
 #: func_unique.xhp
@@ -70053,7 +70053,7 @@ msgctxt ""
 "par_id511715983350731\n"
 "help.text"
 msgid "<emph>Age</emph>"
-msgstr ""
+msgstr "<emph>Věk</emph>"
 
 #. i74Ub
 #: func_unique.xhp
@@ -70062,7 +70062,7 @@ msgctxt ""
 "hd_id981715984567844\n"
 "help.text"
 msgid "Example 2"
-msgstr ""
+msgstr "Příklad 2"
 
 #. FuxKt
 #: func_unique.xhp
@@ -70071,7 +70071,7 @@ msgctxt ""
 "par_id801715981230387\n"
 "help.text"
 msgid "<input>{=UNIQUE(B1:C10,FALSE(),TRUE())}</input>, with <emph>Uniqueness</emph> as TRUE. Returns the array below with the rows of Andy, Harry, Eva and Irene omitted because their combined grades and ages are not unique."
-msgstr ""
+msgstr "<input>{=UNIQUE(B1:C10;FALSE();TRUE())}</input>, s parametrem <emph>Jedinečnost</emph> jako PRAVDA. Vrátí níže uvedenou matici, v níž jsou vynechány řádky pro jména Aleš, Jindřich, Eva a Irena, protože jejich kombinace třídy a věku nejsou jedinečné."
 
 #. dScyG
 #: func_unique.xhp
@@ -70080,7 +70080,7 @@ msgctxt ""
 "par_id501715983764524\n"
 "help.text"
 msgid "<emph>Grade</emph>"
-msgstr ""
+msgstr "<emph>Třída</emph>"
 
 #. GAopa
 #: func_unique.xhp
@@ -70089,7 +70089,7 @@ msgctxt ""
 "par_id31715983773608\n"
 "help.text"
 msgid "<emph>Age</emph>"
-msgstr ""
+msgstr "<emph>Věk</emph>"
 
 #. oV47W
 #: func_unique.xhp
@@ -71961,7 +71961,7 @@ msgctxt ""
 "par_id451715611481885\n"
 "help.text"
 msgid "YEAR() returns the integer part of the year."
-msgstr ""
+msgstr "YEAR() vrátí celočíselnou část roku."
 
 #. 3RPng
 #: func_year.xhp
@@ -73644,7 +73644,7 @@ msgctxt ""
 "par_id401698839153661\n"
 "help.text"
 msgid "Opens the <emph>Sparklines Properties</emph> dialog to define sparkline settings."
-msgstr ""
+msgstr "Otevře dialogové okno <emph>Vlastnosti minigrafu</emph> pro určení nastavení minigrafu."
 
 #. wUPfH
 #: sparklines.xhp
