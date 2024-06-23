@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-06-06 13:17+0200\n"
-"PO-Revision-Date: 2024-06-07 01:45+0000\n"
+"PO-Revision-Date: 2024-06-23 01:45+0000\n"
 "Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/cs/>\n"
 "Language: cs\n"
@@ -14297,6 +14297,10 @@ msgid ""
 "1 - Exact match or the next larger item.\n"
 "2 - Wildcard or regular expression match."
 msgstr ""
+"0 - Přesná shoda. Bez shody se vrátí #N/A. (výchozí)\n"
+"-1 - Přesná shoda nebo další menší položka.\n"
+"1 - Přesná shoda nebo další větší položka.\n"
+"2 - Shoda s výrazem se zástupnými znaky nebo s regulárním výrazem."
 
 #. EvSiP
 #: sc/inc/scfuncs.hrc:3394
@@ -14313,6 +14317,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1 - Vyhledávání od první hodnoty (výchozí).\n"
+"-1 - Vyhledávání od poslední hodnoty (obrácené).\n"
+"2 - Binární vyhledávání hodnot seřazených vzestupně.\n"
+"-2 - Binární vyhledávání hodnot seřazených sestupně."
 
 #. KZapz
 #: sc/inc/scfuncs.hrc:3401
@@ -14527,6 +14535,10 @@ msgid ""
 "1 - Exact match or the next larger item.\n"
 "2 - Wildcard or regular expression match."
 msgstr ""
+"0 - Přesná shoda. Bez shody se vrátí #N/A. (výchozí)\n"
+"-1 - Přesná shoda nebo další menší položka.\n"
+"1 - Přesná shoda nebo další větší položka.\n"
+"2 - Shoda s výrazem se zástupnými znaky nebo s regulárním výrazem."
 
 #. UtoXD
 #: sc/inc/scfuncs.hrc:3456
@@ -14543,6 +14555,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1 - Vyhledávání od první hodnoty (výchozí).\n"
+"-1 - Vyhledávání od poslední hodnoty (obrácené).\n"
+"2 - Binární vyhledávání hodnot seřazených vzestupně.\n"
+"-2 - Binární vyhledávání hodnot seřazených sestupně."
 
 #. XJ4FS
 #: sc/inc/scfuncs.hrc:3463
@@ -17159,7 +17175,7 @@ msgstr "Výpočet nebo název "
 #: sc/inc/scfuncs.hrc:4275
 msgctxt "SC_OPCODE_LET"
 msgid "A calculation that uses all names within the LET function. This must be the last argument in the LET function. Or a second Name to assign to a second Name value. If a second Name is specified, Name value 2 and Calculation or Name 3 become required."
-msgstr ""
+msgstr "Výpočet, který používá všechny názvy funkce LET. Musí se jednat o poslední argument funkce LET. Případně druhý název, jestliže mu chcete přiřadit hodnoty. Pokud je druhý název uveden, stane se povinnými Hodnota názvu 2 a Výpočet nebo název 3."
 
 #. pDDme
 #: sc/inc/scstyles.hrc:29
