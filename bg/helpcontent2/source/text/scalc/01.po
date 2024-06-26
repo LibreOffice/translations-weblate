@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-06-20 13:14+0200\n"
-"PO-Revision-Date: 2024-06-25 09:45+0000\n"
+"PO-Revision-Date: 2024-06-26 08:48+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/bg/>\n"
 "Language: bg\n"
@@ -71754,7 +71754,7 @@ msgctxt ""
 "par_id211708281649651\n"
 "help.text"
 msgid "XLOOKUP( [Lookup] ; Array ; Return [ ; [ NotFound ] [ ; [MatchType] [ ; SearchMode ] ] ] )"
-msgstr ""
+msgstr "XLOOKUP( [Ключ] ; Масив ; Резултат [ ; [ Ненамерен] [ ; [ТипСъвпадение] [ ; РежимНаТърсене ] ] ] )"
 
 #. WoJu6
 #: func_xlookup.xhp
@@ -71763,7 +71763,7 @@ msgctxt ""
 "par_id861708281340704\n"
 "help.text"
 msgid "<emph>Lookup</emph>: (optional) The value of any type to search for in <emph>Array</emph>. If omitted, XLOOKUP returns blank cells it finds in <emph>Array</emph>."
-msgstr ""
+msgstr "<emph>Ключ</emph>: (незадължителен) стойността от произволен тип, която да бъде търсена в <emph>Масив</emph>. Ако е пропуснат, XLOOKUP връща празните клетки, които открие в <emph>Масив</emph>."
 
 #. hBE9s
 #: func_xlookup.xhp
@@ -71772,7 +71772,7 @@ msgctxt ""
 "par_id831708281625340\n"
 "help.text"
 msgid "<emph>Array</emph>: is the reference of the array to search.  Array must be a 1-dimensional array and must be contained in one sheet only."
-msgstr ""
+msgstr "<emph>Масив</emph>: обръщение към претърсвания масив. „Масив“ трябва да представлява едномерен масив и да се разпростира само в един лист."
 
 #. nWhEP
 #: func_xlookup.xhp
@@ -71781,7 +71781,7 @@ msgctxt ""
 "par_id241708281629922\n"
 "help.text"
 msgid "<emph>Return</emph>: is the reference of the array or range to return."
-msgstr ""
+msgstr "<emph>Резултат</emph>: обръщението към масива или диапазона, който да се връща като резултат."
 
 #. G4DLq
 #: func_xlookup.xhp
@@ -71790,7 +71790,7 @@ msgctxt ""
 "par_id821708357634624\n"
 "help.text"
 msgid "If <emph>Return</emph> is a range of cells, the XLOOKUP function must be entered as an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
-msgstr ""
+msgstr "Ако <emph>Резултат</emph> е диапазон от клетки, функцията XLOOKUP трябва да бъде въведена като <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">формула за масив</link>."
 
 #. WTFGZ
 #: func_xlookup.xhp
@@ -71799,7 +71799,7 @@ msgctxt ""
 "par_id271708281637035\n"
 "help.text"
 msgid "<emph>NotFound</emph>: a text or cell content to return if the <emph>Lookup</emph> value is not found. If a valid match is not found and <emph>NotFound</emph> is omitted, the function returns the #N/A error."
-msgstr ""
+msgstr "<emph>Ненамерен</emph>: текст или съдържание на клетка, което да бъде върнато, ако стойността <emph>Ключ</emph> не бъде открита. Ако не се намери валидно съвпадение и <emph>Ненамерен</emph> е пропуснат, функцията връща грешка #N/A."
 
 #. ruAWq
 #: func_xlookup.xhp
@@ -71808,7 +71808,7 @@ msgctxt ""
 "par_id121708281643207\n"
 "help.text"
 msgid "<emph>MatchType</emph>: (optional) specifies the match type. Values can be:"
-msgstr ""
+msgstr "<emph>ТипСъвпадение</emph>: (незадължителен) указва типа на съвпадението. Стойностите му могат да бъдат:"
 
 #. go9sN
 #: func_xlookup.xhp
@@ -71817,7 +71817,7 @@ msgctxt ""
 "par_id111708281542144\n"
 "help.text"
 msgid "<emph>0</emph>: exact match (default). If <emph>Lookup</emph> value is not found and <emph>NotFound</emph> text is omitted, then return the #N/A error."
-msgstr ""
+msgstr "<emph>0</emph>: точно съвпадение (подразбира се). Ако стойността <emph>Ключ</emph> не бъде намерена и не е зададен текст за <emph>Ненамерен</emph>, се връща грешка #N/A."
 
 #. CtG9A
 #: func_xlookup.xhp
@@ -71826,7 +71826,7 @@ msgctxt ""
 "par_id851708281548335\n"
 "help.text"
 msgid "<emph>-1</emph>: attempt exact match. If <emph>Lookup</emph> value is not found, then return the next smaller item."
-msgstr ""
+msgstr "<emph>-1</emph>: проверява се за точно съвпадение. Ако не се намери стойността <emph>Ключ</emph>, се връща следващият по-малък елемент."
 
 #. CpEkK
 #: func_xlookup.xhp
@@ -71835,7 +71835,7 @@ msgctxt ""
 "par_id801708281553430\n"
 "help.text"
 msgid "<emph>1</emph>: attempt exact match. If <emph>Lookup</emph> value is not found, then return the next larger item."
-msgstr ""
+msgstr "<emph>1</emph>: проверява се за точно съвпадение. Ако не се намери стойността <emph>Ключ</emph>, се връща следващият по-голям елемент."
 
 #. DEt3s
 #: func_xlookup.xhp
@@ -71844,7 +71844,7 @@ msgctxt ""
 "par_id881708281558005\n"
 "help.text"
 msgid "<emph>2</emph>: a <link href=\"text/scalc/guide/wildcards.xhp\">wildcard</link> match where characters *, ?, and ~ have special meanings, or a match using <link href=\"text/shared/01/02100001.xhp\">regular expressions</link>."
-msgstr ""
+msgstr "<emph>2</emph>: търси се съвпадение със <link href=\"text/scalc/guide/wildcards.xhp\">заместващи знаци</link>, при което знаците *, ? и ~ имат специално значение, или съвпадение с <link href=\"text/shared/01/02100001.xhp\">регулярен израз</link>."
 
 #. EqTBc
 #: func_xlookup.xhp
@@ -71853,7 +71853,7 @@ msgctxt ""
 "par_id871708281607313\n"
 "help.text"
 msgid "<emph>SearchMode</emph>: (optional) specifies the search mode to use."
-msgstr ""
+msgstr "<emph>РежимНаТърсене</emph>: (незадължителен) указва какъв режим на търсене да се използва."
 
 #. FfKjN
 #: func_xlookup.xhp
@@ -71862,7 +71862,7 @@ msgctxt ""
 "par_id281708281579757\n"
 "help.text"
 msgid "<emph>1</emph>: returns the first occurrence starting from the first item of <emph>Array</emph> (default)."
-msgstr ""
+msgstr "<emph>1</emph>: връща се първото срещане, започвайки от първия елемент на <emph>Масив</emph> (подразбира се)."
 
 #. 8CD3w
 #: func_xlookup.xhp
@@ -71871,7 +71871,7 @@ msgctxt ""
 "par_id251708281584285\n"
 "help.text"
 msgid "<emph>-1</emph>: reverse search. Returns the first occurrence starting from the last item of <emph>Array</emph>."
-msgstr ""
+msgstr "<emph>-1</emph>: обратно търсене. Връща се първото срещане, започвайки от последния елемент на <emph>Масив</emph>."
 
 #. 6aABE
 #: func_xlookup.xhp
@@ -71880,7 +71880,7 @@ msgctxt ""
 "par_id191708281589997\n"
 "help.text"
 msgid "<emph>2</emph>: binary search that relies on <emph>Array</emph> being sorted in ascending order. If not sorted, invalid results will be returned."
-msgstr ""
+msgstr "<emph>2</emph>: двоично търсене, при което се разчита, че <emph>Масив</emph> е сортиран във възходящ ред. Ако не е сортиран, ще бъдат връщани погрешни резултати."
 
 #. pwwij
 #: func_xlookup.xhp
@@ -71889,7 +71889,7 @@ msgctxt ""
 "par_id561708281595885\n"
 "help.text"
 msgid "<emph>-2</emph>: binary search that relies on <emph>Array</emph> being sorted in descending order. If not sorted, invalid results will be returned."
-msgstr ""
+msgstr "<emph>-2</emph>: двоично търсене, при което се разчита, че <emph>Масив</emph> е сортиран в низходящ ред. Ако не е сортиран, ще бъдат връщани погрешни резултати."
 
 #. jo6AY
 #: func_xlookup.xhp
@@ -71898,7 +71898,7 @@ msgctxt ""
 "par_id551718627629229\n"
 "help.text"
 msgid "<emph>MatchType</emph> value 2 cannot be combined with binary search (<emph>SearchMode</emph> value <emph>2</emph> or <emph>-2</emph>)."
-msgstr ""
+msgstr "Стойност 2 за <emph>ТипСъвпадение</emph> не може да бъде комбинирана с двоично търсене (стойност на <emph>РежимНаТърсене</emph> <emph>2</emph> или <emph>-2</emph>)."
 
 #. fHQrZ
 #: func_xlookup.xhp
@@ -71907,7 +71907,7 @@ msgctxt ""
 "par_id141716739193733\n"
 "help.text"
 msgid "<input>{=XLOOKUP(\"Atomic Number\";A2:A4;A2:DO4)}</input> returns the array"
-msgstr ""
+msgstr "<input>{=XLOOKUP(\"Атомен номер\";A2:A4;A2:DO4)}</input> връща масива"
 
 #. tkRq7
 #: func_xlookup.xhp
@@ -71916,7 +71916,7 @@ msgctxt ""
 "par_id231716739652495\n"
 "help.text"
 msgid "<input>{=XLOOKUP(\"Helium\";B1:DO1;B1:DO4)}</input> returns the array"
-msgstr ""
+msgstr "<input>{=XLOOKUP(\"Хелий\";B1:DO1;B1:DO4)}</input> returns the array"
 
 #. D5tG5
 #: func_xlookup.xhp
@@ -71925,7 +71925,7 @@ msgctxt ""
 "par_id21716739329244\n"
 "help.text"
 msgid "Helium"
-msgstr ""
+msgstr "Хелий"
 
 #. vaCSD
 #: func_xlookup.xhp
@@ -71934,7 +71934,7 @@ msgctxt ""
 "par_id671708356683379\n"
 "help.text"
 msgid "<input>{=XLOOKUP(\"Kryptonite\";B1:DO1;B1:DO4;\"Unknown element\")}</input> returns the array {\"Unknown element\",\"Unknown element\",\"Unknown element\",\"Unknown element\"}."
-msgstr ""
+msgstr "<input>{=XLOOKUP(\"Криптонит\";B1:DO1;B1:DO4;\"Непознат елемент\")}</input> връща масива {\"Непознат елемент\",\"Непознат елемент\",\"Непознат елемент\",\"Непознат елемент\"}."
 
 #. SzUpN
 #: func_xlookup.xhp
@@ -71943,7 +71943,7 @@ msgctxt ""
 "par_id701677016751508\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/XLOOKUP\">XLOOKUP wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/XLOOKUP\">Уикистраница за XLOOKUP</link>"
 
 #. z6i4f
 #: func_xmatch.xhp
@@ -71952,7 +71952,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "XMATCH Function"
-msgstr ""
+msgstr "Функция XMATCH"
 
 #. Q8WY3
 #: func_xmatch.xhp
@@ -71961,7 +71961,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>XMATCH function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>XMATCH, функция</bookmark_value>"
 
 #. Y5Xci
 #: func_xmatch.xhp
@@ -71970,7 +71970,7 @@ msgctxt ""
 "hd_id821708279355736\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/func_xmatch.xhp\">XMATCH</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/func_xmatch.xhp\">XMATCH</link></variable>"
 
 #. 8GYav
 #: func_xmatch.xhp
@@ -71979,7 +71979,7 @@ msgctxt ""
 "par_id581708279355738\n"
 "help.text"
 msgid "Searches for a value in a one-dimensional array and returns the relative position of the item."
-msgstr ""
+msgstr "Търси стойност в едномерен масив и връща относителната позиция на елемента."
 
 #. qJsbC
 #: func_xmatch.xhp
@@ -71988,7 +71988,7 @@ msgctxt ""
 "par_id321716754048322\n"
 "help.text"
 msgid "XMATCH outperforms function <link href=\"text/scalc/01/04060109.xhp#Section12\">MATCH</link> as it allows searches according to the search mode."
-msgstr ""
+msgstr "XMATCH е с по-добра производителност от <link href=\"text/scalc/01/04060109.xhp#Section12\">MATCH</link>, защото позволява търсене според зададен режим."
 
 #. NFwz8
 #: func_xmatch.xhp
@@ -71997,7 +71997,7 @@ msgctxt ""
 "par_id211708281649651\n"
 "help.text"
 msgid "XMATCH(Lookup; Array [; MatchType [; SearchMode ] ] )"
-msgstr ""
+msgstr "XMATCH(Ключ; Масив [; ТипСъвпадение [; РежимНаТърсене ] ] )"
 
 #. NA2BM
 #: func_xmatch.xhp
@@ -72006,7 +72006,7 @@ msgctxt ""
 "par_id861708281340704\n"
 "help.text"
 msgid "<emph>Lookup</emph>: The value of any type to search for in <emph>Array</emph>."
-msgstr ""
+msgstr "<emph>Ключ</emph>: стойността от произволен тип, която да бъде търсена в <emph>Масив</emph>."
 
 #. BuCGn
 #: func_xmatch.xhp
@@ -72015,7 +72015,7 @@ msgctxt ""
 "par_id831708281625340\n"
 "help.text"
 msgid "<emph>Array</emph>: is the reference of the array or range to search."
-msgstr ""
+msgstr "<emph>Масив</emph>: обръщението към претърсвания масив или диапазон."
 
 #. yxFjM
 #: func_xmatch.xhp
@@ -72024,7 +72024,7 @@ msgctxt ""
 "par_id121708281643207\n"
 "help.text"
 msgid "<emph>MatchType</emph>: (optional) specifies the match type. Values can be:"
-msgstr ""
+msgstr "<emph>ТипСъвпадение</emph>: (незадължителен) указва типа на съвпадението. Стойностите му могат да бъдат:"
 
 #. jmwqp
 #: func_xmatch.xhp
@@ -72033,7 +72033,7 @@ msgctxt ""
 "par_id111708281542144\n"
 "help.text"
 msgid "<emph>0</emph>: exact match (default). If <emph>Lookup</emph> value is not found, then return the #N/A error."
-msgstr ""
+msgstr "<emph>0</emph>: точно съвпадение (подразбира се). Ако стойността <emph>Ключ</emph> не бъде намерена, се връща грешката #N/A."
 
 #. 9SMUK
 #: func_xmatch.xhp
@@ -72042,7 +72042,7 @@ msgctxt ""
 "par_id851708281548335\n"
 "help.text"
 msgid "<emph>-1</emph>: attempt exact match. If <emph>Lookup</emph> value is not found, then return the next smaller item."
-msgstr ""
+msgstr "<emph>-1</emph>: проверява се за точно съвпадение. Ако не се намери стойността <emph>Ключ</emph>, се връща следващият по-малък елемент."
 
 #. hwonA
 #: func_xmatch.xhp
@@ -72051,7 +72051,7 @@ msgctxt ""
 "par_id801708281553430\n"
 "help.text"
 msgid "<emph>1</emph>: attempt exact match. If <emph>Lookup</emph> value is not found, then return the next larger item."
-msgstr ""
+msgstr "<emph>1</emph>: проверява се за точно съвпадение. Ако не се намери стойността <emph>Ключ</emph>, се връща следващият по-голям елемент."
 
 #. y5cx9
 #: func_xmatch.xhp
@@ -72060,7 +72060,7 @@ msgctxt ""
 "par_id881708281558005\n"
 "help.text"
 msgid "<emph>2</emph>: a <link href=\"text/scalc/guide/wildcards.xhp\">wildcard</link> match where characters *, ?, and ~ have special meanings, or a match using <link href=\"text/shared/01/02100001.xhp\">regular expressions</link>."
-msgstr ""
+msgstr "<emph>2</emph>: търси се съвпадение със <link href=\"text/scalc/guide/wildcards.xhp\">заместващи знаци</link>, при което знаците *, ? и ~ имат специално значение, или съвпадение с <link href=\"text/shared/01/02100001.xhp\">регулярен израз</link>."
 
 #. WMXaP
 #: func_xmatch.xhp
@@ -72069,7 +72069,7 @@ msgctxt ""
 "par_id471716753503759\n"
 "help.text"
 msgid "<input>=XMATCH(\"Atomic Number\",A1:A4)</input> returns 3, the third line of the A1:A4 array."
-msgstr ""
+msgstr "<input>=XMATCH(\"Атомен номер\";A1:A4)</input> връща 3, третия ред от масива A1:A4."
 
 #. QTDzi
 #: func_xmatch.xhp
@@ -72078,7 +72078,7 @@ msgctxt ""
 "par_id581716753499133\n"
 "help.text"
 msgid "<input>=XMATCH(\"Li\",A2:DO2)</input> returns 4, the fourth column of the A2:DO2 array."
-msgstr ""
+msgstr "<input>=XMATCH(\"Li\";A2:DO2)</input> връща 4, четвъртата колона на масива A2:DO2."
 
 #. 2AAX5
 #: func_xmatch.xhp
@@ -72087,7 +72087,7 @@ msgctxt ""
 "par_id701677016751508\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/XMATCH\">XMATCH wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/XMATCH\">Уикистраница за XMATCH</link>"
 
 #. dABAX
 #: func_year.xhp
@@ -72150,7 +72150,7 @@ msgctxt ""
 "par_id451715611481885\n"
 "help.text"
 msgid "YEAR() returns the integer part of the year."
-msgstr ""
+msgstr "YEAR() връща цялата част на годината."
 
 #. 3RPng
 #: func_year.xhp
@@ -72438,7 +72438,7 @@ msgctxt ""
 "bm_id240920171018528200\n"
 "help.text"
 msgid "<bookmark_value>Data Stream;Live data stream</bookmark_value><bookmark_value>Data Stream;Streams</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>поток от данни;на живо</bookmark_value><bookmark_value>поток от данни;потоци</bookmark_value>"
 
 #. xuUHC
 #: live_data_stream.xhp
@@ -72447,7 +72447,7 @@ msgctxt ""
 "hd_id240920171003006302\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/live_data_stream.xhp\">Streams</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/live_data_stream.xhp\">Потоци</link>"
 
 #. mB9BH
 #: live_data_stream.xhp
@@ -72663,7 +72663,7 @@ msgctxt ""
 "bm_id671647274159909\n"
 "help.text"
 msgid "<bookmark_value>share spreadsheet</bookmark_value>    <bookmark_value>spreadsheet;collaboration</bookmark_value>    <bookmark_value>spreadsheet;share</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>споделяне на електронна таблица</bookmark_value><bookmark_value>електронна таблица;съвместна работа</bookmark_value><bookmark_value>електронна таблица;споделяне</bookmark_value>"
 
 #. yDBns
 #: shared_spreadsheet.xhp
@@ -72681,7 +72681,7 @@ msgctxt ""
 "par_id9590136\n"
 "help.text"
 msgid "<ahelp hid=\".\">Opens the Share Document dialog where you can enable or disable collaborative sharing of the document.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Отваря диалога „Споделяне на документ“, в който можете да активирате или деактивирате споделянето на документа за съвместна работа.</ahelp>"
 
 #. KZGLG
 #: shared_spreadsheet.xhp
@@ -73833,7 +73833,7 @@ msgctxt ""
 "par_id401698839153661\n"
 "help.text"
 msgid "Opens the <emph>Sparklines Properties</emph> dialog to define sparkline settings."
-msgstr ""
+msgstr "Отваря диалога <emph>Свойства на блещукащи линии</emph> за задаване настройките за блещукащи линии."
 
 #. wUPfH
 #: sparklines.xhp
