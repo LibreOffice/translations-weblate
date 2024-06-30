@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-06-25 12:28+0200\n"
-"PO-Revision-Date: 2024-06-28 01:45+0000\n"
+"PO-Revision-Date: 2024-06-30 01:45+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/da/>\n"
 "Language: da\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.4.3\n"
 "X-POOTLE-MTIME: 1562523528.000000\n"
 
 #. kBovX
@@ -927,7 +927,7 @@ msgstr "Kolonneetiketter"
 #: sc/inc/globstr.hrc:162
 msgctxt "STR_SELCOUNT"
 msgid "Selected: %1, %2"
-msgstr "Valgt: 1%, 2%"
+msgstr "Markeret: %1, %2"
 
 #. iUrsE
 #. STR_SELCOUNT_ROWARG is %1 of STR_SELCOUNT. %d of STR_SELCOUNT_ROWARG is number of rows
@@ -14294,6 +14294,11 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0 - Nøjagtigt match. Vil returnere #N/A hvis der ikke er noget match. (standard).\n"
+"-1 - Nøjagtigt match eller næste mindre element.\n"
+"1 - Nøjagtigt match eller næste større element.\n"
+"2 - Jokertegn-match.\n"
+"3 - Match med regulære udtryk."
 
 #. EvSiP
 #: sc/inc/scfuncs.hrc:3394
@@ -14481,7 +14486,7 @@ msgstr "Type"
 #: sc/inc/scfuncs.hrc:3443
 msgctxt "SC_OPCODE_MATCH"
 msgid "Type can take the value 1 (first column array ascending), 0 (exact match or wildcard or regular expression match) or -1 (first column array descending) and determines the criteria to be used for comparison purposes."
-msgstr "Type kan have værde 1 (første kolonne-matriks i stigende rorden), 0 (nøjagtigt match eller joker eller regulært udtryk) eller -1 (førstekolonne-matriks faldende orden) og bestemmer de kriterier, der skal bruges til sammenligninger."
+msgstr "Type kan have værdi 1 (første kolonneområde i stigende orden), 0 (nøjagtigt match eller joker eller regulært udtryk) eller -1 (første kolonneområde i faldende orden) og bestemmer de kriterier, der skal bruges til sammenligninger."
 
 #. 3M9mS
 #: sc/inc/scfuncs.hrc:3449
@@ -14529,6 +14534,11 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0 - Nøjagtigt match. Vil returnere #N/A hvis der ikke er noget match. (standard).\n"
+"-1 - Nøjagtigt match eller næste mindre element.\n"
+"1 - Nøjagtigt match eller næste større element.\n"
+"2 - Jokertegn-match.\n"
+"3 - Match med regulære udtryk."
 
 #. UtoXD
 #: sc/inc/scfuncs.hrc:3456
@@ -34160,7 +34170,7 @@ msgstr "Angiv valideringsregler for de(n) valgte celle(r)."
 #: sc/uiconfig/scalc/ui/validationdialog.ui:8
 msgctxt "validationdialog|ValidationDialog"
 msgid "Validity"
-msgstr "Gyldighed"
+msgstr "Validering"
 
 #. u59K3
 #: sc/uiconfig/scalc/ui/validationdialog.ui:144
