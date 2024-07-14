@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-06-25 12:28+0200\n"
-"PO-Revision-Date: 2024-07-09 10:07+0000\n"
-"Last-Translator: Valter Mura <valtermura@gmail.com>\n"
+"PO-Revision-Date: 2024-07-14 22:47+0000\n"
+"Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -1288,9 +1288,10 @@ msgstr "Piè di pagina"
 
 #. Gak5M
 #: sc/inc/globstr.hrc:222
+#, fuzzy
 msgctxt "STR_TOO_MANY_COLUMNS_DATA_FORM"
 msgid "Too many columns in the data form."
-msgstr ""
+msgstr "Troppe colonne nel modulo dati."
 
 #. 499qP
 #. BEGIN error constants and error strings.
@@ -3029,12 +3030,16 @@ msgstr ""
 
 #. afEfS
 #: sc/inc/globstr.hrc:507
+#, fuzzy
 msgctxt "STR_QUERY_OPT_ROW_HEIGHT_RECALC_ONLOAD"
 msgid ""
 "The content of some cells may not be entirely visible. Recalculating row heights will make them visible, but may take some time.\n"
 "\n"
 "Do you want to recalculate all row heights now?"
 msgstr ""
+"Il contenuto di alcune celle potrebbe non essere completamente visibile. Il ricalcolo delle altezze delle righe le renderà visibili, ma potrebbe richiedere del tempo.\n"
+"\n"
+"Ricalcolare ora tutte le altezze delle righe?"
 
 #. YgjzK
 #: sc/inc/globstr.hrc:508
@@ -14249,9 +14254,10 @@ msgstr "Matrice di ricerca"
 
 #. wGtsD
 #: sc/inc/scfuncs.hrc:3387
+#, fuzzy
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "The array or range to search."
-msgstr ""
+msgstr "Matrice o intervallo di ricerca."
 
 #. yhzFf
 #: sc/inc/scfuncs.hrc:3388
@@ -14262,30 +14268,35 @@ msgstr "Matrice del risultato"
 
 #. VUQxn
 #: sc/inc/scfuncs.hrc:3389
+#, fuzzy
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "The array or range to return."
-msgstr ""
+msgstr "Matrice o intervallo del risultato."
 
 #. WECuA
 #: sc/inc/scfuncs.hrc:3390
+#, fuzzy
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Result if not found"
-msgstr ""
+msgstr "Risultato se non trovato"
 
 #. FF2F7
 #: sc/inc/scfuncs.hrc:3391
+#, fuzzy
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "If given, return given text, otherwise return #N/A."
-msgstr ""
+msgstr "Se trovato, restituisce il testo indicato, altrimenti restituisce #N/A."
 
 #. UGCMv
 #: sc/inc/scfuncs.hrc:3392
+#, fuzzy
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Match Mode"
-msgstr ""
+msgstr "Modo Corrispondenza"
 
 #. vEqB5
 #: sc/inc/scfuncs.hrc:3393
+#, fuzzy
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid ""
 "0 - Exact match. Will return #N/A if no match. (default).\n"
@@ -14294,15 +14305,22 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0 - Corrispondenza esatta. Restituisce #N/A se non c'è corrispondenza. (predefinito).\n"
+"-1 - Corrispondenza esatta o con l'elemento successivo minore.\n"
+"1 - Corrispondenza esatta o con l'elemento successivo maggiore.\n"
+"2 - Corrispondenza con caratteri jolly.\n"
+"3 - Corrispondenza con espressione regolare."
 
 #. EvSiP
 #: sc/inc/scfuncs.hrc:3394
+#, fuzzy
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Search Mode"
-msgstr ""
+msgstr "Modo Ricerca"
 
 #. aUEgE
 #: sc/inc/scfuncs.hrc:3395
+#, fuzzy
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid ""
 "1 - Search from the first value (default).\n"
@@ -14310,6 +14328,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1 - Ricerca dal primo valore (predefinito).\n"
+"-1 - Ricerca dall'ultimo valore (inverso).\n"
+"2 - Ricerca dei valori binari elencati in ordine crescente.\n"
+"-2 - Ricerca dei valori di binari elencati in ordine decrescente."
 
 #. KZapz
 #: sc/inc/scfuncs.hrc:3401
@@ -14481,9 +14503,10 @@ msgstr "Il parametro Tipo può assumere il valore 1 (presupponendo un ordine cre
 
 #. 3M9mS
 #: sc/inc/scfuncs.hrc:3449
+#, fuzzy
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Defines a relative position in an array or range of cells after comparing values."
-msgstr ""
+msgstr "Definisce una posizione relativa in una matrice o in un intervallo di celle dopo una comparazione dei valori."
 
 #. m33Cc
 #: sc/inc/scfuncs.hrc:3450
@@ -14506,18 +14529,21 @@ msgstr "Matrice di ricerca"
 
 #. xnBcz
 #: sc/inc/scfuncs.hrc:3453
+#, fuzzy
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "The array or range to search."
-msgstr ""
+msgstr "Matrice o intervallo di ricerca."
 
 #. c3dEi
 #: sc/inc/scfuncs.hrc:3454
+#, fuzzy
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Match Mode"
-msgstr ""
+msgstr "Modo Corrispondenza"
 
 #. DZ2bC
 #: sc/inc/scfuncs.hrc:3455
+#, fuzzy
 msgctxt "SC_OPCODE_X_MATCH"
 msgid ""
 "0 - Exact match. Will return #N/A if no match. (default).\n"
@@ -14526,15 +14552,22 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0 - Corrispondenza esatta. Restituisce #N/A se non c'è corrispondenza. (predefinito).\n"
+"-1 - Corrispondenza esatta o con l'elemento successivo minore.\n"
+"1 - Corrispondenza esatta o con l'elemento successivo maggiore.\n"
+"2 - Corrispondenza con caratteri jolly.\n"
+"3 - Corrispondenza con espressione regolare."
 
 #. UtoXD
 #: sc/inc/scfuncs.hrc:3456
+#, fuzzy
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search Mode"
-msgstr ""
+msgstr "Modo Ricerca"
 
 #. J9uEM
 #: sc/inc/scfuncs.hrc:3457
+#, fuzzy
 msgctxt "SC_OPCODE_X_MATCH"
 msgid ""
 "1 - Search from the first value (default).\n"
@@ -14542,6 +14575,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1 - Ricerca dal primo valore (predefinito).\n"
+"-1 - Ricerca dall'ultimo valore (inverso).\n"
+"2 - Ricerca dei valori binari elencati in ordine crescente.\n"
+"-2 - Ricerca dei valori di binari elencati in ordine decrescente."
 
 #. XJ4FS
 #: sc/inc/scfuncs.hrc:3463
@@ -16820,9 +16857,10 @@ msgstr "Il numero più grande che può essere calcolato."
 
 #. xF6CA
 #: sc/inc/scfuncs.hrc:4189
+#, fuzzy
 msgctxt "SC_OPCODE_FILTER"
 msgid "Filters an array based on a Boolean (True/False) array."
-msgstr ""
+msgstr "Filtra una matrice in base a una matrice booleana (Vero/Falso)."
 
 #. fSQDy
 #: sc/inc/scfuncs.hrc:4190
@@ -16833,9 +16871,10 @@ msgstr "Intervallo"
 
 #. A5mF9
 #: sc/inc/scfuncs.hrc:4191
+#, fuzzy
 msgctxt "SC_OPCODE_FILTER"
 msgid "The array, or range to filter."
-msgstr ""
+msgstr "Matrice o intervallo di applicazione del filtro."
 
 #. qa6rC
 #: sc/inc/scfuncs.hrc:4192
@@ -16845,15 +16884,17 @@ msgstr "Includi"
 
 #. 4sCAD
 #: sc/inc/scfuncs.hrc:4193
+#, fuzzy
 msgctxt "SC_OPCODE_FILTER"
 msgid "A Boolean array whose height or width is the same as the array."
-msgstr ""
+msgstr "Una matrice booleana la cui altezza o larghezza è equivalente a quella della matrice."
 
 #. Dxcxc
 #: sc/inc/scfuncs.hrc:4194
+#, fuzzy
 msgctxt "SC_OPCODE_FILTER"
 msgid "Result if empty"
-msgstr ""
+msgstr "Valore restituito se vuoto"
 
 #. vJAM9
 #: sc/inc/scfuncs.hrc:4195
@@ -16941,7 +16982,7 @@ msgstr ""
 #, fuzzy
 msgctxt "SC_OPCODE_SORTBY"
 msgid "Sort by range "
-msgstr "Ordina per area "
+msgstr "Ordina per intervallo "
 
 #. Xh6BJ
 #: sc/inc/scfuncs.hrc:4219
@@ -32021,9 +32062,10 @@ msgstr "Punti massimi:"
 
 #. qqwL4
 #: sc/uiconfig/scalc/ui/sparklinedialog.ui:367
+#, fuzzy
 msgctxt "sparklinedialog|extended_tip|cbHigh"
 msgid "Check and select the color for high points."
-msgstr ""
+msgstr "Controlla e seleziona il colore dei punti massimi."
 
 #. xRya6
 #: sc/uiconfig/scalc/ui/sparklinedialog.ui:392
