@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-07-08 17:35+0200\n"
-"PO-Revision-Date: 2024-07-14 09:45+0000\n"
+"PO-Revision-Date: 2024-07-15 09:45+0000\n"
 "Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/it/>\n"
 "Language: it\n"
@@ -61689,12 +61689,13 @@ msgstr "<emph>Numero</emph> è il numero di data interno."
 
 #. ABP9p
 #: func_day.xhp
+#, fuzzy
 msgctxt ""
 "func_day.xhp\n"
 "par_id451715611481885\n"
 "help.text"
 msgid "DAY() returns the integer part of the day."
-msgstr ""
+msgstr "GIORNO() restituisce la parte intera del giorno."
 
 #. rUQip
 #: func_day.xhp
@@ -62472,102 +62473,113 @@ msgstr "<link href=\"text/scalc/05/02140000.xhp\">Codici di errore</link>"
 
 #. qdiU7
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "tit\n"
 "help.text"
 msgid "FILTER function"
-msgstr ""
+msgstr "Funzione FILTRO"
 
 #. uj4VA
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>FILTER function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Funzione FILTRO</bookmark_value>"
 
 #. ymoUm
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "hd_id901708806478126\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/func_filter.xhp\">FILTER</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/func_filter.xhp\">FILTRO</link></variable>"
 
 #. dxbQ9
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "par_id771708806478128\n"
 "help.text"
 msgid "Filters a data range or array based on specified conditions."
-msgstr ""
+msgstr "Filtra un'area di dati o una matrice in base a alle condizioni specificate."
 
 #. tuppo
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "par_id211708281649651\n"
 "help.text"
 msgid "FILTER( Range; Criteria [; Return if empty])"
-msgstr ""
+msgstr "FILTRO(Area; Criteri [; Valore restituito se vuoto])"
 
 #. SGrA5
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "par_id411709395137111\n"
 "help.text"
 msgid "<emph>Range</emph>: The array or range to filter."
-msgstr ""
+msgstr "<emph>Area</emph>: La matrice o l'area da filtrare."
 
 #. EELnw
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "par_id471709395141324\n"
 "help.text"
 msgid "<emph>Criteria</emph>: A boolean array whose height (filtering by columns) or width (filtering by rows) is the same as the array, used to select data from the <emph>Range</emph>."
-msgstr ""
+msgstr "<emph>Criteri</emph>: Una matrice booleana la cui altezza (filtrando per colonne) o larghezza (filtrando per righe) sia la stessa della matrice, usata per selezionare i dati dall' <emph>Area</emph>."
 
 #. ZcP2E
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "par_id421709395146863\n"
 "help.text"
 msgid "<emph>Result if empty</emph>: (optional) the value to return if all values in the <emph>Criteria</emph> array are empty (filter return nothing)."
-msgstr ""
+msgstr "<emph>Valore restituito se vuoto</emph>: (opzionale) il valore da restituire se tutti i valori indicati nella matrice dei <emph>Criteri</emph> sono vuoti (il filtro non restituisce nulla)."
 
 #. AFtpH
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "par_id21709506838932\n"
 "help.text"
 msgid "<input>{=FILTER(A2:C13;A2:A13>50)}</input> returns the array containing all grades with Maths grade above 50. Note that this is an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
-msgstr ""
+msgstr "<input>{=FILTRO(A2:C13;A2:A13>50)}</input> restituisce la matrice che contiene tutti voti per i record con il voto di matematica maggiore di 50. Da notare che questa p una <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">formula matriciale</link>."
 
 #. METQ9
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "par_id561709507935610\n"
 "help.text"
 msgid "<input>{=FILTER(A2:C13;B2:B13>90;\"No results\")}</input>  Returns the string \"No results\", since no grade on Physics is above 90."
-msgstr ""
+msgstr "<input>{=FILTRO(A2:C13;B2:B13>90;\"Nessun risultato\")}</input> Restituisce la stringa \"Nessun risultato\", in quanto nessun voto in fisica è maggiore di 90."
 
 #. q34Yg
 #: func_filter.xhp
+#, fuzzy
 msgctxt ""
 "func_filter.xhp\n"
 "par_id701677016751508\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/FILTER\">FILTER wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/FILTER\">Pagina wiki di FILTRO</link>."
 
 #. sUgSM
 #: func_findb.xhp
@@ -64038,12 +64050,13 @@ msgstr "<emph>Numero</emph> come valore di tempo è un numero decimale per il qu
 
 #. nYJCX
 #: func_hour.xhp
+#, fuzzy
 msgctxt ""
 "func_hour.xhp\n"
 "par_id451715611481885\n"
 "help.text"
 msgid "HOUR() returns the integer part of the hour."
-msgstr ""
+msgstr "ORA() restituisce la parte intera dell'ora."
 
 #. dhLTM
 #: func_hour.xhp
@@ -65325,102 +65338,113 @@ msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Func
 
 #. ANivD
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "tit\n"
 "help.text"
 msgid "LET function"
-msgstr ""
+msgstr "Funzione LET"
 
 #. mp4Fy
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>LET function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Funzione LET</bookmark_value>"
 
 #. cUrJc
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "hd_id721717677746932\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/func_let.xhp\">LET</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/func_let.xhp\">LET</link></variable>"
 
 #. NFFDr
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "par_id71717677746935\n"
 "help.text"
 msgid "Assigns names to calculation results. This allows storing intermediate calculations, values, or defining names inside a formula. These names only apply within the scope of the LET function."
-msgstr ""
+msgstr "Assegna dei nomi ai risultati dei calcoli. Questo permette la memorizzazione di calcoli intermedi, valori o di definire dei nomi all'interno di una formula. Questi nomi si applicano solo nell'ambito della funzione LET."
 
 #. A9iKa
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "par_id211708281649651\n"
 "help.text"
 msgid "LET(Name1; Name_value1; Calculation_or_Name2; [Name_value2; Calculation_or_Name3 [; ...]])"
-msgstr ""
+msgstr "LET(Nome1; Valore_nome1; Calcolo_o_Nome2; [Valore_nome2; Calcolo_o_Nome3 [; ...]])"
 
 #. voGvK
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "par_id301717681619674\n"
 "help.text"
 msgid "<emph>Name1</emph>: the first name to assign. Must start with a letter. Cannot be the output of a formula or conflict with range syntax."
-msgstr ""
+msgstr "<emph>Nome1</emph>: il primo nome da assegnare. Deve iniziare con una lettera. Non può essere il risultato di una formula o entrare in conflitto con la sintassi degli intervalli."
 
 #. CDP5D
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "par_id721717688901981\n"
 "help.text"
 msgid "Name1 must follow the <link href=\"text/scalc/guide/value_with_name.xhp\">naming rules of %PRODUCTNAME Calc</link>."
-msgstr ""
+msgstr "Il Nome1 deve rispettare le <link href=\"text/scalc/guide/value_with_name.xhp\">regole per l'attribuzione dei nomi in %PRODUCTNAME Calc</link>."
 
 #. pXGwN
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "par_id951717681624139\n"
 "help.text"
 msgid "<emph>Name_value1</emph>: the value or calculation to assign to Name1."
-msgstr ""
+msgstr "<emph>Valore_nome1</emph>: il valore o il calcolo da assegnare a Nome1."
 
 #. RpF5L
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "par_id421717686226452\n"
 "help.text"
 msgid "<emph>Name2; Name_value2;...</emph>: (optional) same as Name1 and Name_value1, respectively. Name_value2 must follow Name2 and so on."
-msgstr ""
+msgstr "<emph>Nome2; Valore_nome2;...</emph>: (opzionale) rispettivamente come Nome1 e Valore_nome1. Valore_nome2 deve seguire Nome2 e così via."
 
 #. ii4Cd
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "par_id231717686233659\n"
 "help.text"
 msgid "<emph>Calculation</emph>: a formula expression that uses all names within the LET function."
-msgstr ""
+msgstr "<emph>Calcolo</emph>: l'espressione di una formula che usa tutti i nomi presenti all'interno della funzione LET."
 
 #. AaFRL
 #: func_let.xhp
+#, fuzzy
 msgctxt ""
 "func_let.xhp\n"
 "par_id91717686350018\n"
 "help.text"
 msgid "<emph>Calculation</emph> must be the last argument in the LET function."
-msgstr ""
+msgstr "<emph>Calcolo</emph> deve essere l'ultimo argomento nella funzione LET."
 
 #. vGdpF
 #: func_let.xhp
