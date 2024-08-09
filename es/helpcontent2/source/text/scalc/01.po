@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-07-25 11:20+0200\n"
-"PO-Revision-Date: 2024-08-07 17:37+0000\n"
+"PO-Revision-Date: 2024-08-09 23:37+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_help-7-6/textscalc01/es/>\n"
 "Language: es\n"
@@ -5093,7 +5093,7 @@ msgctxt ""
 "par_id991616252981928\n"
 "help.text"
 msgid "In this example the search criteria area contains two occurrences of the same heading. Since there are two conditions in the same row, these are connected by AND. With the above example database table and this search criteria area, insert the formula <item type=\"input\">=DCOUNT(A1:E10;;B12:C13)</item> into an empty cell elsewhere in the sheet to count how many of Joe’s guests are aged between 8 and 10 (inclusive). The value 6 is returned (counting Andy, Betty, Charles, Eva, Harry, and Irene)."
-msgstr "En este ejemplo, el área de criterios de búsqueda contiene dos apariciones del mismo título. Como hay dos condiciones en la misma fila, éstas están conectadas por AND. Con la tabla de base de datos del ejemplo anterior y esta área de criterios de búsqueda, inserta la fórmula <item type=\"input\">=DCOUNT(A1:E10;;B12:C13)</item> en una celda vacía en otro lugar de la hoja para contar cuántos de los invitados de Joe tienen entre 8 y 10 años (inclusive). Se devuelve el valor 6 (contando a Andy, Betty, Charles, Eva, Harry e Irene)."
+msgstr "En este ejemplo, el área de criterios de búsqueda contiene dos ocurrencias del mismo título. Como hay dos condiciones en la misma fila, estas están conectadas por Y (AND). Con la tabla de la base de datos de ejemplo anterior y esta área de criterios de búsqueda, inserte la fórmula <item type=\"input\">=BDCONTAR(A1:E10;;B12:C13)</item> en una celda vacía en otra parte de la hoja para contar cuántos de los invitados de Juan tienen entre 8 y 10 años (inclusive). Devolverá el valor 6 (Andrés, Beatriz, Carlos, Eva, Henrique e Irene)."
 
 #. vgeRe
 #: 04060101.xhp
@@ -5201,7 +5201,7 @@ msgctxt ""
 "par_id441616368480646\n"
 "help.text"
 msgid "Insert the formula <input>=DCOUNT(A1:E10;; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate how many of Joe’s party guests travel further than 600 meters to school. The value 5 is returned."
-msgstr "Añada la fórmula <input>=BDCONTAR(A1:E10;; A12:E13)</input> en una celda vacía en otra parte de la hoja para calcular cuántos de los invitados a la fiesta de Juan viajan más de 600 metros a la escuela. Arrojara el valor 5."
+msgstr "Inserte la fórmula <input>=BDCONTAR(A1:E10;; A12:E13)</input> en una celda vacía en otra parte de la hoja para calcular cuántos de los invitados a la fiesta de Juan viajan más de 600 metros a la escuela. Devolverá el valor 5."
 
 #. UZFcp
 #: 04060101.xhp
@@ -5264,7 +5264,7 @@ msgctxt ""
 "par_id61616368616093\n"
 "help.text"
 msgid "Insert the formula <input>=DCOUNTA(A1:E10;; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate how many of Joe’s party guests travel further than 600 meters to school. The value 5 is returned."
-msgstr "Inserta la fórmula <input>=BDCONTARA(A1:E10;; A12:E13)</input> en una celda vacía de otro lugar de la hoja para calcular cuántos de los invitados a la fiesta de Joe viajan más de 600 metros hasta la escuela. Nos devolverá el valor 5."
+msgstr "Inserte la fórmula <input>=BDCONTARA(A1:E10;; A12:E13)</input> en una celda vacía en otra parte de la hoja para calcular cuántos de los invitados a la fiesta de Juan viajan más de 600 metros a la escuela. Devolverá el valor 5."
 
 #. WyEGc
 #: 04060101.xhp
@@ -5732,7 +5732,7 @@ msgctxt ""
 "par_id3148411\n"
 "help.text"
 msgid "Insert the formula <input>=DSTDEVP(A1:E10; \"Weight\"; A12:E13)</input> into an empty cell elsewhere in the sheet to calculate the population standard deviation of the weights in kg of Joe’s party guests. The value 5.18545 is returned."
-msgstr "Inserta la fórmula <input>=DBDDESVESTP(A1:E10; \"Peso\"; A12:E13)</input> en una celda vacía en cualquier lugar de la hoja para calcular la desviación estándar de la población de los pesos en kg de los invitados a la fiesta de Joe. Nos devolverá el valor 5,18545."
+msgstr "Inserte la fórmula <input>=BDESVESTP(A1:E10; \"Peso\"; A12:E13)</input> en una celda vacía en otra parte de la hoja para calcular la desviación típica de población de los pesos en kilogramos de los invitados a la fiesta de Juan. Devolverá el valor 5,18545."
 
 #. Z2CTY
 #: 04060101.xhp
@@ -20024,7 +20024,7 @@ msgctxt ""
 "par_id711624454477483\n"
 "help.text"
 msgid "To place a literal double quotation mark within a string inside a formula, two methods can be used:"
-msgstr "Para colocar una comilla doble literal dentro de una cadena dentro de una fórmula, se pueden utilizar dos métodos:"
+msgstr "Para colocar una comilla doble literal dentro de una cadena en de una fórmula, se pueden usar dos métodos:"
 
 #. 8qFEv
 #: 04060110.xhp
@@ -21491,7 +21491,7 @@ msgctxt ""
 "par_id2958507\n"
 "help.text"
 msgid "<item type=\"input\">=MIDB(\"中国\";3;2)</item> returns \"国\" (byte position 3 is at the beginning of a character in a DBCS string, and 2 bytes constitute one DBCS character)."
-msgstr "<item type=\"input\">=EXTRAEB(\"中国\";3;2)</item> nos devuelve \"国\" (la posición de byte 3 está al principio de un carácter en una cadena DBCS, y 2 bytes constituyen un carácter DBCS)."
+msgstr "<item type=\"input\">=EXTRAEB(\"中国\";3;2)</item> devuelve «国» (la posición de byte 3 está al comienzo de un carácter en una cadena DBCS, y 2 bytes constituyen un carácter DBCS)."
 
 #. aQmsH
 #: 04060110.xhp
