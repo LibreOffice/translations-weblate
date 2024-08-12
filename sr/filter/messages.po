@@ -4,16 +4,16 @@ msgstr ""
 "Project-Id-Version: OpenOffice.org\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-05-10 12:32+0200\n"
-"PO-Revision-Date: 2021-03-12 05:37+0000\n"
+"PO-Revision-Date: 2024-08-12 06:36+0000\n"
 "Last-Translator: Милош Поповић <gpopac@gmail.com>\n"
-"Language-Team: Serbian <https://translations.documentfoundation.org/projects/libo_ui-master/filtermessages/sr/>\n"
+"Language-Team: Serbian <https://translations.documentfoundation.org/projects/libo_ui-7-6/filtermessages/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.4.3\n"
 "X-Project-Style: openoffice\n"
 
 #. 5AQgJ
@@ -227,7 +227,7 @@ msgstr "Лозинка за привилегије"
 #: filter/inc/strings.hrc:68
 msgctxt "STR_WARN_PASSWORD_PDFA"
 msgid "PDF/A does not allow encryption. The exported PDF file will not be password protected."
-msgstr ""
+msgstr "ПДФ/А не дозвољава шифровање. Извезена ПДФ датотека неће бити заштићена лозинком."
 
 #. XX5fd
 #: filter/inc/strings.hrc:69
@@ -261,21 +261,18 @@ msgstr "PDF/А акција формулара"
 
 #. N9Vug
 #: filter/inc/strings.hrc:74
-#, fuzzy
 msgctxt "STR_WARN_FORMACTION_PDFA"
 msgid "A form control contained an action not supported by the PDF/A standard. The action was skipped"
-msgstr "Контрола форме садржи акцију која није подржана ПДФ/А стандардом. Акција је занемарена"
+msgstr "Контрола обрасца садржи акцију која није подржана ПДФ/А стандардом. Акција је занемарена"
 
 #. d2ndY
 #: filter/inc/strings.hrc:75
-#, fuzzy
 msgctxt "STR_WARN_TRANSP_CONVERTED"
 msgid "Some objects were converted to an image in order to remove transparencies, because the target PDF format does not support transparencies. Possibly better results can be achieved if you remove the transparent objects before exporting."
-msgstr "Неки објекти су претворени у слику како би се уклонила провидност пошто је одредишни ПДФ формат не подржава. Могуће да ћете постићи боље резултате ако уклоните провидне објекте пре извоза документа."
+msgstr "Неки објекти су претворени у слику како би уклонили провидност, пошто је одредишни ПДФ формат не подржава. Можда ћете постићи боље резултате ако уклоните провидне објекте пре извоза документа."
 
 #. qtCcB
 #: filter/inc/strings.hrc:76
-#, fuzzy
 msgctxt "STR_WARN_TRANSP_CONVERTED_SHORT"
 msgid "Transparencies removed"
 msgstr "Уклоњена провидност"
@@ -284,50 +281,50 @@ msgstr "Уклоњена провидност"
 #: filter/inc/strings.hrc:77
 msgctxt "STR_ERR_SIGNATURE_FAILED"
 msgid "Signature generation failed"
-msgstr ""
+msgstr "Није успело прављење потписа"
 
 #. wjBBo
 #: filter/inc/strings.hrc:78
 msgctxt "STR_ERR_PDF_EXPORT_ABORTED"
 msgid "PDF export aborted"
-msgstr ""
+msgstr "Прекинут је извоз у ПДФ"
 
 #. zLVLQ
 #: filter/inc/strings.hrc:79
 msgctxt "STR_WARN_PDFUA_ISSUES"
 msgid "One accessibility issue detected. Do you want to continue?"
 msgid_plural "%1 accessibility issues detected. Do you want to continue?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Пронађен је %1 проблем са приступачношћу. Да ли желите да наставите?"
+msgstr[1] "Пронађена су %1 проблема са приступачношћу. Да ли желите да наставите?"
+msgstr[2] "Пронађено је %1 проблема са приступачношћу. Да ли желите да наставите?"
 
 #. Kb2AE
 #: filter/inc/strings.hrc:80
 msgctxt "STR_PDFUA_IGNORE"
 msgid "Continue"
-msgstr ""
+msgstr "Настави"
 
 #. PcZQn
 #: filter/inc/strings.hrc:81
 msgctxt "STR_PDFUA_INVESTIGATE"
 msgid "Investigate issue"
 msgid_plural "Investigate issues"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Испитај проблем"
+msgstr[1] "Испитај проблеме"
+msgstr[2] "Испитај проблеме"
 
 #. eNaMA
 #. Progress bar status indicator when importing or exporting
 #: filter/inc/strings.hrc:84
 msgctxt "STR_FILTER_DOC_LOADING"
 msgid "Loading: "
-msgstr ""
+msgstr "Учитавам: "
 
 #. 4YFQR
 #: filter/inc/strings.hrc:85
 msgctxt "STR_FILTER_DOC_SAVING"
 msgid "Saving: "
-msgstr ""
+msgstr "Чувам: "
 
 #. wH3TZ
 msgctxt "stock"
@@ -396,76 +393,72 @@ msgstr "_Да"
 
 #. AwX66
 #: filter/uiconfig/ui/pdfgeneralpage.ui:42
-#, fuzzy
 msgctxt "pdfgeneralpage|all"
 msgid "_All"
-msgstr "Све"
+msgstr "_Све"
 
 #. QMgsn
 #: filter/uiconfig/ui/pdfgeneralpage.ui:52
 msgctxt "pdfgeneralpage|extended_tip|all"
 msgid "Exports all defined print ranges. If no print range is defined, exports the entire document."
-msgstr ""
+msgstr "Извози на основу задатог опсега за штампу. Уколико није одређен опсег за штампу, извози читав документ."
 
 #. NXztB
 #: filter/uiconfig/ui/pdfgeneralpage.ui:64
 msgctxt "pdfgeneralpage|range"
 msgid "_Pages:"
-msgstr ""
+msgstr "_Странице:"
 
 #. ZdAZ9
 #: filter/uiconfig/ui/pdfgeneralpage.ui:78
 msgctxt "pdfgeneralpage|extended_tip|range"
 msgid "Exports the pages you type in the box."
-msgstr ""
+msgstr "Извози странице које се унели у поље."
 
 #. WTSeS
 #: filter/uiconfig/ui/pdfgeneralpage.ui:89
-#, fuzzy
 msgctxt "pdfgeneralpage|selection"
 msgid "_Selection"
-msgstr "Избор"
+msgstr "_Избор"
 
 #. RQeDb
 #: filter/uiconfig/ui/pdfgeneralpage.ui:99
 msgctxt "pdfgeneralpage|extended_tip|selection"
 msgid "Exports the current selection."
-msgstr ""
+msgstr "Извози тренутни избор."
 
 #. qQrdx
 #: filter/uiconfig/ui/pdfgeneralpage.ui:121
 msgctxt "pdfgeneralpage|extended_tip|pages"
 msgid "Exports the pages you type in the box."
-msgstr ""
+msgstr "Извози странице које сте унели у поље."
 
 #. tFeCH
 #: filter/uiconfig/ui/pdfgeneralpage.ui:135
-#, fuzzy
 msgctxt "pdfgeneralpage|slides"
 msgid "Slides:"
-msgstr "Слајдови"
+msgstr "Слајдови:"
 
 #. 9Cyn8
 #: filter/uiconfig/ui/pdfgeneralpage.ui:144
 msgctxt "pdfgeneralpage|viewpdf"
 msgid "_View PDF after export"
-msgstr ""
+msgstr "П_регледај ПДФ након извоза"
 
 #. mwuGG
 #: filter/uiconfig/ui/pdfgeneralpage.ui:153
 msgctxt "pdfgeneralpage|extended_tip|viewpdf"
 msgid "Open the exported document in the system default PDF viewer."
-msgstr ""
+msgstr "Отвара извезени документ у подразумеваном прегледачу ПДФ докумената."
 
 #. aWj7F
 #: filter/uiconfig/ui/pdfgeneralpage.ui:168
 msgctxt "pdfgeneralpage|selectedsheets"
 msgid "_Selection/Selected sheet(s)"
-msgstr ""
+msgstr "_Избор/изабрани лист(ови)"
 
 #. MXtmZ
 #: filter/uiconfig/ui/pdfgeneralpage.ui:181
-#, fuzzy
 msgctxt "pdfgeneralpage|label1"
 msgid "Range"
 msgstr "Опсег"
@@ -474,96 +467,94 @@ msgstr "Опсег"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:211
 msgctxt "pdfgeneralpage|losslesscompress"
 msgid "_Lossless compression"
-msgstr ""
+msgstr "_Компресија без губитка"
 
 #. 9ut6Q
 #: filter/uiconfig/ui/pdfgeneralpage.ui:221
 msgctxt "pdfgeneralpage|extended_tip|losslesscompress"
 msgid "Selects a lossless compression of images. All pixels are preserved."
-msgstr ""
+msgstr "Омогућава избор компресије слике без губитка квалитета. Сви пиксели ће бити сачувани."
 
 #. ccCL4
 #: filter/uiconfig/ui/pdfgeneralpage.ui:233
 msgctxt "pdfgeneralpage|reduceresolution"
 msgid "Reduce ima_ge resolution to:"
-msgstr ""
+msgstr "Смањи _резолуцију слике на:"
 
 #. bAtCV
 #: filter/uiconfig/ui/pdfgeneralpage.ui:245
 msgctxt "pdfgeneralpage|extended_tip|reduceresolution"
 msgid "Select to resample or down-size the images to a lower number of pixels per inch."
-msgstr ""
+msgstr "Изаберите да поново узоркујете или смањите слике на мањи број пиксела по инчу."
 
 #. XHeTx
 #: filter/uiconfig/ui/pdfgeneralpage.ui:260
 msgctxt "pdfgeneralpage|resolution"
 msgid "75 DPI"
-msgstr ""
+msgstr "75 DPI"
 
 #. CXj4e
 #: filter/uiconfig/ui/pdfgeneralpage.ui:261
 msgctxt "pdfgeneralpage|resolution"
 msgid "150 DPI"
-msgstr ""
+msgstr "150 DPI"
 
 #. jZKqd
 #: filter/uiconfig/ui/pdfgeneralpage.ui:262
 msgctxt "pdfgeneralpage|resolution"
 msgid "300 DPI"
-msgstr ""
+msgstr "300 DPI"
 
 #. GsMsK
 #: filter/uiconfig/ui/pdfgeneralpage.ui:263
 msgctxt "pdfgeneralpage|resolution"
 msgid "600 DPI"
-msgstr ""
+msgstr "600 DPI"
 
 #. 5yTAM
 #: filter/uiconfig/ui/pdfgeneralpage.ui:264
 msgctxt "pdfgeneralpage|resolution"
 msgid "1200 DPI"
-msgstr ""
+msgstr "1200 DPI"
 
 #. r6npH
 #: filter/uiconfig/ui/pdfgeneralpage.ui:270
 msgctxt "pdfgeneralpage|comboboxtext-entry"
 msgid "75 DPI"
-msgstr ""
+msgstr "75 DPI"
 
 #. SkTeA
 #: filter/uiconfig/ui/pdfgeneralpage.ui:279
 msgctxt "pdfgeneralpage|extended_tip|resolution"
 msgid "Select the target resolution for the images."
-msgstr ""
+msgstr "Изаберите резолуцију циљних слика."
 
 #. mEbKx
 #: filter/uiconfig/ui/pdfgeneralpage.ui:303
 msgctxt "pdfgeneralpage|extended_tip|quality"
 msgid "Enter the quality level for JPEG compression."
-msgstr ""
+msgstr "Унесите ниво квалитета ЈПЕГ компресије."
 
 #. FP56V
 #: filter/uiconfig/ui/pdfgeneralpage.ui:325
 msgctxt "pdfgeneralpage|jpegcompress"
 msgid "_JPEG compression"
-msgstr ""
+msgstr "_ЈПЕГ компресија"
 
 #. PZCPi
 #: filter/uiconfig/ui/pdfgeneralpage.ui:335
 msgctxt "pdfgeneralpage|extended_tip|jpegcompress"
 msgid "Select a JPEG compression level. With a high quality level, almost all pixels are preserved. With a low quality level, some pixels are lost and artifacts are introduced, but file sizes are reduced."
-msgstr ""
+msgstr "Изаберите ниво ЈПЕГ компресије. Ако изаберете велики квалитет, скоро сви пиксели ће бити сачувани. Ако изаберете низак квалитет, неки пиксели ће бити изгубљени и јавиће се разни артефекти, али ће величина датотеке бити мања."
 
 #. ST3Rc
 #: filter/uiconfig/ui/pdfgeneralpage.ui:349
-#, fuzzy
 msgctxt "pdfgeneralpage|label6"
 msgid "_Quality:"
-msgstr "Квалитет:"
+msgstr "_Квалитет:"
 
 #. cFwGA
 #: filter/uiconfig/ui/pdfgeneralpage.ui:371
-#, fuzzy
 msgctxt "pdfgeneralpage|label2"
 msgid "Images"
 msgstr "Слике"
@@ -572,30 +563,28 @@ msgstr "Слике"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:401
 msgctxt "pdfgeneralpage|watermark"
 msgid "Sign with _watermark"
-msgstr ""
+msgstr "Потпиши воденим жигом"
 
 #. 2uMoT
 #: filter/uiconfig/ui/pdfgeneralpage.ui:410
 msgctxt "pdfgeneralpage|extended_tip|watermark"
 msgid "Add a centered, vertical, light green watermark text to the page background. The watermark is not part of the source document."
-msgstr ""
+msgstr "Додај светлозелени текст воденог жига на средини и усправно у позадини странице. Водени жиг није део изворног документа."
 
 #. L7AYx
 #: filter/uiconfig/ui/pdfgeneralpage.ui:427
 msgctxt "pdfgeneralpage|extended_tip|watermarkentry"
 msgid "Insert the text for the watermark signature."
-msgstr ""
+msgstr "Уметни текст за потпис воденим жигом."
 
 #. JtBsL
 #: filter/uiconfig/ui/pdfgeneralpage.ui:439
-#, fuzzy
 msgctxt "pdfgeneralpage|watermarklabel"
 msgid "Text:"
-msgstr "Текст: "
+msgstr "Текст:"
 
 #. VfFZf
 #: filter/uiconfig/ui/pdfgeneralpage.ui:458
-#, fuzzy
 msgctxt "pdfgeneralpage|label3"
 msgid "Watermark"
 msgstr "Водени жиг"
@@ -604,83 +593,82 @@ msgstr "Водени жиг"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:500
 msgctxt "pdfgeneralpage|embed"
 msgid "Hybrid PDF (em_bed ODF file)"
-msgstr ""
+msgstr "Хибридни ПДФ (угњежђена ОДФ датотеке)"
 
 #. vzxG2
 #: filter/uiconfig/ui/pdfgeneralpage.ui:504
 msgctxt "pdfgeneralpage|embed|tooltip_text"
 msgid "Creates a PDF that is easily editable in %PRODUCTNAME"
-msgstr ""
+msgstr "Прави ПДФ који се једноставно може уредити у програму %PRODUCTNAME"
 
 #. 3tDFv
 #: filter/uiconfig/ui/pdfgeneralpage.ui:510
 msgctxt "pdfgeneralpage|extended_tip|embed"
 msgid "This setting enables you to export the document as a .pdf file containing two file formats: PDF and ODF."
-msgstr ""
+msgstr "Ова подешавања омогућавају да извезете документ као .pdf датотеку која садржи два формата датотеке: ПДФ и ОДФ."
 
 #. RAvA6
 #: filter/uiconfig/ui/pdfgeneralpage.ui:521
 msgctxt "pdfgeneralpage|tagged"
 msgid "_Tagged PDF (add document structure)"
-msgstr ""
+msgstr "_Означени ПДФ (додаје структуру документа)"
 
 #. cAm8Z
 #: filter/uiconfig/ui/pdfgeneralpage.ui:525
 msgctxt "pdfgeneralpage|tagged|tooltip_text"
 msgid "Includes a document's content structure information in a PDF"
-msgstr ""
+msgstr "Укључује податке о структури садржаја документа унутар ПДФ датотеке"
 
 #. Btxot
 #: filter/uiconfig/ui/pdfgeneralpage.ui:531
 msgctxt "pdfgeneralpage|extended_tip|tagged"
 msgid "Select to write PDF tags. This can increase file size by huge amounts."
-msgstr ""
+msgstr "Укључите ово да упишете ПДФ ознаке. Ово може значајно да повећа величину датотеке."
 
 #. 6sDFd
 #: filter/uiconfig/ui/pdfgeneralpage.ui:542
 msgctxt "pdfgeneralpage|forms"
 msgid "Create PDF for_m"
-msgstr ""
+msgstr "Направи ПДФ _образац"
 
 #. 3Vg8V
 #: filter/uiconfig/ui/pdfgeneralpage.ui:546
 msgctxt "pdfgeneralpage|forms|tooltip_text"
 msgid "Creates a PDF with fields that can be filled out"
-msgstr ""
+msgstr "Прави ПДФ са пољима које можете да попуњавате"
 
 #. hmxuq
 #: filter/uiconfig/ui/pdfgeneralpage.ui:552
 msgctxt "pdfgeneralpage|extended_tip|forms"
 msgid "Choose to create a PDF form. This can be filled out and printed by the user of the PDF document."
-msgstr ""
+msgstr "Изаберите израду ПДФ обрасца. Они могу бити попуњени и одштампани од стране корисника ПДФ документа."
 
 #. B7zan
 #: filter/uiconfig/ui/pdfgeneralpage.ui:572
 msgctxt "pdfgeneralpage|allowdups"
 msgid "Allow duplicate field _names"
-msgstr ""
+msgstr "Омогући _дуплиране називе поља"
 
 #. D4MmM
 #: filter/uiconfig/ui/pdfgeneralpage.ui:581
 msgctxt "pdfgeneralpage|extended_tip|allowdups"
 msgid "Allows you to use the same field name for multiple fields in the generated PDF file. If disabled, field names will be exported using generated unique names."
-msgstr ""
+msgstr "Дозвољава да користите исти назив поља унутар више поља за направљену ПДФ датотеку. Уколико је онемогућено, имена поља ће бити извезена са направљеним јединственим називима."
 
 #. tkPCH
 #: filter/uiconfig/ui/pdfgeneralpage.ui:597
 msgctxt "pdfgeneralpage|format"
 msgid "FDF"
-msgstr ""
+msgstr "ФДФ"
 
 #. rfzrh
 #: filter/uiconfig/ui/pdfgeneralpage.ui:598
 msgctxt "pdfgeneralpage|format"
 msgid "PDF"
-msgstr ""
+msgstr "ПДФ"
 
 #. S7caE
 #: filter/uiconfig/ui/pdfgeneralpage.ui:599
-#, fuzzy
 msgctxt "pdfgeneralpage|format"
 msgid "HTML"
 msgstr "ХТМЛ"
@@ -689,65 +677,64 @@ msgstr "ХТМЛ"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:600
 msgctxt "pdfgeneralpage|format"
 msgid "XML"
-msgstr ""
+msgstr "XML"
 
 #. xbYYC
 #: filter/uiconfig/ui/pdfgeneralpage.ui:604
 msgctxt "pdfgeneralpage|extended_tip|format"
 msgid "Select the format of submitting forms from within the PDF file."
-msgstr ""
+msgstr "Изаберите формат за слање обрасца из из саме ПДФ датотеке."
 
 #. ECLBB
 #: filter/uiconfig/ui/pdfgeneralpage.ui:626
 msgctxt "pdfgeneralpage|label7"
 msgid "Submit _format:"
-msgstr ""
+msgstr "Формат за _слање:"
 
 #. JwEDc
 #: filter/uiconfig/ui/pdfgeneralpage.ui:657
 msgctxt "pdfgeneralpage|pdfa"
 msgid "Archival (P_DF/A, ISO 19005)"
-msgstr ""
+msgstr "_Архивски (П_ДФ/А, ИСО 19005)"
 
 #. qQjPA
 #: filter/uiconfig/ui/pdfgeneralpage.ui:661
 msgctxt "pdfgeneralpage|pdfa|tooltip_text"
 msgid "Creates an ISO 19005-2 compliant PDF file, ideal for long-term document preservation"
-msgstr ""
+msgstr "Прави ПДФ датотеку у складу са ИСО 19005-2 стандардом, која је најбоља за трајно чување докумената"
 
 #. Zhi5M
 #: filter/uiconfig/ui/pdfgeneralpage.ui:667
 msgctxt "pdfgeneralpage|extended_tip|pdfa"
 msgid "Converts to the PDF/A-2b or PDF/A-1b format. This is defined as an electronic document file format for long term preservation. All fonts that were used in the source document will be embedded into the generated PDF file. PDF tags will be written."
-msgstr ""
+msgstr "Претвара у ПДФ/А-2б или ПДФ/А-1б формат. Ово је електронски формат документа намењен дуготрајном чувању. Сви фонтови који су коришћени у изворном документу ће бити угњежђени у направљену ПДФ датотеку. ПДФ ознаке ће бити уписане."
 
 #. jmaDc
 #: filter/uiconfig/ui/pdfgeneralpage.ui:716
 msgctxt "pdfgeneralpage|pdfaversion"
 msgid "PDF_/A version:"
-msgstr ""
+msgstr "ПД_Ф/А верзија:"
 
 #. VQGHi
 #: filter/uiconfig/ui/pdfgeneralpage.ui:748
 msgctxt "pdfgeneralpage|pdfua"
 msgid "Universal Accessibilit_y (PDF/UA)"
-msgstr ""
+msgstr "Универзална прис_тупачност (ПДФ/УА)"
 
 #. 4B3FD
 #: filter/uiconfig/ui/pdfgeneralpage.ui:752
 msgctxt "pdfgeneralpage|pdfua|tooltip_text"
 msgid "Creates a universal accessibility-compliant PDF file that follows the requirements of PDF/UA (ISO 14289) specifications."
-msgstr ""
+msgstr "Прави универзалну приступачну ПДФ датотеку која је усклађена са захтевима ПДФ/УА (ИСО 14289) одредби."
 
 #. Birq5
 #: filter/uiconfig/ui/pdfgeneralpage.ui:758
 msgctxt "pdfgeneralpage|extended_tip|pdfua"
 msgid "Creates a universal accessibility-complying PDF file that follows the requirements of PDF/UA (ISO 14289) specifications."
-msgstr ""
+msgstr "Прави универзалну приступачну ПДФ датотеку која је усклађена са захтевима ПДФ/УА (ИСО 14289) одредби."
 
 #. Drqkd
 #: filter/uiconfig/ui/pdfgeneralpage.ui:773
-#, fuzzy
 msgctxt "pdfgeneralpage|label4"
 msgid "General"
 msgstr "Опште"
@@ -756,244 +743,238 @@ msgstr "Опште"
 #: filter/uiconfig/ui/pdfgeneralpage.ui:802
 msgctxt "pdfgeneralpage|bookmarks"
 msgid "Export outl_ines"
-msgstr ""
+msgstr "Извези _контуре"
 
 #. Cc2Um
 #: filter/uiconfig/ui/pdfgeneralpage.ui:809
 msgctxt "pdfgeneralpage|bookmarks|tooltip_text"
 msgid "Export headings along with hyperlinked entries in Table of Contents as PDF bookmarks."
-msgstr ""
+msgstr "Извози наслове заједно са уносима хипервеза у Садржају ПДФ обележивача."
 
 #. Q3h6b
 #: filter/uiconfig/ui/pdfgeneralpage.ui:812
 msgctxt "pdfgeneralpage|extended_tip|bookmarks"
 msgid "PDF bookmarks are created for all paragraphs with outline level 1 or greater and for all “Table of Contents” entries with hyperlinks."
-msgstr ""
+msgstr "ПДФ обележивачи се праве за све пасусе са нивоом контуре 1 или већим и за све уносе у Садржају са хипервезама."
 
 #. kQbPh
 #: filter/uiconfig/ui/pdfgeneralpage.ui:823
 msgctxt "pdfgeneralpage|exportplaceholders"
 msgid "Expo_rt placeholders"
-msgstr ""
+msgstr "Извези _местодржаче"
 
 #. T6RjA
 #: filter/uiconfig/ui/pdfgeneralpage.ui:832
 msgctxt "pdfgeneralpage|extended_tip|exportplaceholders"
 msgid "Export the placeholders fields visual markings only. The exported placeholder is ineffective."
-msgstr ""
+msgstr "Извози само видљиве ознаке поља са местодржачима. Извезени местодржачи нису неефикасни."
 
 #. P4kGd
 #: filter/uiconfig/ui/pdfgeneralpage.ui:843
 msgctxt "pdfgeneralpage|comments"
 msgid "Comm_ents as PDF annotations"
-msgstr ""
+msgstr "_Коментари као ПДФ забелешке"
 
 #. SijbK
 #: filter/uiconfig/ui/pdfgeneralpage.ui:852
 msgctxt "pdfgeneralpage|extended_tip|comments"
 msgid "Select to export comments of Writer and Calc documents as PDF annotations."
-msgstr ""
+msgstr "Изаберите уколико желите да извезете коментаре Писца или Рачуна унутар ПДФ забелешки."
 
 #. y9evS
 #: filter/uiconfig/ui/pdfgeneralpage.ui:863
-#, fuzzy
 msgctxt "pdfgeneralpage|emptypages"
 msgid "Exp_ort automatically inserted blank pages"
-msgstr "Штампај аутоматски убачене празне странице"
+msgstr "Ш_тампај аутоматски убачене празне странице"
 
 #. Drp3w
 #: filter/uiconfig/ui/pdfgeneralpage.ui:872
 msgctxt "pdfgeneralpage|extended_tip|emptypages"
 msgid "If switched on, automatically inserted blank pages are exported to the PDF file. This is best if you are printing the pdf file double-sided. Example: In a book a chapter paragraph style is set to always start with an odd numbered page. If the previous chapter ends on an odd page, then an even numbered blank page is normally automatically inserted. This option controls whether to export that even numbered page or not."
-msgstr ""
+msgstr "Уколико је укључено, аутоматски уметнуте празне странице се извозе у ПДФ датотеку. Ово је добро уколико штампате ПДФ датотеку двострано. На пример, у стилу пасуса поглавља књиге може бити подешено са увек почињу на непарним, нумерисаним страницама. Уколико се претходно поглавље завршава на непарним страницама, парне, нумерисане, празне странице ће се аутоматски уметнути. Ова опција одређује да ли се те празне, нумерисане странице извозе или не."
 
 #. sHqKP
 #: filter/uiconfig/ui/pdfgeneralpage.ui:883
 msgctxt "pdfgeneralpage|usereferencexobject"
 msgid "Use reference XObjects"
-msgstr ""
+msgstr "Користи референтне ИксОбјекте"
 
 #. avuEd
 #: filter/uiconfig/ui/pdfgeneralpage.ui:892
 msgctxt "pdfgeneralpage|extended_tip|usereferencexobject"
 msgid "When the option is enabled, then the reference XObject markup is used:  viewers have to support this markup to show vector images. Otherwise a fallback bitmap is shown in the viewer."
-msgstr ""
+msgstr "Када је опција омогућена, користи се маркер референтног ИксОбјеката: прегледачи морају да подржавају ове маркере да би приказали векторске слике. У супротном ће бити приказана битмапирана слика у прегледачу."
 
 #. 2K2cD
 #: filter/uiconfig/ui/pdfgeneralpage.ui:903
-#, fuzzy
 msgctxt "pdfgeneralpage|hiddenpages"
 msgid "Export _hidden pages"
-msgstr "Извези ~скривене слајдове"
+msgstr "Извези _скривене странице"
 
 #. Gr5rf
 #: filter/uiconfig/ui/pdfgeneralpage.ui:912
 msgctxt "pdfgeneralpage|extended_tip|hiddenpages"
 msgid "Exports document hidden slides."
-msgstr ""
+msgstr "Извози скривене слајдове документа."
 
 #. ghuXR
 #: filter/uiconfig/ui/pdfgeneralpage.ui:923
 msgctxt "pdfgeneralpage|notes"
 msgid "Export _notes pages"
-msgstr ""
+msgstr "Извози _белешке страница"
 
 #. hRjqL
 #: filter/uiconfig/ui/pdfgeneralpage.ui:932
 msgctxt "pdfgeneralpage|extended_tip|notes"
 msgid "Export also the Notes pages view at the end of the exported PDF presentation document."
-msgstr ""
+msgstr "Извози и преглед белешки страница на крају извезеног ПДФ документа презентације."
 
 #. BGvC2
 #: filter/uiconfig/ui/pdfgeneralpage.ui:943
 msgctxt "pdfgeneralpage|onlynotes"
 msgid "Export onl_y notes pages"
-msgstr ""
+msgstr "Извези са_мо белешке страница"
 
 #. Mwnea
 #: filter/uiconfig/ui/pdfgeneralpage.ui:953
 msgctxt "pdfgeneralpage|extended_tip|onlynotes"
 msgid "Exports only the Notes page views."
-msgstr ""
+msgstr "Извези само прегледе белешки странице."
 
 #. MpRUp
 #: filter/uiconfig/ui/pdfgeneralpage.ui:964
 msgctxt "pdfgeneralpage|singlepagesheets"
 msgid "Whole sheet export"
-msgstr ""
+msgstr "Извоз целог листа"
 
 #. jRGAS
 #: filter/uiconfig/ui/pdfgeneralpage.ui:973
 msgctxt "pdfgeneralpage|extended_tip|singlepagessheets"
 msgid "Ignores each sheet’s paper size, print ranges and shown/hidden status and puts every sheet (even hidden sheets) on exactly one page, which is exactly as small or large as needed to fit the whole contents of the sheet."
-msgstr ""
+msgstr "Занемарује величину папира сваког листа, опсег штампе и приказ/скривање стања и ставља сваки лист (чак и сакривене листове) на тачно једну страницу, која је тачно толико умањена или увећана да би се уклопио садржај целог листа."
 
 #. DiBsa
 #: filter/uiconfig/ui/pdfgeneralpage.ui:984
 msgctxt "pdfgeneralpage|commentsinmargin"
 msgid "_Comments in margin"
-msgstr ""
+msgstr "_Коментари у маргини"
 
 #. RpDqi
 #: filter/uiconfig/ui/pdfgeneralpage.ui:993
 msgctxt "pdfgeneralpage|extended_tip|commentsinmargin"
 msgid "Select to export comments of Writer documents in the page margin."
-msgstr ""
+msgstr "Изаберите да извезете коментаре документа Писца у маргини стране."
 
 #. AcPTB
 #: filter/uiconfig/ui/pdfgeneralpage.ui:1008
 msgctxt "pdfgeneralpage|label9"
 msgid "Structure"
-msgstr ""
+msgstr "Структура"
 
 #. QEAua
 #: filter/uiconfig/ui/pdflinkspage.ui:29
 msgctxt "pdflinkspage|export"
 msgid "Export bookmarks as named destinations"
-msgstr ""
+msgstr "Извози обележиваче као именовано одредиште"
 
 #. XCKUE
 #: filter/uiconfig/ui/pdflinkspage.ui:35
 msgctxt "pdflinkspage|export|tooltip_text"
 msgid "Enable the checkbox to export bookmarks in your document as named destinations in the PDF document."
-msgstr ""
+msgstr "Омогућите ово поље да извезете обележиваче вашег документа као именовано одредиште у ПДФ документу."
 
 #. vECBd
 #: filter/uiconfig/ui/pdflinkspage.ui:38
 msgctxt "pdflinkspage|extended_tip|export"
 msgid "Enable the checkbox to export bookmarks in your document as named destinations in the PDF document. The destinations correspond to the location of your bookmarks. Use these destinations to create URL links that point to these locations in the PDF document."
-msgstr ""
+msgstr "Омогућите ово поље да извезете обележиваче вашег документа као именовано одредиште у ПДФ документу. Одредиште одговара месту обележивача. Користите ова одредишта да направите УРЛ безе које указују на ова места у ПДФ документу."
 
 #. aCCLQ
 #: filter/uiconfig/ui/pdflinkspage.ui:49
 msgctxt "pdflinkspage|convert"
 msgid "_Convert document references to PDF targets"
-msgstr ""
+msgstr "_Претвори референце документа у ПДФ циљевима"
 
 #. FEokC
 #: filter/uiconfig/ui/pdflinkspage.ui:57
 msgctxt "pdflinkspage|extended_tip|convert"
 msgid "Enable this checkbox to convert the URLs referencing other ODF files to PDF files with the same name. In the referencing URLs the extensions .odt, .odp, .ods, .odg, and .odm are converted to the extension .pdf."
-msgstr ""
+msgstr "Омогућите ово поље да претворите УРЛ везе које указују на друге ОДФ датотеке у ПДФ датотеке са истим називом. У референци УРЛ везе екстензије .odt, .odp, .ods, .odg и .odm ће бити претворене у екстензију .pdf."
 
 #. 6Lyp3
 #: filter/uiconfig/ui/pdflinkspage.ui:68
 msgctxt "pdflinkspage|exporturl"
 msgid "Export _URLs relative to file system"
-msgstr ""
+msgstr "Извези везе релативно у односу на систем датотека"
 
 #. RcdUF
 #: filter/uiconfig/ui/pdflinkspage.ui:76
 msgctxt "pdflinkspage|extended_tip|exporturl"
 msgid "Enable this checkbox to export URLs to other documents as relative URLs in the file system. See \"relative hyperlinks\" in the Help."
-msgstr ""
+msgstr "Омогућите ово поље да извезете УРЛ везе до других докумената као релативне УРЛ везе унутар система датотека. Погледајте „релативне хипервезе“ за више података."
 
 #. biumY
 #: filter/uiconfig/ui/pdflinkspage.ui:91
-#, fuzzy
 msgctxt "pdflinkspage|label1"
 msgid "General"
 msgstr "Опште"
 
 #. mGRBH
 #: filter/uiconfig/ui/pdflinkspage.ui:120
-#, fuzzy
 msgctxt "pdflinkspage|default"
 msgid "Default mode"
-msgstr "Подразумевани датум"
+msgstr "Подразумевани режим"
 
 #. bcgaz
 #: filter/uiconfig/ui/pdflinkspage.ui:129
 msgctxt "pdflinkspage|extended_tip|default"
 msgid "Links from your PDF document to other documents will be handled as it is specified in your operating system."
-msgstr ""
+msgstr "Везује ваш ПДФ документ са другим документима који ће бити отварани на основу поставки вашег оперативног система."
 
 #. DNRK8
 #: filter/uiconfig/ui/pdflinkspage.ui:140
 msgctxt "pdflinkspage|openpdf"
 msgid "Open with PDF reader application"
-msgstr ""
+msgstr "Отвори читачем ПДГ докумената"
 
 #. gmzoA
 #: filter/uiconfig/ui/pdflinkspage.ui:149
 msgctxt "pdflinkspage|extended_tip|openpdf"
 msgid "Cross-document links are opened with the PDF reader application that currently shows the document. The PDF reader application must be able to handle the specified file type inside the hyperlink."
-msgstr ""
+msgstr "Унакрсне везе документа се отварају програмом за читање ПДФ докумената који тренутно приказује документ. Програм за читање ПДФ докумената мора да буде доступан како би управљали изабраном врстом датотеке унутар хипервезе."
 
 #. wPem9
 #: filter/uiconfig/ui/pdflinkspage.ui:160
 msgctxt "pdflinkspage|openinternet"
 msgid "Open _with Internet browser"
-msgstr ""
+msgstr "Отвори _интернет прегледачем"
 
 #. xfRr2
 #: filter/uiconfig/ui/pdflinkspage.ui:169
 msgctxt "pdflinkspage|extended_tip|openinternet"
 msgid "Cross-document links are opened with the Internet browser. The Internet browser must be able to handle the specified file type inside the hyperlink."
-msgstr ""
+msgstr "Унакрсне везе документа се отварају интернет прегледачем. Интернет прегледач мора да подржава изабрану врсту датотека унутар хипервезе."
 
 #. B9TGg
 #: filter/uiconfig/ui/pdflinkspage.ui:184
 msgctxt "pdflinkspage|label5"
 msgid "Cross-document Links"
-msgstr ""
+msgstr "Везе унакрсних докумената"
 
 #. KmFGh
 #: filter/uiconfig/ui/pdfoptionsdialog.ui:8
 msgctxt "pdfoptionsdialog|PdfOptionsDialog"
 msgid "PDF Options"
-msgstr ""
+msgstr "ПДФ опције"
 
 #. BwbwB
 #: filter/uiconfig/ui/pdfoptionsdialog.ui:41
-#, fuzzy
 msgctxt "pdfoptionsdialog|ok"
 msgid "E_xport"
-msgstr "Извоз"
+msgstr "_Извези"
 
 #. Y2Mem
 #: filter/uiconfig/ui/pdfoptionsdialog.ui:138
-#, fuzzy
 msgctxt "pdfoptionsdialog|general"
 msgid "General"
 msgstr "Опште"
@@ -1002,17 +983,16 @@ msgstr "Опште"
 #: filter/uiconfig/ui/pdfoptionsdialog.ui:185
 msgctxt "pdfoptionsdialog|initialview"
 msgid "Initial View"
-msgstr ""
+msgstr "Почетни приказ"
 
 #. 35g8K
 #: filter/uiconfig/ui/pdfoptionsdialog.ui:233
 msgctxt "pdfoptionsdialog|userinterface"
 msgid "User Interface"
-msgstr ""
+msgstr "Корисничко сучеље"
 
 #. 3EStU
 #: filter/uiconfig/ui/pdfoptionsdialog.ui:281
-#, fuzzy
 msgctxt "pdfoptionsdialog|links"
 msgid "Links"
 msgstr "Везе"
@@ -1021,176 +1001,175 @@ msgstr "Везе"
 #: filter/uiconfig/ui/pdfoptionsdialog.ui:329
 msgctxt "pdfoptionsdialog|security"
 msgid "Security"
-msgstr ""
+msgstr "Сигурност"
 
 #. Vmf6H
 #: filter/uiconfig/ui/pdfoptionsdialog.ui:377
-#, fuzzy
 msgctxt "pdfoptionsdialog|digitalsignatures"
 msgid "Digital Signatures"
-msgstr "Електронски потписи..."
+msgstr "Електронски потписи"
 
 #. 7p3sS
 #: filter/uiconfig/ui/pdfsecuritypage.ui:28
 msgctxt "pdfsecuritypage|setpassword"
 msgid "Set _Passwords…"
-msgstr ""
+msgstr "Постави _лозинке…"
 
 #. C9DhC
 #: filter/uiconfig/ui/pdfsecuritypage.ui:36
 msgctxt "pdfsecuritypage|extended_tip|setpassword"
 msgid "Click to open a dialog where you enter the passwords."
-msgstr ""
+msgstr "Кликните да отворите прозорче у коме можете унети лозинке."
 
 #. 63szB
 #: filter/uiconfig/ui/pdfsecuritypage.ui:55
 msgctxt "pdfsecuritypage|label5"
 msgid "Open password set"
-msgstr ""
+msgstr "Лозинка за отварање је постављена"
 
 #. 6ktYG
 #: filter/uiconfig/ui/pdfsecuritypage.ui:67
 msgctxt "pdfsecuritypage|label6"
 msgid "PDF document will be encrypted"
-msgstr ""
+msgstr "ПДФ документ ће бити шифрован"
 
 #. pTAZC
 #: filter/uiconfig/ui/pdfsecuritypage.ui:91
 msgctxt "pdfsecuritypage|label7"
 msgid "No open password set"
-msgstr ""
+msgstr "Није постављена лозинка за отварање"
 
 #. fp3My
 #: filter/uiconfig/ui/pdfsecuritypage.ui:103
 msgctxt "pdfsecuritypage|label8"
 msgid "PDF document will not be encrypted"
-msgstr ""
+msgstr "ПДФ документ неће бити шифрован"
 
 #. aHC6v
 #: filter/uiconfig/ui/pdfsecuritypage.ui:127
 msgctxt "pdfsecuritypage|label30"
 msgid "PDF document will not be encrypted due to PDF/A export."
-msgstr ""
+msgstr "ПДФ документ неће бити шифрован због извоза у ПДФ/А."
 
 #. DsALB
 #: filter/uiconfig/ui/pdfsecuritypage.ui:152
 msgctxt "pdfsecuritypage|label9"
 msgid "Permission password set"
-msgstr ""
+msgstr "Лозинка за овлашћења је постављена"
 
 #. hRJpp
 #: filter/uiconfig/ui/pdfsecuritypage.ui:164
 msgctxt "pdfsecuritypage|label11"
 msgid "PDF document will be restricted"
-msgstr ""
+msgstr "ПДФ документ ће имати ограничења"
 
 #. L3oQx
 #: filter/uiconfig/ui/pdfsecuritypage.ui:188
 msgctxt "pdfsecuritypage|label12"
 msgid "No permission password set"
-msgstr ""
+msgstr "Није постављена лозинка за овлашћења"
 
 #. s3RBF
 #: filter/uiconfig/ui/pdfsecuritypage.ui:200
 msgctxt "pdfsecuritypage|label13"
 msgid "PDF document will be unrestricted"
-msgstr ""
+msgstr "ПДФ документ неће имати ограничења"
 
 #. 4jwu7
 #: filter/uiconfig/ui/pdfsecuritypage.ui:224
 msgctxt "pdfsecuritypage|label14"
 msgid "PDF document will not be restricted due to PDF/A export."
-msgstr ""
+msgstr "ПДФ документ неће бити ограничен због извоза у ПДФ/А."
 
 #. 9CFqB
 #: filter/uiconfig/ui/pdfsecuritypage.ui:244
 msgctxt "pdfsecuritypage|setpasswordstitle"
 msgid "Set Passwords"
-msgstr ""
+msgstr "Постави лозинке"
 
 #. FDKJa
 #: filter/uiconfig/ui/pdfsecuritypage.ui:259
 msgctxt "pdfsecuritypage|label2"
 msgid "File Encryption and Permission"
-msgstr ""
+msgstr "Шифровање и дозволе за датотеку"
 
 #. tWAWA
 #: filter/uiconfig/ui/pdfsecuritypage.ui:294
 msgctxt "pdfsecuritypage|printnone"
 msgid "_Not permitted"
-msgstr ""
+msgstr "_Није дозвољено"
 
 #. R3Gvm
 #: filter/uiconfig/ui/pdfsecuritypage.ui:303
 msgctxt "pdfsecuritypage|extended_tip|printnone"
 msgid "Printing the document is not permitted."
-msgstr ""
+msgstr "Штампање документа није дозвољено."
 
 #. kSfrd
 #: filter/uiconfig/ui/pdfsecuritypage.ui:314
 msgctxt "pdfsecuritypage|printlow"
 msgid "_Low resolution (150 dpi)"
-msgstr ""
+msgstr "_Ниска резолуција (150 dpi)"
 
 #. kB7dx
 #: filter/uiconfig/ui/pdfsecuritypage.ui:323
 msgctxt "pdfsecuritypage|extended_tip|printlow"
 msgid "The document can only be printed in low resolution (150 dpi). Not all PDF readers honor this setting."
-msgstr ""
+msgstr "Документ може само бити штампан у ниској резолуцији (150 dpi). Неки читачи ПДФ докумената ће имати потешкоћа са овим подешавањем."
 
 #. CmQzT
 #: filter/uiconfig/ui/pdfsecuritypage.ui:334
 msgctxt "pdfsecuritypage|printhigh"
 msgid "_High resolution"
-msgstr ""
+msgstr "_Висока резолуција"
 
 #. iBC7m
 #: filter/uiconfig/ui/pdfsecuritypage.ui:343
 msgctxt "pdfsecuritypage|extended_tip|printhigh"
 msgid "The document can be printed in high resolution."
-msgstr ""
+msgstr "Документ ће бити штампан у високој резолуцији."
 
 #. Gjpp4
 #: filter/uiconfig/ui/pdfsecuritypage.ui:358
 msgctxt "pdfsecuritypage|label1"
 msgid "Printing"
-msgstr ""
+msgstr "Штампање"
 
 #. C6BHs
 #: filter/uiconfig/ui/pdfsecuritypage.ui:387
 msgctxt "pdfsecuritypage|changenone"
 msgid "No_t permitted"
-msgstr ""
+msgstr "Ни_је дозвољено"
 
 #. McdCx
 #: filter/uiconfig/ui/pdfsecuritypage.ui:396
 msgctxt "pdfsecuritypage|extended_tip|changenone"
 msgid "No changes of the content are permitted."
-msgstr ""
+msgstr "Нису дозвољене промене садржаја."
 
 #. Vt6Zn
 #: filter/uiconfig/ui/pdfsecuritypage.ui:407
 msgctxt "pdfsecuritypage|changeinsdel"
 msgid "_Inserting, deleting, and rotating pages"
-msgstr ""
+msgstr "_Уметање, брисање и окретање страница"
 
 #. bpyjZ
 #: filter/uiconfig/ui/pdfsecuritypage.ui:416
 msgctxt "pdfsecuritypage|extended_tip|changeinsdel"
 msgid "Only inserting, deleting, and rotating pages is permitted."
-msgstr ""
+msgstr "Дозвољене су само уметнуте, обрисане и окренуте странице."
 
 #. dAmDo
 #: filter/uiconfig/ui/pdfsecuritypage.ui:427
 msgctxt "pdfsecuritypage|changeform"
 msgid "_Filling in form fields"
-msgstr ""
+msgstr "Поп_уњавање поља обрасца"
 
 #. yXs9B
 #: filter/uiconfig/ui/pdfsecuritypage.ui:436
 msgctxt "pdfsecuritypage|extended_tip|changeform"
 msgid "Only filling in form fields is permitted."
-msgstr ""
+msgstr "Дозвољава попуњавање само поља унутар обрасца."
 
 #. zGE7J
 #: filter/uiconfig/ui/pdfsecuritypage.ui:447
