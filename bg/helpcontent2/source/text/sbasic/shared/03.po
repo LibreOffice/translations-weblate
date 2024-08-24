@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-03-11 16:41+0100\n"
-"PO-Revision-Date: 2024-08-23 09:45+0000\n"
+"PO-Revision-Date: 2024-08-24 09:45+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/bg/>\n"
 "Language: bg\n"
@@ -7457,7 +7457,7 @@ msgctxt ""
 "par_id331591699082848\n"
 "help.text"
 msgid "<emph>columns</emph>: An array containing column numbers indicating which columns will be considered to determine if a row is a duplicate or not. If this argument is left blank, then only the first column is used. Items in this array must be in the interval between 1 and the range width."
-msgstr ""
+msgstr "<emph>columns</emph>: масив с номера на колони, които показват кои колони да се вземат предвид при определяне дали даден ред е дубликат. Ако този аргумент е празен, се използва само първата колона. Елементите на масива трябва да са в интервала от 1 до ширината на диапазона."
 
 #. C4DUZ
 #: sf_calc.xhp
@@ -7466,7 +7466,7 @@ msgctxt ""
 "par_id331591699082147\n"
 "help.text"
 msgid "<emph>header</emph>: Specifies whether the first row is a header row (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>header</emph>: указва дали първият ред е заглавен (подразбира се <literal>False</literal>)."
 
 #. sFJ5x
 #: sf_calc.xhp
@@ -7475,7 +7475,7 @@ msgctxt ""
 "par_id331591699082231\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Specifies whether string comparisons are case-sensitive (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: указва дали при сравненията на низове да се различават малки от главни букви (подразбира се <literal>False</literal>)."
 
 #. zhBuK
 #: sf_calc.xhp
@@ -7484,7 +7484,7 @@ msgctxt ""
 "par_id331591699082446\n"
 "help.text"
 msgid "<emph>mode</emph>: Specifies what to do with duplicate rows. If <literal>mode = \"CLEAR\"</literal> then duplicates are simply removed from the sheet leaving the cells blank. If <literal>mode = \"COMPACT\"</literal> then duplicates are removed and empty rows are compacted up (Default = <literal>\"COMPACT\"</literal>)."
-msgstr ""
+msgstr "<emph>mode</emph>: указва как да се постъпва с дублираните редове. Ако <literal>mode = \"CLEAR\"</literal>, дубликатите просто се премахват от листа и клетките остават празни. Ако <literal>mode = \"COMPACT\"</literal>, дубликатите се премахват и оставащите редове се уплътняват нагоре (подразбира се <literal>\"COMPACT\"</literal>)."
 
 #. CvYHu
 #: sf_calc.xhp
@@ -7493,7 +7493,7 @@ msgctxt ""
 "bas_id991674511267999\n"
 "help.text"
 msgid "' Removes duplicate rows where values in column A are duplicate"
-msgstr ""
+msgstr "' Премахва дублираните редове с едни и същи стойности в колоната A."
 
 #. wMXKK
 #: sf_calc.xhp
@@ -7502,7 +7502,7 @@ msgctxt ""
 "bas_id401674511347995\n"
 "help.text"
 msgid "' Note that all optional arguments use their default value"
-msgstr ""
+msgstr "' Обърнете внимание, че за незадължителните аргументи се използват подразбираните стойности."
 
 #. Dzbis
 #: sf_calc.xhp
@@ -7511,7 +7511,7 @@ msgctxt ""
 "bas_id31674511325842\n"
 "help.text"
 msgid "' Removes duplicate rows considering that the first row contains headers"
-msgstr ""
+msgstr "' Премахва дублираните редове, при положение че първият ред съдържа заглавия."
 
 #. H5o2W
 #: sf_calc.xhp
@@ -7520,7 +7520,7 @@ msgctxt ""
 "bas_id11674511430892\n"
 "help.text"
 msgid "' Columns A and B are used to determine if a row is a duplicate"
-msgstr ""
+msgstr "' Колоните A и B се използват за определяне дали даден ред е дубликат."
 
 #. vgiBA
 #: sf_calc.xhp
@@ -7529,7 +7529,7 @@ msgctxt ""
 "bas_id941674511492390\n"
 "help.text"
 msgid "' Cells containing duplicate values are left blank"
-msgstr ""
+msgstr "' Клетките, съдържащи дублирани стойности, остават празни."
 
 #. C8abL
 #: sf_calc.xhp
@@ -7700,7 +7700,7 @@ msgctxt ""
 "par_id461670942481294\n"
 "help.text"
 msgid "Refer to the <link href=\"text/sbasic/shared/03/sf_calc.xhp#ClearAll\"><literal>ClearAll</literal></link> method documentation for examples on how to use the arguments <literal>filterformula</literal> and <literal>filterscope</literal>."
-msgstr ""
+msgstr "Вижте документацията на метода<link href=\"text/sbasic/shared/03/sf_calc.xhp#ClearAll\"><literal>ClearAll</literal></link> за примери как се използват аргументите <literal>filterformula</literal> и <literal>filterscope</literal>."
 
 #. DCAWV
 #: sf_calc.xhp
@@ -8258,7 +8258,7 @@ msgctxt ""
 "par_id141595692394382\n"
 "help.text"
 msgid "Sort the given range on any number of columns/rows. The sorting order may vary by column/row. If the number of sort keys is > 3 then the range is sorted several times, by groups of 3 keys, starting from the last key. It returns a string representing the modified range of cells. The size of the modified area is fully determined by the size of the source area."
-msgstr ""
+msgstr "Сортира дадения диапазон по произволен брой колони/редове. Редът на сортиране може да варира по колона/ред. Ако броят на ключовете за сортиране е > 3, диапазонът се сортира няколко пъти, на групи от по 3 ключа, започвайки от последния ключ. Връща се низ, представящ променения диапазон от клетки. Размерът на променената област се определя изцяло от размера на областта източник."
 
 #. MVGBC
 #: sf_calc.xhp
@@ -8276,7 +8276,7 @@ msgctxt ""
 "par_id171595692814163\n"
 "help.text"
 msgid "<emph>sortkeys</emph>: A scalar (if 1 column/row) or an array of column/row numbers starting from 1."
-msgstr ""
+msgstr "<emph>sortkeys</emph>: скалар (ако е 1 колона/ред) или масив от номера на колони/редове, започващи от 1."
 
 #. k5CZ4
 #: sf_calc.xhp
@@ -8285,7 +8285,7 @@ msgctxt ""
 "par_id421595692962095\n"
 "help.text"
 msgid "<emph>sortorder</emph>: A scalar or an array of strings containing the values \"ASC\" (ascending), \"DESC\" (descending). Each item is paired with the corresponding item in <literal>sortkeys</literal>. If the <literal>sortorder</literal> array is shorter than <literal>sortkeys</literal>, the remaining keys are sorted in ascending order."
-msgstr ""
+msgstr "<emph>sortorder</emph>: скалар или масив от низове със стойности \"ASC\" (ascending, възходящ) или \"DESC\" (descending, низходящ). Всеки елемент съответства на елемент от <literal>sortkeys</literal>. Ако масивът <literal>sortorder</literal> е по-къс от <literal>sortkeys</literal>, останалите ключове се сортират в нарастващ ред."
 
 #. GVpuf
 #: sf_calc.xhp
@@ -9140,7 +9140,7 @@ msgctxt ""
 "hd_id461701357494930\n"
 "help.text"
 msgid "Transaction handling"
-msgstr ""
+msgstr "Обработка на трансакции"
 
 #. 9is6W
 #: sf_database.xhp
@@ -9149,7 +9149,7 @@ msgctxt ""
 "bm_id121701365380522\n"
 "help.text"
 msgid "<bookmark_value>Database service; Transaction handling</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Database, услуга; обработка на трансакции</bookmark_value>"
 
 #. kEjYS
 #: sf_database.xhp
@@ -9158,7 +9158,7 @@ msgctxt ""
 "par_id71701357507703\n"
 "help.text"
 msgid "By default the database handles transactions in auto-commit mode, meaning that a commit is done after every SQL statement."
-msgstr ""
+msgstr "По подразбиране базата от данни обработва трансакциите в режим на автоматично фиксиране, което означава, че след всеки оператор на SQL се извършва фиксиране на промените."
 
 #. dHSK7
 #: sf_database.xhp
