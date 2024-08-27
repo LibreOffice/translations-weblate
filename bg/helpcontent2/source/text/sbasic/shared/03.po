@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-01-22 14:04+0100\n"
-"PO-Revision-Date: 2024-08-24 12:37+0000\n"
+"PO-Revision-Date: 2024-08-27 00:37+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-24-2/textsbasicshared03/bg/>\n"
 "Language: bg\n"
@@ -9167,7 +9167,7 @@ msgctxt ""
 "par_id321701357603871\n"
 "help.text"
 msgid "Use the <literal>SetTransactionMode</literal> method to change the default behavior, which allows for manual commits and rollbacks."
-msgstr ""
+msgstr "Използвайте метода <literal>SetTransactionMode</literal>, за да промените подразбираното поведение – това позволява ръчно фиксиране и връщане."
 
 #. WXGcE
 #: sf_database.xhp
@@ -9176,7 +9176,7 @@ msgctxt ""
 "par_id431701443412927\n"
 "help.text"
 msgid "The methods <literal>Commit</literal> and <literal>Rollback</literal> are used to delimit transactions."
-msgstr ""
+msgstr "Методите <literal>Commit</literal> и <literal>Rollback</literal> служат за отделяне на трансакциите."
 
 #. 4UBP5
 #: sf_database.xhp
@@ -9185,7 +9185,7 @@ msgctxt ""
 "par_id531701365474516\n"
 "help.text"
 msgid "In %PRODUCTNAME, there are five types of transaction isolation modes, as defined in the <link href=\"https://api.libreoffice.org/docs/idl/ref/namespacecom_1_1sun_1_1star_1_1sdbc_1_1TransactionIsolation.html\">com.sun.star.sdbc.TransactionIsolation</link> constant group:"
-msgstr ""
+msgstr "В %PRODUCTNAME има пет вида режими на изолиране на трансакциите, както е дефинирано в групата константи <link href=\"https://api.libreoffice.org/docs/idl/ref/namespacecom_1_1sun_1_1star_1_1sdbc_1_1TransactionIsolation.html\">com.sun.star.sdbc.TransactionIsolation</link>:"
 
 #. 7zGGY
 #: sf_database.xhp
@@ -9194,7 +9194,7 @@ msgctxt ""
 "par_id631701441607725\n"
 "help.text"
 msgid "Constant"
-msgstr ""
+msgstr "Константа"
 
 #. 7n7YU
 #: sf_database.xhp
@@ -9203,7 +9203,7 @@ msgctxt ""
 "par_id671701441607725\n"
 "help.text"
 msgid "Value"
-msgstr ""
+msgstr "Стойност"
 
 #. YJ7FT
 #: sf_database.xhp
@@ -9212,7 +9212,7 @@ msgctxt ""
 "par_id441701441607725\n"
 "help.text"
 msgid "Interpretation"
-msgstr ""
+msgstr "Интерпретация"
 
 #. HKAzv
 #: sf_database.xhp
@@ -9221,7 +9221,7 @@ msgctxt ""
 "par_id601701441607725\n"
 "help.text"
 msgid "Transaction handling is disabled and the database is set to the default auto-commit mode."
-msgstr ""
+msgstr "Обработката на трансакции е деактивирана и базата от данни е в подразбирания режим на автоматично фиксиране."
 
 #. aAAV4
 #: sf_database.xhp
@@ -9230,7 +9230,7 @@ msgctxt ""
 "par_id601701441607099\n"
 "help.text"
 msgid "Dirty reads, non-repeatable reads and phantom reads can occur."
-msgstr ""
+msgstr "Може да се случи прочитане на неактуални данни, неповтаряемо прочитане и фантомно прочитане."
 
 #. XefrK
 #: sf_database.xhp
@@ -9239,7 +9239,7 @@ msgctxt ""
 "par_id601701441603205\n"
 "help.text"
 msgid "If a row is changed by a transaction, another transaction will be able to read these changes even if they have not been committed."
-msgstr ""
+msgstr "Ако някой ред бъде променен от трансакция, друга трансакция ще може да прочете промените дори ако още не са фиксирани."
 
 #. uNAxC
 #: sf_database.xhp
@@ -9248,7 +9248,7 @@ msgctxt ""
 "par_id601701441607012\n"
 "help.text"
 msgid "Dirty reads are prevented, however non-repeatable reads and phantom reads can occur."
-msgstr ""
+msgstr "Прочитането на неактуални данни се предотвратява, но все пак може да се случи неповтаряемо или фантомно прочитане."
 
 #. dieTe
 #: sf_database.xhp
@@ -9257,7 +9257,7 @@ msgctxt ""
 "par_id601701441608244\n"
 "help.text"
 msgid "This level prevents that rows with uncommitted changes are read."
-msgstr ""
+msgstr "Това ниво предотвратява прочитането на редове с нефиксирани промени."
 
 #. Bpi2d
 #: sf_database.xhp
@@ -9266,7 +9266,7 @@ msgctxt ""
 "par_id601701441607300\n"
 "help.text"
 msgid "Dirty reads and non-repeatable reads are prevented. However, phantom reads can occur."
-msgstr ""
+msgstr "Предотвратява се прочитане на неактуални данни и неповтаряемо прочитане. Може обаче да се случи фантомно прочитане."
 
 #. jbJiF
 #: sf_database.xhp
@@ -9275,7 +9275,7 @@ msgctxt ""
 "par_id601701441608161\n"
 "help.text"
 msgid "Besides preventing uncommitted data from being read, it also prevents that two read operations in the same transaction return different results."
-msgstr ""
+msgstr "Предотвратява се както прочитането на нефиксирани данни, така и връщането на различни резултати от две прочитания в рамките на една трансакция."
 
 #. Yxxsv
 #: sf_database.xhp
@@ -9284,7 +9284,7 @@ msgctxt ""
 "par_id601701441607896\n"
 "help.text"
 msgid "Dirty reads, non-repeatable reads and phantom reads are prevented."
-msgstr ""
+msgstr "Предотвратява се прочитане на неактуални данни, неповтаряемо прочитане и фантомно прочитане."
 
 #. rJaPT
 #: sf_database.xhp
@@ -9293,7 +9293,7 @@ msgctxt ""
 "par_id601701441607117\n"
 "help.text"
 msgid "In addition to the constraints of the previous level, it also ensures that the set of records that match a <literal>WHERE</literal> clause remains unchanged inside the same transaction."
-msgstr ""
+msgstr "Освен ограниченията от предишното ниво се гарантира и че наборът от записи, който отговаря на дадена клауза <literal>WHERE</literal>, остава непроменен в рамките на трансакцията."
 
 #. 8GoMd
 #: sf_database.xhp
@@ -9302,7 +9302,7 @@ msgctxt ""
 "par_id991701357744355\n"
 "help.text"
 msgid "Read the Wikipedia page on <link href=\"https://en.wikipedia.org/wiki/Isolation_(database_systems)\">Isolation in Database Systems</link> to learn more about transaction integrity."
-msgstr ""
+msgstr "Прочетете страницата в Уикипедия <link href=\"https://en.wikipedia.org/wiki/Isolation_(database_systems)\">Isolation in Database Systems</link> (на английски), за да научите повече относно трансакционната цялост."
 
 #. CAFnK
 #: sf_database.xhp
@@ -9626,7 +9626,7 @@ msgctxt ""
 "par_id201587913264308\n"
 "help.text"
 msgid "Commits all updates done since the previous <literal>Commit</literal> or <literal>Rollback</literal> call."
-msgstr ""
+msgstr "Фиксира всички актуализации, извършени след предишното извикване на <literal>Commit</literal> или <literal>Rollback</literal>."
 
 #. P4TEF
 #: sf_database.xhp
@@ -9635,7 +9635,7 @@ msgctxt ""
 "par_id391701355293522\n"
 "help.text"
 msgid "This method is ignored if commits are done automatically after each SQL statement, i.e. the database is set to the default auto-commit mode."
-msgstr ""
+msgstr "Този метод се игнорира, ако фиксиранията се извършват автоматично след всеки оператор на SQL, т.е. ако базата от данни е в режим на автоматично фиксиране."
 
 #. DHATj
 #: sf_database.xhp
@@ -9644,7 +9644,7 @@ msgctxt ""
 "bas_id141701355821478\n"
 "help.text"
 msgid "' Set the REPEATABLE_READ transaction level"
-msgstr ""
+msgstr "' Задаваме ниво на трансакциите REPEATABLE_READ."
 
 #. 2mfAJ
 #: sf_database.xhp
@@ -9653,7 +9653,7 @@ msgctxt ""
 "bas_id311701355662993\n"
 "help.text"
 msgid "' Test some condition before committing"
-msgstr ""
+msgstr "' Проверяваме някакво условие преди фиксирането."
 
 #. xNjdS
 #: sf_database.xhp
@@ -9662,7 +9662,7 @@ msgctxt ""
 "bas_id711701355663208\n"
 "help.text"
 msgid "' Restore auto-commit mode"
-msgstr ""
+msgstr "' Възстановяваме режима на автоматично фиксиране."
 
 #. XigYX
 #: sf_database.xhp
@@ -9671,7 +9671,7 @@ msgctxt ""
 "par_id41599488113502\n"
 "help.text"
 msgid "Creates a <literal>Dataset</literal> service instance based on a table, query or SQL <literal>SELECT</literal> statement."
-msgstr ""
+msgstr "Създава екземпляр на услугата <literal>Dataset</literal> на базата на таблица, заявка или оператор <literal>SELECT</literal> на SQL."
 
 #. MX6BM
 #: sf_database.xhp
