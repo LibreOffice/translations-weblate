@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-01-22 14:04+0100\n"
-"PO-Revision-Date: 2024-08-27 00:37+0000\n"
+"PO-Revision-Date: 2024-08-28 06:36+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-24-2/textsbasicshared03/bg/>\n"
 "Language: bg\n"
@@ -9680,7 +9680,7 @@ msgctxt ""
 "par_id591701267115505\n"
 "help.text"
 msgid "<emph>sqlcommand</emph>: A table name, a query name or a valid SQL <literal>SELECT</literal> statement. Identifiers may be enclosed with square brackets. This argument is case-sensitive."
-msgstr ""
+msgstr "<emph>sqlcommand</emph>: име на таблица, име на заявка или валиден оператор <literal>SELECT</literal> на SQL. Идентификаторите може да са оградени с квадратни скоби. В този аргумент се различават малки и главни букви."
 
 #. HSKm4
 #: sf_database.xhp
@@ -9689,7 +9689,7 @@ msgctxt ""
 "par_id841701267114060\n"
 "help.text"
 msgid "<emph>directsql</emph>: Set this argument to <literal>True</literal> to send the statement directly to the database engine without preprocessing by %PRODUCTNAME (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>directsql</emph>: задайте на този аргумент стойност <literal>True</literal>, за да изпратите оператора директно към системата за управление на базата от данни без предварителна обработка от %PRODUCTNAME (подразбира се <literal>False</literal>)."
 
 #. ZoWu5
 #: sf_database.xhp
@@ -9698,7 +9698,7 @@ msgctxt ""
 "par_id241701267114527\n"
 "help.text"
 msgid "<emph>filter</emph>: Specifies the condition that records must match to be included in the returned dataset. This argument is expressed as a SQL <literal>WHERE</literal> statement without the \"WHERE\" keyword."
-msgstr ""
+msgstr "<emph>filter</emph>: указва условието, на което трябва да отговарят записите, за да бъдат включени в резултатния набор. Този аргумент е във вида на клауза <literal>WHERE</literal> без ключовата дума WHERE."
 
 #. SGBKv
 #: sf_database.xhp
@@ -9707,7 +9707,7 @@ msgctxt ""
 "par_id471701267115093\n"
 "help.text"
 msgid "<emph>orderby</emph>: Specifies the ordering of the dataset as a SQL <literal>ORDER BY</literal> statement without the \"ORDER BY\" keyword."
-msgstr ""
+msgstr "<emph>orderby</emph>: указва подреждането на съвкупността от данни като клауза <literal>ORDER BY</literal> на SQL без ключовата дума ORDER BY."
 
 #. V8pDK
 #: sf_database.xhp
@@ -9716,7 +9716,7 @@ msgctxt ""
 "par_id941701267748877\n"
 "help.text"
 msgid "The following examples in Basic and Python return a dataset with the records of a table named \"Customers\"."
-msgstr ""
+msgstr "Следващите примери на Basic и Python връщат набор от данни със записи от таблица с име Customers."
 
 #. Ebnho
 #: sf_database.xhp
@@ -9725,7 +9725,7 @@ msgctxt ""
 "bas_id241701267631273\n"
 "help.text"
 msgid "oDataset = myDatabase.CreateDataset(\"Customers\", Filter := \"[Name] LIKE 'A'\")"
-msgstr ""
+msgstr "oDataset = myDatabase.CreateDataset(\"Customers\", Filter := \"[Name] LIKE 'A'\")"
 
 #. h2NSq
 #: sf_database.xhp
@@ -9734,7 +9734,7 @@ msgctxt ""
 "pyc_id931701267696812\n"
 "help.text"
 msgid "dataset = myDatabase.CreateDataset(\"Customers\", Filter = \"[Name] LIKE 'A'\")"
-msgstr ""
+msgstr "dataset = myDatabase.CreateDataset(\"Customers\", Filter = \"[Name] LIKE 'A'\")"
 
 #. nwbSh
 #: sf_database.xhp
@@ -9968,7 +9968,7 @@ msgctxt ""
 "par_id801619099743199\n"
 "help.text"
 msgid "Opens the specified form document in normal mode. This method returns a <literal>FormDocument</literal> service instance corresponding to the specified form document."
-msgstr ""
+msgstr "Отваря зададения документ с формуляри в нормален режим. Този метод връща екземпляр на услугата <literal>FormDocument</literal>, съответстващ на указания формулярен документ."
 
 #. DWmz6
 #: sf_database.xhp
@@ -9977,7 +9977,7 @@ msgctxt ""
 "par_id451619100075330\n"
 "help.text"
 msgid "If the form document is already open, the form document window is activated."
-msgstr ""
+msgstr "Ако формулярният документ вече е отворен, прозорецът му се активира."
 
 #. WVNUN
 #: sf_database.xhp
@@ -9986,7 +9986,7 @@ msgctxt ""
 "par_id651692554712005\n"
 "help.text"
 msgid "If the specified form document does not exist, then <literal>Nothing</literal> is returned."
-msgstr ""
+msgstr "Ако указаният документ с формуляри не съществува, се връща стойността <literal>Nothing</literal>."
 
 #. bEzqx
 #: sf_database.xhp
@@ -9995,7 +9995,7 @@ msgctxt ""
 "par_id941619099797810\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of the <literal>FormDocument</literal> to be opened, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument</emph>: името на обекта <literal>FormDocument</literal>, който да бъде отворен, като чувствителен към регистъра низ."
 
 #. bERnJ
 #: sf_database.xhp
@@ -10004,7 +10004,7 @@ msgctxt ""
 "par_id251619100191992\n"
 "help.text"
 msgid "Most form documents are stored in the root of the Base document and they can be opened simply using their names, as in the example below:"
-msgstr ""
+msgstr "Повечето документи с формуляри се съхраняват в корена на документа на Base и могат да бъдат отворени просто чрез имената си както в долния пример:"
 
 #. LNaUs
 #: sf_database.xhp
@@ -10013,7 +10013,7 @@ msgctxt ""
 "par_id351619100327505\n"
 "help.text"
 msgid "If form documents are organized in folders, it becomes necessary to include the folder name to specify the form document to be opened, as illustrated in the following example:"
-msgstr ""
+msgstr "Ако документите с формуляри са организирани в папки, за задаване на отваряния формулярен документ е необходимо да се включи името на папката, както е показано в следващия пример:"
 
 #. BS9jq
 #: sf_database.xhp
@@ -10094,7 +10094,7 @@ msgctxt ""
 "par_id31599490603311\n"
 "help.text"
 msgid "Cancels all changes made to the database since the last <literal>Commit</literal> or <literal>Rollback</literal> call."
-msgstr ""
+msgstr "Отхвърля всички промени, нанесени в базата от данни след последното извикване на <literal>Commit</literal> или <literal>Rollback</literal>."
 
 #. FMBEy
 #: sf_database.xhp
