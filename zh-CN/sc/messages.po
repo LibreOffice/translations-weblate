@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2024-10-23 12:57+0200\n"
+"POT-Creation-Date: 2024-10-29 13:30+0100\n"
 "PO-Revision-Date: 2024-10-29 12:42+0000\n"
 "Last-Translator: Ming Hua <plateauwolf@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/zh_Hans/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.4.3\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1562731995.000000\n"
 
 #. kBovX
@@ -3229,11 +3229,11 @@ msgctxt "STR_UNDO_FORMULA_TO_VALUE"
 msgid "Convert Formula To Value"
 msgstr "将公式结果转换为值"
 
-#. BywKj
+#. FYbEV
 #: sc/inc/globstr.hrc:539
 msgctxt "STR_UNQUOTED_STRING"
-msgid "Strings without quotes are interpreted as defined names or references or column/row labels."
-msgstr "未加引号的字符串会解读为已定义的名称、引用或行/列标签。"
+msgid "Strings without double quotes are interpreted as defined names or references or column/row labels."
+msgstr ""
 
 #. rHjns
 #: sc/inc/globstr.hrc:540
@@ -3496,33 +3496,33 @@ msgctxt "STR_SENSITIVITY_CELL"
 msgid "Cell"
 msgstr ""
 
-#. yBofi
+#. Qj4Ht
 #: sc/inc/globstr.hrc:585
-msgctxt "STR_SENSITIVITY_CELL"
+msgctxt "STR_SENSITIVITY_FINALVALUE"
 msgid "Final Value"
 msgstr ""
 
-#. 6V32w
+#. 7nDM2
 #: sc/inc/globstr.hrc:586
-msgctxt "STR_SENSITIVITY_CELL"
+msgctxt "STR_SENSITIVITY_REDUCED"
 msgid "Reduced Cost"
 msgstr ""
 
-#. MkRYm
+#. JpR7P
 #: sc/inc/globstr.hrc:587
-msgctxt "STR_SENSITIVITY_CELL"
+msgctxt "STR_SENSITIVITY_OBJCOEFF"
 msgid "Objective Coefficient"
 msgstr ""
 
-#. bJAZG
+#. X9DSf
 #: sc/inc/globstr.hrc:588
-msgctxt "STR_SENSITIVITY_CELL"
+msgctxt "STR_SENSITIVITY_DECREASE"
 msgid "Allowable Decrease"
 msgstr ""
 
-#. 3NfZp
+#. 5q2ex
 #: sc/inc/globstr.hrc:589
-msgctxt "STR_SENSITIVITY_CELL"
+msgctxt "STR_SENSITIVITY_INCREASE"
 msgid "Allowable Increase"
 msgstr ""
 
@@ -24652,49 +24652,49 @@ msgid "Format Cells"
 msgstr "单元格格式"
 
 #. ngekD
-#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:112
+#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:111
 msgctxt "formatcellsdialog|numbers"
 msgid "Numbers"
 msgstr "数值"
 
 #. TvoWD
-#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:135
+#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:134
 msgctxt "formatcellsdialog|font"
 msgid "Font"
 msgstr "字体"
 
 #. 3oXRX
-#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:159
+#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:158
 msgctxt "formatcellsdialog|fonteffects"
 msgid "Font Effects"
 msgstr "字体效果"
 
 #. iuvXW
-#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:183
+#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:182
 msgctxt "formatcellsdialog|alignment"
 msgid "Alignment"
 msgstr "对齐"
 
 #. MfFdu
-#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:207
+#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:206
 msgctxt "formatcellsdialog|asiantypography"
 msgid "Asian Typography"
 msgstr "亚洲文字"
 
 #. FtWjv
-#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:231
+#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:230
 msgctxt "formatcellsdialog|borders"
 msgid "Borders"
 msgstr "边框"
 
 #. 9S8Sy
-#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:255
+#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:254
 msgctxt "formatcellsdialog|background"
 msgid "Background"
 msgstr "背景"
 
 #. hbPUf
-#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:279
+#: sc/uiconfig/scalc/ui/formatcellsdialog.ui:278
 msgctxt "formatcellsdialog|cellprotection"
 msgid "Cell Protection"
 msgstr "单元格保护"
@@ -33720,62 +33720,74 @@ msgctxt "subtotaloptionspage|extended_tip|sort"
 msgid "Sorts the area that you selected in the Group by box of the Group tabs according to the columns that you selected."
 msgstr "将各个分组选项卡上「分组依据」框中指定的区域按照选中的列进行排序。"
 
+#. rmfQq
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:90
+msgctxt "subtotaloptionspage|sort"
+msgid "_Summary below data"
+msgstr ""
+
+#. oiyMs
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:99
+msgctxt "subtotaloptionspage|extended_tip|summarybelow"
+msgid "Decide if the subtotals below or above the data. Reposition subtotals when you change the summary below data options."
+msgstr ""
+
 #. 6jJEr
-#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:94
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:114
 msgctxt "subtotaloptionspage|label1"
 msgid "Groups"
 msgstr "分组"
 
 #. C2NEu
-#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:127
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:147
 msgctxt "subtotaloptionspage|ascending"
 msgid "_Ascending"
 msgstr "升序(_A)"
 
 #. D75dE
-#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:137
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:157
 msgctxt "subtotaloptionspage|extended_tip|ascending"
 msgid "Sorts beginning with the lowest value. You can define the sort rules on Data - Sort - Options."
 msgstr "以从小到大的顺序排序。您可以在“数据 > 排序 > 选项”中定义排序规则。"
 
 #. maa6m
-#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:148
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:168
 msgctxt "subtotaloptionspage|descending"
 msgid "D_escending"
 msgstr "降序(_E)"
 
 #. 8iUpi
-#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:158
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:178
 msgctxt "subtotaloptionspage|extended_tip|descending"
 msgid "Sorts beginning with the highest value. You can define the sort rules on Data - Sort - Options."
 msgstr "以从大到小的顺序排序。您可以在“数据 > 排序 > 选项”中定义排序规则。"
 
 #. EGqiq
-#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:169
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:189
 msgctxt "subtotaloptionspage|formats"
 msgid "I_nclude formats"
 msgstr "包含格式(_N)"
 
 #. gCtKR
-#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:178
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:198
 msgctxt "subtotaloptionspage|extended_tip|formats"
 msgid "Considers formatting attributes when sorting."
 msgstr "排序时考虑格式属性。"
 
 #. 4rGHy
-#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:189
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:209
 msgctxt "subtotaloptionspage|btnuserdef"
 msgid "C_ustom sort order"
 msgstr "自定义排序(_U)"
 
 #. fEyTF
-#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:225
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:245
 msgctxt "subtotaloptionspage|label2"
 msgid "Sort"
 msgstr "排序"
 
 #. ikECk
-#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:240
+#: sc/uiconfig/scalc/ui/subtotaloptionspage.ui:260
 msgctxt "subtotaloptionspage|extended_tip|SubTotalOptionsPage"
 msgid "Specify the settings for calculating and presenting subtotals."
 msgstr "指定有关计算和展示分类汇总的设置。"
@@ -35106,6 +35118,10 @@ msgstr "分组依据"
 msgctxt "ztestdialog|extended_tip|ZTestDialog"
 msgid "Calculates the z-Test of two data samples."
 msgstr "计算两个数据样本的Z检验。"
+
+#~ msgctxt "STR_UNQUOTED_STRING"
+#~ msgid "Strings without quotes are interpreted as defined names or references or column/row labels."
+#~ msgstr "未加引号的字符串会解读为已定义的名称、引用或行/列标签。"
 
 #~ msgctxt "duplicaterecordsdialog|okaybtn"
 #~ msgid "_Okay"

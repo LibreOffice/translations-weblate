@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2024-10-23 12:57+0200\n"
+"POT-Creation-Date: 2024-10-29 13:30+0100\n"
 "PO-Revision-Date: 2024-10-25 09:45+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/nl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.4.3\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565421340.000000\n"
 
 #. yzNBP
@@ -20042,240 +20042,6 @@ msgctxt ""
 "help.text"
 msgid "<input>=LEN(A1)</input> returns 0. The length of the empty string is 0."
 msgstr ""
-
-#. B364W
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"bm_id3149321\n"
-"help.text"
-msgid "<bookmark_value>CHAR function</bookmark_value>"
-msgstr "<bookmark_value>TEKEN-functie</bookmark_value>"
-
-#. yv4gX
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"hd_id3149321\n"
-"help.text"
-msgid "CHAR"
-msgstr "TEKEN"
-
-#. D33DG
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3149150\n"
-"help.text"
-msgid "<ahelp hid=\"HID_FUNC_ZEICHEN\">Converts a number into a character according to the current code table.</ahelp> The number can be a two-digit or three-digit integer number."
-msgstr "<ahelp hid=\"HID_FUNC_ZEICHEN\">Converteert een getal naar een teken in overeenstemming met de huidige codetabel.</ahelp> Het getal kan een geheel getal van twee of drie cijfers zijn."
-
-#. REFzj
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3145634\n"
-"help.text"
-msgid "CHAR(Number)"
-msgstr "TEKEN(Getal)"
-
-#. ZovFW
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3155906\n"
-"help.text"
-msgid "<emph>Number</emph> is a number between 1 and 255 representing the code value for the character."
-msgstr "<emph>Getal</emph> is een getal tussen 1 en 255 dat de codewaarde voor een teken vertegenwoordigd."
-
-#. 9FwWZ
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3149890\n"
-"help.text"
-msgid "<item type=\"input\">=CHAR(100)</item> returns the character d."
-msgstr "<item type=\"input\">=TEKEN(100)</item> geeft het teken d terug."
-
-#. XASnB
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id0907200910283297\n"
-"help.text"
-msgid "=\"abc\" & CHAR(10) & \"def\" inserts a newline character into the string."
-msgstr "=\"abc\" & TEKEN(10) & \"def\" voegt een teken voor een nieuwe regel in de tekenreeks in."
-
-#. FxFYY
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"bm_id3149009\n"
-"help.text"
-msgid "<bookmark_value>CLEAN function</bookmark_value>"
-msgstr "<bookmark_value>WISSEN.CONTROL-functie</bookmark_value>"
-
-#. nCASE
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"hd_id3149009\n"
-"help.text"
-msgid "CLEAN"
-msgstr "WISSEN.CONTROL"
-
-#. cxXEE
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3150482\n"
-"help.text"
-msgid "<ahelp hid=\"HID_FUNC_SAEUBERN\">All non-printing characters are removed from the string.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_SAEUBERN\">Alle niet-afdrukbare tekens worden uit de tekenreeks verwijderd.</ahelp>"
-
-#. tuqFM
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3147472\n"
-"help.text"
-msgid "CLEAN(\"Text\")"
-msgstr "WISSEN.CONTROL(\"Tekst\")"
-
-#. PYEGm
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3150695\n"
-"help.text"
-msgid "<emph>Text</emph> refers to the text from which to remove all non-printable characters."
-msgstr "<emph>Tekst</emph> verwijst naar de tekst vanaf waar alle niet-afdrukbare tekens moeten worden verwijderd."
-
-#. h3UXC
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id581621538151600\n"
-"help.text"
-msgid "<input>=LEN(CLEAN(CHAR(7) & \"LibreOffice Calc\" & CHAR(8)))</input> returns 16, showing that the CLEAN function removes the non-printable Unicode U+0007 (\"BEL\") and U+0008 (\"BS\") characters at the beginning and end of the string argument. CLEAN does not remove spaces."
-msgstr "<input>=LENGTE(WISSEN.CONTROL(CHAR(7) & \"LibreOffice Calc\" & CHAR(8)))</input> geeft 16 terug, wat aantoont dat de WISSEN.CONTROL-functie de niet-afdrukbare Unicode U+0007 (\"BEL\") verwijdert en U+0008 (\"BS\") tekens aan het begin en einde van de invoer. WISSEN.CONTROL verwijdert geen spaties."
-
-#. zdGBJ
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"bm_id3155498\n"
-"help.text"
-msgid "<bookmark_value>CODE function</bookmark_value>"
-msgstr "<bookmark_value>CODE-functie</bookmark_value>"
-
-#. DAKfM
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"hd_id3155498\n"
-"help.text"
-msgid "CODE"
-msgstr "CODE"
-
-#. 8fFdD
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3152770\n"
-"help.text"
-msgid "<ahelp hid=\"HID_FUNC_CODE\">Returns a numeric code for the first character in a text string.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_CODE\">Geeft een numerieke code voor het eerste teken in een tekenreeks.</ahelp>"
-
-#. Exk7G
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3149188\n"
-"help.text"
-msgid "CODE(\"Text\")"
-msgstr "CODE(\"Tekst\")"
-
-#. cBHSB
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3154383\n"
-"help.text"
-msgid "<emph>Text</emph> is the text for which the code of the first character is to be found."
-msgstr "<emph>Tekst</emph> is de tekst waarvoor de code van het eerste teken moet worden vastgesteld."
-
-#. PkXAd
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3159209\n"
-"help.text"
-msgid "<item type=\"input\">=CODE(\"Hieronymus\")</item> returns 72, <item type=\"input\">=CODE(\"hieroglyphic\")</item> returns 104."
-msgstr "<item type=\"input\">=CODE(\"Hiëronymus\")</item> geeft 72 terug, <item type=\"input\">=CODE(\"hiëroglyfisch\")</item> geeft 104 terug."
-
-#. GXFSS
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3150280\n"
-"help.text"
-msgid "The code used here does not refer to ASCII, but to the code table currently loaded."
-msgstr "De hier gebruikte code verwijst niet naar ASCII, maar naar de codetabel die momenteel geladen is."
-
-#. Ph9hD
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"bm_id3149688\n"
-"help.text"
-msgid "<bookmark_value>CONCATENATE function</bookmark_value>"
-msgstr "<bookmark_value>TEKST.SAMENVOEGEN-functie</bookmark_value>"
-
-#. 64juK
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"hd_id3149688\n"
-"help.text"
-msgid "CONCATENATE"
-msgstr "TEKST.SAMENVOEGEN"
-
-#. VKWdi
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3154524\n"
-"help.text"
-msgid "<ahelp hid=\"HID_FUNC_VERKETTEN\">Combines several text strings into one string.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_VERKETTEN\">Combineert verschillende tekenreeksen tot één tekenreeks.</ahelp>"
-
-#. DA2oR
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3155954\n"
-"help.text"
-msgid "CONCATENATE(<embedvar href=\"text/scalc/01/ful_func.xhp#string255_1\" markup=\"keep\"/>)"
-msgstr "TEKST.SAMENVOEGEN(<embedvar href=\"text/scalc/01/ful_func.xhp#string255_1\" markup=\"keep\"/>)"
-
-#. GCUtY
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id781585222554150\n"
-"help.text"
-msgid "<emph>String 1[; String 2][; … ;[String 255]]</emph> are strings or references to cells containing strings."
-msgstr "<emph>Tekst1[; Tekst2][; … ;[Tekst255]]</emph> zijn tekenreeksen of verwijzingen naar cellen die tekenreeksen bevatten."
-
-#. 8Dfcz
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3150008\n"
-"help.text"
-msgid "<item type=\"input\">=CONCATENATE(\"Good \";\"Morning \";\"Mrs. \";\"Doe\")</item> returns: Good Morning Mrs. Doe."
-msgstr "<item type=\"input\">=TEKST.SAMENVOEGEN(\"Goede \";\"morgen \";\"mevr. \";\"Onbekend\")</item> geeft terug: Goede morgen mevr. Onbekend."
 
 #. 9m9DS
 #: 04060110.xhp
@@ -58583,6 +58349,15 @@ msgctxt ""
 msgid "<item type=\"input\">=BAHTTEXT(12.65)</item> returns a string in Thai characters with the meaning of \"Twelve Baht and sixty five Satang\"."
 msgstr ""
 
+#. zdjKC
+#: func_bahttext.xhp
+msgctxt ""
+"func_bahttext.xhp\n"
+"par_id721677017247207\n"
+"help.text"
+msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/BAHTTEXT\">BAHTTEXT wiki page</link>."
+msgstr ""
+
 #. jFfnF
 #: func_base.xhp
 msgctxt ""
@@ -58716,6 +58491,15 @@ msgctxt ""
 "par_id991655560817321\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060110.xhp#decimal\">DECIMAL</link>"
+msgstr ""
+
+#. Jha4b
+#: func_base.xhp
+msgctxt ""
+"func_base.xhp\n"
+"par_id721677017247207\n"
+"help.text"
+msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/BASE\">BASE wiki page</link>."
 msgstr ""
 
 #. s6GFW
@@ -59240,6 +59024,240 @@ msgctxt ""
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CEILING\">CEILING</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CEILING.XCL\">CEILING.XCL</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CEILING.PRECISE\">CEILING.PRECISE</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ISO.CEILING\">ISO.CEILING</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CEILING.MATH\">CEILING.MATH</link> wiki pages."
 msgstr "Wiki-pagina's<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CEILING\">AFRONDEN.BOVEN</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CEILING.XCL\">AFRONDEN.BOVEN.EXCEL</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CEILING.PRECISE\">AFRONDEN.BOVEN.NAUWKEURIG</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ISO.CEILING\">ISO.AFRONDEN.BOVEN</link>, <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CEILING.MATH\">AFRONDEN.BOVEN.WISK</link>."
 
+#. sCkrK
+#: func_char.xhp
+msgctxt ""
+"func_char.xhp\n"
+"tit\n"
+"help.text"
+msgid "CHAR Function"
+msgstr ""
+
+#. U9b8X
+#: func_char.xhp
+msgctxt ""
+"func_char.xhp\n"
+"bm_id3149321\n"
+"help.text"
+msgid "<bookmark_value>CHAR function</bookmark_value>"
+msgstr ""
+
+#. nQh7g
+#: func_char.xhp
+msgctxt ""
+"func_char.xhp\n"
+"hd_id3149321\n"
+"help.text"
+msgid "<variable id=\"char_h1\">          <link href=\"text/scalc/01/func_char.xhp\">CHAR</link>        </variable>"
+msgstr ""
+
+#. ArZC4
+#: func_char.xhp
+msgctxt ""
+"func_char.xhp\n"
+"par_id3149150\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_ZEICHEN\">Converts a number into a character according to the current code table.</ahelp> The number can be a two-digit or three-digit integer number."
+msgstr ""
+
+#. 9AKtp
+#: func_char.xhp
+msgctxt ""
+"func_char.xhp\n"
+"par_id3145634\n"
+"help.text"
+msgid "CHAR(Number)"
+msgstr ""
+
+#. eankY
+#: func_char.xhp
+msgctxt ""
+"func_char.xhp\n"
+"par_id3155906\n"
+"help.text"
+msgid "<emph>Number</emph> is a number between 1 and 255 representing the code value for the character."
+msgstr ""
+
+#. wQDNb
+#: func_char.xhp
+msgctxt ""
+"func_char.xhp\n"
+"par_id3149890\n"
+"help.text"
+msgid "<item type=\"input\">=CHAR(100)</item> returns the character d."
+msgstr ""
+
+#. y7w9v
+#: func_char.xhp
+msgctxt ""
+"func_char.xhp\n"
+"par_id0907200910283297\n"
+"help.text"
+msgid "=\"abc\" & CHAR(10) & \"def\" inserts a newline character into the string."
+msgstr ""
+
+#. X5vAW
+#: func_char.xhp
+msgctxt ""
+"func_char.xhp\n"
+"par_id411677015788900\n"
+"help.text"
+msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CHAR\">CHAR wiki page</link>."
+msgstr ""
+
+#. jF3yQ
+#: func_clean.xhp
+msgctxt ""
+"func_clean.xhp\n"
+"tit\n"
+"help.text"
+msgid "CLEAN Function"
+msgstr ""
+
+#. Wb6TQ
+#: func_clean.xhp
+msgctxt ""
+"func_clean.xhp\n"
+"bm_id3149009\n"
+"help.text"
+msgid "<bookmark_value>CLEAN function</bookmark_value>"
+msgstr ""
+
+#. FF6Vk
+#: func_clean.xhp
+msgctxt ""
+"func_clean.xhp\n"
+"hd_id3149009\n"
+"help.text"
+msgid "<variable id=\"clean_h1\">          <link href=\"text/scalc/01/func_clean.xhp\">CLEAN</link>        </variable>"
+msgstr ""
+
+#. MKL4G
+#: func_clean.xhp
+msgctxt ""
+"func_clean.xhp\n"
+"par_id3150482\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_SAEUBERN\">All non-printing characters are removed from the string.</ahelp>"
+msgstr ""
+
+#. qE7RB
+#: func_clean.xhp
+msgctxt ""
+"func_clean.xhp\n"
+"par_id3147472\n"
+"help.text"
+msgid "CLEAN(\"Text\")"
+msgstr ""
+
+#. KSNeE
+#: func_clean.xhp
+msgctxt ""
+"func_clean.xhp\n"
+"par_id3150695\n"
+"help.text"
+msgid "<emph>Text</emph> refers to the text from which to remove all non-printable characters."
+msgstr ""
+
+#. Bxmhq
+#: func_clean.xhp
+msgctxt ""
+"func_clean.xhp\n"
+"par_id581621538151600\n"
+"help.text"
+msgid "<input>=LEN(CLEAN(CHAR(7) & \"LibreOffice Calc\" & CHAR(8)))</input> returns 16, showing that the CLEAN function removes the non-printable Unicode U+0007 (\"BEL\") and U+0008 (\"BS\") characters at the beginning and end of the string argument. CLEAN does not remove spaces."
+msgstr ""
+
+#. K6ajd
+#: func_clean.xhp
+msgctxt ""
+"func_clean.xhp\n"
+"par_id411677015788900\n"
+"help.text"
+msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CLEAN\">CLEAN wiki page</link>."
+msgstr ""
+
+#. D3FBA
+#: func_code.xhp
+msgctxt ""
+"func_code.xhp\n"
+"tit\n"
+"help.text"
+msgid "CODE Function"
+msgstr ""
+
+#. D4hJJ
+#: func_code.xhp
+msgctxt ""
+"func_code.xhp\n"
+"bm_id3155498\n"
+"help.text"
+msgid "<bookmark_value>CODE function</bookmark_value>"
+msgstr ""
+
+#. QDHEW
+#: func_code.xhp
+msgctxt ""
+"func_code.xhp\n"
+"hd_id3155498\n"
+"help.text"
+msgid "<variable id=\"code_h1\">          <link href=\"text/scalc/01/func_code.xhp\">CODE</link>        </variable>"
+msgstr ""
+
+#. TPi9P
+#: func_code.xhp
+msgctxt ""
+"func_code.xhp\n"
+"par_id3152770\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_CODE\">Returns a numeric code for the first character in a text string.</ahelp>"
+msgstr ""
+
+#. T8KRA
+#: func_code.xhp
+msgctxt ""
+"func_code.xhp\n"
+"par_id3149188\n"
+"help.text"
+msgid "CODE(\"Text\")"
+msgstr ""
+
+#. DvBk5
+#: func_code.xhp
+msgctxt ""
+"func_code.xhp\n"
+"par_id3154383\n"
+"help.text"
+msgid "<emph>Text</emph> is the text for which the code of the first character is to be found."
+msgstr ""
+
+#. yabdC
+#: func_code.xhp
+msgctxt ""
+"func_code.xhp\n"
+"par_id3159209\n"
+"help.text"
+msgid "<item type=\"input\">=CODE(\"Hieronymus\")</item> returns 72, <item type=\"input\">=CODE(\"hieroglyphic\")</item> returns 104."
+msgstr ""
+
+#. NeMDb
+#: func_code.xhp
+msgctxt ""
+"func_code.xhp\n"
+"par_id3150280\n"
+"help.text"
+msgid "The code used here does not refer to ASCII, but to the code table currently loaded."
+msgstr ""
+
+#. tGxue
+#: func_code.xhp
+msgctxt ""
+"func_code.xhp\n"
+"par_id721677017247207\n"
+"help.text"
+msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CODE\">CODE wiki page</link>."
+msgstr ""
+
 #. GuEcB
 #: func_color.xhp
 msgctxt ""
@@ -59437,6 +59455,78 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/scalc/01/04060110.xhp#concatenate\">CONCATENATE</link>"
 msgstr "<link href=\"text/scalc/01/04060110.xhp#concatenate\">TEKST.SAMENVOEGEN</link>"
+
+#. XLc92
+#: func_concatenate.xhp
+msgctxt ""
+"func_concatenate.xhp\n"
+"tit\n"
+"help.text"
+msgid "CONCATENATE Function"
+msgstr ""
+
+#. 4PpU9
+#: func_concatenate.xhp
+msgctxt ""
+"func_concatenate.xhp\n"
+"bm_id3149688\n"
+"help.text"
+msgid "<bookmark_value>CONCATENATE function</bookmark_value>"
+msgstr ""
+
+#. YAoCB
+#: func_concatenate.xhp
+msgctxt ""
+"func_concatenate.xhp\n"
+"hd_id3149688\n"
+"help.text"
+msgid "<variable id=\"concatenate_h1\">          <link href=\"text/scalc/01/func_concatenate.xhp\">CONCATENATE</link>        </variable>"
+msgstr ""
+
+#. jGuLX
+#: func_concatenate.xhp
+msgctxt ""
+"func_concatenate.xhp\n"
+"par_id3154524\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_VERKETTEN\">Combines several text strings into one string.</ahelp>"
+msgstr ""
+
+#. yb889
+#: func_concatenate.xhp
+msgctxt ""
+"func_concatenate.xhp\n"
+"par_id3155954\n"
+"help.text"
+msgid "CONCATENATE(<embedvar href=\"text/scalc/01/ful_func.xhp#string255_1\" markup=\"keep\"/>)"
+msgstr ""
+
+#. YKqEh
+#: func_concatenate.xhp
+msgctxt ""
+"func_concatenate.xhp\n"
+"par_id781585222554150\n"
+"help.text"
+msgid "<emph>String 1[; String 2][; … ;[String 255]]</emph> are strings or references to cells containing strings."
+msgstr ""
+
+#. BBiEJ
+#: func_concatenate.xhp
+msgctxt ""
+"func_concatenate.xhp\n"
+"par_id3150008\n"
+"help.text"
+msgid "<item type=\"input\">=CONCATENATE(\"Good \";\"Morning \";\"Mrs. \";\"Doe\")</item> returns: Good Morning Mrs. Doe."
+msgstr ""
+
+#. UUciQ
+#: func_concatenate.xhp
+msgctxt ""
+"func_concatenate.xhp\n"
+"par_id721677017247207\n"
+"help.text"
+msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/CONCATENATE\">CONCATENATE wiki page</link>."
+msgstr ""
 
 #. A2RFP
 #: func_convert.xhp
@@ -77689,6 +77779,188 @@ msgctxt ""
 "help.text"
 msgid "<menuitem>Optimal View</menuitem>: resizes the display to fit the width and height of the selected cells. The enlargement or reduction are limited to the minimum and maximum zoom factors. If only one cell is selected then it will zoom to 100%."
 msgstr "<menuitem>Optimale weergave</menuitem>: past de grootte van het scherm aan zodat het past bij de breedte en hoogte van de geselecteerde cellen. De vergroting of verkleining is beperkt tot de minimale en maximale zoomfactoren. Als er slechts één cel is geselecteerd, zoomt deze in tot 100%."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "bm_id3149321\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>CHAR function</bookmark_value>"
+#~ msgstr "<bookmark_value>TEKEN-functie</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "hd_id3149321\n"
+#~ "help.text"
+#~ msgid "CHAR"
+#~ msgstr "TEKEN"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3149150\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_ZEICHEN\">Converts a number into a character according to the current code table.</ahelp> The number can be a two-digit or three-digit integer number."
+#~ msgstr "<ahelp hid=\"HID_FUNC_ZEICHEN\">Converteert een getal naar een teken in overeenstemming met de huidige codetabel.</ahelp> Het getal kan een geheel getal van twee of drie cijfers zijn."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3145634\n"
+#~ "help.text"
+#~ msgid "CHAR(Number)"
+#~ msgstr "TEKEN(Getal)"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3155906\n"
+#~ "help.text"
+#~ msgid "<emph>Number</emph> is a number between 1 and 255 representing the code value for the character."
+#~ msgstr "<emph>Getal</emph> is een getal tussen 1 en 255 dat de codewaarde voor een teken vertegenwoordigd."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3149890\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=CHAR(100)</item> returns the character d."
+#~ msgstr "<item type=\"input\">=TEKEN(100)</item> geeft het teken d terug."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id0907200910283297\n"
+#~ "help.text"
+#~ msgid "=\"abc\" & CHAR(10) & \"def\" inserts a newline character into the string."
+#~ msgstr "=\"abc\" & TEKEN(10) & \"def\" voegt een teken voor een nieuwe regel in de tekenreeks in."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "bm_id3149009\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>CLEAN function</bookmark_value>"
+#~ msgstr "<bookmark_value>WISSEN.CONTROL-functie</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "hd_id3149009\n"
+#~ "help.text"
+#~ msgid "CLEAN"
+#~ msgstr "WISSEN.CONTROL"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3150482\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_SAEUBERN\">All non-printing characters are removed from the string.</ahelp>"
+#~ msgstr "<ahelp hid=\"HID_FUNC_SAEUBERN\">Alle niet-afdrukbare tekens worden uit de tekenreeks verwijderd.</ahelp>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3147472\n"
+#~ "help.text"
+#~ msgid "CLEAN(\"Text\")"
+#~ msgstr "WISSEN.CONTROL(\"Tekst\")"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3150695\n"
+#~ "help.text"
+#~ msgid "<emph>Text</emph> refers to the text from which to remove all non-printable characters."
+#~ msgstr "<emph>Tekst</emph> verwijst naar de tekst vanaf waar alle niet-afdrukbare tekens moeten worden verwijderd."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id581621538151600\n"
+#~ "help.text"
+#~ msgid "<input>=LEN(CLEAN(CHAR(7) & \"LibreOffice Calc\" & CHAR(8)))</input> returns 16, showing that the CLEAN function removes the non-printable Unicode U+0007 (\"BEL\") and U+0008 (\"BS\") characters at the beginning and end of the string argument. CLEAN does not remove spaces."
+#~ msgstr "<input>=LENGTE(WISSEN.CONTROL(CHAR(7) & \"LibreOffice Calc\" & CHAR(8)))</input> geeft 16 terug, wat aantoont dat de WISSEN.CONTROL-functie de niet-afdrukbare Unicode U+0007 (\"BEL\") verwijdert en U+0008 (\"BS\") tekens aan het begin en einde van de invoer. WISSEN.CONTROL verwijdert geen spaties."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "bm_id3155498\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>CODE function</bookmark_value>"
+#~ msgstr "<bookmark_value>CODE-functie</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "hd_id3155498\n"
+#~ "help.text"
+#~ msgid "CODE"
+#~ msgstr "CODE"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3152770\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_CODE\">Returns a numeric code for the first character in a text string.</ahelp>"
+#~ msgstr "<ahelp hid=\"HID_FUNC_CODE\">Geeft een numerieke code voor het eerste teken in een tekenreeks.</ahelp>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3149188\n"
+#~ "help.text"
+#~ msgid "CODE(\"Text\")"
+#~ msgstr "CODE(\"Tekst\")"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3154383\n"
+#~ "help.text"
+#~ msgid "<emph>Text</emph> is the text for which the code of the first character is to be found."
+#~ msgstr "<emph>Tekst</emph> is de tekst waarvoor de code van het eerste teken moet worden vastgesteld."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3159209\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=CODE(\"Hieronymus\")</item> returns 72, <item type=\"input\">=CODE(\"hieroglyphic\")</item> returns 104."
+#~ msgstr "<item type=\"input\">=CODE(\"Hiëronymus\")</item> geeft 72 terug, <item type=\"input\">=CODE(\"hiëroglyfisch\")</item> geeft 104 terug."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3150280\n"
+#~ "help.text"
+#~ msgid "The code used here does not refer to ASCII, but to the code table currently loaded."
+#~ msgstr "De hier gebruikte code verwijst niet naar ASCII, maar naar de codetabel die momenteel geladen is."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "bm_id3149688\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>CONCATENATE function</bookmark_value>"
+#~ msgstr "<bookmark_value>TEKST.SAMENVOEGEN-functie</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "hd_id3149688\n"
+#~ "help.text"
+#~ msgid "CONCATENATE"
+#~ msgstr "TEKST.SAMENVOEGEN"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3154524\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_VERKETTEN\">Combines several text strings into one string.</ahelp>"
+#~ msgstr "<ahelp hid=\"HID_FUNC_VERKETTEN\">Combineert verschillende tekenreeksen tot één tekenreeks.</ahelp>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3155954\n"
+#~ "help.text"
+#~ msgid "CONCATENATE(<embedvar href=\"text/scalc/01/ful_func.xhp#string255_1\" markup=\"keep\"/>)"
+#~ msgstr "TEKST.SAMENVOEGEN(<embedvar href=\"text/scalc/01/ful_func.xhp#string255_1\" markup=\"keep\"/>)"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id781585222554150\n"
+#~ "help.text"
+#~ msgid "<emph>String 1[; String 2][; … ;[String 255]]</emph> are strings or references to cells containing strings."
+#~ msgstr "<emph>Tekst1[; Tekst2][; … ;[Tekst255]]</emph> zijn tekenreeksen of verwijzingen naar cellen die tekenreeksen bevatten."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3150008\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=CONCATENATE(\"Good \";\"Morning \";\"Mrs. \";\"Doe\")</item> returns: Good Morning Mrs. Doe."
+#~ msgstr "<item type=\"input\">=TEKST.SAMENVOEGEN(\"Goede \";\"morgen \";\"mevr. \";\"Onbekend\")</item> geeft terug: Goede morgen mevr. Onbekend."
 
 #~ msgctxt ""
 #~ "04060110.xhp\n"
