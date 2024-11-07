@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-05-31 13:51+0200\n"
-"PO-Revision-Date: 2024-10-16 08:03+0000\n"
+"PO-Revision-Date: 2024-11-07 21:52+0000\n"
 "Last-Translator: \"DaeHyun Sung(성대현, 成大鉉)\" <sungdh86@gmail.com>\n"
 "Language-Team: Korean <https://translations.documentfoundation.org/projects/libo_ui-24-2/scmessages/ko/>\n"
 "Language: ko\n"
@@ -469,7 +469,7 @@ msgstr "페이지 스타일 편집"
 #: sc/inc/globstr.hrc:87
 msgctxt "STR_UNDO_EDITGRAPHICSTYLE"
 msgid "Edit Drawing Style"
-msgstr ""
+msgstr "드로잉 스타일 편집"
 
 #. vMyjF
 #: sc/inc/globstr.hrc:88
@@ -913,13 +913,13 @@ msgstr "그룹 만들기"
 #: sc/inc/globstr.hrc:158
 msgctxt "STR_PIVOT_ROW_LABELS"
 msgid "Row Labels"
-msgstr ""
+msgstr "행 레이블"
 
 #. FNBev
 #: sc/inc/globstr.hrc:159
 msgctxt "STR_PIVOT_COL_LABELS"
 msgid "Column Labels"
-msgstr ""
+msgstr "열 레이블"
 
 #. efmAV
 #. %1 will be replaced by STR_SELCOUNT_ROWARG, and %2 by STR_SELCOUNT_COLARG
@@ -927,7 +927,7 @@ msgstr ""
 #: sc/inc/globstr.hrc:162
 msgctxt "STR_SELCOUNT"
 msgid "Selected: %1, %2"
-msgstr ""
+msgstr "선택됨: %1, %2"
 
 #. iUrsE
 #. STR_SELCOUNT_ROWARG is %1 of STR_SELCOUNT. %d of STR_SELCOUNT_ROWARG is number of rows
@@ -935,7 +935,7 @@ msgstr ""
 msgctxt "STR_SELCOUNT_ROWARG"
 msgid "%d row"
 msgid_plural "%d rows"
-msgstr[0] ""
+msgstr[0] "%d 행"
 
 #. EW9XA
 #. STR_SELCOUNT_COLARG is %2 of STR_SELCOUNT. %d of STR_SELCOUNT_ROWARG is number of columns
@@ -943,13 +943,13 @@ msgstr[0] ""
 msgctxt "STR_SELCOUNT_COLARG"
 msgid "%d column"
 msgid_plural "%d columns"
-msgstr[0] ""
+msgstr[0] "%d 열"
 
 #. mQEAW
 #: sc/inc/globstr.hrc:167
 msgctxt "STR_FILTER_SELCOUNT"
 msgid "%1 of %2 records found"
-msgstr ""
+msgstr "%2 레코드 중 %1 레코드 발견"
 
 #. ibncs
 #: sc/inc/globstr.hrc:168
@@ -1071,6 +1071,13 @@ msgid ""
 "• contain [ ] * ? : / \\ \n"
 "• use ' (apostrophe) as first or last character."
 msgstr ""
+"유효하지 않은 시트 이름.\n"
+"\n"
+"시트 이름은 다음과 같이 쓰면 안됩니다:\n"
+"• 비어 있음\n"
+"• 이미 있음\n"
+"• [ ] * ? : / \\ 이 포함\n"
+"• ' (아포스트로피)를 첫 문자 또는 마지막 문자로 사용"
 
 #. CGAdE
 #: sc/inc/globstr.hrc:187
@@ -1155,7 +1162,7 @@ msgstr "분산"
 #: sc/inc/globstr.hrc:201
 msgctxt "STR_TABLE_GRAND_AVG"
 msgid "Grand Average"
-msgstr ""
+msgstr "총합산 평균값"
 
 #. t6sGQ
 #: sc/inc/globstr.hrc:202
@@ -1191,7 +1198,7 @@ msgstr ""
 #: sc/inc/globstr.hrc:207
 msgctxt "STR_TABLE_GRAND_SUM"
 msgid "Grand Sum"
-msgstr ""
+msgstr "총 합계"
 
 #. P7gvW
 #: sc/inc/globstr.hrc:208
@@ -1297,7 +1304,7 @@ msgstr "오류: 영(0)으로 나눔"
 #: sc/inc/globstr.hrc:229
 msgctxt "STR_LONG_ERR_NO_VALUE"
 msgid "Error: No value"
-msgstr ""
+msgstr "오류: 값 없음"
 
 #. kHwc6
 #. ERROR.TYPE( #REF! ) == 4
@@ -1362,7 +1369,7 @@ msgstr "내부 구문 오류"
 #: sc/inc/globstr.hrc:244
 msgctxt "STR_LONG_ERR_NO_CODE"
 msgid "Error: No code or intersection"
-msgstr ""
+msgstr "오류: 코드가 없거나 집합이 없습니다"
 
 #. 7PBrr
 #: sc/inc/globstr.hrc:245
@@ -1549,7 +1556,7 @@ msgstr "주석"
 msgctxt "STR_QUERY_DELTAB"
 msgid "Are you sure you want to delete the selected sheet?"
 msgid_plural "Are you sure you want to delete the %d selected sheets?"
-msgstr[0] ""
+msgstr[0] "선택한 시트를 삭제하겠습니까?"
 
 #. WeWsD
 #: sc/inc/globstr.hrc:278
@@ -1573,13 +1580,13 @@ msgstr "Lotus 파일 가져오기"
 #: sc/inc/globstr.hrc:281
 msgctxt "STR_IMPORT_DBF"
 msgid "Import dBASE files"
-msgstr ""
+msgstr "dBase 파일 가져오기"
 
 #. uyTFS
 #: sc/inc/globstr.hrc:282
 msgctxt "STR_EXPORT_DBF"
 msgid "dBASE export"
-msgstr ""
+msgstr "dBase 내보내기"
 
 #. CtHUj
 #: sc/inc/globstr.hrc:283
@@ -1597,7 +1604,7 @@ msgstr "Dif 가져오기"
 #: sc/inc/globstr.hrc:285
 msgctxt "STR_STYLENAME_STANDARD"
 msgid "Default"
-msgstr ""
+msgstr "기본"
 
 #. TG9pD
 #: sc/inc/globstr.hrc:286
@@ -1639,7 +1646,7 @@ msgstr ""
 #: sc/inc/globstr.hrc:292
 msgctxt "STR_STYLENAME_HYPERLINK"
 msgid "Hyperlink"
-msgstr ""
+msgstr "하이퍼링크"
 
 #. aeksB
 #: sc/inc/globstr.hrc:293
@@ -1669,13 +1676,13 @@ msgstr ""
 #: sc/inc/globstr.hrc:297
 msgctxt "STR_STYLENAME_WARNING"
 msgid "Warning"
-msgstr ""
+msgstr "경고"
 
 #. 99BgJ
 #: sc/inc/globstr.hrc:298
 msgctxt "STR_STYLENAME_ERROR"
 msgid "Error"
-msgstr ""
+msgstr "오류"
 
 #. yGAVF
 #: sc/inc/globstr.hrc:299
@@ -16799,13 +16806,13 @@ msgstr ""
 #: sc/inc/strings.hrc:42
 msgctxt "STANDARDFILTERDIALOG_COND"
 msgid "Font color"
-msgstr ""
+msgstr "글꼴 색깔"
 
 #. sGJCz
 #: sc/inc/strings.hrc:43
 msgctxt "STANDARDFILTERDIALOG_COND"
 msgid "Background color"
-msgstr ""
+msgstr "Background Color"
 
 #. teYGB
 #: sc/inc/strings.hrc:44
@@ -17616,7 +17623,7 @@ msgstr "취소"
 #: sc/inc/strings.hrc:186
 msgctxt "SCSTR_QHELP_BTNSUM"
 msgid "Select Function"
-msgstr ""
+msgstr "함수 선택"
 
 #. kFqE4
 #: sc/inc/strings.hrc:187
@@ -17742,7 +17749,7 @@ msgstr "<공백>"
 #: sc/inc/strings.hrc:209
 msgctxt "STR_CHG_UNKNOWN_AUTHOR"
 msgid "Unknown Author"
-msgstr ""
+msgstr "알 수 없는 작성자"
 
 #. dAt5Q
 #: sc/inc/strings.hrc:211
@@ -18195,13 +18202,13 @@ msgstr "회귀"
 #: sc/inc/strings.hrc:294
 msgctxt "STR_FOURIER_ANALYSIS_UNDO_NAME"
 msgid "Fourier Analysis"
-msgstr ""
+msgstr "푸리에 해석"
 
 #. hd6yJ
 #: sc/inc/strings.hrc:295
 msgctxt "STR_FOURIER_ANALYSIS"
 msgid "Fourier Analysis"
-msgstr ""
+msgstr "푸리에 해석"
 
 #. KNJ5s
 #. Common
@@ -28870,7 +28877,7 @@ msgstr "음이항"
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:243
 msgctxt "randomnumbergenerator|distribution-liststore"
 msgid "Poisson"
-msgstr ""
+msgstr "푸아송 분포"
 
 #. sAgsR
 #: sc/uiconfig/scalc/ui/randomnumbergenerator.ui:247
@@ -29080,13 +29087,13 @@ msgstr "출력 회귀 유형"
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:455
 msgctxt "regressiondialog|label5"
 msgid "Confidence level"
-msgstr ""
+msgstr "신뢰 수준"
 
 #. pB2GA
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:465
 msgctxt "regressiondialog|calcresiduals-check"
 msgid "Calculate residuals"
-msgstr ""
+msgstr "잔차 계산"
 
 #. RuRDr
 #: sc/uiconfig/scalc/ui/regressiondialog.ui:473
@@ -29182,7 +29189,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/retypepassdialog.ui:207
 msgctxt "retypepassdialog|label3"
 msgid "Sheet Protection"
-msgstr ""
+msgstr "시트 보호"
 
 #. eGMrC
 #: sc/uiconfig/scalc/ui/retypepassworddialog.ui:8
@@ -29680,7 +29687,7 @@ msgstr "검색 결과"
 #: sc/uiconfig/scalc/ui/searchresults.ui:36
 msgctxt "searchresults|ShowBox"
 msgid "_Show this dialog"
-msgstr ""
+msgstr "대화 상자 표시(_S)"
 
 #. HggTE
 #: sc/uiconfig/scalc/ui/searchresults.ui:40
@@ -29692,19 +29699,19 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/searchresults.ui:101
 msgctxt "searchresults|sheet"
 msgid "Sheet"
-msgstr ""
+msgstr "시트"
 
 #. BFKKA
 #: sc/uiconfig/scalc/ui/searchresults.ui:115
 msgctxt "searchresults|cell"
 msgid "Cell"
-msgstr ""
+msgstr "셀"
 
 #. Knp9A
 #: sc/uiconfig/scalc/ui/searchresults.ui:129
 msgctxt "searchresults|content"
 msgid "Content"
-msgstr ""
+msgstr "내용"
 
 #. GtwuD
 #: sc/uiconfig/scalc/ui/selectdatasource.ui:8
@@ -32695,37 +32702,37 @@ msgstr "문자변환"
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:47
 msgctxt "texttransformation_type|tolower"
 msgid "To Lower"
-msgstr ""
+msgstr "소문자로"
 
 #. DkKCf
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:48
 msgctxt "texttransformation_type|toupper"
 msgid "To Upper"
-msgstr ""
+msgstr "대문자로"
 
 #. ZsHz4
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:49
 msgctxt "texttransformation_type|capitalize"
 msgid "Capitalize"
-msgstr ""
+msgstr "대문자로 시작"
 
 #. PTyGj
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:50
 msgctxt "texttransformation_type|trim"
 msgid "Trim"
-msgstr ""
+msgstr "자르기"
 
 #. 72R3f
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:65
 msgctxt "texttransformationentry/cols"
 msgid "Columns"
-msgstr ""
+msgstr "열"
 
 #. aoBA3
 #: sc/uiconfig/scalc/ui/texttransformationentry.ui:74
 msgctxt "texttransformation_type|delete"
 msgid "Delete"
-msgstr ""
+msgstr "삭제"
 
 #. D7zk3
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:31
@@ -32761,7 +32768,7 @@ msgstr "주석 표시(_C)"
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:83
 msgctxt "tpviewpage|formulamark"
 msgid "_Formula indicator and hint"
-msgstr ""
+msgstr "수식 표시기와 힌트(_F)"
 
 #. G6GjE
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:97
@@ -33007,7 +33014,7 @@ msgstr "개체/이미지(_J):"
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:814
 msgctxt "tpviewpage|diagram_label"
 msgid "Char_ts:"
-msgstr ""
+msgstr "차트(_T):"
 
 #. q544D
 #: sc/uiconfig/scalc/ui/tpviewpage.ui:828
