@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-11-05 12:36+0100\n"
-"PO-Revision-Date: 2024-11-11 09:45+0000\n"
+"PO-Revision-Date: 2024-11-12 09:45+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/pl/>\n"
 "Language: pl\n"
@@ -19940,7 +19940,7 @@ msgctxt ""
 "par_id21624454513641\n"
 "help.text"
 msgid "You can use the CHAR function or the UNICHAR function to insert a double quotation mark. For example, the formula <input>=UNICHAR(34) & \"The Catcher in the Rye\" & UNICHAR(34) & \" is a famous book by J. D. Salinger.\"</input> displays the string <literal>\"The Catcher in the Rye\" is a famous book by J. D. Salinger.</literal>"
-msgstr "Aby wstawić podwójne cudzysłowy, możesz użyć funkcji ZNAK lub UNICHAR. Na przykład formuła <input>=UNICHAR(34) & \"Buszujący w zbożu\" & UNICHAR(34) & \" to słynna książka J.D. Salingera.\"</input> wyświetli ciąg <literal>\"Buszujący w zbożu\" to słynna książka J.D. Salingera.</literal>"
+msgstr "Aby wstawić podwójne cudzysłowy, możesz użyć funkcji ZNAK lub ZNAK.UNICODE. Na przykład formuła <input>=ZNAK.UNICODE(34) & \"Buszujący w zbożu\" & ZNAK.UNICODE(34) & \" to słynna książka J.D. Salingera.\"</input> wyświetli ciąg <literal>\"Buszujący w zbożu\" to słynna książka J.D. Salingera.</literal>"
 
 #. wDvCT
 #: 04060110.xhp
@@ -70349,7 +70349,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TRIM Function"
-msgstr ""
+msgstr "Funkcja USUŃ.ZBĘDNE.ODSTĘPY"
 
 #. qGbzP
 #: func_trim.xhp
@@ -70358,7 +70358,7 @@ msgctxt ""
 "bm_id3151039\n"
 "help.text"
 msgid "<bookmark_value>TRIM function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>USUŃ.ZBĘDNE.ODSTĘPY, funkcja</bookmark_value>"
 
 #. 2muVb
 #: func_trim.xhp
@@ -70367,7 +70367,7 @@ msgctxt ""
 "hd_id3151039\n"
 "help.text"
 msgid "<variable id=\"trim_h1\">          <link href=\"text/scalc/01/func_trim.xhp\">TRIM</link>        </variable>"
-msgstr ""
+msgstr "<variable id=\"trim_h1\">          <link href=\"text/scalc/01/func_trim.xhp\">USUŃ.ZBĘDNE.ODSTĘPY</link>        </variable>"
 
 #. TYvLG
 #: func_trim.xhp
@@ -70376,7 +70376,7 @@ msgctxt ""
 "par_id3157888\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_GLAETTEN\">Removes spaces from a string, leaving only a single space character between words.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_GLAETTEN\">Usuwa spacje na początku ciągu lub wyrównuje zawartość komórki do lewej.</ahelp>"
 
 #. gmEGh
 #: func_trim.xhp
@@ -70385,7 +70385,7 @@ msgctxt ""
 "par_id3151349\n"
 "help.text"
 msgid "TRIM(\"Text\")"
-msgstr ""
+msgstr "USUŃ.ZBĘDNE.ODSTĘPY(\"tekst\")"
 
 #. MzVnQ
 #: func_trim.xhp
@@ -70394,7 +70394,7 @@ msgctxt ""
 "par_id3151362\n"
 "help.text"
 msgid "<emph>Text</emph> refers to text in which spaces are to be removed."
-msgstr ""
+msgstr "<emph>Tekst</emph> oznacza tekst, z którego mają być usunięte spacje."
 
 #. VfBBk
 #: func_trim.xhp
@@ -70403,7 +70403,7 @@ msgctxt ""
 "par_id3156074\n"
 "help.text"
 msgid "<item type=\"input\">=TRIM(\" hello      world \")</item> returns hello world without leading and trailing spaces and with single space between words."
-msgstr ""
+msgstr "<item type=\"input\">=USUŃ.ZBĘDNE.ODSTĘPY(\" dzień      dobry\")</item> zwraca \"dzień dobry\" z pojedynczą spacją między wyrazami i bez spacji początkowej oraz końcowej."
 
 #. pSDpN
 #: func_trim.xhp
@@ -70412,7 +70412,7 @@ msgctxt ""
 "par_id701677016652715\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TRIM\">TRIM wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/TRIM\">Strona wiki USUŃ.ZBĘDNE.ODSTĘPY</link>."
 
 #. Y2uYG
 #: func_trunc.xhp
@@ -70556,7 +70556,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "UNICHAR Function"
-msgstr ""
+msgstr "Funkcja ZNAK.UNICODE"
 
 #. 3zqhJ
 #: func_unichar.xhp
@@ -70565,7 +70565,7 @@ msgctxt ""
 "bm_id0907200904030935\n"
 "help.text"
 msgid "<bookmark_value>UNICHAR function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ZNAK.UNICODE, funkcja</bookmark_value>"
 
 #. 9mKWE
 #: func_unichar.xhp
@@ -70574,7 +70574,7 @@ msgctxt ""
 "hd_id0907200904022525\n"
 "help.text"
 msgid "<variable id=\"unichar_h1\">          <link href=\"text/scalc/01/func_unichar.xhp\">UNICHAR</link>        </variable>"
-msgstr ""
+msgstr "<variable id=\"unichar_h1\">          <link href=\"text/scalc/01/func_unichar.xhp\">ZNAK.UNICODE</link>        </variable>"
 
 #. i7Nr5
 #: func_unichar.xhp
@@ -70583,7 +70583,7 @@ msgctxt ""
 "par_id0907200904022538\n"
 "help.text"
 msgid "<ahelp hid=\".\">Converts a code number into a Unicode character or letter.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Konwertuje kod liczbowy na znak lub literę Unicode.</ahelp>"
 
 #. hZuFY
 #: func_unichar.xhp
@@ -70592,7 +70592,7 @@ msgctxt ""
 "par_id0907200904123753\n"
 "help.text"
 msgid "<item type=\"literal\">UNICHAR(number)</item>"
-msgstr ""
+msgstr "<item type=\"literal\">ZNAK.UNICODE(liczba)</item>"
 
 #. dimzD
 #: func_unichar.xhp
@@ -70601,7 +70601,7 @@ msgctxt ""
 "par_id090720090412378\n"
 "help.text"
 msgid "<input>=UNICHAR(169)</input> returns the Copyright character <emph>©</emph>."
-msgstr ""
+msgstr "<input>=ZNAK.UNICODE(169)</input> zwraca znak praw autorskich <emph>©</emph>."
 
 #. FVRAT
 #: func_unichar.xhp
@@ -70610,7 +70610,7 @@ msgctxt ""
 "par_id701677016652715\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/UNICHAR\">UNICHAR wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/UNICHAR\">Strona wiki ZNAK.UNICODE</link>."
 
 #. GNMG7
 #: func_unicode.xhp
@@ -70619,7 +70619,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "UNICODE Function"
-msgstr ""
+msgstr "Funkcja UNICODE"
 
 #. ABEuV
 #: func_unicode.xhp
@@ -70628,7 +70628,7 @@ msgctxt ""
 "bm_id0907200904033543\n"
 "help.text"
 msgid "<bookmark_value>UNICODE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>UNICODE, funkcja</bookmark_value>"
 
 #. u4oVH
 #: func_unicode.xhp
@@ -70637,7 +70637,7 @@ msgctxt ""
 "hd_id0907200904022588\n"
 "help.text"
 msgid "<variable id=\"unicode_h1\">          <link href=\"text/scalc/01/func_unicode.xhp\">UNICODE</link>        </variable>"
-msgstr ""
+msgstr "<variable id=\"unicode_h1\">          <link href=\"text/scalc/01/func_unicode.xhp\">UNICODE</link>        </variable>"
 
 #. SueEi
 #: func_unicode.xhp
@@ -70646,7 +70646,7 @@ msgctxt ""
 "par_id0907200904022594\n"
 "help.text"
 msgid "<ahelp hid=\".\">Returns the numeric code for the first Unicode character in a text string.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Zwraca kod liczbowy pierwszego znaku Unicode w ciągu tekstowym.</ahelp>"
 
 #. v9Jns
 #: func_unicode.xhp
@@ -70655,7 +70655,7 @@ msgctxt ""
 "par_id0907200904123846\n"
 "help.text"
 msgid "<item type=\"literal\">UNICODE(\"Text\")</item>"
-msgstr ""
+msgstr "<item type=\"literal\">UNICODE(\"tekst\")</item>"
 
 #. YQHD3
 #: func_unicode.xhp
@@ -70664,7 +70664,7 @@ msgctxt ""
 "par_id0907200904123919\n"
 "help.text"
 msgid "<input>=UNICODE(\"©\")</input> returns the Unicode number 169 for the Copyright character."
-msgstr ""
+msgstr "<input>=UNICODE(\"©\")</input> zwraca numer kodu Unicode (169) dla znaku praw autorskich."
 
 #. Ss6Hz
 #: func_unicode.xhp
@@ -70673,7 +70673,7 @@ msgctxt ""
 "par_id701677016652715\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/UNICODE\">UNICODE wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/UNICODE\">Strona wiki UNICODE</link>."
 
 #. 8hfFB
 #: func_unique.xhp
@@ -70853,7 +70853,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "UPPER Function"
-msgstr ""
+msgstr "Funkcja LITERY.WIELKIE"
 
 #. HcyJf
 #: func_upper.xhp
@@ -70862,7 +70862,7 @@ msgctxt ""
 "bm_id3145178\n"
 "help.text"
 msgid "<bookmark_value>UPPER function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>LITERY.WIELKIE, funkcja</bookmark_value>"
 
 #. STjUA
 #: func_upper.xhp
@@ -70871,7 +70871,7 @@ msgctxt ""
 "hd_id3145178\n"
 "help.text"
 msgid "<variable id=\"upper_h1\">          <link href=\"text/scalc/01/func_upper.xhp\">UPPER</link>        </variable>"
-msgstr ""
+msgstr "<variable id=\"upper_h1\">          <link href=\"text/scalc/01/func_upper.xhp\">LITERY.WIELKIE</link>        </variable>"
 
 #. PHqhF
 #: func_upper.xhp
@@ -70880,7 +70880,7 @@ msgctxt ""
 "par_id3162905\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_GROSS\">Converts the string specified in the <emph>text</emph> field to uppercase.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_GROSS\">Zamienia litery ciągu określonego w polu <emph>Tekst</emph> na wielkie.</ahelp>"
 
 #. aJK2U
 #: func_upper.xhp
@@ -70889,7 +70889,7 @@ msgctxt ""
 "par_id3148539\n"
 "help.text"
 msgid "UPPER(\"Text\")"
-msgstr ""
+msgstr "LITERY.WIELKIE(\"tekst\")"
 
 #. rWCut
 #: func_upper.xhp
@@ -70898,7 +70898,7 @@ msgctxt ""
 "par_id3148496\n"
 "help.text"
 msgid "<emph>Text</emph> refers to the lower case letters you want to convert to upper case."
-msgstr ""
+msgstr "<emph>Tekst</emph> oznacza ciąg zawierający małe litery, które mają zostać zamienione na wielkie."
 
 #. DukFs
 #: func_upper.xhp
@@ -70907,7 +70907,7 @@ msgctxt ""
 "par_id3146757\n"
 "help.text"
 msgid "<item type=\"input\">=UPPER(\"Good Morning\")</item> returns GOOD MORNING."
-msgstr ""
+msgstr "<item type=\"input\">=LITERY.WIELKIE(\"Dzień dobry\")</item> zwraca wartość DZIEŃ DOBRY."
 
 #. LiniE
 #: func_upper.xhp
@@ -70916,7 +70916,7 @@ msgctxt ""
 "par_id701677016652715\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/UPPER\">UPPER wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/UPPER\">Strona wiki LITERY.WIELKIE</link>."
 
 #. w86Dm
 #: func_value.xhp
