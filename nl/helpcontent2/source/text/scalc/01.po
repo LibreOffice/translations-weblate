@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2024-11-05 12:36+0100\n"
+"POT-Creation-Date: 2024-11-19 11:20+0100\n"
 "PO-Revision-Date: 2024-11-14 09:45+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/nl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.4.3\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565421340.000000\n"
 
 #. yzNBP
@@ -20042,528 +20042,6 @@ msgctxt ""
 "help.text"
 msgid "<input>=LEN(A1)</input> returns 0. The length of the empty string is 0."
 msgstr "<input>=LENGTE(A1)</input> retourneert 0. De lengte van de lege tekenreeks is 0."
-
-#. Bb5G5
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"bm_id2947083\n"
-"help.text"
-msgid "<bookmark_value>LEFTB function</bookmark_value>"
-msgstr "<bookmark_value>LINKS-functie</bookmark_value>"
-
-#. VRKR9
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"hd_id2947083\n"
-"help.text"
-msgid "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\">LEFTB</link></variable>"
-msgstr "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\">LINKSB</link></variable>"
-
-#. f3mWg
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2953622\n"
-"help.text"
-msgid "<ahelp hid=\"HID_FUNC_LEFTB\">Returns the first characters of a DBCS text.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_LEFTB\">Geeft de eerste tekens van een DBCS-tekst terug.</ahelp>"
-
-#. ZcHDR
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2946786\n"
-"help.text"
-msgid "LEFTB(\"Text\" [; Number_bytes])"
-msgstr "LINKSB(\"Tekst\" [; Getal])"
-
-#. e6CdQ
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2947274\n"
-"help.text"
-msgid "<emph>Text</emph> is the text where the initial partial words are to be determined."
-msgstr "<emph>Tekst</emph> is de tekst waarvan de initiële gedeeltelijke woorden moeten worden bepaald."
-
-#. 8Ayk6
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2953152\n"
-"help.text"
-msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want LEFTB to extract, based on bytes. If this parameter is not defined, one character is returned."
-msgstr "<emph>Aantal_bytes</emph> (optioneel) geeft het aantal tekens dat u LINKS wilt laten ophalen, op bytes gebaseerd. Als deze parameter niet gedefinieerd is, wordt er één teken als resultaat gegeven."
-
-#. FFvts
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2949141\n"
-"help.text"
-msgid "<item type=\"input\">=LEFTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
-msgstr "<item type=\"input\">=LINKSB(\"中国\";1)</item> geeft \" \" terug (1 byte is slechts een half DBCS-teken en in plaats daarvan wordt een spatie teruggegeven)."
-
-#. mQvUN
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2949151\n"
-"help.text"
-msgid "<item type=\"input\">=LEFTB(\"中国\";2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr "<item type=\"input\">=LINKSB(\"中国\";2)</item> geeft \"中\" terug (2 bytes vormen één volledig DBCS-teken)."
-
-#. qAEZ3
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2949161\n"
-"help.text"
-msgid "<item type=\"input\">=LEFTB(\"中国\";3)</item> returns \"中 \" (3 bytes constitute one DBCS character and a half; the last character returned is therefore a space character)."
-msgstr "<item type=\"input\">=LINKSB(\"中国\";3)</item> retourneert \"中 \" (3 bytes vormen anderhalf DBCS-teken; het laatste geretourneerde teken is daarom een spatie)."
-
-#. s3UVQ
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2949171\n"
-"help.text"
-msgid "<item type=\"input\">=LEFTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr "<item type=\"input\">=LINKSB(\"中国\";4)</item> geeft \"中国\" terug (4 bytes vormen twee volledige DBCS-tekens)."
-
-#. FM3FS
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2949181\n"
-"help.text"
-msgid "<item type=\"input\">=LEFTB(\"office\";3)</item> returns \"off\" (3 non-DBCS characters each consisting of 1 byte)."
-msgstr "<item type=\"input\">=LINKSB(\"kantoor\";3)</item> geeft \"kan\" terug (3 niet-DBCS-tekens die elk uit 1 byte bestaan)."
-
-#. C2oeG
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"bm_id2956110\n"
-"help.text"
-msgid "<bookmark_value>LENB function</bookmark_value>"
-msgstr "<bookmark_value>LENGTEB-functie</bookmark_value>"
-
-#. cUDuG
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"hd_id2956110\n"
-"help.text"
-msgid "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\">LENB</link></variable>"
-msgstr "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\">LENGTEB</link></variable>"
-
-#. Cwz9S
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2950147\n"
-"help.text"
-msgid "<ahelp hid=\"HID_FUNC_LENB\">For double-byte character set (DBCS) languages, returns the number of bytes used to represent the characters in a text string.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_LENB\">Geeft het aantal bytes dat, voor de tekens in een tekenreeks voor double-byte tekensetset (DBCS), wordt gebruikt.</ahelp>"
-
-#. fAPZv
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2954063\n"
-"help.text"
-msgid "LENB(\"Text\")"
-msgstr "LENGTEB(\"Tekst\")"
-
-#. 9Hv5K
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2946894\n"
-"help.text"
-msgid "<emph>Text</emph> is the text whose length is to be determined."
-msgstr "<emph>Tekst</emph> is de tekst waarvan de lengte moet worden bepaald."
-
-#. kiHKC
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2956018\n"
-"help.text"
-msgid "<item type=\"input\">LENB(\"中\")</item> returns 2 (1 DBCS character consisting of 2 bytes)."
-msgstr "<item type=\"input\">LENGTEB(\"中\")</item> geeft 2 terug (1 DBCS-teken van 2 bytes)."
-
-#. BgQBW
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2956028\n"
-"help.text"
-msgid "<item type=\"input\">LENB(\"中国\")</item> returns 4 (2 DBCS characters each consisting of 2 bytes)."
-msgstr "<item type=\"input\">LENGTEB(\"中国\")</item> geeft 4 terug (2 DBCS-tekens van elk 2 bytes)."
-
-#. SJoqC
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2956038\n"
-"help.text"
-msgid "<item type=\"input\">LENB(\"office\")</item> returns 6 (6 non-DBCS characters each consisting of 1 byte)."
-msgstr "<item type=\"input\">LENGTEB(\"Kantoor\")</item>Geeft 6 terug (6 niet-DBCS tekens van elk 1 byte)."
-
-#. ZoXsU
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2956008\n"
-"help.text"
-msgid "<item type=\"input\">=LENB(\"Good Afternoon\")</item> returns 14."
-msgstr "<item type=\"input\">=LENGTEB(\"Goedemiddag\")</item> geeft 11 terug."
-
-#. ismJk
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2954300\n"
-"help.text"
-msgid "<item type=\"input\">=LENB(12345.67)</item> returns 8."
-msgstr "<item type=\"input\">=LENGTEB(12345,67)</item> geeft 8 terug."
-
-#. tHQjb
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"bm_id3154589\n"
-"help.text"
-msgid "<bookmark_value>MID function</bookmark_value>"
-msgstr "<bookmark_value>DEEL-functie</bookmark_value>"
-
-#. DiHhK
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"hd_id3154589\n"
-"help.text"
-msgid "MID"
-msgstr "DEEL"
-
-#. ay3io
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3154938\n"
-"help.text"
-msgid "<ahelp hid=\"HID_FUNC_TEIL\">Returns a text string of a text. The parameters specify the starting position and the number of characters.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_TEIL\">Geeft een tekenreeks uit een tekst terug. De parameters specificeren de startpositie en het aantal tekens.</ahelp>"
-
-#. yBN9k
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3150526\n"
-"help.text"
-msgid "MID(\"Text\"; Start; Number)"
-msgstr "DEEL(\"Tekst\"; Begin; Getal)"
-
-#. 5HErG
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3148820\n"
-"help.text"
-msgid "<emph>Text</emph> is the text containing the characters to extract."
-msgstr "<emph>Tekst</emph> is de tekst waaruit de tekens moeten worden weggenomen."
-
-#. ndM4U
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3150774\n"
-"help.text"
-msgid "<emph>Start</emph> is the position of the first character in the text to extract."
-msgstr "<emph>Begin</emph> is de positie van het eerste teken in de tekst dat moet worden weggenomen."
-
-#. x8BVf
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3153063\n"
-"help.text"
-msgid "<emph>Number</emph> specifies the number of characters in the part of the text."
-msgstr "<emph>Getal</emph> specificeert het aantal tekens in het gedeelte van de tekst."
-
-#. d9b4E
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id3158407\n"
-"help.text"
-msgid "<item type=\"input\">=MID(\"office\";2;2)</item> returns ff."
-msgstr "<item type=\"input\">=DEEL(\"kantoor\";2;2)</item> geeft an terug."
-
-#. uAhCU
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"bm_id2954589\n"
-"help.text"
-msgid "<bookmark_value>MIDB function</bookmark_value>"
-msgstr "<bookmark_value>DEEL-functie</bookmark_value>"
-
-#. XCNCE
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"hd_id2954589\n"
-"help.text"
-msgid "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\">MIDB</link></variable>"
-msgstr "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\">DEELB</link></variable>"
-
-#. Qe8mw
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2954938\n"
-"help.text"
-msgid "<ahelp hid=\"HID_FUNC_MIDB\">Returns a text string of a DBCS text. The parameters specify the starting position and the number of characters.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_MIDB\">Geeft een tekenreeks uit een DBCS-tekst terug. De parameters specificeren de startpositie en het aantal tekens.</ahelp>"
-
-#. wohUa
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2950526\n"
-"help.text"
-msgid "MIDB(\"Text\"; Start; Number_bytes)"
-msgstr "DEEL(\"Tekst\"; Begin; Aantal_bytes)"
-
-#. EBM4C
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2948820\n"
-"help.text"
-msgid "<emph>Text</emph> is the text containing the characters to extract."
-msgstr "<emph>Tekst</emph> is de tekst waaruit de tekens moeten worden weggenomen."
-
-#. AbPt7
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2950774\n"
-"help.text"
-msgid "<emph>Start</emph> is the position of the first character in the text to extract."
-msgstr "<emph>Begin</emph> is de positie van het eerste teken in de tekst dat moet worden weggenomen."
-
-#. Nz2F6
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2953063\n"
-"help.text"
-msgid "<emph>Number_bytes</emph> specifies the number of characters MIDB will return from text, in bytes."
-msgstr "<emph>Aantal_bytes</emph> is het aantal tekens dat DEEL van de tekst zal terug geven, in bytes."
-
-#. 5Nn2i
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958417\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"中国\";1;0)</item> returns \"\" (0 bytes is always an empty string)."
-msgstr "<item type=\"input\">=DEELB(\"中国\";1;0)</item> geeft \"\" terug (0 bytes is altijd een lege tekenreeks)."
-
-#. q6dWL
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958427\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"中国\";1;1)</item> returns \" \" (1 byte is only half a DBCS character and therefore the result is a space character)."
-msgstr "<item type=\"input\">=DEELB(\"中国\";1;1)</item> geeft \" \" terug (1 byte is slechts een half DBCS-teken en daarom is het resultaat een spatie)."
-
-#. CfNES
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958437\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"中国\";1;2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr "<item type=\"input\">=DEELB(\"中国\";1;2)</item> geeft \"中\" terug (2 bytes vormen één volledig DBCS-teken)."
-
-#. wBLqC
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958447\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"中国\";1;3)</item> returns \"中 \" (3 bytes constitute one and a half DBCS character; the last byte results in a space character)."
-msgstr "<item type=\"input\">=DEELB(\"中国\";1;3)</item> geeft \"中 \" terug (3 bytes vormen anderhalf DBCS-teken; de laatste byte resulteert in een spatie)."
-
-#. GedmG
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958457\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"中国\";1;4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr "<item type=\"input\">=DEELB(\"中国\";1;4)</item> geeft \"中国\" terug (4 bytes vormen twee volledige DBCS-tekens)."
-
-#. dAMAA
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958467\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"中国\";2;1)</item> returns \" \" (byte position 2 is not at the beginning of a character in a DBCS string; 1 space character is returned)."
-msgstr "<item type=\"input\">=DEELB(\"中国\";2;1)</item> geeft \" \" terug (bytepositie 2 staat niet aan het begin van een teken in een DBCS-tekenreeks; Er wordt 1 spatie teruggegeven)."
-
-#. SXLij
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958477\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"中国\";2;2)</item> returns \" \" (byte position 2 points to the last half of the first character in the DBCS string; the 2 bytes asked for therefore constitutes the last half of the first character and the first half of the second character in the string; 2 space characters are therefore returned)."
-msgstr "<item type=\"input\">=DEELB(\"中国\";2;2)</item> geeft \" \" terug (bytepositie 2 wijst naar de laatste helft van het eerste teken in de DBCS-tekenreeks; de gevraagde 2 bytes vormen dus de laatste helft van het eerste teken en de eerste helft van het tweede teken in de string; Er worden daarom 2 spatietekens geretourneerd)."
-
-#. cFw7V
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958487\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"中国\";2;3)</item> returns \" 国\" (byte position 2 is not at the beginning of a character in a DBCS string; a space character is returned for byte position 2)."
-msgstr "<item type=\"input\">=DEELB(\"中国\";2;3)</item> geeft \" 国\" terug (bytepositie 2 staat niet aan het begin van een teken in een DBCS-tekenreeks; een spatie wordt geretourneerd voor bytepositie 2)."
-
-#. drtpL
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958497\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"中国\";3;1)</item> returns \" \" (byte position 3 is at the beginning of a character in a DBCS string, but 1 byte is only half a DBCS character and a space character is therefore returned instead)."
-msgstr "<item type=\"input\">=DEELB(\"中国\";3;1)</item> geeft \" \" terug (bytepositie 3 staat aan het begin van een teken in een DBCS-tekenreeks, maar 1 byte is slechts een half DBCS-teken en daarom wordt in plaats daarvan een spatie geretourneerd)."
-
-#. koipq
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958507\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"中国\";3;2)</item> returns \"国\" (byte position 3 is at the beginning of a character in a DBCS string, and 2 bytes constitute one DBCS character)."
-msgstr "<item type=\"input\">=DEELB(\"中国\";3;2)</item> geeft \"国\" terug (bytepositie 3 staat aan het begin van een teken in een DBCS-tekenreeks, en 2 bytes vormen één DBCS-teken)."
-
-#. aQmsH
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2958517\n"
-"help.text"
-msgid "<item type=\"input\">=MIDB(\"office\";2;3)</item> returns \"ffi\" (byte position 2 is at the beginning of a character in a non-DBCS string, and 3 bytes of a non-DBCS string constitute 3 characters)."
-msgstr "<item type=\"input\">=DEELB(\"office\";2;3)</item> geeft \"ffi\" terug (bytepositie 2 staat aan het begin van een teken in een niet-DBCS-tekenreeks, en 3 bytes van een niet-DBCS-tekenreeks vormen 3 tekens)."
-
-#. kDJVC
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"bm_id2949805\n"
-"help.text"
-msgid "<bookmark_value>RIGHTB function</bookmark_value>"
-msgstr "<bookmark_value>RECHTS-functie</bookmark_value>"
-
-#. hxvDA
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"hd_id2949805\n"
-"help.text"
-msgid "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\">RIGHTB</link></variable>"
-msgstr "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\">RECHTSB</link></variable>"
-
-#. gvrHM
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2945375\n"
-"help.text"
-msgid "<ahelp hid=\"HID_FUNC_RIGHTB\">Returns the last character or characters of a text with double bytes characters sets (DBCS).</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_RIGHTB\">Geeft het laatste teken of tekens van een tekst met dubbel-byte tekenreeksen (DBCS).</ahelp>"
-
-#. 9kB2q
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2954344\n"
-"help.text"
-msgid "RIGHTB(\"Text\" [; Number_bytes])"
-msgstr "RECHTSB(\"Tekst\" [; Getal])"
-
-#. jvjXS
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2949426\n"
-"help.text"
-msgid "<emph>Text</emph> is the text of which the right part is to be determined."
-msgstr "<emph>Tekst</emph> is de tekst waarvan het rechter gedeelte moet worden bepaald."
-
-#. yUHYp
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2953350\n"
-"help.text"
-msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want RIGHTB to extract, based on bytes. If this parameter is not defined, one byte is returned."
-msgstr "<emph>Aantal_bytes</emph> (optioneel) specificeert het aantal tekens dat u door IGHTB wilt laten extraheren, gebaseerd op bytes. Als deze parameter niet is gedefinieerd, wordt één byte geretourneerd."
-
-#. KnAgN
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2951132\n"
-"help.text"
-msgid "<item type=\"input\">RIGHTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
-msgstr "<item type=\"input\">RECHTSB(\"中国\";1)</item> geeft \" \" terug (1 byte is slechts een half DBCS teken en daarom wordt een spatie in de plaats teruggegeven)."
-
-#. mYzB5
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2951142\n"
-"help.text"
-msgid "<item type=\"input\">RIGHTB(\"中国\";2)</item> returns \"国\" (2 bytes constitute one complete DBCS character)."
-msgstr "<item type=\"input\">RECHTSB(\"中国\";2)</item> geeft \"国\" terug (2 bytes vormen een volledig DBCS teken)."
-
-#. rLaPR
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2951152\n"
-"help.text"
-msgid "<item type=\"input\">RIGHTB(\"中国\";3)</item> returns \" 国\" (3 bytes constitute one half DBCS character and one whole DBCS character; a space is returned for the first half)."
-msgstr "<item type=\"input\">RECHTSB(\"中国\";3)</item> geeft \" 国\" terug (3 bytes zijn een half DBCS teken en een heel DBCS teken; het eerste halve teken resulteert in een spatie)."
-
-#. B7nG5
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2951162\n"
-"help.text"
-msgid "<item type=\"input\">RIGHTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr "<item type=\"input\">RECHTSB(\"中国\";4)</item> geeft \"中国\" terug (4 bytes zijn twee complete DBCS tekens)."
-
-#. qRptr
-#: 04060110.xhp
-msgctxt ""
-"04060110.xhp\n"
-"par_id2951172\n"
-"help.text"
-msgid "<item type=\"input\">RIGHTB(\"office\";3)</item> returns \"ice\" (3 non-DBCS characters each consisting of 1 byte)."
-msgstr "<item type=\"input\">RECHTSB(\"kantoor\";3)</item>Geeft \"too\" terug (3 niet-DBCS tekens van elk 1 byte)."
 
 #. E5UtK
 #: 04060111.xhp
@@ -64782,6 +64260,114 @@ msgctxt ""
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/LEFT\">LEFT wiki page</link>."
 msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/LEFT\">wikipagina LINKS</link>."
 
+#. mnABB
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"tit\n"
+"help.text"
+msgid "LEFTB Function"
+msgstr ""
+
+#. YGfnv
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"bm_id2947083\n"
+"help.text"
+msgid "<bookmark_value>LEFTB function</bookmark_value>"
+msgstr ""
+
+#. b7UGd
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"hd_id2947083\n"
+"help.text"
+msgid "<variable id=\"leftbvar\"><link href=\"text/scalc/01/func_leftb.xhp\">LEFTB</link></variable>"
+msgstr ""
+
+#. wevX6
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"par_id2953622\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_LEFTB\">Returns the first characters of a DBCS text.</ahelp>"
+msgstr ""
+
+#. dhLwU
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"par_id2946786\n"
+"help.text"
+msgid "LEFTB(\"Text\" [; Number_bytes])"
+msgstr ""
+
+#. JF3FC
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"par_id2947274\n"
+"help.text"
+msgid "<emph>Text</emph> is the text where the initial partial words are to be determined."
+msgstr ""
+
+#. vn58Z
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"par_id2953152\n"
+"help.text"
+msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want LEFTB to extract, based on bytes. If this parameter is not defined, one character is returned."
+msgstr ""
+
+#. ePDBf
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"par_id2949141\n"
+"help.text"
+msgid "<item type=\"input\">=LEFTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
+msgstr ""
+
+#. QCARB
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"par_id2949151\n"
+"help.text"
+msgid "<item type=\"input\">=LEFTB(\"中国\";2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
+msgstr ""
+
+#. CN6Ar
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"par_id2949161\n"
+"help.text"
+msgid "<item type=\"input\">=LEFTB(\"中国\";3)</item> returns \"中 \" (3 bytes constitute one DBCS character and a half; the last character returned is therefore a space character)."
+msgstr ""
+
+#. fzSfg
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"par_id2949171\n"
+"help.text"
+msgid "<item type=\"input\">=LEFTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
+msgstr ""
+
+#. Yqnmm
+#: func_leftb.xhp
+msgctxt ""
+"func_leftb.xhp\n"
+"par_id2949181\n"
+"help.text"
+msgid "<item type=\"input\">=LEFTB(\"office\";3)</item> returns \"off\" (3 non-DBCS characters each consisting of 1 byte)."
+msgstr ""
+
 #. CGhFF
 #: func_len.xhp
 msgctxt ""
@@ -64862,6 +64448,105 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/LEN\">LEN wiki page</link>."
 msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/LEN\">wikipagina LENGE</link>."
+
+#. fR5RX
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"tit\n"
+"help.text"
+msgid "LENB Function"
+msgstr ""
+
+#. BAgAd
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"bm_id2956110\n"
+"help.text"
+msgid "<bookmark_value>LENB function</bookmark_value>"
+msgstr ""
+
+#. jUtWq
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"hd_id2956110\n"
+"help.text"
+msgid "<variable id=\"lenbvar\"><link href=\"text/scalc/01/func_lenb.xhp\">LENB</link></variable>"
+msgstr ""
+
+#. m3LKz
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"par_id2950147\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_LENB\">For double-byte character set (DBCS) languages, returns the number of bytes used to represent the characters in a text string.</ahelp>"
+msgstr ""
+
+#. B7ap3
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"par_id2954063\n"
+"help.text"
+msgid "LENB(\"Text\")"
+msgstr ""
+
+#. eHsA5
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"par_id2946894\n"
+"help.text"
+msgid "<emph>Text</emph> is the text whose length is to be determined."
+msgstr ""
+
+#. Hb7MJ
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"par_id2956018\n"
+"help.text"
+msgid "<item type=\"input\">LENB(\"中\")</item> returns 2 (1 DBCS character consisting of 2 bytes)."
+msgstr ""
+
+#. LGCLu
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"par_id2956028\n"
+"help.text"
+msgid "<item type=\"input\">LENB(\"中国\")</item> returns 4 (2 DBCS characters each consisting of 2 bytes)."
+msgstr ""
+
+#. oEBva
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"par_id2956038\n"
+"help.text"
+msgid "<item type=\"input\">LENB(\"office\")</item> returns 6 (6 non-DBCS characters each consisting of 1 byte)."
+msgstr ""
+
+#. BNVMh
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"par_id2956008\n"
+"help.text"
+msgid "<item type=\"input\">=LENB(\"Good Afternoon\")</item> returns 14."
+msgstr ""
+
+#. 7bZu3
+#: func_lenb.xhp
+msgctxt ""
+"func_lenb.xhp\n"
+"par_id2954300\n"
+"help.text"
+msgid "<item type=\"input\">=LENB(12345.67)</item> returns 8."
+msgstr ""
 
 #. ANivD
 #: func_let.xhp
@@ -65249,6 +64934,258 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/MAXIFS\">MAXIFS wiki page</link>."
 msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/MAXIFS/nl\">Wiki-pagina MAX.ALS.VOORWAARDEN</link>."
+
+#. KCVFD
+#: func_mid.xhp
+msgctxt ""
+"func_mid.xhp\n"
+"tit\n"
+"help.text"
+msgid "MID Function"
+msgstr ""
+
+#. GcvGy
+#: func_mid.xhp
+msgctxt ""
+"func_mid.xhp\n"
+"bm_id3154589\n"
+"help.text"
+msgid "<bookmark_value>MID function</bookmark_value>"
+msgstr ""
+
+#. tzLD7
+#: func_mid.xhp
+msgctxt ""
+"func_mid.xhp\n"
+"hd_id3154589\n"
+"help.text"
+msgid "<variable id=\"mid_h1\">          <link href=\"text/scalc/01/func_mid.xhp\">MID</link>        </variable>"
+msgstr ""
+
+#. BdvUy
+#: func_mid.xhp
+msgctxt ""
+"func_mid.xhp\n"
+"par_id3154938\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_TEIL\">Returns a text string of a text. The parameters specify the starting position and the number of characters.</ahelp>"
+msgstr ""
+
+#. 75uqT
+#: func_mid.xhp
+msgctxt ""
+"func_mid.xhp\n"
+"par_id3150526\n"
+"help.text"
+msgid "MID(\"Text\"; Start; Number)"
+msgstr ""
+
+#. g2HCX
+#: func_mid.xhp
+msgctxt ""
+"func_mid.xhp\n"
+"par_id3148820\n"
+"help.text"
+msgid "<emph>Text</emph> is the text containing the characters to extract."
+msgstr ""
+
+#. qQkwz
+#: func_mid.xhp
+msgctxt ""
+"func_mid.xhp\n"
+"par_id3150774\n"
+"help.text"
+msgid "<emph>Start</emph> is the position of the first character in the text to extract."
+msgstr ""
+
+#. UPHAo
+#: func_mid.xhp
+msgctxt ""
+"func_mid.xhp\n"
+"par_id3153063\n"
+"help.text"
+msgid "<emph>Number</emph> specifies the number of characters in the part of the text."
+msgstr ""
+
+#. YwUct
+#: func_mid.xhp
+msgctxt ""
+"func_mid.xhp\n"
+"par_id3158407\n"
+"help.text"
+msgid "<item type=\"input\">=MID(\"office\";2;2)</item> returns ff."
+msgstr ""
+
+#. eocGP
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"tit\n"
+"help.text"
+msgid "MIDB Function"
+msgstr ""
+
+#. AiJAG
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"bm_id2954589\n"
+"help.text"
+msgid "<bookmark_value>MIDB function</bookmark_value>"
+msgstr ""
+
+#. PEZYE
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"hd_id2954589\n"
+"help.text"
+msgid "<variable id=\"midbvar\"><link href=\"text/scalc/01/func_midb.xhp\">MIDB</link></variable>"
+msgstr ""
+
+#. VMFjG
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2954938\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_MIDB\">Returns a text string of a DBCS text. The parameters specify the starting position and the number of characters.</ahelp>"
+msgstr ""
+
+#. Af3kE
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2950526\n"
+"help.text"
+msgid "MIDB(\"Text\"; Start; Number_bytes)"
+msgstr ""
+
+#. pD68y
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2948820\n"
+"help.text"
+msgid "<emph>Text</emph> is the text containing the characters to extract."
+msgstr ""
+
+#. fMCK7
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2950774\n"
+"help.text"
+msgid "<emph>Start</emph> is the position of the first character in the text to extract."
+msgstr ""
+
+#. ejxvD
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2953063\n"
+"help.text"
+msgid "<emph>Number_bytes</emph> specifies the number of characters MIDB will return from text, in bytes."
+msgstr ""
+
+#. 8V8KC
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958417\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"中国\";1;0)</item> returns \"\" (0 bytes is always an empty string)."
+msgstr ""
+
+#. C8imF
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958427\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"中国\";1;1)</item> returns \" \" (1 byte is only half a DBCS character and therefore the result is a space character)."
+msgstr ""
+
+#. PrgnA
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958437\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"中国\";1;2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
+msgstr ""
+
+#. y59vM
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958447\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"中国\";1;3)</item> returns \"中 \" (3 bytes constitute one and a half DBCS character; the last byte results in a space character)."
+msgstr ""
+
+#. rhpPU
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958457\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"中国\";1;4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
+msgstr ""
+
+#. HXN4i
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958467\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"中国\";2;1)</item> returns \" \" (byte position 2 is not at the beginning of a character in a DBCS string; 1 space character is returned)."
+msgstr ""
+
+#. Z2Gqm
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958477\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"中国\";2;2)</item> returns \" \" (byte position 2 points to the last half of the first character in the DBCS string; the 2 bytes asked for therefore constitutes the last half of the first character and the first half of the second character in the string; 2 space characters are therefore returned)."
+msgstr ""
+
+#. ynGbB
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958487\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"中国\";2;3)</item> returns \" 国\" (byte position 2 is not at the beginning of a character in a DBCS string; a space character is returned for byte position 2)."
+msgstr ""
+
+#. nQEvk
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958497\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"中国\";3;1)</item> returns \" \" (byte position 3 is at the beginning of a character in a DBCS string, but 1 byte is only half a DBCS character and a space character is therefore returned instead)."
+msgstr ""
+
+#. BFs2F
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958507\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"中国\";3;2)</item> returns \"国\" (byte position 3 is at the beginning of a character in a DBCS string, and 2 bytes constitute one DBCS character)."
+msgstr ""
+
+#. HxVUW
+#: func_midb.xhp
+msgctxt ""
+"func_midb.xhp\n"
+"par_id2958517\n"
+"help.text"
+msgid "<item type=\"input\">=MIDB(\"office\";2;3)</item> returns \"ffi\" (byte position 2 is at the beginning of a character in a non-DBCS string, and 3 bytes of a non-DBCS string constitute 3 characters)."
+msgstr ""
 
 #. zGQnQ
 #: func_minifs.xhp
@@ -67562,6 +67499,114 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/RIGHT\">RIGHT wiki page</link>."
 msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/RIGHT\">wikipagina RECHTS</link>."
+
+#. WpG4N
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"tit\n"
+"help.text"
+msgid "RIGHTB Function"
+msgstr ""
+
+#. KkbGX
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"bm_id2949805\n"
+"help.text"
+msgid "<bookmark_value>RIGHTB function</bookmark_value>"
+msgstr ""
+
+#. nhEQs
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"hd_id2949805\n"
+"help.text"
+msgid "<variable id=\"rightbvar\"><link href=\"text/scalc/01/func_rightb.xhp\">RIGHTB</link></variable>"
+msgstr ""
+
+#. uHDfW
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"par_id2945375\n"
+"help.text"
+msgid "<ahelp hid=\"HID_FUNC_RIGHTB\">Returns the last character or characters of a text with double bytes characters sets (DBCS).</ahelp>"
+msgstr ""
+
+#. 4WwFA
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"par_id2954344\n"
+"help.text"
+msgid "RIGHTB(\"Text\" [; Number_bytes])"
+msgstr ""
+
+#. BADAS
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"par_id2949426\n"
+"help.text"
+msgid "<emph>Text</emph> is the text of which the right part is to be determined."
+msgstr ""
+
+#. C9RGL
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"par_id2953350\n"
+"help.text"
+msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want RIGHTB to extract, based on bytes. If this parameter is not defined, one byte is returned."
+msgstr ""
+
+#. 6aYAX
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"par_id2951132\n"
+"help.text"
+msgid "<item type=\"input\">RIGHTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
+msgstr ""
+
+#. tADpX
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"par_id2951142\n"
+"help.text"
+msgid "<item type=\"input\">RIGHTB(\"中国\";2)</item> returns \"国\" (2 bytes constitute one complete DBCS character)."
+msgstr ""
+
+#. aYJFo
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"par_id2951152\n"
+"help.text"
+msgid "<item type=\"input\">RIGHTB(\"中国\";3)</item> returns \" 国\" (3 bytes constitute one half DBCS character and one whole DBCS character; a space is returned for the first half)."
+msgstr ""
+
+#. WKJZr
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"par_id2951162\n"
+"help.text"
+msgid "<item type=\"input\">RIGHTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
+msgstr ""
+
+#. 9W9DL
+#: func_rightb.xhp
+msgctxt ""
+"func_rightb.xhp\n"
+"par_id2951172\n"
+"help.text"
+msgid "<item type=\"input\">RIGHTB(\"office\";3)</item> returns \"ice\" (3 non-DBCS characters each consisting of 1 byte)."
+msgstr ""
 
 #. FuCCt
 #: func_roman.xhp
@@ -78092,6 +78137,391 @@ msgctxt ""
 "help.text"
 msgid "<menuitem>Optimal View</menuitem>: resizes the display to fit the width and height of the selected cells. The enlargement or reduction are limited to the minimum and maximum zoom factors. If only one cell is selected then it will zoom to 100%."
 msgstr "<menuitem>Optimale weergave</menuitem>: past de grootte van het scherm aan zodat het past bij de breedte en hoogte van de geselecteerde cellen. De vergroting of verkleining is beperkt tot de minimale en maximale zoomfactoren. Als er slechts één cel is geselecteerd, zoomt deze in tot 100%."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "bm_id2947083\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>LEFTB function</bookmark_value>"
+#~ msgstr "<bookmark_value>LINKS-functie</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "hd_id2947083\n"
+#~ "help.text"
+#~ msgid "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\">LEFTB</link></variable>"
+#~ msgstr "<variable id=\"leftbvar\"><link href=\"text/scalc/01/04060110.xhp#leftb\">LINKSB</link></variable>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2953622\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_LEFTB\">Returns the first characters of a DBCS text.</ahelp>"
+#~ msgstr "<ahelp hid=\"HID_FUNC_LEFTB\">Geeft de eerste tekens van een DBCS-tekst terug.</ahelp>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2946786\n"
+#~ "help.text"
+#~ msgid "LEFTB(\"Text\" [; Number_bytes])"
+#~ msgstr "LINKSB(\"Tekst\" [; Getal])"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2953152\n"
+#~ "help.text"
+#~ msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want LEFTB to extract, based on bytes. If this parameter is not defined, one character is returned."
+#~ msgstr "<emph>Aantal_bytes</emph> (optioneel) geeft het aantal tekens dat u LINKS wilt laten ophalen, op bytes gebaseerd. Als deze parameter niet gedefinieerd is, wordt er één teken als resultaat gegeven."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2949141\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=LEFTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
+#~ msgstr "<item type=\"input\">=LINKSB(\"中国\";1)</item> geeft \" \" terug (1 byte is slechts een half DBCS-teken en in plaats daarvan wordt een spatie teruggegeven)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2949151\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=LEFTB(\"中国\";2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
+#~ msgstr "<item type=\"input\">=LINKSB(\"中国\";2)</item> geeft \"中\" terug (2 bytes vormen één volledig DBCS-teken)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2949161\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=LEFTB(\"中国\";3)</item> returns \"中 \" (3 bytes constitute one DBCS character and a half; the last character returned is therefore a space character)."
+#~ msgstr "<item type=\"input\">=LINKSB(\"中国\";3)</item> retourneert \"中 \" (3 bytes vormen anderhalf DBCS-teken; het laatste geretourneerde teken is daarom een spatie)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2949171\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=LEFTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
+#~ msgstr "<item type=\"input\">=LINKSB(\"中国\";4)</item> geeft \"中国\" terug (4 bytes vormen twee volledige DBCS-tekens)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2949181\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=LEFTB(\"office\";3)</item> returns \"off\" (3 non-DBCS characters each consisting of 1 byte)."
+#~ msgstr "<item type=\"input\">=LINKSB(\"kantoor\";3)</item> geeft \"kan\" terug (3 niet-DBCS-tekens die elk uit 1 byte bestaan)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "bm_id2956110\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>LENB function</bookmark_value>"
+#~ msgstr "<bookmark_value>LENGTEB-functie</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "hd_id2956110\n"
+#~ "help.text"
+#~ msgid "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\">LENB</link></variable>"
+#~ msgstr "<variable id=\"lenbvar\"><link href=\"text/scalc/01/04060110.xhp#lenb\">LENGTEB</link></variable>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2950147\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_LENB\">For double-byte character set (DBCS) languages, returns the number of bytes used to represent the characters in a text string.</ahelp>"
+#~ msgstr "<ahelp hid=\"HID_FUNC_LENB\">Geeft het aantal bytes dat, voor de tekens in een tekenreeks voor double-byte tekensetset (DBCS), wordt gebruikt.</ahelp>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2954063\n"
+#~ "help.text"
+#~ msgid "LENB(\"Text\")"
+#~ msgstr "LENGTEB(\"Tekst\")"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2956018\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">LENB(\"中\")</item> returns 2 (1 DBCS character consisting of 2 bytes)."
+#~ msgstr "<item type=\"input\">LENGTEB(\"中\")</item> geeft 2 terug (1 DBCS-teken van 2 bytes)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2956028\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">LENB(\"中国\")</item> returns 4 (2 DBCS characters each consisting of 2 bytes)."
+#~ msgstr "<item type=\"input\">LENGTEB(\"中国\")</item> geeft 4 terug (2 DBCS-tekens van elk 2 bytes)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2956038\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">LENB(\"office\")</item> returns 6 (6 non-DBCS characters each consisting of 1 byte)."
+#~ msgstr "<item type=\"input\">LENGTEB(\"Kantoor\")</item>Geeft 6 terug (6 niet-DBCS tekens van elk 1 byte)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2956008\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=LENB(\"Good Afternoon\")</item> returns 14."
+#~ msgstr "<item type=\"input\">=LENGTEB(\"Goedemiddag\")</item> geeft 11 terug."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2954300\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=LENB(12345.67)</item> returns 8."
+#~ msgstr "<item type=\"input\">=LENGTEB(12345,67)</item> geeft 8 terug."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "bm_id3154589\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>MID function</bookmark_value>"
+#~ msgstr "<bookmark_value>DEEL-functie</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "hd_id3154589\n"
+#~ "help.text"
+#~ msgid "MID"
+#~ msgstr "DEEL"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3154938\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_TEIL\">Returns a text string of a text. The parameters specify the starting position and the number of characters.</ahelp>"
+#~ msgstr "<ahelp hid=\"HID_FUNC_TEIL\">Geeft een tekenreeks uit een tekst terug. De parameters specificeren de startpositie en het aantal tekens.</ahelp>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3150526\n"
+#~ "help.text"
+#~ msgid "MID(\"Text\"; Start; Number)"
+#~ msgstr "DEEL(\"Tekst\"; Begin; Getal)"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3148820\n"
+#~ "help.text"
+#~ msgid "<emph>Text</emph> is the text containing the characters to extract."
+#~ msgstr "<emph>Tekst</emph> is de tekst waaruit de tekens moeten worden weggenomen."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3150774\n"
+#~ "help.text"
+#~ msgid "<emph>Start</emph> is the position of the first character in the text to extract."
+#~ msgstr "<emph>Begin</emph> is de positie van het eerste teken in de tekst dat moet worden weggenomen."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3153063\n"
+#~ "help.text"
+#~ msgid "<emph>Number</emph> specifies the number of characters in the part of the text."
+#~ msgstr "<emph>Getal</emph> specificeert het aantal tekens in het gedeelte van de tekst."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id3158407\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MID(\"office\";2;2)</item> returns ff."
+#~ msgstr "<item type=\"input\">=DEEL(\"kantoor\";2;2)</item> geeft an terug."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "bm_id2954589\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>MIDB function</bookmark_value>"
+#~ msgstr "<bookmark_value>DEEL-functie</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "hd_id2954589\n"
+#~ "help.text"
+#~ msgid "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\">MIDB</link></variable>"
+#~ msgstr "<variable id=\"midbvar\"><link href=\"text/scalc/01/04060110.xhp#midb\">DEELB</link></variable>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2954938\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_MIDB\">Returns a text string of a DBCS text. The parameters specify the starting position and the number of characters.</ahelp>"
+#~ msgstr "<ahelp hid=\"HID_FUNC_MIDB\">Geeft een tekenreeks uit een DBCS-tekst terug. De parameters specificeren de startpositie en het aantal tekens.</ahelp>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2950526\n"
+#~ "help.text"
+#~ msgid "MIDB(\"Text\"; Start; Number_bytes)"
+#~ msgstr "DEEL(\"Tekst\"; Begin; Aantal_bytes)"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2948820\n"
+#~ "help.text"
+#~ msgid "<emph>Text</emph> is the text containing the characters to extract."
+#~ msgstr "<emph>Tekst</emph> is de tekst waaruit de tekens moeten worden weggenomen."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2950774\n"
+#~ "help.text"
+#~ msgid "<emph>Start</emph> is the position of the first character in the text to extract."
+#~ msgstr "<emph>Begin</emph> is de positie van het eerste teken in de tekst dat moet worden weggenomen."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2953063\n"
+#~ "help.text"
+#~ msgid "<emph>Number_bytes</emph> specifies the number of characters MIDB will return from text, in bytes."
+#~ msgstr "<emph>Aantal_bytes</emph> is het aantal tekens dat DEEL van de tekst zal terug geven, in bytes."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958417\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"中国\";1;0)</item> returns \"\" (0 bytes is always an empty string)."
+#~ msgstr "<item type=\"input\">=DEELB(\"中国\";1;0)</item> geeft \"\" terug (0 bytes is altijd een lege tekenreeks)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958427\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"中国\";1;1)</item> returns \" \" (1 byte is only half a DBCS character and therefore the result is a space character)."
+#~ msgstr "<item type=\"input\">=DEELB(\"中国\";1;1)</item> geeft \" \" terug (1 byte is slechts een half DBCS-teken en daarom is het resultaat een spatie)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958437\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"中国\";1;2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
+#~ msgstr "<item type=\"input\">=DEELB(\"中国\";1;2)</item> geeft \"中\" terug (2 bytes vormen één volledig DBCS-teken)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958447\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"中国\";1;3)</item> returns \"中 \" (3 bytes constitute one and a half DBCS character; the last byte results in a space character)."
+#~ msgstr "<item type=\"input\">=DEELB(\"中国\";1;3)</item> geeft \"中 \" terug (3 bytes vormen anderhalf DBCS-teken; de laatste byte resulteert in een spatie)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958457\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"中国\";1;4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
+#~ msgstr "<item type=\"input\">=DEELB(\"中国\";1;4)</item> geeft \"中国\" terug (4 bytes vormen twee volledige DBCS-tekens)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958467\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"中国\";2;1)</item> returns \" \" (byte position 2 is not at the beginning of a character in a DBCS string; 1 space character is returned)."
+#~ msgstr "<item type=\"input\">=DEELB(\"中国\";2;1)</item> geeft \" \" terug (bytepositie 2 staat niet aan het begin van een teken in een DBCS-tekenreeks; Er wordt 1 spatie teruggegeven)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958477\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"中国\";2;2)</item> returns \" \" (byte position 2 points to the last half of the first character in the DBCS string; the 2 bytes asked for therefore constitutes the last half of the first character and the first half of the second character in the string; 2 space characters are therefore returned)."
+#~ msgstr "<item type=\"input\">=DEELB(\"中国\";2;2)</item> geeft \" \" terug (bytepositie 2 wijst naar de laatste helft van het eerste teken in de DBCS-tekenreeks; de gevraagde 2 bytes vormen dus de laatste helft van het eerste teken en de eerste helft van het tweede teken in de string; Er worden daarom 2 spatietekens geretourneerd)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958487\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"中国\";2;3)</item> returns \" 国\" (byte position 2 is not at the beginning of a character in a DBCS string; a space character is returned for byte position 2)."
+#~ msgstr "<item type=\"input\">=DEELB(\"中国\";2;3)</item> geeft \" 国\" terug (bytepositie 2 staat niet aan het begin van een teken in een DBCS-tekenreeks; een spatie wordt geretourneerd voor bytepositie 2)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958497\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"中国\";3;1)</item> returns \" \" (byte position 3 is at the beginning of a character in a DBCS string, but 1 byte is only half a DBCS character and a space character is therefore returned instead)."
+#~ msgstr "<item type=\"input\">=DEELB(\"中国\";3;1)</item> geeft \" \" terug (bytepositie 3 staat aan het begin van een teken in een DBCS-tekenreeks, maar 1 byte is slechts een half DBCS-teken en daarom wordt in plaats daarvan een spatie geretourneerd)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958507\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"中国\";3;2)</item> returns \"国\" (byte position 3 is at the beginning of a character in a DBCS string, and 2 bytes constitute one DBCS character)."
+#~ msgstr "<item type=\"input\">=DEELB(\"中国\";3;2)</item> geeft \"国\" terug (bytepositie 3 staat aan het begin van een teken in een DBCS-tekenreeks, en 2 bytes vormen één DBCS-teken)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2958517\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">=MIDB(\"office\";2;3)</item> returns \"ffi\" (byte position 2 is at the beginning of a character in a non-DBCS string, and 3 bytes of a non-DBCS string constitute 3 characters)."
+#~ msgstr "<item type=\"input\">=DEELB(\"office\";2;3)</item> geeft \"ffi\" terug (bytepositie 2 staat aan het begin van een teken in een niet-DBCS-tekenreeks, en 3 bytes van een niet-DBCS-tekenreeks vormen 3 tekens)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "bm_id2949805\n"
+#~ "help.text"
+#~ msgid "<bookmark_value>RIGHTB function</bookmark_value>"
+#~ msgstr "<bookmark_value>RECHTS-functie</bookmark_value>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "hd_id2949805\n"
+#~ "help.text"
+#~ msgid "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\">RIGHTB</link></variable>"
+#~ msgstr "<variable id=\"rightbvar\"><link href=\"text/scalc/01/04060110.xhp#rightb\">RECHTSB</link></variable>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2945375\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"HID_FUNC_RIGHTB\">Returns the last character or characters of a text with double bytes characters sets (DBCS).</ahelp>"
+#~ msgstr "<ahelp hid=\"HID_FUNC_RIGHTB\">Geeft het laatste teken of tekens van een tekst met dubbel-byte tekenreeksen (DBCS).</ahelp>"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2954344\n"
+#~ "help.text"
+#~ msgid "RIGHTB(\"Text\" [; Number_bytes])"
+#~ msgstr "RECHTSB(\"Tekst\" [; Getal])"
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2953350\n"
+#~ "help.text"
+#~ msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want RIGHTB to extract, based on bytes. If this parameter is not defined, one byte is returned."
+#~ msgstr "<emph>Aantal_bytes</emph> (optioneel) specificeert het aantal tekens dat u door IGHTB wilt laten extraheren, gebaseerd op bytes. Als deze parameter niet is gedefinieerd, wordt één byte geretourneerd."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2951132\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">RIGHTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
+#~ msgstr "<item type=\"input\">RECHTSB(\"中国\";1)</item> geeft \" \" terug (1 byte is slechts een half DBCS teken en daarom wordt een spatie in de plaats teruggegeven)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2951142\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">RIGHTB(\"中国\";2)</item> returns \"国\" (2 bytes constitute one complete DBCS character)."
+#~ msgstr "<item type=\"input\">RECHTSB(\"中国\";2)</item> geeft \"国\" terug (2 bytes vormen een volledig DBCS teken)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2951152\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">RIGHTB(\"中国\";3)</item> returns \" 国\" (3 bytes constitute one half DBCS character and one whole DBCS character; a space is returned for the first half)."
+#~ msgstr "<item type=\"input\">RECHTSB(\"中国\";3)</item> geeft \" 国\" terug (3 bytes zijn een half DBCS teken en een heel DBCS teken; het eerste halve teken resulteert in een spatie)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2951162\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">RIGHTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
+#~ msgstr "<item type=\"input\">RECHTSB(\"中国\";4)</item> geeft \"中国\" terug (4 bytes zijn twee complete DBCS tekens)."
+
+#~ msgctxt ""
+#~ "04060110.xhp\n"
+#~ "par_id2951172\n"
+#~ "help.text"
+#~ msgid "<item type=\"input\">RIGHTB(\"office\";3)</item> returns \"ice\" (3 non-DBCS characters each consisting of 1 byte)."
+#~ msgstr "<item type=\"input\">RECHTSB(\"kantoor\";3)</item>Geeft \"too\" terug (3 niet-DBCS tekens van elk 1 byte)."
 
 #~ msgctxt ""
 #~ "02110000.xhp\n"
