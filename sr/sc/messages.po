@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: OpenOffice.org\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-11-19 11:21+0100\n"
-"PO-Revision-Date: 2024-11-21 01:45+0000\n"
+"PO-Revision-Date: 2024-11-22 01:45+0000\n"
 "Last-Translator: Милош Поповић <gpopac@gmail.com>\n"
 "Language-Team: Serbian <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/sr/>\n"
 "Language: sr\n"
@@ -1297,7 +1297,7 @@ msgstr "Подножје"
 #: sc/inc/globstr.hrc:223
 msgctxt "STR_TOO_MANY_COLUMNS_DATA_FORM"
 msgid "Too many columns in the data form."
-msgstr ""
+msgstr "Превише колона у обрасцу за податке."
 
 #. 499qP
 #. BEGIN error constants and error strings.
@@ -3058,6 +3058,9 @@ msgid ""
 "\n"
 "Do you want to recalculate all row heights now?"
 msgstr ""
+"Садржај неких ћелија можда неће бити потпуно видљив. Прерачунавање висине редова их може учинити видљивим, али може потрајати.\n"
+"\n"
+"Да ли желите да израчунате висину редова поново?"
 
 #. YgjzK
 #: sc/inc/globstr.hrc:511
@@ -9029,7 +9032,7 @@ msgstr "Вредност "
 #: sc/inc/scfuncs.hrc:1760
 msgctxt "SC_OPCODE_VAR_A"
 msgid "Value 1; value 2; ... are arguments representing a sample taken from the population."
-msgstr ""
+msgstr "Вредност 1; вредност 2;… су аргументи који представљају узорак узет из популације."
 
 #. gB6db
 #: sc/inc/scfuncs.hrc:1766
@@ -9137,7 +9140,7 @@ msgstr "Вредност "
 #: sc/inc/scfuncs.hrc:1808
 msgctxt "SC_OPCODE_ST_DEV_A"
 msgid "Value 1; value 2; ... are arguments representing a sample taken from the population."
-msgstr ""
+msgstr "Вредност 1; вредност 2;… су аргументи који представљају узорак узет из популације."
 
 #. 4gTUB
 #: sc/inc/scfuncs.hrc:1814
@@ -9227,7 +9230,7 @@ msgstr "Вредност "
 #: sc/inc/scfuncs.hrc:1848
 msgctxt "SC_OPCODE_AVERAGE_A"
 msgid "Value 1; value 2; ... are arguments representing a sample taken from the population."
-msgstr ""
+msgstr "Вредност 1; вредност 2;… су аргументи који представљају узорак узет из популације."
 
 #. H6DCB
 #: sc/inc/scfuncs.hrc:1854
@@ -14363,61 +14366,61 @@ msgstr "Уколико је вредност „TRUE“ (тачно) или ни
 #: sc/inc/scfuncs.hrc:3383
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Extended vertical search and reference to indicated cells."
-msgstr ""
+msgstr "Прошири усправну претрагу и референце на указану ћелију."
 
 #. aJEdP
 #: sc/inc/scfuncs.hrc:3384
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Search criterion"
-msgstr ""
+msgstr "Критеријуми за претрагу"
 
 #. hKyH5
 #: sc/inc/scfuncs.hrc:3385
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "The value to be found in the first column."
-msgstr ""
+msgstr "Вредност која ће бити пронађена у првој колони."
 
 #. LQsQ9
 #: sc/inc/scfuncs.hrc:3386
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Search Array"
-msgstr ""
+msgstr "Опсег за претрагу"
 
 #. wGtsD
 #: sc/inc/scfuncs.hrc:3387
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "The array or range to search."
-msgstr ""
+msgstr "Нис опсега за претрагу."
 
 #. yhzFf
 #: sc/inc/scfuncs.hrc:3388
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Result Array"
-msgstr ""
+msgstr "Поништи низ"
 
 #. VUQxn
 #: sc/inc/scfuncs.hrc:3389
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "The array or range to return."
-msgstr ""
+msgstr "Низ опсега за враћање."
 
 #. WECuA
 #: sc/inc/scfuncs.hrc:3390
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Result if not found"
-msgstr ""
+msgstr "Резултат није пронађен"
 
 #. FF2F7
 #: sc/inc/scfuncs.hrc:3391
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "If given, return given text, otherwise return #N/A."
-msgstr ""
+msgstr "Уколико је задато, враћа дати текст, у супротном враћа #N/A."
 
 #. UGCMv
 #: sc/inc/scfuncs.hrc:3392
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Match Mode"
-msgstr ""
+msgstr "Режим поклапања"
 
 #. vEqB5
 #: sc/inc/scfuncs.hrc:3393
@@ -14429,12 +14432,17 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0 – тачно поклапање. Вратиће #N/A када нема подударања. (подразумевано)\n"
+"-1 – тачно поклапање или наредна мања ставка.\n"
+"1 – тачно поклапање или наредна већа ставка.\n"
+"2 – поклапање џокером.\n"
+"3 – поклапање регуларним изразом."
 
 #. EvSiP
 #: sc/inc/scfuncs.hrc:3394
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Search Mode"
-msgstr ""
+msgstr "Режим претраге"
 
 #. aUEgE
 #: sc/inc/scfuncs.hrc:3395
@@ -14445,6 +14453,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1 – претраживање од прве вредности (подразумевано).\n"
+"-1 – претраживање од задње вредности (обрнуто).\n"
+"2 – бинарна претрага вредности поређаних растуће.\n"
+"-2 – бинарна претрага вредности поређаних опадајуће."
 
 #. KZapz
 #: sc/inc/scfuncs.hrc:3401
@@ -14618,37 +14630,37 @@ msgstr "Врста може узети вредност 1 (прва колона
 #: sc/inc/scfuncs.hrc:3449
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Defines a relative position in an array or range of cells after comparing values."
-msgstr ""
+msgstr "Одређује релативан положај унутар низа или опсега ћелија након поређења вредности."
 
 #. m33Cc
 #: sc/inc/scfuncs.hrc:3450
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search criterion"
-msgstr ""
+msgstr "Критеријум за претрагу"
 
 #. GLmYe
 #: sc/inc/scfuncs.hrc:3451
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "The value to be used for comparison."
-msgstr ""
+msgstr "Вредност која ће се користити за поређење."
 
 #. kthZF
 #: sc/inc/scfuncs.hrc:3452
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search Array"
-msgstr ""
+msgstr "Низ претраге"
 
 #. xnBcz
 #: sc/inc/scfuncs.hrc:3453
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "The array or range to search."
-msgstr ""
+msgstr "Низ или опсег за претрагу."
 
 #. c3dEi
 #: sc/inc/scfuncs.hrc:3454
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Match Mode"
-msgstr ""
+msgstr "Начин поклапања"
 
 #. DZ2bC
 #: sc/inc/scfuncs.hrc:3455
@@ -17076,13 +17088,13 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:4219
 msgctxt "SC_OPCODE_SORTBY"
 msgid "Range 1, range 2,... are the arrays or ranges to sort on."
-msgstr ""
+msgstr "Опсег 1, опсег 2,… су низови или опсези на основу којих се сортира."
 
 #. jUFcA
 #: sc/inc/scfuncs.hrc:4220
 msgctxt "SC_OPCODE_SORTBY"
 msgid "Sort order "
-msgstr ""
+msgstr "Редослед "
 
 #. F8iPf
 #: sc/inc/scfuncs.hrc:4221
@@ -17094,199 +17106,199 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:4227
 msgctxt "SC_OPCODE_MAT_SEQUENCE"
 msgid "Generates a list of sequential numbers in an array, such as 1, 2, 3, 4."
-msgstr ""
+msgstr "Прави списак редних бројева поређаних по величини, као што су 1, 2, 3, 4."
 
 #. ZavA8
 #: sc/inc/scfuncs.hrc:4228
 msgctxt "SC_OPCODE_MAT_SEQUENCE"
 msgid "Rows"
-msgstr ""
+msgstr "Редови"
 
 #. A8HDQ
 #: sc/inc/scfuncs.hrc:4229
 msgctxt "SC_OPCODE_MAT_SEQUENCE"
 msgid "The number of rows to return."
-msgstr ""
+msgstr "Број редова који ће бити враћен."
 
 #. f5UCW
 #: sc/inc/scfuncs.hrc:4230
 msgctxt "SC_OPCODE_MAT_SEQUENCE"
 msgid "Columns"
-msgstr ""
+msgstr "Колоне"
 
 #. A8QKv
 #: sc/inc/scfuncs.hrc:4231
 msgctxt "SC_OPCODE_MAT_SEQUENCE"
 msgid "The number of columns to return."
-msgstr ""
+msgstr "Број колона који ће бити враћен."
 
 #. ErvjE
 #: sc/inc/scfuncs.hrc:4232
 msgctxt "SC_OPCODE_MAT_SEQUENCE"
 msgid "Start"
-msgstr ""
+msgstr "Почетак"
 
 #. rC9mG
 #: sc/inc/scfuncs.hrc:4233
 msgctxt "SC_OPCODE_MAT_SEQUENCE"
 msgid "The first number in the sequence."
-msgstr ""
+msgstr "Први број у низу."
 
 #. L3NNF
 #: sc/inc/scfuncs.hrc:4234
 msgctxt "SC_OPCODE_MAT_SEQUENCE"
 msgid "Step"
-msgstr ""
+msgstr "Корак"
 
 #. Y8rLF
 #: sc/inc/scfuncs.hrc:4235
 msgctxt "SC_OPCODE_MAT_SEQUENCE"
 msgid "The amount to increment each subsequent value in the array."
-msgstr ""
+msgstr "Количина повећања за сваку наредну вредност у опсегу."
 
 #. 8HzKM
 #: sc/inc/scfuncs.hrc:4241
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "Generates an array of random numbers between two limit values."
-msgstr ""
+msgstr "Прави низ насумичних бројева између две граниче вредности."
 
 #. jksQe
 #: sc/inc/scfuncs.hrc:4242
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "Rows"
-msgstr ""
+msgstr "Редови"
 
 #. GQDKh
 #: sc/inc/scfuncs.hrc:4243
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "The number of rows to return."
-msgstr ""
+msgstr "Број редова који ће бити враћен."
 
 #. SfG9b
 #: sc/inc/scfuncs.hrc:4244
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "Columns"
-msgstr ""
+msgstr "Колоне"
 
 #. Pki2r
 #: sc/inc/scfuncs.hrc:4245
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "The number of columns to return."
-msgstr ""
+msgstr "Број колона који ће бити враћен."
 
 #. oC45m
 #: sc/inc/scfuncs.hrc:4246
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "Min"
-msgstr ""
+msgstr "Минимум"
 
 #. HASSd
 #: sc/inc/scfuncs.hrc:4247
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "The lower limit of the generated numbers."
-msgstr ""
+msgstr "Доња граница генерисаних бројева."
 
 #. DGi8h
 #: sc/inc/scfuncs.hrc:4248
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "Max"
-msgstr ""
+msgstr "Максимум"
 
 #. Cw8Nu
 #: sc/inc/scfuncs.hrc:4249
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "The upper limit of the generated numbers."
-msgstr ""
+msgstr "Горња граница направљених бројева."
 
 #. WBWq3
 #: sc/inc/scfuncs.hrc:4250
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "Integers"
-msgstr ""
+msgstr "Цели бројеви"
 
 #. rMwVv
 #: sc/inc/scfuncs.hrc:4251
 msgctxt "SC_OPCODE_RANDARRAY"
 msgid "Return integer (TRUE) or decimal (FALSE) values."
-msgstr ""
+msgstr "Враћа вредност као цео (TRUE) или децимални број (FALSE)"
 
 #. NJR3E
 #: sc/inc/scfuncs.hrc:4257
 msgctxt "SC_OPCODE_UNIQUE"
 msgid "Returns a list of unique values from a range or array."
-msgstr ""
+msgstr "Враћа списак јединствених вредности из опсега или низа."
 
 #. NepxE
 #: sc/inc/scfuncs.hrc:4258
 msgctxt "SC_OPCODE_UNIQUE"
 msgid "Array"
-msgstr ""
+msgstr "Низ"
 
 #. 2sVga
 #: sc/inc/scfuncs.hrc:4259
 msgctxt "SC_OPCODE_UNIQUE"
 msgid "The range or array from which to return unique values."
-msgstr ""
+msgstr "Опсег или низ из кога ће вратити јединствене вредности."
 
 #. fGfWS
 #: sc/inc/scfuncs.hrc:4260
 msgctxt "SC_OPCODE_UNIQUE"
 msgid "By col"
-msgstr ""
+msgstr "По колони"
 
 #. SASmk
 #: sc/inc/scfuncs.hrc:4261
 msgctxt "SC_OPCODE_UNIQUE"
 msgid "Logical value indicating how to compare data: TRUE - compares data across columns. FALSE or omitted (default) - compares data across rows."
-msgstr ""
+msgstr "Логичка вредности која указује на то како се подаци пореде: TRUE – пореди податке поп колони, FALSE или непопуњена вредност (подразумевано – пореди податке по редовима."
 
 #. hVQ6i
 #: sc/inc/scfuncs.hrc:4262
 msgctxt "SC_OPCODE_UNIQUE"
 msgid "Uniqueness"
-msgstr ""
+msgstr "Јединственост"
 
 #. EUVys
 #: sc/inc/scfuncs.hrc:4263
 msgctxt "SC_OPCODE_UNIQUE"
 msgid "Logical value that defines what values are considered unique: TRUE - returns values that occur only once. FALSE or omitted (default) - returns all distinct (different) values in the range or array."
-msgstr ""
+msgstr "Логичка вредност која одређује које вредности се сматрају јединственим: TRUE – враћа вредности које се јављају само једном, FALSE или непопуњено (подразумевано) враћа вредности унутар опсега или низа."
 
 #. axamT
 #: sc/inc/scfuncs.hrc:4269
 msgctxt "SC_OPCODE_LET"
 msgid "The LET function assigns names to calculation results. This allows storing intermediate calculations, values, or defining names inside a formula. These names only apply within the scope of the LET function."
-msgstr ""
+msgstr "LET функција додељује имена израчунатим резултатима. Ово омогућава чување успутних рачуна, вредности или одређивање назива унутар формула. Ова имена се примењују само унутар LET функције."
 
 #. 6DDAi
 #: sc/inc/scfuncs.hrc:4270
 msgctxt "SC_OPCODE_LET"
 msgid "Name 1"
-msgstr ""
+msgstr "Име 1"
 
 #. a7LQR
 #: sc/inc/scfuncs.hrc:4271
 msgctxt "SC_OPCODE_LET"
 msgid "The first name to assign. Must start with a letter. Cannot be the output of a formula or conflict with range syntax."
-msgstr ""
+msgstr "Прво име за додељивање. Мора да почне словом. Не може бити резултат формуле или конфликт са опсегом синтаксе."
 
 #. KsyBM
 #: sc/inc/scfuncs.hrc:4272
 msgctxt "SC_OPCODE_LET"
 msgid "Name value "
-msgstr ""
+msgstr "Вредност имена "
 
 #. Dn2DE
 #: sc/inc/scfuncs.hrc:4273
 msgctxt "SC_OPCODE_LET"
 msgid "Name value 1, Name value 2,... The value or calculation to assign to Name."
-msgstr ""
+msgstr "Вредност имена 1, Вредност имена 2,… Вредност или израчунавање које се додељује имену."
 
 #. CHAMD
 #: sc/inc/scfuncs.hrc:4274
 msgctxt "SC_OPCODE_LET"
 msgid "Calculation or Name "
-msgstr ""
+msgstr "Израчунавање или име "
 
 #. tFMkP
 #: sc/inc/scfuncs.hrc:4275
@@ -21559,49 +21571,42 @@ msgstr "4 сиве стрелице"
 
 #. Yi3pd
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:517
-#, fuzzy
 msgctxt "conditionalentry|iconsettype"
 msgid "4 Circles Red to Black"
-msgstr "4 круга црвено ка црном"
+msgstr "4 круга од црвене до црне"
 
 #. BKpUg
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:518
-#, fuzzy
 msgctxt "conditionalentry|iconsettype"
 msgid "4 Ratings"
 msgstr "4 оцене"
 
 #. AQdho
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:519
-#, fuzzy
 msgctxt "conditionalentry|iconsettype"
 msgid "4 Traffic Lights"
-msgstr "4 светла семафора"
+msgstr "4 семафора"
 
 #. iGXCy
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:520
-#, fuzzy
 msgctxt "conditionalentry|iconsettype"
 msgid "5 Arrows"
 msgstr "5 стрелица"
 
 #. 7EuvV
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:521
-#, fuzzy
 msgctxt "conditionalentry|iconsettype"
 msgid "5 Gray Arrows"
 msgstr "5 сивих стрелица"
 
 #. CaZNK
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:522
-#, fuzzy
 msgctxt "conditionalentry|iconsettype"
 msgid "5 Ratings"
 msgstr "5 оцена"
 
 #. Ae5jK
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:523
-#, fuzzy
 msgctxt "conditionalentry|iconsettype"
 msgid "5 Quarters"
 msgstr "5 четвртина"
@@ -21610,132 +21615,124 @@ msgstr "5 четвртина"
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:524
 msgctxt "conditionalentry|iconsettype"
 msgid "5 Boxes"
-msgstr ""
+msgstr "5 кутија"
 
 #. DEVHA
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:8
-#, fuzzy
 msgctxt "conditionalformatdialog|ConditionalFormatDialog"
 msgid "Conditional Formatting for"
-msgstr "Условно форматирање"
+msgstr "Условно форматирање за"
 
 #. PYsX2
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:34
 msgctxt "conditionalformatdialog|extended_tip|ok"
 msgid "Saves all changes and closes dialog."
-msgstr ""
+msgstr "Чува све измене и затвара прозорче."
 
 #. zqDuf
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:54
 msgctxt "conditionalformatdialog|extended_tip|cancel"
 msgid "Closes dialog and discards all changes."
-msgstr ""
+msgstr "Затвара прозорче и занемарује све измене."
 
 #. VP7Xe
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:156
 msgctxt "conditionalformatdialog|extended_tip|list"
 msgid "List of the conditions defined for the cell range in order of evaluation."
-msgstr ""
+msgstr "Списак услова одређених за опсег ћелија по редоследу евалуације."
 
 #. oEPbA
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:185
 msgctxt "conditionalformatdialog|extended_tip|add"
 msgid "Here you can add, edit or remove one or several conditional formattings."
-msgstr ""
+msgstr "Овде можете додати, уредити или уклонити једну или неколико условних форматирања."
 
 #. ejKTF
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:204
 msgctxt "conditionalformatdialog|extended_tip|delete"
 msgid "Deletes the selected element or elements without requiring confirmation."
-msgstr ""
+msgstr "Брише изабрани елемент или елементе без потребе за потврдом."
 
 #. upqJA
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:216
 msgctxt "conditionalformatdialog|up"
 msgid "_Up"
-msgstr ""
+msgstr "_Нагоре"
 
 #. fGKvB
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:223
 msgctxt "conditionalformatdialog|extended_tip|up"
 msgid "Increase priority of the selected condition."
-msgstr ""
+msgstr "Повећава приоритет за изабрани услов."
 
 #. yaQBX
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:235
 msgctxt "conditionalformatdialog|down"
 msgid "Do_wn"
-msgstr ""
+msgstr "_Надоле"
 
 #. ykMES
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:242
 msgctxt "conditionalformatdialog|extended_tip|down"
 msgid "Decrease priority of the selected condition."
-msgstr ""
+msgstr "Смањује приоритет за изабрани услов."
 
 #. Q6Ag7
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:265
-#, fuzzy
 msgctxt "conditionalformatdialog|label1"
 msgid "Conditions"
-msgstr "Услов"
+msgstr "Услови"
 
 #. rgGuH
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:298
-#, fuzzy
 msgctxt "conditionalformatdialog|ftassign"
 msgid "Range:"
-msgstr "Опсег"
+msgstr "Опсег:"
 
 #. hZBzt
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:331
 msgctxt "conditionalformatdialog|extended_tip|rbassign"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "Кликните на иконицу да смањите прозорче на величину улазног поља. Тада ће бити једноставније да означите потребне референце на листу. Иконица ће се постати иконица за увећавање прозорчића. Кликните на њу да вратите величину прозорчића на оригиналну величину."
 
 #. BH5wk
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:347
 msgctxt "conditionalformatdialog|label2"
 msgid "Cell Range"
-msgstr ""
+msgstr "Опсег ћелија"
 
 #. JymF6
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:372
 msgctxt "conditionalformatdialog|extended_tip|ConditionalFormatDialog"
 msgid "Choose Conditional Formatting to define format styles depending on certain conditions."
-msgstr ""
+msgstr "Изаберите условно форматирање да одредите стилове формата у зависности од одређених услова."
 
 #. XFw3E
 #: sc/uiconfig/scalc/ui/conditionaliconset.ui:22
-#, fuzzy
 msgctxt "conditionaliconset|label"
 msgid " >= "
-msgstr " <= "
+msgstr " >= "
 
 #. ZDEEe
 #: sc/uiconfig/scalc/ui/conditionaliconset.ui:46
-#, fuzzy
 msgctxt "conditionaliconset|listbox"
 msgid "Value"
 msgstr "Вредност"
 
 #. dBBzv
 #: sc/uiconfig/scalc/ui/conditionaliconset.ui:47
-#, fuzzy
 msgctxt "conditionaliconset|listbox"
 msgid "Percent"
 msgstr "Проценат"
 
 #. hdHXA
 #: sc/uiconfig/scalc/ui/conditionaliconset.ui:48
-#, fuzzy
 msgctxt "conditionaliconset|listbox"
 msgid "Percentile"
 msgstr "Перцентил"
 
 #. mmHTt
 #: sc/uiconfig/scalc/ui/conditionaliconset.ui:49
-#, fuzzy
 msgctxt "conditionaliconset|listbox"
 msgid "Formula"
 msgstr "Формула"
@@ -21744,297 +21741,280 @@ msgstr "Формула"
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:20
 msgctxt "conflictsdialog|ConflictsDialog"
 msgid "Resolve Conflicts"
-msgstr ""
+msgstr "Реши конфликте"
 
 #. oCjL7
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:34
 msgctxt "conflictsdialog|keepallmine"
 msgid "_Keep All Mine"
-msgstr ""
+msgstr "_Задржи све моје"
 
 #. czHPv
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:48
 msgctxt "conflictsdialog|keepallothers"
 msgid "Keep _All Others"
-msgstr ""
+msgstr "За_држи све остале"
 
 #. VvYCZ
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:109
 msgctxt "conflictsdialog|label1"
 msgid "There are conflicting changes in this shared spreadsheet. Conflicts must be resolved before saving the spreadsheet. Keep either own or other changes."
-msgstr ""
+msgstr "Има конфликтних измена у дељеном листу таблице. Морате решити конфликте пре чувања листа таблице. Задржите или ваше или измене других људи."
 
 #. 2NJDD
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:143
 msgctxt "conflictsdialog|conflict"
 msgid "Conflict"
-msgstr ""
+msgstr "Конфликт"
 
 #. kQCmz
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:157
 msgctxt "conflictsdialog|author"
 msgid "Author"
-msgstr ""
+msgstr "Аутор"
 
 #. GVeDT
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:171
 msgctxt "conflictsdialog|date"
 msgid "Date"
-msgstr ""
+msgstr "Датум"
 
 #. tgZHu
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:185
 msgctxt "conflictsdialog|changes-atkobject"
 msgid "Changes"
-msgstr ""
+msgstr "Измене"
 
 #. joDoc
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:203
 msgctxt "conflictsdialog|keepmine"
 msgid "Keep _Mine"
-msgstr ""
+msgstr "Задржи _моје"
 
 #. KRAHP
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:217
 msgctxt "conflictsdialog|keepother"
 msgid "Keep _Other"
-msgstr ""
+msgstr "Задржи _остале"
 
 #. 3AtCK
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:16
-#, fuzzy
 msgctxt "consolidatedialog|ConsolidateDialog"
 msgid "Consolidate"
-msgstr "Усагласи"
+msgstr "Уједини"
 
 #. HqCsB
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:43
 msgctxt "consolidatedialog|extended_tip|ok"
 msgid "Saves all changes and closes dialog."
-msgstr ""
+msgstr "Чува све промене и затвара прозорче."
 
 #. EHBqo
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:63
 msgctxt "consolidatedialog|extended_tip|cancel"
 msgid "Closes dialog and discards all changes."
-msgstr ""
+msgstr "Затвара прозорче и занемарује све измене."
 
 #. kkPF3
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:110
-#, fuzzy
 msgctxt "consolidatedialog|label1"
 msgid "_Function:"
-msgstr "Функција"
+msgstr "_Функција:"
 
 #. SVBz4
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:125
 msgctxt "consolidatedialog|label2"
 msgid "_Consolidation ranges:"
-msgstr ""
+msgstr "О_псег за уједињавање:"
 
 #. AtpDx
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:141
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "Sum"
 msgstr "Збир"
 
 #. E7nY7
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:142
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "Count"
-msgstr "Преброји"
+msgstr "Број"
 
 #. Q7GRe
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:143
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "Average"
 msgstr "Просек"
 
 #. EffQC
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:144
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "Max"
 msgstr "Макс"
 
 #. fiQPH
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:145
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "Min"
 msgstr "Мин"
 
 #. cbwPv
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:146
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "Product"
 msgstr "Производ"
 
 #. weaq9
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:147
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "Count (numbers only)"
-msgstr "Преброји (само бројеве)"
+msgstr "Број (само бројеви)"
 
 #. 6YqQC
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:148
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "StDev (sample)"
-msgstr "StDev (узорак)"
+msgstr "Стдев (узорак)"
 
 #. JTcFT
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:149
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "StDevP (population)"
-msgstr "StDevP (популација)"
+msgstr "СтдевП (популација)"
 
 #. Z44a8
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:150
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "Var (sample)"
-msgstr "Var (узорак)"
+msgstr "Вар (узорак)"
 
 #. gEiNo
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:151
-#, fuzzy
 msgctxt "consolidatedialog|func"
 msgid "VarP (population)"
-msgstr "VarP (популација)"
+msgstr "ВарП (популација)"
 
 #. HagyB
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:155
 msgctxt "consolidatedialog|extended_tip|func"
 msgid "Select the function that you want to use to consolidate the data."
-msgstr ""
+msgstr "Изаберите функцију који желите да користите за уједињавање податка."
 
 #. aG9xb
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:199
 msgctxt "consolidatedialog|extended_tip|consareas"
 msgid "Displays the cell ranges that you want to consolidate."
-msgstr ""
+msgstr "Приказује опсег ћелија који желите да користите за уједињавање."
 
 #. Nw7XJ
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:238
 msgctxt "consolidatedialog|extended_tip|lbdataarea"
 msgid "Specifies the cell range that you want to consolidate with the cell ranges listed in the Consolidation ranges box. Select a cell range in a sheet, and then click Add. You can also select the name of a predefined cell from the Source data range list."
-msgstr ""
+msgstr "Одредите опсег ћелија који желите да уједините са опсегом ћелија који је исписан у пољу ја опсег уједињавања. Изаберите опсег ћелија на листу, а затим кликните на Додај. Можете изабрати и име предодређене ћелије из списка опсега изворних података."
 
 #. 6x7He
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:257
 msgctxt "consolidatedialog|extended_tip|eddataarea"
 msgid "Specifies the cell range that you want to consolidate with the cell ranges listed in the Consolidation ranges box. Select a cell range in a sheet, and then click Add. You can also select the name of a predefined cell from the Source data range list."
-msgstr ""
+msgstr "Одређује опсег ћелија који желите да уједините са опсегом ћелија исписаним у пољу опсега уједињавања. Изаберите опсег ћелија на листу, а затим кликните на Додај. Можете изабрати и име предодређених ћелија из списка опсега извора података."
 
 #. N6jCs
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:276
 msgctxt "consolidatedialog|extended_tip|rbdataarea"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "Кликните на иконицу за сакупљање да смањите прозорче на величину поља за унос података. Тако ће бити једноставније да обележите потребне референце на листу. Иконица ће се претворити у иконицу за увећање. Кликните на њу да вратите прозорче на његову изворну величину."
 
 #. ziYLq
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:306
 msgctxt "consolidatedialog|extended_tip|lbdestarea"
 msgid "Displays the first cell in the range where the consolidation results will be displayed."
-msgstr ""
+msgstr "Приказује прву ћелију унутар опсега где ће бити приказани резултати уједињавања."
 
 #. BPrCM
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:325
 msgctxt "consolidatedialog|extended_tip|eddestarea"
 msgid "Displays the first cell in the range where the consolidation results will be displayed."
-msgstr ""
+msgstr "Приказује прву ћелију у опсегу где ће бити приказани резултати уједињавања."
 
 #. HUuw6
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:344
 msgctxt "consolidatedialog|extended_tip|rbdestarea"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "Кликните на иконицу за сакупљање да смањите прозорче на величину поља за унос података. Тако ће бити једноставније да обележите потребне референце на листу. Иконица ће се претворити у иконицу за увећање. Кликните на њу да вратите прозорче на његову изворну величину."
 
 #. zrSv3
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:376
 msgctxt "consolidatedialog|extended_tip|add"
 msgid "Adds the cell range specified in the Source data range box to the Consolidation ranges box."
-msgstr ""
+msgstr "Додаје опсег ћелија који је одређен у пољу за опсег улазних података у поље за опсег уједињавања."
 
 #. 6SMrn
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:396
 msgctxt "consolidatedialog|extended_tip|delete"
 msgid "Deletes the selected element or elements without requiring confirmation."
-msgstr ""
+msgstr "Брише изабрани елемент или елементе без потребе за потврдом."
 
 #. DLuPQ
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:416
 msgctxt "consolidatedialog|ftdataarea"
 msgid "_Source data ranges:"
-msgstr ""
+msgstr "_Опсег извора података:"
 
 #. VZzRg
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:430
-#, fuzzy
 msgctxt "consolidatedialog|ftdestarea"
 msgid "Copy results _to:"
-msgstr "Копирај резултате у"
+msgstr "Копирај резултате _у:"
 
 #. Zhibj
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:482
 msgctxt "consolidatedialog|byrow"
 msgid "_Row labels"
-msgstr ""
+msgstr "Називи _редова"
 
 #. mfhWz
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:491
 msgctxt "consolidatedialog|extended_tip|byrow"
 msgid "Uses the row labels to arrange the consolidated data."
-msgstr ""
+msgstr "Користи називе редова да распореди уједињење податке."
 
 #. SCoPe
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:502
 msgctxt "consolidatedialog|bycol"
 msgid "C_olumn labels"
-msgstr ""
+msgstr "Називи _колона"
 
 #. AD5mx
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:511
 msgctxt "consolidatedialog|extended_tip|bycol"
 msgid "Uses the column labels to arrange the consolidated data."
-msgstr ""
+msgstr "Користи називе редова да распореди уједињене податке."
 
 #. 3dLXN
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:526
-#, fuzzy
 msgctxt "consolidatedialog|label3"
 msgid "Consolidate by"
-msgstr "Усагласи"
+msgstr "Усагласи по"
 
 #. VKSm9
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:549
 msgctxt "consolidatedialog|refs"
 msgid "_Link to source data"
-msgstr ""
+msgstr "_Повежи са изворним подацима"
 
 #. AFQD3
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:563
 msgctxt "consolidatedialog|extended_tip|refs"
 msgid "Links the data in the consolidation range to the source data, and automatically updates the results of the consolidation when the source data is changed."
-msgstr ""
+msgstr "Повезује податке у уједињеном опсегу са изворним подацима и аутоматски ажурира резултате уједињавање када су изворни подаци промењени."
 
 #. tTmj2
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:572
-#, fuzzy
 msgctxt "consolidatedialog|label4"
 msgid "Options"
 msgstr "Опције"
 
 #. QBCQr
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:591
-#, fuzzy
 msgctxt "consolidatedialog|more_label"
 msgid "Options"
 msgstr "Опције"
@@ -22043,52 +22023,49 @@ msgstr "Опције"
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:596
 msgctxt "consolidatedialog|extended_tip|more"
 msgid "Shows additional options."
-msgstr ""
+msgstr "Приказује додатне опције."
 
 #. HEHFf
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:618
 msgctxt "consolidatedialog|extended_tip|ConsolidateDialog"
 msgid "Combines data from one or more independent cell ranges and calculates a new range using the function that you specify."
-msgstr ""
+msgstr "Комбинује податке из једног или више опсега ћелија и рачуна нови опсег користећи функцију коју сте одредили."
 
 #. cRP7Z
 #: sc/uiconfig/scalc/ui/correlationdialog.ui:8
 msgctxt "correlationdialog|CorrelationDialog"
 msgid "Correlation"
-msgstr ""
+msgstr "Корелација"
 
 #. XwREB
 #: sc/uiconfig/scalc/ui/correlationdialog.ui:96
 msgctxt "correlationdialog|input-range-label"
 msgid "Input range:"
-msgstr ""
+msgstr "Улазни опсег:"
 
 #. ZWgXM
 #: sc/uiconfig/scalc/ui/correlationdialog.ui:110
 msgctxt "correlationdialog|output-range-label"
 msgid "Results to:"
-msgstr ""
+msgstr "Резултати у:"
 
 #. jJst7
 #: sc/uiconfig/scalc/ui/correlationdialog.ui:178
-#, fuzzy
 msgctxt "correlationdialog|label4"
 msgid "Data"
-msgstr "Податак"
+msgstr "Подаци"
 
 #. wpJTi
 #: sc/uiconfig/scalc/ui/correlationdialog.ui:210
-#, fuzzy
 msgctxt "correlationdialog|groupedby-columns-radio"
 msgid "Columns"
-msgstr "Колона"
+msgstr "Колоне"
 
 #. K6GDA
 #: sc/uiconfig/scalc/ui/correlationdialog.ui:225
-#, fuzzy
 msgctxt "correlationdialog|groupedby-rows-radio"
 msgid "Rows"
-msgstr "Ред"
+msgstr "Редови"
 
 #. BP2jQ
 #: sc/uiconfig/scalc/ui/correlationdialog.ui:244
@@ -22100,46 +22077,43 @@ msgstr "Груписано по"
 #: sc/uiconfig/scalc/ui/correlationdialog.ui:269
 msgctxt "correlationdialog|extended_tip|CorrelationDialog"
 msgid "Calculates the correlation of two sets of numeric data."
-msgstr ""
+msgstr "Рачуна корелацију два сета нумеричких података."
 
 #. XYtja
 #: sc/uiconfig/scalc/ui/covariancedialog.ui:8
 msgctxt "covariancedialog|CovarianceDialog"
 msgid "Covariance"
-msgstr ""
+msgstr "Коваријанса"
 
 #. gEuSQ
 #: sc/uiconfig/scalc/ui/covariancedialog.ui:96
 msgctxt "covariancedialog|input-range-label"
 msgid "Input range:"
-msgstr ""
+msgstr "Улазни опсег:"
 
 #. eEB9E
 #: sc/uiconfig/scalc/ui/covariancedialog.ui:136
 msgctxt "covariancedialog|output-range-label"
 msgid "Results to:"
-msgstr ""
+msgstr "Резултати у:"
 
 #. nry3Q
 #: sc/uiconfig/scalc/ui/covariancedialog.ui:178
-#, fuzzy
 msgctxt "covariancedialog|label1"
 msgid "Data"
-msgstr "Податак"
+msgstr "Подаци"
 
 #. GhcBB
 #: sc/uiconfig/scalc/ui/covariancedialog.ui:210
-#, fuzzy
 msgctxt "covariancedialog|groupedby-columns-radio"
 msgid "Columns"
-msgstr "Колона"
+msgstr "Колоне"
 
 #. 7YbpZ
 #: sc/uiconfig/scalc/ui/covariancedialog.ui:225
-#, fuzzy
 msgctxt "covariancedialog|groupedby-rows-radio"
 msgid "Rows"
-msgstr "Ред"
+msgstr "Редови"
 
 #. FgzdQ
 #: sc/uiconfig/scalc/ui/covariancedialog.ui:244
@@ -22151,319 +22125,286 @@ msgstr "Груписано по"
 #: sc/uiconfig/scalc/ui/covariancedialog.ui:269
 msgctxt "covariancedialog|extended_tip|CovarianceDialog"
 msgid "Calculates the covariance of two sets of numeric data."
-msgstr ""
+msgstr "Рачуна коваријансу два сета нумеричких података."
 
 #. F22h3
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:8
-#, fuzzy
 msgctxt "createnamesdialog|CreateNamesDialog"
 msgid "Create Names"
 msgstr "Направи имена"
 
 #. bWFYd
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:93
-#, fuzzy
 msgctxt "createnamesdialog|top"
 msgid "_Top row"
-msgstr "Ред на ~врху"
+msgstr "_Горњи ред"
 
 #. 8QHEC
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:101
 msgctxt "createnamesdialog|extended_tip|top"
 msgid "Creates the range names from the header row of the selected range."
-msgstr ""
+msgstr "Прави опсег имена из насловног реда изабраног опсега."
 
 #. hJ9LB
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:113
-#, fuzzy
 msgctxt "createnamesdialog|left"
 msgid "_Left column"
-msgstr "~Лева колона"
+msgstr "_Лева колона"
 
 #. C6Cjs
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:121
 msgctxt "createnamesdialog|extended_tip|left"
 msgid "Creates the range names from the entries in the first column of the selected sheet range."
-msgstr ""
+msgstr "Прави опсег имена из уноса у првој колони изабраног опсега листа."
 
 #. T2unv
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:133
-#, fuzzy
 msgctxt "createnamesdialog|bottom"
 msgid "_Bottom row"
-msgstr "Ред на ~дну"
+msgstr "_Доњи ред"
 
 #. t6Zop
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:141
 msgctxt "createnamesdialog|extended_tip|bottom"
 msgid "Creates the range names from the entries in the last row of the selected sheet range."
-msgstr ""
+msgstr "Прави опсег имена уз уноса у последњем реду изабраног опсега листа."
 
 #. AVsK3
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:153
-#, fuzzy
 msgctxt "createnamesdialog|right"
 msgid "_Right column"
-msgstr "~Десна колона"
+msgstr "_Десна колона"
 
 #. VAW7M
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:161
 msgctxt "createnamesdialog|extended_tip|right"
 msgid "Creates the range names from the entries in the last column of the selected sheet range."
-msgstr ""
+msgstr "Прави опсег имена из изабраних уноса последње колоне изабраног опсега листа."
 
 #. EDUAr
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:177
 msgctxt "createnamesdialog|label1"
 msgid "Create Names From"
-msgstr ""
+msgstr "Направи имена из"
 
 #. zZfTJ
 #: sc/uiconfig/scalc/ui/createnamesdialog.ui:203
 msgctxt "createnamesdialog|extended_tip|CreateNamesDialog"
 msgid "Allows you to automatically name multiple cell ranges."
-msgstr ""
+msgstr "Дозвољава да аутоматски именујете више опсега ћелија."
 
 #. 4mKKA
 #: sc/uiconfig/scalc/ui/dapiservicedialog.ui:10
 msgctxt "dapiservicedialog|DapiserviceDialog"
 msgid "External Source"
-msgstr ""
+msgstr "Спољни извор"
 
 #. DYFEW
 #: sc/uiconfig/scalc/ui/dapiservicedialog.ui:101
-#, fuzzy
 msgctxt "dapiservicedialog|label2"
 msgid "_Service"
-msgstr "Сервиси"
+msgstr "_Сервис"
 
 #. sBB3n
 #: sc/uiconfig/scalc/ui/dapiservicedialog.ui:115
-#, fuzzy
 msgctxt "dapiservicedialog|label3"
 msgid "So_urce"
-msgstr "Извор"
+msgstr "И_звор"
 
 #. phRhR
 #: sc/uiconfig/scalc/ui/dapiservicedialog.ui:129
-#, fuzzy
 msgctxt "dapiservicedialog|label4"
 msgid "_Name"
-msgstr "Име"
+msgstr "_Име"
 
 #. cRSBE
 #: sc/uiconfig/scalc/ui/dapiservicedialog.ui:143
-#, fuzzy
 msgctxt "dapiservicedialog|label5"
 msgid "Us_er"
-msgstr "Корисник"
+msgstr "_Корисник"
 
 #. B8mzb
 #: sc/uiconfig/scalc/ui/dapiservicedialog.ui:157
-#, fuzzy
 msgctxt "dapiservicedialog|label6"
 msgid "_Password"
-msgstr "Лозинка:"
+msgstr "_Лозинка"
 
 #. xhe7G
 #: sc/uiconfig/scalc/ui/dapiservicedialog.ui:235
-#, fuzzy
 msgctxt "dapiservicedialog|label1"
 msgid "Selection"
 msgstr "Избор"
 
 #. m78LR
 #: sc/uiconfig/scalc/ui/databaroptions.ui:8
-#, fuzzy
 msgctxt "databaroptions|DataBarOptions"
 msgid "Data Bar"
-msgstr "Тракица"
+msgstr "Трака података"
 
 #. GeymG
 #: sc/uiconfig/scalc/ui/databaroptions.ui:103
-#, fuzzy
 msgctxt "databaroptions|label4"
 msgid "Minimum:"
-msgstr "Минимум"
+msgstr "Минимум:"
 
 #. bRDM7
 #: sc/uiconfig/scalc/ui/databaroptions.ui:117
-#, fuzzy
 msgctxt "databaroptions|label5"
 msgid "Maximum:"
-msgstr "Максимум"
+msgstr "Максимум:"
 
 #. 6B7HL
 #: sc/uiconfig/scalc/ui/databaroptions.ui:132
-#, fuzzy
 msgctxt "databaroptions|min"
 msgid "Automatic"
-msgstr "Аутоматско"
+msgstr "Аутоматски"
 
 #. 4XucS
 #: sc/uiconfig/scalc/ui/databaroptions.ui:133
-#, fuzzy
 msgctxt "databaroptions|min"
 msgid "Minimum"
 msgstr "Минимум"
 
 #. DWXpV
 #: sc/uiconfig/scalc/ui/databaroptions.ui:134
-#, fuzzy
 msgctxt "databaroptions|min"
 msgid "Maximum"
 msgstr "Максимум"
 
 #. xL32D
 #: sc/uiconfig/scalc/ui/databaroptions.ui:135
-#, fuzzy
 msgctxt "databaroptions|min"
 msgid "Percentile"
 msgstr "Перцентил"
 
 #. 2G2fr
 #: sc/uiconfig/scalc/ui/databaroptions.ui:136
-#, fuzzy
 msgctxt "databaroptions|min"
 msgid "Value"
 msgstr "Вредност"
 
 #. DAkSr
 #: sc/uiconfig/scalc/ui/databaroptions.ui:137
-#, fuzzy
 msgctxt "databaroptions|min"
 msgid "Percent"
 msgstr "Проценат"
 
 #. Ckh2x
 #: sc/uiconfig/scalc/ui/databaroptions.ui:138
-#, fuzzy
 msgctxt "databaroptions|min"
 msgid "Formula"
-msgstr "Формуле"
+msgstr "Формула"
 
 #. 7b5oQ
 #: sc/uiconfig/scalc/ui/databaroptions.ui:142
 msgctxt "databaroptions|extended_tip|min"
 msgid "Select the way the minimum is set"
-msgstr ""
+msgstr "Изаберите начин на који се задаје минимум"
 
 #. DiBWL
 #: sc/uiconfig/scalc/ui/databaroptions.ui:157
-#, fuzzy
 msgctxt "databaroptions|max"
 msgid "Automatic"
-msgstr "Аутоматско"
+msgstr "Аутоматски"
 
 #. DADbe
 #: sc/uiconfig/scalc/ui/databaroptions.ui:158
-#, fuzzy
 msgctxt "databaroptions|max"
 msgid "Minimum"
 msgstr "Минимум"
 
 #. 49Coh
 #: sc/uiconfig/scalc/ui/databaroptions.ui:159
-#, fuzzy
 msgctxt "databaroptions|max"
 msgid "Maximum"
 msgstr "Максимум"
 
 #. hqd9B
 #: sc/uiconfig/scalc/ui/databaroptions.ui:160
-#, fuzzy
 msgctxt "databaroptions|max"
 msgid "Percentile"
 msgstr "Перцентил"
 
 #. zRLqG
 #: sc/uiconfig/scalc/ui/databaroptions.ui:161
-#, fuzzy
 msgctxt "databaroptions|max"
 msgid "Value"
 msgstr "Вредност"
 
 #. Nv6Vn
 #: sc/uiconfig/scalc/ui/databaroptions.ui:162
-#, fuzzy
 msgctxt "databaroptions|max"
 msgid "Percent"
 msgstr "Проценат"
 
 #. 5QJ3k
 #: sc/uiconfig/scalc/ui/databaroptions.ui:163
-#, fuzzy
 msgctxt "databaroptions|max"
 msgid "Formula"
-msgstr "Формуле"
+msgstr "Формула"
 
 #. TJFRE
 #: sc/uiconfig/scalc/ui/databaroptions.ui:167
 msgctxt "databaroptions|extended_tip|max"
 msgid "Select the way the maximum is set"
-msgstr ""
+msgstr "Изаберите начин на који се задаје максимум"
 
 #. 5P3sd
 #: sc/uiconfig/scalc/ui/databaroptions.ui:184
 msgctxt "datbaroptions|extended_tip|min_value"
 msgid "Enter the value for the minimum"
-msgstr ""
+msgstr "Унесите вредност минимума"
 
 #. oKw6w
 #: sc/uiconfig/scalc/ui/databaroptions.ui:201
 msgctxt "datbaroptions|extended_tip|max_value"
 msgid "Enter the value for the maximum"
-msgstr ""
+msgstr "Унесите вредност максимума"
 
 #. TKfBV
 #: sc/uiconfig/scalc/ui/databaroptions.ui:216
 msgctxt "databaroptions|label1"
 msgid "Entry Values"
-msgstr ""
+msgstr "Улазне вредности"
 
 #. PXQgk
 #: sc/uiconfig/scalc/ui/databaroptions.ui:251
-#, fuzzy
 msgctxt "databaroptions|label6"
 msgid "Positive:"
-msgstr "Позитивно"
+msgstr "Позитивно:"
 
 #. YWrEs
 #: sc/uiconfig/scalc/ui/databaroptions.ui:265
-#, fuzzy
 msgctxt "databaroptions|label7"
 msgid "Negative:"
-msgstr "Негативно"
+msgstr "Негативно:"
 
 #. E95Qc
 #: sc/uiconfig/scalc/ui/databaroptions.ui:287
 msgctxt "databaroptions|extended_tip|positive_colour"
 msgid "Select the color for the positive values"
-msgstr ""
+msgstr "Изаберите боју за позитивне вредности"
 
 #. fHCLy
 #: sc/uiconfig/scalc/ui/databaroptions.ui:309
 msgctxt "datbaroptions|extended_tip|negative_colour"
 msgid "Select the color for the negative values"
-msgstr ""
+msgstr "Изаберите боју за негативне вредности"
 
 #. zbBGo
 #: sc/uiconfig/scalc/ui/databaroptions.ui:323
-#, fuzzy
 msgctxt "databaroptions|label10"
 msgid "Fill:"
-msgstr "Попуни"
+msgstr "Попуна:"
 
 #. NArFG
 #: sc/uiconfig/scalc/ui/databaroptions.ui:337
-#, fuzzy
 msgctxt "databaroptions|fill_type"
 msgid "Color"
 msgstr "Боја"
 
 #. XjywU
 #: sc/uiconfig/scalc/ui/databaroptions.ui:338
-#, fuzzy
 msgctxt "databaroptions|fill_type"
 msgid "Gradient"
 msgstr "Прелив"
@@ -22472,62 +22413,58 @@ msgstr "Прелив"
 #: sc/uiconfig/scalc/ui/databaroptions.ui:342
 msgctxt "databaroptions|extended_tip|fill_type"
 msgid "Select if the fill in color is solid or gradient."
-msgstr ""
+msgstr "Изаберите боју за попуну у виду једне боје или прелива."
 
 #. cA4CB
 #: sc/uiconfig/scalc/ui/databaroptions.ui:357
 msgctxt "databaroptions|label2"
 msgid "Bar Colors"
-msgstr ""
+msgstr "Боје за траку"
 
 #. iABiC
 #: sc/uiconfig/scalc/ui/databaroptions.ui:392
 msgctxt "databaroptions|label8"
 msgid "Position of vertical axis:"
-msgstr ""
+msgstr "Место усправне осе:"
 
 #. 4oGae
 #: sc/uiconfig/scalc/ui/databaroptions.ui:406
 msgctxt "databaroptions|label9"
 msgid "Color of vertical axis:"
-msgstr ""
+msgstr "Боја усправне осе:"
 
 #. 5j8jz
 #: sc/uiconfig/scalc/ui/databaroptions.ui:421
-#, fuzzy
 msgctxt "databaroptions|axis_pos"
 msgid "Automatic"
-msgstr "Аутоматско"
+msgstr "Аутоматски"
 
 #. Exmsc
 #: sc/uiconfig/scalc/ui/databaroptions.ui:422
-#, fuzzy
 msgctxt "databaroptions|axis_pos"
 msgid "Middle"
 msgstr "Средина"
 
 #. AXEj2
 #: sc/uiconfig/scalc/ui/databaroptions.ui:423
-#, fuzzy
 msgctxt "databaroptions|axis_pos"
 msgid "None"
-msgstr "Белешка"
+msgstr "Ништа"
 
 #. f95PC
 #: sc/uiconfig/scalc/ui/databaroptions.ui:427
 msgctxt "databaroptions|extended_tip|axis_pos"
 msgid "Select the positions of vertical axis in the cell to start fill."
-msgstr ""
+msgstr "Изаберите положај усправне осе у ћелији за почетак попуне."
 
 #. eBCGQ
 #: sc/uiconfig/scalc/ui/databaroptions.ui:449
 msgctxt "datbaroptions|extended_tip|axis_colour"
 msgid "Set the color of the vertical axis"
-msgstr ""
+msgstr "Изаберите боју усправне осе"
 
 #. DjBHB
 #: sc/uiconfig/scalc/ui/databaroptions.ui:464
-#, fuzzy
 msgctxt "databaroptions|label3"
 msgid "Axis"
 msgstr "Оса"
@@ -22536,53 +22473,52 @@ msgstr "Оса"
 #: sc/uiconfig/scalc/ui/databaroptions.ui:499
 msgctxt "databaroptions|label12"
 msgid "Minimum bar length (%):"
-msgstr ""
+msgstr "Најмања дужина траке (%):"
 
 #. FJXys
 #: sc/uiconfig/scalc/ui/databaroptions.ui:513
 msgctxt "databaroptions|label13"
 msgid "Maximum bar length (%):"
-msgstr ""
+msgstr "Највећа дужина траке (%):"
 
 #. KFjEB
 #: sc/uiconfig/scalc/ui/databaroptions.ui:530
 msgctxt "databaroptions|extended_tip|min_length"
 msgid "Set the minimum bar length in percentage with respect to the cell"
-msgstr ""
+msgstr "Поставите највећу дужину траке у процентима у односу на ћелију"
 
 #. hGFk3
 #: sc/uiconfig/scalc/ui/databaroptions.ui:547
 msgctxt "databaroptions|extended_tip|max_length"
 msgid "Set the maximum bar length in percentage with respect to the cell"
-msgstr ""
+msgstr "Поставите највећу дужину траке у процентима у односу на ћелију"
 
 #. 9fekJ
 #: sc/uiconfig/scalc/ui/databaroptions.ui:562
 msgctxt "databaroptions|label11"
 msgid "Bar Lengths"
-msgstr ""
+msgstr "Дужина траке"
 
 #. PySqs
 #: sc/uiconfig/scalc/ui/databaroptions.ui:577
 msgctxt "databaroptions|only_bar"
 msgid "Display bar only"
-msgstr ""
+msgstr "Прикажи само траке"
 
 #. JqJwv
 #: sc/uiconfig/scalc/ui/databaroptions.ui:585
 msgctxt "datbaroptions|extended_tip|only_bar"
 msgid "Select to have only the bar visible and have value invisible"
-msgstr ""
+msgstr "Изаберите да само трака буде видљива, а вредности сакривене"
 
 #. 2VgJW
 #: sc/uiconfig/scalc/ui/databaroptions.ui:598
 msgctxt "databaroptions|str_same_value"
 msgid "The minimum value must be less than the maximum value."
-msgstr ""
+msgstr "Минимална вредност мора да буде мања од максималне вредности."
 
 #. QD3CA
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:16
-#, fuzzy
 msgctxt "datafielddialog|DataFieldDialog"
 msgid "Data Field"
 msgstr "Поље за податак"
@@ -22595,7 +22531,6 @@ msgstr ""
 
 #. oY6n8
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:162
-#, fuzzy
 msgctxt "datafielddialog|label1"
 msgid "Function"
 msgstr "Функција"
@@ -22604,64 +22539,61 @@ msgstr "Функција"
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:176
 msgctxt "datafielddialog|checkbutton1"
 msgid "Show it_ems without data"
-msgstr ""
+msgstr "Прикажи _ставке без података"
 
 #. 4S4kV
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:184
 msgctxt "datafielddialog|extended_tip|checkbutton1"
 msgid "Includes empty columns and rows in the results table."
-msgstr ""
+msgstr "Укључи празне колоне и редове у табелу с резултатима."
 
 #. CNVLs
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:203
-#, fuzzy
 msgctxt "datafielddialog|label2"
 msgid "Name:"
 msgstr "Име:"
 
 #. yphGB
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:247
-#, fuzzy
 msgctxt "datafielddialog|label4"
 msgid "_Type:"
-msgstr "Врста:"
+msgstr "_Врста:"
 
 #. h82Rf
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:262
 msgctxt "datafielddialog|basefieldft"
 msgid "_Base field:"
-msgstr ""
+msgstr "_Основно поље:"
 
 #. bJVVt
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:277
 msgctxt "datafielddialog|baseitemft"
 msgid "Ba_se item:"
-msgstr ""
+msgstr "Основна _ставка:"
 
 #. b9eEa
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:293
-#, fuzzy
 msgctxt "datafielddialog|type"
 msgid "Normal"
-msgstr "Обично"
+msgstr "Нормално"
 
 #. bDNvP
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:294
 msgctxt "datafielddialog|type"
 msgid "Difference from"
-msgstr ""
+msgstr "Разлика од"
 
 #. 5vvHV
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:295
 msgctxt "datafielddialog|type"
 msgid "% of"
-msgstr ""
+msgstr "% од"
 
 #. naD5D
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:296
 msgctxt "datafielddialog|type"
 msgid "% difference from"
-msgstr ""
+msgstr "% разлике од"
 
 #. ttE3t
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:297
@@ -22673,23 +22605,22 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:298
 msgctxt "datafielddialog|type"
 msgid "% of row"
-msgstr ""
+msgstr "% реда"
 
 #. dB8Rn
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:299
 msgctxt "datafielddialog|type"
 msgid "% of column"
-msgstr ""
+msgstr "% колоне"
 
 #. kN2Bf
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:300
 msgctxt "datafielddialog|type"
 msgid "% of total"
-msgstr ""
+msgstr "укупни %"
 
 #. fYyCw
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:301
-#, fuzzy
 msgctxt "datafielddialog|type"
 msgid "Index"
 msgstr "Индекс"
@@ -22698,53 +22629,52 @@ msgstr "Индекс"
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:305
 msgctxt "datafielddialog|extended_tip|type"
 msgid "Select the type of calculating of the displayed value for the data field."
-msgstr ""
+msgstr "Изаберите врсту рачуна за приказане вредности за поље податка."
 
 #. DdvoS
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:320
 msgctxt "datafielddialog|extended_tip|basefield"
 msgid "Select the field from which the respective value is taken as base for the calculation."
-msgstr ""
+msgstr "Изаберите поље из кога ће одговарајућа вредност бити преузета као основа за рачунање."
 
 #. u5kvr
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:334
 msgctxt "datafielddialog|baseitem"
 msgid "- previous item -"
-msgstr ""
+msgstr "- претходна ставка -"
 
 #. qKCQG
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:335
 msgctxt "datafielddialog|baseitem"
 msgid "- next item -"
-msgstr ""
+msgstr "- наредна ставка -"
 
 #. 3nUQE
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:339
 msgctxt "datafielddialog|extended_tip|baseitem"
 msgid "Select the item of the base field from which the respective value is taken as base for the calculation."
-msgstr ""
+msgstr "Изаберите ставку из основног поља из које ће одговарајућа вредност бити преузета као основа за израчунавање."
 
 #. XxEhf
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:354
 msgctxt "datafielddialog|label3"
 msgid "Displayed Value"
-msgstr ""
+msgstr "Приказана вредност"
 
 #. mk9vJ
 #: sc/uiconfig/scalc/ui/datafielddialog.ui:359
 msgctxt "datafielddialog|extended_tip|expander"
 msgid "Expands or reduces the dialog. The More button is visible for data fields only."
-msgstr ""
+msgstr "Шири или сакупља прозорче. Више дугмића ће бити видљиво за поља која садрже само податке."
 
 #. X9gD5
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:29
 msgctxt "datafieldoptionsdialog|DataFieldOptionsDialog"
 msgid "Data Field Options"
-msgstr ""
+msgstr "Опције поља за податке"
 
 #. GWcDR
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:124
-#, fuzzy
 msgctxt "datafieldoptionsdialog|ascending"
 msgid "_Ascending"
 msgstr "_Растуће"
@@ -22753,11 +22683,10 @@ msgstr "_Растуће"
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:133
 msgctxt "datafieldoptionsdialog|extended_tip|ascending"
 msgid "Sorts the values from the lowest value to the highest value. If the selected field is the field for which the dialog was opened, the items are sorted by name. If a data field was selected, the items are sorted by the resultant value of the selected data field."
-msgstr ""
+msgstr "Ређа вредности од најмање до највеће. Уколико је изабрано поље поље за које је прозорче отворено, ставке ће бити поређане на основу имена. Уколико је поље са податком изабрано, ставке се ређају на основу коначне вредности изабраног поља података."
 
 #. yk5PT
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:144
-#, fuzzy
 msgctxt "datafieldoptionsdialog|descending"
 msgid "_Descending"
 msgstr "_Опадајуће"
@@ -22766,64 +22695,61 @@ msgstr "_Опадајуће"
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:153
 msgctxt "datafieldoptionsdialog|extended_tip|descending"
 msgid "Sorts the values descending from the highest value to the lowest value. If the selected field is the field for which the dialog was opened, the items are sorted by name. If a data field was selected, the items are sorted by the resultant value of the selected data field."
-msgstr ""
+msgstr "Ређа вредности опадајуће, од највеће до најмање. Уколико је изабрано поље оно због кога је прозорче отворено, ставке се ређају на основу имена. Уколико је поље са подацима изабрано, ставке ће бити поређане на основу крајње вредности изабраног поља податка."
 
 #. WoRxx
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:164
-#, fuzzy
 msgctxt "datafieldoptionsdialog|manual"
 msgid "_Manual"
-msgstr "Ручно"
+msgstr "_Ручно"
 
 #. Sy9uF
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:173
 msgctxt "datafieldoptionsdialog|extended_tip|manual"
 msgid "Sorts values alphabetically."
-msgstr ""
+msgstr "Ређа вредности азбучним редоследом."
 
 #. cdBMn
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:190
 msgctxt "datafieldoptionsdialog|extended_tip|sortby"
 msgid "Select the data field that you want to sort columns or rows by."
-msgstr ""
+msgstr "Изаберите поље са подацима на основу којих желите да поређате колоне или редове."
 
 #. tP8DZ
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:209
-#, fuzzy
 msgctxt "datafieldoptionsdialog|label1"
 msgid "Sort by"
-msgstr "~Поређај по"
+msgstr "Поређај по"
 
 #. qQHXp
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:238
 msgctxt "datafieldoptionsdialog|repeatitemlabels"
 msgid "_Repeat item labels"
-msgstr ""
+msgstr "По_нови називе ставке"
 
 #. VmmHC
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:253
 msgctxt "datafieldoptionsdialog|emptyline"
 msgid "_Empty line after each item"
-msgstr ""
+msgstr "_Празан ред након сваке ставке"
 
 #. AxAtj
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:261
 msgctxt "datafieldoptionsdialog|extended_tip|emptyline"
 msgid "Adds an empty row after the data for each item in the pivot table."
-msgstr ""
+msgstr "Додаје празан ред након података за сваку ставку у пивот табели."
 
 #. xA7WG
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:275
-#, fuzzy
 msgctxt "datafieldoptionsdialog|label3"
 msgid "_Layout:"
-msgstr "Размештај"
+msgstr "_Распоред:"
 
 #. ACFGW
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:291
 msgctxt "datafieldoptionsdialog|layout"
 msgid "Tabular layout"
-msgstr ""
+msgstr "Таблични распоред"
 
 #. H4v3c
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:292
@@ -22841,67 +22767,64 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:294
 msgctxt "datafieldoptionsdialog|layout"
 msgid "Compact layout"
-msgstr ""
+msgstr "Збијени распоред"
 
 #. CocpF
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:298
 msgctxt "datafieldoptionsdialog|extended_tip|layout"
 msgid "Select the layout mode for the field in the list box."
-msgstr ""
+msgstr "Изаберите режим распореда за поља у списку."
 
 #. qSCvn
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:313
 msgctxt "datafieldoptionsdialog|label2"
 msgid "Display Options"
-msgstr ""
+msgstr "Опције за приказ"
 
 #. Q34EM
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:342
 msgctxt "datafieldoptionsdialog|show"
 msgid "_Show:"
-msgstr ""
+msgstr "_Прикажи:"
 
 #. XRAd3
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:353
 msgctxt "datafieldoptionsdialog|extended_tip|show"
 msgid "Turns on the automatic show feature."
-msgstr ""
+msgstr "Укључује аутоматски приказ."
 
 #. n8bpz
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:366
-#, fuzzy
 msgctxt "datafieldoptionsdialog|showfromft"
 msgid "_From:"
-msgstr "Од:"
+msgstr "_Од:"
 
 #. C9kFV
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:380
 msgctxt "datafieldoptionsdialog|usingft"
 msgid "_Using field:"
-msgstr ""
+msgstr "_Користи поље:"
 
 #. XVkqZ
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:400
 msgctxt "datafieldoptionsdialog|showft"
 msgid "items"
-msgstr ""
+msgstr "ставке"
 
 #. CKCMD
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:421
 msgctxt "datafieldoptionsdialog|extended_tip|items"
 msgid "Enter the maximum number of items that you want to show automatically."
-msgstr ""
+msgstr "Унесите највећи број ставки који желите да се аутоматски приказује."
 
 #. 6WBE7
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:441
-#, fuzzy
 msgctxt "datafieldoptionsdialog|from"
 msgid "Top"
 msgstr "Врх"
 
 #. GUPny
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:442
-#, fuzzy
 msgctxt "datafieldoptionsdialog|from"
 msgid "Bottom"
 msgstr "Дно"
@@ -22910,105 +22833,97 @@ msgstr "Дно"
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:446
 msgctxt "datafieldoptionsdialog|extended_tip|from"
 msgid "Shows the top or bottom items in the specified sort order."
-msgstr ""
+msgstr "Приказује горње или доње ставке у одређеном редоследу."
 
 #. 7dxVF
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:461
 msgctxt "datafieldoptionsdialog|extended_tip|using"
 msgid "Select the data field that you want to sort the data by."
-msgstr ""
+msgstr "Изаберите поље са подацима на основу којих желите да поређате податке."
 
 #. sVRqx
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:476
 msgctxt "datafieldoptionsdialog|label4"
 msgid "Show Automatically"
-msgstr ""
+msgstr "Прикажи аутоматски"
 
 #. kiXTb
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:547
 msgctxt "datafieldoptionsdialog|extended_tip|hideitems"
 msgid "Select the items that you want to hide from the calculations."
-msgstr ""
+msgstr "Изаберите ставке које желите да сакријете из рачунања."
 
 #. FDavv
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:558
 msgctxt "datafieldoptionsdialog|label9"
 msgid "Hide Items"
-msgstr ""
+msgstr "Сакриј ставке"
 
 #. foyVo
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:582
 msgctxt "datafieldoptionsdialog|extended_tip|hierarchy"
 msgid "Select the hierarchy that you want to use. The pivot table must be based on an external source data that contains data hierarchies."
-msgstr ""
+msgstr "Изаберите хијерархију који желите да користите. Пивот табела мора да буде заснована на спољном извору података који садржи хијерархију података."
 
 #. qTAzs
 #: sc/uiconfig/scalc/ui/datafieldoptionsdialog.ui:595
 msgctxt "datafieldoptionsdialog|hierarchyft"
 msgid "Hierarch_y:"
-msgstr ""
+msgstr "_Хијерархија:"
 
 #. MmXfs
 #: sc/uiconfig/scalc/ui/dataform.ui:8
-#, fuzzy
 msgctxt "dataform|DataFormDialog"
 msgid "Data Form"
-msgstr "Образац за унос"
+msgstr "Образац за податке"
 
 #. AaAgD
 #: sc/uiconfig/scalc/ui/dataform.ui:37
-#, fuzzy
 msgctxt "dataform|close"
 msgid "_Close"
-msgstr "Затвори"
+msgstr "_Затвори"
 
 #. gbAzv
 #: sc/uiconfig/scalc/ui/dataform.ui:166
-#, fuzzy
 msgctxt "dataform|label"
 msgid "New Record"
 msgstr "Нови запис"
 
 #. Nvvrt
 #: sc/uiconfig/scalc/ui/dataform.ui:177
-#, fuzzy
 msgctxt "dataform|new"
 msgid "_New"
-msgstr "Ново"
+msgstr "_Нова"
 
 #. Epdm6
 #: sc/uiconfig/scalc/ui/dataform.ui:193
-#, fuzzy
 msgctxt "dataform|delete"
 msgid "_Delete"
-msgstr "Обриши"
+msgstr "О_бриши"
 
 #. SCweE
 #: sc/uiconfig/scalc/ui/dataform.ui:207
-#, fuzzy
 msgctxt "dataform|restore"
 msgid "_Restore"
-msgstr "Поново постави"
+msgstr "Поново по_стави"
 
 #. GAxdr
 #: sc/uiconfig/scalc/ui/dataform.ui:221
-#, fuzzy
 msgctxt "dataform|prev"
 msgid "_Previous Record"
-msgstr "Претходни запис"
+msgstr "Пре_тходни запис"
 
 #. hpzLC
 #: sc/uiconfig/scalc/ui/dataform.ui:236
-#, fuzzy
 msgctxt "dataform|next"
 msgid "Ne_xt Record"
-msgstr "Следећи запис"
+msgstr "Сле_дећи запис"
 
 #. Gqqaq
 #: sc/uiconfig/scalc/ui/dataform.ui:273
 msgctxt "dataform|extended_tip|DataFormDialog"
 msgid "Data Entry Form is a tool to make table data entry easy in spreadsheets."
-msgstr ""
+msgstr "Образац за унос података је алат који вам омогућава једноставни унос података у листове табеле."
 
 #. RbFU3
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:7
@@ -23020,323 +22935,319 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:91
 msgctxt "dataproviderdlg|db_name"
 msgid "Database Range:"
-msgstr ""
+msgstr "Опсег базе података:"
 
 #. pSQ4F
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:116
 msgctxt "dataproviderdlg/provider"
 msgid "Data Provider:"
-msgstr ""
+msgstr "Достављач података:"
 
 #. RGiXi
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:141
 msgctxt "dataproviderdlg/url"
 msgid "URL:"
-msgstr ""
+msgstr "Адреса:"
 
 #. GKDQA
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:164
 msgctxt "dataproviderdlg/browse_btn"
 msgid "Browse"
-msgstr ""
+msgstr "Разгледај"
 
 #. GABzG
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:179
 msgctxt "dataproviderdlg/id"
 msgid "Id / Xpath:"
-msgstr ""
+msgstr "Иб / Икс путања:"
 
 #. pwS4k
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:207
 msgctxt "dataproviderdlg/lbSource"
 msgid "Source"
-msgstr ""
+msgstr "Извор"
 
 #. fHfGq
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:242
 msgctxt "dataproviderdlg/transformation_add"
 msgid "Add"
-msgstr ""
+msgstr "Додај"
 
 #. Smoiv
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:246
 msgctxt "dataproviderdlg/AddTransformation_tooltip"
 msgid "Add Transformations"
-msgstr ""
+msgstr "Додај преображаје"
 
 #. cSgeU
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:303
 msgctxt "dataproviderdlg/transformation"
 msgid "Transformations"
-msgstr ""
+msgstr "Преображаји"
 
 #. gpeXB
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:359
 msgctxt "dataproviderdlg/apply"
 msgid "Apply"
-msgstr ""
+msgstr "Примени"
 
 #. bDVwi
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:363
 msgctxt "dataproviderdlg/apply_tooltiptext"
 msgid "Apply Changes"
-msgstr ""
+msgstr "Примени измене"
 
 #. 6pCFs
 #: sc/uiconfig/scalc/ui/dataproviderdlg.ui:383
 msgctxt "dataproviderdlg/preview"
 msgid "Preview"
-msgstr ""
+msgstr "Преглед"
 
 #. 4jLF7
 #: sc/uiconfig/scalc/ui/datastreams.ui:8
 msgctxt "datastreams|DataStreamDialog"
 msgid "Live Data Streams"
-msgstr ""
+msgstr "Живи ток података"
 
 #. BjFaA
 #: sc/uiconfig/scalc/ui/datastreams.ui:105
-#, fuzzy
 msgctxt "datastreams|label6"
 msgid "URL:"
-msgstr "УРЛ"
+msgstr "Адреса:"
 
 #. GUSse
 #: sc/uiconfig/scalc/ui/datastreams.ui:117
-#, fuzzy
 msgctxt "datastreams|url|tooltip_text"
 msgid "Enter the URL of the source document in the local file system or Internet here."
-msgstr "(Овде унесите адресу изворног документа у локалном систему датотека или на Интернету.)"
+msgstr "Овде унесите УРЛ адресу изворног документа у локалном систему датотека или на Интернету."
 
 #. RbmeF
 #: sc/uiconfig/scalc/ui/datastreams.ui:136
-#, fuzzy
 msgctxt "datastreams|browse"
 msgid "_Browse..."
-msgstr "Избор..."
+msgstr "_Разгледај…"
 
 #. Kyv5C
 #: sc/uiconfig/scalc/ui/datastreams.ui:172
 msgctxt "datastreams|valuesinline"
 msgid "value1,value2,...,valueN, and fill into range:"
-msgstr ""
+msgstr "вредност1, вредност 2, вредностN, и опсег у који се попуњава:"
 
 #. FbeJ5
 #: sc/uiconfig/scalc/ui/datastreams.ui:187
 msgctxt "datastreams|addressvalue"
 msgid "address,value"
-msgstr ""
+msgstr "адреса,вредност"
 
 #. vHGFG
 #: sc/uiconfig/scalc/ui/datastreams.ui:222
 msgctxt "datastreams|label4"
 msgid "Interpret stream data as"
-msgstr ""
+msgstr "Тумачи ток података као"
 
 #. vcDx2
 #: sc/uiconfig/scalc/ui/datastreams.ui:235
 msgctxt "datastreams|refresh_ui"
 msgid "Empty lines trigger UI refresh"
-msgstr ""
+msgstr "Празни редови укидају освежавање графичког окружења"
 
 #. 3hWhd
 #: sc/uiconfig/scalc/ui/datastreams.ui:255
 msgctxt "datastreams|label"
 msgid "Source Stream"
-msgstr ""
+msgstr "Изворни ток"
 
 #. kkNat
 #: sc/uiconfig/scalc/ui/datastreams.ui:292
 msgctxt "datastreams|datadown"
 msgid "Move existing data down"
-msgstr ""
+msgstr "Помери постојеће податке надоле"
 
 #. oK7F4
 #: sc/uiconfig/scalc/ui/datastreams.ui:308
 msgctxt "datastreams|rangedown"
 msgid "Move the range down"
-msgstr ""
+msgstr "Помери опсег надоле"
 
 #. 2uAZA
 #: sc/uiconfig/scalc/ui/datastreams.ui:324
 msgctxt "datastreams|nomove"
 msgid "Overwrite existing data"
-msgstr ""
+msgstr "Препиши постојеће податке"
 
 #. mvcXx
 #: sc/uiconfig/scalc/ui/datastreams.ui:344
 msgctxt "datastreams|label2"
 msgid "When New Data Arrives"
-msgstr ""
+msgstr "Када нови подаци буду доступни"
 
 #. 5i8Be
 #: sc/uiconfig/scalc/ui/datastreams.ui:375
 msgctxt "datastreams|maxlimit"
 msgid "Limit to:"
-msgstr ""
+msgstr "Ограничи на:"
 
 #. GLYms
 #: sc/uiconfig/scalc/ui/datastreams.ui:404
 msgctxt "datastreams|unlimited"
 msgid "_Unlimited"
-msgstr ""
+msgstr "_Неограничено"
 
 #. DvF6M
 #: sc/uiconfig/scalc/ui/datastreams.ui:427
 msgctxt "datastreams|label3"
 msgid "Maximal Amount of Rows"
-msgstr ""
+msgstr "Највећа количина редова"
 
 #. zGb3D
 #: sc/uiconfig/scalc/ui/datastreams.ui:466
 msgctxt "datastreams|extended_tip|DataStreamDialog"
 msgid "Live data stream for spreadsheets"
-msgstr ""
+msgstr "Ток живих податка за листове табела"
 
 #. 7s8rq
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:29
 msgctxt "datetimetransformationentry|name"
 msgid "Date Time Transformations"
-msgstr ""
+msgstr "Преображај формата датума"
 
 #. P4zeS
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:48
 msgctxt "datetimetransformationentry|datestring"
 msgid "Date String"
-msgstr ""
+msgstr "Низ с датумом"
 
 #. KGT9V
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:49
 msgctxt "datetimetransformationentry|year"
 msgid "Year"
-msgstr ""
+msgstr "Година"
 
 #. 84uwA
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:50
 msgctxt "datetimetransformationentry|startofyear"
 msgid "Start of Year"
-msgstr ""
+msgstr "Почетак године"
 
 #. xmLCz
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:51
 msgctxt "datetimetransformationentry|endofyear"
 msgid "End of Year"
-msgstr ""
+msgstr "Крај године"
 
 #. aEutQ
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:52
 msgctxt "datetimetransformationentry|month"
 msgid "Month"
-msgstr ""
+msgstr "Месец"
 
 #. CVARh
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:53
 msgctxt "datetimetransformationentry|monthname"
 msgid "Month Name"
-msgstr ""
+msgstr "Име месеца"
 
 #. HgxcR
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:54
 msgctxt "datetimetransformationentry|startofmonth"
 msgid "Start of Month"
-msgstr ""
+msgstr "Почетак месеца"
 
 #. XNCUa
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:55
 msgctxt "datetimetransformationentry|endofmonth"
 msgid "End of Month"
-msgstr ""
+msgstr "Крај месеца"
 
 #. o8MSx
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:56
 msgctxt "datetimetransformationentry|day"
 msgid "Day"
-msgstr ""
+msgstr "Дан"
 
 #. BAjUz
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:57
 msgctxt "datetimetransformationentry|dayofweek"
 msgid "Day of Week"
-msgstr ""
+msgstr "Дан у недељи"
 
 #. REwMc
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:58
 msgctxt "datetimetransformationentry|dayofyear"
 msgid "Day of Year"
-msgstr ""
+msgstr "Дан у години"
 
 #. FwYxx
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:59
 msgctxt "datetimetransformationentry|quarter"
 msgid "Quarter"
-msgstr ""
+msgstr "Квартар"
 
 #. uCzda
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:60
 msgctxt "datetimetransformationentry|startofquarter"
 msgid "Start of Quarter"
-msgstr ""
+msgstr "Почетак квартара"
 
 #. PNcts
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:61
 msgctxt "datetimetransformationentry|endofquarter"
 msgid "End of Quarter"
-msgstr ""
+msgstr "Крај квартара"
 
 #. ZF9oj
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:62
 msgctxt "datetimetransformationentry|hour"
 msgid "Hour"
-msgstr ""
+msgstr "Сат"
 
 #. dtk7E
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:63
 msgctxt "datetimetransformationentry|minute"
 msgid "Minute"
-msgstr ""
+msgstr "Минут"
 
 #. CRQvi
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:64
 msgctxt "datetimetransformationentry|second"
 msgid "Second"
-msgstr ""
+msgstr "Секунда"
 
 #. 5CFb9
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:65
 msgctxt "datetimetransformationentry|time"
 msgid "Time"
-msgstr ""
+msgstr "Време"
 
 #. bRjJe
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:80
 msgctxt "datetimetransformationentry/cols"
 msgid "Columns"
-msgstr ""
+msgstr "Колоне"
 
 #. sM9XW
 #: sc/uiconfig/scalc/ui/datetimetransformationentry.ui:89
 msgctxt "datetimetransformationentry|delete"
 msgid "Delete"
-msgstr ""
+msgstr "Обриши"
 
 #. nHoB2
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:18
-#, fuzzy
 msgctxt "definedatabaserangedialog|DefineDatabaseRangeDialog"
 msgid "Define Database Range"
-msgstr "Изабери опсег базе"
+msgstr "Одреди опсег базе података"
 
 #. CyzxS
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:44
 msgctxt "definedatabaserangedialog|extended_tip|ok"
 msgid "Saves all changes and closes dialog."
-msgstr ""
+msgstr "Сачувај све измене и затвори прозорче."
 
 #. djkZd
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:63
 msgctxt "definedatabaserangedialog|extended_tip|cancel"
 msgid "Closes dialog and discards all changes."
-msgstr ""
+msgstr "Затвори прозорче и одбаци све измене."
 
 #. 4VYSe
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:156
@@ -23348,11 +23259,10 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:176
 msgctxt "definedatabaserangedialog|extended_tip|entry"
 msgid "Enter a name for the database range that you want to define, or select an existing name from the list."
-msgstr ""
+msgstr "Унесите назив опсега базе података који желите да одредите или изаберите постојеће име са списка."
 
 #. 4FqWF
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:191
-#, fuzzy
 msgctxt "definedatabaserangedialog|Name"
 msgid "Name"
 msgstr "Име"
@@ -23361,17 +23271,16 @@ msgstr "Име"
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:228
 msgctxt "definedatabaserangedialog|extended_tip|assign"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "Кликните на иконицу за сакупљање како би смањили величину прозорчета улазног поља. Тако ће бити лакше да означите референце унутар листа. Иконица ће се претворити у иконицу за увећање. Кликните на њу да вратите изворну величину прозорчета."
 
 #. ySCS4
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:245
 msgctxt "definedatabaserangedialog|extended_tip|assignrb"
 msgid "Click the Shrink icon to reduce the dialog to the size of the input field. It is then easier to mark the required reference in the sheet. The icons then automatically convert to the Maximize icon. Click it to restore the dialog to its original size."
-msgstr ""
+msgstr "Кликните на иконицу за сакупљање како би смањили величину прозорчета улазног поља. Тако ће бити лакше да означите референце унутар листа. Иконица ће се претворити у иконицу за увећање. Кликните на њу да вратите изворну величину прозорчета."
 
 #. FUAH2
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:261
-#, fuzzy
 msgctxt "definedatabaserangedialog|Range"
 msgid "Range"
 msgstr "Опсег"
@@ -23380,38 +23289,37 @@ msgstr "Опсег"
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:289
 msgctxt "definedatabaserangedialog|extended_tip|add"
 msgid "Adds the selected cell range to the database range list, or modifies an existing database range."
-msgstr ""
+msgstr "Додаје изабрани опсег ћелија у списак опсега базе података, или мења постојећи опсег базе података."
 
 #. N8Lui
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:301
-#, fuzzy
 msgctxt "definedatabaserangedialog|modify"
 msgid "M_odify"
-msgstr "Измени"
+msgstr "_Измени"
 
 #. AGETd
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:322
 msgctxt "definedatabaserangedialog|extended_tip|delete"
 msgid "Deletes the selected element or elements without requiring confirmation."
-msgstr ""
+msgstr "Брише изабрани елемент или елементе без потребе за потврдом."
 
 #. TniCB
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:355
 msgctxt "definedatabaserangedialog|ContainsColumnLabels"
 msgid "Co_ntains column labels"
-msgstr ""
+msgstr "Садржи _називе колона"
 
 #. wimji
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:363
 msgctxt "definedatabaserangedialog|extended_tip|ContainsColumnLabels"
 msgid "Selected cell ranges contain labels."
-msgstr ""
+msgstr "Изабрани опсег ћелија садржи називе."
 
 #. QBs5X
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:375
 msgctxt "definedatabaserangedialog|ContainsTotalsRow"
 msgid "Contains _totals row"
-msgstr ""
+msgstr "Садржи ред за _укупно"
 
 #. XUDCV
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:383
@@ -23423,61 +23331,58 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:395
 msgctxt "definedatabaserangedialog|InsertOrDeleteCells"
 msgid "Insert or delete _cells"
-msgstr ""
+msgstr "Уметни или обриши _ћелије"
 
 #. bJdCS
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:403
 msgctxt "definedatabaserangedialog|extended_tip|InsertOrDeleteCells"
 msgid "Automatically inserts new rows and columns into the database range in your document when new records are added to the database."
-msgstr ""
+msgstr "Аутоматски убацује нове редове и колоне у опсег базе података у ваш документ када се дода нови запис у базу података."
 
 #. EveBu
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:415
 msgctxt "definedatabaserangedialog|KeepFormatting"
 msgid "Keep _formatting"
-msgstr ""
+msgstr "Задржи _форматирање"
 
 #. nwtDB
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:423
 msgctxt "definedatabaserangedialog|extended_tip|KeepFormatting"
 msgid "Applies the existing cell format of headers and first data row to the whole database range."
-msgstr ""
+msgstr "Примењује постојећи формат ћелије заглавља и првог реда података на читав опсег базе података."
 
 #. rSf5f
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:435
 msgctxt "definedatabaserangedialog|DontSaveImportedData"
 msgid "Don't save _imported data"
-msgstr ""
+msgstr "Не чувај _увезене податке"
 
 #. mDon4
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:443
 msgctxt "definedatabaserangedialog|extended_tip|DontSaveImportedData"
 msgid "Only saves a reference to the database, and not the contents of the cells."
-msgstr ""
+msgstr "Чува само референце у базу података, а не и садржај ћелија."
 
 #. nYJiV
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:457
-#, fuzzy
 msgctxt "definedatabaserangedialog|Source"
 msgid "Source:"
-msgstr "Извор"
+msgstr "Извор:"
 
 #. q2F5V
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:470
 msgctxt "definedatabaserangedialog|Operations"
 msgid "Operations:"
-msgstr ""
+msgstr "Операције:"
 
 #. XXY4E
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:483
-#, fuzzy
 msgctxt "definedatabaserangedialog|invalid"
 msgid "Invalid range"
 msgstr "Неисправан опсег"
 
 #. dHJw9
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:498
-#, fuzzy
 msgctxt "definedatabaserangedialog|label1"
 msgid "Options"
 msgstr "Опције"
@@ -23486,17 +23391,16 @@ msgstr "Опције"
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:503
 msgctxt "definedatabaserangedialog|extended_tip|more"
 msgid "Shows additional options."
-msgstr ""
+msgstr "Приказује додатне опције."
 
 #. swLE2
 #: sc/uiconfig/scalc/ui/definedatabaserangedialog.ui:529
 msgctxt "definedatabaserangedialog|extended_tip|DefineDatabaseRangeDialog"
 msgid "Defines a database range based on the selected cells in your sheet."
-msgstr ""
+msgstr "Одређује опсег базе података на основу изабраних ћелија из вашег листа."
 
 #. 659Fh
 #: sc/uiconfig/scalc/ui/definename.ui:8
-#, fuzzy
 msgctxt "definename|DefineNameDialog"
 msgid "Define Name"
 msgstr "Одреди име"
@@ -23505,11 +23409,10 @@ msgstr "Одреди име"
 #: sc/uiconfig/scalc/ui/definename.ui:48
 msgctxt "definename|extended_tip|add"
 msgid "Click the Add button to add a new defined name."
-msgstr ""
+msgstr "Кликните на дугме за додавање да додате ново задато име."
 
 #. 6EGaz
 #: sc/uiconfig/scalc/ui/definename.ui:96
-#, fuzzy
 msgctxt "definename|label2"
 msgid "Name:"
 msgstr "Име:"
@@ -23518,173 +23421,160 @@ msgstr "Име:"
 #: sc/uiconfig/scalc/ui/definename.ui:110
 msgctxt "definename|label3"
 msgid "Range or formula expression:"
-msgstr ""
+msgstr "Опсег формуле или израза:"
 
 #. cPZDB
 #: sc/uiconfig/scalc/ui/definename.ui:124
-#, fuzzy
 msgctxt "definename|label4"
 msgid "Scope:"
-msgstr "Видљивост"
+msgstr "Опсег:"
 
 #. 8LBjA
 #: sc/uiconfig/scalc/ui/definename.ui:142
 msgctxt "definename|extended_tip|edit"
 msgid "Enter the name of the area for which you want to define a reference or a formula expression."
-msgstr ""
+msgstr "Унесите име подручја за које желите да одредите референцу или израз формуле."
 
 #. yDeUA
 #: sc/uiconfig/scalc/ui/definename.ui:166
 msgctxt "definename|extended_tip|range"
 msgid "The reference of the selected area name is shown here as an absolute value."
-msgstr ""
+msgstr "Референца изабраног имена подручја је приказана овде као апсолутна вредност."
 
 #. BjrLE
 #: sc/uiconfig/scalc/ui/definename.ui:201
 msgctxt "definename|extended_tip|scope"
 msgid "Select the scope of the named range or named formula. Document (Global) means the name is valid for the whole document."
-msgstr ""
+msgstr "Изаберите опсег именованог опсега или именоване формуле. Документ (глобално) значи да је име исправно за читав документ."
 
 #. KZfrH
 #: sc/uiconfig/scalc/ui/definename.ui:214
-#, fuzzy
 msgctxt "definename|label"
 msgid "Define the name and range or formula expression."
-msgstr "Одредите име и опсег или неки израз формуле."
+msgstr "Одредите име и опсег или израз формуле."
 
 #. gZZ6g
 #: sc/uiconfig/scalc/ui/definename.ui:245
-#, fuzzy
 msgctxt "definename|printarea"
 msgid "_Print range"
-msgstr "Опсег за штампу"
+msgstr "Опсег за _штампу"
 
 #. uHfBu
 #: sc/uiconfig/scalc/ui/definename.ui:253
 msgctxt "definename|extended_tip|printarea"
 msgid "Defines the area as a print range."
-msgstr ""
+msgstr "Одређује подручје као опсег за штампу."
 
 #. L5Ebf
 #: sc/uiconfig/scalc/ui/definename.ui:264
-#, fuzzy
 msgctxt "definename|filter"
 msgid "_Filter"
-msgstr "Филтер"
+msgstr "_Филтер"
 
 #. KPv69
 #: sc/uiconfig/scalc/ui/definename.ui:272
 msgctxt "definename|extended_tip|filter"
 msgid "Defines the selected area to be used in an advanced filter."
-msgstr ""
+msgstr "Одређује изабрано подручје које ће бити коришћено у напредном филтеру."
 
 #. 6W3iB
 #: sc/uiconfig/scalc/ui/definename.ui:283
-#, fuzzy
 msgctxt "definename|colheader"
 msgid "Repeat _column"
-msgstr "Понови ~колону"
+msgstr "Понови _колону"
 
 #. bLAGo
 #: sc/uiconfig/scalc/ui/definename.ui:291
 msgctxt "definename|extended_tip|colheader"
 msgid "Defines the area as a repeating column."
-msgstr ""
+msgstr "Одређује подручје као понављајућу колону."
 
 #. jfJFq
 #: sc/uiconfig/scalc/ui/definename.ui:302
-#, fuzzy
 msgctxt "definename|rowheader"
 msgid "Repeat _row"
-msgstr "Понови ~ред"
+msgstr "Понови _ред"
 
 #. WGYtk
 #: sc/uiconfig/scalc/ui/definename.ui:310
 msgctxt "definename|extended_tip|rowheader"
 msgid "Defines the area as a repeating row."
-msgstr ""
+msgstr "Одређује подручје као понављајући ред."
 
 #. 47nrA
 #: sc/uiconfig/scalc/ui/definename.ui:325
-#, fuzzy
 msgctxt "definename|label5"
 msgid "Range _Options"
-msgstr "Опције опсега"
+msgstr "_Опције опсега"
 
 #. eNLRt
 #: sc/uiconfig/scalc/ui/definename.ui:331
 msgctxt "definename|extended_tip|more"
 msgid "Allows you to specify the Area type (optional) for the reference."
-msgstr ""
+msgstr "Дозвољава вам да одредите врсту подручја (опционо) за референцу."
 
 #. gBKqi
 #: sc/uiconfig/scalc/ui/definename.ui:360
 msgctxt "definename|extended_tip|DefineNameDialog"
 msgid "Opens a dialog where you can specify a name for a selected area or a name for a formula expression."
-msgstr ""
+msgstr "Отвара прозорче где можете одредити име изабраног подручја или име израза формуле."
 
 #. uA5Nz
 #: sc/uiconfig/scalc/ui/deletecells.ui:8
-#, fuzzy
 msgctxt "deletecells|DeleteCellsDialog"
 msgid "Delete Cells"
 msgstr "Обриши ћелије"
 
 #. UXfkG
 #: sc/uiconfig/scalc/ui/deletecells.ui:92
-#, fuzzy
 msgctxt "deletecells|up"
 msgid "Shift cells _up"
-msgstr "Премести ћелије горе"
+msgstr "Премести ћелије _горе"
 
 #. 7nz4V
 #: sc/uiconfig/scalc/ui/deletecells.ui:101
 msgctxt "deletecells|extended_tip|up"
 msgid "Fills the space produced by the deleted cells with the cells underneath it."
-msgstr ""
+msgstr "Попуњава простор настао брисањем ћелија ћелијама које се налазе испод њих."
 
 #. 4ChEi
 #: sc/uiconfig/scalc/ui/deletecells.ui:113
-#, fuzzy
 msgctxt "deletecells|left"
 msgid "Shift cells _left"
-msgstr "Премести ћелију ~улево"
+msgstr "Премести ћелију у_лево"
 
 #. GPMfP
 #: sc/uiconfig/scalc/ui/deletecells.ui:122
 msgctxt "deletecells|extended_tip|left"
 msgid "Fills the resulting space by the cells to the right of the deleted cells."
-msgstr ""
+msgstr "Попуњава простор настао брисањем ћелија ћелијама које се налазе десно од њих."
 
 #. xhSFC
 #: sc/uiconfig/scalc/ui/deletecells.ui:134
-#, fuzzy
 msgctxt "deletecells|rows"
 msgid "Delete entire _row(s)"
-msgstr "Обриши целе ~редове"
+msgstr "Обриши цео _ред(ове)"
 
 #. S2ECx
 #: sc/uiconfig/scalc/ui/deletecells.ui:143
 msgctxt "deletecells|extended_tip|rows"
 msgid "After selecting at least one cell, deletes the entire row from the sheet."
-msgstr ""
+msgstr "Након избора бар једне ћелије, брише читав ред са листа."
 
 #. ky4n4
 #: sc/uiconfig/scalc/ui/deletecells.ui:155
-#, fuzzy
 msgctxt "deletecells|cols"
 msgid "Delete entire _column(s)"
-msgstr "Обриши целу ~колону(e)"
+msgstr "Обриши целу _колону(e)"
 
 #. PEddf
 #: sc/uiconfig/scalc/ui/deletecells.ui:164
 msgctxt "deletecells|extended_tip|cols"
 msgid "After selecting at least one cell, deletes the entire column from the sheet."
-msgstr ""
+msgstr "Након избора бар једне ћелије, брише читаву колону са листа."
 
 #. fFD3Q
 #: sc/uiconfig/scalc/ui/deletecells.ui:180
-#, fuzzy
 msgctxt "deletecells|label1"
 msgid "Selection"
 msgstr "Избор"
@@ -23693,104 +23583,97 @@ msgstr "Избор"
 #: sc/uiconfig/scalc/ui/deletecells.ui:205
 msgctxt "deletecells|extended_tip|DeleteCellsDialog"
 msgid "Completely deletes selected cells, columns or rows. The cells below or to the right of the deleted cells will fill the space."
-msgstr ""
+msgstr "Потпуно брише изабране ћелије, колоне или редове. Ћелије испод или десно од изабране ћелије ће попунити простор."
 
 #. DAcxk
 #: sc/uiconfig/scalc/ui/deletecolumnentry.ui:29
 msgctxt "deletecolumnentry|name"
 msgid "Delete Columns"
-msgstr ""
+msgstr "Обриши колоне"
 
 #. QFtCG
 #: sc/uiconfig/scalc/ui/deletecolumnentry.ui:46
 msgctxt "deletecolumnentry/cols"
 msgid "Cols(; Separated)"
-msgstr ""
+msgstr "Колоне(; за раздвајање)"
 
 #. tGfwG
 #: sc/uiconfig/scalc/ui/deletecolumnentry.ui:55
 msgctxt "deletecolumnentry|delete"
 msgid "Delete"
-msgstr ""
+msgstr "Обриши"
 
 #. VWjSF
 #: sc/uiconfig/scalc/ui/deletecontents.ui:8
-#, fuzzy
 msgctxt "deletecontents|DeleteContentsDialog"
 msgid "Delete Contents"
 msgstr "Обриши садржај"
 
 #. hFamV
 #: sc/uiconfig/scalc/ui/deletecontents.ui:92
-#, fuzzy
 msgctxt "deletecontents|deleteall"
 msgid "Delete _all"
-msgstr "Обриши ~све"
+msgstr "Обриши _све"
 
 #. EzX8U
 #: sc/uiconfig/scalc/ui/deletecontents.ui:100
 msgctxt "deletecontents|extended_tip|deleteall"
 msgid "Deletes all content from the selected cell range."
-msgstr ""
+msgstr "Брише сав садржај из изабраног опсега ћелија."
 
 #. cjPVi
 #: sc/uiconfig/scalc/ui/deletecontents.ui:120
-#, fuzzy
 msgctxt "deletecontents|text"
 msgid "_Text"
-msgstr "текст"
+msgstr "_Текст"
 
 #. BzXFc
 #: sc/uiconfig/scalc/ui/deletecontents.ui:128
 msgctxt "deletecontents|extended_tip|text"
 msgid "Deletes text only. Formats, formulas, numbers and dates are not affected."
-msgstr ""
+msgstr "Брише само текст. Формати, формуле, бројеви и датуми ће остати непромењени."
 
 #. pNGEC
 #: sc/uiconfig/scalc/ui/deletecontents.ui:139
-#, fuzzy
 msgctxt "deletecontents|numbers"
 msgid "_Numbers"
-msgstr "Бројеви"
+msgstr "_Бројеви"
 
 #. HdAdi
 #: sc/uiconfig/scalc/ui/deletecontents.ui:147
 msgctxt "deletecontents|extended_tip|numbers"
 msgid "Deletes numbers only. Formats and formulas remain unchanged."
-msgstr ""
+msgstr "Брише само бројеве. Формати и формуле ће остати непромењени."
 
 #. iNGBK
 #: sc/uiconfig/scalc/ui/deletecontents.ui:158
-#, fuzzy
 msgctxt "deletecontents|datetime"
 msgid "_Date & time"
-msgstr "~Датум и време"
+msgstr "_Датум и време"
 
 #. uYNYA
 #: sc/uiconfig/scalc/ui/deletecontents.ui:166
 msgctxt "deletecontents|extended_tip|datetime"
 msgid "Deletes date and time values. Formats, text, numbers and formulas remain unchanged."
-msgstr ""
+msgstr "Брише вредности датума и времена. Формати, текст, бројеви и формуле ће остати непромењени."
 
 #. igEyD
 #: sc/uiconfig/scalc/ui/deletecontents.ui:177
-#, fuzzy
 msgctxt "deletecontents|formulas"
 msgid "_Formulas"
-msgstr "Формуле"
+msgstr "_Формуле"
 
 #. XTY3K
 #: sc/uiconfig/scalc/ui/deletecontents.ui:185
 msgctxt "deletecontents|extended_tip|formulas"
 msgid "Deletes formulas. Text, numbers, formats, dates and times remain unchanged."
-msgstr ""
+msgstr "Брише формуле. Текст, бројеви, формати, датуми и време ће остати непромењени."
 
 #. qhUoD
 #: sc/uiconfig/scalc/ui/deletecontents.ui:196
-#, fuzzy
 msgctxt "deletecontents|comments"
 msgid "_Comments"
-msgstr "Коментари"
+msgstr "_Коментари"
 
 #. psiqN
 #: sc/uiconfig/scalc/ui/deletecontents.ui:204
@@ -28914,10 +28797,9 @@ msgstr ""
 
 #. GWa6o
 #: sc/uiconfig/scalc/ui/optformula.ui:277
-#, fuzzy
 msgctxt "optformula|details"
 msgid "Details…"
-msgstr "Детаљи"
+msgstr "Детаљи…"
 
 #. bNtqA
 #: sc/uiconfig/scalc/ui/optformula.ui:300
