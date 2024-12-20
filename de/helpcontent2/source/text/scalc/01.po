@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-12-10 15:36+0100\n"
-"PO-Revision-Date: 2024-11-21 09:45+0000\n"
-"Last-Translator: Annabelle Wübbelsmann <translowl@web.de>\n"
+"PO-Revision-Date: 2024-12-20 05:45+0000\n"
+"Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.9.1\n"
 "X-POOTLE-MTIME: 1565412342.000000\n"
 
 #. yzNBP
@@ -239,7 +239,7 @@ msgctxt ""
 "hd_id3147244\n"
 "help.text"
 msgid "<variable id=\"scenarios_hd\">Scenarios</variable>"
-msgstr ""
+msgstr "<variable id=\"scenarios_hd\">Szenarien</variable>"
 
 #. sfvb5
 #: 02110000.xhp
@@ -1409,7 +1409,7 @@ msgctxt ""
 "par_id3155811\n"
 "help.text"
 msgid "AutoFill tries to complete a value series by using a defined pattern. The series 1,3,5 is automatically completed with 7,9,11,13, and so on. Date and time series are completed accordingly; for example, after 1999-01-01 and 1999-01-15, an interval of 14 days is used."
-msgstr ""
+msgstr "Wertereihen werden beim Auto-Ausfüllen anhand eines definierten Schemas ergänzt. Die Reihe 1, 3, 5 wird automatisch mit 7, 9, 11, 13 und so weiter fortgesetzt. Auch Datums- und Zeitreihen werden auf diese Art vervollständigt. So wird beispielsweise nach den Eingaben 01.01.1999 und 15.01.1999 ein Intervall von 14 Tagen verwendet."
 
 #. BQYjs
 #: 02140600.xhp
@@ -4145,7 +4145,7 @@ msgctxt ""
 "hd_id3149014\n"
 "help.text"
 msgid "Content"
-msgstr ""
+msgstr "Inhalt"
 
 #. WBCn7
 #: 04060000.xhp
@@ -5868,12 +5868,13 @@ msgstr "Die Funktionen, deren Namen mit _ADD oder _EXCEL2003 enden, geben diesel
 
 #. CCEAw
 #: 04060102.xhp
+#, fuzzy
 msgctxt ""
 "04060102.xhp\n"
 "par_id3150437\n"
 "help.text"
 msgid "$[officename] internally handles a date/time value as a numerical value. If you assign the numbering format \"Number\" to a date or time value, it is converted to a number. For example, 2000-01-01 12:00 PM, converts to 36526.5. The value preceding the decimal point corresponds to the date; the value following the decimal point corresponds to the time. If you do not want to see this type of numerical date or time representation, change the number format (date or time) accordingly. To do this, select the cell containing the date or time value, call its context menu and select <emph>Format Cells</emph>. The <emph>Numbers</emph> tab page contains the functions for defining the number format."
-msgstr ""
+msgstr "$[officename] Calc behandelt Datums- und Uhrzeitwerte intern als numerische Werte. Wenn Sie einem Datums- oder Zeitwert das Zahlenformat \"Zahl\" zuweisen, dann wird der Wert in eine Zahl konvertiert. So wird beispielsweise die Angabe 01.01.2000 14:00 zu der Zahl 36526,58. Die Stellen vor dem Komma entsprechen dem Datum, die Stellen hinter dem Komma der Zeit. Wenn Sie diese Art der numerischen Datums- oder Zeitangabe nicht wünschen, können Sie das Zahlenformat (Datum oder Zeit) entsprechend ändern. Wählen Sie dazu die Zelle mit der Datums- oder Zeitangabe aus, öffnen Sie das dazugehörige Kontextmenü, und wählen Sie <emph>Zellen formatieren</emph>. Die Funktionen zum Festlegen des Zahlenformats finden Sie im Register <emph>Zahlen</emph>."
 
 #. s3MzL
 #: 04060102.xhp
@@ -5918,7 +5919,7 @@ msgctxt ""
 "par_id6794030\n"
 "help.text"
 msgid "'1899-12-30'"
-msgstr ""
+msgstr "'30.12.1899'"
 
 #. N58Sd
 #: 04060102.xhp
@@ -5936,7 +5937,7 @@ msgctxt ""
 "par_id5699942\n"
 "help.text"
 msgid "'1900-01-01'"
-msgstr ""
+msgstr "'01.01.1900'"
 
 #. QMSyz
 #: 04060102.xhp
@@ -5954,7 +5955,7 @@ msgctxt ""
 "par_id6986602\n"
 "help.text"
 msgid "'1904-01-01'"
-msgstr ""
+msgstr "'01.01.1904'"
 
 #. tCGEK
 #: 04060102.xhp
@@ -20651,7 +20652,7 @@ msgctxt ""
 "par_id71641991391639\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-17\",0)</input> returns 0 because <emph>Type</emph> was set to 0 and there are only 5 days in the interval."
-msgstr ""
+msgstr "<input>=WOCHEN(\"12.01.2022\";\"17.01.2022\";0)</input> gibt 0 zurück, da <emph>Typ</emph> auf 0 gesetzt wurde und nur 5 Tage im Intervall vorhanden sind."
 
 #. pEEeF
 #: 04060111.xhp
@@ -20660,7 +20661,7 @@ msgctxt ""
 "par_id71641991390039\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-19\",0)</input> returns 1 because <emph>Type</emph> was set to 0 and there are 7 days in the interval."
-msgstr ""
+msgstr "<input>=WOCHEN(\"12.01.2022\";\"19.01.2022\";0)</input> gibt 1 zurück, weil <emph>Typ</emph> auf 0 gesetzt wurde und 7 Tage im Intervall sind."
 
 #. 9DhQj
 #: 04060111.xhp
@@ -20669,7 +20670,7 @@ msgctxt ""
 "par_id71641991391123\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-17\",1)</input> returns 1 because <emph>Type</emph> was set to 1 and the interval contains a Monday, since 2022-01-12 is a Wednesday and 2022-01-17 is a Monday."
-msgstr ""
+msgstr "<input>=WOCHEN(\"12.01.2022\";\"17.01.2022\";1)</input> gibt 1 zurück, weil <emph>Type</emph> auf 1 gesetzt wurde und das Intervall einen Montag enthält, da der 12.01.2022 ein Mittwoch und der 17.01.2022 ein Montag ist."
 
 #. E89BB
 #: 04060111.xhp
@@ -20678,7 +20679,7 @@ msgctxt ""
 "par_id71641991332523\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-15\",1)</input> returns 0 because <emph>Type</emph> was set to 1 and the interval does not contain any Mondays, except for the start date."
-msgstr ""
+msgstr "<input>=WOCHEN(\"10.01.2022\";\"15.01.2022\";1)</input> gibt 0 zurück, weil <emph>Typ</emph> auf 1 gesetzt wurde und das Intervall keine Montage enthält, mit Ausnahme des Startdatums."
 
 #. fQyTx
 #: 04060111.xhp
@@ -50756,7 +50757,7 @@ msgctxt ""
 "par_id681725905689582\n"
 "help.text"
 msgid "Selects or removes the duplicate rows or columns from the selection. The duplicate records dialog has various options."
-msgstr ""
+msgstr "Doppelte Zeilen oder Spalten der Auswahl auswählen oder entfernen. Der Dialog für doppelte Datensätze bietet verschiedene Optionen."
 
 #. BHDWE
 #: HandleDuplicateRecords.xhp
@@ -50765,7 +50766,7 @@ msgctxt ""
 "par_id151725960913414\n"
 "help.text"
 msgid "<emph>Compare:</emph> specifies whether to compare rows or columns."
-msgstr ""
+msgstr "<emph>Vergleichen:</emph> gibt an, ob Zeilen oder Spalten verglichen werden sollen."
 
 #. yrWBU
 #: HandleDuplicateRecords.xhp
@@ -50774,7 +50775,7 @@ msgctxt ""
 "par_id991725961010287\n"
 "help.text"
 msgid "<emph>Header:</emph> specifies if the selected data includes table headers. If checked, the table headers (the first row or column) are ignored."
-msgstr ""
+msgstr "<emph>Kopfzeile:</emph> gibt an, ob die ausgewählten Daten Tabellenüberschriften enthalten. Wenn diese Option aktiviert ist, werden die Tabellenüberschriften (die erste Zeile oder Spalte) ignoriert."
 
 #. 7nAND
 #: HandleDuplicateRecords.xhp
@@ -50783,7 +50784,7 @@ msgctxt ""
 "par_id61725963172527\n"
 "help.text"
 msgid "<emph>Compare by:</emph> specifies which fields to compare (and which to ignore) when determining whether two rows or columns are duplicates or not."
-msgstr ""
+msgstr "<emph>Vergleichen mit:</emph> gibt an, welche Felder verglichen werden sollen (und welche ignoriert werden sollen), um zu bestimmen, ob zwei Zeilen oder Spalten Dopplungen sind oder nicht."
 
 #. Khs7p
 #: HandleDuplicateRecords.xhp
@@ -50792,7 +50793,7 @@ msgctxt ""
 "par_id741725979527610\n"
 "help.text"
 msgid "<emph>Action:</emph> specifies whether to select or remove the duplicate rows or columns."
-msgstr ""
+msgstr "<emph>Aktion:</emph> gibt an, ob die doppelten Zeilen oder Spalten ausgewählt oder entfernt werden sollen."
 
 #. 5GGem
 #: HideNote.xhp
@@ -53051,7 +53052,7 @@ msgctxt ""
 "hd_id801727204890686\n"
 "help.text"
 msgid "<variable id=\"reserved_reference_keywords_hd\">Reserved reference keywords</variable>"
-msgstr ""
+msgstr "<variable id=\"reserved_reference_keywords_hd\">Reservierte Schlüsselwörter für Bezüge</variable>"
 
 #. xbK2i
 #: database_table_reference.xhp
@@ -53060,7 +53061,7 @@ msgctxt ""
 "par_id921727205221496\n"
 "help.text"
 msgid "Keyword"
-msgstr ""
+msgstr "Schlüsselwort"
 
 #. TkCP2
 #: database_table_reference.xhp
@@ -53069,7 +53070,7 @@ msgctxt ""
 "par_id311727205224800\n"
 "help.text"
 msgid "Usage"
-msgstr ""
+msgstr "Verwendung"
 
 #. DTs7e
 #: database_table_reference.xhp
@@ -53078,7 +53079,7 @@ msgctxt ""
 "par_id811727205227612\n"
 "help.text"
 msgid "Example"
-msgstr ""
+msgstr "Beispiel"
 
 #. mvcz3
 #: database_table_reference.xhp
@@ -53087,7 +53088,7 @@ msgctxt ""
 "par_id741727205444930\n"
 "help.text"
 msgid "The keyword <literal>[#Headers]</literal>  references the row of field names (column labels). It is the first row of the database range."
-msgstr ""
+msgstr "Das Schlüsselwort <literal>[#Headers]</literal> verweist auf die Zeile mit den Feldnamen (Spaltenbeschriftungen). Es handelt sich dabei um die erste Zeile des Datenbankbereichs."
 
 #. GcxXc
 #: database_table_reference.xhp
@@ -53096,7 +53097,7 @@ msgctxt ""
 "par_id701727205544887\n"
 "help.text"
 msgid "If the database range has no labels row defined (Contains columns row), a #REF!  error is generated."
-msgstr ""
+msgstr "Wenn für den Datenbankbereich keine Beschriftungszeile definiert ist (Zeile „Enthält Spalten“), wird ein Fehler #REF! generiert."
 
 #. rNQVw
 #: database_table_reference.xhp
@@ -53105,7 +53106,7 @@ msgctxt ""
 "par_id161727205452550\n"
 "help.text"
 msgid "The expression <literal>myData[#Headers]</literal> references the cells <literal>A1:D1</literal>."
-msgstr ""
+msgstr "Der Ausdruck <literal>meineDaten[#Headers]</literal> verweist auf die Zellen <literal>A1:D1</literal>."
 
 #. PQxNG
 #: database_table_reference.xhp
@@ -53114,7 +53115,7 @@ msgctxt ""
 "par_id601727205675886\n"
 "help.text"
 msgid "The short form <input>myData[]</input> can be used as well."
-msgstr ""
+msgstr "Die Kurzform <input>meineDaten[]</input> kann ebenfalls verwendet werden."
 
 #. wL8E5
 #: database_table_reference.xhp
@@ -53123,7 +53124,7 @@ msgctxt ""
 "par_id481727205632987\n"
 "help.text"
 msgid "The expression <input>myData[#Data]</input> references the cell rectangle <input>A2:D10</input>."
-msgstr ""
+msgstr "Der Ausdruck <input>meineDaten[#Data]</input> verweist auf den Zellbereich <input>A2:D10</input>."
 
 #. kzXVD
 #: database_table_reference.xhp
@@ -53132,7 +53133,7 @@ msgctxt ""
 "par_id211727205840457\n"
 "help.text"
 msgid "If the database range has no line of totals defined (<link href=\"text/scalc/01/12010000.xhp#contains_totals_row\"><menuitem>Contains totals row</menuitem></link>), a #REF! error is generated."
-msgstr ""
+msgstr "Wenn für den Datenbankbereich keine Zeile mit Gesamtsummen definiert ist (<link href=\"text/scalc/01/12010000.xhp#contains_totals_row\"><menuitem>Enthält Summenzeile</menuitem></link>), wird ein Fehler #REF! generiert."
 
 #. RhUsA
 #: database_table_reference.xhp
@@ -53141,7 +53142,7 @@ msgctxt ""
 "par_id691727205815586\n"
 "help.text"
 msgid "The expression <input>myData[#Totals]</input> references the cells <input>A11:D11</input>."
-msgstr ""
+msgstr "Der Ausdruck <input>meineDaten[#Totals]</input> verweist auf die Zellen <input>A11:D11</input>."
 
 #. CPKPU
 #: database_table_reference.xhp
@@ -53150,7 +53151,7 @@ msgctxt ""
 "par_id151727205893803\n"
 "help.text"
 msgid "The keyword <literal>[#All]</literal> references the entire database range including column labels and totals."
-msgstr ""
+msgstr "Das Schlüsselwort <literal>[#All]</literal> verweist auf den gesamten Datenbankbereich inklusive Spaltenbeschriftungen und Summen."
 
 #. Jy5V9
 #: database_table_reference.xhp
@@ -53159,7 +53160,7 @@ msgctxt ""
 "par_id311727205907842\n"
 "help.text"
 msgid "The expression <input>myData[#All]</input> references the cells <input>A1:D11</input>."
-msgstr ""
+msgstr "Der Ausdruck <input>meineDaten[#All]</input> verweist auf die Zellen <input>A1:D11</input>."
 
 #. bvT59
 #: database_table_reference.xhp
@@ -53168,7 +53169,7 @@ msgctxt ""
 "par_id221727205934899\n"
 "help.text"
 msgid "This keyword describes an <link href=\"text/scalc/01/04060107.xhp#implicit_intersection\">implicit intersection</link>."
-msgstr ""
+msgstr "Dieses Schlüsselwort beschreibt eine <link href=\"text/scalc/01/04060107.xhp#implicit_intersection\">implizite Schnittmenge</link>."
 
 #. YF62m
 #: database_table_reference.xhp
@@ -53177,7 +53178,7 @@ msgctxt ""
 "par_id491727205948824\n"
 "help.text"
 msgid "If the expression <literal>myData[#This Row]</literal> is used in a formula in cell <input>F2</input>, it references <input>A2:D2</input>. If the same expression is used in a formula in cell <input>F5</input>, it references <input>A5:D5</input>."
-msgstr ""
+msgstr "Wenn der Ausdruck <literal>meineDaten[#This Row]</literal> in einer Formel in Zelle <input>F2</input> verwendet wird, verweist er auf <input>A2:D2</input>. Wenn der gleiche Ausdruck in einer Formel in Zelle <input>F5</input> verwendet wird, verweist er auf <input>A5:D5</input>."
 
 #. gB7fC
 #: database_table_reference.xhp
@@ -53186,7 +53187,7 @@ msgctxt ""
 "hd_id411727208826224\n"
 "help.text"
 msgid "<variable id=\"field name in square brackets_hd\">Field name in square brackets</variable>"
-msgstr ""
+msgstr "<variable id=\"field name in square brackets_hd\">Feldname in eckigen Klammern</variable>"
 
 #. gDso3
 #: database_table_reference.xhp
@@ -53195,7 +53196,7 @@ msgctxt ""
 "par_id91727208864918\n"
 "help.text"
 msgid "To reference the array of all values in the records that belong to the same field, use the form <input>[field name]</input>. The referenced cell range does not include label and totals."
-msgstr ""
+msgstr "Um auf die Matrix aller Werte in den Datensätzen zu verweisen, die zum selben Feld gehören, verwenden Sie das Format <input>[Feldname]</input>. Der referenzierte Zellbereich enthält keine Beschriftung und Summen."
 
 #. JVr5e
 #: database_table_reference.xhp
@@ -53204,7 +53205,7 @@ msgctxt ""
 "hd_id621727375719966\n"
 "help.text"
 msgid "Example"
-msgstr ""
+msgstr "Beispiel"
 
 #. atEon
 #: database_table_reference.xhp
