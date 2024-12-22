@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-12-21 18:03+0100\n"
-"PO-Revision-Date: 2024-12-22 06:11+0000\n"
+"PO-Revision-Date: 2024-12-22 06:25+0000\n"
 "Last-Translator: Christian Kühl <kuehl.christian@googlemail.com>\n"
 "Language-Team: German <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/de/>\n"
 "Language: de\n"
@@ -31055,7 +31055,7 @@ msgctxt ""
 "bas_id461725547890578\n"
 "help.text"
 msgid "MsgBox Mid(start:=10, string:=\"The quick brown fox ..\") ' shows \" brown fox ..\""
-msgstr ""
+msgstr "MsgBox Mid(start:=12, string:=\"Der schnelle braune Fuchs ...\") ' zeigt \" braune Fuchs ...\" an"
 
 #. td8sM
 #: 03120306.xhp
@@ -31064,7 +31064,7 @@ msgctxt ""
 "bas_id291731517149800\n"
 "help.text"
 msgid "stmt2:"
-msgstr ""
+msgstr "stmt2:"
 
 #. c6TTN
 #: 03120306.xhp
@@ -31073,7 +31073,7 @@ msgctxt ""
 "bas_id31731517580882\n"
 "help.text"
 msgid "MsgBox text               ' returns \"This is a new Phrase\""
-msgstr ""
+msgstr "MsgBox text               ' gibt \"This is a new Phrase\" zurück"
 
 #. QaBwC
 #: 03120306.xhp
@@ -31082,7 +31082,7 @@ msgctxt ""
 "par_idm1341550256\n"
 "help.text"
 msgid "End Sub"
-msgstr ""
+msgstr "End Sub"
 
 #. t5jGn
 #: 03120307.xhp
@@ -31829,7 +31829,7 @@ msgctxt ""
 "par_id3146957\n"
 "help.text"
 msgid "InStr ([Start As Long,] String1 As String, String2 As String[, Compare As Integer]) As Integer"
-msgstr ""
+msgstr "InStr ([Start As Long,] String1 As String, String2 As String[, Compare As Integer]) As Integer"
 
 #. dkQe4
 #: 03120401.xhp
@@ -31847,7 +31847,7 @@ msgctxt ""
 "par_id3145609\n"
 "help.text"
 msgid "<emph>String1</emph>: The string expression being searched."
-msgstr ""
+msgstr "<emph>String1</emph>: Die gesuchte Zeichenfolge."
 
 #. BGDxD
 #: 03120401.xhp
@@ -31865,7 +31865,7 @@ msgctxt ""
 "par_id3154758\n"
 "help.text"
 msgid "<emph>Compare</emph>: Optional type of comparison. The value can be 0 or 1. The default value of 1 specifies case-insensitive. The value of 0 specifies case-sensitive."
-msgstr ""
+msgstr "<emph>Compare</emph>: Optionaler Vergleichstyp. Der Wert kann 0 oder 1 sein. Der Standardwert 1 legt fest, dass die Groß-/Kleinschreibung nicht beachtet wird. Der Wert 0 legt fest, dass die Groß-/Kleinschreibung beachtet wird."
 
 #. Tn5if
 #: 03120401.xhp
@@ -31874,7 +31874,7 @@ msgctxt ""
 "par_id3154888\n"
 "help.text"
 msgid "Case-insensitive comparison may use locale specifics, for example, \"s\" may match \"β\"."
-msgstr ""
+msgstr "Bei einem Vergleich ohne Berücksichtigung der Groß-/Kleinschreibung können lokalspezifische Besonderheiten verwendet werden. Beispielsweise kann „s“ mit „β“ übereinstimmen."
 
 #. R5Ars
 #: 03120401.xhp
@@ -31883,7 +31883,7 @@ msgctxt ""
 "par_id3153361\n"
 "help.text"
 msgid "To avoid a run-time error, do not set the <emph>Compare</emph> parameter if the <emph>Start</emph> parameter is omitted."
-msgstr ""
+msgstr "Der Parameter <emph>Compare</emph> sollte nicht gesetzt werden, wenn der Parameter <emph>Start</emph> weggelassen wurde. Andernfalls kann es zu einem Laufzeitfehler kommen."
 
 #. gRVcn
 #: 03120401.xhp
@@ -31901,7 +31901,7 @@ msgctxt ""
 "par_idm1341609888\n"
 "help.text"
 msgid "Instr(sCalc, \"calc\")     ' returns 13"
-msgstr ""
+msgstr "Instr(sCalc, \"calc\")     ' gibt „13“ zurück"
 
 #. ZVxZC
 #: 03120401.xhp
@@ -31910,7 +31910,7 @@ msgctxt ""
 "par_id31447603655\n"
 "help.text"
 msgid "Instr(String1:=sCalc, String2:=\"calc\", Start:=1)  ' returns 13"
-msgstr ""
+msgstr "Instr(String1:=sCalc, String2:=\"calc\", Start:=1)  ' gibt „13“ zurück"
 
 #. HNA5V
 #: 03120401.xhp
@@ -31919,7 +31919,7 @@ msgctxt ""
 "par_id31541252287\n"
 "help.text"
 msgid "Instr(11, sCalc, \"c\")     ' returns 13"
-msgstr ""
+msgstr "Instr(11, sCalc, \"c\")     ' gibt „13“ zurück"
 
 #. TeBMs
 #: 03120401.xhp
@@ -31928,7 +31928,7 @@ msgctxt ""
 "par_idm1341605124\n"
 "help.text"
 msgid "Instr(11, sCalc, \"c\",  1) ' returns 13"
-msgstr ""
+msgstr "Instr(11, sCalc, \"c\",  1) ' gibt „13“ zurück"
 
 #. AYYpx
 #: 03120401.xhp
@@ -31937,7 +31937,7 @@ msgctxt ""
 "par_idm1341605126\n"
 "help.text"
 msgid "Instr(11, sCalc, \"c\",  0) ' returns 16"
-msgstr ""
+msgstr "Instr(11, sCalc, \"c\",  0) ' gibt „16“ zurück"
 
 #. ZG3QS
 #: 03120402.xhp
@@ -40460,7 +40460,7 @@ msgctxt ""
 "par_id601593699108443\n"
 "help.text"
 msgid "%PRODUCTNAME Basic statements use syntax diagrams and textual conventions that follow these notations:"
-msgstr ""
+msgstr "Anweisungen in %PRODUCTNAME Basic verwenden Syntaxdiagramme und Textkonventionen, die diesen Notationen folgen:"
 
 #. jufhF
 #: conventions.xhp
@@ -40469,7 +40469,7 @@ msgctxt ""
 "par_id158193699546735\n"
 "help.text"
 msgid "%PRODUCTNAME Basic keywords or functions use camel casing: Call, DimArray, InputBox, Property."
-msgstr ""
+msgstr "Schlüsselwörter und Funktionen in %PRODUCTNAME Basic verwenden Binnenmajuskel: Call, DimArray, InputBox, Property."
 
 #. ny9xr
 #: conventions.xhp
@@ -40595,7 +40595,7 @@ msgctxt ""
 "par_id712593699548486\n"
 "help.text"
 msgid "<emph>{choice1|choice2}</emph> Items inside curly braces are mandatory, alternatives are indicated with a vertical bar."
-msgstr ""
+msgstr "<emph>{choice1|choice2}</emph> Elemente in geschweiften Klammern sind obligatorisch, Alternativen werden mit einem senkrechten Strich gekennzeichnet."
 
 #. VFKcU
 #: conventions.xhp
@@ -40613,7 +40613,7 @@ msgctxt ""
 "N0018\n"
 "help.text"
 msgid "GoTo there ' skip first statement and display '2'"
-msgstr ""
+msgstr "GoTo there ' erste Anweisung überspringen und \"2\" anzeigen"
 
 #. heiDo
 #: conventions.xhp
@@ -40622,7 +40622,7 @@ msgctxt ""
 "N0019\n"
 "help.text"
 msgid "here: Print 1, : there: Print 2 REM multi-statement line"
-msgstr ""
+msgstr "here: Print 1, : there: Print 2 REM Zeile mit Mehrfachanweisungen"
 
 #. Wsc4k
 #: doEvents.xhp
@@ -41495,7 +41495,7 @@ msgctxt ""
 "par_id3147226\n"
 "help.text"
 msgid "This help section explains the most common functions of %PRODUCTNAME Basic. For more in-depth information please refer to the <link href=\"https://wiki.documentfoundation.org/Documentation/BASIC_Guide\">%PRODUCTNAME BASIC Programming Guide</link> on the Wiki."
-msgstr ""
+msgstr "In diesem Hilfeabschnitt werden die häufigsten Funktionen von %PRODUCTNAME Basic erläutert. Ausführlichere Informationen finden Sie im <link href=\"https://wiki.documentfoundation.org/Documentation/BASIC_Guide\">%PRODUCTNAME BASIC-Programmierhandbuch</link> im Wiki."
 
 #. s6H2V
 #: main0601.xhp
@@ -42278,7 +42278,7 @@ msgctxt ""
 "par_id051720170424259343\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/vbasupport.xhp\">VBA support in %PRODUCTNAME</link>"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/vbasupport.xhp\">VBA-Unterstützung in %PRODUCTNAME</link>"
 
 #. XtgXo
 #: special_vba_func.xhp
@@ -42287,7 +42287,7 @@ msgctxt ""
 "par_id051720171119254111\n"
 "help.text"
 msgid "<link href=\"text/shared/optionen/01130100.xhp\">VBA Properties</link>"
-msgstr ""
+msgstr "<link href=\"text/shared/optionen/01130100.xhp\">VBA-Eigenschaften</link>"
 
 #. ZEw4t
 #: stardesktop.xhp
@@ -42782,7 +42782,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "VBA Supported Objects"
-msgstr ""
+msgstr "unterstützte VBA-Objekte"
 
 #. UGqXH
 #: vba_objects.xhp
@@ -42791,7 +42791,7 @@ msgctxt ""
 "bm_id051920170350145208\n"
 "help.text"
 msgid "<bookmark_value>VBA Model;Introduction</bookmark_value>    <bookmark_value>VBA Model;Supported objects</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>VBA-Modell; Einführung</bookmark_value><bookmark_value>VBA-Modell; Unterstützte Objekte</bookmark_value>"
 
 #. 67BPQ
 #: vba_objects.xhp
@@ -42800,7 +42800,7 @@ msgctxt ""
 "hd_id051820170313205718\n"
 "help.text"
 msgid "<variable id=\"Title\"><link href=\"text/sbasic/shared/vba_objects.xhp\">VBA supported Data Model</link></variable>"
-msgstr ""
+msgstr "<variable id=\"Title\"><link href=\"text/sbasic/shared/vba_objects.xhp\">Unterstütztes VBA-Datenmodell</link></variable>"
 
 #. BaK2E
 #: vba_objects.xhp
@@ -42809,7 +42809,7 @@ msgctxt ""
 "par_id051820170314436068\n"
 "help.text"
 msgid "%PRODUCTNAME Basic adds this set of functionalities when VBA Office support is active."
-msgstr ""
+msgstr "%PRODUCTNAME Basic fügt diesen Satz von Funktionen hinzu, wenn die Unterstützung für VBA-Office aktiv ist."
 
 #. bocnw
 #: vba_objects.xhp
@@ -42818,7 +42818,7 @@ msgctxt ""
 "hd_id051820170407499827\n"
 "help.text"
 msgid "These exclusive %PRODUCTNAME VBA objects properties and methods are enabled when:"
-msgstr ""
+msgstr "Diese exklusiven Eigenschaften und Methoden der %PRODUCTNAME VBA-Objekte werden in folgenden Fällen aktiviert:"
 
 #. CDUX5
 #: vba_objects.xhp
@@ -42827,7 +42827,7 @@ msgctxt ""
 "par_id731719825012469\n"
 "help.text"
 msgid "A Basic module is set with <literal>VBAModule</literal> special attribute."
-msgstr ""
+msgstr "Ein Basic-Modul wird mit dem speziellen Attribut <literal>VBAModule</literal> festgelegt."
 
 #. QeMwW
 #: vba_objects.xhp
