@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-12-21 18:03+0100\n"
-"PO-Revision-Date: 2024-12-30 22:23+0000\n"
+"PO-Revision-Date: 2024-12-31 05:45+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/da/>\n"
 "Language: da\n"
@@ -64224,7 +64224,7 @@ msgctxt ""
 "par_id2953152\n"
 "help.text"
 msgid "<emph>Number_bytes</emph> (optional) specifies the number of characters you want LEFTB to extract, based on bytes. If this parameter is not defined, one character is returned."
-msgstr ""
+msgstr "<emph>Antal_bytes</emph> (valgfri) angiver antallet af tegn, som VENSTREB skal returnere, baseret på bytes. Hvis denne parameter er udeladt, bliver ét tegn returneret."
 
 #. ePDBf
 #: func_leftb.xhp
@@ -64233,7 +64233,7 @@ msgctxt ""
 "par_id2949141\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";1)</item> returns \" \" (1 byte is only half a DBCS character and a space character is returned instead)."
-msgstr ""
+msgstr "<item type=\"input\">=VENSTREB(\"中国\";1)</item> returnerer \" \" (1 byte er kun det halvt DBCS-tegn, og i stedet returneres et mellemrumstegn)."
 
 #. QCARB
 #: func_leftb.xhp
@@ -64242,7 +64242,7 @@ msgctxt ""
 "par_id2949151\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";2)</item> returns \"中\" (2 bytes constitute one complete DBCS character)."
-msgstr ""
+msgstr "<item type=\"input\">=VENSTREB(\"中国\";2)</item> returnerer \"中\" (2 bytes udgør et helt DBCS-tegn)."
 
 #. CN6Ar
 #: func_leftb.xhp
@@ -64251,7 +64251,7 @@ msgctxt ""
 "par_id2949161\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";3)</item> returns \"中 \" (3 bytes constitute one DBCS character and a half; the last character returned is therefore a space character)."
-msgstr ""
+msgstr "<item type=\"input\">=VENSTREB(\"中国\";3)</item> returnerer \"中 \" (3 bytes udgør halvandet DBCS-tegn; det sidste tegn returneres derfor som et mellemrum)."
 
 #. fzSfg
 #: func_leftb.xhp
@@ -64260,7 +64260,7 @@ msgctxt ""
 "par_id2949171\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"中国\";4)</item> returns \"中国\" (4 bytes constitute two complete DBCS characters)."
-msgstr ""
+msgstr "<item type=\"input\">=VENSTREB(\"中国\";4)</item> returnerer \"中国\" (4 bytes udgør to hele DBCS-tegn)."
 
 #. Yqnmm
 #: func_leftb.xhp
@@ -64269,7 +64269,7 @@ msgctxt ""
 "par_id2949181\n"
 "help.text"
 msgid "<item type=\"input\">=LEFTB(\"office\";3)</item> returns \"off\" (3 non-DBCS characters each consisting of 1 byte)."
-msgstr ""
+msgstr "<item type=\"input\">=VENSTREB(\"kontor\";3)</item> returnerer \"kon\" (3 ikke-DBCS-tegn som hver består af 1 byte)."
 
 #. CGhFF
 #: func_len.xhp
