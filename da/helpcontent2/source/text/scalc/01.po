@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-12-21 18:03+0100\n"
-"PO-Revision-Date: 2024-12-29 05:45+0000\n"
+"PO-Revision-Date: 2024-12-30 05:45+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/da/>\n"
 "Language: da\n"
@@ -14174,7 +14174,7 @@ msgctxt ""
 "bm_id3165633\n"
 "help.text"
 msgid "<bookmark_value>AutoFilter function; subtotals</bookmark_value>  <bookmark_value>sums;of filtered data</bookmark_value>  <bookmark_value>filtered data; sums</bookmark_value>  <bookmark_value>SUBTOTAL function</bookmark_value>"
-msgstr "<bookmark_value>Autofilter-funktion; subtotaler</bookmark_value>    <bookmark_value>summer;af filtrerede data</bookmark_value>     <bookmark_value>filtrerede data; summer</bookmark_value>     <bookmark_value>SUBTOTAL-funktion</bookmark_value>"
+msgstr "<bookmark_value>Autofilter-funktion; delresultater</bookmark_value>  <bookmark_value>sammentælling; af filtrerede data</bookmark_value>  <bookmark_value>filtrerede data; sammentælling</bookmark_value>  <bookmark_value>SUBTOTAL-funktion</bookmark_value>"
 
 #. 9QijC
 #: 04060106.xhp
@@ -14192,7 +14192,7 @@ msgctxt ""
 "par_id3165682\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_TEILERGEBNIS\">Calculates subtotals.</ahelp> If a range already contains subtotals, these are not used for further calculations. Use this function with the AutoFilters to take only the filtered records into account."
-msgstr "<ahelp hid=\"HID_FUNC_TEILERGEBNIS\">Beregner subtotaler.</ahelp> Hvis et område allerede indeholder subtotaler, vil disse ikke blive brugt til videre beregninger. Brug denne funktion sammen med Autofilter for kun at tage de filtrerede dataposter i betragtning."
+msgstr "<ahelp hid=\"HID_FUNC_TEILERGEBNIS\">Beregner delresultater.</ahelp> Hvis et område allerede indeholder delresultater, vil disse ikke blive brugt til videre beregninger. Brug denne funktion sammen med Autofilter for kun at tage de filtrerede dataposter i betragtning."
 
 #. C5Dzz
 #: 04060106.xhp
@@ -18352,7 +18352,7 @@ msgctxt ""
 "par_id3083286\n"
 "help.text"
 msgid "<item type=\"input\">=SUM(INDIRECT(\"a1:\" & ADDRESS(1;3)))</item> totals the cells in the area of A1 up to the cell with the address defined by row 1 and column 3. This means that area A1:C1 is totaled."
-msgstr "<item type=\"input\">=SUM(INDIREKTE(\"A1:\" & ADRESSE(1;3)))</item> summerer cellerne i området fra A1 op til cellen, hvis adresse er defineret ved række 1 og kolonne 3. Det vil sige: A1:C1 er opsummeret."
+msgstr "<item type=\"input\">=SUM(INDIREKTE(\"A1:\" & ADRESSE(1;3)))</item> sammentæller cellerne i området fra A1 op til cellen, hvis adresse er defineret ved række 1 og kolonne 3. Det betyder, at området A1:C1 bliver sammentalt."
 
 #. MssCB
 #: 04060109.xhp
@@ -44915,7 +44915,7 @@ msgctxt ""
 "hd_id411722523496992\n"
 "help.text"
 msgid "<variable id=\"contains_totals_row_hd\">Contains totals row</variable>"
-msgstr "<variable id=\"contains_totals_row_hd\">Indeholder sum-række</variable>"
+msgstr "<variable id=\"contains_totals_row_hd\">Indeholder sammentællingsrække</variable>"
 
 #. F9PVb
 #: 12010000.xhp
@@ -44924,7 +44924,7 @@ msgctxt ""
 "par_id301722523732163\n"
 "help.text"
 msgid "The database range has a row for totals."
-msgstr "Databaseområdet har den række for summer."
+msgstr "Databaseområdet har en række til sammentælling."
 
 #. NoKQk
 #: 12010000.xhp
@@ -45014,7 +45014,7 @@ msgctxt ""
 "par_id461722457896244\n"
 "help.text"
 msgid "Denotes what operations (if any) have been applied to the database range. For example, “Sort”, “Filter”, or “Subtotals”."
-msgstr "Angiver hvilke operationer (hvis nogen), der er blevet anvendt på databaseområdet. For eksempel \"Sortering\", \"Filtrering\" eller \"Subtotaler\"."
+msgstr "Angiver hvilke operationer (hvis nogen), der er blevet anvendt på databaseområdet. For eksempel \"Sortering\", \"Filtrering\" eller \"Delresultater\"."
 
 #. UpzQF
 #: 12020000.xhp
@@ -46256,7 +46256,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Subtotals"
-msgstr "Subtotaler"
+msgstr "Delresultater"
 
 #. BdVbn
 #: 12050000.xhp
@@ -46265,7 +46265,7 @@ msgctxt ""
 "hd_id3153822\n"
 "help.text"
 msgid "<variable id=\"subtotalheaderh1\"><link href=\"text/scalc/01/12050000.xhp\">Subtotals</link></variable>"
-msgstr "<variable id=\"subtotalheaderh1\"><link href=\"text/scalc/01/12050000.xhp\">Subtotaler</link></variable>"
+msgstr "<variable id=\"subtotalheaderh1\"><link href=\"text/scalc/01/12050000.xhp\">Delresultater</link></variable>"
 
 #. 2jiYA
 #: 12050000.xhp
@@ -46274,7 +46274,7 @@ msgctxt ""
 "par_id3145119\n"
 "help.text"
 msgid "<variable id=\"teilergebnisse\"><ahelp hid=\".uno:DataSubTotals\" visibility=\"visible\">Calculates subtotals for the columns that you select.</ahelp></variable> $[officename] uses the SUM function to automatically calculate the subtotal and grand total values in a labeled range. You can also use other functions to perform the calculation. $[officename] automatically recognizes a defined database area when you place the cursor in it."
-msgstr "<variable id=\"teilergebnisse\"><ahelp hid=\".uno:DataSubTotals\" visibility=\"visible\">Beregner subtotaler for de kolonner, som du vælger.</ahelp></variable> $[officename] bruger funktionen SUM til automatisk at beregne værdier for subtotal og sluttotal i et markeret område. Du kan også bruge andre funktioner til at udføre beregningen. $[officename] genkender automatisk et defineret databaseområde, når du placerer markøren i det."
+msgstr "<variable id=\"teilergebnisse\"><ahelp hid=\".uno:DataSubTotals\" visibility=\"visible\">Beregner delresultater for de kolonner, som du vælger.</ahelp></variable> $[officename] bruger funktionen SUM til automatisk at beregne værdier for delresultater og overordnede sammentællinger i et markeret område. Du kan også bruge andre funktioner til at udføre beregningen. $[officename] genkender automatisk et defineret databaseområde, når du placerer markøren i det."
 
 #. gjGHV
 #: 12050000.xhp
@@ -46346,7 +46346,7 @@ msgctxt ""
 "par_id3154013\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/subtotalgrppage/group_by\">Select the column that you want to control the subtotal calculation process. If the contents of the selected column change, the subtotals are automatically recalculated.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/subtotalgrppage/group_by\">Vælg den kolonne, som skal styre beregningen af subtotaler. Hvis indholdet af den valgte kolonne ændres, bliver subtotalerne automatisk genberegnet.</ahelp>"
+msgstr "<ahelp hid=\"modules/scalc/ui/subtotalgrppage/group_by\">Vælg den kolonne, som skal styre beregningen af delresultater. Hvis indholdet af den valgte kolonne ændres, bliver delresultaterne automatisk genberegnet.</ahelp>"
 
 #. 7xLi2
 #: 12050100.xhp
@@ -46355,7 +46355,7 @@ msgctxt ""
 "hd_id3154943\n"
 "help.text"
 msgid "Calculate subtotals for"
-msgstr "Beregn subtotaler for"
+msgstr "Beregn delresultater for"
 
 #. fbUBS
 #: 12050100.xhp
@@ -46382,7 +46382,7 @@ msgctxt ""
 "par_id3145647\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/subtotalgrppage/functions\">Select the mathematical function that you want to use to calculate the subtotals.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/subtotalgrppage/functions\">Vælg den matematiske funktion, som du vil bruge til at beregne subtotalerne med.</ahelp>"
+msgstr "<ahelp hid=\"modules/scalc/ui/subtotalgrppage/functions\">Vælg den matematiske funktion, som du vil bruge til at beregne delresultaterne med.</ahelp>"
 
 #. 4doSE
 #: 12050200.xhp
@@ -46418,7 +46418,7 @@ msgctxt ""
 "par_id3154124\n"
 "help.text"
 msgid "<ahelp hid=\".\">Specify the settings for calculating and presenting subtotals.</ahelp>"
-msgstr "<ahelp hid=\".\">Angiv indstillingerne for beregning og præsentation af subtotaler.</ahelp>"
+msgstr "<ahelp hid=\".\">Angiv indstillingerne for beregning og præsentation af delresultater.</ahelp>"
 
 #. wFA2A
 #: 12050200.xhp
@@ -46454,7 +46454,7 @@ msgctxt ""
 "par_id3153190\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/subtotaloptionspage/case\">Recalculates subtotals when you change the case of a data label.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/subtotaloptionspage/case\">Genberegner subtotaler når du ændrer størrelsen af en data etiket.</ahelp>"
+msgstr "<ahelp hid=\"modules/scalc/ui/subtotaloptionspage/case\">Genberegner delresultater når du ændrer størrelsen af en dataetiket.</ahelp>"
 
 #. qDCGN
 #: 12050200.xhp
@@ -48443,7 +48443,7 @@ msgctxt ""
 "hd_id3152596\n"
 "help.text"
 msgid "Subtotals"
-msgstr "Subtotaler"
+msgstr "Delresultater"
 
 #. AwY8j
 #: 12090105.xhp
@@ -48452,7 +48452,7 @@ msgctxt ""
 "par_id3151113\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/pivotfielddialog/PivotFieldDialog\">Specify the subtotals that you want to calculate.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/pivotfielddialog/PivotFieldDialog\">Angiver de subtotaler, som du vil beregne.</ahelp>"
+msgstr "<ahelp hid=\"modules/scalc/ui/pivotfielddialog/PivotFieldDialog\">Angiv hvilke delresultater, du vil beregne.</ahelp>"
 
 #. 7qYLt
 #: 12090105.xhp
@@ -48470,7 +48470,7 @@ msgctxt ""
 "par_id3152576\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/pivotfielddialog/none\">Does not calculate subtotals.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/pivotfielddialog/none\">Beregner ikke subtotaler.</ahelp>"
+msgstr "<ahelp hid=\"modules/scalc/ui/pivotfielddialog/none\">Beregner ikke delresultater.</ahelp>"
 
 #. 53F6w
 #: 12090105.xhp
@@ -48488,7 +48488,7 @@ msgctxt ""
 "par_id3155856\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/pivotfielddialog/auto\">Automatically calculates subtotals.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/pivotfielddialog/auto\">Beregner automatisk subtotaler.</ahelp>"
+msgstr "<ahelp hid=\"modules/scalc/ui/pivotfielddialog/auto\">Beregner automatisk delresultater.</ahelp>"
 
 #. FLUsK
 #: 12090105.xhp
@@ -48697,7 +48697,7 @@ msgctxt ""
 "par_idN10744\n"
 "help.text"
 msgid "From each result, its reference value (see below) is subtracted, and the difference is shown. Totals outside of the base field are shown as empty results."
-msgstr "Fra hvert resultat er dets referenceværdi (se forneden) trukket fra, og forskellen vises. Totaler udenfor grundfeltet er vist som tomme resultater."
+msgstr "Fra hvert resultat er dets referenceværdi (se forneden) trukket fra, og forskellen vises. Sammentællinger udenfor grundfeltet er vist som tomme resultater."
 
 #. UYiPU
 #: 12090105.xhp
@@ -48751,7 +48751,7 @@ msgctxt ""
 "par_idN10761\n"
 "help.text"
 msgid "Each result is divided by its reference value. The reference value is determined in the same way as for \"Difference from\". Totals outside of the base field are shown as empty results."
-msgstr "Hvert resultat divideres med sin referenceværdi. Referenceværdien er bestemt på samme måde som ved \"Forskellig fra\". Totaler udenfor grundfeltet vises som tomme resultater."
+msgstr "Hvert resultat divideres med sin referenceværdi. Referenceværdien er bestemt på samme måde som ved \"Forskellig fra\". Sammentællinger udenfor grundfeltet vises som tomme resultater."
 
 #. XH2hx
 #: 12090105.xhp
@@ -48769,7 +48769,7 @@ msgctxt ""
 "par_idN10770\n"
 "help.text"
 msgid "From each result, its reference value is subtracted, and the difference is divided by the reference value. The reference value is determined in the same way as for \"Difference from\". Totals outside of the base field are shown as empty results."
-msgstr "Fra hvert resultat er dets referenceværdi trukket fra, og forskellen divideres med referenceværdien. Referenceværdien er bestemt på samme måde som ved \"Afvigelse fra\". Totaler udenfor grundfeltet vises som tomme resultater."
+msgstr "Fra hvert resultat er dets referenceværdi trukket fra, og forskellen divideres med referenceværdien. Referenceværdien er bestemt på samme måde som ved \"Afvigelse fra\". Sammentællinger udenfor grundfeltet vises som tomme resultater."
 
 #. nQLwe
 #: 12090105.xhp
@@ -48814,7 +48814,7 @@ msgctxt ""
 "par_idN1078D\n"
 "help.text"
 msgid "Each result is divided by the total result for its row in the pivot table. If there are several data fields, the total for the result's data field is used. If there are subtotals with manually selected summary functions, the total with the data field's summary function is still used."
-msgstr "Hvert resultat er opdelt af samlet resultat for rækken i pivottabellen. Hvis der er adskillige datafelter, er totalen for de resulterende data brugt. Hvis der er subtotaler med manuelt valgt opsummeringsfunktioner, bruges totalen med datafelternes opsummering dog."
+msgstr "Hvert resultat divideres med sammentællingsresultatet for denne række i pivottabellen. Hvis der er flere datafelter, bruges sammentælling for resultatets datafelt. Hvis der er delresultater med manuelt valgte sammentællingsfunktioner, bruges stadig sammentælling med datafeltets sammentællingsfunktion."
 
 #. uu4sy
 #: 12090105.xhp
@@ -48868,7 +48868,7 @@ msgctxt ""
 "par_idN107B4\n"
 "help.text"
 msgid "The row and column totals and the grand total, following the same rules as above, are used to calculate the following expression:"
-msgstr "Række- og kolonnetotalerne og totalsummen bruges efter samme regler som ovenfor til beregning af følgende udtryk:"
+msgstr "Række- og kolonnesammentællingerne og den overordnede sammentælling bruges efter samme regler som ovenfor til beregning af følgende udtryk:"
 
 #. 4i2FD
 #: 12090105.xhp
@@ -52891,7 +52891,7 @@ msgctxt ""
 "par_id841727203311290\n"
 "help.text"
 msgid "Totals"
-msgstr "Summer"
+msgstr "Sammentælling"
 
 #. BcwP5
 #: database_table_reference.xhp
@@ -52900,7 +52900,7 @@ msgctxt ""
 "par_id831727204582132\n"
 "help.text"
 msgid "The cell range <input>A1:D11</input>  was defined as the <link href=\"text/scalc/01/12010000.xhp\">database range</link> \"<input>myData</input> \". The options <link href=\"text/scalc/01/12010000.xhp#contains_column_labels\"><menuitem>Contains column labels</menuitem></link> and <link href=\"text/scalc/01/12010000.xhp#contains_totals_row\"><menuitem>Contains totals row</menuitem></link> were checked when defining the <link href=\"text/scalc/01/12010000.xhp\">database range</link>."
-msgstr "Celleområdet <input>A1:D11</input> blev defineret som <link href=\"text/scalc/01/12010000.xhp\">databaseområdet</link> \"<input>mineData</input>\". Indstillingerne <link href=\"text/scalc/01/12010000.xhp#contains_column_labels\"><menuitem>Indeholder kolonneetiketter</menuitem></link> og <link href=\"text/scalc/01/12010000.xhp#contains_totals_row\"><menuitem>Indeholder sum-række</menuitem></link> blev markerede, da <link href=\"text/scalc/01/12010000.xhp\">databaseområdet</link> blev defineret."
+msgstr "Celleområdet <input>A1:D11</input> blev defineret som <link href=\"text/scalc/01/12010000.xhp\">databaseområdet</link> \"<input>mineData</input>\". Indstillingerne <link href=\"text/scalc/01/12010000.xhp#contains_column_labels\"><menuitem>Indeholder kolonneetiketter</menuitem></link> og <link href=\"text/scalc/01/12010000.xhp#contains_totals_row\"><menuitem>Indeholder sammentællingsrække</menuitem></link> blev markerede, da <link href=\"text/scalc/01/12010000.xhp\">databaseområdet</link> blev defineret."
 
 #. eSAxM
 #: database_table_reference.xhp
@@ -53035,7 +53035,7 @@ msgctxt ""
 "par_id211727205840457\n"
 "help.text"
 msgid "If the database range has no line of totals defined (<link href=\"text/scalc/01/12010000.xhp#contains_totals_row\"><menuitem>Contains totals row</menuitem></link>), a #REF! error is generated."
-msgstr "Hvis der ikke er defineret en sum-række for databaseområdet (se <link href=\"text/scalc/01/12010000.xhp#contains_totals_row\"><menuitem>Indeholder sum-række</menuitem></link>), så bliver en #REF!-fejl genereret."
+msgstr "Hvis der ikke er defineret en sammentællingsrække for databaseområdet (se <link href=\"text/scalc/01/12010000.xhp#contains_totals_row\"><menuitem>Indeholder sammentællingsrække</menuitem></link>), så bliver en #REF!-fejl genereret."
 
 #. RhUsA
 #: database_table_reference.xhp
@@ -53044,7 +53044,7 @@ msgctxt ""
 "par_id691727205815586\n"
 "help.text"
 msgid "The expression <input>myData[#Totals]</input> references the cells <input>A11:D11</input>."
-msgstr ""
+msgstr "Udtrykket <input>mineData[#Sammentælling]</input> refererer til cellerne <input>A11:D11</input>."
 
 #. CPKPU
 #: database_table_reference.xhp
@@ -53053,7 +53053,7 @@ msgctxt ""
 "par_id151727205893803\n"
 "help.text"
 msgid "The keyword <literal>[#All]</literal> references the entire database range including column labels and totals."
-msgstr ""
+msgstr "Nøgleordet <literal>[#Alle]</literal> refererer til hele databaseområdet, inklusive kolonneetiketter og sammentællinger."
 
 #. Jy5V9
 #: database_table_reference.xhp
@@ -53062,7 +53062,7 @@ msgctxt ""
 "par_id311727205907842\n"
 "help.text"
 msgid "The expression <input>myData[#All]</input> references the cells <input>A1:D11</input>."
-msgstr ""
+msgstr "Udtrykket <input>mineData[#Alle]</input> refererer til cellerne <input>A1:D11</input>."
 
 #. bvT59
 #: database_table_reference.xhp
@@ -53071,7 +53071,7 @@ msgctxt ""
 "par_id221727205934899\n"
 "help.text"
 msgid "This keyword describes an <link href=\"text/scalc/01/04060107.xhp#implicit_intersection\">implicit intersection</link>."
-msgstr ""
+msgstr "Dette nøgleord beskriver en <link href=\"text/scalc/01/04060107.xhp#implicit_intersection\">implicit fællesmængde</link>."
 
 #. YF62m
 #: database_table_reference.xhp
@@ -53080,7 +53080,7 @@ msgctxt ""
 "par_id491727205948824\n"
 "help.text"
 msgid "If the expression <literal>myData[#This Row]</literal> is used in a formula in cell <input>F2</input>, it references <input>A2:D2</input>. If the same expression is used in a formula in cell <input>F5</input>, it references <input>A5:D5</input>."
-msgstr ""
+msgstr "Hvis udtrykket <literal>mineData[#Denne række]</literal> bruges i en formel i celle <input>F2</input>, refererer det til <input>A2:D2</input>. Hvis det samme udtryk bruges i en formel i celle <input>F5</input>, refererer det til <input>A5:D5</input>."
 
 #. gB7fC
 #: database_table_reference.xhp
@@ -53089,7 +53089,7 @@ msgctxt ""
 "hd_id411727208826224\n"
 "help.text"
 msgid "<variable id=\"field name in square brackets_hd\">Field name in square brackets</variable>"
-msgstr ""
+msgstr "<variable id=\"field name in square brackets_hd\">Feltnavne i firkantede parenteser</variable>"
 
 #. gDso3
 #: database_table_reference.xhp
@@ -53098,7 +53098,7 @@ msgctxt ""
 "par_id91727208864918\n"
 "help.text"
 msgid "To reference the array of all values in the records that belong to the same field, use the form <input>[field name]</input>. The referenced cell range does not include label and totals."
-msgstr ""
+msgstr "For at referere til matricen af alle værdierne i de poster, som hører til samme felt, brug formen <input>[feltnavn]</input>. Det refererede celleområde inkluderer ikke etiketter og sammentællinger."
 
 #. JVr5e
 #: database_table_reference.xhp
@@ -53107,7 +53107,7 @@ msgctxt ""
 "hd_id621727375719966\n"
 "help.text"
 msgid "Example"
-msgstr ""
+msgstr "Eksempel"
 
 #. atEon
 #: database_table_reference.xhp
@@ -53116,7 +53116,7 @@ msgctxt ""
 "par_id41727208903631\n"
 "help.text"
 msgid "The expression <input>myData[[Region]]</input> or its simplified form <input>myData[Region]</input> references the cells <input>B2:B10</input>. If the database range has no label row, generic labels like <input>Column1</input>, <input>Column2</input> can be used."
-msgstr ""
+msgstr "Udtrykket <input>mineData[[Region]]</input> eller dets forenklede form <input>mineData[Region]</input> refererer til cellerne <input>B2:B10</input>. Hvis databaseområdet ikke har nogen etiketrække, kan generiske etiketter som <input>Kolonne1</input>, <input>Kolonne2</input> bruges."
 
 #. 88Fek
 #: database_table_reference.xhp
@@ -53125,7 +53125,7 @@ msgctxt ""
 "par_id141727208910739\n"
 "help.text"
 msgid "In Microsoft Excel, if the formula cell belongs to the table, then the name of the table may be omitted. For example, the formula <input>=SUM(myData[Sales]</input>) in cell <input>C11</input> could be written as <input>=SUM([Sales]</input>). Omission of the table name is not yet possible in Calc."
-msgstr ""
+msgstr "I Microsoft Excel kan tabelnavnet udelades, hvis formelcellen tilhører tabellen selv. For eksempel kunne formlen <input>=SUM(mineData[Salg])</input> i celle <input>C11</input> skrives som <input>=SUM([Salg])</input>. I Calc er udeladelse af tabelnavne endnu ikke muligt."
 
 #. DQizE
 #: database_table_reference.xhp
@@ -53134,7 +53134,7 @@ msgctxt ""
 "hd_id11727208935686\n"
 "help.text"
 msgid "<variable id=\"combinations_hd\">Combinations</variable>"
-msgstr ""
+msgstr "<variable id=\"combinations_hd\">Kombinationer</variable>"
 
 #. m6Xb2
 #: database_table_reference.xhp
@@ -53143,7 +53143,7 @@ msgctxt ""
 "hd_id911727368734633\n"
 "help.text"
 msgid "<variable id=\"columns_and_data_hd\">Columns and data records</variable>"
-msgstr ""
+msgstr "<variable id=\"columns_and_data_hd\">Kolonner og dataposter</variable>"
 
 #. E28MY
 #: database_table_reference.xhp
@@ -53152,7 +53152,7 @@ msgctxt ""
 "par_id621727211351391\n"
 "help.text"
 msgid "To reference a combination of the column labels  and data records, use the format <input>[#Headers];[#Data]</input> or <input>[#Headers],[#Data]</input>, where the separator is the same separator as for function parameters that is defined in <menuitem>Tools - Options - Calc - Formula - </menuitem><link href=\"text/shared/optionen/01060900.xhp#separators\"><menuitem>Separators</menuitem></link>."
-msgstr ""
+msgstr "For at referere til en kombination af kolonneetiketter og dataposter, brug formatet <input>[#Overskrifter];[#Data]</input> eller <input>[#Overskrifter],[#Data]</input>, hvor skilletegnet er det samme skilletegn som for funktionsparametre, defineret i <menuitem>Funktioner ▸ Indstillinger ▸ Calc ▸ Formel ▸ </menuitem><link href=\"text/shared/optionen/01060900.xhp#separators\"><menuitem>Skilletegn</menuitem></link>."
 
 #. vFxAs
 #: database_table_reference.xhp
@@ -53161,7 +53161,7 @@ msgctxt ""
 "hd_id111727368792150\n"
 "help.text"
 msgid "<variable id=\"data_and_totals_hd\">Data records and total row</variable>"
-msgstr ""
+msgstr "<variable id=\"data_and_totals_hd\">Dataposter og sammentællingsrække</variable>"
 
 #. JnFaR
 #: database_table_reference.xhp
@@ -53170,7 +53170,7 @@ msgctxt ""
 "par_id191727211364444\n"
 "help.text"
 msgid "To reference a combination of data records and totals row, use <input>[#Data];[#Totals]</input>. For example, <input>myData[[#Data];[#Totals]]</input> references the cells <input>A2:D11</input>."
-msgstr ""
+msgstr "For at referere til en kombination af dataposter og sammentællingsrække, brug <input>[#Data];[#Sammentælling]</input>. For eksempel refererer <input>mineData[[#Data];[#Sammentælling]]</input> til cellerne <input>A2:D11</input>."
 
 #. GpVa6
 #: database_table_reference.xhp
@@ -53179,7 +53179,7 @@ msgctxt ""
 "par_id231727211374505\n"
 "help.text"
 msgid "A combination like <input>[#Headers];[#Totals]</input> is not possible as that would result in two disjoint cell rectangles."
-msgstr ""
+msgstr "En kombination som <input>[#Overskrifter];[#Sammentælling]</input> er ikke mulig, da det ville resultere i to ikke-sammenhængende cellerektangler."
 
 #. nMXZc
 #: database_table_reference.xhp
@@ -53188,7 +53188,7 @@ msgctxt ""
 "hd_id491727369582280\n"
 "help.text"
 msgid "<variable id=\"adjacent_columns_hd\">Adjacent columns</variable>"
-msgstr ""
+msgstr "<variable id=\"adjacent_columns_hd\">Sammenhængende kolonner</variable>"
 
 #. r8pcx
 #: database_table_reference.xhp
@@ -53197,7 +53197,7 @@ msgctxt ""
 "par_id221727211378888\n"
 "help.text"
 msgid "To reference several adjacent columns, use the range operator “<input>:</input>”. For example, the formula <input>myData[[Name]:[Sales]]</input> addresses the cells <input>A2:C10</input>."
-msgstr ""
+msgstr "For at referere til flere sammenhængende kolonner, brug områdeoperatoren \"<input>:</input>\". For eksempel adresserer formlen <input>mineData[[Navn]:[Salg]]</input> cellerne <input>A2:C10</input>."
 
 #. 5vugB
 #: database_table_reference.xhp
@@ -53206,7 +53206,7 @@ msgctxt ""
 "hd_id301727369611525\n"
 "help.text"
 msgid "<variable id=\"non-adjacent_columns_hd\">Non-adjacent columns</variable>"
-msgstr ""
+msgstr "<variable id=\"non-adjacent_columns_hd\">Ikke-sammenhængende kolonner</variable>"
 
 #. zAKaX
 #: database_table_reference.xhp
@@ -53215,7 +53215,7 @@ msgctxt ""
 "par_id941727211383085\n"
 "help.text"
 msgid "The use of non-adjacent columns is not possible since it would reference two separate cell rectangles."
-msgstr ""
+msgstr "Brugen af ikke-sammenhængende kolonner er ikke muligt, da det ville referere til to separate cellerektangler."
 
 #. k2HUE
 #: database_table_reference.xhp
@@ -53224,7 +53224,7 @@ msgctxt ""
 "hd_id931727369670465\n"
 "help.text"
 msgid "<variable id=\"field name and keyword_hd\">Field name and keyword</variable>"
-msgstr ""
+msgstr "<variable id=\"field name and keyword_hd\">Feltnavne og nøgleord</variable>"
 
 #. ZiVAG
 #: database_table_reference.xhp
@@ -53233,7 +53233,7 @@ msgctxt ""
 "par_id261727211388563\n"
 "help.text"
 msgid "The reference via field name and the use of a reference keyword can be combined. First state the keyword, then the function separator, and last the field name in brackets. For example, <input>myData[[#Totals];[Sales]]</input> references the cell <input>C11</input>."
-msgstr ""
+msgstr "Referencen via feltnavn og brugen af et reference-nøgleord kan kombineres. Angiv først nøgleordet, så funktionsskilletegnet, og sidst feltnavnet i firkantede parenteser. For eksempel refererer <input>mineData[[#Sammentælling];[Salg]]</input> til cellen <input>C11</input>."
 
 #. nnnCj
 #: database_table_reference.xhp
@@ -53242,7 +53242,7 @@ msgctxt ""
 "par_id371727210314917\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060107.xhp#implicit_intersection\">Implicit intersection in formulas</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060107.xhp#implicit_intersection\">Implicit fællesmængde i formler</link>"
 
 #. GXyQU
 #: default_number_formats.xhp
@@ -53260,7 +53260,7 @@ msgctxt ""
 "hd_id111674498160040\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/default_number_formats.xhp\">Number Format</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/default_number_formats.xhp\">Talformat</link></variable>"
 
 #. uUnUT
 #: default_number_formats.xhp
@@ -53278,7 +53278,7 @@ msgctxt ""
 "hd_id3149182\n"
 "help.text"
 msgid "<variable id=\"standard_hd\"><link href=\"text/scalc/01/default_number_formats.xhp\">Number format: General</link></variable>"
-msgstr ""
+msgstr "<variable id=\"standard_hd\"><link href=\"text/scalc/01/default_number_formats.xhp\">Talformat: Generelt</link></variable>"
 
 #. Bdin6
 #: default_number_formats.xhp
