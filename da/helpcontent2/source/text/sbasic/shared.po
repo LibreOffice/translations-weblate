@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-12-21 18:03+0100\n"
-"PO-Revision-Date: 2025-01-07 05:45+0000\n"
+"PO-Revision-Date: 2025-01-07 13:30+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared/da/>\n"
 "Language: da\n"
@@ -34192,7 +34192,7 @@ msgctxt ""
 "par_id3143267\n"
 "help.text"
 msgid "This object is automatically converted to an <literal>Any</literal> of the corresponding type when passed to Uno. The type must be specified by its fully qualified Uno type name."
-msgstr ""
+msgstr "Dette objekt bliver automatisk konverteret til en <literal>Any</literal> af tilsvarende type, når det overføres til Uno. Typen må være specificeret med det fuldt kvalificerede Uno-typenavn."
 
 #. epP4U
 #: 03132300.xhp
@@ -34201,7 +34201,7 @@ msgctxt ""
 "par_id3153626\n"
 "help.text"
 msgid "The $[officename] API frequently uses the <literal>Any</literal> type. It is the counterpart of the <literal>Variant</literal> type known from other environments. The <literal>Any</literal> type holds one arbitrary Uno type and is used in generic Uno interfaces."
-msgstr ""
+msgstr "$[officename] API bruger ofte typen <literal>Any</literal>. Typen er modstykket til <literal>Variant</literal>-typen kendt fra andre miljøer. <literal>Any</literal>-typen kan indeholde en vilkårlig Uno-type og bruges de generiske Uno-grænseflader."
 
 #. 8LEhi
 #: 03132300.xhp
@@ -34219,7 +34219,7 @@ msgctxt ""
 "par_id561677933999834\n"
 "help.text"
 msgid "<emph>Type</emph>: The fully qualified Uno type name.  Supported data types are <literal>void</literal>, <literal>char</literal>, <literal>boolean</literal>, <literal>byte</literal>, <literal>short</literal>, <literal>unsigned short</literal>, <literal>long</literal>, <literal>unsigned long</literal>, <literal>hyper</literal>, <literal>unsigned hyper</literal>, <literal>float</literal>, <literal>double</literal>, <literal>string</literal>, <literal>type</literal>, and <literal>any</literal>. Names are case sensitive and may be preceded by square brackets to indicate an array."
-msgstr ""
+msgstr "<emph>Type</emph>: Det fuldt kvalificerede Uni-typenavn. Understøttede datatyper er <literal>void</literal>, <literal>char</literal>, <literal>boolean</literal>, <literal>byte</literal>, <literal>short</literal>, <literal>unsigned short</literal>, <literal>long</literal>, <literal>unsigned long</literal>, <literal>hyper</literal>, <literal>unsigned hyper</literal>, <literal>float</literal>, <literal>double</literal>, <literal>string</literal>, <literal>type</literal> og <literal>any</literal>. Navne skelner mellem store og små bogstaver, og firkantede parenteser foran navnet kan bruges til at angive et array."
 
 #. DmXcC
 #: 03132300.xhp
@@ -34228,7 +34228,7 @@ msgctxt ""
 "par_id521677934011767\n"
 "help.text"
 msgid "<emph>Value</emph>: A strictly typed value."
-msgstr ""
+msgstr "<emph>Value</emph>: En strengt typeangivet værdi."
 
 #. 6tFRV
 #: 03132300.xhp
@@ -34237,7 +34237,7 @@ msgctxt ""
 "par_id3150541\n"
 "help.text"
 msgid "If <literal>CreateUnoValue</literal> cannot convert the value to the specified Uno type, an error occurs. The <literal>com.sun.star.script.Converter</literal> service is responsible for the conversion."
-msgstr ""
+msgstr "Hvis <literal>CreateUnoValue</literal> ikke kan konvertere værdien til den specificerede Uno-type, opstår en fejl. Servicen <literal>com.sun.star.script.Converter</literal> er ansvarlig for konverteringen."
 
 #. qXCo6
 #: 03132300.xhp
@@ -34246,7 +34246,7 @@ msgctxt ""
 "par_id3153524\n"
 "help.text"
 msgid "This function is intended for use in situations where the default Basic to Uno type converting mechanism is insufficient. This happens calling generic <literal>Any</literal> based API methods, such as <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1beans_1_1XPropertySet.html\">com.sun.star.beans.XPropertySet</link><literal>.setPropertyValue()</literal> or <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1container_1_1XNameContainer.html\">com.sun.star.container.XNameContainer</link><literal>.insertByName()</literal>. <literal>CreateUnoValue()</literal> sets a value object for the unknown Uno type."
-msgstr ""
+msgstr "Denne funktion er beregnet til brug i situationer, hvor den almindelige Basic-til-Uno konverteringsmekanisme er utilstrækkelig. Dette sker ved kald af generiske <literal>Any</literal>-baserede API-metoder, for eksempel <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1beans_1_1XPropertySet.html\">com.sun.star.beans.XPropertySet</link><literal>.setPropertyValue()</literal> eller <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1container_1_1XNameContainer.html\">com.sun.star.container.XNameContainer</link><literal>.insertByName()</literal>. Funktionen <literal>CreateUnoValue()</literal> fastlægger et værdiobjekt for den ukendte Uno-type."
 
 #. 3XxhD
 #: 03132300.xhp
@@ -34255,7 +34255,7 @@ msgctxt ""
 "par_id511677928924995\n"
 "help.text"
 msgid "This example uses <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1beans_1_1XPropertySet.html\">com.sun.star.beans.XPropertySet</link><literal>.addProperty()</literal> method to create a document property whose default values requires <literal>CreateUnoValue()</literal> usage:"
-msgstr ""
+msgstr "Dette eksempel bruger <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1beans_1_1XPropertySet.html\">com.sun.star.beans.XPropertySet</link><literal>.addProperty()</literal> metoden til at oprette en dokumentegenskab, hvor standardværdierne kræver brug af <literal>CreateUnoValue()</literal>:"
 
 #. vJXdv
 #: 03132300.xhp
@@ -34264,7 +34264,7 @@ msgctxt ""
 "par_id3150769\n"
 "help.text"
 msgid "You can also use this function to pass non-Any values, but this is not recommended. If Basic already knows the target type, using the <literal>CreateUnoValue()</literal> function will only lead to additional converting operations that slow down the Basic execution."
-msgstr ""
+msgstr "Du kan også bruge denne funktion til at overføre værdier af andre typer end Any, men det anbefales ikke. Hvis Basic allerede kende måltype, så vil brug af <literal>CreateUnoValue()</literal>-funktionen kun lede til flere konverteringsoperationer, som vil gøre udførelsen af Basic langsommere."
 
 #. yUCwp
 #: 03132400.xhp
@@ -34759,7 +34759,7 @@ msgctxt ""
 "par_id061420170730135034\n"
 "help.text"
 msgid "<emph>ValueArray</emph>: The array of values of the cash-flow. The values represent cash flow values at regular intervals, at least one value must be negative (payments), and at least one value must be positive (income)."
-msgstr ""
+msgstr "<emph>ValueArray</emph>: Array-værdierne for pengeoverførslerne. Værdierne repræsenterer pengeoverførsler med regelmæssige mellemrum, mindst én værdi skal være negativ (betalinger) og mindst én værdi skal være positiv (indkomst)."
 
 #. FemwK
 #: 03140003.xhp
@@ -34768,7 +34768,7 @@ msgctxt ""
 "par_id061420170730137782\n"
 "help.text"
 msgid "<emph>Guess</emph>: An initial estimate at what the IRR will be."
-msgstr ""
+msgstr "<emph>Guess</emph>: Et første estimat på hvad IRR vil være."
 
 #. BU7LM
 #: 03140003.xhp
@@ -35902,7 +35902,7 @@ msgctxt ""
 "par_id240720170117391741\n"
 "help.text"
 msgid "<emph>Date</emph>: The date expression to be formatted."
-msgstr ""
+msgstr "<emph>Date</emph>: Dato-udtrykket som skal formateres."
 
 #. WC3h8
 #: 03150000.xhp
@@ -36388,7 +36388,7 @@ msgctxt ""
 "par_id691634217736290\n"
 "help.text"
 msgid "Be aware that VBA's <literal>Round</literal> function works differently than %PRODUCTNAME Calc's <literal>Round</literal> function. In Calc, if the difference between the number to be rounded and the nearest integer is exactly 0.5, then the number is rounded up. Hence, in Calc the number 2.5 is rounded to 3 whereas using VBA's <literal>Round</literal> function the value 2.5 is rounded to 2 due to the \"round-to-even\" rule."
-msgstr ""
+msgstr "Vær opmærksom på, at VBA's <literal>Round</literal>-funktion fungerer anderledes end %PRODUCTNAME Calc-funktionen <literal>AFRUND</literal>. I Calc rundes op op, hvis afstanden til nærmeste heltal er præcist 0,5. Altså afrunder Calc-funktionen tallet 2,5 til 3, mens VBA's <literal>Round</literal>-funktion afrunder 2,5 til 2 på grund af \"afrund-til-lige\"-reglen."
 
 #. GSzGj
 #: 03170000.xhp
@@ -36487,7 +36487,7 @@ msgctxt ""
 "par_id240720170117391741\n"
 "help.text"
 msgid "<emph>expression</emph>: Required. A numeric expression to be formatted. If <literal>expression</literal> is a string, then the decimal and thousands separator need to be localized."
-msgstr ""
+msgstr "<emph>expression</emph>: Obligatorisk. Et numerisk udtryk som skal formateres. Hvis <literal>expression</literal> er en streng, så skal eventuelle decimaltegn og tusindtalsskilletegn følge lokaliseringsindtillingerne (på dansk: \",\" som komma og \".\" til at skille mellem tusinder)."
 
 #. mD2xQ
 #: 03170010.xhp
@@ -36532,7 +36532,7 @@ msgctxt ""
 "par_id241542199046808\n"
 "help.text"
 msgid "<emph>vbUseDefault or -2</emph>: Use the user interface locale settings. This is the default when omitted."
-msgstr ""
+msgstr "<emph>vbUseDefault eller -2</emph>: Brug de lokalitetsindstillingerne fra brugerfladen. Hvis parameteren udelades, er dette standard."
 
 #. xEHZb
 #: 03170010.xhp
@@ -36568,7 +36568,7 @@ msgctxt ""
 "par_id241542191246808\n"
 "help.text"
 msgid "<emph>vbUseDefault or -2</emph>: Same as vbFalse. This is the default when omitted."
-msgstr ""
+msgstr "<emph>vbUseDefault eller -2</emph>: Samme som vbFalse. Hvis parameteren udelades, er dette standard."
 
 #. pj4ES
 #: 03170010.xhp
@@ -36604,7 +36604,7 @@ msgctxt ""
 "par_id241542191267808\n"
 "help.text"
 msgid "<emph>vbUseDefault or -2</emph>: Same as vbFalse. This is the default when omitted."
-msgstr ""
+msgstr "<emph>vbUseDefault eller -2</emph>: Samme som vbFalse. Hvis parameteren udelades, er dette standard."
 
 #. Bdq8A
 #: 03170020.xhp
@@ -36613,7 +36613,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FormatPercent Function [VBA]"
-msgstr ""
+msgstr "FormatPercent-funktion [VBA]"
 
 #. YhjAo
 #: 03170020.xhp
@@ -36622,7 +36622,7 @@ msgctxt ""
 "bm_id661542193659245\n"
 "help.text"
 msgid "<bookmark_value>FormatPercent function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FormatPercent-funktion</bookmark_value>"
 
 #. 5GSq4
 #: 03170020.xhp
@@ -36631,7 +36631,7 @@ msgctxt ""
 "hd_id871542193473857\n"
 "help.text"
 msgid "<link href=\"text/sbasic/shared/03170020.xhp\">FormatPercent [VBA]</link>"
-msgstr ""
+msgstr "<link href=\"text/sbasic/shared/03170020.xhp\">FormatPercent [VBA]</link>"
 
 #. wE9n7
 #: 03170020.xhp
@@ -36640,7 +36640,7 @@ msgctxt ""
 "par_id351542193473858\n"
 "help.text"
 msgid "Returns a string with a number formatting applied to a numeric expression. A percent sign is appended to the returned string."
-msgstr ""
+msgstr "Returnerer en streng med talformatering anvendt på et numerisk udtryk. Et procenttegn er tilføjet i den returnerede streng."
 
 #. EBFVE
 #: 03170020.xhp
@@ -36649,7 +36649,7 @@ msgctxt ""
 "par_id771542204286220\n"
 "help.text"
 msgid "MsgBox FormatPercent(12.2, NumDigitsAfterDecimal:=2) ' 1220.00% if selected user interface is english"
-msgstr ""
+msgstr "MsgBox FormatPercent(12.2, NumDigitsAfterDecimal:=2) ' 1220.00% hvis den valgte brugerflade er engelsk"
 
 #. 4nxgE
 #: 03170020.xhp
@@ -36658,7 +36658,7 @@ msgctxt ""
 "par_id671542204307459\n"
 "help.text"
 msgid "MsgBox FormatPercent(\"-,2\", 2, IncludeLeadingDigit:=vbTrue) ' -20,00% if french user interface"
-msgstr ""
+msgstr "MsgBox FormatPercent(\"-,2\", 2, IncludeLeadingDigit:=vbTrue) ' -20,00% hvis brugerfladen er fransk"
 
 #. 5qH6F
 #: 03170020.xhp
@@ -36667,7 +36667,7 @@ msgctxt ""
 "par_id61542204328859\n"
 "help.text"
 msgid "MsgBox FormatPercent(\"-0.2\", 2) ' -20.00% for en-US, -0,00 for fr-CA, de-AT or pt-BR"
-msgstr ""
+msgstr "MsgBox FormatPercent(\"-0.2\", 2) ' -20.00% for en-US, -0,00 for fr-CA, de-AT eller pt-BR"
 
 #. y4XTq
 #: 03170020.xhp
@@ -36676,7 +36676,7 @@ msgctxt ""
 "par_id421542204347269\n"
 "help.text"
 msgid "MsgBox FormatPercent(-0.2, UseComputerRegionalSettings, UseParensForNegativeNumbers:=vbTrue) ' (20,00)% if pt-BR"
-msgstr ""
+msgstr "MsgBox FormatPercent(-0.2, UseComputerRegionalSettings, UseParensForNegativeNumbers:=vbTrue) ' (20,00)% hvis pt-BR"
 
 #. DoAx5
 #: 03170020.xhp
@@ -36685,7 +36685,7 @@ msgctxt ""
 "par_id151542204366706\n"
 "help.text"
 msgid "MsgBox FormatPercent(\"-0,2\", UseComputerRegionalSettings, vbUseDefault, vbTrue) ' (20,00)% if german"
-msgstr ""
+msgstr "MsgBox FormatPercent(\"-0,2\", UseComputerRegionalSettings, vbUseDefault, vbTrue) ' (20,00)% hvis tysk"
 
 #. GZf86
 #: 03170020.xhp
@@ -36694,7 +36694,7 @@ msgctxt ""
 "par_id971542204385212\n"
 "help.text"
 msgid "MsgBox FormatPercent(\"-12345678\", -1, vbUseDefault, vbUseDefault, GroupDigits:=vbTrue) ' -1 234 567 800,00% for fr-BE"
-msgstr ""
+msgstr "MsgBox FormatPercent(\"-12345678\", -1, vbUseDefault, vbUseDefault, GroupDigits:=vbTrue) ' -1 234 567 800,00% for fr-BE"
 
 #. MxFCq
 #: 05060700.xhp
