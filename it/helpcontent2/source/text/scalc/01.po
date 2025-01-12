@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 13:38+0100\n"
-"PO-Revision-Date: 2025-01-12 05:45+0000\n"
+"PO-Revision-Date: 2025-01-13 05:45+0000\n"
 "Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/it/>\n"
 "Language: it\n"
@@ -53177,12 +53177,13 @@ msgstr "<variable id=\"field name in square brackets_hd\">Nome di campo tra pare
 
 #. gDso3
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "par_id91727208864918\n"
 "help.text"
 msgid "To reference the array of all values in the records that belong to the same field, use the form <input>[field name]</input>. The referenced cell range does not include label and totals."
-msgstr ""
+msgstr "Per fare riferimento alla matrice di tutti i valori dei record che appartengono allo stesso campo, usare la forma <input>[nome campo]</input>. L'area di celle referenziata non comprende le intestazioni ed i totali."
 
 #. JVr5e
 #: database_table_reference.xhp
@@ -53196,138 +53197,153 @@ msgstr "Esempio"
 
 #. atEon
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "par_id41727208903631\n"
 "help.text"
 msgid "The expression <input>myData[[Region]]</input> or its simplified form <input>myData[Region]</input> references the cells <input>B2:B10</input>. If the database range has no label row, generic labels like <input>Column1</input>, <input>Column2</input> can be used."
-msgstr ""
+msgstr "L'espressione <input>mieiDati[[Regione]]</input> o la sua forma semplificata <input>mieiDati[Regione]</input> fa riferimento alle celle <input>B2:B10</input>. Se l'area di database non ha una riga di intestazione, possono essere usate le intestazioni generiche <input>Colonna1</input>, <input>Colonna2</input>."
 
 #. 88Fek
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "par_id141727208910739\n"
 "help.text"
 msgid "In Microsoft Excel, if the formula cell belongs to the table, then the name of the table may be omitted. For example, the formula <input>=SUM(myData[Sales]</input>) in cell <input>C11</input> could be written as <input>=SUM([Sales]</input>). Omission of the table name is not yet possible in Calc."
-msgstr ""
+msgstr "In Microsoft Excel, se la cella della formula appartiene alla tabella, il nome della tabella può essere omesso. Per esempio, la formula <input>=SOMMA(mieiDati[Vendite]</input>) nella cella <input>C11</input> può essere scritta come <input>=SOMMA([Vendite]</input>). In Calc non è ancora possibile omettere il nome della tabella."
 
 #. DQizE
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "hd_id11727208935686\n"
 "help.text"
 msgid "<variable id=\"combinations_hd\">Combinations</variable>"
-msgstr ""
+msgstr "<variable id=\"combinations_hd\">Combinazioni</variable>"
 
 #. m6Xb2
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "hd_id911727368734633\n"
 "help.text"
 msgid "<variable id=\"columns_and_data_hd\">Columns and data records</variable>"
-msgstr ""
+msgstr "<variable id=\"columns_and_data_hd\">Colonne e record di dati</variable>"
 
 #. E28MY
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "par_id621727211351391\n"
 "help.text"
 msgid "To reference a combination of the column labels  and data records, use the format <input>[#Headers];[#Data]</input> or <input>[#Headers],[#Data]</input>, where the separator is the same separator as for function parameters that is defined in <menuitem>Tools - Options - Calc - Formula - </menuitem><link href=\"text/shared/optionen/01060900.xhp#separators\"><menuitem>Separators</menuitem></link>."
-msgstr ""
+msgstr "Per fare riferimento a una combinazione di intestazioni di colonna e record di dati, usare il formato <input>[#Intestazioni];[#Dati]</input> o <input>[#Intestazioni],[#Dati]</input>, dove il separatore è lo stesso separatore previsto per le funzioni ed impostato come parametro in <menuitem>Strumenti - Opzioni - Calc - Formula - </menuitem><link href=\"text/shared/optionen/01060900.xhp#separators\"><menuitem>Separatori</menuitem></link>."
 
 #. vFxAs
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "hd_id111727368792150\n"
 "help.text"
 msgid "<variable id=\"data_and_totals_hd\">Data records and total row</variable>"
-msgstr ""
+msgstr "<variable id=\"data_and_totals_hd\">Record di dati e riga dei totali</variable>"
 
 #. JnFaR
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "par_id191727211364444\n"
 "help.text"
 msgid "To reference a combination of data records and totals row, use <input>[#Data];[#Totals]</input>. For example, <input>myData[[#Data];[#Totals]]</input> references the cells <input>A2:D11</input>."
-msgstr ""
+msgstr "Per fare riferimento a una combinazione dei record di dati e della riga dei totali, usare <input>[#Dati];[#Totali]</input>. Per esempio, <input>mieiDati[[#Dati];[#Totali]]</input> fa riferimento alle celle <input>A2:D11</input>."
 
 #. GpVa6
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "par_id231727211374505\n"
 "help.text"
 msgid "A combination like <input>[#Headers];[#Totals]</input> is not possible as that would result in two disjoint cell rectangles."
-msgstr ""
+msgstr "Una combinazione come <input>[#Intestazioni];[#Totali]</input> non è possibile in quanto darebbe come risultato due rettangoli di celle disuniti."
 
 #. nMXZc
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "hd_id491727369582280\n"
 "help.text"
 msgid "<variable id=\"adjacent_columns_hd\">Adjacent columns</variable>"
-msgstr ""
+msgstr "<variable id=\"adjacent_columns_hd\">Colonne adiacenti</variable>"
 
 #. r8pcx
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "par_id221727211378888\n"
 "help.text"
 msgid "To reference several adjacent columns, use the range operator “<input>:</input>”. For example, the formula <input>myData[[Name]:[Sales]]</input> addresses the cells <input>A2:C10</input>."
-msgstr ""
+msgstr "Per fare riferimento a più colonne adiacenti, usare l'operatore delle aree “<input>:</input>”. Per esempio, la formula <input>mieiDati[[Nome]:[Vendite]]</input> indirizza alle celle <input>A2:C10</input>."
 
 #. 5vugB
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "hd_id301727369611525\n"
 "help.text"
 msgid "<variable id=\"non-adjacent_columns_hd\">Non-adjacent columns</variable>"
-msgstr ""
+msgstr "<variable id=\"non-adjacent_columns_hd\">Colonne non adiacenti</variable>"
 
 #. zAKaX
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "par_id941727211383085\n"
 "help.text"
 msgid "The use of non-adjacent columns is not possible since it would reference two separate cell rectangles."
-msgstr ""
+msgstr "L'uso di colonne non adiacenti non è possibile in quanto farebbe riferimento a due rettangoli di celle separati."
 
 #. k2HUE
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "hd_id931727369670465\n"
 "help.text"
 msgid "<variable id=\"field name and keyword_hd\">Field name and keyword</variable>"
-msgstr ""
+msgstr "<variable id=\"field name and keyword_hd\">Nomi di campo e parole chiave</variable>"
 
 #. ZiVAG
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "par_id261727211388563\n"
 "help.text"
 msgid "The reference via field name and the use of a reference keyword can be combined. First state the keyword, then the function separator, and last the field name in brackets. For example, <input>myData[[#Totals];[Sales]]</input> references the cell <input>C11</input>."
-msgstr ""
+msgstr "Il riferimento tramite il nome di campo e l'uso di una parola chiave può essere combinato. Prima indicare la parola chiave, poi il separatore di funzione e per ultimo il nome di campo tra parentesi quadre. Per esempio, <input>mieiDati[[#Totali];[Vendite]]</input> fa riferimento alla cella <input>C11</input>."
 
 #. nnnCj
 #: database_table_reference.xhp
+#, fuzzy
 msgctxt ""
 "database_table_reference.xhp\n"
 "par_id371727210314917\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060107.xhp#implicit_intersection\">Implicit intersection in formulas</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060107.xhp#implicit_intersection\">Intersezioni implicite nelle formule</link>"
 
 #. GXyQU
 #: default_number_formats.xhp
@@ -53340,12 +53356,13 @@ msgstr "Formati numerici predefiniti"
 
 #. sU8GY
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id111674498160040\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/default_number_formats.xhp\">Number Format</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/default_number_formats.xhp\">Formato numero</link></variable>"
 
 #. uUnUT
 #: default_number_formats.xhp
@@ -53358,12 +53375,13 @@ msgstr "Formati numerici predefiniti."
 
 #. 7t7Dt
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id3149182\n"
 "help.text"
 msgid "<variable id=\"standard_hd\"><link href=\"text/scalc/01/default_number_formats.xhp\">Number format: General</link></variable>"
-msgstr ""
+msgstr "<variable id=\"standard_hd\"><link href=\"text/scalc/01/default_number_formats.xhp\">Formato numero: generale</link></variable>"
 
 #. Bdin6
 #: default_number_formats.xhp
@@ -53412,12 +53430,13 @@ msgstr "<switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Cmd</ke
 
 #. vZnLF
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id381674560759637\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"decimal_hd\">Number format: Number</variable></link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"decimal_hd\">Formato numero: numero</variable></link>"
 
 #. ASdou
 #: default_number_formats.xhp
@@ -53466,12 +53485,13 @@ msgstr "<switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Cmd</ke
 
 #. QqTYL
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id3156329\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"percent_hd\">Number format: Percent</variable></link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"percent_hd\">Formato numero: percentuale</variable></link>"
 
 #. CQAWE
 #: default_number_formats.xhp
@@ -53520,12 +53540,13 @@ msgstr "<switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Cmd</ke
 
 #. xxxBB
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id3152892\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"currency_hd\">Number format: Currency</variable></link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"currency_hd\">Formato numero: valuta</variable></link>"
 
 #. 4gkvd
 #: default_number_formats.xhp
@@ -53574,12 +53595,13 @@ msgstr "<switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Cmd</ke
 
 #. sFTDN
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_idN10843\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"date_hd\">Number Format : Date</variable></link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"date_hd\">Formato numero: data</variable></link>"
 
 #. czUYu
 #: default_number_formats.xhp
@@ -53628,12 +53650,13 @@ msgstr "<switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Cmd</ke
 
 #. qYpuZ
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id531674560537020\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"time_hd\">Number Format: Time</variable></link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"time_hd\">Formato numero: ora</variable></link>"
 
 #. Py7SH
 #: default_number_formats.xhp
@@ -53673,12 +53696,13 @@ msgstr "Formato numero: orario"
 
 #. z3GQ8
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "par_idN1085E\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"scientific_hd\">Number Format: Scientific</variable></link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"scientific_hd\">Formato numero: scientifico</variable></link>"
 
 #. cFKyR
 #: default_number_formats.xhp
@@ -53727,12 +53751,13 @@ msgstr "<switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Cmd</ke
 
 #. 2REff
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id561698937896512\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"numberformatthousands_hd\">Number Format: Thousands Separator</variable></link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"numberformatthousands_hd\">Formato numero: separatore di migliaia</variable></link>"
 
 #. uutvg
 #: default_number_formats.xhp
@@ -53772,12 +53797,13 @@ msgstr "Formato numero: separatore delle migliaia"
 
 #. AfYNA
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id3149164\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"numberformatthousands_hd\">Number Format: Delete Decimal Place</variable></link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"numberformatthousands_hd\">Formato numero: elimina cifra decimale</variable></link>"
 
 #. qEctd
 #: default_number_formats.xhp
@@ -53808,12 +53834,13 @@ msgstr "Formato numero: elimina cifra decimale"
 
 #. fqESw
 #: default_number_formats.xhp
+#, fuzzy
 msgctxt ""
 "default_number_formats.xhp\n"
 "hd_id3150275\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"add_decimal_place_hd\">Number Format: Add Decimal Place</variable></link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/default_number_formats.xhp\"><variable id=\"add_decimal_place_hd\">Formato numero: aggiungi cifra decimale</variable></link>"
 
 #. Nn4EB
 #: default_number_formats.xhp
@@ -54051,21 +54078,23 @@ msgstr "Clic col pulsante destro del mouse nel foglio."
 
 #. emkJi
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id331685033039088\n"
 "help.text"
 msgid "Formulas calculate"
-msgstr ""
+msgstr "Calcolo delle formule"
 
 #. 6Kw3Q
 #: events_sheet.xhp
+#, fuzzy
 msgctxt ""
 "events_sheet.xhp\n"
 "par_id161685033039088\n"
 "help.text"
 msgid "Cells in sheet will be recalculated."
-msgstr ""
+msgstr "Le celle del foglio saranno ricalcolate."
 
 #. FpyAG
 #: events_sheet.xhp
@@ -55039,12 +55068,13 @@ msgstr "Questa funzione viene ricalcolata ogni qualvolta si verifica un ricalcol
 
 #. GC9sp
 #: ful_func.xhp
+#, fuzzy
 msgctxt ""
 "ful_func.xhp\n"
 "par_id711715953325962\n"
 "help.text"
 msgid "The function is always <emph>case insensitive</emph>, independent from the setting of <emph>Case sensitive</emph> checkbox in <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\"><menuitem>%PRODUCTNAME Calc - Calculate</menuitem></link>. You can however, use the mode modifier <emph>(?-i)</emph> in <link href=\"text/shared/01/02100001.xhp\">regular expressions</link> to force search for a case-sensitive match."
-msgstr ""
+msgstr "La funzione <emph>non fa mai distinzione tra minuscole e maiuscole</emph>, indipendentemente dall'impostazione della casella di controllo <emph>Maiuscole/minuscole</emph> in <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferenze</menuitem></caseinline><defaultinline><menuitem>Strumenti - Opzioni</menuitem></defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\"><menuitem>%PRODUCTNAME Calc - Calcola</menuitem></link>. È comunque possibile usare il modificatore di modo <emph>(?-i)</emph> nelle <link href=\"text/shared/01/02100001.xhp\">espressioni regulari</link> per forzare la ricerca in modo che il risultato tenga conto della differenza tra minuscole e maiuscole."
 
 #. 8DbP2
 #: func_aggregate.xhp
@@ -59686,12 +59716,13 @@ msgstr "Se il valore per il mese e giorno sono oltre i limiti, i resti sono ripo
 
 #. sMzGu
 #: func_date.xhp
+#, fuzzy
 msgctxt ""
 "func_date.xhp\n"
 "par_id3152589\n"
 "help.text"
 msgid "<item type=\"input\">=DATE(00;1;31)</item> yields the date 2000-01-31 written as 1/31/00 if the cell format setting is MM/DD/YY."
-msgstr ""
+msgstr "<item type=\"input\">=DATA(00;1;31)</item> produce la data 31-01-2000 scritta come 31/1/00 se il formato della cella è impostato come GG/MM/AA."
 
 #. E6eJP
 #: func_date.xhp
@@ -60145,12 +60176,13 @@ msgstr "<variable id=\"days\"><link href=\"text/scalc/01/func_days.xhp\">GIORNI<
 
 #. FcCEw
 #: func_days.xhp
+#, fuzzy
 msgctxt ""
 "func_days.xhp\n"
 "par_id3155139\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_TAGE\">Calculates the difference between two date values.</ahelp> Returns the number of days between the two days. May return a fraction of a day when the arguments include time parts."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_TAGE\">Calcala la differenza tra il valore di due date.</ahelp> Restituisce il numero di giornate tra due giorni. Può restituire una frazione di giorno se gli argomenti comprendono le parti relative alle ore."
 
 #. dwbGn
 #: func_days.xhp
@@ -60172,12 +60204,13 @@ msgstr "<emph>Data 1</emph> è la data iniziale, <emph>Data 2</emph> è la data 
 
 #. sYsGB
 #: func_days.xhp
+#, fuzzy
 msgctxt ""
 "func_days.xhp\n"
 "par_id3159101\n"
 "help.text"
 msgid "<item type=\"input\">=DAYS(TODAY();\"2010-01-01\"))</item> returns the number of days from January 1, 2010 until today."
-msgstr ""
+msgstr "<item type=\"input\">=GIORNI(OGGI();\"2010-01-01\")</item> restituisce il numero di giorni dal primo gennaio 2010 ad oggi."
 
 #. GwLS3
 #: func_days.xhp
@@ -60190,12 +60223,13 @@ msgstr "<item type=\"input\">=GIORNI(\"10/10/1990\";\"10/10/1980\")</item> resti
 
 #. s9aj2
 #: func_days.xhp
+#, fuzzy
 msgctxt ""
 "func_days.xhp\n"
 "par_id3163722\n"
 "help.text"
 msgid "<item type=\"input\">=DAYS(NOW(); TODAY())</item>  returns a fraction of the current day."
-msgstr ""
+msgstr "<item type=\"input\">=GIORNI(ADESSO(); OGGI())</item> restituisce una frazione del giorno corrente."
 
 #. v53e8
 #: func_days.xhp
@@ -68556,12 +68590,13 @@ msgstr "Genera un elenco di numeri sequenziali in una matrice."
 
 #. ayQqK
 #: func_sequence.xhp
+#, fuzzy
 msgctxt ""
 "func_sequence.xhp\n"
 "par_id211708281649651\n"
 "help.text"
 msgid "SEQUENCE(Rows; Columns [; Start [; Step ] ])"
-msgstr ""
+msgstr "SEQUENZA(Righe; Colonne [; Inizio [; Passo ] ])"
 
 #. CDwFb
 #: func_sequence.xhp
@@ -68628,12 +68663,13 @@ msgstr "La matrice viene riempita dalla prima riga verso destra fino al numero d
 
 #. CfrrH
 #: func_sequence.xhp
+#, fuzzy
 msgctxt ""
 "func_sequence.xhp\n"
 "par_id201714595986945\n"
 "help.text"
 msgid "<input>{=SEQUENCE(3; 3; 10; 11)}</input> returns the 3-by-3 array below with an upper-left value of 10 and filling the array to the right and then downward in steps of 11."
-msgstr ""
+msgstr "<input>{=SEQUENZA(3; 3; 10; 11)}</input> restituisce la matrice di 3 per 3 sottostante con un valore in alto a sinistra di 10 e riempita verso destra e poi in basso con incrementi di 11."
 
 #. sNE2S
 #: func_sequence.xhp
@@ -68835,12 +68871,13 @@ msgstr "Esempio con ordinamento ascendente"
 
 #. SrgSt
 #: func_sort.xhp
+#, fuzzy
 msgctxt ""
 "func_sort.xhp\n"
 "par_id131711466000482\n"
 "help.text"
 msgid "<input>{=SORT(A2:C6;2;1)}</input>"
-msgstr ""
+msgstr "<input>{=DATI.ORDINA(A2:C6;2;1)}</input>"
 
 #. MBgRu
 #: func_sort.xhp
@@ -68907,12 +68944,13 @@ msgstr "Esempio con ordine discendente"
 
 #. A8YAU
 #: func_sort.xhp
+#, fuzzy
 msgctxt ""
 "func_sort.xhp\n"
 "par_id731711466320553\n"
 "help.text"
 msgid "<input>{=SORT(A2:C6;3;-1)}</input>"
-msgstr ""
+msgstr "<input>{=DATI.ORDINA(A2:C6;3;-1)}</input>"
 
 #. FSrYH
 #: func_sort.xhp
@@ -69015,12 +69053,13 @@ msgstr "Ordina i contenuti di un'area o di una matrice in base ai valori di un'a
 
 #. z5wDc
 #: func_sortby.xhp
+#, fuzzy
 msgctxt ""
 "func_sortby.xhp\n"
 "par_id211708281649651\n"
 "help.text"
 msgid "SORTBY(Range; SortByRange1; SortOrder1 [; SortByRange2; SortOrder2 [; ...] ])"
-msgstr ""
+msgstr "DATI.ORDINA.PER(Area; OrdinaPerArea1; Ordinamento1 [; OrdinaPerArea2; Ordinamento2 [; ...] ])"
 
 #. gifyS
 #: func_sortby.xhp
@@ -69033,21 +69072,23 @@ msgstr "<emph>Area</emph>: la matrice o l'area da ordinare."
 
 #. pFvAo
 #: func_sortby.xhp
+#, fuzzy
 msgctxt ""
 "func_sortby.xhp\n"
 "par_id291711544460323\n"
 "help.text"
 msgid "<emph>SortByRange1; SortByRange2;... </emph>: range 1, range 2,... are the arrays or ranges to sort on."
-msgstr ""
+msgstr "<emph>OrdinaPerArea1; OrdinaPerArea2;... </emph>: area 1, area 2,... sono le matrici o le aree da ordinare."
 
 #. aTbCv
 #: func_sortby.xhp
+#, fuzzy
 msgctxt ""
 "func_sortby.xhp\n"
 "par_id501711544465886\n"
 "help.text"
 msgid "<emph>SortOrder1; SortOrder2;...</emph> : order 1, order 2,... are the orders to use for sorting. 1 for ascending, -1 for descending. Default is ascending."
-msgstr ""
+msgstr "<emph>Ordinamento1; Ordinamento2;...</emph> : ordine 1, ordine 2,... sono gli ordini da usare per l'ordinamento. 1 per ascendente, -1 per discendente. Il valore predefinito è ascendente.."
 
 #. jhZ65
 #: func_sortby.xhp
@@ -71377,12 +71418,13 @@ msgstr "<input>=VALORE(\"50%\")</input> restituisce 0,5. Degno di nota è che il
 
 #. gCzhF
 #: func_value.xhp
+#, fuzzy
 msgctxt ""
 "func_value.xhp\n"
 "par_id731628780240876\n"
 "help.text"
 msgid "<input>=VALUE(\"2021-07-30\")</input> returns 44407 (considering ISO 8601 format) which is the date-time sequence number corresponding to the specified date."
-msgstr ""
+msgstr "<input>=VALORE(\"2021-07-30\")</input> restituisce 44407 (considerando il formato ISO 8601) che è il numero della sequenza data-ora corrispondente alla data specificata."
 
 #. Kkcm7
 #: func_value.xhp
@@ -73043,21 +73085,23 @@ msgstr "CONFRONTA.X supera la funzione <link href=\"text/scalc/01/04060109.xhp#S
 
 #. bzbma
 #: func_xmatch.xhp
+#, fuzzy
 msgctxt ""
 "func_xmatch.xhp\n"
 "par_id211708281649651\n"
 "help.text"
 msgid "XMATCH(Search criterion; Search Array [; Match Mode [; Search Mode ] ] )"
-msgstr ""
+msgstr "CONFRONTA.X(Criterio di ricerca; Matrice di ricerca [; Modo corrispondenza [; Modo di ricerca ] ] )"
 
 #. jkHsQ
 #: func_xmatch.xhp
+#, fuzzy
 msgctxt ""
 "func_xmatch.xhp\n"
 "par_id861708281340704\n"
 "help.text"
 msgid "<emph>Search criterion</emph>: The value of any type to search for in <emph>Search Array</emph>."
-msgstr ""
+msgstr "<emph>Criterio di ricerca</emph>: il valore di qualunque tipo da cercare all'interno della <emph>Matrice di ricerca</emph>."
 
 #. c2hbH
 #: func_xmatch.xhp
@@ -73071,21 +73115,23 @@ msgstr "<emph>Matrice di ricerca</emph>: è il riferimento alla matrice o all'in
 
 #. HDMeD
 #: func_xmatch.xhp
+#, fuzzy
 msgctxt ""
 "func_xmatch.xhp\n"
 "par_id121708281643207\n"
 "help.text"
 msgid "<emph>Match Mode</emph>: (optional) specifies the match type. Values can be:"
-msgstr ""
+msgstr "<emph>Modo corrispondenza</emph>: (opzionale) specifica il tipo di corrispondenza. I valori possono essere:"
 
 #. DDPDt
 #: func_xmatch.xhp
+#, fuzzy
 msgctxt ""
 "func_xmatch.xhp\n"
 "par_id111708281542144\n"
 "help.text"
 msgid "<emph>0</emph>: exact match (default). If <emph>Search criterion</emph> value is not found, then return the #N/A error."
-msgstr ""
+msgstr "<emph>0</emph>: corrispondenza esatta (predefinito). Se il valore del <emph>Criterio di ricerca</emph> non viene trovato, viene restituito l'errore #N/D."
 
 #. tCBq9
 #: func_xmatch.xhp
@@ -73094,7 +73140,7 @@ msgctxt ""
 "par_id851708281548335\n"
 "help.text"
 msgid "<emph>-1</emph>: attempt exact match. If <emph>Search criterion</emph> value is not found, then return the next smaller item."
-msgstr ""
+msgstr "<emph>-1</emph>: avvicinamento alla corrispondenza esatta. Se il valore del <emph>Criterio di ricerca</emph> non viene trovato, restituisce il valore inferiore più prossimo."
 
 #. APKvN
 #: func_xmatch.xhp
@@ -73103,7 +73149,7 @@ msgctxt ""
 "par_id801708281553430\n"
 "help.text"
 msgid "<emph>1</emph>: attempt exact match. If <emph>Search criterion</emph> value is not found, then return the next larger item."
-msgstr ""
+msgstr "<emph>1</emph>: avvicinamento alla corrispondenza esatta. Se il valore del <emph>Criterio di ricerca</emph> non viene trovato, restituisce il valore superiore più prossimo."
 
 #. WUvAp
 #: func_xmatch.xhp
@@ -73125,21 +73171,23 @@ msgstr "<emph>3</emph>: corrispondenza a un'<link href=\"text/shared/01/02100001
 
 #. qBfiv
 #: func_xmatch.xhp
+#, fuzzy
 msgctxt ""
 "func_xmatch.xhp\n"
 "par_id471716753503759\n"
 "help.text"
 msgid "<input>=XMATCH(\"Atomic Number\"; A1:A4)</input> returns 3, the third line of the A1:A4 array."
-msgstr ""
+msgstr "<input>=CONFRONTA.X(\"Numero atomico\"; A1:A4)</input> restituisce 3, la terza riga della matrice A1:A4."
 
 #. LU7T5
 #: func_xmatch.xhp
+#, fuzzy
 msgctxt ""
 "func_xmatch.xhp\n"
 "par_id581716753499133\n"
 "help.text"
 msgid "<input>=XMATCH(\"Li\"; A2:DO2)</input> returns 4, the fourth column of the A2:DO2 array."
-msgstr ""
+msgstr "<input>=CONFRONTA.X(\"Li\"; A2:DO2)</input> restituisce 4, la quarta colonna della matrice A2:DO2."
 
 #. 2AAX5
 #: func_xmatch.xhp
@@ -73847,12 +73895,13 @@ msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/sidebar_alignment.xhp\">A
 
 #. RCEU7
 #: sidebar_alignment.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_alignment.xhp\n"
 "par_id771732200675151\n"
 "help.text"
 msgid "Use the <menuitem>Alignment</menuitem> panel in the <menuitem>Properties</menuitem> sidebar deck to set alignment options for the contents of the current cell, or the selected cells."
-msgstr ""
+msgstr "Usare l'area <menuitem>Allineamento</menuitem> nel pannello <menuitem>Proprietà</menuitem> della Barra laterale per impostare le opzioni di allineamento dei contenuti della cella corrente, o delle celle selezionate."
 
 #. fBGzf
 #: sidebar_alignment.xhp
@@ -73866,84 +73915,93 @@ msgstr "<switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Opzione
 
 #. ELmSW
 #: sidebar_alignment.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_alignment.xhp\n"
 "par_id831731684980486\n"
 "help.text"
 msgid "Open the <menuitem>Properties</menuitem> sidebar deck and expand the <menuitem>Alignment</menuitem> panel."
-msgstr ""
+msgstr "Aprire il pannello <menuitem>Proprietà</menuitem> della Barra laterale ed espandere l'area <menuitem>Allineamento</menuitem>."
 
 #. FmCp9
 #: sidebar_alignment.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_alignment.xhp\n"
 "hd_id711732211580746\n"
 "help.text"
 msgid "<variable id=\"align_left_hd\">Align Left</variable>"
-msgstr ""
+msgstr "<variable id=\"align_left_hd\">Allineamento a sinistra</variable>"
 
 #. xA44A
 #: sidebar_alignment.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_alignment.xhp\n"
 "hd_id651732211724153\n"
 "help.text"
 msgid "<variable id=\"center_hd\">Align Center</variable>"
-msgstr ""
+msgstr "<variable id=\"center_hd\">Allineamento al centro</variable>"
 
 #. GJzxH
 #: sidebar_alignment.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_alignment.xhp\n"
 "hd_id91732211633838\n"
 "help.text"
 msgid "<variable id=\"align_right_hd\">Align right</variable>"
-msgstr ""
+msgstr "<variable id=\"align_right_hd\">Allineamento a destra</variable>"
 
 #. 69XPF
 #: sidebar_alignment.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_alignment.xhp\n"
 "hd_id621732212052052\n"
 "help.text"
 msgid "<variable id=\"justified_hd\">Justified</variable>"
-msgstr ""
+msgstr "<variable id=\"justified_hd\">Giustificato</variable>"
 
 #. uMmkx
 #: sidebar_alignment.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_alignment.xhp\n"
 "hd_id341732280491578\n"
 "help.text"
 msgid "<variable id=\"align_top_hd\">Align Top</variable>"
-msgstr ""
+msgstr "<variable id=\"align_top_hd\">Allineamento in alto</variable>"
 
 #. A9Uxf
 #: sidebar_alignment.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_alignment.xhp\n"
 "hd_id731732280497363\n"
 "help.text"
 msgid "<variable id=\"align_middle_hd\">Align Middle</variable>"
-msgstr ""
+msgstr "<variable id=\"align_middle_hd\">Allineamento al centro</variable>"
 
 #. sE2tq
 #: sidebar_alignment.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_alignment.xhp\n"
 "hd_id51732280504173\n"
 "help.text"
 msgid "<variable id=\"align_bottom_hd\">Align Bottom</variable>"
-msgstr ""
+msgstr "<variable id=\"align_bottom_hd\">Allineamento in basso</variable>"
 
 #. 9VoDJ
 #: sidebar_alignment.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_alignment.xhp\n"
 "hd_id391732294433662\n"
 "help.text"
 msgid "<variable id=\"wrap-text-auto_hd\">Wrap text</variable>"
-msgstr ""
+msgstr "<variable id=\"wrap-text-auto_hd\">Ritorno a capo</variable>"
 
 #. hYF4H
 #: sidebar_number_format.xhp
@@ -73967,12 +74025,13 @@ msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/sidebar_number_format.xhp
 
 #. qxjxw
 #: sidebar_number_format.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_number_format.xhp\n"
 "par_id541731596351418\n"
 "help.text"
 msgid "Use the <menuitem>Number Format</menuitem> panel to set the number format for a cell or range."
-msgstr ""
+msgstr "Usare l'area <menuitem>Formato numero</menuitem> per impostare il formato numerico di una cella o di un'area."
 
 #. TVVYC
 #: sidebar_number_format.xhp
@@ -73986,30 +74045,33 @@ msgstr "<switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Opzione
 
 #. 6rw6j
 #: sidebar_number_format.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_number_format.xhp\n"
 "par_id831731684980486\n"
 "help.text"
 msgid "Open the <menuitem>Properties</menuitem> sidebar deck and expand the <menuitem>Number Format</menuitem> pane."
-msgstr ""
+msgstr "Aprire il pannello <menuitem>Proprietà</menuitem> della Barra laterale ed espandere l'area <menuitem>Formato numero</menuitem>."
 
 #. EhGE3
 #: sidebar_number_format.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_number_format.xhp\n"
 "hd_id601731607243691\n"
 "help.text"
 msgid "<variable id=\"standard_hd\">Format as Number</variable>"
-msgstr ""
+msgstr "<variable id=\"standard_hd\">Formatta come numero</variable>"
 
 #. 9ADDs
 #: sidebar_number_format.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_number_format.xhp\n"
 "par_id881731607904628\n"
 "help.text"
 msgid "<image src=\"cmd/lc_numberformatstandard.svg\" id=\"img_id731731607909466\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id241731607936718\">Icon General Number Format</alt></image>"
-msgstr ""
+msgstr "<image src=\"cmd/lc_numberformatstandard.svg\" id=\"img_id731731607909466\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id241731607936718\">Icona Formato numero: generale</alt></image>"
 
 #. tNDVQ
 #: sidebar_number_format.xhp
@@ -74023,21 +74085,23 @@ msgstr "Formatta come Numero"
 
 #. wXiV8
 #: sidebar_number_format.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_number_format.xhp\n"
 "hd_id101731608755991\n"
 "help.text"
 msgid "<variable id=\"percent_hd\">Format as Percent</variable>"
-msgstr ""
+msgstr "<variable id=\"percent_hd\">Formatta come percentuale</variable>"
 
 #. fRxGW
 #: sidebar_number_format.xhp
+#, fuzzy
 msgctxt ""
 "sidebar_number_format.xhp\n"
 "par_id551731611041560\n"
 "help.text"
 msgid "<image id=\"img_id1001731611047552\" src=\"cmd/lc_numberformatpercent.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id401731611059018\">Icon Number Format: Percent</alt></image>"
-msgstr ""
+msgstr "<image id=\"img_id1001731611047552\" src=\"cmd/lc_numberformatpercent.svg\" width=\"1cm\" height=\"1cm\"><alt id=\"alt_id401731611059018\">Icona Formato numero: percentuale</alt></image>"
 
 #. oEatS
 #: sidebar_number_format.xhp
