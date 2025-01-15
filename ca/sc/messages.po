@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-12-19 11:07+0100\n"
-"PO-Revision-Date: 2025-01-07 13:30+0000\n"
+"PO-Revision-Date: 2025-01-15 07:50+0000\n"
 "Last-Translator: Mireia Goula Iglesias <mireiagoula@gmail.com>\n"
 "Language-Team: Catalan <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/ca/>\n"
 "Language: ca\n"
@@ -14421,6 +14421,11 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0 - Coincidència exacta. Retornarà #N/A si no hi ha coincidència. (per defecte).\n"
+"-1 - Coincidència exacta o el següent element més petit.\n"
+"1 - Coincidència exacta o el següent element més gran.\n"
+"2 - Coincidència comodí.\n"
+"3 - Coincidència d'expressió regular."
 
 #. EvSiP
 #: sc/inc/scfuncs.hrc:3394
@@ -14437,6 +14442,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1 - Cerca a partir del primer valor (per defecte).\n"
+"-1 - Cerca a partir de l'últim valor (inverteix).\n"
+"2 - Valors de cerca binaris ordenats en ordre ascendent.\n"
+"-2 - Valors de cerca binaris ordenats en ordre descendent."
 
 #. KZapz
 #: sc/inc/scfuncs.hrc:3401
@@ -14652,6 +14661,11 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0 - Coincidència exacta. Retornarà #N/A si no hi ha coincidència. (per defecte).\n"
+"-1 - Coincidència exacta o l'element següent més petit.\n"
+"1 - Coincidència exacta o l'element següent més gran.\n"
+"2 - Coincidència comodí.\n"
+"3 - Coincidència d'expressió regular."
 
 #. UtoXD
 #: sc/inc/scfuncs.hrc:3456
@@ -14668,6 +14682,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1 - Cerca des del primer valor (per defecte).\n"
+"-1 - Cerca des de l'últim valor (inverteix).\n"
+"2 - Valors binaris de cerca ordenats en ordre ascendent.\n"
+"-2 - Valors vinaris de cerca ordenats en ordre descendent."
 
 #. XJ4FS
 #: sc/inc/scfuncs.hrc:3463
@@ -16984,13 +17002,13 @@ msgstr "Resultat si està buit"
 #: sc/inc/scfuncs.hrc:4195
 msgctxt "SC_OPCODE_FILTER"
 msgid "The value to return if all values in the included array are empty (filter returns nothing)."
-msgstr ""
+msgstr "El valor a retornar si tots els valors de la matriu inclosa estan buits (el filtre no retorna res)."
 
 #. gSZGa
 #: sc/inc/scfuncs.hrc:4201
 msgctxt "SC_OPCODE_SORT"
 msgid "Sorts the contents of a range or array."
-msgstr ""
+msgstr "Ordena el contingut d'un interval o matriu."
 
 #. 5dG8m
 #: sc/inc/scfuncs.hrc:4202
@@ -17002,13 +17020,13 @@ msgstr "Interval"
 #: sc/inc/scfuncs.hrc:4203
 msgctxt "SC_OPCODE_SORT"
 msgid "The range, or array to sort."
-msgstr ""
+msgstr "L'interval o matriu a ordenar."
 
 #. 3vzBe
 #: sc/inc/scfuncs.hrc:4204
 msgctxt "SC_OPCODE_SORT"
 msgid "Sort index"
-msgstr ""
+msgstr "Ordena l'índex"
 
 #. SWhii
 #: sc/inc/scfuncs.hrc:4205
