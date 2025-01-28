@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 13:38+0100\n"
-"PO-Revision-Date: 2025-01-27 05:45+0000\n"
+"PO-Revision-Date: 2025-01-29 05:45+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/da/>\n"
 "Language: da\n"
@@ -10769,7 +10769,7 @@ msgctxt ""
 "bm_id92158919969443\n"
 "help.text"
 msgid "<bookmark_value>Dataset service;CreateDataset</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Dataset-tjeneste; CreateDataset</bookmark_value>"
 
 #. pB3e6
 #: sf_dataset.xhp
@@ -10778,7 +10778,7 @@ msgctxt ""
 "par_id93158919343864\n"
 "help.text"
 msgid "Returns a <literal>Dataset</literal> service instance from an existing dataset by applying the specified filter and <literal>ORDER BY</literal> statements."
-msgstr ""
+msgstr "Returnerer en instans af <literal>Dataset</literal>-tjeneste ud fra et eksisterende datasæt ved at anvende de angivne filter og <literal>ORDER BY</literal>-udrykkene."
 
 #. sTshg
 #: sf_dataset.xhp
@@ -10787,7 +10787,7 @@ msgctxt ""
 "par_id381701012509515\n"
 "help.text"
 msgid "<emph>filter</emph>: Specifies the condition that records must match to be included in the returned dataset. This argument is expressed as a SQL <literal>WHERE</literal> statement without the \"WHERE\" keyword. If this argument is not specified, then the filter used in the current dataset is applied, otherwise the current filter is replaced by this argument."
-msgstr ""
+msgstr "<emph>filter</emph>: Specificerer den betingelse, som dataposter skal matche for at blive inkluderet i det returnerede datasæt. Dette argument er udtrykt som et SQL <literal>WHERE</literal>-udtryk uden nøgleordet \"WHERE\". Hvis dette argument er udeladt, bruges filteret fra det aktuelle datasæt, og ellers bliver det aktuelle filter erstattet af dette argument."
 
 #. 96FYs
 #: sf_dataset.xhp
@@ -10796,7 +10796,7 @@ msgctxt ""
 "par_id381701012563515\n"
 "help.text"
 msgid "<emph>orderby</emph>: Specifies the ordering of the dataset as a SQL <literal>ORDER BY</literal> statement without the \"ORDER BY\" keyword. If this argument is not specified, then the sorting order used in the current dataset is applied, otherwise the current sorting order is replaced by this argument."
-msgstr ""
+msgstr "<emph>orderby</emph>: Angiver sorteringsrækkefølgen af datasættet som et SQL <literal>ORDER BY</literal>-udtryk uden nøgleordet \"ORDER BY\". Hvis dette argument er udeladt, bruges sorteringsrækkefølgen fra det aktuelle datasæt, ellers bliver den aktuelle sorteringsrækkefølge erstattet af dette argument."
 
 #. yW4B8
 #: sf_dataset.xhp
@@ -10805,7 +10805,7 @@ msgctxt ""
 "bas_id721701180069642\n"
 "help.text"
 msgid "' Use an empty string to remove the current filter"
-msgstr ""
+msgstr "' Brug en tom streng til at fjerne det aktuelle filter"
 
 #. upazw
 #: sf_dataset.xhp
@@ -10814,7 +10814,7 @@ msgctxt ""
 "bas_id981701180070457\n"
 "help.text"
 msgid "' Examples of common filters"
-msgstr ""
+msgstr "' Eksempler på typiske filtre"
 
 #. sDiFY
 #: sf_dataset.xhp
@@ -10823,7 +10823,7 @@ msgctxt ""
 "bas_id217011800710769\n"
 "help.text"
 msgid "oNewDataset = oDataset.CreateDataset(Filter := \"[Name] = 'John'\")"
-msgstr ""
+msgstr "oNewDataset = oDataset.CreateDataset(Filter := \"[Navn] = 'John'\")"
 
 #. 6CWiF
 #: sf_dataset.xhp
@@ -10832,7 +10832,7 @@ msgctxt ""
 "bas_id341701180070985\n"
 "help.text"
 msgid "oNewDataset = oDataset.CreateDataset(Filter := \"[Name] LIKE 'A'\")"
-msgstr ""
+msgstr "oNewDataset = oDataset.CreateDataset(Filter := \"[Navn] LIKE 'A'\")"
 
 #. f3E2J
 #: sf_dataset.xhp
@@ -10841,7 +10841,7 @@ msgctxt ""
 "bas_id371701180071169\n"
 "help.text"
 msgid "' It is possible to append additional conditions to the current filter"
-msgstr ""
+msgstr "' Det er muligt at tilføje yderligere betingelser til det aktuelle filter"
 
 #. UFevo
 #: sf_dataset.xhp
@@ -10850,7 +10850,7 @@ msgctxt ""
 "bas_id817011802603460\n"
 "help.text"
 msgid "oNewDataset = oDataset.CreateDataset(Filter := \"(\" & oDataset.Filter & \") AND [Name] LIKE 'A'\")"
-msgstr ""
+msgstr "oNewDataset = oDataset.CreateDataset(Filter := \"(\" & oDataset.Filter & \") AND [Navn] LIKE 'A'\")"
 
 #. 3GUnc
 #: sf_dataset.xhp
@@ -10859,7 +10859,7 @@ msgctxt ""
 "pyc_id581701180363338\n"
 "help.text"
 msgid "new_dataset = dataset.CreateDataset(filter = \"[Name] = 'John'\")"
-msgstr ""
+msgstr "new_dataset = dataset.CreateDataset(filter = \"[Navn] = 'John'\")"
 
 #. FfGsf
 #: sf_dataset.xhp
@@ -10868,7 +10868,7 @@ msgctxt ""
 "pyc_id261701180365275\n"
 "help.text"
 msgid "new_dataset = dataset.CreateDataset(filter = \"[Name] LIKE 'A'\")"
-msgstr ""
+msgstr "new_dataset = dataset.CreateDataset(filter = \"[Navn] LIKE 'A'\")"
 
 #. xFhtG
 #: sf_dataset.xhp
@@ -10877,7 +10877,7 @@ msgctxt ""
 "pyc_id481701180365786\n"
 "help.text"
 msgid "new_dataset = dataset.CreateDataset(filter = f\"({dataset.Filter}) AND [Name] LIKE 'A'\")"
-msgstr ""
+msgstr "new_dataset = dataset.CreateDataset(filter = f\"({dataset.Filter}) AND [Navn] LIKE 'A'\")"
 
 #. xB6gV
 #: sf_dataset.xhp
@@ -10886,7 +10886,7 @@ msgctxt ""
 "bm_id9215369969883\n"
 "help.text"
 msgid "<bookmark_value>Dataset service;Delete</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Dataset-tjeneste; Delete</bookmark_value>"
 
 #. nSBrV
 #: sf_dataset.xhp
@@ -10895,7 +10895,7 @@ msgctxt ""
 "par_id93158919961074\n"
 "help.text"
 msgid "Deletes the current record from the dataset. This method returns <literal>True</literal> when successful."
-msgstr ""
+msgstr "Sletter den aktuelle datapost fra datasættet. Denne metode returnerer <literal>True</literal>, når den er succesfuld."
 
 #. DeLNv
 #: sf_dataset.xhp
@@ -10904,7 +10904,7 @@ msgctxt ""
 "par_id101701180833688\n"
 "help.text"
 msgid "After this operation the cursor is positioned at the record immediately after the deleted record. If the deleted record is the last in the dataset, then the cursor is positioned after it and the property <literal>EOF</literal> returns <literal>True</literal>."
-msgstr ""
+msgstr "Efter denne operation er markøren placeret ved dataposten umiddelbart efter den slettede datapost. Hvis den slettede datapost var den sidste i datasættet, så er markøren placeret efter sidste post, og egenskaben <literal>EOF</literal> returnerer <literal>True</literal>."
 
 #. kQmsS
 #: sf_dataset.xhp
@@ -10913,7 +10913,7 @@ msgctxt ""
 "bm_id92153179969443\n"
 "help.text"
 msgid "<bookmark_value>Dataset service;ExportValueToFile</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Dataset-tjeneste; ExportValueToFile</bookmark_value>"
 
 #. GVCDT
 #: sf_dataset.xhp
@@ -10922,7 +10922,7 @@ msgctxt ""
 "par_id93158955243864\n"
 "help.text"
 msgid "Exports the value of a binary field of the current record to the specified file."
-msgstr ""
+msgstr "Eksporterer værdien af et binært felt for den aktuelle datapost til den angivne fil."
 
 #. tF5uw
 #: sf_dataset.xhp
@@ -10931,7 +10931,7 @@ msgctxt ""
 "par_id171701181928026\n"
 "help.text"
 msgid "If the specified field is not binary or if it contains no data, then the output file is not created."
-msgstr ""
+msgstr "Hvis det angivne felt ikke er binært eller hvis det ikke indeholder data, så bliver outputfilen ikke oprettet."
 
 #. wmnpF
 #: sf_dataset.xhp
