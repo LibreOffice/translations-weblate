@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-27 13:40+0100\n"
-"PO-Revision-Date: 2025-01-30 11:05+0000\n"
+"PO-Revision-Date: 2025-02-02 01:45+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/da/>\n"
 "Language: da\n"
@@ -17227,19 +17227,19 @@ msgstr "Returnerer heltalsværdier (SAND) eller decimalværdier (FALSK)."
 #: sc/inc/scfuncs.hrc:4257
 msgctxt "SC_OPCODE_DROP"
 msgid "Excludes a specified number of contiguous rows or columns from the start or end of an array."
-msgstr "Ekskluderer et angivet antal sammenhængende rækker eller kolonner fra starten eller slutningen på et array."
+msgstr "Ekskluderer et angivet antal sammenhængende rækker eller kolonner fra starten eller slutningen på en matrix."
 
 #. W6FYc
 #: sc/inc/scfuncs.hrc:4258
 msgctxt "SC_OPCODE_DROP"
 msgid "Array"
-msgstr "Array"
+msgstr "Matrix"
 
 #. zEu4G
 #: sc/inc/scfuncs.hrc:4259
 msgctxt "SC_OPCODE_DROP"
 msgid "The array from which to drop rows or columns."
-msgstr "Arrayet som der skal droppes rækker eller søjler fra."
+msgstr "Matricen der skal droppes rækker eller søjler fra."
 
 #. BFPt4
 #: sc/inc/scfuncs.hrc:4260
@@ -17251,7 +17251,7 @@ msgstr "Rækker"
 #: sc/inc/scfuncs.hrc:4261
 msgctxt "SC_OPCODE_DROP"
 msgid "The number of rows to drop. A negative value drops from the end of the array."
-msgstr "Antallet af rækker, som skal droppes. En negativ værdi dropper fra slutningen på arrayet."
+msgstr "Antallet af rækker, som skal droppes. En negativ værdi dropper fra matricens slutning."
 
 #. GQ7cE
 #: sc/inc/scfuncs.hrc:4262
@@ -17263,25 +17263,25 @@ msgstr "Kolonne"
 #: sc/inc/scfuncs.hrc:4263
 msgctxt "SC_OPCODE_DROP"
 msgid "The number of columns to drop. A negative value drops from the end of the array."
-msgstr "Antallet af kolonner, som skal droppes. En negativ værdi dropper fra slutningen på arrayet."
+msgstr "Antallet af kolonner, som skal droppes. En negativ værdi dropper fra matricens slutning."
 
 #. cXvVY
 #: sc/inc/scfuncs.hrc:4269
 msgctxt "SC_OPCODE_EXPAND"
 msgid "Expands or pads an array to specified row and column dimensions."
-msgstr "Udvider eller udfylder et array til angivne række- og kolonnedimensioner."
+msgstr "Udvider eller udfylder en matrix til angivne række- og kolonnedimensioner."
 
 #. kuERH
 #: sc/inc/scfuncs.hrc:4270
 msgctxt "SC_OPCODE_EXPAND"
 msgid "Array"
-msgstr "Array"
+msgstr "Matrix"
 
 #. E9YDC
 #: sc/inc/scfuncs.hrc:4271
 msgctxt "SC_OPCODE_EXPAND"
 msgid "The array to expand."
-msgstr "Arrayet som skal udvides."
+msgstr "Matricen som skal udvides."
 
 #. EaNgG
 #: sc/inc/scfuncs.hrc:4272
@@ -17293,7 +17293,7 @@ msgstr "Rækker"
 #: sc/inc/scfuncs.hrc:4273
 msgctxt "SC_OPCODE_EXPAND"
 msgid "The number of rows in the expanded array. If missing, rows will not be expanded."
-msgstr "Antallet af rækker i det udvidede array. Hvis udeladt, vil rækker ikke blive udvidet."
+msgstr "Antallet af rækker i den udvidede matrix. Hvis udeladt, vil antallet af rækker ikke blive ændret."
 
 #. jLBEp
 #: sc/inc/scfuncs.hrc:4274
@@ -17305,7 +17305,7 @@ msgstr "Kolonner"
 #: sc/inc/scfuncs.hrc:4275
 msgctxt "SC_OPCODE_EXPAND"
 msgid "The number of columns in the expanded array. If missing, columns will not be expanded."
-msgstr "Antallet af kolonner i det udvidede array. Hvis udeladt, vil kolonner ikke blive udvidet."
+msgstr "Antallet af kolonner i den udvidede matrix. Hvis udeladt, vil antallet af kolonner ikke blive ændret."
 
 #. QPyBK
 #: sc/inc/scfuncs.hrc:4276
@@ -17323,19 +17323,19 @@ msgstr "Værdien som der skal udfyldes med. Standardværdien er #N/A."
 #: sc/inc/scfuncs.hrc:4283
 msgctxt "SC_OPCODE_TAKE"
 msgid "Returns a specified number of contiguous rows or columns from the start or end of an array."
-msgstr "Returnerer et angivet antal sammenhængende rækker eller kolonner fra starten eller slutningen af et array."
+msgstr "Returnerer et angivet antal sammenhængende rækker eller kolonner fra starten eller slutningen af en matrix."
 
 #. dFLFb
 #: sc/inc/scfuncs.hrc:4284
 msgctxt "SC_OPCODE_TAKE"
 msgid "Array"
-msgstr "Array"
+msgstr "Matrix"
 
 #. ycFef
 #: sc/inc/scfuncs.hrc:4285
 msgctxt "SC_OPCODE_TAKE"
 msgid "The array from which to take rows or columns."
-msgstr "Arrayet som der skal hentes rækker eller kolonner fra."
+msgstr "Matricen der skal hentes rækker eller kolonner fra."
 
 #. DzBCL
 #: sc/inc/scfuncs.hrc:4286
@@ -17347,61 +17347,61 @@ msgstr "Rækker"
 #: sc/inc/scfuncs.hrc:4287
 msgctxt "SC_OPCODE_TAKE"
 msgid "The number of rows to take. A negative value takes from the end of the array."
-msgstr ""
+msgstr "Antallet af rækker, som skal hentes. En negativ værdi henter fra matricens slutning."
 
 #. eRGvR
 #: sc/inc/scfuncs.hrc:4288
 msgctxt "SC_OPCODE_TAKE"
 msgid "Column"
-msgstr ""
+msgstr "Kolonne"
 
 #. ZexcG
 #: sc/inc/scfuncs.hrc:4289
 msgctxt "SC_OPCODE_TAKE"
 msgid "The number of columns to take. A negative value takes from the end of the array."
-msgstr ""
+msgstr "Antallet af kolonner, som skal hentes. En negativ værdi henter fra matricens slutning."
 
 #. 4dkE2
 #: sc/inc/scfuncs.hrc:4295
 msgctxt "SC_OPCODE_TOCOL"
 msgid "transforms an array into a single column."
-msgstr ""
+msgstr "omformer en matrix til en enkelt kolonne."
 
 #. UAzNC
 #: sc/inc/scfuncs.hrc:4296
 msgctxt "SC_OPCODE_TOCOL"
 msgid "Array"
-msgstr ""
+msgstr "Matrix"
 
 #. SFGHg
 #: sc/inc/scfuncs.hrc:4297
 msgctxt "SC_OPCODE_TOCOL"
 msgid "The range or array to return as a column."
-msgstr ""
+msgstr "Området eller matricen, der skal returneres som en enkelt kolonne."
 
 #. uACXu
 #: sc/inc/scfuncs.hrc:4298
 msgctxt "SC_OPCODE_TOCOL"
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorér"
 
 #. UaqvP
 #: sc/inc/scfuncs.hrc:4299
 msgctxt "SC_OPCODE_TOCOL"
 msgid "Whether to ignore certain types of values. 0 or omitted - keep all values (default). 1 - ignore blanks. 2 - ignore errors. 3 - ignore blanks and errors."
-msgstr ""
+msgstr "Om bestemte typer af værdier skal ignoreres. 0 eller udeladt: behold alle værdier. 1: ignorér blanke. 2: ignorér fejl. 3: ignorér blanke og fejl."
 
 #. qNLAi
 #: sc/inc/scfuncs.hrc:4300
 msgctxt "SC_OPCODE_TOCOL"
 msgid "Scan by column"
-msgstr ""
+msgstr "Gennemløb ud fra kolonner"
 
 #. bcArN
 #: sc/inc/scfuncs.hrc:4301
 msgctxt "SC_OPCODE_TOCOL"
 msgid "Scan the array by column. FALSE or omitted (default) - the array is scanned by row. TRUE - the array is scanned by column."
-msgstr ""
+msgstr "Gennemløb matricen efter kolonner. FALSK eller udeladt (standard): matricen gennemløbes efter rækker. SAND: matricen gennemløbes efter kolonner."
 
 #. PGyxj
 #: sc/inc/scfuncs.hrc:4307
@@ -17443,7 +17443,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:4313
 msgctxt "SC_OPCODE_TOROW"
 msgid "Scan the array by column. FALSE or omitted (default) - the array is scanned by row. TRUE - the array is scanned by column."
-msgstr ""
+msgstr "Gennemløb matricen efter kolonner. FALSK eller udeladt (standard): matricen gennemløbes efter rækker. SAND: matricen gennemløbes efter kolonner."
 
 #. NJR3E
 #: sc/inc/scfuncs.hrc:4319
