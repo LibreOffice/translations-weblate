@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 13:38+0100\n"
-"PO-Revision-Date: 2025-02-03 05:49+0000\n"
+"PO-Revision-Date: 2025-02-04 05:45+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/da/>\n"
 "Language: da\n"
@@ -2564,7 +2564,7 @@ msgctxt ""
 "par_id101619033666470\n"
 "help.text"
 msgid "Note that in all examples the object <literal>oDoc</literal> is an instance of the <literal>Base</literal> service."
-msgstr "Bemærk, at i alle eksempler er objektet <literal>oDoc</literal> en forekomst af tjenesten <literal>Base</literal>."
+msgstr "Bemærk, at i alle eksempler er objektet <literal>oDoc</literal> en instans af tjenesten <literal>Base</literal>."
 
 #. hKce4
 #: sf_base.xhp
@@ -3995,7 +3995,7 @@ msgctxt ""
 "par_id351591014177269\n"
 "help.text"
 msgid "The <literal>SFDocuments.Calc</literal> service is a subclass of the <link href=\"text/sbasic/shared/03/sf_document.xhp\"><literal>SFDocuments.Document</literal></link> service. All methods and properties defined for the <literal>Document</literal> service can also be accessed using a <literal>Calc</literal> service instance."
-msgstr "Tjenesten <literal>SFDocuments.Calc</literal> er en delmængde af tjenesten <link href=\"text/sbasic/shared/03/sf_document.xhp\"><literal>SFDocuments.Document</literal></link>. Alle metoder og egenskaber, der er defineret til tjenesten <literal>Document</literal> (dokument) kan også tilgås med tjenesteforekomsten <literal>Calc</literal>."
+msgstr "Tjenesten <literal>SFDocuments.Calc</literal> er en delmængde af tjenesten <link href=\"text/sbasic/shared/03/sf_document.xhp\"><literal>SFDocuments.Document</literal></link>. Alle metoder og egenskaber, der er defineret for tjenesten <literal>Document</literal> (dokument) kan også tilgås med instansen af <literal>Calc</literal>-tjenesten."
 
 #. 4uAEX
 #: sf_calc.xhp
@@ -4184,7 +4184,7 @@ msgctxt ""
 "par_id571591019367284\n"
 "help.text"
 msgid "Within a <emph>specific</emph> <literal>Calc</literal> <emph>instance</emph>, sheets and ranges are given as strings such as \"Sheet1\" and \"D2:F6\"."
-msgstr "Indenfor en <emph>bestemt</emph> <literal>Calc</literal> <emph>-forekomst</emph>, er ark og områder angivet som strenge som \"Arkt1\" og \"D2:F6\"."
+msgstr "Indenfor en <emph>bestemt</emph> <literal>Calc</literal> <emph>-instans</emph>, er ark og områder angivet som strenge som \"Arkt1\" og \"D2:F6\"."
 
 #. HGR2H
 #: sf_calc.xhp
@@ -4193,7 +4193,7 @@ msgctxt ""
 "par_id121591019432157\n"
 "help.text"
 msgid "Additionally, the <literal>.Sheet</literal> and <literal>.Range</literal> properties return a reference that may be used as argument of a method called from <emph>another instance</emph> of the <literal>Calc</literal> service."
-msgstr "Derudover returnerer egenskaberne <literal>.Sheet</literal> og <literal>.Range</literal>  en reference, som kan bruges som argument i en metode, der kaldes fra <emph>en anden forekomst</emph> af tjenesten <literal>Calc</literal>."
+msgstr "Derudover returnerer egenskaberne <literal>.Sheet</literal> og <literal>.Range</literal> en reference, som kan bruges som argument i en metode, der kaldes fra <emph>en anden instans</emph> af <literal>Calc</literal>-tjenesten."
 
 #. AHSav
 #: sf_calc.xhp
@@ -4229,7 +4229,7 @@ msgctxt ""
 "par_id291591020728110\n"
 "help.text"
 msgid "Either a string designating a set of contiguous cells located in a sheet of the current instance or an <literal>object</literal> produced by the <literal>.Range</literal> property."
-msgstr "Enten en streng,  der angiver et sæt sammenhængende celler, placeret i et ark i den aktuelle forekomst eller et <literal>object</literal> frembragt af egenskaben <literal>.Range</literal>."
+msgstr "Enten en streng, der angiver et sæt sammenhængende celler, placeret i et ark i den aktuelle instans eller et <literal>object</literal> frembragt af egenskaben <literal>.Range</literal>."
 
 #. 6CySa
 #: sf_calc.xhp
@@ -4436,7 +4436,7 @@ msgctxt ""
 "par_id681591024294568\n"
 "help.text"
 msgid "A range within the sheet SheetX in file associated with the myDoc Calc instance"
-msgstr "Et område på arket ArkX i den fil, der er knyttet til Calc-forekomsten af myDoc"
+msgstr "Et område på arket ArkX i den fil, der er knyttet til Calc-instansen af myDoc"
 
 #. Yero3
 #: sf_calc.xhp
@@ -5138,7 +5138,7 @@ msgctxt ""
 "par_id93158919969856\n"
 "help.text"
 msgid "Returns either the list with the names of all chart objects in a given sheet or a single <literal>Chart</literal> service instance."
-msgstr "Returnerer enten listen med navnende på diagramobjekterne på et givet ark eller en enkelt forekomst af arket <literal>Diagram</literal>."
+msgstr "Returnerer enten listen med navnene på diagramobjekterne på et givet ark eller en enkelt instans af<literal>Chart</literal>-tjenesten."
 
 #. MKgeJ
 #: sf_calc.xhp
@@ -8465,7 +8465,7 @@ msgctxt ""
 "par_id321614902851541\n"
 "help.text"
 msgid "The <literal>Chart</literal> service is instantiated from a <literal>Calc</literal> service instance either using the <literal>Charts</literal> or <literal>CreateChart</literal> methods."
-msgstr "Tjenesten <literal>Chart</literal> (diagram) instantieres fra en tjenesteforekomst af <literal>Calc</literal> med en af metoderne <literal>Charts</literal> (diagrammer) eller <literal>CreateChart</literal> (opret_diagram)."
+msgstr "Tjenesten <literal>Chart</literal> (diagram) instantieres fra en instans af <literal>Calc</literal>-tjenesten med en af metoderne <literal>Charts</literal> (diagrammer) eller <literal>CreateChart</literal> (opret_diagram)."
 
 #. QtZnt
 #: sf_chart.xhp
@@ -8474,7 +8474,7 @@ msgctxt ""
 "par_id531635274285114\n"
 "help.text"
 msgid "The example below creates a <literal>Chart</literal> service instance from an existing chart in the current Calc document:"
-msgstr "Eksemplet herunder opretter en tjenesteforekomst af <literal>Chart</literal> (diagram) fra et eksisterende diagram i det aktuelle Calc-dokument:"
+msgstr "Eksemplet herunder opretter en instans af <literal>Chart</literal>-tjenesten ud fra et eksisterende diagram i det aktuelle Calc-dokument:"
 
 #. Cqd8G
 #: sf_chart.xhp
@@ -8789,7 +8789,7 @@ msgctxt ""
 "par_id661300789527859\n"
 "help.text"
 msgid "Returns the object representing the chart, which is an instance of the <link href=\"https://docs.libreoffice.org/sc/html/classScChartObj.html\"><literal>ScChartObj</literal></link> class."
-msgstr "Returnerer objektet, der repræsenterer diagrammet, som er en forekomst af klassen <link href=\"https://docs.libreoffice.org/sc/html/classScChartObj.html\"><literal>ScChartObj</literal></link>."
+msgstr "Returnerer objektet, der repræsenterer diagrammet, som er en instans af klassen <link href=\"https://docs.libreoffice.org/sc/html/classScChartObj.html\"><literal>ScChartObj</literal></link>."
 
 #. kDUCf
 #: sf_chart.xhp
@@ -12605,7 +12605,7 @@ msgctxt ""
 "par_id601619633410089\n"
 "help.text"
 msgid "Or using Python:"
-msgstr ""
+msgstr "Eller med Python:"
 
 #. 7D42J
 #: sf_dialog.xhp
@@ -12614,7 +12614,7 @@ msgctxt ""
 "pyc_id981688462077340\n"
 "help.text"
 msgid "dlg = CreateScriptService('NewDialog', 'myDialog1', (100,200, 40, 110))"
-msgstr ""
+msgstr "dlg = CreateScriptService('NewDialog', 'myDialog1', (100,200, 40, 110))"
 
 #. wF8Se
 #: sf_dialog.xhp
@@ -12623,7 +12623,7 @@ msgctxt ""
 "pyc_id681619620065191\n"
 "help.text"
 msgid "# ... Process controls and do what is needed"
-msgstr ""
+msgstr "# ... Proceskontroller og udfør hvad der ellers er brug for"
 
 #. h9PeA
 #: sf_dialog.xhp
@@ -12632,7 +12632,7 @@ msgctxt ""
 "par_id951688460698125\n"
 "help.text"
 msgid "All properties and methods applicable to predefined dialogs are available for such new dialogs. In particular the series of <literal>CreateXXX()</literal> methods for the addition of new dialog controls."
-msgstr ""
+msgstr "Alle de egenskaber og metoder, som gælder for forhåndsdefinerede dialoger, er tilgængelige for sådanne nye dialoger. Specier serien af <literal>CreateXXX()</literal>-metoder til at tilføje nye kontrolelementer til dialogen."
 
 #. 8iyqo
 #: sf_dialog.xhp
@@ -12641,7 +12641,7 @@ msgctxt ""
 "hd_id141670854511382\n"
 "help.text"
 msgid "Retrieving the Dialog instance that triggered a dialog event"
-msgstr ""
+msgstr "At hente Dialog-instansen, som udløste en dialoghændelse"
 
 #. BVcDA
 #: sf_dialog.xhp
@@ -13253,7 +13253,7 @@ msgctxt ""
 "par_id871583933076448\n"
 "help.text"
 msgid "Set the focus on the current <literal>Dialog</literal> instance. Return <literal>True</literal> if focusing was successful."
-msgstr "Sæt fokus på den aktuelle forekomst af <literal>Dialog</literal>. Returner <literal>True</literal>, hvis fokuseringen lykkedes."
+msgstr "Sæt fokus på den aktuelle instans af <literal>Dialog</literal>. Returner <literal>True</literal>, hvis fokuseringen lykkedes."
 
 #. 7QdPA
 #: sf_dialog.xhp
@@ -13280,7 +13280,7 @@ msgctxt ""
 "par_id391651225506119\n"
 "help.text"
 msgid "Centers the current dialog instance in the middle of a parent window. Without arguments, the method centers the dialog in the middle of the current window."
-msgstr "Centrerer den aktuelle forekomst af dialogen midt på det ordnede vindue. Uden argumenter centrerer metoden dialogen i midten af det aktuelle vindue."
+msgstr "Centrerer den aktuelle instans af dialogen midt i det ordnede vindue. Uden argumenter centrerer metoden dialogen i midten af det aktuelle vindue."
 
 #. xEJEH
 #: sf_dialog.xhp
@@ -13415,7 +13415,7 @@ msgctxt ""
 "par_id81598185229301\n"
 "help.text"
 msgid "a <literal>DialogControl</literal> class instance based on its name"
-msgstr "en <literal>DialogControl</literal>-klasseforekomst baseret på dens navn"
+msgstr "en instans af <literal>DialogControl</literal>-klassen baseret på dens navn"
 
 #. AEAHd
 #: sf_dialog.xhp
@@ -14387,7 +14387,7 @@ msgctxt ""
 "par_id21598187900349\n"
 "help.text"
 msgid "Replaces all fixed text strings in a dialog by their translated versions based on a <literal>L10N</literal> service instance. This method translates the following strings:"
-msgstr "Erstatter alle faste tekststrenge i en dialog med deres oversatte versioner baseret på en forekomst af tjenesten <literal>L10N</literal> . Denne metode oversætter følgende strenge:"
+msgstr "Erstatter alle faste tekststrenge i en dialog med deres oversatte versioner baseret på en instans af tjenesten <literal>L10N</literal> . Denne metode oversætter følgende strenge:"
 
 #. JixXU
 #: sf_dialog.xhp
@@ -14414,7 +14414,7 @@ msgctxt ""
 "par_id451598185776205\n"
 "help.text"
 msgid "<emph>l10n</emph>: A <literal>L10N</literal> service instance from which translated strings will be retrieved."
-msgstr "<emph>l10n</emph>: En forekomst af tjenesten <literal>L10N</literal>, som de oversatte strenge hentes fra."
+msgstr "<emph>l10n</emph>: En instans af tjenesten <literal>L10N</literal>, som de oversatte strenge hentes fra."
 
 #. MeJAT
 #: sf_dialog.xhp
@@ -14711,7 +14711,7 @@ msgctxt ""
 "par_id21598187953679\n"
 "help.text"
 msgid "Terminate the <literal>Dialog</literal> service for the current instance. Return <literal>True</literal> if the termination was successful."
-msgstr "Afslut tjenesten <literal>Dialog</literal> i den aktuelle forekomst. Returner <literal>True</literal> (sand), hvis afslutningen lykkedes."
+msgstr "Afslut tjenesten <literal>Dialog</literal> for den aktuelle instans. Returner <literal>True</literal> (sand), hvis afslutningen lykkedes."
 
 #. CgAYf
 #: sf_dialog.xhp
@@ -14756,7 +14756,7 @@ msgctxt ""
 "par_id931583589764919\n"
 "help.text"
 msgid "The <literal>DialogControl</literal> service manages the controls belonging to a dialog defined with the Basic <link href=\"text/sbasic/guide/create_dialog.xhp\">Dialog Editor</link>. Each instance of the current service represents a single control within a dialog box."
-msgstr "Tjenesten <literal>DialogControl</literal> håndterer de kontroller, der hører til en dialog, der er defineret med Basics <link href=\"text/sbasic/guide/create_dialog.xhp\">Dialogredigering</link>. Hver forekomst af den aktuelle tjeneste repræsenterer en enkelt kontrol indenfor et dialog felt."
+msgstr "Tjenesten <literal>DialogControl</literal> håndterer de kontrolelementer, der hører til en dialog, som er defineret med Basics <link href=\"text/sbasic/guide/create_dialog.xhp\">Dialogredigering</link>. Hver instans af den aktuelle tjeneste repræsenterer et enkelt kontrolelement indenfor et dialogfelt."
 
 #. 7dDgL
 #: sf_dialogcontrol.xhp
@@ -15395,7 +15395,7 @@ msgctxt ""
 "par_id801598458580456\n"
 "help.text"
 msgid "The parent <literal>SFDialogs.Dialog</literal> class object instance."
-msgstr "Forældreklassen <literal>SFDialogs.Dialog</literal>s objektforekomst."
+msgstr "Objektinstansen af forældreklassen <literal>SFDialogs.Dialog</literal>."
 
 #. GTGu9
 #: sf_dialogcontrol.xhp
@@ -16378,7 +16378,7 @@ msgctxt ""
 "par_id171612781589503\n"
 "help.text"
 msgid "Traverses the tree and finds recursively, starting from the root, a node meeting some criteria. Either - 1 match is enough - having its display value matching <literal>displayvalue</literal> pattern or having its data value equal to <literal>datavalue</literal>. The comparisons may be or not case-sensitive. The first matching occurrence is returned as a node UNO object of type <literal>com.sun.star.awt.tree.XMutableTreeNode</literal>. <embedvar href=\"text/sbasic/shared/03/sf_dialogcontrol.xhp#XMutableTreeNode\"/>"
-msgstr "Gennemgår træet rekursivt, startende fra roden, og finder en forgrending, der opfylder nogle kriterier. Ethvert - 1-match er nok - når det har en visningsværdi, der matcher mønstret <literal>visningsværdi</literal> eller har en dataværdi, der er lig med <literal>dataværdi</literal>. Sammenlignerne have eller ikke have Stort-og-småt. Den første matchende forekomst returneres som et forgrenings-UNO-objekt af typen <literal>com.sun.star.awt.tree.XMutableTreeNode</literal>. <embedvar href=\"text/sbasic/shared/03/sf_dialogcontrol.xhp#XMutableTreeNode\"/>"
+msgstr "Gennemgår træet rekursivt, startende fra roden, og finder en forgrening, der opfylder nogle kriterier. Enten ved at have en visningsværdi, som matcher <literal>displayvalue</literal>-mønsteret (1 match er nok), eller ved at have en dataværdi, der er lig med <literal>datavalue</literal>. Sammenligningerne kan skelne mellem store og små bogstaver, eller ikke skelne. Den første matchende forekomst returneres som et forgrenings-UNO-objekt af typen <literal>com.sun.star.awt.tree.XMutableTreeNode</literal>. <embedvar href=\"text/sbasic/shared/03/sf_dialogcontrol.xhp#XMutableTreeNode\"/>"
 
 #. 5Jxkj
 #: sf_dialogcontrol.xhp
@@ -17557,7 +17557,7 @@ msgctxt ""
 "par_id581582885655885\n"
 "help.text"
 msgid "Returns a <literal>ScriptForge.Dictionary</literal> object instance. After update, can be passed again to the property for updating the document.<br/>Individual items of the dictionary may be either strings, numbers, (Basic) dates or <link href=\"https://api.libreoffice.org/docs/idl/ref/structcom_1_1sun_1_1star_1_1util_1_1Duration.html\"><literal>com.sun.star.util.Duration</literal></link> items."
-msgstr "Returnerer en objektforekomst fra <literal>ScriptForge.Dictionary</literal>. Efter en opdatering kan den igen sendes til den egenskab, der opdaterer dokumentet. <br/> Individuelle elemernter i ordbogen, kan være enten strenge, tal, (Basic-)datoer eller <link href=\"https://api.libreoffice.org/docs/idl/ref/structcom_1_1sun_1_1star_1_1util_1_1Duration.html\"><literal>com.sun.star.util.Duration</literal></link>-elementer."
+msgstr "Returnerer en objektinstans af <literal>ScriptForge.Dictionary</literal>. Efter opdatering kan instansen igen sendes til den egenskab, som opdaterer dokumentet. <br/> Individuelle elementer i ordbogen/opslagstabellen (dictionary), kan være enten strenge, tal, (Basic-)datoer eller <link href=\"https://api.libreoffice.org/docs/idl/ref/structcom_1_1sun_1_1star_1_1util_1_1Duration.html\"><literal>com.sun.star.util.Duration</literal></link>-elementer."
 
 #. DktDb
 #: sf_document.xhp
@@ -17955,7 +17955,7 @@ msgctxt ""
 "par_id981611149616155\n"
 "help.text"
 msgid "This method returns an instance of the <link href=\"text/sbasic/shared/03/sf_menu.xhp\"><input>SFWidgets.Menu</input></link> service."
-msgstr "Denne metode returnerer en forekomst af tjenesten <link href=\"text/sbasic/shared/03/sf_menu.xhp\"><input>SFWidgets.Menu</input></link>."
+msgstr "Denne metode returnerer en instans af tjenesten <link href=\"text/sbasic/shared/03/sf_menu.xhp\"><input>SFWidgets.Menu</input></link>."
 
 #. GKeq5
 #: sf_document.xhp
@@ -18020,7 +18020,7 @@ msgctxt ""
 "bas_id100164312025160\n"
 "help.text"
 msgid "' After creating the menu, the service instance can be disposed of"
-msgstr "' Når menuen er oprettet, kan forekomsten af tjenesten fjernes"
+msgstr "' Når menuen er oprettet, kan instansen af tjenesten kasseres"
 
 #. WuNHU
 #: sf_document.xhp
@@ -18344,7 +18344,7 @@ msgctxt ""
 "par_id991589202413257\n"
 "help.text"
 msgid "Runs a UNO command on the document window associated with the service instance. A few typical commands are: Save, SaveAs, ExportToPDF, Undo, Copy, Paste, etc."
-msgstr "Udfører en UNO-kommando i det dokumentvindue, der er knyttet til forekomsten af tjenesten. Nogle få typiske kommandoer er: Gem, Gem som, Eksportér til PDF, Fortryd, Kopiér, Indsæt, og så videre."
+msgstr "Udfører en UNO-kommando i det dokumentvindue, der er knyttet til instansen af tjenesten. Nogle få typiske kommandoer er: \"Save\" (gem), \"SaveAs\" (gem som), \"ExportToPDF\" (eksportér til PDF), \"Undo\" (fortryd), \"Copy\" (kopiér), \"Paste\" (indsæt), og så videre."
 
 #. qBhYc
 #: sf_document.xhp
@@ -18407,7 +18407,7 @@ msgctxt ""
 "par_id371644184276886\n"
 "help.text"
 msgid "Below is an example that runs the UNO command <literal>ReplaceAll</literal> and passes values for its arguments <literal>SearchString</literal> and <literal>ReplaceString</literal>. Running this command will replace all occurrence of the string \"abc\" by \"ABC\" in the current sheet."
-msgstr "Herunder er der et eksempel, der kører UNO-kommandoen <literal>ReplaceAll</literal> (erstat_alle) og videregiver værdier som dens argumenter <literal>SearchString</literal> (søg_streng) og <literal>ReplaceString</literal> (erstat_streng). Kørsel af denne kommando erstatter alle forekomster af strengen \"abc\" med \"ABC\" på det aktuelle ark."
+msgstr "Herunder er et eksempel, der kører UNO-kommandoen <literal>ReplaceAll</literal> (erstat_alle) og videregiver værdier som dens argumenter <literal>SearchString</literal> (søgestreng) og <literal>ReplaceString</literal> (erstatningsstreng). Kørsel af denne kommando erstatter alle forekomster af strengen \"abc\" med \"ABC\" på det aktuelle ark."
 
 #. Z4Egf
 #: sf_document.xhp
@@ -21802,7 +21802,7 @@ msgctxt ""
 "par_id11618180564274\n"
 "help.text"
 msgid "To access a given subform of a form use the <literal>SubForms</literal> method. Note that in the example below <literal>mySubForm</literal> is a new instance of the <literal>Form</literal> service."
-msgstr "For at tilgå en given underformular bruger du metoden <literal>SubForms</literal> (underformular). Bemærk, at o eksemplet herunder er <literal>mySubForm</literal> (min_underformular) en ny forekomst af tjenesten <literal>Form</literal> (formular)."
+msgstr "For at tilgå en given underformular bruger du metoden <literal>SubForms</literal> (underformular). Bemærk, at i eksemplet herunder er <literal>mySubForm</literal> (min_underformular) en ny instans af tjenesten <literal>Form</literal> (formular)."
 
 #. e7fcY
 #: sf_form.xhp
@@ -22513,7 +22513,7 @@ msgctxt ""
 "par_id871583933076448\n"
 "help.text"
 msgid "Sets the focus on the current <literal>Form</literal> instance. Returns <literal>True</literal> if focusing was successful."
-msgstr "Sætter fokus på den aktuelle forekomst af <literal>Form</literal> (formular). Returnerer <literal>True</literal> (sand), hvis fokuseringen lykkedes."
+msgstr "Sætter fokus på den aktuelle instans af <literal>Form</literal> (formular). Returnerer <literal>True</literal> (sand), hvis fokuseringen lykkedes."
 
 #. 9qj5F
 #: sf_form.xhp
@@ -22603,7 +22603,7 @@ msgctxt ""
 "par_id501616860541195\n"
 "help.text"
 msgid "Closes the form document containing the actual <literal>Form</literal> instance. The <literal>Form</literal> instance is disposed."
-msgstr "Lukker det formulardokument, der indeholder den aktuelle forekomst af <literal>Form</literal>. Forekomsten af <literal>Form</literal> (formular) bortskaffes."
+msgstr "Lukker det formulardokument, der indeholder den aktuelle instans af <literal>Form</literal>. Instansen af <literal>Form</literal> (formular) kasseres."
 
 #. a8CxQ
 #: sf_form.xhp
