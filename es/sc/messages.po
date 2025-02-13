@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-02-12 21:43+0100\n"
-"PO-Revision-Date: 2025-02-11 01:45+0000\n"
+"PO-Revision-Date: 2025-02-14 01:45+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/es/>\n"
 "Language: es\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.9.1\n"
 "X-POOTLE-MTIME: 1566031195.000000\n"
 
 #. kBovX
@@ -3480,7 +3480,7 @@ msgstr ""
 #: sc/inc/globstr.hrc:581
 msgctxt "STR_SENSITIVITY_VARCELLS"
 msgid "Variable Cells"
-msgstr ""
+msgstr "Celdas variables"
 
 #. Z6CGq
 #: sc/inc/globstr.hrc:582
@@ -14409,7 +14409,7 @@ msgstr "Si se proporciona, devuelve el texto proporcionado; de lo contrario, dev
 #: sc/inc/scfuncs.hrc:3392
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Match Mode"
-msgstr ""
+msgstr "Modo de correspondencia"
 
 #. vEqB5
 #: sc/inc/scfuncs.hrc:3393
@@ -14421,6 +14421,11 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0: correspondencia exacta. Devolverá #N/D si no hay correspondencias (predeterminado).\n"
+"-1: correspondencia exacta o el elemento sucesivo menor.\n"
+"1: correspondencia exacta o el elemento sucesivo mayor.\n"
+"2: correspondencia por comodín.\n"
+"3: correspondencia por expresión regular."
 
 #. EvSiP
 #: sc/inc/scfuncs.hrc:3394
@@ -14437,6 +14442,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1: buscar a partir del primer valor (predeterminado).\n"
+"-1: buscar a partir del último valor (invertido).\n"
+"2: búsqueda binaria de valores ordenados ascendentemente.\n"
+"-2: búsqueda binaria de valores ordenados descendentemente."
 
 #. KZapz
 #: sc/inc/scfuncs.hrc:3401
@@ -14640,7 +14649,7 @@ msgstr "La matriz o el intervalo que se buscará."
 #: sc/inc/scfuncs.hrc:3454
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Match Mode"
-msgstr ""
+msgstr "Modo de correspondencia"
 
 #. DZ2bC
 #: sc/inc/scfuncs.hrc:3455
@@ -14652,6 +14661,11 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0: correspondencia exacta. Devolverá #N/D si no hay correspondencias (predeterminado).\n"
+"-1: correspondencia exacta o el elemento sucesivo menor.\n"
+"1: correspondencia exacta o el elemento sucesivo mayor.\n"
+"2: correspondencia por comodín.\n"
+"3: correspondencia por expresión regular."
 
 #. UtoXD
 #: sc/inc/scfuncs.hrc:3456
@@ -14668,6 +14682,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1: buscar a partir del primer valor (predeterminado).\n"
+"-1: buscar a partir del último valor (invertido).\n"
+"2: búsqueda binaria de valores ordenados ascendentemente.\n"
+"-2: búsqueda binaria de valores ordenados descendentemente."
 
 #. XJ4FS
 #: sc/inc/scfuncs.hrc:3463
@@ -16942,7 +16960,7 @@ msgstr "Superior"
 #: sc/inc/scfuncs.hrc:4183
 msgctxt "SC_OPCODE_RANDBETWEEN_NV"
 msgid "The largest integer that can be returned."
-msgstr "El entero más grande que puede ser devuelto."
+msgstr "El entero más grande que se puede devolver."
 
 #. xF6CA
 #: sc/inc/scfuncs.hrc:4189
@@ -16984,7 +17002,7 @@ msgstr "Resultado si está vacío"
 #: sc/inc/scfuncs.hrc:4195
 msgctxt "SC_OPCODE_FILTER"
 msgid "The value to return if all values in the included array are empty (filter returns nothing)."
-msgstr ""
+msgstr "El valor que se devolverá si todos los valores de la matriz incluida están vacíos (si el filtro no devuelve nada)."
 
 #. gSZGa
 #: sc/inc/scfuncs.hrc:4201
@@ -17002,7 +17020,7 @@ msgstr "Intervalo"
 #: sc/inc/scfuncs.hrc:4203
 msgctxt "SC_OPCODE_SORT"
 msgid "The range, or array to sort."
-msgstr ""
+msgstr "El intervalo o la matriz que se ordenará."
 
 #. 3vzBe
 #: sc/inc/scfuncs.hrc:4204
@@ -17014,7 +17032,7 @@ msgstr "Índice de ordenación"
 #: sc/inc/scfuncs.hrc:4205
 msgctxt "SC_OPCODE_SORT"
 msgid "A number indicating the row or column to sort by."
-msgstr ""
+msgstr "Un número que indica por qué fila o columna se debe ordenar."
 
 #. uFhZs
 #: sc/inc/scfuncs.hrc:4206
@@ -17134,7 +17152,7 @@ msgstr "Paso"
 #: sc/inc/scfuncs.hrc:4235
 msgctxt "SC_OPCODE_MAT_SEQUENCE"
 msgid "The amount to increment each subsequent value in the array."
-msgstr ""
+msgstr "En una matriz, la cantidad que se incrementará entre cada valor sucesivo."
 
 #. 8HzKM
 #: sc/inc/scfuncs.hrc:4241
@@ -17398,7 +17416,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:4314
 msgctxt "SC_OPCODE_VSTACK"
 msgid "Array"
-msgstr ""
+msgstr "Matriz"
 
 #. tGHH9
 #: sc/inc/scfuncs.hrc:4315
@@ -17602,7 +17620,7 @@ msgstr "Nombre 1"
 #: sc/inc/scfuncs.hrc:4373
 msgctxt "SC_OPCODE_LET"
 msgid "The first name to assign. Must start with a letter. Cannot be the output of a formula or conflict with range syntax."
-msgstr ""
+msgstr "El primer nombre para asignar. Debe comenzar por una letra. No puede ser la salida de una fórmula ni conflictuar con la sintaxis del intervalo."
 
 #. KsyBM
 #: sc/inc/scfuncs.hrc:4374
@@ -18137,7 +18155,7 @@ msgstr ""
 #: sc/inc/strings.hrc:89
 msgctxt "SCSTR_AUTOMATIC"
 msgid "Automatic"
-msgstr ""
+msgstr "Automático"
 
 #. X6bVC
 #. Select tables dialog title
@@ -19501,13 +19519,13 @@ msgstr "Coeficientes"
 #: sc/inc/strings.hrc:335
 msgctxt "STR_LABEL_TSTATISTIC"
 msgid "t-Statistic"
-msgstr "Estadística t"
+msgstr "Estadístico t"
 
 #. PGno2
 #: sc/inc/strings.hrc:336
 msgctxt "STR_LABEL_INTERCEPT"
 msgid "Intercept"
-msgstr "Intersección"
+msgstr "Intercepto"
 
 #. oa4Cm
 #: sc/inc/strings.hrc:337
@@ -21183,7 +21201,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/conditionaleasydialog.ui:246
 msgctxt "conditioneasydialog|extended_tip|entryRange"
 msgid "Range of cells for conditional formatting."
-msgstr ""
+msgstr "Intervalo de celdas para el formato condicional."
 
 #. 5MDWE
 #: sc/uiconfig/scalc/ui/conditionaleasydialog.ui:264
@@ -24225,7 +24243,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:305
 msgctxt "duplicaterecordsdialog|compareby"
 msgid "Compare by:"
-msgstr ""
+msgstr "Comparar por:"
 
 #. C7EVS
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:315
@@ -24249,7 +24267,7 @@ msgstr "Mostrar _mensaje de error al introducir valores no válidos"
 #: sc/uiconfig/scalc/ui/erroralerttabpage.ui:25
 msgctxt "erroralerttabpage|extended_tip|tsbshow"
 msgid "Displays the error message that you enter in the Contents area when invalid data is entered in a cell."
-msgstr "Muestra el mensaje de error que se introduce en la sección Contenido al ingresar datos inválidos en una celda."
+msgstr "Muestra el mensaje de error que proporcione en el apartado Contenido al introducir datos no válidos en una celda."
 
 #. pFAUd
 #: sc/uiconfig/scalc/ui/erroralerttabpage.ui:58
