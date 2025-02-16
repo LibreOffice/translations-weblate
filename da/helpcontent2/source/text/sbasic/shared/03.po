@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 13:38+0100\n"
-"PO-Revision-Date: 2025-02-16 05:45+0000\n"
+"PO-Revision-Date: 2025-02-17 05:45+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/da/>\n"
 "Language: da\n"
@@ -5246,7 +5246,7 @@ msgctxt ""
 "par_id461670939954392\n"
 "help.text"
 msgid "<emph>filterscope:</emph> Determines how <literal>filterformula</literal> is expanded to the given range. This argument is mandatory if a <literal>filterformula</literal> is specified. The following values are accepted:"
-msgstr "<emph>filterscope</emph>: Bestemmer hvordan <literal>filterformula</literal> udvides til det givne område. Dette argument er obligatorisk, hvis <literal>filterformula</literal> er angivet. Følgende værdier accepteres:"
+msgstr "<emph>filterscope</emph> (filter-virkefelt): Bestemmer hvordan <literal>filterformula</literal> udvides til det givne område. Dette argument er obligatorisk, hvis <literal>filterformula</literal> er angivet. Følgende værdier accepteres:"
 
 #. 3pGBf
 #: sf_calc.xhp
@@ -28934,7 +28934,7 @@ msgctxt ""
 "par_id71621894832089\n"
 "help.text"
 msgid "Converts numbers and monetary values into written text for any of the currently supported languages."
-msgstr ""
+msgstr "Konverterer tal og pengeværdier til skrevet tekst for et hvilket som helst af de aktuelt understøttede sprog."
 
 #. CTtMf
 #: sf_region.xhp
@@ -28943,7 +28943,7 @@ msgctxt ""
 "par_id971656026551328\n"
 "help.text"
 msgid "For a list of all supported languages visit the <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1linguistic2_1_1XNumberText.html\">XNumberText Interface</link> API reference."
-msgstr ""
+msgstr "Du finder en liste over alle understøttede sprog i API-referencen <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1linguistic2_1_1XNumberText.html\">XNumberText Interface</link>."
 
 #. xTUD6
 #: sf_region.xhp
@@ -28952,7 +28952,7 @@ msgctxt ""
 "par_id401621896675306\n"
 "help.text"
 msgid "<emph>number</emph>: the number to be converted into written text. It can be provided either as a numeric type or as a string. When a string is provided, it can be preceded by a prefix informing how the numbers should be written. It is also possible to include ISO 4217 currency codes. See examples below for more information."
-msgstr ""
+msgstr "<emph>number</emph>: Tallet som skal konverteres til skreven tekst. Det kan angives som en talværdi eller som en tekststreng. Når der angives en streng, kan den indledes med et præfiks, der giver information om, hvordan tallene skal skrives. Det er også muligt at inkludere ISO 4217-valutakoder. Se eksemplerne herunder for mere information."
 
 #. cNDim
 #: sf_region.xhp
@@ -28961,7 +28961,7 @@ msgctxt ""
 "par_id401621896675412\n"
 "help.text"
 msgid "<emph>locale</emph>: the locale defining the language into which the number will be converted to, given either in \"la-CO\" or \"la\" formats. The default value is the locale defined in the <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\"><literal>OfficeLocale</literal></link> property of the <literal>Platform</literal> service."
-msgstr ""
+msgstr "<emph>locale</emph>: Lokaliteten som definerer det sprog, som tallet skal konverteres til, angivet i format \"la-CO\" (language-COUNTRY = sprog-LAND) eller \"la\". Standardværdien er lokaliteten defineret i <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\"><literal>OfficeLocale</literal></link>-egenskaben fra <literal>Platform</literal>-tjenesten."
 
 #. QeBpA
 #: sf_region.xhp
@@ -28970,7 +28970,7 @@ msgctxt ""
 "bas_id301656027173020\n"
 "help.text"
 msgid "' Returns \"one hundred five\""
-msgstr ""
+msgstr "' Returnerer \"et hundrede og fem\""
 
 #. 7xovc
 #: sf_region.xhp
@@ -28979,7 +28979,7 @@ msgctxt ""
 "bas_id531656022496631\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(105, \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(105, \"da-DK\")"
 
 #. UGGvv
 #: sf_region.xhp
@@ -28988,7 +28988,7 @@ msgctxt ""
 "bas_id771656027217144\n"
 "help.text"
 msgid "' Returns: \"two point four two\""
-msgstr ""
+msgstr "' Returnerer: \"to komma toogfyrre\""
 
 #. Xr7no
 #: sf_region.xhp
@@ -28997,7 +28997,7 @@ msgctxt ""
 "bas_id201656022493367\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(2.42, \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(2.42, \"da-DK\")"
 
 #. 7hYbk
 #: sf_region.xhp
@@ -29006,7 +29006,7 @@ msgctxt ""
 "bas_id281656027262234\n"
 "help.text"
 msgid "' Returns: \"twenty-five euro and ten cents\" Notice the \"EUR\" currency symbol"
-msgstr ""
+msgstr "' Returnerer: \"femogtyve euro ti cent\"; læg mærke til valutasymbolet \"EUR\""
 
 #. DBPc8
 #: sf_region.xhp
@@ -29015,7 +29015,7 @@ msgctxt ""
 "bas_id201656022497171\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(\"EUR 25.10\", \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(\"EUR 25.10\", \"da-DK\")"
 
 #. pd3Fm
 #: sf_region.xhp
@@ -29024,7 +29024,7 @@ msgctxt ""
 "bas_id981656027330132\n"
 "help.text"
 msgid "' Returns: \"fifteenth\"; Notice the \"ordinal\" prefix"
-msgstr ""
+msgstr "' Returnerer: \"femtende\"; læg mærke til præfikset \"ordinal\""
 
 #. ggt2A
 #: sf_region.xhp
@@ -29033,7 +29033,7 @@ msgctxt ""
 "bas_id841656027330394\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(\"ordinal 15\", \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(\"ordinal 15\", \"da-DK\")"
 
 #. YQCCF
 #: sf_region.xhp
@@ -29042,7 +29042,7 @@ msgctxt ""
 "pyc_id401656027481473\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(105, \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(105, \"da-DK\")"
 
 #. FTGnF
 #: sf_region.xhp
@@ -29051,7 +29051,7 @@ msgctxt ""
 "pyc_id781656027481769\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(2.42, \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(2.42, \"da-DK\")"
 
 #. RCDq5
 #: sf_region.xhp
@@ -29060,7 +29060,7 @@ msgctxt ""
 "pyc_id951656027482096\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(\"EUR 25.10\", \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(\"EUR 25.10\", \"da-DK\")"
 
 #. vtGFv
 #: sf_region.xhp
@@ -29069,7 +29069,7 @@ msgctxt ""
 "pyc_id231656027482425\n"
 "help.text"
 msgid "numText = oRegion.Number2Text(\"ordinal 15\", \"en-US\")"
-msgstr ""
+msgstr "numText = oRegion.Number2Text(\"ordinal 15\", \"da-DK\")"
 
 #. 3T93o
 #: sf_region.xhp
@@ -29078,7 +29078,7 @@ msgctxt ""
 "par_id801656027524051\n"
 "help.text"
 msgid "To get a list of all supported prefixes in a given language, call <literal>Number2Text</literal> with the special \"help\" argument. In the example below, assume your locale is set to \"en-US\", then the list of available prefixes for \"en-US\" will be shown by <literal>MsgBox</literal>:"
-msgstr ""
+msgstr "For at få en liste over alle understøttede præfikser for et givet sprog, kald <literal>Number2Text</literal> med det specielle argument \"help\". I eksemplet nedenfor, antag at din lokalitet er sat til \"en-UD\", så vil listen af tilgængelige præfikser for \"en-US\" blive vist med <literal>MsgBox</literal>:"
 
 #. RBkxp
 #: sf_region.xhp
@@ -29087,7 +29087,7 @@ msgctxt ""
 "par_id781656027840633\n"
 "help.text"
 msgid "The first line in the message box does not have a prefix, which means that it is the standard format. The subsequent lines include the prefix and some examples of numbers using its format."
-msgstr ""
+msgstr "Den første linje i beskedboksen har ikke et præfiks, hvilket betyder, at det er standardformatet. De efterfølgende linjer inkluderer præfikset og nogle eksempler på tal, der bruger dets format."
 
 #. WYDkd
 #: sf_region.xhp
@@ -29096,7 +29096,7 @@ msgctxt ""
 "par_id781656028528520\n"
 "help.text"
 msgid "Each language has its own set of supported prefixes. The number of available prefixes may vary from language to language."
-msgstr ""
+msgstr "Hvert sprog har sit eget sæt af understøttede præfikser. Antallet af tilgængelige præfikser kan variere fra sprog til sprog."
 
 #. gcMPN
 #: sf_region.xhp
@@ -29105,7 +29105,7 @@ msgctxt ""
 "par_id531663849363398\n"
 "help.text"
 msgid "To get the list of prefixes for a specific language or locale, it can be specified as the second argument in <literal>Number2Text</literal>. The example below shows the available prefixes available for the \"pt-BR\" locale:"
-msgstr ""
+msgstr "For at få listen over præfikser for et specifikt sprog eller lokalitet, kan det angives som det andet argument til <literal>Number2Text</literal>. Eksemplet nedenfor viser de tilgængelige præfikser for for lokaliteten \"pt-BR\":"
 
 #. dShiA
 #: sf_region.xhp
@@ -29114,7 +29114,7 @@ msgctxt ""
 "par_id71621894832117\n"
 "help.text"
 msgid "Returns the offset between GMT and the given timezone and locale, in minutes."
-msgstr ""
+msgstr "Returnerer forskydningen mellem GMT og den givne tidszone og lokalitet i minutter."
 
 #. xCAjE
 #: sf_region.xhp
@@ -29123,7 +29123,7 @@ msgctxt ""
 "par_id401621896675018\n"
 "help.text"
 msgid "<emph>timezone</emph>: the timezone for which the offset to the GMT will be calculated."
-msgstr ""
+msgstr "<emph>timezone</emph>: Den tidszone, som tidsforskydningen til GMT skal beregnes for."
 
 #. XuX3E
 #: sf_region.xhp
@@ -29132,7 +29132,7 @@ msgctxt ""
 "par_id401621896675691\n"
 "help.text"
 msgid "<emph>locale</emph>: the locale specifying the country for which the offset will be calculated, given either in \"la-CO\" or \"CO\" formats. The default value is the locale defined in the <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\"><literal>OfficeLocale</literal></link> property of the <literal>Platform</literal> service."
-msgstr ""
+msgstr "<emph>locale</emph>: Lokaliteten der angiver landet, som tidsforskydningen vil blive beregnet for, givet i formatet \"la-CO\" (language-COUNTRY = sprog-LAND) eller formatet \"CO\". Standardværdien er lokaliteten defineret i <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\"><literal>OfficeLocale</literal></link>-egenskaben fra <literal>Platform</literal>-tjenesten."
 
 #. JiFjE
 #: sf_region.xhp
@@ -29141,7 +29141,7 @@ msgctxt ""
 "par_id71621894864217\n"
 "help.text"
 msgid "Returns the UTC date and time considering a given local date and time in a timezone."
-msgstr ""
+msgstr "Returnerer UTC-datoen og -klokkeslættet ud fra en given lokal dato og klokkeslæt i en tidszone."
 
 #. AK3nQ
 #: sf_region.xhp
@@ -29150,7 +29150,7 @@ msgctxt ""
 "par_id401621896674748\n"
 "help.text"
 msgid "<emph>localdatetime</emph>: the local date and time in a specific timezone expressed as a date."
-msgstr ""
+msgstr "<emph>localdatetime</emph>: Den lokale dato og klokkeslæt i en specifik tidszone, udtrykt som en dato (Date)."
 
 #. hpxBF
 #: sf_region.xhp
@@ -29159,7 +29159,7 @@ msgctxt ""
 "par_id401621896675739\n"
 "help.text"
 msgid "<emph>timezone</emph>: the timezone for which the <literal>localdatetime</literal> argument was given."
-msgstr ""
+msgstr "<emph>timezone</emph>: Den tidszone, som argumentet <literal>localdatetime</literal> blev angivet for."
 
 #. zSttY
 #: sf_region.xhp
@@ -29168,7 +29168,7 @@ msgctxt ""
 "par_id401621896675550\n"
 "help.text"
 msgid "<emph>locale</emph>: the locale specifying the country for which the <literal>localdatetime</literal> argument was given, expressed either in \"la-CO\" or \"CO\" formats. The default value is the locale defined in the <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\"><literal>OfficeLocale</literal></link> property of the <literal>Platform</literal> service."
-msgstr ""
+msgstr "<emph>locale</emph>: Lokaliteten der angiver landet, som <literal>localdatetime</literal> gjaldt for, givet i formatet \"la-CO\" (language-COUNTRY = sprog-LAND) eller formatet \"CO\". Standardværdien er lokaliteten defineret i <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\"><literal>OfficeLocale</literal></link>-egenskaben fra <literal>Platform</literal>-tjenesten."
 
 #. y3NSm
 #: sf_region.xhp
@@ -29177,7 +29177,7 @@ msgctxt ""
 "bas_id861656077547861\n"
 "help.text"
 msgid "' Date/Time in Berlin, June 23, 2022 at 14:30:00"
-msgstr ""
+msgstr "' Dato/klokkeslæt i Berlin, 23. juni 2022 kl. 14:30:00"
 
 #. HjSnk
 #: sf_region.xhp
@@ -29186,7 +29186,7 @@ msgctxt ""
 "bas_id731656077523173\n"
 "help.text"
 msgid "' The UTC date/time is June 23, 2022 at 12:30:00"
-msgstr ""
+msgstr "' UTC-dato/klokkeslæt er 23. juni 2022 kl. 12:30:00"
 
 #. tZoWt
 #: sf_region.xhp
@@ -29195,7 +29195,7 @@ msgctxt ""
 "par_id71621894835287\n"
 "help.text"
 msgid "Returns the current UTC date and time, given a timezone and locale."
-msgstr ""
+msgstr "Returnerer den aktuelle UTC-dato og -klokkeslæt givet en tidszone og en lokalitet."
 
 #. zzSQA
 #: sf_region.xhp
@@ -29204,7 +29204,7 @@ msgctxt ""
 "par_id491656078254442\n"
 "help.text"
 msgid "This method uses the current date and time of your operating system to calculate the UTC time."
-msgstr ""
+msgstr "Denne metode bruger den aktuelle dato og klokkeslæt for dit operativsystem til at beregne UTC-tiden."
 
 #. XxBE8
 #: sf_region.xhp
@@ -29213,7 +29213,7 @@ msgctxt ""
 "par_id401621896673318\n"
 "help.text"
 msgid "<emph>timezone</emph>: the timezone for which the current UTC time will be calculated."
-msgstr ""
+msgstr "<emph>timezone</emph>: Den tidszone, som den aktuelle UTC-tid skal beregnes for."
 
 #. BHESq
 #: sf_region.xhp
@@ -29222,7 +29222,7 @@ msgctxt ""
 "par_id401621896674831\n"
 "help.text"
 msgid "<emph>locale</emph>: the locale specifying the country for which the current UTC time will be calculated, given either in \"la-CO\" or \"CO\" formats. The default value is the locale defined in the <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\"><literal>OfficeLocale</literal></link> property of the <literal>Platform</literal> service."
-msgstr ""
+msgstr "<emph>locale</emph>: Lokaliteten der angiver landet, som den aktuelle UTC-tid skal beregnes for, givet i formatet \"la-CO\" (language-COUNTRY = sprog-LAND) eller formatet \"CO\". Standardværdien er lokaliteten defineret i <link href=\"text/sbasic/shared/03/sf_platform.xhp#bm_id111614901524769\"><literal>OfficeLocale</literal></link>-egenskaben fra <literal>Platform</literal>-tjenesten."
 
 #. FWSJp
 #: sf_region.xhp
@@ -29231,7 +29231,7 @@ msgctxt ""
 "bas_id861656078128374\n"
 "help.text"
 msgid "' Suppose the operating system time is June 23rd, 2022 at 10:42:00"
-msgstr ""
+msgstr "' Antag at operativsystem-tidspunktet er 23. juni 2022 kl. 10:42:00"
 
 #. CWY76
 #: sf_region.xhp
@@ -29240,7 +29240,7 @@ msgctxt ""
 "bas_id691656078180784\n"
 "help.text"
 msgid "' If the computer is in Europe/Berlin, then UTC time is June 23rd, 2022 at 08:42:00"
-msgstr ""
+msgstr "' Hvis computeren er i Europe/Berlin, så er UTC-tiden 23. juni 2022 kl. 08:42:00"
 
 #. NPVe5
 #: sf_region.xhp
@@ -29249,7 +29249,7 @@ msgctxt ""
 "pyc_id821656078645252\n"
 "help.text"
 msgid "utcTime = oRegion.UTCNow(\"Europe/Berlin\", \"DE\")"
-msgstr ""
+msgstr "utcTime = oRegion.UTCNow(\"Europe/Berlin\", \"DE\")"
 
 #. GpvmN
 #: sf_services.xhp
@@ -29456,7 +29456,7 @@ msgctxt ""
 "par_id581627645023307\n"
 "help.text"
 msgid "Be aware that the <literal>Basic</literal> service has to be instantiated in Python scripts using the <literal>CreateScriptService</literal> method."
-msgstr ""
+msgstr "Vær opmærksom på, at i Python-scripts der bruger <literal>CreateScriptService</literal>-metoden, skal <literal>Basic</literal>-tjenesten være oprettet som en instans (instantieret)."
 
 #. LCVem
 #: sf_session.xhp
@@ -29600,7 +29600,7 @@ msgctxt ""
 "par_id391582814720487\n"
 "help.text"
 msgid "in <emph>My Macros</emph>"
-msgstr ""
+msgstr "i <emph>Mine makroer</emph>"
 
 #. MiuWT
 #: sf_session.xhp
@@ -29618,7 +29618,7 @@ msgctxt ""
 "par_id21582814720997\n"
 "help.text"
 msgid "in <emph>Application Macros</emph>"
-msgstr ""
+msgstr "i <emph>Programmakroer</emph>"
 
 #. LnKrt
 #: sf_session.xhp
@@ -29663,7 +29663,7 @@ msgctxt ""
 "par_id451582815407230\n"
 "help.text"
 msgid "Execute the BASIC script given its name and location, and fetch its result, if any."
-msgstr ""
+msgstr "Udfør Basic-scriptet ud fra dets navn og placering, og hent eventuelt resultat."
 
 #. yFnSG
 #: sf_session.xhp
@@ -29681,7 +29681,7 @@ msgctxt ""
 "par_id631582815407231\n"
 "help.text"
 msgid "<emph>scope</emph>: String specifying where the script is stored. It can be either \"document\" (constant <literal>session.SCRIPTISEMBEDDED</literal>) or \"application\" (constant <literal>session.SCRIPTISAPPLICATION</literal>)."
-msgstr "<emph>scope</emph> (anvendelse): Streng, der angiver, hvor scriptet er lagtet. Det kan være enten \"document\" (konstant <literal>session.SCRIPTISEMBEDDED</literal>) eller \"application\" (konstant <literal>session.SCRIPTISAPPLICATION</literal>)."
+msgstr "<emph>scope</emph> (anvendelse): Streng, der angiver, hvor scriptet er gemt. Det kan være enten \"document\" (konstant <literal>session.SCRIPTISEMBEDDED</literal>) eller \"application\" (konstant <literal>session.SCRIPTISAPPLICATION</literal>)."
 
 #. SCCpE
 #: sf_session.xhp
@@ -29816,7 +29816,7 @@ msgctxt ""
 "par_id791582818023246\n"
 "help.text"
 msgid "<emph>scope</emph>: One of the applicable constants listed <link href=\"text/sbasic/shared/03/sf_session.xhp#properties_toc\">above</link>. The default value is <literal>session.SCRIPTISSHARED</literal>."
-msgstr ""
+msgstr "<emph>scope</emph> (virkefelt): En af de tilgængelige konstanter, som er opført <link href=\"text/sbasic/shared/03/sf_session.xhp#properties_toc\">ovenfor</link>. Standardværdien er <literal>session.SCRIPTISSHARED</literal>."
 
 #. ELfda
 #: sf_session.xhp
@@ -30023,7 +30023,7 @@ msgctxt ""
 "par_id461582819697898\n"
 "help.text"
 msgid "<emph>command</emph>: The command to execute. This may be an executable file or a document which is registered with an application so that the system knows what application to launch for that document. This method equally starts .bat or shell scripts.The command must be expressed in the current <literal>SF_FileSystem.FileNaming</literal> notation."
-msgstr ""
+msgstr "<emph>command</emph>: Kommandoen som skal udføres. Dette kan være en programfil, eller det kan være et dokument, der er registreret med et program, sådan at systemet ved, hvilket program der skal startes for dette dokument. Denne metode kan ligeledes bruges til at starte .bat-scripts eller skal-scripts (shell scripts). Kommandoen skal udtrykkes i den aktuelle <literal>SF_FileSystem.FileNaming</literal>-notation."
 
 #. b8hbC
 #: sf_session.xhp
@@ -30347,7 +30347,7 @@ msgctxt ""
 "par_id761611947117831\n"
 "help.text"
 msgid "Line feed<br/>             Vertical tab<br/>             Carriage return<br/>             Carriage return + Line feed<br/>             File separator<br/>             Group separator<br/>             Record separator<br/>             Next line<br/>             Line separator<br/>             Paragraph separator"
-msgstr ""
+msgstr "Linjeskift<br/>Lodret tabulator<br/>Vognretur<br/>Vognretur + Linjeskift<br/>Fil-skilletegn<br/>Gruppe-skilletegn<br/>Post-skilletegn<br/>Næste linje<br/>Linje-skilletegn<br/>Afsnits-skilletegn"
 
 #. WCvgW
 #: sf_string.xhp
@@ -30482,7 +30482,7 @@ msgctxt ""
 "par_id221611949584320\n"
 "help.text"
 msgid "Control characters (ASCII code <= 0x1F) are also considered as non-printable."
-msgstr ""
+msgstr "Kontrolkarakterer (ASCII-kode <= 0x1F = 31, dvs. før mellemrumstegn) bliver også betragtede som ikke-printbare."
 
 #. GfNfK
 #: sf_string.xhp
@@ -31238,7 +31238,7 @@ msgctxt ""
 "par_id671580039484786\n"
 "help.text"
 msgid "Returns <literal>True</literal> if all characters in the string are ASCII characters."
-msgstr ""
+msgstr "Returnerer <literal>True</literal> hvis alle tegn i strengen er ASCII-tegn."
 
 #. 3DNou
 #: sf_string.xhp
@@ -31670,7 +31670,7 @@ msgctxt ""
 "par_id101580133705268\n"
 "help.text"
 msgid "<emph>padding</emph>: The single character to be used as padding (default = the ASCII space \" \")."
-msgstr ""
+msgstr "<emph>padding</emph> (udfyldning): Det enkelttegn, der skal bruges som udfyldning (standard = ASCII-mellemrumstegn \" \")."
 
 #. 4zk3p
 #: sf_string.xhp
@@ -31724,7 +31724,7 @@ msgctxt ""
 "par_id221580135568475\n"
 "help.text"
 msgid "<emph>padding</emph>: The single character to be used as padding (default = the ASCII space \" \")."
-msgstr ""
+msgstr "<emph>padding</emph> (udfyldning): Det enkelttegn, der skal bruges som udfyldning (standard = ASCII-mellemrumstegn \" \")."
 
 #. TTokb
 #: sf_string.xhp
@@ -31778,7 +31778,7 @@ msgctxt ""
 "par_id751580136200680\n"
 "help.text"
 msgid "<emph>padding</emph>: The single character to be used as padding (default = the ASCII space \" \")."
-msgstr ""
+msgstr "<emph>padding</emph> (udfyldning): Det enkelttegn, der skal bruges som udfyldning (standard = ASCII-mellemrumstegn \" \")."
 
 #. Wn55u
 #: sf_string.xhp
@@ -32219,7 +32219,7 @@ msgctxt ""
 "par_id811580211821162\n"
 "help.text"
 msgid "<emph>delimiter</emph>: A string of one or more characters that will be used as delimiter. The default delimiter is the ASCII space \" \" character."
-msgstr ""
+msgstr "<emph>delimiter</emph> (skilletegn): En streng af et eller flere tegn, der vil blive brugt som skilletegn. Standard-skilletegnet er ASCII-mellemrumstegnet \" \"."
 
 #. 3rGRu
 #: sf_string.xhp
@@ -32319,6 +32319,8 @@ msgctxt ""
 "help.text"
 msgid "Converts any escaped sequence (\\\\, \\n, \\r, \\t) in the input string to their corresponding ASCII character."
 msgstr ""
+"Konverterer enhver escape-sekvens ((\\\\, \\n"
+", \\r, \\t) i inputstrengen til deres tilsvarende ASCII-tegn."
 
 #. mzTsG
 #: sf_string.xhp
@@ -32444,7 +32446,7 @@ msgctxt ""
 "par_id641612394826616\n"
 "help.text"
 msgid "Symbolic line breaks are replaced by their equivalent ASCII characters."
-msgstr ""
+msgstr "Symbolske linjeskift bliver erstattede med deres tilsvarende ASCII-tegn."
 
 #. y7VvP
 #: sf_string.xhp
@@ -33461,7 +33463,7 @@ msgctxt ""
 "par_id391626872019832\n"
 "help.text"
 msgid "Be aware that the <literal>Wait</literal> function in BASIC takes in a duration argument in milliseconds whereas the <literal>sleep</literal> function in Python uses seconds in its argument."
-msgstr ""
+msgstr "Vær opmærksom på, at funktionen <literal>Wait</literal> i Basic har input i millisekunder, mens funktionen <literal>sleep</literal> i Python bruger antal sekunder som argument."
 
 #. bHEyr
 #: sf_timer.xhp
