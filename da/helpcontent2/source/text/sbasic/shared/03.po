@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 13:38+0100\n"
-"PO-Revision-Date: 2025-02-17 05:45+0000\n"
+"PO-Revision-Date: 2025-02-18 05:45+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/da/>\n"
 "Language: da\n"
@@ -1157,7 +1157,7 @@ msgctxt ""
 "par_id651606319520519\n"
 "help.text"
 msgid "List of Methods in the Array Service"
-msgstr "Liste over metoder i tjenesten Array (Matrix)"
+msgstr "Liste over metoder i tjenesten Array"
 
 #. qDYGe
 #: sf_array.xhp
@@ -1220,7 +1220,7 @@ msgctxt ""
 "par_id991582549679175\n"
 "help.text"
 msgid "<emph>column</emph>: A 1-dimensional array with as many items as there are rows in <literal>array_2d</literal>."
-msgstr "<emph>kolonne</emph>: En endimensionel matrix med så mange elementer, som der er rækker i <literal>array_2d</literal> (den todimensionelle matrix)."
+msgstr "<emph>column</emph>: Et 1-dimensionelt array med lige så mange elementer, som der er rækker i <literal>array_2d</literal>."
 
 #. KDB9L
 #: sf_array.xhp
@@ -1265,7 +1265,7 @@ msgctxt ""
 "par_id451582552517871\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to scan."
-msgstr "<emph>Matrix_1d</emph>: Den matrix, som skal scannes."
+msgstr "<emph>array_1d</emph>: Den matrix, som skal scannes."
 
 #. WZiqW
 #: sf_array.xhp
@@ -1283,7 +1283,7 @@ msgctxt ""
 "par_id981582552517872\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr "<emph>Stort-og-småt</emph>: Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
+msgstr "<emph>casesensitive</emph> (skelnen mellem store og små bogstaver): Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
 
 #. 5ARWv
 #: sf_array.xhp
@@ -1337,7 +1337,7 @@ msgctxt ""
 "par_id571627154604275\n"
 "help.text"
 msgid "Creates a copy of a 1D or 2D array."
-msgstr "Opretter en kopi af en en- eller todimensionel matrix."
+msgstr "Opretter en kopi af et en- eller todimensionelt array."
 
 #. EYuiH
 #: sf_array.xhp
@@ -1346,7 +1346,7 @@ msgctxt ""
 "par_id191627155816815\n"
 "help.text"
 msgid "<emph>array_nd</emph>: The 1D or 2D array to be copied."
-msgstr "<emph>matrix_nd</emph>: Den en- eller to-dimensionelle matrix, der skal kopieres."
+msgstr "<emph>array_nd</emph>: Det en- eller to-dimensionelle array, der skal kopieres."
 
 #. 76Guf
 #: sf_array.xhp
@@ -1391,7 +1391,7 @@ msgctxt ""
 "bas_id141627156152196\n"
 "help.text"
 msgid "' Creates a copy of \"a\" using the \"Copy\" method"
-msgstr "' Oprette en kopi af \"a\" med \"Kopi\"-metoden"
+msgstr "' Oprette en kopi af \"a\" med metoden \"Copy\""
 
 #. bYzRV
 #: sf_array.xhp
@@ -1400,7 +1400,7 @@ msgctxt ""
 "par_id671582558126025\n"
 "help.text"
 msgid "Count the number of dimensions of an array. The result can be greater than two.    <br/>If the argument is not an array, returns -1    <br/>If the array is not initialized, returns 0."
-msgstr "Tæl antallet af en matrix' dimensioner. Resultatet kan være større end to.   <br/>Hvis argumentet ikke er en matrix, returneres -1   <br/>Hvis matrixen ikke er initialiseret, returneres 0."
+msgstr "Tæl antallet af dimensioner i et array. Resultatet kan være større end to.<br/>Hvis argumentet ikke er en matrix, returneres -1.<br/>Hvis arrayet ikke er initialiseret, returneres 0."
 
 #. xbtFE
 #: sf_array.xhp
@@ -1409,7 +1409,7 @@ msgctxt ""
 "par_id771582558126027\n"
 "help.text"
 msgid "<emph>array_nd</emph>: The array to examine."
-msgstr "<emph>matrix_nd</emph>: Den matrix, der skal undersøges."
+msgstr "<emph>array_nd</emph>: Det array, der skal undersøges."
 
 #. n2AxD
 #: sf_array.xhp
@@ -1418,7 +1418,7 @@ msgctxt ""
 "par_id91582558644287\n"
 "help.text"
 msgid "Build a set, as a zero-based array, by applying the difference operator on the two input arrays. Resulting items originate from the first array and not from the second.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, their items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr "Byg mængde som en nul-baseret matrix ved at anvende differens-operatoren på de to input-matricer. Resulterende elementer stammer fra den første matrix og ikke fra den anden. <br/>Den resultende matrix er sorteret i stigende rækkefølge. <br/>Begge input-matricer skal homogent indhold: elementerne skal være skalarer af den samme type. <literal>Tomme</literal> og <literal>Null</literal>-elementer er forbudt. <br/>Nogle tekstsammenligninger skelner mellem store og små bogstaver, andre gør ikke."
+msgstr "Byg mængde, som et array med 0 som første indeks, ved at anvende differens-operatoren på de to input-arrays. Resulterende elementer stammer fra det første array og ikkde det andet.<br/>Det resulterende array er sorteret i stigende rækkefølge. <br/>Begge input-arrays skal have homogent indhold: elementerne skal være enkeltværdier (skalarer) af den samme type. <literal>Tomme</literal> og <literal>Null</literal>-elementer er forbudt. <br/>Nogle tekstsammenligninger skelner mellem store og små bogstaver, andre gør ikke."
 
 #. FTb9n
 #: sf_array.xhp
@@ -1427,7 +1427,7 @@ msgctxt ""
 "par_id271582558644287\n"
 "help.text"
 msgid "<emph>array1_1d</emph>: A 1-dimensional reference array, whose items are examined for removal."
-msgstr "<emph>matrix1_1d</emph>: En en-dimensionel reference-matrix, hvis elementer undersøges til fjernelse."
+msgstr "<emph>array1_1d</emph>: Et en-dimensionelt reference-array, hvis elementer undersøges til fjernelse."
 
 #. JXqBK
 #: sf_array.xhp
@@ -1436,7 +1436,7 @@ msgctxt ""
 "par_id141582558644287\n"
 "help.text"
 msgid "<emph>array2_1d</emph>: A 1-dimensional array, whose items are subtracted from the first input array."
-msgstr "<emph>matrix2_1d</emph>: En en-dimensionel matrix, hvis elementer trækkes fra den første input-matrix."
+msgstr "<emph>array2_1d</emph>: Et en-dimensionelt array, hvis elementer trækkes fra den første input-matrix."
 
 #. jK4zC
 #: sf_array.xhp
@@ -1445,7 +1445,7 @@ msgctxt ""
 "par_id291582559651473\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: This argument is only applicable if the arrays are populated with strings (Default = <literal>False</literal>)."
-msgstr "<emph>Stort-og-småt</emph>: Dette argument er kun anvendeligt, hvis matrixerne er udfyldt med strenge (Standard = <literal>False</literal> (falsk))."
+msgstr "<emph>casesensitive</emph> (skelnen mellem store og små bogstaver): Dette argument er kun anvendeligt, hvis arrayene er udfyldt med strenge (standard = <literal>False</literal> (falsk))."
 
 #. mzRus
 #: sf_array.xhp
@@ -1454,7 +1454,7 @@ msgctxt ""
 "par_id941586179707156\n"
 "help.text"
 msgid "Write all items of the array sequentially to a text file. If the file exists already, it will be overwritten without warning."
-msgstr "Skriv alle matrixens elementer i nummerrækkefølge til en tekstfil. Hvis filen allerede eksisterer, bliver den overskrevet uden varsel."
+msgstr "Skriv alle arrayets elementer efter hinanden til en tekstfil. Hvis filen allerede eksisterer, bliver den overskrevet uden advarsel."
 
 #. 9mNLT
 #: sf_array.xhp
@@ -1463,7 +1463,7 @@ msgctxt ""
 "par_id100158617970719\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to export. It must contain only strings."
-msgstr "<emph>matrix_1d</emph>: Matrixen, skal eksporteres. Må kun indeholde strenge."
+msgstr "<emph>array_1d</emph>: Arrayet, som skal eksporteres. Må kun indeholde strenge."
 
 #. kXJDE
 #: sf_array.xhp
@@ -1472,7 +1472,7 @@ msgctxt ""
 "par_id101586179707232\n"
 "help.text"
 msgid "<emph>filename</emph>: The name of the text file where the data will be written to. The name must be expressed according to the current <literal>FileNaming</literal> property of the <literal>SF_FileSystem</literal> service."
-msgstr "<emph>filnavn</emph>: Navnet på den tekstfil, som data skal skrives til. Navnet skal udtrykkes i henhold til egenskaben <literal>FileNaming</literal> (filnavngivelse) i tjenesten <literal>SF_FileSystem</literal>."
+msgstr "<emph>filename</emph>: Navnet på den tekstfil, som data skal skrives til. Navnet skal udtrykkes i henhold til egenskaben <literal>FileNaming</literal> (filnavngivelse) i tjenesten <literal>SF_FileSystem</literal>."
 
 #. LFxrX
 #: sf_array.xhp
@@ -1481,7 +1481,7 @@ msgctxt ""
 "par_id70158617970791\n"
 "help.text"
 msgid "<emph>encoding</emph>: The character set that should be used. Use one of the names listed in <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\">IANA character sets</link>. Note that %PRODUCTNAME may not implement all existing character sets (Default is \"UTF-8\")."
-msgstr "<emph>indkodning</emph>: Det tegnsæt, der skal bruges. Brug et af de navne, der er oplistet i <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\">IANA tegnsæt</link>. Bemærk, at %PRODUCTNAME måske ikke implementerer alle eksisterende tegnsæt (Standard er \"UTF-8\")."
+msgstr "<emph>encoding</emph>: Det tegnsæt, der skal bruges. Brug et af de navne, der er oplistet i <link href=\"https://www.iana.org/assignments/character-sets/character-sets.xhtml\">IANA tegnsæt</link>. Bemærk, at %PRODUCTNAME måske ikke implementerer alle eksisterende tegnsæt (Standard er \"UTF-8\")."
 
 #. TtHbe
 #: sf_array.xhp
@@ -1490,7 +1490,7 @@ msgctxt ""
 "par_id171582560281082\n"
 "help.text"
 msgid "Extract from a two dimension array a specific column as a new array.      <br/>Its lower <literal>LBound</literal> and upper <literal>UBound</literal> boundaries are identical to that of the first dimension of the input array."
-msgstr "Udtræk en bestemt kolonne som en ny matrix fra en todimensionel matrix.      <br/>Dens nedre <literal>LBound</literal> og øvre <literal>UBound</literal> grænser er identiske med dem fra input-matrixens første dimension."
+msgstr "Udtræk en bestemt kolonne som en ny matrix fra en todimensionel matrix.<br/>Dens nedre <literal>LBound</literal> og øvre <literal>UBound</literal> grænser er identiske med dem fra input-arrayets første dimension."
 
 #. j2CVW
 #: sf_array.xhp
@@ -1499,7 +1499,7 @@ msgctxt ""
 "par_id301582560281083\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The array from which to extract."
-msgstr "<emph>matrix_2d</emph>: Den matrix, der skal udtrækkes fra."
+msgstr "<emph>array_2d</emph>: Det array, der skal udtrækkes fra."
 
 #. QDqrA
 #: sf_array.xhp
@@ -1508,7 +1508,7 @@ msgctxt ""
 "par_id421582560281084\n"
 "help.text"
 msgid "<emph>columnindex</emph>: The column number to extract - must be in the interval <literal>[LBound, UBound]</literal>."
-msgstr "<emph>kolonneindex</emph>: Den kolonne, der skal trækkes ud - skal ligge i intervallet <literal>[LBound, UBound]</literal> (nedre_grænse, øvre_grænse)."
+msgstr "<emph>columnindex</emph>: Den kolonne, der skal trækkes ud – skal ligge i intervallet <literal>[LBound, UBound]</literal> (nedre_grænse, øvre_grænse)."
 
 #. AJxYE
 #: sf_array.xhp
@@ -1535,7 +1535,7 @@ msgctxt ""
 "par_id211582561467219\n"
 "help.text"
 msgid "Extract from a two dimension array a specific row as a new array.      <br/>Its lower <literal>LBound</literal> and upper <literal>UBound</literal> boundaries are identical to that of the second dimension of the input array."
-msgstr "Udtræk en bestemt række som en ny mqtrix fra en to-dimensionel matrix.      <br/>Dens nedre <literal>LBound</literal> og øvre <literal>UBound</literal> grænser er identiske med dem i den anden dimension i input-matrixen."
+msgstr "Udtræk en bestemt række som et ny array fra et to-dimensionelt array. <br/>Dens nedre <literal>LBound</literal> og øvre <literal>UBound</literal> grænser er identiske med dem i den anden dimension i input-arrayet."
 
 #. VCBJA
 #: sf_array.xhp
@@ -1544,7 +1544,7 @@ msgctxt ""
 "par_id911582561542889\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The array from which to extract."
-msgstr "<emph>matrix_2d</emph>: Den matrix, der skal udtrækkes fra."
+msgstr "<emph>array_2d</emph>: Det array, der skal udtrækkes fra."
 
 #. MjXTV
 #: sf_array.xhp
@@ -1553,7 +1553,7 @@ msgctxt ""
 "par_id441582561551202\n"
 "help.text"
 msgid "<emph>rowindex</emph>: The row number to extract - must be in the interval <literal>[LBound, UBound]</literal>."
-msgstr "<emph>rækkeindex</emph>: det rækkenummer, der skal udtrækkes - skal ligge i intervallet <literal>[LBound, UBound]</literal> (nedre_grænse, øvre_grænse)."
+msgstr "<emph>rowindex</emph>: det rækkenummer, der skal udtrækkes – skal ligge i intervallet <literal>[LBound, UBound]</literal> (nedre_grænse, øvre_grænse)."
 
 #. AajEu
 #: sf_array.xhp
@@ -1571,7 +1571,7 @@ msgctxt ""
 "bas_id431609976648017\n"
 "help.text"
 msgid "'Extracts the first row: |1, 2, 3|"
-msgstr "'Udtrækker den første række: |1, 2, 3|"
+msgstr "' Udtrækker den første række: |1, 2, 3|"
 
 #. nGy3S
 #: sf_array.xhp
@@ -1580,7 +1580,7 @@ msgctxt ""
 "par_id431585757822181\n"
 "help.text"
 msgid "Stack all single items of an array and all items in its subarrays into one new array without subarrays. Empty subarrays are ignored and subarrays with a number of dimensions greater than one are not flattened."
-msgstr "Stak alle enkelte elementer i et matrix og alle elemter i det undermatrixer ind i et nyt matrix uden undermatrixer. Tomme undermatrixer ignoreres og undermatrixer med et større antal dimensioner end en udflades ikke."
+msgstr "Stak alle enkelte elementer i et array og alle elementer i dets underarrays ind i et nyt array uden underarrays. Tomme underarrays ignoreres og underarrays med et større antal dimensioner end 1 udflades ikke."
 
 #. CNFGJ
 #: sf_array.xhp
@@ -1589,7 +1589,7 @@ msgctxt ""
 "par_id431585757822869\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr "<emph>matrix_1d</emph>: Den allerede eksisterende matrix, kan være tom."
+msgstr "<emph>array_1d</emph>: Den allerede eksisterende array, kan være tom."
 
 #. DDwn4
 #: sf_array.xhp
@@ -1598,7 +1598,7 @@ msgctxt ""
 "par_id291610040786530\n"
 "help.text"
 msgid "You can use the <literal>Flatten</literal> method along with other methods such as <literal>Append</literal> or <literal>Prepend</literal> to concatenate a set of 1D arrays into a single 1D array."
-msgstr "Du kan bruge metoden <literal>Flatten</literal> sammen med andre metoder som for eksempel <literal>Append</literal> eller <literal>Prepend</literal> til at sammenkæde et sæt af 1D-matrixer til et enkelt 1D-matrixer."
+msgstr "Du kan bruge metoden <literal>Flatten</literal> sammen med andre metoder som for eksempel <literal>Append</literal> eller <literal>Prepend</literal> til at sammenkæde et sæt af 1D-arrays til et enkelt 1D-array."
 
 #. XE4hJ
 #: sf_array.xhp
@@ -1607,7 +1607,7 @@ msgctxt ""
 "par_id941610040961148\n"
 "help.text"
 msgid "Next is an example of how the methods <literal>Flatten</literal> and <literal>Append</literal> can be combined to concatenate three arrays."
-msgstr "Herefter er der et eksempel på, hvordan metoderne <literal>Flatten</literal> og <literal>Append</literal> kan kombineres til at sammenkæde tre matrixer."
+msgstr "Herefter er der et eksempel på, hvordan metoderne <literal>Flatten</literal> og <literal>Append</literal> kan kombineres til at sammenkæde tre arrays."
 
 #. FyJQi
 #: sf_array.xhp
@@ -1616,7 +1616,7 @@ msgctxt ""
 "bas_id841610041372527\n"
 "help.text"
 msgid "'Creates three arrays for this example"
-msgstr "'Opretter tre matrixer til dette eksempel"
+msgstr "' Opretter tre arrays til dette eksempel"
 
 #. WvdEp
 #: sf_array.xhp
@@ -1625,7 +1625,7 @@ msgctxt ""
 "bas_id171610041440657\n"
 "help.text"
 msgid "'Concatenates the three arrays into a single 1D array"
-msgstr "'Sammenkæder de tre matrixer til en enkelt 1D-matrix"
+msgstr "' Sammenkæder de tre arrays til et enkelt 1D-array"
 
 #. 3Gm5m
 #: sf_array.xhp
@@ -1652,7 +1652,9 @@ msgctxt ""
 "par_id641585562341028\n"
 "help.text"
 msgid "Each line in the file contains a full record (line splitting is not allowed).     <br/>However sequences like <literal>\\n</literal>, <literal>\\t</literal>, ... are left unchanged. Use <literal>SF_String</literal>.Unescape() method to manage them."
-msgstr "Hver linje i filen indeholder en komplet post (linjeopdeling er ikke tilladt).     <br/>Sekvenser som <literal>\\n</literal>, <literal>\\t</literal> ... efterrlades imidlertid uændrede. Brug metoden <literal>SF_String</literal>.Unescape() til at håndtere dem."
+msgstr ""
+"Hver linje i filen indeholder en komplet post (linjeopdeling er ikke tilladt).<br/>Sekvenser som <literal>\\n"
+"</literal>, <literal>\\t</literal> ... efterlades imidlertid uændrede. Brug metoden <literal>SF_String</literal>.Unescape() til at håndtere dem."
 
 #. dCYB3
 #: sf_array.xhp
@@ -1661,7 +1663,7 @@ msgctxt ""
 "par_id231585562475026\n"
 "help.text"
 msgid "The method returns a two dimension array whose rows correspond to a single record read in the file and whose columns correspond to a field of the record. No check is made about the coherence of the field types across columns. A best guess will be made to identify numeric and date types."
-msgstr "Metoden returnerer en to-dimensionel matrix, hvis rækker svarer til en enkelt post læst i filen og hvis kolonner svaret til et felt i posten. Der udføres ingen tjek af felttypernes sammenhæng hen over kolonner. Der gøres et bedste gæt på at identificere numeriske og dato-typer."
+msgstr "Metoden returnerer et to-dimensionelt array, hvis rækker svarer til en enkelt post læst i filen og hvis kolonner svaret til et felt i posten. Der udføres ingen tjek af felttypernes sammenhæng hen over kolonner. Der gøres et bedste gæt på at identificere numeriske typer og dato-typer."
 
 #. FMKSo
 #: sf_array.xhp
@@ -1670,7 +1672,7 @@ msgctxt ""
 "par_id101585562548245\n"
 "help.text"
 msgid "If a line contains less or more fields than the first line in the file, an exception will be raised. Empty lines however are simply ignored. If the size of the file exceeds the number of items limit (see inside the code), a warning is raised and the array is truncated."
-msgstr "Hvis en linje indeholder færre eller flere felter en den første linje i filen, sættes et undtagelsesflag og matrixen afkortes. Hvis filstørrelsen overstiger grænsen for antallet af elementer (se inde i koden), skrives en advarsel og matrixen afkortes."
+msgstr "Hvis en linje indeholder færre eller flere felter en den første linje i filen, sættes et undtagelsesflag og arrayet afkortes. Hvis filstørrelsen overstiger grænsen for antallet af elementer (se inde i koden), skrives en advarsel og arrayet afkortes."
 
 #. zGf5A
 #: sf_array.xhp
@@ -1679,7 +1681,7 @@ msgctxt ""
 "par_id441585561482121\n"
 "help.text"
 msgid "<emph>filename</emph>: The name of the text file containing the data. The name must be expressed according to the current <literal>FileNaming</literal> property of the <literal>SF_FileSystem</literal> service."
-msgstr "<emph>filnavn</emph>: Navn på den fil, der indeholder dataene. Navnet skal udtrykkes i henhold til den aktuelle egenskab <literal>FileNaming</literal> (filnavngivelse) i tjenesten <literal>SF_FileSystem</literal>."
+msgstr "<emph>filename</emph>: Navn på den fil, der indeholder dataene. Navnet skal udtrykkes i henhold til den aktuelle egenskab <literal>FileNaming</literal> (filnavngivelse) i tjenesten <literal>SF_FileSystem</literal>."
 
 #. SBuiC
 #: sf_array.xhp
@@ -1688,7 +1690,7 @@ msgctxt ""
 "par_id251585561482929\n"
 "help.text"
 msgid "<emph>delimiter</emph>: A single character, usually, a comma, a semicolon or a TAB character (Default = \",\")."
-msgstr "<emph>skilletegn</emph>: Et enkelt tegn, sædvanligvis et komma, et semikolon eller et TAB-tegn (Standard = \",\")."
+msgstr "<emph>delimiter</emph> (skilletegn): Et enkelt tegn, sædvanligvis et komma, et semikolon eller et TAB-tegn (Standard = \",\")."
 
 #. Ehoz6
 #: sf_array.xhp
@@ -1697,7 +1699,7 @@ msgctxt ""
 "par_id631585563491559\n"
 "help.text"
 msgid "<emph>dateformat</emph>: A special mechanism handles dates when <literal>dateformat</literal> is either \"YYYY-MM-DD\", \"DD-MM-YYYY\" or \"MM-DD-YYYY\". The dash (-) may be replaced by a dot (.), a slash (/) or a space. Other date formats will be ignored. Dates defaulting to an empty string \"\" are considered as normal text."
-msgstr "<emph>datoformat</emph>: En særlig mekanisme håndterer data, når  <literal>dateformat</literal> er enten \"ÅÅÅÅ-MM-DD\", \"DD-MM-ÅÅÅÅ\" eller \"MM-DD-ÅÅÅÅ\". Tankestregen (-) kan erstattes med en prik (.), en skråstreg (/) eller et mellemrum. Andre datoformater bliver ignoreret. Datoer, der falder tilbage til en tom streng \"\" anses som almindelig tekst."
+msgstr "<emph>dateformat</emph>: En særlig mekanisme håndterer data, når <literal>dateformat</literal> er enten \"ÅÅÅÅ-MM-DD\", \"DD-MM-ÅÅÅÅ\" eller \"MM-DD-ÅÅÅÅ\". Tankestregen (-) kan erstattes med en prik (.), en skråstreg (/) eller et mellemrum. Andre datoformater bliver ignoreret. Datoer, der falder tilbage til en tom streng \"\" anses som almindelig tekst."
 
 #. oj4Th
 #: sf_array.xhp
@@ -1706,7 +1708,7 @@ msgctxt ""
 "par_id61585564516409\n"
 "help.text"
 msgid "Consider the CSV file \"myFile.csv\" with the following contents:"
-msgstr "Overvej CSV-filen \"min_fil.csv\" med følgende indhold:"
+msgstr "Betragt CSV-filen \"min_fil.csv\" med følgende indhold:"
 
 #. T6E8L
 #: sf_array.xhp
@@ -1742,7 +1744,7 @@ msgctxt ""
 "par_id181626979812772\n"
 "help.text"
 msgid "The examples below in Basic and Python read the contents of the CSV file into an <literal>Array</literal> object."
-msgstr "Eksemplerne herunder i Basic og Python indlæser CSV-filens indhold i et <literal>Array</literal> (matrix)-objekt."
+msgstr "Eksemplerne herunder i Basic og Python indlæser CSV-filens indhold i et <literal>Array</literal>-objekt."
 
 #. F4yYB
 #: sf_array.xhp
@@ -1751,7 +1753,7 @@ msgctxt ""
 "bas_id531585561482408\n"
 "help.text"
 msgid "arr = SF_Array.ImportFromCSVFile(\"C:\\Temp\\myFile.csv\", DateFormat := \"YYYY/MM/DD\")"
-msgstr "arr = SF_Array.ImportFromCSVFile(\"C:\\Temp\\myFile.csv\", DateFormat := \"ÅÅÅÅ/MM/DD\")"
+msgstr "arr = SF_Array.ImportFromCSVFile(\"C:\\Temp\\min_fil.csv\", DateFormat := \"ÅÅÅÅ/MM/DD\")"
 
 #. wyEqv
 #: sf_array.xhp
@@ -1787,7 +1789,7 @@ msgctxt ""
 "pyc_id511626979992999\n"
 "help.text"
 msgid "arr = svc.ImportFromCSVFile(r\"C:\\Temp\\myFile.csv\", dateformat = \"YYYY/MM/DD\")"
-msgstr "arr = svc.ImportFromCSVFile(r\"C:\\Temp\\myFile.csv\", datoformat = \"ÅÅÅÅ/MM/DD\")"
+msgstr "arr = svc.ImportFromCSVFile(r\"C:\\Temp\\min_fil.csv\", dateformat = \"ÅÅÅÅ/MM/DD\")"
 
 #. asqiD
 #: sf_array.xhp
@@ -1823,13 +1825,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr ""
-"Se i en endimensionel matrix efter et tal, en streng eller en dato. Tekstsammenligning kan skelne mellem Store og små bogstaver eller ej.       \n"
-"<br/>Hvis matrixen er sorteret, skal den være homogent fyldt, hvilket betyder, at alle elementer skal være skalarer af den samme type  \n"
-"(elementerne <literal>Empty</literal> og <literal>Null</literal> er ikke tilladt).      <br/>Resultatet af metoden er uforudsigeligt, \n"
-"når matrixen annonceres som sorteret og faktisk ikke er det.      <br/>En binær søgning foretages på sorterede matrixer. Ellers scannes \n"
-"matrixer fra top til bund og elementerne <literal>Empty</literal> og <literal>Null</literal> ignorereres.      <br/>      \n"
-"<br/>Metoden returnerer <literal>LBound(input array) -1</literal>, hvis søgningen ikke lykkedes."
+msgstr "Se i en endimensionel matrix efter et tal, en streng eller en dato. Tekstsammenligning kan skelne mellem Store og små bogstaver eller ej. <br/>Hvis arrayet er sorteret, skal det være homogent fyldt, hvilket betyder, at alle elementer skal være enkeltværdier (skalarer) af den samme type (elementerne <literal>Empty</literal> og <literal>Null</literal> er ikke tilladt). <br/>Resultatet af metoden er uforudsigeligt, når arrayet annonceres som sorteret og faktisk ikke er det. <br/>En binær søgning foretages på sorterede arrays. Ellers scannes arrays fra top til bund og elementerne <literal>Empty</literal> og <literal>Null</literal> ignorereres.<br/><br/>Metoden returnerer <literal>LBound(input array) -1</literal>, hvis søgningen ikke lykkedes."
 
 #. Bm5Um
 #: sf_array.xhp
@@ -1838,7 +1834,7 @@ msgctxt ""
 "par_id315825627687760\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to scan."
-msgstr "<emph>matrix_1d</emph>: Den matrix, der skal skannes."
+msgstr "<emph>array_1d</emph>: Det array, der skal skannes."
 
 #. B5FFj
 #: sf_array.xhp
@@ -1847,7 +1843,7 @@ msgctxt ""
 "par_id511582562775516\n"
 "help.text"
 msgid "<emph>tofind</emph>: A number, a date or a string to find."
-msgstr "<emph>skal_findes</emph>: Et tal, en dato eller en streng, der skal findes."
+msgstr "<emph>tofind</emph>: Et tal, en dato eller en streng, der skal findes."
 
 #. i4XQT
 #: sf_array.xhp
@@ -1856,7 +1852,7 @@ msgctxt ""
 "par_id311582562787187\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr "<emph>Stort-og-småt</emph>: Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
+msgstr "<emph>casesensitive</emph> (skelnen mellem store og små bogstaver): Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
 
 #. gd5ZZ
 #: sf_array.xhp
@@ -1865,7 +1861,7 @@ msgctxt ""
 "par_id421582562794501\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\", \"DESC\" or \"\" (not sorted). The default value is \"\"."
-msgstr "<emph>sorteringsrækkefølge</emph>: Kan være enten \"ASC\" (stigende), \"DESC\" (faldende) eller \"\" (usorteret). Standardværdien er \"\"."
+msgstr "<emph>sortorder</emph> (sorteringsrækkefølge): Kan være enten \"ASC\" (stigende), \"DESC\" (faldende) eller \"\" (usorteret). Standardværdien er \"\"."
 
 #. AWJHj
 #: sf_array.xhp
@@ -1874,9 +1870,7 @@ msgctxt ""
 "par_id911582626951109\n"
 "help.text"
 msgid "Insert before a given index of the input array the items listed as arguments.      <br/>Arguments are inserted blindly. Each of them might be either a scalar of any type or a subarray."
-msgstr ""
-"Indsæt de elementer, der er oplistet som argumenter, foran et givet indeks i input-matrixen.      <br/>Argumenter indsættes blindt. Hver af dem\n"
-"kan være enten en skalar af vilkårlig type eller en undermatrix."
+msgstr "Indsæt de elementer, der er oplistet som argumenter, foran et givet indeks i input-arrayet.<br/>Argumenter indsættes blindt. Hver af dem kan være enten en enkeltværdi (skalar) af vilkårlig type eller et underarray."
 
 #. FwHz6
 #: sf_array.xhp
@@ -1885,7 +1879,7 @@ msgctxt ""
 "par_id251582626951111\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr "<emph>matrix_1d</emph>: Den allerede eksisterende matrix, kan være tom."
+msgstr "<emph>array_1d</emph>: Det allerede eksisterende array, kan være tomt."
 
 #. zEACt
 #: sf_array.xhp
@@ -1894,7 +1888,7 @@ msgctxt ""
 "par_id361582626951111\n"
 "help.text"
 msgid "<emph>before</emph>: The index before which to insert; must be in the interval <literal>[LBound, UBound + 1]</literal>."
-msgstr "<emph>foran</emph>: Indekset, som der skal indsættes foran; skal ligge i intervallet <literal>[LBound, UBound + 1] (nedre_grænse, øvre_grænse + 1)</literal>."
+msgstr "<emph>before</emph>: Indekset, som der skal indsættes foran; skal ligge i intervallet <literal>[LBound, UBound + 1] (nedre_grænse, øvre_grænse + 1)</literal>."
 
 #. iYFC5
 #: sf_array.xhp
@@ -1903,7 +1897,7 @@ msgctxt ""
 "par_id41582626951111\n"
 "help.text"
 msgid "<emph>arg0, arg1, ...</emph>: Items that will be inserted into <literal>array_1d</literal>."
-msgstr "<emph>arg0, arg1, ...</emph>: Elementer, der skal indsættes i <literal>matrix_1d</literal>."
+msgstr "<emph>arg0, arg1, ...</emph>: Elementer, der skal indsættes i <literal>array_1d</literal>."
 
 #. rA4FE
 #: sf_array.xhp
@@ -1912,7 +1906,7 @@ msgctxt ""
 "par_id441582627664147\n"
 "help.text"
 msgid "Inserts into a sorted array a new item on its place.      <br/>The array must be filled homogeneously, meaning that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are forbidden."
-msgstr "Indsætter et nyt element på dets plads i  en sorteret matrix.      <br/>Matrixwn skal være homogent udfyldt, hvilket vil sige, at alle elementer skal være skalarer af den samme type.      <br/>Elementerne <literal>Empty</literal> (tom) og <literal>Null</literal> (nul) er forbudte."
+msgstr "Indsætter et nyt element på dets plads i et sorteret array. <br/>Arrayet skal være homogent udfyldt, hvilket vil sige, at alle elementer skal være enkeltværdier (skalarer) af den samme type.<br/>Elementerne <literal>Empty</literal> (tom) og <literal>Null</literal> (nul) er forbudte."
 
 #. jBpdF
 #: sf_array.xhp
@@ -1921,7 +1915,7 @@ msgctxt ""
 "par_id121582627664147\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array into which the value will be inserted."
-msgstr "<emph>matrix_1d</emph>: Den matrix, som værdien skal indsættes i."
+msgstr "<emph>array_1d</emph>: Det array, som værdien skal indsættes i."
 
 #. 36fZG
 #: sf_array.xhp
@@ -1930,7 +1924,7 @@ msgctxt ""
 "par_id315826276641480\n"
 "help.text"
 msgid "<emph>item</emph>: The scalar value to insert, of the same type as the existing array items."
-msgstr "<emph>element</emph>: den skalar-værdi, der skal indsættes, af den samme type som de eksisterende matrix-elementer."
+msgstr "<emph>item</emph>: den enkeltværdi (skalar), der skal indsættes, af den samme type som de eksisterende array-elementer."
 
 #. dHYTn
 #: sf_array.xhp
@@ -1939,7 +1933,7 @@ msgctxt ""
 "par_id415826279771170\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr "<emph>sorteringsrækkefølge</emph>: Kan være enten \"ASC\" (stigende) (standard) eller \"DESC\" (faldende)."
+msgstr "<emph>sortorder</emph> (sorteringsrækkefølge): Kan være enten \"ASC\" (stigende) (standard) eller \"DESC\" (faldende)."
 
 #. TJanG
 #: sf_array.xhp
@@ -1948,7 +1942,7 @@ msgctxt ""
 "par_id701582627970037\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr "<emph>Stort-og-småt</emph>: Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
+msgstr "<emph>casesensitive</emph> (skelnen mellem store og små bogstaver): Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
 
 #. t9UFn
 #: sf_array.xhp
@@ -1957,7 +1951,7 @@ msgctxt ""
 "par_id71582629177169\n"
 "help.text"
 msgid "Build a set, as a zero-based array, by applying the intersection set operator on the two input arrays. Resulting items are contained in both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, in other words all items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr "Byg mængde som en nul-baseret matrix ved at anvende fællesmængde-operatoren på de to input-matricer. Resulterende elementer er dem som findes i begge matricer.<br/>Den resultende matrix er sorteret i stigende rækkefølge. <br/>Begge input-matricer skal have homogent indhold: elementerne skal være skalarer af den samme type. <literal>Tomme</literal> og <literal>Null</literal>-elementer er forbudt. <br/>Nogle tekstsammenligninger skelner mellem store og små bogstaver, andre gør ikke."
+msgstr "Byg en mængde som et array, med 0 som første indeks, ved at anvende fællesmængde-operatoren på de to input-arrays. Resulterende elementer er dem som findes i begge arrays.<br/>Det resultende array er sorteret i stigende rækkefølge. <br/>Begge input-arrays skal have homogent indhold: elementerne skal være enkeltværdier (skalarer) af den samme type. <literal>Tomme</literal> og <literal>Null</literal>-elementer er forbudt. <br/>Nogle tekstsammenligninger skelner mellem store og små bogstaver, andre gør ikke."
 
 #. vCyDN
 #: sf_array.xhp
@@ -1966,7 +1960,7 @@ msgctxt ""
 "par_id881582629216169\n"
 "help.text"
 msgid "<emph>array1_1d</emph>: The first input array."
-msgstr "<emph>matrix1_1d</emph>: Den første indtastningsmatrix."
+msgstr "<emph>array1_1d</emph>: De første input-array."
 
 #. NhXEb
 #: sf_array.xhp
@@ -1975,7 +1969,7 @@ msgctxt ""
 "par_id191582629223038\n"
 "help.text"
 msgid "<emph>array2_1d</emph>: The second input array."
-msgstr "<emph>matrix2_1d</emph>: Den anden input-matrix."
+msgstr "<emph>array2_1d</emph>: Det andet input-array."
 
 #. Dx32U
 #: sf_array.xhp
@@ -1984,7 +1978,7 @@ msgctxt ""
 "par_id71582629230275\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Applies to arrays populated with text items (Default = <literal>False</literal>)."
-msgstr "<emph>Stort-og-småt</emph>: Anvendes på matrixer, der er befolket med tekstelementer (Standard = <literal>False</literal> (falsk))."
+msgstr "<emph>casesensitive</emph> (skelnen mellem store og små bogstaver): Anvendes på arrays, fyldt med tekstelementer (standard = <literal>False</literal> (falsk))."
 
 #. cirZm
 #: sf_array.xhp
@@ -1993,7 +1987,7 @@ msgctxt ""
 "par_id431583064481679\n"
 "help.text"
 msgid "Join a two-dimensional array with two delimiters, one for the columns, one for the rows."
-msgstr "Sammenføj en todimensionel matrix med to skilletegn, en for kolonnerne. en for rækkerne."
+msgstr "Sammenføj et todimensionelt array med to skilletegn, et skilletegn for kolonnerne, et skilletegn for rækkerne."
 
 #. 8xwfF
 #: sf_array.xhp
@@ -2002,9 +1996,7 @@ msgctxt ""
 "par_id821583064481534\n"
 "help.text"
 msgid "<emph>array_2d</emph>: Each item must be either text, a number, a date or a boolean.      <br/>Dates are transformed into the YYYY-MM-DD hh:mm:ss format.      <br/>Invalid items are replaced by a zero-length string."
-msgstr ""
-"<emph>matrix_2d</emph>: Hvert element skal være enten tekst, et tal, en dato eller en boolsk værdi.     <br/>Datoer ændres til formatet ÅÅÅÅ-MM-DD hh:mm:ss.\n"
-"      <br/>Ugyldige elementer erstattes af en nul-længde streng."
+msgstr "<emph>array_2d</emph>: Hvert element skal være enten tekst, et tal, en dato eller en boolsk værdi. <br/>Datoer ændres til formatet ÅÅÅÅ-MM-DD hh:mm:ss. <br/>Ugyldige elementer erstattes af en nul-længde streng, \"\"."
 
 #. TiqUm
 #: sf_array.xhp
@@ -2013,7 +2005,7 @@ msgctxt ""
 "par_id171583066989446\n"
 "help.text"
 msgid "<emph>columndelimiter</emph>: Delimits each column (default = Tab/Chr(9))."
-msgstr "<emph>kolonne-skilletegn</emph>: Skiller hver kolonne (standard = Tab/Chr(9))."
+msgstr "<emph>columndelimiter</emph> (kolonne-skilletegn): Adskiller mellem kolonner (standard = Tab/Chr(9))."
 
 #. WG5wm
 #: sf_array.xhp
@@ -2022,7 +2014,7 @@ msgctxt ""
 "par_id431583067008842\n"
 "help.text"
 msgid "<emph>rowdelimiter</emph>: Delimits each row (default = LineFeed/Chr(10))"
-msgstr "<emph>række-skilletegn</emph>: Skiller hver række (standard = Linjeskift/Chr(10))"
+msgstr "<emph>rowdelimiter</emph> (række-skilletegn): Adskiller mellem rækker (standard = LineFeed/Chr(10))"
 
 #. VrBJV
 #: sf_array.xhp
@@ -2031,7 +2023,7 @@ msgctxt ""
 "par_id541583067456273\n"
 "help.text"
 msgid "<emph>quote</emph>: If <literal>True</literal>, protect strings with double quotes. The default is <literal>False</literal>."
-msgstr "<emph>citat</emph>: Hvis <literal>True</literal> (sand), beskyttes strenge med dobbelte anførselstegn. Standard er <literal>False</literal> (falsk)."
+msgstr "<emph>quote</emph> (citat): Hvis <literal>True</literal> (sand), beskyttes strenge med dobbelte anførselstegn. Standard er <literal>False</literal> (falsk)."
 
 #. CEE7o
 #: sf_array.xhp
@@ -2040,7 +2032,7 @@ msgctxt ""
 "par_id731582630075045\n"
 "help.text"
 msgid "Prepend at the beginning of the input array the items listed as arguments."
-msgstr "Tilføj de oplistede elementer som argumenter i begyndelsen af input-matrixen"
+msgstr "Tilføj de oplistede elementer som argumenter i begyndelsen af input-arrayet."
 
 #. HSbWh
 #: sf_array.xhp
@@ -2049,7 +2041,7 @@ msgctxt ""
 "par_id321582630107068\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr "<emph>matrix_1d</emph>: Den allerede eksisterende matrix, kan være tom."
+msgstr "<emph>array_1d</emph>: Det allerede eksisterende array, kan være tom."
 
 #. jszVE
 #: sf_array.xhp
@@ -2058,7 +2050,7 @@ msgctxt ""
 "par_id915826301138550\n"
 "help.text"
 msgid "<emph>arg0, arg1, ...</emph>: A list of items to prepend to <literal>array_1d</literal>."
-msgstr "<emph>arg0, arg1, ...</emph>: En liste over elementer, der skal sættes forrest i <literal>matrix_1d</literal>."
+msgstr "<emph>arg0, arg1, ...</emph>: En liste over elementer, der skal sættes forrest i <literal>array_1d</literal>."
 
 #. BokfB
 #: sf_array.xhp
@@ -2067,7 +2059,7 @@ msgctxt ""
 "par_id91582643223166\n"
 "help.text"
 msgid "Prepend to the left side of a two dimension array a new column. The resulting array has the same lower boundaries as the initial two dimension array."
-msgstr "Indføj en ny kolonne forrest i den venstre side af en to-dimensionel matrix. Den resulterende matrix har de samme nedre grænser som den oprindelige todimensionelle matrix."
+msgstr "Indføj en ny kolonne forrest i den venstre side af et to-dimensionelt array. Det resulterende array har de samme nedre grænser som det oprindelige todimensionelle array."
 
 #. iBqEm
 #: sf_array.xhp
@@ -2076,7 +2068,7 @@ msgctxt ""
 "par_id621582643223545\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the last column of the resulting 2 dimension array."
-msgstr "<emph>matrix_2d</emph>: Den allerede eksisterende matrix, kan være tom. Hvis denne matrix har en dimension, betragtes den som den sidste kolonne i den resulterende 2-dimensionelle matrix."
+msgstr "<emph>array_2d</emph>: Det allerede eksisterende array, kan være tomt. Hvis dette array kun har 1 dimension, betragtes det som den sidste kolonne i det resulterende 2-dimensionelle array."
 
 #. aKJwC
 #: sf_array.xhp
@@ -2085,7 +2077,7 @@ msgctxt ""
 "par_id381582643223870\n"
 "help.text"
 msgid "<emph>column</emph>: A 1-dimensional array with as many items as there are rows in <literal>array_2d</literal>."
-msgstr "<emph>kolonne</emph>: En 1-dimensionel matrix med lige så mange elementer, som der er rækker i <literal>array_2d</literal> (matrix_2)."
+msgstr "<emph>column</emph>: Et 1-dimensionelt array med lige så mange elementer, som der er rækker i <literal>array_2d</literal>."
 
 #. vsPSG
 #: sf_array.xhp
@@ -2094,7 +2086,7 @@ msgctxt ""
 "par_id851582643611291\n"
 "help.text"
 msgid "Prepend a new row at the beginning of a 2-dimensional array. The resulting array has the same lower boundaries as the initial 2-dimensional array."
-msgstr "Tilføj en ny række i begyndelsen af en 2-matrix. Den resulterende matrix har den samme nedre grænse som den oprindelige 2-dimensionelle matrix."
+msgstr "Tilføj en ny række i begyndelsen af et 2-dimensionelt array. Det resulterende array har den samme nedre grænse som det oprindelige 2-dimensionelle array."
 
 #. g2LFC
 #: sf_array.xhp
@@ -2103,7 +2095,7 @@ msgctxt ""
 "par_id991582643611645\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the last row of the resulting 2-dimensional array."
-msgstr "<emph>matrix_2d</emph>: Den allerede eksisterende matrix, kan være tom. Hvis denne matrix har 1 dimension, betragtes den som den sidste række i den resulterende 2-dimensionelle matrix."
+msgstr "<emph>array_2d</emph>: Det allerede eksisterende array, kan være tomt. Hvis dette array kun har 1 dimension, betragtes det som den sidste række t den resulterende 2-dimensionelle array."
 
 #. RiLGr
 #: sf_array.xhp
@@ -2112,7 +2104,7 @@ msgctxt ""
 "par_id321582643611415\n"
 "help.text"
 msgid "<emph>row</emph>: A 1-dimensional array containing as many items as there are columns in <literal>array_2d</literal>."
-msgstr "<emph>række</emph>: En 1-dimensionel matrix, der indeholder ligeså mange elementer som der er kolonner i <literal>matrix_2d</literal>."
+msgstr "<emph>row</emph>: Et 1-dimensionelt array, der indeholder ligeså mange elementer som der er kolonner i <literal>array_2d</literal>."
 
 #. WmxAd
 #: sf_array.xhp
@@ -2121,7 +2113,7 @@ msgctxt ""
 "par_id441582648204012\n"
 "help.text"
 msgid "Initialize a new zero-based array with numeric values."
-msgstr "Initialiser en ny nul-baseret matrix med numeriske værdier."
+msgstr "Initialiser et ny array med 0 som første indeks, med numeriske værdier."
 
 #. EVXVL
 #: sf_array.xhp
@@ -2130,7 +2122,7 @@ msgctxt ""
 "par_id591582648204013\n"
 "help.text"
 msgid "<emph>from</emph>: Value of the first item."
-msgstr "<emph>fra</emph>: Værdien af det første element."
+msgstr "<emph>from</emph> (fra): Værdien af det første element."
 
 #. ciMBJ
 #: sf_array.xhp
@@ -2139,7 +2131,7 @@ msgctxt ""
 "par_id31582648204013\n"
 "help.text"
 msgid "<emph>upto</emph>: The last item should not exceed <literal>UpTo</literal>."
-msgstr "<emph>op_ til</emph>: Det sidste element bør ikke overstige <literal>op_til</literal>."
+msgstr "<emph>up_to</emph> (op_ til): Det sidste element bør ikke overstige <literal>upto</literal>."
 
 #. 2QZtd
 #: sf_array.xhp
@@ -2148,7 +2140,7 @@ msgctxt ""
 "par_id581582648204014\n"
 "help.text"
 msgid "<emph>bystep</emph>: The difference between two successive items (Default = 1)."
-msgstr "<emph>i_trin</emph>: Forskellen mellem to på hinanden følgende elementer (standard = 1)"
+msgstr "<emph>bystep</emph> (i_trin): Forskellen mellem to på hinanden følgende elementer (standard = 1)"
 
 #. SbVGG
 #: sf_array.xhp
@@ -2157,7 +2149,7 @@ msgctxt ""
 "par_id451582648806764\n"
 "help.text"
 msgid "Return the reversed one dimension input array."
-msgstr "Returner den omvendte endimensionelle input-matrix."
+msgstr "Returner det omvendte endimensionelle input-array."
 
 #. dG6d8
 #: sf_array.xhp
@@ -2166,7 +2158,7 @@ msgctxt ""
 "par_id31582648806765\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to reverse."
-msgstr "<emph>matrix_1d</emph>: Den matrix, der skal vendes om."
+msgstr "<emph>array_1d</emph>: Det array, der skal vendes om."
 
 #. tkEUv
 #: sf_array.xhp
@@ -2175,7 +2167,7 @@ msgctxt ""
 "par_id151582649200088\n"
 "help.text"
 msgid "Returns a random permutation of a one-dimensional array."
-msgstr "Returnerer en tilfældig permutation af en 1-dimensionel matrix."
+msgstr "Returnerer en tilfældig permutation af et 1-dimensionelt array."
 
 #. xFwWY
 #: sf_array.xhp
@@ -2184,7 +2176,7 @@ msgctxt ""
 "par_id11582649200088\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to shuffle."
-msgstr "<emph>matrix_1d</emph>: den matrix, der skal blandes,"
+msgstr "<emph>array_1d</emph>: Det array, der skal blandes,"
 
 #. BvV5v
 #: sf_array.xhp
@@ -2193,7 +2185,7 @@ msgctxt ""
 "bas_id611582649200089\n"
 "help.text"
 msgid "' Array \"a\" is now in random order, f.i. (2, 3, 1, 4)"
-msgstr "' Matrix \"a\" er nu i tilfældig orden, fx (2, 3, 1, 4)"
+msgstr "' Array \"a\" er nu i tilfældig orden, fx (2, 3, 1, 4)"
 
 #. GhFBG
 #: sf_array.xhp
@@ -2202,7 +2194,7 @@ msgctxt ""
 "par_id111586184185502\n"
 "help.text"
 msgid "Returns a subset of a one-dimensional array."
-msgstr "Returnerer en delmængde af en 1-dimensionel matrix."
+msgstr "Returnerer en delmængde af et 1-dimensionelt array."
 
 #. YeRkh
 #: sf_array.xhp
@@ -2211,7 +2203,7 @@ msgctxt ""
 "par_id201586184185438\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to slice."
-msgstr "<emph>matrix_1d</emph>: Den matrix, der skal skæres i skiver."
+msgstr "<emph>array_1d</emph>: Det array, som skal opdeles."
 
 #. UzHmT
 #: sf_array.xhp
@@ -2220,7 +2212,7 @@ msgctxt ""
 "par_id921586184482370\n"
 "help.text"
 msgid "<emph>from</emph>: The lower index in <literal>array_1d</literal> of the subarray to extract (<literal>from</literal> included)"
-msgstr "<emph>fra</emph>: Det nedre index i <literal>array_1d</literal> (matrix_1d) af det underindex, der skal uddrages (<literal>from</literal> inkluderet)"
+msgstr "<emph>from</emph> (fra): Det nedre indeks i <literal>array_1d</literal> af det under-array, der skal uddrages (<literal>from</literal> inkluderet)"
 
 #. 326GB
 #: sf_array.xhp
@@ -2229,9 +2221,7 @@ msgctxt ""
 "par_id211586184471488\n"
 "help.text"
 msgid "<emph>upto</emph>: The upper index in <literal>array_1d</literal> of the subarray to extract (<literal>upto</literal> included). The default value is the upper bound of <literal>array_1d</literal>. If <literal>upto</literal> < <literal>from</literal> then the returned array is empty."
-msgstr ""
-"<emph>op_til</emph>: Det øvre_index i den <literal>array_1d</literal> (matrix) af den undermatrix, der skal uddrages (<literal>upto</literal> (op_til) medregnet). \n"
-" Standardværdien er <literal>array_1d</literal> (matrix_1d)s øvre grænse. Hvis <literal>upto</literal> (op_til) < <literal>from</literal> (op_til) er den returnerede matrix tom."
+msgstr "<emph>upto</emph> (op_til): Det øvre indeks i <literal>array_1d</literal> af det under-array, der skal uddrages (<literal>upto</literal> (op_til) medregnet). Standardværdien er øvre grænse af <literal>array_1d</literal>. Hvis <literal>upto</literal> < <literal>from</literal> er det returnerede array tomt."
 
 #. oBwcF
 #: sf_array.xhp
@@ -2240,7 +2230,7 @@ msgctxt ""
 "par_id171582649483675\n"
 "help.text"
 msgid "Sort a one dimension array in ascending or descending order. Text comparisons can be case-sensitive or not.      <br/>The array must be filled homogeneously, which means that items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr "Sortér en endimensionel matrix i stigende eller faldende rækkefølge. Tekstsammenligninger kan skelne mellem Store og små bogstaver eller ikke.      <br/>Matrixen skal være homogent fyldt, hvilket betyder, at elementerne skal være dem samme type skalarer.<br/>Elementerne <literal>Empty</literal> og <literal>Null</literal> er tilladt. Traditionelt er <literal>Empty</literal> < <literal>Null</literal> < enhver anden skalar værdi."
+msgstr "Sortér et 1-dimensionelt array i stigende eller faldende rækkefølge. Tekstsammenligninger kan skelne mellem Store og små bogstaver eller ikke. <br/>Arrayet skal være homogent fyldt, hvilket betyder, at elementerne skal være den samme type enkeltværdier (skalarer).<br/>Elementerne <literal>Empty</literal> og <literal>Null</literal> er tilladt. Traditionelt er <literal>Empty</literal> < <literal>Null</literal> < enhver anden skalar værdi."
 
 #. eNuB8
 #: sf_array.xhp
@@ -2249,7 +2239,7 @@ msgctxt ""
 "par_id71158264948346\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to sort."
-msgstr "<emph>matrix_1d</emph>: Den matrix, der skal sorteres."
+msgstr "<emph>array_1d</emph>: Det array, der skal sorteres."
 
 #. 7S2Bq
 #: sf_array.xhp
@@ -2258,7 +2248,7 @@ msgctxt ""
 "par_id21582649483175\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr "<emph>sorteringsrækkefølge</emph>: Kan være enten \"ASC\" (stigende) (standard) eller \"DESC\" (faldende)."
+msgstr "<emph>sortorder</emph> (sorteringsrækkefølge): Kan være enten \"ASC\" (stigende) (standard) eller \"DESC\" (faldende)."
 
 #. K4GrR
 #: sf_array.xhp
@@ -2267,7 +2257,7 @@ msgctxt ""
 "par_id301582649483187\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr "<emph>Stort-og-småt</emph>: Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
+msgstr "<emph>casesensitive</emph> (skelnen mellem store og små bogstaver): Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
 
 #. 6CkrZ
 #: sf_array.xhp
@@ -2276,7 +2266,7 @@ msgctxt ""
 "par_id801582650186957\n"
 "help.text"
 msgid "Return a permutation of the columns of a two dimension array, sorted on the values of a given row.      <br/>The row must be filled homogeneously, which means that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr "Returner en permutation af kolonner i en todimensionel matrix, sorteret efter værdierne i en given række.      <br/>Rækken skal være homogent fyldt, det vil sige, at alle elementer skal være skalarer af den samme type.      Elementerne <br/><literal>Empty</literal> og <literal>Null</literal> er tilladte. Traditionelt er <literal>Empty</literal> < <literal>Null</literal> < enhver anden skalar værdi.."
+msgstr "Returner en permutation af kolonner i et todimensionelt array, sorteret efter værdierne i en given række. <br/>Rækken skal være homogent fyldt, det vil sige, at alle elementer skal være enkeltværdier (skalarer) af den samme type. <br/>Elementerne <literal>Empty</literal> og <literal>Null</literal> er tilladte. Traditionelt er <literal>Empty</literal> < <literal>Null</literal> < enhver anden skalar værdi.."
 
 #. ww7Us
 #: sf_array.xhp
@@ -2285,7 +2275,7 @@ msgctxt ""
 "par_id921582650186869\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The 2-dimensional array to sort."
-msgstr "<emph>matrix_2d</emph>: Den 2-dimensionelle matrix, der skal sorteres."
+msgstr "<emph>array_2d</emph>: Det 2-dimensionelle array, der skal sorteres."
 
 #. GdFxm
 #: sf_array.xhp
@@ -2294,7 +2284,7 @@ msgctxt ""
 "par_id311582650186221\n"
 "help.text"
 msgid "<emph>rowindex</emph>: The index of the row that will be used as reference to sort the columns."
-msgstr "<emph>rækkeindex</emph>: Indekset for den række, der bliver brugt som reference til sortering af kolonner."
+msgstr "<emph>rowindex</emph> (rækkeindeks): Indekset for den række, der bliver brugt som reference til sortering af kolonner."
 
 #. toBNF
 #: sf_array.xhp
@@ -2303,7 +2293,7 @@ msgctxt ""
 "par_id34158265018698\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr "<emph>sorteringsrækkefølge</emph>: Kan være enten \"ASC\" (stigende) (standard) eller \"DESC\" (faldende)."
+msgstr "<emph>sortorder</emph> (sorteringsrækkefølge): Kan være enten \"ASC\" (stigende) (standard) eller \"DESC\" (faldende)."
 
 #. BFduL
 #: sf_array.xhp
@@ -2312,7 +2302,7 @@ msgctxt ""
 "par_id91158265018699\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr "<emph>Stort-og-småt</emph>: Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
+msgstr "<emph>casesensitive</emph> (skelnen mellem store og små bogstaver): Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
 
 #. 7GkBx
 #: sf_array.xhp
@@ -2321,7 +2311,7 @@ msgctxt ""
 "par_id751582650954576\n"
 "help.text"
 msgid "Return a permutation of the rows of a two dimension array, sorted on the values of a given column.      <br/>The column must be filled homogeneously, therefore all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr "Returner en permutation af rækker i en todimensionel matrix, sorteret efter værdierne i en given kolonne.      <br/>kolonnen skal være homogent fyldt, derfor skal alle elementer være skalarer af den samme type.      <br/>Elementerne <literal>Empty</literal> og  <literal>Null</literal> er tilladt, Traditionelt er <literal>Empty</literal> < <literal>Null</literal> < enhver anden skalar værdi."
+msgstr "Returner en permutation af rækker i et todimensionelt array, sorteret efter værdierne i en given kolonne. <br/>kolonnen skal være homogent fyldt, derfor skal alle elementer være enkeltværdier (skalarer) af den samme type.<br/>Elementerne <literal>Empty</literal> og  <literal>Null</literal> er tilladt, Traditionelt er <literal>Empty</literal> < <literal>Null</literal> < enhver anden skalar værdi."
 
 #. durL8
 #: sf_array.xhp
@@ -2330,7 +2320,7 @@ msgctxt ""
 "par_id621582650954370\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The array to sort."
-msgstr "<emph>matrix_2d</emph>: Den matrix, der skal sorteres."
+msgstr "<emph>array_2d</emph>: Det array, der skal sorteres."
 
 #. HZqQi
 #: sf_array.xhp
@@ -2339,7 +2329,7 @@ msgctxt ""
 "par_id361582650954796\n"
 "help.text"
 msgid "<emph>columnindex</emph>: The index of the column that will be used as reference to sort the rows."
-msgstr "<emph>kolonneindeks</emph>: Indekset for den kolonne, der skal bruges som reference for sortering af rækkerne."
+msgstr "<emph>columnindex</emph> (kolonneindeks): Indekset for den kolonne, der skal bruges som reference for sortering af rækkerne."
 
 #. 7TDWy
 #: sf_array.xhp
@@ -2348,7 +2338,7 @@ msgctxt ""
 "par_id471582650954416\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr "<emph>sorteringsrækkefølge</emph>: Kan være enten \"ASC\" (stigende) (standard) eller \"DESC\" (faldende)."
+msgstr "<emph>sortorder</emph> (sorteringsrækkefølge): Kan være enten \"ASC\" (stigende) (standard) eller \"DESC\" (faldende)."
 
 #. 9YDzi
 #: sf_array.xhp
@@ -2357,7 +2347,7 @@ msgctxt ""
 "par_id111582650954690\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr "<emph>Stort-og-småt</emph>: Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
+msgstr "<emph>casesensitive</emph> (skelnen mellem store og små bogstaver): Kun ved strengsammenligninger (standard = <literal>False</literal> (falsk))."
 
 #. skzGA
 #: sf_array.xhp
@@ -2366,7 +2356,7 @@ msgctxt ""
 "par_id611582651575637\n"
 "help.text"
 msgid "Swaps rows and columns in a two-dimensional array."
-msgstr "Ombytter rækker og kolonner i en 2-dimensionel matrix."
+msgstr "Ombytter rækker og kolonner i et 2-dimensionelt array."
 
 #. gcbVN
 #: sf_array.xhp
@@ -2375,7 +2365,7 @@ msgctxt ""
 "par_id61582651575188\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The 2-dimensional array to transpose."
-msgstr "<emph>matrix_2d</emph>: Den 2-dimensionellematrix, der skal transponeres."
+msgstr "<emph>array_2d</emph>: Det 2-dimensionelle array, der skal transponeres."
 
 #. dwAVQ
 #: sf_array.xhp
@@ -2384,7 +2374,7 @@ msgctxt ""
 "par_id181582652996483\n"
 "help.text"
 msgid "Remove from a one dimension array all <literal>Null</literal>, <literal>Empty</literal> and zero-length entries.      <br/>String items are trimmed with %PRODUCTNAME Basic <literal>Trim()</literal> function."
-msgstr "Fjern alle  <literal>Null</literal>, <literal>Empty</literal> og nul-længde-indførsler fra en endimensionel matrix.       <br/>Strengelementer trimmes med funktionen %PRODUCTNAME Basic <literal>Trim()</literal> ."
+msgstr "Fjern alle <literal>Null</literal>, <literal>Empty</literal> og nul-længde-elementer fra et 1-dimensionelt array. <br/>Strengelementer trimmes med %PRODUCTNAME Basic <literal>Trim()</literal>-funktionen."
 
 #. L8FQg
 #: sf_array.xhp
@@ -2393,7 +2383,7 @@ msgctxt ""
 "par_id111582652996147\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to trim."
-msgstr "<emph>matrix_1d</emph>: Den matrix, derr skal beskæres."
+msgstr "<emph>array_1d</emph>: Det array, der skal beskæres."
 
 #. GAC2A
 #: sf_array.xhp
@@ -2402,7 +2392,7 @@ msgctxt ""
 "par_id461582653148663\n"
 "help.text"
 msgid "Builds a set, as a zero-based array, by applying the union operator on the two input arrays. Resulting items originate from any of both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, their items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr "Byg mængde som en nul-baseret matrix ved at anvende foreningsmængde-operatoren på de to input-matricer. Resulterende elementer er dem som finde i mindst den ene af de to matricer.<br/>Den resultende matrix er sorteret i stigende rækkefølge. <br/>Begge input-matricer skal have homogent indhold: elementerne skal være skalarer af den samme type. <literal>Tomme</literal> og <literal>Null</literal>-elementer er forbudt. <br/>Nogle tekstsammenligninger skelner mellem store og små bogstaver, andre gør ikke."
+msgstr "Byg en mængde som et array, med 0 som første indeks, ved at anvende foreningsmængde-operatoren på de to input-arrays. Resulterende elementer er dem som findes i mindst det ene af de to arrays.<br/>Det resultende array er sorteret i stigende rækkefølge. <br/>Begge input-arrays skal have homogent indhold: elementerne skal være enkeltværdier (skalarer) af den samme type. <literal>Tomme</literal> og <literal>Null</literal>-elementer er forbudt. <br/>Nogle tekstsammenligninger skelner mellem store og små bogstaver, andre gør ikke."
 
 #. oHeQj
 #: sf_array.xhp
@@ -2411,7 +2401,7 @@ msgctxt ""
 "par_id4715826531488\n"
 "help.text"
 msgid "<emph>array1_1d</emph>: The first input array."
-msgstr "<emph>matrix1_1d</emph>:Den første input-matrix."
+msgstr "<emph>array1_1d</emph>: Det første input-array."
 
 #. GJuXQ
 #: sf_array.xhp
@@ -2420,7 +2410,7 @@ msgctxt ""
 "par_id51158265314898\n"
 "help.text"
 msgid "<emph>array2_1d</emph>: The second input array."
-msgstr "<emph>matrix2_1d</emph>: Den anden input-matrix."
+msgstr "<emph>array2_1d</emph>: Det andet input-array."
 
 #. HNhsz
 #: sf_array.xhp
@@ -2429,7 +2419,7 @@ msgctxt ""
 "par_id821582653148126\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Applicable only if the arrays are populated with strings (Default = <literal>False</literal>)."
-msgstr "<emph>Stort-og-småt</emph>: Kun anvendelig, hvis matrixerne er befolket med strenge (standard = <literal>False</literal> (falsk))."
+msgstr "<emph>casesensitive</emph> (skelnen mellem store og små bogstaver): Kun anvendelig, hvis arrayene er fyldt med strenge (standard = <literal>False</literal> (falsk))."
 
 #. CGMRq
 #: sf_array.xhp
@@ -2438,7 +2428,7 @@ msgctxt ""
 "par_id221582653464565\n"
 "help.text"
 msgid "Build a set of unique values derived from the input array.      <br/>The input array must be filled homogeneously, its items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr "Byg en mængde af unikke værdier, afledt fra input-matrixet. <br/>Input-matricen skal have homogent indhold: elementerne skal være skalarer af den samme type. Elementerne <literal>Empty</literal> og <literal>Null</literal> er ikke tilladt.<br/>Nogle tekstsammenligninger skelner mellem store og små bogstaver, andre gør ikke."
+msgstr "Byg en mængde af unikke værdier, afledt fra input-arrayet. <br/>Input-arrayet skal have homogent indhold: elementerne skal være enkeltværdier (skalarer) af den samme type. Elementerne <literal>Empty</literal> og <literal>Null</literal> er ikke tilladt.<br/>Nogle tekstsammenligninger skelner mellem store og små bogstaver, andre gør ikke."
 
 #. bcFGM
 #: sf_array.xhp
@@ -2447,7 +2437,7 @@ msgctxt ""
 "par_id521582653464553\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The input array."
-msgstr "<emph>matrix_1d</emph>: Input-matrixen."
+msgstr "<emph>array_1d</emph>: Input-arrayet."
 
 #. MYeE2
 #: sf_array.xhp
@@ -2456,7 +2446,7 @@ msgctxt ""
 "par_id41158265346441\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Applicable only if the array is populated with strings (Default = <literal>False</literal>)."
-msgstr "<emph>Stort-og-småt</emph>:Kun anvendelig, hvis matrixen er befolket med strenge (standard = <literal>False</literal> (falsk))."
+msgstr "<emph>casesensitive</emph> (skelnen mellem store og små bogstaver): Kun anvendelig, hvis arrayet er fyldt med strenge (standard = <literal>False</literal> (falsk))."
 
 #. GAXAU
 #: sf_base.xhp
@@ -2465,7 +2455,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.Base service"
-msgstr "Tjenesten SFDocuments.Base"
+msgstr "SFDocuments.Base-tjenesten"
 
 #. fCppF
 #: sf_base.xhp
@@ -2528,7 +2518,7 @@ msgctxt ""
 "par_id241619032941497\n"
 "help.text"
 msgid "Refer to the <link href=\"text/sbasic/shared/03/sf_document.xhp\"><literal>Document</literal> service</link> to learn more about methods and properties that can be used to manage %PRODUCTNAME documents."
-msgstr "Henvise til tjenesten <link href=\"text/sbasic/shared/03/sf_document.xhp\"><literal>Document</literal></link> for at få mere at vide om metoder og egenskaber, der kan bruges til at administrere %PRODUCTNAME-dokumenter."
+msgstr "Se tjenesten <link href=\"text/sbasic/shared/03/sf_document.xhp\"><literal>Document</literal></link> for at få mere at vide om metoder og egenskaber, der kan bruges til at administrere %PRODUCTNAME-dokumenter."
 
 #. bGpRM
 #: sf_base.xhp
@@ -3077,7 +3067,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Basic service"
-msgstr "Tjenesten ScriptForge.Basic"
+msgstr "ScriptForge.Basic-tjenesten"
 
 #. PBb7U
 #: sf_basic.xhp
@@ -3968,7 +3958,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.Calc service"
-msgstr "Tjenesten SFDocuments.Calc"
+msgstr "SFDocuments.Calc-tjenesten"
 
 #. sfRcw
 #: sf_calc.xhp
@@ -5030,7 +5020,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in the Calc Service"
-msgstr "Liste over metoder i tjensten Calc"
+msgstr "Liste over metoder i tjenesten Calc"
 
 #. Dis6i
 #: sf_calc.xhp
@@ -8348,7 +8338,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.Chart service"
-msgstr "tjenesten SFDocuments.Chart"
+msgstr "SFDocuments.Chart-tjenesten"
 
 #. yZMaG
 #: sf_chart.xhp
@@ -9041,7 +9031,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDatabases.Database service"
-msgstr "Tjenesten SFDatabases.Database"
+msgstr "SFDatabases.Database-tjenesten"
 
 #. pc2rX
 #: sf_database.xhp
@@ -10229,7 +10219,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDatabases.Dataset service"
-msgstr "Tjenesten SFDatabases.Dataset"
+msgstr "SFDatabases.Dataset-tjenesten"
 
 #. JdWin
 #: sf_dataset.xhp
@@ -10733,7 +10723,7 @@ msgctxt ""
 "par_id651606319520519\n"
 "help.text"
 msgid "List of Methods in the Dataset Service"
-msgstr "Liste over metoder i Dataset-tjenesten"
+msgstr "Liste over metoder i tjenesten Dataset"
 
 #. GeTvk
 #: sf_dataset.xhp
@@ -12029,7 +12019,7 @@ msgctxt ""
 "par_id451619034669263\n"
 "help.text"
 msgid "List of Methods in the Datasheet Service"
-msgstr "Liste over metoder i tjenesten \"Datasheet\""
+msgstr "Liste over metoder i tjenesten Datasheet"
 
 #. euurc
 #: sf_datasheet.xhp
@@ -12335,7 +12325,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDialogs.Dialog service"
-msgstr "Tjenesten SFDialogs.Dialog"
+msgstr "SFDialogs.Dialog-tjenesten"
 
 #. ZQBAD
 #: sf_dialog.xhp
@@ -14738,7 +14728,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDialogs.DialogControl service"
-msgstr "Tjenesten SFDialogs.DialogControl"
+msgstr "SFDialogs.DialogControl-tjenesten"
 
 #. 2KEBr
 #: sf_dialogcontrol.xhp
@@ -16648,7 +16638,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Dictionary service"
-msgstr "Tjenesten ScriptForge.Dictionary"
+msgstr "ScriptForge.Dictionary-tjenesten"
 
 #. RJbvj
 #: sf_dictionary.xhp
@@ -16927,7 +16917,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in the Dictionary Service"
-msgstr "Liste over metoder i Dictionary-tjenesten"
+msgstr "Liste over metoder i tjenesten Dictionary"
 
 #. PqSBg
 #: sf_dictionary.xhp
@@ -17323,7 +17313,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.Document service"
-msgstr "Tjenesten SFDocuments.Document"
+msgstr "SFDocuments.Document-tjenesten"
 
 #. ypVGE
 #: sf_document.xhp
@@ -18866,7 +18856,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Exception service (SF_Exception)"
-msgstr "Tjenesten ScriptForge.Exception (SF_Exception)"
+msgstr "ScriptForge.Exception-tjenesten (SF_Exception)"
 
 #. PPqb2
 #: sf_exception.xhp
@@ -19613,7 +19603,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.FileSystem service"
-msgstr "Tjenesten ScriptForge.FileSystem"
+msgstr "ScriptForge.FileSystem-tjenesten"
 
 #. P8P86
 #: sf_filesystem.xhp
@@ -21487,7 +21477,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.Form service"
-msgstr "Tjenesten SFDocuments.Form"
+msgstr "SFDocuments.Form-tjenesten"
 
 #. cFDGc
 #: sf_form.xhp
@@ -22504,7 +22494,7 @@ msgctxt ""
 "par_id921606472825856\n"
 "help.text"
 msgid "List of methods in the Form service"
-msgstr "Liste over metoderne i tjenesten Form"
+msgstr "Liste over metoderne i tjenesten Form (formular)"
 
 #. KwDij
 #: sf_form.xhp
@@ -22792,7 +22782,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.FormControl service"
-msgstr "Tjenesten SFDocuments.FormControl"
+msgstr "SFDocuments.FormControl-tjensten"
 
 #. U4CgG
 #: sf_formcontrol.xhp
@@ -24412,7 +24402,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.FormDocument service"
-msgstr "Tjenesten SFDocuments.FormDocument"
+msgstr "SFDocuments.FormDocument-tjenesten"
 
 #. Y2ddY
 #: sf_formdocument.xhp
@@ -25397,7 +25387,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.L10N service"
-msgstr "Tjenesten ScriptForge.L10N"
+msgstr "ScriptForge.L10N-tjenesten"
 
 #. 5kFM4
 #: sf_l10n.xhp
@@ -25793,7 +25783,7 @@ msgctxt ""
 "par_id231614360519973\n"
 "help.text"
 msgid "List of Methods in the L10N Service"
-msgstr "Liste over metoder i tjenesten L10N"
+msgstr "Liste over metoder i tjenesten L10N (lokal oversættelse)"
 
 #. Q24j9
 #: sf_l10n.xhp
@@ -26126,7 +26116,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFWidgets.Menu service"
-msgstr "Tjenesten SFWidgets.Menu"
+msgstr "SFWidgets.Menu-tjenesten"
 
 #. mZUG7
 #: sf_menu.xhp
@@ -26981,7 +26971,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Platform service"
-msgstr "Tjenesten ScriptForge.Platform"
+msgstr "ScriptForge.Platform-tjenesten"
 
 #. GKXoF
 #: sf_platform.xhp
@@ -27611,7 +27601,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFWidgets.PopupMenu service"
-msgstr "Tjenesten SFWidgets.PopupMenu"
+msgstr "SFWidgets.PopupMenu-tjenesten"
 
 #. Vouog
 #: sf_popupmenu.xhp
@@ -28187,7 +28177,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Region service"
-msgstr "Tjenesten ScriptForge.Region"
+msgstr "ScriptForge.Region-tjenesten"
 
 #. H7HZZ
 #: sf_region.xhp
@@ -29258,7 +29248,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Services service"
-msgstr "Tjenesten ScriptForge.Services"
+msgstr "ScriptForge.Services-tjenesten"
 
 #. Q5KAY
 #: sf_services.xhp
@@ -29465,7 +29455,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Session service"
-msgstr "Tjenesten ScriptForge.Session"
+msgstr "ScriptForge.Session-tjenesten"
 
 #. yWao7
 #: sf_session.xhp
@@ -29645,7 +29635,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in the Session Service"
-msgstr "Tjenesten List of Methods in the Session (Liste over metoder i sessionen)"
+msgstr "Liste over metoder i tjenesten Session"
 
 #. JvBuZ
 #: sf_session.xhp
@@ -30167,7 +30157,7 @@ msgctxt ""
 "par_id321587478024997\n"
 "help.text"
 msgid "Returns a list of the methods callable from an UNO object. The list is a zero-based array of strings and may be empty."
-msgstr "Returnerer en liste over metoder, der kan kaldes fra et UNO-objekt. Listen er en nul-baseret matrix af strenge og kan være tom."
+msgstr "Returnerer en liste over metoder, der kan kaldes fra et UNO-objekt. Listen er et array med 0 som første indeks og kan være tomt."
 
 #. DX8qb
 #: sf_session.xhp
@@ -30239,7 +30229,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.String service (SF_String)"
-msgstr "Tjenesten ScriptForge.String (SF_String)"
+msgstr "ScriptForge.String-tjenesten (SF_String)"
 
 #. qHoPA
 #: sf_string.xhp
@@ -30716,7 +30706,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in the String Service"
-msgstr "Liste over metoder i tjenesten Streng"
+msgstr "Liste over metoder i tjenesten String (tekststrenge)"
 
 #. TFfR3
 #: sf_string.xhp
@@ -32491,7 +32481,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.TextStream service"
-msgstr "Tjenesten ScriptForge.TextStream (tekst-strøm)"
+msgstr "ScriptForge.TextStream-tjenesten"
 
 #. yCCia
 #: sf_textstream.xhp
@@ -33004,7 +32994,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.Timer service"
-msgstr "Tjenesten ScriptForge.Timer (stopur)"
+msgstr "ScriptForge.Timer-tjenesten"
 
 #. uvCrq
 #: sf_timer.xhp
@@ -33526,7 +33516,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "List of all ScriptForge methods and properties"
-msgstr ""
+msgstr "Liste over alle ScriptForge-metoder og egenskaber"
 
 #. zxZFp
 #: sf_toc.xhp
@@ -33535,7 +33525,7 @@ msgctxt ""
 "hd_id461623364876507\n"
 "help.text"
 msgid "<variable id=\"title\"><link href=\"text/sbasic/shared/03/sf_toc.xhp\">List of all <literal>ScriptForge</literal> methods and properties</link></variable>"
-msgstr ""
+msgstr "<variable id=\"title\"><link href=\"text/sbasic/shared/03/sf_toc.xhp\">Liste over alle <literal>ScriptForge</literal>-metoder og egenskaber</link></variable>"
 
 #. 9cBCb
 #: sf_toc.xhp
@@ -33544,7 +33534,7 @@ msgctxt ""
 "par_id691671192231981\n"
 "help.text"
 msgid "This help page shows all methods and properties available in the <literal>ScriptForge</literal> library by service with links to the corresponding documentation."
-msgstr ""
+msgstr "Denne hjælpeside viser alle de metoder og egenskaber, som er tilgængelige i <literal>ScriptForge</literal>-biblioteket ud fra tjenester, med links til den tilsvarende dokumentation."
 
 #. 4NBjy
 #: sf_toc.xhp
@@ -33553,7 +33543,7 @@ msgctxt ""
 "par_id401671192686811\n"
 "help.text"
 msgid "The <emph>Basic</emph> source code for all ScriptForge services is available via <menuitem>Application Macros and Dialogs</menuitem> and is distributed in multiple libraries: <literal>ScriptForge</literal>, <literal>SFDatabases</literal>, <literal>SFDialogs</literal>, <literal>SFDocuments</literal>, <literal>SFUnitTests</literal> and <literal>SFWidgets</literal>. The <emph>Python</emph> portion of the source code is available in the <emph>program\\scriptforge.py</emph> file under the %PRODUCTNAME installation directory."
-msgstr ""
+msgstr "<emph>Basic</emph>-kildekoden til alle ScriptForge-tjenester er tilgængelig via <menuitem>Application Macros and Dialogs</menuitem> og bliver distribueret i flere biblioteker: <literal>ScriptForge</literal>, <literal>SFDatabases</literal>, <literal>SFDialogs</literal>, <literal>SFDocuments</literal>, <literal>SFUnitTests</literal> og <literal>SFWidgets</literal>. De dele af kildekoden, som er i <emph>Python</emph> er tilgængelige i filen <emph>program\\scriptforge.py</emph> under %PRODUCTNAME installations-kataloget."
 
 #. MPEN4
 #: sf_toc.xhp
@@ -33562,7 +33552,7 @@ msgctxt ""
 "hd_id101671192601663\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Array</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>Array</literal>"
 
 #. xA5NE
 #: sf_toc.xhp
@@ -33571,7 +33561,7 @@ msgctxt ""
 "hd_id101671192601553\n"
 "help.text"
 msgid "<literal>SFDocuments</literal>.<literal>Base</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDocuments</literal>.<literal>Base</literal>"
 
 #. JFajQ
 #: sf_toc.xhp
@@ -33580,7 +33570,7 @@ msgctxt ""
 "par_id541674484344235\n"
 "help.text"
 msgid "This service also supports the methods and properties defined in the <link href=\"text/sbasic/shared/03/sf_document.xhp\"><literal>Document</literal> service</link>, which includes methods that are generic to all document types."
-msgstr ""
+msgstr "Denne tjeneste understøtter også metoderne og egenskaberne defineret i <link href=\"text/sbasic/shared/03/sf_document.xhp\"><literal>Document</literal>-tjenesten</link>, som indeholder metoder, der er generiske for alle dokumenttyper."
 
 #. pFPFA
 #: sf_toc.xhp
@@ -33589,7 +33579,7 @@ msgctxt ""
 "hd_id101671192609363\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Basic</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>Basic</literal>"
 
 #. gRcDE
 #: sf_toc.xhp
@@ -33598,7 +33588,7 @@ msgctxt ""
 "par_id651606319520519\n"
 "help.text"
 msgid "List of Properties in the Basic Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Basic"
 
 #. LAgbN
 #: sf_toc.xhp
@@ -33607,7 +33597,7 @@ msgctxt ""
 "hd_id101671192601502\n"
 "help.text"
 msgid "<literal>SFDocuments</literal>.<literal>Calc</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDocuments</literal>.<literal>Calc</literal>"
 
 #. uxhCu
 #: sf_toc.xhp
@@ -33616,7 +33606,7 @@ msgctxt ""
 "par_id651606319520654\n"
 "help.text"
 msgid "List of Properties in the Calc Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Calc"
 
 #. 8B4AP
 #: sf_toc.xhp
@@ -33625,7 +33615,7 @@ msgctxt ""
 "hd_id101671192601677\n"
 "help.text"
 msgid "<literal>SFDocuments</literal>.<literal>Chart</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDocuments</literal>.<literal>Chart</literal>"
 
 #. hNAmL
 #: sf_toc.xhp
@@ -33634,7 +33624,7 @@ msgctxt ""
 "par_id651606319523634\n"
 "help.text"
 msgid "List of Properties in the Chart Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Chart (diagram)"
 
 #. mbPs5
 #: sf_toc.xhp
@@ -33643,7 +33633,7 @@ msgctxt ""
 "hd_id101671192601147\n"
 "help.text"
 msgid "<literal>SFDatabases</literal>.<literal>Database</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDatabases</literal>.<literal>Database</literal>"
 
 #. nEVNp
 #: sf_toc.xhp
@@ -33652,7 +33642,7 @@ msgctxt ""
 "par_id651606319520332\n"
 "help.text"
 msgid "List of Properties in the Database Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Database"
 
 #. FpWGN
 #: sf_toc.xhp
@@ -33661,7 +33651,7 @@ msgctxt ""
 "hd_id101671192603066\n"
 "help.text"
 msgid "<literal>SFDatabases</literal>.<literal>Dataset</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDatabases</literal>.<literal>Dataset</literal>"
 
 #. zzVnN
 #: sf_toc.xhp
@@ -33670,7 +33660,7 @@ msgctxt ""
 "par_id651606319591202\n"
 "help.text"
 msgid "List of Properties in the Dataset Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Dataset"
 
 #. rGLDA
 #: sf_toc.xhp
@@ -33679,7 +33669,7 @@ msgctxt ""
 "hd_id101671192690807\n"
 "help.text"
 msgid "<literal>SFDatabases</literal>.<literal>Datasheet</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDatabases</literal>.<literal>Datasheet</literal>"
 
 #. ZA8ZQ
 #: sf_toc.xhp
@@ -33688,7 +33678,7 @@ msgctxt ""
 "par_id651606319510928\n"
 "help.text"
 msgid "List of Properties in the Datasheet Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Datasheet"
 
 #. Y5mr6
 #: sf_toc.xhp
@@ -33697,7 +33687,7 @@ msgctxt ""
 "hd_id101671192601308\n"
 "help.text"
 msgid "<literal>SFDialogs</literal>.<literal>Dialog</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDialogs</literal>.<literal>Dialog</literal>"
 
 #. eqEbb
 #: sf_toc.xhp
@@ -33706,7 +33696,7 @@ msgctxt ""
 "par_id651606319527165\n"
 "help.text"
 msgid "List of Properties in the Dialog Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Dialog"
 
 #. dCD6o
 #: sf_toc.xhp
@@ -33715,7 +33705,7 @@ msgctxt ""
 "hd_id101671192601688\n"
 "help.text"
 msgid "<literal>SFDialogs</literal>.<literal>DialogControl</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDialogs</literal>.<literal>DialogControl</literal>"
 
 #. QBrji
 #: sf_toc.xhp
@@ -33724,7 +33714,7 @@ msgctxt ""
 "par_id651606319523433\n"
 "help.text"
 msgid "List of Properties in the DialogControl Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten DialogControl"
 
 #. CEN8p
 #: sf_toc.xhp
@@ -33733,7 +33723,7 @@ msgctxt ""
 "hd_id101671192601559\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Dictionary</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>Dictionary</literal>"
 
 #. V3dV2
 #: sf_toc.xhp
@@ -33742,7 +33732,7 @@ msgctxt ""
 "par_id651606319520328\n"
 "help.text"
 msgid "List of Properties in the Dictionary Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Dictionary"
 
 #. kXRkE
 #: sf_toc.xhp
@@ -33751,7 +33741,7 @@ msgctxt ""
 "hd_id101671192601711\n"
 "help.text"
 msgid "<literal>SFDocuments</literal>.<literal>Document</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDocuments</literal>.<literal>Document</literal>"
 
 #. uPiwD
 #: sf_toc.xhp
@@ -33760,7 +33750,7 @@ msgctxt ""
 "par_id651606319746528\n"
 "help.text"
 msgid "List of Properties in the Document Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Document"
 
 #. Gk8EF
 #: sf_toc.xhp
@@ -33769,7 +33759,7 @@ msgctxt ""
 "hd_id101671192501339\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Exception</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>Exception</literal>"
 
 #. rGaFn
 #: sf_toc.xhp
@@ -33778,7 +33768,7 @@ msgctxt ""
 "par_id651606319500328\n"
 "help.text"
 msgid "List of Properties in the Exception Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Exception"
 
 #. 7L6SK
 #: sf_toc.xhp
@@ -33787,7 +33777,7 @@ msgctxt ""
 "hd_id101671192505579\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>FileSystem</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>FileSystem</literal>"
 
 #. i7nPm
 #: sf_toc.xhp
@@ -33796,7 +33786,7 @@ msgctxt ""
 "par_id651606319646328\n"
 "help.text"
 msgid "List of Properties in the FileSystem Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten FileSystem"
 
 #. kdN69
 #: sf_toc.xhp
@@ -33805,7 +33795,7 @@ msgctxt ""
 "hd_id101671192505441\n"
 "help.text"
 msgid "<literal>SFDocuments</literal>.<literal>Form</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDocuments</literal>.<literal>Form</literal>"
 
 #. FkAkF
 #: sf_toc.xhp
@@ -33814,7 +33804,7 @@ msgctxt ""
 "par_id651606319525458\n"
 "help.text"
 msgid "List of Properties in the Form Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Form (formular)"
 
 #. uZGQs
 #: sf_toc.xhp
@@ -33823,7 +33813,7 @@ msgctxt ""
 "hd_id101671192506636\n"
 "help.text"
 msgid "<literal>SFDocuments</literal>.<literal>FormControl</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDocuments</literal>.<literal>FormControl</literal>"
 
 #. ivRX2
 #: sf_toc.xhp
@@ -33832,7 +33822,7 @@ msgctxt ""
 "par_id651606319411328\n"
 "help.text"
 msgid "List of Properties in the FormControl Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten FormControl"
 
 #. kPCcD
 #: sf_toc.xhp
@@ -33841,7 +33831,7 @@ msgctxt ""
 "hd_id101671192705399\n"
 "help.text"
 msgid "<literal>SFDocuments</literal>.<literal>FormDocument</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFDocuments</literal>.<literal>FormDocument</literal>"
 
 #. DCwnN
 #: sf_toc.xhp
@@ -33850,7 +33840,7 @@ msgctxt ""
 "hd_id101671199996466\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>L10N</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>L10N</literal>"
 
 #. CNrDo
 #: sf_toc.xhp
@@ -33859,7 +33849,7 @@ msgctxt ""
 "par_id651606319527168\n"
 "help.text"
 msgid "List of Properties in the L10N Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten L10N (lokal oversættelse)"
 
 #. kPEXF
 #: sf_toc.xhp
@@ -33868,7 +33858,7 @@ msgctxt ""
 "hd_id101671199996396\n"
 "help.text"
 msgid "<literal>SFWidgets</literal>.<literal>Menu</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFWidgets</literal>.<literal>Menu</literal>"
 
 #. CAaoK
 #: sf_toc.xhp
@@ -33877,7 +33867,7 @@ msgctxt ""
 "par_id651606314140328\n"
 "help.text"
 msgid "List of Properties in the Menu Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Menu"
 
 #. Nm9Ft
 #: sf_toc.xhp
@@ -33886,7 +33876,7 @@ msgctxt ""
 "hd_id101671199994016\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Platform</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>Platform</literal>"
 
 #. y2Hhd
 #: sf_toc.xhp
@@ -33895,7 +33885,7 @@ msgctxt ""
 "par_id651606319518728\n"
 "help.text"
 msgid "List of Properties in the Platform Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Platform"
 
 #. JgPNJ
 #: sf_toc.xhp
@@ -33904,7 +33894,7 @@ msgctxt ""
 "hd_id101671199996417\n"
 "help.text"
 msgid "<literal>SFWidgets</literal>.<literal>PopupMenu</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>SFWidgets</literal>.<literal>PopupMenu</literal>"
 
 #. jPDs4
 #: sf_toc.xhp
@@ -33913,7 +33903,7 @@ msgctxt ""
 "par_id651606314130218\n"
 "help.text"
 msgid "List of Properties in the PopupMenu Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten PopupMenu"
 
 #. 5rfxS
 #: sf_toc.xhp
@@ -33922,7 +33912,7 @@ msgctxt ""
 "hd_id101671199993577\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Region</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>Region</literal>"
 
 #. 6P6YE
 #: sf_toc.xhp
@@ -33931,7 +33921,7 @@ msgctxt ""
 "par_id651606316032328\n"
 "help.text"
 msgid "List of Properties in the Region Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Region"
 
 #. YjCc5
 #: sf_toc.xhp
@@ -33940,7 +33930,7 @@ msgctxt ""
 "hd_id101671199993654\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Session</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>Session</literal>"
 
 #. Ch9rH
 #: sf_toc.xhp
@@ -33949,7 +33939,7 @@ msgctxt ""
 "par_id651606319550408\n"
 "help.text"
 msgid "List of Properties in the Session Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Session"
 
 #. FqDWZ
 #: sf_toc.xhp
@@ -33958,7 +33948,7 @@ msgctxt ""
 "hd_id1016711992514654\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>String</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>String</literal>"
 
 #. 6vNEV
 #: sf_toc.xhp
@@ -33967,7 +33957,7 @@ msgctxt ""
 "par_id651606358900328\n"
 "help.text"
 msgid "List of Properties in the Dictionary Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Dictionary"
 
 #. EGy6c
 #: sf_toc.xhp
@@ -33976,7 +33966,7 @@ msgctxt ""
 "hd_id1016711992512103\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>TextStream</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>TextStream</literal>"
 
 #. sqgkG
 #: sf_toc.xhp
@@ -33985,7 +33975,7 @@ msgctxt ""
 "par_id651606305698328\n"
 "help.text"
 msgid "List of Properties in the TextStream Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten TextStream"
 
 #. rfA4y
 #: sf_toc.xhp
@@ -33994,7 +33984,7 @@ msgctxt ""
 "hd_id1016711992519543\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Timer</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>Timer</literal> (stopur)"
 
 #. 7S2q8
 #: sf_toc.xhp
@@ -34003,7 +33993,7 @@ msgctxt ""
 "par_id651601219036328\n"
 "help.text"
 msgid "List of Methods in the Timer Service"
-msgstr ""
+msgstr "Liste over metoder i tjenesten Timer"
 
 #. BeSkR
 #: sf_toc.xhp
@@ -34012,7 +34002,7 @@ msgctxt ""
 "par_id651601219520328\n"
 "help.text"
 msgid "List of Properties in the Timer Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Timer"
 
 #. SZgAH
 #: sf_toc.xhp
@@ -34021,7 +34011,7 @@ msgctxt ""
 "hd_id1016711992036103\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Toolbar</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>Toolbar</literal>"
 
 #. uKPSJ
 #: sf_toc.xhp
@@ -34030,7 +34020,7 @@ msgctxt ""
 "par_id651606205603658\n"
 "help.text"
 msgid "List of Properties in the Toolbar Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten Toolbar (værktøjslinje)"
 
 #. cFDeN
 #: sf_toc.xhp
@@ -34039,7 +34029,7 @@ msgctxt ""
 "hd_id1016711992054103\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>ToolbarButton</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>ToolbarButton</literal>"
 
 #. wauAF
 #: sf_toc.xhp
@@ -34048,7 +34038,7 @@ msgctxt ""
 "par_id651635105603658\n"
 "help.text"
 msgid "List of Properties in the ToolbarButton Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten ToolbarButton (værktøjslinje-knap)"
 
 #. MexL5
 #: sf_toc.xhp
@@ -34057,7 +34047,7 @@ msgctxt ""
 "hd_id1016711992512950\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>UI</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>UI</literal>"
 
 #. jttmj
 #: sf_toc.xhp
@@ -34066,7 +34056,7 @@ msgctxt ""
 "par_id651606657520328\n"
 "help.text"
 msgid "List of Properties in the UI Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten UI (brugerflade)"
 
 #. uY9cX
 #: sf_toc.xhp
@@ -34075,7 +34065,7 @@ msgctxt ""
 "hd_id1016711992512540\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>UnitTest</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>UnitTest</literal>"
 
 #. MFG4G
 #: sf_toc.xhp
@@ -34084,7 +34074,7 @@ msgctxt ""
 "par_id651606313658328\n"
 "help.text"
 msgid "List of Properties in the UnitTest Service"
-msgstr ""
+msgstr "Liste over egenskaber i tjenesten UnitTest"
 
 #. LBxFa
 #: sf_toc.xhp
@@ -34093,7 +34083,7 @@ msgctxt ""
 "hd_id1016711992513650\n"
 "help.text"
 msgid "<literal>ScriptForge</literal>.<literal>Writer</literal> service"
-msgstr ""
+msgstr "Tjenesten <literal>ScriptForge</literal>.<literal>Writer</literal>"
 
 #. EBb8i
 #: sf_toolbar.xhp
@@ -34102,7 +34092,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFWidgets.Toolbar service"
-msgstr ""
+msgstr "SFWidgets.Toolbar-tjenesten"
 
 #. pqQFq
 #: sf_toolbar.xhp
@@ -34111,7 +34101,7 @@ msgctxt ""
 "hd_id731582733781114\n"
 "help.text"
 msgid "<variable id=\"ToolbarService\"><link href=\"text/sbasic/shared/03/sf_toolbar.xhp\"><literal>SFWidgets</literal>.<literal>Toolbar</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"ToolbarService\"><link href=\"text/sbasic/shared/03/sf_toolbar.xhp\"><literal>SFWidgets</literal>.<literal>Toolbar</literal>-tjenesten</link></variable>"
 
 #. oqrPc
 #: sf_toolbar.xhp
@@ -34120,7 +34110,7 @@ msgctxt ""
 "par_id571700837631557\n"
 "help.text"
 msgid "The <literal>Toolbar</literal> service allows to retrieve information related to the toolbars available for a specific document window. With this service it is possible to:"
-msgstr ""
+msgstr "Tjenesten <literal>Toolbar</literal> gør det muligt at hente information relateret til værktøjslinjer, som er tilgængelige for et specifikt dokumentvindue. Med denne tjeneste er det muligt at:"
 
 #. vwn3U
 #: sf_toolbar.xhp
@@ -34165,7 +34155,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Kald af tjeneste"
 
 #. sDTg5
 #: sf_toolbar.xhp
@@ -34174,7 +34164,7 @@ msgctxt ""
 "par_id141609955500101\n"
 "help.text"
 msgid "Before using the <literal>Toolbar</literal> service the <literal>ScriptForge</literal> library needs to be loaded or imported:"
-msgstr ""
+msgstr "Før du bruger tjenesten <literal>Toolbar</literal>, skal <literal>ScriptForge</literal>-biblioteket være indlæst eller importeret:"
 
 #. T8Xfw
 #: sf_toolbar.xhp
@@ -34183,7 +34173,7 @@ msgctxt ""
 "par_id411700851985942\n"
 "help.text"
 msgid "The <literal>Toolbar</literal> service is invoked using the <literal>Toolbars</literal> method, which is available in <link href=\"text/sbasic/shared/03/sf_document.xhp\">SFDocuments.Document</link> service."
-msgstr ""
+msgstr "Tjenesten <literal>Toolbar</literal> kaldes med <literal>Toolbars</literal>-metoden, som er tilgængelig i <link href=\"text/sbasic/shared/03/sf_document.xhp\">SFDocuments.Document</link>-tjenesten."
 
 #. DXXZt
 #: sf_toolbar.xhp
@@ -34192,7 +34182,7 @@ msgctxt ""
 "par_id771700853155061\n"
 "help.text"
 msgid "The example below gets an <literal>Array</literal> with the names of the toolbars available in the current document."
-msgstr ""
+msgstr "Eksemplet herunder modtager et <literal>Array</literal> med navnene på de værktøjslinjer, som er tilgængelige i det aktuelle dokument."
 
 #. dCrhf
 #: sf_toolbar.xhp
@@ -34201,7 +34191,7 @@ msgctxt ""
 "par_id961700853354817\n"
 "help.text"
 msgid "Use the <literal>Toolbars</literal> method without arguments to retrieve an array with available toolbar names."
-msgstr ""
+msgstr "Brug metoden <literal>Toolbars</literal> (værktøjslinjer) uden argumenter for at hente et array med navne på de tilgængelige værktøjslinjer."
 
 #. LGmwr
 #: sf_toolbar.xhp
@@ -34210,7 +34200,7 @@ msgctxt ""
 "par_id171700853415555\n"
 "help.text"
 msgid "The example below toggles the visibility of the <menuitem>Standard</menuitem> toolbar:"
-msgstr ""
+msgstr "Eksemplet herunder skifter mellem synlighed eller ej af <menuitem>Standard</menuitem>-værktøjslinjen:"
 
 #. UDbvF
 #: sf_toolbar.xhp
@@ -34219,7 +34209,7 @@ msgctxt ""
 "hd_id351582885195476\n"
 "help.text"
 msgid "Properties"
-msgstr ""
+msgstr "Egenskaber"
 
 #. JyMa7
 #: sf_toolbar.xhp
@@ -34228,7 +34218,7 @@ msgctxt ""
 "par_id41582885195836\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Navn"
 
 #. ynz5j
 #: sf_toolbar.xhp
@@ -34237,7 +34227,7 @@ msgctxt ""
 "par_id31582885195372\n"
 "help.text"
 msgid "Readonly"
-msgstr ""
+msgstr "Skrivebeskyttet"
 
 #. 2FULu
 #: sf_toolbar.xhp
@@ -34246,7 +34236,7 @@ msgctxt ""
 "par_id31582885195238\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #. CXito
 #: sf_toolbar.xhp
@@ -34255,7 +34245,7 @@ msgctxt ""
 "par_id931582885195131\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Beskrivelse"
 
 #. NWaGJ
 #: sf_toolbar.xhp
@@ -34264,7 +34254,7 @@ msgctxt ""
 "par_id861582885655779\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. NFBvJ
 #: sf_toolbar.xhp
@@ -34273,7 +34263,7 @@ msgctxt ""
 "par_id581582885655885\n"
 "help.text"
 msgid "Returns <literal>True</literal> when the toolbar is part of the set of standard toolbars shipped with %PRODUCTNAME."
-msgstr ""
+msgstr "Returnerer <literal>True</literal> når værktøjslinjen er blandt de standardværktøjslinjer, som kommer med %PRODUCTNAME."
 
 #. 2sRrz
 #: sf_toolbar.xhp
@@ -34282,7 +34272,7 @@ msgctxt ""
 "par_id861582885655669\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. kBEqC
 #: sf_toolbar.xhp
@@ -34291,7 +34281,7 @@ msgctxt ""
 "par_id581582885657885\n"
 "help.text"
 msgid "Returns <literal>True</literal> when the toolbar is active in the window and docked."
-msgstr ""
+msgstr "Returnerer <literal>True</literal> når værktøjslinjen er aktiv i vinduet og forankret."
 
 #. wgQVn
 #: sf_toolbar.xhp
@@ -34300,7 +34290,7 @@ msgctxt ""
 "par_id861582885655710\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. pnCss
 #: sf_toolbar.xhp
@@ -34309,7 +34299,7 @@ msgctxt ""
 "par_id581582885655102\n"
 "help.text"
 msgid "Returns <literal>True</literal> when the toolbar is available in all documents of the same type."
-msgstr ""
+msgstr "Returnerer <literal>True</literal> når værktøjslinjen er tilgængelig i alle dokumenter af samme type."
 
 #. QdmGf
 #: sf_toolbar.xhp
@@ -34318,7 +34308,7 @@ msgctxt ""
 "par_id861582885655205\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. JkADV
 #: sf_toolbar.xhp
@@ -34336,7 +34326,7 @@ msgctxt ""
 "par_id861582885655966\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. 9tRd5
 #: sf_toolbar.xhp
@@ -34345,7 +34335,7 @@ msgctxt ""
 "par_id581582885655812\n"
 "help.text"
 msgid "Returns the resource URL of the toolbar, in the form <literal>private:toolbar/toolbar_name</literal>."
-msgstr ""
+msgstr "Returnerer ressource-URL'en for værktøjslinjen, på formen <literal>private:toolbar/toolbar_name</literal> (værktøjslinje/værktøjslinjenavn)."
 
 #. JKEeR
 #: sf_toolbar.xhp
@@ -34354,7 +34344,7 @@ msgctxt ""
 "par_id861582885655212\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #. cAQFF
 #: sf_toolbar.xhp
@@ -34363,7 +34353,7 @@ msgctxt ""
 "par_id581582885655344\n"
 "help.text"
 msgid "Returns <literal>True</literal> when the toolbar is active and visible in the document window."
-msgstr ""
+msgstr "Returnerer <literal>True</literal> når værktøjslinjen er aktiv og synlig i dokumentvinduet."
 
 #. DsnCd
 #: sf_toolbar.xhp
@@ -34372,7 +34362,7 @@ msgctxt ""
 "par_id861582885655788\n"
 "help.text"
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #. SBzqD
 #: sf_toolbar.xhp
@@ -34381,7 +34371,7 @@ msgctxt ""
 "par_id581582885655062\n"
 "help.text"
 msgid "Returns the <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1ui_1_1XUIElement.html\">com.sun.star.ui.XUIElement</link> UNO object that represents the toolbar."
-msgstr ""
+msgstr "Returnerer det <link href=\"https://api.libreoffice.org/docs/idl/ref/interfacecom_1_1sun_1_1star_1_1ui_1_1XUIElement.html\">com.sun.star.ui.XUIElement</link> UNO-objekt, som repræsenterer værktøjslinjen."
 
 #. NaxAS
 #: sf_toolbar.xhp
@@ -34390,7 +34380,7 @@ msgctxt ""
 "par_id651606319520519\n"
 "help.text"
 msgid "List of Methods in the Toolbar Service"
-msgstr ""
+msgstr "Liste over metoder i tjenesten Toolbar (værktøjslinje)"
 
 #. FED3g
 #: sf_toolbar.xhp
@@ -34399,7 +34389,7 @@ msgctxt ""
 "par_id93158919969864\n"
 "help.text"
 msgid "Returns an <literal>Array</literal> containing the names of all toolbar buttons when called without arguments."
-msgstr ""
+msgstr "Returnerer et <literal>Array</literal> med navnene på alle værktøjslinjeknapper, når metoden kaldes uden argumenter."
 
 #. ZFAQU
 #: sf_toolbar.xhp
@@ -34408,7 +34398,7 @@ msgctxt ""
 "par_id421611148353046\n"
 "help.text"
 msgid "Provide the name of a toolbar button as argument to obtain a <literal>ToolbarButton</literal> service instance."
-msgstr ""
+msgstr "Angiv navnet på en værktøjslinjeknap som argument for at få en <literal>ToolbarButton</literal>-tjenesteinstans."
 
 #. 4FNvr
 #: sf_toolbar.xhp
@@ -34417,7 +34407,7 @@ msgctxt ""
 "par_id381701012526415\n"
 "help.text"
 msgid "<emph>buttonname</emph>: The name of a toolbar button in the current toolbar."
-msgstr ""
+msgstr "<emph>buttonname</emph>: Navnet på en værktøjslinjeknap i en aktuelle værktøjslinje."
 
 #. KDGVG
 #: sf_toolbar.xhp
@@ -34426,7 +34416,7 @@ msgctxt ""
 "par_id601611148017930\n"
 "help.text"
 msgid "The example below returns the command executed when the button <menuitem>New</menuitem> is clicked in the <menuitem>Standard</menuitem> toolbar:"
-msgstr ""
+msgstr "Eksemplet nedenfor returnerer den kommando, som udføres når knappen <menuitem>Ny(t)</menuitem> klikkes på <menuitem>Standard</menuitem>-værktøjslinjen:"
 
 #. wAXLm
 #: sf_toolbar.xhp
@@ -34435,7 +34425,7 @@ msgctxt ""
 "par_id531701012694220\n"
 "help.text"
 msgid "Inactive toolbars do not have buttons. Therefore, calling the <literal>ToolbarButtons</literal> method will make the toolbar visible."
-msgstr ""
+msgstr "Inaktive værktøjslinjer har ikke knapper. Derfor vil kald af <literal>ToolbarButtons</literal>-metoden gøre værktøjslinjen synlig."
 
 #. C2z22
 #: sf_toolbarbutton.xhp
@@ -34444,7 +34434,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFWidgets.ToolbarButton service"
-msgstr ""
+msgstr "SFWidgets.ToolbarButton-tjenesten"
 
 #. 7vbG4
 #: sf_toolbarbutton.xhp
@@ -34453,7 +34443,7 @@ msgctxt ""
 "hd_id731582733781114\n"
 "help.text"
 msgid "<variable id=\"ToolbarButtonService\"><link href=\"text/sbasic/shared/03/sf_toolbarbutton.xhp\"><literal>SFWidgets</literal>.<literal>ToolbarButton</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"ToolbarButtonService\"><link href=\"text/sbasic/shared/03/sf_toolbarbutton.xhp\">Tjenesten <literal>SFWidgets</literal>.<literal>ToolbarButton</literal></link></variable>"
 
 #. 3WPXi
 #: sf_toolbarbutton.xhp
@@ -34462,7 +34452,7 @@ msgctxt ""
 "par_id571700837631557\n"
 "help.text"
 msgid "The <literal>ToolbarButton</literal> service allows to retrieve information related to the toolbar buttons available in a given toolbar. With this service it is possible to:"
-msgstr ""
+msgstr "<literal>ToolbarButton</literal>-tjenesten giver mulighed for at hente information relateret til de værktøjslinjeknapper, som er tilgængelige i en given værktøjslinje. Med denne tjeneste er det muligt at:"
 
 #. AFA7c
 #: sf_toolbarbutton.xhp
@@ -34489,7 +34479,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Kald af tjeneste"
 
 #. Jv5uU
 #: sf_toolbarbutton.xhp
@@ -34993,7 +34983,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ScriptForge.UI service"
-msgstr "Tjenesten ScriptForge.UI"
+msgstr "ScriptForge.UI-tjenesten"
 
 #. rJz4Z
 #: sf_ui.xhp
