@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-10-04 15:42+0200\n"
-"PO-Revision-Date: 2025-02-02 05:45+0000\n"
+"PO-Revision-Date: 2025-02-25 05:54+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textsdatabase/da/>\n"
 "Language: da\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.9.1\n"
+"X-Generator: Weblate 5.10\n"
 
 #. ugSgG
 #: 02000000.xhp
@@ -2467,7 +2467,7 @@ msgctxt ""
 "par_id191120151931441881\n"
 "help.text"
 msgid "A useful construction for selecting records based on parts of a text field's content is to add a hidden column with <item type=\"input\">\"LIKE '%' || :Part_of_field || '%'\"</item> as the criterion. This will select records with an exact match. If a case-insensitive test is wanted, one solution is to use <item type=\"input\">LOWER (Field_Name)</item> as the field and <item type=\"input\">LIKE LOWER ( '%' || :Part_of_field || '%' )</item> as the criterion. Note that the spaces in the criterion are important; if they are left out the SQL parser interprets the entire criterion as a string to be matched. In <link href=\"text/sdatabase/02010100.xhp#sqlmode\">SQL mode</link> this should be typed as <item type=\"input\">LOWER ( \"Field_Name\" ) LIKE LOWER ( '%' || :Part_of_field || '%' )</item>."
-msgstr "En nyttig fremgangsmåde til valg af poster baseret på dele af et felts indhold er at tilføje en skjult kolonne med <item type=\"input\">\"LIKE '%' || :Part_of_field || '%'\"</item> som kriterie. Dette vil udvælge poster med et præcist match. Hvis der ønskes en test uden hensyn til Stort-og-småt, er en løsning at bruge <item type=\"input\">LOWER (Field_Name)</item> som felt og <item type=\"input\">LIKE LOWER ( '%' || :Part_of_field || '%' )</item> som kriterie. Bemærk, at mellemrummene i kriteriet er vigtige; hvis de udelades, læser SQL-fortolkeren hele kriteriet som en streng, der skal matches. I <link href=\"text/sdatabase/02010100.xhp#sqlmode\">SQL-tilstand</link> bør dette indtastes som <item type=\"input\">LOWER ( \"Field_Name\" ) LIKE LOWER ( '%' || :Part_of_field || '%' )</item>."
+msgstr "En nyttig fremgangsmåde til valg af poster baseret på dele af et felts indhold er at tilføje en skjult kolonne med <item type=\"input\">\"LIKE '%' || :Part_of_field || '%'\"</item> som kriterie. Dette vil udvælge poster med et præcist match. Hvis der ønskes en test uden skelnen mellem store og små bogstaver, er en løsning at bruge <item type=\"input\">LOWER (Field_Name)</item> som felt og <item type=\"input\">LIKE LOWER ( '%' || :Part_of_field || '%' )</item> som kriterie. Bemærk, at mellemrummene i kriteriet er vigtige; hvis de udelades, læser SQL-fortolkeren hele kriteriet som en streng, der skal matches. I <link href=\"text/sdatabase/02010100.xhp#sqlmode\">SQL-tilstand</link> bør dette indtastes som <item type=\"input\">LOWER ( \"Field_Name\" ) LIKE LOWER ( '%' || :Part_of_field || '%' )</item>."
 
 #. EAESi
 #: 02010100.xhp
