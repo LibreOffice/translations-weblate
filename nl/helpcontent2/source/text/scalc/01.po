@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-12-21 13:21+0100\n"
-"PO-Revision-Date: 2025-02-20 23:12+0000\n"
+"PO-Revision-Date: 2025-02-25 05:54+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-24-2/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -5207,7 +5207,7 @@ msgctxt ""
 "par_id3146893\n"
 "help.text"
 msgid "DCOUNTA(Database; [DatabaseField]; SearchCriteria)"
-msgstr "DBAANTALALC(Database; Databaseveld; Zoekcriteria)"
+msgstr "DBAANTAL(Database; Databaseveld (optioneel); Zoekcriteria)"
 
 #. dLvi2
 #: 04060101.xhp
@@ -6179,7 +6179,7 @@ msgctxt ""
 "par_id3147427\n"
 "help.text"
 msgid "AMORDEGRC(Cost; DatePurchased; FirstPeriod; Salvage; Period; Rate [; Basis])"
-msgstr "AMORDEGRC(Kosten; Aanschaffingsdatum; Eerste periode; Restwaarde; Periode; Rente [; Basis])"
+msgstr "AMORDEGRC(Kosten; Aankoopdatum; Eerste periode; Restwaarde; Periode; Rente ; Soort jaar (optioneel)"
 
 #. bA2pT
 #: 04060103.xhp
@@ -6251,7 +6251,7 @@ msgctxt ""
 "par_id901612299089478\n"
 "help.text"
 msgid "<input>=AMORDEGRC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0.1; 0)</input> returns a depreciation amount of 163 currency units."
-msgstr "<input>=AMORDEGRC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0.1; 0)</input> geeft een afschrijvingsbedrag van 163 valuta-eenheden terug."
+msgstr "<input>=AMORDEGRC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0,1; 0)</input> geeft een afschrijvingsbedrag van 163 valuta-eenheden terug."
 
 #. aG2TT
 #: 04060103.xhp
@@ -6296,7 +6296,7 @@ msgctxt ""
 "par_id3147363\n"
 "help.text"
 msgid "AMORLINC(Cost; DatePurchased; FirstPeriod; Salvage; Period; Rate [; Basis])"
-msgstr "AMORLINC(Kosten; Aanschaffingsdatum; Eerste periode; Restwaarde; Periode; Termijn [; Basis])"
+msgstr "AMORLINC(Kosten; Aankoopdatum; Eerste periode; Restwaarde; Periode; Rente ; Soort jaar)"
 
 #. PsFjE
 #: 04060103.xhp
@@ -6368,7 +6368,7 @@ msgctxt ""
 "par_id391612299096511\n"
 "help.text"
 msgid "<input>=AMORLINC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0.1; 0)</input> returns a depreciation amount of 200 currency units."
-msgstr "<input>=AMORLINC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0.1; 0)</input> geeft een afschrijvingsbedrag van 200 valuta-eenheden terug."
+msgstr "<input>=AMORLINC(2000; \"2020-02-01\"; \"2020-12-31\"; 10; 4; 0,1; 0)</input> geeft een afschrijvingsbedrag van 200 valuta-eenheden terug."
 
 #. DHKDL
 #: 04060103.xhp
@@ -6413,7 +6413,7 @@ msgctxt ""
 "par_id3159092\n"
 "help.text"
 msgid "ACCRINT(Issue; FirstInterest; Settlement; Rate; [Par]; Frequency [; Basis])"
-msgstr "SAMENG.RENTE(Uitgifte; Eerste rentetermijn; Aankoopdatum; Termijn; [Nominale waarde]; Frequentie [; Basis])"
+msgstr "SAMENG.RENTE(Uitgifte; Eerste rentetermijn; Vervaldatum;‖ Termijn; Nominale waarde (optioneel); Frequentie ; Soort jaar (optioneel))"
 
 #. PKp6i
 #: 04060103.xhp
@@ -6422,7 +6422,7 @@ msgctxt ""
 "par_id3150519\n"
 "help.text"
 msgid "<emph>Issue</emph> (required) is the issue date of the security."
-msgstr "<emph>Uitgiftedatum</emph> (verplicht) is de datum van uitgifte van het waardepapier."
+msgstr "<emph>Uitgifte</emph> (verplicht) is de datum van uitgifte van het waardepapier."
 
 #. 6FJPA
 #: 04060103.xhp
@@ -6431,7 +6431,7 @@ msgctxt ""
 "par_id3155376\n"
 "help.text"
 msgid "<emph>FirstInterest</emph> (required) is the first interest date of the security."
-msgstr "<emph>Eerste rente</emph> (verplicht) is de eerste rentedatum van het waardepapier."
+msgstr "<emph>Eerste rentetermijn</emph> (verplicht) is de eerste rentedatum van het waardepapier."
 
 #. cxXvu
 #: 04060103.xhp
@@ -6440,7 +6440,7 @@ msgctxt ""
 "par_id3166431\n"
 "help.text"
 msgid "<emph>Settlement</emph> (required) is the date at which the interest accrued up until then is to be calculated."
-msgstr "<emph>Afrekeningsdatum</emph> (verplicht) is de datum tot waarop de totaal aangegroeide rente moet worden berekend."
+msgstr "<emph>Vervaldatum</emph> (verplicht) is de datum tot waarop de totaal aangegroeide rente moet worden berekend."
 
 #. iFkc5
 #: 04060103.xhp
@@ -6449,7 +6449,7 @@ msgctxt ""
 "par_id3154486\n"
 "help.text"
 msgid "<emph>Rate</emph> (required) is the annual nominal rate of interest (coupon interest rate)"
-msgstr "<emph>Koers</emph> (verplicht) is de jaarlijkse nominale rentekoers (coupon rentekoers)"
+msgstr "<emph>Termijn</emph> (verplicht) is de jaarlijkse nominale rentekoers (coupon rentekoers)"
 
 #. cAMCT
 #: 04060103.xhp
@@ -6530,7 +6530,7 @@ msgctxt ""
 "par_id3147074\n"
 "help.text"
 msgid "ACCRINTM(Issue; Settlement; Rate [; Par [; Basis]])"
-msgstr "SAMENG.RENTE.V(Uitgifte; Aankoopdatum; Termijn [; Nominale waarde [; Basis]])"
+msgstr "SAMENG.RENTE.V(Uitgifte; Vervaldatum; Termijn ; Nominale waarde (optioneel); Soort jaar (optioneel))"
 
 #. pTobQ
 #: 04060103.xhp
@@ -6539,7 +6539,7 @@ msgctxt ""
 "par_id3144773\n"
 "help.text"
 msgid "<emph>Issue</emph> (required) is the issue date of the security."
-msgstr "<emph>Uitgiftedatum</emph> (verplicht) is de datum van uitgifte van het waardepapier."
+msgstr "<emph>Uitgifte</emph> (verplicht) is de datum van uitgifte van het waardepapier."
 
 #. tjqf2
 #: 04060103.xhp
@@ -6548,7 +6548,7 @@ msgctxt ""
 "par_id3154956\n"
 "help.text"
 msgid "<emph>Settlement</emph> (required) is the date at which the interest accrued up until then is to be calculated."
-msgstr "<emph>Afrekeningsdatum</emph> (verplicht) is de datum tot waarop de totaal aangegroeide rente moet worden berekend."
+msgstr "<emph>Vervaldatum</emph> (verplicht) is de datum tot waarop de totaal aangegroeide rente moet worden berekend."
 
 #. QdCGH
 #: 04060103.xhp
@@ -6557,7 +6557,7 @@ msgctxt ""
 "par_id3153972\n"
 "help.text"
 msgid "<emph>Rate</emph> (required) is the annual nominal rate of interest (coupon interest rate)."
-msgstr "<emph>Koers</emph> (verplicht) is de jaarlijkse nominale rentekoers (coupon rentekoers)."
+msgstr "<emph>Termijn</emph> (verplicht) is de jaarlijkse nominale rentekoers (coupon rentekoers)."
 
 #. GPEHn
 #: 04060103.xhp
@@ -6575,7 +6575,7 @@ msgctxt ""
 "par_id481612296978513\n"
 "help.text"
 msgid "We recommend that you always specify the value that you require for ACCRINTM’s <emph>Par</emph> argument, rather than allowing Calc to apply an arbitrary default. This will make your formula easier to understand and easier to maintain."
-msgstr "We raden u aan altijd de waarde op te geven die u nodig heeft voor het argument <emph>Par</emph> van SAMENG.RENTE.V, in plaats van Calc toe te staan een willekeurige standaardwaarde toe te passen. Dit maakt uw formule gemakkelijker te begrijpen en gemakkelijker te onderhouden."
+msgstr "We raden u aan altijd de waarde op te geven die u nodig heeft voor het argument <emph>Nominale waarde</emph> van SAMENG.RENTE.V, in plaats van Calc toe te staan een willekeurige standaardwaarde toe te passen. Dit maakt uw formule gemakkelijker te begrijpen en gemakkelijker te onderhouden."
 
 #. nB5zK
 #: 04060103.xhp
@@ -6602,7 +6602,7 @@ msgctxt ""
 "bm_id3145753\n"
 "help.text"
 msgid "<bookmark_value>RECEIVED function</bookmark_value>         <bookmark_value>amount received for fixed-interest securities</bookmark_value>"
-msgstr "<bookmark_value>OPBRENGST-functie</bookmark_value>         <bookmark_value>ontvangen bedrag voor obligaties</bookmark_value>"
+msgstr "<bookmark_value>RENDEMENT<-functie</bookmark_value>         <bookmark_value>ontvangen bedrag voor obligaties</bookmark_value>"
 
 #. ZFrGu
 #: 04060103.xhp
@@ -6611,7 +6611,7 @@ msgctxt ""
 "hd_id3145753\n"
 "help.text"
 msgid "RECEIVED"
-msgstr "OPBRENGST"
+msgstr "RENDEMENT"
 
 #. CbEHr
 #: 04060103.xhp
@@ -6629,7 +6629,7 @@ msgctxt ""
 "par_id3145362\n"
 "help.text"
 msgid "RECEIVED(Settlement; Maturity; Investment; Discount [; Basis])"
-msgstr "OPBRENGST(Aankoopdatum; Vervaldatum; Investering; Disconto [; Basis])"
+msgstr "RENDEMENT(Aankoopdatum; Vervaldatum; Investering; Korting [; Basis])"
 
 #. oHAVz
 #: 04060103.xhp
@@ -6674,7 +6674,7 @@ msgctxt ""
 "par_id3154735\n"
 "help.text"
 msgid "Settlement date: February 15 1999, maturity date: May 15 1999, investment sum: 1000 currency units, discount: 5.75 per cent, basis: Daily balance/360 = 2."
-msgstr "Afrekeningsdatum: 15 februari 1999, vervaldatum: 15 mei 1999, investeringsbedrag: 1000 valuta-eenheden, disconto: 5,75 procent, basis: Dagelijkse balans/360 = 2."
+msgstr "Vervaldatum: 15 februari 1999, vervaldatum: 15 mei 1999, investeringsbedrag: 1000 valuta-eenheden, korting: 5,75 procent, basis: Dagelijkse balans/360 = 2."
 
 #. JgA24
 #: 04060103.xhp
@@ -6683,7 +6683,7 @@ msgctxt ""
 "par_id3146108\n"
 "help.text"
 msgid "The amount received on the maturity date is calculated as follows:"
-msgstr "De opbrengst op de vervaldatum wordt als volgt berekend:"
+msgstr "Het rendement op de vervaldatum wordt als volgt berekend:"
 
 #. YRGGe
 #: 04060103.xhp
@@ -6692,7 +6692,7 @@ msgctxt ""
 "par_id3147246\n"
 "help.text"
 msgid "<item type=\"input\">=RECEIVED(\"1999-02-15\";\"1999-05-15\";1000;0.0575;2)</item> returns 1014.420266."
-msgstr "<item type=\"input\">=OPBRENGST(\"15-02-1999\";\"15-05-1999\";1000;0,0575;2)</item> geeft als resultaat 1014,420266."
+msgstr "<item type=\"input\">=RENDEMENT(\"15-02-1999\";\"15-05-1999\";1000;0,0575;2)</item> geeft als resultaat 1014,420266."
 
 #. swwMY
 #: 04060103.xhp
@@ -6746,7 +6746,7 @@ msgctxt ""
 "par_id3150395\n"
 "help.text"
 msgid "PV(Rate; NPer; Pmt [; FV [; Type]])"
-msgstr "HW(Tarief; APER; RMB [; TW [; Type]])"
+msgstr "HW(Rentevoet; Aantal betalingsperioden; Regelmatige betalingen ; Toekomstige waarde (optioneel) ; Type (optioneel)"
 
 #. JrCA6
 #: 04060103.xhp
@@ -6782,7 +6782,7 @@ msgctxt ""
 "par_id3150536\n"
 "help.text"
 msgid "<emph>FV</emph> (optional) defines the future value remaining after the final installment has been made."
-msgstr "<emph>TW</emph> (optioneel) bepaalt de toekomstige waarde die overblijft nadat de laatste uitbetaling is gedaan."
+msgstr "<emph>Toekomstige waarde</emph> (optioneel) bepaalt de toekomstige waarde die overblijft nadat de laatste uitbetaling is gedaan."
 
 #. UGZJw
 #: 04060103.xhp
@@ -6863,7 +6863,7 @@ msgctxt ""
 "par_id3150483\n"
 "help.text"
 msgid "SYD(Cost; Salvage; Life; Period)"
-msgstr "SYD(Aanschafwaarde; Restwaarde; Levensduur; Periode)"
+msgstr "SYD(Aanschafwaarde; Restwaarde; Nuttige levensduur; Afschrijvingstermijn)"
 
 #. DZf9T
 #: 04060103.xhp
@@ -6872,7 +6872,7 @@ msgctxt ""
 "par_id3146879\n"
 "help.text"
 msgid "<emph>Cost</emph> is the initial cost of an asset."
-msgstr "<emph>Aanschafwaarde</emph> is de aanschafprijs van een goed."
+msgstr "<emph>Kosten</emph> is de kostprijs van een goed."
 
 #. YyskD
 #: 04060103.xhp
@@ -6890,7 +6890,7 @@ msgctxt ""
 "par_id3151229\n"
 "help.text"
 msgid "<emph>Life</emph> is the period fixing the time span over which an asset is depreciated."
-msgstr "<emph>Levensduur</emph> is de termijn waarin een goed wordt afgeschreven."
+msgstr "<emph>Nuttige levensduur</emph> is de termijn waarin een goed wordt afgeschreven."
 
 #. LLgFC
 #: 04060103.xhp
@@ -6899,7 +6899,7 @@ msgctxt ""
 "par_id3147473\n"
 "help.text"
 msgid "<emph>Period</emph> defines the period for which the depreciation is to be calculated."
-msgstr "<emph>Periode</emph> definieert de periode waarvoor de afwaardering moet worden berekend."
+msgstr "<emph>Afschrijvingstermijn</emph> definieert de periode waarvoor de afwaardering moet worden berekend."
 
 #. YtCDD
 #: 04060103.xhp
@@ -7007,7 +7007,7 @@ msgctxt ""
 "par_id3150002\n"
 "help.text"
 msgid "<item type=\"input\">Useful Life</item>"
-msgstr "<item type=\"input\">Levensduur</item>"
+msgstr "<item type=\"input\">Nuttige levensduur</item>"
 
 #. BFrei
 #: 04060103.xhp
@@ -7394,7 +7394,7 @@ msgctxt ""
 "bm_id3155104\n"
 "help.text"
 msgid "<bookmark_value>DISC function</bookmark_value>         <bookmark_value>allowances</bookmark_value>         <bookmark_value>discounts</bookmark_value>"
-msgstr "<bookmark_value>DISCONTO-functie</bookmark_value>         <bookmark_value>verminderingen</bookmark_value>         <bookmark_value>kortingen</bookmark_value>"
+msgstr "<bookmark_value>KORTING-functie</bookmark_value>         <bookmark_value>verminderingen</bookmark_value>         <bookmark_value>kortingen</bookmark_value>"
 
 #. 4HKUH
 #: 04060103.xhp
@@ -7403,7 +7403,7 @@ msgctxt ""
 "hd_id3155104\n"
 "help.text"
 msgid "DISC"
-msgstr "DISCONTO"
+msgstr "KORTING"
 
 #. B462T
 #: 04060103.xhp
@@ -7421,7 +7421,7 @@ msgctxt ""
 "par_id3149756\n"
 "help.text"
 msgid "DISC(Settlement; Maturity; Price; Redemption [; Basis])"
-msgstr "DISCONTO(Aankoopdatum; Vervaldatum; Koers; Aflossingsbedrag [; Basis])"
+msgstr "KORTING(Aankoopdatum; Vervaldatum; Koers; Aflossingsbedrag ; Soort jaar (optioneel))"
 
 #. Uyj29
 #: 04060103.xhp
@@ -7466,7 +7466,7 @@ msgctxt ""
 "par_id3155902\n"
 "help.text"
 msgid "A security is purchased on 2001-01-25; the maturity date is 2001-11-15. The price (purchase price) is 97, the redemption value is 100. Using daily balance calculation (basis 3) how high is the settlement (discount)?"
-msgstr "Een waardepapier wordt gekocht op 25-01-2001; de vervaldatum is 15-11-2001. De koers (aankoopprijs) is 97, het aflossingsbedrag is 100. Hoe hoog is de disconto indien de dagelijkse balans-berekening (basis 3) gebruikt wordt?"
+msgstr "Een waardepapier wordt gekocht op 25-01-2001; de vervaldatum is 15-11-2001. De koers (aankoopprijs) is 97, het aflossingsbedrag is 100. Hoe hoog is de korting indien de dagelijkse balans-berekening (basis 3) gebruikt wordt?"
 
 #. 6KHxL
 #: 04060103.xhp
@@ -7475,7 +7475,7 @@ msgctxt ""
 "par_id3152797\n"
 "help.text"
 msgid "<item type=\"input\">=DISC(\"2001-01-25\";\"2001-11-15\";97;100;3)</item> returns about 0.0372 or 3.72 per cent."
-msgstr "<item type=\"input\">=DISCONTO(\"25-01-2001\";\"15-11-2001\";97;100;3)</item> geeft 0,03720 of 3,72 procent."
+msgstr "<item type=\"input\">=KORTING(\"25-01-2001\";\"15-11-2001\";97;100;3)</item> geeft 0,03724 of 3,72 procent."
 
 #. pLhCb
 #: 04060103.xhp
@@ -7493,7 +7493,7 @@ msgctxt ""
 "hd_id3154695\n"
 "help.text"
 msgid "DURATION"
-msgstr "LOOPTIJD"
+msgstr "DUUR"
 
 #. oA2tj
 #: 04060103.xhp
@@ -7511,7 +7511,7 @@ msgctxt ""
 "par_id3153373\n"
 "help.text"
 msgid "DURATION(Settlement; Maturity; Coupon; Yield; Frequency [; Basis])"
-msgstr "DUUR(Aankoopdatum; Vervaldatum; Nominale rente; Rendement; Frequentie [; Basis])"
+msgstr "DUUR(Aankoopdatum; Vervaldatum; Nominale rente; Rendement; Frequentie ; Soort jaar (optioneel))"
 
 #. JeeVp
 #: 04060103.xhp
@@ -7538,7 +7538,7 @@ msgctxt ""
 "par_id3153096\n"
 "help.text"
 msgid "<emph>Coupon</emph> is the annual coupon interest rate (nominal rate of interest)"
-msgstr "<emph>Coupon</emph> is het jaarlijkse rentebewijs (nominale rentekoers)"
+msgstr "<emph>Nominale rente</emph> is het jaarlijkse rentebewijs (nominale rentekoers)"
 
 #. h8jQ8
 #: 04060103.xhp
@@ -7547,7 +7547,7 @@ msgctxt ""
 "par_id3154594\n"
 "help.text"
 msgid "<emph>Yield</emph> is the annual yield of the security."
-msgstr "<emph>Opbrengst</emph> is de jaarlijkse opbrengst van het waardepapier."
+msgstr "<emph>Rendement</emph> is de jaarlijkse opbrengst van het waardepapier."
 
 #. wWHaP
 #: 04060103.xhp
@@ -7574,7 +7574,7 @@ msgctxt ""
 "par_id3154902\n"
 "help.text"
 msgid "<input>=DURATION(\"2001-01-01\";\"2006-01-01\";0.08;0.09;2;3)</input> returns 4.2 years."
-msgstr "<input>=DUUR(\"2001-01-01\";\"2006-01-01\";0,08;0,09;2;3)</input> geeft afgerond 4.2 jaar terug."
+msgstr "<input>=DUUR(\"2001-01-01\";\"2006-01-01\";0,08;0,09;2;3)</input> geeft afgerond 4,2 jaar terug."
 
 #. TjeEJ
 #: 04060103.xhp
@@ -7619,7 +7619,7 @@ msgctxt ""
 "par_id3148805\n"
 "help.text"
 msgid "EFFECT(Nom; P)"
-msgstr "EFFECT.RENTE_ADD(Nominale rente; Aperj)"
+msgstr "EFFECT.RENTE_ADD(Nominale rente; Termijnen)"
 
 #. CSHR5
 #: 04060103.xhp
@@ -7637,7 +7637,7 @@ msgctxt ""
 "par_id3149334\n"
 "help.text"
 msgid "<emph>P</emph> is the number of interest payment periods per year."
-msgstr "<emph>T</emph> is het aantal termijnen met rentebetalingen per jaar."
+msgstr "<emph>Termijnen</emph> is het aantal termijnen met rentebetalingen per jaar."
 
 #. fSpm5
 #: 04060103.xhp
@@ -7691,7 +7691,7 @@ msgctxt ""
 "par_id3155118\n"
 "help.text"
 msgid "EFFECT_ADD(NominalRate; NPerY)"
-msgstr "EFFECT_RENTE_ADD(Nominale rente; NPerJ)"
+msgstr "EFFECT_RENTE_ADD(Nominale rente; Termijnen)"
 
 #. iaVSi
 #: 04060103.xhp
@@ -7772,7 +7772,7 @@ msgctxt ""
 "par_id3166452\n"
 "help.text"
 msgid "DDB(Cost; Salvage; Life; Period [; Factor])"
-msgstr "DDB(Kosten; Restwaarde; Levensduur; Periode [; Factor])"
+msgstr "DDB(Kosten; Restwaarde; Nuttige levensduur; Periode ; Factor (optioneel))"
 
 #. VKnDB
 #: 04060103.xhp
@@ -7781,7 +7781,7 @@ msgctxt ""
 "par_id3153237\n"
 "help.text"
 msgid "<emph>Cost</emph> fixes the initial cost of an asset."
-msgstr "<emph>Aanschafwaarde</emph> duidt de initiële kosten van een goed aan."
+msgstr "<emph>Kosten</emph> duidt de initiële kosten van een goed aan."
 
 #. CEgop
 #: 04060103.xhp
@@ -7790,7 +7790,7 @@ msgctxt ""
 "par_id3149787\n"
 "help.text"
 msgid "<emph>Salvage</emph> fixes the value of an asset at the end of its life."
-msgstr "<emph>Restwaarde</emph> geeft de waarde van een goed aan het eind van zijn levensduur aan."
+msgstr "<emph>Restwaarde</emph> geeft de waarde van een goed aan het eind van zijn nuttige levensduur aan."
 
 #. PuMJP
 #: 04060103.xhp
@@ -7799,7 +7799,7 @@ msgctxt ""
 "par_id3152945\n"
 "help.text"
 msgid "<emph>Life</emph> is the number of periods (for example, years or months) defining how long the asset is to be used."
-msgstr "<emph>Levensduur</emph> is het aantal termijnen (bijvoorbeeld jaren of maanden) dat het goed moet worden gebruikt."
+msgstr "<emph>Nuttige levensduur</emph> is het aantal termijnen (bijvoorbeeld jaren of maanden) dat het goed moet worden gebruikt."
 
 #. iCYRp
 #: 04060103.xhp
@@ -7880,7 +7880,7 @@ msgctxt ""
 "par_id3153349\n"
 "help.text"
 msgid "DB(Cost; Salvage; Life; Period [; Month])"
-msgstr "DB(Kosten; Restwaarde; Levensduur; Periode [; Maand])"
+msgstr "DB(Kosten; Restwaarde; Nuttige levensduur; Periode ; Maand (optioneel))"
 
 #. caSta
 #: 04060103.xhp
@@ -7889,7 +7889,7 @@ msgctxt ""
 "par_id3148462\n"
 "help.text"
 msgid "<emph>Cost</emph> is the initial cost of an asset."
-msgstr "<emph>Aanschafwaarde</emph> is de aanschafprijs van een goed."
+msgstr "<emph>Kosten</emph> is de kostprijs van een goed."
 
 #. EsvcD
 #: 04060103.xhp
@@ -7907,7 +7907,7 @@ msgctxt ""
 "par_id3145371\n"
 "help.text"
 msgid "<emph>Life</emph> defines the period over which an asset is depreciated."
-msgstr "<emph>Levensduur</emph> definieert de periode waarover een goed wordt afgeschreven."
+msgstr "<emph>Nuttige levensduur</emph> definieert de periode waarover een goed wordt afgeschreven."
 
 #. hHMTS
 #: 04060103.xhp
@@ -7943,7 +7943,7 @@ msgctxt ""
 "par_id3149513\n"
 "help.text"
 msgid "<input>=DB(25000; 1000; 3; 2; 6)</input> returns 11,037.95 currency units."
-msgstr "<input>=DB(25000; 1000; 3; 2; 6)</input> geeft 11,037.95 valuta-eenheden terug."
+msgstr "<input>=DB(25000; 1000; 3; 2; 6</input>) geeft 11.037,95 valuta-eenheden terug."
 
 #. fWK6h
 #: 04060103.xhp
@@ -7988,7 +7988,7 @@ msgctxt ""
 "par_id3155427\n"
 "help.text"
 msgid "IRR(Values [; Guess])"
-msgstr "IR(Waarden [; Geschatte waarde])"
+msgstr "IR(Waardes ; Geschatte waarde (optioneel))"
 
 #. o9R77
 #: 04060103.xhp
@@ -8006,7 +8006,7 @@ msgctxt ""
 "par_id3149233\n"
 "help.text"
 msgid "<emph>Guess</emph> (optional) is the estimated value. An iterative method is used to calculate the internal rate of return. If you can provide only few values, you should provide an initial guess to enable the iteration."
-msgstr "<emph>Schatting</emph> (optioneel) is de geschatte waarde. Een iteratieve methode wordt gebruikt om de interne teruggavekoers te berekenen. Indien u slechts een paar waarden kan invullen, zou u een initiële schatting moeten opgeven om de iteratie te kunnen laten uitvoeren."
+msgstr "<emph>Geschatte waarde</emph> (optioneel) is de geschatte waarde. Een iteratieve methode wordt gebruikt om de interne teruggavekoers te berekenen. Indien u slechts een paar waarden kan invullen, zou u een initiële schatting moeten opgeven om de iteratie te kunnen laten uitvoeren."
 
 #. G9Z4Q
 #: 04060103.xhp
@@ -8024,7 +8024,7 @@ msgctxt ""
 "par_id461513468030965\n"
 "help.text"
 msgid "Because of the iterative method used, it is possible for IRR to fail and return <link href=\"text/scalc/05/02140000.xhp\">Error 523</link>, with \"Error: Calculation does not converge\" in the status bar. In that case, try another value for Guess."
-msgstr "Vanwege de iteratieve methode die wordt gebruikt, is het mogelijk dat IRR mislukt en terugkeert <link href=\"text/scalc/05/02140000.xhp\">Fout 523</link>, met \"Fout: berekening convergeert niet\" in de Statusbalk. Probeer in dat geval een andere waarde voor Guess."
+msgstr "Vanwege de iteratieve methode die wordt gebruikt, is het mogelijk dat IRR mislukt en terugkeert <link href=\"text/scalc/05/02140000.xhp\">Fout 523</link>. Probeer in dat geval een andere waarde voor Guess [Geschatte waarde]."
 
 #. PxBBB
 #: 04060103.xhp
@@ -8042,7 +8042,7 @@ msgctxt ""
 "hd_id3151012\n"
 "help.text"
 msgid "ISPMT"
-msgstr "ISPMT"
+msgstr "ISBET"
 
 #. RvDrn
 #: 04060103.xhp
@@ -8060,7 +8060,7 @@ msgctxt ""
 "par_id3146070\n"
 "help.text"
 msgid "ISPMT(Rate; Period; TotalPeriods; Invest)"
-msgstr "ISPMT(Rente; Termijn; Aantal perioden; Investering)"
+msgstr "ISBET(Wisselkoers; Periode; Gehele termijn; Investering)"
 
 #. tZVBC
 #: 04060103.xhp
@@ -8069,7 +8069,7 @@ msgctxt ""
 "par_id3148672\n"
 "help.text"
 msgid "<emph>Rate</emph> sets the periodic interest rate."
-msgstr "<emph>Rente</emph> bepaalt het periodieke rentepercentage."
+msgstr "<emph>Wisselkoers</emph> bepaalt het periodieke rentepercentage."
 
 #. RpvJ5
 #: 04060103.xhp
@@ -8078,7 +8078,7 @@ msgctxt ""
 "par_id3145777\n"
 "help.text"
 msgid "<emph>Period</emph> is the number of installments for calculation of interest."
-msgstr "<emph>Termijn</emph> is het aantal aflossingstermijnen voor de berekening van de rente."
+msgstr "<emph>Periode</emph> is het aantal aflossingstermijnen voor de berekening van de rente."
 
 #. DUuGo
 #: 04060103.xhp
@@ -8087,7 +8087,7 @@ msgctxt ""
 "par_id3153678\n"
 "help.text"
 msgid "<emph>TotalPeriods</emph> is the total number of installment periods."
-msgstr "<emph>Aantal perioden</emph> is het totale aantal aflossingstermijnen."
+msgstr "<emph>Gehele termijn</emph> is het totale aantal aflossingstermijnen."
 
 #. uLH46
 #: 04060103.xhp
@@ -8114,7 +8114,7 @@ msgctxt ""
 "par_id3150949\n"
 "help.text"
 msgid "<item type=\"input\">=ISPMT(1%;18;24;120000)</item> = -300 currency units. The monthly interest after 1.5 years amounts to 300 currency units."
-msgstr "<item type=\"input\">=ISPMT(1%;18;24;120000)</item> = -300 valuta-eenheden. De maandelijkse rente na 1,5 jaar bedraagt 300 valuta-eenheden."
+msgstr "<item type=\"input\">=ISBET(1%;18;24;120000)</item> = -300 valuta-eenheden. De maandelijkse rente na 1,5 jaar bedraagt 300 valuta-eenheden."
 
 #. zy5K7
 #: 04060103.xhp
@@ -27054,7 +27054,7 @@ msgctxt ""
 "par_id3151387\n"
 "help.text"
 msgid "<emph>Yield</emph> is the annual yield of the security."
-msgstr "<emph>Opbrengst</emph> is de jaarlijkse opbrengst van het waardepapier."
+msgstr "<emph>Rendement</emph> is de jaarlijkse opbrengst van het waardepapier."
 
 #. J2FBE
 #: 04060118.xhp
@@ -27261,7 +27261,7 @@ msgctxt ""
 "par_id3153328\n"
 "help.text"
 msgid "<emph>Yield</emph> is the annual yield of the security."
-msgstr "<emph>Opbrengst</emph> is de jaarlijkse opbrengst van het waardepapier."
+msgstr "<emph>Rendement</emph> is de jaarlijkse opbrengst van het waardepapier."
 
 #. MYEsM
 #: 04060118.xhp
@@ -27495,7 +27495,7 @@ msgctxt ""
 "par_id3154954\n"
 "help.text"
 msgid "<emph>Life</emph> is the depreciation duration of the asset."
-msgstr "<emph>Levensduur</emph> is de afschrijvingsduur van het goed."
+msgstr "<emph>Nuttige levensduur</emph> is de afschrijvingsduur van het goed."
 
 #. wA4Tu
 #: 04060118.xhp
@@ -28548,7 +28548,7 @@ msgctxt ""
 "par_id3147313\n"
 "help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
-msgstr "<emph>Rente</emph> is het periodieke rentepercentage."
+msgstr "<emph>Wisselkoers</emph> is het periodieke rentepercentage."
 
 #. X2APK
 #: 04060118.xhp
@@ -28656,7 +28656,7 @@ msgctxt ""
 "par_id3155136\n"
 "help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
-msgstr "<emph>Rente</emph> is het periodieke rentepercentage."
+msgstr "<emph>Wisselkoers</emph> is het periodieke rentepercentage."
 
 #. gh3CB
 #: 04060118.xhp
@@ -28827,7 +28827,7 @@ msgctxt ""
 "par_id3155946\n"
 "help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
-msgstr "<emph>Rente</emph> is het periodieke rentepercentage."
+msgstr "<emph>Wisselkoers</emph> is het periodieke rentepercentage."
 
 #. 7FVrB
 #: 04060118.xhp
@@ -28980,7 +28980,7 @@ msgctxt ""
 "par_id3151228\n"
 "help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
-msgstr "<emph>Rente</emph> is het periodieke rentepercentage."
+msgstr "<emph>Wisselkoers</emph> is het periodieke rentepercentage."
 
 #. RZqLF
 #: 04060119.xhp
@@ -29088,7 +29088,7 @@ msgctxt ""
 "par_id3150864\n"
 "help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
-msgstr "<emph>Rente</emph> is het periodieke rentepercentage."
+msgstr "<emph>Wisselkoers</emph> is het periodieke rentepercentage."
 
 #. tfiiZ
 #: 04060119.xhp
@@ -29340,7 +29340,7 @@ msgctxt ""
 "par_id3150475\n"
 "help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
-msgstr "<emph>Rente</emph> is het periodieke rentepercentage."
+msgstr "<emph>Wisselkoers</emph> is het periodieke rentepercentage."
 
 #. AmB5k
 #: 04060119.xhp
@@ -29610,7 +29610,7 @@ msgctxt ""
 "par_id3153755\n"
 "help.text"
 msgid "<emph>Rate</emph> is the annual nominal rate of interest (coupon interest rate)"
-msgstr "<emph>Koers</emph> is de jaarlijkse nominale rentekoers (coupon rentekoers)"
+msgstr "<emph>Termijn</emph> is de jaarlijkse nominale rentekoers (coupon rentekoers)"
 
 #. QcHcK
 #: 04060119.xhp
@@ -29619,7 +29619,7 @@ msgctxt ""
 "par_id3155999\n"
 "help.text"
 msgid "<emph>Yield</emph> is the annual yield of the security."
-msgstr "<emph>Opbrengst</emph> is de jaarlijkse opbrengst van het waardepapier."
+msgstr "<emph>Rendement</emph> is de jaarlijkse opbrengst van het waardepapier."
 
 #. 2LD3E
 #: 04060119.xhp
@@ -29664,7 +29664,7 @@ msgctxt ""
 "bm_id3151297\n"
 "help.text"
 msgid "<bookmark_value>PRICEDISC function</bookmark_value><bookmark_value>prices;non-interest-bearing securities</bookmark_value><bookmark_value>sales values;non-interest-bearing securities</bookmark_value>"
-msgstr "<bookmark_value>PRIJS.DISCONTO-functie</bookmark_value><bookmark_value>prijzen;niet-rentedragende waardepapieren</bookmark_value><bookmark_value>verkoopwaarden;niet-rentedragende waardepapieren</bookmark_value>"
+msgstr "<bookmark_value>PRIJS.KORTING-functie</bookmark_value><bookmark_value>prijzen;niet-rentedragende waardepapieren</bookmark_value><bookmark_value>verkoopwaarden;niet-rentedragende waardepapieren</bookmark_value>"
 
 #. JuT2F
 #: 04060119.xhp
@@ -29673,7 +29673,7 @@ msgctxt ""
 "hd_id3151297\n"
 "help.text"
 msgid "PRICEDISC"
-msgstr "PRIJS.DISCONTO"
+msgstr "PRIJS.KORTING"
 
 #. BmTrm
 #: 04060119.xhp
@@ -29691,7 +29691,7 @@ msgctxt ""
 "par_id3146084\n"
 "help.text"
 msgid "PRICEDISC(Settlement; Maturity; Discount; Redemption [; Basis])"
-msgstr "PRIJS.DISCONTO(Aankoopdatum; Vervaldatum; Disconto; Aflossingsbedrag [; Basis])"
+msgstr "PRIJS.KORTING(Aankoopdatum; Vervaldatum; Korting; Aflossingsbedrag [; Basis])"
 
 #. WBvCG
 #: 04060119.xhp
@@ -29745,7 +29745,7 @@ msgctxt ""
 "par_id3151178\n"
 "help.text"
 msgid "<input>=PRICEDISC(\"1999-02-15\"; \"1999-03-01\"; 0.0525; 100; 2)</input>  returns 99.79583."
-msgstr "<input>=PRIJS.DISCONTO(\"1999-02-15\"; \"1999-03-01\"; 0,0525; 100; 2)</input>  returns 99,79583."
+msgstr "<input>=PRIJS.KORTING(\"1999-02-15\"; \"1999-03-01\"; 0,0525; 100; 2)</input>  returns 99,79583."
 
 #. hbGNH
 #: 04060119.xhp
@@ -29826,7 +29826,7 @@ msgctxt ""
 "par_id3146993\n"
 "help.text"
 msgid "<emph>Yield</emph> is the annual yield of the security."
-msgstr "<emph>Opbrengst</emph> is de jaarlijkse opbrengst van het waardepapier."
+msgstr "<emph>Rendement</emph> is de jaarlijkse opbrengst van het waardepapier."
 
 #. fiNQN
 #: 04060119.xhp
@@ -29961,7 +29961,7 @@ msgctxt ""
 "par_id3166456\n"
 "help.text"
 msgid "SLN(Cost; Salvage; Life)"
-msgstr "LIN.AFSCHR(Kosten; Restwaarde; Levensduur)"
+msgstr "LIN.AFSCHR(Kosten; Restwaarde; Nuttige levensduur)"
 
 #. 8CSs2
 #: 04060119.xhp
@@ -29970,7 +29970,7 @@ msgctxt ""
 "par_id3146955\n"
 "help.text"
 msgid "<emph>Cost</emph> is the initial cost of an asset."
-msgstr "<emph>Aanschafwaarde</emph> is de aanschafprijs van een goed."
+msgstr "<emph>Kosten</emph> is de kostprijs van een goed."
 
 #. FANVf
 #: 04060119.xhp
@@ -29988,7 +29988,7 @@ msgctxt ""
 "par_id3166444\n"
 "help.text"
 msgid "<emph>Life</emph> is the depreciation period determining the number of periods in the depreciation of the asset."
-msgstr "<emph>Levensduur</emph> is de afschrijvingsperiode die het aantal perioden bepaalt voor de afschrijving van het goed."
+msgstr "<emph>Nuttige levensduur</emph> is de afschrijvingsperiode die het aantal perioden bepaalt voor de afschrijving van het goed."
 
 #. 4tbmH
 #: 04060119.xhp
@@ -30069,7 +30069,7 @@ msgctxt ""
 "par_id3154338\n"
 "help.text"
 msgid "<emph>Coupon</emph> is the annual nominal rate of interest (coupon interest rate)"
-msgstr "<emph>Koers</emph> is de jaarlijkse nominale rentekoers (coupon rentekoers)."
+msgstr "<emph>Termijn</emph> is de jaarlijkse nominale rentekoers (coupon rentekoers)."
 
 #. 5NyMh
 #: 04060119.xhp
@@ -30078,7 +30078,7 @@ msgctxt ""
 "par_id3148466\n"
 "help.text"
 msgid "<emph>Yield</emph> is the annual yield of the security."
-msgstr "<emph>Opbrengst</emph> is de jaarlijkse opbrengst van het waardepapier."
+msgstr "<emph>Rendement</emph> is de jaarlijkse opbrengst van het waardepapier."
 
 #. GsSHE
 #: 04060119.xhp
@@ -30132,7 +30132,7 @@ msgctxt ""
 "par_id3145308\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_NBW\">Returns the present value of an investment based on a series of periodic cash flows and a discount rate. To get the net present value, subtract the cost of the project (the initial cash flow at time zero) from the returned value.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_NBW\">Retourneert de huidige waarde van een investering op basis van een reeks periodieke cashflows en een discontovoet. Teneinde de netto huidige waarde te verkrijgen, trekt u de kosten van het project (de eerste cashflow op het tijdstip nul) van de retourwaarde af.</ahelp>"
+msgstr "<ahelp hid=\"HID_FUNC_NBW\">Retourneert de huidige waarde van een investering op basis van een reeks periodieke cashflows en een kortingsvoet. Teneinde de netto huidige waarde te verkrijgen, trekt u de kosten van het project (de eerste cashflow op het tijdstip nul) van de retourwaarde af.</ahelp>"
 
 #. KTDpV
 #: 04060119.xhp
@@ -30654,7 +30654,7 @@ msgctxt ""
 "bm_id3150100\n"
 "help.text"
 msgid "<bookmark_value>YIELDDISC function</bookmark_value><bookmark_value>rates of return;non-interest-bearing securities</bookmark_value>"
-msgstr "<bookmark_value>REND.DISCONTO-functie</bookmark_value><bookmark_value>rendementen;niet-rentedragend waardepapier</bookmark_value>"
+msgstr "<bookmark_value>REND.KORTING-functie</bookmark_value><bookmark_value>rendementen;niet-rentedragend waardepapier</bookmark_value>"
 
 #. jMMDF
 #: 04060119.xhp
@@ -30663,7 +30663,7 @@ msgctxt ""
 "hd_id3150100\n"
 "help.text"
 msgid "YIELDDISC"
-msgstr "REND.DISCONTO"
+msgstr "REND.KORTING"
 
 #. CTBdC
 #: 04060119.xhp
@@ -30681,7 +30681,7 @@ msgctxt ""
 "par_id3159191\n"
 "help.text"
 msgid "YIELDDISC(Settlement; Maturity; Price; Redemption [; Basis])"
-msgstr "REND.DISCONTO(Aankoopdatum; Vervaldatum; Koers; Aflossingsbedrag [; Basis])"
+msgstr "REND.KORTING(Aankoopdatum; Vervaldatum; Koers; Aflossingsbedrag [; Basis])"
 
 #. fFG4g
 #: 04060119.xhp
@@ -30735,7 +30735,7 @@ msgctxt ""
 "par_id3155187\n"
 "help.text"
 msgid "<input>=YIELDDISC(\"1999-02-15\"; \"1999-03-01\"; 99.795; 100; 2)</input> returns 0.052823 or 5.2823 per cent."
-msgstr "<input>=REND.DISCONTO(\"1999-02-15\"; \"1999-03-01\"; 99,795; 100; 2)</input> returns 0,052823 of 5,2823 per cent."
+msgstr "<input>=REND.KORTING(\"1999-02-15\"; \"1999-03-01\"; 99,795; 100; 2)</input> returns 0,052823 of 5,2823 per cent."
 
 #. 5mbhE
 #: 04060119.xhp
@@ -30879,7 +30879,7 @@ msgctxt ""
 "par_id3147291\n"
 "help.text"
 msgid "<emph>Rate</emph> is the periodic interest rate."
-msgstr "<emph>Rente</emph> is het periodieke rentepercentage."
+msgstr "<emph>Wisselkoers</emph> is het periodieke rentepercentage."
 
 #. yz8oV
 #: 04060119.xhp
@@ -31014,7 +31014,7 @@ msgctxt ""
 "par_id3153520\n"
 "help.text"
 msgid "The return on the treasury bill corresponding to a security is worked out as follows:"
-msgstr "De opbrengst van de staatsobligatie of overeenkomstig waardepapier wordt als volgt uitgewerkt:"
+msgstr "Het rendement van de staatsobligatie of overeenkomstig waardepapier wordt als volgt uitgewerkt:"
 
 #. QzDeZ
 #: 04060119.xhp
@@ -70715,7 +70715,7 @@ msgctxt ""
 "par_id3149954\n"
 "help.text"
 msgid "<emph>Basis</emph> (optional) is chosen from a list of options and indicates how the year is to be calculated."
-msgstr "<emph>Basis</emph> (optioneel) wordt gekozen uit een lijst met opties en geeft aan hoe het jaar moet worden berekend."
+msgstr "<emph>Soort jaar</emph> (optioneel) wordt gekozen uit een lijst met opties en geeft aan hoe het jaar moet worden berekend."
 
 #. HgwU8
 #: func_yearfrac.xhp
