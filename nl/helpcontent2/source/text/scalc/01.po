@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 15:27+0100\n"
-"PO-Revision-Date: 2025-03-02 21:43+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-03-03 19:23+0000\n"
+"Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-25-2/textscalc01/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -8168,7 +8168,7 @@ msgctxt ""
 "par_id5206762\n"
 "help.text"
 msgid "The following table lists the values for the text parameter <item type=\"literal\">Type</item> and the return values of the INFO function."
-msgstr "De volgende tabel somt de waarden op voor de tekstparameter <item type=\"literal\">Type\"</item> en de teruggegeven waarden voor de functie INFO."
+msgstr "De volgende tabel somt de waarden op voor de tekstparameter <item type=\"literal\">Type</item> en de teruggegeven waarden voor de functie INFO."
 
 #. VKBSE
 #: 04060104.xhp
@@ -8258,7 +8258,7 @@ msgctxt ""
 "par_id2873622\n"
 "help.text"
 msgid "<item type=\"input\">=INFO(D5)</item> with cell <item type=\"literal\">D5</item> containing a text string <item type=\"literal\">system</item> returns the operation system type."
-msgstr "<item type=\"input\">=INFO(D5)</item> waarbij cel <item type=\"literal\">D5</item> een tekenreeks bevat, geeft <item type=\"literal\">system</item> het type van het besturingssysteem terug."
+msgstr "<item type=\"input\">=INFO(D5)</item> waarbij cel <item type=\"literal\">D5</item> de tekenreeks <item type=\"literal\">system</item> bevat, geeft het type van het besturingssysteem terug."
 
 #. ECcTx
 #: 04060104.xhp
@@ -8285,7 +8285,7 @@ msgctxt ""
 "par_id3157975\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_AKTUELL\">This function returns the result to date of evaluating the formula of which it is a part (in other words the result as far as that evaluation has got). Its main use is together with the STYLE() function to apply selected styles to a cell depending on the cell contents.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_AKTUELL\">Deze functie geeft als resultaat de evaluatie van de formule waarvan het deel uitmaakt tot op de huidige datum (met andere woorden: het resultaat tot op het moment waarop de evaluatie is beland). Samen met de functie OPMAAKPROFIEL() is het voornaamste gebruik om geselecteerde opmaakprofielen op een cel toe te passen, afhankelijk van de celinhoud.</ahelp>"
+msgstr "<ahelp hid=\"HID_FUNC_AKTUELL\">Deze functie geeft als resultaat de evaluatie van de formule waarvan het deel uitmaakt tot op de huidige datum (met andere woorden: het resultaat tot op het moment waarop de evaluatie is beland). Samen met de functie STIJL() is het voornaamste gebruik om geselecteerde opmaakprofielen op een cel toe te passen, afhankelijk van de celinhoud.</ahelp>"
 
 #. VVH9p
 #: 04060104.xhp
@@ -8321,7 +8321,7 @@ msgctxt ""
 "par_id5863826\n"
 "help.text"
 msgid "<input>=A2+B2+STYLE(IF(CURRENT()>10;\"Red\";\"Default\"))</input>"
-msgstr "<input>=A2+B2+STIJL(ALS(HUIDIG()>10;\"Rood\";\"Standaard\"))</input>"
+msgstr "<input>=A2+B2+STIJL(ALS(HUIDIG()>10;\"Slecht\";\"Standaard\"))</input>"
 
 #. fNamE
 #: 04060104.xhp
@@ -8330,7 +8330,7 @@ msgctxt ""
 "par_id7463911\n"
 "help.text"
 msgid "The example returns A2 + B2 (STYLE returns 0 here). If this sum is greater than 10, the style Red is applied to the cell. See the <emph>STYLE</emph> function for more explanation."
-msgstr "Het voorbeeld geeft A2 + B2 terug (OPMAAKPROFIEL geeft hier 0 terug). Het opmaakprofiel Rood wordt op de cel toegepast als de som groter is dan 10. Zie de functie <emph>OPMAAKPROFIEL</emph> voor meer uitleg."
+msgstr "Het voorbeeld geeft A2 + B2 terug (STIJL) geeft hier 0 terug). Het opmaakprofiel Slecht wordt op de cel toegepast als de som groter is dan 10. Zie de functie <emph>STIJL</emph> voor meer uitleg."
 
 #. bF4GC
 #: 04060104.xhp
@@ -8366,7 +8366,7 @@ msgctxt ""
 "hd_id3150688\n"
 "help.text"
 msgid "FORMULA"
-msgstr "FORMULE"
+msgstr "FORMULETEKST"
 
 #. hpK42
 #: 04060104.xhp
@@ -8384,7 +8384,7 @@ msgctxt ""
 "par_id3147535\n"
 "help.text"
 msgid "FORMULA(Reference)"
-msgstr "FORMULE(Verwijzing)"
+msgstr "FORMULETEKST(Verwijzing)"
 
 #. yX4Jk
 #: 04060104.xhp
@@ -8420,7 +8420,7 @@ msgctxt ""
 "par_id3153923\n"
 "help.text"
 msgid "<item type=\"input\">=FORMULA(A8)</item> returns the text =SUM(1;2;3)."
-msgstr "<item type=\"input\">=FORMULE(A8)</item> geeft de tekst =SOM(1;2;3) terug."
+msgstr "<item type=\"input\">=FORMULETEKST(A8)</item> geeft de tekst =SOM(1;2;3) terug."
 
 #. UdGZn
 #: 04060104.xhp
@@ -8492,7 +8492,7 @@ msgctxt ""
 "par_id2131544\n"
 "help.text"
 msgid "<item type=\"input\">=ISREF(4)</item> returns FALSE."
-msgstr "<item type=\"input\">=ISVERW(4)</item> geeft ONWAAR terug."
+msgstr "<item type=\"input\">=ISVERWIJZING(4)</item> geeft ONWAAR terug omdat een getal nooit een verwijzing kan zijn."
 
 #. 4isXS
 #: 04060104.xhp
@@ -8852,7 +8852,7 @@ msgctxt ""
 "par_id1912289\n"
 "help.text"
 msgid "<item type=\"input\">=ISEVEN(-2.1)</item> returns TRUE"
-msgstr "<item type=\"input\">=IS.EVEN(-2.1)</item> geeft WAAR terug"
+msgstr "<item type=\"input\">=IS.EVEN(-2,1)</item> geeft WAAR terug"
 
 #. CqTmy
 #: 04060104.xhp
@@ -9050,7 +9050,7 @@ msgctxt ""
 "par_id3147234\n"
 "help.text"
 msgid "<item type=\"input\">=ISBLANK(D2)</item> returns FALSE as a result."
-msgstr "<item type=\"input\">=ISLEEG(D2)</item> geeft ONWAAR als resultaat."
+msgstr "<item type=\"input\">=ISLEEG(D2)</item> geeft ONWAAR als resultaat als cel D2 de tekst abcdef bevat."
 
 #. yKnGr
 #: 04060104.xhp
@@ -9626,7 +9626,7 @@ msgctxt ""
 "par_id3519089\n"
 "help.text"
 msgid "=N(1/0) returns #DIV/0!"
-msgstr "=N(1/0) geeft #DEL/0! terug"
+msgstr "=N(1/0) geeft #DELING.DOOR.0! terug"
 
 #. JzPuw
 #: 04060104.xhp
@@ -9779,7 +9779,7 @@ msgctxt ""
 "par_id3147355\n"
 "help.text"
 msgid "CELL(\"InfoType\" [; Reference])"
-msgstr "CEL(\"Infotype\" [; Verwijzing])"
+msgstr "CEL(\"Infotype\" ; Verwijzing (optioneel))"
 
 #. wjBKt
 #: 04060104.xhp
@@ -9887,7 +9887,7 @@ msgctxt ""
 "par_id3159198\n"
 "help.text"
 msgid "<item type=\"input\">=CELL(\"ADDRESS\";Sheet3.D2)</item> returns $Sheet3.$D$2."
-msgstr "<item type=\"input\">=CEL(\"ADRES\";Blad3.D2)</item> geeft $Blad3.$D$2 terug."
+msgstr "<item type=\"input\">=CEL(\"ADDRESS\";Blad3.D2)</item> geeft $Blad3.$D$2 terug."
 
 #. pwLQs
 #: 04060104.xhp
@@ -9896,7 +9896,7 @@ msgctxt ""
 "par_id3150245\n"
 "help.text"
 msgid "<item type=\"input\">=CELL(\"ADDRESS\";'X:\\dr\\test.ods'#$Sheet1.D2)</item> returns 'file:///X:/dr/test.ods'#$Sheet1.$D$2."
-msgstr "<item type=\"input\">=CEL(\"ADRES\";'X:\\dr\\test.sxc'#$Blad1.D2)</item> geeft 'file:///X:/dr/test.sxc'#$Blad1.$D$2 terug."
+msgstr "<item type=\"input\">=CEL(\"ADDRESS\";'X:\\dr\\test.sxc'#$Blad1.D2)</item> geeft 'file:///X:/dr/test.sxc'#$Blad1.$D$2 terug."
 
 #. TYtiD
 #: 04060104.xhp
@@ -9923,7 +9923,7 @@ msgctxt ""
 "par_id3155144\n"
 "help.text"
 msgid "<item type=\"input\">=CELL(\"FILENAME\";'X:\\dr\\test.ods'#$Sheet1.D2)</item> returns 'file:///X:/dr/test.ods'#$Sheet1."
-msgstr "<item type=\"input\">=CELL(\"FILENAME\";'X:\\dr\\test.ods'#$Sheet1.D2)</item> geeft 'file:///X:/dr/test.ods'#$Blad1 terug."
+msgstr "<item type=\"input\">=CEL(\"FILENAME\";'X:\\dr\\test.ods'#$Sheet1.D2)</item> geeft 'file:///X:/dr/test.ods'#$Blad1 terug."
 
 #. GJsAD
 #: 04060104.xhp
@@ -10274,7 +10274,7 @@ msgctxt ""
 "par_id3156090\n"
 "help.text"
 msgid "<emph>Reference</emph> (list of options) is the position of the cell to be examined. If <emph>Reference</emph> is a range, the cell moves to the top left of the range. If <emph>Reference</emph> is missing, $[officename] Calc uses the position of the cell in which this formula is located. Microsoft Excel uses the reference of the cell in which the cursor is positioned."
-msgstr "<emph>Verwijzing</emph> (lijst met opties) is de positie van de cel die bekeken moet worden. Als <emph>Verwijzing</emph> een bereik is, wordt de cel linksboven van het bereik geplaatst. Als <emph>Verwijzing</emph> ontbreekt, gebruikt $[officename] Calc de positie van de cel waarin deze formule staat. Microsoft Excel gebruikt de verwijzing van de cel waarin de cursor staat."
+msgstr "<emph>Verwijzing</emph> (optioneel) (lijst met opties) is de positie van de cel die bekeken moet worden. Als <emph>Verwijzing</emph> een bereik is, wordt de cel linksboven van het bereik geplaatst. Als <emph>Verwijzing</emph> ontbreekt, gebruikt LibreOffice Calc de positie van de cel waarin deze formule staat. Microsoft Excel gebruikt de verwijzing van de cel waarin de cursor staat."
 
 #. hhV65
 #: 04060105.xhp
@@ -25090,7 +25090,7 @@ msgctxt ""
 "par_id3152817\n"
 "help.text"
 msgid "<emph>S</emph> is the start of the depreciation. A must be entered in the same date unit as the duration."
-msgstr "<emph>Startperiode</emph> is het begin van de afschrijving. Moet in dezelfde datumeenheid worden ingevoerd als de duur."
+msgstr "<emph>Beginperiode</emph> is het begin van de afschrijving. Moet in dezelfde datumeenheid worden ingevoerd als de duur."
 
 #. DMz6v
 #: 04060118.xhp
@@ -25117,7 +25117,7 @@ msgctxt ""
 "par_id3154865\n"
 "help.text"
 msgid "<emph>NoSwitch</emph>is an optional parameter. NoSwitch = 0 (default) means a switch to linear depreciation. In NoSwitch = 1 no switch is made."
-msgstr "<emph>Afschrijvingsmethode</emph> is een optionele parameter. GeenWissel = 0 (standaard) betekent een wissel naar een lineaire afschrijving. Bij GeenWissel = 1 wordt er niet gewisseld."
+msgstr "<emph>Afschrijvingsmethode</emph> is een optionele parameter. Afschrijvingsmethode = 0 (standaard) betekent een wissel naar een lineaire afschrijving. Bij Afschrijvingsmethode = 1 wordt er niet gewisseld."
 
 #. bJGVM
 #: 04060118.xhp
