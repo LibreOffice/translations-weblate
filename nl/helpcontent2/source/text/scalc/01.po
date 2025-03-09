@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 16:41+0100\n"
-"PO-Revision-Date: 2025-03-04 20:11+0000\n"
+"PO-Revision-Date: 2025-03-09 08:54+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-24-8/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -4811,7 +4811,7 @@ msgctxt ""
 "par_id3151240\n"
 "help.text"
 msgid "Andy"
-msgstr "André"
+msgstr "Andy"
 
 #. eQx2T
 #: 04060101.xhp
@@ -5000,7 +5000,7 @@ msgctxt ""
 "par_id361616251794063\n"
 "help.text"
 msgid "In this example the search criteria area contains only two headings and these are not vertically aligned with the corresponding headings in the example database table. Since there are two conditions in the same row, these are connected by AND. With the above example database table and this search criteria area, insert the formula <item type=\"input\">=DCOUNT(A1:E10;;B12:C13)</item> into an empty cell elsewhere in the sheet to count how many of Joe’s guests are in grade 2 and greater than 7 years old. The value 2 is returned (counting Eva and Irene)."
-msgstr "In dit voorbeeld bevat het zoekcriteriagebied slechts twee koppen en deze zijn niet verticaal uitgelijnd met de corresponderende koppen in de voorbeelddatabasetabel. Omdat er twee voorwaarden in dezelfde rij staan, zijn deze verbonden door EN. Voeg met de bovenstaande voorbeelddatabasetabel en dit zoekcriteriagebied de formule <item type=\"input\">=DBAANTAL(A1:E10;;B12:C13)</item> in een lege cel elders in het blad in om te tellen hoe veel van Joe's gasten zitten in groep 2 en zijn ouder dan 7 jaar. De waarde 2 wordt geretourneerd (Eva en Irene meegerekend)."
+msgstr "In dit voorbeeld bevat het gebied met zoekcriteria twee exemplaren van dezelfde kop. Omdat er twee voorwaarden in dezelfde rij staan, zijn deze verbonden door EN. Voeg met de bovenstaande voorbeelddatabasetabel en dit zoekcriteriagebied de formule <item type=\"input\">=DBAANTAL(A1:E10;;B12:C13)</item> in een lege cel elders in het blad in om te tellen hoe veel van Joe's gasten zijn tussen de 8 en 10 jaar (inclusief). De waarde 6 wordt geretourneerd (Andy, Bettie, Karel, Eva, Harrie en Irene meegerekend)."
 
 #. 6Tfyk
 #: 04060101.xhp
@@ -5090,7 +5090,7 @@ msgctxt ""
 "par_id91616253394127\n"
 "help.text"
 msgid "This simple example shows the use of wildcards. For this example to work as intended, select to enable wildcards at <link href=\"text/shared/optionen/01060500.xhp\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Calculate</menuitem></link>. With the above example database table and this search criteria area, insert the formula <item type=\"input\">=DCOUNT(A1:E10;;A12:A13)</item> into an empty cell elsewhere in the sheet to count how many of Joe’s guests have names that begin with the letter “F”. The value 1 is returned (counting Frank)."
-msgstr "Dit eenvoudige voorbeeld toont het gebruik van jokertekens. Om dit voorbeeld te laten werken zoals bedoeld, selecteert u om jokertekens in te schakelen op <link href=\"text/shared/optionen/01060500.xhp\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Voorkeuren</menuitem></caseinline><defaultinline><menuitem>Extra - Opties</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Berekenen</menuitem></link>. Voeg met de bovenstaande voorbeelddatabasetabel en dit zoekcriteriagebied de formule <item type=\"input\">=DBAANTAL(A1:E10;;A12:A13)</item> in een lege cel elders in het blad in om te tellen hoe veel van Joe's gasten hebben namen die beginnen met de letter \"F\". De waarde 1 wordt geretourneerd (Frank meegerekend)."
+msgstr "Dit eenvoudige voorbeeld toont het gebruik van reguliere expressies. Om dit voorbeeld te laten werken zoals bedoeld, selecteert u om reguliere expressies in te schakelen op <link href=\"text/shared/optionen/01060500.xhp\"><switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Voorkeuren</menuitem></caseinline><defaultinline><menuitem>Extra - Opties</menuitem></defaultinline></switchinline><menuitem> - %PRODUCTNAME Calc - Berekenen</menuitem></link>. Voeg met de bovenstaande voorbeelddatabasetabel en dit zoekcriteriagebied de formule <item type=\"input\">=DBAANTAL(A1:E10;;A12:A13)</item> in een lege cel elders in het blad in om te tellen hoe veel van Joe's gasten hebben namen die beginnen met de letters \"A\", \"B\" of \"C\". De waarde 2 wordt geretourneerd (Andy en Bettie meegerekend)."
 
 #. BAnVJ
 #: 04060101.xhp
@@ -5153,7 +5153,7 @@ msgctxt ""
 "par_id3153218\n"
 "help.text"
 msgid "DCOUNT(Database; [DatabaseField]; SearchCriteria)"
-msgstr "DBAANTAL(Database; [Databaseveld]; Zoekcriteria)"
+msgstr "DBAANTAL(Database; [Databaseveld] (optioneel); Zoekcriteria)"
 
 #. KYvAJ
 #: 04060101.xhp
@@ -10841,7 +10841,7 @@ msgctxt ""
 "par_id3083285\n"
 "help.text"
 msgid "<item type=\"input\">=AND(A;B)</item> returns FALSE"
-msgstr "<item type=\"input\">=EN(A;B)</item> geeft ONWAAR terug"
+msgstr "<item type=\"input\">=ALS(A1>5;100;\"te klein\")</item> Als de waarde in A1 groter is dan 5, wordt de waarde 100 geretourneerd. Anders wordt de tekst te klein geretourneerd."
 
 #. vAGKt
 #: 04060105.xhp
@@ -10850,7 +10850,7 @@ msgctxt ""
 "par_id3083444\n"
 "help.text"
 msgid "<item type=\"input\">=OR(A;B)</item> returns TRUE"
-msgstr "<item type=\"input\">=OF(A;B)</item> geeft WAAR terug"
+msgstr "<item type=\"input\">=ALS(A1>5;;\"te klein\")</item> Als de waarde in A1 groter is dan 5, wordt de waarde 0 geretourneerd, omdat lege parameters als 0 worden beschouwd. Anders wordt de tekst te klein geretourneerd."
 
 #. BcGUg
 #: 04060105.xhp
@@ -64098,7 +64098,7 @@ msgctxt ""
 "par_id541556235771022\n"
 "help.text"
 msgid "If there is a result missing for an expression or is no expression is TRUE, a #N/A error is returned."
-msgstr "ls er een resultaat ontbreekt voor een uitdrukking of als geen enkele expressie WAAR is, wordt een #N/B-fout geretourneerd."
+msgstr "Als er een resultaat ontbreekt voor een uitdrukking of als geen enkele expressie WAAR is, wordt een #N/B-fout geretourneerd."
 
 #. 8sMKs
 #: func_ifs.xhp
