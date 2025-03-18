@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 15:27+0100\n"
-"PO-Revision-Date: 2025-03-17 12:53+0000\n"
+"PO-Revision-Date: 2025-03-18 15:53+0000\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian Nynorsk <https://translations.documentfoundation.org/projects/libo_help-25-2/textscalc01/nn/>\n"
 "Language: nn\n"
@@ -15602,7 +15602,7 @@ msgctxt ""
 "par_id985747\n"
 "help.text"
 msgid "Calc supports inline matrix/array constants in formulas. An inline array is surrounded by curly braces '{' and '}'. Elements can be each a number (including negatives), a logical constant (TRUE, FALSE), or a literal string. Non-constant expressions are not allowed. Arrays can be entered with one or more rows, and one or more columns. All rows must consist of the same number of elements, all columns must consist of the same number of elements."
-msgstr "Calc har støtte for innebygde konstantar av typen matrise/område i formlar. Eit nøsta område er omslutta av krøllparentesar «{» og «}». Elementa kan kvar for seg vera eit tal (også negative), ein logisk konstant (SANN, USANN), eller ein bokstavstreng. Ikkje-konstante uttrykk er ikkje tillatne. Område kan skrivast inn med éi eller fleire rader, og éin eller fleire kolonnar. Alle radene må ha like mange element og alle kolonnane må ha like mange element."
+msgstr "Calc har støtte for innebygde konstantar av typen matrise/område i formlar. Eit nysta område er omslutta av krøllparentesar «{» og «}». Elementa kan kvar for seg vera eit tal (også negative), ein logisk konstant (SANN, USANN), eller ein bokstavstreng. Ikkje-konstante uttrykk er ikkje tillatne. Område kan skrivast inn med éi eller fleire rader, og éin eller fleire kolonnar. Alle radene må ha like mange element og alle kolonnane må ha like mange element."
 
 #. CYxYN
 #: 04060107.xhp
@@ -15629,7 +15629,7 @@ msgctxt ""
 "par_id1877498\n"
 "help.text"
 msgid "Arrays can not be nested."
-msgstr "Matriser kan ikkje vere nøsta."
+msgstr "Matriser kan ikkje vere nysta."
 
 #. frzGa
 #: 04060107.xhp
@@ -15899,7 +15899,7 @@ msgctxt ""
 "par_id3146080\n"
 "help.text"
 msgid "By holding down the <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>Command</emph></caseinline><defaultinline><emph>Ctrl</emph></defaultinline></switchinline> key, you can create a copy of the array formula in the given range."
-msgstr "Du kan laga ein kopi av matriseformelen i det gjevne området ved å halde nede <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>Cmd</emph></caseinline><defaultinline><emph>Ctrl</emph></defaultinline></switchinline>-tasten."
+msgstr "Du kan laga ein kopi av matriseformelen i det gjevne området ved å halda nede <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>Cmd</emph></caseinline><defaultinline><emph>Ctrl</emph></defaultinline></switchinline>-tasten."
 
 #. 9MbQS
 #: 04060107.xhp
@@ -17105,7 +17105,7 @@ msgctxt ""
 "par_id3163362\n"
 "help.text"
 msgid "<emph>Array 1[; Array 2;][...;[Array 255]]</emph> represent arrays whose corresponding elements are to be multiplied."
-msgstr "<emph>Tabell 1[;tabell 2;][…[tabell 255]]</emph> representere tabellar der dei tilsvarande elementa skal multipliserast."
+msgstr "<emph>Tabell 1[;tabell 2;][…[tabell 255]]</emph> representerer tabellar der dei tilsvarande elementa skal multipliserast."
 
 #. kCud6
 #: 04060107.xhp
@@ -18608,7 +18608,7 @@ msgctxt ""
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than <emph>Lookup</emph>. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr "<emph>SortertOmråde</emph> er ein valfri parameter som indikerer om den første kolonnen i matrisa inneheld områdegrenser i staden for vanlege verdiar. I denne modusen returnerer uttrykket verdien i rada med den første kolonnen som har ein verdi som er lik eller mindre enn <emph>oppslag</emph>. Den kan for eksempel innehalde datoar når nokre MVA-verdiar er endra når verdiane representerer startdatoar for ein periode når ein bestemt MVA-verdi var brukt. Eit søk etter ein dato som manglar i den første matrisekolonnen, men er mellom nokre grensedatoar, vil returnera den lågaste av dei slik at det er råd å finna dataa som høver til den søkte datoen. Bruk USANN eller null viss den første kolonnen ikkje inneheld områdegrenser. Når denne parameteren er sann eller ikkje gjeven, må den første kolonnen i matrisa vera <emph>sortert i stigande rekkjefølgje</emph>. Ei søk i sorterte kolonnar går mykje raskare og funksjonen returnerer alltid ein verdi, sjølv om søkjeverdien ikkje samsvarar nøyaktig, viss han er større enn den lågaste verdien i den sorterte lista. I usorterte lister må søkjeverdien samsvara nøyaktig elles vil funksjonen returnera #I/T med meldinga <emph> Feil: verdi ikkje tilgjengeleg </emph>."
+msgstr "<emph>SortertOmråde</emph> er ein valfri parameter som indikerer om den første kolonnen i matrisa inneheld områdegrenser i staden for vanlege verdiar. I denne modusen returnerer uttrykket verdien i rada med den første kolonnen som har ein verdi som er lik eller mindre enn <emph>oppslag</emph>. Den kan for eksempel innehalda datoar når nokre MVA-verdiar er endra når verdiane representerer startdatoar for ein periode når ein bestemt MVA-verdi var brukt. Eit søk etter ein dato som manglar i den første matrisekolonnen, men er mellom nokre grensedatoar, vil returnera den lågaste av dei slik at det er råd å finna dataa som høver til den søkte datoen. Bruk USANN eller null viss den første kolonnen ikkje inneheld områdegrenser. Når denne parameteren er sann eller ikkje gjeven, må den første kolonnen i matrisa vera <emph>sortert i stigande rekkjefølgje</emph>. Eit søk i sorterte kolonnar går mykje raskare og funksjonen returnerer alltid ein verdi, sjølv om søkjeverdien ikkje samsvarar nøyaktig, viss han er større enn den lågaste verdien i den sorterte lista. I usorterte lister må søkjeverdien samsvara nøyaktig elles vil funksjonen returnera #I/T med meldinga <emph> Feil: verdi ikkje tilgjengeleg </emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -33737,7 +33737,7 @@ msgctxt ""
 "par_id501585152669900\n"
 "help.text"
 msgid "The parameters should specify at least four values."
-msgstr "Parameterane må innehalde minst fire verdiar."
+msgstr "Parameterane må innehalda minst fire verdiar."
 
 #. V4wcF
 #: 04060183.xhp
@@ -36446,7 +36446,7 @@ msgctxt ""
 "par_id171585151428396\n"
 "help.text"
 msgid "The parameters should specify at least three values."
-msgstr "Parameterane må innehalde minst tre verdiar."
+msgstr "Parameterane må innehalda minst tre verdiar."
 
 #. sBJ47
 #: 04060185.xhp
@@ -36644,7 +36644,7 @@ msgctxt ""
 "par_id211585163957345\n"
 "help.text"
 msgid "The parameters should specify at least two values."
-msgstr "Parametrane må innehalde minst to verdiar."
+msgstr "Parametrane må innehalda minst to verdiar."
 
 #. S754h
 #: 04060185.xhp
@@ -36842,7 +36842,7 @@ msgctxt ""
 "par_id671585163972431\n"
 "help.text"
 msgid "The parameters should specify at least two values."
-msgstr "Parameterane må innehalde minst to verdiar."
+msgstr "Parameterane må innehalda minst to verdiar."
 
 #. 9GmUP
 #: 04060185.xhp
@@ -38057,7 +38057,7 @@ msgctxt ""
 "par_id721585215582420\n"
 "help.text"
 msgid "The parameters should specify at least two values."
-msgstr "Parameterane må innehalde minst to verdiar."
+msgstr "Parameterane må innehalda minst to verdiar."
 
 #. 7rJxK
 #: 04060185.xhp
@@ -38111,7 +38111,7 @@ msgctxt ""
 "par_id891585215590756\n"
 "help.text"
 msgid "The parameters should specify at least two values."
-msgstr "Parameterane må innehalde minst to verdiar."
+msgstr "Parameterane må innehalda minst to verdiar."
 
 #. GMEXA
 #: 04060185.xhp
@@ -38165,7 +38165,7 @@ msgctxt ""
 "par_id451585215586628\n"
 "help.text"
 msgid "The parameters should specify at least two values."
-msgstr "Parameterane må innehalde minst to verdiar."
+msgstr "Parameterane må innehalda minst to verdiar."
 
 #. 4Prou
 #: 04060185.xhp
@@ -40856,7 +40856,7 @@ msgctxt ""
 "par_id261684779287732\n"
 "help.text"
 msgid "Select one sheet only to call the command. The current sheet is always selected. If a sheet other than the current sheet is selected, you can deselect it by pressing <switchinline select=\"sys\"> <caseinline select=\"MAC\"><keycode>Command</keycode></caseinline> <defaultinline><keycode>Ctrl</keycode></defaultinline> </switchinline> while clicking the corresponding sheet tab at the bottom of the window."
-msgstr "Vel berre eitt ark for å kalla opp kommandoen. Det gjeldande arket er alltid vald. Viss eit anna ark enn det gjeldande arket er vald, kan du velja det bort ved å halde nede <switchinline select=\"sys\"> <caseinline select=\"MAC\"><keycode>Kommando</keycode></caseinline> <defaultinline><keycode>Ctrl</keycode></defaultinline> </switchinline> medan du klikkar på den tilsvarande arkfanen nedst i vindauget."
+msgstr "Vel berre eitt ark for å kalla opp kommandoen. Det gjeldande arket er alltid vald. Viss eit anna ark enn det gjeldande arket er vald, kan du velja det bort ved å halda nede <switchinline select=\"sys\"> <caseinline select=\"MAC\"><keycode>Kommando</keycode></caseinline> <defaultinline><keycode>Ctrl</keycode></defaultinline> </switchinline> medan du klikkar på den tilsvarande arkfanen nedst i vindauget."
 
 #. fbAv3
 #: 05050300.xhp
@@ -47156,7 +47156,7 @@ msgctxt ""
 "par_id3151384\n"
 "help.text"
 msgid "<variable id=\"gruppierungauf\"><ahelp hid=\".uno:Ungroup\" visibility=\"visible\">Ungroups the selection. In a nested group, the last rows or columns that were added are removed from the group.</ahelp></variable>"
-msgstr "<variable id=\"gruppierungauf\"><ahelp hid=\".uno:Ungroup\" visibility=\"visible\">Løyser opp grupperinga i utvalet. Den siste rada eller kolonnen som vart lagt til vert fjerna i ei nøsta gruppe.</ahelp></variable>"
+msgstr "<variable id=\"gruppierungauf\"><ahelp hid=\".uno:Ungroup\" visibility=\"visible\">Løyser opp grupperinga i utvalet. Den siste rada eller kolonnen som vart lagt til vert fjerna i ei nysta gruppe.</ahelp></variable>"
 
 #. C48BR
 #: 12080400.xhp
@@ -55195,7 +55195,7 @@ msgctxt ""
 "par_id2309201512011567\n"
 "help.text"
 msgid "Ignore only nested SUBTOTAL and AGGREGATE functions"
-msgstr "Ignorer berre nøsta DELSUM- og SAMANDRAG-funksjonar"
+msgstr "Ignorer berre nysta DELSUM- og SAMANDRAG-funksjonar"
 
 #. AGUis
 #: func_aggregate.xhp
@@ -55204,7 +55204,7 @@ msgctxt ""
 "par_id315771547630277\n"
 "help.text"
 msgid "Ignore only hidden rows, nested SUBTOTAL and AGGREGATE functions"
-msgstr "Ignorer berre gøymde rader og nøsta DELSUM- og SAMANDRAG-funksjonar"
+msgstr "Ignorer berre gøymde rader og nysta DELSUM- og SAMANDRAG-funksjonar"
 
 #. EAKJn
 #: func_aggregate.xhp
@@ -55213,7 +55213,7 @@ msgctxt ""
 "par_id2309201512011514\n"
 "help.text"
 msgid "Ignore only errors, nested SUBTOTAL and AGGREGATE functions"
-msgstr "Ignorer berre feil og nøsta DELSUM- og SAMANDRAG-funksjonar"
+msgstr "Ignorer berre feil og nysta DELSUM- og SAMANDRAG-funksjonar"
 
 #. ofBiE
 #: func_aggregate.xhp
@@ -55222,7 +55222,7 @@ msgctxt ""
 "par_id2309201512011547\n"
 "help.text"
 msgid "Ignore hidden rows, errors, nested SUBTOTAL and AGGREGATE functions"
-msgstr "Ignorer gøymde rader, feil og nøsta DELSUM- og SAMANDRAG-funksjonar"
+msgstr "Ignorer gøymde rader, feil og nysta DELSUM- og SAMANDRAG-funksjonar"
 
 #. oTDkv
 #: func_aggregate.xhp
@@ -56086,7 +56086,7 @@ msgctxt ""
 "hd_id317532515726820\n"
 "help.text"
 msgid "Using regular expressions and nested functions"
-msgstr "Bruka regulære uttrykk og nøsta funksjonar"
+msgstr "Bruka regulære uttrykk og nysta funksjonar"
 
 #. qZDFB
 #: func_averageifs.xhp
@@ -59272,7 +59272,7 @@ msgctxt ""
 "hd_id298462825526166\n"
 "help.text"
 msgid "Using regular expressions and nested functions"
-msgstr "Bruka regulære uttrykk og nøsta funksjonar"
+msgstr "Bruka regulære uttrykk og nysta funksjonar"
 
 #. dgbYx
 #: func_countifs.xhp
@@ -60802,7 +60802,7 @@ msgctxt ""
 "par_id90121141327448\n"
 "help.text"
 msgid "If in division A1 by A2, A2 can turn to zero, you can handle the situation as follows:"
-msgstr "Dersom A1 skal dividerast med A2 og A2 kan innehalde null, kan du handtera dette slik:"
+msgstr "Dersom A1 skal dividerast med A2 og A2 kan innehalda null, kan du handtera dette slik:"
 
 #. uvFET
 #: func_error_type.xhp
@@ -64690,7 +64690,7 @@ msgctxt ""
 "hd_id30455222431067\n"
 "help.text"
 msgid "Using regular expressions and nested functions"
-msgstr "Bruka regulære uttrykk og nøsta funksjonar"
+msgstr "Bruka regulære uttrykk og nysta funksjonar"
 
 #. LNubZ
 #: func_maxifs.xhp
@@ -65131,7 +65131,7 @@ msgctxt ""
 "hd_id30455222431067\n"
 "help.text"
 msgid "Using regular expressions and nested functions"
-msgstr "Bruka regulære uttrykk og nøsta funksjonar"
+msgstr "Bruka regulære uttrykk og nysta funksjonar"
 
 #. CBaMz
 #: func_minifs.xhp
@@ -69408,7 +69408,7 @@ msgctxt ""
 "hd_id30455222431067\n"
 "help.text"
 msgid "Using regular expressions and nested functions"
-msgstr "Bruka regulære uttrykk og nøsta funksjonar"
+msgstr "Bruka regulære uttrykk og nysta funksjonar"
 
 #. Ust3n
 #: func_sumifs.xhp
