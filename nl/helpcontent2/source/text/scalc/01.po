@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-12-21 13:21+0100\n"
-"PO-Revision-Date: 2025-03-19 18:53+0000\n"
+"PO-Revision-Date: 2025-03-20 20:53+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-24-2/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -13721,7 +13721,7 @@ msgctxt ""
 "par_id3163328\n"
 "help.text"
 msgid "ROUNDUP(Number [; Count])"
-msgstr "AFRONDEN.NAAR.BOVEN(Getal [; Aantal])"
+msgstr "AFRONDEN.NAAR.BOVEN(Getal ; Aantal (optioneel))"
 
 #. x59Ls
 #: 04060106.xhp
@@ -13766,7 +13766,7 @@ msgctxt ""
 "par_id1180455\n"
 "help.text"
 msgid "<item type=\"input\">=ROUNDUP(45.67;0)</item> returns 46."
-msgstr "<item type=\"input\">=AFRONDEN.NAAR.BOVEN(45.67;0)</item> geeft 46 terug."
+msgstr "<item type=\"input\">=AFRONDEN.NAAR.BOVEN(45,67;0)</item> geeft 46 terug."
 
 #. FpoDE
 #: 04060106.xhp
@@ -14947,7 +14947,7 @@ msgctxt ""
 "par_id3164320\n"
 "help.text"
 msgid "MROUND(Number; Multiple)"
-msgstr "AFRONDEN.N.VEELVOUD(Getal; veelvoud)"
+msgstr "AFRONDEN.N.VEELVOUD(Getal; Meerdere)"
 
 #. A2zWC
 #: 04060106.xhp
@@ -15154,7 +15154,7 @@ msgctxt ""
 "par_id3164758\n"
 "help.text"
 msgid "RANDBETWEEN(Bottom; Top)"
-msgstr "ASELECTTUSSEN(kleinste getal; grootste getal)"
+msgstr "ASELECTTUSSEN(Laagste waarde; Hoogste waarde)"
 
 #. NjkAg
 #: 04060106.xhp
@@ -15163,7 +15163,7 @@ msgctxt ""
 "par_id7112338\n"
 "help.text"
 msgid "Returns an integer random number between integers <emph>Bottom</emph> and <emph>Top</emph> (both inclusive)."
-msgstr "Geeft een willekeurig geheel getal terug tussen de gehele getallen <emph>Beneden</emph> en <emph>Boven</emph> (inclusief beide)."
+msgstr "Geeft een willekeurig geheel getal terug tussen de gehele getallen <emph>Laagste waarde</emph> en <emph>Hoogste waarde</emph> (inclusief beide)."
 
 #. kanbM
 #: 04060106.xhp
@@ -18025,7 +18025,7 @@ msgctxt ""
 "par_id3153034\n"
 "help.text"
 msgid "<emph>File</emph> is the complete file name, including path specification."
-msgstr "<emph>Bestand</emph> is de volledige bestandsnaam, inclusief specificatie van het pad."
+msgstr "<emph>Onderwerp/bestand</emph> is de volledige bestandsnaam, inclusief specificatie van het pad."
 
 #. kU4Vp
 #: 04060109.xhp
@@ -67482,7 +67482,7 @@ msgctxt ""
 "par_id341641927560587\n"
 "help.text"
 msgid "<input>ROUNDDOWN(Number [; Count])</input>"
-msgstr "<input>AFRONDEN.NAAR.BENEDEN(Getal[; Aantal])</input>"
+msgstr "<input>AFRONDEN.NAAR.BENEDEN(Getal; Aantal (optioneel))</input>"
 
 #. zMhAG
 #: func_rounddown.xhp
@@ -67491,7 +67491,7 @@ msgctxt ""
 "par_id11641927688319\n"
 "help.text"
 msgid "<emph>Number:</emph> The number to be rounded down."
-msgstr "<emph>Getak:</emph> Het getal dat naar beneden moet worden afgerond."
+msgstr "<emph>Getal:</emph> Het getal dat naar beneden moet worden afgerond."
 
 #. CkVAE
 #: func_rounddown.xhp
@@ -67536,7 +67536,7 @@ msgctxt ""
 "par_id901641928192110\n"
 "help.text"
 msgid "<input>=ROUNDDOWN(103.37,1)</input> returns 103.3."
-msgstr "<input>=AFRONDEN.NAAR.BENEDEN(103,37,1)</input> geeft 103.3."
+msgstr "<input>=AFRONDEN.NAAR.BENEDEN(103,37,1)</input> geeft 103,3."
 
 #. bzN7A
 #: func_rounddown.xhp
@@ -67545,7 +67545,7 @@ msgctxt ""
 "par_id171641928456743\n"
 "help.text"
 msgid "<input>=ROUNDDOWN(0.664,2)</input> returns 0.66."
-msgstr "<input>=AFRONDEN.NAAR.BENEDEN(0,664,2)</input> geeft 0,66."
+msgstr "<input>=AFRONDEN.NAAR.BENEDEN(0,664;2)</input> geeft 0,66."
 
 #. e4fx9
 #: func_rounddown.xhp
@@ -67554,7 +67554,7 @@ msgctxt ""
 "par_id641641928712287\n"
 "help.text"
 msgid "<input>=ROUNDDOWN(214.2,-1)</input> returns 210. Note the negative value for <emph>Count</emph>, which causes the first integer value before the decimal separator to be rounded towards zero."
-msgstr "<input>=AFRONDEN.NAAR.BENEDEN(214,2,-1)</input> geeft 210 terug. Let op de negatieve waarde voor <emph>Aantal</emph>, die ervoor zorgt dat het eerste gehele getal vóór het decimaalteken naar nul wordt afgerond."
+msgstr "<input>=AFRONDEN.NAAR.BENEDEN(214,2;-1)</input> geeft 210 terug. Let op de negatieve waarde voor <emph>Aantal</emph>, die ervoor zorgt dat het eerste gehele getal vóór het decimaalteken naar nul wordt afgerond."
 
 #. q3A5j
 #: func_rounddown.xhp
