@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2025-03-26 17:21+0100\n"
+"POT-Creation-Date: 2025-04-09 13:50+0200\n"
 "PO-Revision-Date: 2025-04-07 18:53+0000\n"
 "Last-Translator: Ming Hua <plateauwolf@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/zh_Hans/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1562731995.000000\n"
 
 #. kBovX
@@ -3533,6 +3533,12 @@ msgstr "影子价格"
 msgctxt "STR_SENSITIVITY_RHS"
 msgid "Constraint R.H. Side"
 msgstr "约束条件右端"
+
+#. UHPhq
+#: sc/inc/globstr.hrc:591
+msgctxt "STD_ERR_CSV_PARSE"
+msgid "An error occurred while parsing the CSV file."
+msgstr ""
 
 #. dB8cp
 #: sc/inc/pvfundlg.hrc:28
@@ -24264,24 +24270,6 @@ msgctxt "duplicaterecordsdialog|duplicaterecordsdialog"
 msgid "Handle Duplicate Records"
 msgstr "处理重复记录"
 
-#. FmXH7
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:37
-msgctxt "duplicaterecordsdialog|helpbutton"
-msgid "_Help"
-msgstr "帮助(_H)"
-
-#. 4WCn4
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:52
-msgctxt "duplicaterecordsdialog|okbtn"
-msgid "_OK"
-msgstr "确定(_O)"
-
-#. Ys425
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:66
-msgctxt "duplicaterecordsdialog|cancelbtn"
-msgid "Ca_ncel"
-msgstr "取消(_N)"
-
 #. oPmFC
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:98
 msgctxt "duplicaterecordsdialog|compare"
@@ -24324,11 +24312,11 @@ msgctxt "duplicaterecordsdialog|row"
 msgid "Compare rows."
 msgstr "比较各行。"
 
-#. rMjRt
+#. m6L8w
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:217
 msgctxt "duplicaterecordsdialog|column"
-msgid "_Columns"
-msgstr "列(_C)"
+msgid "Colu_mns"
+msgstr ""
 
 #. ZFN6o
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:221
@@ -34551,14 +34539,20 @@ msgctxt "textimportcsv|textalttitle"
 msgid "Text to Columns"
 msgstr "文本分列"
 
+#. hNgAT
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:875
+msgctxt "textimportcsv|alwaysshow"
+msgid "_Always show on import"
+msgstr ""
+
 #. XjAZq
-#: sc/uiconfig/scalc/ui/textimportcsv.ui:879
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:895
 msgctxt "textimportcsv|label4"
 msgid "Fields"
 msgstr "字段"
 
 #. t6zdn
-#: sc/uiconfig/scalc/ui/textimportcsv.ui:908
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:924
 msgctxt "textimportcsv|extended_tip|TextImportCsvDialog"
 msgid "Sets the import options for delimited data."
 msgstr "设置带分隔符的数据的导入选项。"
@@ -34569,44 +34563,38 @@ msgctxt "textimportoptions|TextImportOptionsDialog"
 msgid "Import Options"
 msgstr "导入选项"
 
-#. U4EqV
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:54
-msgctxt "textimportoptions|keepasking"
-msgid "Keep asking during this session"
-msgstr "在本会话中一直询问"
-
 #. Ug4iB
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:99
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:83
 msgctxt "textimportoptions|custom"
 msgid "Custom:"
 msgstr "自定义:"
 
 #. DnkxF
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:114
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:98
 msgctxt "textimportoptions|automatic"
 msgid "Automatic"
 msgstr "自动"
 
 #. oMBob
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:145
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:129
 msgctxt "textimportoptions|label2"
 msgid "Select the Locale to Use for Import"
 msgstr "选择要用于导入的区域设置"
 
 #. iRYr7
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:173
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:157
 msgctxt "textimportoptions|convertdata"
 msgid "Detect special numbers (such as dates)"
 msgstr "检测特殊数值 (例如日期)"
 
 #. y2ucV
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:189
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:173
 msgctxt "textimportoptions|convertdata"
 msgid "Detect numbers with _scientific notation"
 msgstr "检测用科学计数法表示的数值(_S)"
 
 #. 6aP7U
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:209
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:193
 msgctxt "textimportoptions|label3"
 msgid "Options"
 msgstr "选项"
@@ -35559,6 +35547,26 @@ msgstr "分组依据"
 msgctxt "ztestdialog|extended_tip|ZTestDialog"
 msgid "Calculates the z-Test of two data samples."
 msgstr "计算两个数据样本的Z检验。"
+
+#~ msgctxt "duplicaterecordsdialog|helpbutton"
+#~ msgid "_Help"
+#~ msgstr "帮助(_H)"
+
+#~ msgctxt "duplicaterecordsdialog|okbtn"
+#~ msgid "_OK"
+#~ msgstr "确定(_O)"
+
+#~ msgctxt "duplicaterecordsdialog|cancelbtn"
+#~ msgid "Ca_ncel"
+#~ msgstr "取消(_N)"
+
+#~ msgctxt "duplicaterecordsdialog|column"
+#~ msgid "_Columns"
+#~ msgstr "列(_C)"
+
+#~ msgctxt "textimportoptions|keepasking"
+#~ msgid "Keep asking during this session"
+#~ msgstr "在本会话中一直询问"
 
 #~ msgctxt "conditionaliconset|label"
 #~ msgid " >= "

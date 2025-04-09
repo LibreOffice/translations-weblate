@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2025-03-26 17:21+0100\n"
+"POT-Creation-Date: 2025-04-09 13:50+0200\n"
 "PO-Revision-Date: 2025-03-29 21:53+0000\n"
 "Last-Translator: Adam Rak <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1554834651.000000\n"
 
 #. kBovX
@@ -3543,6 +3543,12 @@ msgstr "Cena dualna"
 msgctxt "STR_SENSITIVITY_RHS"
 msgid "Constraint R.H. Side"
 msgstr "Ograniczenie RHS"
+
+#. UHPhq
+#: sc/inc/globstr.hrc:591
+msgctxt "STD_ERR_CSV_PARSE"
+msgid "An error occurred while parsing the CSV file."
+msgstr ""
 
 #. dB8cp
 #: sc/inc/pvfundlg.hrc:28
@@ -24278,24 +24284,6 @@ msgctxt "duplicaterecordsdialog|duplicaterecordsdialog"
 msgid "Handle Duplicate Records"
 msgstr "Obsługa duplikatów rekordów"
 
-#. FmXH7
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:37
-msgctxt "duplicaterecordsdialog|helpbutton"
-msgid "_Help"
-msgstr "Pomo_c"
-
-#. 4WCn4
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:52
-msgctxt "duplicaterecordsdialog|okbtn"
-msgid "_OK"
-msgstr "_OK"
-
-#. Ys425
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:66
-msgctxt "duplicaterecordsdialog|cancelbtn"
-msgid "Ca_ncel"
-msgstr "A_nuluj"
-
 #. oPmFC
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:98
 msgctxt "duplicaterecordsdialog|compare"
@@ -24338,11 +24326,11 @@ msgctxt "duplicaterecordsdialog|row"
 msgid "Compare rows."
 msgstr "Porównaj wiersze."
 
-#. rMjRt
+#. m6L8w
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:217
 msgctxt "duplicaterecordsdialog|column"
-msgid "_Columns"
-msgstr "_Kolumny"
+msgid "Colu_mns"
+msgstr ""
 
 #. ZFN6o
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:221
@@ -34565,14 +34553,20 @@ msgctxt "textimportcsv|textalttitle"
 msgid "Text to Columns"
 msgstr "Tekst jako kolumny"
 
+#. hNgAT
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:875
+msgctxt "textimportcsv|alwaysshow"
+msgid "_Always show on import"
+msgstr ""
+
 #. XjAZq
-#: sc/uiconfig/scalc/ui/textimportcsv.ui:879
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:895
 msgctxt "textimportcsv|label4"
 msgid "Fields"
 msgstr "Pola"
 
 #. t6zdn
-#: sc/uiconfig/scalc/ui/textimportcsv.ui:908
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:924
 msgctxt "textimportcsv|extended_tip|TextImportCsvDialog"
 msgid "Sets the import options for delimited data."
 msgstr "Umożliwia ustawienie opcji importu danych rozgraniczonych."
@@ -34583,44 +34577,38 @@ msgctxt "textimportoptions|TextImportOptionsDialog"
 msgid "Import Options"
 msgstr "Opcje importu"
 
-#. U4EqV
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:54
-msgctxt "textimportoptions|keepasking"
-msgid "Keep asking during this session"
-msgstr "Pytaj podczas tej sesji"
-
 #. Ug4iB
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:99
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:83
 msgctxt "textimportoptions|custom"
 msgid "Custom:"
 msgstr "Niestandardowe:"
 
 #. DnkxF
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:114
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:98
 msgctxt "textimportoptions|automatic"
 msgid "Automatic"
 msgstr "Automatycznie"
 
 #. oMBob
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:145
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:129
 msgctxt "textimportoptions|label2"
 msgid "Select the Locale to Use for Import"
 msgstr "Wybierz ustawienia regionalne, które chcesz użyć do importu"
 
 #. iRYr7
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:173
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:157
 msgctxt "textimportoptions|convertdata"
 msgid "Detect special numbers (such as dates)"
 msgstr "Wykryj liczby specjalne (takie jak daty)"
 
 #. y2ucV
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:189
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:173
 msgctxt "textimportoptions|convertdata"
 msgid "Detect numbers with _scientific notation"
 msgstr "Wykrywanie liczb z _notacją naukową"
 
 #. 6aP7U
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:209
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:193
 msgctxt "textimportoptions|label3"
 msgid "Options"
 msgstr "Opcje"
@@ -35573,6 +35561,26 @@ msgstr "Grupowanie według"
 msgctxt "ztestdialog|extended_tip|ZTestDialog"
 msgid "Calculates the z-Test of two data samples."
 msgstr "Oblicza test z dla dwóch próbek danych."
+
+#~ msgctxt "duplicaterecordsdialog|helpbutton"
+#~ msgid "_Help"
+#~ msgstr "Pomo_c"
+
+#~ msgctxt "duplicaterecordsdialog|okbtn"
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgctxt "duplicaterecordsdialog|cancelbtn"
+#~ msgid "Ca_ncel"
+#~ msgstr "A_nuluj"
+
+#~ msgctxt "duplicaterecordsdialog|column"
+#~ msgid "_Columns"
+#~ msgstr "_Kolumny"
+
+#~ msgctxt "textimportoptions|keepasking"
+#~ msgid "Keep asking during this session"
+#~ msgstr "Pytaj podczas tej sesji"
 
 #~ msgctxt "conditionaliconset|label"
 #~ msgid " >= "

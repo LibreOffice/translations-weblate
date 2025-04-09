@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2025-03-26 17:21+0100\n"
+"POT-Creation-Date: 2025-04-09 13:50+0200\n"
 "PO-Revision-Date: 2025-03-27 20:54+0000\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/ka/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1542023760.000000\n"
 
 #. kBovX
@@ -3533,6 +3533,12 @@ msgstr "ჩრდილოვანი ფასი"
 msgctxt "STR_SENSITIVITY_RHS"
 msgid "Constraint R.H. Side"
 msgstr "მარჯვენა მხრის შეზღუდვა"
+
+#. UHPhq
+#: sc/inc/globstr.hrc:591
+msgctxt "STD_ERR_CSV_PARSE"
+msgid "An error occurred while parsing the CSV file."
+msgstr ""
 
 #. dB8cp
 #: sc/inc/pvfundlg.hrc:28
@@ -24266,24 +24272,6 @@ msgctxt "duplicaterecordsdialog|duplicaterecordsdialog"
 msgid "Handle Duplicate Records"
 msgstr "გამეორებული ჩანაწერების დამუშავება"
 
-#. FmXH7
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:37
-msgctxt "duplicaterecordsdialog|helpbutton"
-msgid "_Help"
-msgstr "_დახმარება"
-
-#. 4WCn4
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:52
-msgctxt "duplicaterecordsdialog|okbtn"
-msgid "_OK"
-msgstr "_დიახ"
-
-#. Ys425
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:66
-msgctxt "duplicaterecordsdialog|cancelbtn"
-msgid "Ca_ncel"
-msgstr "გაუ_ქმება"
-
 #. oPmFC
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:98
 msgctxt "duplicaterecordsdialog|compare"
@@ -24326,11 +24314,11 @@ msgctxt "duplicaterecordsdialog|row"
 msgid "Compare rows."
 msgstr "მწკრივების შედარება:"
 
-#. rMjRt
+#. m6L8w
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:217
 msgctxt "duplicaterecordsdialog|column"
-msgid "_Columns"
-msgstr "_სვეტები"
+msgid "Colu_mns"
+msgstr ""
 
 #. ZFN6o
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:221
@@ -34553,14 +34541,20 @@ msgctxt "textimportcsv|textalttitle"
 msgid "Text to Columns"
 msgstr "ტექსტი სვეტებზე"
 
+#. hNgAT
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:875
+msgctxt "textimportcsv|alwaysshow"
+msgid "_Always show on import"
+msgstr ""
+
 #. XjAZq
-#: sc/uiconfig/scalc/ui/textimportcsv.ui:879
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:895
 msgctxt "textimportcsv|label4"
 msgid "Fields"
 msgstr "ველები"
 
 #. t6zdn
-#: sc/uiconfig/scalc/ui/textimportcsv.ui:908
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:924
 msgctxt "textimportcsv|extended_tip|TextImportCsvDialog"
 msgid "Sets the import options for delimited data."
 msgstr "დააყენებს შემოტანის პარამეტრებს დაყოფილი მონაცემებისთვის."
@@ -34571,44 +34565,38 @@ msgctxt "textimportoptions|TextImportOptionsDialog"
 msgid "Import Options"
 msgstr "შემოტანის მორგება"
 
-#. U4EqV
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:54
-msgctxt "textimportoptions|keepasking"
-msgid "Keep asking during this session"
-msgstr "კითხვის გაგრძელება ამ სესიის განმავლობაში"
-
 #. Ug4iB
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:99
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:83
 msgctxt "textimportoptions|custom"
 msgid "Custom:"
 msgstr "ხელით:"
 
 #. DnkxF
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:114
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:98
 msgctxt "textimportoptions|automatic"
 msgid "Automatic"
 msgstr "ავტომატური"
 
 #. oMBob
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:145
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:129
 msgctxt "textimportoptions|label2"
 msgid "Select the Locale to Use for Import"
 msgstr "აირჩიეთ ლოკალი შემოტანისთვის"
 
 #. iRYr7
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:173
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:157
 msgctxt "textimportoptions|convertdata"
 msgid "Detect special numbers (such as dates)"
 msgstr "სპეციალური სიმბოლოების (მაგ: თარიღების) დადგენა"
 
 #. y2ucV
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:189
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:173
 msgctxt "textimportoptions|convertdata"
 msgid "Detect numbers with _scientific notation"
 msgstr "_სამეცნიერო ანოტაციის მქონე რიცხვების დადგენა"
 
 #. 6aP7U
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:209
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:193
 msgctxt "textimportoptions|label3"
 msgid "Options"
 msgstr "მორგება"
@@ -35561,6 +35549,26 @@ msgstr "დაჯგუფების პირობა"
 msgctxt "ztestdialog|extended_tip|ZTestDialog"
 msgid "Calculates the z-Test of two data samples."
 msgstr "გამოთვლის z-შემოწმებას ორი მონაცემის სინჯისთვის."
+
+#~ msgctxt "duplicaterecordsdialog|helpbutton"
+#~ msgid "_Help"
+#~ msgstr "_დახმარება"
+
+#~ msgctxt "duplicaterecordsdialog|okbtn"
+#~ msgid "_OK"
+#~ msgstr "_დიახ"
+
+#~ msgctxt "duplicaterecordsdialog|cancelbtn"
+#~ msgid "Ca_ncel"
+#~ msgstr "გაუ_ქმება"
+
+#~ msgctxt "duplicaterecordsdialog|column"
+#~ msgid "_Columns"
+#~ msgstr "_სვეტები"
+
+#~ msgctxt "textimportoptions|keepasking"
+#~ msgid "Keep asking during this session"
+#~ msgstr "კითხვის გაგრძელება ამ სესიის განმავლობაში"
 
 #~ msgctxt "conditionaliconset|label"
 #~ msgid " >= "

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2025-03-26 17:21+0100\n"
+"POT-Creation-Date: 2025-04-09 13:50+0200\n"
 "PO-Revision-Date: 2025-04-04 10:53+0000\n"
 "Last-Translator: Rhoslyn Prys <post@meddal.com>\n"
 "Language-Team: Welsh <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/cy/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=(n==0) ? 0 : (n==1) ? 1 : (n==2) ? 2 : (n==3) ? 3 :(n==6) ? 4 : 5;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565695958.000000\n"
 
 #. kBovX
@@ -3558,6 +3558,12 @@ msgstr "Pris Cysgodol"
 msgctxt "STR_SENSITIVITY_RHS"
 msgid "Constraint R.H. Side"
 msgstr "Cyfyngiad Ochr R.H."
+
+#. UHPhq
+#: sc/inc/globstr.hrc:591
+msgctxt "STD_ERR_CSV_PARSE"
+msgid "An error occurred while parsing the CSV file."
+msgstr ""
 
 #. dB8cp
 #: sc/inc/pvfundlg.hrc:28
@@ -24296,24 +24302,6 @@ msgctxt "duplicaterecordsdialog|duplicaterecordsdialog"
 msgid "Handle Duplicate Records"
 msgstr "Trin Cofnodion Dyblyg"
 
-#. FmXH7
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:37
-msgctxt "duplicaterecordsdialog|helpbutton"
-msgid "_Help"
-msgstr "C_ymorth"
-
-#. 4WCn4
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:52
-msgctxt "duplicaterecordsdialog|okbtn"
-msgid "_OK"
-msgstr "_Iawn"
-
-#. Ys425
-#: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:66
-msgctxt "duplicaterecordsdialog|cancelbtn"
-msgid "Ca_ncel"
-msgstr "_Diddymu"
-
 #. oPmFC
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:98
 msgctxt "duplicaterecordsdialog|compare"
@@ -24356,11 +24344,11 @@ msgctxt "duplicaterecordsdialog|row"
 msgid "Compare rows."
 msgstr "Cymharwch resi."
 
-#. rMjRt
+#. m6L8w
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:217
 msgctxt "duplicaterecordsdialog|column"
-msgid "_Columns"
-msgstr "_Colofnau"
+msgid "Colu_mns"
+msgstr ""
 
 #. ZFN6o
 #: sc/uiconfig/scalc/ui/duplicaterecordsdlg.ui:221
@@ -34583,14 +34571,20 @@ msgctxt "textimportcsv|textalttitle"
 msgid "Text to Columns"
 msgstr "Testun i Golofnau"
 
+#. hNgAT
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:875
+msgctxt "textimportcsv|alwaysshow"
+msgid "_Always show on import"
+msgstr ""
+
 #. XjAZq
-#: sc/uiconfig/scalc/ui/textimportcsv.ui:879
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:895
 msgctxt "textimportcsv|label4"
 msgid "Fields"
 msgstr "Meysydd"
 
 #. t6zdn
-#: sc/uiconfig/scalc/ui/textimportcsv.ui:908
+#: sc/uiconfig/scalc/ui/textimportcsv.ui:924
 msgctxt "textimportcsv|extended_tip|TextImportCsvDialog"
 msgid "Sets the import options for delimited data."
 msgstr "Yn gosod y dewisiadau mewnforio ar gyfer data amffiniedig."
@@ -34601,44 +34595,38 @@ msgctxt "textimportoptions|TextImportOptionsDialog"
 msgid "Import Options"
 msgstr "Dewisiadau Mewnforio"
 
-#. U4EqV
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:54
-msgctxt "textimportoptions|keepasking"
-msgid "Keep asking during this session"
-msgstr "Daliwch ati i ofyn yn ystod y sesiwn hon"
-
 #. Ug4iB
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:99
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:83
 msgctxt "textimportoptions|custom"
 msgid "Custom:"
 msgstr "Cyfaddas:"
 
 #. DnkxF
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:114
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:98
 msgctxt "textimportoptions|automatic"
 msgid "Automatic"
 msgstr "Awtomatig"
 
 #. oMBob
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:145
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:129
 msgctxt "textimportoptions|label2"
 msgid "Select the Locale to Use for Import"
 msgstr "Dewis y Locale i'w Defnyddio ar gyfer Mewnforio"
 
 #. iRYr7
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:173
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:157
 msgctxt "textimportoptions|convertdata"
 msgid "Detect special numbers (such as dates)"
 msgstr "Canfod rhifau arbennig (megis dyddiadau)"
 
 #. y2ucV
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:189
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:173
 msgctxt "textimportoptions|convertdata"
 msgid "Detect numbers with _scientific notation"
 msgstr "Canfod rhifau mewn nodiant _gwyddonol"
 
 #. 6aP7U
-#: sc/uiconfig/scalc/ui/textimportoptions.ui:209
+#: sc/uiconfig/scalc/ui/textimportoptions.ui:193
 msgctxt "textimportoptions|label3"
 msgid "Options"
 msgstr "Dewisiadau"
@@ -35591,6 +35579,26 @@ msgstr "Grwpiwyd yn ôl"
 msgctxt "ztestdialog|extended_tip|ZTestDialog"
 msgid "Calculates the z-Test of two data samples."
 msgstr "Yn cyfrifo z-Test dau sampl data."
+
+#~ msgctxt "duplicaterecordsdialog|helpbutton"
+#~ msgid "_Help"
+#~ msgstr "C_ymorth"
+
+#~ msgctxt "duplicaterecordsdialog|okbtn"
+#~ msgid "_OK"
+#~ msgstr "_Iawn"
+
+#~ msgctxt "duplicaterecordsdialog|cancelbtn"
+#~ msgid "Ca_ncel"
+#~ msgstr "_Diddymu"
+
+#~ msgctxt "duplicaterecordsdialog|column"
+#~ msgid "_Columns"
+#~ msgstr "_Colofnau"
+
+#~ msgctxt "textimportoptions|keepasking"
+#~ msgid "Keep asking during this session"
+#~ msgstr "Daliwch ati i ofyn yn ystod y sesiwn hon"
 
 #~ msgctxt "conditionaliconset|label"
 #~ msgid " >= "
