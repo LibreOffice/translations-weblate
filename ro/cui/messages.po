@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-05-31 13:51+0200\n"
-"PO-Revision-Date: 2025-04-12 07:53+0000\n"
+"PO-Revision-Date: 2025-04-14 18:53+0000\n"
 "Last-Translator: Miloiu Andrei-Valentin <miloiuandrei@gmail.com>\n"
 "Language-Team: Romanian <https://translations.documentfoundation.org/projects/libo_ui-24-2/cuimessages/ro/>\n"
 "Language: ro\n"
@@ -4715,7 +4715,7 @@ msgstr "Introdu textul, graficul, cadrul sau obiectul OLE de înlocuire pe care 
 #: cui/uiconfig/ui/acorreplacepage.ui:187
 msgctxt "acorreplacepage|extended_tip|origtext"
 msgid "Enter the word, abbreviation or word part that you want to replace while you type. Wildcard character sequence .* in the end of word results the replacement of the word before arbitrary suffixes, too. Wildcard character sequence .* before the word results the replacement after arbitrary prefixes, too. For example, the pattern \"i18n.*\" with the replacement text \"internationalization\" finds and replaces \"i18ns\" with \"internationalizations\", or the pattern \".*...\" with the replacement text \"…\" finds and replaces three dots in \"word...\" with the typographically correct precomposed Unicode horizontal ellipsis (\"word…\")."
-msgstr "Introdu cuvântul, abrevierea sau partea de cuvânt pe care dorești să o înlocuiești în timp ce introduci text. Secvența de caractere de înlocuire (caractere wildcard) .* la sfârșitul cuvântului rezultă înlocuirea cuvântului înaintea sufixelor arbitrare. Secvența caractere de înlocuire (caractere wildcard) .* înainte de cuvânt rezultă și înlocuirea după prefixe arbitrare. De exemplu, modelul „i18n.*” cu textul de înlocuire „internaționalizare” găsește și înlocuiește „i18ns” cu „internaționalizări”, sau modelul „.*...” cu textul de înlocuire „…” găsește și înlocuiește trei puncte în „cuvânt...” cu elipsa orizontală Unicode precompusă corectă tipografic („cuvânt…”)."
+msgstr "Introdu cuvântul, abrevierea sau partea de cuvânt pe care dorești să o înlocuiești în timp ce introduci text. Secvența de metacaractere (caractere wildcard) .* la sfârșitul cuvântului rezultă înlocuirea cuvântului înaintea sufixelor arbitrare. Secvența de metacaractere (caractere wildcard) .* înainte de cuvânt rezultă și înlocuirea după prefixe arbitrare. De exemplu, modelul „i18n.*” cu textul de înlocuire „internaționalizare” găsește și înlocuiește „i18ns” cu „internaționalizări”, sau modelul „.*...” cu textul de înlocuire „…” găsește și înlocuiește trei puncte în „cuvânt...” cu elipsa orizontală Unicode precompusă corectă tipografic („cuvânt…”)."
 
 #. GLT9J
 #: cui/uiconfig/ui/acorreplacepage.ui:200
@@ -9483,13 +9483,13 @@ msgstr "Specifică faptul că procesul de căutare se va desfășura în sens in
 #: cui/uiconfig/ui/fmsearchdialog.ui:743
 msgctxt "fmsearchdialog|cbWildCard"
 msgid "_Wildcard expression"
-msgstr "Expresie _Wildcard"
+msgstr "Expresie pentru _metacaractere"
 
 #. BES8b
 #: cui/uiconfig/ui/fmsearchdialog.ui:751
 msgctxt "fmsearchdialog|extended_tip|cbWildCard"
 msgid "Allows a search with a * or ? wildcard."
-msgstr "Permite o căutare cu * sau cu caracterul de înlocuire (wildcard-ul) ?."
+msgstr "Permite o căutare cu * sau cu metacaracterul ?."
 
 #. xHRxu
 #: cui/uiconfig/ui/fmsearchdialog.ui:773
@@ -10126,7 +10126,7 @@ msgstr "Cuvânt"
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:156
 msgctxt "hangulhanjaconversiondialog|extended_tip|wordinput"
 msgid "Displays the first replacement suggestion from the dictionary."
-msgstr ""
+msgstr "Afișează prima sugestie de înlocuire din dicționar."
 
 #. JQfs4
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:168
@@ -10138,7 +10138,7 @@ msgstr "_Caută"
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:175
 msgctxt "hangulhanjaconversiondialog|extended_tip|find"
 msgid "Finds your Hangul input in the dictionary and replaces it with the corresponding Hanja."
-msgstr ""
+msgstr "Îți găsește introducerea Hangul în dicționar și o înlocuiește cu semnul Hanja corespunzător."
 
 #. 3NS8C
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:195
@@ -10162,7 +10162,7 @@ msgstr "_Hangul/Hanja"
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:315
 msgctxt "hangulhanjaconversiondialog|extended_tip|simpleconversion"
 msgid "The original characters are replaced by the suggested characters."
-msgstr ""
+msgstr "Caracterele originale sunt înlocuite de caracterele sugerate."
 
 #. xwknP
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:326
@@ -10174,7 +10174,7 @@ msgstr "Hanja (Han_gul)"
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:335
 msgctxt "hangulhanjaconversiondialog|extended_tip|hangulbracket"
 msgid "The Hangul part will be displayed in brackets after the Hanja part."
-msgstr ""
+msgstr "Partea Hangul va fi afișată în paranteze după partea Hanja."
 
 #. 6guxd
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:346
@@ -10186,25 +10186,25 @@ msgstr "Hang_ul (Hanja)"
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:355
 msgctxt "hangulhanjaconversiondialog|extended_tip|hanjabracket"
 msgid "The Hanja part will be displayed in brackets after the Hangul part."
-msgstr ""
+msgstr "Partea Hangul va fi afișată în paranteze după partea Hanja."
 
 #. xfRqM
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:393
 msgctxt "hangulhanjaconversiondialog|hanja_above"
 msgid "Hanja above"
-msgstr ""
+msgstr "Hanja-ul deasupra"
 
 #. 3FDwm
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:402
 msgctxt "hangulhanjaconversiondialog|extended_tip|hanja_above"
 msgid "The Hangul part will be displayed as ruby text above the Hanja part."
-msgstr ""
+msgstr "Partea Hangul va fi afișată ca text rubin deasupra părții Hanja."
 
 #. Crewa
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:439
 msgctxt "hangulhanjaconversiondialog|hanja_below"
 msgid "Hanja below"
-msgstr ""
+msgstr "Hanja-ul dedesubt"
 
 #. cuAAs
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:448
@@ -10216,7 +10216,7 @@ msgstr ""
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:485
 msgctxt "hangulhanjaconversiondialog|hangul_above"
 msgid "Hangul above"
-msgstr ""
+msgstr "Hangulul deasupra"
 
 #. yHfhf
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:494
@@ -10228,7 +10228,7 @@ msgstr ""
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:531
 msgctxt "hangulhanjaconversiondialog|hangul_below"
 msgid "Hangul below"
-msgstr ""
+msgstr "Hangulul dedesubt"
 
 #. R37Uk
 #: cui/uiconfig/ui/hangulhanjaconversiondialog.ui:540
