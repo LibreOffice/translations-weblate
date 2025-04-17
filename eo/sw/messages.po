@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-12-18 01:00+0100\n"
-"PO-Revision-Date: 2025-04-15 20:53+0000\n"
+"PO-Revision-Date: 2025-04-17 02:53+0000\n"
 "Last-Translator: Donald Rogers <donr2648@fastmail.fm>\n"
 "Language-Team: Esperanto <https://translations.documentfoundation.org/projects/libo_ui-25-2/swmessages/eo/>\n"
 "Language: eo\n"
@@ -122,7 +122,7 @@ msgstr "Evitu uzi tabojn por formati."
 #: sw/inc/AccessibilityCheckStrings.hrc:33
 msgctxt "STR_AVOID_EMPTY_NUM_PARA"
 msgid "Avoid new empty lines between numbered paragraphs."
-msgstr ""
+msgstr "Evitu novajn vakajn liniojn inter numeritaj alineoj."
 
 #. xDMGH
 #: sw/inc/AccessibilityCheckStrings.hrc:34
@@ -31342,13 +31342,13 @@ msgstr "Anstataŭigas identajn indekserojn per unuopa ero kiu listigas la paĝnu
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:870
 msgctxt "tocindexpage|useff"
 msgid "Combine identical entries with f. or _ff."
-msgstr "Kunigi identajn erojn kun f. aŭ _ff."
+msgstr "Kunigi identajn erojn kun kc."
 
 #. 4SLZc
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:879
 msgctxt "tocindexpage|extended_tip|useff"
 msgid "Replaces identical index entries that occur on the directly following page(s), with a single entry that lists the first page number and a “f” or “ff”. For example, the entries “View 10, View 11” are combined as “View 10f”, and “View 10, View 11, View 12” as “View 10ff”. Actual appearance depends on the locale setting, but can be overridden with Sort - Language."
-msgstr "Anstataŭigas identajn indekserojn kiuj troviĝas en la rekte sekvantaj paĝo(j), per unuopa ero kiu listigas la unuan paĝnumeron kaj \"f\" aŭ \"ff\". Ekzemple, la eroj \"Vido 10, Vido 11\" kombiniĝos kiel \"Vido 10f\", kaj \"Vido 10, Vido 11, Vido 12\" kiel \"Vido 10ff\". Reala aspekto dependas de la lokaĵara agordo, sed estas transpasebla per Ordigi - Lingvo."
+msgstr "Anstataŭigas identajn indekserojn kiuj troviĝas en la rekte sekvantaj paĝo(j), per unuopa ero kiu listigas la unuan paĝnumeron kaj \"kc\". Ekzemple, la eroj \"Vido 10, Vido 11\" kombiniĝos kiel \"Vido 10kc\", kaj \"Vido 10, Vido 11, Vido 12\" kiel \"Vido 10kc\". Reala aspekto dependas de la lokaĵara agordo, sed estas transpasebla per Ordigi - Lingvo."
 
 #. Uivc8
 #: sw/uiconfig/swriter/ui/tocindexpage.ui:890
@@ -31558,7 +31558,7 @@ msgstr "Elektu la indeksan nivelon agordotan."
 #: sw/uiconfig/swriter/ui/tocstylespage.ui:158
 msgctxt "tocstylespage|extended_tip|styles"
 msgid "Select the paragraph style that you want to assign to the selected index level, then click the Assign (<) button."
-msgstr "Elektu la alinean stilon aplikotan al la elektita indeksa nivelo, kaj alklaku la butonon Agordi (<) ."
+msgstr "Elektu la alinean stilon aplikotan al la elektita indeksa nivelo, kaj alklaku la butonon Agordi (<)."
 
 #. LGrjt
 #: sw/uiconfig/swriter/ui/tocstylespage.ui:171
@@ -31570,7 +31570,7 @@ msgstr "Apriora"
 #: sw/uiconfig/swriter/ui/tocstylespage.ui:180
 msgctxt "tocstylespage|extended_tip|default"
 msgid "Resets the formatting of the selected level to the \"Default\" paragraph style."
-msgstr "Reagordas la formaton de la elektita nivelo al la \"Apriora\" alinea stilo."
+msgstr "Reagordas la formaton de la elektita nivelo al la alinea stilo \"Apriora\"."
 
 #. Dz6ag
 #: sw/uiconfig/swriter/ui/tocstylespage.ui:191
@@ -31624,7 +31624,7 @@ msgstr "Helplinioj dum movado"
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:56
 msgctxt "extended_tip|helplines"
 msgid "Displays snap lines around the frames when frames are moved. You can select the Helplines While Moving option to show the exact position of the object using lineal values."
-msgstr "Vidigas kaptoliniojn ĉirkaŭ la kadroj kiam kadroj moviĝas. Vi povas eleki la eblon Helplinioj dum movado, por vidigi la ekzaktan pozicion de la objekto per liniaj valoroj."
+msgstr "Vidigas kaptoliniojn ĉirkaŭ la kadroj kiam kadroj moviĝas. Vi povas elekti la eblon Helplinioj dum movado, por vidigi la ekzaktan pozicion de la objekto per liniaj valoroj."
 
 #. m8nZM
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:84
@@ -31738,7 +31738,7 @@ msgstr "Vidigas tekston kaŝitan de kampo Kondiĉa teksto aŭ Kaŝita teksto."
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:410
 msgctxt "viewoptionspage|changestooltip"
 msgid "_Tooltips on tracked changes"
-msgstr "Butonaj informoj por konservitaj ŝanĝoj"
+msgstr "Butonaj informoj por spuritaj ŝanĝoj"
 
 #. 69ous
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:454
@@ -31864,13 +31864,13 @@ msgstr "Agordaro"
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:893
 msgctxt "zoomdialog|zoomlatest"
 msgid "Use last document setting"
-msgstr ""
+msgstr "Uzi la lastan dokumentan agordon"
 
 #. av3UR
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:902
 msgctxt "zoomdialog|extended_tip|zoomlatest"
 msgid "Uses the zoom setting that was stored in the document, or for new documents, the last one manually applied."
-msgstr ""
+msgstr "Uzas la zoman agordon konservitan en la dokumento, aŭ por nova dokumento, la lastan mane aplikitan."
 
 #. fBTfo
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:914
@@ -31882,7 +31882,7 @@ msgstr "Uzi preferatajn valorojn"
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:924
 msgctxt "zoomdialog|extended_tip|zoompreferred"
 msgid "Applies preferred zoom settings, overriding any values stored in documents."
-msgstr ""
+msgstr "Aplikas la preferatajn zomajn agordojn, transpasante eventualajn valorojn konservitajn en dokumentoj."
 
 #. j5BEN
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:936
@@ -31942,13 +31942,13 @@ msgstr "Propra: "
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:1036
 msgctxt "zoomdialog|extended_tip|zoomcustom"
 msgid "Enter the zoom factor at which you want to display the document. Enter a percentage in the box."
-msgstr "Enigu la zomfaktoron je kiu vi volas vidigi la dokumenton. Enigu elcenton en la kampon."
+msgstr "Enigu la zoman faktoron je kiu vi volas vidigi la dokumenton. Enigu elcenton en la kampon."
 
 #. waDDF
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:1056
 msgctxt "extended_tip|zoomvalue"
 msgid "Enter the zoom factor at which you want to display the document. Enter a percentage in the box."
-msgstr "Enigu la zomfaktoron je kiu vi volas vidigi la dokumenton. Enigu elcenton en la kampon."
+msgstr "Enigu la zoman faktoron je kiu vi volas vidigi la dokumenton. Enigu elcenton en la kampon."
 
 #. Pg9bD
 #: sw/uiconfig/swriter/ui/viewoptionspage.ui:1089
@@ -32069,7 +32069,7 @@ msgstr "Elektu la turnangulon por la filigrano. La teksto turniĝos laŭ tiu ang
 #: sw/uiconfig/swriter/ui/watermarkdialog.ui:205
 msgctxt "watermarkdialog|extended_tip|Transparency"
 msgid "Select the transparency level for the watermark. A 0% value produces an opaque watermark and a value of 100% is totally transparent (invisible)."
-msgstr "Elektu la travideblecon por la filigrano. La valoro 0% donas maldiafanan filigranon kaj la valoro 100% donas tute travideblan."
+msgstr "Elektu la travideblecon por la filigrano. La valoro 0% donas maldiafanan filigranon kaj la valoro 100% donas tute travideblan (nevideblan)."
 
 #. tFkYv
 #: sw/uiconfig/swriter/ui/watermarkdialog.ui:227
@@ -32133,7 +32133,7 @@ msgstr "Signoj ekskludante spacetojn"
 #: sw/uiconfig/swriter/ui/wordcount-mobile.ui:277
 msgctxt "wordcount-mobile|cjkcharsft"
 msgid "Asian characters and Korean words"
-msgstr "Aziaj signoj kaj koreaj silaboj"
+msgstr "Aziaj signoj kaj koreaj vortoj"
 
 #. mfBEG
 #: sw/uiconfig/swriter/ui/wordcount-mobile.ui:229
@@ -32158,13 +32158,13 @@ msgstr "Vortoj"
 #: sw/uiconfig/swriter/ui/wordcount.ui:88
 msgctxt "wordcount|label2"
 msgid "Characters including spaces"
-msgstr "Signoj inkludante spacetojn:"
+msgstr "Signoj inkludante spacetojn"
 
 #. cnynW
 #: sw/uiconfig/swriter/ui/wordcount.ui:100
 msgctxt "wordcount|label3"
 msgid "Characters excluding spaces"
-msgstr "Signoj eksludante spacetojn:"
+msgstr "Signoj eskludante spacetojn"
 
 #. 2Dc8B
 #: sw/uiconfig/swriter/ui/wordcount.ui:158
@@ -32182,7 +32182,7 @@ msgstr "Dokumento"
 #: sw/uiconfig/swriter/ui/wordcount.ui:232
 msgctxt "wordcount|cjkcharsft"
 msgid "Asian characters and Korean words"
-msgstr "Aziaj signoj kaj koreaj silaboj"
+msgstr "Aziaj signoj kaj koreaj vortoj"
 
 #. dZmso
 #: sw/uiconfig/swriter/ui/wordcount.ui:274
@@ -32386,7 +32386,7 @@ msgstr "Nur ekstere"
 #: sw/uiconfig/swriter/ui/wrappage.ui:692
 msgctxt "wrappage|extended_tip|outside"
 msgid "Wraps text only around the contour of the object, but not in open areas within the object shape."
-msgstr "Fluigas tekston nur ĉirkaŭ la konturo de la objekto, sed ne en malplenaj areoj en la objekta formo."
+msgstr "Fluigas tekston nur ĉirkaŭ la konturo de la objekto, sed ne en vakaj areoj en la objekta formo."
 
 #. Ts8tC
 #: sw/uiconfig/swriter/ui/wrappage.ui:703
