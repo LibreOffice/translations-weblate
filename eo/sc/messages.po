@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-04-09 13:50+0200\n"
-"PO-Revision-Date: 2025-04-20 20:50+0000\n"
+"PO-Revision-Date: 2025-04-23 15:53+0000\n"
 "Last-Translator: Donald Rogers <donr2648@fastmail.fm>\n"
 "Language-Team: Esperanto <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/eo/>\n"
 "Language: eo\n"
@@ -14430,12 +14430,17 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0 - Ekzakta kongruo. Liveros je #N/A se mankas kongruo. (defaŭlta).\n"
+"-1 - Ekzakta kongruo aŭ la sekva pli malgranda ero.\n"
+"1 - Ekzakta kongruo aŭ la sekva pli granda ero.\n"
+"2 - Ĵokera kongruo.\n"
+"3 - Regulesprima kongruo."
 
 #. EvSiP
 #: sc/inc/scfuncs.hrc:3394
 msgctxt "SC_OPCODE_X_LOOKUP"
 msgid "Search Mode"
-msgstr ""
+msgstr "Serĉa reĝimo"
 
 #. aUEgE
 #: sc/inc/scfuncs.hrc:3395
@@ -14446,6 +14451,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1 - Serĉi ek de la unua valoro (defaŭlta).\n"
+"-1 - Serĉi ek de la lasta valoro (reverse).\n"
+"2 - Duumaj serĉvaloroj ordigitaj en kreskanta ordo.\n"
+"-2 - Duumaj serĉvaloroj ordigitaj en malkreskanta ordo."
 
 #. KZapz
 #: sc/inc/scfuncs.hrc:3401
@@ -14619,40 +14628,41 @@ msgstr "Tipo povas esti 1 (unu kolumna tabelo kreska), 0 (ekzakta kongruo aŭ ĵ
 #: sc/inc/scfuncs.hrc:3449
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Defines a relative position in an array or range of cells after comparing values."
-msgstr ""
+msgstr "Agordas la relativan pozicion en tabelo aŭ ĉelaro post komparo la valorojn."
 
 #. m33Cc
 #: sc/inc/scfuncs.hrc:3450
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search criterion"
-msgstr ""
+msgstr "Serĉa kriterio"
 
 #. GLmYe
 #: sc/inc/scfuncs.hrc:3451
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "The value to be used for comparison."
-msgstr ""
+msgstr "La valoro uzenda por komparado."
 
 #. kthZF
 #: sc/inc/scfuncs.hrc:3452
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search Array"
-msgstr ""
+msgstr "Serĉata tabelo"
 
 #. xnBcz
 #: sc/inc/scfuncs.hrc:3453
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "The array or range to search."
-msgstr ""
+msgstr "La tabelo aŭ amplekso serĉota."
 
 #. c3dEi
 #: sc/inc/scfuncs.hrc:3454
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Match Mode"
-msgstr ""
+msgstr "Kongruigi reĝimon"
 
 #. DZ2bC
 #: sc/inc/scfuncs.hrc:3455
+#, fuzzy
 msgctxt "SC_OPCODE_X_MATCH"
 msgid ""
 "0 - Exact match. Will return #N/A if no match. (default).\n"
@@ -14661,15 +14671,21 @@ msgid ""
 "2 - Wildcard match.\n"
 "3 - Regular expression match."
 msgstr ""
+"0 - Ekzakta kongruo. Liveros je #N/A se mankas kongruo. (defaŭlta).\n"
+"-1 - Ekzakta kongruo aŭ la sekva pli malgranda ero.\n"
+"1 - Ekzakta kongruo aŭ la sekva pli granda ero.\n"
+"2 - Ĵokera kongruo.\n"
+"3 - Regulesprima kongruo."
 
 #. UtoXD
 #: sc/inc/scfuncs.hrc:3456
 msgctxt "SC_OPCODE_X_MATCH"
 msgid "Search Mode"
-msgstr ""
+msgstr "Serĉa reĝimo"
 
 #. J9uEM
 #: sc/inc/scfuncs.hrc:3457
+#, fuzzy
 msgctxt "SC_OPCODE_X_MATCH"
 msgid ""
 "1 - Search from the first value (default).\n"
@@ -14677,6 +14693,10 @@ msgid ""
 "2 - Binary search values sorted in ascending order.\n"
 "-2 - Binary search values sorted in descending order."
 msgstr ""
+"1 - Serĉi ek de la unua valoro (defaŭlta).\n"
+"-1 - Serĉi ek de la lasta valoro (reverse).\n"
+"2 - Duumaj serĉvaloroj ordigitaj en kreskanta ordo.\n"
+"-2 - Duumaj serĉvaloroj ordigitaj en malkreskanta ordo."
 
 #. XJ4FS
 #: sc/inc/scfuncs.hrc:3463
@@ -16957,79 +16977,79 @@ msgstr "La plej granda entjero liverebla."
 #: sc/inc/scfuncs.hrc:4189
 msgctxt "SC_OPCODE_FILTER"
 msgid "Filters an array based on a Boolean (True/False) array."
-msgstr ""
+msgstr "Filtras tabelon surbaze de bulea (vera/falsa) tabelo."
 
 #. fSQDy
 #: sc/inc/scfuncs.hrc:4190
 msgctxt "SC_OPCODE_FILTER"
 msgid "Range"
-msgstr ""
+msgstr "Amplekso"
 
 #. A5mF9
 #: sc/inc/scfuncs.hrc:4191
 msgctxt "SC_OPCODE_FILTER"
 msgid "The array, or range to filter."
-msgstr ""
+msgstr "La tabelo aŭ amplekso filtrota."
 
 #. qa6rC
 #: sc/inc/scfuncs.hrc:4192
 msgctxt "SC_OPCODE_FILTER"
 msgid "Include"
-msgstr ""
+msgstr "Inkluzivi"
 
 #. 4sCAD
 #: sc/inc/scfuncs.hrc:4193
 msgctxt "SC_OPCODE_FILTER"
 msgid "A Boolean array whose height or width is the same as the array."
-msgstr ""
+msgstr "La bulea tabelo kies alto aŭ larĝo samas kiel la tabelo."
 
 #. Dxcxc
 #: sc/inc/scfuncs.hrc:4194
 msgctxt "SC_OPCODE_FILTER"
 msgid "Result if empty"
-msgstr ""
+msgstr "Rezulto se vaka"
 
 #. vJAM9
 #: sc/inc/scfuncs.hrc:4195
 msgctxt "SC_OPCODE_FILTER"
 msgid "The value to return if all values in the included array are empty (filter returns nothing)."
-msgstr ""
+msgstr "La valoro liverota se ĉiuj valoroj en la inkludita tabelo estas vakaj (filtrilo liveras nenion)."
 
 #. gSZGa
 #: sc/inc/scfuncs.hrc:4201
 msgctxt "SC_OPCODE_SORT"
 msgid "Sorts the contents of a range or array."
-msgstr ""
+msgstr "Ordigas la enhavon de amplekso aŭ tabelo."
 
 #. 5dG8m
 #: sc/inc/scfuncs.hrc:4202
 msgctxt "SC_OPCODE_SORT"
 msgid "Range"
-msgstr ""
+msgstr "Amplekso"
 
 #. mUPZF
 #: sc/inc/scfuncs.hrc:4203
 msgctxt "SC_OPCODE_SORT"
 msgid "The range, or array to sort."
-msgstr ""
+msgstr "La amplekso aŭ tabelo ordigota."
 
 #. 3vzBe
 #: sc/inc/scfuncs.hrc:4204
 msgctxt "SC_OPCODE_SORT"
 msgid "Sort index"
-msgstr ""
+msgstr "Ordiga indekso"
 
 #. SWhii
 #: sc/inc/scfuncs.hrc:4205
 msgctxt "SC_OPCODE_SORT"
 msgid "A number indicating the row or column to sort by."
-msgstr ""
+msgstr "Numero indikanta la vicon aŭ kolumnon laŭ kiu ordigi."
 
 #. uFhZs
 #: sc/inc/scfuncs.hrc:4206
 msgctxt "SC_OPCODE_SORT"
 msgid "Sort order"
-msgstr ""
+msgstr "Ordiga vicigo"
 
 #. ySFRx
 #: sc/inc/scfuncs.hrc:4207
@@ -17293,67 +17313,67 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:4280
 msgctxt "SC_OPCODE_DROP"
 msgid "Rows"
-msgstr ""
+msgstr "Vicoj"
 
 #. yyjnc
 #: sc/inc/scfuncs.hrc:4281
 msgctxt "SC_OPCODE_DROP"
 msgid "The number of rows to drop. A negative value drops from the end of the array."
-msgstr ""
+msgstr "La nombro da vicoj forigotaj. Negativa valoro forigas de la fino de la tabelo."
 
 #. 6sAoA
 #: sc/inc/scfuncs.hrc:4282
 msgctxt "SC_OPCODE_DROP"
 msgid "Columns"
-msgstr ""
+msgstr "Kolumnoj"
 
 #. cAxPB
 #: sc/inc/scfuncs.hrc:4283
 msgctxt "SC_OPCODE_DROP"
 msgid "The number of columns to drop. A negative value drops from the end of the array."
-msgstr ""
+msgstr "La nombro da kolumnoj forigotaj. Negativa valoro forigas de la fino de la tabelo."
 
 #. cXvVY
 #: sc/inc/scfuncs.hrc:4289
 msgctxt "SC_OPCODE_EXPAND"
 msgid "Expands or pads an array to specified row and column dimensions."
-msgstr ""
+msgstr "Etendas aŭ ŝtopas tabelon ĝis agorditaj vicaj kaj kolumnaj dimensioj."
 
 #. kuERH
 #: sc/inc/scfuncs.hrc:4290
 msgctxt "SC_OPCODE_EXPAND"
 msgid "Array"
-msgstr ""
+msgstr "Tabelo"
 
 #. E9YDC
 #: sc/inc/scfuncs.hrc:4291
 msgctxt "SC_OPCODE_EXPAND"
 msgid "The array to expand."
-msgstr ""
+msgstr "La tabelo etendota."
 
 #. EaNgG
 #: sc/inc/scfuncs.hrc:4292
 msgctxt "SC_OPCODE_EXPAND"
 msgid "Rows"
-msgstr ""
+msgstr "Vicoj"
 
 #. QzQiB
 #: sc/inc/scfuncs.hrc:4293
 msgctxt "SC_OPCODE_EXPAND"
 msgid "The number of rows in the expanded array. If missing, rows will not be expanded."
-msgstr ""
+msgstr "La nombro da vicoj en la etendota tabelo. Se mankanta, vicoj ne etendiĝos."
 
 #. qjcxB
 #: sc/inc/scfuncs.hrc:4294
 msgctxt "SC_OPCODE_EXPAND"
 msgid "Columns"
-msgstr ""
+msgstr "Kolumnoj"
 
 #. EVAXE
 #: sc/inc/scfuncs.hrc:4295
 msgctxt "SC_OPCODE_EXPAND"
 msgid "The number of columns in the expanded array. If missing, columns will not be expanded."
-msgstr ""
+msgstr "La nombro da kolumnoj en la etendota tabelo. Se mankanta, vicoj ne etendiĝos."
 
 #. QPyBK
 #: sc/inc/scfuncs.hrc:4296
@@ -17413,55 +17433,55 @@ msgstr "La unua tabelo postgluota."
 #: sc/inc/scfuncs.hrc:4317
 msgctxt "SC_OPCODE_VSTACK"
 msgid "Array 1, Array 2,... The following arrays to append. If an array has fewer columns, #N/A error will be returned in the additional columns."
-msgstr ""
+msgstr "Tabelo 1, tabelo 2,...  La jenaj tabeloj postgluotaj. Se tabelo havas malpliajn kolumnojn, liveros je #N/A-eraron en la ekstraj kolumnoj."
 
 #. JnsYT
 #: sc/inc/scfuncs.hrc:4323
 msgctxt "SC_OPCODE_TAKE"
 msgid "Returns a specified number of contiguous rows or columns from the start or end of an array."
-msgstr ""
+msgstr "Liveras agorditan nombron da koneksaj vicoj aŭ kolumnoj ek de la komenco aŭ fino de tabelo."
 
 #. dFLFb
 #: sc/inc/scfuncs.hrc:4324
 msgctxt "SC_OPCODE_TAKE"
 msgid "Array"
-msgstr ""
+msgstr "Tabelo"
 
 #. ycFef
 #: sc/inc/scfuncs.hrc:4325
 msgctxt "SC_OPCODE_TAKE"
 msgid "The array from which to take rows or columns."
-msgstr ""
+msgstr "La tabelo el kiu preni vicojn aŭ kolumnojn."
 
 #. DzBCL
 #: sc/inc/scfuncs.hrc:4326
 msgctxt "SC_OPCODE_TAKE"
 msgid "Rows"
-msgstr ""
+msgstr "Vicoj"
 
 #. KBPBn
 #: sc/inc/scfuncs.hrc:4327
 msgctxt "SC_OPCODE_TAKE"
 msgid "The number of rows to take. A negative value takes from the end of the array."
-msgstr ""
+msgstr "La nombro da vicoj prenotaj. Negativa valoro prenas de la fino de la tabelo."
 
 #. HJQKW
 #: sc/inc/scfuncs.hrc:4328
 msgctxt "SC_OPCODE_TAKE"
 msgid "Columns"
-msgstr ""
+msgstr "Kolumnoj"
 
 #. ZexcG
 #: sc/inc/scfuncs.hrc:4329
 msgctxt "SC_OPCODE_TAKE"
 msgid "The number of columns to take. A negative value takes from the end of the array."
-msgstr ""
+msgstr "La nombro da kolumnoj prenotaj. Negativa valoro prenas de la fino de la tabelo."
 
 #. DdFFE
 #: sc/inc/scfuncs.hrc:4335
 msgctxt "SC_OPCODE_TOCOL"
 msgid "Transforms an array into a single column."
-msgstr ""
+msgstr "Transformas tabelon en unu kolumnon."
 
 #. UAzNC
 #: sc/inc/scfuncs.hrc:4336
