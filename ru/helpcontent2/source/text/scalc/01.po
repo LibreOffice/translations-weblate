@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 01\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2025-04-17 12:32+0200\n"
+"POT-Creation-Date: 2025-05-05 11:59+0200\n"
 "PO-Revision-Date: 2025-05-02 07:19+0000\n"
 "Last-Translator: Helen <helenrussian@gmail.com>\n"
 "Language-Team: Russian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565287923.000000\n"
 
 #. yzNBP
@@ -70551,14 +70551,14 @@ msgctxt ""
 msgid "Simple usage"
 msgstr "Простое использование"
 
-#. FsERF
+#. 4EBG3
 #: func_sumif.xhp
 msgctxt ""
 "func_sumif.xhp\n"
 "par_id171711049202378\n"
 "help.text"
-msgid "<input>=SUMIF(C2:C6,\">=100\")</input>"
-msgstr "<input>=СУММЕСЛИ(C2:C6,\">=100\")</input>"
+msgid "<input>=SUMIF(C2:C6;\">=100\")</input>"
+msgstr ""
 
 #. 6mqDE
 #: func_sumif.xhp
@@ -70569,14 +70569,14 @@ msgctxt ""
 msgid "Sums only the values from range C2:C6 that are >=100. Returns 370 because cells C2:C3 do not meet the criterion. The values from Range are summed because no SumRange is given."
 msgstr "Суммируются только значения из диапазона C2:C6, которые >=100. Возвращает 370, потому что ячейки C2:C3 не удовлетворяют условию. Значения из Диапазона суммируются, потому что не задан Диапазон суммирования."
 
-#. AEAwA
+#. WvgFt
 #: func_sumif.xhp
 msgctxt ""
 "func_sumif.xhp\n"
 "par_id6670125\n"
 "help.text"
-msgid "<input>=SUMIF(B2:B5,\">=20\",C2:C6)</input>"
-msgstr "<input>=СУММЕСЛИ(B2:B5,\">=20\",C2:C6)</input>"
+msgid "<input>=SUMIF(B2:B5;\">=20\";C2:C6)</input>"
+msgstr ""
 
 #. nUdXV
 #: func_sumif.xhp
@@ -70596,14 +70596,14 @@ msgctxt ""
 msgid "Using regular expressions"
 msgstr "Использование регулярных выражений"
 
-#. 2XByE
+#. SGB8A
 #: func_sumif.xhp
 msgctxt ""
 "func_sumif.xhp\n"
 "par_id911710859836541\n"
 "help.text"
-msgid "<input>=SUMIF(A2:A6,\"pen\",C2:C5)</input>"
-msgstr "<input>=СУММЕСЛИ(A2:A6,\"pen\",C2:C5)</input>"
+msgid "<input>=SUMIF(A2:A6;\"pen\";C2:C5)</input>"
+msgstr ""
 
 #. 3ggQs
 #: func_sumif.xhp
@@ -70614,14 +70614,14 @@ msgctxt ""
 msgid "Sums values from the range C2:C6 only if the corresponding range in A2:A6 exactly match the letters \"pen\". Returns 85 because rows A2 and A4:A6 do not meet the criterion."
 msgstr "Суммирует значения из диапазона C2:C6, только если соответствующий диапазон A2:A6 точно совпадает с буквами «pen». Возвращает 85, потому что строки A2 и A4:A6 не удовлетворяют условию."
 
-#. L9Ftz
+#. gsdAm
 #: func_sumif.xhp
 msgctxt ""
 "func_sumif.xhp\n"
 "par_id781710871590769\n"
 "help.text"
-msgid "<input>=SUMIF(A2:A6,\"pen*\",C2:C6)</input>"
-msgstr "<input>=СУММЕСЛИ(A2:A6,\"pen*\",C2:C6)</input>"
+msgid "<input>=SUMIF(A2:A6;\"pen*\";C2:C6)</input>"
+msgstr ""
 
 #. netyd
 #: func_sumif.xhp
@@ -70632,14 +70632,14 @@ msgctxt ""
 msgid "Sums the values from the range C2:C6 only if the corresponding cell in range A2:A6 contains the letters \"pen\". Returns the value 150 because rows A4:A5 do not meet the criterion."
 msgstr "Суммирует значения из диапазона C2:C6, только если соответствующие ячейки в диапазоне A2:A6 содержат буквы «pen». Возвращает значение 150, потому что строки A4:A5 не удовлетворяют условию."
 
-#. PdFbx
+#. 2xR6Z
 #: func_sumif.xhp
 msgctxt ""
 "func_sumif.xhp\n"
 "par_id311711128230771\n"
 "help.text"
-msgid "<input>=SUMIF(ProductName,\"pen*\",Revenue)</input>"
-msgstr "<input>=СУММЕСЛИ(НаименованиеПродукта,\"pen*\",Выручка)</input>"
+msgid "<input>=SUMIF(ProductName;\"pen*\";Revenue)</input>"
+msgstr ""
 
 #. ZeyUD
 #: func_sumif.xhp
@@ -70668,14 +70668,14 @@ msgctxt ""
 msgid "If you need to change a criterion easily, you may specify it in a separate cell and use a reference to this cell in the condition of the SUMIF function. For example:"
 msgstr "Для более удобного изменения условия функции можно указать его в отдельной ячейке и использовать ссылку на него в качестве условия функции СУММЕСЛИ. Например:"
 
-#. pAzfZ
+#. RjepH
 #: func_sumif.xhp
 msgctxt ""
 "func_sumif.xhp\n"
 "par_id331711030450765\n"
 "help.text"
-msgid "<input>=SUMIF(A2:A6,E2,C2:C6)</input>"
-msgstr "<input>=СУММЕСЛИ(A2:A6,E2,C2:C6)</input>"
+msgid "<input>=SUMIF(A2:A6;E2;C2:C6)</input>"
+msgstr ""
 
 #. sFiDn
 #: func_sumif.xhp
@@ -80972,6 +80972,48 @@ msgctxt ""
 "help.text"
 msgid "<menuitem>Optimal View</menuitem>: resizes the display to fit the width and height of the selected cells. The enlargement or reduction are limited to the minimum and maximum zoom factors. If only one cell is selected then it will zoom to 100%."
 msgstr "<menuitem>Оптимальный вид</menuitem>: меняет размер экрана в соответствии с шириной и высотой выбранных ячеек. Увеличение или уменьшение ограничены минимальным и максимальным масштабом. Если выбрана только одна ячейка, то задаётся масштаб 100%."
+
+#~ msgctxt ""
+#~ "func_sumif.xhp\n"
+#~ "par_id171711049202378\n"
+#~ "help.text"
+#~ msgid "<input>=SUMIF(C2:C6,\">=100\")</input>"
+#~ msgstr "<input>=СУММЕСЛИ(C2:C6,\">=100\")</input>"
+
+#~ msgctxt ""
+#~ "func_sumif.xhp\n"
+#~ "par_id6670125\n"
+#~ "help.text"
+#~ msgid "<input>=SUMIF(B2:B5,\">=20\",C2:C6)</input>"
+#~ msgstr "<input>=СУММЕСЛИ(B2:B5,\">=20\",C2:C6)</input>"
+
+#~ msgctxt ""
+#~ "func_sumif.xhp\n"
+#~ "par_id911710859836541\n"
+#~ "help.text"
+#~ msgid "<input>=SUMIF(A2:A6,\"pen\",C2:C5)</input>"
+#~ msgstr "<input>=СУММЕСЛИ(A2:A6,\"pen\",C2:C5)</input>"
+
+#~ msgctxt ""
+#~ "func_sumif.xhp\n"
+#~ "par_id781710871590769\n"
+#~ "help.text"
+#~ msgid "<input>=SUMIF(A2:A6,\"pen*\",C2:C6)</input>"
+#~ msgstr "<input>=СУММЕСЛИ(A2:A6,\"pen*\",C2:C6)</input>"
+
+#~ msgctxt ""
+#~ "func_sumif.xhp\n"
+#~ "par_id311711128230771\n"
+#~ "help.text"
+#~ msgid "<input>=SUMIF(ProductName,\"pen*\",Revenue)</input>"
+#~ msgstr "<input>=СУММЕСЛИ(НаименованиеПродукта,\"pen*\",Выручка)</input>"
+
+#~ msgctxt ""
+#~ "func_sumif.xhp\n"
+#~ "par_id331711030450765\n"
+#~ "help.text"
+#~ msgid "<input>=SUMIF(A2:A6,E2,C2:C6)</input>"
+#~ msgstr "<input>=СУММЕСЛИ(A2:A6,E2,C2:C6)</input>"
 
 #~ msgctxt ""
 #~ "12090102.xhp\n"
