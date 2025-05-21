@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 15:27+0100\n"
-"PO-Revision-Date: 2025-05-20 16:55+0000\n"
+"PO-Revision-Date: 2025-05-21 17:55+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-25-2/textscalc01/bg/>\n"
 "Language: bg\n"
@@ -20652,7 +20652,7 @@ msgctxt ""
 "par_id71641991391639\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-17\",0)</input> returns 0 because <emph>Type</emph> was set to 0 and there are only 5 days in the interval."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\";\"2022-01-17\";0)</input> връща 0, защото за <emph>Тип</emph> е зададена стойност 0 и в интервала има само 5 дни."
 
 #. pEEeF
 #: 04060111.xhp
@@ -20661,7 +20661,7 @@ msgctxt ""
 "par_id71641991390039\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-19\",0)</input> returns 1 because <emph>Type</emph> was set to 0 and there are 7 days in the interval."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\";\"2022-01-19\";0)</input> връща 1, защото за <emph>Тип</emph> е зададена стойност 0 и в интервала има 7 дни."
 
 #. 9DhQj
 #: 04060111.xhp
@@ -20670,7 +20670,7 @@ msgctxt ""
 "par_id71641991391123\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-17\",1)</input> returns 1 because <emph>Type</emph> was set to 1 and the interval contains a Monday, since 2022-01-12 is a Wednesday and 2022-01-17 is a Monday."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\";\"2022-01-17\";1)</input> връща 1, защото на <emph>Тип</emph> е зададена стойност 1 и интервалът съдържа понеделник, тъй като 2022-01-12 е сряда, а 2022-01-17 е понеделник."
 
 #. E89BB
 #: 04060111.xhp
@@ -20679,7 +20679,7 @@ msgctxt ""
 "par_id71641991332523\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-15\",1)</input> returns 0 because <emph>Type</emph> was set to 1 and the interval does not contain any Mondays, except for the start date."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\";\"2022-01-15\";1)</input> връща 0, защото на <emph>Тип</emph> е зададена стойност 1 и интервалът не съдържа понеделници освен началната дата."
 
 #. fQyTx
 #: 04060111.xhp
@@ -20742,7 +20742,7 @@ msgctxt ""
 "par_id971641990480244\n"
 "help.text"
 msgid "Following ISO 8601, this function considers Monday to be the first day of the week, and the first week of a year is the one with most days in this year."
-msgstr ""
+msgstr "Съгласно ISO 8601 тази функция смята понеделник за първи ден на седмицата, а първата седмица от годината е тази, на която повечето дни са в тази година."
 
 #. bPF33
 #: 04060111.xhp
@@ -25764,7 +25764,7 @@ msgctxt ""
 "par_id3156338\n"
 "help.text"
 msgid "<input>=COUPDAYS(\"2001-01-25\"; \"2001-11-15\"; 2; 3)</input>  returns 182.5."
-msgstr ""
+msgstr "<input>=COUPDAYS(\"2001-01-25\"; \"2001-11-15\"; 2; 3)</input> връща 182,5."
 
 #. 9rAEC
 #: 04060118.xhp
@@ -27753,7 +27753,7 @@ msgctxt ""
 "par_id3154800\n"
 "help.text"
 msgid "What is the net present value of periodic payments of 10, 20, 30 and -5 currency units with a discount rate of 8.75%. At time zero the costs were paid as -40 currency units."
-msgstr ""
+msgstr "Да се намери нетната настояща стойност на периодични плащания от 10, 20, 30 и -5 парични единици при дисконтова ставка 8,75%. Началната цена, платена в нулевия момент, е -40 парични единици."
 
 #. rfJkA
 #: 04060119.xhp
@@ -27762,7 +27762,7 @@ msgctxt ""
 "par_id3143270\n"
 "help.text"
 msgid "<item type=\"input\">=NPV(8.75%;10;20;30;-5)</item> = 45.86 currency units. The net present value is the returned value minus the initial costs of 40 currency units, therefore 5.86 currency units."
-msgstr ""
+msgstr "<item type=\"input\">=NPV(8,75%; 10; 20; 30;-5)</item> = 45,86 парични единици. Нетната настояща стойност е резултатът минус началната цена от 40 парични единици, тоест 5,86 парични единици."
 
 #. fyPVS
 #: 04060119.xhp
@@ -39561,7 +39561,7 @@ msgctxt ""
 "par_id3145801\n"
 "help.text"
 msgid "<ahelp hid=\".\">Allows you to name the different sections of your spreadsheet document.</ahelp> By naming the different sections, you can easily <link href=\"text/shared/01/navigator.xhp\">navigate</link> through the spreadsheet documents and find specific information."
-msgstr ""
+msgstr "<ahelp hid=\".\">Позволява ви да наименувате различните области от електронна таблица.</ahelp> Задаването на имена на областите улеснява <link href=\"text/shared/01/navigator.xhp\">навигацията</link> в електронните таблици и търсенето на конкретна информация."
 
 #. WoeVL
 #: 04070100.xhp
@@ -41838,7 +41838,7 @@ msgctxt ""
 "par_id411701538725496\n"
 "help.text"
 msgid "The cell style corresponding to the first condition that evaluates to <emph>true</emph> is applied. Cell styles applied through Conditional Formatting override cell styles applied manually using the <link href=\"text/scalc/main0202.xhp\"><emph>Formatting Bar</emph></link> or the <link href=\"text/shared/01/styles.xhp\"><emph>Styles</emph> sidebar</link>."
-msgstr ""
+msgstr "Прилага се стил на клетка, съответстващ на първото условие с резултат <emph>истина</emph>. Стиловете на клетки, приложени чрез условно форматиране, заместват тези, които са зададени ръчно чрез <link href=\"text/scalc/main0202.xhp\"><emph>лентата „Форматиране“</emph></link> или <link href=\"text/shared/01/styles.xhp\">страничната лента <emph>Стилове</emph></link>."
 
 #. 2GWTv
 #: 05120000.xhp
@@ -44169,7 +44169,7 @@ msgctxt ""
 "par_id3155411\n"
 "help.text"
 msgid "<ahelp hid=\".\">Specifies additional information about the scenario. This information will be displayed in the <link href=\"ttext/shared/01/navigator.xhp\">Navigator</link> when you click the <emph>Scenarios</emph> icon and select the desired scenario.</ahelp> You can also modify this information in the Navigator through the <emph>Properties </emph>context menu command."
-msgstr ""
+msgstr "<ahelp hid=\".\">Указва допълнителна информация за сценария. Тази информация ще се показва в <link href=\"ttext/shared/01/navigator.xhp\">Навигатора</link>, когато щракнете върху иконата <emph>Сценарии</emph> и изберете желания сценарий.</ahelp> Тя също така може да бъде променяна в „Навигатора“ с помощта на командата <emph>Свойства</emph> от контекстното меню."
 
 #. SqrLg
 #: 06050000.xhp
@@ -44799,7 +44799,7 @@ msgctxt ""
 "hd_id3157909\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/12010000.xhp\">Define Range</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/12010000.xhp\">Дефиниране на диапазон</link></variable>"
 
 #. 8zFH5
 #: 12010000.xhp
@@ -44880,7 +44880,7 @@ msgctxt ""
 "hd_id3154760\n"
 "help.text"
 msgid "<variable id=\"options_hd\">Options</variable>"
-msgstr ""
+msgstr "<variable id=\"options_hd\">Настройки</variable>"
 
 #. aNYRd
 #: 12010000.xhp
@@ -44889,7 +44889,7 @@ msgctxt ""
 "hd_id3153379\n"
 "help.text"
 msgid "<variable id=\"contains_column_labels_hd\">Contains column labels</variable>"
-msgstr ""
+msgstr "<variable id=\"contains_column_labels_hd\">Съдържа заглавия на колони</variable>"
 
 #. j7r7B
 #: 12010000.xhp
@@ -44907,7 +44907,7 @@ msgctxt ""
 "hd_id411722523496992\n"
 "help.text"
 msgid "<variable id=\"contains_totals_row_hd\">Contains totals row</variable>"
-msgstr ""
+msgstr "<variable id=\"contains_totals_row_hd\">Съдържа сумарен ред</variable>"
 
 #. F9PVb
 #: 12010000.xhp
@@ -44925,7 +44925,7 @@ msgctxt ""
 "hd_id3153970\n"
 "help.text"
 msgid "<variable id=\"insert_or_delete_cells_hd\">Insert or delete cells</variable>"
-msgstr ""
+msgstr "<variable id=\"insert_or_delete_cells_hd\">Вмъкване или изтриване на клетки</variable>"
 
 #. pxS2o
 #: 12010000.xhp
@@ -44943,7 +44943,7 @@ msgctxt ""
 "hd_id3153768\n"
 "help.text"
 msgid "<variable id=\"keep_formatting_hd\">Keep formatting</variable>"
-msgstr ""
+msgstr "<variable id=\"keep_formatting_hd\">Запазване на формата</variable>"
 
 #. sCcka
 #: 12010000.xhp
@@ -44961,7 +44961,7 @@ msgctxt ""
 "hd_id3155856\n"
 "help.text"
 msgid "<variable id=\"dont_save_imported_data_hd\">Don't save imported data</variable>"
-msgstr ""
+msgstr "<variable id=\"dont_save_imported_data_hd\">Да не се записват импортирани данни</variable>"
 
 #. PC5QK
 #: 12010000.xhp
@@ -44979,7 +44979,7 @@ msgctxt ""
 "hd_id3147428\n"
 "help.text"
 msgid "<variable id=\"source_hd\">Source:</variable>"
-msgstr ""
+msgstr "<variable id=\"source_hd\">Източник:</variable>"
 
 #. 8c75S
 #: 12010000.xhp
@@ -44997,7 +44997,7 @@ msgctxt ""
 "hd_id251722457576536\n"
 "help.text"
 msgid "<variable id=\"operations_hd\">Operations:</variable>"
-msgstr ""
+msgstr "<variable id=\"operations_hd\">Операции:</variable>"
 
 #. 8oAMc
 #: 12010000.xhp
@@ -45006,7 +45006,7 @@ msgctxt ""
 "par_id461722457896244\n"
 "help.text"
 msgid "Denotes what operations (if any) have been applied to the database range. For example, “Sort”, “Filter”, or “Subtotals”."
-msgstr ""
+msgstr "Отбелязва какви операции (ако има такива) са били приложени върху диапазона за база от данни. Например „Сортиране“, „Филтър“ или „Междинни суми“."
 
 #. UpzQF
 #: 12020000.xhp
@@ -45861,7 +45861,7 @@ msgctxt ""
 "par_id171621544405886\n"
 "help.text"
 msgid "Opens the <link href=\"text/shared/02/12090100.xhp\">Standard Filter</link> dialog."
-msgstr ""
+msgstr "Отваря диалога <link href=\"text/shared/02/12090100.xhp\">Стандартен филтър</link>."
 
 #. bbVTh
 #: 12040100.xhp
@@ -49749,7 +49749,7 @@ msgctxt ""
 "par_id221603980244052\n"
 "help.text"
 msgid "Only up to 255 characters are saved when using an Excel format."
-msgstr ""
+msgstr "Когато се използва формат на Excel, се записват само до 255 знака."
 
 #. pfATZ
 #: 12120100.xhp
@@ -49803,7 +49803,7 @@ msgctxt ""
 "par_id221603980244055\n"
 "help.text"
 msgid "Only up to 255 characters are saved when using an Excel format."
-msgstr ""
+msgstr "Когато се използва формат на Excel, се записват само до 255 знака."
 
 #. apG3s
 #: 12120100.xhp
@@ -50631,7 +50631,7 @@ msgctxt ""
 "bm_id461725984310739\n"
 "help.text"
 msgid "<bookmark_value>duplicate;remove</bookmark_value>    <bookmark_value>duplicate;select</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>дубликат;премахване</bookmark_value> <bookmark_value>дубликат;избиране</bookmark_value>"
 
 #. GQD7Z
 #: HandleDuplicateRecords.xhp
@@ -50640,7 +50640,7 @@ msgctxt ""
 "hd_id1001725905576766\n"
 "help.text"
 msgid "<variable id=\"handleduplicaterecordsheading\"><link href=\"text/scalc/01/HandleDuplicateRecords.xhp\">Handle Duplicate Records</link></variable>"
-msgstr ""
+msgstr "<variable id=\"handleduplicaterecordsheading\"><link href=\"text/scalc/01/HandleDuplicateRecords.xhp\">Обработка на дублирани записи</link></variable>"
 
 #. j5VoE
 #: HandleDuplicateRecords.xhp
@@ -50649,7 +50649,7 @@ msgctxt ""
 "par_id681725905689582\n"
 "help.text"
 msgid "Selects or removes the duplicate rows or columns from the selection. The duplicate records dialog has various options."
-msgstr ""
+msgstr "Избира или премахва дублирани редове или колони от селекцията. Диалогът за дублирани записи съдържа няколко настройки."
 
 #. BHDWE
 #: HandleDuplicateRecords.xhp
@@ -50658,7 +50658,7 @@ msgctxt ""
 "par_id151725960913414\n"
 "help.text"
 msgid "<emph>Compare:</emph> specifies whether to compare rows or columns."
-msgstr ""
+msgstr "<emph>Сравняване:</emph> указва дали да се сравняват редове или колони."
 
 #. yrWBU
 #: HandleDuplicateRecords.xhp
@@ -50667,7 +50667,7 @@ msgctxt ""
 "par_id991725961010287\n"
 "help.text"
 msgid "<emph>Header:</emph> specifies if the selected data includes table headers. If checked, the table headers (the first row or column) are ignored."
-msgstr ""
+msgstr "<emph>Заглавие:</emph> указва дали избраните данни съдържат заглавка на таблица. Ако е отметнато, заглавката (първият ред или колона) се игнорира."
 
 #. 7nAND
 #: HandleDuplicateRecords.xhp
@@ -50676,7 +50676,7 @@ msgctxt ""
 "par_id61725963172527\n"
 "help.text"
 msgid "<emph>Compare by:</emph> specifies which fields to compare (and which to ignore) when determining whether two rows or columns are duplicates or not."
-msgstr ""
+msgstr "<emph>Сравняване по:</emph> указва кои полета да се сравняват (и кои да се игнорират) при определяне дали два реда или две колони са дубликати."
 
 #. Khs7p
 #: HandleDuplicateRecords.xhp
@@ -50685,7 +50685,7 @@ msgctxt ""
 "par_id741725979527610\n"
 "help.text"
 msgid "<emph>Action:</emph> specifies whether to select or remove the duplicate rows or columns."
-msgstr ""
+msgstr "<emph>Действие:</emph> указва дали дублираните редове и колони да се изберат, или да се премахнат."
 
 #. 5GGem
 #: HideNote.xhp
@@ -51531,7 +51531,7 @@ msgctxt ""
 "hd_id581698505022699\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/ToggleFormula.xhp\">Show Formulas</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/ToggleFormula.xhp\">Показване на формулите</link></variable>"
 
 #. CK3wk
 #: ToggleFormula.xhp
@@ -51765,7 +51765,7 @@ msgctxt ""
 "hd_id811593560413206\n"
 "help.text"
 msgid "<variable id=\"cellstyleh1\"><link href=\"text/scalc/01/cell_styles.xhp\">Cell Styles</link></variable>"
-msgstr ""
+msgstr "<variable id=\"cellstyleh1\"><link href=\"text/scalc/01/cell_styles.xhp\">Стилове за клетки</link></variable>"
 
 #. Kavia
 #: cell_styles.xhp
@@ -51774,7 +51774,7 @@ msgctxt ""
 "par_id491719006818603\n"
 "help.text"
 msgid "Displays a list ofavailable Cell Styles."
-msgstr ""
+msgstr "Показва списък с наличните стилове за клетки."
 
 #. AZNrM
 #: common_func.xhp
@@ -52098,7 +52098,7 @@ msgctxt ""
 "par_id731512558700034\n"
 "help.text"
 msgid "The form supports up to 32 columns."
-msgstr ""
+msgstr "Формулярът поддържа до 32 колони."
 
 #. yiAjM
 #: data_form.xhp
@@ -52251,7 +52251,7 @@ msgctxt ""
 "par_id731512558741034\n"
 "help.text"
 msgid "You can use the form scroll bar to move between records."
-msgstr ""
+msgstr "За преминаване между записите може да се използва плъзгачът на формуляра."
 
 #. tBjmH
 #: data_form.xhp
