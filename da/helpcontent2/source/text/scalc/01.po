@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-06-08 22:51+0200\n"
-"PO-Revision-Date: 2025-06-26 08:53+0000\n"
+"PO-Revision-Date: 2025-06-27 16:53+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/da/>\n"
 "Language: da\n"
@@ -71408,7 +71408,7 @@ msgctxt ""
 "par_id541556228253979\n"
 "help.text"
 msgid "TEXTAFTER( Text [; Delimiter [; Instance Number [; Match Mode [; Match End [; If Not Found ]]]]])"
-msgstr "TEKSTEFTER( Tekst [; Skilletegn [; Instansnummer [; Sammenligningstilstand [;Match afslutning [; Hvis ikke fundet ]]]]])"
+msgstr "TEKSTEFTER( Tekst [; Skilletegn [; Forekomstnummer [; Sammenligningstilstand [;Match afslutning [; Hvis ikke fundet ]]]]])"
 
 #. zZodV
 #: func_textafter.xhp
@@ -71435,7 +71435,7 @@ msgctxt ""
 "par_id821747066179393\n"
 "help.text"
 msgid "<emph>Instance Number</emph>: (optional) the instance of the delimiter after which to extract text. The default is 1. A negative number starts searching from the end."
-msgstr "<emph>Instansnummeret</emph> (valgfri): Instansnummeret af skilletegnet, hvorefter der skal udtrækkes tekst. Standardværdien er 1. Et negativt tal begynder søgningen fra slutningen."
+msgstr "<emph>Forekomstnummer</emph> (valgfri): Nummeret på den forekomst af skilletegnet, hvorefter der skal udtrækkes tekst. Standardværdien er 1. Et negativt tal begynder søgningen fra slutningen."
 
 #. hhUE8
 #: func_textafter.xhp
@@ -71471,7 +71471,7 @@ msgctxt ""
 "par_id21747067698384\n"
 "help.text"
 msgid "<input>=TEXTAFTER(\"To be or not to be\";\"or\";1;0;0;\"@@@\")</input> returns the string \"not to be\", taking after the delimiter \"or\"."
-msgstr ""
+msgstr "<input>=TEKSTEFTER(\"At være eller ikke at være\";\"eller\";1;0;0;\"@@@\")</input> returnerer strengen \"ikke at være\", teksten efter skilletegnet (skillestrengen) \"eller\"."
 
 #. EaiEG
 #: func_textafter.xhp
@@ -71480,7 +71480,7 @@ msgctxt ""
 "par_id971747068062071\n"
 "help.text"
 msgid "<input>=TEXTAFTER(\"To be or not to be\";\"question\";1;0;0;\"@@@\")</input> returns the text \"@@@\" because the delimiter \"question\" is not in the source text."
-msgstr ""
+msgstr "<input>=TEKSTEFTER(\"At være eller ikke at være\";\"spørgsmålet\";1;0;0;\"@@@\")</input> returnerer teksten \"@@@\", fordi skilletegnet \"spørgsmålet\" ikke findes i kildeteksten."
 
 #. UfdCm
 #: func_textafter.xhp
@@ -71498,7 +71498,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TEXTBEFORE function"
-msgstr ""
+msgstr "TEKSTFØR-funktionen (på engelsk: TEXTBEFORE)"
 
 #. rsKft
 #: func_textbefore.xhp
@@ -71507,7 +71507,7 @@ msgctxt ""
 "bm_id581556228060864\n"
 "help.text"
 msgid "<bookmark_value>TEXTBEFORE function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>TEKSTFØR-funktionen (på engelsk: TEXTBEFORE)</bookmark_value>"
 
 #. LDGA7
 #: func_textbefore.xhp
@@ -71516,7 +71516,7 @@ msgctxt ""
 "hd_id451747059635188\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/func_textbefore.xhp\">TEXTBEFORE</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/func_textbefore.xhp\">TEKSTFØR (på engelsk: TEXTBEFORE)</link></variable>"
 
 #. DWGTL
 #: func_textbefore.xhp
@@ -71525,7 +71525,7 @@ msgctxt ""
 "par_id381747059635191\n"
 "help.text"
 msgid "Returns the text that occurs before a given substring or delimiter."
-msgstr ""
+msgstr "Returnerer den tekst, som står før en given delstreng eller et skilletegn."
 
 #. tdzNR
 #: func_textbefore.xhp
@@ -71534,7 +71534,7 @@ msgctxt ""
 "par_id541556228253979\n"
 "help.text"
 msgid "TEXTBEFORE( Text [; Delimiter [; Instance Number [; Match Mode [; Match End [; If Not Found ]]]]])"
-msgstr ""
+msgstr "TEKSTFØR( Tekst [; Skilletegn [; Forekomstnummer [; Sammenligningstilstand [;Match afslutning [; Hvis ikke fundet ]]]]])"
 
 #. BniCf
 #: func_textbefore.xhp
@@ -71543,7 +71543,7 @@ msgctxt ""
 "par_id91747066169381\n"
 "help.text"
 msgid "<emph>Text</emph>: the original text."
-msgstr ""
+msgstr "<emph>Tekst</emph>: Den oprindelige tekst."
 
 #. HXcqw
 #: func_textbefore.xhp
@@ -71552,7 +71552,7 @@ msgctxt ""
 "par_id221747066174430\n"
 "help.text"
 msgid "<emph>Delimiter</emph>: (optional) the delimiter. Multiple delimiters can be supplied."
-msgstr ""
+msgstr "<emph>Skilletegn</emph> (valgfri): Skilletegnet. Flere skilletegn kan angives."
 
 #. uFJHF
 #: func_textbefore.xhp
@@ -71561,7 +71561,7 @@ msgctxt ""
 "par_id821747066179393\n"
 "help.text"
 msgid "<emph>Instance Number</emph>: (optional) the instance of the delimiter before which to extract text. The default is 1. A negative number starts searching from the end."
-msgstr ""
+msgstr "<emph>Forekomstnummer</emph> (valgfri): Nummeret på den forekomst af skilletegnet, som der skal udtrækkes tekst før. Standardværdien er 1. Et negativt tal begynder søgningen fra slutningen."
 
 #. mziCS
 #: func_textbefore.xhp
@@ -77168,7 +77168,7 @@ msgctxt ""
 "hd_id481589922813764\n"
 "help.text"
 msgid "Edit"
-msgstr "Rediger"
+msgstr "Redigér"
 
 #. XZbDB
 #: solver_options.xhp
