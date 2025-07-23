@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LibreOffice 6.3\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2024-11-30 17:36+0100\n"
+"POT-Creation-Date: 2025-07-23 13:31+0200\n"
 "PO-Revision-Date: 2025-03-04 16:29+0000\n"
 "Last-Translator: serval2412 <serval2412@yahoo.fr>\n"
 "Language-Team: Slovenian <https://translations.documentfoundation.org/projects/libo_help-master/textscalcguide/sl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Project-Style: openoffice\n"
 
@@ -349,6 +349,24 @@ msgctxt ""
 "help.text"
 msgid "Only those rows whose contents meet the filter criteria are displayed. The other rows are filtered. You can see if rows have been filtered from the discontinuous row numbers. The column that has been used for the filter is identified by a different color for the arrow button."
 msgstr "Prikazane so samo tiste vrstice, katerih vsebina ustreza pogojem filtra. Ostale vrstice so filtrirane. Ali so bile vrstice filtrirane, lahko vidite po nezveznih številkah vrstic. Stolpec, ki je bil uporabljen za filter, je mogoče prepoznati po drugačni barvi puščičnega gumba."
+
+#. 3CzzM
+#: autofilter.xhp
+msgctxt ""
+"autofilter.xhp\n"
+"par_id931752683152912\n"
+"help.text"
+msgid "When no cell range is selected, the AutoFilter will apply to the column up to the first empty cell. Please ensure that you select the appropriate range before applying the AutoFilter."
+msgstr ""
+
+#. 33qGD
+#: autofilter.xhp
+msgctxt ""
+"autofilter.xhp\n"
+"par_id301752683274133\n"
+"help.text"
+msgid "When the cell range is expanded to include additional non-empty cells, the AutoFilter automatically adjusts the filter range to encompass these new cells."
+msgstr ""
 
 #. BTbCP
 #: autofilter.xhp
@@ -3698,6 +3716,15 @@ msgctxt ""
 msgid "If the CSV file has another extension, select the file, and then select \"Text CSV\" in the <emph>Filter</emph> box"
 msgstr ""
 
+#. LpZUK
+#: csv_files.xhp
+msgctxt ""
+"csv_files.xhp\n"
+"par_id341751561571932\n"
+"help.text"
+msgid "Select <menuitem>Edit filter settings</menuitem> checkbox to open the <link href=\"text/shared/00/00000208.xhp\"><menuitem>Text Import</menuitem></link> dialog and set the import options for delimited data. If the <menuitem>Edit filter settings</menuitem> checkbox is not selected, %PRODUCTNAME Calc uses the settings of the last text import operation."
+msgstr ""
+
 #. FEBAD
 #: csv_files.xhp
 msgctxt ""
@@ -3707,14 +3734,14 @@ msgctxt ""
 msgid "Click <item type=\"menuitem\">Open</item>."
 msgstr "Kliknite <item type=\"menuitem\">Odpri</item>."
 
-#. rUWLQ
+#. GFDV2
 #: csv_files.xhp
 msgctxt ""
 "csv_files.xhp\n"
-"par_idN10834\n"
+"par_id991751562754613\n"
 "help.text"
-msgid "The <item type=\"menuitem\">Text Import</item> dialog opens."
-msgstr "Odpre se pogovorno okno <item type=\"menuitem\">Uvoz besedila</item>."
+msgid "If the <menuitem>Edit filter settings</menuitem> checkbox is selected, the <link href=\"text/shared/00/00000208.xhp\"><menuitem>Text Import</menuitem></link> dialog opens. Then:"
+msgstr ""
 
 #. uc87k
 #: csv_files.xhp
@@ -3725,15 +3752,6 @@ msgctxt ""
 msgid "Specify the options to divide the text in the file into columns."
 msgstr "Določite možnosti za razdelitev besedila po stolpcih."
 
-#. azv5J
-#: csv_files.xhp
-msgctxt ""
-"csv_files.xhp\n"
-"par_idN108BB\n"
-"help.text"
-msgid "You can preview the layout of the imported data at the bottom of the <item type=\"menuitem\">Text Import</item> dialog."
-msgstr "Postavitev uvoženih podatkov si lahko poskusno ogledate na dnu pogovornega okna <item type=\"menuitem\">Uvoz besedila</item>."
-
 #. UjzC5
 #: csv_files.xhp
 msgctxt ""
@@ -3743,15 +3761,6 @@ msgctxt ""
 msgid "Right-click a column in the preview to set the format or to hide the column."
 msgstr "Desno-kliknite stolpec v predogledu, da nastavite obliko ali ga skrijete."
 
-#. SAMDV
-#: csv_files.xhp
-msgctxt ""
-"csv_files.xhp\n"
-"par_idN108E2\n"
-"help.text"
-msgid "Check the text delimiter box that matches the character used as text delimiter in the file. In case of an unlisted delimiter, type the character into the input box."
-msgstr "Potrdite polje ločila besedila, ki se ujema z znakom, ki je uporabljen kot ločilo besedila v datoteki. V primeru, da ločilo ni navedeno, znak vnesite v vnosno polje."
-
 #. Ztzey
 #: csv_files.xhp
 msgctxt ""
@@ -3760,6 +3769,15 @@ msgctxt ""
 "help.text"
 msgid "Click <item type=\"menuitem\">OK</item>."
 msgstr "Kliknite <item type=\"menuitem\">V redu</item>."
+
+#. SAMDV
+#: csv_files.xhp
+msgctxt ""
+"csv_files.xhp\n"
+"par_idN108E2\n"
+"help.text"
+msgid "Check the text delimiter box that matches the character used as text delimiter in the file. In case of an unlisted delimiter, type the character into the input box."
+msgstr "Potrdite polje ločila besedila, ki se ujema z znakom, ki je uporabljen kot ločilo besedila v datoteki. V primeru, da ločilo ni navedeno, znak vnesite v vnosno polje."
 
 #. QTrWA
 #: csv_files.xhp
@@ -14047,6 +14065,20 @@ msgctxt ""
 "help.text"
 msgid "This means that if you enter a date of \"1/1/30\" or higher, it will be treated internally as 1930-01-01 or higher. All lower two-digit years apply to the 20xx century. So, for example, \"1/1/20\" is converted into 2020-01-01."
 msgstr ""
+
+#~ msgctxt ""
+#~ "csv_files.xhp\n"
+#~ "par_idN10834\n"
+#~ "help.text"
+#~ msgid "The <item type=\"menuitem\">Text Import</item> dialog opens."
+#~ msgstr "Odpre se pogovorno okno <item type=\"menuitem\">Uvoz besedila</item>."
+
+#~ msgctxt ""
+#~ "csv_files.xhp\n"
+#~ "par_idN108BB\n"
+#~ "help.text"
+#~ msgid "You can preview the layout of the imported data at the bottom of the <item type=\"menuitem\">Text Import</item> dialog."
+#~ msgstr "Postavitev uvoženih podatkov si lahko poskusno ogledate na dnu pogovornega okna <item type=\"menuitem\">Uvoz besedila</item>."
 
 #~ msgctxt ""
 #~ "year2000.xhp\n"
