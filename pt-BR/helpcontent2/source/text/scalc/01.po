@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-07-31 14:42+0200\n"
-"PO-Revision-Date: 2025-07-30 16:53+0000\n"
+"PO-Revision-Date: 2025-08-04 19:53+0000\n"
 "Last-Translator: Olivier Hallot <olivier.hallot@libreoffice.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/pt_BR/>\n"
 "Language: pt-BR\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.10.1\n"
 "X-POOTLE-MTIME: 1559657369.000000\n"
 
 #. yzNBP
@@ -18563,7 +18563,7 @@ msgctxt ""
 "par_id3149984\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_SVERWEIS\">Vertical search with reference to adjacent cells to the right.</ahelp> This function checks if a specific value is contained in the first column of an array. The function then returns the value in the same row of the column named by <emph>Index</emph>. If the <emph>SortedRangeLookup</emph> parameter is omitted or set to TRUE or one, it is assumed that the data is sorted in ascending order. In this case, if the exact <emph>Lookup</emph> is not found, the last value that is smaller than the criterion will be returned. If <emph>SortedRangeLookup</emph> is set to FALSE or zero, an exact match must be found, otherwise the error <emph>Error: Value Not Available</emph> will be the result. Thus with a value of zero the data does not need to be sorted in ascending order."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_SVERWEIS\">Pesquisa vertical com referência a células adjacentes à direita.</ahelp> Essa função verifica se um valor específico está contido na primeira coluna de uma matriz. A função retorna então o valor na mesma linha da coluna indicada por <emph>Índice</emph>. Se o parâmetro <emph>Ordenado</emph> for omitido ou definido como VERDADEIRO ou 1, assume-se que os dados estão colocados em ordem crescente. Neste caso, se <emph>Procura</emph> não for encontrado, o último valor menor que o critério será retornado. Se <emph>Ordenado</emph> é definido como FALSO ou 0, deve haver um valor exato, senão o resultado será <emph>Erro: Valor não disponível</emph>. Portanto, com um valor 0, os dados não precisam estar em ordem crescente."
 
 #. j8RoY
 #: 04060109.xhp
@@ -66101,7 +66101,7 @@ msgctxt ""
 "par_id3153389\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_VERWEIS\">Look for criterion in an already-sorted array, and return a corresponding result. Returns the contents of a cell either from a one-row or one-column range.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_VERWEIS\">Pequisa pelo critério numa matriz já ordenada, e retorna um resultado correspondente. Retorna o conteúdo de uma célula tanto de um intervalo de uma linha única quanto de uma coluna única.</ahelp>"
 
 #. 4LY9p
 #: func_lookup.xhp
@@ -66110,7 +66110,7 @@ msgctxt ""
 "par_id841750257069690\n"
 "help.text"
 msgid "Optionally, the assigned value (of the same index) is returned in a different column and row. As opposed to <link href=\"text/scalc/01/04060109.xhp#Section9\">VLOOKUP</link> and <link href=\"text/scalc/01/04060109.xhp#Section17\">HLOOKUP</link>, search and result vector may be at different positions; they do not have to be adjacent."
-msgstr ""
+msgstr "Opcionalmente, retorna o valor atribuído (de mesmo índice) numa linha e coluna diferente. Ao contrário de <link href=\"text/scalc/01/04060109.xhp#Section9\">PROCV</link> e <link href=\"text/scalc/01/04060109.xhp#Section17\">PROCH</link> os vetores de pesquisa e resultado podem estar em posições diferentes ; ele não precisam ser adjacentes."
 
 #. FFnAd
 #: func_lookup.xhp
@@ -66119,7 +66119,7 @@ msgctxt ""
 "par_id3154104\n"
 "help.text"
 msgid "LOOKUP(Lookup; SearchVector [; ResultVector])"
-msgstr ""
+msgstr "PROC(Procura; VetorPesquisa [;VetorResultado])"
 
 #. AmM3v
 #: func_lookup.xhp
@@ -66128,7 +66128,7 @@ msgctxt ""
 "par_id3150646\n"
 "help.text"
 msgid "<emph>Lookup</emph> is the value of any type to be looked for; entered either directly or as a reference."
-msgstr ""
+msgstr "<emph>Procura</emph> é o valor de qualquer tipo a ser procurado; inserido diretamente ou como uma referência."
 
 #. teRj8
 #: func_lookup.xhp
@@ -66137,7 +66137,7 @@ msgctxt ""
 "par_id3154854\n"
 "help.text"
 msgid "<emph>SearchVector</emph> is an array of data. The lookup is performed in the  first row or first column of the array."
-msgstr ""
+msgstr "<emph>VetorPesquisa</emph> é uma matriz de dados. A pesquisa é feita na primeira linha ou primeira coluna da matriz."
 
 #. GCzPH
 #: func_lookup.xhp
@@ -66146,7 +66146,7 @@ msgctxt ""
 "par_id591750269646975\n"
 "help.text"
 msgid "The search vector for the LOOKUP must be sorted ascending, otherwise the search will not return any usable results. Numerical values precede values of type Text if both types are included (for example, -2, 0, 2, “A”, “B”)."
-msgstr ""
+msgstr "O vetor de pesquisa para PROC deve esta ordenado em ordem crescente, senão a pequisa não retorna resultados úteis. Valores numéricos devem preceder valores do tipo texto se ambos estão incluídos (por exemplo (-2; 0; 2; A\"; \"B\")."
 
 #. wZV9r
 #: func_lookup.xhp
@@ -66155,7 +66155,7 @@ msgctxt ""
 "par_id841750275617013\n"
 "help.text"
 msgid "If <emph>SearchVector</emph> has same number of columns and rows or has more rows than columns, LOOKUP searches in the first column (similar to VLOOKUP), and returns the corresponding value in the last column."
-msgstr ""
+msgstr "Se <emph>VetorPesquisa</emph> tiver o mesmo número de colunas e linhas ou tiver mais linhas do que colunas, PROC pesquisa a pŕimeira coluna (similar à PROCV), e retorna o valor correspondente na última coluna."
 
 #. KpDka
 #: func_lookup.xhp
@@ -66164,7 +66164,7 @@ msgctxt ""
 "par_id311750275609300\n"
 "help.text"
 msgid "If <emph>SearchVector</emph> has more columns than rows, LOOKUP searches in the first row (similar to HLOOKUP), and returns the corresponding value in the last row."
-msgstr ""
+msgstr "Se <emph>VetorPesquisa</emph>  tiver mais colunas  do que linhas, PROC pesquisa a primeira linha (similar à PROCH), e retorna o valor correspondente na última linha."
 
 #. SkQoD
 #: func_lookup.xhp
@@ -66173,7 +66173,7 @@ msgctxt ""
 "par_id3149925\n"
 "help.text"
 msgid "<emph>ResultVector</emph> is another single-row or single-column range from which the result of the function is taken. The result is the cell of the result vector with the same index as the instance found in the search vector."
-msgstr ""
+msgstr "<emph>VetorResultante</emph> é outro intervalo de uma coluna ou uma linha do qual se obtém o resultado da função. O resultado é a célula do vetor resultante com o mesmo índice que a instância encontrada no vetor de pesquisa."
 
 #. yyJoV
 #: func_lookup.xhp
@@ -66182,7 +66182,7 @@ msgctxt ""
 "par_id771750268996719\n"
 "help.text"
 msgid "If <emph>ResultVector</emph> is omitted, the function returns the value found in the last row or last column of the <emph>SearchVector</emph> array."
-msgstr ""
+msgstr "Se <emph>VetorResultado</emph> for omitido, a função retorna o valor encontrado na última linha ou última coluna da matriz <emph>VetorPesquisa</emph>."
 
 #. UzAZX
 #: func_lookup.xhp
@@ -66191,7 +66191,7 @@ msgctxt ""
 "par_id991750269088955\n"
 "help.text"
 msgid "If <emph>SearchVector</emph> is a one-dimensional array and if <emph>ResultVector</emph> is omitted, the function returns the last occurrence of the lookup value if it exists in the <emph>SearchVector</emph>."
-msgstr ""
+msgstr "Se <emph>VetorPesquisa</emph> for uma matriz unidimensional e se<emph>VetorResultado</emph> for omitido, a função retorna a última ocorrência do valor a pesquisar, se existir em <emph>VetorPesquisa</emph>."
 
 #. cWABi
 #: func_lookup.xhp
@@ -66200,7 +66200,7 @@ msgctxt ""
 "par_id711750273031297\n"
 "help.text"
 msgid "The table below list the country codes of some countries."
-msgstr ""
+msgstr "A tabela abaixo relaciona os códigos telefônicos de alguns países."
 
 #. SDVFq
 #: func_lookup.xhp
@@ -66209,7 +66209,7 @@ msgctxt ""
 "par_id201750276243814\n"
 "help.text"
 msgid "Source: <link href=\"https://www.countrycode.org\">https://www.countrycode.org</link>"
-msgstr ""
+msgstr "Fonte: <link href=\"https://www.countrycode.org\">https://www.countrycode.org</link>"
 
 #. EmdMk
 #: func_lookup.xhp
@@ -66218,7 +66218,7 @@ msgctxt ""
 "par_id901750271880106\n"
 "help.text"
 msgid "<image src=\"media/helpimg/scalc/country_codes.png\" id=\"img_id511750271880109\" width=\"708px\" height=\"598px\"><alt id=\"alt_id941750271880111\">Country Codes Samples</alt></image>"
-msgstr ""
+msgstr "<image src=\"media/helpimg/scalc/country_codes.png\" id=\"img_id511750271880109\" width=\"708px\" height=\"598px\"><alt id=\"alt_id941750271880111\">Exemplos de códigos telefônicos</alt></image>"
 
 #. pWLxc
 #: func_lookup.xhp
@@ -66227,7 +66227,7 @@ msgctxt ""
 "par_id931750273347370\n"
 "help.text"
 msgid "<input>=LOOKUP(46;A2:B34)</input> returns \"Sweden\", the country which code is 46. Since the result vector is not defined, the function returns the value in the last column of the search array."
-msgstr ""
+msgstr "<input>=PROC(46;A2:B34)</input> retorna \"Sweden\", o país cujo código telefônico é 46. Dado que o vetor de resultados foi omitido, a função retorna o valor na última coluna do vetor de pesquisa."
 
 #. 6EfDu
 #: func_lookup.xhp
@@ -66236,7 +66236,7 @@ msgctxt ""
 "par_id631750273351969\n"
 "help.text"
 msgid "<input>=LOOKUP(55;A2:A34,D2:D34)</input> returns \"BR/BRA\", the ISO code for country code 55 (Brazil)."
-msgstr ""
+msgstr "<input>=PROC(55;A2:A34,D2:D34)</input> retorna \"BR/BRA\", o código ISO do código telefônico 55 (Brasil)."
 
 #. C9FCr
 #: func_lookup.xhp
@@ -66245,7 +66245,7 @@ msgctxt ""
 "par_id1001750273540349\n"
 "help.text"
 msgid "<input>=LOOKUP(7;A2:B34)</input> returns \"Russia\", the last occurrence of country code 7 in the search array."
-msgstr ""
+msgstr "<input>=PROC(7;A2:B34)</input> retorna \"Russia\", a última ocorrência do código telefônico 7 no vetor de pesquisa."
 
 #. mxTRm
 #: func_lookup.xhp
@@ -66254,7 +66254,7 @@ msgctxt ""
 "par_id181750258319532\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060109.xhp#Section9\">VLOOKUP</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060109.xhp#Section9\">PROCV</link>"
 
 #. zBR5H
 #: func_lookup.xhp
@@ -66263,7 +66263,7 @@ msgctxt ""
 "par_id461750258325119\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060109.xhp#Section17\">HLOOKUP</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060109.xhp#Section17\">PROCH</link>"
 
 #. dcDAC
 #: func_lookup.xhp
@@ -66272,7 +66272,7 @@ msgctxt ""
 "par_id701677016751508\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/LOOKUP\">LOOKUP wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/LOOKUP\">Página wiki da função PROC</link>."
 
 #. FSFVN
 #: func_lower.xhp
@@ -71546,7 +71546,7 @@ msgctxt ""
 "par_id711737758586509\n"
 "help.text"
 msgid "The formula <input>{=TAKE(A1:E3;;3)}</input> returns the array with 3 rows (default) and 3 columns."
-msgstr ""
+msgstr "A fórmula <input>{=PEGAR(A1:E3;;3)}</input> retorna a matriz com 3 linhas (padrão) e 3 colunas."
 
 #. yhCLT
 #: func_take.xhp
@@ -73526,7 +73526,7 @@ msgctxt ""
 "hd_id3149012\n"
 "help.text"
 msgid "<variable id=\"webservicefuncname\"><link href=\"text/scalc/01/func_webservice.xhp\">WEBSERVICE</link></variable>"
-msgstr ""
+msgstr "<variable id=\"webservicefuncname\"><link href=\"text/scalc/01/func_webservice.xhp\">SERVIÇOWEB</link></variable>"
 
 #. NXAzC
 #: func_webservice.xhp
@@ -73580,7 +73580,7 @@ msgctxt ""
 "par_id781677019731175\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEBSERVICE\">WEBSERVICE wiki page</link>."
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/WEBSERVICE\">Página wiki da função SERVIÇOWEB</link>."
 
 #. VBELn
 #: func_weekday.xhp
@@ -74885,7 +74885,7 @@ msgctxt ""
 "par_id631708282151776\n"
 "help.text"
 msgid "XLOOKUP function is a modern and flexible replacement for older functions like <link href=\"text/scalc/01/04060109.xhp#Section9\">VLOOKUP</link>, <link href=\"text/scalc/01/04060109.xhp#Section17\">HLOOKUP</link>, and <link href=\"text/scalc/01/func_lookup.xhp\">LOOKUP</link>. XLOOKUP supports approximate and exact matching, wildcards (* ?) or regular expressions for partial matches, and lookups in vertical or horizontal ranges. XLOOKUP can perform a reverse search and offers a fast binary search option when working with large datasets."
-msgstr ""
+msgstr "A função PROCX é uma substituta moderna e flexível para as funções tais como <link href=\"text/scalc/01/04060109.xhp#Section9\">PROCV</link>, <link href=\"text/scalc/01/04060109.xhp#Section17\">PROCH</link>, e <link href=\"text/scalc/01/func_lookup.xhp\">PROC</link>. PROCX  permite correspondências aproximadas e exatas, caracteres curingas (* ?) ou expressões regulares para correspondências parciais, e pesquisas em intervalos verticais e horizontais. PROCX pode fazer pesquisa reversa e oferece opção de pesquisa binária acelerada quando tratar grandes conjuntos de dados."
 
 #. CY5Hu
 #: func_xlookup.xhp
@@ -78440,7 +78440,7 @@ msgctxt ""
 "par_id361561818379679\n"
 "help.text"
 msgid "{=FOURIER(B6:C40;B1;B2;B3;0)}"
-msgstr ""
+msgstr "{=FOURIER(B6:C40;B1;B2;B3;0)}"
 
 #. VDD3g
 #: stat_data.xhp
