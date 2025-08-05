@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-07-31 14:42+0200\n"
-"PO-Revision-Date: 2025-08-04 19:53+0000\n"
+"PO-Revision-Date: 2025-08-05 21:53+0000\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian Nynorsk <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/nn/>\n"
 "Language: nn\n"
@@ -18563,7 +18563,7 @@ msgctxt ""
 "par_id3149984\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_SVERWEIS\">Vertical search with reference to adjacent cells to the right.</ahelp> This function checks if a specific value is contained in the first column of an array. The function then returns the value in the same row of the column named by <emph>Index</emph>. If the <emph>SortedRangeLookup</emph> parameter is omitted or set to TRUE or one, it is assumed that the data is sorted in ascending order. In this case, if the exact <emph>Lookup</emph> is not found, the last value that is smaller than the criterion will be returned. If <emph>SortedRangeLookup</emph> is set to FALSE or zero, an exact match must be found, otherwise the error <emph>Error: Value Not Available</emph> will be the result. Thus with a value of zero the data does not need to be sorted in ascending order."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_SVERWEIS\">Loddrett søking med tilvising til tilstøytane celler til høgre.</ahelp> Denne funksjonen kontrollerer om ein bestemt verdi finst i den første kolonnen i ei matrise. Funksjonen returnerer så verdien i den same rada i kolonnen som er namngjeven i <emph>Indeks</emph>. Viss parameteren <emph>SortertOmrådeOppslag</emph> manglar eller er sett til SANN, vert dataa sorterte i stigande rekkjefølgje. Viss det eksakte <emph>oppslag</emph> ikkje vart funne, vert den siste verdien som er mindre enn kriteriet returnert. Viss <emph>SortertOmrådeOppslag</emph> er sett til USANN eller null, må der vera eit eksakt samanfall, elles vert feilen <emph>Feil: Verdi ikkje tilgjengeleg</emph> returnert. Med ein verdi på null treng dataa ikkje vera sorterte stigande."
 
 #. j8RoY
 #: 04060109.xhp
@@ -51107,7 +51107,7 @@ msgctxt ""
 "hd_id1000014\n"
 "help.text"
 msgid "This function is part of the Open Document Format for Office Applications (OpenDocument) standard Version 1.4."
-msgstr ""
+msgstr "Denne funksjonen høyrer til Open Document Format for Office Applications (OpenDocument) standard versjon 1.4."
 
 #. AG3sd
 #: SelectColumn.xhp
@@ -61666,7 +61666,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ENCODEURL"
-msgstr ""
+msgstr "NETTADRESSEKODE (ENCODEURL på engelk)"
 
 #. hqiJ6
 #: func_encodeurl.xhp
@@ -61675,7 +61675,7 @@ msgctxt ""
 "bm_id811517136840444\n"
 "help.text"
 msgid "<bookmark_value>ENCODEURL function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>NETTADRESSEKODE-funksjonen</bookmark_value>"
 
 #. L5UY9
 #: func_encodeurl.xhp
@@ -61684,7 +61684,7 @@ msgctxt ""
 "hd_id671517132649769\n"
 "help.text"
 msgid "<variable id=\"encodeurlname\"><link href=\"text/scalc/01/func_encodeurl.xhp\">ENCODEURL</link></variable>"
-msgstr ""
+msgstr "<variable id=\"encodeurlname\"><link href=\"text/scalc/01/func_encodeurl.xhp\">NETTADRESSEKODE</link></variable>"
 
 #. jW6Rz
 #: func_encodeurl.xhp
@@ -61693,7 +61693,7 @@ msgctxt ""
 "par_id51517132649769\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_ENCODEURL\">Returns a URL-encoded string.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_ENCODEURL\">Returnerer ein streng med nettadressekoden.</ahelp>"
 
 #. ZEAYE
 #: func_encodeurl.xhp
@@ -61702,7 +61702,7 @@ msgctxt ""
 "par_id721517134647880\n"
 "help.text"
 msgid "Use this function to transform text with symbols of national alphabets (for example accented characters, non-ASCII alphabets or Asian words) to a string of URL-standard symbols."
-msgstr ""
+msgstr "Bruk denne funksjonen for å omforma tekst med nasjonale bokstavar (for eksempel bokstavar med aksentteikn, bokstavar som ikkje er ASCII-teikn eller asiatiske ord) til ein streng med symbol i URL-standard."
 
 #. JinCe
 #: func_encodeurl.xhp
@@ -61711,7 +61711,7 @@ msgctxt ""
 "par_id351517132879400\n"
 "help.text"
 msgid "ENCODEURL(Text)"
-msgstr ""
+msgstr "NETTADRESSEKODE(tekst)"
 
 #. 9wVzn
 #: func_encodeurl.xhp
@@ -61720,7 +61720,7 @@ msgctxt ""
 "par_id921517132924079\n"
 "help.text"
 msgid "<emph>Text</emph>: String to encode to a sequence of URL-standard symbols."
-msgstr ""
+msgstr "<emph>tekst</emph>: Streng som skal omformast til URL-standard."
 
 #. QDWhi
 #: func_encodeurl.xhp
@@ -61729,7 +61729,7 @@ msgctxt ""
 "par_id651517132994921\n"
 "help.text"
 msgid "If cell A1 contains the Cyrillic text \"автомобиль\", <input>=ENCODEURL(A1)</input> returns %D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C (the word \"автомобиль\" means car in Russian)."
-msgstr ""
+msgstr "Viss cella A1 inneheld den kyrilliske teksten «автомобиль», vil <input>=NETTADRESSEKODE(A1)</input> returnere %D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C (ordet \"автомобиль\" betyr bil på russisk)."
 
 #. mP3CB
 #: func_encodeurl.xhp
@@ -61738,7 +61738,7 @@ msgctxt ""
 "par_id991517133057478\n"
 "help.text"
 msgid "If cell B1 contains the text \"車\", <input>=ENCODEURL(B1)</input> returns %E8%BB%8A (\"車\" means car in Japanese)."
-msgstr ""
+msgstr "Viss cella B1 inneheld teksten «車», vil <input>=NETTADRESSEKODE(B1)</input> returnere %E8%BB%8A («車» betyr bil på japansk)."
 
 #. h3nET
 #: func_encodeurl.xhp
@@ -61747,7 +61747,7 @@ msgctxt ""
 "par_id631752609367566\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ENCODEURL\">ENCODEURL wiki page</link>"
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/ENCODEURL\">ENCODEURL wikiside</link>"
 
 #. 4kAEM
 #: func_eomonth.xhp
@@ -62404,7 +62404,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FILTERXML"
-msgstr ""
+msgstr "FILTERXML (FILTERXML på engelsk)"
 
 #. JpBhU
 #: func_filterxml.xhp
@@ -62413,7 +62413,7 @@ msgctxt ""
 "bm_id2949012\n"
 "help.text"
 msgid "<bookmark_value>FILTERXML function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>FILTERXML-funksjonen</bookmark_value>"
 
 #. 7GoXF
 #: func_filterxml.xhp
@@ -62422,7 +62422,7 @@ msgctxt ""
 "hd_id2949012\n"
 "help.text"
 msgid "<variable id=\"filterxmlfuncname\"><link href=\"text/scalc/01/func_filterxml.xhp\">FILTERXML</link></variable>"
-msgstr ""
+msgstr "<variable id=\"filterxmlfuncname\"><link href=\"text/scalc/01/func_filterxml.xhp\">FILTERXML</link></variable>"
 
 #. ZDGuA
 #: func_filterxml.xhp
@@ -62431,7 +62431,7 @@ msgctxt ""
 "par_id2949893\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_FILTERXML\">Apply a XPath expression to a XML document.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_FILTERXML\">Bruk eit XPath-uttrykk på eit XML-dokument.</ahelp>"
 
 #. YB99z
 #: func_filterxml.xhp
@@ -62440,7 +62440,7 @@ msgctxt ""
 "par_id861752609832284\n"
 "help.text"
 msgid "XML Path Language (XPath) is a query language that uses path expressions (with a non-XML syntax) to select parts of an XML document."
-msgstr ""
+msgstr "XML Path Language (XPath) er eit spørje-språk som brukar sti-uttrykk (med ein ikkje-XML-syntaks) til å velja ut delar av eit XML-dokument."
 
 #. VYWTr
 #: func_filterxml.xhp
@@ -62449,7 +62449,7 @@ msgctxt ""
 "par_id2954844\n"
 "help.text"
 msgid "FILTERXML(XML Document; XPath expression)"
-msgstr ""
+msgstr "FILTERXML(XML Dokument; XPath-uttrykk)"
 
 #. BRRQN
 #: func_filterxml.xhp
@@ -62458,7 +62458,7 @@ msgctxt ""
 "par_id2947469\n"
 "help.text"
 msgid "<emph>XML Document (required):</emph> String containing a valid XML stream."
-msgstr ""
+msgstr "<emph>XML-dokument (nødvendig)</emph>: Streng som inneheld gyldig XML-strøyming."
 
 #. ZaFFe
 #: func_filterxml.xhp
@@ -62467,7 +62467,7 @@ msgctxt ""
 "par_id2847469\n"
 "help.text"
 msgid "<emph>XPath expression (required):</emph> String containing a valid XPath expression."
-msgstr ""
+msgstr "<emph>XPath-uttrykk (nødvendig)</emph>: Streng som inneheld eit gyldig XPath-uttrykk."
 
 #. os8Uk
 #: func_filterxml.xhp
@@ -62476,7 +62476,7 @@ msgctxt ""
 "par_id2946142\n"
 "help.text"
 msgid "<input>=FILTERXML(WEBSERVICE(\"wiki.documentfoundation.org/api.php?hidebots=1&days=7&limit=50&action=feedrecentchanges&feedformat=rss\");\"//lastBuildDate\")</input>"
-msgstr ""
+msgstr "<input>=FILTERXML(WEBSERVICE(\"wiki.documentfoundation.org/api.php?hidebots=1&days=7&limit=50&action=feedrecentchanges&feedformat=rss\");\"//lastBuildDate\")</input>"
 
 #. bHUn3
 #: func_filterxml.xhp
@@ -62485,7 +62485,7 @@ msgctxt ""
 "par_id2946143\n"
 "help.text"
 msgid "Returns information <literal>//lastBuildDate</literal> of the XML contents supplied by the WEBSERVICE() function."
-msgstr ""
+msgstr "Returnerer informasjonen <literal>//lastBuildDate</literal> for XML-indhaldet leveret av WEBSERVICE()-funksjonen."
 
 #. fCND3
 #: func_filterxml.xhp
@@ -62494,7 +62494,7 @@ msgctxt ""
 "par_id501752609739950\n"
 "help.text"
 msgid "<link href=\"https://www.w3schools.com/xml/xml_xpath.asp\">W3C XPath web page</link>"
-msgstr ""
+msgstr "<link href=\"https://www.w3schools.com/xml/xml_xpath.asp\">W3C XPath nettside</link>"
 
 #. XXQk5
 #: func_filterxml.xhp
@@ -62503,7 +62503,7 @@ msgctxt ""
 "par_id631752609367566\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/FILTERXML\">FILTERXML wiki page</link>"
-msgstr ""
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/FILTERXML\">FILTERXML wiki side</link>"
 
 #. GxPtj
 #: func_find.xhp
@@ -64465,7 +64465,7 @@ msgctxt ""
 "par_id541556235771022\n"
 "help.text"
 msgid "If there is a result missing for an expression or if no expression is TRUE, a #N/A error is returned."
-msgstr ""
+msgstr "Viss det manglar eit resultat for eit uttrykk eller ingen uttrykk er SANN, vert det returnert ein #I/T-feil."
 
 #. 8sMKs
 #: func_ifs.xhp
@@ -66076,7 +66076,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Function LOOKUP"
-msgstr ""
+msgstr "SLÅ.OPP-funksjonen ( LOOKUP på engelsk)"
 
 #. DBqzN
 #: func_lookup.xhp
@@ -66085,7 +66085,7 @@ msgctxt ""
 "bm_id3159273\n"
 "help.text"
 msgid "<bookmark_value>LOOKUP function</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>SLÅ.OPP-funksjonen</bookmark_value>"
 
 #. 4G3NM
 #: func_lookup.xhp
@@ -66094,7 +66094,7 @@ msgctxt ""
 "hd_id521750255960624\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/func_lookup.xhp\">LOOKUP</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/func_lookup.xhp\">SLÅ.OPP</link></variable>"
 
 #. cABv2
 #: func_lookup.xhp
@@ -66103,7 +66103,7 @@ msgctxt ""
 "par_id3153389\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_VERWEIS\">Look for criterion in an already-sorted array, and return a corresponding result. Returns the contents of a cell either from a one-row or one-column range.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_VERWEIS\">Søkjer etter eit kriterium i ei alt sortert matrise og returnerer eit tilsvarande resultat. Returnerer innhaldet i ei celle anten frå ei rad eller eit kolonneområde.</ahelp>"
 
 #. 4LY9p
 #: func_lookup.xhp
@@ -66112,7 +66112,7 @@ msgctxt ""
 "par_id841750257069690\n"
 "help.text"
 msgid "Optionally, the assigned value (of the same index) is returned in a different column and row. As opposed to <link href=\"text/scalc/01/04060109.xhp#Section9\">VLOOKUP</link> and <link href=\"text/scalc/01/04060109.xhp#Section17\">HLOOKUP</link>, search and result vector may be at different positions; they do not have to be adjacent."
-msgstr ""
+msgstr "Eventuelt vert den tildelte verdien (av same indeks) returnert i ein annan kolonne og rad. I motsetnad til <link href=\"text/scalc/01/04060109.xhp#Section9\">FINN.RAD</link> og <link href=\"text/scalc/01/04060109.xhp#Section17\">FINN.KOLONNE</link>, kan søkjevektoren og resultatvektoren ha ulike plasseringar og treng ikkje vera ved sida av kvarandre."
 
 #. FFnAd
 #: func_lookup.xhp
@@ -66121,7 +66121,7 @@ msgctxt ""
 "par_id3154104\n"
 "help.text"
 msgid "LOOKUP(Lookup; SearchVector [; ResultVector])"
-msgstr ""
+msgstr "SLÅ.OPP(Søkjeverdi; Søkjevektor [; Resultatvektor])"
 
 #. AmM3v
 #: func_lookup.xhp
@@ -66130,7 +66130,7 @@ msgctxt ""
 "par_id3150646\n"
 "help.text"
 msgid "<emph>Lookup</emph> is the value of any type to be looked for; entered either directly or as a reference."
-msgstr ""
+msgstr "<emph>Søkjeverdi</emph> er den verdien av kva type som helst det skal søkjast etter, skrive inn direkte eller som ein referanse."
 
 #. teRj8
 #: func_lookup.xhp
@@ -66139,7 +66139,7 @@ msgctxt ""
 "par_id3154854\n"
 "help.text"
 msgid "<emph>SearchVector</emph> is an array of data. The lookup is performed in the  first row or first column of the array."
-msgstr ""
+msgstr "<emph>Søkjevektor</emph> er ei datamatrise. Søkjet vert utført i den første rada eller den første kolonnen i matrisa."
 
 #. GCzPH
 #: func_lookup.xhp
@@ -66148,7 +66148,7 @@ msgctxt ""
 "par_id591750269646975\n"
 "help.text"
 msgid "The search vector for the LOOKUP must be sorted ascending, otherwise the search will not return any usable results. Numerical values precede values of type Text if both types are included (for example, -2, 0, 2, “A”, “B”)."
-msgstr ""
+msgstr "Søkjevektoren for SLÅ.OPP må vera sortert i stigande rekkjefølgje, elles vil søket ikkje returnera brukbare resultat. Talverdiar må vera før tekstverdiar viss begge typane er med (for eksempel -2, 0, 2, \"A\", \"B\")."
 
 #. wZV9r
 #: func_lookup.xhp
@@ -66157,7 +66157,7 @@ msgctxt ""
 "par_id841750275617013\n"
 "help.text"
 msgid "If <emph>SearchVector</emph> has same number of columns and rows or has more rows than columns, LOOKUP searches in the first column (similar to VLOOKUP), and returns the corresponding value in the last column."
-msgstr ""
+msgstr "Viss <emph>Søkjevektoren</emph> har like mange kolonnar og rader eller har fleire rader enn kolonnar, så søkjer SLÅ.OPP i den første kolonnen (liknar på samme antall kolonner og rader eller har flere rader enn kolonner, oppslagsøk i den første kolonnen (som FINN.RAD) og returnerer den tilsvarande verdien i den siste kolonnen."
 
 #. KpDka
 #: func_lookup.xhp
@@ -66166,7 +66166,7 @@ msgctxt ""
 "par_id311750275609300\n"
 "help.text"
 msgid "If <emph>SearchVector</emph> has more columns than rows, LOOKUP searches in the first row (similar to HLOOKUP), and returns the corresponding value in the last row."
-msgstr ""
+msgstr "Viss <emph>Søkjevektoren</emph> har fleire kolonnar enn rader, vil SLÅ.OPP søkja i den første rada (som FINN.KOLONNE) og returnerer den tilsvarande verdien frå den siste rada."
 
 #. SkQoD
 #: func_lookup.xhp
@@ -66175,7 +66175,7 @@ msgctxt ""
 "par_id3149925\n"
 "help.text"
 msgid "<emph>ResultVector</emph> is another single-row or single-column range from which the result of the function is taken. The result is the cell of the result vector with the same index as the instance found in the search vector."
-msgstr ""
+msgstr "<emph>Resultatvektor</emph> er eit anna område med éi rad eller éin kolonne som resultatet vert henta frå. Resultatet er resultatvektorcella som har same indeks som funnet i søkjevektoren har."
 
 #. yyJoV
 #: func_lookup.xhp
@@ -66184,7 +66184,7 @@ msgctxt ""
 "par_id771750268996719\n"
 "help.text"
 msgid "If <emph>ResultVector</emph> is omitted, the function returns the value found in the last row or last column of the <emph>SearchVector</emph> array."
-msgstr ""
+msgstr "Visss <emph>Resultatvektor</emph> er sløyfa, så returnerer funksjonen verdien funne i den siste rada eller den siste kolonnen av <emph>Søkjevektor</emph>-matrsa."
 
 #. UzAZX
 #: func_lookup.xhp
@@ -66193,7 +66193,7 @@ msgctxt ""
 "par_id991750269088955\n"
 "help.text"
 msgid "If <emph>SearchVector</emph> is a one-dimensional array and if <emph>ResultVector</emph> is omitted, the function returns the last occurrence of the lookup value if it exists in the <emph>SearchVector</emph>."
-msgstr ""
+msgstr "Viss <emph>Søkjevektor</emph> er ei éin-dimensional matrise, og viss <emph>Resultatvektor</emph> er sløyfa, så returnerer funksjonen den siste førekomsten av oppslagsverdien, viss han finst i <emph>Søkjevektor</emph>."
 
 #. cWABi
 #: func_lookup.xhp
