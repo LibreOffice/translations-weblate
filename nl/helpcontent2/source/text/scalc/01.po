@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 15:27+0100\n"
-"PO-Revision-Date: 2025-08-05 15:53+0000\n"
+"PO-Revision-Date: 2025-08-06 08:56+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-25-2/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -6107,7 +6107,7 @@ msgctxt ""
 "par_id3147427\n"
 "help.text"
 msgid "AMORDEGRC(Cost; DatePurchased; FirstPeriod; Salvage; Period; Rate [; Basis])"
-msgstr "AMORDEGRC(Kosten; Aankoopdatum; Eerste periode; Restwaarde; Periode; Rente ; Soort jaar (optioneel)"
+msgstr "AMORDEGRC(Kosten;Aankoopdatum;Eerste periode;Restwaarde;Aflossingsperiode; Rente;Soort jaar (optioneel)"
 
 #. bA2pT
 #: 04060103.xhp
@@ -6224,7 +6224,7 @@ msgctxt ""
 "par_id3147363\n"
 "help.text"
 msgid "AMORLINC(Cost; DatePurchased; FirstPeriod; Salvage; Period; Rate [; Basis])"
-msgstr "AMORLINC(Kosten; Aankoopdatum; Eerste periode; Restwaarde; Periode; Rente ; Soort jaar)"
+msgstr "AMORLINC(Kosten; Aankoopdatum; Eerste termijn; Restwaarde; Aflossingsperiode; Rente; Soort jaar (optioneel)"
 
 #. PsFjE
 #: 04060103.xhp
@@ -8654,7 +8654,7 @@ msgctxt ""
 "hd_id31470811\n"
 "help.text"
 msgid "IFERROR"
-msgstr "ALSFOUT"
+msgstr "ALS.FOUT"
 
 #. AXmEw
 #: 04060104.xhp
@@ -8672,7 +8672,7 @@ msgctxt ""
 "par_id31531551\n"
 "help.text"
 msgid "IFERROR(Value; Alternate_value)"
-msgstr "ALSFOUT(Waarde; Alternatieve waarde)"
+msgstr "ALS.FOUT( Waarde; Alternatieve waarde)"
 
 #. wJRYc
 #: 04060104.xhp
@@ -8699,7 +8699,7 @@ msgctxt ""
 "par_id31502561\n"
 "help.text"
 msgid "<item type=\"input\">=IFERROR(C8;C9)</item> where cell C8 contains <item type=\"input\">=1/0</item> returns the value of C9, because 1/0 is an error."
-msgstr "<item type=\"input\">=ALSFOUT(C8;C9)</item> als cel C8 <item type=\"input\">=1/0</item> bevat, geeft de waarde C9, omdat 1/0 een fout is."
+msgstr "<item type=\"input\">=ALS.FOUT(C8;C9)</item> als cel C8 <item type=\"input\">=1/0</item> bevat, geeft de waarde C9, omdat 1/0 een fout is."
 
 #. GCAeY
 #: 04060104.xhp
@@ -8708,7 +8708,7 @@ msgctxt ""
 "par_id18890951\n"
 "help.text"
 msgid "<item type=\"input\">=IFERROR(C8;C9)</item> where cell C8 contains <item type=\"input\">13</item> returns 13, the value of C8, which is not an error."
-msgstr "<item type=\"input\">ALSFOUT(C8;C9)</item> als cel C8 <item type=\"input\">13</item> bevat, geeft 13 de waarde van C8, wat geen fout is."
+msgstr "<item type=\"input\">ALS.FOUT(C8;C9)</item> als cel C8 <item type=\"input\">13</item> bevat, geeft 13 de waarde van C8, wat geen fout is."
 
 #. DUDkY
 #: 04060104.xhp
@@ -9203,7 +9203,7 @@ msgctxt ""
 "hd_id31536851\n"
 "help.text"
 msgid "IFNA"
-msgstr "ALSNB"
+msgstr "ALS.NB"
 
 #. Mq9qJ
 #: 04060104.xhp
@@ -9221,7 +9221,7 @@ msgctxt ""
 "par_id31537481\n"
 "help.text"
 msgid "IFNA(Value; Alternate_value)"
-msgstr "ALSNB(Waarde; Alternatieve waarde)"
+msgstr "ALS.NB(Waarde; Alternatieve waarde)"
 
 #. 6oj7E
 #: 04060104.xhp
@@ -9230,7 +9230,7 @@ msgctxt ""
 "par_id31528841\n"
 "help.text"
 msgid "<emph>Value</emph> is the value or expression to be returned if it is not equal or results in an #N/A error."
-msgstr "<emph>Waarde</emph> is de waarde of expressie die gegeven wordt als het niet gelijk is of in een #N/A-fout resulteert."
+msgstr "<emph>Waarde</emph> is de waarde of expressie die gegeven wordt als het niet gelijk is of in een #N/B-fout resulteert."
 
 #. CM9Ds
 #: 04060104.xhp
@@ -9239,7 +9239,7 @@ msgctxt ""
 "par_id31528842\n"
 "help.text"
 msgid "<emph>Alternate_value</emph> is the value or expression to be returned if the expression or value of <emph>Value</emph> is equal or results in an #N/A error."
-msgstr "<emph>Alternatieve_waarde</emph> is de waarde of expressie die gegeven wordt als de expressie of waarde van <emph>Waarde</emph> gelijk is of in een #N/A-fout resulteert."
+msgstr "<emph>Waarde_indien_niet-bekend</emph> is de waarde of expressie die gegeven wordt als de expressie of waarde van <emph>Waarde</emph> gelijk is of in een #N/B-fout resulteert."
 
 #. ZyKiX
 #: 04060104.xhp
@@ -9248,7 +9248,7 @@ msgctxt ""
 "par_id31548521\n"
 "help.text"
 msgid "<item type=\"input\">=IFNA(D3;D4)</item> returns the value of D3 if D3 does not result in an #N/A error, or D4 if it does."
-msgstr "<item type=\"input\">=ALSNB(D3;D4)</item> geeft de waarde D3 als D3 niet in een #N/B-fout eindigt of D4 als het dit wel doet."
+msgstr "<item type=\"input\">=ALS.NB(D3;D4)</item> geeft de waarde D3 als D3 niet in een #N/B-fout eindigt of D4 als het dit wel doet."
 
 #. fAgB3
 #: 04060104.xhp
@@ -10517,7 +10517,7 @@ msgctxt ""
 "hd_id3150141\n"
 "help.text"
 msgid "IF"
-msgstr "OF"
+msgstr "ALS"
 
 #. uai2u
 #: 04060105.xhp
@@ -10535,7 +10535,7 @@ msgctxt ""
 "par_id3154558\n"
 "help.text"
 msgid "IF(Test [; [ThenValue] [; [OtherwiseValue]]])"
-msgstr "ALS(Test; Dan waarde (optioneel); Anders waarde (optioneel))"
+msgstr "ALS(Test; Waarde als waar (optioneel); Waarde als onwaar (optioneel))"
 
 #. JnjcT
 #: 04060105.xhp
@@ -10553,7 +10553,7 @@ msgctxt ""
 "par_id3155828\n"
 "help.text"
 msgid "<emph>ThenValue</emph> (optional) is the value that is returned if the logical test is TRUE."
-msgstr "<emph>Dan waarde</emph> (optioneel) is de waarde die wordt teruggegeven als de logische test WAAR is."
+msgstr "<emph>Waarde als waar</emph> (optioneel) is de waarde die wordt teruggegeven als de logische test WAAR is."
 
 #. 7oFXG
 #: 04060105.xhp
@@ -10562,7 +10562,7 @@ msgctxt ""
 "par_id3154811\n"
 "help.text"
 msgid "<emph>OtherwiseValue</emph> (optional) is the value that is returned if the logical test is FALSE."
-msgstr "<emph>Anders waarde</emph> (optioneel) is de waarde die wordt teruggegeven als de logische test ONWAAR is."
+msgstr "<emph>Waarde als onwaar</emph> (optioneel) is de waarde die wordt teruggegeven als de logische test ONWAAR is."
 
 #. oRABw
 #: 04060105.xhp
@@ -10589,7 +10589,7 @@ msgctxt ""
 "par_id11607570458867\n"
 "help.text"
 msgid "<input>=IF(A1>5;100;)</input> If the value in <literal>A1</literal> is less than <literal>5</literal>, the value <literal>0</literal> is returned because the empty <emph>OtherwiseValue</emph> is interpreted as <literal>0</literal>; otherwise <literal>100</literal> is returned."
-msgstr "<input>=ALS(A1>5;100;)</input> als de waarde in <literal>A1</literal> kleiner is dan <literal>5</literal>, wordt de waarde <literal>0</literal> geretourneerd, omdat lege <emph>Anders waarde</emph> geïnterpreteerd wordt als <literal>0</literal>; anders wordt <literal>100</literal> geretourneerd."
+msgstr "<input>=ALS(A1>5;100;)</input> als de waarde in <literal>A1</literal> kleiner is dan <literal>5</literal>, wordt de waarde <literal>0</literal> geretourneerd, omdat lege <emph>Waarde als onwaar</emph> geïnterpreteerd wordt als <literal>0</literal>; anders wordt <literal>100</literal> geretourneerd."
 
 #. BKYkX
 #: 04060105.xhp
@@ -10796,7 +10796,7 @@ msgctxt ""
 "par_id3154314\n"
 "help.text"
 msgid "<item type=\"input\">=NOT(AND(A;B))</item> returns TRUE"
-msgstr "<item type=\"input\">=ALS(A1>5;100;)</item> Als de waarde in A1 kleiner is dan 5, wordt de waarde 0 geretourneerd omdat de lege Anders waarde wordt geïnterpreteerd als 0; anders wordt 100 geretourneerd."
+msgstr "<item type=\"input\">=ALS(A1>5;100;)</item> Als de waarde in A1 kleiner is dan 5, wordt de waarde 0 geretourneerd omdat de lege Waarde als onwaar wordt geïnterpreteerd als 0; anders wordt 100 geretourneerd."
 
 #. 7bq9r
 #: 04060105.xhp
@@ -24586,7 +24586,7 @@ msgctxt ""
 "par_id3146098\n"
 "help.text"
 msgid "ODDFPRICE(Settlement; Maturity; Issue; FirstCoupon; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr "AFW.ET.PRIJS(Aankoopdatum; Vervaldatum; Uitgifte; Eerste rentetermijn; Rente; Rendement; Aflossingsbedrag; Frequentie ; Soort jaar (optioneel))"
+msgstr "PRIJS AFW.ET.Prijs( Aankoopdatum; Vervaldatum; Uitgifte; Eerste renteperiode; Rente; Rendement; Aflossingsbedrag; Frequentie; Soort jaar (optioneel))"
 
 #. kHZM8
 #: 04060118.xhp
@@ -24622,7 +24622,7 @@ msgctxt ""
 "par_id3150393\n"
 "help.text"
 msgid "<emph>FirstCoupon</emph> is the first interest date of the security."
-msgstr "<emph>Eerste rentetermijn</emph> is de eerste rentedatum van het waardepapier."
+msgstr "<emph>Eerste renteperiode</emph> is de eerste rentedatum van het waardepapier."
 
 #. 5rwAJ
 #: 04060118.xhp
@@ -24694,7 +24694,7 @@ msgctxt ""
 "par_id3152982\n"
 "help.text"
 msgid "ODDFYIELD(Settlement; Maturity; Issue; FirstCoupon; Rate; Price; Redemption; Frequency [; Basis])"
-msgstr "AFW.ET.REND(Aankoopdatum; Vervaldatum; Uitgifte; Eerste rentetermijn; Rente; Koers; Aflossingsbedrag; Frequentie ; Soort jaar (optioneel))"
+msgstr "AFW.ET.REND( Aankoopdatum; Vervaldatum; Uitgifte; Eerste renteperiode; Rente; Rendement; Aflossingsbedrag; Frequentie; Soort jaar (optioneel))"
 
 #. nJXTW
 #: 04060118.xhp
@@ -24730,7 +24730,7 @@ msgctxt ""
 "par_id3148725\n"
 "help.text"
 msgid "<emph>FirstCoupon</emph> is the first interest period of the security."
-msgstr "<emph>Eerste rentetermijn</emph> is de eerste renteperiode van het waardepapier."
+msgstr "<emph>Eerste renteperiode</emph> is de eerste renteperiode van het waardepapier."
 
 #. A4B9B
 #: 04060118.xhp
@@ -24802,7 +24802,7 @@ msgctxt ""
 "par_id3155262\n"
 "help.text"
 msgid "ODDLPRICE(Settlement; Maturity; LastInterest; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr "AFW.LT.PRIJS(Aankoopdatum; Vervaldatum; Laatste rentetermijn; Rente; Rendement; Aflossingsbedrag; Frequentie ; Soort jaar (optioneel))"
+msgstr "AFW.LT.PRIJS( Aankoopdatum; Vervaldatum; Laatste renteperiode; Rente; Rendement; Aflossingsbedrag; Frequentie; Soort jaar (optioneel))"
 
 #. iTfu4
 #: 04060118.xhp
@@ -24829,7 +24829,7 @@ msgctxt ""
 "par_id3150861\n"
 "help.text"
 msgid "<emph>LastInterest</emph> is the last interest date of the security."
-msgstr "<emph>Laatste rentetermijn</emph> is de laatste rentedatum van het waardepapier."
+msgstr "<emph>Laatste renteperiode</emph> is de laatste rentedatum van het waardepapier."
 
 #. jErjP
 #: 04060118.xhp
@@ -24874,7 +24874,7 @@ msgctxt ""
 "par_id3152999\n"
 "help.text"
 msgid "Settlement date: February 7 1999, maturity date: June 15 1999, last interest: October 15 1998. Interest rate: 3.75 per cent, yield: 4.05 per cent, redemption value: 100 currency units, frequency of payments: half-yearly = 2, basis: = 0"
-msgstr "Aankoopdatum: 7 Februari 1999, vervaldatum: 15 Juni 1999, laatste rentedatum: 15 Oktober 1998. Rentepercentage: 3,75 procent, rendement: 4,05 procent, aflossingswaarde: 100 valuta-eenheden, frequentie van betalingen: halfjaarlijks = 2, basis: = 0"
+msgstr "Aankoopdatum: 7 Februari 1999, vervaldatum: 15 Juni 1999, laatste renteperiode: 15 Oktober 1998. Rente: 3,75 procent, rendement: 4,05 procent, aflossingsprijs: 100 valuta-eenheden, frequentie van betalingen: halfjaarlijks = 2, soort_jaar: = 0"
 
 #. anhTe
 #: 04060118.xhp
@@ -24928,7 +24928,7 @@ msgctxt ""
 "par_id3150018\n"
 "help.text"
 msgid "ODDLYIELD(Settlement; Maturity; LastInterest; Rate; Price; Redemption; Frequency [; Basis])"
-msgstr "AFW.LT.REND(Aankoopdatum; Vervaldatum; Laatste rentetermijn; Rente; Koers; Aflossingsbedrag; Frequentie ; Soort jaar (optioneel))"
+msgstr "AFW.LT.REND( Aankoopdatum; Vervaldatum; Laatste renteperiode; Rente; Prijs; Aflossingsbedrag; Frequentie; Soort jaar (optioneel))"
 
 #. 4X7wa
 #: 04060118.xhp
@@ -24955,7 +24955,7 @@ msgctxt ""
 "par_id3145245\n"
 "help.text"
 msgid "<emph>LastInterest</emph> is the last interest date of the security."
-msgstr "<emph>Laatste rentetermijn</emph> is de laatste rentedatum van het waardepapier."
+msgstr "<emph>Laatste renteperiode</emph> is de laatste rentedatum van het waardepapier."
 
 #. HEVvA
 #: 04060118.xhp
@@ -24973,7 +24973,7 @@ msgctxt ""
 "par_id3149003\n"
 "help.text"
 msgid "<emph>Price</emph> is the price of the security."
-msgstr "<emph>Koers</emph> is de prijs van het waardepapier."
+msgstr "<emph>Prijs</emph> is de prijs van het waardepapier."
 
 #. EZuav
 #: 04060118.xhp
@@ -25000,7 +25000,7 @@ msgctxt ""
 "par_id3145350\n"
 "help.text"
 msgid "Settlement date: April 20 1999, maturity date: June 15 1999, last interest: October 15 1998. Interest rate: 3.75 per cent, price: 99.875 currency units, redemption value: 100 currency units, frequency of payments: half-yearly = 2, basis: = 0"
-msgstr "Aankoopdatum: 20 April 1999, vervaldatum: 15 Juni 1999, laatste rentedatum: 15 Oktober 1998. Rentepercentage: 3,75 procent, koers: 99,875 valuta-eenheden, aflossingswaarde: 100 valuta-eenheden, frequentie van betalingen: halfjaarlijks = 2, basis: = 0"
+msgstr "Aankoopdatum: 20 April 1999, vervaldatum: 15 Juni 1999, laatste renteperiode: 15 Oktober 1998. Rente: 3,75 procent, Prijs: 99,875 valuta-eenheden, aflossingsprijs: 100 valuta-eenheden, frequentie van betalingen: halfjaarlijks = 2, soort_jaar: = 0"
 
 #. UZV4Z
 #: 04060118.xhp
@@ -55501,7 +55501,7 @@ msgctxt ""
 "par_id701542231253817\n"
 "help.text"
 msgid "<input>ARABIC(Text)</input>"
-msgstr "<input>ARABISCH(Tekst)</input>"
+msgstr "<input>ARABISCH(\"Tekst\")</input>"
 
 #. sWMEb
 #: func_arabic.xhp
@@ -55600,7 +55600,7 @@ msgctxt ""
 "par_id701542231253817\n"
 "help.text"
 msgid "<input>ASC(Text)</input>"
-msgstr "<input>ASC(Tekst)</input>"
+msgstr "<input>ASC(\"Tekst\")</input>"
 
 #. npFEH
 #: func_asc.xhp
@@ -62809,7 +62809,7 @@ msgctxt ""
 "par_id271556235333493\n"
 "help.text"
 msgid "IFS(expression1; result1[; expression2; result2][; ... ; [expression127; result127]])"
-msgstr "ALS.VOORWAARDEN(Test1; Resultaat1; Test2 (optioneel); Resultaat2 (optioneel); ... )"
+msgstr "ALS.VOORWAARDEN(_Test 1; Waarde als waar 1; Test 2 (optioneel); Waarde als waar 2 (optioneel); …)"
 
 #. 3KbKX
 #: func_ifs.xhp
@@ -62818,7 +62818,7 @@ msgctxt ""
 "par_id31556235655212\n"
 "help.text"
 msgid "<emph>expression1, expression2, ...</emph> are any boolean values or expressions that can be TRUE or FALSE"
-msgstr "<emph>Test1, Test2, ...</emph> zijn booleaanse waarden of expressies die WAAR of ONWAAR kunnen zijn"
+msgstr "<emph>Test 1, Test 2 (optioneel), …</emph> zijn booleaanse waarden of expressies die WAAR of ONWAAR kunnen zijn"
 
 #. 8qEKq
 #: func_ifs.xhp
@@ -62827,7 +62827,7 @@ msgctxt ""
 "par_id441556235649549\n"
 "help.text"
 msgid "<emph>result1, result2, ... </emph> are the values that are returned if the logical test is TRUE"
-msgstr "<emph>Resultaat1, Resultaat2, ... </emph> zijn de waarden die worden geretourneerd als de logische test WAAR is"
+msgstr "<emph>Waarde als waar 1, Waarde als waar 2 (optioneel), …</emph> zijn de waarden die worden geretourneerd als de logische test WAAR is"
 
 #. qgtwA
 #: func_ifs.xhp
@@ -66616,7 +66616,7 @@ msgctxt ""
 "par_id211708281649651\n"
 "help.text"
 msgid "RANDARRAY([Rows [; Columns [; Min [; Max [; Integers] ] ] ])"
-msgstr "ASELECT.MATRIX([Rijen [; Kolommen [; Min [; Max [; Gehele getallen] ] ] ])"
+msgstr "ASELECT.MATRIX( Rijen (optioneel); Kolommen (optioneel); Minimum (optioneel); Maximum (optioneel); Gehele getallen (optioneel)"
 
 #. FDbmd
 #: func_randarray.xhp
@@ -66643,7 +66643,7 @@ msgctxt ""
 "par_id171715616081037\n"
 "help.text"
 msgid "<emph>Min</emph>: (optional) The lower limit of the generated numbers. If omitted, the minimum value is 0."
-msgstr "<emph>Min</emph>: (optioneel) De ondergrens van de gegenereerde getallen. Als u dit weglaat, is de minimumwaarde 0."
+msgstr "<emph>Minimum</emph>: (optioneel) De ondergrens van de gegenereerde getallen. Als u dit weglaat, is de minimumwaarde 0."
 
 #. qGeUx
 #: func_randarray.xhp
@@ -66652,7 +66652,7 @@ msgctxt ""
 "par_id361715616086109\n"
 "help.text"
 msgid "<emph>Max</emph>: (optional) The upper limit of the generated numbers. If omitted, the maximum value is 1."
-msgstr "<emph>Max</emph>: (optioneel) De bovengrens van de gegenereerde getallen. Als u dit weglaat, is de maximumwaarde 1."
+msgstr "<emph>Maximum</emph>: (optioneel) De bovengrens van de gegenereerde getallen. Als u dit weglaat, is de maximumwaarde 1."
 
 #. BcDGD
 #: func_randarray.xhp
