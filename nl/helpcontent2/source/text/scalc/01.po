@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 16:41+0100\n"
-"PO-Revision-Date: 2025-09-01 21:53+0000\n"
-"Last-Translator: Henk van der Burg <h.vdburg@hccnet.nl>\n"
+"PO-Revision-Date: 2025-09-02 22:53+0000\n"
+"Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-24-8/textscalc01/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -5153,7 +5153,7 @@ msgctxt ""
 "par_id3153218\n"
 "help.text"
 msgid "DCOUNT(Database; [DatabaseField]; SearchCriteria)"
-msgstr "DBAANTAL(Database; [Databaseveld] (optioneel); Zoekcriteria)"
+msgstr "DBAANTAL(Database; Databaseveld (optioneel); Criteria)"
 
 #. KYvAJ
 #: 04060101.xhp
@@ -5216,7 +5216,7 @@ msgctxt ""
 "par_id3146893\n"
 "help.text"
 msgid "DCOUNTA(Database; [DatabaseField]; SearchCriteria)"
-msgstr "DBAANTAL(Database; Databaseveld (optioneel); Zoekcriteria)"
+msgstr "DBAANTALC(Database; Databaseveld (optioneel); Criteria)"
 
 #. dLvi2
 #: 04060101.xhp
@@ -5243,7 +5243,7 @@ msgctxt ""
 "par_id841616368623207\n"
 "help.text"
 msgid "The same result is obtained if you use the formula <input>=DCOUNTA(A1:E10; \"Distance\"; A12:E13)</input> or the formula <input>=DCOUNTA(A1:E10; \"Name\"; A12:E13)</input>. The latter case reflects that in contrast to DCOUNT, DCOUNTA counts both numeric and alphanumeric values in the column indicated by the <emph>DatabaseField</emph> argument."
-msgstr "Hetzelfde resultaat wordt verkregen als u de formule <input>=DBAANTALALC(A1:E10; \"Afstand\"; A12:E13)</input> of de formule <input>=DBAANTALALC(A1:E10; \"Naam\"; A12) gebruikt :E13)</input>. Het laatste geval geeft aan dat, in tegenstelling tot DBAANTAL, DBAANTALALC zowel numerieke als alfanumerieke waardes telt in de kolom die wordt aangegeven door het argument <emph>DatabaseVeld</emph>."
+msgstr "Hetzelfde resultaat wordt verkregen als u de formule <input>=DBAANTALALC(A1:E10; \"Afstand\"; A12:E13)</input> of de formule <input>=DBAANTALALC(A1:E10; \"Naam\"; A12) gebruikt :E13)</input>. Het laatste geval geeft aan dat, in tegenstelling tot DBAANTAL, DBAANTALALC zowel numerieke als alfanumerieke waardes telt in de kolom die wordt aangegeven door het argument <emph>Databaseveld</emph>."
 
 #. GasLC
 #: 04060101.xhp
@@ -5477,7 +5477,7 @@ msgctxt ""
 "par_id31615978739452\n"
 "help.text"
 msgid "Returns a #DIV/0! error if no records match the specified search criteria, or if there are no numeric values in the cells of the specified column for the matching records."
-msgstr "Retourneert een #DIV/0! fout als er geen records overeenkomen met de opgegeven zoekcriteria, of als er geen numerieke waardes zijn in de cellen van de opgegeven kolom voor de overeenkomende records."
+msgstr "Retourneert een #DELING.DOOR.0! fout als er geen records overeenkomen met de opgegeven zoekcriteria, of als er geen numerieke waardes zijn in de cellen van de opgegeven kolom voor de overeenkomende records."
 
 #. PPkBD
 #: 04060101.xhp
@@ -6872,7 +6872,7 @@ msgctxt ""
 "par_id3150483\n"
 "help.text"
 msgid "SYD(Cost; Salvage; Life; Period)"
-msgstr "SYD(Aanschafwaarde; Restwaarde; Nuttige levensduur; Afschrijvingstermijn)"
+msgstr "SYD(Aanschafwaarde; Restwaarde; Levensduur; Afschrijvingstermijn)"
 
 #. DZf9T
 #: 04060103.xhp
@@ -6899,7 +6899,7 @@ msgctxt ""
 "par_id3151229\n"
 "help.text"
 msgid "<emph>Life</emph> is the period fixing the time span over which an asset is depreciated."
-msgstr "<emph>Nuttige levensduur</emph> is de termijn waarin een goed wordt afgeschreven."
+msgstr "<emph>Levensduur</emph> is de termijn waarin een goed wordt afgeschreven."
 
 #. LLgFC
 #: 04060103.xhp
@@ -7016,7 +7016,7 @@ msgctxt ""
 "par_id3150002\n"
 "help.text"
 msgid "<item type=\"input\">Useful Life</item>"
-msgstr "<item type=\"input\">Nuttige levensduur</item>"
+msgstr "<item type=\"input\">Levensduur</item>"
 
 #. BFrei
 #: 04060103.xhp
@@ -7781,7 +7781,7 @@ msgctxt ""
 "par_id3166452\n"
 "help.text"
 msgid "DDB(Cost; Salvage; Life; Period [; Factor])"
-msgstr "DDB(Kosten; Restwaarde; Nuttige levensduur; Periode ; Factor (optioneel))"
+msgstr "DDB(Kosten; Restwaarde; Levensduur; Periode ; Factor (optioneel))"
 
 #. VKnDB
 #: 04060103.xhp
@@ -7799,7 +7799,7 @@ msgctxt ""
 "par_id3149787\n"
 "help.text"
 msgid "<emph>Salvage</emph> fixes the value of an asset at the end of its life."
-msgstr "<emph>Restwaarde</emph> geeft de waarde van een goed aan het eind van zijn nuttige levensduur aan."
+msgstr "<emph>Restwaarde</emph> geeft de waarde van een goed aan het eind van zijn levensduur aan."
 
 #. PuMJP
 #: 04060103.xhp
@@ -7808,7 +7808,7 @@ msgctxt ""
 "par_id3152945\n"
 "help.text"
 msgid "<emph>Life</emph> is the number of periods (for example, years or months) defining how long the asset is to be used."
-msgstr "<emph>Nuttige levensduur</emph> is het aantal termijnen (bijvoorbeeld jaren of maanden) dat het goed moet worden gebruikt."
+msgstr "<emph>Levensduur</emph> is het aantal termijnen (bijvoorbeeld jaren of maanden) dat het goed moet worden gebruikt."
 
 #. iCYRp
 #: 04060103.xhp
@@ -7889,7 +7889,7 @@ msgctxt ""
 "par_id3153349\n"
 "help.text"
 msgid "DB(Cost; Salvage; Life; Period [; Month])"
-msgstr "DB(Kosten; Restwaarde; Nuttige levensduur; Periode ; Maand (optioneel))"
+msgstr "DB(Kosten; Restwaarde; Levensduur; Periode ; Maand (optioneel))"
 
 #. caSta
 #: 04060103.xhp
@@ -7916,7 +7916,7 @@ msgctxt ""
 "par_id3145371\n"
 "help.text"
 msgid "<emph>Life</emph> defines the period over which an asset is depreciated."
-msgstr "<emph>Nuttige levensduur</emph> definieert de periode waarover een goed wordt afgeschreven."
+msgstr "<emph>Levensduur</emph> definieert de periode waarover een goed wordt afgeschreven."
 
 #. hHMTS
 #: 04060103.xhp
@@ -25029,7 +25029,7 @@ msgctxt ""
 "par_id3145247\n"
 "help.text"
 msgid "DELTA(Number1 [; Number2])"
-msgstr "DELTA(Getal 1 [; Getal 2])"
+msgstr "DELTA(Getal 1; Getal 2 (optioneel))"
 
 #. PEgQC
 #: 04060115.xhp
@@ -25074,7 +25074,7 @@ msgctxt ""
 "par_id3150569\n"
 "help.text"
 msgid "DEC2BIN(Number [; Places])"
-msgstr "DEC.N.BIN(Getal [; Decimalen])"
+msgstr "DEC.N.BIN(Getal; Aantal tekens (optioneel))"
 
 #. zB8ZD
 #: 04060115.xhp
@@ -25092,7 +25092,7 @@ msgctxt ""
 "par_id3149537\n"
 "help.text"
 msgid "<emph>Places</emph> means the number of places to be output."
-msgstr "<emph>Plaatsen</emph> is het aantal plaatsen dat moet worden uitgevoerd."
+msgstr "<emph>Aantal tekens</emph> is het aantal plaatsen dat moet worden uitgevoerd."
 
 #. sqfAb
 #: 04060115.xhp
@@ -25137,7 +25137,7 @@ msgctxt ""
 "par_id3147535\n"
 "help.text"
 msgid "DEC2HEX(Number [; Places])"
-msgstr "DEC.N.HEX(Getal [; Decimalen])"
+msgstr "DEC.N.HEX(Getal; Aantal tekens (optioneel))"
 
 #. hPFv2
 #: 04060115.xhp
@@ -25155,7 +25155,7 @@ msgctxt ""
 "par_id3153221\n"
 "help.text"
 msgid "<emph>Places</emph> means the number of places to be output."
-msgstr "<emph>Plaatsen</emph> is het aantal plaatsen dat moet worden uitgevoerd."
+msgstr "<emph>Aantal tekens</emph> is het aantal plaatsen dat moet worden uitgevoerd."
 
 #. nUCCp
 #: 04060115.xhp
@@ -25200,7 +25200,7 @@ msgctxt ""
 "par_id3148427\n"
 "help.text"
 msgid "DEC2OCT(Number [; Places])"
-msgstr "DEC.N.OCT(Number [; Places])"
+msgstr "DEC.N.OCT(Getal; Aantal tekens (optioneel))"
 
 #. ciFBX
 #: 04060115.xhp
@@ -25218,7 +25218,7 @@ msgctxt ""
 "par_id3152587\n"
 "help.text"
 msgid "<emph>Places</emph> means the number of places to be output."
-msgstr "<emph>Plaatsen</emph> is het aantal plaatsen dat moet worden uitgevoerd."
+msgstr "<emph>Aantal tekens</emph> is het aantal plaatsen dat moet worden uitgevoerd."
 
 #. FBfKR
 #: 04060115.xhp
@@ -27396,7 +27396,7 @@ msgctxt ""
 "par_id3149025\n"
 "help.text"
 msgid "VDB(Cost; Salvage; Life; Start; End [; Factor [; NoSwitch]])"
-msgstr "VDB(Aanschafwaarde; Restwaarde; Nuttige levensduur; Startperiode; Eindperiode ; Factor (optioneel) ; Afschrijvingsmethode (optioneel))"
+msgstr "VDB(Aanschafwaarde; Restwaarde; Levensduur; Beginperiode; Eindperiode ; Factor (optioneel) ; Afschrijvingsmethode (optioneel))"
 
 #. zGhDb
 #: 04060118.xhp
@@ -27423,7 +27423,7 @@ msgctxt ""
 "par_id3154954\n"
 "help.text"
 msgid "<emph>Life</emph> is the depreciation duration of the asset."
-msgstr "<emph>Nuttige levensduur</emph> is de afschrijvingsduur van het goed."
+msgstr "<emph>Levensduur</emph> is de afschrijvingsduur van het goed."
 
 #. wA4Tu
 #: 04060118.xhp
@@ -29889,7 +29889,7 @@ msgctxt ""
 "par_id3166456\n"
 "help.text"
 msgid "SLN(Cost; Salvage; Life)"
-msgstr "LIN.AFSCHR(Aanschaffingswaarde; Restwaarde; Nuttige levensduur)"
+msgstr "LIN.AFSCHR(Aanschaffingswaarde; Restwaarde; Levensduur)"
 
 #. 8CSs2
 #: 04060119.xhp
@@ -29916,7 +29916,7 @@ msgctxt ""
 "par_id3166444\n"
 "help.text"
 msgid "<emph>Life</emph> is the depreciation period determining the number of periods in the depreciation of the asset."
-msgstr "<emph>Nuttige levensduur</emph> is de afschrijvingsperiode die het aantal perioden bepaalt voor de afschrijving van het goed."
+msgstr "<emph>Levensduur</emph> is de afschrijvingsperiode die het aantal perioden bepaalt voor de afschrijving van het goed."
 
 #. 4tbmH
 #: 04060119.xhp
@@ -52227,7 +52227,7 @@ msgctxt ""
 "par_idN1059D\n"
 "help.text"
 msgid "In the case of grouping date values, specifies the number of days to group by."
-msgstr "Wanneer er datumwaarden worden gegroepeerd, wordt hiermee het aantal dagen waarop gegroepeerd moet worden, gespecificeerd."
+msgstr "Wanneer er datumwaardes worden gegroepeerd, wordt hiermee het aantal dagen waarop gegroepeerd moet worden, gespecificeerd."
 
 #. hTrSc
 #: 12090400.xhp
@@ -52245,7 +52245,7 @@ msgctxt ""
 "par_idN105A4\n"
 "help.text"
 msgid "In the case of grouping date values, specifies the intervals to group by."
-msgstr "Wanneer er datumwaarden worden gegroepeerd, worden hiermee de intervallen waarop gegroepeerd moet worden, gespecificeerd."
+msgstr "Wanneer er datumwaardes worden gegroepeerd, worden hiermee de intervallen waarop gegroepeerd moet worden, gespecificeerd."
 
 #. BHb4N
 #: 12100000.xhp
@@ -61245,7 +61245,7 @@ msgctxt ""
 "par_id531642776283977\n"
 "help.text"
 msgid "<input>DATEDIF(Start date; End date; Interval)</input>"
-msgstr "<input>DATUMVERSCHIL(Startdatum; Einddatum; Interval)</input>"
+msgstr "<input>DATUMVERSCHIL(“Begindatum”; “Einddatum”; Interval)</input>"
 
 #. CMjse
 #: func_datedif.xhp
@@ -61362,7 +61362,7 @@ msgctxt ""
 "par_id3252589\n"
 "help.text"
 msgid "<item type=\"input\">=DATEDIF(\"1974-04-17\";\"2012-06-13\";\"y\")</item> yields 38."
-msgstr "<item type=\"input\">=DATUMVERSCHIL(\"17-04-1974\";\"13-06-2012\";\"y\")</item> geeft 38."
+msgstr "<item type=\"input\">=DATUMVERSCHIL(\"1974-04-17\"; \"2012-06-13\"; \"y\")</item> geeft 38."
 
 #. k75FH
 #: func_datedif.xhp
@@ -61371,7 +61371,7 @@ msgctxt ""
 "par_id451535132395328\n"
 "help.text"
 msgid "<item type=\"input\">=DATEDIF(\"1974-04-17\";\"2012-06-13\";\"ym\")</item> yields 1."
-msgstr "<item type=\"input\">=DATUMVERSCHIL(\"17-04-1974\";\"13-06-2012\";\"ym\")</item> geeft 1."
+msgstr "<item type=\"input\">=DATUMVERSCHIL(\"1974-04-17\"; \"2012-06-13\"; \"ym\")</item> geeft 1."
 
 #. 3dbKg
 #: func_datedif.xhp
@@ -61380,7 +61380,7 @@ msgctxt ""
 "par_id611535132402642\n"
 "help.text"
 msgid "<item type=\"input\">=DATEDIF(\"1974-04-17\";\"2012-06-13\";\"md\")</item> yields 27."
-msgstr "<item type=\"input\">=DATUMVERSCHIL(\"17-04-1974\";\"13-06-2012\";\"md\")</item> geeft 27."
+msgstr "<item type=\"input\">=DATUMVERSCHIL(\"1974-04-17\"; \"2012-06-13\"; \"md\")</item> geeft 27."
 
 #. LA2Rw
 #: func_datedif.xhp
@@ -61398,7 +61398,7 @@ msgctxt ""
 "par_id3352589\n"
 "help.text"
 msgid "<item type=\"input\">=DATEDIF(DATE(1974,4,17);\"2012-06-13\";\"m\")</item> yields 457, he has been living for 457 months."
-msgstr "<item type=\"input\">=DATUMVERSCHIL(DATUM(13-06-1974\";\"13-06-2012\";\"m\")</item> geeft 457, hij leeft dus reeds 457 maanden."
+msgstr "<item type=\"input\">=DATUMVERSCHIL(\"1974-04-17\"; 41073; \"d\")</item> geeft 457, hij leeft dus reeds 457 maanden."
 
 #. tFAxV
 #: func_datedif.xhp
@@ -61407,7 +61407,7 @@ msgctxt ""
 "par_id3452589\n"
 "help.text"
 msgid "<item type=\"input\">=DATEDIF(\"1974-04-17\";\"2012-06-13\";\"d\")</item> yields 13937, he has been living for 13937 days."
-msgstr "<item type=\"input\">=DATUMVERSCHIL(\"17-04-1974\";\"13-06-2012\";\"d\")</item> geeft 13937, hij leeft dus reeds 13937 dagen."
+msgstr "<item type=\"input\">=DATUMVERSCHIL(\"1974-04-17\"; 41073; \"d\")</item> geeft 13937, hij leeft dus reeds 13937 dagen."
 
 #. C8DrL
 #: func_datedif.xhp
@@ -61416,7 +61416,7 @@ msgctxt ""
 "par_id3752589\n"
 "help.text"
 msgid "<item type=\"input\">=DATEDIF(\"1974-04-17\";DATE(2012;06;13);\"yd\")</item> yields 57, his birthday was 57 days ago."
-msgstr "<item type=\"input\">=DATUMVERSCHIL(\"17-04-1974\";DATUM(13-06-2012);\"yd\")</item> geeft 57, zijn verjaardag was 57 dagen geleden."
+msgstr "<item type=\"input\">=DATUMVERSCHIL(\"1974-04-17\";DATUM(2012;6;13);\"yd\")</item> geeft 57, zijn verjaardag was 57 dagen geleden."
 
 #. WrGbq
 #: func_datedif.xhp
@@ -61488,7 +61488,7 @@ msgctxt ""
 "par_id3149268\n"
 "help.text"
 msgid "DATEVALUE(\"Text\")"
-msgstr "DATUMWAARDE(\"Tekst\")"
+msgstr "DATUMWAARDE(“Datumtekst”)"
 
 #. b4msi
 #: func_datevalue.xhp
@@ -61506,7 +61506,7 @@ msgctxt ""
 "par_id3155841\n"
 "help.text"
 msgid "<item type=\"input\">=DATEVALUE(\"1954-07-20\")</item>  yields 19925."
-msgstr "<item type=\"input\">=DATUMWAARDE(\"20-07-1954\")</item> levert 19925 op."
+msgstr "<item type=\"input\">=DATUMWAARDE(\"1954-07-20\")</item> levert 19925 op."
 
 #. Y9Fwm
 #: func_datevalue.xhp
@@ -61659,7 +61659,7 @@ msgctxt ""
 "par_id3149578\n"
 "help.text"
 msgid "DAYS(Date2; Date1)"
-msgstr "DAGEN(Datum2; Datum1)"
+msgstr "DAGEN(“Einddatum”; “Begindatum”)"
 
 #. wt5bA
 #: func_days.xhp
@@ -61668,7 +61668,7 @@ msgctxt ""
 "par_id3151376\n"
 "help.text"
 msgid "<emph>Date1</emph> is the start date, <emph>Date2</emph> is the end date. If <emph>Date2</emph> is an earlier date than <emph>Date1</emph> the result is a negative number."
-msgstr "<emph>Datum1</emph> is de begindatum, <emph>Datum2</emph> is de einddatum. Als <emph>Datum2</emph> een eerdere datum is dan <emph>Datum1</emph> is het resultaat een negatief getal."
+msgstr "<emph>Begindatum</emph> is de begindatum, <emph>Einddatum</emph> is de einddatum. Als <emph>Einddatum</emph> een eerdere datum is dan <emph>Begindatum</emph> is het resultaat een negatief getal."
 
 #. hjctD
 #: func_days.xhp
@@ -61740,7 +61740,7 @@ msgctxt ""
 "par_id3155313\n"
 "help.text"
 msgid "DAYS360(Date1; Date2[; Type])"
-msgstr "DAGEN360(Datum 1; Datum 2[; Type])"
+msgstr "DAGEN360(“Begindatum”; “Einddatum”[; Type])"
 
 #. 5qfGz
 #: func_days360.xhp
@@ -61749,7 +61749,7 @@ msgctxt ""
 "par_id3145263\n"
 "help.text"
 msgid "If <emph>Date2</emph> is earlier than <emph>Date1</emph>, the function will return a negative number."
-msgstr "Als <emph>Datum2</emph> eerder is dan <emph>Datum1</emph> zal de functie een negatief getal teruggeven."
+msgstr "Als <emph>Einddatum</emph> eerder is dan <emph>Begintdatum</emph> zal de functie een negatief getal teruggeven."
 
 #. GD4Dc
 #: func_days360.xhp
@@ -61767,7 +61767,7 @@ msgctxt ""
 "par_id3156348\n"
 "help.text"
 msgid "<item type=\"input\">=DAYS360(\"2000-01-01\";NOW())</item> returns the number of interest days from January 1, 2000 until today."
-msgstr "<item type=\"input\">=DAGEN360(\"01-01-2000\"; NU())</item> geeft het aantal dagen terug vanaf 1 januari 2010 tot vandaag."
+msgstr "<item type=\"input\">=DAGEN360(\"2000-01-01\";NU()</item> geeft het aantal dagen terug vanaf 1 januari 2010 tot vandaag."
 
 #. TEfFi
 #: func_days360.xhp
@@ -72209,7 +72209,7 @@ msgctxt ""
 "par_id3145144\n"
 "help.text"
 msgid "<emph>StartDate</emph> and <emph>EndDate</emph> are two date values."
-msgstr "<emph>Startdatum</emph> en <emph>Einddatum</emph> zijn twee datumwaarden."
+msgstr "<emph>Startdatum</emph> en <emph>Einddatum</emph> zijn twee datumwaardes."
 
 #. 3QzPn
 #: func_yearfrac.xhp
