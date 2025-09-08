@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 15:27+0100\n"
-"PO-Revision-Date: 2025-09-06 10:53+0000\n"
+"PO-Revision-Date: 2025-09-08 20:53+0000\n"
 "Last-Translator: Henk van der Burg <h.vdburg@hccnet.nl>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-25-2/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -17440,7 +17440,7 @@ msgctxt ""
 "par_id3166377\n"
 "help.text"
 msgid "GROWTH(DataY [; [ DataX ] [; [ NewDataX ] [; FunctionType ] ] ])"
-msgstr "GROEI(Gegevens Y [; [ Gegevens X ] [; [ NieuweGegevens X ] [; Functietype ] ] ])"
+msgstr "GROEI(Gegevens Y; Gegevens X (optioneel); NieuweGegevens X (optioneel); Functietype (optioneel))"
 
 #. CA3qD
 #: 04060107.xhp
@@ -23236,7 +23236,7 @@ msgctxt ""
 "par_id3145212\n"
 "help.text"
 msgid "GESTEP(Number [; Step])"
-msgstr "GROTER.DAN(Getal [; Drempelwaarde])"
+msgstr "GROTER.DAN(Getal; Drempelwaarde (optioneel))"
 
 #. QG8JU
 #: 04060115.xhp
@@ -28087,7 +28087,7 @@ msgctxt ""
 "par_id3148399\n"
 "help.text"
 msgid "MIRR(Values; Investment; ReinvestRate)"
-msgstr "GIR(Waardes; Investering; Herinvesteringsrente)"
+msgstr "GIR(Waardes; Investeringsrente; Herinvesteringsrente)"
 
 #. D6MGL
 #: 04060119.xhp
@@ -28105,7 +28105,7 @@ msgctxt ""
 "par_id3149998\n"
 "help.text"
 msgid "<emph>Investment</emph> is the rate of interest of the investments (the negative values of the array)"
-msgstr "<emph>Investering</emph> is de rentekoers van de investeringen (de negatieve waardes van de matrix)"
+msgstr "<emph>Investeringsrente</emph> is de rentekoers van de investeringen (de negatieve waardes van de matrix)"
 
 #. J42GD
 #: 04060119.xhp
@@ -28114,7 +28114,7 @@ msgctxt ""
 "par_id3159408\n"
 "help.text"
 msgid "<emph>ReinvestRate</emph>:the rate of interest of the reinvestment (the positive values of the array)"
-msgstr "<emph>HerinvesteringsKoers</emph>: de rentekoers van de herinvestering (de positieve waardes van de matrix)"
+msgstr "<emph>Herinvesteringsrente</emph>: de rentekoers van de herinvestering (de positieve waardes van de matrix)"
 
 #. Auhk8
 #: 04060119.xhp
@@ -32137,7 +32137,7 @@ msgctxt ""
 "par_id2913331\n"
 "help.text"
 msgid "<item type=\"input\">=GAMMA.INV(0.8;1;1)</item> yields 1.61."
-msgstr "<item type=\"input\">=GAMMA.INV.N(0,8;1;1)</item> levert 1,61 op."
+msgstr "<item type=\"input\">=GAMMA.INV.N(0,8;1;1)</item> levert 1,61 (afgerond) op."
 
 #. qXs2u
 #: 04060182.xhp
@@ -32227,7 +32227,7 @@ msgctxt ""
 "par_id2913112\n"
 "help.text"
 msgid "GAMMALN.PRECISE(Number)"
-msgstr "GAMMA.LN.NAUWKEURIG(Aantal)"
+msgstr "GAMMA.LN.NAUWKEURIG(Getal)"
 
 #. AB9GD
 #: 04060182.xhp
@@ -32245,7 +32245,7 @@ msgctxt ""
 "par_id2913730\n"
 "help.text"
 msgid "<item type=\"input\">=GAMMALN.PRECISE(2)</item> yields 0."
-msgstr "<item type=\"input\">=GAMMA.LN(2)</item> levert 0 op."
+msgstr "<item type=\"input\">=GAMMA.LN.NAUWKEURIG(2)</item> levert 0 op."
 
 #. mMbT3
 #: 04060182.xhp
@@ -32389,7 +32389,7 @@ msgctxt ""
 "par_id240620142238475\n"
 "help.text"
 msgid "GAMMA.DIST(Number; Alpha; Beta; Cumulative)"
-msgstr "GAMMA.VERD.N (Aantal; Alfa; Beta; Cumulatief)"
+msgstr "GAMMA.VERD.N (Getal; Alfa; Beta; Cumulatief)"
 
 #. kLcmS
 #: 04060182.xhp
@@ -32434,7 +32434,7 @@ msgctxt ""
 "par_id2406201422392251\n"
 "help.text"
 msgid "<item type=\"input\">=GAMMA.DIST(2;1;1;1)</item> yields 0.86."
-msgstr "<item type=\"input\">=GAMMA.VERD.N(2;1;1;1)</item> levert 0,86 op."
+msgstr "<item type=\"input\">=GAMMA.VERD.N(2;1;1;1)</item> levert 0,86 (afgerond) op."
 
 #. 6mr63
 #: 04060182.xhp
@@ -32497,7 +32497,7 @@ msgctxt ""
 "par_id3154867\n"
 "help.text"
 msgid "<item type=\"input\">=GAUSS(0.19)</item> = 0.08"
-msgstr "<item type=\"input\">=GAUSS(0,19)</item> = 0,08"
+msgstr "<item type=\"input\">=GAUSS(0,19)</item> = 0,08 (afgerond)"
 
 #. Fe79N
 #: 04060182.xhp
@@ -32506,7 +32506,7 @@ msgctxt ""
 "par_id3148594\n"
 "help.text"
 msgid "<item type=\"input\">=GAUSS(0.0375)</item> = 0.01"
-msgstr "<item type=\"input\">=GAUSS(0,0375)</item> = 0,01"
+msgstr "<item type=\"input\">=GAUSS(0,0375)</item> = 0,01 (afgerond)"
 
 #. nrdNQ
 #: 04060182.xhp
@@ -54187,7 +54187,7 @@ msgctxt ""
 "par_id317001803813193\n"
 "help.text"
 msgid "<emph>Criterion2</emph> – Optional. Criterion2 and all the following mean the same as Criterion."
-msgstr "<emph>Criterium 2</emph> – Optioneel. Criterium 2 en alle volgende betekenen hetzelfde als Criterium."
+msgstr "<emph>Criterium 2</emph> (optioneel). Criterium 2 en alle volgende betekenen hetzelfde als Criterium."
 
 #. tzFDE
 #: ex_data_stat_func.xhp
@@ -54781,7 +54781,7 @@ msgctxt ""
 "par_id1001584395844941\n"
 "help.text"
 msgid "<emph>Integer 1; Integer 2; … ; Integer 255</emph> are integers, references to cells or to cell ranges of integers."
-msgstr "<emph>Geheel getal 1; Geheel getal 2; … ; Geheel getal 255</emph> zijn gehele getallen, verwijzingen naar cellen of naar celbereiken van gehele getallen."
+msgstr "<emph>Geheel getal 1; Geheel getal 2 (optioneel); …</emph> zijn gehele getallen, verwijzingen naar cellen of naar celbereiken van gehele getallen."
 
 #. B6MF9
 #: ful_func.xhp
@@ -55708,7 +55708,7 @@ msgctxt ""
 "par_id174711913219765\n"
 "help.text"
 msgid "<emph>Average_Range</emph> – optional. It is a range of values for calculating the mean."
-msgstr "<emph>Gemiddeld bereik</emph> – optioneel. Het is een reeks waarden voor de berekening van het gemiddelde."
+msgstr "<emph>Gemiddeld bereik</emph> (optioneel). Het is een reeks waarden voor de berekening van het gemiddelde."
 
 #. kCbPD
 #: func_averageif.xhp
@@ -70360,7 +70360,7 @@ msgctxt ""
 "par_id341641927560587\n"
 "help.text"
 msgid "<input>TRUNC(Number [; Count])</input>"
-msgstr "<input>GEHEEL(Getal ; Aantal (optioneel))</input>"
+msgstr "<input>GEHEEL(Getal ; Aantal decimalen (optioneel))</input>"
 
 #. RryDW
 #: func_trunc.xhp
@@ -70378,7 +70378,7 @@ msgctxt ""
 "par_id861641927715672\n"
 "help.text"
 msgid "<emph>Count:</emph> Optional parameter that defines the number of decimal places to be kept. The default value is 0 (zero)."
-msgstr "<emph>Aantal:</emph> Optionele parameter die het aantal decimalen definieert dat moet worden bewaard. De standaardwaarde is 0 (nul)."
+msgstr "<emph>Aantal decimalen:</emph> Optionele parameter die het aantal decimalen definieert dat moet worden bewaard. De standaardwaarde is 0 (nul)."
 
 #. HKrSh
 #: func_trunc.xhp
@@ -70387,7 +70387,7 @@ msgctxt ""
 "par_id911641928545976\n"
 "help.text"
 msgid "Use negative values for <emph>Count</emph> to round the integer part of the original <emph>Number</emph>. For example, -1 will round down the first integer number before the decimal separator, -2 will round down the two integer numbers before the decimal separator, and so forth."
-msgstr "Gebruik negatieve waarden voor <emph>Aantal</emph> om het gehele deel van het originele <emph>Getal</emph> af te ronden. Met -1 wordt bijvoorbeeld het eerste gehele getal vóór het decimaalteken naar beneden afgerond, met -2 worden de twee gehele getallen vóór het decimaalteken naar beneden afgerond, enzovoort."
+msgstr "Gebruik negatieve waarden voor <emph>Aantal decimalen</emph> (optioneel) om het gehele deel van het originele <emph>Getal</emph> af te ronden. Met -1 wordt bijvoorbeeld het eerste gehele getal vóór het decimaalteken naar beneden afgerond, met -2 worden de twee gehele getallen vóór het decimaalteken naar beneden afgerond, enzovoort."
 
 #. EJFZd
 #: func_trunc.xhp
@@ -70396,7 +70396,7 @@ msgctxt ""
 "par_id901641928192870\n"
 "help.text"
 msgid "<input>=TRUNC(21.89)</input> returns 21. Note that this example uses the default value for <emph>Count</emph> which is 0."
-msgstr "<input>=GEHEEL(21,89)</input> geeft 21. Merk op dat dit voorbeeld de standaardwaarde voor <emph>Aantal</emph> gebruikt die 0 is."
+msgstr "<input>=GEHEEL(21,89)</input> geeft 21. Merk op dat dit voorbeeld de standaardwaarde voor <emph>Aantal decimalen</emph> (optioneel) gebruikt die 0 is."
 
 #. ccEGa
 #: func_trunc.xhp
@@ -70423,7 +70423,7 @@ msgctxt ""
 "par_id641641928712287\n"
 "help.text"
 msgid "<input>=TRUNC(214.2,-1)</input> returns 210. Note the negative value for <emph>Count</emph>, which causes the first integer value before the decimal separator to be rounded towards zero."
-msgstr "<input>=GEHEEL(214,2;-1)</input> geeft 210. Let op de negatieve waarde voor <emph>Aantal</emph>, waardoor het eerste gehele getal vóór het decimaalteken naar nul wordt afgerond."
+msgstr "<input>=GEHEEL(214,2;-1)</input> geeft 210. Let op de negatieve waarde voor <emph>Aantal decimalen</emph> (optioneel), waardoor het eerste gehele getal vóór het decimaalteken naar nul wordt afgerond."
 
 #. npECj
 #: func_trunc.xhp
