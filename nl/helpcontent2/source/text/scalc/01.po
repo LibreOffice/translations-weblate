@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 15:27+0100\n"
-"PO-Revision-Date: 2025-09-13 07:53+0000\n"
+"PO-Revision-Date: 2025-09-14 08:53+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-25-2/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -13145,7 +13145,7 @@ msgctxt ""
 "par_id241599040594931\n"
 "help.text"
 msgid "<literal>=POWER(0,0)</literal> returns 1; <literal>=POWER(0,X)</literal> reports the #NUM! error when  exponent X is negative."
-msgstr "<literal>=MACHT(0,0)</literal> retourneert 1; <literal>=MACHT(0,X)</literal> rapporteert de fout #GETAL!  als exponent X negatief is."
+msgstr "<literal>=MACHT(0;0)</literal> retourneert 1; <literal>=MACHT(0;Exponent)</literal> rapporteert de fout #GETAL!  als exponent X negatief is."
 
 #. ShFKC
 #: 04060106.xhp
@@ -13154,7 +13154,7 @@ msgctxt ""
 "par_id241599040594900\n"
 "help.text"
 msgid "<literal>=POWER(B,X)</literal> may or may not report a #NUM! error when B is negative and X is not an integer."
-msgstr "<literal>=MACHT(B,X)</literal> kan wel of niet een fout #GETAL! geven wanneer B negatief is en X geen geheel getal is."
+msgstr "<literal>=MACHT(Basis;Exponent</literal> kan wel of niet een fout #GETAL! geven wanneer Basis negatief is en exponent geen geheel getal is."
 
 #. YCb9B
 #: 04060106.xhp
@@ -20320,7 +20320,7 @@ msgctxt ""
 "par_id3146869\n"
 "help.text"
 msgid "MONTHS(StartDate; EndDate; Type)"
-msgstr "MAANDEN(Begindatum; Einddatum; Type)"
+msgstr "MAANDEN(“Begindatum”; “Einddatum”; Type)"
 
 #. 5JEZA
 #: 04060111.xhp
@@ -51847,7 +51847,7 @@ msgctxt ""
 "par_id301616845402409\n"
 "help.text"
 msgid "This function ignores any text or empty cell within a data range. If you suspect wrong results from this function, look for text in the data ranges. To highlight text contents in a data range, use the <link href=\"text/scalc/01/03080000.xhp\">value highlighting</link> feature."
-msgstr "Deze functie negeert elke tekst of lege cel binnen een gegevensbereik. Als u verkeerde resultaten van deze functie vermoedt, zoek dan naar tekst in de gegevensbereiken. Gebruik de functie <link href=\"text/scalc/01/03080000.xhp\">waarde markeren</link> om tekstinhoud in een gegevensbereik te markeren."
+msgstr "Deze functie negeert elke tekst of lege cel binnen een gegevensbereik. Als u verkeerde resultaten van deze functie vermoedt, zoek dan naar tekst in de gegevensbereiken. Gebruik de functie <link href=\"text/scalc/01/03080000.xhp\">Waardemarkering</link> om tekstinhoud in een gegevensbereik te markeren."
 
 #. s37P8
 #: common_func.xhp
@@ -54052,7 +54052,7 @@ msgctxt ""
 "par_id94162948227556\n"
 "help.text"
 msgid "The logical relation between criteria can be defined as logical AND (conjunction). In other words, if and only if all given criteria are met, a value from the corresponding cell of the given <emph>Func_Range</emph> is taken into calculation."
-msgstr "De logische relatie tussen criteria kan worden gedefinieerd als logische EN (conjunctie). Met andere woorden, als en alleen als aan alle gegeven criteria is voldaan, wordt een waarde uit de overeenkomstige cel van de gegeven <emph>Gemiddeld bereik</emph> in de berekening meegenomen."
+msgstr "De logische relatie tussen criteria kan worden gedefinieerd als logische EN (conjunctie). Met andere woorden, als en alleen als aan alle gegeven criteria is voldaan, wordt een waarde uit de overeenkomstige cel van de gegeven <emph>Maximaal bereik</emph> in de berekening meegenomen."
 
 #. s3NRA
 #: ex_data_stat_func.xhp
@@ -54061,7 +54061,7 @@ msgctxt ""
 "par_id14734320631377\n"
 "help.text"
 msgid "<emph>Func_Range</emph> and <emph>Range1, Range2...</emph> must have the same size, otherwise the function returns err:502 - Invalid argument."
-msgstr "<emph>Gemiddeld bereik</emph> en<emph>Bereik 1, Bereik 2...</emph> moeten hetzelfde formaat hebben, anders geeft de functie fout:502 - Ongeldig argument."
+msgstr "<emph>Maximaal bereik</emph> en <emph>Bereik 1, Bereik 2...</emph> moeten hetzelfde formaat hebben, anders geeft de functie fout:502 - Ongeldig argument."
 
 #. XB7By
 #: ex_data_stat_func.xhp
@@ -64609,7 +64609,7 @@ msgctxt ""
 "hd_id658866588665886\n"
 "help.text"
 msgid "<variable id=\"maxifs_head\"><link href=\"text/scalc/01/func_maxifs.xhp\">MAXIFS</link></variable> function"
-msgstr "<variable id=\"maxifs_head\"><link href=\"text/scalc/01/func_maxifs.xhp\">MAX.ALS</link></variable> functie"
+msgstr "<variable id=\"maxifs_head\"><link href=\"text/scalc/01/func_maxifs.xhp\">MAX.ALS.VOORWAARDEN</link></variable> functie"
 
 #. DXshy
 #: func_maxifs.xhp
@@ -64636,7 +64636,7 @@ msgctxt ""
 "par_id59901690530236\n"
 "help.text"
 msgid "<emph>Func_Range</emph> – required argument. A range of cells, a name of a named range or a label of a column or a row containing values for calculating the maximum."
-msgstr "<emph>Functiebereik</emph> – vereist argument. Het is een reeks cellen, een naam van een benoemd bereik of een label van een kolom of een rij met waarden, voor de berekening van het gemiddelde."
+msgstr "<emph>Maximaal bereik</emph> – vereist argument. Het is een reeks cellen, een naam van een benoemd bereik of een label van een kolom of een rij met waarden, voor de berekening van het gemiddelde."
 
 #. BUavo
 #: func_maxifs.xhp
@@ -64654,7 +64654,7 @@ msgctxt ""
 "par_id94321051525036\n"
 "help.text"
 msgid "<item type=\"input\">=MAXIFS(B2:B6;B2:B6;\"<35\")</item>"
-msgstr "<item type=\"input\">=MAX.ALS(B2:B6;B2:B6;\"<35\")</item>"
+msgstr "<item type=\"input\">=MAX.ALS.VOORWAARDEN(B2:B6;B2:B6;\"<35\")</item>"
 
 #. j2PKY
 #: func_maxifs.xhp
@@ -64672,7 +64672,7 @@ msgctxt ""
 "par_id36952767622741\n"
 "help.text"
 msgid "<item type=\"input\">=MAXIFS(C2:C6;B2:B6;\">=20\";C2:C6;\"<90\")</item>"
-msgstr "<item type=\"input\">=MAX.ALS(C2:C6;B2:B6;\">=20\";C2:C6;\"<90\")</item>"
+msgstr "<item type=\"input\">=MAX.ALS.VOORWAARDEN(C2:C6;B2:B6;\">=20\";C2:C6;\"<90\")</item>"
 
 #. nGj4o
 #: func_maxifs.xhp
@@ -64699,7 +64699,7 @@ msgctxt ""
 "par_id307691022525348\n"
 "help.text"
 msgid "<item type=\"input\">=MAXIFS(C2:C6;B2:B6;\">\"&MIN(B2:B6);B2:B6;\"<\"&MAX(B2:B6))</item>"
-msgstr "<item type=\"input\">=MAX.ALS(C2:C6;B2:B6;\">\"&MIN(B2:B6);B2:B6;\"<\"&MAX(B2:B6))</item>"
+msgstr "<item type=\"input\">=MAX.ALS.VOORWAARDEN(C2:C6;B2:B6;\">\"&MIN(B2:B6);B2:B6;\"<\"&MAX(B2:B6))</item>"
 
 #. CR2To
 #: func_maxifs.xhp
@@ -64717,7 +64717,7 @@ msgctxt ""
 "par_id220502883332563\n"
 "help.text"
 msgid "<item type=\"input\">=MAXIFS(C2:C6;A2:A6;\"pen.*\";B2:B6;\"<=\"&MAX(B2:B6))</item>"
-msgstr "<item type=\"input\">=MAX.ALS(C2:C6;A2:A6;\"pen.*\";B2:B6;\"<=\"&MAX(B2:B6))</item>"
+msgstr "<item type=\"input\">=MAX.ALS.VOORWAARDEN(C2:C6;A2:A6;\"pen.*\";B2:B6;\"<=\"&MAX(B2:B6))</item>"
 
 #. FQicN
 #: func_maxifs.xhp
@@ -64753,7 +64753,7 @@ msgctxt ""
 "par_id135761606425300\n"
 "help.text"
 msgid "<item type=\"input\">=MAXIFS(C2:C6;A2:A6;E2&\".*\";B2:B6;\"<\"&MAX(B2:B6))</item>"
-msgstr "<item type=\"input\">=MAX.ALS(C2:C6;A2:A6;E2&\".*\";B2:B6;\"<\"&MAX(B2:B6))</item>"
+msgstr "<item type=\"input\">=MAX.ALS.VOORWAARDEN(C2:C6;A2:A6;E2&\".*\";B2:B6;\"<\"&MAX(B2:B6))</item>"
 
 #. wHPFq
 #: func_maxifs.xhp
