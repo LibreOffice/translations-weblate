@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-09-18 11:33+0200\n"
-"PO-Revision-Date: 2025-09-28 06:53+0000\n"
+"PO-Revision-Date: 2025-09-28 18:20+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -17359,7 +17359,7 @@ msgctxt ""
 "par_id3166122\n"
 "help.text"
 msgid "TREND(DataY [; DataX [; NewDataX [; LinearType]]])"
-msgstr "TREND(Gegevens Y [; Gegevens X [; NieuweGegevens X [; Lineairtype]]])"
+msgstr "TREND(Gegevens Y; Gegevens X (optioneel); NieuweGegevens X (optioneel); Lijntype (optioneel))"
 
 #. qeK4r
 #: 04060107.xhp
@@ -17395,7 +17395,7 @@ msgctxt ""
 "par_id3166196\n"
 "help.text"
 msgid "<emph>LinearType</emph> (optional). If LinearType = 0, then lines will be calculated through the zero point. Otherwise, offset lines will also be calculated. The default is LinearType <> 0."
-msgstr "<emph>Lineairtype</emph> (optioneel). Als Lineairtype = 0 worden lijnen berekend door het nulpunt. Anders worden daarbuiten vallende lijnen ook berekend. Standaard is Lineairtype <> 0."
+msgstr "<emph>Lijntype</emph> (optioneel). Als Lijntype= 0 worden lijnen berekend door het nulpunt. Anders worden daarbuiten vallende lijnen ook berekend. Standaard is Lijntype<> 0."
 
 #. 6mQp3
 #: 04060107.xhp
@@ -26233,7 +26233,7 @@ msgctxt ""
 "bm_id3155912\n"
 "help.text"
 msgid "<bookmark_value>FVSCHEDULE function</bookmark_value>  <bookmark_value>future values;varying interest rates</bookmark_value>"
-msgstr "<bookmark_value>TW2-functie</bookmark_value>  <bookmark_value>toekomstige waardes;veranderende rentevoeten</bookmark_value>"
+msgstr "<bookmark_value>TOEK.WAARDE2-functie</bookmark_value>  <bookmark_value>toekomstige waardes;veranderende rentevoeten</bookmark_value>"
 
 #. PCwSd
 #: 04060118.xhp
@@ -26242,7 +26242,7 @@ msgctxt ""
 "hd_id3155912\n"
 "help.text"
 msgid "FVSCHEDULE"
-msgstr "TW2"
+msgstr "TOEK.WAARDE2"
 
 #. CzFkE
 #: 04060118.xhp
@@ -26260,7 +26260,7 @@ msgctxt ""
 "par_id3148891\n"
 "help.text"
 msgid "FVSCHEDULE(Principal; Schedule)"
-msgstr "TW2(Hoofdsom; Rentepercentages)"
+msgstr "TOEK.WAARDE2(Hoofdsom; Rentepercentages)"
 
 #. MFuL8
 #: 04060118.xhp
@@ -26296,7 +26296,7 @@ msgctxt ""
 "par_id3156358\n"
 "help.text"
 msgid "<input>=FVSCHEDULE(1000;{0.03;0.04;0.05})</input> returns 1124.76."
-msgstr "<input>=TW2(1000;{0,03;0,04;0,05})</input> geeft 1124,76."
+msgstr "<input>=TOEK.WAARDE2(1000;{0,03;0,04;0,05})</input> geeft 1124,76."
 
 #. fi9VS
 #: 04060118.xhp
@@ -37744,7 +37744,7 @@ msgctxt ""
 "par_id3149773\n"
 "help.text"
 msgid "<item type=\"input\">=TDIST(12;5;1)</item>"
-msgstr "<item type=\"input\">=TVERD(12;5;1)</item>"
+msgstr "<item type=\"input\">=TVERD(12;5;1) geeft 3,54474626E</item>"
 
 #. eC3Bv
 #: 04060185.xhp
@@ -61783,7 +61783,7 @@ msgctxt ""
 "hd_id348223482234822\n"
 "help.text"
 msgid "<variable id=\"error_type_head\"><link href=\"text/scalc/01/func_error_type.xhp\">ERROR.TYPE</link></variable> function"
-msgstr "<variable id=\"error_type_head\"><link href=\"text/scalc/01/func_error_type.xhp\">TYPE.FOUT-functie</link></variable>-functie"
+msgstr "Functie <variable id=\"error_type_head\"><link href=\"text/scalc/01/func_error_type.xhp\">TYPE.FOUT</link></variable>"
 
 #. UMFCu
 #: func_error_type.xhp
@@ -61792,7 +61792,7 @@ msgctxt ""
 "par_id350283502835028\n"
 "help.text"
 msgid "<ahelp hid=\".\"><variable id=\"error_type_des\">Returns a number representing a specific Error type, or the error value #N/A, if there is no error. </variable></ahelp>"
-msgstr "<ahelp hid=\".\"><variable id=\"error_type_des\">Geeft een getal dat een bepaald type fout aanduidt of de foutwaarde #N/A, als er geen fout is.</variable></ahelp>"
+msgstr "<ahelp hid=\".\"><variable id=\"error_type_des\">Geeft een getal dat een bepaald type fout aanduidt of de foutwaarde #N/B, als er geen fout is.</variable></ahelp>"
 
 #. YFzz5
 #: func_error_type.xhp
@@ -61909,7 +61909,7 @@ msgctxt ""
 "par_id121020152054075192\n"
 "help.text"
 msgid "#N/A"
-msgstr "#N/A"
+msgstr "#N/B"
 
 #. mCLBE
 #: func_error_type.xhp
@@ -62152,7 +62152,7 @@ msgctxt ""
 "par_id601738075517060\n"
 "help.text"
 msgid "=EXPAND(Array; Rows [; Columns [; Pad_with]])"
-msgstr "=UITBREIDEN(Matrix; Rijen [; Kolommen[; Opvullen_met]])"
+msgstr "UITBREIDEN(Matrix; Rijen; Kolommen (optioneel); “Opvullen met” (optioneel))"
 
 #. ppWFd
 #: func_expand.xhp
@@ -62179,7 +62179,7 @@ msgctxt ""
 "par_id1001738076043608\n"
 "help.text"
 msgid "<emph>Columns</emph>: (optional) The final number of columns the array will expand. Default is total columns."
-msgstr "<emph>Kolommen</emph>: het uiteindelijke aantal kolommen waarmee de matrix wordt uitgebreid. Standaard is het totale aantal kolommen."
+msgstr "<emph>Kolommen</emph> (optioneel): het uiteindelijke aantal kolommen waarmee de matrix wordt uitgebreid. Standaard is het totale aantal kolommen."
 
 #. xoxMh
 #: func_expand.xhp
@@ -62188,7 +62188,7 @@ msgctxt ""
 "par_id411737825456380\n"
 "help.text"
 msgid "<emph>Pad_with</emph>: (optional) a specified value to pad in new cells. By default, #N/A is used to fill the new cells."
-msgstr "<emph>Opvullen_met</emph>: (optioneel) een opgegeven waarde om in nieuwe cellen op te vullen. Standaard wordt #N/B gebruikt om de nieuwe cellen te vullen."
+msgstr "<emph>Opvullen met</emph>: (optioneel) een opgegeven waarde om in nieuwe cellen op te vullen. Standaard wordt #N/B gebruikt om de nieuwe cellen te vullen."
 
 #. 3923w
 #: func_expand.xhp
@@ -71800,7 +71800,7 @@ msgctxt ""
 "par_id121747066183422\n"
 "help.text"
 msgid "<emph>Match Mode</emph>: (optional) set to 1 to perform a case-insensitive match. The default is 0."
-msgstr "<emph>Overeenkomstmodus</emph>: (optioneel) stel in op 1 om een hoofdletterongevoelige match uit te voeren. De standaardwaarde is 0."
+msgstr "<emph>Hoofdlettergevoelig</emph>: (optioneel) stel in op 1 om een hoofdletterongevoelige match uit te voeren. De standaardwaarde is 0."
 
 #. NkfZ6
 #: func_textbefore.xhp
@@ -72934,7 +72934,7 @@ msgctxt ""
 "par_id0907200904123846\n"
 "help.text"
 msgid "<item type=\"literal\">UNICODE(\"Text\")</item>"
-msgstr "<item type=\"literal\">UNICODE(Tekst)</item>"
+msgstr "<item type=\"literal\">UNICODE(\"Tekst\")</item>"
 
 #. YQHD3
 #: func_unicode.xhp
