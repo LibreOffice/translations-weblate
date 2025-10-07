@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2025-09-18 11:33+0200\n"
+"POT-Creation-Date: 2025-10-07 13:33+0200\n"
 "PO-Revision-Date: 2025-10-07 10:54+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/nl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1564829506.000000\n"
 
 #. kBovX
@@ -32655,116 +32655,140 @@ msgctxt "sortoptionspage|extended_tip|formats"
 msgid "Preserves the current cell formatting."
 msgstr "Behoudt de huidige celopmaak."
 
-#. Gtck5
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:67
+#. cSDLE
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:73
 msgctxt "sortoptionspage|naturalsort"
-msgid "Enable natural sort"
-msgstr "Natuurlijke sortering inschakelen"
+msgid "Recognize numbers within strings"
+msgstr ""
 
-#. VH4tV
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:75
-msgctxt "sortoptionspage|extended_tip|naturalsort"
-msgid "Natural sort is a sort algorithm that sorts string-prefixed numbers based on the value of the numerical element in each sorted number, instead of the traditional way of sorting them as ordinary strings."
-msgstr "Natuurlijke sortering is een soort algoritme dat getallen voorafgegaan door tekens sorteert op de waarde van het numerieke element in elk te sorteren getal in plaats van te sorteren op de normale manier als gewone tekenreeksen."
+#. 3uXDX
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:78
+msgctxt "sortoptionspage|naturalsort"
+msgid "For numbers embedded in text, sorting uses their values instead of their sequence of digit characters. Example: A1, A2, A10 instead of A1, A10, A2"
+msgstr ""
+
+#. pFhCH
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:90
+msgctxt "sortoptionspage|naturalsort|doublenaturalsortrb"
+msgid "Use decimal numbers as a whole"
+msgstr ""
+
+#. FGeaW
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:95
+msgctxt "sortoptionspage|naturalsort|doublenaturalsortrb"
+msgid "Decimal numbers are detected. Example: A1.14, A1.2, A2.5, A10 (with dot as separator)"
+msgstr ""
+
+#. UvAAR
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:108
+msgctxt "sortoptionspage|naturalsort|integernaturalsortrb"
+msgid "Split in integer and fractions"
+msgstr ""
+
+#. ZwG8g
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:113
+msgctxt "sortoptionspage|naturalsort|integernaturalsortrb"
+msgid "Decimal separator is treated as ordinary character. Example: A1.2, A1.14, A2.5, A10"
+msgstr ""
 
 #. yev2y
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:86
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:133
 msgctxt "sortoptionspage|includenotes"
 msgid "Include boundary column(s) containing only comments"
 msgstr "Voeg grenskolom(men) toe die alleen opmerkingen bevatten."
 
 #. NJ69D
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:100
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:147
 msgctxt "sortoptionspage|includeimages"
 msgid "Include boundary column(s) containing only images"
 msgstr "Voeg grenskolom(men) toe die alleen afbeeldingen bevatten."
 
 #. eZ8XM
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:114
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:161
 msgctxt "sortoptionspage|copyresult"
 msgid "Copy sort results to:"
 msgstr "Resultaten _kopiëren naar:"
 
 #. gis9V
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:125
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:172
 msgctxt "sortoptionspage|extended_tip|copyresult"
 msgid "Copies the sorted list to the cell range that you specify."
 msgstr "Kopieert de vulreeks naar het gespecificeerde celbereik ."
 
 #. GwzEB
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:136
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:183
 msgctxt "sortoptionspage|sortuser"
 msgid "Custom sort order"
 msgstr "Door gebruiker gedefinieerde sorteervolgorde"
 
 #. aDYdR
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:147
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:194
 msgctxt "sortoptionspage|extended_tip|sortuser"
 msgid "Click here and then select the custom sort order that you want."
 msgstr "Klik hier en selecteer dan de gewenste aangepaste sorteervolgorde."
 
 #. WKWmE
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:171
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:218
 msgctxt "sortoptionspage|outarealb-atkobject"
 msgid "Copy sort results to:"
 msgstr "Sorteerresultaten kopiëren naar:"
 
 #. ABAdF
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:172
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:219
 msgctxt "sortoptionspage|extended_tip|outarealb"
 msgid "Select a named cell range where you want to display the sorted list, or enter a cell range in the input box."
 msgstr "Selecteer een benoemd celbereik waar de gesorteerde lijst weergegeven moet worden of typ een celbereik in het invoervak."
 
 #. ABGSS
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:191
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:238
 msgctxt "sortoptionspage|outareaed-atkobject"
 msgid "Copy sort results to:"
 msgstr "Sorteerresultaten kopiëren naar:"
 
 #. kpVh9
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:192
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:239
 msgctxt "sortoptionspage|extended_tip|outareaed"
 msgid "Enter the cell range where you want to display the sorted list, or select a named range from the list."
 msgstr "Voer het celbereik in waar de gesorteerde lijst weergegeven moet worden, of selecteer de naam van een bereik in de lijst."
 
 #. iWcGs
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:218
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:265
 msgctxt "sortoptionspage|sortuserlb-atkobject"
 msgid "Custom sort order"
 msgstr "Aangepaste sorteervolgorde"
 
 #. wkSRh
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:239
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:286
 msgctxt "sortoptionspage|label6"
 msgid "Locale"
 msgstr "Taalinstelling"
 
 #. dBv73
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:253
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:300
 msgctxt "sortoptionspage|algorithmft"
 msgid "Options"
 msgstr "Opties"
 
 #. oA9A5
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:275
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:321
 msgctxt "sortoptionspage|extended_tip|language"
 msgid "Select the locale for the sorting rules."
 msgstr "Selecteer de taalinstelling voor de sorteerregels."
 
 #. ybsEh
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:291
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:337
 msgctxt "sortoptionspage|extended_tip|algorithmlb"
 msgid "Select a sorting option for the locale."
 msgstr "Selecteer een sorteeroptie voor de taalinstelling."
 
 #. aDahD
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:312
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:358
 msgctxt "sortoptionspage|label2"
 msgid "Sort Options"
 msgstr "Sorteeropties"
 
 #. 7AH6P
-#: sc/uiconfig/scalc/ui/sortoptionspage.ui:327
+#: sc/uiconfig/scalc/ui/sortoptionspage.ui:373
 msgctxt "sortoptionspage|extended_tip|SortOptionsPage"
 msgid "Sets additional sorting options."
 msgstr "Stelt extra sorteeropties in."
@@ -35277,6 +35301,14 @@ msgstr "Gegroepeerd op"
 msgctxt "ztestdialog|extended_tip|ZTestDialog"
 msgid "Calculates the z-Test of two data samples."
 msgstr "Berekent de z-test van twee gegevenssteekproeven."
+
+#~ msgctxt "sortoptionspage|naturalsort"
+#~ msgid "Enable natural sort"
+#~ msgstr "Natuurlijke sortering inschakelen"
+
+#~ msgctxt "sortoptionspage|extended_tip|naturalsort"
+#~ msgid "Natural sort is a sort algorithm that sorts string-prefixed numbers based on the value of the numerical element in each sorted number, instead of the traditional way of sorting them as ordinary strings."
+#~ msgstr "Natuurlijke sortering is een soort algoritme dat getallen voorafgegaan door tekens sorteert op de waarde van het numerieke element in elk te sorteren getal in plaats van te sorteren op de normale manier als gewone tekenreeksen."
 
 #~ msgctxt "STR_DOC_STAT"
 #~ msgid "Statistics"
