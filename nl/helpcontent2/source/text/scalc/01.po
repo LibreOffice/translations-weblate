@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-10-07 13:32+0200\n"
-"PO-Revision-Date: 2025-10-06 13:53+0000\n"
-"Last-Translator: kees538 <kees538@gmail.com>\n"
+"PO-Revision-Date: 2025-10-09 20:54+0000\n"
+"Last-Translator: Henk van der Burg <h.vdburg@hccnet.nl>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.10.1\n"
 "X-POOTLE-MTIME: 1565421340.000000\n"
 
 #. yzNBP
@@ -8285,7 +8285,7 @@ msgctxt ""
 "par_id3157975\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_AKTUELL\">This function returns the result to date of evaluating the formula of which it is a part (in other words the result as far as that evaluation has got). Its main use is together with the STYLE() function to apply selected styles to a cell depending on the cell contents.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_AKTUELL\">Deze functie geeft als resultaat de evaluatie van de formule waarvan het deel uitmaakt tot op de huidige datum (met andere woorden: het resultaat tot op het moment waarop de evaluatie is beland). Samen met de functie STIJL() is het voornaamste gebruik om geselecteerde opmaakprofielen op een cel toe te passen, afhankelijk van de celinhoud.</ahelp>"
+msgstr "<ahelp hid=\"HID_FUNC_AKTUELL\">Deze functie geeft als resultaat de evaluatie van de formule waarvan het deel uitmaakt tot op de huidige datum (met andere woorden: het resultaat tot op het moment waarop de evaluatie is beland). Samen met de functie OPMAAKPROFIEL() is het voornaamste gebruik om geselecteerde opmaakprofielen op een cel toe te passen, afhankelijk van de celinhoud.</ahelp>"
 
 #. VVH9p
 #: 04060104.xhp
@@ -8321,7 +8321,7 @@ msgctxt ""
 "par_id5863826\n"
 "help.text"
 msgid "<input>=A2+B2+STYLE(IF(CURRENT()>10;\"Red\";\"Default\"))</input>"
-msgstr "<input>=A2+B2+STIJL(ALS(HUIDIG()>10;\"Slecht\";\"Standaard\"))</input>"
+msgstr "<input>=A2+B2+OPMAAKPROFIEL(ALS(HUIDIG()>10;\"Slecht\";\"Standaard\"))</input>"
 
 #. fNamE
 #: 04060104.xhp
@@ -8330,7 +8330,7 @@ msgctxt ""
 "par_id7463911\n"
 "help.text"
 msgid "The example returns A2 + B2 (STYLE returns 0 here). If this sum is greater than 10, the style Red is applied to the cell. See the <emph>STYLE</emph> function for more explanation."
-msgstr "Het voorbeeld geeft A2 + B2 terug (STIJL) geeft hier 0 terug). Het opmaakprofiel Slecht wordt op de cel toegepast als de som groter is dan 10. Zie de functie <emph>STIJL</emph> voor meer uitleg."
+msgstr "Het voorbeeld geeft A2 + B2 terug (OPMAAKPROFIEL geeft hier 0 terug). Het opmaakprofiel Slecht wordt op de cel toegepast als de som groter is dan 10. Zie de functie <emph>OPMAAKPROFIEL</emph> voor meer uitleg."
 
 #. bF4GC
 #: 04060104.xhp
@@ -13316,7 +13316,7 @@ msgctxt ""
 "hd_id3144386\n"
 "help.text"
 msgid "<variable id=\"product_head\"><link href=\"text/scalc/01/04060106.xhp#product\">PRODUCT</link></variable>"
-msgstr ""
+msgstr "<variable id=\"product_head\"><link href=\"text/scalc/01/04060106.xhp#product\">VERMENIGVULDIGEN</link></variable>"
 
 #. tjrCV
 #: 04060106.xhp
@@ -18835,7 +18835,7 @@ msgctxt ""
 "par_id31475281\n"
 "help.text"
 msgid "If Type = 1 or the third parameter is missing, the index of the last value that is smaller or equal to the search criterion is returned. For Type = -1, the index of the last value that is larger or equal is returned."
-msgstr ""
+msgstr "Als Type = 1 of de derde parameter ontbreekt, wordt de index van de laatste waarde die kleiner of gelijk is aan het zoekcriterium geretourneerd. Voor Type = -1 wordt de index van de laatste waarde die groter of gelijk is aan het zoekcriterium geretourneerd."
 
 #. GmWGG
 #: 04060109.xhp
@@ -18844,7 +18844,7 @@ msgctxt ""
 "par_id3147528\n"
 "help.text"
 msgid "Unpredictable results are expected if <emph>Type</emph> takes values -1 or +1 and the <emph>LookupArray</emph> is not sorted."
-msgstr ""
+msgstr "Er worden onvoorspelbare resultaten verwacht als <emph>Type</emph> de waarde -1 of +1 aanneemt en de <emph>ZoekMatrix</emph> niet is gesorteerd."
 
 #. 8cpYu
 #: 04060109.xhp
@@ -20527,7 +20527,7 @@ msgctxt ""
 "par_id3146324\n"
 "help.text"
 msgid "<emph>EndDate</emph> is the end date in the interval. The end date must be greater than the start date, or else an error is returned."
-msgstr "<emph>EindDatum</emph> is de einddatum in de interval. De einddatum moet groter zijn dan de begindatum, anders wordt er een fout geretourneerd."
+msgstr "<emph>Einddatum</emph> is de einddatum in de interval. De einddatum moet groter zijn dan de begindatum, anders wordt er een fout geretourneerd."
 
 #. PcBbC
 #: 04060111.xhp
@@ -20581,7 +20581,7 @@ msgctxt ""
 "par_id71641991391639\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-17\",0)</input> returns 0 because <emph>Type</emph> was set to 0 and there are only 5 days in the interval."
-msgstr "<input>=WEKEN(\"12-01-2022\";\"17-01-2022\";0)</input> retourneert 0 omdat <emph>Type</emph> werd op 0 gezet en er zijn slechts 5 dagen in het interval."
+msgstr "<input>=WEKEN(\"2022-01-12\";\"2022-01-17\";0)</input> retourneert 0 omdat <emph>Type</emph> werd op 0 gezet en er zijn slechts 5 dagen in het interval."
 
 #. pEEeF
 #: 04060111.xhp
@@ -20590,7 +20590,7 @@ msgctxt ""
 "par_id71641991390039\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-19\",0)</input> returns 1 because <emph>Type</emph> was set to 0 and there are 7 days in the interval."
-msgstr "<input>=WEKEN(\"12-01-2022\";\"97-01-2022\";0)</input> retourneert 1 omdat <emph>Type</emph> werd op 0 gezet en er zijn slechts 7 dagen in het interval."
+msgstr "<input>=WEKEN(\"2022-01-12\";\"2022-01-19\";0)</input> retourneert 1 omdat <emph>Type</emph> werd op 0 gezet en er zijn slechts 7 dagen in het interval."
 
 #. 9DhQj
 #: 04060111.xhp
@@ -20599,7 +20599,7 @@ msgctxt ""
 "par_id71641991391123\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-17\",1)</input> returns 1 because <emph>Type</emph> was set to 1 and the interval contains a Monday, since 2022-01-12 is a Wednesday and 2022-01-17 is a Monday."
-msgstr "<input>=WEKEN(\"12-01-2022\";\"17-01-2022\";1)</input> retourneert 1 omdat <emph>Type</emph> is ingesteld op 1 en de interval bevat een maandag, aangezien 12-01-2022 een woensdag is en 17-01-2022 een maandag."
+msgstr "<input>=WEKEN(\"2022-01-12\";\"2022-01-17\";1)</input> retourneert 1 omdat <emph>Type</emph> is ingesteld op 1 en de interval bevat een maandag, aangezien 12-01-2022 een woensdag is en 17-01-2022 een maandag."
 
 #. E89BB
 #: 04060111.xhp
@@ -20608,7 +20608,7 @@ msgctxt ""
 "par_id71641991332523\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-15\",1)</input> returns 0 because <emph>Type</emph> was set to 1 and the interval does not contain any Mondays, except for the start date."
-msgstr "<input>=WEKEN(\"12-01-2022\";\"15-01-2022\";1)</input> retourneert 0 omdat <emph>Type</emph> is ingesteld op 1 en de interval bevat geen maandagen, behalve de begindatum."
+msgstr "<input>=WEKEN(\"2022-01-12\";\"2022-01-15\";1)</input> retourneert 0 omdat <emph>Type</emph> is ingesteld op 1 en de interval bevat geen maandagen, behalve de begindatum."
 
 #. fQyTx
 #: 04060111.xhp
@@ -32263,7 +32263,7 @@ msgctxt ""
 "par_id3145354\n"
 "help.text"
 msgid "<item type=\"input\">=GAMMADIST(2;1;1;1)</item> yields 0.86."
-msgstr "<item type=\"input\">=GAMMA.VERD(2;1;1;1)</item> levert 0,86 op."
+msgstr "<item type=\"input\">=GAMMA.VERD(2;1;1;1)</item> levert 0,86 (afgerond) op."
 
 #. KxBdg
 #: 04060182.xhp
@@ -36547,7 +36547,7 @@ msgctxt ""
 "hd_id3149143\n"
 "help.text"
 msgid "<variable id=\"stdev_head\"><link href=\"text/scalc/01/04060185.xhp#stdev\">STDEV</link></variable>"
-msgstr ""
+msgstr "<variable id=\"stdev_head\"><link href=\"text/scalc/01/04060185.xhp#stdev\">STDEV</link></variable>"
 
 #. CwwQ9
 #: 04060185.xhp
@@ -36655,7 +36655,7 @@ msgctxt ""
 "hd_id3149734\n"
 "help.text"
 msgid "<variable id=\"stdevp_head\"><link href=\"text/scalc/01/04060185.xhp#stdevp\">STDEVP</link></variable>"
-msgstr ""
+msgstr "<variable id=\"stdevp_head\"><link href=\"text/scalc/01/04060185.xhp#stdevp\">STDEVP</link></variable>"
 
 #. RqGNB
 #: 04060185.xhp
@@ -37960,7 +37960,7 @@ msgctxt ""
 "hd_id3153828\n"
 "help.text"
 msgid "<variable id=\"var\"><link href=\"text/scalc/01/04060185.xhp#var\">VAR</link></variable>"
-msgstr ""
+msgstr "<variable id=\"var\"><link href=\"text/scalc/01/04060185.xhp#var\">VAR</link></variable>"
 
 #. FJkXo
 #: 04060185.xhp
@@ -38122,7 +38122,7 @@ msgctxt ""
 "hd_id3166441\n"
 "help.text"
 msgid "<variable id=\"varp\"><link href=\"text/scalc/01/04060185.xhp#varp\">VARP</link></variable>"
-msgstr ""
+msgstr "<variable id=\"varp\"><link href=\"text/scalc/01/04060185.xhp#varp\">VARP</link></variable>"
 
 #. oHjST
 #: 04060185.xhp
@@ -38572,7 +38572,7 @@ msgctxt ""
 "par_id3146077\n"
 "help.text"
 msgid "<item type=\"input\">=WEIBULL(2;1;1;1)</item> returns 0.86."
-msgstr "<item type=\"input\">=WEIBULL(2;1;1;1)</item> geeft 0,86 terug."
+msgstr "<item type=\"input\">=WEIBULL(2;1;1;1)</item> geeft 0,86 (afgerond) terug."
 
 #. Lb5Q7
 #: 04060185.xhp
@@ -38689,7 +38689,7 @@ msgctxt ""
 "par_id2946077\n"
 "help.text"
 msgid "<item type=\"input\">=WEIBULL.DIST(2;1;1;1)</item> returns 0.8646647168."
-msgstr "<item type=\"input\">=WEIBULL.VERD(2;1;1;1)</item> geeft 0,86 terug."
+msgstr "<item type=\"input\">=WEIBULL.VERD(2;1;1;1)</item> geeft 0,86 (afgerond) terug."
 
 #. UoyLi
 #: 04060185.xhp
@@ -41299,7 +41299,7 @@ msgctxt ""
 "par_id3155378\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/sheetprintpage/checkBTN_PAGENO\">Select this option if you want this style to restart page numbering.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/sheetprintpage/checkBTN_PAGENO\">Selecteer deze optie als u wilt dat deze stijl de paginanummering opnieuw start.</ahelp>"
+msgstr "<ahelp hid=\"modules/scalc/ui/sheetprintpage/checkBTN_PAGENO\">Selecteer deze optie als u wilt dat dit opmaakprofiel de paginanummering opnieuw start.</ahelp>"
 
 #. gVwLk
 #: 05070500.xhp
@@ -41398,7 +41398,7 @@ msgctxt ""
 "par_idN109B5\n"
 "help.text"
 msgid "Specifies the maximum number of pages horizontally (width) and vertically (height) on which every sheet with the current Page Style is to be printed."
-msgstr "Specificeert het maximumaantal pagina's horizontaal (breedte) en verticaal (hoogte) waarop elk blad met de huidige paginastijl afgedrukt moet worden."
+msgstr "Specificeert het maximum aantal pagina's horizontaal (breedte) en verticaal (hoogte) waarop elk blad met de huidige pagina-opmaakprofiel afgedrukt moet worden."
 
 #. KGfGD
 #: 05070500.xhp
@@ -41479,7 +41479,7 @@ msgctxt ""
 "par_id3145074\n"
 "help.text"
 msgid "Specifies the maximum number of pages on which every sheet with the current Page Style is to be printed. The scale will be reduced as necessary to fit the defined number of pages."
-msgstr "Specificeert het maximale aantal pagina's waarop elk blad met de huidige paginastijl afgedrukt moet worden. De schaal wordt zo gereduceerd dat het gedefinieerde aantal pagina's past."
+msgstr "Specificeert het maximale aantal pagina's waarop elk blad met het huidige pagina-opmaakprofiel afgedrukt moet worden. De schaal wordt zo gereduceerd dat het gedefinieerde aantal pagina's past."
 
 #. R3Fn6
 #: 05070500.xhp
@@ -41794,7 +41794,7 @@ msgctxt ""
 "par_id431642031216368\n"
 "help.text"
 msgid "Conditional formats do not overwrite cell styles and direct formatting applied manually. They remain saved as cell properties and are applied when the cell matches no conditions or when you remove all conditional formats."
-msgstr "Voorwaardelijke opmaak overschrijft geen celstijlen en directe opmaak die handmatig wordt toegepast. Ze blijven opgeslagen als celeigenschappen en worden toegepast wanneer de cel aan geen enkele voorwaarde voldoet of wanneer u alle voorwaardelijke opmaak verwijdert."
+msgstr "Voorwaardelijke opmaak overschrijft geen celopmaakprofielen en directe opmaak die handmatig wordt toegepast. Ze blijven opgeslagen als celeigenschappen en worden toegepast wanneer de cel aan geen enkele voorwaarde voldoet of wanneer u alle voorwaardelijke opmaak verwijdert."
 
 #. AMXCn
 #: 05120000.xhp
@@ -42361,7 +42361,7 @@ msgctxt ""
 "par_id911662916407097\n"
 "help.text"
 msgid "The <emph>cell range index value is in the top N percent</emph> of the number of cells in the range. For example, in a 20 cells range and N equals 20, the style is applied to the 4 last cells of the range. Enter the value of N in the text box on the right."
-msgstr "De <emph>indexwaarde van het celbereik bevindt zich in de bovenste N procent</emph> van het aantal cellen in het bereik. Bijvoorbeeld, in een bereik van 20 cellen en N is gelijk aan 20, wordt de stijl toegepast op de 4 laatste cellen van het bereik. Voer de waarde van N in het tekstvak aan de rechterkant in."
+msgstr "De <emph>indexwaarde van het celbereik bevindt zich in de bovenste N procent</emph> van het aantal cellen in het bereik. Bijvoorbeeld, in een bereik van 20 cellen en N is gelijk aan 20, wordt het opmaakprofiel toegepast op de 4 laatste cellen van het bereik. Voer de waarde van N in het tekstvak aan de rechterkant in."
 
 #. kfDTU
 #: 05120100.xhp
@@ -42379,7 +42379,7 @@ msgctxt ""
 "par_id111662917285433\n"
 "help.text"
 msgid "The <emph>cell range index value is in the bottom N percent</emph> of the number of cells in the range. For example, in a 20 cells range and N equals 20, the style is applied to the 4 first cells of the range. Enter the value of N in the text box on the right."
-msgstr "De <emph>indexwaarde van het celbereik bevindt zich in de onderste N procent</emph> van het aantal cellen in het bereik. Bijvoorbeeld, in een bereik van 20 cellen en N is gelijk aan 20, wordt de stijl toegepast op de 4 eerste cellen van het bereik. Voer de waarde van N in het tekstvak aan de rechterkant in."
+msgstr "De <emph>indexwaarde van het celbereik bevindt zich in de onderste N procent</emph> van het aantal cellen in het bereik. Bijvoorbeeld, in een bereik van 20 cellen en N is gelijk aan 20, wordt het opmaakprofiel toegepast op de 4 eerste cellen van het bereik. Voer de waarde van N in het tekstvak aan de rechterkant in."
 
 #. W6QVL
 #: 05120100.xhp
@@ -46285,7 +46285,7 @@ msgctxt ""
 "hd_id111758840258673\n"
 "help.text"
 msgid "Summary below data"
-msgstr ""
+msgstr "Samenvatting onder gegevens"
 
 #. CQVLq
 #: 12050200.xhp
@@ -46294,7 +46294,7 @@ msgctxt ""
 "par_id571758840533603\n"
 "help.text"
 msgid "By default, the summary appears above the data. When selected, it moves below the data."
-msgstr ""
+msgstr "Standaard wordt de samenvatting boven de gegevens weergegeven. Indien geselecteerd, wordt deze onder de gegevens geplaatst."
 
 #. 6o48R
 #: 12050200.xhp
@@ -55168,7 +55168,7 @@ msgctxt ""
 "par_id0503201619582693\n"
 "help.text"
 msgid "<emph>stat_type (mandatory)</emph>: A numerical value from 1 to 9. A value indicating which statistic will be returned for the given values and x-range."
-msgstr "<emph>statistisch type (verplicht)</emph>: Een numerieke waarde van 1 tot 9. Een waarde die aangeeft welke statistiek wordt geretourneerd voor de gegeven waardes en x-bereik."
+msgstr "<emph>Type statistiek</emph>: (verplicht) Een numerieke waarde van 1 tot 9. Een waarde die aangeeft welke statistiek wordt geretourneerd voor de gegeven waardes en x-bereik."
 
 #. dEXx6
 #: exponsmooth_embd.xhp
@@ -55186,7 +55186,7 @@ msgctxt ""
 "par_id0503201619582666\n"
 "help.text"
 msgid "stat_type"
-msgstr "statistisch_type"
+msgstr "_Type statistiek"
 
 #. NpXJH
 #: exponsmooth_embd.xhp
@@ -61324,7 +61324,7 @@ msgctxt ""
 "par_id851737751444186\n"
 "help.text"
 msgid "DROP(Array; Rows [; Columns])"
-msgstr "WEGLATEN(Matrix; Rijen [; Kolommen])"
+msgstr "WEGLATEN(Matrix; Rijen; Kolommen (optioneel))"
 
 #. djzuC
 #: func_drop.xhp
@@ -63556,7 +63556,7 @@ msgctxt ""
 "hd_id0603201617134175\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/func_forecastetspimult.xhp\">FORECAST.ETS.PI.MULT function</link>"
-msgstr "<link href=\"text/scalc/01/func_forecastetspimult.xhp\">VOORSPELLEN.ETS.PI.MULT-functie</link>"
+msgstr "<link href=\"text/scalc/01/func_forecastetspimult.xhp\">VOORSPELLEN.ETS.PI.MULT</link>"
 
 #. dBj8S
 #: func_forecastetspimult.xhp
@@ -63583,7 +63583,7 @@ msgctxt ""
 "par_id0603201610010044\n"
 "help.text"
 msgid "FORECAST.ETS.PI.MULT(target, values, timeline, [confidence_level], [period_length], [data_completion], [aggregation])"
-msgstr "VOORSPELLEN.ETS.PI.MULT(Doeldatum, Waardes, Tijdlijn, [Betrouwbaarheidsniveau], [Lengte periode], [Gegevensaanvulling], [Aggregatie])"
+msgstr "VOORSPELLEN.ETS.PI.MULT(Doel; Waardes; Tijdlijn; Betrouwbaarheidsniveau; Lengte periode; Gegevensaanvulling (optioneel); Aggregatie (optioneel))"
 
 #. fM2ng
 #: func_forecastetspimult.xhp
@@ -63646,7 +63646,7 @@ msgctxt ""
 "hd_id040312316112394554\n"
 "help.text"
 msgid "Returns 27.5285874381574, the prediction interval for multiplicative forecast for January 2014 based on <emph>Values</emph> and <emph>Timeline</emph> named ranges above, with confidence level of 0.8, period length of 4, no missing data, and SUM as aggregation."
-msgstr "Geeft 27,5285874381574 terug, de voorgestelde interval voor vermenigvuldigde voorspelling van januari 2014 gebaseerd op <emph>Waardes</emph> en <emph>Tijdlijn</emph> genoemde bereiken hierboven met een betrouwbaarheidsniveau van 0,8, Lengte periode van 4, geen ontbrekende gegevens, en SOM als aggregatie."
+msgstr "Geeft 24,8028419 terug, de voorgestelde interval voor vermenigvuldigde voorspelling van januari 2014 gebaseerd op <emph>Waardes</emph> en <emph>Tijdlijn</emph> genoemde bereiken hierboven met een betrouwbaarheidsniveau van 0,8, Lengte periode van 4, geen ontbrekende gegevens, en SOM als aggregatie."
 
 #. tnhnW
 #: func_forecastetspimult.xhp
@@ -63781,7 +63781,7 @@ msgctxt ""
 "hd_id0603201615483251\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/func_forecastetsstatadd.xhp\">FORECAST.ETS.STAT.ADD Function</link>"
-msgstr "<link href=\"text/scalc/01/func_forecastetsstatadd.xhp\">VOORSPELLEN.ETS.STAT.ADD-functie</link>"
+msgstr "<link href=\"text/scalc/01/func_forecastetsstatadd.xhp\">VOORSPELLEN.ETS.STAT.ADD</link>"
 
 #. 7y8yW
 #: func_forecastetsstatadd.xhp
@@ -63889,7 +63889,7 @@ msgctxt ""
 "hd_id0603201615483251\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/func_forecastetsstatmult.xhp\">FORECAST.ETS.STAT.MULT Function</link>"
-msgstr "<link href=\"text/scalc/01/func_forecastetsstatmult.xhp\">Functie VOORSPELLEN.ETS.STAT.MULT</link>"
+msgstr "<link href=\"text/scalc/01/func_forecastetsstatmult.xhp\">VOORSPELLEN.ETS.STAT.MULT</link>"
 
 #. Ahv2p
 #: func_forecastetsstatmult.xhp
@@ -70369,7 +70369,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "STYLE function"
-msgstr "functie STIJL"
+msgstr "functie OPMAAKPROFIEL"
 
 #. rQpNt
 #: func_style.xhp
@@ -70378,7 +70378,7 @@ msgctxt ""
 "bm_id346793467934121\n"
 "help.text"
 msgid "<bookmark_value>STYLE function</bookmark_value>"
-msgstr "<bookmark_value>functie Stijl</bookmark_value>"
+msgstr "<bookmark_value>functie Opmaakprofiel</bookmark_value>"
 
 #. 6AhEB
 #: func_style.xhp
@@ -70396,7 +70396,7 @@ msgctxt ""
 "par_id441673375101757\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_VORLAGE\"><variable id=\"func_style_desc\">Applies a style to the cell containing the formula.</variable></ahelp> After a set amount of time, another style can be applied."
-msgstr "<ahelp hid=\"HID_FUNC_VORLAGE\"><variable id=\"func_style_desc\">Past een stijl toe op de cel die de formule bevat.</variable></ahelp> Na een bepaalde tijd kan een andere stijl worden toegepast."
+msgstr "<ahelp hid=\"HID_FUNC_VORLAGE\"><variable id=\"func_style_desc\">Past een opmaakprofiel toe op de cel die de formule bevat.</variable></ahelp> Na een bepaalde tijd kan een ander opmaakprofiel worden toegepast."
 
 #. GswPt
 #: func_style.xhp
@@ -70522,7 +70522,7 @@ msgctxt ""
 "par_id201677014634447\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/STYLE\">STYLE wiki page</link>."
-msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/STYLE/nl\">Wiki-pagina STIJL</link>."
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/STYLE/nl\">Wiki-pagina OPMAAKPROFIEL</link>."
 
 #. rEQGK
 #: func_style.xhp
@@ -73249,7 +73249,7 @@ msgctxt ""
 "par_id701542231253817\n"
 "help.text"
 msgid "<input>VALUE(Text)</input>"
-msgstr "<input>WAARDE(Tekst)</input>"
+msgstr "<input>WAARDE(“Tekst”)</input>"
 
 #. QVErw
 #: func_value.xhp
@@ -73312,7 +73312,7 @@ msgctxt ""
 "par_id731628780240876\n"
 "help.text"
 msgid "<input>=VALUE(\"2021-07-30\")</input> returns 44407 (considering ISO 8601 format) which is the date-time sequence number corresponding to the specified date."
-msgstr "<input>=WAARDE(\"30-07-2021\")</input> retourneert 44407 (volgens de ISO 8601-indeling), wat het datum-tijdvolgnummer is dat overeenkomt met de opgegeven datum."
+msgstr "<input>=WAARDE(\"2021-07-30\")</input> retourneert 44407 (volgens de ISO 8601-indeling), wat het datum-tijdvolgnummer is dat overeenkomt met de opgegeven datum."
 
 #. Kkcm7
 #: func_value.xhp
@@ -73555,7 +73555,7 @@ msgctxt ""
 "par_id3149033\n"
 "help.text"
 msgid "WEEKDAY(Number [; Type])"
-msgstr "WEEKDAG(Getal [; Type])"
+msgstr "WEEKDAG(“Getal”; Type (optioneel))"
 
 #. mcF52
 #: func_weekday.xhp
@@ -74133,7 +74133,7 @@ msgctxt ""
 "par_id3147236\n"
 "help.text"
 msgid "WEEKNUM_OOO(Number; Mode)"
-msgstr "WEEKNUMMER_OOO(Getal; Modus)"
+msgstr " "
 
 #. AABCv
 #: func_weeknum_ooo.xhp
@@ -76608,7 +76608,7 @@ msgctxt ""
 "par_id891736537858935\n"
 "help.text"
 msgid "Additional cell style options are available in the <link href=\"text/scalc/01/05020000.xhp\"><menuitem>Format Cells</menuitem></link> dialog."
-msgstr "Er zijn extra opties voor de celstijl beschikbaar in het dialoogvenster <link href=\"text/scalc/01/05020000.xhp\"><menuitem>Cellen opmaken</menuitem></link>."
+msgstr "Er zijn extra opties voor het celopmaakprofiel beschikbaar in het dialoogvenster <link href=\"text/scalc/01/05020000.xhp\"><menuitem>Cellen opmaken</menuitem></link>."
 
 #. pASQg
 #: sidebar_cell_appearance.xhp
@@ -77769,7 +77769,7 @@ msgctxt ""
 "par_id991758843652841\n"
 "help.text"
 msgid "Generate sensitivity report"
-msgstr ""
+msgstr "Gevoeligheidsrapport genereren"
 
 #. uEDEh
 #: solver_options_algo.xhp
