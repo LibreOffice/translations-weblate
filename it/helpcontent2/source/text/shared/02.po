@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-10-07 13:33+0200\n"
-"PO-Revision-Date: 2025-07-15 12:53+0000\n"
+"PO-Revision-Date: 2025-10-10 21:55+0000\n"
 "Last-Translator: Elisabetta Manuele <lyzbetta@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-master/textshared02/it/>\n"
 "Language: it\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.10.1\n"
 "X-POOTLE-MTIME: 1564174414.000000\n"
 
 #. Edm6o
@@ -3668,7 +3668,7 @@ msgctxt ""
 "par_id3159143\n"
 "help.text"
 msgid "The next document is created in a parent frame. If no parent exists, the document is created in the same frame."
-msgstr "Il documento successivo viene creato in un frame superiore (genitore). Se non è presente un genitore, il documento viene creato nello stesso frame."
+msgstr "Il documento successivo viene creato in un frame superiore (genitore). Se non è presente un frame genitore, il documento viene creato nello stesso frame."
 
 #. qq8jm
 #: 01170101.xhp
@@ -3681,21 +3681,23 @@ msgstr "Il documento successivo viene strutturato nello stesso frame."
 
 #. oCgYA
 #: 01170101.xhp
+#, fuzzy
 msgctxt ""
 "01170101.xhp\n"
 "par_id3149174\n"
 "help.text"
 msgid "The next document is created in a top-level window, that is, in the highest frame of the hierarchy; if the current frame is already a top window, the document is created in the current frame."
-msgstr "Il documento successivo viene creato nella finestra superiore (top), ossia nel frame più alto della gerarchia. Se il frame di uscita è già una finestra superiore, il documento viene creato nello stesso frame."
+msgstr "Il documento successivo viene creato nella finestra di livello superiore, ossia nel frame più alto della gerarchia. Se il frame attivo corrisponde già a una finestra superiore, il documento viene creato nello stesso frame."
 
 #. ATsxB
 #: 01170101.xhp
+#, fuzzy
 msgctxt ""
 "01170101.xhp\n"
 "par_id3156172\n"
 "help.text"
 msgid "The \"Frame\" property is relevant for HTML forms, but <emph>not</emph> for database forms."
-msgstr "La proprietà \"Cornice\" è rilevante per i formulari HTML, ma <emph>non</emph> per i formulari basati su un database."
+msgstr "La proprietà \"Frame\" è rilevante per i formulari HTML, ma <emph>non</emph> per i formulari basati su un database."
 
 #. DQAD8
 #: 01170101.xhp
@@ -7619,7 +7621,7 @@ msgctxt ""
 "par_id3154823\n"
 "help.text"
 msgid "Defines the target frame in which the loaded URL is to appear."
-msgstr "Definisce il frame in cui dovrà comparire l'URL specificato."
+msgstr "Definisce il frame di destinazione in cui dovrà comparire l'URL caricato."
 
 #. RETmx
 #: 01170201.xhp
@@ -13284,12 +13286,13 @@ msgstr "URL"
 
 #. nrKmH
 #: 09070100.xhp
+#, fuzzy
 msgctxt ""
 "09070100.xhp\n"
 "par_id9887081\n"
 "help.text"
 msgid "<ahelp hid=\".\">Enter a URL for the file that you want to open when you click the hyperlink. If you do not specify a target frame, the file opens in the current document or frame.</ahelp>"
-msgstr "<ahelp hid=\".\">Digitare un indirizzo URL per il file da aprire quando si pigia il collegamento ipertestuale. Se non si specifica un frame di arrivo, il file si apre nel documento o nel frame attivo.</ahelp>"
+msgstr "<ahelp hid=\".\">Inserire l'URL del file da aprire facendo clic sul collegamento ipertestuale. Se non si specifica un frame di destinazione, il file si apre nel documento o nel frame attivo.</ahelp>"
 
 #. TBSuR
 #: 09070100.xhp
@@ -13302,21 +13305,23 @@ msgstr "Ulteriori impostazioni"
 
 #. GaboD
 #: 09070100.xhp
+#, fuzzy
 msgctxt ""
 "09070100.xhp\n"
 "hd_id3153525\n"
 "help.text"
 msgid "Frame"
-msgstr "Cornice"
+msgstr "Frame"
 
 #. m9cAd
 #: 09070100.xhp
+#, fuzzy
 msgctxt ""
 "09070100.xhp\n"
 "par_id2052980\n"
 "help.text"
 msgid "<ahelp hid=\".\">Enter the name of the frame that you want the linked file to open in, or select a predefined frame from the list. If you leave this box blank, the linked file opens in the current browser window.</ahelp>"
-msgstr "<ahelp hid=\".\">Inserire il nome della cornice in cui aprire il file collegato oppure selezionare una cornice predefinita dall'elenco. Se si lascia vuota questa casella, il file collegato viene aperto nella finestra attiva del browser.</ahelp>"
+msgstr "<ahelp hid=\".\">Inserire il nome del frame in cui aprire il file collegato oppure selezionare un frame predefinito dall'elenco. Se si lascia vuota questa casella, il file collegato si apre nella finestra attiva del browser.</ahelp>"
 
 #. mzoDh
 #: 09070100.xhp
@@ -13550,7 +13555,7 @@ msgctxt ""
 "par_id9462263\n"
 "help.text"
 msgid "<ahelp hid=\".\">Enter a <emph>URL</emph> for the file that you want to open when you click the hyperlink. If you do not specify a target frame, the file opens in the current document or frame.</ahelp>"
-msgstr "<ahelp hid=\".\">Digitare un indirizzo <emph>URL</emph> per il file da aprire quando si pigia il collegamento ipertestuale. Se non si specifica un frame di arrivo, il file si apre nel documento o nel frame attivo.</ahelp>"
+msgstr "<ahelp hid=\".\">Digitare l' <emph>URL</emph> del file da aprire quando si fa clic sul collegamento ipertestuale. Se non si specifica un frame di destinazione, il file si apre nel documento o nel frame attivo.</ahelp>"
 
 #. taJit
 #: 09070300.xhp
