@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-09-18 12:11+0200\n"
-"PO-Revision-Date: 2025-10-10 21:55+0000\n"
+"PO-Revision-Date: 2025-10-11 12:03+0000\n"
 "Last-Translator: Stuart Swales <stuart.swales.croftnuisk@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://translations.documentfoundation.org/projects/libo_help-25-8/textscalc01/en_GB/>\n"
 "Language: en-GB\n"
@@ -3767,7 +3767,7 @@ msgctxt ""
 "par_id3145271\n"
 "help.text"
 msgid "<variable id=\"funktionsautopilottext\"><ahelp hid=\".\">Opens the <emph>Function Wizard</emph>, which helps you to interactively create formulas.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"funktionsautopilottext\"><ahelp hid=\".\">Opens the <emph>Function Wizard</emph>, which helps you to interactively create formulae.</ahelp></variable>"
 
 #. exDJs
 #: 04060000.xhp
@@ -8114,7 +8114,7 @@ msgctxt ""
 "par_id3150024\n"
 "help.text"
 msgid "x value"
-msgstr ""
+msgstr "x-value"
 
 #. yW4vY
 #: 04060104.xhp
@@ -15233,7 +15233,7 @@ msgctxt ""
 "par_id451590242105253\n"
 "help.text"
 msgid "Copy cells each containing =RAND(), and use <menuitem>Edit - Paste Special</menuitem> (with <emph>Paste All</emph> and <emph>Formulas</emph> not marked and <emph>Numbers</emph> marked)."
-msgstr ""
+msgstr "Copy cells each containing =RAND(), and use <menuitem>Edit - Paste Special</menuitem> (with <emph>Paste All</emph> and <emph>Formulae</emph> not marked and <emph>Numbers</emph> marked)."
 
 #. zEFCC
 #: 04060106.xhp
@@ -15332,7 +15332,7 @@ msgctxt ""
 "bm_id3147273\n"
 "help.text"
 msgid "<bookmark_value>matrices; functions</bookmark_value><bookmark_value>Function Wizard; arrays</bookmark_value><bookmark_value>array formulas</bookmark_value><bookmark_value>inline array constants</bookmark_value><bookmark_value>formulas; arrays</bookmark_value><bookmark_value>functions; array functions</bookmark_value><bookmark_value>editing; array formulas</bookmark_value><bookmark_value>copying; array formulas</bookmark_value><bookmark_value>deleting; array formulas</bookmark_value><bookmark_value>adjusting array ranges</bookmark_value><bookmark_value>calculating; conditional calculations</bookmark_value><bookmark_value>matrices; calculations</bookmark_value><bookmark_value>conditional calculations with arrays</bookmark_value><bookmark_value>implicit array handling</bookmark_value><bookmark_value>forced array handling</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>matrices; functions</bookmark_value><bookmark_value>Function Wizard; arrays</bookmark_value><bookmark_value>array formulas</bookmark_value><bookmark_value>inline array constants</bookmark_value><bookmark_value>formulae; arrays</bookmark_value><bookmark_value>functions; array functions</bookmark_value><bookmark_value>editing; array formulae</bookmark_value><bookmark_value>copying; array formulae</bookmark_value><bookmark_value>deleting; array formulae</bookmark_value><bookmark_value>adjusting array ranges</bookmark_value><bookmark_value>calculating; conditional calculations</bookmark_value><bookmark_value>matrices; calculations</bookmark_value><bookmark_value>conditional calculations with arrays</bookmark_value><bookmark_value>implicit array handling</bookmark_value><bookmark_value>forced array handling</bookmark_value>"
 
 #. 8AUFn
 #: 04060107.xhp
@@ -15476,7 +15476,7 @@ msgctxt ""
 "hd_id651668200191409\n"
 "help.text"
 msgid "<variable id=\"implicit_intersection_hd\">Implicit intersection of array formulas</variable>"
-msgstr ""
+msgstr "<variable id=\"implicit_intersection_hd\">Implicit intersection of array formulae</variable>"
 
 #. M2BM4
 #: 04060107.xhp
@@ -15521,7 +15521,7 @@ msgctxt ""
 "par_id681668200283910\n"
 "help.text"
 msgid "Cells E1 and E3 are empty, Cell E2 has value 195. This is the implicit intersection of array formulas."
-msgstr ""
+msgstr "Cells E1 and E3 are empty, Cell E2 has value 195. This is the implicit intersection of array formulae."
 
 #. KdBwt
 #: 04060107.xhp
@@ -18383,7 +18383,7 @@ msgctxt ""
 "par_id3149711\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_SPALTE\">Returns the column number of a cell reference.</ahelp> If the reference is a cell the column number of the cell is returned; if the parameter is a cell area, the corresponding column numbers are returned in a single-row <link href=\"text/scalc/01/04060107.xhp#wasmatrix\">array</link> if the formula is entered <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">as an array formula</link>. If the COLUMN function with an area reference parameter is not used for an array formula, only the column number of the first cell within the area is determined."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_SPALTE\">Returns the column number of a cell reference.</ahelp> If the reference is a cell the column number of the cell is returned; if the parameter is a cell area, the corresponding column numbers are returned in a single-row <link href=\"text/scalc/01/04060107.xhp#wasmatrix\">array</link> if the formula is entered <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">as an array formula</link>. If the COLUMN function with an area reference parameter is not used for an array formula, only the column number of the first cell within the area is determined."
 
 #. poCRX
 #: 04060109.xhp
@@ -18603,12 +18603,13 @@ msgstr "<emph>Index</emph> is the number of the column in the array that contain
 
 #. qKRbD
 #: 04060109.xhp
+#, fuzzy
 msgctxt ""
 "04060109.xhp\n"
 "par_id3151208\n"
 "help.text"
 msgid "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than <emph>Lookup</emph>. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
-msgstr ""
+msgstr "<emph>SortedRangeLookup</emph> is an optional parameter that indicates whether the first column in the array contains range boundaries instead of plain values. In this mode, the lookup returns the value in the row with first column having value equal to or less than <emph>Lookup</emph>. E.g., it could contain dates when some tax value had been changed, and so the values represent starting dates of a period when a specific tax value was effective. Thus, searching for a date that is absent in the first array column, but falls between some existing boundary dates, would give the lower of them, allowing to find out the data being effective to the searched date. Enter the Boolean value FALSE or zero if the first column is not a range boundary list. When this parameter is TRUE or not given, the first column in the array <emph>must be sorted in ascending order</emph>. Sorted columns can be searched much faster and the function always returns a value, even if the search value was not matched exactly, if it is greater than the lowest value of the sorted list. In unsorted lists, the search value must be matched exactly. Otherwise the function will return #N/A with message: <emph>Error: Value Not Available</emph>."
 
 #. fJQRf
 #: 04060109.xhp
@@ -19337,7 +19338,7 @@ msgctxt ""
 "par_id3154564\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_ZEILE\">Returns the row number of a cell reference.</ahelp> If the reference is a cell, it returns the row number of the cell. If the reference is a cell range, it returns the corresponding row numbers in a one-column <link href=\"text/scalc/01/04060107.xhp#wasmatrix\">Array</link> if the formula is entered <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">as an array formula</link>. If the ROW function with a range reference is not used in an array formula, only the row number of the first range cell will be returned."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_ZEILE\">Returns the row number of a cell reference.</ahelp> If the reference is a cell, it returns the row number of the cell. If the reference is a cell range, it returns the corresponding row numbers in a one-column <link href=\"text/scalc/01/04060107.xhp#wasmatrix\">Array</link> if the formula is entered <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">as an array formula</link>. If the ROW function with a range reference is not used in an array formula, only the row number of the first range cell will be returned."
 
 #. 97EEE
 #: 04060109.xhp
@@ -19886,7 +19887,7 @@ msgctxt ""
 "bm_id331624453577057\n"
 "help.text"
 msgid "<bookmark_value>using double quotation marks in formulas</bookmark_value>  <bookmark_value>formulas; using double quotation marks</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>using double quotation marks in formulae</bookmark_value>  <bookmark_value>formulae; using double quotation marks</bookmark_value>"
 
 #. XXyWj
 #: 04060110.xhp
@@ -19895,7 +19896,7 @@ msgctxt ""
 "hd_id291624454173529\n"
 "help.text"
 msgid "Using double quotation marks in formulas"
-msgstr ""
+msgstr "Using double quotation marks in formulae"
 
 #. aGDFQ
 #: 04060110.xhp
@@ -38786,7 +38787,7 @@ msgctxt ""
 "bm_id3156445\n"
 "help.text"
 msgid "<bookmark_value>operators; in spreadsheet formulas</bookmark_value><bookmark_value>formulas; operators</bookmark_value><bookmark_value>operators; formula functions</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>operators; in spreadsheet formulae</bookmark_value><bookmark_value>formulae; operators</bookmark_value><bookmark_value>operators; formula functions</bookmark_value>"
 
 #. EwE2J
 #: 04060199.xhp
@@ -39605,7 +39606,7 @@ msgctxt ""
 "par_id3155131\n"
 "help.text"
 msgid "The <menuitem>Name Box</menuitem> on the Formula bar contains a list of defined names for the ranges or formula expressions and their scope between parenthesis. Click a name from this box to highlight the corresponding reference on the spreadsheet. Names given formulas or parts of a formula are not listed here."
-msgstr ""
+msgstr "The <menuitem>Name Box</menuitem> on the Formula bar contains a list of defined names for the ranges or formula expressions and their scope between parenthesis. Click a name from this box to highlight the corresponding reference on the spreadsheet. Names given formulae or parts of a formula are not listed here."
 
 #. wTVgT
 #: 04070100.xhp
@@ -39821,7 +39822,7 @@ msgctxt ""
 "par_id3150011\n"
 "help.text"
 msgid "<variable id=\"nameneinfuegentext\"><ahelp hid=\".uno:InsertName\">Inserts a defined named cell range at the current cursor's position with the <emph>Paste Names</emph> dialog.</ahelp></variable>"
-msgstr ""
+msgstr "<variable id=\"nameneinfuegentext\"><ahelp hid=\".uno:InsertName\">Inserts a defined named cell range at the current cursor's position with the <emph>Paste Names</emph> dialogue box.</ahelp></variable>"
 
 #. ecmkK
 #: 04070200.xhp
@@ -41846,7 +41847,7 @@ msgctxt ""
 "par_id3163711\n"
 "help.text"
 msgid "You can enter several conditions that query the cell values or results of formulas. The conditions are evaluated from first to the last. If <emph>Condition 1</emph> is true based on the current cell contents, the corresponding cell style is applied. Otherwise, <emph>Condition 2</emph> is evaluated to determine if its corresponding style will be applied. If none of the conditions match cell contents, then no changes are made to the cell format."
-msgstr ""
+msgstr "You can enter several conditions that query the cell values or results of formulae. The conditions are evaluated from first to the last. If <emph>Condition 1</emph> is true based on the current cell contents, the corresponding cell style is applied. Otherwise, <emph>Condition 2</emph> is evaluated to determine if its corresponding style will be applied. If none of the conditions match cell contents, then no changes are made to the cell format."
 
 #. 9vjYD
 #: 05120000.xhp
@@ -42422,7 +42423,7 @@ msgctxt ""
 "par_id911662916407097\n"
 "help.text"
 msgid "The <emph>cell range index value is in the top N percent</emph> of the number of cells in the range. For example, in a 20 cells range and N equals 20, the style is applied to the 4 last cells of the range. Enter the value of N in the text box on the right."
-msgstr ""
+msgstr "The <emph>cell range index value is in the top N percent</emph> of the number of cells in the range. For example, in a 20 cells range and N equals 20, the style is applied to the 4 last cells of the range. Enter the value of N in the text box on the right."
 
 #. kfDTU
 #: 05120100.xhp
@@ -42440,7 +42441,7 @@ msgctxt ""
 "par_id111662917285433\n"
 "help.text"
 msgid "The <emph>cell range index value is in the bottom N percent</emph> of the number of cells in the range. For example, in a 20 cells range and N equals 20, the style is applied to the 4 first cells of the range. Enter the value of N in the text box on the right."
-msgstr ""
+msgstr "The <emph>cell range index value is in the bottom N percent</emph> of the number of cells in the range. For example, in a 20 cells range and N equals 20, the style is applied to the 4 first cells of the range. Enter the value of N in the text box on the right."
 
 #. W6QVL
 #: 05120100.xhp
@@ -44537,7 +44538,7 @@ msgctxt ""
 "par_id315475899\n"
 "help.text"
 msgid "Press <keycode>F9</keycode> to recalculate. Press <keycode>Shift</keycode>+<switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline>+<keycode>F9</keycode> to recalculate all formulas in the document, including Add-In functions and non-volatile functions."
-msgstr ""
+msgstr "Press <keycode>F9</keycode> to recalculate. Press <keycode>Shift</keycode>+<switchinline select=\"sys\"><caseinline select=\"MAC\"><keycode>Command</keycode></caseinline><defaultinline><keycode>Ctrl</keycode></defaultinline></switchinline>+<keycode>F9</keycode> to recalculate all formulae in the document, including Add-In functions and non-volatile functions."
 
 #. qyZ6P
 #: 06080000.xhp
@@ -45860,7 +45861,7 @@ msgctxt ""
 "par_id171621544405886\n"
 "help.text"
 msgid "Opens the <link href=\"text/shared/02/12090100.xhp\">Standard Filter</link> dialog."
-msgstr ""
+msgstr "Opens the <link href=\"text/shared/02/12090100.xhp\">Standard Filter</link> dialogue box."
 
 #. bbVTh
 #: 12040100.xhp
@@ -49838,7 +49839,7 @@ msgctxt ""
 "par_id461607565255803\n"
 "help.text"
 msgid "Formulas can use relative referencing. For example, if cells <literal>A1:A4</literal> were selected, the cursor is in cell <literal>A1</literal> and <input>ISODD(A1)</input> is entered into the <emph>Formula</emph> box, then only odd numbers could be entered into cells <literal>A1</literal> through <literal>A4</literal>."
-msgstr ""
+msgstr "Formulae can use relative referencing. For example, if cells <literal>A1:A4</literal> were selected, the cursor is in cell <literal>A1</literal> and <input>ISODD(A1)</input> is entered into the <emph>Formula</emph> box, then only odd numbers could be entered into cells <literal>A1</literal> through <literal>A4</literal>."
 
 #. BoA6a
 #: 12120100.xhp
@@ -51593,7 +51594,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Show Formulas"
-msgstr ""
+msgstr "Show Formulae"
 
 #. 6U96W
 #: ToggleFormula.xhp
@@ -51602,7 +51603,7 @@ msgctxt ""
 "hd_id581698505022699\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/ToggleFormula.xhp\">Show Formulas</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/ToggleFormula.xhp\">Show Formulae</link></variable>"
 
 #. CK3wk
 #: ToggleFormula.xhp
@@ -53555,7 +53556,7 @@ msgctxt ""
 "bm_id41727196271367\n"
 "help.text"
 msgid "<bookmark_value>table references; formula</bookmark_value>    <bookmark_value>formulas; in database tables </bookmark_value>    <bookmark_value>database tables;references in formula</bookmark_value>    <bookmark_value>table references; reserved reference keywords</bookmark_value>    <bookmark_value>database tables; reserved reference keywords</bookmark_value>    <bookmark_value>ranges;structured reference</bookmark_value>    <bookmark_value>table;structured reference</bookmark_value>    <bookmark_value>table;table reference</bookmark_value>    <bookmark_value>reference;table reference</bookmark_value>    <bookmark_value>database;database table reference</bookmark_value>    <bookmark_value>table;database table reference</bookmark_value>    <bookmark_value>reference; database table reference</bookmark_value>    <bookmark_value>database table reference;using</bookmark_value>    <bookmark_value>database table reference;syntax</bookmark_value>    <bookmark_value>database table reference;combinations</bookmark_value>    <bookmark_value>database table reference;reserved reference keywords</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>table references; formula</bookmark_value>    <bookmark_value>formulae; in database tables </bookmark_value>    <bookmark_value>database tables;references in formula</bookmark_value>    <bookmark_value>table references; reserved reference keywords</bookmark_value>    <bookmark_value>database tables; reserved reference keywords</bookmark_value>    <bookmark_value>ranges;structured reference</bookmark_value>    <bookmark_value>table;structured reference</bookmark_value>    <bookmark_value>table;table reference</bookmark_value>    <bookmark_value>reference;table reference</bookmark_value>    <bookmark_value>database;database table reference</bookmark_value>    <bookmark_value>table;database table reference</bookmark_value>    <bookmark_value>reference; database table reference</bookmark_value>    <bookmark_value>database table reference;using</bookmark_value>    <bookmark_value>database table reference;syntax</bookmark_value>    <bookmark_value>database table reference;combinations</bookmark_value>    <bookmark_value>database table reference;reserved reference keywords</bookmark_value>"
 
 #. yyUju
 #: database_table_reference.xhp
@@ -53573,7 +53574,7 @@ msgctxt ""
 "par_id971727196189190\n"
 "help.text"
 msgid "%PRODUCTNAME Calc lets you reference data in Database tables by using a special notation, a “database table reference”, for cell references inside the table. This special notation aims to improve the readability of formulas that reference cells inside a database table."
-msgstr ""
+msgstr "%PRODUCTNAME Calc lets you reference data in Database tables by using a special notation, a “database table reference”, for cell references inside the table. This special notation aims to improve the readability of formulae that reference cells inside a database table."
 
 #. 6adVw
 #: database_table_reference.xhp
@@ -54104,7 +54105,7 @@ msgctxt ""
 "par_id371727210314917\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060107.xhp#implicit_intersection\">Implicit intersection in formulas</link>"
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060107.xhp#implicit_intersection\">Implicit intersection in formulae</link>"
 
 #. GXyQU
 #: default_number_formats.xhp
@@ -54833,7 +54834,7 @@ msgctxt ""
 "par_id331685033039088\n"
 "help.text"
 msgid "Formulas calculate"
-msgstr ""
+msgstr "Formulae calculate"
 
 #. 6Kw3Q
 #: events_sheet.xhp
@@ -55814,7 +55815,7 @@ msgctxt ""
 "par_id711715953325962\n"
 "help.text"
 msgid "The function is always <emph>case insensitive</emph>, independent from the setting of <emph>Case sensitive</emph> checkbox in <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\"><menuitem>%PRODUCTNAME Calc - Calculate</menuitem></link>. You can however, use the mode modifier <emph>(?-i)</emph> in <link href=\"text/shared/01/02100001.xhp\">regular expressions</link> to force search for a case-sensitive match."
-msgstr ""
+msgstr "The function is always <emph>case-insensitive</emph>, independent from the setting of <emph>Case sensitive</emph> check box in <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline> - <link href=\"text/shared/optionen/01060500.xhp\"><menuitem>%PRODUCTNAME Calc - Calculate</menuitem></link>. You can however, use the mode modifier <emph>(?-i)</emph> in <link href=\"text/shared/01/02100001.xhp\">regular expressions</link> to force search for a case-sensitive match."
 
 #. 8DbP2
 #: func_aggregate.xhp
@@ -60422,7 +60423,7 @@ msgctxt ""
 "par_id831605805755075\n"
 "help.text"
 msgid "For these examples to work as described, make sure that <emph>Enable regular expressions in formulas</emph> is selected in <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - $[officename] Calc - Calculate</menuitem>."
-msgstr ""
+msgstr "For these examples to work as described, make sure that <emph>Enable regular expressions in formulae</emph> is selected in <switchinline select=\"sys\"><caseinline select=\"MAC\"><menuitem>%PRODUCTNAME - Preferences</menuitem></caseinline><defaultinline><menuitem>Tools - Options</menuitem></defaultinline></switchinline><menuitem> - $[officename] Calc - Calculate</menuitem>."
 
 #. iHFsx
 #: func_countifs.xhp
@@ -62357,7 +62358,7 @@ msgctxt ""
 "par_id21709506838932\n"
 "help.text"
 msgid "<input>{=FILTER(A2:C13;A2:A13>50)}</input> returns the array containing all grades with Maths grade above 50. Note that this is an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
-msgstr ""
+msgstr "<input>{=FILTER(A2:C13;A2:A13>50)}</input> returns the array containing all grades with Maths grade above 50. Note that this is an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
 
 #. METQ9
 #: func_filter.xhp
@@ -68099,7 +68100,7 @@ msgctxt ""
 "par_id821708357634624\n"
 "help.text"
 msgid "If <emph>Rows</emph> and <emph>Columns</emph> are greater than 1, the RANDARRAY function must be entered as an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
-msgstr ""
+msgstr "If <emph>Rows</emph> and <emph>Columns</emph> are greater than 1, the RANDARRAY function must be entered as an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
 
 #. QgdBu
 #: func_randarray.xhp
@@ -69629,7 +69630,7 @@ msgctxt ""
 "par_id821708357634624\n"
 "help.text"
 msgid "If <emph>Rows</emph> and <emph>Columns</emph> are greater than 1, the SEQUENCE function must be entered as an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
-msgstr ""
+msgstr "If <emph>Rows</emph> and <emph>Columns</emph> are greater than 1, the SEQUENCE function must be entered as an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
 
 #. EmG5r
 #: func_sequence.xhp
@@ -70682,7 +70683,7 @@ msgctxt ""
 "par_id741711128545751\n"
 "help.text"
 msgid "A named range can be given as the Range or SumRange parameter. For example, if the columns in the above table are respectively named \"ProductName\", \"Sales\", and \"Revenue\", the function returns 150. This function will only work as described if you have defined the names of the columns using the <link href=\"text/scalc/01/04070100.xhp#definenames)\">Define Names</link> dialog."
-msgstr ""
+msgstr "A named range can be given as the Range or SumRange parameter. For example, if the columns in the above table are respectively named \"ProductName\", \"Sales\", and \"Revenue\", the function returns 150. This function will only work as described if you have defined the names of the columns using the <link href=\"text/scalc/01/04070100.xhp#definenames)\">Define Names</link> dialogue box."
 
 #. amnCv
 #: func_sumif.xhp
@@ -74759,7 +74760,7 @@ msgctxt ""
 "par_id821708357634624\n"
 "help.text"
 msgid "If <emph>Result Array</emph> is a range of cells, the XLOOKUP function must be entered as an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
-msgstr ""
+msgstr "If <emph>Result Array</emph> is a range of cells, the XLOOKUP function must be entered as an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
 
 #. sdzRc
 #: func_xlookup.xhp
@@ -75848,7 +75849,7 @@ msgctxt ""
 "hd_id3150791\n"
 "help.text"
 msgid "Formulas"
-msgstr ""
+msgstr "Formulae"
 
 #. RhfnT
 #: pastespecialcalc.xhp
@@ -75857,7 +75858,7 @@ msgctxt ""
 "par_id3145744\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/pastespecial/formulas\">Inserts cells containing formulae.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/pastespecial/formulas\">Inserts cells containing formulae.</ahelp>"
 
 #. opQb6
 #: pastespecialcalc.xhp
@@ -76199,7 +76200,7 @@ msgctxt ""
 "bm_id351645231629404\n"
 "help.text"
 msgid "<bookmark_value>calculate;recalculate hard</bookmark_value>    <bookmark_value>formulas;recalculate hard</bookmark_value>    <bookmark_value>calculate;force recalculation</bookmark_value>    <bookmark_value>formulas;force recalculation</bookmark_value>    <bookmark_value>non volatile functions;force recalculation</bookmark_value>    <bookmark_value>cell contents;force recalculation</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>calculate;recalculate hard</bookmark_value>    <bookmark_value>formulae;recalculate hard</bookmark_value>    <bookmark_value>calculate;force recalculation</bookmark_value>    <bookmark_value>formulae;force recalculation</bookmark_value>    <bookmark_value>non volatile functions;force recalculation</bookmark_value>    <bookmark_value>cell contents;force recalculation</bookmark_value>"
 
 #. CLMED
 #: recalculate_hard.xhp
@@ -76217,7 +76218,7 @@ msgctxt ""
 "par_id631645217532291\n"
 "help.text"
 msgid "Recalculates all formulas in the document, including Add-In functions and non-volatile functions."
-msgstr ""
+msgstr "Recalculates all formulae in the document, including Add-In functions and non-volatile functions."
 
 #. ooD3F
 #: recalculate_hard.xhp
@@ -76505,7 +76506,7 @@ msgctxt ""
 "par_id891736537858935\n"
 "help.text"
 msgid "Additional cell style options are available in the <link href=\"text/scalc/01/05020000.xhp\"><menuitem>Format Cells</menuitem></link> dialog."
-msgstr ""
+msgstr "Additional cell style options are available in the <link href=\"text/scalc/01/05020000.xhp\"><menuitem>Format Cells</menuitem></link> dialogue box."
 
 #. pASQg
 #: sidebar_cell_appearance.xhp
@@ -77117,7 +77118,7 @@ msgctxt ""
 "par_id393993\n"
 "help.text"
 msgid "<ahelp hid=\".\">Select a solver engine. The listbox is disabled if only one solver engine is installed.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Select a solver engine. The list box is disabled if only one solver engine is installed.</ahelp>"
 
 #. LQubc
 #: solver_options.xhp
@@ -78035,7 +78036,7 @@ msgctxt ""
 "par_id871654181525722\n"
 "help.text"
 msgid "<emph>Display X axis</emph>: check to show the X axis for sparklines."
-msgstr ""
+msgstr "<emph>Display x-Axis</emph>: check to show the x-Axis for sparklines."
 
 #. qmn7h
 #: sparklines.xhp
@@ -78044,7 +78045,7 @@ msgctxt ""
 "par_id891654181533521\n"
 "help.text"
 msgid "<emph>Vertical minimum, Vertical maximum:</emph> check to set the minimum (maximum) value for the Y axis. Select one of following:"
-msgstr ""
+msgstr "<emph>Vertical minimum, Vertical maximum:</emph> check to set the minimum (maximum) value for the y-Axis. Select one of following:"
 
 #. KnHCA
 #: sparklines.xhp
@@ -79511,7 +79512,7 @@ msgctxt ""
 "par_id141681485134081\n"
 "help.text"
 msgid "Check this box to allow trimming of the input range to the actual data content before computing moving-average. Trimming data ignores unused or empty cells after the last non-empty cell in the input range, thus reducing the computing load of the moving average to the actual data. This checkbox is enabled by default."
-msgstr ""
+msgstr "Check this box to allow trimming of the input range to the actual data content before computing moving-average. Trimming data ignores unused or empty cells after the last non-empty cell in the input range, thus reducing the computing load of the moving average to the actual data. This check box is enabled by default."
 
 #. eoQu3
 #: statistics_movingavg.xhp
