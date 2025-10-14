@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 15:27+0100\n"
-"PO-Revision-Date: 2025-10-12 12:55+0000\n"
+"PO-Revision-Date: 2025-10-14 14:54+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-25-2/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -6638,7 +6638,7 @@ msgctxt ""
 "hd_id3147556\n"
 "help.text"
 msgid "PV"
-msgstr "Huidige waarde"
+msgstr "HW"
 
 #. ajegN
 #: 04060103.xhp
@@ -6692,7 +6692,7 @@ msgctxt ""
 "par_id3153023\n"
 "help.text"
 msgid "<emph>NPer</emph> is the total number of periods (payment period)."
-msgstr "<emph>NPer</emph> is het totale aantal perioden (betalingsperioden)."
+msgstr "<emph>Aantal betalingsperioden</emph> is het totale aantal perioden (betalingsperioden)."
 
 #. vxMVB
 #: 04060103.xhp
@@ -7403,7 +7403,7 @@ msgctxt ""
 "par_id3152797\n"
 "help.text"
 msgid "<item type=\"input\">=DISC(\"2001-01-25\";\"2001-11-15\";97;100;3)</item> returns about 0.0372 or 3.72 per cent."
-msgstr "<item type=\"input\">=KORTING(\"25-01-2001\";\"15-11-2001\";97;100;3)</item> geeft 0,03724 of 3,72 procent."
+msgstr "<item type=\"input\">=DISCONTO(\"25-01-2001\";\"15-11-2001\";97;100;3)</item> geeft 0,03724 of 3,72 procent."
 
 #. pLhCb
 #: 04060103.xhp
@@ -7412,7 +7412,7 @@ msgctxt ""
 "bm_id3154695\n"
 "help.text"
 msgid "<bookmark_value>DURATION function</bookmark_value>         <bookmark_value>durations;fixed interest securities</bookmark_value>"
-msgstr "<bookmark_value>LOOPTIJD, functie</bookmark_value><bookmark_value>Looptijden;waardepapieren met vaste interest</bookmark_value>"
+msgstr "<bookmark_value>DUUR, functie</bookmark_value><bookmark_value>Looptijden;waardepapieren met vaste interest</bookmark_value>"
 
 #. coRDF
 #: 04060103.xhp
@@ -8006,7 +8006,7 @@ msgctxt ""
 "par_id3145777\n"
 "help.text"
 msgid "<emph>Period</emph> is the number of installments for calculation of interest."
-msgstr "<emph>Periode</emph> is het aantal aflossingstermijnen voor de berekening van de rente."
+msgstr "<emph>Aantal aflossingsperioden</emph> is het aantal aflossingstermijnen voor de berekening van de rente."
 
 #. DUuGo
 #: 04060103.xhp
@@ -8591,7 +8591,7 @@ msgctxt ""
 "hd_id3147081\n"
 "help.text"
 msgid "ISERROR"
-msgstr "IS.FOUT"
+msgstr "ISFOUT"
 
 #. GeByF
 #: 04060104.xhp
@@ -8609,7 +8609,7 @@ msgctxt ""
 "par_id3153155\n"
 "help.text"
 msgid "ISERROR(Value)"
-msgstr "IS.FOUT(Waarde; Alternatieve waarde)"
+msgstr "ISFOUT(Waarde; Alternatieve waarde)"
 
 #. Usvv4
 #: 04060104.xhp
@@ -8627,7 +8627,7 @@ msgctxt ""
 "par_id3150256\n"
 "help.text"
 msgid "<item type=\"input\">=ISERROR(C8)</item> where cell C8 contains <item type=\"input\">=1/0</item> returns TRUE, because 1/0 is an error."
-msgstr "<item type=\"input\">=IS.FOUT(C8;C9)</item>, als cel C8 <item type=\"input\">=1/0</item> bevat, geeft de waarde C9, omdat 1/0 een foutwaarde geeft."
+msgstr "<item type=\"input\">=ISFOUT(C8)</item>, als cel C8 <item type=\"input\">=1/0</item> bevat, retourneert WAAR, omdat 1/0 een foutwaarde geeft."
 
 #. CCX3g
 #: 04060104.xhp
@@ -8636,7 +8636,7 @@ msgctxt ""
 "par_id1889095\n"
 "help.text"
 msgid "<item type=\"input\">=ISERROR(C9)</item> where cell C9 contains <item type=\"input\">=NA()</item> returns TRUE."
-msgstr "<item type=\"input\">=ALS.FOUT(C8;C9)</item>, als cel C8 <item type=\"input\">13</item> bevat, geeft 13 de waarde van C8, wat geen fout is."
+msgstr "<item type=\"input\">=ISFOUT(C9)</item>, als cel C9 <item type=\"input\">=NB()</item> bevat, retourneert WAAR."
 
 #. 4LmNf
 #: 04060104.xhp
@@ -8708,7 +8708,7 @@ msgctxt ""
 "par_id18890951\n"
 "help.text"
 msgid "<item type=\"input\">=IFERROR(C8;C9)</item> where cell C8 contains <item type=\"input\">13</item> returns 13, the value of C8, which is not an error."
-msgstr "<item type=\"input\">ALS.FOUT(C8;C9)</item> als cel C8 <item type=\"input\">13</item> bevat, geeft 13 de waarde van C8, wat geen fout is."
+msgstr "<item type=\"input\">=ALS.FOUT(C8;C9)</item> als cel C8 <item type=\"input\">13</item> bevat, geeft 13 de waarde van C8, wat geen fout is."
 
 #. DUDkY
 #: 04060104.xhp
@@ -9140,7 +9140,7 @@ msgctxt ""
 "hd_id3153685\n"
 "help.text"
 msgid "ISNA"
-msgstr "IS.NB"
+msgstr "ISNB"
 
 #. 37cBk
 #: 04060104.xhp
@@ -9167,7 +9167,7 @@ msgctxt ""
 "par_id3153748\n"
 "help.text"
 msgid "ISNA(Value)"
-msgstr "IS.NB(Waarde)"
+msgstr "ISNB(Waarde)"
 
 #. UfAek
 #: 04060104.xhp
@@ -9185,7 +9185,7 @@ msgctxt ""
 "par_id3154852\n"
 "help.text"
 msgid "<item type=\"input\">=ISNA(D3)</item> returns FALSE as a result."
-msgstr "<item type=\"input\">=IS.NB(D3)</item> geeft ONWAAR als resultaat."
+msgstr "<item type=\"input\">=ISNB(D3)</item> geeft ONWAAR als resultaat."
 
 #. 8pRTT
 #: 04060104.xhp
@@ -10742,7 +10742,7 @@ msgctxt ""
 "hd_id3156256\n"
 "help.text"
 msgid "TRUE"
-msgstr "ALS"
+msgstr "WAAR"
 
 #. HfJge
 #: 04060105.xhp
@@ -19159,7 +19159,7 @@ msgctxt ""
 "par_id3150625\n"
 "help.text"
 msgid "<item type=\"input\">=CHOOSE(A1;B1;B2;B3;\"Today\";\"Yesterday\";\"Tomorrow\")</item>, for example, returns the contents of cell B2 for A1 = 2; for A1 = 4, the function returns the text \"Today\"."
-msgstr "<item type=\"input\">=KIEZEN(A1;B1;B2;B3;\"Vandaag\";\"Gisteren\";\"Morgen\")</item> geeft, bijvoorbeeld, de inhoud van cel B2 als A1 = 2; als A1 = 4 geeft de functie de tekst \"Vandaag\" terug."
+msgstr "<item type=\"input\">=KIEZEN(A1;B1;B2;B3;\"Vandaag\";\"Gisteren\";\"Morgen\")</item> geeft, bijvoorbeeld, de inhoud van cel B2 als A1 = 2; als A1 = 1 geeft de functie de tekst \"Vandaag\" terug."
 
 #. pyC7b
 #: 04060109.xhp
@@ -23011,7 +23011,7 @@ msgctxt ""
 "par_id3163824\n"
 "help.text"
 msgid "ERF(LowerLimit [; UpperLimit])"
-msgstr "FOUTFUNCTIE(Ondergrens [; Bovengrens])"
+msgstr "FOUTFUNCTIE(Ondergrens ; Bovengrens (optioneel))"
 
 #. TyCGk
 #: 04060115.xhp
@@ -23092,7 +23092,7 @@ msgctxt ""
 "par_id2952974\n"
 "help.text"
 msgid "<item type=\"input\">=ERF.PRECISE(1)</item> returns 0.842701."
-msgstr "<item type=\"input\">=FOUTFUNCTIE.NAUWKEURIG(1)</item> geeft 0.842701 (afgerond) terug."
+msgstr "<item type=\"input\">=FOUTFUNCTIE.NAUWKEURIG(1)</item> geeft 0,842701 (afgerond) terug."
 
 #. 76xV5
 #: 04060115.xhp
@@ -23281,7 +23281,7 @@ msgctxt ""
 "par_id3155847\n"
 "help.text"
 msgid "HEX2BIN(Number [; Places])"
-msgstr "HEX.N.BIN(\"Getal\" [; Aantal tekens (optioneel)])"
+msgstr "HEX.N.BIN(\"Getal\" ; Aantal tekens (optioneel))"
 
 #. bSZFP
 #: 04060115.xhp
@@ -23398,7 +23398,7 @@ msgctxt ""
 "par_id3151170\n"
 "help.text"
 msgid "HEX2OCT(Number [; Places])"
-msgstr "HEX.N.OCT(\"Getal\" [; Aantal tekens])"
+msgstr "HEX.N.OCT(\"Getal\" ; Aantal tekens (optioneel))"
 
 #. 9wBCe
 #: 04060115.xhp
@@ -24586,7 +24586,7 @@ msgctxt ""
 "par_id3146098\n"
 "help.text"
 msgid "ODDFPRICE(Settlement; Maturity; Issue; FirstCoupon; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr "PRIJS AFW.ET.Prijs(\"Aankoopdatum\"; \"Vervaldatum\"; Uitgiftedatum; Eerste renteperiode; Rente; Rendement; Aflossingsbedrag; Aantal rentebetalingen; Soort jaar (optioneel))"
+msgstr "AFW.ET.Prijs(\"Aankoopdatum\"; \"Vervaldatum\"; Uitgiftedatum; Eerste renteperiode; Rente; Rendement; Aflossingsbedrag; Aantal rentebetalingen; Soort jaar (optioneel))"
 
 #. kHZM8
 #: 04060118.xhp
@@ -27448,7 +27448,7 @@ msgctxt ""
 "bm_id3148448\n"
 "help.text"
 msgid "<bookmark_value>calculating; durations</bookmark_value><bookmark_value>durations;calculating</bookmark_value><bookmark_value>PDURATION function</bookmark_value>"
-msgstr "<bookmark_value>berekening; looptijden</bookmark_value><bookmark_value>looptijden;berekening</bookmark_value><bookmark_value>PLOOPTIJD functie</bookmark_value>"
+msgstr "<bookmark_value>berekening; looptijden</bookmark_value><bookmark_value>looptijden;berekening</bookmark_value><bookmark_value>PDUUR functie</bookmark_value>"
 
 #. EjWXp
 #: 04060119.xhp
@@ -28060,7 +28060,7 @@ msgctxt ""
 "bm_id3148974\n"
 "help.text"
 msgid "<bookmark_value>calculating;modified internal rates of return</bookmark_value><bookmark_value>modified internal rates of return</bookmark_value><bookmark_value>MIRR function</bookmark_value><bookmark_value>internal rates of return;modified</bookmark_value>"
-msgstr "<bookmark_value>berekenen;gewijzigde interne opbrengsten</bookmark_value><bookmark_value>gewijzigde interne opbrengsten</bookmark_value><bookmark_value>QIR-functie</bookmark_value><bookmark_value>interne opbrengsten;gewijzigd</bookmark_value>"
+msgstr "<bookmark_value>berekenen;gewijzigde interne rendementen</bookmark_value><bookmark_value>gewijzigde interne rendementen</bookmark_value><bookmark_value>GIR-functie</bookmark_value><bookmark_value>interne rendementen;gewijzigd</bookmark_value>"
 
 #. iChyK
 #: 04060119.xhp
@@ -29725,7 +29725,7 @@ msgctxt ""
 "par_id3146859\n"
 "help.text"
 msgid "<input>=BETAINV(0.5;5;10)</input> returns the value 0.3257511553."
-msgstr "<input>=BETAINV(0.5;5;10)</input> geeft de waarde 0,3257511553 terug."
+msgstr "<input>=BETAINV(0,5;5;10)</input> geeft de waarde 0,3257511553 terug."
 
 #. hpGub
 #: 04060181.xhp
@@ -32794,7 +32794,7 @@ msgctxt ""
 "par_id3149287\n"
 "help.text"
 msgid "HARMEAN(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
-msgstr "HARM.GEM(Getal 1 ; Getal 2 (optioneel); …)(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
+msgstr "HARM.GEM(<embedvar href=\"text/scalc/01/ful_func.xhp#number255_1\" markup=\"keep\"/>)"
 
 #. DMCH7
 #: 04060182.xhp
@@ -32839,7 +32839,7 @@ msgctxt ""
 "par_id3155388\n"
 "help.text"
 msgid "HYPGEOMDIST(X; NSample; Successes; NPopulation [; Cumulative])"
-msgstr "HYPERGEOVERD(X; N-steekproef; Gunstige uitkomsten; N-populatie ; Cumulatief (optioneel))"
+msgstr "HYPERGEO.VERD(X; N-steekproef; Gunstige uitkomsten; N-populatie ; Cumulatief (optioneel))"
 
 #. ingyW
 #: 04060182.xhp
@@ -32857,7 +32857,7 @@ msgctxt ""
 "par_id3153106\n"
 "help.text"
 msgid "<emph>NSample</emph> is the size of the random sample."
-msgstr "<emph>NSteekproef</emph> is de grootte van de willekeurige steekproef."
+msgstr "<emph>N-Steekproef</emph> is de grootte van de willekeurige steekproef."
 
 #. dxUiA
 #: 04060182.xhp
@@ -33208,7 +33208,7 @@ msgctxt ""
 "par_id3145324\n"
 "help.text"
 msgid "<emph>StDev</emph> is the standard deviation for the total population."
-msgstr "<emph>STDEV</emph> is de standaarddeviatie voor de totale populatie."
+msgstr "<emph>Standaarddeviatie</emph> is de standaarddeviatie voor de totale populatie."
 
 #. mHvfH
 #: 04060183.xhp
@@ -54817,7 +54817,7 @@ msgctxt ""
 "par_id931584395947010\n"
 "help.text"
 msgid "<emph>Number 1; Number 2; … ; Number 255</emph> are numbers, references to cells or to cell ranges of numbers."
-msgstr "<emph>(Getal 1 ; Getal 2 (optioneel);… )</emph> zijn getallen, verwijzingen naar cellen of naar celbereiken van getallen."
+msgstr "<emph>Getal 1 ; Getal 2 (optioneel);… </emph> zijn getallen, verwijzingen naar cellen of naar celbereiken van getallen."
 
 #. RLXz8
 #: ful_func.xhp
@@ -54916,7 +54916,7 @@ msgctxt ""
 "hd_id3154073\n"
 "help.text"
 msgid "<variable id=\"aggregate_head\"><link href=\"text/scalc/01/func_aggregate.xhp\">AGGREGATE</link></variable> function"
-msgstr "<variable id=\"aggregate_head\"><link href=\"text/scalc/01/func_aggregate.xhp\">AGGREGAAT</link></variable>-functie"
+msgstr "<variable id=\"aggregate_head\"><link href=\"text/scalc/01/func_aggregate.xhp\">AGGREGAAT</link></variable>"
 
 #. m2Tdo
 #: func_aggregate.xhp
@@ -55672,7 +55672,7 @@ msgctxt ""
 "hd_id16852304621982\n"
 "help.text"
 msgid "<variable id=\"averageif_head\"><link href=\"text/scalc/01/func_averageif.xhp\">AVERAGEIF</link></variable> function"
-msgstr "<variable id=\"averageif_head\"><link href=\"text/scalc/01/func_averageif.xhp\">GEMIDDELDE.ALS-functie</link></variable>"
+msgstr "<variable id=\"averageif_head\"><link href=\"text/scalc/01/func_averageif.xhp\">GEMIDDELDE.ALS</link></variable>"
 
 #. DFigD
 #: func_averageif.xhp
@@ -56005,7 +56005,7 @@ msgctxt ""
 "hd_id537445374453744\n"
 "help.text"
 msgid "<variable id=\"averageifs_head\"><link href=\"text/scalc/01/func_averageifs.xhp\">AVERAGEIFS</link></variable> function"
-msgstr "<variable id=\"averageifs_head\"><link href=\"text/scalc/01/func_averageifs.xhp\">GEMIDDELDEN.ALS</link></variable>-functie"
+msgstr "<variable id=\"averageifs_head\"><link href=\"text/scalc/01/func_averageifs.xhp\">GEMIDDELDEN.ALS</link></variable>"
 
 #. CZ8LX
 #: func_averageifs.xhp
@@ -57409,7 +57409,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "CONVERT function"
-msgstr "CONVERTEREN functie"
+msgstr "CONVERTEREN"
 
 #. wHx2Y
 #: func_convert.xhp
@@ -59182,7 +59182,7 @@ msgctxt ""
 "bm_id452245224522\n"
 "help.text"
 msgid "<bookmark_value>COUNTIFS function</bookmark_value>  <bookmark_value>counting row;satisfying criteria</bookmark_value>  <bookmark_value>counting column;satisfying criteria</bookmark_value>"
-msgstr "<bookmark_value>AANTAL.ALS-functie</bookmark_value>  <bookmark_value>rijen tellen;voldoen aan criteria</bookmark_value>  <bookmark_value>kolommen tellen;voldoen aan criteria</bookmark_value>"
+msgstr "<bookmark_value>AANTALLEN.ALS-functie</bookmark_value>  <bookmark_value>rijen tellen;voldoen aan criteria</bookmark_value>  <bookmark_value>kolommen tellen;voldoen aan criteria</bookmark_value>"
 
 #. wMH8u
 #: func_countifs.xhp
@@ -59290,7 +59290,7 @@ msgctxt ""
 "par_id22736248573471\n"
 "help.text"
 msgid "<item type=\"input\">=COUNTIFS(B2:B6;\"[:alpha:]*\")</item>"
-msgstr "<item type=\"input\">=AANTAL.ALS(B2:B6;\"[:Alfa:]*\")</item>"
+msgstr "<item type=\"input\">=AANTALLEN.ALS(B2:B6;\"[:Alfa:]*\")</item>"
 
 #. yiHkH
 #: func_countifs.xhp
@@ -59353,7 +59353,7 @@ msgctxt ""
 "par_id3245551524846\n"
 "help.text"
 msgid "If you need to change a criterion easily, you may want to specify it in a separate cell and use a reference to this cell in the condition of the COUNTIFS function. For example, the above function can be rewritten as follows:"
-msgstr "Als u een criterium gemakkelijk moet kunnen veranderen, kunt u dit in een aparte cel opvoeren en gebruik maken van een verwijzing naar deze cel in de voorwaarde van de AANTAL.ALS-functie. De bovenstaande functie kan bijvoorbeeld als volgt worden herschreven:"
+msgstr "Als u een criterium gemakkelijk moet kunnen veranderen, kunt u dit in een aparte cel opvoeren en gebruik maken van een verwijzing naar deze cel in de voorwaarde van de AANTALLEN.ALS-functie. De bovenstaande functie kan bijvoorbeeld als volgt worden herschreven:"
 
 #. 3TTwe
 #: func_countifs.xhp
@@ -59380,7 +59380,7 @@ msgctxt ""
 "par_id131677016670241\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/COUNTIFS\">COUNTIFS wiki page</link>."
-msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/COUNTIFS/nl\">Wiki-pagina AANTALLEN.ALS</link>."
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/COUNTIFS\">Wiki-pagina AANTALLEN.ALS</link>."
 
 #. GW3GV
 #: func_date.xhp
@@ -60037,7 +60037,7 @@ msgctxt ""
 "par_id3155313\n"
 "help.text"
 msgid "DAYS360(Date1; Date2[; Type])"
-msgstr "DAGEN360(“Begindatum”; “Einddatum”[; Type])"
+msgstr "DAGEN360(“Begindatum”; “Einddatum”; Type (optioneel))"
 
 #. 5qfGz
 #: func_days360.xhp
@@ -63043,7 +63043,7 @@ msgctxt ""
 "hd_id124691246912469\n"
 "help.text"
 msgid "<variable id=\"imcosh_head\"><link href=\"text/scalc/01/func_imcosh.xhp\">IMCOSH</link></variable> function"
-msgstr "Functie <variable id=\"imcosh_head\"><link href=\"text/scalc/01/func_imcosh.xhp\">C.COSH</link></variable>"
+msgstr "<variable id=\"imcosh_head\"><link href=\"text/scalc/01/func_imcosh.xhp\">C.COSH</link></variable>"
 
 #. jewEE
 #: func_imcosh.xhp
@@ -63133,7 +63133,7 @@ msgctxt ""
 "hd_id763567635676356\n"
 "help.text"
 msgid "<variable id=\"imcot_head\"><link href=\"text/scalc/01/func_imcot.xhp\">IMCOT</link></variable> function"
-msgstr "Functie <variable id=\"imcot_head\"><link href=\"text/scalc/01/func_imcot.xhp\">C.COT</link></variable>"
+msgstr "<variable id=\"imcot_head\"><link href=\"text/scalc/01/func_imcot.xhp\">C.COT</link></variable>"
 
 #. sFono
 #: func_imcot.xhp
@@ -63223,7 +63223,7 @@ msgctxt ""
 "hd_id931679316793167\n"
 "help.text"
 msgid "<variable id=\"imcsc_head\"><link href=\"text/scalc/01/func_imcsc.xhp\">IMCSC</link></variable> function"
-msgstr "Functie <variable id=\"imcsc_head\"><link href=\"text/scalc/01/func_imcsc.xhp\">C.COSEC</link></variable>"
+msgstr "<variable id=\"imcsc_head\"><link href=\"text/scalc/01/func_imcsc.xhp\">C.COSEC</link></variable>"
 
 #. ySZ6p
 #: func_imcsc.xhp
@@ -63313,7 +63313,7 @@ msgctxt ""
 "hd_id977779777797777\n"
 "help.text"
 msgid "<variable id=\"imcsch_head\"><link href=\"text/scalc/01/func_imcsch.xhp\">IMCSCH</link></variable> function"
-msgstr "Functie <variable id=\"imcsch_head\"><link href=\"text/scalc/01/func_imcsch.xhp\">C.COSECH</link></variable>"
+msgstr "<variable id=\"imcsch_head\"><link href=\"text/scalc/01/func_imcsch.xhp\">C.COSECH</link></variable>"
 
 #. esr9F
 #: func_imcsch.xhp
@@ -63403,7 +63403,7 @@ msgctxt ""
 "hd_id29384186273495\n"
 "help.text"
 msgid "<variable id=\"imsec_head\"><link href=\"text/scalc/01/func_imsec.xhp\">IMSEC</link></variable> function"
-msgstr "Functie <variable id=\"imsec_head\"><link href=\"text/scalc/01/func_imsec.xhp\">C.SEC</link></variable>"
+msgstr "<variable id=\"imsec_head\"><link href=\"text/scalc/01/func_imsec.xhp\">C.SEC</link></variable>"
 
 #. rUMBF
 #: func_imsec.xhp
@@ -63493,7 +63493,7 @@ msgctxt ""
 "hd_id258933143113817\n"
 "help.text"
 msgid "<variable id=\"imsech_head\"><link href=\"text/scalc/01/func_imsech.xhp\">IMSECH</link></variable> function"
-msgstr "<variable id=\"imsech_head\"><link href=\"text/scalc/01/func_imsech.xhp\">C.SECH</link></variable>-functie"
+msgstr "<variable id=\"imsech_head\"><link href=\"text/scalc/01/func_imsech.xhp\">C.SECH</link></variable>"
 
 #. FzWHS
 #: func_imsech.xhp
@@ -63763,7 +63763,7 @@ msgctxt ""
 "hd_id9522389621160\n"
 "help.text"
 msgid "<variable id=\"imtan_head\"><link href=\"text/scalc/01/func_imtan.xhp\">IMTAN</link></variable> function"
-msgstr "Functie <variable id=\"imtan_head\"><link href=\"text/scalc/01/func_imtan.xhp\">C.TAN</link></variable>"
+msgstr "<variable id=\"imtan_head\"><link href=\"text/scalc/01/func_imtan.xhp\">C.TAN</link></variable>"
 
 #. FynW6
 #: func_imtan.xhp
@@ -69307,7 +69307,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SUMIFS function"
-msgstr "AANTAL.ALS-functie"
+msgstr "SOMMEN.ALS-functie"
 
 #. jDeBL
 #: func_sumifs.xhp
@@ -69316,7 +69316,7 @@ msgctxt ""
 "bm_id658066580665806\n"
 "help.text"
 msgid "<bookmark_value>SUMIFS function</bookmark_value>  <bookmark_value>sum;satisfying conditions</bookmark_value>"
-msgstr "<bookmark_value>AANTAL.ALS-functie</bookmark_value>  <bookmark_value>aantal;voorwaarden om aan te voldoen</bookmark_value>"
+msgstr "<bookmark_value>SOMMEN.ALS-functie</bookmark_value>  <bookmark_value>aantal;voorwaarden om aan te voldoen</bookmark_value>"
 
 #. MpUwQ
 #: func_sumifs.xhp
@@ -70324,7 +70324,7 @@ msgctxt ""
 "hd_id601641846107898\n"
 "help.text"
 msgid "<variable id=\"trunc_h1\"><link href=\"text/scalc/01/func_trunc.xhp\">TRUNC function</link></variable>"
-msgstr "<variable id=\"trunc_h1\"><link href=\"text/scalc/01/func_trunc.xhp\">GEHEEL-functie</link></variable>"
+msgstr "<variable id=\"trunc_h1\"><link href=\"text/scalc/01/func_trunc.xhp\">GEHEEL</link></variable>"
 
 #. dkTrh
 #: func_trunc.xhp
