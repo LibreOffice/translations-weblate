@@ -1,0 +1,670 @@
+#. extracted from connectivity/inc
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
+"POT-Creation-Date: 2022-07-06 20:18+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en-CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Accelerator-Marker: ~\n"
+"X-Generator: LibreOffice\n"
+
+#. 9KHB8
+#. = common strings
+#: connectivity/inc/strings.hrc:25
+msgctxt "STR_NO_CONNECTION_GIVEN"
+msgid "No connection to the database exists."
+msgstr "No connection to the database exists."
+
+#. 72Mjc
+#: connectivity/inc/strings.hrc:26
+msgctxt "STR_WRONG_PARAM_INDEX"
+msgid "You tried to set a parameter at position “$pos$” but there is/are only “$count$” parameter(s) allowed. One reason may be that the property “ParameterNameSubstitution” is not set to TRUE in the data source."
+msgstr "You tried to set a parameter at position “$pos$” but there is/are only “$count$” parameter(s) allowed. One reason may be that the property “ParameterNameSubstitution” is not set to TRUE in the data source."
+
+#. 6FnrV
+#: connectivity/inc/strings.hrc:27
+msgctxt "STR_NO_INPUTSTREAM"
+msgid "The input stream was not set."
+msgstr "The input stream was not set."
+
+#. PtsET
+#: connectivity/inc/strings.hrc:28
+msgctxt "STR_NO_ELEMENT_NAME"
+msgid "There is no element named “$name$”."
+msgstr "There is no element named “$name$”."
+
+#. CWktu
+#: connectivity/inc/strings.hrc:29
+msgctxt "STR_INVALID_BOOKMARK"
+msgid "Invalid bookmark value"
+msgstr "Invalid bookmark value"
+
+#. VXSEP
+#: connectivity/inc/strings.hrc:30
+msgctxt "STR_PRIVILEGE_NOT_GRANTED"
+msgid "Privilege not granted: Only table privileges can be granted."
+msgstr "Privilege not granted: Only table privileges can be granted."
+
+#. DZf3v
+#: connectivity/inc/strings.hrc:31
+msgctxt "STR_PRIVILEGE_NOT_REVOKED"
+msgid "Privilege not revoked: Only table privileges can be revoked."
+msgstr "Privilege not revoked: Only table privileges can be revoked."
+
+#. qTZj7
+#: connectivity/inc/strings.hrc:32
+msgctxt "STR_ERRORMSG_SEQUENCE"
+msgid "Function sequence error."
+msgstr "Function sequence error."
+
+#. scUDb
+#: connectivity/inc/strings.hrc:33
+msgctxt "STR_INVALID_INDEX"
+msgid "Invalid descriptor index."
+msgstr "Invalid descriptor index."
+
+#. YyBDi
+#: connectivity/inc/strings.hrc:34
+msgctxt "STR_UNSUPPORTED_FUNCTION"
+msgid "The driver does not support the function “$functionname$”."
+msgstr "The driver does not support the function “$functionname$”."
+
+#. GW3L8
+#: connectivity/inc/strings.hrc:35
+msgctxt "STR_UNSUPPORTED_FEATURE"
+msgid "The driver does not support the functionality for “$featurename$”. It is not implemented."
+msgstr "The driver does not support the functionality for “$featurename$”. It is not implemented."
+
+#. zXVCV
+#: connectivity/inc/strings.hrc:36
+msgctxt "STR_FORMULA_WRONG"
+msgid "The formula for TypeInfoSettings is wrong!"
+msgstr "The formula for TypeInfoSettings is wrong!"
+
+#. vA6FB
+#: connectivity/inc/strings.hrc:37
+msgctxt "STR_STRING_LENGTH_EXCEEDED"
+msgid "The string “$string$” exceeds the maximum length of $maxlen$ characters when converted to the target character set “$charset$”."
+msgstr "The string “$string$” exceeds the maximum length of $maxlen$ characters when converted to the target character set “$charset$”."
+
+#. THhEu
+#: connectivity/inc/strings.hrc:38
+msgctxt "STR_CANNOT_CONVERT_STRING"
+msgid "The string “$string$” cannot be converted using the encoding “$charset$”."
+msgstr "The string “$string$” cannot be converted using the encoding “$charset$”."
+
+#. sSzsJ
+#: connectivity/inc/strings.hrc:39
+msgctxt "STR_URI_SYNTAX_ERROR"
+msgid "The connection URL is invalid."
+msgstr "The connection URL is invalid."
+
+#. aihGj
+#: connectivity/inc/strings.hrc:40
+msgctxt "STR_QUERY_TOO_COMPLEX"
+msgid "The query cannot be executed. It is too complex."
+msgstr "The query cannot be executed. It is too complex."
+
+#. ADy4t
+#: connectivity/inc/strings.hrc:41
+msgctxt "STR_OPERATOR_TOO_COMPLEX"
+msgid "The query cannot be executed. The operator is too complex."
+msgstr "The query cannot be executed. The operator is too complex."
+
+#. XZGaK
+#: connectivity/inc/strings.hrc:42
+msgctxt "STR_QUERY_INVALID_LIKE_COLUMN"
+msgid "The query cannot be executed. You cannot use “LIKE” with columns of this type."
+msgstr "The query cannot be executed. You cannot use “LIKE” with columns of this type."
+
+#. SsqWz
+#: connectivity/inc/strings.hrc:43
+msgctxt "STR_QUERY_INVALID_LIKE_STRING"
+msgid "The query cannot be executed. “LIKE” can be used with a string argument only."
+msgstr "The query cannot be executed. “LIKE” can be used with a string argument only."
+
+#. ZFFrf
+#: connectivity/inc/strings.hrc:44
+msgctxt "STR_QUERY_NOT_LIKE_TOO_COMPLEX"
+msgid "The query cannot be executed. The “NOT LIKE” condition is too complex."
+msgstr "The query cannot be executed. The “NOT LIKE” condition is too complex."
+
+#. AaZzs
+#: connectivity/inc/strings.hrc:45
+msgctxt "STR_QUERY_LIKE_WILDCARD"
+msgid "The query cannot be executed. The “LIKE” condition contains wildcard in the middle."
+msgstr "The query cannot be executed. The “LIKE” condition contains wildcard in the middle."
+
+#. GN6F9
+#: connectivity/inc/strings.hrc:46
+msgctxt "STR_QUERY_LIKE_WILDCARD_MANY"
+msgid "The query cannot be executed. The “LIKE” condition contains too many wildcards."
+msgstr "The query cannot be executed. The “LIKE” condition contains too many wildcards."
+
+#. LreLr
+#: connectivity/inc/strings.hrc:47
+msgctxt "STR_INVALID_COLUMNNAME"
+msgid "The column name “$columnname$” is not valid."
+msgstr "The column name “$columnname$” is not valid."
+
+#. FT3Zb
+#: connectivity/inc/strings.hrc:48
+msgctxt "STR_INVALID_COLUMN_SELECTION"
+msgid "The statement contains an invalid selection of columns."
+msgstr "The statement contains an invalid selection of columns."
+
+#. iLNAb
+#: connectivity/inc/strings.hrc:49
+msgctxt "STR_COULD_NOT_LOAD_FILE"
+msgid "The file $filename$ could not be loaded."
+msgstr "The file $filename$ could not be loaded."
+
+#. jq62z
+#: connectivity/inc/strings.hrc:50
+msgctxt "STR_LOAD_FILE_ERROR_MESSAGE"
+msgid ""
+"The attempt to load the file resulted in the following error message ($exception_type$):\n"
+"\n"
+"$error_message$"
+msgstr ""
+"The attempt to load the file resulted in the following error message ($exception_type$):\n"
+"\n"
+"$error_message$"
+
+#. sbrdS
+#. = the ado driver's resource strings
+#: connectivity/inc/strings.hrc:52
+msgctxt "STR_TYPE_NOT_CONVERT"
+msgid "The type could not be converted."
+msgstr "The type could not be converted."
+
+#. 3L6uG
+#: connectivity/inc/strings.hrc:53
+msgctxt "STR_INVALID_COLUMN_DESCRIPTOR_ERROR"
+msgid "Could not append column: invalid column descriptor."
+msgstr "Could not append column: invalid column descriptor."
+
+#. 4GMmY
+#: connectivity/inc/strings.hrc:54
+msgctxt "STR_INVALID_GROUP_DESCRIPTOR_ERROR"
+msgid "Could not create group: invalid object descriptor."
+msgstr "Could not create group: invalid object descriptor."
+
+#. MDKgr
+#: connectivity/inc/strings.hrc:55
+msgctxt "STR_INVALID_INDEX_DESCRIPTOR_ERROR"
+msgid "Could not create index: invalid object descriptor."
+msgstr "Could not create index: invalid object descriptor."
+
+#. jPjxi
+#: connectivity/inc/strings.hrc:56
+msgctxt "STR_INVALID_KEY_DESCRIPTOR_ERROR"
+msgid "Could not create key: invalid object descriptor."
+msgstr "Could not create key: invalid object descriptor."
+
+#. jaDH3
+#: connectivity/inc/strings.hrc:57
+msgctxt "STR_INVALID_TABLE_DESCRIPTOR_ERROR"
+msgid "Could not create table: invalid object descriptor."
+msgstr "Could not create table: invalid object descriptor."
+
+#. utNzu
+#: connectivity/inc/strings.hrc:58
+msgctxt "STR_INVALID_USER_DESCRIPTOR_ERROR"
+msgid "Could not create user: invalid object descriptor."
+msgstr "Could not create user: invalid object descriptor."
+
+#. 4TE9R
+#: connectivity/inc/strings.hrc:59
+msgctxt "STR_INVALID_VIEW_DESCRIPTOR_ERROR"
+msgid "Could not create view: invalid object descriptor."
+msgstr "Could not create view: invalid object descriptor."
+
+#. BrHQp
+#: connectivity/inc/strings.hrc:60
+msgctxt "STR_VIEW_NO_COMMAND_ERROR"
+msgid "Could not create view: no command object."
+msgstr "Could not create view: no command object."
+
+#. F6ygP
+#: connectivity/inc/strings.hrc:61
+msgctxt "STR_NO_CONNECTION"
+msgid "The connection could not be created. Maybe the necessary data provider is not installed."
+msgstr "The connection could not be created. Maybe the necessary data provider is not installed."
+
+#. GRZEu
+#. dbase
+#: connectivity/inc/strings.hrc:63
+msgctxt "STR_COULD_NOT_DELETE_INDEX"
+msgid "The index could not be deleted. An unknown error while accessing the file system occurred."
+msgstr "The index could not be deleted. An unknown error while accessing the file system occurred."
+
+#. JbDnu
+#: connectivity/inc/strings.hrc:64
+msgctxt "STR_ONL_ONE_COLUMN_PER_INDEX"
+msgid "The index could not be created. Only one column per index is allowed."
+msgstr "The index could not be created. Only one column per index is allowed."
+
+#. rB3XE
+#: connectivity/inc/strings.hrc:65
+msgctxt "STR_COULD_NOT_CREATE_INDEX_NOT_UNIQUE"
+msgid "The index could not be created. The values are not unique."
+msgstr "The index could not be created. The values are not unique."
+
+#. f8DTu
+#: connectivity/inc/strings.hrc:66
+msgctxt "STR_COULD_NOT_CREATE_INDEX"
+msgid "The index could not be created. An unknown error appeared."
+msgstr "The index could not be created. An unknown error appeared."
+
+#. 9eEjK
+#: connectivity/inc/strings.hrc:67
+msgctxt "STR_COULD_NOT_CREATE_INDEX_NAME"
+msgid "The index could not be created. The file “$filename$” is used by another index."
+msgstr "The index could not be created. The file “$filename$” is used by another index."
+
+#. GcK7B
+#: connectivity/inc/strings.hrc:68
+msgctxt "STR_COULD_NOT_CREATE_INDEX_KEYSIZE"
+msgid "The index could not be created. The size of the chosen column is too big."
+msgstr "The index could not be created. The size of the chosen column is too big."
+
+#. NGwFW
+#: connectivity/inc/strings.hrc:69
+msgctxt "STR_SQL_NAME_ERROR"
+msgid "The name “$name$” does not match SQL naming constraints."
+msgstr "The name “$name$” does not match SQL naming constraints."
+
+#. wv2Cx
+#: connectivity/inc/strings.hrc:70
+msgctxt "STR_COULD_NOT_DELETE_FILE"
+msgid "The file $filename$ could not be deleted."
+msgstr "The file $filename$ could not be deleted."
+
+#. PiFvx
+#: connectivity/inc/strings.hrc:71
+msgctxt "STR_INVALID_COLUMN_TYPE"
+msgid "Invalid column type for column “$columnname$”."
+msgstr "Invalid column type for column “$columnname$”."
+
+#. wB2gE
+#: connectivity/inc/strings.hrc:72
+msgctxt "STR_INVALID_COLUMN_PRECISION"
+msgid "Invalid precision for column “$columnname$”."
+msgstr "Invalid precision for column “$columnname$”."
+
+#. v67fT
+#: connectivity/inc/strings.hrc:73
+msgctxt "STR_INVALID_PRECISION_SCALE"
+msgid "Precision is less than scale for column “$columnname$”."
+msgstr "Precision is less than scale for column “$columnname$”."
+
+#. J3KEu
+#: connectivity/inc/strings.hrc:74
+msgctxt "STR_INVALID_COLUMN_NAME_LENGTH"
+msgid "Invalid column name length for column “$columnname$”."
+msgstr "Invalid column name length for column “$columnname$”."
+
+#. ZQUww
+#: connectivity/inc/strings.hrc:75
+msgctxt "STR_DUPLICATE_VALUE_IN_COLUMN"
+msgid "Duplicate value found in column “$columnname$”."
+msgstr "Duplicate value found in column “$columnname$”."
+
+#. zSeBJ
+#: connectivity/inc/strings.hrc:76
+msgctxt "STR_INVALID_COLUMN_DECIMAL_VALUE"
+msgid ""
+"The “$columnname$” column has been defined as a “Decimal” type, the maximum length is $precision$ characters (with $scale$ decimal places).\n"
+"\n"
+"The specified value “$value$” is longer than the number of digits allowed."
+msgstr ""
+"The “$columnname$” column has been defined as a “Decimal” type, the maximum length is $precision$ characters (with $scale$ decimal places).\n"
+"\n"
+"The specified value “$value$” is longer than the number of digits allowed."
+
+#. M6CvC
+#: connectivity/inc/strings.hrc:77
+msgctxt "STR_COLUMN_NOT_ALTERABLE"
+msgid "The column “$columnname$” could not be altered. Maybe the file system is write-protected."
+msgstr "The column “$columnname$” could not be altered. Maybe the file system is write-protected."
+
+#. st6hA
+#: connectivity/inc/strings.hrc:78
+msgctxt "STR_INVALID_COLUMN_VALUE"
+msgid "The column “$columnname$” could not be updated. The value is invalid for that column."
+msgstr "The column “$columnname$” could not be updated. The value is invalid for that column."
+
+#. 5rH5W
+#: connectivity/inc/strings.hrc:79
+msgctxt "STR_COLUMN_NOT_ADDABLE"
+msgid "The column “$columnname$” could not be added. Maybe the file system is write-protected."
+msgstr "The column “$columnname$” could not be added. Maybe the file system is write-protected."
+
+#. B9ACk
+#: connectivity/inc/strings.hrc:80
+msgctxt "STR_COLUMN_NOT_DROP"
+msgid "The column at position “$position$” could not be dropped. Maybe the file system is write-protected."
+msgstr "The column at position “$position$” could not be dropped. Maybe the file system is write-protected."
+
+#. KfedE
+#: connectivity/inc/strings.hrc:81
+msgctxt "STR_TABLE_NOT_DROP"
+msgid "The table “$tablename$” could not be dropped. Maybe the file system is write-protected."
+msgstr "The table “$tablename$” could not be dropped. Maybe the file system is write-protected."
+
+#. R3BGx
+#: connectivity/inc/strings.hrc:82
+msgctxt "STR_COULD_NOT_ALTER_TABLE"
+msgid "The table could not be altered."
+msgstr "The table could not be altered."
+
+#. DijyA
+#: connectivity/inc/strings.hrc:83
+msgctxt "STR_INVALID_DBASE_FILE"
+msgid "The file “$filename$” is an invalid (or unrecognized) dBASE file."
+msgstr "The file “$filename$” is an invalid (or unrecognized) dBASE file."
+
+#. LhHTA
+#. Evoab2
+#: connectivity/inc/strings.hrc:85
+msgctxt "STR_CANNOT_OPEN_BOOK"
+msgid "Cannot open Evolution address book."
+msgstr "Cannot open Evolution address book."
+
+#. sxbEF
+#: connectivity/inc/strings.hrc:86
+msgctxt "STR_SORT_BY_COL_ONLY"
+msgid "Can only sort by table columns."
+msgstr "Can only sort by table columns."
+
+#. 7R6eC
+#. File
+#: connectivity/inc/strings.hrc:88
+msgctxt "STR_QUERY_COMPLEX_COUNT"
+msgid "The query cannot be executed. It is too complex. Only “COUNT(*)” is supported."
+msgstr "The query cannot be executed. It is too complex. Only “COUNT(*)” is supported."
+
+#. PJivi
+#: connectivity/inc/strings.hrc:89
+msgctxt "STR_QUERY_INVALID_BETWEEN"
+msgid "The query cannot be executed. The “BETWEEN” arguments are not correct."
+msgstr "The query cannot be executed. The “BETWEEN” arguments are not correct."
+
+#. CHRju
+#: connectivity/inc/strings.hrc:90
+msgctxt "STR_QUERY_FUNCTION_NOT_SUPPORTED"
+msgid "The query cannot be executed. The function is not supported."
+msgstr "The query cannot be executed. The function is not supported."
+
+#. mnc5r
+#: connectivity/inc/strings.hrc:91
+msgctxt "STR_TABLE_READONLY"
+msgid "The table cannot be changed. It is read only."
+msgstr "The table cannot be changed. It is read only."
+
+#. TUUpf
+#: connectivity/inc/strings.hrc:92
+msgctxt "STR_DELETE_ROW"
+msgid "The row could not be deleted. The option “Display inactive records” is set."
+msgstr "The row could not be deleted. The option “Display inactive records” is set."
+
+#. TZTfv
+#: connectivity/inc/strings.hrc:93
+msgctxt "STR_ROW_ALREADY_DELETED"
+msgid "The row could not be deleted. It is already deleted."
+msgstr "The row could not be deleted. It is already deleted."
+
+#. NK9AX
+#: connectivity/inc/strings.hrc:94
+msgctxt "STR_QUERY_MORE_TABLES"
+msgid "The query cannot be executed. It contains more than one table."
+msgstr "The query cannot be executed. It contains more than one table."
+
+#. L4Ffm
+#: connectivity/inc/strings.hrc:95
+msgctxt "STR_QUERY_NO_TABLE"
+msgid "The query cannot be executed. It contains no valid table."
+msgstr "The query cannot be executed. It contains no valid table."
+
+#. 3KADk
+#: connectivity/inc/strings.hrc:96
+msgctxt "STR_QUERY_NO_COLUMN"
+msgid "The query cannot be executed. It contains no valid columns."
+msgstr "The query cannot be executed. It contains no valid columns."
+
+#. WcpZM
+#: connectivity/inc/strings.hrc:97
+msgctxt "STR_INVALID_PARA_COUNT"
+msgid "The count of the given parameter values does not match the parameters."
+msgstr "The count of the given parameter values does not match the parameters."
+
+#. CFcjS
+#: connectivity/inc/strings.hrc:98
+msgctxt "STR_NO_VALID_FILE_URL"
+msgid "The URL “$URL$” is not valid. A connection cannot be created."
+msgstr "The URL “$URL$” is not valid. A connection cannot be created."
+
+#. YFjkG
+#: connectivity/inc/strings.hrc:99
+msgctxt "STR_NO_CLASSNAME"
+msgid "The driver class “$classname$” could not be loaded."
+msgstr "The driver class “$classname$” could not be loaded."
+
+#. jbnZZ
+#: connectivity/inc/strings.hrc:100
+msgctxt "STR_NO_JAVA"
+msgid "No Java installation could be found. Please check your installation."
+msgstr "No Java installation could be found. Please check your installation."
+
+#. GdN4i
+#: connectivity/inc/strings.hrc:101
+msgctxt "STR_NO_RESULTSET"
+msgid "The execution of the query does not return a valid result set."
+msgstr "The execution of the query does not return a valid result set."
+
+#. JGxgF
+#: connectivity/inc/strings.hrc:102
+msgctxt "STR_NO_ROWCOUNT"
+msgid "The execution of the update statement does not affect any rows."
+msgstr "The execution of the update statement does not affect any rows."
+
+#. yCACF
+#: connectivity/inc/strings.hrc:103
+msgctxt "STR_NO_CLASSNAME_PATH"
+msgid "The additional driver class path is “$classpath$”."
+msgstr "The additional driver class path is “$classpath$”."
+
+#. sX2NM
+#: connectivity/inc/strings.hrc:104
+msgctxt "STR_UNKNOWN_PARA_TYPE"
+msgid "The type of parameter at position “$position$” is unknown."
+msgstr "The type of parameter at position “$position$” is unknown."
+
+#. gSPCX
+#: connectivity/inc/strings.hrc:105
+msgctxt "STR_UNKNOWN_COLUMN_TYPE"
+msgid "The type of column at position “$position$” is unknown."
+msgstr "The type of column at position “$position$” is unknown."
+
+#. 3FmFX
+#. KAB
+#: connectivity/inc/strings.hrc:107
+msgctxt "STR_PARA_ONLY_PREPARED"
+msgid "Parameters can appear only in prepared statements."
+msgstr "Parameters can appear only in prepared statements."
+
+#. CB7pj
+#. MACAB
+#: connectivity/inc/strings.hrc:109
+msgctxt "STR_NO_TABLE"
+msgid "No such table!"
+msgstr "No such table!"
+
+#. LUQBc
+#: connectivity/inc/strings.hrc:110
+msgctxt "STR_NO_MAC_OS_FOUND"
+msgid "No suitable macOS installation was found."
+msgstr "No suitable macOS installation was found."
+
+#. HNSzq
+#. hsqldb
+#: connectivity/inc/strings.hrc:112
+msgctxt "STR_NO_STORAGE"
+msgid "The connection can not be established. No storage or URL was given."
+msgstr "The connection can not be established. No storage or URL was given."
+
+#. SZSmZ
+#: connectivity/inc/strings.hrc:113
+msgctxt "STR_INVALID_FILE_URL"
+msgid "The given URL contains no valid local file system path. Please check the location of your database file."
+msgstr "The given URL contains no valid local file system path. Please check the location of your database file."
+
+#. MgCH9
+#: connectivity/inc/strings.hrc:114
+msgctxt "STR_NO_TABLE_CONTAINER"
+msgid "An error occurred while obtaining the connection’s table container."
+msgstr "An error occurred while obtaining the connection’s table container."
+
+#. uxoGW
+#: connectivity/inc/strings.hrc:115
+msgctxt "STR_NO_TABLENAME"
+msgid "There is no table named “$tablename$”."
+msgstr "There is no table named “$tablename$”."
+
+#. 3BxCF
+#: connectivity/inc/strings.hrc:116
+msgctxt "STR_NO_DOCUMENTUI"
+msgid "The provided DocumentUI is not allowed to be NULL."
+msgstr "The provided DocumentUI is not allowed to be NULL."
+
+#. VLEMM
+#: connectivity/inc/strings.hrc:117
+msgctxt "STR_ERROR_NEW_VERSION"
+msgid "The connection could not be established. The database was created by a newer version of %PRODUCTNAME."
+msgstr "The connection could not be established. The database was created by a newer version of %PRODUCTNAME."
+
+#. 3BKTP
+#: connectivity/inc/strings.hrc:119
+msgctxt "STR_ROW_SET_OPERATION_VETOED"
+msgid "The record operation has been vetoed."
+msgstr "The record operation has been vetoed."
+
+#. VEbfy
+#: connectivity/inc/strings.hrc:120
+msgctxt "STR_PARSER_CYCLIC_SUB_QUERIES"
+msgid "The statement contains a cyclic reference to one or more subqueries."
+msgstr "The statement contains a cyclic reference to one or more subqueries."
+
+#. jDAGJ
+#: connectivity/inc/strings.hrc:121
+msgctxt "STR_DB_OBJECT_NAME_WITH_SLASHES"
+msgid "The name must not contain any slashes (“/”)."
+msgstr "The name must not contain any slashes (“/”)."
+
+#. 5Te4k
+#: connectivity/inc/strings.hrc:122
+msgctxt "STR_DB_INVALID_SQL_NAME"
+msgid "$1$ is no SQL conform identifier."
+msgstr "$1$ is no SQL conform identifier."
+
+#. kvvjL
+#: connectivity/inc/strings.hrc:123
+msgctxt "STR_DB_QUERY_NAME_WITH_QUOTES"
+msgid "Query names must not contain quote characters."
+msgstr "Query names must not contain quote characters."
+
+#. oftHX
+#: connectivity/inc/strings.hrc:124
+msgctxt "STR_DB_OBJECT_NAME_IS_USED"
+msgid "The name “$1$” is already in use in the database."
+msgstr "The name “$1$” is already in use in the database."
+
+#. gD8xU
+#: connectivity/inc/strings.hrc:125
+msgctxt "STR_DB_NOT_CONNECTED"
+msgid "No connection to the database exists."
+msgstr "No connection to the database exists."
+
+#. Dpdod
+#: connectivity/inc/strings.hrc:126
+msgctxt "STR_AB_ADDRESSBOOK_NOT_FOUND"
+msgid "No $1$ exists."
+msgstr "No $1$ exists."
+
+#. e7kHo
+#: connectivity/inc/strings.hrc:127
+msgctxt "STR_DATA_CANNOT_SELECT_UNFILTERED"
+msgid "Unable to display the complete table content. Please apply a filter."
+msgstr "Unable to display the complete table content. Please apply a filter."
+
+#. wH3TZ
+msgctxt "stock"
+msgid "_Add"
+msgstr "_Add"
+
+#. S9dsC
+msgctxt "stock"
+msgid "_Apply"
+msgstr "_Apply"
+
+#. TMo6G
+msgctxt "stock"
+msgid "_Cancel"
+msgstr "_Cancel"
+
+#. MRCkv
+msgctxt "stock"
+msgid "_Close"
+msgstr "_Close"
+
+#. nvx5t
+msgctxt "stock"
+msgid "_Delete"
+msgstr "_Delete"
+
+#. YspCj
+msgctxt "stock"
+msgid "_Edit"
+msgstr "_Edit"
+
+#. imQxr
+msgctxt "stock"
+msgid "_Help"
+msgstr "_Help"
+
+#. RbjyB
+msgctxt "stock"
+msgid "_New"
+msgstr "_New"
+
+#. dx2yy
+msgctxt "stock"
+msgid "_No"
+msgstr "_No"
+
+#. M9DsL
+msgctxt "stock"
+msgid "_OK"
+msgstr "_OK"
+
+#. VtJS9
+msgctxt "stock"
+msgid "_Remove"
+msgstr "_Remove"
+
+#. C69Fy
+msgctxt "stock"
+msgid "_Reset"
+msgstr "_Reset"
+
+#. mgpxh
+msgctxt "stock"
+msgid "_Yes"
+msgstr "_Yes"
