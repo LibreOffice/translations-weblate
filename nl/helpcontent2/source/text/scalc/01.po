@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-07-04 13:11+0200\n"
-"PO-Revision-Date: 2025-10-15 18:54+0000\n"
+"PO-Revision-Date: 2025-10-17 08:22+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-25-8/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -13145,7 +13145,7 @@ msgctxt ""
 "par_id241599040594931\n"
 "help.text"
 msgid "<literal>=POWER(0,0)</literal> returns 1; <literal>=POWER(0,X)</literal> reports the #NUM! error when  exponent X is negative."
-msgstr "<literal>=MACHT(0,0)</literal> retourneert 1; <literal>=MACHT(0,X)</literal> rapporteert de fout #GETAL!  als exponent X negatief is."
+msgstr "<literal>=MACHT(0;0)</literal> retourneert 1; <literal>=MACHT(0;X)</literal> rapporteert de fout #GETAL!  als exponent X negatief is."
 
 #. ShFKC
 #: 04060106.xhp
@@ -13154,7 +13154,7 @@ msgctxt ""
 "par_id241599040594900\n"
 "help.text"
 msgid "<literal>=POWER(B,X)</literal> may or may not report a #NUM! error when B is negative and X is not an integer."
-msgstr "<literal>=MACHT(B,X)</literal> kan wel of niet een fout #GETAL! geven wanneer B negatief is en X geen geheel getal is."
+msgstr "<literal>=MACHT(BASIS; EXPONENT)</literal> kan wel of niet een fout #GETAL! geven wanneer BASIS negatief is en EXPONENT geen geheel getal is."
 
 #. YCb9B
 #: 04060106.xhp
@@ -13433,7 +13433,7 @@ msgctxt ""
 "par_id3158321\n"
 "help.text"
 msgid "For integer arguments this function returns Dividend modulo Divisor, that is the remainder when <emph>Dividend</emph> is divided by <emph>Divisor</emph>."
-msgstr "Voor argumenten voor gehele getallen geeft deze functie Restgetal modulo Deler, dat is het restgetal als <emph>Restgetal</emph> wordt gedeeld door <emph>Deler</emph>."
+msgstr "Voor argumenten voor gehele getallen geeft deze functie Deeltal modulo Deler, dat is het restgetal als <emph>Deeltal</emph> wordt gedeeld door <emph>Deler</emph>."
 
 #. BF5sT
 #: 04060106.xhp
@@ -13559,7 +13559,7 @@ msgctxt ""
 "par_id3158055\n"
 "help.text"
 msgid "RADIANS(Number)"
-msgstr "RADIALEN(Getal)"
+msgstr "RADIALEN(Hoek)"
 
 #. DBrJQ
 #: 04060106.xhp
@@ -13568,7 +13568,7 @@ msgctxt ""
 "par_id3158069\n"
 "help.text"
 msgid "<emph>Number</emph> is the angle in degrees to be converted to radians."
-msgstr "<emph>Getal</emph> is de hoek in graden die moet worden geconverteerd naar radialen."
+msgstr "<emph>Hoek</emph> is de hoek in graden die moet worden geconverteerd naar radialen."
 
 #. qPQCf
 #: 04060106.xhp
@@ -16396,7 +16396,7 @@ msgctxt ""
 "par_id3150798\n"
 "help.text"
 msgid "MMULT(Array 1; Array 2)"
-msgstr "PRODUCTMAT(Matrix1; Matrix2)"
+msgstr "PRODUCTMAT(Matrix 1; Matrix 2)"
 
 #. DqghH
 #: 04060107.xhp
@@ -16405,7 +16405,7 @@ msgctxt ""
 "par_id3150812\n"
 "help.text"
 msgid "<emph>Array 1</emph> represents the first array used in the array product."
-msgstr "<emph>Matrix1</emph> vertegenwoordigt de eerste matrix die in het matrixproduct wordt gebruikt."
+msgstr "<emph>Matrix 1</emph> vertegenwoordigt de eerste matrix die in het matrixproduct wordt gebruikt."
 
 #. FDfwg
 #: 04060107.xhp
@@ -16414,7 +16414,7 @@ msgctxt ""
 "par_id3152553\n"
 "help.text"
 msgid "<emph>Array 2</emph> represents the second array with the same number of rows."
-msgstr "<emph>Matrix2</emph> vertegenwoordigt de tweede array met hetzelfde aantal rijen."
+msgstr "<emph>Matrix 2</emph> vertegenwoordigt de tweede array met hetzelfde aantal rijen."
 
 #. CuGxm
 #: 04060107.xhp
@@ -16423,7 +16423,7 @@ msgctxt ""
 "par_id3146826\n"
 "help.text"
 msgid "Select a square range. Choose the MMULT function. Select <emph>Array 1</emph>, then select <emph>Array 2</emph>. Using the <emph>Function Wizard</emph>, mark the <emph>Array</emph> check box. Click <emph>OK</emph>. The output array will appear in the first selected range."
-msgstr "Selecteer een vierkant bereik. Kies de PRODUCTMAT-functie. Selecteer <emph>Matrix1</emph>, selecteer vervolgens <emph>Matrix2</emph>. Schakel met behulp van de  <emph>Functie-assistent</emph>, het selectievak <emph>Matrix</emph> in. Klik op <emph>OK</emph>. De uitvoermatrix verschijnt in het eerste geselecteerde bereik.."
+msgstr "Selecteer een vierkant bereik. Kies de PRODUCTMAT-functie. Selecteer <emph>Matrix 1</emph>, selecteer vervolgens <emph>Matrix 2</emph>. Schakel met behulp van de  <emph>Functie-assistent</emph>, het selectievak <emph>Matrix</emph> in. Klik op <emph>OK</emph>. De uitvoermatrix verschijnt in het eerste geselecteerde bereik.."
 
 #. vPBWq
 #: 04060107.xhp
@@ -20320,7 +20320,7 @@ msgctxt ""
 "par_id3146869\n"
 "help.text"
 msgid "MONTHS(StartDate; EndDate; Type)"
-msgstr "MAANDEN(Begindatum; Einddatum; Type)"
+msgstr "MAANDEN(\"Begindatum\"; \"Einddatum\"; Type)"
 
 #. 5JEZA
 #: 04060111.xhp
@@ -20392,7 +20392,7 @@ msgctxt ""
 "par_id3159205\n"
 "help.text"
 msgid "ROT13(Text)"
-msgstr "ROT13(Tekst)"
+msgstr "ROT13(\"Tekst\")"
 
 #. 5gMJ8
 #: 04060111.xhp
@@ -24271,7 +24271,7 @@ msgctxt ""
 "par_id3154303\n"
 "help.text"
 msgid "OCT2BIN(Number [; Places])"
-msgstr "OCT.N.BIN(Getal ; Aantal decimalen (optioneel))"
+msgstr "OCT.N.BIN(\"Getal\"; Aantal decimalen (optioneel))"
 
 #. zBe2h
 #: 04060116.xhp
@@ -24388,7 +24388,7 @@ msgctxt ""
 "par_id3150523\n"
 "help.text"
 msgid "OCT2HEX(Number [; Places])"
-msgstr "OCT.N.HEX(Getal ; Aantal decimalen (optioneel))"
+msgstr "OCT.N.HEX(\"Getal\" ; Aantal decimalen (optioneel))"
 
 #. ZKpN6
 #: 04060116.xhp
@@ -25288,7 +25288,7 @@ msgctxt ""
 "par_id3153100\n"
 "help.text"
 msgid "<emph>Rate</emph> is the internal rate of return for the payments."
-msgstr "<emph>Kortingspercentage</emph> is de interne eindkoers voor de betalingen."
+msgstr "<emph>Rente</emph> is de interne eindkoers voor de betalingen."
 
 #. Xktpx
 #: 04060118.xhp
@@ -25324,7 +25324,7 @@ msgctxt ""
 "bm_id3148822\n"
 "help.text"
 msgid "<bookmark_value>calculating;rates of return</bookmark_value>  <bookmark_value>RRI function</bookmark_value>"
-msgstr "<bookmark_value>berekenen;rendementen</bookmark_value>  <bookmark_value>ZGZ-functie</bookmark_value>"
+msgstr "<bookmark_value>berekenen;rendementen</bookmark_value>  <bookmark_value>RRI-functie</bookmark_value>"
 
 #. HSfk8
 #: 04060118.xhp
@@ -25378,7 +25378,7 @@ msgctxt ""
 "par_id3149771\n"
 "help.text"
 msgid "<emph>FV</emph> determines what is desired as the cash value of the deposit."
-msgstr "<emph>TW</emph> bepaalt wat gewenst is als de contante waarde van de storting."
+msgstr "<emph>Toekomstige waarde</emph> bepaalt wat gewenst is als de contante waarde van de storting."
 
 #. M9iaw
 #: 04060118.xhp
@@ -25414,7 +25414,7 @@ msgctxt ""
 "bm_id3154267\n"
 "help.text"
 msgid "<bookmark_value>calculating;constant interest rates</bookmark_value>  <bookmark_value>constant interest rates</bookmark_value>  <bookmark_value>RATE function</bookmark_value>"
-msgstr "<bookmark_value>berekenen;vaste rentevoeten</bookmark_value>  <bookmark_value>vaste rentevoeten;berekenen</bookmark_value>  <bookmark_value>TARIEF-functie</bookmark_value>"
+msgstr "<bookmark_value>berekenen;vaste rentevoeten</bookmark_value>  <bookmark_value>vaste rentevoeten;berekenen</bookmark_value>  <bookmark_value>RENTE-functie</bookmark_value>"
 
 #. oABKU
 #: 04060118.xhp
@@ -26557,7 +26557,7 @@ msgctxt ""
 "par_id3146878\n"
 "help.text"
 msgid "PPMT(Rate; Period; NPer; PV [ ; FV [ ; Type ] ])"
-msgstr "PBET(Rentepercentage; Periode; Aantal perioden; Huidige waarde; Toekomstige waarde (optioneel); Type (optioneel ])"
+msgstr "PBET(Rentepercentage; Periode; Aantal perioden; Huidige waarde; Toekomstige waarde (optioneel); Type (optioneel))"
 
 #. t4fJk
 #: 04060119.xhp
@@ -27169,7 +27169,7 @@ msgctxt ""
 "par_id3152804\n"
 "help.text"
 msgid "PRICE(Settlement; Maturity; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr "PRIJS.NOM(Aankoopdatum; Vervaldatum; Termijn; Rendement; Aflossingsbedrag; Aantal rentebetalingen; Soort jaar))"
+msgstr "PRIJS.NOM(\"Aankoopdatum\"; \"Vervaldatum\"; Rente; Opbrengst; Aflossingsbedrag; Aantal rentebetalingen; Soort jaar (optioneel))"
 
 #. FUP24
 #: 04060119.xhp
@@ -27196,7 +27196,7 @@ msgctxt ""
 "par_id3153755\n"
 "help.text"
 msgid "<emph>Rate</emph> is the annual nominal rate of interest (coupon interest rate)"
-msgstr "<emph>Termijn</emph> is de jaarlijkse nominale rentekoers (coupon rentekoers)"
+msgstr "<emph>Rente</emph> is de jaarlijkse nominale rentekoers (coupon rentekoers)"
 
 #. QcHcK
 #: 04060119.xhp
@@ -27250,7 +27250,7 @@ msgctxt ""
 "bm_id3151297\n"
 "help.text"
 msgid "<bookmark_value>PRICEDISC function</bookmark_value><bookmark_value>prices;non-interest-bearing securities</bookmark_value><bookmark_value>sales values;non-interest-bearing securities</bookmark_value>"
-msgstr "<bookmark_value>PRIJS.KORTING-functie</bookmark_value><bookmark_value>prijzen;niet-rentedragende waardepapieren</bookmark_value><bookmark_value>verkoopwaardes;niet-rentedragende waardepapieren</bookmark_value>"
+msgstr "<bookmark_value>PRIJS.DISCONTO-functie</bookmark_value><bookmark_value>prijzen;niet-rentedragende waardepapieren</bookmark_value><bookmark_value>verkoopwaardes;niet-rentedragende waardepapieren</bookmark_value>"
 
 #. JuT2F
 #: 04060119.xhp
@@ -27259,7 +27259,7 @@ msgctxt ""
 "hd_id3151297\n"
 "help.text"
 msgid "PRICEDISC"
-msgstr "PRIJS.KORTING"
+msgstr "PRIJS.DISCONTO"
 
 #. BmTrm
 #: 04060119.xhp
@@ -27277,7 +27277,7 @@ msgctxt ""
 "par_id3146084\n"
 "help.text"
 msgid "PRICEDISC(Settlement; Maturity; Discount; Redemption [; Basis])"
-msgstr "PRIJS.DISCONTO(Aankoopdatum; Vervaldatum; Disconto; Aflossingsbedrag ; Soort jaar (optioneel))"
+msgstr "PRIJS.DISCONTO(\"Aankoopdatum\"; \"Vervaldatum\"; Kortingspercentage; Aflossingsbedrag ; Soort jaar (optioneel))"
 
 #. WBvCG
 #: 04060119.xhp
@@ -27304,7 +27304,7 @@ msgctxt ""
 "par_id3156014\n"
 "help.text"
 msgid "<emph>Discount</emph> is the discount of a security as a percentage."
-msgstr "<emph>Disconto</emph> is de korting op een waardepapier als een percentage."
+msgstr "<emph>Kortingspercentage</emph> is de korting op een waardepapier als een percentage."
 
 #. Bsgje
 #: 04060119.xhp
@@ -27331,7 +27331,7 @@ msgctxt ""
 "par_id3151178\n"
 "help.text"
 msgid "<input>=PRICEDISC(\"1999-02-15\"; \"1999-03-01\"; 0.0525; 100; 2)</input>  returns 99.79583."
-msgstr "<input>=PRIJS.KORTING(\"1999-02-15\"; \"1999-03-01\"; 0,0525; 100; 2)</input>  returns 99,79583."
+msgstr "<input>=PRIJS.DISCONTO(\"1999-02-15\"; \"1999-03-01\"; 0,0525; 100; 2)</input>  returns 99,79583."
 
 #. hbGNH
 #: 04060119.xhp
@@ -27367,7 +27367,7 @@ msgctxt ""
 "par_id3155393\n"
 "help.text"
 msgid "PRICEMAT(Settlement; Maturity; Issue; Rate; Yield [; Basis])"
-msgstr "PRIJS.VERVALDAG(Aankoopdatum; Vervaldatum; Uitgiftedatum; Termijn; Rendement ; Soort jaar (optioneel))"
+msgstr "PRIJS.VERVALDAG(\"Aankoopdatum\"; \"Vervaldatum\"; Uitgiftedatum; Rente; Opbrengst; Soort jaar (optioneel))"
 
 #. tG4zg
 #: 04060119.xhp
@@ -27412,7 +27412,7 @@ msgctxt ""
 "par_id3146993\n"
 "help.text"
 msgid "<emph>Yield</emph> is the annual yield of the security."
-msgstr "<emph>Rendement</emph> is de jaarlijkse opbrengst van het waardepapier."
+msgstr "<emph>Opbrengst</emph> is de jaarlijkse opbrengst van het waardepapier."
 
 #. fiNQN
 #: 04060119.xhp
@@ -27421,7 +27421,7 @@ msgctxt ""
 "par_id3154289\n"
 "help.text"
 msgid "Settlement date: February 15 1999, maturity date: April 13 1999, issue date: November 11 1998. Interest rate: 6.1 per cent, yield: 6.1 per cent, basis: 30/360 = 0."
-msgstr "Stortingsdatum: 15 Februari 1999, vervaldatum: 13 April 1999, uitgiftedatum: 11 November 1998. Rentepercentage: 6,1 procent, rendement: 6,1 procent, basis: 30/360 = 0."
+msgstr "Stortingsdatum: 15 Februari 1999, vervaldatum: 13 April 1999, uitgiftedatum: 11 November 1998. Rentepercentage: 6,1 procent, opbrengst: 6,1 procent, soort jaar: 30/360 = 0."
 
 #. JGVzC
 #: 04060119.xhp
@@ -27439,7 +27439,7 @@ msgctxt ""
 "par_id3158409\n"
 "help.text"
 msgid "<input>=PRICEMAT(\"1999-02-15\";\"1999-04-13\";\"1998-11-11\"; 0.061; 0.061;0)</input>  returns 99.98449888."
-msgstr "<input>=PRIJS.VERVALDAG(\"1999-02-15\";\"1999-04-13\";\"1998-11-11\"; 0,061; 0,061;0)</input>  returns 99,98449888."
+msgstr "<input>=PRIJS.VERVALDAG(\"1999-02-15\";\"1999-04-13\";\"1998-11-11\"; 0,061; 0,061;0)</input>  retourneert 99,98449888."
 
 #. GAN7n
 #: 04060119.xhp
@@ -27484,7 +27484,7 @@ msgctxt ""
 "par_id3148801\n"
 "help.text"
 msgid "<emph>Rate</emph> is a constant. The interest rate is to be calculated for the entire duration (duration period). The interest rate per period is calculated by dividing the interest rate by the calculated duration. The internal rate for an annuity is to be entered as Rate/12."
-msgstr "<emph>Periodiek rentepercentage</emph> is een constante. De rentekoers moet worden berekend over de gehele looptijd (duurperiode). De rentekoers per periode wordt berekend door de rentekoers te delen door de berekende looptijd. De interne koers voor een vaste uitkering op jaarbasis moet worden ingevoerd als Koers/12."
+msgstr "<emph>Rentepercentage</emph> is een constante. De rentekoers moet worden berekend over de gehele looptijd (duurperiode). De rentekoers per periode wordt berekend door de rentekoers te delen door de berekende looptijd. De interne koers voor een vaste uitkering op jaarbasis moet worden ingevoerd als Koers/12."
 
 #. jpBBn
 #: 04060119.xhp
@@ -27502,7 +27502,7 @@ msgctxt ""
 "par_id3147515\n"
 "help.text"
 msgid "<emph>FV</emph> is the expected value. The future value determines the desired (future) value of the deposit."
-msgstr "<emph>TW</emph> is de verwachte waarde. De toekomstige waarde bepaalt de gewenste (toekomstige) waarde van de storting."
+msgstr "<emph>Toekomstige waarde</emph> is de verwachte waarde. De toekomstige waarde bepaalt de gewenste (toekomstige) waarde van de storting."
 
 #. SATJW
 #: 04060119.xhp
@@ -27736,7 +27736,7 @@ msgctxt ""
 "par_id3153321\n"
 "help.text"
 msgid "NPV(Rate; <embedvar href=\"text/scalc/01/ful_func.xhp#number254_1\" markup=\"keep\"/>)"
-msgstr "NHW(Periodiek rentepercentage; Waarde 1 ; Waarde 2 (optioneel); ...) <embedvar href=\"text/scalc/01/ful_func.xhp#number254_1\" markup=\"keep\"/>)"
+msgstr "NHW(Periodiek rentepercentage; <embedvar href=\"text/scalc/01/ful_func.xhp#number254_1\" markup=\"keep\"/>)"
 
 #. EEL34
 #: 04060119.xhp
@@ -27745,7 +27745,7 @@ msgctxt ""
 "par_id3150630\n"
 "help.text"
 msgid "<emph>Rate</emph> is the discount rate for a period."
-msgstr "<emph>Periodiek rentepercentage</emph> is de kortingskoers voor een periode."
+msgstr "<emph>Rente</emph> is de kortingskoers voor een periode."
 
 #. sFQCK
 #: 04060119.xhp
@@ -28186,7 +28186,7 @@ msgctxt ""
 "par_id3151284\n"
 "help.text"
 msgid "<emph>Rate</emph> is the annual rate of interest."
-msgstr "<emph>Termijn</emph> is de jaarlijkse rentekoers."
+msgstr "<emph>Rente</emph> is de jaarlijkse rentekoers."
 
 #. UtDFU
 #: 04060119.xhp
@@ -28195,7 +28195,7 @@ msgctxt ""
 "par_id3147314\n"
 "help.text"
 msgid "<emph>Price</emph> is the price (purchase price) of the security per 100 currency units of par value."
-msgstr "<emph>Koers</emph> is de prijs (aankoopprijs) van het waardepapier per 100 valuta-eenheden van gelijke waarde."
+msgstr "<emph>Prijs</emph> is de prijs (aankoopprijs) van het waardepapier per 100 valuta-eenheden van gelijke waarde."
 
 #. XgnuZ
 #: 04060119.xhp
@@ -28240,7 +28240,7 @@ msgctxt ""
 "bm_id3150100\n"
 "help.text"
 msgid "<bookmark_value>YIELDDISC function</bookmark_value><bookmark_value>rates of return;non-interest-bearing securities</bookmark_value>"
-msgstr "<bookmark_value>REND.KORTING-functie</bookmark_value><bookmark_value>rendementen;niet-rentedragend waardepapier</bookmark_value>"
+msgstr "<bookmark_value>REND.DISCONTO-functie</bookmark_value><bookmark_value>rendementen;niet-rentedragend waardepapier</bookmark_value>"
 
 #. jMMDF
 #: 04060119.xhp
@@ -28249,7 +28249,7 @@ msgctxt ""
 "hd_id3150100\n"
 "help.text"
 msgid "YIELDDISC"
-msgstr "REND.KORTING"
+msgstr "REND.DISCONTO"
 
 #. CTBdC
 #: 04060119.xhp
@@ -28267,7 +28267,7 @@ msgctxt ""
 "par_id3159191\n"
 "help.text"
 msgid "YIELDDISC(Settlement; Maturity; Price; Redemption [; Basis])"
-msgstr "REND.DISCONTO(Aankoopdatum; Vervaldatum; Koers; Aflossingsbedrag ; Soort jaar (optioneel))"
+msgstr "REND.DISCONTO(\"Aankoopdatum\"; \"Vervaldatum\"; Koers; Aflossingsbedrag ; Soort jaar (optioneel))"
 
 #. fFG4g
 #: 04060119.xhp
@@ -28294,7 +28294,7 @@ msgctxt ""
 "par_id3151201\n"
 "help.text"
 msgid "<emph>Price</emph> is the price (purchase price) of the security per 100 currency units of par value."
-msgstr "<emph>Koers</emph> is de prijs (aankoopprijs) van het waardepapier per 100 valuta-eenheden van gelijke waarde."
+msgstr "<emph>Prijs</emph> is de prijs (aankoopprijs) van het waardepapier per 100 valuta-eenheden van gelijke waarde."
 
 #. BJS6o
 #: 04060119.xhp
@@ -28321,7 +28321,7 @@ msgctxt ""
 "par_id3155187\n"
 "help.text"
 msgid "<input>=YIELDDISC(\"1999-02-15\"; \"1999-03-01\"; 99.795; 100; 2)</input> returns 0.052823 or 5.2823 per cent."
-msgstr "<input>=REND.KORTING(\"1999-02-15\"; \"1999-03-01\"; 99,795; 100; 2)</input> returns 0,052823 of 5,2823 per cent."
+msgstr "<input>=REND.DISCONTO(\"1999-02-15\"; \"1999-03-01\"; 99,795; 100; 2)</input> returns 0,052823 of 5,2823 per cent."
 
 #. 5mbhE
 #: 04060119.xhp
@@ -28357,7 +28357,7 @@ msgctxt ""
 "par_id3159113\n"
 "help.text"
 msgid "YIELDMAT(Settlement; Maturity; Issue; Rate; Price [; Basis])"
-msgstr "REND.VERVAL(Aankoopdatum; Vervaldatum; Uitgiftedatum; Termijn; Koers ; Soort jaar (optioneel))"
+msgstr "REND.VERVAL(\"Aankoopdatum\"; \"Vervaldatum\"; Uitgiftedatum; Rente; Prijs; Soort jaar (optioneel))"
 
 #. db9jM
 #: 04060119.xhp
@@ -28393,7 +28393,7 @@ msgctxt ""
 "par_id3147140\n"
 "help.text"
 msgid "<emph>Rate</emph> is the interest rate of the security on the issue date."
-msgstr "<emph>Termijn</emph> is de rentekoers van het waardepapier op de uitgiftedatum."
+msgstr "<emph>Rente</emph> is de rentekoers van het waardepapier op de uitgiftedatum."
 
 #. AUZxg
 #: 04060119.xhp
@@ -28402,7 +28402,7 @@ msgctxt ""
 "par_id3151067\n"
 "help.text"
 msgid "<emph>Price</emph> is the price (purchase price) of the security per 100 currency units of par value."
-msgstr "<emph>Koers</emph> is de prijs (aankoopprijs) van het waardepapier per 100 valuta-eenheden van gelijke waarde."
+msgstr "<emph>Prijs</emph> is de prijs (aankoopprijs) van het waardepapier per 100 valuta-eenheden van gelijke waarde."
 
 #. CVbVY
 #: 04060119.xhp
@@ -34567,7 +34567,7 @@ msgctxt ""
 "bm_id2953933\n"
 "help.text"
 msgid "<bookmark_value>MODE.SNGL function</bookmark_value><bookmark_value>most common value</bookmark_value>"
-msgstr "<bookmark_value>MODUS-functie</bookmark_value><bookmark_value>meeste algemene waarde</bookmark_value>"
+msgstr "<bookmark_value>MODUS.ENKELV-functie</bookmark_value><bookmark_value>meeste algemene waarde</bookmark_value>"
 
 #. 7z62C
 #: 04060184.xhp
@@ -34729,7 +34729,7 @@ msgctxt ""
 "par_id3148878\n"
 "help.text"
 msgid "<emph>SP</emph> is the probability of the success of an attempt."
-msgstr "<emph>EK</emph> is de succeskans van een poging."
+msgstr "<emph>Kans</emph> is de succeskans van een poging."
 
 #. J26hB
 #: 04060184.xhp
@@ -34774,7 +34774,7 @@ msgctxt ""
 "par_id2950935\n"
 "help.text"
 msgid "NEGBINOM.DIST(X; R; SP; Cumulative)"
-msgstr "NEGBINOM.VERD(X; R; EK; Cumulatief)"
+msgstr "NEGBINOM.VERD(X; R; Kans; Cumulatief)"
 
 #. psrpQ
 #: 04060184.xhp
@@ -34801,7 +34801,7 @@ msgctxt ""
 "par_id2948878\n"
 "help.text"
 msgid "<emph>SP</emph> is the probability of the success of an attempt."
-msgstr "<emph>EK</emph> is de succeskans van een poging."
+msgstr "<emph>Kans</emph> is de succeskans van een poging."
 
 #. dcABu
 #: 04060184.xhp
@@ -35008,7 +35008,7 @@ msgctxt ""
 "par_id3150613\n"
 "help.text"
 msgid "NORMDIST(Number; Mean; StDev [; C])"
-msgstr "NORM.VERD(Getal; Gemiddelde; Standaarddeviatie; C (optioneel))"
+msgstr "NORM.VERD(Getal; Gemiddelde; Standaarddeviatie; Cumulatief (optioneel))"
 
 #. CoXtp
 #: 04060184.xhp
@@ -35332,7 +35332,7 @@ msgctxt ""
 "par_id3146093\n"
 "help.text"
 msgid "POISSON(Number; Mean [; C])"
-msgstr "POISSON(Getal; Gemiddelde [; Cumulatief])"
+msgstr "POISSON(Getal; Gemiddelde; Cumulatief (optioneel))"
 
 #. mZnNF
 #: 04060184.xhp
@@ -35359,7 +35359,7 @@ msgctxt ""
 "par_id3149200\n"
 "help.text"
 msgid "<emph>C</emph> (optional) = 0 or False calculates the density function; <emph>C</emph> = 1 or True calculates the distribution. When omitted, the default value True is inserted when you save the document, for best compatibility with other programs and older versions of %PRODUCTNAME."
-msgstr "<emph>C</emph> (optioneel) = 0 of Onwaar berekent de dichtheidsfunctie; <emph>C</emph> = 1 of Waar berekent de verdeling. Indien weggelaten wordt de standaard waarde Waar ingevoegd als u het document opslaat, voor de beste compatibiliteit met andere programma's en ouder versies van %PRODUCTNAME."
+msgstr "<emph>Cumulatief</emph> (optioneel) = 0 of Onwaar berekent de dichtheidsfunctie; <emph>Cumulatief</emph> = 1 of Waar berekent de verdeling. Indien weggelaten wordt de standaard waarde Waar ingevoegd als u het document opslaat, voor de beste compatibiliteit met andere programma's en ouder versies van %PRODUCTNAME."
 
 #. bE3Ap
 #: 04060184.xhp
@@ -35377,7 +35377,7 @@ msgctxt ""
 "bm_id2953985\n"
 "help.text"
 msgid "<bookmark_value>POISSON.DIST function</bookmark_value>"
-msgstr "<bookmark_value>POISSON-functie</bookmark_value>"
+msgstr "<bookmark_value>POISSON.VERD-functie</bookmark_value>"
 
 #. kEGyt
 #: 04060184.xhp
@@ -35440,7 +35440,7 @@ msgctxt ""
 "par_id2950113\n"
 "help.text"
 msgid "<item type=\"input\">=POISSON.DIST(60;50;1)</item> returns 0.9278398202."
-msgstr "<item type=\"input\">=POISSON.VERD(60;50;1)</item> geeft 0,93 terug."
+msgstr "<item type=\"input\">=POISSON.VERD(60;50;1)</item> geeft 0,9278398202 terug."
 
 #. n8dGY
 #: 04060184.xhp
@@ -35449,7 +35449,7 @@ msgctxt ""
 "bm_id3153100\n"
 "help.text"
 msgid "<bookmark_value>PERCENTILE function</bookmark_value>"
-msgstr "<bookmark_value>PERCENTIEL-functie</bookmark_value>"
+msgstr "<bookmark_value>PERCENTIEL</bookmark_value>"
 
 #. ofqnY
 #: 04060184.xhp
@@ -35512,7 +35512,7 @@ msgctxt ""
 "bm_id2853100\n"
 "help.text"
 msgid "<bookmark_value>PERCENTILE.EXC function</bookmark_value>"
-msgstr "<bookmark_value>PERCENTIEL-functie</bookmark_value>"
+msgstr "<bookmark_value>PERCENTIEL</bookmark_value>"
 
 #. YHgvC
 #: 04060184.xhp
@@ -35548,7 +35548,7 @@ msgctxt ""
 "par_id2653976\n"
 "help.text"
 msgid "The difference between <item type=\"input\">PERCENTILE.INC</item> and <item type=\"input\">PERCENTILE.EXC</item> is that, in the <item type=\"input\">PERCENTILE.INC</item> function the value of alpha is within the range 0 to 1 inclusive, and in the <item type=\"input\">PERCENTILE.EXC</item> function, the value of alpha is within the range 0 to 1 exclusive."
-msgstr "Het verschil tussen <item type=\"input\">PERCENTILE.INC</item> en <item type=\"input\">PERCENTILE.EXC</item> is dat, in de <item type=\"input\">PERCENTILE.INC</item>-functie, de waarde van alfa binnen het bereik van 0 tot 1 inclusief is en de <item type=\"input\">PERCENTILE.EXC</item>-functie, de waarde van alfa binnen het bereik van 0 tot 1 exclusief is."
+msgstr "Het verschil tussen <item type=\"input\">PERCENTIEL.INC</item> en <item type=\"input\">PERCENTIEL.EXC</item> is dat, in de <item type=\"input\">PERCENTIEL.INC</item>-functie, de waarde van alfa binnen het bereik van 0 tot 1 inclusief is en de <item type=\"input\">PERCENTIEL.EXC</item>-functie, de waarde van alfa binnen het bereik van 0 tot 1 exclusief is."
 
 #. iu26H
 #: 04060184.xhp
@@ -35557,7 +35557,7 @@ msgctxt ""
 "par_id2848813\n"
 "help.text"
 msgid "PERCENTILE.EXC(Data; Alpha)"
-msgstr "PERCENTIEL(Gegevens;Alfa)"
+msgstr "PERCENTIEL.EXC(Gegevens;Alfa)"
 
 #. tVAsL
 #: 04060184.xhp
@@ -35620,7 +35620,7 @@ msgctxt ""
 "par_id2753976\n"
 "help.text"
 msgid "The difference between <item type=\"input\">PERCENTILE.INC</item> and <item type=\"input\">PERCENTILE.EXC</item> is that, in the <item type=\"input\">PERCENTILE.INC</item> function the value of alpha is within the range 0 to 1 inclusive, and in the <item type=\"input\">PERCENTILE.EXC</item> function, the value of alpha is within the range 0 to 1 exclusive."
-msgstr "Het verschil tussen <item type=\"input\">PERCENTILE.INC</item> en <item type=\"input\">PERCENTILE.EXC</item> is dat, in de <item type=\"input\">PERCENTILE.INC</item>-functie, de waarde van alfa binnen het bereik van 0 tot 1 inclusief is en de <item type=\"input\">PERCENTILE.EXC</item>-functie, de waarde van alfa binnen het bereik van 0 tot 1 exclusief is."
+msgstr "Het verschil tussen <item type=\"input\">PERCENTIEL.INC</item> en <item type=\"input\">PERCENTIEL.EXC</item> is dat, in de <item type=\"input\">PERCENTIEL.INC</item>-functie, de waarde van alfa binnen het bereik van 0 tot 1 inclusief is en de <item type=\"input\">PERCENTIEL.EXC</item>-functie, de waarde van alfa binnen het bereik van 0 tot 1 exclusief is."
 
 #. LYbqG
 #: 04060184.xhp
@@ -35629,7 +35629,7 @@ msgctxt ""
 "par_id2948813\n"
 "help.text"
 msgid "PERCENTILE.INC(Data; Alpha)"
-msgstr "PERCENTIEL(Gegevens;Alfa)"
+msgstr "PERCENTIEL.INC(Gegevens;Alfa)"
 
 #. QcWDU
 #: 04060184.xhp
@@ -35737,7 +35737,7 @@ msgctxt ""
 "bm_id2848807\n"
 "help.text"
 msgid "<bookmark_value>PERCENTRANK.EXC function</bookmark_value>"
-msgstr "<bookmark_value>PERCENT.RANG-functie</bookmark_value>"
+msgstr "<bookmark_value>PERCENT.RANG.EXC-functie</bookmark_value>"
 
 #. z5iwA
 #: 04060184.xhp
@@ -35773,7 +35773,7 @@ msgctxt ""
 "par_id2847238\n"
 "help.text"
 msgid "PERCENTRANK.EXC(Data; Value [; Significance])"
-msgstr "PERCENTRANG.EXC(Gegevens; Waarde [; Stapgrootte])"
+msgstr "PROCENTRANG.EXC(Gegevens; Waarde; Stapgrootte (optioneel))"
 
 #. paUED
 #: 04060184.xhp
@@ -35800,7 +35800,7 @@ msgctxt ""
 "par_id2748475\n"
 "help.text"
 msgid "<emph>Significance</emph> An optional argument that specifies the number of significant digits that the returned percentage value is rounded to."
-msgstr "<emph>Significantie</emph> Een optioneel argument dat het aantal beduidende cijfers specificeert, waar het geretourneerde percentage op wordt afgerond ."
+msgstr "<emph>Stapgrootte</emph> Een optioneel argument dat het aantal beduidende cijfers specificeert, waar het geretourneerde percentage op wordt afgerond ."
 
 #. rFP7K
 #: 04060184.xhp
@@ -35818,7 +35818,7 @@ msgctxt ""
 "bm_id2948807\n"
 "help.text"
 msgid "<bookmark_value>PERCENTRANK.INC function</bookmark_value>"
-msgstr "<bookmark_value>PERCENT.RANG-functie</bookmark_value>"
+msgstr "<bookmark_value>PERCENT.RANG.INC-functie</bookmark_value>"
 
 #. PGEyz
 #: 04060184.xhp
@@ -35854,7 +35854,7 @@ msgctxt ""
 "par_id2947238\n"
 "help.text"
 msgid "PERCENTRANK.INC(Data; Value [; Significance])"
-msgstr "PERCENT.RANG.INC(Gegevens; Waarde ; Stapgrootte (optioneel))"
+msgstr "PROCENT.RANG.INC(Gegevens; Waarde ; Stapgrootte (optioneel))"
 
 #. QmR4b
 #: 04060184.xhp
@@ -35881,7 +35881,7 @@ msgctxt ""
 "par_id2648475\n"
 "help.text"
 msgid "<emph>Significance</emph> An optional argument that specifies the number of significant digits that the returned percentage value is rounded to."
-msgstr "<emph>Significantie</emph> Een optioneel argument dat het aantal beduidende cijfers specificeert, waar het geretourneerde percentage op wordt afgerond."
+msgstr "<emph>Stapgrootte</emph> Een optioneel argument dat het aantal beduidende cijfers specificeert, waar het geretourneerde percentage op wordt afgerond."
 
 #. EwRBE
 #: 04060184.xhp
@@ -36214,7 +36214,7 @@ msgctxt ""
 "bm_id2955071\n"
 "help.text"
 msgid "<bookmark_value>RANK.AVG function</bookmark_value>  <bookmark_value>numbers;determining ranks</bookmark_value>"
-msgstr "<bookmark_value>RANG-functie</bookmark_value>  <bookmark_value>getallen;rangen bepalen</bookmark_value>"
+msgstr "<bookmark_value>RANG.GEMIDDELDE-functie</bookmark_value>  <bookmark_value>getallen;rangen bepalen</bookmark_value>"
 
 #. ynDwy
 #: 04060185.xhp
@@ -36313,7 +36313,7 @@ msgctxt ""
 "bm_id2855071\n"
 "help.text"
 msgid "<bookmark_value>RANK.EQ function</bookmark_value>  <bookmark_value>numbers;determining ranks</bookmark_value>"
-msgstr "<bookmark_value>RANG-functie</bookmark_value>  <bookmark_value>getallen;rangen bepalen</bookmark_value>"
+msgstr "<bookmark_value>RANG.GELIJK-functie</bookmark_value>  <bookmark_value>getallen;rangen bepalen</bookmark_value>"
 
 #. GCgCV
 #: 04060185.xhp
@@ -37357,7 +37357,7 @@ msgctxt ""
 "bm_id3150873\n"
 "help.text"
 msgid "<bookmark_value>DEVSQ function</bookmark_value>         <bookmark_value>sums;of squares of deviations</bookmark_value>"
-msgstr "<bookmark_value>DEV.KWAD-functie</bookmark_value>         <bookmark_value>som;van kwadraten van afwijkingen</bookmark_value>"
+msgstr "<bookmark_value>DEV.KWAD</bookmark_value>         <bookmark_value>som;van kwadraten van afwijkingen</bookmark_value>"
 
 #. bc9Gc
 #: 04060185.xhp
@@ -37402,7 +37402,7 @@ msgctxt ""
 "bm_id3149579\n"
 "help.text"
 msgid "<bookmark_value>TINV function</bookmark_value>         <bookmark_value>inverse of t-distribution</bookmark_value>"
-msgstr "<bookmark_value>TINV-functie</bookmark_value>         <bookmark_value>inverse van t-verdeling</bookmark_value>"
+msgstr "<bookmark_value>TINV</bookmark_value>         <bookmark_value>inverse van t-verdeling</bookmark_value>"
 
 #. sSB2A
 #: 04060185.xhp
@@ -37465,7 +37465,7 @@ msgctxt ""
 "bm_id2949579\n"
 "help.text"
 msgid "<bookmark_value>T.INV function</bookmark_value>        <bookmark_value>one tailed inverse of t-distribution</bookmark_value>"
-msgstr "<bookmark_value>T.INV-functie</bookmark_value>        <bookmark_value>éénzijdige inverse van t-verdeling</bookmark_value>"
+msgstr "<bookmark_value>T.INV</bookmark_value>        <bookmark_value>éénzijdige inverse van t-verdeling</bookmark_value>"
 
 #. EwFyU
 #: 04060185.xhp
@@ -37528,7 +37528,7 @@ msgctxt ""
 "bm_id2849579\n"
 "help.text"
 msgid "<bookmark_value>T.INV.2T function</bookmark_value>        <bookmark_value>inverse of two tailed t-distribution</bookmark_value>"
-msgstr "<bookmark_value>T.INV.2Z-functie</bookmark_value>         <bookmark_value>inverse van tweezijdige t-verdeling</bookmark_value>"
+msgstr "<bookmark_value>T.INV.2Z</bookmark_value>         <bookmark_value>inverse van tweezijdige t-verdeling</bookmark_value>"
 
 #. 4ybyR
 #: 04060185.xhp
@@ -37591,7 +37591,7 @@ msgctxt ""
 "bm_id3154129\n"
 "help.text"
 msgid "<bookmark_value>TTEST function</bookmark_value>"
-msgstr "Functie <bookmark_value>T.TEST</bookmark_value>"
+msgstr "<bookmark_value>T.TEST</bookmark_value>"
 
 #. MVc6H
 #: 04060185.xhp
@@ -37672,7 +37672,7 @@ msgctxt ""
 "bm_id2954129\n"
 "help.text"
 msgid "<bookmark_value>T.TEST function</bookmark_value>"
-msgstr "Functie <bookmark_value>T.TEST</bookmark_value>"
+msgstr "<bookmark_value>T.TEST</bookmark_value>"
 
 #. jFYuL
 #: 04060185.xhp
@@ -37753,7 +37753,7 @@ msgctxt ""
 "bm_id3154930\n"
 "help.text"
 msgid "<bookmark_value>TDIST function</bookmark_value>         <bookmark_value>t-distribution</bookmark_value>"
-msgstr "<bookmark_value>TVERD-functie</bookmark_value>         <bookmark_value>t-verdeling</bookmark_value>"
+msgstr "<bookmark_value>TVERD</bookmark_value>         <bookmark_value>t-verdeling</bookmark_value>"
 
 #. EmaSo
 #: 04060185.xhp
@@ -37825,7 +37825,7 @@ msgctxt ""
 "bm_id2954930\n"
 "help.text"
 msgid "<bookmark_value>T.DIST function</bookmark_value>        <bookmark_value>t-distribution</bookmark_value>"
-msgstr "<bookmark_value>T.VERD-functie</bookmark_value>         <bookmark_value>t-verdeling</bookmark_value>"
+msgstr "<bookmark_value>T.VERD</bookmark_value>         <bookmark_value>t-verdeling</bookmark_value>"
 
 #. f9YTs
 #: 04060185.xhp
@@ -37897,7 +37897,7 @@ msgctxt ""
 "bm_id2854930\n"
 "help.text"
 msgid "<bookmark_value>T.DIST.2T function</bookmark_value>        <bookmark_value>two tailed t-distribution</bookmark_value>"
-msgstr "<bookmark_value>T.VERD.2Z-functie</bookmark_value>         <bookmark_value>tweezijdige t-verdeling</bookmark_value>"
+msgstr "<bookmark_value>T.VERD.2Z</bookmark_value>         <bookmark_value>tweezijdige t-verdeling</bookmark_value>"
 
 #. ACDN3
 #: 04060185.xhp
@@ -37960,7 +37960,7 @@ msgctxt ""
 "bm_id274930\n"
 "help.text"
 msgid "<bookmark_value>T.DIST.RT function</bookmark_value>        <bookmark_value>right tailed t-distribution</bookmark_value>"
-msgstr "<bookmark_value>T.VERD.RZ-functie</bookmark_value>         <bookmark_value>rechtszijdige t-verdeling</bookmark_value>"
+msgstr "<bookmark_value>T.VERD.RZ</bookmark_value>         <bookmark_value>rechtszijdige t-verdeling</bookmark_value>"
 
 #. VznXr
 #: 04060185.xhp
@@ -38023,7 +38023,7 @@ msgctxt ""
 "bm_id3153828\n"
 "help.text"
 msgid "<bookmark_value>VAR function</bookmark_value>         <bookmark_value>variances</bookmark_value>"
-msgstr "<bookmark_value>VAR-functie</bookmark_value>         <bookmark_value>varianties</bookmark_value>"
+msgstr "<bookmark_value>VAR</bookmark_value>         <bookmark_value>varianties</bookmark_value>"
 
 #. AeQ9B
 #: 04060185.xhp
@@ -38077,7 +38077,7 @@ msgctxt ""
 "bm_id2953828\n"
 "help.text"
 msgid "<bookmark_value>VAR.S function</bookmark_value>        <bookmark_value>variances</bookmark_value>"
-msgstr "<bookmark_value>VAR-functie</bookmark_value>         <bookmark_value>varianties</bookmark_value>"
+msgstr "<bookmark_value>VAR</bookmark_value>         <bookmark_value>varianties</bookmark_value>"
 
 #. L58ws
 #: 04060185.xhp
@@ -38131,7 +38131,7 @@ msgctxt ""
 "bm_id3151045\n"
 "help.text"
 msgid "<bookmark_value>VARA function</bookmark_value>"
-msgstr "<bookmark_value>VARA-functie</bookmark_value>"
+msgstr "<bookmark_value>VARA</bookmark_value>"
 
 #. xBBwp
 #: 04060185.xhp
@@ -38185,7 +38185,7 @@ msgctxt ""
 "bm_id3166441\n"
 "help.text"
 msgid "<bookmark_value>VARP function</bookmark_value>"
-msgstr "<bookmark_value>VARP-functie</bookmark_value>"
+msgstr "<bookmark_value>VARP</bookmark_value>"
 
 #. VpAar
 #: 04060185.xhp
@@ -38230,7 +38230,7 @@ msgctxt ""
 "bm_id2966441\n"
 "help.text"
 msgid "<bookmark_value>VAR.P function</bookmark_value>"
-msgstr "<bookmark_value>VAR.P-functie</bookmark_value>"
+msgstr "<bookmark_value>VAR.P</bookmark_value>"
 
 #. zbjYA
 #: 04060185.xhp
@@ -38275,7 +38275,7 @@ msgctxt ""
 "bm_id3153688\n"
 "help.text"
 msgid "<bookmark_value>VARPA function</bookmark_value>"
-msgstr "<bookmark_value>VARPA-functie</bookmark_value>"
+msgstr "<bookmark_value>VARPA</bookmark_value>"
 
 #. 7Ba4B
 #: 04060185.xhp
@@ -38320,7 +38320,7 @@ msgctxt ""
 "bm_id3154599\n"
 "help.text"
 msgid "<bookmark_value>PERMUT function</bookmark_value>         <bookmark_value>number of permutations</bookmark_value>"
-msgstr "<bookmark_value>PERMUTATIE-functie</bookmark_value>         <bookmark_value>aantal permutaties</bookmark_value>"
+msgstr "<bookmark_value>PERMUTATIE</bookmark_value>         <bookmark_value>aantal permutaties</bookmark_value>"
 
 #. fboaH
 #: 04060185.xhp
@@ -38347,7 +38347,7 @@ msgctxt ""
 "par_id3148466\n"
 "help.text"
 msgid "PERMUT(Count1; Count2)"
-msgstr "PERMUTATIE(Aantal 1; Aantal 2)"
+msgstr "PERMUTATIES(Aantal 1; Aantal 2)"
 
 #. or3Fr
 #: 04060185.xhp
@@ -38374,7 +38374,7 @@ msgctxt ""
 "par_id3150424\n"
 "help.text"
 msgid "<item type=\"input\">=PERMUT(6;3)</item> returns 120. There are 120 different possibilities, to pick a sequence of 3 playing cards out of 6 playing cards."
-msgstr "<item type=\"input\">=PERMUTATIE(6;3)</item> geeft 120 terug. Er zijn 120 verschillende mogelijkheden om een reeks van 3 speelkaarten uit 6 speelkaarten te pakken."
+msgstr "<item type=\"input\">=PERMUTATIES(6;3)</item> geeft 120 terug. Er zijn 120 verschillende mogelijkheden om een reeks van 3 speelkaarten uit 6 speelkaarten te pakken."
 
 #. KZbxH
 #: 04060185.xhp
@@ -38383,7 +38383,7 @@ msgctxt ""
 "bm_id3143276\n"
 "help.text"
 msgid "<bookmark_value>PERMUTATIONA function</bookmark_value>"
-msgstr "<bookmark_value>PERMUTATIE.A-functie</bookmark_value>"
+msgstr "<bookmark_value>PERMUTATIE.A</bookmark_value>"
 
 #. 4moi3
 #: 04060185.xhp
@@ -38464,7 +38464,7 @@ msgctxt ""
 "bm_id3152952\n"
 "help.text"
 msgid "<bookmark_value>PROB function</bookmark_value>"
-msgstr "<bookmark_value>KANS-functie</bookmark_value>"
+msgstr "<bookmark_value>KANS</bookmark_value>"
 
 #. GwrtD
 #: 04060185.xhp
@@ -38545,7 +38545,7 @@ msgctxt ""
 "bm_id3150941\n"
 "help.text"
 msgid "<bookmark_value>WEIBULL function</bookmark_value>"
-msgstr "<bookmark_value>WEIBULL-functie</bookmark_value>"
+msgstr "<bookmark_value>WEIBULL</bookmark_value>"
 
 #. 6G6DT
 #: 04060185.xhp
@@ -38662,7 +38662,7 @@ msgctxt ""
 "bm_id2950941\n"
 "help.text"
 msgid "<bookmark_value>WEIBULL.DIST function</bookmark_value>"
-msgstr "<bookmark_value>WEIBULL.VERD-functie</bookmark_value>"
+msgstr "<bookmark_value>WEIBULL.VERD</bookmark_value>"
 
 #. 7pk6M
 #: 04060185.xhp
@@ -47680,7 +47680,7 @@ msgctxt ""
 "bm_id2306894\n"
 "help.text"
 msgid "<bookmark_value>pivot table function;show details</bookmark_value>         <bookmark_value>pivot table function;drill down</bookmark_value>"
-msgstr "<bookmark_value>draaitable functie, toon details</bookmark_value><bookmark_value>draaitabel functie; details</bookmark_value>"
+msgstr "<bookmark_value>draaitabel, toon details</bookmark_value><bookmark_value>draaitabel; details</bookmark_value>"
 
 #. n4NPA
 #: 12090102.xhp
@@ -52720,7 +52720,7 @@ msgctxt ""
 "hd_id511741205455460\n"
 "help.text"
 msgid "Aggregate Functions"
-msgstr "Aggregatie-functies"
+msgstr "Aggregatiefuncties"
 
 #. Dzoej
 #: data_provider.xhp
@@ -52729,7 +52729,7 @@ msgctxt ""
 "par_id271741269442206\n"
 "help.text"
 msgid "Adds the result of an aggregate function to the bottom of the column."
-msgstr "Voegt het resultaat van een agregatie-functie toe aan het einde van de kolom."
+msgstr "Voegt het resultaat van een agregatiefunctie toe aan het einde van de kolom."
 
 #. BWHTD
 #: data_provider.xhp
@@ -54979,7 +54979,7 @@ msgctxt ""
 "par_id94162948227556\n"
 "help.text"
 msgid "The logical relation between criteria can be defined as logical AND (conjunction). In other words, if and only if all given criteria are met, a value from the corresponding cell of the given <emph>Func_Range</emph> is taken into calculation."
-msgstr "De logische relatie tussen criteria kan worden gedefinieerd als logische EN (conjunctie). Met andere woorden, als en alleen als aan alle gegeven criteria is voldaan, wordt een waarde uit de overeenkomstige cel van de gegeven <emph>SomBereik</emph> in de berekening meegenomen."
+msgstr "De logische relatie tussen criteria kan worden gedefinieerd als logische EN (conjunctie). Met andere woorden, als en alleen als aan alle gegeven criteria is voldaan, wordt een waarde uit de overeenkomstige cel van de gegeven <emph>Maximaal bereik</emph> in de berekening meegenomen."
 
 #. s3NRA
 #: ex_data_stat_func.xhp
@@ -54988,7 +54988,7 @@ msgctxt ""
 "par_id14734320631377\n"
 "help.text"
 msgid "<emph>Func_Range</emph> and <emph>Range1, Range2...</emph> must have the same size, otherwise the function returns err:502 - Invalid argument."
-msgstr "<emph>SomBereik</emph> en<emph>Bereik 1, Bereik 2...</emph> moeten hetzelfde formaat hebben, anders geeft de functie fout:502 - Ongeldig argument."
+msgstr "<emph>Maximaal bereik</emph> en<emph> Bereik 1, Bereik 2...</emph> moeten hetzelfde formaat hebben, anders geeft de functie fout:502 - Ongeldig argument."
 
 #. XB7By
 #: ex_data_stat_func.xhp
@@ -55825,7 +55825,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "AGGREGATE function"
-msgstr "Functie AGGREGAAT"
+msgstr "AGGREGATIE"
 
 #. X65dG
 #: func_aggregate.xhp
@@ -55834,7 +55834,7 @@ msgctxt ""
 "bm_id126123001625791\n"
 "help.text"
 msgid "<bookmark_value>AGGREGATE function</bookmark_value>"
-msgstr "<bookmark_value>AGGREGAAT-functie</bookmark_value>"
+msgstr "<bookmark_value>AGGREGATIE</bookmark_value>"
 
 #. T2Az9
 #: func_aggregate.xhp
@@ -55843,7 +55843,7 @@ msgctxt ""
 "hd_id3154073\n"
 "help.text"
 msgid "<variable id=\"aggregate_head\"><link href=\"text/scalc/01/func_aggregate.xhp\">AGGREGATE</link></variable> function"
-msgstr "<variable id=\"aggregate_head\"><link href=\"text/scalc/01/func_aggregate.xhp\">AGGREGAAT</link></variable>"
+msgstr "<variable id=\"aggregate_head\"><link href=\"text/scalc/01/func_aggregate.xhp\">AGGREGATIE</link></variable>"
 
 #. m2Tdo
 #: func_aggregate.xhp
@@ -55852,7 +55852,7 @@ msgctxt ""
 "par_id2209201514174373\n"
 "help.text"
 msgid "<ahelp hid=\".\"><variable id=\"aggregate_des\">This function returns an aggregate result of the calculations in the range. You can use different aggregate functions listed below. The Aggregate function enables you to omit hidden rows, errors, SUBTOTAL and other AGGREGATE function results in the calculation.</variable></ahelp>"
-msgstr "<ahelp hid=\".\"><variable id=\"aggregate_des\">Deze functie geeft een aggregatie-resultaat van de berekeningen in het assortiment. U kunt verschillende statistische functies die hieronder staan gebruiken. Met de Aggregaat-functie kunt u verborgen rijen, fouten, SUBTOTAAL en andere statistische functie resultaten weglaten uit de berekening.</variable></ahelp>"
+msgstr "<ahelp hid=\".\"><variable id=\"aggregate_des\">Deze functie geeft een aggregatie-resultaat van de berekeningen in het assortiment. U kunt verschillende statistische functies die hieronder staan gebruiken. Met de functie AGGREGATIE kunt u verborgen rijen, fouten, SUBTOTAAL en andere statistische functie resultaten weglaten uit de berekening.</variable></ahelp>"
 
 #. swMHB
 #: func_aggregate.xhp
@@ -55861,7 +55861,7 @@ msgctxt ""
 "par_id2209201514174453\n"
 "help.text"
 msgid "AGGREGATE function is applied to vertical ranges of data with activated AutoFilter. If AutoFilter is not activated, automatic recalculation of the function result does not work for newly hidden rows. It is not supposed to work with horizontal ranges, however it can be applied to them as well, but with limitations. In particular, the AGGREGATE function applied to a horizontal data range does not recognize hiding columns, however correctly omits errors and results of SUBTOTAL and other AGGREGATE functions embedded into the row."
-msgstr "De functie AGGREGAAT wordt toegepast op verticale data-bereiken met een actief AutoFilter. Als het AutoFilter niet actief is, werkt de automatische herberekening niet voor recent verborgen rijen. De functie is niet bedoeld voor gebruik met horizontale bereiken. Toch kan de functie er wel op worden toegepast, maar met beperkingen. Zo zal de AGGREGAAT-functie toegepast op een horizontaal data-bereik het verbergen van kolommen niet herkennen. Maar de functie gaat wel correct om met fouten en resultaten van SUBTOTAAL en andere AGGREGAAT-functies die in de rij zijn opgenomen."
+msgstr "De functie AGGREGATIE wordt toegepast op verticale data-bereiken met een actief AutoFilter. Als het AutoFilter niet actief is, werkt de automatische herberekening niet voor recent verborgen rijen. De functie is niet bedoeld voor gebruik met horizontale bereiken. Toch kan de functie er wel op worden toegepast, maar met beperkingen. Zo zal de functie AGGREGATIE toegepast op een horizontaal data-bereik het verbergen van kolommen niet herkennen. Maar de functie gaat wel correct om met fouten en resultaten van SUBTOTAAL en andere AGGREGATIE-functies die in de rij zijn opgenomen."
 
 #. 7VEyN
 #: func_aggregate.xhp
@@ -55870,7 +55870,7 @@ msgctxt ""
 "par_id200801176228491\n"
 "help.text"
 msgid "AGGREGATE(Function; Option; Number 1[; Number 2][; ... ;[Number 253]])"
-msgstr "AGGREGAAT(Functie; Opties; Verwijzing 1 of matrix; Verwijzing 2.n of k 1 (optioneel); ... ; Verwijzing 2.n of k 2 (optioneel);...)"
+msgstr "AGGREGATIE (Functie; Opties; Verwijzing 1 of matrix; Verwijzing 2.n of k 1 (optioneel); ... ; Verwijzing 2.n of k 2 (optioneel);...)"
 
 #. Xt2VS
 #: func_aggregate.xhp
@@ -55888,7 +55888,7 @@ msgctxt ""
 "par_id30181907128680\n"
 "help.text"
 msgid "AGGREGATE(Function; Option; Array[; k])"
-msgstr "AGGREGAAT(Functie; Opties; Matrix; k (optioneel))"
+msgstr "AGGREGATIE (Functie; Opties; Matrix; k (optioneel))"
 
 #. WPGsi
 #: func_aggregate.xhp
@@ -56122,7 +56122,7 @@ msgctxt ""
 "par_id2309201512011567\n"
 "help.text"
 msgid "Ignore only nested SUBTOTAL and AGGREGATE functions"
-msgstr "Negeer alleen genest SUBTOTAAL en AGGREGAAT-functies"
+msgstr "Negeer alleen genest SUBTOTAAL en AGGREGATIE-functies"
 
 #. AGUis
 #: func_aggregate.xhp
@@ -56131,7 +56131,7 @@ msgctxt ""
 "par_id315771547630277\n"
 "help.text"
 msgid "Ignore only hidden rows, nested SUBTOTAL and AGGREGATE functions"
-msgstr "Negeer alleen verborgen rijen, genest SUBTOTAAL en AGGREGAAT-functies"
+msgstr "Negeer alleen verborgen rijen, genest SUBTOTAAL en AGGREGATIE-functies"
 
 #. EAKJn
 #: func_aggregate.xhp
@@ -56140,7 +56140,7 @@ msgctxt ""
 "par_id2309201512011514\n"
 "help.text"
 msgid "Ignore only errors, nested SUBTOTAL and AGGREGATE functions"
-msgstr "Negeer alleen fouten, genest SUBTOTAAL en AGGREGAAT-functies"
+msgstr "Negeer alleen fouten, genest SUBTOTAAL en AGGREGATIE-functies"
 
 #. ofBiE
 #: func_aggregate.xhp
@@ -56149,7 +56149,7 @@ msgctxt ""
 "par_id2309201512011547\n"
 "help.text"
 msgid "Ignore hidden rows, errors, nested SUBTOTAL and AGGREGATE functions"
-msgstr "Negeer verborgen rijen, fouten, genest SUBTOTAAL en AGGREGAAT-functies"
+msgstr "Negeer verborgen rijen, fouten, genest SUBTOTAAL en AGGREGATIE-functies"
 
 #. oTDkv
 #: func_aggregate.xhp
@@ -56266,7 +56266,7 @@ msgctxt ""
 "par_id27530261624700\n"
 "help.text"
 msgid "#DIV/0!"
-msgstr "#DIV/0!"
+msgstr "#DELING.DOOR.0!"
 
 #. R9Bfd
 #: func_aggregate.xhp
@@ -56293,7 +56293,7 @@ msgctxt ""
 "par_id230920152006414\n"
 "help.text"
 msgid "<item type=\"input\">=AGGREGATE(4;2;A2:A9)</item><br/>Returns maximum value for the range A2:A9 = 34."
-msgstr "<item type=\"input\">=AGGREGAAT(4;2;A2:A9)</item><br/>Retourneert de maximale waarde voor het bereik A2:A9 = 34."
+msgstr "<item type=\"input\">=AGGREGATIE(4;2;A2:A9)</item><br/>Retourneert de maximale waarde voor het bereik A2:A9 = 34."
 
 #. Tx8Vx
 #: func_aggregate.xhp
@@ -56302,7 +56302,7 @@ msgctxt ""
 "par_id2309201520064180\n"
 "help.text"
 msgid "<item type=\"input\">=AGGREGATE(9;5;A5:C5)</item><br/>Returns sum for the range A5:C5 = 29, even if some of the columns are hidden."
-msgstr "<item type=\"input\">=AGGREGAAT(9;5;A5:C5)</item><br/>Geeft de som van de reeks A5:C5 = 29, zelfs als sommige kolommen verborgen zijn."
+msgstr "<item type=\"input\">=AGGREGATIE(9;5;A5:C5)</item><br/>Geeft de som van de reeks A5:C5 = 29, zelfs als sommige kolommen verborgen zijn."
 
 #. GPwbY
 #: func_aggregate.xhp
@@ -56311,7 +56311,7 @@ msgctxt ""
 "par_id2309201520064118\n"
 "help.text"
 msgid "<item type=\"input\">=AGGREGATE(9;5;B2:B9)</item><br/>Returns sum of the column B = 115. If any row is hidden, the function omit its value, for example if the 7th row is hidden, the function returns 95."
-msgstr "<item type=\"input\">=AGGREGAAT(9;5;B2:B9)</item><br/>Geeft de som van kolom B = 115 terug. Als er een rij verborgen is, laat de functie de waarde weg, als bijvoorbeeld de 7de rij verborgen is, geeft de functie 95 terug."
+msgstr "<item type=\"input\">=AGGREGATIE(9;5;B2:B9)</item><br/>Geeft de som van kolom B = 115 terug. Als er een rij verborgen is, laat de functie de waarde weg, als bijvoorbeeld de 7de rij verborgen is, geeft de functie 95 terug."
 
 #. eyn5c
 #: func_aggregate.xhp
@@ -56329,7 +56329,7 @@ msgctxt ""
 "par_id2309201520180167\n"
 "help.text"
 msgid "<item type=\"input\">=AGGREGATE(13;3;Sheet1.B2:B9:Sheet3.B2:B9)</item><br/>The function returns mode of the values of second columns through sheets 1:3 (that have the same data) = 8."
-msgstr "<item type=\"input\">=AGGREGAAT(13;3;Blad1.B2:B9:Blad3.B2:B9)</item><br/>De functie geeft de modus van de waardes van de tweede kolom van bladen 1:3 (die hetzelfde gegeven hebben) = 8."
+msgstr "<item type=\"input\">=AGGREGATIE(13;3;Blad1.B2:B9:Blad3.B2:B9)</item><br/>De functie geeft de modus van de waardes van de tweede kolom van bladen 1:3 (die hetzelfde gegeven hebben) = 8."
 
 #. kDEuY
 #: func_aggregate.xhp
@@ -56347,7 +56347,7 @@ msgctxt ""
 "par_id2309201520395380\n"
 "help.text"
 msgid "<item type=\"input\">=AGGREGATE(E3;E5;'ColumnOne')</item><br/>If E3 = 13 and E5 = 5, the function returns mode of the first column = 10."
-msgstr "<item type=\"input\">=AGGREGAAT(E3;E5;'KolomEen')</item><br/>Als E3 = 13 en E5 = 5, geeft de functie de modus van de eerste kolom = 10."
+msgstr "<item type=\"input\">=AGGREGATIE(E3;E5;'KolomEen')</item><br/>Als E3 = 13 en E5 = 5, geeft de functie de modus van de eerste kolom = 10."
 
 #. 2BiGE
 #: func_aggregate.xhp
@@ -56356,7 +56356,7 @@ msgctxt ""
 "par_id651677017267822\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/AGGREGATE\">AGGREGATE wiki page</link>."
-msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/AGGREGATE\">Wiki-pagina AGGREGAAT</link>."
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/AGGREGATE\">Wiki-pagina AGGREGATIE</link>."
 
 #. cjxCG
 #: func_aggregate.xhp
@@ -56383,7 +56383,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ARABIC Function"
-msgstr "ARABISCH functie"
+msgstr "ARABISCH"
 
 #. ze8wK
 #: func_arabic.xhp
@@ -56392,7 +56392,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>ARABIC function</bookmark_value>      <bookmark_value>text functions;convert roman numbers</bookmark_value>"
-msgstr "<bookmark_value>ARABISCH functie</bookmark_value>      <bookmark_value>tekstfuncties;Romeinse cijfers converteren</bookmark_value>"
+msgstr "<bookmark_value>ARABISCH</bookmark_value>      <bookmark_value>tekstfuncties;Romeinse cijfers converteren</bookmark_value>"
 
 #. ku3Gp
 #: func_arabic.xhp
@@ -56482,7 +56482,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ASC Function"
-msgstr "ASC-functie"
+msgstr "ASC"
 
 #. H3kmF
 #: func_asc.xhp
@@ -56491,7 +56491,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>ASC function</bookmark_value>      <bookmark_value>text functions;katakana characters</bookmark_value>"
-msgstr "<bookmark_value>ASC-functie</bookmark_value>      <bookmark_value>tekstfuncties;katakana tekens</bookmark_value>"
+msgstr "<bookmark_value>ASC</bookmark_value>      <bookmark_value>tekstfuncties;katakana tekens</bookmark_value>"
 
 #. 4QDi7
 #: func_asc.xhp
@@ -56545,7 +56545,7 @@ msgctxt ""
 "par_id481637763523789\n"
 "help.text"
 msgid "Applying the ASC function to a string composed of single-byte characters will return the input string without any modifications."
-msgstr "Als u de ASC-functie toepast op een tekenreeks die bestaat uit enkelbyte-tekens, wordt de invoertekenreeks zonder enige wijziging geretourneerd."
+msgstr "Als u de functie ASC toepast op een tekenreeks die bestaat uit enkelbyte-tekens, wordt de invoertekenreeks zonder enige wijziging geretourneerd."
 
 #. QXBHB
 #: func_asc.xhp
@@ -56581,7 +56581,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "AVERAGEIF function"
-msgstr "GEMIDDELDE.ALS functie"
+msgstr "GEMIDDELDE.ALS"
 
 #. Xqih3
 #: func_averageif.xhp
@@ -56590,7 +56590,7 @@ msgctxt ""
 "bm_id237812197829662\n"
 "help.text"
 msgid "<bookmark_value>AVERAGEIF function</bookmark_value>  <bookmark_value>arithmetic mean;satisfying condition</bookmark_value>"
-msgstr "<bookmark_value>GEMIDDELDE.ALS-functie</bookmark_value>  <bookmark_value>berekend gemiddelde;bevredigende voorwaarde</bookmark_value>"
+msgstr "<bookmark_value>GEMIDDELDE.ALS</bookmark_value>  <bookmark_value>berekend gemiddelde;bevredigende voorwaarde</bookmark_value>"
 
 #. c5oJz
 #: func_averageif.xhp
@@ -56608,7 +56608,7 @@ msgctxt ""
 "par_id7281266615152\n"
 "help.text"
 msgid "<ahelp hid=\".\"><variable id=\"averageif_des\">Returns the arithmetic mean of all cells in a range that satisfy a given condition. The AVERAGEIF function sums up all the results that match the logical test and divides this sum by the quantity of selected values.</variable></ahelp>"
-msgstr "<ahelp hid=\".\"><variable id=\"averageif_des\">Geeft het rekenkundig gemiddelde van alle cellen in een bereik die aan een bepaalde voorwaarde voldoen. De GEMIDDELDE.ALS-functie telt alle resultaten op die overeenkomen met de logische test en deelt dit totaal door het aantal geselecteerde waardes.</variable></ahelp>"
+msgstr "<ahelp hid=\".\"><variable id=\"averageif_des\">Geeft het rekenkundig gemiddelde van alle cellen in een bereik die aan een bepaalde voorwaarde voldoen. De functie GEMIDDELDE.ALS telt alle resultaten op die overeenkomen met de logische test en deelt dit totaal door het aantal geselecteerde waardes.</variable></ahelp>"
 
 #. XgeAm
 #: func_averageif.xhp
@@ -56653,7 +56653,7 @@ msgctxt ""
 "par_id278275053653\n"
 "help.text"
 msgid "If a cell in a range of values for calculating the mean is empty or contains text, function AVERAGEIF ignores this cell.<br/>If the whole range is empty, contains only text or all values of the range do not satisfy the condition (or any combination of those), the function returns the #DIV/0! error."
-msgstr "Als een cel in een bereik van waardes voor het berekenen van het gemiddelde leeg is of tekst bevat, negeert de functie GEMIDDELDE.ALS deze cel.<br/> Als de hele reeks leeg is, alleen tekst bevat of alle waardes van de reeks voldoen niet aan de voorwaarde (of een combinatie hiervan), geeft de functie de fout #DIV/0!."
+msgstr "Als een cel in een bereik van waardes voor het berekenen van het gemiddelde leeg is of tekst bevat, negeert de functie GEMIDDELDE.ALS deze cel.<br/> Als de hele reeks leeg is, alleen tekst bevat of alle waardes van de reeks voldoen niet aan de voorwaarde (of een combinatie hiervan), geeft de functie de fout #DELING.DOOR.0!."
 
 #. u7E4B
 #: func_averageif.xhp
@@ -56914,7 +56914,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "AVERAGEIFS function"
-msgstr "functie GEMIDDELDEN.ALS"
+msgstr "GEMIDDELDEN.ALS"
 
 #. DDuFq
 #: func_averageifs.xhp
@@ -56923,7 +56923,7 @@ msgctxt ""
 "bm_id536715367153671\n"
 "help.text"
 msgid "<bookmark_value>AVERAGEIFS function</bookmark_value>  <bookmark_value>arithmetic mean;satisfying conditions</bookmark_value>"
-msgstr "<bookmark_value>GEMIDDELDE.ALS-functie</bookmark_value>  <bookmark_value>berekend gemiddelde; voorwaarden om aan te voldoen</bookmark_value>"
+msgstr "<bookmark_value>GEMIDDELDE.ALS</bookmark_value>  <bookmark_value>berekend gemiddelde; voorwaarden om aan te voldoen</bookmark_value>"
 
 #. uGhsw
 #: func_averageifs.xhp
@@ -56941,7 +56941,7 @@ msgctxt ""
 "par_id538405384053840\n"
 "help.text"
 msgid "<ahelp hid=\".\"><variable id=\"averageifs_des\">Returns the arithmetic mean of all cells in a range that satisfy given multiple criteria. The AVERAGEIFS function sums up all the results that match the logical tests and divides this sum by the quantity of selected values.</variable></ahelp>"
-msgstr "<ahelp hid=\".\"><variable id=\"averageifs_des\">Geeft het rekenkundig gemiddelde van alle cellen in een bereik die voldoen aan meerdere opgegeven criteria . De GEMIDDELDEN.ALS-functie telt alle resultaten die overeenkomen met de logische tests op en deelt dit totaal door het aantal geselecteerde waardes.</variable></ahelp>"
+msgstr "<ahelp hid=\".\"><variable id=\"averageifs_des\">Geeft het rekenkundig gemiddelde van alle cellen in een bereik die voldoen aan meerdere opgegeven criteria . De functie GEMIDDELDEN.ALS telt alle resultaten die overeenkomen met de logische tests op en deelt dit totaal door het aantal geselecteerde waardes.</variable></ahelp>"
 
 #. zNyZv
 #: func_averageifs.xhp
@@ -57067,7 +57067,7 @@ msgctxt ""
 "par_id316794795433\n"
 "help.text"
 msgid "If you need to change a criterion easily, you may want to specify it in a separate cell and use a reference to this cell in the condition of AVERAGEIFS function. For example, the above function can be rewritten as follows:"
-msgstr "Als u een criterium gemakkelijk moet kunnen veranderen, kunt u dit in een aparte cel opvoeren en gebruik maken van een verwijzing naar deze cel in de voorwaarde van de GEMIDDELDE.ALS-functie. De bovenstaande functie kan bijvoorbeeld als volgt worden herschreven:"
+msgstr "Als u een criterium gemakkelijk moet kunnen veranderen, kunt u dit in een aparte cel opvoeren en gebruik maken van een verwijzing naar deze cel in de voorwaarde van de functie GEMIDDELDE.ALS. De bovenstaande functie kan bijvoorbeeld als volgt worden herschreven:"
 
 #. B8bav
 #: func_averageifs.xhp
@@ -57103,7 +57103,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "BAHTTEXT Function"
-msgstr "Functie BAHT.TEKST"
+msgstr "BAHT.TEKST"
 
 #. gnCVy
 #: func_bahttext.xhp
@@ -57112,7 +57112,7 @@ msgctxt ""
 "bm_id9323709\n"
 "help.text"
 msgid "<bookmark_value>BAHTTEXT function</bookmark_value>"
-msgstr "<bookmark_value>functie BAHT.TEKST</bookmark_value>"
+msgstr "<bookmark_value>BAHT.TEKST</bookmark_value>"
 
 #. Avw7E
 #: func_bahttext.xhp
@@ -57175,7 +57175,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "BASE Function"
-msgstr "Functie Base"
+msgstr "BASE"
 
 #. 3ASuh
 #: func_base.xhp
@@ -57184,7 +57184,7 @@ msgctxt ""
 "bm_id3153072\n"
 "help.text"
 msgid "<bookmark_value>BASE function</bookmark_value>"
-msgstr "<bookmark_value>functie BASIS</bookmark_value>"
+msgstr "<bookmark_value>BASE</bookmark_value>"
 
 #. y28U8
 #: func_base.xhp
@@ -57310,7 +57310,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Ceiling functions"
-msgstr "AFRONDEN.BOVEN functies"
+msgstr "AFRONDEN.BOVEN"
 
 #. EWCte
 #: func_ceiling.xhp
@@ -57319,7 +57319,7 @@ msgctxt ""
 "hd_id971586216771519\n"
 "help.text"
 msgid "Ceiling functions"
-msgstr "AFRONDEN.BOVEN functies"
+msgstr "AFRONDEN.BOVEN"
 
 #. M92qb
 #: func_ceiling.xhp
@@ -57328,7 +57328,7 @@ msgctxt ""
 "bm_id3152518\n"
 "help.text"
 msgid "<bookmark_value>CEILING function</bookmark_value><bookmark_value>rounding;up to multiples of significance</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.BOVEN functie</bookmark_value><bookmark_value>afronding; tot veelvouden van betekenis</bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.BOVEN</bookmark_value><bookmark_value>afronding; tot veelvouden van betekenis</bookmark_value>"
 
 #. cGa5K
 #: func_ceiling.xhp
@@ -57364,7 +57364,7 @@ msgctxt ""
 "par_id3163792\n"
 "help.text"
 msgid "If the spreadsheet is exported to Microsoft Excel, the CEILING function is exported as the equivalent CEILING.MATH function that has existed since Excel 2013. If you plan to use the spreadsheet with earlier Excel versions, use either CEILING.PRECISE that has existed since Excel 2010, or CEILING.XCL that is exported as the CEILING function compatible with all Excel versions."
-msgstr "Als het werkblad wordt geëxporteerd naar Microsoft Excel, wordt de functie AFRONDEN.BOVEN geëxporteerd als de equivalente functie AFRONDEN.BOVEN.WISK die bestaat sinds Excel 2013. Als u van plan bent het werkblad te gebruiken met eerdere Excel-versies, gebruikt u AFRONDEN.BOVEN.NAUWKEURIG dat bestaat sinds Excel 2010 of AFRONDEN.BOVEN.EXCEL dat wordt geëxporteerd als de AFRONDEN.BOVEN-functie die compatibel is met alle Excel-versies."
+msgstr "Als het werkblad wordt geëxporteerd naar Microsoft Excel, wordt de functie AFRONDEN.BOVEN geëxporteerd als de equivalente functie AFRONDEN.BOVEN.WISK die bestaat sinds Excel 2013. Als u van plan bent het werkblad te gebruiken met eerdere Excel-versies, gebruikt u AFRONDEN.BOVEN.NAUWKEURIG dat bestaat sinds Excel 2010 of AFRONDEN.BOVEN.EXCEL dat wordt geëxporteerd als de functie AFRONDEN.BOVEN die compatibel is met alle Excel-versies."
 
 #. 3DwLL
 #: func_ceiling.xhp
@@ -57454,7 +57454,7 @@ msgctxt ""
 "bm_id2952518\n"
 "help.text"
 msgid "<bookmark_value>CEILING.PRECISE function</bookmark_value><bookmark_value>rounding;up to multiples of significance</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.BOVEN.NAUWKEURIG functie</bookmark_value><bookmark_value>afronding; op veelvouden van de stapgrootte</bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.BOVEN.NAUWKEURIG</bookmark_value><bookmark_value>afronding; op veelvouden van de stapgrootte</bookmark_value>"
 
 #. JGH6b
 #: func_ceiling.xhp
@@ -57535,7 +57535,7 @@ msgctxt ""
 "bm_id911516997198644\n"
 "help.text"
 msgid "<bookmark_value>CEILING.MATH function</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.BOVEN.WISK functie</bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.BOVEN.WISK</bookmark_value>"
 
 #. AuCnM
 #: func_ceiling.xhp
@@ -57652,7 +57652,7 @@ msgctxt ""
 "bm_id921516998608939\n"
 "help.text"
 msgid "<bookmark_value>CEILING.XCL function</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.BOVEN.EXCEL functie</bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.BOVEN.EXCEL</bookmark_value>"
 
 #. xEwWL
 #: func_ceiling.xhp
@@ -57742,7 +57742,7 @@ msgctxt ""
 "bm_id8952518\n"
 "help.text"
 msgid "<bookmark_value>ISO.CEILING function</bookmark_value><bookmark_value>rounding;up to multiples of significance</bookmark_value>"
-msgstr "<bookmark_value>ISO.AFRONDEN.BOVEN functie</bookmark_value><bookmark_value>afronding; op veelvouden van de stapgrootte</bookmark_value>"
+msgstr "<bookmark_value>ISO.AFRONDEN.BOVEN</bookmark_value><bookmark_value>afronding; op veelvouden van de stapgrootte</bookmark_value>"
 
 #. 2gaUP
 #: func_ceiling.xhp
@@ -57832,7 +57832,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "CHAR Function"
-msgstr "Functie TEKEN"
+msgstr "TEKEN"
 
 #. U9b8X
 #: func_char.xhp
@@ -57841,7 +57841,7 @@ msgctxt ""
 "bm_id3149321\n"
 "help.text"
 msgid "<bookmark_value>CHAR function</bookmark_value>"
-msgstr "<bookmark_value>functie TEKEN</bookmark_value>"
+msgstr "<bookmark_value>TEKEN</bookmark_value>"
 
 #. nQh7g
 #: func_char.xhp
@@ -57913,7 +57913,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "CHOOSECOLS function"
-msgstr "Functie KIES.KOLOMMEN"
+msgstr "KIES.KOLOMMEN"
 
 #. RmBsq
 #: func_choosecols.xhp
@@ -57922,7 +57922,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>CHOOSECOLS function</bookmark_value>"
-msgstr "<bookmark_value>functie KIES.KOLOMMEN</bookmark_value>"
+msgstr "<bookmark_value>KIES.KOLOMMEN</bookmark_value>"
 
 #. pgEyS
 #: func_choosecols.xhp
@@ -58021,7 +58021,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "CHOOSEROWS function"
-msgstr "Functie KIES.RIJEN"
+msgstr "KIES.RIJEN"
 
 #. csFBa
 #: func_chooserows.xhp
@@ -58030,7 +58030,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>CHOOSEROWS function</bookmark_value>"
-msgstr "<bookmark_value>functie KIES.RIJEN</bookmark_value>"
+msgstr "<bookmark_value>KIES.RIJEN</bookmark_value>"
 
 #. 2DzoR
 #: func_chooserows.xhp
@@ -58129,7 +58129,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "CLEAN Function"
-msgstr "Functie WISSEN.CONTROL"
+msgstr "WISSEN.CONTROL"
 
 #. Wb6TQ
 #: func_clean.xhp
@@ -58138,7 +58138,7 @@ msgctxt ""
 "bm_id3149009\n"
 "help.text"
 msgid "<bookmark_value>CLEAN function</bookmark_value>"
-msgstr "<bookmark_value>functie WISSEN.CONTROL</bookmark_value>"
+msgstr "<bookmark_value>WISSEN.CONTROL</bookmark_value>"
 
 #. FF6Vk
 #: func_clean.xhp
@@ -58201,7 +58201,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "CODE Function"
-msgstr "Functie Code"
+msgstr "Code"
 
 #. D4hJJ
 #: func_code.xhp
@@ -58210,7 +58210,7 @@ msgctxt ""
 "bm_id3155498\n"
 "help.text"
 msgid "<bookmark_value>CODE function</bookmark_value>"
-msgstr "<bookmark_value>functie CODE</bookmark_value>"
+msgstr "<bookmark_value>CODE</bookmark_value>"
 
 #. QDHEW
 #: func_code.xhp
@@ -58282,7 +58282,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "COLOR function"
-msgstr "Kleur-functie"
+msgstr "Kleur"
 
 #. N8CUu
 #: func_color.xhp
@@ -58291,7 +58291,7 @@ msgctxt ""
 "bm_id1102201617201921\n"
 "help.text"
 msgid "<bookmark_value>colors;numerical values</bookmark_value>         <bookmark_value>colors;calculating in spreadsheets</bookmark_value>         <bookmark_value>COLOR function</bookmark_value>"
-msgstr "<bookmark_value>kleuren;numerieke waardes</bookmark_value>         <bookmark_value>kleuren;berekenen in werkbladen</bookmark_value>         <bookmark_value>KLEUR-functie</bookmark_value>"
+msgstr "<bookmark_value>kleuren;numerieke waardes</bookmark_value>         <bookmark_value>kleuren;berekenen in werkbladen</bookmark_value>         <bookmark_value>KLEUR</bookmark_value>"
 
 #. qjPSR
 #: func_color.xhp
@@ -58390,7 +58390,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "CONCAT function"
-msgstr "Functie TEKST.SAMENV"
+msgstr "TEKST.SAMENV"
 
 #. WEfAD
 #: func_concat.xhp
@@ -58399,7 +58399,7 @@ msgctxt ""
 "bm_id741556228031712\n"
 "help.text"
 msgid "<bookmark_value>CONCAT function</bookmark_value>"
-msgstr "<bookmark_value>TEKST.SAMENV functie</bookmark_value>"
+msgstr "<bookmark_value>TEKST.SAMENV</bookmark_value>"
 
 #. DXcLh
 #: func_concat.xhp
@@ -58480,7 +58480,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "CONCATENATE Function"
-msgstr "Functie TEKST.SAMENVOEGEN"
+msgstr "TEKST.SAMENVOEGEN"
 
 #. 4PpU9
 #: func_concatenate.xhp
@@ -58489,7 +58489,7 @@ msgctxt ""
 "bm_id3149688\n"
 "help.text"
 msgid "<bookmark_value>CONCATENATE function</bookmark_value>"
-msgstr "<bookmark_value>functie TEKST.SAMENVOEGEN</bookmark_value>"
+msgstr "<bookmark_value>TEKST.SAMENVOEGEN</bookmark_value>"
 
 #. YAoCB
 #: func_concatenate.xhp
@@ -58561,7 +58561,7 @@ msgctxt ""
 "bm_id3148446\n"
 "help.text"
 msgid "<bookmark_value>CONVERT function</bookmark_value>"
-msgstr "<bookmark_value>CONVERTEREN functie</bookmark_value>"
+msgstr "<bookmark_value>CONVERTEREN</bookmark_value>"
 
 #. XE5M9
 #: func_convert.xhp
@@ -58570,7 +58570,7 @@ msgctxt ""
 "hd_id9522389625800\n"
 "help.text"
 msgid "<variable id=\"convert_head\">        <link href=\"text/scalc/01/func_convert.xhp\">CONVERT</link>      </variable> function"
-msgstr "<variable id=\"convert_head\">        <link href=\"text/scalc/01/func_convert.xhp\">CONVERTEREN</link>      </variable> functie"
+msgstr "<variable id=\"convert_head\">        <link href=\"text/scalc/01/func_convert.xhp\">CONVERTEREN</link>      </variable>"
 
 #. fmXAR
 #: func_convert.xhp
@@ -58606,7 +58606,7 @@ msgctxt ""
 "par_id601621101375988\n"
 "help.text"
 msgid "This function may not be compatible with other spreadsheet software."
-msgstr "Deze functie is mogelijk niet compatibel met andere spreadsheetsoftware."
+msgstr "Deze functie is mogelijk niet compatibel met andere werkbladsoftware."
 
 #. wfq9t
 #: func_convert.xhp
@@ -60235,7 +60235,7 @@ msgctxt ""
 "par_id671641306535516\n"
 "help.text"
 msgid "2 - These units are not part of the <emph>Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</emph> standard for the CONVERT function. They are preserved for backward compatibility."
-msgstr "2 - Deze eenheden maken geen deel uit van het <emph>Open Document Formaat voor Office-toepassingen (OpenDocument) Versie 1.3. Deel 4: Herberekende formule (OpenFormula) Indeling</emph> standaard voor de CONVERTEREN-functie. Ze worden bewaard voor achterwaartse compatibiliteit."
+msgstr "2 - Deze eenheden maken geen deel uit van het <emph>Open Document Formaat voor Office-toepassingen (OpenDocument) Versie 1.3. Deel 4: Herberekende formule (OpenFormula) Indeling</emph> standaard voor de functie CONVERTEREN. Ze worden bewaard voor achterwaartse compatibiliteit."
 
 #. ej2DE
 #: func_convert.xhp
@@ -60316,7 +60316,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "COUNTIFS function"
-msgstr "Functie AANTALLEN.ALS"
+msgstr "AANTALLEN.ALS"
 
 #. Kprey
 #: func_countifs.xhp
@@ -60325,7 +60325,7 @@ msgctxt ""
 "bm_id452245224522\n"
 "help.text"
 msgid "<bookmark_value>COUNTIFS function</bookmark_value>  <bookmark_value>counting row;satisfying criteria</bookmark_value>  <bookmark_value>counting column;satisfying criteria</bookmark_value>"
-msgstr "<bookmark_value>AANTALLEN.ALS-functie</bookmark_value>  <bookmark_value>rijen tellen;voldoen aan criteria</bookmark_value>  <bookmark_value>kolommen tellen;voldoen aan criteria</bookmark_value>"
+msgstr "<bookmark_value>AANTALLEN.ALS</bookmark_value>  <bookmark_value>rijen tellen;voldoen aan criteria</bookmark_value>  <bookmark_value>kolommen tellen;voldoen aan criteria</bookmark_value>"
 
 #. wMH8u
 #: func_countifs.xhp
@@ -60496,7 +60496,7 @@ msgctxt ""
 "par_id3245551524846\n"
 "help.text"
 msgid "If you need to change a criterion easily, you may want to specify it in a separate cell and use a reference to this cell in the condition of the COUNTIFS function. For example, the above function can be rewritten as follows:"
-msgstr "Als u een criterium gemakkelijk moet kunnen veranderen, kunt u dit in een aparte cel opvoeren en gebruik maken van een verwijzing naar deze cel in de voorwaarde van de AANTALLEN.ALS-functie. De bovenstaande functie kan bijvoorbeeld als volgt worden herschreven:"
+msgstr "Als u een criterium gemakkelijk moet kunnen veranderen, kunt u dit in een aparte cel opvoeren en gebruik maken van een verwijzing naar deze cel in de voorwaarde van de functie AANTALLEN.ALS. De bovenstaande functie kan bijvoorbeeld als volgt worden herschreven:"
 
 #. 3TTwe
 #: func_countifs.xhp
@@ -60541,7 +60541,7 @@ msgctxt ""
 "bm_id3155511\n"
 "help.text"
 msgid "<bookmark_value>DATE function</bookmark_value>"
-msgstr "<bookmark_value>DATUM-functie</bookmark_value>"
+msgstr "<bookmark_value>DATUM</bookmark_value>"
 
 #. TioqL
 #: func_date.xhp
@@ -60649,7 +60649,7 @@ msgctxt ""
 "bm_id3155511\n"
 "help.text"
 msgid "<bookmark_value>DATEDIF function</bookmark_value>"
-msgstr "<bookmark_value>DATUMVERSCHIL functie</bookmark_value>"
+msgstr "<bookmark_value>DATUMVERSCHIL</bookmark_value>"
 
 #. M9yvp
 #: func_datedif.xhp
@@ -60874,7 +60874,7 @@ msgctxt ""
 "bm_id3145621\n"
 "help.text"
 msgid "<bookmark_value>DATEVALUE function</bookmark_value>"
-msgstr "<bookmark_value>DATUMWAARDE-functie</bookmark_value>"
+msgstr "<bookmark_value>DATUMWAARDE</bookmark_value>"
 
 #. e4YFG
 #: func_datevalue.xhp
@@ -60964,7 +60964,7 @@ msgctxt ""
 "bm_id3147317\n"
 "help.text"
 msgid "<bookmark_value>DAY function</bookmark_value>"
-msgstr "<bookmark_value>DAG-functie</bookmark_value>"
+msgstr "<bookmark_value>DAG</bookmark_value>"
 
 #. VuxYK
 #: func_day.xhp
@@ -61063,7 +61063,7 @@ msgctxt ""
 "bm_id3151328\n"
 "help.text"
 msgid "<bookmark_value>DAYS function</bookmark_value>"
-msgstr "<bookmark_value>DAGEN-functie</bookmark_value>"
+msgstr "<bookmark_value>DAGEN</bookmark_value>"
 
 #. AaMFZ
 #: func_days.xhp
@@ -61153,7 +61153,7 @@ msgctxt ""
 "bm_id3148555\n"
 "help.text"
 msgid "<bookmark_value>DAYS360 function</bookmark_value>"
-msgstr "<bookmark_value>DAGEN360-functie</bookmark_value>"
+msgstr "<bookmark_value>DAGEN360</bookmark_value>"
 
 #. GnutH
 #: func_days360.xhp
@@ -61225,7 +61225,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "DECIMAL Function"
-msgstr "Functie DECIMAAL"
+msgstr "DECIMAAL"
 
 #. vpN4f
 #: func_decimal.xhp
@@ -61234,7 +61234,7 @@ msgctxt ""
 "bm_id3145166\n"
 "help.text"
 msgid "<bookmark_value>DECIMAL function</bookmark_value>"
-msgstr "<bookmark_value>Functie DECIMAAL</bookmark_value>"
+msgstr "<bookmark_value>DECIMAAL</bookmark_value>"
 
 #. hei3F
 #: func_decimal.xhp
@@ -61333,7 +61333,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "DOLLAR Function"
-msgstr "functie Euro"
+msgstr "Euro"
 
 #. k7JYp
 #: func_dollar.xhp
@@ -61342,7 +61342,7 @@ msgctxt ""
 "bm_id3148402\n"
 "help.text"
 msgid "<bookmark_value>DOLLAR function</bookmark_value>"
-msgstr "<bookmark_value>functie Euro</bookmark_value>"
+msgstr "<bookmark_value>Euro</bookmark_value>"
 
 #. DFCWG
 #: func_dollar.xhp
@@ -61432,7 +61432,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "DROP function"
-msgstr "Functie VERVALLEN"
+msgstr "VERVALLEN"
 
 #. vSAGF
 #: func_drop.xhp
@@ -61441,7 +61441,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>DROP function</bookmark_value>"
-msgstr "<bookmark_value> Functie VERVALLEN</bookmark_value>"
+msgstr "<bookmark_value>VERVALLEN</bookmark_value>"
 
 #. CH7xF
 #: func_drop.xhp
@@ -61540,7 +61540,7 @@ msgctxt ""
 "bm_id3152960\n"
 "help.text"
 msgid "<bookmark_value>EASTERSUNDAY function</bookmark_value>"
-msgstr "<bookmark_value>EERSTEPAASDAG-functie</bookmark_value>"
+msgstr "<bookmark_value>EERSTEPAASDAG</bookmark_value>"
 
 #. Y9MZF
 #: func_eastersunday.xhp
@@ -61657,7 +61657,7 @@ msgctxt ""
 "bm_id3151184\n"
 "help.text"
 msgid "<bookmark_value>EDATE function</bookmark_value>"
-msgstr "<bookmark_value>ZELFDE.DAG-functie</bookmark_value>"
+msgstr "<bookmark_value>ZELFDE.DAG</bookmark_value>"
 
 #. HdAN4
 #: func_edate.xhp
@@ -61747,7 +61747,7 @@ msgctxt ""
 "bm_id3150991\n"
 "help.text"
 msgid "<bookmark_value>EOMONTH function</bookmark_value>"
-msgstr "<bookmark_value>LAATSTE.DAG-functie</bookmark_value>"
+msgstr "<bookmark_value>LAATSTE.DAG</bookmark_value>"
 
 #. 3pfQp
 #: func_eomonth.xhp
@@ -61837,7 +61837,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ERROR.TYPE function"
-msgstr "TYPE.FOUT-functie"
+msgstr "TYPE.FOUT"
 
 #. Wvwf3
 #: func_error_type.xhp
@@ -61846,7 +61846,7 @@ msgctxt ""
 "bm_id346793467934679\n"
 "help.text"
 msgid "<bookmark_value>ERROR.TYPE function</bookmark_value>  <bookmark_value>index of the Error type</bookmark_value>"
-msgstr "<bookmark_value>TYPE.FOUT-functie</bookmark_value>  <bookmark_value>index van de TYPE.FOUT-functie</bookmark_value>"
+msgstr "<bookmark_value>TYPE.FOUT</bookmark_value>  <bookmark_value>index van de functie TYPE.FOUT</bookmark_value>"
 
 #. ksPuq
 #: func_error_type.xhp
@@ -61855,7 +61855,7 @@ msgctxt ""
 "hd_id348223482234822\n"
 "help.text"
 msgid "<variable id=\"error_type_head\"><link href=\"text/scalc/01/func_error_type.xhp\">ERROR.TYPE</link></variable> function"
-msgstr "Functie <variable id=\"error_type_head\"><link href=\"text/scalc/01/func_error_type.xhp\">TYPE.FOUT</link></variable>"
+msgstr "<variable id=\"error_type_head\"><link href=\"text/scalc/01/func_error_type.xhp\">TYPE.FOUT</link></variable>"
 
 #. UMFCu
 #: func_error_type.xhp
@@ -62062,7 +62062,7 @@ msgctxt ""
 "par_id12475201719494\n"
 "help.text"
 msgid "The ISERROR function returns TRUE or FALSE depending on whether there is an error or not. If the error takes place, the function IF addresses to the second argument, if there is no error, it returns the result of the division. The second argument checks the index number representing the specific Error type, and if it is equal to 2, it returns the specified text \"the denominator can't be zero\" or 0 otherwise. Thus, clear text would signify the division by zero, the result of the division would appear when the division is successful, or if there is, for example, an error of another type, zero would be returned."
-msgstr "De ISFOUT-functie geeft WAAR of ONWAAR, afhankelijk van of er een fout is of niet. Als er een fout is, adresseert de functie ALS aan de tweede argument, als er geen fout is, wordt het resultaat van de deling gegeven. Het tweede argument controleert het indexnummer van het specifieke TYPE.FOUT en als deze gelijk is aan 2, geeft het de gespecificeerde tekst \"de noemer kan niet nul\" en anders 0. Aldus zal duidelijke tekst de deling door nul aanduiden en het resultaat van de deling zal verschijnen als de verdeling succesvol is of een fout van een ander type zal bijvoorbeeld nul geven."
+msgstr "De functie ISFOUT geeft WAAR of ONWAAR, afhankelijk van of er een fout is of niet. Als er een fout is, adresseert de functie ALS aan de tweede argument, als er geen fout is, wordt het resultaat van de deling gegeven. Het tweede argument controleert het indexnummer van het specifieke TYPE.FOUT en als deze gelijk is aan 2, geeft het de gespecificeerde tekst \"de noemer kan niet nul\" en anders 0. Aldus zal duidelijke tekst de deling door nul aanduiden en het resultaat van de deling zal verschijnen als de verdeling succesvol is of een fout van een ander type zal bijvoorbeeld nul geven."
 
 #. 8XdGp
 #: func_error_type.xhp
@@ -62071,7 +62071,7 @@ msgctxt ""
 "par_id26251175451270\n"
 "help.text"
 msgid "If the ERROR.TYPE function is used as condition of the IF function and the ERROR.TYPE returns #N/A, the IF function returns #N/A as well. Use ISERROR to avoid it as shown in the example above."
-msgstr "Wanneer de TYPE.FOUT-functie wordt gebruikt als voorwaarde voor de ALS-functie en de TYPE.FOUT geeft #N/B, geeft de ALS-functie ook #N/B. Gebruik ISFOUT om dit te vermijden, zoals in het voorbeeld hierboven wordt weergegeven."
+msgstr "Wanneer de functie TYPE.FOUT wordt gebruikt als voorwaarde voor de functie ALS en de TYPE.FOUT geeft #N/B, geeft de functie ALS ook #N/B. Gebruik ISFOUT om dit te vermijden, zoals in het voorbeeld hierboven wordt weergegeven."
 
 #. Attho
 #: func_error_type.xhp
@@ -62107,7 +62107,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "EXACT Function"
-msgstr "Functie GELIJK"
+msgstr "GELIJK"
 
 #. 5QCE5
 #: func_exact.xhp
@@ -62116,7 +62116,7 @@ msgctxt ""
 "bm_id3150685\n"
 "help.text"
 msgid "<bookmark_value>EXACT function</bookmark_value>"
-msgstr "<bookmark_value>functie GELIJK</bookmark_value>"
+msgstr "<bookmark_value>GELIJK</bookmark_value>"
 
 #. YgfhC
 #: func_exact.xhp
@@ -62188,7 +62188,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "EXPAND function"
-msgstr "Functie UITBREIDEN"
+msgstr "UITBREIDEN"
 
 #. LVpwH
 #: func_expand.xhp
@@ -62197,7 +62197,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>EXPAND function</bookmark_value>"
-msgstr "<bookmark_value>Functie UITBREIDEN</bookmark_value>"
+msgstr "<bookmark_value>UITBREIDEN</bookmark_value>"
 
 #. yBGiA
 #: func_expand.xhp
@@ -62287,7 +62287,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FILTER function"
-msgstr "Functie FILTER"
+msgstr "FILTER"
 
 #. uj4VA
 #: func_filter.xhp
@@ -62296,7 +62296,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>FILTER function</bookmark_value>"
-msgstr "<bookmark_value>Functie FILTER</bookmark_value>"
+msgstr "<bookmark_value>FILTER</bookmark_value>"
 
 #. ymoUm
 #: func_filter.xhp
@@ -62386,7 +62386,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FIND Function"
-msgstr "Functie VIND.ALLES"
+msgstr "VIND.ALLES"
 
 #. G4pmB
 #: func_find.xhp
@@ -62395,7 +62395,7 @@ msgctxt ""
 "bm_id3152589\n"
 "help.text"
 msgid "<bookmark_value>FIND function</bookmark_value>"
-msgstr "<bookmark_value>functie VIND.ALLES</bookmark_value>"
+msgstr "<bookmark_value>VIND.ALLES</bookmark_value>"
 
 #. dD6G9
 #: func_find.xhp
@@ -62476,7 +62476,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FINDB Function"
-msgstr "VINDENB Functie"
+msgstr "VINDENB"
 
 #. EkUr2
 #: func_findb.xhp
@@ -62485,7 +62485,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>FINDB Function</bookmark_value>            <bookmark_value>find text;FINDB Function</bookmark_value>"
-msgstr "<bookmark_value>VINDENB Functie</bookmark_value>            <bookmark_value>tekst zoeken;VINDENB Functie</bookmark_value>"
+msgstr "<bookmark_value>VINDENB</bookmark_value>            <bookmark_value>tekst zoeken;VINDENB</bookmark_value>"
 
 #. MAagw
 #: func_findb.xhp
@@ -62566,7 +62566,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FIXED Function"
-msgstr "Functie VAST"
+msgstr "VAST"
 
 #. kBB7d
 #: func_fixed.xhp
@@ -62575,7 +62575,7 @@ msgctxt ""
 "bm_id3149268\n"
 "help.text"
 msgid "<bookmark_value>FIXED function</bookmark_value>"
-msgstr "<bookmark_value>functie VAST</bookmark_value>"
+msgstr "<bookmark_value>VAST</bookmark_value>"
 
 #. GAsuD
 #: func_fixed.xhp
@@ -62701,7 +62701,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FLOOR Functions"
-msgstr "AFRONDEN.BENEDEN Functies"
+msgstr "AFRONDEN.BENEDEN"
 
 #. RuCRw
 #: func_floor.xhp
@@ -62710,7 +62710,7 @@ msgctxt ""
 "hd_id391586285373874\n"
 "help.text"
 msgid "FLOOR Functions"
-msgstr "AFRONDEN.BENEDEN Functies"
+msgstr "AFRONDEN.BENEDEN"
 
 #. hkrkw
 #: func_floor.xhp
@@ -62719,7 +62719,7 @@ msgctxt ""
 "bm_id3157404\n"
 "help.text"
 msgid "<bookmark_value>FLOOR function</bookmark_value><bookmark_value>rounding;down to nearest multiple of significance</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.BENEDEN.WISK functie</bookmark_value><bookmark_value>afronding; naar beneden naar het dichtstbijzijnde veelvoud van de stapgrootte </bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.BENEDEN.WISK</bookmark_value><bookmark_value>afronding; naar beneden naar het dichtstbijzijnde veelvoud van de stapgrootte </bookmark_value>"
 
 #. soQ7o
 #: func_floor.xhp
@@ -62755,7 +62755,7 @@ msgctxt ""
 "par_id3163894\n"
 "help.text"
 msgid "If the spreadsheet is exported to Microsoft Excel, the FLOOR function is exported as the equivalent FLOOR.MATH function that has existed since Excel 2013. If you plan to use the spreadsheet with earlier Excel versions, use either FLOOR.PRECISE that has existed since Excel 2010, or FLOOR.XCL that is exported as the FLOOR function compatible with all Excel versions."
-msgstr "Als het werkblad wordt geëxporteerd naar Microsoft Excel, wordt de AFRONDEN.BENEDEN-functie geëxporteerd als de equivalente AFRONDEN.BENEDEN.WISKUNDIG-functie die bestaat sinds Excel 2013. Als u van plan bent het werkblad te gebruiken met eerdere Excel-versies, gebruik dan AFRONDEN.BENEDEN.PRECIES dat bestaat sinds Excel 2010 of AFRONDEN.BENEDEN.EXCEL die wordt geëxporteerd als de AFRONDEN.BENEDEN-functie die compatibel is met alle Excel-versies."
+msgstr "Als het werkblad wordt geëxporteerd naar Microsoft Excel, wordt de functie AFRONDEN.BENEDEN geëxporteerd als de equivalente functie AFRONDEN.BENEDEN.WISKUNDIG die bestaat sinds Excel 2013. Als u van plan bent het werkblad te gebruiken met eerdere Excel-versies, gebruik dan AFRONDEN.BENEDEN.PRECIES dat bestaat sinds Excel 2010 of AFRONDEN.BENEDEN.EXCEL die wordt geëxporteerd als de functie AFRONDEN.BENEDEN die compatibel is met alle Excel-versies."
 
 #. 2haGU
 #: func_floor.xhp
@@ -62845,7 +62845,7 @@ msgctxt ""
 "bm_id811586290952465\n"
 "help.text"
 msgid "<bookmark_value>FLOOR.MATH function</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.BENEDEN.WISK functie</bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.BENEDEN.WISK</bookmark_value>"
 
 #. B9VCD
 #: func_floor.xhp
@@ -62962,7 +62962,7 @@ msgctxt ""
 "bm_id2957404\n"
 "help.text"
 msgid "<bookmark_value>FLOOR.PRECISE function</bookmark_value><bookmark_value>rounding;down to nearest multiple of significance</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.BENEDEN.NAUWKEURIG functie</bookmark_value><bookmark_value>afronding; naar beneden naar het dichtstbijzijnde veelvoud van de stapgrootte</bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.BENEDEN.NAUWKEURIG</bookmark_value><bookmark_value>afronding; naar beneden naar het dichtstbijzijnde veelvoud van de stapgrootte</bookmark_value>"
 
 #. Q6WU3
 #: func_floor.xhp
@@ -63034,7 +63034,7 @@ msgctxt ""
 "bm_id171586291849333\n"
 "help.text"
 msgid "<bookmark_value>FLOOR.XCL function</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.BENEDEN.EXCEL functie</bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.BENEDEN.EXCEL</bookmark_value>"
 
 #. gC7eY
 #: func_floor.xhp
@@ -63142,7 +63142,7 @@ msgctxt ""
 "bm_id976559765597655\n"
 "help.text"
 msgid "<bookmark_value>FORECAST.ETS.ADD function</bookmark_value>"
-msgstr "<bookmark_value>VOORSPELLEN.ETS.ADD-functie</bookmark_value>"
+msgstr "<bookmark_value>VOORSPELLEN.ETS.ADD</bookmark_value>"
 
 #. Ai5EN
 #: func_forecastetsadd.xhp
@@ -63250,7 +63250,7 @@ msgctxt ""
 "bm_id976559765597655\n"
 "help.text"
 msgid "<bookmark_value>FORECAST.ETS.MULT function</bookmark_value>"
-msgstr "<bookmark_value>VOORSPELLEN.ETS.MULT (functie)</bookmark_value>"
+msgstr "<bookmark_value>VOORSPELLEN.ETS.MULT</bookmark_value>"
 
 #. LnXao
 #: func_forecastetsmult.xhp
@@ -63259,7 +63259,7 @@ msgctxt ""
 "hd_id0603201610022291\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/func_forecastetsmult.xhp\">FORECAST.ETS.MULT Function</link>"
-msgstr "<link href=\"text/scalc/01/func_forecastetsmult.xhp\">VOORSPELLEN.ETS.MULT (functie)</link>"
+msgstr "<link href=\"text/scalc/01/func_forecastetsmult.xhp\">VOORSPELLEN.ETS.MULT</link>"
 
 #. tYAjY
 #: func_forecastetsmult.xhp
@@ -63358,7 +63358,7 @@ msgctxt ""
 "bm_id976559765597655\n"
 "help.text"
 msgid "<bookmark_value>FORECAST.ETS.PI.ADD function</bookmark_value>"
-msgstr "<bookmark_value>VOORSPELLEN.ETS.PI.ADD-functie</bookmark_value>"
+msgstr "<bookmark_value>VOORSPELLEN.ETS.PI.ADD</bookmark_value>"
 
 #. Ftk9s
 #: func_forecastetspiadd.xhp
@@ -63493,7 +63493,7 @@ msgctxt ""
 "bm_id976559765597655\n"
 "help.text"
 msgid "<bookmark_value>FORECAST.ETS.PI.MULT function</bookmark_value>"
-msgstr "<bookmark_value>VOORSPELLEN.ETS.PI.MULT-functie</bookmark_value>"
+msgstr "<bookmark_value>VOORSPELLEN.ETS.PI.MULT</bookmark_value>"
 
 #. o32J6
 #: func_forecastetspimult.xhp
@@ -63628,7 +63628,7 @@ msgctxt ""
 "bm_id976559765597655\n"
 "help.text"
 msgid "<bookmark_value>FORECAST.ETS.SEASONALITY function</bookmark_value>"
-msgstr "<bookmark_value>VOORSPELLEN.ETS.SEIZOENSLENGTE-functie</bookmark_value>"
+msgstr "<bookmark_value>VOORSPELLEN.ETS.SEIZOENSLENGTE</bookmark_value>"
 
 #. ozk5A
 #: func_forecastetsseason.xhp
@@ -63718,7 +63718,7 @@ msgctxt ""
 "bm_id976559765597655\n"
 "help.text"
 msgid "<bookmark_value>FORECAST.ETS.STAT.ADD function</bookmark_value>"
-msgstr "<bookmark_value>VOORSPELLEN.ETS.STAT.ADD-functie</bookmark_value>"
+msgstr "<bookmark_value>VOORSPELLEN.ETS.STAT.ADD</bookmark_value>"
 
 #. edDaD
 #: func_forecastetsstatadd.xhp
@@ -63826,7 +63826,7 @@ msgctxt ""
 "bm_id976559765597655\n"
 "help.text"
 msgid "<bookmark_value>FORECAST.ETS.STAT.MULT function</bookmark_value>"
-msgstr "<bookmark_value>VOORSPELLEN.ETS.STAT.MULT-functie</bookmark_value>"
+msgstr "<bookmark_value>VOORSPELLEN.ETS.STAT.MULT</bookmark_value>"
 
 #. DoedA
 #: func_forecastetsstatmult.xhp
@@ -63925,7 +63925,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "FOURIER function"
-msgstr "FOURIER functie"
+msgstr "FOURIER"
 
 #. FmjN8
 #: func_fourier.xhp
@@ -63934,7 +63934,7 @@ msgctxt ""
 "bm_id581556228060864\n"
 "help.text"
 msgid "<bookmark_value>FOURIER function</bookmark_value>"
-msgstr "<bookmark_value>FOURIER functie</bookmark_value>"
+msgstr "<bookmark_value>FOURIER</bookmark_value>"
 
 #. mMfDg
 #: func_fourier.xhp
@@ -63952,7 +63952,7 @@ msgctxt ""
 "par_id121556227727948\n"
 "help.text"
 msgid "<variable id=\"textjoinfunction\"><ahelp hid=\".\">Computes the  Discrete Fourier Transform [DFT] of an input array of complex numbers using a couple of Fast Fourier Transform (FFT) algorithms.</ahelp></variable> The  function is an <link href=\"text/scalc/01/04060107.xhp\">array formula</link>."
-msgstr "<variable id=\"textjoinfunction\"><ahelp hid=\".\">Berekent de discrete Fourier-transformatie [DFT] van een invoerarray van complexe getallen met behulp van een aantal Fast Fourier Transform (FFT) -algoritmen.</ahelp></variable> De functie is een <link href=\"text/scalc/01/04060107.xhp\">matrixformule</link>."
+msgstr "<variable id=\"textjoinfunction\"><ahelp hid=\".\">Berekent de discrete Fourier-transformatie [DFT] van een invoermatrix van complexe getallen met behulp van een aantal Fast Fourier Transform (FFT) -algoritmen.</ahelp></variable> De functie is een <link href=\"text/scalc/01/04060107.xhp\">matrixformule</link>."
 
 #. xGHaG
 #: func_fourier.xhp
@@ -64033,7 +64033,7 @@ msgctxt ""
 "bm_id3154725\n"
 "help.text"
 msgid "<bookmark_value>HOUR function</bookmark_value>"
-msgstr "<bookmark_value>UUR-functie</bookmark_value>"
+msgstr "<bookmark_value>UUR</bookmark_value>"
 
 #. T4GyT
 #: func_hour.xhp
@@ -64114,7 +64114,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "HSTACK function"
-msgstr "Functie HOR.STAPELEN"
+msgstr "HOR.STAPELEN"
 
 #. ki2vF
 #: func_hstack.xhp
@@ -64123,7 +64123,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>HSTACK function</bookmark_value>"
-msgstr "<bookmark_value>functie HOR.STAPELEN</bookmark_value>"
+msgstr "<bookmark_value>HOR.STAPELEN</bookmark_value>"
 
 #. LBtai
 #: func_hstack.xhp
@@ -64204,7 +64204,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IFS function"
-msgstr "ALS.VOORWAARDEN functie"
+msgstr "ALS.VOORWAARDEN"
 
 #. XMPcD
 #: func_ifs.xhp
@@ -64213,7 +64213,7 @@ msgctxt ""
 "bm_id901556242230198\n"
 "help.text"
 msgid "<bookmark_value>IFS function</bookmark_value>"
-msgstr "<bookmark_value>ALS.VOORWAARDEN functie</bookmark_value>"
+msgstr "<bookmark_value>ALS.VOORWAARDEN</bookmark_value>"
 
 #. kRbQi
 #: func_ifs.xhp
@@ -64375,7 +64375,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IMCOS function"
-msgstr "Functie C.COS"
+msgstr "C.COS"
 
 #. DNkfT
 #: func_imcos.xhp
@@ -64384,7 +64384,7 @@ msgctxt ""
 "bm_id262410558824\n"
 "help.text"
 msgid "<bookmark_value>IMCOS function</bookmark_value><bookmark_value>cosine;complex number</bookmark_value>"
-msgstr "<bookmark_value>functie IMCOS</bookmark_value><bookmark_value>cosinus;complex getal</bookmark_value>"
+msgstr "<bookmark_value>IMCOS</bookmark_value><bookmark_value>cosinus;complex getal</bookmark_value>"
 
 #. GmCB8
 #: func_imcos.xhp
@@ -64393,7 +64393,7 @@ msgctxt ""
 "hd_id90361032228870\n"
 "help.text"
 msgid "<variable id=\"imcos_head\"><link href=\"text/scalc/01/func_imcos.xhp\">IMCOS</link></variable> function"
-msgstr "<variable id=\"imcos_head\"><link href=\"text/scalc/01/func_imcos.xhp\">C.COS</link></variable>-functie"
+msgstr "<variable id=\"imcos_head\"><link href=\"text/scalc/01/func_imcos.xhp\">C.COS</link></variable>"
 
 #. F6Dy7
 #: func_imcos.xhp
@@ -64456,7 +64456,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IMCOSH function"
-msgstr "Functie C.COSH"
+msgstr "C.COSH"
 
 #. pmWJk
 #: func_imcosh.xhp
@@ -64465,7 +64465,7 @@ msgctxt ""
 "bm_id123771237712377\n"
 "help.text"
 msgid "<bookmark_value>IMCOSH function</bookmark_value><bookmark_value>hyperbolic cosine;complex number</bookmark_value>"
-msgstr "Functie <bookmark_value>C.COSH</bookmark_value><bookmark_value>hyperbolische cosinus;complex getal</bookmark_value>"
+msgstr "<bookmark_value>C.COSH</bookmark_value><bookmark_value>hyperbolische cosinus;complex getal</bookmark_value>"
 
 #. LhGyK
 #: func_imcosh.xhp
@@ -64546,7 +64546,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IMCOT function"
-msgstr "Functie C.COT"
+msgstr "C.COT"
 
 #. ZimkG
 #: func_imcot.xhp
@@ -64555,7 +64555,7 @@ msgctxt ""
 "bm_id762757627576275\n"
 "help.text"
 msgid "<bookmark_value>IMCOT function</bookmark_value><bookmark_value>cotangent;complex number</bookmark_value>"
-msgstr "Functie <bookmark_value>C.COT</bookmark_value><bookmark_value>cotangens;complexe getal</bookmark_value>"
+msgstr "<bookmark_value>C.COT</bookmark_value><bookmark_value>cotangens;complexe getal</bookmark_value>"
 
 #. gawaP
 #: func_imcot.xhp
@@ -64636,7 +64636,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IMCSC function"
-msgstr "Functie IMCOSEC"
+msgstr "IMCOSEC"
 
 #. voV3U
 #: func_imcsc.xhp
@@ -64645,7 +64645,7 @@ msgctxt ""
 "bm_id931179311793117\n"
 "help.text"
 msgid "<bookmark_value>IMCSC function</bookmark_value><bookmark_value>cosecant;complex number</bookmark_value>"
-msgstr "<bookmark_value>IMCOSEC-functie</bookmark_value><bookmark_value>cosecans;complex getal</bookmark_value>"
+msgstr "<bookmark_value>IMCOSEC</bookmark_value><bookmark_value>cosecans;complex getal</bookmark_value>"
 
 #. XF62w
 #: func_imcsc.xhp
@@ -64726,7 +64726,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IMCSCH function"
-msgstr "Functie C.COSECH"
+msgstr "C.COSECH"
 
 #. Fa5LN
 #: func_imcsch.xhp
@@ -64735,7 +64735,7 @@ msgctxt ""
 "bm_id976559765597655\n"
 "help.text"
 msgid "<bookmark_value>IMCSCH function</bookmark_value><bookmark_value>hyperbolic cosecant;complex number</bookmark_value>"
-msgstr "<bookmark_value>functie C.COSECH</bookmark_value><bookmark_value>cosecans hyperbolicus;complex getal</bookmark_value>"
+msgstr "<bookmark_value>C.COSECH</bookmark_value><bookmark_value>cosecans hyperbolicus;complex getal</bookmark_value>"
 
 #. UfC7D
 #: func_imcsch.xhp
@@ -64816,7 +64816,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IMSEC function"
-msgstr "Functie C.SEC"
+msgstr "C.SEC"
 
 #. f8owi
 #: func_imsec.xhp
@@ -64825,7 +64825,7 @@ msgctxt ""
 "bm_id101862404332680\n"
 "help.text"
 msgid "<bookmark_value>IMSEC function</bookmark_value><bookmark_value>secant;complex number</bookmark_value>"
-msgstr "Functie <bookmark_value>C.SEC</bookmark_value><bookmark_value>secans;complex getal</bookmark_value>"
+msgstr "<bookmark_value>C.SEC</bookmark_value><bookmark_value>secans;complex getal</bookmark_value>"
 
 #. 4RBGx
 #: func_imsec.xhp
@@ -64906,7 +64906,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IMSECH function"
-msgstr "Functie C.SECH"
+msgstr "C.SECH"
 
 #. JATyW
 #: func_imsech.xhp
@@ -64915,7 +64915,7 @@ msgctxt ""
 "bm_id220201324724579\n"
 "help.text"
 msgid "<bookmark_value>IMSECH function</bookmark_value><bookmark_value>hyperbolic secant;complex number</bookmark_value>"
-msgstr "Functie <bookmark_value>C.SECH</bookmark_value><bookmark_value>secans hyperbolicus;complex getal</bookmark_value>"
+msgstr "<bookmark_value>C.SECH</bookmark_value><bookmark_value>secans hyperbolicus;complex getal</bookmark_value>"
 
 #. Gi6db
 #: func_imsech.xhp
@@ -64996,7 +64996,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IMSIN function"
-msgstr "Functie C.SIN"
+msgstr "C.SIN"
 
 #. AneK8
 #: func_imsin.xhp
@@ -65005,7 +65005,7 @@ msgctxt ""
 "bm_id79322063230162\n"
 "help.text"
 msgid "<bookmark_value>IMSIN function</bookmark_value><bookmark_value>sine;complex number</bookmark_value>"
-msgstr "Functie <bookmark_value>C.SIN</bookmark_value><bookmark_value>sinus;complex getal</bookmark_value>"
+msgstr "<bookmark_value>C.SIN</bookmark_value><bookmark_value>sinus;complex getal</bookmark_value>"
 
 #. KYCxa
 #: func_imsin.xhp
@@ -65014,7 +65014,7 @@ msgctxt ""
 "hd_id3192388765304\n"
 "help.text"
 msgid "<variable id=\"imsin_head\"><link href=\"text/scalc/01/func_imsin.xhp\">IMSIN</link></variable> function"
-msgstr "Functie <variable id=\"imsin_head\"><link href=\"text/scalc/01/func_imsin.xhp\">C.SIN</link></variable>"
+msgstr "<variable id=\"imsin_head\"><link href=\"text/scalc/01/func_imsin.xhp\">C.SIN</link></variable>"
 
 #. zpVj8
 #: func_imsin.xhp
@@ -65086,7 +65086,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IMSINH function"
-msgstr "Functie C.SINH"
+msgstr "C.SINH"
 
 #. SpvXc
 #: func_imsinh.xhp
@@ -65095,7 +65095,7 @@ msgctxt ""
 "bm_id79322063230162\n"
 "help.text"
 msgid "<bookmark_value>IMSINH function</bookmark_value><bookmark_value>hyperbolic sine;complex number</bookmark_value>"
-msgstr "<bookmark_value>functie C.SINH</bookmark_value><bookmark_value>hyperbolische sinus;complex getal</bookmark_value>"
+msgstr "<bookmark_value>C.SINH</bookmark_value><bookmark_value>hyperbolische sinus;complex getal</bookmark_value>"
 
 #. BUj3B
 #: func_imsinh.xhp
@@ -65104,7 +65104,7 @@ msgctxt ""
 "hd_id3192388765304\n"
 "help.text"
 msgid "<variable id=\"imsinh_head\"><link href=\"text/scalc/01/func_imsinh.xhp\">IMSINH</link></variable> function"
-msgstr "Functie <variable id=\"imsinh_head\"><link href=\"text/scalc/01/func_imsinh.xhp\">C.SINH</link></variable>"
+msgstr "<variable id=\"imsinh_head\"><link href=\"text/scalc/01/func_imsinh.xhp\">C.SINH</link></variable>"
 
 #. GK4WM
 #: func_imsinh.xhp
@@ -65176,7 +65176,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "IMTAN function"
-msgstr "Functie C.TAN"
+msgstr "C.TAN"
 
 #. fMSEq
 #: func_imtan.xhp
@@ -65185,7 +65185,7 @@ msgctxt ""
 "bm_id4210250889873\n"
 "help.text"
 msgid "<bookmark_value>IMTAN function</bookmark_value><bookmark_value>tangent;complex number</bookmark_value>"
-msgstr "<bookmark_value>functie C.TAN</bookmark_value><bookmark_value>tangens;complex getal</bookmark_value>"
+msgstr "<bookmark_value>C.TAN</bookmark_value><bookmark_value>tangens;complex getal</bookmark_value>"
 
 #. PmaMD
 #: func_imtan.xhp
@@ -65275,7 +65275,7 @@ msgctxt ""
 "bm_id3159161\n"
 "help.text"
 msgid "<bookmark_value>ISOWEEKNUM function</bookmark_value>"
-msgstr "<bookmark_value>ISOWEEKNUMMER-functie</bookmark_value>"
+msgstr "<bookmark_value>ISOWEEKNUMMER</bookmark_value>"
 
 #. PPej5
 #: func_isoweeknum.xhp
@@ -65356,7 +65356,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "JIS Function"
-msgstr "JIS-functie"
+msgstr "JIS"
 
 #. 5Qavf
 #: func_jis.xhp
@@ -65365,7 +65365,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>JIS function</bookmark_value>"
-msgstr "<bookmark_value>JIS-functie</bookmark_value>"
+msgstr "<bookmark_value>JIS</bookmark_value>"
 
 #. v8tni
 #: func_jis.xhp
@@ -65419,7 +65419,7 @@ msgctxt ""
 "par_id481637763523789\n"
 "help.text"
 msgid "Applying the JIS function to a string composed of double-byte characters will return the input string without any modifications."
-msgstr "Als u de JIS-functie toepast op een tekenreeks die bestaat uit dubbelbytetekens, wordt de invoertekenreeks zonder enige wijziging geretourneerd."
+msgstr "Als u de functie JIS toepast op een tekenreeks die bestaat uit dubbelbytetekens, wordt de invoertekenreeks zonder enige wijziging geretourneerd."
 
 #. BBEVj
 #: func_jis.xhp
@@ -65455,7 +65455,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "LEFT Function"
-msgstr "Functie LINKS"
+msgstr "LINKS"
 
 #. oSF47
 #: func_left.xhp
@@ -65464,7 +65464,7 @@ msgctxt ""
 "bm_id3147083\n"
 "help.text"
 msgid "<bookmark_value>LEFT function</bookmark_value>"
-msgstr "<bookmark_value>functie LINKS</bookmark_value>"
+msgstr "<bookmark_value>LINKS</bookmark_value>"
 
 #. nGpA3
 #: func_left.xhp
@@ -65536,7 +65536,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "LEFTB Function"
-msgstr "Functie LINKSB"
+msgstr "LINKSB"
 
 #. YGfnv
 #: func_leftb.xhp
@@ -65545,7 +65545,7 @@ msgctxt ""
 "bm_id2947083\n"
 "help.text"
 msgid "<bookmark_value>LEFTB function</bookmark_value>"
-msgstr "<bookmark_value>functie LINKSB</bookmark_value>"
+msgstr "<bookmark_value>LINKSB</bookmark_value>"
 
 #. b7UGd
 #: func_leftb.xhp
@@ -65644,7 +65644,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "LEN Function"
-msgstr "Functie LENGTE"
+msgstr "LENGTE"
 
 #. Mtva8
 #: func_len.xhp
@@ -65653,7 +65653,7 @@ msgctxt ""
 "bm_id3156110\n"
 "help.text"
 msgid "<bookmark_value>LEN function</bookmark_value>"
-msgstr "<bookmark_value>functie LENGTE</bookmark_value>"
+msgstr "<bookmark_value>LENGTE</bookmark_value>"
 
 #. U8XLL
 #: func_len.xhp
@@ -65725,7 +65725,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "LENB Function"
-msgstr "Functie LENGTEB"
+msgstr "LENGTEB"
 
 #. BAgAd
 #: func_lenb.xhp
@@ -65734,7 +65734,7 @@ msgctxt ""
 "bm_id2956110\n"
 "help.text"
 msgid "<bookmark_value>LENB function</bookmark_value>"
-msgstr "<bookmark_value>functie LENGTEB</bookmark_value>"
+msgstr "<bookmark_value>LENGTEB</bookmark_value>"
 
 #. jUtWq
 #: func_lenb.xhp
@@ -65824,7 +65824,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "LET function"
-msgstr "Functie LET"
+msgstr "LET"
 
 #. mp4Fy
 #: func_let.xhp
@@ -65833,7 +65833,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>LET function</bookmark_value>"
-msgstr "<bookmark_value>Functie LET</bookmark_value>"
+msgstr "<bookmark_value>LET</bookmark_value>"
 
 #. cUrJc
 #: func_let.xhp
@@ -65905,7 +65905,7 @@ msgctxt ""
 "par_id231717686233659\n"
 "help.text"
 msgid "<emph>Calculation</emph>: a formula expression that uses all names within the LET function."
-msgstr "<emph>Berekening</emph>: een formule-expressie die alle namen binnen de LET-functie gebruikt."
+msgstr "<emph>Berekening</emph>: een formule-expressie die alle namen binnen de functie LET gebruikt."
 
 #. AaFRL
 #: func_let.xhp
@@ -65914,7 +65914,7 @@ msgctxt ""
 "par_id91717686350018\n"
 "help.text"
 msgid "<emph>Calculation</emph> must be the last argument in the LET function."
-msgstr "<emph>Berekening</emph> moet het laatste argument in de LET-functie zijn."
+msgstr "<emph>Berekening</emph> moet het laatste argument in de functie LET zijn."
 
 #. vGdpF
 #: func_let.xhp
@@ -65950,7 +65950,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "LOWER Function"
-msgstr "Functie KLEINE.LETTERS"
+msgstr "KLEINE.LETTERS"
 
 #. HYskT
 #: func_lower.xhp
@@ -65959,7 +65959,7 @@ msgctxt ""
 "bm_id3153983\n"
 "help.text"
 msgid "<bookmark_value>LOWER function</bookmark_value>"
-msgstr "<bookmark_value>functie KLEINE.LETTERS</bookmark_value>"
+msgstr "<bookmark_value>KLEINE.LETTERS</bookmark_value>"
 
 #. CACmn
 #: func_lower.xhp
@@ -66022,7 +66022,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "MAXIFS function"
-msgstr "Functie MAX.ALS"
+msgstr "MAX.ALS"
 
 #. 8HdEW
 #: func_maxifs.xhp
@@ -66031,7 +66031,7 @@ msgctxt ""
 "bm_id658066580665806\n"
 "help.text"
 msgid "<bookmark_value>MAXIFS function</bookmark_value>  <bookmark_value>maximum;satisfying conditions</bookmark_value>"
-msgstr "<bookmark_value>MAX.ALS-functie</bookmark_value>  <bookmark_value>maximum; voorwaarden om aan te voldoen</bookmark_value>"
+msgstr "<bookmark_value>MAX.ALS</bookmark_value>  <bookmark_value>maximum; voorwaarden om aan te voldoen</bookmark_value>"
 
 #. kKHTn
 #: func_maxifs.xhp
@@ -66040,7 +66040,7 @@ msgctxt ""
 "hd_id658866588665886\n"
 "help.text"
 msgid "<variable id=\"maxifs_head\"><link href=\"text/scalc/01/func_maxifs.xhp\">MAXIFS</link></variable> function"
-msgstr "<variable id=\"maxifs_head\"><link href=\"text/scalc/01/func_maxifs.xhp\">MAX.ALS.VOORWAARDEN</link></variable> functie"
+msgstr "<variable id=\"maxifs_head\"><link href=\"text/scalc/01/func_maxifs.xhp\">MAX.ALS.VOORWAARDEN</link></variable>"
 
 #. DXshy
 #: func_maxifs.xhp
@@ -66067,7 +66067,7 @@ msgctxt ""
 "par_id59901690530236\n"
 "help.text"
 msgid "<emph>Func_Range</emph> – required argument. A range of cells, a name of a named range or a label of a column or a row containing values for calculating the maximum."
-msgstr "<emph>Functiebereik</emph> – vereist argument. Het is een reeks cellen, een naam van een benoemd bereik of een label van een kolom of een rij met waardes, voor de berekening van het gemiddelde."
+msgstr "<emph>Maximaal bereik</emph> – vereist argument. Het is een reeks cellen, een naam van een benoemd bereik of een label van een kolom of een rij met waardes, voor de berekening van het gemiddelde."
 
 #. BUavo
 #: func_maxifs.xhp
@@ -66175,7 +66175,7 @@ msgctxt ""
 "par_id50762995519951\n"
 "help.text"
 msgid "If you need to change a criterion easily, you may want to specify it in a separate cell and use a reference to this cell in the condition of the MAXIFS function. For example, the above function can be rewritten as follows:"
-msgstr "Als u een criterium gemakkelijk wilt wijzigen, kunt u dit in een afzonderlijke cel opgeven en een verwijzing naar deze cel gebruiken in de voorwaarde van de MAX.ALS-functie. De bovenstaande functie kan bijvoorbeeld als volgt worden herschreven:"
+msgstr "Als u een criterium gemakkelijk wilt wijzigen, kunt u dit in een afzonderlijke cel opgeven en een verwijzing naar deze cel gebruiken in de voorwaarde van de functie MAX.ALS. De bovenstaande functie kan bijvoorbeeld als volgt worden herschreven:"
 
 #. gcYDr
 #: func_maxifs.xhp
@@ -66211,7 +66211,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "MID Function"
-msgstr "Functie DEEL"
+msgstr "DEEL"
 
 #. GcvGy
 #: func_mid.xhp
@@ -66220,7 +66220,7 @@ msgctxt ""
 "bm_id3154589\n"
 "help.text"
 msgid "<bookmark_value>MID function</bookmark_value>"
-msgstr "<bookmark_value>functie DEEL</bookmark_value>"
+msgstr "<bookmark_value>DEEL</bookmark_value>"
 
 #. tzLD7
 #: func_mid.xhp
@@ -66292,7 +66292,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "MIDB Function"
-msgstr "Functie DEELB"
+msgstr "DEELB"
 
 #. AiJAG
 #: func_midb.xhp
@@ -66301,7 +66301,7 @@ msgctxt ""
 "bm_id2954589\n"
 "help.text"
 msgid "<bookmark_value>MIDB function</bookmark_value>"
-msgstr "<bookmark_value>functie DEELB</bookmark_value>"
+msgstr "<bookmark_value>DEELB</bookmark_value>"
 
 #. PEZYE
 #: func_midb.xhp
@@ -66463,7 +66463,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "MINIFS function"
-msgstr "Functie MIN.ALS.VOORWAARDEN"
+msgstr "MIN.ALS.VOORWAARDEN"
 
 #. V8Fu7
 #: func_minifs.xhp
@@ -66472,7 +66472,7 @@ msgctxt ""
 "bm_id658066580665806\n"
 "help.text"
 msgid "<bookmark_value>MINIFS function</bookmark_value>  <bookmark_value>minimum;satisfying conditions</bookmark_value>"
-msgstr "<bookmark_value>MIN.ALS.VOORWAARDEN-functie</bookmark_value>  <bookmark_value>minimum; voorwaarden om aan te voldoen</bookmark_value>"
+msgstr "<bookmark_value>MIN.ALS.VOORWAARDEN</bookmark_value>  <bookmark_value>minimum; voorwaarden om aan te voldoen</bookmark_value>"
 
 #. vnegG
 #: func_minifs.xhp
@@ -66481,7 +66481,7 @@ msgctxt ""
 "hd_id658866588665886\n"
 "help.text"
 msgid "<variable id=\"minifs_head\"><link href=\"text/scalc/01/func_minifs.xhp\">MINIFS</link></variable> function"
-msgstr "<variable id=\"minifs_head\"><link href=\"text/scalc/01/func_minifs.xhp\">MIN.ALS.VOORWAARDEN</link></variable> functie"
+msgstr "<variable id=\"minifs_head\"><link href=\"text/scalc/01/func_minifs.xhp\">MIN.ALS.VOORWAARDEN</link></variable>"
 
 #. PmaDA
 #: func_minifs.xhp
@@ -66508,7 +66508,7 @@ msgctxt ""
 "par_id59901690530236\n"
 "help.text"
 msgid "<emph>Func_Range</emph> – required argument. A range of cells, a name of a named range or a label of a column or a row containing values for calculating the minimum."
-msgstr "<emph>Functiebereik</emph> – vereist argument. Het is een reeks cellen, een naam van een benoemd bereik of een label van een kolom of een rij met waardes, voor de berekening van het minimum."
+msgstr "<emph>Maximaal bereik</emph> – vereist argument. Het is een reeks cellen, een naam van een benoemd bereik of een label van een kolom of een rij met waardes, voor de berekening van het minimum."
 
 #. KkDwL
 #: func_minifs.xhp
@@ -66661,7 +66661,7 @@ msgctxt ""
 "bm_id3149803\n"
 "help.text"
 msgid "<bookmark_value>MINUTE function</bookmark_value>"
-msgstr "<bookmark_value>MINUUT-functie</bookmark_value>"
+msgstr "<bookmark_value>MINUUT</bookmark_value>"
 
 #. aFbYG
 #: func_minute.xhp
@@ -66760,7 +66760,7 @@ msgctxt ""
 "bm_id3149936\n"
 "help.text"
 msgid "<bookmark_value>MONTH function</bookmark_value>"
-msgstr "<bookmark_value>MAAND-functie</bookmark_value>"
+msgstr "<bookmark_value>MAAND</bookmark_value>"
 
 #. oMx2Y
 #: func_month.xhp
@@ -66850,7 +66850,7 @@ msgctxt ""
 "bm_id231020162321219565\n"
 "help.text"
 msgid "<bookmark_value>NETWORKDAYS.INTL function</bookmark_value>"
-msgstr "<bookmark_value>NETWERKDAGEN.INTL-functie</bookmark_value>"
+msgstr "<bookmark_value>NETWERKDAGEN.INTL</bookmark_value>"
 
 #. 54nta
 #: func_networkdays.intl.xhp
@@ -66985,7 +66985,7 @@ msgctxt ""
 "bm_id3151254\n"
 "help.text"
 msgid "<bookmark_value>NETWORKDAYS function</bookmark_value>  <bookmark_value>NETWORKDAYS_EXCEL2003 function</bookmark_value>"
-msgstr "<bookmark_value>NETTO.WERKDAGEN functie</bookmark_value>  <bookmark_value>NETTO.WERKDAGEN_EXCEL2003 functie</bookmark_value>"
+msgstr "<bookmark_value>NETTO.WERKDAGEN</bookmark_value>  <bookmark_value>NETTO.WERKDAGEN_EXCEL2003</bookmark_value>"
 
 #. HzF8v
 #: func_networkdays.xhp
@@ -67111,7 +67111,7 @@ msgctxt ""
 "bm_id3150521\n"
 "help.text"
 msgid "<bookmark_value>NOW function</bookmark_value>"
-msgstr "<bookmark_value>NU-functie</bookmark_value>"
+msgstr "<bookmark_value>NU</bookmark_value>"
 
 #. n4jYR
 #: func_now.xhp
@@ -67183,7 +67183,7 @@ msgctxt ""
 "bm_id3145621\n"
 "help.text"
 msgid "<bookmark_value>NUMBERVALUE function</bookmark_value>"
-msgstr "<bookmark_value>NUMERIEKE.WAARDE-functie</bookmark_value>"
+msgstr "<bookmark_value>NUMERIEKE.WAARDE</bookmark_value>"
 
 #. GomzJ
 #: func_numbervalue.xhp
@@ -67318,7 +67318,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Function OPT_BARRIER"
-msgstr "Functie OPT_BARRIER"
+msgstr "OPT_BARRIER"
 
 #. 4HRGX
 #: func_opt_barrier.xhp
@@ -67327,7 +67327,7 @@ msgctxt ""
 "bm_id511575065323638\n"
 "help.text"
 msgid "<bookmark_value>OPT_BARRIER function</bookmark_value>"
-msgstr "<bookmark_value>OPT_BARRIER functie</bookmark_value>"
+msgstr "<bookmark_value>OPT_BARRIER</bookmark_value>"
 
 #. zrZgo
 #: func_opt_barrier.xhp
@@ -67417,7 +67417,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Function OPT_PROB_HIT"
-msgstr "Functie OPT_PROB_HIT"
+msgstr "OPT_PROB_HIT"
 
 #. 5Naq2
 #: func_opt_prob_hit.xhp
@@ -67426,7 +67426,7 @@ msgctxt ""
 "bm_id961575074485125\n"
 "help.text"
 msgid "<bookmark_value>OPT_PROB_HIT function</bookmark_value>"
-msgstr "<bookmark_value>OPT_PROB_HIT functie</bookmark_value>"
+msgstr "<bookmark_value>OPT_PROB_HIT</bookmark_value>"
 
 #. GaMLc
 #: func_opt_prob_hit.xhp
@@ -67525,7 +67525,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Function OPT_PROB_INMONEY"
-msgstr "Functie OPT_PROB_INMONEY"
+msgstr "OPT_PROB_INMONEY"
 
 #. QQBrZ
 #: func_opt_prob_inmoney.xhp
@@ -67534,7 +67534,7 @@ msgctxt ""
 "bm_id961575065633373\n"
 "help.text"
 msgid "<bookmark_value>OPT_PROB_INMONEY function</bookmark_value>"
-msgstr "<bookmark_value>OPT_PROB_INMONEY functie</bookmark_value>"
+msgstr "<bookmark_value>OPT_PROB_INMONEY</bookmark_value>"
 
 #. FZJEJ
 #: func_opt_prob_inmoney.xhp
@@ -67660,7 +67660,7 @@ msgctxt ""
 "bm_id951575065400504\n"
 "help.text"
 msgid "<bookmark_value>OPT_TOUCH function</bookmark_value>"
-msgstr "<bookmark_value>OPT_TOUCH functie</bookmark_value>"
+msgstr "<bookmark_value>OPT_TOUCH</bookmark_value>"
 
 #. VoAwu
 #: func_opt_touch.xhp
@@ -67939,7 +67939,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "PROPER Function"
-msgstr "Functie BEGINLETTERS"
+msgstr "BEGINLETTERS"
 
 #. QNR9b
 #: func_proper.xhp
@@ -67948,7 +67948,7 @@ msgctxt ""
 "bm_id3159143\n"
 "help.text"
 msgid "<bookmark_value>PROPER function</bookmark_value>"
-msgstr "<bookmark_value>functie BEGINLETTERS</bookmark_value>"
+msgstr "<bookmark_value>BEGINLETTERS</bookmark_value>"
 
 #. YAZJb
 #: func_proper.xhp
@@ -68011,7 +68011,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "RANDARRAY function"
-msgstr "Functie RANDMATRIX"
+msgstr "RANDMATRIX"
 
 #. 2CEfW
 #: func_randarray.xhp
@@ -68020,7 +68020,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>RANDARRAY function</bookmark_value>"
-msgstr "<bookmark_value>Functie ASELECT.MATRIX</bookmark_value>"
+msgstr "<bookmark_value>ASELECT.MATRIX</bookmark_value>"
 
 #. 42Cqg
 #: func_randarray.xhp
@@ -68101,7 +68101,7 @@ msgctxt ""
 "par_id821708357634624\n"
 "help.text"
 msgid "If <emph>Rows</emph> and <emph>Columns</emph> are greater than 1, the RANDARRAY function must be entered as an <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">array formula</link>."
-msgstr "Als <emph>Rijen</emph> en <emph>Kolommen</emph> groter zijn dan 1, moet de ASELECT.MATRIX-functie worden ingevoerd als een <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">matrixformule</link>."
+msgstr "Als <emph>Rijen</emph> en <emph>Kolommen</emph> groter zijn dan 1, moet de functie ASELECT.MATRIX worden ingevoerd als een <link href=\"text/scalc/01/04060107.xhp#creating_array_formulas\">matrixformule</link>."
 
 #. QgdBu
 #: func_randarray.xhp
@@ -68137,7 +68137,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "RAWSUBTRACT function"
-msgstr "Functie VERMINDEREN.RUW"
+msgstr "VERMINDEREN.RUW"
 
 #. JTmpK
 #: func_rawsubtract.xhp
@@ -68146,7 +68146,7 @@ msgctxt ""
 "bm_2016112109230\n"
 "help.text"
 msgid "<bookmark_value>rawsubtract;subtraction</bookmark_value>        <bookmark_value>RAWSUBTRACT function</bookmark_value>"
-msgstr "<bookmark_value>rawsubtract;aftrekking</bookmark_value>            <bookmark_value>VERMINDEREN.RUW functie</bookmark_value>"
+msgstr "<bookmark_value>rawsubtract;aftrekking</bookmark_value>            <bookmark_value>VERMINDEREN.RUW</bookmark_value>"
 
 #. e3VEx
 #: func_rawsubtract.xhp
@@ -68245,7 +68245,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "REGEX Function"
-msgstr "Functie REGEX"
+msgstr "REGEX"
 
 #. yZJB8
 #: func_regex.xhp
@@ -68254,7 +68254,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>REGEX function</bookmark_value>            <bookmark_value>regular expressions;extracting in spreadsheets</bookmark_value>            <bookmark_value>regular expressions;REGEX function</bookmark_value>"
-msgstr "<bookmark_value>REGEX function</bookmark_value>            <bookmark_value>reguliere expressies;extraheren in werkbladen</bookmark_value>            <bookmark_value>reguliere expressies;REGEX-functie</bookmark_value>"
+msgstr "<bookmark_value>REGEX</bookmark_value>            <bookmark_value>reguliere expressies;extraheren in werkbladen</bookmark_value>            <bookmark_value>reguliere expressies;REGEX</bookmark_value>"
 
 #. nqtH7
 #: func_regex.xhp
@@ -68281,7 +68281,7 @@ msgctxt ""
 "par_id701542231253817\n"
 "help.text"
 msgid "REGEX( Text ; Expression [ ; [ Replacement ] [ ; Flags|Occurrence ] ] )"
-msgstr "REGEX( Tekst ; Expressie ; Vervanging (optioneel); Kenteken of voorkomen (optioneel))"
+msgstr "REGEX( \"Tekst\"; Expressie; \"Vervanging\" (optioneel); \"Kenteken of voorkomen\" (optioneel))"
 
 #. VbMmQ
 #: func_regex.xhp
@@ -68407,7 +68407,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "REPLACE Function"
-msgstr "Functie VERVANGEN"
+msgstr "VERVANGEN"
 
 #. BHxCA
 #: func_replace.xhp
@@ -68416,7 +68416,7 @@ msgctxt ""
 "bm_id3149171\n"
 "help.text"
 msgid "<bookmark_value>REPLACE function</bookmark_value>"
-msgstr "<bookmark_value>functie VERVANGEN</bookmark_value>"
+msgstr "<bookmark_value>VERVANGEN</bookmark_value>"
 
 #. VzkbA
 #: func_replace.xhp
@@ -68515,7 +68515,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "REPLACEB Function"
-msgstr "VERVANGENB Functie"
+msgstr "VERVANGENB"
 
 #. GfVed
 #: func_replaceb.xhp
@@ -68524,7 +68524,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>REPLACEB Function</bookmark_value>            <bookmark_value>replace text;REPLACEB Function</bookmark_value>"
-msgstr "<bookmark_value>VERVANGENB Functie</bookmark_value>            <bookmark_value>vervang tekst;VERVANGENB Functie</bookmark_value>"
+msgstr "<bookmark_value>VERVANGENB</bookmark_value>            <bookmark_value>vervang tekst;VERVANGENB</bookmark_value>"
 
 #. FH3yx
 #: func_replaceb.xhp
@@ -68614,7 +68614,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "REPT Function"
-msgstr "Functie HERHALING"
+msgstr "HERHALING"
 
 #. PhioX
 #: func_rept.xhp
@@ -68623,7 +68623,7 @@ msgctxt ""
 "bm_id3149741\n"
 "help.text"
 msgid "<bookmark_value>REPT function</bookmark_value>"
-msgstr "<bookmark_value>functie HERHALING</bookmark_value>"
+msgstr "<bookmark_value>HERHALING</bookmark_value>"
 
 #. j6qYH
 #: func_rept.xhp
@@ -68695,7 +68695,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "RIGHT Function"
-msgstr "Functie RECHTS"
+msgstr "RECHTS"
 
 #. gPsVk
 #: func_right.xhp
@@ -68704,7 +68704,7 @@ msgctxt ""
 "bm_id3149805\n"
 "help.text"
 msgid "<bookmark_value>RIGHT function</bookmark_value>"
-msgstr "<bookmark_value>functie RECHTS</bookmark_value>"
+msgstr "<bookmark_value>RECHTS</bookmark_value>"
 
 #. L3Amc
 #: func_right.xhp
@@ -68731,7 +68731,7 @@ msgctxt ""
 "par_id3154344\n"
 "help.text"
 msgid "RIGHT(\"Text\" [; Number])"
-msgstr "RECHTS(Tekst; Getal (optioneel))"
+msgstr "RECHTS(\"Tekst\"; Getal (optioneel))"
 
 #. wiB9R
 #: func_right.xhp
@@ -68776,7 +68776,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "RIGHTB Function"
-msgstr "Functie RECHTSB"
+msgstr "RECHTSB"
 
 #. KkbGX
 #: func_rightb.xhp
@@ -68785,7 +68785,7 @@ msgctxt ""
 "bm_id2949805\n"
 "help.text"
 msgid "<bookmark_value>RIGHTB function</bookmark_value>"
-msgstr "<bookmark_value>functie RECHTSB</bookmark_value>"
+msgstr "<bookmark_value>RECHTSB</bookmark_value>"
 
 #. nhEQs
 #: func_rightb.xhp
@@ -68812,7 +68812,7 @@ msgctxt ""
 "par_id2954344\n"
 "help.text"
 msgid "RIGHTB(\"Text\" [; Number_bytes])"
-msgstr "RECHTSB(Tekst; Getal (optioneel))"
+msgstr "RECHTSB(\"Tekst\"; Getal (optioneel))"
 
 #. BADAS
 #: func_rightb.xhp
@@ -68884,7 +68884,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ROMAN Function"
-msgstr "ROMEINS functie"
+msgstr "ROMEINS"
 
 #. JqcvP
 #: func_roman.xhp
@@ -68893,7 +68893,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>ROMAN function</bookmark_value>      <bookmark_value>text functions;convert to roman numbers</bookmark_value>"
-msgstr "<bookmark_value>ROMEINS functie</bookmark_value>      <bookmark_value>tekstfuncties;naar Romeinse cijfers converteren</bookmark_value>"
+msgstr "<bookmark_value>ROMEINS</bookmark_value>      <bookmark_value>tekstfuncties;naar Romeinse cijfers converteren</bookmark_value>"
 
 #. aXrXe
 #: func_roman.xhp
@@ -69019,7 +69019,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ROUNDDOWN function"
-msgstr "AFRONDEN.NAAR.BENEDEN-functie"
+msgstr "AFRONDEN.NAAR.BENEDEN"
 
 #. riRPe
 #: func_rounddown.xhp
@@ -69028,7 +69028,7 @@ msgctxt ""
 "bm_id3156384\n"
 "help.text"
 msgid "<bookmark_value>ROUNDDOWN function</bookmark_value>    <bookmark_value>numbers;rounding down</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.NAAR.BENEDEN-functie</bookmark_value>    <bookmark_value>getallen;afronden naar beneden</bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.NAAR.BENEDEN</bookmark_value>    <bookmark_value>getallen;afronden naar beneden</bookmark_value>"
 
 #. bsAG8
 #: func_rounddown.xhp
@@ -69055,7 +69055,7 @@ msgctxt ""
 "par_id701642530512560\n"
 "help.text"
 msgid "This function is equivalent to the <link href=\"text/scalc/01/func_trunc.xhp\">TRUNC function</link>."
-msgstr "Deze functie is gelijk aan de <link href=\"text/scalc/01/func_trunc.xhp\">GEHEEL-functie</link>."
+msgstr "Deze functie is gelijk aan <link href=\"text/scalc/01/func_trunc.xhp\">GEHEEL</link>."
 
 #. soLKp
 #: func_rounddown.xhp
@@ -69154,7 +69154,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "ROUNDSIG Function"
-msgstr "Functie AFRONDEN.SIG"
+msgstr "AFRONDEN.SIG"
 
 #. XV5Md
 #: func_roundsig.xhp
@@ -69163,7 +69163,7 @@ msgctxt ""
 "bm_id151519154954070\n"
 "help.text"
 msgid "<bookmark_value>ROUNDSIG Function</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.SIG-functie</bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.SIG</bookmark_value>"
 
 #. 9awrC
 #: func_roundsig.xhp
@@ -69280,7 +69280,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SEARCH Function"
-msgstr "Functie VIND.SPEC"
+msgstr "VIND.SPEC"
 
 #. GHKiH
 #: func_search.xhp
@@ -69289,7 +69289,7 @@ msgctxt ""
 "bm_id3151005\n"
 "help.text"
 msgid "<bookmark_value>SEARCH function</bookmark_value>"
-msgstr "<bookmark_value>functie VIND.SPEC</bookmark_value>"
+msgstr "<bookmark_value>VIND.SPEC</bookmark_value>"
 
 #. Xm32t
 #: func_search.xhp
@@ -69370,7 +69370,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SEARCHB Function"
-msgstr "ZOEKENB Functie"
+msgstr "ZOEKENB"
 
 #. ennrh
 #: func_searchb.xhp
@@ -69379,7 +69379,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>SEARCHB Function</bookmark_value>            <bookmark_value>search text;SEARCHB Function</bookmark_value>"
-msgstr "<bookmark_value>ZOEKENB Functie</bookmark_value>            <bookmark_value>tekst zoeken;ZOEKENB Functie</bookmark_value>"
+msgstr "<bookmark_value>ZOEKENB</bookmark_value>            <bookmark_value>tekst zoeken;ZOEKENB</bookmark_value>"
 
 #. JbAGD
 #: func_searchb.xhp
@@ -69469,7 +69469,7 @@ msgctxt ""
 "bm_id3159390\n"
 "help.text"
 msgid "<bookmark_value>SECOND function</bookmark_value>"
-msgstr "<bookmark_value>SECONDE-functie</bookmark_value>"
+msgstr "<bookmark_value>SECONDE</bookmark_value>"
 
 #. YBYRJ
 #: func_second.xhp
@@ -69550,7 +69550,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SEQUENCE function"
-msgstr "Functie REEKS"
+msgstr "REEKS"
 
 #. Wvq6Q
 #: func_sequence.xhp
@@ -69559,7 +69559,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>SEQUENCE function</bookmark_value>"
-msgstr "<bookmark_value>Functie REEKS</bookmark_value>"
+msgstr "<bookmark_value>REEKS</bookmark_value>"
 
 #. PpKCo
 #: func_sequence.xhp
@@ -69676,7 +69676,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SKEWP function"
-msgstr "SCHEEFHEID.P-functie"
+msgstr "SCHEEFHEID.P"
 
 #. fFaLh
 #: func_skewp.xhp
@@ -69685,7 +69685,7 @@ msgctxt ""
 "bm_id1102201617201921\n"
 "help.text"
 msgid "<bookmark_value>skewness;population</bookmark_value>  <bookmark_value>SKEWP function</bookmark_value>"
-msgstr "<bookmark_value>scheefheid;populatie</bookmark_value> <bookmark_value>SCHEEFHEID.P-functie</bookmark_value>"
+msgstr "<bookmark_value>scheefheid;populatie</bookmark_value> <bookmark_value>SCHEEFHEID.P</bookmark_value>"
 
 #. Xv6GF
 #: func_skewp.xhp
@@ -69766,7 +69766,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SORT function"
-msgstr "Functie SORTEREN"
+msgstr "SORTEREN"
 
 #. Zo6YN
 #: func_sort.xhp
@@ -69775,7 +69775,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>SORT function</bookmark_value>"
-msgstr "<bookmark_value>Functie SORTEREN</bookmark_value>"
+msgstr "<bookmark_value>SORTEREN</bookmark_value>"
 
 #. Ra8Tv
 #: func_sort.xhp
@@ -70009,7 +70009,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SORTBY function"
-msgstr "Functie SORTERENOP"
+msgstr "SORTERENOP"
 
 #. u8gwR
 #: func_sortby.xhp
@@ -70018,7 +70018,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>SORTBY function</bookmark_value>"
-msgstr "<bookmark_value>Functie SORTERENOP</bookmark_value>"
+msgstr "<bookmark_value>SORTERENOP</bookmark_value>"
 
 #. AcwQa
 #: func_sortby.xhp
@@ -70108,7 +70108,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "STYLE function"
-msgstr "functie OPMAAKPROFIEL"
+msgstr "OPMAAKPROFIEL"
 
 #. rQpNt
 #: func_style.xhp
@@ -70117,7 +70117,7 @@ msgctxt ""
 "bm_id346793467934121\n"
 "help.text"
 msgid "<bookmark_value>STYLE function</bookmark_value>"
-msgstr "<bookmark_value>functie Opmaakprofiel</bookmark_value>"
+msgstr "<bookmark_value>Opmaakprofiel</bookmark_value>"
 
 #. 6AhEB
 #: func_style.xhp
@@ -70270,7 +70270,7 @@ msgctxt ""
 "par_id631673379195650\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060109.xhp\">Spreadsheet Functions</link>"
-msgstr "<link href=\"text/scalc/01/04060109.xhp\">werkbladfuncties</link>"
+msgstr "<link href=\"text/scalc/01/04060109.xhp\">Werkbladfuncties</link>"
 
 #. VZ5Ga
 #: func_style.xhp
@@ -70288,7 +70288,7 @@ msgctxt ""
 "par_id461673376361959\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060104.xhp#func_current_description\">CURRENT function</link>"
-msgstr "<link href=\"text/scalc/01/04060104.xhp#func_current_description\">functie HUIDIG</link>"
+msgstr "<link href=\"text/scalc/01/04060104.xhp#func_current_description\">HUIDIG</link>"
 
 #. L6tnb
 #: func_style.xhp
@@ -70297,7 +70297,7 @@ msgctxt ""
 "par_id381673378944042\n"
 "help.text"
 msgid "<link href=\"text/scalc/01/04060110.xhp#t\">T function</link>"
-msgstr "<link href=\"text/scalc/01/04060110.xhp#t\">functie T</link>"
+msgstr "<link href=\"text/scalc/01/04060110.xhp#t\">T</link>"
 
 #. xxYvx
 #: func_substitute.xhp
@@ -70306,7 +70306,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SUBSTITUTE Function"
-msgstr "Functie SUBSTITUEREN"
+msgstr "SUBSTITUEREN"
 
 #. CrTUg
 #: func_substitute.xhp
@@ -70315,7 +70315,7 @@ msgctxt ""
 "bm_id3154830\n"
 "help.text"
 msgid "<bookmark_value>SUBSTITUTE function</bookmark_value>"
-msgstr "<bookmark_value>functie SUBSTITUEREN</bookmark_value>"
+msgstr "<bookmark_value>SUBSTITUEREN</bookmark_value>"
 
 #. X5G9u
 #: func_substitute.xhp
@@ -70414,7 +70414,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SUM Function"
-msgstr "SOM-functie"
+msgstr "SOM"
 
 #. fLyVA
 #: func_sum.xhp
@@ -70423,7 +70423,7 @@ msgctxt ""
 "id431636401649762\n"
 "help.text"
 msgid "<bookmark_value>SUM function</bookmark_value>      <bookmark_value>adding;numbers in cell ranges</bookmark_value>"
-msgstr "<bookmark_value>SOM-functie</bookmark_value>      <bookmark_value>toevoegen;getallen in celbereiken</bookmark_value>"
+msgstr "<bookmark_value>SOM</bookmark_value>      <bookmark_value>toevoegen;getallen in celbereiken</bookmark_value>"
 
 #. jDti4
 #: func_sum.xhp
@@ -70504,7 +70504,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SUMIF Function"
-msgstr "Functie SOM.ALS"
+msgstr "SOM.ALS"
 
 #. c4KFv
 #: func_sumif.xhp
@@ -70513,7 +70513,7 @@ msgctxt ""
 "bm_id3151957\n"
 "help.text"
 msgid "<bookmark_value>SUMIF function</bookmark_value>      <bookmark_value>adding;specified numbers</bookmark_value>"
-msgstr "<bookmark_value>Functie SOM.ALS</bookmark_value>      <bookmark_value>toevoegen;opgegeven getallen</bookmark_value>"
+msgstr "<bookmark_value>SOM.ALS</bookmark_value>      <bookmark_value>toevoegen;opgegeven getallen</bookmark_value>"
 
 #. aJCj8
 #: func_sumif.xhp
@@ -70738,7 +70738,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SUMIFS function"
-msgstr "SOMMEN.ALS-functie"
+msgstr "SOMMEN.ALS"
 
 #. jDeBL
 #: func_sumifs.xhp
@@ -70747,7 +70747,7 @@ msgctxt ""
 "bm_id658066580665806\n"
 "help.text"
 msgid "<bookmark_value>SUMIFS function</bookmark_value>  <bookmark_value>sum;satisfying conditions</bookmark_value>"
-msgstr "<bookmark_value>SOMMEN.ALS-functie</bookmark_value>  <bookmark_value>aantal;voorwaarden om aan te voldoen</bookmark_value>"
+msgstr "<bookmark_value>SOMMEN.ALS</bookmark_value>  <bookmark_value>aantal;voorwaarden om aan te voldoen</bookmark_value>"
 
 #. MpUwQ
 #: func_sumifs.xhp
@@ -70891,7 +70891,7 @@ msgctxt ""
 "par_id50762995519951\n"
 "help.text"
 msgid "If you need to change a criterion easily, you may want to specify it in a separate cell and use a reference to this cell in the condition of the SUMIFS function. For example, the above function can be rewritten as follows:"
-msgstr "Als u een criterium gemakkelijk moet kunnen veranderen, kunt u dit in een aparte cel opvoeren en gebruik maken van een verwijzing naar deze cel in de voorwaarde van de AANTAL.ALS-functie. De bovenstaande functie kan bijvoorbeeld als volgt worden herschreven:"
+msgstr "Als u een criterium gemakkelijk moet kunnen veranderen, kunt u dit in een aparte cel opvoeren en gebruik maken van een verwijzing naar deze cel in de voorwaarde van de functie AANTAL.ALS. De bovenstaande functie kan bijvoorbeeld als volgt worden herschreven:"
 
 #. U2wwM
 #: func_sumifs.xhp
@@ -70927,7 +70927,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SWITCH function"
-msgstr "SCHAKELEN functie"
+msgstr "SCHAKELEN"
 
 #. 5ALMt
 #: func_switch.xhp
@@ -70936,7 +70936,7 @@ msgctxt ""
 "bm_id571556244875552\n"
 "help.text"
 msgid "<bookmark_value>SWITCH function</bookmark_value>"
-msgstr "<bookmark_value>SCHAKELEN functie</bookmark_value>"
+msgstr "<bookmark_value>SCHAKELEN</bookmark_value>"
 
 #. F6kQd
 #: func_switch.xhp
@@ -71053,7 +71053,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "T Function"
-msgstr "Functie T"
+msgstr "T"
 
 #. CDrDp
 #: func_t.xhp
@@ -71062,7 +71062,7 @@ msgctxt ""
 "bm_id3148977\n"
 "help.text"
 msgid "<bookmark_value>T function</bookmark_value>"
-msgstr "<bookmark_value>functie T</bookmark_value>"
+msgstr "<bookmark_value>T</bookmark_value>"
 
 #. BzaQX
 #: func_t.xhp
@@ -71143,7 +71143,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TAKE function"
-msgstr "Functie NEMEN"
+msgstr "NEMEN"
 
 #. 7FEnC
 #: func_take.xhp
@@ -71152,7 +71152,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>TAKE function</bookmark_value>"
-msgstr "<bookmark_value>Functie NEMEN</bookmark_value>"
+msgstr "<bookmark_value>NEMEN</bookmark_value>"
 
 #. pB7UF
 #: func_take.xhp
@@ -71179,7 +71179,7 @@ msgctxt ""
 "par_id851737751444186\n"
 "help.text"
 msgid "=TAKE(Array; Rows [; Columns])"
-msgstr "=NEMEN(Matrix; Rijen [; Kolommen])"
+msgstr "NEMEN(Matrix; Rijen (optioneel); Kolommen (optioneel))"
 
 #. A2PcT
 #: func_take.xhp
@@ -71251,7 +71251,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TEXT Function"
-msgstr "Functie TEKST"
+msgstr "TEKST"
 
 #. sDzKW
 #: func_text.xhp
@@ -71260,7 +71260,7 @@ msgctxt ""
 "bm_id3147132\n"
 "help.text"
 msgid "<bookmark_value>TEXT function</bookmark_value>"
-msgstr "<bookmark_value>functie TEKST</bookmark_value>"
+msgstr "<bookmark_value>TEKST</bookmark_value>"
 
 #. xpCVP
 #: func_text.xhp
@@ -71359,7 +71359,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TEXTAFTER function"
-msgstr "Functie TEKST.NA"
+msgstr "TEKST.NA"
 
 #. yXYYE
 #: func_textafter.xhp
@@ -71368,7 +71368,7 @@ msgctxt ""
 "bm_id581556228060864\n"
 "help.text"
 msgid "<bookmark_value>TEXTAFTER function</bookmark_value>"
-msgstr "<bookmark_value>Functie TEKST.NA</bookmark_value>"
+msgstr "<bookmark_value>TEKST.NA</bookmark_value>"
 
 #. rogfF
 #: func_textafter.xhp
@@ -71485,7 +71485,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TEXTBEFORE function"
-msgstr "Functie TEKST.VOOR"
+msgstr "TEKST.VOOR"
 
 #. rsKft
 #: func_textbefore.xhp
@@ -71494,7 +71494,7 @@ msgctxt ""
 "bm_id581556228060864\n"
 "help.text"
 msgid "<bookmark_value>TEXTBEFORE function</bookmark_value>"
-msgstr "<bookmark_value>Functie TEKST.VOOR</bookmark_value>"
+msgstr "<bookmark_value>TEKST.VOOR</bookmark_value>"
 
 #. LDGA7
 #: func_textbefore.xhp
@@ -71611,7 +71611,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TEXTJOIN function"
-msgstr "TEKST.COMBINEREN functie"
+msgstr "TEKST.COMBINEREN"
 
 #. EFTkc
 #: func_textjoin.xhp
@@ -71620,7 +71620,7 @@ msgctxt ""
 "bm_id581556228060864\n"
 "help.text"
 msgid "<bookmark_value>TEXTJOIN function</bookmark_value>"
-msgstr "<bookmark_value>TEKST.COMBINEREN functie</bookmark_value>"
+msgstr "<bookmark_value>TEKST.COMBINEREN</bookmark_value>"
 
 #. FoNni
 #: func_textjoin.xhp
@@ -71755,7 +71755,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TEXTSPLIT function"
-msgstr "Functie TEKST.SPLITSEN"
+msgstr "TEKST.SPLITSEN"
 
 #. BjPEy
 #: func_textsplit.xhp
@@ -71764,7 +71764,7 @@ msgctxt ""
 "bm_id581556228060864\n"
 "help.text"
 msgid "<bookmark_value>TEXTSPLIT function</bookmark_value>"
-msgstr "<bookmark_value>Functie TEKST.SPLITSEN</bookmark_value>"
+msgstr "<bookmark_value>TEKST.SPLITSEN</bookmark_value>"
 
 #. mCixC
 #: func_textsplit.xhp
@@ -71890,7 +71890,7 @@ msgctxt ""
 "bm_id3154073\n"
 "help.text"
 msgid "<bookmark_value>TIME function</bookmark_value>"
-msgstr "<bookmark_value>TIJD-functie</bookmark_value>"
+msgstr "<bookmark_value>TIJD</bookmark_value>"
 
 #. ivxiA
 #: func_time.xhp
@@ -71989,7 +71989,7 @@ msgctxt ""
 "bm_id3146755\n"
 "help.text"
 msgid "<bookmark_value>TIMEVALUE function</bookmark_value>"
-msgstr "<bookmark_value>TIJDWAARDE-functie</bookmark_value>"
+msgstr "<bookmark_value>TIJDWAARDE</bookmark_value>"
 
 #. KvCZT
 #: func_timevalue.xhp
@@ -72079,7 +72079,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TOCOL function"
-msgstr "Functie NAAR.KOLOM"
+msgstr "NAAR.KOLOM"
 
 #. GRyGe
 #: func_tocol.xhp
@@ -72088,7 +72088,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>TOCOL function</bookmark_value>"
-msgstr "<bookmark_value>Functie NAAR.KOLOM</bookmark_value>"
+msgstr "<bookmark_value>NAAR.KOLOM</bookmark_value>"
 
 #. 774mk
 #: func_tocol.xhp
@@ -72115,7 +72115,7 @@ msgctxt ""
 "par_id851737751444186\n"
 "help.text"
 msgid "TOCOL(Array [; Ignore [; By_column]])"
-msgstr "NAAR.KOLOM(Matrix [; Negeren [; Per_kolom]])"
+msgstr "NAAR.KOLOM(Matrix; Negeren (optioneel); Per kolom (optioneel))"
 
 #. DzGBX
 #: func_tocol.xhp
@@ -72178,7 +72178,7 @@ msgctxt ""
 "par_id771737751844889\n"
 "help.text"
 msgid "<emph>By_column</emph>: (optional) Scan the array by column. By default, the array is scanned by row. Scanning determines whether the values are ordered by row or by column."
-msgstr "<emph>Per_kolom</emph>: (optioneel) Scan de matrix per kolom. Standaard wordt de matrix per rij gescand. Bij het scannen wordt bepaald of de waardes per rij of per kolom worden gesorteerd."
+msgstr "<emph>Per kolom</emph>: (optioneel) Scan de matrix per kolom. Standaard wordt de matrix per rij gescand. Bij het scannen wordt bepaald of de waardes per rij of per kolom worden gesorteerd."
 
 #. ffBcv
 #: func_tocol.xhp
@@ -72232,7 +72232,7 @@ msgctxt ""
 "bm_id3145659\n"
 "help.text"
 msgid "<bookmark_value>TODAY function</bookmark_value>"
-msgstr "<bookmark_value>VANDAAG-functie</bookmark_value>"
+msgstr "<bookmark_value>VANDAAG</bookmark_value>"
 
 #. akBrZ
 #: func_today.xhp
@@ -72295,7 +72295,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TOROW function"
-msgstr "Functie NAAR.RIJ"
+msgstr "NAAR.RIJ"
 
 #. hADta
 #: func_torow.xhp
@@ -72304,7 +72304,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>TOROW function</bookmark_value>"
-msgstr "<bookmark_value>Functie NAAR.RIJ</bookmark_value>"
+msgstr "<bookmark_value>NAAR.RIJ</bookmark_value>"
 
 #. e4D64
 #: func_torow.xhp
@@ -72331,7 +72331,7 @@ msgctxt ""
 "par_id851737751444186\n"
 "help.text"
 msgid "=TOROW(Array [; Ignore [;By_column]])"
-msgstr "=NAAR.RIJ(Matrix [; Negeren [;Per_kolom]])"
+msgstr "=NAAR.RIJ(Matrix; Negeren (optioneel);Per kolom (optioneel))"
 
 #. 7D5aC
 #: func_torow.xhp
@@ -72385,7 +72385,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TRIM Function"
-msgstr "Functie SPATIES.WISSEN"
+msgstr "SPATIES.WISSEN"
 
 #. qGbzP
 #: func_trim.xhp
@@ -72394,7 +72394,7 @@ msgctxt ""
 "bm_id3151039\n"
 "help.text"
 msgid "<bookmark_value>TRIM function</bookmark_value>"
-msgstr "<bookmark_value>functie SPATIES.WISSEN</bookmark_value>"
+msgstr "<bookmark_value>SPATIES.WISSEN</bookmark_value>"
 
 #. 2muVb
 #: func_trim.xhp
@@ -72457,7 +72457,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "TRUNC function"
-msgstr "GEHEEL-functie"
+msgstr "GEHEEL"
 
 #. UkBEB
 #: func_trunc.xhp
@@ -72466,7 +72466,7 @@ msgctxt ""
 "bm_id3156384\n"
 "help.text"
 msgid "<bookmark_value>TRUNC function</bookmark_value>    <bookmark_value>decimal places;cutting off</bookmark_value>    <bookmark_value>numbers;truncate</bookmark_value>"
-msgstr "<bookmark_value>GEHEEL-functie</bookmark_value>    <bookmark_value>aantal decimalen;afsnijden</bookmark_value>    <bookmark_value>getallen;afkappen</bookmark_value>"
+msgstr "<bookmark_value>GEHEEL</bookmark_value>    <bookmark_value>aantal decimalen;afsnijden</bookmark_value>    <bookmark_value>getallen;afkappen</bookmark_value>"
 
 #. GEtHZ
 #: func_trunc.xhp
@@ -72493,7 +72493,7 @@ msgctxt ""
 "par_id701642530512560\n"
 "help.text"
 msgid "This function is equivalent to the <link href=\"text/scalc/01/func_rounddown.xhp\">ROUNDDOWN function</link>."
-msgstr "Deze functie is gelijk aan de <link href=\"text/scalc/01/func_rounddown.xhp\">AFRONDEN.NAAR.BENEDEN-functie</link>."
+msgstr "Deze functie is gelijk aan <link href=\"text/scalc/01/func_rounddown.xhp\">AFRONDEN.NAAR.BENEDEN</link>."
 
 #. BRUDb
 #: func_trunc.xhp
@@ -72502,7 +72502,7 @@ msgctxt ""
 "par_id321641927458888\n"
 "help.text"
 msgid "The rounding method used by this function is known as <emph>rounding towards zero</emph>. The magnitude of the resulting number will always be less than or equal to the original number."
-msgstr "De afrondingsmethode die door deze functie wordt gebruikt, staat bekend als <emph>afronding naar nul</emph>. De grootte van het resulterende getal zal altijd kleiner zijn dan of gelijk zijn aan het oorspronkelijke getal."
+msgstr "De afrondingsmethode die door deze functie wordt gebruikt, staat bekend als <emph>Afronding naar nul</emph>. De grootte van het resulterende getal zal altijd kleiner zijn dan of gelijk zijn aan het oorspronkelijke getal."
 
 #. SqCQv
 #: func_trunc.xhp
@@ -72592,7 +72592,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "UNICHAR Function"
-msgstr "Functie UNITEKEN"
+msgstr "UNITEKEN"
 
 #. 3zqhJ
 #: func_unichar.xhp
@@ -72601,7 +72601,7 @@ msgctxt ""
 "bm_id0907200904030935\n"
 "help.text"
 msgid "<bookmark_value>UNICHAR function</bookmark_value>"
-msgstr "<bookmark_value>functie UNITEKEN</bookmark_value>"
+msgstr "<bookmark_value>UNITEKEN</bookmark_value>"
 
 #. 9mKWE
 #: func_unichar.xhp
@@ -72655,7 +72655,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "UNICODE Function"
-msgstr "Functie UNICODE"
+msgstr "UNICODE"
 
 #. ABEuV
 #: func_unicode.xhp
@@ -72664,7 +72664,7 @@ msgctxt ""
 "bm_id0907200904033543\n"
 "help.text"
 msgid "<bookmark_value>UNICODE function</bookmark_value>"
-msgstr "<bookmark_value>functie UNICODE</bookmark_value>"
+msgstr "<bookmark_value>UNICODE</bookmark_value>"
 
 #. u4oVH
 #: func_unicode.xhp
@@ -72718,7 +72718,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "UNIQUE function"
-msgstr "Functie UNIEK"
+msgstr "UNIEK"
 
 #. CeV2j
 #: func_unique.xhp
@@ -72727,7 +72727,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>UNIQUE function</bookmark_value>"
-msgstr "<bookmark_value>Functie UNIEK</bookmark_value>"
+msgstr "<bookmark_value>UNIEK</bookmark_value>"
 
 #. RcWgN
 #: func_unique.xhp
@@ -72880,7 +72880,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "UPPER Function"
-msgstr "Functie HOOFDLETTERS"
+msgstr "HOOFDLETTERS"
 
 #. HcyJf
 #: func_upper.xhp
@@ -72889,7 +72889,7 @@ msgctxt ""
 "bm_id3145178\n"
 "help.text"
 msgid "<bookmark_value>UPPER function</bookmark_value>"
-msgstr "<bookmark_value>Functie HOOFDLETTERS</bookmark_value>"
+msgstr "<bookmark_value>HOOFDLETTERS</bookmark_value>"
 
 #. STjUA
 #: func_upper.xhp
@@ -72952,7 +72952,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "VALUE Function"
-msgstr "WAARDE-functie"
+msgstr "WAARDE"
 
 #. D5EDU
 #: func_value.xhp
@@ -72961,7 +72961,7 @@ msgctxt ""
 "bm_id831542233029549\n"
 "help.text"
 msgid "<bookmark_value>VALUE function</bookmark_value>      <bookmark_value>text functions;convert text to numeric value</bookmark_value>"
-msgstr "<bookmark_value>Waarde-functie</bookmark_value>      <bookmark_value>tekstfuncties;converteer tekst naar numerieke waarde</bookmark_value>"
+msgstr "<bookmark_value>Waarde</bookmark_value>      <bookmark_value>tekstfuncties;converteer tekst naar numerieke waarde</bookmark_value>"
 
 #. F39J8
 #: func_value.xhp
@@ -73087,7 +73087,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "VSTACK function"
-msgstr "functie VERT.STAPELEN"
+msgstr "VERT.STAPELEN"
 
 #. MEU7Q
 #: func_vstack.xhp
@@ -73096,7 +73096,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>VSTACK function</bookmark_value>"
-msgstr "<bookmark_value>functie VERT.STAPELEN</bookmark_value>"
+msgstr "<bookmark_value>VERT.STAPELEN</bookmark_value>"
 
 #. oQLBE
 #: func_vstack.xhp
@@ -73177,7 +73177,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "URI Functions"
-msgstr "URI-functies"
+msgstr "URI"
 
 #. xmV2h
 #: func_webservice.xhp
@@ -73204,7 +73204,7 @@ msgctxt ""
 "bm_id3149012\n"
 "help.text"
 msgid "<bookmark_value>WEBSERVICE function</bookmark_value>"
-msgstr "<bookmark_value>WEBSERVICE-functie</bookmark_value>"
+msgstr "<bookmark_value>WEBSERVICE</bookmark_value>"
 
 #. 4hhWq
 #: func_webservice.xhp
@@ -73429,7 +73429,7 @@ msgctxt ""
 "bm_id3154925\n"
 "help.text"
 msgid "<bookmark_value>WEEKDAY function</bookmark_value>"
-msgstr "<bookmark_value>WEEKDAG-functie</bookmark_value>"
+msgstr "<bookmark_value>WEEKDAG</bookmark_value>"
 
 #. 9jDCy
 #: func_weekday.xhp
@@ -73683,7 +73683,7 @@ msgctxt ""
 "bm_id3159161\n"
 "help.text"
 msgid "<bookmark_value>WEEKNUM function</bookmark_value>"
-msgstr "<bookmark_value>WEEKNUMMER-functie</bookmark_value>"
+msgstr "<bookmark_value>WEEKNUMMER</bookmark_value>"
 
 #. E8jrM
 #: func_weeknum.xhp
@@ -73998,7 +73998,7 @@ msgctxt ""
 "bm_id3159161\n"
 "help.text"
 msgid "<bookmark_value>WEEKNUM_OOO function</bookmark_value>"
-msgstr "<bookmark_value>WEEKNUMMER_OOO-functie</bookmark_value>"
+msgstr "<bookmark_value>WEEKNUMMER_OOO</bookmark_value>"
 
 #. BFsEh
 #: func_weeknum_ooo.xhp
@@ -74124,7 +74124,7 @@ msgctxt ""
 "bm_id3166443\n"
 "help.text"
 msgid "<bookmark_value>WEEKNUM_EXCEL2003 function</bookmark_value>"
-msgstr "<bookmark_value>WEEKNUMMER_EXCEL2003-functie</bookmark_value>"
+msgstr "<bookmark_value>WEEKNUMMER_EXCEL2003</bookmark_value>"
 
 #. VFR8E
 #: func_weeknumadd.xhp
@@ -74223,7 +74223,7 @@ msgctxt ""
 "bm_id231020162341219565\n"
 "help.text"
 msgid "<bookmark_value>WORKDAY.INTL function</bookmark_value>"
-msgstr "<bookmark_value>WERKDAG.INT-functie</bookmark_value>"
+msgstr "<bookmark_value>WERKDAG.INT</bookmark_value>"
 
 #. nVE73
 #: func_workday.intl.xhp
@@ -74403,7 +74403,7 @@ msgctxt ""
 "bm_id3149012\n"
 "help.text"
 msgid "<bookmark_value>WORKDAY function</bookmark_value>"
-msgstr "<bookmark_value>WERKDAG-functie</bookmark_value>"
+msgstr "<bookmark_value>WERKDAG</bookmark_value>"
 
 #. 9vsBW
 #: func_workday.xhp
@@ -74502,7 +74502,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "WRAPCOLS function"
-msgstr "Functie OMLOOP.KOLOMMEN"
+msgstr "OMLOOP.KOLOMMEN"
 
 #. 8MDGd
 #: func_wrapcols.xhp
@@ -74511,7 +74511,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>WRAPCOLS function</bookmark_value>"
-msgstr "<bookmark_value>Functie OMLOOP.KOLOMMEN</bookmark_value>"
+msgstr "<bookmark_value>OMLOOP.KOLOMMEN</bookmark_value>"
 
 #. S6WJW
 #: func_wrapcols.xhp
@@ -74592,7 +74592,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "WRAPROWS function"
-msgstr "Functie OMLOOP.RIJEN"
+msgstr "OMLOOP.RIJEN"
 
 #. BGSi7
 #: func_wraprows.xhp
@@ -74601,7 +74601,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>WRAPROWS function</bookmark_value>"
-msgstr "<bookmark_value>Functie OMLOOP.RIJEN</bookmark_value>"
+msgstr "<bookmark_value>OMLOOP.RIJEN</bookmark_value>"
 
 #. J7CpA
 #: func_wraprows.xhp
@@ -74682,7 +74682,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "XLOOKUP Function"
-msgstr "Functie XZOEKEN"
+msgstr "XZOEKEN"
 
 #. EFZfF
 #: func_xlookup.xhp
@@ -74691,7 +74691,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>XLOOKUP function</bookmark_value>"
-msgstr "<bookmark_value>Functie XZOEKEN</bookmark_value>"
+msgstr "<bookmark_value>XZOEKEN</bookmark_value>"
 
 #. DDESR
 #: func_xlookup.xhp
@@ -74943,7 +74943,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "XMATCH Function"
-msgstr "Functie XOVEREENKOMST"
+msgstr "XOVEREENKOMST"
 
 #. Q8WY3
 #: func_xmatch.xhp
@@ -74952,7 +74952,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>XMATCH function</bookmark_value>"
-msgstr "<bookmark_value>Functie XOVEREENKOMST</bookmark_value>"
+msgstr "<bookmark_value>XOVEREENKOMST</bookmark_value>"
 
 #. Y5Xci
 #: func_xmatch.xhp
@@ -75105,7 +75105,7 @@ msgctxt ""
 "bm_id3153982\n"
 "help.text"
 msgid "<bookmark_value>YEAR function</bookmark_value>"
-msgstr "<bookmark_value>JAAR-functie</bookmark_value>"
+msgstr "<bookmark_value>JAAR</bookmark_value>"
 
 #. 3RaCk
 #: func_year.xhp
@@ -75213,7 +75213,7 @@ msgctxt ""
 "bm_id3148735\n"
 "help.text"
 msgid "<bookmark_value>YEARFRAC function</bookmark_value>"
-msgstr "<bookmark_value>JAAR.DEEL-functie</bookmark_value>"
+msgstr "<bookmark_value>JAAR.DEEL</bookmark_value>"
 
 #. iWGEg
 #: func_yearfrac.xhp
@@ -80838,7 +80838,7 @@ msgctxt ""
 "par_id1003900\n"
 "help.text"
 msgid "#DIV/0!"
-msgstr "#DIV/0!"
+msgstr "#DELING.DOOR.0!"
 
 #. BiBJi
 #: statistics_test_z.xhp
@@ -80856,7 +80856,7 @@ msgctxt ""
 "par_id1003920\n"
 "help.text"
 msgid "#DIV/0!"
-msgstr "#DIV/0!"
+msgstr "#DELING.DOOR.0!"
 
 #. 2NUBk
 #: statistics_test_z.xhp
@@ -80883,7 +80883,7 @@ msgctxt ""
 "par_id1003960\n"
 "help.text"
 msgid "#DIV/0!"
-msgstr "#DIV/0!"
+msgstr "#DELING.DOOR.0!"
 
 #. NCMYu
 #: statistics_test_z.xhp
