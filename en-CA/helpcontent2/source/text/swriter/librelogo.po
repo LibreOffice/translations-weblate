@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2023-12-04 15:07+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2025-10-18 09:55+0000\n"
+"Last-Translator: Robert Pearson <rob.dunedin@gmail.com>\n"
+"Language-Team: English (Canada) <https://translations.documentfoundation.org/projects/libo_help-master/textswriterlibrelogo/en_CA/>\n"
 "Language: en-CA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.10.1\n"
 
 #. kypzs
 #: LibreLogo.xhp
@@ -228,7 +229,7 @@ msgctxt ""
 "par_415\n"
 "help.text"
 msgid "Turtle shape of LibreLogo is a normal fixed size drawing object. You can position and rotate it on standard way, too, using the mouse and the Rotate icon of the Drawing Object Properties toolbar. Modify Line Thickness, Line Color and Area Color settings of the turtle shape to set PENSIZE, PENCOLOR and FILLCOLOR attributes of LibreLogo."
-msgstr "Turtle shape of LibreLogo is a normal fixed size drawing object. You can position and rotate it on standard way, too, using the mouse and the Rotate icon of the Drawing Object Properties toolbar. Modify Line Thickness, Line Color and Area Color settings of the turtle shape to set PENSIZE, PENCOLOR and FILLCOLOR attributes of LibreLogo."
+msgstr "Turtle shape of LibreLogo is a normal fixed size drawing object. You can position and rotate it on standard way, too, using the mouse and the Rotate icon of the Drawing Object Properties toolbar. Modify Line Thickness, Line Colour and Area Colour settings of the turtle shape to set PENSIZE, PENCOLOR and FILLCOLOR attributes of LibreLogo."
 
 #. fqYbT
 #: LibreLogo.xhp
@@ -435,7 +436,7 @@ msgctxt ""
 "par_640\n"
 "help.text"
 msgid "PRINT FILLCOLOR<br/> p = POSITION<br/> PRINT p<br/> REPEAT 10 [ POSITION ANY POSITION p ]<br/>"
-msgstr "PRINT FILLCOLOR<br/> p = POSITION<br/> PRINT p<br/> REPEAT 10 [ POSITION ANY POSITION p ]<br/>"
+msgstr "PRINT FILLCOLOUR<br/> p = POSITION<br/> PRINT p<br/> REPEAT 10 [ POSITION ANY POSITION p ]<br/>"
 
 #. DPDpi
 #: LibreLogo.xhp
@@ -489,7 +490,7 @@ msgctxt ""
 "par_700\n"
 "help.text"
 msgid "Commands, color constants are case insensitive:"
-msgstr "Commands, color constants are case insensitive:"
+msgstr "Commands, colour constants are case insensitive:"
 
 #. jAEzT
 #: LibreLogo.xhp
@@ -930,7 +931,7 @@ msgctxt ""
 "par_1150\n"
 "help.text"
 msgid "PENCOLOR “red” ; set red pen color (by color name, see color constants)<br/> PENCOLOR [255, 255, 0] ; set yellow color (RGB list)<br/> PENCOLOR 0xffff00 ; set yellow color (hexa code)<br/> PENCOLOR 0 ; set black color (0x000000)<br/> PENCOLOR ANY ; random color<br/> PENCOLOR [5] ; set red color (by color identifier, see color constants)<br/> PENCOLOR “invisible” ; invisible pen color for shapes without visible outline<br/> PENCOLOR “~red” ; set random red color<br/>"
-msgstr "PENCOLOR “red” ; set red pen color (by color name, see color constants)<br/> PENCOLOR [255, 255, 0] ; set yellow color (RGB list)<br/> PENCOLOR 0xffff00 ; set yellow color (hexa code)<br/> PENCOLOR 0 ; set black color (0x000000)<br/> PENCOLOR ANY ; random color<br/> PENCOLOR [5] ; set red color (by color identifier, see color constants)<br/> PENCOLOR “invisible” ; invisible pen color for shapes without visible outline<br/> PENCOLOR “~red” ; set random red color<br/>"
+msgstr "PENCOLOUR “red” ; set red pen colour (by colour name, see colour constants)<br/> PENCOLOUR [255, 255, 0] ; set yellow colour (RGB list)<br/> PENCOLOUR 0xffff00 ; set yellow colour (hexa code)<br/> PENCOLOUR 0 ; set black colour (0x000000)<br/> PENCOLOUR ANY ; random colour<br/> PENCOLOUR [5] ; set red colour (by colour identifier, see colour constants)<br/> PENCOLOUR “invisible” ; invisible pen colour for shapes without visible outline<br/> PENCOLOUR “~red” ; set random red colour<br/>"
 
 #. DDRa6
 #: LibreLogo.xhp
@@ -948,7 +949,7 @@ msgctxt ""
 "par_1152\n"
 "help.text"
 msgid "PENTRANSPARENCY 80 ; set the transparency of the actual pen color to 80%<br/>"
-msgstr "PENTRANSPARENCY 80 ; set the transparency of the actual pen color to 80%<br/>"
+msgstr "PENTRANSPARENCY 80 ; set the transparency of the actual pen colour to 80%<br/>"
 
 #. aMsXi
 #: LibreLogo.xhp
@@ -1029,7 +1030,7 @@ msgctxt ""
 "par_1220\n"
 "help.text"
 msgid "FILLCOLOR “blue” ; fill with blue color, see also PENCOLOR<br/> FILLCOLOR “invisible” CIRCLE 10 ; unfilled circle<br/> FILLCOLOR [“blue”, “red”] ; gradient between red and blue<br/> FILLCOLOR [[255, 255, 255], [255, 128, 0]] ; between white and orange<br/> FILLCOLOR [“blue”, “red”, 1, 0, 0] ; set axial gradient (with the required rotation and border settings), possible values: 0-5 = linear, axial, radial, elliptical, square and rectangle gradients<br/> FILLCOLOR [“red”, “blue”, 0, 90, 20] ; linear with 20% border, rotated with 90 degrees from the actual heading of the turtle<br/> FILLCOLOR [“red”, “blue”, 0, 90, 20, 0, 0, 200, 50] ; from 200% to 50% intensity<br/> FILLCOLOR [ANY, ANY, 2, 0, 0, 50, 50] ; radial gradient with random colors and 50-50% horizontal and vertical positions of the center<br/>"
-msgstr "FILLCOLOR “blue” ; fill with blue color, see also PENCOLOR<br/> FILLCOLOR “invisible” CIRCLE 10 ; unfilled circle<br/> FILLCOLOR [“blue”, “red”] ; gradient between red and blue<br/> FILLCOLOR [[255, 255, 255], [255, 128, 0]] ; between white and orange<br/> FILLCOLOR [“blue”, “red”, 1, 0, 0] ; set axial gradient (with the required rotation and border settings), possible values: 0-5 = linear, axial, radial, elliptical, square and rectangle gradients<br/> FILLCOLOR [“red”, “blue”, 0, 90, 20] ; linear with 20% border, rotated with 90 degrees from the actual heading of the turtle<br/> FILLCOLOR [“red”, “blue”, 0, 90, 20, 0, 0, 200, 50] ; from 200% to 50% intensity<br/> FILLCOLOR [ANY, ANY, 2, 0, 0, 50, 50] ; radial gradient with random colors and 50-50% horizontal and vertical positions of the center<br/>"
+msgstr "FILLCOLOUR “blue” ; fill with blue colour, see also PENCOLOUR<br/> FILLCOLOUR “invisible” CIRCLE 10 ; unfilled circle<br/> FILLCOLOUR [“blue”, “red”] ; gradient between red and blue<br/> FILLCOLOUR [[255, 255, 255], [255, 128, 0]] ; between white and orange<br/> FILLCOLOUR [“blue”, “red”, 1, 0, 0] ; set axial gradient (with the required rotation and border settings), possible values: 0-5 = linear, axial, radial, elliptical, square and rectangle gradients<br/> FILLCOLOUR [“red”, “blue”, 0, 90, 20] ; linear with 20% border, rotated with 90 degrees from the actual heading of the turtle<br/> FILLCOLOUR [“red”, 'blue”, 0, 90, 20, 0, 0, 200, 50] ; from 200% to 50% intensity<br/> FILLCOLOUR [ANY, ANY, 2, 0, 0, 50, 50] ; radial gradient with random colours and 50-50% horizontal and vertical positions of the centre<br/>"
 
 #. vhN7n
 #: LibreLogo.xhp
@@ -1047,7 +1048,7 @@ msgctxt ""
 "par_1226\n"
 "help.text"
 msgid "FILLTRANSPARENCY 80 ; set the transparency of the actual fill color to 80%<br/> FILLTRANSPARENCY [80] ; set linear transparency gradient from 80% to 0%<br/> FILLTRANSPARENCY [80, 20] ; set linear transparency gradient from 80% to 20%<br/> FILLTRANSPARENCY [80, 20, 1, 90] ; set axial transparency gradient rotated with 90 degrees from the actual heading of the turtle<br/> FILLTRANSPARENCY [80, 20, 2, 0, 20, 50, 50] ; set radial transparency gradient from outer 80% to inner 20% transparency with 20% border and with 50-50% horizontal and vertical positions of the center<br/>"
-msgstr "FILLTRANSPARENCY 80 ; set the transparency of the actual fill color to 80%<br/> FILLTRANSPARENCY [80] ; set linear transparency gradient from 80% to 0%<br/> FILLTRANSPARENCY [80, 20] ; set linear transparency gradient from 80% to 20%<br/> FILLTRANSPARENCY [80, 20, 1, 90] ; set axial transparency gradient rotated with 90 degrees from the actual heading of the turtle<br/> FILLTRANSPARENCY [80, 20, 2, 0, 20, 50, 50] ; set radial transparency gradient from outer 80% to inner 20% transparency with 20% border and with 50-50% horizontal and vertical positions of the center<br/>"
+msgstr "FILLTRANSPARENCY 80 ; set the transparency of the actual fill colour to 80%<br/> FILLTRANSPARENCY [80] ; set linear transparency gradient from 80% to 0%<br/> FILLTRANSPARENCY [80, 20] ; set linear transparency gradient from 80% to 20%<br/> FILLTRANSPARENCY [80, 20, 1, 90] ; set axial transparency gradient rotated with 90 degrees from the actual heading of the turtle<br/> FILLTRANSPARENCY [80, 20, 2, 0, 20, 50, 50] ; set radial transparency gradient from outer 80% to inner 20% transparency with 20% border and with 50-50% horizontal and vertical positions of the centre<br/>"
 
 #. 9dQuv
 #: LibreLogo.xhp
@@ -1065,7 +1066,7 @@ msgctxt ""
 "par_1240\n"
 "help.text"
 msgid "FILLSTYLE 0 ; fill without hatches (default)<br/> FILLSTYLE 1 ; black single hatches (horizontal)<br/> FILLSTYLE 2 ; black single hatches (45 degrees)<br/> FILLSTYLE 3 ; black single hatches (-45 degrees)<br/> FILLSTYLE 4 ; black single hatches (vertical)<br/> FILLSTYLE 5 ; red crossed hatches (45 degrees)<br/> FILLSTYLE 6 ; red crossed hatches (0 degrees)<br/> FILLSTYLE 7 ; blue crossed hatches (45 degrees)<br/> FILLSTYLE 8 ; blue crossed hatches (0 degrees)<br/> FILLSTYLE 9 ; blue triple crossed<br/> FILLSTYLE 10 ; black wide single hatches (45 degrees)<br/> <br/> ; custom hatches specified by a list with the following arguments:<br/> ; – style (1 = single, 2 = double, 3 = triple hatching)<br/> ; – color<br/> ; – distance<br/> ; – degree<br/> <br/> FILLSTYLE [2, “green”, 3pt, 15°] ; green crossed hatches (15 degrees)<br/>"
-msgstr "FILLSTYLE 0 ; fill without hatches (default)<br/> FILLSTYLE 1 ; black single hatches (horizontal)<br/> FILLSTYLE 2 ; black single hatches (45 degrees)<br/> FILLSTYLE 3 ; black single hatches (-45 degrees)<br/> FILLSTYLE 4 ; black single hatches (vertical)<br/> FILLSTYLE 5 ; red crossed hatches (45 degrees)<br/> FILLSTYLE 6 ; red crossed hatches (0 degrees)<br/> FILLSTYLE 7 ; blue crossed hatches (45 degrees)<br/> FILLSTYLE 8 ; blue crossed hatches (0 degrees)<br/> FILLSTYLE 9 ; blue triple crossed<br/> FILLSTYLE 10 ; black wide single hatches (45 degrees)<br/> <br/> ; custom hatches specified by a list with the following arguments:<br/> ; – style (1 = single, 2 = double, 3 = triple hatching)<br/> ; – color<br/> ; – distance<br/> ; – degree<br/> <br/> FILLSTYLE [2, “green”, 3pt, 15°] ; green crossed hatches (15 degrees)<br/>"
+msgstr "FILLSTYLE 0 ; fill without hatches (default)<br/> FILLSTYLE 1 ; black single hatches (horizontal)<br/> FILLSTYLE 2 ; black single hatches (45 degrees)<br/> FILLSTYLE 3 ; black single hatches (-45 degrees)<br/> FILLSTYLE 4 ; black single hatches (vertical)<br/> FILLSTYLE 5 ; red crossed hatches (45 degrees)<br/> FILLSTYLE 6 ; red crossed hatches (0 degrees)<br/> FILLSTYLE 7 ; blue crossed hatches (45 degrees)<br/> FILLSTYLE 8 ; blue crossed hatches (0 degrees)<br/> FILLSTYLE 9 ; blue triple crossed<br/> FILLSTYLE 10 ; black wide single hatches (45 degrees)<br/> <br/> ; custom hatches specified by a list with the following arguments:<br/> ; – style (1 = single, 2 = double, 3 = triple hatching)<br/> ; – colour<br/> ; – distance<br/> ; – degree<br/> <br/> FILLSTYLE [2, “green”, 3pt, 15°] ; green crossed hatches (15 degrees)<br/>"
 
 #. S9sEF
 #: LibreLogo.xhp
@@ -1164,7 +1165,7 @@ msgctxt ""
 "par_1350\n"
 "help.text"
 msgid "POINT ; draw a point with size and color of the pen<br/>"
-msgstr "POINT ; draw a point with size and color of the pen<br/>"
+msgstr "POINT ; draw a point with size and colour of the pen<br/>"
 
 #. rTcpT
 #: LibreLogo.xhp
@@ -1245,7 +1246,7 @@ msgctxt ""
 "par_1420\n"
 "help.text"
 msgid "FONTCOLOR “green” ; set font color<br/>"
-msgstr "FONTCOLOR “green” ; set font color<br/>"
+msgstr "FONTCOLOUR “green” ; set font colour<br/>"
 
 #. 4qRMC
 #: LibreLogo.xhp
@@ -1839,7 +1840,7 @@ msgctxt ""
 "par_2030\n"
 "help.text"
 msgid "Default random value of colors, etc."
-msgstr "Default random value of colors, etc."
+msgstr "Default random value of colours, etc."
 
 #. vmg8Q
 #: LibreLogo.xhp
@@ -1848,7 +1849,7 @@ msgctxt ""
 "par_2040\n"
 "help.text"
 msgid "PENCOLOR ANY ; random pen color<br/>"
-msgstr "PENCOLOR ANY ; random pen color<br/>"
+msgstr "PENCOLOUR ANY ; random pen colour<br/>"
 
 #. kAgtw
 #: LibreLogo.xhp
@@ -2469,7 +2470,7 @@ msgctxt ""
 "hd_2710\n"
 "help.text"
 msgid "Color constants"
-msgstr "Color constants"
+msgstr "Colour constants"
 
 #. PdoH2
 #: LibreLogo.xhp
@@ -2478,7 +2479,7 @@ msgctxt ""
 "par_2720\n"
 "help.text"
 msgid "PENCOLOR “SILVER” ; set by name<br/> PENCOLOR [1] ; set by identifiers<br/> PENCOLOR “~SILVER” ; random silver color<br/> <br/>"
-msgstr "PENCOLOR “SILVER” ; set by name<br/> PENCOLOR [1] ; set by identifiers<br/> PENCOLOR “~SILVER” ; random silver color<br/> <br/>"
+msgstr "PENCOLOUR “SILVER” ; set by name<br/> PENCOLOUR [1] ; set by identifiers<br/> PENCOLOUR “~SILVER” ; random silver colour<br/> <br/>"
 
 #. qTgAw
 #: LibreLogo.xhp

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-10-07 13:32+0200\n"
-"PO-Revision-Date: 2025-10-17 09:30+0000\n"
+"PO-Revision-Date: 2025-10-18 09:54+0000\n"
 "Last-Translator: Henk van der Burg <h.vdburg@hccnet.nl>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -6008,7 +6008,7 @@ msgctxt ""
 "par_id3150654\n"
 "help.text"
 msgid "When entering dates as part of formulas, slashes or dashes used as date separators are interpreted as arithmetic operators. Therefore, dates entered in this format are not recognized as dates and result in erroneous calculations. To keep dates from being interpreted as parts of formulas use the DATE function, for example, DATE(1954;7;20), or place the date in quotation marks and use the ISO 8601 notation, for example, \"1954-07-20\". Avoid using locale dependent date formats such as \"07/20/54\", the calculation may produce errors if the document is loaded under different locale settings."
-msgstr "Wanneer datums onderdeel van een formule zijn, worden schuine strepen of koppeltekens als scheidingstekens gebruikt. Daarom worden datums, die in deze opmaak worden ingevoerd, niet als datums herkend en leidt dit tot foutieve onderdeel van de formule geïnterpreteerd worden. Bijvoorbeeld DATUM(1954;7;20) of plaats de datum tussen aanhalingstekens volgens de ISO 8601-notatie, bijvoorbeeld \"1954-07-20\". Vermijd het gebruik van locale afhankelijke datum formaten zoals \"07/20/54\". De berekening kan fouten opleveren als het document geladen wordt met andere lokale instellingen."
+msgstr ""
 
 #. ABYsg
 #: 04060102.xhp
@@ -6017,7 +6017,7 @@ msgctxt ""
 "par_id571535118151091\n"
 "help.text"
 msgid "Unambiguous conversion is possible for ISO 8601 dates and times in their extended formats with separators. If a <emph>#VALUE!</emph> error occurs, then unselect <emph>Generate #VALUE! error</emph> in <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline> <emph>- %PRODUCTNAME Calc - Formula</emph>, button <emph>Details...</emph> in section \"Detailed Calculation Settings\", <emph>Conversion from text to number</emph> list box."
-msgstr "Een eenduidige conversie is mogelijk voor ISO 8601 datums en tijden in hun uitgebreide formaten met scheidingstekens. Als een <emph>#WAARDE!</emph>-fout optreedt, dan deselecteert u <emph>Algemene fout #WAARDE!</emph> in <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Voorkeuren</emph></caseinline><defaultinline><emph>Extra - Opties</emph></defaultinline></switchinline> <emph>- %PRODUCTNAME Calc - Formule</emph>, knop <emph>Details...</emph> in sectie\"Gedetailleerde berekeningsinstellingen\", <emph>Aangepast (conversie van tekst naar getallen en meer)</emph> list box."
+msgstr ""
 
 #. sJKAX
 #: 04060102.xhp
@@ -8645,7 +8645,7 @@ msgctxt ""
 "bm_id31470811\n"
 "help.text"
 msgid "<bookmark_value>IFERROR function</bookmark_value>  <bookmark_value>testing;general errors</bookmark_value>"
-msgstr "<bookmark_value>ALS.FOUT functie</bookmark_value>  <bookmark_value>testen;algemene fouten</bookmark_value>"
+msgstr "<bookmark_value>Functie ALS.FOUT</bookmark_value>  <bookmark_value>testen;algemene fouten</bookmark_value>"
 
 #. DWG3v
 #: 04060104.xhp
@@ -10733,7 +10733,7 @@ msgctxt ""
 "bm_id3156256\n"
 "help.text"
 msgid "<bookmark_value>TRUE function</bookmark_value>"
-msgstr "<bookmark_value>WAAR-functie</bookmark_value>"
+msgstr "<bookmark_value>Functie WAAR</bookmark_value>"
 
 #. dRCa6
 #: 04060105.xhp
@@ -10778,7 +10778,7 @@ msgctxt ""
 "par_id3083285\n"
 "help.text"
 msgid "<item type=\"input\">=AND(A;B)</item> returns FALSE"
-msgstr "<item type=\"input\">=ALS(A1>5;100;\"te klein\")</item> Als de waarde in A1 groter is dan 5, wordt de waarde 100 geretourneerd. Anders wordt de tekst te klein geretourneerd."
+msgstr "<item type=\"input\">=EN(A;B)</item> retourneert ONWAAR"
 
 #. vAGKt
 #: 04060105.xhp
@@ -10787,7 +10787,7 @@ msgctxt ""
 "par_id3083444\n"
 "help.text"
 msgid "<item type=\"input\">=OR(A;B)</item> returns TRUE"
-msgstr "<item type=\"input\">=ALS(A1>5;;\"te klein\")</item> Als de waarde in A1 groter is dan 5, wordt de waarde 0 geretourneerd, omdat lege parameters als 0 worden beschouwd. Anders wordt de tekst te klein geretourneerd."
+msgstr "<item type=\"input\">=OF(A;B)</item> retourneert WAAR"
 
 #. BcGUg
 #: 04060105.xhp
@@ -10796,7 +10796,7 @@ msgctxt ""
 "par_id3154314\n"
 "help.text"
 msgid "<item type=\"input\">=NOT(AND(A;B))</item> returns TRUE"
-msgstr "<item type=\"input\">=ALS(A1>5;100;)</item> Als de waarde in A1 kleiner is dan 5, wordt de waarde 0 geretourneerd omdat de lege Waarde als onwaar wordt geïnterpreteerd als 0; anders wordt 100 geretourneerd."
+msgstr "<item type=\"input\">=NIET(EN(A;B))</item> retourneert WAAR"
 
 #. 7bq9r
 #: 04060105.xhp
@@ -18682,7 +18682,7 @@ msgctxt ""
 "par_id3153095\n"
 "help.text"
 msgid "SHEET([Reference])"
-msgstr "BLAD([Verwijzing] (optioneel))"
+msgstr "BLAD(Verwijzing (optioneel))"
 
 #. 9yCD8
 #: 04060109.xhp
@@ -18745,7 +18745,7 @@ msgctxt ""
 "par_id3150777\n"
 "help.text"
 msgid "SHEETS([Reference])"
-msgstr "BLADEN([Verwijzing] (optioneel))"
+msgstr "BLADEN(Verwijzing (optioneel))"
 
 #. 5B3KF
 #: 04060109.xhp
@@ -22579,7 +22579,7 @@ msgctxt ""
 "par_id3148753\n"
 "help.text"
 msgid "BIN2HEX(Number [; Places])"
-msgstr "BIN.N.HEX(Binair getal [; Aantal tekens (optioneel)])"
+msgstr "BIN.N.HEX(\"Binair getal\"; Aantal tekens (optioneel))"
 
 #. E5CYC
 #: 04060115.xhp
@@ -22642,7 +22642,7 @@ msgctxt ""
 "par_id3154508\n"
 "help.text"
 msgid "BIN2OCT(Number [; Places])"
-msgstr "BIN.N.OCT(Binair getal[; Aantal tekens (optioneel)])"
+msgstr "BIN.N.OCT(\"Binair getal\"; Aantal tekens (optioneel))"
 
 #. DbdiF
 #: 04060115.xhp
@@ -25648,7 +25648,7 @@ msgctxt ""
 "par_id3149585\n"
 "help.text"
 msgid "COUPDAYS(Settlement; Maturity; Frequency [; Basis])"
-msgstr "COUP.DAGEN(Aankoopdatum; Vervaldatum; Aantal rentebetalingen; Soort jaar (optioneel))"
+msgstr "COUP.DAGEN(\"Aankoopdatum\"; \"Vervaldatum\"; Aantal rentebetalingen; Soort jaar (optioneel))"
 
 #. UuJui
 #: 04060118.xhp
@@ -25729,7 +25729,7 @@ msgctxt ""
 "par_id3155121\n"
 "help.text"
 msgid "COUPDAYSNC(Settlement; Maturity; Frequency [; Basis])"
-msgstr "COUP.DAGEN.VV(Aankoopdatum; Vervaldatum; Aantal rentebetalingen; Soort jaar (optioneel))"
+msgstr "COUP.DAGEN.VV(\"Aankoopdatum\"; \"Vervaldatum\"; Aantal rentebetalingen; Soort jaar (optioneel))"
 
 #. ECNxY
 #: 04060118.xhp
@@ -25810,7 +25810,7 @@ msgctxt ""
 "par_id3159083\n"
 "help.text"
 msgid "COUPDAYBS(Settlement; Maturity; Frequency [; Basis])"
-msgstr "COUP.DAGEN.BB(Aankoopdatum; Vervaldatum; Aantal rentebetalingen; Soort jaar (optioneel))"
+msgstr "COUP.DAGEN.BB(\"Aankoopdatum\"; \"Vervaldatum\"; Aantal rentebetalingen; Soort jaar (optioneel))"
 
 #. CH3ja
 #: 04060118.xhp
@@ -25891,7 +25891,7 @@ msgctxt ""
 "par_id3153790\n"
 "help.text"
 msgid "COUPPCD(Settlement; Maturity; Frequency [; Basis])"
-msgstr "COUP.DATUM.VB(Aankoopdatum; Vervaldatum; Aantal rentebetalingen; Soort jaar (optioneel))"
+msgstr "COUP.DATUM.VB(\"Aankoopdatum\"; \"Vervaldatum\"; Aantal rentebetalingen; Soort jaar (optioneel))"
 
 #. DCtJY
 #: 04060118.xhp
@@ -26143,7 +26143,7 @@ msgctxt ""
 "hd_id3151205\n"
 "help.text"
 msgid "FV"
-msgstr "Toekomstige waarde"
+msgstr "TW"
 
 #. wiBej
 #: 04060118.xhp
@@ -27025,7 +27025,7 @@ msgctxt ""
 "par_id3147566\n"
 "help.text"
 msgid "Rate: 9.00 per cent per annum (9% / 12 = 0.0075), Duration: 30 years (NPER = 30 * 12 = 360), Pv: 125000 currency units."
-msgstr "Rente: 9,00 procent per jaar (9% / 12 = 0,0075 per maand), Tijdsduur: 30 jaar (NPER = 30 * 12 = 360 maanden), NHW: 125000 valuta-eenheden."
+msgstr "Rente: 9,00 procent per jaar (9% / 12 = 0,0075 per maand), Tijdsduur: 30 jaar (Aantal perioden = 30 * 12 = 360 maanden), Huidige waarde: 125000 valuta-eenheden."
 
 #. xBJmd
 #: 04060119.xhp
@@ -29572,7 +29572,7 @@ msgctxt ""
 "bm_id3145620\n"
 "help.text"
 msgid "<bookmark_value>BETAINV function</bookmark_value>  <bookmark_value>cumulative probability density function;inverse of</bookmark_value>"
-msgstr "<bookmark_value>BETA.INV-functie</bookmark_value>  <bookmark_value>cumulatieve kansdichtheidsfunctie;inverse van</bookmark_value>"
+msgstr "<bookmark_value>BETAINV-functie</bookmark_value>  <bookmark_value>cumulatieve kansdichtheidsfunctie;inverse van</bookmark_value>"
 
 #. H7CXC
 #: 04060181.xhp
@@ -29770,7 +29770,7 @@ msgctxt ""
 "bm_id3156096\n"
 "help.text"
 msgid "<bookmark_value>BETADIST function</bookmark_value>  <bookmark_value>cumulative probability density function;calculating</bookmark_value>"
-msgstr "<bookmark_value>BETA.VERD-functie</bookmark_value>  <bookmark_value>cumulatieve kansdichtheidsfunctie;berekenen</bookmark_value>"
+msgstr "<bookmark_value>BETAVERD-functie</bookmark_value>  <bookmark_value>cumulatieve kansdichtheidsfunctie;berekenen</bookmark_value>"
 
 #. i7WAn
 #: 04060181.xhp
@@ -29977,7 +29977,7 @@ msgctxt ""
 "bm_id3143228\n"
 "help.text"
 msgid "<bookmark_value>BINOMDIST function</bookmark_value>"
-msgstr "<bookmark_value>BINOMIALE.VERD-functie</bookmark_value>"
+msgstr "<bookmark_value>BINOM.VERD-functie</bookmark_value>"
 
 #. HqQTx
 #: 04060181.xhp
@@ -30886,7 +30886,7 @@ msgctxt ""
 "bm_id2948690\n"
 "help.text"
 msgid "<bookmark_value>CHISQ.DIST.RT function</bookmark_value>"
-msgstr "<bookmark_value>CHIKW.VERD.RECHTS-functie</bookmark_value>"
+msgstr "<bookmark_value>Functie CHIKW.VERD.RECHTS</bookmark_value>"
 
 #. R5hxs
 #: 04060181.xhp
@@ -31102,7 +31102,7 @@ msgctxt ""
 "bm_id2950603\n"
 "help.text"
 msgid "<bookmark_value>EXPON.DIST function</bookmark_value>  <bookmark_value>exponential distributions</bookmark_value>"
-msgstr "<bookmark_value>T.VERD-functie</bookmark_value>  <bookmark_value>exponentiële verdelingen</bookmark_value>"
+msgstr "<bookmark_value>Functie EXPON.VERD.N</bookmark_value>  <bookmark_value>exponentiële verdelingen</bookmark_value>"
 
 #. 3AfCq
 #: 04060181.xhp
@@ -33163,7 +33163,7 @@ msgctxt ""
 "bm_id2953559\n"
 "help.text"
 msgid "<bookmark_value>CONFIDENCE.T function</bookmark_value>"
-msgstr "<bookmark_value>VERTROUWELIJKHEID.T-functie</bookmark_value>"
+msgstr "<bookmark_value>Functie VERTROUWELIJKHEID.T</bookmark_value>"
 
 #. eHLzB
 #: 04060183.xhp
@@ -33235,7 +33235,7 @@ msgctxt ""
 "bm_id2853559\n"
 "help.text"
 msgid "<bookmark_value>CONFIDENCE.NORM function</bookmark_value>"
-msgstr "<bookmark_value>VERTROUWELIJKHEID.NORM-functie</bookmark_value>"
+msgstr "<bookmark_value>Functie VERTROUWELIJKHEID.NORM</bookmark_value>"
 
 #. vYCr7
 #: 04060183.xhp
@@ -33496,7 +33496,7 @@ msgctxt ""
 "bm_id280652\n"
 "help.text"
 msgid "<bookmark_value>COVARIANCE.S function</bookmark_value>"
-msgstr "<bookmark_value>COVARIANTIE-functie</bookmark_value>"
+msgstr "<bookmark_value>Functie COVARIANTIE.S</bookmark_value>"
 
 #. 97kfB
 #: 04060183.xhp
@@ -36691,7 +36691,7 @@ msgctxt ""
 "bm_id2949734\n"
 "help.text"
 msgid "<bookmark_value>STDEV.P function</bookmark_value>        <bookmark_value>standard deviations in statistics;based on a population</bookmark_value>"
-msgstr "<bookmark_value>STDEVP</bookmark_value>         <bookmark_value>standaarddeviaties in statistieken;gebaseerd op een populatie</bookmark_value>"
+msgstr "<bookmark_value>Functie STDEV.P</bookmark_value>         <bookmark_value>standaarddeviaties in statistieken;gebaseerd op een populatie</bookmark_value>"
 
 #. tcxC7
 #: 04060185.xhp
@@ -36736,7 +36736,7 @@ msgctxt ""
 "bm_id2849734\n"
 "help.text"
 msgid "<bookmark_value>STDEV.S function</bookmark_value>        <bookmark_value>standard deviations in statistics;based on a sample</bookmark_value>"
-msgstr "<bookmark_value>STDEV</bookmark_value>         <bookmark_value>standaarddeviaties in statistieken;gebaseerd op een steekproef</bookmark_value>"
+msgstr "<bookmark_value>Functie STDEV.S</bookmark_value>         <bookmark_value>standaarddeviaties in statistieken;gebaseerd op een steekproef</bookmark_value>"
 
 #. V2ZSr
 #: 04060185.xhp
@@ -37456,7 +37456,7 @@ msgctxt ""
 "bm_id2849579\n"
 "help.text"
 msgid "<bookmark_value>T.INV.2T function</bookmark_value>        <bookmark_value>inverse of two tailed t-distribution</bookmark_value>"
-msgstr "<bookmark_value>T.INV.2Z</bookmark_value>         <bookmark_value>inverse van tweezijdige t-verdeling</bookmark_value>"
+msgstr "<bookmark_value>T.INV.2T</bookmark_value>         <bookmark_value>inverse van tweezijdige t-verdeling</bookmark_value>"
 
 #. 4ybyR
 #: 04060185.xhp
@@ -37519,7 +37519,7 @@ msgctxt ""
 "bm_id3154129\n"
 "help.text"
 msgid "<bookmark_value>TTEST function</bookmark_value>"
-msgstr "<bookmark_value>T.TEST</bookmark_value>"
+msgstr "<bookmark_value>Functie T.TOETS</bookmark_value>"
 
 #. MVc6H
 #: 04060185.xhp
@@ -37546,7 +37546,7 @@ msgctxt ""
 "par_id3151175\n"
 "help.text"
 msgid "TTEST(Data1; Data2; Mode; Type)"
-msgstr "T.TEST(Gegevens 1; Gegevens 2; Modus; Type)"
+msgstr "T.TOETS(Gegevens 1; Gegevens 2; Modus; Type)"
 
 #. Zah5z
 #: 04060185.xhp
@@ -37591,7 +37591,7 @@ msgctxt ""
 "par_id3150119\n"
 "help.text"
 msgid "<item type=\"input\">=TTEST(A1:A50;B1:B50;2;2)</item>"
-msgstr "<item type=\"input\">=T.TEST(A1:A50;B1:B50;2;2)</item>"
+msgstr "<item type=\"input\">=T.TOETS(A1:A50;B1:B50;2;2)</item>"
 
 #. gRTGH
 #: 04060185.xhp
@@ -37825,7 +37825,7 @@ msgctxt ""
 "bm_id2854930\n"
 "help.text"
 msgid "<bookmark_value>T.DIST.2T function</bookmark_value>        <bookmark_value>two tailed t-distribution</bookmark_value>"
-msgstr "<bookmark_value>T.VERD.2Z</bookmark_value>         <bookmark_value>tweezijdige t-verdeling</bookmark_value>"
+msgstr "<bookmark_value>Functie T.VERD.2T</bookmark_value>         <bookmark_value>tweezijdige t-verdeling</bookmark_value>"
 
 #. ACDN3
 #: 04060185.xhp
@@ -37888,7 +37888,7 @@ msgctxt ""
 "bm_id274930\n"
 "help.text"
 msgid "<bookmark_value>T.DIST.RT function</bookmark_value>        <bookmark_value>right tailed t-distribution</bookmark_value>"
-msgstr "<bookmark_value>T.VERD.RZ</bookmark_value>         <bookmark_value>rechtszijdige t-verdeling</bookmark_value>"
+msgstr "<bookmark_value>Functie T.VERD.RECHTS</bookmark_value>         <bookmark_value>rechtszijdige t-verdeling</bookmark_value>"
 
 #. VznXr
 #: 04060185.xhp
@@ -38005,7 +38005,7 @@ msgctxt ""
 "bm_id2953828\n"
 "help.text"
 msgid "<bookmark_value>VAR.S function</bookmark_value>        <bookmark_value>variances</bookmark_value>"
-msgstr "<bookmark_value>VAR</bookmark_value>         <bookmark_value>varianties</bookmark_value>"
+msgstr "<bookmark_value>Functie VAR.S</bookmark_value>         <bookmark_value>varianties</bookmark_value>"
 
 #. L58ws
 #: 04060185.xhp
@@ -51748,7 +51748,7 @@ msgctxt ""
 "par_id251640873774457\n"
 "help.text"
 msgid "This function is <emph>NOT</emph> part of the <emph>Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</emph> standard. The name space is"
-msgstr "Deze functie is <emph>GEEN</emph> onderdeel van de standaard <emph>Open Document Format for Office Applications (OpenDocument) Versie 1.3. Deel 4: Recalculated Formula (OpenFormula) indeling</emph>. De naamruimte is"
+msgstr ""
 
 #. rBWwb
 #: common_func.xhp
@@ -55690,7 +55690,7 @@ msgctxt ""
 "bm_id126123001625791\n"
 "help.text"
 msgid "<bookmark_value>AGGREGATE function</bookmark_value>"
-msgstr "<bookmark_value>AGGREGATIE</bookmark_value>"
+msgstr "<bookmark_value>AGGREGAAT</bookmark_value>"
 
 #. T2Az9
 #: func_aggregate.xhp
@@ -55699,7 +55699,7 @@ msgctxt ""
 "hd_id3154073\n"
 "help.text"
 msgid "<variable id=\"aggregate_head\"><link href=\"text/scalc/01/func_aggregate.xhp\">AGGREGATE</link></variable> function"
-msgstr "<variable id=\"aggregate_head\"><link href=\"text/scalc/01/func_aggregate.xhp\">AGGREGATIE</link></variable>"
+msgstr "<variable id=\"aggregate_head\"><link href=\"text/scalc/01/func_aggregate.xhp\">AGGREGAAT</link></variable>"
 
 #. m2Tdo
 #: func_aggregate.xhp
@@ -61297,7 +61297,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>DROP function</bookmark_value>"
-msgstr "<bookmark_value>VERVALLEN</bookmark_value>"
+msgstr "<bookmark_value>WEGLATEN</bookmark_value>"
 
 #. CH7xF
 #: func_drop.xhp
@@ -62548,7 +62548,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\">FINDB</link></variable>"
-msgstr "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\">VINDENB</link></variable>"
+msgstr "<variable id=\"findb\"><link href=\"text/scalc/01/func_findb.xhp\">VIND.ALLES.B</link></variable>"
 
 #. iW2EE
 #: func_findb.xhp
@@ -62566,7 +62566,7 @@ msgctxt ""
 "par_id221573517641172\n"
 "help.text"
 msgid "FINDB(Find Text ; Text [; Position])"
-msgstr "VINDENB(Tekst ; Tekst [; Positie])"
+msgstr "VIND.ALLES.B(\"Tekst\" ; \"Tekst\"; Positie (optioneel))"
 
 #. puQAw
 #: func_findb.xhp
@@ -62593,7 +62593,7 @@ msgctxt ""
 "par_id521573517305077\n"
 "help.text"
 msgid "<emph>Position</emph>: The position in the text where the search starts."
-msgstr "<emph>Positie</emph>: De positie in de tekst waar het zoeken begint."
+msgstr "<emph>Positie (optioneel)</emph>: De positie in de tekst waar het zoeken begint."
 
 #. okEBS
 #: func_findb.xhp
@@ -62602,7 +62602,7 @@ msgctxt ""
 "par_id481573517830373\n"
 "help.text"
 msgid "<input>=FINDB(\"ａ\"; \"LibreOffice Ｃａｌｃ\")</input> returns 15. The <emph>Find Text</emph> argument is a text string that comprises a full-width, double-byte \"a\" character, while the <emph>Text</emph> argument comprises 12 single-byte characters followed by four full-width, double-byte characters."
-msgstr "<input>=VINDENB(\"ａ\"; \"LibreOffice Ｃａｌｃ\")</input> geeft 15 terug. Het argument <emph>Tekst zoeken</emph> is een tekenreeks die bestaat uit een dubbele-byte \"a\" van volledige breedte karakter, terwijl het argument <emph>Tekst</emph> 12 enkelbyte karakters omvat gevolgd door vier dubbelbyte karakters van volledige breedte."
+msgstr "<input>=VIND.ALLES.B(\"ａ\"; \"LibreOffice Ｃａｌｃ\")</input> geeft 15 terug. Het argument <emph>Tekst zoeken</emph> is een tekenreeks die bestaat uit een dubbele-byte \"a\" van volledige breedte karakter, terwijl het argument <emph>Tekst</emph> 12 enkelbyte karakters omvat gevolgd door vier dubbelbyte karakters van volledige breedte."
 
 #. E8koD
 #: func_findb.xhp
@@ -62773,7 +62773,7 @@ msgctxt ""
 "bm_id3157404\n"
 "help.text"
 msgid "<bookmark_value>FLOOR function</bookmark_value><bookmark_value>rounding;down to nearest multiple of significance</bookmark_value>"
-msgstr "<bookmark_value>AFRONDEN.BENEDEN.WISK</bookmark_value><bookmark_value>afronding; naar beneden naar het dichtstbijzijnde veelvoud van de stapgrootte </bookmark_value>"
+msgstr "<bookmark_value>AFRONDEN.BENEDEN</bookmark_value><bookmark_value>afronding; naar beneden naar het dichtstbijzijnde veelvoud van de stapgrootte </bookmark_value>"
 
 #. soQ7o
 #: func_floor.xhp
@@ -62944,7 +62944,7 @@ msgctxt ""
 "par_id161586287421523\n"
 "help.text"
 msgid "FLOOR.MATH(Number[; Significance[; Mode]])"
-msgstr "AFRONDEN.BENEDEN.WISK(Getal[; Stapgrootte[; Modus]])"
+msgstr "AFRONDEN.BENEDEN.WISK(Getal; Stapgrootte (optioneel); Modus (optioneel))"
 
 #. Un6FB
 #: func_floor.xhp
@@ -64438,7 +64438,7 @@ msgctxt ""
 "bm_id262410558824\n"
 "help.text"
 msgid "<bookmark_value>IMCOS function</bookmark_value><bookmark_value>cosine;complex number</bookmark_value>"
-msgstr "<bookmark_value>IMCOS</bookmark_value><bookmark_value>cosinus;complex getal</bookmark_value>"
+msgstr "<bookmark_value>C.COS</bookmark_value><bookmark_value>cosinus;complex getal</bookmark_value>"
 
 #. GmCB8
 #: func_imcos.xhp
@@ -64519,7 +64519,7 @@ msgctxt ""
 "bm_id123771237712377\n"
 "help.text"
 msgid "<bookmark_value>IMCOSH function</bookmark_value><bookmark_value>hyperbolic cosine;complex number</bookmark_value>"
-msgstr "<bookmark_value>C.COSH</bookmark_value><bookmark_value>hyperbolische cosinus;complex getal</bookmark_value>"
+msgstr "<bookmark_value>Functie C.COSH</bookmark_value><bookmark_value>hyperbolische cosinus;complex getal</bookmark_value>"
 
 #. LhGyK
 #: func_imcosh.xhp
@@ -64699,7 +64699,7 @@ msgctxt ""
 "bm_id931179311793117\n"
 "help.text"
 msgid "<bookmark_value>IMCSC function</bookmark_value><bookmark_value>cosecant;complex number</bookmark_value>"
-msgstr "<bookmark_value>IMCOSEC</bookmark_value><bookmark_value>cosecans;complex getal</bookmark_value>"
+msgstr "<bookmark_value>C.COSEC</bookmark_value><bookmark_value>cosecans;complex getal</bookmark_value>"
 
 #. XF62w
 #: func_imcsc.xhp
@@ -64879,7 +64879,7 @@ msgctxt ""
 "bm_id101862404332680\n"
 "help.text"
 msgid "<bookmark_value>IMSEC function</bookmark_value><bookmark_value>secant;complex number</bookmark_value>"
-msgstr "<bookmark_value>C.SEC</bookmark_value><bookmark_value>secans;complex getal</bookmark_value>"
+msgstr "<bookmark_value>Functie C.SEC</bookmark_value><bookmark_value>secans;complex getal</bookmark_value>"
 
 #. 4RBGx
 #: func_imsec.xhp
@@ -65239,7 +65239,7 @@ msgctxt ""
 "bm_id4210250889873\n"
 "help.text"
 msgid "<bookmark_value>IMTAN function</bookmark_value><bookmark_value>tangent;complex number</bookmark_value>"
-msgstr "<bookmark_value>C.TAN</bookmark_value><bookmark_value>tangens;complex getal</bookmark_value>"
+msgstr "<bookmark_value>Functie C.TAN</bookmark_value><bookmark_value>tangens;complex getal</bookmark_value>"
 
 #. PmaMD
 #: func_imtan.xhp
@@ -68236,7 +68236,7 @@ msgctxt ""
 "par_id3154260\n"
 "help.text"
 msgid "PROPER(\"Text\")"
-msgstr "BEGINLETTERS(Tekst)"
+msgstr "BEGINLETTERS(\"Tekst\")"
 
 #. sMCpQ
 #: func_proper.xhp
@@ -69631,7 +69631,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SEARCHB Function"
-msgstr "ZOEKENB"
+msgstr "VIND.SPEC.B"
 
 #. ennrh
 #: func_searchb.xhp
@@ -69640,7 +69640,7 @@ msgctxt ""
 "bm_id141573508995071\n"
 "help.text"
 msgid "<bookmark_value>SEARCHB Function</bookmark_value>            <bookmark_value>search text;SEARCHB Function</bookmark_value>"
-msgstr "<bookmark_value>ZOEKENB</bookmark_value>            <bookmark_value>tekst zoeken;ZOEKENB</bookmark_value>"
+msgstr "<bookmark_value>Functie VIND.SPEC.B</bookmark_value>            <bookmark_value>tekst zoeken;ZOEKENB</bookmark_value>"
 
 #. JbAGD
 #: func_searchb.xhp
@@ -69649,7 +69649,7 @@ msgctxt ""
 "hd_id771573508637966\n"
 "help.text"
 msgid "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\">SEARCHB</link></variable>"
-msgstr "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\">ZOEKENB</link></variable>"
+msgstr "<variable id=\"searchb\"><link href=\"text/scalc/01/func_searchb.xhp\">VIND.SPEC.B</link></variable>"
 
 #. TySAy
 #: func_searchb.xhp
@@ -69703,7 +69703,7 @@ msgctxt ""
 "par_id561573517310749\n"
 "help.text"
 msgid "<input>=SEARCHB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> returns 20."
-msgstr "<input>=ZOEKENB(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> retourneert 20."
+msgstr "<input>=VIND.SPEC.B(\"ᄫᄬ\";\"ᄩᄔᄕᄜᄝᄞᄠgᄢᄣᄫᄬᄭᄮᄯᄲᄶ\";17)</input> retourneert 20."
 
 #. GGGLC
 #: func_searchb.xhp
@@ -73447,7 +73447,7 @@ msgctxt ""
 "bm_id3149012\n"
 "help.text"
 msgid "<bookmark_value>WEBSERVICE function</bookmark_value>"
-msgstr "<bookmark_value>WEBSERVICE</bookmark_value>"
+msgstr "<bookmark_value>Functie WEBSERVICE</bookmark_value>"
 
 #. 8ghKC
 #: func_webservice.xhp
@@ -73753,9 +73753,7 @@ msgctxt ""
 "par_id3150588\n"
 "help.text"
 msgid "To obtain a function indicating whether a day in A1 is a business day, use the IF and WEEKDAY functions as follows: <br/><item type=\"input\">IF(WEEKDAY(A1;2)<6;\"Business day\";\"Weekend\")</item>"
-msgstr ""
-"U kunt een functie maken om aan te geven of een dag in A1 een werkdag is door de functies ALS en WEEKDAG als volgt te gebruiken:\n"
-"ALS(WEEKDAG(A1;2)<6;\"Werkdag\";\"Weekeinde\")"
+msgstr "U kunt een functie maken om aan te geven of een dag in A1 een werkdag is door de functies ALS en WEEKDAG als volgt te gebruiken: ALS(WEEKDAG(A1;2)<6;\"Werkdag\";\"Weekeinde\")"
 
 #. NbPmG
 #: func_weekday.xhp
@@ -74151,7 +74149,7 @@ msgctxt ""
 "par_id3154269\n"
 "help.text"
 msgid "<emph>Mode</emph> sets the start of the week and the calculation type."
-msgstr "<emph>Modus</emph> stelt het begin van de week en het berekeningstype in."
+msgstr "<emph></emph>"
 
 #. Fhoer
 #: func_weeknum_ooo.xhp
@@ -74160,7 +74158,7 @@ msgctxt ""
 "par_id3148930\n"
 "help.text"
 msgid "1 = Sunday"
-msgstr "1 = zondag"
+msgstr ""
 
 #. 6VBHS
 #: func_weeknum_ooo.xhp
@@ -74169,7 +74167,7 @@ msgctxt ""
 "par_id3154280\n"
 "help.text"
 msgid "2 = Monday (ISO 8601)"
-msgstr "2 = maandag (ISO 8601)"
+msgstr ""
 
 #. Fw3wN
 #: func_weeknum_ooo.xhp
@@ -74187,7 +74185,7 @@ msgctxt ""
 "par_id3150704\n"
 "help.text"
 msgid "<item type=\"input\">=WEEKNUM_OOO(DATE(1995;1;1);1)</item>  returns 1"
-msgstr "<item type=\"input\">=WEEKNUMMER_OOO(DATUM(1995;1;1);1)</item>  geeft 1"
+msgstr "<item type=\"input\"></item>"
 
 #. ZNtES
 #: func_weeknum_ooo.xhp
@@ -74790,7 +74788,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>XLOOKUP function</bookmark_value>"
-msgstr "<bookmark_value>XZOEKEN</bookmark_value>"
+msgstr "<bookmark_value>X.ZOEKEN</bookmark_value>"
 
 #. DDESR
 #: func_xlookup.xhp
@@ -75051,7 +75049,7 @@ msgctxt ""
 "bm_id361708283183878\n"
 "help.text"
 msgid "<bookmark_value>XMATCH function</bookmark_value>"
-msgstr "<bookmark_value>XOVEREENKOMST</bookmark_value>"
+msgstr "<bookmark_value>X.VERGELIJKEN</bookmark_value>"
 
 #. Y5Xci
 #: func_xmatch.xhp
@@ -75186,7 +75184,7 @@ msgctxt ""
 "par_id701677016751508\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/XMATCH\">XMATCH wiki page</link>."
-msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/XMATCH\">wikipagina XOVEREENKOMST</link>."
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/XMATCH\">wikipagina X.VERGELIJKEN</link>."
 
 #. dABAX
 #: func_year.xhp
