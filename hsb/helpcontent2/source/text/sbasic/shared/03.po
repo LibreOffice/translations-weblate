@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-05-05 11:59+0200\n"
-"PO-Revision-Date: 2025-10-26 19:54+0000\n"
+"PO-Revision-Date: 2025-10-27 20:54+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Upper Sorbian <https://translations.documentfoundation.org/projects/libo_help-25-8/textsbasicshared03/hsb/>\n"
 "Language: hsb\n"
@@ -1417,7 +1417,7 @@ msgctxt ""
 "par_id91582558644287\n"
 "help.text"
 msgid "Build a set, as a zero-based array, by applying the difference operator on the two input arrays. Resulting items originate from the first array and not from the second.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, their items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr "Wutworja sadźbu jako matriks na bazy nula přez to, zo diferencny operator na dwě zapodawanskej matriksy nałožuje. rezultowace zapiski z prěnjeje matriksy pochadźeja a nic z druheje.<br/>Rezultowaca matriks so w postupowacym porjedźe sortěruje.<br/>Wobě zapodawanskej matriksy dyrbitej so homogenje pjelnić, jeju zapiski dyrbja skalary samsneho typa być. Zapiski<literal>Empty</literal> a <literal>Null</literal> su zakazane.<br/>Tekstowe přirunanje móže na wulkopisanje dźiwać abo nic."
+msgstr "Wutworja sadźbu jako matriks na bazy nula přez to, zo diferencny operator na dwě zapodawanskej matriksy nałožuje. Rezultowace zapiski z prěnjeje matriksy pochadźeja a nic z druheje.<br/>Rezultowaca matriks so w postupowacym porjedźe sortěruje.<br/>Wobě zapodawanskej matriksy dyrbitej so homogenje pjelnić, jeju zapiski dyrbja skalary samsneho typa być. Zapiski<literal>Empty</literal> a <literal>Null</literal> su zakazane.<br/>Tekstowe přirunanje móže na wulkopisanje dźiwać abo nic."
 
 #. FTb9n
 #: sf_array.xhp
@@ -1633,7 +1633,7 @@ msgctxt ""
 "par_id611585561482373\n"
 "help.text"
 msgid "Import the data contained in a comma-separated values (CSV) file. The comma may be replaced by any character."
-msgstr ""
+msgstr "Importuje daty, kotrež su w dataji z přez komu wotdźělenymi hódnotami (CSV) wobsahowane. Koma dyrbi so přez druhe znamješko wuměnić."
 
 #. HmC23
 #: sf_array.xhp
@@ -1642,7 +1642,7 @@ msgctxt ""
 "par_id41585562158392\n"
 "help.text"
 msgid "The applicable CSV format is described in <link href=\"https://tools.ietf.org/html/rfc4180\">IETF Common Format and MIME Type for CSV Files</link>."
-msgstr ""
+msgstr "Nałožujomny format CSV so w <link href=\"https://tools.ietf.org/html/rfc4180\">IETF Common Format and MIME Type for CSV Files</link> wopisuje."
 
 #. PT3Pq
 #: sf_array.xhp
@@ -1652,6 +1652,8 @@ msgctxt ""
 "help.text"
 msgid "Each line in the file contains a full record (line splitting is not allowed).     <br/>However sequences like <literal>\\n</literal>, <literal>\\t</literal>, ... are left unchanged. Use <literal>SF_String</literal>.Unescape() method to manage them."
 msgstr ""
+"Kóžda linka w dataji połnu datowu sadźbu wobsahuje (dźělenje linkow dowolene njeje).<br/>Ale sekwency kaž <literal>\\n"
+"</literal>, <literal>\\t</literal>, … njezměnjene wostawaja. Wužiwajće metodu <literal>SF_String</literal>.Unescape(), zo byšće je rjadował."
 
 #. dCYB3
 #: sf_array.xhp
@@ -1660,7 +1662,7 @@ msgctxt ""
 "par_id231585562475026\n"
 "help.text"
 msgid "The method returns a two dimension array whose rows correspond to a single record read in the file and whose columns correspond to a field of the record. No check is made about the coherence of the field types across columns. A best guess will be made to identify numeric and date types."
-msgstr ""
+msgstr "Metoda dwudimensionalnu matriks wróća, kotrejež linki jednotliwej datowej sadźbje wotpowěduja, kotraž je so w dataji čitała a kotrejež špalty polu datoweje sadźby wotpowěduja. Koherenca pólnych typow so přez špalty njepřepruwuje. Čini so najlěpše móžne trochowanje, zo bychu so numeriske a datumowe typy identifikowali."
 
 #. FMKSo
 #: sf_array.xhp
@@ -1669,7 +1671,7 @@ msgctxt ""
 "par_id101585562548245\n"
 "help.text"
 msgid "If a line contains less or more fields than the first line in the file, an exception will be raised. Empty lines however are simply ignored. If the size of the file exceeds the number of items limit (see inside the code), a warning is raised and the array is truncated."
-msgstr ""
+msgstr "Jeli linka mjenje abo wjace polow hač prěnja linka w dataji wobsahuje, so wuwzaće wuwabi. Prózdne linki wšak so prosće ignoruja. Jeli wulkosć dataje ličbu zapiskow překročuje (hlejće w kodźe), so warnowanje wuwabi a matriks so wotrěza."
 
 #. zGf5A
 #: sf_array.xhp
@@ -1678,7 +1680,7 @@ msgctxt ""
 "par_id441585561482121\n"
 "help.text"
 msgid "<emph>filename</emph>: The name of the text file containing the data. The name must be expressed according to the current <literal>FileNaming</literal> property of the <literal>SF_FileSystem</literal> service."
-msgstr ""
+msgstr "<emph>filename</emph>: Mjeno tekstoweje dataje, kotraž daty wobsahuje. Mjeno dyrbi so po aktualnej kajkosći <literal>FileNaming</literal> słužby <literal>SF_FileSystem</literal> zwuraznić."
 
 #. SBuiC
 #: sf_array.xhp
@@ -1687,7 +1689,7 @@ msgctxt ""
 "par_id251585561482929\n"
 "help.text"
 msgid "<emph>delimiter</emph>: A single character, usually, a comma, a semicolon or a TAB character (Default = \",\")."
-msgstr ""
+msgstr "<emph>delimiter</emph>: Jednotliwe znamješko, zwjetša koma, semikolon abo tabulatorowe znamješko (standard = \",\")."
 
 #. Ehoz6
 #: sf_array.xhp
@@ -1696,7 +1698,7 @@ msgctxt ""
 "par_id631585563491559\n"
 "help.text"
 msgid "<emph>dateformat</emph>: A special mechanism handles dates when <literal>dateformat</literal> is either \"YYYY-MM-DD\", \"DD-MM-YYYY\" or \"MM-DD-YYYY\". The dash (-) may be replaced by a dot (.), a slash (/) or a space. Other date formats will be ignored. Dates defaulting to an empty string \"\" are considered as normal text."
-msgstr ""
+msgstr "<emph>dateformat</emph>: Specialny mechanizm z datumami wobchadźa, hdyž <literal>dateformat</literal> je pak \"LLLL-MM-DD\", \"DD-MM-LLLL\" pak \"MM-DD-LLLL\". Wjazawka (-) da so z dypkom (.), nakósnej smužku (/) abo mjezotu wuměnić. Druhe datumowe formaty so ignoruja. Datumy, kotrež su po standardźe prózdny znamješkowy rjećazk \"\"m so jako normalny tekst wobhladuja."
 
 #. oj4Th
 #: sf_array.xhp
@@ -1705,7 +1707,7 @@ msgctxt ""
 "par_id61585564516409\n"
 "help.text"
 msgid "Consider the CSV file \"myFile.csv\" with the following contents:"
-msgstr ""
+msgstr "Wobhladajće sej dataju CSV \"myFile.csv\" ze slědowacym wobsahom:"
 
 #. T6E8L
 #: sf_array.xhp
@@ -1714,7 +1716,7 @@ msgctxt ""
 "par_id281626980354105\n"
 "help.text"
 msgid "<input>Name,DateOfBirth,Address,City</input>"
-msgstr ""
+msgstr "<input>Mjeno,narodnydźeń,adresa,město</input>"
 
 #. FRZKB
 #: sf_array.xhp
@@ -1723,7 +1725,7 @@ msgctxt ""
 "par_id301626980648833\n"
 "help.text"
 msgid "<input>Anna,2002/03/31,\"Rue de l'église, 21\",Toulouse</input>"
-msgstr ""
+msgstr "<input>Anna,31.03.2002,\"Rue de l'Eglise, 21\",Toulouse</input>"
 
 #. g2r8f
 #: sf_array.xhp
@@ -1732,7 +1734,7 @@ msgctxt ""
 "par_id881626980658900\n"
 "help.text"
 msgid "<input>Fred,1998/05/04,\"Rue Albert Einstein, 113A\",Carcassonne</input>"
-msgstr ""
+msgstr "<input>Fred,04.05.1998,\"Rue Albert Einstein, 113A\",Carcassonne</input>"
 
 #. xNCNA
 #: sf_array.xhp
@@ -1741,7 +1743,7 @@ msgctxt ""
 "par_id181626979812772\n"
 "help.text"
 msgid "The examples below in Basic and Python read the contents of the CSV file into an <literal>Array</literal> object."
-msgstr ""
+msgstr "Slědowace přikłady w Basic a Python wobsah dataje CSV do objekta <literal>Array</literal> čitaja."
 
 #. F4yYB
 #: sf_array.xhp
@@ -1750,7 +1752,7 @@ msgctxt ""
 "bas_id531585561482408\n"
 "help.text"
 msgid "arr = SF_Array.ImportFromCSVFile(\"C:\\Temp\\myFile.csv\", DateFormat := \"YYYY/MM/DD\")"
-msgstr ""
+msgstr "arr = SF_Array.ImportFromCSVFile(\"C:\\Temp\\mojaDataja.csv\", DateFormat := \"YYYY/MM/DD\")"
 
 #. wyEqv
 #: sf_array.xhp
@@ -1759,7 +1761,7 @@ msgctxt ""
 "bas_id621585561482783\n"
 "help.text"
 msgid "MsgBox arr(0, 3) ' City"
-msgstr ""
+msgstr "MsgBox arr(0, 3) ' Město"
 
 #. tDMNL
 #: sf_array.xhp
@@ -1768,7 +1770,7 @@ msgctxt ""
 "bas_id21585564425349\n"
 "help.text"
 msgid "MsgBox arr(1, 2) ' Rue de l'église, 21"
-msgstr ""
+msgstr "MsgBox arr(1, 2) ' Rue de l'église, 21"
 
 #. SBfVW
 #: sf_array.xhp
@@ -1777,7 +1779,7 @@ msgctxt ""
 "bas_id831585564433851\n"
 "help.text"
 msgid "MsgBox arr(1, 3) ' Toulouse"
-msgstr ""
+msgstr "MsgBox arr(1, 3) ' Toulouse"
 
 #. DpxfS
 #: sf_array.xhp
@@ -1786,7 +1788,7 @@ msgctxt ""
 "pyc_id511626979992999\n"
 "help.text"
 msgid "arr = svc.ImportFromCSVFile(r\"C:\\Temp\\myFile.csv\", dateformat = \"YYYY/MM/DD\")"
-msgstr ""
+msgstr "arr = svc.ImportFromCSVFile(r\"C:\\Temp\\mojaDataja.csv\", dateformat = \"YYYY/MM/DD\")"
 
 #. asqiD
 #: sf_array.xhp
@@ -1795,7 +1797,7 @@ msgctxt ""
 "pyc_id211626979993191\n"
 "help.text"
 msgid "bas.MsgBox(arr[0][3]) # City"
-msgstr ""
+msgstr "bas.MsgBox(arr[0][3]) # Město"
 
 #. 2gFXA
 #: sf_array.xhp
@@ -1804,7 +1806,7 @@ msgctxt ""
 "pyc_id671626979993408\n"
 "help.text"
 msgid "bas.MsgBox(arr[1][2]) # Rue de l'église, 21"
-msgstr ""
+msgstr "bas.MsgBox(arr[1][2]) # Rue de l'église, 21"
 
 #. kYfmG
 #: sf_array.xhp
@@ -1813,7 +1815,7 @@ msgctxt ""
 "pyc_id481626979993648\n"
 "help.text"
 msgid "bas.MsgBox(arr[1][3]) # Toulouse"
-msgstr ""
+msgstr "bas.MsgBox(arr[1][3]) # Toulouse"
 
 #. xCx7D
 #: sf_array.xhp
@@ -1822,7 +1824,7 @@ msgctxt ""
 "par_id211582562721860\n"
 "help.text"
 msgid "Look in a one dimension array for a number, a string or a date. Text comparison can be case-sensitive or not.      <br/>If the array is sorted it must be filled homogeneously, which means that all items must be scalars of the same type (<literal>Empty</literal> and <literal>Null</literal> items are forbidden).      <br/>The result of the method is unpredictable when the array is announced as sorted and actually is not.      <br/>A binary search is performed on sorted arrays. Otherwise, arrays are simply scanned from top to bottom and <literal>Empty</literal> and <literal>Null</literal> items are ignored.      <br/>      <br/>The method returns <literal>LBound(input array) - 1</literal> if the search was not successful."
-msgstr ""
+msgstr "Pytajće w jednodimensionalnej matriksy za ličbu, znamješkowym rjećazkom abo datumom. Tekstowe přirunanje móže na wulkopisanje dźiwać abo nic.<br/>Jeli so matriks sortěruje, dyrbi so homogenje pjelnić, štož rěka, zo wšě zapiski dyrbja skalary samsneho typa być (zapiski <literal>Empty</literal> a <literal>Null</literal> su zakazane).<br/>Wuslědk metody je njepředwidźomny, hdyž so matriks jako sortěrowana připowědźuje a we woprawdźitosći njeje.<br/>Binarne pytanje so na sortěrowane matriksy nałožuje. Hewak so matriksy prosće wot horjeka dele skenuja a zapiski <literal>Empty</literal> a <literal>Null</literal> so ignoruja.<br/><br/>Metoda <literal>LBound (zapodawanska matriks) – 1</literal>, jeli pytanje njeje wuspěšne było."
 
 #. Bm5Um
 #: sf_array.xhp
@@ -1831,7 +1833,7 @@ msgctxt ""
 "par_id315825627687760\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to scan."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Matriks, kotraž so ma skenować."
 
 #. B5FFj
 #: sf_array.xhp
@@ -1840,7 +1842,7 @@ msgctxt ""
 "par_id511582562775516\n"
 "help.text"
 msgid "<emph>tofind</emph>: A number, a date or a string to find."
-msgstr ""
+msgstr "<emph>tofind</emph>: Ličba, datum abo znamješkowy rjećazk, kotrež so maja pytać."
 
 #. i4XQT
 #: sf_array.xhp
@@ -1849,7 +1851,7 @@ msgctxt ""
 "par_id311582562787187\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Jenož za přirunanja znamješkowych rjećazkow (standard = <literal>false</literal>)."
 
 #. gd5ZZ
 #: sf_array.xhp
@@ -1858,7 +1860,7 @@ msgctxt ""
 "par_id421582562794501\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\", \"DESC\" or \"\" (not sorted). The default value is \"\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Móže pak \"ASC\", \"DESC\" pak \"\" (njesortěrowany) być. Standardna hódnota je \"\"."
 
 #. AWJHj
 #: sf_array.xhp
@@ -1867,7 +1869,7 @@ msgctxt ""
 "par_id911582626951109\n"
 "help.text"
 msgid "Insert before a given index of the input array the items listed as arguments.      <br/>Arguments are inserted blindly. Each of them might be either a scalar of any type or a subarray."
-msgstr ""
+msgstr "Zasadźuje zapiski, kotrež su jako argumenty nalistowany, před datym indeksom zapidawanskeje matriksy.<br/>Argumenty so slepje zasadźuja. Kóždy z nich móhł pak skalar někajkeho typa pak podmatriks być."
 
 #. FwHz6
 #: sf_array.xhp
@@ -1876,7 +1878,7 @@ msgctxt ""
 "par_id251582626951111\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Hižo eksistowaca matriks, móže prózdna być."
 
 #. zEACt
 #: sf_array.xhp
@@ -1885,7 +1887,7 @@ msgctxt ""
 "par_id361582626951111\n"
 "help.text"
 msgid "<emph>before</emph>: The index before which to insert; must be in the interval <literal>[LBound, UBound + 1]</literal>."
-msgstr ""
+msgstr "<emph>before</emph>: Indeks, před kotrymž so ma zasadźić; dyrbi w interwalu <literal>[LBound, UBound + 1]</literal> być."
 
 #. iYFC5
 #: sf_array.xhp
@@ -1894,7 +1896,7 @@ msgctxt ""
 "par_id41582626951111\n"
 "help.text"
 msgid "<emph>arg0, arg1, ...</emph>: Items that will be inserted into <literal>array_1d</literal>."
-msgstr ""
+msgstr "<emph>arg0, arg1, ...</emph>: Zapiski, kotrež so do <literal>array_1d</literal> zasadźuja."
 
 #. rA4FE
 #: sf_array.xhp
@@ -1903,7 +1905,7 @@ msgctxt ""
 "par_id441582627664147\n"
 "help.text"
 msgid "Inserts into a sorted array a new item on its place.      <br/>The array must be filled homogeneously, meaning that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are forbidden."
-msgstr ""
+msgstr "Zasadźuje nowy zapisk do sortěrowaneje matriksy na jeho městnje.<br/>Matriks dyrbi so homogenje pjelnić, štož rěka, zo wšě zapiski dyrbja skalary samsneho typa być.<br/>Zapiski <literal>Empty</literal> a <literal>Null</literal> su zakazane."
 
 #. jBpdF
 #: sf_array.xhp
@@ -1912,7 +1914,7 @@ msgctxt ""
 "par_id121582627664147\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array into which the value will be inserted."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Matriks, do kotrejež so hódnota zasadźi."
 
 #. 36fZG
 #: sf_array.xhp
@@ -1921,7 +1923,7 @@ msgctxt ""
 "par_id315826276641480\n"
 "help.text"
 msgid "<emph>item</emph>: The scalar value to insert, of the same type as the existing array items."
-msgstr ""
+msgstr "<emph>item</emph>: Skalarowa hódnota, kotraž so ma zasadźić, samsneho typa kaž eksistowace matriksowe zapiski."
 
 #. dHYTn
 #: sf_array.xhp
@@ -1930,7 +1932,7 @@ msgctxt ""
 "par_id415826279771170\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Móže pak \"ASC\" (standard) pak \"DESC\" być."
 
 #. TJanG
 #: sf_array.xhp
@@ -1939,7 +1941,7 @@ msgctxt ""
 "par_id701582627970037\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Jenož za přirunanja znamješkowych rjećazkow (standard = <literal>false</literal>)."
 
 #. t9UFn
 #: sf_array.xhp
@@ -1948,7 +1950,7 @@ msgctxt ""
 "par_id71582629177169\n"
 "help.text"
 msgid "Build a set, as a zero-based array, by applying the intersection set operator on the two input arrays. Resulting items are contained in both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, in other words all items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Wutworja sadźbu jako matriks na bazy nula přez to, zo so operator rězneho mnóstwa na dwě zapodawanskej matriksy nałožuje. Rezultowace zapiski su we woběmaj matriksomaj wobsahowanje.<br/>Rezultowaca matriks so w postupowacym porjedźe sortěruje.<br/>Wobě zapodawanskej matriksy dyrbitej so homogenje pjelnić, hinak prajene, wšě zapiski dyrbja skalary samsneho typa być. Zapiski<literal>Empty</literal> a <literal>Null</literal> su zakazane.<br/>Tekstowe přirunanje móže na wulkopisanje dźiwać abo nic."
 
 #. vCyDN
 #: sf_array.xhp
@@ -1957,7 +1959,7 @@ msgctxt ""
 "par_id881582629216169\n"
 "help.text"
 msgid "<emph>array1_1d</emph>: The first input array."
-msgstr ""
+msgstr "<emph>array1_1d</emph>: Prěnja zapodawanska matriks."
 
 #. NhXEb
 #: sf_array.xhp
@@ -1966,7 +1968,7 @@ msgctxt ""
 "par_id191582629223038\n"
 "help.text"
 msgid "<emph>array2_1d</emph>: The second input array."
-msgstr ""
+msgstr "<emph>array2_1d</emph>: Druha zapodawanska matriks."
 
 #. Dx32U
 #: sf_array.xhp
@@ -1975,7 +1977,7 @@ msgctxt ""
 "par_id71582629230275\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Applies to arrays populated with text items (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Nałožuje so na matriksy, kotrež su z tekstowymi zapiskami wupjelnjene (standard = <literal>false</literal>)."
 
 #. cirZm
 #: sf_array.xhp
@@ -1984,7 +1986,7 @@ msgctxt ""
 "par_id431583064481679\n"
 "help.text"
 msgid "Join a two-dimensional array with two delimiters, one for the columns, one for the rows."
-msgstr ""
+msgstr "Zwjazuje dwudimensionalnu matriks z dwěmaj dźělatkomaj, jedne za špalty, jedne za linki."
 
 #. 8xwfF
 #: sf_array.xhp
@@ -1993,7 +1995,7 @@ msgctxt ""
 "par_id821583064481534\n"
 "help.text"
 msgid "<emph>array_2d</emph>: Each item must be either text, a number, a date or a boolean.      <br/>Dates are transformed into the YYYY-MM-DD hh:mm:ss format.      <br/>Invalid items are replaced by a zero-length string."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Kóždy zapisk dyrbi pak tekst, ličba, datum abo Boolowa hódnota być.<br/>Datumy so do formata LLLL-MM-DD hh:mm:ss přetworjeja.<br/>Njepłaćiwe zapiski so ze znamješkowym rjećazkom z dołhosć nul wuměnjeja."
 
 #. TiqUm
 #: sf_array.xhp
@@ -2002,7 +2004,7 @@ msgctxt ""
 "par_id171583066989446\n"
 "help.text"
 msgid "<emph>columndelimiter</emph>: Delimits each column (default = Tab/Chr(9))."
-msgstr ""
+msgstr "<emph>columndelimeter</emph>: Wotmjezuje kóždu špaltu (standard = Tab/Chr(9))."
 
 #. WG5wm
 #: sf_array.xhp
@@ -2011,7 +2013,7 @@ msgctxt ""
 "par_id431583067008842\n"
 "help.text"
 msgid "<emph>rowdelimiter</emph>: Delimits each row (default = LineFeed/Chr(10))"
-msgstr ""
+msgstr "<emph>rowdelimiter</emph>: Wotmjezuje kóždu linku (standard = LineFeed/Chr(10))"
 
 #. VrBJV
 #: sf_array.xhp
@@ -2020,7 +2022,7 @@ msgctxt ""
 "par_id541583067456273\n"
 "help.text"
 msgid "<emph>quote</emph>: If <literal>True</literal>, protect strings with double quotes. The default is <literal>False</literal>."
-msgstr ""
+msgstr "<emph>quote</emph>: Jeli <literal>True</literal>, so znamješkowe rjećazki z dwójnymi pazorkami škitaja. Standard je <literal>false</literal>."
 
 #. CEE7o
 #: sf_array.xhp
@@ -2029,7 +2031,7 @@ msgctxt ""
 "par_id731582630075045\n"
 "help.text"
 msgid "Prepend at the beginning of the input array the items listed as arguments."
-msgstr ""
+msgstr "Započina zapodawansku matriks ze zapiskami, kotrež su jako argumenty nalistowane."
 
 #. HSbWh
 #: sf_array.xhp
@@ -2038,7 +2040,7 @@ msgctxt ""
 "par_id321582630107068\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The pre-existing array, may be empty."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Hižo eksistowaca matriks, móže prózdna być."
 
 #. jszVE
 #: sf_array.xhp
@@ -2047,7 +2049,7 @@ msgctxt ""
 "par_id915826301138550\n"
 "help.text"
 msgid "<emph>arg0, arg1, ...</emph>: A list of items to prepend to <literal>array_1d</literal>."
-msgstr ""
+msgstr "<emph>arg0, arg1, ...</emph>: Lisćina zapiskow, kotrež so maja před <literal>array_1d</literal> być."
 
 #. BokfB
 #: sf_array.xhp
@@ -2056,7 +2058,7 @@ msgctxt ""
 "par_id91582643223166\n"
 "help.text"
 msgid "Prepend to the left side of a two dimension array a new column. The resulting array has the same lower boundaries as the initial two dimension array."
-msgstr ""
+msgstr "Započina lěwy bok dwudimensionalneje matriksy z nowej špaltu. Rezultowaca matriks ma samsne delnje mjezy kaž spočatna dwudimensionalna matriks."
 
 #. iBqEm
 #: sf_array.xhp
@@ -2065,7 +2067,7 @@ msgctxt ""
 "par_id621582643223545\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the last column of the resulting 2 dimension array."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Hižo eksistowaca matriks, móže prózdna być. Jeli tuta matriks ma jednu dimensiju, wobhladuje so jako poslednja špalta rezultowaceje dwudimensionalneje matriksy."
 
 #. aKJwC
 #: sf_array.xhp
@@ -2074,7 +2076,7 @@ msgctxt ""
 "par_id381582643223870\n"
 "help.text"
 msgid "<emph>column</emph>: A 1-dimensional array with as many items as there are rows in <literal>array_2d</literal>."
-msgstr ""
+msgstr "<emph>column</emph>: Jednodimensionalna matriks z telko zapiskami kaž su linki w <literal>array_2d</literal>."
 
 #. vsPSG
 #: sf_array.xhp
@@ -2083,7 +2085,7 @@ msgctxt ""
 "par_id851582643611291\n"
 "help.text"
 msgid "Prepend a new row at the beginning of a 2-dimensional array. The resulting array has the same lower boundaries as the initial 2-dimensional array."
-msgstr ""
+msgstr "Započina dwudimensionalnu matriks z nowej linku. Rezultowaca matriks ma samsne delnje mjez kaž spočatna dwudimensionalna matriks."
 
 #. g2LFC
 #: sf_array.xhp
@@ -2092,7 +2094,7 @@ msgctxt ""
 "par_id991582643611645\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The pre-existing array, may be empty. If that array has 1 dimension, it is considered as the last row of the resulting 2-dimensional array."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Hižo eksistowaca matriks, móže prózdna być. Jeli tuta matriks ma jednu dimensiju, wobhladuje so jako prěnja linka rezultowaceje dwudimensionalneje matriksy."
 
 #. RiLGr
 #: sf_array.xhp
@@ -2101,7 +2103,7 @@ msgctxt ""
 "par_id321582643611415\n"
 "help.text"
 msgid "<emph>row</emph>: A 1-dimensional array containing as many items as there are columns in <literal>array_2d</literal>."
-msgstr ""
+msgstr "<emph>row</emph>: Jednodimensionalna matriks, kotraž telko zapiski wobsahuje kaž su špalty w <literal>array_2d</literal>."
 
 #. WmxAd
 #: sf_array.xhp
@@ -2110,7 +2112,7 @@ msgctxt ""
 "par_id441582648204012\n"
 "help.text"
 msgid "Initialize a new zero-based array with numeric values."
-msgstr ""
+msgstr "Inicializuje nowu matriks na bazy nule z numeriskimi hódnotami."
 
 #. EVXVL
 #: sf_array.xhp
@@ -2119,7 +2121,7 @@ msgctxt ""
 "par_id591582648204013\n"
 "help.text"
 msgid "<emph>from</emph>: Value of the first item."
-msgstr ""
+msgstr "<emph>from</emph>: Hódnota prěnjeho zapiska."
 
 #. ciMBJ
 #: sf_array.xhp
@@ -2128,7 +2130,7 @@ msgctxt ""
 "par_id31582648204013\n"
 "help.text"
 msgid "<emph>upto</emph>: The last item should not exceed <literal>UpTo</literal>."
-msgstr ""
+msgstr "<emph>uptp</emph>: Posledni zapisk njeměł <literal>UpTo</literal> překročić."
 
 #. 2QZtd
 #: sf_array.xhp
@@ -2137,7 +2139,7 @@ msgctxt ""
 "par_id581582648204014\n"
 "help.text"
 msgid "<emph>bystep</emph>: The difference between two successive items (Default = 1)."
-msgstr ""
+msgstr "<emph>bystep</emph>: Diferenca mjez dwěmaj na so sćěhowacymaj zapiskomaj (standard = 1)."
 
 #. SbVGG
 #: sf_array.xhp
@@ -2146,7 +2148,7 @@ msgctxt ""
 "par_id451582648806764\n"
 "help.text"
 msgid "Return the reversed one dimension input array."
-msgstr ""
+msgstr "Wróći nawopačnu jednodimensionalnu zapodawansku matriks."
 
 #. dG6d8
 #: sf_array.xhp
@@ -2155,7 +2157,7 @@ msgctxt ""
 "par_id31582648806765\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to reverse."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Matriks, kotraž so wobroćić."
 
 #. tkEUv
 #: sf_array.xhp
@@ -2164,7 +2166,7 @@ msgctxt ""
 "par_id151582649200088\n"
 "help.text"
 msgid "Returns a random permutation of a one-dimensional array."
-msgstr ""
+msgstr "Wróći připadnu permutaciju jednodimensionalneje matriksy."
 
 #. xFwWY
 #: sf_array.xhp
@@ -2173,7 +2175,7 @@ msgctxt ""
 "par_id11582649200088\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to shuffle."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Matriks, kotraž so ma přeměšeć."
 
 #. BvV5v
 #: sf_array.xhp
@@ -2182,7 +2184,7 @@ msgctxt ""
 "bas_id611582649200089\n"
 "help.text"
 msgid "' Array \"a\" is now in random order, f.i. (2, 3, 1, 4)"
-msgstr ""
+msgstr "' Matriks \"a\" je nětko w připadnym porjedźe, na př. (2. 3, 1, 4)"
 
 #. GhFBG
 #: sf_array.xhp
@@ -2191,7 +2193,7 @@ msgctxt ""
 "par_id111586184185502\n"
 "help.text"
 msgid "Returns a subset of a one-dimensional array."
-msgstr ""
+msgstr "Wróći podsadźbu jednodimensionalneje matriksy."
 
 #. YeRkh
 #: sf_array.xhp
@@ -2200,7 +2202,7 @@ msgctxt ""
 "par_id201586184185438\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to slice."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Matriks, kotraž so ma dźělić."
 
 #. UzHmT
 #: sf_array.xhp
@@ -2209,7 +2211,7 @@ msgctxt ""
 "par_id921586184482370\n"
 "help.text"
 msgid "<emph>from</emph>: The lower index in <literal>array_1d</literal> of the subarray to extract (<literal>from</literal> included)"
-msgstr ""
+msgstr "<emph>from</emph>: Delni indeks w <literal>array_1d</literal> podmatriksy, kontraž so ma ekstrahować (<literal>from</literal> zapřijaty)"
 
 #. 326GB
 #: sf_array.xhp
@@ -2218,7 +2220,7 @@ msgctxt ""
 "par_id211586184471488\n"
 "help.text"
 msgid "<emph>upto</emph>: The upper index in <literal>array_1d</literal> of the subarray to extract (<literal>upto</literal> included). The default value is the upper bound of <literal>array_1d</literal>. If <literal>upto</literal> < <literal>from</literal> then the returned array is empty."
-msgstr ""
+msgstr "<emph>upto</emph>: Horni indeks w <literal>array_1d</literal> podmatriksy, kotraž so ma ekstrahować (<literal>upto</literal> zapřijaty). Standardna hódnota je hornja mjeza <literal>array_1d</literal>. Jeli <literal>upto</literal> < <literal>from</literal> , je wróćena matriks prózdna."
 
 #. oBwcF
 #: sf_array.xhp
@@ -2227,7 +2229,7 @@ msgctxt ""
 "par_id171582649483675\n"
 "help.text"
 msgid "Sort a one dimension array in ascending or descending order. Text comparisons can be case-sensitive or not.      <br/>The array must be filled homogeneously, which means that items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Sortěruje jednodimensionalnu matriks w postupowacym abo spadowacym porjedźe. Tekstowe přirunanja móža na wulkopisanje dźiwać abo nic.<br/>Matriks dyrbi homogenje wupjelnjena być, to rěka, zo zapiski dyrbja skalary samsneho typa być.<br/>Zapiski <literal>Empty</literal> a <literal>Null</literal> su dowolene. Po zwučenym wašnju je <literal>Empty</literal> < <literal>Null</literal> < někajka druha skalarowa hódnota."
 
 #. eNuB8
 #: sf_array.xhp
@@ -2236,7 +2238,7 @@ msgctxt ""
 "par_id71158264948346\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to sort."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Matriks, kotraž so ma sortěrować."
 
 #. 7S2Bq
 #: sf_array.xhp
@@ -2245,7 +2247,7 @@ msgctxt ""
 "par_id21582649483175\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Móže pak \"ASC\" (standard) pak \"DESC\" być."
 
 #. K4GrR
 #: sf_array.xhp
@@ -2254,7 +2256,7 @@ msgctxt ""
 "par_id301582649483187\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Jenož za přirunanja znamješkowych rjećazkow (standard = <literal>false</literal>)."
 
 #. 6CkrZ
 #: sf_array.xhp
@@ -2263,7 +2265,7 @@ msgctxt ""
 "par_id801582650186957\n"
 "help.text"
 msgid "Return a permutation of the columns of a two dimension array, sorted on the values of a given row.      <br/>The row must be filled homogeneously, which means that all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Wróći permutaciju špaltow dwudimensionalneje matriksy, sortěrowane po hódnotami dateje linki.<br/>Linka dyrbi homogenje wupjelnjena być, to rěka, zo wšě zapiski dyrbja skalary samsneho typa być.<br/>Zapiski <literal>Empty</literal> a <literal>Null</literal> su dowolene. Po zwučenym wašnju je <literal>Empty</literal> < <literal>Null</literal> < někajka druha skalarowa hódnota."
 
 #. ww7Us
 #: sf_array.xhp
@@ -2272,7 +2274,7 @@ msgctxt ""
 "par_id921582650186869\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The 2-dimensional array to sort."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Dwudimensionalna matriks, kotraž so ma sortěrować."
 
 #. GdFxm
 #: sf_array.xhp
@@ -2281,7 +2283,7 @@ msgctxt ""
 "par_id311582650186221\n"
 "help.text"
 msgid "<emph>rowindex</emph>: The index of the row that will be used as reference to sort the columns."
-msgstr ""
+msgstr "<emph>rowindex</emph>: Indeks linki, kotraž budźe so jako referenca za sortěrowanje špaltow wužiwać."
 
 #. toBNF
 #: sf_array.xhp
@@ -2290,7 +2292,7 @@ msgctxt ""
 "par_id34158265018698\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Móže pak \"ASC\" (standard) pak \"DESC\" być."
 
 #. BFduL
 #: sf_array.xhp
@@ -2299,7 +2301,7 @@ msgctxt ""
 "par_id91158265018699\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Jenož za přirunanja znamješkowych rjećazkow (standard = <literal>false</literal>)."
 
 #. 7GkBx
 #: sf_array.xhp
@@ -2308,7 +2310,7 @@ msgctxt ""
 "par_id751582650954576\n"
 "help.text"
 msgid "Return a permutation of the rows of a two dimension array, sorted on the values of a given column.      <br/>The column must be filled homogeneously, therefore all items must be scalars of the same type.      <br/><literal>Empty</literal> and <literal>Null</literal> items are allowed. Conventionally <literal>Empty</literal> < <literal>Null</literal> < any other scalar value."
-msgstr ""
+msgstr "Wróći permutaciju linkow dwudimensionalneje matriksy, sortěrowane po hódnotami dateje špalty.<br/>Špalta dyrbi homogenje wupjelnjena być, to rěka, zo wšě zapiski dyrbja skalary samsneho typa być.<br/>Zapiski <literal>Empty</literal> a <literal>Null</literal> su dowolene. Po zwučenym wašnju je <literal>Empty</literal> < <literal>Null</literal> < někajka druha skalarowa hódnota."
 
 #. durL8
 #: sf_array.xhp
@@ -2317,7 +2319,7 @@ msgctxt ""
 "par_id621582650954370\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The array to sort."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Matriks, kotraž so ma sortěrować."
 
 #. HZqQi
 #: sf_array.xhp
@@ -2326,7 +2328,7 @@ msgctxt ""
 "par_id361582650954796\n"
 "help.text"
 msgid "<emph>columnindex</emph>: The index of the column that will be used as reference to sort the rows."
-msgstr ""
+msgstr "<emph>columnindex</emph>: Indeks špalty, kotraž budźe so jako referenca za sortěrowanje linkow wužiwać."
 
 #. 7TDWy
 #: sf_array.xhp
@@ -2335,7 +2337,7 @@ msgctxt ""
 "par_id471582650954416\n"
 "help.text"
 msgid "<emph>sortorder</emph>: It can be either \"ASC\" (default) or \"DESC\"."
-msgstr ""
+msgstr "<emph>sortorder</emph>: Móže pak \"ASC\" (standard) pak \"DESC\" być."
 
 #. 9YDzi
 #: sf_array.xhp
@@ -2344,7 +2346,7 @@ msgctxt ""
 "par_id111582650954690\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Only for string comparisons (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Jenož za přirunanja znamješkowych rjećazkow (standard = <literal>false</literal>)."
 
 #. skzGA
 #: sf_array.xhp
@@ -2353,7 +2355,7 @@ msgctxt ""
 "par_id611582651575637\n"
 "help.text"
 msgid "Swaps rows and columns in a two-dimensional array."
-msgstr ""
+msgstr "Wuměnja linki a špalty w dwudimensionalnej matriksy."
 
 #. gcbVN
 #: sf_array.xhp
@@ -2362,7 +2364,7 @@ msgctxt ""
 "par_id61582651575188\n"
 "help.text"
 msgid "<emph>array_2d</emph>: The 2-dimensional array to transpose."
-msgstr ""
+msgstr "<emph>array_2d</emph>: Dwudimensionalna matriks, kotraž so ma transponować."
 
 #. dwAVQ
 #: sf_array.xhp
@@ -2371,7 +2373,7 @@ msgctxt ""
 "par_id181582652996483\n"
 "help.text"
 msgid "Remove from a one dimension array all <literal>Null</literal>, <literal>Empty</literal> and zero-length entries.      <br/>String items are trimmed with %PRODUCTNAME Basic <literal>Trim()</literal> function."
-msgstr ""
+msgstr "Wotstronja wšě zapiski <literal>Null</literal>, <literal>Empty</literal> a zapiski z dołhosću nul z jednodimensionalneje matriksy.<br/>Zapiski znamješkowych rjećazkow so z funkciju %PRODUCTNAME Basic <literal>Trim()</literal> přirězuja."
 
 #. L8FQg
 #: sf_array.xhp
@@ -2380,7 +2382,7 @@ msgctxt ""
 "par_id111582652996147\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The array to trim."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Matriks, kotraž so ma přirězać."
 
 #. GAC2A
 #: sf_array.xhp
@@ -2389,7 +2391,7 @@ msgctxt ""
 "par_id461582653148663\n"
 "help.text"
 msgid "Builds a set, as a zero-based array, by applying the union operator on the two input arrays. Resulting items originate from any of both arrays.      <br/>The resulting array is sorted in ascending order.      <br/>Both input arrays must be filled homogeneously, their items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Wutworja sadźbu jako matriks na bazy nula přez to, zo zjednoćenski operator na dwě zapodawanskej matriksy nałožuje. Rezultowace zapiski z wobeju matriksow pochadźeja.<br/>Rezultowaca matriks so w postupowacym porjedźe sortěruje.<br/>Wobě zapodawanskej matriksy dyrbitej homogenje wupjelnenej być, jeju zapiski dyrbja skalary samsneho typa być. Zapiski<literal>Empty</literal> a <literal>Null</literal> su zakazane.<br/>Tekstowe přirunanje móže na wulkopisanje dźiwać abo nic."
 
 #. oHeQj
 #: sf_array.xhp
@@ -2398,7 +2400,7 @@ msgctxt ""
 "par_id4715826531488\n"
 "help.text"
 msgid "<emph>array1_1d</emph>: The first input array."
-msgstr ""
+msgstr "<emph>array1_1d</emph>: Prěnja zapodawanska matriks."
 
 #. GJuXQ
 #: sf_array.xhp
@@ -2407,7 +2409,7 @@ msgctxt ""
 "par_id51158265314898\n"
 "help.text"
 msgid "<emph>array2_1d</emph>: The second input array."
-msgstr ""
+msgstr "<emph>array2_1d</emph>: Druha zapodawanska matriks."
 
 #. HNhsz
 #: sf_array.xhp
@@ -2416,7 +2418,7 @@ msgctxt ""
 "par_id821582653148126\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Applicable only if the arrays are populated with strings (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Jenož nałožujomny, jeli matriksy su ze znamješkowymi rjećazkami wupjelnjene (standard = <literal>false</literal>)."
 
 #. CGMRq
 #: sf_array.xhp
@@ -2425,7 +2427,7 @@ msgctxt ""
 "par_id221582653464565\n"
 "help.text"
 msgid "Build a set of unique values derived from the input array.      <br/>The input array must be filled homogeneously, its items must be scalars of the same type. <literal>Empty</literal> and <literal>Null</literal> items are forbidden.      <br/>Text comparison can be case sensitive or not."
-msgstr ""
+msgstr "Wutworja sadźbu jónkróćnych hódnotow, kotrež su wot zapodawanskeje matriksy wotwodźene.<br/>Zapodawanska matriks dyrbi homogenje wupjelnjene być, jeje zapiski dyrbja skalary samsneho typa być. Zapiski <literal>Empty</literal> a <literal>Null</literal> su zakazane.<br/>Tekstowe přirunanja móža na wulkopisanje dźiwać abo nic."
 
 #. bcFGM
 #: sf_array.xhp
@@ -2434,7 +2436,7 @@ msgctxt ""
 "par_id521582653464553\n"
 "help.text"
 msgid "<emph>array_1d</emph>: The input array."
-msgstr ""
+msgstr "<emph>array_1d</emph>: Zapodawanska matriks."
 
 #. MYeE2
 #: sf_array.xhp
@@ -2443,7 +2445,7 @@ msgctxt ""
 "par_id41158265346441\n"
 "help.text"
 msgid "<emph>casesensitive</emph>: Applicable only if the array is populated with strings (Default = <literal>False</literal>)."
-msgstr ""
+msgstr "<emph>casesensitive</emph>: Jenož nałožujomny, jeli matriks je ze znamješkowymi rjećazkami wupjelnjena (standard = <literal>false</literal>)."
 
 #. GAXAU
 #: sf_base.xhp
@@ -2452,7 +2454,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "SFDocuments.Base service"
-msgstr ""
+msgstr "Słužba SFDocuments.Base"
 
 #. fCppF
 #: sf_base.xhp
@@ -2461,7 +2463,7 @@ msgctxt ""
 "bm_id781582391760253\n"
 "help.text"
 msgid "<variable id=\"BaseService\"><link href=\"text/sbasic/shared/03/sf_base.xhp\"><literal>SFDocuments</literal>.<literal>Base</literal> service</link></variable>"
-msgstr ""
+msgstr "<variable id=\"BaseService\"><link href=\"text/sbasic/shared/03/sf_base.xhp\">Słužba <literal>SFDocuments</literal>.<literal>Base</literal></link></variable>"
 
 #. 4KK8s
 #: sf_base.xhp
@@ -2470,7 +2472,7 @@ msgctxt ""
 "par_id901619031958273\n"
 "help.text"
 msgid "The <literal>Base</literal> service provides a number of methods and properties to facilitate the management and handling of %PRODUCTNAME Base documents."
-msgstr ""
+msgstr "Słužba <literal>Base</literal> rjad metodow a kajkosćow skići, kotrež rjadowanje dokumentow %PRODUCTNAME Base a wobchadźenje z nimi wosnadnjeja."
 
 #. ZxoY9
 #: sf_base.xhp
@@ -2479,7 +2481,7 @@ msgctxt ""
 "par_id961619032060880\n"
 "help.text"
 msgid "This service is closely related to the <literal>Document</literal> service, which provides generic methods for handling %PRODUCTNAME documents, including Base documents. Hence, the <literal>Base</literal> service extends the <literal>Document</literal> service and provides additional methods that are specific for Base documents, enabling users to:"
-msgstr ""
+msgstr "Tuta słužba je wusko ze słužbu <literal>Document</literal> zwjazana, kotraž generiske metody za wobchadźenje z dokumentami %PRODUCTNAME skići, inkluziwnje dokumenty Base. Tohodla słužba <literal>Base</literal> słužbu <literal>Document</literal> rozšěrja a skićo přidatne metody, kotrež su specifiske za dokumenty Base a wužiwarjam zmóžnjeja:"
 
 #. EK3gt
 #: sf_base.xhp
@@ -2488,7 +2490,7 @@ msgctxt ""
 "par_id241619032289964\n"
 "help.text"
 msgid "Get access to the database contained in a Base document."
-msgstr ""
+msgstr "Přistup k datowej bance dóstać, kotraž je w dokumenće Base wobsahowana."
 
 #. y2wmE
 #: sf_base.xhp
@@ -2497,7 +2499,7 @@ msgctxt ""
 "par_id291619032292829\n"
 "help.text"
 msgid "Open form documents stored in a Base document."
-msgstr ""
+msgstr "Formularowe dokumenty wočinić, kotrež su w dokumenće Base składowane."
 
 #. cpnJ7
 #: sf_base.xhp
@@ -2506,7 +2508,7 @@ msgctxt ""
 "par_id421619032296454\n"
 "help.text"
 msgid "Check if a form document from a Base document is currently loaded."
-msgstr ""
+msgstr "Přepruwować, hač formularowy dokument z dokumenta Base je tuchwilu začitany."
 
 #. BvCkZ
 #: sf_base.xhp
@@ -2515,7 +2517,7 @@ msgctxt ""
 "par_id241619032941497\n"
 "help.text"
 msgid "Refer to the <link href=\"text/sbasic/shared/03/sf_document.xhp\"><literal>Document</literal> service</link> to learn more about methods and properties that can be used to manage %PRODUCTNAME documents."
-msgstr ""
+msgstr "Čitajće <link href=\"text/sbasic/shared/03/sf_document.xhp\">Słužba <literal>Document</literal></link>, zo byšće wjace wo metodach a kajkosćach zhonił, kotrež dadźa so za rjadowanje dokumentow %PRODUCTNAME wužiwać."
 
 #. bGpRM
 #: sf_base.xhp
@@ -2524,7 +2526,7 @@ msgctxt ""
 "hd_id581582885621841\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Wuwołanje słužby"
 
 #. AvW3k
 #: sf_base.xhp
@@ -2533,7 +2535,7 @@ msgctxt ""
 "par_id141609955500101\n"
 "help.text"
 msgid "Before using the <literal>Base</literal> service the <literal>ScriptForge</literal> library needs to be loaded or imported:"
-msgstr ""
+msgstr "Prjedy hač so słužba <literal>Base</literal> wužiwa, dyrbi so biblioteka <literal>ScriptForge</literal> začitać abo importować:"
 
 #. vi6hS
 #: sf_base.xhp
@@ -2542,7 +2544,7 @@ msgctxt ""
 "par_id311619033224680\n"
 "help.text"
 msgid "The Base service can be invoked in a variety of ways. The code snippet below uses the method <literal>CreateBaseDocument</literal> from the <literal>UI</literal> service to create a new Base file."
-msgstr ""
+msgstr "Słužba Base da do na rozdźělne wašnje wuwołać. Slědowaca kodowa šlipka metodu <literal>CreateBaseDocument</literal> ze słužby <literal>UI</literal> wužiwa, zo by nowu dataju Base wutworiła."
 
 #. t4HPk
 #: sf_base.xhp
@@ -2551,7 +2553,7 @@ msgctxt ""
 "par_id101619033666470\n"
 "help.text"
 msgid "Note that in all examples the object <literal>oDoc</literal> is an instance of the <literal>Base</literal> service."
-msgstr ""
+msgstr "Dźiwajće na to, zo we wšěch přikładach objekt <literal>oDoc</literal> je instanca słužby <literal>Base</literal>."
 
 #. hKce4
 #: sf_base.xhp
@@ -2560,7 +2562,7 @@ msgctxt ""
 "par_id281619033570656\n"
 "help.text"
 msgid "The <literal>Base</literal> service can also be instantiated while opening an existing Base file, as shown below:"
-msgstr ""
+msgstr "Słužba <literal>Base</literal> da so tež instancować, mjeztym zo so eksistowaca dataja Base wočinja, kaž deleka pokazane:"
 
 #. noxU9
 #: sf_base.xhp
@@ -2569,7 +2571,7 @@ msgctxt ""
 "par_id331619033713781\n"
 "help.text"
 msgid "If a Base document is already open, it is possible to instantiate the <literal>Base</literal> service directly:"
-msgstr ""
+msgstr "Jeli dokument Base je hižo wočinjeny, je móžno, słužbu <literal>Base</literal> direktnje instancować:"
 
 #. DrqrF
 #: sf_base.xhp
@@ -2578,7 +2580,7 @@ msgctxt ""
 "par_id871623102536956\n"
 "help.text"
 msgid "The examples above can be translated to Python as follows:"
-msgstr ""
+msgstr "Přikłady horjeka dadźa so takle do Python přełožić:"
 
 #. f8Esv
 #: sf_base.xhp
@@ -2587,7 +2589,7 @@ msgctxt ""
 "par_id281619619980185\n"
 "help.text"
 msgid "The use of the <emph>\"SFDocuments.\"</emph> substring in the previous example is optional."
-msgstr ""
+msgstr "Wužiwanje dźělny znamješkowy rjećazk <emph>\"SFDocument.\"</emph> w předchadnym přikładźe je opcionalne."
 
 #. oMw4m
 #: sf_base.xhp
@@ -2596,7 +2598,7 @@ msgctxt ""
 "par_id451619034669263\n"
 "help.text"
 msgid "List of Methods in the Base Service"
-msgstr ""
+msgstr "Lisćina metodow w słužbje Base"
 
 #. TvfQt
 #: sf_base.xhp
@@ -2605,7 +2607,7 @@ msgctxt ""
 "par_id801916099743199\n"
 "help.text"
 msgid "Closes the given form document. Returns <literal>True</literal> if closure is successful."
-msgstr ""
+msgstr "Začinja daty formularowy dokument. Wróći <literal>True</literal>, jeli začinjenje je wuspěšne."
 
 #. UCFtA
 #: sf_base.xhp
@@ -2614,7 +2616,7 @@ msgctxt ""
 "par_id81692554166441\n"
 "help.text"
 msgid "The method <literal>CloseFormDocument</literal> is deprecated since %PRODUCTNAME 7.6. Although it is still available, it may be removed from the <literal>Base</literal> service in a future release. Use the <literal>CloseDocument</literal> method from the <literal>FormDocument</literal> service instead."
-msgstr ""
+msgstr "Metoda <literal>CloseFormDocument</literal> je zestarjena wot %PRODUCTNAME 7.6. Hačrunjež je hižo k dispoziciji, budźe so snano ze słužby <literal>Base</literal> w přichodnej wersiji wotstronjeć. Wužiwajće město toho metodu <literal>CloseDocument</literal> ze słužby <literal>FormDocument</literal>."
 
 #. ycunk
 #: sf_base.xhp
@@ -2623,7 +2625,7 @@ msgctxt ""
 "par_id941619079997810\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of the <literal>FormDocument</literal> to be closed, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> Mjeno <literal>formularoweho dokumenta</literal>, kotryž so ma začinić, jako znamješkowy rjećazk, kotryž wulkopisanje wobkedźbuje."
 
 #. aLKLw
 #: sf_base.xhp
@@ -2632,7 +2634,7 @@ msgctxt ""
 "par_id351619100723505\n"
 "help.text"
 msgid "If form documents are organized in folders, it is necessary to include the folder name to specify the form document to be opened, as illustrated in the following examples:"
-msgstr ""
+msgstr "Jeli formularowe dokumenty su w rjadowakach organizowane, je trjeba, mjeno rjadowaka zapřijeć, zo by so formularowy dokument podał, kotryž so ma wočinić, kaž je w slědowacych přikładach zwobraznjene:"
 
 #. TQCNn
 #: sf_base.xhp
@@ -2641,7 +2643,7 @@ msgctxt ""
 "par_id481619036833610\n"
 "help.text"
 msgid "Returns an array with the full names (path/name) of all form documents in the Base document as a zero-based Array of strings."
-msgstr ""
+msgstr "Wróći matriks z dospołnymi mjenami (šćežka/mjeno) wšěch formularowych dokumentow w dokumenće Base jako matriks znamješkowych rjećazkow na bazy nula."
 
 #. sECnJ
 #: sf_base.xhp
@@ -2650,7 +2652,7 @@ msgctxt ""
 "par_id431619037334440\n"
 "help.text"
 msgid "The code snippet below prints the names of all form documents in the current Base document."
-msgstr ""
+msgstr "Kodowa šlipka deleka mejna wšěch formularowych dokumentow w aktualnym dokumenće Base wudawa."
 
 #. 2zKqo
 #: sf_base.xhp
@@ -2659,7 +2661,7 @@ msgctxt ""
 "par_id921619036922844\n"
 "help.text"
 msgid "To learn more about form documents, refer to <link href=\"text/sbasic/shared/03/sf_formdocument.xhp\"><literal>ScriptForge.FormDocument</literal> service</link> help page."
-msgstr ""
+msgstr "Zo byšće wjace wo formularowych dokumentach zhonił, čitajće stronu pomocy <link href=\"text/sbasic/shared/03/sf_formdocument.xhp\">słužby <literal>ScriptForge.FormDocument</literal></link>."
 
 #. gCGqW
 #: sf_base.xhp
@@ -2668,7 +2670,7 @@ msgctxt ""
 "par_id191619037523467\n"
 "help.text"
 msgid "Depending on the parameters provided this method will return:"
-msgstr ""
+msgstr "Wotwisujo wot parametrow, kotrež so k dispoziciji stajeja, so tuta metoda tole wróći:"
 
 #. HqFmT
 #: sf_base.xhp
@@ -2677,7 +2679,7 @@ msgctxt ""
 "par_id781619037575043\n"
 "help.text"
 msgid "A zero-based Array with the names of all the forms contained in a form document (if the <literal>Form</literal> argument is absent)"
-msgstr ""
+msgstr "Matriks na bazy nul z mjenami wšěch formularow, kotrež su w formularowym dokumenće wobsahowane (jeli argument <literal>Form</literal> faluje)"
 
 #. Q4Had
 #: sf_base.xhp
@@ -2686,7 +2688,7 @@ msgctxt ""
 "par_id111619037577804\n"
 "help.text"
 msgid "A <literal>SFDocuments.Form</literal> object representing the form specified in the <literal>Form</literal> argument."
-msgstr ""
+msgstr "Objekt <literal>SFDocuments.Form</literal>, kotryž formular reprezentuje, kotryž je w argumenće <literal>Form</literal> podaty."
 
 #. cifGC
 #: sf_base.xhp
@@ -2695,7 +2697,7 @@ msgctxt ""
 "par_id81692554166191\n"
 "help.text"
 msgid "The method <literal>Forms</literal> is deprecated since %PRODUCTNAME 7.6. Although it is still available, it may be removed from the <literal>Base</literal> service in a future release. Use the <literal>Forms</literal> method from the <literal>FormDocument</literal> service instead."
-msgstr ""
+msgstr "Metoda <literal>Forms</literal> je zestarjena wot %PRODUCTNAME 7.6. Hačrunjež je hižo k dispoziciji, budźe so snano ze słužby <literal>Base</literal> w přichodnej wersiji wotstronjeć. Wužiwajće město toho metodu <literal>Forms</literal> ze słužby <literal>FormDocument</literal>."
 
 #. pEtwt
 #: sf_base.xhp
@@ -2704,7 +2706,7 @@ msgctxt ""
 "par_id861619037838260\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of a valid form document as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> Mjeno płaćiweho formularoweho dokumenta jako znamješkowy rjećazk, kotryž wulkopisanje wobkedźbuje."
 
 #. L3csm
 #: sf_base.xhp
@@ -2713,7 +2715,7 @@ msgctxt ""
 "par_id281619037857187\n"
 "help.text"
 msgid "<emph>form:</emph> The name or index number of the form stored in the form document. If this argument is absent, the method will return a list with the names of all forms available in the form document."
-msgstr ""
+msgstr "<emph>form:</emph> Mjeno abo indeksowe čisło formulara, kotrež je w formularowym dokumenće składowane. Jeli tutón argument faluje, metoda lisćinu z mjenami wšěch formularow wróći, kotrež su w formularowym dokumenće k dispoziciji."
 
 #. K4nQh
 #: sf_base.xhp
@@ -2722,7 +2724,7 @@ msgctxt ""
 "par_id921619437863617\n"
 "help.text"
 msgid "Although it is possible to use index numbers to refer to forms, this is only recommended when there is just one form in the form document. If there are two or more forms, it is preferable to use the form name instead."
-msgstr ""
+msgstr "Hačrunjež je móžno, indeksowe čisła wužiwać, zo bychu na formulary wotkazuja, je to jenož poručene, hdyž je jenož jedyn formular w formularowym dokumenće. Jeli stej dwaj formularaj abo wjace, je lěpje, formularowe mjeno město toho wužiwać."
 
 #. DoxrV
 #: sf_base.xhp
@@ -2731,7 +2733,7 @@ msgctxt ""
 "par_id21623104676805\n"
 "help.text"
 msgid "The first line of the example below returns a list of all forms in the form document \"myFormDocument\". The second line returns an instance of the Form service representing the form \"myForm\"."
-msgstr ""
+msgstr "Prěnja linka slědowaceho přikłada lisćinu wšěch formularow w formularowym dokumenće \"myFormDocument\" wróći. Druha linka instancu słužby Form wróći, kotraž formular \"myForm\" reprezentuje."
 
 #. MGjWj
 #: sf_base.xhp
@@ -2740,7 +2742,7 @@ msgctxt ""
 "par_id371619098340303\n"
 "help.text"
 msgid "Returns an instance of the <link href=\"text/sbasic/shared/03/sf_database.xhp\"><literal>Database</literal> service</link> that allows the execution of SQL commands on the database defined and/or stored in the current Base document"
-msgstr ""
+msgstr "Wróći instancu <link href=\"text/sbasic/shared/03/sf_database.xhp\">słužby <literal>Database</literal></link>, kotraž wuwjedźenje přikazow SQL w datowej bance dowoluje, kotraž je w aktualnym dokumenće Base definowana a/abo składowana."
 
 #. 9Bncy
 #: sf_base.xhp
@@ -2749,7 +2751,7 @@ msgctxt ""
 "par_id731619098073221\n"
 "help.text"
 msgid "<emph>user, password:</emph> Optional login parameters as strings. The default value for both parameters is an empty string \"\"."
-msgstr ""
+msgstr "<emph>user, password:</emph> Opcionalne přizjewjenske parametry jako znamješkowe rjećazki. Standardna hódnota za wobaj parametraj je prózdny znamješkowy rjećazk \"\"."
 
 #. UbzRD
 #: sf_base.xhp
@@ -2758,7 +2760,7 @@ msgctxt ""
 "bas_id631615147843278\n"
 "help.text"
 msgid "' User and password are supplied below, if needed"
-msgstr ""
+msgstr "' Wužiwar a hesło so deleka podawatej, jeli trjeba"
 
 #. XBJVn
 #: sf_base.xhp
@@ -2767,7 +2769,7 @@ msgctxt ""
 "bas_id921599408791887\n"
 "help.text"
 msgid "'   ... Run queries, SQL statements, ..."
-msgstr ""
+msgstr "' … Wotprašowanja wuwjesć, SQL-přikazy, …"
 
 #. eRmFK
 #: sf_base.xhp
@@ -2776,7 +2778,7 @@ msgctxt ""
 "pyc_id351623104861223\n"
 "help.text"
 msgid "#   ... Run queries, SQL statements, ..."
-msgstr ""
+msgstr "# … Wotprašowanja wuwjesć, SQL-přikazy, …"
 
 #. mBphD
 #: sf_base.xhp
@@ -2785,7 +2787,7 @@ msgctxt ""
 "par_id871619098478513\n"
 "help.text"
 msgid "Returns <literal>True</literal> if the specified <literal>FormDocument</literal> is  currently open."
-msgstr ""
+msgstr "Wróći <literal>True</literal>, jeli podaty <literal>formularowy dokument</literal> je tuchwilu wočinjeny."
 
 #. njjFg
 #: sf_base.xhp
@@ -2794,7 +2796,7 @@ msgctxt ""
 "par_id981619098545701\n"
 "help.text"
 msgid "<emph>formdocument:</emph> The name of a <literal>FormDocument</literal> to be checked, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formdocument:</emph> Mjeno za <literal>FormDocument</literal>, kotryž so ma přepruwować, jako znamješkowy rjećazk, kotryž wulkopisanje wobkedźbuje."
 
 #. vzCvY
 #: sf_base.xhp
@@ -2803,7 +2805,7 @@ msgctxt ""
 "par_id801619099743199\n"
 "help.text"
 msgid "Opens the specified <literal>FormDocument</literal> either in normal or in design mode. This method returns a <literal>FormDocument</literal> service instance corresponding to the specified form document."
-msgstr ""
+msgstr "Wočinja podaty <literal>FormDocument</literal> pak w normalnym pak w naćiskowym modusu. Tuta metoda słužbowu instancu <literal>FormDocument</literal> wróći, kotraž podatemu formularowemu dokumentej wotpowěduje."
 
 #. UEGjL
 #: sf_base.xhp
@@ -2812,7 +2814,7 @@ msgctxt ""
 "par_id451619100075330\n"
 "help.text"
 msgid "If the form document is already open, it is activated without changing its mode."
-msgstr ""
+msgstr "Jeli formularowy dokument je hižo wočinjeny, aktiwizuje so, bjeztoho zo by so jeho modus změnił."
 
 #. ZGYRs
 #: sf_base.xhp
@@ -2821,7 +2823,7 @@ msgctxt ""
 "par_id651692554712005\n"
 "help.text"
 msgid "If the specified form document does not exist, then <literal>Nothing</literal> is returned."
-msgstr ""
+msgstr "Jeli podaty formularowy dokument njeeksistuje, so <literal>Nothing</literal> wróći."
 
 #. dUE6w
 #: sf_base.xhp
@@ -2830,7 +2832,7 @@ msgctxt ""
 "par_id941619099797810\n"
 "help.text"
 msgid "<emph>formDocument:</emph> The name of the <literal>FormDocument</literal> to be opened, as a case-sensitive string."
-msgstr ""
+msgstr "<emph>formDocument:</emph> Mjeno za <literal>FormDocument</literal>, kotryž so ma wočinić, jako znamješkowy rjećazk, kotryž wulkopisanje wobkedźbuje."
 
 #. Coxpu
 #: sf_base.xhp
