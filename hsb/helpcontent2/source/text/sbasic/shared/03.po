@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-10-16 12:00+0200\n"
-"PO-Revision-Date: 2025-11-03 09:50+0000\n"
+"PO-Revision-Date: 2025-11-03 12:01+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Upper Sorbian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/hsb/>\n"
 "Language: hsb\n"
@@ -5719,7 +5719,7 @@ msgctxt ""
 "par_id361652271022681\n"
 "help.text"
 msgid "For example, suppose range <emph>A1:J200</emph> is selected (width = 10), so the default formula is <emph>=(COUNTBLANK(A1:J1)=10)</emph>. This means that if all 10 cells are empty in the first row (Row 1), then the row is deleted. Note that the formula is expressed with respect to the first row only. Internally the <literal>CompactUp</literal> method will generalize this formula for all the remaining rows."
-msgstr ""
+msgstr "Připušćmy na přikład, zo so wobłuk <emph>A1:J200</emph> wuběra (šěrokosć = 10), da standardna formla je <emph>=(COUNTBLANK(A1:J1)=10)</emph>. To rěka, zo, jeli wšě 10 celow su prózdne w prěnjej lince (linka 1), so linka zhaša. Dźiwajće na to, zo so formla jenož nastupajo prěnju linku zwuraznja. Internje metoda <literal>CompactUp</literal> tutu formlu za wšě zbytne linki generalizuje."
 
 #. BxmHj
 #: sf_calc.xhp
@@ -5728,7 +5728,7 @@ msgctxt ""
 "par_id431657568414714\n"
 "help.text"
 msgid "The Calc functions used in the formula specified in the <literal>filterformula</literal> argument must be expressed using their English names. Visit the Wiki page <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/List_of_Functions\">List of Calc Functions</link> for a complete list of Calc functions in English."
-msgstr ""
+msgstr "Funkcije Calc, kotrež so w argumenće <literal>filterformula</literal> wužiwaja, dyrbja so z pomocu swojich jendźelskich mjenow zwuraznić. Wopytajće wikijowu stronu <link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/List_of_Functions\">Lisćina funkcijow Calc</link> za dospołnu lisćinu funkcijow Calc jendźelsce."
 
 #. GuWzD
 #: sf_calc.xhp
@@ -5737,7 +5737,7 @@ msgctxt ""
 "bas_id941652271391554\n"
 "help.text"
 msgid "' Delete all empty rows in the range G1:L10 from Sheet1"
-msgstr ""
+msgstr "' Wšě prózdne linki we wobłuku G1:L10 ze Sheet1 zhašeć"
 
 #. GBrKx
 #: sf_calc.xhp
@@ -5746,7 +5746,7 @@ msgctxt ""
 "bas_id691652271390789\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\")"
-msgstr ""
+msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\")"
 
 #. FV3Ev
 #: sf_calc.xhp
@@ -5755,7 +5755,7 @@ msgctxt ""
 "bas_id921652271392567\n"
 "help.text"
 msgid "' The example below is similar, but the entire row is deleted from the sheet"
-msgstr ""
+msgstr "' Slědowacy přikład je podobny, ale cyła linka so z tabele zhaša"
 
 #. Y5YVh
 #: sf_calc.xhp
@@ -5764,7 +5764,7 @@ msgctxt ""
 "bas_id941652271392553\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", WholeRow := True)"
-msgstr ""
+msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", WholeRow := True)"
 
 #. mFqmA
 #: sf_calc.xhp
@@ -5773,7 +5773,7 @@ msgctxt ""
 "bas_id751652271393117\n"
 "help.text"
 msgid "' Deletes all rows where the first column is marked with an \"X\""
-msgstr ""
+msgstr "' Zhaša wšě linki, hdźež prěnja špalta je z \"X\" markěrowana"
 
 #. gJQRm
 #: sf_calc.xhp
@@ -5782,7 +5782,7 @@ msgctxt ""
 "bas_id761652271393034\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
-msgstr ""
+msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
 
 #. DoDfJ
 #: sf_calc.xhp
@@ -5791,7 +5791,7 @@ msgctxt ""
 "bas_id241652271725065\n"
 "help.text"
 msgid "' Deletes all rows where the sum of values in the row is odd"
-msgstr ""
+msgstr "' Zhaša wšě linki, hdźež suma hódnotow w lince je njeruna"
 
 #. zXErV
 #: sf_calc.xhp
@@ -5800,7 +5800,7 @@ msgctxt ""
 "bas_id531652271726010\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:L1);2)=1)\")"
-msgstr ""
+msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:L1);2)=1)\")"
 
 #. Mcwq5
 #: sf_calc.xhp
@@ -5809,7 +5809,7 @@ msgctxt ""
 "pyc_id451621536612227\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\")"
-msgstr ""
+msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\")"
 
 #. tXmJD
 #: sf_calc.xhp
@@ -5818,7 +5818,7 @@ msgctxt ""
 "pyc_id201652272121288\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", wholerow = True)"
-msgstr ""
+msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", wholerow = True)"
 
 #. WZ3XF
 #: sf_calc.xhp
@@ -5827,7 +5827,7 @@ msgctxt ""
 "pyc_id781652272122931\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(G1=\"X\")')"
-msgstr ""
+msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(G1=\"X\")')"
 
 #. 4DfG9
 #: sf_calc.xhp
@@ -5836,7 +5836,7 @@ msgctxt ""
 "pyc_id731652272123109\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(MOD(SUM(G1:L1);2)=1)')"
-msgstr ""
+msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(MOD(SUM(G1:L1);2)=1)')"
 
 #. n6vJD
 #: sf_calc.xhp
@@ -5845,7 +5845,7 @@ msgctxt ""
 "par_id591591631693816\n"
 "help.text"
 msgid "Copies a specified sheet before an existing sheet or at the end of the list of sheets. The sheet to be copied may be contained inside any <emph>open</emph> Calc document. Returns <literal>True</literal> if successful."
-msgstr ""
+msgstr "Kopěruje podatu tabelu před eksistowacu tabelu abo na kónc lisćiny tabelow. Tabela, kotraž so ma kopěrować, móže we <emph>wočinjenym</emph> dokumenće Calc wobsahowana być. Wróći <literal>True</literal>, jeli kopěrowanje je wuspěšne."
 
 #. YqGL2
 #: sf_calc.xhp
@@ -5854,7 +5854,7 @@ msgctxt ""
 "par_id871591631693741\n"
 "help.text"
 msgid "<emph>sheetname</emph>: The name of the sheet to be copied as a string or its reference as an object."
-msgstr ""
+msgstr "<emph>sheetname</emph>: Mjeno tabele, kotraž so ma jako znamješkowy rjećazk abo jeje referenca jako objekt kopěrować."
 
 #. 5cEGG
 #: sf_calc.xhp
@@ -5863,7 +5863,7 @@ msgctxt ""
 "par_id351591632126180\n"
 "help.text"
 msgid "<emph>newname</emph>: The name of the sheet to insert. The name must not be in use in the document."
-msgstr ""
+msgstr "<emph>newname</emph>: Mjeno tabele, kotraž so ma zasadźić. Mjeno njesmě so w dokumenće wužiwać."
 
 #. 8sSno
 #: sf_calc.xhp
@@ -5872,7 +5872,7 @@ msgctxt ""
 "par_id211591632192379\n"
 "help.text"
 msgid "<emph>beforesheet</emph>: The name (string) or index (numeric, starting from 1) of the sheet before which to insert the copied sheet. This argument is optional and the default behavior is to add the copied sheet at the last position."
-msgstr ""
+msgstr "<emph>beforesheet</emph>: Mjeno (znamješkowy rjećazk) abo indeks (numeriski, započinajo z 1) tabele, před kotrejž so ma kopěrowana tabela zasadźić. Tutón argument je opcionalny a standardne zadźerženje je, zo so kopěrowana tabela na poslednjej poziciji přidawa."
 
 #. yuvEn
 #: sf_calc.xhp
@@ -5881,7 +5881,7 @@ msgctxt ""
 "par_id961591632309410\n"
 "help.text"
 msgid "The following example makes a copy of the sheet \"SheetX\" and places it as the last sheet in the current document. The name of the copied sheet is \"SheetY\"."
-msgstr ""
+msgstr "Slědowacy přikład kopiju tabele \"SheetX\" wutworja a pozicioněruje ju jako poslednju tabelu w aktualnym dokumenće. Mjeno kopěrowaneje tabele je \"SheetY\"."
 
 #. pqVdW
 #: sf_calc.xhp
@@ -5890,7 +5890,7 @@ msgctxt ""
 "bas_id231611706034607\n"
 "help.text"
 msgid "'Gets the Document object of the active window"
-msgstr ""
+msgstr "' Wotwołuje objekt Document aktiwneho wokna"
 
 #. xUG9G
 #: sf_calc.xhp
