@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2025-10-29 12:14+0100\n"
+"POT-Creation-Date: 2025-11-18 17:38+0100\n"
 "PO-Revision-Date: 2025-11-18 13:54+0000\n"
 "Last-Translator: Henk van der Burg <h.vdburg@hccnet.nl>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/nl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1565421340.000000\n"
 
 #. yzNBP
@@ -45090,14 +45090,14 @@ msgctxt ""
 msgid "Icons on the <emph>Standard</emph> toolbar"
 msgstr "Pictogrammen op de werkbalk <emph>Standaard</emph>"
 
-#. KUCks
+#. wHKmF
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "tit\n"
 "help.text"
-msgid "Options"
-msgstr "Opties"
+msgid "Sort Options"
+msgstr ""
 
 #. JZn45
 #: 12030200.xhp
@@ -45108,23 +45108,23 @@ msgctxt ""
 msgid "<bookmark_value>sorting; options for database ranges</bookmark_value><bookmark_value>sorting;Asian languages</bookmark_value><bookmark_value>Asian languages;sorting</bookmark_value><bookmark_value>phonebook sorting rules</bookmark_value><bookmark_value>natural sort algorithm</bookmark_value>"
 msgstr "<bookmark_value>sorteren; opties voor database reeksen</bookmark_value><bookmark_value>sorteren;Aziatische talen</bookmark_value><bookmark_value>Aziatische talen;sorteren</bookmark_value><bookmark_value>sorteringsregels voor telefoonboek </bookmark_value><bookmark_value>natuurlijk sorteringsalgoritme</bookmark_value>"
 
-#. pAX2Z
+#. LdxAd
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "hd_id3147228\n"
 "help.text"
-msgid "<link href=\"text/scalc/01/12030200.xhp\"> Options</link>"
-msgstr "<link href=\"text/scalc/01/12030200.xhp\">Opties</link>"
+msgid "<link href=\"text/scalc/01/12030200.xhp\">Sort Options</link>"
+msgstr ""
 
-#. wDVj5
+#. iAwqR
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "par_id3153770\n"
 "help.text"
-msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/SortOptionsPage\"> Sets additional sorting options.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/SortOptionsPage\"> Stelt extra sorteeropties in.</ahelp>"
+msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/SortOptionsPage\">Sets additional sorting options such as natural sorting, locale for sorting, handling columns boundaries, sort results location and more.</ahelp>"
+msgstr ""
 
 #. TFqUq
 #: 12030200.xhp
@@ -45135,14 +45135,23 @@ msgctxt ""
 msgid "Case sensitive"
 msgstr "Hoofdlettergevoelig"
 
-#. YzZru
+#. PyFfC
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "par_id3153091\n"
 "help.text"
-msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\">Sorts first by uppercase letters and then by lowercase letters. For Asian locales, special handling applies.</ahelp>"
-msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\">Sorteert eerst op hoofdletters en vervolgens op kleine letters. Voor Aziatische landen geldt een speciale behandeling.</ahelp>"
+msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\">Sorting follows the collation rules of the document locale. In most Western locales, lowercase letters appear before uppercase letters, while in others, the order is reversed</ahelp>. For example, in the English (USA) locale, the order is 'a', 'A', 'b', 'B'. In the Danish locale, however, the order is 'A', 'a', 'B', 'b'."
+msgstr ""
+
+#. XqRJg
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"par_id601762788960637\n"
+"help.text"
+msgid "%PRODUCTNAME uses collation rules based on the International Components for Unicode (ICU). For detailed collation information specific to your document locale, visit <link href=\"https://icu4c-demos.unicode.org/icu-bin/collation.html#legend\">https://icu4c-demos.unicode.org/icu-bin/collation.html#legend</link>."
+msgstr ""
 
 #. Xv9Pk
 #: 12030200.xhp
@@ -45198,14 +45207,68 @@ msgctxt ""
 msgid "Enable natural sort"
 msgstr "Natuurlijke sortering inschakelen"
 
-#. tDCyT
+#. RSkCp
 #: 12030200.xhp
 msgctxt ""
 "12030200.xhp\n"
 "par_id3149378\n"
 "help.text"
-msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/naturalsort\">Natural sort is a sort algorithm that sorts string-prefixed numbers based on the value of the numerical element in each sorted number, instead of the traditional way of sorting them as ordinary strings.</ahelp> For instance, let's assume you have a series of values such as, A1, A2, A3, A4, A5, A6, ..., A19, A20, A21. When you put these values into a range of cells and run the sort, it will become A1, A11, A12, A13, ..., A19, A2, A20, A21, A3, A4, A5, ..., A9. While this sorting behavior may make sense to those who understand the underlying sorting mechanism, to the rest of the population it seems completely bizarre, if not outright inconvenient. With the natural sort feature enabled, values such as the ones in the above example get sorted \"properly\", which improves the convenience of sorting operations in general."
-msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/naturalsort\">Natuurlijke sortering is een soort algoritme dat getallen voorafgegaan door tekens sorteert op de waarde van het numerieke element in elk te sorteren getal in plaats van te sorteren op de normale manier als gewone tekenreeksen.</ahelp> Bijvoorbeeld, laten we aannemen dat u een aantal waardes heeft als: A1, A2, A3, A4, A5, A6, ..., A19, A20, A21. Als u deze waardes in een cellenbereik plaatst en sorteert, zal de uitkomst zijn: A1, A11, A12, A13, ..., A19, A2, A20, A21, A3, A4, A5, ..., A9. Alhoewel dit sorteergedrag logisch zal zijn voor diegene, die het sorteermechanisme kent, voor velen zal het onbegrijpelijk zijn. Met de ingeschakelde optie Natuurlijke sortering inschakelen, worden de waardes uit bovenstaand voorbeeld netjes gesorteerd, hetgeen het gemak van sorteringen over het algemeen verbetert."
+msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/naturalsort\">Natural sorting is an algorithm that orders string-prefixed numbers by their numerical value, rather than treating them as plain text for comparison.</ahelp>"
+msgstr ""
+
+#. axWRS
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"par_id961762374380866\n"
+"help.text"
+msgid "Example: the series of values A1, A15, A9, A4, A5, A17, ..., A2, A13, A21 when <emph>sorted in natural order</emph> becomes"
+msgstr ""
+
+#. Eizjz
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"par_id601762374401049\n"
+"help.text"
+msgid "The same set of values not sorted naturally becomes"
+msgstr ""
+
+#. UgEZm
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"hd_id431762372773602\n"
+"help.text"
+msgid "Recognize decimal separator"
+msgstr ""
+
+#. WERoR
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"par_id201762373514680\n"
+"help.text"
+msgid "The decimal separator character, which varies by locale, when included in the number that follows the text, indicate that it is a decimal number. For example: A1.14, A1.2, A2.5, A10 (with a dot as the separator)."
+msgstr ""
+
+#. DKJSC
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"hd_id591762372844039\n"
+"help.text"
+msgid "Decimal separator as regular character"
+msgstr ""
+
+#. 84gPE
+#: 12030200.xhp
+msgctxt ""
+"12030200.xhp\n"
+"par_id191762373791747\n"
+"help.text"
+msgid "The decimal separator character, which varies by locale, does not indicate a decimal number when included in the following text; instead, it is treated as a regular character. For example, A1.14 contains character 'A', number 1, character '.' and number 14."
+msgstr ""
 
 #. SJjo2
 #: 12030200.xhp
@@ -81494,6 +81557,41 @@ msgctxt ""
 "help.text"
 msgid "<menuitem>Optimal View</menuitem>: resizes the display to fit the width and height of the selected cells. The enlargement or reduction are limited to the minimum and maximum zoom factors. If only one cell is selected then it will zoom to 100%."
 msgstr "<menuitem>Optimale weergave</menuitem>: past de grootte van het scherm aan zodat het past bij de breedte en hoogte van de geselecteerde cellen. De vergroting of verkleining is beperkt tot de minimale en maximale zoomfactoren. Als er slechts één cel is geselecteerd, zoomt deze in tot 100%."
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "tit\n"
+#~ "help.text"
+#~ msgid "Options"
+#~ msgstr "Opties"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "hd_id3147228\n"
+#~ "help.text"
+#~ msgid "<link href=\"text/scalc/01/12030200.xhp\"> Options</link>"
+#~ msgstr "<link href=\"text/scalc/01/12030200.xhp\">Opties</link>"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "par_id3153770\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/SortOptionsPage\"> Sets additional sorting options.</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/SortOptionsPage\"> Stelt extra sorteeropties in.</ahelp>"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "par_id3153091\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\">Sorts first by uppercase letters and then by lowercase letters. For Asian locales, special handling applies.</ahelp>"
+#~ msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/case\">Sorteert eerst op hoofdletters en vervolgens op kleine letters. Voor Aziatische landen geldt een speciale behandeling.</ahelp>"
+
+#~ msgctxt ""
+#~ "12030200.xhp\n"
+#~ "par_id3149378\n"
+#~ "help.text"
+#~ msgid "<ahelp hid=\"modules/scalc/ui/sortoptionspage/naturalsort\">Natural sort is a sort algorithm that sorts string-prefixed numbers based on the value of the numerical element in each sorted number, instead of the traditional way of sorting them as ordinary strings.</ahelp> For instance, let's assume you have a series of values such as, A1, A2, A3, A4, A5, A6, ..., A19, A20, A21. When you put these values into a range of cells and run the sort, it will become A1, A11, A12, A13, ..., A19, A2, A20, A21, A3, A4, A5, ..., A9. While this sorting behavior may make sense to those who understand the underlying sorting mechanism, to the rest of the population it seems completely bizarre, if not outright inconvenient. With the natural sort feature enabled, values such as the ones in the above example get sorted \"properly\", which improves the convenience of sorting operations in general."
+#~ msgstr "<ahelp hid=\"modules/scalc/ui/sortoptionspage/naturalsort\">Natuurlijke sortering is een soort algoritme dat getallen voorafgegaan door tekens sorteert op de waarde van het numerieke element in elk te sorteren getal in plaats van te sorteren op de normale manier als gewone tekenreeksen.</ahelp> Bijvoorbeeld, laten we aannemen dat u een aantal waardes heeft als: A1, A2, A3, A4, A5, A6, ..., A19, A20, A21. Als u deze waardes in een cellenbereik plaatst en sorteert, zal de uitkomst zijn: A1, A11, A12, A13, ..., A19, A2, A20, A21, A3, A4, A5, ..., A9. Alhoewel dit sorteergedrag logisch zal zijn voor diegene, die het sorteermechanisme kent, voor velen zal het onbegrijpelijk zijn. Met de ingeschakelde optie Natuurlijke sortering inschakelen, worden de waardes uit bovenstaand voorbeeld netjes gesorteerd, hetgeen het gemak van sorteringen over het algemeen verbetert."
 
 #~ msgctxt ""
 #~ "04060109.xhp\n"
