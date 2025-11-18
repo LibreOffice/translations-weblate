@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-07-04 13:11+0200\n"
-"PO-Revision-Date: 2025-11-18 07:54+0000\n"
-"Last-Translator: Henk van der Burg <h.vdburg@hccnet.nl>\n"
+"PO-Revision-Date: 2025-11-18 16:57+0000\n"
+"Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-25-8/textscalc01/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -19933,7 +19933,7 @@ msgctxt ""
 "par_id541624454496424\n"
 "help.text"
 msgid "You can \"escape\" the double quotation mark with an additional double quotation mark, and Calc treats the escaped double quotation mark as a literal value. For example, the formula <input>=\"My name is \"\"John Doe\"\".\"</input> outputs the string <literal>My name is \"John Doe\".</literal> Another simple example is the formula <input>=UNICODE(\"\"\"\")</input> which returns <literal>34</literal>, the decimal value of the Unicode quotation mark character (U+0022) — here the first and fourth double quotation marks indicate the beginning and end of the string, while the second double quotation mark escapes the third."
-msgstr "U kunt het dubbele aanhalingsteken \"ontsnappen\" met een extra dubbel aanhalingsteken, en Calc behandelt het dubbele aanhalingsteken met escapetekens als een letterlijke waarde. Bijvoorbeeld, de formule <input>=\"Mijn naam is \"\"John Doe\"\".\"</input> geeft de tekenreeks <literal>Mijn naam is \"John Doe\".</literal> Een ander eenvoudig voorbeeld is de formule <input>=UNICODE(\"\"\"\")</input> wat <literal>34</literal> retourneert, de decimale waarde van het Unicode-aanhalingsteken (U+0022) — hier geven de eerste en vierde dubbele aanhalingstekens de begin en einde van de tekenreeks, terwijl het tweede dubbele aanhalingsteken aan de derde ontsnapt."
+msgstr "U kunt het dubbele aanhalingsteken \"realiseren\" met een extra dubbel aanhalingsteken, en Calc behandelt het dubbele aanhalingsteken als een letterlijke waarde. Bijvoorbeeld, de formule <input>=\"Mijn naam is \"\"John Doe\"\".\"</input> geeft de tekenreeks <literal>Mijn naam is \"John Doe\".</literal> Een ander eenvoudig voorbeeld is de formule <input>=UNICODE(\"\"\"\")</input> wat <literal>34</literal> retourneert, de decimale waarde van het Unicode-aanhalingsteken (U+0022) — hier geven de eerste en vierde dubbele aanhalingstekens het begin en einde van de tekenreeks, terwijl het tweede dubbele aanhalingsteken en de derde de aanhalingstekens rond de naam plaatsen."
 
 #. MfLZn
 #: 04060110.xhp
@@ -19942,7 +19942,7 @@ msgctxt ""
 "par_id21624454513641\n"
 "help.text"
 msgid "You can use the CHAR function or the UNICHAR function to insert a double quotation mark. For example, the formula <input>=UNICHAR(34) & \"The Catcher in the Rye\" & UNICHAR(34) & \" is a famous book by J. D. Salinger.\"</input> displays the string <literal>\"The Catcher in the Rye\" is a famous book by J. D. Salinger.</literal>"
-msgstr "U kunt de functies TEKEN of UNITEKEN gebruiken om een dubbel aanhalingsteken in te voegen. Bijvoorbeeld, de formule <input>=UNITEKEN(34) & \"The Catcher in the Rye\" & UNITEKEN(34) & \" is een beroemd boek van JD Salinger.\"</input> geeft de tekenreeks <literal>\"The Catcher\" weer in the Rye\" is een beroemd boek van JD Salinger.</literal>"
+msgstr "U kunt de functies TEKEN of UNITEKEN gebruiken om een dubbel aanhalingsteken in te voegen. Bijvoorbeeld, de formule <input>=UNITEKEN(34) & \"The Catcher in the Rye\" & UNITEKEN(34) & \" is een beroemd boek van JD Salinger.\"</input> geeft de tekenreeks <literal>\"The Catcher weer in the Rye\" is een beroemd boek van JD Salinger.</literal>"
 
 #. wDvCT
 #: 04060110.xhp
@@ -19951,7 +19951,7 @@ msgctxt ""
 "par_id401624454547945\n"
 "help.text"
 msgid "Be aware that Calc's AutoCorrect function may modify double quotation marks. AutoCorrect should not change the double quotation marks within formula cells but may change those used in non-formula cells containing text. For example, if you copy a string that is surrounded by some other form of typographical double quotation marks, such as the left double quotation mark (U+201C) and the right double quotation mark (U+201D), and then paste into a formula cell, an error may result. Open the <emph>Double Quotes</emph> area of the <menuitem>Tools - AutoCorrect Options - Localized Options</menuitem> dialog to set the characters used to automatically correct the start and end typographical double quotation marks. Uncheck the <menuitem>Replace</menuitem> toggle button to disable the feature."
-msgstr "Houd er rekening mee dat de AutoCorrectie-functie van Calc dubbele aanhalingstekens kan wijzigen. AutoCorrectie zou de dubbele aanhalingstekens in formulecellen niet moeten wijzigen, maar kan de aanhalingstekens die worden gebruikt in niet-formulecellen die tekst bevatten, wijzigen. Als u bijvoorbeeld een tekenreeks kopieert die is omgeven door een andere vorm van typografische dubbele aanhalingstekens, zoals het dubbele dubbele aanhalingsteken links (U+201C) en het rechter dubbele aanhalingsteken (U+201D), en vervolgens in een formulecel, kan er een fout optreden. Open het gebied <emph>Dubbele aanhalingstekens</emph> op het blad Taalopties van het dialoogvenster <menuitem>Extra - AutoCorrectie - Opties voor AutoCorrectie</menuitem> om de tekens in te stellen die worden gebruikt om de typografische dubbele aanhalingstekens aan het begin en einde automatisch te corrigeren. Schakel de schakelknop <menuitem>Vervangen</menuitem> uit om de functie uit te schakelen."
+msgstr "Houd er rekening mee dat de AutoCorrectie-functie van Calc dubbele aanhalingstekens kan wijzigen. AutoCorrectie zou de dubbele aanhalingstekens in formulecellen niet moeten wijzigen, maar kan de aanhalingstekens die worden gebruikt in niet-formulecellen die tekst bevatten, wijzigen. Als u bijvoorbeeld een tekenreeks kopieert die is omgeven door een andere vorm van typografische dubbele aanhalingstekens, zoals het linker dubbele aanhalingsteken (U+201C) en het rechter dubbele aanhalingsteken (U+201D), en vervolgens in een formulecel, kan er een fout optreden. Open het gedeelte <emph>Dubbele aanhalingstekens</emph> op het blad Taalopties van het dialoogvenster <menuitem>Extra - Opties voor AutoCorrectie</menuitem> om de tekens in te stellen die worden gebruikt om de typografische dubbele aanhalingstekens aan het begin en einde automatisch te corrigeren. Schakel de schakelknop <menuitem>Vervangen</menuitem> uit om de functie uit te schakelen."
 
 #. mtsYd
 #: 04060110.xhp
@@ -55681,7 +55681,7 @@ msgctxt ""
 "par_id71584446760037\n"
 "help.text"
 msgid "<variable id=\"string255_1\">String 1 [; String 2 [; …  [; String 255]]]</variable>"
-msgstr "<variable id=\"string255_1\">Tekst 1 [; Tekst 2 [; …  [; Tekst 255]]]</variable>"
+msgstr "<variable id=\"string255_1\">Tekst 1; Tekst 2 (optioneel); …</variable>"
 
 #. BB6Tk
 #: ful_func.xhp
@@ -55735,7 +55735,7 @@ msgctxt ""
 "par_id101584447970004\n"
 "help.text"
 msgid "<variable id=\"number255_1\">Number 1 [; Number 2 [; … [; Number 255]]]</variable>"
-msgstr "<variable id=\"number255_1\">Getal 1; Getal 2 (optioneel); …</variable>"
+msgstr "<variable id=\"number255_1\">Getal 1; Getal 2 (optioneel); … </variable>"
 
 #. FjFBG
 #: ful_func.xhp
@@ -55753,7 +55753,7 @@ msgctxt ""
 "par_id291584447988879\n"
 "help.text"
 msgid "<variable id=\"logical255_1\">Logical 1 [; Logical 2 [; … [; Logical 255]]]</variable>"
-msgstr "<variable id=\"logical255_1\">Logische waarde 1 [; Logische waarde 2 [; … [; Logische waard 255]]]</variable>"
+msgstr "<variable id=\"logical255_1\">Logische waarde 1; Logische waarde 2 (optioneel); ...</variable>"
 
 #. sEMha
 #: ful_func.xhp
@@ -57148,7 +57148,7 @@ msgctxt ""
 "par_id1539353\n"
 "help.text"
 msgid "<emph>Number</emph> is any number. \"Baht\" is appended to the integral part of the number, and \"Satang\" is appended to the decimal part of the number."
-msgstr "<emph>Getal</emph> is een willekeurig getal. \"Baht\" wordt toegevoegd aan het integrale deel van het getal, en \"Satang\" wordt toegevoegd aan het decimale deel van het getal."
+msgstr "<emph>Getal</emph> is een willekeurig getal. \"baht\" wordt toegevoegd aan het integrale deel van het getal, en \"satang\" wordt toegevoegd aan het decimale deel van het getal."
 
 #. uDALX
 #: func_bahttext.xhp
@@ -57157,7 +57157,7 @@ msgctxt ""
 "par_id3289284\n"
 "help.text"
 msgid "<item type=\"input\">=BAHTTEXT(12.65)</item> returns a string in Thai characters with the meaning of \"Twelve Baht and sixty five Satang\"."
-msgstr "<item type=\"input\">=BAHT.TEKST(12,65)</item> retourneert een tekenreeks in Thaise tekens met de betekenis van \"Twaalf Baht en vijfenzestig Satang\"."
+msgstr "<item type=\"input\">=BAHT.TEKST(12,65)</item> retourneert een tekenreeks in Thaise tekens met de betekenis van \"Twaalf baht en vijfenzestig satang\"."
 
 #. zdjKC
 #: func_bahttext.xhp
@@ -57247,7 +57247,7 @@ msgctxt ""
 "par_id3148746\n"
 "help.text"
 msgid "<emph>MinimumLength</emph> (optional) determines the minimum length of the character sequence that has been created. If the text is shorter than the indicated minimum length, zeros are added to the left of the string."
-msgstr "<emph>MinimumLengte</emph> (optioneel) bepaalt de minimale lengte van de tekenreeks die is gemaakt. Als de tekst korter is dan de aangegeven minimumlengte, worden er nullen toegevoegd aan de linkerkant van de tekenreeks."
+msgstr "<emph>Minimumlengte</emph> (optioneel) bepaalt de minimale lengte van de tekenreeks die is gemaakt. Als de tekst korter is dan de aangegeven minimumlengte, worden er nullen toegevoegd aan de linkerkant van de tekenreeks."
 
 #. KMAk4
 #: func_base.xhp
@@ -58183,7 +58183,7 @@ msgctxt ""
 "par_id581621538151600\n"
 "help.text"
 msgid "<input>=LEN(CLEAN(CHAR(7) & \"LibreOffice Calc\" & CHAR(8)))</input> returns 16, showing that the CLEAN function removes the non-printable Unicode U+0007 (\"BEL\") and U+0008 (\"BS\") characters at the beginning and end of the string argument. CLEAN does not remove spaces."
-msgstr "<input>=LENGTE(WISSEN.CONTROL(TEKEN(7) & \"LibreOffice Calc\" & TEKEN(8)))</input> retourneert 16, wat aangeeft dat de functie WISSEN.CONTROL de niet-afdrukbare Unicode U+0007 (\"BEL\") verwijdert en U+0008 (\"BS\") tekens aan het begin en einde van het tekenreeksargument. WISSEN.CONTROL verwijdert geen spaties."
+msgstr "<input>=LENGTE(WISSEN.CONTROL(TEKEN(7) & \"LibreOffice Calc\" & TEKEN(8)))</input> retourneert 16, wat aangeeft dat de functie WISSEN.CONTROL de niet-afdrukbare Unicode U+0007 (\"BEL\") verwijdert en U+0008 (\"Backspace\") tekens aan het begin en einde van het tekenreeksargument. WISSEN.CONTROL verwijdert geen spaties."
 
 #. K6ajd
 #: func_clean.xhp
@@ -58525,7 +58525,7 @@ msgctxt ""
 "par_id781585222554150\n"
 "help.text"
 msgid "<emph>String 1[; String 2][; … ;[String 255]]</emph> are strings or references to cells containing strings."
-msgstr "<emph>Tekenreeks 1[; Tekenreeks 2][; … ;[Tekenreeks 255]]</emph> zijn tekenreeksen of verwijzingen naar cellen die tekenreeksen bevatten."
+msgstr "<emph>Tekst 1; Tekst 2 (optioneel); …</emph> zijn tekenreeksen of verwijzingen naar cellen die tekenreeksen bevatten."
 
 #. BBiEJ
 #: func_concatenate.xhp
@@ -58534,7 +58534,7 @@ msgctxt ""
 "par_id3150008\n"
 "help.text"
 msgid "<item type=\"input\">=CONCATENATE(\"Good \";\"Morning \";\"Mrs. \";\"Doe\")</item> returns: Good Morning Mrs. Doe."
-msgstr "<item type=\"input\">=TEKST.SAMENVOEGEN(\"Goede \";\"morgen \";\"mevr. \";\"Jansen\")</item> geeft: Goede morgen mevr. Jansen."
+msgstr "<item type=\"input\">=TEKST.SAMENVOEGEN(\"Goede\";\"morgen \";\"mevr. \";\"Jansen\")</item> geeft: Goede morgen mevr. Jansen."
 
 #. UUciQ
 #: func_concatenate.xhp
@@ -61252,7 +61252,7 @@ msgctxt ""
 "par_id3156361\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_DEZIMAL\">Converts text that represents a number in a <link href=\"text/shared/00/00000005.xhp#number_system\">numeral system</link> with the given base radix to a positive integer.</ahelp> The radix must be in the range 2 to 36. Spaces and tabs are ignored. The <emph>Text</emph> field is not case-sensitive."
-msgstr "<ahelp hid=\"HID_FUNC_DEZIMAL\">Converteert tekst die een getal vertegenwoordigt in een <link href=\"text/shared/00/00000005.xhp#number_system\">numeriek systeem</link> met de gegeven basisgrondtal naar een positief geheel getal. </ahelp> Het grondtal moet tussen 2 en 36 liggen. Spaties en tabs worden genegeerd. Het veld <emph>Tekst</emph> is niet hoofdlettergevoelig."
+msgstr "<ahelp hid=\"HID_FUNC_DEZIMAL\">Converteert tekst die een getal vertegenwoordigt in een <link href=\"text/shared/00/00000005.xhp#number_system\">numeriek systeem</link> met het gegeven basisgrondtal naar een positief geheel getal. </ahelp> Het grondtal moet tussen 2 en 36 liggen. Spaties en tabs worden genegeerd. Het veld <emph>Tekst</emph> is niet hoofdlettergevoelig."
 
 #. 8DEhr
 #: func_decimal.xhp
