@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-07-04 13:11+0200\n"
-"PO-Revision-Date: 2025-11-22 08:54+0000\n"
-"Last-Translator: Henk van der Burg <h.vdburg@hccnet.nl>\n"
+"PO-Revision-Date: 2025-11-23 21:54+0000\n"
+"Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-25-8/textscalc01/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -20455,7 +20455,7 @@ msgctxt ""
 "par_id3154651\n"
 "help.text"
 msgid "DAYSINYEAR(Date)"
-msgstr "DAGENINJAAR(Datum)"
+msgstr "DAGENINJAAR(\"Datum\")"
 
 #. 68qrS
 #: 04060111.xhp
@@ -20473,7 +20473,7 @@ msgctxt ""
 "par_id3153811\n"
 "help.text"
 msgid "=DAYSINYEAR(A1) returns 366 days if A1 contains 1968-02-29, a valid date for the year 1968."
-msgstr "=DAGENINJAAR(A1) geeft 366 dagen terug als A1 1968-02-29 bevat, een geldige datum voor het jaar 1968."
+msgstr "=DAGENINJAAR(29-02-1968) geeft als uitkomst 365. =DAGENINJAAR(\"29-2-1968\") geeft als uitkomst 366."
 
 #. nszrR
 #: 04060111.xhp
@@ -20518,7 +20518,7 @@ msgctxt ""
 "par_id3150955\n"
 "help.text"
 msgid "DAYSINMONTH(Date)"
-msgstr "DAGENINMAAND(Datum)"
+msgstr "DAGENINMAAND(\"Datum\")"
 
 #. bgX8N
 #: 04060111.xhp
@@ -20581,7 +20581,7 @@ msgctxt ""
 "par_id3147402\n"
 "help.text"
 msgid "WEEKS(StartDate; EndDate; Type)"
-msgstr "WEKEN(Begindatum; Einddatum; Type)"
+msgstr "WEKEN(\"Begindatum\"; \"Einddatum\"; Type)"
 
 #. uwhoB
 #: 04060111.xhp
@@ -20725,7 +20725,7 @@ msgctxt ""
 "par_id3145638\n"
 "help.text"
 msgid "WEEKSINYEAR(Date)"
-msgstr "WEKENINJAAR(Datum)"
+msgstr "WEKENINJAAR(\"Datum\")"
 
 #. wB2Qe
 #: 04060111.xhp
@@ -22309,7 +22309,7 @@ msgctxt ""
 "par_id050220171019072953\n"
 "help.text"
 msgid "=BESSELI(3.45, 4.333), returns 0.651416873060081, same as above because the fractional part of N is ignored."
-msgstr "=BESSEL.I(3,45; 4,333), geeft 0,651416873060081, net als hierboven omdat het fractionele deel van N wordt genegeerd."
+msgstr "=BESSEL.I(3,45; 4,333), geeft 0,651416873060081, net als hierboven omdat het fractionele deel van Positief geheel getal wordt genegeerd."
 
 #. 8yEjN
 #: 04060115.xhp
@@ -22354,7 +22354,7 @@ msgctxt ""
 "par_id3150032\n"
 "help.text"
 msgid "BESSELJ(X; N)"
-msgstr "BESSEL.J(Positieve waarde; Positief geheel getal)"
+msgstr "BESSEL.J(Waarde; Positief geheel getal)"
 
 #. DSCBX
 #: 04060115.xhp
@@ -22399,7 +22399,7 @@ msgctxt ""
 "par_id050220171019079818\n"
 "help.text"
 msgid "=BESSELJ(-1, 3), returns -0.019563353982668"
-msgstr "=BESSEL.J(-1, 3), geeft -0,019563353982668"
+msgstr "=BESSEL.J(-1; 3), geeft -0,019563353982668"
 
 #. xVEFS
 #: 04060115.xhp
@@ -22462,7 +22462,7 @@ msgctxt ""
 "par_id050220171019073898\n"
 "help.text"
 msgid "=BESSELK(3.45, 4), returns 0.144803466373734"
-msgstr "=BESSEL.K(3,45, 4), geeft 0,144803466373734"
+msgstr "=BESSEL.K(3,45; 4), geeft 0,144803466373734"
 
 #. jAEzA
 #: 04060115.xhp
@@ -22471,7 +22471,7 @@ msgctxt ""
 "par_id050220171019079889\n"
 "help.text"
 msgid "=BESSELK(3.45, 4.333), returns 0.144803466373734, same as above because the fractional part of N is ignored."
-msgstr "=BESSEL.K(3,45, 4,333), geeft 0,144803466373734, hetzelfde als hierboven, omdat het breukgedeelte van Positief geheel getal wordt genegeerd."
+msgstr "=BESSEL.K(3,45; 4,333), geeft 0,144803466373734, hetzelfde als hierboven, omdat het breukgedeelte van Positief geheel getal wordt genegeerd."
 
 #. vCmda
 #: 04060115.xhp
@@ -22480,7 +22480,7 @@ msgctxt ""
 "par_id050220171019076471\n"
 "help.text"
 msgid "=BESSELK(0, 3), returns Err:502 – invalid argument (X=0)"
-msgstr "=BESSEL.K(0, 3), geeft Err:502 – ongeldig argument (Positieve waarde=0)"
+msgstr "=BESSEL.K(0; 3), geeft Fout:502 – ongeldig argument (Positieve waarde=0)"
 
 #. PndsN
 #: 04060115.xhp
@@ -22543,7 +22543,7 @@ msgctxt ""
 "par_id050220171019081114\n"
 "help.text"
 msgid "=BESSELY(3.45, 4), returns -0.679848116844476"
-msgstr "=BESSEL.Y(3,45, 4), geeft -0,679848116844476"
+msgstr "=BESSEL.Y(3,45; 4), geeft -0,679848116844476"
 
 #. ajsaF
 #: 04060115.xhp
@@ -22552,7 +22552,7 @@ msgctxt ""
 "par_id050220171019081288\n"
 "help.text"
 msgid "=BESSELY(3.45, 4.333), returns -0.679848116844476, same as above because the fractional part of N is ignored."
-msgstr "=BESSEL.Y(3,45, 4,333), geeft -0,679848116844476, hetzelfde als hierboven, omdat het breukgedeelte van Positief geheel getal wordt genegeerd."
+msgstr "=BESSEL.Y(3,45; 4,333), geeft -0,679848116844476, hetzelfde als hierboven, omdat het breukgedeelte van Positief geheel getal wordt genegeerd."
 
 #. Gzo4f
 #: 04060115.xhp
@@ -22561,7 +22561,7 @@ msgctxt ""
 "par_id050220171019082347\n"
 "help.text"
 msgid "=BESSELY(0, 3), returns Err:502 – invalid argument (X=0)"
-msgstr "=BESSEL.Y(0, 3), geeft Err:502 – ongeldig argument (Positieve waarde=0)"
+msgstr "=BESSEL.Y(0; 3), geeft Fout:502 – ongeldig argument (Positieve waarde=0)"
 
 #. su6yN
 #: 04060115.xhp
@@ -22597,7 +22597,7 @@ msgctxt ""
 "par_id3149726\n"
 "help.text"
 msgid "BIN2DEC(Number)"
-msgstr "BIN.N.DEC(Getal)"
+msgstr "BIN.N.DEC(\"Getal\")"
 
 #. futL2
 #: 04060115.xhp
@@ -22741,7 +22741,7 @@ msgctxt ""
 "par_id3153733\n"
 "help.text"
 msgid "<item type=\"input\">=BIN2OCT(\"1100100\";4)</item> returns \"0144\"."
-msgstr "<item type=\"input\">=BIN.N.OCT(\"1100100\";4)</item> retourneert 0144."
+msgstr "<item type=\"input\">=BIN.N.OCT(\"1100100\";4)</item> retourneert \"0144\"."
 
 #. 6Prkx
 #: 04060115.xhp
@@ -23308,7 +23308,7 @@ msgctxt ""
 "par_id3156002\n"
 "help.text"
 msgid "<item type=\"input\">=HEX2BIN(\"6a\";8)</item> returns \"01101010\"."
-msgstr "<item type=\"input\">=HEX.N.BIN(\"6a\";8)</item> retourneert 01101010."
+msgstr "<item type=\"input\">=HEX.N.BIN(\"6a\";8)</item> retourneert \"01101010\"."
 
 #. 8Exy5
 #: 04060115.xhp
@@ -23362,7 +23362,7 @@ msgctxt ""
 "par_id3146093\n"
 "help.text"
 msgid "<item type=\"input\">=HEX2DEC(\"6a\")</item> returns 106."
-msgstr "<item type=\"input\">=HEX.N.DEC(6a)</item> geeft 106 terug."
+msgstr "<item type=\"input\">=HEX.N.DEC(\"6a\")</item> geeft 106 terug."
 
 #. fh2wp
 #: 04060115.xhp
@@ -23416,7 +23416,7 @@ msgctxt ""
 "par_id3149204\n"
 "help.text"
 msgid "<emph>Places</emph> is the number of places to be output."
-msgstr "<emph>Aantal decimalen (optioneel)</emph> is het aantal plaatsen dat moet worden uitgevoerd."
+msgstr "<emph>Aantal tekens</emph> (optioneel) is het aantal plaatsen dat moet worden uitgevoerd."
 
 #. nPHCR
 #: 04060115.xhp
@@ -23425,7 +23425,7 @@ msgctxt ""
 "par_id3159341\n"
 "help.text"
 msgid "<item type=\"input\">=HEX2OCT(\"6a\";4)</item> returns \"0152\"."
-msgstr "<item type=\"input\">=HEX.N.OCT(\"6a\";4)</item> retourneert 0152."
+msgstr "<item type=\"input\">=HEX.N.OCT(\"6a\";4)</item> retourneert \"0152\"."
 
 #. J65Mw
 #: 04060116.xhp
@@ -60433,7 +60433,7 @@ msgctxt ""
 "par_id22736248573471\n"
 "help.text"
 msgid "<item type=\"input\">=COUNTIFS(B2:B6;\"[:alpha:]*\")</item>"
-msgstr "<item type=\"input\">=AANTALLEN.ALS(B2:B6;\"[:Alfa:]*\")</item>"
+msgstr "<item type=\"input\">=AANTALLEN.ALS(B2:B6;\"[:Alpha:]*\")</item>"
 
 #. yiHkH
 #: func_countifs.xhp
@@ -64411,7 +64411,7 @@ msgctxt ""
 "par_id164021484116762\n"
 "help.text"
 msgid "IMCOS(Complex_number)"
-msgstr "C.COS(Complex getal)"
+msgstr "C.COS(\"Complex getal\")"
 
 #. ZeGkF
 #: func_imcos.xhp
@@ -64681,7 +64681,7 @@ msgctxt ""
 "par_id30461169611909\n"
 "help.text"
 msgid "IMCSC(Complex_number)"
-msgstr "C.COSEC(Complex getal)"
+msgstr "C.COSEC(\"Complex getal\")"
 
 #. QjHYk
 #: func_imcsc.xhp
