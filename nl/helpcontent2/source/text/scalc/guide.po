@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2024-11-30 17:36+0100\n"
-"PO-Revision-Date: 2025-11-29 18:54+0000\n"
-"Last-Translator: Henk van der Burg <h.vdburg@hccnet.nl>\n"
+"PO-Revision-Date: 2025-11-30 19:54+0000\n"
+"Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-25-8/textscalcguide/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
@@ -7250,7 +7250,7 @@ msgctxt ""
 "par_id3150871\n"
 "help.text"
 msgid "To calculate annual interest (I), create a table with the values for the capital (C), number of years (n), and interest rate (i). The formula is:"
-msgstr "Maak een tabel met de waardes voor het kapitaal (K), het aantal jaren (n) en de rentevoet (r) om de jaarlijkse rente (R) te berekenen. De formule is:"
+msgstr "Maak een tabel met de waardes voor het kapitaal (K) (100.000 in B1), het aantal jaren (n) (1 in B2) en de rentevoet (r) (7.5% in B3) om de jaarlijkse rente (R) (7.500 in B4) te berekenen. De formule is:"
 
 #. cSY4A
 #: goalseek.xhp
@@ -7268,7 +7268,7 @@ msgctxt ""
 "par_id3155335\n"
 "help.text"
 msgid "Let us assume that the interest rate <item type=\"literal\">i</item> of 7.5% and the number of years <item type=\"literal\">n</item> (1) will remain constant. However, you want to know how much the investment capital <item type=\"literal\">C</item> would have to be modified in order to attain a particular return <item type=\"literal\">I</item>. For this example, calculate how much capital <item type=\"literal\">C</item> would be required if you want an annual return of $15,000."
-msgstr "Stel dat de rentevoet <item type=\"literal\">r</item> van 7,5% en het aantal jaren <item type=\"literal\">n</item> (1) jaar constant blijft. U wilt echter weten met welk bedrag het investeringskapitaal <item type=\"literal\">K</item> gewijzigd moet worden om een bepaalde opbrengst<item type=\"literal\">R</item> te verkrijgen. In dit voorbeeld wordt berekend hoeveel kapitaal <item type=\"literal\">K</item> vereist is als u een jaarlijkse opbrengst van 15.000 EURO wilt bereiken."
+msgstr "Stel dat de rentevoet <item type=\"literal\">r</item> van 7,5% (B3) en het aantal jaren <item type=\"literal\">n</item> (1) (B2) jaar constant blijft. U wilt echter weten met welk bedrag het investeringskapitaal <item type=\"literal\">K</item> gewijzigd moet worden om een bepaalde opbrengst<item type=\"literal\">R</item> (B4) te verkrijgen. In dit voorbeeld wordt berekend hoeveel kapitaal <item type=\"literal\">K</item> vereist is als u een jaarlijkse opbrengst van 15.000 EURO wilt bereiken."
 
 #. E8wVE
 #: goalseek.xhp
@@ -7277,7 +7277,7 @@ msgctxt ""
 "par_id3155960\n"
 "help.text"
 msgid "Enter each of the values for Capital <item type=\"literal\">C</item> (an arbitrary value like <item type=\"literal\">$100,000</item>), number of years <item type=\"literal\">n </item>(<item type=\"literal\">1</item>), and interest rate <item type=\"literal\">i</item> (<item type=\"literal\">7.5%</item>) in one cell each. Enter the formula to calculate the interest <item type=\"literal\">I</item> in another cell. Instead of <item type=\"literal\">C</item>, <item type=\"literal\">n</item>, and <item type=\"literal\">i</item> use the <link href=\"text/scalc/guide/relativ_absolut_ref.xhp\">reference to the cell</link> with the corresponding value."
-msgstr "Voer elk van de waardes in voor Kapitaal <item type=\"literal\">K</item> (een willekeurige waarde als <item type=\"literal\">€ 100.000</item>), aantal jaren <item type=\"literal\">n </item>(<item type=\"literal\">1</item>), en rentevoet <item type=\"literal\">i</item> (<item type=\"literal\">7,5%</item>) in aparte cellen. Voer de formule in om de rente <item type=\"literal\">R</item> in een andere cel te berekenen. In plaats van <item type=\"literal\">K</item>, <item type=\"literal\">n</item> en <item type=\"literal\">r</item> kunt u de <link href=\"text/scalc/guide/relativ_absolut_ref.xhp\">verwijzing naar de cel</link> met de overeenkomstige waarde gebruiken."
+msgstr "Voer elk van de waardes in voor Kapitaal <item type=\"literal\">K</item> (B1) (een willekeurige waarde als <item type=\"literal\">€ 100.000</item>), aantal jaren <item type=\"literal\">n </item>(<item type=\"literal\">1</item>) (B2), en rentevoet <item type=\"literal\">i</item> (<item type=\"literal\">7,5%</item> (B3)) in aparte cellen. Voer de formule in om de rente <item type=\"literal\">R</item> (B4) in een andere cel te berekenen. In plaats van <item type=\"literal\">K</item>, <item type=\"literal\">n</item> en <item type=\"literal\">r</item> kunt u de <link href=\"text/scalc/guide/relativ_absolut_ref.xhp\">verwijzing naar de cel</link> met de overeenkomstige waarde gebruiken."
 
 #. ETmjE
 #: goalseek.xhp
@@ -7286,7 +7286,7 @@ msgctxt ""
 "par_id3147001\n"
 "help.text"
 msgid "Place the cursor in the cell containing the interest <item type=\"literal\">I</item>, and choose <emph>Tools - Goal Seek</emph>. The <emph>Goal Seek</emph> dialog appears."
-msgstr "Plaats de cursor in de cel met de gemaakte formule <item type=\"literal\">(R)</item>, en kies <emph>Extra - Doel zoeken</emph>. Het dialoogvenster <emph>Doel zoeken</emph> verschijnt."
+msgstr "Plaats de cursor in de cel met de gemaakte formule <item type=\"literal\">(R)</item> (=nu de gemaakte formule (R)) (B4), en kies <emph>Extra - Doel zoeken</emph>. Het dialoogvenster <emph>Doel zoeken</emph> verschijnt."
 
 #. AuvJG
 #: goalseek.xhp
@@ -7304,7 +7304,7 @@ msgctxt ""
 "par_id3166426\n"
 "help.text"
 msgid "Place the cursor in the field <emph>Variable Cell</emph>. In the sheet, click in the cell that contains the value to be changed, in this example it is the cell with the capital value <item type=\"literal\">C</item>."
-msgstr "Plaats de cursor in het veld <emph>Variabele cel</emph>. Klik in het blad op de cel met de waarde die gewijzigd moet worden. In dit voorbeeld is dit de cel met de kapitaalwaarde <item type=\"literal\">(K)</item>."
+msgstr "Plaats de cursor in het veld <emph>Variabele cel</emph>. Klik in het blad op de cel met de waarde die gewijzigd moet worden. In dit voorbeeld is dit de cel met de kapitaalwaarde <item type=\"literal\">(K)</item> (B1)."
 
 #. UGtG2
 #: goalseek.xhp
