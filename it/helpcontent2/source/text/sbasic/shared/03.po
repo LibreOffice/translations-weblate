@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-05-05 11:59+0200\n"
-"PO-Revision-Date: 2025-08-05 18:53+0000\n"
-"Last-Translator: Valter Mura <valtermura@gmail.com>\n"
+"PO-Revision-Date: 2025-12-09 15:54+0000\n"
+"Last-Translator: Marco Marega <marco.marega@libreitalia.it>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-25-8/textsbasicshared03/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -5553,12 +5553,13 @@ msgstr "' Elimina tutte le colonne vuote nell'intervallo G1:L10 del foglio Sheet
 
 #. huH9x
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "bas_id691652271390762\n"
 "help.text"
 msgid "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\")"
-msgstr "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\")"
+msgstr "newrange = oDoc.CompactLeft(\"Foglio1.G1:L10\")"
 
 #. 2BkcC
 #: sf_calc.xhp
@@ -5571,12 +5572,13 @@ msgstr "' L'esempio seguente è simile, ma dal foglio viene eliminata l'intera c
 
 #. 6GoCu
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "bas_id941652271392873\n"
 "help.text"
 msgid "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", WholeColumn := True)"
-msgstr "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", WholeColumn := True)"
+msgstr "newrange = oDoc.CompactLeft(\"Foglio1.G1:L10\", WholeColumn := True)"
 
 #. KfQRA
 #: sf_calc.xhp
@@ -5589,12 +5591,13 @@ msgstr "' Elimina tutte le colonne in cui la prima riga è contrassegnata con un
 
 #. fLJ7y
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "bas_id761652271393514\n"
 "help.text"
 msgid "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
-msgstr "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
+msgstr "newrange = oDoc.CompactLeft(\"Foglio1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
 
 #. UqpQB
 #: sf_calc.xhp
@@ -5607,48 +5610,53 @@ msgstr "' Elimina tutte le colonne in cui la somma dei valori della colonna è d
 
 #. 5rxDM
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "bas_id531652271726131\n"
 "help.text"
 msgid "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:G10);2)=1)\")"
-msgstr "newrange = oDoc.CompactLeft(\"Sheet1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:G10);2)=1)\")"
+msgstr "newrange = oDoc.CompactLeft(\"Foglio1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:G10);2)=1)\")"
 
 #. i4ux6
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "pyc_id451621536612334\n"
 "help.text"
 msgid "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\")"
-msgstr "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\")"
+msgstr "newrange = myDoc.CompactLeft(\"Foglio1.G1:L10\")"
 
 #. j5kGd
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "pyc_id201652272121176\n"
 "help.text"
 msgid "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", wholecolumn = True)"
-msgstr "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", wholecolumn = True)"
+msgstr "newrange = myDoc.CompactLeft(\"Foglio1.G1:L10\", wholecolumn = True)"
 
 #. pBca4
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "pyc_id781652272122794\n"
 "help.text"
 msgid "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", filterformula = '=(G1=\"X\")')"
-msgstr "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", filterformula = '=(G1=\"X\")')"
+msgstr "newrange = myDoc.CompactLeft(\"Foglio1.G1:L10\", filterformula = '=(G1=\"X\")')"
 
 #. VGAj6
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "pyc_id731652272123209\n"
 "help.text"
 msgid "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", filterformula = '=(MOD(SUM(G1:G10);2)=1)')"
-msgstr "newrange = myDoc.CompactLeft(\"Sheet1.G1:L10\", filterformula = '=(MOD(SUM(G1:G10);2)=1)')"
+msgstr "newrange = myDoc.CompactLeft(\"Foglio1.G1:L10\", filterformula = '=(MOD(SUM(G1:G10);2)=1)')"
 
 #. vqJ5B
 #: sf_calc.xhp
@@ -5742,12 +5750,13 @@ msgstr "' Elimina tutte le righe vuote nell'intervallo G1:L10 del foglio Sheet1"
 
 #. GBrKx
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "bas_id691652271390789\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\")"
-msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\")"
+msgstr "newrange = oDoc.CompactUp(\"Foglio1.G1:L10\")"
 
 #. FV3Ev
 #: sf_calc.xhp
@@ -5760,12 +5769,13 @@ msgstr "' L'esempio seguente è simile, ma dal foglio viene eliminata l'intera r
 
 #. Y5YVh
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "bas_id941652271392553\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", WholeRow := True)"
-msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", WholeRow := True)"
+msgstr "newrange = oDoc.CompactUp(\"Foglio1.G1:L10\", WholeRow := True)"
 
 #. mFqmA
 #: sf_calc.xhp
@@ -5778,12 +5788,13 @@ msgstr "' Elimina tutte le righe nelle quali la prima colonna è contrassegnata 
 
 #. gJQRm
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "bas_id761652271393034\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
-msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
+msgstr "newrange = oDoc.CompactUp(\"Foglio1.G1:L10\", FilterFormula := \"=(G1=\"\"X\"\")\")"
 
 #. DoDfJ
 #: sf_calc.xhp
@@ -5796,48 +5807,53 @@ msgstr "' Elimina tutte le righe in cui la somma dei valori della riga è dispar
 
 #. zXErV
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "bas_id531652271726010\n"
 "help.text"
 msgid "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:L1);2)=1)\")"
-msgstr "newrange = oDoc.CompactUp(\"Sheet1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:L1);2)=1)\")"
+msgstr "newrange = oDoc.CompactUp(\"Foglio1.G1:L10\", FilterFormula := \"=(MOD(SUM(G1:L1);2)=1)\")"
 
 #. Mcwq5
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "pyc_id451621536612227\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\")"
-msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\")"
+msgstr "newrange = myDoc.CompactUp(\"Foglio1.G1:L10\")"
 
 #. tXmJD
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "pyc_id201652272121288\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", wholerow = True)"
-msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", wholerow = True)"
+msgstr "newrange = myDoc.CompactUp(\"Foglio1.G1:L10\", wholerow = True)"
 
 #. WZ3XF
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "pyc_id781652272122931\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(G1=\"X\")')"
-msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(G1=\"X\")')"
+msgstr "newrange = myDoc.CompactUp(\"Foglio1.G1:L10\", filterformula = '=(G1=\"X\")')"
 
 #. 4DfG9
 #: sf_calc.xhp
+#, fuzzy
 msgctxt ""
 "sf_calc.xhp\n"
 "pyc_id731652272123109\n"
 "help.text"
 msgid "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(MOD(SUM(G1:L1);2)=1)')"
-msgstr "newrange = myDoc.CompactUp(\"Sheet1.G1:L10\", filterformula = '=(MOD(SUM(G1:L1);2)=1)')"
+msgstr "newrange = myDoc.CompactUp(\"Foglio1.G1:L10\", filterformula = '=(MOD(SUM(G1:L1);2)=1)')"
 
 #. n6vJD
 #: sf_calc.xhp
@@ -18896,7 +18912,7 @@ msgctxt ""
 "par_id451587141202844\n"
 "help.text"
 msgid "Report the error in the <literal>Exception</literal> console"
-msgstr "Riportare l'errore nella console <literal>Exception</literal>"
+msgstr "Riportare l'errore nella console <literal>Exception</literal>."
 
 #. N9X2f
 #: sf_exception.xhp
@@ -18905,7 +18921,7 @@ msgctxt ""
 "par_id751587141235313\n"
 "help.text"
 msgid "Inform the user about the error using either a standard message or a custom message"
-msgstr "Informare l'utente in merito all'errore usando un messaggio standard o personalizzato"
+msgstr "Informare l'utente in merito all'errore usando un messaggio standard o personalizzato."
 
 #. C3NMD
 #: sf_exception.xhp
@@ -18914,7 +18930,7 @@ msgctxt ""
 "par_id931587141260777\n"
 "help.text"
 msgid "Optionally stop its execution"
-msgstr "Opzionalmente interrompere la propria esecuzione"
+msgstr "Opzionalmente interrompere la propria esecuzione."
 
 #. vFJRL
 #: sf_exception.xhp
