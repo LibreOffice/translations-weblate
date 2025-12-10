@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2025-10-16 12:00+0200\n"
+"POT-Creation-Date: 2025-12-10 15:42+0100\n"
 "PO-Revision-Date: 2025-12-10 14:52+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Upper Sorbian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/hsb/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 
 #. ViEWM
 #: avail_release.xhp
@@ -16656,14 +16656,14 @@ msgctxt ""
 msgid "A dictionary is a collection of key-item pairs"
 msgstr "Słownik je zběrka porow klučowych zapiskow."
 
-#. fZDre
+#. CQUYn
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "par_id861582884516571\n"
 "help.text"
-msgid "The key is a case-insensitive string"
-msgstr "Kluč je znamješkowy rjećazk, kotryž na wulkopisanje dźiwa."
+msgid "The key is a string. In Basic scripts, the case sensitivity of the key is determined at Dictionary creation. In Python scripts, the key is always case-sensitive."
+msgstr ""
 
 #. 2AdDG
 #: sf_dictionary.xhp
@@ -16683,14 +16683,14 @@ msgctxt ""
 msgid "Keys and items can be retrieved, counted, updated, and much more."
 msgstr "Kluče a zapiski dadźa so wotwołać, ličić, aktualizować a wjele wjace."
 
-#. LtaTT
+#. oY6bP
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "par_id971582884636922\n"
 "help.text"
-msgid "The Dictionary service is similar to the built-in %PRODUCTNAME Basic <literal>Collection</literal> object, however with more features. For example, <literal>Collection</literal> objects do not support the retrieval of keys. Moreover, Dictionaries provide additional capabilities as replacing keys, testing if a specific key already exists and converting the Dictionary into an Array object or JSON string."
-msgstr "Słužba Dictionary je na zatwarjeny objekt %PRODUCTNAME Basic <literal>Collection</literal> podobna, ale z wjace funkcijemi. Objekty <literal>Collection</literal> na přikład wotwołanje klučow njepodpěruja. Nimo toho słowniki přidatne funkcije kaž wuměnjenje klučow, testowanje, hač wěsty kluč hižo eksistuje a přetworjenje słownika do matriksoweho objekta abo do znamješkoweho rjećazka JSON skića."
+msgid "The Dictionary service is similar to the built-in %PRODUCTNAME Basic <literal>Collection</literal> object, however with more features. For example, <literal>Collection</literal> objects do not support the retrieval of keys. Moreover, Dictionaries provide additional capabilities as replacing keys, testing if a specific key already exists and converting the Dictionary into an array of PropertyValues or a JSON string."
+msgstr ""
 
 #. RkMHR
 #: sf_dictionary.xhp
@@ -16710,6 +16710,15 @@ msgctxt ""
 msgid "The following example creates <literal>myDict</literal> as an empty dictionary."
 msgstr "Slědowacy přikład <literal>myDict</literal> jako prózdny słownik wutworja."
 
+#. Qsut4
+#: sf_dictionary.xhp
+msgctxt ""
+"sf_dictionary.xhp\n"
+"bas_id251765034282638\n"
+"help.text"
+msgid "' The keys are case-sensitive, hence the second argument is <literal>True</literal>"
+msgstr ""
+
 #. BghTS
 #: sf_dictionary.xhp
 msgctxt ""
@@ -16728,14 +16737,14 @@ msgctxt ""
 msgid "The example below creates an empty instance of the <literal>Dictionary</literal> service and uses the Python native <literal>update</literal> method to populate it with the contents of a Python <literal>dict</literal> object."
 msgstr "Slědowacy přikład prózdnu instancu słužby <literal>dictionary</literal> wutworja a wužiwa natiwnu metodu Python <literal>update</literal>, zo by ju z wobsahom objekta Python <literal>dict</literal> pjelnił."
 
-#. bnDdK
+#. AGLAS
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "pyc_id61626869417128\n"
 "help.text"
-msgid "# Initialize myDict as an empty dict object"
-msgstr "# myDict jako prózdny objekt dict inicializěrować"
+msgid "# Initialize myDict as an empty Dictionary object"
+msgstr ""
 
 #. Zijqj
 #: sf_dictionary.xhp
@@ -16764,14 +16773,14 @@ msgctxt ""
 msgid "# Initialize myDict with the content of dico"
 msgstr "# myDict z wobsahom dico inicializěrować"
 
-#. UHQFC
+#. Bqi6V
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "par_id211626699007613\n"
 "help.text"
-msgid "Because Python has built-in dictionary support, most of the methods in the <literal>Dictionary</literal> service are available for Basic scripts only. Exceptions are <literal>ConvertToPropertyValues</literal> and <literal>ImportFromPropertyValues</literal> that are supported in both Basic and Python."
-msgstr "dokelž Python ma zatwarjenu słownikowu podpěru, je najwjace metodow w słužbje <literal>Dictionary</literal> jenož za skripty Basic k dispoziciji. Wuwzaća su <literal>ConvertToPropertyValues</literal> a <literal>ImportFromPropertyValues</literal>, kotrejž so w Basic kaž tež w Python podpěrujetej."
+msgid "Because Python has built-in dictionary support, most of the methods in the <literal>Dictionary</literal> service are available for Basic scripts only. Exceptions are the <literal>ConvertToPropertyValues</literal> and <literal>ImportFromPropertyValues</literal> methods that are supported in both Basic and Python."
+msgstr ""
 
 #. Dd4Pp
 #: sf_dictionary.xhp
@@ -16926,14 +16935,14 @@ msgctxt ""
 msgid "Adds a new key-item pair into the dictionary. Returns <literal>True</literal> if successful."
 msgstr "Přidawa słownikej por klučowych zapiskow. Wróći <literal>True</literal>, jeli je wuspěšna."
 
-#. 4zw8b
+#. PWDbM
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "par_id341582887670030\n"
 "help.text"
-msgid "<emph>key</emph>: String value used to identify the Item. The key is not case-sensitive."
-msgstr "<emph>Key</emph>: Hódnota znamješkoweho rjećazka, kotraž so wužiwa, zo by zapisk identifikowała. Kluč na wulkopisanje njedźiwa."
+msgid "<emph>key</emph>: String value used to identify the Item. The case sensitivity of the key was determined at Dictionary creation.."
+msgstr ""
 
 #. UFFFG
 #: sf_dictionary.xhp
@@ -17205,14 +17214,14 @@ msgctxt ""
 msgid "Retrieves an existing dictionary entry based on its key. Returns the value of the item if successful, otherwise returns <literal>Empty</literal>."
 msgstr "Wotwołuje eksistowacy słownikowy zapisk, kotryž na jeho kluču bazuje. Wróći hódnotu zapiski, hdyž je wuspěšna, hewak <literal>Empty</literal>."
 
-#. MV7Wq
+#. dGCvf
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "par_id551582890399669\n"
 "help.text"
-msgid "<emph>key</emph>: Not case-sensitive. If it does not exist, <literal>Empty</literal> value is returned."
-msgstr "<emph>key</emph>: Njedźiwa na wulkopisanje. Jeli njeeksistuje, so hódnota <literal>Empty</literal> wróći."
+msgid "<emph>key</emph>: If it does not exist, the <literal>Empty</literal> value is returned."
+msgstr ""
 
 #. rGqyT
 #: sf_dictionary.xhp
@@ -17232,14 +17241,14 @@ msgctxt ""
 msgid "Removes an existing dictionary entry based on its key. Returns <literal>True</literal> if successful."
 msgstr "Wotstronja eksistowacy słownikowy zapisk, kotryž na swój kluč bazuje. Wróći <literal>True</literal>, jeli je wuspěšna."
 
-#. EhVL2
+#. QR5yu
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "par_id551582890366999\n"
 "help.text"
-msgid "<emph>key</emph>: Not case-sensitive. Must exist in the dictionary, otherwise an <literal>UNKNOWNKEYERROR</literal> error is raised."
-msgstr "<emph>key</emph>: Njedźiwa na wulkopisanje. Dyrbi w słowniku eksistować, hewak so zmylk <literal>UNKNOWNERROR</literal> wuwabi."
+msgid "<emph>key</emph>: Must exist in the dictionary, otherwise an <literal>UNKNOWNKEYERROR</literal> error is raised."
+msgstr ""
 
 #. GyK3j
 #: sf_dictionary.xhp
@@ -17259,14 +17268,14 @@ msgctxt ""
 msgid "Replaces an existing item value based on its key. Returns <literal>True</literal> if successful."
 msgstr "Wuměni eksistowacy zapisk, na jeho kluč bazowacy. Wróći <literal>True</literal>, jeli je wuspěšna."
 
-#. w4w9A
+#. R9YRt
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "par_id991582895615535\n"
 "help.text"
-msgid "<emph>key</emph>: String value representing the key whose value will be replaced. Not case-sensitive. If the key does not exist in the dictionary, an <literal>UNKNOWNKEYERROR</literal> error is raised."
-msgstr "<emph>key</emph>: Hódnota znamješkoweho rjećazka, kotraž kluč reprezentuje, kotrehož hódnota so wuměni. Njedźiwa na wulkopisanje. Jeli kluč w słowniku njeeksistuje, so zmylk <literal>UNNOWNKEYERROR</literal> wuwabi."
+msgid "<emph>key</emph>: String value representing the key whose value will be replaced. If the key does not exist in the dictionary, an <literal>UNKNOWNKEYERROR</literal> error is raised."
+msgstr ""
 
 #. FA4hz
 #: sf_dictionary.xhp
@@ -17286,23 +17295,23 @@ msgctxt ""
 msgid "Replaces an existing key in the dictionary by a new key. The item value is left unchanged. Returns <literal>True</literal> if successful."
 msgstr "Wuměni eksistowacy kluč w słowniku přez nowy kluč. Zapiskowa hódnota njezměnjena wostawa. Wróći <literal>True</literal>, jeli je wuspěšna."
 
-#. jKp7C
+#. dPmwA
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "par_id911582896597619\n"
 "help.text"
-msgid "<emph>key</emph>: String value representing the key to be replaced. Not case-sensitive. If the key does not exist in the dictionary, a <literal>UNKNOWNKEYERROR</literal> error is raised."
-msgstr "<emph>key</emph>: Hódnota znamješkoweho rjećazka, kotraž kluč reprezentuje, kotryž so ma wuměnić. Jeli kluč w słowniku njeeksistuje, so zmylk <literal>UNKNOWNKEYERROR</literal> wuwabi."
+msgid "<emph>key</emph>: String value representing the key to be replaced. If the key does not exist in the dictionary, a <literal>UNKNOWNKEYERROR</literal> error is raised."
+msgstr ""
 
-#. Dku2D
+#. 7YTCi
 #: sf_dictionary.xhp
 msgctxt ""
 "sf_dictionary.xhp\n"
 "par_id531582896597989\n"
 "help.text"
-msgid "<emph>value</emph>: String value for the new key. Not case-sensitive. If the new key already exists in the dictionary, an <literal>DUPLICATEKEYERROR</literal> error is raised."
-msgstr "<emph>value</emph>: Hódnota znamješkoweho rjećazka za nowy kluč. Njedźiwa na wulkopisanje. Jeli nowy kluč hižo w słowniku eksistuje, so zmylk <literal>DUPLICATEKEYERROR</literal> wuwabi."
+msgid "<emph>value</emph>: String value for the new key. If the new key already exists in the dictionary, a <literal>DUPLICATEKEYERROR</literal> error is raised."
+msgstr ""
 
 #. jasej
 #: sf_document.xhp
@@ -25978,9 +25987,7 @@ msgctxt ""
 "par_id111614364686973\n"
 "help.text"
 msgid "Do not include any leading \"#\" characters. If you want the header to be broken into multiple lines, insert escape sequences (\\n) where relevant. A standard header will be added alongside the text specified in the <literal>header</literal> argument."
-msgstr ""
-"Njewužiwajće načolne znamješka „#“. Jeli chceće, zo so hłowa do wjacorych linkow rozdźěluje, zasadźće sekwency escape (\\n"
-"), jeli trjeba. Standardna hódnota so hromadźe z tekstom přidawa, kotryž je w argumenće <literal>header</literal> podaty."
+msgstr "Njewužiwajće načolne znamješka „#“. Jeli chceće, zo so hłowa do wjacorych linkow rozdźěluje, zasadźće sekwency escape (\\n), jeli trjeba. Standardna hódnota so hromadźe z tekstom přidawa, kotryž je w argumenće <literal>header</literal> podaty."
 
 #. E2Loj
 #: sf_l10n.xhp
@@ -26349,9 +26356,7 @@ msgctxt ""
 "pyc_id981636717957632\n"
 "help.text"
 msgid "msg = f\"Menu name: {s_args[0]}\\n\""
-msgstr ""
-"msg = f\"Menijowe mjeno: {s_args[0]}\\n"
-"\""
+msgstr "msg = f\"Menijowe mjeno: {s_args[0]}\\n\""
 
 #. GPKGe
 #: sf_menu.xhp
@@ -26360,9 +26365,7 @@ msgctxt ""
 "pyc_id851636718008427\n"
 "help.text"
 msgid "msg += f\"Menu item: {s_args[1]}\\n\""
-msgstr ""
-"msg += f\"Menijowe zapisk: {s_args[1]}\\n"
-"\""
+msgstr "msg += f\"Menijowe zapisk: {s_args[1]}\\n\""
 
 #. EfEaE
 #: sf_menu.xhp
@@ -26371,9 +26374,7 @@ msgctxt ""
 "pyc_id331636727047102\n"
 "help.text"
 msgid "msg += f\"Item ID: {s_args[2]}\\n\""
-msgstr ""
-"msg += f\"Zapiskowy ID: {s_args[2]}\\n"
-"\""
+msgstr "msg += f\"Zapiskowy ID: {s_args[2]}\\n\""
 
 #. FPzcf
 #: sf_menu.xhp
@@ -37849,3 +37850,73 @@ msgctxt ""
 "help.text"
 msgid "<emph>printimages</emph>: Print graphic objects when <literal>True</literal> (default)."
 msgstr ""
+
+#~ msgctxt ""
+#~ "sf_dictionary.xhp\n"
+#~ "par_id861582884516571\n"
+#~ "help.text"
+#~ msgid "The key is a case-insensitive string"
+#~ msgstr "Kluč je znamješkowy rjećazk, kotryž na wulkopisanje dźiwa."
+
+#~ msgctxt ""
+#~ "sf_dictionary.xhp\n"
+#~ "par_id971582884636922\n"
+#~ "help.text"
+#~ msgid "The Dictionary service is similar to the built-in %PRODUCTNAME Basic <literal>Collection</literal> object, however with more features. For example, <literal>Collection</literal> objects do not support the retrieval of keys. Moreover, Dictionaries provide additional capabilities as replacing keys, testing if a specific key already exists and converting the Dictionary into an Array object or JSON string."
+#~ msgstr "Słužba Dictionary je na zatwarjeny objekt %PRODUCTNAME Basic <literal>Collection</literal> podobna, ale z wjace funkcijemi. Objekty <literal>Collection</literal> na přikład wotwołanje klučow njepodpěruja. Nimo toho słowniki přidatne funkcije kaž wuměnjenje klučow, testowanje, hač wěsty kluč hižo eksistuje a přetworjenje słownika do matriksoweho objekta abo do znamješkoweho rjećazka JSON skića."
+
+#~ msgctxt ""
+#~ "sf_dictionary.xhp\n"
+#~ "pyc_id61626869417128\n"
+#~ "help.text"
+#~ msgid "# Initialize myDict as an empty dict object"
+#~ msgstr "# myDict jako prózdny objekt dict inicializěrować"
+
+#~ msgctxt ""
+#~ "sf_dictionary.xhp\n"
+#~ "par_id211626699007613\n"
+#~ "help.text"
+#~ msgid "Because Python has built-in dictionary support, most of the methods in the <literal>Dictionary</literal> service are available for Basic scripts only. Exceptions are <literal>ConvertToPropertyValues</literal> and <literal>ImportFromPropertyValues</literal> that are supported in both Basic and Python."
+#~ msgstr "dokelž Python ma zatwarjenu słownikowu podpěru, je najwjace metodow w słužbje <literal>Dictionary</literal> jenož za skripty Basic k dispoziciji. Wuwzaća su <literal>ConvertToPropertyValues</literal> a <literal>ImportFromPropertyValues</literal>, kotrejž so w Basic kaž tež w Python podpěrujetej."
+
+#~ msgctxt ""
+#~ "sf_dictionary.xhp\n"
+#~ "par_id341582887670030\n"
+#~ "help.text"
+#~ msgid "<emph>key</emph>: String value used to identify the Item. The key is not case-sensitive."
+#~ msgstr "<emph>Key</emph>: Hódnota znamješkoweho rjećazka, kotraž so wužiwa, zo by zapisk identifikowała. Kluč na wulkopisanje njedźiwa."
+
+#~ msgctxt ""
+#~ "sf_dictionary.xhp\n"
+#~ "par_id551582890399669\n"
+#~ "help.text"
+#~ msgid "<emph>key</emph>: Not case-sensitive. If it does not exist, <literal>Empty</literal> value is returned."
+#~ msgstr "<emph>key</emph>: Njedźiwa na wulkopisanje. Jeli njeeksistuje, so hódnota <literal>Empty</literal> wróći."
+
+#~ msgctxt ""
+#~ "sf_dictionary.xhp\n"
+#~ "par_id551582890366999\n"
+#~ "help.text"
+#~ msgid "<emph>key</emph>: Not case-sensitive. Must exist in the dictionary, otherwise an <literal>UNKNOWNKEYERROR</literal> error is raised."
+#~ msgstr "<emph>key</emph>: Njedźiwa na wulkopisanje. Dyrbi w słowniku eksistować, hewak so zmylk <literal>UNKNOWNERROR</literal> wuwabi."
+
+#~ msgctxt ""
+#~ "sf_dictionary.xhp\n"
+#~ "par_id991582895615535\n"
+#~ "help.text"
+#~ msgid "<emph>key</emph>: String value representing the key whose value will be replaced. Not case-sensitive. If the key does not exist in the dictionary, an <literal>UNKNOWNKEYERROR</literal> error is raised."
+#~ msgstr "<emph>key</emph>: Hódnota znamješkoweho rjećazka, kotraž kluč reprezentuje, kotrehož hódnota so wuměni. Njedźiwa na wulkopisanje. Jeli kluč w słowniku njeeksistuje, so zmylk <literal>UNNOWNKEYERROR</literal> wuwabi."
+
+#~ msgctxt ""
+#~ "sf_dictionary.xhp\n"
+#~ "par_id911582896597619\n"
+#~ "help.text"
+#~ msgid "<emph>key</emph>: String value representing the key to be replaced. Not case-sensitive. If the key does not exist in the dictionary, a <literal>UNKNOWNKEYERROR</literal> error is raised."
+#~ msgstr "<emph>key</emph>: Hódnota znamješkoweho rjećazka, kotraž kluč reprezentuje, kotryž so ma wuměnić. Jeli kluč w słowniku njeeksistuje, so zmylk <literal>UNKNOWNKEYERROR</literal> wuwabi."
+
+#~ msgctxt ""
+#~ "sf_dictionary.xhp\n"
+#~ "par_id531582896597989\n"
+#~ "help.text"
+#~ msgid "<emph>value</emph>: String value for the new key. Not case-sensitive. If the new key already exists in the dictionary, an <literal>DUPLICATEKEYERROR</literal> error is raised."
+#~ msgstr "<emph>value</emph>: Hódnota znamješkoweho rjećazka za nowy kluč. Njedźiwa na wulkopisanje. Jeli nowy kluč hižo w słowniku eksistuje, so zmylk <literal>DUPLICATEKEYERROR</literal> wuwabi."
