@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-10-16 12:00+0200\n"
-"PO-Revision-Date: 2025-12-09 06:54+0000\n"
+"PO-Revision-Date: 2025-12-10 08:30+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Upper Sorbian <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/hsb/>\n"
 "Language: hsb\n"
@@ -26151,7 +26151,7 @@ msgctxt ""
 "par_id581643133675012\n"
 "help.text"
 msgid "Menus created with this service are available only for a specified document window. They are not saved into the document or as application settings. Closing and opening the document will restore the default menubar settings."
-msgstr ""
+msgstr "Menije, kotrež su so z tutej słužbu wutworili, su jenož za podate dokumentowe wokno k dispoziciji. Njeskładuja w dokumenće abo jako nałoženske nastajenja. Hdyž dokument začinjeće a wočinjeće, so standardne nastajenja menijoweje lajsty wobnowjeja."
 
 #. FEfWE
 #: sf_menu.xhp
@@ -26160,7 +26160,7 @@ msgctxt ""
 "par_id291643224925643\n"
 "help.text"
 msgid "When OLE objects such as Math formulas or Calc charts are edited from within a document, %PRODUCTNAME reconfigures the menubar according to the object. When this happens, the menus created with the <literal>Menu</literal> service are removed and are not be restored after editing the OLE object."
-msgstr ""
+msgstr "Hdyž so objekty OLE kaž formle Math abo diagramy Calc w dokumenće wobdźěłuja, %PRODUCTNAME menijowu lajstu po objekće znowa konfiguruje. Hdyž so to stawa, so menije, kotrež su so ze słužbu <literal>Menu</literal> wutworili, wotstronjeja a so po wobdźěłowanju objekta OLE njewobnowjeja."
 
 #. GftK9
 #: sf_menu.xhp
@@ -26169,7 +26169,7 @@ msgctxt ""
 "hd_id281600788076359\n"
 "help.text"
 msgid "Service invocation"
-msgstr ""
+msgstr "Słužbowe wuwołanje"
 
 #. o7QCg
 #: sf_menu.xhp
@@ -26178,7 +26178,7 @@ msgctxt ""
 "par_id141609955500101\n"
 "help.text"
 msgid "Before using the <literal>Menu</literal> service the <literal>ScriptForge</literal> library needs to be loaded or imported:"
-msgstr ""
+msgstr "Před wužiwanjom słužby <literal>Menu</literal> dyrbi so biblioteka <literal>ScriptForge</literal> začitać abo importować:"
 
 #. EYjA8
 #: sf_menu.xhp
@@ -26187,7 +26187,7 @@ msgctxt ""
 "par_id321614902851541\n"
 "help.text"
 msgid "The <literal>Menu</literal> service is instantiated by calling the <link href=\"text/sbasic/shared/03/sf_document.xhp#CreateMenu\"><literal>CreateMenu</literal></link> method from the <literal>Document</literal> service. The code snippet below creates a menu named <emph>My Menu</emph> in the current document window with two entries <emph>Item A</emph> and <emph>Item B</emph>."
-msgstr ""
+msgstr "Słužba <literal>Menu</literal> instancuje, hdyž so metoda <link href=\"text/sbasic/shared/03/sf_document.xhp#CreateMenu\"><literal>CreateMenu</literal></link> ze słužby <literal>Document</literal> wuwołuje. Slědowaca kodowa šlipka meni z mjenom <emph>Mój meni</emph> w aktualnym dokumentowym woknje z dwěmaj zapiskomaj <emph>Zapisk A</emph> a <emph>Zapisk B</emph> wutworja."
 
 #. pf7FV
 #: sf_menu.xhp
@@ -26196,7 +26196,7 @@ msgctxt ""
 "bas_id261643134374056\n"
 "help.text"
 msgid "Set oMenu = oDoc.CreateMenu(\"My Menu\")"
-msgstr ""
+msgstr "Set oMenu = oDoc.CreateMenu(\"Mój meni\")"
 
 #. Hoh4Q
 #: sf_menu.xhp
@@ -26205,7 +26205,7 @@ msgctxt ""
 "bas_id431643134582213\n"
 "help.text"
 msgid ".AddItem(\"Item A\", Command := \"About\")"
-msgstr ""
+msgstr ".AddItem(\"Zapisk A\", Command := \"About\")"
 
 #. u52BY
 #: sf_menu.xhp
@@ -26214,7 +26214,7 @@ msgctxt ""
 "bas_id571643134582396\n"
 "help.text"
 msgid ".AddItem(\"Item B\", Script := \"vnd.sun.star.script:Standard.Module1.ItemB_Listener?language=Basic&location=application\")"
-msgstr ""
+msgstr ".AddItem(\"Zapisk B\", Script := \"vnd.sun.star.script:Standard.Module1.ItemB_Listener?language=Basic&location=application\")"
 
 #. nd5od
 #: sf_menu.xhp
@@ -26223,7 +26223,7 @@ msgctxt ""
 "par_id371643135157996\n"
 "help.text"
 msgid "After creating the menu, it is recommended to call the <literal>Dispose</literal> method to free the resources used by the <literal>Menu</literal> service instance."
-msgstr ""
+msgstr "Po wutworjenju menija so poruča, metodu <literal>Dispose</literal> wuwołać, zo bychu so resursy wuswobodźili, kotrež so přez słužbowu instancu <literal>Menu</literal> wužiwaja."
 
 #. 2VDkD
 #: sf_menu.xhp
@@ -26232,7 +26232,7 @@ msgctxt ""
 "par_id341636718182262\n"
 "help.text"
 msgid "In the example above, <emph>Item A</emph> is associated with the UNO command <literal>.uno:About</literal> whereas <emph>Item B</emph> is associated with the script <literal>ItemB_Listener</literal> defined in <literal>Module1</literal> of the <literal>Standard</literal> library of the <literal>My Macros</literal> container."
-msgstr ""
+msgstr "W přikładźe horjeka je <emph>Zapisk A</emph> z přikazom UNO <literal>.uno:About</literal> zwjazany, mjeztym zo <emph>Zapisk B</emph> je ze skriptom <literal>ItemB_Listener</literal>, kotryž je w <literal>Module1</literal> biblioteki <literal>Standard</literal> kontejnera <literal>My Macros</literal> definowany."
 
 #. 9G7de
 #: sf_menu.xhp
@@ -26241,7 +26241,7 @@ msgctxt ""
 "par_id851635274721129\n"
 "help.text"
 msgid "The following example defines <literal>ItemB_Listener</literal> that will be called when <emph>Item B</emph> is clicked. This listener simply splits the argument string passed to the <literal>Sub</literal> and shows them in a message box."
-msgstr ""
+msgstr "Slědowacy přikład <literal>ItemB_Listener</literal> definuje, kotryž so wuwołuje, hdyž so na <emph>Zapisk B</emph> klika. Tutón posłuchar prosće znamješkowy rjećazk argumenta rozdźěluje, kotryž so <literal>Sub</literal> přepodawa a pokazuje je w zdźělenskim polu."
 
 #. AFHBG
 #: sf_menu.xhp
@@ -26250,7 +26250,7 @@ msgctxt ""
 "bas_id716431354225603\n"
 "help.text"
 msgid "' Process the argument string passed to the listener"
-msgstr ""
+msgstr "' Znamješkowy rjećazk předźěłać, kotryž so posłucharjej přepodawa"
 
 #. GzLwF
 #: sf_menu.xhp
@@ -26259,7 +26259,7 @@ msgctxt ""
 "bas_id901643135423012\n"
 "help.text"
 msgid "MsgBox \"Menu name: \"   & sArgs(0) & Chr(13) & _"
-msgstr ""
+msgstr "MsgBox \"Menijowe mjeno: \" & sArgs(0) & Chr(13) & _"
 
 #. qGB7L
 #: sf_menu.xhp
@@ -26268,7 +26268,7 @@ msgctxt ""
 "bas_id301643136028263\n"
 "help.text"
 msgid "\"Menu item: \"   & sArgs(1) & Chr(13) & _"
-msgstr ""
+msgstr "\"Menijowy zapisk: \" & sArgs(1) & Chr(13) & _"
 
 #. wFTww
 #: sf_menu.xhp
@@ -26277,7 +26277,7 @@ msgctxt ""
 "bas_id181643136028557\n"
 "help.text"
 msgid "\"Item ID: \"     & sArgs(2) & Chr(13) & _"
-msgstr ""
+msgstr "\"Zapiskowy ID: \" & sArgs(2) & Chr(13) & _"
 
 #. 9SGVd
 #: sf_menu.xhp
@@ -26286,7 +26286,7 @@ msgctxt ""
 "bas_id561643136028710\n"
 "help.text"
 msgid "\"Item status: \" & sArgs(3)"
-msgstr ""
+msgstr "\"Zapiskowy status: \" & sArgs(3)"
 
 #. MQJ7M
 #: sf_menu.xhp
@@ -26295,7 +26295,7 @@ msgctxt ""
 "par_id531636493797707\n"
 "help.text"
 msgid "As shown in the example above, menu entries associated with a script receive a comma-separated string argument with the following values:"
-msgstr ""
+msgstr "Kak so w přikładźe horjeka pokazuje, dóstawaja menijowe zapiski, kotrež su ze skriptom zwjazane, přez komu dźěleny znamješkowy rjećazk argumenta ze slědowacymi hódnotami:"
 
 #. uprfo
 #: sf_menu.xhp
@@ -26304,7 +26304,7 @@ msgctxt ""
 "par_id921643136489994\n"
 "help.text"
 msgid "The toplevel name of the menu."
-msgstr ""
+msgstr "Mjeno najwyšeje runiny menija."
 
 #. 7Jxz9
 #: sf_menu.xhp
@@ -26313,7 +26313,7 @@ msgctxt ""
 "par_id611643136491059\n"
 "help.text"
 msgid "The string ID of the selected menu entry."
-msgstr ""
+msgstr "ID znamješkoweho rjećazka wubraneho menijoweho zapiska."
 
 #. hENoG
 #: sf_menu.xhp
@@ -26322,7 +26322,7 @@ msgctxt ""
 "par_id961643136491491\n"
 "help.text"
 msgid "The numeric ID of the selected menu entry."
-msgstr ""
+msgstr "Numeriski ID wubraneho menijoweho zapiska."
 
 #. nYABy
 #: sf_menu.xhp
@@ -26331,7 +26331,7 @@ msgctxt ""
 "par_id381643136494580\n"
 "help.text"
 msgid "The current state of the menu item. This is useful for checkboxes and radio buttons. If the item is checked, the value \"1\" is returned, otherwise \"0\" is returned."
-msgstr ""
+msgstr "Aktualny staw menijoweho zapiska. To je wužitne za kontrolne kašćiki a opciske tłóčatka. Jeli zapisk je markěrowany, so hódnota „1“ wróći, hewak so „0“ wróći."
 
 #. HHjiV
 #: sf_menu.xhp
@@ -26340,7 +26340,7 @@ msgctxt ""
 "par_id131635275172617\n"
 "help.text"
 msgid "The examples above can be written in Python as follows:"
-msgstr ""
+msgstr "Přikłady horjeka hodźa so w Python takle pisać:"
 
 #. 6LQF4
 #: sf_menu.xhp
@@ -26350,6 +26350,8 @@ msgctxt ""
 "help.text"
 msgid "msg = f\"Menu name: {s_args[0]}\\n\""
 msgstr ""
+"msg = f\"Menijowe mjeno: {s_args[0]}\\n"
+"\""
 
 #. GPKGe
 #: sf_menu.xhp
@@ -26359,6 +26361,8 @@ msgctxt ""
 "help.text"
 msgid "msg += f\"Menu item: {s_args[1]}\\n\""
 msgstr ""
+"msg += f\"Menijowe zapisk: {s_args[1]}\\n"
+"\""
 
 #. EfEaE
 #: sf_menu.xhp
@@ -26368,6 +26372,8 @@ msgctxt ""
 "help.text"
 msgid "msg += f\"Item ID: {s_args[2]}\\n\""
 msgstr ""
+"msg += f\"Zapiskowy ID: {s_args[2]}\\n"
+"\""
 
 #. FPzcf
 #: sf_menu.xhp
@@ -26376,7 +26382,7 @@ msgctxt ""
 "pyc_id71643137333404\n"
 "help.text"
 msgid "msg += f\"Item status: {s_args[3]}\""
-msgstr ""
+msgstr "msg += f\"Zapiskowy status: {s_args[3]}\""
 
 #. XxChZ
 #: sf_menu.xhp
@@ -26385,7 +26391,7 @@ msgctxt ""
 "hd_id711600788076834\n"
 "help.text"
 msgid "Properties"
-msgstr ""
+msgstr "Kajkosće"
 
 #. 98USM
 #: sf_menu.xhp
@@ -26394,7 +26400,7 @@ msgctxt ""
 "par_id461600788076917\n"
 "help.text"
 msgid "Name"
-msgstr ""
+msgstr "Mjeno"
 
 #. fT8mQ
 #: sf_menu.xhp
@@ -26403,7 +26409,7 @@ msgctxt ""
 "par_id221600788076591\n"
 "help.text"
 msgid "Readonly"
-msgstr ""
+msgstr "Přećiwo pisanju škitany"
 
 #. DGBgA
 #: sf_menu.xhp
@@ -26412,7 +26418,7 @@ msgctxt ""
 "par_id761600788076328\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Typ"
 
 #. 2EE9k
 #: sf_menu.xhp
@@ -26421,7 +26427,7 @@ msgctxt ""
 "par_id67160078807636\n"
 "help.text"
 msgid "Description"
-msgstr ""
+msgstr "Wopisanje"
 
 #. qnRDA
 #: sf_menu.xhp
@@ -26430,7 +26436,7 @@ msgctxt ""
 "par_id49160078807654\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "Ně"
 
 #. LE27e
 #: sf_menu.xhp
@@ -26439,7 +26445,7 @@ msgctxt ""
 "par_id81600788076419\n"
 "help.text"
 msgid "Character used to define the access key of a menu item. The default character is \"~\"."
-msgstr ""
+msgstr "Znamješko, kotrež so wužiwa, zo by přistupnu tastu menijoweho zapiski definowało. Standardne znamješko je \"~\"."
 
 #. GSJAG
 #: sf_menu.xhp
@@ -26448,7 +26454,7 @@ msgctxt ""
 "par_id311600788076756\n"
 "help.text"
 msgid "No"
-msgstr ""
+msgstr "Ně"
 
 #. fb3iG
 #: sf_menu.xhp
@@ -26457,7 +26463,7 @@ msgctxt ""
 "par_id441600788076826\n"
 "help.text"
 msgid "Character or string that defines how menu items are nested. The default character is \">\"."
-msgstr ""
+msgstr "Znamješko abo znamješkowy rjećazk, kotrejž definujetej, kak so menijowe zapiski kašćikuja. Standardne znamješko je \">\"."
 
 #. bDCZ8
 #: sf_menu.xhp
@@ -26466,7 +26472,7 @@ msgctxt ""
 "hd_id181636719707892\n"
 "help.text"
 msgid "Menu and Submenus"
-msgstr ""
+msgstr "Meni a podmenije"
 
 #. YE5FL
 #: sf_menu.xhp
@@ -26475,7 +26481,7 @@ msgctxt ""
 "par_id741636719725402\n"
 "help.text"
 msgid "To create a menu with submenus, use the character defined in the <literal>SubmenuCharacter</literal> property while creating the menu entry to define where it will be placed. For instance, consider the following menu/submenu hierarchy."
-msgstr ""
+msgstr "Zo byšće meni z podmenijemi wutworił, wužiwajće znamješko, kotrež je w kajkosći <literal>SubmenuCharacter</literal> definowane, mjeztym zo menijowy zapisk wutworjeće, zo byšće definował, hdźež so placěruje. Wobhladajće sej na přikład slědowacu menijowu/podmenijowu hierarchiju."
 
 #. Y4ETY
 #: sf_menu.xhp
@@ -26484,7 +26490,7 @@ msgctxt ""
 "par_id211636720111489\n"
 "help.text"
 msgid "The code below uses the default submenu character \">\" to create the menu/submenu hierarchy defined above:"
-msgstr ""
+msgstr "Slědowacy kod standardne podmenijowe znamješko „>“ wužiwa, zo by menijowu/podmenijowu hierarchiju wutworił, kotraž je horjeka definowana:"
 
 #. P8NHo
 #: sf_menu.xhp
@@ -26493,7 +26499,7 @@ msgctxt ""
 "par_id121636721243578\n"
 "help.text"
 msgid "The string <literal>---</literal> is used to define separator lines in menus or submenus."
-msgstr ""
+msgstr "Znamješkowy rjećazk <literal>---</literal> so wužiwa, zo by dźělenske linije w menijach abo podmenijach definował."
 
 #. CYbLC
 #: sf_menu.xhp
@@ -26502,7 +26508,7 @@ msgctxt ""
 "hd_id501582887473754\n"
 "help.text"
 msgid "Methods"
-msgstr ""
+msgstr "Metody"
 
 #. Lofgb
 #: sf_menu.xhp
