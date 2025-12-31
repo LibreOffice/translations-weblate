@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-09-18 12:11+0200\n"
-"PO-Revision-Date: 2025-12-29 18:30+0000\n"
-"Last-Translator: Stanislav Horáček <stanislav.horacek@gmail.com>\n"
+"PO-Revision-Date: 2025-12-31 08:30+0000\n"
+"Last-Translator: raal <raal@post.cz>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-25-8/textscalc01/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -10725,7 +10725,7 @@ msgctxt ""
 "par_id751723304896532\n"
 "help.text"
 msgid "The <link href=\"text/scalc/01/04060107.xhp\">array formula</link> {=OR(B1:B10;C1:C10)} yields a one-dimensional value of FALSE when all components of B1:B10 and C1:C10 are FALSE. The array expression above does not produce the logical OR per element, and thus does not produce an array of logical values. To compute a logical OR of arrays per element use the + operator in array context. In the example, enter {=B1:B10+C1:C10}."
-msgstr ""
+msgstr "<link href=\"text/scalc/01/04060107.xhp\">Maticový vzorec</link> {=OR(B1:B10;C1:C10)} poskytuje jednorozměrnou hodnotu NEPRAVDA, když jsou všechny komponenty B1:B10 a C1:C10 NEPRAVDA. Výše uvedený maticový výraz nevytváří logické OR na prvek, a proto nevytváří pole logických hodnot. Chcete-li vypočítat logické OR polí na prvek, použijte operátor + v kontextu pole. V příkladu zadejte {=B1:B10+C1:C10}."
 
 #. B2UcY
 #: 04060105.xhp
@@ -12273,7 +12273,7 @@ msgctxt ""
 "par_id3154477\n"
 "help.text"
 msgid "<item type=\"input\">=FACT(3.8)</item> returns 6."
-msgstr ""
+msgstr "<item type=\"input\">=FACT(3,8)</item> vrátí 6."
 
 #. Bu95p
 #: 04060106.xhp
@@ -13137,7 +13137,7 @@ msgctxt ""
 "par_id5081637\n"
 "help.text"
 msgid "The same result may be achieved by using the exponentiation operator ^: <literal>Base^Exponent</literal>"
-msgstr ""
+msgstr "Stejného výsledku lze dosáhnout použitím operátoru umocňování ^: <literal>Základ^Exponent</literal>"
 
 #. Pej3x
 #: 04060106.xhp
@@ -13146,7 +13146,7 @@ msgctxt ""
 "par_id241599040594931\n"
 "help.text"
 msgid "<literal>=POWER(0,0)</literal> returns 1; <literal>=POWER(0,X)</literal> reports the #NUM! error when  exponent X is negative."
-msgstr ""
+msgstr "<literal>=POWER(0;0)</literal> vrátí 1; <literal>=POWER(0;X)</literal> vypíše chybu #NUM! pokud je exponent X záporný."
 
 #. ShFKC
 #: 04060106.xhp
@@ -13155,7 +13155,7 @@ msgctxt ""
 "par_id241599040594900\n"
 "help.text"
 msgid "<literal>=POWER(B,X)</literal> may or may not report a #NUM! error when B is negative and X is not an integer."
-msgstr ""
+msgstr "<literal>=POWER(B;X)</literal> může nebo nemusí vypsat chybu #NUM!, když B je záporné a X není celé číslo."
 
 #. YCb9B
 #: 04060106.xhp
@@ -13164,7 +13164,7 @@ msgctxt ""
 "par_id3159594\n"
 "help.text"
 msgid "<input>=POWER(4;3)</input> returns 64, which is 4 to the power of 3."
-msgstr ""
+msgstr "<input>=POWER(4;3)</input> vrátí 64, což je 4 na 3."
 
 #. zMvPJ
 #: 04060106.xhp
@@ -13173,7 +13173,7 @@ msgctxt ""
 "par_id1614429\n"
 "help.text"
 msgid "<input>=4^3</input> also returns 4 to the power of 3."
-msgstr ""
+msgstr "<input>=4^3</input> také vrátí 4 na třetí."
 
 #. psBP2
 #: 04060106.xhp
@@ -13182,7 +13182,7 @@ msgctxt ""
 "par_id1614444\n"
 "help.text"
 msgid "<input>=POWER(2;-3)</input> returns 0.125."
-msgstr ""
+msgstr "<input>=POWER(2;-3)</input> vrátí 0,125."
 
 #. CbgU3
 #: 04060106.xhp
@@ -13191,7 +13191,7 @@ msgctxt ""
 "par_id1614455\n"
 "help.text"
 msgid "<input>=POWER(-2;1/3)</input> returns -1.25992104989487."
-msgstr ""
+msgstr "<input>=POWER(-2;1/3)</input> vrátí -1,25992104989487."
 
 #. yaGk5
 #: 04060106.xhp
@@ -13200,7 +13200,7 @@ msgctxt ""
 "par_id1614466\n"
 "help.text"
 msgid "<input>=POWER(-2;2/3)</input> returns the #NUM! error."
-msgstr ""
+msgstr "<input>=POWER(-2;2/3)</input> vrátí chybu #NUM!."
 
 #. ZkERL
 #: 04060106.xhp
@@ -14379,7 +14379,7 @@ msgctxt ""
 "par_id3143638\n"
 "help.text"
 msgid "You have a table in the cell range A1:B6 containing a bill of material for 10 students."
-msgstr ""
+msgstr "Máte tabulku v oblasti buněk A1:B6 obsahující kusovník pro 10 studentů."
 
 #. VNHf4
 #: 04060106.xhp
@@ -14451,7 +14451,7 @@ msgctxt ""
 "par_id3140008\n"
 "help.text"
 msgid "Let's say one row is manually hidden, then the first formula shows the sum of the 5 figures filtered; the second, only the sum of the 4 figures displayed."
-msgstr ""
+msgstr "Řekněme, že jeden řádek je ručně skrytý, pak první vzorec ukazuje součet 5 filtrovaných čísel; druhý pouze součet zobrazených 4 čísel."
 
 #. vooYh
 #: 04060106.xhp
@@ -14496,7 +14496,7 @@ msgctxt ""
 "par_id3143708\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_EUROCONVERT\">Converts between old European national currency and to and from Euros.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_EUROCONVERT\">Převádí mezi starou evropskou národní měnou na euro a z eur.</ahelp>"
 
 #. G7CMF
 #: 04060106.xhp
@@ -15477,7 +15477,7 @@ msgctxt ""
 "hd_id651668200191409\n"
 "help.text"
 msgid "<variable id=\"implicit_intersection_hd\">Implicit intersection of array formulas</variable>"
-msgstr ""
+msgstr "<variable id=\"implicit_intersection_hd\">Implicitní průnik maticových vzorců</variable>"
 
 #. M2BM4
 #: 04060107.xhp
@@ -19644,7 +19644,7 @@ msgctxt ""
 "par_idN11999\n"
 "help.text"
 msgid "The function tries to bridge with system specificities. For example, \"c:\\path to\\file.ext\" will be properly interpreted as \"file:///c:/path%20to/file.ext\" on Windows, or \"..\" will lead to the parent directory of the document."
-msgstr ""
+msgstr "Funkce se snaží překlenout systémové specifika. Například \"c:\\path to\\file.ext\" bude v systému Windows správně interpretováno jako \"file:///c://path%20to/file.ext\", nebo \"..\" povede k nadřazenému adresáři dokumentu."
 
 #. ubKsF
 #: 04060109.xhp
@@ -19959,7 +19959,7 @@ msgctxt ""
 "hd_id451721571883016\n"
 "help.text"
 msgid "Empty string and blank cells"
-msgstr ""
+msgstr "Prázdný řetězec a prázdné buňky"
 
 #. J56DC
 #: 04060110.xhp
@@ -19968,7 +19968,7 @@ msgctxt ""
 "par_id241721571890240\n"
 "help.text"
 msgid "<variable id=\"stringblank\">Cells with the empty string (\"\") are not equivalent to blank cells. When searching or calculating with text, the empty string \"\" is the text with length zero.</variable>"
-msgstr ""
+msgstr "<variable id=\"stringblank\">Buňky s prázdným řetězcem (\"\") nejsou ekvivalentní prázdným buňkám. Při hledání nebo výpočtu s textem je prázdný řetězec \"\" text s nulovou délkou.</variable>"
 
 #. X2gVW
 #: 04060110.xhp
@@ -19977,7 +19977,7 @@ msgctxt ""
 "par_id451721571895265\n"
 "help.text"
 msgid "For example, when the formula in A1 returns the empty string \"\", the following applies:"
-msgstr ""
+msgstr "Například, když vzorec v A1 vrátí prázdný řetězec \"\", platí následující:"
 
 #. CAh4t
 #: 04060110.xhp
@@ -19986,7 +19986,7 @@ msgctxt ""
 "par_id591721571900225\n"
 "help.text"
 msgid "<input>=ISBLANK(A1)</input> returns FALSE. The cell is not blank."
-msgstr ""
+msgstr "<input>=ISBLANK(A1)</input> vrátí NEPRAVDA. Buňka není prázdná."
 
 #. ugD6W
 #: 04060110.xhp
@@ -19995,7 +19995,7 @@ msgctxt ""
 "par_id781721571904769\n"
 "help.text"
 msgid "<input>=ISFORMULA(A1)</input> returns TRUE. The cell is a formula."
-msgstr ""
+msgstr "<input>=ISFORMULA(A1)</input> vrátí PRAVDA. Buňka je vzorec."
 
 #. ypsic
 #: 04060110.xhp
@@ -20004,7 +20004,7 @@ msgctxt ""
 "par_id671721571909081\n"
 "help.text"
 msgid "<input>=ISLOGICAL(A1)</input> returns FALSE. Not a logical value."
-msgstr ""
+msgstr "<input>=ISLOGICAL(A1)</input> vrátí NEPRAVDA. Není to logická hodnota."
 
 #. 5vBHz
 #: 04060110.xhp
@@ -20013,7 +20013,7 @@ msgctxt ""
 "par_id791721571916704\n"
 "help.text"
 msgid "<input>=ISNONTEXT(A1)</input> returns FALSE. The cell has the empty string."
-msgstr ""
+msgstr "<input>=ISNONTEXT(A1)</input> vrátí NEPRAVDA. Buňka má prázdný řetězec."
 
 #. Z7cMy
 #: 04060110.xhp
@@ -20022,7 +20022,7 @@ msgctxt ""
 "par_id91721571920288\n"
 "help.text"
 msgid "<input>=ISNUMBER(A1)</input> returns FALSE. Not a number."
-msgstr ""
+msgstr "<input>=ISNUMBER(A1)</input> vrátí NEPRAVDA. Není to číslo."
 
 #. Vcmm7
 #: 04060110.xhp
@@ -20031,7 +20031,7 @@ msgctxt ""
 "par_id821721571924250\n"
 "help.text"
 msgid "<input>=ISTEXT(A1)</input> returns TRUE. The cell has the empty string, calculated by a formula."
-msgstr ""
+msgstr "<input>=ISTEXT(A1)</input> vrátí PRAVDA. Buňka má prázdný řetězec, vypočtený vzorcem."
 
 #. xDUEz
 #: 04060110.xhp
@@ -20040,7 +20040,7 @@ msgctxt ""
 "par_id71721571927654\n"
 "help.text"
 msgid "<input>=LEN(A1)</input> returns 0. The length of the empty string is 0."
-msgstr ""
+msgstr "<input>=LEN(A1)</input> vrátí 0. Délka prázdného řetězce je 0."
 
 #. E5UtK
 #: 04060111.xhp
@@ -20652,7 +20652,7 @@ msgctxt ""
 "par_id71641991391639\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-17\",0)</input> returns 0 because <emph>Type</emph> was set to 0 and there are only 5 days in the interval."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\",\"2022-01-17\",0)</input> vrátí 0, jelikož má <emph>Typ</emph> hodnotu 0 a interval zahrnuje pouze 5 dní."
 
 #. pEEeF
 #: 04060111.xhp
@@ -20661,7 +20661,7 @@ msgctxt ""
 "par_id71641991390039\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-19\",0)</input> returns 1 because <emph>Type</emph> was set to 0 and there are 7 days in the interval."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\",\"2022-01-19\",0)</input> vrátí 1, jelikož má <emph>Typ</emph> hodnotu 0 a interval zahrnuje 7 dní."
 
 #. 9DhQj
 #: 04060111.xhp
@@ -20670,7 +20670,7 @@ msgctxt ""
 "par_id71641991391123\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-17\",1)</input> returns 1 because <emph>Type</emph> was set to 1 and the interval contains a Monday, since 2022-01-12 is a Wednesday and 2022-01-17 is a Monday."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\",\"2022-01-17\",1)</input> vrátí 1, jelikož má <emph>Typ</emph> hodnotu 1 a interval obsahuje pondělí; 12. 1. 2022 je středa a 17. 1. 2022 je pondělí."
 
 #. E89BB
 #: 04060111.xhp
@@ -20679,7 +20679,7 @@ msgctxt ""
 "par_id71641991332523\n"
 "help.text"
 msgid "<input>=WEEKS(\"2022-01-12\",\"2022-01-15\",1)</input> returns 0 because <emph>Type</emph> was set to 1 and the interval does not contain any Mondays, except for the start date."
-msgstr ""
+msgstr "<input>=WEEKS(\"2022-01-12\",\"2022-01-15\",1)</input> vrátí 0, jelikož má <emph>Typ</emph> hodnotu 1 a interval neobsahuje žádné pondělí kromě počátečního data."
 
 #. fQyTx
 #: 04060111.xhp
@@ -20742,7 +20742,7 @@ msgctxt ""
 "par_id971641990480244\n"
 "help.text"
 msgid "Following ISO 8601, this function considers Monday to be the first day of the week, and the first week of a year is the one with most days in this year."
-msgstr ""
+msgstr "Podle ISO 8601 považuje tato funkce pondělí za první den v týdnu a první týden v roce je ten s většinou dnů v tomto roce."
 
 #. bPF33
 #: 04060111.xhp
@@ -25764,7 +25764,7 @@ msgctxt ""
 "par_id3156338\n"
 "help.text"
 msgid "<input>=COUPDAYS(\"2001-01-25\"; \"2001-11-15\"; 2; 3)</input>  returns 182.5."
-msgstr ""
+msgstr "<input>=COUPDAYS(\"2001-01-25\"; \"2001-11-15\"; 2; 3)</input> vrátí 182,5."
 
 #. 9rAEC
 #: 04060118.xhp
@@ -26007,7 +26007,7 @@ msgctxt ""
 "par_id3149992\n"
 "help.text"
 msgid "<input>=COUPPCD(\"2001-01-25\"; \"2001-11-15\"; 2; 3)</input>  returns 2000-11-15."
-msgstr ""
+msgstr "<input>=COUPPCD(\"2001-01-25\"; \"2001-11-15\"; 2; 3)</input> vrátí 2000-11-15."
 
 #. nXJAK
 #: 04060118.xhp
@@ -27753,7 +27753,7 @@ msgctxt ""
 "par_id3154800\n"
 "help.text"
 msgid "What is the net present value of periodic payments of 10, 20, 30 and -5 currency units with a discount rate of 8.75%. At time zero the costs were paid as -40 currency units."
-msgstr ""
+msgstr "Chcete vypočítat, jaká je čistá současná hodnota pro pravidelné platby o hodnotě 10, 20, 30 a -5 měnových jednotek, je-li diskontní sazba 8,75 %. V čase nula byly náklady zaplaceny jako -40 měnových jednotek."
 
 #. rfJkA
 #: 04060119.xhp
@@ -27762,7 +27762,7 @@ msgctxt ""
 "par_id3143270\n"
 "help.text"
 msgid "<item type=\"input\">=NPV(8.75%;10;20;30;-5)</item> = 45.86 currency units. The net present value is the returned value minus the initial costs of 40 currency units, therefore 5.86 currency units."
-msgstr ""
+msgstr "<item type=\"input\">=NPV(8,75%;10;20;30;-5)</item> = 45,86 měnových jednotek. Čistá současná hodnota je návratová hodnota mínus počáteční náklady z 40 měnových jednotek, tedy 5.86 měnových jednotek."
 
 #. fyPVS
 #: 04060119.xhp
@@ -39561,7 +39561,7 @@ msgctxt ""
 "par_id3145801\n"
 "help.text"
 msgid "<ahelp hid=\".\">Allows you to name the different sections of your spreadsheet document.</ahelp> By naming the different sections, you can easily <link href=\"text/shared/01/navigator.xhp\">navigate</link> through the spreadsheet documents and find specific information."
-msgstr ""
+msgstr "<ahelp hid=\".\">Umožní vám pojmenovat různé sekce v sešitu.</ahelp> Pojmenováním různých sekcí lze snadno <link href=\"text/shared/01/navigator.xhp\">navigovat</link> v sešitu a najít specifické informace."
 
 #. WoeVL
 #: 04070100.xhp
@@ -40389,7 +40389,7 @@ msgctxt ""
 "hd_id3148663\n"
 "help.text"
 msgid "<variable id=\"h1\"><variable id=\"format cells\"><link href=\"text/scalc/01/05020000.xhp\">Format Cells</link></variable></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><variable id=\"format cells\"><link href=\"text/scalc/01/05020000.xhp\">Formátování buněk</link></variable></variable>"
 
 #. Erm44
 #: 05020000.xhp
@@ -41838,7 +41838,7 @@ msgctxt ""
 "par_id411701538725496\n"
 "help.text"
 msgid "The cell style corresponding to the first condition that evaluates to <emph>true</emph> is applied. Cell styles applied through Conditional Formatting override cell styles applied manually using the <link href=\"text/scalc/main0202.xhp\"><emph>Formatting Bar</emph></link> or the <link href=\"text/shared/01/styles.xhp\"><emph>Styles</emph> sidebar</link>."
-msgstr ""
+msgstr "Je nastaven styl buňky. který odpovídá první podmínce, která je vyhodnocena jako <emph>pravda</emph>. Styly buněk nastavené pomocí Podmíněného formátování přepíší styly buněknastavené ručně pomocí <link href=\"text/scalc/main0202.xhp\"><emph>lišty Formátování</emph></link> nebo <link href=\"text/shared/01/styles.xhp\"><emph>postranní lišty Styly</emph></link>."
 
 #. 2GWTv
 #: 05120000.xhp
@@ -44169,7 +44169,7 @@ msgctxt ""
 "par_id3155411\n"
 "help.text"
 msgid "<ahelp hid=\".\">Specifies additional information about the scenario. This information will be displayed in the <link href=\"ttext/shared/01/navigator.xhp\">Navigator</link> when you click the <emph>Scenarios</emph> icon and select the desired scenario.</ahelp> You can also modify this information in the Navigator through the <emph>Properties </emph>context menu command."
-msgstr ""
+msgstr "<ahelp hid=\".\">Určuje dodatečné informaci o scénáři. Tato informace bude zobrazena v <link href=\"ttext/shared/01/navigator.xhp\">Navigátoru</link>, když kliknete na ikonu <emph>Scénáře</emph> a vyberete požadovaný scénář.</ahelp> V Navigátoru také můžete tuto informaci změnit pomocí místní nabídky <emph>Vlastnosti </emph>."
 
 #. SqrLg
 #: 06050000.xhp
@@ -44799,7 +44799,7 @@ msgctxt ""
 "hd_id3157909\n"
 "help.text"
 msgid "<variable id=\"h1\"><link href=\"text/scalc/01/12010000.xhp\">Define Range</link></variable>"
-msgstr ""
+msgstr "<variable id=\"h1\"><link href=\"text/scalc/01/12010000.xhp\">Definovat oblast</link></variable>"
 
 #. 8zFH5
 #: 12010000.xhp
@@ -44880,7 +44880,7 @@ msgctxt ""
 "hd_id3154760\n"
 "help.text"
 msgid "<variable id=\"options_hd\">Options</variable>"
-msgstr ""
+msgstr "<variable id=\"options_hd\">Možnosti</variable>"
 
 #. aNYRd
 #: 12010000.xhp
@@ -44889,7 +44889,7 @@ msgctxt ""
 "hd_id3153379\n"
 "help.text"
 msgid "<variable id=\"contains_column_labels_hd\">Contains column labels</variable>"
-msgstr ""
+msgstr "<variable id=\"contains_column_labels_hd\">Obsahuje popisky sloupců</variable>"
 
 #. j7r7B
 #: 12010000.xhp
@@ -44898,7 +44898,7 @@ msgctxt ""
 "par_id3148798\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/definedatabaserangedialog/ContainsColumnLabels\" visibility=\"visible\">Selected cell ranges contains labels.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/definedatabaserangedialog/ContainsColumnLabels\" visibility=\"visible\">Vybrané oblasti buněk obsahují popisky.</ahelp>"
 
 #. P2QYA
 #: 12010000.xhp
@@ -44907,7 +44907,7 @@ msgctxt ""
 "hd_id411722523496992\n"
 "help.text"
 msgid "<variable id=\"contains_totals_row_hd\">Contains totals row</variable>"
-msgstr ""
+msgstr "<variable id=\"contains_totals_row_hd\">Obsahuje řádek součtů</variable>"
 
 #. F9PVb
 #: 12010000.xhp
@@ -44916,7 +44916,7 @@ msgctxt ""
 "par_id301722523732163\n"
 "help.text"
 msgid "The database range has a row for totals."
-msgstr ""
+msgstr "Databázová oblast obsahuje řádek součtů."
 
 #. NoKQk
 #: 12010000.xhp
@@ -44925,7 +44925,7 @@ msgctxt ""
 "hd_id3153970\n"
 "help.text"
 msgid "<variable id=\"insert_or_delete_cells_hd\">Insert or delete cells</variable>"
-msgstr ""
+msgstr "<variable id=\"insert_or_delete_cells_hd\">Vložit nebo smazat buňky</variable>"
 
 #. pxS2o
 #: 12010000.xhp
@@ -44934,7 +44934,7 @@ msgctxt ""
 "par_id3154684\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/definedatabaserangedialog/InsertOrDeleteCells\" visibility=\"visible\">Automatically inserts new rows and columns into the database range in your document when new records are added to the database.</ahelp> To manually update the database range, choose <emph>Data - Refresh Range</emph>."
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/definedatabaserangedialog/InsertOrDeleteCells\" visibility=\"visible\">Po přidání nových záznamů do databáze automaticky vloží nové sloupce a řádky do databázové oblasti dokumentu.</ahelp> Pokud chcete databázovou oblast aktualizovat ručně, zvolte <emph>Data - Obnovit oblast</emph>."
 
 #. 5fTjP
 #: 12010000.xhp
@@ -44943,7 +44943,7 @@ msgctxt ""
 "hd_id3153768\n"
 "help.text"
 msgid "<variable id=\"keep_formatting_hd\">Keep formatting</variable>"
-msgstr ""
+msgstr "<variable id=\"keep_formatting_hd\">Ponechat formátování</variable>"
 
 #. sCcka
 #: 12010000.xhp
@@ -44952,7 +44952,7 @@ msgctxt ""
 "par_id3147435\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/definedatabaserangedialog/KeepFormatting\" visibility=\"visible\">Applies the existing cell format of headers and first data row to the whole database range.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/definedatabaserangedialog/KeepFormatting\" visibility=\"visible\">Použije existující formátování buňky záhlaví a prvního datového řádku na celou databázovou oblast.</ahelp>"
 
 #. X4vC8
 #: 12010000.xhp
@@ -44961,7 +44961,7 @@ msgctxt ""
 "hd_id3155856\n"
 "help.text"
 msgid "<variable id=\"dont_save_imported_data_hd\">Don't save imported data</variable>"
-msgstr ""
+msgstr "<variable id=\"dont_save_imported_data_hd\">Neukládat importovaná data</variable>"
 
 #. PC5QK
 #: 12010000.xhp
@@ -44970,7 +44970,7 @@ msgctxt ""
 "par_id3153363\n"
 "help.text"
 msgid "<ahelp hid=\"modules/scalc/ui/definedatabaserangedialog/DontSaveImportedData\" visibility=\"visible\">Only saves a reference to the database, and not the contents of the cells.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"modules/scalc/ui/definedatabaserangedialog/DontSaveImportedData\" visibility=\"visible\">Ukládají se pouze odkazy do databáze a ne obsah buněk.</ahelp>"
 
 #. tRG4k
 #: 12010000.xhp
@@ -44979,7 +44979,7 @@ msgctxt ""
 "hd_id3147428\n"
 "help.text"
 msgid "<variable id=\"source_hd\">Source:</variable>"
-msgstr ""
+msgstr "<variable id=\"source_hd\">Zdroj:</variable>"
 
 #. 8c75S
 #: 12010000.xhp
@@ -44988,7 +44988,7 @@ msgctxt ""
 "par_id3148576\n"
 "help.text"
 msgid "Displays information about the current database source and any existing operators."
-msgstr ""
+msgstr "Zobrazuje informace o aktuálním databázovém zdroji a existujících operátorech."
 
 #. 28zDN
 #: 12010000.xhp
@@ -44997,7 +44997,7 @@ msgctxt ""
 "hd_id251722457576536\n"
 "help.text"
 msgid "<variable id=\"operations_hd\">Operations:</variable>"
-msgstr ""
+msgstr "<variable id=\"operations_hd\">Operace:</variable>"
 
 #. 8oAMc
 #: 12010000.xhp
@@ -45006,7 +45006,7 @@ msgctxt ""
 "par_id461722457896244\n"
 "help.text"
 msgid "Denotes what operations (if any) have been applied to the database range. For example, “Sort”, “Filter”, or “Subtotals”."
-msgstr ""
+msgstr "Označuje, jaké operace (pokud existují) byly použity na databázovou oblast. Například „Řazení“, „Filtr“ nebo „Mezisoučty“."
 
 #. UpzQF
 #: 12020000.xhp
