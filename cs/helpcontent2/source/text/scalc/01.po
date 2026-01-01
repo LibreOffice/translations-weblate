@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-09-18 12:11+0200\n"
-"PO-Revision-Date: 2026-01-01 15:34+0000\n"
-"Last-Translator: raal <raal@post.cz>\n"
+"PO-Revision-Date: 2026-01-01 19:44+0000\n"
+"Last-Translator: \"Felix G.\" <felix.gregg@email.cz>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-25-8/textscalc01/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
@@ -10725,7 +10725,7 @@ msgctxt ""
 "par_id751723304896532\n"
 "help.text"
 msgid "The <link href=\"text/scalc/01/04060107.xhp\">array formula</link> {=OR(B1:B10;C1:C10)} yields a one-dimensional value of FALSE when all components of B1:B10 and C1:C10 are FALSE. The array expression above does not produce the logical OR per element, and thus does not produce an array of logical values. To compute a logical OR of arrays per element use the + operator in array context. In the example, enter {=B1:B10+C1:C10}."
-msgstr "<link href=\"text/scalc/01/04060107.xhp\">Maticový vzorec</link> {=OR(B1:B10;C1:C10)} poskytuje jednorozměrnou hodnotu NEPRAVDA, když jsou všechny komponenty B1:B10 a C1:C10 NEPRAVDA. Výše uvedený maticový výraz nevytváří logické OR na prvek, a proto nevytváří pole logických hodnot. Chcete-li vypočítat logické OR polí na prvek, použijte operátor + v kontextu pole. V příkladu zadejte {=B1:B10+C1:C10}."
+msgstr "Výsledkem <link href=\"text/scalc/01/04060107.xhp\">maticového vzorce</link> {=OR(B1:B10;C1:C10)} je jednorozměrná hodnota NEPRAVDA tehdy, když jsou všechny komponenty B1:B10 a C1:C10 NEPRAVDA. Výše uvedený maticový výraz nepoužívá logické OR pro každý prvek, a proto nevytváří matici logických hodnot. Chcete-li vypočítat logické OR matic pro každý prvek, použijte v kontextu matice operátor +. V tomto příkladu zadejte {=B1:B10+C1:C10}."
 
 #. B2UcY
 #: 04060105.xhp
@@ -13146,7 +13146,7 @@ msgctxt ""
 "par_id241599040594931\n"
 "help.text"
 msgid "<literal>=POWER(0,0)</literal> returns 1; <literal>=POWER(0,X)</literal> reports the #NUM! error when  exponent X is negative."
-msgstr "<literal>=POWER(0;0)</literal> vrátí 1; <literal>=POWER(0;X)</literal> vypíše chybu #NUM! pokud je exponent X záporný."
+msgstr "<literal>=POWER(0;0)</literal> vrátí 1; <literal>=POWER(0;X)</literal> vypíše chybu #NUM!, pokud je exponent X záporný."
 
 #. ShFKC
 #: 04060106.xhp
@@ -13173,7 +13173,7 @@ msgctxt ""
 "par_id1614429\n"
 "help.text"
 msgid "<input>=4^3</input> also returns 4 to the power of 3."
-msgstr "<input>=4^3</input> také vrátí 4 na třetí."
+msgstr "<input>=4^3</input> také vrátí 4 na 3."
 
 #. psBP2
 #: 04060106.xhp
@@ -14496,7 +14496,7 @@ msgctxt ""
 "par_id3143708\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_EUROCONVERT\">Converts between old European national currency and to and from Euros.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_EUROCONVERT\">Převádí mezi starou evropskou národní měnou na euro a z eur.</ahelp>"
+msgstr "<ahelp hid=\"HID_FUNC_EUROCONVERT\">Převádí mezi starými evropskými národními měnami a eurem.</ahelp>"
 
 #. G7CMF
 #: 04060106.xhp
@@ -19644,7 +19644,7 @@ msgctxt ""
 "par_idN11999\n"
 "help.text"
 msgid "The function tries to bridge with system specificities. For example, \"c:\\path to\\file.ext\" will be properly interpreted as \"file:///c:/path%20to/file.ext\" on Windows, or \"..\" will lead to the parent directory of the document."
-msgstr "Funkce se snaží překlenout systémové specifika. Například \"c:\\path to\\file.ext\" bude v systému Windows správně interpretováno jako \"file:///c://path%20to/file.ext\", nebo \"..\" povede k nadřazenému adresáři dokumentu."
+msgstr "Funkce se snaží překlenout systémová specifika. Například cesta \"c:\\path to\\file.ext\" bude v systému Windows správně interpretována jako \"file:///c://path%20to/file.ext\" nebo \"..\" povede k nadřazenému adresáři dokumentu."
 
 #. ubKsF
 #: 04060109.xhp
@@ -19968,7 +19968,7 @@ msgctxt ""
 "par_id241721571890240\n"
 "help.text"
 msgid "<variable id=\"stringblank\">Cells with the empty string (\"\") are not equivalent to blank cells. When searching or calculating with text, the empty string \"\" is the text with length zero.</variable>"
-msgstr "<variable id=\"stringblank\">Buňky s prázdným řetězcem (\"\") nejsou ekvivalentní prázdným buňkám. Při hledání nebo výpočtu s textem je prázdný řetězec \"\" text s nulovou délkou.</variable>"
+msgstr "<variable id=\"stringblank\">Buňky s prázdným řetězcem (\"\") nejsou totéž jako prázdné buňky. Při vyhledávání nebo výpočtech s textem je prázdný řetězec \"\" text s nulovou délkou.</variable>"
 
 #. X2gVW
 #: 04060110.xhp
@@ -19977,7 +19977,7 @@ msgctxt ""
 "par_id451721571895265\n"
 "help.text"
 msgid "For example, when the formula in A1 returns the empty string \"\", the following applies:"
-msgstr "Například, když vzorec v A1 vrátí prázdný řetězec \"\", platí následující:"
+msgstr "Když například vzorec v A1 vrátí prázdný řetězec \"\", platí následující:"
 
 #. CAh4t
 #: 04060110.xhp
@@ -20013,7 +20013,7 @@ msgctxt ""
 "par_id791721571916704\n"
 "help.text"
 msgid "<input>=ISNONTEXT(A1)</input> returns FALSE. The cell has the empty string."
-msgstr "<input>=ISNONTEXT(A1)</input> vrátí NEPRAVDA. Buňka má prázdný řetězec."
+msgstr "<input>=ISNONTEXT(A1)</input> vrátí NEPRAVDA. Buňka obsahuje prázdný řetězec."
 
 #. Z7cMy
 #: 04060110.xhp
@@ -20022,7 +20022,7 @@ msgctxt ""
 "par_id91721571920288\n"
 "help.text"
 msgid "<input>=ISNUMBER(A1)</input> returns FALSE. Not a number."
-msgstr "<input>=ISNUMBER(A1)</input> vrátí NEPRAVDA. Není to číslo."
+msgstr "<input>=ISNUMBER(A1)</input> vrátí NEPRAVDA. Nejedná se o číslo."
 
 #. Vcmm7
 #: 04060110.xhp
@@ -20031,7 +20031,7 @@ msgctxt ""
 "par_id821721571924250\n"
 "help.text"
 msgid "<input>=ISTEXT(A1)</input> returns TRUE. The cell has the empty string, calculated by a formula."
-msgstr "<input>=ISTEXT(A1)</input> vrátí PRAVDA. Buňka má prázdný řetězec, vypočtený vzorcem."
+msgstr "<input>=ISTEXT(A1)</input> vrátí PRAVDA. Buňka obsahuje prázdný řetězec, vypočtený vzorcem."
 
 #. xDUEz
 #: 04060110.xhp
@@ -39543,7 +39543,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Named Ranges and Expressions"
-msgstr "~Pojmenované oblasti a výrazy"
+msgstr "Pojmenované oblasti a výrazy"
 
 #. ExSd6
 #: 04070000.xhp
@@ -39561,7 +39561,7 @@ msgctxt ""
 "par_id3145801\n"
 "help.text"
 msgid "<ahelp hid=\".\">Allows you to name the different sections of your spreadsheet document.</ahelp> By naming the different sections, you can easily <link href=\"text/shared/01/navigator.xhp\">navigate</link> through the spreadsheet documents and find specific information."
-msgstr "<ahelp hid=\".\">Umožní vám pojmenovat různé sekce v sešitu.</ahelp> Pojmenováním různých sekcí lze snadno <link href=\"text/shared/01/navigator.xhp\">navigovat</link> v sešitu a najít specifické informace."
+msgstr "<ahelp hid=\".\">Umožňuje pojmenovávat různé části sešitu.</ahelp> S pojmenovanými částmi se lze v sešitu snadno <link href=\"text/shared/01/navigator.xhp\">navigovat</link> a vyhledávat specifické informace."
 
 #. WoeVL
 #: 04070100.xhp
@@ -40389,7 +40389,7 @@ msgctxt ""
 "hd_id3148663\n"
 "help.text"
 msgid "<variable id=\"h1\"><variable id=\"format cells\"><link href=\"text/scalc/01/05020000.xhp\">Format Cells</link></variable></variable>"
-msgstr "<variable id=\"h1\"><variable id=\"format cells\"><link href=\"text/scalc/01/05020000.xhp\">Formátování buněk</link></variable></variable>"
+msgstr "<variable id=\"h1\"><variable id=\"format cells\"><link href=\"text/scalc/01/05020000.xhp\">Formát buněk</link></variable></variable>"
 
 #. Erm44
 #: 05020000.xhp
@@ -41838,7 +41838,7 @@ msgctxt ""
 "par_id411701538725496\n"
 "help.text"
 msgid "The cell style corresponding to the first condition that evaluates to <emph>true</emph> is applied. Cell styles applied through Conditional Formatting override cell styles applied manually using the <link href=\"text/scalc/main0202.xhp\"><emph>Formatting Bar</emph></link> or the <link href=\"text/shared/01/styles.xhp\"><emph>Styles</emph> sidebar</link>."
-msgstr "Je nastaven styl buňky. který odpovídá první podmínce, která je vyhodnocena jako <emph>pravda</emph>. Styly buněk nastavené pomocí Podmíněného formátování přepíší styly buněknastavené ručně pomocí <link href=\"text/scalc/main0202.xhp\"><emph>lišty Formátování</emph></link> nebo <link href=\"text/shared/01/styles.xhp\"><emph>postranní lišty Styly</emph></link>."
+msgstr "Použije se styl buňky. který bude odpovídat první podmínce, která se vyhodnotí jako <emph>pravda</emph>. Styly buněk nastavené ručně pomocí <link href=\"text/scalc/main0202.xhp\"><emph>lišty Formátování</emph></link> nebo <link href=\"text/shared/01/styles.xhp\">postranní lišty <emph>Styly</emph></link> budou styly nastavenými podmíněným formátováním přepsány."
 
 #. 2GWTv
 #: 05120000.xhp
@@ -44169,7 +44169,7 @@ msgctxt ""
 "par_id3155411\n"
 "help.text"
 msgid "<ahelp hid=\".\">Specifies additional information about the scenario. This information will be displayed in the <link href=\"ttext/shared/01/navigator.xhp\">Navigator</link> when you click the <emph>Scenarios</emph> icon and select the desired scenario.</ahelp> You can also modify this information in the Navigator through the <emph>Properties </emph>context menu command."
-msgstr "<ahelp hid=\".\">Určuje dodatečné informaci o scénáři. Tato informace bude zobrazena v <link href=\"ttext/shared/01/navigator.xhp\">Navigátoru</link>, když kliknete na ikonu <emph>Scénáře</emph> a vyberete požadovaný scénář.</ahelp> V Navigátoru také můžete tuto informaci změnit pomocí místní nabídky <emph>Vlastnosti </emph>."
+msgstr "<ahelp hid=\".\">Přidá ke scénáři dodatečné informace. Tato informace bude zobrazena v <link href=\"ttext/shared/01/navigator.xhp\">Navigátoru</link>, když klepnete na ikonu <emph>Scénáře</emph> a vyberete požadovaný scénář.</ahelp> V Navigátoru také můžete tyto informace změnit pomocí příkazu místní nabídky <emph>Vlastnosti</emph>."
 
 #. SqrLg
 #: 06050000.xhp
@@ -44943,7 +44943,7 @@ msgctxt ""
 "hd_id3153768\n"
 "help.text"
 msgid "<variable id=\"keep_formatting_hd\">Keep formatting</variable>"
-msgstr "<variable id=\"keep_formatting_hd\">Ponechat formátování</variable>"
+msgstr "<variable id=\"keep_formatting_hd\">Zachovat formátování</variable>"
 
 #. sCcka
 #: 12010000.xhp
@@ -47733,7 +47733,7 @@ msgctxt ""
 "par_id3147229\n"
 "help.text"
 msgid "$[officename] automatically adds a caption to buttons that are dragged into the <emph>Data Fields</emph>area. The caption contains the name of the data field as well as the formula that created the data."
-msgstr "$[officename] automaticky přidává k tlačítkům popis, která jsou přetažena do oblasti <emph>Datová pole </emph>. Popis obsahuje název datového pole a vzorec, který vytvořil data."
+msgstr "$[officename] automaticky přidává popis k tlačítkům, která jsou přetažena do oblasti <emph>Datová pole </emph>. Popis obsahuje název datového pole a vzorec, který vytvořil data."
 
 #. cpHDx
 #: 12090102.xhp
@@ -47931,7 +47931,7 @@ msgctxt ""
 "par_id781748994091291\n"
 "help.text"
 msgid "Shows outline buttons to expand and collapse, to make the pivot table with the compact layout more usable."
-msgstr "Zobrazuje tlačítka pro rozbalení a sbalení, aby byla kontingenční tabulka s kompaktním rozvržením lépe použitelná."
+msgstr "Zobrazí tlačítka pro rozbalení a sbalení, aby byla kontingenční tabulka s kompaktním rozvržením lépe použitelná."
 
 #. 4uVwf
 #: 12090102.xhp
@@ -49317,7 +49317,7 @@ msgctxt ""
 "bm_id321736196693683\n"
 "help.text"
 msgid "<bookmark_value>pivot table;group by numbers</bookmark_value><bookmark_value>pivot table;group by dates</bookmark_value>"
-msgstr "<bookmark_value>kontingenční tabulka;seskupit podle čísel</bookmark_value><bookmark_value>kontingenční tabulka;seskupit podle datumů</bookmark_value>"
+msgstr "<bookmark_value>kontingenční tabulka;seskupit podle čísel</bookmark_value><bookmark_value>kontingenční tabulka;seskupit podle data</bookmark_value>"
 
 #. ErD98
 #: 12090400.xhp
@@ -49884,7 +49884,7 @@ msgctxt ""
 "par_id531744637972520\n"
 "help.text"
 msgid "Honor upper and lower case for <emph>Cell ranges</emph>, <emph>Lists</emph> and <emph>Custom</emph> values."
-msgstr "Respektuje velká a malá písmena pro <emph>oblasti buněk</emph>, <emph>seznamy</emph> a <emph>vlastní</emph> hodnoty."
+msgstr "U hodnot <emph>Oblast buněk</emph>, <emph>Seznam</emph> a <emph>Vlastní</emph> se bude rozlišovat velikost písmen."
 
 #. knPBu
 #: 12120100.xhp
@@ -50721,7 +50721,7 @@ msgctxt ""
 "par_id151725960913414\n"
 "help.text"
 msgid "<emph>Compare:</emph> specifies whether to compare rows or columns."
-msgstr "<emph>Porovnat:</emph> určuje, zda porovnávat řádky či sloupce."
+msgstr "<emph>Porovnat:</emph> určuje, zda porovnávat řádky, či sloupce."
 
 #. yrWBU
 #: HandleDuplicateRecords.xhp
@@ -50730,7 +50730,7 @@ msgctxt ""
 "par_id991725961010287\n"
 "help.text"
 msgid "<emph>Header:</emph> specifies if the selected data includes table headers. If checked, the table headers (the first row or column) are ignored."
-msgstr "<emph>Záhlaví:</emph> určuje, zda vybraná data obsahují záhlaví tabulky. Pokud je zaškrtnuto, záhlaví tabulky (první řádek nebo sloupec) se ignorují."
+msgstr "<emph>Záhlaví:</emph> určuje, zda vybraná data obsahují záhlaví tabulky. Pokud je zaškrtnuto, záhlaví tabulky (první řádek nebo sloupec) se ignoruje."
 
 #. 7nAND
 #: HandleDuplicateRecords.xhp
@@ -50739,7 +50739,7 @@ msgctxt ""
 "par_id61725963172527\n"
 "help.text"
 msgid "<emph>Compare by:</emph> specifies which fields to compare (and which to ignore) when determining whether two rows or columns are duplicates or not."
-msgstr "<emph>Porovnat podle:</emph> určuje, která pole se mají porovnávat (a která se mají ignorovat) při určování, zda jsou dva řádky nebo sloupce duplikáty či nikoli."
+msgstr "<emph>Porovnat podle:</emph> určuje, která pole se mají porovnávat (a která se mají ignorovat) při určování toho, zda jsou dva řádky nebo sloupce duplikáty, či nikoli."
 
 #. Khs7p
 #: HandleDuplicateRecords.xhp
@@ -50748,7 +50748,7 @@ msgctxt ""
 "par_id741725979527610\n"
 "help.text"
 msgid "<emph>Action:</emph> specifies whether to select or remove the duplicate rows or columns."
-msgstr "<emph>Akce:</emph> určuje, zda se mají vybrat nebo odstranit duplicitní řádky nebo sloupce."
+msgstr "<emph>Akce:</emph> určuje, zda se mají vybrat, nebo odstranit duplicitní řádky nebo sloupce."
 
 #. Wd2Av
 #: HandleDuplicateRecords.xhp
@@ -50757,7 +50757,7 @@ msgctxt ""
 "par_id781742303337461\n"
 "help.text"
 msgid "When duplicate records are removed, the entire rows or columns in the range containing those duplicates are deleted. This action causes the surrounding cells to shift and fill the empty spaces left behind. If the comparison is conducted along the rows, the cells below the removed duplicates will shift upward. Conversely, if the comparison is done along the columns, the cells to the right of the deleted duplicates will move leftward."
-msgstr "Při odstraňování duplicitních záznamů se smažou celé řádky nebo sloupce v oblasti obsahující tyto duplikáty. Tato akce způsobí, že se okolní buňky posunou a zaplní zbývající prázdná místa. Pokud se porovnávání provádí podle řádků, buňky pod odstraněnými duplikáty se posunou nahoru. Naopak, pokud se porovnávání provádí podle sloupců, buňky napravo od odstraněných duplikátů se posunou doleva."
+msgstr "Při odstraňování duplicitních záznamů se smažou celé řádky nebo sloupce v oblasti obsahující tyto duplikáty. Tato akce způsobí, že se okolní buňky posunou a zaplní zbývající prázdná místa. Pokud se porovnávání provádí podle řádků, buňky pod odstraněnými duplikáty se posunou nahoru. Pokud se naopak porovnávání provádí podle sloupců, buňky napravo od odstraněných duplikátů se posunou doleva."
 
 #. 5GGem
 #: HideNote.xhp
@@ -52611,7 +52611,7 @@ msgctxt ""
 "hd_id891741205439580\n"
 "help.text"
 msgid "Split Columns"
-msgstr ""
+msgstr "Rozdělit sloupce"
 
 #. VD5ix
 #: data_provider.xhp
@@ -53988,7 +53988,7 @@ msgctxt ""
 "par_id141727208910739\n"
 "help.text"
 msgid "In Microsoft Excel, if the formula cell belongs to the table, then the name of the table may be omitted. For example, the formula <input>=SUM(myData[Sales]</input>) in cell <input>C11</input> could be written as <input>=SUM([Sales]</input>). Omission of the table name is not yet possible in Calc."
-msgstr "V aplikaci Microsoft Excel, pokud buňka se vzorcem patří do tabulky, lze název tabulky vynechat. Například vzorec <input>=SUM(myData[Sales]</input>) by mohl být zapsán v buňce <input>C11</input> jako <input>=SUM([Sales]</input>). Vynechání názvu tabulky zatím v aplikaci Calc není možné."
+msgstr "Pokud v aplikaci Microsoft Excel patří buňka se vzorcem do tabulky, lze název tabulky vynechat. Například vzorec <input>=SUM(myData[Sales]</input>) by mohl být zapsán v buňce <input>C11</input> jako <input>=SUM([Sales]</input>). Vynechání názvu tabulky zatím v aplikaci Calc není možné."
 
 #. DQizE
 #: database_table_reference.xhp
@@ -54024,7 +54024,7 @@ msgctxt ""
 "hd_id111727368792150\n"
 "help.text"
 msgid "<variable id=\"data_and_totals_hd\">Data records and total row</variable>"
-msgstr "<variable id=\"data_and_totals_hd\">Datové záznamy a součtový řádek</variable>"
+msgstr "<variable id=\"data_and_totals_hd\">Datové záznamy a řádek součtu</variable>"
 
 #. JnFaR
 #: database_table_reference.xhp
@@ -54033,7 +54033,7 @@ msgctxt ""
 "par_id191727211364444\n"
 "help.text"
 msgid "To reference a combination of data records and totals row, use <input>[#Data];[#Totals]</input>. For example, <input>myData[[#Data];[#Totals]]</input> references the cells <input>A2:D11</input>."
-msgstr "Pro odkazování na kombinaci datových záznamů a řádku součtů použijte <input>[#Data];[#Totals]</input>. Například <input>myData[[#Data];[#Totals]]</input> odkazují na buňky <input>A2:D11</input>."
+msgstr "Pro odkazování na kombinaci datových záznamů a řádku součtu použijte <input>[#Data];[#Totals]</input>. Například <input>myData[[#Data];[#Totals]]</input> odkazují na buňky <input>A2:D11</input>."
 
 #. GpVa6
 #: database_table_reference.xhp
@@ -54042,7 +54042,7 @@ msgctxt ""
 "par_id231727211374505\n"
 "help.text"
 msgid "A combination like <input>[#Headers];[#Totals]</input> is not possible as that would result in two disjoint cell rectangles."
-msgstr "Kombinace jako je například <input>[#Headers];[#Totals]</input> není možná, protože by to vedlo ke dvěma nesouvislým obdélníkům buněk."
+msgstr "Kombinace, jako je například <input>[#Headers];[#Totals]</input>, není možná, protože by vedla ke dvěma nesouvislým obdélníkům buněk."
 
 #. nMXZc
 #: database_table_reference.xhp
