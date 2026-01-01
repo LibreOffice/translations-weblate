@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 15:27+0100\n"
-"PO-Revision-Date: 2025-11-05 13:19+0000\n"
+"PO-Revision-Date: 2026-01-01 20:30+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-25-2/textscalc01/da/>\n"
 "Language: da\n"
@@ -65817,7 +65817,7 @@ msgctxt ""
 "par_id721625602228575\n"
 "help.text"
 msgid "NUMBERVALUE(Text[; Decimal Separator[; Group Separator]])"
-msgstr "TALVÆRDI(Tekst[; Decimalskilletegn[; Gruppeskilletegn])"
+msgstr "TALVÆRDI(Tekst[; Decimaltegn[; Gruppeskilletegn])"
 
 #. Y3A9n
 #: func_numbervalue.xhp
@@ -65835,7 +65835,7 @@ msgctxt ""
 "par_id3154820\n"
 "help.text"
 msgid "<emph>Decimal Separator</emph> is a single character that specifies the decimal separator in <emph>Text</emph>. It can be omitted if <emph>Text</emph> does not include any decimal or group separators."
-msgstr "<emph>Decimalskilletegn</emph> er et enkeltegn, der angiver decimalskilletegnet i <emph>Tekst</emph>en. Det kan udelades, hvis <emph>Tekst</emph>en ikke indeholder nogen decimal- eller gruppe-skilletegn."
+msgstr "<emph>Decimaltegn</emph> er et enkeltegn, der angiver decimaltegnet i <emph>Tekst</emph>en. Det kan udelades, hvis <emph>Tekst</emph>en ikke indeholder nogen decimaltegn eller gruppeskilletegn."
 
 #. KJ6WA
 #: func_numbervalue.xhp
@@ -65844,7 +65844,7 @@ msgctxt ""
 "par_id3154821\n"
 "help.text"
 msgid "<emph>Group Separator</emph> is a string that specifies the character(s) used as the group separator in <emph>Text</emph>. It can be omitted if <emph>Text</emph> does not include any group separators. The <emph>Decimal Separator</emph> character should not be used in <emph>Group Separator</emph>."
-msgstr "<emph>Gruppeskilletegn</emph> er en streng, der angiver gruppeskilletegnet i <emph>Tekst</emph>en. Det kan udelades, hvis <emph>Tekst</emph>en ikke indeholder nogen gruppeskilletegn. <emph>Decimalskilletegnet</emph> bør ikke bruges i <emph>Gruppeskilletegnet</emph>."
+msgstr "<emph>Gruppeskilletegn</emph> er en streng, der angiver gruppeskilletegnet i <emph>Tekst</emph>en. Det kan udelades, hvis <emph>Tekst</emph>en ikke indeholder nogen gruppeskilletegn. <emph>Decimaltegnet</emph> bør ikke være blandt <emph>Gruppeskilletegn</emph>."
 
 #. yptHN
 #: func_numbervalue.xhp
@@ -65862,7 +65862,7 @@ msgctxt ""
 "par_id721625603302860\n"
 "help.text"
 msgid "<input>=NUMBERVALUE(\"123·4\"; \"·\")</input> returns 123.4 (considering en-US locale). The function changes the decimal separator from a \"·\" to a full stop. No group separator is used in the supplied number and so the <emph>Group Separator</emph> argument is omitted."
-msgstr "<input>=TALVÆRDI(\"123·4\"; \"·\")</input> returnerer 123,4 (forudsætter lokaliseringen da-DK). Funktionen ændrer decimalskilletegnet fra et \"·\" til et komma. Der er ikke brugt gruppeskilletegn i det opgivne tal og derfor udelades argumentet <emph>Gruppeskilletegn</emph>."
+msgstr "<input>=TALVÆRDI(\"123·4\"; \"·\")</input> returnerer 123,4 (forudsætter lokaliseringen da-DK). Funktionen ændrer decimaltegnet fra et \"·\" til et komma. Der er ikke brugt gruppeskilletegn i det opgivne tal, og derfor udelades argumentet <emph>Gruppeskilletegn</emph>."
 
 #. iGGwj
 #: func_numbervalue.xhp
@@ -65871,7 +65871,7 @@ msgctxt ""
 "par_id491625603415715\n"
 "help.text"
 msgid "<input>=NUMBERVALUE(\"123e12\")</input> returns 1.23E+14 (considering en-US locale). No decimal or group separators are used in the supplied number and so the <emph>Decimal Separator</emph> and <emph>Group Separator</emph> arguments are omitted."
-msgstr "<input>=TALVÆRDI(\"123e12\")</input> returnerer 1,23E+14 (forudsat lokaliseringenda-DK). Der er ikke brugt decimal- eller gruppeskilletegn i det opgivne tal og derfor udelades argumenterne <emph>Decimalskilletegn</emph> og <emph>Gruppeskilletegn</emph>."
+msgstr "<input>=TALVÆRDI(\"123e12\")</input> returnerer 1,23E+14 (for lokaliseringsindstillinger da-DK). Der er ikke brugt decimaltegn eller gruppeskilletegn i det opgivne tal og derfor udelades argumenterne <emph>Decimaltegn</emph> og <emph>Gruppeskilletegn</emph>."
 
 #. vTYDd
 #: func_numbervalue.xhp
@@ -67671,7 +67671,7 @@ msgctxt ""
 "par_id911641928545976\n"
 "help.text"
 msgid "Use negative values for <emph>Count</emph> to round the integer part of the original <emph>Number</emph>. For example, -1 will round down the first integer number before the decimal separator, -2 will round down the two integer numbers before the decimal separator, and so forth."
-msgstr "Brug negative værdier i <emph>Antal</emph> for at afrunde heltalsdelen af det oprindelige <emph>Tal</emph>. For eksempel vil -1 nedrunde det første heltal før decimalskilletegnet, -2 vil nedrunde de to heltalscifre før decimalskilletegnet og så videre."
+msgstr "Brug negative værdier i <emph>Antal</emph> for at nedrunde heltalsdelen af det oprindelige <emph>Tal</emph>. For eksempel vil -1 nedrunde det første heltalsciffer før decimaltegnet, -2 vil nedrunde de to heltalscifre før decimaltegnet, og så videre."
 
 #. GFCDG
 #: func_rounddown.xhp
@@ -67718,7 +67718,7 @@ msgctxt ""
 msgid "<input>=ROUNDDOWN(214.2,-1)</input> returns 210. Note the negative value for <emph>Count</emph>, which causes the first integer value before the decimal separator to be rounded towards zero."
 msgstr ""
 "<input>=RUND.NED(214,2;-1)</input> returnerer 210. Bemærk <emph>Antal</emph>s negative værdi, \n"
-"som bevirker, at den første heltalsværdi foran decimalskilletegnet bliver afrundet mod nul."
+"som bevirker, at den første heltalsværdi foran decimaltegnet bliver afrundet mod nul."
 
 #. q3A5j
 #: func_rounddown.xhp
@@ -70400,7 +70400,7 @@ msgctxt ""
 "par_id911641928545976\n"
 "help.text"
 msgid "Use negative values for <emph>Count</emph> to round the integer part of the original <emph>Number</emph>. For example, -1 will round down the first integer number before the decimal separator, -2 will round down the two integer numbers before the decimal separator, and so forth."
-msgstr "Brug negative værdier i <emph>Antal</emph> for at afrunde heltalsdelen af det oprindelige <emph>Tal</emph>. For eksempel vil -1 runde ned til det første heltalsciffer før decimalskilletegnet, -2 vil runde de to heltalscifre før decimalskilletegnet ned og så videre."
+msgstr "Brug negative værdier i <emph>Antal</emph> for at nedrunde heltalsdelen af det oprindelige <emph>Tal</emph>. For eksempel vil -1 nedrunde det første heltalsciffer før decimaltegnet, -2 vil nedrunde de to heltalscifre før decimaltegnet, og så videre."
 
 #. EJFZd
 #: func_trunc.xhp
@@ -70436,7 +70436,7 @@ msgctxt ""
 "par_id641641928712287\n"
 "help.text"
 msgid "<input>=TRUNC(214.2,-1)</input> returns 210. Note the negative value for <emph>Count</emph>, which causes the first integer value before the decimal separator to be rounded towards zero."
-msgstr "<input>=AFKORT(214,2;-1)</input> returnerer 210. Bemærk den negative værdi af <emph>Antal</emph>, som bevirker, at det første heltalsciffer foran decimalskilletegnet afrundes mod nul."
+msgstr "<input>=AFKORT(214,2;-1)</input> returnerer 210. Bemærk den negative værdi af <emph>Antal</emph>, som bevirker, at det første heltalsciffer foran decimaltegnet afrundes mod nul."
 
 #. npECj
 #: func_trunc.xhp
