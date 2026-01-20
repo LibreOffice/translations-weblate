@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 15:27+0100\n"
-"PO-Revision-Date: 2026-01-19 09:30+0000\n"
+"PO-Revision-Date: 2026-01-20 10:30+0000\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <https://translations.documentfoundation.org/projects/libo_help-25-2/textsbasicshared/it/>\n"
 "Language: it\n"
@@ -9653,7 +9653,7 @@ msgctxt ""
 "par_id3154366\n"
 "help.text"
 msgid "Returns the next available file number for opening a file. Use this function to open a file using a file number that is not already in use by a currently open file."
-msgstr "Restituisce il numero del file successivo disponibile per l'apertura. Questa funzione vi permette di aprire un file usando un numero non utilizzato dai file attualmente aperti."
+msgstr "Restituisce il numero del file successivo disponibile per l'apertura. Questa funzione permette di aprire un file usando un numero non utilizzato dai file attualmente aperti."
 
 #. RqGSZ
 #: 03020102.xhp
@@ -9743,7 +9743,7 @@ msgctxt ""
 "par_id3155132\n"
 "help.text"
 msgid "<emph>pathname: </emph>Path and name of the file to open. If you try to read a file that does not exist (Access = Read), an error message appears. If you try to write to a file that does not exist (Access = Write), a new file is created."
-msgstr "<emph>pathname:</emph> percorso e nome del file da aprire. Se tentate di leggere un file inesistente (Access = Read), appare un messaggio di errore. Se tentate di scrivere in un file inesistente (Access =Write), viene creato un nuovo file."
+msgstr "<emph>pathname:</emph> percorso e nome del file da aprire. Se si tenta di leggere un file inesistente (Access = Read), appare un messaggio di errore. Se si tenta di scrivere in un file inesistente (Access =Write), viene creato un nuovo file."
 
 #. XqfP8
 #: 03020103.xhp
@@ -9779,7 +9779,7 @@ msgctxt ""
 "par_id3153190\n"
 "help.text"
 msgid "<emph>filenum:</emph> Any integer expression from 0 to 511 to indicate the number of a free data channel. You can then pass commands through the data channel to access the file. The file number must be determined by the FreeFile function immediately before the Open statement."
-msgstr "<emph>filenum:</emph> qualunque espressione numerica che restituisce un intero compreso tra 0 e 511, che indica il numero di un canale di dati libero. Dopodichè è possibile passare comandi attraverso il canale di dati per accedere al file. Il numero del file deve essere determinato dalla funzione FreeFile immediatamente prima dell'istruzione Open."
+msgstr "<emph>filenum:</emph> qualunque espressione numerica che restituisce un intero compreso tra 0 e 511, che indica il numero di un canale di dati libero. Dopodiché è possibile passare comandi attraverso il canale di dati per accedere al file. Il numero del file deve essere determinato dalla funzione FreeFile immediatamente prima dell'istruzione Open."
 
 #. LgCLi
 #: 03020103.xhp
@@ -9797,7 +9797,7 @@ msgctxt ""
 "par_id3153418\n"
 "help.text"
 msgid "You can only modify the contents of a file that was opened with the Open statement. If you try to open a file that is already open, an error message appears."
-msgstr "Potete modificare solo il contenuto dei file aperti con l'istruzione Open. Se cercate di aprire un file già aperto, viene generato un messaggio di errore."
+msgstr "È possibile modificare solo il contenuto dei file aperti con l'istruzione Open. Se si cerca di aprire un file già aperto, viene generato un messaggio di errore."
 
 #. xPMgs
 #: 03020103.xhp
@@ -10031,7 +10031,7 @@ msgctxt ""
 "par_id3149484\n"
 "help.text"
 msgid "<emph>variable:</emph> Name of the variable to be read. With the exception of object variables, you can use any variable type."
-msgstr "<emph>variable:</emph> nome della variabile da leggere. Fatta eccezione per le variabili oggetto, potete usare qualunque tipo di variabile."
+msgstr "<emph>variable:</emph> nome della variabile da leggere. Fatta eccezione per le variabili oggetto, è possibile usare qualunque tipo di variabile."
 
 #. PQRf6
 #: 03020201.xhp
@@ -10184,7 +10184,7 @@ msgctxt ""
 "hd_id3154908\n"
 "help.text"
 msgid "<variable id=\"Input_h1\"><link href=\"text/sbasic/shared/03020202.xhp\">Input# Statement</link></variable>"
-msgstr "<variable id=\"LineInput_h1\"><link href=\"text/sbasic/shared/03020203.xhp\">Istruzione Input#</link></variable>"
+msgstr "<variable id=\"Input_h1\"><link href=\"text/sbasic/shared/03020202.xhp\">struzione Input#</link></variable>"
 
 #. iWhqX
 #: 03020202.xhp
@@ -10247,7 +10247,7 @@ msgctxt ""
 "par_id3146984\n"
 "help.text"
 msgid "Data and data types in the opened file must appear in the same order as the variables that are passed in the \"var\" parameter. If you assign non-numeric values to a numeric variable, \"var\" is assigned a value of \"0\"."
-msgstr "I dati e i tipi di dati contenuti nel file aperto devono comparire nello stesso ordine delle variabili passate con il parametro \"var\". Se assegnate un valore non numerico a una variabile numerica, all'elemento \"var\" viene assegnato il valore \"0\"."
+msgstr "I dati e i tipi di dati contenuti nel file aperto devono comparire nello stesso ordine delle variabili passate con il parametro \"var\". Se si assegna un valore non numerico a una variabile numerica, all'elemento \"var\" viene assegnato il valore \"0\"."
 
 #. Ze3QA
 #: 03020202.xhp
@@ -10256,7 +10256,7 @@ msgctxt ""
 "par_id3156442\n"
 "help.text"
 msgid "Records that are separated by commas cannot be assigned to a string variable. Quotation marks (\") in the file are disregarded as well. If you want to read these characters from the file, use the <emph>Line Input#</emph> statement to read pure text files (files containing only printable characters) line by line."
-msgstr "I record di dati separati da virgole non possono essere assegnati a una variabile stringa. Anche le virgolette (\") nel file vengono ignorate. Se volete leggere questi caratteri dal file, utilizzate l'istruzione <emph>Line Input#</emph> per leggere semplici file di testo (file che contengono solo caratteri stampabili) riga per riga."
+msgstr "I record di dati separati da virgole non possono essere assegnati a una variabile stringa. Anche le virgolette (\") nel file vengono ignorate. Volendo leggere questi caratteri dal file, utilizzare l'istruzione <emph>Line Input#</emph> per leggere file di solo testo (file che contengono solo caratteri stampabili), riga per riga."
 
 #. ddJmv
 #: 03020202.xhp
@@ -10355,7 +10355,7 @@ msgctxt ""
 "par_id3150010\n"
 "help.text"
 msgid "With the <emph>Line Input#</emph> statement, you can read strings from an open file into a variable. String variables are read line-by-line up to the first carriage return (Asc=13) or linefeed (Asc=10). Line end marks are not included in the resulting string."
-msgstr "Con l'istruzione <emph>Line Input#</emph>, potete leggere le stringhe di un file aperto in una variabile. Le variabili a stringa vengono lette riga per riga fino al primo ritorno a capo (Asc=13) o al primo carattere di nuova riga (Asc=10). I caratteri di fine riga non vengono inclusi nella stringa risultante."
+msgstr "Con l'istruzione <emph>Line Input#</emph> è possibile leggere le stringhe di un file aperto in una variabile. Le variabili a stringa vengono lette riga per riga fino al primo ritorno a capo (Asc=13) o al primo carattere di nuova riga (Asc=10). I caratteri di fine riga non vengono inclusi nella stringa risultante."
 
 #. fhFEa
 #: 03020204.xhp
@@ -10400,7 +10400,7 @@ msgctxt ""
 "par_id461596463969009\n"
 "help.text"
 msgid "Use <link href=\"text/sbasic/shared/03010103.xhp\">Print#</link> statement to print data to a sequential text file. Use <link href=\"text/sbasic/shared/03020205.xhp\">Write#</link> statement to write data to a sequential text file with delimiting characters."
-msgstr "Usate l'istruzione <link href=\"text/sbasic/shared/03010103.xhp\">Print#</link> per scrivere i dati in un file sequenziale. Usate l'istruzione <link href=\"text/sbasic/shared/03020205.xhp\">Write#</link> per scrivere i dati in un file sequenziale con caratteri di delimitazione."
+msgstr "Usare l'istruzione <link href=\"text/sbasic/shared/03010103.xhp\">Print#</link> per scrivere i dati in un file sequenziale. Usare l'istruzione <link href=\"text/sbasic/shared/03020205.xhp\">Write#</link> per scrivere i dati in un file sequenziale con caratteri di delimitazione."
 
 #. 9HgEG
 #: 03020204.xhp
@@ -10445,7 +10445,7 @@ msgctxt ""
 "par_id3148576\n"
 "help.text"
 msgid "For binary files (binary access), the position of the byte in the file where you want to start writing."
-msgstr "Per i file binari (accesso binario), indica la posizione del byte da cui volete iniziare la scrittura."
+msgstr "Per i file binari (accesso binario), indica la posizione del byte da cui iniziare la scrittura."
 
 #. iGF9L
 #: 03020204.xhp
@@ -10571,7 +10571,7 @@ msgctxt ""
 "par_id3147428\n"
 "help.text"
 msgid "Strings that you write are enclosed by quotation marks and separated by commas. You do not need to enter these delimiters in the expression list."
-msgstr "Le stringhe che scrivete sono racchiuse da virgolette e separate da virgole. Non è necessario indicare delimitatori nell'elenco delle espressioni."
+msgstr "Le stringhe che si scrivono sono racchiuse da virgolette e separate da virgole. Non è necessario indicare delimitatori nell'elenco delle espressioni."
 
 #. AvKzN
 #: 03020205.xhp
@@ -10661,7 +10661,7 @@ msgctxt ""
 "par_id3153527\n"
 "help.text"
 msgid "Use EOF to avoid errors when you attempt to get input past the end of a file. When you use the Input or Get statement to read from a file, the file pointer is advanced by the number of bytes read. When the end of a file is reached, EOF returns the value \"True\" (-1)."
-msgstr "L'uso di EOF permette di evitare gli errori generati quando si cerca di immettere dati dopo la fine del file. Quando usate l'istruzione Input o Get per leggere i dati da un file, il puntatore viene fatto avanzare del numero di byte letti. Quando viene raggiunta la fine del file, EOF restituisce il valore \"True\" (-1)."
+msgstr "L'uso di EOF permette di evitare gli errori generati quando si cerca di immettere dati dopo la fine del file. Quando si usa l'istruzione Input o Get per leggere i dati da un file, il puntatore viene fatto avanzare del numero di byte letti. Quando viene raggiunta la fine del file, EOF restituisce il valore \"True\" (-1)."
 
 #. jCouD
 #: 03020302.xhp
@@ -10715,7 +10715,7 @@ msgctxt ""
 "par_id3150768\n"
 "help.text"
 msgid "Loc(FileNumber)"
-msgstr "Loc(FileNumber)"
+msgstr "Loc(NumeroFile)"
 
 #. 2TN73
 #: 03020302.xhp
@@ -10742,7 +10742,7 @@ msgctxt ""
 "par_id3153363\n"
 "help.text"
 msgid "<emph>FileNumber:</emph> Any numeric expression that contains the file number that is set by the Open statement for the respective file."
-msgstr "<emph>FileNumber (NumeroFile):</emph> espressione numerica contenente il numero del file impostato con l'istruzione Open."
+msgstr "<emph>NumeroFile:</emph> espressione numerica contenente il numero del file impostato con l'istruzione Open."
 
 #. NSREX
 #: 03020302.xhp
@@ -10805,7 +10805,7 @@ msgctxt ""
 "par_id3150359\n"
 "help.text"
 msgid "Lof (FileNumber) As Long"
-msgstr "Lof (FileNumber) As Long"
+msgstr "Lof (NumeroFile) As Long"
 
 #. 6oGoB
 #: 03020303.xhp
@@ -10814,7 +10814,7 @@ msgctxt ""
 "par_id3150869\n"
 "help.text"
 msgid "<emph>FileNumber:</emph> Any numeric expression that contains the file number that is specified in the <literal>Open</literal> statement."
-msgstr "<emph>FileNumber (NumeroFile):</emph> espressione numerica contenente il numero del file specificato nell'istruzione <literal>Open</literal>."
+msgstr "<emph>NumeroFile:</emph> espressione numerica contenente il numero del file specificato nell'istruzione <literal>Open</literal>."
 
 #. kFTvh
 #: 03020303.xhp
@@ -10823,7 +10823,7 @@ msgctxt ""
 "par_id3147349\n"
 "help.text"
 msgid "To obtain the length of a file that is not open, use the <link href=\"text/sbasic/shared/03020408.xhp\"><literal>FileLen</literal></link> function."
-msgstr "Per determinare la lunghezza di un file non aperto, usate la funzione <link href=\"text/sbasic/shared/03020408.xhp\"><literal>FileLen</literal></link>."
+msgstr "Per determinare la lunghezza di un file non aperto, usare la funzione <link href=\"text/sbasic/shared/03020408.xhp\"><literal>FileLen</literal></link>."
 
 #. AGL3X
 #: 03020304.xhp
@@ -10904,7 +10904,7 @@ msgctxt ""
 "par_id3145365\n"
 "help.text"
 msgid "Seek (FileNumber)"
-msgstr "Seek (FileNumber)"
+msgstr "Seek (NumeroFile)"
 
 #. CPK2A
 #: 03020304.xhp
@@ -10931,7 +10931,7 @@ msgctxt ""
 "par_id3148645\n"
 "help.text"
 msgid "<emph>FileNumber:</emph> The data channel number used in the Open statement."
-msgstr "<emph>FileNumber (NumeroFile):</emph> numero del canale dati usato nell'istruzione Open."
+msgstr "<emph>NumeroFile:</emph> numero del canale dati usato nell'istruzione Open."
 
 #. MbdMB
 #: 03020305.xhp
@@ -10949,7 +10949,7 @@ msgctxt ""
 "bm_id3159413\n"
 "help.text"
 msgid "<bookmark_value>Seek statement</bookmark_value>"
-msgstr "<bookmark_value>Seek, funzione</bookmark_value>"
+msgstr "<bookmark_value>Seek, istruzione</bookmark_value>"
 
 #. 8pVA4
 #: 03020305.xhp
@@ -11147,7 +11147,7 @@ msgctxt ""
 "par_id3152598\n"
 "help.text"
 msgid "If you only want to change the current drive, enter the drive letter followed by a colon."
-msgstr "Se volete cambiare solo il dispositivo attivo, inserite la lettera corrispondente seguita da due punti."
+msgstr "Se si vuole cambiare solo il dispositivo attivo, inserire la lettera corrispondente seguita da due punti."
 
 #. vRQAc
 #: 03020402.xhp
@@ -11192,7 +11192,7 @@ msgctxt ""
 "par_id3145172\n"
 "help.text"
 msgid "<emph>Text:</emph> Any string expression that contains the drive letter of the new drive. If you want, you can use <link href=\"text/sbasic/shared/00000002.xhp\">URL notation</link>."
-msgstr "<emph>Text (Testo):</emph> stringa contenente la lettera di identificazione del nuovo dispositivo. Se necessario, potete usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
+msgstr "<emph>Text (Testo):</emph> stringa contenente la lettera di identificazione del nuovo dispositivo. Se necessario, è possibile usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
 
 #. WcKDC
 #: 03020402.xhp
@@ -11201,7 +11201,7 @@ msgctxt ""
 "par_id3145785\n"
 "help.text"
 msgid "The drive must be assigned a capital letter. Under Windows, the letter that you assign the drive is restricted by the settings in LASTDRV. If the drive argument is a multiple-character string, only the first letter is relevant. If you attempt to access a non-existent drive, an error occurs that you can respond to with the OnError statement."
-msgstr "Il dispositivo deve essere identificato con una lettera maiuscola. In Windows, la lettera assegnata al dispositivo può essere scelta solo tra le impostazioni definite in LASTDRV. Se l'argomento è una stringa di più caratteri, viene considerata solo la prima lettera. Se cercate di accedere a un dispositivo inesistente, viene generato un errore a cui potete rispondere con l'istruzione OnError."
+msgstr "Il dispositivo deve essere identificato con una lettera maiuscola. In Windows, la lettera assegnata al dispositivo può essere scelta solo tra le impostazioni definite in LASTDRV. Se l'argomento è una stringa di più caratteri, viene considerata solo la prima lettera. Se si tenta di accedere a un dispositivo inesistente, viene generato un errore a cui è possibile rispondere con l'istruzione OnError."
 
 #. X2QkD
 #: 03020402.xhp
@@ -11390,7 +11390,7 @@ msgctxt ""
 "par_id3159156\n"
 "help.text"
 msgid "To check if a file exists, enter the complete path and name of the file. If the file or directory name does not exist, the Dir function returns a zero-length string (\"\")."
-msgstr "Per controllare l'esistenza di un file, inserite il percorso completo e il nome del file. Se il file o la cartella non esiste, la funzione Dir restituisce una stringa di lunghezza zero (\"\")."
+msgstr "Per controllare l'esistenza di un file, inserire il percorso completo e il nome del file. Se il file o la cartella non esiste, la funzione Dir restituisce una stringa di lunghezza zero (\"\")."
 
 #. 9UQgN
 #: 03020404.xhp
@@ -11399,7 +11399,7 @@ msgctxt ""
 "par_id3154012\n"
 "help.text"
 msgid "To generate a list of all existing files in a specific directory, proceed as follows: The first time you call the Dir function, specify the complete search path for the files, for example, \"D:\\Files\\*.ods\". If the path is correct and the search finds at least one file, the Dir function returns the name of the first file that matches the search path. To return additional file names that match the path, call Dir again, but with no arguments."
-msgstr "Per generare un elenco completo dei file contenuti in una cartella specifica, procedete come segue: La prima volta che chiamate la funzione Dir, specificate il percorso di ricerca completo per i file, ad esempio, \"D:\\Files\\*.ods\". Se il percorso è corretto e la ricerca restituisce almeno un file, la funzione Dir restituisce il nome del primo file che corrisponde al percorso di ricerca. Per restituire altri nomi di file che corrispondano al percorso, chiamate nuovamente la funzione Dir, ma senza argomenti."
+msgstr "Per generare un elenco completo dei file contenuti in una cartella specifica, procedere come segue: la prima volta che si chiama la funzione Dir, specificare il percorso di ricerca completo per i file, ad esempio, \"D:\\Files\\*.ods\". Se il percorso è corretto e la ricerca restituisce almeno un file, la funzione Dir restituisce il nome del primo file che corrisponde al percorso di ricerca. Per restituire altri nomi di file che corrispondano al percorso, chiamare nuovamente la funzione Dir, ma senza argomenti."
 
 #. LXpKQ
 #: 03020404.xhp
@@ -11408,7 +11408,7 @@ msgctxt ""
 "par_id3147348\n"
 "help.text"
 msgid "To return directories only, use the attribute parameter. The same applies if you want to determine the name of a volume (for example, a hard drive partition)."
-msgstr "Per restituire solo i nomi delle cartelle, usate il parametro dell'attributo. Lo stesso vale se volete determinare il nome di un volume (ad esempio, una partizione di un disco rigido)."
+msgstr "Per restituire solo i nomi delle cartelle, usare il parametro dell'attributo. Lo stesso vale se si vuole determinare il nome di un volume (ad esempio, una partizione di un disco rigido)."
 
 #. e7TRd
 #: 03020404.xhp
@@ -11552,7 +11552,7 @@ msgctxt ""
 "par_id3154018\n"
 "help.text"
 msgid "If you specify a parameter attribute with a value of 1, the following return values apply:"
-msgstr "Se specificate un attributo con valore 1, vengono usati i seguenti valori di ritorno:"
+msgstr "Se si specifica un attributo con valore 1, vengono usati i seguenti valori di ritorno:"
 
 #. SqXxC
 #: 03020405.xhp
@@ -11696,7 +11696,7 @@ msgctxt ""
 "par_id3155390\n"
 "help.text"
 msgid "<emph>Source</emph>: Any string expression that specifies the name of the file that you want to copy. The expression can contain optional path and drive information. If you want, you can enter a path in <link href=\"text/sbasic/shared/00000002.xhp\">URL notation</link>."
-msgstr "<emph>Source</emph>: stringa che specifica il nome del file da copiare. L'espressione può contenere informazioni opzionali sul percorso e sul dispositivo. Se necessario, è possibile  inserire un percorso in forma di <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
+msgstr "<emph>Source</emph>: stringa che specifica il nome del file da copiare. L'espressione può contenere informazioni opzionali sul percorso e sul dispositivo. Se necessario, è possibile inserire un percorso in forma di <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
 
 #. b2bKE
 #: 03020406.xhp
@@ -11795,7 +11795,7 @@ msgctxt ""
 "par_id3159153\n"
 "help.text"
 msgid "<emph>Text:</emph> Any string expression that contains an unambiguous (no wildcards) file specification. You can also use <link href=\"text/sbasic/shared/00000002.xhp\">URL notation</link>."
-msgstr "<emph>Test (Testo):</emph> stringa che specifica il nome di un file in modo univoco (senza caratteri jolly). In alternativa, potete usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
+msgstr "<emph>Text (Testo):</emph> stringa che specifica il nome di un file in modo univoco (senza caratteri jolly). In alternativa, è possibile usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
 
 #. qqouA
 #: 03020407.xhp
@@ -11867,7 +11867,7 @@ msgctxt ""
 "par_id3153193\n"
 "help.text"
 msgid "<emph>Text:</emph> Any string expression that contains an unambiguous file specification. You can also use <link href=\"text/sbasic/shared/00000002.xhp\">URL notation</link>."
-msgstr "<emph>Text (Testo):</emph> stringa che specifica un file in modo univoco. In alternativa, potete usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
+msgstr "<emph>Text (Testo):</emph> stringa che specifica un file in modo univoco. In alternativa, è possibile usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
 
 #. Dm9GT
 #: 03020408.xhp
@@ -11876,7 +11876,7 @@ msgctxt ""
 "par_id3150439\n"
 "help.text"
 msgid "This function determines the length of a file. If the <literal>FileLen</literal> function is called for an open file, it returns the file length before it was opened. To determine the current file length of an open file, use the <link href=\"text/sbasic/shared/03020303.xhp\"><literal>Lof</literal></link> function."
-msgstr "Questa funzione determina la lunghezza di un file. Se la funzione <literal>FileLen</literal> viene chiamata per un file aperto, restituisce la lunghezza del file prima che fosse aperto. Per determinare la lunghezza attuale di un file aperto, usate la funzione <link href=\"text/sbasic/shared/03020303.xhp\"><literal>Lof</literal></link>."
+msgstr "Questa funzione determina la lunghezza di un file. Se la funzione <literal>FileLen</literal> viene chiamata per un file aperto, restituisce la lunghezza del file prima che fosse aperto. Per determinare la lunghezza attuale di un file aperto, usare la funzione <link href=\"text/sbasic/shared/03020303.xhp\"><literal>Lof</literal></link>."
 
 #. FerKv
 #: 03020409.xhp
@@ -11966,7 +11966,7 @@ msgctxt ""
 "par_id3151042\n"
 "help.text"
 msgid "<emph>Text:</emph> Any string expression that contains an unambiguous file specification. You can also use <link href=\"text/sbasic/shared/00000002.xhp\">URL notation</link>."
-msgstr "<emph>Text (Testo):</emph> stringa che specifica un file in modo univoco. In alternativa, potete usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
+msgstr "<emph>Text (Testo):</emph> stringa che specifica un file in modo univoco. In alternativa, è possibile usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
 
 #. 9AAaj
 #: 03020409.xhp
@@ -12083,7 +12083,7 @@ msgctxt ""
 "par_id3156444\n"
 "help.text"
 msgid "If you want to know if a bit of the attribute byte is set, use the following query method:"
-msgstr "Per sapere se un bit del byte dell'attributo è impostato o meno, usate il metodo di ricerca seguente:"
+msgstr "Per sapere se un bit del byte dell'attributo è impostato o no, usare il metodo di ricerca seguente:"
 
 #. CV4g5
 #: 03020409.xhp
@@ -12155,7 +12155,7 @@ msgctxt ""
 "par_id3150440\n"
 "help.text"
 msgid "<emph>File:</emph> Any string expression that contains an unambiguous file specification. You can also use <link href=\"text/sbasic/shared/00000002.xhp\">URL notation</link>."
-msgstr "<emph>File:</emph> stringa che specifica un file in modo univoco. In alternativa, potete usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
+msgstr "<emph>File:</emph> stringa che specifica un file in modo univoco. In alternativa, è possibile usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
 
 #. PXEE3
 #: 03020410.xhp
@@ -12227,7 +12227,7 @@ msgctxt ""
 "par_id3153750\n"
 "help.text"
 msgid "<emph>path:</emph> Any string expression that specifies the name and path of the directory to be created. You can also use <link href=\"text/sbasic/shared/00000002.xhp\">URL notation</link>."
-msgstr "<emph>percorso:</emph> qualunque stringa che specifica il nome e il percorso della cartella da creare. Potete usare anche una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
+msgstr "<emph>percorso:</emph> qualunque stringa che specifica il nome e il percorso della cartella da creare. È possibile usare anche una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
 
 #. PLopZ
 #: 03020411.xhp
@@ -12443,7 +12443,7 @@ msgctxt ""
 "par_id3151210\n"
 "help.text"
 msgid "<emph>OldName, NewName:</emph> Any string expression that specifies the file name, including the path. You can also use <link href=\"text/sbasic/shared/00000002.xhp\">URL notation</link>."
-msgstr "<emph>OldName (VecchioNome), NewName (NuovoNome):</emph> Stringa che specifica il nome del file, incluso il percorso. In alternativa, potete usare una<link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
+msgstr "<emph>OldName (VecchioNome), NewName (NuovoNome):</emph> stringa che specifica il nome del file, incluso il percorso. In alternativa, è possibile usare una<link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
 
 #. CLjrW
 #: 03020412.xhp
@@ -12524,7 +12524,7 @@ msgctxt ""
 "par_id3151042\n"
 "help.text"
 msgid "<emph>Text:</emph> Any string expression that specifies the name and path of the directory that you want to delete. You can also use <link href=\"text/sbasic/shared/00000002.xhp\">URL notation</link>."
-msgstr "<emph>Text (Testo):</emph> Stringa che specifica il nome e il percorso della cartella da eliminare. In alternativa, potete usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
+msgstr "<emph>Text (Testo):</emph> stringa che specifica il nome e il percorso della cartella da eliminare. In alternativa è possibile usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
 
 #. 3SCF3
 #: 03020413.xhp
@@ -12596,7 +12596,7 @@ msgctxt ""
 "par_id3153192\n"
 "help.text"
 msgid "<emph>Attributes</emph>: Bit pattern defining the attributes that you want to set or to clear:"
-msgstr "<emph>Attributes</emph>: modello di bit che definisce gli attributi da impostare o da rimuovere:"
+msgstr "<emph>Attributes</emph> - modello di bit che definisce gli attributi da impostare o da rimuovere:"
 
 #. bt8p5
 #: 03020414.xhp
@@ -12659,7 +12659,7 @@ msgctxt ""
 "par_id3153093\n"
 "help.text"
 msgid "You can set multiple attributes by combining the respective values with a logic OR statement."
-msgstr "Per impostare più attributi, potete combinare i relativi valori con un OR logico."
+msgstr "Per impostare più attributi è possibile combinare i relativi valori con un OR logico."
 
 #. CUAJR
 #: 03020414.xhp
@@ -12758,7 +12758,7 @@ msgctxt ""
 "par_id3147349\n"
 "help.text"
 msgid "FileName | DirectoryName: Any string expression that contains an unambiguous file specification. You can also use <link href=\"text/sbasic/shared/00000002.xhp\">URL notation</link>."
-msgstr "FileName (NomeFile) | DirectoryName (NomeCartella): stringa che specifica un file in modo univoco. In alternativa, potete usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
+msgstr "FileName (NomeFile) | DirectoryName (NomeCartella): stringa che specifica un file in modo univoco. In alternativa è possibile usare una <link href=\"text/sbasic/shared/00000002.xhp\">notazione URL</link>."
 
 #. uHp57
 #: 03020415.xhp
@@ -12812,7 +12812,7 @@ msgctxt ""
 "par_id3151054\n"
 "help.text"
 msgid "You can combine date and time values into a single floating-decimal number. Dates are converted to integers, and times to decimal values. <item type=\"productname\">%PRODUCTNAME</item> Basic also supports the variable type Date, which can contain a time specification consisting of both a date and time."
-msgstr "Potete combinare i valori di data e ora in un unico numero decimale. Le date vengono convertite in interi, le ore in valori decimali. <item type=\"productname\">%PRODUCTNAME</item> Basic supporta inoltre il tipo di variabile Date, che può contenere un valore costituito da data e ora."
+msgstr "È possibile combinare i valori di data e ora in un unico numero decimale. Le date vengono convertite in interi, le ore in valori decimali. <item type=\"productname\">%PRODUCTNAME</item> Basic supporta inoltre il tipo di variabile Date, che può contenere un valore costituito da data e ora."
 
 #. BhDhb
 #: 03030100.xhp
@@ -12902,7 +12902,7 @@ msgctxt ""
 "par_id3147229\n"
 "help.text"
 msgid "<emph>Year:</emph> Integer expression that indicates a year. All values between 0 and 99 are interpreted as the years 1900-1999. For years that fall outside this range, you must enter all four digits."
-msgstr "<emph>Anno:</emph> numero intero indicante l'anno. I valori compresi tra 0 e 99 sono interpretati come gli anni 1900-1999. Per gli anni al di fuori di questo periodo, dovete inserite le quattro cifre."
+msgstr "<emph>Anno:</emph> numero intero indicante l'anno. I valori compresi tra 0 e 99 sono interpretati come gli anni 1900-1999. Per gli anni al di fuori di questo periodo, è necessario inserite le quattro cifre."
 
 #. mBPGA
 #: 03030101.xhp
@@ -13163,7 +13163,7 @@ msgctxt ""
 "par_id3156423\n"
 "help.text"
 msgid "<emph>Number:</emph> A numeric expression that contains a serial date number from which you can determine the day of the month."
-msgstr "<emph>Numero:</emph> Espressione numerica contenente un numero seriale da cui è possibile determinare il giorno del mese."
+msgstr "<emph>Numero:</emph> espressione numerica contenente un numero seriale da cui è possibile determinare il giorno del mese."
 
 #. YbrQA
 #: 03030103.xhp
@@ -13370,7 +13370,7 @@ msgctxt ""
 "par_id91620239579003\n"
 "help.text"
 msgid "This help page describes the <literal>WeekDay</literal> function used in Basic scripts. If you are interested in the <literal>WeekDay</literal> function used in %PRODUCTNAME Calc, refer to <link href=\"text/scalc/01/func_weekday.xhp\">this help page</link>."
-msgstr "Questa pagina della Guida descrive la funzione <literal>WeekDay</literal> utilizzata negli script Basic. Se siete interessati alla funzione <literal>WeekDay</literal> utilizzata in %PRODUCTNAME Calc, consultate <link href=\"text/scalc/01/func_weekday.xhp\">questa pagina della guida</link>."
+msgstr "Questa pagina della Guida descrive la funzione <literal>WeekDay</literal> utilizzata negli script Basic. Se si è interessate/i alla funzione <literal>WeekDay</literal> utilizzata in %PRODUCTNAME Calc, consultare <link href=\"text/scalc/01/func_weekday.xhp\">questa pagina della guida</link>."
 
 #. Gq6UR
 #: 03030105.xhp
@@ -13514,7 +13514,7 @@ msgctxt ""
 "par_id451619720094202\n"
 "help.text"
 msgid "The VBA constants listed above are only available if VBA support has been enabled. For more information, read the <link href=\"text/sbasic/shared/03103350.xhp\">VBASupport Statement</link> help page."
-msgstr "Le costanti VBA sopra elencate sono disponibili solo se è stato attivato il supporto VBA. Per maggiori informazioni consultate la pagina <link href=\"text/sbasic/shared/03103350.xhp\">Istruzione VBASupport</link> della guida."
+msgstr "Le costanti VBA sopra elencate sono disponibili solo se è stato attivato il supporto VBA. Per maggiori informazioni consultare la pagina <link href=\"text/sbasic/shared/03103350.xhp\">Istruzione VBASupport</link> della guida."
 
 #. CPXVo
 #: 03030105.xhp
@@ -13847,7 +13847,7 @@ msgctxt ""
 "par_id3149497\n"
 "help.text"
 msgid "CDateToIso(Number)"
-msgstr "CDateToIso(Number)"
+msgstr "CDateToIso(Numero)"
 
 #. eBUAe
 #: 03030107.xhp
@@ -13883,7 +13883,7 @@ msgctxt ""
 "par_id3145136\n"
 "help.text"
 msgid "<emph>Number:</emph> Integer that contains the serial date number."
-msgstr "<emph>Number:</emph> numero intero che contiene il numero seriale della data."
+msgstr "<emph>Numero:</emph> numero intero che contiene il numero seriale della data."
 
 #. zuM6A
 #: 03030107.xhp
@@ -15368,7 +15368,7 @@ msgctxt ""
 "par_id3154366\n"
 "help.text"
 msgid "<emph>Number:</emph> Numeric expression that contains the serial time value that is used to return the hour value."
-msgstr "<emph>Numero:</emph> Espressione numerica contenente il valore seriale usato per restituire il valore dell'ora."
+msgstr "<emph>Numero:</emph> espressione numerica contenente il valore seriale usato per restituire il valore dell'ora."
 
 #. TbDJr
 #: 03030201.xhp
@@ -15467,7 +15467,7 @@ msgctxt ""
 "par_id3153969\n"
 "help.text"
 msgid "<emph>Number:</emph> Numeric expression that contains the serial time value that is used to return the minute value."
-msgstr "<emph>Numero:</emph> Espressione numerica contenente il valore seriale usato per restituire il valore dei minuti."
+msgstr "<emph>Numero:</emph> espressione numerica contenente il valore seriale usato per restituire il valore dei minuti."
 
 #. tsS7A
 #: 03030202.xhp
@@ -15665,7 +15665,7 @@ msgctxt ""
 "par_id3154124\n"
 "help.text"
 msgid "<emph>Number:</emph> Numeric expression that contains the serial time number that is used to calculate the number of seconds."
-msgstr "<emph>Numero:</emph> Espressione numerica contenente il numero seriale usato per calcolare il numero di secondi."
+msgstr "<emph>Numero:</emph> espressione numerica contenente il numero seriale usato per calcolare il numero di secondi."
 
 #. cDKEG
 #: 03030204.xhp
@@ -15881,7 +15881,7 @@ msgctxt ""
 "par_id3149482\n"
 "help.text"
 msgid "In the TimeValue function, you can pass a string as a parameter containing the time. For the TimeSerial function, however, you can pass the individual parameters (hour, minute, second) as separate numeric expressions."
-msgstr "Con la funzione TimeValue, potete passare una stringa come parametro contenente l'ora. Con la funzione TimeSerial, tuttavia, potete passare i singoli parametri (ora, minuti, secondi) come espressioni numeriche separate."
+msgstr "Con la funzione TimeValue, è possibile passare una stringa come parametro contenente l'ora. Con la funzione TimeSerial, tuttavia, potete passare i singoli parametri (ora, minuti, secondi) come espressioni numeriche separate."
 
 #. n2xLC
 #: 03030205.xhp
@@ -16007,7 +16007,7 @@ msgctxt ""
 "par_id3152578\n"
 "help.text"
 msgid "Use the TimeValue function to convert any time into a single value, so that you can calculate time differences."
-msgstr "Con questa funzione, potete convertire l'ora in un singolo valore con cui calcolare le differenze di tempo."
+msgstr "Con questa funzione, è possibile convertire l'ora in un singolo valore con cui calcolare le differenze di tempo."
 
 #. cmNEY
 #: 03030206.xhp
@@ -16034,7 +16034,7 @@ msgctxt ""
 "par_id3147426\n"
 "help.text"
 msgid "In the TimeSerial function, you can pass individual parameters (hour, minute, second) as separate numeric expressions. For the TimeValue function, however, you can pass a string as a parameter containing the time."
-msgstr "Nella funzione TimeSerial, potete passare i singoli parametri (ora, minuti, secondi) come espressioni numeriche separate. Per la funzione TimeValue, tuttavia, potete passare una stringa come parametro contenente l'ora."
+msgstr "Nella funzione TimeSerial, è possibile passare i singoli parametri (ora, minuti, secondi) come espressioni numeriche separate. Per la funzione TimeValue, tuttavia, è possibile passare una stringa come parametro contenente l'ora."
 
 #. WExbU
 #: 03030206.xhp
@@ -16232,7 +16232,7 @@ msgctxt ""
 "par_id3156212\n"
 "help.text"
 msgid "You must first declare a variable to call the Timer function and assign it the \"Long \" data type, otherwise a Date value is returned."
-msgstr "Dovete prima dichiarare una variabile che chiami la funzione Timer e assegnarle il tipo di dati \"Long \", diversamente viene restituito un valore in forma di data."
+msgstr "È necessario prima dichiarare una variabile che chiami la funzione Timer e assegnarle il tipo di dati \"Long \", diversamente viene restituito un valore in forma di data."
 
 #. zgXp6
 #: 03030303.xhp
@@ -16268,7 +16268,7 @@ msgctxt ""
 "par_id491610993401822\n"
 "help.text"
 msgid "The <literal>Timer</literal> function measures time in seconds. To measure time in milliseconds use the <link href=\"text/sbasic/shared/03/sf_timer.xhp\">Timer service</link> available in the <literal>ScriptForge</literal> library."
-msgstr "La funzione <literal>Timer</literal> misura il tempo in secondi. Per misurare il tempo in millisecondi usate il <link href=\"text/sbasic/shared/03/sf_timer.xhp\">servizio Timer</link> disponibile nella libreria <literal>ScriptForge</literal>."
+msgstr "La funzione <literal>Timer</literal> misura il tempo in secondi. Per misurare il tempo in millisecondi usare il <link href=\"text/sbasic/shared/03/sf_timer.xhp\">servizio Timer</link> disponibile nella libreria <literal>ScriptForge</literal>."
 
 #. ATnCy
 #: 03040000.xhp
@@ -16808,7 +16808,7 @@ msgctxt ""
 "par_id3145068\n"
 "help.text"
 msgid "Use the following statements and functions to define the way %PRODUCTNAME Basic reacts to run-time errors."
-msgstr "Le seguenti funzioni e istruzioni vi permettono di definire in che modo %PRODUCTNAME Basic debba reagire agli errori runtime."
+msgstr "Le seguenti funzioni e istruzioni permettono di definire in che modo %PRODUCTNAME Basic debba reagire agli errori runtime."
 
 #. 9XGsZ
 #: 03050000.xhp
