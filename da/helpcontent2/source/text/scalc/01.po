@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-01-07 15:27+0100\n"
-"PO-Revision-Date: 2026-01-30 13:30+0000\n"
+"PO-Revision-Date: 2026-02-02 17:31+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-25-2/textscalc01/da/>\n"
 "Language: da\n"
@@ -60586,7 +60586,7 @@ msgctxt ""
 "par_id3156144\n"
 "help.text"
 msgid "<item type=\"input\">=EOMONTH(\"2001-09-14\";6)</item> works as well. If you specify the date directly, we recommend using the standard ISO 8601 format because this should be independent of your selected locale settings."
-msgstr "<item type=\"input\">=SLUT.PÅ.MÅNED (\"2001-09-14\";6)</item> fungerer også. Hvis du angiver datoen direkte, anbefaler vi, at du bruger standardformatet ISO 8601, da den skulle være uafhængig af din valgte lokalisering."
+msgstr "<item type=\"input\">=SLUT.PÅ.MÅNED (\"2001-09-14\";6)</item> fungerer også. Hvis du angiver datoen direkte, anbefaler vi, at du bruger standardformatet ISO 8601, da den skulle være uafhængig af din valgte sprogindstilling."
 
 #. YxPrs
 #: func_eomonth.xhp
@@ -65781,7 +65781,7 @@ msgctxt ""
 "par_id3145087\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_NUMBERVALUE\">Converts the string representation of a number into a locale-independent numeric value.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_NUMBERVALUE\">Konverterer strengrepræsentationen af et tal til den lokaliserings-uafhængige numeriske værdi.</ahelp>"
+msgstr "<ahelp hid=\"HID_FUNC_NUMBERVALUE\">Konverterer strengrepræsentationen af et tal til en sprogindstillings-uafhængig numerisk værdi.</ahelp>"
 
 #. xfP9G
 #: func_numbervalue.xhp
@@ -65790,7 +65790,7 @@ msgctxt ""
 "par_id3149281\n"
 "help.text"
 msgid "The input text may be in a locale-dependent or other bespoke format."
-msgstr "Inputteksten kan være i et lokaliseringsafhængigt eller andet skræddersyet format."
+msgstr "Inputteksten kan være i et sprogafhængigt eller andet skræddersyet format."
 
 #. vVK9p
 #: func_numbervalue.xhp
@@ -65853,7 +65853,7 @@ msgctxt ""
 "par_id3155841\n"
 "help.text"
 msgid "<input>=NUMBERVALUE(\"1.234.567,89\"; \",\"; \".\")</input> returns 1234567.89 (considering en-US locale). The function removes the two group separators and changes the decimal separator from a comma to a full stop."
-msgstr "<input>=TALVÆRDI(\"1,234,567.89\"; \".\"; \".\")</input> returnerer 1234567,89 (forudsætter lokaliseringen da-DK). Funktionen fjerner to gruppeskilletegn og ændrer punktummet til et komma."
+msgstr "<input>=TALVÆRDI(\"1,234,567.89\"; \".\"; \".\")</input> returnerer 1234567,89 (for sprogindstillingen da-DK). Funktionen fjerner to gruppeskilletegn og ændrer punktummet til et komma."
 
 #. UNiLM
 #: func_numbervalue.xhp
@@ -65862,7 +65862,7 @@ msgctxt ""
 "par_id721625603302860\n"
 "help.text"
 msgid "<input>=NUMBERVALUE(\"123·4\"; \"·\")</input> returns 123.4 (considering en-US locale). The function changes the decimal separator from a \"·\" to a full stop. No group separator is used in the supplied number and so the <emph>Group Separator</emph> argument is omitted."
-msgstr "<input>=TALVÆRDI(\"123·4\"; \"·\")</input> returnerer 123,4 (forudsætter lokaliseringen da-DK). Funktionen ændrer decimaltegnet fra et \"·\" til et komma. Der er ikke brugt gruppeskilletegn i det opgivne tal, og derfor udelades argumentet <emph>Gruppeskilletegn</emph>."
+msgstr "<input>=TALVÆRDI(\"123·4\"; \"·\")</input> returnerer 123,4 (for sprogindstillingen da-DK). Funktionen ændrer decimaltegnet fra et \"·\" til et komma. Der er ikke brugt gruppeskilletegn i det opgivne tal, og derfor udelades argumentet <emph>Gruppeskilletegn</emph>."
 
 #. iGGwj
 #: func_numbervalue.xhp
@@ -65871,7 +65871,7 @@ msgctxt ""
 "par_id491625603415715\n"
 "help.text"
 msgid "<input>=NUMBERVALUE(\"123e12\")</input> returns 1.23E+14 (considering en-US locale). No decimal or group separators are used in the supplied number and so the <emph>Decimal Separator</emph> and <emph>Group Separator</emph> arguments are omitted."
-msgstr "<input>=TALVÆRDI(\"123e12\")</input> returnerer 1,23E+14 (for lokaliseringsindstillinger da-DK). Der er ikke brugt decimaltegn eller gruppeskilletegn i det opgivne tal og derfor udelades argumenterne <emph>Decimaltegn</emph> og <emph>Gruppeskilletegn</emph>."
+msgstr "<input>=TALVÆRDI(\"123e12\")</input> returnerer 1,23E+14 (for sprogindstillingen da-DK). Der er ikke brugt decimaltegn eller gruppeskilletegn i det opgivne tal og derfor udelades argumenterne <emph>Decimaltegn</emph> og <emph>Gruppeskilletegn</emph>."
 
 #. vTYDd
 #: func_numbervalue.xhp
@@ -65880,7 +65880,7 @@ msgctxt ""
 "par_id801625603497421\n"
 "help.text"
 msgid "<input>=NUMBERVALUE(\"1#!234#!567\"; \".\"; \"#!\")</input> returns 1234567 (considering en-US locale). Note that in this case the group separator is specified as a two-character string."
-msgstr "<input>=TALVÆRDI(\"1#!234#!567\"; \".\"; \"#!\")</input> returnerers 1234567 (forudsat dansk lokalisering). Bemærk, at gruppeskilletegnet i dette tilfælde er angivet som streng med to tegn."
+msgstr "<input>=TALVÆRDI(\"1#!234#!567\"; \".\"; \"#!\")</input> returnerers 1234567 (for sprogindstillingen da-DK). Bemærk, at gruppeskilletegnet i dette tilfælde er angivet som streng med to tegn."
 
 #. nDXY8
 #: func_numbervalue.xhp
@@ -70877,7 +70877,7 @@ msgctxt ""
 "par_id731628787003937\n"
 "help.text"
 msgid "If the <emph>Text</emph> argument is a string representing a date, time, currency or a numeric value with decimal and thousands separators, the string must comply with current locale settings."
-msgstr "Hvis argumentet <emph>Tekst</emph> er en streng, der repræsenterer en dato, et klokkeslæt eller en numerisk værdi med decimal- og tusind-skilletegn, skal strengen være i overensstemmelse med de aktuelle lokaliseringsindstillinger."
+msgstr "Hvis argumentet <emph>Tekst</emph> er en streng, der repræsenterer en dato, et klokkeslæt eller en numerisk værdi med decimal- og tusind-skilletegn, skal strengen være i overensstemmelse med de aktuelle sprogindstillinger."
 
 #. 3BCEU
 #: func_value.xhp
@@ -70895,7 +70895,7 @@ msgctxt ""
 "par_id101628778036375\n"
 "help.text"
 msgid "<input>=VALUE(\"+1,234.567\")</input> returns 1234.567 (considering en-US locale). Note that the \"+\" sign could have been omitted."
-msgstr "<input>=VÆRDI(\"+1,234.567\")</input> returnerer 1234,567 (forudsat lokaliseringen da.DK). Bemærk, at tegnet \"+\" kunne have været udeladt."
+msgstr "<input>=VÆRDI(\"+1,234.567\")</input> returnerer 1234,567 (for sprogindstillingen da-DK). Bemærk, at tegnet \"+\" kunne have været udeladt."
 
 #. Hhrax
 #: func_value.xhp
@@ -70904,7 +70904,7 @@ msgctxt ""
 "par_id991628779914913\n"
 "help.text"
 msgid "<input>=VALUE(\"$100\")</input> returns 100 (considering en-US locale). Note that the currency prefix must match the current locale settings."
-msgstr "<input>=VÆRDI(\"DKK100\")</input> returnerer 100 (forudsat lokaliseringen da-DK). Bemærk, at valuta-præfikset skal matche de aktuelle lokaliseringsindstillinger."
+msgstr "<input>=VÆRDI(\"DKK100\")</input> returnerer 100 (for sprogindstillingen da-DK). Bemærk, at valuta-præfikset skal matche den aktuelle sprogindstilling."
 
 #. syxTJ
 #: func_value.xhp
