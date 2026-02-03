@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2026-01-12 12:40+0100\n"
-"PO-Revision-Date: 2026-01-29 23:30+0000\n"
+"PO-Revision-Date: 2026-02-03 08:31+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translations.documentfoundation.org/projects/libo_ui-master/scmessages/he/>\n"
 "Language: he\n"
@@ -1005,7 +1005,7 @@ msgstr "הפניית גיליון בלתי חוקית.‏"
 #: sc/inc/globstr.hrc:176
 msgctxt "STR_INVALID_TABREF_PRINT_AREA"
 msgid "Invalid sheet reference. Ensure the inserted expression is a valid print range."
-msgstr ""
+msgstr "הפנייה שגויה בגיליון. יש לוודא שהביטוי שהוזן הוא טווח הדפסה תקף."
 
 #. tFYkx
 #: sc/inc/globstr.hrc:177
@@ -2527,9 +2527,9 @@ msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
-"מיזוג השינויים המתנגשים יאבד ושינוייך לגיליון האלקטרוני לא ישמרו.\n"
+"מיזוג השינויים הסותרים יאבד והשינויים שערכת בגיליון האלקטרוני לא יישמרו.\n"
 "\n"
-"האם להמשיך?"
+"להמשיך?"
 
 #. 6JJGG
 #: sc/inc/globstr.hrc:432
@@ -2691,7 +2691,7 @@ msgstr "מקור הנתונים של טבלת הצר אינו חוקי."
 #: sc/inc/globstr.hrc:454
 msgctxt "STR_OPTIONS_WARN_SEPARATORS"
 msgid "Because the current formula separator settings conflict with the locale, the formula separators have been reset to their default values."
-msgstr "כיוון שהגדרות הפרדת הנוסחאות הנוכחיות מתנגשות עם ההגדרות האזוריות, מפרידי הנוסחאות אופסו לערכי בררת המחדל שלהם."
+msgstr "כיוון שהגדרות הפרדת הנוסחאות הנוכחיות סותרות את ההגדרות האזוריות, מפרידי הנוסחאות אופסו לערכי ברירת המחדל שלהם."
 
 #. QMTkA
 #: sc/inc/globstr.hrc:455
@@ -17976,7 +17976,7 @@ msgstr ""
 #: sc/inc/scfuncs.hrc:4427
 msgctxt "SC_OPCODE_LET"
 msgid "The first name to assign. Must start with a letter. Cannot be the output of a formula or conflict with range syntax."
-msgstr ""
+msgstr "השם הראשון להקצאה. חייב להתחיל באות. לא יכול להיות פלט של נוסחה או בסתירה מול תחביר טווח."
 
 #. KsyBM
 #: sc/inc/scfuncs.hrc:4428
@@ -20805,14 +20805,13 @@ msgstr "טווח _נתונים:"
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:436
 msgctxt "advancedfilterdialog|dbarea"
 msgid "dummy"
-msgstr ""
+msgstr "מדומה"
 
 #. wVAjU
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:456
-#, fuzzy
 msgctxt "advancedfilterdialog|label2"
 msgid "Op_tions"
-msgstr "אפשרויות"
+msgstr "א_פשרויות"
 
 #. he2CY
 #: sc/uiconfig/scalc/ui/advancedfilterdialog.ui:462
@@ -20836,7 +20835,7 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/aggregatefunctionentry.ui:48
 msgctxt "aggregatefunctionentry|sum"
 msgid "Sum"
-msgstr ""
+msgstr "סכום"
 
 #. k2eoF
 #: sc/uiconfig/scalc/ui/aggregatefunctionentry.ui:49
@@ -21462,7 +21461,7 @@ msgstr "עיצוב מותנה"
 #: sc/uiconfig/scalc/ui/condformatmanager.ui:129
 msgctxt "condformatmanager|STR_HEADER_RANGE"
 msgid "Range"
-msgstr ""
+msgstr "טווח"
 
 #. Gipiw
 #: sc/uiconfig/scalc/ui/condformatmanager.ui:142
@@ -21490,10 +21489,9 @@ msgstr ""
 
 #. 8XXd8
 #: sc/uiconfig/scalc/ui/condformatmanager.ui:191
-#, fuzzy
 msgctxt "condformatmanager|edit"
 msgid "Edit..."
-msgstr "עריכה..."
+msgstr "עריכה…"
 
 #. H6qbm
 #: sc/uiconfig/scalc/ui/condformatmanager.ui:197
@@ -21768,14 +21766,12 @@ msgstr "היום"
 
 #. Ap28X
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:127
-#, fuzzy
 msgctxt "conditionalentry|datetype"
 msgid "Yesterday"
 msgstr "אתמול"
 
 #. NhvVn
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:128
-#, fuzzy
 msgctxt "conditionalentry|datetype"
 msgid "Tomorrow"
 msgstr "מחר"
@@ -22067,10 +22063,9 @@ msgstr "אחוז"
 
 #. Kqxfp
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:414
-#, fuzzy
 msgctxt "conditionalentry|colscalemin"
 msgid "Value"
-msgstr "_ערך"
+msgstr "ערך"
 
 #. UhkzD
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:415
@@ -22080,10 +22075,9 @@ msgstr "אחוז"
 
 #. tEhTB
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:416
-#, fuzzy
 msgctxt "conditionalentry|colscalemin"
 msgid "Formula"
-msgstr "נוסחאות"
+msgstr "נוסחה"
 
 #. jYZ4B
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:429
@@ -22163,10 +22157,9 @@ msgstr "אחוז"
 
 #. JxXq2
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:452
-#, fuzzy
 msgctxt "conditionalentry|colscalemax"
 msgid "Value"
-msgstr "_ערך"
+msgstr "ערך"
 
 #. f464z
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:453
@@ -22176,10 +22169,9 @@ msgstr "אחוז"
 
 #. oTJU7
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:454
-#, fuzzy
 msgctxt "conditionalentry|colscalemax"
 msgid "Formula"
-msgstr "נוסחאות"
+msgstr "נוסחה"
 
 #. XsHDp
 #: sc/uiconfig/scalc/ui/conditionalentry.ui:481
@@ -22262,17 +22254,15 @@ msgstr ""
 
 #. Q6Ag7
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:241
-#, fuzzy
 msgctxt "conditionalformatdialog|label1"
 msgid "Conditions"
-msgstr "תנאי"
+msgstr "תנאים"
 
 #. rgGuH
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:274
-#, fuzzy
 msgctxt "conditionalformatdialog|ftassign"
 msgid "Range:"
-msgstr "טווח"
+msgstr "טווח:"
 
 #. hZBzt
 #: sc/uiconfig/scalc/ui/conditionalformatdialog.ui:307
@@ -22295,10 +22285,9 @@ msgstr ""
 
 #. ZDEEe
 #: sc/uiconfig/scalc/ui/conditionaliconset.ui:53
-#, fuzzy
 msgctxt "conditionaliconset|listbox"
 msgid "Value"
-msgstr "_ערך"
+msgstr "ערך"
 
 #. dBBzv
 #: sc/uiconfig/scalc/ui/conditionaliconset.ui:54
@@ -22315,44 +22304,39 @@ msgstr "אחוז"
 
 #. mmHTt
 #: sc/uiconfig/scalc/ui/conditionaliconset.ui:56
-#, fuzzy
 msgctxt "conditionaliconset|listbox"
 msgid "Formula"
-msgstr "נוסחאות"
+msgstr "נוסחה"
 
 #. B6zph
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:20
-#, fuzzy
 msgctxt "conflictsdialog|ConflictsDialog"
 msgid "Resolve Conflicts"
-msgstr "ליישב התנגשויות"
+msgstr "ליישב סתירות"
 
 #. oCjL7
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:34
-#, fuzzy
 msgctxt "conflictsdialog|keepallmine"
 msgid "_Keep All Mine"
-msgstr "לשמור כל השינויים שלי"
+msgstr "לשמור את _כל השינויים שלי"
 
 #. czHPv
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:48
-#, fuzzy
 msgctxt "conflictsdialog|keepallothers"
 msgid "Keep _All Others"
-msgstr "לשמור כל השינויים האחרים"
+msgstr "לשמור כל השי_נויים האחרים"
 
 #. VvYCZ
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:109
-#, fuzzy
 msgctxt "conflictsdialog|label1"
 msgid "There are conflicting changes in this shared spreadsheet. Conflicts must be resolved before saving the spreadsheet. Keep either own or other changes."
-msgstr "יש התנגשויות בין השינויים שבוצעו בגיליון אלקטרוני משותף זה. צריך ליישב אותן לפני שמירת הגיליון האלקטרוני על ידי העדפה של שינוייך או השינויים האחרים."
+msgstr "יש סתירות בין השינויים שבוצעו בגיליון אלקטרוני משותף זה. צריך ליישב אותן לפני שמירת הגיליון האלקטרוני על ידי העדפה של שינוייך או השינויים האחרים."
 
 #. 2NJDD
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:143
 msgctxt "conflictsdialog|conflict"
 msgid "Conflict"
-msgstr ""
+msgstr "סתירה"
 
 #. kQCmz
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:157
@@ -22364,27 +22348,25 @@ msgstr ""
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:171
 msgctxt "conflictsdialog|date"
 msgid "Date"
-msgstr ""
+msgstr "תאריך"
 
 #. tgZHu
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:185
 msgctxt "conflictsdialog|changes-atkobject"
 msgid "Changes"
-msgstr ""
+msgstr "שינויים"
 
 #. joDoc
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:203
-#, fuzzy
 msgctxt "conflictsdialog|keepmine"
 msgid "Keep _Mine"
-msgstr "לשמור את השינויים שלי"
+msgstr "לשמור את _שלי"
 
 #. KRAHP
 #: sc/uiconfig/scalc/ui/conflictsdialog.ui:217
-#, fuzzy
 msgctxt "conflictsdialog|keepother"
 msgid "Keep _Other"
-msgstr "לשמור את השינויים האחרים"
+msgstr "לשמור את ה_אחרים"
 
 #. 3AtCK
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:16
@@ -22406,10 +22388,9 @@ msgstr ""
 
 #. kkPF3
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:110
-#, fuzzy
 msgctxt "consolidatedialog|label1"
 msgid "_Function:"
-msgstr "שבר"
+msgstr "_פונקציה:"
 
 #. SVBz4
 #: sc/uiconfig/scalc/ui/consolidatedialog.ui:125
