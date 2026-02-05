@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2026-01-12 12:40+0100\n"
+"POT-Creation-Date: 2026-02-05 14:39+0100\n"
 "PO-Revision-Date: 2026-02-09 10:51+0000\n"
 "Last-Translator: Dimitris Spingos <dmtrs32@gmail.com>\n"
 "Language-Team: Greek <https://translations.documentfoundation.org/projects/libo_help-master/textsharedguide/el/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1558334792.000000\n"
 
@@ -5146,6 +5146,33 @@ msgctxt ""
 "help.text"
 msgid "Text CSV"
 msgstr "Κείμενο CSV"
+
+#. CEn4A
+#: convertfilters.xhp
+msgctxt ""
+"convertfilters.xhp\n"
+"FilterName_Orcus_CSV\n"
+"help.text"
+msgid "Text CSV (orcus)"
+msgstr ""
+
+#. ZiEvT
+#: convertfilters.xhp
+msgctxt ""
+"convertfilters.xhp\n"
+"FilterName_Orcus_JSON\n"
+"help.text"
+msgid "JSON Document (Calc)"
+msgstr ""
+
+#. caxfj
+#: convertfilters.xhp
+msgctxt ""
+"convertfilters.xhp\n"
+"FilterName_Orcus_XML\n"
+"help.text"
+msgid "XML Document (Calc)"
+msgstr ""
 
 #. YWBDx
 #: convertfilters.xhp
@@ -23561,6 +23588,15 @@ msgctxt ""
 msgid "2: Specifies that the PDF will be exported in order to be viewed through an Internet browser, using the PDF plug-in provided with it. The bookmark of the URI will be rendered compatible with the target bookmark generated with %PRODUCTNAME PDF Export feature (see <literal>ExportBookmarksToPDFDestination</literal>)."
 msgstr "2: Καθορίζει ότι το PDF θα εξαχθεί για προβολή μέσω ενός προγράμματος περιήγησης στο Διαδίκτυο, χρησιμοποιώντας το πρόσθετο PDF που παρέχεται μαζί του. Ο σελιδοδείκτης του URI θα αποδοθεί συμβατός με τον σελιδοδείκτη-στόχο που δημιουργήθηκε με τη δυνατότητα εξαγωγής του %PRODUCTNAME PDF (δείτε <literal>ExportBookmarksToPDFDestination</literal>)."
 
+#. aoGHJ
+#: pdf_params.xhp
+msgctxt ""
+"pdf_params.xhp\n"
+"par_id11768251601081\n"
+"help.text"
+msgid "3: Specifies that the document will be exported to PDF without including external links."
+msgstr ""
+
 #. kxDNY
 #: pdf_params.xhp
 msgctxt ""
@@ -29177,14 +29213,41 @@ msgctxt ""
 msgid "<variable id=\"h1\"><link href=\"text/shared/guide/usingthemes.xhp\">Using Document Themes</link></variable>"
 msgstr "<variable id=\"h1\"><link href=\"text/shared/guide/usingthemes.xhp\">Χρήση θεμάτων εγγράφου</link></variable>"
 
-#. 6B2st
+#. md2FE
 #: usingthemes.xhp
 msgctxt ""
 "usingthemes.xhp\n"
 "par_id451691109216603\n"
 "help.text"
-msgid "Theme is the concept of bundling color, font and format settings. The colors, fonts and format settings names are hard coded in the document. When switching themes in the document, the elements containing the hardcoded names switch colors, fonts and format settings accordingly to the new theme."
-msgstr "Το θέμα είναι η έννοια της ομαδοποίησης ρυθμίσεων χρώματος, γραμματοσειρών και μορφής. Τα ονόματα των χρωμάτων, των γραμματοσειρών και των ρυθμίσεων μορφής είναι κωδικοποιημένα στο έγγραφο. Κατά την εναλλαγή θεμάτων στο έγγραφο, τα στοιχεία που περιέχουν τα κωδικοποιημένα ονόματα αλλάζουν χρώματα, γραμματοσειρές και ρυθμίσεις μορφής ανάλογα με το νέο θέμα."
+msgid "Theme is the concept of bundling color, font and format settings. The colors, fonts and format settings names are fixed in the document. When switching themes in the document, the elements containing the fixed names switch colors, fonts and format settings accordingly to the new theme."
+msgstr ""
+
+#. NBFGo
+#: usingthemes.xhp
+msgctxt ""
+"usingthemes.xhp\n"
+"hd_id141691110507439\n"
+"help.text"
+msgid "To Use a Document Theme"
+msgstr "Για να χρησιμοποιήσετε ένα θέμα εγγράφου"
+
+#. H2oiU
+#: usingthemes.xhp
+msgctxt ""
+"usingthemes.xhp\n"
+"par_id511691113013612\n"
+"help.text"
+msgid "Format the document using the fixed theme attribute name such as colors, fonts and other format settings."
+msgstr ""
+
+#. 5TYtK
+#: usingthemes.xhp
+msgctxt ""
+"usingthemes.xhp\n"
+"par_id671691113042212\n"
+"help.text"
+msgid "Apply the theme to the document."
+msgstr "Εφαρμόστε το θέμα στο έγγραφο."
 
 #. SeeDV
 #: usingthemes.xhp
@@ -29213,14 +29276,14 @@ msgctxt ""
 msgid "Double-click on the theme desired or select the theme and click <widget>OK</widget>"
 msgstr "Διπλοπατήστε στο θέμα που θέλετε ή επιλέξτε το θέμα και πατήστε στο <widget>Εντάξει</widget>"
 
-#. jamVZ
+#. PGKVy
 #: usingthemes.xhp
 msgctxt ""
 "usingthemes.xhp\n"
 "par_id91691105048167\n"
 "help.text"
-msgid "All document elements with the hardcoded theme attribute name set will change to the new theme attribute. For example, a heading with font color set as \"Dark 2\" changes to the new theme \"Dark 2\" color."
-msgstr "Όλα τα στοιχεία εγγράφου με το σύνολο ονομάτων χαρακτηριστικών θέματος με σκληρό κώδικα θα αλλάξουν στο νέο χαρακτηριστικό θέματος. Για παράδειγμα, μια επικεφαλίδα με χρώμα γραμματοσειράς που έχει οριστεί ως \"Dark 2\" αλλάζει στο χρώμα του νέου θέματος \"Dark 2\"."
+msgid "All document elements with the fixed theme attribute name set will change to the new theme attribute. For example, a heading with font color set as \"Dark 2\" changes to the new theme \"Dark 2\" color."
+msgstr ""
 
 #. FGchS
 #: usingthemes.xhp
@@ -29249,14 +29312,14 @@ msgctxt ""
 msgid "Enter a name for the new theme in the <emph>Name</emph> text box."
 msgstr "Εισαγάγετε ένα όνομα για το νέο θέμα στο πλαίσιο κειμένου <emph>Όνομα</emph>."
 
-#. ojmfL
+#. kC8xx
 #: usingthemes.xhp
 msgctxt ""
 "usingthemes.xhp\n"
 "par_id191691110090664\n"
 "help.text"
-msgid "On the color area, choose the main color for each of the 12 hard coded color name of the theme. <variable id=\"extracolors\">%PRODUCTNAME creates 5 additional colors to the theme calculated from the main color. The calculations of the color variants are also hard coded in the theme and you cannot change them, only the main color.</variable>"
-msgstr "Στην περιοχή χρώματος, επιλέξτε το κύριο χρώμα για καθένα από τα 12 κωδικοποιημένα ονόματα χρώματος του θέματος. Το <variable id=\"extracolors\">%PRODUCTNAME δημιουργεί 5 επιπλέον χρώματα στο θέμα που υπολογίζονται από το κύριο χρώμα. Οι υπολογισμοί των παραλλαγών χρώματος είναι επίσης κωδικοποιημένοι στο θέμα και δεν μπορείτε να τους αλλάξετε, μόνο το κύριο χρώμα.</variable>"
+msgid "On the color area, choose the base color for each of the 12 fixed color names of the theme."
+msgstr ""
 
 #. aFNjR
 #: usingthemes.xhp
@@ -29275,33 +29338,6 @@ msgctxt ""
 "help.text"
 msgid "Click <widget>OK</widget> or double click the new theme to apply the theme to the document."
 msgstr "Πατήστε στο <widget>Εντάξει</widget> ή διπλοπατήστε στο νέο θέμα για να εφαρμόσετε το θέμα στο έγγραφο."
-
-#. NBFGo
-#: usingthemes.xhp
-msgctxt ""
-"usingthemes.xhp\n"
-"hd_id141691110507439\n"
-"help.text"
-msgid "To Use a Document Theme"
-msgstr "Για να χρησιμοποιήσετε ένα θέμα εγγράφου"
-
-#. 9nbCK
-#: usingthemes.xhp
-msgctxt ""
-"usingthemes.xhp\n"
-"par_id511691113013612\n"
-"help.text"
-msgid "Format the document using the hardcoded theme attribute name such as colors, fonts and other format settings."
-msgstr "Μορφοποιήστε το έγγραφο χρησιμοποιώντας το όνομα γνωρίσματος του θέματος με σκληρό κώδικα, όπως χρώματα, γραμματοσειρές και άλλες ρυθμίσεις μορφής."
-
-#. 5TYtK
-#: usingthemes.xhp
-msgctxt ""
-"usingthemes.xhp\n"
-"par_id671691113042212\n"
-"help.text"
-msgid "Apply the theme to the document."
-msgstr "Εφαρμόστε το θέμα στο έγγραφο."
 
 #. QDTvg
 #: version_number.xhp
@@ -30355,6 +30391,34 @@ msgctxt ""
 "help.text"
 msgid "<link href=\"text/shared/guide/xsltfilter.xhp\">About XML Filters</link>"
 msgstr "<link href=\"text/shared/guide/xsltfilter.xhp\">Σχετικά με τα φίλτρα XML</link>"
+
+#~ msgctxt ""
+#~ "usingthemes.xhp\n"
+#~ "par_id451691109216603\n"
+#~ "help.text"
+#~ msgid "Theme is the concept of bundling color, font and format settings. The colors, fonts and format settings names are hard coded in the document. When switching themes in the document, the elements containing the hardcoded names switch colors, fonts and format settings accordingly to the new theme."
+#~ msgstr "Το θέμα είναι η έννοια της ομαδοποίησης ρυθμίσεων χρώματος, γραμματοσειρών και μορφής. Τα ονόματα των χρωμάτων, των γραμματοσειρών και των ρυθμίσεων μορφής είναι κωδικοποιημένα στο έγγραφο. Κατά την εναλλαγή θεμάτων στο έγγραφο, τα στοιχεία που περιέχουν τα κωδικοποιημένα ονόματα αλλάζουν χρώματα, γραμματοσειρές και ρυθμίσεις μορφής ανάλογα με το νέο θέμα."
+
+#~ msgctxt ""
+#~ "usingthemes.xhp\n"
+#~ "par_id91691105048167\n"
+#~ "help.text"
+#~ msgid "All document elements with the hardcoded theme attribute name set will change to the new theme attribute. For example, a heading with font color set as \"Dark 2\" changes to the new theme \"Dark 2\" color."
+#~ msgstr "Όλα τα στοιχεία εγγράφου με το σύνολο ονομάτων χαρακτηριστικών θέματος με σκληρό κώδικα θα αλλάξουν στο νέο χαρακτηριστικό θέματος. Για παράδειγμα, μια επικεφαλίδα με χρώμα γραμματοσειράς που έχει οριστεί ως \"Dark 2\" αλλάζει στο χρώμα του νέου θέματος \"Dark 2\"."
+
+#~ msgctxt ""
+#~ "usingthemes.xhp\n"
+#~ "par_id191691110090664\n"
+#~ "help.text"
+#~ msgid "On the color area, choose the main color for each of the 12 hard coded color name of the theme. <variable id=\"extracolors\">%PRODUCTNAME creates 5 additional colors to the theme calculated from the main color. The calculations of the color variants are also hard coded in the theme and you cannot change them, only the main color.</variable>"
+#~ msgstr "Στην περιοχή χρώματος, επιλέξτε το κύριο χρώμα για καθένα από τα 12 κωδικοποιημένα ονόματα χρώματος του θέματος. Το <variable id=\"extracolors\">%PRODUCTNAME δημιουργεί 5 επιπλέον χρώματα στο θέμα που υπολογίζονται από το κύριο χρώμα. Οι υπολογισμοί των παραλλαγών χρώματος είναι επίσης κωδικοποιημένοι στο θέμα και δεν μπορείτε να τους αλλάξετε, μόνο το κύριο χρώμα.</variable>"
+
+#~ msgctxt ""
+#~ "usingthemes.xhp\n"
+#~ "par_id511691113013612\n"
+#~ "help.text"
+#~ msgid "Format the document using the hardcoded theme attribute name such as colors, fonts and other format settings."
+#~ msgstr "Μορφοποιήστε το έγγραφο χρησιμοποιώντας το όνομα γνωρίσματος του θέματος με σκληρό κώδικα, όπως χρώματα, γραμματοσειρές και άλλες ρυθμίσεις μορφής."
 
 #~ msgctxt ""
 #~ "convertfilters.xhp\n"
