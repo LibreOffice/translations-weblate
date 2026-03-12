@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2026-02-12 14:31+0100\n"
-"PO-Revision-Date: 2025-12-16 20:05+0000\n"
+"PO-Revision-Date: 2026-03-12 07:30+0000\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
 "Language-Team: Norwegian Nynorsk <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicshared03/nn/>\n"
 "Language: nn\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.10.1\n"
 "X-POOTLE-MTIME: 1565450081.000000\n"
 
 #. ViEWM
@@ -1112,7 +1112,7 @@ msgctxt ""
 "par_id831765200111034\n"
 "help.text"
 msgid "One-dimensional arrays containing only one-dimensional subarrays are called below <literal>data arrays</literal>. They are particularly suited for exchanges of tabular data with <literal>Python</literal> scripts and <literal>Calc</literal> sheets."
-msgstr ""
+msgstr "Eindimensionelle matriser som inneheld berre eindimensionelle undermatriser vert kalla nedanfor <literal>datamatriser</literal>. Dei er spesielt veleigna til utveksling av tabelldata mellom <literal>Python</literal>-skript og <literal>Calc</literal>-ark."
 
 #. hdC3J
 #: sf_array.xhp
@@ -1310,7 +1310,7 @@ msgctxt ""
 "bm_id741765204030416\n"
 "help.text"
 msgid "<bookmark_value>Array service;ConvertFromDataArray</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Matrise-teneste;ConvertFromDataArray</bookmark_value>"
 
 #. A8zk4
 #: sf_array.xhp
@@ -1319,7 +1319,7 @@ msgctxt ""
 "par_id41765204240195\n"
 "help.text"
 msgid "Convert a data array to a <literal>Basic</literal> array.<br/>A data array is an array of subarrays. On request, the individual output items are reduced to strings or doubles only."
-msgstr ""
+msgstr "Konverter ei datamatrise til ei <literal>Basic</literal>-matrise.<br/>Ei datamatrise er ei matrise av undermatriser. På førespurnad vert dei individuelle utdataelementa til strengar eller desimaltal reduserete."
 
 #. iEoEk
 #: sf_array.xhp
@@ -1328,7 +1328,7 @@ msgctxt ""
 "par_id411765207592513\n"
 "help.text"
 msgid "The method returns a scalar, a zero-based 1D array or a zero-based 2D array.<br/>The number of columns in the resulting 2D array is equal to the number of items in the 1st subarray. If next subarrays have a different size, next rows will be complemented with the <literal>fillvalue</literal> argument or truncated."
-msgstr ""
+msgstr "Metoden returnerer ein skalar, ei nullbasert 1D-matrise eller ei nullbasert 2D-matrise.<br/>Talet på kolonnar i den resulterande 2D-matrisa er det same som talet på element i den første undermatrisa. Viss dei neste undermatrisene har ein annan storleik, vert dei neste radene supplerte med <literal>fillvalue</literal>-argumentet eller avkorta."
 
 #. 2tGzp
 #: sf_array.xhp
@@ -1337,7 +1337,7 @@ msgctxt ""
 "par_id561581234214489\n"
 "help.text"
 msgid "<emph>dataarray</emph>: An array of subarrays. Array and subarrays must be zero-based.<br/>Typically a data array is either output by"
-msgstr ""
+msgstr "<emph>dataarray</emph>: Ei matrise med undermatriser. Matrisa og undermatrisene må vera nullbaserte.<br/>Til vanleg vert det sendt ei datamatrise anten ut av"
 
 #. DJ7vY
 #: sf_array.xhp
@@ -1346,7 +1346,7 @@ msgctxt ""
 "par_id151765206451449\n"
 "help.text"
 msgid "the <link href=\"text/sbasic/shared/03/sf_session.xhp#ExecuteCalcFunction\">session.ExecuteCalcFunction()</link> method"
-msgstr ""
+msgstr "metoden <link href=\"text/sbasic/shared/03/sf_session.xhp#ExecuteCalcFunction\">session.ExecuteCalcFunction()</link>"
 
 #. eQBM3
 #: sf_array.xhp
@@ -1355,7 +1355,7 @@ msgctxt ""
 "par_id851765206498930\n"
 "help.text"
 msgid "a Python script returning a tuple of tuples"
-msgstr ""
+msgstr "eit Python-skript som returnerer ein tuple med tuplar"
 
 #. r6Vmi
 #: sf_array.xhp
@@ -1364,7 +1364,7 @@ msgctxt ""
 "par_id51765206545727\n"
 "help.text"
 msgid "the <literal>getDataArray()</literal> method from the <literal>com.sun.star.sheet.XCellRangeData</literal> interface"
-msgstr ""
+msgstr "metoden <literal>getDataArray()</literal> frå <literal>com.sun.star.sheet.XCellRangeData</literal>-interfacet"
 
 #. zzMfr
 #: sf_array.xhp
@@ -1373,7 +1373,7 @@ msgctxt ""
 "par_id361765207142576\n"
 "help.text"
 msgid "<emph>isrange</emph>: When <literal>True</literal> (default = <literal>False</literal>), the items are converted to strings or doubles."
-msgstr ""
+msgstr "<emph>isrange</emph>: Når <literal>Sann</literal> (standard = <literal>Usann</literal>), vert elementa konverterte til strengar eller desimaltal (double)."
 
 #. FBLKp
 #: sf_array.xhp
@@ -1382,7 +1382,7 @@ msgctxt ""
 "par_id861765207423152\n"
 "help.text"
 msgid "<emph>fillvalue</emph>: How to replace missing items. Default = the empty string."
-msgstr ""
+msgstr "<emph>fillvalue</emph>: Korleis manglande element skal erstattast. Standard = den tomme strengen."
 
 #. WTXMU
 #: sf_array.xhp
@@ -1391,7 +1391,7 @@ msgctxt ""
 "bm_id741953578080416\n"
 "help.text"
 msgid "<bookmark_value>Array service;ConvertToDataArray</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Matriseteneste;ConvertToDataArray</bookmark_value>"
 
 #. Haeq4
 #: sf_array.xhp
@@ -1400,7 +1400,7 @@ msgctxt ""
 "par_id41796324240195\n"
 "help.text"
 msgid "Create a data array from a scalar, a 1D array or a 2D array.<br/>A data array is a zero-based array of zero-based subarrays. On request, the individual output items are reduced to strings or doubles only."
-msgstr ""
+msgstr "Opprett ei datamatrise fra ein enkeltverdi (skalar), ei 1D-matrise eller ei 2D-matrise.<br/>Ei datamatrise er ei nullbasert matrise av nullbaserte undermatriser. På førespurnad vert dei individuelle utdataelementa berre reduserte til strenger eller desimaltal (dobler)."
 
 #. BvApk
 #: sf_array.xhp
@@ -1409,7 +1409,7 @@ msgctxt ""
 "par_id561781234214489\n"
 "help.text"
 msgid "The returned data array is typically used as"
-msgstr ""
+msgstr "Den returnerte datamatrisa vert til vanleg brukt som"
 
 #. Db427
 #: sf_array.xhp
@@ -1418,7 +1418,7 @@ msgctxt ""
 "par_id851769514498930\n"
 "help.text"
 msgid "a tuple of (sub)tuples passed to a Python script"
-msgstr ""
+msgstr "ein tuppel med (under)tupler sendt til eit Python-skript"
 
 #. AdgDE
 #: sf_array.xhp
@@ -1427,7 +1427,7 @@ msgctxt ""
 "par_id51769437545727\n"
 "help.text"
 msgid "argument of the <literal>setDataArray()</literal> method from the <literal>com.sun.star.sheet.XCellRangeData</literal> interface"
-msgstr ""
+msgstr "argumentet til <literal>setDataArray()</literal>-metoden frå <literal>com.sun.star.sheet.XCellRangeData</literal>-grensesnittet"
 
 #. bRAjE
 #: sf_array.xhp
@@ -1436,7 +1436,7 @@ msgctxt ""
 "par_id281765284424698\n"
 "help.text"
 msgid "<emph>data</emph>: The input scalar, 1D or 2D array."
-msgstr ""
+msgstr "<emph>data</emph>: Den skalære inndata-, 1D- eller 2D-matrisa."
 
 #. BXhBx
 #: sf_array.xhp
@@ -1445,7 +1445,7 @@ msgctxt ""
 "par_id361765207357976\n"
 "help.text"
 msgid "<emph>isrange</emph>: When <literal>True</literal> (default = <literal>False</literal>), the array items are stored as (possibly empty) strings or doubles only into the data array."
-msgstr ""
+msgstr "<emph>isrange</emph>: Når <literal>Sann</literal> (standard = <literal>Usann</literal>) vert matriseelementa laga berre som (mogleg tomme) strenger eller desimaltal (double) i datamatrisa."
 
 #. LRqZU
 #: sf_array.xhp
@@ -1454,7 +1454,7 @@ msgctxt ""
 "par_id286465207423152\n"
 "help.text"
 msgid "<emph>rows, columns</emph>: The number of rows or columns of the returned data array. When they exceed the limits of <literal>data</literal>, fill with zero-length strings. If <literal>rows</literal> = 1 and the input array is a vector, the data array is aligned horizontally (by default, vectors are aligned vertically). When absent, the size of the output is determined by the input array."
-msgstr ""
+msgstr "<emph>rader, kolonnar</emph>: Talet på rader eller kolonnar i den returnerte datamatrisa. Når dei går over grensene for <literal>data</literal>, vert dei fylte med strengar med lengde null. Viss <literal>rader</literal> = 1 og inputmatrisa er ein vektor, vert datamatrisa justert vassrett (som standard vert vektorar justerte loddrett). Når dei ikkje er tilgjengelege, vert storleiken på utdataa justert av inndatamatrisa."
 
 #. 7AGE6
 #: sf_array.xhp
@@ -1499,7 +1499,7 @@ msgctxt ""
 "bm_id741953548620416\n"
 "help.text"
 msgid "<bookmark_value>Array service;ConvertToRange</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>matrise-teneste; ConvertToRange</bookmark_value>"
 
 #. G8BZg
 #: sf_array.xhp
@@ -1508,7 +1508,7 @@ msgctxt ""
 "par_id41796364640195\n"
 "help.text"
 msgid "Create a valid cells range content from a scalar, a 1D array, a 2D array or a data array (a data array is a zero-based array of zero-based subarrays). The lower bounds of arrays are preserved in the output."
-msgstr ""
+msgstr "Lag eit gyldig innhald for eit celleområde frå ein enkeltverdi (skalar), ei 1D-matrise, ei 2D-matrise eller ei datamatrise (ei datamatrise er ei nullbasert matrise av nullbaserte undermatriser). Dei nedre grensene for matriser vert bevarte i utdataa."
 
 #. G66MS
 #: sf_array.xhp
@@ -1517,7 +1517,7 @@ msgctxt ""
 "par_id311765287171028\n"
 "help.text"
 msgid "The individual items are always reduced to strings or doubles, including booleans or dates."
-msgstr ""
+msgstr "Dei individuelle elementa vert altid reduserte til strenger eller desimaltal (type double), også medrekna boolske verdiar og datoar."
 
 #. Cje28
 #: sf_array.xhp
