@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2026-03-12 11:21+0100\n"
+"POT-Creation-Date: 2026-03-17 11:11+0100\n"
 "PO-Revision-Date: 2026-03-14 19:30+0000\n"
 "Last-Translator: Michael Wolf <milupo@sorbzilla.de>\n"
 "Language-Team: Upper Sorbian <https://translations.documentfoundation.org/projects/libo_ui-master/swmessages/hsb/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 100 == 1) ? 0 : ((n % 100 == 2) ? 1 : ((n % 100 == 3 || n % 100 == 4) ? 2 : 3));\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1562190634.000000\n"
 
 #. oKCHH
@@ -29666,11 +29666,11 @@ msgctxt "textgridpage|radioRB_NOGRID"
 msgid "No grid"
 msgstr "Žana lěsyca"
 
-#. E4P8y
+#. HoQFh
 #: sw/uiconfig/swriter/ui/textgridpage.ui:75
 msgctxt "textgridpage|extended_tip|radioRB_NOGRID"
-msgid "Adds or removes a text grid for lines or characters to the current page style."
-msgstr "Přidawa aktualnej předłoze strony tekstowu lěsycu za linki abo znamješka abo wotstronja ju."
+msgid "Removes the text grid of the current page style."
+msgstr ""
 
 #. YcrB9
 #: sw/uiconfig/swriter/ui/textgridpage.ui:86
@@ -29678,11 +29678,11 @@ msgctxt "textgridpage|radioRB_LINESGRID"
 msgid "Grid (lines only)"
 msgstr "Lěsyca (jenož linije)"
 
-#. 38WhC
+#. v7owJ
 #: sw/uiconfig/swriter/ui/textgridpage.ui:95
 msgctxt "textgridpage|extended_tip|radioRB_LINESGRID"
-msgid "Adds or removes a text grid for lines or characters to the current page style."
-msgstr "Přidawa aktualnej předłoze strony tekstowu lěsycu za linki abo znamješka abo wotstronja ju."
+msgid "Adds a line grid for the current page style."
+msgstr ""
 
 #. twnn7
 #: sw/uiconfig/swriter/ui/textgridpage.ui:106
@@ -29690,11 +29690,11 @@ msgctxt "textgridpage|radioRB_CHARSGRID"
 msgid "Grid (lines and characters)"
 msgstr "Lěsyca (linije a znamješka)"
 
-#. YEz9Q
+#. Z5CC5
 #: sw/uiconfig/swriter/ui/textgridpage.ui:115
 msgctxt "textgridpage|extended_tip|radioRB_CHARSGRID"
-msgid "Adds or removes a text grid for lines or characters to the current page style."
-msgstr "Přidawa aktualnej předłoze strony tekstowu lěsycu za linki abo znamješka abo wotstronja ju."
+msgid "Adds lines and character grid for the current page style."
+msgstr ""
 
 #. vgAMo
 #: sw/uiconfig/swriter/ui/textgridpage.ui:126
@@ -29702,137 +29702,149 @@ msgctxt "textgridpage|checkCB_SNAPTOCHARS"
 msgid "_Snap to characters"
 msgstr "K znamješkam př_ipinać"
 
+#. BmhpC
+#: sw/uiconfig/swriter/ui/textgridpage.ui:136
+msgctxt "textgridpage|extended_tip|checkCB_SNAPTOCHARS"
+msgid "Snaps to the edges of characters."
+msgstr ""
+
 #. Ngg9E
-#: sw/uiconfig/swriter/ui/textgridpage.ui:155
+#: sw/uiconfig/swriter/ui/textgridpage.ui:160
 msgctxt "textgridpage|drawingareaWN_EXAMPLE-atkobject"
 msgid "Preview"
 msgstr "Přehlad"
 
 #. FUCs3
-#: sw/uiconfig/swriter/ui/textgridpage.ui:171
+#: sw/uiconfig/swriter/ui/textgridpage.ui:176
 msgctxt "textgridpage|labelGrid"
 msgid "Grid"
 msgstr "Lěsyca"
 
 #. orVSu
-#: sw/uiconfig/swriter/ui/textgridpage.ui:219
+#: sw/uiconfig/swriter/ui/textgridpage.ui:224
 msgctxt "textgridpage|labelFT_CHARSPERLINE"
 msgid "Characters per line:"
 msgstr "Znamješka na linku:"
 
 #. ZvrxC
-#: sw/uiconfig/swriter/ui/textgridpage.ui:236
+#: sw/uiconfig/swriter/ui/textgridpage.ui:241
 msgctxt "textgridpage|extended_tip|spinNF_CHARSPERLINE"
 msgid "Enter the maximum number of characters that you want on a line."
 msgstr "Zapodajće maksimalnu ličbu znamješkow, kotrež so maja na lince jewić."
 
 #. YoUGQ
-#: sw/uiconfig/swriter/ui/textgridpage.ui:263
+#: sw/uiconfig/swriter/ui/textgridpage.ui:268
 msgctxt "textgridpage|labelFT_LINESPERPAGE"
 msgid "Lines per page:"
 msgstr "Linki na stronu:"
 
 #. Y36BF
-#: sw/uiconfig/swriter/ui/textgridpage.ui:281
+#: sw/uiconfig/swriter/ui/textgridpage.ui:286
 msgctxt "textgridpage|extended_tip|spinNF_LINESPERPAGE"
 msgid "Enter the maximum number of lines that you want on a page."
 msgstr "Zapodajće maksimalnu ličbu linkow, kotrež so maja na stronje jewić."
 
+#. Pyktu
+#: sw/uiconfig/swriter/ui/textgridpage.ui:331
+msgctxt "textgridpage|extended_tip|spinMF_CHARWIDTH"
+msgid "Enter the character width for the grid with lines and characters."
+msgstr ""
+
 #. VKRDD
-#: sw/uiconfig/swriter/ui/textgridpage.ui:335
+#: sw/uiconfig/swriter/ui/textgridpage.ui:345
 msgctxt "textgridpage|labelFT_CHARWIDTH"
 msgid "Character _width:"
 msgstr "Znamješkowa šěrokosć:"
 
 #. djvBs
-#: sw/uiconfig/swriter/ui/textgridpage.ui:349
+#: sw/uiconfig/swriter/ui/textgridpage.ui:359
 msgctxt "textgridpage|labelFT_RUBYSIZE"
 msgid "Max. Ruby text size:"
 msgstr "Maks. wulkosć teksta Ruby:"
 
 #. hHaUA
-#: sw/uiconfig/swriter/ui/textgridpage.ui:368
+#: sw/uiconfig/swriter/ui/textgridpage.ui:378
 msgctxt "textgridpage|extended_tip|spinMF_RUBYSIZE"
 msgid "Enter the maximum font size for the Ruby text."
 msgstr "Zapodajće maksimalnu pismowu wulkosć za tekst Ruby."
 
 #. FJFVs
-#: sw/uiconfig/swriter/ui/textgridpage.ui:382
+#: sw/uiconfig/swriter/ui/textgridpage.ui:392
 msgctxt "textgridpage|labelFT_TEXTSIZE"
 msgid "Max. base text size:"
 msgstr "Maks. zakładna tekstowa wulkosć:"
 
 #. kKNkF
-#: sw/uiconfig/swriter/ui/textgridpage.ui:401
+#: sw/uiconfig/swriter/ui/textgridpage.ui:411
 msgctxt "textgridpage|extended_tip|spinMF_TEXTSIZE"
 msgid "Enter the maximum base text size. A large value results in less characters per line."
 msgstr "Zapodajće maksimalnu bazowu tekstowu wulkosć. Čim wjetša hódnota, ćim mjenje znamješkow w lince."
 
 #. xFWMV
-#: sw/uiconfig/swriter/ui/textgridpage.ui:425
+#: sw/uiconfig/swriter/ui/textgridpage.ui:435
 msgctxt "textgridpage|checkCB_RUBYBELOW"
 msgid "Ruby text below/left from base text"
 msgstr "Tekst Ruby pod zakładnym tekstom/nalěwo wot zakładneho teksta"
 
 #. 47KKR
-#: sw/uiconfig/swriter/ui/textgridpage.ui:435
+#: sw/uiconfig/swriter/ui/textgridpage.ui:445
 msgctxt "textgridpage|extended_tip|checkCB_RUBYBELOW"
 msgid "Displays Ruby text to the left of or below the base text."
 msgstr "Pokazuje tekst Ruby nalěwo pódla bazoweho teksta abo pod bazowym tekstom."
 
 #. qCgRA
-#: sw/uiconfig/swriter/ui/textgridpage.ui:451
+#: sw/uiconfig/swriter/ui/textgridpage.ui:461
 msgctxt "textgridpage|labelGridLayout"
 msgid "Grid Layout"
 msgstr "Lěsyčne wuhotowanje"
 
 #. qj8Gw
-#: sw/uiconfig/swriter/ui/textgridpage.ui:481
+#: sw/uiconfig/swriter/ui/textgridpage.ui:491
 msgctxt "textgridpage|checkCB_DISPLAY"
 msgid "Display grid"
 msgstr "Lěsycu zwobraznić"
 
-#. rB5ty
-#: sw/uiconfig/swriter/ui/textgridpage.ui:490
+#. Gkpad
+#: sw/uiconfig/swriter/ui/textgridpage.ui:500
 msgctxt "textgridpage|extended_tip|checkCB_DISPLAY"
-msgid "Specifies the printing and color options of the text grid."
-msgstr "Podawa ćišćerske a barbowe nastajenja tekstoweje lěsycy."
+msgid "Specifies if the text grid is to be displayed. "
+msgstr ""
 
 #. VBBaC
-#: sw/uiconfig/swriter/ui/textgridpage.ui:501
+#: sw/uiconfig/swriter/ui/textgridpage.ui:511
 msgctxt "textgridpage|checkCB_PRINT"
 msgid "Print grid"
 msgstr "Lěsycu wućišćeć"
 
-#. kvaYD
-#: sw/uiconfig/swriter/ui/textgridpage.ui:511
+#. TqaFJ
+#: sw/uiconfig/swriter/ui/textgridpage.ui:521
 msgctxt "textgridpage|extended_tip|checkCB_PRINT"
-msgid "Specifies the printing and color options of the text grid."
-msgstr "Podawa ćišćerske a barbowe nastajenja tekstoweje lěsycy."
+msgid "Specifies the printing of the text grid."
+msgstr ""
 
 #. qBUXt
-#: sw/uiconfig/swriter/ui/textgridpage.ui:525
+#: sw/uiconfig/swriter/ui/textgridpage.ui:535
 msgctxt "textgridpage|labelFT_COLOR"
 msgid "Grid color:"
 msgstr "Lěsyčna barba:"
 
-#. Gcv2C
-#: sw/uiconfig/swriter/ui/textgridpage.ui:549
+#. DZpkS
+#: sw/uiconfig/swriter/ui/textgridpage.ui:558
 msgctxt "textgridpage|extended_tip|listLB_COLOR"
-msgid "Specifies the printing and color options of the text grid."
-msgstr "Podawa ćišćerske a barbowe nastajenja tekstoweje lěsycy."
+msgid "Specifies the color options of the text grid."
+msgstr ""
 
 #. SxFyQ
-#: sw/uiconfig/swriter/ui/textgridpage.ui:570
+#: sw/uiconfig/swriter/ui/textgridpage.ui:579
 msgctxt "textgridpage|labelFL_DISPLAY"
 msgid "Grid Display"
 msgstr "Lěsyčne zwobraznjenje"
 
-#. 2qCjE
-#: sw/uiconfig/swriter/ui/textgridpage.ui:585
+#. epDvv
+#: sw/uiconfig/swriter/ui/textgridpage.ui:594
 msgctxt "textgridpage|extended_tip|TextGridPage"
-msgid "Adds a text grid to the current page style. This option is only available if Asian language support is enabled under Languages and Locales - General in the Options dialog box."
-msgstr "Přidawa aktualnej předłoze strony tekstowu lěsycu. Tute nastajenje je jenož k dispoziciji, jeli aziska rěčna podpěra je zmóžnjena pod „Rěče a narodne šemy - Powšitkowne“ w dialogu „Nastajenja“."
+msgid "Adds a text grid to the current page style for Asian languages."
+msgstr ""
 
 #. aHkWU
 #: sw/uiconfig/swriter/ui/titlepage.ui:33
@@ -32000,6 +32012,34 @@ msgstr "Nastajenja"
 msgctxt "wrappage|extended_tip|WrapPage"
 msgid "Specify the way you want text to wrap around an object."
 msgstr "Podajće wašnje, kak so ma tekst objekt wobkružić."
+
+#~ msgctxt "textgridpage|extended_tip|radioRB_NOGRID"
+#~ msgid "Adds or removes a text grid for lines or characters to the current page style."
+#~ msgstr "Přidawa aktualnej předłoze strony tekstowu lěsycu za linki abo znamješka abo wotstronja ju."
+
+#~ msgctxt "textgridpage|extended_tip|radioRB_LINESGRID"
+#~ msgid "Adds or removes a text grid for lines or characters to the current page style."
+#~ msgstr "Přidawa aktualnej předłoze strony tekstowu lěsycu za linki abo znamješka abo wotstronja ju."
+
+#~ msgctxt "textgridpage|extended_tip|radioRB_CHARSGRID"
+#~ msgid "Adds or removes a text grid for lines or characters to the current page style."
+#~ msgstr "Přidawa aktualnej předłoze strony tekstowu lěsycu za linki abo znamješka abo wotstronja ju."
+
+#~ msgctxt "textgridpage|extended_tip|checkCB_DISPLAY"
+#~ msgid "Specifies the printing and color options of the text grid."
+#~ msgstr "Podawa ćišćerske a barbowe nastajenja tekstoweje lěsycy."
+
+#~ msgctxt "textgridpage|extended_tip|checkCB_PRINT"
+#~ msgid "Specifies the printing and color options of the text grid."
+#~ msgstr "Podawa ćišćerske a barbowe nastajenja tekstoweje lěsycy."
+
+#~ msgctxt "textgridpage|extended_tip|listLB_COLOR"
+#~ msgid "Specifies the printing and color options of the text grid."
+#~ msgstr "Podawa ćišćerske a barbowe nastajenja tekstoweje lěsycy."
+
+#~ msgctxt "textgridpage|extended_tip|TextGridPage"
+#~ msgid "Adds a text grid to the current page style. This option is only available if Asian language support is enabled under Languages and Locales - General in the Options dialog box."
+#~ msgstr "Přidawa aktualnej předłoze strony tekstowu lěsycu. Tute nastajenje je jenož k dispoziciji, jeli aziska rěčna podpěra je zmóžnjena pod „Rěče a narodne šemy - Powšitkowne“ w dialogu „Nastajenja“."
 
 #~ msgctxt "sidebarquickfind|find"
 #~ msgid "Find"
