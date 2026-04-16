@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2026-04-07 16:45+0200\n"
+"POT-Creation-Date: 2026-04-16 11:27+0200\n"
 "PO-Revision-Date: 2026-04-16 09:36+0000\n"
 "Last-Translator: NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translations.documentfoundation.org/projects/libo_ui-master/cuimessages/lo/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: LibreOffice\n"
 "X-POOTLE-MTIME: 1542195679.000000\n"
 
 #. GyY9M
@@ -12356,29 +12356,29 @@ msgctxt "imagetabpage|imagestyle"
 msgid "Stretched"
 msgstr "ຢືດເຕັມ"
 
-#. Dd2Bq
-#: cui/uiconfig/ui/imagetabpage.ui:177
-msgctxt "imagetabpage|label4"
-msgid "Size:"
-msgstr "ຂະໜາດ:"
-
 #. YtPnn
-#: cui/uiconfig/ui/imagetabpage.ui:198
+#: cui/uiconfig/ui/imagetabpage.ui:190
 msgctxt "imagetabpage|label5"
 msgid "Width:"
 msgstr "ຄວາມກວ້າງ:"
 
 #. GAfGG
-#: cui/uiconfig/ui/imagetabpage.ui:237
+#: cui/uiconfig/ui/imagetabpage.ui:229
 msgctxt "imagetabpage|label6"
 msgid "Height:"
 msgstr "ຄວາມສູງ:"
 
 #. UyYii
-#: cui/uiconfig/ui/imagetabpage.ui:269
+#: cui/uiconfig/ui/imagetabpage.ui:261
 msgctxt "imagetabpage|scaletsb"
 msgid "As percentage of the parent"
 msgstr "ເປັນເປີເຊັນຂອງແມ່ແບບ"
+
+#. Dd2Bq
+#: cui/uiconfig/ui/imagetabpage.ui:280
+msgctxt "imagetabpage|label4"
+msgid "Size:"
+msgstr "ຂະໜາດ:"
 
 #. pSSBr
 #: cui/uiconfig/ui/imagetabpage.ui:308
@@ -12440,23 +12440,23 @@ msgctxt "imagetabpage|positionlb"
 msgid "Bottom Right"
 msgstr "ລຸ່ມຂວາ"
 
-#. EAUAo
-#: cui/uiconfig/ui/imagetabpage.ui:364
-msgctxt "imagetabpage|label9"
-msgid "Tiling Position:"
-msgstr "ຕຳແໜ່ງລຽງຕໍ່ກັນ:"
-
 #. Xrp73
-#: cui/uiconfig/ui/imagetabpage.ui:386
+#: cui/uiconfig/ui/imagetabpage.ui:378
 msgctxt "imagetabpage|label10"
 msgid "X-Offset:"
 msgstr "ໄລຍະຫ່າງ X:"
 
 #. YGBMn
-#: cui/uiconfig/ui/imagetabpage.ui:425
+#: cui/uiconfig/ui/imagetabpage.ui:417
 msgctxt "imagetabpage|label11"
 msgid "Y-Offset:"
 msgstr "ໄລຍະຫ່າງ Y:"
+
+#. EAUAo
+#: cui/uiconfig/ui/imagetabpage.ui:452
+msgctxt "imagetabpage|label9"
+msgid "Tiling Position:"
+msgstr "ຕຳແໜ່ງລຽງຕໍ່ກັນ:"
 
 #. QEPUJ
 #: cui/uiconfig/ui/imagetabpage.ui:490
@@ -16942,86 +16942,89 @@ msgctxt "optlanguagespage|label2"
 msgid "Default Languages for Documents"
 msgstr "ພາສາເລີ່ມຕົ້ນສຳລັບເອກະສານ"
 
-#. 25J4E
+#. H4F36
 #: cui/uiconfig/ui/optlanguagespage.ui:361
-msgctxt "optlanguagespage|ignorelanguagechange"
-msgid "Ignore s_ystem input language"
-msgstr "ບໍ່ສົນໃຈພາສາການປ້ອນຂໍ້ມູນຂອງ_ລະບົບ"
+msgctxt "optlanguagespage|useinputlanguage"
+msgid "Apply s_ystem input language to new text"
+msgstr ""
 
-#. CCumn
+#. BRjFA
 #: cui/uiconfig/ui/optlanguagespage.ui:369
-msgctxt "extended_tip|ignorelanguagechange"
-msgid "Indicates whether changes to the system input language/keyboard will be ignored. If ignored, when new text is typed that text will follow the language of the document or current paragraph, not the current system language."
-msgstr "ລະບຸວ່າຈະບໍ່ສົນໃຈການປ່ຽນແປງພາສາ/ແປ້ນພິມຂອງລະບົບຫຼືບໍ່. ຖ້າບໍ່ສົນໃຈ, ເມື່ອພິມຂໍ້ຄວາມໃໝ່ ຂໍ້ຄວາມນັ້ນຈະປະຕິບັດຕາມພາສາຂອງເອກະສານ ຫຼື ຫຍໍ້ໜ້າປັດຈຸບັນ, ບໍ່ແມ່ນພາສາຂອງລະບົບປັດຈຸບັນ."
+msgctxt "extended_tip|useinputlanguage"
+msgid ""
+"\n"
+"                    Indicates whether the system input language is applied to newly typed text; when disabled, the document or paragraph language is used instead.\n"
+"                    "
+msgstr ""
 
 #. 83eTv
-#: cui/uiconfig/ui/optlanguagespage.ui:397
+#: cui/uiconfig/ui/optlanguagespage.ui:399
 msgctxt "optlanguagespage|label3"
 msgid "Enhanced Language Support"
 msgstr "ການສະໜັບສະໜູນພາສາຂັ້ນສູງ"
 
 #. XqCkq
-#: cui/uiconfig/ui/optlanguagespage.ui:430
+#: cui/uiconfig/ui/optlanguagespage.ui:432
 msgctxt "optlanguagespage|localesettingFT"
 msgid "Locale setting:"
 msgstr "ການຕັ້ງຄ່າທ້ອງຖິ່ນ:"
 
 #. Tns7H
-#: cui/uiconfig/ui/optlanguagespage.ui:444
+#: cui/uiconfig/ui/optlanguagespage.ui:446
 msgctxt "optlanguagespage|label6"
 msgid "Decimal key on the numpad:"
 msgstr "ປຸ່ມທົດສະນິຍົມໃນແປ້ນຕົວເລກ:"
 
 #. cuqUB
-#: cui/uiconfig/ui/optlanguagespage.ui:458
+#: cui/uiconfig/ui/optlanguagespage.ui:460
 msgctxt "optlanguagespage|defaultcurrency"
 msgid "_Default currency:"
 msgstr "ສະກຸນເງິນ_ເລີ່ມຕົ້ນ:"
 
 #. XmgPh
-#: cui/uiconfig/ui/optlanguagespage.ui:472
+#: cui/uiconfig/ui/optlanguagespage.ui:474
 msgctxt "optlanguagespage|dataaccpatterns"
 msgid "Date acceptance _patterns:"
 msgstr "_ຮູບແບບການຍອມຮັບວັນທີ:"
 
 #. yBkAN
-#: cui/uiconfig/ui/optlanguagespage.ui:490
+#: cui/uiconfig/ui/optlanguagespage.ui:492
 msgctxt "extended_tip|localesetting"
 msgid "Specifies the locale setting of the country setting. This influences settings for numbering, currency and units of measure."
 msgstr "ກຳນົດການຕັ້ງຄ່າທ້ອງຖິ່ນຂອງການຕັ້ງຄ່າປະເທດ. ສິ່ງນີ້ມີຜົນຕໍ່ການຕັ້ງຄ່າສຳລັບການໃສ່ເລກ, ສະກຸນເງິນ ແລະ ຫົວໜ່ວຍວັດແທກ."
 
 #. XqESm
-#: cui/uiconfig/ui/optlanguagespage.ui:507
+#: cui/uiconfig/ui/optlanguagespage.ui:509
 msgctxt "extended_tip|currencylb"
 msgid "Specifies the default currency that is used for the currency format and the currency fields."
 msgstr "ກຳນົດສະກຸນເງິນເລີ່ມຕົ້ນທີ່ໃຊ້ສຳລັບຮູບແບບສະກຸນເງິນ ແລະ ຟິວສະກຸນເງິນ."
 
 #. eNFJn
-#: cui/uiconfig/ui/optlanguagespage.ui:526
+#: cui/uiconfig/ui/optlanguagespage.ui:528
 msgctxt "extended_tip|datepatterns"
 msgid "Specifies the date acceptance patterns for the current locale. Calc spreadsheet and Writer table cell input needs to match locale dependent date acceptance patterns before it is recognized as a valid date."
 msgstr "ກຳນົດຮູບແບບການຍອມຮັບວັນທີສຳລັບທ້ອງຖິ່ນປັດຈຸບັນ. ການປ້ອນຂໍ້ມູນເຂົ້າໃນຕາຕະລາງ Calc ແລະ Writer ຕ້ອງກົງກັບຮູບແບບການຍອມຮັບວັນທີຕາມທ້ອງຖິ່ນ ກ່ອນທີ່ຈະຖືກຮັບຮູ້ວ່າເປັນວັນທີທີ່ຖືກຕ້ອງ."
 
 #. WoNAA
-#: cui/uiconfig/ui/optlanguagespage.ui:537
+#: cui/uiconfig/ui/optlanguagespage.ui:539
 msgctxt "optlanguagespage|decimalseparator"
 msgid "_Same as locale setting ( %1 )"
 msgstr "_ຄືກັນກັບການຕັ້ງຄ່າທ້ອງຖິ່ນ ( %1 )"
 
 #. jDbZT
-#: cui/uiconfig/ui/optlanguagespage.ui:545
+#: cui/uiconfig/ui/optlanguagespage.ui:547
 msgctxt "extended_tip|decimalseparator"
 msgid "Specifies to use the numeric keypad decimal key that is set in your system when you press the respective key on the number pad."
 msgstr "ກຳນົດໃຫ້ໃຊ້ປຸ່ມທົດສະນິຍົມຂອງແປ້ນຕົວເລກທີ່ຕັ້ງໄວ້ໃນລະບົບຂອງທ່ານ ເມື່ອທ່ານກົດປຸ່ມດັ່ງກ່າວຢູ່ແປ້ນຕົວເລກ."
 
 #. BGtpx
-#: cui/uiconfig/ui/optlanguagespage.ui:612
+#: cui/uiconfig/ui/optlanguagespage.ui:614
 msgctxt "optlanguagespage|label7"
 msgid "Formats"
 msgstr "ຮູບແບບ"
 
 #. HASiD
-#: cui/uiconfig/ui/optlanguagespage.ui:626
+#: cui/uiconfig/ui/optlanguagespage.ui:628
 msgctxt "extended_tip|OptLanguagesPage"
 msgid "Defines the default languages and some other locale settings for documents."
 msgstr "ກຳນົດພາສາເລີ່ມຕົ້ນ ແລະ ການຕັ້ງຄ່າທ້ອງຖິ່ນອື່ນໆ ສຳລັບເອກະສານ."
@@ -19218,44 +19221,56 @@ msgctxt "paralignpage|extended_tip|JUSTIFICATION-MAX"
 msgid "Adjusts the maximum word spacing. Enter a number between 0% (no word spacing) and 250% (two and a half times the width of the space character)."
 msgstr "ປັບໄລຍະຫ່າງຄຳສັບສູງສຸດ. ປ້ອນຕົວເລກລະຫວ່າງ 0% (ບໍ່ມີໄລຍະຫ່າງຄຳສັບ) ຫາ 250% (ສອງເທົ່າເຄິ່ງຂອງຄວາມກວ້າງຂອງຕົວອັກສອນຍະຫວ່າງ)."
 
+#. maaHp
+#: cui/uiconfig/ui/paragalignpage.ui:676
+msgctxt "paralignpage|checkParaComposer"
+msgid "Paragraph Composer"
+msgstr ""
+
+#. fkGhh
+#: cui/uiconfig/ui/paragalignpage.ui:685
+msgctxt "textflowpage|extended_tip|checkParaComposer"
+msgid "Select this check box, if you want to get evenly spaced words in the consecutive lines."
+msgstr ""
+
 #. ppkez
-#: cui/uiconfig/ui/paragalignpage.ui:678
+#: cui/uiconfig/ui/paragalignpage.ui:698
 msgctxt "paragalignpage|labelLetterSpacing"
 msgid "_Letter spacing:"
 msgstr "ໄລຍະຫ່າງຕົວ_ອັກສອນ:"
 
 #. kJK5C
-#: cui/uiconfig/ui/paragalignpage.ui:696
+#: cui/uiconfig/ui/paragalignpage.ui:716
 msgctxt "paralignpage|extended_tip|LETTER-JUSTIFICATION-MIN"
 msgid "Adjusts the minimum letter spacing. Enter a number between -100% and 0% (original letter spacing)."
 msgstr "ປັບໄລຍະຫ່າງຕົວອັກສອນຕ່ຳສຸດ. ປ້ອນຕົວເລກລະຫວ່າງ -100% ແລະ 0% (ໄລຍະຫ່າງຕົວອັກສອນເດີມ)."
 
 #. dRAzb
-#: cui/uiconfig/ui/paragalignpage.ui:714
+#: cui/uiconfig/ui/paragalignpage.ui:734
 msgctxt "paralignpage|extended_tip|LETTER-JUSTIFICATION-MAX"
 msgid "Adjusts the maximum letter spacing. Enter a number between 0% (original letter spacing) and 500% (letter spacing is five times the width of the space character)."
 msgstr "ປັບໄລຍະຫ່າງຕົວອັກສອນສູງສຸດ. ປ້ອນຕົວເລກລະຫວ່າງ 0% (ໄລຍະຫ່າງຕົວອັກສອນເດີມ) ແລະ 500% (ໄລຍະຫ່າງຕົວອັກສອນເປັນຫ້າເທົ່າຂອງຄວາມກວ້າງຂອງຕົວອັກສອນຍະຫວ່າງ)."
 
 #. dBKCC
-#: cui/uiconfig/ui/paragalignpage.ui:727
+#: cui/uiconfig/ui/paragalignpage.ui:747
 msgctxt "paragalignpage|labelGlyphScaling"
 msgid "_Glyph scaling:"
 msgstr "ການປັບຂະໜາດ_ກລິບ (Glyph):"
 
 #. dLLAD
-#: cui/uiconfig/ui/paragalignpage.ui:745
+#: cui/uiconfig/ui/paragalignpage.ui:765
 msgctxt "paralignpage|extended_tip|GLYPH-SCALING-MIN"
 msgid "Adjusts the minimum glyph scaling. Enter a number between 50% (ultra-condensed) and 100% (regular)."
 msgstr "ປັບການປັບຂະໜາດກລິບຕ່ຳສຸດ. ປ້ອນຕົວເລກລະຫວ່າງ 50% (ບີບອັດຫຼາຍ) ແລະ 100% (ປົກກະຕີ)."
 
 #. oEMQr
-#: cui/uiconfig/ui/paragalignpage.ui:763
+#: cui/uiconfig/ui/paragalignpage.ui:783
 msgctxt "paralignpage|extended_tip|GLYPH-SCALING-MMAX"
 msgid "Adjusts the maximum glyph scaling. Enter a number between 100% (regular) and 200% (ultra-expanded)."
 msgstr "ປັບການປັບຂະໜາດກລິບສູງສຸດ. ປ້ອນຕົວເລກລະຫວ່າງ 100% (ປົກກະຕີ) ແລະ 200% (ຂະຫຍາຍຫຼາຍ)."
 
 #. J6diC
-#: cui/uiconfig/ui/paragalignpage.ui:787
+#: cui/uiconfig/ui/paragalignpage.ui:807
 msgctxt "paragalignpage|labelFL_JUSTIFICATION"
 msgid "Justification"
 msgstr "ການຈັດຂໍ້ຄວາມໃຫ້ສະເໝີກັນ"
@@ -22074,49 +22089,49 @@ msgctxt "storedwebconnectiondialog|change"
 msgid "_Change Password..."
 msgstr "ປ່ຽນແປງ~ລະຫັດຜ່ານ..."
 
-#. UaeBM
-#: cui/uiconfig/ui/swpossizepage.ui:74
-msgctxt "swpossizepage|ratio_tip"
-msgid "Keep ratio"
-msgstr "ຮັກສາມາດຕາສ່ວນ"
-
-#. 9sitX
-#: cui/uiconfig/ui/swpossizepage.ui:79
-msgctxt "swpossizepage|accessible_name|ratio"
-msgid "Keep Ratio"
-msgstr "ຮັກສາມາດຕາສ່ວນ"
-
-#. YCssx
-#: cui/uiconfig/ui/swpossizepage.ui:80
-msgctxt "swpossizepage|extended_tip|ratio"
-msgid "Maintains proportions when you resize the selected object."
-msgstr "ຮັກສາມາດຕາສ່ວນເມື່ອທ່ານປັບຂະໜາດວັດຖຸທີ່ເລືອກ."
-
-#. M4C6V
-#: cui/uiconfig/ui/swpossizepage.ui:147
-msgctxt "swpossizepage|extended_tip|width"
-msgid "Enter the width that you want for the selected object."
-msgstr "ປ້ອນຄວາມກວ້າງທີ່ທ່ານຕ້ອງການສຳລັບວັດຖຸທີ່ເລືອກ."
-
 #. ADAyE
-#: cui/uiconfig/ui/swpossizepage.ui:160
+#: cui/uiconfig/ui/swpossizepage.ui:65
 #, fuzzy
 msgctxt "swpossizepage|widthft"
 msgid "_Width:"
 msgstr "ຄວາມກ້ວາງ"
 
-#. 5jMac
-#: cui/uiconfig/ui/swpossizepage.ui:180
-msgctxt "swpossizepage|extended_tip|height"
-msgid "Enter the height that you want for the selected object."
-msgstr "ປ້ອນຄວາມສູງທີ່ທ່ານຕ້ອງການສຳລັບວັດຖຸທີ່ເລືອກ."
+#. M4C6V
+#: cui/uiconfig/ui/swpossizepage.ui:85
+msgctxt "swpossizepage|extended_tip|width"
+msgid "Enter the width that you want for the selected object."
+msgstr "ປ້ອນຄວາມກວ້າງທີ່ທ່ານຕ້ອງການສຳລັບວັດຖຸທີ່ເລືອກ."
+
+#. UaeBM
+#: cui/uiconfig/ui/swpossizepage.ui:107
+msgctxt "swpossizepage|ratio_tip"
+msgid "Keep ratio"
+msgstr "ຮັກສາມາດຕາສ່ວນ"
+
+#. 9sitX
+#: cui/uiconfig/ui/swpossizepage.ui:112
+msgctxt "swpossizepage|accessible_name|ratio"
+msgid "Keep Ratio"
+msgstr "ຮັກສາມາດຕາສ່ວນ"
+
+#. YCssx
+#: cui/uiconfig/ui/swpossizepage.ui:113
+msgctxt "swpossizepage|extended_tip|ratio"
+msgid "Maintains proportions when you resize the selected object."
+msgstr "ຮັກສາມາດຕາສ່ວນເມື່ອທ່ານປັບຂະໜາດວັດຖຸທີ່ເລືອກ."
 
 #. D2QY9
-#: cui/uiconfig/ui/swpossizepage.ui:193
+#: cui/uiconfig/ui/swpossizepage.ui:174
 #, fuzzy
 msgctxt "swpossizepage|heightft"
 msgid "H_eight:"
 msgstr "ຄວາມສູງ"
+
+#. 5jMac
+#: cui/uiconfig/ui/swpossizepage.ui:194
+msgctxt "swpossizepage|extended_tip|height"
+msgid "Enter the height that you want for the selected object."
+msgstr "ປ້ອນຄວາມສູງທີ່ທ່ານຕ້ອງການສຳລັບວັດຖຸທີ່ເລືອກ."
 
 #. Dhk9o
 #: cui/uiconfig/ui/swpossizepage.ui:209
@@ -22124,92 +22139,92 @@ msgctxt "swpossizepage|label2"
 msgid "Size"
 msgstr "ຂະໜາດ"
 
-#. okeh5
-#: cui/uiconfig/ui/swpossizepage.ui:239
-#, fuzzy
-msgctxt "swpossizepage|topage"
-msgid "To _page"
-msgstr "ທີ່ໜ້າ"
-
-#. cAYrG
-#: cui/uiconfig/ui/swpossizepage.ui:248
-msgctxt "swpossizepage|extended_tip|topage"
-msgid "Anchors the selection to the current page."
-msgstr "ຍຶດສ່ວນທີ່ເລືອກໄວ້ກັບໜ້າປັດຈຸບັນ."
-
-#. 7GtoG
-#: cui/uiconfig/ui/swpossizepage.ui:259
-#, fuzzy
-msgctxt "swpossizepage|topara"
-msgid "To paragrap_h"
-msgstr "ຫຍໍ້ໜ້າ"
-
-#. NhNym
-#: cui/uiconfig/ui/swpossizepage.ui:268
-msgctxt "swpossizepage|extended_tip|topara"
-msgid "Anchors the selection to the current paragraph."
-msgstr "ຍຶດສ່ວນທີ່ເລືອກໄວ້ກັບຫຍໍ້ໜ້າປັດຈຸບັນ."
-
-#. Uj9Pu
-#: cui/uiconfig/ui/swpossizepage.ui:279
-#, fuzzy
-msgctxt "swpossizepage|tochar"
-msgid "To cha_racter"
-msgstr "ຕົວອັກສອນ"
-
-#. KpVFy
-#: cui/uiconfig/ui/swpossizepage.ui:288
-msgctxt "swpossizepage|extended_tip|tochar"
-msgid "Anchors the selection to a character."
-msgstr "ຍຶດສ່ວນທີ່ເລືອກໄວ້ກັບຕົວອັກສອນ."
-
-#. GNmu5
-#: cui/uiconfig/ui/swpossizepage.ui:299
-#, fuzzy
-msgctxt "swpossizepage|aschar"
-msgid "_As character"
-msgstr "ເປັນຕົວອັກສອນ"
-
-#. F5EmK
-#: cui/uiconfig/ui/swpossizepage.ui:308
-msgctxt "swpossizepage|extended_tip|aschar"
-msgid "Anchors the selection as character. The height of the current line is resized to match the height of the selection."
-msgstr "ຍຶດສ່ວນທີ່ເລືອກໄວ້ເປັນຕົວອັກສອນ."
-
-#. e4F9d
-#: cui/uiconfig/ui/swpossizepage.ui:319
-#, fuzzy
-msgctxt "swpossizepage|toframe"
-msgid "To _frame"
-msgstr "ກອບ"
-
-#. ckR4Z
-#: cui/uiconfig/ui/swpossizepage.ui:338
-#, fuzzy
-msgctxt "swpossizepage|label1"
-msgid "Anchor"
-msgstr "~ຫຼັັກ"
-
 #. 3PMgB
-#: cui/uiconfig/ui/swpossizepage.ui:367
+#: cui/uiconfig/ui/swpossizepage.ui:237
 #, fuzzy
 msgctxt "swpossizepage|pos"
 msgid "Positio_n"
 msgstr "ຕໍ່າແໜ່ງ"
 
 #. YuVkA
-#: cui/uiconfig/ui/swpossizepage.ui:382
+#: cui/uiconfig/ui/swpossizepage.ui:252
 #, fuzzy
 msgctxt "swpossizepage|size"
 msgid "_Size"
 msgstr "ຂະໜາດ"
 
 #. 7MV8R
-#: cui/uiconfig/ui/swpossizepage.ui:401
+#: cui/uiconfig/ui/swpossizepage.ui:271
 #, fuzzy
 msgctxt "swpossizepage|label3"
 msgid "Protect"
 msgstr "~ປ້ອງກັນ"
+
+#. okeh5
+#: cui/uiconfig/ui/swpossizepage.ui:301
+#, fuzzy
+msgctxt "swpossizepage|topage"
+msgid "To _page"
+msgstr "ທີ່ໜ້າ"
+
+#. cAYrG
+#: cui/uiconfig/ui/swpossizepage.ui:310
+msgctxt "swpossizepage|extended_tip|topage"
+msgid "Anchors the selection to the current page."
+msgstr "ຍຶດສ່ວນທີ່ເລືອກໄວ້ກັບໜ້າປັດຈຸບັນ."
+
+#. 7GtoG
+#: cui/uiconfig/ui/swpossizepage.ui:321
+#, fuzzy
+msgctxt "swpossizepage|topara"
+msgid "To paragrap_h"
+msgstr "ຫຍໍ້ໜ້າ"
+
+#. NhNym
+#: cui/uiconfig/ui/swpossizepage.ui:330
+msgctxt "swpossizepage|extended_tip|topara"
+msgid "Anchors the selection to the current paragraph."
+msgstr "ຍຶດສ່ວນທີ່ເລືອກໄວ້ກັບຫຍໍ້ໜ້າປັດຈຸບັນ."
+
+#. Uj9Pu
+#: cui/uiconfig/ui/swpossizepage.ui:341
+#, fuzzy
+msgctxt "swpossizepage|tochar"
+msgid "To cha_racter"
+msgstr "ຕົວອັກສອນ"
+
+#. KpVFy
+#: cui/uiconfig/ui/swpossizepage.ui:350
+msgctxt "swpossizepage|extended_tip|tochar"
+msgid "Anchors the selection to a character."
+msgstr "ຍຶດສ່ວນທີ່ເລືອກໄວ້ກັບຕົວອັກສອນ."
+
+#. GNmu5
+#: cui/uiconfig/ui/swpossizepage.ui:361
+#, fuzzy
+msgctxt "swpossizepage|aschar"
+msgid "_As character"
+msgstr "ເປັນຕົວອັກສອນ"
+
+#. F5EmK
+#: cui/uiconfig/ui/swpossizepage.ui:370
+msgctxt "swpossizepage|extended_tip|aschar"
+msgid "Anchors the selection as character. The height of the current line is resized to match the height of the selection."
+msgstr "ຍຶດສ່ວນທີ່ເລືອກໄວ້ເປັນຕົວອັກສອນ."
+
+#. e4F9d
+#: cui/uiconfig/ui/swpossizepage.ui:381
+#, fuzzy
+msgctxt "swpossizepage|toframe"
+msgid "To _frame"
+msgstr "ກອບ"
+
+#. ckR4Z
+#: cui/uiconfig/ui/swpossizepage.ui:400
+#, fuzzy
+msgctxt "swpossizepage|label1"
+msgid "Anchor"
+msgstr "~ຫຼັັກ"
 
 #. mWjuy
 #: cui/uiconfig/ui/swpossizepage.ui:433
@@ -22230,84 +22245,84 @@ msgctxt "swpossizepage|horiposft"
 msgid "Hori_zontal:"
 msgstr "ແນວນອນ"
 
-#. nCjCJ
-#: cui/uiconfig/ui/swpossizepage.ui:501
-msgctxt "swpossizepage|horibyft"
-msgid "b_y:"
-msgstr "ໂດຍ (_y):"
-
-#. JAihS
-#: cui/uiconfig/ui/swpossizepage.ui:515
-msgctxt "swpossizepage|vertbyft"
-msgid "_by:"
-msgstr "ໂດຍ (_b):"
-
-#. bEU2H
-#: cui/uiconfig/ui/swpossizepage.ui:529
-msgctxt "swpossizepage|horitoft"
-msgid "_to:"
-msgstr "ຫາ (_t):"
-
-#. 7c9uU
-#: cui/uiconfig/ui/swpossizepage.ui:549
-msgctxt "swpossizepage|extended_tip|byhori"
-msgid "Enter the amount of space to leave between the left edge of the selected object and the reference point that you select in the To box."
-msgstr "ປ້ອນໄລຍະຫ່າງທີ່ຈະປະໄວ້ລະຫວ່າງຂອບຊ້າຍຂອງວັດຖຸທີ່ເລືອກ ແລະ ຈຸດອ້າງອີງທີ່ທ່ານເລືອກໃນຫ້ອງ \"ຫາ\"."
-
-#. 93Nyg
-#: cui/uiconfig/ui/swpossizepage.ui:564
-msgctxt "swpossizepage|extended_tip|horianchor"
-msgid "Select the reference point for the selected horizontal alignment option."
-msgstr "ເລືອກຈຸດອ້າງອີງສຳລັບຕົວເລືອກການຈັດວາງແນວນອນທີ່ເລືອກໄວ້."
-
 #. drz3i
-#: cui/uiconfig/ui/swpossizepage.ui:579
+#: cui/uiconfig/ui/swpossizepage.ui:503
 msgctxt "swpossizepage|extended_tip|horipos"
 msgid "Select the horizontal alignment option for the object."
 msgstr "ເລືອກຕົວເລືອກການຈັດວາງແນວນອນສຳລັບວັດຖຸ."
 
+#. nCjCJ
+#: cui/uiconfig/ui/swpossizepage.ui:516
+msgctxt "swpossizepage|horibyft"
+msgid "b_y:"
+msgstr "ໂດຍ (_y):"
+
+#. 7c9uU
+#: cui/uiconfig/ui/swpossizepage.ui:536
+msgctxt "swpossizepage|extended_tip|byhori"
+msgid "Enter the amount of space to leave between the left edge of the selected object and the reference point that you select in the To box."
+msgstr "ປ້ອນໄລຍະຫ່າງທີ່ຈະປະໄວ້ລະຫວ່າງຂອບຊ້າຍຂອງວັດຖຸທີ່ເລືອກ ແລະ ຈຸດອ້າງອີງທີ່ທ່ານເລືອກໃນຫ້ອງ \"ຫາ\"."
+
+#. bEU2H
+#: cui/uiconfig/ui/swpossizepage.ui:549
+msgctxt "swpossizepage|horitoft"
+msgid "_to:"
+msgstr "ຫາ (_t):"
+
+#. 93Nyg
+#: cui/uiconfig/ui/swpossizepage.ui:565
+msgctxt "swpossizepage|extended_tip|horianchor"
+msgid "Select the reference point for the selected horizontal alignment option."
+msgstr "ເລືອກຈຸດອ້າງອີງສຳລັບຕົວເລືອກການຈັດວາງແນວນອນທີ່ເລືອກໄວ້."
+
+#. ZFE5p
+#: cui/uiconfig/ui/swpossizepage.ui:576
+msgctxt "swpossizepage|mirror"
+msgid "_Mirror on even pages"
+msgstr "ສະທ້ອນເງົາໃນໜ້າຄູ່ (_M)"
+
+#. rubDV
+#: cui/uiconfig/ui/swpossizepage.ui:585
+msgctxt "swpossizepage|extended_tip|mirror"
+msgid "Reverses the current horizontal alignment settings on even pages."
+msgstr "ກັບຄືນການຕັ້ງຄ່າການຈັດວາງແນວນອນປັດຈຸບັນໃນໜ້າຄູ່."
+
 #. NKeEB
-#: cui/uiconfig/ui/swpossizepage.ui:592
+#: cui/uiconfig/ui/swpossizepage.ui:599
 #, fuzzy
 msgctxt "swpossizepage|vertposft"
 msgid "_Vertical:"
 msgstr "ແນວຕັ້ງ"
 
 #. DRm4w
-#: cui/uiconfig/ui/swpossizepage.ui:608
+#: cui/uiconfig/ui/swpossizepage.ui:615
 msgctxt "swpossizepage|extended_tip|vertpos"
 msgid "Select the vertical alignment option for the object."
 msgstr "ເລືອກຕົວເລືອກການຈັດວາງແນວຕັ້ງສຳລັບວັດຖຸ."
 
+#. JAihS
+#: cui/uiconfig/ui/swpossizepage.ui:628
+msgctxt "swpossizepage|vertbyft"
+msgid "_by:"
+msgstr "ໂດຍ (_b):"
+
 #. ys5CR
-#: cui/uiconfig/ui/swpossizepage.ui:627
+#: cui/uiconfig/ui/swpossizepage.ui:648
 msgctxt "swpossizepage|extended_tip|byvert"
 msgid "Enter the amount of space to leave between the top edge of the selected object and the reference point that you select in the To box."
 msgstr "ປ້ອນໄລຍະຫ່າງທີ່ຈະປະໄວ້ລະຫວ່າງຂອບເທິງຂອງວັດຖຸທີ່ເລືອກ ແລະ ຈຸດອ້າງອີງທີ່ທ່ານເລືອກໃນຫ້ອງ \"ຫາ\"."
 
 #. 5jQc3
-#: cui/uiconfig/ui/swpossizepage.ui:640
+#: cui/uiconfig/ui/swpossizepage.ui:661
 msgctxt "swpossizepage|verttoft"
 msgid "t_o:"
 msgstr "ຫາ (_o):"
 
 #. 5YHD7
-#: cui/uiconfig/ui/swpossizepage.ui:656
+#: cui/uiconfig/ui/swpossizepage.ui:677
 msgctxt "swpossizepage|extended_tip|vertanchor"
 msgid "Select the reference point for the selected vertical alignment option."
 msgstr "ເລືອກຈຸດອ້າງອີງສຳລັບຕົວເລືອກການຈັດວາງແນວຕັ້ງທີ່ເລືອກໄວ້."
-
-#. ZFE5p
-#: cui/uiconfig/ui/swpossizepage.ui:667
-msgctxt "swpossizepage|mirror"
-msgid "_Mirror on even pages"
-msgstr "ສະທ້ອນເງົາໃນໜ້າຄູ່ (_M)"
-
-#. rubDV
-#: cui/uiconfig/ui/swpossizepage.ui:676
-msgctxt "swpossizepage|extended_tip|mirror"
-msgid "Reverses the current horizontal alignment settings on even pages."
-msgstr "ກັບຄືນການຕັ້ງຄ່າການຈັດວາງແນວນອນປັດຈຸບັນໃນໜ້າຄູ່."
 
 #. NRKCh
 #: cui/uiconfig/ui/swpossizepage.ui:688
@@ -23991,6 +24006,14 @@ msgstr "ການຈັດວາງມຸມມອງ"
 msgctxt "zoomdialog|extended_tip|ZoomDialog"
 msgid "Reduces or enlarges the screen display."
 msgstr "ຫຼຸດ ຫຼື ຂະຫຍາຍການສະແດງຜົນເທິງໜ້າຈໍ."
+
+#~ msgctxt "optlanguagespage|ignorelanguagechange"
+#~ msgid "Ignore s_ystem input language"
+#~ msgstr "ບໍ່ສົນໃຈພາສາການປ້ອນຂໍ້ມູນຂອງ_ລະບົບ"
+
+#~ msgctxt "extended_tip|ignorelanguagechange"
+#~ msgid "Indicates whether changes to the system input language/keyboard will be ignored. If ignored, when new text is typed that text will follow the language of the document or current paragraph, not the current system language."
+#~ msgstr "ລະບຸວ່າຈະບໍ່ສົນໃຈການປ່ຽນແປງພາສາ/ແປ້ນພິມຂອງລະບົບຫຼືບໍ່. ຖ້າບໍ່ສົນໃຈ, ເມື່ອພິມຂໍ້ຄວາມໃໝ່ ຂໍ້ຄວາມນັ້ນຈະປະຕິບັດຕາມພາສາຂອງເອກະສານ ຫຼື ຫຍໍ້ໜ້າປັດຈຸບັນ, ບໍ່ແມ່ນພາສາຂອງລະບົບປັດຈຸບັນ."
 
 #~ msgctxt "extended_tip|asianlanguage"
 #~ msgid "Specifies the language used for the spellcheck function in Asian alphabets."
