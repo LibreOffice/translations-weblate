@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-11-18 17:39+0100\n"
-"PO-Revision-Date: 2026-03-30 14:30+0000\n"
+"PO-Revision-Date: 2026-04-26 00:30+0000\n"
 "Last-Translator: Miloiu Andrei-Valentin <miloiuandrei@gmail.com>\n"
 "Language-Team: Romanian <https://translations.documentfoundation.org/projects/libo_ui-26-2/uuimessages/ro/>\n"
 "Language: ro\n"
@@ -48,6 +48,9 @@ msgid ""
 "$(ARG1)\n"
 "Storing those large module(s) in binary format, which is necessary for password protection, makes them unreadable in versions older than LibreOffice 5.0.3. If you want to avoid this please split the module into smaller pieces."
 msgstr ""
+"Salvezi o bibliotecă Basic protejată prin parolă, care conține următoarele module mari:\n"
+"$(ARG1)\n"
+"Stocarea acestor module mari în format binar, necesară pentru protecția prin parolă, le face ilizibile în versiunile mai vechi decât LibreOffice 5.0.3. Dacă vrei să eviți acest lucru, te rugăm să împarți modulul în părți mai mici."
 
 #. 3rNDF
 #: uui/inc/ids.hrc:43
@@ -61,6 +64,13 @@ msgid ""
 "\n"
 "Are you certain that this file is a legacy document created many years ago?"
 msgstr ""
+"Atenție!\n"
+"\n"
+"Ești pe cale să încarci un tip de fișier foarte neobișnuit ($(ARG2)) de la adresa URL:\n"
+"\n"
+"$(ARG1)\n"
+"\n"
+"Ești sigur(ă) că acest fișier este un document vechi, creat cu mulți ani în urmă?"
 
 #. v6bPE
 #: uui/inc/ids.hrc:45
@@ -595,7 +605,7 @@ msgstr "_Da"
 #: uui/inc/strings.hrc:24
 msgctxt "STR_ENTER_PASSWORD_TO_OPEN"
 msgid "The file “%s” is password-protected."
-msgstr ""
+msgstr "Fișierul „%s” este protejat cu parolă."
 
 #. BVofP
 #: uui/inc/strings.hrc:25
@@ -626,7 +636,7 @@ msgstr "Introduceți parola"
 #: uui/inc/strings.hrc:30
 msgctxt "STR_TITLE_FULL_FORMAT"
 msgid "%TITLE - %FILENAME - %PRODUCTNAME"
-msgstr ""
+msgstr "%TITLE - %FILENAME - %PRODUCTNAME"
 
 #. hggFL
 #: uui/inc/strings.hrc:31
@@ -649,6 +659,10 @@ msgid ""
 "Open document read-only, or ignore own file locking and open the document for editing.\n"
 "Select Notify to open read-only and get notified when the document becomes editable."
 msgstr ""
+"Fișierul de document „$(ARG1)” este blocat pentru editare personală pe un alt sistem, deoarece $(ARG2)\n"
+"\n"
+"Deschide documentul în modul doar citire sau ignoră blocarea propriului fișier și deschide documentul pentru editare.\n"
+"Selectează Notificare pentru a deschide în modul doar citire și a primi o notificare când documentul devine editabil."
 
 #. 8mKMg
 #: uui/inc/strings.hrc:35
@@ -676,6 +690,9 @@ msgid ""
 "\n"
 "Close document on other system and retry saving or ignore own file locking and save current document."
 msgstr ""
+"Fișierul de document „$(ARG1)” este blocat pentru editare personală pe un alt sistem din $(ARG2)\n"
+"\n"
+"Închide documentul pe alt sistem și încearcă din nou să salvezi sau ignoră blocarea propriului fișier și salvează documentul curent."
 
 #. ZCJGW
 #: uui/inc/strings.hrc:39
@@ -721,6 +738,9 @@ msgid ""
 "\n"
 "Select Notify to open read-only and get notified when the document becomes editable."
 msgstr ""
+"Fișierul de blocare nu a putut fi creat pentru acces exclusiv de către %PRODUCTNAME, din cauza lipsei permisiunii de a crea un fișier de blocare în locația respectivă sau a lipsei de spațiu liber pe disc.\n"
+"\n"
+"Selectează Notificare pentru a deschide în modul doar citire și a primi o notificare când documentul devine editabil."
 
 #. CaBXF
 #: uui/inc/strings.hrc:48
@@ -732,7 +752,7 @@ msgstr "Deschide doa~r pentru citire"
 #: uui/inc/strings.hrc:49
 msgctxt "STR_LOCKFAILED_OPENREADONLY_NOTIFY_BTN"
 msgid "~Notify"
-msgstr ""
+msgstr "~Notifică"
 
 #. q5Dhj
 #: uui/inc/strings.hrc:51
@@ -741,6 +761,8 @@ msgid ""
 "Document Name: $(ARG1)\n"
 "User Name: $(ARG2)"
 msgstr ""
+"Numele documentui: $(ARG1)\n"
+"Numele utilizatorului:  $(ARG2)"
 
 #. EXAAf
 #: uui/inc/strings.hrc:52
