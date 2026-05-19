@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2026-05-12 15:22+0200\n"
-"PO-Revision-Date: 2025-11-01 17:54+0000\n"
+"PO-Revision-Date: 2026-05-19 10:30+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/bg/>\n"
 "Language: bg\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: LibreOffice\n"
+"X-Generator: Weblate 5.10.1\n"
 "X-Project-Style: openoffice\n"
 "X-POOTLE-MTIME: 1562357170.000000\n"
 
@@ -13290,7 +13290,7 @@ msgctxt ""
 "hd_id3144386\n"
 "help.text"
 msgid "<variable id=\"product_head\"><link href=\"text/scalc/01/04060106.xhp#product\">PRODUCT</link></variable>"
-msgstr ""
+msgstr "<variable id=\"product_head\"><link href=\"text/scalc/01/04060106.xhp#product\">PRODUCT</link></variable>"
 
 #. tjrCV
 #: 04060106.xhp
@@ -17601,7 +17601,7 @@ msgctxt ""
 "par_id1027200802301348\n"
 "help.text"
 msgid "For interoperability the ADDRESS and INDIRECT functions support an optional parameter to specify whether the <link href=\"text/scalc/guide/r1c1syntax.xhp\">R1C1</link> address notation instead of the usual A1 notation should be used."
-msgstr ""
+msgstr "За съвместимост функциите ADDRESS и INDIRECT поддържат незадължителен параметър, който определя дали да се използва записът <link href=\"text/scalc/guide/r1c1syntax.xhp\">R1C1</link> за адреси вместо обикновения формат A1."
 
 #. JJpSk
 #: 04060109.xhp
@@ -17628,7 +17628,7 @@ msgctxt ""
 "par_id102720080230151\n"
 "help.text"
 msgid "In both functions, if the argument is inserted with the value 0, then the <link href=\"text/scalc/guide/r1c1syntax.xhp\">R1C1</link> notation is used. If the argument is not given or has a value other than 0, then the A1 notation is used."
-msgstr ""
+msgstr "И в двете функции, ако аргументът е вмъкнат със стойност 0, се използва записът <link href=\"text/scalc/guide/r1c1syntax.xhp\">R1C1</link>. Ако аргументът не е даден или има стойност, различна от 0, се използва записът A1."
 
 #. 4xAnc
 #: 04060109.xhp
@@ -17637,7 +17637,7 @@ msgctxt ""
 "par_id1027200802301556\n"
 "help.text"
 msgid "In case of <link href=\"text/scalc/guide/r1c1syntax.xhp\">R1C1</link> notation, ADDRESS returns address strings using the exclamation mark '!' as the sheet name separator, and INDIRECT expects the exclamation mark as sheet name separator. Both functions still use the dot '.' sheet name separator with A1 notation."
-msgstr ""
+msgstr "При нотацията <link href=\"text/scalc/guide/r1c1syntax.xhp\">R1C1</link> функцията ADDRESS връща низове с адреси, в които имената на листове са отделени с удивителна (!), а INDIRECT очаква удивителна като разделител за име на лист. При нотация A1 и двете функции използват точка (.) като разделител на имена."
 
 #. tBvLY
 #: 04060109.xhp
@@ -17754,7 +17754,7 @@ msgctxt ""
 "par_id1027200802465915\n"
 "help.text"
 msgid "<emph>A1</emph> (optional) - if set to 0, the <link href=\"text/scalc/guide/r1c1syntax.xhp\">R1C1</link> notation is used. If this parameter is absent or set to another value than 0, the A1 notation is used."
-msgstr ""
+msgstr "<emph>A1</emph> (незадължителен) – ако е 0, се използва нотацията <link href=\"text/scalc/guide/r1c1syntax.xhp\">R1C1</link>. Ако този параметър отсъства или има стойност, различна от 0, се използва нотацията A1."
 
 #. R2QXf
 #: 04060109.xhp
@@ -18294,7 +18294,7 @@ msgctxt ""
 "par_id1027200802470312\n"
 "help.text"
 msgid "<emph>A1</emph> (optional) - if set to 0, the <link href=\"text/scalc/guide/r1c1syntax.xhp\">R1C1</link> notation is used. If this parameter is absent or set to another value than 0, the A1 notation is used."
-msgstr ""
+msgstr "<emph>A1</emph> (незадължителен) – ако е 0, се използва нотацията <link href=\"text/scalc/guide/r1c1syntax.xhp\">R1C1</link>. Ако този параметър отсъства или има стойност, различна от 0, се използва нотацията A1."
 
 #. 5adA4
 #: 04060109.xhp
@@ -18537,7 +18537,7 @@ msgctxt ""
 "par_id3149984\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_SVERWEIS\">Vertical search with reference to adjacent cells to the right.</ahelp> This function checks if a specific value is contained in the first column of an array. The function then returns the value in the same row of the column named by <emph>Index</emph>. If the <emph>SortedRangeLookup</emph> parameter is omitted or set to TRUE or one, it is assumed that the data is sorted in ascending order. In this case, if the exact <emph>Lookup</emph> is not found, the last value that is smaller than the criterion will be returned. If <emph>SortedRangeLookup</emph> is set to FALSE or zero, an exact match must be found, otherwise the error <emph>Error: Value Not Available</emph> will be the result. Thus with a value of zero the data does not need to be sorted in ascending order."
-msgstr ""
+msgstr "<ahelp hid=\"HID_FUNC_SVERWEIS\">Вертикално търсене с преглеждане на съседните клетки отдясно.</ahelp> Тази функция проверява дали в първата колона на масив се съдържа определена стойност. След това тя връща стойността от същия ред на колоната, посочена чрез <emph>Индекс</emph>. Ако параметърът <emph>ТърсенеВСортираниДиапазони</emph> е пропуснат или има стойност TRUE или единица, се приема, че данните са сортирани в нарастващ ред. В този случай, ако не е намерена <emph>СравняванаСтойност</emph>, ще бъде върната последната стойност, по-малка от критерия. Ако <emph>ТърсенеВСортираниДиапазони</emph> е FALSE или нула, се изисква точно съвпадение, иначе резултатът е <emph>Грешка: няма налична стойност</emph>. Така при нулева стойност не е необходимо данните да се сортират възходящо."
 
 #. j8RoY
 #: 04060109.xhp
@@ -18807,7 +18807,7 @@ msgctxt ""
 "par_id31475281\n"
 "help.text"
 msgid "If Type = 1 or the third parameter is missing, the index of the last value that is smaller or equal to the search criterion is returned. For Type = -1, the index of the last value that is larger or equal is returned."
-msgstr ""
+msgstr "Ако Тип = 1 или липсва трети параметър, се връща индексът на последната стойност, по-малка или равна на критерия за търсене. При Тип = -1 се връща индексът на последната по-голяма или равна стойност."
 
 #. GmWGG
 #: 04060109.xhp
@@ -18816,7 +18816,7 @@ msgctxt ""
 "par_id3147528\n"
 "help.text"
 msgid "Unpredictable results are expected if <emph>Type</emph> takes values -1 or +1 and the <emph>LookupArray</emph> is not sorted."
-msgstr ""
+msgstr "Ако <emph>Тип</emph> има стойност -1 или +1, а <emph>Масив</emph> не е сортиран, резултатът ще е непредсказуем."
 
 #. 8cpYu
 #: 04060109.xhp
@@ -29148,7 +29148,7 @@ msgctxt ""
 "par_id3148585\n"
 "help.text"
 msgid "COUNT(<embedvar href=\"text/scalc/01/ful_func.xhp#argument255_1\" markup=\"keep\"/>)"
-msgstr ""
+msgstr "COUNT(<embedvar href=\"text/scalc/01/ful_func.xhp#argument255_1\" markup=\"keep\"/>)"
 
 #. C9kWA
 #: 04060181.xhp
