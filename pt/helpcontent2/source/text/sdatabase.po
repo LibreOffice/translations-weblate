@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-05-30 12:45+0200\n"
-"PO-Revision-Date: 2026-05-24 17:30+0000\n"
+"PO-Revision-Date: 2026-05-26 20:30+0000\n"
 "Last-Translator: André Costa <andrecosta@ik.me>\n"
 "Language-Team: Portuguese <https://translations.documentfoundation.org/projects/libo_help-25-8/textsdatabase/pt/>\n"
 "Language: pt\n"
@@ -2425,7 +2425,7 @@ msgctxt ""
 "par_id191120151905346795\n"
 "help.text"
 msgid "Parameter queries allow the user to input values at run-time. These values are used within the criteria for selecting the records to be displayed. Each such value has a parameter name associated with it, which is used to prompt the user when the query is run."
-msgstr ""
+msgstr "As consultas com parâmetros permitem ao utilizador introduzir valores durante a execução. Esses valores são utilizados nos critérios de seleção dos registos a apresentar. Cada um desses valores tem um nome de parâmetro associado, que é utilizado para solicitar a introdução de dados ao utilizador quando a consulta é executada."
 
 #. Be7XG
 #: 02010100.xhp
@@ -2434,7 +2434,7 @@ msgctxt ""
 "par_id191120151905439551\n"
 "help.text"
 msgid "Parameter names are preceded by a colon in both the Design and SQL views of a query. This can be used wherever a value can appear. If the same value is to appear more than once in the query, the same parameter name is used."
-msgstr ""
+msgstr "Os nomes dos parâmetros são precedidos por dois pontos tanto na vista de Design como na vista SQL de uma consulta. Isto pode ser utilizado sempre que for necessário introduzir um valor. Se for necessário que o mesmo valor apareça mais do que uma vez na consulta, utiliza-se o mesmo nome de parâmetro."
 
 #. f2NMg
 #: 02010100.xhp
@@ -2443,7 +2443,7 @@ msgctxt ""
 "par_id191120151905518123\n"
 "help.text"
 msgid "In the simplest case, where the user enters a value which is matched for equality, the parameter name with its preceding colon is simply entered in the Criterion row. In <link href=\"text/sdatabase/02010100.xhp#sqlmode\">SQL mode</link> this should be typed as <item type=\"input\">WHERE \"Field\" = :Parameter_name</item>"
-msgstr ""
+msgstr "No caso mais simples, em que o utilizador introduz um valor que é comparado por igualdade, o nome do parâmetro, precedido de dois pontos, é simplesmente introduzido na linha «Critério». No <link href=\"text/sdatabase/02010100.xhp#sqlmode\">modo SQL</link>, isto deve ser escrito da seguinte forma: <item type=\"input\">WHERE \"Field\" = :Parameter_name</item>"
 
 #. DZCXm
 #: 02010100.xhp
@@ -2452,7 +2452,7 @@ msgctxt ""
 "par_id191120151905584287\n"
 "help.text"
 msgid "Parameter names may not contain any of the characters <item type=\"input\"><space>`!\"$%^*()+={}[]@'~#<>?/,</item>. They may not be the same as field names or SQL reserved words. They may be the same as aliases."
-msgstr ""
+msgstr "Os nomes dos parâmetros não podem conter nenhum dos seguintes caracteres: <item type=\"input\"><espaço>`!\"$%^*()+={}[]@'~#<>?/,</item>. Não podem ser iguais aos nomes dos campos nem a palavras reservadas do SQL. Podem ser iguais aos aliases."
 
 #. WBEtt
 #: 02010100.xhp
@@ -2461,7 +2461,7 @@ msgctxt ""
 "par_id191120151931441881\n"
 "help.text"
 msgid "A useful construction for selecting records based on parts of a text field's content is to add a hidden column with <item type=\"input\">\"LIKE '%' || :Part_of_field || '%'\"</item> as the criterion. This will select records with an exact match. If a case-insensitive test is wanted, one solution is to use <item type=\"input\">LOWER (Field_Name)</item> as the field and <item type=\"input\">LIKE LOWER ( '%' || :Part_of_field || '%' )</item> as the criterion. Note that the spaces in the criterion are important; if they are left out the SQL parser interprets the entire criterion as a string to be matched. In <link href=\"text/sdatabase/02010100.xhp#sqlmode\">SQL mode</link> this should be typed as <item type=\"input\">LOWER ( \"Field_Name\" ) LIKE LOWER ( '%' || :Part_of_field || '%' )</item>."
-msgstr ""
+msgstr "Uma forma útil de selecionar registos com base em partes do conteúdo de um campo de texto consiste em adicionar uma coluna oculta com <item type=\"input\">\"LIKE '%' || :Part_of_field || '%'\"</item> como critério. Isto irá selecionar registos com uma correspondência exata. Se for desejado um teste que não distinga maiúsculas de minúsculas, uma solução é utilizar <item type=\"input\">LOWER (Field_Name)</item> como campo e <item type=\"input\">LIKE LOWER ( '%' || :Part_of_field || '%' )</item> como critério. Note que os espaços no critério são importantes; se forem omitidos, o analisador SQL interpreta todo o critério como uma cadeia de caracteres a ser comparada. No <link href=\"text/sdatabase/02010100.xhp#sqlmode\">modo SQL</link>, isto deve ser escrito como <item type=\"input\">LOWER ( \"Field_Name\" ) LIKE LOWER ( '%' || :Part_of_field || '%' )</item>."
 
 #. EAESi
 #: 02010100.xhp
@@ -2470,7 +2470,7 @@ msgctxt ""
 "par_id3150585\n"
 "help.text"
 msgid "Parameter queries may be used as the data source for <link href=\"text/shared/02/01170203.xhp\">subforms</link>, to allow the user to restrict the displayed records."
-msgstr ""
+msgstr "As consultas de parâmetros podem ser utilizadas como fonte de dados para <link href=\"text/shared/02/01170203.xhp\">subformulários</link>, para permitir que o utilizador restrinja os registos apresentados."
 
 #. DRj78
 #: 02010100.xhp
@@ -2479,7 +2479,7 @@ msgctxt ""
 "hd_id3151035\n"
 "help.text"
 msgid "Parameter Input"
-msgstr ""
+msgstr "Introdução de parâmetros"
 
 #. BisCF
 #: 02010100.xhp
@@ -2488,7 +2488,7 @@ msgctxt ""
 "par_id3153596\n"
 "help.text"
 msgid "<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">The <emph>Parameter Input</emph> dialog asks the user to enter the parameter values. Enter a value for each query parameter and confirm by clicking <emph>OK</emph> or typing <emph>Enter</emph>.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"HID_QRYDGN_ROW_FUNCTION\">A caixa de diálogo <emph>Introdução de parâmetros</emph> solicita ao utilizador que introduza os valores dos parâmetros. Introduza um valor para cada parâmetro da consulta e confirme clicando em <emph>OK</emph> ou premindo a tecla <emph>Enter</emph>.</ahelp>"
 
 #. eGETM
 #: 02010100.xhp
@@ -2497,7 +2497,7 @@ msgctxt ""
 "par_id191120151924165870\n"
 "help.text"
 msgid "The values entered by the user may consist of any characters which are allowable for the SQL for the relevant criterion; this may depend on the underlying database system."
-msgstr ""
+msgstr "Os valores introduzidos pelo utilizador podem consistir em quaisquer caracteres permitidos pelo SQL para o critério em questão; tal pode depender do sistema de base de dados subjacente."
 
 #. seFhG
 #: 02010100.xhp
@@ -2506,7 +2506,7 @@ msgctxt ""
 "par_id191120151939594217\n"
 "help.text"
 msgid "The user can use the SQL wild-card characters \"%\" (arbitrary string) or \"_\" (arbitrary single character) as part of the value to retrieve records with more complex criteria."
-msgstr ""
+msgstr "O utilizador pode utilizar os caracteres curinga SQL «%» (cadeia de caracteres arbitrária) ou «_» (caractere único arbitrário) como parte do valor para recuperar registos com critérios mais complexos."
 
 #. wRe6v
 #: 02010100.xhp
@@ -2515,7 +2515,7 @@ msgctxt ""
 "hd_id3145181\n"
 "help.text"
 msgid "SQL Mode"
-msgstr ""
+msgstr "Modo SQL"
 
 #. 5avVu
 #: 02010100.xhp
@@ -2524,7 +2524,7 @@ msgctxt ""
 "par_id3147013\n"
 "help.text"
 msgid "SQL stands for \"Structured Query Language\" and describes instructions for updating and administering relational databases."
-msgstr ""
+msgstr "SQL significa «Structured Query Language» (Linguagem de Consulta Estruturada) e descreve instruções para atualizar e administrar bases de dados relacionais."
 
 #. wDAAY
 #: 02010100.xhp
@@ -2533,7 +2533,7 @@ msgctxt ""
 "par_id3152570\n"
 "help.text"
 msgid "In $[officename] you do not need any knowledge of SQL for most queries, since you do not have to enter the SQL code. If you create a query in the query designer, $[officename] automatically converts your instructions into the corresponding SQL syntax. If, with the help of the <emph>Switch Design View On/Off </emph>button, you change to the SQL view, you can see the SQL commands for a query that has already been created."
-msgstr ""
+msgstr "No $[officename], não é necessário ter conhecimentos de SQL para a maioria das consultas, uma vez que não é preciso introduzir o código SQL. Se criar uma consulta no designer de consultas, o $[officename] converte automaticamente as suas instruções na sintaxe SQL correspondente. Se, com a ajuda do botão <emph>Ativar/Desativar Vista de Design</emph>, mudar para a vista SQL, poderá ver os comandos SQL de uma consulta que já tenha sido criada."
 
 #. hBQFv
 #: 02010100.xhp
@@ -2542,7 +2542,7 @@ msgctxt ""
 "par_id3152412\n"
 "help.text"
 msgid "You can formulate your query directly in SQL code. Note, however, that the special syntax is dependent upon the database system that you use."
-msgstr ""
+msgstr "Pode formular a sua consulta diretamente em código SQL. Note, no entanto, que a sintaxe específica depende do sistema de base de dados que utilizar."
 
 #. kkuBG
 #: 02010100.xhp
@@ -2551,7 +2551,7 @@ msgctxt ""
 "par_id3146842\n"
 "help.text"
 msgid "If you enter the SQL code manually, you can create SQL-specific queries that are not supported by the graphical interface in the <emph>Query designer</emph>. These queries must be executed in native SQL mode."
-msgstr ""
+msgstr "Se introduzir o código SQL manualmente, pode criar consultas específicas de SQL que não são suportadas pela interface gráfica no <emph>Query Designer</emph>. Estas consultas devem ser executadas no modo SQL nativo."
 
 #. LgvXF
 #: 02010100.xhp
@@ -2560,7 +2560,7 @@ msgctxt ""
 "par_id3149632\n"
 "help.text"
 msgid "By clicking the <link href=\"text/shared/02/14030000.xhp\"><emph>Run SQL command directly</emph></link> icon in the SQL view, you can formulate a query that is not processed by $[officename] and sent directly to the database engine."
-msgstr ""
+msgstr "Ao clicar no ícone <link href=\"text/shared/02/14030000.xhp\"><emph>Executar comando SQL diretamente</emph></link> na vista SQL, pode formular uma consulta que não é processada pelo $[officename] e é enviada diretamente para o motor de base de dados."
 
 #. fKBDD
 #: 02010101.xhp
@@ -2569,7 +2569,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Join Properties"
-msgstr ""
+msgstr "Propriedades associadas"
 
 #. TTCNB
 #: 02010101.xhp
@@ -2578,7 +2578,7 @@ msgctxt ""
 "bm_id3154015\n"
 "help.text"
 msgid "<bookmark_value>links;relational databases (Base)</bookmark_value>      <bookmark_value>inner joins (Base)</bookmark_value>      <bookmark_value>joins in databases (Base)</bookmark_value>      <bookmark_value>left joins (Base)</bookmark_value>      <bookmark_value>right joins (Base)</bookmark_value>      <bookmark_value>full joins (Base)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>ligações;bases de dados relacionais (Base)</bookmark_value>      <bookmark_value>junções internas (Base)</bookmark_value>      <bookmark_value>junções em bases de dados (Base)</bookmark_value>      <bookmark_value>junções à esquerda (Base)</bookmark_value>      <bookmark_value>junções à direita (Base)</bookmark_value>      <bookmark_value>junções completas (Base)</bookmark_value>"
 
 #. DG7RD
 #: 02010101.xhp
@@ -2587,7 +2587,7 @@ msgctxt ""
 "hd_id3154015\n"
 "help.text"
 msgid "Join Properties"
-msgstr ""
+msgstr "Propriedades associadas"
 
 #. MzpBt
 #: 02010101.xhp
@@ -2596,7 +2596,7 @@ msgctxt ""
 "par_id3151205\n"
 "help.text"
 msgid "If you double-click a connection between two linked fields in the query design, or if you choose <emph>Insert - New Relation</emph>, the <emph>Join Properties</emph> dialog appears. These properties will be used in all queries created in the future."
-msgstr ""
+msgstr "Se clicar duas vezes numa ligação entre dois campos associados no desenho da consulta, ou se selecionar <emph>Inserir - Nova Relação</emph>, surge a caixa de diálogo <emph>Propriedades da Junção</emph>. Estas propriedades serão utilizadas em todas as consultas criadas no futuro."
 
 #. oszEF
 #: 02010101.xhp
@@ -2605,7 +2605,7 @@ msgctxt ""
 "hd_id3155066\n"
 "help.text"
 msgid "Tables involved"
-msgstr ""
+msgstr "Tabelas envolvidas"
 
 #. 2AkcB
 #: 02010101.xhp
@@ -2614,7 +2614,7 @@ msgctxt ""
 "par_id3153924\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/table2\">Specifies two different tables that you want to join.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/table2\">Especifica duas tabelas diferentes que pretende unir.</ahelp>"
 
 #. X6wkD
 #: 02010101.xhp
@@ -2623,7 +2623,7 @@ msgctxt ""
 "hd_id3155766\n"
 "help.text"
 msgid "Fields involved"
-msgstr ""
+msgstr "Campos envolvidos"
 
 #. 8bYEZ
 #: 02010101.xhp
@@ -2632,7 +2632,7 @@ msgctxt ""
 "par_id3148994\n"
 "help.text"
 msgid "<ahelp hid=\".\">Specifies two data fields that will be joined by a relation.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Especifica dois campos de dados que serão unidos por uma relação.</ahelp>"
 
 #. R8CbB
 #: 02010101.xhp
@@ -2641,7 +2641,7 @@ msgctxt ""
 "hd_id3159267\n"
 "help.text"
 msgid "Options"
-msgstr ""
+msgstr "Opções"
 
 #. MRJCp
 #: 02010101.xhp
@@ -2650,7 +2650,7 @@ msgctxt ""
 "hd_id3147340\n"
 "help.text"
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. rxAGo
 #: 02010101.xhp
@@ -2659,7 +2659,7 @@ msgctxt ""
 "par_id3152482\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/type\">Specifies the join type of the selected join.</ahelp> Some databases support only a subset of the various possible types."
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/type\">Especifica o tipo de junção da junção selecionada.</ahelp> Algumas bases de dados suportam apenas um subconjunto dos vários tipos possíveis."
 
 #. ngfse
 #: 02010101.xhp
@@ -2668,7 +2668,7 @@ msgctxt ""
 "hd_id3155334\n"
 "help.text"
 msgid "Inner Join"
-msgstr ""
+msgstr "Juntar interno"
 
 #. 356Dv
 #: 02010101.xhp
@@ -2677,7 +2677,7 @@ msgctxt ""
 "par_id3155936\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/type\">In an inner join, the results table contains only those records for which the content of the linked fields is the same.</ahelp> In $[officename] SQL this type of link is created by a corresponding WHERE clause."
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/type\">Numa junção interna, a tabela de resultados contém apenas os registos cujo conteúdo dos campos associados é idêntico.</ahelp> No SQL do $[officename], este tipo de ligação é criado por uma cláusula WHERE correspondente."
 
 #. XYKGT
 #: 02010101.xhp
@@ -2686,7 +2686,7 @@ msgctxt ""
 "hd_id3156372\n"
 "help.text"
 msgid "Left Join"
-msgstr ""
+msgstr "Junta à esquerda"
 
 #. dRFux
 #: 02010101.xhp
@@ -2695,7 +2695,7 @@ msgctxt ""
 "par_id3166450\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/type\">In a left join, the results table contains all records of the queried fields from the left table and only those records of the queried fields from the right table for which the content of the linked fields is the same.</ahelp> In $[officename] SQL this type of link corresponds to the LEFT OUTER JOIN command."
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/type\">Numa junção à esquerda, a tabela de resultados contém todos os registos dos campos consultados da tabela da esquerda e apenas os registos dos campos consultados da tabela da direita para os quais o conteúdo dos campos associados é idêntico.</ahelp> No SQL do $[officename], este tipo de junção corresponde ao comando LEFT OUTER JOIN."
 
 #. DxGWD
 #: 02010101.xhp
@@ -2704,7 +2704,7 @@ msgctxt ""
 "hd_id3155607\n"
 "help.text"
 msgid "Right Join"
-msgstr ""
+msgstr "Juntação à direita"
 
 #. 9eD8R
 #: 02010101.xhp
@@ -2713,7 +2713,7 @@ msgctxt ""
 "par_id3150647\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/type\">In a right join, the results table contains all records of the queried fields from the right table and only those records of the queried fields from the left table for which the content of the linked fields is the same.</ahelp> In $[officename] SQL this type of link corresponds to the RIGHT OUTER JOIN command."
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/type\">Numa junção à direita, a tabela de resultados contém todos os registos dos campos consultados da tabela da direita e apenas os registos dos campos consultados da tabela da esquerda para os quais o conteúdo dos campos associados é idêntico.</ahelp> No SQL do $[officename], este tipo de junção corresponde ao comando RIGHT OUTER JOIN."
 
 #. wcFAd
 #: 02010101.xhp
@@ -2722,7 +2722,7 @@ msgctxt ""
 "hd_id3158215\n"
 "help.text"
 msgid "Full Join"
-msgstr ""
+msgstr "Juntar por todos os campos"
 
 #. wAFid
 #: 02010101.xhp
@@ -2731,7 +2731,7 @@ msgctxt ""
 "par_id3163665\n"
 "help.text"
 msgid "<ahelp hid=\"dbaccess/ui/joindialog/type\">In a full join, the results table contains all records of the queried fields from the left and right tables.</ahelp> In the SQL of $[officename] this type of link corresponds to the FULL OUTER JOIN command."
-msgstr ""
+msgstr "<ahelp hid=\"dbaccess/ui/joindialog/type\">Numa junção completa, a tabela de resultados contém todos os registos dos campos consultados das tabelas da esquerda e da direita.</ahelp> No SQL do $[officename], este tipo de ligação corresponde ao comando FULL OUTER JOIN."
 
 #. gYRyC
 #: 02010101.xhp
@@ -2740,7 +2740,7 @@ msgctxt ""
 "hd_id0305200912031976\n"
 "help.text"
 msgid "Natural"
-msgstr ""
+msgstr "Natural"
 
 #. YCeBW
 #: 02010101.xhp
@@ -2749,7 +2749,7 @@ msgctxt ""
 "par_id0305200912031977\n"
 "help.text"
 msgid "<ahelp hid=\".\">In a natural join, the keyword <literal>NATURAL</literal> is inserted into the SQL statement that defines the relation. The relation joins all columns that have the same column name in both tables. The resulting joined table contains only one column for each pair of equally named columns.</ahelp>"
-msgstr ""
+msgstr "<ahelp hid=\".\">Numa junção natural, a palavra-chave <literal>NATURAL</literal> é inserida na instrução SQL que define a relação. A relação junta todas as colunas que têm o mesmo nome em ambas as tabelas. A tabela resultante da junção contém apenas uma coluna para cada par de colunas com o mesmo nome.</ahelp>"
 
 #. pK6MV
 #: 04000000.xhp
@@ -2758,7 +2758,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "Forms"
-msgstr ""
+msgstr "Formulários"
 
 #. quVqJ
 #: 04000000.xhp
@@ -2767,7 +2767,7 @@ msgctxt ""
 "hd_id3150476\n"
 "help.text"
 msgid "<link href=\"text/sdatabase/04000000.xhp\">Forms</link>"
-msgstr ""
+msgstr "<link href=\"text/sdatabase/04000000.xhp\">Formulários</link>"
 
 #. EJGgk
 #: 04000000.xhp
@@ -2776,7 +2776,7 @@ msgctxt ""
 "bm_id3156136\n"
 "help.text"
 msgid "<bookmark_value>forms; general information (Base)</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>formulários; informações gerais (Base)</bookmark_value>"
 
 #. d9y84
 #: 04000000.xhp
@@ -2785,7 +2785,7 @@ msgctxt ""
 "par_id3156136\n"
 "help.text"
 msgid "Forms can be used to enter or to edit existing database contents easily."
-msgstr ""
+msgstr "Os formulários podem ser utilizados para introduzir ou editar facilmente o conteúdo existente na base de dados."
 
 #. jK8tF
 #: 04000000.xhp
@@ -2794,7 +2794,7 @@ msgctxt ""
 "hd_id3157910\n"
 "help.text"
 msgid "<link href=\"text/shared/autopi/01090000.xhp\">FormWizard</link>"
-msgstr ""
+msgstr "<link href=\"text/shared/autopi/01090000.xhp\">FormWizard</link>"
 
 #. raPhg
 #: 04000000.xhp
@@ -2803,7 +2803,7 @@ msgctxt ""
 "hd_id3156003\n"
 "help.text"
 msgid "<link href=\"text/shared/02/01170000.xhp\">Form Controls</link>"
-msgstr ""
+msgstr "<link href=\"text/shared/02/01170000.xhp\">Controlos de formulário</link>"
 
 #. CyFwA
 #: 04000000.xhp
@@ -2812,7 +2812,7 @@ msgctxt ""
 "par_id3156156\n"
 "help.text"
 msgid "The Form Controls toolbar provides the tools required to create a form in a text, table, drawing, or presentation document."
-msgstr ""
+msgstr "A barra de ferramentas «Controlos de formulário» fornece as ferramentas necessárias para criar um formulário num documento de texto, tabela, desenho ou apresentação."
 
 #. U7SFE
 #: 04000000.xhp
