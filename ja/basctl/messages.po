@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2026-02-24 15:00+0100\n"
-"PO-Revision-Date: 2026-06-02 15:28+0000\n"
+"PO-Revision-Date: 2026-06-14 09:02+0000\n"
 "Last-Translator: Jun NOGATA <nogajun@gmail.com>\n"
 "Language-Team: Japanese <https://translations.documentfoundation.org/projects/libo_ui-master/basctlmessages/ja/>\n"
 "Language: ja\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 5.10.1\n"
+"X-Generator: Weblate 2026.6.1\n"
 "X-POOTLE-MTIME: 1560770808.000000\n"
 
 #. fniWp
@@ -50,7 +50,7 @@ msgstr "名前が無効です。"
 #: basctl/inc/strings.hrc:30
 msgctxt "RID_STR_LIBNAMETOLONG"
 msgid "A library name can have up to 30 characters."
-msgstr "ライブラリ名の文字数は最高30文字までです。"
+msgstr "ライブラリ名は最大30文字までです。"
 
 #. hGBUF
 #: basctl/inc/strings.hrc:31
@@ -62,7 +62,7 @@ msgstr "ほかのドキュメントのマクロへはアクセスできません
 #: basctl/inc/strings.hrc:32
 msgctxt "RID_STR_LIBISREADONLY"
 msgid "This library is read-only."
-msgstr "このライブラリは書き込み保護されています。"
+msgstr "このライブラリは読み取り専用です。"
 
 #. 8DoDR
 #: basctl/inc/strings.hrc:33
@@ -320,19 +320,19 @@ msgstr "呼び出し: "
 #: basctl/inc/strings.hrc:75
 msgctxt "RID_STR_USERMACROS"
 msgid "My Macros"
-msgstr "マイマクロ"
+msgstr "マイ マクロ"
 
 #. XenwN
 #: basctl/inc/strings.hrc:76
 msgctxt "RID_STR_USERDIALOGS"
 msgid "My Dialogs"
-msgstr "マイダイアログ"
+msgstr "マイ ダイアログ"
 
 #. Mwj7u
 #: basctl/inc/strings.hrc:77
 msgctxt "RID_STR_USERMACROSDIALOGS"
 msgid "My Macros & Dialogs"
-msgstr "マイマクロ & ダイアログ"
+msgstr "マイ マクロとダイアログ"
 
 #. ej2KL
 #: basctl/inc/strings.hrc:78
@@ -380,7 +380,7 @@ msgstr "[標準使用する言語]"
 #: basctl/inc/strings.hrc:85
 msgctxt "RID_STR_DOCUMENT_OBJECTS"
 msgid "Document Objects"
-msgstr "ドキュメントオブジェクト"
+msgstr "ドキュメント オブジェクト"
 
 #. N3DE8
 #: basctl/inc/strings.hrc:86
@@ -392,7 +392,7 @@ msgstr "フォーム"
 #: basctl/inc/strings.hrc:87
 msgctxt "RID_STR_MACRO_FROM"
 msgid "Macro From"
-msgstr ""
+msgstr "マクロ フォーム"
 
 #. fRFkA
 #: basctl/inc/strings.hrc:88
@@ -410,25 +410,25 @@ msgstr "モジュール"
 #: basctl/inc/strings.hrc:90
 msgctxt "RID_STR_CLASS_MODULES"
 msgid "Class Modules"
-msgstr "クラスモジュール"
+msgstr "クラス モジュール"
 
 #. 8gC8E
 #: basctl/inc/strings.hrc:91
 msgctxt "RID_STR_DLGIMP_CLASH_RENAME"
 msgid "Rename"
-msgstr "名前の変更"
+msgstr "変更"
 
 #. FCqSS
 #: basctl/inc/strings.hrc:92
 msgctxt "RID_STR_DLGIMP_CLASH_REPLACE"
 msgid "Replace"
-msgstr "置き換え"
+msgstr "置換"
 
 #. 5EucM
 #: basctl/inc/strings.hrc:93
 msgctxt "RID_STR_DLGIMP_CLASH_TITLE"
 msgid "Dialog Import - Name already used"
-msgstr "ダイアログインポート - 名前が使われている"
+msgstr "ダイアログ インポート - 名前が使われています"
 
 #. pkAvQ
 #: basctl/inc/strings.hrc:94
@@ -441,6 +441,12 @@ msgid ""
 "Choose “Rename” to give the imported dialog a new automatic name, or “Replace” to overwrite the existing dialog completely.\n"
 " "
 msgstr ""
+"ライブラリには、すでに存在する名前のダイアログが含まれています\n"
+"\n"
+"$(ARG1)\n"
+"\n"
+"[変更]を選択すると、インポートしたダイアログには新しく生成した名前がつけられます。[置換]を選択すると既存のダイアログを上書きして置き換えます。\n"
+" "
 
 #. FRQSJ
 #: basctl/inc/strings.hrc:95
@@ -518,7 +524,7 @@ msgstr "保存(~S)"
 #: basctl/inc/strings.hrc:105
 msgctxt "RID_STR_OBJECT_BROWSER"
 msgid "Object Browser"
-msgstr ""
+msgstr "オブジェクト ブラウザー"
 
 #. fpn5Z
 #: basctl/inc/strings.hrc:106
@@ -602,13 +608,13 @@ msgstr ""
 #: basctl/inc/strings.hrc:119
 msgctxt "RID_STR_OB_BACK_BUTTON"
 msgid "Back"
-msgstr ""
+msgstr "戻る"
 
 #. 8sApQ
 #: basctl/inc/strings.hrc:120
 msgctxt "RID_STR_OB_FORWARD_BUTTON"
 msgid "Forward"
-msgstr ""
+msgstr "進む"
 
 #. 6eZnt
 #. For Details Pane Formatting and Symbol Types
@@ -961,7 +967,7 @@ msgstr ""
 #: basctl/inc/strings.hrc:182
 msgctxt "RID_STR_READONLY_WARNING"
 msgid "This dialog is read-only and cannot be edited."
-msgstr ""
+msgstr "このダイアログは読み取り専用です。編集できません。"
 
 #. 56TVo
 #: basctl/inc/strings.hrc:183
@@ -980,43 +986,43 @@ msgstr ""
 #: basctl/inc/strings.hrc:187
 msgctxt "RID_STR_COLORSCHEME_DEFAULT"
 msgid "Default"
-msgstr ""
+msgstr "規定"
 
 #. q4Gvv
 #: basctl/inc/strings.hrc:188
 msgctxt "RID_STR_COLORSCHEME_LIGHT"
 msgid "%PRODUCTNAME Light"
-msgstr ""
+msgstr "%PRODUCTNAME Light"
 
 #. eFZzs
 #: basctl/inc/strings.hrc:189
 msgctxt "RID_STR_COLORSCHEME_DARK"
 msgid "%PRODUCTNAME Dark"
-msgstr ""
+msgstr "%PRODUCTNAME Dark"
 
 #. KdGGY
 #: basctl/inc/strings.hrc:190
 msgctxt "RID_STR_COLORSCHEME_BREEZE_LIGHT"
 msgid "Breeze Light"
-msgstr ""
+msgstr "Breeze Light"
 
 #. 6BvWp
 #: basctl/inc/strings.hrc:191
 msgctxt "RID_STR_COLORSCHEME_BREEZE_DARK"
 msgid "Breeze Dark"
-msgstr ""
+msgstr "Breeze Dark"
 
 #. gDC7e
 #: basctl/inc/strings.hrc:192
 msgctxt "RID_STR_COLORSCHEME_SOLARIZED_DARK"
 msgid "Solarized Dark"
-msgstr ""
+msgstr "Solarized Dark"
 
 #. xE2PU
 #: basctl/inc/strings.hrc:193
 msgctxt "RID_STR_COLORSCHEME_SOLARIZED_LIGHT"
 msgid "Solarized Light"
-msgstr ""
+msgstr "Solarized Light"
 
 #. wH3TZ
 msgctxt "stock"
@@ -1741,7 +1747,7 @@ msgstr "新規作成(_N)..."
 #: basctl/uiconfig/basicide/ui/modulepage.ui:167
 msgctxt "modulepage|extended_tip|newdialog"
 msgid "Lets you manage the macro libraries."
-msgstr "クロライブラリを管理します"
+msgstr "マクロライブラリを管理します。"
 
 #. LeigB
 #: basctl/uiconfig/basicide/ui/modulepage.ui:187
@@ -1807,7 +1813,7 @@ msgstr "新しいライブラリまたはモジュールの名前を入力しま
 #: basctl/uiconfig/basicide/ui/objectbrowser.ui:61
 msgctxt "objectbrowser|FilterBox"
 msgid "Search objects and members..."
-msgstr ""
+msgstr "オブジェクトとメンバーを検索..."
 
 #. hhVb5
 #: basctl/uiconfig/basicide/ui/objectbrowser.ui:75
@@ -1825,7 +1831,7 @@ msgstr ""
 #: basctl/uiconfig/basicide/ui/objectbrowser.ui:108
 msgctxt "objectbrowser|ScopeSelectorLabel"
 msgid "Scope:"
-msgstr ""
+msgstr "範囲:"
 
 #. TD2BL
 #: basctl/uiconfig/basicide/ui/objectbrowser.ui:152
@@ -1861,19 +1867,19 @@ msgstr "オブジェクト"
 #: basctl/uiconfig/basicide/ui/objectbrowser.ui:256
 msgctxt "ObjectBrowserPanel"
 msgid "Objects"
-msgstr ""
+msgstr "オブジェクト"
 
 #. PCBw5
 #: basctl/uiconfig/basicide/ui/objectbrowser.ui:303
 msgctxt "objectbrowser|RightPaneHeaderLabel"
 msgid "Members"
-msgstr ""
+msgstr "メンバー"
 
 #. PCjCR
 #: basctl/uiconfig/basicide/ui/objectbrowser.ui:334
 msgctxt "ObjectBrowserMembers"
 msgid "Members"
-msgstr ""
+msgstr "メンバー"
 
 #. xQiGu
 #: basctl/uiconfig/basicide/ui/objectbrowser.ui:387
