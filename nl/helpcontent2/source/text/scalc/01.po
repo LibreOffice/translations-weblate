@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2025-11-18 17:38+0100\n"
-"PO-Revision-Date: 2026-09-03 19:00+0000\n"
+"PO-Revision-Date: 2026-09-06 07:00+0000\n"
 "Last-Translator: kees538 <kees538@gmail.com>\n"
 "Language-Team: Dutch <https://translations.documentfoundation.org/projects/libo_help-26-2/textscalc01/nl/>\n"
 "Language: nl\n"
@@ -6008,7 +6008,7 @@ msgctxt ""
 "par_id3150654\n"
 "help.text"
 msgid "When entering dates as part of formulas, slashes or dashes used as date separators are interpreted as arithmetic operators. Therefore, dates entered in this format are not recognized as dates and result in erroneous calculations. To keep dates from being interpreted as parts of formulas use the DATE function, for example, DATE(1954;7;20), or place the date in quotation marks and use the ISO 8601 notation, for example, \"1954-07-20\". Avoid using locale dependent date formats such as \"07/20/54\", the calculation may produce errors if the document is loaded under different locale settings."
-msgstr "Wanneer u datums invoert als onderdeel van formules, worden schuine strepen of streepjes die als datumscheidingstekens worden gebruikt, geïnterpreteerd als rekenkundige operatoren. Datums die in deze opmaak worden ingevoerd, worden daarom niet als datum herkend en resulteren in foutieve berekeningen. Om te voorkomen dat datums als onderdeel van formules worden geïnterpreteerd, gebruikt u de functie DATUM, bijvoorbeeld DATUM(1954;7;20), of plaatst u de datum tussen aanhalingstekens en gebruikt u de ISO 8601-opmaak, bijvoorbeeld \"1954-07-20\". Vermijd het gebruik van taalinstellingafhankelijke datumopmaak zoals \"07/20/54\". De berekening kan fouten opleveren als het document met andere taalinstelling wordt geladen."
+msgstr " "
 
 #. ABYsg
 #: 04060102.xhp
@@ -6017,7 +6017,7 @@ msgctxt ""
 "par_id571535118151091\n"
 "help.text"
 msgid "Unambiguous conversion is possible for ISO 8601 dates and times in their extended formats with separators. If a <emph>#VALUE!</emph> error occurs, then unselect <emph>Generate #VALUE! error</emph> in <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Preferences</emph></caseinline><defaultinline><emph>Tools - Options</emph></defaultinline></switchinline> <emph>- %PRODUCTNAME Calc - Formula</emph>, button <emph>Details...</emph> in section \"Detailed Calculation Settings\", <emph>Conversion from text to number</emph> list box."
-msgstr "Eenduidige conversie is mogelijk voor ISO 8601-datums en -tijden in hun uitgebreide opmaak met scheidingstekens. Als er een <emph>#WAARDE!</emph>-fout optreedt, deselecteer dan <emph>Algemene fout #WAARDE!-fout</emph> in <switchinline select=\"sys\"><caseinline select=\"MAC\"><emph>%PRODUCTNAME - Voorkeuren</emph></caseinline><defaultinline><emph>Extra - Opties</emph></defaultinline></switchinline> <emph>- %PRODUCTNAME Calc - dialoogvenster Formule</emph>, knop <emph>Details...</emph> in  het gedeelte \"Gedetailleerde berekeningsinstellingen\", keuzerondje <emph>Conversie van tekst naar getallen</emph>."
+msgstr " "
 
 #. sJKAX
 #: 04060102.xhp
@@ -6404,7 +6404,7 @@ msgctxt ""
 "par_id3149406\n"
 "help.text"
 msgid "<emph>Frequency</emph> (required) is the number of interest payments per year (1, 2 or 4)."
-msgstr "<emph>Aantal rentebetalingen</emph> (verplicht) is het aantal rentebetalingen per jaar (1, 2 of 4)."
+msgstr "<emph>Frequentie</emph> (verplicht) per jaar (1, 2 of 4)."
 
 #. E3h2Z
 #: 04060103.xhp
@@ -6638,7 +6638,7 @@ msgctxt ""
 "hd_id3147556\n"
 "help.text"
 msgid "PV"
-msgstr "Huidige waarde"
+msgstr "HW"
 
 #. ajegN
 #: 04060103.xhp
@@ -6701,7 +6701,7 @@ msgctxt ""
 "par_id3146323\n"
 "help.text"
 msgid "<emph>Pmt</emph> is the regular payment made per period."
-msgstr "<emph>Aantal betalingsperiodes</emph> is het te betalen bedrag per periode."
+msgstr "<emph>Regelmatige betalingen</emph> is het te betalen bedrag per periode."
 
 #. e3Wbc
 #: 04060103.xhp
@@ -7403,7 +7403,7 @@ msgctxt ""
 "par_id3152797\n"
 "help.text"
 msgid "<item type=\"input\">=DISC(\"2001-01-25\";\"2001-11-15\";97;100;3)</item> returns about 0.0372 or 3.72 per cent."
-msgstr "<item type=\"input\">=DISCONTO(\"2001-01-25\";\"2001-11-15\")</item> geeft 0,03724 of 3,72 procent."
+msgstr "<item type=\"input\">=DISCONTO(\"2001-01-25\";\"2001-11-15\";97;100;3)</item> geeft 0,03724 of 3,72 procent."
 
 #. pLhCb
 #: 04060103.xhp
@@ -7439,7 +7439,7 @@ msgctxt ""
 "par_id3153373\n"
 "help.text"
 msgid "DURATION(Settlement; Maturity; Coupon; Yield; Frequency [; Basis])"
-msgstr "DUUR(Aankoopdatum; Vervaldatum; Nominale rente; Opbrengst; Aantal rentebetalingen; Soort jaar (optioneel)"
+msgstr "DUUR(Aankoopdatum; Vervaldatum; Nominale rente; Opbrengst; Frequentie; Soort jaar (optioneel)"
 
 #. JeeVp
 #: 04060103.xhp
@@ -20122,7 +20122,7 @@ msgctxt ""
 "par_idN107E7\n"
 "help.text"
 msgid "You may also use =ISLEAPYEAR(DATE(1968;2;29)) or =ISLEAPYEAR(\"1968-02-29\") giving the date string in the ISO 8601 notation."
-msgstr "U kunt ook ISSCHRIKKELJAAR(DATUM(1968;2;29)) of ISSCHRIKKELJAAR(DATUM(“1968-02-29”) gebruiken met een gegevensreeks volgens de ISO 8601-opmaak."
+msgstr "U kunt ook =ISSCHRIKKELJAAR(DATUM(1968;2;29)) of =ISSCHRIKKELJAAR(DATUM(“1968-02-29”) gebruiken met een gegevensreeks volgens de ISO 8601-opmaak."
 
 #. EDqrB
 #: 04060111.xhp
@@ -20212,7 +20212,7 @@ msgctxt ""
 "par_id871683137762172\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/YEARS\">YEARS wiki page</link>."
-msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/YEARS\">Wiki-pagina JAREN</link>."
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/YEARS/nl\">Wiki-pagina JAREN</link>."
 
 #. 3wsG2
 #: 04060111.xhp
@@ -20284,7 +20284,7 @@ msgctxt ""
 "par_id31683137789991\n"
 "help.text"
 msgid "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/MONTHS\">MONTHS wiki page</link>."
-msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/MONTHS\">Wiki-pagina MAANDEN</link>."
+msgstr "<link href=\"https://wiki.documentfoundation.org/Documentation/Calc_Functions/MONTHS/nl\">Wiki-pagina MAANDEN</link>."
 
 #. rEsia
 #: 04060111.xhp
@@ -20401,7 +20401,7 @@ msgctxt ""
 "par_id3153811\n"
 "help.text"
 msgid "=DAYSINYEAR(A1) returns 366 days if A1 contains 1968-02-29, a valid date for the year 1968."
-msgstr "=DAGENINJAAR(29-02-1968) geeft als uitkomst 365. =DAGENINJAAR(\"29-2-1968\") geeft als uitkomst 366."
+msgstr "=DAGENINJAAR(A1) geeft 366 dagen terug als A1 1968-02-29 bevat, een geldige datum voor februari 1968. De formule =DAGENINJAAR(\"1968-02-29\") geeft hetzelfde resultaat."
 
 #. nszrR
 #: 04060111.xhp
@@ -20464,7 +20464,7 @@ msgctxt ""
 "par_id3155742\n"
 "help.text"
 msgid "=DAYSINMONTH(A1) returns 29 days if A1 contains 1968-02-17, a valid date for February 1968."
-msgstr "=DAGENINMAAND(A1) geeft 29 dagen terug als A1 1968-02-17 bevat, een geldige datum voor februari 1968."
+msgstr "=DAGENINMAAND(A1) geeft 29 dagen terug als A1 1968-02-17 bevat, een geldige datum voor februari 1968. De formule =DAGENINMAAND(\"1968-02-17\") geeft hetzelfde resultaat."
 
 #. 38GRT
 #: 04060111.xhp
@@ -20680,7 +20680,7 @@ msgctxt ""
 "par_id3147614\n"
 "help.text"
 msgid "WEEKSINYEAR(A1) returns 53 if A1 contains 1970-02-17, a valid date for the year 1970."
-msgstr "=WEKENINJAAR(A1) geeft 53 terug als A1 1970-02-17 bevat, een geldige datum voor het jaar 1970."
+msgstr "=WEKENINJAAR(A1) geeft 53 terug als A1 1970-02-17 bevat, een geldige datum voor het jaar 1970. =WEKENINJAAR(\"1970-02-07\") geeft dezelfde uitkomst."
 
 #. D696p
 #: 04060111.xhp
@@ -24622,7 +24622,7 @@ msgctxt ""
 "par_id3152982\n"
 "help.text"
 msgid "ODDFYIELD(Settlement; Maturity; Issue; FirstCoupon; Rate; Price; Redemption; Frequency [; Basis])"
-msgstr "AFW.ET.REND(\"Aankoopdatum\"; \"Vervaldatum\"; \"Uitgiftedatum\"; Eerste renteperiode; Rente; Rendement; Aflossingsbedrag; Aantal rentebetalingen; Soort jaar (optioneel))"
+msgstr "AFW.ET.REND(\"Aankoopdatum\"; \"Vervaldatum\"; \"Uitgiftedatum\"; Eerste renteperiode; Rente; Prijs; Aflossingsbedrag; Aantal rentebetalingen; Soort jaar (optioneel))"
 
 #. nJXTW
 #: 04060118.xhp
@@ -24676,7 +24676,7 @@ msgctxt ""
 "par_id3146940\n"
 "help.text"
 msgid "<emph>Price</emph> is the price of the security."
-msgstr "<emph>Koers</emph> is de prijs van het waardepapier."
+msgstr "<emph>Prijs</emph> is de prijs van het waardepapier."
 
 #. Ue2Q4
 #: 04060118.xhp
@@ -24730,7 +24730,7 @@ msgctxt ""
 "par_id3155262\n"
 "help.text"
 msgid "ODDLPRICE(Settlement; Maturity; LastInterest; Rate; Yield; Redemption; Frequency [; Basis])"
-msgstr "AFW.LT.PRIJS(\"Aankoopdatum\"; \"Vervaldatum\"; \"Laatste renteperiode\"; Rente; Rendement; Aflossingsbedrag; Aantal rentebetalingen; Soort jaar (optioneel))"
+msgstr "AFW.LT.PRIJS(\"Aankoopdatum\"; \"Vervaldatum\"; \"Laatste renteperiode\"; Rente; Opbrengst; Aflossingsbedrag; Aantal rentebetalingen; Soort jaar (optioneel))"
 
 #. iTfu4
 #: 04060118.xhp
@@ -26143,7 +26143,7 @@ msgctxt ""
 "hd_id3151205\n"
 "help.text"
 msgid "FV"
-msgstr "Toekomstige waarde"
+msgstr "TW"
 
 #. wiBej
 #: 04060118.xhp
@@ -26224,7 +26224,7 @@ msgctxt ""
 "par_id3149302\n"
 "help.text"
 msgid "<input>=FV(4%;2;750;2500)</input> = -4234.00 currency units. The value at the end of the investment is 4234.00 currency units."
-msgstr "<input>=Toekomstige waarde(4%;2;750;2500)</input> = -4234,00 munteenheden. De waarde aan het einde van de investering is 4234,00 munteenheden."
+msgstr "<input>=TW(4%;2;750;2500)</input> = -4234,00 munteenheden. De waarde aan het einde van de investering is 4234,00 munteenheden."
 
 #. EGYDn
 #: 04060118.xhp
@@ -26260,7 +26260,7 @@ msgctxt ""
 "par_id3148891\n"
 "help.text"
 msgid "FVSCHEDULE(Principal; Schedule)"
-msgstr "TOEK.WAARDE2(Hoofdsom; Renteberekening)"
+msgstr "TOEK.WAARDE2(Hoofdsom; Rentes)"
 
 #. MFuL8
 #: 04060118.xhp
@@ -27439,7 +27439,7 @@ msgctxt ""
 "par_id3148480\n"
 "help.text"
 msgid "At an interest rate of 4.75%, a cash value of 25,000 currency units and a future value of 1,000,000 currency units, a duration of 79.49 payment periods is returned. The periodic payment is the resulting quotient from the future value and the duration, in this case 1,000,000/79.49=12,850.20."
-msgstr "Bij een rente van 4,75%, een contante geldswaarde van 25000 valuta-eenheden en een toekomstige waarde van 1000000 valuta-eenheden wordt een looptijd van 79,49 (afgerond) betalingstermijnen berekend. De periodieke betaling is het resulterende quotiënt van de toekomstige waarde en de looptijd, d.w.z. 1000000/79,49=12850,20 (afgerond)."
+msgstr "Bij een rente van 4,75%, een contante geldswaarde van 25000 valuta-eenheden en een toekomstige waarde van 1000000 valuta-eenheden wordt een looptijd van 79,49 (afgerond) betalingstermijnen berekend. De periodieke betaling is het resulterende quotiënt van de toekomstige waarde en de looptijd, d.w.z. 1000000/79,49=12850,20 (afgerond). Formule: =PDUUR(4,75%;25000;1000000)."
 
 #. kv4Pb
 #: 04060119.xhp
@@ -27556,7 +27556,7 @@ msgctxt ""
 "par_id3148987\n"
 "help.text"
 msgid "MDURATION(Settlement; Maturity; Coupon; Yield; Frequency [; Basis])"
-msgstr "AANG.DUUR(“Aankoopdatum”; “Vervaldatum”; Nominale rente; Rendement; Aantal rentebetalingen; Soort jaar (optioneel)"
+msgstr "AANG.DUUR(“Aankoopdatum”; “Vervaldatum”; Coupon; Opbrengst; Aantal rentebetalingen; Soort jaar (optioneel)"
 
 #. xTn69
 #: 04060119.xhp
@@ -27583,7 +27583,7 @@ msgctxt ""
 "par_id3154338\n"
 "help.text"
 msgid "<emph>Coupon</emph> is the annual nominal rate of interest (coupon interest rate)"
-msgstr "<emph>Nominale rente</emph> is de jaarlijkse nominale rentekoers (coupon rentekoers)."
+msgstr "<emph>Coupon</emph> is de jaarlijkse nominale rentekoers (coupon rentekoers)."
 
 #. 5NyMh
 #: 04060119.xhp
@@ -28051,7 +28051,7 @@ msgctxt ""
 "par_id3147352\n"
 "help.text"
 msgid "Assuming a cell content of A1 = <item type=\"input\">-5</item>, A2 = <item type=\"input\">10</item>, A3 = <item type=\"input\">15</item>, and A4 = <item type=\"input\">8</item>, and an investment value of 0.5 and a reinvestment value of 0.1, the result is 94.16%."
-msgstr "Aannemende dat de celinhoud van A1 = <item type=\"input\">-5</item>, A2 = <item type=\"input\">10</item>, A3 = <item type=\"input\">15</item> en A4 = <item type=\"input\">8</item> is en een investeringswaarde van 0,5 en een herinvesteringswaarde van 0,1, is het resultaat 94,16%."
+msgstr "Aannemende dat de celinhoud van A1 = <item type=\"input\">-5</item>, A2 = <item type=\"input\">10</item>, A3 = <item type=\"input\">15</item> en A4 = <item type=\"input\">8</item> is en een investeringswaarde van 0,5 en een herinvesteringswaarde van 0,1, is het resultaat 94,16%. Formule: =GIR(A$1:A$4;0,5;0,1)."
 
 #. jJV3r
 #: 04060119.xhp
@@ -28069,7 +28069,7 @@ msgctxt ""
 "hd_id3149323\n"
 "help.text"
 msgid "YIELD"
-msgstr "OPBRENGST"
+msgstr "RENDEMENT"
 
 #. Ssro5
 #: 04060119.xhp
@@ -28159,7 +28159,7 @@ msgctxt ""
 "par_id3154194\n"
 "help.text"
 msgid "<input>=YIELD(\"1999-02-15\"; \"2007-11-15\"; 0.0575 ;95.04287; 100; 2; 0)</input>  returns 0.065 or 6.50 per cent."
-msgstr "<input>=OPBRENGST(\"1999-02-15\"; \"2007-11-15\"; 0,0575 ;95,04287; 100; 2; 0)</input>  retourneert 0,065 of 6,50 (afgerond) per cent."
+msgstr "<input>=RENDEMENT(\"1999-02-15\"; \"2007-11-15\"; 0,0575 ;95,04287; 100; 2; 0)</input>  retourneert 0,065 of 6,50 (afgerond) per cent."
 
 #. AeJmf
 #: 04060119.xhp
@@ -51793,7 +51793,7 @@ msgctxt ""
 "hd_id301640873452726\n"
 "help.text"
 msgid "Technical information"
-msgstr "Technische informatie"
+msgstr " "
 
 #. RAbtL
 #: common_func.xhp
@@ -51811,7 +51811,7 @@ msgctxt ""
 "par_id251640873774457\n"
 "help.text"
 msgid "This function is <emph>NOT</emph> part of the <emph>Open Document Format for Office Applications (OpenDocument) Version 1.3. Part 4: Recalculated Formula (OpenFormula) Format</emph> standard. The name space is"
-msgstr "Deze functie maakt <emph>GEEN</emph> deel uit van de standaard <emph>Open Document Format for Office Applications (OpenDocument) Versie 1.3. Deel 4: Herberekende formule (OpenFormula)-indeling</emph>. De naamruimte is"
+msgstr "Deze functie maakt <emph>GEEN</emph> deel uit van de standaard <emph>Open Document-indeling voor kantoortoepassingen (OpenDocument) Versie 1.3. Deel 4: Recalculated Formula (OpenFormula)-indeling</emph>. De naamruimte is"
 
 #. rBWwb
 #: common_func.xhp
@@ -55483,7 +55483,7 @@ msgctxt ""
 "hd_id126511265112651\n"
 "help.text"
 msgid "Syntax"
-msgstr "Syntaxis"
+msgstr " "
 
 #. GAZG2
 #: ful_func.xhp
@@ -55492,7 +55492,7 @@ msgctxt ""
 "hd_id980889808898088\n"
 "help.text"
 msgid "Examples"
-msgstr "Voorbeelden"
+msgstr " "
 
 #. jug32
 #: ful_func.xhp
@@ -60748,7 +60748,7 @@ msgctxt ""
 "par_id3352589\n"
 "help.text"
 msgid "<item type=\"input\">=DATEDIF(DATE(1974,4,17);\"2012-06-13\";\"m\")</item> yields 457, he has been living for 457 months."
-msgstr "<item type=\"input\">=DATUMVERSCHIL(\"1974-04-17\"; 41073; \"d\")</item> geeft 457, hij leeft dus reeds 457 maanden."
+msgstr "<item type=\"input\">=DATUMVERSCHIL(\"1974-04-17\"; 41073; \"m\")</item> geeft 457, hij leeft dus reeds 457 maanden."
 
 #. tFAxV
 #: func_datedif.xhp
@@ -61126,7 +61126,7 @@ msgctxt ""
 "par_id3156348\n"
 "help.text"
 msgid "<item type=\"input\">=DAYS360(\"2000-01-01\";NOW())</item> returns the number of interest days from January 1, 2000 until today."
-msgstr "<item type=\"input\">=DAGEN360(\"2000-01-01\";NU()</item> geeft het aantal dagen terug vanaf 1 januari 2010 tot vandaag."
+msgstr "<item type=\"input\">=DAGEN360(\"2000-01-01\";NU())</item> geeft het aantal dagen terug vanaf 1 januari 2010 tot vandaag."
 
 #. TEfFi
 #: func_days360.xhp
@@ -61549,7 +61549,7 @@ msgctxt ""
 "par_id3150940\n"
 "help.text"
 msgid "<item type=\"input\">=EASTERSUNDAY(2000)+49</item>  returns the internal serial number 36688. The result is 2000-06-11. Format the serial date number as a date, for example in the format YYYY-MM-DD."
-msgstr "<item type=\"input\">=EERSTEPAASDAG(2000)+49</item> geeft het interne seriële getal 36688 terug. Het resultaat is 11-06-2000. Maak het seriële datumgetal op als een datum, bijvoorbeeld in de opmaak JJJJ-MM-DD."
+msgstr "<item type=\"input\">=EERSTEPAASDAG(2000)+49</item> geeft het interne seriële getal 36688 terug. Het resultaat is 11-06-2000. Maak het seriële datumgetal op als een datum, bijvoorbeeld in de opmaak DD-MM-JJJJ."
 
 #. 2XGLn
 #: func_eastersunday.xhp
@@ -61639,7 +61639,7 @@ msgctxt ""
 "par_id3155999\n"
 "help.text"
 msgid "<item type=\"input\">=EDATE(\"2001-03-31\";-1)</item> returns the serial number 36950. Formatted as a date, this is 2001-02-28."
-msgstr "<item type=\"input\">=ZELFDE.DAG(\"2001-03-31\";-1)</item> geeft het serienummer 36950. Als datum opgemaakt is dit 2001-02-28."
+msgstr "<item type=\"input\">=ZELFDE.DAG(\"2001-03-31\";-1)</item> geeft het serienummer 36950. Als datum opgemaakt is dit 2001-02-28. Als B1 de datum 2001-03-31 bevat heeft de formule =ZELFDE.DAG(B1;-1) hetzelfde resultaat."
 
 #. DmuRa
 #: func_edate.xhp
@@ -64204,7 +64204,7 @@ msgctxt ""
 "par_id3159215\n"
 "help.text"
 msgid "<item type=\"input\">=HOUR(NOW())</item> returns the current hour"
-msgstr "<item type=\"input\">=UUR(NU())</item> geeft het huidige uur terug"
+msgstr "<item type=\"input\">=UUR(\"17:20:00\")</item> geeft 17 terug"
 
 #. ezUKF
 #: func_hour.xhp
@@ -67039,7 +67039,7 @@ msgctxt ""
 "par_id3148463\n"
 "help.text"
 msgid "<item type=\"input\">=MINUTE(8.999)</item> returns 58"
-msgstr "<item type=\"input\">=MINUUT(8,999)</item> geeft 58 terug"
+msgstr "<item type=\"input\">=MINUUT(\"13:19:59\")</item> geeft 19 terug"
 
 #. Q9MMh
 #: func_minute.xhp
@@ -67048,7 +67048,7 @@ msgctxt ""
 "par_id3149419\n"
 "help.text"
 msgid "<item type=\"input\">=MINUTE(8.9999)</item> returns 59"
-msgstr "<item type=\"input\">=MINUUT(8,9999)</item> geeft 59 terug"
+msgstr "Als in C1 het datum-tijd-serienummer 2021-02-15T13:19:59 staat, wordt 19 teruggegeven met de formule <item type=\"input\">=MINUUT(C1)</item>"
 
 #. A3T6A
 #: func_minute.xhp
@@ -67138,7 +67138,7 @@ msgctxt ""
 "par_id3149244\n"
 "help.text"
 msgid "<item type=\"input\">=MONTH(NOW())</item>  returns the current month."
-msgstr "<item type=\"input\">=MAAND(NU())</item>  geeft de huidige maand."
+msgstr "<item type=\"input\">=MAAND(\"2021-02-11\")</item>  geeft 2 terug."
 
 #. BD2Ww
 #: func_month.xhp
@@ -67147,7 +67147,7 @@ msgctxt ""
 "par_id3154790\n"
 "help.text"
 msgid "<item type=\"input\">=MONTH(C4)</item>  returns 7 if you enter 2000-07-07 to cell C4 (that date value might get formatted differently after you press Enter)."
-msgstr "<item type=\"input\">=MAAND(C4)</item> geeft 7 terug als u 2000-07-07 invoert in cel C4 (de datumwaarde zou anders opgemaakt kunnen worden nadat u op Enter heeft gedrukt)."
+msgstr "<item type=\"input\">=MAAND(B1)</item> waarbij cel B1 de datum bevat 2021-02-11 geeft 2 terug."
 
 #. J9sqE
 #: func_month.xhp
@@ -67390,7 +67390,7 @@ msgctxt ""
 "par_id3147328\n"
 "help.text"
 msgid "<item type=\"input\">=NETWORKDAYS(C3;D3;F3:J3)</item> returns 17 workdays."
-msgstr "<item type=\"input\">=NETTO.WERKDAGEN</item>(C3;D3;F3:J3) geeft 22 werkdagen."
+msgstr "<item type=\"input\">=NETTO.WERKDAGEN(C3;D3;F3:J3)</item> geeft 17 werkdagen."
 
 #. DxQVm
 #: func_networkdays.xhp
@@ -69847,7 +69847,7 @@ msgctxt ""
 "par_id3153350\n"
 "help.text"
 msgid "<item type=\"input\">=SECOND(NOW())</item> returns the current second"
-msgstr "<item type=\"input\">=SECONDE(NU())</item> geeft de huidige seconde terug"
+msgstr "<item type=\"input\">=SECONDE(\"2021-02-15T16:19:12\")</item> geeft 12 terug"
 
 #. CWx25
 #: func_second.xhp
@@ -69856,7 +69856,7 @@ msgctxt ""
 "par_id3150831\n"
 "help.text"
 msgid "<item type=\"input\">=SECOND(C4)</item> returns 17 if contents of C4 = <item type=\"input\">12:20:17</item>."
-msgstr "<item type=\"input\">=SECONDE(C4)</item> geeft 17 terug als de inhoud van C4 = <item type=\"input\">12:20:17</item>."
+msgstr "Als in C1 het datum-tijd-serienummer <item type=\"input\">2021-02-15T16:19:12</item> staat, wordt 12 teruggegeven met de formule <item type=\"input\">=SECONDE(C1)</item>."
 
 #. EphCW
 #: func_second.xhp
@@ -74104,7 +74104,7 @@ msgctxt ""
 "par_id3150704\n"
 "help.text"
 msgid "<item type=\"input\">=WEEKNUM(DATE(1995;1;1);1)</item>  returns 1"
-msgstr "<item type=\"input\">=WEEKNUMMER(DATUM(1995;1;1);1)</item>  geeft 1"
+msgstr "Als B1 de datum 1995-01-01 bevat geeft de formule <item type=\"input\">=WEEKNUMMER(B1)</item> het getal 1 terug."
 
 #. ADL9J
 #: func_weeknum.xhp
@@ -74113,7 +74113,7 @@ msgctxt ""
 "par_id3149792\n"
 "help.text"
 msgid "<item type=\"input\">=WEEKNUM(DATE(1995;1;1);2)</item>  returns 1. Using System 1, the week containing January 1 is the first week of the year."
-msgstr "<item type=\"input\">=WEEKNUMMER(DATUM(1995;1;1);2)</item>  geeft 1 terug. Bij gebruik van Systeem 1 is de week met 1 januari de eerste week van het jaar."
+msgstr "<item type=\"input\">=WEEKNUMMER(\"1995-01-01\";1)</item>  geeft 1 terug. Bij gebruik van Modus 1 is de week met 1 januari de eerste week van het jaar."
 
 #. yBDGQ
 #: func_weeknum.xhp
@@ -74122,7 +74122,7 @@ msgctxt ""
 "par_id3149793\n"
 "help.text"
 msgid "<item type=\"input\">=WEEKNUM(DATE(1995;1;1);21)</item>  returns 52. Week 1 starts on Monday, 1995-01-02."
-msgstr "<item type=\"input\">=WEEKNUMMER(DATUM(1995;1;1);21)</item> geeft 52. Week 1 start op maandag, 02-01-1995."
+msgstr "<item type=\"input\">=WEEKNUMMER(\"1995-01-01\";21)</item> geeft 52. Week 1 start op maandag, 02-01-1995."
 
 #. BMbyY
 #: func_weeknum.xhp
@@ -74131,7 +74131,7 @@ msgctxt ""
 "par_id3149794\n"
 "help.text"
 msgid "<item type=\"input\">=WEEKNUM(DATE(1999;1;1);21)</item>  returns 53. Week 1 starts on Monday, 1999-01-04."
-msgstr "<item type=\"input\">=WEEKNUMMER(DATUM(1999;1;1);21)</item> geeft 53. Week 1 start op maandag, 04-01-1999."
+msgstr "<item type=\"input\">=WEEKNUMMER(\"1999-01-01\";21)</item> geeft 53. Week 1 start op maandag, 04-01-1999."
 
 #. cknMt
 #: func_weeknum.xhp
@@ -74167,7 +74167,7 @@ msgctxt ""
 "hd_id3159161\n"
 "help.text"
 msgid "<variable id=\"weeknum_ooo\"><link href=\"text/scalc/01/func_weeknum_ooo.xhp\">WEEKNUM_OOO</link></variable>"
-msgstr "<variable id=\"weeknum_ooo\"><link href=\"text/scalc/01/func_weeknum_ooo.xhp\">WEEKNUMMER_OOO</link></variable>"
+msgstr " "
 
 #. 7iF3F
 #: func_weeknum_ooo.xhp
@@ -74176,7 +74176,7 @@ msgctxt ""
 "par_id3149770\n"
 "help.text"
 msgid "<ahelp hid=\"HID_FUNC_WEEKNUM_OOO\">WEEKNUM_OOO calculates the week number of the year for the internal date value.</ahelp>"
-msgstr "<ahelp hid=\"HID_FUNC_WEEKNUM_OOO\">Met WEEKNUMMER_OOO wordt het weeknummer berekend van het jaar voor de interne datumwaarde.</ahelp>"
+msgstr " "
 
 #. B9He5
 #: func_weeknum_ooo.xhp
@@ -74185,7 +74185,7 @@ msgctxt ""
 "par_idN105E4\n"
 "help.text"
 msgid "This function exists for interoperability with %PRODUCTNAME releases older than 5.1.0 and OpenOffice.org. It calculates week numbers for a week numbering system in that week number 1 is the week that contains the January 4th. This function does not provide interoperability with other spreadsheet applications. For new documents use the <link href=\"text/scalc/01/func_weeknum.xhp\">WEEKNUM</link> or <link href=\"text/scalc/01/func_isoweeknum.xhp\">ISOWEEKNUM</link> function instead."
-msgstr "Deze functie is bedoelt voor uitwisselbaarheid met %PRODUCTNAME versies ouder dan 5.1.0 en OpenOffice.org. Het berekent weeknummers voor een weeknummer-systeem waarin week 1 de datum 4 januari bevat. Deze functie is niet uitwisselbaar met andere werkbladtoepassingen. Gebruik voor nieuwere documenten de functie <link href=\"text/scalc/01/func_weeknum.xhp\">WEEKNUMMER</link> of<link href=\"text/scalc/01/func_isoweeknum.xhp\">ISO.WEEKNUMMER</link>."
+msgstr " "
 
 #. rTYE7
 #: func_weeknum_ooo.xhp
@@ -74203,7 +74203,7 @@ msgctxt ""
 "par_id3147511\n"
 "help.text"
 msgid "<emph>Number</emph> is the internal date number."
-msgstr "<emph>Getal</emph> is het interne datumgetal."
+msgstr " "
 
 #. t6K5q
 #: func_weeknum_ooo.xhp
@@ -74212,7 +74212,7 @@ msgctxt ""
 "par_id3154269\n"
 "help.text"
 msgid "<emph>Mode</emph> sets the start of the week and the calculation type."
-msgstr "<emph></emph>"
+msgstr " "
 
 #. Fhoer
 #: func_weeknum_ooo.xhp
@@ -74221,7 +74221,7 @@ msgctxt ""
 "par_id3148930\n"
 "help.text"
 msgid "1 = Sunday"
-msgstr "1= Zondag"
+msgstr " "
 
 #. 6VBHS
 #: func_weeknum_ooo.xhp
@@ -74230,7 +74230,7 @@ msgctxt ""
 "par_id3154280\n"
 "help.text"
 msgid "2 = Monday (ISO 8601)"
-msgstr "2 = Maandag (ISO 8601)"
+msgstr " "
 
 #. Fw3wN
 #: func_weeknum_ooo.xhp
@@ -74239,7 +74239,7 @@ msgctxt ""
 "par_id3154281\n"
 "help.text"
 msgid "any other value = Monday (ISO 8601)"
-msgstr "elke andere waarde = maandag (ISO 8601)"
+msgstr " "
 
 #. 9DDAr
 #: func_weeknum_ooo.xhp
@@ -74248,7 +74248,7 @@ msgctxt ""
 "par_id3150704\n"
 "help.text"
 msgid "<item type=\"input\">=WEEKNUM_OOO(DATE(1995;1;1);1)</item>  returns 1"
-msgstr "<item type=\"input\"></item>"
+msgstr " "
 
 #. ZNtES
 #: func_weeknum_ooo.xhp
@@ -74257,7 +74257,7 @@ msgctxt ""
 "par_id3149792\n"
 "help.text"
 msgid "<item type=\"input\">=WEEKNUM_OOO(DATE(1995;1;1);2)</item>  returns 52. Week 1 starts on Monday, 1995-01-02."
-msgstr "<item type=\"input\">=WEEKNUMMER_OOO(DATUM(1995;1;1);1)</item> geeft 52. Week 1 start op maandag, 02-01-1995."
+msgstr " "
 
 #. Eprih
 #: func_weeknum_ooo.xhp
@@ -74320,7 +74320,7 @@ msgctxt ""
 "par_id3153685\n"
 "help.text"
 msgid "WEEKNUM_EXCEL2003(Date; ReturnType)"
-msgstr "WEEKNUMMER_EXCEL2003(Datum; Resultaattype)"
+msgstr "WEEKNUMMER_EXCEL2003(“Datum”; Retourtype)"
 
 #. z7Axj
 #: func_weeknumadd.xhp
@@ -74338,7 +74338,7 @@ msgctxt ""
 "par_id3154098\n"
 "help.text"
 msgid "<emph>ReturnType</emph> is 1 for week beginning on a Sunday, 2 for week beginning on a Monday."
-msgstr "<emph>Resultaattype</emph> is 1 voor een week die begint op een zondag, 2 voor een week die begint op een maandag."
+msgstr "<emph>Retourtype</emph> is 1 voor een week die begint op een zondag, 2 voor een week die begint op een maandag."
 
 #. wEqPH
 #: func_weeknumadd.xhp
@@ -74356,7 +74356,7 @@ msgctxt ""
 "par_id3149914\n"
 "help.text"
 msgid "<item type=\"input\">=WEEKNUM_EXCEL2003(DATE(2001;12;24);1)</item> returns 52."
-msgstr "<item type=\"input\">=WEEKNUMMER_EXCEL2003(DATUM(2001;12;24);1)</item> geeft 52."
+msgstr "<item type=\"input\">=WEEKNUMMER_EXCEL2003(“2001-12-24”);1)</item> geeft 52."
 
 #. AL2ar
 #: func_weeknumadd.xhp
@@ -74410,7 +74410,7 @@ msgctxt ""
 "par_id241020160008306838\n"
 "help.text"
 msgid "WORKDAY.INTL(StartDate; Days [; Weekend [; Holidays]])"
-msgstr "WERKDAGEN.INTL(Begindatum; Dagen; Weekeinde (optioneel); Geen werkdagen (optioneel))"
+msgstr "WERKDAG.INTL(Begindatum; Dagen; Weekeinde (optioneel); Geen werkdagen (optioneel))"
 
 #. gJg5G
 #: func_workday.intl.xhp
@@ -74464,7 +74464,7 @@ msgctxt ""
 "par_id241020160012177923\n"
 "help.text"
 msgid "<item type=\"input\">=WORKDAY.INTL(C3;D3;;F3:J3)</item> returns January 11, 2017 in the result cell, say D6 (use date format for the cell)."
-msgstr "<item type=\"input\">=WERKDAGEN.INTL(C3;D3;;F3:J3)</item> geeft 11 januari 2017 terug in de resultaatcel D6 (gebruik datumopmaak voor deze cel)."
+msgstr "<item type=\"input\">=WERKDAG.INTL(C3;D3;;F3:J3)</item> geeft 11 januari 2017 terug in de resultaatcel D6 (gebruik datumopmaak voor deze cel)."
 
 #. LGcmi
 #: func_workday.intl.xhp
@@ -74482,7 +74482,7 @@ msgctxt ""
 "par_id241020160012178562\n"
 "help.text"
 msgid "<item type=\"input\">=WORKDAY.INTL(C3;D3;7;F3:J3)</item> returns January 15, 2017 with weekend parameter 7."
-msgstr "<item type=\"input\">=WERKDAGEN.INTL(C3;D3;7;F3:J3)</item> geeft 15 januari 2017 met als weekeindeparameter 7."
+msgstr "<item type=\"input\">=WERKDAG.INTL(C3;D3;7;F3:J3)</item> geeft 15 januari 2017 met als weekeindeparameter 7."
 
 #. gdAdN
 #: func_workday.intl.xhp
@@ -74500,7 +74500,7 @@ msgctxt ""
 "par_id241020160012181455\n"
 "help.text"
 msgid "<item type=\"input\">=WORKDAY.INTL(C3;D3;11;F3:J3)</item> returns January 9, 2017."
-msgstr "<item type=\"input\">=WERKDAGEN.INTL(C3;D3;11;F3:J3)</item> geeft 9 januari 2017."
+msgstr "<item type=\"input\">=WERKDAG.INTL(C3;D3;11;F3:J3)</item> geeft 9 januari 2017."
 
 #. ySGjs
 #: func_workday.intl.xhp
@@ -74536,7 +74536,7 @@ msgctxt ""
 "par_id241020160012182048\n"
 "help.text"
 msgid "<item type=\"input\">=WORKDAY.INTL(C3;D3)</item> gives the result: January 10, 2017."
-msgstr "<item type=\"input\">=WERKDAGEN.INTL(C3;D3)</item> geeft als resultaat: 10 januari 2017."
+msgstr "<item type=\"input\">=WERKDAG.INTL(C3;D3)</item> geeft als resultaat: 10 januari 2017."
 
 #. 6F9Ck
 #: func_workday.intl.xhp
@@ -74626,7 +74626,7 @@ msgctxt ""
 "par_id3152782\n"
 "help.text"
 msgid "What date came 17 workdays after 1 December 2001? Enter the start date \"2001-12-01\" in C3 and the number of workdays in D3. Cells F3 to J3 contain the following Christmas and New Year holidays: \"2001-12-24\", \"2001-12-25\", \"2001-12-26\", \"2001-12-31\", \"2002-01-01\"."
-msgstr "Welke datum kwam 17 werkdagen na 1 december 2001? Voer de begindatum \"2001-12-01\" in C3 en het aantal werkdagen in D3 in. Cellen F3 tot en met J3 bevatten de volgende Geen werkdagen voor Kerst en Nieuwjaar: \"2001-12-01 – 2001-12-24, 2001-12-25; 2001-12-26; 2001-12-31 en 2002-01-01\"."
+msgstr "Welke datum kwam 17 werkdagen na 1 december 2001? Voer de begindatum 2001-12-01 in C3 en het aantal werkdagen in D3 in. Cellen F3 tot en met J3 bevatten de volgende Geen werkdagen voor Kerst en Nieuwjaar: 2001-12-24, 2001-12-25; 2001-12-26; 2001-12-31 en 2002-01-01\"."
 
 #. FowYw
 #: func_workday.xhp
@@ -75292,7 +75292,7 @@ msgctxt ""
 "par_id3154304\n"
 "help.text"
 msgid "YEAR(Number)"
-msgstr "JAAR(Getal)"
+msgstr "JAAR(Datum)"
 
 #. dX9B6
 #: func_year.xhp
@@ -75301,7 +75301,7 @@ msgctxt ""
 "par_id3156013\n"
 "help.text"
 msgid "<emph>Number</emph> shows the internal date value for which the year is to be returned."
-msgstr "<emph>Getal</emph> toont de interne datumwaarde waarvoor het jaar geretourneerd moet worden."
+msgstr "<emph>Datum</emph> toont de datum of de interne datumwaarde waarvoor het jaar geretourneerd moet worden."
 
 #. 3XHAE
 #: func_year.xhp
@@ -75319,7 +75319,7 @@ msgctxt ""
 "par_id3145668\n"
 "help.text"
 msgid "<item type=\"input\">=YEAR(1)</item> returns 1899"
-msgstr "<item type=\"input\">=JAAR(1)</item> geeft 1899 terug"
+msgstr "<item type=\"input\">=JAAR(1)</item> of <item type=\"input\">=JAAR(\"1899-02-27\")</item> geeft 1899 terug"
 
 #. EVA6h
 #: func_year.xhp
@@ -75328,7 +75328,7 @@ msgctxt ""
 "par_id3151168\n"
 "help.text"
 msgid "<item type=\"input\">=YEAR(2)</item> returns 1900"
-msgstr "<item type=\"input\">=JAAR(2)</item> geeft 1900 terug"
+msgstr "<item type=\"input\">=JAAR(B1)</item> geeft 1900 terug als cel B1 het getal 2 of de datum 1900-04-02 bevat"
 
 #. umB3f
 #: func_year.xhp
