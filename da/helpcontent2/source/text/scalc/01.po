@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2026-08-14 19:47+0200\n"
-"PO-Revision-Date: 2026-09-22 05:00+0000\n"
+"PO-Revision-Date: 2026-09-23 06:00+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/da/>\n"
 "Language: da\n"
@@ -56788,7 +56788,7 @@ msgctxt ""
 "par_id941785792543788\n"
 "help.text"
 msgid "Monday, August 3, 2026"
-msgstr "Mandag, 3. august, 2026"
+msgstr "mandag 3. august 2026"
 
 #. hfadC
 #: func_array2text.xhp
@@ -57715,7 +57715,7 @@ msgctxt ""
 "par_id311784057872073\n"
 "help.text"
 msgid "The formula <input>=BYCOL(A2:C13;LAMBDA(class;AVERAGE(class)))</input>  return the array"
-msgstr "Formlen <input>=EFTERKOLONNE(A2:C13;LAMBDA(klasse;MIDDEL(klasse)))</input> returnerer matricen"
+msgstr "Formlen <input>=EFTERKOLONNE(A2:C13;LAMBDA(fag;MIDDEL(fag)))</input> returnerer matricen"
 
 #. VMf5D
 #: func_bycol.xhp
@@ -57832,7 +57832,7 @@ msgctxt ""
 "par_id311784057872073\n"
 "help.text"
 msgid "The formula <input>=BYROW(A2:C13;LAMBDA(student;MAX(student)))</input>  return the array"
-msgstr "Formlen <input>=EFTERRÆKKE(A2:C13;LAMBDA(student;MAKS(student)))</input> returnerer matricen"
+msgstr "Formlen <input>=EFTERRÆKKE(A2:C13;LAMBDA(elev;MAKS(elev)))</input> returnerer matricen"
 
 #. GuXrL
 #: func_byrow.xhp
@@ -66573,7 +66573,7 @@ msgctxt ""
 "par_id501783717973525\n"
 "help.text"
 msgid "<input>=LAMBDA(_n1; _n2; IF(ISOMITTED(_n2), \"Missing second parameter\"; _n1/_n2))</input>"
-msgstr ""
+msgstr "<input>=LAMBDA(_n1;_n2;HVIS(ER.UDELADT(_n2);\"Manglende parameter nr. to\";_n1/_n2))</input>"
 
 #. Bet2e
 #: func_lambda.xhp
@@ -67473,7 +67473,7 @@ msgctxt ""
 "par_id501784128035012\n"
 "help.text"
 msgid "The formula <input>=MAKEARRAY(5;5;LAMBDA(r;c;IF(r=c;1;0)))</input> creates a 5x5 identity matrix (it is the same result of the function <input>=MUNIT(5)</input>)."
-msgstr ""
+msgstr "Formlen <input>=OPRETMATRIX(5;5;LAMBDA(r;k;HVIS(r=k;1;0)))</input> opretter en 5x5 identitetsmatrix (det er samme resultat som fra funktionen <input>=MENHED(5)</input>)."
 
 #. BJvCZ
 #: func_makearray.xhp
@@ -67482,7 +67482,7 @@ msgctxt ""
 "par_id881784128796025\n"
 "help.text"
 msgid "The formula <input>=MAKEARRAY(5;8;(LAMBDA(r;c;\"@@@\")))</input>  creates a 5x8 array filled with the string \"@@@\"."
-msgstr ""
+msgstr "Formlen <input>=OPRETMATRIX(5;8;(LAMBDA(r;k;\"@@@\")))</input> opretter en 5x8 matrix fyld med strengen \"@@@\"."
 
 #. naGaz
 #: func_makearray.xhp
@@ -67491,7 +67491,7 @@ msgctxt ""
 "par_id401784136471565\n"
 "help.text"
 msgid "The formula <input>=MAKEARRAY(1;7;LAMBDA(r;c;c))</input>  creates a one row array filled with numbers 1 to 7."
-msgstr ""
+msgstr "Formlen <input>=OPRETMATRIX(1;7;LAMBDA(r;k;k))</input> opretter en rækkematrix udfyldt med tallene 1 til 7."
 
 #. tCA8B
 #: func_makearray.xhp
@@ -67581,7 +67581,7 @@ msgctxt ""
 "par_id641784116556595\n"
 "help.text"
 msgid "The formula <input>=MAP(A2:C13;LAMBDA(var;var*3))</input> returns an array of same dimensions where each element of the source array is multiplied by 3."
-msgstr ""
+msgstr "Formlen <input>=AFBILD(A2:C13;LAMBDA(var;var*3))</input> returnerer en matrix af samme dimensioner, hvor hvert element i kildematricen er multipliceret med 3."
 
 #. DYYKJ
 #: func_map.xhp
@@ -69921,7 +69921,7 @@ msgctxt ""
 "par_id821784149440908\n"
 "help.text"
 msgid "The formula <input>=REDUCE(100000;A2:A13;LAMBDA(a;v; a + v*v))</input>  returns 120715, which is 100000 added to the sum of the squares of the <emph>Math</emph> column."
-msgstr ""
+msgstr "Formlen <input>=REDUCER(100000;A2:A13;LAMBDA(a;v; a + v*v))</input> returnerer 120715, hvilket er 100000 plus summen af kvadraterne på tallene i kolonnen <emph>Matematik</emph>."
 
 #. LvbGq
 #: func_reduce.xhp
@@ -71075,7 +71075,7 @@ msgctxt ""
 "par_id141784159459399\n"
 "help.text"
 msgid "The formula <input>=SCAN(0;A2:C2;LAMBDA(a;v;a+v))</input> returns the array"
-msgstr ""
+msgstr "Formlen <input>=SCAN(0;A2:C2;LAMBDA(a;v;a+v))</input> returnerer matricen"
 
 #. HuKUU
 #: func_scan.xhp
@@ -71084,7 +71084,7 @@ msgctxt ""
 "par_id131784153551225\n"
 "help.text"
 msgid "which correspond to A2, A2+B2 and A2+B2+C2, respectively."
-msgstr ""
+msgstr "som svarer til henholdsvis A2, A2+B2 og A2+B2+C2."
 
 #. hgtoV
 #: func_scan.xhp
