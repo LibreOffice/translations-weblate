@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2026-08-25 13:09+0200\n"
-"PO-Revision-Date: 2026-09-23 19:52+0000\n"
+"PO-Revision-Date: 2026-09-25 07:00+0000\n"
 "Last-Translator: raal <raal@post.cz>\n"
 "Language-Team: Czech <https://translations.documentfoundation.org/projects/libo_help-master/textsbasicpython/cs/>\n"
 "Language: cs\n"
@@ -491,7 +491,7 @@ msgctxt ""
 "par_id801776866004718\n"
 "help.text"
 msgid "<literal>officehelper</literal> module starts a %PRODUCTNAME process opening a named pipe of random name. <literal>officehelper</literal> binds <link href=\"text/sbasic/python/python_ide.xhp\">IDE-based Python scripts</link> to a running %PRODUCTNAME instance for debugging purpose."
-msgstr ""
+msgstr "Modul <literal>officehelper</literal> spouští proces %PRODUCTNAME a otevírá pojmenovaný kanál s náhodným názvem. <literal>officehelper</literal> váže <link href=\"text/sbasic/python/python_ide.xhp\">skripty Pythonu založené na IDE</link> ke spuštěné instanci %PRODUCTNAME za účelem ladění."
 
 #. zYGAY
 #: officehelper_module.xhp
@@ -500,7 +500,7 @@ msgctxt ""
 "hd_id441776867310830\n"
 "help.text"
 msgid "Methods"
-msgstr ""
+msgstr "Metody"
 
 #. UbBCV
 #: officehelper_module.xhp
@@ -509,7 +509,7 @@ msgctxt ""
 "par_id891611613601554\n"
 "help.text"
 msgid "List of Methods in <literal>officehelper</literal> module"
-msgstr ""
+msgstr "Seynam emtod v modulu <literal>officehelper</literal>"
 
 #. 2wsWa
 #: officehelper_module.xhp
@@ -617,7 +617,7 @@ msgctxt ""
 "par_id04258919969864\n"
 "help.text"
 msgid "Opens a named pipe of random name, uses the local context to access the pipe. Returns the remote component context, from whereon you can get the <literal>ServiceManager</literal> by calling <literal>getServiceManager()</literal> on the returned object. In addition <literal>SessionManager</literal> releases memory from the randomly named %PRODUCTNAME process and reports connection attempts to the console."
-msgstr ""
+msgstr "Otevře pojmenovaný kanál s náhodným názvem a pro přístup k němu použije lokální kontext. Vrací kontext vzdálené komponenty, ze kterého lze získat <literal>ServiceManager</literal> voláním <literal>getServiceManager()</literal> na vráceném objektu. Kromě toho <literal>SessionManager</literal> uvolní paměť z náhodně pojmenovaného procesu %PRODUCTNAME a hlásí pokusy o připojení do konzole."
 
 #. QmCeC
 #: officehelper_module.xhp
@@ -626,7 +626,7 @@ msgctxt ""
 "pyc_id602643307035249\n"
 "help.text"
 msgid "# user code goes here"
-msgstr ""
+msgstr "# zde patří uživatelský kód"
 
 #. Cs8oY
 #: officehelper_module.xhp
@@ -635,7 +635,7 @@ msgctxt ""
 "pyc_id161785249948421\n"
 "help.text"
 msgid "g_exportedScripts = (my_script,)  # LibreOffice entry points"
-msgstr ""
+msgstr "g_exportedScripts = (my_script,)  # vstupní body LibreOffice"
 
 #. 3DvBZ
 #: officehelper_module.xhp
@@ -644,7 +644,7 @@ msgctxt ""
 "pyc_id231785249949125\n"
 "help.text"
 msgid "if __name__ == \"__main__\":  # entry point for IDEs"
-msgstr ""
+msgstr "if __name__ == \"__main__\":  # vstupní bod pro IDE"
 
 #. SG9Rn
 #: officehelper_module.xhp
@@ -653,7 +653,7 @@ msgctxt ""
 "pyc_id521785249949604\n"
 "help.text"
 msgid "with SessionManager() as ctx:  # remote Python context"
-msgstr ""
+msgstr "with SessionManager() as ctx:  # vzdálený kontext Pythonu"
 
 #. kjVDF
 #: officehelper_module.xhp
@@ -662,7 +662,7 @@ msgctxt ""
 "par_id1001623412767893\n"
 "help.text"
 msgid "Use <link href=\"/text/sbasic/python/scriptforge_module.xhp\"><literal>scriptforge.ScriptForge()</literal></link> method to bind IDE-based Python scripts to a %PRODUCTNAME permanent <link href=\"text/shared/guide/start_parameters.xhp\">service started with the command line</link>."
-msgstr ""
+msgstr "Použijte metodu <link href=\"/text/sbasic/python/scriptforge_module.xhp\"><literal>scriptforge.ScriptForge()</literal></link> pro navázání skriptů Pythonu založených na IDE na trvalou <link href=\"text/shared/guide/start_parameters.xhp\">službu %PRODUCTNAME spuštěnou z příkazového řádku</link>."
 
 #. naZBV
 #: python_2_basic.xhp
@@ -2147,7 +2147,7 @@ msgctxt ""
 "N0106\n"
 "help.text"
 msgid "Unlike Basic language macros development in %PRODUCTNAME, developing Python scripts for %PRODUCTNAME requires to configure an external Integrated Development Environment (IDE). Multiple IDEs are available that range from beginners to advanced Python coders. While using a Python IDE programmers benefit from numerous features such as syntax highlighting, code folding, class browsing, code completion, coding standard enforcement, test driven development, debugging, version control and many more. You can refer to <link href=\"https://wiki.documentfoundation.org/Macros/Python_Design_Guide\">Designing & Developing Python Applications</link> on the Wiki for more in-depth information about the setup of a bridge between your IDE and a running instance of %PRODUCTNAME."
-msgstr ""
+msgstr "Na rozdíl od vývoje maker v jazyce Basic v %PRODUCTNAME vyžaduje vývoj skriptů v Pythonu pro %PRODUCTNAME konfiguraci externího integrovaného vývojového prostředí (IDE). K dispozici je několik IDE, které se hodí pro začátečníky i pokročilé programátory v Pythonu. Při používání IDE v Pythonu programátoři těží z mnoha funkcí, jako je zvýrazňování syntaxe, skládání kódu, procházení tříd, doplňování kódu, vynucování standardů kódování, vývoj řízený testy, ladění, správa verzí a mnoho dalších. Podrobnější informace o nastavení spojení mezi vaším IDE a spuštěnou instancí %PRODUCTNAME naleznete v článku <link href=\"https://wiki.documentfoundation.org/Macros/Python_Design_Guide\">Designing & Development of Python Applications</link> na Wiki."
 
 #. u2xio
 #: python_ide.xhp
@@ -4856,7 +4856,7 @@ msgctxt ""
 "tit\n"
 "help.text"
 msgid "scriptforge module"
-msgstr ""
+msgstr "modul scriptforge"
 
 #. khwv8
 #: scriptforge_module.xhp
@@ -4865,7 +4865,7 @@ msgctxt ""
 "hd_id31529004750471\n"
 "help.text"
 msgid "<variable id=\"scriptforge_module\"><link href=\"text/sbasic/python/scriptforge_module.xhp\"><literal>scriptforge</literal> module</link></variable>"
-msgstr ""
+msgstr "<variable id=\"scriptforge_module\"><link href=\"text/sbasic/python/scriptforge_module.xhp\"><literal>modul</literal> scriptforge</link></variable>"
 
 #. ysBzU
 #: scriptforge_module.xhp
@@ -4874,7 +4874,7 @@ msgctxt ""
 "bm_id491529070339774\n"
 "help.text"
 msgid "<bookmark_value>Python;scriptforge module</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Python;modul scriptforge</bookmark_value>"
 
 #. yrGCA
 #: scriptforge_module.xhp
@@ -4883,7 +4883,7 @@ msgctxt ""
 "par_id801776866004718\n"
 "help.text"
 msgid "<literal>scriptforge</literal> module holds an extensible collection or scripting resources for %PRODUCTNAME to be invoked from Python scripts. A complete description of these resources is available from <link href=\"text/sbasic/shared/03/lib_ScriptForge.xhp\">ScriptForge libraries</link> help page."
-msgstr ""
+msgstr "Modul <literal>scriptforge</literal> obsahuje rozšiřitelnou kolekci skriptovacích zdrojů pro %PRODUCTNAME, které lze spustit ze skriptů Pythonu. Úplný popis těchto zdrojů je k dispozici na stránce nápovědy <link href=\"text/sbasic/shared/03/lib_ScriptForge.xhp\">knihoven ScriptForge</link>."
 
 #. Fb6tG
 #: scriptforge_module.xhp
