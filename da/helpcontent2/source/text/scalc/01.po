@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2026-10-14 14:04+0200\n"
-"PO-Revision-Date: 2026-10-17 04:00+0000\n"
+"PO-Revision-Date: 2026-10-18 09:00+0000\n"
 "Last-Translator: Lars Jødal <lajo@rn.dk>\n"
 "Language-Team: Danish <https://translations.documentfoundation.org/projects/libo_help-master/textscalc01/da/>\n"
 "Language: da\n"
@@ -63727,7 +63727,7 @@ msgctxt ""
 "par_id21709506838932\n"
 "help.text"
 msgid "<input>=FILTER(A2:C13;A2:A13>50)</input> returns the array containing all grades with Maths grade above 50. Note that this is a <link href=\"text/scalc/guide/dynamic_arrays.xhp\">dynamic array formula</link>."
-msgstr ""
+msgstr "<input>=FILTRER(A2:C13;A2:A13>50)</input> returnerer matricen med alle matematikkarakterer over 50. Læg mærke til, at dette er en <link href=\"text/scalc/guide/dynamic_arrays.xhp\">dynamisk matrixformel</link>."
 
 #. EfQTW
 #: func_filter.xhp
@@ -63736,7 +63736,7 @@ msgctxt ""
 "par_id561709507935610\n"
 "help.text"
 msgid "<input>=FILTER(A2:C13;B2:B13>90;\"No results\")</input>  Returns the string \"No results\", since no grade on Physics is above 90."
-msgstr ""
+msgstr "<input>=FILTRER(A2:C13;B2:B13>90;\"Ingen resultater\")</input> returnerer strengen \"Ingen resultater\", eftersom ingen karakterer i fysik er over 90."
 
 #. q34Yg
 #: func_filter.xhp
@@ -70362,7 +70362,7 @@ msgctxt ""
 "par_id521715616457946\n"
 "help.text"
 msgid "<input>=RANDARRAY(10;4;10;50;1)</input> returns an array of 10 rows, 4 columns with minimum value 10 and maximum value of 50 of whole numbers (integers)."
-msgstr ""
+msgstr "<input>=SLUMPMATRIX(10;4;10;50;1)</input> returnerer en matrix på 10 rækker, 4 kolonner med tilfældige tal. Tallene er i intervallet fra 10 til 50, og de er heltal."
 
 #. iGDsD
 #: func_randarray.xhp
@@ -72056,7 +72056,7 @@ msgctxt ""
 "par_id771708806478128\n"
 "help.text"
 msgid "Generates a list of sequential numbers in an array."
-msgstr ""
+msgstr "Genererer en liste af sekventielle tal i en matrix."
 
 #. w6Q2e
 #: func_sequence.xhp
@@ -72065,7 +72065,7 @@ msgctxt ""
 "par_id211708281649651\n"
 "help.text"
 msgid "=SEQUENCE(Rows; [Columns [; Start [; Step ]]])"
-msgstr ""
+msgstr "=SEKVENS(Rækker; [Kolonner [; Start [; Skridtlængde ]]])"
 
 #. CDwFb
 #: func_sequence.xhp
@@ -72083,7 +72083,7 @@ msgctxt ""
 "par_id521714592660164\n"
 "help.text"
 msgid "<emph>Columns</emph>: optional, a positive integer. The number of columns to return. If omitted, default is 1."
-msgstr ""
+msgstr "<emph>Kolonner</emph>: Valgfri, et positivt heltal. Antallet af kolonner, som skal returneres. Hvis udeladt, er standardværdien 1."
 
 #. KNGFY
 #: func_sequence.xhp
@@ -72119,7 +72119,7 @@ msgctxt ""
 "par_id201714595986945\n"
 "help.text"
 msgid "<input>=SEQUENCE(3; 5; 10; 11)</input> returns the 3-by-5 array below with an upper-left value of 10 and filling the array to the right and then downward in steps of 11."
-msgstr ""
+msgstr "<input>=SEKVENS(3; 5; 10; 11)</input> returnerer 3-gange-5-matricen nedenfor, hvor den øverste venstre værdi er 10, og matricen er udfyldt mod højre og så nedad i skridt på 11."
 
 #. sNE2S
 #: func_sequence.xhp
@@ -72317,7 +72317,7 @@ msgctxt ""
 "par_id131711466000482\n"
 "help.text"
 msgid "<input>=SORT(A2:C6;2;1)</input>"
-msgstr ""
+msgstr "<input>=SORTER(A2:C6;2;1)</input>"
 
 #. MBgRu
 #: func_sort.xhp
@@ -72326,7 +72326,7 @@ msgctxt ""
 "par_id471711472262161\n"
 "help.text"
 msgid "Sort the range A2:C6 based on the second column in ascending order (Sales)."
-msgstr "Sorterer området A2:C& baseret på den anden kolonne i stigende orden (Salg)."
+msgstr "Sorterer området A2:C6 baseret på den anden kolonne i stigende orden (Salg)."
 
 #. EQiyc
 #: func_sort.xhp
@@ -72389,7 +72389,7 @@ msgctxt ""
 "par_id731711466320553\n"
 "help.text"
 msgid "<input>=SORT(A2:C6;3;-1)</input>"
-msgstr ""
+msgstr "<input>=SORTER(A2:C6;3;-1)</input>"
 
 #. FSrYH
 #: func_sort.xhp
@@ -72398,7 +72398,7 @@ msgctxt ""
 "par_id401711479167509\n"
 "help.text"
 msgid "Sort the range A2:C6 based on the third column in descending order (Revenue)."
-msgstr "Sorterer området A2:C6 baseret på den tredje kolonne in faldende orden (Indtægter)."
+msgstr "Sorterer området A2:C6 baseret på den tredje kolonne i faldende orden (Indtægter)."
 
 #. 5KSd6
 #: func_sort.xhp
@@ -72533,7 +72533,7 @@ msgctxt ""
 "par_id131711466000482\n"
 "help.text"
 msgid "<input>=SORTBY(A2:C7;A2:A7;1;C2:C7;-1)</input>"
-msgstr ""
+msgstr "<input>=SORTER.EFTER(A2:C7;A2:A7;1;C2:C7;-1)</input>"
 
 #. q9cpQ
 #: func_sortby.xhp
@@ -75269,7 +75269,7 @@ msgctxt ""
 "par_id471715980557106\n"
 "help.text"
 msgid "Given the data table below, the examples returns unique occurrences of grades and age."
-msgstr "Givet nedenstående datatabel, returnerer eksemplerne unikke forekomster af karakterer og alder."
+msgstr "Givet nedenstående datatabel, returnerer eksemplerne unikke forekomster af klasser og alder."
 
 #. r3gBH
 #: func_unique.xhp
@@ -75278,7 +75278,7 @@ msgctxt ""
 "par_id641715980827372\n"
 "help.text"
 msgid "<input>=UNIQUE(B1:C10; FALSE(); FALSE())</input> returns the array below. The grades and ages of the rows with name Andy and Harry are returned only once. The same for rows with name Eva and Irene."
-msgstr ""
+msgstr "<input>=UNIKKE(B1:C10; FALSK(); FALSK())</input> returnerer matricen nedenfor. Klasserne og aldrene for rækkerne med navnene Andy og Harry returneres kun én gang. Det samme gælder for rækkerne med navne Eva og Irene."
 
 #. 9XEhA
 #: func_unique.xhp
@@ -75287,7 +75287,7 @@ msgctxt ""
 "par_id641715983343641\n"
 "help.text"
 msgid "<emph>Grade</emph>"
-msgstr "<emph>Karakter</emph>"
+msgstr "<emph>Klasse</emph>"
 
 #. LFWFS
 #: func_unique.xhp
@@ -75314,7 +75314,7 @@ msgctxt ""
 "par_id501715983764524\n"
 "help.text"
 msgid "<emph>Grade</emph>"
-msgstr "<emph>Karakter</emph>"
+msgstr "<emph>Klasse</emph>"
 
 #. GAopa
 #: func_unique.xhp
