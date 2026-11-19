@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2026-06-05 13:32+0200\n"
-"PO-Revision-Date: 2026-11-12 11:01+0000\n"
+"PO-Revision-Date: 2026-11-19 20:01+0000\n"
 "Last-Translator: Mihail Balabanov <m.balabanov@gmail.com>\n"
 "Language-Team: Bulgarian <https://translations.documentfoundation.org/projects/libo_help-26-8/textsbasicshared03/bg/>\n"
 "Language: bg\n"
@@ -1112,7 +1112,7 @@ msgctxt ""
 "par_id831765200111034\n"
 "help.text"
 msgid "One-dimensional arrays containing only one-dimensional subarrays are called below <literal>data arrays</literal>. They are particularly suited for exchanges of tabular data with <literal>Python</literal> scripts and <literal>Calc</literal> sheets."
-msgstr ""
+msgstr "Едномерните масиви, съдържащи само едномерни подмасиви, по-долу се наричат <literal>масиви с данни</literal>. Те са особено подходящи за обмен на таблични данни със скриптове на <literal>Python</literal> и листове на <literal>Calc</literal>."
 
 #. hdC3J
 #: sf_array.xhp
@@ -1310,7 +1310,7 @@ msgctxt ""
 "bm_id741765204030416\n"
 "help.text"
 msgid "<bookmark_value>Array service;ConvertFromDataArray</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Array, услуга;ConvertFromDataArray</bookmark_value>"
 
 #. A8zk4
 #: sf_array.xhp
@@ -1319,7 +1319,7 @@ msgctxt ""
 "par_id41765204240195\n"
 "help.text"
 msgid "Convert a data array to a <literal>Basic</literal> array.<br/>A data array is an array of subarrays. On request, the individual output items are reduced to strings or doubles only."
-msgstr ""
+msgstr "Преобразува масив с данни към масив на <literal>Basic</literal>.<br/>Масивът с данни представлява масив от подмасиви. По заявка отделните елементи от резултата се свеждат само до низове или числа от типа double."
 
 #. iEoEk
 #: sf_array.xhp
@@ -1328,7 +1328,7 @@ msgctxt ""
 "par_id411765207592513\n"
 "help.text"
 msgid "The method returns a scalar, a zero-based 1D array or a zero-based 2D array.<br/>The number of columns in the resulting 2D array is equal to the number of items in the 1st subarray. If next subarrays have a different size, next rows will be complemented with the <literal>fillvalue</literal> argument or truncated."
-msgstr ""
+msgstr "Методът връща скалар, индексиран от 0 едномерен масив или индексиран от 0 двумерен масив.<br/>Броят колони в резултатния двумерен масив е равен на броя елементи в първия подмасив. Ако следващите подмасиви имат различен размер, следващите редове ще бъдат допълнени с аргумента <literal>fillvalue</literal> или отрязани."
 
 #. 2tGzp
 #: sf_array.xhp
@@ -1337,7 +1337,7 @@ msgctxt ""
 "par_id561581234214489\n"
 "help.text"
 msgid "<emph>dataarray</emph>: An array of subarrays. Array and subarrays must be zero-based.<br/>Typically a data array is either output by"
-msgstr ""
+msgstr "<emph>dataarray</emph>: масив от подмасиви. И масивът, и подмасивите трябва да са индексирани от 0.<br/>Обикновено масивите с данни се извеждат чрез"
 
 #. DJ7vY
 #: sf_array.xhp
@@ -1346,7 +1346,7 @@ msgctxt ""
 "par_id151765206451449\n"
 "help.text"
 msgid "the <link href=\"text/sbasic/shared/03/sf_session.xhp#ExecuteCalcFunction\">session.ExecuteCalcFunction()</link> method"
-msgstr ""
+msgstr "метода <link href=\"text/sbasic/shared/03/sf_session.xhp#ExecuteCalcFunction\">session.ExecuteCalcFunction()</link>"
 
 #. eQBM3
 #: sf_array.xhp
@@ -1355,7 +1355,7 @@ msgctxt ""
 "par_id851765206498930\n"
 "help.text"
 msgid "a Python script returning a tuple of tuples"
-msgstr ""
+msgstr "скрипт на Python, който връща кортеж от кортежи"
 
 #. r6Vmi
 #: sf_array.xhp
@@ -1364,7 +1364,7 @@ msgctxt ""
 "par_id51765206545727\n"
 "help.text"
 msgid "the <literal>getDataArray()</literal> method from the <literal>com.sun.star.sheet.XCellRangeData</literal> interface"
-msgstr ""
+msgstr "метода <literal>getDataArray()</literal> от интерфейса <literal>com.sun.star.sheet.XCellRangeData</literal>"
 
 #. zzMfr
 #: sf_array.xhp
@@ -1373,7 +1373,7 @@ msgctxt ""
 "par_id361765207142576\n"
 "help.text"
 msgid "<emph>isrange</emph>: When <literal>True</literal> (default = <literal>False</literal>), the items are converted to strings or doubles."
-msgstr ""
+msgstr "<emph>isrange</emph>: когато е <literal>True</literal> (подразбира се <literal>False</literal>), елементите се преобразуват в низове или числа double."
 
 #. FBLKp
 #: sf_array.xhp
@@ -1382,7 +1382,7 @@ msgctxt ""
 "par_id861765207423152\n"
 "help.text"
 msgid "<emph>fillvalue</emph>: How to replace missing items. Default = the empty string."
-msgstr ""
+msgstr "<emph>fillvalue</emph>: с какво да се заместват липсващите елементи. Подразбира се празен низ."
 
 #. WTXMU
 #: sf_array.xhp
@@ -1391,7 +1391,7 @@ msgctxt ""
 "bm_id741953578080416\n"
 "help.text"
 msgid "<bookmark_value>Array service;ConvertToDataArray</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Array, услуга;ConvertToDataArray</bookmark_value>"
 
 #. Haeq4
 #: sf_array.xhp
@@ -1400,7 +1400,7 @@ msgctxt ""
 "par_id41796324240195\n"
 "help.text"
 msgid "Create a data array from a scalar, a 1D array or a 2D array.<br/>A data array is a zero-based array of zero-based subarrays. On request, the individual output items are reduced to strings or doubles only."
-msgstr ""
+msgstr "Създава масив с данни от скалар, едномерен масив или двумерен масив.<br/>Масивът с данни представлява индексиран от 0 масив от индексирани от 0 подмасиви. По заявка отделните елементи от резултата се свеждат само до низове или числа от типа double."
 
 #. BvApk
 #: sf_array.xhp
@@ -1409,7 +1409,7 @@ msgctxt ""
 "par_id561781234214489\n"
 "help.text"
 msgid "The returned data array is typically used as"
-msgstr ""
+msgstr "Върнатият масив с данни обикновено се използва като"
 
 #. Db427
 #: sf_array.xhp
@@ -1418,7 +1418,7 @@ msgctxt ""
 "par_id851769514498930\n"
 "help.text"
 msgid "a tuple of (sub)tuples passed to a Python script"
-msgstr ""
+msgstr "кортеж от (под)кортежи, подаден към скрипт на Python"
 
 #. AdgDE
 #: sf_array.xhp
@@ -1427,7 +1427,7 @@ msgctxt ""
 "par_id51769437545727\n"
 "help.text"
 msgid "argument of the <literal>setDataArray()</literal> method from the <literal>com.sun.star.sheet.XCellRangeData</literal> interface"
-msgstr ""
+msgstr "аргумент на метода метода <literal>setDataArray()</literal> от интерфейса <literal>com.sun.star.sheet.XCellRangeData</literal>"
 
 #. bRAjE
 #: sf_array.xhp
@@ -1436,7 +1436,7 @@ msgctxt ""
 "par_id281765284424698\n"
 "help.text"
 msgid "<emph>data</emph>: The input scalar, 1D or 2D array."
-msgstr ""
+msgstr "<emph>data</emph>: входният скалар, едномерен масив или двумерен масив."
 
 #. BXhBx
 #: sf_array.xhp
@@ -1445,7 +1445,7 @@ msgctxt ""
 "par_id361765207357976\n"
 "help.text"
 msgid "<emph>isrange</emph>: When <literal>True</literal> (default = <literal>False</literal>), the array items are stored as (possibly empty) strings or doubles only into the data array."
-msgstr ""
+msgstr "<emph>isrange</emph>: когато е <literal>True</literal> (подразбира се <literal>False</literal>), елементите от масивите се съхраняват само като (евентуално празни) низове или числа double в масива с данни."
 
 #. LRqZU
 #: sf_array.xhp
@@ -1454,7 +1454,7 @@ msgctxt ""
 "par_id286465207423152\n"
 "help.text"
 msgid "<emph>rows, columns</emph>: The number of rows or columns of the returned data array. When they exceed the limits of <literal>data</literal>, fill with zero-length strings. If <literal>rows</literal> = 1 and the input array is a vector, the data array is aligned horizontally (by default, vectors are aligned vertically). When absent, the size of the output is determined by the input array."
-msgstr ""
+msgstr "<emph>rows, columns</emph>: броят редове или колони на връщания масив с данни. Когато те надхвърлят ограниченията на <literal>data</literal>, масивът се допълва с низове с нулева дължина. Ако <literal>rows</literal> = 1 и входният масив е вектор, масивът с данни е подравнен хоризонтално (по подразбиране векторите са подравнени вертикално). Когато отсъства, размерът на изхода се определя от входния масив."
 
 #. 7AGE6
 #: sf_array.xhp
@@ -1499,7 +1499,7 @@ msgctxt ""
 "bm_id741953548620416\n"
 "help.text"
 msgid "<bookmark_value>Array service;ConvertToRange</bookmark_value>"
-msgstr ""
+msgstr "<bookmark_value>Array, услуга;ConvertToRange</bookmark_value>"
 
 #. G8BZg
 #: sf_array.xhp
@@ -1508,7 +1508,7 @@ msgctxt ""
 "par_id41796364640195\n"
 "help.text"
 msgid "Create a valid cells range content from a scalar, a 1D array, a 2D array or a data array (a data array is a zero-based array of zero-based subarrays). The lower bounds of arrays are preserved in the output."
-msgstr ""
+msgstr "Създава валидно съдържание на диапазон от клетки от скалар, едномерен масив, двумерен масив или масив с данни (последният представлява индексиран от 0 масив от индексирани от 0 подмасиви). Долните граници на масивите се запазват в резултата."
 
 #. G66MS
 #: sf_array.xhp
@@ -1517,7 +1517,7 @@ msgctxt ""
 "par_id311765287171028\n"
 "help.text"
 msgid "The individual items are always reduced to strings or doubles, including booleans or dates."
-msgstr ""
+msgstr "Отделните елементи винаги се свеждат до низове или числа double, включително булевите стойности и датите."
 
 #. Cje28
 #: sf_array.xhp
@@ -1526,7 +1526,7 @@ msgctxt ""
 "par_id561786541214489\n"
 "help.text"
 msgid "The returned scalar or 2D array is a valid argument of the <link href=\"text/sbasic/shared/03/sf_session.xhp#ExecuteCalcFunction\">session.ExecuteCalcFunction()</link> method. This is particularly useful in the context of [complex] array functions."
-msgstr ""
+msgstr "Върнатият скалар или двумерен масив е валиден аргумент за метода <link href=\"text/sbasic/shared/03/sf_session.xhp#ExecuteCalcFunction\">session.ExecuteCalcFunction()</link>. Това е особено полезно в контекста на [сложни] функции за масиви."
 
 #. VU8ZH
 #: sf_array.xhp
@@ -1535,7 +1535,7 @@ msgctxt ""
 "par_id281257984424698\n"
 "help.text"
 msgid "<emph>data</emph>: The input scalar, 1D array,2D array or data array."
-msgstr ""
+msgstr "<emph>data</emph>: входният скалар, едномерен масив, двумерен масив или масив с данни."
 
 #. 7QZet
 #: sf_array.xhp
@@ -1544,7 +1544,7 @@ msgctxt ""
 "par_id361765202557976\n"
 "help.text"
 msgid "<emph>direction</emph>: The alignment of the range when it is a vector, either \"V\"[ertical, default] or \"H\"[orizontal]."
-msgstr ""
+msgstr "<emph>direction</emph>: подравняването на диапазона, когато той е вектор, или \"V\" (вертикално), или \"H\" (хоризонтално)."
 
 #. vnFE8
 #: sf_array.xhp
@@ -1553,7 +1553,7 @@ msgctxt ""
 "bas_id681765288940028\n"
 "help.text"
 msgid "matrix = SF_Array.AppendRow(matrix, Array(7, 8, -9))"
-msgstr ""
+msgstr "matrix = SF_Array.AppendRow(matrix, Array(7, 8, -9))"
 
 #. bGXKd
 #: sf_array.xhp
